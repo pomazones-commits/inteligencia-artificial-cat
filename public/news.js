@@ -1,38 +1,38 @@
 window.IA_NEWS = [
   {
-    "category": "MÓN",
+    "category": "TECNOLOGIA",
+    "read": "4 MIN",
+    "slug": "openai-gpt-5-6",
+    "title": "OpenAI llança GPT-5.6 després del retard imposat pel govern dels EUA",
+    "excerpt": "El nou model, format per tres variants —Sol, Terra i Luna—, arriba amb setmanes de retard per revisió de seguretat de l'administració Trump i es presenta com a rival directe de Claude Fable 5.",
+    "image": "./assets/openai-gpt-5-6-20260712.jpg",
+    "sourceName": "TechCrunch — OpenAI launches its new family of models with GPT-5.6",
+    "sourceUrl": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+    "sourceDate": "9 de juliol de 2026",
+    "body": "OpenAI havia previst llançar aquesta nova família de models al juny, però el govern dels Estats Units en va demanar el retard per motius de ciberseguretat. Fins a la seva publicació pública, el sistema només s'havia posat a disposició d'una vintena de socis aprovats individualment per l'administració, mentre el Centre per a Estàndards i Innovació en IA del Departament de Comerç en completava les proves.\n\nGPT-5.6 arriba en tres nivells: Sol, el model de referència; Terra, una opció intermèdia; i Luna, la variant més ràpida i econòmica. Sam Altman ha afirmat que Sol és «un 54% més eficient» en tasques de programació, i OpenAI sosté que assoleix una puntuació de 80 a l'Artificial Analysis Coding Agent Index, «2,8 punts per sobre de Fable 5» i amb menys de la meitat dels tokens de sortida. La companyia també ha presentat ChatGPT Work, una eina pensada per a la redacció de documents i fulls de càlcul a l'empresa.\n\nEl llançament arriba en un moment de competència aguditzada amb Anthropic, que aquest 2026 ha superat OpenAI en ingressos anualitzats i en subscripcions empresarials. Situar GPT-5.6 explícitament per sobre de Fable 5 en les seves pròpies mètriques respon a aquesta pressió: recuperar terreny narratiu i comercial davant d'un rival que guanya quota.\n\nLes xifres de rendiment procedeixen, de moment, de la mateixa OpenAI, i caldrà una verificació independent per confirmar-les. A més, el precedent de revisió governamental prèvia al llançament —que la companyia mateixa qualifica d'excepcional i diu no voler veure normalitzat— obre un debat de fons sobre fins a quin punt els estats haurien de supervisar la sortida al mercat dels models més avançats."
+  },
+  {
+    "category": "GOVERNANÇA",
     "read": "5 MIN",
-    "slug": "apple-demanda-openai",
-    "title": "Apple demanda OpenAI per apropiació de secrets industrials i confia la nova Siri a Gemini",
-    "excerpt": "La demanda, presentada en un tribunal federal de Califòrnia, assenyala dos exenginyers d'Apple i confirma un gir estratègic: la Siri renovada funcionarà amb models de Google.",
-    "image": "./assets/apple-demanda-openai-20260712.jpg",
-    "sourceName": "CNBC — Apple sues OpenAI alleging trade secret theft",
-    "sourceUrl": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
-    "sourceDate": "10 de juliol de 2026",
-    "body": "Apple ha presentat una demanda contra OpenAI davant d'un tribunal federal del nord de Califòrnia per presumpta apropiació de secrets industrials. La denúncia, registrada el 10 de juliol, també inclou io Products, la filial de maquinari d'OpenAI, i dos antics treballadors d'Apple: Tang Tan, avui director de maquinari d'OpenAI, i Chang Liu, un exenginyer sènior de sistemes elèctrics.\n\nSegons la demanda, l'esquema hauria operat «a tots els nivells». L'acusació més concreta apunta a Liu: Apple sosté que no va retornar l'ordinador corporatiu, que es va saltar l'entrevista de sortida i que, un cop fora de l'empresa, va aprofitar una errada del sistema per accedir a l'emmagatzematge intern al núvol i descarregar-ne desenes de fitxers confidencials, incloent-hi més d'un miler de pàgines de documentació tècnica.\n\nLa demanda arriba en un moment delicat per a totes dues companyies: OpenAI prepara la seva sortida a borsa, i Apple ha confirmat que la nova versió de Siri, prevista per a la tardor, es basarà en els models Gemini de Google i no en la tecnologia d'OpenAI. És un gir notable respecte de l'acord de 2024 que havia integrat ChatGPT a l'assistent d'Apple.\n\nConvé llegir-ho amb cautela: de moment són al·legacions d'una de les parts, i el procés judicial haurà de determinar què es pot provar. Però el cas il·lustra una tensió creixent al sector: el talent i el coneixement tècnic circulen entre empreses rivals a una velocitat que els marcs legals de protecció industrial no sempre saben acompanyar."
+    "slug": "onu-cimera-governanca-ia",
+    "title": "Bengio alerta que la ciència \"no pot garantir\" que la IA no provoqui un dany catastròfic",
+    "excerpt": "La cimera de l'ONU a Ginebra i el primer informe del Panell Científic Internacional sobre IA posen sobre la taula els riscos de manipulació informativa i desigualtat global.",
+    "image": "./assets/onu-cimera-governanca-ia-20260712.jpg",
+    "sourceName": "UN News — Global push for AI governance amid warnings of 'catastrophic harm'",
+    "sourceUrl": "https://news.un.org/en/story/2026/07/1167862",
+    "sourceDate": "5 de juliol de 2026",
+    "body": "Les Nacions Unides van convocar els dies 6 i 7 de juliol una cimera a Ginebra sobre governança de la intel·ligència artificial, amb representants de governs, empreses tecnològiques, món acadèmic i societat civil. El teló de fons és la mateixa preocupació de sempre, cada cop més urgent: la tecnologia avança més de pressa que la capacitat de les institucions per regular-la.\n\nLa trobada va coincidir amb la publicació, l'1 de juliol, del primer informe del Panell Científic Internacional Independent sobre IA. El seu copresident, Yoshua Bengio, hi va advertir que «la ciència actualment no pot garantir que la IA no provocarà un dany catastròfic», alhora que constatava que «la IA s'està acostant o superant les capacitats humanes en molts àmbits». La periodista Maria Ressa, també membre del panell, hi va afegir que «el món no pot governar allò que no entén» i que «la integritat de la informació és el nucli de la batalla» per la democràcia. Representants d'Estònia i el Salvador van posar el focus en la bretxa global d'accés a la tecnologia.\n\nLa cimera representa un dels intents més visibles fins ara de teixir un consens científic i polític compartit sobre els riscos de la IA avançada, en un moment en què el desenvolupament dels models continua accelerant-se sense que existeixi encara cap marc regulador internacional vinculant.\n\nL'informe del panell no té caràcter vinculant ni capacitat sancionadora, i els interessos divergents de les grans potències —Estats Units, Xina, Unió Europea— fan difícil preveure una coordinació real a curt termini. Queda per veure si les advertències científiques es tradueixen en compromisos concrets o queden, un cop més, en declaracions de bones intencions."
   },
   {
     "category": "CATALUNYA",
     "read": "4 MIN",
-    "slug": "empreses-catalanes-ia-accio",
-    "title": "Tres de cada deu empreses catalanes ja han invertit en intel·ligència artificial",
-    "excerpt": "Les dades d'ACCIÓ mostren una adopció que s'ha més que duplicat en dos anys: del 12,6% del 2023 al 30,4% del 2025.",
-    "image": "./assets/empreses-catalanes-ia-accio-20260712.jpg",
-    "sourceName": "RAB Ràdio / ACCIÓ",
-    "sourceUrl": "https://rab.cat/2026/07/11/tres-cada-deu-empreses-catalanes-incorporat-ia/",
+    "slug": "flix-factoria-ia-submer",
+    "title": "Flix acollirà una factoria d'IA de més de 1.000 milions d'euros als terrenys d'Ercros",
+    "excerpt": "Submer Group construirà un centre de dades vora l'Ebre amb 50 MW de potència inicial i 150 llocs de treball directes, operatiu de manera progressiva a partir del 2027.",
+    "image": "./assets/flix-factoria-ia-submer-20260712.jpg",
+    "sourceName": "RAB Ràdio — Flix acollirà una factoria d'IA de més de 1.000 milions",
+    "sourceUrl": "https://rab.cat/2026/07/11/factoria-ia-submer-group-flix-ercros/",
     "sourceDate": "11 de juliol de 2026",
-    "body": "La intel·ligència artificial guanya pes al teixit productiu català: el 30,4% de les empreses de més de nou treballadors van invertir en tecnologies vinculades a la IA durant el 2025, segons dades d'ACCIÓ, l'agència per a la competitivitat de l'empresa de la Generalitat.\n\nLa progressió és el més significatiu de la xifra: el 2023 només ho feia el 12,6% de les companyies, el 2024 va pujar al 24% i el 2025 ha arribat al 30,4%. En dos anys, l'adopció s'ha més que duplicat, amb un salt de sis punts percentuals en el darrer exercici.\n\nLes dades es van presentar en el marc de l'Exponential Day, la cita d'innovació oberta d'ACCIÓ que ha reunit més de 1.500 inscrits al World Trade Center de Barcelona. El debat d'enguany va girar al voltant de la IA agèntica: sistemes que ja no només responen preguntes, sinó que poden actuar, coordinar-se i gestionar processos amb més autonomia.\n\nDarrere del titular hi ha una pregunta oberta: invertir en IA no equival a transformar-se. Caldrà veure quantes d'aquestes empreses passen de les proves pilot a canvis reals en processos, productes i llocs de treball — i com es reparteix aquesta transformació entre la gran empresa i la pime, que constitueix la major part del teixit econòmic català."
-  },
-  {
-    "category": "TRANSPARÈNCIA",
-    "read": "3 MIN",
-    "slug": "anthropic-preguntes-dificils",
-    "title": "Anthropic demana al públic les preguntes més difícils sobre la IA",
-    "excerpt": "La companyia es compromet a fer seguiment públic de les accions amb què respon a les inquietuds ciutadanes — i a admetre quan es quedi curta.",
-    "image": "./assets/anthropic-preguntes-dificils-20260712.jpg",
-    "sourceName": "Anthropic — Inviting hard questions",
-    "sourceUrl": "https://www.anthropic.com/news/hard-questions",
-    "sourceDate": "9 de juliol de 2026",
-    "body": "Anthropic, l'empresa creadora de Claude, ha obert una convocatòria pública perquè qualsevol persona li faci arribar les seves preguntes més difícils sobre la intel·ligència artificial: des de l'impacte en l'ocupació i la societat fins a les preocupacions familiars o el potencial de la IA en ciència i medicina.\n\nLa iniciativa no parteix de zero. La companyia afirma haver enquestat 52.000 nord-americans sobre esperances i temors davant la IA, haver entrevistat 81.000 usuaris de Claude en 159 països i haver organitzat desenes de grups de discussió presencials, a més d'analitzar dades d'ús anonimitzades.\n\nEl compromís central és el seguiment: Anthropic diu que farà públiques les accions concretes amb què respongui a aquestes preguntes i que serà «clara sobre les maneres en què podríem quedar-nos curts». La companyia, constituïda com a societat de benefici públic, ha creat també l'Anthropic Institute per abordar els reptes socials de la IA.\n\nEl valor real de la iniciativa es mesurarà amb el temps: demanar preguntes difícils és fàcil; respondre-les públicament i deixar-se auditar, no tant. Però en un sector on la comunicació corporativa tendeix al triomfalisme, un mecanisme que institucionalitza el dubte i la rendició de comptes és, com a mínim, un experiment que val la pena seguir."
+    "body": "Els terrenys que durant dècades van acollir la planta de clor d'Ercros, al municipi de Flix, a la Ribera d'Ebre, es transformaran en una gran factoria de processament de dades per a intel·ligència artificial. El projecte és impulsat per Submer Group, empresa catalana especialitzada en infraestructura de dades, que hi preveu invertir més de 1.000 milions d'euros.\n\nLa primera fase de les instal·lacions disposarà d'una capacitat de 50 MW i generarà aproximadament 150 llocs de treball directes. Segons l'empresa, el centre començarà a operar de manera progressiva a partir del 2027 i n'assolirà el ple rendiment el 2029. Pol Valls, cofundador de Submer Group, ha explicat que «el futur centre ha estat concebut des del primer moment amb criteris de sostenibilitat». El president de la Generalitat, Salvador Illa, ha descrit la iniciativa com un «motor per a una nova etapa de creixement industrial» per a la zona.\n\nEl projecte s'emmarca en una onada més àmplia de grans inversions en infraestructura de dades a Catalunya, coincidint amb l'informe d'ACCIÓ que constata que un 30,4% de les empreses catalanes ja han incorporat la IA. Per a la Ribera d'Ebre, una comarca marcada per la reconversió industrial des del tancament d'activitat de la planta química, l'anunci representa una oportunitat de reindustrialització amb un horitzó de dèficit temporal.\n\nEl consum energètic i hídric dels grans centres de dades d'IA és, arreu, motiu de debat i escrutini ambiental, i les promeses de sostenibilitat d'aquest tipus de projectes solen mesurar-se un cop entren en funcionament. Caldrà veure si els 150 llocs de treball anunciats es materialitzen tal com es preveu i quin és l'impacte real sobre els recursos hídrics del riu Ebre."
   }
 ];
