@@ -13,14 +13,24 @@ jobs:
       - name: Descarrega el repositori
         uses: actions/checkout@v4
 
-      - name: Puja public/ per FTPS a Hostinger
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: srv1589.hstgr.io
-          username: u901078817.claude
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          port: 21
-          local-dir: ./public/
-          server-dir: ./
-          dangerous-clean-slate: false
+      - name: Puja public/ per FTP (login xifrat, dades en clar)
+        env:
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          set -e
+          cd public
+          errors=0
+          # --ftp-ssl-control: TLS per al login, canal de dades en clar (evita el bloqueig de l'FTPS de Hostinger)
+          while IFS= read -r f; do
+            rel="${f#./}"
+            if curl -sS --fail --ftp-ssl-control --ftp-create-dirs --connect-timeout 20 --max-time 120 \
+                 -T "$f" -u "u901078817.claude:$FTP_PASSWORD" \
+                 "ftp://srv1589.hstgr.io/$rel"; then
+              echo "OK  $rel"
+            else
+              echo "FALLA  $rel"; errors=$((errors+1))
+            fi
+          done < <(find . -type f)
+          echo "----"
+          if [ "$errors" -gt 0 ]; then echo "$errors fitxers han fallat"; exit 1; fi
+          echo "Tots els fitxers pujats correctament."
