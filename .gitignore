@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+dist/
+work/
+outputs/
+*.tgz
+*.zip

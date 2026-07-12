@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080908"><title>Article · intel·ligència artificial.cat</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="article-page">
+  <header class="site-header"><a class="brand" href="./index.html">intel·ligència <em>artificial</em>.cat</a></header>
+  <main class="article-shell" id="article"><p class="eyebrow">CARREGANT ARTICLE</p><h1>Un moment, estem preparant la lectura.</h1></main>
+  <script src="./news.js?v=2026071006"></script>
+  <script>
+    const slug=new URLSearchParams(location.search).get('slug');
+    const escape=s=>String(s||'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));
+    Promise.resolve(window.IA_NEWS||[]).then(items=>{
+      const a=items.find(x=>x.slug===slug); if(!a)throw Error();
+      document.title=`${a.title} · intel·ligència artificial.cat`;
+      document.querySelector('#article').innerHTML=`<p class="eyebrow">${escape(a.category)} · ${escape(a.read||'5 MIN')}</p><h1>${escape(a.title)}</h1><p class="article-lede">${escape(a.excerpt)}</p>${a.image?`<img class="article-image" src="${escape(a.image)}" alt="Il·lustració generada amb IA">`:''}<div class="article-body">${escape(a.body||a.excerpt).split(/\n\n+/).map(p=>`<p>${p}</p>`).join('')}</div><a class="back-link" href="./index.html#avui">← Torna a l’edició</a>`;
+    }).catch(()=>{document.querySelector('#article').innerHTML='<p class="eyebrow">ARTICLE NO TROBAT</p><h1>Aquesta història no està disponible.</h1><a class="back-link" href="./index.html#avui">← Torna a l’edició</a>'});
+  </script>
+</body></html>
