@@ -1,7 +1,5 @@
 name: Desplega la web a Hostinger
 
-# S'executa quan la rutina de Claude puja una edició nova (push a main),
-# i també es pot llançar a mà des de la pestanya Actions (workflow_dispatch).
 on:
   push:
     branches: [main]
@@ -15,18 +13,14 @@ jobs:
       - name: Descarrega el repositori
         uses: actions/checkout@v4
 
-      - name: Instal·la lftp
-        run: sudo apt-get update && sudo apt-get install -y lftp
-
-      - name: Puja public/ per FTPS (només fitxers nous, sense esborrar)
-        env:
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        run: |
-          lftp -c "
-            set ftp:ssl-force true;
-            set ftp:ssl-protect-data true;
-            set ssl:verify-certificate no;
-            set net:timeout 20; set net:max-retries 2;
-            open -u u901078817.claude,\"$FTP_PASSWORD\" srv1589.hstgr.io;
-            mirror --reverse --only-newer --no-perms --no-symlinks --parallel=2 --verbose ./public/ ./
-          "
+      - name: Puja public/ per FTPS a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: srv1589.hstgr.io
+          username: u901078817.claude
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: ./public/
+          server-dir: ./
+          dangerous-clean-slate: false
