@@ -97,7 +97,10 @@ const [news, radar, reflection] = await Promise.all([
   loadScriptData('./reflection.js', 'IA_REFLECTION', fallbackReflection),
 ]);
 
-document.querySelector('#news-grid').innerHTML = news.slice(0, 6).map(card).join('');
+const newsGrid = document.querySelector('#news-grid');
+const visibleNews = news.slice(0, 6);
+newsGrid.innerHTML = visibleNews.map(card).join('');
+newsGrid.dataset.count = String(visibleNews.length);
 renderRadar(Array.isArray(radar) && radar.length ? radar : fallbackRadar);
 renderReflection(reflection || fallbackReflection);
 bindExpandablePanels();
