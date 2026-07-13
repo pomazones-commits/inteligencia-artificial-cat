@@ -17,6 +17,10 @@
     .arxiu-item{border-bottom:1px solid #cdc9c1;padding:20px 0}
     .arxiu-item:last-child{border-bottom:0}
     .arxiu-item .story-meta{margin-bottom:8px}
+    .arxiu-item.amb-imatge .arxiu-capcalera{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:start}
+    .arxiu-mini{width:120px;height:140px;object-fit:cover;filter:saturate(.9) contrast(1.05)}
+    .arxiu-imatge-gran{width:100%;max-width:660px;max-height:420px;object-fit:cover;margin:0 0 18px}
+    @media(max-width:720px){.arxiu-item.amb-imatge .arxiu-capcalera{grid-template-columns:92px 1fr;gap:14px}.arxiu-mini{width:92px;height:112px}}
     .arxiu-item h3{font-size:24px;line-height:1.05;letter-spacing:-.05em;margin:0 0 10px;color:#101014}
     .arxiu-item p{font-size:13px;line-height:1.55;color:#5a5752;max-width:640px;margin:0 0 12px}
     .arxiu-obre{background:transparent;border:0;border-bottom:1px solid;padding:0 0 5px;font:10px 'DM Mono',monospace;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;color:#111}
@@ -48,12 +52,18 @@
         <section class="arxiu-dia">
           <h2>Edició del ${esc(ed.date)}</h2>
           ${(ed.items || []).map((it, j) => `
-            <article class="arxiu-item">
-              <p class="story-meta"><span class="tag">${esc(it.category || '')}</span> <span>·</span> ${esc(it.read || '')}</p>
-              <h3>${esc(it.title)}</h3>
-              <p>${esc(it.excerpt || '')}</p>
-              <button class="arxiu-obre" type="button" data-obre="cos-${i}-${j}" aria-expanded="false" aria-controls="cos-${i}-${j}">Llegeix l'article ↓</button>
+            <article class="arxiu-item ${it.image ? 'amb-imatge' : ''}">
+              <div class="arxiu-capcalera">
+                ${it.image ? `<img class="arxiu-mini" src="${esc(it.image)}" alt="Il·lustració de la notícia" loading="lazy" onerror="this.remove()">` : ''}
+                <div>
+                  <p class="story-meta"><span class="tag">${esc(it.category || '')}</span> <span>·</span> ${esc(it.read || '')}</p>
+                  <h3>${esc(it.title)}</h3>
+                  <p>${esc(it.excerpt || '')}</p>
+                  <button class="arxiu-obre" type="button" data-obre="cos-${i}-${j}" aria-expanded="false" aria-controls="cos-${i}-${j}">Llegeix l'article ↓</button>
+                </div>
+              </div>
               <div class="arxiu-cos" id="cos-${i}-${j}" hidden>
+                ${it.image ? `<img class="arxiu-imatge-gran" src="${esc(it.image)}" alt="Il·lustració de la notícia" loading="lazy" onerror="this.remove()">` : ''}
                 ${esc(it.body || it.excerpt || '').split(/\n\n+/).map(p => `<p>${p}</p>`).join('')}
                 ${it.sourceUrl ? `<p class="arxiu-font">Font: <a href="${esc(it.sourceUrl)}" target="_blank" rel="noreferrer">${esc(it.sourceName || 'original')} ↗</a>${it.sourceDate ? ' · ' + esc(it.sourceDate) : ''}</p>` : ''}
               </div>
