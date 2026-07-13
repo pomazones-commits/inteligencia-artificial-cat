@@ -111,6 +111,23 @@ renderRadar(Array.isArray(radar) && radar.length ? radar : fallbackRadar);
 renderReflection(reflection || fallbackReflection);
 bindExpandablePanels();
 
+const menuButton = document.querySelector('.menu-button');
+const topNav = document.querySelector('.topbar nav');
+if (menuButton && topNav) {
+  menuButton.setAttribute('aria-expanded', 'false');
+  menuButton.addEventListener('click', () => {
+    const open = document.body.classList.toggle('nav-open');
+    menuButton.setAttribute('aria-expanded', String(open));
+    menuButton.setAttribute('aria-label', open ? 'Tanca el menú' : 'Obre el menú');
+  });
+  topNav.addEventListener('click', event => {
+    if (event.target instanceof Element && event.target.closest('a')) {
+      document.body.classList.remove('nav-open');
+      menuButton.setAttribute('aria-expanded', 'false');
+    }
+  });
+}
+
 document.addEventListener('pointermove', event => {
   document.documentElement.style.setProperty('--mx', `${event.clientX}px`);
   document.documentElement.style.setProperty('--my', `${event.clientY}px`);

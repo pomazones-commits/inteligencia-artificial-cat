@@ -19,4 +19,33 @@
 .news-grid[data-count="5"] .news-card:nth-child(-n+2) p:last-child{font-size:13px;max-width:420px}
 .news-grid[data-count="5"] .news-card.with-image:nth-child(-n+2) a{grid-template-columns:158px 1fr;gap:22px}
 .news-grid[data-count="5"] .news-card:nth-child(-n+2) img{width:158px;height:186px}
+/* Menú mòbil (el botó de dues ratlles) */
+.menu-button{cursor:pointer}
+.menu-button i{transition:transform .3s ease}
+@media(max-width:720px){
+.topbar{z-index:45}
+body.nav-open .topbar nav{display:flex;position:fixed;inset:0;z-index:44;flex-direction:column;align-items:center;justify-content:center;gap:36px;background:rgba(7,7,11,.96);backdrop-filter:blur(6px)}
+body.nav-open .topbar nav a{font-size:17px;letter-spacing:.14em}
+.menu-button{position:relative;z-index:46;padding:12px 6px}
+body.nav-open .menu-button i:first-child{transform:translateY(3px) rotate(45deg)}
+body.nav-open .menu-button i:last-child{transform:translateY(-3px) rotate(-45deg)}
+body.nav-open{overflow:hidden}
+}
+
+/* Vida cinemàtica: moviments lents i continus */
+@keyframes hero-drift{from{transform:scale(1.02) translate(0,0)}to{transform:scale(1.1) translate(-1.4%,1%)}}
+.hero-image{animation:hero-in 1.8s cubic-bezier(.2,.7,.2,1) both,hero-drift 38s ease-in-out 1.8s infinite alternate}
+@keyframes orb-float{from{translate:0 0}to{translate:-12px 16px}}
+.orb-a{animation:orb-float 9s ease-in-out infinite alternate}
+.orb-b{animation:orb-float 7s ease-in-out infinite alternate-reverse}
+@keyframes radar-pulse{0%{box-shadow:0 0 0 6px #d8ff3220,0 0 32px 5px #d8ff3280}70%{box-shadow:0 0 0 26px #d8ff3200,0 0 32px 5px #d8ff3280}100%{box-shadow:0 0 0 6px #d8ff3200,0 0 32px 5px #d8ff3280}}
+.radar-map:after{animation:radar-pulse 2.8s ease-out infinite}
+@keyframes lines-sway{from{transform:rotate(-11deg) translateY(0)}to{transform:rotate(-9.5deg) translateY(-14px)}}
+.map-lines{animation:lines-sway 16s ease-in-out infinite alternate}
+@keyframes pattern-spin{to{transform:rotate(360deg)}}
+.featured-story:after{animation:pattern-spin 90s linear infinite}
+.news-card img,.news-grid[data-count="5"] .news-card:nth-child(-n+2) img{transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+.news-card a:hover img{transform:scale(1.07)}
+@media(prefers-reduced-motion:reduce){.hero-image,.orb-a,.orb-b,.radar-map:after,.map-lines,.featured-story:after,.scroll-ticker span{animation:none}}
+
 @media(max-width:720px){.news-grid[data-count="4"],.news-grid[data-count="5"],.news-grid[data-count="6"]{grid-template-columns:1fr;column-gap:0}.news-grid[data-count="4"] .news-card,.news-grid[data-count="5"] .news-card,.news-grid[data-count="6"] .news-card{grid-column:auto}.news-grid[data-count="5"] .news-card:nth-child(-n+2){grid-column:auto;padding-top:30px;padding-bottom:14px}.news-grid[data-count="5"] .news-card:nth-child(-n+2) h3{font-size:24px}.news-grid[data-count="5"] .news-card.with-image:nth-child(-n+2) a{grid-template-columns:92px 1fr;gap:17px}.news-grid[data-count="5"] .news-card:nth-child(-n+2) img{width:92px;height:116px}}
