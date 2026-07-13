@@ -91,11 +91,17 @@ function bindExpandablePanels() {
   });
 }
 
-const [news, radar, reflection] = await Promise.all([
+const [news, radar, reflection, analysis] = await Promise.all([
   loadNews(),
   loadScriptData('./radar.js', 'IA_RADAR', fallbackRadar),
   loadScriptData('./reflection.js', 'IA_REFLECTION', fallbackReflection),
+  loadScriptData('./analysis.js', 'IA_ANALYSIS', null),
 ]);
+
+const featured = document.querySelector('#featured-analysis');
+if (featured && analysis && analysis.title) {
+  featured.innerHTML = `<p class="story-meta">${escapeHTML(analysis.category || 'ANÀLISI')} <span>·</span> ${escapeHTML(analysis.read || '7 MIN')}</p><h3>${escapeHTML(analysis.title)}</h3><p class="story-excerpt">${escapeHTML(analysis.excerpt || '')}</p><span class="read-link">Llegeix l'anàlisi <b>↗</b></span>`;
+}
 
 const newsGrid = document.querySelector('#news-grid');
 const visibleNews = news.slice(0, 6);

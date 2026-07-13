@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#e9e5de">
+  <title>Arxiu · intel·ligència artificial.cat</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css?v=2026071302">
+  <style>
+    body{background:#e9e5de}
+    .arxiu-page{max-width:980px;margin:auto;padding:54px 8vw 120px;color:#111;min-height:100vh}
+    .arxiu-page .brand{color:#111;display:inline-block;margin-bottom:70px}
+    .arxiu-page h1{font-size:clamp(50px,8vw,106px);letter-spacing:-.075em;line-height:.88;margin:18px 0 14px}
+    .arxiu-intro{max-width:560px;font-size:15px;line-height:1.6;color:#4e4a46;margin:0 0 60px}
+    .arxiu-dia{border-top:1px solid #a7a39b;padding:26px 0 8px;margin-top:34px}
+    .arxiu-dia>h2{font:500 12px 'DM Mono',monospace;letter-spacing:.13em;text-transform:uppercase;color:#6242cf;margin:0 0 8px}
+    .arxiu-item{border-bottom:1px solid #cdc9c1;padding:20px 0}
+    .arxiu-item:last-child{border-bottom:0}
+    .arxiu-item .story-meta{margin-bottom:8px}
+    .arxiu-item h3{font-size:24px;line-height:1.05;letter-spacing:-.05em;margin:0 0 10px;color:#101014}
+    .arxiu-item p{font-size:13px;line-height:1.55;color:#5a5752;max-width:640px;margin:0 0 12px}
+    .arxiu-obre{background:transparent;border:0;border-bottom:1px solid;padding:0 0 5px;font:10px 'DM Mono',monospace;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;color:#111}
+    .arxiu-cos{margin:18px 0 6px;max-width:660px}
+    .arxiu-cos[hidden]{display:none}
+    .arxiu-cos p{font:16px/1.7 'Playfair Display',serif;color:#1c1b20;max-width:660px;margin:0 0 16px}
+    .arxiu-font{font:10px 'DM Mono',monospace;letter-spacing:.1em;text-transform:uppercase}
+    .arxiu-font a{color:#6242cf}
+  </style>
+</head>
+<body>
+  <main class="arxiu-page">
+    <a class="brand" href="./">intel·ligència<br><em>artificial</em><span>.cat</span></a>
+    <p class="eyebrow">HEMEROTECA</p>
+    <h1>L'arxiu de <i>totes</i> les edicions.</h1>
+    <p class="arxiu-intro">Cada matí publiquem una edició nova; aquí es queden totes les anteriors, amb el text complet i l'enllaç a la font original de cada notícia.</p>
+    <div id="arxiu-llista"><p class="eyebrow">CARREGANT L'ARXIU…</p></div>
+    <a class="text-link" href="./#avui" style="margin-top:50px;display:inline-block">← Torna a l'edició d'avui</a>
+  </main>
+  <script>
+    const esc = s => String(s||'').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+    fetch('./data/arxiu.json?ts=' + Date.now(), {cache:'no-store'}).then(r => r.json()).then(arxiu => {
+      const editions = (arxiu.editions || []).slice().sort((a, b) => {
+        const k = d => (d.date || '').split('.').reverse().join('');
+        return k(b).localeCompare(k(a));
+      });
+      if (!editions.length) throw Error();
+      document.querySelector('#arxiu-llista').innerHTML = editions.map((ed, i) => `
+        <section class="arxiu-dia">
+          <h2>Edició del ${esc(ed.date)}</h2>
+          ${(ed.items || []).map((it, j) => `
+            <article class="arxiu-item">
+              <p class="story-meta"><span class="tag">${esc(it.category || '')}</span> <span>·</span> ${esc(it.read || '')}</p>
+              <h3>${esc(it.title)}</h3>
+              <p>${esc(it.excerpt || '')}</p>
+              <button class="arxiu-obre" type="button" data-obre="cos-${i}-${j}" aria-expanded="false" aria-controls="cos-${i}-${j}">Llegeix l'article ↓</button>
+              <div class="arxiu-cos" id="cos-${i}-${j}" hidden>
+                ${esc(it.body || it.excerpt || '').split(/\n\n+/).map(p => `<p>${p}</p>`).join('')}
+                ${it.sourceUrl ? `<p class="arxiu-font">Font: <a href="${esc(it.sourceUrl)}" target="_blank" rel="noreferrer">${esc(it.sourceName || 'original')} ↗</a>${it.sourceDate ? ' · ' + esc(it.sourceDate) : ''}</p>` : ''}
+              </div>
+            </article>`).join('')}
+        </section>`).join('');
+    }).catch(() => {
+      document.querySelector('#arxiu-llista').innerHTML = '<p class="arxiu-intro">Encara no hi ha edicions arxivades. Torna-hi demà!</p>';
+    });
+    document.addEventListener('click', e => {
+      const b = e.target instanceof Element ? e.target.closest('[data-obre]') : null;
+      if (!b) return;
+      const panel = document.getElementById(b.dataset.obre);
+      if (!panel) return;
+      const obrir = panel.hidden;
+      panel.hidden = !obrir;
+      b.setAttribute('aria-expanded', String(obrir));
+      b.textContent = obrir ? "Amaga l'article ↑" : "Llegeix l'article ↓";
+    });
+  </script>
+</body>
+</html>
