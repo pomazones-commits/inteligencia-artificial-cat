@@ -1,6 +1,16 @@
 window.IA_RADAR = [
  {
   "place": "Catalunya",
+  "category": "LLENGUA I IA",
+  "date": "14.07.2026",
+  "title": "Softcatalà avalua 19 models d'IA en català i en recomana un per fer servir en privat des de casa",
+  "summary": "L'entitat ha creat un índex propi, el CLAM, per mesurar de manera objectiva i reproduïble el rendiment dels grans models de llenguatge en tasques reals en català.",
+  "detail": "Amb el mètode CLAM, Softcatalà ha provat 19 models en tasques com la traducció, el resum, la reformulació o la detecció d'errors gramaticals. Gemma 3, de Google, és el model més ben valorat per fer-lo córrer en local i en privat, amb un ordinador de menys de cinc anys i almenys 16 GB de RAM. Whisper medium és la recomanació per a la transcripció.",
+  "source": "3Cat",
+  "url": "https://www.3cat.cat/3catinfo/quina-es-la-millor-ia-en-catala-i-com-tenir-ne-una-de-privada-a-casa/noticia/3417589/"
+ },
+ {
+  "place": "Catalunya",
   "category": "EMPRESA",
   "date": "13.07.2026",
   "title": "Gairebé una de cada tres empreses catalanes ja fa servir la IA",
