@@ -1,5 +1,15 @@
 window.IA_RADAR = [
  {
+  "place": "Barcelona",
+  "category": "ADMINISTRACIÓ",
+  "date": "14.07.2026",
+  "title": "Barcelona prova un sistema d'IA que revisa en 3D les llicències urbanístiques",
+  "summary": "El pilot de l'Ajuntament i la Generalitat substitueix la documentació en PDF per un model BIM que una IA verifica automàticament, amb l'objectiu de reduir a la meitat els temps de tramitació.",
+  "detail": "El sistema comprova de manera automàtica dimensions, superfícies, alineacions i altres paràmetres normatius sobre un model digital únic, en lloc que els tècnics hagin de revisar manualment desenes de plànols solts. Si el pilot funciona, l'Ajuntament i la Generalitat preveuen estendre'l a municipis com Sant Adrià de Besòs, Lloret de Mar o la Seu d'Urgell.",
+  "source": "idealista/news",
+  "url": "https://www.idealista.com/ca/news/immobiliari/2026/07/14/905705-barcelona-tira-d-ia-per-reduir-a-la-meitat-els-temps-per-concedir-llicencies-urbanistiques"
+ },
+ {
   "place": "Catalunya",
   "category": "LLENGUA I IA",
   "date": "14.07.2026",
