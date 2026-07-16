@@ -1,5 +1,25 @@
 window.IA_RADAR = [
  {
+  "place": "Catalunya",
+  "category": "INVERSIÓ",
+  "date": "13.07.2026",
+  "title": "Criteria destina 300 milions a startups d'IA, ciberseguretat i biotecnologia",
+  "summary": "El holding vinculat a la Fundació \"la Caixa\" crea el fons Criteria Venture Tech, centrat en intel·ligència artificial, ciberseguretat i infraestructures de dades.",
+  "detail": "El fons ja participa en empreses com Ipronics (xips fotònics) o KD (xips de connectivitat òptica) i concentrarà les inversions a Espanya i Portugal. És un dels dos fons de 300 milions d'euros anunciats, l'altre dedicat a biotecnologia i salut.",
+  "source": "El Nacional (ON ECONOMIA)",
+  "url": "https://www.elnacional.cat/oneconomia/ca/empreses/criteria-impulsa-inversions-en-start-ups-cientifiques-tecnologiques_1667621_102.html"
+ },
+ {
+  "place": "Mataró",
+  "category": "EDUCACIÓ",
+  "date": "15.07.2026",
+  "title": "La Generalitat inverteix per primer cop al TecnoCampus, amb vista a un futur grau d'IA i Robòtica",
+  "summary": "Dos milions d'euros per ampliar en 13.000 m2 les instal·lacions, que han d'acollir nous laboratoris i el futur grau d'Intel·ligència Artificial i Robòtica Aplicada.",
+  "detail": "L'anunci el va fer la consellera d'Economia i Finances, Alícia Romero, amb l'alcalde de Mataró David Bote. L'ampliació passarà de 40.000 a 53.000 m2 i inclourà aules, laboratoris, simuladors per a Salut i una residència per a estudiants de postgrau.",
+  "source": "El Nacional (Capgròs)",
+  "url": "https://capgros.elnacional.cat/ca/mataro/generalitat-inverteix-primer-cop-tecnocampus-2-milions-euros-nou-edifici_818966_102.html"
+ },
+ {
   "place": "Barcelona",
   "category": "ADMINISTRACIÓ",
   "date": "14.07.2026",
@@ -58,25 +78,5 @@ window.IA_RADAR = [
   "detail": "La iniciativa del Barcelona Supercomputing Center forma part de la primera onada de fàbriques europees d’IA. L’objectiu declarat és obrir capacitat de computació, coneixement i infraestructura experimental a empreses, pimes, administracions i recerca. No és només una notícia de maquinari: també planteja qui podrà accedir a aquesta capacitat i amb quines condicions.",
   "source": "BSC-CNS",
   "url": "https://www.bsc.es/news/bsc-news/bsc-host-one-seven-european-ai-factories-drive-its-development-the-business-ecosystem"
- },
- {
-  "place": "Móra la Nova",
-  "category": "CANDIDATURA",
-  "date": "Juny 2026",
-  "title": "La candidatura de la gigafactoria d’IA fa un pas endavant",
-  "summary": "La iniciativa per optar a una gigafactoria europea a les Terres de l’Ebre continua en fase de candidatura; no és un centre de dades ja construït.",
-  "detail": "Segons 3Cat, els governs català i espanyol han donat llum verda a la societat publicoprivada que ha de concórrer a la convocatòria europea. L’Estratègia Catalunya IA 2030 també recull el suport a aquesta candidatura. El radar en seguirà l’evolució amb una pregunta central: quins compromisos concrets hi haurà sobre energia, aigua, ocupació i retorn territorial?",
-  "source": "3Cat / Generalitat",
-  "url": "https://www.3cat.cat/3catinfo/pas-endavant-per-a-la-candidatura-de-la-gigafactoria-europea-dia-a-mora-la-nova/noticia-amp/3415391/"
- },
- {
-  "place": "Catalunya",
-  "category": "LLENGUA I IA",
-  "date": "11.06.2026",
-  "title": "Aina Intel·ligència Territorial selecciona nou propostes finalistes",
-  "summary": "Els projectes finalistes treballen amb IA i tecnologies del llenguatge en català davant reptes de cohesió social i memòria local.",
-  "detail": "El concurs promogut per i2CAT situa l’ús del català i les necessitats del territori al centre: soledat no volguda, inclusió digital i preservació del patrimoni oral. És una manera útil de mirar la IA més enllà dels grans models: què resol, per a qui i amb quines dades.",
-  "source": "i2CAT",
-  "url": "https://i2cat.net/ca/seleccionades-les-9-candidatures-finalistes-del-concurs-aina-intelligencia-territorial-que-impulsa-solucions-dia-en-catala-per-reduir-les-bretxes-socials-i-digitals/"
  }
 ];
