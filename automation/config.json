@@ -1,0 +1,17 @@
+{
+  "timezone": "Europe/Madrid",
+  "dailyTarget": 20,
+  "claudeBatchSize": 5,
+  "recommendedBatchTimes": ["06:05", "10:05", "14:05", "18:05"],
+  "carouselItems": 8,
+  "latestItems": 5,
+  "radarItems": 8,
+  "archiveLimit": 1000,
+  "newsletterItems": 5,
+  "publicationPolicy": {
+    "requireEveryField": true,
+    "deduplicateBy": ["slug", "sourceUrl"],
+    "keepPreviousEditionOnError": true,
+    "resetDaily": true
+  }
+}

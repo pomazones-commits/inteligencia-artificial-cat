@@ -1,96 +1,222 @@
 <!doctype html>
 <html lang="ca">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#07070b" />
-    <meta name="description" content="El mitjà en català per entendre la intel·ligència artificial." />
-    <title>intel·ligència artificial.cat — El futur, en català</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles.css?v=2026071405" />
-  </head>
-  <body>
-    <div class="noise" aria-hidden="true"></div>
-    <div class="cursor-glow" aria-hidden="true"></div>
-    <header class="topbar">
-      <a class="brand" href="#inici" aria-label="Inici">intel·ligència<br /><em>artificial</em><span>.cat</span></a>
-      <nav aria-label="Navegació principal">
-        <a href="#avui">Avui</a><a href="#radar">Radar</a><a href="./arxiu.html">Arxiu</a><a href="./dossiers.html">Dossiers</a><a href="#manifest">Manifest</a>
-      </nav>
-      <button class="menu-button" aria-label="Obre el menú"><i></i><i></i></button>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Notícies, anàlisi i context sobre intel·ligència artificial, en català. Fins a 20 històries al dia, radar català i criteri propi.">
+  <meta name="theme-color" content="#f7f8fc">
+  <link rel="canonical" href="https://inteligencia-artificial.cat/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ca_ES">
+  <meta property="og:site_name" content="intel·ligènciaartificial.cat">
+  <meta property="og:title" content="intel·ligènciaartificial.cat — La IA es mou. Tu l'entens.">
+  <meta property="og:description" content="El briefing català per entendre què ha canviat avui en intel·ligència artificial i què significa per a tu i per al país.">
+  <meta property="og:url" content="https://inteligencia-artificial.cat/">
+  <title>intel·ligènciaartificial.cat — La IA, explicada en català</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Onest:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./portada.css?v=2026071701">
+  <script defer src="./app.js?v=2026071701"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contingut">Ves al contingut</a>
 
-    <main id="inici">
-      <section class="hero" aria-labelledby="hero-title">
-        <img class="hero-image" src="./assets/hero-barcelona-ai.png" alt="Interpretació artística nocturna de Barcelona connectada per xarxes de dades" />
-        <div class="hero-vignette"></div>
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="live-dot"></span> Edició en viu · 16.07.2026</p>
-          <h1 id="hero-title">El futur<br /><i>parla</i> català.</h1>
-          <p class="hero-dek">Context, mirada crítica i les històries que estan reescrivint la intel·ligència artificial.</p>
-          <a class="circle-link" href="#avui"><span>Explora<br />l’edició</span><b>↓</b></a>
+  <header class="site-header">
+    <div class="interest-bar">
+      <div class="shell interest-bar__inner">
+        <span class="interest-label"><i></i> Ara mateix</span>
+        <div class="interest-links" id="interest-links" aria-label="Temes del dia">
+          <a href="#ultima-hora">L'edició del dia</a>
+          <a href="#catalunya">IA a Catalunya</a>
+          <a href="#analisi">Anàlisi</a>
+          <a href="#butlleti">Butlletí</a>
         </div>
-        <p class="hero-credit">Imatge creada amb IA · Direcció d’art IA.cat</p>
-        <div class="scroll-ticker" aria-hidden="true"><span>OBSERVAR · ENTENDRE · IMAGINAR · OBSERVAR · ENTENDRE · IMAGINAR · </span></div>
-      </section>
+        <time id="current-date" datetime="">&nbsp;</time>
+      </div>
+    </div>
 
-      <section class="edition" id="avui" aria-labelledby="edition-title">
-        <div class="section-head"><p class="eyebrow">01 / L’edició d’avui</p><h2 id="edition-title">El senyal entre<br />tant <i>soroll.</i></h2><p>Una selecció curta per pensar millor, no per mirar més pantalla.</p></div>
-        <div class="featured-grid">
-          <article class="featured-story story-card reveal">
-            <a id="featured-analysis" href="./analisi.html" aria-label="Llegir l'anàlisi destacada">
-              <p class="story-meta">ANÀLISI <span>·</span> 7 MIN</p>
-              <h3>Quan una IA deixa de ser una eina i es converteix en companya de feina</h3>
-              <p class="story-excerpt">La nova generació d’agents posa l’autonomia sobre la taula. Què canvia realment —i què no?</p>
-              <span class="read-link">Llegeix l’anàlisi <b>↗</b></span>
-            </a>
-          </article>
-          <button class="signal-card interactive-card reveal" type="button" data-expand="signal-detail" aria-expanded="false" aria-controls="signal-detail">
-            <span class="orb orb-a"></span><span class="orb orb-b"></span>
-            <span class="story-meta">EL SENYAL</span>
-            <span class="big-stat">9</span><span class="signal-copy">projectes finalistes porten la IA en català als municipis de transició nuclear.</span>
-            <small>i2CAT · 11.06.2026 · Prem per llegir el context</small>
-          </button>
+    <div class="shell masthead">
+      <button class="icon-button menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+        <b>Menú</b>
+      </button>
+      <a class="brand" href="./" aria-label="intel·ligènciaartificial.cat, inici">
+        <span class="brand-symbol" aria-hidden="true">ia</span>
+        <span class="brand-name"><strong>intel·ligència</strong><b>artificial.cat</b></span>
+      </a>
+      <button class="search-button" type="button" aria-expanded="false" aria-controls="search-panel">
+        <span aria-hidden="true">⌕</span> Cerca
+      </button>
+    </div>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Navegació principal">
+      <div class="shell primary-nav__inner">
+        <a class="active" href="#portada">Portada</a>
+        <a href="#ultima-hora">Última hora</a>
+        <a href="#catalunya">Catalunya</a>
+        <a href="#analisi">Anàlisi</a>
+        <a href="#eines">Eines</a>
+        <a href="#opinions">Opinió</a>
+        <a href="./arxiu.html">Arxiu</a>
+      </div>
+    </nav>
+
+    <div class="search-panel" id="search-panel" hidden>
+      <form class="shell search-form" role="search">
+        <label for="site-search">Cerca a l'edició d'avui</label>
+        <div>
+          <input id="site-search" type="search" placeholder="Prova “OpenAI”, “Catalunya” o “seguretat”" autocomplete="off">
+          <button type="submit">Cerca</button>
         </div>
-        <section class="expand-panel signal-detail" id="signal-detail" hidden aria-live="polite">
-          <p class="eyebrow">Context verificat</p>
-          <h3>Nou propostes per posar la IA al servei del territori</h3>
-          <p>i2CAT va anunciar les nou candidatures finalistes del concurs Aina Intel·ligència Territorial. Les propostes treballen amb IA i tecnologies del llenguatge en català per abordar reptes com la soledat no volguda, la inclusió digital i la preservació del patrimoni oral als municipis vinculats al Fons de Transició Nuclear.</p>
-          <a class="source-link" href="https://i2cat.net/ca/seleccionades-les-9-candidatures-finalistes-del-concurs-aina-intelligencia-territorial-que-impulsa-solucions-dia-en-catala-per-reduir-les-bretxes-socials-i-digitals/" target="_blank" rel="noreferrer">Llegeix la font original <b>↗</b></a>
-        </section>
-        <div id="news-grid" class="news-grid" aria-live="polite"></div>
-      </section>
+      </form>
+    </div>
+  </header>
 
-      <section class="radar" id="radar">
-        <div class="radar-intro"><p class="eyebrow">02 / Radar català</p><h2>La IA que passa <i>aquí.</i></h2><p>Persones, laboratoris i idees que estan obrint camí des de Catalunya.</p></div>
-        <div class="radar-stage">
-          <div class="radar-map" role="img" aria-label="Visualització abstracta de nodes tecnològics de l’actualitat catalana">
-            <div class="map-lines"></div><span class="node n1">Barcelona</span><span class="node n2">Girona</span><span class="node n3">Lleida</span><span class="node n4">Móra la Nova</span><span class="node n5">Catalunya</span>
-            <p>RADAR EDITORIAL<br /><strong>FONTS CITADES</strong></p>
+  <main id="contingut">
+    <section class="shell edition-heading" id="portada" aria-labelledby="edition-title">
+      <div class="edition-copy">
+        <p class="edition-kicker">Edició del dia · <span id="edition-count">&nbsp;</span> · Actualitzada a les <span id="edition-time">&nbsp;</span></p>
+        <h1 id="edition-title"><span>La IA es mou.</span><em>Tu l’entens.</em></h1>
+        <p class="edition-intro">El briefing català per a qui vol entendre què ha canviat avui, què vindrà demà i què val la pena provar.</p>
+        <div class="edition-actions">
+          <a href="#ultima-hora">Comença el briefing <span>↓</span></a>
+          <button type="button" id="focus-mode" aria-pressed="false"><i></i> Mode focus</button>
+        </div>
+      </div>
+      <figure class="daily-visual" id="daily-visual" aria-labelledby="daily-visual-title">
+        <img id="daily-visual-image" src="./assets/daily-reflection-2026-07-17.jpg" alt="Un investigador jove i una dona gran conversen davant d’un ordinador en una biblioteca de Barcelona.">
+        <span class="daily-visual__date" id="daily-image-date">Imatge del dia</span>
+        <figcaption>
+          <p id="daily-visual-kicker">IA × Societat</p>
+          <h2 id="daily-visual-title">Aprendre junts continua sent la tecnologia més poderosa</h2>
+          <p id="daily-visual-caption">La intel·ligència artificial guanya sentit quan amplia una conversa, no quan la substitueix.</p>
+          <small id="daily-visual-credit">Imatge editorial generada amb IA</small>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="shell lead-layout" id="ultima-hora" aria-label="Notícies destacades del dia">
+      <div class="daily-carousel" aria-roledescription="carrusel" aria-label="Les notícies del dia">
+        <div class="carousel-stage" id="carousel-stage" aria-live="polite"></div>
+        <div class="carousel-footer">
+          <div class="carousel-progress" id="carousel-progress" aria-label="Selecció de notícia"></div>
+          <div class="carousel-actions">
+            <button id="carousel-prev" type="button" aria-label="Notícia anterior">←</button>
+            <span id="carousel-count">01 / 05</span>
+            <button id="carousel-next" type="button" aria-label="Notícia següent">→</button>
           </div>
-          <div id="radar-feed" class="radar-feed" aria-live="polite"></div>
-          <section id="radar-detail" class="radar-detail" hidden aria-live="polite"></section>
         </div>
-      </section>
+      </div>
 
-      <section class="manifest" id="manifest">
-        <p class="eyebrow">03 / Manifest</p>
-        <blockquote>“La tecnologia ens pot accelerar.<br />El <i>criteri</i> ens diu cap a on.”</blockquote>
-        <div><p>Fem periodisme sobre intel·ligència artificial amb curiositat, rigor i una veu pròpia. Ni evangelistes ni apocalíptics.</p><button class="text-link reveal-button" type="button" data-expand="method-detail" aria-expanded="false" aria-controls="method-detail">Coneix el nostre mètode <b>↗</b></button><section class="method-panel" id="method-detail" hidden><ol><li><b>Font abans que relat.</b> Enllacem l’origen de cada notícia i no convertim una hipòtesi en un fet.</li><li><b>Context abans que titular.</b> Expliquem què se sap, què no se sap i a qui afecta.</li><li><b>Persones abans que promeses.</b> Observem l’impacte sobre drets, treball, llengua, energia i cultura.</li><li><b>Correccions visibles.</b> Si una dada canvia o falla, la rectifiquem sense amagar-ho.</li></ol></section></div>
-      </section>
+      <aside class="latest-panel" aria-labelledby="latest-title">
+        <div class="section-label">
+          <span><i></i> En directe</span>
+          <a href="#totes">Veure-ho tot</a>
+        </div>
+        <h2 id="latest-title">En moviment</h2>
+        <ol id="latest-list" class="latest-list"></ol>
+      </aside>
+    </section>
 
-      <section class="newsletter" id="dossier">
-        <p class="eyebrow">Cada divendres · Quadern IA</p><h2>Una idea que et<br />canviarà <i>la setmana.</i></h2>
-        <p class="reflection-intro">Un text breu per mirar la tecnologia amb més calma, context i criteri.</p><button class="reflection-trigger" type="button" data-expand="reflection-detail" aria-expanded="false" aria-controls="reflection-detail">Llegeix la reflexió d’aquesta setmana <b>↓</b></button><section id="reflection-detail" class="reflection-panel" hidden aria-live="polite"></section>
-        <form id="newsletter-form"><label class="sr-only" for="email">El teu correu electrònic</label><input id="email" type="email" autocomplete="email" placeholder="el.teu@correu.cat" required /><button type="submit">Subscriu-m’hi <b>→</b></button></form><p id="form-message" aria-live="polite">Sense fum. Una nova reflexió, cada divendres.</p>
-      </section>
-    </main>
-    <footer><a class="brand" href="#inici">intel·ligència<br /><em>artificial</em><span>.cat</span></a><p>Fet a Catalunya · Pensat per a tothom.</p><div><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">RSS</a></div><small>© 2026 IA.cat. Tots els drets reservats.</small></footer>
-    <script src="./news.js?v=2026071606"></script>
-    <script src="./radar.js?v=2026071606"></script>
-    <script src="./reflection.js?v=2026071606"></script>
-    <script src="./app.js?v=2026071606" type="module"></script>
-  </body>
+    <section class="shell news-section" id="totes" aria-labelledby="news-title">
+      <header class="section-heading">
+        <p id="news-count">L'edició del dia</p>
+        <h2 id="news-title">El senyal d’avui</h2>
+        <a href="./arxiu.html">Totes les notícies <span>→</span></a>
+      </header>
+      <div class="news-grid" id="news-grid"></div>
+      <p class="empty-search" id="empty-search" hidden>No hem trobat cap notícia amb aquests termes.</p>
+    </section>
+
+    <section class="analysis-band" id="analisi">
+      <div class="shell analysis-layout">
+        <div class="analysis-mark" aria-hidden="true">IA</div>
+        <article class="analysis-copy">
+          <p class="eyebrow" id="analysis-eyebrow">Anàlisi de la setmana</p>
+          <h2 id="analysis-title">Quan la màquina no et respon en la teva llengua, deixes de fer-li la pregunta</h2>
+          <p id="analysis-excerpt">Cada vegada que triem quina llengua fer servir amb un xatbot, decidim també quina llengua val la pena seguir parlant.</p>
+          <a href="./analisi.html">Llegir l'anàlisi <span>↗</span></a>
+        </article>
+        <blockquote>
+          <span>“</span>
+          <p id="analysis-quote">Context abans que soroll: expliquem què canvia i per què t’importa.</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="shell radar-section" id="catalunya" aria-labelledby="radar-title">
+      <header class="section-heading">
+        <p>Radar català</p>
+        <h2 id="radar-title">La IA que passa aquí</h2>
+        <span class="section-note">Territori, recerca, empresa i societat</span>
+      </header>
+      <div class="radar-grid" id="radar-grid"></div>
+    </section>
+
+    <section class="shell service-grid" id="eines">
+      <article class="weekly-card" id="opinions">
+        <p class="eyebrow">Quadern IA · Cada divendres</p>
+        <h2 id="reflection-title">La velocitat no és una brúixola</h2>
+        <p id="reflection-dek">Una reflexió editorial sobre el lloc que hauria d'ocupar la intel·ligència artificial en les nostres decisions.</p>
+        <button class="text-button" type="button" data-reflection-toggle aria-expanded="false">Llegir la reflexió <span>↓</span></button>
+        <div class="reflection-body" id="reflection-body" hidden></div>
+      </article>
+
+      <article class="tools-card">
+        <p class="eyebrow">Servei</p>
+        <h2>Documents i dossiers sobre IA</h2>
+        <p>Informes, estratègies i guies oficials per entendre la IA a Catalunya, seleccionats i explicats.</p>
+        <a href="./dossiers.html">Explora els dossiers <span>→</span></a>
+        <div class="tool-tags" aria-label="Temes dels dossiers">
+          <span>Models en català</span><span>Estratègia</span><span>Educació</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="newsletter" id="butlleti">
+      <div class="shell newsletter__inner">
+        <div>
+          <p class="eyebrow">Butlletí de dissabte</p>
+          <h2>La setmana d'IA,<br>en cinc minuts.</h2>
+        </div>
+        <div>
+          <p>Les cinc històries que cal retenir, una idea per pensar i una eina útil. En català i sense fum.</p>
+          <form id="newsletter-form" action="./api.php?action=subscribe" method="post" novalidate>
+            <label class="sr-only" for="email">El teu correu electrònic</label>
+            <input id="email" name="email" type="email" placeholder="el.teu@correu.cat" required>
+            <button type="submit">Vull rebre'l →</button>
+          </form>
+          <p class="form-message" id="form-message" role="status"></p>
+          <small>Sense spam: només el butlletí, un cop per setmana.</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <a class="brand brand--footer" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="brand-symbol" aria-hidden="true">ia</span><span class="brand-name"><strong>intel·ligència</strong><b>artificial.cat</b></span></a>
+        <p>Periodisme sobre intel·ligència artificial amb rigor, criteri i una veu pròpia.</p>
+      </div>
+      <div>
+        <strong>Explora</strong>
+        <a href="#ultima-hora">Última hora</a><a href="#catalunya">Catalunya</a><a href="#analisi">Anàlisi</a><a href="./arxiu.html">Arxiu</a>
+      </div>
+      <div>
+        <strong>Projecte</strong>
+        <a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="#butlleti">Butlletí</a>
+      </div>
+      <div>
+        <strong>Edició</strong>
+        <a href="./arxiu.html">Hemeroteca</a><a href="#portada">Portada</a>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <span>© 2026 intel·ligènciaartificial.cat</span>
+      <span>Fet a Catalunya · Pensat per a tothom</span>
+    </div>
+  </footer>
+</body>
 </html>
