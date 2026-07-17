@@ -1,0 +1,38 @@
+name: Àudio de l'edició (veu en català)
+
+on:
+  # S'activa quan el Content Hub ha completat l'edició (els seus commits amb
+  # GITHUB_TOKEN no disparen triggers de push, però workflow_run sí que funciona).
+  workflow_run:
+    workflows: ["Content Hub — completar l'edició"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: audio-edicio
+  cancel-in-progress: false
+
+jobs:
+  audio:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Descarrega el repositori
+        uses: actions/checkout@v4
+
+      - name: Prepara Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instal·la edge-tts
+        run: pip install edge-tts
+
+      - name: Genera els MP3 de l'edició i puja'ls per FTP
+        env:
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: python automation/scripts/genera_audio.py
