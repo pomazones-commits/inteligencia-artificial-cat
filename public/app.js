@@ -77,6 +77,22 @@
       document.querySelector('#portada').classList.add('no-visual');
     });
 
+    // La fotografia del dia neix de la reflexió editorial: en clicar-la s'obre el Quadern IA.
+    dailyFigure.setAttribute('role', 'link');
+    dailyFigure.setAttribute('tabindex', '0');
+    dailyFigure.setAttribute('aria-label', 'Imatge del dia: obre la reflexió relacionada del Quadern IA');
+    function openRelatedContent() {
+      const reflectionBody = document.querySelector('#reflection-body');
+      const toggle = document.querySelector('[data-reflection-toggle]');
+      if (reflectionBody && reflectionBody.hidden && toggle) toggle.click();
+      const related = document.querySelector('#opinions');
+      if (related) related.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+    }
+    dailyFigure.addEventListener('click', openRelatedContent);
+    dailyFigure.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); openRelatedContent(); }
+    });
+
     // ——— Navegació, cerca, butlletí i mode focus (sempre actius) ———
     setupChrome(news, reduceMotion);
 
@@ -131,7 +147,7 @@
     }
     function restartCarousel() {
       window.clearInterval(carouselTimer);
-      if (!reduceMotion) carouselTimer = window.setInterval(() => nextStory(1), 6500);
+      if (!reduceMotion) carouselTimer = window.setInterval(() => nextStory(1), 4000);
     }
     document.querySelector('#carousel-prev').addEventListener('click', () => { nextStory(-1); restartCarousel(); });
     document.querySelector('#carousel-next').addEventListener('click', () => { nextStory(1); restartCarousel(); });
