@@ -86,7 +86,12 @@
       const toggle = document.querySelector('[data-reflection-toggle]');
       if (reflectionBody && reflectionBody.hidden && toggle) toggle.click();
       const related = document.querySelector('#opinions');
-      if (related) related.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+      if (!related) return;
+      const before = window.scrollY;
+      related.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+      window.setTimeout(() => {
+        if (Math.abs(window.scrollY - before) < 40) related.scrollIntoView({ behavior: 'instant', block: 'start' });
+      }, 350);
     }
     dailyFigure.addEventListener('click', openRelatedContent);
     dailyFigure.addEventListener('keydown', event => {
