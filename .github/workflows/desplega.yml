@@ -5,6 +5,15 @@ on:
     branches: [main]
     paths: ['public/**']
   workflow_dispatch:
+  # Els commits del Content Hub es fan amb el GITHUB_TOKEN per defecte, i GitHub
+  # Actions no encadena workflows a partir d'aquests pushos. Per aixo tambe ens
+  # activem quan qualsevol workflow del Content Hub acaba correctament.
+  workflow_run:
+    workflows:
+      - "Content Hub — completar l'edició"
+      - "Content Hub — fotografia editorial diària"
+      - "Content Hub — peces setmanals"
+    types: [completed]
 
 concurrency:
   group: desplega-hostinger
@@ -12,6 +21,7 @@ concurrency:
 
 jobs:
   desplega:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Descarrega el repositori
