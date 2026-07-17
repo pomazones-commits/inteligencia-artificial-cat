@@ -6,6 +6,10 @@ on:
     paths: ['public/**']
   workflow_dispatch:
 
+concurrency:
+  group: desplega-hostinger
+  cancel-in-progress: false
+
 jobs:
   desplega:
     runs-on: ubuntu-latest
