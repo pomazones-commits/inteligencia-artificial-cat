@@ -1,0 +1,26 @@
+# Control de la memòria cau del servidor (Hostinger/LiteSpeed).
+#
+# Problema que resol: per defecte el servidor serveix els .js i .json amb
+# "max-age=604800" (7 dies). Els fitxers de DADES de l'edició canvien 4 cops
+# al dia, i una còpia envellida a la cau feia que la portada mostrés
+# l'edició anterior encara que el desplegament hagués anat bé.
+#
+# Regla: les dades de l'edició es revaliden sempre (no-cache fa servir
+# Last-Modified i respon 304 si no hi ha canvis: barat i sempre fresc).
+# Les imatges i els àudios, que no canvien mai un cop publicats, poden
+# quedar-se a la cau tant de temps com calgui.
+
+<IfModule mod_headers.c>
+  <FilesMatch "^(news|radar|analysis|reflection|daily-image)\.js$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.json$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(html|php)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(jpg|jpeg|png|webp|gif|svg|mp3)$">
+    Header set Cache-Control "public, max-age=2592000, immutable"
+  </FilesMatch>
+</IfModule>
