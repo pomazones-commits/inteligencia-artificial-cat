@@ -1,65 +1,35 @@
 {
-  "updatedAt": "2026-07-17T16:34:32.918Z",
+  "updatedAt": "2026-07-18T04:21:57.968Z",
   "items": [
     {
       "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "Anthropic negocia amb Goldman Sachs, Morgan Stanley i JPMorgan milers de milions en línies de crèdit abans de sortir a borsa",
-      "excerpt": "L'empresa de Claude segueix el manual de SpaceX i amplia la seva capacitat de crèdit bancari mesos abans d'una possible sortida a borsa que alguns informes situen a l'octubre, amb una valoració que podria superar el bilió de dòlars."
+      "read": "4 MIN",
+      "title": "Les accions d'Alphabet cauen un 4,4% després de conèixer-se el retard de mesos del seu model estrella Gemini 3.5 Pro",
+      "excerpt": "Uns 200.000 milions de dòlars de capitalització borsària es van esfumar en una sola sessió després que trascendís que el nou model de Google no assoleix els objectius interns de programació i raonament complex, mentre OpenAI i Meta guanyen terreny."
     },
     {
-      "category": "TECNOLOGIA",
+      "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "La Xina aprova Apple Intelligence, que haurà de funcionar amb el model Qwen d'Alibaba per operar al país",
-      "excerpt": "L'Administració del Ciberespai de la Xina inclou Apple en un lot de set serveis d'IA generativa per a mòbils aprovats, l'única marca estrangera de la llista, obligada a associar-se amb un proveïdor xinès per poder operar-hi."
+      "title": "xAI demanda un usuari de Carolina del Sud per fer servir Grok per generar material d'abús sexual infantil",
+      "excerpt": "L'empresa d'Elon Musk acusa Terry Harwood, detingut el febrer per delictes d'explotació sexual de menors, d'haver manipulat el seu chatbot per crear imatges il·legals, en una demanda presentada aquesta setmana en un tribunal federal de Texas."
+    },
+    {
+      "category": "MERCATS",
+      "read": "5 MIN",
+      "title": "Anthropic, Blackstone i Hellman & Friedman llancen Ode, una empresa d'implementació d'IA valorada en 1.500 milions de dòlars",
+      "excerpt": "La nova firma, nascuda de l'startup Fractional AI després de trencar una associació d'onze mesos amb OpenAI, desplega enginyers d'Anthropic dins les oficines de grans clients empresarials i aspira a convertir-se en un negoci d'un bilió de dòlars."
     },
     {
       "category": "SOCIETAT",
       "read": "5 MIN",
-      "title": "L'OMS Europa avisa que la IA s'implanta als hospitals molt més ràpid que les normes que l'haurien de vigilar",
-      "excerpt": "Dos de cada tres països de la regió europea de l'OMS ja fan servir diagnòstics amb intel·ligència artificial, però només un de cada dotze té una estratègia de governança per regular-los, segons ha alertat el director de l'organisme a Lisboa."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Nvidia presenta Cosmos 3 Edge, un model que porta la percepció de robots a la fàbrica, i amplia el seu ecosistema al Japó",
-      "excerpt": "El nou model de 4.000 milions de paràmetres permet que robots i agents de visió artificial raonin i actuïn en temps real sense connexió al núvol, mentre Fujitsu, Hitachi, Kawasaki Heavy Industries i altres grans industrials japonesos se sumen a la coalició Cosmos de Nvidia."
+      "title": "Els directius de les grans tecnològiques d'IA reforcen la seguretat personal davant l'escalada d'amenaces violentes",
+      "excerpt": "Des de l'intent de calar foc a la casa de Sam Altman fins a la intrusió d'un home a les oficines d'Anthropic advertint d'un assassinat, el sector viu una onada de rebuig social que ha disparat les amenaces digitals contra executius i centres de dades en pocs mesos."
     },
     {
       "category": "TECNOLOGIA",
       "read": "3 MIN",
-      "title": "El primer dispositiu d'OpenAI serà un altaveu sense pantalla i amb peces mòbils, pensat per semblar viu",
-      "excerpt": "Segons Bloomberg, l'aparell —encara en desenvolupament i sense data de llançament confirmada— incorporarà càmera, sensors i bateria recarregable, i arriba enmig del litigi que Apple ha obert contra OpenAI per un suposat robatori de secrets industrials."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "29 països signen a Shanghai la creació de la WAICO, una organització mundial de cooperació en IA impulsada per la Xina",
-      "excerpt": "Rússia, el Pakistan, Indonèsia, Kazakhstan i una vintena més de països constitueixen a la Xina un nou organisme intergovernamental sobre intel·ligència artificial, amb el secretari general de l'ONU com a testimoni i cap gran potència occidental entre els signants."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "La xinesa Moonshot AI presenta Kimi K3, el model obert més gran del món, amb 2,8 bilions de paràmetres",
-      "excerpt": "El nou model de codi obert competeix en benchmarks de referència amb els sistemes tancats més potents d'OpenAI i Anthropic, i arriba pocs dies abans que Shanghai aculli la Conferència Mundial d'Intel·ligència Artificial."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Apple demanda OpenAI per un suposat robatori de secrets industrials del disseny de l'iPhone, i la companyia ho nega",
-      "excerpt": "El fabricant acusa dos antics enginyers, que ara treballen a OpenAI, d'haver-se endut documents confidencials sobre el disseny de productes i els protocols de seguretat interns d'Apple."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "El Govern destina 78 milions a una estratègia d'innovació que situa la intel·ligència artificial entre les deu tecnologies prioritàries",
-      "excerpt": "Acció presenta l'Estratègia d'Innovació Empresarial 2026-2030, amb l'objectiu de multiplicar per 3,7 la inversió privada mobilitzada i reduir la distància amb els Estats Units i la Xina en tecnologies com la IA i el big data."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Anthropic regala Claude als docents de primària i secundària dels Estats Units per guanyar terreny a les aules",
-      "excerpt": "Claude for Teachers ofereix accés gratuït i complet durant un any als professors nord-americans que s'hi apuntin abans del juny de 2027, amb continguts alineats amb els estàndards curriculars dels 50 estats."
+      "title": "Google converteix NotebookLM en Gemini Notebook i hi afegeix un ordinador al núvol per executar codi",
+      "excerpt": "L'eina de recerca que ja fan servir més de 30 milions de persones i 600.000 organitzacions estrena nom i una funció que permet escriure i executar codi directament dins de cada quadern per aprofundir en l'anàlisi de dades."
     }
   ]
 }
