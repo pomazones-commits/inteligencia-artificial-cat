@@ -1,16 +1,6 @@
 window.IA_RADAR = [
   {
     "place": "Flix",
-    "category": "EMPRESA",
-    "date": "18.07.2026",
-    "title": "Submer Group invertirà més de 1.000 milions d'euros en un centre de dades d'IA als antics terrenys d'Ercros a Flix",
-    "summary": "La instal·lació, que operarà l'empresa Rubix Data Centers i refredarà amb un sistema líquid sense consum d'aigua, crearà fins a 150 llocs de treball permanents i aspira a reforçar la sobirania digital europea des de la Ribera d'Ebre.",
-    "detail": "La demanda creixent de capacitat de còmput per entrenar i executar models d'intel·ligència artificial ha convertit els antics terrenys industrials en objecte de disputa per part d'operadors de centres de dades arreu d'Europa, que busquen sòl, energia i aigua disponibles per a instal·lacions cada cop més grans.\n\nSegons va anunciar la mateixa companyia l'11 de juliol, Submer Group invertirà més de 1.000 milions d'euros per construir un centre de dades d'intel·ligència artificial de nova generació als antics terrenys industrials d'Ercros, a Flix, a la Ribera d'Ebre. La instal·lació la desenvoluparà i operarà Rubix Data Centers, empresa del mateix grup especialitzada en centres de dades per a IA, i utilitzarà un sistema de refredament líquid que, segons Submer, no consumeix aigua durant el funcionament habitual. El projecte, plantejat en diverses fases, preveu crear fins a 150 llocs de treball permanents en àmbits com operacions, manteniment, enginyeria d'instal·lacions crítiques i seguretat. L'anunci es va fer amb la participació del Govern de la Generalitat, a través del Departament d'Empresa i Treball, i hi van intervenir el president Salvador Illa i el conseller Miquel Sàmper. El conseller delegat de Submer, Patrick Smets, ha defensat que la inversió reflecteix \"la visió de Submer per a la infraestructura d'IA\" i el seu suport a \"Espanya com a líder en el desenvolupament d'infraestructura d'IA\".\n\nLa notícia és rellevant perquè situa Catalunya, i concretament un antic emplaçament industrial de la Ribera d'Ebre, dins del mapa europeu de grans infraestructures de còmput per a intel·ligència artificial, en un moment en què la Unió Europea insisteix en la necessitat de reforçar la seva sobirania digital i reduir la dependència de proveïdors de núvol nord-americans i asiàtics. El projecte també suposa una via de reindustrialització per a un territori que havia perdut activitat industrial amb el tancament progressiu de la planta d'Ercros.\n\nSubmer no ha precisat la potència elèctrica total prevista per al centre de dades ni un calendari exacte de finalització de les diferents fases, més enllà d'indicar que l'operativa començarà de manera progressiva. Tampoc s'ha detallat quins clients concrets faran servir la capacitat de còmput que s'hi instal·larà, ni quin paper tindran exactament els ajuts o incentius públics en el finançament final del projecte.",
-    "source": "Submer — Invest more than €1 billion in an AI data center in Flix",
-    "url": "https://submer.com/blog/press/invest-more-than-1-billion-in-an-ai-data-center-in-flix/"
-  },
-  {
-    "place": "Flix",
     "category": "IA I SOCIETAT",
     "date": "17.07.2026",
     "title": "El Govern destina 78 milions a una estratègia d'innovació que situa la intel·ligència artificial entre les deu tecnologies prioritàries",
@@ -78,5 +68,15 @@ window.IA_RADAR = [
     "detail": "La primera fase tindrà 50 MW de potència i uns 150 llocs de treball directes, amb entrada en servei progressiva a partir del 2027 i ple rendiment el 2029. Per a la Ribera d'Ebre és l'oportunitat de reindustrialització més gran des del tancament de la planta química.",
     "source": "RAB Ràdio",
     "url": "https://rab.cat/2026/07/11/factoria-ia-submer-group-flix-ercros/"
+  },
+  {
+    "place": "Catalunya",
+    "category": "SOCIETAT",
+    "date": "09.07.2026",
+    "title": "El 26% dels catalans fan servir la IA cada dia",
+    "summary": "El baròmetre del Centre d'Estudis d'Opinió, fet entre gener i febrer de 2026, dibuixa un país partit: gairebé la meitat usa la IA setmanalment, però el 44% no l'ha provada mai.",
+    "detail": "Segons el baròmetre del CEO, un 17% dels catalans fa servir la IA diverses vegades al dia i un 26% cada dia. La confiança és moderada: només un 8% hi confia molt com a font experta, i un 65% dels usuaris verifica les respostes amb altres fonts — un hàbit que el radar celebra. Les consultes més habituals són dubtes i gestions quotidianes de temes jurídics o econòmics.",
+    "source": "Centre d'Estudis d'Opinió / ON ECONOMIA",
+    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/26-catalans-catalanes-utilitzen-ia-cada-dia_1666262_102.html"
   }
 ];
