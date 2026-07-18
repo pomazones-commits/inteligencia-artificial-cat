@@ -1,9 +1,9 @@
 window.IA_DAILY_IMAGE = {
-  "date": "2026-07-17",
-  "image": "./assets/daily-reflection-2026-07-17.jpg",
-  "alt": "Un investigador jove i una dona gran conversen davant d’un ordinador en una biblioteca de Barcelona.",
+  "date": "2026-07-18",
+  "image": "./assets/daily-reflection-2026-07-18.jpg",
+  "alt": "Una professora acompanya un alumne adolescent que mira la pantalla d'un portàtil a taula d'aula, amb llum càlida de finestra i altres alumnes desenfocats al fons.",
   "kicker": "IA × Societat",
-  "title": "Aprendre junts continua sent la tecnologia més poderosa",
-  "caption": "La intel·ligència artificial guanya sentit quan amplia una conversa, no quan la substitueix.",
+  "title": "Qui guia qui",
+  "caption": "Enmig d'una setmana marcada per retards, demandes i por a l'escalada de la IA, l'aula recorda que la tecnologia només és tan bona com la persona que hi ha al costat per acompanyar-la.",
   "credit": "Imatge editorial generada amb IA"
 };
