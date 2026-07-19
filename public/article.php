@@ -1,17 +1,55 @@
 <?php
 declare(strict_types=1);
 
+$base = 'https://inteligencia-artificial.cat';
 $articlesFile = __DIR__ . '/data/articles.json';
 $edition = is_file($articlesFile) ? json_decode((string) file_get_contents($articlesFile), true) : ['items' => []];
 $slug = preg_replace('/[^a-z0-9-]/', '', strtolower((string) ($_GET['slug'] ?? '')));
 $article = null;
+$publishedIso = '';
 foreach (($edition['items'] ?? []) as $item) if (($item['slug'] ?? '') === $slug) { $article = $item; break; }
+if ($article) { $publishedIso = substr((string) ($edition['updatedAt'] ?? ''), 0, 10); }
+if (!$article && $slug !== '') {
+    // Hemeroteca: les notícies no moren quan canvia l'edició del dia.
+    $arxiuFile = __DIR__ . '/data/arxiu.json';
+    $arxiu = is_file($arxiuFile) ? json_decode((string) file_get_contents($arxiuFile), true) : ['editions' => []];
+    foreach (($arxiu['editions'] ?? []) as $ed) {
+        foreach (($ed['items'] ?? []) as $item) {
+            if (($item['slug'] ?? '') === $slug) {
+                $article = $item;
+                if (preg_match('/^(\d{2})\.(\d{2})\.(\d{4})$/', (string) ($ed['date'] ?? ''), $m)) {
+                    $publishedIso = $m[3] . '-' . $m[2] . '-' . $m[1];
+                }
+                break 2;
+            }
+        }
+    }
+}
+$found = $article !== null;
 if (!$article) { http_response_code(404); $article = ['title' => 'Article no trobat', 'excerpt' => 'Aquesta història ja no està disponible.', 'category' => 'ARXIU', 'body' => 'Torna a l’edició per descobrir les últimes històries.']; }
 function e(string $value): string { return htmlspecialchars($value, ENT_QUOTES, 'UTF-8'); }
 $audioFile = __DIR__ . '/assets/audio/' . $slug . '.mp3';
 $audioUrl = ($slug !== '' && is_file($audioFile)) ? './assets/audio/' . $slug . '.mp3?v=' . (string) filemtime($audioFile) : '';
+$canonical = $base . '/article.php?slug=' . rawurlencode($slug);
+$desc = trim((string) ($article['excerpt'] ?? ''));
+$imgAbs = !empty($article['image']) ? $base . '/' . ltrim(preg_replace('#^\./#', '', (string) $article['image']), '/') : '';
+$jsonld = null;
+if ($found) {
+    $jsonld = [
+        '@context' => 'https://schema.org',
+        '@type' => 'NewsArticle',
+        'headline' => (string) $article['title'],
+        'description' => $desc,
+        'inLanguage' => 'ca',
+        'mainEntityOfPage' => $canonical,
+        'author' => ['@type' => 'Organization', 'name' => 'intel·ligènciaartificial.cat', 'url' => $base],
+        'publisher' => ['@type' => 'NewsMediaOrganization', 'name' => 'intel·ligènciaartificial.cat', 'url' => $base],
+    ];
+    if ($imgAbs !== '') { $jsonld['image'] = [$imgAbs]; }
+    if ($publishedIso !== '') { $jsonld['datePublished'] = $publishedIso; $jsonld['dateModified'] = $publishedIso; }
+}
 ?>
-<!doctype html><html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= e($article['title']) ?> — intel·ligència artificial.cat</title><link rel="stylesheet" href="./styles.css"><style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:18px 0 6px}.tts-player button{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border:1px solid #1d2760;border-radius:999px;background:#1d2760;color:#fff;font-family:inherit;font-size:13px;font-weight:600;line-height:1;cursor:pointer}.tts-player button:hover{opacity:.88}.tts-player .tts-stop{background:transparent;color:#1d2760;padding:10px 14px}.tts-note{font-size:12px;color:#4c596f}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:460px;height:40px}.tts-audio-label{font-size:13px;font-weight:600;color:#1d2760;white-space:nowrap}</style></head><body><main class="article-page"><a class="brand" href="./">intel·ligència<br><em>artificial</em><span>.cat</span></a><p class="eyebrow"><span class="tag"><?= e($article['category'] ?? 'ANÀLISI') ?></span> · <?= e($article['read'] ?? '5 MIN') ?></p><h1><?= e($article['title']) ?></h1><p class="article-dek"><?= e($article['excerpt']) ?></p><?php if ($audioUrl): ?><div class="tts-player"><span class="tts-audio-label">🎧 Escolta la notícia</span><audio controls preload="none" src="<?= e($audioUrl) ?>">El teu navegador no pot reproduir l'àudio.</audio></div><?php else: ?><div class="tts-player" id="tts-player" hidden><button type="button" id="tts-toggle" aria-pressed="false"><span id="tts-icon" aria-hidden="true">🔊</span><span id="tts-label">Escolta la notícia</span></button><button type="button" class="tts-stop" id="tts-stop" hidden>■ Atura</button><span class="tts-note" id="tts-note"></span></div><?php endif; ?><?php if (!empty($article['image'])): ?><img class="article-image" src="<?= e($article['image']) ?>" alt="Imatge relacionada amb l’article"><?php endif; ?><?php $sourceUrl = $article['sourceUrl'] ?? $article['url'] ?? ''; ?><?php if ($sourceUrl): ?><p class="article-source">Font: <a href="<?= e($sourceUrl) ?>" target="_blank" rel="noreferrer"><?= e($article['sourceName'] ?? 'Font original') ?></a><?php if (!empty($article['sourceDate'])): ?> · <?= e($article['sourceDate']) ?><?php endif; ?></p><?php endif; ?><div class="article-body"><?php foreach (preg_split('/\n\n+/', (string) ($article['body'] ?? '')) as $paragraph): ?><p><?= e($paragraph) ?></p><?php endforeach; ?></div><a class="text-link" href="./">← Torna a l’edició</a></main><script>(() => {
+<!doctype html><html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= e($article['title']) ?> — intel·ligència artificial.cat</title><?php if ($found): ?><meta name="description" content="<?= e($desc) ?>"><link rel="canonical" href="<?= e($canonical) ?>"><meta property="og:type" content="article"><meta property="og:site_name" content="intel·ligènciaartificial.cat"><meta property="og:locale" content="ca_ES"><meta property="og:title" content="<?= e($article['title']) ?>"><meta property="og:description" content="<?= e($desc) ?>"><meta property="og:url" content="<?= e($canonical) ?>"><?php if ($imgAbs !== ''): ?><meta property="og:image" content="<?= e($imgAbs) ?>"><meta name="twitter:card" content="summary_large_image"><?php else: ?><meta name="twitter:card" content="summary"><?php endif; ?><script type="application/ld+json"><?= json_encode($jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script><?php else: ?><meta name="robots" content="noindex"><?php endif; ?><link rel="stylesheet" href="./styles.css"><style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:18px 0 6px}.tts-player button{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border:1px solid #1d2760;border-radius:999px;background:#1d2760;color:#fff;font-family:inherit;font-size:13px;font-weight:600;line-height:1;cursor:pointer}.tts-player button:hover{opacity:.88}.tts-player .tts-stop{background:transparent;color:#1d2760;padding:10px 14px}.tts-note{font-size:12px;color:#4c596f}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:460px;height:40px}.tts-audio-label{font-size:13px;font-weight:600;color:#1d2760;white-space:nowrap}</style></head><body><main class="article-page"><a class="brand" href="./">intel·ligència<br><em>artificial</em><span>.cat</span></a><p class="eyebrow"><span class="tag"><?= e($article['category'] ?? 'ANÀLISI') ?></span> · <?= e($article['read'] ?? '5 MIN') ?></p><h1><?= e($article['title']) ?></h1><p class="article-dek"><?= e($article['excerpt']) ?></p><?php if ($audioUrl): ?><div class="tts-player"><span class="tts-audio-label">🎧 Escolta la notícia</span><audio controls preload="none" src="<?= e($audioUrl) ?>">El teu navegador no pot reproduir l'àudio.</audio></div><?php else: ?><div class="tts-player" id="tts-player" hidden><button type="button" id="tts-toggle" aria-pressed="false"><span id="tts-icon" aria-hidden="true">🔊</span><span id="tts-label">Escolta la notícia</span></button><button type="button" class="tts-stop" id="tts-stop" hidden>■ Atura</button><span class="tts-note" id="tts-note"></span></div><?php endif; ?><?php if (!empty($article['image'])): ?><img class="article-image" src="<?= e($article['image']) ?>" alt="Imatge relacionada amb l’article"><?php endif; ?><?php $sourceUrl = $article['sourceUrl'] ?? $article['url'] ?? ''; ?><?php if ($sourceUrl): ?><p class="article-source">Font: <a href="<?= e($sourceUrl) ?>" target="_blank" rel="noreferrer"><?= e($article['sourceName'] ?? 'Font original') ?></a><?php if (!empty($article['sourceDate'])): ?> · <?= e($article['sourceDate']) ?><?php endif; ?></p><?php endif; ?><div class="article-body"><?php foreach (preg_split('/\n\n+/', (string) ($article['body'] ?? '')) as $paragraph): ?><p><?= e($paragraph) ?></p><?php endforeach; ?></div><a class="text-link" href="./">← Torna a l’edició</a></main><script>(() => {
   if (!('speechSynthesis' in window) || !window.SpeechSynthesisUtterance) return;
   const synth = window.speechSynthesis;
   synth.getVoices();
