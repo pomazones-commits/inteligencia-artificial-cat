@@ -1,15 +1,5 @@
 window.IA_RADAR = [
   {
-    "place": "Flix",
-    "category": "IA I SOCIETAT",
-    "date": "19.07.2026",
-    "title": "L'economista Fernando Trias de Bes: \"La veritable cursa de la intel·ligència artificial no és pels algorismes, sinó per la infraestructura que els fa funcionar\"",
-    "summary": "En una anàlisi publicada aquest diumenge, l'escriptor i economista català defensa que el formigó, el coure i, sobretot, la disponibilitat elèctrica —no la innovació algorítmica— són els factors que determinaran quins territoris es beneficiaran realment del boom de la IA, en un moment en què Catalunya viu l'anunci de diverses grans inversions en centres de dades.",
-    "detail": "Mentre el debat públic sobre la intel·ligència artificial se centra sovint en la capacitat dels models o en la competència entre OpenAI, Anthropic i Google, una part creixent d'economistes i analistes assenyala que la disputa real es lliura en un terreny molt més físic: qui construeix, i on, la infraestructura que fa possible entrenar i executar aquests sistemes.\n\nEn una anàlisi publicada aquest diumenge 19 de juliol a ON ECONOMIA, d'El Nacional, l'escriptor i economista Fernando Trias de Bes sosté que \"l'altra cursa\" de la intel·ligència artificial no es juga en els algorismes sinó en \"construir la infraestructura capaç de fer-los funcionar\": formigó, acer, coure, quilòmetres de cable i, sobretot, una enorme disponibilitat d'energia elèctrica. Trias de Bes hi compara els centres de dades amb els aeroports, que generen valor no només per ells mateixos sinó per l'ecosistema d'empreses que atrauen al seu voltant —en aquest cas, laboratoris d'IA, startups tecnològiques i proveïdors especialitzats—, i defensa que la disponibilitat i el preu de l'energia s'estan convertint en el principal factor de competitivitat entre territoris, per davant de la mà d'obra o els recursos naturals tradicionals.\n\nLa reflexió és rellevant perquè arriba en un moment en què Catalunya viu l'anunci de diverses grans inversions en centres de dades d'IA —com el projecte de més de 1.000 milions d'euros de Submer Group als antics terrenys d'Ercros a Flix, o la candidatura de Móra la Nova a acollir una gigafactoria europea—, i perquè situa la disponibilitat elèctrica, més que la innovació tecnològica pròpiament dita, com el factor que determinarà quins territoris català i europeus es beneficiaran realment d'aquesta transformació.\n\nEs tracta d'una peça d'opinió, no d'un estudi econòmic amb dades pròpies contrastades, i l'article no concreta quina capacitat elèctrica addicional necessitaria Catalunya per competir realment amb els grans hubs de dades dels Estats Units o el sud-est asiàtic, ni quins mecanismes de política energètica farien falta per assolir-la.",
-    "source": "El Nacional (ON ECONOMIA) — L'altra cursa de la intel·ligència artificial",
-    "url": "https://www.elnacional.cat/oneconomia/ca/opinio/altra-cursa-intelligencia-artificial-fernando-trias-de-bes_1669889_102.html"
-  },
-  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "19.07.2026",
