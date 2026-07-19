@@ -116,7 +116,10 @@ button { color: inherit; }
 .carousel-progress { display: flex; flex: 1; gap: 7px; }
 .carousel-progress button { position: relative; flex: 1; max-width: 74px; height: 18px; padding: 0; border: 0; background: transparent; cursor: pointer; }
 .carousel-progress button::before { content: ""; position: absolute; inset: 8px 0 auto; height: 3px; border-radius: 3px; background: #d7dce7; }
-.carousel-progress button.active::before { background: var(--blue); }
+.carousel-progress button::after { content: ""; position: absolute; inset: 8px 0 auto; height: 3px; border-radius: 3px; background: var(--blue); transform: scaleX(0); transform-origin: left; }
+.carousel-progress button.active::after { transform: scaleX(1); animation: carrusel-temps 6s linear forwards; }
+.daily-carousel:hover .carousel-progress button.active::after { animation-play-state: paused; }
+@keyframes carrusel-temps { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 .carousel-actions { display: flex; align-items: center; gap: 10px; }
 .carousel-actions button { display: grid; width: 36px; height: 36px; place-items: center; border: 0; border-radius: 50%; color: #fff; background: var(--ink); cursor: pointer; }
 .carousel-actions button:hover { color: var(--ink); background: var(--lime); }
