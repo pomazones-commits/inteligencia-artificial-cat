@@ -158,10 +158,19 @@ function mergeNews(incoming, previous, limit) {
   return merged;
 }
 
+// Coincidència de paraula completa: evita falsos positius per subcadena, com ara
+// 'vic' dins "vicepresident", 'bsc' dins "subscripcions" o 'reus' dins "correus".
+// Les fronteres es defineixen amb lletres unicode (accents inclosos) i xifres, de
+// manera que els termes accentuats ("català", "mataró") també hi funcionen bé.
+function wholeWord(term) {
+  const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(?<![\\p{L}\\p{N}])${escaped}(?![\\p{L}\\p{N}])`, 'iu');
+}
+
 function detectPlace(story) {
-  const text = `${story.title} ${story.excerpt} ${story.body}`.toLocaleLowerCase('ca');
+  const text = `${story.title} ${story.excerpt} ${story.body}`;
   const places = ['Barcelona', 'Girona', 'Lleida', 'Tarragona', 'Mataró', 'Flix', 'Sabadell', 'Terrassa', 'Manresa', 'Reus'];
-  return places.find(place => text.includes(place.toLocaleLowerCase('ca'))) || 'Catalunya';
+  return places.find(place => wholeWord(place).test(text)) || 'Catalunya';
 }
 
 function radarCategory(story) {
@@ -173,10 +182,11 @@ function radarCategory(story) {
   return 'IA I SOCIETAT';
 }
 
-const LOCAL_TERMS = /catalunya|català|catalana|catalanes|països catalans|barcelona|girona|lleida|tarragona|mataró|flix|sabadell|terrassa|manresa|reus|badalona|vic|granollers|igualada|generalitat|aina|softcatalà|bsc|upc|uab|ub |urv/i;
+const LOCAL_TERMS = ['catalunya', 'català', 'catalana', 'catalanes', 'països catalans', 'barcelona', 'girona', 'lleida', 'tarragona', 'mataró', 'flix', 'sabadell', 'terrassa', 'manresa', 'reus', 'badalona', 'vic', 'granollers', 'igualada', 'generalitat', 'aina', 'softcatalà', 'bsc', 'upc', 'uab', 'ub', 'urv'];
 
 function isLocalStory(story) {
-  return LOCAL_TERMS.test(`${story.category} ${story.title} ${story.excerpt}`);
+  const haystack = `${story.category} ${story.title} ${story.excerpt}`;
+  return LOCAL_TERMS.some(term => wholeWord(term).test(haystack));
 }
 
 // Deriva senyals de radar NOMÉS de les notícies realment catalanes del dia.
