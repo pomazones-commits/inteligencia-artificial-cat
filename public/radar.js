@@ -1,15 +1,5 @@
 window.IA_RADAR = [
   {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "19.07.2026",
-    "title": "SK Hynix debuta al Nasdaq amb la sortida a borsa més gran de la història d'una empresa estrangera als EUA, impulsada pel boom de memòria per a IA",
-    "summary": "El fabricant sud-coreà de xips de memòria d'alt ample de banda, component crític dels processadors d'IA de Nvidia, ha captat 26.500 milions de dòlars en una operació set vegades sobresubscrita, amb el títol pujant més d'un 12% el primer dia de cotització.",
-    "detail": "SK Hynix controla aproximadament el 60% del mercat mundial de memòria d'alt ample de banda (HBM) per ingressos, un component que s'ha tornat crític per a l'entrenament de grans models d'intel·ligència artificial i que Nvidia necessita en grans quantitats per als seus processadors gràfics més avançats.\n\nSegons va informar TechCrunch el 10 de juliol, SK Hynix va debutar al Nasdaq venent 177,9 milions d'accions dipositàries americanes (ADR) a 149 dòlars cadascuna, per captar 26.500 milions de dòlars, la sortida a borsa més gran de la història d'una empresa estrangera als Estats Units, per davant dels 25.000 milions que va captar Alibaba el 2014, i la segona operació d'aquest tipus més gran mai realitzada als Estats Units després de SpaceX. L'oferta va quedar sobresubscrita més de set vegades i el títol va obrir un 14% per sobre del preu de sortida, per tancar la primera sessió amb una pujada superior al 12%. La companyia destinarà els fons captats a una nova planta de fabricació i una nova instal·lació d'encapsulat a Corea del Sud, així com a l'adquisició d'escàners EUV per a la producció de xips de nova generació, mentre el secretari de Comerç nord-americà, Howard Lutnick, manté converses amb SK Hynix i Samsung perquè construeixin noves fàbriques als Estats Units.\n\nLa notícia és rellevant perquè confirma que la demanda de memòria per a IA s'ha convertit en un dels motors financers més potents del sector tecnològic, capaç de trencar el tradicional «descompte coreà» que històricament ha infravalorat les empreses del país als mercats internacionals, i perquè reforça la posició de SK Hynix com a proveïdora imprescindible per a Nvidia en un moment de coll d'ampolla generalitzat de xips d'IA.\n\nNo es coneixen encara els terminis concrets en què SK Hynix podria acabar construint fàbriques als Estats Units tal com li reclama el govern nord-americà, ni fins a quin punt l'actual demanda de memòria HBM es podria moderar si el ritme d'inversió en infraestructura d'IA de les grans tecnològiques s'alentís en el futur.",
-    "source": "TechCrunch — SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
-    "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
-  },
-  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "19.07.2026",
