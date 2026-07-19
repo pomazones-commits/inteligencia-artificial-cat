@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-07-18T16:18:04.425Z",
+  "updatedAt": "2026-07-19T04:23:01.381Z",
   "items": [
     {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Un estudi del Consell de Supervisió de Meta revela que els grans models d'IA es mostren molt més reticents a criticar règims autoritaris",
-      "excerpt": "L'anàlisi, que ha posat a prova deu models d'Anthropic, Google, Meta, OpenAI, xAI i DeepSeek, conclou que rebutgen el 34% de les peticions de contingut crític contra governs restrictius com la Xina o l'Aràbia Saudita, davant només el 14% quan es tracta de democràcies com el Japó o el Regne Unit."
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "title": "Apple envia cartes de conservació de proves a uns 40 antics empleats que ara treballen a OpenAI, en l'ofensiva legal pels secrets del maquinari d'IA",
+      "excerpt": "L'empresa amplia així la seva demanda per suposat robatori de secrets industrials, que ja assenyala l'antic vicepresident Tang Tan, ara director de maquinari d'OpenAI, en plena cursa de totes dues companyies per fer-se amb talent d'IA per als seus futurs dispositius."
     },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "OpenAI substitueix el mode de veu avançat de ChatGPT per GPT-Live, capaç d'escoltar i parlar alhora",
-      "excerpt": "El nou sistema, amb arquitectura de duplex complet i disponible ja per a més de 150 milions d'usuaris de veu, delega les consultes que requereixen raonament profund o cerca al model GPT-5.5 en segon pla per mantenir el fil de la conversa sense talls."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Anthropic pressiona perquè els estats nord-americans endureixin progressivament les normes de seguretat de la IA, més enllà d'Illinois",
-      "excerpt": "El cap de relacions governamentals de la companyia, Cesar Fernandez, defensa que \"la transparència i l'autoinforme ja no són suficients\" i reclama auditories independents obligatòries, després que Illinois es convertís en el primer estat a exigir-les cada any als grans desenvolupadors d'IA."
+      "title": "Moonshot AI llança Kimi K3, el model de pesos oberts més gran fins ara, i lidera el rànquing de codi de Arena.ai",
+      "excerpt": "El nou sistema xinès, de 2,8 bilions de paràmetres i preu molt més baix que els seus rivals, supera Claude Fable 5 i GPT-5.6 Sol en el benchmark de programació de Frontend Code Arena, tot i que encara els queda per darrere en la puntuació Elo global."
     },
     {
       "category": "MERCATS",
       "read": "4 MIN",
-      "title": "Submer Group invertirà més de 1.000 milions d'euros en un centre de dades d'IA als antics terrenys d'Ercros a Flix",
-      "excerpt": "La instal·lació, que operarà l'empresa Rubix Data Centers i refredarà amb un sistema líquid sense consum d'aigua, crearà fins a 150 llocs de treball permanents i aspira a reforçar la sobirania digital europea des de la Ribera d'Ebre."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Thinking Machines, l'empresa de Mira Murati, llança Inkling, el seu primer model d'IA de pesos oberts",
-      "excerpt": "El model, de 975.000 milions de paràmetres però que només n'activa 41.000 milions per tasca, no busca ser el més potent del mercat sinó el més personalitzable, i l'empresa en manté el negoci a través de Tinker, la seva eina de personalització per a clients com Bridgewater Associates."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Brussel·les obliga Google a obrir Android als assistents d'IA rivals com Claude i ChatGPT",
-      "excerpt": "La Comissió Europea considera que preinstal·lar Gemini a Android perjudica la competència per als assistents d'Anthropic, OpenAI i Mistral, i exigeix també que Google comparteixi dades de cerca amb rivals qualificats. Google adverteix que la mesura amenaça la privadesa dels usuaris europeus."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Setze premis Nobel i més de 200 economistes alerten que la IA pot transformar l'economia en anys, no en dècades",
-      "excerpt": "Un manifest titulat \"Hem d'actuar ara\", impulsat entre altres per Erik Brynjolfsson i signat també per Nobel escèptics com Daron Acemoglu, reclama polítiques urgents per preparar-se davant una possible transformació econòmica accelerada per la intel·ligència artificial."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Microsoft entrena els seus equips de vendes per desacreditar Claude i altres models d'OpenAI i Google davant els clients",
-      "excerpt": "En una trobada interna revelada per Bloomberg, l'executiu Jacob Andreou va presentar comparatives on qualificava Claude d'Anthropic de \"més lent, menys precís\" i sense les integracions de seguretat necessàries per a l'ús empresarial, mentre Microsoft substitueix models de tercers per els propis a Word i Excel."
+      "title": "Jensen Huang desmenteix els rumors de retard del xip Vera Rubin de Nvidia: \"ja és en producció\"",
+      "excerpt": "El conseller delegat de Nvidia respon així als informes de la firma SemiAnalysis i de l'analista John Vinh, de KeyBanc, que apuntaven a problemes tèrmics i de fabricació en la nova plataforma d'IA, de la qual la companyia espera generar un bilió de dòlars d'ingressos el 2026 i el 2027."
     },
     {
       "category": "TECNOLOGIA",
       "read": "3 MIN",
-      "title": "OpenAI llança el seu primer producte de maquinari: un teclat de 230 dòlars per controlar agents de Codex",
-      "excerpt": "El Codex Micro, dissenyat amb l'empresa especialitzada Work Louder, inclou tecles lluminoses que mostren l'estat dels agents i un dial per ajustar quant de \"raonament\" hi dedica cada tasca, en una edició limitada que arriba mentre Apple demanda OpenAI per un dispositiu de maquinari diferent."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Microsoft prepara Project Perception, una eina de ciberseguretat amb IA que combina models propis, d'OpenAI i d'Anthropic per abaratir costos",
-      "excerpt": "La plataforma, que la companyia podria llançar aquest mateix mes sota el nou responsable de seguretat Hayete Gallot, encamina consultes a diferents models segons la tasca per oferir una detecció de vulnerabilitats similar a la de Mythos d'Anthropic a un preu més accessible per a les empreses."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Apple recupera el títol d'empresa més valuosa del món i supera Nvidia enmig d'un replantejament de les apostes en IA",
-      "excerpt": "Les accions d'Apple van tancar divendres amb una capitalització de 4,88 bilions de dòlars, per davant dels 4,86 bilions de Nvidia, després d'una caiguda del 3,5% del fabricant de xips. És el primer cop que Apple recupera el lideratge borsari mundial des de l'abril de l'any passat."
+      "title": "Anthropic posa fi el 19 de juliol a l'accés gratuït de Claude Fable 5 dins de les subscripcions",
+      "excerpt": "Després de dues pròrrogues consecutives, la companyia confirma que a partir del 20 de juliol l'ús de Fable 5 que superi el 50% del límit setmanal caldrà pagar-lo amb crèdits, a 10 dòlars per milió de tokens d'entrada i 50 per milió de sortida."
     },
     {
       "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "San Francisco exigeix a Apple i Google que retirin 13 aplicacions d'IA que generen nus falsos sense consentiment",
-      "excerpt": "El fiscal de la ciutat, David Chiu, ha enviat cartes de cessament a les dues tecnològiques perquè trenquin relacions amb els desenvolupadors d'aquestes aplicacions de despullament digital i deixin de cobrar-ne comissió, en una acció que qualifica d'\"il·legal i completament inacceptable\"."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Una filtració del codi font de Suno destapa com l'empresa hauria recopilat milions d'hores de música de YouTube i Deezer per entrenar la seva IA",
-      "excerpt": "Un hacker va accedir al codi intern de la plataforma de generació musical mitjançant un atac a la cadena de subministrament de npm, i el material filtrat apunta a més de 280.000 hores d'àudio de YouTube Music, Genius i Deezer usades presumptament per entrenar els seus models."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Fireworks AI capta 1.500 milions de dòlars en una ronda sèrie D que dispara la seva valoració fins als 17.500 milions",
-      "excerpt": "L'startup d'infraestructura d'inferència, que assegura haver superat els 1.000 milions de dòlars d'ingressos anualitzats, tanca una de les rondes més grans del sector amb Atreides Management, Index Ventures i TCV com a inversors principals."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google connecta el Mode IA de la Cerca amb Canva, YouTube Music i Instacart perquè completi tasques directament des dels resultats",
-      "excerpt": "La novetat, que es desplega aquesta setmana als Estats Units, permet demanar a l'IA que creï una llista de reproducció, dissenyi un cartell o afegeixi productes a la cistella de la compra sense sortir del cercador, dins l'estratègia de \"Personal Intelligence\" de la companyia."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Les accions d'Alphabet cauen un 4,4% després de conèixer-se el retard de mesos del seu model estrella Gemini 3.5 Pro",
-      "excerpt": "Uns 200.000 milions de dòlars de capitalització borsària es van esfumar en una sola sessió després que trascendís que el nou model de Google no assoleix els objectius interns de programació i raonament complex, mentre OpenAI i Meta guanyen terreny."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "xAI demanda un usuari de Carolina del Sud per fer servir Grok per generar material d'abús sexual infantil",
-      "excerpt": "L'empresa d'Elon Musk acusa Terry Harwood, detingut el febrer per delictes d'explotació sexual de menors, d'haver manipulat el seu chatbot per crear imatges il·legals, en una demanda presentada aquesta setmana en un tribunal federal de Texas."
-    },
-    {
-      "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "Anthropic, Blackstone i Hellman & Friedman llancen Ode, una empresa d'implementació d'IA valorada en 1.500 milions de dòlars",
-      "excerpt": "La nova firma, nascuda de l'startup Fractional AI després de trencar una associació d'onze mesos amb OpenAI, desplega enginyers d'Anthropic dins les oficines de grans clients empresarials i aspira a convertir-se en un negoci d'un bilió de dòlars."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "5 MIN",
-      "title": "Els directius de les grans tecnològiques d'IA reforcen la seguretat personal davant l'escalada d'amenaces violentes",
-      "excerpt": "Des de l'intent de calar foc a la casa de Sam Altman fins a la intrusió d'un home a les oficines d'Anthropic advertint d'un assassinat, el sector viu una onada de rebuig social que ha disparat les amenaces digitals contra executius i centres de dades en pocs mesos."
-    },
-    {
-      "category": "TECNOLOGIA",
       "read": "3 MIN",
-      "title": "Google converteix NotebookLM en Gemini Notebook i hi afegeix un ordinador al núvol per executar codi",
-      "excerpt": "L'eina de recerca que ja fan servir més de 30 milions de persones i 600.000 organitzacions estrena nom i una funció que permet escriure i executar codi directament dins de cada quadern per aprofundir en l'anàlisi de dades."
+      "title": "L'empresari José Elías: \"Només el que és físic sobreviurà a la intel·ligència artificial\"",
+      "excerpt": "L'inversor català defensa que oficis com electricista, lampista o mecànic quedaran protegits de l'automatització perquè requereixen presència física, mentre que les feines de pantalla —redactar, calcular, dissenyar— són les més exposades a la IA generativa."
     }
   ]
 }

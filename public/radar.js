@@ -1,5 +1,35 @@
 window.IA_RADAR = [
   {
+    "place": "Reus",
+    "category": "EMPRESA",
+    "date": "19.07.2026",
+    "title": "Apple envia cartes de conservació de proves a uns 40 antics empleats que ara treballen a OpenAI, en l'ofensiva legal pels secrets del maquinari d'IA",
+    "summary": "L'empresa amplia així la seva demanda per suposat robatori de secrets industrials, que ja assenyala l'antic vicepresident Tang Tan, ara director de maquinari d'OpenAI, en plena cursa de totes dues companyies per fer-se amb talent d'IA per als seus futurs dispositius.",
+    "detail": "OpenAI porta mesos desenvolupant dispositius de maquinari propis amb el dissenyador Jony Ive, antic responsable de disseny d'Apple, un projecte que ha intensificat la competència per fitxar talent entre les dues companyies i que ara ha desembocat en un litigi obert per presumpte espionatge industrial.\n\nSegons va informar Computerworld el 17 de juliol, Apple ha enviat cartes de conservació de proves a prop de 40 antics empleats que ara treballen a OpenAI, exigint-los que preservin tots els documents, correus electrònics i comunicacions rellevants per a la demanda i que es reuneixin amb els advocats de la companyia. La mesura amplia la demanda que Apple ja havia presentat a principis de juliol, en què acusa OpenAI de \"robatori de dades coordinat\" i de \"apropiació indeguda de secrets industrials i incompliment de contracte\". La demanda assenyala directament l'antic vicepresident d'Apple Tang Tan, que hi va treballar 24 anys i que ara és director de maquinari d'OpenAI, i sosté que la companyia va extreure sistemàticament informació confidencial, inclosos noms en clau de projectes interns, per obtenir avantatge competitiu durant entrevistes de contractació. Apple descriu les proves presentades fins ara com només \"la punta de l'iceberg\" i reclama que es prohibeixi a OpenAI fer servir qualsevol informació d'Apple en el desenvolupament del seu maquinari, a més de danys i perjudicis. OpenAI ha respost que \"no té cap interès en els secrets industrials d'altres companyies\" i assegura que ja havia respost a les consultes inicials d'Apple.\n\nLa notícia és rellevant perquè enfronta obertament dues de les grans potències tecnològiques mundials pel control del maquinari d'intel·ligència artificial de nova generació, un mercat que totes dues consideren estratègic, i perquè posa de manifest fins a quin punt s'ha intensificat la disputa pel talent especialitzat en IA entre els grans laboratoris i les grans tecnològiques de consum.\n\nCap tribunal no s'ha pronunciat encara sobre el fons de les acusacions d'Apple, que OpenAI nega, i no es coneix quants dels prop de 40 antics empleats acabaran sent interrogats formalment ni si se'ls trobarà responsabilitat individual. Tampoc s'ha fixat encara una data de judici ni s'ha detallat quina quantia reclama Apple en concepte de danys.",
+    "source": "Computerworld — Apple widens OpenAI trade secrets fight with preservation orders",
+    "url": "https://www.computerworld.com/article/4198342/apple-widens-openai-trade-secrets-fight-with-preservation-orders.html"
+  },
+  {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "19.07.2026",
+    "title": "Anthropic posa fi el 19 de juliol a l'accés gratuït de Claude Fable 5 dins de les subscripcions",
+    "summary": "Després de dues pròrrogues consecutives, la companyia confirma que a partir del 20 de juliol l'ús de Fable 5 que superi el 50% del límit setmanal caldrà pagar-lo amb crèdits, a 10 dòlars per milió de tokens d'entrada i 50 per milió de sortida.",
+    "detail": "Claude Fable 5, el model de la classe Mythos que Anthropic va fer accessible al públic general l'1 de juliol després que els controls d'exportació nord-americans n'haguessin suspès temporalment l'accés, s'havia mantingut fins ara inclòs sense cost addicional dins de les subscripcions de pagament, un avantatge que la companyia ha anat allargant setmana rere setmana.\n\nSegons va informar BleepingComputer el 12 de juliol, Anthropic va confirmar que l'accés gratuït a Fable 5 per als usuaris de pagament s'esten fins al 19 de juliol a les 23:59:59, hora del Pacífic, després d'haver-lo ampliat ja dues vegades des del venciment inicial del 7 de juliol. La mesura, aplicable als plans Claude Pro, Max, Team i als seients d'Enterprise amb la modalitat premium activada, permet fer servir Fable 5 fins a un 50% del límit d'ús setmanal sense cost afegit; la companyia hi va sumar també un increment del 50% dels límits setmanals de Claude Code fins a la mateixa data. Anthropic va declarar que \"hem ampliat aquesta promoció fins al 19 de juliol de 2026 a les 23:59:59 hora del Pacífic\", i ha precisat que, a partir del 20 de juliol, l'ús de Fable 5 que superi aquell 50% caldrà pagar-lo amb crèdits d'ús prepagats, a 10 dòlars per milió de tokens d'entrada i 50 per milió de tokens de sortida, o bé els usuaris podran optar per fer servir altres models de la família Claude sense cost addicional.\n\nLa notícia és rellevant perquè afecta directament milions d'usuaris de pagament de Claude arreu del món, inclosos els desenvolupadors catalans que fan servir Claude Code en el seu dia a dia, i perquè reflecteix com Anthropic gestiona les limitacions de capacitat de còmput del seu model més avançat en plena competència amb el desplegament esglaonat de GPT-5.6 per part d'OpenAI.\n\nAnthropic no ha precisat quan Fable 5 podria tornar a incloure's sense cost dins dels límits ordinaris de les subscripcions un cop hi hagi prou capacitat de còmput disponible, ni si hi haurà noves pròrrogues més enllà del 19 de juliol, com ja ha passat dues vegades anteriorment. Tampoc s'ha detallat quin impacte econòmic concret tindrà la mesura sobre els usuaris que facin un ús més intensiu del model.",
+    "source": "BleepingComputer — Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/"
+  },
+  {
+    "place": "Reus",
+    "category": "IA I SOCIETAT",
+    "date": "19.07.2026",
+    "title": "L'empresari José Elías: \"Només el que és físic sobreviurà a la intel·ligència artificial\"",
+    "summary": "L'inversor català defensa que oficis com electricista, lampista o mecànic quedaran protegits de l'automatització perquè requereixen presència física, mentre que les feines de pantalla —redactar, calcular, dissenyar— són les més exposades a la IA generativa.",
+    "detail": "El debat sobre com afectarà la intel·ligència artificial generativa el mercat laboral ha deixat de ser exclusiu d'economistes i acadèmics, i cada cop més empresaris hi aporten la seva pròpia lectura, sovint allunyada del consens més tècnic i basada en la seva experiència directa en la gestió de negocis i persones.\n\nSegons va publicar El Nacional.cat el 18 de juliol, l'empresari català José Elías va afirmar que \"només el que és físic sobreviurà a la intel·ligència artificial\", en una intervenció sobre el futur de l'ocupació. Elías hi sosté que les feines que es poden fer íntegrament des d'una pantalla —redactar textos, fer càlculs, dissenyar, analitzar documents o respondre correus— són les més exposades a l'automatització, mentre que oficis com electricista, lampista, fuster o mecànic queden protegits perquè exigeixen presència física, mans i responsabilitat directa sobre la feina feta. L'empresari destaca que l'especialització hi serà clau: un electricista que domini plaques solars, carregadors de vehicles elèctrics o eficiència energètica guanyarà més valor al mercat que un de generalista, i preveu que el desequilibri entre l'oferta i la demanda de professionals tècnics acabi empenyent-ne els salaris a l'alça.\n\nLa notícia és rellevant perquè arriba de la veu d'un empresari català conegut, en un moment en què moltes famílies i joves de Catalunya es plantegen quina formació val la pena cursar davant la incertesa que genera la IA, i perquè qüestiona la jerarquia tradicional que ha situat els estudis universitaris per damunt de la formació professional, just quan diverses veus del món econòmic i acadèmic —inclosos economistes guardonats amb el premi Nobel— alerten que la transformació del mercat laboral per la IA podria arribar en pocs anys.\n\nLes declaracions d'Elías són una opinió personal, no un estudi ni una anàlisi de dades pròpia, i no aborden com la robòtica i l'automatització física podrien acabar afectant també alguns d'aquests oficis manuals a mig termini, ni quins costos de formació o reconversió professional caldria assumir perquè la transició cap a aquests sectors tècnics fos real i a l'abast de tothom.",
+    "source": "El Nacional.cat — José Elías, sobre el futur de l'ocupació",
+    "url": "https://www.elnacional.cat/ca/estil-vida/jose-elias-sobre-futur-ocupacio-nomes-es-fisic-sobreviura-intelligencia-artificial_1670087_102.html"
+  },
+  {
     "place": "Flix",
     "category": "EMPRESA",
     "date": "18.07.2026",
@@ -48,35 +78,5 @@ window.IA_RADAR = [
     "detail": "El sistema comprova de manera automàtica dimensions, superfícies, alineacions i altres paràmetres normatius sobre un model digital únic, en lloc que els tècnics hagin de revisar manualment desenes de plànols solts. Si el pilot funciona, l'Ajuntament i la Generalitat preveuen estendre'l a municipis com Sant Adrià de Besòs, Lloret de Mar o la Seu d'Urgell.",
     "source": "idealista/news",
     "url": "https://www.idealista.com/ca/news/immobiliari/2026/07/14/905705-barcelona-tira-d-ia-per-reduir-a-la-meitat-els-temps-per-concedir-llicencies-urbanistiques"
-  },
-  {
-    "place": "Catalunya",
-    "category": "LLENGUA I IA",
-    "date": "14.07.2026",
-    "title": "Softcatalà avalua 19 models d'IA en català i en recomana un per fer servir en privat des de casa",
-    "summary": "L'entitat ha creat un índex propi, el CLAM, per mesurar de manera objectiva i reproduïble el rendiment dels grans models de llenguatge en tasques reals en català.",
-    "detail": "Amb el mètode CLAM, Softcatalà ha provat 19 models en tasques com la traducció, el resum, la reformulació o la detecció d'errors gramaticals. Gemma 3, de Google, és el model més ben valorat per fer-lo córrer en local i en privat, amb un ordinador de menys de cinc anys i almenys 16 GB de RAM. Whisper medium és la recomanació per a la transcripció.",
-    "source": "3Cat",
-    "url": "https://www.3cat.cat/3catinfo/quina-es-la-millor-ia-en-catala-i-com-tenir-ne-una-de-privada-a-casa/noticia/3417589/"
-  },
-  {
-    "place": "Catalunya",
-    "category": "EMPRESA",
-    "date": "13.07.2026",
-    "title": "Gairebé una de cada tres empreses catalanes ja fa servir la IA",
-    "summary": "L'informe d'ACCIÓ constata que el 30,4% del teixit empresarial català ha incorporat la intel·ligència artificial.",
-    "detail": "Segons ACCIÓ, el 30,4% de les empreses catalanes de més de nou treballadors va invertir en tecnologies relacionades amb la IA durant el 2025, sis punts percentuals més que l'any anterior i més del doble que el 2023, quan la xifra era del 12,6%. En el mateix acte es van reconèixer les deu empreses considerades més disru",
-    "source": "RAB Ràdio",
-    "url": "https://rab.cat/2026/07/11/tres-cada-deu-empreses-catalanes-incorporat-ia/"
-  },
-  {
-    "place": "Flix",
-    "category": "INFRAESTRUCTURA",
-    "date": "12.07.2026",
-    "title": "Flix acollirà una factoria d'IA de més de 1.000 milions d'euros",
-    "summary": "Submer Group construirà un centre de dades per a IA als antics terrenys d'Ercros, vora l'Ebre.",
-    "detail": "La primera fase tindrà 50 MW de potència i uns 150 llocs de treball directes, amb entrada en servei progressiva a partir del 2027 i ple rendiment el 2029. Per a la Ribera d'Ebre és l'oportunitat de reindustrialització més gran des del tancament de la planta química.",
-    "source": "RAB Ràdio",
-    "url": "https://rab.cat/2026/07/11/factoria-ia-submer-group-flix-ercros/"
   }
 ];
