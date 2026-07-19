@@ -1,9 +1,9 @@
 window.IA_DAILY_IMAGE = {
-  "date": "2026-07-18",
-  "image": "./assets/daily-reflection-2026-07-18.jpg",
-  "alt": "Una professora acompanya un alumne adolescent que mira la pantalla d'un portàtil a taula d'aula, amb llum càlida de finestra i altres alumnes desenfocats al fons.",
+  "date": "2026-07-19",
+  "image": "./assets/daily-reflection-2026-07-19.jpg",
+  "alt": "Un mestre electricista mostra a un jove aprenent com connectar un petit quadre elèctric sobre un banc de fusta ple d'eines i cables, en un taller il·luminat per la llum natural d'una finestra.",
   "kicker": "IA × Societat",
-  "title": "Qui guia qui",
-  "caption": "Enmig d'una setmana marcada per retards, demandes i por a l'escalada de la IA, l'aula recorda que la tecnologia només és tan bona com la persona que hi ha al costat per acompanyar-la.",
+  "title": "L'ofici que la màquina no pot fer sola",
+  "caption": "Mentre la intel·ligència artificial es menja les feines de pantalla, a molts tallers de Catalunya el coneixement encara es transmet mà a mà, gest a gest.",
   "credit": "Imatge editorial generada amb IA"
 };
