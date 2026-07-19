@@ -71,7 +71,8 @@ def main() -> int:
                 errors += 1
                 continue
             pujada = curl(
-                ["--ftp-create-dirs", "--max-time", "180", "-T", str(mp3), "-u", auth, remote]
+                ["--ftp-create-dirs", "--retry", "4", "--retry-delay", "6", "--retry-all-errors",
+                 "--max-time", "180", "-T", str(mp3), "-u", auth, remote]
             )
             if pujada.returncode == 0:
                 print(f"OK {slug}.mp3 ({mp3.stat().st_size // 1024} KB)")
@@ -80,7 +81,9 @@ def main() -> int:
                 print(f"ERROR pujant {slug}.mp3")
                 errors += 1
     print(f"---\nGenerats: {fets} · Ja existien: {saltats} · Errors: {errors}")
-    return 0
+    # Si alguna pujada ha fallat, marquem el workflow com a fallit perquè es vegi
+    # i es pugui reexecutar (abans retornàvem èxit i les errades passaven inadvertides).
+    return 1 if errors else 0
 
 
 if __name__ == "__main__":
