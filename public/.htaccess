@@ -29,4 +29,12 @@
   RewriteEngine On
   RewriteRule ^sitemap\.xml$ sitemap.php [L]
   RewriteRule ^feed\.xml$ feed.php [L]
+
+  # URLs antigues de l'època WordPress (ja no existeixen -> donaven 404).
+  # Redirecció 301 permanent a la portada per netejar el rastre a Google.
+  RewriteRule ^ara/?$ https://www.inteligencia-artificial.cat/ [R=301,L]
+  RewriteRule ^onu/?$ https://www.inteligencia-artificial.cat/ [R=301,L]
+  RewriteRule ^economia/?$ https://www.inteligencia-artificial.cat/ [R=301,L]
+  RewriteRule ^llms/?$ https://www.inteligencia-artificial.cat/ [R=301,L]
+  RewriteRule ^computacio/?$ https://www.inteligencia-artificial.cat/ [R=301,L]
 </IfModule>
