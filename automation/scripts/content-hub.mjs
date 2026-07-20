@@ -140,6 +140,14 @@ function validateDailyImage(payload) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(item.date)) throw new Error('daily-image: date ha de tenir el format AAAA-MM-DD.');
   if (!/^(https?:\/\/|\.\/|\/)/.test(item.image)) throw new Error('daily-image: image ha de ser una URL o ruta web.');
   if (item.alt.length < 25) throw new Error('daily-image: alt ha de descriure la fotografia.');
+  // Text associat opcional per a la pàgina "La imatge del dia"; conserva els paràgrafs.
+  const body = String(payload.body ?? '')
+    .replace(/\r\n/g, '\n')
+    .split(/\n{2,}/)
+    .map(paragraph => paragraph.trim())
+    .filter(Boolean)
+    .join('\n\n');
+  if (body) item.body = body;
   return item;
 }
 
