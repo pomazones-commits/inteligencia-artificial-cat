@@ -1,0 +1,9 @@
+window.IA_DAILY_IMAGE = {
+  "date": "2026-07-19",
+  "image": "./assets/daily-reflection-2026-07-19.jpg",
+  "alt": "Un mestre electricista mostra a un jove aprenent com connectar un petit quadre elèctric sobre un banc de fusta ple d'eines i cables, en un taller il·luminat per la llum natural d'una finestra.",
+  "kicker": "IA × Societat",
+  "title": "L'ofici que la màquina no pot fer sola",
+  "caption": "Mentre la intel·ligència artificial es menja les feines de pantalla, a molts tallers de Catalunya el coneixement encara es transmet mà a mà, gest a gest.",
+  "credit": "Imatge editorial generada amb IA"
+};
