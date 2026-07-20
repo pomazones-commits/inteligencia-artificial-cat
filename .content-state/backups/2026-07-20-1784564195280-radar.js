@@ -1,15 +1,5 @@
 window.IA_RADAR = [
   {
-    "place": "Catalunya",
-    "category": "POLÍTIQUES",
-    "date": "20.07.2026",
-    "title": "El Govern nomena Ferran Espada per pilotar l'oficina que ha d'impulsar el català davant la IA, amb 50 milions d'euros en tres anys",
-    "summary": "El periodista, exdirector de l'edició catalana de Públic, liderarà el pla acordat amb ERC dins els pressupostos de 2026, que inclou 3 milions d'euros específics per garantir la presència i la qualitat del català en els models d'intel·ligència artificial.",
-    "detail": "L'acord pressupostari entre el Govern i ERC per al 2026 va incloure partides específiques per protegir la presència del català en un entorn digital cada cop més dominat per la intel·ligència artificial generativa, un àmbit on les llengües minoritzades corren el risc de quedar poc representades en els grans models.\n\nSegons ha informat Nació Digital el 13 de juliol, el Govern ha nomenat el periodista Ferran Espada, exdirector de l'edició catalana de Públic i amb més de 30 anys d'experiència a mitjans com El Punt i El Punt Avui, per dirigir l'oficina que ha de coordinar totes les iniciatives per situar el català en una posició \"normalitzada i competitiva\" a internet i les xarxes socials. El programa compta amb un pressupost de 50 milions d'euros al llarg de tres anys, dins d'un paquet més ampli de 100 milions per a la promoció del català pactat amb ERC, del qual 60 milions es destinen específicament a l'àmbit digital i 3 milions es reserven per garantir dades originals i representatives que alimentin models i serveis d'IA en català, evitant la dependència de traduccions automàtiques.\n\nLa notícia és rellevant perquè situa la protecció lingüística directament dins l'agenda pressupostària de la IA, un terreny on fins ara les iniciatives en català havien vingut sobretot d'entitats com Softcatalà o el projecte Aina, i no d'una oficina governamental amb pressupost i responsable polític propis.\n\nNació Digital no detalla encara com es distribuiran concretament els 3 milions destinats a IA entre els diferents projectes ni quin calendari d'execució tindrà l'oficina de Ferran Espada més enllà del seu nomenament.",
-    "source": "Nació Digital — El periodista Ferran Espada pilotarà el pla del Govern per impulsar el català al món digital",
-    "url": "https://naciodigital.cat/politica/el-periodista-ferran-espada-pilotara-loficina-del-govern-per-impulsar-el-catala-al-mon-digital.html"
-  },
-  {
     "place": "Flix",
     "category": "IA I SOCIETAT",
     "date": "19.07.2026",
@@ -78,5 +68,15 @@ window.IA_RADAR = [
     "detail": "El fons ja participa en empreses com Ipronics (xips fotònics) o KD (xips de connectivitat òptica) i concentrarà les inversions a Espanya i Portugal. És un dels dos fons de 300 milions d'euros anunciats, l'altre dedicat a biotecnologia i salut.",
     "source": "El Nacional (ON ECONOMIA)",
     "url": "https://www.elnacional.cat/oneconomia/ca/empreses/criteria-impulsa-inversions-en-start-ups-cientifiques-tecnologiques_1667621_102.html"
+  },
+  {
+    "place": "Mataró",
+    "category": "EDUCACIÓ",
+    "date": "15.07.2026",
+    "title": "La Generalitat inverteix per primer cop al TecnoCampus, amb vista a un futur grau d'IA i Robòtica",
+    "summary": "Dos milions d'euros per ampliar en 13.000 m2 les instal·lacions, que han d'acollir nous laboratoris i el futur grau d'Intel·ligència Artificial i Robòtica Aplicada.",
+    "detail": "L'anunci el va fer la consellera d'Economia i Finances, Alícia Romero, amb l'alcalde de Mataró David Bote. L'ampliació passarà de 40.000 a 53.000 m2 i inclourà aules, laboratoris, simuladors per a Salut i una residència per a estudiants de postgrau.",
+    "source": "El Nacional (Capgròs)",
+    "url": "https://capgros.elnacional.cat/ca/mataro/generalitat-inverteix-primer-cop-tecnocampus-2-milions-euros-nou-edifici_818966_102.html"
   }
 ];
