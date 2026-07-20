@@ -82,6 +82,7 @@
     dailyFigure.setAttribute('tabindex', '0');
     dailyFigure.setAttribute('aria-label', 'Imatge del dia: obre la reflexió relacionada del Quadern IA');
     function openRelatedContent() {
+      window.location.href = './imatge-del-dia.php'; return;
       const reflectionBody = document.querySelector('#reflection-body');
       const toggle = document.querySelector('[data-reflection-toggle]');
       if (reflectionBody && reflectionBody.hidden && toggle) toggle.click();
