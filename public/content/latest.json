@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-07-20T16:16:35.245Z",
+  "updatedAt": "2026-07-21T04:22:15.642Z",
   "items": [
     {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Anthropic manté una valoració de 1,2 bilions de dòlars al mercat secundari mentre OpenAI remunta fins als 933.000 milions",
-      "excerpt": "Segons Benzinga, la demanda d'accions d'Anthropic continua superant la d'OpenAI en una proporció de cinc a dos, tot i que els nous models GPT-5.6 i l'ús creixent de Codex han impulsat la valoració d'OpenAI un 20% en tres mesos, en plena carrera de totes dues cap a una sortida a borsa."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Les grans tecnològiques d'IA dispraren la seva despesa en seguretat davant un augment de set vegades en les amenaces contra els seus executius",
-      "excerpt": "Després de l'intent d'atac incendiari contra la casa de Sam Altman i d'un home que va irrompre al vestíbul d'Anthropic amenaçant de matar un directiu, empreses com Palantir i Oracle han disparat els seus pressupostos de protecció executiva, en un context que el conseller delegat de Palantir atribueix a la por a perdre la feina per l'automatització."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "La major xarxa elèctrica dels EUA falla per tercer any consecutiu a l'hora de garantir prou subministrament davant la demanda dels centres de dades d'IA",
-      "excerpt": "La subhasta de capacitat de PJM Interconnection, que dona servei a 13 estats i Washington DC, ha registrat un dèficit de 6,8 gigawatts i ha disparat un 60% el cost del subministrament futur, amb una factura de 16.400 milions de dòlars dels quals uns 6.300 milions es deuen directament als centres de dades."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Anthropic llança Claude per a Professors i s'afegeix a la cursa de les tecnològiques per entrar a les aules nord-americanes",
-      "excerpt": "El nou producte, gratuït per a docents de primària i secundària verificats als EUA, incorpora els estàndards acadèmics dels 50 estats i s'suma a Google, OpenAI i Khan Academy en la disputa per un mercat escolar on el 61% del professorat ja diu fer servir IA, davant el 32% de fa un any."
-    },
-    {
       "category": "GOVERNANÇA",
-      "read": "3 MIN",
-      "title": "El Govern nomena Ferran Espada per pilotar l'oficina que ha d'impulsar el català davant la IA, amb 50 milions d'euros en tres anys",
-      "excerpt": "El periodista, exdirector de l'edició catalana de Públic, liderarà el pla acordat amb ERC dins els pressupostos de 2026, que inclou 3 milions d'euros específics per garantir la presència i la qualitat del català en els models d'intel·ligència artificial."
+      "read": "4 MIN",
+      "title": "La Comissió Europea obliga Google a obrir Android als assistents d'IA rivals i a compartir dades de cerca",
+      "excerpt": "Amb dues mesures d'especificació vinculants sota la Llei de Mercats Digitals, Brussel·les exigeix que Android permeti activar per veu assistents d'IA de la competència abans d'agost de 2027 i que Google comparteixi dades de cerca anonimitzades amb rivals com OpenAI a partir de 2027, en una decisió que afecta el 60% dels usuaris europeus."
     },
     {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "La Casa Blanca es reserva la darrera paraula sobre qui pot accedir als models d'IA de frontera d'OpenAI i Anthropic",
-      "excerpt": "Segons CNBC, el programa \"Gold Eagle\" del Departament del Tresor situa el govern nord-americà com a àrbitre de facto de les llistes de socis d'Anthropic i OpenAI per als seus models més avançats, després d'haver bloquejat el mes passat Claude Mythos 5 i Fable 5 per motius de seguretat nacional."
+      "title": "L'administració Trump estudia crear un regulador d'IA a l'estil FINRA sota la tutela del Tresor",
+      "excerpt": "El secretari del Tresor, Scott Bessent, ha elaborat una proposta per crear una agència independent que avaluï els models d'IA de frontera abans i després del llançament, en una línia similar a una idea de Demis Hassabis avalada per Sam Altman, Satya Nadella i Elon Musk, i que ara revisa la Casa Blanca."
     },
     {
       "category": "MERCATS",
       "read": "4 MIN",
-      "title": "El Japó aposta 6.000 milions de dòlars per la seva primera fàbrica nacional d'IA, amb 27.500 xips Nvidia Rubin per a la robòtica",
-      "excerpt": "Noetra Corp, el consorci liderat per SoftBank, Sony, Honda, NEC i Preferred Networks, construirà a partir de 2027 una infraestructura de 140 megawatts pensada per entrenar models d'IA física i robòtica, amb l'objectiu de captar més del 30% del mercat mundial de robòtica amb IA el 2040."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "3 MIN",
-      "title": "El Parlament Europeu prepara un portal intern d'IA amb models d'OpenAI, Anthropic, Meta i Mistral per frenar l'ús descontrolat de xatbots",
-      "excerpt": "L'EPGenAI Hub, previst per a setembre, oferirà a eurodiputats i personal un accés unificat i supervisat a diversos models d'IA generativa, després que caps de comissió alertessin de citacions legals inventades i \"AI slop\" en documents oficials elaborats amb eines no autoritzades."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "3 MIN",
-      "title": "L'OMS alerta que la implantació de la IA als hospitals europeus avança molt més ràpid que la seva regulació",
-      "excerpt": "El director regional Hans Henri P. Kluge va advertir des de Lisboa que dos terços dels països de la regió europea de l'OMS ja fan servir diagnòstic assistit per IA, mentre que només el 8% disposa d'una estratègia nacional específica per regular-ne l'ús als serveis de salut."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Anthropic fa permanent l'accés a Claude Fable 5 per als plans Max i Team Premium, i el converteix en el seu model més car per als plans Pro",
-      "excerpt": "A partir d'avui, 20 de juliol, Fable 5 queda inclòs de manera estable en els plans Max i Team Premium al 50% dels límits d'ús, mentre que els usuaris de Pro i Team Standard rebran un crèdit únic de 100 dòlars abans de pagar tarifes d'API de 10 i 50 dòlars per milió de tokens."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Meta negocia llogar 8.750 milions d'euros en capacitat de còmput a Anthropic, en un gir que difumina les fronteres competitives de la IA",
-      "excerpt": "Segons El Nacional (ON ECONOMIA), Meta oferiria a Anthropic capacitat de processament dels seus centres de dades durant un mínim de dos anys, en una operació d'uns 10.000 milions de dòlars que s'emmarca en la nova estratègia de Meta de vendre l'excedent d'infraestructura a tercers."
+      "title": "TSMC eleva a 265.000 milions de dòlars la seva inversió a Arizona després d'un trimestre de beneficis rècord",
+      "excerpt": "El fabricant taiwanès de xips construirà quatre fàbriques addicionals de 2 nanòmetres o més avançades als Estats Units, amb 100.000 milions de dòlars extra anunciats pel conseller delegat C.C. Wei, mentre l'empresa reporta un benefici trimestral d'uns 21.900 milions de dòlars impulsat per la demanda de xips d'IA."
     },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Moonshot pausa les noves subscripcions a Kimi K3 després que la demanda saturi les seves GPU en 48 hores",
-      "excerpt": "El laboratori xinès, que havia llançat el 17 de juliol el seu model obert de 2,8 bilions de paràmetres i l'havia situat número 1 al rànquing Frontend Code d'Arena.ai, ha hagut d'aturar temporalment noves altes mentre divideix la subscripció en dos nivells per repartir millor el còmput disponible."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "El president d'SK Group avisa que l'escassetat de memòria per a IA ja es tracta com una qüestió de seguretat econòmica entre governs",
-      "excerpt": "Chey Tae-won va declarar al Fòrum de Jeju del 19 de juliol que els clients demanen entre un 60% i un 100% més de memòria d'IA per al 2027 i que \"els governs començaran aviat a fer pressió sobre altres governs\", en un moment en què SK Hynix controla el 58% del mercat mundial de memòria HBM."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Vint-i-sis treballadors denuncien Meta per fer servir una IA interna per triar a qui acomiadar entre el personal de baixa",
-      "excerpt": "La demanda, presentada en un tribunal federal del nord de Califòrnia i recollida per El Nacional (ON ECONOMIA), acusa el sistema intern Metamate de penalitzar amb mètriques de productivitat i consum de tokens d'IA els empleats que havien agafat baixes protegides per salut, embaràs o cura familiar abans dels acomiadaments de maig."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Jeff Bezos entra al capital de la britànica CuspAI, que llança amb Nvidia i Meta una coalició d'IA per descobrir materials per a xips",
-      "excerpt": "La startup de Cambridge ha tancat una ronda de 450 milions de dòlars liderada per Kleiner Perkins i NEA, i ha presentat l'AI Materials Foundry, una aliança de més de 48 empreses i centres de recerca per compartir còmput i coneixement en la recerca de nous materials semiconductors."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Xi Jinping impulsa una nova organització mundial de cooperació en IA amb 29 països fundadors i adverteix contra el monopoli d'un sol país",
-      "excerpt": "El president xinès va pronunciar el 17 de juliol el seu primer discurs personal a la World AI Conference de Shanghai per presentar la World Artificial Intelligence Cooperation Organisation (WAICO), amb seu a la mateixa ciutat, i va oferir 5.000 places de formació en IA a països en desenvolupament d'Àfrica, Amèrica Llatina i Àsia."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google torna a ajornar Gemini 3.5 Pro per problemes de programació i Alphabet esborra milers de milions de dòlars en borsa",
-      "excerpt": "El model estrella de Google, anunciat al maig i esperat per a finals de juny, continua sense data pública de llançament després que les millores en capacitat de codificació \"quedessin per sota de les expectatives internes\", segons CNBC, mentre OpenAI i Meta acceleren amb GPT-5.6 Sol i Muse Spark 1.1."
+      "title": "Alibaba presenta Qwen3.8-Max, un model de 2,4 bilions de paràmetres encara sense benchmarks independents",
+      "excerpt": "El nou model multimodal, mostrat a la Conferència Mundial d'IA de Xangai amb una finestra de context d'un milió de tokens i compatibilitat amb les API d'OpenAI i Anthropic, es presenta com \"només per darrere de Fable 5\", tot i que aquesta afirmació es basa exclusivament en avaluacions internes de la mateixa Alibaba."
     },
     {
       "category": "MERCATS",
       "read": "3 MIN",
-      "title": "Apple supera Nvidia com a empresa més valuosa del món enmig d'un replantejament inversor sobre el ritme d'inversió en IA",
-      "excerpt": "Amb una capitalització borsària propera als 4,9 bilions de dòlars, Apple va desbancar Nvidia divendres 17 de juliol per primera vegada des de l'abril de 2025, després que els inversors comencin a valorar més positivament l'estratègia d'Apple de baixa despesa de capital enfront del ritme de construcció d'infraestructura d'IA dels seus rivals."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "L'empresa de Mira Murati llança Inkling, el seu primer model de pesos oberts, i aposta per la personalització davant els grans models genèrics",
-      "excerpt": "Thinking Machines Lab, fundada per l'exdirectora tecnològica d'OpenAI, presenta un sistema de barreja d'experts de 975.000 milions de paràmetres i finestra de context d'un milió de tokens, disponible a Hugging Face i a la seva plataforma Tinker, amb l'argument que la IA que les organitzacions poden adaptar per si mateixes supera els models tancats i genèrics."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "3 MIN",
-      "title": "L'ONG Current AI, amb 400 milions de dòlars de finançament públic i privat, es proposa construir una \"World Wide Web\" pública de la intel·ligència artificial",
-      "excerpt": "L'organització sense ànim de lucre, cofundada per França i amb el suport de DeepMind, Salesforce i les fundacions Ford i MacArthur, ha llançat Alpha Chat, un xatbot de codi obert creat en set setmanes per deu organitzacions, i Suno Sutra, un dispositiu de butxaca que fa servir IA sense connexió a internet en 22 llengües índies."
+      "title": "Databricks arriba a una valoració de 188.000 milions de dòlars, cinc mesos després de la seva darrera ronda",
+      "excerpt": "L'empresa de dades i IA empresarial ha signat una carta d'intencions per captar uns 3.000 milions de dòlars en una ronda liderada per Coatue, que gairebé li dobla la valoració dels 134.000 milions assolits el febrer, en un dels ritmes de revaloració més ràpids del sector."
     }
   ]
 }
