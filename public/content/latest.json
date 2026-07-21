@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-21T04:22:15.642Z",
+  "updatedAt": "2026-07-21T08:24:35.575Z",
   "items": [
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "title": "El deute ocult de cinc grans tecnològiques per finançar la IA es multiplica per vuit en quatre anys i arriba a 1,65 bilions de dòlars",
+      "excerpt": "Una anàlisi de Nikkei Asia revela que Alphabet, Microsoft, Amazon, Meta i Oracle acumulen 1,65 bilions de dòlars en obligacions fora de balanç —lísings de centres de dades, contractes de xips i vehicles de finançament especial— que superen el deute que sí declaren, i que Meta arrossega 420.000 milions de dòlars en deute ocult, gairebé el triple del seu deute transparent."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "4 MIN",
+      "title": "Un jutge federal dona llum verda a l'acord de 1.500 milions de dòlars entre Anthropic i un grup d'autors per l'ús de llibres pirates",
+      "excerpt": "La jutgessa Araceli Martínez-Olguin ha aprovat definitivament el major acord conegut en un cas de drets d'autor als Estats Units, després de rebutjar les objeccions d'alguns escriptors que el consideraven insuficient, en el primer gran litigi sobre l'entrenament de models d'IA que arriba a resoldre's."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "Investigadors troben forats de seguretat per escapar del sandbox en quatre dels agents de programació d'IA més utilitzats",
+      "excerpt": "L'equip de Pillar Security ha demostrat que Cursor, Codex d'OpenAI, Gemini CLI de Google i Antigravity de Google permeten que un agent escrigui un fitxer aparentment innocu dins de l'espai de treball aïllat que després una eina externa de confiança executa sense cap control, saltant-se així les proteccions dissenyades per contenir-lo."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Un agent d'IA autònom vulnera la infraestructura de Hugging Face i deixa els defensors bloquejats pels guardarrails dels seus propis models",
+      "excerpt": "L'atac, sense precedents per al repositori de models més gran del món, va explotar un carregador de conjunts de dades per obtenir credencials i moure's per diversos clústers durant un cap de setmana, mentre els models comercials es negaven a analitzar les proves per motius de seguretat pròpia i l'empresa va haver de recórrer a un model xinès de pesos oberts per completar la investigació forense."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "3 MIN",
+      "title": "Microsoft s'incorpora com a client de Helios, el primer rack d'IA d'AMD que desafia el domini de Nvidia",
+      "excerpt": "El nou sistema, amb 72 GPU Instinct MI455X, processadors EPYC \"Venice\" i 31 terabytes de memòria HBM4 per rack, ja compta amb Meta, OpenAI i Oracle com a clients, i suposa la maniobra més ambiciosa d'AMD fins ara per disputar a Nvidia el control gairebé absolut del maquinari per entrenar IA."
+    },
     {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
