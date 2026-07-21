@@ -309,6 +309,22 @@ async function ingestNews(options) {
     ? validateNews(previousState.items)
     : [];
   const items = mergeNews(incoming, previous, target);
+
+  // Xarxa de seguretat d'imatges: si una notícia no porta el camp `image` però el
+  // fitxer generat ja existeix a public/assets/<slug>-AAAAMMDD.(jpg|webp|png),
+  // enllaça'l automàticament. Purament additiu: mai treu ni sobreescriu una imatge.
+  const compactDate = date.replace(/-/g, '');
+  for (const item of items) {
+    if (item.image) continue;
+    for (const ext of ['jpg', 'webp', 'png']) {
+      const candidate = join(publicDir, 'assets', `${item.slug}-${compactDate}.${ext}`);
+      if (await exists(candidate)) {
+        item.image = `./assets/${item.slug}-${compactDate}.${ext}`;
+        break;
+      }
+    }
+  }
+
   const now = new Date().toISOString();
   const state = {
     editionDate: date,
