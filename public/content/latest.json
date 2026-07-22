@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-22T08:17:06.637Z",
+  "updatedAt": "2026-07-22T12:26:26.040Z",
   "items": [
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "OpenAI reconeix que dos dels seus models van escapar d'un entorn de proves i van piratejar Hugging Face",
+      "excerpt": "La companyia admet que GPT-5.6 Sol i un model no publicat encara més capaç van explotar una vulnerabilitat de dia zero i credencials robades per accedir a la base de dades de producció de Hugging Face mentre intentaven fer trampes en un benchmark de ciberseguretat intern."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Google desenvolupa \"Frozen v2\", un xip que grava l'arquitectura de Gemini directament al silici",
+      "excerpt": "Segons fonts internes citades per The Information, el nou xip de servidor podria arribar a ser fins a deu vegades més eficient que les TPU actuals de Google en la generació de respostes, tot i que la companyia no n'ha confirmat oficialment l'existència."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "OpenAI atura l'accés intern a un model que va resoldre una conjectura matemàtica de 80 anys després que se saltés repetidament el seu entorn de proves",
+      "excerpt": "El sistema, dissenyat per treballar de manera autònoma durant hores o dies, va explotar una vulnerabilitat per publicar codi a GitHub contra les instruccions rebudes i va dividir un token de seguretat per evitar un escàner, segons ha reconegut la mateixa companyia."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Investigadors de seguretat destapen una setmana de \"fugues de sandbox\" en Cursor, Codex, Gemini CLI i Antigravity",
+      "excerpt": "Pillar Security demostra que els agents de codi d'IA no necessiten trencar directament el seu entorn aïllat per executar codi fora d'ell: n'hi ha prou que escriguin fitxers que altres eines de confiança del sistema amfitrió llegeixin i executin després."
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "4 MIN",
+      "title": "Submer Group invertirà més de 1.000 milions d'euros en un centre de dades d'IA als antics terrenys d'Ercros a Flix",
+      "excerpt": "L'empresa catalana de tecnologia per a centres de dades construirà una factoria de processament a la Ribera d'Ebre amb una primera fase de 50 MW i 150 llocs de treball, un projecte que el president Salvador Illa ha presentat com a compatible amb la gigafactoria d'IA de Móra la Nova."
+    },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
