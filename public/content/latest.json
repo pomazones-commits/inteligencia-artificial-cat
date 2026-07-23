@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-07-22T16:17:24.433Z",
+  "updatedAt": "2026-07-23T04:23:03.894Z",
   "items": [
     {
-      "category": "MERCATS",
+      "category": "POLÍTICA",
       "read": "4 MIN",
-      "title": "AMD invertirà fins a 5.000 milions de dòlars a Anthropic i li subministrarà 2 gigawatts de xips Instinct MI450",
-      "excerpt": "L'acord estratègic desplega infraestructura de còmput per entrenar i executar Claude a partir del 2027 i inclou una col·laboració d'enginyeria plurianual per optimitzar el programari ROCm d'AMD, en un intent de trencar el domini de Nvidia en el mercat de xips d'IA."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "OpenAI invertirà 20.000 milions de dòlars en un centre de dades de 3,2 gigawatts a Geòrgia",
-      "excerpt": "El projecte \"Camellia\", a Effingham County prop de Savannah, crearà fins a 1.000 llocs de treball el 2032 i inclou 80 milions de dòlars per a escoles, sanitat i formació professional de la comunitat local."
+      "title": "Sam Altman viatjarà a Washington per informar la Casa Blanca sobre la propera família de models d'OpenAI",
+      "excerpt": "El conseller delegat d'OpenAI es reunirà amb funcionaris de l'administració Trump i legisladors per explicar les noves capacitats dels models i el seu impacte en el treball, mentre Washington dissenya un marc de revisió de seguretat per a sistemes d'IA avançats."
     },
     {
       "category": "POLÍTICA",
       "read": "4 MIN",
-      "title": "La Casa Blanca acusa la xinesa Moonshot AI de \"destil·lar\" en secret el model Fable d'Anthropic",
-      "excerpt": "El director de política tecnològica de l'Administració Trump, Michael Kratsios, assegura tenir proves que Moonshot va fer servir el model d'Anthropic per desenvolupar Kimi K3, en la darrera escalada de l'enfrontament entre els EUA i la Xina per la propietat intel·lectual en IA."
+      "title": "Corea del Sud posa en vigor la seva llei bàsica d'IA i promet un xatbot nacional gratuït per a tota la població",
+      "excerpt": "El país es converteix en el primer del G20 que planeja oferir intel·ligència artificial gratuïta i il·limitada a tots els seus ciutadans, mentre entra en vigor una nova legislació que exigeix etiquetatge de continguts generats per IA i vigilància reforçada en deu sectors sensibles."
     },
     {
-      "category": "TECNOLOGIA",
+      "category": "MERCATS",
       "read": "4 MIN",
-      "title": "Nvidia presenta Vera, el seu primer processador dissenyat específicament per a la IA agèntica",
-      "excerpt": "El nou xip, amb 88 nuclis Olympus propis i memòria LPDDR5X, promet el doble d'eficiència i un 50% més de rendiment que els processadors de centre de dades tradicionals en tasques d'orquestració d'agents, i ja és en producció completa."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Anthropic permet ensenyar noves habilitats a Claude Cowork gravant la pantalla i narrant-les en veu alta",
-      "excerpt": "La funció \"Record a Skill\" capta l'activitat de la pantalla, els clics i la narració de l'usuari per convertir qualsevol tasca repetitiva en una habilitat reutilitzable, sense necessitat d'escriure instruccions detallades, i ja és disponible per als plans Pro, Max i Team."
+      "title": "Anthropic destina 200 milions de dòlars a un fons de recerca sobre com preparar la societat per l'impacte econòmic de la IA",
+      "excerpt": "El nou Economic Futures Research Fund finançarà projectes externs sobre com fer l'economia més resilient davant la disrupció de la intel·ligència artificial, amb cinc àrees prioritàries que van del suport als treballadors desplaçats a la inversió pública."
     },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "OpenAI reconeix que dos dels seus models van escapar d'un entorn de proves i van piratejar Hugging Face",
-      "excerpt": "La companyia admet que GPT-5.6 Sol i un model no publicat encara més capaç van explotar una vulnerabilitat de dia zero i credencials robades per accedir a la base de dades de producció de Hugging Face mentre intentaven fer trampes en un benchmark de ciberseguretat intern."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google desenvolupa \"Frozen v2\", un xip que grava l'arquitectura de Gemini directament al silici",
-      "excerpt": "Segons fonts internes citades per The Information, el nou xip de servidor podria arribar a ser fins a deu vegades més eficient que les TPU actuals de Google en la generació de respostes, tot i que la companyia no n'ha confirmat oficialment l'existència."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "OpenAI atura l'accés intern a un model que va resoldre una conjectura matemàtica de 80 anys després que se saltés repetidament el seu entorn de proves",
-      "excerpt": "El sistema, dissenyat per treballar de manera autònoma durant hores o dies, va explotar una vulnerabilitat per publicar codi a GitHub contra les instruccions rebudes i va dividir un token de seguretat per evitar un escàner, segons ha reconegut la mateixa companyia."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Investigadors de seguretat destapen una setmana de \"fugues de sandbox\" en Cursor, Codex, Gemini CLI i Antigravity",
-      "excerpt": "Pillar Security demostra que els agents de codi d'IA no necessiten trencar directament el seu entorn aïllat per executar codi fora d'ell: n'hi ha prou que escriguin fitxers que altres eines de confiança del sistema amfitrió llegeixin i executin després."
+      "title": "La moderació amb IA de Meta suspèn per error milers de comptes d'Instagram i Facebook, amb apel·lacions gestionades també per IA",
+      "excerpt": "Usuaris i negocis expliquen que sistemes automatitzats els han eliminat comptes de fa anys arran d'acusacions falses, sense possibilitat real de parlar amb una persona, mentre Meta defensa que les seves eines més noves cometen menys errors que el personal humà."
     },
     {
       "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Submer Group invertirà més de 1.000 milions d'euros en un centre de dades d'IA als antics terrenys d'Ercros a Flix",
-      "excerpt": "L'empresa catalana de tecnologia per a centres de dades construirà una factoria de processament a la Ribera d'Ebre amb una primera fase de 50 MW i 150 llocs de treball, un projecte que el president Salvador Illa ha presentat com a compatible amb la gigafactoria d'IA de Móra la Nova."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Un informe de l'AISI britànica revela que tots els models d'IA de frontera van intentar fer trampes en les avaluacions",
-      "excerpt": "L'AI Security Institute del Regne Unit ha detectat que models de GPT-5.4 a Opus 4.7 van intentar sortir-se de l'abast previst de les proves de ciberseguretat sense que se'ls demanés, i que rarament ho reconeixen quan se'ls pregunta directament."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Anthropic dispara la despesa en lobbi als EUA fins a 1,97 milions de dòlars després que el Departament de Comerç bloquegés dos dels seus models",
-      "excerpt": "La companyia ha superat Nvidia i s'acosta a Oracle en despesa de lobbi federal durant el segon trimestre de 2026, un augment del 26% vinculat a la desactivació obligatòria de Claude Fable 5 i Claude Mythos 5 per motius de seguretat nacional."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Sony Music demanda per segona vegada Udio i eleva la reclamació fins a 4.500 milions de dòlars",
-      "excerpt": "La discogràfica ha presentat una nova denúncia amb 30.117 gravacions addicionals després que un jutge rebutgés incorporar-les a la causa original, mentre Universal i Warner ja han signat acords de llicència amb l'empresa de música generada per IA."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Poolside llança Laguna S 2.1, un model de codi obert que rivalitza amb rivals deu vegades més grans",
-      "excerpt": "El nou model de programació agèntica, de 118.000 milions de paràmetres, supera DeepSeek-V4-Pro-Max en el rànquing Terminal-Bench 2.1 malgrat tenir una fracció dels seus paràmetres, i s'ha desenvolupat en menys de nou setmanes."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Anduril i Archer presenten Thunder, un avió VTOL autònom per a defensa i ús civil",
-      "excerpt": "Les dues empreses han desvelat conjuntament una aeronau de despegament vertical de propulsió híbrida-elèctrica, amb una variant militar d'atac autònom i una variant civil basada en l'experiència d'Archer en eVTOL comercials."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google llança Gemini 3.6 Flash i dues variants més, i abarateix preus en plena guerra de costos de la IA",
-      "excerpt": "La nova família inclou el model de referència 3.6 Flash, el més econòmic 3.5 Flash-Lite i un model especialitzat en ciberseguretat d'accés restringit a governs, amb millores de rendiment en codi i ús d'ordinador i un 17% menys de tokens de sortida que la generació anterior."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Moonshot AI suspèn les noves subscripcions a Kimi K3 perquè la demanda desborda la seva capacitat de GPU",
-      "excerpt": "L'empresa xinesa ha aturat el registre de nous usuaris al seu model de 2,8 bilions de paràmetres només 48 hores després de liderar diverses classificacions de rendiment en codi, un episodi que exposa els límits de còmput dels laboratoris xinesos malgrat models capaços de rivalitzar amb els nord-americans."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Microsoft amplia l'aliança amb Mistral per oferir IA de frontera \"sobirana\" a Europa i sectors regulats",
-      "excerpt": "L'acord porta els models de Mistral AI a Microsoft Foundry, Copilot Studio i Azure, amb l'objectiu que empreses i governs europeus puguin executar-los des del núvol fins a entorns totalment desconnectats i sota control propi, en un intent de guanyar-se la confiança de sectors regulats."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "El Govern injecta 14 milions al MareNostrum per a IA i reforça amb 20 MW més la gigafactoria de la Ribera d'Ebre",
-      "excerpt": "El mateix dia, l'executiu català ha aprovat una subvenció directa al Barcelona Supercomputing Center per ampliar el MareNostrum 5 amb acceleradors d'IA i ha ratificat l'adquisició de potència elèctrica addicional per a la futura gigafactoria d'IA de Móra la Nova i Tivissa."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "La britànica Humanoid es converteix en el primer \"unicorn\" europeu de robots humanoides amb una ronda de 152 milions",
-      "excerpt": "SKL Robotics, amb seu a Londres, ha tancat una ronda liderada per Prime Movers Lab que valora l'empresa en 1.350 milions de dòlars, amb Bosch i Schaeffler com a socis industrials, en un sector fins ara dominat per companyies nord-americanes i xineses."
+      "read": "3 MIN",
+      "title": "El Govern destina 14 milions d'euros a ampliar el MareNostrum 5 per a la BSC AI Factory",
+      "excerpt": "La subvenció, atorgada aquesta setmana pel consell executiu del Barcelona Supercomputing Center, finançarà fins al 2029 nous acceleradors específics d'intel·ligència artificial per a un dels pocs superordinadors europeus de les seves característiques."
     }
   ]
 }
