@@ -2,7 +2,7 @@
 declare(strict_types=1);
 // Canal RSS 2.0 amb les notícies de l'edició del dia.
 // Accessible com a /feed.xml gràcies a la regla de reescriptura del .htaccess.
-header('Content-Type: application/rss+xml; charset=utf-8');
+header('Content-Type: text/xml; charset=utf-8');
 $base = 'https://inteligencia-artificial.cat';
 $articlesFile = __DIR__ . '/data/articles.json';
 $edition = is_file($articlesFile) ? json_decode((string) file_get_contents($articlesFile), true) : ['items' => []];
