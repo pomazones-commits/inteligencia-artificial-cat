@@ -108,6 +108,35 @@ test('el radar només incorpora notícies catalanes i conserva els senyals anter
   assert.ok(!radar.some(item => item.title === 'OpenAI presenta un model nou'), 'les notícies globals no entren al radar');
 });
 
+test('una notícia amb seccio "radar" va només a La IA que passa aquí, no al feed', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  const radarOnly = {
+    ...story(1),
+    slug: 'adopcio-empresa-espanyola-ia',
+    sourceUrl: 'https://example.com/adopcio-espanyola',
+    category: 'EMPRESA',
+    title: 'Una empresa espanyola desplega IA a producció',
+    excerpt: 'Cas d’ús real sense cap topònim català.',
+    seccio: 'radar'
+  };
+  const general = { ...story(2), slug: 'noticia-general-ia', sourceUrl: 'https://example.com/general' };
+  await writeFile(input, JSON.stringify([radarOnly, general, story(3), story(5), story(7)]), 'utf8');
+  assert.equal(run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-07-23'], root).status, 0);
+
+  const feedText = await readFile(join(root, 'news.js'), 'utf8');
+  const feed = parseAssignment(feedText);
+  assert.equal(feed.length, 4, 'el feed només conté les 4 notícies no marcades com a radar');
+  assert.ok(!feed.some(item => item.slug === 'adopcio-empresa-espanyola-ia'), 'la notícia radar-only no surt al feed');
+  assert.ok(!/"seccio"/.test(feedText), 'el camp intern seccio no arriba mai al contracte públic IA_NEWS');
+
+  const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.ok(radar.some(item => item.title === 'Una empresa espanyola desplega IA a producció'), 'la notícia radar-only entra al radar tot i no ser catalana');
+
+  const archive = JSON.parse(await readFile(join(root, 'data', 'archive.json'), 'utf8'));
+  assert.ok(!archive.some(item => item.slug === 'adopcio-empresa-espanyola-ia'), 'la notícia radar-only no s’arxiva a l’hemeroteca del feed');
+});
+
 test('en canviar de dia arxiva l’edició anterior a data/arxiu.json', async () => {
   const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
   const first = join(root, 'first.json');
