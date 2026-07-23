@@ -54,7 +54,7 @@
           <p class="lede"><xsl:value-of select="rss/channel/description"/></p>
 
           <div class="info">
-            <strong>Qué és aquesta pàgina?</strong>
+            <strong>Informació sobre aquesta pàgina</strong>
             <p>És el canal <b>RSS</b> del web: una llista sempre actualitzada de les notícies, pensada per seguir-les des d'una aplicació de lectura (un «lector d'RSS») sense haver d'entrar cada dia. Per subscriure-t'hi, copia aquesta adreça — <code><xsl:value-of select="rss/channel/atom:link/@href"/></code> — i enganxa-la al teu lector preferit. Si només vols llegir les notícies, torna a la <a href="/">portada</a>.</p>
           </div>
 
