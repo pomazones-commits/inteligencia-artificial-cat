@@ -107,6 +107,18 @@ function validateNews(payload) {
       }
       item.image = image;
     }
+    // Encaminament opcional entre seccions (camp intern, no forma part del
+    // contracte públic IA_NEWS). Per defecte (absent o "senyal"): la notícia va
+    // al feed "El senyal d'avui" i, si té context català, també es deriva a
+    // "La IA que passa aquí". Amb "radar": va NOMÉS al radar "La IA que passa
+    // aquí" i no apareix mai al feed principal ni a l'hemeroteca.
+    const seccio = normalizeText(raw?.seccio).toLocaleLowerCase('ca');
+    if (seccio) {
+      if (seccio !== 'radar' && seccio !== 'senyal') {
+        throw new Error(`Notícia ${index + 1}: seccio només pot ser "radar" o "senyal".`);
+      }
+      if (seccio === 'radar') item.seccio = 'radar';
+    }
     return item;
   });
 }
@@ -197,10 +209,12 @@ function isLocalStory(story) {
   return LOCAL_TERMS.some(term => wholeWord(term).test(haystack));
 }
 
-// Deriva senyals de radar NOMÉS de les notícies realment catalanes del dia.
-// Les notícies globals no s'hi disfressen mai de locals.
+// Deriva senyals de radar de les notícies realment catalanes del dia i, a més,
+// de les que s'han marcat explícitament amb seccio "radar" (adopció d'IA per
+// empreses de l'entorn, encara que no portin cap topònim català). Les notícies
+// globals de sempre no s'hi disfressen mai de locals.
 function deriveRadar(items, date) {
-  return items.filter(isLocalStory).map(story => ({
+  return items.filter(story => story.seccio === 'radar' || isLocalStory(story)).map(story => ({
     place: detectPlace(story),
     category: radarCategory(story),
     date: displayDate(date),
@@ -308,7 +322,13 @@ async function ingestNews(options) {
   const previous = previousState.editionDate === date && Array.isArray(previousState.items) && previousState.items.length
     ? validateNews(previousState.items)
     : [];
-  const items = mergeNews(incoming, previous, target);
+  // Encaminament de seccions: les notícies marcades amb seccio "radar" van
+  // NOMÉS a "La IA que passa aquí" (via deriveRadar més avall) i no entren al
+  // feed "El senyal d'avui" ni a l'acumulació del dia. La resta segueix el flux
+  // habitual; els traiem el camp intern perquè no arribi al contracte públic.
+  const feedIncoming = incoming.filter(story => story.seccio !== 'radar');
+  for (const story of feedIncoming) delete story.seccio;
+  const items = mergeNews(feedIncoming, previous, target);
 
   // Xarxa de seguretat d'imatges: si una notícia no porta el camp `image` però el
   // fitxer generat ja existeix a public/assets/<slug>-AAAAMMDD.(jpg|webp|png),
