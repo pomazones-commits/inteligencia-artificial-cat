@@ -1,0 +1,113 @@
+name: Xarxa de seguretat - publicacio dels lots
+
+# Rellanca el workflow del Content Hub quan el push d'un lot NO ha arribat a
+# disparar-lo (fallada intermitent de l'event de push de GitHub). Additiu i
+# idempotent: nomes actua si el lot no s'ha publicat. Reutilitza el mateix
+# workflow_dispatch que ja fem servir manualment. Per desactivar-ho: esborra
+# aquest fitxer.
+
+on:
+  schedule:
+    # Uns 15 min despres de cada lot. Els lots cauen a 06:05/10:05/14:05/18:05
+    # hora de Madrid; a l'estiu (CEST, UTC+2) son 04:05/08:05/12:05/16:05 UTC i a
+    # l'hivern (CET, UTC+1) 05:05/09:05/13:05/17:05 UTC. Cobrim les dues tandes
+    # tot l'any; un fire de mes no fa res si tot ja s'ha publicat. Els divendres
+    # aquestes mateixes execucions tambe vigilen les peces setmanals.
+    - cron: '20 4,5,8,9,12,13,16,17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: xarxa-seguretat
+  cancel-in-progress: false
+
+jobs:
+  vigila:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Recuperar el repositori amb l'historial
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Comprovar cada lot i rellancar el que no s'hagi publicat
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          cat > "$RUNNER_TEMP/safety-net.mjs" <<'SCRIPT'
+          const API = 'https://api.github.com';
+          const REPO = process.env.GH_REPO || process.env.GITHUB_REPOSITORY;
+          const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
+          const { execFileSync } = await import('node:child_process');
+          const TARGETS = [
+            { workflow: 'content-hub.yml', files: ['incoming/news-batch.json'] },
+            { workflow: 'daily-visual.yml', files: ['incoming/daily-image.json'] },
+            { workflow: 'editorial-weekly.yml', files: ['incoming/analysis.json', 'incoming/reflection.json'] },
+          ];
+          function needsDispatch(runs, fileTimeISO) {
+            if (!fileTimeISO) return false;
+            const fileTime = new Date(fileTimeISO).getTime();
+            const handled = runs.some((r) => {
+              if (new Date(r.created_at).getTime() < fileTime) return false;
+              return r.status !== 'completed' || r.conclusion === 'success';
+            });
+            return !handled;
+          }
+          function gitFileTime(files) {
+            let latest = null;
+            for (const f of files) {
+              try {
+                const out = execFileSync('git', ['log', '-1', '--format=%cI', '--', f], { encoding: 'utf8' }).trim();
+                if (out && (!latest || new Date(out) > new Date(latest))) latest = out;
+              } catch { /* fitxer inexistent */ }
+            }
+            return latest;
+          }
+          async function api(path, init = {}) {
+            return fetch(API + path, { ...init, headers: {
+              Accept: 'application/vnd.github+json',
+              Authorization: 'Bearer ' + TOKEN,
+              'X-GitHub-Api-Version': '2022-11-28',
+              'User-Agent': 'iacat-safety-net',
+              ...(init.headers || {}),
+            }});
+          }
+          async function dispatch(workflow) {
+            const res = await api('/repos/' + REPO + '/actions/workflows/' + workflow + '/dispatches', {
+              method: 'POST', body: JSON.stringify({ ref: 'main' }),
+            });
+            if (!res.ok) { console.log('  x no s-ha pogut rellancar ' + workflow + ': HTTP ' + res.status); return false; }
+            console.log('  -> ' + workflow + ' rellancat via workflow_dispatch.');
+            return true;
+          }
+          async function main() {
+            if (!REPO || !TOKEN) throw new Error('Falten GH_REPO o GH_TOKEN.');
+            let acted = 0;
+            for (const t of TARGETS) {
+              const fileTime = gitFileTime(t.files);
+              if (!fileTime) { console.log('- ' + t.workflow + ': cap lot pendent.'); continue; }
+              const res = await api('/repos/' + REPO + '/actions/workflows/' + t.workflow + '/runs?per_page=20');
+              if (!res.ok) { console.log('! ' + t.workflow + ': no s-han pogut llegir les runs (HTTP ' + res.status + '); s-omet.'); continue; }
+              const runs = (await res.json()).workflow_runs || [];
+              if (needsDispatch(runs, fileTime)) {
+                console.log('AVIS ' + t.workflow + ': el lot de ' + fileTime + ' no s-ha publicat. Rellancant...');
+                if (await dispatch(t.workflow)) acted++;
+              } else {
+                console.log('OK ' + t.workflow + ': el lot de ' + fileTime + ' ja s-ha publicat (o s-esta publicant).');
+              }
+            }
+            console.log(acted ? ('Fet: ' + acted + ' rellancat(s).') : 'Fet: tot publicat, cap accio.');
+          }
+          main().catch((e) => { console.error(e); process.exit(1); });
+          SCRIPT
+          node "$RUNNER_TEMP/safety-net.mjs"
