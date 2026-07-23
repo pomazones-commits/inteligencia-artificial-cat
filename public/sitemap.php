@@ -6,8 +6,12 @@ header('Content-Type: application/xml; charset=utf-8');
 $base = 'https://inteligencia-artificial.cat';
 $urls = [];
 $urls[] = ['loc' => $base . '/', 'changefreq' => 'hourly', 'priority' => '1.0'];
-foreach (['analisi.html', 'dossiers.html', 'arxiu.html'] as $page) {
+foreach (['redaccio.html', 'eines.html', 'analisi.html', 'dossiers.html', 'arxiu.html'] as $page) {
     $urls[] = ['loc' => $base . '/' . $page, 'changefreq' => 'weekly', 'priority' => '0.6'];
+}
+$topics = require __DIR__ . '/data/topics.php';
+foreach (array_keys($topics) as $topicSlug) {
+    $urls[] = ['loc' => $base . '/tema/' . $topicSlug, 'changefreq' => 'daily', 'priority' => '0.7'];
 }
 $seen = [];
 $afegeix = function (array $item, string $iso) use (&$urls, &$seen, $base): void {
