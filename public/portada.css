@@ -39,14 +39,14 @@ button { color: inherit; }
 .interest-links a:hover { color: #fff; }
 .interest-bar time { color: #798196; white-space: nowrap; }
 
-.masthead { display: grid; grid-template-columns: 44px 1fr auto; align-items: center; min-height: 82px; gap: 16px; }
+.masthead { display: grid; grid-template-columns: 1fr auto; align-items: center; min-height: 82px; gap: 16px; }
 .brand { display: inline-flex; justify-self: start; align-items: center; gap: 11px; }
 .brand-symbol { display: grid; width: 42px; height: 42px; place-items: center; border-radius: 13px 13px 13px 4px; color: #fff; background: linear-gradient(145deg,var(--blue),var(--violet)); box-shadow: 0 8px 22px rgba(61,99,255,.24); font-size: 19px; font-weight: 800; letter-spacing: -.08em; }
 .brand-name { display: flex; flex-direction: column; line-height: .9; letter-spacing: -.045em; }
 .brand-name strong { font-size: 14px; font-weight: 500; }
 .brand-name b { font-size: 20px; font-weight: 800; }
 .icon-button, .search-button { border: 0; background: transparent; cursor: pointer; }
-.menu-button { display: flex; width: 42px; height: 42px; padding: 0; flex-direction: column; align-items: center; justify-content: center; gap: 5px; border: 1px solid var(--line); border-radius: 50%; background: var(--white); }
+.menu-button { display: none; width: 42px; height: 42px; padding: 0; flex-direction: column; align-items: center; justify-content: center; gap: 5px; border: 1px solid var(--line); border-radius: 50%; background: var(--white); }
 .menu-button span { width: 17px; height: 2px; border-radius: 2px; background: var(--ink); transition: transform .2s,opacity .2s; }
 .menu-button b { display: none; }
 .menu-button[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
@@ -247,6 +247,7 @@ button { color: inherit; }
   :root { --shell: calc(100% - 28px); }
   .interest-links { gap: 16px; }
   .masthead { min-height: 72px; grid-template-columns: 40px 1fr 40px; gap: 10px; }
+  .menu-button { display: flex; }
   .brand { min-width: 0; gap: 7px; }
   .brand-symbol { width: 33px; height: 33px; border-radius: 10px 10px 10px 3px; font-size: 15px; }
   .brand-name strong { font-size: 9px; }
