@@ -10,6 +10,7 @@ $updatedAt = (string) ($edition['updatedAt'] ?? '');
 $buildDate = $updatedAt !== '' ? date(DATE_RSS, strtotime($updatedAt)) : date(DATE_RSS);
 function x(string $value): string { return htmlspecialchars($value, ENT_XML1 | ENT_QUOTES, 'UTF-8'); }
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+echo "<?xml-stylesheet type=\"text/xsl\" href=\"/feed.xsl?v=2026072301\"?>\n";
 echo "<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">\n<channel>\n";
 echo '  <title>intel·ligènciaartificial.cat — Intel·ligència artificial, al dia</title>' . "\n";
 echo '  <link>' . $base . "/</link>\n";
