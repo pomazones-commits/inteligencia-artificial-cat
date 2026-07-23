@@ -1,6 +1,71 @@
 {
-  "updatedAt": "2026-07-23T04:23:03.894Z",
+  "updatedAt": "2026-07-23T08:23:57.128Z",
   "items": [
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "slug": "alphabet-resultats-record-capex-205000-milions",
+      "title": "Alphabet dispara la previsió de despesa en IA fins als 205.000 milions de dòlars després d'uns resultats trimestrals rècord",
+      "excerpt": "La matriu de Google va facturar 119.800 milions de dòlars al segon trimestre, un 24% més, empesa per un creixement del 82% del núvol, però el flux de caixa es va enfonsar en terreny negatiu per l'escalada de la inversió en infraestructura d'IA.",
+      "sourceName": "BigGo Finance",
+      "sourceUrl": "https://finance.biggo.com/news/US_GOOGL_2026-07-22",
+      "sourceDate": "22 de juliol de 2026",
+      "body": "Alphabet ha publicat aquest 22 de juliol els resultats del segon trimestre de 2026 en un moment en què els inversors escrutinen si la despesa multimilionària de les grans tecnològiques en infraestructura d'intel·ligència artificial es tradueix ja en ingressos tangibles o encara és, sobretot, una aposta de futur.\n\nLa companyia ha ingressat 119.800 milions de dòlars, un 24% més que fa un any, amb Google Cloud disparant-se un 82% fins als 24.800 milions i el negoci de cerca creixent un 17% fins als 63.300 milions. El benefici operatiu ha pujat un 30%, fins als 40.800 milions, i el marge de Cloud s'ha més que triplicat, fins al 35,6%. Alhora, Alphabet ha elevat la seva previsió de despesa de capital per al 2026 fins a una forquilla de 195.000 a 205.000 milions de dòlars, per sobre dels 180.000-190.000 milions anunciats prèviament, i la directora financera, Anat Ashkenazi, ha avançat que la inversió del 2027 «augmentarà significativament» respecte a l'enguany. Aquest ritme inversor ha fet que el flux de caixa lliure caigués a -5.900 milions de dòlars, en contrast amb els 10.400 milions positius d'ara fa un any.\n\nLa xifra és rellevant perquè Alphabet és, juntament amb Microsoft, Amazon i Meta, un dels quatre grans motors de la inversió mundial en centres de dades i xips per entrenar i executar models d'IA, i l'increment de previsió confirma que la cursa per la capacitat de còmput no s'atura, malgrat el dubte creixent entre inversors sobre quan es rendibilitzarà. El fort creixement del núvol, amb una cartera de comandes que ha crescut més de 50.000 milions en un sol trimestre fins als 514.000 milions, és l'argument que la companyia fa servir per justificar l'escalada de la despesa.\n\nLa font consultada no detalla quina part concreta dels nous 205.000 milions es destinarà a xips propis (TPU) enfront de maquinari de tercers, ni quin efecte tindrà aquest nivell de despesa sobre els resultats dels pròxims trimestres si el ritme d'adopció del núvol s'alentís; tampoc s'hi recull la reacció detallada del mercat borsari als resultats.",
+      "image": "./assets/alphabet-resultats-record-capex-205000-milions-20260723.jpg",
+      "editionDate": "2026-07-23"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "openai-presence-agents-veu-xat-empreses",
+      "title": "OpenAI llança Presence, una plataforma per desplegar agents d'IA de veu i xat a bancs i asseguradores",
+      "excerpt": "El nou producte combina el raonament dels models d'OpenAI amb regles d'escalada i supervisió humana perquè empreses com BBVA, SoftBank o l'asseguradora australiana IAG puguin automatitzar l'atenció al client sense perdre'n el control.",
+      "sourceName": "IT Brief Australia",
+      "sourceUrl": "https://itbrief.com.au/story/openai-launches-presence-for-enterprise-voice-agents",
+      "sourceDate": "23 de juliol de 2026",
+      "body": "OpenAI ha anat ampliant en els últims mesos la seva oferta més enllà del xat i l'accés per API, amb l'objectiu de guanyar terreny en el mercat empresarial de l'atenció al client, on grans proveïdors de programari ja ofereixen des de fa anys eines d'automatització de suport.\n\nLa companyia ha presentat aquest 23 de juliol Presence, una plataforma perquè les empreses despleguin i gestionin agents d'IA de veu i xat en temps real per a tasques com la facturació o la tramitació de reclamacions. El producte combina el raonament dels models d'OpenAI amb polítiques, barreres de seguretat i regles d'escalada cap a una persona quan el cas ho requereix, i inclou eines per simular escenaris de risc abans de posar l'agent en producció. Entre els primers clients hi ha la mateixa OpenAI, que fa servir Presence per a la seva línia de suport en anglès amb una resolució del 75% dels casos sense intervenció humana; el banc BBVA, que explora el suport de veu per a serveis bancaris a Mèxic; SoftBank, que el prova en converses en japonès; i l'asseguradora australiana IAG, que en preveu l'ús per a la gestió de reclamacions per catàstrofes i temporals.\n\nEl llançament és rellevant perquè mostra com OpenAI vol deixar de ser només un proveïdor de models per convertir-se també en proveïdor de productes acabats per a sectors regulats com la banca o les assegurances, un terreny on la confiança i el control sobre les accions automatitzades són crítics. Que la mateixa OpenAI n'utilitzi una versió per al seu propi suport tècnic es planteja com una prova pràctica de la fiabilitat del sistema abans d'oferir-lo a tercers.\n\nLa companyia no ha detallat encara el preu de Presence ni un calendari de disponibilitat general més enllà del programa limitat actual, i les xifres de resolució de casos que aporta corresponen només al seu propi ús intern, no als desplegaments encara en proves a BBVA, SoftBank o IAG.",
+      "image": "./assets/openai-presence-agents-veu-xat-empreses-20260723.jpg",
+      "editionDate": "2026-07-23"
+    },
+    {
+      "category": "EMPRESA",
+      "read": "3 MIN",
+      "slug": "openai-velez-vince-consell-administracio-sortida-borsa",
+      "title": "OpenAI incorpora els consellers delegats de Nubank i BNY al seu consell d'administració davant una possible sortida a borsa",
+      "excerpt": "David Vélez, fundador del banc digital llatinoamericà Nubank, i Robin Vince, conseller delegat de BNY, s'uneixen als consells de l'OpenAI Foundation i l'OpenAI Group PBC en un moment en què la companyia reforça el seu govern corporatiu de cara a una possible sortida a borsa.",
+      "sourceName": "Pulse2",
+      "sourceUrl": "https://pulse2.com/openai-appoints-nubank-founder-david-velez-and-bny-ceo-robin-vince-to-foundation-and-group-pbc-boards/",
+      "sourceDate": "21 de juliol de 2026",
+      "body": "OpenAI ha reforçat aquesta setmana el seu govern corporatiu incorporant dos executius amb dècades d'experiència en banca i mercats financers, en un moment en què la companyia és cada cop més vista com una futura candidata a sortir a borsa.\n\nLa companyia ha anunciat el 21 de juliol la incorporació de David Vélez, fundador, president i conseller delegat global de Nubank —el banc digital més gran d'Amèrica Llatina, amb més de 135 milions de clients—, i de Robin Vince, president i conseller delegat de BNY (Bank of New York Mellon), als consells de l'OpenAI Foundation i l'OpenAI Group PBC. Vélez va ser abans soci de Sequoia Capital i va treballar a Goldman Sachs, Morgan Stanley i General Atlantic; Vince va passar 26 anys a Goldman Sachs, on va ocupar càrrecs com a director de riscos i tresorer, abans d'arribar a BNY. Amb aquesta ampliació, el consell d'OpenAI passa a tenir deu membres, entre els quals hi ha el conseller delegat Sam Altman i l'expresident de Salesforce Bret Taylor.\n\nLa incorporació és rellevant perquè aporta a OpenAI experiència en supervisió financera, gestió de riscos i disciplina institucional just quan la companyia amplia el seu negoci internacional i afronta un escrutini creixent sobre el seu govern corporatiu, en un context en què diverses fonts apunten a una possible sortida a borsa en els pròxims anys. Vince, en concret, presidirà el comitè d'auditoria, un dels òrgans que més escrutini rebrà per part de reguladors i inversors en aquest procés.\n\nOpenAI no ha confirmat cap calendari ni cap decisió formal sobre una sortida a borsa, i l'anunci es limita a la composició del consell; no s'hi detalla quines altres funcions concretes exerciran Vélez i Vince més enllà de la seva pertinença als dos consells.",
+      "image": "./assets/openai-velez-vince-consell-administracio-sortida-borsa-20260723.jpg",
+      "editionDate": "2026-07-23"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "3 MIN",
+      "slug": "meta-sam3-dinov3-genesis-mission-sequera",
+      "title": "Dos models oberts de Meta redueixen d'un mes a 15 minuts l'anàlisi científica de la resistència de la vinya a la sequera",
+      "excerpt": "Investigadors del laboratori Lawrence Berkeley i altres quatre centres nord-americans fan servir Segment Anything Model 3 i DINOv3 per identificar automàticament els vasos de transport d'aigua en ceps de vinya, dins la missió Genesis impulsada pel Departament d'Energia dels EUA.",
+      "sourceName": "Meta AI",
+      "sourceUrl": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/",
+      "sourceDate": "21 de juliol de 2026",
+      "body": "L'anàlisi d'imatges científiques d'alta resolució, com les que produeixen els sincrotrons de raigs X, ha estat tradicionalment un procés lent que depèn de l'etiquetatge manual d'estructures microscòpiques per part d'investigadors especialitzats, cosa que limita quants experiments es poden processar en un temps raonable.\n\nMeta ha explicat el 21 de juliol com dos dels seus models oberts de visió, Segment Anything Model 3 (SAM 3) i DINOv3, alimenten SYNAPS-I, un projecte de la missió Genesis del Departament d'Energia dels Estats Units que uneix els laboratoris nacionals de Lawrence Berkeley, Argonne, Brookhaven, Oak Ridge i l'accelerador SLAC. Un equip d'una seixantena d'investigadors ha aplicat aquest pipeline a un repte agrícola concret: entendre com responen els ceps de vinya a la sequera a escala cel·lular, mitjançant escanejos de micro-CT que permeten reconstruir en 3D els xilemes, els microscòpics vasos que transporten l'aigua per la planta. Desplegat sobre 300 GPU A100 repartides entre els quatre laboratoris, el sistema ha reduït aquesta anàlisi d'un mes de feina a uns 15 minuts per conjunt de dades.\n\nLa notícia és rellevant perquè mostra un ús concret i mesurable de models d'IA de codi obert en recerca científica bàsica finançada amb fons públics, en un àmbit —l'estudi de cultius resistents a la sequera— amb implicacions directes per a l'adaptació agrícola al canvi climàtic, i perquè exemplifica com la missió Genesis busca convertir la ciència de dades a gran escala en un procés gairebé en temps real en lloc d'un coll d'ampolla de mesos.\n\nMeta no detalla en el seu article quin cost ha suposat desplegar les 300 GPU ni quin calendari segueix el projecte SYNAPS-I més enllà d'aquesta primera demostració amb la vinya, ni s'hi especifica si els resultats concrets sobre resistència a la sequera ja s'han traduït en cap varietat de conreu millorada.",
+      "image": "./assets/meta-sam3-dinov3-genesis-mission-sequera-20260723.jpg",
+      "editionDate": "2026-07-23"
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "slug": "hcltech-informe-bretxa-ia-adopcio-ingressos",
+      "title": "Un informe de HCLTech alerta que només el 18% de les empreses veu un impacte real en els ingressos malgrat l'adopció massiva de la IA",
+      "excerpt": "L'estudi, elaborat amb Raconteur entre 500 directius, mostra que el 90% de les organitzacions diu que la IA generativa i agèntica ja transforma els seus fluxos de treball, però només una de cada cinc en percep un efecte significatiu sobre els ingressos.",
+      "sourceName": "HCLTech",
+      "sourceUrl": "https://www.hcltech.com/de-de/press-releases/hcltech-report-exposes-widening-ai-divide-only-18-enterprises-seeing-revenue-impact",
+      "sourceDate": "21 de juliol de 2026",
+      "body": "Després de diversos anys en què moltes empreses han incorporat eines d'intel·ligència artificial generativa als seus processos, comença a créixer la pregunta de si aquesta adopció massiva es tradueix realment en resultats de negoci mesurables o si es queda, sobretot, en guanys d'eficiència interna.\n\nHCLTech ha publicat el 21 de juliol, en col·laboració amb Raconteur, un estudi fet entre 500 directius d'empreses que conclou que el 90% de les organitzacions afirma que la IA generativa i agèntica ja transforma els seus fluxos de treball, amb un 91% que en destaca la millora en l'accés a dades i un 90% que en reporta guanys de productivitat. Tanmateix, només el 18% assegura que la IA té un impacte significatiu sobre els ingressos. L'informe distingeix les anomenades «AI Leaders», organitzacions que converteixen l'adopció en creixement real, de la resta: les primeres tenen quatre vegades més probabilitat d'escalar sistemes agèntics autònoms, un 73% ha definit casos d'ús mesurables (davant el 22% de la resta) i un 63% compta amb el suport explícit de l'alta direcció (davant el 36%).\n\nLa dada és rellevant perquè posa xifres a una bretxa de la qual s'especula des de fa temps en el sector: que l'adopció generalitzada d'eines d'IA no garanteix per si sola un retorn econòmic, i que la diferència rau en factors organitzatius —lideratge, definició d'objectius, formació de plantilles— més que en la tecnologia mateixa. L'estudi arriba en un moment en què grans tecnològiques disparen la seva inversió en infraestructura d'IA i el mercat demana proves cada cop més concretes que aquesta despesa es tradueixi en ingressos per als seus clients empresarials.\n\nHCLTech no detalla la metodologia completa de selecció dels 500 directius enquestats ni el sector o la mida exacta de les empreses participants, i l'informe, encarregat per una consultora tecnològica que ven serveis d'implementació d'IA, té un interès comercial directe en el fet que les empreses n'adoptin més, cosa que no invalida les dades però sí que en marca l'origen a l'hora de valorar-ne la independència.",
+      "image": "./assets/hcltech-informe-bretxa-ia-adopcio-ingressos-20260723.jpg",
+      "editionDate": "2026-07-23"
+    },
     {
       "category": "POLÍTICA",
       "read": "4 MIN",
