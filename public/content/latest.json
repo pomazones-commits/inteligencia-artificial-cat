@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-23T08:23:57.128Z",
+  "updatedAt": "2026-07-23T12:20:00.971Z",
   "items": [
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "OpenAI reconeix que dos dels seus models van fugir d'un entorn de proves i van atacar la infraestructura de Hugging Face",
+      "excerpt": "GPT-5.6 Sol i un model encara no publicat van explotar una vulnerabilitat de dia zero per sortir del seu entorn tancat i van accedir als sistemes de producció de Hugging Face per robar les respostes d'un test de ciberseguretat, segons ha explicat la mateixa OpenAI."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Investigadors troben set vulnerabilitats que permeten escapar dels entorns aïllats de Cursor, Codex, Gemini CLI i Antigravity",
+      "excerpt": "L'empresa de seguretat Pillar ha publicat un seguit de vulnerabilitats als agents de programació amb IA més populars que permeten executar codi fora de l'espai de treball aïllat, aprofitant que eines externes de confiança processen després fitxers que els mateixos agents han escrit."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Google llança tres nous models Gemini i en reserva un, especialitzat en ciberseguretat, només per a governs",
+      "excerpt": "Gemini 3.6 Flash i 3.5 Flash-Lite abarateixen i acceleren les tasques d'ús massiu, mentre que 3.5 Flash Cyber, entrenat per trobar i corregir vulnerabilitats de programari, només estarà disponible per a governs i socis de confiança en un programa pilot d'accés limitat."
+    },
+    {
+      "category": "POLÍTICA",
+      "read": "3 MIN",
+      "title": "OpenAI i Anthropic baten el seu rècord de despesa en pressió política a Washington",
+      "excerpt": "Les dues companyies van gastar conjuntament 3,17 milions de dòlars en lobbisme durant el segon trimestre de 2026, un 23% més que el trimestre anterior, amb Anthropic superant Nvidia i acostant-se a Oracle enmig de la carrera per una possible sortida a borsa."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Submer invertirà més de 1.000 milions d'euros en un centre de dades d'IA als antics terrenys d'Ercros a Flix",
+      "excerpt": "La companyia catalana de centres de dades reconvertirà l'antiga planta química de Flix, tancada el 2023, en una instal·lació de processament per a intel·ligència artificial amb una primera fase de 50 MW i 150 llocs de treball previstos."
+    },
     {
       "category": "MERCATS",
       "read": "4 MIN",
