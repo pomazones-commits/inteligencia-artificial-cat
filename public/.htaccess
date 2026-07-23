@@ -27,14 +27,31 @@
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteRule ^sitemap\.xml$ sitemap.php [L]
-  RewriteRule ^feed\.xml$ feed.php [L]
 
-  # URLs antigues de l'època WordPress (ja no existeixen -> donaven 404).
-  # Redirecció 301 permanent a la portada per netejar el rastre a Google.
-  RewriteRule ^ara/?$ https://www.inteligencia-artificial.cat/ [R=301,L]
-  RewriteRule ^onu/?$ https://www.inteligencia-artificial.cat/ [R=301,L]
-  RewriteRule ^economia/?$ https://www.inteligencia-artificial.cat/ [R=301,L]
-  RewriteRule ^llms/?$ https://www.inteligencia-artificial.cat/ [R=301,L]
-  RewriteRule ^computacio/?$ https://www.inteligencia-artificial.cat/ [R=301,L]
+  # Un únic host canònic per evitar duplicats www/no-www.
+  RewriteCond %{HTTP_HOST} ^www\.inteligencia-artificial\.cat$ [NC]
+  RewriteRule ^ https://inteligencia-artificial.cat%{REQUEST_URI} [R=301,L]
+
+  RewriteRule ^sitemap\.xml$ sitemap.php [L]
+  RewriteRule ^news-sitemap\.xml$ news-sitemap.php [L]
+  RewriteRule ^feed\.xml$ feed.php [L]
+  RewriteRule ^tema/([a-z0-9-]+)/?$ tema.php?tema=$1 [L,QSA]
+
+  # URLs antigues: cada pàgina es redirigeix al nou equivalent temàtic.
+  RewriteRule ^ara/?$ https://inteligencia-artificial.cat/ [R=301,L]
+  RewriteRule ^onu/?$ https://inteligencia-artificial.cat/tema/politica-i-governanca [R=301,L]
+  RewriteRule ^economia/?$ https://inteligencia-artificial.cat/tema/empresa-i-treball [R=301,L]
+  RewriteRule ^llms/?$ https://inteligencia-artificial.cat/tema/tecnologia [R=301,L]
+  RewriteRule ^computacio/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
+  RewriteRule ^ia-i-politica/?$ https://inteligencia-artificial.cat/tema/politica-i-governanca [R=301,L]
+  RewriteRule ^ia-i-innovacio/?$ https://inteligencia-artificial.cat/tema/tecnologia [R=301,L]
+  RewriteRule ^ia-i-societat/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
+  RewriteRule ^ia-i-filosofia/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
+  RewriteRule ^ia-i-educacio/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
+  RewriteRule ^ia-i-medi-ambient/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
+  RewriteRule ^salutia/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
+  RewriteRule ^tv3/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
+  RewriteRule ^generalitat-de-catalunya/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
+  RewriteRule ^formacio/?$ https://inteligencia-artificial.cat/eines.html [R=301,L]
+  RewriteRule ^llibres-tecnics/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
 </IfModule>
