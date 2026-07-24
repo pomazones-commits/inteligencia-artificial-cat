@@ -22,6 +22,7 @@
     loadScript('./news.js'),
     loadScript('./radar.js'),
     loadScript('./analysis.js'),
+    loadScript('./tribuna.js'),
     loadScript('./reflection.js'),
     loadScript('./daily-image.js')
   ]);
@@ -192,6 +193,25 @@
         <h3>${escapeHTML(item.title)}</h3>
         <p>${escapeHTML(item.summary || '')}</p>
       </a>`).join('');
+
+    // ——— La tribuna (article d'autor, fitxer manual tribuna.js) ———
+    if (window.IA_TRIBUNA && window.IA_TRIBUNA.title) {
+      const tribuna = window.IA_TRIBUNA;
+      const band = document.querySelector('#tribuna');
+      document.querySelector('#tribuna-title').textContent = tribuna.title;
+      document.querySelector('#tribuna-excerpt').textContent = tribuna.excerpt || '';
+      document.querySelector('#tribuna-eyebrow').textContent = tribuna.read ? `La tribuna · ${tribuna.read.toLowerCase()}` : 'La tribuna';
+      document.querySelector('#tribuna-byline').textContent = [tribuna.author, tribuna.role].filter(Boolean).join(' · ');
+      if (tribuna.photo) {
+        const img = document.querySelector('#tribuna-img');
+        img.src = tribuna.photo;
+        img.alt = tribuna.photoAlt || `Retrat de ${tribuna.author || ''}`.trim();
+        document.querySelector('#tribuna-photo').hidden = false;
+      } else {
+        document.querySelector('.tribuna-layout').classList.add('tribuna-layout--solo');
+      }
+      band.hidden = false;
+    }
 
     // ——— Peces editorials ———
     if (window.IA_ANALYSIS) {

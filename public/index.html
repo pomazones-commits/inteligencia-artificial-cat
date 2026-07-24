@@ -19,6 +19,7 @@
   <link rel="alternate" type="application/rss+xml" title="intel·ligènciaartificial.cat — notícies" href="./feed.xml">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","description":"Notícies, anàlisi i context sobre intel·ligència artificial, en català.","publishingPrinciples":"https://inteligencia-artificial.cat/redaccio.html"},{"@type":"WebSite","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","inLanguage":"ca"}]}</script>
   <link rel="stylesheet" href="./portada.css?v=2026072301">
+  <link rel="stylesheet" href="./tribuna.css?v=2026072401">
   <script defer src="./app.js?v=2026072010"></script>
 </head>
 <body>
@@ -129,6 +130,21 @@
       </header>
       <div class="news-grid" id="news-grid"></div>
       <p class="empty-search" id="empty-search" hidden>No hem trobat cap notícia amb aquests termes.</p>
+    </section>
+
+    <section class="tribuna-band" id="tribuna" hidden>
+      <div class="shell tribuna-layout">
+        <figure class="tribuna-photo" id="tribuna-photo" hidden>
+          <img id="tribuna-img" src="" alt="" loading="lazy">
+        </figure>
+        <article class="tribuna-copy">
+          <p class="eyebrow" id="tribuna-eyebrow">La tribuna</p>
+          <h2 id="tribuna-title"></h2>
+          <p id="tribuna-excerpt"></p>
+          <p class="tribuna-byline" id="tribuna-byline"></p>
+          <a href="./tribuna.html">Llegir la tribuna <span>↗</span></a>
+        </article>
+      </div>
     </section>
 
     <section class="analysis-band" id="analisi">

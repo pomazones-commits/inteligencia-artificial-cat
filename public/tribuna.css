@@ -1,0 +1,81 @@
+/* ——— La tribuna ———
+   Estils de la secció d'articles d'autor (persones convidades).
+   Fitxer independent per no tocar portada.css (regla de CLAUDE.md).
+   La secció de portada (#tribuna) està amagada per defecte i app.js
+   només la mostra si window.IA_TRIBUNA té contingut. */
+
+.tribuna-band {
+  width: var(--shell);
+  margin: 0 auto 26px;
+  overflow: hidden;
+  border-radius: 34px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 6% 94%, rgba(214, 255, 60, .16), transparent 42%),
+    linear-gradient(135deg, #12162a, #222a47 58%, #191f38);
+  box-shadow: 0 28px 85px rgba(17, 21, 38, .3);
+}
+
+.tribuna-layout {
+  display: grid;
+  grid-template-columns: minmax(230px, .55fr) minmax(0, 1.45fr);
+  gap: 48px;
+  align-items: center;
+  padding-block: 50px;
+}
+
+.tribuna-layout.tribuna-layout--solo { grid-template-columns: 1fr; }
+
+.tribuna-photo { margin: 0; }
+.tribuna-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5 / 4;
+  object-fit: cover;
+  border-radius: 26px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  box-shadow: 0 18px 55px rgba(0, 0, 0, .35);
+}
+
+.tribuna-copy .eyebrow { color: var(--ink); background: var(--lime); }
+
+.tribuna-copy h2 {
+  margin: 0;
+  max-width: 730px;
+  font: 500 42px/1.05 var(--serif);
+  letter-spacing: -.04em;
+}
+
+.tribuna-copy > p:not(.eyebrow):not(.tribuna-byline) {
+  max-width: 640px;
+  margin: 18px 0 14px;
+  color: #dfe3f5;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.tribuna-byline {
+  margin: 0 0 24px;
+  color: var(--lime);
+  font: 600 10px var(--mono);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.tribuna-copy a {
+  display: inline-flex;
+  gap: 12px;
+  padding: 11px 14px;
+  border-radius: 999px;
+  color: var(--ink);
+  background: #fff;
+  font: 600 9px var(--mono);
+  text-transform: uppercase;
+}
+
+@media (max-width: 880px) {
+  .tribuna-band { border-radius: 25px; }
+  .tribuna-layout { grid-template-columns: 1fr; gap: 26px; padding: 34px 24px; align-items: start; }
+  .tribuna-photo { max-width: 340px; }
+  .tribuna-copy h2 { font-size: 33px; }
+}
