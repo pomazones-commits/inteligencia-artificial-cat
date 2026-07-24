@@ -1,16 +1,6 @@
 window.IA_RADAR = [
   {
     "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "24.07.2026",
-    "title": "OpenAI obre ChatGPT Health a tots els usuaris nord-americans el mateix dia que una demanda en busca el bloqueig",
-    "summary": "La companyia connecta ChatGPT amb registres mèdics d'Epic i Oracle Health i amb aplicacions com Apple Health per a majors de 18 anys als Estats Units, mentre defensa el llançament enmig d'una demanda que l'acusa d'haver donat consells mèdics gairebé mortals a un usuari.",
-    "detail": "OpenAI havia obert al gener del 2026 un primer accés reduït a Health in ChatGPT, un espai separat de la resta de converses pensat perquè els usuaris connectessin dades mèdiques i en traguessin explicacions comprensibles, en un moment en què cada cop més persones fan servir chatbots per resoldre dubtes de salut abans, o en lloc, de consultar un professional.\n\nLa companyia ha confirmat aquest 23 de juliol que ChatGPT Health ja és accessible a tots els usuaris estatunidencs majors de 18 anys, en tots els plans -gratuït, Go, Plus i Pro- i via web i aplicació d'iOS. L'eina permet vincular-hi dades personals de salut d'Apple Health, Function i MyFitnessPal, així com registres mèdics d'hospitals a través de sistemes com Epic i Oracle Health i de plataformes com One Medical. OpenAI assegura que aquesta informació queda encriptada i separada de la resta de xats, que no s'utilitza per entrenar els seus models de base, i que ha treballat amb metges per millorar com respon el sistema a preguntes de salut.\n\nEl llançament és rellevant perquè situa OpenAI, per primer cop a aquesta escala, com a intermediari directe entre milions d'usuaris i les seves dades mèdiques més sensibles, en un sector -el sanitari- especialment regulat i escrutat, i en un moment en què el debat sobre la fiabilitat dels consells de salut generats per IA s'ha intensificat arran de casos concrets de mal ús.\n\nL'endemà mateix que un pastor jubilat de Florida, Scott Winters, presentés una demanda contra OpenAI i Sam Altman a la Cort Superior de San Francisco -al·legant que ChatGPT-4o li va minimitzar uns símptomes de vertigen i pressió arterial dient-li que no era \"res perillós\", sis setmanes abans de patir un tromboembolisme pulmonar massiu-, OpenAI manté que \"ChatGPT no és un metge\" i que els seus serveis no estan pensats per diagnosticar ni tractar cap malaltia. La companyia no ha confirmat si revisarà el disseny del producte arran del cas ni ha donat detalls sobre com respondrà legalment a la demanda.",
-    "source": "TechCrunch",
-    "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/"
-  },
-  {
-    "place": "Catalunya",
     "category": "EMPRESA",
     "date": "24.07.2026",
     "title": "Indra situa IndraMind al centre de la seva nova estratègia per oferir IA a infraestructures crítiques",
