@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-24T04:19:50.609Z",
+  "updatedAt": "2026-07-24T04:32:43.286Z",
   "items": [
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "slug": "openai-chatgpt-health-tots-usuaris-demanda",
+      "title": "OpenAI obre ChatGPT Health a tots els usuaris nord-americans el mateix dia que una demanda en busca el bloqueig",
+      "excerpt": "La companyia connecta ChatGPT amb registres mèdics d'Epic i Oracle Health i amb aplicacions com Apple Health per a majors de 18 anys als Estats Units, mentre defensa el llançament enmig d'una demanda que l'acusa d'haver donat consells mèdics gairebé mortals a un usuari.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "sourceDate": "23 de juliol de 2026",
+      "body": "OpenAI havia obert al gener del 2026 un primer accés reduït a Health in ChatGPT, un espai separat de la resta de converses pensat perquè els usuaris connectessin dades mèdiques i en traguessin explicacions comprensibles, en un moment en què cada cop més persones fan servir chatbots per resoldre dubtes de salut abans, o en lloc, de consultar un professional.\n\nLa companyia ha confirmat aquest 23 de juliol que ChatGPT Health ja és accessible a tots els usuaris estatunidencs majors de 18 anys, en tots els plans -gratuït, Go, Plus i Pro- i via web i aplicació d'iOS. L'eina permet vincular-hi dades personals de salut d'Apple Health, Function i MyFitnessPal, així com registres mèdics d'hospitals a través de sistemes com Epic i Oracle Health i de plataformes com One Medical. OpenAI assegura que aquesta informació queda encriptada i separada de la resta de xats, que no s'utilitza per entrenar els seus models de base, i que ha treballat amb metges per millorar com respon el sistema a preguntes de salut.\n\nEl llançament és rellevant perquè situa OpenAI, per primer cop a aquesta escala, com a intermediari directe entre milions d'usuaris i les seves dades mèdiques més sensibles, en un sector -el sanitari- especialment regulat i escrutat, i en un moment en què el debat sobre la fiabilitat dels consells de salut generats per IA s'ha intensificat arran de casos concrets de mal ús.\n\nL'endemà mateix que un pastor jubilat de Florida, Scott Winters, presentés una demanda contra OpenAI i Sam Altman a la Cort Superior de San Francisco -al·legant que ChatGPT-4o li va minimitzar uns símptomes de vertigen i pressió arterial dient-li que no era \"res perillós\", sis setmanes abans de patir un tromboembolisme pulmonar massiu-, OpenAI manté que \"ChatGPT no és un metge\" i que els seus serveis no estan pensats per diagnosticar ni tractar cap malaltia. La companyia no ha confirmat si revisarà el disseny del producte arran del cas ni ha donat detalls sobre com respondrà legalment a la demanda.",
+      "image": "./assets/openai-chatgpt-health-tots-usuaris-demanda-20260724.jpg",
+      "editionDate": "2026-07-24"
+    },
     {
       "category": "POLÍTICA",
       "read": "4 MIN",
@@ -38,6 +51,19 @@
       "sourceDate": "21 de juliol de 2026",
       "body": "L'estratègia xinesa en intel·ligència artificial s'havia basat fins ara sobretot a difondre models de pesos oberts com Qwen, Kimi K3 o GLM arreu del món, com a manera de guanyar quota d'ús global i erosionar l'efectivitat dels controls d'exportació nord-americans sobre maquinari avançat.\n\nSegons ha revelat el Financial Times i ha recollit Reuters, el ministeri de Comerç xinès ha començat a consultar grans companyies del sector -Alibaba, responsable del model Qwen; ByteDance, de Doubao; i Z.ai, de GLM-5.2- sobre un possible paquet de controls d'exportació propis que inclouria revisar les llistes de béns relacionats amb IA i xips, establir criteris més clars per concedir llicències, endurir les comprovacions sobre els usuaris finals i posar més traves a la transferència de tecnologia a l'estranger. L'objectiu declarat, segons les fonts consultades pel mitjà britànic, és evitar que \"els sistemes més avançats de la Xina i les seves startups de creixement més ràpid\" acabin \"absorbits per Occident\".\n\nLa notícia és rellevant perquè suposa un gir respecte a l'estratègia xinesa dels últims mesos, just després que Kimi K3, de Moonshot AI, es convertís en un dels models de pesos oberts més utilitzats fora de la Xina: Pequín sembla començar a veure la seva pròpia IA de frontera com un actiu estratègic que cal protegir amb controls, de manera similar a com els Estats Units han restringit durant anys l'exportació dels seus xips més avançats cap a la Xina.\n\nSegons les mateixes fonts, \"no s'ha decidit res encara\" i és lluny de ser clar si i quan entraria en vigor cap mesura concreta: ni el ministeri de Comerç xinès ha publicat cap esborrany formal, ni Alibaba, ByteDance o Z.ai han confirmat públicament les converses que se'ls atribueixen.",
       "image": "./assets/xina-estudia-controls-exportacio-models-xips-ia-20260724.jpg",
+      "editionDate": "2026-07-24"
+    },
+    {
+      "category": "EMPRESA",
+      "read": "3 MIN",
+      "slug": "indra-indramind-estrategia-ia-infraestructures-critiques",
+      "title": "Indra situa IndraMind al centre de la seva nova estratègia per oferir IA a infraestructures crítiques",
+      "excerpt": "El nou pla estratègic de la companyia espanyola de defensa i tecnologia vol convertir la divisió IndraMind en el \"cervell\" cognitiu dels seus sistemes de comandament i control, mentre Minsait, la seva filial de consultoria, ja factura la meitat dels 3.179 milions d'euros ingressats en el primer semestre de l'any.",
+      "sourceName": "El Nacional (ON Economia)",
+      "sourceUrl": "https://www.elnacional.cat/oneconomia/ca/empreses/indra-buscara-diferenciacio-tecnologica-ia-nova-estrategia_1672316_102.html",
+      "sourceDate": "23 de juliol de 2026",
+      "body": "Indra, la companyia espanyola de defensa i tecnologia amb seu a Madrid, s'suma a un moviment cada cop més estès entre grans grups industrials i de defensa: incorporar capacitats cognitives d'intel·ligència artificial directament als seus sistemes de comandament i control, en lloc de limitar-se a integrar-hi eines de tercers.\n\nLa companyia ha presentat aquest 23 de juliol un nou pla estratègic que situa IndraMind, la seva unitat dedicada a plataformes d'IA i ciberseguretat, com a peça central del negoci, amb l'objectiu de convertir-la en el \"cervell\" dels sistemes de comandament i control d'Indra i d'esdevenir un actor de referència en solucions d'IA per a infraestructures crítiques a Espanya i Europa. La companyia té 58.383 treballadors en total, dels quals 41.206 pertanyen a Minsait, la seva filial de consultoria tecnològica, que ha facturat 1.541 milions d'euros dels 3.179 milions d'ingressos totals del primer semestre de l'any, gairebé la meitat del negoci. El conseller delegat, Josep Maria Recasens, que porta només quinze dies en el càrrec, ha defensat que les empreses que apostin per la tecnologia aconseguiran \"diferenciar-se i assolir un rendiment excel·lent\", tot demanant \"paciència\" sobre el calendari concret del pla.\n\nLa notícia és rellevant per al periodisme econòmic sobre adopció d'IA perquè mostra com una gran empresa industrial i de defensa aposta per desenvolupar capacitats pròpies d'intel·ligència artificial en lloc de dependre només dels grans proveïdors nord-americans, en un sector -el d'infraestructures crítiques i sistemes de comandament- on la sobirania tecnològica té un pes especialment alt.\n\nRecasens porta molt poc temps al càrrec i encara no ha detallat un full de ruta concret ni un pressupost específic per a IndraMind, i Indra tampoc ha publicat encara objectius o indicadors mesurables que permetin valorar l'abast real d'aquesta aposta més enllà de l'anunci estratègic.",
+      "image": "./assets/indra-indramind-estrategia-ia-infraestructures-critiques-20260724.jpg",
       "editionDate": "2026-07-24"
     },
     {
