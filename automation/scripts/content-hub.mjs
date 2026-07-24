@@ -418,6 +418,8 @@ async function ingestEditorial(options) {
   const publicDir = resolve(options['public-dir'] || '.');
   const stateDir = resolve(options['state-dir'] || '.content-state');
   const payload = validateEditorial(type, parsePayload(await readFile(resolve(options.input), 'utf8'), type));
+  // Data de creació garantida (DD.MM.AAAA): si la peça no la porta, es posa la del dia.
+  if (!normalizeText(payload.date)) payload.date = displayDate(editionDate());
   const output = join(publicDir, ASSIGNMENTS[type].file);
   await backupFile(output, join(stateDir, 'backups'), editionDate());
   await atomicWrite(output, serializeAssignment(ASSIGNMENTS[type].variable, payload));

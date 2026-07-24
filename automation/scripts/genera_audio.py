@@ -33,7 +33,15 @@ PECES_EXTRES = [
     (Path("public/analysis.js"), "analisi", ("title", "excerpt", "body")),
     (Path("public/tribuna.js"), "tribuna", ("title", "excerpt", "body")),
     (Path("public/daily-image.js"), "imatge", ("title", "caption", "body")),
+    (Path("public/reflection.js"), "quadern", ("title", "dek", "body")),
 ]
+
+
+def camp_com_a_text(valor) -> str:
+    """Un camp pot ser text o una llista de paràgrafs (p. ex. el body del quadern)."""
+    if isinstance(valor, list):
+        return "\n\n".join(str(part).strip() for part in valor if str(part).strip())
+    return str(valor or "").strip()
 
 
 def curl(args, **kw):
@@ -149,7 +157,7 @@ def main() -> int:
                 saltats += 1
                 continue
             text = "\n\n".join(
-                str(data.get(camp, "")).strip() for camp in camps if str(data.get(camp, "")).strip()
+                camp_com_a_text(data.get(camp)) for camp in camps if camp_com_a_text(data.get(camp))
             )
             if not text:
                 continue
