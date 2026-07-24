@@ -30,7 +30,7 @@
 .tribuna-photo img {
   display: block;
   width: 100%;
-  aspect-ratio: 5 / 4;
+  /* proporció natural de la foto */
   object-fit: cover;
   border-radius: 26px;
   border: 1px solid rgba(255, 255, 255, .2);

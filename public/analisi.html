@@ -1,37 +1,88 @@
 <!doctype html>
 <html lang="ca">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#e9e5de">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f7fb">
   <meta name="description" content="Anàlisi en profunditat sobre intel·ligència artificial, el seu impacte i les decisions que marcaran l’ecosistema català.">
   <link rel="canonical" href="https://inteligencia-artificial.cat/analisi.html">
-  <meta property="og:type" content="article">
-  <meta property="og:locale" content="ca_ES">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="intel·ligènciaartificial.cat"><meta property="og:locale" content="ca_ES">
   <meta property="og:title" content="Anàlisi d’intel·ligència artificial">
   <meta property="og:description" content="Context i lectura en profunditat de l’actualitat de la intel·ligència artificial.">
   <meta property="og:url" content="https://inteligencia-artificial.cat/analisi.html">
   <title>Anàlisi · intel·ligència artificial.cat</title>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css?v=2026071302">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;family=Onest:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./editorial.css?v=2026072401">
+  <script defer src="./shared.js?v=2026072302"></script>
 </head>
-<body style="background:#e9e5de">
-  <main class="article-page" id="analisi"><p class="eyebrow">CARREGANT L'ANÀLISI…</p></main>
-  <script src="./analysis.js?v=2026071921"></script>
+<body class="editorial-body">
+  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./tribuna.html">Tribuna</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
+
+  <main class="editorial-shell editorial-main">
+    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><span>Anàlisi de la setmana</span></nav>
+    <p class="editorial-kicker" id="estat">CARREGANT L'ANÀLISI…</p>
+    <div id="contingut" hidden>
+      <header class="article-header">
+        <div><p class="editorial-kicker" id="kicker"></p><h1 id="titol"></h1><p class="editorial-lede" id="entradeta"></p></div>
+        <div class="article-byline-clean">
+          <p>Per <strong>Redacció IA.cat</strong></p><span>Anàlisi de la setmana</span>
+          <time id="data"></time>
+          <a rel="author" href="./redaccio.html">Com treballem →</a>
+        </div>
+      </header>
+      <div class="article-layout">
+        <article>
+          <div id="lector"></div>
+          <div class="article-body-clean" id="cos"></div>
+        </article>
+        <aside class="article-sidebar">
+          <section class="article-sidecard"><h2>Comparteix</h2><div class="article-share-clean"><a id="share-linkedin" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a><a id="share-whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a><a id="share-mail" href="#">Correu</a><button type="button" data-copy-url="https://inteligencia-artificial.cat/analisi.html">Copia</button></div></section>
+          <section class="article-sidecard"><h2>Sobre aquesta peça</h2><p>Anàlisi setmanal elaborada per la redacció a partir de l’actualitat i les fonts citades al briefing diari. <a href="./redaccio.html">Consulta el mètode editorial →</a></p></section>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
+
+  <script src="./analysis.js?v=2026072402"></script>
+  <script src="./lector.js?v=2026072401"></script>
   <script>
-    const esc = s => String(s||'').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
-    const a = window.IA_ANALYSIS;
-    const el = document.querySelector('#analisi');
-    if (a && a.title) {
+    (function () {
+      var a = window.IA_ANALYSIS;
+      var estat = document.getElementById('estat');
+      if (!a || !a.title) {
+        estat.textContent = 'ANÀLISI NO DISPONIBLE. TORNA-HO A PROVAR EN UNS INSTANTS.';
+        return;
+      }
       document.title = a.title + ' · intel·ligència artificial.cat';
-      el.innerHTML = `<a class="brand" href="./">intel·ligència<br><em>artificial</em><span>.cat</span></a>
-        <p class="eyebrow"><span class="tag">${esc(a.category||'ANÀLISI')}</span> · ${esc(a.read||'7 MIN')} · ${esc(a.date||'')}</p>
-        <h1>${esc(a.title)}</h1>
-        <p class="article-dek">${esc(a.excerpt||'')}</p>
-        <div class="article-body">${esc(a.body||'').split(/\n\n+/).map(p=>`<p>${p}</p>`).join('')}</div>
-        <a class="text-link" href="./#avui">← Torna a l'edició</a>`;
-    } else {
-      el.innerHTML = `<a class="brand" href="./">intel·ligència<br><em>artificial</em><span>.cat</span></a><p class="eyebrow">ANÀLISI NO DISPONIBLE</p><h1>Torna-ho a provar en uns instants.</h1><a class="text-link" href="./">← Torna a l'edició</a>`;
-    }
+      estat.hidden = true;
+      var kicker = ['ANÀLISI DE LA SETMANA', a.read || '', a.date || ''].filter(Boolean).join(' · ');
+      document.getElementById('kicker').textContent = kicker;
+      document.getElementById('titol').textContent = a.title;
+      document.getElementById('entradeta').textContent = a.excerpt || '';
+      document.getElementById('data').textContent = a.date || '';
+      var paragrafs = String(a.body || '').split(/\n\n+/).filter(Boolean);
+      var cos = document.getElementById('cos');
+      paragrafs.forEach(function (text) {
+        var p = document.createElement('p');
+        p.textContent = text;
+        cos.appendChild(p);
+      });
+      var url = encodeURIComponent('https://inteligencia-artificial.cat/analisi.html');
+      var titolCodificat = encodeURIComponent(a.title);
+      document.getElementById('share-linkedin').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+      document.getElementById('share-whatsapp').href = 'https://wa.me/?text=' + titolCodificat + '%20' + url;
+      document.getElementById('share-mail').href = 'mailto:?subject=' + titolCodificat + '&body=' + url;
+      document.getElementById('contingut').hidden = false;
+      // Lector: MP3 neural si existeix (analisi-AAAA-MM-DD.mp3), veu del navegador si no.
+      var m = /^(\d{2})\.(\d{2})\.(\d{4})$/.exec(a.date || '');
+      var audioUrl = m ? './assets/audio/analisi-' + m[3] + '-' + m[2] + '-' + m[1] + '.mp3' : null;
+      window.IALector.init({
+        container: document.getElementById('lector'),
+        audioUrl: audioUrl,
+        parts: [a.title, a.excerpt || ''].concat(paragrafs).filter(Boolean)
+      });
+    })();
   </script>
 </body>
 </html>
