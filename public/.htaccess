@@ -25,6 +25,15 @@
   </FilesMatch>
 </IfModule>
 
+# Fitxers privats de dades: mai no s'han de poder descarregar per HTTP.
+# (api.php hi accedeix pel sistema de fitxers; això només bloqueja el web.)
+<Files "subscribers.csv">
+  Require all denied
+</Files>
+<Files "mail.log">
+  Require all denied
+</Files>
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
 

@@ -11,6 +11,16 @@ window.IA_RADAR = [
   },
   {
     "place": "Catalunya",
+    "category": "EMPRESA",
+    "date": "24.07.2026",
+    "title": "BBVA amplia fins a final del 2026 el programa que regala ChatGPT Business a les pimes: més de 12.000 empreses adherides",
+    "summary": "El banc allarga fins al 31 de desembre del 2026 la iniciativa llançada amb OpenAI a principis d'any, que ofereix a cada pime client dues llicències de ChatGPT Business durant un any amb formació i casos pràctics. Més de 12.000 empreses ja s'hi han adherit.",
+    "detail": "BBVA ha estès fins al 31 de desembre del 2026 el programa que ofereix accés a ChatGPT Business a les petites i mitjanes empreses, una iniciativa llançada a principis d'any en col·laboració amb OpenAI que va convertir l'entitat en el primer gran actor financer a Espanya a impulsar directament l'ús de la intel·ligència artificial entre les pimes.\n\nEl programa inclou dues llicències de ChatGPT Business durant un any per a cada empresa adherida, a més de formació i casos pràctics d'ús. Segons el banc, més de 12.000 empreses ja s'hi han sumat, amb l'objectiu de millorar l'eficiència, automatitzar processos i alliberar temps per a tasques de més valor afegit.\n\nEl moviment il·lustra com l'adopció de la IA a l'empresa espanyola comença a canalitzar-se també a través de la banca, que hi veu una palanca de competitivitat per al seu teixit de clients: si les pimes guanyen productivitat, el negoci bancari que en depèn també en surt reforçat.",
+    "source": "Economia de Mallorca",
+    "url": "https://www.economiademallorca.com/articulo/empresas/bbva-impulsa-adopcion-inteligencia-artificial-pymes-amplia-2026-programa-chatgpt-business/20260629120915121080.html"
+  },
+  {
+    "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "23.07.2026",
     "title": "Eurecat liderarà amb 40 milions d'euros europeus el primer gran model d'IA per a robòtica industrial del continent",
