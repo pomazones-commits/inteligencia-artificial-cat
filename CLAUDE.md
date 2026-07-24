@@ -10,7 +10,7 @@ El que ha de fer cada sessió editorial:
 
 1. **Lot de notícies (4 cops al dia, 5 notícies per lot):** escriure el lot com a array JSON a `incoming/news-batch.json` seguint `automation/prompts/news-batch.md`. Les imatges de cada notícia es desen a `public/assets/<slug>-AAAAMMDD.jpg`. En fer push, el workflow `content-hub.yml` valida el lot, l'acumula amb els lots anteriors del dia (fins a 20 notícies), deriva el radar català, actualitza l'hemeroteca i publica.
 2. **Fotografia editorial diària (només la primera execució del dia):** desar la imatge a `public/assets/daily-reflection-AAAA-MM-DD.jpg` i les metadades a `incoming/daily-image.json` segons `automation/prompts/daily-image.md`.
-3. **Peces setmanals (divendres):** `incoming/analysis.json` i `incoming/reflection.json` segons `automation/prompts/analysis.md` i `automation/prompts/reflection.md`.
+3. **Peces setmanals (divendres):** `incoming/analysis.json` i `incoming/reflection.json` segons `automation/prompts/analysis.md` i `automation/prompts/reflection.md`. **El Quadern IA (reflection) té requisits reforçats des del 24.07.2026:** tema filosòfic relacionat amb la IA, investigació seriosa prèvia amb almenys dues fonts o pensadors reals citats al text, **exactament 7 paràgrafs** i camp `date` (DD.MM.AAAA; si falta, el publicador la posa sol). Es mostra amb autoria «Per Redacció IA.cat» i s'obre a `quadern.html` amb lector d'àudio (`assets/audio/quadern-AAAA-MM-DD.mp3`, generat pel workflow d'àudio).
 4. **Publicar:** `git add -A && git commit -m "Lot HH.MM del DD.MM.AAAA" && git push origin main`. Res més: la validació, l'acumulació fins a 20, la deduplicació, el radar, l'arxiu i el desplegament són automàtics.
 
 ## Criteris editorials de selecció de notícies (vigents des del 23.07.2026)
