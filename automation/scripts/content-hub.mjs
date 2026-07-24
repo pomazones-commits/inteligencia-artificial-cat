@@ -199,13 +199,26 @@ function radarCategory(story) {
   if (/EMPRESA|MERCAT|NEGOCI|STARTUP/.test(category)) return 'EMPRESA';
   if (/GOVERN|POLÍT|REGUL/.test(category)) return 'POLÍTIQUES';
   if (/EDUC/.test(category)) return 'EDUCACIÓ';
+  if (/SEGUR|CIBER/.test(category)) return 'SEGURETAT';
   return 'IA I SOCIETAT';
 }
 
-const LOCAL_TERMS = ['catalunya', 'català', 'catalana', 'catalanes', 'països catalans', 'barcelona', 'girona', 'lleida', 'tarragona', 'mataró', 'flix', 'sabadell', 'terrassa', 'manresa', 'reus', 'badalona', 'vic', 'granollers', 'igualada', 'generalitat', 'aina', 'softcatalà', 'bsc', 'upc', 'uab', 'ub', 'urv'];
+// Termes que identifiquen una notícia d'àmbit català: topònims, institucions i
+// EMPRESES/ENTITATS catalanes amb nom propi inconfusible. Les empreses hi són
+// perquè una notícia corporativa ("CaixaBank crea una unitat de...") sovint no
+// esmenta cap topònim al títol ni al resum, i sense això no es derivava al
+// radar (va passar el 24.07.2026 amb CaixaBank). Només noms que no poden
+// aparèixer per casualitat en una notícia global.
+const LOCAL_TERMS = [
+  'catalunya', 'català', 'catalana', 'catalanes', 'països catalans', 'barcelona', 'girona', 'lleida', 'tarragona', 'mataró', 'flix', 'sabadell', 'terrassa', 'manresa', 'reus', 'badalona', 'vic', 'granollers', 'igualada', 'generalitat', 'aina', 'softcatalà', 'bsc', 'upc', 'uab', 'ub', 'urv',
+  'caixabank', 'la caixa', 'banc sabadell', 'grifols', 'cellnex', 'fluidra', 'seat', 'cupra', 'esade', 'uoc', 'upf', 'udg', 'udl', 'eurecat', 'submer', 'openchip', 'i2cat', 'mobile world congress', 'mwc', 'tv3', '3cat', 'mare nostrum', 'marenostrum'
+];
 
 function isLocalStory(story) {
-  const haystack = `${story.category} ${story.title} ${story.excerpt}`;
+  // L'slug també compta: sovint porta el nom de l'entitat encara que el títol
+  // s'hagi escurçat. El cos NO s'inclou per evitar falsos positius (una notícia
+  // global que esmenta Barcelona de passada no és local).
+  const haystack = `${story.category} ${story.title} ${story.excerpt} ${(story.slug || '').replace(/-/g, ' ')}`;
   return LOCAL_TERMS.some(term => wholeWord(term).test(haystack));
 }
 
