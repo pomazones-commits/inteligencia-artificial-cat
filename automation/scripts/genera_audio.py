@@ -20,6 +20,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 from pathlib import Path
 
 VOICE = "ca-ES-JoanaNeural"
@@ -91,10 +92,20 @@ def sintetitza_i_puja(slug: str, text: str, auth: str) -> bool:
         mp3 = Path(td) / "audio.mp3"
         fitxer_text.write_text(text, encoding="utf-8")
         correcte = False
-        for _ in range(3):
-            resultat = subprocess.run(
-                ["edge-tts", "--voice", VOICE, "-f", str(fitxer_text), "--write-media", str(mp3)]
-            )
+        for intent in range(3):
+            if intent:
+                time.sleep(10)  # pausa entre reintents: el throttling d'edge-tts es recupera sol
+            try:
+                # timeout per intent: sense això, una síntesi penjada bloqueja la run
+                # sencera fins al límit de 30 min del workflow i les peces restants
+                # es queden sense àudio (va passar el 24.07.2026, runs #33 i #36).
+                resultat = subprocess.run(
+                    ["edge-tts", "--voice", VOICE, "-f", str(fitxer_text), "--write-media", str(mp3)],
+                    timeout=120,
+                )
+            except subprocess.TimeoutExpired:
+                print(f"AVÍS: edge-tts penjat amb {slug} (intent {intent + 1}/3); es reintenta.")
+                continue
             if resultat.returncode == 0 and mp3.is_file() and mp3.stat().st_size > MIDA_MINIMA:
                 correcte = True
                 break
