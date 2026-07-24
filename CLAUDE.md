@@ -32,6 +32,16 @@ El que ha de fer cada sessió editorial:
 
 **c) Encaminament de seccions (camp `seccio`).** Vegeu `automation/prompts/news-batch.md`. Les notícies d'adopció d'IA per empreses **no purament catalanes** porten `"seccio":"radar"` → van NOMÉS a «La IA que passa aquí» i no saturen el feed «El senyal d'avui». Les d'una empresa **purament catalana** no porten `seccio` (surten al feed i, com que tenen context català, es deriven soles al radar). L'actualitat general tampoc no porta `seccio`.
 
+## La tribuna (articles de persones convidades) — flux MANUAL
+
+La secció «La tribuna» publica escrits signats per persones (no generats per IA). **No passa pel Content Hub**: el fitxer `public/tribuna.js` (`window.IA_TRIBUNA`) és manual i cap automatització no el toca ni el regenera. Per publicar una tribuna nova, una sessió de Cowork (a petició de Rafael) ha de:
+
+1. Desar la foto de l'autor (si n'hi ha) a `public/assets/tribuna-<nom>-AAAAMMDD.jpg`.
+2. Substituir l'objecte de `public/tribuna.js` amb els camps: `date`, `category` ("TRIBUNA"), `read` ("X MIN"), `author`, `role` (afiliació), `title`, `excerpt`, `quote` (opcional), `photo` (ruta `./assets/...` o `""`), `photoAlt`, `body` (paràgrafs separats per `\n\n`). Generar el fitxer amb `JSON.stringify` per garantir l'escapament correcte.
+3. Commit i push a `main` (es desplega sol).
+
+La portada mostra la banda `#tribuna` (sobre l'anàlisi de la setmana) només si `window.IA_TRIBUNA` té contingut; si val `null`, la secció queda amagada. La pàgina completa és `public/tribuna.html` i els estils viuen a `public/tribuna.css` (mai a portada.css/styles.css). Contracte públic nou a mantenir: `window.IA_TRIBUNA`.
+
 ## Regles
 
 - Si una imatge de notícia no s'ha pogut generar, ometre el camp `image` d'aquella notícia (no posar-hi rutes que no existeixen).
