@@ -6,7 +6,7 @@ header('Content-Type: application/xml; charset=utf-8');
 $base = 'https://inteligencia-artificial.cat';
 $urls = [];
 $urls[] = ['loc' => $base . '/', 'changefreq' => 'hourly', 'priority' => '1.0'];
-foreach (['redaccio.html', 'eines.html', 'analisi.html', 'tribuna.html', 'dossiers.html', 'arxiu.html'] as $page) {
+foreach (['redaccio.html', 'eines.html', 'analisi.html', 'tribuna.html', 'quadern.html', 'dossiers.html', 'arxiu.html'] as $page) {
     $urls[] = ['loc' => $base . '/' . $page, 'changefreq' => 'weekly', 'priority' => '0.6'];
 }
 $topics = require __DIR__ . '/data/topics.php';

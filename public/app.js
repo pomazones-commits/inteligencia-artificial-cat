@@ -222,20 +222,13 @@
     if (window.IA_REFLECTION) {
       document.querySelector('#reflection-title').textContent = window.IA_REFLECTION.title || '';
       document.querySelector('#reflection-dek').textContent = window.IA_REFLECTION.dek || '';
-      const body = Array.isArray(window.IA_REFLECTION.body)
-        ? window.IA_REFLECTION.body
-        : String(window.IA_REFLECTION.body || '').split(/\n\n+/).filter(Boolean);
-      document.querySelector('#reflection-body').innerHTML = body.map(paragraph => `<p>${escapeHTML(paragraph)}</p>`).join('');
+      const reflectionMeta = document.querySelector('#reflection-meta');
+      if (reflectionMeta) {
+        reflectionMeta.textContent = window.IA_REFLECTION.date
+          ? `Per Redacció IA.cat · ${window.IA_REFLECTION.date}`
+          : 'Per Redacció IA.cat';
+      }
     }
-
-    const reflectionToggle = document.querySelector('[data-reflection-toggle]');
-    reflectionToggle.addEventListener('click', () => {
-      const body = document.querySelector('#reflection-body');
-      const open = body.hidden;
-      body.hidden = !open;
-      reflectionToggle.setAttribute('aria-expanded', String(open));
-      reflectionToggle.querySelector('span').textContent = open ? '↑' : '↓';
-    });
 
     // ——— Cerca dins l'edició (depèn de renderNews) ———
     document.querySelector('#site-search').addEventListener('input', event => {

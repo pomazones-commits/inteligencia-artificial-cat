@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f7fb">
+  <meta name="description" content="Quadern IA: la reflexió setmanal de la redacció sobre un tema filosòfic relacionat amb la intel·ligència artificial.">
+  <link rel="canonical" href="https://inteligencia-artificial.cat/quadern.html">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="intel·ligènciaartificial.cat"><meta property="og:locale" content="ca_ES">
+  <meta property="og:title" content="Quadern IA · intel·ligència artificial.cat">
+  <meta property="og:description" content="La reflexió setmanal sobre un tema filosòfic relacionat amb la intel·ligència artificial.">
+  <meta property="og:url" content="https://inteligencia-artificial.cat/quadern.html">
+  <title>Quadern IA · intel·ligència artificial.cat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;family=Onest:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./editorial.css?v=2026072401">
+  <script defer src="./shared.js?v=2026072302"></script>
+</head>
+<body class="editorial-body">
+  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
+
+  <main class="editorial-shell editorial-main">
+    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><span>Quadern IA</span></nav>
+    <p class="editorial-kicker" id="estat">CARREGANT EL QUADERN…</p>
+    <div id="contingut" hidden>
+      <header class="article-header">
+        <div><p class="editorial-kicker" id="kicker"></p><h1 id="titol"></h1><p class="editorial-lede" id="entradeta"></p></div>
+        <div class="article-byline-clean">
+          <p>Per <strong>Redacció IA.cat</strong></p><span>Quadern IA · Cada divendres</span>
+          <time id="data"></time>
+          <a rel="author" href="./redaccio.html">Com treballem →</a>
+        </div>
+      </header>
+      <div class="article-layout">
+        <article>
+          <div id="lector"></div>
+          <div class="article-body-clean" id="cos"></div>
+        </article>
+        <aside class="article-sidebar">
+          <section class="article-sidecard"><h2>Comparteix</h2><div class="article-share-clean"><a id="share-linkedin" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a><a id="share-whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a><a id="share-mail" href="#">Correu</a><button type="button" data-copy-url="https://inteligencia-artificial.cat/quadern.html">Copia</button></div></section>
+          <section class="article-sidecard"><h2>Sobre aquesta peça</h2><p>Reflexió setmanal de la redacció sobre un tema filosòfic relacionat amb la IA, elaborada a partir d’una investigació prèvia de fonts i pensadors reals. <a href="./redaccio.html">Consulta el mètode editorial →</a></p></section>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
+
+  <script src="./reflection.js?v=2026072403"></script>
+  <script src="./lector.js?v=2026072401"></script>
+  <script>
+    (function () {
+      var q = window.IA_REFLECTION;
+      var estat = document.getElementById('estat');
+      if (!q || !q.title) {
+        estat.textContent = 'EL QUADERN NO ESTÀ DISPONIBLE ARA MATEIX.';
+        return;
+      }
+      document.title = q.title + ' · Quadern IA · intel·ligència artificial.cat';
+      estat.hidden = true;
+      var kicker = ['QUADERN IA', q.date || ''].filter(Boolean).join(' · ');
+      document.getElementById('kicker').textContent = kicker;
+      document.getElementById('titol').textContent = q.title;
+      document.getElementById('entradeta').textContent = q.dek || '';
+      document.getElementById('data').textContent = q.date || '';
+      var paragrafs = Array.isArray(q.body)
+        ? q.body.filter(Boolean)
+        : String(q.body || '').split(/\n\n+/).filter(Boolean);
+      var cos = document.getElementById('cos');
+      paragrafs.forEach(function (text) {
+        var p = document.createElement('p');
+        p.textContent = text;
+        cos.appendChild(p);
+      });
+      var url = encodeURIComponent('https://inteligencia-artificial.cat/quadern.html');
+      var titolCodificat = encodeURIComponent(q.title);
+      document.getElementById('share-linkedin').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+      document.getElementById('share-whatsapp').href = 'https://wa.me/?text=' + titolCodificat + '%20' + url;
+      document.getElementById('share-mail').href = 'mailto:?subject=' + titolCodificat + '&body=' + url;
+      document.getElementById('contingut').hidden = false;
+      // Lector: MP3 neural si existeix (quadern-AAAA-MM-DD.mp3), veu del navegador si no.
+      var m = /^(\d{2})\.(\d{2})\.(\d{4})$/.exec(q.date || '');
+      var audioUrl = m ? './assets/audio/quadern-' + m[3] + '-' + m[2] + '-' + m[1] + '.mp3' : null;
+      window.IALector.init({
+        container: document.getElementById('lector'),
+        audioUrl: audioUrl,
+        parts: [q.title, q.dek || ''].concat(paragrafs).filter(Boolean)
+      });
+    })();
+  </script>
+</body>
+</html>

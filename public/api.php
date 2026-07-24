@@ -27,7 +27,18 @@ if ($action === 'subscribe' && $_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!is_dir($dataDir)) mkdir($dataDir, 0755, true);
     $subscriptions = $dataDir . '/subscribers.csv';
     $exists = is_file($subscriptions) && str_contains((string) file_get_contents($subscriptions), $email);
-    if (!$exists) file_put_contents($subscriptions, date('c') . ',' . $email . PHP_EOL, FILE_APPEND | LOCK_EX);
+    if (!$exists) {
+        file_put_contents($subscriptions, date('c') . ',' . $email . PHP_EOL, FILE_APPEND | LOCK_EX);
+        // Avís per correu a la redacció per cada subscriptor nou (mai bloqueja la resposta).
+        $avis = "Nou subscriptor del butlletí «La setmana d'IA, en cinc minuts»\n\n"
+            . 'Correu: ' . $email . "\n"
+            . 'Data: ' . date('d.m.Y H:i') . " (hora del servidor)\n"
+            . 'Total aproximat de subscriptors: ' . max(1, count(file($subscriptions) ?: [])) . "\n";
+        $capceleres = 'From: IA.cat <no-reply@inteligencia-artificial.cat>' . "\r\n"
+            . 'Reply-To: ' . $email . "\r\n"
+            . 'Content-Type: text/plain; charset=UTF-8';
+        @mail('pomazones@gmail.com', 'IA.cat: subscriptor nou al butlletí', $avis, $capceleres);
+    }
     respond(['ok' => true, 'message' => 'Gràcies! Ja formes part de l’edició de divendres.']);
 }
 
