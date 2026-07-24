@@ -17,19 +17,19 @@ return [
         'title' => 'Tecnologia i models d’intel·ligència artificial',
         'short' => 'Tecnologia',
         'description' => 'Models, agents, programari, robòtica i avenços tècnics explicats amb context i en català.',
-        'categories' => ['TECNOLOGIA'],
+        'categories' => ['TECNOLOGIA', 'CIÈNCIA', 'RECERCA'],
     ],
     'empresa-i-treball' => [
         'title' => 'IA, empresa i treball',
         'short' => 'Empresa i treball',
         'description' => 'Com la intel·ligència artificial transforma empreses, professions, inversió, productivitat i mercat laboral.',
-        'categories' => ['MERCATS', 'INVERSIÓ'],
+        'categories' => ['MERCATS', 'INVERSIÓ', 'EMPRESA', 'EMPRESES', 'NEGOCIS', 'TREBALL'],
     ],
     'politica-i-governanca' => [
         'title' => 'Política, regulació i governança de la IA',
         'short' => 'Política i governança',
         'description' => 'Lleis, institucions, geopolítica, drets i decisions públiques que defineixen el desenvolupament de la IA.',
-        'categories' => ['POLÍTICA', 'GOVERNANÇA'],
+        'categories' => ['POLÍTICA', 'GOVERNANÇA', 'REGULACIÓ', 'GEOPOLÍTICA'],
         'resources' => [
             ['label' => 'Guia oficial · PDF', 'title' => 'Criteris d’ús de la IA generativa a l’Administració', 'description' => 'Principis, límits, supervisió humana i protecció de dades al sector públic català.', 'url' => '/dossiers/criteris-ia-generativa-2025.pdf'],
         ],
@@ -47,12 +47,12 @@ return [
         'title' => 'IA, societat i cultura',
         'short' => 'Societat i cultura',
         'description' => 'Impacte social, cultura, llengua, creativitat, drets d’autor i vida quotidiana en l’era de la IA.',
-        'categories' => ['SOCIETAT'],
+        'categories' => ['SOCIETAT', 'CULTURA', 'EDUCACIÓ', 'SALUT'],
     ],
     'infraestructura-i-energia' => [
         'title' => 'Infraestructura, xips i energia per a la IA',
         'short' => 'Infraestructura i energia',
         'description' => 'Centres de dades, semiconductors, computació i energia: la infraestructura material de la intel·ligència artificial.',
-        'categories' => ['INFRAESTRUCTURA'],
+        'categories' => ['INFRAESTRUCTURA', 'ENERGIA', 'XIPS'],
     ],
 ];
