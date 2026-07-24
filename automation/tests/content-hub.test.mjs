@@ -209,3 +209,27 @@ test('publica una fotografia diària només si existeix i té metadades accessib
   assert.equal(result.status, 0, result.stderr);
   assert.match(await readFile(join(root, 'daily-image.js'), 'utf8'), /window\.IA_DAILY_IMAGE/);
 });
+
+test('una notícia d’empresa catalana (CaixaBank) es deriva al radar encara que no porti cap topònim', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  const caixabank = {
+    ...story(1),
+    slug: 'caixabank-unitat-ciberseguretat-ia',
+    sourceUrl: 'https://example.com/caixabank-ciberseguretat',
+    category: 'SEGURETAT',
+    title: 'CaixaBank crea una unitat de ciberseguretat per a la intel·ligència artificial',
+    excerpt: 'L’entitat financera integra la nova unitat dins de CaixaBank Tech.'
+  };
+  const global1 = { ...story(2), slug: 'noticia-global-ia', sourceUrl: 'https://example.com/global-radar', title: 'Un laboratori presenta un model nou', excerpt: 'Anunci global sense vincle local.' };
+  await writeFile(input, JSON.stringify([caixabank, global1, story(3), story(5), story(7)]), 'utf8');
+  assert.equal(run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-07-24'], root).status, 0);
+
+  const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.ok(radar.some(item => item.title.startsWith('CaixaBank crea una unitat')), 'la notícia de CaixaBank entra al radar per nom d’entitat catalana');
+  assert.equal(radar.find(item => item.title.startsWith('CaixaBank')).category, 'SEGURETAT', 'la categoria SEGURETAT es conserva al radar');
+  assert.ok(!radar.some(item => item.title === 'Un laboratori presenta un model nou'), 'les notícies globals continuen fora del radar');
+
+  const feed = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.ok(feed.some(item => item.slug === 'caixabank-unitat-ciberseguretat-ia'), 'la notícia catalana també surt al feed (va als dos llocs)');
+});
