@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-24T04:32:43.286Z",
+  "updatedAt": "2026-07-24T08:24:07.048Z",
   "items": [
+    {
+      "category": "INVERSIÓ",
+      "read": "4 MIN",
+      "title": "Google revela que la seva participació a Anthropic ja val 124.000 milions de dòlars",
+      "excerpt": "En la seva darrera presentació trimestral a la SEC, Alphabet declara que les seves inversions en empreses privades sumaven 124.300 milions de dòlars a finals de juny, la immensa majoria procedents de la seva participació a Anthropic, després que la companyia rival d'OpenAI hagi triplicat la seva valoració en un sol trimestre."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Un forat de seguretat permetia a l'agent de Claude Cowork escapar de l'aïllament i llegir arxius de tot el Mac",
+      "excerpt": "Investigadors d'Accomplish AI descobreixen una vulnerabilitat, batejada SharedRoot, que permetia a l'agent d'IA de Claude Cowork sortir de la màquina virtual on s'executa i accedir sense permís a claus SSH, credencials del núvol i altres arxius sensibles de l'ordinador amfitrió; Anthropic ha classificat l'avís com \"informatiu\" i no ha publicat cap pedaç per a les sessions locals."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Stripe negocia comprar OpenRouter, el \"supermercat\" de models d'IA, per uns 10.000 milions de dòlars",
+      "excerpt": "El gegant dels pagaments digitals explora l'adquisició d'OpenRouter, la plataforma que permet a milions de desenvolupadors comparar i canviar entre centenars de models d'OpenAI, Anthropic i proveïdors de codi obert, en una operació que multiplicaria per set la valoració que la startup tenia fa només dos mesos, segons The Wall Street Journal."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "4 MIN",
+      "title": "Dos congressistes proposen una llei bipartidista que obligaria a auditar els models d'IA de més de 1.000 milions de dòlars d'inversió",
+      "excerpt": "Els representants Jay Obernolte (republicà) i Lori Trahan (demòcrata) presenten la FRONTIER Act, que obligaria els grans desenvolupadors de models d'IA a sotmetre's a auditories independents, publicar informes de transparència i notificar incidents greus de seguretat en un termini de 24 hores, com a peça complementària de la proposta de \"botó d'aturada\" presentada el mateix dia."
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "3 MIN",
+      "title": "L'Agència de Ciberseguretat de Catalunya alerta que el 82,6% dels correus fraudulents ja fan servir intel·ligència artificial",
+      "excerpt": "L'organisme català adverteix que la IA generativa ha eliminat els errors de traducció i redacció que abans delataven els correus de pesca, i llança una campanya de conscienciació abans de l'estiu perquè la ciutadania extremi la precaució davant missatges, vídeos i veus gairebé perfectes generats amb aquesta tecnologia."
+    },
     {
       "category": "TECNOLOGIA",
       "read": "5 MIN",
