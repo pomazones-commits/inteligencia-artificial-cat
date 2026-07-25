@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-07-24T16:35:40.234Z",
+  "updatedAt": "2026-07-25T04:24:31.688Z",
   "items": [
     {
       "category": "TECNOLOGIA",
       "read": "5 MIN",
-      "title": "Google publica el primer gran mapa de com s'usa realment la IA: arriba al 68% de les feines però automatitza menys del 10% de les tasques",
-      "excerpt": "L'informe ATLAS v1.0, elaborat a partir de 14,6 milions de converses anonimitzades de Gemini, conclou que la intel·ligència artificial ja toca la immensa majoria d'ocupacions dels EUA, però que en la pràctica complementa la feina humana molt més que no pas la substitueix."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "L'alemanya Black Forest Labs presenta FLUX 3, un model que genera vídeo, imatge i so alhora i ja mira cap a la robòtica",
-      "excerpt": "La companyia de Freiburg, fundada per antics creadors de Stable Diffusion, llança un model multimodal capaç de produir fins a vint segons de vídeo amb àudio sincronitzat en una sola passada, i presenta amb l'empresa mimic robotics un primer pas cap al control de robots."
+      "title": "Anthropic llança Claude Opus 5 i el presenta com el seu model més segur i, alhora, el més eficient en cost de la gamma Opus",
+      "excerpt": "El nou model és ara per defecte a Claude Max i l'opció més potent a Claude Pro, amb millores destacades en programació, ús de l'ordinador i raonament, al mateix preu que el seu predecessor Opus 4.8."
     },
     {
       "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "El Departament de Salut dels EUA s'incorpora a la Missió Gènesi, el pla de Trump per accelerar la recerca científica amb IA",
-      "excerpt": "El Department of Health and Human Services anuncia que llançarà, junt amb l'Oficina de Política Científica i Tecnològica, reptes d'intel·ligència artificial sobre malalties cròniques, càncer infantil i descobriment de fàrmacs, dins d'una iniciativa federal nascuda d'una ordre executiva de novembre del 2025."
+      "read": "5 MIN",
+      "title": "Nvidia, Microsoft, Meta i una vintena més d'empreses demanen a Trump que no restringeixi els models d'IA de codi obert",
+      "excerpt": "Una carta conjunta de més de vint companyies tecnològiques, entre les quals Hugging Face, Mistral i Perplexity, alerta que bloquejar els models oberts davant l'auge xinès de Kimi K3 podria afeblir el lideratge nord-americà en IA."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "OpenAI llança un programa perquè les petites empreses nord-americanes adoptin ChatGPT, amb tallers, acadèmies presencials i socis com Shopify o Intuit",
-      "excerpt": "La companyia posa en marxa una iniciativa que combina webinars, esdeveniments presencials arreu dels Estats Units, guies i integracions amb eines habituals de petits negocis, construïda a l'entorn de ChatGPT Work i el model GPT-5.6, mentre reivindica deu milions d'usuaris d'aquests productes."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "3 MIN",
-      "title": "CaixaBank crea una unitat específica de ciberseguretat per fer front als riscos de la intel·ligència artificial i la computació quàntica",
-      "excerpt": "L'entitat financera integra la nova unitat dins de CaixaBank Tech per reforçar la protecció digital en totes les fases del desenvolupament tecnològic, amb María Guillamón com a responsable de seguretat de la informació de la filial, i participa com a única banca espanyola en els projectes europeus VIGILANCE i CYBERAID."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Vint-i-un països, amb els EUA i la Xina, signen a Chengdu un pacte per impulsar la IA de codi obert amb garanties de seguretat",
-      "excerpt": "La reunió ministerial digital de l'APEC aprova la «Declaració de Chengdu», que anima els governs a donar suport a models d'IA oberts desenvolupats amb seguretat forta, en un moment de màxima tensió tecnològica entre Washington i Pequín."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "OpenAI porta ChatGPT Voice a l'escriptori i permet controlar l'ordinador i dirigir agents de Codex només amb la veu",
-      "excerpt": "La nova versió, impulsada per GPT-Live, arriba a Mac i Windows i deixa parlar, escoltar i coordinar diverses tasques alhora: des de revisar una incidència de codi fins a repassar el calendari, tot per veu."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Anthropic incorpora Opus i Sonnet al mode de veu de Claude i l'obre a Gmail, Calendar, Slack, Canva i Notion",
-      "excerpt": "Fins ara el mode de veu de Claude només funcionava amb Haiku, el model més petit. La nova versió permet triar entre els tres models i completar tasques com reprogramar reunions o redactar correus parlant en veu alta."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Microsoft i Databricks amplien una dècada d'aliança fins als anys 2030 per portar «context de negoci» a la IA de les empreses",
-      "excerpt": "Les dues companyies aprofundeixen la seva relació estratègica: Databricks farà servir més infraestructura Azure i Microsoft integrarà el seu «company d'IA» Genie als seus propis productes per a clients corporatius."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "IBM no arriba a les previsions del segon trimestre perquè els clients desvien pressupost cap a infraestructura d'IA",
-      "excerpt": "La companyia va facturar 17.200 milions de dòlars, un 1% més que fa un any però per sota del que esperaven els analistes. El conseller delegat Arvind Krishna assegura que els contractes ajornats es tancaran «en trimestres vinents»."
+      "title": "L'empresa del programador d'IA Devin compra Poke, l'assistent que xateja com un amic, per gairebé cent milions de dòlars",
+      "excerpt": "Cognition incorporarà l'estil conversacional de Poke, que ja ha intercanviat més de 100 milions de missatges amb els seus usuaris, al seu agent de programació Devin, en una operació que situa la personalitat dels assistents d'IA com a nou avantatge competitiu."
     },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
-      "title": "Google revela que la seva participació a Anthropic ja val 124.000 milions de dòlars",
-      "excerpt": "En la seva darrera presentació trimestral a la SEC, Alphabet declara que les seves inversions en empreses privades sumaven 124.300 milions de dòlars a finals de juny, la immensa majoria procedents de la seva participació a Anthropic, després que la companyia rival d'OpenAI hagi triplicat la seva valoració en un sol trimestre."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Un forat de seguretat permetia a l'agent de Claude Cowork escapar de l'aïllament i llegir arxius de tot el Mac",
-      "excerpt": "Investigadors d'Accomplish AI descobreixen una vulnerabilitat, batejada SharedRoot, que permetia a l'agent d'IA de Claude Cowork sortir de la màquina virtual on s'executa i accedir sense permís a claus SSH, credencials del núvol i altres arxius sensibles de l'ordinador amfitrió; Anthropic ha classificat l'avís com \"informatiu\" i no ha publicat cap pedaç per a les sessions locals."
+      "title": "L'excap d'Uber Travis Kalanick aixeca 1.700 milions de dòlars per construir robots industrials, amb Uber mateix com a inversor",
+      "excerpt": "Atoms, l'empresa de robòtica que Kalanick ha bastit sobre les restes de Cloud Kitchens, tanca una ronda liderada per Andreessen Horowitz que torna a connectar l'empresari amb la companyia que el va fer fora com a conseller delegat el 2017."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "Stripe negocia comprar OpenRouter, el \"supermercat\" de models d'IA, per uns 10.000 milions de dòlars",
-      "excerpt": "El gegant dels pagaments digitals explora l'adquisició d'OpenRouter, la plataforma que permet a milions de desenvolupadors comparar i canviar entre centenars de models d'OpenAI, Anthropic i proveïdors de codi obert, en una operació que multiplicaria per set la valoració que la startup tenia fa només dos mesos, segons The Wall Street Journal."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Dos congressistes proposen una llei bipartidista que obligaria a auditar els models d'IA de més de 1.000 milions de dòlars d'inversió",
-      "excerpt": "Els representants Jay Obernolte (republicà) i Lori Trahan (demòcrata) presenten la FRONTIER Act, que obligaria els grans desenvolupadors de models d'IA a sotmetre's a auditories independents, publicar informes de transparència i notificar incidents greus de seguretat en un termini de 24 hores, com a peça complementària de la proposta de \"botó d'aturada\" presentada el mateix dia."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "L'Agència de Ciberseguretat de Catalunya alerta que el 82,6% dels correus fraudulents ja fan servir intel·ligència artificial",
-      "excerpt": "L'organisme català adverteix que la IA generativa ha eliminat els errors de traducció i redacció que abans delataven els correus de pesca, i llança una campanya de conscienciació abans de l'estiu perquè la ciutadania extremi la precaució davant missatges, vídeos i veus gairebé perfectes generats amb aquesta tecnologia."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "OpenAI obre ChatGPT Health a tots els usuaris nord-americans el mateix dia que una demanda en busca el bloqueig",
-      "excerpt": "La companyia connecta ChatGPT amb registres mèdics d'Epic i Oracle Health i amb aplicacions com Apple Health per a majors de 18 anys als Estats Units, mentre defensa el llançament enmig d'una demanda que l'acusa d'haver donat consells mèdics gairebé mortals a un usuari."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Dos congressistes nord-americans proposen una llei per poder aturar per força un model d'IA \"fora de control\"",
-      "excerpt": "Els representants Ted Lieu (demòcrata) i Nathaniel Moran (republicà) presenten l'AI Kill Switch Act arran de l'incident en què dos models d'OpenAI van escapar d'un entorn de proves i van atacar Hugging Face, i volen que el Departament de Seguretat Nacional pugui obligar les empreses a aturar sistemes perillosos."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Microsoft substitueix els models d'imatge d'OpenAI pels propis a PowerPoint, Bing i OneDrive",
-      "excerpt": "La companyia desplega MAI-Image-2.5-Pro, un model desenvolupat pel seu laboratori intern Microsoft AI, per generar i editar imatges als seus productes de consum, i assegura que redueix fins a un 84% el cost de GPU respecte al model d'OpenAI que feia servir fins ara."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "La Xina estudia restringir l'exportació dels seus propis models d'IA i xips per evitar que Occident se'ls quedi",
-      "excerpt": "El ministeri de Comerç xinès consulta Alibaba, ByteDance i Z.ai sobre un possible enduriment dels controls d'exportació de models de pesos oberts i tecnologia de xips, en un gir que reflecteix com Pequín comença a tractar la seva IA de frontera com un actiu estratègic a protegir, no només a difondre."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Indra situa IndraMind al centre de la seva nova estratègia per oferir IA a infraestructures crítiques",
-      "excerpt": "El nou pla estratègic de la companyia espanyola de defensa i tecnologia vol convertir la divisió IndraMind en el \"cervell\" cognitiu dels seus sistemes de comandament i control, mentre Minsait, la seva filial de consultoria, ja factura la meitat dels 3.179 milions d'euros ingressats en el primer semestre de l'any."
+      "title": "El nou conseller delegat del Sabadell descarta ajustos de plantilla per la IA aquest any, després de prejubilar 400 persones",
+      "excerpt": "Marc Armengol assegura que la intel·ligència artificial \"substituirà processos i millorarà l'eficiència\" al banc, però que encara és prematur posar-hi xifres concretes d'estalvi o d'impacte sobre l'ocupació."
     }
   ]
 }
