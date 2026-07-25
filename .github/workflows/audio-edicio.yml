@@ -7,6 +7,12 @@ on:
     workflows: ["Content Hub — completar l'edició"]
     types: [completed]
   workflow_dispatch:
+  # Xarxa de seguretat (25.07.2026): passada horària. El script salta els MP3
+  # que ja existeixen a l'FTP, així que si tot és al dia acaba en ~1 min; si
+  # una passada anterior havia fallat (FTP de Hostinger caigut, com el matí
+  # del 25.07), aquesta ho repesca sola.
+  schedule:
+    - cron: '55 * * * *'
 
 permissions:
   contents: read
@@ -23,6 +29,27 @@ jobs:
     steps:
       - name: Descarrega el repositori
         uses: actions/checkout@v4
+
+      - name: Comprova que l'FTP de Hostinger respon (falla ràpid si no)
+        env:
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          # Si l'FTP esta caigut, val mes fallar aqui en ~2 min que gastar la
+          # mitja hora del job intentant pujar (va passar el 25.07.2026: 26 min
+          # de timeouts i 0 MP3 pujats). La passada horaria (cron :55) ho
+          # tornara a provar sola quan l'FTP torni a respondre.
+          for i in 1 2 3 4 5; do
+            if curl -sS --ftp-ssl-control --connect-timeout 15 \
+                 -u "u901078817.claude:$FTP_PASSWORD" \
+                 "ftp://srv1589.hstgr.io/" -o /dev/null; then
+              echo "FTP OK (intent $i)."
+              exit 0
+            fi
+            echo "FTP sense resposta (intent $i de 5); reintent en 20 s..."
+            sleep 20
+          done
+          echo "::error::L'FTP de srv1589.hstgr.io no respon. La passada horaria (cron :55) ho reintentara sola."
+          exit 1
 
       - name: Prepara Python
         uses: actions/setup-python@v5
