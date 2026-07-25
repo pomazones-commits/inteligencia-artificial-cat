@@ -14,6 +14,12 @@ on:
       - "Content Hub — fotografia editorial diària"
       - "Content Hub — peces setmanals"
     types: [completed]
+  # Xarxa de seguretat (25.07.2026): desplegament incremental cada hora.
+  # Si tot es al dia, acaba en ~1 min sense pujar res; si un desplegament
+  # anterior havia fallat (FTP de Hostinger caigut), aquesta passada ho
+  # repesca sola i la web mai queda endarrerida mes d'una hora.
+  schedule:
+    - cron: '45 * * * *'
 
 concurrency:
   group: desplega-hostinger
@@ -23,7 +29,7 @@ jobs:
   desplega:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - name: Descarrega el repositori
         uses: actions/checkout@v5
@@ -38,14 +44,38 @@ jobs:
           # els fitxers que no han canviat des de l'ultim desplegament se salten.
           git restore-mtime || echo "restore-mtime no disponible: es pujara tot"
 
-      - name: Puja public/ per FTP (incremental, en paral·lel, amb reintents)
+      - name: Puja public/ per FTP (incremental, amb reintents del mirall sencer)
         env:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
           # TLS nomes al canal de control (com el curl --ftp-ssl-control d'abans):
           # el canal de dades en clar evita el bloqueig de l'FTPS de Hostinger.
           # Sense --delete: els MP3 d'assets/audio nomes viuen al servidor.
-          lftp -u "u901078817.claude,$FTP_PASSWORD" \
-            -e "set ftp:ssl-force yes; set ftp:ssl-protect-data no; set net:max-retries 3; set net:timeout 40; set net:reconnect-interval-base 5; mirror -R --only-newer --parallel=6 --verbose public/ /; bye" \
-            ftp://srv1589.hstgr.io
-          echo "Desplegament acabat."
+          #
+          # Enduriment del 25.07.2026 (l'FTP de Hostinger va deixar de respondre
+          # uns minuts i el desplegament de les 06:24 va morir amb
+          # "max-retries exceeded", deixant la web amb l'edicio del dia abans):
+          #  - fins a 4 intents del mirall sencer, amb pausa creixent entre ells
+          #    (el mirall es --only-newer: cada reintent nomes puja el que falta)
+          #  - --parallel=3 en lloc de 6, per no esgotar el limit de connexions
+          #    FTP simultanies del compte (l'audio tambe puja per FTP alhora)
+          #  - timeouts mes curts per intent, perque un servidor mut falli
+          #    rapid i el temps es gasti en reintents, no en esperes
+          intents=4
+          pausa=60
+          for i in $(seq 1 "$intents"); do
+            echo "== Intent $i de $intents =="
+            if lftp -u "u901078817.claude,$FTP_PASSWORD" \
+              -e "set ftp:ssl-force yes; set ftp:ssl-protect-data no; set net:max-retries 2; set net:timeout 30; set net:reconnect-interval-base 5; set net:reconnect-interval-max 20; mirror -R --only-newer --parallel=3 --verbose public/ /; bye" \
+              ftp://srv1589.hstgr.io; then
+              echo "Desplegament acabat (intent $i)."
+              exit 0
+            fi
+            if [ "$i" -lt "$intents" ]; then
+              echo "L'FTP ha fallat; nou intent d'aqui a $pausa s..."
+              sleep "$pausa"
+              pausa=$((pausa + 60))
+            fi
+          done
+          echo "::error::El desplegament FTP ha fallat despres de $intents intents. La passada horaria (cron :45) ho tornara a provar sola."
+          exit 1
