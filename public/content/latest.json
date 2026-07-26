@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-07-25T16:24:09.221Z",
+  "updatedAt": "2026-07-26T04:22:28.335Z",
   "items": [
     {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Meta llança Muse Spark 1.1, un assistent que ja no es limita a respondre: vol fer-te la feina sencera",
-      "excerpt": "El nou model que impulsa Meta AI planifica àpats i horaris, gestiona el correu i el calendari, crea presentacions i manté tasques recurrents en marxa, en un pas explícit de la companyia cap al que anomena \"superintel·ligència personal\"."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "DeepSeek atura la seva segona ronda de finançament després que es filtrin comentaris atribuïts al seu fundador sobre la cursa amb els EUA",
-      "excerpt": "La companyia xinesa hauria comunicat verbalment a alguns inversors que no signaran els acords previstos, arran de la viralitat d'un suposat text de reunió en què Liang Wenfeng parla de la dependència de xips de Nvidia i de la seva estratègia de \"contenció\" davant l'AGI."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Una única línia elèctrica caiguda a Virgínia deixa sense corrent 3 gigawatts de centres de dades d'IA en trenta segons",
-      "excerpt": "L'incident, al territori de la xarxa PJM que dona servei a 67 milions de clients entre Nova Jersey i Illinois, va trigar onze minuts a estabilitzar-se -en lloc dels pocs segons habituals- i duplica en magnitud un episodi similar del 2024, segons experts del sector elèctric."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "SpaceXAI porta Grok a Google Docs, Fulls de càlcul i Presentacions, després de fer-ho a Microsoft 365",
-      "excerpt": "L'empresa d'intel·ligència artificial d'Elon Musk ha llançat un complement gratuït que incrusta l'assistent Grok dins de l'ecosistema de Google Workspace, una setmana després de fer el mateix amb Word, Excel, PowerPoint i Outlook."
-    },
-    {
-      "category": "IA I SOCIETAT",
-      "read": "4 MIN",
-      "title": "Bibliotecàries dels EUA omplen tallers virals per ensenyar a desactivar la IA dels mòbils i ordinadors",
-      "excerpt": "El que va començar com un taller a la biblioteca pública de Bangor, a Maine, s'ha escampat a desenes de biblioteques que en demanen el material, després que sessions pensades per a una dotzena de persones n'hagin arribat a reunir setanta."
-    },
-    {
-      "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "Intel registra el creixement de vendes més ràpid en quinze anys i dispara la inversió en IA fins als 20.000 milions de dòlars",
-      "excerpt": "Els resultats del segon trimestre, impulsats per la divisió de centres de dades i IA (+59%), superen totes les previsions i porten el conseller delegat Lip-Bu Tan a elevar el pressupost d'inversió del 2026 i a avançar que el del 2027 serà encara més gran."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Etched dobla la seva valoració fins als 10.300 milions de dòlars en set mesos per fabricar xips d'IA rivals de Nvidia",
-      "excerpt": "La startup, fundada per tres joves que van deixar Harvard, tanca una ronda de 300 milions de dòlars liderada per Sequoia, amb inversors com Peter Thiel o Andrej Karpathy, després d'haver fabricat ja els seus primers xips i d'acumular 1.000 milions de dòlars en comandes."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "AMD i Cerebras uneixen els seus xips per accelerar fins a cinc vegades la resposta dels agents d'IA en temps real",
-      "excerpt": "Les dues companyies combinaran els racks Helios d'AMD amb el gegantí xip Wafer-Scale Engine de Cerebras en una solució conjunta d'inferència pensada per a copilots, agents i robòtica que necessiten respostes immediates, disponible a partir de la segona meitat de l'any."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Reid Hoffman i Mark Pincus busquen 100 milions per a Prentis, un laboratori d'IA que aprèn a fer la feina d'oficina mirant com la fan les persones",
-      "excerpt": "El projecte, cofundat pel científic Ritankar Das amb el suport dels dos veterans de Silicon Valley, ha construït un model que assegura superar GPT-5.4 i Claude Opus 4.6 en tasques d'ús de l'ordinador i ja factura contractes de fins a 50 milions de dòlars amb empreses de sanitat i manufactura."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "La barcelonina PageMind capta 1,2 milions per fer que els productes de les botigues online es trobin des de ChatGPT i Gemini",
-      "excerpt": "L'startup, fundada per l'enginyer Jaume Portell, tanca una ronda liderada per 4Founders Capital amb la implicació personal del conseller delegat de Tradeinn i d'un cofundador d'eDreams, i prepara el seu desembarcament als Estats Units."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "5 MIN",
-      "title": "Nvidia i SK Group anuncien una aliança de 500.000 milions de dòlars per construir fàbriques d'IA i xips de memòria a Corea del Sud",
-      "excerpt": "Jensen Huang ho va revelar en una trobada a San Francisco amb el president sud-coreà Lee Jae Myung, en una jornada que també va portar contractes de Samsung i SK Hynix amb tecnològiques nord-americanes i un laboratori conjunt amb el KAIST."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Moody's alerta que la despesa \"sense precedents\" en IA amenaça la qualitat creditícia de Microsoft, Amazon, Alphabet, Meta, Oracle i CoreWeave",
-      "excerpt": "L'agència de qualificació preveu que la inversió combinada en infraestructura d'IA d'aquestes sis tecnològiques arribi als 785.000 milions de dòlars aquest any i s'acosti al bilió el 2027, mentre el deute directe i els lloguers fora de balanç es disparen."
-    },
-    {
       "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Una vulnerabilitat de ChatGPT permetia crear, amb un sol clic, un agent d'IA infiltrat amb accés total a l'empresa de la víctima",
-      "excerpt": "Zenity Labs va destapar \"AgentForger\", un forat de seguretat als Agents de ChatGPT Workspace que un atacant podia explotar només fent que la víctima obrís un enllaç, per desplegar un agent amb les aprovacions desactivades que rebia ordres per correu cada cinc minuts."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Meta llança Seller, una aplicació amb IA que redacta anuncis de Facebook Marketplace en trenta segons a partir d'una foto",
-      "excerpt": "L'app, presentada coincidint amb el desè aniversari de Marketplace, genera automàticament descripcions, preus i categories per als venedors habituals, que hi publiquen cada mes 430 milions d'articles arreu del món."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "De Hinojosa a Damm: com quatre grans empreses catalanes han passat de la desconfiança als agents d'IA al dia a dia",
-      "excerpt": "Directores d'innovació de Hinojosa Packaging Group, Damm, CELSA i Planeta expliquen en una jornada d'ACCIÓ com han hagut de vèncer les reticències internes fins a activar vuitanta dels dos-cents casos d'ús d'IA que ha identificat el grup empaquetador."
-    },
-    {
-      "category": "TECNOLOGIA",
       "read": "5 MIN",
-      "title": "Anthropic llança Claude Opus 5 i el presenta com el seu model més segur i, alhora, el més eficient en cost de la gamma Opus",
-      "excerpt": "El nou model és ara per defecte a Claude Max i l'opció més potent a Claude Pro, amb millores destacades en programació, ús de l'ordinador i raonament, al mateix preu que el seu predecessor Opus 4.8."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Nvidia, Microsoft, Meta i una vintena més d'empreses demanen a Trump que no restringeixi els models d'IA de codi obert",
-      "excerpt": "Una carta conjunta de més de vint companyies tecnològiques, entre les quals Hugging Face, Mistral i Perplexity, alerta que bloquejar els models oberts davant l'auge xinès de Kimi K3 podria afeblir el lideratge nord-americà en IA."
+      "title": "Investigadors destapen una campanya d'espionatge que combinava Claude Code i DeepSeek per infiltrar-se en governs i bancs de mig món",
+      "excerpt": "Hunt.io va trobar en un servidor de Hong Kong més de 2.400 arxius que revelen com un grup vinculat a la Xina feia servir l'agent de programació d'Anthropic per executar l'atac mentre DeepSeek-v4-pro en planificava l'estratègia, amb víctimes a Tailàndia, l'Afganistan, Taiwan, els EUA i Europa."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "L'empresa del programador d'IA Devin compra Poke, l'assistent que xateja com un amic, per gairebé cent milions de dòlars",
-      "excerpt": "Cognition incorporarà l'estil conversacional de Poke, que ja ha intercanviat més de 100 milions de missatges amb els seus usuaris, al seu agent de programació Devin, en una operació que situa la personalitat dels assistents d'IA com a nou avantatge competitiu."
+      "title": "Monday.com acomiada el 20% de la plantilla per convertir-se en una \"plataforma de treball amb IA\"",
+      "excerpt": "L'empresa israeliana de programari de gestió de projectes talla uns 630 llocs de treball i destinarà l'estalvi a desenvolupar agents d'intel·ligència artificial capaços d'executar tasques senceres, en el que els cofundadors qualifiquen de la decisió \"més dolorosa\" de la companyia."
     },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
-      "title": "L'excap d'Uber Travis Kalanick aixeca 1.700 milions de dòlars per construir robots industrials, amb Uber mateix com a inversor",
-      "excerpt": "Atoms, l'empresa de robòtica que Kalanick ha bastit sobre les restes de Cloud Kitchens, tanca una ronda liderada per Andreessen Horowitz que torna a connectar l'empresari amb la companyia que el va fer fora com a conseller delegat el 2017."
+      "title": "SAP tanca la compra de Prior Labs i hi destinarà més de 1.000 milions d'euros per crear un laboratori europeu d'IA especialitzat en dades de negoci",
+      "excerpt": "L'empresa alemanya de programari empresarial es queda amb la startup fundada fa només divuit mesos, pionera dels \"models fundacionals tabulars\", una branca de la IA pensada per predir riscos i resultats a partir de dades estructurades en lloc de text, i hi incorpora els assessors Yann LeCun i Bernhard Schoelkopf."
     },
     {
-      "category": "EMPRESA",
+      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "El nou conseller delegat del Sabadell descarta ajustos de plantilla per la IA aquest any, després de prejubilar 400 persones",
-      "excerpt": "Marc Armengol assegura que la intel·ligència artificial \"substituirà processos i millorarà l'eficiència\" al banc, però que encara és prematur posar-hi xifres concretes d'estalvi o d'impacte sobre l'ocupació."
+      "title": "El fabricant xinès AgiBot demostra que els seus robots humanoides poden mantenir el ritme d'una línia de fàbrica real durant sis dies seguits",
+      "excerpt": "La companyia va presentar quatre robots nous al World Artificial Intelligence Conference de Xangai, entre ells un humanoide de 1,74 metres amb vuit hores d'autonomia, i va integrar-ne diversos en una línia d'inspecció de tauletes d'una fàbrica xinesa, instal·lats en només 36 hores."
+    },
+    {
+      "category": "CULTURA",
+      "read": "4 MIN",
+      "title": "El sindicat d'actors nord-americans carrega contra \"Misaligned\", la primera pel·lícula protagonitzada per l'actriu d'intel·ligència artificial Tilly Norwood",
+      "excerpt": "Particle6 Productions, l'empresa que va crear el personatge sintètic que ja va indignar Hollywood el 2025, confirma que Tilly Norwood protagonitzarà una comèdia dramàtica ambientada al \"Tillyverse\", mentre SAG-AFTRA l'acusa de fer servir \"interpretacions robades\" per treure feina als actors reals."
     }
   ]
 }
