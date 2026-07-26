@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-07-26T04:22:28.335Z",
+  "updatedAt": "2026-07-26T12:10:18.073Z",
   "items": [
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "slug": "samsung-sds-anthropic-claude-enterprise-corea",
+      "title": "Samsung signa amb Anthropic una aliança estratègica per portar Claude a 70.000 empleats de 20 filials",
+      "excerpt": "Samsung SDS i Anthropic van formalitzar el 24 de juliol, a San Francisco, un acord de col·laboració que preveu desplegar Claude Enterprise entre uns 70.000 treballadors de vint filials del grup coreà i que tanca el cercle d'aliances de Samsung amb els tres grans laboratoris d'IA nord-americans.",
+      "sourceName": "Asia Business Daily",
+      "sourceUrl": "https://www.asiae.co.kr/en/article/enterprise-CEO/2026072515474361338",
+      "sourceDate": "25 de juliol de 2026",
+      "body": "Samsung SDS, la divisió de serveis tecnològics del grup Samsung, havia obert ja el juny passat una col·laboració amb Anthropic per desplegar Claude entre enginyers de Samsung Electronics, en paral·lel a acords similars amb OpenAI i Google Cloud. Aquell primer pas es limitava a proves pilot i a l'ús de Claude Code per part d'equips de desenvolupament, sense un compromís formal d'escala corporativa.\n\nEl 24 de juliol, Samsung SDS i Anthropic van elevar aquella relació a un acord de col·laboració estratègica (SPA), signat a l'AI Summit de San Francisco pel president de Samsung SDS, Junhee Lee, i el conseller delegat d'Anthropic, Dario Amodei. Segons Asia Business Daily, l'acord preveu desplegar Claude Enterprise entre aproximadament 70.000 treballadors de vint filials del grup, després que les primeres setmanes d'ús hagin superat el milió de missatges intercanviats entre empleats i el model, amb Claude Code representant al voltant de la meitat de l'ús. Els plans inclouen també màrqueting conjunt, projectes pilot i un programa de formació d'enginyers especialitzats en IA aplicada.\n\nLa notícia és rellevant perquè completa el mapa d'aliances de Samsung SDS amb els tres grans laboratoris d'intel·ligència artificial dels Estats Units -OpenAI, Google Cloud i ara Anthropic- i perquè situa Corea del Sud, país amfitrió de l'acord amb la presència simbòlica del seu president, com un dels mercats on els grans proveïdors d'IA busquen créixer més enllà de l'ús individual, cap a la implantació massiva dins de grans corporacions industrials.\n\nL'acord no detalla condicions econòmiques ni un calendari concret de desplegament per a les vint filials afectades, i les xifres d'ús -el milió de missatges o el percentatge d'ús de Claude Code- provenen de fonts properes a l'acord recollides per la premsa coreana, no d'una comunicació oficial conjunta amb dades auditades.",
+      "image": "./assets/samsung-sds-anthropic-claude-enterprise-corea-20260726.jpg"
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "slug": "zai-centre-dades-xips-xinesos-gigawatt",
+      "title": "La xinesa Z.AI posa en marxa un centre de dades d'un gigawatt construït només amb xips xinesos",
+      "excerpt": "L'empresa pequinesa Z.AI, coneguda fins fa poc com Zhipu, ha completat una instal·lació amb diversos clústers de més de 10.000 acceleradors cadascun sense cap component de Nvidia, en el que Bloomberg descriu com una demostració que la indústria xinesa ja pot entrenar els seus grans models sense xips nord-americans.",
+      "sourceName": "Bloomberg / Tom's Hardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/z-ai-powers-up-1gw-ai-data-center-built-entirely-on-chinese-chips",
+      "sourceDate": "20 de juliol de 2026",
+      "body": "Z.AI, l'empresa sorgida de la Universitat Tsinghua fins fa poc coneguda com Zhipu, forma part de la llista d'entitats sancionades pel Departament de Comerç dels Estats Units des de gener del 2025, cosa que li talla l'accés legal als xips de Nvidia i la deixa depenent exclusivament de proveïdors xinesos per entrenar els seus models de la família GLM.\n\nSegons Bloomberg, Z.AI ha completat i posat parcialment en marxa un centre de dades amb una potència d'aproximadament un gigawatt -l'equivalent al consum continu d'unes 750.000 llars- format per diversos clústers de més de 10.000 acceleradors cadascun, tots ells de fabricació xinesa. Bloomberg no hi identifica el fabricant concret dels xips, però el fet que Z.AI hagi entrenat recentment el seu model obert GLM-5.2 íntegrament amb acceleradors Ascend de Huawei -sense cap maquinari de Nvidia- apunta que la nova instal·lació segueix el mateix camí.\n\nLa notícia és rellevant perquè converteix en fet consumat allò que fins ara eren només intencions declarades: que les restriccions nord-americanes a l'exportació de xips no han impedit que almenys una empresa xinesa d'IA de frontera operi a escala de gigawatt exclusivament amb maquinari domèstic, cosa que reforça l'argument de Pequín que les sancions estan accelerant, més que frenant, la seva autosuficiència tecnològica.\n\nNi Z.AI ni el proveïdor dels xips han confirmat oficialment els detalls tècnics de la instal·lació, i no hi ha xifres independents sobre el rendiment real d'aquests clústers en comparació amb equivalents basats en Nvidia, ni sobre el cost energètic o econòmic de l'operació.",
+      "image": "./assets/zai-centre-dades-xips-xinesos-gigawatt-20260726.jpg"
+    },
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "slug": "moonshot-ai-sortida-borsa-hong-kong-valoracio",
+      "title": "Moonshot AI busca una valoració de fins a 50.000 milions de dòlars abans de sortir a borsa a Hong Kong",
+      "excerpt": "L'empresa xinesa, disparada per l'èxit del seu model obert Kimi K3, negocia una darrera ronda privada a l'agost que podria multiplicar per deu la seva valoració de fa un any, de cara a una sortida a borsa a Hong Kong que, segons Bloomberg, podria arribar encara aquest 2026.",
+      "sourceName": "Bloomberg / Benzinga",
+      "sourceUrl": "https://www.benzinga.com/markets/ipos/26/07/60604402/chinas-moonshot-ai-bets-on-kimi-k3-momentum-eyes-50-billion-valuation-ahead-of-hong-kong-ipo-report",
+      "sourceDate": "22 de juliol de 2026",
+      "body": "Moonshot AI havia tancat el maig passat una ronda de finançament de 2.000 milions de dòlars amb una valoració d'uns 20.000 milions, en un moment en què el seu model de pesos oberts Kimi K3 -llançat el 17 de juliol amb 2,8 bilions de paràmetres- ja acumulava setmanes disparant la demanda i sacsejant els mercats de xips i de criptomonedes per l'impacte que va tenir en les cotitzacions del sector.\n\nSegons Bloomberg, Moonshot negocia ara una ronda que valoraria la companyia en uns 31.500 milions de dòlars, i preveu obrir a l'agost una darrera ronda privada abans de sortir a borsa amb l'objectiu d'arribar als 50.000 milions, gairebé onze vegades la valoració que tenia a finals del 2025. La companyia hauria facturat 300 milions de dòlars de recaptació anual recurrent el juny, un 50% més que a l'abril, amb un creixement de les vendes diàries d'almenys sis vegades des del llançament de Kimi K3. Moonshot preveu iniciar converses amb bancs d'inversió després de tancar la ronda de l'agost, de cara a una sortida a borsa a Hong Kong que, segons la mateixa font, podria produir-se encara enguany.\n\nLa notícia és rellevant perquè mostra fins a quin punt un sol llançament de model obert pot disparar la valoració d'una empresa xinesa d'IA en qüestió de setmanes, en un moment en què l'Administració Trump ja ha acusat una altra companyia xinesa d'haver \"destil·lat\" models nord-americans, cosa que afegeix tensió geopolítica a una operació financera que d'altra manera seria purament una notícia de mercats.\n\nLes xifres de valoració i de facturació provenen de fonts anònimes citades per Bloomberg i d'una publicació esborrada en xarxes xineses recollida pel South China Morning Post, no de comunicats oficials de Moonshot, que no ha confirmat públicament ni el calendari ni l'import definitiu de la sortida a borsa.",
+      "image": "./assets/moonshot-ai-sortida-borsa-hong-kong-valoracio-20260726.jpg"
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "3 MIN",
+      "slug": "openai-quarta-avaria-quatre-dies",
+      "title": "OpenAI pateix la seva quarta avaria global en quatre dies i deixa ChatGPT, Codex i l'API caiguts alhora",
+      "excerpt": "El dissabte 25 de juliol, els tres pilars del producte d'OpenAI van fallar simultàniament arreu del món amb un error intern etiquetat «biscuit_baker_service_me_circuit_open», el quart incident de la setmana per a una plataforma que diu servir 900 milions d'usuaris setmanals.",
+      "sourceName": "The Next Web",
+      "sourceUrl": "https://thenextweb.com/news/openai-outage-chatgpt-codex-api-july-2026",
+      "sourceDate": "25 de juliol de 2026",
+      "body": "OpenAI ha convertit ChatGPT, Codex i la seva API en una infraestructura de la qual depenen, segons la mateixa companyia, 900 milions d'usuaris setmanals i uns 10 milions d'usuaris que ja fan servir agents autònoms per executar tasques. Aquesta escala converteix qualsevol interrupció del servei en un fet amb ressò immediat, tant per a usuaris particulars com per a les empreses que hi han integrat processos de negoci.\n\nEl dissabte 25 de juliol, ChatGPT, Codex i l'API d'OpenAI van registrar errors elevats de manera simultània arreu del món, amb missatges d'error 503 etiquetats internament com «biscuit_baker_service_me_circuit_open» que impedien que les peticions arribessin als servidors. La companyia va passar d'«investigant» a «monitorant» la incidència en poc més d'una hora, després d'aplicar una mesura pal·liativa. Segons l'historial d'estat de la mateixa OpenAI, va ser el quart incident en quatre dies, després d'episodis similars el 19, el 23 -dues vegades- i el 24 de juliol.\n\nLa notícia és rellevant perquè el patró de fallades repetides en una sola setmana posa a prova la fiabilitat d'una infraestructura que cada cop més empreses fan servir per a tasques crítiques a través d'agents autònoms, just en un moment en què OpenAI competeix per demostrar que els seus productes són prou robustos per a un ús empresarial intensiu.\n\nOpenAI no ha explicat públicament la causa arrel comuna -si n'hi ha una- dels quatre incidents, ni ha xifrat l'impacte econòmic o el nombre d'usuaris afectats en cadascun, i no està clar si el patró respon a un problema estructural o a una coincidència d'incidents no relacionats.",
+      "image": "./assets/openai-quarta-avaria-quatre-dies-20260726.jpg"
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "slug": "aigues-barcelona-salesforce-ibm-atencio-client-ia",
+      "title": "Aigües de Barcelona renova l'atenció al client amb Salesforce i prepara agents d'IA autònoms per WhatsApp",
+      "excerpt": "La companyia ha completat amb IBM Consulting una migració de més de 250 milions de registres en només 48 hores dins d'un projecte de tres anys que, en una segona fase, incorporarà Agentforce de Salesforce per oferir atenció automatitzada les 24 hores a través de WhatsApp.",
+      "sourceName": "El Nacional (ON ECONOMIA)",
+      "sourceUrl": "https://www.elnacional.cat/oneconomia/ca/empreses/aigues-barcelona-transforma-atencio-client-salesforce-ibm_1670726_102.html",
+      "sourceDate": "20 de juliol de 2026",
+      "body": "Aigües de Barcelona porta tres anys treballant en un projecte de transformació digital del seu model d'atenció al client, centrat a millorar la integració telefònica, l'omnicanalitat i la comunicació proactiva amb els abonats, amb el suport d'IBM Consulting com a soci tecnològic i la plataforma Salesforce com a base.\n\nDins d'aquest projecte, la companyia ha migrat més de 250 milions de registres a la nova plataforma en només 48 hores, després de superar 31.000 proves de qualitat, i ha aconseguit una reducció del 3% en els temps de gestió de l'atenció al client. La directora de l'àrea, Meritxell Farré, ha defensat que \"la transformació digital té sentit quan millora l'experiència de les persones\". La companyia preveu ara una segona fase amb Agentforce, la capa d'agents d'intel·ligència artificial de Salesforce, per desenvolupar agents autònoms disponibles les 24 hores a través de WhatsApp per a atenció al client i servei tècnic.\n\nLa notícia és rellevant com a exemple concret d'adopció d'IA per part d'una gran empresa catalana de serveis públics, en un sector -la gestió de l'aigua- allunyat del focus habitual dels grans laboratoris de llenguatge, i s'emmarca en una tendència més àmplia: segons dades d'ACCIÓ, el 30,4% de les empreses catalanes de més de nou treballadors ja havien invertit en tecnologies d'IA el 2025, sis punts més que l'any anterior.\n\nEls agents autònoms per WhatsApp encara no estan operatius: l'article els descriu com una incorporació prevista, sense data de llançament confirmada, i les millores xifrades fins ara -la reducció del 3% en temps de gestió- corresponen a la modernització de la plataforma en general, no específicament a l'ús d'intel·ligència artificial.",
+      "image": "./assets/aigues-barcelona-salesforce-ibm-atencio-client-ia-20260726.jpg"
+    },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
