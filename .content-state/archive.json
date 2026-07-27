@@ -1,6 +1,71 @@
 {
-  "updatedAt": "2026-07-26T16:22:29.907Z",
+  "updatedAt": "2026-07-27T04:31:45.538Z",
   "items": [
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "slug": "naver-nvidia-brookfield-fabrica-ia-corea-10000-milions",
+      "title": "Nvidia i Brookfield es sumen a NAVER per triplicar amb 10.000 milions de dòlars la fàbrica d'IA sobirana de Corea del Sud",
+      "excerpt": "Nvidia hi invertirà 1.000 milions de dòlars i Brookfield fins a 9.000 milions més, en un acord encara no vinculant, per ampliar de 55 a 200 megawatts el centre de dades de Sejong abans del 2028, dins l'objectiu de NAVER d'arribar a 1 gigawatt de còmput sobirà.",
+      "sourceName": "NVIDIA Newsroom",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
+      "sourceDate": "25 de juliol de 2026",
+      "body": "NAVER, la gran tecnològica sud-coreana, opera des de juny de 2026 un centre de dades d'intel·ligència artificial de 55 megawatts al campus GAK Sejong, construït sobre la plataforma DSX de Nvidia amb les arquitectures Vera Rubin i Blackwell, dins l'aposta del país per disposar d'infraestructura pròpia de còmput -\"IA sobirana\"- sense dependre exclusivament de proveïdors nord-americans.\n\nEl 25 de juliol, NAVER, Nvidia i la gestora d'inversions Brookfield van anunciar conjuntament l'ampliació d'aquest centre de dades fins als 200 megawatts abans del 2028, amb un finançament conjunt de fins a 10.000 milions de dòlars: Nvidia hi aportarà 1.000 milions de dòlars directament al capital de NAVER, Brookfield -que gestiona més d'un bilió de dòlars en actius arreu del món- ha signat un acord no vinculant per aportar-hi fins a 9.000 milions més, i NAVER assumirà la resta del cost. L'anunci va coincidir amb la visita del president sud-coreà a la cimera d'IA de San Francisco. El conseller delegat de Nvidia, Jensen Huang, ho ha resumit dient que \"les fàbriques d'IA són la infraestructura que els països necessiten per competir i innovar en l'era de la intel·ligència\", mentre que el fundador de NAVER, Haejin Lee, ha destacat que l'acord aprofita \"sòlides aliances amb els nostres socis globals\" per reforçar la competitivitat d'IA del país.\n\nLa notícia és rellevant perquè es tracta d'un dels majors anuncis d'infraestructura d'IA sobirana fora dels Estats Units, en un moment en què diversos governs -Corea del Sud, el Japó, els Emirats Àrabs- competeixen per garantir-se capacitat pròpia de còmput d'IA a gran escala en lloc de dependre només d'infraestructura nord-americana; NAVER situa l'ampliació com un pas cap al seu objectiu final d'1 gigawatt de capacitat sobirana.\n\nL'aportació de Brookfield és, de moment, només un acord no vinculant -una intenció de finançar, no un compromís tancat-, i la inversió de Nvidia queda condicionada al fet que NAVER aconsegueixi almenys 9.000 milions de dòlars addicionals de finançament de projecte, separats de l'aportació de la mateixa Nvidia; per tant, la xifra final de 10.000 milions encara no està garantida en la seva totalitat.",
+      "image": "./assets/naver-nvidia-brookfield-fabrica-ia-corea-10000-milions-20260727.jpg",
+      "editionDate": "2026-07-27"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "kimi-k3-pesos-oberts-moonshot-model-mes-gran",
+      "title": "Moonshot AI prepara per avui l'alliberament dels pesos de Kimi K3, el model obert més gran de la història",
+      "excerpt": "L'empresa xinesa té previst publicar aquest 27 de juliol a Hugging Face els 2,8 bilions de paràmetres del seu model, en un fitxer comprimit d'1,4 terabytes, onze dies després d'haver-lo llançat només en API i aplicació de pagament.",
+      "sourceName": "Tech Times",
+      "sourceUrl": "https://www.techtimes.com/articles/321499/20260724/kimi-k3-open-weights-drop-july-27-near-frontier-coding-undisclosed-hallucination-risk.htm",
+      "sourceDate": "24 de juliol de 2026",
+      "body": "Moonshot AI, l'startup xinesa valorada en fins a 50.000 milions de dòlars de cara a una sortida a borsa a Hong Kong, va presentar Kimi K3 el 16 de juliol a la Conferència Mundial d'IA de Shanghai: un model de 2,8 bilions de paràmetres, el més gran del món en la categoria de models de \"pesos oberts\", accessible fins ara només mitjançant l'API de pagament de l'empresa i l'aplicació de consum kimi.com.\n\nMoonshot ha anunciat que els pesos del model -el fitxer complet que permet executar-lo en servidors propis, no només consultar-lo per API- estan previstos per alliberar-se aquest 27 de juliol a les 00.00 UTC al repositori de l'empresa a Hugging Face. El fitxer, en el format comprimit MXFP4 de quatre bits, ocupa aproximadament 1,4 terabytes; l'arquitectura combina un mecanisme propi anomenat Kimi Delta Attention amb capacitats natives d'agent -crida d'eines, navegació web i planificació de diversos passos- i una finestra de context ampliada, pensada per entendre repositoris sencers de codi.\n\nLa notícia és rellevant perquè, si es confirma, seria el model de pesos oberts més gran alliberat mai públicament, en plena escalada de la competència entre Moonshot, DeepSeek i Alibaba per liderar la IA xinesa de codi obert -un terreny en què els alliberaments gratuïts de pesos s'entrellacen amb estratègies de captació de capital, ja que Moonshot busca alhora aquesta sortida a borsa valorada en 50.000 milions de dòlars.\n\nExecutar Kimi K3 sencer no està a l'abast de la majoria d'usuaris: calen, com a mínim, vuit targetes gràfiques Nvidia H100 de 80 GB per carregar-lo, de manera que el benefici pràctic de l'alliberament recaurà sobretot en grans empreses i proveïdors d'infraestructura capaços de muntar-ne el servei; en el moment de tancar aquesta edició, el repositori de Hugging Face encara mostrava l'avís de \"llançament pendent\", sense que els pesos fossin descarregables.",
+      "image": "./assets/kimi-k3-pesos-oberts-moonshot-model-mes-gran-20260727.jpg",
+      "editionDate": "2026-07-27"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "waymo-expansio-quatre-ciutats-eeuu-espanya",
+      "title": "Waymo estrena cotxes sense conductor a quatre ciutats més dels EUA i registra una societat a Madrid de cara a Espanya",
+      "excerpt": "La filial d'Alphabet amplia el servei sense supervisor a Las Vegas, Denver, San Diego i Tampa mentre persegueix el milió de trajectes setmanals, alhora que ha creat discretament \"Waymo Iberia\" a Madrid com a primer pas administratiu cap a Espanya i Portugal.",
+      "sourceName": "Waymo",
+      "sourceUrl": "https://waymo.com/blog/shorts/ro-den-lv-sd-tmpa/",
+      "sourceDate": "8 de juliol de 2026",
+      "body": "Waymo, la filial de vehicles autònoms d'Alphabet, opera des de fa mesos serveis de robotaxi completament sense conductor a més de deu ciutats nord-americanes -entre elles Atlanta, Austin, Los Angeles, Miami o San Francisco- amb una flota que ja oferia unes 500.000 curses de pagament per setmana a començaments d'estiu.\n\nEl 8 de juliol, la companyia va anunciar l'inici del servei sense conductor a quatre ciutats més: Las Vegas -on els vehicles ja circulaven sense cap persona al volant des del mateix dia de l'anunci- i Denver, San Diego i Tampa, amb el desplegament seguint en les setmanes posteriors. En totes quatre, el servei arrenca primer només per a empleats d'Alphabet abans d'obrir-se al públic general, seguint el patró habitual de Waymo. Per separat, registres corporatius fets públics a mitjans de juny mostren que la companyia ha creat noves societats a Madrid -amb el nom \"Waymo Iberia\"-, París, Amsterdam i Munic en només un mes, un moviment que apunta a una futura expansió europea encara sense data ni confirmació oficial per part de l'empresa.\n\nLa notícia és rellevant perquè consolida l'avantatge de Waymo sobre rivals com Tesla -amb una flota molt més petita a Florida i estancada a Austin- en la cursa nord-americana del robotaxi, i perquè el nom \"Iberia\" triat per a la societat de Madrid obre la porta, per primera vegada de manera documentada, a una possible arribada del servei a Espanya i Portugal.\n\nWaymo no ha confirmat ni calendaritzat cap llançament fora dels Estats Units; els registres a Madrid, París, Amsterdam i Munic són passos administratius previs -constitució de societats, designació d'administradors- que no impliquen necessàriament un servei operatiu a curt termini, i la companyia no ha respost públicament preguntes sobre els seus plans concrets a Europa.",
+      "image": "./assets/waymo-expansio-quatre-ciutats-eeuu-espanya-20260727.jpg",
+      "editionDate": "2026-07-27"
+    },
+    {
+      "category": "EMPRESA",
+      "read": "3 MIN",
+      "slug": "samsung-lee-jae-yong-sam-altman-openai-reunio",
+      "title": "El president de Samsung, Lee Jae-yong, es reuneix amb Sam Altman a la seu d'OpenAI per ampliar la cooperació en xips i IA",
+      "excerpt": "La trobada a San Francisco, l'endemà que Altman es reunís amb el president sud-coreà, obre la porta a aprofundir la col·laboració en memòria d'alta amplada de banda, DRAM i fabricació de xips, mesos després que Samsung desplegués ChatGPT i Codex entre tota la seva plantilla a Corea.",
+      "sourceName": "Korea JoongAng Daily",
+      "sourceUrl": "https://www.koreajoongangdaily.com/business/samsung-chief-meets-with-ceo-of-openai-in-san-francisco/12791726",
+      "sourceDate": "26 de juliol de 2026",
+      "body": "Samsung Electronics i OpenAI van signar l'octubre de 2025 un acord estratègic que ja ha portat ChatGPT i Codex a tots els empleats de la divisió de Dispositius (Device eXperience) de Samsung arreu del món, un dels desplegaments empresarials més grans que OpenAI ha firmat fins ara, en paral·lel a l'aliança que Samsung manté també amb Anthropic per portar Claude a desenes de milers d'empleats.\n\nEl president executiu de Samsung, Lee Jae-yong, es va reunir el 25 de juliol amb el conseller delegat d'OpenAI, Sam Altman, a la seu de l'empresa a San Francisco, l'endemà que Altman s'hagués trobat amb el president sud-coreà, Lee Jae Myung, i hagués participat a la cimera d'IA de la ciutat. Cap de les dues parts no ha detallat públicament el contingut de la trobada, però observadors del sector apunten que hi hauria entrat en joc l'ampliació de la cooperació en infraestructura d'IA, incloent-hi memòria d'alta amplada de banda (HBM), DRAM i fabricació avançada de xips, àmbits en què Samsung és un dels grans proveïdors mundials.\n\nLa notícia és rellevant perquè mostra com els grans fabricants de xips asiàtics -Samsung, però també SK Hynix o TSMC- s'han convertit en interlocutors directes i recurrents dels caps de les grans empreses d'IA nord-americanes, en un moment en què la demanda de memòria per entrenar i executar models d'IA s'ha disparat i alguns experts ja l'assenyalen com un possible coll d'ampolla, juntament amb els xips i l'energia.\n\nNi Samsung ni OpenAI han confirmat cap acord concret sorgit d'aquesta trobada, ni xifres d'inversió ni terminis: de moment es tracta d'una reunió d'alt nivell sense resultats tancats i coneguda a través de fonts del sector, no d'un anunci oficial conjunt de les dues companyies.",
+      "image": "./assets/samsung-lee-jae-yong-sam-altman-openai-reunio-20260727.jpg",
+      "editionDate": "2026-07-27"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "3 MIN",
+      "slug": "mitsubishi-motors-highlanders-robots-humanoides-2027",
+      "title": "Mitsubishi Motors s'alia amb l'startup Highlanders per fabricar robots humanoides a la seva planta de Kyoto el 2027",
+      "excerpt": "El fabricant japonès d'automòbils signa un memoràndum d'entesa amb aquesta spin-off de la Universitat de Tòquio per reconvertir naus en desús de la seva fàbrica de motors en una línia de producció de robots destinats, d'entrada, a tasques internes com el transport de peces.",
+      "sourceName": "Automotive News",
+      "sourceUrl": "https://www.autonews.com/mitsubishi/an-mitsubishi-humanoid-robot-workers-highlanders-japan-0709/",
+      "sourceDate": "9 de juliol de 2026",
+      "body": "Highlanders és una startup de robòtica sorgida el 2023 com a spin-off de la Universitat de Tòquio, dirigida pel seu conseller delegat, Hiroya Masuoka, que ha desenvolupat un prototip de robot humanoide -anomenat N- i un robot quadrúpede, en un moment en què cada cop més fabricants d'automòbils, com Tesla amb l'Optimus o Xpeng amb l'Iron, exploren la robòtica humanoide com a extensió del seu negoci industrial.\n\nMitsubishi Motors, representada pel seu conseller delegat, Takao Kato, va signar el 9 de juliol un memoràndum d'entesa amb Highlanders per desenvolupar i fabricar robots humanoides destinats, en una primera fase, a tasques internes de la fàbrica com el transport de peces i el suport a l'assemblatge de motors. Segons l'acord, Mitsubishi preveu reconvertir naus actualment en desús de la seva planta de Kyoto per allotjar-hi la línia de producció, amb l'objectiu de començar a desplegar-hi els primers robots el 2027; l'empresa no descarta, més endavant, vendre'ls també a tercers.\n\nLa notícia és rellevant perquè suma un altre gran fabricant d'automòbils -després de Tesla, Xpeng o Hyundai, entre d'altres- a la cursa mundial per la robòtica humanoide industrial, en un sector on consultores com Morgan Stanley preveuen desenes de milers de robots humanoides fabricats només a la Xina en els pròxims dos anys, i confirma el Japó com un dels països que hi aposta amb més força des del vessant industrial.\n\nL'acord és, de moment, un memoràndum d'entesa sense detalls públics sobre la inversió compromesa, el nombre de robots previstos ni les xifres de producció -a diferència d'altres competidors que sí que n'han avançat objectius mensuals concrets-, de manera que el calendari real de desplegament i l'abast final del projecte encara estan per concretar.",
+      "image": "./assets/mitsubishi-motors-highlanders-robots-humanoides-2027-20260727.jpg",
+      "editionDate": "2026-07-27"
+    },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
