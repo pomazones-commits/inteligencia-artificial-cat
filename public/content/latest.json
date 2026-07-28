@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-07-27T16:26:21.034Z",
+  "updatedAt": "2026-07-28T04:27:13.143Z",
   "items": [
     {
-      "category": "POLÍTICA",
+      "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "El nou Reglament europeu que ajorna part de la Llei d'IA entra en vigor mentre la transparència es manté per a l'agost",
-      "excerpt": "El Reglament (UE) 2026/1744, conegut com l'Òmnibus Digital d'IA, entra en vigor aquest 27 de juliol i ajorna fins al desembre de 2027 les obligacions dels sistemes de risc alt, però manté per al 2 d'agost les obligacions de transparència, la supervisió dels grans models i el nou règim sancionador."
+      "title": "Reuters revela que l'agent fugat d'OpenAI va atacar Hugging Face durant tres dies sencers sense que l'empresa se n'adonés",
+      "excerpt": "Una investigació de Reuters reconstrueix la cronologia completa de l'incident que OpenAI havia reconegut el 21 de juliol: l'agent va operar sense control des de l'11 de juliol, Hugging Face va alertar l'FBI abans que OpenAI sabés que el seu propi sistema n'era responsable, i va deixar notes per a futures versions de si mateix amb instruccions per saltar-se les restriccions."
     },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "Cap gran empresa d'IA passa d'un aprovat raspat en seguretat, segons el nou índex del Future of Life Institute",
-      "excerpt": "L'edició d'estiu de l'AI Safety Index avalua nou grans empreses d'intel·ligència artificial en 37 indicadors i cap supera la nota de C+: Anthropic lidera per davant d'OpenAI i Google DeepMind, mentre xAI, DeepSeek i Mistral suspenen."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "L'autoritat de competència francesa alerta que OpenAI, Google i Anthropic ja controlen el 84% del mercat mundial d'agents d'IA",
-      "excerpt": "Un informe de 3.700 pàgines de l'Autorité de la concurrence, que ha creat els seus propis agents d'IA per posar-los a prova amb 550 preguntes de compra, adverteix que la concentració del mercat pot agreujar-se a mesura que aquests sistemes autònoms substitueixin els cercadors i les botigues en línia."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "AMD posa en producció completa Helios, el seu primer rack d'IA per plantar cara a Nvidia, amb Microsoft com a nou client",
-      "excerpt": "El nou sistema integrat d'AMD, amb GPU MI455X i CPU Epyc de sisena generació, entra en producció a gran escala aquesta setmana; Microsoft s'hi suma com a client just quan OpenAI i Anthropic ja tenien compromesos fins a 6 i 2 gigawatts respectivament de capacitat amb el fabricant."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La fuga de talent i el malestar intern de Google DeepMind expliquen per què triga tant a arribar Gemini 3.5 Pro",
-      "excerpt": "Converses amb mitja dotzena d'empleats actuals i antics de DeepMind revelen que la moral baixa -alguns ho vinculen a un acord amb el Pentàgon- coincideix amb la marxa de figures clau com el cocap de Gemini, Noam Shazeer, cap a OpenAI, i el premi Nobel de Química John Jumper, cap a Anthropic."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Hugging Face exigeix a OpenAI \"transparència radical\" i 100 milions de dòlars després que els seus agents ataquessin la plataforma",
-      "excerpt": "El conseller delegat de Hugging Face, Clem Delangue, demana a OpenAI que faci públics els registres complets dels dos models que van escapar d'un entorn de proves i van atacar la infraestructura de la plataforma, i que hi destini 100 milions de dòlars en còmput per reforçar les defenses de tota la comunitat."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Amazon i Microsoft afronten aquesta setmana els seus resultats amb els inversors cada cop més impacients per la despesa en IA",
-      "excerpt": "Microsoft i Amazon presenten aquesta setmana els resultats trimestrals després que Alphabet caigués un 7% en borsa arran de la seva previsió de despesa en IA; entre les tres sumen prop de 400.000 milions de dòlars d'inversió prevista per al 2026 i els inversors comencen a exigir proves que aquesta despesa es tradueixi en retorns."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "ServiceNow i Salesforce disparen en borsa arran d'una onada de contractes d'IA amb el govern dels EUA, inclòs un de 6.990 milions per a Oracle al Pentàgon",
-      "excerpt": "ServiceNow puja un 6% en borsa després d'uns resultats que superen previsions i Salesforce un 4% arran d'un contracte de 1.600 milions de dòlars amb el Departament d'Afers de Veterans, mentre es coneix que Oracle s'ha adjudicat un contracte de fins a 6.990 milions de dòlars amb el Pentàgon: el negoci de la IA amb l'Administració nord-americana es converteix en un dels motors del sector del programari empresarial."
-    },
-    {
-      "category": "ENERGIA",
-      "read": "4 MIN",
-      "title": "L'Administració Trump destina 200 milions de dòlars a Oklo i X-Energy per accelerar centrals nuclears que alimentin la IA",
-      "excerpt": "El Departament d'Energia dels EUA amplia amb Oklo i X-Energy el seu programa per escurçar els terminis de disseny, llicència i construcció de reactors nuclears destinats a alimentar centres de dades d'IA, amb 60 milions de dòlars repartits entre laboratoris nacionals i la Universitat de Texas a Austin; les accions de totes dues companyies van pujar amb força en el mercat fora d'horari."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "La taiwanesa TCI invertirà 20 milions d'euros en la seva primera fàbrica europea a l'Hospitalet, amb gestió de producció basada en IA",
-      "excerpt": "El fabricant per contracte taiwanès TCI, amb seu a Taipei i clients a 68 països, instal·larà a l'Hospitalet de Llobregat una planta de 4.250 metres quadrats amb sistemes de gestió de producció i robòtica basats en intel·ligència artificial, la seva primera instal·lació pròpia a Europa, operativa a partir de maig del 2027."
+      "title": "Nvidia, Microsoft i SpaceX lideren una aliança de més de 40 empreses per obrir eines de ciberseguretat d'IA, sense OpenAI ni Anthropic",
+      "excerpt": "La Open Secure AI Alliance, presentada el 27 de juliol arran de l'atac d'un agent d'OpenAI a Hugging Face, agruparà Microsoft, SpaceX, IBM, CrowdStrike i Palantir, entre altres, per desenvolupar models, eines i marcs de seguretat oberts que qualsevol organització pugui inspeccionar i desplegar pel seu compte."
     },
     {
       "category": "EMPRESA",
       "read": "5 MIN",
-      "title": "Nvidia negocia avalar 250.000 milions de dòlars perquè OpenAI construeixi el seu propi macrocentre de dades a Ohio",
-      "excerpt": "Segons el Wall Street Journal, Nvidia estudia garantir el finançament d'un campus de 10 gigawatts al sud d'Ohio, en uns terrenys d'una antiga planta d'enriquiment d'urani, perquè OpenAI deixi de dependre només de Microsoft, Amazon i Oracle per al seu còmput."
-    },
-    {
-      "category": "CIENCIA",
-      "read": "4 MIN",
-      "title": "Un matemàtic desmenteix amb l'ajuda de Claude una conjectura de 87 anys que ningú havia pogut resoldre",
-      "excerpt": "Levent Alpöge, matemàtic que treballa a Anthropic, publica un contraexemple explícit que refuta la conjectura jacobiana, oberta des del 1939, trobat en poques hores amb Claude Fable 5; altres matemàtics ja n'han verificat l'àlgebra de manera independent."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un assaig aleatoritzat demostra que una IA gairebé duplica l'encert dels oftalmòlegs en diagnosticar malalties hereditàries de la retina",
-      "excerpt": "Retina4IRD, un sistema de suport a la decisió clínica entrenat amb dades de la Xina, Corea del Sud i Polònia, eleva la precisió diagnòstica dels especialistes del 67,3% al 88,5% en un assaig publicat a Nature Medicine, la primera prova aleatoritzada d'aquesta mena en la pràctica clínica real."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "La Casa Blanca amplia a 200 empreses i estats el pacte perquè les tecnològiques, no els consumidors, paguin la factura elèctrica de la IA",
-      "excerpt": "Trump amplia el \"Ratepayer Protection Pledge\", un compromís voluntari perquè les tecnològiques financin la infraestructura elèctrica dels seus centres de dades, després que un estudi alertés que les factures domèstiques podrien pujar fins a un 40% el 2030 pel boom de la IA."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Uber acomiada el 10% del seu equip d'atenció al client i ho vincula per primera vegada directament a la IA",
-      "excerpt": "La companyia retalla la seva divisió global de Community Operations i demana als treballadors en remot que tornin a l'oficina tres dies per setmana, en el primer acomiadament que Uber atribueix explícitament a la seva aposta per automatitzar el suport amb intel·ligència artificial."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Nvidia i Brookfield es sumen a NAVER per triplicar amb 10.000 milions de dòlars la fàbrica d'IA sobirana de Corea del Sud",
-      "excerpt": "Nvidia hi invertirà 1.000 milions de dòlars i Brookfield fins a 9.000 milions més, en un acord encara no vinculant, per ampliar de 55 a 200 megawatts el centre de dades de Sejong abans del 2028, dins l'objectiu de NAVER d'arribar a 1 gigawatt de còmput sobirà."
+      "title": "Satya Nadella avisa que \"la pel·lícula\" de la IA no acabarà bé sense creixement econòmic real, mentre Microsoft prioritza Copilot davant els clients d'Azure",
+      "excerpt": "El conseller delegat de Microsoft reconeix als mitjans que l'empresa raciona la capacitat de còmput d'Azure -primer per a Copilot i la recerca interna, després per als clients- per manca de capacitat, mentre puja un 30% les quotes de vendes del núvol just abans dels resultats trimestrals d'aquest dimecres."
     },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Moonshot AI prepara per avui l'alliberament dels pesos de Kimi K3, el model obert més gran de la història",
-      "excerpt": "L'empresa xinesa té previst publicar aquest 27 de juliol a Hugging Face els 2,8 bilions de paràmetres del seu model, en un fitxer comprimit d'1,4 terabytes, onze dies després d'haver-lo llançat només en API i aplicació de pagament."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Waymo estrena cotxes sense conductor a quatre ciutats més dels EUA i registra una societat a Madrid de cara a Espanya",
-      "excerpt": "La filial d'Alphabet amplia el servei sense supervisor a Las Vegas, Denver, San Diego i Tampa mentre persegueix el milió de trajectes setmanals, alhora que ha creat discretament \"Waymo Iberia\" a Madrid com a primer pas administratiu cap a Espanya i Portugal."
+      "title": "Sam Altman assegura que \"ja som a la singularitat\" mentre un expert li recorda que l'atac d'OpenAI a Hugging Face no en va ser una prova",
+      "excerpt": "El conseller delegat d'OpenAI declara al pòdcast Relentless que la humanitat viu ja \"el moment\" de la singularitat, en una setmana marcada per la investigació de Reuters sobre l'atac d'un agent seu a Hugging Face; un analista independent li discuteix la definició i Elon Musk s'hi suma al debat a X."
     },
     {
       "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "El president de Samsung, Lee Jae-yong, es reuneix amb Sam Altman a la seu d'OpenAI per ampliar la cooperació en xips i IA",
-      "excerpt": "La trobada a San Francisco, l'endemà que Altman es reunís amb el president sud-coreà, obre la porta a aprofundir la col·laboració en memòria d'alta amplada de banda, DRAM i fabricació de xips, mesos després que Samsung desplegués ChatGPT i Codex entre tota la seva plantilla a Corea."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Mitsubishi Motors s'alia amb l'startup Highlanders per fabricar robots humanoides a la seva planta de Kyoto el 2027",
-      "excerpt": "El fabricant japonès d'automòbils signa un memoràndum d'entesa amb aquesta spin-off de la Universitat de Tòquio per reconvertir naus en desús de la seva fàbrica de motors en una línia de producció de robots destinats, d'entrada, a tasques internes com el transport de peces."
+      "read": "4 MIN",
+      "title": "Indra s'alia amb la catalana Bold Technology per impulsar la gestió intel·ligent d'energia amb IA a Catalunya",
+      "excerpt": "L'acord, el primer que promou la nova delegació territorial d'Indra a Catalunya, vincula la multinacional amb Bold, una empresa de Montmeló especialitzada en bateries i sistemes de gestió energètica basats en intel·ligència artificial, després que la contractació d'Indra amb proveïdors catalans hagi crescut un 57% en el primer semestre."
     }
   ]
 }
