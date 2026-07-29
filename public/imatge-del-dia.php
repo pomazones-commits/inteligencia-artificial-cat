@@ -34,7 +34,7 @@ if (!empty($data['date']) && preg_match('/^(\d{4})-(\d{2})-(\d{2})$/', (string) 
 }
 
 // Àudio neural (el genera el workflow d'àudio a assets/audio/imatge-AAAA-MM-DD.mp3).
-// Si encara no existeix, lector.js farà servir la veu del navegador.
+// Si encara no existeix, lector.js mostrarà «Àudio en preparació.»
 $audioUrl = '';
 if ($dateIso !== '') {
     $audioFile = __DIR__ . '/assets/audio/imatge-' . $dateIso . '.mp3';
@@ -103,7 +103,7 @@ $paragraphs = array_values(array_filter(array_map('trim', preg_split('/\n\n+/', 
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
-  <script src="./lector.js?v=2026072401"></script>
+  <script src="./lector.js?v=2026072901"></script>
   <script>
     (function () {
       var parts = [<?= json_encode($title, JSON_UNESCAPED_UNICODE) ?>, <?= json_encode($caption, JSON_UNESCAPED_UNICODE) ?>].concat(<?= json_encode($paragraphs, JSON_UNESCAPED_UNICODE) ?>).filter(Boolean);
