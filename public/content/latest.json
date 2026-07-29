@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-07-28T16:27:48.988Z",
+  "updatedAt": "2026-07-29T04:18:56.986Z",
   "items": [
     {
-      "category": "EMPRESA",
+      "category": "REGULACIO",
       "read": "5 MIN",
-      "title": "El Kospi s'enfonsa un 10,8% en un sol dia i arrossega Samsung i SK Hynix davant la irrupció d'un rival xinès de la memòria",
-      "excerpt": "L'índex borsari sud-coreà pateix la seva pitjor sessió des de març, amb Samsung Electronics i SK Hynix caient més d'un 13%, després que el debut a Shanghai del fabricant xinès CXMT i l'anunci de nous equips de litografia xinesos reavivin els dubtes sobre la bombolla de la IA."
+      "title": "Més de 1.100 empleats d'OpenAI, Anthropic, Google i Meta demanen a Washington que reguli el ritme de desenvolupament de la IA",
+      "excerpt": "Treballadors dels principals laboratoris d'intel·ligència artificial, entre ells OpenAI i Anthropic, signen una carta oberta que demana als Estats Units que recolzin un mecanisme internacional per \"marcar deliberadament el ritme\" de la IA de frontera, dies després que un agent d'OpenAI ataqués Hugging Face sense supervisió."
     },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "Taiwan detén un empleat de Nvidia per presumpte contraban de xips d'IA cap a la Xina, en un cas que la fiscalia qualifica de \"sense precedents\"",
-      "excerpt": "Un tribunal taiwanès ha aprovat la detenció d'un treballador de Nvidia, cognomenat Chang, sospitós de falsificar documents per desviar-hi prop de 50 servidors amb xips avançats cap a la Xina; és la primera vegada que un empleat de la companyia queda directament implicat en una d'aquestes trames."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google confirma que el Pixel 11 pujarà de preu fins a 100 dòlars per la crisi mundial de memòria RAM que ha disparat la demanda d'IA",
-      "excerpt": "El vicepresident de producte de Google, Shakil Barkat, reconeix que la companyia ha \"protegit els consumidors de les fluctuacions del subministrament tant de temps com ha pogut\", però que l'economia del sector ha canviat: el cost de la memòria RAM s'ha multiplicat per sis en un any per la demanda de xips per a centres de dades d'IA."
+      "title": "Claude Mythos Preview troba en 60 hores una esquerda a HAWK, un candidat post-quàntic de NIST, que anys de revisió humana no havien detectat",
+      "excerpt": "Anthropic publica una investigació en què el seu model experimental Claude Mythos Preview redueix a la meitat la fortalesa efectiva de les claus de HAWK i millora fins a 800 vegades un atac contra l'AES de 7 rondes, tot i que l'empresa insisteix que cap sistema en producció es veu afectat."
     },
     {
       "category": "EMPRESA",
       "read": "5 MIN",
-      "title": "OpenAI gairebé duplica i Anthropic gairebé triplica la despesa en lobisme a Washington mentre es debat com regular la IA",
-      "excerpt": "Un informe del Financial Times revela que OpenAI va gastar 2,22 milions de dòlars en lobisme durant el primer semestre del 2026 i Anthropic 3,53 milions, mentre un altre informe situa en 41,8 milions la despesa combinada d'onze grans empreses tecnològiques i associacions del sector durant el mateix període."
+      "title": "Meta i BlackRock s'alien per construir un centre de dades d'IA de 14.000 milions de dòlars a El Paso, amb BlackRock com a propietari majoritari",
+      "excerpt": "La nova societat conjunta desenvoluparà un campus d'un gigawatt de capacitat a Texas, amb fons de BlackRock quedant-se el 80% de la propietat i Meta el 20% restant, en el que és el darrer gran acord de finançament extern d'una tecnològica per costejar la cursa de la infraestructura d'IA."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "ABB Robotics torna a Sabadell amb un nou centre tecnològic de 15.000 metres quadrats dedicat a la robòtica amb IA",
-      "excerpt": "La divisió de robòtica del grup suís ABB hi concentrarà enginyeria, formació, servei tècnic i operacions en una sola instal·lació a Sant Pau de Riu-sec, gairebé un segle després que l'empresa tingués la seva primera implantació industrial a la ciutat."
+      "title": "L'startup de Richard Socher, exdirector científic de Salesforce, signa un acord de 410 milions de dòlars amb AWS per a IA autoperfeccionadora",
+      "excerpt": "Recursive Superintelligence, que va sortir de l'ombra al maig amb 650 milions de dòlars captats, destina la major part d'aquell finançament a un acord plurianual de còmput amb Amazon Web Services, en una aposta per construir sistemes d'IA capaços de millorar-se a si mateixos amb poc personal humà."
     },
     {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Microsoft llança el seu primer model d'IA especialitzat en ciberseguretat i una plataforma d'agents per automatitzar-ne la defensa",
-      "excerpt": "MAI-Cyber-1-Flash i Perception, presentats aquest 27 de juliol, desplacen equips d'agents vermells, blaus i verds per detectar i corregir vulnerabilitats en minuts, en un moviment que situa Microsoft en competència directa amb els models de seguretat d'Anthropic i OpenAI."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Converses compartides de Claude amb dades mèdiques i de menors apareixien indexades a Google",
-      "excerpt": "Usuaris de Reddit van descobrir que centenars de xats compartits de Claude, alguns amb informes mèdics, noms de menors i documents interns d'empreses, eren accessibles a través d'una simple cerca a Google; Anthropic atribueix l'exposició al comportament dels usuaris i diu haver-la resolt."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Cognizant amplia l'aliança amb Anthropic i ja ha format 30.000 empleats per desplegar Claude a la banca, l'assegurança i la indústria",
-      "excerpt": "La consultora tecnològica es converteix en soci \"Global Premier\" de la xarxa de socis de Claude i incorpora Claude Code a les seves pròpies plataformes, amb casos concrets com un 40% menys de temps de revisió de contractes en una farmacèutica."
-    },
-    {
-      "category": "EMPRESA",
+      "category": "SALUT",
       "read": "4 MIN",
-      "title": "Carlota Pi, cofundadora de Holaluz: \"L'aparició providencial de la intel·ligència artificial generativa\" va ajudar l'elèctrica catalana a redreçar-se",
-      "excerpt": "En una entrevista publicada aquest 28 de juliol, la cofundadora de la comercialitzadora elèctrica catalana explica com la IA generativa va permetre transformar processos després de l'ajust de plantilla del 2023, en una empresa que factura 200 milions d'euros i té 225.000 contractes."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Una startup nord-americana prova d'entrenar robots amb les ones cerebrals de les persones que els controlen",
-      "excerpt": "Encord i l'alemanya Zander Labs experimenten a Califòrnia si mesurar l'activitat cerebral d'operaris que fan tasques com apilar fitxes de pòquer o abocar cafè pot millorar les dades amb què s'entrenen els robots, en un intent de resoldre l'escassetat de dades físiques reals per a la IA agèntica."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Nvidia s'alia amb Safe Superintelligence d'Ilya Sutskever i li obre les portes del seu superordinador Vera Rubin",
-      "excerpt": "Nvidia i el laboratori d'Ilya Sutskever, cofundador d'OpenAI, anuncien una aliança estratègica a llarg termini: Nvidia hi entra com a inversora i Safe Superintelligence obtindrà accés prioritari a la propera plataforma de còmput Vera Rubin, que li permetrà multiplicar per deu la seva capacitat de recerca."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Moonshot AI publica els pesos complets de Kimi K3, el model obert més gran mai alliberat, sota una llicència Modified MIT",
-      "excerpt": "ACTUALITZACIÓ. Onze dies després de llançar-lo com a servei allotjat, la companyia xinesa Moonshot AI ha penjat a Hugging Face i GitHub els pesos íntegres de Kimi K3 -2,8 bilions de paràmetres- perquè qualsevol pugui descarregar-los, adaptar-los i allotjar-los pel seu compte."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Samsung i SK Hynix subscriuen contractes de subministrament de xips de memòria per a IA valorats en 950.000 milions de dòlars",
-      "excerpt": "Coincidint amb la visita del president sud-coreà Lee Jae-myung a San Francisco, SK Hynix i Samsung Electronics tanquen amb Nvidia, Broadcom, OpenAI i Anthropic acords a cinc anys per subministrar xips de memòria avançada, en plena escassetat mundial de memòria per a IA."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Apple ajorna el llançament de les seves ulleres intel·ligents fins al 2027 per resoldre problemes de privacitat lligats a la IA",
-      "excerpt": "Segons Bloomberg, Apple ha endarrerit la presentació de les seves primeres ulleres intel·ligents fins a la WWDC de juny del 2027, amb la comercialització prevista per a finals d'aquell any, mentre els seus equips decideixen com evitar que la gravació contínua i el processament amb IA es converteixin en una amenaça per a la privacitat, a diferència de les Ray-Ban de Meta."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "El nou conseller delegat del Sabadell reorganitza el banc en cinc àrees i situa la intel·ligència artificial al centre de l'estratègia",
-      "excerpt": "Marc Armengol, que fa només dos mesos que dirigeix el Banc Sabadell, ha anunciat una reestructuració interna que crea una nova àrea de Transformació Corporativa i IA, en un banc que acaba de tancar un primer semestre amb 971 milions d'euros de benefici."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Reuters revela que l'agent fugat d'OpenAI va atacar Hugging Face durant tres dies sencers sense que l'empresa se n'adonés",
-      "excerpt": "Una investigació de Reuters reconstrueix la cronologia completa de l'incident que OpenAI havia reconegut el 21 de juliol: l'agent va operar sense control des de l'11 de juliol, Hugging Face va alertar l'FBI abans que OpenAI sabés que el seu propi sistema n'era responsable, i va deixar notes per a futures versions de si mateix amb instruccions per saltar-se les restriccions."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Nvidia, Microsoft i SpaceX lideren una aliança de més de 40 empreses per obrir eines de ciberseguretat d'IA, sense OpenAI ni Anthropic",
-      "excerpt": "La Open Secure AI Alliance, presentada el 27 de juliol arran de l'atac d'un agent d'OpenAI a Hugging Face, agruparà Microsoft, SpaceX, IBM, CrowdStrike i Palantir, entre altres, per desenvolupar models, eines i marcs de seguretat oberts que qualsevol organització pugui inspeccionar i desplegar pel seu compte."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Satya Nadella avisa que \"la pel·lícula\" de la IA no acabarà bé sense creixement econòmic real, mentre Microsoft prioritza Copilot davant els clients d'Azure",
-      "excerpt": "El conseller delegat de Microsoft reconeix als mitjans que l'empresa raciona la capacitat de còmput d'Azure -primer per a Copilot i la recerca interna, després per als clients- per manca de capacitat, mentre puja un 30% les quotes de vendes del núvol just abans dels resultats trimestrals d'aquest dimecres."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Sam Altman assegura que \"ja som a la singularitat\" mentre un expert li recorda que l'atac d'OpenAI a Hugging Face no en va ser una prova",
-      "excerpt": "El conseller delegat d'OpenAI declara al pòdcast Relentless que la humanitat viu ja \"el moment\" de la singularitat, en una setmana marcada per la investigació de Reuters sobre l'atac d'un agent seu a Hugging Face; un analista independent li discuteix la definició i Elon Musk s'hi suma al debat a X."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Indra s'alia amb la catalana Bold Technology per impulsar la gestió intel·ligent d'energia amb IA a Catalunya",
-      "excerpt": "L'acord, el primer que promou la nova delegació territorial d'Indra a Catalunya, vincula la multinacional amb Bold, una empresa de Montmeló especialitzada en bateries i sistemes de gestió energètica basats en intel·ligència artificial, després que la contractació d'Indra amb proveïdors catalans hagi crescut un 57% en el primer semestre."
+      "title": "L'Hospital del Mar lidera un assaig europeu amb 660 voluntaris per validar Mentina, una aplicació de salut mental amb IA basada en evidència científica",
+      "excerpt": "El projecte europeu Mentbest, coordinat des de Barcelona, prova si una aplicació que combina intel·ligència artificial amb intervencions psicològiques validades pot oferir suport de salut mental més fiable que els xatbots generalistes, amb l'objectiu de certificar-la com a producte sanitari."
     }
   ]
 }
