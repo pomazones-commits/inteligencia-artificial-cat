@@ -117,7 +117,7 @@ button { color: inherit; }
 .carousel-progress button { position: relative; flex: 1; max-width: 74px; height: 18px; padding: 0; border: 0; background: transparent; cursor: pointer; }
 .carousel-progress button::before { content: ""; position: absolute; inset: 8px 0 auto; height: 3px; border-radius: 3px; background: #d7dce7; }
 .carousel-progress button::after { content: ""; position: absolute; inset: 8px 0 auto; height: 3px; border-radius: 3px; background: var(--blue); transform: scaleX(0); transform-origin: left; }
-.carousel-progress button.active::after { transform: scaleX(1); animation: carrusel-temps 6s linear forwards; }
+.carousel-progress button.active::after { transform: scaleX(1); animation: carrusel-temps 7s linear forwards; }
 .daily-carousel:hover .carousel-progress button.active::after { animation-play-state: paused; }
 @keyframes carrusel-temps { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 .carousel-actions { display: flex; align-items: center; gap: 10px; }
@@ -295,6 +295,7 @@ button { color: inherit; }
   .newsletter h2 { font-size: 49px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .footer-grid > div:first-child { grid-column: 1/-1; }
+  .footer-grid > div:last-child { display: flex; }
   .footer-bottom { flex-direction: column; gap: 7px; }
 }
 

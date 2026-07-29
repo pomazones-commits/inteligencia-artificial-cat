@@ -157,7 +157,7 @@
       // Reinicia la barra de temps de la notícia activa perquè vagi sincronitzada amb el canvi.
       const activeButton = progress.children[activeIndex];
       if (activeButton) { activeButton.classList.remove('active'); void activeButton.offsetWidth; activeButton.classList.add('active'); }
-      if (!reduceMotion) carouselTimer = window.setInterval(() => nextStory(1), 6000);
+      if (!reduceMotion) carouselTimer = window.setInterval(() => nextStory(1), 7000);
     }
     document.querySelector('#carousel-prev').addEventListener('click', () => { nextStory(-1); restartCarousel(); });
     document.querySelector('#carousel-next').addEventListener('click', () => { nextStory(1); restartCarousel(); });
