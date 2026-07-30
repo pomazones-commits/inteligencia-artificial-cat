@@ -20,7 +20,8 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","description":"Notícies, anàlisi i context sobre intel·ligència artificial, en català.","publishingPrinciples":"https://inteligencia-artificial.cat/redaccio.html"},{"@type":"WebSite","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","inLanguage":"ca"}]}</script>
   <link rel="stylesheet" href="./portada.css?v=2026072901">
   <link rel="stylesheet" href="./tribuna.css?v=2026072401">
-  <script defer src="./app.js?v=2026072901"></script>
+  <link rel="stylesheet" href="./estudis.css?v=2026073002">
+  <script defer src="./app.js?v=2026073002"></script>
 </head>
 <body>
   <a class="skip-link" href="#contingut">Ves al contingut</a>
@@ -33,6 +34,7 @@
           <a href="#ultima-hora">L'edició del dia</a>
           <a href="#catalunya">Radar català</a>
           <a href="#analisi">Anàlisi</a>
+          <a href="#estudis">Estudis</a>
           <a href="#butlleti">Butlletí</a>
         </div>
         <time id="current-date" datetime="">&nbsp;</time>
@@ -59,6 +61,7 @@
         <a href="#ultima-hora">Última hora</a>
         <a href="#catalunya">Radar català</a>
         <a href="#analisi">Anàlisi</a>
+        <a href="#estudis">Estudis</a>
         <a href="./dossiers.html">Dossiers</a>
         <a href="#opinions">Quadern IA</a>
         <a href="./arxiu.html">Arxiu</a>
@@ -147,6 +150,25 @@
       </div>
     </section>
 
+    <section class="estudis-band" id="estudis" hidden>
+      <div class="shell estudis-layout">
+        <figure class="estudis-photo" id="estudis-photo" hidden>
+          <img id="estudis-img" src="" alt="" loading="lazy">
+        </figure>
+        <article class="estudis-copy">
+          <p class="eyebrow" id="estudis-eyebrow">Estudis</p>
+          <h2 id="estudis-title"></h2>
+          <p id="estudis-excerpt"></p>
+          <blockquote class="estudis-quote" id="estudis-quote" hidden></blockquote>
+          <p class="estudis-byline" id="estudis-byline"></p>
+          <span class="estudis-links">
+            <a href="./estudi.html">Llegir l'estudi <span>↗</span></a>
+            <a class="estudis-link-secundari" href="./arxiu-estudis.html">Tots els estudis</a>
+          </span>
+        </article>
+      </div>
+    </section>
+
     <section class="analysis-band" id="analisi">
       <div class="shell analysis-layout">
         <div class="analysis-mark" aria-hidden="true">IA</div>
@@ -224,7 +246,7 @@
       </div>
       <div>
         <strong>Projecte</strong>
-        <a href="./redaccio.html">Sobre IA.cat</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./eines.html">Guies pràctiques</a>
+        <a href="./redaccio.html">Sobre IA.cat</a><a href="./analisi.html">Anàlisi</a><a href="./arxiu-estudis.html">Estudis</a><a href="./dossiers.html">Dossiers</a><a href="./eines.html">Guies pràctiques</a>
       </div>
       <div>
         <strong>Temes</strong>

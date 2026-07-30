@@ -23,6 +23,7 @@
     loadScript('./radar.js'),
     loadScript('./analysis.js'),
     loadScript('./tribuna.js'),
+    loadScript('./estudis.js'),
     loadScript('./reflection.js'),
     loadScript('./daily-image.js')
   ]);
@@ -209,6 +210,30 @@
         document.querySelector('#tribuna-photo').hidden = false;
       } else {
         document.querySelector('.tribuna-layout').classList.add('tribuna-layout--solo');
+      }
+      band.hidden = false;
+    }
+
+    // ——— Estudis (article de fons signat, fitxer manual estudis.js) ———
+    if (window.IA_ESTUDI && window.IA_ESTUDI.title) {
+      const estudi = window.IA_ESTUDI;
+      const band = document.querySelector('#estudis');
+      document.querySelector('#estudis-title').textContent = estudi.title;
+      document.querySelector('#estudis-excerpt').textContent = estudi.excerpt || '';
+      document.querySelector('#estudis-eyebrow').textContent = estudi.read ? `Estudis · ${estudi.read.toLowerCase()}` : 'Estudis';
+      document.querySelector('#estudis-byline').textContent = [estudi.author, estudi.role].filter(Boolean).join(' · ');
+      if (estudi.quote) {
+        const quote = document.querySelector('#estudis-quote');
+        quote.textContent = `«${estudi.quote}»`;
+        quote.hidden = false;
+      }
+      if (estudi.photo) {
+        const img = document.querySelector('#estudis-img');
+        img.src = estudi.photo;
+        img.alt = estudi.photoAlt || `Retrat de ${estudi.author || ''}`.trim();
+        document.querySelector('#estudis-photo').hidden = false;
+      } else {
+        document.querySelector('.estudis-layout').classList.add('estudis-layout--solo');
       }
       band.hidden = false;
     }

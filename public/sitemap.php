@@ -107,7 +107,7 @@ $urls[] = ['loc' => $base . '/', 'lastmod' => $siteIso];
 
 // Pàgines de secció: es reconstrueixen amb cada edició, per tant comparteixen
 // la data de l'última edició publicada.
-$pages = ['redaccio.html', 'eines.html', 'analisi.html', 'tribuna.html', 'arxiu-tribuna.html', 'quadern.html', 'dossiers.html', 'arxiu.html'];
+$pages = ['redaccio.html', 'eines.html', 'analisi.html', 'tribuna.html', 'arxiu-tribuna.html', 'estudi.html', 'arxiu-estudis.html', 'quadern.html', 'dossiers.html', 'arxiu.html'];
 foreach ($pages as $page) {
     $urls[] = ['loc' => $base . '/' . $page, 'lastmod' => $siteIso];
 }

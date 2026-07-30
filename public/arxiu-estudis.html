@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f7fb">
+  <meta name="description" content="Arxiu d’estudis: tots els articles de fons signats per investigadores i investigadors publicats a intel·ligènciaartificial.cat.">
+  <link rel="canonical" href="https://inteligencia-artificial.cat/arxiu-estudis.html">
+  <meta property="og:type" content="website"><meta property="og:site_name" content="intel·ligènciaartificial.cat"><meta property="og:locale" content="ca_ES">
+  <meta property="og:title" content="Arxiu d’estudis · intel·ligència artificial.cat">
+  <meta property="og:description" content="Tots els articles de fons signats per investigadores i investigadors.">
+  <meta property="og:url" content="https://inteligencia-artificial.cat/arxiu-estudis.html">
+  <title>Arxiu d’estudis · intel·ligència artificial.cat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;family=Onest:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./editorial.css?v=2026072401">
+  <script defer src="./shared.js?v=2026072302"></script>
+  <style>
+    .estudis-llista { display: grid; gap: 22px; margin-top: 28px; }
+    .estudi-fitxa { display: grid; grid-template-columns: 96px 1fr; gap: 20px; padding: 24px; border: 1px solid #e3e7ef; background: #fff; }
+    .estudi-fitxa img { width: 96px; height: 96px; object-fit: cover; border-radius: 50%; }
+    .estudi-fitxa--sense-foto { grid-template-columns: 1fr; }
+    .estudi-fitxa h2 { margin: 6px 0 8px; font-family: Newsreader, serif; font-size: 26px; line-height: 1.2; }
+    .estudi-fitxa h2 a { color: inherit; text-decoration: none; }
+    .estudi-fitxa h2 a:hover { text-decoration: underline; }
+    .estudi-fitxa p { margin: 0 0 10px; color: #444b59; font-size: 14px; line-height: 1.6; }
+    .estudi-fitxa .qui { color: #5d6472; font-size: 12px; }
+    .estudi-fitxa .qui strong { color: #1c2333; }
+    .estudi-vigent { font: 600 9px "IBM Plex Mono", monospace; color: #233a82; text-transform: uppercase; letter-spacing: .08em; }
+    @media (max-width: 560px) { .estudi-fitxa { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body class="editorial-body">
+  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
+
+  <main class="editorial-shell editorial-main">
+    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><a href="./estudi.html">Estudis</a><span>/</span><span>Arxiu</span></nav>
+    <header class="article-header">
+      <div><p class="editorial-kicker">ESTUDIS · ARXIU</p><h1>Tots els estudis</h1><p class="editorial-lede">Articles de fons signats per investigadores i investigadors, amb resum, paraules clau i bibliografia. Les opinions expressades són de l’autoria.</p></div>
+    </header>
+    <p class="editorial-kicker" id="estat">CARREGANT L’ARXIU…</p>
+    <div class="estudis-llista" id="llista"></div>
+  </main>
+
+  <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
+
+  <script src="./estudis.js?v=2026073002"></script>
+  <script src="./estudis-arxiu.js?v=2026073002"></script>
+  <script>
+    (function () {
+      var llista = document.getElementById('llista');
+      var estat = document.getElementById('estat');
+      var entrades = [];
+      if (window.IA_ESTUDI && window.IA_ESTUDI.title) {
+        entrades.push({ e: window.IA_ESTUDI, url: './estudi.html', vigent: true });
+      }
+      (window.IA_ESTUDIS_ARXIU || []).forEach(function (e, i) {
+        if (e && e.title) entrades.push({ e: e, url: './estudi.html?arxiu=' + i, vigent: false });
+      });
+      if (!entrades.length) {
+        estat.textContent = 'ENCARA NO HI HA CAP ESTUDI PUBLICAT.';
+        return;
+      }
+      estat.hidden = true;
+      entrades.forEach(function (entrada) {
+        var e = entrada.e;
+        var article = document.createElement('article');
+        article.className = 'estudi-fitxa' + (e.photo ? '' : ' estudi-fitxa--sense-foto');
+        if (e.photo) {
+          var foto = document.createElement('img');
+          foto.src = e.photo;
+          foto.alt = e.photoAlt || ('Retrat de ' + (e.author || ''));
+          foto.loading = 'lazy';
+          article.appendChild(foto);
+        }
+        var cos = document.createElement('div');
+        var meta = document.createElement('p');
+        meta.className = 'editorial-kicker';
+        meta.textContent = [e.date || '', e.read || ''].filter(Boolean).join(' · ');
+        if (entrada.vigent) {
+          var marca = document.createElement('span');
+          marca.className = 'estudi-vigent';
+          marca.textContent = ' · ESTUDI VIGENT';
+          meta.appendChild(marca);
+        }
+        var titol = document.createElement('h2');
+        var enllac = document.createElement('a');
+        enllac.href = entrada.url;
+        enllac.textContent = e.title;
+        titol.appendChild(enllac);
+        var entradeta = document.createElement('p');
+        entradeta.textContent = e.excerpt || '';
+        var qui = document.createElement('p');
+        qui.className = 'qui';
+        var nom = document.createElement('strong');
+        nom.textContent = e.author || '';
+        qui.appendChild(document.createTextNode('Per '));
+        qui.appendChild(nom);
+        if (e.role) qui.appendChild(document.createTextNode(' · ' + e.role));
+        cos.appendChild(meta);
+        cos.appendChild(titol);
+        cos.appendChild(entradeta);
+        cos.appendChild(qui);
+        article.appendChild(cos);
+        llista.appendChild(article);
+      });
+    })();
+  </script>
+</body>
+</html>

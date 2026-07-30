@@ -1,0 +1,104 @@
+/* ——— Estudis ———
+   Estils de la banda de portada de la secció «Estudis»: articles de fons
+   signats per investigadores i investigadors, amb resum i bibliografia.
+   Fitxer independent per no tocar portada.css (regla de CLAUDE.md).
+   La secció (#estudis) està amagada per defecte i app.js només la mostra
+   si window.IA_ESTUDI té contingut.
+
+   A diferència de «La tribuna» (banda fosca), aquesta és clara i de paper:
+   la distinció visual separa l'opinió signada de l'article acadèmic. */
+
+.estudis-band {
+  width: var(--shell);
+  margin: 0 auto 26px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 34px;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 92% 8%, rgba(61, 99, 255, .07), transparent 44%),
+    linear-gradient(150deg, #fdfdff, #f2f4fb 62%, #eef1fa);
+  box-shadow: 0 22px 60px rgba(17, 21, 38, .07);
+}
+
+.estudis-layout {
+  display: grid;
+  grid-template-columns: minmax(210px, .48fr) minmax(0, 1.52fr);
+  gap: 46px;
+  align-items: center;
+  padding-block: 50px;
+}
+
+.estudis-layout.estudis-layout--solo { grid-template-columns: 1fr; }
+
+.estudis-photo { margin: 0; }
+.estudis-photo img {
+  display: block;
+  width: 100%;
+  /* proporció natural de la foto */
+  object-fit: cover;
+  border-radius: 22px;
+  border: 1px solid rgba(17, 21, 38, .08);
+  box-shadow: 0 16px 44px rgba(17, 21, 38, .16);
+}
+
+.estudis-copy .eyebrow { color: #1c2f8f; background: #dfe6ff; }
+
+.estudis-copy h2 {
+  margin: 0;
+  max-width: 730px;
+  font: 500 38px/1.08 var(--serif);
+  letter-spacing: -.035em;
+}
+
+.estudis-copy > p:not(.eyebrow):not(.estudis-byline) {
+  max-width: 640px;
+  margin: 16px 0 14px;
+  color: #4d566d;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.estudis-quote {
+  max-width: 620px;
+  margin: 0 0 16px;
+  padding-left: 16px;
+  border-left: 2px solid var(--blue);
+  color: #29314a;
+  font: 500 16px/1.45 var(--serif);
+  font-style: italic;
+}
+
+.estudis-byline {
+  margin: 0 0 22px;
+  color: #2744bf;
+  font: 600 10px var(--mono);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+}
+
+.estudis-links { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.estudis-copy a {
+  display: inline-flex;
+  gap: 12px;
+  padding: 11px 14px;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--ink);
+  font: 600 9px var(--mono);
+  text-transform: uppercase;
+}
+
+.estudis-copy a.estudis-link-secundari {
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid #c3cadd;
+}
+
+@media (max-width: 880px) {
+  .estudis-band { border-radius: 25px; }
+  .estudis-layout { grid-template-columns: 1fr; gap: 24px; padding: 34px 24px; align-items: start; }
+  .estudis-photo { max-width: 300px; }
+  .estudis-copy h2 { font-size: 30px; }
+}

@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f7fb">
+  <meta name="description" content="Estudis: articles de fons signats per investigadores i investigadors, amb resum, paraules clau i bibliografia.">
+  <link rel="canonical" href="https://inteligencia-artificial.cat/estudi.html">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="intel·ligènciaartificial.cat"><meta property="og:locale" content="ca_ES">
+  <meta property="og:title" content="Estudis · intel·ligència artificial.cat">
+  <meta property="og:description" content="Articles de fons signats per investigadores i investigadors, amb resum, paraules clau i bibliografia.">
+  <meta property="og:url" content="https://inteligencia-artificial.cat/estudi.html">
+  <title>Estudis · intel·ligència artificial.cat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;family=Onest:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./editorial.css?v=2026072401">
+  <script defer src="./shared.js?v=2026072302"></script>
+  <style>
+    /* Peces pròpies d'un estudi acadèmic: resum, paraules clau, seccions i bibliografia. */
+    .estudi-resum { margin: 0 0 30px; padding: 24px 26px; background: #f2f5fb; border-left: 3px solid #233a82; }
+    .estudi-resum h2 { margin: 0 0 12px; font: 600 10px "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .1em; color: #233a82; }
+    .estudi-resum p { margin: 0 0 12px; font-size: 15px; line-height: 1.65; color: #2b3242; }
+    .estudi-resum p:last-child { margin-bottom: 0; }
+    .estudi-claus { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin: 0 0 30px; }
+    .estudi-claus span.etiqueta { font: 600 10px "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .1em; color: #5d6472; margin-right: 4px; }
+    .estudi-claus span.clau { padding: 5px 11px; border: 1px solid #dfe3eb; border-radius: 999px; font-size: 12px; color: #2b3242; }
+    .article-body-clean h2.estudi-seccio { margin: 38px 0 14px; font-family: Newsreader, serif; font-size: 27px; line-height: 1.2; letter-spacing: -.02em; color: #101426; }
+    .article-body-clean ul.estudi-pics { margin: 0 0 18px; padding-left: 22px; }
+    .article-body-clean ul.estudi-pics li { margin: 0 0 8px; line-height: 1.65; }
+    .estudi-bibliografia { margin: 44px 0 0; padding-top: 26px; border-top: 1px solid #e3e7ef; }
+    .estudi-bibliografia h2 { margin: 0 0 16px; font-family: Newsreader, serif; font-size: 24px; }
+    .estudi-bibliografia ol { margin: 0; padding-left: 20px; }
+    .estudi-bibliografia li { margin: 0 0 12px; font-size: 13.5px; line-height: 1.6; color: #444b59; }
+    .estudi-bibliografia a { word-break: break-word; }
+    .estudi-notes { margin: 30px 0 0; padding: 16px 18px; background: #fafbfd; border: 1px solid #e9edf4; }
+    .estudi-notes p { margin: 0 0 8px; font-size: 12px; line-height: 1.6; color: #5d6472; }
+    .estudi-notes p:last-child { margin-bottom: 0; }
+  </style>
+</head>
+<body class="editorial-body">
+  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
+
+  <main class="editorial-shell editorial-main" id="estudi-main">
+    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><span>Estudis</span></nav>
+    <p class="editorial-kicker" id="estat">CARREGANT L’ESTUDI…</p>
+    <div id="contingut" hidden>
+      <header class="article-header">
+        <div><p class="editorial-kicker" id="kicker"></p><h1 id="titol"></h1><p class="editorial-lede" id="entradeta"></p></div>
+        <div class="article-byline-clean">
+          <img id="autor-foto" alt="" hidden>
+          <p>Per <strong id="autor-nom"></strong></p><span id="autor-rol"></span>
+          <time id="data"></time>
+        </div>
+      </header>
+      <div class="article-layout">
+        <article>
+          <div id="lector"></div>
+          <section class="estudi-resum" id="resum" hidden><h2>Resum</h2></section>
+          <p class="estudi-claus" id="claus" hidden></p>
+          <div class="article-body-clean" id="cos"></div>
+          <section class="estudi-bibliografia" id="bibliografia" hidden><h2>Referències</h2><ol id="bibliografia-llista"></ol></section>
+          <aside class="estudi-notes" id="notes" hidden></aside>
+        </article>
+        <aside class="article-sidebar">
+          <section class="article-sidecard"><h2>Comparteix</h2><div class="article-share-clean"><a id="share-linkedin" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a><a id="share-whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a><a id="share-mail" href="#">Correu</a><button type="button" data-copy-url="https://inteligencia-artificial.cat/estudi.html">Copia</button></div></section>
+          <section class="article-sidecard"><h2>Sobre aquesta peça</h2><p>«Estudis» publica articles de fons signats per investigadores i investigadors, amb resum, paraules clau i bibliografia. Les opinions expressades són de l’autoria. <a href="./redaccio.html">Consulta el mètode editorial →</a></p></section>
+          <section class="article-sidecard"><h2>Estudis anteriors</h2><p>Recull de tots els estudis publicats fins ara. <a href="./arxiu-estudis.html">Ves a l’arxiu d’estudis →</a></p></section>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
+
+  <script src="./estudis.js?v=2026073002"></script>
+  <script src="./estudis-arxiu.js?v=2026073002"></script>
+  <script src="./lector.js?v=2026072901"></script>
+  <script>
+    (function () {
+      // ?arxiu=N mostra un estudi arxivat (estudis-arxiu.js); sense parametre, el vigent.
+      var arxiu = window.IA_ESTUDIS_ARXIU || [];
+      var idx = parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
+      var esArxivat = !isNaN(idx) && !!arxiu[idx];
+      var e = esArxivat ? arxiu[idx] : window.IA_ESTUDI;
+      var estat = document.getElementById('estat');
+      if (!e || !e.title) {
+        estat.textContent = 'ARA MATEIX NO HI HA CAP ESTUDI PUBLICAT.';
+        return;
+      }
+      document.title = e.title + ' · intel·ligència artificial.cat';
+      estat.hidden = true;
+      document.getElementById('kicker').textContent = [e.category || 'ESTUDI', e.read || '', e.date || ''].filter(Boolean).join(' · ');
+      document.getElementById('titol').textContent = e.title;
+      document.getElementById('entradeta').textContent = e.excerpt || '';
+      document.getElementById('autor-nom').textContent = e.author || '';
+      document.getElementById('autor-rol').textContent = e.role || '';
+      document.getElementById('data').textContent = e.date || '';
+      if (e.photo) {
+        var foto = document.getElementById('autor-foto');
+        foto.src = e.photo;
+        foto.alt = e.photoAlt || ('Retrat de ' + (e.author || ''));
+        foto.hidden = false;
+      }
+
+      // Adreces web -> enllaços clicables, construïts amb el DOM (mai innerHTML).
+      // La puntuació final no forma part de l'enllaç.
+      function afegeixTextAmbEnllacos(node, text) {
+        var re = /https?:\/\/[^\s]+/g;
+        var ultim = 0;
+        var m;
+        while ((m = re.exec(text))) {
+          var url = m[0].replace(/[).,;:!?»]+$/, '');
+          node.appendChild(document.createTextNode(text.slice(ultim, m.index)));
+          var a = document.createElement('a');
+          a.href = url;
+          a.textContent = url;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          node.appendChild(a);
+          ultim = m.index + url.length;
+        }
+        node.appendChild(document.createTextNode(text.slice(ultim)));
+      }
+
+      // *cursiva* amb asteriscos (només a la bibliografia), també amb el DOM.
+      function afegeixAmbCursiva(node, text) {
+        var parts = String(text).split(/\*([^*]+)\*/);
+        parts.forEach(function (part, i) {
+          if (!part) return;
+          if (i % 2 === 1) {
+            var em = document.createElement('em');
+            afegeixTextAmbEnllacos(em, part);
+            node.appendChild(em);
+          } else {
+            afegeixTextAmbEnllacos(node, part);
+          }
+        });
+      }
+
+      // Resum
+      var abstract = Array.isArray(e.abstract) ? e.abstract : (e.abstract ? [e.abstract] : []);
+      if (abstract.length) {
+        var resum = document.getElementById('resum');
+        abstract.forEach(function (text) {
+          var p = document.createElement('p');
+          afegeixTextAmbEnllacos(p, text);
+          resum.appendChild(p);
+        });
+        resum.hidden = false;
+      }
+
+      // Paraules clau
+      if (Array.isArray(e.keywords) && e.keywords.length) {
+        var claus = document.getElementById('claus');
+        var etiqueta = document.createElement('span');
+        etiqueta.className = 'etiqueta';
+        etiqueta.textContent = 'Paraules clau';
+        claus.appendChild(etiqueta);
+        e.keywords.forEach(function (k) {
+          var span = document.createElement('span');
+          span.className = 'clau';
+          span.textContent = k;
+          claus.appendChild(span);
+        });
+        claus.hidden = false;
+      }
+
+      // Cos: «## » = títol de secció, «• » = llista de pics, la resta paràgrafs.
+      var blocs = String(e.body || '').split(/\n\n+/).filter(Boolean);
+      var cos = document.getElementById('cos');
+      var perAlLector = [];
+      blocs.forEach(function (bloc) {
+        if (bloc.indexOf('## ') === 0) {
+          var h2 = document.createElement('h2');
+          h2.className = 'estudi-seccio';
+          h2.textContent = bloc.slice(3).trim();
+          cos.appendChild(h2);
+          perAlLector.push(h2.textContent);
+          return;
+        }
+        if (bloc.indexOf('•') === 0) {
+          var ul = document.createElement('ul');
+          ul.className = 'estudi-pics';
+          bloc.split('\n').forEach(function (linia) {
+            var text = linia.replace(/^•\s*/, '').trim();
+            if (!text) return;
+            var li = document.createElement('li');
+            afegeixTextAmbEnllacos(li, text);
+            ul.appendChild(li);
+            perAlLector.push(text);
+          });
+          cos.appendChild(ul);
+          return;
+        }
+        var p = document.createElement('p');
+        afegeixTextAmbEnllacos(p, bloc);
+        cos.appendChild(p);
+        perAlLector.push(bloc);
+      });
+
+      // Bibliografia
+      if (Array.isArray(e.references) && e.references.length) {
+        var biblio = document.getElementById('bibliografia');
+        var llista = document.getElementById('bibliografia-llista');
+        e.references.forEach(function (ref) {
+          var li = document.createElement('li');
+          afegeixAmbCursiva(li, ref);
+          llista.appendChild(li);
+        });
+        biblio.hidden = false;
+      }
+
+      // Notes de la redacció
+      if (Array.isArray(e.notes) && e.notes.length) {
+        var notes = document.getElementById('notes');
+        e.notes.forEach(function (text) {
+          var p = document.createElement('p');
+          afegeixTextAmbEnllacos(p, text);
+          notes.appendChild(p);
+        });
+        notes.hidden = false;
+      }
+
+      // Compartir (els arxivats comparteixen l'adreça amb ?arxiu=N)
+      var pagina = 'https://inteligencia-artificial.cat/estudi.html' + (esArxivat ? '?arxiu=' + idx : '');
+      var botoCopia = document.querySelector('[data-copy-url]');
+      if (botoCopia) botoCopia.setAttribute('data-copy-url', pagina);
+      var url = encodeURIComponent(pagina);
+      var titolCodificat = encodeURIComponent(e.title);
+      document.getElementById('share-linkedin').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+      document.getElementById('share-whatsapp').href = 'https://wa.me/?text=' + titolCodificat + '%20' + url;
+      document.getElementById('share-mail').href = 'mailto:?subject=' + titolCodificat + '&body=' + url;
+      document.getElementById('contingut').hidden = false;
+
+      // Lector: MP3 neural si existeix (estudi-AAAA-MM-DD.mp3).
+      var d = /^(\d{2})\.(\d{2})\.(\d{4})$/.exec(e.date || '');
+      window.IALector.init({
+        container: document.getElementById('lector'),
+        audioUrl: d ? './assets/audio/estudi-' + d[3] + '-' + d[2] + '-' + d[1] + '.mp3' : null,
+        parts: [e.title, e.excerpt || ''].concat(abstract).concat(perAlLector).filter(Boolean)
+      });
+    })();
+  </script>
+</body>
+</html>
