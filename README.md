@@ -1,27 +1,46 @@
 # intel·ligència artificial.cat
 
-Portada editorial en català sobre intel·ligència artificial, pensada per ser ràpida, accessible i visualment immersiva.
+Diari digital en català sobre intel·ligència artificial: [inteligencia-artificial.cat](https://inteligencia-artificial.cat)
 
-## Veure la portada
+Portada editorial pensada per ser ràpida, accessible i visualment immersiva, amb quatre edicions diàries, arxiu temàtic, butlletí i lectura en veu alta de cada peça.
+
+## Com funciona la publicació
+
+Unes **tasques programades de Claude (Cowork)** escriuen el contingut i generen les imatges → ho pugen a aquest repositori → **GitHub Actions** valida i genera els fitxers del web → es desplega sol a **Hostinger** per FTP. El navegador només carrega dades ja generades.
+
+1. La tasca «Edicions» deixa un lot de notícies a `incoming/` i les imatges a `public/assets/`, i fa push a `main`.
+2. `content-hub.yml` executa `automation/scripts/content-hub.mjs`: valida el lot, l'acumula amb els del dia, deriva el radar català, actualitza l'hemeroteca i genera `public/news.js`, `public/radar.js`, `public/data/*` i `public/content/latest.json`.
+3. `desplega.yml` puja `public/` a Hostinger.
+4. `audio-edicio.yml` sintetitza els MP3 de cada peça amb veu neuronal en català i els puja al mateix servidor.
+5. `xarxa-seguretat.yml` compara l'estat del repositori amb el que serveix la web i rellança el que hagi fallat.
+
+Els models fets servir són **Claude (Anthropic)** per al text i **Gemini** per a les imatges. Cap clau d'API no viu al repositori.
+
+## Documentació
+
+- **`CLAUDE.md`** — font de veritat del flux editorial i les regles de redacció. Llegir-lo abans de tocar res.
+- **`docs/AUTOMATITZACIO_EDITORIAL.md`** — documentació completa de l'automatització.
+- **`docs/PUBLICACIO_I_XARXES_DE_SEGURETAT.md`** — com arriba una edició a la web, què falla més sovint i com recuperar-ho a mà.
+
+## Veure la portada en local
 
 ```bash
 npm install
 npm run dev
 ```
 
-Obre `http://localhost:4173`.
+Obre `http://localhost:4173`. La portada llegeix els fitxers de dades ja generats; no cal cap clau ni cap servei extern.
 
-## Edició automàtica (configuració necessària)
+## Provar l'automatització
 
-El flux de `.github/workflows/daily-edition.yml` llegeix fonts RSS, en genera una selecció en català, crea una imatge original i actualitza `public/content/latest.json` cada dia. Per activar-lo cal:
+```bash
+node --test automation/tests/content-hub.test.mjs
+```
 
-1. Pujar aquesta carpeta a un repositori de GitHub i connectar-lo a l’allotjament (GitHub Pages, Vercel o Netlify).
-2. Afegir `OPENAI_API_KEY` com a secret del repositori. No la posis mai en un fitxer del projecte.
-3. Revisar la llista `feeds` de `scripts/publish-daily.mjs`, les llicències d’ús de cada font i el protocol editorial.
-4. Executar manualment el flux una primera vegada i validar exactitud, atribució, drets i to abans d’acceptar la programació diària.
+Cal passar aquestes proves abans de fer commit de qualsevol canvi a `automation/scripts/content-hub.mjs`.
 
-La publicació automàtica és útil per a una selecció o butlletí, però la responsabilitat editorial continua essent humana: el guió obliga el model a treballar només amb les fonts aportades i manté l’enllaç a l’original.
+## Avisos
 
-## Actius
-
-La portada usa `public/assets/hero-barcelona-ai.png`, una imatge original generada amb IA per a aquest projecte.
+- **No editar mai a mà** `public/news.js`, `radar.js`, `analysis.js`, `reflection.js` ni `daily-image.js`: els regenera el Content Hub i el canvi es perdria. `public/tribuna.js` sí que és manual.
+- Si canvies `public/app.js` o els CSS, puja el paràmetre `?v=` de les pàgines que els enllacen, o la memòria cau servirà la còpia antiga.
+- Els contractes públics que no s'han de trencar són `window.IA_NEWS`, `IA_RADAR`, `IA_ANALYSIS`, `IA_REFLECTION`, `IA_DAILY_IMAGE`, `IA_TRIBUNA`, més `article.php?slug=…` i `api.php?action=subscribe`.
