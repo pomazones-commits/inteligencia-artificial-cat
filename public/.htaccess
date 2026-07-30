@@ -37,8 +37,11 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # Un únic host canònic per evitar duplicats www/no-www.
-  RewriteCond %{HTTP_HOST} ^www\.inteligencia-artificial\.cat$ [NC]
+  # Un únic host canònic: qualsevol altre nom (www o els dominis alternatius
+  # intel·ligencia-artificial.cat, intel·ligenciaartificial.cat,
+  # inteligenciaartificial.cat i intelligencia-artificial.cat) es redirigeix
+  # amb un 301 al domini bo, conservant el camí sencer.
+  RewriteCond %{HTTP_HOST} !^inteligencia-artificial\.cat$ [NC]
   RewriteRule ^ https://inteligencia-artificial.cat%{REQUEST_URI} [R=301,L]
 
   RewriteRule ^sitemap\.xml$ sitemap.php [L]
