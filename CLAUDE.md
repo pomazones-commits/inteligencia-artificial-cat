@@ -49,6 +49,7 @@ La portada mostra la banda `#tribuna` (sobre l'anàlisi de la setmana) només si
 ## Regles
 
 - Si una imatge de notícia no s'ha pogut generar, ometre el camp `image` d'aquella notícia (no posar-hi rutes que no existeixen).
+- **Pes de les imatges.** Tota imatge que es desi a `public/assets/` ha de ser un JPEG de debò (no un PNG amb l'extensió `.jpg`: es nota perquè passa dels 500 KB), d'uns 1200 px de costat com a màxim i per sota de 350 KB. Si l'eina de generació retorna un PNG, cal reconvertir-lo abans de fer el commit, per exemple amb `python3 -c "from PIL import Image; im=Image.open('X.jpg').convert('RGB'); im.save('X.jpg','JPEG',quality=88,optimize=True,progressive=True)"`. Motiu: el juliol del 2026 s'hi van colar 26 PNG de 1,6 MB de mitjana i Googlebot es descarregava 34 MB per visita, amb un temps de resposta mitjà de 567 ms.
 - No editar mai `public/index.html` per canviar dates o versions: la portada llegeix les dades dinàmicament.
 - No tocar `public/styles.css` (l'usen les pàgines interiors) ni `public/portada.css` (portada) sense una ordre explícita de Rafael.
 - No trencar els contractes públics: `window.IA_NEWS`, `window.IA_RADAR`, `window.IA_ANALYSIS`, `window.IA_REFLECTION`, `window.IA_DAILY_IMAGE`, `article.php?slug=...`, `api.php?action=subscribe`.
