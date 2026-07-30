@@ -10,16 +10,6 @@ window.IA_RADAR = [
     "url": "https://www.elnacional.cat/oneconomia/ca/la-dada/play-your-brand-impulsa-plataforma-ia-produccio-audiovisual_1674836_102.html"
   },
   {
-    "place": "Catalunya",
-    "category": "EMPRESA",
-    "date": "30.07.2026",
-    "title": "Meta guanya un 28% més però l'aposta per la IA li asseca la caixa i fa caure l'acció fins a un 10%",
-    "summary": "Els ingressos pugen fins als 60.800 milions de dòlars, però la despesa en infraestructura d'IA -31.100 milions en el trimestre- deixa el flux de caixa lliure en només 784 milions i fa caure l'acció fins a un 10% en el mercat fora d'hores.",
-    "detail": "Meta ha travessat aquest 2026 una escalada de despesa en infraestructura d'intel·ligència artificial que ja preocupava els analistes des que l'agència de qualificació Moody's va alertar, fa només quatre dies, que la despesa \"sense precedents\" en IA amenaçava la qualitat creditícia de Microsoft, Amazon, Alphabet, Meta, Oracle i CoreWeave.\n\nL'empresa de Mark Zuckerberg va presentar aquest 29 de juliol els resultats del segon trimestre: uns ingressos de 60.800 milions de dòlars, un 28% més que fa un any i per sobre de les previsions dels analistes, però amb un benefici net que va caure un 14% i un marge operatiu que es va enfonsar un 8%, llastats per una despesa en infraestructura de 31.100 milions de dòlars en el trimestre, gairebé el doble que fa un any, que ha deixat el flux de caixa lliure en tan sols 784 milions de dòlars. Meta ha revisat a l'alça la previsió de despesa de capital per a tot el 2026, fins a un rang de 130.000 a 145.000 milions de dòlars, i n'ha finançat part amb 24.900 milions de dòlars de deute nou, sense recomprar accions pròpies. Les accions de la companyia van arribar a caure un 10% en el mercat fora d'hores i es van moderar fins a un descens del 7%.\n\nLa notícia és rellevant perquè posa xifres a la tensió que ja apuntava Moody's: la despesa en IA comença a xuclar la caixa de les mateixes tecnològiques que l'han impulsada, i Zuckerberg ha hagut de sortir a defensar la inversió assegurant que \"la meva aposta personal és que qui inverteixi en això serà recompensat\", alhora que ha confirmat que Meta vol entrar en el negoci del núvol -llogant capacitat de còmput a tercers a un preu \"significativament superior\" al que ha pagat per construir-la- en lloc de limitar-se a absorbir-ne el cost.\n\nZuckerberg no ha concretat cap calendari ni xifra per a aquest futur negoci de núvol de Meta, i la directora financera, Susan Li, s'ha limitat a reconèixer que l'empresa es decanta cada cop més pel deute per finançar aquestes infraestructures de vida llarga, sense aclarir quin marge d'endeutament addicional es planteja assumir ni si el flux de caixa lliure es recuperarà en els pròxims trimestres.",
-    "source": "Fortune",
-    "url": "https://fortune.com/2026/07/29/meta-earnings-zuckerberg-hints-cloud-business-free-cash-flow-capex/"
-  },
-  {
     "place": "Sabadell",
     "category": "EMPRESA",
     "date": "29.07.2026",
