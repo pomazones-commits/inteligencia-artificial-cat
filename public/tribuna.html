@@ -37,6 +37,7 @@
         <aside class="article-sidebar">
           <section class="article-sidecard"><h2>Comparteix</h2><div class="article-share-clean"><a id="share-linkedin" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a><a id="share-whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a><a id="share-mail" href="#">Correu</a><button type="button" data-copy-url="https://inteligencia-artificial.cat/tribuna.html">Copia</button></div></section>
           <section class="article-sidecard"><h2>Sobre aquesta peça</h2><p>La tribuna publica escrits signats per persones expertes. Les opinions expressades són de l’autoria. <a href="./redaccio.html">Consulta el mètode editorial →</a></p></section>
+          <section class="article-sidecard"><h2>Tribunes anteriors</h2><p>Recull de totes les tribunes publicades fins ara. <a href="./arxiu-tribuna.html">Ves a l’arxiu de la tribuna →</a></p></section>
         </aside>
       </div>
     </div>
@@ -44,11 +45,16 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
-  <script src="./tribuna.js?v=2026072402"></script>
+  <script src="./tribuna.js?v=2026073001"></script>
+  <script src="./tribuna-arxiu.js?v=2026073001"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
     (function () {
-      var t = window.IA_TRIBUNA;
+      // ?arxiu=N mostra una tribuna arxivada (tribuna-arxiu.js); sense parametre, la vigent.
+      var arxiu = window.IA_TRIBUNA_ARXIU || [];
+      var idx = parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
+      var esArxivada = !isNaN(idx) && !!arxiu[idx];
+      var t = esArxivada ? arxiu[idx] : window.IA_TRIBUNA;
       var estat = document.getElementById('estat');
       if (!t || !t.title) {
         estat.textContent = 'ARA MATEIX NO HI HA CAP TRIBUNA PUBLICADA.';
@@ -76,8 +82,11 @@
         p.textContent = text;
         cos.appendChild(p);
       });
-      // Compartir
-      var url = encodeURIComponent('https://inteligencia-artificial.cat/tribuna.html');
+      // Compartir (les arxivades comparteixen l'adreça amb ?arxiu=N)
+      var pagina = 'https://inteligencia-artificial.cat/tribuna.html' + (esArxivada ? '?arxiu=' + idx : '');
+      var botoCopia = document.querySelector('[data-copy-url]');
+      if (botoCopia) botoCopia.setAttribute('data-copy-url', pagina);
+      var url = encodeURIComponent(pagina);
       var titolCodificat = encodeURIComponent(t.title);
       document.getElementById('share-linkedin').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
       document.getElementById('share-whatsapp').href = 'https://wa.me/?text=' + titolCodificat + '%20' + url;

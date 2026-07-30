@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f7fb">
+  <meta name="description" content="Arxiu de la tribuna: totes les tribunes signades per veus expertes en intel·ligència artificial publicades a intel·ligènciaartificial.cat.">
+  <link rel="canonical" href="https://inteligencia-artificial.cat/arxiu-tribuna.html">
+  <meta property="og:type" content="website"><meta property="og:site_name" content="intel·ligènciaartificial.cat"><meta property="og:locale" content="ca_ES">
+  <meta property="og:title" content="Arxiu de la tribuna · intel·ligència artificial.cat">
+  <meta property="og:description" content="Totes les tribunes signades per veus expertes en intel·ligència artificial.">
+  <meta property="og:url" content="https://inteligencia-artificial.cat/arxiu-tribuna.html">
+  <title>Arxiu de la tribuna · intel·ligència artificial.cat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;family=Onest:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./editorial.css?v=2026072301">
+  <script defer src="./shared.js?v=2026072302"></script>
+  <style>
+    .tribuna-llista { display: grid; gap: 22px; margin-top: 28px; }
+    .tribuna-fitxa { display: grid; grid-template-columns: 96px 1fr; gap: 20px; padding: 24px; border: 1px solid #e3e7ef; background: #fff; }
+    .tribuna-fitxa img { width: 96px; height: 96px; object-fit: cover; border-radius: 50%; }
+    .tribuna-fitxa--sense-foto { grid-template-columns: 1fr; }
+    .tribuna-fitxa h2 { margin: 6px 0 8px; font-family: Newsreader, serif; font-size: 26px; line-height: 1.2; }
+    .tribuna-fitxa h2 a { color: inherit; text-decoration: none; }
+    .tribuna-fitxa h2 a:hover { text-decoration: underline; }
+    .tribuna-fitxa p { margin: 0 0 10px; color: #444b59; font-size: 14px; line-height: 1.6; }
+    .tribuna-fitxa .qui { color: #5d6472; font-size: 12px; }
+    .tribuna-fitxa .qui strong { color: #1c2333; }
+    .tribuna-vigent { font: 600 9px "IBM Plex Mono", monospace; color: #233a82; text-transform: uppercase; letter-spacing: .08em; }
+    @media (max-width: 560px) { .tribuna-fitxa { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body class="editorial-body">
+  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
+
+  <main class="editorial-shell editorial-main">
+    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><a href="./tribuna.html">La tribuna</a><span>/</span><span>Arxiu</span></nav>
+    <header class="article-header">
+      <div><p class="editorial-kicker">LA TRIBUNA · ARXIU</p><h1>Totes les tribunes</h1><p class="editorial-lede">Escrits signats per persones expertes, publicats a «La tribuna». Les opinions expressades són de l’autoria.</p></div>
+    </header>
+    <p class="editorial-kicker" id="estat">CARREGANT L’ARXIU…</p>
+    <div class="tribuna-llista" id="llista"></div>
+  </main>
+
+  <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
+
+  <script src="./tribuna.js?v=2026073001"></script>
+  <script src="./tribuna-arxiu.js?v=2026073001"></script>
+  <script>
+    (function () {
+      var llista = document.getElementById('llista');
+      var estat = document.getElementById('estat');
+      var entrades = [];
+      if (window.IA_TRIBUNA && window.IA_TRIBUNA.title) {
+        entrades.push({ t: window.IA_TRIBUNA, url: './tribuna.html', vigent: true });
+      }
+      (window.IA_TRIBUNA_ARXIU || []).forEach(function (t, i) {
+        if (t && t.title) entrades.push({ t: t, url: './tribuna.html?arxiu=' + i, vigent: false });
+      });
+      if (!entrades.length) {
+        estat.textContent = 'ENCARA NO HI HA CAP TRIBUNA PUBLICADA.';
+        return;
+      }
+      estat.hidden = true;
+      entrades.forEach(function (e) {
+        var t = e.t;
+        var article = document.createElement('article');
+        article.className = 'tribuna-fitxa' + (t.photo ? '' : ' tribuna-fitxa--sense-foto');
+        if (t.photo) {
+          var foto = document.createElement('img');
+          foto.src = t.photo;
+          foto.alt = t.photoAlt || ('Retrat de ' + (t.author || ''));
+          foto.loading = 'lazy';
+          article.appendChild(foto);
+        }
+        var cos = document.createElement('div');
+        var meta = document.createElement('p');
+        meta.className = 'editorial-kicker';
+        meta.textContent = [t.date || '', t.read || ''].filter(Boolean).join(' · ');
+        if (e.vigent) {
+          var marca = document.createElement('span');
+          marca.className = 'tribuna-vigent';
+          marca.textContent = ' · TRIBUNA VIGENT';
+          meta.appendChild(marca);
+        }
+        var titol = document.createElement('h2');
+        var enllac = document.createElement('a');
+        enllac.href = e.url;
+        enllac.textContent = t.title;
+        titol.appendChild(enllac);
+        var entradeta = document.createElement('p');
+        entradeta.textContent = t.excerpt || '';
+        var qui = document.createElement('p');
+        qui.className = 'qui';
+        var nom = document.createElement('strong');
+        nom.textContent = t.author || '';
+        qui.appendChild(document.createTextNode('Per '));
+        qui.appendChild(nom);
+        if (t.role) qui.appendChild(document.createTextNode(' · ' + t.role));
+        cos.appendChild(meta);
+        cos.appendChild(titol);
+        cos.appendChild(entradeta);
+        cos.appendChild(qui);
+        article.appendChild(cos);
+        llista.appendChild(article);
+      });
+    })();
+  </script>
+</body>
+</html>
