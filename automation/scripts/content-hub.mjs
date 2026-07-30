@@ -211,9 +211,16 @@ function radarCategory(story) {
 // aparèixer per casualitat en una notícia global.
 const LOCAL_TERMS = [
   'catalunya', 'català', 'catalana', 'catalanes', 'països catalans', 'barcelona', 'girona', 'lleida', 'tarragona', 'mataró', 'flix', 'sabadell', 'terrassa', 'manresa', 'reus', 'badalona', 'hospitalet', 'vic', 'granollers', 'igualada', 'generalitat', 'aina', 'softcatalà', 'bsc', 'upc', 'uab', 'ub', 'urv',
-  'caixabank', 'la caixa', 'banc sabadell', 'grifols', 'cellnex', 'fluidra', 'seat', 'cupra', 'esade', 'uoc', 'upf', 'udg', 'udl', 'eurecat', 'submer', 'openchip', 'i2cat', 'mobile world congress', 'mwc', 'tv3', '3cat', 'mare nostrum', 'marenostrum'
+  'caixabank', 'fundació la caixa', 'criteriacaixa', 'banc sabadell', 'grifols', 'cellnex', 'fluidra', 'seat', 'cupra', 'esade', 'uoc', 'upf', 'udg', 'udl', 'eurecat', 'submer', 'openchip', 'i2cat', 'mobile world congress', 'mwc', 'tv3', '3cat', 'mare nostrum', 'marenostrum'
 ];
 
+// Els termes de LOCAL_TERMS han de ser INCONFUSIBLES: la comparació no distingeix
+// majúscules, així que un terme que també sigui una paraula corrent del català
+// cola notícies globals al radar. El 30.07.2026 hi va entrar una notícia de Meta
+// perquè el titular deia que l'aposta per la IA «asseca la caixa» (la tresoreria)
+// i la llista contenia 'la caixa'. Substituït per 'fundació la caixa'. Abans
+// d'afegir cap terme nou, pregunta't si podria sortir per casualitat en una
+// notícia internacional.
 function isLocalStory(story) {
   // L'slug també compta: sovint porta el nom de l'entitat encara que el títol
   // s'hagi escurçat. El cos NO s'inclou per evitar falsos positius (una notícia
