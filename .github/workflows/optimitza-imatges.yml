@@ -1,0 +1,122 @@
+name: Optimitza el pes de les fotografies
+
+# Per què existeix: les eines de generació d'imatges tornen sovint un PNG encara
+# que el fitxer es desi amb l'extensió .jpg. El juliol del 2026 hi havia 26
+# fotografies així a public/assets, de 1,6 MB de mitjana en comptes dels ~150 KB
+# d'un JPEG equivalent: Googlebot es descarregava 34 MB per visita i Search
+# Console donava un temps de resposta mitjà de 567 ms.
+#
+# Què fa: recorre public/assets/**/*.jpg i reescriu com a JPEG progressiu
+# qualsevol fitxer que no sigui JPEG de debò o que passi de 400 KB. La qualitat
+# puja de q85 a q94 fins que la diferència amb l'original queda per sota del
+# llindar visible (PSNR >= 38 dB), així que el canvi no s'aprecia a ull.
+#
+# Idempotent: cada fitxer processat porta el comentari JPEG "iacat-opt" i no es
+# torna a tocar mai més. Additiu: si no hi ha res a millorar, no fa cap commit.
+# No toca els PNG, ni els MP3, ni els PDF dels dossiers. Per desactivar-ho:
+# esborra aquest fitxer.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/assets/**.jpg'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: optimitza-imatges
+  cancel-in-progress: false
+
+jobs:
+  optimitza:
+    if: github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[imatges]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instal·lar Pillow
+        run: python -m pip install --quiet --disable-pip-version-check pillow
+
+      - name: Reescriure les fotografies massa pesades
+        run: |
+          cat > "$RUNNER_TEMP/optimitza.py" <<'SCRIPT'
+          import glob, io, math, os
+          from PIL import Image, ImageChops
+
+          LIMIT = 400 * 1024      # a partir d'aquí una fotografia editorial és massa pesada
+          PSNR_MIN = 38.0         # per sobre d'aquest llindar la pèrdua no es veu
+          MARCA = b'iacat-opt'    # comentari JPEG: marca els fitxers ja processats
+
+          def psnr(a, b):
+              h = ImageChops.difference(a, b).convert('L').histogram()
+              mse = sum(i * i * n for i, n in enumerate(h)) / sum(h)
+              return 99.0 if mse == 0 else 10 * math.log10(65025 / mse)
+
+          canvis = []
+          estalvi = 0
+          for ruta in sorted(glob.glob('public/assets/**/*.jpg', recursive=True)):
+              mida = os.path.getsize(ruta)
+              try:
+                  original = Image.open(ruta)
+                  original.load()
+              except Exception as e:
+                  print('!! %s: no s\'ha pogut obrir (%s); es deixa igual.' % (ruta, e))
+                  continue
+              if original.info.get('comment') == MARCA:
+                  continue
+              if original.format == 'JPEG' and mida <= LIMIT:
+                  continue
+
+              font = original.convert('RGB')
+              tria = None
+              for q in (85, 88, 90, 92, 94):
+                  buf = io.BytesIO()
+                  font.save(buf, 'JPEG', quality=q, optimize=True, progressive=True,
+                            subsampling=2, comment=MARCA)
+                  buf.seek(0)
+                  valor = psnr(font, Image.open(buf).convert('RGB'))
+                  tria = (q, valor, buf.getvalue())
+                  if valor >= PSNR_MIN:
+                      break
+
+              q, valor, dades = tria
+              if len(dades) >= mida:
+                  print('== %s: ja està tan comprimit com pot estar; es deixa igual.' % ruta)
+                  continue
+              with open(ruta, 'wb') as fh:
+                  fh.write(dades)
+              estalvi += mida - len(dades)
+              canvis.append(ruta)
+              print('-> %s: %s, %d KB -> %d KB (q%d, PSNR %.1f dB)'
+                    % (ruta, 'no era JPEG' if original.format != 'JPEG' else 'massa pesada',
+                       mida // 1024, len(dades) // 1024, q, valor))
+
+          print('Fet: %d fotografia(es) reescrita(es), %.1f MB estalviats.'
+                % (len(canvis), estalvi / 1048576))
+          SCRIPT
+          python "$RUNNER_TEMP/optimitza.py"
+
+      - name: Publicar les fotografies optimitzades
+        run: |
+          git config user.name "intel·ligènciaartificial.cat bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/assets
+          if git diff --cached --quiet; then
+            echo 'Cap canvi a publicar.'
+            exit 0
+          fi
+          git commit -m "[imatges] optimitza el pes de les fotografies"
+          for intent in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            echo "Intent $intent fallit; es torna a provar."
+            sleep 5
+          done
+          exit 1
