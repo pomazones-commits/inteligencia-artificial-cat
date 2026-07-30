@@ -7,10 +7,10 @@ a assets/audio/<slug>.mp3. Si una síntesi falla, la notícia conserva el lector
 de veu del navegador com a xarxa de seguretat (article.php ho gestiona sol).
 
 A més de les notícies, també sintetitza les peces editorials fixes
-(anàlisi de la setmana, tribuna i imatge del dia) llegint els seus fitxers
-window.IA_* de public/. Els noms de fitxer inclouen la data perquè cada
+(anàlisi de la setmana, tribuna, estudi i imatge del dia) llegint els seus
+fitxers window.IA_* de public/. Els noms de fitxer inclouen la data perquè cada
 edició nova tingui el seu àudio: analisi-AAAA-MM-DD.mp3, tribuna-AAAA-MM-DD.mp3,
-imatge-AAAA-MM-DD.mp3. Les pàgines calculen la mateixa URL a partir del camp
+estudi-AAAA-MM-DD.mp3, imatge-AAAA-MM-DD.mp3. Les pàgines calculen la mateixa URL a partir del camp
 `date` de cada peça. Qualsevol errada en aquestes peces extres NO fa fallar
 la síntesi de les notícies.
 """
@@ -33,16 +33,23 @@ MIDA_MINIMA = 20000  # bytes: per sota d'això considerem l'àudio corrupte
 PECES_EXTRES = [
     (Path("public/analysis.js"), "analisi", ("title", "excerpt", "body")),
     (Path("public/tribuna.js"), "tribuna", ("title", "excerpt", "body")),
+    (Path("public/estudis.js"), "estudi", ("title", "abstract", "body")),
     (Path("public/daily-image.js"), "imatge", ("title", "caption", "body")),
     (Path("public/reflection.js"), "quadern", ("title", "dek", "body")),
 ]
+
+# Marques de format del cos dels estudis que la veu no ha de llegir:
+# «## » encapçala un títol de secció i «• » un pic d'una llista.
+MARQUES = re.compile(r"(?m)^[ \t]*(?:#{1,6}|•)[ \t]*")
 
 
 def camp_com_a_text(valor) -> str:
     """Un camp pot ser text o una llista de paràgrafs (p. ex. el body del quadern)."""
     if isinstance(valor, list):
-        return "\n\n".join(str(part).strip() for part in valor if str(part).strip())
-    return str(valor or "").strip()
+        text = "\n\n".join(str(part).strip() for part in valor if str(part).strip())
+    else:
+        text = str(valor or "").strip()
+    return MARQUES.sub("", text).strip()
 
 
 def curl(args, **kw):
