@@ -233,3 +233,32 @@ test('una notícia d’empresa catalana (CaixaBank) es deriva al radar encara qu
   const feed = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
   assert.ok(feed.some(item => item.slug === 'caixabank-unitat-ciberseguretat-ia'), 'la notícia catalana també surt al feed (va als dos llocs)');
 });
+
+test('una notícia global que diu «la caixa» en sentit de tresoreria NO es cola al radar', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  // Cas real del 30.07.2026: 'la caixa' era a LOCAL_TERMS i la comparació no
+  // distingeix majúscules, així que aquest titular de Meta va entrar al radar.
+  const meta = {
+    ...story(1),
+    slug: 'meta-resultats-ia-caixa',
+    sourceUrl: 'https://example.com/meta-resultats',
+    category: 'EMPRESA',
+    title: 'Meta guanya un 28% més però l’aposta per la IA li asseca la caixa',
+    excerpt: 'L’acció cau fins a un 10% després de presentar resultats.'
+  };
+  const catalana = {
+    ...story(2),
+    slug: 'fundacio-la-caixa-beques-ia',
+    sourceUrl: 'https://example.com/fundacio-la-caixa',
+    category: 'EMPRESA',
+    title: 'La Fundació la Caixa amplia les beques de recerca en intel·ligència artificial',
+    excerpt: 'La convocatòria creix un 20% respecte de l’any passat.'
+  };
+  await writeFile(input, JSON.stringify([meta, catalana, story(3), story(5), story(7)]), 'utf8');
+  assert.equal(run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-07-30'], root).status, 0);
+
+  const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.ok(!radar.some(item => item.title.startsWith('Meta guanya')), 'la notícia global de Meta no entra al radar per la paraula «caixa»');
+  assert.ok(radar.some(item => item.title.startsWith('La Fundació la Caixa')), 'la Fundació la Caixa sí que es deriva al radar');
+});
