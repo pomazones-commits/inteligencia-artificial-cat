@@ -17,7 +17,11 @@ on:
     # Madrid; a l'estiu (UTC+2) 04:05/08:05/12:05/16:05 UTC i a l'hivern (UTC+1)
     # 05:05/09:05/13:05/17:05 UTC. Cobrim les dues tandes tot l'any; un fire de
     # mes no fa res si tot esta en ordre.
-    - cron: '20 4,5,8,9,12,13,16,17 * * *'
+    # 30.07.2026: dues passades per lot en lloc d'una. La de ~15 min despres
+    # (:23) sovint troba el desplegament encara reintentant i s'absten; la
+    # segona (:53) arriba quan la finestra de reintents ja s'ha tancat i si
+    # que detecta el lot que no s'ha arribat a publicar.
+    - cron: '23,53 4,5,8,9,12,13,16,17 * * *'
   workflow_dispatch:
 
 permissions:
