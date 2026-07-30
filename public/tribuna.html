@@ -77,9 +77,25 @@
       }
       var paragrafs = String(t.body || '').split(/\n\n+/).filter(Boolean);
       var cos = document.getElementById('cos');
+      // Les adreces web del text es converteixen en enllaços clicables (construïts
+      // amb el DOM, mai amb innerHTML). La puntuació final no forma part de l'enllaç.
       paragrafs.forEach(function (text) {
         var p = document.createElement('p');
-        p.textContent = text;
+        var re = /https?:\/\/[^\s]+/g;
+        var ultim = 0;
+        var m;
+        while ((m = re.exec(text))) {
+          var url = m[0].replace(/[).,;:!?»]+$/, '');
+          p.appendChild(document.createTextNode(text.slice(ultim, m.index)));
+          var a = document.createElement('a');
+          a.href = url;
+          a.textContent = url;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          p.appendChild(a);
+          ultim = m.index + url.length;
+        }
+        p.appendChild(document.createTextNode(text.slice(ultim)));
         cos.appendChild(p);
       });
       // Compartir (les arxivades comparteixen l'adreça amb ?arxiu=N)
