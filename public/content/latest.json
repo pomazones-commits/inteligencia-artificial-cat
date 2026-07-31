@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-31T08:31:23.876Z",
+  "updatedAt": "2026-07-31T12:24:25.936Z",
   "items": [
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "Investigadors militars xinesos van fer servir GPT-3.5 d'OpenAI i Claude d'Anthropic per a projectes de defensa, revela una investigació de Reuters",
+      "excerpt": "Una anàlisi de més de 80 articles acadèmics i patents xineses mostra que la Unitat 96941 de l'Exèrcit Popular d'Alliberament va fer servir GPT-3.5 per processar codi militar i que investigadors vinculats a la indústria armamentística van recórrer a Claude 3 Haiku per entrenar un classificador de vigilància, malgrat les polítiques d'ambdues empreses que prohibeixen l'accés comercial des de la Xina."
+    },
+    {
+      "category": "JUSTÍCIA",
+      "read": "4 MIN",
+      "title": "Un tribunal de Munic condemna Suno per infracció de drets d'autor, en la primera gran sentència europea contra una IA musical",
+      "excerpt": "El Tribunal Regional de Munic dictamina que els models Suno v3.5 i v4 van «memoritzar» i reproduir sis cançons de l'entitat de gestió alemanya GEMA, entre elles Rasputin i Daddy Cool, i obliga l'empresa a revelar ingressos i pagar una indemnització; Suno estudia recórrer la decisió."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "Google activa a Google Earth una eina que genera imatges fotorealistes falses sobre coordenades reals del planeta",
+      "excerpt": "Nano Banana 2 permet a qualsevol usuari fer zoom sobre un punt real de Google Earth i crear-hi una escena fabricada amb la mateixa llum i angle que la imatge de satèl·lit original; Google hi afegeix la marca d'aigua SynthID, però el periodista Henk van Ess documenta que AFP i BBC Verify ja van validar-hi un cas real de desinformació."
+    },
+    {
+      "category": "XIPS",
+      "read": "4 MIN",
+      "title": "Huawei allibera en obert openPangu-2.0-Pro, un model de 505.000 milions de paràmetres entrenat sense xips de Nvidia",
+      "excerpt": "La companyia xinesa publica els pesos, el codi d'inferència i l'informe tècnic d'un model amb 18.000 milions de paràmetres actius per token i una finestra de context de 512.000 tokens, entrenat íntegrament amb els seus propis processadors Ascend, en la seva aposta més ambiciosa per demostrar que pot competir en IA de frontera sense maquinari nord-americà."
+    },
+    {
+      "category": "MODELS",
+      "read": "3 MIN",
+      "title": "DeepSeek posa en beta pública V4-Flash-0731, una versió reentrenada del seu model més ràpid per a tasques d'agent",
+      "excerpt": "El nou model xinès assoleix 82,7 punts a Terminal Bench 2.1 i 54,4 a DeepSWE, dues proves centrades en la capacitat dels models per completar tasques d'agent de manera autònoma, i estrena compatibilitat amb l'API Responses i amb Codex."
+    },
     {
       "category": "MERCATS",
       "read": "5 MIN",
