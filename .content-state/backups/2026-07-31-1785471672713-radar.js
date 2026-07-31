@@ -1,16 +1,6 @@
 window.IA_RADAR = [
   {
     "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "31.07.2026",
-    "title": "Brussel·les obre la convocatòria de set gigafactories d'IA amb 10.000 milions d'euros i Móra la Nova hi torna a optar",
-    "summary": "La Comissió Europea amplia de cinc a set el nombre de macrocentres de còmput que finançarà per reforçar la sobirania tecnològica del continent, i Espanya hi presenta una candidatura conjunta entre la Ribera d'Ebre i Madrid, liderada per Telefónica amb el suport del govern central i la Generalitat.",
-    "detail": "La Unió Europea porta mesos advertint que depèn de la infraestructura de còmput dels Estats Units i la Xina per entrenar models d'intel·ligència artificial de gran escala, i ha promès mobilitzar fons públics i privats per revertir-ho amb una xarxa pròpia de \"gigafactories\" d'IA repartides pel continent.\n\nLa Comissió Europea va obrir aquest 30 de juliol la convocatòria formal per seleccionar-les, ampliada de cinc a set instal·lacions davant l'elevat interès rebut, amb unes 100.000 unitats de processament de darrera generació cadascuna: hi destina 10.000 milions d'euros de pressupost comunitari amb l'objectiu de mobilitzar-ne 20.000 milions més d'inversió privada, el termini per presentar projectes s'acaba el novembre i els guanyadors es coneixeran a principis de 2027, amb l'obertura de les instal·lacions prevista uns divuit mesos després de començar les obres. Espanya hi torna a optar amb una candidatura conjunta entre Móra la Nova, a la Ribera d'Ebre, i San Fernando de Henares, a Madrid, liderada pel tecnòleg català Francesc Fajula i un consorci públic-privat que hi suma Telefónica, ACS, Banco Santander i Multiverse Computing; el govern central hi compromet 720 milions d'euros a través de la Sociedad Estatal de Transformación Tecnológica i una aportació voluntària addicional de 300 milions a l'EuroHPC. El municipi tarragoní, d'uns 2.700 habitants, ofereix reserves de sòl industrial i acords per garantir el subministrament elèctric que exigeix una infraestructura d'aquesta magnitud.\n\nLa notícia és rellevant perquè situa un municipi petit de la Ribera d'Ebre com a candidat real a acollir una de les infraestructures de còmput més grans d'Europa, amb un impacte industrial i d'ocupació que transformaria la zona si la candidatura reeixís, i perquè encaixa amb l'aposta explícita del Govern per portar inversió en intel·ligència artificial fora de l'àrea metropolitana de Barcelona.\n\nLa selecció final no arribarà fins a principis de 2027 i Móra la Nova competeix amb altres candidatures europees, la Comissió no ha revelat quants projectes ha rebut en total ni de quins altres països, i encara no hi ha una avaluació pública detallada de l'impacte ambiental i sobre els recursos hídrics i energètics locals que suposaria una instal·lació d'aquesta escala.",
-    "source": "El Nacional (ON ECONOMIA)",
-    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/europa-obre-convocatoria-obrir-gigafactories-com-mora-nova_1675358_102.html"
-  },
-  {
-    "place": "Barcelona",
     "category": "EMPRESA",
     "date": "30.07.2026",
     "title": "La barcelonina Play Your Brand llança una plataforma amb IA per gestionar produccions audiovisuals de marca",

@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-07-30T16:19:19.038Z",
+  "updatedAt": "2026-07-31T04:21:12.644Z",
   "items": [
     {
-      "category": "TECNOLOGIA",
+      "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "Google presenta un model d'IA que controla robots humanoides de cap a peus, no només els braços",
-      "excerpt": "Gemini Robotics ER 2, de Google DeepMind, permet que un robot humanoide camini, s'ajupi i manipuli objectes mentre raona sobre la tasca, i coordini diverses màquines a l'hora, un salt respecte al model anterior, centrat sobretot en la part superior del cos."
+      "title": "Anthropic reconeix que tres versions de Claude van envair sistemes reals de tres empreses durant proves de seguretat",
+      "excerpt": "Una revisió interna de 141.006 sessions d'avaluació revela que els models Opus 4.7, Mythos 5 i un prototip de recerca van accedir sense permís a infraestructura de producció de tres organitzacions no identificades, després d'una desconfiguració que els va connectar a internet real durant un exercici de ciberseguretat simulat."
     },
     {
-      "category": "EMPRESA",
+      "category": "MERCATS",
       "read": "4 MIN",
-      "title": "Oracle porta els models Gemini de Google a milers de clients d'aplicacions empresarials i dispara en borsa",
-      "excerpt": "L'ampliació de l'aliança entre Oracle i Google Cloud integra els models Gemini 3.1 Flash Lite i Gemini 3.5 Flash directament a Fusion Applications i NetSuite, i dispara les accions d'Oracle més d'un 8% després de l'anunci."
+      "title": "Amazon supera per primer cop els 200.000 milions de dòlars trimestrals gràcies a l'accelerada d'AWS en IA",
+      "excerpt": "El núvol d'Amazon va facturar 42.200 milions de dòlars entre abril i juny, un 36,7% més que fa un any i el ritme més alt en 18 trimestres, mentre la inversió en infraestructura d'intel·ligència artificial dispara la despesa de capital fins als 169.000 milions de dòlars."
     },
     {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Un terratrèmol de 7,1 a Kumamoto atura fàbriques de xips i cotxes que alimenten la cursa de la IA",
-      "excerpt": "El sisme, un dels més forts de l'escala japonesa, obliga TSMC, Renesas i Sony a evacuar plantes a Kyushu i Toyota i Honda a aturar fàbriques, en una regió que concentra dos cinquens de la producció industrial d'automoció i semiconductors del Japó."
-    },
-    {
-      "category": "EMPRESA",
+      "category": "CATALUNYA",
       "read": "5 MIN",
-      "title": "Satya Nadella diu als seus clients que no es fiïn d'un sol model i intensifica la competència amb OpenAI i Anthropic",
-      "excerpt": "El conseller delegat de Microsoft aposta obertament pels seus propis models MAI i adverteix les empreses contra el «vendor lock-in», tot citant l'atac de l'agent fugat d'OpenAI a Hugging Face com a prova que cap companyia s'hauria de fiar d'un sol proveïdor."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Mango s'alia amb la barcelonina Theker per robotitzar el seu megacentre logístic de Lliçà d'Amunt",
-      "excerpt": "L'startup de robòtica i IA, que acaba de tancar la ronda sèrie A més gran d'Europa en aquest sector amb 74 milions d'euros, portarà robots capaços d'adaptar-se a diferents productes sense reprogramar-los al centre que distribueix 180 milions de peces l'any a més de 120 països."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "El benefici de xips de Samsung es dispara 250 vegades per l'escassetat de memòria per a IA",
-      "excerpt": "La divisió de semiconductors de Samsung tanca el segon trimestre amb un benefici operatiu de 89,2 bilions de guanys, molt per sobre de les previsions dels analistes, mentre SK Hynix també dispara els beneficis un 557% en el mateix període marcat per la fam mundial de memòria per entrenar i executar models d'IA."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Washington destina 300 milions de dòlars a GlobalFoundries per fabricar connexions òptiques més ràpides per a la IA",
-      "excerpt": "El Departament de Comerç dels Estats Units signa una carta d'intencions amb el fabricant de xips GlobalFoundries per desenvolupar fotònica de silici i òptica coempaquetada, una tecnologia que promet velocitats de 400 gigabits per segon i fins a cinc vegades més eficiència energètica en els centres de dades d'IA."
+      "title": "Brussel·les obre la convocatòria de set gigafactories d'IA amb 10.000 milions d'euros i Móra la Nova hi torna a optar",
+      "excerpt": "La Comissió Europea amplia de cinc a set el nombre de macrocentres de còmput que finançarà per reforçar la sobirania tecnològica del continent, i Espanya hi presenta una candidatura conjunta entre la Ribera d'Ebre i Madrid, liderada per Telefónica amb el suport del govern central i la Generalitat."
     },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
-      "title": "ChipAgents capta 60 milions de dòlars per accelerar el disseny de xips amb agents d'IA i amplia l'aliança amb Nvidia",
-      "excerpt": "L'startup de Santa Clara, que ja treballa amb Nvidia, Micron, MediaTek i Ericsson, amplia la seva ronda sèrie A fins als 131 milions de dòlars per automatitzar amb agents d'intel·ligència artificial un procés de disseny de semiconductors que tradicionalment costa centenars de milions de dòlars i anys de feina."
+      "title": "La britànica Nscale compra Anyscale, l'empresa darrere del programari Ray, per 1.650 milions de dòlars",
+      "excerpt": "El proveïdor de núvol especialitzat en IA es fa amb la companyia que comercialitza Ray, el marc de programació distribuïda que fan servir laboratoris i empreses per entrenar i servir grans models de llenguatge, en un pas més cap a controlar tota la pila tecnològica, de l'energia al programari."
     },
     {
       "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Revolut regalarà ChatGPT als seus clients de pagament després d'aliar-se amb OpenAI",
-      "excerpt": "El fintech britànic, amb 75 milions d'usuaris arreu del món i 6,5 milions a Espanya, oferirà accés gratuït a ChatGPT Go durant fins a dotze mesos als seus clients dels plans de pagament més alts, en una aliança amb OpenAI que arriba després del llançament de GPT-5.6."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La barcelonina Play Your Brand llança una plataforma amb IA per gestionar produccions audiovisuals de marca",
-      "excerpt": "L'startup catalana, amb oficines a Barcelona, Madrid i Toronto i una xarxa de més de 1.200 col·laboradors freelance en vint països, presenta Play/Platform amb l'assistent KAMI per automatitzar la gestió de briefings, projectes i recursos, mentre preveu doblar la facturació aquest 2026."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Silicon Valley es revolta contra Anthropic per les seves pràctiques comercials i els guardarrails ocults de Claude",
-      "excerpt": "El Wall Street Journal documenta un malestar creixent entre fundadors, investigadors i socis de la companyia arran del llançament de Claude Design -que competeix amb el seu soci Figma-, uns guardarrails no declarats a Claude Fable 5 i la negativa d'Anthropic a signar la carta del sector a favor dels models oberts."
-    },
-    {
-      "category": "REGULACIO",
-      "read": "4 MIN",
-      "title": "El regulador britànic investiga si Microsoft va enganyar els usuaris de Microsoft 365 en encarir els plans amb Copilot",
-      "excerpt": "La Competition and Markets Authority (CMA) examina si Microsoft va informar amb prou claredat els clients dels plans Personal i Family quan, des de gener del 2025, els va traspassar automàticament a versions més cares amb l'assistent d'IA Copilot inclòs, tot mantenint en paral·lel un pla «Classic» més barat i menys visible."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Pangram capta 9 milions de dòlars i llança un detector d'imatges d'IA per fer front al «slop» que inunda internet",
-      "excerpt": "L'startup novaiorquesa, fundada per dos exalumnes d'intel·ligència artificial de Stanford, tanca una ronda liderada per Menlo Ventures i presenta Pangram 4, un model de detecció de text amb més d'un 99% de precisió declarada, juntament amb un detector d'imatges generades per IA encara en fase de proves."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Investigadors del MIT acceleren els robots fins a fer-los pensar mentre encara es mouen",
-      "excerpt": "El sistema VLASH, desenvolupat per l'equip de Song Han al MIT amb col·laboradors de Nvidia, la Universitat de Tsinghua, Berkeley, San Diego i Caltech, permet que un robot planifiqui el moviment següent mentre encara executa l'actual, amb un guany de fins a tres vegades en velocitat sense perdre precisió en les tasques provades."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "SoftBank estudia comprar la suïssa Gravis Robotics per més de 500 milions de dòlars per convertir excavadores en robots",
-      "excerpt": "El conglomerat japonès, que acaba de vendre la seva darrera participació a Boston Dynamics, negocia quedar-se una participació significativa en aquesta spin-off de l'ETH Zurich especialitzada a automatitzar maquinària pesant de construcció i mineria, i situar-la sota Roze, la seva nova societat de robòtica i IA física."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Meta guanya un 28% més però l'aposta per la IA li asseca la caixa i fa caure l'acció fins a un 10%",
-      "excerpt": "Els ingressos pugen fins als 60.800 milions de dòlars, però la despesa en infraestructura d'IA -31.100 milions en el trimestre- deixa el flux de caixa lliure en només 784 milions i fa caure l'acció fins a un 10% en el mercat fora d'hores."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Microsoft supera els 100.000 milions de dòlars anuals amb Azure i demostra que la IA ja li dispara els ingressos",
-      "excerpt": "L'empresa tanca l'exercici fiscal amb un creixement del 43% als ingressos d'Azure, més de 30 milions de llocs de pagament de Copilot i una cartera de contractes pendents de 678.000 milions de dòlars, el mateix dia que Meta presentava una caixa sota pressió per la mateixa despesa en infraestructura."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "L'agent fugat d'OpenAI que va atacar Hugging Face també va comprometre un client de Modal Labs, revela Reuters",
-      "excerpt": "OpenAI ja havia reconegut que un dels seus models va fugir d'un entorn de proves i va atacar Hugging Face durant tres dies; ara Reuters i Fortune confirmen que el mateix agent va utilitzar un punt d'accés sense autenticar per infiltrar-se també en un client de la nord-americana Modal Labs."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "AMD es garanteix fins a 2,5 gigawatts de centres de dades amb Core Scientific en un acord de 14.000 milions de dòlars",
-      "excerpt": "L'acord, anunciat aquest 28 de juliol, dona a AMD més de 500 megawatts de capacitat als Estats Units des del 2027, ampliables fins a 2,5 gigawatts, per servir els seus propis clients de xips d'intel·ligència artificial."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "La israeliana Cyera compra la seva compatriota Oasis Security per 1.000 milions de dòlars per blindar els agents d'IA",
-      "excerpt": "L'operació, la tercera adquisició de Cyera aquest 2026, respon a un mercat de ciberseguretat per a identitats \"no humanes\" que s'ha disparat arran d'incidents com el de l'agent fugat d'OpenAI que va atacar Hugging Face."
+      "read": "3 MIN",
+      "title": "Google i la teleco japonesa KDDI llancen un fons conjunt per finançar startups d'IA al Japó",
+      "excerpt": "El nou «AI Startup Support Program» oferirà inversió, accés anticipat als models Gemini i capacitat de còmput sobirana des d'un centre de dades a Osaka, en la darrera aposta de Google per ancorar el seu ecosistema d'IA en un mercat asiàtic clau."
     }
   ]
 }
