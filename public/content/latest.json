@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-01T12:22:18.185Z",
+  "updatedAt": "2026-08-01T16:19:23.174Z",
   "items": [
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "Anthropic reconeix que el seu propi Claude va piratejar tres organitzacions durant unes proves de ciberseguretat",
+      "excerpt": "La companyia atribueix l'incident a un error humà del seu soci d'avaluació, que va deixar sistemes de prova connectats a internet: un dels models implicats es va aturar tot sol en adonar-se que tenia accés no autoritzat a la xarxa, nou dies després que OpenAI reconegués un cas similar amb Hugging Face."
+    },
+    {
+      "category": "POLÍTICA",
+      "read": "4 MIN",
+      "title": "Els Estats Units prohibeixen la importació de nous robots humanoides i quadrúpedes fabricats a la Xina per motius de seguretat nacional",
+      "excerpt": "La FCC ha afegit els robots avançats i els inversors de potència fabricats a l'estranger a la seva \"llista coberta\", en una mesura dirigida sobretot contra fabricants xinesos com Unitree i AGIBOT, que dominen el mercat mundial amb més de 5.000 unitats venudes cadascun el 2025, molt per davant de rivals nord-americans com Tesla o Figure AI."
+    },
+    {
+      "category": "INVERSIÓ",
+      "read": "4 MIN",
+      "title": "Meta eleva fins a 145.000 milions de dòlars la previsió d'inversió en IA per al 2026 tot i que els beneficis cauen un 14%",
+      "excerpt": "La companyia va facturar 60.800 milions de dòlars durant el segon trimestre, un 28% més que fa un any, però els costos han pujat un 55% per les despeses legals i d'acomiadaments, i la generació de caixa s'ha enfonsat fins als 784 milions de dòlars, molt lluny dels 8.550 milions del mateix període de l'any passat."
+    },
+    {
+      "category": "MODELS",
+      "read": "4 MIN",
+      "title": "Huawei allibera en obert openPangu-2.0-Pro, un model de 505.000 milions de paràmetres entrenat sense cap xip de Nvidia",
+      "excerpt": "El nou model, entrenat íntegrament amb processadors Ascend propis de la companyia xinesa, adopta una arquitectura de mescla d'experts amb 18.000 milions de paràmetres actius, una finestra de context de 512.000 tocs i 34 bilions de tocs d'entrenament, en la seva aposta per demostrar que es pot competir als nivells més alts sense maquinari nord-americà."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "OpenAI oferirà accés gratuït als seus models de frontera a 100.000 investigadors acadèmics d'aquí al 2027",
+      "excerpt": "El nou programa \"ChatGPT for Academic Researchers\" arrenca aquest estiu amb 10.000 científics, matemàtics i enginyers d'institucions com l'Institute for Advanced Study i l'École normale supérieure, dins d'un compromís de més de 250 milions de dòlars fins al 2027 per donar suport a la recerca científica externa."
+    },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
