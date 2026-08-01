@@ -138,7 +138,7 @@ jobs:
                 echo 'put /tmp/deploy-sha.txt -o /deploy-sha.txt'
                 echo "bye"
               } > /tmp/pla.lftp
-              if lftp -u "$CRED" -f /tmp/pla.lftp "$HOST"; then
+              if lftp -u "$CRED" -e "source /tmp/pla.lftp" "$HOST"; then
                 echo "Desplegament incremental acabat (intent $i)."
                 exit 0
               fi
