@@ -99,6 +99,17 @@ jobs:
               base=$(tr -cd 'a-f0-9' < /tmp/base-sha.txt | head -c 40)
             fi
 
+            # 1-bis) Guarda (01.08.2026): si el servidor ja serveix un commit
+            # MES NOU que el d'aquesta run i que ja conte HEAD, no cal fer res.
+            # Passa amb runs encadenades que arrenquen tard o reexecutades:
+            # abans queien al mirall complet i re-pujaven un arbre antic.
+            if [ ${#base} -eq 40 ] && [ "$base" != "$HEAD_SHA" ] \
+               && git cat-file -e "$base^{commit}" 2>/dev/null \
+               && git merge-base --is-ancestor HEAD "$base" 2>/dev/null; then
+              echo "El servidor ja serveix ${base:0:7}, posterior a $HEAD_SHA. Aquesta run no ha de fer res."
+              exit 0
+            fi
+
             # 2) Decideix el mode
             mode="mirall"
             motiu="marcador absent o illegible (primer desplegament o FTP mut)"

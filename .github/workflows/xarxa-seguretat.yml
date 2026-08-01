@@ -22,6 +22,14 @@ on:
     # segona (:53) arriba quan la finestra de reintents ja s'ha tancat i si
     # que detecta el lot que no s'ha arribat a publicar.
     - cron: '23,53 4,5,8,9,12,13,16,17 * * *'
+  # 01.08.2026: via que NO depen de cap cron. El lot de les 18.05 no es va
+  # desplegar i cap de les dues passades programades (:23 i :53) no va arribar
+  # a existir. Encadenant-nos al Content Hub tenim sempre una passada per lot,
+  # amb una espera previa perque el desplegament i l'audio facin la seva feina.
+  workflow_run:
+    workflows:
+      - "Content Hub — completar l'edició"
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -29,14 +37,25 @@ permissions:
   actions: write
 
 concurrency:
-  group: xarxa-seguretat
+  # Un grup per origen: la passada encadenada (que dorm una estona) no ha de
+  # fer cua amb les programades ni al reves. Fer cua es el que va encallar
+  # 'desplega' l'01.08.2026.
+  group: xarxa-seguretat-${{ github.event_name }}
   cancel-in-progress: false
 
 jobs:
   vigila:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 25
     steps:
+      - name: Donar temps al desplegament i a l'audio (nomes si venim del Content Hub)
+        if: github.event_name == 'workflow_run'
+        run: |
+          # El desplegament incremental triga 1-2 min, pero pot reintentar fins
+          # a ~15 min si l'FTP va saturat, i l'audio espera el desplegament.
+          # Comprovar abans d'hora nomes faria que ens abstinguessim.
+          sleep 780
+
       - name: Recuperar el repositori amb l'historial
         uses: actions/checkout@v4
         with:
