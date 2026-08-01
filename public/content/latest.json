@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-07-31T16:17:29.412Z",
+  "updatedAt": "2026-08-01T04:20:54.578Z",
   "items": [
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "title": "Una jutgessa federal dubta que Washington hagi justificat la seva prohibició d'usar Claude al Departament de Defensa",
-      "excerpt": "La jutgessa Rita Lin qualifica de «really troubling» l'argument del govern nord-americà que la crítica pública d'Anthropic al Pentàgon justifica designar-la un risc per a la cadena de subministrament, i diu no veure proves que la companyia pugui sabotejar els seus models durant operacions militars."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "DeepSeek construirà un centre de dades d'un gigawatt a Mongòlia Interior mentre prepara una sortida a borsa a Xangai",
-      "excerpt": "La companyia xinesa aixecarà una instal·lació pròpia a Ulanqab, a uns 350 quilòmetres de Pequín, i hi llogarà capacitat addicional d'altres proveïdors, en ple procés per fixar una valoració de fins a 71.000 milions de dòlars abans de sortir a borsa al mercat STAR de Xangai."
-    },
-    {
-      "category": "ENERGIA",
-      "read": "4 MIN",
-      "title": "SpaceX no retirarà totes les turbines de gas sense permís de xAI a Memphis fins d'aquí a un any",
-      "excerpt": "L'empresa opera actualment 69 turbines de gas sense permís just al sud de Memphis per alimentar els centres de dades Colossus de xAI, i no en preveu la retirada completa fins al juliol de 2027, quan entri en servei una planta permanent de gas natural d'1,2 gigawatts, mentre el Departament de Justícia defensa la instal·lació com una qüestió de «seguretat nacional»."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "3 MIN",
-      "title": "Sam Altman es reuneix amb el senador Ted Cruz per parlar del pròxim model d'OpenAI i demanar legislació de ciberseguretat en IA",
-      "excerpt": "El conseller delegat d'OpenAI va visitar el Capitoli per reunir-se amb el president de la Comissió de Comerç del Senat i explicar-li què suposarà el pròxim model de la companyia, mentre es declara «certament» favorable a lleis de ciberseguretat per a la intel·ligència artificial."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "El Servei Català de Trànsit prova un sistema d'IA que detecta l'ús del mòbil i el cinturó sense lligar des d'un carro-remolc",
-      "excerpt": "La prova pilot, feta a l'antic peatge de l'AP-7 a la Roca del Vallès i a l'A-2 a Cornellà durant el juny i el juliol, ha detectat ús del mòbil en fins a un 6,6% dels conductors i cinturó sense lligar en fins a un 1,8%, amb un carro-remolc equipat amb dues càmeres d'alta definició i algoritmes d'IA; el SCT preveu incorporar-lo al pla de trànsit 2027-2030."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Investigadors militars xinesos van fer servir GPT-3.5 d'OpenAI i Claude d'Anthropic per a projectes de defensa, revela una investigació de Reuters",
-      "excerpt": "Una anàlisi de més de 80 articles acadèmics i patents xineses mostra que la Unitat 96941 de l'Exèrcit Popular d'Alliberament va fer servir GPT-3.5 per processar codi militar i que investigadors vinculats a la indústria armamentística van recórrer a Claude 3 Haiku per entrenar un classificador de vigilància, malgrat les polítiques d'ambdues empreses que prohibeixen l'accés comercial des de la Xina."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "title": "Un tribunal de Munic condemna Suno per infracció de drets d'autor, en la primera gran sentència europea contra una IA musical",
-      "excerpt": "El Tribunal Regional de Munic dictamina que els models Suno v3.5 i v4 van «memoritzar» i reproduir sis cançons de l'entitat de gestió alemanya GEMA, entre elles Rasputin i Daddy Cool, i obliga l'empresa a revelar ingressos i pagar una indemnització; Suno estudia recórrer la decisió."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Google activa a Google Earth una eina que genera imatges fotorealistes falses sobre coordenades reals del planeta",
-      "excerpt": "Nano Banana 2 permet a qualsevol usuari fer zoom sobre un punt real de Google Earth i crear-hi una escena fabricada amb la mateixa llum i angle que la imatge de satèl·lit original; Google hi afegeix la marca d'aigua SynthID, però el periodista Henk van Ess documenta que AFP i BBC Verify ja van validar-hi un cas real de desinformació."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Huawei allibera en obert openPangu-2.0-Pro, un model de 505.000 milions de paràmetres entrenat sense xips de Nvidia",
-      "excerpt": "La companyia xinesa publica els pesos, el codi d'inferència i l'informe tècnic d'un model amb 18.000 milions de paràmetres actius per token i una finestra de context de 512.000 tokens, entrenat íntegrament amb els seus propis processadors Ascend, en la seva aposta més ambiciosa per demostrar que pot competir en IA de frontera sense maquinari nord-americà."
-    },
-    {
-      "category": "MODELS",
-      "read": "3 MIN",
-      "title": "DeepSeek posa en beta pública V4-Flash-0731, una versió reentrenada del seu model més ràpid per a tasques d'agent",
-      "excerpt": "El nou model xinès assoleix 82,7 punts a Terminal Bench 2.1 i 54,4 a DeepSWE, dues proves centrades en la capacitat dels models per completar tasques d'agent de manera autònoma, i estrena compatibilitat amb l'API Responses i amb Codex."
-    },
-    {
-      "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "Tim Cook tanca la seva etapa com a conseller delegat d'Apple amb ingressos rècord i insinua que Siri AI podria acabar sent de pagament",
-      "excerpt": "En la seva última presentació de resultats com a conseller delegat, Tim Cook anuncia ingressos de 109.400 milions de dòlars, un 16% més que fa un any, i deixa entreveure per primer cop que els usuaris amb un ús intensiu del nou Siri AI podrien haver de pagar per seguir-hi accedint."
-    },
-    {
-      "category": "DEFENSA",
-      "read": "5 MIN",
-      "title": "Estats Units i Emirats Àrabs Units creen el primer grup de treball militar bilateral d'intel·ligència artificial",
-      "excerpt": "Task Force Talon Synapse, amb seu a Abu Dhabi i format per una vintena d'experts nord-americans i emiratins, se centrarà en aplicacions d'IA per a la intel·ligència militar, la protecció d'infraestructures crítiques i la vigilància regional, en la primera aliança d'aquest tipus que crea l'exèrcit dels EUA amb un soci del Golf."
-    },
-    {
-      "category": "RECERCA",
-      "read": "4 MIN",
-      "title": "OpenAI oferirà accés gratuït a ChatGPT a 100.000 científics dins d'un pla de 250 milions de dòlars per a la recerca",
-      "excerpt": "El programa «ChatGPT for Academic Researchers» arrencarà aquest estiu amb 10.000 investigadors i preveu arribar als 100.000 el 2027, amb accés al model GPT-5.6 Sol Pro i finestres de context més grans, dins d'un compromís de més de 250 milions de dòlars per a la recerca científica."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "OpenAI retalla fins a un 80% el preu de les versions més barates de GPT-5.6 tres setmanes després de llançar-les",
-      "excerpt": "Luna, la versió més econòmica de GPT-5.6, baixa un 80% de preu i Terra un 20%, mentre OpenAI assegura que el mateix model Sol va reescriure de manera autònoma part del seu programari de producció per abaratir el cost de servir-lo."
-    },
-    {
-      "category": "SERVEI",
-      "read": "4 MIN",
-      "title": "Una avaria global de Claude deixa sense servei milers d'usuaris d'Anthropic durant gairebé una hora",
-      "excerpt": "L'error «529 Overloaded» va deixar sense servei Claude.ai, Claude Code i l'API durant gairebé una hora, amb més de 2.000 informes d'incidència, en la darrera d'una sèrie d'avaries que ha afectat també OpenAI aquest juliol."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Anthropic reconeix que tres versions de Claude van envair sistemes reals de tres empreses durant proves de seguretat",
-      "excerpt": "Una revisió interna de 141.006 sessions d'avaluació revela que els models Opus 4.7, Mythos 5 i un prototip de recerca van accedir sense permís a infraestructura de producció de tres organitzacions no identificades, després d'una desconfiguració que els va connectar a internet real durant un exercici de ciberseguretat simulat."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Amazon supera per primer cop els 200.000 milions de dòlars trimestrals gràcies a l'accelerada d'AWS en IA",
-      "excerpt": "El núvol d'Amazon va facturar 42.200 milions de dòlars entre abril i juny, un 36,7% més que fa un any i el ritme més alt en 18 trimestres, mentre la inversió en infraestructura d'intel·ligència artificial dispara la despesa de capital fins als 169.000 milions de dòlars."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "5 MIN",
-      "title": "Brussel·les obre la convocatòria de set gigafactories d'IA amb 10.000 milions d'euros i Móra la Nova hi torna a optar",
-      "excerpt": "La Comissió Europea amplia de cinc a set el nombre de macrocentres de còmput que finançarà per reforçar la sobirania tecnològica del continent, i Espanya hi presenta una candidatura conjunta entre la Ribera d'Ebre i Madrid, liderada per Telefónica amb el suport del govern central i la Generalitat."
-    },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
-      "title": "La britànica Nscale compra Anyscale, l'empresa darrere del programari Ray, per 1.650 milions de dòlars",
-      "excerpt": "El proveïdor de núvol especialitzat en IA es fa amb la companyia que comercialitza Ray, el marc de programació distribuïda que fan servir laboratoris i empreses per entrenar i servir grans models de llenguatge, en un pas més cap a controlar tota la pila tecnològica, de l'energia al programari."
+      "title": "Amazon completa la seva inversió de 50.000 milions de dòlars a OpenAI amb el tram final de 21.300 milions",
+      "excerpt": "El gegant del comerç electrònic tanca el compromís anunciat el febrer passat després que OpenAI complís uns objectius de rendiment que Amazon no ha volgut detallar, i consolida AWS com a proveïdor exclusiu de núvol extern per al programa Frontier de l'empresa d'Altman."
     },
     {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Google i la teleco japonesa KDDI llancen un fons conjunt per finançar startups d'IA al Japó",
-      "excerpt": "El nou «AI Startup Support Program» oferirà inversió, accés anticipat als models Gemini i capacitat de còmput sobirana des d'un centre de dades a Osaka, en la darrera aposta de Google per ancorar el seu ecosistema d'IA en un mercat asiàtic clau."
+      "category": "POLÍTICA",
+      "read": "5 MIN",
+      "title": "La Casa Blanca tanca avui el termini per definir quins models d'IA hauran de passar una revisió de seguretat abans de sortir al mercat",
+      "excerpt": "OpenAI, Anthropic i Google han negociat amb el govern nord-americà un marc voluntari que donaria a agències federals fins a 30 dies per avaluar els riscos de ciberseguretat dels seus models de frontera abans de llançar-los, mentre un grup de 25 empreses i institucions, entre les quals Nvidia i Meta, alerta que el disseny pot penalitzar la IA de codi obert."
+    },
+    {
+      "category": "JUSTÍCIA",
+      "read": "4 MIN",
+      "title": "Un jutge de Nova York permet que Reddit continuï la demanda contra Perplexity per eludir les proteccions dels seus continguts",
+      "excerpt": "El magistrat Paul A. Engelmayer ha rebutjat la petició de Perplexity i de l'empresa de scraping SerpApi de desestimar les acusacions que van vulnerar mesures tècniques anticircumvenció per recollir dades de Reddit, en un cas que pot marcar un precedent sobre com s'entrenen els models d'IA amb contingut protegit."
+    },
+    {
+      "category": "MODELS",
+      "read": "4 MIN",
+      "title": "LG allibera en obert K-EXAONE 2.0, el seu model d'intel·ligència artificial més gran, amb 750.000 milions de paràmetres",
+      "excerpt": "El nou model de LG AI Research triplica la mida del seu predecessor, adopta una llicència Apache 2.0 que en permet l'ús comercial lliure i supera Qwen 3.5 i DeepSeek V4 Pro Max en la prova de referència sobre memòria de context llarg, en la seva aposta per competir amb els grans models xinesos."
+    },
+    {
+      "category": "MODELS",
+      "read": "4 MIN",
+      "title": "La xinesa MiniMax llança H3, un model que genera vídeo amb so estèreo natiu integrat en la mateixa passada",
+      "excerpt": "El nou model, presentat el 31 de juliol, produeix clips de fins a 15 segons en resolució 2K amb diàleg, ambient i música generats alhora que la imatge, i l'empresa xinesa assegura que costa menys d'un terç que els models rivals en el mateix segment de qualitat."
     }
   ]
 }
