@@ -28,7 +28,7 @@ on:
 
 concurrency:
   group: desplega-hostinger
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   desplega:
