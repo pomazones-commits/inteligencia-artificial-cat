@@ -43,7 +43,7 @@ if ($action === 'subscribe' && $_SERVER['REQUEST_METHOD'] === 'POST') {
         // Registre de diagnòstic (no públic, vegeu .htaccess): permet saber si mail() accepta l'enviament.
         @file_put_contents($dataDir . '/mail.log', date('c') . ' subscriptor=' . $email . ' mail()=' . ($enviat ? 'OK' : 'ERROR') . PHP_EOL, FILE_APPEND | LOCK_EX);
     }
-    respond(['ok' => true, 'message' => 'Gràcies! Ja formes part de l’edició de divendres.']);
+    respond(['ok' => true, 'message' => 'Gràcies! Rebràs el butlletí el pròxim dissabte.']);
 }
 
 respond(['ok' => false, 'message' => 'Acció no disponible.'], 404);
