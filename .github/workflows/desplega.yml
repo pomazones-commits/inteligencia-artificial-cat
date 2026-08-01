@@ -45,48 +45,111 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq lftp git-restore-mtime || sudo apt-get install -y -qq lftp
-          # Amb les dates reals de cada fitxer, la pujada pot ser incremental:
-          # els fitxers que no han canviat des de l'ultim desplegament se salten.
-          git restore-mtime || echo "restore-mtime no disponible: es pujara tot"
+          # Les dates reals nomes fan falta al mode "mirall complet" (vegeu el
+          # pas seguent): permeten que el mirall lftp salti el que no ha canviat.
+          git restore-mtime || echo "restore-mtime no disponible: el mirall complet ho pujaria tot"
 
-      - name: Puja public/ per FTP (incremental, amb reintents del mirall sencer)
+      - name: Puja public/ per FTP (incremental per git-diff, mirall com a recurs)
         env:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
-          # TLS nomes al canal de control (com el curl --ftp-ssl-control d'abans):
-          # el canal de dades en clar evita el bloqueig de l'FTPS de Hostinger.
-          # Sense --delete: els MP3 d'assets/audio nomes viuen al servidor.
+          # Reescriptura de l'01.08.2026. Motiu: el desplegament del lot de les
+          # 06.05 va degenerar en una pujada del public/ sencer (104 MB, 400+
+          # fitxers) i va trigar mes de 25 min. El mirall lftp "incremental"
+          # depenia de comparar dates i mides per FTP (git-restore-mtime +
+          # timestamps del servidor): si qualsevol pota falla, degrada en
+          # silenci a pujar-ho TOT.
           #
-          # Enduriment del 25.07.2026 (l'FTP de Hostinger va deixar de respondre
-          # uns minuts i el desplegament de les 06:24 va morir amb
-          # "max-retries exceeded", deixant la web amb l'edicio del dia abans):
-          #  - fins a 4 intents del mirall sencer, amb pausa creixent entre ells
-          #    (el mirall es --only-newer: cada reintent nomes puja el que falta)
-          #  - --parallel=3 en lloc de 6, per no esgotar el limit de connexions
-          #    FTP simultanies del compte (l'audio tambe puja per FTP alhora)
-          #  - timeouts mes curts per intent, perque un servidor mut falli
-          #    rapid i el temps es gasti en reintents, no en esperes
+          # Esquema nou, deterministic:
+          #  1. Al servidor hi viu /deploy-sha.txt amb el commit desplegat.
+          #  2. Cada desplegament el llegeix i puja NOMES els fitxers de
+          #     `git diff <sha-desplegat>..HEAD -- public/` (segons, no minuts).
+          #  3. El marcador es puja l'ULTIM, nomes si tots els fitxers han
+          #     pujat be: si un intent mor a mitges, el seguent repeteix el
+          #     mateix diff (idempotent).
+          #  4. El mirall complet queda nomes com a recurs: marcador absent,
+          #     sha desconegut (force push) o corrupte. Despres d'un mirall bo
+          #     tambe es puja el marcador, i es torna al mode rapid.
           #
-          # Enduriment del 30.07.2026 (el lot de les 14.05 no es va publicar:
-          # run #247, els 4 intents esgotats en 15 min mentre el workflow
-          # d'audio pujava MP3 per FTP alhora):
-          #  - 6 intents en lloc de 4: finestra util de ~30 min en lloc de 15
-          #  - --parallel=2 en lloc de 3
-          #  - sense --only-newer: el mirall per defecte compara data I MIDA,
-          #    aixi un fitxer que hagi quedat a mitges en un intent avortat es
-          #    torna a pujar; amb --only-newer quedava descartat per sempre,
-          #    perque la seva data remota ja era la nova. Segueix sent
-          #    incremental: el que no ha canviat no es puja.
+          # Es conserva de l'enduriment del 25-30.07.2026: TLS nomes al canal
+          # de control, sense --delete (els MP3 d'assets/audio nomes viuen al
+          # servidor), --parallel=2 (limit de connexions FTP del compte, que
+          # l'audio tambe fa servir), 6 intents amb pausa creixent, i timeouts
+          # curts perque un servidor mut falli rapid.
+          #
+          # El mode es decideix DINS de cada intent: si el marcador no s'ha
+          # pogut llegir per una fallada passatgera de l'FTP, l'intent seguent
+          # ho torna a provar i no queda condemnat al mirall complet.
+          set -u
+          HOST="ftp://srv1589.hstgr.io"
+          CRED="u901078817.claude,$FTP_PASSWORD"
+          OPTS="set ftp:ssl-force yes; set ftp:ssl-protect-data no; set net:max-retries 2; set net:timeout 30; set net:reconnect-interval-base 5; set net:reconnect-interval-max 20;"
+          HEAD_SHA=$(git rev-parse HEAD)
+          printf '%s\n' "$HEAD_SHA" > /tmp/deploy-sha.txt
+
           intents=6
           pausa=60
           for i in $(seq 1 "$intents"); do
             echo "== Intent $i de $intents =="
-            if lftp -u "u901078817.claude,$FTP_PASSWORD" \
-              -e "set ftp:ssl-force yes; set ftp:ssl-protect-data no; set net:max-retries 2; set net:timeout 30; set net:reconnect-interval-base 5; set net:reconnect-interval-max 20; mirror -R --parallel=2 --verbose public/ /; bye" \
-              ftp://srv1589.hstgr.io; then
-              echo "Desplegament acabat (intent $i)."
-              exit 0
+
+            # 1) Llegeix el marcador del servidor (si existeix)
+            base=""
+            rm -f /tmp/base-sha.txt
+            if lftp -u "$CRED" -e "$OPTS get /deploy-sha.txt -o /tmp/base-sha.txt; bye" "$HOST" 2>/dev/null; then
+              base=$(tr -cd 'a-f0-9' < /tmp/base-sha.txt | head -c 40)
             fi
+
+            # 2) Decideix el mode
+            mode="mirall"
+            motiu="marcador absent o illegible (primer desplegament o FTP mut)"
+            if [ ${#base} -eq 40 ] && git cat-file -e "$base^{commit}" 2>/dev/null && git merge-base --is-ancestor "$base" HEAD 2>/dev/null; then
+              if [ "$base" = "$HEAD_SHA" ]; then
+                echo "El servidor ja te $HEAD_SHA desplegat. Res a fer."
+                exit 0
+              fi
+              git diff --name-only --no-renames --diff-filter=d "$base" HEAD -- public/ > /tmp/canvis.txt
+              n=$(wc -l < /tmp/canvis.txt)
+              if [ "$n" -eq 0 ]; then
+                echo "Cap fitxer de public/ ha canviat des de ${base:0:7}; nomes s'actualitza el marcador."
+                if lftp -u "$CRED" -e "$OPTS put /tmp/deploy-sha.txt -o /deploy-sha.txt; bye" "$HOST"; then
+                  exit 0
+                fi
+                mode=""
+              else
+                mode="diff"
+                echo "Mode incremental: $n fitxer(s) canviats des de ${base:0:7}:"
+                sed 's/^/   - /' /tmp/canvis.txt
+              fi
+            else
+              if [ ${#base} -eq 40 ]; then motiu="el sha del servidor ($base) no es cap avantpassat de HEAD"; fi
+            fi
+
+            # 3) Construeix i executa el pla de l'intent
+            if [ "$mode" = "diff" ]; then
+              {
+                printf '%s\n' "$OPTS"
+                echo "set cmd:fail-exit no"
+                sed 's|^public/||' /tmp/canvis.txt | xargs -r -n1 dirname | sort -u | grep -v '^\.$' | \
+                  while IFS= read -r d; do printf 'mkdir -p "/%s"\n' "$d"; done
+                echo "set cmd:fail-exit yes"
+                while IFS= read -r f; do
+                  printf 'put "%s" -o "/%s"\n' "$f" "${f#public/}"
+                done < /tmp/canvis.txt
+                echo 'put /tmp/deploy-sha.txt -o /deploy-sha.txt'
+                echo "bye"
+              } > /tmp/pla.lftp
+              if lftp -u "$CRED" -f /tmp/pla.lftp "$HOST"; then
+                echo "Desplegament incremental acabat (intent $i)."
+                exit 0
+              fi
+            elif [ "$mode" = "mirall" ]; then
+              echo "Mode mirall complet ($motiu)."
+              if lftp -u "$CRED" -e "$OPTS mirror -R --parallel=2 --verbose public/ /; put /tmp/deploy-sha.txt -o /deploy-sha.txt; bye" "$HOST"; then
+                echo "Mirall complet acabat (intent $i)."
+                exit 0
+              fi
+            fi
+
             if [ "$i" -lt "$intents" ]; then
               echo "L'FTP ha fallat; nou intent d'aqui a $pausa s..."
               sleep "$pausa"
