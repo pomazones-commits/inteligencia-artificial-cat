@@ -1,0 +1,106 @@
+name: Auto-fusiona els lots de les tasques
+
+# Per que existeix: les tasques de Cowork publiquen fent "git push origin main".
+# El 02.08.2026 la tasca del lot de les 06.05 no va fer el push directe i, en
+# comptes d'aixo, va obrir la pull request #3 des d'una branca claude/*. Com que
+# el lot no va arribar mai a main, ni el Content Hub ni el desplegament es van
+# activar: el web es va quedar amb l'edicio de la nit anterior fins que la PR es
+# va fusionar a ma a les 06.45.
+#
+# Que fa: busca pull requests obertes cap a main que siguin inequivocament un
+# lot generat per una tasca (branca claude/*, titol "Lot ...", autor el
+# propietari del repositori, branca del mateix repositori, no esborrany) i que
+# NOMES toquin incoming/** i public/assets/**. Les fusiona i, com que un merge
+# fet amb el GITHUB_TOKEN no encadena workflows, dispara explicitament el
+# Content Hub (i la fotografia editorial, si la PR la portava).
+#
+# Qualsevol PR que no compleixi TOTES les condicions es deixa estar amb un avis:
+# aixo no es una porta oberta per fusionar codi sol.
+#
+# Additiu i idempotent: si no hi ha cap PR d'aquestes, no fa res.
+# Per desactivar-ho: esborra aquest fitxer.
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, ready_for_review]
+  workflow_dispatch:
+  # Repesca, per si l'event de la PR no arriba (GitHub en deixa caure de tant
+  # en tant, com ja passa amb els pushos i els crons d'aquest repositori).
+  schedule:
+    - cron: '12,42 * * * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: auto-merge-lots
+  cancel-in-progress: false
+
+jobs:
+  fusiona:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Fusiona les PR de lots i repren la cadena de publicacio
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+
+          candidates=$(gh api "repos/$REPO/pulls?state=open&base=main&per_page=50" --jq \
+            ".[]
+             | select(.draft == false)
+             | select(.user.login == \"$OWNER\")
+             | select(.head.repo.full_name == \"$REPO\")
+             | select(.head.ref | startswith(\"claude/\"))
+             | select(.title | startswith(\"Lot \"))
+             | .number")
+
+          if [ -z "$candidates" ]; then
+            echo "Cap pull request de lot pendent. No hi ha res a fer."
+            exit 0
+          fi
+
+          merged=0
+          daily=0
+
+          for n in $candidates; do
+            fitxers=$(gh api "repos/$REPO/pulls/$n/files" --paginate --jq '.[].filename')
+            forans=$(printf '%s\n' "$fitxers" | grep -vE '^(incoming/|public/assets/)' || true)
+
+            if [ -n "$forans" ]; then
+              echo "::warning::La PR #$n toca fitxers fora de incoming/ i public/assets/; no la fusiono."
+              printf '%s\n' "$forans"
+              continue
+            fi
+
+            echo "Fusiono la PR #$n"
+            if gh pr merge "$n" --repo "$REPO" --merge --delete-branch; then
+              merged=1
+              if printf '%s\n' "$fitxers" | grep -q '^incoming/daily-image.json$'; then
+                daily=1
+              fi
+            else
+              echo "::warning::No he pogut fusionar la PR #$n; caldra fer-ho a ma."
+            fi
+          done
+
+          if [ "$merged" = "0" ]; then
+            echo "No s'ha fusionat res: no disparo cap workflow."
+            exit 0
+          fi
+
+          # Un push fet amb el GITHUB_TOKEN no dispara altres workflows: cal
+          # reprendre la cadena a ma amb workflow_dispatch (que si que funciona).
+          sleep 10
+          gh workflow run content-hub.yml --repo "$REPO" --ref main \
+            || echo "::warning::No he pogut disparar el Content Hub; la xarxa de seguretat ho hauria de repescar."
+
+          if [ "$daily" = "1" ]; then
+            gh workflow run daily-visual.yml --repo "$REPO" --ref main \
+              || echo "::warning::No he pogut disparar la fotografia editorial diaria."
+          fi
