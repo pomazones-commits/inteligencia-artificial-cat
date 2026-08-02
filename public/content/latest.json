@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-02T04:49:46.729Z",
+  "updatedAt": "2026-08-02T08:27:19.555Z",
   "items": [
+    {
+      "category": "NORMATIVA",
+      "read": "5 MIN",
+      "title": "Entra en vigor a Califòrnia la primera llei que obliga les grans IA a etiquetar tot el contingut que generen",
+      "excerpt": "La California AI Transparency Act (SB 942) obliga des d'avui els proveïdors d'IA generativa amb més d'un milió d'usuaris mensuals a l'estat a oferir una eina gratuïta de detecció i a incrustar marques de procedència a les imatges, vídeos i àudios que creen, amb multes de 5.000 dòlars per infracció."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "Un hacker xinès converteix DeepSeek en un atacant autònom que va intentar violar més de 460 sistemes per Telegram",
+      "excerpt": "Unit 42, la divisió de recerca de Palo Alto Networks, ha destapat una campanya en què un actor amb seu a Zhuhai va connectar el model xinès DeepSeek a un framework d'agents de codi obert per buscar vulnerabilitats i llançar exploits sense intervenció humana directa; el mateix atacant es va delatar en exposar sense voler tota la seva infraestructura a internet."
+    },
+    {
+      "category": "INVERSIÓ",
+      "read": "4 MIN",
+      "title": "Els inversors en deute comencen a desconfiar de la bombolla de la IA i obliguen CoreWeave a encarir el seu préstec de 2.600 milions lligat a Anthropic",
+      "excerpt": "CoreWeave ha hagut de millorar les condicions d'un préstec de 2.600 milions de dòlars destinat a finançar la capacitat de còmput que ven a Anthropic, Jane Street i Hudson River Trading, després que els inversors es mostressin cada cop més reticents; el cost d'assegurar el seu deute contra un impagament ha pujat més d'un 50% en un mes."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Google cancel·la la seva app mòbil d'AI Studio malgrat 800.000 reserves prèvies i integrarà les seves funcions a Gemini",
+      "excerpt": "Després d'haver obert les reserves a Google I/O per a una aplicació mòbil independent que permetia crear programari amb IA generativa, Google ha decidit no llançar-la i traslladar-ne les funcions directament al xatbot Gemini, sota la idea que les aplicacions han de sorgir de manera natural dins d'una conversa en lloc d'exigir descarregar-ne una de nova."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Una ecografia mamària amb IA aconsegueix el 98% de precisió i redueix un 37% el temps dels radiòlegs, certifica la FDA",
+      "excerpt": "L'Agència d'Aliments i Medicaments dels Estats Units ha concedit l'autorització 510(k) a DeepHealth Breast Ultrasound, una eina de la filial d'IA de RadNet que detecta i caracteritza lesions mamàries seguint l'estàndard BI-RADS, en un examen conegut per la seva alta variabilitat segons qui l'interpreti."
+    },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
