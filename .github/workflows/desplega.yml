@@ -13,6 +13,8 @@ on:
       - "Content Hub — completar l'edició"
       - "Content Hub — fotografia editorial diària"
       - "Content Hub — peces setmanals"
+      - "Àudio de l'edició (veu en català)"
+      - "Auto-fusiona els lots de les tasques"
     types: [completed]
   # Xarxa de seguretat (25.07.2026): desplegament incremental cada hora.
   # Si tot es al dia, acaba en ~1 min sense pujar res; si un desplegament
