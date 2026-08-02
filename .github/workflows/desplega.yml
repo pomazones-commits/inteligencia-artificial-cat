@@ -43,7 +43,56 @@ jobs:
         with:
           fetch-depth: 0
 
+      # 02.08.2026: transport nou. L'FTP de Hostinger va quedar mut tota la
+      # tarda (6 intents x max-retries, run #296 cancellada pel timeout) i el
+      # mode mirall/marcador acumulava complexitat per compensar-ne la
+      # fragilitat. Amb rsync per SSH no cal cap marcador per decidir que
+      # pujar: --checksum compara el contingut real i nomes transfereix el que
+      # ha canviat, sigui quin sigui l'estat del servidor. Idempotent per
+      # construccio. Sense --delete: els MP3 (assets/audio), config.php,
+      # subscribers.csv, mail.log i data/archive.json nomes viuen al servidor.
+      # El marcador deploy-sha.txt es conserva NOMES com a diagnostic (el fan
+      # servir el vigilant i la xarxa de seguretat), no per decidir res.
+      # Mentre els secrets SSH_* no estiguin configurats (o si l'SSH falla),
+      # el pas seguent continua fent el desplegament per FTP com fins ara.
+      - name: Desplega per rsync/SSH
+        id: ssh
+        env:
+          SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_PATH: ${{ secrets.SSH_PATH }}
+        run: |
+          set -u
+          if [ -z "${SSH_KEY:-}" ] || [ -z "${SSH_HOST:-}" ] || [ -z "${SSH_USER:-}" ]; then
+            echo "Secrets SSH no configurats; el desplegament es fara per FTP."
+            exit 0
+          fi
+          mkdir -p "$HOME/.ssh" && chmod 700 "$HOME/.ssh"
+          printf '%s\n' "$SSH_KEY" > "$HOME/.ssh/deploy_key" && chmod 600 "$HOME/.ssh/deploy_key"
+          PORT="${SSH_PORT:-65002}"
+          DEST="${SSH_PATH:-domains/inteligencia-artificial.cat/public_html}"
+          SSHCMD="ssh -i $HOME/.ssh/deploy_key -p $PORT -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20 -o BatchMode=yes"
+          HEAD_SHA=$(git rev-parse HEAD)
+          printf '%s\n' "$HEAD_SHA" > /tmp/deploy-sha.txt
+          for i in 1 2 3; do
+            echo "== Intent rsync $i de 3 =="
+            if rsync -rltz --checksum --timeout=60 -e "$SSHCMD" public/ "$SSH_USER@$SSH_HOST:$DEST/" \
+               && rsync -tz --timeout=60 -e "$SSHCMD" /tmp/deploy-sha.txt "$SSH_USER@$SSH_HOST:$DEST/deploy-sha.txt"; then
+              echo "Desplegament rsync acabat (intent $i): $HEAD_SHA"
+              echo "deployed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            if [ "$i" -lt 3 ]; then
+              echo "rsync ha fallat; nou intent d'aqui a 30 s..."
+              sleep 30
+            fi
+          done
+          echo "::warning::rsync/SSH ha fallat 3 cops; es prova el desplegament per FTP com a recurs."
+
       - name: Prepara lftp i restaura les dates dels fitxers
+        if: steps.ssh.outputs.deployed != 'true'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq lftp git-restore-mtime || sudo apt-get install -y -qq lftp
@@ -52,6 +101,7 @@ jobs:
           git restore-mtime || echo "restore-mtime no disponible: el mirall complet ho pujaria tot"
 
       - name: Puja public/ per FTP (incremental per git-diff, mirall com a recurs)
+        if: steps.ssh.outputs.deployed != 'true'
         env:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
