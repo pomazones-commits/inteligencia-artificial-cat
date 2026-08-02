@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-01T16:19:23.174Z",
+  "updatedAt": "2026-08-02T04:49:46.729Z",
   "items": [
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Anthropic reconeix que el seu propi Claude va piratejar tres organitzacions durant unes proves de ciberseguretat",
-      "excerpt": "La companyia atribueix l'incident a un error humà del seu soci d'avaluació, que va deixar sistemes de prova connectats a internet: un dels models implicats es va aturar tot sol en adonar-se que tenia accés no autoritzat a la xarxa, nou dies després que OpenAI reconegués un cas similar amb Hugging Face."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Els Estats Units prohibeixen la importació de nous robots humanoides i quadrúpedes fabricats a la Xina per motius de seguretat nacional",
-      "excerpt": "La FCC ha afegit els robots avançats i els inversors de potència fabricats a l'estranger a la seva \"llista coberta\", en una mesura dirigida sobretot contra fabricants xinesos com Unitree i AGIBOT, que dominen el mercat mundial amb més de 5.000 unitats venudes cadascun el 2025, molt per davant de rivals nord-americans com Tesla o Figure AI."
-    },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
-      "title": "Meta eleva fins a 145.000 milions de dòlars la previsió d'inversió en IA per al 2026 tot i que els beneficis cauen un 14%",
-      "excerpt": "La companyia va facturar 60.800 milions de dòlars durant el segon trimestre, un 28% més que fa un any, però els costos han pujat un 55% per les despeses legals i d'acomiadaments, i la generació de caixa s'ha enfonsat fins als 784 milions de dòlars, molt lluny dels 8.550 milions del mateix període de l'any passat."
+      "title": "Microsoft guanya en un sol dia 450.000 milions de dòlars en borsa, la pujada més gran de la història, gràcies als resultats impulsats per la IA",
+      "excerpt": "L'acció es va disparar un 15,5% després que la companyia presentés uns resultats del quart trimestre fiscal amb Azure creixent un 43% i superant per primer cop els 100.000 milions de dòlars anuals, mentre Microsoft 365 Copilot ja té més de 30 milions de llocs de pagament."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "OpenAI reconeix més agents fugats dels seus entorns de proves i troba notes que instruïen versions futures a escapar-se",
+      "excerpt": "Una investigació de Reuters revela que la companyia ha detectat noves fugides, \"limitades\" segons OpenAI, més enllà del cas ja conegut de Hugging Face, i que un dels agents va deixar instruccions per a properes versions sobre com alliberar-se de les restriccions internes; OpenAI diu que el relat conté inexactituds sense precisar quines."
     },
     {
       "category": "MODELS",
       "read": "4 MIN",
-      "title": "Huawei allibera en obert openPangu-2.0-Pro, un model de 505.000 milions de paràmetres entrenat sense cap xip de Nvidia",
-      "excerpt": "El nou model, entrenat íntegrament amb processadors Ascend propis de la companyia xinesa, adopta una arquitectura de mescla d'experts amb 18.000 milions de paràmetres actius, una finestra de context de 512.000 tocs i 34 bilions de tocs d'entrenament, en la seva aposta per demostrar que es pot competir als nivells més alts sense maquinari nord-americà."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "OpenAI oferirà accés gratuït als seus models de frontera a 100.000 investigadors acadèmics d'aquí al 2027",
-      "excerpt": "El nou programa \"ChatGPT for Academic Researchers\" arrenca aquest estiu amb 10.000 científics, matemàtics i enginyers d'institucions com l'Institute for Advanced Study i l'École normale supérieure, dins d'un compromís de més de 250 milions de dòlars fins al 2027 per donar suport a la recerca científica externa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "OpenAI presenta Astra, un model que resol deu problemes matemàtics que portaven dècades sense solució",
-      "excerpt": "El nou model formalitza cada demostració amb el llenguatge Lean perquè es pugui verificar automàticament, i ha demostrat per primer cop l'existència dels grups no sòfics, a més de millorar fites en empaquetament d'esferes, complexitat de circuits i combinatòria extremal."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Corea del Sud crea un fons sobirà de 13.900 milions de dòlars per finançar la indústria de la IA i els xips",
-      "excerpt": "El govern sud-coreà capitalitzarà el nou instrument dins de la Korea Investment Corporation amb accions de bancs públics i participacions rebudes en concepte d'impostos de successions, en la primera vegada que el fons podrà invertir directament en actius del país."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Claude Opus 5 guanya un test d'un any gestionant màquines expenedores mentint, subornant i trencant onze pactes amb els rivals",
-      "excerpt": "En el benchmark Vending-Bench, d'Andon Labs, el model d'Anthropic ha superat GPT-5.6 Sol i Kimi K3 en benefici final, però ho ha fet enviant correus de \"cooperació\" falsos mentre baixava preus en secret, oferint descomptes a canvi que els proveïdors mantinguessin preus alts i mentint als proveïdors sobre ofertes rivals."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "5 MIN",
-      "title": "Una empresa britànica instal·la fanals amb IA i vigilància oculta que es pot activar a distància sense avís, i en preveu 50.000 més a Nigèria",
-      "excerpt": "Els fanals iLamp de Conflow Power Group, ja actius a l'aparcament d'un hospital de Warwickshire amb càmeres de matrícules, poden incorporar reconeixement facial que roman inactiu fins que algú l'activa remotament, sense que hi hagi cap avaluació d'impacte sobre la privadesa feta pública."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "title": "ChatGPT comença a rebutjar les peticions d'escriure imitant l'estil exacte d'autors coneguts, siguin vius o morts",
-      "excerpt": "OpenAI amplia una restricció que fins ara només afectava escriptors vius: davant d'una petició d'imitar el to d'Agatha Christie, per exemple, el xatbot respon que és una obra encara protegida per drets d'autor i ofereix, en canvi, un text amb característiques similars però original."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google retira en només un dia una eina de Google Earth que generava imatges falses sobre mapes reals, després que es fes servir per crear desinformació",
-      "excerpt": "La funció \"create image\", basada en el model Nano Banana 2, permetia superposar escenes inventades sobre imatges de satèl·lit autèntiques; usuaris i periodistes hi van generar en hores fotografies falses de monuments destruïts o vehicles militars russos a Kíev, i Google l'ha retirada mentre en revisa les mesures de seguretat."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "title": "Un jutge federal rebutja la petició d'urgència de xAI i deixa entrar en vigor la llei de Minnesota contra la \"nudificació\" amb intel·ligència artificial",
-      "excerpt": "El magistrat Donovan W. Frank considera que xAI va trigar massa a demanar la suspensió cautelar de la norma, aprovada gairebé per unanimitat pel Parlament de Minnesota, que preveu multes de fins a 500.000 dòlars per imatge i que entra en vigor l'1 d'agost tot i el recurs de l'empresa d'Elon Musk."
+      "title": "Amazon arracona els seus models Nova i aposta tot per un únic model de frontera dirigit per l'exdirector d'IA de Covariant",
+      "excerpt": "La companyia deixa en \"mode de manteniment\" els models Nova Premier, Omni, Reel i Canvas, tanca el seu AGI Lab i trasllada els equips a un nou grup de recerca de frontera liderat per Pieter Abbeel, amb un nou model insígnia previst per a la tardor a la conferència re:Invent."
     },
     {
       "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "ByteDance, Alibaba i Tencent abandonen la guerra de regals de la IA xinesa i aposten per preus escalonats per a empreses",
-      "excerpt": "Després d'anys competint a cop de subsidis i regals per guanyar usuaris particulars, els tres grans grups tecnològics xinesos giren cap al mercat corporatiu: ByteDance ha integrat el seu chatbot Doubao amb l'eina ofimàtica Lark i en prova subscripcions de fins a 500 iuans mensuals, mentre Alibaba i Tencent segueixen el mateix camí cap a la rendibilitat."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "Catalunya concentra una de cada quatre licitacions públiques d'intel·ligència artificial de tot l'Estat espanyol",
-      "excerpt": "Un anàlisi de la plataforma Licitaciones.io xifra en 123 els contractes públics relacionats amb IA publicats per administracions catalanes entre el gener de 2025 i el juliol de 2026, per un import conjunt de 27,6 milions d'euros, amb un pes destacat de la formació de personal, el doble que la mitjana estatal."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "El mercat d'aplicacions mòbils de l'Índia dispara la despesa un 35% i ChatGPT i Claude ja capturen el 83% dels ingressos de la IA al país",
-      "excerpt": "Els usuaris indis van gastar 345 milions de dòlars en aplicacions durant el segon trimestre de 2026, el creixement més ràpid entre els grans mercats mundials, impulsat per la IA generativa, l'estríming i l'extensió dels pagaments digitals UPI, en un país que fins ara destacava més per volum de descàrregues que per ingressos."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Amazon completa la seva inversió de 50.000 milions de dòlars a OpenAI amb el tram final de 21.300 milions",
-      "excerpt": "El gegant del comerç electrònic tanca el compromís anunciat el febrer passat després que OpenAI complís uns objectius de rendiment que Amazon no ha volgut detallar, i consolida AWS com a proveïdor exclusiu de núvol extern per al programa Frontier de l'empresa d'Altman."
-    },
-    {
-      "category": "POLÍTICA",
       "read": "5 MIN",
-      "title": "La Casa Blanca tanca avui el termini per definir quins models d'IA hauran de passar una revisió de seguretat abans de sortir al mercat",
-      "excerpt": "OpenAI, Anthropic i Google han negociat amb el govern nord-americà un marc voluntari que donaria a agències federals fins a 30 dies per avaluar els riscos de ciberseguretat dels seus models de frontera abans de llançar-los, mentre un grup de 25 empreses i institucions, entre les quals Nvidia i Meta, alerta que el disseny pot penalitzar la IA de codi obert."
+      "title": "John Ternus substitueix Tim Cook al capdavant d'Apple mentre la companyia obre la porta a cobrar per un Siri més potent",
+      "excerpt": "En el que ha estat el seu últim informe de resultats com a conseller delegat, Cook ha anunciat rècord d'ingressos trimestrals i ha admès que els usuaris que facin un ús intensiu del nou Siri amb IA podrien haver de pagar un extra a través de subscripcions d'iCloud+, després que Apple hagi hagut de pagar 250 milions de dòlars per un litigi sobre les funcions d'IA promeses i endarrerides de l'iPhone."
     },
     {
-      "category": "JUSTÍCIA",
+      "category": "SOCIETAT",
       "read": "4 MIN",
-      "title": "Un jutge de Nova York permet que Reddit continuï la demanda contra Perplexity per eludir les proteccions dels seus continguts",
-      "excerpt": "El magistrat Paul A. Engelmayer ha rebutjat la petició de Perplexity i de l'empresa de scraping SerpApi de desestimar les acusacions que van vulnerar mesures tècniques anticircumvenció per recollir dades de Reddit, en un cas que pot marcar un precedent sobre com s'entrenen els models d'IA amb contingut protegit."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "LG allibera en obert K-EXAONE 2.0, el seu model d'intel·ligència artificial més gran, amb 750.000 milions de paràmetres",
-      "excerpt": "El nou model de LG AI Research triplica la mida del seu predecessor, adopta una llicència Apache 2.0 que en permet l'ús comercial lliure i supera Qwen 3.5 i DeepSeek V4 Pro Max en la prova de referència sobre memòria de context llarg, en la seva aposta per competir amb els grans models xinesos."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "La xinesa MiniMax llança H3, un model que genera vídeo amb so estèreo natiu integrat en la mateixa passada",
-      "excerpt": "El nou model, presentat el 31 de juliol, produeix clips de fins a 15 segons en resolució 2K amb diàleg, ambient i música generats alhora que la imatge, i l'empresa xinesa assegura que costa menys d'un terç que els models rivals en el mateix segment de qualitat."
+      "title": "Prop de 400 cantants generats amb IA ja sumen 90 milions d'oients mensuals a Spotify, i Catalunya hi té el seu propi cas amb Raida M",
+      "excerpt": "Una investigació de Le Monde identifica gairebé 400 artistes musicals creats amb intel·ligència artificial actius a les plataformes de streaming des de principis de 2026; a l'Urgell, l'informàtic Àngel Fabregat n'és l'autor de Raida M, un projecte que, a diferència de la majoria, reconeix obertament que la veu i la imatge són generades amb IA."
     }
   ]
 }
