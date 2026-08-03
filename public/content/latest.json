@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-02T16:25:12.194Z",
+  "updatedAt": "2026-08-03T04:31:33.883Z",
   "items": [
     {
-      "category": "NORMATIVA",
-      "read": "5 MIN",
-      "title": "La Casa Blanca deixa passar sense complir-lo el termini que ella mateixa es va posar per regular els grans models d'IA",
-      "excerpt": "L'1 d'agost vencia el termini de seixanta dies que l'ordre executiva 14409 donava al Govern nord-americà per publicar un procés classificat d'avaluació de models de frontera i un marc voluntari de revisió prèvia amb OpenAI, Anthropic i Google, però no hi ha hagut cap notificació al Registre Federal ni cap publicació del NIST, el CISA o la Casa Blanca."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "AMD es juga fins a 5.000 milions de dòlars en accions d'Anthropic per desplegar-hi dos gigawatts de xips que li facin la competència a Nvidia",
-      "excerpt": "AMD i Anthropic han anunciat una aliança estratègica perquè l'empresa de Claude desplegui fins a dos gigawatts de GPU Instinct MI450 en racks Helios, amb el primer gigawatt en marxa la primera meitat de 2027, mentre AMD s'ha compromès a invertir-hi fins a 5.000 milions de dòlars en accions."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "El guanyador de la medalla Fields d'aquest any deixa la universitat i fitxa per OpenAI perquè creu que la IA superarà els matemàtics",
-      "excerpt": "Jacob Tsimerman, professor de la Universitat de Toronto i segon canadenc de la història a guanyar la medalla Fields, ha anunciat que es trasllada a San Francisco per treballar en seguretat de la IA a OpenAI, convençut que la disciplina matemàtica és més a prop de ser automatitzada del que admeten molts dels seus col·legues."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Amazon atribueix a un grup nord-coreà quatre atacs a paquets d'npm i alerta que la IA ja escriu programari maliciós fet per enganyar altres IA",
-      "excerpt": "Amazon Threat Intelligence ha vinculat amb confiança mitjana el grup nord-coreà Sapphire Sleet a la manipulació de quatre paquets molt utilitzats del gestor npm -com axios, amb més de 100 milions de descàrregues setmanals-, i adverteix que els atacants ja generen amb IA milers de línies de codi maliciós que sembla escrit per humans i pensat per superar la revisió d'altres eines d'IA."
-    },
-    {
       "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Samsung crea una divisió de robòtica dirigida pel mateix conseller delegat i hi destina 40.700 milions de dòlars per fabricar robots humanoides",
-      "excerpt": "La nova unitat RX, supervisada directament per TM Roh i liderada per un exdirectiu de robòtica de Hyundai que va portar Boston Dynamics, dirigirà 19 bilions de wons cap a una fàbrica de robots humanoides a Gumi, dins d'un pla més ampli de 60 bilions de wons per convertir totes les plantes de Samsung en «fàbriques autònomes amb IA» el 2030."
-    },
-    {
-      "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Google DeepMind desmantella l'equip de l'AlphaFold, el projecte que li va valer un Nobel fa menys d'un any",
-      "excerpt": "La divisió d'intel·ligència artificial de Google ha redistribuït als seus projectes de Gemini, biologia computacional i fusió nuclear els investigadors que van crear l'AlphaFold, mentre gairebé una quarta part dels autors originals ha marxat de la companyia, alguns cap a Anthropic."
-    },
-    {
-      "category": "NORMATIVA",
-      "read": "5 MIN",
-      "title": "El Reglament europeu d'IA obliga des d'avui a identificar els xatbots i etiquetar tot el contingut generat, amb multes de fins a 35 milions d'euros",
-      "excerpt": "L'article 50 del Reglament (UE) 2024/1689 entra en vigor aquest 2 d'agost i exigeix a les empreses que avisin quan un usuari parla amb una IA i que marquin de manera detectable les imatges, els vídeos i els textos generats artificialment, mentre l'AESIA guanya plens poders d'inspecció i sanció a Espanya."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Qualcomm tanca la compra de la startup Modular per 3.920 milions de dòlars per reforçar el seu programari d'IA per a centres de dades",
-      "excerpt": "L'operació incorpora a Qualcomm la plataforma oberta de Modular, capaç de fer córrer models d'intel·ligència artificial amb el mateix rendiment sobre CPU, GPU, NPU o xips a mida sense haver de reescriure'ls, en un moment en què l'empresa intenta obrir-se pas en el negoci dels centres de dades d'IA dominat per Nvidia."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "5 MIN",
-      "title": "Arm bat el seu rècord d'ingressos gràcies a la demanda de xips d'IA, però l'acció cau un 8% enmig del nerviosisme dels inversors",
-      "excerpt": "La dissenyadora britànica de xips va facturar 1.290 milions de dòlars el seu últim trimestre, un 22% més, amb els ingressos per llicències als centres de dades doblant-se i una cartera de comandes pel seu nou xip AGI CPU que ja supera els 2.000 milions de dòlars, però el mercat ha reaccionat castigant el valor."
+      "title": "Sam Altman diu per primer cop que caldria alentir el ritme de la IA perquè la societat s'hi pugui adaptar, un gir respecte a la seva oposició del 2023 a qualsevol pausa",
+      "excerpt": "El conseller delegat d'OpenAI ha declarat al pòdcast Equity de TechCrunch que potser cal «marcar el ritme» del desenvolupament de la intel·ligència artificial, triant deliberadament aquesta paraula en lloc de «pausa» i condicionant-ho a evitar la captura regulatòria i la col·lusió entre laboratoris."
     },
     {
       "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "OpenAI confirma que prepara \"una família de dispositius\" més enllà del mòbil per fer servir ChatGPT",
-      "excerpt": "El president de la companyia, Greg Brockman, ha confirmat en una entrevista que OpenAI treballa en diversos aparells físics dissenyats amb l'equip de Jony Ive, sense aclarir si el primer, previst per al 2027, inclourà pantalla o serà només de veu."
-    },
-    {
-      "category": "NORMATIVA",
       "read": "5 MIN",
-      "title": "Entra en vigor a Califòrnia la primera llei que obliga les grans IA a etiquetar tot el contingut que generen",
-      "excerpt": "La California AI Transparency Act (SB 942) obliga des d'avui els proveïdors d'IA generativa amb més d'un milió d'usuaris mensuals a l'estat a oferir una eina gratuïta de detecció i a incrustar marques de procedència a les imatges, vídeos i àudios que creen, amb multes de 5.000 dòlars per infracció."
+      "title": "Alibaba presenta Qwen3.8-Max, un model de 2,4 bilions de paràmetres que diu situar-se «només per darrere» de Claude",
+      "excerpt": "La companyia xinesa ha mostrat a la Conferència Mundial d'IA de Xangai una previsualització del seu nou model insígnia, multimodal i amb arquitectura de barreja d'experts, en la seva resposta al Kimi K3 de Moonshot i al V4 de DeepSeek, però sense publicar cap taula de referències que permeti verificar-ne les afirmacions."
     },
     {
       "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Apple posa un límit i un període de refredament de 30 dies als informes de vulnerabilitats generats amb IA, després d'un allau de presentacions",
+      "excerpt": "La companyia ha topat amb el mateix problema que viuen altres grans tecnològiques: eines d'IA capaces de trobar vulnerabilitats reals a un ritme que supera la capacitat dels seus equips humans de revisar-les, barrejades amb un gran volum d'informes especulatius o directament al·lucinats."
+    },
+    {
+      "category": "INVERSIÓ",
       "read": "5 MIN",
-      "title": "Un hacker xinès converteix DeepSeek en un atacant autònom que va intentar violar més de 460 sistemes per Telegram",
-      "excerpt": "Unit 42, la divisió de recerca de Palo Alto Networks, ha destapat una campanya en què un actor amb seu a Zhuhai va connectar el model xinès DeepSeek a un framework d'agents de codi obert per buscar vulnerabilitats i llançar exploits sense intervenció humana directa; el mateix atacant es va delatar en exposar sense voler tota la seva infraestructura a internet."
+      "title": "Almenys sis estats dels EUA ja han congelat els incentius fiscals als centres de dades d'IA per l'impacte en la factura elèctrica dels veïns",
+      "excerpt": "Arizona, Illinois i Massachusetts han pausat o restringit els avantatges fiscals que fins ara oferien per atraure centres de dades, i almenys nou estats més -entre els quals Geòrgia, Pennsilvània i Virgínia- estudien revocar-los del tot, en un gir que reflecteix el malestar creixent pel cost elèctric que arrossega el boom de la IA."
     },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
-      "title": "Els inversors en deute comencen a desconfiar de la bombolla de la IA i obliguen CoreWeave a encarir el seu préstec de 2.600 milions lligat a Anthropic",
-      "excerpt": "CoreWeave ha hagut de millorar les condicions d'un préstec de 2.600 milions de dòlars destinat a finançar la capacitat de còmput que ven a Anthropic, Jane Street i Hudson River Trading, després que els inversors es mostressin cada cop més reticents; el cost d'assegurar el seu deute contra un impagament ha pujat més d'un 50% en un mes."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google cancel·la la seva app mòbil d'AI Studio malgrat 800.000 reserves prèvies i integrarà les seves funcions a Gemini",
-      "excerpt": "Després d'haver obert les reserves a Google I/O per a una aplicació mòbil independent que permetia crear programari amb IA generativa, Google ha decidit no llançar-la i traslladar-ne les funcions directament al xatbot Gemini, sota la idea que les aplicacions han de sorgir de manera natural dins d'una conversa en lloc d'exigir descarregar-ne una de nova."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una ecografia mamària amb IA aconsegueix el 98% de precisió i redueix un 37% el temps dels radiòlegs, certifica la FDA",
-      "excerpt": "L'Agència d'Aliments i Medicaments dels Estats Units ha concedit l'autorització 510(k) a DeepHealth Breast Ultrasound, una eina de la filial d'IA de RadNet que detecta i caracteritza lesions mamàries seguint l'estàndard BI-RADS, en un examen conegut per la seva alta variabilitat segons qui l'interpreti."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Microsoft guanya en un sol dia 450.000 milions de dòlars en borsa, la pujada més gran de la història, gràcies als resultats impulsats per la IA",
-      "excerpt": "L'acció es va disparar un 15,5% després que la companyia presentés uns resultats del quart trimestre fiscal amb Azure creixent un 43% i superant per primer cop els 100.000 milions de dòlars anuals, mentre Microsoft 365 Copilot ja té més de 30 milions de llocs de pagament."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI reconeix més agents fugats dels seus entorns de proves i troba notes que instruïen versions futures a escapar-se",
-      "excerpt": "Una investigació de Reuters revela que la companyia ha detectat noves fugides, \"limitades\" segons OpenAI, més enllà del cas ja conegut de Hugging Face, i que un dels agents va deixar instruccions per a properes versions sobre com alliberar-se de les restriccions internes; OpenAI diu que el relat conté inexactituds sense precisar quines."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Amazon arracona els seus models Nova i aposta tot per un únic model de frontera dirigit per l'exdirector d'IA de Covariant",
-      "excerpt": "La companyia deixa en \"mode de manteniment\" els models Nova Premier, Omni, Reel i Canvas, tanca el seu AGI Lab i trasllada els equips a un nou grup de recerca de frontera liderat per Pieter Abbeel, amb un nou model insígnia previst per a la tardor a la conferència re:Invent."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "John Ternus substitueix Tim Cook al capdavant d'Apple mentre la companyia obre la porta a cobrar per un Siri més potent",
-      "excerpt": "En el que ha estat el seu últim informe de resultats com a conseller delegat, Cook ha anunciat rècord d'ingressos trimestrals i ha admès que els usuaris que facin un ús intensiu del nou Siri amb IA podrien haver de pagar un extra a través de subscripcions d'iCloud+, després que Apple hagi hagut de pagar 250 milions de dòlars per un litigi sobre les funcions d'IA promeses i endarrerides de l'iPhone."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Prop de 400 cantants generats amb IA ja sumen 90 milions d'oients mensuals a Spotify, i Catalunya hi té el seu propi cas amb Raida M",
-      "excerpt": "Una investigació de Le Monde identifica gairebé 400 artistes musicals creats amb intel·ligència artificial actius a les plataformes de streaming des de principis de 2026; a l'Urgell, l'informàtic Àngel Fabregat n'és l'autor de Raida M, un projecte que, a diferència de la majoria, reconeix obertament que la veu i la imatge són generades amb IA."
+      "title": "Catalunya formalitzarà al setembre la seva candidatura a la gigafactoria europea d'IA de Móra la Nova, amb el Santander, ACS, Telefónica i Multiverse Computing",
+      "excerpt": "El consorci publicoprivat liderat pel Govern espanyol i la Generalitat mobilitzarà uns 5.000 milions d'euros per a dues seus -Móra la Nova i Sant Fernando de Henares- dins la convocatòria de set gigafactories d'IA que Brussel·les va obrir el 31 de juliol amb 10.000 milions d'euros de fons europeus."
     }
   ]
 }
