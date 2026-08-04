@@ -96,7 +96,11 @@ class TransportSSH:
         clau_path = Path(self._tmp.name) / "clau"
         clau_path.write_text(clau.rstrip() + "\n", encoding="utf-8")
         clau_path.chmod(stat.S_IRUSR | stat.S_IWUSR)
-        opcions = ["-i", str(clau_path), "-o", "StrictHostKeyChecking=accept-new",
+        # known_hosts propi dins el directori temporal: aixi no depenem que
+        # ~/.ssh existeixi al runner (desplega.yml el crea a ma; aqui no cal).
+        opcions = ["-i", str(clau_path),
+                   "-o", f"UserKnownHostsFile={self._tmp.name}/known_hosts",
+                   "-o", "StrictHostKeyChecking=accept-new",
                    "-o", "ConnectTimeout=20", "-o", "BatchMode=yes"]
         self._ssh = ["ssh", *opcions, "-p", port, self._target]
         self._scp = ["scp", *opcions, "-P", port]
@@ -108,10 +112,12 @@ class TransportSSH:
         try:
             r = subprocess.run(self._ssh + [ordre], capture_output=True, text=True, timeout=90)
         except subprocess.TimeoutExpired:
+            print("SSH no disponible: temps esgotat obrint la connexio.")
             return False
         if r.returncode != 0:
-            missatge = (r.stderr or "").strip().splitlines()
-            print(f"SSH no disponible: {missatge[-1] if missatge else 'error desconegut'}")
+            print(f"SSH no disponible (codi {r.returncode}):")
+            for linia in (r.stderr or "").strip().splitlines()[-4:]:
+                print(f"  ssh: {linia}")
             return False
         self._existents = {linia.strip() for linia in r.stdout.splitlines() if linia.strip()}
         print(f"SSH a punt: {len(self._existents)} MP3 ja al servidor.")
@@ -218,6 +224,10 @@ def sintetitza_i_puja(slug: str, text: str, transport) -> bool:
 
 
 def main() -> int:
+    # Sortida linia a linia: dins de GitHub Actions, sense aixo els print()
+    # queden retinguts al buffer i el log no es pot seguir (ni diagnosticar
+    # si el proces mor pel timeout del job).
+    sys.stdout.reconfigure(line_buffering=True)
     transport = tria_transport()
     if transport is None:
         return 1
