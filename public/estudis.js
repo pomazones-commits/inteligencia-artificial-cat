@@ -8,7 +8,7 @@
    body (paràgrafs separats per \n\n; «## » = títol de secció, «• » = pics)
    i references (llista; *cursiva* amb asteriscos). */
 window.IA_ESTUDI = {
-  "date": "30.07.2026",
+  "date": "04.08.2026",
   "category": "ESTUDI · EDUCACIÓ",
   "read": "11 MIN",
   "author": "Carles Sierra",
