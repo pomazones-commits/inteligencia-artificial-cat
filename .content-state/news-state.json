@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-08-04",
-  "updatedAt": "2026-08-04T12:38:18.690Z",
-  "batches": 3,
+  "updatedAt": "2026-08-04T16:32:05.336Z",
+  "batches": 4,
   "target": 20,
   "items": [
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "slug": "openai-mil-milions-usuaris-actius-retallada-preus",
+      "title": "OpenAI supera els 1.000 milions d'usuaris actius i retalla fins a un 80% el preu dels seus models més barats",
+      "excerpt": "La companyia ha assolit una fita que esperava arribar-hi abans, després que la competència d'altres laboratoris n'endarrerís el ritme, i aprofita l'anunci per abaratir el preu de GPT-5.6 Luna i Terra mentre presumeix que els usuaris cada cop en fan un ús més intensiu.",
+      "sourceName": "PYMNTS",
+      "sourceUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-reaches-1-billion-active-users-as-ai-becomes-daily-habit/",
+      "sourceDate": "31 de juliol de 2026",
+      "body": "OpenAI s'havia marcat fa mesos l'objectiu d'arribar als 1.000 milions d'usuaris actius, una fita que esperava assolir abans d'ara però que la creixent competència d'altres laboratoris havia endarrerit, després d'haver superat els 900 milions d'usuaris setmanals el febrer passat.\n\nLa companyia va anunciar aquest divendres 31 de juliol que els seus models ja arriben a més de 1.000 milions d'usuaris actius i més de 2 milions d'empreses, gràcies sobretot a ChatGPT però també a Codex i ChatGPT Work. La directora financera, Sarah Friar, va declarar en un comunicat que «encara som al principi» i va apuntar que els usuaris envien un 50% més de missatges diaris i dupliquen els tipus de tasques per als quals fan servir l'eina sis mesos després de començar-la a utilitzar. La mateixa setmana, OpenAI va retallar fins a un 80% el preu del seu model més barat, GPT-5.6 Luna, i un 20% el de GPT-5.6 Terra, mentre GPT-5.6 Sol guanya velocitat sense canviar de preu.\n\nLa notícia és rellevant perquè situa OpenAI en un club molt reduït d'aplicacions que han arribat als 1.000 milions d'usuaris en menys de quatre anys des del llançament —Facebook hi va trigar sis—, i perquè la retallada de preus coincideix amb l'allau de models xinesos molt més barats que pressiona tot el sector a competir també pel cost, no només per la capacitat.\n\nLa xifra d'usuaris actius inclou totes les interfícies d'OpenAI, no només ChatGPT, cosa que en dificulta la comparació directa amb altres plataformes, i la companyia no ha detallat quina part d'aquest creixement respon a usuaris nous enfront d'un ús més intensiu dels que ja hi eren.",
+      "image": "./assets/openai-mil-milions-usuaris-actius-retallada-preus-20260804.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "slug": "xina-cascada-models-ia-death-zone-fabricants-nord-americans",
+      "title": "Una allau de models xinesos crea una «zona de la mort» de preus per als fabricants d'IA nord-americans, alerta Bloomberg",
+      "excerpt": "El que fa un any semblava el sotrac aïllat d'una sola empresa, DeepSeek, s'ha convertit en una cascada constant de llançaments d'Alibaba, Moonshot, ByteDance i Z.ai que ja competeixen de tu a tu amb els models nord-americans en raonament, codi i vídeo, i molt més barat.",
+      "sourceName": "Bloomberg (via The Edge Malaysia)",
+      "sourceUrl": "https://theedgemalaysia.com/node/813242",
+      "sourceDate": "4 d'agost de 2026",
+      "body": "Fins fa poc, l'aparició de models xinesos barats semblava un fenomen puntual protagonitzat per una sola empresa, DeepSeek; avui, segons una anàlisi de Bloomberg, s'ha convertit en una allau constant de llançaments que amenaça la posició dels grans laboratoris nord-americans en gairebé tots els fronts alhora: raonament, programació i generació de vídeo.\n\nL'article repassa els darrers llançaments xinesos: Qwen3.8-Max d'Alibaba, que iguala o supera en alguns bancs de proves el Claude Fable 5 d'Anthropic; Kimi K3 de Moonshot AI, amb un rendiment comparable a les opcions nord-americanes més cares però amb un pressupost molt més modest; Seedance 2.5 de ByteDance, que ha deixat enrere la competència en generació de vídeo; GLM-5.2 de Z.ai, el model de codi obert més ben classificat; i V4-Flash de DeepSeek, que segons una anàlisi d'Artificial Analysis executa una tasca complexa per 0,03 dòlars davant els 3,15 dòlars que costaria amb Claude Fable 5. L'analista Poe Zhao ho resumeix dient que el progrés xinès «ja no sembla l'avenç d'una sola empresa».\n\nLa notícia és rellevant perquè Bloomberg parla obertament d'una «zona de la mort» de preus: les empreses que no aconsegueixen batre DeepSeek en cost o els models més grans en capacitat «podrien no valer la pena d'intentar-ho», en un moment en què Xi Jinping guanya arguments de cara a futures converses amb Trump sobre lideratge en IA, i mentre OpenAI i Anthropic es preparen per sortir a borsa amb valoracions d'almenys un bilió de dòlars cadascuna.\n\nLes xifres de cost provenen d'anàlisis externes i de les mateixes companyies xineses, sense una auditoria independent que en confirmi el rendiment real fora dels bancs de proves, i l'estratègia xinesa de prioritzar quota de mercat per sobre de la rendibilitat immediata és difícil de sostenir indefinidament si els inversors hi acaben exigint resultats, tal com ja passa amb els seus rivals nord-americans.",
+      "image": "./assets/xina-cascada-models-ia-death-zone-fabricants-nord-americans-20260804.jpg"
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "slug": "texas-abbott-moratoria-centres-dades-ia-auditoria",
+      "title": "El governador de Texas congela l'aprovació de nous centres de dades d'IA fins que se n'auditi l'impacte en la xarxa i l'aigua",
+      "excerpt": "Greg Abbott ha ordenat als reguladors elèctrics de Texas que aturin les noves connexions de centres de dades a la xarxa fins completar una auditoria exhaustiva, després que només 28 de les 377 empreses consultades responguessin una enquesta sobre el seu consum d'energia i aigua.",
+      "sourceName": "The Texas Tribune",
+      "sourceUrl": "https://www.texastribune.org/2026/08/03/texas-data-center-project-audit-greg-abbott/",
+      "sourceDate": "3 d'agost de 2026",
+      "body": "Texas s'ha convertit en un dels estats nord-americans amb més sol·licituds de connexió elèctrica per a centres de dades d'intel·ligència artificial, amb una cua d'interconnexió d'ERCOT, l'operador de la xarxa, en què gairebé el 90% de les més de 1.800 peticions pendents corresponen a aquest tipus d'instal·lacions.\n\nEl governador Greg Abbott va ordenar aquest 3 d'agost a la Comissió de Serveis Públics de Texas (PUCT) i a ERCOT que congelin l'aprovació de nous centres de dades fins completar una auditoria exhaustiva de tots els projectes en cua. Cada projecte haurà de revelar quines subvencions fiscals ha rebut o espera rebre, quanta energia consumirà i si en genera de pròpia, quanta aigua necessitarà i d'on la traurà, i quin sistema de refrigeració farà servir. La mesura arriba després que només 28 de les 377 empreses notificades responguessin una enquesta prèvia de la PUCT sobre consum d'energia i aigua; Texas ja compta amb almenys 335 instal·lacions actives i 248 més planificades. «La nostra prioritat és protegir la seguretat i la qualitat de vida dels texans», va declarar Abbott.\n\nLa notícia és rellevant perquè és una de les primeres vegades que un gran estat nord-americà amb fam de centres de dades —Texas ha cortejat aquestes inversions durant anys— frena de cop l'expansió del sector davant la pressió pública per la manca de transparència sobre el seu impacte real en la xarxa elèctrica i els recursos hídrics.\n\nUn comissionat estatal ha qualificat la mesura d'«all hat and no cattle»: retòrica política buida sense conseqüències reals, i no és clar quant trigarà l'auditoria ni si acabarà derivant en restriccions permanents o només en un ajornament temporal de les connexions, mentre el sector continua reclamant que la manca d'electricitat, no de xips, és ja el principal fre al creixement de la IA.",
+      "image": "./assets/texas-abbott-moratoria-centres-dades-ia-auditoria-20260804.jpg"
+    },
+    {
+      "category": "POLÍTICA",
+      "read": "4 MIN",
+      "slug": "congres-eua-chatgpt-90-per-cent-despesa-ia",
+      "title": "ChatGPT acapara el 90% de la despesa en eines d'IA del Congrés dels Estats Units",
+      "excerpt": "Un informe basat en registres de desemborsos de la Cambra de Representants mostra que els despatxos hi van gastar 113.740 dòlars durant l'últim any, dels quals gairebé tot va anar a OpenAI, davant una fracció minsa per a Claude d'Anthropic.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+      "sourceDate": "3 d'agost de 2026",
+      "body": "Els despatxos, comitès i comptes institucionals de la Cambra de Representants dels Estats Units fa temps que tenen permès contractar eines d'intel·ligència artificial per redactar textos, resumir legislació o preparar audiències, però fins ara no hi havia dades públiques detallades de quines eines fan servir realment ni quant s'hi gasten.\n\nUn informe basat en registres de desemborsos de la Cambra, publicat aquest 3 d'agost, mostra que els despatxos hi van gastar almenys 113.740 dòlars en eines d'IA durant l'any acabat el 31 de març, dels quals 100.580 dòlars —gairebé el 90%— van anar a ChatGPT en 798 transaccions, davant només 13.160 dòlars per a Claude d'Anthropic en 37 transaccions. Els despatxos demòcrates hi van gastar 54.165 dòlars i els republicans 15.782 dòlars. Els usos identificats inclouen la redacció de memoràndums, el resum de legislació, la resposta a electors, la preparació de material per a audiències, la recerca de polítiques públiques i la redacció de missatges a xarxes socials.\n\nLa notícia és rellevant perquè ofereix una de les primeres fotografies concretes de com el poder legislatiu nord-americà fa servir realment la intel·ligència artificial generativa en la seva feina diària, en un moment en què el mateix Congrés debat com regular aquesta tecnologia, i perquè mostra un domini gairebé absolut de ChatGPT enfront dels seus competidors dins d'una institució amb accés privilegiat als grans proveïdors.\n\nLes xifres exclouen els comptes gratuïts i la IA integrada en contractes de programari més amplis, de manera que la despesa real en eines d'IA al Congrés podria ser més alta del que reflecteixen aquests registres, i l'informe no detalla quina part d'aquest ús respon a proves puntuals enfront d'una adopció ja consolidada en la feina diària dels despatxos.",
+      "image": "./assets/congres-eua-chatgpt-90-per-cent-despesa-ia-20260804.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "apple-siri-ai-ios27-beta-recepcio",
+      "title": "Apple estrena finalment Siri AI en beta pública, però la rebuda és més aviat freda",
+      "excerpt": "Després d'anys de retards, la nova versió conversacional de Siri ja funciona a la beta pública d'iOS 27 i pot buscar informació personal al dispositiu sense indicar-li on és, però la crítica hi veu més aviat la reparació d'un error de llarga durada que una novetat revolucionària.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+      "sourceDate": "3 d'agost de 2026",
+      "body": "Apple porta anys prometent una versió de Siri capaç de mantenir converses naturals i d'entendre el context personal de l'usuari, un projecte endarrerit repetidament mentre Google, OpenAI i altres competidors avançaven amb els seus propis assistents conversacionals.\n\nLa nova Siri AI, presentada a la conferència de desenvolupadors de juny, va arribar el juliol a la versió beta pública d'iOS 27, i s'espera que arribi a tots els usuaris quan Apple llanci oficialment el sistema operatiu al setembre. L'assistent ja pot mantenir converses bidireccionals, entendre el context personal de l'usuari i cercar informació al dispositiu sense que calgui indicar-li on és: l'exemple que posa l'article és demanar-li que recuperi l'últim rebut guardat a l'iPhone sense dir on s'havia desat. Per construir-la, Apple es va associar primer amb Google per fer servir els models Gemini i després va desenvolupar els seus propis Apple Foundation Models, dissenyats per funcionar amb silici propi i una infraestructura de computació privada al núvol.\n\nLa notícia és rellevant perquè marca l'entrada real d'Apple, l'últim gran fabricant que hi faltava, a la cursa dels assistents conversacionals amb IA, en un sector on la resta de grans tecnològiques ja porten anys de recorregut, i perquè posa a prova si els usuaris valoraran més la integració profunda amb el dispositiu que la potència bruta del model.\n\nMalgrat les millores, la percepció crítica de l'article és que el llançament sembla més aviat que Apple ha «arreglat un error de llarga durada» que no pas una novetat revolucionària, en un moment en què la resta del sector ja ha avançat cap a agents d'IA capaços de completar tasques complexes de diversos passos, no només de respondre preguntes.",
+      "image": "./assets/apple-siri-ai-ios27-beta-recepcio-20260804.jpg"
+    },
     {
       "category": "POLÍTICA",
       "read": "4 MIN",
