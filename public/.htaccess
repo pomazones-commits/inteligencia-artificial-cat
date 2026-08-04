@@ -11,67 +11,79 @@
 # quedar-se a la cau tant de temps com calgui.
 
 <IfModule mod_headers.c>
-  <FilesMatch "^(news|radar|analysis|reflection|daily-image)\.js$">
-    Header set Cache-Control "no-cache, must-revalidate"
-  </FilesMatch>
-  <FilesMatch "\.json$">
-    Header set Cache-Control "no-cache, must-revalidate"
-  </FilesMatch>
-  <FilesMatch "\.(html|php)$">
-    Header set Cache-Control "no-cache, must-revalidate"
-  </FilesMatch>
-  <FilesMatch "\.(jpg|jpeg|png|webp|gif|svg|mp3)$">
-    Header set Cache-Control "public, max-age=2592000, immutable"
-  </FilesMatch>
+<FilesMatch "^(news|radar|analysis|reflection|daily-image)\.js$">
+Header set Cache-Control "no-cache, must-revalidate"
+</FilesMatch>
+<FilesMatch "\.json$">
+Header set Cache-Control "no-cache, must-revalidate"
+</FilesMatch>
+<FilesMatch "\.(html|php)$">
+Header set Cache-Control "no-cache, must-revalidate"
+</FilesMatch>
+<FilesMatch "\.(jpg|jpeg|png|webp|gif|svg|mp3)$">
+Header set Cache-Control "public, max-age=2592000, immutable"
+</FilesMatch>
 </IfModule>
 
 # Fitxers privats de dades: mai no s'han de poder descarregar per HTTP.
 # (api.php hi accedeix pel sistema de fitxers; això només bloqueja el web.)
 <Files "subscribers.csv">
-  Require all denied
+Require all denied
 </Files>
 <Files "mail.log">
-  Require all denied
+Require all denied
 </Files>
 
 <IfModule mod_rewrite.c>
-  RewriteEngine On
+RewriteEngine On
 
-  # Un únic host canònic: qualsevol altre nom (www o els dominis alternatius
-  # intel·ligencia-artificial.cat, intel·ligenciaartificial.cat,
-  # inteligenciaartificial.cat i intelligencia-artificial.cat) es redirigeix
-  # amb un 301 al domini bo, conservant el camí sencer.
-  RewriteCond %{HTTP_HOST} !^inteligencia-artificial\.cat$ [NC]
-  RewriteRule ^ https://inteligencia-artificial.cat%{REQUEST_URI} [R=301,L]
+# Un únic host canònic: qualsevol altre nom (www o els dominis alternatius
+# intel·ligencia-artificial.cat, intel·ligenciaartificial.cat,
+# inteligenciaartificial.cat i intelligencia-artificial.cat) es redirigeix
+# amb un 301 al domini bo, conservant el camí sencer.
+RewriteCond %{HTTP_HOST} !^inteligencia-artificial\.cat$ [NC]
+RewriteRule ^ https://inteligencia-artificial.cat%{REQUEST_URI} [R=301,L]
 
-  RewriteRule ^sitemap\.xml$ sitemap.php [L]
-  RewriteRule ^news-sitemap\.xml$ news-sitemap.php [L]
-  RewriteRule ^feed\.xml$ feed.php [L]
-  RewriteRule ^tema/([a-z0-9-]+)/?$ tema.php?tema=$1 [L,QSA]
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+RewriteRule ^news-sitemap\.xml$ news-sitemap.php [L]
+RewriteRule ^feed\.xml$ feed.php [L]
+RewriteRule ^tema/([a-z0-9-]+)/?$ tema.php?tema=$1 [L,QSA]
 
-  # URLs antigues: cada pàgina es redirigeix al nou equivalent temàtic.
-  RewriteRule ^ara/?$ https://inteligencia-artificial.cat/ [R=301,L]
-  RewriteRule ^onu/?$ https://inteligencia-artificial.cat/tema/politica-i-governanca [R=301,L]
-  RewriteRule ^economia/?$ https://inteligencia-artificial.cat/tema/empresa-i-treball [R=301,L]
-  RewriteRule ^llms/?$ https://inteligencia-artificial.cat/tema/tecnologia [R=301,L]
-  RewriteRule ^computacio/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
-  RewriteRule ^ia-i-politica/?$ https://inteligencia-artificial.cat/tema/politica-i-governanca [R=301,L]
-  RewriteRule ^ia-i-innovacio/?$ https://inteligencia-artificial.cat/tema/tecnologia [R=301,L]
-  RewriteRule ^ia-i-societat/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
-  RewriteRule ^ia-i-filosofia/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
-  RewriteRule ^ia-i-educacio/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
-  RewriteRule ^ia-i-medi-ambient/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
-  RewriteRule ^salutia/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
-  RewriteRule ^tv3/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
-  RewriteRule ^generalitat-de-catalunya/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
-  RewriteRule ^formacio/?$ https://inteligencia-artificial.cat/eines.html [R=301,L]
-  RewriteRule ^llibres-tecnics/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
-  RewriteRule ^salut/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
-  RewriteRule ^turisme/?$ https://inteligencia-artificial.cat/tema/empresa-i-treball [R=301,L]
-  RewriteRule ^llengua/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
-  RewriteRule ^ciberseguretat/?$ https://inteligencia-artificial.cat/tema/seguretat [R=301,L]
-  RewriteRule ^aigua/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
-  RewriteRule ^canvi-climatic/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
-  RewriteRule ^i2cat/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
-  RewriteRule ^cidai/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
+# URLs antigues: cada pàgina es redirigeix al nou equivalent temàtic.
+RewriteRule ^ara/?$ https://inteligencia-artificial.cat/ [R=301,L]
+RewriteRule ^onu/?$ https://inteligencia-artificial.cat/tema/politica-i-governanca [R=301,L]
+RewriteRule ^economia/?$ https://inteligencia-artificial.cat/tema/empresa-i-treball [R=301,L]
+RewriteRule ^llms/?$ https://inteligencia-artificial.cat/tema/tecnologia [R=301,L]
+RewriteRule ^computacio/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
+RewriteRule ^ia-i-politica/?$ https://inteligencia-artificial.cat/tema/politica-i-governanca [R=301,L]
+RewriteRule ^ia-i-innovacio/?$ https://inteligencia-artificial.cat/tema/tecnologia [R=301,L]
+RewriteRule ^ia-i-societat/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
+RewriteRule ^ia-i-filosofia/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
+RewriteRule ^ia-i-educacio/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
+RewriteRule ^ia-i-medi-ambient/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
+RewriteRule ^salutia/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
+RewriteRule ^tv3/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
+RewriteRule ^generalitat-de-catalunya/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
+RewriteRule ^formacio/?$ https://inteligencia-artificial.cat/eines.html [R=301,L]
+RewriteRule ^llibres-tecnics/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
+RewriteRule ^salut/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
+RewriteRule ^turisme/?$ https://inteligencia-artificial.cat/tema/empresa-i-treball [R=301,L]
+RewriteRule ^llengua/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
+RewriteRule ^ciberseguretat/?$ https://inteligencia-artificial.cat/tema/seguretat [R=301,L]
+RewriteRule ^aigua/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
+RewriteRule ^canvi-climatic/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
+RewriteRule ^i2cat/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
+RewriteRule ^cidai/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
+
+# Restants del web antic detectats a Search Console (04.08.2026).
+RewriteRule ^diversos/?$ https://inteligencia-artificial.cat/ [R=301,L]
+RewriteRule ^la-importncia-de-la-intelligncia-artificial/?$ https://inteligencia-artificial.cat/tema/tecnologia [R=301,L]
+RewriteRule ^arquitectura/?$ https://inteligencia-artificial.cat/tema/tecnologia [R=301,L]
+RewriteRule ^ia-i-medicina/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
+RewriteRule ^el-futur-de-la-intelligncia-artificial/?$ https://inteligencia-artificial.cat/tema/tecnologia [R=301,L]
+
+# Restes del WordPress antic (wp-login.php, wp-cron.php, wp-admin...):
+# redirigides a la portada perquè deixin de comptar com a 404.
+RewriteRule ^wp-[^/]*\.php$ https://inteligencia-artificial.cat/ [R=301,L]
+RewriteRule ^wp-(admin|content|includes)(/.*)?$ https://inteligencia-artificial.cat/ [R=301,L]
 </IfModule>
