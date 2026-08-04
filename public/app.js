@@ -25,6 +25,7 @@
     loadScript('./tribuna.js'),
     loadScript('./estudis.js'),
     loadScript('./reflection.js'),
+    loadScript('./reflexio-diaria.js'),
     loadScript('./daily-image.js')
   ]);
 
@@ -194,6 +195,62 @@
         <h3>${escapeHTML(item.title)}</h3>
         <p>${escapeHTML(item.summary || '')}</p>
       </a>`).join('');
+
+    // ——— La reflexió del dia (balanç diari; fitxer generat reflexio-diaria.js) ———
+    // Es publica amb l'últim lot del dia. Si un dia no arriba, la peça vigent
+    // continua sent la del dia anterior: es mostra mentre sigui d'avui o d'ahir
+    // i, passat aquest marge, la banda s'amaga (la peça segueix a l'arxiu).
+    if (window.IA_REFLEXIO_DIARIA && window.IA_REFLEXIO_DIARIA.title) {
+      const reflexio = window.IA_REFLEXIO_DIARIA;
+      const [year, month, day] = String(reflexio.date || '').split('-');
+      const humanDate = day ? `${day}.${month}.${year}` : '';
+      const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit' }).format(now);
+      const daysOld = day
+        ? Math.round((Date.parse(`${today}T00:00:00Z`) - Date.parse(`${reflexio.date}T00:00:00Z`)) / 86400000)
+        : 99;
+      if (daysOld >= -1 && daysOld <= 1) {
+        document.querySelector('#reflexio-title').textContent = reflexio.title;
+        document.querySelector('#reflexio-diaria-dek').textContent = reflexio.dek || '';
+        document.querySelector('#reflexio-mark').textContent = humanDate;
+        document.querySelector('#reflexio-diaria-eyebrow').textContent = reflexio.read
+          ? `La reflexió del dia · ${String(reflexio.read).toLowerCase()}`
+          : 'La reflexió del dia';
+        document.querySelector('#reflexio-diaria-byline').textContent = humanDate
+          ? `Per Redacció IA.cat · ${humanDate}`
+          : 'Per Redacció IA.cat';
+
+        // Els senyals del dia: les notícies en què es basa la reflexió.
+        const senyals = Array.isArray(reflexio.signals) ? reflexio.signals.filter(item => item && item.title) : [];
+        if (senyals.length) {
+          const list = document.querySelector('#reflexio-senyals');
+          const label = document.createElement('li');
+          label.className = 'reflexio-senyals__label';
+          label.textContent = 'Es basa en';
+          list.append(label);
+          senyals.forEach(signal => {
+            const item = document.createElement('li');
+            const link = document.createElement('a');
+            if (signal.slug) {
+              link.href = `./article.php?slug=${encodeURIComponent(signal.slug)}`;
+            } else if (signal.url) {
+              link.href = signal.url;
+              link.target = '_blank';
+              link.rel = 'noreferrer';
+            } else {
+              link.href = './reflexio.html';
+            }
+            // Els titulars llargs s'escurcen a la portada (sencers a reflexio.html).
+            const label = String(signal.title);
+            link.textContent = label.length > 58 ? `${label.slice(0, 58).replace(/\s+\S*$/, '')}…` : label;
+            link.title = label;
+            item.append(link);
+            list.append(item);
+          });
+          list.hidden = false;
+        }
+        document.querySelector('#reflexio-del-dia').hidden = false;
+      }
+    }
 
     // ——— La tribuna (article d'autor, fitxer manual tribuna.js) ———
     if (window.IA_TRIBUNA && window.IA_TRIBUNA.title) {

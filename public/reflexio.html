@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f7fb">
+  <meta name="description" content="La reflexió del dia: el balanç de la redacció sobre com ha evolucionat avui la intel·ligència artificial i quines tendències s'hi veuen, a partir de les notícies del dia.">
+  <link rel="canonical" href="https://inteligencia-artificial.cat/reflexio.html">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="intel·ligènciaartificial.cat"><meta property="og:locale" content="ca_ES">
+  <meta property="og:title" content="La reflexió del dia · intel·ligència artificial.cat">
+  <meta property="og:description" content="Com ha evolucionat avui la intel·ligència artificial i quines tendències s'hi veuen, a partir de les notícies del dia.">
+  <meta property="og:url" content="https://inteligencia-artificial.cat/reflexio.html">
+  <title>La reflexió del dia · intel·ligència artificial.cat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;family=Onest:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./editorial.css?v=2026072401">
+  <script defer src="./shared.js?v=2026072302"></script>
+  <style>
+    /* Els senyals del dia: les notícies de l'edició en què es basa la reflexió. */
+    .reflexio-senyals-peca { margin: 40px 0 0; padding-top: 24px; border-top: 1px solid #e3e7ef; }
+    .reflexio-senyals-peca h2 { margin: 0 0 14px; font: 600 10px "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .1em; color: #5d6472; }
+    .reflexio-senyals-peca ul { margin: 0; padding-left: 20px; }
+    .reflexio-senyals-peca li { margin: 0 0 9px; font-size: 14px; line-height: 1.6; }
+    .reflexio-anterior { margin-top: 10px; font-size: 13px; color: #5d6472; }
+  </style>
+</head>
+<body class="editorial-body">
+  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
+
+  <main class="editorial-shell editorial-main">
+    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><span>La reflexió del dia</span></nav>
+    <p class="editorial-kicker" id="estat">CARREGANT LA REFLEXIÓ…</p>
+    <div id="contingut" hidden>
+      <header class="article-header">
+        <div><p class="editorial-kicker" id="kicker"></p><h1 id="titol"></h1><p class="editorial-lede" id="entradeta"></p></div>
+        <div class="article-byline-clean">
+          <p>Per <strong>Redacció IA.cat</strong></p><span>La reflexió del dia · Cada vespre</span>
+          <time id="data"></time>
+          <a rel="author" href="./redaccio.html">Com treballem →</a>
+        </div>
+      </header>
+      <div class="article-layout">
+        <article>
+          <div id="lector"></div>
+          <div class="article-body-clean" id="cos"></div>
+          <section class="reflexio-senyals-peca" id="senyals" hidden><h2>Es basa en aquestes notícies</h2><ul id="senyals-llista"></ul></section>
+        </article>
+        <aside class="article-sidebar">
+          <section class="article-sidecard"><h2>Comparteix</h2><div class="article-share-clean"><a id="share-linkedin" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a><a id="share-whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a><a id="share-mail" href="#">Correu</a><button type="button" data-copy-url="https://inteligencia-artificial.cat/reflexio.html">Copia</button></div></section>
+          <section class="article-sidecard"><h2>Sobre aquesta peça</h2><p>Cada vespre, amb l’últim lot de notícies, la redacció escriu el balanç del dia: què ha passat, què hi ha de nou de debò i quina tendència apunta. Es fa a partir de les notícies publicades avui en aquest web. <a href="./redaccio.html">Consulta el mètode editorial →</a></p></section>
+          <section class="article-sidecard"><h2>Reflexions anteriors</h2><p>Totes les reflexions publicades fins ara, dia a dia. <a href="./arxiu-reflexions.html">Ves a l’arxiu de reflexions →</a></p><p class="reflexio-anterior" id="anterior" hidden></p></section>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
+
+  <script src="./reflexio-diaria.js?v=2026080403"></script>
+  <script src="./reflexions-arxiu.js?v=2026080403"></script>
+  <script src="./lector.js?v=2026072901"></script>
+  <script>
+    (function () {
+      // ?arxiu=N mostra una reflexió arxivada (reflexions-arxiu.js); sense
+      // paràmetre, la vigent (reflexio-diaria.js).
+      var arxiu = window.IA_REFLEXIONS_ARXIU || [];
+      var idx = parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
+      var esArxivada = !isNaN(idx) && !!arxiu[idx];
+      var r = esArxivada ? arxiu[idx] : window.IA_REFLEXIO_DIARIA;
+      var estat = document.getElementById('estat');
+      if (!r || !r.title) {
+        estat.textContent = 'ARA MATEIX NO HI HA CAP REFLEXIÓ PUBLICADA.';
+        return;
+      }
+      // La data arriba sempre com AAAA-MM-DD i es mostra com DD.MM.AAAA.
+      var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(r.date || ''));
+      var dataHumana = m ? m[3] + '.' + m[2] + '.' + m[1] : (r.date || '');
+
+      document.title = r.title + ' · La reflexió del dia · intel·ligència artificial.cat';
+      estat.hidden = true;
+      document.getElementById('kicker').textContent = ['LA REFLEXIÓ DEL DIA', dataHumana, r.read || ''].filter(Boolean).join(' · ');
+      document.getElementById('titol').textContent = r.title;
+      document.getElementById('entradeta').textContent = r.dek || '';
+      document.getElementById('data').textContent = dataHumana;
+
+      var paragrafs = Array.isArray(r.body)
+        ? r.body.filter(Boolean)
+        : String(r.body || '').split(/\n\n+/).filter(Boolean);
+      var cos = document.getElementById('cos');
+      paragrafs.forEach(function (text) {
+        var p = document.createElement('p');
+        p.textContent = text;
+        cos.appendChild(p);
+      });
+
+      // Senyals: les notícies del dia en què es basa la peça (construïts amb el DOM).
+      var senyals = Array.isArray(r.signals) ? r.signals.filter(function (s) { return s && s.title; }) : [];
+      if (senyals.length) {
+        var llista = document.getElementById('senyals-llista');
+        senyals.forEach(function (senyal) {
+          var li = document.createElement('li');
+          if (senyal.slug || senyal.url) {
+            var a = document.createElement('a');
+            a.href = senyal.slug ? './article.php?slug=' + encodeURIComponent(senyal.slug) : senyal.url;
+            if (!senyal.slug) { a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+            a.textContent = senyal.title;
+            li.appendChild(a);
+          } else {
+            li.textContent = senyal.title;
+          }
+          llista.appendChild(li);
+        });
+        document.getElementById('senyals').hidden = false;
+      }
+
+      // Enllaç a la reflexió immediatament anterior a la que s'està llegint.
+      var seguentIdx = esArxivada ? idx + 1 : 0;
+      if (arxiu[seguentIdx] && arxiu[seguentIdx].title) {
+        var anterior = document.getElementById('anterior');
+        var ma = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(arxiu[seguentIdx].date || ''));
+        var enllacAnterior = document.createElement('a');
+        enllacAnterior.href = './reflexio.html?arxiu=' + seguentIdx;
+        enllacAnterior.textContent = arxiu[seguentIdx].title;
+        anterior.appendChild(document.createTextNode('Anterior' + (ma ? ' (' + ma[3] + '.' + ma[2] + '.' + ma[1] + ')' : '') + ': '));
+        anterior.appendChild(enllacAnterior);
+        anterior.hidden = false;
+      }
+
+      // Compartir (les arxivades comparteixen l'adreça amb ?arxiu=N)
+      var pagina = 'https://inteligencia-artificial.cat/reflexio.html' + (esArxivada ? '?arxiu=' + idx : '');
+      var botoCopia = document.querySelector('[data-copy-url]');
+      if (botoCopia) botoCopia.setAttribute('data-copy-url', pagina);
+      var url = encodeURIComponent(pagina);
+      var titolCodificat = encodeURIComponent(r.title);
+      document.getElementById('share-linkedin').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+      document.getElementById('share-whatsapp').href = 'https://wa.me/?text=' + titolCodificat + '%20' + url;
+      document.getElementById('share-mail').href = 'mailto:?subject=' + titolCodificat + '&body=' + url;
+      document.getElementById('contingut').hidden = false;
+
+      // Lector: MP3 neural si existeix (reflexio-AAAA-MM-DD.mp3).
+      window.IALector.init({
+        container: document.getElementById('lector'),
+        audioUrl: m ? './assets/audio/reflexio-' + r.date + '.mp3' : null,
+        parts: [r.title, r.dek || ''].concat(paragrafs).filter(Boolean)
+      });
+    })();
+  </script>
+</body>
+</html>

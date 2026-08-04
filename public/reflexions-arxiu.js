@@ -1,0 +1,1 @@
+window.IA_REFLEXIONS_ARXIU = [];

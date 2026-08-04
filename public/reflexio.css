@@ -1,0 +1,140 @@
+/* ——— La reflexió del dia ———
+   Estils de la banda de portada de «La reflexió del dia»: el balanç que la
+   redacció escriu cada vespre amb l'últim lot de notícies, a partir del que ha
+   passat durant el dia. Fitxer independent per no tocar portada.css (regla de
+   CLAUDE.md). La secció (#reflexio-del-dia) està amagada per defecte i app.js
+   només la mostra si window.IA_REFLEXIO_DIARIA té contingut.
+
+   Distinció visual respecte de les altres bandes: «La tribuna» és fosca,
+   «Estudis» és clara i blavosa i l'anàlisi setmanal és violeta. Aquesta és de
+   paper càlid amb accent coral: es llegeix com una nota del dia, no com una
+   peça de fons. */
+
+.reflexio-band {
+  width: var(--shell);
+  margin: 0 auto 26px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 34px;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 6% 12%, rgba(255, 109, 98, .10), transparent 42%),
+    linear-gradient(140deg, #fff, #fdfbf7 58%, #f8f6f0);
+  box-shadow: 0 22px 60px rgba(17, 21, 38, .07);
+}
+
+.reflexio-layout {
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr);
+  gap: 40px;
+  align-items: stretch;
+}
+
+.reflexio-mark {
+  align-self: stretch;
+  display: grid;
+  place-items: center;
+  border-right: 1px solid rgba(17, 21, 38, .09);
+  color: var(--coral);
+  font: 600 15px var(--mono);
+  letter-spacing: .18em;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-transform: uppercase;
+}
+
+.reflexio-copy { padding-block: 48px; }
+.reflexio-copy .eyebrow { color: #a33127; background: #ffe6e3; }
+
+.reflexio-copy h2 {
+  margin: 0;
+  max-width: 760px;
+  font: 500 42px/1.06 var(--serif);
+  letter-spacing: -.04em;
+}
+
+.reflexio-copy > p:not(.eyebrow):not(.reflexio-byline) {
+  max-width: 660px;
+  margin: 16px 0 14px;
+  color: #4d566d;
+  font-size: 15px;
+  line-height: 1.66;
+}
+
+.reflexio-byline {
+  margin: 0 0 22px;
+  color: #8a3a33;
+  font: 600 10px var(--mono);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+}
+
+.reflexio-links { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.reflexio-copy a {
+  display: inline-flex;
+  gap: 12px;
+  padding: 11px 14px;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--ink);
+  font: 600 9px var(--mono);
+  text-transform: uppercase;
+}
+
+.reflexio-copy a.reflexio-link-secundari {
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid #ddd3ce;
+}
+
+/* Els senyals del dia: les notícies en què es basa la reflexió. */
+.reflexio-senyals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 760px;
+  margin: 26px 0 0;
+  padding: 20px 0 0;
+  border-top: 1px solid rgba(17, 21, 38, .08);
+  list-style: none;
+}
+
+.reflexio-senyals li { margin: 0; }
+
+.reflexio-copy .reflexio-senyals a {
+  padding: 8px 12px;
+  border: 1px solid #e6ddd8;
+  border-radius: 999px;
+  color: #4d566d;
+  background: rgba(255, 255, 255, .7);
+  font: 500 11px/1.3 var(--sans);
+  text-transform: none;
+  letter-spacing: 0;
+  transition: color .2s, border-color .2s;
+}
+
+.reflexio-copy .reflexio-senyals a:hover { color: var(--ink); border-color: #c9bcb5; }
+.reflexio-senyals .reflexio-senyals__label {
+  align-self: center;
+  margin-right: 4px;
+  color: var(--muted);
+  font: 600 9px var(--mono);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+}
+
+@media (max-width: 880px) {
+  .reflexio-band { border-radius: 25px; }
+  .reflexio-layout { grid-template-columns: 1fr; gap: 0; }
+  .reflexio-mark {
+    justify-self: start;
+    border-right: 0;
+    padding: 26px 24px 0;
+    writing-mode: horizontal-tb;
+    transform: none;
+    font-size: 13px;
+  }
+  .reflexio-copy { padding: 18px 24px 34px; }
+  .reflexio-copy h2 { font-size: 30px; }
+}
