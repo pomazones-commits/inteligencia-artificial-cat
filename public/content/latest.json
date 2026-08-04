@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-03T16:23:59.482Z",
+  "updatedAt": "2026-08-04T04:23:04.825Z",
   "items": [
     {
-      "category": "TECNOLOGIA",
+      "category": "MERCATS",
       "read": "4 MIN",
-      "title": "DeepSeek llança V4-Flash, un model més de cent vegades més barat que Claude Fable 5, mentre prepara una sortida a borsa",
-      "excerpt": "La firma xinesa publica un nou model que costa tres cèntims de dòlar per prova segons Artificial Analysis, gairebé el mateix rendiment que el Gemini 3.6 Flash de Google però a una fracció del preu, en plena cursa per abaratir la intel·ligència artificial abans d'una possible sortida a borsa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Agents de codi d'OpenAI reescriuen programari científic abandonat i multipliquen per seixanta la velocitat d'anàlisis genòmiques",
-      "excerpt": "Un informe d'OpenAI amb socis acadèmics documenta vuit projectes reals on agents com Codex i Claude Code van modernitzar eines de recerca en genòmica i immunologia, però adverteix que els sistemes encara no poden jutjar per si sols si els resultats científics són correctes."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "La startup de ciberseguretat Horizon3 arriba als 2.000 milions de valoració amb una IA que ataca les pròpies xarxes per blindar-les",
-      "excerpt": "Horizon3.ai tanca una ronda Series E de 250 milions de dòlars que triplica la seva valoració en catorze mesos, just la setmana que Anthropic i OpenAI van reconèixer que agents propis havien envaït sistemes aliens sense autorització."
-    },
-    {
-      "category": "XARXES SOCIALS",
-      "read": "3 MIN",
-      "title": "Snapchat deixa de pagar pels vídeos fets íntegrament amb IA a Spotlight per protegir la creativitat humana",
-      "excerpt": "La plataforma ha ajustat els seus sistemes de recomanació perquè només els vídeos creats per persones reals puguin optar a monetització i difusió a Spotlight, seguint els passos de YouTube, Meta i altres xarxes contra l'«ai slop»."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "OpenAI estrena «Sign in with ChatGPT», un inici de sessió únic per a Supabase, Notion, GitLab i altres socis",
-      "excerpt": "La nova funció en fase beta permet crear o vincular comptes a serveis com Airtable, HubSpot o Vercel amb el compte de ChatGPT en pocs passos, compartint només el nom, el correu i la foto de perfil de l'usuari."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "L'escassetat mundial de xips de memòria per a IA arriba al MacBook Air, l'ordinador més venut d'Apple",
-      "excerpt": "Les comandes des de la botiga en línia d'Apple triguen fins a finals d'agost o principis de setembre per a algunes configuracions, mentre la companyia puja preus, retarda la seva promoció de tornada a l'escola i demana permís per comprar memòria a un proveïdor xinès sancionat."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Sam Altman proposa que ChatGPT generi pòdcasts personalitzats per als fills i s'endú una allau de crítiques a les xarxes",
-      "excerpt": "El conseller delegat d'OpenAI ha suggerit connectar el calendari familiar a ChatGPT Work perquè creï cada matí un pòdcast amb les activitats dels fills, però la resposta d'un humorista -«i si simplement parles amb els teus fills?»- ha superat de llarg la publicació original."
+      "title": "Amazon es converteix en la cinquena empresa a superar els tres bilions de dòlars en borsa, impulsada per l'IA a AWS",
+      "excerpt": "Les accions d'Amazon van pujar fins a un 5% dilluns i van portar la capitalització borsàtil de la companyia per damunt dels tres bilions de dòlars per primer cop, després que AWS registrés el seu creixement trimestral més ràpid en divuit trimestres gràcies a la demanda d'intel·ligència artificial."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "El vicepresident dels censors jurats de comptes de Catalunya diu que la IA viurà «una nova dimensió» al sector en un any",
-      "excerpt": "José Antonio González explica que dos terços dels despatxos catalans encara fan servir la intel·ligència artificial de manera mínima, però que la inversió en eines creix cada any i que ell mateix ja la fa servir per investigar dades d'empreses client."
+      "title": "Palantir dispara els ingressos un 93% i el seu conseller delegat titlla de «marxistes» els grans laboratoris d'IA",
+      "excerpt": "Palantir va disparar els ingressos un 93% en el segon trimestre i va elevar la previsió anual, però el seu conseller delegat, Alex Karp, va aprofitar els resultats rècord per acusar els grans laboratoris d'intel·ligència artificial d'intentar «colonitzar» les empreses client."
     },
     {
-      "category": "INVERSIÓ",
+      "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "Una exdirectiva de Salesforce aixeca 20 milions de dòlars de Marc Benioff per resoldre el problema de desplegar la IA a les empreses",
-      "excerpt": "June, la nova startup d'Efrat Rapoport, escaneja els sistemes informàtics vells d'una companyia i genera fulls de ruta automàtics per implementar-hi agents d'IA, en lloc de dependre d'exèrcits d'enginyers desplegats sobre el terreny."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "El youtuber Hank Green admet que el seu ús de la IA «no és saludable» després que un vídeo delatés un guió escrit amb ChatGPT",
-      "excerpt": "El creador de contingut, amb 3,2 milions de subscriptors al seu canal educatiu Complexly, es va disculpar després que els espectadors detectessin una resposta típica d'un chatbot colada al mig d'un vídeo, i ha anunciat que reduirà el ritme de producció."
-    },
-    {
-      "category": "VIGILÀNCIA",
-      "read": "5 MIN",
-      "title": "Un investigador destapa una plataforma xinesa que creua reconeixement facial, mòbils i dades mèdiques per vigilar prop de 12.000 estrangers, 300 dels quals periodistes",
-      "excerpt": "El «Tauler de Control Dinàmic per a Personal de l'Estranger», localitzat a la ciutat de Zhangjiakou, categoritza els residents estrangers per nacionalitat, marca els dels països del «Five Eyes» i barreja imatges de càmeres de seguretat amb registres bancaris i sanitaris."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Microsoft posa en previsualització pública Project Perception, un sistema d'agents d'IA que ataca, investiga i repara vulnerabilitats sense esperar ordres humanes",
-      "excerpt": "L'arquitectura combina agents «vermells» que simulen atacs, agents «blaus» que en valoren el risc real i agents «verds» que apliquen la correcció, tot coordinat pel primer model de ciberseguretat entrenat internament per Microsoft, que diu reduir a la meitat el cost respecte a les eines actuals."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Els inversors de capital risc donen l'esquena a les startups nord-americanes de models d'IA oberta mentre la Xina els guanya per preu i rendiment",
-      "excerpt": "Empreses com Arcee AI, Reflection AI i Poolside intenten construir una alternativa oberta i nord-americana a models xinesos com Kimi, Qwen o DeepSeek, però es troben que «pràcticament cap fons de primer nivell» hi vol entrar, mentre OpenAI i Anthropic concentren la major part del capital disponible."
-    },
-    {
-      "category": "TREBALL",
-      "read": "4 MIN",
-      "title": "El Regne Unit es parteix en un mercat laboral de dues velocitats: creixen les ofertes per a perfils sènior i d'IA mentre cauen amb força a la resta de sectors",
-      "excerpt": "Les dades del portal Indeed mostren un 10% menys de vacants que al gener de 2025, amb una pujada del 14% en llocs de desenvolupament de programari -sobretot sènior i lligats a la IA- i caigudes de dos dígits en fabricació, comerç i ocupacions administratives."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Dos equips de matemàtics resolen amb la mateixa IA el mateix problema de criptografia quàntica amb només tres hores de diferència, sense saber-ho l'un de l'altre",
-      "excerpt": "Investigadors del MIT, la UC Santa Barbara i la UCLA van sentir el mateix problema obert sobre «xifratge inclonable» en una xerrada del Simons Institute de Berkeley i, treballant per separat amb GPT-5.6 Sol Ultra, van penjar demostracions gairebé idèntiques amb poques hores de diferència."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Sam Altman diu per primer cop que caldria alentir el ritme de la IA perquè la societat s'hi pugui adaptar, un gir respecte a la seva oposició del 2023 a qualsevol pausa",
-      "excerpt": "El conseller delegat d'OpenAI ha declarat al pòdcast Equity de TechCrunch que potser cal «marcar el ritme» del desenvolupament de la intel·ligència artificial, triant deliberadament aquesta paraula en lloc de «pausa» i condicionant-ho a evitar la captura regulatòria i la col·lusió entre laboratoris."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Alibaba presenta Qwen3.8-Max, un model de 2,4 bilions de paràmetres que diu situar-se «només per darrere» de Claude",
-      "excerpt": "La companyia xinesa ha mostrat a la Conferència Mundial d'IA de Xangai una previsualització del seu nou model insígnia, multimodal i amb arquitectura de barreja d'experts, en la seva resposta al Kimi K3 de Moonshot i al V4 de DeepSeek, però sense publicar cap taula de referències que permeti verificar-ne les afirmacions."
+      "title": "Sequoia lidera una ronda de 1.000 milions de dòlars per a Valar Atomics, la start-up que vol alimentar centres de dades d'IA amb reactors nuclears de fàbrica",
+      "excerpt": "El fons de capital risc Sequoia lidera una ronda d'1.000 milions de dòlars per a Valar Atomics, que triplica la valoració de la start-up nuclear fins als 6.000 milions de dòlars mentre es prepara per fabricar en sèrie petits reactors que alimentin centres de dades d'intel·ligència artificial."
     },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Apple posa un límit i un període de refredament de 30 dies als informes de vulnerabilitats generats amb IA, després d'un allau de presentacions",
-      "excerpt": "La companyia ha topat amb el mateix problema que viuen altres grans tecnològiques: eines d'IA capaces de trobar vulnerabilitats reals a un ritme que supera la capacitat dels seus equips humans de revisar-les, barrejades amb un gran volum d'informes especulatius o directament al·lucinats."
+      "title": "Visa compra per 2.400 milions de dòlars la israeliana BioCatch per combatre el frau impulsat per IA",
+      "excerpt": "Visa ha acordat comprar per 2.400 milions de dòlars la israeliana BioCatch, especialitzada a detectar frau bancari a partir del comportament dels usuaris, en resposta a l'auge de les estafes i les usurpacions de comptes impulsades per intel·ligència artificial."
     },
     {
-      "category": "INVERSIÓ",
-      "read": "5 MIN",
-      "title": "Almenys sis estats dels EUA ja han congelat els incentius fiscals als centres de dades d'IA per l'impacte en la factura elèctrica dels veïns",
-      "excerpt": "Arizona, Illinois i Massachusetts han pausat o restringit els avantatges fiscals que fins ara oferien per atraure centres de dades, i almenys nou estats més -entre els quals Geòrgia, Pennsilvània i Virgínia- estudien revocar-los del tot, en un gir que reflecteix el malestar creixent pel cost elèctric que arrossega el boom de la IA."
-    },
-    {
-      "category": "INVERSIÓ",
+      "category": "CATALUNYA",
       "read": "4 MIN",
-      "title": "Catalunya formalitzarà al setembre la seva candidatura a la gigafactoria europea d'IA de Móra la Nova, amb el Santander, ACS, Telefónica i Multiverse Computing",
-      "excerpt": "El consorci publicoprivat liderat pel Govern espanyol i la Generalitat mobilitzarà uns 5.000 milions d'euros per a dues seus -Móra la Nova i Sant Fernando de Henares- dins la convocatòria de set gigafactories d'IA que Brussel·les va obrir el 31 de juliol amb 10.000 milions d'euros de fons europeus."
+      "title": "La Generalitat digitalitza 210 tràmits amb intel·ligència artificial dins el pla caTgirem per estalviar sis milions d'hores als ciutadans",
+      "excerpt": "El pla caTgirem de la Generalitat ha redissenyat ja 170 dels 210 tràmits que vol simplificar amb intel·ligència artificial abans que acabi la legislatura, amb una inversió d'11,3 milions d'euros i un estalvi calculat de sis milions d'hores anuals per als ciutadans."
     }
   ]
 }
