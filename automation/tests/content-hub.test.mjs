@@ -262,3 +262,84 @@ test('una notícia global que diu «la caixa» en sentit de tresoreria NO es col
   assert.ok(!radar.some(item => item.title.startsWith('Meta guanya')), 'la notícia global de Meta no entra al radar per la paraula «caixa»');
   assert.ok(radar.some(item => item.title.startsWith('La Fundació la Caixa')), 'la Fundació la Caixa sí que es deriva al radar');
 });
+
+// ——— La reflexió del dia (04.08.2026) ———
+
+function reflexio(date, paragrafs = 5, extra = {}) {
+  return {
+    date,
+    title: `El fil del ${date}`,
+    dek: 'Una frase que resumeix què s’hi veu avui.',
+    body: Array.from({ length: paragrafs }, (_, index) =>
+      `Paràgraf ${index + 1} del balanç del dia, escrit a partir de les notícies publicades avui.`),
+    ...extra
+  };
+}
+
+function parseObjectAssignment(text) {
+  return JSON.parse(text.slice(text.indexOf('{'), text.lastIndexOf('}') + 1));
+}
+
+test('publica la reflexió del dia i fa rodar l’arxiu quan canvia de dia', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  const primer = join(root, 'reflexio-1.json');
+  await writeFile(primer, JSON.stringify(reflexio('2026-08-04', 5, {
+    signals: [
+      { title: 'Una notícia del dia', slug: 'una-noticia-del-dia' },
+      { title: 'Un senyal del radar', url: 'https://example.com/senyal' },
+      { title: 'Sense enllaç vàlid', slug: 'Slug Invàlid' }
+    ]
+  })), 'utf8');
+  assert.equal(run(['ingest-daily-reflection', '--input', primer, '--public-dir', root, '--state-dir', state], root).status, 0);
+
+  const vigent = parseObjectAssignment(await readFile(join(root, 'reflexio-diaria.js'), 'utf8'));
+  assert.equal(vigent.date, '2026-08-04');
+  assert.equal(vigent.body.length, 5);
+  assert.equal(vigent.read, '2 MIN', 'el temps de lectura es calcula sol si no ve donat (mínim 2 minuts)');
+  assert.equal(vigent.signals.length, 3, 'un slug invàlid no descarta el senyal, només l’enllaç');
+  assert.equal(vigent.signals[0].slug, 'una-noticia-del-dia');
+  assert.equal(vigent.signals[1].url, 'https://example.com/senyal');
+  assert.ok(!vigent.signals[2].slug && !vigent.signals[2].url, 'un slug amb espais no arriba mai a l’HTML');
+  assert.deepEqual(parseAssignment(await readFile(join(root, 'reflexions-arxiu.js'), 'utf8')), [], 'el primer dia l’arxiu queda buit');
+
+  const segon = join(root, 'reflexio-2.json');
+  await writeFile(segon, JSON.stringify(reflexio('2026-08-05', 6)), 'utf8');
+  assert.equal(run(['ingest-daily-reflection', '--input', segon, '--public-dir', root, '--state-dir', state], root).status, 0);
+
+  assert.equal(parseObjectAssignment(await readFile(join(root, 'reflexio-diaria.js'), 'utf8')).date, '2026-08-05');
+  const arxiu = parseAssignment(await readFile(join(root, 'reflexions-arxiu.js'), 'utf8'));
+  assert.equal(arxiu.length, 1, 'la reflexió d’ahir passa a l’arxiu');
+  assert.equal(arxiu[0].date, '2026-08-04');
+});
+
+test('tornar a publicar la reflexió del mateix dia la substitueix sense duplicar-la', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  for (const [dia, titol] of [['2026-08-04', 'Primera'], ['2026-08-05', 'Segona'], ['2026-08-05', 'Segona corregida']]) {
+    const input = join(root, `r-${titol.replace(/\s/g, '-')}.json`);
+    await writeFile(input, JSON.stringify({ ...reflexio(dia), title: titol }), 'utf8');
+    assert.equal(run(['ingest-daily-reflection', '--input', input, '--public-dir', root, '--state-dir', state], root).status, 0);
+  }
+  const vigent = parseObjectAssignment(await readFile(join(root, 'reflexio-diaria.js'), 'utf8'));
+  const arxiu = parseAssignment(await readFile(join(root, 'reflexions-arxiu.js'), 'utf8'));
+  assert.equal(vigent.title, 'Segona corregida');
+  assert.equal(arxiu.length, 1, 'la correcció no afegeix una segona entrada del mateix dia');
+  assert.equal(arxiu[0].date, '2026-08-04');
+  assert.ok(!arxiu.some(item => item.date === vigent.date), 'la peça vigent mai no és alhora a l’arxiu');
+});
+
+test('rebutja una reflexió del dia sense data vàlida o massa curta', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const senseData = join(root, 'sense-data.json');
+  await writeFile(senseData, JSON.stringify({ ...reflexio('2026-08-04'), date: '04.08.2026' }), 'utf8');
+  const resultatData = run(['ingest-daily-reflection', '--input', senseData, '--public-dir', root, '--state-dir', join(root, 'state')], root);
+  assert.equal(resultatData.status, 1);
+  assert.match(resultatData.stderr, /AAAA-MM-DD/);
+
+  const curta = join(root, 'curta.json');
+  await writeFile(curta, JSON.stringify(reflexio('2026-08-04', 3)), 'utf8');
+  const resultatCurta = run(['ingest-daily-reflection', '--input', curta, '--public-dir', root, '--state-dir', join(root, 'state')], root);
+  assert.equal(resultatCurta.status, 1);
+  assert.match(resultatCurta.stderr, /paràgrafs/);
+});
