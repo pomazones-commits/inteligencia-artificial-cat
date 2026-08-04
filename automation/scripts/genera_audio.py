@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
-"""Genera un MP3 per notícia amb la veu neuronal catalana i el puja per FTP.
+"""Genera un MP3 per notícia amb la veu neuronal catalana i el puja al servidor.
 
 S'executa dins de GitHub Actions (gratuït) amb edge-tts i la veu ca-ES-JoanaNeural.
-Els MP3 NO es guarden al repositori: es pugen directament al servidor per FTP,
+Els MP3 NO es guarden al repositori: es pugen directament al servidor,
 a assets/audio/<slug>.mp3. Si una síntesi falla, la notícia conserva el lector
 de veu del navegador com a xarxa de seguretat (article.php ho gestiona sol).
+
+Transport (fase A2, 04.08.2026): si els secrets SSH_* estan definits, els MP3
+es pugen per SSH (scp) amb la mateixa clau que fa servir desplega.yml — una
+sola llista remota inicial substitueix les desenes de comprovacions per fitxer
+de l'FTP. Si l'SSH no està configurat o no respon, es degrada sol al mecanisme
+FTP de sempre (curl), que queda com a recurs fins que es retiri del tot.
 
 A més de les notícies, també sintetitza les peces editorials fixes
 (anàlisi de la setmana, tribuna, estudi i imatge del dia) llegint els seus
@@ -17,6 +23,7 @@ la síntesi de les notícies.
 import json
 import os
 import re
+import stat
 import subprocess
 import sys
 import tempfile
@@ -26,6 +33,7 @@ from pathlib import Path
 VOICE = "ca-ES-JoanaNeural"
 FTP_HOST = "srv1589.hstgr.io"
 FTP_USER = "u901078817.claude"
+SSH_PATH_DEFECTE = "domains/inteligencia-artificial.cat/public_html"
 ARTICLES = Path("public/data/articles.json")
 MIDA_MINIMA = 20000  # bytes: per sota d'això considerem l'àudio corrupte
 
@@ -50,11 +58,6 @@ def camp_com_a_text(valor) -> str:
     else:
         text = str(valor or "").strip()
     return MARQUES.sub("", text).strip()
-
-
-def curl(args, **kw):
-    base = ["curl", "-sS", "--ftp-ssl-control", "--connect-timeout", "20"]
-    return subprocess.run(base + args, **kw)
 
 
 def llegeix_ia_js(path: Path) -> dict:
@@ -83,17 +86,105 @@ def data_iso(valor: str) -> str:
     return ""
 
 
-def ja_existeix(slug: str, auth: str) -> bool:
-    remote = f"ftp://{FTP_HOST}/assets/audio/{slug}.mp3"
-    return curl(
-        ["-u", auth, "-r", "0-0", "-o", os.devnull, "--max-time", "40", remote],
-        stderr=subprocess.DEVNULL,
-    ).returncode == 0
+class TransportSSH:
+    """Pujada per scp amb la clau de desplegament. Una sola llista inicial."""
+
+    def __init__(self, host: str, user: str, port: str, clau: str, arrel: str):
+        self._destdir = f"{arrel.rstrip('/')}/assets/audio"
+        self._target = f"{user}@{host}"
+        self._tmp = tempfile.TemporaryDirectory()
+        clau_path = Path(self._tmp.name) / "clau"
+        clau_path.write_text(clau.rstrip() + "\n", encoding="utf-8")
+        clau_path.chmod(stat.S_IRUSR | stat.S_IWUSR)
+        opcions = ["-i", str(clau_path), "-o", "StrictHostKeyChecking=accept-new",
+                   "-o", "ConnectTimeout=20", "-o", "BatchMode=yes"]
+        self._ssh = ["ssh", *opcions, "-p", port, self._target]
+        self._scp = ["scp", *opcions, "-P", port]
+        self._existents = set()
+
+    def prepara(self) -> bool:
+        """Crea el directori remot si cal i llegeix la llista de MP3 existents."""
+        ordre = f"mkdir -p '{self._destdir}' && ls -1 '{self._destdir}'"
+        try:
+            r = subprocess.run(self._ssh + [ordre], capture_output=True, text=True, timeout=90)
+        except subprocess.TimeoutExpired:
+            return False
+        if r.returncode != 0:
+            missatge = (r.stderr or "").strip().splitlines()
+            print(f"SSH no disponible: {missatge[-1] if missatge else 'error desconegut'}")
+            return False
+        self._existents = {linia.strip() for linia in r.stdout.splitlines() if linia.strip()}
+        print(f"SSH a punt: {len(self._existents)} MP3 ja al servidor.")
+        return True
+
+    def ja_existeix(self, slug: str) -> bool:
+        return f"{slug}.mp3" in self._existents
+
+    def puja(self, mp3: Path, slug: str) -> bool:
+        try:
+            r = subprocess.run(self._scp + [str(mp3), f"{self._target}:{self._destdir}/{slug}.mp3"],
+                               timeout=240)
+        except subprocess.TimeoutExpired:
+            return False
+        if r.returncode == 0:
+            self._existents.add(f"{slug}.mp3")
+            return True
+        return False
 
 
-def sintetitza_i_puja(slug: str, text: str, auth: str) -> bool:
+class TransportFTP:
+    """El mecanisme de sempre (curl per FTP). Queda com a recurs."""
+
+    def __init__(self, password: str):
+        self._auth = f"{FTP_USER}:{password}"
+
+    @staticmethod
+    def _curl(args, **kw):
+        base = ["curl", "-sS", "--ftp-ssl-control", "--connect-timeout", "20"]
+        return subprocess.run(base + args, **kw)
+
+    def prepara(self) -> bool:
+        return True  # el workflow ja comprova que l'FTP respon en un pas previ
+
+    def ja_existeix(self, slug: str) -> bool:
+        remote = f"ftp://{FTP_HOST}/assets/audio/{slug}.mp3"
+        return self._curl(
+            ["-u", self._auth, "-r", "0-0", "-o", os.devnull, "--max-time", "40", remote],
+            stderr=subprocess.DEVNULL,
+        ).returncode == 0
+
+    def puja(self, mp3: Path, slug: str) -> bool:
+        remote = f"ftp://{FTP_HOST}/assets/audio/{slug}.mp3"
+        return self._curl(
+            ["--ftp-create-dirs", "--retry", "4", "--retry-delay", "6", "--retry-all-errors",
+             "--max-time", "180", "-T", str(mp3), "-u", self._auth, remote]
+        ).returncode == 0
+
+
+def tria_transport():
+    """SSH si està configurat i respon; si no, FTP; si no hi ha res, None."""
+    clau = os.environ.get("SSH_PRIVATE_KEY", "").strip()
+    host = os.environ.get("SSH_HOST", "").strip()
+    user = os.environ.get("SSH_USER", "").strip()
+    password = os.environ.get("FTP_PASSWORD", "")
+    if clau and host and user:
+        ssh = TransportSSH(host, user, os.environ.get("SSH_PORT", "").strip() or "65002",
+                           clau, os.environ.get("SSH_PATH", "").strip() or SSH_PATH_DEFECTE)
+        if ssh.prepara():
+            return ssh
+        if password:
+            print("AVÍS: SSH configurat però sense resposta; es prova l'FTP com a recurs.")
+        else:
+            print("ERROR: SSH sense resposta i FTP_PASSWORD no definida.")
+            return None
+    if password:
+        return TransportFTP(password)
+    print("Ni SSH_* ni FTP_PASSWORD estan definits; no es pot pujar res.")
+    return None
+
+
+def sintetitza_i_puja(slug: str, text: str, transport) -> bool:
     """Sintetitza `text` i el puja a assets/audio/<slug>.mp3. True si tot ha anat bé."""
-    remote = f"ftp://{FTP_HOST}/assets/audio/{slug}.mp3"
     with tempfile.TemporaryDirectory() as td:
         fitxer_text = Path(td) / "text.txt"
         mp3 = Path(td) / "audio.mp3"
@@ -119,11 +210,7 @@ def sintetitza_i_puja(slug: str, text: str, auth: str) -> bool:
         if not correcte:
             print(f"ERROR sintetitzant {slug} (la peça conserva el lector del navegador)")
             return False
-        pujada = curl(
-            ["--ftp-create-dirs", "--retry", "4", "--retry-delay", "6", "--retry-all-errors",
-             "--max-time", "180", "-T", str(mp3), "-u", auth, remote]
-        )
-        if pujada.returncode == 0:
+        if transport.puja(mp3, slug):
             print(f"OK {slug}.mp3 ({mp3.stat().st_size // 1024} KB)")
             return True
         print(f"ERROR pujant {slug}.mp3")
@@ -131,11 +218,9 @@ def sintetitza_i_puja(slug: str, text: str, auth: str) -> bool:
 
 
 def main() -> int:
-    password = os.environ.get("FTP_PASSWORD", "")
-    if not password:
-        print("FTP_PASSWORD no està definida; no es pot pujar res.")
+    transport = tria_transport()
+    if transport is None:
         return 1
-    auth = f"{FTP_USER}:{password}"
     fets = saltats = errors = 0
 
     # 1) Les notícies de l'edició (comportament de sempre).
@@ -145,7 +230,7 @@ def main() -> int:
             slug = (item.get("slug") or "").strip()
             if not slug:
                 continue
-            if ja_existeix(slug, auth):
+            if transport.ja_existeix(slug):
                 saltats += 1
                 continue
             text = "\n\n".join(
@@ -154,7 +239,7 @@ def main() -> int:
             )
             if not text.strip():
                 continue
-            if sintetitza_i_puja(slug, text, auth):
+            if sintetitza_i_puja(slug, text, transport):
                 fets += 1
             else:
                 errors += 1
@@ -171,7 +256,7 @@ def main() -> int:
             if not data or not iso:
                 continue
             slug = f"{prefix}-{iso}"
-            if ja_existeix(slug, auth):
+            if transport.ja_existeix(slug):
                 saltats += 1
                 continue
             text = "\n\n".join(
@@ -179,7 +264,7 @@ def main() -> int:
             )
             if not text:
                 continue
-            if sintetitza_i_puja(slug, text, auth):
+            if sintetitza_i_puja(slug, text, transport):
                 fets += 1
             else:
                 print(f"AVÍS: no s'ha pogut generar l'àudio de {fitxer.name} (no bloqueja res).")
