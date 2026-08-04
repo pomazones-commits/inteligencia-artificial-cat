@@ -66,4 +66,12 @@
   RewriteRule ^generalitat-de-catalunya/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
   RewriteRule ^formacio/?$ https://inteligencia-artificial.cat/eines.html [R=301,L]
   RewriteRule ^llibres-tecnics/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
+  RewriteRule ^salut/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
+  RewriteRule ^turisme/?$ https://inteligencia-artificial.cat/tema/empresa-i-treball [R=301,L]
+  RewriteRule ^llengua/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
+  RewriteRule ^ciberseguretat/?$ https://inteligencia-artificial.cat/tema/seguretat [R=301,L]
+  RewriteRule ^aigua/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
+  RewriteRule ^canvi-climatic/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
+  RewriteRule ^i2cat/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
+  RewriteRule ^cidai/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
 </IfModule>

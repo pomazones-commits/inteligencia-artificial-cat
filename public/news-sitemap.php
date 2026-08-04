@@ -1,7 +1,8 @@
 <?php
 declare(strict_types=1);
 
-header('Content-Type: application/xml; charset=utf-8');
+// text/xml (i no application/xml): amb application/xml alguns clients rebien la resposta com a binari (vist el 04.08.2026); feed.php ja servia text/xml sense problemes.
+header('Content-Type: text/xml; charset=utf-8');
 $base = 'https://inteligencia-artificial.cat';
 $cutoff = new DateTimeImmutable('-2 days', new DateTimeZone('Europe/Madrid'));
 $items = [];

@@ -12,7 +12,8 @@ declare(strict_types=1);
 // fitxers de cop, així que la data del fitxer diria "tot ha canviat" cada
 // vegada. Es fan servir les dates del contingut publicat (edició del dia i
 // hemeroteca), que és el que realment canvia.
-header('Content-Type: application/xml; charset=utf-8');
+// text/xml (i no application/xml): amb application/xml alguns clients rebien la resposta com a binari (vist el 04.08.2026); feed.php ja servia text/xml sense problemes.
+header('Content-Type: text/xml; charset=utf-8');
 
 $base = 'https://inteligencia-artificial.cat';
 

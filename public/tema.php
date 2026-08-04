@@ -77,7 +77,9 @@ $rest = array_slice($items, 1);
   <meta property="og:title" content="<?= topic_e((string) $topic['title']) ?>">
   <meta property="og:description" content="<?= topic_e((string) $topic['description']) ?>">
   <meta property="og:url" content="<?= topic_e($canonical) ?>">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://inteligencia-artificial.cat/assets/og-portada.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="intel·ligènciaartificial.cat — el briefing diari de la intel·ligència artificial en català">
+  <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json"><?= json_encode($jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="preconnect" href="https://fonts.googleapis.com">
