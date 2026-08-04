@@ -30,6 +30,9 @@
     .estudi-bibliografia ol { margin: 0; padding-left: 20px; }
     .estudi-bibliografia li { margin: 0 0 12px; font-size: 13.5px; line-height: 1.6; color: #444b59; }
     .estudi-bibliografia a { word-break: break-word; }
+    .estudi-origen { margin: 0 0 30px; padding: 12px 16px; background: #fff; border: 1px dashed #d5dbe6; font-size: 13px; line-height: 1.6; color: #444b59; }
+    .estudi-origen span.etiqueta { display: block; margin-bottom: 4px; font: 600 10px "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .1em; color: #5d6472; }
+    .estudi-origen cite { font-style: italic; }
     .estudi-notes { margin: 30px 0 0; padding: 16px 18px; background: #fafbfd; border: 1px solid #e9edf4; }
     .estudi-notes p { margin: 0 0 8px; font-size: 12px; line-height: 1.6; color: #5d6472; }
     .estudi-notes p:last-child { margin-bottom: 0; }
@@ -55,6 +58,7 @@
           <div id="lector"></div>
           <section class="estudi-resum" id="resum" hidden><h2>Resum</h2></section>
           <p class="estudi-claus" id="claus" hidden></p>
+          <p class="estudi-origen" id="origen" hidden></p>
           <div class="article-body-clean" id="cos"></div>
           <section class="estudi-bibliografia" id="bibliografia" hidden><h2>Referències</h2><ol id="bibliografia-llista"></ol></section>
           <aside class="estudi-notes" id="notes" hidden></aside>
@@ -70,8 +74,8 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
-  <script src="./estudis.js?v=2026073002"></script>
-  <script src="./estudis-arxiu.js?v=2026073002"></script>
+  <script src="./estudis.js?v=2026080401"></script>
+  <script src="./estudis-arxiu.js?v=2026080401"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
     (function () {
@@ -161,6 +165,26 @@
           claus.appendChild(span);
         });
         claus.hidden = false;
+      }
+
+      // Procedència: on es va publicar el text originalment. «*cursiva*» = <cite>.
+      if (e.origin) {
+        var origen = document.getElementById('origen');
+        var etiquetaOrigen = document.createElement('span');
+        etiquetaOrigen.className = 'etiqueta';
+        etiquetaOrigen.textContent = 'Procedència';
+        origen.appendChild(etiquetaOrigen);
+        String(e.origin).split(/\*([^*]+)\*/).forEach(function (part, i) {
+          if (!part) return;
+          if (i % 2 === 1) {
+            var cita = document.createElement('cite');
+            afegeixTextAmbEnllacos(cita, part);
+            origen.appendChild(cita);
+          } else {
+            afegeixTextAmbEnllacos(origen, part);
+          }
+        });
+        origen.hidden = false;
       }
 
       // Cos: «## » = títol de secció, «• » = llista de pics, la resta paràgrafs.
