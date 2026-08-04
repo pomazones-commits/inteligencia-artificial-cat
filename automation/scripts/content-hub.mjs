@@ -8,8 +8,20 @@ const ASSIGNMENTS = {
   radar: { variable: 'IA_RADAR', file: 'radar.js' },
   analysis: { variable: 'IA_ANALYSIS', file: 'analysis.js' },
   reflection: { variable: 'IA_REFLECTION', file: 'reflection.js' },
-  dailyImage: { variable: 'IA_DAILY_IMAGE', file: 'daily-image.js' }
+  dailyImage: { variable: 'IA_DAILY_IMAGE', file: 'daily-image.js' },
+  // «La reflexió del dia» (des del 04.08.2026): el balanç diari que s'escriu amb
+  // l'últim lot de notícies. No s'ha de confondre amb el Quadern IA setmanal
+  // (reflection.js) ni amb la fotografia del dia (assets/daily-reflection-*.jpg).
+  dailyReflection: { variable: 'IA_REFLEXIO_DIARIA', file: 'reflexio-diaria.js' },
+  dailyReflectionArchive: { variable: 'IA_REFLEXIONS_ARXIU', file: 'reflexions-arxiu.js' }
 };
+
+// L'encàrrec demana 5-6 paràgrafs. Els límits durs són més amplis a posta: una
+// peça de 4 o de 7 paràgrafs es publica igualment (amb un avís al log) en comptes
+// de deixar el dia sense reflexió, que seria el pitjor resultat possible.
+const REFLEXIO_PARAGRAFS_MIN = 4;
+const REFLEXIO_PARAGRAFS_MAX = 8;
+const REFLEXIO_ARXIU_MAX = 90;
 
 const REQUIRED_NEWS_FIELDS = [
   'category', 'read', 'slug', 'title', 'excerpt',
@@ -160,6 +172,57 @@ function validateDailyImage(payload) {
     .filter(Boolean)
     .join('\n\n');
   if (body) item.body = body;
+  return item;
+}
+
+// «La reflexió del dia»: balanç del dia escrit a partir de les notícies del dia.
+// Camps: date (AAAA-MM-DD), title, dek, body (paràgrafs) i, opcionalment, read i
+// signals (les notícies del dia en què es basa, per enllaçar-les des de la peça).
+function validateDailyReflection(payload) {
+  if (!payload || Array.isArray(payload) || typeof payload !== 'object') {
+    throw new Error('reflexió del dia ha de ser un objecte JSON.');
+  }
+  const date = normalizeText(payload.date);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    throw new Error('reflexió del dia: date ha de tenir el format AAAA-MM-DD.');
+  }
+  const title = normalizeText(payload.title);
+  const dek = normalizeText(payload.dek);
+  if (!title) throw new Error('reflexió del dia: falta title.');
+  if (!dek) throw new Error('reflexió del dia: falta dek.');
+  const body = (Array.isArray(payload.body)
+    ? payload.body.map(normalizeText)
+    : String(payload.body ?? '').replace(/\r\n/g, '\n').split(/\n{2,}/).map(part => part.trim())
+  ).filter(Boolean);
+  if (body.length < REFLEXIO_PARAGRAFS_MIN) {
+    throw new Error(`reflexió del dia: body ha de tenir com a mínim ${REFLEXIO_PARAGRAFS_MIN} paràgrafs.`);
+  }
+  if (body.length > REFLEXIO_PARAGRAFS_MAX) {
+    throw new Error(`reflexió del dia: body no pot passar de ${REFLEXIO_PARAGRAFS_MAX} paràgrafs.`);
+  }
+  const item = { date, title, dek, body };
+
+  // Senyals del dia: les notícies en què es basa la reflexió. `slug` enllaça amb
+  // article.php; `url` només s'admet si és http(s). Un senyal sense títol s'ignora.
+  const signals = (Array.isArray(payload.signals) ? payload.signals : [])
+    .map(signal => {
+      if (!signal || typeof signal !== 'object') return null;
+      const signalTitle = normalizeText(signal.title);
+      if (!signalTitle) return null;
+      const slug = normalizeText(signal.slug);
+      const url = normalizeText(signal.url);
+      const entry = { title: signalTitle };
+      if (/^[a-z0-9-]+$/.test(slug)) entry.slug = slug;
+      else if (/^https?:\/\//.test(url)) entry.url = url;
+      return entry;
+    })
+    .filter(Boolean)
+    .slice(0, 6);
+  if (signals.length) item.signals = signals;
+
+  const words = body.join(' ').split(/\s+/).filter(Boolean).length;
+  item.read = normalizeText(payload.read) || `${Math.max(2, Math.round(words / 200))} MIN`;
+  item.words = words;
   return item;
 }
 
@@ -461,11 +524,43 @@ async function ingestDailyImage(options) {
   process.stdout.write(`Fotografia editorial del ${payload.date} validada i publicada.\n`);
 }
 
+// Publica «La reflexió del dia» i fa rodar l'arxiu: la peça vigent, si és d'un
+// altre dia, passa al davant de reflexions-arxiu.js. Tornar a executar-ho el
+// mateix dia (correcció, segona passada) substitueix la peça sense duplicar res.
+async function ingestDailyReflection(options) {
+  if (!options.input) throw new Error('Falta --input.');
+  const publicDir = resolve(options['public-dir'] || '.');
+  const stateDir = resolve(options['state-dir'] || '.content-state');
+  const payload = validateDailyReflection(
+    parsePayload(await readFile(resolve(options.input), 'utf8'), 'daily-reflection')
+  );
+  if (payload.body.length < 5 || payload.body.length > 6) {
+    process.stdout.write(`AVÍS: la reflexió del dia té ${payload.body.length} paràgrafs (l'encàrrec en demana 5 o 6).\n`);
+  }
+
+  const currentPath = join(publicDir, ASSIGNMENTS.dailyReflection.file);
+  const archivePath = join(publicDir, ASSIGNMENTS.dailyReflectionArchive.file);
+  const current = await readAssignment(currentPath, '{', '}', null);
+  const stored = await readAssignment(archivePath, '[', ']', []);
+  let archive = Array.isArray(stored) ? stored.filter(item => item && item.date) : [];
+  if (current && current.date && current.date !== payload.date) {
+    archive = [current, ...archive.filter(item => item.date !== current.date)];
+  }
+  // La peça del dia mai no ha de ser alhora la vigent i la primera de l'arxiu.
+  archive = archive.filter(item => item.date !== payload.date).slice(0, REFLEXIO_ARXIU_MAX);
+
+  await backupFile(currentPath, join(stateDir, 'backups'), payload.date);
+  await atomicWrite(currentPath, serializeAssignment(ASSIGNMENTS.dailyReflection.variable, payload));
+  await atomicWrite(archivePath, serializeAssignment(ASSIGNMENTS.dailyReflectionArchive.variable, archive));
+  process.stdout.write(`Reflexió del dia ${payload.date} publicada (${payload.body.length} paràgrafs, ${payload.words} paraules); ${archive.length} a l'arxiu.\n`);
+}
+
 async function validateCommand(options) {
   if (!options.input || !options.type) throw new Error('Falten --input i --type.');
   const text = await readFile(resolve(options.input), 'utf8');
   const payload = parsePayload(text, options.type);
   if (options.type === 'news') validateNews(payload);
+  else if (options.type === 'daily-reflection') validateDailyReflection(payload);
   else validateEditorial(options.type, payload);
   process.stdout.write(`${options.type}: contingut vàlid.\n`);
 }
@@ -475,7 +570,8 @@ function usage() {
   node content-hub.mjs ingest-news --input news.js --public-dir . --state-dir .content-state
   node content-hub.mjs ingest-editorial --type analysis|reflection --input fitxer.json --public-dir .
   node content-hub.mjs ingest-daily-image --input daily-image.json --public-dir .
-  node content-hub.mjs validate --type news|analysis|reflection --input fitxer.json\n`;
+  node content-hub.mjs ingest-daily-reflection --input daily-reflection.json --public-dir .
+  node content-hub.mjs validate --type news|analysis|reflection|daily-reflection --input fitxer.json\n`;
 }
 
 try {
@@ -483,6 +579,7 @@ try {
   if (command === 'ingest-news') await ingestNews(options);
   else if (command === 'ingest-editorial') await ingestEditorial(options);
   else if (command === 'ingest-daily-image') await ingestDailyImage(options);
+  else if (command === 'ingest-daily-reflection') await ingestDailyReflection(options);
   else if (command === 'validate') await validateCommand(options);
   else {
     process.stdout.write(usage());

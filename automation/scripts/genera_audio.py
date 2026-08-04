@@ -16,7 +16,9 @@ A més de les notícies, també sintetitza les peces editorials fixes
 (anàlisi de la setmana, tribuna, estudi i imatge del dia) llegint els seus
 fitxers window.IA_* de public/. Els noms de fitxer inclouen la data perquè cada
 edició nova tingui el seu àudio: analisi-AAAA-MM-DD.mp3, tribuna-AAAA-MM-DD.mp3,
-estudi-AAAA-MM-DD.mp3, imatge-AAAA-MM-DD.mp3. Les pàgines calculen la mateixa URL a partir del camp
+estudi-AAAA-MM-DD.mp3, imatge-AAAA-MM-DD.mp3, quadern-AAAA-MM-DD.mp3 (el Quadern
+setmanal, que surt de reflection.js) i reflexio-AAAA-MM-DD.mp3 (la reflexió del
+dia, que surt de reflexio-diaria.js). Les pàgines calculen la mateixa URL a partir del camp
 `date` de cada peça. Qualsevol errada en aquestes peces extres NO fa fallar
 la síntesi de les notícies.
 """
@@ -44,6 +46,7 @@ PECES_EXTRES = [
     (Path("public/estudis.js"), "estudi", ("title", "abstract", "body")),
     (Path("public/daily-image.js"), "imatge", ("title", "caption", "body")),
     (Path("public/reflection.js"), "quadern", ("title", "dek", "body")),
+    (Path("public/reflexio-diaria.js"), "reflexio", ("title", "dek", "body")),
 ]
 
 # Marques de format del cos dels estudis que la veu no ha de llegir:
