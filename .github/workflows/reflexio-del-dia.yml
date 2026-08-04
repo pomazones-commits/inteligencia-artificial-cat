@@ -1,0 +1,60 @@
+name: Content Hub — la reflexió del dia
+
+# «La reflexió del dia» (04.08.2026): el balanç que la sessió editorial escriu
+# amb l'últim lot de notícies del dia. Arriba com a incoming/daily-reflection.json
+# i aquest workflow el valida, el publica a public/reflexio-diaria.js i fa rodar
+# l'arxiu (public/reflexions-arxiu.js). Mateix patró que la fotografia diària.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - incoming/daily-reflection.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reflexio-del-dia-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validar-i-publicar:
+    if: github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[content-hub]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validar i publicar la reflexió del dia
+        run: |
+          if [ ! -f incoming/daily-reflection.json ]; then
+            echo "No hi ha cap reflexió pendent; res a fer."
+            exit 0
+          fi
+          node automation/scripts/content-hub.mjs ingest-daily-reflection \
+            --input incoming/daily-reflection.json \
+            --public-dir public \
+            --state-dir .content-state
+
+      - name: Executar proves de seguretat
+        run: node --test automation/tests/content-hub.test.mjs
+
+      - name: Publicar només si tot és correcte
+        run: |
+          git config user.name "intel·ligènciaartificial.cat bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/reflexio-diaria.js public/reflexions-arxiu.js .content-state/
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "[content-hub] publica la reflexió del dia"
+          git pull --rebase origin main
+          git push origin main

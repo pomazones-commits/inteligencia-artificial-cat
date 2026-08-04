@@ -4,7 +4,12 @@ on:
   # S'activa quan el Content Hub ha completat l'edició (els seus commits amb
   # GITHUB_TOKEN no disparen triggers de push, però workflow_run sí que funciona).
   workflow_run:
-    workflows: ["Content Hub — completar l'edició"]
+    # També després de «La reflexió del dia» (04.08.2026): així el seu MP3
+    # (reflexio-AAAA-MM-DD.mp3) es genera de seguida i no ha d'esperar el
+    # cron horari de repesca.
+    workflows:
+      - "Content Hub — completar l'edició"
+      - "Content Hub — la reflexió del dia"
     types: [completed]
   workflow_dispatch:
   # Xarxa de seguretat (25.07.2026): passada horària. El script salta els MP3
