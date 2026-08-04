@@ -8,8 +8,8 @@ on:
     types: [completed]
   workflow_dispatch:
   # Xarxa de seguretat (25.07.2026): passada horària. El script salta els MP3
-  # que ja existeixen a l'FTP, així que si tot és al dia acaba en ~1 min; si
-  # una passada anterior havia fallat (FTP de Hostinger caigut, com el matí
+  # que ja existeixen al servidor, així que si tot és al dia acaba en ~1 min; si
+  # una passada anterior havia fallat (Hostinger caigut, com el matí
   # del 25.07), aquesta ho repesca sola.
   # 30.07.2026: minut canviat de :55 a :26. Els minuts rodons son els mes
   # congestionats i GitHub hi deixa caure moltes execucions programades.
@@ -18,7 +18,7 @@ on:
 
 permissions:
   contents: read
-  # Per consultar si hi ha cap desplegament en curs abans de tocar l'FTP.
+  # Per consultar si hi ha cap desplegament en curs abans de tocar el servidor.
   actions: read
 
 concurrency:
@@ -32,13 +32,11 @@ jobs:
     timeout-minutes: 45
     steps:
       # Afegit el 30.07.2026. Aquest workflow i «Desplega la web a Hostinger»
-      # pugen tots dos per FTP al mateix compte de Hostinger, que te un limit
-      # de connexions simultanies. Quan coincideixen, el mirall del
-      # desplegament pot esgotar tots els intents i el lot no arriba mai a la
-      # web (va passar amb el lot de les 14.05 del 30.07.2026, run #247).
-      # Aqui donem prioritat al desplegament: esperem fins a 15 min que acabi.
-      # Si triga mes, continuem igualment i la passada de repesca ho recollira.
-      - name: Espera que no hi hagi cap desplegament FTP en curs
+      # compartien el limit de connexions FTP del compte. Des del canvi de
+      # transport (02-04.08.2026: la web per rsync/SSH, l'audio per scp/SSH)
+      # el xoc ja gairebe no pot passar, pero esperar el desplegament segueix
+      # sent educat: prioritat a les noticies.
+      - name: Espera que no hi hagi cap desplegament en curs
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -62,14 +60,24 @@ jobs:
       - name: Descarrega el repositori
         uses: actions/checkout@v4
 
-      - name: Comprova que l'FTP de Hostinger respon (falla ràpid si no)
+      - name: Comprova que el transport respon (falla ràpid si no)
         env:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USER: ${{ secrets.SSH_USER }}
         run: |
-          # Si l'FTP esta caigut, val mes fallar aqui en ~2 min que gastar la
-          # mitja hora del job intentant pujar (va passar el 25.07.2026: 26 min
-          # de timeouts i 0 MP3 pujats). La passada horaria (cron :55) ho
-          # tornara a provar sola quan l'FTP torni a respondre.
+          # Fase A2 (04.08.2026): si l'SSH esta configurat, la comprovacio
+          # previa de l'FTP ja no cal — genera_audio.py prova l'SSH d'entrada
+          # i, si no respon, degrada sol a l'FTP com a recurs.
+          if [ -n "${SSH_PRIVATE_KEY:-}" ] && [ -n "${SSH_HOST:-}" ] && [ -n "${SSH_USER:-}" ]; then
+            echo "Transport SSH configurat; no cal la comprovacio previa d'FTP."
+            exit 0
+          fi
+          # Sense SSH: si l'FTP esta caigut, val mes fallar aqui en ~2 min que
+          # gastar la mitja hora del job intentant pujar (va passar el
+          # 25.07.2026: 26 min de timeouts i 0 MP3 pujats). La passada horaria
+          # (cron :26) ho tornara a provar sola quan l'FTP torni a respondre.
           for i in 1 2 3 4 5; do
             if curl -sS --ftp-ssl-control --connect-timeout 15 \
                  -u "u901078817.claude:$FTP_PASSWORD" \
@@ -80,7 +88,7 @@ jobs:
             echo "FTP sense resposta (intent $i de 5); reintent en 20 s..."
             sleep 20
           done
-          echo "::error::L'FTP de srv1589.hstgr.io no respon. La passada horaria (cron :55) ho reintentara sola."
+          echo "::error::L'FTP de srv1589.hstgr.io no respon. La passada horaria (cron :26) ho reintentara sola."
           exit 1
 
       - name: Prepara Python
@@ -91,7 +99,12 @@ jobs:
       - name: Instal·la edge-tts
         run: pip install edge-tts
 
-      - name: Genera els MP3 de l'edició i puja'ls per FTP
+      - name: Genera els MP3 de l'edició i puja'ls
         env:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_PATH: ${{ secrets.SSH_PATH }}
         run: python automation/scripts/genera_audio.py
