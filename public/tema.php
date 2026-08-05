@@ -86,7 +86,7 @@ $rest = array_slice($items, 1);
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;family=Onest:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/editorial.css?v=2026072301">
-  <script defer src="/shared.js?v=2026072302"></script>
+  <script defer src="/shared.js?v=2026080401"></script>
 </head>
 <body class="editorial-body">
   <header class="editorial-topbar">

@@ -133,7 +133,7 @@ $shareText = rawurlencode((string) $article['title']);
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;family=Onest:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./editorial.css?v=2026072301"><script defer src="./shared.js?v=2026072302"></script>
+  <link rel="stylesheet" href="./editorial.css?v=2026072301"><script defer src="./shared.js?v=2026080401"></script>
   <style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.tts-player button,.tts-speed select{font-family:inherit}.tts-player button{padding:9px 13px;border:1px solid #dfe3eb;background:#fff;color:#233a82;cursor:pointer}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:430px}.tts-note,.tts-speed{font-size:11px;color:#5d6472}</style>
 </head>
 <body class="editorial-body">

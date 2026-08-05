@@ -1,4 +1,36 @@
 (() => {
+  // Banda de subscripció al butlletí, injectada a totes les pàgines interiors
+  // just abans del footer. La portada (que té #newsletter-form propi) i
+  // qualsevol pàgina que ja porti un formulari .js-subscribe-form al seu HTML
+  // en queden excloses. L'estil viu a subscriu.css (full autònom).
+  (() => {
+    if (document.querySelector('#newsletter-form, .js-subscribe-form')) return;
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = './subscriu.css?v=2026080401';
+    document.head.appendChild(css);
+    const banda = document.createElement('section');
+    banda.className = 'subscriu-banda';
+    banda.setAttribute('aria-label', 'Subscripció al butlletí');
+    banda.innerHTML = [
+      '<div class="subscriu-inner">',
+      '  <p class="subscriu-kicker"><i></i>El butlletí</p>',
+      '  <h2 class="subscriu-titol">La setmana d’IA, en cinc minuts</h2>',
+      '  <p class="subscriu-text">Cada dissabte, el millor del briefing al teu correu. Gratuït i en català.</p>',
+      '  <form class="js-subscribe-form subscriu-form" action="./api.php?action=subscribe" method="post" novalidate>',
+      '    <label for="subscriu-email" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Correu electrònic</label>',
+      '    <input id="subscriu-email" name="email" type="email" autocomplete="email" placeholder="el.teu@correu.cat" required>',
+      '    <button type="submit">Subscriu-m’hi →</button>',
+      '  </form>',
+      '  <p class="js-form-message subscriu-missatge" role="status" aria-live="polite"></p>',
+      '  <p class="subscriu-peu">Sense soroll: un correu per setmana, i prou.</p>',
+      '</div>'
+    ].join('\n');
+    const footer = document.querySelector('footer');
+    if (footer && footer.parentNode) footer.parentNode.insertBefore(banda, footer);
+    else document.body.appendChild(banda);
+  })();
+
   document.querySelectorAll('.js-subscribe-form').forEach(form => {
     form.addEventListener('submit', async event => {
       event.preventDefault();

@@ -1,0 +1,26 @@
+/* Banda de subscripció al butlletí — pàgines interiors.
+   La injecta shared.js abans del footer de cada pàgina (la portada en queda
+   exclosa: té el seu propi formulari a #newsletter). CSS propi i autònom,
+   seguint la regla del repositori: una banda nova mai no toca styles.css. */
+
+.subscriu-banda { margin: 72px auto 0; padding: 0 4.5vw 64px; max-width: 1040px; box-sizing: border-box; }
+.subscriu-inner { position: relative; overflow: hidden; background: linear-gradient(120deg, #191432, #0b0b11 55%, #162136); color: #f1ede5; border-radius: 20px; padding: 40px 42px 36px; }
+.subscriu-inner:before { content: ''; position: absolute; width: 340px; height: 340px; right: -110px; top: -170px; border-radius: 100%; background: radial-gradient(circle at 44% 60%, rgba(189, 140, 255, .5), transparent 55%); pointer-events: none; }
+.subscriu-inner > * { position: relative; }
+.subscriu-kicker { margin: 0 0 10px; font: 500 10px 'DM Mono', 'IBM Plex Mono', monospace; letter-spacing: .16em; text-transform: uppercase; color: #aaa69f; }
+.subscriu-kicker i { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #d8ff32; box-shadow: 0 0 10px #d8ff32; margin-right: 7px; vertical-align: 1px; }
+.subscriu-titol { margin: 0 0 8px; font-size: clamp(24px, 3.4vw, 34px); line-height: 1.02; letter-spacing: -.045em; font-weight: 700; color: #fff; }
+.subscriu-text { margin: 0 0 22px; max-width: 560px; font-size: 14px; line-height: 1.6; color: #c9c5cf; }
+.subscriu-form { display: flex; gap: 12px; max-width: 560px; border-bottom: 1px solid #a5a1ad; }
+.subscriu-form input { flex: 1; min-width: 0; background: transparent; border: 0; outline: 0; padding: 13px 0; font: 17px inherit; color: #fff; }
+.subscriu-form input::placeholder { color: #8d8996; }
+.subscriu-form button { background: transparent; border: 0; cursor: pointer; color: #d8ff32; font: 600 11px 'DM Mono', 'IBM Plex Mono', monospace; text-transform: uppercase; letter-spacing: .1em; white-space: nowrap; }
+.subscriu-form button:disabled { opacity: .5; cursor: wait; }
+.subscriu-missatge { margin: 10px 0 0; min-height: 18px; font-size: 12px; color: #d8ff32; }
+.subscriu-peu { margin: 14px 0 0; font-size: 11px; color: #8d8996; }
+@media (max-width: 640px) {
+  .subscriu-inner { padding: 30px 24px 28px; }
+  .subscriu-form { display: block; border-bottom: 0; }
+  .subscriu-form input { width: 100%; box-sizing: border-box; border-bottom: 1px solid #a5a1ad; }
+  .subscriu-form button { padding: 14px 0 0; }
+}
