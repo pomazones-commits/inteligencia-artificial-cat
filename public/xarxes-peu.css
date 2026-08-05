@@ -1,0 +1,46 @@
+/* Fila d'icones de xarxes socials al peu de pàgina.
+   Full autònom: no toca portada.css ni styles.css.
+   El marcatge el genera shared.js a les pàgines interiors i és estàtic a
+   index.html (perquè l'enllaç rel="me" de Mastodon el pugui llegir el
+   verificador, que no executa JavaScript). */
+
+.xarxes-peu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 9px;
+  margin-top: 16px;
+}
+
+.xarxes-peu__etiqueta {
+  margin-right: 3px;
+  font: 600 10px "IBM Plex Mono", monospace;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  opacity: .55;
+}
+
+.xarxes-peu a {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border: 1px solid currentColor;
+  border-radius: 10px;
+  color: inherit;
+  opacity: .5;
+  transition: opacity .18s ease, transform .18s ease;
+}
+
+.xarxes-peu a:hover,
+.xarxes-peu a:focus-visible {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.xarxes-peu svg {
+  display: block;
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}

@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#111526">
+  <title>Sala de xarxes — intel·ligènciaartificial.cat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Onest:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#111526; --ink-soft:#242a3e; --paper:#f7f8fc; --white:#fff;
+      --muted:#687086; --line:#e1e5ef; --blue:#3d63ff; --cyan:#2de2f5;
+      --violet:#8c5bff; --lime:#d9ff48; --coral:#ff6d62;
+      --sans:"Onest",system-ui,sans-serif; --mono:"IBM Plex Mono",monospace;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;color:var(--ink);background:var(--paper);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+    a{color:var(--blue)}
+    .shell{width:min(1120px,calc(100% - 40px));margin-inline:auto}
+    header.top{color:#fff;background:var(--ink);padding:26px 0 22px}
+    header.top .shell{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+    .mark{display:grid;width:40px;height:40px;place-items:center;border-radius:13px 13px 13px 4px;color:#fff;background:linear-gradient(145deg,var(--blue),var(--violet));font-size:18px;font-weight:800;letter-spacing:-.08em}
+    header.top h1{margin:0;font-size:19px;letter-spacing:-.03em}
+    header.top p{margin:2px 0 0;color:#98a0b5;font:11px var(--mono);text-transform:uppercase;letter-spacing:.08em}
+    .estat{margin-left:auto;color:#aeb5c8;font:11px var(--mono);text-align:right;line-height:1.7}
+    .estat b{color:var(--lime)}
+    nav.tabs{position:sticky;top:0;z-index:5;background:rgba(247,248,252,.93);border-bottom:1px solid var(--line);backdrop-filter:blur(16px)}
+    nav.tabs .shell{display:flex;gap:6px;overflow:auto;padding:10px 0;scrollbar-width:none}
+    nav.tabs button{flex:0 0 auto;padding:8px 14px;border:1px solid var(--line);border-radius:999px;color:var(--ink-soft);background:var(--white);font:600 13px var(--sans);cursor:pointer}
+    nav.tabs button[aria-selected="true"]{color:#fff;background:var(--ink);border-color:var(--ink)}
+    main{padding:26px 0 90px}
+    section[hidden]{display:none}
+    .intro{margin:0 0 20px;padding:14px 16px;border-left:3px solid var(--blue);background:var(--white);border-radius:0 12px 12px 0;color:var(--ink-soft);font-size:14px;line-height:1.6}
+    .intro strong{color:var(--ink)}
+    .peca{margin-bottom:18px;background:var(--white);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+    .peca > header{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-start;padding:14px 16px;border-bottom:1px solid var(--line)}
+    .peca > header .txt{flex:1;min-width:240px}
+    .cat{display:inline-block;margin-bottom:6px;padding:3px 8px;border-radius:6px;background:var(--paper);color:var(--muted);font:600 10px var(--mono);letter-spacing:.06em;text-transform:uppercase}
+    .cat.local{background:rgba(217,255,72,.35);color:#4c5a10}
+    .peca h3{margin:0;font-size:16px;line-height:1.35;letter-spacing:-.02em}
+    .peca .meta{margin:6px 0 0;color:var(--muted);font-size:12px}
+    .peca .meta a{color:var(--muted);text-decoration:underline}
+    .thumb{width:112px;flex:0 0 112px;aspect-ratio:16/10;object-fit:cover;border-radius:9px;background:var(--paper)}
+    .variants{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:0}
+    .v{padding:13px 16px;border-top:1px solid var(--line)}
+    .variants .v + .v{border-left:1px solid var(--line)}
+    .v > .cap{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+    .v .plat{font:700 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink)}
+    .v .comptador{margin-left:auto;font:11px var(--mono);color:var(--muted)}
+    .v .comptador.mal{color:var(--coral);font-weight:600}
+    textarea{display:block;width:100%;min-height:132px;padding:10px 11px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink-soft);font:13px/1.55 var(--sans);resize:vertical}
+    textarea:focus{outline:2px solid var(--blue);outline-offset:1px;background:var(--white)}
+    .accions{display:flex;flex-wrap:wrap;gap:7px;margin-top:8px}
+    button.b{padding:6px 11px;border:1px solid var(--line);border-radius:8px;background:var(--white);color:var(--ink-soft);font:600 12px var(--sans);cursor:pointer}
+    button.b:hover{border-color:var(--ink);color:var(--ink)}
+    button.b.primary{background:var(--ink);border-color:var(--ink);color:#fff}
+    button.b.ok{background:var(--lime);border-color:var(--lime);color:#3d4a08}
+    a.b{display:inline-block;padding:6px 11px;border:1px solid var(--line);border-radius:8px;background:var(--white);color:var(--ink-soft);font:600 12px var(--sans);text-decoration:none}
+    a.b:hover{border-color:var(--ink);color:var(--ink)}
+    .buit{padding:22px;border:1px dashed var(--line);border-radius:14px;color:var(--muted);font-size:14px;text-align:center;background:var(--white)}
+    h2.sec{margin:30px 0 12px;font-size:13px;font-family:var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+    h2.sec:first-child{margin-top:0}
+    .fitxa{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:16px}
+    .fitxa h3{margin:0 0 4px;font-size:15px;letter-spacing:-.02em}
+    .fitxa p.h{margin:0 0 10px;color:var(--muted);font-size:13px;line-height:1.55}
+    table{width:100%;border-collapse:collapse;font-size:13px}
+    th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+    th{color:var(--muted);font:600 11px var(--mono);letter-spacing:.05em;text-transform:uppercase}
+    code{font:12px var(--mono);background:var(--paper);padding:1px 5px;border-radius:5px}
+    ol.rutina{margin:0;padding-left:20px;font-size:14px;line-height:1.75;color:var(--ink-soft)}
+    ol.rutina strong{color:var(--ink)}
+    .avis{margin-top:24px;color:var(--muted);font-size:12px;line-height:1.6}
+    @media (max-width:640px){
+      .variants .v + .v{border-left:0}
+      .thumb{width:76px;flex-basis:76px}
+      .estat{margin-left:0;text-align:left;width:100%}
+    }
+  </style>
+</head>
+<body>
+
+<header class="top">
+  <div class="shell">
+    <span class="mark" aria-hidden="true">ia</span>
+    <div>
+      <h1>Sala de xarxes</h1>
+      <p>Textos a punt de copiar · intel·ligènciaartificial.cat</p>
+    </div>
+    <div class="estat" id="estat">Carregant…</div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Seccions">
+  <div class="shell" id="tabs" role="tablist"></div>
+</nav>
+
+<main class="shell">
+  <section id="p-avui" role="tabpanel">
+    <p class="intro"><strong>Rutina de 15 minuts.</strong> Tria 2-3 històries fortes del dia (una de global i una de catalana funciona bé), copia el text de la plataforma que toqui, retoca-la si vols i adjunta-hi la imatge. Els textos són esborranys generats a partir del titular i l'entradeta: <strong>llegeix-los abans de publicar</strong>.</p>
+    <div id="llista-avui"></div>
+  </section>
+
+  <section id="p-radar" role="tabpanel" hidden>
+    <p class="intro"><strong>La IA que passa aquí.</strong> Els senyals del radar català no tenen pàgina pròpia: els posts enllacen la portada a l'ancoratge del radar. Són els que millor funcionen a Mastodon i a LinkedIn.</p>
+    <div id="llista-radar"></div>
+  </section>
+
+  <section id="p-edicio" role="tabpanel" hidden>
+    <p class="intro"><strong>Un cop al dia</strong>, publica l'edició del vespre <em>o</em> la reflexió del dia; alterna-les per no repetir sempre el mateix format.</p>
+    <div id="llista-edicio"></div>
+  </section>
+
+  <section id="p-peces" role="tabpanel" hidden>
+    <p class="intro"><strong>Peces de fons.</strong> Apareixen aquí només quan n'hi ha de vigents: reflexió del dia, anàlisi setmanal, Quadern IA, tribuna i estudi.</p>
+    <div id="llista-peces"></div>
+  </section>
+
+  <section id="p-fixos" role="tabpanel" hidden>
+    <div id="llista-fixos"></div>
+  </section>
+
+  <section id="p-perfils" role="tabpanel" hidden>
+    <h2 class="sec">Noms d'usuari proposats</h2>
+    <div class="fitxa">
+      <table>
+        <thead><tr><th>Plataforma</th><th>Opció 1</th><th>Opció 2</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>X/Twitter</td><td><code>@ia_cat</code></td><td><code>@iacat_diari</code></td><td>màxim 15 caràcters</td></tr>
+          <tr><td>Mastodon</td><td><code>@iacat@mastodont.cat</code></td><td><code>@iadiari@mastodont.cat</code></td><td>instància de la comunitat catalana</td></tr>
+          <tr><td>LinkedIn</td><td>Pàgina «intel·ligènciaartificial.cat»</td><td>—</td><td>pàgina d'empresa, no perfil</td></tr>
+          <tr><td>Telegram</td><td><code>t.me/iacat_diari</code></td><td><code>t.me/ia_cat</code></td><td>canal, no grup</td></tr>
+          <tr><td>WhatsApp</td><td>Canal «IA.cat — el briefing diari»</td><td>—</td><td>Novetats → Crear canal</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 class="sec">Bios</h2>
+    <div id="llista-bios"></div>
+    <h2 class="sec">Rutina diària</h2>
+    <div class="fitxa">
+      <ol class="rutina">
+        <li><strong>Al vespre</strong> (després del lot de les 18:05): tria les 2-3 històries més fortes del dia.</li>
+        <li>Publica-les amb el text de «Notícies d'avui» a X i Mastodon; a LinkedIn, només la més professional o econòmica.</li>
+        <li>Un cop al dia, publica també <strong>l'edició del dia</strong> o <strong>la reflexió</strong>, alternant-les.</li>
+        <li><strong>Dissabte</strong>: el post del butlletí.</li>
+        <li>Estil: sempre en català; a X, una etiqueta i prou; a Mastodon, 3-4 (allà les etiquetes són com es descobreix el contingut); enllaça la peça, no la portada; <strong>adjunta la imatge</strong>, que fa pujar molt l'abast.</li>
+        <li><strong>No automatitzis l'engagement</strong>: respondre comentaris i seguir comptes afins (Softcatalà, puntCAT, AINA, VilaWeb Tecnologia, ACIA, grups universitaris) és el que fa créixer el compte les primeres setmanes.</li>
+      </ol>
+    </div>
+  </section>
+
+  <p class="avis">Pàgina d'ús intern (<code>noindex</code>): no està enllaçada enlloc del web i es regenera sola cada cop que es desplega una edició nova. Els textos són esborranys: la responsabilitat editorial del que es publica és sempre humana.</p>
+</main>
+
+<script src="./news.js"></script>
+<script src="./radar.js"></script>
+<script src="./reflexio-diaria.js"></script>
+<script src="./analysis.js"></script>
+<script src="./reflection.js"></script>
+<script src="./tribuna.js"></script>
+<script src="./estudis.js"></script>
+<script src="./daily-image.js"></script>
+<script>
+(() => {
+  'use strict';
+
+  const BASE = 'https://inteligencia-artificial.cat';
+  const LIMITS = { x: 280, fil: 280, mastodon: 500, linkedin: 3000, telegram: 4096 };
+  const NOMS = { x: 'X / Twitter', fil: 'X — fil', mastodon: 'Mastodon', linkedin: 'LinkedIn', telegram: 'Telegram / WhatsApp' };
+  const SEP_FIL = '\n\n————— tuit següent —————\n\n';
+
+  /* ---------- utilitats de text ---------- */
+
+  // A X un enllaç compta sempre 23 caràcters, tingui la llargada que tingui.
+  // En un fil, el que compta és el tuit més llarg, no el total.
+  const llarg = (text, plat) => {
+    if (plat === 'fil') return Math.max(...text.split(SEP_FIL).map(t => llarg(t, 'x')));
+    return plat === 'x' ? text.replace(/https?:\/\/\S+/g, 'x'.repeat(23)).length : text.length;
+  };
+
+  const net = s => String(s || '').replace(/\s+/g, ' ').trim();
+
+  // Talla per paraules sense partir-les i sense deixar signes penjats.
+  function talla(text, max) {
+    const t = net(text);
+    if (t.length <= max) return t;
+    let tall = t.slice(0, max - 1);
+    const esp = tall.lastIndexOf(' ');
+    if (esp > max * 0.55) tall = tall.slice(0, esp);
+    return tall.replace(/[\s,;:.·—–-]+$/, '') + '…';
+  }
+
+  // Primera frase completa (o dues, si la primera és molt curta) dins del límit.
+  function frase(text, max) {
+    const t = net(text);
+    if (!t) return '';
+    const frases = t.match(/[^.!?]+[.!?]+/g) || [t];
+    let out = '';
+    for (const f of frases) {
+      const cand = (out + ' ' + f).trim();
+      if (cand.length > max) break;
+      out = cand;
+      if (out.length > max * 0.5) break;
+    }
+    return out || talla(frases[0], max);
+  }
+
+  const urlNoticia = slug => `${BASE}/article.php?slug=${slug}`;
+  const abs = ruta => ruta ? BASE + '/' + String(ruta).replace(/^\.?\//, '') : '';
+
+  const CAT_TAG = {
+    'EMPRESA': '#empresa', 'TECNOLOGIA': '#tecnologia', 'RECERCA': '#recerca',
+    'POLÍTICA': '#política', 'POLITICA': '#política', 'SEGURETAT': '#seguretat',
+    'SOCIETAT': '#societat', 'CULTURA': '#cultura', 'EDUCACIÓ': '#educació',
+    'SALUT': '#salut', 'ENERGIA': '#energia', 'TREBALL': '#treball'
+  };
+
+  function etiquetes(plat, categoria, local) {
+    const extra = CAT_TAG[String(categoria || '').toUpperCase()];
+    if (plat === 'x') return '#IA';
+    if (plat === 'mastodon') {
+      const tags = ['#IA', '#IntelligenciaArtificial'];
+      if (local) tags.push('#Catalunya');
+      tags.push(extra || '#tecnologia');
+      return tags.join(' ');
+    }
+    if (plat === 'linkedin') {
+      const tags = ['#IntelligenciaArtificial'];
+      if (local) tags.push('#Catalunya');
+      tags.push(extra || '#tecnologia');
+      return tags.join(' ');
+    }
+    return '';
+  }
+
+  /* ---------- generadors de post ---------- */
+
+  function postNoticia(plat, { titol, entradeta, url, categoria, local }) {
+    const tags = etiquetes(plat, categoria, local);
+
+    if (plat === 'x') {
+      // 280 − enllaç (23) − etiqueta − 3 salts de línia dobles.
+      const marge = LIMITS.x - 23 - tags.length - 7;
+      const t = talla(titol, Math.min(168, marge - 60));
+      const g = frase(entradeta, Math.max(0, marge - t.length));
+      return [t, g, url, tags].filter(Boolean).join('\n\n');
+    }
+    if (plat === 'mastodon') {
+      const marge = LIMITS.mastodon - url.length - tags.length - 7;
+      const t = talla(titol, Math.min(200, marge - 120));
+      const g = talla(entradeta, Math.max(0, marge - t.length));
+      return [t, g, url, tags].filter(Boolean).join('\n\n');
+    }
+    if (plat === 'linkedin') {
+      return [net(titol), net(entradeta), 'Llegeix-ho en català: ' + url, tags]
+        .filter(Boolean).join('\n\n');
+    }
+    return ['🗞️ ' + net(titol), net(entradeta), url].filter(Boolean).join('\n\n');
+  }
+
+  /* ---------- pintat ---------- */
+
+  let idBloc = 0;
+
+  function bloc(textos, opcions = {}) {
+    const wrap = document.createElement('div');
+    wrap.className = 'variants';
+    for (const plat of ['x', 'fil', 'mastodon', 'linkedin', 'telegram']) {
+      if (!textos[plat]) continue;
+      const v = document.createElement('div');
+      v.className = 'v';
+      const id = 'ta' + (++idBloc);
+      const n = llarg(textos[plat], plat);
+      const limit = LIMITS[plat];
+      v.innerHTML =
+        '<div class="cap"><span class="plat">' + NOMS[plat] + '</span>' +
+        '<span class="comptador' + (n > limit ? ' mal' : '') + '">' +
+        (plat === 'fil' ? 'tuit més llarg ' : '') + n + ' / ' + limit + '</span></div>' +
+        '<textarea id="' + id + '" data-plat="' + plat + '" spellcheck="false"></textarea>' +
+        '<div class="accions"><button class="b primary" type="button" data-copia="' + id + '">Copia</button>' +
+        (opcions.imatge ? '<a class="b" href="' + opcions.imatge + '" download target="_blank" rel="noopener">Imatge ↓</a>' : '') +
+        (opcions.enllac ? '<a class="b" href="' + opcions.enllac + '" target="_blank" rel="noopener">Obre la peça ↗</a>' : '') +
+        '</div>';
+      v.querySelector('textarea').value = textos[plat];
+      wrap.appendChild(v);
+    }
+    return wrap;
+  }
+
+  function targeta({ categoria, local, titol, meta, imatge, enllac }, textos) {
+    const art = document.createElement('article');
+    art.className = 'peca';
+    const cap = document.createElement('header');
+    cap.innerHTML =
+      (imatge ? '<img class="thumb" src="' + imatge + '" alt="" loading="lazy">' : '') +
+      '<div class="txt">' +
+      (categoria ? '<span class="cat' + (local ? ' local' : '') + '">' + categoria + '</span>' : '') +
+      '<h3>' + escapa(titol) + '</h3>' +
+      (meta ? '<p class="meta">' + meta + '</p>' : '') +
+      '</div>';
+    art.appendChild(cap);
+    art.appendChild(bloc(textos, { imatge, enllac }));
+    return art;
+  }
+
+  function escapa(s) {
+    return String(s || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  }
+
+  function fitxaSimple(titol, ajuda, textos, opcions) {
+    const art = document.createElement('article');
+    art.className = 'peca';
+    const cap = document.createElement('header');
+    cap.innerHTML = '<div class="txt"><h3>' + escapa(titol) + '</h3>' +
+      (ajuda ? '<p class="meta">' + ajuda + '</p>' : '') + '</div>';
+    art.appendChild(cap);
+    art.appendChild(bloc(textos, opcions || {}));
+    return art;
+  }
+
+  const buit = missatge => {
+    const d = document.createElement('p');
+    d.className = 'buit';
+    d.textContent = missatge;
+    return d;
+  };
+
+  /* ---------- dades ---------- */
+
+  const noticies = Array.isArray(window.IA_NEWS) ? window.IA_NEWS : [];
+  const radar = Array.isArray(window.IA_RADAR) ? window.IA_RADAR : [];
+  const reflexio = window.IA_REFLEXIO_DIARIA || null;
+  const analisi = window.IA_ANALYSIS || null;
+  const quadern = window.IA_REFLECTION || null;
+  const tribuna = window.IA_TRIBUNA || null;
+  const estudi = window.IA_ESTUDI || null;
+  const imatgeDia = window.IA_DAILY_IMAGE || null;
+
+  const LOCALS = /catalunya|català|catalana|barcelona|girona|lleida|tarragona|generalitat|espanya|espanyol/i;
+
+  /* ---------- notícies d'avui ---------- */
+
+  const contAvui = document.getElementById('llista-avui');
+  if (!noticies.length) {
+    contAvui.appendChild(buit('Encara no hi ha notícies carregades.'));
+  } else {
+    noticies.forEach(n => {
+      const local = LOCALS.test(n.category + ' ' + n.title + ' ' + n.excerpt);
+      const url = urlNoticia(n.slug);
+      const dades = { titol: n.title, entradeta: n.excerpt, url, categoria: n.category, local };
+      contAvui.appendChild(targeta({
+        categoria: n.category,
+        local,
+        titol: n.title,
+        meta: (n.sourceName ? 'Font: ' + escapa(n.sourceName) : '') +
+              (n.sourceDate ? ' · ' + escapa(n.sourceDate) : ''),
+        imatge: abs(n.image),
+        enllac: url
+      }, {
+        x: postNoticia('x', dades),
+        mastodon: postNoticia('mastodon', dades),
+        linkedin: postNoticia('linkedin', dades),
+        telegram: postNoticia('telegram', dades)
+      }));
+    });
+  }
+
+  /* ---------- radar ---------- */
+
+  const contRadar = document.getElementById('llista-radar');
+  if (!radar.length) {
+    contRadar.appendChild(buit('El radar català és buit ara mateix.'));
+  } else {
+    radar.forEach(r => {
+      const url = BASE + '/#catalunya';
+      const dades = { titol: r.title, entradeta: r.summary, url, categoria: r.category, local: true };
+      contRadar.appendChild(targeta({
+        categoria: (r.place ? r.place + ' · ' : '') + (r.category || 'RADAR'),
+        local: true,
+        titol: r.title,
+        meta: (r.source ? 'Font: ' + escapa(r.source) : '') + (r.date ? ' · ' + escapa(r.date) : ''),
+        enllac: r.url || url
+      }, {
+        x: postNoticia('x', dades),
+        mastodon: postNoticia('mastodon', dades),
+        linkedin: postNoticia('linkedin', dades),
+        telegram: postNoticia('telegram', dades)
+      }));
+    });
+  }
+
+  /* ---------- edició del dia ---------- */
+
+  const contEdicio = document.getElementById('llista-edicio');
+  if (noticies.length) {
+    // Reparteix els caràcters que queden lliures entre els titulars de la llista.
+    const llista = (items, disponible) => {
+      const per = Math.max(45, Math.floor(disponible / items.length) - 4);
+      return items.map((n, i) => (i + 1) + '. ' + talla(n.title, per)).join('\n');
+    };
+    const tres = noticies.slice(0, 3);
+    const cinc = noticies.slice(0, 5);
+
+    const capX = '🗞️ L\'edició d\'avui, en ' + tres.length + ' titulars:';
+    const peuX = '\n\nTot, en català: ' + BASE + '\n\n#IA';
+    const capM = '🗞️ L\'edició d\'avui, en ' + cinc.length + ' titulars:';
+    const peuM = '\n\nTot, amb context i en català: ' + BASE +
+                 '\n\n#IA #IntelligenciaArtificial #Catalunya #tecnologia';
+
+    contEdicio.appendChild(fitxaSimple(
+      'L\'edició d\'avui, en titulars',
+      'Post únic. A X hi caben 3 titulars retallats; a Mastodon i Telegram, 5.',
+      {
+        x: capX + '\n\n' + llista(tres, LIMITS.x - llarg(capX + peuX, 'x') - 2) + peuX,
+        mastodon: capM + '\n\n' + llista(cinc, LIMITS.mastodon - (capM + peuM).length - 2) + peuM,
+        telegram: capM + '\n\n' + llista(cinc, 900) +
+                  '\n\nTot, amb context i en català: ' + BASE
+      },
+      { enllac: BASE }
+    ));
+
+    // Fil per a X: un tuit d'obertura i un per notícia.
+    const fil = ['🧵 El briefing d\'avui, en ' + cinc.length + ' històries. Fil ↓\n\n#IA']
+      .concat(cinc.map((n, i) => (i + 1) + '/ ' + talla(n.title, 240) + '\n\n' + urlNoticia(n.slug)))
+      .join(SEP_FIL);
+    contEdicio.appendChild(fitxaSimple(
+      'Fil per a X',
+      'Cada bloc separat per la línia de guions és un tuit. Copia\'ls d\'un en un.',
+      { fil: fil }
+    ));
+  } else {
+    contEdicio.appendChild(buit('Encara no hi ha notícies per fer el resum de l\'edició.'));
+  }
+
+  /* ---------- peces de fons ---------- */
+
+  const contPeces = document.getElementById('llista-peces');
+  let hiHaPeces = false;
+
+  if (reflexio && reflexio.title) {
+    hiHaPeces = true;
+    const idea = frase((reflexio.dek || (reflexio.body && reflexio.body[0]) || ''), 190);
+    const url = BASE + '/reflexio.html';
+    contPeces.appendChild(fitxaSimple(
+      'La reflexió del dia — ' + reflexio.title,
+      'Alterna-la amb el post de l\'edició per no repetir format.',
+      {
+        x: talla(reflexio.title, 140) + '\n\n' + talla(idea, 90) + '\n\nEl balanç del dia: ' + url + '\n\n#IA',
+        mastodon: 'On és, de debò, la notícia d\'avui?\n\n' + talla(reflexio.title, 130) + '\n\n' +
+                  talla(idea, 210) + '\n\nEl balanç del dia: ' + url +
+                  '\n\n#IA #IntelligenciaArtificial #tecnologia',
+        linkedin: reflexio.title + '\n\n' + net(reflexio.dek || '') +
+                  '\n\nEl balanç del dia, en català: ' + url +
+                  '\n\n#IntelligenciaArtificial #tecnologia',
+        telegram: '🧭 ' + reflexio.title + '\n\n' + net(reflexio.dek || '') + '\n\n' + url
+      },
+      { enllac: url, imatge: imatgeDia && imatgeDia.image ? abs(imatgeDia.image) : '' }
+    ));
+  }
+
+  if (analisi && analisi.title) {
+    hiHaPeces = true;
+    const url = BASE + '/analisi.html';
+    contPeces.appendChild(fitxaSimple(
+      'Anàlisi setmanal — ' + analisi.title,
+      'Publica-la el cap de setmana; és la peça que millor funciona a LinkedIn.',
+      {
+        x: '📊 ' + talla(analisi.title, 150) + '\n\n' + frase(analisi.excerpt, 80) + '\n\n' + url + '\n\n#IA',
+        mastodon: '📊 L\'anàlisi de la setmana\n\n' + talla(analisi.title, 140) + '\n\n' +
+                  talla(analisi.excerpt, 200) + '\n\n' + url +
+                  '\n\n#IA #IntelligenciaArtificial #tecnologia',
+        linkedin: analisi.title + '\n\n' + net(analisi.excerpt) + '\n\nL\'anàlisi sencera, en català: ' + url +
+                  '\n\n#IntelligenciaArtificial #tecnologia',
+        telegram: '📊 ' + analisi.title + '\n\n' + net(analisi.excerpt) + '\n\n' + url
+      },
+      { enllac: url }
+    ));
+  }
+
+  if (quadern && quadern.title) {
+    hiHaPeces = true;
+    const url = BASE + '/quadern.html';
+    contPeces.appendChild(fitxaSimple(
+      'Quadern IA — ' + quadern.title,
+      'La peça de pensament de la setmana.',
+      {
+        x: '✍️ ' + talla(quadern.title, 150) + '\n\n' + frase(quadern.dek || '', 80) + '\n\n' + url + '\n\n#IA',
+        mastodon: '✍️ Quadern IA\n\n' + talla(quadern.title, 140) + '\n\n' + talla(quadern.dek || '', 200) +
+                  '\n\n' + url + '\n\n#IA #IntelligenciaArtificial #filosofia',
+        linkedin: quadern.title + '\n\n' + net(quadern.dek || '') + '\n\nEl Quadern IA d\'aquesta setmana: ' + url +
+                  '\n\n#IntelligenciaArtificial #tecnologia',
+        telegram: '✍️ ' + quadern.title + '\n\n' + net(quadern.dek || '') + '\n\n' + url
+      },
+      { enllac: url }
+    ));
+  }
+
+  if (tribuna && tribuna.title) {
+    hiHaPeces = true;
+    const url = BASE + '/tribuna.html';
+    const cita = net(tribuna.quote || tribuna.excerpt || '');
+    contPeces.appendChild(fitxaSimple(
+      'La tribuna — ' + tribuna.author,
+      'Etiqueta l\'autor si té compte a la plataforma.',
+      {
+        x: '✍️ ' + tribuna.author + ': «' + talla(tribuna.title, 110) + '»\n\n' + url + '\n\n#IA',
+        mastodon: '✍️ ' + tribuna.author + (tribuna.role ? ' (' + tribuna.role + ')' : '') +
+                  ': «' + talla(tribuna.title, 120) + '»\n\n' + talla(cita, 200) + '\n\n' + url +
+                  '\n\n#IA #IntelligenciaArtificial #Catalunya',
+        linkedin: tribuna.author + (tribuna.role ? ', ' + tribuna.role : '') + ': «' + tribuna.title + '»\n\n' +
+                  cita + '\n\nLa tribuna sencera: ' + url + '\n\n#IntelligenciaArtificial #Catalunya',
+        telegram: '✍️ ' + tribuna.author + ': «' + tribuna.title + '»\n\n' + cita + '\n\n' + url
+      },
+      { enllac: url, imatge: tribuna.photo ? abs(tribuna.photo) : '' }
+    ));
+  }
+
+  if (estudi && estudi.title) {
+    hiHaPeces = true;
+    const url = BASE + '/estudi.html';
+    const resum = net(Array.isArray(estudi.abstract) ? estudi.abstract[0] : estudi.excerpt || '');
+    contPeces.appendChild(fitxaSimple(
+      'Estudis — ' + estudi.author,
+      'Peça acadèmica: a LinkedIn hi va molt bé; a X, sigues breu.',
+      {
+        x: '📄 ' + estudi.author + ': «' + talla(estudi.title, 110) + '»\n\n' + url + '\n\n#IA',
+        mastodon: '📄 Estudi de ' + estudi.author + (estudi.role ? ' (' + estudi.role + ')' : '') +
+                  '\n\n«' + talla(estudi.title, 130) + '»\n\n' + talla(resum, 180) + '\n\n' + url +
+                  '\n\n#IA #IntelligenciaArtificial #recerca',
+        linkedin: estudi.author + (estudi.role ? ', ' + estudi.role : '') + ': «' + estudi.title + '»\n\n' +
+                  talla(resum, 900) + '\n\nL\'estudi sencer, en català: ' + url +
+                  '\n\n#IntelligenciaArtificial #recerca',
+        telegram: '📄 ' + estudi.author + ': «' + estudi.title + '»\n\n' + talla(resum, 600) + '\n\n' + url
+      },
+      { enllac: url, imatge: estudi.photo ? abs(estudi.photo) : '' }
+    ));
+  }
+
+  if (!hiHaPeces) contPeces.appendChild(buit('Ara mateix no hi ha cap peça de fons vigent.'));
+
+  /* ---------- posts fixos ---------- */
+
+  const contFixos = document.getElementById('llista-fixos');
+  contFixos.appendChild(fitxaSimple(
+    'Primer post — per estrenar cada compte',
+    'Fixa\'l a dalt del perfil un cop publicat.',
+    {
+      x: 'Neix el briefing diari de la intel·ligència artificial en català 🗞️\n\n' +
+         'Cada dia: fins a 20 històries, el radar de la IA que es fa a Catalunya, anàlisi i tribunes signades. Amb àudio de cada peça.\n\n' +
+         BASE + '\n\n#IA',
+      mastodon: 'Neix el briefing diari de la intel·ligència artificial en català 🗞️\n\n' +
+         'Cada dia: fins a 20 històries, el radar de la IA que es fa a Catalunya, anàlisi i tribunes signades. Amb àudio de cada peça.\n\n' +
+         'Una iniciativa sense ànim de lucre de l\'Associació Amics de la Ciència.\n\n' + BASE +
+         '\n\n#IA #IntelligenciaArtificial #Catalunya #tecnologia',
+      linkedin: 'Neix el briefing diari de la intel·ligència artificial en català 🗞️\n\n' +
+         'Cada dia: fins a 20 històries en quatre edicions, el radar de la IA que es fa a Catalunya, anàlisi setmanal, estudis de fons i tribunes signades. Amb àudio de cada peça.\n\n' +
+         'Una iniciativa sense ànim de lucre de l\'Associació Amics de la Ciència, i un experiment obert: una redacció d\'IA supervisada per criteri editorial humà.\n\n' +
+         BASE + '\n\n#IntelligenciaArtificial #Catalunya #tecnologia',
+      telegram: 'Neix el briefing diari de la intel·ligència artificial en català 🗞️\n\n' +
+         'Cada dia: fins a 20 històries, el radar de la IA que es fa a Catalunya, anàlisi i tribunes signades. Amb àudio de cada peça.\n\n' + BASE
+    },
+    { enllac: BASE }
+  ));
+
+  contFixos.appendChild(fitxaSimple(
+    'Butlletí — dissabte',
+    'Un cop per setmana, divendres o dissabte.',
+    {
+      x: 'Cada dissabte, la setmana d\'IA en cinc minuts, al teu correu. Gratuït i en català.\n\nSubscriu-t\'hi: ' +
+         BASE + '/#butlleti\n\n#IA',
+      mastodon: 'Cada dissabte, la setmana d\'IA en cinc minuts, al teu correu. Gratuït i en català.\n\nSubscriu-t\'hi: ' +
+         BASE + '/#butlleti\n\n#IA #IntelligenciaArtificial #Catalunya',
+      linkedin: 'Cada dissabte enviem la setmana d\'intel·ligència artificial resumida en cinc minuts de lectura, en català i gratuïtament.\n\nSubscriu-t\'hi: ' +
+         BASE + '/#butlleti\n\n#IntelligenciaArtificial #butlletí',
+      telegram: 'Cada dissabte, la setmana d\'IA en cinc minuts, al teu correu. Gratuït i en català.\n\n' +
+         BASE + '/#butlleti'
+    },
+    { enllac: BASE + '/#butlleti' }
+  ));
+
+  contFixos.appendChild(fitxaSimple(
+    'Presentació del projecte',
+    'Per quan et presentin, et citin o entris en una comunitat nova.',
+    {
+      mastodon: 'Hola! Som inteligencia-artificial.cat: el briefing diari de la IA en català.\n\n' +
+        'Quatre edicions al dia amb fins a 20 històries, radar de la IA que es fa a Catalunya, anàlisi setmanal, tribunes signades i àudio de cada peça.\n\n' +
+        'Iniciativa sense ànim de lucre de l\'Associació Amics de la Ciència.\n\n' + BASE +
+        '\n\n#presentacio #IA #Catalunya',
+      linkedin: 'inteligencia-artificial.cat publica cada dia un briefing en català sobre intel·ligència artificial: fins a vint notícies en quatre edicions, un radar de la IA que es fa a Catalunya, anàlisi setmanal, estudis de fons i tribunes signades.\n\n' +
+        'Totes les peces tenen versió en àudio amb veu neuronal en català.\n\n' +
+        'Som una iniciativa sense ànim de lucre de l\'Associació Amics de la Ciència, i un experiment obert: una redacció d\'IA supervisada per criteri editorial humà.\n\n' +
+        BASE + '\n\n#IntelligenciaArtificial #Catalunya #periodisme'
+    },
+    { enllac: BASE }
+  ));
+
+  /* ---------- bios ---------- */
+
+  const contBios = document.getElementById('llista-bios');
+  [
+    ['X/Twitter — bio (màx. 160)', 'El briefing diari de la intel·ligència artificial, en català. Fins a 20 històries al dia, radar català i criteri propi. Una iniciativa d\'Amics de la Ciència.'],
+    ['Mastodon — bio', 'El briefing diari de la intel·ligència artificial, en català. Quatre edicions al dia amb fins a 20 històries, radar de la IA que es fa a Catalunya, anàlisi setmanal, tribunes signades i àudio de cada peça. Iniciativa sense ànim de lucre de l\'Associació Amics de la Ciència.'],
+    ['Mastodon — camps de perfil', 'Web → https://inteligencia-artificial.cat\nRSS → https://inteligencia-artificial.cat/feed.xml\nQui hi ha al darrere → https://inteligencia-artificial.cat/redaccio.html'],
+    ['LinkedIn — tagline', 'El briefing diari de la IA, en català — iniciativa de l\'Associació Amics de la Ciència'],
+    ['LinkedIn — «Quiénes somos»', 'inteligencia-artificial.cat publica cada dia un briefing en català sobre intel·ligència artificial: fins a vint notícies en quatre edicions, un radar de la IA que es fa a Catalunya, anàlisi setmanal, estudis de fons i tribunes signades per veus com Ramon López de Mántaras, Carles Sierra o Manel Sanromà. Totes les peces tenen versió en àudio amb veu neuronal en català. Som una iniciativa sense ànim de lucre de l\'Associació Amics de la Ciència, i un experiment obert: una redacció d\'IA supervisada per criteri editorial humà.'],
+    ['Telegram / WhatsApp — descripció del canal', 'El briefing diari de la IA, en català. Les històries del dia, cada vespre. https://inteligencia-artificial.cat']
+  ].forEach(([titol, text]) => {
+    const art = document.createElement('article');
+    art.className = 'fitxa';
+    const id = 'bio' + (++idBloc);
+    art.innerHTML = '<h3>' + escapa(titol) + '</h3>' +
+      '<textarea id="' + id + '" style="min-height:96px" spellcheck="false"></textarea>' +
+      '<div class="accions"><button class="b primary" type="button" data-copia="' + id + '">Copia</button>' +
+      '<span class="comptador" style="align-self:center;font:11px var(--mono);color:var(--muted)">' + text.length + ' caràcters</span></div>';
+    art.querySelector('textarea').value = text;
+    contBios.appendChild(art);
+  });
+
+  /* ---------- estat ---------- */
+
+  fetch('./content-status.json?v=' + Date.now())
+    .then(r => r.ok ? r.json() : null)
+    .then(s => {
+      const e = document.getElementById('estat');
+      if (!s) { e.textContent = noticies.length + ' notícies carregades'; return; }
+      e.innerHTML = 'Edició <b>' + escapa(s.editionDate || '?') + '</b><br>' +
+        (s.newsCount || noticies.length) + ' notícies · ' + (s.radarCount || radar.length) + ' al radar' +
+        (s.batchCount ? ' · ' + s.batchCount + ' lots' : '');
+    })
+    .catch(() => { document.getElementById('estat').textContent = noticies.length + ' notícies carregades'; });
+
+  /* ---------- interacció ---------- */
+
+  const PANELLS = [
+    ['p-avui', 'Notícies d\'avui'],
+    ['p-radar', 'Radar català'],
+    ['p-edicio', 'Edició del dia'],
+    ['p-peces', 'Peces de fons'],
+    ['p-fixos', 'Posts fixos'],
+    ['p-perfils', 'Perfils i rutina']
+  ];
+  const tabs = document.getElementById('tabs');
+  PANELLS.forEach(([id, nom], i) => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.setAttribute('role', 'tab');
+    b.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
+    b.dataset.panell = id;
+    b.textContent = nom;
+    tabs.appendChild(b);
+  });
+  tabs.addEventListener('click', ev => {
+    const b = ev.target.closest('button[data-panell]');
+    if (!b) return;
+    tabs.querySelectorAll('button').forEach(x => x.setAttribute('aria-selected', String(x === b)));
+    PANELLS.forEach(([id]) => { document.getElementById(id).hidden = id !== b.dataset.panell; });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  document.addEventListener('click', async ev => {
+    const b = ev.target.closest('button[data-copia]');
+    if (!b) return;
+    const ta = document.getElementById(b.dataset.copia);
+    if (!ta) return;
+    try {
+      await navigator.clipboard.writeText(ta.value);
+    } catch (_) {
+      ta.select();
+      document.execCommand('copy');
+    }
+    const abans = b.textContent;
+    b.textContent = 'Copiat ✓';
+    b.classList.add('ok');
+    setTimeout(() => { b.textContent = abans; b.classList.remove('ok'); }, 1600);
+  });
+
+  // Comptador viu quan es retoca el text a mà.
+  document.addEventListener('input', ev => {
+    const ta = ev.target;
+    if (ta.tagName !== 'TEXTAREA' || !ta.dataset.plat) return;
+    const c = ta.closest('.v').querySelector('.comptador');
+    const n = llarg(ta.value, ta.dataset.plat);
+    const limit = LIMITS[ta.dataset.plat];
+    c.textContent = (ta.dataset.plat === 'fil' ? 'tuit més llarg ' : '') + n + ' / ' + limit;
+    c.classList.toggle('mal', n > limit);
+  });
+})();
+</script>
+</body>
+</html>
