@@ -197,9 +197,13 @@
       </a>`).join('');
 
     // ——— La reflexió del dia (balanç diari; fitxer generat reflexio-diaria.js) ———
-    // Es publica amb l'últim lot del dia. Si un dia no arriba, la peça vigent
-    // continua sent la del dia anterior: es mostra mentre sigui d'avui o d'ahir
-    // i, passat aquest marge, la banda s'amaga (la peça segueix a l'arxiu).
+    // Es publica amb l'últim lot del dia (18:05). La banda mostra la peça d'avui
+    // i, de matinada, encara la d'ahir; però quan arriba el primer lot de notícies
+    // del dia (content-status.json amb editionDate d'avui), la d'ahir s'amaga
+    // perquè la portada no sembli endarrerida, i la banda no torna fins que es
+    // publica la reflexió nova al vespre. Si un matí el lot falla (o no es pot
+    // llegir l'estat), la peça d'ahir es continua mostrant: val més una reflexió
+    // d'ahir que una portada mig buida. La peça sempre segueix a l'arxiu.
     if (window.IA_REFLEXIO_DIARIA && window.IA_REFLEXIO_DIARIA.title) {
       const reflexio = window.IA_REFLEXIO_DIARIA;
       const [year, month, day] = String(reflexio.date || '').split('-');
@@ -208,7 +212,9 @@
       const daysOld = day
         ? Math.round((Date.parse(`${today}T00:00:00Z`) - Date.parse(`${reflexio.date}T00:00:00Z`)) / 86400000)
         : 99;
-      if (daysOld >= -1 && daysOld <= 1) {
+      const hiHaNoticiesDAvui = news.length > 0 && status?.editionDate === today;
+      const reflexioVigent = (daysOld >= -1 && daysOld <= 0) || (daysOld === 1 && !hiHaNoticiesDAvui);
+      if (reflexioVigent) {
         document.querySelector('#reflexio-title').textContent = reflexio.title;
         document.querySelector('#reflexio-diaria-dek').textContent = reflexio.dek || '';
         document.querySelector('#reflexio-mark').textContent = humanDate;
