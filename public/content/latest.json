@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-05T04:23:15.242Z",
+  "updatedAt": "2026-08-05T08:22:08.635Z",
   "items": [
+    {
+      "category": "JUSTÍCIA",
+      "read": "5 MIN",
+      "title": "Un tribunal d'apel·lacions dels EUA revoca la prohibició a Perplexity de fer comprar per IA a Amazon, en la primera sentència sobre l'estatut legal dels agents",
+      "excerpt": "El Novè Circuit conclou que són els usuaris, i no Perplexity, qui accedeixen a Amazon quan fan servir el seu agent de compres amb intel·ligència artificial, i revoca la mesura cautelar que un jutge federal havia dictat el març passat."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "5 MIN",
+      "title": "Microsoft posa pressupostos de «tokens» d'IA a cada divisió i diu als seus enginyers que deixin de «tokenmaxxejar»",
+      "excerpt": "Un correu intern de l'executiu Jay Parikh, revelat el 4 d'agost per 404 Media, fixa objectius de despesa en IA per divisió i converteix GPT-5.6 en el model per defecte més barat, després que alguns enginyers arribessin a gastar diversos milers de dòlars mensuals en tokens."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "Microsoft Research publica Orchard, un marc de codi obert que abarateix l'entrenament d'agents d'IA i iguala sistemes deu vegades més grans",
+      "excerpt": "L'eina, construïda al voltant d'Orchard Env, permet entrenar i avaluar agents de programació, navegació web i tasques d'oficina sense haver de construir sandboxes ni canonades de dades pròpies; el model Orchard-SWE arriba al 69,7% en el test SWE-bench Verified amb només 3.000 milions de paràmetres actius."
+    },
+    {
+      "category": "INVERSIÓ",
+      "read": "4 MIN",
+      "title": "L'Aràbia Saudita reforça la seva aposta per la IA sobirana: Humain inverteix en la saudita Mozn per a banca i serveis financers",
+      "excerpt": "És la primera inversió de Humain, la companyia d'IA del fons sobirà saudita, en una empresa local, i busca combinar-se amb Mozn en detecció de frau financer i governança de risc; els primers productes es presentaran a la conferència LEAP del 31 d'agost a Riad."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Anaconda compra la startup de seguretat Enkrypt AI per blindar per defecte tots els agents d'IA que es construeixin a la seva plataforma",
+      "excerpt": "L'operació, anunciada el 4 d'agost i de la qual no s'ha revelat el preu, integra les proves de seguretat prèvies al desplegament i els controls en temps real d'Enkrypt AI dins la plataforma d'Anaconda, un mes després que la companyia comprés l'eina de programació Kilo Code."
+    },
     {
       "category": "EMPRESA",
       "read": "5 MIN",
