@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-05T08:22:08.635Z",
+  "updatedAt": "2026-08-05T12:37:31.940Z",
   "items": [
+    {
+      "category": "POLÍTICA",
+      "read": "5 MIN",
+      "title": "ACTUALITZACIÓ: la Casa Blanca decideix que els models d'IA de codi obert quedaran fora de les noves proves voluntàries de ciberseguretat",
+      "excerpt": "Assessors de Trump han comunicat a Meta, Anthropic, Google, Nvidia i OpenAI que el marc de proves anunciat aquesta setmana només s'aplicarà als models tancats; cinc senadors demòcrates demanen legislar-lo perquè no quedi en mans purament voluntàries."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "5 MIN",
+      "title": "AMD bat el seu rècord d'ingressos en el segon trimestre gràcies als centres de dades, però l'acció trontolla per les previsions",
+      "excerpt": "La companyia va facturar 11.500 milions de dòlars entre abril i juny, un 50% més que fa un any, amb els ingressos de centre de dades més que doblats fins als 6.700 milions gràcies als processadors EPYC i les GPU Instinct."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "SK hynix i Sandisk presenten el primer estàndard de memòria HBF, pensat per alimentar la inferència d'IA a gran escala",
+      "excerpt": "La nova capa de memòria, situada entre l'HBM i els SSD, promet fins a 3 terabytes per segon d'ample de banda i 512 GB de capacitat aprofitant la tecnologia NAND, sis mesos després que Google i Tenstorrent s'unissin al consorci que l'ha desenvolupat."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Mistral llança Shieldstral, un classificador de seguretat de pesos oberts que s'adapta a qualsevol política sense retrain",
+      "excerpt": "El model, de només 3.000 milions de paràmetres i capaç de funcionar en una sola GPU de 16 GB, iguala o supera classificadors de moderació fins a set vegades més grans i s'estrena com a membre fundador de l'Open Secure AI Alliance amb Nvidia."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "El projecte Rust prohibeix el codi, la documentació i els comentaris de seguretat generats per IA sense revisió al seu repositori principal",
+      "excerpt": "La nova política, adoptada per cinc equips del llenguatge de programació després d'un debat intern de més de 3.000 missatges, resumeix el seu principi en una frase: les IA poden «respondre, analitzar, revisar i suggerir», però no «crear»."
+    },
     {
       "category": "JUSTÍCIA",
       "read": "5 MIN",
