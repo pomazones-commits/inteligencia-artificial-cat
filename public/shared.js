@@ -8,7 +8,7 @@
   // ───────────────────────────────────────────────────────────────────────
   const XARXES = {
     mastodon: 'https://mastodont.cat/@iacat',
-    x: '',
+    x: 'https://x.com/iacatdiari',
     linkedin: '',
     telegram: '',
     whatsapp: '',
