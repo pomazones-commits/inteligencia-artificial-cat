@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-04T16:32:05.336Z",
+  "updatedAt": "2026-08-05T04:23:15.242Z",
   "items": [
     {
       "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "OpenAI supera els 1.000 milions d'usuaris actius i retalla fins a un 80% el preu dels seus models més barats",
-      "excerpt": "La companyia ha assolit una fita que esperava arribar-hi abans, després que la competència d'altres laboratoris n'endarrerís el ritme, i aprofita l'anunci per abaratir el preu de GPT-5.6 Luna i Terra mentre presumeix que els usuaris cada cop en fan un ús més intensiu."
-    },
-    {
-      "category": "TECNOLOGIA",
       "read": "5 MIN",
-      "title": "Una allau de models xinesos crea una «zona de la mort» de preus per als fabricants d'IA nord-americans, alerta Bloomberg",
-      "excerpt": "El que fa un any semblava el sotrac aïllat d'una sola empresa, DeepSeek, s'ha convertit en una cascada constant de llançaments d'Alibaba, Moonshot, ByteDance i Z.ai que ja competeixen de tu a tu amb els models nord-americans en raonament, codi i vídeo, i molt més barat."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "El governador de Texas congela l'aprovació de nous centres de dades d'IA fins que se n'auditi l'impacte en la xarxa i l'aigua",
-      "excerpt": "Greg Abbott ha ordenat als reguladors elèctrics de Texas que aturin les noves connexions de centres de dades a la xarxa fins completar una auditoria exhaustiva, després que només 28 de les 377 empreses consultades responguessin una enquesta sobre el seu consum d'energia i aigua."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "ChatGPT acapara el 90% de la despesa en eines d'IA del Congrés dels Estats Units",
-      "excerpt": "Un informe basat en registres de desemborsos de la Cambra de Representants mostra que els despatxos hi van gastar 113.740 dòlars durant l'últim any, dels quals gairebé tot va anar a OpenAI, davant una fracció minsa per a Claude d'Anthropic."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Apple estrena finalment Siri AI en beta pública, però la rebuda és més aviat freda",
-      "excerpt": "Després d'anys de retards, la nova versió conversacional de Siri ja funciona a la beta pública d'iOS 27 i pot buscar informació personal al dispositiu sense indicar-li on és, però la crítica hi veu més aviat la reparació d'un error de llarga durada que una novetat revolucionària."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "La Casa Blanca reuneix avui OpenAI, Anthropic, Google i Meta per tancar un marc de proves de seguretat voluntàries",
-      "excerpt": "L'Administració Trump ha enllestit els detalls d'unes proves voluntàries de ciberseguretat per mesurar la capacitat de pirateig dels models d'IA més avançats, i els discuteix aquest dimarts amb les quatre grans companyies, just després que Anthropic i OpenAI reconeguessin incidents de seguretat amb els seus propis sistemes."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "Els promotors de centres de dades d'IA busquen 10.000 milions de dòlars en avals bancaris per convèncer les elèctriques que els deixin connectar-se",
-      "excerpt": "Operadores com Switch i QTS recorren a cartes de crèdit, un instrument fins ara habitual en el petroli i el gas, per garantir a les companyies elèctriques que pagaran les millores de xarxa encara que el seu projecte de centre de dades no arribi a bon port, mentre la cua de sol·licituds de connexió supera els 800 gigawatts."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "La britànica OLIX capta 312 milions de dòlars per a xips òptics d'IA, la ronda de capital risc més gran mai aixecada per un semiconductor europeu",
-      "excerpt": "La start-up, fundada fa només dos anys, ha tancat una sèrie B de 312 milions de dòlars amb una valoració de 3.300 milions, liderada per Arm i el fons sobirà britànic d'IA, per desenvolupar xips que fan servir llum en lloc d'electricitat per accelerar la inferència dels grans models de llenguatge."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Cognizant es converteix en soci preferent mundial de Claude d'Anthropic i ja té 30.000 treballadors formats en el model",
-      "excerpt": "La consultora tecnològica amplia la seva aliança amb Anthropic per incrustar Claude als seus propis programes i certificar la seva plantilla, amb resultats ja mesurats com una reducció del 40% en el temps de revisió de contractes farmacèutics i vuit hores setmanals estalviades per subscriptor d'assegurances."
-    },
-    {
-      "category": "MOBILITAT",
-      "read": "4 MIN",
-      "title": "Zoox obté la primera exempció federal per cobrar per viatges en un robotaxi sense volant ni pedals, i debutarà a Las Vegas",
-      "excerpt": "El regulador nord-americà de seguretat viària (NHTSA) ha concedit a la filial d'Amazon una exempció de dos anys de vuit normes federals de seguretat perquè pugui operar comercialment el seu vehicle autònom sense controls manuals, amb un límit de 2.500 unitats anuals."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "AT&T amplia l'aliança amb D-Wave per fer servir computació quàntica en la IA agèntica que gestiona la seva xarxa",
-      "excerpt": "L'operadora nord-americana integrarà el recuit quàntic de D-Wave en les eines d'IA agèntica que ja gestionen la detecció d'avaries i les rutes dels tècnics, després que proves pilot reduïssin una feina d'optimització de xarxa d'una hora a menys de 15 segons."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La multinacional espanyola Konecta obre a el Caire el seu primer centre mundial d'excel·lència en IA generativa, amb 100 milions d'euros",
-      "excerpt": "El grup de gestió de l'experiència de client, amb seu a Madrid, inaugura una seu regional a Nova Caire des d'on donarà servei a l'Orient Mitjà, l'Àfrica, Europa i Amèrica, i preveu passar dels 800 professionals actuals als 3.000 el 2028."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un laboratori independent de l'Associació Americana del Cor avala una IA que detecta insuficiència cardíaca nou mesos abans",
-      "excerpt": "L'AI Assessment Lab de l'American Heart Association, que avalua de manera independent eines d'IA cardiovascular, conclou que l'EchoGo Heart Failure d'Ultromics podria identificar de mitjana 263 dies abans un tipus d'insuficiència cardíaca que sovint passa desapercebut amb l'atenció estàndard."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "El Banc Europeu d'Inversions injecta 20 milions d'euros a la finlandesa Aiforia per a la seva IA de detecció de càncer",
-      "excerpt": "La companyia d'Hèlsinki, especialitzada en anàlisi d'imatges de biòpsies amb aprenentatge profund, rep finançament del BEI en tres trams a través del programa InvestEU per accelerar el desenvolupament de producte i l'expansió internacional de les seves eines de patologia digital."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La logística asiàtica MG Ship llança una plataforma d'IA que promet un 99% de precisió en els terminis d'arribada de mercaderies",
-      "excerpt": "La companyia, amb seu a Singapur, presenta un sistema de seguiment multimodal que combina dades en temps real amb anàlisi predictiva per a enviaments marítims, aeris, terrestres i de paqueteria en més de 220 països, amb l'objectiu d'anticipar retards abans que afectin els clients."
+      "title": "Apple escala la seva demanda contra OpenAI per robatori de secrets comercials i hi afegeix onze extreballadors més; OpenAI diu que «Apple s'equivoca»",
+      "excerpt": "Apple demana una mesura cautelar preliminar i un descobriment accelerat, i assegura que la investigació ha destapat proves més enllà dels tres extreballadors ja denunciats pel projecte de dispositiu d'IA que prepara amb Jony Ive; OpenAI respon el mateix dia acusant Apple d'errors greus en la seva pròpia demanda."
     },
     {
       "category": "MERCATS",
+      "read": "5 MIN",
+      "title": "Amazon, Google, Microsoft, Meta i Oracle es preparen per cremar diners per primer cop per la despesa rècord en infraestructura d'IA",
+      "excerpt": "Una anàlisi del Washington Post basada en dades de S&P Global Market Intelligence mostra que les cinc grans tecnològiques gasten tant a construir centres de dades i comprar xips que esperen tenir flux de caixa negatiu en els propers mesos, amb Alphabet ja registrant el seu primer trimestre en números vermells des que va sortir a borsa el 2004."
+    },
+    {
+      "category": "POLÍTICA",
       "read": "4 MIN",
-      "title": "Amazon es converteix en la cinquena empresa a superar els tres bilions de dòlars en borsa, impulsada per l'IA a AWS",
-      "excerpt": "Les accions d'Amazon van pujar fins a un 5% dilluns i van portar la capitalització borsàtil de la companyia per damunt dels tres bilions de dòlars per primer cop, després que AWS registrés el seu creixement trimestral més ràpid en divuit trimestres gràcies a la demanda d'intel·ligència artificial."
+      "title": "Anthropic fitxa l'exjutge del Tribunal Suprem de Califòrnia Tino Cuéllar com a primer cap d'afers globals enmig de les tensions amb l'Administració Trump",
+      "excerpt": "Mariano-Florentino «Tino» Cuéllar, expresident del Carnegie Endowment for International Peace i exmagistrat del Tribunal Suprem de Califòrnia, es converteix en el primer Chief Global Affairs Officer d'Anthropic per liderar la relació de la companyia amb governs de tot el món, pocs mesos després que Washington bloquegés temporalment dos dels seus models."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "Palantir dispara els ingressos un 93% i el seu conseller delegat titlla de «marxistes» els grans laboratoris d'IA",
-      "excerpt": "Palantir va disparar els ingressos un 93% en el segon trimestre i va elevar la previsió anual, però el seu conseller delegat, Alex Karp, va aprofitar els resultats rècord per acusar els grans laboratoris d'intel·ligència artificial d'intentar «colonitzar» les empreses client."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Sequoia lidera una ronda de 1.000 milions de dòlars per a Valar Atomics, la start-up que vol alimentar centres de dades d'IA amb reactors nuclears de fàbrica",
-      "excerpt": "El fons de capital risc Sequoia lidera una ronda d'1.000 milions de dòlars per a Valar Atomics, que triplica la valoració de la start-up nuclear fins als 6.000 milions de dòlars mentre es prepara per fabricar en sèrie petits reactors que alimentin centres de dades d'intel·ligència artificial."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Visa compra per 2.400 milions de dòlars la israeliana BioCatch per combatre el frau impulsat per IA",
-      "excerpt": "Visa ha acordat comprar per 2.400 milions de dòlars la israeliana BioCatch, especialitzada a detectar frau bancari a partir del comportament dels usuaris, en resposta a l'auge de les estafes i les usurpacions de comptes impulsades per intel·ligència artificial."
+      "title": "Spotify tanca amb Merlin el seu segon gran acord perquè els artistes independents puguin autoritzar versions i remescles fetes amb IA",
+      "excerpt": "L'acord estén a les discogràfiques independents representades per Merlin —un 15% del mercat mundial de música gravada— l'eina de Spotify que permetrà als fans crear versions i remescles amb intel·ligència artificial de cançons existents, sempre que l'artista hi doni el consentiment i rebi crèdit i compensació."
     },
     {
       "category": "CATALUNYA",
       "read": "4 MIN",
-      "title": "La Generalitat digitalitza 210 tràmits amb intel·ligència artificial dins el pla caTgirem per estalviar sis milions d'hores als ciutadans",
-      "excerpt": "El pla caTgirem de la Generalitat ha redissenyat ja 170 dels 210 tràmits que vol simplificar amb intel·ligència artificial abans que acabi la legislatura, amb una inversió d'11,3 milions d'euros i un estalvi calculat de sis milions d'hores anuals per als ciutadans."
+      "title": "Rodalies estrena una aplicació amb intel·ligència artificial que personalitza rutes i permet comprar bitllets per veu",
+      "excerpt": "Renfe llança, a petició de la Generalitat, una nova app de Rodalies que substituirà l'actual a partir del 15 de setembre i que fa servir intel·ligència artificial per personalitzar continguts i recomanacions segons els hàbits de viatge de cada usuari, amb cerca per veu i mapes interactius de la xarxa."
     }
   ]
 }
