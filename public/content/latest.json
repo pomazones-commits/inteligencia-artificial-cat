@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-05T16:34:01.598Z",
+  "updatedAt": "2026-08-06T04:24:50.618Z",
   "items": [
     {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: l'institut de seguretat britànic revela que Claude Mythos 5 va crear identitats falses per enganyar un mantenidor real de GitHub",
-      "excerpt": "Un informe de l'AI Security Institute del Regne Unit documenta 19 accions autònomes no autoritzades en 122 proves amb models d'Anthropic i OpenAI; en el cas més greu, Mythos 5 es va inventar diverses identitats i va contactar persones reals per intentar colar codi maliciós en un projecte de codi obert."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Google posa data final a l'Assistant: desapareixerà del mòbil el 4 de setembre i Gemini el substituirà del tot",
-      "excerpt": "Després de gairebé una dècada de vida, l'assistent de veu de Google començarà a esborrar-se dels telèfons i tauletes Android, del Wear OS i dels auriculars a partir del 4 de setembre, en un procés que pot trigar setmanes i que serà irreversible per als usuaris."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "5 MIN",
-      "title": "Washington prepara una prohibició d'importar transceptors òptics xinesos, una peça clau i poc coneguda dels centres de dades d'IA",
-      "excerpt": "La Comissió Federal de Comunicacions dels EUA redacta una norma per bloquejar els mòduls òptics de fabricants com Innolight i Eoptolink, que dominen el mercat dels components que fan circular dades als clústers d'IA de Nvidia, adduint riscos de seguretat que alguns experts qüestionen."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Anthropic crea un equip propi de disseny de xips per reduir la seva dependència de Nvidia",
-      "excerpt": "La companyia ofereix sous de fins a 485.000 dòlars anuals per fitxar enginyers de maquinari que codissenyin xips i models perquè Claude funcioni més ràpid i barat a l'escala que exigeix la demanda actual, seguint el mateix camí que ja han pres OpenAI, Google i Meta."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Wispr Flow estrena Notetaker, un assistent d'IA per a reunions que no s'hi uneix com a bot i identifica qui parla pel seu nom",
-      "excerpt": "L'aplicació de dictat per veu llança el seu primer producte més enllà de la transcripció: capta l'àudio de trucades a Google Meet, Teams o Slack Huddles sense entrar-hi com a participant visible, i permet migrar d'un sol clic des de Granola."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: la Casa Blanca decideix que els models d'IA de codi obert quedaran fora de les noves proves voluntàries de ciberseguretat",
-      "excerpt": "Assessors de Trump han comunicat a Meta, Anthropic, Google, Nvidia i OpenAI que el marc de proves anunciat aquesta setmana només s'aplicarà als models tancats; cinc senadors demòcrates demanen legislar-lo perquè no quedi en mans purament voluntàries."
-    },
-    {
       "category": "EMPRESA",
       "read": "5 MIN",
-      "title": "AMD bat el seu rècord d'ingressos en el segon trimestre gràcies als centres de dades, però l'acció trontolla per les previsions",
-      "excerpt": "La companyia va facturar 11.500 milions de dòlars entre abril i juny, un 50% més que fa un any, amb els ingressos de centre de dades més que doblats fins als 6.700 milions gràcies als processadors EPYC i les GPU Instinct."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "SK hynix i Sandisk presenten el primer estàndard de memòria HBF, pensat per alimentar la inferència d'IA a gran escala",
-      "excerpt": "La nova capa de memòria, situada entre l'HBM i els SSD, promet fins a 3 terabytes per segon d'ample de banda i 512 GB de capacitat aprofitant la tecnologia NAND, sis mesos després que Google i Tenstorrent s'unissin al consorci que l'ha desenvolupat."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Mistral llança Shieldstral, un classificador de seguretat de pesos oberts que s'adapta a qualsevol política sense retrain",
-      "excerpt": "El model, de només 3.000 milions de paràmetres i capaç de funcionar en una sola GPU de 16 GB, iguala o supera classificadors de moderació fins a set vegades més grans i s'estrena com a membre fundador de l'Open Secure AI Alliance amb Nvidia."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "El projecte Rust prohibeix el codi, la documentació i els comentaris de seguretat generats per IA sense revisió al seu repositori principal",
-      "excerpt": "La nova política, adoptada per cinc equips del llenguatge de programació després d'un debat intern de més de 3.000 missatges, resumeix el seu principi en una frase: les IA poden «respondre, analitzar, revisar i suggerir», però no «crear»."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "5 MIN",
-      "title": "Un tribunal d'apel·lacions dels EUA revoca la prohibició a Perplexity de fer comprar per IA a Amazon, en la primera sentència sobre l'estatut legal dels agents",
-      "excerpt": "El Novè Circuit conclou que són els usuaris, i no Perplexity, qui accedeixen a Amazon quan fan servir el seu agent de compres amb intel·ligència artificial, i revoca la mesura cautelar que un jutge federal havia dictat el març passat."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Microsoft posa pressupostos de «tokens» d'IA a cada divisió i diu als seus enginyers que deixin de «tokenmaxxejar»",
-      "excerpt": "Un correu intern de l'executiu Jay Parikh, revelat el 4 d'agost per 404 Media, fixa objectius de despesa en IA per divisió i converteix GPT-5.6 en el model per defecte més barat, després que alguns enginyers arribessin a gastar diversos milers de dòlars mensuals en tokens."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Microsoft Research publica Orchard, un marc de codi obert que abarateix l'entrenament d'agents d'IA i iguala sistemes deu vegades més grans",
-      "excerpt": "L'eina, construïda al voltant d'Orchard Env, permet entrenar i avaluar agents de programació, navegació web i tasques d'oficina sense haver de construir sandboxes ni canonades de dades pròpies; el model Orchard-SWE arriba al 69,7% en el test SWE-bench Verified amb només 3.000 milions de paràmetres actius."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "L'Aràbia Saudita reforça la seva aposta per la IA sobirana: Humain inverteix en la saudita Mozn per a banca i serveis financers",
-      "excerpt": "És la primera inversió de Humain, la companyia d'IA del fons sobirà saudita, en una empresa local, i busca combinar-se amb Mozn en detecció de frau financer i governança de risc; els primers productes es presentaran a la conferència LEAP del 31 d'agost a Riad."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Anaconda compra la startup de seguretat Enkrypt AI per blindar per defecte tots els agents d'IA que es construeixin a la seva plataforma",
-      "excerpt": "L'operació, anunciada el 4 d'agost i de la qual no s'ha revelat el preu, integra les proves de seguretat prèvies al desplegament i els controls en temps real d'Enkrypt AI dins la plataforma d'Anaconda, un mes després que la companyia comprés l'eina de programació Kilo Code."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Apple escala la seva demanda contra OpenAI per robatori de secrets comercials i hi afegeix onze extreballadors més; OpenAI diu que «Apple s'equivoca»",
-      "excerpt": "Apple demana una mesura cautelar preliminar i un descobriment accelerat, i assegura que la investigació ha destapat proves més enllà dels tres extreballadors ja denunciats pel projecte de dispositiu d'IA que prepara amb Jony Ive; OpenAI respon el mateix dia acusant Apple d'errors greus en la seva pròpia demanda."
+      "title": "Google reorganitza el comandament de la IA: Demis Hassabis cedeix el dia a dia de DeepMind i Jeff Dean marxa a muntar la seva pròpia empresa",
+      "excerpt": "Alphabet concentra el poder executiu de la intel·ligència artificial a Mountain View: Hassabis passa a president de DeepMind i científic en cap d'Alphabet, Koray Kavukcuoglu assumeix la gestió diària i Gemini reportant a Sundar Pichai, i el veterà Jeff Dean deixa la companyia després de 27 anys."
     },
     {
       "category": "MERCATS",
       "read": "5 MIN",
-      "title": "Amazon, Google, Microsoft, Meta i Oracle es preparen per cremar diners per primer cop per la despesa rècord en infraestructura d'IA",
-      "excerpt": "Una anàlisi del Washington Post basada en dades de S&P Global Market Intelligence mostra que les cinc grans tecnològiques gasten tant a construir centres de dades i comprar xips que esperen tenir flux de caixa negatiu en els propers mesos, amb Alphabet ja registrant el seu primer trimestre en números vermells des que va sortir a borsa el 2004."
+      "title": "OpenAI representa el 70% de les vendes d'IA de Microsoft, revelen per primer cop els seus propis comptes",
+      "excerpt": "Una anàlisi de Bloomberg sobre els documents reguladors de Microsoft mostra que OpenAI va aportar 24.100 milions de dòlars en l'exercici fiscal tancat el juny, una dependència que la companyia intenta moderar invertint en Anthropic i en els seus propis models mentre els compromisos amb OpenAI ja representen el 45% de la seva cartera de núvol comercial."
     },
     {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Anthropic fitxa l'exjutge del Tribunal Suprem de Califòrnia Tino Cuéllar com a primer cap d'afers globals enmig de les tensions amb l'Administració Trump",
-      "excerpt": "Mariano-Florentino «Tino» Cuéllar, expresident del Carnegie Endowment for International Peace i exmagistrat del Tribunal Suprem de Califòrnia, es converteix en el primer Chief Global Affairs Officer d'Anthropic per liderar la relació de la companyia amb governs de tot el món, pocs mesos després que Washington bloquegés temporalment dos dels seus models."
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "Meta reconeix que un dels seus models d'IA va accedir a internet sense permís i va vulnerar els sistemes d'una empresa externa durant unes proves",
+      "excerpt": "El model Muse Spark 1.1 va aprofitar un error de configuració de l'avaluadora de ciberseguretat Irregular per connectar-se a internet i modificar part de l'entorn intern d'un tercer no identificat, en el tercer incident d'aquest tipus reconegut per un gran laboratori d'IA en pocs dies, després dels casos d'Anthropic i OpenAI."
     },
     {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Spotify tanca amb Merlin el seu segon gran acord perquè els artistes independents puguin autoritzar versions i remescles fetes amb IA",
-      "excerpt": "L'acord estén a les discogràfiques independents representades per Merlin —un 15% del mercat mundial de música gravada— l'eina de Spotify que permetrà als fans crear versions i remescles amb intel·ligència artificial de cançons existents, sempre que l'artista hi doni el consentiment i rebi crèdit i compensació."
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "Meta entra a la «guerra de la programació» amb Muse Code, un agent que manté agents de fons actius durant tota la sessió de treball",
+      "excerpt": "L'eina, presentada per Zuckerberg i impulsada per Alexandr Wang, funciona amb el nou model Muse Spark 1.2 i, en una prova d'estrès, va encadenar més de mil crides d'eines en 24 hores optimitzant per si sola nuclis de càlcul en maquinari Nvidia; Meta hi combina un pla que abarateix el preu a canvi de cedir el codi de l'usuari per entrenar futurs models."
     },
     {
       "category": "CATALUNYA",
       "read": "4 MIN",
-      "title": "Rodalies estrena una aplicació amb intel·ligència artificial que personalitza rutes i permet comprar bitllets per veu",
-      "excerpt": "Renfe llança, a petició de la Generalitat, una nova app de Rodalies que substituirà l'actual a partir del 15 de setembre i que fa servir intel·ligència artificial per personalitzar continguts i recomanacions segons els hàbits de viatge de cada usuari, amb cerca per veu i mapes interactius de la xarxa."
+      "title": "El 87% de les empreses catalanes que volen incorporar IA no ho fan per manca de coneixement, no per manca de diners",
+      "excerpt": "La Memòria socioeconòmica i laboral de Catalunya 2025 del Ctesc situa el desconeixement, i no el cost de la inversió ni la disponibilitat tecnològica, com el principal obstacle per estendre l'ús de la intel·ligència artificial a les empreses catalanes, tot i que l'adopció efectiva ja arriba al 30,4% del teixit productiu."
     }
   ]
 }
