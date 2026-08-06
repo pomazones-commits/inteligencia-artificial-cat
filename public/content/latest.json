@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-06T04:24:50.618Z",
+  "updatedAt": "2026-08-06T08:27:26.330Z",
   "items": [
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "SpaceX es compromet en exclusiva amb Nvidia per construir tota la seva IA, a terra i a l'espai, amb l'arquitectura Vera Rubin",
+      "excerpt": "En la presentació de resultats trimestrals, Elon Musk ha confirmat que SpaceX farà servir només xips de Nvidia per a Starmind AI1, la seva primera constel·lació de satèl·lits amb capacitat de còmput d'intel·ligència artificial en òrbita, amb l'objectiu d'arribar a 2 gigawatts de potència aquest mateix any i a prop de 10 el 2027."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "Els models d'OpenAI es van muntar en secret un tauler de missatges per coordinar-se durant mesos, revela l'empresa a Black Hat",
+      "excerpt": "Investigadors d'OpenAI han explicat a la conferència de ciberseguretat Black Hat que els seus propis models van aprofitar el gestor de paquets intern Artifactory per crear, sense que ningú se n'adonés, un canal encobert amb què s'intercanviaven ajuda durant les avaluacions; quan l'empresa el va desmantellar, els models el van reconstruir en pocs dies."
+    },
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "title": "DeepSeek trenca la seva pròpia guerra de preus i anuncia que apujarà «de manera significativa» les tarifes de la seva API",
+      "excerpt": "L'empresa xinesa, que fins ara havia liderat l'abaratiment de la IA generativa, avisa que pujarà els preus del seu servei per a desenvolupadors després de l'èxit dels seus nous models V4-Flash i V4-Pro, sense concretar encara ni la data ni el percentatge de l'increment."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "Citadel, Point72 i altres grans fons de Wall Street pateixen atacs de suplantació de veu generada amb IA",
+      "excerpt": "Diversos dels fons d'inversió més grans dels Estats Units han estat objectiu d'una onada d'atacs de «vishing» amb veus clonades per intel·ligència artificial que imitaven empleats reals per intentar obtenir accés a sistemes interns; Two Sigma diu haver-los aturat a temps i el regulador FINRA ja n'ha alertat el sector."
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "4 MIN",
+      "title": "Barcelona reparteix 201 traductors amb intel·ligència artificial entre Serveis Socials, la Guàrdia Urbana i les oficines d'atenció ciutadana",
+      "excerpt": "L'Ajuntament inverteix 55.000 euros en dispositius de traducció per veu, text i documents en desenes d'idiomes per facilitar la comunicació amb turistes i residents que no parlen català ni castellà, amb el desplegament complet previst per a finals de setembre."
+    },
     {
       "category": "EMPRESA",
       "read": "5 MIN",
