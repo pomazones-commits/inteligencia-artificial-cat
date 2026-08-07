@@ -1,0 +1,33 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-08-06",
+  "title": "La cursa de la IA topa amb el territori: aigua, xips i pobles",
+  "dek": "Avui les notícies no parlen de models nous sinó del que costa alimentar-los: aigua a l'Índia, iuans a la Xina rural, xips xinesos als portàtils occidentals i un preu de mercat, per primer cop, per als robots humanoides.",
+  "body": [
+    "Cap notícia d'avui parla d'un llançament espectacular de model. En canvi, mig lot explica el mateix problema des de geografies diferents: la infraestructura física que sosté la intel·ligència artificial —aigua, terra, electricitat i xips— comença a topar amb límits reals, i qui els gestiona ja no són només els laboratoris d'IA, sinó governs locals, tribunals i cadenes de subministrament senceres. És un dia sense cap gran anunci que ho centri tot, però amb un fil que travessa mig lot de notícies d'avui.",
+    "A Visakhapatnam, a l'Índia, un centre de dades de 15.000 milions de dòlars que Google construeix amb el grup Adani s'ha topat amb un litigi obert i manifestacions de veïns que hi porten pancartes que diuen «No podem beure dades»: la ciutat ja raciona l'aigua abans que hi arribi el nou consumidor. A la Xina, el fenomen és l'invers: pobles i comarques petites com Shatian, Jiashan o Ulanqab capten inversions de desenes de milers de milions de iuans per aixecar centres de còmput, mentre un analista del China Enterprise Institute alerta que la carrera dels governs locals per no quedar-se fora és «gairebé inevitable» i, sovint, «irracional».",
+    "El coll d'ampolla es repeteix als xips. L'escassetat mundial de memòria, disparada per la demanda dels centres de dades d'IA, ha portat HP, Asus i Acer a qualificar en petites quantitats xips DRAM de la xinesa CXMT per a portàtils venuts fora dels Estats Units: un pas prudent, però real, cap a una cadena de subministrament que fins ara depenia gairebé del tot de Samsung, SK Hynix i Micron. En paral·lel, Anthropic tanca un contracte de sis anys i 10.000 milions de dòlars amb Volta i Bitdeer per computar amb energia hidroelèctrica a Noruega, i SpaceX es compromet en exclusiva amb Nvidia per construir tota la seva IA, a terra i a l'espai: dues apostes que confirmen que assegurar-se energia i xips val, ara mateix, tant com tenir el millor model.",
+    "Un fet aïllat però simbòlic tanca el quadre: Unitree, la fabricant xinesa de robots humanoides i líder mundial en vendes del sector el 2025, ha fixat avui el preu de la seva sortida a borsa a Shanghai per recaptar 904 milions de dòlars, i es converteix en la primera empresa de robots humanoides que cotitza al continent xinès. Per primer cop, un mercat de valors posa una xifra concreta a un sector que fins ara només es movia amb valoracions de capital risc i promeses de futur, no amb un preu que qualsevol inversor pugui contrastar dia a dia.",
+    "No tot el que ha passat avui pesa igual. La pujada de preus de DeepSeek, la reorganització de la cúpula de Google DeepMind o els nous agents de Google Maps i Meta són continuació de tendències que ja coneixíem, no una novetat de fons; i a Catalunya, els 201 traductors amb IA que reparteix Barcelona conviuen amb la dada que el 87% de les empreses catalanes que volen incorporar IA no ho fan per manca de coneixement, un contrast que confirma que l'adopció avança més a poc a poc del que suggereix el soroll global.",
+    "Caldrà mirar si el litigi de Visakhapatnam frena o només retarda el projecte de Google, si altres fabricants de PC segueixen el pas cautelós de HP, Asus i Acer cap als xips de CXMT, i com es comporta finalment el mercat quan Unitree comenci a cotitzar i es posi a prova, per primer cop amb diners reals, quant val de debò un robot humanoide fora del laboratori."
+  ],
+  "signals": [
+    {
+      "title": "El centre de dades de 15.000 milions de dòlars de Google a l'Índia topa amb la resistència veïnal per l'aigua i la fauna",
+      "slug": "google-india-centre-dades-visakhapatnam-oposicio"
+    },
+    {
+      "title": "Pequín escampa centres de dades d'IA per pobles i comarques de tota la Xina, entre l'ambició tecnològica i l'alerta de sobrecapacitat",
+      "slug": "xina-centres-dades-pobles-comarques-sobrecapacitat"
+    },
+    {
+      "title": "HP, Asus i Acer comencen a incorporar xips de memòria xinesos de CXMT als seus portàtils per l'escassetat mundial",
+      "slug": "cxmt-xips-memoria-xinesos-hp-asus-acer"
+    },
+    {
+      "title": "Unitree fixa el preu de la seva sortida a borsa a Shanghai i es converteix en la primera fabricant xinesa de robots humanoides que cotitza al continent",
+      "slug": "unitree-sortida-borsa-shanghai-robots-humanoides"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 581
+};
