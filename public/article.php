@@ -131,9 +131,8 @@ $shareText = rawurlencode((string) $article['title']);
   <?php if ($imgAbs !== ''): ?><meta property="og:image" content="<?= e($imgAbs) ?>"><meta property="og:image:alt" content="Il·lustració editorial de <?= e((string) $article['title']) ?>"><meta name="twitter:card" content="summary_large_image"><?php else: ?><meta property="og:image" content="https://inteligencia-artificial.cat/assets/og-portada.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="intel·ligènciaartificial.cat — el briefing diari de la intel·ligència artificial en català"><meta name="twitter:card" content="summary_large_image"><?php endif; ?>
   <script type="application/ld+json"><?= json_encode($jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;family=Onest:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./editorial.css?v=2026072301"><script defer src="./shared.js?v=2026080401"></script>
+  <link rel="stylesheet" href="/fonts.css?v=2026080701">
+  <link rel="stylesheet" href="./editorial.css?v=2026072301"><script defer src="./shared.js?v=2026080701"></script>
   <style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.tts-player button,.tts-speed select{font-family:inherit}.tts-player button{padding:9px 13px;border:1px solid #dfe3eb;background:#fff;color:#233a82;cursor:pointer}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:430px}.tts-note,.tts-speed{font-size:11px;color:#5d6472}</style>
 </head>
 <body class="editorial-body">

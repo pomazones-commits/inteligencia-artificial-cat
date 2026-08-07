@@ -23,6 +23,11 @@ Header set Cache-Control "no-cache, must-revalidate"
 <FilesMatch "\.(jpg|jpeg|png|webp|gif|svg|mp3)$">
 Header set Cache-Control "public, max-age=2592000, immutable"
 </FilesMatch>
+# Tipografies pròpies (des del 07.08.2026 ja no es demanen a Google): no canvien
+# mai un cop publicades, així que poden quedar-se a la cau un any.
+<FilesMatch "\.(woff2|woff)$">
+Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
 </IfModule>
 
 # Fitxers privats de dades: mai no s'han de poder descarregar per HTTP.

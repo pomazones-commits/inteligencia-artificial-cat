@@ -50,6 +50,19 @@
     caixa.appendChild(fila);
   })();
 
+  // Enllaç a l'avís legal al peu de les pàgines interiors. A la portada
+  // l'enllaç és estàtic dins d'index.html (com el de les xarxes). Les rutes són
+  // ABSOLUTES perquè aquest fitxer també s'executa a /noticia/... i /tema/...
+  (() => {
+    const nav = document.querySelector('footer nav');
+    if (!nav || nav.querySelector('.peu-legal')) return;
+    const a = document.createElement('a');
+    a.className = 'peu-legal';
+    a.href = '/avis-legal.html';
+    a.textContent = 'Avís legal';
+    nav.appendChild(a);
+  })();
+
   // Banda de subscripció al butlletí, injectada a totes les pàgines interiors
   // just abans del footer. La portada (que té #newsletter-form propi) i
   // qualsevol pàgina que ja porti un formulari .js-subscribe-form al seu HTML
@@ -58,7 +71,7 @@
     if (document.querySelector('#newsletter-form, .js-subscribe-form')) return;
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = './subscriu.css?v=2026080401';
+    css.href = './subscriu.css?v=2026080701';
     document.head.appendChild(css);
     const banda = document.createElement('section');
     banda.className = 'subscriu-banda';
@@ -74,7 +87,7 @@
       '    <button type="submit">Subscriu-m’hi →</button>',
       '  </form>',
       '  <p class="js-form-message subscriu-missatge" role="status" aria-live="polite"></p>',
-      '  <p class="subscriu-peu">Sense soroll: un correu per setmana, i prou.</p>',
+      '  <p class="subscriu-peu">Sense soroll: un correu per setmana, i prou. El correu només es fa servir per enviar-te’l i te’n pots donar de baixa quan vulguis: <a href="/avis-legal.html#privacitat">com tractem les dades</a>.</p>',
       '</div>'
     ].join('\n');
     const footer = document.querySelector('footer');

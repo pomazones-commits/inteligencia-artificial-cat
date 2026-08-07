@@ -24,3 +24,5 @@
   .subscriu-form input { width: 100%; box-sizing: border-box; border-bottom: 1px solid #a5a1ad; }
   .subscriu-form button { padding: 14px 0 0; }
 }
+.subscriu-peu a { color: #b9b4c4; }
+.subscriu-peu a:hover { color: #fff; }
