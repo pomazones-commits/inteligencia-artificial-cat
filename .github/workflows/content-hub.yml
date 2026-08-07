@@ -1,10 +1,29 @@
 name: Content Hub — completar l'edició
 
+# Repesca programada (07.08.2026) — llegeix això abans de tocar els crons.
+#
+# El camí normal és el push a incoming/news-batch.json. El problema és que si
+# aquell push es perd, o si el seu run mor (avaria de GitHub Actions del
+# 06.08.2026), el trigger NO es torna a disparar mai: els pushos posteriors
+# toquen public/ i no incoming/, i el lot queda orfe fins que algú se n'adona.
+# El lot de les 18.05 del 06.08 va estar 11 hores sense publicar per això.
+#
+# Els crons :13 i :43 tanquen aquest forat. El pas «Queda res per publicar?» és
+# imprescindible: `ingest-news` NO és idempotent (cada passada incrementa
+# batchCount, reescriu tots els segells de temps i deixa una còpia nova a
+# .content-state/backups/), de manera que sense la guarda tindríem ~48 commits
+# i desplegaments buits al dia, i el batchCount diria 48 lots en lloc de 4.
+
 on:
   push:
     branches: [main]
     paths:
       - incoming/news-batch.json
+  schedule:
+    # Cada 30 minuts. Minuts triats per no coincidir amb el desplegament
+    # (:08/:38) ni amb l'àudio (:26), i per caure uns minuts després dels
+    # lots de les tasques de Cowork (:05).
+    - cron: '13,43 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -16,7 +35,9 @@ concurrency:
 
 jobs:
   completar-edicio:
-    if: github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[content-hub]')
+    # Els commits del propi bot no es repesquen a si mateixos. En «schedule» i en
+    # «workflow_dispatch» no hi ha head_commit, i la condició els deixa passar.
+    if: github.event_name != 'push' || !contains(github.event.head_commit.message, '[content-hub]')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -24,13 +45,35 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # Sempre la punta de main, no el SHA que va crear l'execució. Sense
+          # això, una passada programada encuada darrere un push (el grup de
+          # concurrència en deixa passar una de cada cop) treballaria sobre un
+          # arbre obsolet, veuria el lot com a pendent i el reingeriria.
+          ref: main
 
       - name: Preparar Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
+      # Només en la passada programada. Un push o un «Run workflow» a mà
+      # ingereixen sempre: si el llances tu, és que el vols executar.
+      - name: Queda res per publicar?
+        id: pendent
+        if: github.event_name == 'schedule'
+        run: >-
+          node automation/scripts/content-hub.mjs pending
+          --what news
+          --input incoming/news-batch.json
+          --public-dir public
+          --state-dir .content-state
+
+      - name: Res a fer
+        if: github.event_name == 'schedule' && steps.pendent.outputs.pending != 'yes'
+        run: echo "El lot que hi ha a incoming/ ja és publicat. La repesca no toca res."
+
       - name: Validar i acumular el lot de Claude
+        if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
         run: >-
           node automation/scripts/content-hub.mjs ingest-news
           --input incoming/news-batch.json
@@ -39,9 +82,11 @@ jobs:
           --target 20
 
       - name: Executar proves de seguretat
+        if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
         run: node --test automation/tests/content-hub.test.mjs
 
       - name: Publicar només si tot és correcte
+        if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
         run: |
           git config user.name "intel·ligènciaartificial.cat bot"
           git config user.email "actions@users.noreply.github.com"

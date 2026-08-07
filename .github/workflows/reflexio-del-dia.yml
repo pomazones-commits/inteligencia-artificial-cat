@@ -4,12 +4,24 @@ name: Content Hub — la reflexió del dia
 # amb l'últim lot de notícies del dia. Arriba com a incoming/daily-reflection.json
 # i aquest workflow el valida, el publica a public/reflexio-diaria.js i fa rodar
 # l'arxiu (public/reflexions-arxiu.js). Mateix patró que la fotografia diària.
+#
+# Repesca programada (07.08.2026): igual que el Content Hub de notícies, si el
+# push que porta la reflexió es perd o el seu run mor, el trigger no es torna a
+# disparar mai. El cron :23 ho repesca. La guarda «Queda res per publicar?»
+# compara la data de la reflexió pendent amb la de la publicada, perquè
+# reingerir-la cada mitja hora reescriuria el fitxer i faria un commit buit
+# darrere l'altre.
 
 on:
   push:
     branches: [main]
     paths:
       - incoming/daily-reflection.json
+  schedule:
+    # Un cop l'hora n'hi ha prou: la reflexió arriba només amb el lot del vespre.
+    # El minut :23 va desplaçat del cron de notícies (:13/:43) perquè els dos
+    # workflows no coincideixin fent «git push» a main alhora.
+    - cron: '23 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -21,19 +33,43 @@ concurrency:
 
 jobs:
   validar-i-publicar:
-    if: github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[content-hub]')
+    # Els commits del propi bot no es repesquen a si mateixos. En «schedule» i en
+    # «workflow_dispatch» no hi ha head_commit, i la condició els deixa passar.
+    if: github.event_name != 'push' || !contains(github.event.head_commit.message, '[content-hub]')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # Sempre la punta de main, no el SHA que va crear l'execució: una
+          # passada programada encuada darrere un push treballaria sobre un
+          # arbre obsolet i tornaria a publicar la mateixa reflexió.
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
           node-version: 22
 
+      # Només en la passada programada. Un push o un «Run workflow» a mà
+      # publiquen sempre: així es pot forçar la republicació d'una correcció
+      # del mateix dia, que és el que fa el pas de sota.
+      - name: Queda res per publicar?
+        id: pendent
+        if: github.event_name == 'schedule'
+        run: >-
+          node automation/scripts/content-hub.mjs pending
+          --what daily-reflection
+          --input incoming/daily-reflection.json
+          --public-dir public
+          --state-dir .content-state
+
+      - name: Res a fer
+        if: github.event_name == 'schedule' && steps.pendent.outputs.pending != 'yes'
+        run: echo "La reflexió que hi ha a incoming/ ja és publicada. La repesca no toca res."
+
       - name: Validar i publicar la reflexió del dia
+        if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
         run: |
           if [ ! -f incoming/daily-reflection.json ]; then
             echo "No hi ha cap reflexió pendent; res a fer."
@@ -45,9 +81,11 @@ jobs:
             --state-dir .content-state
 
       - name: Executar proves de seguretat
+        if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
         run: node --test automation/tests/content-hub.test.mjs
 
       - name: Publicar només si tot és correcte
+        if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
         run: |
           git config user.name "intel·ligènciaartificial.cat bot"
           git config user.email "actions@users.noreply.github.com"
