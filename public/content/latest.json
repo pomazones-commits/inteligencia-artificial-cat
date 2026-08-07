@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-07T13:03:22.118Z",
+  "updatedAt": "2026-08-07T16:33:03.912Z",
   "items": [
+    {
+      "category": "RECERCA",
+      "read": "5 MIN",
+      "title": "Jeff Dean deixa Google després de 27 anys per fundar Discovery Loop, una startup que vol automatitzar la recerca científica amb IA",
+      "excerpt": "ACTUALITZACIÓ: l'endemà que es fes públic que el veterà d'Alphabet marxava de la companyia, TechCrunch revela que ho fa amb tres altres investigadors de primer nivell per muntar una empresa de benefici públic centrada a fer córrer milers d'experiments científics en paral·lel."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Cloudflare llança Kitesurf, un navegador construït des de zero perquè els agents d'IA naveguin per la web sense Chromium",
+      "excerpt": "El nou motor, escrit en Rust i executat íntegrament als Workers de Cloudflare, consumeix fins a set vegades menys memòria que Chromium per a tasques agèntiques com fer captures de pantalla o extreure contingut d'una pàgina."
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "title": "Google Maps ja pot demanar menjar a domicili i reservar hotels sol, en la nova onada d'agents d'IA de Google",
+      "excerpt": "L'assistent conversacional «Ask Maps» incorpora funcions agèntiques que completen tasques de diversos passos —trobar restaurant, fer la comanda, reservar habitació— i, si l'usuari ho autoritza, es poden personalitzar amb dades de Gmail i Calendar."
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "title": "Airbnb diu que la IA li ha escurçat un 60% el temps de treure noves funcions i ja prova una cerca conversacional",
+      "excerpt": "El conseller delegat Brian Chesky ha explicat en la presentació de resultats trimestrals que la companyia ha augmentat un 80% el nombre de funcions publicades respecte a l'any passat, i comença a provar un cercador que respon com un xat."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "El banc holandès ABN Amro s'alia amb la francesa Mistral per reduir la dependència tecnològica dels Estats Units",
+      "excerpt": "L'acord, el primer de Mistral amb una gran entitat financera dels Països Baixos, se suma als que la companyia francesa ja té amb BNP Paribas i HSBC, en un moviment que tant el banc com el laboratori d'IA presenten com una aposta per la «sobirania digital» europea."
+    },
     {
       "category": "XIPS",
       "read": "5 MIN",
@@ -90,36 +120,6 @@
       "read": "5 MIN",
       "title": "ACTUALITZACIÓ: OpenAI demana a un jutge que arxivi la demanda d'Apple per robatori de secrets industrials",
       "excerpt": "En una moció de 31 pàgines, OpenAI qualifica la demanda d'Apple d'«infundada i pretextual» i l'acusa de voler compensar les seves pròpies mancances en la guerra pel talent, mentre Apple reclama alhora una mesura cautelar i accés accelerat a proves."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "El centre de dades de 15.000 milions de dòlars de Google a l'Índia topa amb la resistència veïnal per l'aigua i la fauna",
-      "excerpt": "A Visakhapatnam, activistes i famílies es manifesten contra el projecte que Google construeix amb el grup Adani, en una ciutat que ja raciona l'aigua i a tocar d'un santuari de lleopards i pangolins."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Unitree fixa el preu de la seva sortida a borsa a Shanghai i es converteix en la primera fabricant xinesa de robots humanoides que cotitza al continent",
-      "excerpt": "La companyia d'Hangzhou, líder mundial en vendes de robots humanoides el 2025, fixa l'oferta pública inicial al mercat STAR de Shanghai a 150,8 iuans per acció per recaptar-ne 904 milions de dòlars."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Una IA autònoma descobreix tècniques d'atac web inèdites i arriba a comprometre bancs, aeroports i infraestructures governamentals",
-      "excerpt": "L'investigador James Kettle, de PortSwigger, presenta a Black Hat un sistema que genera hipòtesis d'atac a partir de fragments de la RFC d'HTTP, les prova contra 30.000 llocs web reals i n'automatitza l'explotació."
-    },
-    {
-      "category": "MAQUINARI",
-      "read": "4 MIN",
-      "title": "HP, Asus i Acer comencen a incorporar xips de memòria xinesos de CXMT als seus portàtils per l'escassetat mundial",
-      "excerpt": "Els tres fabricants han qualificat en petites quantitats els xips DRAM de ChangXin Memory Technologies per a models venuts fora dels Estats Units, mentre l'escassetat de memòria que ha disparat la demanda de centres de dades d'IA estreny els seus marges."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Pequín escampa centres de dades d'IA per pobles i comarques de tota la Xina, entre l'ambició tecnològica i l'alerta de sobrecapacitat",
-      "excerpt": "Ciutats petites com Shatian, Jiashan, Yangzhou o Ulanqab capten inversions multimilionàries en infraestructura de còmput per a IA, mentre analistes adverteixen que la carrera dels governs locals pot acabar en sobrecapacitat."
     }
   ]
 }
