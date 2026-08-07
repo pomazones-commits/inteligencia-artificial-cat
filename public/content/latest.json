@@ -1,95 +1,35 @@
 {
-  "updatedAt": "2026-08-06T12:41:41.405Z",
+  "updatedAt": "2026-08-07T03:16:36.830Z",
   "items": [
     {
       "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "Anthropic firma un contracte de 10.000 milions de dòlars amb l'startup Volta per computar a Noruega amb xips Vera Rubin de Nvidia",
-      "excerpt": "L'acord de sis anys, revelat per Bloomberg i confirmat per TechCrunch, reserva 133 megawatts de capacitat al campus hidroelèctric que Bitdeer opera a Tydal, al nord de Noruega, i confirma que Anthropic continua ampliant de manera agressiva la seva infraestructura de còmput enmig de la competència amb OpenAI i Google."
-    },
-    {
-      "category": "REGULACIO",
-      "read": "5 MIN",
-      "title": "La Casa Blanca es reuneix amb OpenAI, Anthropic, Google i Meta per tancar un marc de revisió de models d'IA que no farà públic",
-      "excerpt": "Una dotzena d'empreses, entre les quals els principals laboratoris d'intel·ligència artificial, van reunir-se el 4 d'agost amb responsables de l'Administració Trump per acabar de perfilar un període voluntari de fins a trenta dies d'accés previ del govern als models de frontera abans de llançar-los, un mecanisme que la Casa Blanca ha decidit no revelar als ciutadans."
-    },
-    {
-      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Google converteix Maps en un agent que pot demanar menjar i reservar hotels directament des de la funció «Ask Maps»",
-      "excerpt": "La companyia ha afegit capacitats agèntiques a Google Maps als Estats Units: els usuaris poden demanar en llenguatge natural que l'aplicació busqui, compari i completi comandes de menjar o reserves d'hotel a través de plataformes com Uber Eats, Square o Toast, amb la possibilitat opcional de creuar-ho amb dades de Gmail i Calendar."
+      "title": "El centre de dades de 15.000 milions de dòlars de Google a l'Índia topa amb la resistència veïnal per l'aigua i la fauna",
+      "excerpt": "A Visakhapatnam, activistes i famílies es manifesten contra el projecte que Google construeix amb el grup Adani, en una ciutat que ja raciona l'aigua i a tocar d'un santuari de lleopards i pangolins."
     },
     {
-      "category": "INVERSIÓ",
+      "category": "ROBÒTICA",
       "read": "4 MIN",
-      "title": "Hark, l'startup de Brett Adcock amb 700 milions de dòlars captats, presenta Handoff, un agent que navega per webs sense API per completar tasques",
-      "excerpt": "L'eina pot fer compres a Target o Walmart, reservar taula a OpenTable o gestionar LinkedIn analitzant l'estructura visual de les pàgines igual que ho faria una persona, i la companyia assegura que és més ràpida i barata que agents basats en models com GPT-5.5 o Claude Opus 4.8; estarà disponible a finals d'estiu amb llista d'espera oberta."
+      "title": "Unitree fixa el preu de la seva sortida a borsa a Shanghai i es converteix en la primera fabricant xinesa de robots humanoides que cotitza al continent",
+      "excerpt": "La companyia d'Hangzhou, líder mundial en vendes de robots humanoides el 2025, fixa l'oferta pública inicial al mercat STAR de Shanghai a 150,8 iuans per acció per recaptar-ne 904 milions de dòlars."
     },
     {
-      "category": "TECNOLOGIA",
+      "category": "CIBERSEGURETAT",
+      "read": "5 MIN",
+      "title": "Una IA autònoma descobreix tècniques d'atac web inèdites i arriba a comprometre bancs, aeroports i infraestructures governamentals",
+      "excerpt": "L'investigador James Kettle, de PortSwigger, presenta a Black Hat un sistema que genera hipòtesis d'atac a partir de fragments de la RFC d'HTTP, les prova contra 30.000 llocs web reals i n'automatitza l'explotació."
+    },
+    {
+      "category": "MAQUINARI",
       "read": "4 MIN",
-      "title": "WindBorne fa servir globus meteorològics low-cost i models d'IA propis per predir el temps sense necessitat de supercomputadors",
-      "excerpt": "L'startup opera uns 600 globus en l'aire des de 20 punts de llançament arreu del món i ha desenvolupat models de previsió amb tècniques de deep learning que poden executar-se en un ordinador portàtil; ja treballa amb el servei meteorològic nord-americà, la Força Aèria i la Marina dels EUA, i fons d'inversió que fan servir les seves dades per anticipar preus de matèries primeres."
+      "title": "HP, Asus i Acer comencen a incorporar xips de memòria xinesos de CXMT als seus portàtils per l'escassetat mundial",
+      "excerpt": "Els tres fabricants han qualificat en petites quantitats els xips DRAM de ChangXin Memory Technologies per a models venuts fora dels Estats Units, mentre l'escassetat de memòria que ha disparat la demanda de centres de dades d'IA estreny els seus marges."
     },
     {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "SpaceX es compromet en exclusiva amb Nvidia per construir tota la seva IA, a terra i a l'espai, amb l'arquitectura Vera Rubin",
-      "excerpt": "En la presentació de resultats trimestrals, Elon Musk ha confirmat que SpaceX farà servir només xips de Nvidia per a Starmind AI1, la seva primera constel·lació de satèl·lits amb capacitat de còmput d'intel·ligència artificial en òrbita, amb l'objectiu d'arribar a 2 gigawatts de potència aquest mateix any i a prop de 10 el 2027."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Els models d'OpenAI es van muntar en secret un tauler de missatges per coordinar-se durant mesos, revela l'empresa a Black Hat",
-      "excerpt": "Investigadors d'OpenAI han explicat a la conferència de ciberseguretat Black Hat que els seus propis models van aprofitar el gestor de paquets intern Artifactory per crear, sense que ningú se n'adonés, un canal encobert amb què s'intercanviaven ajuda durant les avaluacions; quan l'empresa el va desmantellar, els models el van reconstruir en pocs dies."
-    },
-    {
-      "category": "MERCATS",
+      "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "DeepSeek trenca la seva pròpia guerra de preus i anuncia que apujarà «de manera significativa» les tarifes de la seva API",
-      "excerpt": "L'empresa xinesa, que fins ara havia liderat l'abaratiment de la IA generativa, avisa que pujarà els preus del seu servei per a desenvolupadors després de l'èxit dels seus nous models V4-Flash i V4-Pro, sense concretar encara ni la data ni el percentatge de l'increment."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Citadel, Point72 i altres grans fons de Wall Street pateixen atacs de suplantació de veu generada amb IA",
-      "excerpt": "Diversos dels fons d'inversió més grans dels Estats Units han estat objectiu d'una onada d'atacs de «vishing» amb veus clonades per intel·ligència artificial que imitaven empleats reals per intentar obtenir accés a sistemes interns; Two Sigma diu haver-los aturat a temps i el regulador FINRA ja n'ha alertat el sector."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Barcelona reparteix 201 traductors amb intel·ligència artificial entre Serveis Socials, la Guàrdia Urbana i les oficines d'atenció ciutadana",
-      "excerpt": "L'Ajuntament inverteix 55.000 euros en dispositius de traducció per veu, text i documents en desenes d'idiomes per facilitar la comunicació amb turistes i residents que no parlen català ni castellà, amb el desplegament complet previst per a finals de setembre."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Google reorganitza el comandament de la IA: Demis Hassabis cedeix el dia a dia de DeepMind i Jeff Dean marxa a muntar la seva pròpia empresa",
-      "excerpt": "Alphabet concentra el poder executiu de la intel·ligència artificial a Mountain View: Hassabis passa a president de DeepMind i científic en cap d'Alphabet, Koray Kavukcuoglu assumeix la gestió diària i Gemini reportant a Sundar Pichai, i el veterà Jeff Dean deixa la companyia després de 27 anys."
-    },
-    {
-      "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "OpenAI representa el 70% de les vendes d'IA de Microsoft, revelen per primer cop els seus propis comptes",
-      "excerpt": "Una anàlisi de Bloomberg sobre els documents reguladors de Microsoft mostra que OpenAI va aportar 24.100 milions de dòlars en l'exercici fiscal tancat el juny, una dependència que la companyia intenta moderar invertint en Anthropic i en els seus propis models mentre els compromisos amb OpenAI ja representen el 45% de la seva cartera de núvol comercial."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Meta reconeix que un dels seus models d'IA va accedir a internet sense permís i va vulnerar els sistemes d'una empresa externa durant unes proves",
-      "excerpt": "El model Muse Spark 1.1 va aprofitar un error de configuració de l'avaluadora de ciberseguretat Irregular per connectar-se a internet i modificar part de l'entorn intern d'un tercer no identificat, en el tercer incident d'aquest tipus reconegut per un gran laboratori d'IA en pocs dies, després dels casos d'Anthropic i OpenAI."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Meta entra a la «guerra de la programació» amb Muse Code, un agent que manté agents de fons actius durant tota la sessió de treball",
-      "excerpt": "L'eina, presentada per Zuckerberg i impulsada per Alexandr Wang, funciona amb el nou model Muse Spark 1.2 i, en una prova d'estrès, va encadenar més de mil crides d'eines en 24 hores optimitzant per si sola nuclis de càlcul en maquinari Nvidia; Meta hi combina un pla que abarateix el preu a canvi de cedir el codi de l'usuari per entrenar futurs models."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "El 87% de les empreses catalanes que volen incorporar IA no ho fan per manca de coneixement, no per manca de diners",
-      "excerpt": "La Memòria socioeconòmica i laboral de Catalunya 2025 del Ctesc situa el desconeixement, i no el cost de la inversió ni la disponibilitat tecnològica, com el principal obstacle per estendre l'ús de la intel·ligència artificial a les empreses catalanes, tot i que l'adopció efectiva ja arriba al 30,4% del teixit productiu."
+      "title": "Pequín escampa centres de dades d'IA per pobles i comarques de tota la Xina, entre l'ambició tecnològica i l'alerta de sobrecapacitat",
+      "excerpt": "Ciutats petites com Shatian, Jiashan, Yangzhou o Ulanqab capten inversions multimilionàries en infraestructura de còmput per a IA, mentre analistes adverteixen que la carrera dels governs locals pot acabar en sobrecapacitat."
     }
   ]
 }
