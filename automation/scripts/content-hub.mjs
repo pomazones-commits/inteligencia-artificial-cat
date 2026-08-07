@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { copyFile, mkdir, readFile, rename, stat, writeFile } from 'node:fs/promises';
+import { appendFile, copyFile, mkdir, readFile, rename, stat, writeFile } from 'node:fs/promises';
 import { basename, dirname, join, resolve } from 'node:path';
 
 const ASSIGNMENTS = {
@@ -555,6 +555,74 @@ async function ingestDailyReflection(options) {
   process.stdout.write(`Reflexió del dia ${payload.date} publicada (${payload.body.length} paràgrafs, ${payload.words} paraules); ${archive.length} a l'arxiu.\n`);
 }
 
+// ———————————————————————————————————————————————————————————————————————————
+// «pending»: queda res a incoming/ que no s'hagi arribat a publicar?
+//
+// Existeix per a la repesca programada dels crons de `content-hub.yml` i
+// `reflexio-del-dia.yml` (afegits el 07.08.2026 arran de l'incident del lot
+// 18.05, que va quedar orfe 11 hores perquè el seu push va morir dins d'una
+// avaria de GitHub Actions i el trigger no es torna a disparar mai).
+//
+// ⚠️ Per què cal aquesta comprovació i no n'hi ha prou de tornar a ingerir:
+// `ingest-news` NO és idempotent. Encara que no hi hagi cap notícia nova,
+// cada passada incrementa `batches`, reescriu tots els segells de temps
+// (`updatedAt`, `generatedAt`) i deixa una còpia nova a `.content-state/backups/`.
+// Un cron cada 30 minuts sense guarda generaria ~48 commits i desplegaments
+// inútils al dia, i el `batchCount` diria 48 lots en lloc de 4.
+//
+// Escriu «yes» o «no» a stdout, el motiu a stderr, i `pending=yes|no` a
+// $GITHUB_OUTPUT si la variable hi és. Sempre acaba amb codi 0: que no hi hagi
+// feina no és cap error. Si el fitxer d'entrada és corrupte, en canvi, sí que
+// falla (codi 1) — val més que el cron es queixi que no pas que calli.
+async function pendingWork(options) {
+  const what = options.what;
+  if (!['news', 'daily-reflection'].includes(what)) {
+    throw new Error('--what ha de ser news o daily-reflection.');
+  }
+  if (!options.input) throw new Error('Falta --input.');
+  const publicDir = resolve(options['public-dir'] || '.');
+  const stateDir = resolve(options['state-dir'] || '.content-state');
+  const inputPath = resolve(options.input);
+
+  let pending = false;
+  let reason;
+
+  if (!(await exists(inputPath))) {
+    reason = `no hi ha cap ${basename(inputPath)}`;
+  } else if (what === 'news') {
+    const incoming = validateNews(parsePayload(await readFile(inputPath, 'utf8'), 'news'));
+    // Les notícies marcades com a "radar" no entren ni al feed ni a l'arxiu,
+    // de manera que no hi ha cap rastre fiable per saber si ja s'han ingerit.
+    // Un lot que només en porti no dispara la repesca: val més no fer res que
+    // reingerir en bucle. El camí normal (push a incoming/) sí que el cobreix.
+    const slugs = incoming.filter(story => story.seccio !== 'radar').map(story => story.slug);
+    if (!slugs.length) {
+      reason = 'el lot només porta senyals de radar; la repesca no hi arriba';
+    } else {
+      const archive = await readJson(join(stateDir, 'archive.json'), { items: [] });
+      const publicat = new Set((Array.isArray(archive.items) ? archive.items : []).map(item => item?.slug));
+      const falten = slugs.filter(slug => !publicat.has(slug));
+      pending = falten.length > 0;
+      reason = pending
+        ? `${falten.length} de ${slugs.length} notícies sense publicar: ${falten.join(', ')}`
+        : `les ${slugs.length} notícies del lot ja són publicades`;
+    }
+  } else {
+    const payload = validateDailyReflection(parsePayload(await readFile(inputPath, 'utf8'), 'daily-reflection'));
+    const vigent = await readAssignment(join(publicDir, ASSIGNMENTS.dailyReflection.file), '{', '}', null);
+    pending = !vigent?.date || vigent.date !== payload.date;
+    reason = pending
+      ? `la reflexió pendent és del ${payload.date} i la publicada ${vigent?.date ? `és del ${vigent.date}` : 'no existeix'}`
+      : `la reflexió del ${payload.date} ja és publicada`;
+  }
+
+  process.stdout.write(`${pending ? 'yes' : 'no'}\n`);
+  process.stderr.write(`Feina pendent (${what}): ${pending ? 'SÍ' : 'no'} — ${reason}.\n`);
+  if (process.env.GITHUB_OUTPUT) {
+    await appendFile(process.env.GITHUB_OUTPUT, `pending=${pending ? 'yes' : 'no'}\n`);
+  }
+}
+
 async function validateCommand(options) {
   if (!options.input || !options.type) throw new Error('Falten --input i --type.');
   const text = await readFile(resolve(options.input), 'utf8');
@@ -571,7 +639,8 @@ function usage() {
   node content-hub.mjs ingest-editorial --type analysis|reflection --input fitxer.json --public-dir .
   node content-hub.mjs ingest-daily-image --input daily-image.json --public-dir .
   node content-hub.mjs ingest-daily-reflection --input daily-reflection.json --public-dir .
-  node content-hub.mjs validate --type news|analysis|reflection|daily-reflection --input fitxer.json\n`;
+  node content-hub.mjs validate --type news|analysis|reflection|daily-reflection --input fitxer.json
+  node content-hub.mjs pending --what news|daily-reflection --input fitxer.json --public-dir . --state-dir .content-state\n`;
 }
 
 try {
@@ -581,6 +650,7 @@ try {
   else if (command === 'ingest-daily-image') await ingestDailyImage(options);
   else if (command === 'ingest-daily-reflection') await ingestDailyReflection(options);
   else if (command === 'validate') await validateCommand(options);
+  else if (command === 'pending') await pendingWork(options);
   else {
     process.stdout.write(usage());
     process.exitCode = command ? 1 : 0;
