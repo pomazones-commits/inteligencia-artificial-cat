@@ -39,6 +39,25 @@ if (!$article && $slug !== '') {
     }
 }
 
+// Tercer recurs (07.08.2026): l'arxiu pla de data/archive.json, que guarda cada
+// notícia publicada (fins a 1.000). A diferència d'arxiu.json, que només recull
+// el que hi havia a l'edició en canviar de dia, aquest també conserva les que
+// cauen del sostre de 20 notícies abans que el dia canviï. Sense aquest recurs,
+// un dia amb cinc lots deixa 5 articles amb la pàgina en 404 per sempre — i
+// encara llistats a les pàgines de tema, que sí que llegeixen aquest fitxer.
+// Va passar per primera vegada el 07.08.2026, amb el lot rescatat de l'avaria
+// de GitHub Actions del 06.08.
+if (!$article && $slug !== '' && is_array($flatArchive)) {
+    foreach ($flatArchive as $item) {
+        if (!is_array($item) || ($item['slug'] ?? '') !== $slug) { continue; }
+        $article = $item;
+        if (preg_match('/^\d{4}-\d{2}-\d{2}$/', (string) ($item['editionDate'] ?? ''))) {
+            $publishedIso = (string) $item['editionDate'];
+        }
+        break;
+    }
+}
+
 $found = $article !== null;
 if (!$article) {
     http_response_code(404);
@@ -55,7 +74,12 @@ $category = utf8_upper((string) ($article['category'] ?? 'ACTUALITAT'));
 $publishedLabel = '';
 if ($publishedIso !== '' && preg_match('/^(\d{4})-(\d{2})-(\d{2})$/', $publishedIso, $dateParts)) {
     $months = [1 => 'gener', 2 => 'febrer', 3 => 'març', 4 => 'abril', 5 => 'maig', 6 => 'juny', 7 => 'juliol', 8 => 'agost', 9 => 'setembre', 10 => 'octubre', 11 => 'novembre', 12 => 'desembre'];
-    $publishedLabel = (int) $dateParts[3] . ' de ' . $months[(int) $dateParts[2]] . ' de ' . $dateParts[1];
+    // Apostrofació: en català és «d'abril», «d'agost» i «d'octubre», no «de abril».
+    // Fins al 07.08.2026 totes les pàgines d'article d'aquests tres mesos sortien
+    // amb la preposició mal escrita.
+    $mes = $months[(int) $dateParts[2]];
+    $preposicio = in_array($mes, ['abril', 'agost', 'octubre'], true) ? "d'" : 'de ';
+    $publishedLabel = (int) $dateParts[3] . ' ' . $preposicio . $mes . ' de ' . $dateParts[1];
 }
 
 // Els camps d'autoria són opcionals. L'automatització actual no els necessita;
