@@ -343,3 +343,105 @@ test('rebutja una reflexió del dia sense data vàlida o massa curta', async () 
   assert.equal(resultatCurta.status, 1);
   assert.match(resultatCurta.stderr, /paràgrafs/);
 });
+
+// ——— Repesca programada: la guarda «pending» (07.08.2026) ———
+//
+// Aquests tests protegeixen el cron de content-hub.yml i reflexio-del-dia.yml.
+// El risc que cobreixen: `ingest-news` no és idempotent, i una guarda que
+// digués «yes» sempre convertiria la repesca en ~48 commits buits al dia.
+
+function pending(args, cwd) {
+  const result = run(args, cwd);
+  return { status: result.status, veredicte: result.stdout.trim(), stderr: result.stderr };
+}
+
+test('pending(news): diu «yes» amb un lot sense ingerir i «no» un cop publicat', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  const lot = join(root, 'news-batch.json');
+  await writeFile(lot, JSON.stringify(Array.from({ length: 5 }, (_, index) => story(index + 1))), 'utf8');
+  const args = ['pending', '--what', 'news', '--input', lot, '--public-dir', root, '--state-dir', state];
+
+  const abans = pending(args, root);
+  assert.equal(abans.status, 0);
+  assert.equal(abans.veredicte, 'yes', 'un lot que no s’ha ingerit mai és feina pendent');
+
+  assert.equal(run(['ingest-news', '--input', lot, '--public-dir', root, '--state-dir', state, '--date', '2026-08-07'], root).status, 0);
+
+  const despres = pending(args, root);
+  assert.equal(despres.status, 0);
+  assert.equal(despres.veredicte, 'no', 'un cop publicat, la repesca no ha de tornar a ingerir');
+});
+
+test('pending(news): «no» encara que hagi canviat el dia — el que compta és si les notícies són publicades', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  const lot = join(root, 'news-batch.json');
+  await writeFile(lot, JSON.stringify(Array.from({ length: 5 }, (_, index) => story(index + 1))), 'utf8');
+  assert.equal(run(['ingest-news', '--input', lot, '--public-dir', root, '--state-dir', state, '--date', '2026-08-06'], root).status, 0);
+  // Endemà: l'edició del dia és una altra, però el lot d'ahir ja és a l'arxiu.
+  const veredicte = pending(['pending', '--what', 'news', '--input', lot, '--public-dir', root, '--state-dir', state], root);
+  assert.equal(veredicte.veredicte, 'no', 'l’arxiu acumula entre dies i evita reingerir un lot vell');
+});
+
+test('pending(news): un lot ingerit a mitges es considera pendent', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  const primer = join(root, 'primer.json');
+  const segon = join(root, 'segon.json');
+  await writeFile(primer, JSON.stringify(Array.from({ length: 5 }, (_, index) => story(index + 1))), 'utf8');
+  await writeFile(segon, JSON.stringify([story(3), story(4), story(98), story(99), story(100)]), 'utf8');
+  assert.equal(run(['ingest-news', '--input', primer, '--public-dir', root, '--state-dir', state, '--date', '2026-08-07'], root).status, 0);
+  const veredicte = pending(['pending', '--what', 'news', '--input', segon, '--public-dir', root, '--state-dir', state], root);
+  assert.equal(veredicte.veredicte, 'yes', 'si en falta una de sola, el lot encara és feina pendent');
+  assert.match(veredicte.stderr, /noticia-de-prova-98/);
+});
+
+test('pending(news): un lot només de radar no dispara la repesca', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const lot = join(root, 'nomes-radar.json');
+  await writeFile(lot, JSON.stringify([{ ...story(1), seccio: 'radar' }, { ...story(2), seccio: 'radar' }]), 'utf8');
+  const veredicte = pending(['pending', '--what', 'news', '--input', lot, '--public-dir', root, '--state-dir', join(root, 'state')], root);
+  assert.equal(veredicte.status, 0);
+  assert.equal(veredicte.veredicte, 'no', 'els senyals de radar no deixen rastre a l’arxiu: millor no reingerir en bucle');
+});
+
+test('pending: sense fitxer d’entrada no hi ha feina, i no és cap error', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  for (const what of ['news', 'daily-reflection']) {
+    const veredicte = pending(['pending', '--what', what, '--input', join(root, 'no-hi-es.json'), '--public-dir', root, '--state-dir', join(root, 'state')], root);
+    assert.equal(veredicte.status, 0, `pending(${what}) no ha de fallar si no hi ha fitxer`);
+    assert.equal(veredicte.veredicte, 'no');
+  }
+});
+
+test('pending(daily-reflection): compara la data pendent amb la publicada', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  const ahir = join(root, 'ahir.json');
+  const avui = join(root, 'avui.json');
+  await writeFile(ahir, JSON.stringify(reflexio('2026-08-06')), 'utf8');
+  await writeFile(avui, JSON.stringify(reflexio('2026-08-07')), 'utf8');
+
+  const senseRes = pending(['pending', '--what', 'daily-reflection', '--input', ahir, '--public-dir', root, '--state-dir', state], root);
+  assert.equal(senseRes.veredicte, 'yes', 'si no hi ha cap reflexió publicada, la pendent és feina');
+
+  assert.equal(run(['ingest-daily-reflection', '--input', ahir, '--public-dir', root, '--state-dir', state], root).status, 0);
+  assert.equal(pending(['pending', '--what', 'daily-reflection', '--input', ahir, '--public-dir', root, '--state-dir', state], root).veredicte, 'no',
+    'la del 06 ja és publicada: la repesca no la torna a escriure');
+  assert.equal(pending(['pending', '--what', 'daily-reflection', '--input', avui, '--public-dir', root, '--state-dir', state], root).veredicte, 'yes',
+    'la del 07 encara no hi és: això és exactament l’incident del 06.08');
+});
+
+test('pending: un fitxer corrupte falla en comptes de callar', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const trencat = join(root, 'trencat.json');
+  await writeFile(trencat, '{ això no és JSON', 'utf8');
+  const veredicte = pending(['pending', '--what', 'news', '--input', trencat, '--public-dir', root, '--state-dir', join(root, 'state')], root);
+  assert.equal(veredicte.status, 1, 'val més que el cron es queixi que no pas que ignori un lot il·legible');
+});
+
+test('pending: --what desconegut és un error', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  assert.equal(pending(['pending', '--what', 'fotografia', '--input', join(root, 'x.json')], root).status, 1);
+});
