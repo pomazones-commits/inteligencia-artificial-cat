@@ -21,7 +21,17 @@ on:
     # (:23) sovint troba el desplegament encara reintentant i s'absten; la
     # segona (:53) arriba quan la finestra de reintents ja s'ha tancat i si
     # que detecta el lot que no s'ha arribat a publicar.
-    - cron: '23,53 4,5,8,9,12,13,16,17 * * *'
+    #
+    # 07.08.2026 — ARA CADA HORA, TOT EL DIA. Abans el cron era
+    # '23,53 4,5,8,9,12,13,16,17 * * *': nomes al voltant dels quatre lots.
+    # Aixo deixava un forat de mes d'onze hores entre les 19.53 i les 06.23
+    # (Madrid). El 06.08 el lot de les 18.05 va quedar orfe a les 18.29, les
+    # passades de les 18.53 i 19.53 van morir dins l'avaria de GitHub Actions
+    # i despres no hi havia res fins al mati: es va publicar 11 hores tard.
+    # Amb passada horaria, una passada morta es recupera a la seguent.
+    # Cost: la passada normal dura uns 20 s (les llargues son quan troba
+    # feina), o sigui uns minuts de runner al dia. Barat.
+    - cron: '23,53 * * * *'
   # 01.08.2026: via que NO depen de cap cron. El lot de les 18.05 no es va
   # desplegar i cap de les dues passades programades (:23 i :53) no va arribar
   # a existir. Encadenant-nos al Content Hub tenim sempre una passada per lot,

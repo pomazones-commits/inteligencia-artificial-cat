@@ -1,29 +1,34 @@
 name: Content Hub — completar l'edició
 
-# Repesca programada (07.08.2026) — llegeix això abans de tocar els crons.
+# Repesca d'un lot orfe: la fa la «Xarxa de seguretat», NO aquest workflow.
 #
-# El camí normal és el push a incoming/news-batch.json. El problema és que si
-# aquell push es perd, o si el seu run mor (avaria de GitHub Actions del
-# 06.08.2026), el trigger NO es torna a disparar mai: els pushos posteriors
-# toquen public/ i no incoming/, i el lot queda orfe fins que algú se n'adona.
+# El camí normal és el push a incoming/news-batch.json. Si aquell push es perd o
+# el seu run mor (avaria de GitHub Actions del 06.08.2026), el trigger no es
+# torna a disparar mai: els pushos posteriors toquen public/ i el lot queda orfe.
 # El lot de les 18.05 del 06.08 va estar 11 hores sense publicar per això.
 #
-# Els crons :13 i :43 tanquen aquest forat. El pas «Queda res per publicar?» és
-# imprescindible: `ingest-news` NO és idempotent (cada passada incrementa
-# batchCount, reescriu tots els segells de temps i deixa una còpia nova a
-# .content-state/backups/), de manera que sense la guarda tindríem ~48 commits
-# i desplegaments buits al dia, i el batchCount diria 48 lots en lloc de 4.
+# 07.08.2026, primera versió: es va afegir aquí un `schedule` de repesca
+# (:13/:43). Retirat el mateix matí, per dues raons:
+#   1. La «Xarxa de seguretat» ja fa aquesta feina i millor — comprova l'estat
+#      final real i rellança per workflow_dispatch el que calgui (contingut,
+#      desplegament o àudio). Només li faltava cobrir la nit; ara el seu cron
+#      és horari.
+#   2. Aquell `schedule` era contraproduent: la «Xarxa de seguretat»
+#      s'encadena a aquest workflow amb `workflow_run: [completed]`, o sigui
+#      que 48 passades buides al dia aquí n'haurien arrossegat 48 allà.
+#
+# El pas «Queda res per publicar?» es queda tot i que ara mateix no s'executa
+# mai (no hi ha esdeveniment `schedule`). És a posta: si algun dia es torna a
+# afegir un cron, la guarda ja hi és. ⚠️ NO POSIS UN CRON SENSE ELLA:
+# `ingest-news` NO és idempotent — cada passada incrementa batchCount, reescriu
+# tots els segells de temps i deixa una còpia a .content-state/backups/, o sigui
+# que un cron sense guarda ompliria el repositori de commits buits.
 
 on:
   push:
     branches: [main]
     paths:
       - incoming/news-batch.json
-  schedule:
-    # Cada 30 minuts. Minuts triats per no coincidir amb el desplegament
-    # (:08/:38) ni amb l'àudio (:26), i per caure uns minuts després dels
-    # lots de les tasques de Cowork (:05).
-    - cron: '13,43 * * * *'
   workflow_dispatch:
 
 permissions:

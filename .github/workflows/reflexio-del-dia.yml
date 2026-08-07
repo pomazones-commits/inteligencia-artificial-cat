@@ -5,23 +5,20 @@ name: Content Hub — la reflexió del dia
 # i aquest workflow el valida, el publica a public/reflexio-diaria.js i fa rodar
 # l'arxiu (public/reflexions-arxiu.js). Mateix patró que la fotografia diària.
 #
-# Repesca programada (07.08.2026): igual que el Content Hub de notícies, si el
-# push que porta la reflexió es perd o el seu run mor, el trigger no es torna a
-# disparar mai. El cron :23 ho repesca. La guarda «Queda res per publicar?»
-# compara la data de la reflexió pendent amb la de la publicada, perquè
-# reingerir-la cada mitja hora reescriuria el fitxer i faria un commit buit
-# darrere l'altre.
+# 07.08.2026: aquí hi va haver un `schedule` de repesca (:23) durant unes hores.
+# Retirat el mateix matí per coherència amb `content-hub.yml`: la repesca la fa
+# la «Xarxa de seguretat», que ara passa cada hora i rellança per
+# workflow_dispatch el que calgui. A més, `desplega.yml` s'encadena a aquest
+# workflow, o sigui que una passada horària buida aquí n'arrossegava una allà.
+#
+# El pas «Queda res per publicar?» es queda tot i que ara no s'executa mai: si
+# algun dia es torna a afegir un cron, la guarda ja hi és.
 
 on:
   push:
     branches: [main]
     paths:
       - incoming/daily-reflection.json
-  schedule:
-    # Un cop l'hora n'hi ha prou: la reflexió arriba només amb el lot del vespre.
-    # El minut :23 va desplaçat del cron de notícies (:13/:43) perquè els dos
-    # workflows no coincideixin fent «git push» a main alhora.
-    - cron: '23 * * * *'
   workflow_dispatch:
 
 permissions:
