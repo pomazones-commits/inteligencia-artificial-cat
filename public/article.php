@@ -132,7 +132,7 @@ $shareText = rawurlencode((string) $article['title']);
   <script type="application/ld+json"><?= json_encode($jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
-  <link rel="stylesheet" href="./editorial.css?v=2026072301"><script defer src="./shared.js?v=2026080701"></script>
+  <link rel="stylesheet" href="./editorial.css?v=2026072301"><script defer src="./shared.js?v=2026080702"></script>
   <style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.tts-player button,.tts-speed select{font-family:inherit}.tts-player button{padding:9px 13px;border:1px solid #dfe3eb;background:#fff;color:#233a82;cursor:pointer}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:430px}.tts-note,.tts-speed{font-size:11px;color:#5d6472}</style>
 </head>
 <body class="editorial-body">

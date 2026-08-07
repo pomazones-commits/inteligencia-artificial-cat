@@ -84,7 +84,7 @@ $rest = array_slice($items, 1);
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="/editorial.css?v=2026072301">
-  <script defer src="/shared.js?v=2026080701"></script>
+  <script defer src="/shared.js?v=2026080702"></script>
 </head>
 <body class="editorial-body">
   <header class="editorial-topbar">

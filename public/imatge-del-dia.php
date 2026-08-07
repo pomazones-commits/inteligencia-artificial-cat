@@ -68,7 +68,7 @@ $paragraphs = array_values(array_filter(array_map('trim', preg_split('/\n\n+/', 
 <?php endif; ?>
 <link rel="stylesheet" href="/fonts.css?v=2026080701">
 <link rel="stylesheet" href="./editorial.css?v=2026072401">
-<script defer src="./shared.js?v=2026080701"></script>
+<script defer src="./shared.js?v=2026080702"></script>
 </head>
 <body class="editorial-body">
   <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>

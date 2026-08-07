@@ -12,8 +12,12 @@
     linkedin: '',
     telegram: '',
     whatsapp: '',
-    rss: './feed.xml'
+    rss: '/feed.xml'
   };
+  // ⚠️ Rutes ABSOLUTES a tot aquest fitxer. shared.js també s'executa a
+  // /tema/<slug> (tema.php servit per una regla de reescriptura), i allà una
+  // ruta relativa com './feed.xml' apunta a /tema/feed.xml, que és un 404.
+  // Detectat i corregit el 07.08.2026.
 
   const ICONES = {
     mastodon: { nom: 'Mastodon', d: 'M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.007C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.306C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.257 5.611.117 1.24.322 2.47.616 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.61.527-.135.786-.22.585-.19 1.27-.4 1.774-.766a.055.055 0 0 0 .022-.043v-1.84a.05.05 0 0 0-.02-.04.053.053 0 0 0-.044-.01 20.968 20.968 0 0 1-4.877.565c-2.826 0-3.584-1.34-3.802-1.898a5.83 5.83 0 0 1-.33-1.484.053.053 0 0 1 .066-.054c1.579.38 3.198.571 4.823.57.39 0 .78 0 1.17-.01 1.633-.046 3.355-.13 4.962-.443.04-.008.08-.015.115-.025 2.535-.487 4.947-2.01 5.192-5.878.01-.152.033-1.593.033-1.75.001-.535.174-3.799-.025-5.8zm-3.748 9.612h-2.561V8.706c0-1.317-.55-1.988-1.669-1.988-1.23 0-1.846.795-1.846 2.365v3.425h-2.546V9.083c0-1.57-.617-2.365-1.848-2.365-1.112 0-1.668.671-1.668 1.988v6.219H4.822V8.517c0-1.317.336-2.363 1.011-3.138.696-.773 1.608-1.17 2.74-1.17 1.311 0 2.302.504 2.962 1.508l.638 1.07.638-1.07c.66-1.004 1.65-1.508 2.96-1.508 1.13 0 2.043.397 2.74 1.17.675.775 1.01 1.821 1.01 3.138z' },
@@ -33,7 +37,7 @@
 
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = './xarxes-peu.css?v=2026080501';
+    css.href = '/xarxes-peu.css?v=2026080702';
     document.head.appendChild(css);
 
     const fila = document.createElement('div');
@@ -71,7 +75,7 @@
     if (document.querySelector('#newsletter-form, .js-subscribe-form')) return;
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = './subscriu.css?v=2026080701';
+    css.href = '/subscriu.css?v=2026080702';
     document.head.appendChild(css);
     const banda = document.createElement('section');
     banda.className = 'subscriu-banda';
@@ -81,7 +85,7 @@
       '  <p class="subscriu-kicker"><i></i>El butlletí</p>',
       '  <h2 class="subscriu-titol">La setmana d’IA, en cinc minuts</h2>',
       '  <p class="subscriu-text">Cada dissabte, el millor del briefing al teu correu. Gratuït i en català.</p>',
-      '  <form class="js-subscribe-form subscriu-form" action="./api.php?action=subscribe" method="post" novalidate>',
+      '  <form class="js-subscribe-form subscriu-form" action="/api.php?action=subscribe" method="post" novalidate>',
       '    <label for="subscriu-email" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Correu electrònic</label>',
       '    <input id="subscriu-email" name="email" type="email" autocomplete="email" placeholder="el.teu@correu.cat" required>',
       '    <button type="submit">Subscriu-m’hi →</button>',
