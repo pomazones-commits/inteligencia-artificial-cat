@@ -41,10 +41,32 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
-  <script src="./reflexio-diaria.js?v=2026080403"></script>
-  <script src="./reflexions-arxiu.js?v=2026080403"></script>
   <script>
-    (function () {
+    // Les dades es regeneren cada dia. El segell ?v= ha de ser horari (com a
+    // app.js): amb un segell fix el navegador es quedava per sempre amb la
+    // copia baixada aquell dia. El 08.08.2026 encara servia la del 04.08, quan
+    // reflexio-diaria.js era null, i la pagina deia que no hi havia reflexio.
+    var segellHorari = (function () {
+      var ara = new Date();
+      return [
+        ara.getUTCFullYear(),
+        String(ara.getUTCMonth() + 1).padStart(2, '0'),
+        String(ara.getUTCDate()).padStart(2, '0'),
+        String(ara.getUTCHours()).padStart(2, '0')
+      ].join('');
+    }());
+    var carregaDades = function (fitxers) {
+      return Promise.all(fitxers.map(function (src) {
+        return new Promise(function (resolve) {
+          var s = document.createElement('script');
+          s.src = src + '?v=' + segellHorari;
+          s.onload = resolve;
+          s.onerror = resolve;
+          document.head.appendChild(s);
+        });
+      }));
+    };
+    carregaDades(['./reflexio-diaria.js', './reflexions-arxiu.js']).then(function () {
       var llista = document.getElementById('llista');
       var estat = document.getElementById('estat');
       var entrades = [];
@@ -98,7 +120,7 @@
         article.appendChild(entradeta);
         llista.appendChild(article);
       });
-    })();
+    });
   </script>
 </body>
 </html>
