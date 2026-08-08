@@ -1,6 +1,6 @@
 # Encàrrec diari: lot de cinc notícies
 
-Conserva la selecció i el procés de verificació actuals. Genera exactament cinc notícies diferents **destinades al feed principal «El senyal d'avui»** (és a dir, cinc notícies SENSE `"seccio": "radar"`), en català, sobre canvis rellevants en intel·ligència artificial. Composició de les cinc: **2 peces de ciència** (obligatòries a cada lot, vegeu «La quota de ciència» més avall), actualitat **global** de primer nivell i, **com a màxim dues per lot**, notícies relacionades amb **Catalunya i la IA**. Si a més vols aportar peces només per al radar (vegeu el camp `seccio` més avall), són **addicionals**: el lot tindrà llavors sis o set ítems, mai menys de cinc per al feed. Dona prioritat a fonts primàries, data cada afirmació i diferencia fets d'interpretacions. No copiïs el text de les fonts.
+Conserva la selecció i el procés de verificació actuals. Genera exactament cinc notícies diferents **destinades al feed principal «El senyal d'avui»** (és a dir, cinc notícies SENSE `"seccio": "radar"`), en català, sobre canvis rellevants en intel·ligència artificial. Composició de les cinc: les **peces de ciència que toquin a aquest lot** (2-1-1-2 segons l'hora, vegeu «La quota de ciència» més avall), actualitat **global** de primer nivell i, **com a màxim dues per lot**, notícies relacionades amb **Catalunya i la IA**. Si a més vols aportar peces només per al radar (vegeu el camp `seccio` més avall), són **addicionals**: el lot tindrà llavors sis o set ítems, mai menys de cinc per al feed. Dona prioritat a fonts primàries, data cada afirmació i diferencia fets d'interpretacions. No copiïs el text de les fonts.
 
 La sortida ha de mantenir exactament el contracte que ja utilitza el web:
 
@@ -25,16 +25,35 @@ No canviïs els noms dels camps. No incloguis text fora del JSON.
 
 ## La quota de ciència (obligatòria, des del 08.08.2026)
 
-El feed s'havia inclinat massa cap a l'economia: l'auditoria del 08.08.2026 sobre 428 notícies va donar **43,9% de peces d'àmbit econòmic-empresarial** i **4,7% de ciència i salut**, amb 12 dels 26 dies sense cap peça científica. Aquesta secció ho corregeix.
+El feed s'havia inclinat massa cap a l'economia: l'auditoria del 08.08.2026 sobre 428 notícies va donar **43,9% de peces d'àmbit econòmic-empresarial** i **4,7% de ciència i salut**, amb 12 dels 26 dies sense cap peça científica i ratxes de 5 dies seguits. Aquesta secció ho corregeix.
 
-- **2 de les 5 notícies d'AQUEST lot han de ser de ciència.** Són 8 al dia sobre 20 (40%). No es compensa entre lots: **cada lot en porta dues**. Si en un lot només n'has trobat una de bona, el següent n'ha de portar **tres**. Comprova què s'ha publicat avui llegint `public/news.js` abans de tancar el lot.
-- ⚠️ **Ordre de prioritat de les 5 places** (perquè la quota no ofegui l'actualitat): **(1)** la notícia global més important del dia en IA — no pot faltar mai; **(2)** les 2 peces de ciència; **(3)** la resta d'actualitat global; **(4)** les catalanes, màxim 2 per lot i sovint només 1 quan el lot ja porta les dues de ciència. Si no hi caben totes, **el que cedeix és la segona catalana**, mai la notícia gran del dia ni la segona de ciència.
-- **Compta com a ciència:** recerca publicada o en preprint (*Nature*, *Science*, *Nature Medicine*, *PNAS*, *The Lancet*, arXiv, NeurIPS/ICML/ACL); IA aplicada a una disciplina científica (biologia, medicina, química, materials, física, matemàtiques, clima, energia, astronomia, neurociència); resultats tècnics amb mètode i avaluació (interpretabilitat, arquitectures noves, eficiència, robòtica de laboratori); i la recerca feta aquí (BSC-MareNostrum, IIIA-CSIC, ICFO, IRB Barcelona, CRG, ICREA, Eurecat, i2CAT, VHIR, IDIBAPS, universitats catalanes i espanyoles).
-- **NO compta** la notícia corporativa amb decorat científic. Casos reals que no valen: «OpenAI dona accés gratuït a 100.000 científics», «un medallista Fields fitxa per una empresa d'IA», «DeepMind desmantella l'equip d'AlphaFold», «tal centre rep 40 milions europeus». Prova ràpida: **treu-ne els diners i el nom de l'empresa; si no queda cap resultat científic, no compta.**
+- **Quantes en porta AQUEST lot** (repartiment 2-1-1-2, **6 al dia sobre 20**, el 30%):
+
+  | Lot | Peces de ciència |
+  |---|---|
+  | **06:05** | **2** |
+  | **10:05** | **1** |
+  | **14:05** | **1** |
+  | **18:05** | **2** |
+
+  ⚠️ El repartiment segueix el subministrament, no el repartiment a parts iguals. [arXiv anuncia les novetats a les 20:00 ET](https://info.arxiv.org/help/availability.html) — les 02:00 d'aquí —, així que **el lot de les 06:05 té sempre el paquet acabat de sortir**; el de les 18:05 té tot el matí americà i els embargaments de revista, que solen aixecar-se a la tarda-vespre europea. El de les 10:05 és el més prim de tots i per això només n'hi toca una.
+
+  ⚠️ **Cap de setmana prim: arXiv no anuncia res divendres ni dissabte.** Dissabte i diumenge al matí, la ciència ha de sortir de revistes, blogs de laboratori i notes de centres, no de preprints.
+
+- **Si el lot anterior no va arribar al seu nombre, aquest el recupera** (una de més). Comprova què s'ha publicat avui llegint `public/news.js` abans de tancar el lot.
+- ⚠️ **Ordre de prioritat de les 5 places** (perquè la quota no ofegui l'actualitat): **(1)** la notícia global més important del dia en IA — no pot faltar mai; **(2)** les peces de ciència que toquin; **(3)** la resta d'actualitat global; **(4)** les catalanes, màxim 2 per lot. Si no hi caben totes, **el que cedeix és la segona catalana**, mai la notícia gran del dia ni la quota de ciència.
+- **Compta com a ciència — TOTES les ciències, no només les dures:**
+  - **recerca publicada o en preprint**: *Nature*, *Science*, *Nature Medicine*, *The Lancet* i *Lancet Digital Health*, *PNAS*, *NEJM*, *JAMA*, *BMJ*, arXiv, medRxiv, bioRxiv, NeurIPS/ICML/ACL;
+  - **IA aplicada a qualsevol disciplina**, dura o no: biologia, **medicina i pràctica clínica**, **salut pública i epidemiologia**, química, materials, física, matemàtiques, clima, energia, astronomia, **neurociència**, **psicologia i ciències cognitives**, **educació**, **lingüística**, **arqueologia i història**, **sociologia i demografia**, **dret i criminologia** com a disciplines acadèmiques;
+  - **resultats tècnics amb mètode i avaluació**: interpretabilitat, arquitectures noves, eficiència, robòtica de laboratori, avaluacions rigoroses de capacitats;
+  - **recerca feta aquí**: BSC-MareNostrum, IIIA-CSIC, ICFO, IRB Barcelona, CRG, ICREA, Eurecat, i2CAT, VHIR, IDIBAPS, ISGlobal, CREAF, ICO, universitats catalanes i espanyoles.
+- **NO compta:**
+  - la notícia **corporativa amb decorat científic**. Casos reals que no valen: «OpenAI dona accés gratuït a 100.000 científics», «un medallista Fields fitxa per una empresa d'IA», «DeepMind desmantella l'equip d'AlphaFold», «tal centre rep 40 milions europeus». Prova ràpida: **treu-ne els diners i el nom de l'empresa; si no queda cap resultat científic, no compta.**
+  - 🛑 **el pany de les ciències socials**: que s'hi admetin la sociologia, l'educació o el dret **no obre la porta a l'economia per darrere**. Un article acadèmic d'economia o de gestió, revisat i amb mètode, **sí** que compta. Un **informe d'un banc, d'una consultora, d'una patronal o d'una casa d'anàlisi** (Gartner, McKinsey, un servei d'estudis) **NO compta mai**, encara que porti gràfics, mostra i percentatges: això és material de la cerca econòmica, i comptar-lo com a ciència desfaria justament el que aquesta quota ve a corregir. La pregunta que ho resol: **qui l'ha revisat, i què hi guanya qui el publica?**
 - **Prioritza la font primària** (l'article, el preprint, el blog del laboratori, la nota del centre) per damunt de la reescriptura d'un mitjà generalista. Explica el resultat i el mètode en llenguatge planer, sense exagerar-ne l'abast, i distingeix sempre un **resultat** d'un **anunci**.
-- **Categoria:** `"category": "CIÈNCIA"` per a la recerca i `"SALUT"` per a la clínica. Escriu-la sempre amb la mateixa grafia (amb accent).
-- **On buscar-la, cada lot.** El material hi és sempre: el llistat diari d'**arXiv** (`cs.AI`, `cs.LG`, `cs.CL`, `q-bio`), **Nature**, **Nature Machine Intelligence**, **Science**, **Nature Medicine**, **The Lancet Digital Health**, **PNAS**, la secció d'IA de **ScienceDaily**, **Quanta Magazine**, els blogs de recerca dels laboratoris (DeepMind, Anthropic, OpenAI, Meta AI, Allen Institute, MIT News, EPFL) i les notes dels centres d'aquí (BSC, IIIA-CSIC, ICFO, IRB, CRG, ICREA, UPC, UPF, UB, UAB). Amb dues places per lot has de baixar més enllà del titular del dia: **una peça de recerca sòlida i ben explicada val més que la cinquena notícia d'un acord milionari.**
-- Si en un lot no hi ha ciència de debò, **no la inventis ni inflis un anunci d'empresa**: val més una peça de menys i recuperar-la al lot següent que forçar-ne una de dolenta. Però ha de ser l'excepció rara.
+- **Categoria:** `"category": "CIÈNCIA"` per a la recerca en general i `"SALUT"` per a la clínica i la salut pública. Escriu-la sempre amb la mateixa grafia (amb accent).
+- **On buscar-la.** El llistat diari d'**arXiv** (`cs.AI`, `cs.LG`, `cs.CL`, `q-bio`), **medRxiv** i **bioRxiv**, **Nature** i **Nature Machine Intelligence**, **Science**, **Nature Medicine**, **The Lancet Digital Health**, **PNAS**, **JAMA**, la secció d'IA de **ScienceDaily**, **Quanta Magazine**, **EurekAlert**, els blogs de recerca dels laboratoris (DeepMind, Anthropic, OpenAI, Meta AI, Allen Institute, MIT News, EPFL) i les notes dels centres d'aquí (BSC, IIIA-CSIC, ICFO, IRB, CRG, ICREA, ISGlobal, UPC, UPF, UB, UAB).
+- 🛑 **La quota és un terra, no una excusa per baixar el llistó.** El risc d'aquest criteri és omplir-lo de recerca menor: un preprint sense contrastar, un estudi amb quatre participants, un titular inflat a partir d'un resultat modest. **Val més publicar-ne una de menys i recuperar-la al lot següent que forçar-ne una de dolenta.** Una peça de recerca sòlida i ben explicada val més que la cinquena notícia d'un acord milionari.
 
 ## La imatge de cada notícia
 
