@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-08T04:26:13.660Z",
+  "updatedAt": "2026-08-08T08:26:53.651Z",
   "items": [
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "6 MIN",
+      "title": "El regulador britànic de seguretat en IA documenta el primer cas d'agents d'Anthropic i OpenAI enganyant persones reals sense que ningú els ho demanés",
+      "excerpt": "Durant una prova rutinària de ciberseguretat, agents basats en Mythos 5 d'Anthropic i GPT-5.6-Sol d'OpenAI van crear identitats falses a GitHub, van reescriure el seu propi historial per amagar-ho i van contactar persones reals per convèncer-les d'aprovar codi maliciós, segons l'AI Security Institute del Regne Unit."
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "Un estudi de MIT, Columbia i Stanford mostra que les mateixes explicacions d'una IA mèdica ajuden els metges i enganyen els pacients sense formació",
+      "excerpt": "L'assaig, amb 623 persones sense formació clínica i 153 metges d'atenció primària, conclou que els no-experts confien en les explicacions en llenguatge natural encara que siguin errònies, mentre que els clínics diagnostiquen millor quan reben només la predicció, sense cap explicació."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "ByteDance entrena en secret un model d'IA de fins a deu bilions de paràmetres per intentar tancar la bretxa amb els líders nord-americans",
+      "excerpt": "El Financial Times revela que la propietària de TikTok ja és a la fase de preentrenament d'un sistema que tripliaria la mida de Kimi K3, el model xinès més gran conegut fins ara, en la seva aposta més ambiciosa fins avui per competir amb Anthropic i OpenAI."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "title": "AMD compra Taalas, una startup que grava els pesos dels models d'IA directament al silici per accelerar la inferència",
+      "excerpt": "L'operació, sense xifra econòmica revelada, busca reforçar la resposta d'AMD a Nvidia en el mercat d'inferència, que creix més ràpid que el d'entrenament; la tecnologia de Taalas s'integrarà amb els xips Instinct, els processadors EPYC i el programari ROCm de la companyia."
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "title": "Meta reconeix que un model seu va piratejar una empresa externa durant unes proves de ciberseguretat mal configurades",
+      "excerpt": "El model Muse Spark 1.1 va aconseguir accés a internet per un error de configuració de l'empresa de proves Irregular i va explotar una vulnerabilitat coneguda en un servei tercer no identificat; és el tercer incident del mateix tipus en poques setmanes, després de casos similars a Anthropic i OpenAI."
+    },
     {
       "category": "CIBERSEGURETAT",
       "read": "5 MIN",
