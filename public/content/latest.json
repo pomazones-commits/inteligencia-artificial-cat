@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-07T16:33:03.912Z",
+  "updatedAt": "2026-08-08T04:26:13.660Z",
   "items": [
     {
-      "category": "RECERCA",
+      "category": "CIBERSEGURETAT",
       "read": "5 MIN",
-      "title": "Jeff Dean deixa Google després de 27 anys per fundar Discovery Loop, una startup que vol automatitzar la recerca científica amb IA",
-      "excerpt": "ACTUALITZACIÓ: l'endemà que es fes públic que el veterà d'Alphabet marxava de la companyia, TechCrunch revela que ho fa amb tres altres investigadors de primer nivell per muntar una empresa de benefici públic centrada a fer córrer milers d'experiments científics en paral·lel."
+      "title": "OpenAI alerta que el seu proper model Astra podria haver arribat al nivell més alt de risc de ciberseguretat",
+      "excerpt": "L'empresa ha frenat part del desenvolupament intern d'Astra després de detectar que el model és capaç d'identificar i explotar vulnerabilitats de manera autònoma en sistemes reals ben protegits, el primer cop que OpenAI activa el llindar «crític» del seu propi marc de seguretat."
     },
     {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Cloudflare llança Kitesurf, un navegador construït des de zero perquè els agents d'IA naveguin per la web sense Chromium",
-      "excerpt": "El nou motor, escrit en Rust i executat íntegrament als Workers de Cloudflare, consumeix fins a set vegades menys memòria que Chromium per a tasques agèntiques com fer captures de pantalla o extreure contingut d'una pàgina."
+      "category": "CIÈNCIA",
+      "read": "6 MIN",
+      "title": "La intel·ligència artificial ja ha resolt centenars dels problemes matemàtics que Paul Erdős va deixar oberts fa dècades",
+      "excerpt": "El matemàtic hongarès va deixar més d'un miler de conjectures escampades pels seus articles, algunes amb premis en efectiu per a qui les resolgués; el catàleg que les recull ja compta 565 problemes resolts, molts en els últims mesos gràcies a OpenAI, Google DeepMind i usuaris anònims amb models comercials."
     },
     {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Google Maps ja pot demanar menjar a domicili i reservar hotels sol, en la nova onada d'agents d'IA de Google",
-      "excerpt": "L'assistent conversacional «Ask Maps» incorpora funcions agèntiques que completen tasques de diversos passos —trobar restaurant, fer la comanda, reservar habitació— i, si l'usuari ho autoritza, es poden personalitzar amb dades de Gmail i Calendar."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Airbnb diu que la IA li ha escurçat un 60% el temps de treure noves funcions i ja prova una cerca conversacional",
-      "excerpt": "El conseller delegat Brian Chesky ha explicat en la presentació de resultats trimestrals que la companyia ha augmentat un 80% el nombre de funcions publicades respecte a l'any passat, i comença a provar un cercador que respon com un xat."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "El banc holandès ABN Amro s'alia amb la francesa Mistral per reduir la dependència tecnològica dels Estats Units",
-      "excerpt": "L'acord, el primer de Mistral amb una gran entitat financera dels Països Baixos, se suma als que la companyia francesa ja té amb BNP Paribas i HSBC, en un moviment que tant el banc com el laboratori d'IA presenten com una aposta per la «sobirania digital» europea."
-    },
-    {
-      "category": "XIPS",
+      "category": "SALUT",
       "read": "5 MIN",
-      "title": "Washington revisa com les empreses xineses d'IA lloguen xips Nvidia a l'estranger per esquivar les sancions, després dels avenços de Moonshot i DeepSeek",
-      "excerpt": "La divisió del Govern dels Estats Units que investiga infraccions dels controls d'exportació examina ara amb més sistemàtica com els laboratoris xinesos accedeixen a processadors Blackwell llogant còmput en centres de dades d'altres països, després que Kimi K3 s'hagués entrenat així."
+      "title": "Un grup d'universitats i grans tecnològiques proposa un test per saber si la IA mèdica ja supera els metges especialistes",
+      "excerpt": "L'equip, liderat per Ethan Goh, de Stanford, planteja el marc MAST després de constatar que els mateixos models que aproven amb un 92% els exàmens de llicència mèdica només encerten el 44,8% de les tasques clíniques reals del banc de proves BRIDGE."
     },
     {
       "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "SK hynix aprova 38.000 milions de dòlars per aixecar dues noves fàbriques de memòria a Corea del Sud davant la fam de xips per a IA",
-      "excerpt": "El segon fabricant mundial de memòria construirà una nova planta de DRAM a Yongin i una de NAND a Cheongju, i accelera fins al 2033 el calendari de tot el seu complex de Yongin per fer front a l'escassetat mundial de xips que alimenten els centres de dades d'intel·ligència artificial."
-    },
-    {
-      "category": "JUSTÍCIA",
       "read": "5 MIN",
-      "title": "Un jutge de Nou Mèxic declara Meta «amenaça pública» i li ordena pagar 567 milions de dòlars pels danys dels seus algorismes a la salut mental dels menors",
-      "excerpt": "La sentència, que se suma als 375 milions ja imposats el març, eleva a gairebé 1.000 milions de dòlars el total que Meta haurà de pagar en aquest cas, i obliga la companyia a limitar notificacions i comptadors de «m'agrada» per als usuaris menors d'edat."
+      "title": "Tesla i SpaceX s'alien per construir a Texas «Terafab», una fàbrica de xips d'IA de 16.800 milions de dòlars",
+      "excerpt": "Les dues empreses d'Elon Musk aixecaran a Grimes County una planta de més de 100 milions de peus quadrats per fabricar els xips que necessiten els robots Optimus, els robotaxis Cybercab i els centres de dades espacials de SpaceX, amb una demanda combinada que superaria el terawatt de còmput."
     },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
-      "title": "Naïve capta 28,5 milions de dòlars per construir la infraestructura que permet a agents d'IA crear i gestionar empreses senceres",
-      "excerpt": "La startup, fundada per dos joves de Berkeley, ofereix una única API que encadena la constitució d'una societat, comptes bancaris, correu, telefonia i còmput perquè agents d'intel·ligència artificial puguin muntar i operar un negoci de principi a fi."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Ditto substitueix el «swipe» per un aparellament fet amb IA i ja ha organitzat 12.000 cites entre estudiants universitaris nord-americans",
-      "excerpt": "La companyia, fundada per dos exalumnes de Berkeley, envia cada dimecres una parella i un lloc per quedar a través d'un xatbot d'IA que analitza el que diuen els gustos i aficions de cada usuari sobre qui és, no una llista d'interessos per creuar."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "OpenAI elimina els límits de xat per als usuaris gratuïts de ChatGPT i hi estrena GPT-5.6 Luna per defecte",
-      "excerpt": "La companyia retira les restriccions de missatges de text del pla gratuït i hi introdueix un nou model amb menys errors factuals, en la mateixa setmana que reforça les versions de pagament amb GPT-5.6 Sol."
-    },
-    {
-      "category": "MAQUINARI",
-      "read": "4 MIN",
-      "title": "OpenAI prepara un altaveu domèstic en forma de rosquilla que costarà entre 300 i 400 dòlars, dissenyat amb l'estudi de Jony Ive",
-      "excerpt": "Bloomberg revela els primers detalls concrets del futur dispositiu de maquinari d'OpenAI: un altaveu sense pantalla, de metall, amb peces mòbils i pensat per moure's per la casa, amb sortida prevista per al 2027."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Mirendil, fundada per extècnics d'Anthropic, signa un acord de més de 100 milions de dòlars amb Google Cloud per entrenar una IA que es perfecciona a si mateixa",
-      "excerpt": "L'startup de Behnam Neyshabur i Harsh Mehta, valorada en 1.000 milions de dòlars des del juny, es garanteix accés a TPU de Google i GPU de Nvidia per investigar sistemes d'IA capaços de millorar-se de manera autònoma."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Shopify confirma que la cerca amb IA li dispara trànsit i vendes sense fer minvar la cerca tradicional",
-      "excerpt": "Les dades del segon trimestre de la plataforma de comerç electrònic mostren que el trànsit i les comandes originades per agents d'IA s'han triplicat en un any, mentre la cerca convencional continua creixent i manté un terç de les visites."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "La catalana Slimstock preveu créixer un 33% el 2026 gràcies a la IA que ajusta preus i previsions per a Mango, Renfe o Costa Coffee",
-      "excerpt": "Amb seu ibèrica a Viladecans, la filial local de la neerlandesa Slimstock passarà dels 7,5 als 10 milions d'euros de facturació enguany gràcies a la seva plataforma Slim4, que fa servir IA per detectar anomalies de vendes i optimitzar promocions."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Uber es juga 10.000 milions de dòlars en robotaxis mentre el seu soci Wayve aconsegueix la primera llicència de vehicle autònom del Regne Unit",
-      "excerpt": "Dara Khosrowshahi anuncia una inversió de fins a 10.000 milions de dòlars en flota pròpia i participacions en operadors com Zoox, Rivian i Lucid, mentre Wayve prepara les primeres proves amb passatgers a Londres."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Alphabet surt al mercat de deute per captar fins a 25.000 milions de dòlars i finançar la seva despesa en IA, després del seu primer flux de caixa negatiu",
-      "excerpt": "La matriu de Google llança una de les majors emissions de bons lligades a IA de l'any, amb una demanda de 115.000 milions de dòlars, mentre les grans tecnològiques ja acumulen 194.000 milions en deute per la cursa de la intel·ligència artificial."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "DeepSeek reprèn la ronda de 8.000 milions de dòlars i dispara la seva valoració a 74.000 milions després de l'èxit de V4-Flash",
-      "excerpt": "La companyia xinesa reactiva el procés de captació de capital que havia congelat arran de la polèmica pels comentaris del seu fundador sobre la dependència de xips de Nvidia, amb el fons Monolith Management com a possible inversor."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Els Emirats Àrabs Units estudien invertir 6.300 milions de dòlars en el que seria el centre de dades d'IA més gran del Japó",
-      "excerpt": "El fons sobirà Mubadala, a través del vehicle MGX, negocia finançar un complex de 500 megawatts a la prefectura d'Akita, en l'aposta dels Emirats per assegurar-se infraestructura de còmput en països geopolíticament estables."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: OpenAI demana a un jutge que arxivi la demanda d'Apple per robatori de secrets industrials",
-      "excerpt": "En una moció de 31 pàgines, OpenAI qualifica la demanda d'Apple d'«infundada i pretextual» i l'acusa de voler compensar les seves pròpies mancances en la guerra pel talent, mentre Apple reclama alhora una mesura cautelar i accés accelerat a proves."
+      "title": "L'australiana Firmus capta 2.000 milions de dòlars de Nvidia i Blackstone per doblar les seves fàbriques d'IA a l'Àsia-Pacífic",
+      "excerpt": "L'antiga mineradora de bitcoin, convertida en operadora de centres de dades per a IA, gairebé dobla la seva valoració fins als 10.500 milions de dòlars en només quatre mesos i prepara l'expansió del seu projecte a Austràlia cap a Indonèsia."
     }
   ]
 }
