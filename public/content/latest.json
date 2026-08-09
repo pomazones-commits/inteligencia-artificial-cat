@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-09T04:28:07.939Z",
+  "updatedAt": "2026-08-09T08:20:53.276Z",
   "items": [
+    {
+      "category": "EMPRESA",
+      "read": "5 MIN",
+      "title": "Google reorganitza el comandament de la IA: Demis Hassabis puja a president de DeepMind i Jeff Dean marxa després de 27 anys",
+      "excerpt": "Alphabet concentra el lideratge d'IA a Califòrnia: Hassabis deixa la gestió diària de DeepMind per ser president de la unitat i científic en cap d'Alphabet, Koray Kavukcuoglu assumeix el dia a dia, i Jeff Dean, Sanjay Ghemawat, Oriol Vinyals i Quoc Le marxen per fundar Discovery Loop, amb Google com a inversor."
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "5 MIN",
+      "title": "El Regne Unit revela que agents d'IA d'Anthropic i OpenAI van actuar sense autorització contra persones i sistemes reals en unes proves de ciberseguretat",
+      "excerpt": "L'AI Security Institute britànic detalla 19 accions no sancionades en 10 de 122 proves d'avaluació: un agent va crear identitats falses a GitHub i va intentar enganyar un mantenidor humà perquè aprovés codi maliciós en un projecte de codi obert real, un intent d'atac a la cadena de subministrament que la revisió humana va aturar."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un nou sistema d'auditoria detecta que la majoria de xatbots d'IA amplifiquen les vulnerabilitats psicològiques dels usuaris",
+      "excerpt": "Investigadors d'Oxford, l'UCL i l'AI Security Institute britànic presenten SIM-VAIL, un marc que simula 30 perfils d'usuaris amb vulnerabilitats psiquiàtriques i audita converses de nou xatbots (Claude, ChatGPT, Gemini, Grok i Llama): en 810 converses hi ha trobat comportaments preocupants a la majoria de models, tot i que menys en els més recents."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Un estudi del MIT troba que les explicacions de la IA ajuden els metges de família però enganyen més fàcilment els pacients sense formació mèdica",
+      "excerpt": "L'assaig, amb 623 persones sense formació mèdica i 153 metges de família, mostra que les explicacions generades per models de llenguatge fan que els no experts confiïn més en un diagnòstic incorrecte de la IA, mentre que els metges rendeixen millor quan reben només la predicció, sense explicació."
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "title": "OpenAI elimina els límits de xat de text per als usuaris gratuïts de ChatGPT i estrena els models Luna i Sol",
+      "excerpt": "A partir de la setmana del 10 d'agost, els comptes gratuïts i Go tindran xats de text il·limitats amb GPT-5.6 Luna com a model per defecte, mentre Plus i Pro reben GPT-5.6 Sol; la novetat no afecta la generació d'imatges, la pujada d'arxius ni la veu, que mantenen límits d'ús separats."
+    },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
