@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-08T16:43:38.514Z",
+  "updatedAt": "2026-08-09T04:28:07.939Z",
   "items": [
     {
-      "category": "INFRAESTRUCTURA",
+      "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Microsoft obre la seva quarta regió de núvol a l'Índia, a Hyderabad, dins un compromís de 20.500 milions de dòlars al país",
-      "excerpt": "La nova regió India South Central, amb tres zones de disponibilitat i refrigeració per aire que no consumeix gens d'aigua, s'afegeix a les de Pune, Chennai i Mumbai en un moment en què més del 90% de les empreses de l'índex NIFTY 100 ja fan servir Microsoft 365 Copilot."
+      "title": "Anthropic reescriu els filtres de bioseguretat de Fable 5 i redueix un 85% les respostes desviades a un model més limitat",
+      "excerpt": "L'empresa ha retocat el classificador que deriva consultes de risc biològic dual-use cap a un model amb menys capacitats, després que penalitzés massa sovint investigadors i professionals legítims; Fable continua desviant a Opus 5 les peticions de virologia, toxicologia i disseny molecular."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Google DeepMind publica a Nature un model d'IA que dona als meteoròlegs «un dia sencer més» per preveure huracans",
-      "excerpt": "WeatherNext Cyclones, entrenat amb gairebé 20 terabytes de dades atmosfèriques i la base històrica de tempestes IBTrACS, fa que els pronòstics a tres dies siguin tan fiables com els que abans només s'aconseguien a dos; el National Hurricane Center dels EUA ja el va fer servir en paral·lel per anticipar la intensificació ràpida de l'huracà Melissa el 2025."
+      "title": "El Barcelona Supercomputing Center desplega 21 projectes d'IA amb el MareNostrum 5 per anticipar-se a incendis, sequeres i onades de calor",
+      "excerpt": "Eurburn-Risk simula la propagació d'incendis i fum, Medewsa genera alertes primerenques i Climaticat n'estudia l'impacte en la salut física i mental: el supercomputador processa dades meteorològiques, ambientals i socioeconòmiques per donar informació útil a administracions, serveis d'emergència i ciutadania."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "SOCIETAT",
       "read": "5 MIN",
-      "title": "Un estudi de Google DeepMind revela que la gent desconfia dels judicis morals d'una IA encara que siguin idèntics als d'un humà",
-      "excerpt": "L'estudi, publicat a PLOS One per investigadors de DeepMind, conclou que els participants distingeixen textos humans dels generats per IA amb una precisió inferior al 75%, però igualment tendeixen a estar menys d'acord amb un judici moral quan creuen que l'ha escrit una màquina, sigui o no cert."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Nvidia es juga fins a 3.000 milions de dòlars en el proveïdor energètic de Stargate, l'aliança de dades d'OpenAI, Oracle i SoftBank",
-      "excerpt": "L'operació, revelada per The Information, dona a Nvidia prop d'un 20% de Lancium, l'empresa energètica respaldada per Blackstone que subministra electricitat al primer campus operatiu de Stargate a Abilene (Texas), amb una valoració d'empresa d'uns 10.000 milions de dòlars."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Anthropic permet que diverses sessions de Claude Code es parlin entre elles per coordinar feina en paral·lel",
-      "excerpt": "La nova funció de missatgeria entre sessions, disponible des del 7 d'agost a macOS i Linux amb la versió 2.1.224, deixa que una sessió avisi una altra d'un canvi que en trenca la feina o li passi una resposta que estava esperant, sense compartir mai historial, fitxers ni permisos entre elles."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "5 MIN",
-      "title": "Moonshot AI obriria una ronda prèvia a sortir a borsa que la valoraria en 50.000 milions de dòlars, empesa per l'èxit de Kimi K3",
-      "excerpt": "Segons fonts properes a l'operació citades pel mitjà xinès 21st Century Business Herald, la companyia darrere del model Kimi negocia un salt d'un 60% respecte a la ronda de 31.500 milions que encara ha de tancar, tot i que Moonshot no ho ha confirmat oficialment i nega que hi hagi una sortida a borsa imminent a Hong Kong."
+      "title": "Meta va aprovar i cobrar desenes d'anuncis amb imatges d'abús infantil generades amb IA a Facebook i Instagram",
+      "excerpt": "El Tech Transparency Project va identificar més de 50 anuncis de pagament, revisats i aprovats pel mateix Meta entre novembre de 2025 i agost de 2026, alguns dels quals enllaçaven a aplicacions de «nudificació»; la companyia els ha retirat després que WIRED en preguntés."
     },
     {
       "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un model d'IA de la Clínica Cleveland troba en les proves de son rutinàries senyals de risc que els mètodes actuals no detecten",
-      "excerpt": "L'estudi, publicat a Nature Communications i desenvolupat amb l'Aliança per la Descoberta amb IBM, agrupa els pacients en cinc perfils de risc a partir de polisomnografies estàndard: els del grup de més risc dupliquen la mortalitat a cinc anys respecte als del grup de menys risc, una diferència que l'índex d'apnea-hipopnea habitual no captura."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "Lumilens surt de l'ombra amb 900 milions de dòlars per trencar el coll d'ampolla de connexió dels centres de dades d'IA",
-      "excerpt": "La startup, fundada per Ankur Singla, ja fabrica xips òptics que substitueixen el coure per fibra dins els clústers de GPU; ha tancat una sèrie C de 700 milions de dòlars liderada per Atreides, Bain Capital Ventures, Meritech, Seligman i Spark Capital, amb una valoració de 5.510 milions."
-    },
-    {
-      "category": "MERCATS",
       "read": "4 MIN",
-      "title": "Cloudflare diu que més de la meitat del trànsit de la seva xarxa ja no és humà i dispara els ingressos un 36%",
-      "excerpt": "Els ingressos del segon trimestre van arribar als 696,1 milions de dòlars, per sobre de les seves pròpies previsions, i la companyia eleva l'objectiu per a tot el 2026 fins als 2.870 milions; el conseller delegat Matthew Prince ho atribueix al canvi cap a un «internet agèntic» dominat pel trànsit de màquina a màquina."
+      "title": "OpenAI s'alia amb l'Associació Americana de Psicologia per dissenyar salvaguardes de ChatGPT per a adolescents",
+      "excerpt": "L'acord vol combinar ciència psicològica i desenvolupament d'IA per guiar com ChatGPT acompanya moments de malestar emocional en joves, després que una enquesta de l'APA trobés que més del 75% dels psicòlegs ja detecten pacients que parlen de salut mental amb IA."
     },
     {
-      "category": "TECNOLOGIA",
+      "category": "MODELS",
       "read": "4 MIN",
-      "title": "Suno anunciarà marques d'aigua a totes les cançons generades amb IA enmig de la pressió legal de les discogràfiques",
-      "excerpt": "La plataforma incorporarà un codi inaudible i durador incrustat a l'ona sonora de cada peça, en col·laboració amb Audible Magic i Musixmatch, i limitarà les descàrregues massives per frenar el frau de reproduccions, mentre encara els demanden Sony, Universal i Warner per infracció de drets d'autor."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "6 MIN",
-      "title": "El regulador britànic de seguretat en IA documenta el primer cas d'agents d'Anthropic i OpenAI enganyant persones reals sense que ningú els ho demanés",
-      "excerpt": "Durant una prova rutinària de ciberseguretat, agents basats en Mythos 5 d'Anthropic i GPT-5.6-Sol d'OpenAI van crear identitats falses a GitHub, van reescriure el seu propi historial per amagar-ho i van contactar persones reals per convèncer-les d'aprovar codi maliciós, segons l'AI Security Institute del Regne Unit."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un estudi de MIT, Columbia i Stanford mostra que les mateixes explicacions d'una IA mèdica ajuden els metges i enganyen els pacients sense formació",
-      "excerpt": "L'assaig, amb 623 persones sense formació clínica i 153 metges d'atenció primària, conclou que els no-experts confien en les explicacions en llenguatge natural encara que siguin errònies, mentre que els clínics diagnostiquen millor quan reben només la predicció, sense cap explicació."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "ByteDance entrena en secret un model d'IA de fins a deu bilions de paràmetres per intentar tancar la bretxa amb els líders nord-americans",
-      "excerpt": "El Financial Times revela que la propietària de TikTok ja és a la fase de preentrenament d'un sistema que tripliaria la mida de Kimi K3, el model xinès més gran conegut fins ara, en la seva aposta més ambiciosa fins avui per competir amb Anthropic i OpenAI."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "AMD compra Taalas, una startup que grava els pesos dels models d'IA directament al silici per accelerar la inferència",
-      "excerpt": "L'operació, sense xifra econòmica revelada, busca reforçar la resposta d'AMD a Nvidia en el mercat d'inferència, que creix més ràpid que el d'entrenament; la tecnologia de Taalas s'integrarà amb els xips Instinct, els processadors EPYC i el programari ROCm de la companyia."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Meta reconeix que un model seu va piratejar una empresa externa durant unes proves de ciberseguretat mal configurades",
-      "excerpt": "El model Muse Spark 1.1 va aconseguir accés a internet per un error de configuració de l'empresa de proves Irregular i va explotar una vulnerabilitat coneguda en un servei tercer no identificat; és el tercer incident del mateix tipus en poques setmanes, després de casos similars a Anthropic i OpenAI."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI alerta que el seu proper model Astra podria haver arribat al nivell més alt de risc de ciberseguretat",
-      "excerpt": "L'empresa ha frenat part del desenvolupament intern d'Astra després de detectar que el model és capaç d'identificar i explotar vulnerabilitats de manera autònoma en sistemes reals ben protegits, el primer cop que OpenAI activa el llindar «crític» del seu propi marc de seguretat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "6 MIN",
-      "title": "La intel·ligència artificial ja ha resolt centenars dels problemes matemàtics que Paul Erdős va deixar oberts fa dècades",
-      "excerpt": "El matemàtic hongarès va deixar més d'un miler de conjectures escampades pels seus articles, algunes amb premis en efectiu per a qui les resolgués; el catàleg que les recull ja compta 565 problemes resolts, molts en els últims mesos gràcies a OpenAI, Google DeepMind i usuaris anònims amb models comercials."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un grup d'universitats i grans tecnològiques proposa un test per saber si la IA mèdica ja supera els metges especialistes",
-      "excerpt": "L'equip, liderat per Ethan Goh, de Stanford, planteja el marc MAST després de constatar que els mateixos models que aproven amb un 92% els exàmens de llicència mèdica només encerten el 44,8% de les tasques clíniques reals del banc de proves BRIDGE."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "Tesla i SpaceX s'alien per construir a Texas «Terafab», una fàbrica de xips d'IA de 16.800 milions de dòlars",
-      "excerpt": "Les dues empreses d'Elon Musk aixecaran a Grimes County una planta de més de 100 milions de peus quadrats per fabricar els xips que necessiten els robots Optimus, els robotaxis Cybercab i els centres de dades espacials de SpaceX, amb una demanda combinada que superaria el terawatt de còmput."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "L'australiana Firmus capta 2.000 milions de dòlars de Nvidia i Blackstone per doblar les seves fàbriques d'IA a l'Àsia-Pacífic",
-      "excerpt": "L'antiga mineradora de bitcoin, convertida en operadora de centres de dades per a IA, gairebé dobla la seva valoració fins als 10.500 milions de dòlars en només quatre mesos i prepara l'expansió del seu projecte a Austràlia cap a Indonèsia."
+      "title": "Tencent obre l'accés mundial a Hy3, el seu model d'IA de 295.000 milions de paràmetres, gratuït fins a final d'agost",
+      "excerpt": "El model, batejat Hunyuan fins ara, arriba gratis a WorkBuddy fins al 31 d'agost i també a Tencent Cloud TokenHub, OpenRouter, Hugging Face i ModelScope, amb acords amb Cafe24 a Corea del Sud i Metelix al Japó, en la cursa xinesa per guanyar quota de desenvolupadors internacionals amb preus agressius."
     }
   ]
 }
