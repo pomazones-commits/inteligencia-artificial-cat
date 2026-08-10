@@ -1,0 +1,99 @@
+name: Neteja d'àudio (MP3 de més de 90 dies)
+
+# Per què (10.08.2026): l'àudio és el que fa créixer el disc del web. El primer
+# mes va ocupar 2,25 GB amb ~25 MP3 nous al dia (~2 GB/mes). Ningú no escolta la
+# notícia de fa tres mesos, així que es retiren les de més de 90 dies.
+#
+# ⚠️ El script NO esborra mai els MP3 de les peces publicades ara mateix, encara
+# que siguin vells: «La tribuna» i «Estudis» poden estar mesos a portada i la
+# repesca horària d'audio-edicio.yml els tornaria a generar tot seguit. Sense
+# aquest pany, cada setmana els esborraríem i cada hora es regenerarien.
+#
+# Passada setmanal. Minut i hora deliberadament fora de puntes: GitHub deixa
+# caure moltes execucions programades d'aquest repositori («Coses a vigilar»
+# §10) i aquesta feina no té cap pressa — si una setmana no corre, la setmana
+# següent recull igualment tot el que hagi quedat enrere.
+
+on:
+  schedule:
+    - cron: '17 4 * * 1'   # dilluns a les 04:17 UTC
+  workflow_dispatch:
+    inputs:
+      dies:
+        description: "Edat mínima en dies (mínim 30)"
+        required: false
+        default: "90"
+      simulacio:
+        description: "Només dir què esborraria, sense tocar res"
+        type: boolean
+        required: false
+        default: true
+      forca:
+        description: "Saltar el fre de seguretat (>200 fitxers i >50% del total)"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: neteja-audio
+  cancel-in-progress: false
+
+jobs:
+  neteja:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      # Cal el repositori per saber quines peces estan publicades ara: el script
+      # llegeix public/data/articles.json i els fitxers window.IA_* per calcular
+      # la llista d'intocables. Amb ref: main perquè una passada programada que
+      # s'encui darrere d'un push no treballi sobre un arbre obsolet (mateixa
+      # raó que a content-hub.yml).
+      - name: Descarrega el repositori
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Prepara Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Educació amb el servidor: si hi ha un desplegament o una tanda d'àudio
+      # en marxa, val més esperar. No és crític, així que si no es pot consultar
+      # l'estat, endavant igualment.
+      - name: Espera que no hi hagi cap desplegament en curs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          api="https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/desplega.yml/runs?per_page=20"
+          compta='import json,sys; print(sum(1 for r in json.load(sys.stdin).get("workflow_runs", []) if r.get("status") != "completed"))'
+          for i in $(seq 1 10); do
+            actius=$(curl -sS --max-time 20 -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" "$api" | python3 -c "$compta" 2>/dev/null) || actius=""
+            if [ -z "$actius" ] || [ "$actius" -eq 0 ]; then
+              echo "Endavant."
+              exit 0
+            fi
+            echo "Hi ha $actius desplegament(s) en curs; esperem 30 s ($i de 10)..."
+            sleep 30
+          done
+          echo "::warning::Encara hi ha desplegaments en curs; continuem igualment."
+
+      - name: Retira els MP3 antics
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_PATH: ${{ secrets.SSH_PATH }}
+          DIES: ${{ github.event.inputs.dies || '90' }}
+          SIMULACIO: ${{ github.event.inputs.simulacio }}
+          FORCA: ${{ github.event.inputs.forca }}
+        run: |
+          extra=""
+          # La passada programada esborra de debò; la manual, per defecte, només simula.
+          if [ "$SIMULACIO" = "true" ]; then extra="$extra --simulacio"; fi
+          if [ "$FORCA" = "true" ]; then extra="$extra --forca"; fi
+          python automation/scripts/neteja_audio.py --dies "$DIES" $extra
