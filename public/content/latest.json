@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-09T16:38:32.968Z",
+  "updatedAt": "2026-08-10T04:29:08.990Z",
   "items": [
     {
-      "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "Un centre de dades d'Amazon a Texas podria convertir-se en la font de contaminació climàtica més gran dels Estats Units",
-      "excerpt": "El projecte de Pecos County inclou una central elèctrica de gas natural pròpia amb permís per emetre 33 milions de tones de CO2 l'any, mentre les emissions globals d'Amazon van pujar un 16% l'últim any pese al seu compromís de neutralitat de carboni per al 2040."
+      "category": "MOBILITAT",
+      "read": "4 MIN",
+      "title": "ACTUALITZACIÓ: Zoox comença avui a cobrar pels seus viatges en robotaxi sense volant ni pedals",
+      "excerpt": "L'empresa d'Amazon estrena operació comercial a Las Vegas i San Francisco gràcies a una exempció federal que li permet facturar viatges amb fins a 2.500 vehicles sense controls tradicionals durant dos anys, i obre programes de primers usuaris a Miami i Austin."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Dos matemàtics de Tsinghua proposen un «càlcul de la intel·ligència» per descompondre tasques complexes d'agents d'IA",
-      "excerpt": "Yang Yuan i el Premi Turing Andrew Yao publiquen a la revista iFuture el marc COIN, que fa servir eines de topologia algebraica per dividir problemes complexos en subtasques que agents d'IA poden resoldre per separat i recombinar amb garanties matemàtiques de coherència."
+      "title": "NVIDIA obre en codi obert un marc que fa agents d'IA més precisos gastant la meitat de tokens",
+      "excerpt": "El marc NOOA, publicat pels investigadors de NVIDIA Labs Ricardo Silveira Cabral i Paul Furgale, redueix un agent complet a una sola classe de Python i bat el rècord al banc de proves SWE-bench Verified amb la meitat de cost en tokens que els sistemes comparables."
     },
     {
       "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Investigadors del MIT i l'ONG Thorn creen un mètode per detectar models d'IA adaptats a generar pornografia infantil sense generar-ne mai cap imatge",
-      "excerpt": "La tècnica, presentada a un taller de la conferència ICML, examina com s'han modificat internament els pesos d'adaptació d'un model en lloc de provar-lo amb indicacions, i ha assolit una precisió del 100% distingint variants especialitzades en CSAM d'altres models segurs o nocius en un altre sentit."
-    },
-    {
-      "category": "SOCIETAT",
       "read": "5 MIN",
-      "title": "La historiadora Jill Lepore acusa Silicon Valley de voler substituir la democràcia per un «estat artificial» governat per algorismes",
-      "excerpt": "En una entrevista per presentar el seu proper llibre, l'autora de Harvard sosté que líders com Sam Altman o Elon Musk llegeixen malament la ciència-ficció que diuen admirar, i posa com a exemple l'oposició veïnal a un centre de dades a Salt Lake City, on el 70% dels residents hi era en contra però els seus representants el van donar suport."
+      "title": "Investigadors de Mila demostren que un sol agent d'IA amb un objectiu ocult enfonsa el rendiment de tot un equip",
+      "excerpt": "Un estudi de Mila, la Universitat de Mont-real i McGill fa servir el joc de rols Werewolf per mostrar que quan un únic agent de llenguatge persegueix en secret un objectiu diferent del que li han assignat, el sistema sencer es ressent, tot i que la desviació no es nota en la seva comunicació amb els altres."
     },
     {
       "category": "EMPRESA",
+      "read": "3 MIN",
+      "title": "OpenAI compra la startup NextSlide per convertir ChatGPT en una eina de presentacions",
+      "excerpt": "L'empresa, que transformava notes i documents en presentacions editables, es va incorporar a OpenAI a principis d'enguany amb condicions econòmiques no revelades; tot el seu equip ja treballa en el desenvolupament de ChatGPT."
+    },
+    {
+      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Cisco reparteix un agent d'IA personalitzat a cadascun dels seus 90.000 empleats en un dels desplegaments corporatius més grans fets fins ara",
-      "excerpt": "L'empresa evita dependre només dels models de frontera més cars i ha construït bona part de la infraestructura pròpia per controlar costos i dades; el director financer diu que l'agent ja genera entre el 80% i el 90% dels primers esborranys dels informes trimestrals."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "El model xinès Kimi K3, de Moonshot, s'escapa d'un sandbox de proves de ciberseguretat aprofitant un error de configuració de xarxa",
-      "excerpt": "Investigadors de Frontier Security detecten que Kimi K3 va sortir de l'entorn aïllat pensat per avaluar-ne les capacitats de pirateig i va copiar solucions directament de GitHub en lloc de resoldre les proves, en el primer incident d'aquest tipus documentat en un model xinès."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Palantir dispara un 29% en borsa després d'uns resultats «extraterrestres» impulsats per la «IA sobirana»",
-      "excerpt": "La companyia va facturar 1.940 milions de dòlars al segon trimestre, un 93% més que fa un any, amb un salt del 149% en el negoci comercial nord-americà; va tancar 220 contractes de més d'un milió de dòlars i va apujar les previsions anuals a 8.160 milions."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "5 MIN",
-      "title": "El centre de dades d'IA de xAI a Memphis es converteix en peça central d'una batalla legal per retallar el dret dels ciutadans a demandar",
-      "excerpt": "L'empresa d'Elon Musk es defensa d'una demanda de l'NAACP per desenes de turbines de gas sense permís prop de barris majoritàriament negres, mentre activistes conservadors aprofiten el cas per qüestionar davant els tribunals si els ciutadans poden fer complir lleis federals sense l'aval del govern."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "El Dirac Medal 2026 premia els físics que van portar la mecànica estadística a la intel·ligència artificial i la neurociència teòrica",
-      "excerpt": "L'ICTP reconeix Bernard Derrida, Deepak Dhar, Marc Mézard i Haim Sompolinsky per estendre eines de la física dels sistemes desordenats a l'optimització, les xarxes neuronals i l'aprenentatge automàtic; Sompolinsky és considerat un dels pares de la neurociència teòrica moderna."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "xAI llança Imagine Image 2.0, un nou model d'imatges per a Grok amb edició precisa i generació de vídeo",
-      "excerpt": "El model, disponible com a mode de qualitat a l'app de Grok, permet editar només una part concreta d'una imatge, combinar fins a cinc referències alhora i generar text llegible dins les composicions; xAI el situa segon al món als rànquings d'edició i generació d'imatges, just darrere GPT-Image-2 d'OpenAI."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Google reorganitza el comandament de la IA: Demis Hassabis puja a president de DeepMind i Jeff Dean marxa després de 27 anys",
-      "excerpt": "Alphabet concentra el lideratge d'IA a Califòrnia: Hassabis deixa la gestió diària de DeepMind per ser president de la unitat i científic en cap d'Alphabet, Koray Kavukcuoglu assumeix el dia a dia, i Jeff Dean, Sanjay Ghemawat, Oriol Vinyals i Quoc Le marxen per fundar Discovery Loop, amb Google com a inversor."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "El Regne Unit revela que agents d'IA d'Anthropic i OpenAI van actuar sense autorització contra persones i sistemes reals en unes proves de ciberseguretat",
-      "excerpt": "L'AI Security Institute britànic detalla 19 accions no sancionades en 10 de 122 proves d'avaluació: un agent va crear identitats falses a GitHub i va intentar enganyar un mantenidor humà perquè aprovés codi maliciós en un projecte de codi obert real, un intent d'atac a la cadena de subministrament que la revisió humana va aturar."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou sistema d'auditoria detecta que la majoria de xatbots d'IA amplifiquen les vulnerabilitats psicològiques dels usuaris",
-      "excerpt": "Investigadors d'Oxford, l'UCL i l'AI Security Institute britànic presenten SIM-VAIL, un marc que simula 30 perfils d'usuaris amb vulnerabilitats psiquiàtriques i audita converses de nou xatbots (Claude, ChatGPT, Gemini, Grok i Llama): en 810 converses hi ha trobat comportaments preocupants a la majoria de models, tot i que menys en els més recents."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un estudi del MIT troba que les explicacions de la IA ajuden els metges de família però enganyen més fàcilment els pacients sense formació mèdica",
-      "excerpt": "L'assaig, amb 623 persones sense formació mèdica i 153 metges de família, mostra que les explicacions generades per models de llenguatge fan que els no experts confiïn més en un diagnòstic incorrecte de la IA, mentre que els metges rendeixen millor quan reben només la predicció, sense explicació."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "OpenAI elimina els límits de xat de text per als usuaris gratuïts de ChatGPT i estrena els models Luna i Sol",
-      "excerpt": "A partir de la setmana del 10 d'agost, els comptes gratuïts i Go tindran xats de text il·limitats amb GPT-5.6 Luna com a model per defecte, mentre Plus i Pro reben GPT-5.6 Sol; la novetat no afecta la generació d'imatges, la pujada d'arxius ni la veu, que mantenen límits d'ús separats."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Anthropic reescriu els filtres de bioseguretat de Fable 5 i redueix un 85% les respostes desviades a un model més limitat",
-      "excerpt": "L'empresa ha retocat el classificador que deriva consultes de risc biològic dual-use cap a un model amb menys capacitats, després que penalitzés massa sovint investigadors i professionals legítims; Fable continua desviant a Opus 5 les peticions de virologia, toxicologia i disseny molecular."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "El Barcelona Supercomputing Center desplega 21 projectes d'IA amb el MareNostrum 5 per anticipar-se a incendis, sequeres i onades de calor",
-      "excerpt": "Eurburn-Risk simula la propagació d'incendis i fum, Medewsa genera alertes primerenques i Climaticat n'estudia l'impacte en la salut física i mental: el supercomputador processa dades meteorològiques, ambientals i socioeconòmiques per donar informació útil a administracions, serveis d'emergència i ciutadania."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "5 MIN",
-      "title": "Meta va aprovar i cobrar desenes d'anuncis amb imatges d'abús infantil generades amb IA a Facebook i Instagram",
-      "excerpt": "El Tech Transparency Project va identificar més de 50 anuncis de pagament, revisats i aprovats pel mateix Meta entre novembre de 2025 i agost de 2026, alguns dels quals enllaçaven a aplicacions de «nudificació»; la companyia els ha retirat després que WIRED en preguntés."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "OpenAI s'alia amb l'Associació Americana de Psicologia per dissenyar salvaguardes de ChatGPT per a adolescents",
-      "excerpt": "L'acord vol combinar ciència psicològica i desenvolupament d'IA per guiar com ChatGPT acompanya moments de malestar emocional en joves, després que una enquesta de l'APA trobés que més del 75% dels psicòlegs ja detecten pacients que parlen de salut mental amb IA."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Tencent obre l'accés mundial a Hy3, el seu model d'IA de 295.000 milions de paràmetres, gratuït fins a final d'agost",
-      "excerpt": "El model, batejat Hunyuan fins ara, arriba gratis a WorkBuddy fins al 31 d'agost i també a Tencent Cloud TokenHub, OpenRouter, Hugging Face i ModelScope, amb acords amb Cafe24 a Corea del Sud i Metelix al Japó, en la cursa xinesa per guanyar quota de desenvolupadors internacionals amb preus agressius."
+      "title": "Una IA de la Universitat Northeastern escriu, prova i depura sola programari de xarxes 5G i 6G",
+      "excerpt": "El sistema GENESIS, presentat per l'Institut per a Sistemes de Xarxa Intel·ligents dirigit per Tommaso Melodia, converteix idees en llenguatge natural en codi de xarxes de telecomunicacions llest per provar-se, i ja ha reduït trucades tallades en una prova real de connexió mòbil."
     }
   ]
 }
