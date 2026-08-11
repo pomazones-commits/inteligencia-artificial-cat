@@ -1,6 +1,71 @@
 {
-  "updatedAt": "2026-08-11T04:23:56.743Z",
+  "updatedAt": "2026-08-11T08:23:56.848Z",
   "items": [
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "slug": "openai-7000-milions-recompra-accions-empleats",
+      "title": "OpenAI completa una recompra de 7.000 milions de dòlars en accions d'empleats i manté la valoració als 852.000 milions",
+      "excerpt": "L'empresa ha finançat ella mateixa l'operació, sense recórrer a inversors externs com Thrive Capital o SoftBank com havia fet altres vegades, mentre es prepara en paral·lel per a una possible sortida a borsa.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+      "sourceDate": "10 d'agost de 2026",
+      "body": "OpenAI es troba en un procés de creixement accelerat que l'ha portat a una valoració de 852.000 milions de dòlars després de la ronda de març del 2026, que va aportar 122.000 milions al seu balanç, i al juny va presentar una sol·licitud confidencial a la Comissió de Valors dels Estats Units (SEC) per preparar una possible sortida a borsa més endavant.\n\nSegons va informar Bloomberg i va confirmar després TechCrunch el 10 d'agost, l'empresa ha completat una oferta d'adquisició (tender offer) per valor de 7.000 milions de dòlars que ha permès a empleats actuals i antics vendre accions pròpies. A diferència d'ofertes anteriors, en què OpenAI havia recorregut a inversors externs com Thrive Capital o SoftBank per comprar les accions dels treballadors, aquesta vegada ha estat la mateixa companyia qui ha finançat la recompra, i la valoració s'ha mantingut exactament als 852.000 milions de la ronda de març.\n\nL'operació dona liquiditat als empleats sense necessitat de sortir immediatament a borsa, cosa que alguns analistes interpreten com un senyal que la IPO es podria endarrerir mentre l'empresa consolida la seva nova estratègia orientada a l'empresa. El conseller delegat, Sam Altman, ha reconegut recentment que el 2026 no ha estat \"els millors dotze mesos\" de la companyia, en un moment de competència creixent amb Anthropic, que hauria esdevingut rendible abans que OpenAI.\n\nEncara no hi ha data confirmada per a cap sortida a borsa ni detalls oficials complets de l'operació per part d'OpenAI; la informació prové de fonts consultades per Bloomberg i TechCrunch, i la companyia no n'ha fet un anunci públic detallat.",
+      "image": "./assets/openai-7000-milions-recompra-accions-empleats-20260811.jpg",
+      "editionDate": "2026-08-11"
+    },
+    {
+      "category": "RECERCA",
+      "read": "5 MIN",
+      "slug": "openai-astra-matematiques-controversia-plagi",
+      "title": "Matemàtics acusen els resultats matemàtics d'Astra, d'OpenAI, de reutilitzar treballs previs sense citar-los",
+      "excerpt": "Steven Miller, de la Universitat Yeshiva, diu que la prova sobre l'empaquetament d'esferes reprodueix un argument seu del 2016 sense atribució i hi veu \"mala conducta científica\"; un altre matemàtic de Cambridge hi troba idees no citades de papers del 2016 i el 2019.",
+      "sourceName": "Scientific American",
+      "sourceUrl": "https://www.scientificamerican.com/article/openais-latest-math-breakthroughs-commit-research-misconduct-experts-say/",
+      "sourceDate": "6 d'agost de 2026",
+      "body": "OpenAI havia presentat el seu sistema Astra com a capaç de resoldre deu problemes matemàtics que portaven dècades oberts, amb un cost de només 2.000 dòlars en còmput, dins d'una campanya per demostrar les capacitats de raonament matemàtic dels seus models més avançats.\n\nEn un article publicat a Scientific American el 6 d'agost i actualitzat els dies posteriors, el periodista Joseph Howlett recull les objeccions de diversos matemàtics acadèmics. Steven Miller, de la Universitat Yeshiva, afirma que la prova d'Astra sobre l'empaquetament d'esferes en més de mil dimensions reprodueix l'argument central del seu propi article del 2016 sense citar-lo, i ho descriu com quelcom \"completament sistemàtic\" que \"apunta a mala conducta científica\". Francesco Fournier-Facio, de la Universitat de Cambridge, i Andreas Thom, de la Universitat Tècnica de Dresden, sostenen per la seva banda que el resultat sobre grups sòfics combina idees ja publicades en articles del 2016 i el 2019 sense una atribució adequada, encara que ho descriuen més aviat com una presentació inflada que com un frau deliberat. OpenAI ha respost que assumeix la responsabilitat de la correcció dels resultats i que hi farà \"petites actualitzacions\" aquesta setmana, \"d'acord amb la pràctica acadèmica habitual\".\n\nEl cas posa en qüestió la manera com les grans tecnològiques comuniquen els resultats científics obtinguts amb IA: OpenAI va justificar la publicació invocant la Declaració de Leiden sobre difusió responsable de resultats, però després els va fer públics al seu propi blog en lloc de sotmetre'ls a una revista científica amb revisió per parells, en contradicció amb l'esperit d'aquesta mateixa declaració.\n\nEls resultats matemàtics d'Astra encara no han passat cap revisió formal per parells i no hi ha un veredicte compartit sobre la gravetat del que va passar: mentre Miller hi veu mala conducta deliberada, Fournier-Facio i Thom ho atribueixen més aviat a un excés de màrqueting (\"hi ha la gran màquina de relacions públiques que vol sonar tan impressionant com sigui possible\").",
+      "image": "./assets/openai-astra-matematiques-controversia-plagi-20260811.jpg",
+      "editionDate": "2026-08-11"
+    },
+    {
+      "category": "XIPS",
+      "read": "4 MIN",
+      "slug": "microsoft-maia-300-xip-ia-setembre",
+      "title": "Microsoft prepara el llançament del seu xip Maia 300 el setembre per reduir la dependència de Nvidia",
+      "excerpt": "La companyia negocia amb TSMC una capacitat de fabricació de més de 300.000 unitats per al 2027, amb l'objectiu de superar el milió a llarg termini, i intenta convèncer grans clients del núvol -inclosa Anthropic- perquè l'adoptin.",
+      "sourceName": "Yahoo Tech (The Information)",
+      "sourceUrl": "https://tech.yahoo.com/ai/copilot/articles/microsoft-plans-unveil-maia-300-130901466.html",
+      "sourceDate": "10 d'agost de 2026",
+      "body": "Microsoft ha anat per darrere d'Alphabet i Amazon en el desenvolupament de xips d'IA propis per reduir la dependència dels processadors, cars i escassos, de Nvidia; la companyia va presentar el seu Maia 200, de segona generació, el gener del 2026, fabricat amb el procés de 3 nanòmetres de TSMC i amb una gran quantitat de memòria SRAM d'alta velocitat.\n\nSegons va avançar The Information i va recollir Yahoo Tech el 10 d'agost, Microsoft preveu presentar aquesta tardor, potencialment al setembre, la seva nova generació de xip, el Maia 300. La companyia negocia amb el fabricant taiwanès TSMC una capacitat de producció de més de 300.000 unitats per al 2027, amb l'objectiu a llarg termini de superar el milió d'unitats, tot i que les xifres finals encara depenen de la disponibilitat de components. Andrew Wall, director general d'Azure Maia, ha declarat que \"Microsoft continua invertint en silici a mida com a part de la nostra estratègia d'infraestructura d'IA a llarg termini\".\n\nEl moviment s'emmarca en l'intent de Microsoft de convèncer grans clients del núvol -inclosa Anthropic- perquè facin servir el Maia en lloc dels xips de Nvidia, en un moment en què Google ja reconeix ingressos propis de les seves unitats de processament tensorial (TPU) i Amazon veu créixer l'adopció dels seus xips Trainium, cosa que intensifica la pressió sobre Microsoft per consolidar el seu propi maquinari.\n\nNi les xifres de capacitat de fabricació ni la data exacta de presentació són encara definitives, ja que depenen de negociacions en curs amb TSMC; Microsoft no n'ha fet cap anunci oficial complet i els detalls provenen de fonts consultades per The Information.",
+      "image": "./assets/microsoft-maia-300-xip-ia-setembre-20260811.jpg",
+      "editionDate": "2026-08-11"
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "slug": "she-marc-seguretat-evolutiu-agents-ia",
+      "title": "Un marc de seguretat que aprèn dels seus propis errors redueix tres vegades els atacs reeixits contra agents d'IA",
+      "excerpt": "Investigadors presenten SHE, un sistema que diagnostica per què falla la seguretat d'un agent d'IA i en corregeix automàticament la peça responsable, amb millores que es mantenen davant de riscos nous i es transfereixen a altres models.",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2608.09885",
+      "sourceDate": "10 d'agost de 2026",
+      "body": "Els agents d'IA que operen amb eines i memòria pròpies -com els que ja fan servir moltes empreses per automatitzar tasques- necessiten mecanismes de seguretat, però aquests solen quedar fixats en el moment del desplegament i no aprenen dels errors que cometen un cop en funcionament, cosa que els deixa vulnerables a maneres de fallar que ningú havia previst.\n\nEn un article penjat a arXiv el 10 d'agost, un equip encapçalat per Wanying Qu i Dongrui Liu presenta SHE (Safety Harness Evolution), un marc que descompon la infraestructura de seguretat d'un agent en quatre peces diferenciades -les instruccions de sistema, un banc de regles, una memòria de seguretat i una política d'eines-, cadascuna amb una responsabilitat concreta. Quan l'agent falla, el sistema diagnostica automàticament què ha anat malament i corregeix només la peça responsable, en lloc de reescriure tot el sistema de seguretat. En les proves dels autors, SHE redueix 3,1 vegades la taxa d'èxit dels atacs (ASR) respecte a un sistema de seguretat estàtic de referència, i les millores es mantenen davant de riscos que el sistema no havia vist abans i es transfereixen a altres models sense necessitat de tornar-lo a entrenar.\n\nEl treball aborda un problema pràctic per a qualsevol empresa que ja faci servir agents d'IA en producció: la lentitud amb què els sistemes de seguretat s'adapten a formes noves de fallar, en un context en què casos com el de les vulnerabilitats de Chrome trobades per OpenAI aquesta mateixa setmana mostren fins a quin punt la ciberseguretat dels agents s'ha convertit en un focus d'atenció creixent per als grans laboratoris d'IA.\n\nÉs un preprint encara sense revisió per parells, avaluat pels mateixos autors amb els seus propis criteris de risc i escenaris de prova, de manera que caldrà veure com es comporta davant d'atacants que dissenyin les seves tècniques específicament per esquivar aquesta mena de defensa evolutiva.",
+      "image": "./assets/she-marc-seguretat-evolutiu-agents-ia-20260811.jpg",
+      "editionDate": "2026-08-11"
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "slug": "atlas-medicacio-segura-gent-gran-ia",
+      "title": "Un marc d'IA construeix un mapa personalitzat de conflictes de medicaments per protegir la gent gran amb diverses malalties",
+      "excerpt": "ATLAS combina guies mèdiques en forma de graf amb un sistema de preguntes dirigides per detectar interaccions perilloses en pacients grans polimedicats, i supera els sistemes de referència en 53,73 punts sense generar cap recomanació insegura en les proves dels autors.",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2608.09443",
+      "sourceDate": "10 d'agost de 2026",
+      "body": "Un dels grans reptes de la medicina geriàtrica és la polimedicació: les persones grans amb diverses malalties cròniques prenen sovint múltiples fàrmacs alhora, i les interaccions perilloses entre ells són difícils de detectar fins i tot per a professionals experimentats, mentre que els agents d'IA generals encara tenen dificultats per fer-ho de manera fiable i personalitzada.\n\nEn un article penjat a arXiv el 10 d'agost, un equip encapçalat per Zihan Wang i Jintai Chen presenta ATLAS, un marc que combina guies mèdiques estructurades en forma de graf amb un sistema de preguntes dirigides al pacient per construir, cas per cas, un graf personalitzat de conflictes de medicació; un conjunt d'agents avalua després les contraindicacions concretes i proposa alternatives més segures. Els mateixos autors presenten també GeriMedBench, un banc de proves específic per avaluar decisions de seguretat medicamentosa en gent gran, en el qual ATLAS supera els sistemes de referència en 53,73 punts de taxa d'èxit estricta i no genera cap recomanació insegura segons les mètriques automàtiques utilitzades.\n\nÉs un exemple concret de com la IA es pot aplicar a un problema clínic molt real -els errors de medicació en persones grans amb multimorbiditat- més enllà dels usos genèrics dels xatbots mèdics, en un àmbit on l'escassetat de geriatres fa que aquesta mena d'eines de suport a la decisió guanyin pes cada any.\n\nÉs un preprint encara sense revisió per parells, avaluat amb mètriques automàtiques i un banc de proves creat pels mateixos autors, no amb pacients reals en un entorn clínic, de manera que caldrà validar-lo abans de treure'n conclusions sobre el seu ús pràctic a les consultes.",
+      "image": "./assets/atlas-medicacio-segura-gent-gran-ia-20260811.jpg",
+      "editionDate": "2026-08-11"
+    },
     {
       "category": "INVERSIÓ",
       "read": "5 MIN",
