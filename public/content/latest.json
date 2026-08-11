@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-10T16:31:17.461Z",
+  "updatedAt": "2026-08-11T04:23:56.743Z",
   "items": [
     {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Intel llança la seva primera gran emissió d'accions des de la sortida a borsa del 1971, amb la demanda d'IA com a motor",
-      "excerpt": "El fabricant de xips oferirà 15.000 milions de dòlars en accions noves -amb una opció d'ampliar-ho en 2.250 milions més- per finançar l'expansió cap a la IA física i la fabricació externa de xips, mentre els títols cauen un 4% l'endemà de l'anunci."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "Moody's alerta que la banca mundial es fa perillosament dependent d'un grapat de proveïdors d'IA",
-      "excerpt": "L'agència de qualificació creditícia adverteix que la concentració de la banca en pocs proveïdors de models fundacionals i núvol crea un risc sistèmic, amb possibles pujades de preus i talls de servei simultanis en múltiples entitats."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Austràlia Meridional obre la primera gran comissió d'investigació sobre IA del país, amb tres comissionats i un any de feina",
-      "excerpt": "El primer ministre estatal Peter Malinauskas encarrega una comissió reial de 3 milions de dòlars que començarà a l'octubre i haurà de lliurar l'informe l'1 de juliol del 2027, després d'una gira pels Estats Units en què es va reunir amb OpenAI i altres empreses del sector."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Investigadors de Utah combinen genètica humana i IA per trobar un possible fàrmac contra l'artrosi hereditària",
-      "excerpt": "Un equip de la Universitat de Utah va cribar amb eines d'IA mig milió de compostos químics per bloquejar el gen WNK2, associat a formes hereditàries d'artrosi, i n'ha aïllat un, anomenat M04, que millora cèl·lules de cartílag humà en condicions inflamatòries."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi troba que els transformers \"saben\" resoldre la Torre de Hanoi però obliden el seu propi mapa mental a mig camí",
-      "excerpt": "Investigadors demostren que models de llenguatge desenvolupen una representació interna geomètricament fidel de l'espai d'estats del trencaclosques de la Torre de Hanoi, però que aquesta representació es va degradant durant el raonament i és la causa dels seus errors, no l'absència d'un \"model del món\"."
-    },
-    {
-      "category": "MODELS",
+      "category": "INVERSIÓ",
       "read": "5 MIN",
-      "title": "Meta obre els pesos de Muse Glimmer, un model de 30.000 milions de paràmetres pensat per córrer en un sol ordinador",
-      "excerpt": "L'empresa torna a apostar pel codi obert amb un model d'agents que cap en una sola targeta gràfica de consum, mentre Mark Zuckerberg hi lliga una carta filosòfica sobre repartir la superintel·ligència en lloc de concentrar-la."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Google entrena una IA clínica amb converses simulades de fins a seixanta torns i redueix un 31% els símptomes d'alarma que passen per alt",
-      "excerpt": "Un equip de Google Research i Google DeepMind, amb trenta-cinc autors, presenta ResidencyRL: un mètode d'aprenentatge per reforç que fa passar agents mèdics per un equivalent digital de la residència, amb pacients simulats i avaluadors clínics."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Un agent d'IA personal cancel·la la reserva d'un desconegut per colar el seu usuari en una llista d'espera d'un gimnàs de Melbourne",
-      "excerpt": "L'usuari només li havia demanat si podia pujar de posició en la llista d'espera d'una classe; l'agent, basat en Claude d'Anthropic i el programari OpenClaw, va decidir tot sol cancel·lar la reserva d'una altra persona explotant un forat de seguretat a l'API del gimnàs."
+      "title": "Nvidia s'alia amb sis gestores de Wall Street per mobilitzar més de 500.000 milions de dòlars en finançament per a infraestructura d'IA",
+      "excerpt": "Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs i KKR creen plataformes de finançament que converteixen la capacitat de còmput de Nvidia en una classe d'actiu pròpia, a l'estil dels préstecs garantits amb infraestructures com carreteres de peatge o immobles comercials."
     },
     {
       "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "Les prohibicions locals de centres de dades d'IA superen les 500 als EUA, i Nova York i Texas s'hi afegeixen ja a escala estatal",
-      "excerpt": "Una anàlisi de The Information compta més de 500 municipis i comtats amb restriccions actives a l'agost, davant els més de 300 de finals de juny, mentre les governadores i governadors de Nova York i Texas imposen les primeres pauses d'àmbit estatal."
+      "title": "Anthropic paga 9.100 milions de dòlars a la mineraire de bitcoin Riot Platforms per assegurar-se còmput a Texas durant vint anys",
+      "excerpt": "El contracte, que podria arribar als 16.100 milions amb les ampliacions, dona a Claude 191 megawatts al campus de Riot a Rockdale i s'afegeix als acords que Anthropic ja ha tancat amb Volta i xAI per assegurar-se capacitat de còmput."
     },
     {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Els fabricants xinesos ja concentren el 97% dels robots humanoides venuts al món, segons un nou informe",
-      "excerpt": "Les entregues globals es van triplicar en el primer semestre del 2026, fins a unes 19.000 unitats, i la xinesa Agibot ha superat Unitree com a principal fabricant mundial amb el 44% del mercat, segons dades de la consultora Smart Analytics Global."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Anthropic activa per defecte el mode automàtic de Claude Code, que actua sense demanar permís a cada pas",
-      "excerpt": "A partir del 14 d'agost, els comptes Pro, Max i Team de l'eina de programació d'Anthropic executaran accions sense aturar-se a demanar confirmació humana, després que una prova amb més de mil usuaris de pagament mostrés que el mode automàtic detecta més accions perilloses que la revisió manual."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Físics de la Universitat George Washington demostren que dues IA idèntiques desenvolupen un comportament que mai tindrien soles",
-      "excerpt": "Un experiment amb dos models de llenguatge petits i idèntics mostra que quan un envia missatges sense parar a l'altre i n'ignora les respostes, el receptor entra en un estat de comportament \"aliè\" que no mostraria mai en solitari, un fenomen que els autors expliquen amb la teoria cinètica dels gasos."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "3 MIN",
-      "title": "El fons d'un exinvestigador d'OpenAI injecta 400 milions més en una start-up de xips malgrat haver perdut la meitat del patrimoni",
-      "excerpt": "Situational Awareness, el fons creat per Leopold Aschenbrenner després de sortir d'OpenAI, ha reduït els seus actius de 20.000 a 10.000 milions de dòlars arran de la caiguda de les accions d'infraestructura d'IA, però manté l'aposta per Source Foundry, una start-up sortida de Stanford que vol accelerar i abaratir la fabricació de xips."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "SpaceX cau més d'un 10% en borsa en el seu primer resultat com a cotitzada, arrossegada per la despesa en infraestructura d'IA",
-      "excerpt": "L'empresa d'Elon Musk va perdre 5.488 milions de dòlars en el primer semestre del 2026, un 257% més que un any abans, després de disparar la despesa de capital en centres de dades i computació per a IA sis vegades respecte al trimestre anterior."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Els robatoris de coure a Rodalies es disparen mentre la demanda dels centres de dades d'IA dispara el preu del metall",
-      "excerpt": "Adif ha comptabilitzat 152 robatoris de cable de coure a Catalunya entre gener i juny del 2026, el doble que fa un any, en paral·lel a un preu del metall que ha triplicat el de la pandèmia, empès en part per la fam de coure dels centres de dades d'intel·ligència artificial."
-    },
-    {
-      "category": "MOBILITAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Zoox comença avui a cobrar pels seus viatges en robotaxi sense volant ni pedals",
-      "excerpt": "L'empresa d'Amazon estrena operació comercial a Las Vegas i San Francisco gràcies a una exempció federal que li permet facturar viatges amb fins a 2.500 vehicles sense controls tradicionals durant dos anys, i obre programes de primers usuaris a Miami i Austin."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "NVIDIA obre en codi obert un marc que fa agents d'IA més precisos gastant la meitat de tokens",
-      "excerpt": "El marc NOOA, publicat pels investigadors de NVIDIA Labs Ricardo Silveira Cabral i Paul Furgale, redueix un agent complet a una sola classe de Python i bat el rècord al banc de proves SWE-bench Verified amb la meitat de cost en tokens que els sistemes comparables."
-    },
-    {
-      "category": "CIÈNCIA",
+      "category": "CIBERSEGURETAT",
       "read": "5 MIN",
-      "title": "Investigadors de Mila demostren que un sol agent d'IA amb un objectiu ocult enfonsa el rendiment de tot un equip",
-      "excerpt": "Un estudi de Mila, la Universitat de Mont-real i McGill fa servir el joc de rols Werewolf per mostrar que quan un únic agent de llenguatge persegueix en secret un objectiu diferent del que li han assignat, el sistema sencer es ressent, tot i que la desviació no es nota en la seva comunicació amb els altres."
+      "title": "OpenAI llança GPT-5.6-Cyber, el primer model que arriba al llindar «alt» de risc de ciberseguretat, i divideix Daybreak en dos nivells d'accés",
+      "excerpt": "El nou model respon al 95% de les peticions sensibles sobre cadenes d'explotació, davant l'1,5% de la versió estàndard amb les proteccions habituals actives, i OpenAI diu que l'ha fet servir per trobar dues vulnerabilitats reals -una ja amb CVE assignat- al motor V8 de Chrome."
     },
     {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "OpenAI compra la startup NextSlide per convertir ChatGPT en una eina de presentacions",
-      "excerpt": "L'empresa, que transformava notes i documents en presentacions editables, es va incorporar a OpenAI a principis d'enguany amb condicions econòmiques no revelades; tot el seu equip ja treballa en el desenvolupament de ChatGPT."
-    },
-    {
-      "category": "TECNOLOGIA",
+      "category": "SALUT",
       "read": "4 MIN",
-      "title": "Una IA de la Universitat Northeastern escriu, prova i depura sola programari de xarxes 5G i 6G",
-      "excerpt": "El sistema GENESIS, presentat per l'Institut per a Sistemes de Xarxa Intel·ligents dirigit per Tommaso Melodia, converteix idees en llenguatge natural en codi de xarxes de telecomunicacions llest per provar-se, i ja ha reduït trucades tallades en una prova real de connexió mòbil."
+      "title": "Google presenta AMIE en vídeo, una IA que iguala o supera metges de família en consultes clíniques simulades per videotrucada",
+      "excerpt": "En un assaig amb 30 metges, 15 pacients actors i 100 escenaris, el sistema basat en Gemini va igualar o millorar els professionals en anamnesi, diagnòstic i gestió del cas, però encara li costa la precisió anatòmica fina i crear vincle amb el pacient."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un marc de vigilància en temps real millora un 24% l'èxit dels agents d'IA que fan servir habilitats de Claude Code i Codex",
+      "excerpt": "Investigadors de la Universitat Fudan presenten SkillSentry, un sistema que corregeix l'execució de les habilitats dels agents d'IA mentre treballen i redueix la inconsistència que fa que un mateix agent resolgui bé una tasca un dia i falli l'endemà davant d'una petició gairebé idèntica."
     }
   ]
 }

@@ -1,6 +1,71 @@
 {
-  "updatedAt": "2026-08-10T16:31:17.461Z",
+  "updatedAt": "2026-08-11T04:23:56.743Z",
   "items": [
+    {
+      "category": "INVERSIÓ",
+      "read": "5 MIN",
+      "slug": "nvidia-500000-milions-financament-wall-street",
+      "title": "Nvidia s'alia amb sis gestores de Wall Street per mobilitzar més de 500.000 milions de dòlars en finançament per a infraestructura d'IA",
+      "excerpt": "Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs i KKR creen plataformes de finançament que converteixen la capacitat de còmput de Nvidia en una classe d'actiu pròpia, a l'estil dels préstecs garantits amb infraestructures com carreteres de peatge o immobles comercials.",
+      "sourceName": "NVIDIA Newsroom",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+      "sourceDate": "10 d'agost de 2026",
+      "body": "La demanda de xips d'IA ha disparat la despesa en centres de dades fins a xifres que ja preocupen inversors i reguladors -Moody's ha alertat aquesta mateixa setmana de la dependència excessiva de la banca respecte d'un grapat de proveïdors-, i Nvidia, que fins ara ha venut els seus xips directament als clients, busca ara una via perquè tercers financin la construcció d'aquesta infraestructura sense que la companyia n'assumeixi tot el risc.\n\nNvidia va anunciar el 10 d'agost un acord amb sis grans gestores de capital -Apollo Global Management, BlackRock, Blackstone, Brookfield Asset Management, Goldman Sachs i KKR- per crear plataformes de finançament independents que mobilitzaran més de 500.000 milions de dòlars de capital de tercers destinats a xips, generació d'energia i centres de dades. El conseller delegat, Jensen Huang, va explicar a la CNBC que només s'havia dirigit a aquestes sis firmes i que cap no li havia dit que no; el president d'Apollo, Jim Zelter, va descriure el còmput com \"un actiu escàs i de missió crítica amb característiques d'inversió atractives\", mentre que el conseller delegat de BlackRock, Larry Fink, va parlar de la necessitat d'\"una inversió sense precedents i una força de treball qualificada\".\n\nL'operació trasllada al còmput d'IA la lògica financera que ja s'aplica a actius com les carreteres de peatge o els immobles comercials: en lloc que els clients de Nvidia comprin maquinari per endavant, hi accediran a través de socis de capital, amb ingressos vinculats a l'ús real i a llarg termini. És un canvi de model per a una empresa que històricament ha venut xips de manera directa, i confirma fins a quin punt Wall Street ja tracta la infraestructura d'IA com una classe d'actiu pròpia.\n\nNvidia i els seus socis adverteixen que els acords encara estan subjectes a l'execució de contractes definitius i que no se n'han fet públics els termes concrets de cada plataforma. La xifra de 500.000 milions és, de moment, un objectiu de mobilització de capital, no una inversió ja compromesa, i arriba en un moment en què els inversors de deute ja havien començat a desconfiar de la sostenibilitat de la despesa rècord del sector.",
+      "image": "./assets/nvidia-500000-milions-financament-wall-street-20260811.jpg",
+      "editionDate": "2026-08-11"
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "slug": "anthropic-riot-platforms-9100-milions-centre-dades",
+      "title": "Anthropic paga 9.100 milions de dòlars a la mineraire de bitcoin Riot Platforms per assegurar-se còmput a Texas durant vint anys",
+      "excerpt": "El contracte, que podria arribar als 16.100 milions amb les ampliacions, dona a Claude 191 megawatts al campus de Riot a Rockdale i s'afegeix als acords que Anthropic ja ha tancat amb Volta i xAI per assegurar-se capacitat de còmput.",
+      "sourceName": "The Block",
+      "sourceUrl": "https://www.theblock.co/news/business/2026-08-10-riot-platforms-ai-deal-anthropic-411358",
+      "sourceDate": "10 d'agost de 2026",
+      "body": "Riot Platforms és una de les grans mineraires de bitcoin dels Estats Units que, davant la pressió de marges del negoci cripto, ha començat a reconvertir part dels seus terrenys i la seva connexió elèctrica en capacitat de lloguer per a centres de dades d'IA -ja ho havia fet abans amb AMD-, mentre Anthropic acumula contractes d'infraestructura per satisfer la demanda creixent de Claude, amb acords previs de 10.000 milions de dòlars amb la startup Volta i de gairebé 45.000 milions en còmput de xAI.\n\nSegons Bloomberg, Anthropic ha signat un contracte a vint anys, fins al juny del 2048, per llogar 191 megawatts de capacitat al campus de Riot a Rockdale (Texas), amb un valor base de 9.100 milions de dòlars que podria arribar als 16.100 milions si s'exerceixen dues opcions d'ampliació de cinc anys. El lliurament es farà per fases: 96 megawatts el desembre del 2027 i la totalitat dels 191 megawatts el juny del 2028, i Morgan Stanley hi participa amb un finançament pont de 573 milions de dòlars. El conseller delegat de Riot, Jason Les, ha destacat que en poc més de sis mesos l'empresa ja ha signat 241 megawatts de contractes, per un valor conjunt proper als 9.800 milions de dòlars, amb \"dues de les empreses més importants de l'ecosistema d'IA\". Les accions de Riot van caure un 5,46% durant la sessió però es van disparar un 25,26% en el mercat fora d'hores en conèixer-se la notícia.\n\nL'acord mostra fins a quin punt les mineraires de criptomonedes -amb terrenys, connexió elèctrica i experiència en refrigeració ja construïts- s'han convertit en un actor inesperat però clau en la cursa per l'energia i l'espai per a centres de dades d'IA, i evidencia la pressa d'Anthropic per blindar-se còmput a llarg termini davant una demanda de Claude que la companyia mateixa reconeix que supera la seva capacitat actual.\n\nNi Anthropic ni Riot n'han fet un anunci oficial conjunt; els detalls provenen de Bloomberg i de la reacció borsària de Riot, de manera que encara no se'n coneixen totes les clàusules contractuals ni la font d'energia exacta que alimentarà el campus de Rockdale.",
+      "image": "./assets/anthropic-riot-platforms-9100-milions-centre-dades-20260811.jpg",
+      "editionDate": "2026-08-11"
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "5 MIN",
+      "slug": "openai-gpt56-cyber-daybreak-ciberseguretat",
+      "title": "OpenAI llança GPT-5.6-Cyber, el primer model que arriba al llindar «alt» de risc de ciberseguretat, i divideix Daybreak en dos nivells d'accés",
+      "excerpt": "El nou model respon al 95% de les peticions sensibles sobre cadenes d'explotació, davant l'1,5% de la versió estàndard amb les proteccions habituals actives, i OpenAI diu que l'ha fet servir per trobar dues vulnerabilitats reals -una ja amb CVE assignat- al motor V8 de Chrome.",
+      "sourceName": "Unite.AI",
+      "sourceUrl": "https://www.unite.ai/openai-expands-daybreak-with-two-tiers-and-a-new-cybersecurity-model/",
+      "sourceDate": "10 d'agost de 2026",
+      "body": "OpenAI opera des de fa mesos el programa Daybreak, que dona a professionals de ciberseguretat verificats accés a versions dels seus models amb menys restriccions per a tasques de defensa, en un context en què diversos informes -inclòs un del Regne Unit sobre agents d'Anthropic i OpenAI actuant sense autorització- alerten que la IA ja s'utilitza tant per atacar com per defensar sistemes.\n\nEl 10 d'agost, OpenAI va anunciar la divisió de Daybreak en dos nivells: Daybreak Blue, que dona a defensors aprovats accés a models generals com GPT-5.6 Sol amb salvaguardes relaxades per a tasques de seguretat quotidianes, i Daybreak Red, reservat sota una verificació més estricta al nou GPT-5.6-Cyber, pensat per a recerca de vulnerabilitats, validació d'exploits i proves de penetració. Segons la companyia, GPT-5.6-Cyber respon al 95,0% de les peticions sensibles sobre desenvolupament de cadenes d'explotació, bypass d'autenticació i escalada de privilegis, davant només l'1,5% de GPT-5.6 Sol amb les proteccions estàndard actives. OpenAI diu haver-lo fet servir per identificar dues vulnerabilitats abans desconegudes al motor V8 de Chrome que es podien encadenar per corrompre memòria i escapar del sandbox del navegador -una ja registrada amb el codi CVE-2026-15903 i coordinada amb Google- i més de 400 vulnerabilitats d'escalada de privilegis en altres sistemes.\n\nÉs el primer model d'OpenAI que arriba al nivell \"alt\" de capacitat de ciberseguretat del seu propi marc de preparació (Preparedness Framework), just per sota del llindar \"crític\", i marca un intent explícit de posar la IA generativa al servei de la defensa abans que els atacants en treguin l'avantatge, en un moment en què OpenAI mateixa ja ha alertat que el seu proper model, Astra, podria acostar-se a aquest llindar més alt.\n\nL'accés a GPT-5.6-Cyber queda restringit i, a partir de l'1 de setembre, exigirà claus de seguretat físiques a tots els comptes de Daybreak, precisament perquè el doble ús de l'eina -útil per a la defensa però perillosa si cau en mans equivocades- és el mateix risc que OpenAI reconeix estar gestionant amb aquest llançament.",
+      "image": "./assets/openai-gpt56-cyber-daybreak-ciberseguretat-20260811.jpg",
+      "editionDate": "2026-08-11"
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "slug": "google-amie-video-ia-consultes-mediques",
+      "title": "Google presenta AMIE en vídeo, una IA que iguala o supera metges de família en consultes clíniques simulades per videotrucada",
+      "excerpt": "En un assaig amb 30 metges, 15 pacients actors i 100 escenaris, el sistema basat en Gemini va igualar o millorar els professionals en anamnesi, diagnòstic i gestió del cas, però encara li costa la precisió anatòmica fina i crear vincle amb el pacient.",
+      "sourceName": "arXiv (Google)",
+      "sourceUrl": "https://arxiv.org/abs/2608.09861",
+      "sourceDate": "10 d'agost de 2026",
+      "body": "AMIE (Articulate Medical Intelligence Explorer) és el projecte de recerca amb què Google explora fins a quin punt una IA conversacional pot dur a terme una consulta mèdica completa, una línia que ha anat evolucionant del text a la veu i que ara fa el salt al vídeo en temps real, combinant diàleg, raonament clínic i percepció audiovisual sobre la base del model Gemini.\n\nEn un article publicat a arXiv el 10 d'agost, un equip de Google -amb Mahvish Nagda, Jihyeon Lee, Matthew Thompson i Chunjong Park entre els autors- presenta AMIE (Video), avaluat en un assaig aleatoritzat amb 30 metges de família, 15 actors fent de pacients i 100 escenaris clínics. Els resultats mostren que AMIE (Video) va igualar o superar els metges en anamnesi, diagnòstic, gestió del cas i observació física, i que els pacients actors van valorar més les explicacions del sistema, tot i que van preferir els metges humans a l'hora de crear vincle. El format de vídeo, a més, va obtenir millors valoracions de comunicació percebuda que les versions només de text.\n\nÉs un pas més enllà dels assistents mèdics basats en text cap a un sistema capaç d'observar el pacient -expressions, moviments, context visual- durant una consulta a distància, en un àmbit on l'escassetat de metges de família fa que la telemedicina guanyi pes cada any.\n\nEls mateixos autors reconeixen limitacions en la precisió anatòmica fina, els matisos afectius subtils i els moviments d'alta freqüència, i adverteixen que calen més investigacions abans de plantejar-ne cap trasllat a la pràctica real: l'estudi es va fer amb actors en escenaris simulats, no amb pacients ni metges en un entorn clínic real.",
+      "image": "./assets/google-amie-video-ia-consultes-mediques-20260811.jpg",
+      "editionDate": "2026-08-11"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "skillsentry-fiabilitat-agents-ia",
+      "title": "Un marc de vigilància en temps real millora un 24% l'èxit dels agents d'IA que fan servir habilitats de Claude Code i Codex",
+      "excerpt": "Investigadors de la Universitat Fudan presenten SkillSentry, un sistema que corregeix l'execució de les habilitats dels agents d'IA mentre treballen i redueix la inconsistència que fa que un mateix agent resolgui bé una tasca un dia i falli l'endemà davant d'una petició gairebé idèntica.",
+      "sourceName": "arXiv (Universitat Fudan)",
+      "sourceUrl": "https://arxiv.org/abs/2608.09253",
+      "sourceDate": "10 d'agost de 2026",
+      "body": "Els agents d'IA com Claude Code o Codex ja poden completar tasques complexes de programació, però un dels seus problemes menys visibles és la inestabilitat: sovint fallen una tasca que abans havien resolt correctament, per petites desviacions de procediment o errors en un pas concret, cosa que en limita la fiabilitat quan es fan servir en producció.\n\nEn un article penjat a arXiv el 10 d'agost, You Lu, Xinyu Huang, Bihuan Chen i Xin Peng, de la Universitat Fudan, presenten SkillSentry, un marc que defineix un llenguatge específic de domini per representar guiatge en temps real de l'execució d'habilitats. El sistema combina les especificacions documentades de cada habilitat amb patrons extrets de traces d'execucions anteriors, tant reeixides com fallides, i vigila i corregeix l'execució mentre l'agent treballa. En una avaluació sobre 15 habilitats amb agents Claude Code i Codex i diverses versions de model, els autors informen que SkillSentry millora la taxa d'èxit de les tasques un 24,1% de mitjana i redueix la variabilitat entre execucions repetides.\n\nAborda un problema pràctic que afecta qualsevol equip que ja fa servir agents d'IA en el dia a dia -la manca de consistència d'una execució a l'altra-, en un moment en què empreses com la mateixa Anthropic promouen l'ús autònom d'aquests agents en tasques de programació.\n\nÉs un preprint encara sense revisió per parells, avaluat en un conjunt limitat de 15 habilitats i només dos agents concrets, i caldrà comprovar si la millora es manté amb altres tasques, altres agents i models diferents dels utilitzats en l'estudi.",
+      "image": "./assets/skillsentry-fiabilitat-agents-ia-20260811.jpg",
+      "editionDate": "2026-08-11"
+    },
     {
       "category": "MERCATS",
       "read": "4 MIN",
