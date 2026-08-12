@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-12T12:44:38.141Z",
+  "updatedAt": "2026-08-12T16:26:25.896Z",
   "items": [
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "5 MIN",
+      "title": "Una falla als sistemes de raonament d'OpenAI, Anthropic i Google permet fer parlar els models més potents i ja ha exposat centenars de claus i contrasenyes reals",
+      "excerpt": "Un grup d'investigadors demostra que els blocs xifrats amb què els grans laboratoris protegeixen el «pensament» intern dels seus models de raonament es poden reutilitzar entre sessions, usuaris i models, i n'han extret centenars de credencials filtrades en trajectòries públiques d'agents."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Google DeepMind presenta un model que tradueix la llengua de signes a text en temps real i l'estrena als mòbils Pixel 11",
+      "excerpt": "SL2T és el primer model de traducció de llengua de signes a aquesta escala que arriba a un producte de consum: converteix el moviment de mans, cara i cos en text sense passar per una notació intermèdia, entrenat amb 100.000 hores de dades i desenvolupat amb la comunitat sorda."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un equip coreà fa servir IA explicable per destapar 24.000 comptes sospitosos de manipular l'opinió pública en 110 milions de comentaris",
+      "excerpt": "Investigadors del KAIST han analitzat vint anys de comentaris al principal portal de notícies de Corea del Sud amb un sistema d'IA que no només detecta comptes sospitosos de manipulació vinculada a l'estranger, sinó que explica en quina base fonamenta cada senyalament."
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "title": "xAI estrena Grok Bot, uns agents d'IA que treballen sols durant hores amb el seu propi ordinador al núvol i tornen amb la feina feta",
+      "excerpt": "Grok Bot obre en beta pública limitada un producte que dona a cada agent un ordinador propi al núvol per iniciar sessió a les eines de l'usuari, treballar-hi de manera autònoma fins i tot amb l'ordinador de l'usuari apagat, i coordinar-se amb altres bots sense supervisió constant."
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "3 MIN",
+      "title": "OpenAI porta per primer cop l'aplicació d'escriptori de ChatGPT a Linux, amb Codex inclòs",
+      "excerpt": "L'aplicació, en versió preliminar, arriba a Ubuntu, Debian i Fedora amb ChatGPT, ChatGPT Work i l'entorn de programació Codex en un sol client, després que Linux fos l'únic sistema operatiu de referència que encara no tenia versió pròpia."
+    },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
