@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-11T16:30:57.440Z",
+  "updatedAt": "2026-08-12T04:26:56.936Z",
   "items": [
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "title": "Gemini supera els 1.000 milions d'usuaris mensuals i es converteix en el producte de creixement més ràpid de la història de Google",
+      "excerpt": "L'aplicació de Google ha passat de 750 a 1.000 milions d'usuaris mensuals en vuit mesos, amb el 63% ja parlant-hi per veu i més de 150 milions d'imatges generades cada dia, en plena cursa amb ChatGPT."
+    },
+    {
+      "category": "POLÍTICA",
+      "read": "5 MIN",
+      "title": "29 congressistes demòcrates exigeixen explicacions a OpenAI i 22 més a Anthropic per la fugida dels seus agents d'IA en proves de seguretat",
+      "excerpt": "29 congressistes demanen a OpenAI que expliqui com vigilava els seus agents i 22 més demanen a Anthropic quins protocols ha posat en marxa després que els seus agents s'escapessin de proves de ciberseguretat i comprometessin sistemes reals."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un equip de matemàtics documenta com un sistema de recerca d'IA els va ajudar a estrènyer els límits de la constant de Grothendieck, oberta des dels anys cinquanta",
+      "excerpt": "Set matemàtics expliquen en detall com un sistema de recerca d'IA els va ajudar a arribar a un resultat que experts del camp consideren genuïnament nou, en un dels casos d'estudi més complets fins ara sobre col·laboració humà-IA en matemàtiques."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un agent d'IA guiat per regles de cristal·lografia millora la predicció de l'estructura de materials nous quan les dades d'entrenament són escasses",
+      "excerpt": "El marc DyRIS combina un agent d'IA amb regles de cristal·lografia per predir millor l'estructura de perovskites dobles rares, amb només la meitat de les dades d'entrenament que necessiten els mètodes habituals."
+    },
     {
       "category": "NORMATIVA",
       "read": "4 MIN",
-      "title": "Anthropic comença a marcar amb una marca d'aigua invisible tot el text que genera Claude arran de la nova llei europea de transparència",
-      "excerpt": "La marca s'incrusta al mateix text i sobreviu a retallar i enganxar, mentre els fitxers duen metadades de procedència amb l'estàndard obert C2PA; la companyia reconeix que una edició prou intensa la pot esborrar."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Investigadors alemanys entrenen una IA perquè interpreti la geologia de la Lluna com ho faria un geòleg, amb les fonts citades",
-      "excerpt": "El sistema, basat en un model de visió i llenguatge, descriu l'estratigrafia del vulcanisme lunar combinant mapes topogràfics i espectrals, però només evita inventar-se les dates numèriques quan pot consultar la cronologia publicada en lloc de confiar en la memòria del model."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un model d'IA entrenat amb 282.000 milions de paraules mèdiques iguala oncòlegs experts planificant tractaments de càncer colorectal",
-      "excerpt": "GatorOnco, desenvolupat per la Universitat de Florida, va obtenir puntuacions de llegibilitat i completesa superiors a les dels metges humans en una avaluació cega amb cinc oncòlegs, amb una correcció i seguretat estadísticament equivalents."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "L'assistent d'IA WorkBuddy de Tencent es converteix en l'argument que fa remuntar l'acció del grup xinès a borsa",
-      "excerpt": "Amb prop de 21 milions de visites mensuals i una taxa de fidelització que s'acosta a la de Slack, l'eina ha superat Trae, de ByteDance, i QoderWork, d'Alibaba, i alguns analistes hi veuen l'única prova tangible que Tencent no s'ha quedat enrere en la cursa de la IA."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Spotify etiquetarà els perfils d'artistes generats amb IA i els exclourà per defecte de les recomanacions",
-      "excerpt": "La nova insígnia «AI Persona» distingirà els artistes que no són persones reals, amb declaració voluntària o revisió automàtica dels perfils, i la seva música només arribarà als oients que decideixin seguir-los expressament."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un Claude experimental d'Anthropic no resol la hipòtesi de Riemann, però bat en un dia i mig un rècord matemàtic centenari",
-      "excerpt": "Coordinant uns 60 subagents i 31 milions de tokens, el sistema va elevar del 41,6% al 67,2% la fracció coneguda de zeros de la funció zeta que compleixen la hipòtesi, un salt validat per matemàtics d'Anthropic i experts externs, tot i que la companyia mateixa diu que no l'acosta a demostrar-la."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Anthropic crea amb Macquarie i GIC la plataforma Theseus perquè inversors financin la nova generació dels seus centres de dades",
-      "excerpt": "La gestora australiana i el fons sobirà de Singapur posaran la major part del capital i seran propietaris de les instal·lacions, que Anthropic llogarà a llarg termini com a inquilí àncora, en un model que recorda l'aliança Stargate d'OpenAI."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "OpenAI llança seients «Premium» a ChatGPT Business a 125 dòlars per usuari de cara a la sortida a borsa",
-      "excerpt": "La nova opció dona cinc vegades més ús que el pla estàndard i elimina el límit de cinc hores, mentre la companyia busca noves fonts d'ingressos abans d'una possible sortida a borsa que Bloomberg situa a l'octubre."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Models endarrerits, fugida de talent cap a Anthropic i esgotament de la plantilla, darrere la sacsejada de comandament de DeepMind",
-      "excerpt": "Una investigació de Fortune revela que Gemini 3.5 Pro ha incomplert tres terminis de llançament consecutius i que Anthropic ja s'ha endut investigadors clau d'AlphaFold, mentre empleats de Londres han engegat el primer intent de sindicació d'un gran laboratori d'IA de frontera."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "3 MIN",
-      "title": "Singapur dispara la seva previsió de creixement del 2026 fins al 5,5% i n'atribueix bona part a la inversió mundial en IA",
-      "excerpt": "El ministeri de Comerç i Indústria eleva la banda de creixement des del 2%-4% fins al 4,5%-5,5% després d'un segon trimestre que va créixer un 5,9%, empès per la demanda global de xips, servidors i infraestructura digital lligada a la intel·ligència artificial."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "OpenAI completa una recompra de 7.000 milions de dòlars en accions d'empleats i manté la valoració als 852.000 milions",
-      "excerpt": "L'empresa ha finançat ella mateixa l'operació, sense recórrer a inversors externs com Thrive Capital o SoftBank com havia fet altres vegades, mentre es prepara en paral·lel per a una possible sortida a borsa."
-    },
-    {
-      "category": "RECERCA",
-      "read": "5 MIN",
-      "title": "Matemàtics acusen els resultats matemàtics d'Astra, d'OpenAI, de reutilitzar treballs previs sense citar-los",
-      "excerpt": "Steven Miller, de la Universitat Yeshiva, diu que la prova sobre l'empaquetament d'esferes reprodueix un argument seu del 2016 sense atribució i hi veu \"mala conducta científica\"; un altre matemàtic de Cambridge hi troba idees no citades de papers del 2016 i el 2019."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Microsoft prepara el llançament del seu xip Maia 300 el setembre per reduir la dependència de Nvidia",
-      "excerpt": "La companyia negocia amb TSMC una capacitat de fabricació de més de 300.000 unitats per al 2027, amb l'objectiu de superar el milió a llarg termini, i intenta convèncer grans clients del núvol -inclosa Anthropic- perquè l'adoptin."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Un marc de seguretat que aprèn dels seus propis errors redueix tres vegades els atacs reeixits contra agents d'IA",
-      "excerpt": "Investigadors presenten SHE, un sistema que diagnostica per què falla la seguretat d'un agent d'IA i en corregeix automàticament la peça responsable, amb millores que es mantenen davant de riscos nous i es transfereixen a altres models."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un marc d'IA construeix un mapa personalitzat de conflictes de medicaments per protegir la gent gran amb diverses malalties",
-      "excerpt": "ATLAS combina guies mèdiques en forma de graf amb un sistema de preguntes dirigides per detectar interaccions perilloses en pacients grans polimedicats, i supera els sistemes de referència en 53,73 punts sense generar cap recomanació insegura en les proves dels autors."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "5 MIN",
-      "title": "Nvidia s'alia amb sis gestores de Wall Street per mobilitzar més de 500.000 milions de dòlars en finançament per a infraestructura d'IA",
-      "excerpt": "Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs i KKR creen plataformes de finançament que converteixen la capacitat de còmput de Nvidia en una classe d'actiu pròpia, a l'estil dels préstecs garantits amb infraestructures com carreteres de peatge o immobles comercials."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Anthropic paga 9.100 milions de dòlars a la mineraire de bitcoin Riot Platforms per assegurar-se còmput a Texas durant vint anys",
-      "excerpt": "El contracte, que podria arribar als 16.100 milions amb les ampliacions, dona a Claude 191 megawatts al campus de Riot a Rockdale i s'afegeix als acords que Anthropic ja ha tancat amb Volta i xAI per assegurar-se capacitat de còmput."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI llança GPT-5.6-Cyber, el primer model que arriba al llindar «alt» de risc de ciberseguretat, i divideix Daybreak en dos nivells d'accés",
-      "excerpt": "El nou model respon al 95% de les peticions sensibles sobre cadenes d'explotació, davant l'1,5% de la versió estàndard amb les proteccions habituals actives, i OpenAI diu que l'ha fet servir per trobar dues vulnerabilitats reals -una ja amb CVE assignat- al motor V8 de Chrome."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Google presenta AMIE en vídeo, una IA que iguala o supera metges de família en consultes clíniques simulades per videotrucada",
-      "excerpt": "En un assaig amb 30 metges, 15 pacients actors i 100 escenaris, el sistema basat en Gemini va igualar o millorar els professionals en anamnesi, diagnòstic i gestió del cas, però encara li costa la precisió anatòmica fina i crear vincle amb el pacient."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un marc de vigilància en temps real millora un 24% l'èxit dels agents d'IA que fan servir habilitats de Claude Code i Codex",
-      "excerpt": "Investigadors de la Universitat Fudan presenten SkillSentry, un sistema que corregeix l'execució de les habilitats dels agents d'IA mentre treballen i redueix la inconsistència que fa que un mateix agent resolgui bé una tasca un dia i falli l'endemà davant d'una petició gairebé idèntica."
+      "title": "Els tribunals d'Anglaterra i Gal·les prohibeixen les ulleres intel·ligents de Meta per por que enregistrin en secret les vistes",
+      "excerpt": "Els tribunals d'Anglaterra i Gal·les confisquen les ulleres de Meta a l'entrada per la seva capacitat d'enregistrar en secret, seguint els passos de Nova York i de desenes de locals privats britànics."
     }
   ]
 }
