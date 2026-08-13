@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-13T04:22:06.742Z",
+  "updatedAt": "2026-08-13T08:20:31.424Z",
   "items": [
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "5 MIN",
+      "title": "Una investigació israeliana detecta el primer ciberatac gairebé autònom guiat per IA contra el govern de Taiwan, que va arribar fins a l'agència de seguretat nuclear",
+      "excerpt": "La firma Dream documenta com uns atacants presumptament vinculats a la Xina van muntar, amb eines d'IA de codi obert, una plataforma que va desplegar fins a vuit agents alhora per mapejar 21 sistemes governamentals, comprometre'n 85 comptes i acabar afectant l'agència nuclear taiwanesa i set energètiques."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Investigadors del MIT i la Tsinghua ensenyen física a un model d'IA amb 1,3 milions de partícules sintètiques i redueixen a la meitat les dades que calen per simular el món real",
+      "excerpt": "El sistema GeoPT, desenvolupat pel CSAIL del MIT amb la Universitat de Tsinghua, aprèn com reboten i s'enganxen partícules sobre formes 3D complexes abans d'entrenar-se en tasques concretes, i necessita fins a un 60% menys de dades etiquetades per simular vent, aigua i col·lisions amb la mateixa precisió que els millors models actuals."
+    },
+    {
+      "category": "INVERSIÓ",
+      "read": "4 MIN",
+      "title": "La start-up sueca de «vibe coding» Lovable capta 400 milions de dòlars i duplica la seva valoració fins als 13.300 milions en vuit mesos",
+      "excerpt": "La companyia d'Estocolm, que permet crear aplicacions descrivint-les en llenguatge natural, tanca una sèrie C liderada per Menlo Ventures i el fons europeu Scaleup Europe amb ingressos anualitzats que han passat de 200 a 500 milions de dòlars en set mesos, en un dels senyals més clars que Europa també pot produir unicorns d'IA a un ritme nord-americà."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Uns investigadors troben amb menys de 20 ordres a una IA pública una fallada crítica de Zoom que permetia prendre el control d'un ordinador sense cap clic",
+      "excerpt": "La firma A Security va construir en menys de 24 hores, fent servir models d'IA disponibles públicament, un exploit funcional per a la cadena de vulnerabilitats batejada «ZOOMSDAY», que aprofitava la funció d'anotacions de Zoom per executar codi al dispositiu d'altres participants d'una reunió sense que hi haguessin de fer res."
+    },
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "title": "Els servidors d'IA superen per primer cop la meitat dels ingressos de Foxconn, que ja treu més diners del núvol que dels iPhone",
+      "excerpt": "El fabricant taiwanès, conegut sobretot com a muntador d'iPhones, tanca un segon trimestre rècord amb un benefici net de gairebé 1.900 milions de dòlars -un 35% més que fa un any- gràcies al negoci de servidors d'IA, que ja representa el 51% de les vendes davant del 29% de l'electrònica de consum."
+    },
     {
       "category": "MERCATS",
       "read": "5 MIN",
