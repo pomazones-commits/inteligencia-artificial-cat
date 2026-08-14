@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-08-13",
+    "title": "Un dia amb tres preus de milers de milions posats a la IA, i cinc peces de recerca que pregunten si el fons hi és",
+    "dek": "Cognition, Legora i la possible compra de Decart per part d'Anthropic marquen avui xifres de vertigen, mentre el dia amb més ciència de la setmana -de Nature a PNAS- pregunta, en paral·lel, si la qualitat dels resultats creix al mateix ritme que les valoracions.",
+    "body": [
+      "Avui el mercat ha posat preu a la IA tres vegades: Cognition negocia una valoració de 40.000 milions de dòlars per al seu agent de programació Devin, Anthropic estudia comprar la israeliana Decart per uns 6.000 milions -la seva adquisició més gran mai feta- i la legaltech sueca Legora busca finançament a més de 10.000 milions, gairebé el doble que fa cinc mesos. Hi ha un fil comú sota les tres xifres: totes tres compren, d'una manera o altra, el mateix coll d'ampolla -còmput, eficiència de xips i talent especialitzat- just quan Anthropic es prepara per a una sortida a borsa que vol ser la més gran del sector.",
+      "El mateix dia, però, arriba el lot de ciència més gran de la setmana, i el seu missatge és més aviat de contenció que d'eufòria. Un article de Nature repassa com «l'Científic IA» de Sakana, dissenyat per automatitzar la recerca de cap a cap, no va impressionar els autors dels treballs que va intentar ampliar, i un investigador de Princeton hi resumeix el diagnòstic: l'automatització completa de la recerca oberta «no és a l'horitzó ara mateix». Un estudi a PNAS hi afegeix un matís incòmode des d'un altre angle: les sol·licituds de recerca escrites amb ajuda d'IA reben més finançament del NIH, però s'assemblen més al que ja s'havia finançat abans.",
+      "La coincidència no sembla casual: com més capital es mou cap a la IA, més necessari es fa preguntar-se si allò que es compra és substància o només velocitat. Mechanist, presentat també avui, intenta precisament això -entendre per què els grans models fan el que fan-, i un model de la Universitat Aalto que aprèn a llegir com un humà, o un altre que mesura per primer cop com el cervell neteja els seus propis residus, recorden que hi ha recerca real avançant per sota del soroll de les rondes de finançament.",
+      "En paral·lel, les esquerdes de seguretat que fa dies que apareixen en aquesta mateixa reflexió canvien avui de cara: no és la vigilància interna dels laboratoris el que falla, sinó la facilitat amb què la mateixa tecnologia s'utilitza cap enfora. Una investigació israeliana documenta el primer ciberatac gairebé autònom guiat per IA contra el govern de Taiwan, capaç d'arribar fins a l'agència de seguretat nuclear, mentre un altre equip troba amb menys de 20 ordres a una IA pública una fallada crítica de Zoom que permetia prendre el control d'un ordinador sense cap clic.",
+      "Al costat d'aquestes xifres i alertes globals, Enley -una legaltech nascuda a Barcelona el 2020- ofereix una mesura molt més petita i concreta del que és, avui, «adoptar IA»: automatitzar prou tràmits perquè cada advocat porti fins a 300 casos alhora i l'empresa tramiti ja el 4% dels divorcis de mutu acord d'Espanya. És un contrapunt útil a les valoracions de deu xifres d'avui: la mateixa tecnologia, aplicada a escala molt més modesta, també deixa efectes mesurables.",
+      "Caldrà mirar si les converses de Cognition, Anthropic-Decart i Legora arriben a tancar-se en les properes setmanes, si algun laboratori respon públicament a l'escepticisme de Nature sobre l'automatització científica, i si es confirma oficialment l'atac a Taiwan des de fonts governamentals. Amb tres rondes multimilionàries i cinc peces de recerca coincidint el mateix dia, el pols d'avui torna a ser entre la velocitat amb què es mou el capital i la lentitud, més prudent, amb què avança el coneixement que hauria de sostenir-lo."
+    ],
+    "signals": [
+      {
+        "title": "Cognition, la creadora de l'agent de programació Devin, negocia una ronda que dispararia la seva valoració fins als 40.000 milions de dòlars",
+        "slug": "cognition-devin-40000-milions-valoracio"
+      },
+      {
+        "title": "Anthropic negocia la compra de la start-up israeliana Decart per uns 6.000 milions de dòlars, la seva adquisició més gran fins ara",
+        "slug": "anthropic-decart-adquisicio-6000-milions"
+      },
+      {
+        "title": "Un article de Nature posa en dubte si l'«Científic IA» de Sakana ja pot investigar sol, després que els autors dels treballs que va intentar millorar no en quedessin impressionats",
+        "slug": "nature-ia-scientist-sakana-limitacions"
+      },
+      {
+        "title": "La legaltech barcelonina Enley tramita amb suport d'IA el 4% dels divorcis de mutu acord d'Espanya i fa que cada advocat porti fins a 300 casos alhora",
+        "slug": "enley-legaltech-barcelona-divorcis-ia"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 566
+  },
+  {
     "date": "2026-08-12",
     "title": "Agents que treballen sols en quatre fronts, i les esquerdes que deixen al descobert els seus fonaments",
     "dek": "Nvidia, River AI, xAI i OpenAI empenyen el mateix dia cap a agents d'IA que treballen hores sense supervisió, mentre una filtració real de credencials, cartes del Congrés dels Estats Units i noves sortides directives a OpenAI recorden que la vigilància encara no ha arribat on ha arribat la tecnologia.",
