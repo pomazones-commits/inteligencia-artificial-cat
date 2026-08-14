@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-14T14:14:27.586Z",
+  "updatedAt": "2026-08-14T16:50:21.156Z",
   "items": [
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Google llança Gemini 3.7 Flash, un model de codi i agents a meitat de preu que arriba just tres setmanes després de l'anterior",
+      "excerpt": "El nou model de la sèrie Flash millora el doble en punts de referència de programació i redueix a la meitat el preu de l'API fins a final d'any, en un llançament que arriba abans que Gemini 3.5 Pro, encara endarrerit."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Investigadors de Penn Medicine publiquen en obert MARC, un sistema de diversos agents d'IA que es reparteixen el raonament clínic pas a pas",
+      "excerpt": "En comptes de demanar-ho tot a un sol model de llenguatge, el nou marc distribueix l'extracció de dades, l'anàlisi i la validació entre agents especialitzats, amb un mòdul que genera les instruccions de cada agent a partir d'una simple descripció en llenguatge planer."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "El laboratori nacional d'Argonne multiplica per deu les dades públiques per entrenar IA que prediu quins fàrmacs funcionaran contra el càncer",
+      "excerpt": "L'ampliació del banc de dades IMPROVE afegeix 5,4 milions de mesures de resposta a fàrmacs i més de 50.000 compostos, i millora de manera clara la capacitat dels models de predir l'efecte de compostos que mai havien vist."
+    },
+    {
+      "category": "ROBÒTICA",
+      "read": "4 MIN",
+      "title": "LG i Nvidia s'alien per construir un robot humanoide propi i portar-lo a una fàbrica de rentadores al Tennessee",
+      "excerpt": "L'acord, signat a la seu de Nvidia a Santa Clara, combina el maquinari de còmput Jetson Thor i el model de fundació Isaac GR00T amb components de bateries, sensors i actuadors de les filials de LG, amb la presentació pública prevista per al primer trimestre del 2027."
+    },
+    {
+      "category": "XIPS",
+      "read": "3 MIN",
+      "title": "La xinesa SMIC supera per primer cop els 3.000 milions de dòlars trimestrals i puja preus per la fam de xips que provoca la IA",
+      "excerpt": "El principal fabricant xinès de semiconductors ha triplicat el benefici trimestral i preveu seguir pujant preus el tercer trimestre, mentre la demanda de xips vinculats a IA -no només CPU i GPU- tensiona encara més les cadenes de subministrament globals."
+    },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
