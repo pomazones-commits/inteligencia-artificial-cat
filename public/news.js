@@ -1,5 +1,65 @@
 window.IA_NEWS = [
   {
+    "category": "EMPRESA",
+    "read": "4 MIN",
+    "slug": "anthropic-compra-decart-ai-6000-milions",
+    "title": "Anthropic negocia la seva compra més gran, l'startup israeliana de vídeo Decart, per 6.000 milions de dòlars",
+    "excerpt": "L'operació, encara en negociació, donaria a Anthropic el control d'una tecnologia de generació de vídeo en temps real i d'optimització de xips que hauria triplicat el seu valor en només tres mesos, just abans de l'esperada sortida a borsa de la companyia.",
+    "sourceName": "Fortune",
+    "sourceUrl": "https://fortune.com/2026/08/13/anthropic-said-in-talks-to-buy-startup-decart-for-6-billion/",
+    "sourceDate": "13 d'agost de 2026",
+    "body": "Anthropic ha construït bona part del seu creixement dels últims anys al voltant de models de text i de codi, però la companyia busca ara ampliar-se cap al vídeo generatiu i cap a la infraestructura que fa més eficient l'entrenament, dos terrenys on encara no té una posició forta pròpia.\n\nSegons ha avançat Bloomberg i ha confirmat Fortune, Anthropic negocia la compra de Decart, una startup israeliana fundada el 2023 per Dean Leitersdorf, Orian Leitersdorf i Moshe Shalev, per uns 6.000 milions de dòlars. Decart desenvolupa models de món que simulen entorns físics i programari que millora l'eficiència dels xips per abaratir l'entrenament d'intel·ligència artificial; el seu model Lucy genera superposicions de vídeo en temps real i en alta resolució, amb usos que van des de provadors virtuals de roba fins a efectes en directe a Twitch, TikTok i YouTube. L'empresa havia tancat una ronda de 300 milions de dòlars el maig passat, liderada per Radical Ventures, amb una valoració propera als 4.000 milions, després d'haver estat valorada en 3.100 milions l'agost del 2025.\n\nSi es tanca, seria la compra més gran feta mai per Anthropic, just en un moment en què la companyia es prepara per una possible sortida a borsa i inverteix fortament en infraestructura de computació per atendre la demanda creixent dels seus productes. L'equip de Decart s'integraria a l'organització d'inferència i rendiment d'Anthropic, segons la informació disponible, i l'operació multiplicaria per gairebé el doble la valoració de la startup en menys de tres mesos.\n\nLes negociacions no han conclòs i la companyia mateixa ha advertit que l'acord podria no arribar a materialitzar-se; no s'han fet públiques les condicions finals ni una data de tancament. Calcalistech també havia informat que Decart mantenia converses amb SpaceX per a una possible adquisició, una informació que Elon Musk ha qualificat de falsa.",
+    "image": "./assets/anthropic-compra-decart-ai-6000-milions-20260814.jpg"
+  },
+  {
+    "category": "TECNOLOGIA",
+    "read": "3 MIN",
+    "slug": "xai-grok-4-6-agents-llargs",
+    "title": "xAI, ara sota la marca SpaceXAI, presenta Grok 4.6, pensat per a tasques d'agent de llarga durada",
+    "excerpt": "El nou model iguala GPT-5.6 Sol en l'índex d'intel·ligència d'Artificial Analysis i completa les tasques d'agent amb la meitat de passos que la versió anterior, mantenint el mateix preu que Grok 4.5.",
+    "sourceName": "x.ai (SpaceXAI)",
+    "sourceUrl": "https://x.ai/news/grok-4-6",
+    "sourceDate": "12 d'agost de 2026",
+    "body": "La competència entre grans laboratoris d'intel·ligència artificial s'ha desplaçat en els últims mesos cap a la capacitat dels models de mantenir tasques llargues i complexes -escriure codi, navegar per aplicacions, verificar el seu propi treball- sense perdre coherència, més que cap a un simple augment de coneixements generals.\n\nxAI, que ara es presenta sota la marca SpaceXAI, ha llançat Grok 4.6 el 12 d'agost, disponible el mateix dia a Cursor, Grok Build i la seva API, amb socis com OpenRouter, Vercel i Cloudflare. Segons la companyia, el model destaca en agents de llarga durada i en treball visual i interactiu ambiciós, amb capacitat d'autoverificar-se durant l'execució. En els indicadors interns, Grok 4.6 supera Grok 4.5 en proves com GDPVal-AA (1.753 punts davant de 1.526) o DeepSWE (65,9% davant de 54%), i completa les tasques d'agent d'Artificial Analysis amb aproximadament la meitat dels passos.\n\nEl model iguala GPT-5.6 Sol en l'índex d'intel·ligència d'Artificial Analysis, amb una puntuació de 61, i es manté al mateix preu que la versió anterior: 2 dòlars per milió de tokens d'entrada i 6 per milió de sortida, amb una variant més ràpida al doble de preu. La companyia ho presenta com un avenç de rendiment sense pujada de preu, en un moment en què els laboratoris rivals compten cada setmana amb un nou llançament.\n\nLes xifres de rendiment provenen de proves internes de la companyia i d'Artificial Analysis, sense que hi hagi encara una avaluació independent més àmplia; tampoc es concreta si el canvi de marca a SpaceXAI implica una integració operativa més profunda amb SpaceX més enllà del nom.",
+    "image": "./assets/xai-grok-4-6-agents-llargs-20260814.jpg"
+  },
+  {
+    "category": "TECNOLOGIA",
+    "read": "3 MIN",
+    "slug": "google-gemini-mil-milions-usuaris",
+    "title": "L'aplicació Gemini de Google arriba als mil milions d'usuaris mensuals, el producte de més creixement de la companyia",
+    "excerpt": "Sundar Pichai ha anunciat la xifra l'11 d'agost, després de passar de 400 milions d'usuaris al maig del 2025 a 950 milions el juliol passat, amb un 63% de la interacció feta per veu i més de 150 milions d'imatges generades cada dia.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+    "sourceDate": "11 d'agost de 2026",
+    "body": "La carrera entre els grans assistents d'intel·ligència artificial s'ha convertit també en una carrera d'usuaris: ChatGPT havia arribat als mil milions d'usuaris mensuals el juny passat, i Google buscava un moment similar per a la seva pròpia aplicació.\n\nSundar Pichai ha anunciat l'11 d'agost que l'aplicació Gemini ha superat els mil milions d'usuaris actius mensuals, un creixement que la companyia qualifica del més ràpid en els seus 28 anys d'història i que en fa el catorzè producte de Google a arribar a aquesta escala. La xifra suposa un salt des dels 400 milions d'usuaris del maig del 2025 fins als 950 milions declarats en els resultats del segon trimestre del 2026, empès per l'ús a través de veu, Gemini Live, la generació d'imatges i el mòbil, inclòs iOS. Segons Google, el 63% de la interacció amb l'aplicació es fa per veu i es generen més de 150 milions d'imatges diàries, amb més de 100 milions d'usuaris actius només a iOS.\n\nLa xifra és rellevant perquè situa Gemini a l'altura de ChatGPT en nombre d'usuaris de l'aplicació pròpia, en un moment en què Google integra el model també a la cerca, Workspace i Android, i confirma que la disputa pel lideratge en IA generativa ja no es limita a la qualitat dels models, sinó també a quina aplicació aconsegueix fidelitzar centenars de milions de persones dia a dia.\n\nLa xifra de mil milions correspon només a l'aplicació Gemini independent i no inclou els usuaris que hi accedeixen a través del mode IA del cercador de Google ni d'altres canals integrats, cosa que en dificulta la comparació directa amb els mil milions de ChatGPT, que es calculen amb una metodologia pròpia d'OpenAI no del tot equivalent.",
+    "image": "./assets/google-gemini-mil-milions-usuaris-20260814.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "4 MIN",
+    "slug": "mit-geopt-ia-fisica-simulacions",
+    "title": "Un nou mètode del MIT ensenya física als models d'IA amb esferes sintètiques abans d'entrenar-los amb dades reals",
+    "excerpt": "GeoPT, desenvolupat a CSAIL amb la Universitat Tsinghua, arriba al doble de rendiment amb fins a un 60% menys de dades etiquetades i pot generar simulacions d'enginyeria de més de 100 milions de punts en segons.",
+    "sourceName": "MIT News",
+    "sourceUrl": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
+    "sourceDate": "10 d'agost de 2026",
+    "body": "Simular com respon un objecte al vent, a l'aigua o a un impacte encara depèn, en enginyeria, de resoldre equacions numèriques que consumeixen molt de temps i de dades etiquetades, un coll d'ampolla que limita fins on poden arribar els models d'IA aplicats a la física.\n\nInvestigadors del Laboratori d'Informàtica i Intel·ligència Artificial del MIT (CSAIL), encapçalats per Minghao Guo i Haixu Wu i amb Wojciech Matusik com a autor sènior, en col·laboració amb Mingsheng Long, de la Universitat Tsinghua, han desenvolupat GeoPT, un mètode de preentrenament que exposa els models a 1,3 milions de mostres sintètiques d'esferes petites que xoquen, a diferents velocitats i angles, contra formes tridimensionals complexes. Aquest entrenament previ dona als models una intuïció física bàsica abans d'ajustar-los amb dades reals etiquetades, més escasses i costoses d'obtenir. \"La física és la tercera modalitat per als models d'IA, després del text i els píxels\", ha resumit Guo.\n\nSegons els resultats presentats a la Conferència Internacional sobre Aprenentatge Automàtic (ICML) del juliol, GeoPT arriba al doble de rendiment que els models capdavanters i necessita fins a un 60% menys de dades etiquetades; en la simulació d'un casc d'embarcació, per exemple, va reduir en un 60% les dades necessàries i va arribar quatre vegades més ràpid a la precisió màxima. El sistema pot generar simulacions d'alta fidelitat amb més de 100 milions de punts de malla en qüestió de segons, amb aplicacions previstes en aerodinàmica de vehicles, deformació estructural en col·lisions o dispersió de llum.\n\nEls resultats provenen de proves internes de l'equip investigador i de comparacions amb models existents en bancs de proves industrials, sense que hi hagi encara una validació en enginyeria real a gran escala; Fei Sha, investigador de Meta AI aliè a l'estudi, ho ha descrit com \"un paradigma engrescador\" per incorporar la física als models de fonaments, però sense confirmar-ne encara l'abast fora del laboratori.",
+    "image": "./assets/mit-geopt-ia-fisica-simulacions-20260814.jpg"
+  },
+  {
+    "category": "EMPRESA",
+    "read": "3 MIN",
+    "slug": "ryanair-google-cloud-ia-tripulacions",
+    "title": "Ryanair firma un acord de cinc anys amb Google Cloud per automatitzar amb IA la gestió de tripulacions i el manteniment",
+    "excerpt": "L'aerolínia desplegarà Gemini Enterprise i models de Google DeepMind com AlphaEvolve i WeatherNext entre 35.000 treballadors, dins una estratègia de doble núvol pensada per arribar als 300 milions de passatgers anuals el 2034.",
+    "sourceName": "Ryanair Corporate",
+    "sourceUrl": "https://corporate.ryanair.com/news/ryanair-google-cloud-announce-five-year-data-and-ai-partnership/",
+    "sourceDate": "12 d'agost de 2026",
+    "body": "Les grans aerolínies busquen des de fa temps reduir els costos operatius i millorar la resiliència tecnològica sense dependre d'un sol proveïdor de núvol, en un sector on una simple avaria informàtica pot cancel·lar centenars de vols en poques hores.\n\nRyanair i Google Cloud han anunciat el 12 d'agost una associació de cinc anys que portarà les eines de dades i intel·ligència artificial de Google a tota l'operativa de l'aerolínia. El desplegament inclou Google Workspace per als 35.000 treballadors de la companyia i Gemini Enterprise, la plataforma agèntica de Google Cloud, que Ryanair farà servir per automatitzar decisions operatives, optimitzar la logística de les tripulacions i millorar la productivitat corporativa. L'aerolínia també incorporarà models de Google DeepMind com AlphaEvolve i WeatherNext per a l'operativa de flota, la predicció meteorològica i la planificació del manteniment preventiu.\n\nL'acord s'afegeix a l'ús que Ryanair ja fa d'Amazon Web Services, dins d'una estratègia declarada de doble núvol per reduir el risc de fallades tecnològiques i reforçar la seva capacitat de negociació amb proveïdors, mentre la companyia manté l'objectiu de créixer fins als 300 milions de passatgers anuals el 2034. És un exemple més de com les grans companyies de transport incorporen la IA agèntica no com un projecte pilot aïllat, sinó com a infraestructura de fons per a processos ja crítics com la programació de tripulacions.\n\nNi Ryanair ni Google Cloud han fet públiques les condicions econòmiques de l'acord, i el comunicat no detalla un calendari concret d'implantació per fases ni resultats mesurables previs d'aquesta automatització en altres aerolínies que ja fan servir Gemini Enterprise.",
+    "image": "./assets/ryanair-google-cloud-ia-tripulacions-20260814.jpg"
+  },
+  {
     "category": "TECNOLOGIA",
     "read": "4 MIN",
     "slug": "openai-ultrafast-gpt-5-6-sol-14x",
