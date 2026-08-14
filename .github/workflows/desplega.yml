@@ -123,6 +123,11 @@ jobs:
           #  4. El mirall complet queda nomes com a recurs: marcador absent,
           #     sha desconegut (force push) o corrupte. Despres d'un mirall bo
           #     tambe es puja el marcador, i es torna al mode rapid.
+          #  5. 14.08.2026: el marcador es llegeix per DUES vies independents,
+          #     primer FTP i, si falla, HTTPS (pas 1-alt). Abans, un FTP mut
+          #     condemnava l'intent al mirall complet encara que el canvi
+          #     fossin dos fitxers, i amb el cancel-in-progress dels crons
+          #     aixo degenerava en un bucle de runs cancel·lats.
           #
           # Es conserva de l'enduriment del 25-30.07.2026: TLS nomes al canal
           # de control, sense --delete (els MP3 d'assets/audio nomes viuen al
@@ -152,6 +157,33 @@ jobs:
               base=$(tr -cd 'a-f0-9' < /tmp/base-sha.txt | head -c 40)
             fi
 
+            # 1-alt) Segona via per llegir el marcador (14.08.2026). El mateix
+            # fitxer que l'lftp acaba de no poder llegir el serveix el servidor
+            # web per HTTPS, que es un canal INDEPENDENT de l'FTP i de l'SSH.
+            # Sense aixo, un FTP mut condemnava l'intent al mirall complet
+            # (104 MB, >30 min) encara que el canvi real fossin dos fitxers; i
+            # com que els crons :08 i :38 desbanquen el run en curs
+            # (cancel-in-progress), cap mirall no arribava mai al final i el
+            # desplegament entrava en bucle. Va passar el 14.08.2026 amb les
+            # peces setmanals: quatre runs seguits (37, 11, 31 i 12 min) morts
+            # sense publicar res. Llegint el marcador per HTTPS, aquell cas
+            # hauria estat una pujada incremental de 2 fitxers.
+            # El marcador nomes s'escriu despres d'un desplegament correcte, o
+            # sigui que com a molt va endarrerit: aixo fa pujar algun fitxer de
+            # mes, mai de menys. Les comprovacions del pas 2 (ancestre de HEAD)
+            # continuen decidint si es pot fer servir.
+            if [ ${#base} -ne 40 ]; then
+              rm -f /tmp/base-sha-http.txt
+              if curl -fsS --max-time 20 -H 'Cache-Control: no-cache' \
+                   "https://inteligencia-artificial.cat/deploy-sha.txt?nc=${GITHUB_RUN_ID:-0}-$i" \
+                   -o /tmp/base-sha-http.txt 2>/dev/null; then
+                base=$(tr -cd 'a-f0-9' < /tmp/base-sha-http.txt | head -c 40)
+                if [ ${#base} -eq 40 ]; then
+                  echo "Marcador llegit per HTTPS: ${base:0:7} (l'FTP no l'ha pogut llegir)."
+                fi
+              fi
+            fi
+
             # 1-bis) Guarda (01.08.2026): si el servidor ja serveix un commit
             # MES NOU que el d'aquesta run i que ja conte HEAD, no cal fer res.
             # Passa amb runs encadenades que arrenquen tard o reexecutades:
@@ -165,7 +197,7 @@ jobs:
 
             # 2) Decideix el mode
             mode="mirall"
-            motiu="marcador absent o illegible (primer desplegament o FTP mut)"
+            motiu="marcador absent o illegible ni per FTP ni per HTTPS (primer desplegament, o servidor mut del tot)"
             if [ ${#base} -eq 40 ] && git cat-file -e "$base^{commit}" 2>/dev/null && git merge-base --is-ancestor "$base" HEAD 2>/dev/null; then
               if [ "$base" = "$HEAD_SHA" ]; then
                 echo "El servidor ja te $HEAD_SHA desplegat. Res a fer."
