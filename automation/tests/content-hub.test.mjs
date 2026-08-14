@@ -445,3 +445,125 @@ test('pending: --what desconegut és un error', async () => {
   const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
   assert.equal(pending(['pending', '--what', 'fotografia', '--input', join(root, 'x.json')], root).status, 1);
 });
+
+// ── Memòria de la fotografia editorial del dia (14.08.2026) ──────────────────
+
+async function fotografia(root, date, eixos = {}) {
+  const { mkdir } = await import('node:fs/promises');
+  await mkdir(join(root, 'assets'), { recursive: true });
+  await writeFile(join(root, 'assets', `daily-${date}.jpg`), 'imatge-de-prova', 'utf8');
+  const input = join(root, `daily-image-${date}.json`);
+  await writeFile(input, JSON.stringify({
+    date,
+    image: `./assets/daily-${date}.jpg`,
+    alt: `Descripció accessible de la fotografia del ${date}.`,
+    kicker: 'IA × Societat',
+    title: `Fotografia del ${date}`,
+    caption: 'Una frase que connecta la imatge amb el tema del dia.',
+    credit: 'Imatge editorial generada amb IA',
+    ...eixos
+  }), 'utf8');
+  return input;
+}
+
+function recents(args, cwd) {
+  const result = run(['imatges-recents', ...args, '--json'], cwd);
+  return { status: result.status, stderr: result.stderr, dades: result.status === 0 ? JSON.parse(result.stdout) : null };
+}
+
+test('la fotografia del dia queda apuntada a l’historial amb els tres eixos', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  const input = await fotografia(root, '2026-08-14', { tema: 'esport', escenari: 'pavelló municipal', subjecte: 'entrenadora' });
+  assert.equal(run(['ingest-daily-image', '--input', input, '--public-dir', root, '--state-dir', state], root).status, 0);
+
+  const historial = JSON.parse(await readFile(join(state, 'daily-images.json'), 'utf8'));
+  assert.equal(historial.items.length, 1);
+  assert.deepEqual(
+    { ...historial.items[0], title: undefined, alt: undefined },
+    { date: '2026-08-14', tema: 'esport', escenari: 'pavelló municipal', subjecte: 'entrenadora', title: undefined, alt: undefined }
+  );
+});
+
+test('tornar a publicar la fotografia del mateix dia substitueix l’entrada, no la duplica', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  const primera = await fotografia(root, '2026-08-14', { tema: 'esport', escenari: 'pavelló municipal', subjecte: 'entrenadora' });
+  assert.equal(run(['ingest-daily-image', '--input', primera, '--public-dir', root, '--state-dir', state], root).status, 0);
+  await writeFile(primera, JSON.stringify({
+    ...JSON.parse(await readFile(primera, 'utf8')), tema: 'llengua', escenari: 'ràdio local', subjecte: 'locutora'
+  }), 'utf8');
+  assert.equal(run(['ingest-daily-image', '--input', primera, '--public-dir', root, '--state-dir', state], root).status, 0);
+
+  const historial = JSON.parse(await readFile(join(state, 'daily-images.json'), 'utf8'));
+  assert.equal(historial.items.length, 1, 'una correcció del mateix dia no pot deixar dues entrades');
+  assert.equal(historial.items[0].tema, 'llengua');
+});
+
+test('una fotografia sense els eixos es publica igualment: val més la portada que la memòria', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  const input = await fotografia(root, '2026-08-14');
+  const result = run(['ingest-daily-image', '--input', input, '--public-dir', root, '--state-dir', state], root);
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stderr, /falta el camp "tema"/, 'però ha de quedar constància al log');
+  const historial = JSON.parse(await readFile(join(state, 'daily-images.json'), 'utf8'));
+  assert.equal(historial.items[0].tema, '');
+  assert.equal(historial.items[0].title, 'Fotografia del 2026-08-14');
+});
+
+test('imatges-recents veta els temes dels últims 12 dies i deixa lliure la resta de la roda', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  for (const [date, tema] of [['2026-08-01', 'camp-i-mar'], ['2026-08-13', 'salut'], ['2026-08-14', 'gent-gran-i-cures']]) {
+    const input = await fotografia(root, date, { tema, escenari: `escenari ${date}`, subjecte: `subjecte ${date}` });
+    assert.equal(run(['ingest-daily-image', '--input', input, '--public-dir', root, '--state-dir', state], root).status, 0);
+  }
+
+  const { dades } = recents(['--state-dir', state, '--date', '2026-08-15'], root);
+  assert.deepEqual(dades.temesVetats, ['gent-gran-i-cures', 'salut']);
+  assert.ok(!dades.temesLliures.includes('salut'));
+  assert.ok(dades.temesLliures.includes('camp-i-mar'), 'el tema de fa 14 dies torna a ser lliure');
+  assert.equal(dades.temesVetats.length + dades.temesLliures.length, 16, 'la roda temàtica és tancada');
+});
+
+test('imatges-recents aplica finestres diferents a l’escenari (30 dies) i al subjecte (21)', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  const input = await fotografia(root, '2026-07-20', { tema: 'camp-i-mar', escenari: 'Cuina de casa', subjecte: 'Dona Gran' });
+  assert.equal(run(['ingest-daily-image', '--input', input, '--public-dir', root, '--state-dir', state], root).status, 0);
+
+  const { dades } = recents(['--state-dir', state, '--date', '2026-08-14'], root);
+  assert.deepEqual(dades.escenarisVetats, ['cuina-de-casa'], 'fa 25 dies: encara veta l’escenari');
+  assert.deepEqual(dades.subjectesVetats, [], 'fa 25 dies: el subjecte ja torna a ser lliure');
+});
+
+test('imatges-recents compara sense accents ni majúscules', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  const input = await fotografia(root, '2026-08-14', { tema: 'Educació', escenari: 'Aula de FP', subjecte: 'Alumnes' });
+  assert.equal(run(['ingest-daily-image', '--input', input, '--public-dir', root, '--state-dir', state], root).status, 0);
+  const { dades } = recents(['--state-dir', state, '--date', '2026-08-15'], root);
+  assert.deepEqual(dades.temesVetats, ['educacio'], '«Educació» i «educacio» són el mateix tema');
+  assert.deepEqual(dades.escenarisVetats, ['aula-de-fp']);
+});
+
+test('imatges-recents sense historial no falla: només diu que tota la roda és lliure', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const { status, dades } = recents(['--state-dir', join(root, 'state'), '--date', '2026-08-15'], root);
+  assert.equal(status, 0);
+  assert.equal(dades.items.length, 0);
+  assert.equal(dades.temesLliures.length, 16);
+});
+
+test('--dies només retalla la llista, mai els vetos', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  const input = await fotografia(root, '2026-08-05', { tema: 'cultura', escenari: 'sala de concerts', subjecte: 'tècnica de so' });
+  assert.equal(run(['ingest-daily-image', '--input', input, '--public-dir', root, '--state-dir', state], root).status, 0);
+
+  const { dades } = recents(['--state-dir', state, '--date', '2026-08-14', '--dies', '3'], root);
+  assert.equal(dades.items.length, 0, 'amb --dies 3 no es llista res de fa nou dies…');
+  assert.deepEqual(dades.temesVetats, ['cultura'], '…però el tema segueix vetat');
+  assert.deepEqual(dades.subjectesVetats, ['tecnica-de-so']);
+});
