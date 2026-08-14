@@ -28,6 +28,40 @@ const REQUIRED_NEWS_FIELDS = [
   'sourceName', 'sourceUrl', 'sourceDate', 'body'
 ];
 
+// ── Memòria de la fotografia editorial del dia (14.08.2026) ──────────────────
+// L'encàrrec es generava a cegues cada matí i el resultat era previsible: de les
+// 29 primeres fotografies, 6 eren «un pagès amb tauleta al camp» i 6 «una persona
+// gran sola a la taula de la cuina mirant una pantalla», i sis dels setze temes
+// possibles no van sortir ni un sol dia. Aquest historial és la memòria que li
+// faltava: `ingest-daily-image` hi apunta cada peça i la comanda `imatges-recents`
+// diu a la sessió editorial què NO pot tornar a fer avui.
+const IMATGES_HISTORIAL_FILE = 'daily-images.json';
+const IMATGES_HISTORIAL_MAX = 120;
+const IMATGES_VETO_TEMA_DIES = 12;
+const IMATGES_VETO_ESCENA_DIES = 30;
+const IMATGES_VETO_SUBJECTE_DIES = 21;
+
+// Roda temàtica tancada. Amb 16 temes i un veto de 12 dies sempre en queden com
+// a mínim quatre de lliures, i cap finestra de 13 dies no pot repetir-ne cap.
+const TEMES_IMATGE = [
+  'camp-i-mar',
+  'ciencia',
+  'ciutat',
+  'cultura',
+  'economia-domestica',
+  'educacio',
+  'esport',
+  'gent-gran-i-cures',
+  'industria',
+  'infancia-i-adolescencia',
+  'justicia-i-drets',
+  'llengua',
+  'medi-ambient',
+  'salut',
+  'seguretat-i-emergencies',
+  'treball'
+];
+
 function parseArguments(argv) {
   const [command, ...tokens] = argv;
   const options = {};
@@ -60,6 +94,25 @@ function displayDate(value) {
 
 function normalizeText(value) {
   return typeof value === 'string' ? value.trim() : '';
+}
+
+// Clau comparable per als eixos de la fotografia del dia: sense accents, en
+// minúscules i amb guions. «Gent gran i cures» i «gent-gran-i-cures» són el mateix.
+function claveu(value) {
+  return normalizeText(value)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+// Dies de diferència entre dues dates AAAA-MM-DD (positiu si la segona és anterior).
+function diesEnrere(referencia, data) {
+  const a = Date.parse(`${referencia}T00:00:00Z`);
+  const b = Date.parse(`${data}T00:00:00Z`);
+  if (Number.isNaN(a) || Number.isNaN(b)) return Number.POSITIVE_INFINITY;
+  return Math.round((a - b) / 86400000);
 }
 
 function parsePayload(text, expectedType) {
@@ -164,6 +217,18 @@ function validateDailyImage(payload) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(item.date)) throw new Error('daily-image: date ha de tenir el format AAAA-MM-DD.');
   if (!/^(https?:\/\/|\.\/|\/)/.test(item.image)) throw new Error('daily-image: image ha de ser una URL o ruta web.');
   if (item.alt.length < 25) throw new Error('daily-image: alt ha de descriure la fotografia.');
+  // Els tres eixos de l'antirepetició. Són OPCIONALS a posta: si un dia falten,
+  // la fotografia es publica igualment (i queda apuntada a l'historial amb el
+  // titular i l'alt), perquè deixar la portada sense imatge seria pitjor que
+  // perdre una entrada de la memòria. El que sí que es fa és queixar-se al log.
+  for (const eix of ['tema', 'escenari', 'subjecte']) {
+    const valor = normalizeText(payload[eix]);
+    if (valor) item[eix] = valor;
+    else process.stderr.write(`daily-image: avís — falta el camp "${eix}"; l'antirepetició en surt debilitada.\n`);
+  }
+  if (item.tema && !TEMES_IMATGE.includes(claveu(item.tema))) {
+    process.stderr.write(`daily-image: avís — el tema "${item.tema}" no és a la roda temàtica (${TEMES_IMATGE.join(', ')}).\n`);
+  }
   // Text associat opcional per a la pàgina "La imatge del dia"; conserva els paràgrafs.
   const body = String(payload.body ?? '')
     .replace(/\r\n/g, '\n')
@@ -521,7 +586,80 @@ async function ingestDailyImage(options) {
   const output = join(publicDir, ASSIGNMENTS.dailyImage.file);
   await backupFile(output, join(stateDir, 'backups'), payload.date);
   await atomicWrite(output, serializeAssignment(ASSIGNMENTS.dailyImage.variable, payload));
+  await apuntaImatge(stateDir, payload);
   process.stdout.write(`Fotografia editorial del ${payload.date} validada i publicada.\n`);
+}
+
+// Apunta la peça a l'historial. Tornar-hi el mateix dia (correcció, segona
+// passada) substitueix l'entrada en comptes de duplicar-la.
+async function apuntaImatge(stateDir, payload) {
+  const path = join(stateDir, IMATGES_HISTORIAL_FILE);
+  const historial = await readJson(path, { items: [] });
+  const items = (Array.isArray(historial.items) ? historial.items : [])
+    .filter(item => item?.date && item.date !== payload.date);
+  items.push({
+    date: payload.date,
+    tema: payload.tema || '',
+    escenari: payload.escenari || '',
+    subjecte: payload.subjecte || '',
+    title: payload.title,
+    alt: payload.alt
+  });
+  items.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+  await atomicWrite(path, `${JSON.stringify({
+    updatedAt: new Date().toISOString(),
+    items: items.slice(0, IMATGES_HISTORIAL_MAX)
+  }, null, 2)}\n`);
+}
+
+// `imatges-recents`: el que la sessió editorial ha de llegir ABANS de generar la
+// fotografia del dia. Diu què s'ha publicat, quins temes estan vetats avui i
+// quins escenaris i subjectes no es poden repetir.
+async function imatgesRecents(options) {
+  const stateDir = resolve(options['state-dir'] || '.content-state');
+  const avui = normalizeText(options.date) || editionDate();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(avui)) throw new Error('--date ha de tenir el format AAAA-MM-DD.');
+  const finestra = Number(options.dies || IMATGES_VETO_ESCENA_DIES);
+  if (!Number.isInteger(finestra) || finestra < 1 || finestra > IMATGES_HISTORIAL_MAX) {
+    throw new Error(`--dies ha de ser entre 1 i ${IMATGES_HISTORIAL_MAX}.`);
+  }
+
+  const historial = await readJson(join(stateDir, IMATGES_HISTORIAL_FILE), { items: [] });
+  // Els vetos es calculen SEMPRE sobre l'historial sencer amb la seva pròpia
+  // finestra. `--dies` només decideix quantes peces es llisten: si també retallés
+  // els vetos, un `--dies 3` desbloquejaria per art de màgia el que està vetat.
+  const tots = (Array.isArray(historial.items) ? historial.items : [])
+    .filter(item => item?.date && diesEnrere(avui, item.date) >= 0);
+  const items = tots.filter(item => diesEnrere(avui, item.date) <= finestra);
+
+  const recull = (camp, dies) => [...new Set(
+    tots.filter(item => diesEnrere(avui, item.date) <= dies).map(item => claveu(item[camp])).filter(Boolean)
+  )].sort();
+  const temesVetats = recull('tema', IMATGES_VETO_TEMA_DIES);
+  const temesLliures = TEMES_IMATGE.filter(tema => !temesVetats.includes(tema));
+
+  if (options.json) {
+    process.stdout.write(`${JSON.stringify({
+      date: avui, finestra, items, temesVetats, temesLliures,
+      escenarisVetats: recull('escenari', IMATGES_VETO_ESCENA_DIES),
+      subjectesVetats: recull('subjecte', IMATGES_VETO_SUBJECTE_DIES)
+    }, null, 2)}\n`);
+    return;
+  }
+
+  const linies = [`Fotografies del dia publicades (últims ${finestra} dies, ${items.length} peces):`];
+  if (!items.length) linies.push('  — cap —');
+  for (const item of items) {
+    const eixos = [item.tema, item.escenari, item.subjecte].filter(Boolean).join(' · ') || 'sense eixos apuntats';
+    linies.push(`  ${item.date} · ${eixos} · «${item.title}»`);
+    if (item.alt) linies.push(`      ${item.alt}`);
+  }
+  linies.push('');
+  linies.push(`TEMES VETATS avui (publicats en els últims ${IMATGES_VETO_TEMA_DIES} dies): ${temesVetats.join(', ') || 'cap'}`);
+  linies.push(`TEMES LLIURES (tria'n un d'aquests): ${temesLliures.join(', ')}`);
+  linies.push(`ESCENARIS que no es poden repetir (${IMATGES_VETO_ESCENA_DIES} dies): ${recull('escenari', IMATGES_VETO_ESCENA_DIES).join(', ') || 'cap'}`);
+  linies.push(`SUBJECTES que no es poden repetir (${IMATGES_VETO_SUBJECTE_DIES} dies): ${recull('subjecte', IMATGES_VETO_SUBJECTE_DIES).join(', ') || 'cap'}`);
+  process.stdout.write(`${linies.join('\n')}\n`);
 }
 
 // Publica «La reflexió del dia» i fa rodar l'arxiu: la peça vigent, si és d'un
@@ -640,7 +778,8 @@ function usage() {
   node content-hub.mjs ingest-daily-image --input daily-image.json --public-dir .
   node content-hub.mjs ingest-daily-reflection --input daily-reflection.json --public-dir .
   node content-hub.mjs validate --type news|analysis|reflection|daily-reflection --input fitxer.json
-  node content-hub.mjs pending --what news|daily-reflection --input fitxer.json --public-dir . --state-dir .content-state\n`;
+  node content-hub.mjs pending --what news|daily-reflection --input fitxer.json --public-dir . --state-dir .content-state
+  node content-hub.mjs imatges-recents --state-dir .content-state [--dies 30] [--json]\n`;
 }
 
 try {
@@ -651,6 +790,7 @@ try {
   else if (command === 'ingest-daily-reflection') await ingestDailyReflection(options);
   else if (command === 'validate') await validateCommand(options);
   else if (command === 'pending') await pendingWork(options);
+  else if (command === 'imatges-recents') await imatgesRecents(options);
   else {
     process.stdout.write(usage());
     process.exitCode = command ? 1 : 0;
