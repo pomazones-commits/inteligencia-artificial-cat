@@ -1,5 +1,70 @@
 [
   {
+    "category": "EMPRESA",
+    "read": "4 MIN",
+    "slug": "openai-facturacio-40000-milions-sortida-borsa",
+    "title": "La facturació anualitzada d'OpenAI supera els 40.000 milions de dòlars, el doble que fa vuit mesos, a les portes de sortir a borsa",
+    "excerpt": "El ritme d'ingressos de l'empresa de ChatGPT ha crescut més d'un 20% cada mes durant el juliol, empès pel Codex, les subscripcions i la nova publicitat, segons Bloomberg, mentre prepara el que podria ser un dels debuts borsaris més grans de la història.",
+    "sourceName": "Bloomberg (via PYMNTS)",
+    "sourceUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/openais-revenue-run-rate-tops-40-billion-as-ipo-nears/",
+    "sourceDate": "14 d'agost de 2026",
+    "body": "OpenAI tancava el 2025 amb una facturació anualitzada d'uns 20.000 milions de dòlars, segons havia xifrat la seva directora financera, Sarah Friar. Vuit mesos després, aquesta xifra s'ha doblat: Bloomberg va informar el 13 d'agost, citant fonts coneixedores del rendiment de l'empresa, que el ritme anualitzat d'ingressos ja supera els 40.000 milions de dòlars.\n\nEl president i cofundador d'OpenAI, Greg Brockman, va confirmar internament que la facturació anualitzada va créixer més d'un 20% mensual durant el juliol. Segons Bloomberg, el creixement es reparteix entre diverses fonts: l'eina de programació Codex, les subscripcions de ChatGPT, un negoci publicitari incipient, i les vendes empresarials, que ja representen més del 40% dels ingressos totals, en un context en què la companyia també ha retallat preus per fer front a la competència.\n\nLa xifra és rellevant perquè arriba just quan OpenAI es prepara per a una possible sortida a borsa, que alguns informes situen encara enguany, i que podria convertir-se en un dels debuts més grans de la història del mercat borsari. El creixement també l'allunya, almenys temporalment, de la pressió competitiva de rivals com Anthropic i dels models xinesos més barats que li han robat quota de mercat empresarial els últims mesos.\n\nOpenAI no ha confirmat oficialment la xifra ni ha fet declaracions a Bloomberg, que atribueix les dades a fonts anònimes. Una facturació anualitzada es calcula projectant a dotze mesos els ingressos d'un període curt, per la qual cosa pot variar substancialment si el ritme de creixement s'alenteix, i no equival a beneficis: OpenAI continua cremant grans quantitats de capital en el desplegament de la infraestructura de còmput que sustenta aquest creixement.",
+    "image": "./assets/openai-facturacio-40000-milions-sortida-borsa-20260815.jpg",
+    "editionDate": "2026-08-15"
+  },
+  {
+    "category": "SALUT",
+    "read": "4 MIN",
+    "slug": "ia-dissenya-bacteriofags-resistencia-antibiotics",
+    "title": "Investigadors de Stanford i l'Arc Institute dissenyen amb IA setze virus que maten bacteris resistents als seus enemics naturals",
+    "excerpt": "Els models de llenguatge genòmic Evo 1 i Evo 2 van generar centenars de milers de genomes candidats de bacteriòfags; setze dels sintetitzats van resultar virus funcionals, alguns més eficaços que la seva referència natural, publicat a Science.",
+    "sourceName": "Stanford Report",
+    "sourceUrl": "https://news.stanford.edu/stories/2026/08/evo-2-ai-tool-e-coli-killer-bacteriophages",
+    "sourceDate": "7 d'agost de 2026",
+    "body": "Els bacteriòfags són virus que infecten bacteris i no fan mal a humans, animals ni plantes, i des de fa dècades s'estudien com a alternativa o complement als antibiòtics davant de soques resistents. El repte és que dissenyar-ne de nous des de zero, amb genomes complets i funcionals, ha estat fora de l'abast dels mètodes tradicionals de bioenginyeria.\n\nUn equip liderat per Brian Hie, professor d'enginyeria química a Stanford i investigador de l'Arc Institute, junt amb l'estudiant de doctorat Samuel King, va fer servir dos models de llenguatge genòmic, Evo 1 i Evo 2, per generar prop de 700.000 genomes candidats de bacteriòfags a partir del fag natural PhiX174 com a referència, no com a plantilla. En van sintetitzar entre 285 i 300 i els van provar experimentalment contra Escherichia coli. Setze van resultar virus completament funcionals amb gens i elements reguladors nous, i van aconseguir infectar soques d'E. coli que havien desenvolupat resistència al fag natural; alguns fins i tot es van replicar més ràpid o van matar els bacteris amb més eficàcia que l'original. L'estudi es va publicar el 7 d'agost a la revista Science.\n\nLa rellevància és doble: demostra que la IA pot dissenyar genomes virals sencers i funcionals, no només proteïnes o fragments aïllats, i obre una via per personalitzar virus terapèutics contra bacteris multiresistents, un dels problemes de salut pública que l'Organització Mundial de la Salut considera més urgents. Els mateixos autors, però, remarquen les implicacions de bioseguretat d'aquesta capacitat i recomanen que qualsevol futur projecte de disseny de genomes complets compti, des del primer dia, amb l'assessorament de professionals de seguretat i bioseguretat.\n\nEl treball es limita a bacteriòfags, virus que no afecten cèl·lules humanes, i els resultats es van obtenir en un entorn de laboratori controlat, lluny encara d'una aplicació clínica: calen més proves de seguretat, estabilitat i eficàcia abans de pensar en cap ús terapèutic real.",
+    "image": "./assets/ia-dissenya-bacteriofags-resistencia-antibiotics-20260815.jpg",
+    "editionDate": "2026-08-15"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "4 MIN",
+    "slug": "agents-ia-autoevolutius-habilitats-insegures-safeevolve",
+    "title": "Un estudi mostra que els agents d'IA que aprenen de la seva pròpia experiència acaben reutilitzant dreceres insegures",
+    "excerpt": "Investigadors de la Universitat de la Ciutat de Hong Kong troben que, quan un agent converteix les seves tasques reeixides en habilitats reutilitzables, algunes d'aquestes habilitats amaguen comportaments insegurs que después es propaguen a sessions noves.",
+    "sourceName": "arXiv (preprint)",
+    "sourceUrl": "https://arxiv.org/abs/2608.12851",
+    "sourceDate": "14 d'agost de 2026",
+    "body": "Una tendència creixent en els agents d'IA és fer-los «autoevolutius»: en comptes de començar de zero cada vegada, l'agent guarda les estratègies que li han funcionat com a habilitats reutilitzables i les torna a fer servir en tasques futures. La promesa és un agent que millora amb la pràctica, sense intervenció humana constant.\n\nUn equip de la Universitat de la Ciutat de Hong Kong, format per Xutao Mao, Liangjie Zhao, Xiang Zheng i Cong Wang, ha posat a prova aquesta idea amb dues eines noves, SkillMisevo-Gym i SkillMisevo-Bench, dissenyades per seguir com evolucionen les habilitats d'un agent al llarg del temps i mesurar-ne els riscos. En avaluar 25 configuracions d'agents en 525 tasques repartides en 25 episodis, van trobar que les 21 configuracions que arribaven a «evolucionar» produïen en algun moment habilitats amb contingut insegur, i que 15 d'aquestes acabaven causant algun dany real quan es reutilitzaven en sessions noves. Davant de tasques malicioses, la taxa d'èxit dels atacs que aprofitaven aquestes habilitats heretades pujava del 16% al 35,3%.\n\nEls autors proposen un mecanisme corrector, SafeEvolve, que revisa i «repara» les habilitats abans que es puguin reutilitzar. En les seves proves, aquest embolcall va reduir un 26,7% els casos en què l'agent recuperava una habilitat insegura i un 17,3% els danys en sessions noves, sense penalitzar gairebé gens el rendiment en tasques benignes (un canvi de només 0,4 punts).\n\nEl treball és un preprint penjat a arXiv el 14 d'agost i encara no ha passat per revisió per parells, de manera que les xifres s'han d'interpretar com a resultats preliminars, subjectes a la mateixa arquitectura d'agents i als bancs de proves concrets que fan servir els autors; caldrà veure si es repliquen amb altres marcs d'agents i en entorns fora del laboratori.",
+    "image": "./assets/agents-ia-autoevolutius-habilitats-insegures-safeevolve-20260815.jpg",
+    "editionDate": "2026-08-15"
+  },
+  {
+    "category": "EMPRESA",
+    "read": "4 MIN",
+    "slug": "mistral-sobirania-ia-europea-infraestructura",
+    "title": "Mistral aliena ASML, Capgemini i Amadeus per construir fins a un gigawatt de còmput europeu per a IA abans del 2030",
+    "excerpt": "La companyia francesa presenta endpoints regionals amb garantia de residència de dades, un nivell de servei amb SLA per a càrregues crítiques i una coalició d'empreses que es comprometen a llarg termini a finançar infraestructura de còmput a Europa.",
+    "sourceName": "Mistral AI (blog oficial)",
+    "sourceUrl": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
+    "sourceDate": "11 d'agost de 2026",
+    "body": "Mistral AI, l'única gran empresa europea de models fundacionals, s'ha posicionat des dels seus inicis com l'alternativa «sobirana» als grans laboratoris nord-americans i xinesos. L'11 d'agost va anunciar tres iniciatives que aprofundeixen aquesta aposta, en un moment en què governs i empreses europeus busquen reduir la seva dependència tecnològica dels Estats Units.\n\nLa primera és Mistral Regional Endpoints, ja disponible amb caràcter general, que permet als clients triar si la inferència dels seus models s'executa a Europa o als Estats Units per complir requisits de residència de dades i normativa local. La segona és Mistral Priority Tier, en fase de proves, que ofereix nivells de servei garantits amb límits de taxa personalitzats per a càrregues de treball crítiques. La tercera és l'obertura de la plataforma a models de tercers: el primer és GLM-5.2, de la xinesa Z.ai, que s'executarà amb els mateixos controls regionals i garanties que els models propis de Mistral. A més, l'empresa impulsa una coalició d'«Unitats de Còmput Europeu» (ECU) amb compromisos plurianuals d'empreses com ASML, Capgemini, Amadeus, Caisse des Dépôts i CMA CGM per finançar fins a un gigawatt de capacitat de còmput europea de cara al 2030.\n\nLa rellevància de l'anunci és que trasllada el debat sobre la «sobirania d'IA» de la retòrica política als contractes: són empreses industrials i financeres europees de primer nivell, no només administracions, les que hi posen diners a llarg termini. El conseller delegat d'ASML, Christophe Fouquet, ho va resumir dient que «pocs esforços industrials importaran més per a la propera generació d'Europa que construir la capacitat de desenvolupar i executar IA amb les seves pròpies condicions».\n\nL'anunci també exposa els límits de l'ambició europea: Mistral continua depenent de maquinari i, en bona part, de tècniques desenvolupades als Estats Units, i el seu gigawatt de capacitat previst per al 2030 és una fracció petita del que ja estan desplegant OpenAI, Google o Anthropic. El primer soci extern anunciat, a més, és un model xinès, cosa que matisa la idea d'una infraestructura purament «europea» d'extrem a extrem.",
+    "image": "./assets/mistral-sobirania-ia-europea-infraestructura-20260815.jpg",
+    "editionDate": "2026-08-15"
+  },
+  {
+    "category": "EMPRESA",
+    "read": "3 MIN",
+    "slug": "b4experience-viatges-ia-personalitzats-catalunya",
+    "title": "La catalana B4Experience fa servir IA per personalitzar viatges d'aventura segons la forma física de cada client",
+    "excerpt": "La startup barcelonina, que va facturar 250.000 euros en els primers mesos del seu pilot, ha desenvolupat des del 2021 un model propi que ajusta rutes i assistència en temps real amb un xatbot multilingüe.",
+    "sourceName": "Via Empresa",
+    "sourceUrl": "https://www.viaempresa.cat/empresa/4-startups-catalanes-indispensables-aquest-estiu_2239093_102.html",
+    "sourceDate": "13 d'agost de 2026",
+    "body": "Enmig de la fal·lera pels grans models generalistes, algunes startups catalanes petites apliquen la IA a nínxols molt concrets. És el cas de B4Experience, fundada a Barcelona pels germans Xavier i Albert Esgleas junt amb Jordi Tosas, que ven viatges d'aventura personalitzats a mida de cada client.\n\nSegons ha explicat Via Empresa el 13 d'agost, l'empresa va fer un pilot el 2019 que va facturar 250.000 euros en pocs mesos, i a partir del 2021 va començar a desenvolupar formalment el seu propi model de IA per anar més enllà d'un simple qüestionari de preferències. El sistema creua les preferències de l'usuari amb el seu nivell de forma física per dissenyar rutes i itineraris a mida, i incorpora un xatbot multilingüe que acompanya el client durant el viatge amb assistència en temps real.\n\nEl cas és rellevant perquè il·lustra un patró que es repeteix en bona part del teixit tecnològic català: empreses petites, sense el capital dels grans laboratoris, que fan servir la IA com a eina de producte en sectors tradicionals -en aquest cas el turisme actiu- en comptes d'intentar competir en la cursa dels grans models de llenguatge. És també un exemple del tipus d'adopció empresarial de la IA que rarament surt als titulars dominats per OpenAI, Google o Anthropic.\n\nL'article de Via Empresa és una peça de reportatge sobre quatre startups catalanes recomanades per a l'estiu, no pas una nota de premsa de l'empresa, però tampoc detalla xifres de facturació actuals, nombre d'usuaris ni finançament captat més enllà del pilot del 2019, de manera que l'abast real del seu creixement des de llavors queda per confirmar.",
+    "image": "./assets/b4experience-viatges-ia-personalitzats-catalunya-20260815.jpg",
+    "editionDate": "2026-08-15"
+  },
+  {
     "category": "TECNOLOGIA",
     "read": "4 MIN",
     "slug": "google-gemini-3-7-flash-codi-agents",
@@ -244,19 +309,6 @@
     "sourceDate": "5 d'agost de 2026",
     "body": "La manca de fisioterapeutes limita l'accés a una rehabilitació constant i de qualitat per a moltes persones que han patit un ictus, una tasca que fins ara els robots només podien complementar de manera molt bàsica, planificant moviments predefinits sense adaptar-se a com respon cada pacient al tacte i a la resistència.\n\nInvestigadors del Laboratori Newman de Biomecànica i Rehabilitació Humana del MIT, amb Johannes Lachner i Noah Geiger al capdavant, han desenvolupat un sistema robòtic de doble braç que fa servir models de difusió basats en transformers -la mateixa tecnologia que genera imatges a partir de text- combinats amb retroalimentació de força en temps real. El sistema es va entrenar primer amb participants sans fent moviments de rehabilitació amb diferents nivells d'esforç, i després amb dades de fisioterapeutes de la Universitat Tècnica de Munic i el centre Pfennigparade, que van portar guants amb sensors de força mentre tractaven pacients reals.\n\nA diferència dels sistemes anteriors, centrats només en la planificació del moviment, aquest robot aprèn a respondre al tacte, la força i la resistència de cada pacient, ajustant l'assistència segons la seva capacitat en cada moment. Segons Lachner, l'objectiu és \"ensenyar els robots a ajudar en teràpia física i ocupacional, no per substituir els terapeutes, sinó per ampliar el seu abast\".\n\nEls resultats presentats corresponen a proves inicials amb participants sans i a l'entrenament de models específics per terapeuta a partir de dades clíniques limitades; els investigadors mateixos els descriuen com una prova de viabilitat, i encara falta una avaluació clínica a llarg termini amb pacients reals per confirmar-ne la seguretat i l'eficàcia.",
     "image": "./assets/mit-robot-ia-generativa-rehabilitacio-ictus-20260814.jpg",
-    "editionDate": "2026-08-14"
-  },
-  {
-    "category": "EMPRESA",
-    "read": "3 MIN",
-    "slug": "earthpulse-ai-satelit-risc-climatic",
-    "title": "La barcelonina Earthpulse.ai ven a grans corporacions anàlisis de risc fetes amb dades de satèl·lit i aprenentatge profund",
-    "excerpt": "Fundada el 2020 amb el suport de Barcelona Activa, l'startup catalana combina imatges satel·litàries i models de deep learning per ajudar organitzacions a entendre riscos climàtics i territorials, amb contractes que ronden els 50.000 euros anuals per client.",
-    "sourceName": "VIA Empresa",
-    "sourceUrl": "https://www.viaempresa.cat/empresa/4-startups-catalanes-indispensables-aquest-estiu_2239093_102.html",
-    "sourceDate": "13 d'agost de 2026",
-    "body": "Mentre bona part de l'atenció mediàtica sobre la intel·ligència artificial se centra en els grans laboratoris nord-americans i xinesos, un grapat de startups catalanes apliquen tecnologies similars a problemes molt més concrets, com l'anàlisi de risc territorial per a grans corporacions i administracions públiques.\n\nEarthpulse.ai, fundada el 2020 a Barcelona per Laura Moreno i Juan B. Pedro amb el suport de Barcelona Activa, combina dades de satèl·lit i models d'aprenentatge profund per ajudar organitzacions a entendre riscos climàtics i territorials. L'empresa treballa amb grans corporacions i organismes públics, amb un valor mitjà de contracte anual proper als 50.000 euros per client, segons ha explicat a VIA Empresa.\n\nEl cas d'Earthpulse.ai encaixa amb una tendència més àmplia: l'adopció de la intel·ligència artificial per part d'empreses catalanes, que segons dades d'ACCIÓ ha passat del 12,6% el 2023 al 30,4% el 2025 entre les companyies de més de nou treballadors. A diferència dels grans models de propòsit general, aquestes eines apliquen l'aprenentatge profund a un problema molt específic -la lectura de dades satel·litàries per anticipar riscos- amb un model de negoci basat en contractes recurrents amb clients institucionals.\n\nL'article no detalla xifres globals de facturació ni de plantilla de l'empresa, ni especifica el nombre total de clients actius; les dades disponibles es limiten al valor mitjà de contracte i als fundadors, sense que hi hagi encara una ronda de finançament o balanç anual fet públic.",
-    "image": "./assets/earthpulse-ai-satelit-risc-climatic-20260814.jpg",
     "editionDate": "2026-08-14"
   },
   {
