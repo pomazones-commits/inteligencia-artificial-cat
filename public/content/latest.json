@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-15T08:18:38.577Z",
+  "updatedAt": "2026-08-15T12:26:03.759Z",
   "items": [
+    {
+      "category": "POLÍTICA",
+      "read": "4 MIN",
+      "title": "Manus torna a ser independent: Meta desfà per ordre de Pequín la compra de 2.000 milions de dòlars de l'startup xinesa d'agents d'IA",
+      "excerpt": "L'empresa que va fer viral la demostració del seu agent d'IA autònom el 2025 recupera l'operativa pròpia després que el govern xinès obligués Meta a desfer l'adquisició; esborrarà dades d'usuaris aquest mes mentre Tencent negocia entrar-hi com a accionista principal."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un estudi de METR posa a examen agents d'IA d'última generació amb preguntes de recerca reals i cap dels dos treballs supera el llindar de publicació",
+      "excerpt": "Investigadors de METR, amb Arvind Narayanan i Helen Toner entre els autors, van donar a agents capdavanters sis dies i uns 3.000 dòlars de còmput per respondre preguntes centrals de dos articles inèdits de NeurIPS 2026; els mateixos autors originals els van avaluar amb estàndards de revisió real i tots dos van suspendre."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Zuckerberg publica un manifest de 6.500 paraules i promet «superintel·ligència personal» amb accés gratuït per a milers de milions d'usuaris",
+      "excerpt": "L'assaig «The Future is for Everyone», penjat al web de Meta, defensa distribuir la superintel·ligència en comptes de concentrar-la en pocs laboratoris i promet un «mecanisme de subhasta dinàmica» perquè tothom pagui el preu més baix possible pel còmput."
+    },
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "title": "DeepSeek dispara els preus de la seva API fins a un 1.100% en hores punta, tot i que continuen per sota de la competència",
+      "excerpt": "La companyia xinesa, coneguda per haver capgirat el mercat amb preus baixíssims, apuja les tarifes dels seus models V4-Flash i V4-Pro a partir del 16 d'agost i introdueix hores punta i vall per repartir la demanda dels centres de dades."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "3 MIN",
+      "title": "La catalana Earthpulse.ai converteix imatges de satèl·lit en alertes de risc d'incendi amb aprenentatge profund",
+      "excerpt": "La startup barcelonina, fundada el 2020 per Laura Moreno i Juan B. Pedro, factura de mitjana 50.000 euros anuals per client aplicant tècniques de deep learning a dades de satèl·lit per a clients com Abertis, Iberdrola o Telefónica."
+    },
     {
       "category": "POLÍTICA",
       "read": "4 MIN",
@@ -54,12 +84,6 @@
       "read": "4 MIN",
       "title": "Mistral aliena ASML, Capgemini i Amadeus per construir fins a un gigawatt de còmput europeu per a IA abans del 2030",
       "excerpt": "La companyia francesa presenta endpoints regionals amb garantia de residència de dades, un nivell de servei amb SLA per a càrregues crítiques i una coalició d'empreses que es comprometen a llarg termini a finançar infraestructura de còmput a Europa."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "La catalana B4Experience fa servir IA per personalitzar viatges d'aventura segons la forma física de cada client",
-      "excerpt": "La startup barcelonina, que va facturar 250.000 euros en els primers mesos del seu pilot, ha desenvolupat des del 2021 un model propi que ajusta rutes i assistència en temps real amb un xatbot multilingüe."
     }
   ]
 }
