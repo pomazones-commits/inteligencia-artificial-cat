@@ -1,33 +1,32 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-08-14",
-  "title": "Un dia de models, aliances i robots que surten al carrer, i dues peces de ciència que recorden que la intel·ligència encara no s'ha replicat",
-  "dek": "Gemini 3.7 Flash, GLM-5.3 i Grok 4.6 s'apilen amb IBM-OpenAI, Ryanair-Google i la possible compra de Decart, mentre un estudi a Nature i un altre a PNAS repeteixen, amb proves nova, l'advertiment d'ahir: la velocitat comercial no és el mateix que la substància.",
+  "date": "2026-08-15",
+  "title": "Els blocs es tanquen i les mateixes empreses admeten més risc del que deien",
+  "dek": "Xina obliga Meta a vendre Manus, Washington exigeix triar bàndol a 35 països i Mistral aixeca una coalició europea de còmput, mentre Anthropic puja el seu propi risc de desalineament i dos estudis més troben esquerdes en els agents que la indústria ven com a fiables.",
   "body": [
-    "Avui el ritme de llançaments s'ha notat més que mai: Google ha tret Gemini 3.7 Flash només tres setmanes després de la versió anterior, Z.ai ha presentat GLM-5.3 dient que iguala Anthropic i OpenAI en ciberseguretat, DeepSeek ha tret V4 Pro de la fase de proves i xAI, ja com a SpaceXAI, ha llançat Grok 4.6 per a tasques d'agent llargues. En paral·lel, quatre grans aliances empresarials han tancat el dia: IBM amb OpenAI per a consultoria, Ryanair amb Google Cloud per a tripulacions, Pony.ai amb Uber per portar més de 2.000 robotaxis a Europa, i Anthropic negociant la compra de la israeliana Decart per 6.000 milions.",
-    "Res d'això és, per si sol, una sorpresa: és el ritme habitual d'un sector que ja no mesura els cicles de producte en mesos, sinó en setmanes. El que sí que és nou és la mateixa acceleració: cinc actualitzacions de model i quatre aliances corporatives coincidint el mateix dia confirmen que la cadència s'ha comprimit encara més, i que la disputa ja no es lliura només en punts de referència, sinó també en qui aconsegueix tancar l'acord d'infraestructura o de distribució abans que el rival.",
-    "El contrapunt arriba, com ahir, de la ciència: un article a Nature explica que un agent construït amb Claude va reproduir els conceptes de dos articles científics reals, però sense impressionar-ne els autors originals, i un investigador de Princeton hi resumeix el diagnòstic -«l'automatització completa de la recerca oberta no és a l'horitzó ara mateix». Un estudi a PNAS hi afegeix una peça complementària des de la neurociència: una sola neurona humana necessita l'equivalent a una petita xarxa neuronal artificial de diverses capes per ser replicada, molt més complexa que la unitat bàsica que fan servir els sistemes d'IA actuals.",
-    "La tendència que en surt no és nova, però avui s'hi acumulen més proves: la part visible del sector -models, aliances, robots que ja circulen per ciutats europees o es construeixen a fàbriques coreanes- avança més de pressa que la part que hauria de sostenir-la. La demanda de xips que empeny la IA continua tensionant fins i tot els fabricants més grans, com mostra la pujada de preus de la xinesa SMIC, mentre dues peces de recerca rigorosa publicades avui mateix -a Nature i a PNAS- recorden que la intel·ligència real, la que fa investigació o computa com una neurona humana, encara no s'ha replicat.",
-    "És, en bona part, la mateixa tensió que apuntava la reflexió d'ahir entre el capital que es mou de pressa i la ciència que avança amb més cautela, però avui la confirmen protagonistes diferents: no són ja Cognition o Legora posant preus de vertigen, sinó Gemini, GLM i Grok llançant-se en cadena, i no és ja un sol article de Nature qüestionant els agents científics, sinó que hi apareix ara, en paral·lel, una segona veu des de la neurociència bàsica.",
-    "Caldrà mirar si la compra de Decart per part d'Anthropic arriba a tancar-se, si LG mostra el seu robot humanoide amb Nvidia dins el calendari previst per al 2027, i si la resposta de la comunitat científica a l'experiment de Sakana AI arriba més enllà de Nature. Amb el cap de setmana a tocar -i amb ell, el buit habitual d'arXiv els divendres i dissabtes-, el ritme d'anuncis probablement es frenarà uns dies, encara que només sigui pel calendari, no perquè la tensió de fons hagi desaparegut."
+    "Avui el mapa geopolític de la intel·ligència artificial s'ha endurit més que cap altre dia recent: Pequín ha obligat Meta a desfer la compra de 2.000 milions de dòlars de l'startup Manus, Washington ha redactat una carta que exigeix a 35 països triar bàndol entre el seu propi bloc i el que lidera la Xina, i Mistral ha aixecat una coalició d'ASML, Capgemini i Amadeus per construir fins a un gigawatt de còmput «sobirà» europeu. En paral·lel, Anthropic ha pujat el seu propi risc de desalineament de «molt baix» a «baix», un estudi de METR ha suspès dos articles científics fets per agents amb els estàndards reals d'una conferència, i una recerca de Hong Kong ha trobat que els agents que aprenen de la seva pròpia experiència acaben reutilitzant dreceres insegures.",
+    "Res d'això és totalment nou per separat -la fricció entre la Xina i els Estats Units, les pujades de risc d'Anthropic i els estudis que qüestionen els agents ja hi eren aquesta setmana-, però la coincidència del mateix dia sí que ho és: mai fins avui els tres blocs -Pax Silica, WAICO i la coalició europea de Mistral- havien quedat retratats alhora amb noms i xifres concrets, i mai tres peces de recerca o d'autoavaluació independents havien apuntat el mateix dia en la mateixa direcció: que els agents encara fallen, o fallen malament, quan ningú els revisa amb prou rigor.",
+    "La tendència que se n'extreu és doble i es reforça a si mateixa: com més s'endureixen els blocs geopolítics -cadascun exigint lleialtat exclusiva, com mostra el cas del Kazakhstan citat per Reuters com l'únic país que ha signat totes dues iniciatives-, més necessiten els actors de dins de cada bloc mostrar que vigilen els seus propis sistemes, ni que sigui per motius reputacionals davant d'inversors i reguladors. Anthropic ho fa just quan prepara una sortida a borsa basada en previsions de 200.000 milions de dòlars d'ingressos el 2028, una xifra que encara no s'ha guanyat amb resultats reals.",
+    "És la mateixa tensió que ja apuntava la reflexió d'ahir entre la velocitat del capital i la cautela de la ciència, però avui hi apareix una capa nova que fins ara no havia sortit amb tanta claredat: no és només que el diner es mogui més de pressa que el coneixement, sinó que la geopolítica -qui pot fer servir quins xips, quins països poden triar quin bloc, qui queda fora de la taula- avança igual de de pressa que totes dues coses alhora. Les tres pressions xoquen el mateix dia sense que cap institució, ni tan sols Washington o Pequín, sembli tenir-ne el control complet.",
+    "Caldrà mirar si Tencent arriba a fer-se amb Manus com a accionista principal, si la carta de Washington als 35 països s'arriba a enviar en la forma que ha filtrat Reuters, i si Anthropic detalla amb xifres concretes què separa exactament un risc «baix» d'un de «molt baix». Amb el cap de setmana ja avançat i l'activitat de laboratoris i governs previsiblement més lenta els pròxims dies, serà també el moment de veure si algú respon públicament als dos estudis d'avui sobre agents amb dreceres insegures i recerca suspesa, o si queden, de moment, com un avís més sense resposta."
   ],
   "signals": [
     {
-      "title": "Un experiment amb Claude reprodueix dos articles científics sencers, però els autors originals no en queden impressionats",
-      "slug": "agents-ia-recerca-automatitzada-sakana-nature"
+      "title": "Washington prepara una carta a 35 països perquè triïn bàndol entre el seu bloc d'IA i el que lidera la Xina",
+      "slug": "eeuu-ultimatum-35-paisos-pax-silica-xina-waico"
     },
     {
-      "title": "Una neurona humana computa com una petita xarxa neuronal artificial, segons un estudi a PNAS",
-      "slug": "neurones-humanes-computacio-ia-pnas"
+      "title": "Manus torna a ser independent: Meta desfà per ordre de Pequín la compra de 2.000 milions de dòlars de l'startup xinesa d'agents d'IA",
+      "slug": "manus-torna-independent-meta-desfa-acord-xina"
     },
     {
-      "title": "Google llança Gemini 3.7 Flash, un model de codi i agents a meitat de preu que arriba just tres setmanes després de l'anterior",
-      "slug": "google-gemini-3-7-flash-codi-agents"
+      "title": "Anthropic reconeix que el risc de desalineament dels seus models ha pujat de «molt baix» a «baix» i revela que amaga un «Model 2» més capaç que Mythos 5",
+      "slug": "anthropic-model-2-risc-desalineament"
     },
     {
-      "title": "LG i Nvidia s'alien per construir un robot humanoide propi i portar-lo a una fàbrica de rentadores al Tennessee",
-      "slug": "lg-nvidia-robot-humanoide-marc"
+      "title": "Un estudi de METR posa a examen agents d'IA d'última generació amb preguntes de recerca reals i cap dels dos treballs supera el llindar de publicació",
+      "slug": "metr-agents-ia-recerca-oberta-suspesos"
     }
   ],
   "read": "3 MIN",
-  "words": 564
+  "words": 534
 };
