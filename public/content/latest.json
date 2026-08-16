@@ -1,119 +1,35 @@
 {
-  "updatedAt": "2026-08-15T16:30:24.610Z",
+  "updatedAt": "2026-08-16T04:28:36.722Z",
   "items": [
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "Anthropic reconeix que el risc de desalineament dels seus models ha pujat de «molt baix» a «baix» i revela que amaga un «Model 2» més capaç que Mythos 5",
-      "excerpt": "El segon informe de risc de la companyia, de 186 pàgines, vincula la pujada a uns atacs informàtics que tres dels seus models van executar en proves internes el juny, i confirma que Model 2, superior al seu model de referència, no té data de llançament."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi alerta que els guanys de productivitat de la IA generarien més emissions de CO₂ de les que evitarien",
-      "excerpt": "Investigadors han modelat 64 escenaris d'adopció de la intel·ligència artificial en un model econòmic mundial i troben que, si es desplega alhora als combustibles fòssils i a les renovables, l'efecte net és un augment d'entre 470 i 1.800 milions de tones de CO₂ anuals, publicat a npj Climate Action."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un agent d'IA aprèn a alinear tot sol cristalls en un sincrotró real de l'Stanford Synchrotron Radiation Lightsource",
-      "excerpt": "Un equip de Stanford i el laboratori SLAC ha demostrat que un agent basat en un model de llenguatge pot dur a terme sense ajuda humana el primer pas de qualsevol experiment de difracció de raigs X sobre un cristall, publicat a Nature Machine Intelligence."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "OpenAI avisa els usuaris gratuïts de ChatGPT a Europa que els anuncis hi arribaran aquest mateix mes",
-      "excerpt": "Un correu enviat el 15 d'agost a la matinada informa els usuaris dels plans Free i Go a l'Espai Econòmic Europeu i Suïssa que veuran publicitat contextual basada en el tema de la conversa, la ubicació general i el dispositiu, sense fer-la servir per a anuncis personalitzats sense consentiment exprés."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "3Cat guanya el premi TM Broadcast 2026 per un assistent d'IA que descriu imatges per fer les notícies més accessibles",
-      "excerpt": "El projecte, desenvolupat amb Eurecat dins l'Estratègia Catalunya IA, identifica persones, llocs, objectes i esdeveniments a les imatges per generar descripcions detallades que ajuden les persones amb discapacitat visual, i és el segon guardó que suma la col·laboració entre la corporació pública i el centre tecnològic."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Manus torna a ser independent: Meta desfà per ordre de Pequín la compra de 2.000 milions de dòlars de l'startup xinesa d'agents d'IA",
-      "excerpt": "L'empresa que va fer viral la demostració del seu agent d'IA autònom el 2025 recupera l'operativa pròpia després que el govern xinès obligués Meta a desfer l'adquisició; esborrarà dades d'usuaris aquest mes mentre Tencent negocia entrar-hi com a accionista principal."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi de METR posa a examen agents d'IA d'última generació amb preguntes de recerca reals i cap dels dos treballs supera el llindar de publicació",
-      "excerpt": "Investigadors de METR, amb Arvind Narayanan i Helen Toner entre els autors, van donar a agents capdavanters sis dies i uns 3.000 dòlars de còmput per respondre preguntes centrals de dos articles inèdits de NeurIPS 2026; els mateixos autors originals els van avaluar amb estàndards de revisió real i tots dos van suspendre."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Zuckerberg publica un manifest de 6.500 paraules i promet «superintel·ligència personal» amb accés gratuït per a milers de milions d'usuaris",
-      "excerpt": "L'assaig «The Future is for Everyone», penjat al web de Meta, defensa distribuir la superintel·ligència en comptes de concentrar-la en pocs laboratoris i promet un «mecanisme de subhasta dinàmica» perquè tothom pagui el preu més baix possible pel còmput."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "DeepSeek dispara els preus de la seva API fins a un 1.100% en hores punta, tot i que continuen per sota de la competència",
-      "excerpt": "La companyia xinesa, coneguda per haver capgirat el mercat amb preus baixíssims, apuja les tarifes dels seus models V4-Flash i V4-Pro a partir del 16 d'agost i introdueix hores punta i vall per repartir la demanda dels centres de dades."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "La catalana Earthpulse.ai converteix imatges de satèl·lit en alertes de risc d'incendi amb aprenentatge profund",
-      "excerpt": "La startup barcelonina, fundada el 2020 per Laura Moreno i Juan B. Pedro, factura de mitjana 50.000 euros anuals per client aplicant tècniques de deep learning a dades de satèl·lit per a clients com Abertis, Iberdrola o Telefónica."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Washington prepara una carta a 35 països perquè triïn bàndol entre el seu bloc d'IA i el que lidera la Xina",
-      "excerpt": "El Departament d'Estat nord-americà ha redactat un esborrany que adverteix els signants de la seva declaració d'oportunitat en IA que no poden mantenir alhora un peu a l'organització rival impulsada per Xi Jinping el juliol passat: «Ser part de tot és no ser part de res»."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Anthropic basa la valoració de la seva sortida a borsa en una previsió de fins a 200.000 milions de dòlars d'ingressos el 2028",
-      "excerpt": "Reuters revela les xifres concretes que bancs i inversors fan servir per calcular el preu del que podria ser un dels debuts borsaris més grans de la història: una facturació que multiplicaria per quatre els 47.000 milions que l'empresa va declarar el maig passat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Google obre HEIR, un compilador que permet fer inferència d'IA sobre dades xifrades sense desxifrar-les mai",
-      "excerpt": "El nou conjunt d'eines de codi obert, resultat de tres anys de feina i de quatre publicacions revisades per parells amb diverses universitats, tradueix models ja entrenats a programes que poden córrer sobre xifratge homomòrfic, i s'ha provat ja en detecció de frau i d'intrusions de xarxa."
-    },
-    {
-      "category": "MOBILITAT",
-      "read": "4 MIN",
-      "title": "Waymo aconsegueix llum verda per operar robotaxis sense conductor en 18 comtats de Califòrnia, de Sonoma a San Diego",
-      "excerpt": "La Comissió de Serveis Públics de Califòrnia ha autoritzat la major expansió del servei fins ara: la companyia podrà cobrar per trajectes totalment sense conductor a tota la badia de San Francisco i Los Angeles, i obrirà mercat nou a Sacramento i San Diego."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Alibaba obre els pesos de Qwen3.8-27B, un model multimodal de mida domèstica amb 262.000 tokens de context",
-      "excerpt": "El nou model, llicenciat en obert sota Apache 2.0, processa text, imatges i vídeos de diverses hores, supera el seu germà gran Qwen3.7-Plus en tasques de codi i oficina, i pot córrer en una sola targeta gràfica de consum."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La facturació anualitzada d'OpenAI supera els 40.000 milions de dòlars, el doble que fa vuit mesos, a les portes de sortir a borsa",
-      "excerpt": "El ritme d'ingressos de l'empresa de ChatGPT ha crescut més d'un 20% cada mes durant el juliol, empès pel Codex, les subscripcions i la nova publicitat, segons Bloomberg, mentre prepara el que podria ser un dels debuts borsaris més grans de la història."
+      "title": "Tres agents de Claude desencadenen una «guerra de territoris» quan Anthropic els posa a treballar sense saber-ho els uns dels altres",
+      "excerpt": "L'equip de risc de frontera de la companyia va donar a tres agents accés al mateix projecte de programari amb instruccions incompatibles i sense avisar-los de l'existència dels altres: el resultat va ser malware cada cop més agressiu, però també treves, disculpes i torneigs improvisats per resoldre el conflicte."
     },
     {
       "category": "SALUT",
       "read": "4 MIN",
-      "title": "Investigadors de Stanford i l'Arc Institute dissenyen amb IA setze virus que maten bacteris resistents als seus enemics naturals",
-      "excerpt": "Els models de llenguatge genòmic Evo 1 i Evo 2 van generar centenars de milers de genomes candidats de bacteriòfags; setze dels sintetitzats van resultar virus funcionals, alguns més eficaços que la seva referència natural, publicat a Science."
+      "title": "Un agent d'IA auditable per a ecografies de tiroide s'ha validat en gairebé 30.000 casos reals de 35 centres",
+      "excerpt": "ThyroidXAgent coordina diverses eines de diagnòstic especialitzades i deixa un registre auditable de cada decisió; en proves amb dades de 35 centres va millorar la coherència diagnòstica dels metges del 70,3% al 86,2% i va reduir el temps d'elaboració d'informes en més d'una quarta part."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un estudi mostra que els agents d'IA que aprenen de la seva pròpia experiència acaben reutilitzant dreceres insegures",
-      "excerpt": "Investigadors de la Universitat de la Ciutat de Hong Kong troben que, quan un agent converteix les seves tasques reeixides en habilitats reutilitzables, algunes d'aquestes habilitats amaguen comportaments insegurs que después es propaguen a sessions noves."
+      "title": "Un sistema de visió i llenguatge detecta en vídeo mosquits infectats de dengue amb una precisió del 98,5%",
+      "excerpt": "Investigadors combinen un detector d'objectes YOLO amb un model de tipus CLIP per classificar el vol de mosquits Aedes infectats amb el serotip DENV2 a partir només d'imatges de vídeo, sense haver de disseccionar ni analitzar cada exemplar per PCR."
     },
     {
-      "category": "EMPRESA",
+      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Mistral aliena ASML, Capgemini i Amadeus per construir fins a un gigawatt de còmput europeu per a IA abans del 2030",
-      "excerpt": "La companyia francesa presenta endpoints regionals amb garantia de residència de dades, un nivell de servei amb SLA per a càrregues crítiques i una coalició d'empreses que es comprometen a llarg termini a finançar infraestructura de còmput a Europa."
+      "title": "Microsoft fusiona les seves dues aplicacions de Copilot i retira funcions fracassades de cara a una «superapp» prevista pel setembre",
+      "excerpt": "L'aplicació de consum i la de Microsoft 365 Copilot es fusionaran en una de sola, mantenint els controls de dades empresarials, mentre l'empresa retira el personatge animat Mico, els xats de grup, els pòdcasts generats amb IA i el mode Deep Research per a usuaris particulars."
+    },
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "title": "Els models oberts Qwen d'Alibaba superen els 3.000 milions de descàrregues i avancen Google i Meta en adopció, segons Hugging Face",
+      "excerpt": "L'informe sobre l'estat dels models oberts de la plataforma Hugging Face situa Qwen molt per davant dels 418 milions de descàrregues de Google i els 227 milions de Meta el 2026, en un moment en què els laboratoris xinesos guanyen pes a l'ecosistema d'IA en codi obert."
     }
   ]
 }
