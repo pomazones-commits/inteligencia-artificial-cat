@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-16T04:28:36.722Z",
+  "updatedAt": "2026-08-16T08:21:59.290Z",
   "items": [
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Anthropic factura més d'11.500 milions de dòlars en el segon trimestre i anota el seu primer benefici operatiu ajustat",
+      "excerpt": "La xifra multiplica per catorze la del mateix trimestre de l'any passat i dobla la del trimestre anterior, segons documents consultats per Bloomberg, mentre la companyia prepara la sortida a borsa que ja ha començat a moure's amb previsions de fins a 200.000 milions de dòlars d'ingressos el 2028."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un estudi demostra que es pot robar el raonament ocult de Claude, GPT i Gemini reciclant-lo a través d'un «germà» més feble del mateix model",
+      "excerpt": "Investigadors de l'ELLIS Institute de Tübingen i el Max Planck Institute han trobat una esquerda en el xifratge amb què Anthropic, OpenAI i Google amaguen el raonament intern dels seus models: van reconstruir 315.320 blocs de raonament a partir de registres públics i hi van trobar 367 dades personals, incloses 182 credencials."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Anthropic explica com funciona la marca d'aigua invisible amb què vol identificar els textos escrits per Claude",
+      "excerpt": "La companyia detalla per primer cop la tècnica -inspirada en el SynthID de Google DeepMind- amb què decanta subtilment l'elecció de paraules de Claude per deixar un patró indetectable a ull nu però reconeixible amb la seva clau, tot i que reconeix que falla en textos molt tècnics o reescrits a fons."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Google permetrà desactivar la marca d'aigua visible de les imatges, els vídeos i les cançons generades amb Gemini",
+      "excerpt": "L'opció, disponible els pròxims dies a Configuració, no afecta el marcatge invisible SynthID ni les metadades C2PA que identifiquen igualment el contingut com a generat per IA, però suposa un gir respecte de la insistència prèvia de Google a mostrar-la sempre."
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "title": "OpenAI fa servir el seu nou model «Cyber» per trobar una vulnerabilitat greu a Chrome abans que ningú l'exploti",
+      "excerpt": "GPT-5.6-Cyber, reservat als membres més verificats del programa Daybreak Red d'OpenAI, va completar el 95% de tasques sensibles de ciberseguretat -contra només l'1,5% del model d'accés general- i va destapar un forat al motor V8 que Google ja ha corregit."
+    },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
