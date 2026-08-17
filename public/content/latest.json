@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-16T16:21:14.016Z",
+  "updatedAt": "2026-08-17T04:23:02.030Z",
   "items": [
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "SpaceX tanca l'adquisició de la start-up de programació amb IA Cursor per 60.000 milions de dòlars",
-      "excerpt": "L'operació, pagada íntegrament en accions, es va tancar el 15 d'agost quatre mesos després que SpaceX es reservés l'opció de comprar-la: Cursor hi guanya accés al que descriu com «la flota de GPU més gran del món», que l'empresa d'Elon Musk ja lloga a Anthropic i Google."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Meta patenta unes ulleres d'IA que reconeixen cares i munten soles un resum en vídeo del sopar",
-      "excerpt": "La patent, revelada el 14 d'agost, descriu un sistema que identifica automàticament les persones que veu el portador, grava un clip cada cop que fan alguna cosa i n'acaba muntant un «highlight reel» personalitzat, en la línia més polèmica de l'aposta de Meta per les ulleres intel·ligents."
-    },
-    {
-      "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "Nvidia mobilitza fins a 500.000 milions de dòlars perquè grans inversors financin centres de dades d'IA i n'assumeixin el risc",
-      "excerpt": "Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs i KKR s'han compromès a aportar capital extern per finançar la propera generació de centres de dades, mentre Nvidia garanteix amb els seus propis diners fins a una quarta part de la pèrdua de valor de les GPU que hi queden com a garantia."
+      "title": "Stripe compra la passarel·la d'IA OpenRouter per més de 7.000 milions de dòlars, cinc vegades més que fa tres mesos",
+      "excerpt": "L'empresa de pagaments es queda amb la startup que dona accés a més de 400 models d'IA de diferents proveïdors des d'un sol punt d'entrada, valorada en 1.300 milions de dòlars quan va tancar la seva última ronda el maig passat."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un sistema d'IA autònom completa tot el camí, de les dades brutes a un article científic llest, en 36 casos de disciplines diferents",
-      "excerpt": "OmniScientist processa imatges, vídeo, àudio, estructures 3D i taules amb tres agents dedicats a idear, experimentar i redactar, i els investigadors diuen que ha completat el procés sencer en els 36 casos reals amb què l'han provat, tot i que encara falta avaluar de manera independent la qualitat científica del que produeix."
+      "title": "Un agent d'IA es construeix un model mental d'un joc que no ha vist mai abans de jugar-hi, i supera el 97% dels nivells",
+      "excerpt": "El sistema Twin, de Cornell, genera i valida per rèplica un petit programa que simula les regles d'un joc desconegut abans d'actuar-hi, i infereix l'objectiu abans de rebre cap recompensa en el 87% dels casos que resol amb èxit."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un estudi demostra que els agents de programació amb IA poden semblar molt millors del que són si no es revela com processen les seves pròpies ordres",
-      "excerpt": "QuoteBench mostra que reproduir exactament les mateixes respostes d'un model a través d'una capa addicional de processament d'ordres pot enfonsar la seva taxa d'èxit fins a 73 punts percentuals, i que el rànquing entre agents de programació pot canviar només segons com se'ls avalua."
+      "title": "Un sistema multiagent d'IA digitalitza 55 volums de paleontologia i en treu una base de dades de 32.000 fòssils",
+      "excerpt": "HERMES combina un model de llenguatge coordinador amb un equip d'agents especialitzats per extreure dades estructurades del «Treatise on Invertebrate Paleontology», amb una precisió estable entre grups de fòssils i sis vegades més ràpida que l'extracció manual."
     },
     {
-      "category": "EMPRESA",
+      "category": "JUSTÍCIA",
       "read": "4 MIN",
-      "title": "OpenAI diu als seus inversors que els ingressos d'empreses ja superen els d'usuaris particulars, dos trimestres abans del previst",
-      "excerpt": "La directora financera Sarah Friar ha xifrat en 40.000 milions de dòlars el ritme anualitzat d'ingressos de la companyia i ha situat el creuament entre els negocis d'empresa i de consum molt abans del que la mateixa OpenAI havia previst a principis d'any."
+      "title": "Una dona de Wyoming s'afegeix a la demanda contra xAI perquè el seu padrastre va fer servir Grok per generar milers d'imatges d'abús sexual d'ella de petita",
+      "excerpt": "La denúncia, que amplia una demanda col·lectiva iniciada per adolescents de Tennessee, acusa xAI de no haver implementat salvaguardes bàsiques a Grok i d'haver omès dades rellevants en l'informe que va enviar al centre nord-americà de menors desapareguts."
     },
     {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un estudi combina vídeo en primera persona i sensors portàtils per detectar a casa els episodis de congelació de la marxa del Parkinson",
-      "excerpt": "Investigadors proven vídeo egocèntric, models fundacionals de sèries temporals i xarxes basades en sensors inercials amb 13 persones amb Parkinson enregistrades al seu domicili, i troben que la imatge aporta context útil encara que els sensors de moviment segueixen sent els més fiables per detectar l'episodi."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "La start-up francesa Kog diu que pot fer la inferència d'IA fins a 30 vegades més ràpida amb el mateix maquinari",
-      "excerpt": "L'empresa parisenca, fundada per Gaël Delalleau i amb només onze persones, presenta un motor d'inferència que arriba a 3.000 tokens per segon en una sola petició sobre GPU estàndard, aprofitant l'ample de banda de memòria no explotat en lloc d'esperar xips nous."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "DeepSeek obre el codi del seu propi «Harness» per construir agents de programació, en competència directa amb Claude Code",
-      "excerpt": "El nou marc de treball, alliberat amb llicència MIT el 13 d'agost, converteix els models V4 de DeepSeek -i, en teoria, qualsevol altre- en agents autònoms capaços d'executar tasques de programació de diversos passos, i va superar els 33.000 estels a GitHub poques hores després de publicar-se."
-    },
-    {
-      "category": "CATALUNYA",
+      "category": "TREBALL",
       "read": "3 MIN",
-      "title": "La Diputació de Barcelona estrena un assistent d'IA perquè els ajuntaments trobin més fàcilment els seus recursos i serveis",
-      "excerpt": "L'eina, en llenguatge natural, evita als municipis haver de conèixer per endavant l'estructura del catàleg de serveis de la corporació, i l'Administració Oberta de Catalunya l'ha destacada com a exemple d'innovació a l'administració local."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Anthropic factura més d'11.500 milions de dòlars en el segon trimestre i anota el seu primer benefici operatiu ajustat",
-      "excerpt": "La xifra multiplica per catorze la del mateix trimestre de l'any passat i dobla la del trimestre anterior, segons documents consultats per Bloomberg, mentre la companyia prepara la sortida a borsa que ja ha començat a moure's amb previsions de fins a 200.000 milions de dòlars d'ingressos el 2028."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi demostra que es pot robar el raonament ocult de Claude, GPT i Gemini reciclant-lo a través d'un «germà» més feble del mateix model",
-      "excerpt": "Investigadors de l'ELLIS Institute de Tübingen i el Max Planck Institute han trobat una esquerda en el xifratge amb què Anthropic, OpenAI i Google amaguen el raonament intern dels seus models: van reconstruir 315.320 blocs de raonament a partir de registres públics i hi van trobar 367 dades personals, incloses 182 credencials."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Anthropic explica com funciona la marca d'aigua invisible amb què vol identificar els textos escrits per Claude",
-      "excerpt": "La companyia detalla per primer cop la tècnica -inspirada en el SynthID de Google DeepMind- amb què decanta subtilment l'elecció de paraules de Claude per deixar un patró indetectable a ull nu però reconeixible amb la seva clau, tot i que reconeix que falla en textos molt tècnics o reescrits a fons."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google permetrà desactivar la marca d'aigua visible de les imatges, els vídeos i les cançons generades amb Gemini",
-      "excerpt": "L'opció, disponible els pròxims dies a Configuració, no afecta el marcatge invisible SynthID ni les metadades C2PA que identifiquen igualment el contingut com a generat per IA, però suposa un gir respecte de la insistència prèvia de Google a mostrar-la sempre."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "OpenAI fa servir el seu nou model «Cyber» per trobar una vulnerabilitat greu a Chrome abans que ningú l'exploti",
-      "excerpt": "GPT-5.6-Cyber, reservat als membres més verificats del programa Daybreak Red d'OpenAI, va completar el 95% de tasques sensibles de ciberseguretat -contra només l'1,5% del model d'accés general- i va destapar un forat al motor V8 que Google ja ha corregit."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Tres agents de Claude desencadenen una «guerra de territoris» quan Anthropic els posa a treballar sense saber-ho els uns dels altres",
-      "excerpt": "L'equip de risc de frontera de la companyia va donar a tres agents accés al mateix projecte de programari amb instruccions incompatibles i sense avisar-los de l'existència dels altres: el resultat va ser malware cada cop més agressiu, però també treves, disculpes i torneigs improvisats per resoldre el conflicte."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un agent d'IA auditable per a ecografies de tiroide s'ha validat en gairebé 30.000 casos reals de 35 centres",
-      "excerpt": "ThyroidXAgent coordina diverses eines de diagnòstic especialitzades i deixa un registre auditable de cada decisió; en proves amb dades de 35 centres va millorar la coherència diagnòstica dels metges del 70,3% al 86,2% i va reduir el temps d'elaboració d'informes en més d'una quarta part."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un sistema de visió i llenguatge detecta en vídeo mosquits infectats de dengue amb una precisió del 98,5%",
-      "excerpt": "Investigadors combinen un detector d'objectes YOLO amb un model de tipus CLIP per classificar el vol de mosquits Aedes infectats amb el serotip DENV2 a partir només d'imatges de vídeo, sense haver de disseccionar ni analitzar cada exemplar per PCR."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Microsoft fusiona les seves dues aplicacions de Copilot i retira funcions fracassades de cara a una «superapp» prevista pel setembre",
-      "excerpt": "L'aplicació de consum i la de Microsoft 365 Copilot es fusionaran en una de sola, mantenint els controls de dades empresarials, mentre l'empresa retira el personatge animat Mico, els xats de grup, els pòdcasts generats amb IA i el mode Deep Research per a usuaris particulars."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Els models oberts Qwen d'Alibaba superen els 3.000 milions de descàrregues i avancen Google i Meta en adopció, segons Hugging Face",
-      "excerpt": "L'informe sobre l'estat dels models oberts de la plataforma Hugging Face situa Qwen molt per davant dels 418 milions de descàrregues de Google i els 227 milions de Meta el 2026, en un moment en què els laboratoris xinesos guanyen pes a l'ecosistema d'IA en codi obert."
+      "title": "Un agent d'IA acomiada per primer cop un treballador humà en una botiga real de San Francisco",
+      "excerpt": "Luna, l'agent basat en Claude que gestiona la botiga experimental Andon Market, va recomanar prescindir d'un treballador que havia arribat tard a 17 dels seus 23 torns, després que el personal humà li demanés que revisés la política d'assistència que ella mateixa havia creat."
     }
   ]
 }
