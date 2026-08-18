@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-17T16:28:26.026Z",
+  "updatedAt": "2026-08-18T04:22:29.276Z",
   "items": [
     {
-      "category": "SOCIETAT",
+      "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "OpenAI dissol el seu equip de «Preparedness», el que avaluava els riscos catastròfics dels seus models, el tercer de seguretat que tanca en dos anys",
-      "excerpt": "L'empresa reparteix entre equips existents les tasques de vigilar riscos biològics, cibernètics i de persuasió just després que alguns dels seus propis models haguessin «hackejat» el repositori Hugging Face en unes proves de seguretat."
+      "title": "ACTUALITZACIÓ: Nvidia tanca l'acord i es compromet a finançar amb 105.000 milions de dòlars el centre de dades d'OpenAI a Ohio",
+      "excerpt": "El que fa uns dies eren negociacions en marxa ja és un acord tancat: Nvidia i SB Energy concreten vuit gigawatts de còmput al campus PORTS-Pike, que OpenAI llogarà vint anys a partir del 2028."
+    },
+    {
+      "category": "XIPS",
+      "read": "4 MIN",
+      "title": "Una investigació apunta que Microsoft només té 2,2 milions de xips d'IA operatius després d'invertir 280.000 milions de dòlars",
+      "excerpt": "Documents interns revisats per The Guardian mostren un centre de dades de Fairwater, a Wisconsin, encara incomplet i una xifra de xips molt per sota del que implicarien els cinc gigawatts de capacitat que l'empresa diu haver afegit."
+    },
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "title": "ACTUALITZACIÓ: Unitree es sobresubscriu 8.000 vegades i es prepara per començar a cotitzar aquesta setmana a Shanghai",
+      "excerpt": "Dues setmanes després de fixar el preu de la seva sortida a borsa, la demanda minorista del fabricant de robots humanoides bat un rècord al mercat STAR i el títol està a punt de començar a negociar-se."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un estudi amb 260 configuracions troba el punt a partir del qual afegir més agents d'IA deixa de millorar el resultat",
-      "excerpt": "Investigadors del MIT Media Lab demostren que el rendiment del model individual, no el nombre d'agents que hi treballen junts, és el que decideix si la col·laboració multiagent ajuda o perjudica una tasca."
+      "title": "Un experiment amb quatre laboratoris demostra com la variabilitat entre científics pot enganyar els models d'IA entrenats amb les seves dades",
+      "excerpt": "Investigadors de Penn State, SLAC, Stanford i UC Santa Barbara van repetir el mateix experiment de catàlisi amb un protocol idèntic i van obtenir resultats diferents, un advertiment per a la IA científica que aprèn de dades de múltiples laboratoris."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Com la intel·ligència artificial ha començat a resoldre problemes matemàtics que porten dècades oberts, els d'Erdős",
-      "excerpt": "Sistemes d'OpenAI i Google DeepMind han trobat solucions a diversos dels prop de 1.000 problemes que el matemàtic hongarès Paul Erdős va deixar sense resposta, mentre creix el debat sobre qui pot validar-los."
-    },
-    {
-      "category": "EMPRESA",
+      "category": "SALUT",
       "read": "4 MIN",
-      "title": "Nvidia negocia fins a 3.000 milions de dòlars a SB Energy dins d'un paquet de finançament de 100.000 milions per al centre de dades d'OpenAI a Ohio",
-      "excerpt": "El fabricant de xips discuteix una inversió en la filial de SoftBank que construeix el macrocentre de dades d'OpenAI a Ohio, dins d'un paquet de suport creditici que se situaria al voltant dels 100.000 milions de dòlars."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "OpenAI fa de GPT-5.6 Luna el model per defecte dels usuaris gratuïts de ChatGPT i retoca Sol per als de pagament",
-      "excerpt": "El canvi, presentat com una actualització de producte i no com un llançament de model nou, arriba amb xifres internes que apunten a una reducció notable dels errors factuals respecte a la generació anterior."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Nvidia revela participacions de 21.000 milions de dòlars a SpaceX i 30.000 milions a Intel, fruit de la seva aposta per la IA",
-      "excerpt": "La primera divulgació pública del valor de la participació de Nvidia a SpaceX des que aquesta va absorbir xAI mostra com la fabricant de xips converteix les seves inversions en clients captius del seu maquinari."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi amb 13 milions de sessions reals de GitHub Copilot destapa com funcionen de veritat els agents de programació amb IA",
-      "excerpt": "Investigadors de Microsoft analitzen per primer cop a escala de producció el comportament dels agents de codi -3,2 milions d'usuaris i 95 bilions de tokens- i troben patrons que qüestionen com s'ha de dissenyar la infraestructura que els serveix."
-    },
-    {
-      "category": "DEFENSA",
-      "read": "4 MIN",
-      "title": "El Japó estudia incorporar sistemes d'IA de Palantir i Anduril al comandament de les seves forces d'autodefensa",
-      "excerpt": "Tòquio explora desplegar les eines d'intel·ligència artificial de les dues empreses nord-americanes en les operacions de comandament i control militar, sota la supervisió d'una plataforma pròpia, enmig de la modernització de defensa davant la Xina, Corea del Nord i Rússia."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "3 MIN",
-      "title": "Agents Rurals amplia amb càmeres d'intel·ligència artificial la vigilància del Cap de Creus",
-      "excerpt": "El cos formalitza la instal·lació de dues càmeres d'alta resolució amb IA i visió nocturna capaces de detectar embarcacions i matrícules al parc natural gironí, amb l'objectiu d'arribar a set punts de vigilància aquesta tardor."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Grok 4.6, de SpaceXAI, arriba a GitHub Copilot en vuit entorns de programació diferents",
-      "excerpt": "GitHub incorpora al seu selector de models el darrer llançament de xAI, pensat per a tasques d'agent de llarga durada, disponible des de Visual Studio Code fins a JetBrains o Xcode per als plans de pagament de Copilot."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "5 MIN",
-      "title": "«És una crisi de confiança», diu Dario Amodei sobre el rebuig creixent a la intel·ligència artificial",
-      "excerpt": "El conseller delegat d'Anthropic respon a les crítiques que les seves pròpies advertències sobre els riscos de la IA alimenten la desconfiança pública, i demana que les empreses del sector deixin de prometre i comencin a demostrar resultats reals, com una cura contra el càncer."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Els sistemes d'IA legal encara «al·lucinen» en gairebé la meitat de les respostes en els pitjors casos, segons un estudi",
-      "excerpt": "Investigadors avaluen vuit sistemes de recuperació augmentada per generació (RAG) aplicats al dret -el RGPD i el dret civil francès- i troben que les preguntes amb premisses falses disparen els errors, fins i tot en les eines més fiables."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La start-up d'IA per generar vídeos Higgsfield capta 400 milions de dòlars i es dispara a una valoració de 5.400 milions",
-      "excerpt": "Goldman Sachs, Intel i el fons DST Global entren en la ronda de finançament de la companyia, fundada fa només tres anys per un antic responsable d'IA generativa de Snap, que diu haver multiplicat els seus ingressos per trenta-cinc en un any."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Set de cada deu joves nord-americans desconfien dels grans caps de la IA, segons una enquesta de CNBC",
-      "excerpt": "L'enquesta, feta a 1.088 persones d'entre 18 i 34 anys, situa Alex Karp, de Palantir, com el directiu en qui menys confien (81%), i Satya Nadella, de Microsoft, com l'únic que se salva relativament: encara així, un 65% tampoc no confia en ell."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Singapore es juga la seva bossa de talent financer amb Hong Kong apostant per l'accés lliure a la IA",
-      "excerpt": "Mentre Hong Kong prepara rebaixes fiscals per retenir gestors de fons, Singapore confia que l'accés sense restriccions a models nord-americans i xinesos -com Moonshot i DeepSeek- convenci els grans bancs de quedar-s'hi, en un moment en què Citadel ja ha ultimat el trasllat dels seus analistes de Hong Kong."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Stripe compra la passarel·la d'IA OpenRouter per més de 7.000 milions de dòlars, cinc vegades més que fa tres mesos",
-      "excerpt": "L'empresa de pagaments es queda amb la startup que dona accés a més de 400 models d'IA de diferents proveïdors des d'un sol punt d'entrada, valorada en 1.300 milions de dòlars quan va tancar la seva última ronda el maig passat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un agent d'IA es construeix un model mental d'un joc que no ha vist mai abans de jugar-hi, i supera el 97% dels nivells",
-      "excerpt": "El sistema Twin, de Cornell, genera i valida per rèplica un petit programa que simula les regles d'un joc desconegut abans d'actuar-hi, i infereix l'objectiu abans de rebre cap recompensa en el 87% dels casos que resol amb èxit."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un sistema multiagent d'IA digitalitza 55 volums de paleontologia i en treu una base de dades de 32.000 fòssils",
-      "excerpt": "HERMES combina un model de llenguatge coordinador amb un equip d'agents especialitzats per extreure dades estructurades del «Treatise on Invertebrate Paleontology», amb una precisió estable entre grups de fòssils i sis vegades més ràpida que l'extracció manual."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "title": "Una dona de Wyoming s'afegeix a la demanda contra xAI perquè el seu padrastre va fer servir Grok per generar milers d'imatges d'abús sexual d'ella de petita",
-      "excerpt": "La denúncia, que amplia una demanda col·lectiva iniciada per adolescents de Tennessee, acusa xAI de no haver implementat salvaguardes bàsiques a Grok i d'haver omès dades rellevants en l'informe que va enviar al centre nord-americà de menors desapareguts."
-    },
-    {
-      "category": "TREBALL",
-      "read": "3 MIN",
-      "title": "Un agent d'IA acomiada per primer cop un treballador humà en una botiga real de San Francisco",
-      "excerpt": "Luna, l'agent basat en Claude que gestiona la botiga experimental Andon Market, va recomanar prescindir d'un treballador que havia arribat tard a 17 dels seus 23 torns, després que el personal humà li demanés que revisés la política d'assistència que ella mateixa havia creat."
+      "title": "Un algorisme d'aprenentatge per reforç proposa dosis de fluids i vasopressors per a la sèpsia que superen la pràctica clínica habitual, en un estudi retrospectiu",
+      "excerpt": "Investigadors espanyols han entrenat un model amb gairebé 37.000 estades de pacients sèptics a la UCI de la base de dades MIMIC-IV i n'han validat les decisions amb dos mètodes estadístics independents, sense arribar encara a la pràctica clínica."
     }
   ]
 }
