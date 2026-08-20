@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-19T16:26:38.568Z",
+  "updatedAt": "2026-08-20T04:24:19.986Z",
   "items": [
-    {
-      "category": "XIPS",
-      "read": "5 MIN",
-      "title": "Pequín deixa entrar xips Nvidia H200 a la Xina, però és el mateix govern xinès qui ara els vol mantenir lluny del continent",
-      "excerpt": "ByteDance i Tencent ja han rebut uns 10.000 processadors H200 cadascuna després que els reguladors xinesos suavitzin els seus propis límits, en un gir on Pequín, no Washington, frena ara l'entrada massiva de xips nord-americans."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi de Salesforce demostra que els agents d'IA que «aprenen sols» són molt més fràgils del que semblava",
-      "excerpt": "Qinyuan Ye i el seu equip reavaluen dos mètodes d'agents amb memòria que milloren tasca rere tasca i troben que el seu rendiment depèn en bona part de l'ordre en què arriben les tasques, no només de la seva capacitat real."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Uns nanorobots impulsats per llum cacen i recullen bacteris amb la precisió d'un cotxe teledirigit",
-      "excerpt": "L'equip de Bert Hecht a la Universitat de Würzburg publica a Nature Communications uns dispositius més petits que un micròmetre que es propulsen amb el retrocés dels fotons i giren 90 graus a voluntat només canviant la polarització de la llum."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "El model d'IA WeatherNext de Google DeepMind guanya un dia sencer d'antelació en la previsió de ciclons",
-      "excerpt": "L'estudi, publicat a Nature, mostra que les prediccions a tres dies de WeatherNext igualen la precisió que abans només s'aconseguia a dos dies vista, un salt equivalent a una dècada de progrés meteorològic, ja provat amb l'huracà Melissa."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Microsoft tarda vuit mesos a tapar un forat de Copilot que robava dades amb un sol clic",
-      "excerpt": "La vulnerabilitat CoSnitch, descoberta per Varonis el 31 de desembre, combinava execució automàtica d'ordres i enverinament permanent de la memòria de l'assistent per buidar comptes de Gmail, Drive, Calendar i OneDrive."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI reconeix que vigilar Astra les 24 hores li encareix un 20% la inferència, just després que un model no publicat trenqués Hugging Face",
-      "excerpt": "L'empresa amplia el seguiment del raonament intern del seu proper model a totes les consultes, no només a l'entrenament, arran d'un incident de seguretat que la va portar a aturar temporalment l'entrenament de models de frontera."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Unitree es dispara fins a un 629% en el seu debut a la Borsa de Shanghai, en un dels mercats generals a la baixa",
-      "excerpt": "El fabricant xinès de robots humanoides tanca la primera sessió amb un valor de mercat proper als 48.000 milions de dòlars, després d'una sortida a borsa sobresubscrita 8.000 vegades que ja s'havia avançat als dies previs."
-    },
-    {
-      "category": "NORMATIVA",
-      "read": "4 MIN",
-      "title": "El governador de Pennsilvània obliga els centres de dades d'IA a pagar tota la factura elèctrica i a obtenir el vistiplau dels veïns",
-      "excerpt": "Josh Shapiro signa una ordre executiva que treu els projectes del programa de tramitació ràpida de l'estat, prohibeix els acords de confidencialitat i exigeix aprovació local, després que més de 100 propostes de centres de dades disparessin la inquietud veïnal."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "5 MIN",
-      "title": "Alipay obre el seu «Ah Bao», un assistent d'IA que compra, reserva i paga per tu en 10.000 serveis quotidians a la Xina",
-      "excerpt": "Ant Group presenta a Hangzhou la primera infraestructura xinesa de «comerç agèntic» de dalt a baix, amb un protocol perquè els agents d'IA negociïn entre si i marques com McDonald's, Luckin Coffee o setze fabricants de cotxes ja hi són connectades."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Una filtració a macOS destapa uns AirPods amb càmera que «veuran» el que tens al davant per a la nova Siri amb IA",
-      "excerpt": "Un vídeo promocional oblidat dins d'una versió de prova de macOS 26.7 mostra uns auriculars que envien imatges de l'entorn a la funció Visual Intelligence, amb un indicador lluminós que avisa quan les dades viatgen al núvol."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "title": "La Motion Picture Association i ByteDance signen el primer acord global per protegir els drets d'autor davant la IA generativa de vídeo",
-      "excerpt": "El memoràndum, signat el 17 d'agost, estableix un marc de garanties per als models Seedance i Seedream de TikTok després que el gremi de grans estudis els acusés el febrer d'infringir personatges protegits."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi del MIT demostra que moltes imatges generades per IA no es poden atribuir a cap dada d'entrenament concreta",
-      "excerpt": "Zheng Dai i David Gifford, del CSAIL, publiquen a Nature Communications un mètode que permet eliminar imatges d'entrenament sense reentrenar el model i troben que, com més gran és el conjunt de dades, menys pesa cada exemple individual en el resultat."
-    },
     {
       "category": "PRIVACITAT",
       "read": "4 MIN",
-      "title": "Google compra per 10 milions de dòlars les dades internes de Spirit Airlines, en fallida, per entrenar la seva IA",
-      "excerpt": "El gegant tecnològic ha guanyat una subhasta judicial per un arxiu de centenars de milions de correus i xats de Microsoft Teams de l'aerolínia liquidada, amb les dades de passatgers suposadament anonimitzades per un tercer."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Etched dobla la seva valoració a 21.000 milions de dòlars en un mes amb una nova ronda per fabricar xips especialitzats en inferència",
-      "excerpt": "La startup, fundada per tres exalumnes de Harvard, tanca una sèrie C de 700 milions de dòlars liderada per Jane Street mentre fitxa enginyers de Nvidia per competir en un dels colls d'ampolla més cars de la IA d'agents."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "La Generalitat farà servir intel·ligència artificial per detectar els pisos buits de Catalunya sense inspeccions presencials",
-      "excerpt": "El CIMNE de Lleida desenvolupa per encàrrec del Govern un sistema que creua dades de consum d'aigua i llum amb el padró per identificar habitatges desocupats, amb l'objectiu de tenir un mapa de prevalença l'any vinent."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Cerebras presenta el CS-4, un sistema que diu accelerar 30 vegades la inferència d'IA respecte de les GPU",
-      "excerpt": "El nou rack, amb tres obleus WSE-3 Turbo i 750 petaflops de còmput, arriba amb el suport d'OpenAI, AMD i AWS i vol convertir la velocitat de resposta en l'avantatge competitiu dels agents d'IA, no només dels xatbots."
+      "title": "OpenAI estrena un sistema de vigilància que no guarda cap dada, en un gest directe contra Anthropic per la privacitat empresarial",
+      "excerpt": "La companyia comença a oferir a clients d'empresa i d'API un mecanisme que detecta patrons d'abús entre diverses converses sense revisió humana ni retenció de dades, en contrast amb la política d'Anthropic de conservar-les 30 dies."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Google i el Regne Unit posen a prova un sistema d'IA per reduir les estel·les de condensació dels avions sobre l'Atlàntic",
-      "excerpt": "«Operation Blue Skies», amb el control aeri britànic NATS, el Met Office i les universitats de Cambridge i Imperial College, és el primer assaig finançat per un govern que intenta evitar estel·les a l'escala de tot un espai aeri oceànic."
+      "title": "Uns ratolins es reparteixen sols els papers de líder i seguidor, i una IA revela per primer cop com ho decideix el seu cervell",
+      "excerpt": "Un estudi de la Icahn School of Medicine at Mount Sinai combina imatges cerebrals amb un mètode d'aprenentatge per reforç invers per mostrar com el còrtex prefrontal assigna rols de cooperació entre parelles de ratolins."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "La FDA ha autoritzat 1.357 dispositius mèdics amb IA, però només tres s'han provat amb resultats reals en pacients",
+      "excerpt": "Un estudi de la Universitat de Toronto publicat a PLOS Digital Health constata que l'autorització regulatòria d'un dispositiu d'intel·ligència artificial diu que s'assembla a un altre ja existent, no que ajudi de veritat als pacients."
+    },
+    {
+      "category": "XIPS",
       "read": "4 MIN",
-      "title": "Un estudi mostra que els infants aprenen paraules cada cop més de pressa, mentre els grans models de llenguatge no milloren aquest ritme",
-      "excerpt": "Michael C. Frank, de la Universitat de Stanford, compara com creix el vocabulari dels infants amb com aprenen els models de llenguatge entrenats amb parla adreçada a criatures, i troba una diferència que la simple acumulació de dades no explica."
+      "title": "Samsung apuja fins a un 15% els preus dels seus xips més avançats, desbordada per la demanda de maquinari per a IA",
+      "excerpt": "La pujada dels processos de 4 i 5 nanòmetres, sol·licitada sobretot per clients xinesos que busquen alternatives a TSMC, podria fer rendible per primer cop el negoci de fonedora de xips de la companyia coreana l'any que ve."
     },
     {
-      "category": "CIBERSEGURETAT",
+      "category": "XIPS",
       "read": "4 MIN",
-      "title": "CISA dona tres dies a les agències federals dels EUA per tapar un forat crític al framework d'IA Ray que ja s'explota activament",
-      "excerpt": "La vulnerabilitat, amb una puntuació de gravetat de 9,4 sobre 10, permet executar codi de manera remota simplement fent que la víctima visiti una pàgina web maliciosa, i ja s'ha fet servir per muntar una xarxa de bots i per minar criptomonedes."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "3 MIN",
-      "title": "Barcelona és la ciutat de l'Estat que millor s'ha adaptat a la intel·ligència artificial, per davant de Madrid i València",
-      "excerpt": "L'índex AI City d'Adobe situa Barcelona al capdavant amb 94,24 punts sobre 100 i amb la ràtio més alta d'ofertes de feina relacionades amb IA per milió d'habitants, mentre Espanya en conjunt ocupa el sisè lloc mundial en adopció."
+      "title": "Una start-up britànica de xips per a IA multiplica per sis la seva valoració en tres mesos gràcies a un contracte amb Anthropic",
+      "excerpt": "Fractile, fundada per un roboticista d'Oxford, negocia una ronda de 600 milions de dòlars a una valoració de 6.500 milions després d'acordar la venda de 250 milions en xips especialitzats en inferència a Anthropic."
     }
   ]
 }
