@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-08-19",
+    "title": "La infraestructura corre, la vigilància arriba tard i cara",
+    "dek": "Xips, valoracions i robots es disparen avui a tot el món mentre la seguretat i el control arriben sempre després del fet: un incident, una vulnerabilitat ja explotada o la pressió d'una comunitat veïnal.",
+    "body": [
+      "Avui el fil més clar és un contrast: d'una banda, capital i maquinari que s'acceleren sense fre -Nvidia deixa entrar (amb reticències de la mateixa Pequín) xips H200 a la Xina, Etched dobla la seva valoració a 21.000 milions en un mes, Cerebras presenta el seu sistema d'inferència més ràpid i Unitree es dispara un 629% en el seu debut borsari a Shanghai-; de l'altra, mesures de seguretat i control que sempre arriben després dels fets, mai abans. És el mateix dia en què OpenAI reconeix que vigilar el seu proper model li costa un 20% més de còmput, però només després que un incident amb Hugging Face l'obligués a aturar entrenaments.",
+      "El soroll d'avui és la quantitat de xifres rècord -valoracions, percentatges de pujada borsària, milions de dòlars-, que diuen molt sobre l'entusiasme inversor i poc sobre si els sistemes són fiables. El que hi ha de nou de debò és el patró que comparteixen tres notícies aparentment separades: CISA dona tres dies a les agències nord-americanes per tapar un forat crític al framework Ray, ja explotat per una xarxa de bots des de fa mesos; Microsoft tarda vuit mesos a pedaçar una vulnerabilitat de Copilot que robava dades amb un sol clic; i OpenAI només amplia la vigilància de la cadena de pensament del seu model un cop ha detectat un problema real. En els tres casos, la resposta arriba després del dany, no abans.",
+      "La tendència que se n'extreu és que la velocitat amb què es desplega infraestructura d'IA -xips, models, robots, plataformes de comerç agèntic com l'Ah Bao d'Alipay- continua sense trobar un ritme equivalent en la vigilància que hauria d'acompanyar-la. Fins i tot quan hi ha resposta, com l'ordre executiva de Pennsilvània que obliga els centres de dades a pagar la factura elèctrica i a obtenir aprovació veïnal, arriba perquè més de cent projectes ja havien disparat la inquietud local, no com a previsió. El mateix es repeteix amb l'acord entre la Motion Picture Association i ByteDance sobre drets d'autor: els estudis de Hollywood hi arriben després d'una carta de requeriment, no com a marc pactat des de l'inici del desplegament dels seus models de vídeo.",
+      "La ciència publicada avui hi afegeix un matís necessari: un estudi de Salesforce mostra que els agents d'IA que «aprenen sols» són molt més fràgils del que suggerien les seves pròpies proves, sovint perquè depenen de l'ordre en què arriben les tasques més que de la seva capacitat real. És la mateixa lliçó que la comparació de Stanford entre infants i models de llenguatge: la velocitat amb què avancen els titulars no sempre coincideix amb la solidesa del que hi ha a sota, i mesurar-ho bé costa més que llançar-ho.",
+      "Si la reflexió de fa dos dies parlava de com OpenAI dissolia el seu equip de riscos catastròfics just quan Nvidia negociava desenes de milers de milions per a un sol centre de dades, avui la mateixa empresa amplia vigilància -però només després d'un incident, i amb un cost que reconeix obertament-. El fil no es trenca: es confirma amb una dada concreta, un 20% més de còmput, del que costa vigilar de debò un model que la mateixa companyia considera de risc. La diferència és que avui aquest cost té xifra pròpia, i que arriba en un moment en què OpenAI es prepara per haver de rendir comptes trimestrals com a empresa cotitzada.",
+      "Caldrà mirar si Pequín manté els xips H200 fora del continent com diu voler, si el pedaç de Microsoft a Copilot aguanta sense noves variants com Reprompt o SearchLeak, i si les agències federals nord-americanes arriben a temps al termini de CISA per al forat de Ray. També val la pena seguir si l'estudi de Salesforce sobre la fragilitat dels agents autònoms té recorregut en com les empreses -Salesforce inclosa- venen les seves pròpies eines d'agents, i si el debut d'Unitree a Shanghai es manté o es desinfla un cop passada l'eufòria del primer dia."
+    ],
+    "signals": [
+      {
+        "title": "OpenAI reconeix que vigilar Astra les 24 hores li encareix un 20% la inferència, just després que un model no publicat trenqués Hugging Face",
+        "slug": "openai-astra-monitoratge-ciberseguretat-cost"
+      },
+      {
+        "title": "CISA dona tres dies a les agències federals dels EUA per tapar un forat crític al framework d'IA Ray que ja s'explota activament",
+        "slug": "vulnerabilitat-critica-ray-cisa-federal"
+      },
+      {
+        "title": "Microsoft tarda vuit mesos a tapar un forat de Copilot que robava dades amb un sol clic",
+        "slug": "microsoft-copilot-cosnitch-vulnerabilitat-pedac"
+      },
+      {
+        "title": "Pequín deixa entrar xips Nvidia H200 a la Xina, però és el mateix govern xinès qui ara els vol mantenir lluny del continent",
+        "slug": "nvidia-h200-xina-pequin-restriccions"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 660
+  },
+  {
     "date": "2026-08-17",
     "title": "El dia en què la vigilància es retira i el capital s'accelera",
     "dek": "OpenAI dissol el seu equip de riscos catastròfics mentre negocia 100.000 milions per a un sol centre de dades, un jove de cada deu confia en els caps de la IA i una demanda contra xAI recorda per què aquesta vigilància existia.",
