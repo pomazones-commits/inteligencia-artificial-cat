@@ -9,7 +9,7 @@ window.IA_TRIBUNA = {
   "author": "Manel Sanromà",
   "role": "President de CIVICAi",
   "title": "Tot va molt (massa?) de pressa",
-  "excerpt": "Un 5% de millora cada dia són cinc vegades més ràpid al cap d’un mes i tres mil al cap de mig any: això és l’auto-millora recursiva. Sanromà la lliga amb el «xoc del futur» de Toffler i amb el precedent nuclear —la bomba set anys abans que el primer reactor elèctric— per reclamar un «projecte Manhattan» sense secretismes que doti la revolució de mecanismes de control.",
+  "excerpt": "Un 5% de millora cada dia són cinc vegades més ràpid al cap d’un mes i tres mil al cap de mig any: això és l’auto-millora recursiva. Sanromà la lliga amb el «xoc del futur» de Toffler i amb el precedent nuclear —la bomba sis anys abans que el primer reactor elèctric— per reclamar un «projecte Manhattan» sense secretismes que doti la revolució de mecanismes de control.",
   "quote": "Per primera vegada tenim una tecnologia que pot millorar-se sense aturador: el canvi exponencial. Què pot anar malament?",
   "photo": "./assets/tribuna-manel-sanroma-20260730.jpg",
   "photoAlt": "Retrat de Manel Sanromà",
