@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-20T16:23:33.801Z",
+  "updatedAt": "2026-08-21T04:21:33.976Z",
   "items": [
     {
-      "category": "SALUT",
+      "category": "EMPRESA",
       "read": "5 MIN",
-      "title": "La primera prova en directe d'una IA assistent a urgències no falla per errors, sinó perquè els metges deixen de fer-la servir",
-      "excerpt": "Nature Medicine publica l'avaluació prospectiva de SHAKED en un servei d'urgències d'Israel: dels 100 informes revisats per experts, 99 eren clínicament adequats, però l'ús pels metges va caure del 68% al 30% en quatre setmanes, sobretot en els torns més carregats de feina."
+      "title": "Anthropic vol una sortida a borsa que iguali o superi el rècord de SpaceX, amb una valoració de fins a 2 bilions de dòlars",
+      "excerpt": "Bloomberg revela que Anthropic ha presentat de manera confidencial el formulari S-1 a la SEC i podria fer-lo públic a finals d'agost, amb l'objectiu de sortir a borsa a l'octubre. L'empresa aspira a igualar o superar els 86.200 milions de dòlars que va captar SpaceX en el seu debut de juny."
     },
     {
       "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi amb la UPC demostra que canviar el nombre d'agents d'IA n'inverteix les preferències, encara que el model sigui exactament el mateix",
-      "excerpt": "El treball, publicat a PNAS, fa jugar poblacions d'entre dos i un milió d'agents de quatre models diferents i troba que la mida del grup pot amplificar un biaix, crear-ne un del no-res o girar-lo del revés; el punt de canvi varia entre dos i deu mil agents segons el cas."
-    },
-    {
-      "category": "PRODUCTE",
       "read": "4 MIN",
-      "title": "Meta obre a tots els Estats Units Pocket, l'aplicació que deixa fabricar jocs amb una frase i publicar-los en un feed",
-      "excerpt": "Els «gizmos» que genera l'app responen al tacte i a la inclinació del mòbil, incorporen so, música i fotos del carret de l'usuari, i es poden desar, remesclar o republicar; Zuckerberg atribueix el ritme d'aquests llançaments a la programació assistida per IA."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Salesforce trasllada els agents programadors al xat de l'equip: Slack Code els fa treballar a la vista de tothom",
-      "excerpt": "La nova funció obre un «canal de codi» quan algú esmenta un agent dins d'una conversa, i hi mostra els canvis, les vistes prèvies i els enllaços al repositori; accepta Claude Code, v0 de Vercel, Devin de Cognition, ChatGPT i agents de tercers per API."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Diversos investigadors de ciberseguretat es queden sense accés al programa restringit d'OpenAI, que ho atribueix a un error propi",
-      "excerpt": "Almenys cinc professionals de fora dels Estats Units i Europa denuncien que el Trusted Access for Cyber els rebutja dient que no els pot verificar la identitat; OpenAI reconeix el problema, diu que afecta un nombre limitat d'usuaris i els demana que es tornin a registrar."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "OpenAI diu als seus empleats que sortirà a borsa el 2027, i que no li amoïna que Anthropic ho faci abans",
-      "excerpt": "La directora financera Sarah Friar va assegurar en una reunió interna que la companyia serà cotitzada el 2027, o abans si el negoci \"continua disparant-se\", i va presentar dades de creixement que situen els ingressos trimestrals un 35% per sobre de l'anterior."
+      "title": "Investigadors de la Universitat McGill redueixen 33 vegades el cost de fer que una IA sàpiga quan no sap prou",
+      "excerpt": "Un equip del departament de matemàtiques i estadística de McGill presenta a l'ICML 2026 les xarxes neuronals bayesianes singulars, un mètode que estima la incertesa d'un model d'IA amb molts menys paràmetres que les tècniques actuals, sense perdre precisió."
     },
     {
       "category": "SALUT",
       "read": "5 MIN",
-      "title": "Una IA de la Universitat de Surrey identifica tres camins de recuperació diferents després d'un infart, per adaptar-hi l'atenció mèdica",
-      "excerpt": "L'estudi, publicat el 19 d'agost al Journal of the American Medical Informatics Association amb dades de gairebé 12.700 pacients del Biobank britànic, distingeix un grup d'alt risc -sobretot fumadors- amb una mortalitat tres vegades superior a la resta."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Binance obre la porta perquè agents d'IA comprin i venguin criptomonedes soles, amb límits diaris per evitar desastres",
-      "excerpt": "El nou Agent OS de l'exchange connecta eines com ChatGPT, Claude Code o Cursor amb subcomptes que bloquegen les retirades de fons per defecte, però la mateixa companyia admet que no pot veure el raonament que porta els agents a decidir cada operació."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Meta AI arriba a l'ordinador de sobretaula amb una aplicació per a Mac que dicta text a qualsevol programa i llegeix la pantalla",
-      "excerpt": "La nova app, moguda pel model Muse Spark, competeix amb eines com Whisper Flow i Superwhisper i afegeix integracions amb Instagram, Facebook i Google Workspace pensades sobretot per a petits negocis."
+      "title": "Un equip internacional de 23 metges construeix el primer gran examen multilingüe per detectar quan la IA mèdica falla en llengües minoritzades",
+      "excerpt": "HealMed, un nou banc de proves publicat a arXiv i desenvolupat durant dos anys per especialistes de nou països, revela que el rendiment dels models de llenguatge en medicina cau de manera desigual segons l'idioma, i que la traducció experta pot canviar els resultats de l'avaluació."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "La britànica Air Marketing compra la barcelonina Cleverep, especialitzada en prospecció comercial amb IA",
-      "excerpt": "L'operació, tancada el 19 d'agost, dona a la firma britànica d'externalització de vendes accés a la tecnologia de dades i intel·ligència artificial de Cleverep i a la seva experiència consolidada al mercat de parla alemanya."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Anthropic demostra que Claude pot dissenyar tot sol proteïnes útils per a nous fàrmacs, amb un encert superior al de l'equip humà",
-      "excerpt": "Els models Mythos Preview i Opus 4.8 van orquestrar sols diverses eines de disseny de proteïnes de codi obert i van encertar en 14 dels 15 objectius provats, amb un percentatge d'èxit superior al que és habitual en aquesta fase de la recerca farmacèutica."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "SpaceX hauria intentat comprar la start-up de programació amb IA Cognition, però el seu conseller delegat ho nega en públic",
-      "excerpt": "Bloomberg informa que l'empresa de Musk va tantejar l'adquisició de Cognition, creadora de l'agent programador Devin, just després de tancar la compra de Cursor per 60.000 milions de dòlars; el conseller delegat de Cognition assegura que l'empresa \"no està en venda\"."
+      "title": "Meta gasta centenars de milions de dòlars a l'any en models d'IA de Microsoft Azure, malgrat construir la seva pròpia infraestructura",
+      "excerpt": "Bloomberg revela que Meta s'ha convertit en un dels grans clients d'Azure AI, amb un consum de bilions de tokens cada setmana, un senyal que ni les tecnològiques que més inverteixen en IA pròpia poden prescindir del núvol de la competència."
     },
     {
       "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Google regala un any de Gemini Pro als estudiants universitaris dels Estats Units per guanyar-los abans que ChatGPT",
-      "excerpt": "L'oferta, disponible fins al 31 de desembre, dona accés gratuït durant dotze mesos a un pla que val 19,99 dòlars al mes, amb més capacitat d'ús, eines d'estudi noves i 5 TB d'emmagatzematge; els estudiants de fora dels Estats Units reben una versió reduïda del servei."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "Els centres de dades d'IA a Europa s'allunyen cada cop més de les grans ciutats a la recerca d'electricitat i terreny barat",
-      "excerpt": "Una anàlisi de la consultora immobiliària JLL, recollida per Reuters, mostra que la distància mitjana dels nous projectes respecte als grans nusos urbans s'ha triplicat en tres anys, mentre les inversions globals en aquesta infraestructura s'apropen als 725.000 milions de dòlars el 2026."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Warp llança una infraestructura perquè les empreses facin treballar flotes senceres d'agents d'IA programadors sense muntar-s'ho tot des de zero",
-      "excerpt": "Warp Factories, en fase beta tancada des del 18 d'agost, ofereix un sistema llest per gestionar tot el cicle d'un tiquet de programació -especificació, implementació, revisió i verificació- executat per diversos agents d'IA, sigui quin sigui el model que facin servir."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "OpenAI estrena un sistema de vigilància que no guarda cap dada, en un gest directe contra Anthropic per la privacitat empresarial",
-      "excerpt": "La companyia comença a oferir a clients d'empresa i d'API un mecanisme que detecta patrons d'abús entre diverses converses sense revisió humana ni retenció de dades, en contrast amb la política d'Anthropic de conservar-les 30 dies."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Uns ratolins es reparteixen sols els papers de líder i seguidor, i una IA revela per primer cop com ho decideix el seu cervell",
-      "excerpt": "Un estudi de la Icahn School of Medicine at Mount Sinai combina imatges cerebrals amb un mètode d'aprenentatge per reforç invers per mostrar com el còrtex prefrontal assigna rols de cooperació entre parelles de ratolins."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "La FDA ha autoritzat 1.357 dispositius mèdics amb IA, però només tres s'han provat amb resultats reals en pacients",
-      "excerpt": "Un estudi de la Universitat de Toronto publicat a PLOS Digital Health constata que l'autorització regulatòria d'un dispositiu d'intel·ligència artificial diu que s'assembla a un altre ja existent, no que ajudi de veritat als pacients."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Samsung apuja fins a un 15% els preus dels seus xips més avançats, desbordada per la demanda de maquinari per a IA",
-      "excerpt": "La pujada dels processos de 4 i 5 nanòmetres, sol·licitada sobretot per clients xinesos que busquen alternatives a TSMC, podria fer rendible per primer cop el negoci de fonedora de xips de la companyia coreana l'any que ve."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Una start-up britànica de xips per a IA multiplica per sis la seva valoració en tres mesos gràcies a un contracte amb Anthropic",
-      "excerpt": "Fractile, fundada per un roboticista d'Oxford, negocia una ronda de 600 milions de dòlars a una valoració de 6.500 milions després d'acordar la venda de 250 milions en xips especialitzats en inferència a Anthropic."
+      "read": "3 MIN",
+      "title": "Google dona als mitjans un botó perquè els lectors els marquin com a font preferida, enmig de la caiguda de trànsit que provoca la IA",
+      "excerpt": "L'empresa amplia el seu programa «Preferred Sources», que ja ha registrat 345.000 fonts triades per usuaris des del maig, amb un botó que els editors poden incrustar a les seves pàgines per facilitar-ho."
     }
   ]
 }
