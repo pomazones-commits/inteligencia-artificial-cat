@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-08-20",
+    "title": "Tot el que hem mesurat avui mesura la cosa equivocada",
+    "dek": "Quatre estudis publicats avui coincideixen en un mateix diagnòstic: el que certifiquem d'un sistema d'IA -la precisió al laboratori, la semblança amb un producte anterior, el comportament d'un model sol- no prediu què farà quan surti a treballar.",
+    "body": [
+      "El fil d'avui no surt del negoci, surt de la ciència. Un estudi de la Universitat de Toronto publicat a PLOS Digital Health ha comptat els 1.357 dispositius mèdics amb IA autoritzats per la FDA i n'ha trobat només tres avaluats amb resultats centrats en el pacient: mortalitat, ictus, hospitalitzacions, qualitat de vida. La resta han passat per una via que certifica que el producte s'assembla prou a un altre ja aprovat. L'etiqueta que els metges llegeixen com una garantia d'eficàcia només diu, en la immensa majoria dels casos, que el disseny no és nou. No és un frau: és una mesura que mesura una altra cosa.",
+      "La segona peça del dia hi encaixa amb una precisió incòmoda. Nature Medicine publica la primera avaluació prospectiva d'un sistema d'ajuda a la decisió basat en models de llenguatge en un servei d'urgències real, el del Rambam de Haifa: 1.138 pacients, quatre setmanes, dues ales del mateix servei. La revisió d'experts va considerar clínicament adequades 99 de les 100 sortides mostrejades i no hi va haver cap efecte advers. I tanmateix l'ús va caure del 68% al 30%, i va caure sobretot en els torns amb més càrrega de feina. La conclusió dels autors és literal: el coll d'ampolla no és la precisió algorítmica, és l'adhesió sostinguda de qui l'ha de fer servir.",
+      "La tercera arriba per un camí completament diferent i diu el mateix. Un treball a PNAS signat per la City St George's, la IT University of Copenhagen i la Universitat Politècnica de Catalunya ha fet jugar poblacions d'entre dos i un milió d'agents de quatre models distints i ha vist que el nombre d'agents pot amplificar un biaix, crear-ne un del no-res o invertir-lo del tot. Un model pot passar totes les proves en solitari i produir resultats que ningú no ha triat quan es desplega al costat de còpies de si mateix. Provar un sol model no és prou, avisen els autors; provar una sola mida de grup, tampoc.",
+      "El que hi ha de nou de debò, doncs, no és cap denúncia moral: són tres mesures independents del mateix forat. Ahir dèiem que la vigilància arriba sempre després del dany. Avui el matís és més dur i més concret: encara que arribi a temps, si el que mesurem és la precisió al laboratori, la semblança amb un producte anterior o el comportament d'un agent aïllat, no estem mesurant el que passarà. El soroll d'avui són les xifres de sempre -Samsung apuja els preus de fonedora fins a un 15%, Fractile multiplica per sis la valoració en tres mesos, OpenAI posa data de sortida a borsa al 2027-, que descriuen l'apetit inversor i no diuen absolutament res sobre si res d'això funciona un cop instal·lat.",
+      "I mentrestant el desplegament no s'espera. Binance obre la porta que agents d'IA comprin i venguin criptomonedes soles amb topalls diaris, i admet en veu alta que no pot veure el raonament que hi ha darrere de cada operació perquè l'anàlisi passa fora dels seus sistemes. Warp i Salesforce presenten, amb dos dies de diferència, infraestructures per fer treballar flotes senceres d'agents programadors, i el segon ho justifica precisament dient que la feina individual no deixa rastre per a l'equip. Els centres de dades europeus s'allunyen fins a 175 quilòmetres de les ciutats a buscar electricitat. La tendència és clara: escalem la població d'agents molt més de pressa que la nostra capacitat de mirar-los.",
+      "Caldrà mirar tres coses. Si l'assaig aleatoritzat que els autors del Rambam diuen que caldria arriba a fer-se, i si confirma que el problema és l'ús i no el model. Si algun regulador -la FDA, l'Oficina Europea d'IA- comença a demanar resultats en pacients i no equivalència tècnica. I si les avaluacions de seguretat dels laboratoris incorporen d'una vegada la variable que la UPC i els seus socis acaben de posar sobre la taula: quants agents hi ha a l'habitació. De moment, la resposta a les tres preguntes és que no, i el calendari del desplegament no pensa esperar-les."
+    ],
+    "signals": [
+      {
+        "title": "La FDA ha autoritzat 1.357 dispositius mèdics amb IA, però només tres s'han provat amb resultats reals en pacients",
+        "slug": "fda-dispositius-ia-mediques-resultats-pacients"
+      },
+      {
+        "title": "La primera prova en directe d'una IA assistent a urgències no falla per errors, sinó perquè els metges deixen de fer-la servir",
+        "slug": "shaked-urgencies-metges-deixen-usar-ia"
+      },
+      {
+        "title": "Un estudi amb la UPC demostra que canviar el nombre d'agents d'IA n'inverteix les preferències, encara que el model sigui exactament el mateix",
+        "slug": "pnas-mida-grup-agents-ia-biaix-upc"
+      },
+      {
+        "title": "Binance obre la porta perquè agents d'IA comprin i venguin criptomonedes soles, amb límits diaris per evitar desastres",
+        "slug": "binance-agent-os-agents-ia-criptomonedes"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 668
+  },
+  {
     "date": "2026-08-19",
     "title": "La infraestructura corre, la vigilància arriba tard i cara",
     "dek": "Xips, valoracions i robots es disparen avui a tot el món mentre la seguretat i el control arriben sempre després del fet: un incident, una vulnerabilitat ja explotada o la pressió d'una comunitat veïnal.",
