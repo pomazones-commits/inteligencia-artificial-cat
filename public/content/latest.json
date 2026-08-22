@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-22T08:16:33.700Z",
+  "updatedAt": "2026-08-22T12:27:15.790Z",
   "items": [
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "Un sistema d'agents de Nvidia aconsegueix per primer cop un 100% al benchmark de raonament ARC-AGI-3, triplicant el model que el fa funcionar",
+      "excerpt": "AVO, una arquitectura d'agents de Nvidia pensada originalment per optimitzar codi de GPU, completa els 183 nivells del conjunt públic d'ARC-AGI-3, mentre el mateix Claude Opus 5 que hi ha al darrere només arriba al 30% quan actua tot sol."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Investigadors del MIT demostren que, en imatges generades per IA, treure una sola obra del conjunt d'entrenament sol no canvia gairebé res",
+      "excerpt": "Zheng Dai i David Gifford, del CSAIL del MIT, publiquen a Nature Communications un mètode que permet simular què passaria si s'eliminés una imatge, un artista sencer o totes les fotos d'una persona d'un model de difusió, sense haver de tornar a entrenar-lo."
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "5 MIN",
+      "title": "Investigadors de seguretat demostren que es pot buidar l'historial de xat de Grok només demanant-li que resumeixi una pàgina web",
+      "excerpt": "Adversa AI descriu una tècnica anomenada «injecció criptogràfica de context» que xifra les instruccions malicioses perquè els filtres no les detectin: el mateix assistent les desxifra amb el seu propi entorn de codi i les tracta com a informació de confiança."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Apple acomiada més de 200 persones dels equips de Vision Pro i Siri per redirigir recursos cap a les ulleres intel·ligents i la nova IA",
+      "excerpt": "La companyia retalla plantilla als equips de jocs i vídeo immersiu de Vision Pro i a l'antiga Siri, mentre concentra esforços en un projecte d'ulleres intel·ligents que podria presentar-se el 2027 i en el nou assistent basat en IA."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "5 MIN",
+      "title": "Pennsilvània obliga els centres de dades d'IA a pagar tota la seva factura elèctrica i a tenir l'aval del veïnat abans de rebre cap permís",
+      "excerpt": "El governador Josh Shapiro converteix en obligatoris uns estàndards que fins ara eren voluntaris i que exigeixen als promotors de centres de dades assumir el cost íntegre de la seva electricitat, complir requisits ambientals i aconseguir el vistiplau de la comunitat local."
+    },
     {
       "category": "MODELS OBERTS",
       "read": "4 MIN",
