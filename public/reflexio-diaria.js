@@ -1,32 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-08-21",
-  "title": "Deute que no es diu deute, compres que no es diuen compres",
-  "dek": "Broadcom, Nvidia i SK Hynix construeixen avui la mateixa arquitectura: operacions dissenyades perquè un deute, una compra o una recompra no s'assemblin del tot a un deute, una compra o una recompra.",
+  "date": "2026-08-22",
+  "title": "El dia en què la IA es va posar a prova a si mateixa i va suspendre",
+  "dek": "Entre un informe de seguretat que cap laboratori aprova i un estudi que destapa com s'inflen les millores d'un model, avui el fil és la distància entre el que la indústria de la IA diu que fa i el que es pot verificar de debò.",
   "body": [
-    "Avui l'edició s'ha omplert de xifres rodones -6.000 milions, 60.000 milions, 28.600 milions-, però el que tenen en comú no és la mida sinó la forma. Broadcom negocia amb Blackstone i Apollo fins a 100.000 milions de dòlars en deute, canalitzats a través d'un vehicle de propòsit especial, perquè Anthropic tingui xips sense que ningú hagi de posar el nom d'Anthropic al balanç de ningú. Nvidia paga 6.000 milions de dòlars per la tecnologia i gairebé tot l'equip de la start-up Poolside, però els seus fundadors insisteixen dues vegades que «no és una adquisició». Són operacions dissenyades, literalment, perquè no s'assemblin al que són.",
-    "El que hi ha de nou no és que la IA costi diners -això ja ho sabíem- sinó que el sector ha après a estructurar aquest cost perquè eviti les revisions que rebria una operació convencional: una fusió compra escrutini regulador; un préstec bancari clàssic compra condicions dures; una emissió d'accions compra transparència pública obligatòria. Els vehicles de propòsit especial, les llicències no exclusives i els «no és una adquisició» compren, sobretot, temps i discreció. No hi ha res d'il·legal ni de nou com a tècnica financera -els bancs d'inversió en viuen des de fa dècades-, però la freqüència amb què hi apareix avui, en dues operacions de mides molt diferents el mateix dia, sí que ho és.",
-    "El SK Hynix d'avui hi encaixa des de l'extrem contrari: una empresa amb la demanda garantida dels seus xips de memòria HBM ha vist com el mercat li castigava igualment el valor en borsa, i respon amb la recompra d'accions més gran de la seva història per separar, diu la mateixa companyia, «el valor intrínsec» del «sentiment inversor». Les dades de Ramp sobre la despesa real d'empreses en OpenAI i Anthropic expliquen per què els inversors dubten: la quota de mercat entre totes dues gira en només dos mesos, sense que cap tingui un avantatge que sembli permanent. La conclusió és incòmoda per a qui finança tot això: el capital compromès a llarg termini creix més de pressa que la fidelitat real dels clients que l'haurien de pagar.",
-    "La tendència que apunta, doncs, no és que la bombolla existeixi o no -és un debat que porta mesos obert i que aquesta pàgina no pot resoldre-, sinó que els actors que hi participen es comporten com si donessin per fet un risc real de correcció, i es protegeixen amb enginyeria financera i contractual abans que amb resultats de negoci demostrats. Deute avalat en lloc de deute directe. Llicència en lloc de compra formal. Recompra pròpia en lloc d'esperar que el mercat reconegui sol el valor. Totes són maneres d'absorbir un cop sense haver de dir en veu alta que se n'espera un.",
-    "Caldrà mirar si aquesta arquitectura financera aguanta quan arribi la primera prova de tensió real: un impagament, una empresa client que es passa de banda com detecta Ramp, o simplement un trimestre en què la despesa en IA es frenï de sobte. També valdrà la pena veure si Anthropic, que prepara alhora la sortida a borsa més ambiciosa des de la de SpaceX, arriba al mercat públic abans que cap d'aquests mecanismes de deute privat es posi a prova de debò: sortir a borsa és, precisament, l'operació que menys es pot dissenyar perquè no sembli el que és."
+    "Avui diverses notícies aparentment separades han convergit en una mateixa pregunta: es pot confiar en el que els laboratoris d'IA i les empreses que en depenen diuen sobre els seus propis sistemes? Guidelight AI Standards ha publicat la primera avaluació independent de com Anthropic, OpenAI, Google, xAI i Meta controlen realment els seus models per dins, i cap de les cinc supera una «implementació parcial substancial» en cap de les sis pràctiques bàsiques que hauria de garantir-ho. El mateix dia, un altre estudi ha mostrat que els mètodes habituals per mesurar si un model «s'ha après a millorar sol» poden inventar-se progressos allà on no n'hi ha cap.",
+    "Aquest segon treball, «Phantom Gains», ha auditat tres rondes d'autoentrenament sobre un model xinès i hi ha trobat set errors de mesura diferents: amb el mètode habitual, fins i tot un model que no s'ha entrenat gens sembla haver millorat. En paral·lel, investigadors del MIT han publicat a Nature Communications una manera de simular què passaria si es retirés una imatge concreta de les dades d'entrenament d'un generador d'imatges, i troben que l'efecte d'una sola obra sol ser pràcticament nul quan el conjunt de dades és gran, cosa que posa a prova un dels arguments centrals de moltes demandes per drets d'autor. Tots dos estudis comparteixen un mateix gest: construir una prova rigorosa allà on abans només hi havia l'afirmació d'una empresa o d'un demandant.",
+    "No tot el que s'ha publicat avui és igual d'incert. Nvidia ha detallat com AVO, una arquitectura d'agents pensada originalment per optimitzar codi de GPU, ha arribat al 100% del benchmark ARC-AGI-3 mentre el mateix model que la fa funcionar per sota, sol, només hi arriba a un 30%: una millora atribuïble a com s'organitza l'agent, no a un model més gran, i documentada amb xifres concretes de nivells i accions. El contrast és útil: mentre AVO mostra un guany real i mesurable, la start-up britànica de xips Fractile ha multiplicat per sis la seva valoració, fins als 6.500 milions de dòlars, basant-se en un contracte amb Anthropic per a un xip que encara no s'ha fabricat ni té cap prova independent de rendiment.",
+    "La mateixa desconfiança que alimenta els auditors de seguretat i els revisors de mètodes també ha arribat avui al llenguatge dels directius. Axios documenta com caps com Marc Benioff, que fa un any presumien obertament d'acomiadaments atribuïts a la IA, ara en reneguen en públic —«és massa fàcil convertir la IA en cap de turc», diu ell mateix—, just quan un 61% dels nord-americans creu que la intel·ligència artificial es traduirà en menys oportunitats econòmiques. La reorganització, però, és real i mesurable: dades de CBRE mostren Nova York superant per primer cop la badia de San Francisco en llocs de treball tecnològics, empesa per la contractació d'IA al sector financer, mentre Apple retalla plantilla a Vision Pro i Siri per redirigir-la cap a les seves apostes d'IA.",
+    "El fil que travessa el dia, doncs, no és que la IA avanci o no —els agents que resolen tasques noves, els mètodes que estalvien còmput i els sistemes que descobreixen biomarcadors de salut a partir de dades de rellotges intel·ligents demostren que sí, i amb metodologia i xifres verificables al darrere—, sinó que el marge entre aquest progrés real i les afirmacions que l'acompanyen (de seguretat, d'autosuperació, d'atribució, de xips encara inexistents, d'acomiadaments) s'ha tornat prou ampli perquè auditors independents, investigadors i fins i tot els mateixos directius se sentin obligats a posar-lo en dubte en públic.",
+    "Demà caldrà mirar si algun dels cinc laboratoris avaluats per Guidelight respon amb canvis concrets o simplement deixa passar l'informe, i si Fractile comença a mostrar cap prova tangible del seu xip abans que la pròxima ronda de finançament es tanqui del tot. També valdrà la pena seguir si el gir discursiu dels directius sobre IA i acomiadaments es generalitza a mesura que arribin més retallades associades a la tardor, o si es queda en un gest puntual de gestió de la reputació."
   ],
   "signals": [
     {
-      "title": "Broadcom negocia més de 60.000 milions de dòlars en deute per finançar xips d'IA per a Anthropic",
-      "slug": "broadcom-deute-60000-milions-ia-anthropic"
+      "title": "Una avaluació independent troba que cap gran laboratori d'IA aplica de debò els seus propis controls de seguretat interns",
+      "slug": "guidelight-avaluacio-seguretat-laboratoris-ia"
     },
     {
-      "title": "Nvidia paga 6.000 milions de dòlars per llicenciar la tecnologia de la start-up d'IA Poolside i hi fitxa 109 persones",
-      "slug": "nvidia-poolside-model-factory-milions"
+      "title": "Un estudi destapa que els mètodes actuals per mesurar l'«autosuperació» d'un model d'IA poden inventar-se millores que no existeixen",
+      "slug": "arxiv-phantom-gains-autoavaluacio-ia"
     },
     {
-      "title": "SK Hynix llança una recompra d'accions de 28.600 milions de dòlars per aturar la caiguda del seu valor, malgrat la fam de xips de memòria per a IA",
-      "slug": "sk-hynix-recompra-accions-memoria-ia"
+      "title": "Investigadors del MIT demostren que, en imatges generades per IA, treure una sola obra del conjunt d'entrenament sol no canvia gairebé res",
+      "slug": "mit-atribucio-decreixent-imatges-ia"
     },
     {
-      "title": "OpenAI avança per davant d'Anthropic entre els usuaris empresarials, segons les dades de Ramp",
-      "slug": "openai-avanca-anthropic-usuaris-empresarials-ramp"
+      "title": "Els directors generals de tecnologia comencen a evitar culpar la IA dels acomiadaments, després que el mateix Marc Benioff ho titllés de «sortida fàcil»",
+      "slug": "directius-tecnologia-canvien-discurs-ia-acomiadaments"
     }
   ],
   "read": "3 MIN",
-  "words": 551
+  "words": 665
 };
