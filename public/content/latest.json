@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-21T16:23:50.592Z",
+  "updatedAt": "2026-08-22T04:20:55.321Z",
   "items": [
     {
-      "category": "MOBILITAT",
+      "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "Nevada autoritza fins a 8.000 robotaxis de Tesla, Uber i Waymo a la zona de Las Vegas",
-      "excerpt": "La Nevada Transportation Authority aprova per unanimitat tres permisos que donen a Tesla capacitat per desplegar-ne 5.000 i a Waymo i Uber 1.000 cadascuna en un any, malgrat l'oposició del sector del taxi."
+      "title": "Brasil destina 444 milions de dòlars a supercomputadors d'IA i reparteix el contracte entre socis xinesos i nord-americans",
+      "excerpt": "El govern de Lula anuncia 2.300 milions de reals per a dos projectes de còmput d'intel·ligència artificial: un a Rio de Janeiro amb les xineses Huawei i iFlytek, i un altre a Rio Grande do Norte amb xips de Nvidia, en una estratègia declarada de no dependre d'un sol país."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un nou banc de proves demostra que els mètodes actuals per fer «oblidar» coneixement perillós als models de llenguatge encara fallen",
-      "excerpt": "Els investigadors Sahil Kale i Ian Harris presenten a arXiv ConceptGuard, un banc de proves que avalua si un model pot oblidar l'ús nociu d'un concepte sense perdre'n l'ús legítim, i troben que els mètodes actuals fan malament aquest equilibri."
+      "title": "Un estudi destapa que els mètodes actuals per mesurar l'«autosuperació» d'un model d'IA poden inventar-se millores que no existeixen",
+      "excerpt": "Investigadors demostren a arXiv que, amb els mètodes de mesura habituals, fins i tot un model que no s'ha entrenat gens sembla haver millorat, i proposen una prova estadística més exigent per distingir un progrés real d'un artefacte de la mesura."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "SALUT",
       "read": "4 MIN",
-      "title": "Els millors models d'IA només encerten entre un 3% i un 15% de les idees d'un article científic si només els dones la seva bibliografia",
-      "excerpt": "Un equip internacional presenta a arXiv «Reconstruction», un banc de proves que amaga l'article original i demana a set models de capdavantera que en reconstrueixin la hipòtesi central a partir només de les referències prèvies; combinar-los en un torneig hi puja el resultat fins al 42%."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Broadcom negocia més de 60.000 milions de dòlars en deute per finançar xips d'IA per a Anthropic",
-      "excerpt": "L'empresa de semiconductors amplia amb Blackstone i Apollo l'acord que ja li havia permès finançar 35.000 milions de dòlars en xips a mida per a Anthropic, en una operació que podria arribar als 100.000 milions de dòlars en total."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Nvidia paga 6.000 milions de dòlars per llicenciar la tecnologia de la start-up d'IA Poolside i hi fitxa 109 persones",
-      "excerpt": "L'operació, que els fundadors insisteixen que «no és una adquisició», dona a Nvidia accés al «Model Factory» de Poolside, especialitzat a construir models d'IA per programar, sense haver de comprar formalment l'empresa."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "OpenAI avança per davant d'Anthropic entre els usuaris empresarials, segons les dades de Ramp",
-      "excerpt": "L'empresa de targetes corporatives Ramp, amb dades de més de 70.000 negocis nord-americans, detecta que OpenAI ha reduït la distància amb Anthropic entre maig i juliol i que hi creix més de pressa aquest tercer trimestre."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi amb participació de la UPC demostra que el nombre d'agents d'IA en un grup, per si sol, pot capgirar el resultat col·lectiu",
-      "excerpt": "Investigadors de City St George's (Londres), la IT University de Copenhaguen i la Universitat Politècnica de Catalunya, publicant a PNAS, mostren que poblacions del mateix model d'IA, fent la mateixa tasca, arriben a conclusions oposades només perquè un grup és més gran que l'altre."
+      "title": "Una IA prediu, abans de vacunar-te, si la vacuna et farà prou efecte, a partir del teu perfil d'anticossos",
+      "excerpt": "Un equip de la Universitat Estatal d'Arizona analitza gairebé 9.000 mostres de sang de més de 4.000 persones i troba anticossos «sentinella» que anuncien qui respondrà de manera feble o forta a una vacuna, fins i tot entre persones sanes."
     },
     {
       "category": "JUSTÍCIA",
       "read": "4 MIN",
-      "title": "Apple respon a OpenAI a l'intent de tombar la seva demanda per robatori de secrets industrials, i en reafirma les acusacions",
-      "excerpt": "En un escrit presentat el 19 d'agost, Apple diu que la defensa d'OpenAI es basa en «distorsió, especulació i proves alienes al cas» i insisteix que dos extreballadors seus, Chang Liu i Tang Tan, van accedir a informació confidencial sense autorització abans de fitxar per OpenAI."
+      "title": "Un jutge anul·la parcialment la condemna d'un exenginyer de Google que va robar secrets d'IA per emportar-se'ls a la Xina",
+      "excerpt": "El jutge federal Vince Chhabria manté els set càrrecs de robatori de secrets industrials contra Linwei Ding, però en descarta els set d'espionatge econòmic per falta de proves que volgués beneficiar el govern xinès."
     },
     {
       "category": "XIPS",
       "read": "3 MIN",
-      "title": "SK Hynix llança una recompra d'accions de 28.600 milions de dòlars per aturar la caiguda del seu valor, malgrat la fam de xips de memòria per a IA",
-      "excerpt": "El principal proveïdor mundial de memòria d'alt ampla de banda (HBM) per als processadors d'IA de Nvidia recomprarà i cancel·larà fins a 24 milions d'accions després que el seu títol hagi caigut més d'un 50% en dos mesos."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Google llança un «Student Hub» dins de Gemini i regala un any d'IA de pagament als estudiants universitaris",
-      "excerpt": "L'eina reuneix quaderns d'estudi, targetes de repàs, qüestionaris de pràctica i investigació aprofundida per veu dins de Gemini Live, mentre Google ofereix als estudiants elegibles un any gratuït de Gemini Pro o Plus segons el mercat."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "5 MIN",
-      "title": "Anthropic i OpenAI s'enfronten obertament pel projecte de llei d'IA més estricte dels Estats Units, a Massachusetts",
-      "excerpt": "Anthropic dona suport a una proposta que obligaria els grans laboratoris a sotmetre's a revisions independents del risc catastròfic cada 120 dies, mentre OpenAI hi veu confusió normativa i demana un estàndard uniforme com el d'Illinois."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un model d'aprenentatge automàtic identifica 20 grans pianistes de jazz amb un 94% d'encert, i en revela l'«empremta» musical",
-      "excerpt": "Investigadors de la Universitat de Cambridge, publicant a Nature Machine Intelligence, entrenen una IA amb 84 hores d'enregistraments per destriar què fa reconeixible cada pianista: l'harmonia hi pesa més que el ritme, la melodia o la dinàmica."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "ChatGPT ja pot llegir, redactar i enviar missatges de l'app Missatges d'Apple al Mac",
-      "excerpt": "OpenAI estrena un connector que permet a ChatGPT endreçar, resumir i respondre converses de l'aplicació Missatges directament des del xat, disponible també per a Codex i ChatGPT Work."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Més d'un terç de les pàgines web publicades des del llançament de ChatGPT porten senyals d'haver estat escrites amb IA",
-      "excerpt": "Un estudi de Pew Research Center sobre gairebé mig milió de pàgines en anglès detecta que el 10% de tot el web mostra indicis d'autoria per IA el juliol de 2026, amb els dominis «.com» deu vegades per sobre dels «.edu» o «.gov»."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Brussel·les dona llum verda al consorci espanyol que aspira a portar una gigafactoria d'IA a Móra la Nova, a Tarragona",
-      "excerpt": "La Comissió Europea aprova la creació de SEPI Digital, el vehicle amb ACS, Telefónica, Banco Santander i Multiverse Computing que opta a un dels set centres de còmput d'IA de la UE, amb seu dual a Madrid i a la Ribera d'Ebre."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Anthropic vol una sortida a borsa que iguali o superi el rècord de SpaceX, amb una valoració de fins a 2 bilions de dòlars",
-      "excerpt": "Bloomberg revela que Anthropic ha presentat de manera confidencial el formulari S-1 a la SEC i podria fer-lo públic a finals d'agost, amb l'objectiu de sortir a borsa a l'octubre. L'empresa aspira a igualar o superar els 86.200 milions de dòlars que va captar SpaceX en el seu debut de juny."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Investigadors de la Universitat McGill redueixen 33 vegades el cost de fer que una IA sàpiga quan no sap prou",
-      "excerpt": "Un equip del departament de matemàtiques i estadística de McGill presenta a l'ICML 2026 les xarxes neuronals bayesianes singulars, un mètode que estima la incertesa d'un model d'IA amb molts menys paràmetres que les tècniques actuals, sense perdre precisió."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un equip internacional de 23 metges construeix el primer gran examen multilingüe per detectar quan la IA mèdica falla en llengües minoritzades",
-      "excerpt": "HealMed, un nou banc de proves publicat a arXiv i desenvolupat durant dos anys per especialistes de nou països, revela que el rendiment dels models de llenguatge en medicina cau de manera desigual segons l'idioma, i que la traducció experta pot canviar els resultats de l'avaluació."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Meta gasta centenars de milions de dòlars a l'any en models d'IA de Microsoft Azure, malgrat construir la seva pròpia infraestructura",
-      "excerpt": "Bloomberg revela que Meta s'ha convertit en un dels grans clients d'Azure AI, amb un consum de bilions de tokens cada setmana, un senyal que ni les tecnològiques que més inverteixen en IA pròpia poden prescindir del núvol de la competència."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Google dona als mitjans un botó perquè els lectors els marquin com a font preferida, enmig de la caiguda de trànsit que provoca la IA",
-      "excerpt": "L'empresa amplia el seu programa «Preferred Sources», que ja ha registrat 345.000 fonts triades per usuaris des del maig, amb un botó que els editors poden incrustar a les seves pàgines per facilitar-ho."
+      "title": "Nvidia explora comprar o associar-se amb la coreana Rebellions, un rival asiàtic en xips d'IA especialitzats en inferència",
+      "excerpt": "El conseller delegat de Nvidia, Jensen Huang, s'ha reunit aquesta setmana a Santa Clara amb el cap de Rebellions per explorar una possible col·laboració tècnica, inversió o adquisició, en una negociació que les fonts descriuen com a molt preliminar."
     }
   ]
 }
