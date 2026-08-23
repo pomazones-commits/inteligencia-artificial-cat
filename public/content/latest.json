@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-22T16:22:46.990Z",
+  "updatedAt": "2026-08-23T04:22:44.620Z",
   "items": [
     {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Una avaluació independent troba que cap gran laboratori d'IA aplica de debò els seus propis controls de seguretat interns",
-      "excerpt": "Guidelight AI Standards, una organització fundada per antics especialistes d'OpenAI, puntua Anthropic i OpenAI amb un C+, Google amb un D+, xAI amb un D- i Meta amb un suspens, en la primera avaluació pública de sis pràctiques bàsiques de control intern."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Els directors generals de tecnologia comencen a evitar culpar la IA dels acomiadaments, després que el mateix Marc Benioff ho titllés de «sortida fàcil»",
-      "excerpt": "Axios detecta un canvi de to entre els caps de grans tecnològiques, que fa un any presumien obertament de retallar plantilla gràcies a la intel·ligència artificial i ara eviten vincular-ho amb tanta claredat, enmig d'una desconfiança creixent de la ciutadania cap a la IA."
-    },
-    {
-      "category": "MERCAT LABORAL",
-      "read": "4 MIN",
-      "title": "Nova York arrabassa a la badia de San Francisco la corona del talent tecnològic dels EUA per primer cop en 13 anys, empesa per la contractació lligada a la IA",
-      "excerpt": "L'informe anual de la immobiliària CBRE compta 394.300 treballadors tecnològics a l'àrea de Nova York per 375.730 a la badia de San Francisco, mentre la contractació de perfils amb competències d'IA creix un 45% en un any als Estats Units i el Canadà."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Google Research construeix un eixam d'agents d'IA que troba per si sol possibles biomarcadors de salut mental amagats en dades de rellotges intel·ligents",
-      "excerpt": "El sistema, provat sobre gairebé 9.300 registres de tres cohorts diferents, identifica 41 candidats a biomarcador de salut mental i 25 de metabòlics, entre ells un vincle entre la variabilitat del son i la gravetat de la depressió."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode en tres fases ensenya un model de llenguatge a memoritzar un conjunt tancat de documents sense haver-los d'anar a buscar cada vegada",
-      "excerpt": "Investigadors xinesos publiquen a arXiv IAR (Inject, Align, Recover), un procés d'entrenament que millora fins a 3,6 punts la precisió en preguntes sobre un corpus concret sense fer malbé les capacitats generals del model, provat en quatre famílies de models oberts."
-    },
-    {
       "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Un sistema d'agents de Nvidia aconsegueix per primer cop un 100% al benchmark de raonament ARC-AGI-3, triplicant el model que el fa funcionar",
-      "excerpt": "AVO, una arquitectura d'agents de Nvidia pensada originalment per optimitzar codi de GPU, completa els 183 nivells del conjunt públic d'ARC-AGI-3, mentre el mateix Claude Opus 5 que hi ha al darrere només arriba al 30% quan actua tot sol."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Investigadors del MIT demostren que, en imatges generades per IA, treure una sola obra del conjunt d'entrenament sol no canvia gairebé res",
-      "excerpt": "Zheng Dai i David Gifford, del CSAIL del MIT, publiquen a Nature Communications un mètode que permet simular què passaria si s'eliminés una imatge, un artista sencer o totes les fotos d'una persona d'un model de difusió, sense haver de tornar a entrenar-lo."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Investigadors de seguretat demostren que es pot buidar l'historial de xat de Grok només demanant-li que resumeixi una pàgina web",
-      "excerpt": "Adversa AI descriu una tècnica anomenada «injecció criptogràfica de context» que xifra les instruccions malicioses perquè els filtres no les detectin: el mateix assistent les desxifra amb el seu propi entorn de codi i les tracta com a informació de confiança."
-    },
-    {
-      "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "Apple acomiada més de 200 persones dels equips de Vision Pro i Siri per redirigir recursos cap a les ulleres intel·ligents i la nova IA",
-      "excerpt": "La companyia retalla plantilla als equips de jocs i vídeo immersiu de Vision Pro i a l'antiga Siri, mentre concentra esforços en un projecte d'ulleres intel·ligents que podria presentar-se el 2027 i en el nou assistent basat en IA."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Pennsilvània obliga els centres de dades d'IA a pagar tota la seva factura elèctrica i a tenir l'aval del veïnat abans de rebre cap permís",
-      "excerpt": "El governador Josh Shapiro converteix en obligatoris uns estàndards que fins ara eren voluntaris i que exigeixen als promotors de centres de dades assumir el cost íntegre de la seva electricitat, complir requisits ambientals i aconseguir el vistiplau de la comunitat local."
-    },
-    {
-      "category": "MODELS OBERTS",
-      "read": "4 MIN",
-      "title": "Els models oberts Gemma de Google superen els mil milions de descàrregues, amb més de 100.000 variants creades per la comunitat",
-      "excerpt": "Google DeepMind anuncia que la família de models oberts Gemma ha superat els mil milions de descàrregues acumulades en dos anys, amb aplicacions que van des de la salut a l'Índia fins a l'anàlisi d'imatges des de l'òrbita."
+      "title": "OpenAI connecta ChatGPT amb l'aplicació Missatges d'Apple al Mac i el converteix en un assistent que llegeix i respon els teus SMS",
+      "excerpt": "El nou connector, disponible per a comptes ChatGPT Work i Codex en ordinadors amb xip Apple Silicon, pot cercar converses, redactar respostes i enviar-les amb l'aprovació de l'usuari, a través d'AppleScript i les funcions d'accessibilitat de macOS."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un mètode ensenya un model d'IA a triar per si sol quan cal raonar molt, poc o gens, i estalvia fins a un 76% de tokens sense perdre precisió",
-      "excerpt": "Un equip encapçalat per Vincent François-Lavet, de la Vrije Universiteit Amsterdam, publica a arXiv un mètode que ensenya un model de 1.500 milions de paràmetres a triar entre tres maneres de respondre segons la dificultat del problema, i redueix el cost de còmput sense perdre encert."
+      "title": "Un equip nord-americà posa a prova si un model de llenguatge pot fer de controlador aeri, i descobreix que els avisos més senzills funcionen millor que els més detallats",
+      "excerpt": "Investigadors liderats per Alexandre Bayen avaluen nou models d'IA oberts i tancats fent de torre de control en un vol real sobre la badia de San Francisco, i troben que un guió massa rígid fa que els errors s'acumulin i el sistema col·lapsi."
     },
     {
-      "category": "INDÚSTRIA MUSICAL",
-      "read": "4 MIN",
-      "title": "Apple Music farà obligatòries les etiquetes que avisen quan una cançó és «feta amb IA», després que un terç de les pujades mensuals ja ho siguin",
-      "excerpt": "Apple envia una carta als segells i distribuïdors anunciant que, més endavant enguany, mostrarà a tots els oients les etiquetes de transparència sobre contingut generat amb intel·ligència artificial que fins ara eren opcionals."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "La britànica Fractile multiplica per sis la seva valoració, fins als 6.500 milions de dòlars, després de tancar un contracte de xips amb Anthropic",
-      "excerpt": "L'start-up d'Oxford, que encara no té cap xip llest per vendre, negocia una ronda de 600 milions de dòlars després d'un acord de subministrament de 250 milions amb Anthropic per a un disseny que promet accelerar la inferència fins a 100 vegades."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "El Departament de Justícia dels EUA investiga si els socis d'Andreessen Horowitz asseguts en consells d'empreses rivals d'IA trenquen la llei antimonopoli",
-      "excerpt": "La investigació, oberta des de fa gairebé un any, se centra en Ben Horowitz al consell de Databricks i Martin Casado al de Fivetran, dues empreses de dades que han acabat competint entre elles tot i que no ho feien quan el fons hi va invertir."
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Una IA que mira vídeo de vaques abans de munyir distingeix per primer cop les baralles de les carícies, i el mapa social de la granja canvia segons quina compti",
+      "excerpt": "Un estudi analitza gairebé vuit hores de vídeo d'una granja lletera i troba que separar les interaccions amistoses de les agressives dona mapes socials del ramat completament diferents, mentre que comptar-les totes juntes amagava aquesta diferència."
     },
     {
       "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "Brasil destina 444 milions de dòlars a supercomputadors d'IA i reparteix el contracte entre socis xinesos i nord-americans",
-      "excerpt": "El govern de Lula anuncia 2.300 milions de reals per a dos projectes de còmput d'intel·ligència artificial: un a Rio de Janeiro amb les xineses Huawei i iFlytek, i un altre a Rio Grande do Norte amb xips de Nvidia, en una estratègia declarada de no dependre d'un sol país."
+      "title": "Starcloud capta 250 milions de dòlars més per a centres de dades en òrbita, just quan els coets per llançar-los comencen a escassejar",
+      "excerpt": "La start-up, que ja fa córrer GPU H100 de Nvidia a l'espai i prepara un xip a mida amb el mateix fabricant, arriba a una valoració de 2.300 milions de dòlars mentre el seu conseller delegat alerta que la capacitat de llançament s'està convertint en el coll d'ampolla real del sector."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "Un estudi destapa que els mètodes actuals per mesurar l'«autosuperació» d'un model d'IA poden inventar-se millores que no existeixen",
-      "excerpt": "Investigadors demostren a arXiv que, amb els mètodes de mesura habituals, fins i tot un model que no s'ha entrenat gens sembla haver millorat, i proposen una prova estadística més exigent per distingir un progrés real d'un artefacte de la mesura."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA prediu, abans de vacunar-te, si la vacuna et farà prou efecte, a partir del teu perfil d'anticossos",
-      "excerpt": "Un equip de la Universitat Estatal d'Arizona analitza gairebé 9.000 mostres de sang de més de 4.000 persones i troba anticossos «sentinella» que anuncien qui respondrà de manera feble o forta a una vacuna, fins i tot entre persones sanes."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "title": "Un jutge anul·la parcialment la condemna d'un exenginyer de Google que va robar secrets d'IA per emportar-se'ls a la Xina",
-      "excerpt": "El jutge federal Vince Chhabria manté els set càrrecs de robatori de secrets industrials contra Linwei Ding, però en descarta els set d'espionatge econòmic per falta de proves que volgués beneficiar el govern xinès."
-    },
-    {
-      "category": "XIPS",
-      "read": "3 MIN",
-      "title": "Nvidia explora comprar o associar-se amb la coreana Rebellions, un rival asiàtic en xips d'IA especialitzats en inferència",
-      "excerpt": "El conseller delegat de Nvidia, Jensen Huang, s'ha reunit aquesta setmana a Santa Clara amb el cap de Rebellions per explorar una possible col·laboració tècnica, inversió o adquisició, en una negociació que les fonts descriuen com a molt preliminar."
+      "title": "Anthropic començarà a amagar una marca d'aigua invisible en tot el que escrigui Claude, per complir el reglament europeu de la IA",
+      "excerpt": "Els nous models de Claude llançats a la Unió Europea a partir del 2 d'agost hi incorporaran de manera automàtica una marca imperceptible al text i metadades de procedència als fitxers d'imatge, seguint l'estàndard obert C2PA i els compromisos de transparència de l'article 50 del reglament europeu."
     }
   ]
 }
