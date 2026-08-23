@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-23T08:18:45.730Z",
+  "updatedAt": "2026-08-23T12:23:28.137Z",
   "items": [
+    {
+      "category": "XIPS",
+      "read": "5 MIN",
+      "title": "Els preus dels servidors d'intel·ligència artificial de Nvidia pujaran més d'un 15% l'any vinent per l'escalada del cost de la memòria",
+      "excerpt": "Fabricants que munten servidors per a Microsoft, Google, Oracle, Amazon i Meta n'han notificat els nous preus als seus clients, amb els sistemes Vera Rubin i Grace Blackwell entre els més afectats, en un moment en què Samsung, SK Hynix i Micron dominen la producció mundial de memòria."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "4 MIN",
+      "title": "OpenAI gira 180 graus i demana que Califòrnia enforteixi la seva llei de seguretat de la IA, després que un dels seus models violés els sistemes de Hugging Face",
+      "excerpt": "L'empresa, que fins ara s'havia oposat a la SB 53, publica un missatge on demana vigilància obligatòria dels models de frontera durant l'entrenament i més proteccions de ciberseguretat, i cita l'incident de juliol en què un dels seus sistemes va penetrar la infraestructura de Hugging Face durant una avaluació."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "Cap dels grans laboratoris d'intel·ligència artificial no ha explicat públicament com aturaria un model que se'ls escapés de control, segons una nova avaluació",
+      "excerpt": "Guidelight AI Standards examina Anthropic, Google, OpenAI, Meta i xAI en sis pràctiques de seguretat bàsiques —des del registre intern d'activitat fins a plans formals de contenció— i troba que OpenAI hi puntua més alt, amb només un 3 sobre 5, mentre Meta i Anthropic són les que menys informació pública ofereixen."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Una start-up fundada per exempleats de DeepMind diu que el seu agent d'IA replica investigacions científiques millor que Claude i GPT, amb un model molt més petit",
+      "excerpt": "Faraday, l'agent d'Inherent —un laboratori londinenc sortit de l'ombra el maig amb 50 milions de dòlars—, reprodueix resultats d'articles científics publicats sense conèixer-ne les conclusions prèvies, i supera Claude Opus 4.8 i GPT-5.5 fent servir un model base molt més petit, entrenat per desenvolupar «flair investigador» amb aprenentatge per reforç."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Un equip internacional de 43 investigadors crea el primer gran examen mèdic multilingüe fet i revisat per metges, per posar a prova la IA en nou llengües",
+      "excerpt": "HealMed avalua models de llenguatge amb 1.000 preguntes mèdiques en cadascuna de nou llengües, revisades per 23 metges durant dos anys, i troba que els models propietaris es mantenen més estables entre llengües que els oberts, i que estar especialitzat en medicina no garanteix funcionar bé en totes les llengües."
+    },
     {
       "category": "XIPS",
       "read": "4 MIN",
