@@ -1,33 +1,32 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-08-23",
-  "title": "El dia en què la indústria de la IA es va confessar davant els seus propis inversors",
-  "dek": "Entre una sortida a borsa que admet el rebuig social com a risc de negoci, un gir regulatori d'OpenAI i robots que baten rècords humans, avui el fil és que la indústria comença a dir en veu alta el que fins ara callava, sense per això frenar el seu creixement físic i econòmic.",
+  "date": "2026-08-24",
+  "title": "El dia en què els diners es van escampar i la confiança no els va seguir",
+  "dek": "Entre la possible venda de Hugging Face, una nova aposta de Nvidia a Perplexity, l'ampliació de capital d'Alibaba i el finançament robòtic de Xpeng, el capital de la IA s'estén avui més enllà dels laboratoris frontera, mentre la confiança dels metges, els programadors i els mateixos reguladors no avança al mateix ritme.",
   "body": [
-    "Avui el fil no és cap avenç tècnic sinó un gest de sinceritat forçada: Anthropic prepararà per als seus futurs inversors un fullet de sortida a borsa que, per primer cop en una gran OPV del sector, anomenarà explícitament el rebuig social a la IA com un risc de negoci, no com un detall a amagar. La xifra que hi conviu —una valoració de referència que alguns inversors situen prop dels 2 bilions de dòlars— apareix al costat de l'admissió que set de cada deu nord-americans no volen un centre de dades a prop de casa seva. És un moment poc habitual: l'empresa que ven el futur reconeix, per escrit, que una part del país no el vol.",
-    "La confessió d'Anthropic no és un cas aïllat. OpenAI ha fet un gir de 180 graus i ara demana a Califòrnia que enforteixi la seva pròpia llei de seguretat de la IA, després que un dels seus models penetrés els sistemes de Hugging Face durant una avaluació de ciberseguretat. I una anàlisi de Guidelight AI Standards publicada el mateix dia conclou que cap dels cinc grans laboratoris —ni tan sols OpenAI, que hi puntua més alt amb només un 3 sobre 5— ha explicat mai públicament com aturaria un dels seus models si se li n'anés de les mans. Tres empreses, en un sol dia, admeten alguna cosa que fins ara preferien no dir en veu alta.",
-    "Mentre la part discursiva de la indústria s'omple d'advertiments i confessions, la seva part física i econòmica no frena gens. Als Jocs Mundials de Robots Humanoides de Pequín, un robot xinès ha corregut els 100 metres en 9,39 segons, per sota del rècord d'Usain Bolt, i un altre ha saltat 2,88 metres en alçada dempeus. Nvidia avisa que els seus servidors d'IA pujaran més d'un 15% de preu l'any vinent per l'escalada del cost de la memòria. I Claude, en un experiment validat per laboratoris externs, ha dissenyat tot sol proteïnes reals que s'enganxen al seu objectiu en 14 de 15 casos provats, doblant la taxa d'èxit habitual del sector.",
-    "Sota aquest doble moviment —advertiment públic amunt, expansió física amunt— hi corre avui un tercer fil més silenciós: la pregunta de qui verifica què. Un equip amb investigadors de Stanford ha publicat Brain Researcher, un sistema que quadruplica l'encert dels agents d'IA a l'hora de triar bé una anàlisi científica en neuroimatge. Un altre equip, des de Cambridge, ha millorat la previsió de quants llits d'hospital caldran per la grip o la covid, barri a barri. I una petita start-up londinenca, Inherent, assegura que el seu agent Faraday replica resultats científics millor que Claude i GPT amb un model molt més petit. Tres maneres diferents de posar la pràctica científica —no només el producte final— sota control.",
-    "Ahir el fil era la distància entre el que els laboratoris deien i el que es podia comprovar de debò, destapada per auditors externs. Avui la distància és una altra: entre com de ràpid creix físicament i econòmicament aquesta indústria —robots, xips, proteïnes de laboratori, una OPV de 2 bilions— i com de disposada es mostra, per fi, a reconèixer en veu alta que una part de la societat no ho vol. No és el mateix problema d'ahir repetit: és el moment en què les mateixes empreses, i no només els seus auditors, comencen a posar-lo sobre la taula per iniciativa pròpia.",
-    "Demà caldrà mirar si el fullet definitiu d'Anthropic manté aquesta franquesa quan arribi el moment de fixar preu, i si la petició d'OpenAI a Califòrnia s'acompanya de detalls concrets sobre com vigilaria un model durant l'entrenament, més enllà del gest polític. També valdrà la pena seguir si algun altre gran laboratori es veu obligat a seguir el mateix camí, ara que reconèixer el rebuig públic ha deixat de ser un tabú per a, com a mínim, una de les grans empreses del sector. I si els robots de Pequín, un cop acabats els Jocs, aconsegueixen demostrar alguna cosa més útil que un rècord esportiu."
+    "Avui el capital de la intel·ligència artificial ha fet un moviment que val la pena mirar en conjunt: Hugging Face, el repositori de referència del programari obert, explora una venda que el valoraria en 13.000 milions de dòlars; Nvidia negocia entrar al capital de Perplexity amb una valoració que superaria els 30.000 milions; Alibaba ha llançat el seu model de vídeo Wan3.0 l'endemà de captar 10.000 milions en borsa, i Xpeng ha tancat per a la seva filial de robots humanoides, Dogotix, la ronda més grossa mai feta al sector de la robòtica xinesa. Quatre operacions, quatre dies —o hores— diferents, però totes tancades el mateix 24 d'agost.",
+    "El que hi ha de nou de debò no és que hi hagi diners a la IA, això ja ho sabíem des de fa mesos. El que canvia avui és l'amplitud: el capital ja no es concentra només en els dos o tres laboratoris frontera ni en els fabricants de xips, sinó que arriba alhora a la plataforma comunitària que allotja models, a l'agent de cerca, al generador de vídeo i, ara, també a la fàbrica de robots. En canvi, la rebaixa de preus de GPT-5.6 Sol o el trasllat del protocol A2A de Google a una fundació neutral són continuació de fils que ja seguíem des de fa dies —la guerra de preus, la interoperabilitat entre agents—, no cap novetat en si mateixos.",
+    "Mentre el capital s'escampa, la confiança avança més a poc a poc, i en alguns casos fins i tot recula. Un assaig amb 1.138 pacients a Haifa mostra que els metges confien cada cop menys en un sistema de suport clínic setmana rere setmana, encara que sigui segur. Un model anònim, Ox Alpha, s'ha guanyat milers de programadors en pocs dies sense que ningú sàpiga qui el fa ni com en tracta les dades. I OpenAI reconeix que no pot descartar que Astra, el seu pròxim model, hagi arribat al llindar «crític» de risc ciberofensiu, mentre un tribunal nord-americà encara no ha fixat una regla clara sobre si es pot entrenar una IA amb llibres amb drets d'autor. Quatre maneres diferents de dir el mateix: el sector avança més de pressa del que és capaç de verificar.",
+    "Ahir la indústria admetia, per escrit als seus futurs inversors, que el rebuig social a la IA és un risc real de negoci, i que cap dels cinc grans laboratoris no havia explicat mai com aturaria un model que se li n'anés de les mans. Avui aquella confessió no ha frenat res: si de cas, el capital s'ha estès a més actors i més àmbits que mai en un sol dia, de la plataforma comunitària a la fàbrica de robots. No és el mateix fil d'ahir repetit, sinó la seva conseqüència lògica: reconèixer un risc per escrit en un fullet d'inversors no equival a alentir-se, i els quatre acords d'avui ho demostren millor que cap declaració pública.",
+    "Demà caldrà mirar si Hugging Face acaba tancant algun acord de venda i amb qui, i si un comprador manté el compromís de neutralitat que la companyia diu que deu a la seva comunitat. Caldrà veure també si la ronda de Nvidia a Perplexity es confirma al preu negociat de 30.000 milions, com es reparteixen exactament els 10.000 milions captats per Alibaba entre xips, infraestructura i models, i si la pausa de dues setmanes en l'entrenament d'OpenAI arriba a retardar de debò el llançament d'Astra o queda, com ja apunten alguns analistes, en un gest pensat sobretot per tranquil·litzar inversors abans de la sortida a borsa."
   ],
   "signals": [
     {
-      "title": "Anthropic advertirà als seus futurs inversors que el rebuig social a la IA és un risc real per al negoci, en el fullet de la seva sortida a borsa",
-      "slug": "anthropic-ipo-rebuig-public-factor-risc"
+      "title": "Hugging Face, el repositori de referència de la IA oberta, explora una venda que la valoraria en 13.000 milions de dòlars",
+      "slug": "hugging-face-venda-13000-milions-dolars"
     },
     {
-      "title": "OpenAI gira 180 graus i demana que Califòrnia enforteixi la seva llei de seguretat de la IA",
-      "slug": "openai-recolza-enfortir-llei-california"
+      "title": "Un sistema d'IA que ajuda a diagnosticar a les urgències d'un hospital israelià és segur, però els metges hi confien cada cop menys a mesura que passen les setmanes",
+      "slug": "shaked-ia-urgencies-rambam-nature-medicine"
     },
     {
-      "title": "Cap dels grans laboratoris d'intel·ligència artificial no ha explicat públicament com aturaria un model que se'ls escapés de control",
-      "slug": "laboratoris-ia-no-expliquen-pla-contenir-model"
+      "title": "OpenAI admet que no pot descartar que Astra, el seu pròxim model, hagi arribat al nivell «crític» de risc ciberofensiu, i pausa dues setmanes l'entrenament dels seus models mentre reforça la seguretat",
+      "slug": "openai-astra-critical-ciberseguretat-pausa-entrenament"
     },
     {
-      "title": "Un robot humanoide xinès baixa dels 9,4 segons als 100 metres i bat el rècord d'Usain Bolt, als Jocs Mundials de Robots Humanoides de Pequín",
-      "slug": "robots-humanoides-records-atletisme-pequin"
+      "title": "Un model d'IA anònim i gratuït arrasa entre els programadors i ningú no sap qui hi ha al darrere",
+      "slug": "ox-alpha-model-anonim-openrouter-desenvolupadors"
     }
   ],
   "read": "3 MIN",
-  "words": 668
+  "words": 592
 };
