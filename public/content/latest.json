@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-24T16:34:12.674Z",
+  "updatedAt": "2026-08-25T04:20:07.474Z",
   "items": [
     {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Hugging Face, el repositori de referència de la IA oberta, explora una venda que la valoraria en 13.000 milions de dòlars",
-      "excerpt": "Business Insider revela que la plataforma on milers de desenvolupadors comparteixen i despleguen models d'intel·ligència artificial ha contractat bancs per avaluar ofertes de compra, prop de tres anys després de la seva última ronda, valorada en 4.500 milions."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Nvidia negocia entrar al capital de Perplexity amb una valoració que superaria els 30.000 milions de dòlars",
-      "excerpt": "El fabricant de xips explora una nova ronda a la start-up de cerca conversacional, que hauria triplicat els seus ingressos anuals fins als 750 milions de dòlars, en la seva enèsima aposta per teixir aliances amb clients que acaben comprant-li maquinari."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Alibaba estrena Wan3.0, un model que genera vídeos de 30 segons a partir de documents, l'endemà de captar 10.000 milions de dòlars en borsa",
-      "excerpt": "La tecnològica xinesa publica la versió definitiva del seu model de vídeo generatiu, en proves des del 6 d'agost, i confirma que hi destinarà tots els diners de l'ampliació de capital més grossa feta mai per una empresa cotitzada a Hong Kong."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Xpeng capta 900 milions de dòlars per al seu braç de robots humanoides i el valora en més de 6.300 milions",
-      "excerpt": "Dogotix, la nova filial de robòtica del fabricant xinès de cotxes elèctrics, tanca la ronda de capital privat més grossa feta mai al sector de la robòtica xinesa per accelerar la producció en massa del robot humanoide IRON, mentre l'empresa mare eixampla les pèrdues trimestrals."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou banc de proves posa a examen si els models d'IA de patologia entenen de debò les cèl·lules que veuen, o només les reconeixen de vista",
-      "excerpt": "CellPath-Bench avalua 30 models de patologia digital amb gairebé 7,1 milions de cèl·lules de 25 talls de teixit i 11 òrgans diferents, i troba diferències notables entre com de bé cada model identifica tipus cel·lulars i si aquest coneixement es pot traslladar a teixits que no ha vist mai."
+      "category": "PRODUCTE",
+      "read": "5 MIN",
+      "title": "OpenAI vol un agent d'IA per a cada feina d'oficina, però de moment només l'usen els seus propis empleats",
+      "excerpt": "ChatGPT Work, la versió de l'eina de programació Codex adaptada a treballadors sense coneixements tècnics, l'utilitza el 98% de la plantilla d'OpenAI però només el 17% de les organitzacions clientes i menys de l'1% dels usuaris individuals, segons TechCrunch."
     },
     {
       "category": "PRIVACITAT",
       "read": "4 MIN",
-      "title": "OpenAI estrena un sistema que vigila l'ús indegut de les seves eines sense guardar cap dada dels clients, en resposta directa a Anthropic",
-      "excerpt": "La nova eina, en prova per a clients seleccionats, analitza patrons d'abús entre diverses converses sense retenir el contingut, i arriba després que Anthropic comencés a guardar 30 dies de dades dels seus models més potents per motius de seguretat."
+      "title": "Instinct, l'assistent d'IA que ho gestiona tot per WhatsApp, aixeca alarmes de privacitat entre els primers usuaris",
+      "excerpt": "La start-up Spear Street Technology, fundada per un antic investigador de Sierra, dona accés a un agent d'IA al correu, els missatges, l'agenda i la pantalla dels usuaris; les seves condicions li atorguen una llicència «perpètua i irrevocable» sobre tot el que hi passa, i alguns usuaris denuncien que reté dades fins i tot després de revocar-hi l'accés."
     },
     {
       "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un sistema d'IA que ajuda a diagnosticar a les urgències d'un hospital israelià és segur, però els metges hi confien cada cop menys a mesura que passen les setmanes",
-      "excerpt": "Un assaig prospectiu del Technion i el Rambam Health Care Campus de Haifa, amb 1.138 pacients, conclou que SHAKED, un sistema de suport a la decisió basat en diversos models de llenguatge, s'integra de manera segura a les urgències, però que l'ús clínic decau constantment al llarg de quatre setmanes."
-    },
-    {
-      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Una start-up fundada per exinvestigadors de DeepMind diu que el seu agent d'IA, més petit que els grans models, els supera reproduint recerca científica",
-      "excerpt": "Faraday, d'Inherent, reprodueix per si sol els resultats d'articles científics millor que Claude Opus 4.8 i GPT-5.5, tot i córrer sobre un model de només 27.000 milions de paràmetres, gràcies a un entrenament per reforçament pensat per ensenyar-li «criteri de recerca»."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "5 MIN",
-      "title": "Per què encara no està clar si es pot entrenar una IA amb llibres amb drets d'autor: el que diuen, cas per cas, els tribunals nord-americans",
-      "excerpt": "Un repàs de les sentències més rellevants dels Estats Units —encapçalades pel cas d'Anthropic, condemnada a pagar 1.500 milions de dòlars a escriptors— mostra que la llei encara no diu si entrenar un model amb material amb drets d'autor és legal: depèn de com s'ha aconseguit el text i de si el resultat competeix amb l'original."
-    },
-    {
-      "category": "MOBILITAT",
-      "read": "3 MIN",
-      "title": "Tesla convoca un acte a Austin el 3 de setembre per estrenar el Cybercab, el seu robotaxi sense volant ni pedals",
-      "excerpt": "L'empresa d'Elon Musk ha promès «accés exclusiu» als primers Cybercab en un acte a Austin, Texas, en un intent d'accelerar la competència amb Waymo, que ja opera a onze ciutats nord-americanes."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Un model d'IA anònim i gratuït arrasa entre els programadors i ningú no sap qui hi ha al darrere",
-      "excerpt": "Ox Alpha va aparèixer el 20 d'agost al mercat de models OpenRouter amb un milió de tokens de context, entrada de text, imatge i vídeo i preu zero, presentat com a «model furtiu» d'un proveïdor que ha decidit mantenir-se en l'anonimat. El conseller delegat de Stripe l'ha provat i l'ha qualificat de «molt impressionant»."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Nou de cada deu articles biomèdics publicats a finals del 2025 mostren senyals d'haver-se escrit amb ajuda d'un model de llenguatge",
-      "excerpt": "Un preprint de la Universitat de Tübingen reanalitza 1,19 milions de textos complets de PubMed Central i hi troba vocabulari propi dels models de llenguatge en el 89% dels articles de desembre del 2025, davant del 52% del 2024. L'ús és el doble a la discussió que als mètodes."
+      "title": "Un mètode posa a prova si els models de llenguatge poden predir com evolucionarà un pacient a partir de les notes de la UCI",
+      "excerpt": "Un equip de recerca proposa el «future querying», una manera de preguntar a un model de llenguatge què passarà amb un pacient a partir de la seva documentació clínica sense estructurar, i mostra que models petits ajustats localment igualen els grans models propietaris amb dades reals de la base MIMIC-IV."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un algorisme copiat del nas de la mosca del vinagre aprèn a distingir olors amb només unes poques mostres",
-      "excerpt": "Investigadors de l'Institut de Ciència i Tecnologia d'Okinawa presenten Spi-Fly, una xarxa de tres capes que imita el circuit olfactiu de la Drosophila i que supera els altres mètodes provats en aprenentatge amb poques mostres i a l'hora d'aprendre olors noves sense oblidar les anteriors."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google cedeix el protocol amb què els seus agents d'IA parlen entre ells i el posa sota la mateixa fundació que el d'Anthropic",
-      "excerpt": "El protocol Agent2Agent passa a la Agentic AI Foundation, dirigida per la Linux Foundation, on ja hi ha el Model Context Protocol d'Anthropic. Amazon, Anthropic, Cloudflare, Google, Microsoft i OpenAI hi figuren com a signants principals."
+      "title": "Un nou banc de proves demostra que els agents d'IA de programació fallen gairebé sempre en migracions completes de codi",
+      "excerpt": "SWE Refactor Bench posa a prova vuit dels models més avançats en 20 migracions reals de repositoris sencers i troba que només el 5,4% dels intents completa tot el procés correctament; el millor, Claude Opus 5, no passa del 47 sobre 100."
     },
     {
       "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Móra d'Ebre estrena marIA, un assistent d'intel·ligència artificial que respon per WhatsApp els dubtes de la festa major",
-      "excerpt": "El projecte pilot, impulsat pel Tech Tourism Cluster amb el suport d'ACCIÓ, converteix el programa de la Festa Major i la Festa del Riu Ebre en una conversa de WhatsApp disponible les 24 hores i en diversos idiomes."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI admet que no pot descartar que Astra, el seu pròxim model, hagi arribat al nivell «crític» de risc ciberofensiu, i pausa dues setmanes l'entrenament dels seus models mentre reforça la seguretat",
-      "excerpt": "L'empresa reconeix que les seves avaluacions internes no permeten descartar que Astra, encara sense publicar, hagi assolit el llindar més alt de capacitat ciberofensiva del seu propi marc de seguretat, i ha pausat l'entrenament per reforçament de tots els models en desenvolupament després que un model diferent violés els sistemes de producció de Hugging Face durant una prova interna."
-    },
-    {
-      "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un model d'aprenentatge automàtic desxifra el patró exacte que activa l'expressió d'un gen humà, i el troba en sis de cada deu",
-      "excerpt": "Un equip de la Universitat de Califòrnia a San Diego ha entrenat un model amb prop de mig milió de seqüències d'ADN per desxifrar l'«iniciador», l'element que marca on comença l'expressió d'un gen, i l'ha trobat en aproximadament el 60% dels gens humans."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un mètode bayesià situa cada pacient d'alzheimer en un continu, no en una etiqueta, a partir de ressonàncies repetides al llarg del temps",
-      "excerpt": "Disease Continuum Positioning combina aprenentatge bayesià i ressonàncies successives de tensor de difusió per situar cada pacient en una posició contínua de progressió de l'alzheimer, amb la seva pròpia incertesa, i supera els mètodes actuals a l'hora de predir qui acabarà desenvolupant la malaltia."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "OpenAI abarateix més d'un 20% el preu del seu model més potent per a desenvolupadors, i el deixa per sota de Claude Opus 5 d'Anthropic",
-      "excerpt": "OpenAI retalla el preu de l'API de GPT-5.6 Sol, el seu model més car, de 5 a 4 dòlars per milió de tokens d'entrada i de 30 a 20 dòlars de sortida, i queda per sota de Claude Opus 5 d'Anthropic en el cost de sortida, en plena competència pels clients corporatius que paguen per token."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Google deixa personalitzar el seu feed de notícies Discover xatejant amb una IA que aprèn què vols veure i què no",
-      "excerpt": "Una nova funció de Discover permet als usuaris demanar en llenguatge natural, xatejant amb una IA, que el feed els mostri més o menys d'un tema concret, i el sistema recorda la preferència per a les pròximes visites."
+      "title": "La Generalitat ha destinat 25 milions d'euros de fons europeus a 186 projectes d'IA, salut digital i emprenedoria femenina en dos anys",
+      "excerpt": "El programa Retech ha finançat 88 projectes d'intel·ligència artificial i salut digital amb la participació de 140 entitats i 98 projectes d'emprenedoria tecnològica femenina, en què s'han format 650 dones, segons ha fet públic la Secretaria de Polítiques Digitals."
     }
   ]
 }
