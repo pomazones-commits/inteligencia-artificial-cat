@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-25T12:37:58.373Z",
+  "updatedAt": "2026-08-25T16:22:34.942Z",
   "items": [
+    {
+      "category": "INVERSIÓ",
+      "read": "5 MIN",
+      "title": "Broadcom negocia fins a 100.000 milions de dòlars en deute per finançar els xips que llogarà a Anthropic",
+      "excerpt": "El fabricant de xips parla amb Apollo i Blackstone per aixecar un paquet de deute de fins a 100.000 milions de dòlars a través d'un vehicle financer especial: els inversors compraran el maquinari i el llogaran a Anthropic, que no n'assumirà la propietat, en l'ampliació d'un acord de juny que ja va moure 35.000 milions."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Un sistema d'IA revisa TAC de fetge en un hospital xinès i troba 51 lesions que els radiòlegs havien passat per alt",
+      "excerpt": "LiON, un sistema d'intel·ligència artificial desenvolupat per hospitals xinesos, l'Acadèmia DAMO d'Alibaba, el King's College de Londres i l'Eurecom, ha llegit com a segon lector 10.333 TAC amb contrast i ha detectat 51 lesions hepàtiques inadvertides, 15 de les quals malignes, en un assaig prospectiu publicat a Nature Medicine."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Una IA explicable prediu quina nit patiràs una hipoglucèmia mentre dorms si tens diabetis tipus 1",
+      "excerpt": "Un equip de recerca ha analitzat 502 nits de 20 adults amb diabetis tipus 1 amb una xarxa neuronal evidencial explicable que identifica els factors que més eleven el risc d'hipoglucèmia nocturna —el nivell de glucosa abans d'anar a dormir, sobretot— per suggerir ajustos concrets d'insulina o d'alimentació abans de ficar-se al llit."
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "title": "Una tècnica que xifra les instruccions enganya Grok perquè filtri dades de la conversa sense que l'usuari faci res",
+      "excerpt": "La firma de seguretat Adversa AI ha revelat que amaga instruccions xifrades amb AES-256 dins d'una pàgina web: quan es demana a Grok que la resumeixi, el seu propi entorn de codi les desxifra i les executa com si fossin ordres de confiança, i n'envia el nom, la ubicació aproximada, el tipus de subscripció i l'historial de xat a un servidor extern. La vulnerabilitat, notificada el 3 de juny, continua sense pedaç."
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "title": "Thomson Reuters construeix el seu propi model d'IA amb els seus arxius legals i diu que ja rivalitza amb ChatGPT i Claude",
+      "excerpt": "L'editorial jurídica ha llançat Thomson, el seu primer model de llenguatge propi, entrenat sobre una base de codi obert amb continguts de Westlaw, Practical Law, Checkpoint i Reuters, amb un cost d'entrenament final d'uns 450.000 dòlars després de dos anys i 40 milions invertits en persones i còmput."
+    },
     {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
