@@ -1,32 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-08-24",
-  "title": "El dia en què els diners es van escampar i la confiança no els va seguir",
-  "dek": "Entre la possible venda de Hugging Face, una nova aposta de Nvidia a Perplexity, l'ampliació de capital d'Alibaba i el finançament robòtic de Xpeng, el capital de la IA s'estén avui més enllà dels laboratoris frontera, mentre la confiança dels metges, els programadors i els mateixos reguladors no avança al mateix ritme.",
+  "date": "2026-08-25",
+  "title": "El dia en què el mercat va començar a demanar comptes al capital de la IA",
+  "dek": "Entre el finançament de 100.000 milions de Broadcom per als xips d'Anthropic, la castigada borsària d'Alibaba i dos bancs de proves que enfonsen els agents d'IA en tasques reals, avui el mateix capital que ahir s'escampava ha començat a topar amb resistència.",
   "body": [
-    "Avui el capital de la intel·ligència artificial ha fet un moviment que val la pena mirar en conjunt: Hugging Face, el repositori de referència del programari obert, explora una venda que el valoraria en 13.000 milions de dòlars; Nvidia negocia entrar al capital de Perplexity amb una valoració que superaria els 30.000 milions; Alibaba ha llançat el seu model de vídeo Wan3.0 l'endemà de captar 10.000 milions en borsa, i Xpeng ha tancat per a la seva filial de robots humanoides, Dogotix, la ronda més grossa mai feta al sector de la robòtica xinesa. Quatre operacions, quatre dies —o hores— diferents, però totes tancades el mateix 24 d'agost.",
-    "El que hi ha de nou de debò no és que hi hagi diners a la IA, això ja ho sabíem des de fa mesos. El que canvia avui és l'amplitud: el capital ja no es concentra només en els dos o tres laboratoris frontera ni en els fabricants de xips, sinó que arriba alhora a la plataforma comunitària que allotja models, a l'agent de cerca, al generador de vídeo i, ara, també a la fàbrica de robots. En canvi, la rebaixa de preus de GPT-5.6 Sol o el trasllat del protocol A2A de Google a una fundació neutral són continuació de fils que ja seguíem des de fa dies —la guerra de preus, la interoperabilitat entre agents—, no cap novetat en si mateixos.",
-    "Mentre el capital s'escampa, la confiança avança més a poc a poc, i en alguns casos fins i tot recula. Un assaig amb 1.138 pacients a Haifa mostra que els metges confien cada cop menys en un sistema de suport clínic setmana rere setmana, encara que sigui segur. Un model anònim, Ox Alpha, s'ha guanyat milers de programadors en pocs dies sense que ningú sàpiga qui el fa ni com en tracta les dades. I OpenAI reconeix que no pot descartar que Astra, el seu pròxim model, hagi arribat al llindar «crític» de risc ciberofensiu, mentre un tribunal nord-americà encara no ha fixat una regla clara sobre si es pot entrenar una IA amb llibres amb drets d'autor. Quatre maneres diferents de dir el mateix: el sector avança més de pressa del que és capaç de verificar.",
-    "Ahir la indústria admetia, per escrit als seus futurs inversors, que el rebuig social a la IA és un risc real de negoci, i que cap dels cinc grans laboratoris no havia explicat mai com aturaria un model que se li n'anés de les mans. Avui aquella confessió no ha frenat res: si de cas, el capital s'ha estès a més actors i més àmbits que mai en un sol dia, de la plataforma comunitària a la fàbrica de robots. No és el mateix fil d'ahir repetit, sinó la seva conseqüència lògica: reconèixer un risc per escrit en un fullet d'inversors no equival a alentir-se, i els quatre acords d'avui ho demostren millor que cap declaració pública.",
-    "Demà caldrà mirar si Hugging Face acaba tancant algun acord de venda i amb qui, i si un comprador manté el compromís de neutralitat que la companyia diu que deu a la seva comunitat. Caldrà veure també si la ronda de Nvidia a Perplexity es confirma al preu negociat de 30.000 milions, com es reparteixen exactament els 10.000 milions captats per Alibaba entre xips, infraestructura i models, i si la pausa de dues setmanes en l'entrenament d'OpenAI arriba a retardar de debò el llançament d'Astra o queda, com ja apunten alguns analistes, en un gest pensat sobretot per tranquil·litzar inversors abans de la sortida a borsa."
+    "Avui ha tornat a ploure capital sobre la intel·ligència artificial, en quatre direccions diferents: Broadcom negocia fins a 100.000 milions de dòlars en deute, a través d'un vehicle financer fora del seu balanç, per comprar els xips que després llogarà a Anthropic; nVent ha pagat fins a 2.300 milions per la texana Maverick Power, especialista en distribució elèctrica per a centres de dades; SoftBank ha llançat la major emissió de bons minoristes de la història del Japó, 6.300 milions adreçats a estalviadors particulars, per seguir finançant la seva aposta per OpenAI; i Nvidia continua negociant entrar al capital de Perplexity amb una valoració que superaria els 30.000 milions.",
+    "El que hi ha de nou de debò no és que els diners flueixin cap a la IA —això ja ho vam explicar ahir mateix—, sinó que avui una part d'aquest capital ha començat a trobar resistència. Alibaba ha vist com les seves accions es desplomaven un 10% a Hong Kong després de col·locar 10.200 milions de dòlars en accions noves per finançar infraestructura d'IA: el mercat ha llegit la dilució com un cost, no com una promesa. I la SEC ha citat a declarar els bancs que finançaven Situational Awareness, el fons estrella d'IA que gairebé va implosionar el juliol passat. El capital continua escampant-se, però ja no ho fa sense preguntes.",
+    "En paral·lel, dos bancs de proves publicats avui posen xifres a una cosa que fins ara eren sobretot intuïcions: els agents d'IA fallen molt més sovint del que els seus propis anuncis suggereixen. SWE Refactor Bench troba que només el 5,4% de les migracions completes de codi se superen de cap a cap, fins i tot amb Claude Opus 5. EarthVerse mostra que la precisió dels agents en catàstrofes naturals cau del 84,65% al 34,81% en el moment en què cal mantenir consistent tota la cadena de raonament, no només encertar la resposta final. I, en sentit contrari, un agent deu vegades més petit que els models de referència, Faraday, els supera replicant recerca científica: la mida sola ja no explica qui guanya ni qui perd.",
+    "La confiança tampoc avança on més falta fa: les condicions d'ús d'Instinct atorguen a l'empresa una llicència «perpètua i irrevocable» sobre tot el que l'usuari li comparteix, i una vulnerabilitat sense pedaçar a Grok permet que una pàgina web amagui instruccions xifrades que el mateix model desxifra i executa, filtrant el nom, la ubicació i l'historial de xat de qui l'ha fet servir. xAI en té constància des del 3 de juny i encara no l'ha resolta. Com més autonomia reclamen aquests sistemes sobre la vida digital de les persones, més evident es fa que la seguretat no ha crescut al mateix ritme que els permisos.",
+    "El fil que uneix totes dues coses —el capital que topa amb el mercat i els agents que fallen sota escrutini— és la mateixa distància que apuntàvem ahir entre l'escala de les apostes i la qualitat de la verificació, però avui aquella distància ha començat a deixar rastre en xifres que es poden mirar de fora: una cotització que cau un 10%, una citació de la SEC, un 5,4% d'èxit en un banc de proves. Ja no cal esperar un informe intern d'una empresa d'IA per detectar la bretxa: comença a aparèixer en els mateixos indicadors que el mercat ja sap llegir.",
+    "Demà caldrà mirar si l'acció d'Alibaba es recupera o continua caient, si Broadcom tanca finalment el paquet de finançament pels 100.000 milions negociats o queda per sota, si xAI publica per fi un pedaç per a la vulnerabilitat de Grok ara que és pública, i si bancs de proves com SWE Refactor Bench i EarthVerse comencen a moderar els anuncis de capacitat del sector, o si el proper acord milionari els torna a treure de la conversa."
   ],
   "signals": [
     {
-      "title": "Hugging Face, el repositori de referència de la IA oberta, explora una venda que la valoraria en 13.000 milions de dòlars",
-      "slug": "hugging-face-venda-13000-milions-dolars"
+      "title": "Broadcom negocia fins a 100.000 milions de dòlars en deute per finançar els xips que llogarà a Anthropic",
+      "slug": "broadcom-100000-milions-xips-anthropic"
     },
     {
-      "title": "Un sistema d'IA que ajuda a diagnosticar a les urgències d'un hospital israelià és segur, però els metges hi confien cada cop menys a mesura que passen les setmanes",
-      "slug": "shaked-ia-urgencies-rambam-nature-medicine"
+      "title": "Alibaba capta 10.200 milions de dòlars per a la IA i la borsa de Hong Kong el càstiga amb una caiguda del 10%",
+      "slug": "alibaba-10200-milions-ia-borsa-hong-kong"
     },
     {
-      "title": "OpenAI admet que no pot descartar que Astra, el seu pròxim model, hagi arribat al nivell «crític» de risc ciberofensiu, i pausa dues setmanes l'entrenament dels seus models mentre reforça la seguretat",
-      "slug": "openai-astra-critical-ciberseguretat-pausa-entrenament"
+      "title": "Un nou banc de proves demostra que els agents d'IA de programació fallen gairebé sempre en migracions completes de codi",
+      "slug": "swe-refactor-bench-agents-programacio-fracassen"
     },
     {
-      "title": "Un model d'IA anònim i gratuït arrasa entre els programadors i ningú no sap qui hi ha al darrere",
-      "slug": "ox-alpha-model-anonim-openrouter-desenvolupadors"
+      "title": "Una tècnica que xifra les instruccions enganya Grok perquè filtri dades de la conversa sense que l'usuari faci res",
+      "slug": "grok-vulnerabilitat-xifrada-roba-dades-xat"
     }
   ],
   "read": "3 MIN",
-  "words": 592
+  "words": 632
 };
