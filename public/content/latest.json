@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-26T04:18:47.825Z",
+  "updatedAt": "2026-08-26T08:28:12.718Z",
   "items": [
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "OpenAI desarticula una xarxa russa que feia servir ChatGPT per estendre propaganda pro-Kremlin a Occident",
+      "excerpt": "L'empresa ha tancat un grup de comptes operats des de Rússia amb VPN que instruïen ChatGPT perquè n'esborrés els trets lingüístics i generessin comentaris en anglès i alemany a favor de Moscou, difosos a través d'un fals think tank israelià amb articles plagiats i atribuïts a acadèmics reals."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un estudi troba que els grans models de llenguatge detecten pitjor el discurs d'odi quan és en urdú que quan és en anglès",
+      "excerpt": "Investigadors han posat a prova GPT-4o, Claude, Gemini, Qwen i Llama amb el mateix contingut en urdú (en escriptura nastaliq i en alfabet llatí) i en la seva traducció a l'anglès: entre el 2,4% i el 9,9% del contingut marcat com a odiós en anglès passa desapercebut quan és en urdú original."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "Dos investigadors rebutgen 2.000 milions de dòlars de Bezos per llançar una IA que no prediu paraules, sinó fenòmens físics",
+      "excerpt": "Anima Anandkumar, exdirectora d'IA a Nvidia, i Benedikt Jenik han fundat Accelerated Understanding, una empresa que substitueix l'arquitectura Transformer per «operadors neuronals» per predir processos físics —clima, geologia, materials— en lloc de text, després de declinar una oferta multimilionària del projecte Prometheus de Jeff Bezos."
+    },
+    {
+      "category": "MERCATS",
+      "read": "5 MIN",
+      "title": "ACTUALITZACIÓ: Anthropic diu als seus futurs inversors que el seu mercat potencial és de 30 bilions de dòlars, per davant del de SpaceX",
+      "excerpt": "Després de confirmar fa unes setmanes que volia una sortida a borsa que igualés o superés el rècord de SpaceX, Anthropic ha començat a concretar xifres davant dels inversors: una valoració objectiu d'uns 2 bilions de dòlars, fins a 100.000 milions captats i el full de presentació (S-1) previst per als propers dies."
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "4 MIN",
+      "title": "La Generalitat ha mogut gairebé 25 milions d'euros en dos anys per finançar 186 projectes digitals i d'intel·ligència artificial",
+      "excerpt": "Amb fons europeus de recuperació canalitzats pel programa RETECH, el Govern ha impulsat projectes de robòtica cognitiva, síntesi de veu en català, monitoratge de ferides cròniques i llars intel·ligents per a gent gran, amb la participació de més de 240 empreses i entitats."
+    },
     {
       "category": "INFRAESTRUCTURA",
       "read": "5 MIN",
