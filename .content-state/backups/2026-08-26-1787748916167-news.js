@@ -51,7 +51,7 @@ window.IA_NEWS = [
     "category": "INFRAESTRUCTURA",
     "read": "3 MIN",
     "slug": "infineon-c2i-semiconductors-energia-centres-dades",
-    "title": "Infineon compra l'índia C2i Semiconductors per controlar millor l'energia que consumeixen els xips d'IA als centres de dades",
+    "title": "Infineon compra la india C2i Semiconductors per controlar millor l'energia que consumeixen els xips d'IA als centres de dades",
     "excerpt": "L'alemanya Infineon adquireix aquesta start-up de Bangalore, fundada el 2024 per exenginyers de Texas Instruments, especialitzada en controladors multifase que responen als canvis sobtats de consum elèctric dels processadors d'IA més potents.",
     "sourceName": "Infineon Technologies",
     "sourceUrl": "https://www.infineon.com/press-release/2026/infpr202608-129",
