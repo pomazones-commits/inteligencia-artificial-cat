@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-26T08:28:12.718Z",
+  "updatedAt": "2026-08-26T12:53:10.540Z",
   "items": [
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "ACTUALITZACIÓ: la fiscalia taiwanesa acusa nou persones, incloent-hi empleats de Nvidia i Super Micro, de contrabandejar xips d'IA cap a la Xina",
+      "excerpt": "Un mes després de detenir un primer treballador de Nvidia, la fiscalia de Taiwan formalitza l'acusació contra nou persones per haver introduït il·legalment a la Xina 74 servidors amb xips B300, prohibits d'exportar-hi, camuflats amb documentació falsa i rutes per Indonèsia i Japó."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un estudi troba que els models de llenguatge oberts i afinats per a malària superen els models propietaris de capa frontera en la cerca de fàrmacs",
+      "excerpt": "Investigadors de la Magami Open Sciences Initiative han construït un conjunt de dades específic per a la malària i han comprovat que models oberts com TxGemma-9B, un cop entrenats amb aquestes dades, discriminen millor els compostos actius contra el paràsit que Gemini 2.5 o o3 sense entrenament específic."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "title": "Nvidia posa en producció el seu xip Groq 3 LPX, dissenyat perquè els agents d'IA responguin gairebé a l'instant",
+      "excerpt": "Sorgit de la compra de Groq per 20.000 milions de dòlars, el nou accelerador s'integra amb els racks Vera Rubin NVL72 per encarregar-se específicament de la fase de generació de resposta, la més sensible a la latència en aplicacions d'agents: Nvidia diu que arriba a 3.400 tokens per segon en proves de context llarg."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Bain & Company es converteix en soci «Global Premier» d'Anthropic per portar Claude a les grans consultores empresarials",
+      "excerpt": "La consultora, que assegura haver desplegat Claude entre més de 7.000 empleats i haver-hi obtingut guanys de productivitat d'entre el 30% i el 50% en projectes de codi antic, entra a la categoria més alta de la xarxa de socis d'Anthropic per ajudar altres empreses a adoptar la IA a gran escala."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "3 MIN",
+      "title": "Infineon compra la india C2i Semiconductors per controlar millor l'energia que consumeixen els xips d'IA als centres de dades",
+      "excerpt": "L'alemanya Infineon adquireix aquesta start-up de Bangalore, fundada el 2024 per exenginyers de Texas Instruments, especialitzada en controladors multifase que responen als canvis sobtats de consum elèctric dels processadors d'IA més potents."
+    },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
