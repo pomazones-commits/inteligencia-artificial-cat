@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-27T08:17:09.918Z",
+  "updatedAt": "2026-08-27T12:41:01.441Z",
   "items": [
+    {
+      "category": "INVERSIÓ",
+      "read": "5 MIN",
+      "title": "Nvidia factura 96.200 milions de dòlars en un trimestre i dispara les previsions gràcies a la demanda de xips d'IA",
+      "excerpt": "El fabricant de xips tanca el segon trimestre del seu exercici fiscal amb un creixement del 106% interanual empès pel centre de dades, i preveu 108.000 milions per al trimestre vinent tot i no comptar amb cap ingrés de la Xina en aquesta xifra."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "5 MIN",
+      "title": "OpenAI presenta Jalapeño, el seu primer xip propi, i diu que supera els Blackwell de Nvidia en eficiència energètica",
+      "excerpt": "El xip d'inferència, desenvolupat amb Broadcom i mostrat a la conferència Hot Chips, ofereix fins a 1,9 vegades més feina d'IA per watt que els sistemes de Nvidia, encara que de moment només existeix en mostres d'enginyeria."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Salesforce posa tot el seu CRM dins de Claude i fa d'Anthropic el motor de raonament d'Agentforce",
+      "excerpt": "La nova aliança «Claudeforce» permet als venedors treballar directament des de Claude amb les dades de Salesforce, mentre Claude passa a impulsar el motor de raonament d'Agentforce i a ser el model per defecte a Slack; Salesforce hi preveu gastar-hi uns 300 milions de dòlars en tokens aquest any."
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "Un sistema d'IA detecta 15 càncers de fetge que els radiòlegs havien passat per alt en un assaig amb més de 10.000 pacients reals",
+      "excerpt": "Publicat a Nature Medicine, LiON analitza escàners de TC amb contrast per diagnosticar malignitats hepàtiques amb una fiabilitat (AUC) de 0,952 quan s'utilitza com a segon lector en la pràctica clínica real, i ha portat a modificar 37 informes radiològics."
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "title": "IBM publica en obert els seus nous models Granite 4.2, entrenats per raonar i actuar dins d'entorns de programari reals",
+      "excerpt": "Els tres models —de 3.000 a 30.000 milions de paràmetres— incorporen un mode de «pensament» que es pot activar o desactivar i s'entrenen amb aprenentatge per reforç dins d'entorns de terminal i cerca web; es publiquen amb llicència Apache 2.0, receptes d'entrenament incloses."
+    },
     {
       "category": "INVERSIÓ",
       "read": "5 MIN",
