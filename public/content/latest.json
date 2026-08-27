@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-26T16:45:27.949Z",
+  "updatedAt": "2026-08-27T04:21:34.701Z",
   "items": [
     {
-      "category": "TECNOLOGIA",
+      "category": "INFRAESTRUCTURA",
       "read": "5 MIN",
-      "title": "Amazon tanca Mechanical Turk, el mercat de microfeines humanes que Bezos va batejar «intel·ligència artificial artificial», després de 21 anys",
-      "excerpt": "La plataforma, nascuda el 2005 per pagar cèntims a persones que resolguessin tasques que cap màquina sabia fer, es va reconvertir des del 2018 en una font de mà d'obra per etiquetar dades i entrenar xarxes neuronals: ara hi ha empreses especialitzades com Scale AI que li han pres el relleu."
+      "title": "Anthropic signa amb la britànica Nscale un contracte de 45.000 milions de dòlars per llogar capacitat de càlcul",
+      "excerpt": "L'acord, a sis anys, donarà a Anthropic accés als nous xips Vera Rubin de Nvidia des d'un centre de dades de Nscale a Virgínia de l'Oest a partir de finals del 2027: el vuitè gran pacte de còmput que tanca l'empresa en vuit mesos per no quedar-se enrere en la cursa contra OpenAI i Google."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un nou model aprèn a aturar les accions perilloses d'un agent d'IA abans que s'executin, sense sacrificar-ne gaire la utilitat",
+      "excerpt": "Investigadors presenten StepGuard, un sistema que audita cada acció d'un agent d'intel·ligència artificial —esborrar un fitxer, enviar una dada— just abans que es dugui a terme: en proves amb els bancs AgentDojo i AgentDyn, redueix un 77,3% els atacs reeixits i només rebaixa un 2,8% la utilitat de l'agent."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un model d'IA calcula la magnitud d'un terratrèmol amb una sola estació sísmica i en mig mil·lisegon",
+      "excerpt": "Investigadors presenten SeisMamba, un sistema basat en l'arquitectura Mamba que estima la magnitud d'un sisme a partir de les dades d'una única estació, en comptes de la xarxa regional densa que exigeixen els mètodes actuals: processa 32 senyals en 0,55 mil·lisegons, tres cops més ràpid que els models basats en transformers."
     },
     {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "Bill Gates proposa reservar fins a un 40% de les feines perquè la intel·ligència artificial no les pugui fer mai",
-      "excerpt": "En un assaig de 6.000 paraules, el cofundador de Microsoft demana als governs que designin «feines reservades als humans» —posa com a exemple la cura de la infància o els jurats populars— i reclama un impost sobre els «tokens» d'IA i els robots per no incentivar fiscalment substituir persones per màquines."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La xinesa Moonshot AI negocia amb Microsoft, Amazon i Google repartir-se els ingressos del núvol pel seu model Kimi K3",
-      "excerpt": "Segons Reuters, l'empresa reclama fins a un 30% dels ingressos que generi Kimi K3 als núvols d'Azure, AWS i Google Cloud, un acord que seria el primer pacte important de repartiment d'ingressos entre una IA xinesa i un gran proveïdor de núvol nord-americà."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Google ensenya a gesticular amb les mans els assistents d'IA que guien tasques físiques en realitat augmentada",
-      "excerpt": "Investigadors de Google XR presenten AgentHands, un sistema que genera mans virtuals sincronitzades amb la veu d'un agent d'IA per assenyalar objectes i mostrar accions en ulleres de realitat augmentada: en una prova amb 12 persones, va millorar de manera significativa la comprensió d'instruccions complexes i els avisos de seguretat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou mètode, dues ordres de magnitud més barat, esbrina quines neurones d'un model de llenguatge fan sempre la mateixa feina",
-      "excerpt": "Investigadors presenten RACE, una tècnica per mesurar a gran escala si una neurona d'un model de llenguatge tipus Transformer respon sempre al mateix tipus de contingut o no, sense haver de recórrer als costosos mètodes basats en gradients que fa servir habitualment la interpretabilitat."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: la fiscalia taiwanesa acusa nou persones, incloent-hi empleats de Nvidia i Super Micro, de contrabandejar xips d'IA cap a la Xina",
-      "excerpt": "Un mes després de detenir un primer treballador de Nvidia, la fiscalia de Taiwan formalitza l'acusació contra nou persones per haver introduït il·legalment a la Xina 74 servidors amb xips B300, prohibits d'exportar-hi, camuflats amb documentació falsa i rutes per Indonèsia i Japó."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi troba que els models de llenguatge oberts i afinats per a malària superen els models propietaris de capa frontera en la cerca de fàrmacs",
-      "excerpt": "Investigadors de la Magami Open Sciences Initiative han construït un conjunt de dades específic per a la malària i han comprovat que models oberts com TxGemma-9B, un cop entrenats amb aquestes dades, discriminen millor els compostos actius contra el paràsit que Gemini 2.5 o o3 sense entrenament específic."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Nvidia posa en producció el seu xip Groq 3 LPX, dissenyat perquè els agents d'IA responguin gairebé a l'instant",
-      "excerpt": "Sorgit de la compra de Groq per 20.000 milions de dòlars, el nou accelerador s'integra amb els racks Vera Rubin NVL72 per encarregar-se específicament de la fase de generació de resposta, la més sensible a la latència en aplicacions d'agents: Nvidia diu que arriba a 3.400 tokens per segon en proves de context llarg."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Bain & Company es converteix en soci «Global Premier» d'Anthropic per portar Claude a les grans consultores empresarials",
-      "excerpt": "La consultora, que assegura haver desplegat Claude entre més de 7.000 empleats i haver-hi obtingut guanys de productivitat d'entre el 30% i el 50% en projectes de codi antic, entra a la categoria més alta de la xarxa de socis d'Anthropic per ajudar altres empreses a adoptar la IA a gran escala."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "3 MIN",
-      "title": "Infineon compra l'índia C2i Semiconductors per controlar millor l'energia que consumeixen els xips d'IA als centres de dades",
-      "excerpt": "L'alemanya Infineon adquireix aquesta start-up de Bangalore, fundada el 2024 per exenginyers de Texas Instruments, especialitzada en controladors multifase que responen als canvis sobtats de consum elèctric dels processadors d'IA més potents."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI desarticula una xarxa russa que feia servir ChatGPT per estendre propaganda pro-Kremlin a Occident",
-      "excerpt": "L'empresa ha tancat un grup de comptes operats des de Rússia amb VPN que instruïen ChatGPT perquè n'esborrés els trets lingüístics i generessin comentaris en anglès i alemany a favor de Moscou, difosos a través d'un fals think tank israelià amb articles plagiats i atribuïts a acadèmics reals."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi troba que els grans models de llenguatge detecten pitjor el discurs d'odi quan és en urdú que quan és en anglès",
-      "excerpt": "Investigadors han posat a prova GPT-4o, Claude, Gemini, Qwen i Llama amb el mateix contingut en urdú (en escriptura nastaliq i en alfabet llatí) i en la seva traducció a l'anglès: entre el 2,4% i el 9,9% del contingut marcat com a odiós en anglès passa desapercebut quan és en urdú original."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Dos investigadors rebutgen 2.000 milions de dòlars de Bezos per llançar una IA que no prediu paraules, sinó fenòmens físics",
-      "excerpt": "Anima Anandkumar, exdirectora d'IA a Nvidia, i Benedikt Jenik han fundat Accelerated Understanding, una empresa que substitueix l'arquitectura Transformer per «operadors neuronals» per predir processos físics —clima, geologia, materials— en lloc de text, després de declinar una oferta multimilionària del projecte Prometheus de Jeff Bezos."
-    },
-    {
-      "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Anthropic diu als seus futurs inversors que el seu mercat potencial és de 30 bilions de dòlars, per davant del de SpaceX",
-      "excerpt": "Després de confirmar fa unes setmanes que volia una sortida a borsa que igualés o superés el rècord de SpaceX, Anthropic ha començat a concretar xifres davant dels inversors: una valoració objectiu d'uns 2 bilions de dòlars, fins a 100.000 milions captats i el full de presentació (S-1) previst per als propers dies."
+      "title": "Google treu la seva unitat de seguretat i responsabilitat de la IA de DeepMind i la passa a l'àrea d'afers globals",
+      "excerpt": "Els 90 treballadors que analitzen els riscos químics, biològics i psicològics dels models de Google canviaran de departament, de DeepMind —el laboratori que els desenvolupa— a l'àrea que gestiona el lobi i la política pública de la companyia, en un moviment que alguns treballadors de DeepMind temen que redueixi la seva independència."
     },
     {
       "category": "CATALUNYA",
       "read": "4 MIN",
-      "title": "La Generalitat ha mogut gairebé 25 milions d'euros en dos anys per finançar 186 projectes digitals i d'intel·ligència artificial",
-      "excerpt": "Amb fons europeus de recuperació canalitzats pel programa RETECH, el Govern ha impulsat projectes de robòtica cognitiva, síntesi de veu en català, monitoratge de ferides cròniques i llars intel·ligents per a gent gran, amb la participació de més de 240 empreses i entitats."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "OpenAI presenta el seu xip Jalapeño i diu que supera els processadors Blackwell de Nvidia en inferència",
-      "excerpt": "Al congrés Hot Chips, OpenAI ha mostrat resultats de referència del seu primer xip propi, dissenyat amb Broadcom exclusivament per executar models ja entrenats: assegura que fa més feina per vatt i respon més ràpid que el maquinari actual de Nvidia, tot i que continuarà depenent-ne per entrenar els seus models."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un model d'IA desxifra per primera vegada el patró exacte de l'«interruptor» que activa la meitat dels gens humans",
-      "excerpt": "Investigadors de la Universitat de Califòrnia a San Diego han entrenat un model de machine learning amb mig milió de variants de l'iniciador, la seqüència d'ADN que marca on comença a llegir-se un gen, i n'han descodificat el patró: hi és present en aproximadament el 60% dels gens humans."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi troba que el «raonament» que mostren els models d'IA mèdica sovint no és el que decideix el diagnòstic",
-      "excerpt": "Investigadors han posat a prova 14 models de llenguatge amb 30 tipus d'edicions clíniques —invertir la gravetat d'un símptoma, eliminar una prova— sobre les explicacions pas a pas que generen per diagnosticar: en gairebé tres de cada quatre casos, alterar aquest raonament no canvia la resposta final del model."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Anthropic obre una convocatòria de 5 milions de dòlars per investigar com afecta Claude el benestar dels usuaris",
-      "excerpt": "L'empresa crea un programa de subvencions obert a clínics, psicòlegs i metodòlegs perquè desenvolupin eines d'avaluació de codi obert sobre com es comporten els seus models en converses sensibles —crisis emocionals, salut mental— i publiqui estàndards que altres companyies puguin adoptar."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Barcelona encapçala el rànquing espanyol d'adaptació a la intel·ligència artificial, per davant de Madrid",
-      "excerpt": "L'AI City Index d'Adobe situa Barcelona primera entre les ciutats espanyoles amb 94,24 punts sobre 100 i 93,39 ofertes de feina relacionades amb IA per milió d'habitants, per davant de Madrid i Valencia, en un índex que combina ofertes de feina tecnològica i cerques relacionades amb IA."
+      "title": "ACTUALITZACIÓ: la societat que opta a portar la gigafactoria d'IA a Móra la Nova ja té president",
+      "excerpt": "José Marino García, director executiu de capitalització de la SETT, assumeix la presidència de l'empresa pública-privada que ha de presentar el setembre la candidatura de Móra la Nova i Tivissa a una de les set gigafactories europees d'intel·ligència artificial, dins d'una convocatòria de la Comissió Europea que tanca el 12 de novembre."
     }
   ]
 }
