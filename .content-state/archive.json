@@ -1,6 +1,71 @@
 {
-  "updatedAt": "2026-08-27T04:21:34.701Z",
+  "updatedAt": "2026-08-27T08:17:09.918Z",
   "items": [
+    {
+      "category": "INVERSIÓ",
+      "read": "5 MIN",
+      "slug": "deepseek-ronda-financament-74000-milions",
+      "title": "DeepSeek tanca una ronda de gairebé 7.000 milions de dòlars que la valora en 74.000 milions",
+      "excerpt": "La start-up xinesa reprèn i tanca abans de finals d'agost una ronda de finançament de prop de 50.000 milions de iuans amb el fabricant de bateries CATL entre els inversors, i es prepara per sortir a borsa a Shanghai el 2027.",
+      "sourceName": "Tech Startups / Bloomberg",
+      "sourceUrl": "https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/",
+      "sourceDate": "26 d'agost de 2026",
+      "body": "DeepSeek, el laboratori xinès que va sacsejar el sector a principis del 2025 en demostrar que es podia entrenar un model competitiu amb una fracció del cost habitual, porta mesos negociant una ronda de finançament que l'allunya definitivament de la seva imatge de projecte de recerca low-cost. La ronda es va obrir a finals de maig amb 7.000 milions de dòlars captats a una valoració de 52.000 milions, i es va aturar el juliol després que el fundador, Liang Wenfeng, es mostrés incòmode amb unes declaracions filtrades.\n\nSegons ha avançat Bloomberg i recull Tech Startups, la ronda s'ha reprès i s'espera que es tanqui abans que acabi l'agost, amb una xifra propera als 50.000 milions de iuans (uns 7.000 milions de dòlars) i una valoració prèvia a la inversió d'uns 500.000 milions de iuans, al voltant de 74.000 milions de dòlars. Als inversors ja existents Monolith i Shixiang Capital s'hi suma ara el gegant de bateries CATL, i l'operació s'emmarca en els preparatius d'una possible sortida a borsa al mercat STAR de Shanghai, amb una eventual sol·licitud a finals d'aquest any i un debut previst per al 2027.\n\nLa xifra és rellevant perquè marca la transició de DeepSeek de laboratori de recerca disruptiu a companyia fortament capitalitzada, en un moment en què la indústria xinesa de la IA busca reduir la seva dependència de maquinari occidental. Els nous fons haurien de finançar el desenvolupament de models, la contractació de talent, la infraestructura pròpia i els acords amb fabricants de xips locals, en un context de fam creixent de còmput a la Xina similar al que viuen OpenAI, Anthropic i Google als Estats Units.\n\nL'operació encara no s'ha tancat formalment i els detalls —inclosa la composició final dels inversors i la xifra exacta— provenen de fonts amb coneixement de les negociacions privades, no d'un anunci oficial de DeepSeek, de manera que poden variar fins a la signatura definitiva.",
+      "image": "./assets/deepseek-ronda-financament-74000-milions-20260827.jpg",
+      "editionDate": "2026-08-27"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "mind-morality-sociologia-ia-estudi",
+      "title": "Un estudi amb milions d'articles i entrevistes a professionals de la IA mapeja els tres debats que en marquen la percepció pública",
+      "excerpt": "Investigadors de Stanford i la Universitat de Chicago identifiquen tres eixos —el mètode de desenvolupament, si l'IA és una eina o una ment i si cal accelerar-la o frenar-la— que estructuren com professionals i mitjans entenen la intel·ligència artificial.",
+      "sourceName": "arXiv (acceptat a ACM CSCW 2026)",
+      "sourceUrl": "https://arxiv.org/abs/2608.24748",
+      "sourceDate": "25 d'agost de 2026",
+      "body": "Bona part del debat sobre la intel·ligència artificial es fa amb paraules que semblen tècniques però amaguen posicions de fons: quan algú diu que un model «raona» o que cal «alinear-lo», ja està triant un marc interpretatiu concret. Un equip encapçalat per Jacy Reese Anthis, amb l'economista d'Stanford Erik Brynjolfsson i el sociòleg de la Universitat de Chicago James Evans, s'ha proposat identificar sistemàticament aquests marcs en lloc de donar-los per suposats.\n\nL'estudi, penjat a arXiv el 25 d'agost i acceptat a la conferència ACM CSCW 2026, combina l'anàlisi computacional de milions d'articles de premsa i publicacions a xarxes socials sobre IA amb 57 entrevistes semiestructurades a professionals del sector, fetes en dues onades, el 2021 i el 2023, just abans i després de l'esclat de l'interès públic per ChatGPT. D'aquesta anàlisi mixta en surten tres eixos de debat recurrents: el «mètode» (si el progrés de la IA l'ha de guiar l'expertesa o l'emergència de capacitats no dissenyades), la «ment» (si els sistemes són eines passives o entitats amb algun tipus d'experiència) i la «moralitat» (si cal accelerar-ne o alentir-ne el desenvolupament).\n\nLa contribució de l'estudi no és cap resultat tècnic sobre els models, sinó una eina per llegir amb més precisió com es parla d'IA: mostra que gran part de les discrepàncies públiques —entre optimistes i catastrofistes, entre qui hi veu una eina i qui hi veu un embrió de ment— no són desacords sobre fets, sinó sobre quin marc interpretatiu s'aplica. Per a un camp on el llenguatge sovint condiciona la regulació i la inversió, tenir un mapa d'aquests marcs pot ajudar a distingir un debat informat d'un simple xoc de vocabularis.\n\nL'anàlisi es limita a articles i entrevistes en anglès i a professionals nord-americans majoritàriament, de manera que els tres eixos identificats poden no captar com es discuteix la IA en altres llengües o tradicions culturals; els autors mateixos el presenten com un primer mapa, no com una classificació tancada.",
+      "image": "./assets/mind-morality-sociologia-ia-estudi-20260827.jpg",
+      "editionDate": "2026-08-27"
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "slug": "anthropic-claude-memoria-unificada-cowork",
+      "title": "Anthropic unifica la memòria de Claude entre el xat i Cowork perquè l'IA no oblidi el context en canviar de tasca",
+      "excerpt": "A partir d'ara, el que Claude recorda d'una conversa és accessible quan Cowork executa tasques al núvol, i viceversa. La funció s'activa per defecte a tots els plans i exclou per defecte dades de salut, política i identitat de gènere.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+      "sourceDate": "25 d'agost de 2026",
+      "body": "Fins ara, Claude portava dues vides separades: la del xat de conversa i la de Cowork, l'eina que Anthropic va llançar perquè el model executés tasques més llargues i autònomes en un ordinador al núvol. Cada una recordava el que passava dins seu, però no es parlaven entre elles, i l'usuari havia de tornar a explicar el context d'un projecte cada vegada que canviava d'una eina a l'altra.\n\nAnthropic va anunciar el 25 d'agost que hi posa fi: la memòria de Claude és ara compartida entre el xat i Cowork, de manera que el que es discuteix en una conversa queda disponible quan Cowork executa una tasca, i el que Cowork esbrina durant una feina torna a estar accessible en properes converses. El sistema, a més, va afegint temes a la memòria de manera contínua durant la conversa, en lloc de resumir-la només en acabar. La funció s'activa per defecte als plans Free, Pro i Max, al web, a l'aplicació d'escriptori i al mòbil (Claude Code en queda fora), i cada peça d'informació es pot revisar, editar o esborrar des de Configuració.\n\nLa novetat és rellevant perquè apunta cap a on va el disseny dels assistents d'IA: no com a eines que s'obren i es tanquen sense memòria, sinó com a col·laboradors que acumulen context al llarg de mesos —l'estat d'un projecte, prioritats recurrents, com prefereix cada persona rebre les actualitzacions— i el fan servir per estalviar feina repetitiva. És també la resposta d'Anthropic a una demanda constant dels usuaris de Cowork des que l'eina es va llançar.\n\nPer defecte, Claude exclou de la memòria dades sensibles com la salut, l'origen ètnic, les creences religioses, les opinions polítiques o la identitat de gènere, tot i que l'usuari pot activar-ne l'emmagatzematge de manera explícita; documents d'identitat, números de la seguretat social o antecedents penals no s'hi guarden mai. Que la memòria estigui activada per defecte per a la majoria d'usuaris, però, també vol dir que cal revisar activament la configuració per saber exactament què recorda l'assistent.",
+      "image": "./assets/anthropic-claude-memoria-unificada-cowork-20260827.jpg",
+      "editionDate": "2026-08-27"
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "slug": "google-gemini-enterprise-legal-despatxos",
+      "title": "Google llança Gemini Enterprise for Legal amb grans despatxos com Weil Gotshal i Cleary Gottlieb com a primers socis",
+      "excerpt": "La plataforma incorpora agents d'IA per a la revisió de contractes, la recerca jurídica i la vigilància regulatòria, amb connexions directes a Thomson Reuters, Harvey i LexisNexis, en la seva ofensiva per guanyar terreny al sector legal.",
+      "sourceName": "Insurance Journal / Reuters",
+      "sourceUrl": "https://www.insurancejournal.com/news/national/2026/08/25/882836.htm",
+      "sourceDate": "25 d'agost de 2026",
+      "body": "Google Cloud va llançar Gemini Enterprise, la seva plataforma d'IA per a empreses, l'octubre del 2025. Des d'aleshores l'ha anat especialitzant per sectors, i el 25 d'agost va presentar la seva versió per al món legal: Gemini Enterprise for Legal, pensada per automatitzar la feina rutinària i complexa dels despatxos i deixar els advocats centrats en la feina de més valor.\n\nEl nou producte inclou un connector amb programari i plataformes de dades jurídiques i una sèrie d'agents d'IA capaços de fer tasques legals i administratives especialitzades amb poca supervisió humana, com la revisió de contractes, la recerca jurídica, la vigilància regulatòria i la preparació de documents. Es connecta directament amb Thomson Reuters, Harvey i LexisNexis, algunes de les eines que ja fan servir molts despatxos, i permet triar quin model d'IA fer servir per a cada tasca. Despatxos de primer nivell com Weil Gotshal, Cleary Gottlieb, Freshfields i Williams & Connolly hi col·laboren com a primers socis; el soci gerent de Cleary Gottlieb, Jeffrey Karpf, ha dit que la col·laboració els permet «participar en la creació d'eines útils per als despatxos que despleguen IA».\n\nEl moviment és rellevant perquè el sector legal, tradicionalment lent a adoptar tecnologia, s'ha convertit en un dels camps de batalla més actius de la IA generativa: recerca, redacció de documents i gestió de casos són tasques que consumeixen moltes hores facturables i que els despatxos volen automatitzar sense perdre el control sobre la confidencialitat de les dades dels clients. Que Google integri rivals directes com Harvey a la seva pròpia plataforma, en lloc de competir-hi frontalment, també diu alguna cosa de com s'estan repartint el mercat els grans proveïdors d'IA.\n\nL'anunci no inclou xifres de preu ni dades sobre quants despatxos fora dels quatre citats hi tenen accés, ni resultats mesurables de com ha canviat la feina real als bufets que ja el fan servir en fase primerenca; per ara és sobretot una proposta de producte, no un balanç d'adopció.",
+      "image": "./assets/google-gemini-enterprise-legal-despatxos-20260827.jpg",
+      "editionDate": "2026-08-27"
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "slug": "mistral-humain-arabia-saudita-sobirania-ia",
+      "title": "La francesa Mistral s'alia amb la saudita HUMAIN per desplegar IA «sobirana» a l'Aràbia Saudita",
+      "excerpt": "L'acord, valorat en centenars de milions d'euros, combina la infraestructura de dades de HUMAIN amb els models de codi obert de Mistral per desenvolupar IA en àrab i portar-la a sectors regulats de la regió, amb ciberseguretat i veu com a primeres prioritats.",
+      "sourceName": "Mistral AI",
+      "sourceUrl": "https://mistral.ai/news/mistral-x-humain/",
+      "sourceDate": "24 d'agost de 2026",
+      "body": "Mistral, l'empresa francesa que lidera el desenvolupament de models d'IA de codi obert a Europa, i HUMAIN, la companyia d'IA de ple abast del fons sobirà saudita PIF, van anunciar el 24 d'agost una col·laboració estratègica que abraça infraestructura, desenvolupament de models i desplegament de solucions a l'Aràbia Saudita i la resta de la regió. L'acord, xifrat en centenars de milions d'euros, arriba mentre el Golf competeix per convertir-se en un pol de referència de la IA global gràcies a l'accés a energia barata i capital abundant.\n\nSegons els termes fets públics, Mistral explorarà l'ús de la infraestructura de centres de dades de HUMAIN per cobrir les seves necessitats creixents de còmput a la regió, mentre les dues companyies desenvolupen i localitzen models d'IA avançats, amb la ciberseguretat i la veu com a primeres àrees de treball i l'objectiu de crear models de frontera que rendeixin bé en àrab. Totes dues empreses preveuen també una estratègia comercial conjunta per portar aquestes solucions a sectors regulats com els serveis financers, la indústria, les telecomunicacions i el sector públic.\n\nL'acord s'emmarca en el concepte de «IA sobirana», que Mistral i HUMAIN defineixen com sistemes en què les dades, la intel·ligència, el còmput i les operacions queden sota control del client: les dades es mantenen dins de fronteres definides pel mateix client, els models —basats en pesos oberts— es poden adaptar i posseir, i l'entrenament i la inferència es poden executar a la infraestructura i la jurisdicció que el client esculli. És una proposta de valor diferent de la dels grans laboratoris nord-americans, que solen oferir models tancats allotjats als seus propis núvols.\n\nCap de les dues empreses ha detallat encara xifres d'inversió desglossades, calendari d'implantació ni els primers clients concrets que faran servir la infraestructura conjunta, de manera que per ara es tracta d'un marc de col·laboració obert més que d'un projecte amb data de lliurament.",
+      "image": "./assets/mistral-humain-arabia-saudita-sobirania-ia-20260827.jpg",
+      "editionDate": "2026-08-27"
+    },
     {
       "category": "INFRAESTRUCTURA",
       "read": "5 MIN",
