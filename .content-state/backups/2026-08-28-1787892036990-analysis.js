@@ -1,0 +1,30 @@
+window.IA_ANALYSIS = {
+  "title": "La setmana en què un estudi va revelar que, dels 1.357 dispositius mèdics amb IA aprovats als Estats Units, només tres han demostrat que ajuden els pacients",
+  "excerpt": "Una investigació publicada a PLOS Digital Health mostra que, dels 1.357 dispositius mèdics amb intel·ligència artificial autoritzats per l'FDA, només tres han estat provats en si milloren realment la salut dels pacients: mortalitat, ingressos o qualitat de vida.",
+  "body": [
+    "Aquesta setmana, un estudi publicat el 19 d'agost a la revista PLOS Digital Health ha posat xifres a una pregunta que fins ara es quedava en la intuïció: quants dels dispositius mèdics amb intel·ligència artificial que s'utilitzen als hospitals han demostrat, de debò, que ajuden els pacients. Els investigadors -liderats per Rawan Abulibdeh, de la Universitat de Toronto, i Sebastián Andrés Cajas Ordóñez, del grup MIT Critical Data- van repassar els 1.357 dispositius amb aprenentatge automàtic que l'Agència del Medicament dels Estats Units (FDA) tenia autoritzats fins al 5 de desembre de 2025. Només 34 apareixien vinculats a un assaig clínic registrat, només 12 havien publicat resultats a ClinicalTrials.gov i, al final del filtre, únicament tres havien estat provats sobre allò que compta per a un pacient: si viu més, si necessita menys ingressos hospitalaris, si té una vida millor.",
+    "El motiu no és cap conspiració, sinó el disseny mateix del sistema d'autorització. Per obtenir la llum verda de la FDA n'hi ha prou de demostrar «equivalència substancial» amb un dispositiu ja aprovat, un tràmit pensat originalment per a bisturís i cadires de rodes, no per a algorismes que aprenen de dades i poden canviar de comportament. Als mateixos autors de l'estudi els va sorprendre el resultat: «Esperàvem que la base d'evidència fos prima, però no tant», ha declarat Abulibdeh. La radiologia concentra el 78% dels dispositius aprovats -1.059 dels 1.357-, però menys de l'1% hi té un assaig prospectiu registrat; l'anestesiologia, amb 22 dispositius autoritzats, no en té ni un de sol.",
+    "Els pocs assajos que sí que existeixen tampoc conviden a la tranquil·litat. El 73% tenia menys de 500 participants i una quarta part, menys de 100; el 68% es va fer exclusivament als Estats Units, i només un 27% va analitzar si el dispositiu funcionava igual de bé en diferents grups de pacients. Dones embarassades, persones grans de més de 75 anys i parlants d'altres llengües en queden sistemàticament exclosos. L'estudi recorda dos casos que ja havien saltat a la premsa mèdica: el model de sepsi d'Epic, que no va detectar el 67% dels casos reals mentre generava alertes per al 18% de tots els pacients ingressats, i IBM Watson for Oncology, que va coincidir amb els oncòlegs locals només en un 33% dels casos a Dinamarca i un 12% en càncer gàstric a la Xina, malgrat tenir l'aprovació de la FDA i desplegar-se internacionalment.",
+    "A Europa, el context regulador és diferent però no resol el mateix problema. Des d'aquest mes d'agost de 2026, el Reglament europeu de la intel·ligència artificial exigeix avaluació de conformitat, documentació tècnica i supervisió humana obligatòria per als sistemes d'alt risc, categoria que inclou per definició els dispositius mèdics amb IA destinats a diagnòstic o suport a la decisió clínica. Però aquesta obligació se superposa al Reglament de productes sanitaris ja existent i verifica sobretot la qualitat de les dades i el procés, no si el dispositiu allarga o millora la vida de qui el fa servir. Els autors de l'estudi adverteixen, a més, que l'aprovació de la FDA funciona de facto com un «passaport» perquè aquests dispositius es venguin a països amb sistemes reguladors més febles i sense cap validació local, un fenomen que anomenen «colonialisme algorísmic».",
+    "Res d'això vol dir que la IA no tingui lloc a la medicina, ni que calgui desconfiar-ne per sistema: alguns dels 1.357 dispositius fan tasques modestes i ben delimitades, com ordenar una llista d'espera de radiografies, on el risc d'un error és baix. El que l'estudi demana és que el llenguatge no confongui les coses: que un dispositiu tingui l'aprovació de la FDA o el marcatge CE vol dir que s'assembla a un altre que ja hi havia, no que s'hagi demostrat que ajuda ningú. Per als hospitals catalans que decideixen incorporar cada nova eina de diagnòstic assistit, la pregunta pràctica que en queda és senzilla de formular i difícil de respondre: qui, exactament, ha comprovat que allò que s'acaba d'instal·lar funciona amb els seus pacients, i no només amb els de l'assaig que en va justificar l'aprovació?"
+  ],
+  "sources": [
+    {
+      "name": "PLOS Digital Health — Abulibdeh et al., \"Evidence gaps in FDA-authorized AI/ML-enabled medical devices\" (19 d'agost de 2026)",
+      "url": "https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0001597"
+    },
+    {
+      "name": "News-Medical.net — FDA-cleared medical AI rarely tested for real-world benefits",
+      "url": "https://www.news-medical.net/news/20260820/FDA-cleared-medical-AI-rarely-tested-for-real-world-benefits.aspx"
+    },
+    {
+      "name": "Medical Xpress — Most AI medical devices cleared for use were not tested on patient outcomes",
+      "url": "https://medicalxpress.com/news/2026-08-ai-medical-devices-patient-outcomes.html"
+    },
+    {
+      "name": "Tandem Health — EU AI Act explained: what healthcare organisations need to know",
+      "url": "https://tandemhealth.ai/resources/knowledge/eu-ai-act-explained-what-healthcare-organisations-need-to-know"
+    }
+  ],
+  "date": "21.08.2026"
+};
