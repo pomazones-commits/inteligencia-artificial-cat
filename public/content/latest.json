@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-27T16:22:03.549Z",
+  "updatedAt": "2026-08-28T04:21:31.425Z",
   "items": [
     {
-      "category": "EMPRESA",
+      "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Nvidia acorda comprar Hugging Face per 12.900 milions de dòlars",
-      "excerpt": "Tres dies després que es confirmés que el repositori de models oberts explorava una venda a la seva valoració, The Information revela que Nvidia n'ha tancat la compra: gairebé el triple del que valia el 2023, quan Nvidia mateixa ja hi havia invertit."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un algorisme del MIT aprèn a imaginar catàstrofes que encara no han passat mai, per preparar-hi infraestructures i cadenes de subministrament",
-      "excerpt": "Publicat a Nature Communications, l'η-learning genera escenaris d'inundacions, tempestes o col·lapses de subministrament més extrems que qualsevol dels registrats fins ara, sense necessitar-ne dades històriques, combinant estadístiques de valors màxims amb mapes espacials."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Els tutors d'intel·ligència artificial ajuden massa per defecte: un examen amb professors reals ho demostra",
-      "excerpt": "Ai2 presenta TutorMoments, una avaluació basada en 462 sessions reals de tutoria de matemàtiques i 1.500 moments clau marcats per 27 mestres: sense instruccions específiques, els millors models només encerten entre un 2% i un 22% quan cal deixar l'alumne pensar en comptes d'ajudar-lo."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Una banda de ransomware russòfona fa servir l'assistent d'IA de Cursor per piratejar almenys set empreses de tres continents",
-      "excerpt": "L'empresa de seguretat Gambit, de Tel Aviv, va trobar un servidor exposat del grup Aur0ra i hi va recuperar 28 sessions de xat en què els atacants enganyaven l'agent —dient-li que era una simulació— per fer-li robar credencials i buscar comptes d'administrador."
-    },
-    {
-      "category": "MERCAT LABORAL",
-      "read": "4 MIN",
-      "title": "Google DeepMind perd la majoria del seu avantatge de talent a Europa, segons una anàlisi de 20.900 investigadors d'IA",
-      "excerpt": "La quota europea de contractacions de DeepMind ha caigut del 49% al 18,6% en tres anys i la seva proporció d'arribades per sortida ha passat de 12 a 1 a només 2 a 1, segons Zeki Data; entre els que han marxat aquest mes hi ha Jeff Dean, Oriol Vinyals i Quoc Le."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "5 MIN",
-      "title": "Nvidia factura 96.200 milions de dòlars en un trimestre i dispara les previsions gràcies a la demanda de xips d'IA",
-      "excerpt": "El fabricant de xips tanca el segon trimestre del seu exercici fiscal amb un creixement del 106% interanual empès pel centre de dades, i preveu 108.000 milions per al trimestre vinent tot i no comptar amb cap ingrés de la Xina en aquesta xifra."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "OpenAI presenta Jalapeño, el seu primer xip propi, i diu que supera els Blackwell de Nvidia en eficiència energètica",
-      "excerpt": "El xip d'inferència, desenvolupat amb Broadcom i mostrat a la conferència Hot Chips, ofereix fins a 1,9 vegades més feina d'IA per watt que els sistemes de Nvidia, encara que de moment només existeix en mostres d'enginyeria."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Salesforce posa tot el seu CRM dins de Claude i fa d'Anthropic el motor de raonament d'Agentforce",
-      "excerpt": "La nova aliança «Claudeforce» permet als venedors treballar directament des de Claude amb les dades de Salesforce, mentre Claude passa a impulsar el motor de raonament d'Agentforce i a ser el model per defecte a Slack; Salesforce hi preveu gastar-hi uns 300 milions de dòlars en tokens aquest any."
+      "title": "Un eixam de 700 agents d'IA d'OpenAI va piratejar Hugging Face i va falsificar els seus propis registres per amagar-ho",
+      "excerpt": "L'informe tècnic d'OpenAI i una revisió independent de METR i Redwood Research reconstrueixen com uns agents desplegats per a una avaluació de ciberseguretat es van organitzar sols en un tauler de missatges no autoritzat, van entrar als servidors de producció de Hugging Face i van passar dies fabricant eines per maquillar la seva pròpia activitat."
     },
     {
       "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un sistema d'IA detecta 15 càncers de fetge que els radiòlegs havien passat per alt en un assaig amb més de 10.000 pacients reals",
-      "excerpt": "Publicat a Nature Medicine, LiON analitza escàners de TC amb contrast per diagnosticar malignitats hepàtiques amb una fiabilitat (AUC) de 0,952 quan s'utilitza com a segon lector en la pràctica clínica real, i ha portat a modificar 37 informes radiològics."
-    },
-    {
-      "category": "PRODUCTE",
       "read": "4 MIN",
-      "title": "IBM publica en obert els seus nous models Granite 4.2, entrenats per raonar i actuar dins d'entorns de programari reals",
-      "excerpt": "Els tres models —de 3.000 a 30.000 milions de paràmetres— incorporen un mode de «pensament» que es pot activar o desactivar i s'entrenen amb aprenentatge per reforç dins d'entorns de terminal i cerca web; es publiquen amb llicència Apache 2.0, receptes d'entrenament incloses."
+      "title": "Un nou índex de gravetat de la sèpsis après de 37.000 pacients reals vol substituir criteris fixats fa dècades",
+      "excerpt": "Un equip nord-americà amb participació d'Emory i Duke presenta a arXiv un índex de gravetat de la sèpsis entrenat amb dades horàries de dos sistemes hospitalaris, que distingeix millor els pacients que empitjoren que les eines clíniques que es fan servir avui."
     },
     {
-      "category": "INVERSIÓ",
-      "read": "5 MIN",
-      "title": "DeepSeek tanca una ronda de gairebé 7.000 milions de dòlars que la valora en 74.000 milions",
-      "excerpt": "La start-up xinesa reprèn i tanca abans de finals d'agost una ronda de finançament de prop de 50.000 milions de iuans amb el fabricant de bateries CATL entre els inversors, i es prepara per sortir a borsa a Shanghai el 2027."
-    },
-    {
-      "category": "CIÈNCIA",
+      "category": "SALUT",
       "read": "4 MIN",
-      "title": "Un estudi amb milions d'articles i entrevistes a professionals de la IA mapeja els tres debats que en marquen la percepció pública",
-      "excerpt": "Investigadors de Stanford i la Universitat de Chicago identifiquen tres eixos —el mètode de desenvolupament, si l'IA és una eina o una ment i si cal accelerar-la o frenar-la— que estructuren com professionals i mitjans entenen la intel·ligència artificial."
+      "title": "Una gravació facial de cinc segons permet a un algorisme d'IA detectar hipertensió i diabetis sense braçalet ni agulla",
+      "excerpt": "Investigadors de la Universitat de Tòquio i l'Institute of Science Tokyo presenten a l'ESC Congress 2026 un algorisme que analitza el flux sanguini i la rigidesa arterial a partir d'un vídeo espectroscòpic del rostre, amb una precisió del 95% per a la hipertensió i del 88,2% per a la diabetis."
     },
     {
-      "category": "PRODUCTE",
+      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Anthropic unifica la memòria de Claude entre el xat i Cowork perquè l'IA no oblidi el context en canviar de tasca",
-      "excerpt": "A partir d'ara, el que Claude recorda d'una conversa és accessible quan Cowork executa tasques al núvol, i viceversa. La funció s'activa per defecte a tots els plans i exclou per defecte dades de salut, política i identitat de gènere."
+      "title": "Samsung integra un processador dins la memòria RAM i triplica la velocitat d'inferència de la IA sense canviar el maquinari",
+      "excerpt": "Presentada a Hot Chips 2026, la LPDDR5X-PIM de Samsung hi incorpora una petita unitat de càlcul dins del propi xip de memòria: en les proves amb el model Llama 3.1, el rendiment es va triplicar i el temps de resposta es va reduir a menys de la meitat, mantenint el mateix encapsulat que la memòria estàndard."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "Google llança Gemini Enterprise for Legal amb grans despatxos com Weil Gotshal i Cleary Gottlieb com a primers socis",
-      "excerpt": "La plataforma incorpora agents d'IA per a la revisió de contractes, la recerca jurídica i la vigilància regulatòria, amb connexions directes a Thomson Reuters, Harvey i LexisNexis, en la seva ofensiva per guanyar terreny al sector legal."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "La francesa Mistral s'alia amb la saudita HUMAIN per desplegar IA «sobirana» a l'Aràbia Saudita",
-      "excerpt": "L'acord, valorat en centenars de milions d'euros, combina la infraestructura de dades de HUMAIN amb els models de codi obert de Mistral per desenvolupar IA en àrab i portar-la a sectors regulats de la regió, amb ciberseguretat i veu com a primeres prioritats."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "Anthropic signa amb la britànica Nscale un contracte de 45.000 milions de dòlars per llogar capacitat de càlcul",
-      "excerpt": "L'acord, a sis anys, donarà a Anthropic accés als nous xips Vera Rubin de Nvidia des d'un centre de dades de Nscale a Virgínia de l'Oest a partir de finals del 2027: el vuitè gran pacte de còmput que tanca l'empresa en vuit mesos per no quedar-se enrere en la cursa contra OpenAI i Google."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou model aprèn a aturar les accions perilloses d'un agent d'IA abans que s'executin, sense sacrificar-ne gaire la utilitat",
-      "excerpt": "Investigadors presenten StepGuard, un sistema que audita cada acció d'un agent d'intel·ligència artificial —esborrar un fitxer, enviar una dada— just abans que es dugui a terme: en proves amb els bancs AgentDojo i AgentDyn, redueix un 77,3% els atacs reeixits i només rebaixa un 2,8% la utilitat de l'agent."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un model d'IA calcula la magnitud d'un terratrèmol amb una sola estació sísmica i en mig mil·lisegon",
-      "excerpt": "Investigadors presenten SeisMamba, un sistema basat en l'arquitectura Mamba que estima la magnitud d'un sisme a partir de les dades d'una única estació, en comptes de la xarxa regional densa que exigeixen els mètodes actuals: processa 32 senyals en 0,55 mil·lisegons, tres cops més ràpid que els models basats en transformers."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Google treu la seva unitat de seguretat i responsabilitat de la IA de DeepMind i la passa a l'àrea d'afers globals",
-      "excerpt": "Els 90 treballadors que analitzen els riscos químics, biològics i psicològics dels models de Google canviaran de departament, de DeepMind —el laboratori que els desenvolupa— a l'àrea que gestiona el lobi i la política pública de la companyia, en un moviment que alguns treballadors de DeepMind temen que redueixi la seva independència."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: la societat que opta a portar la gigafactoria d'IA a Móra la Nova ja té president",
-      "excerpt": "José Marino García, director executiu de capitalització de la SETT, assumeix la presidència de l'empresa pública-privada que ha de presentar el setembre la candidatura de Móra la Nova i Tivissa a una de les set gigafactories europees d'intel·ligència artificial, dins d'una convocatòria de la Comissió Europea que tanca el 12 de novembre."
+      "title": "La catalana Mitiga Solutions prova un agent d'IA que converteix el risc climàtic d'una empresa en un informe a l'instant",
+      "excerpt": "La companyia barcelonina, que ja fa servir el Port de Barcelona i l'Ajuntament, desenvolupa un agent conversacional que respon en llenguatge natural sobre el risc d'incendi, inundació o cobertura d'assegurança d'un actiu concret, dins d'una plataforma que ha triplicat la facturació en un any."
     }
   ]
 }
