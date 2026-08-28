@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-28T08:17:54.878Z",
+  "updatedAt": "2026-08-28T12:39:01.600Z",
   "items": [
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "Anthropic estrena un estàndard perquè els agents d'IA operin sols braços robòtics i instruments de laboratori",
+      "excerpt": "El Model Hardware Standard, en previsualització de recerca, redueix de setmanes a hores el temps d'integrar un agent d'IA amb un manipulador de líquids, un microscopi o un braç robòtic; Genentech, Carnegie Mellon i la Universitat de Washington ja l'han provat amb resultats concrets."
+    },
+    {
+      "category": "ROBÒTICA",
+      "read": "4 MIN",
+      "title": "Un robot aprèn una tasca de deu minuts mirant un sol vídeo, sense cap entrenament addicional",
+      "excerpt": "Skild AI presenta S1, un model de fundació per a robots que aconsegueix un 66% d'èxit en tasques mai vistes seguint només una demostració en vídeo, davant el 9% d'un model equivalent que rep les instruccions en llenguatge."
+    },
+    {
+      "category": "XIPS",
+      "read": "4 MIN",
+      "title": "Apple estrena el seu primer xip de 2 nanòmetres i el processador més potent que ha fet mai per moure IA als seus ordinadors",
+      "excerpt": "El M6, que estrena el Mac mini, i el M5 Ultra, el primer disseny de quatre matrius d'Apple i que arriba al Mac Studio, milloren fins a 4,5 vegades la potència de càlcul d'IA respecte als seus predecessors, sense dependre de cap servidor extern."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "title": "Una empresa índia vinculada a Greenko encarrega 9.000 sistemes Vera Rubin de Nvidia per 8.000 milions de dòlars",
+      "excerpt": "AM Intelligence, amb seu a Hyderabad, es converteix en una de les primeres companyies asiàtiques a desplegar l'arquitectura Vera Rubin de Nvidia a gran escala, amb l'objectiu final d'oferir 1 gigawat de capacitat de còmput entre l'Índia, els Estats Units, Finlàndia i Malàisia."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Un model d'aprenentatge automàtic detecta en el primer trimestre embarassos d'alt risc que els mètodes actuals passen per alt",
+      "excerpt": "Un estudi multicèntric publicat al Journal of Medical Internet Research amb dades de mig milió d'embarassos a Suècia, Xile i Singapur troba que un model de risc basat en dades del primer trimestre supera els mètodes de cribratge actuals, tot i que no funciona igual de bé a totes les poblacions."
+    },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
