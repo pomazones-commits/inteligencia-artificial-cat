@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-29T12:24:13.239Z",
+  "updatedAt": "2026-08-29T16:20:56.234Z",
   "items": [
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "OpenAI trenca l'accés de Cursor als seus models després que SpaceX comprés l'eina de programació amb IA",
+      "excerpt": "OpenAI ha anunciat que posarà fi al contracte que permet a Cursor fer servir GPT amb data de tall el 12 de novembre, adduint que no es refia que SpaceX respecti els termes de servei, després que l'empresa d'Elon Musk tanqués el 14 d'agost la compra de l'startup per 60.000 milions de dòlars."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Un nou banc de proves demostra que cap agent d'IA supera el 48% en replicar de cap a cap un estudi real de biologia computacional",
+      "excerpt": "BixBench3 posa 13 models capdavanters a fer, sense ajuda, tota la cadena d'anàlisi d'un estudi científic ja publicat, des de les dades en brut fins als resultats finals, i troba que el rendiment cau encara més com més gran és el conjunt de dades o més passos requereix l'anàlisi."
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "Un mètode fa que un model de llenguatge clínic expliqui, concepte a concepte, per què prediu que un pacient morirà",
+      "excerpt": "El sistema CAST detecta i neutralitza durant l'entrenament els «drecers» que un model aprèn de la plantilla d'un informe mèdic en lloc de l'estat real del pacient, i genera un rastre auditable de quins conceptes clínics han pesat en cada predicció, provat amb informes d'alta de l'hospital MIMIC-IV."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Anthropic obre 10.000 places gratuïtes o rebaixades de Claude per a científics i amplia el seu programa de càlcul intensiu",
+      "excerpt": "La companyia ofereix subscripcions gratuïtes durant un any o places «premium» de 15 dòlars al mes per a investigadors principals d'institucions acadèmiques o sense ànim de lucre, i estén el seu programa de crèdits de còmput més enllà de la biologia cap a la física, les matemàtiques i l'enginyeria."
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "title": "Perplexity i Nvidia treuen un agent d'IA que funciona sencer dins l'ordinador de l'usuari, sense pagar per testimoni",
+      "excerpt": "«Portable Computer» trasllada els models, el motor d'inferència i l'agent complet a maquinari propi, primer als ordinadors DGX Spark de Nvidia i a targetes gràfiques RTX amb almenys 24 GB de memòria, i només recorre al núvol quan cal, amb classificació prèvia de dades sensibles."
+    },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
