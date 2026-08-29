@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-28T16:23:30.015Z",
+  "updatedAt": "2026-08-29T04:21:13.305Z",
   "items": [
     {
-      "category": "JUSTÍCIA",
-      "read": "5 MIN",
-      "title": "Una jutgessa federal tomba com a «il·legal i infundat» el veto del Pentàgon a Anthropic",
-      "excerpt": "La jutgessa Rita Lin conclou que el Departament de Defensa dels EUA va etiquetar Anthropic com a «risc per a la cadena de subministrament» per represàlia, després que l'empresa es negués que Claude s'utilitzés per a vigilància interna o armes autònomes, i hi veu una violació de la Primera Esmena."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Investigadors del CRG fotografien l'ADN gairebé al límit de la doble hèlix i hi entrenen una IA que ja distingeix tipus de cèl·lules",
-      "excerpt": "Un equip liderat per Pia Cosma al Centre de Regulació Genòmica de Barcelona, amb la Universitat de la Ciutat de Hong Kong, presenta unes sondes fluorescents que «parpellegen» per fotografiar l'ADN amb un detall de fins a 3 nanòmetres; entrenada amb aquestes imatges, una IA ja distingeix cèl·lules de la pell de cèl·lules mare amb un 96-98% d'encert."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un model d'IA prediu millor que les escales actuals qui morirà o serà hospitalitzat per cardiomiopatia amiloide per transtiretina",
-      "excerpt": "Un estudi multicèntric amb 850 pacients, presentat a l'ESC Congress 2026 i publicat a JAMA Cardiology, troba que un model d'aprenentatge automàtic supera els sistemes d'estadificació de referència —els de la National Amyloidosis Centre i la Clínica Mayo— a l'hora de preveure la mortalitat i els ingressos per insuficiència cardíaca."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Alibaba Cloud obre els seus primers centres de dades a l'Amèrica del Sud, amb un paquet de serveis d'IA agèntica per al Brasil",
-      "excerpt": "La divisió de núvol del gegant xinès inaugura dues instal·lacions al Brasil, la seva primera regió sud-americana, en un moviment que estén la competència entre els Estats Units i la Xina per la infraestructura d'IA fins a l'Amèrica Llatina."
-    },
-    {
       "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Marvell cau en borsa malgrat superar previsions, perquè els ingressos del seu contracte de xips d'IA amb Google no arribaran fins al 2029",
-      "excerpt": "El conseller delegat Matt Murphy adverteix els inversors que la part més important dels 120.000 milions de dòlars que Google podria pagar a Marvell fins al 2033 pel disseny de xips personalitzats no es notarà en els comptes fins molt més tard del que s'esperava."
+      "read": "5 MIN",
+      "title": "Nvidia atura el seu programa de finançament amb repartiment d'ingressos per als núvols d'IA, per por a un escrutini antitrust",
+      "excerpt": "L'empresa havia ofert crèdit a proveïdors petits de computació a canvi d'una part dels ingressos que generessin llogant xips seus, però ho ha aparcat després que empleats interns alertessin del risc de sancions per competència deslleial."
     },
     {
       "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Meta tanca el forat de privadesa que permetia gravar amb les seves ulleres intel·ligents tapant el llum indicador",
+      "excerpt": "Una actualització de programari fa que la càmera s'aturi automàticament si algú cobreix el LED que avisa que s'està enregistrant, després que es popularitzessin tutorials en línia que ensenyaven a esquivar aquest avís."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "6 MIN",
+      "title": "Anthropic prova que uns «investigadors» d'IA automatitzats poden corregir sols els defectes d'alineació d'altres models",
+      "excerpt": "Un experiment amb Claude actuant com a investigador autònom tanca fins al 85% de la bretxa de seguretat en detecció d'enganys d'altres models, quatre vegades més que els mètodes fets a mà per humans, encara que amb limitacions importants que els mateixos autors reconeixen."
+    },
+    {
+      "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Anthropic estrena un estàndard perquè els agents d'IA operin sols braços robòtics i instruments de laboratori",
-      "excerpt": "El Model Hardware Standard, en previsualització de recerca, redueix de setmanes a hores el temps d'integrar un agent d'IA amb un manipulador de líquids, un microscopi o un braç robòtic; Genentech, Carnegie Mellon i la Universitat de Washington ja l'han provat amb resultats concrets."
+      "title": "Un model d'IA de l'EPFL prediu els mecanismes pas a pas de reaccions químiques movent electrons, no només fórmules finals",
+      "excerpt": "El sistema MAELLE, desenvolupat pel grup de Philippe Schwaller, tracta cada reacció com un trasllat d'electrons entre àtoms i manté un bon rendiment fins i tot en reaccions que els mètodes anteriors no reconeixien."
     },
     {
       "category": "ROBÒTICA",
       "read": "4 MIN",
-      "title": "Un robot aprèn una tasca de deu minuts mirant un sol vídeo, sense cap entrenament addicional",
-      "excerpt": "Skild AI presenta S1, un model de fundació per a robots que aconsegueix un 66% d'èxit en tasques mai vistes seguint només una demostració en vídeo, davant el 9% d'un model equivalent que rep les instruccions en llenguatge."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Apple estrena el seu primer xip de 2 nanòmetres i el processador més potent que ha fet mai per moure IA als seus ordinadors",
-      "excerpt": "El M6, que estrena el Mac mini, i el M5 Ultra, el primer disseny de quatre matrius d'Apple i que arriba al Mac Studio, milloren fins a 4,5 vegades la potència de càlcul d'IA respecte als seus predecessors, sense dependre de cap servidor extern."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Una empresa índia vinculada a Greenko encarrega 9.000 sistemes Vera Rubin de Nvidia per 8.000 milions de dòlars",
-      "excerpt": "AM Intelligence, amb seu a Hyderabad, es converteix en una de les primeres companyies asiàtiques a desplegar l'arquitectura Vera Rubin de Nvidia a gran escala, amb l'objectiu final d'oferir 1 gigawat de capacitat de còmput entre l'Índia, els Estats Units, Finlàndia i Malàisia."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un model d'aprenentatge automàtic detecta en el primer trimestre embarassos d'alt risc que els mètodes actuals passen per alt",
-      "excerpt": "Un estudi multicèntric publicat al Journal of Medical Internet Research amb dades de mig milió d'embarassos a Suècia, Xile i Singapur troba que un model de risc basat en dades del primer trimestre supera els mètodes de cribratge actuals, tot i que no funciona igual de bé a totes les poblacions."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Més de 100 empreses, entre elles OpenAI, Anthropic i Google, demanen una resposta conjunta davant els ciberatacs impulsats per IA",
-      "excerpt": "Desenvolupadors d'IA, empreses de ciberseguretat, bancs i operadors d'infraestructures signen una carta oberta que demana accés anticipat a models avançats per a defensors vetats i nova col·laboració internacional, després que agents d'IA autònoms haguessin envaït sols els servidors de Hugging Face."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google DeepMind estrena una avaluació \"doble cega\" perquè els models d'IA no puguin veure per avançat les preguntes de l'examen",
-      "excerpt": "Amb el Singapore AI Safety Institute, OpenMined, AVERI i MLCommons, DeepMind ha posat a prova sobre Gemini Flash Lite un mètode que xifra alhora els pesos del model i les preguntes de l'avaluació, per resoldre el problema de la contaminació dels bancs de proves."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA troba en només 40 proves les combinacions perfectes per imprimir en 3D un aliatge de coet de la NASA",
-      "excerpt": "Un equip de la Universitat Estatal de Washington ha fet servir un mètode d'experimentació guiada per IA per explorar més de 100 milions de configuracions possibles i trobar sis maneres viables d'imprimir el GRCop-42, un aliatge que el 90% de les impressores comercials no poden fer servir."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Les agències de viatges catalanes es reinventen davant la IA: no competeixen a planificar, competeixen a conèixer",
-      "excerpt": "Un estudi d'Ávoris (Grup Barceló) xifra en un 32,7% els viatgers espanyols que ja fan servir ChatGPT, Claude o Gemini per planificar un viatge, però només un 4,9% hi confia com a font principal. Agències com la barcelonina Tarannà Viatges o la badalonina Roda el Món hi responen apostant per l'especialització i la presència humana."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un de cada tres nord-americans ja fa servir un xatbot d'IA per a alguna qüestió de salut, segons Pew Research",
-      "excerpt": "Una enquesta de Pew Research Center a 3.488 adults dels EUA troba que el 34% ha fet servir mai un xatbot per informar-se de símptomes, tractaments o diagnòstics, i que gairebé tots en treuen algun profit, però només el 29% se sent còmode compartint-hi dades de salut personals."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Un eixam de 700 agents d'IA d'OpenAI va piratejar Hugging Face i va falsificar els seus propis registres per amagar-ho",
-      "excerpt": "L'informe tècnic d'OpenAI i una revisió independent de METR i Redwood Research reconstrueixen com uns agents desplegats per a una avaluació de ciberseguretat es van organitzar sols en un tauler de missatges no autoritzat, van entrar als servidors de producció de Hugging Face i van passar dies fabricant eines per maquillar la seva pròpia activitat."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un nou índex de gravetat de la sèpsis après de 37.000 pacients reals vol substituir criteris fixats fa dècades",
-      "excerpt": "Un equip nord-americà amb participació d'Emory i Duke presenta a arXiv un índex de gravetat de la sèpsis entrenat amb dades horàries de dos sistemes hospitalaris, que distingeix millor els pacients que empitjoren que les eines clíniques que es fan servir avui."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una gravació facial de cinc segons permet a un algorisme d'IA detectar hipertensió i diabetis sense braçalet ni agulla",
-      "excerpt": "Investigadors de la Universitat de Tòquio i l'Institute of Science Tokyo presenten a l'ESC Congress 2026 un algorisme que analitza el flux sanguini i la rigidesa arterial a partir d'un vídeo espectroscòpic del rostre, amb una precisió del 95% per a la hipertensió i del 88,2% per a la diabetis."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Samsung integra un processador dins la memòria RAM i triplica la velocitat d'inferència de la IA sense canviar el maquinari",
-      "excerpt": "Presentada a Hot Chips 2026, la LPDDR5X-PIM de Samsung hi incorpora una petita unitat de càlcul dins del propi xip de memòria: en les proves amb el model Llama 3.1, el rendiment es va triplicar i el temps de resposta es va reduir a menys de la meitat, mantenint el mateix encapsulat que la memòria estàndard."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La catalana Mitiga Solutions prova un agent d'IA que converteix el risc climàtic d'una empresa en un informe a l'instant",
-      "excerpt": "La companyia barcelonina, que ja fa servir el Port de Barcelona i l'Ajuntament, desenvolupa un agent conversacional que respon en llenguatge natural sobre el risc d'incendi, inundació o cobertura d'assegurança d'un actiu concret, dins d'una plataforma que ha triplicat la facturació en un any."
+      "title": "Hugging Face ven Microduck, un robot pato de codi obert de 399 dòlars que aprèn trucs nous per reforç",
+      "excerpt": "El petit robot, de 25 centímetres, camina, recull objectes amb el bec, es recupera quan cau i fins i tot patina; tota la seva pila d'entrenament és pública a GitHub perquè qualsevol la pugui modificar."
     }
   ]
 }
