@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-29T16:20:56.234Z",
+  "updatedAt": "2026-08-30T04:27:15.894Z",
   "items": [
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "OpenAI trenca l'accés de Cursor als seus models després que SpaceX comprés l'eina de programació amb IA",
-      "excerpt": "OpenAI ha anunciat que posarà fi al contracte que permet a Cursor fer servir GPT amb data de tall el 12 de novembre, adduint que no es refia que SpaceX respecti els termes de servei, després que l'empresa d'Elon Musk tanqués el 14 d'agost la compra de l'startup per 60.000 milions de dòlars."
+      "title": "Sony Music i Warner Chappell demanden Anthropic per un «robatori descarat» de milers de composicions",
+      "excerpt": "Els dos grans editors musicals acusen l'empresa de Claude d'haver piratejat i baixat de manera massiva composicions amb copyright, incloent-hi l'scraping de repositoris de lletres amb llicència, i reclamen fins a 150.000 dòlars per obra infringida."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Un nou banc de proves demostra que cap agent d'IA supera el 48% en replicar de cap a cap un estudi real de biologia computacional",
-      "excerpt": "BixBench3 posa 13 models capdavanters a fer, sense ajuda, tota la cadena d'anàlisi d'un estudi científic ja publicat, des de les dades en brut fins als resultats finals, i troba que el rendiment cau encara més com més gran és el conjunt de dades o més passos requereix l'anàlisi."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un mètode fa que un model de llenguatge clínic expliqui, concepte a concepte, per què prediu que un pacient morirà",
-      "excerpt": "El sistema CAST detecta i neutralitza durant l'entrenament els «drecers» que un model aprèn de la plantilla d'un informe mèdic en lloc de l'estat real del pacient, i genera un rastre auditable de quins conceptes clínics han pesat en cada predicció, provat amb informes d'alta de l'hospital MIMIC-IV."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Anthropic obre 10.000 places gratuïtes o rebaixades de Claude per a científics i amplia el seu programa de càlcul intensiu",
-      "excerpt": "La companyia ofereix subscripcions gratuïtes durant un any o places «premium» de 15 dòlars al mes per a investigadors principals d'institucions acadèmiques o sense ànim de lucre, i estén el seu programa de crèdits de còmput més enllà de la biologia cap a la física, les matemàtiques i l'enginyeria."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Perplexity i Nvidia treuen un agent d'IA que funciona sencer dins l'ordinador de l'usuari, sense pagar per testimoni",
-      "excerpt": "«Portable Computer» trasllada els models, el motor d'inferència i l'agent complet a maquinari propi, primer als ordinadors DGX Spark de Nvidia i a targetes gràfiques RTX amb almenys 24 GB de memòria, i només recorre al núvol quan cal, amb classificació prèvia de dades sensibles."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Waymo publica «deu lliçons» d'intel·ligència artificial i qüestiona obertament l'aposta de Tesla només amb càmeres",
-      "excerpt": "En una entrada al seu bloc oficial signada pel seu responsable d'IA, Srikanth Thirumalai, Waymo argumenta que cap sistema de conducció autònoma pot arribar de manera segura al nivell 4 només amb visió per càmera i que millorar un simple assistent de conducció és un «fals cim», sense esmentar Tesla per nom però apuntant clarament als seus fonaments tècnics."
+      "title": "Un algorisme desenvolupat des d'Andalusia reconstrueix per primer cop en vídeo 27 anys d'un doll de plasma d'un forat negre",
+      "excerpt": "El sistema kine, publicat a Nature per un equip de l'IAA-CSIC i Caltech, converteix 116 observacions per interferometria de la blazar 3C 345 preses entre 1995 i 2022 en un vídeo continu amb quatre vegades més resolució, i hi revela per primer cop com es mou el plasma i com s'organitza el camp magnètic."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Un mètode del MIT redueix a una desena part els passos necessaris perquè la IA proposi materials químicament estables",
-      "excerpt": "El sistema CrysVCD, publicat a Nature Computational Science, incorpora les regles de validesa química de bon principi en la generació de noves estructures cristal·lines, en lloc de filtrar-les després, i aconsegueix materials mecànicament estables el 68% de les vegades amb prop de deu vegades menys passos de càlcul."
+      "title": "Un estudi de la Universitat de Birmingham posa 2.099 «agents» d'IA i 251 persones a jugar als mateixos jocs econòmics per mesurar si saben llegir les intencions dels altres",
+      "excerpt": "La recerca, encara en preprint, compara quatre famílies de models de llenguatge amb participants humans en jocs de decisió estratègica i troba senyals clars de mentalització (inferir creences i intencions alienes) que varien molt segons el fabricant i la mida del model, amb GPT-5 superant els humans en alguns escenaris."
     },
     {
-      "category": "INVERSIÓ",
+      "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Andreessen Horowitz crea un fons de 1.100 milions de dòlars per finançar el maquinari físic de la IA",
-      "excerpt": "El fons «Machine Age», el primer vehicle d'Andreessen Horowitz dedicat exclusivament a infraestructura física, invertirà en xips, memòria, refrigeració, centres de dades i robòtica, després que la firma consideri que el coll d'ampolla de la IA ja no és el programari sinó la capacitat de fabricar i energitzar el maquinari que li cal."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Actors britànics com Nicola Coughlan i Hugh Bonneville reclamen una llei que protegeixi la seva veu de la clonació amb IA",
-      "excerpt": "Una vuitantena d'intèrprets i professionals de la interpretació al Regne Unit han signat una carta oberta al primer ministre, Andy Burnham, demanant una llei que reconegui la veu de cada persona com a part protegida de la seva identitat, davant l'ús cada cop més estès d'eines d'IA per clonar-la sense consentiment."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Google deixa carregar llibres sencers de Google Play Books al Gemini Notebook amb «Expert Intelligence»",
-      "excerpt": "La novetat permet incorporar com a font viva, amb citació directa, més de 100.000 títols de segells com Penguin Random House, Macmillan o O'Reilly, sempre que l'usuari ja hagi comprat l'edició digital, i generar-hi qüestionaris, resums en àudio i plans d'estudi."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La responsable de Meta a l'Índia deixa l'empresa per fitxar per OpenAI, mentre Nova Delhi intensifica l'escrutini sobre la companyia",
-      "excerpt": "Sandhya Devanathan, vicepresidenta de Meta per a l'Índia i el Sud-est Asiàtic durant més d'una dècada, passa a OpenAI just quan el govern indi investiga l'empresa per la retirada d'un missatge del primer ministre Narendra Modi i per anuncis que oferien accedir a material d'abús sexual infantil."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google llança pagament per ús i alertes automàtiques a Gemini Enterprise per frenar la por a la factura descontrolada de la IA",
-      "excerpt": "El nou paquet d'eines deixa combinar subscripcions per usuari amb pagament pel consum real, posar límits de despesa per projecte que aturen el servei automàticament i rebre alertes al 50%, 80% i 100% del pressupost, després que el cost imprevisible s'hagi convertit en un dels grans frens de l'adopció empresarial de la IA."
+      "title": "Un agent d'IA opera sol un microscopi de força atòmica i iguala els operadors experts en qualitat d'imatge i temps",
+      "excerpt": "El sistema AFM Pilot, desenvolupat a l'EPFL, connecta un model de llenguatge amb les funcions de l'instrument mitjançant el protocol obert MCP i redueix a zero les ordres incorrectes gràcies a una capa de supervisió, sense necessitat que la persona investigadora hi intervingui pas a pas."
     },
     {
       "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "El núvol d'IA Lambda capta 1.000 milions de dòlars en deute per comprar més xips de Nvidia i llogar-los a Microsoft",
-      "excerpt": "És la tercera gran operació de finançament de l'empresa aquest any i s'emmarca en una onada de més de 400.000 milions de dòlars en deute relacionat amb IA captats per bancs i tecnològiques el 2026: comprar maquinari abans de tenir els ingressos per pagar-lo és ja la norma del sector."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Els enviaments mundials de robots humanoides gairebé es tripliquen el primer semestre del 2026, amb la Xina dominant el 97% del mercat",
-      "excerpt": "Segons la consultora Counterpoint Research, es van enviar més de 22.000 unitats entre gener i juny, encapçalades per la xinesa AGIBOT, i per primer cop més del 70% es destinen ja a fàbriques i magatzems reals i no a demostracions o entreteniment."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un model d'IA amb dades de 104.000 persones distingeix diversos camins biològics cap a la demència, no un de sol",
-      "excerpt": "El sistema NetMoint combina proteïnes de la sang, ressonàncies cerebrals i mesures de flux sanguini al cervell per calcular el risc individual d'alzheimer, demència vascular i demència frontotemporal, i troba que els factors que millor prediuen el risc canvien segons si es mira a curt o a llarg termini."
-    },
-    {
-      "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "Nvidia atura el seu programa de finançament amb repartiment d'ingressos per als núvols d'IA, per por a un escrutini antitrust",
-      "excerpt": "L'empresa havia ofert crèdit a proveïdors petits de computació a canvi d'una part dels ingressos que generessin llogant xips seus, però ho ha aparcat després que empleats interns alertessin del risc de sancions per competència deslleial."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Meta tanca el forat de privadesa que permetia gravar amb les seves ulleres intel·ligents tapant el llum indicador",
-      "excerpt": "Una actualització de programari fa que la càmera s'aturi automàticament si algú cobreix el LED que avisa que s'està enregistrant, després que es popularitzessin tutorials en línia que ensenyaven a esquivar aquest avís."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "6 MIN",
-      "title": "Anthropic prova que uns «investigadors» d'IA automatitzats poden corregir sols els defectes d'alineació d'altres models",
-      "excerpt": "Un experiment amb Claude actuant com a investigador autònom tanca fins al 85% de la bretxa de seguretat en detecció d'enganys d'altres models, quatre vegades més que els mètodes fets a mà per humans, encara que amb limitacions importants que els mateixos autors reconeixen."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un model d'IA de l'EPFL prediu els mecanismes pas a pas de reaccions químiques movent electrons, no només fórmules finals",
-      "excerpt": "El sistema MAELLE, desenvolupat pel grup de Philippe Schwaller, tracta cada reacció com un trasllat d'electrons entre àtoms i manté un bon rendiment fins i tot en reaccions que els mètodes anteriors no reconeixien."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Hugging Face ven Microduck, un robot pato de codi obert de 399 dòlars que aprèn trucs nous per reforç",
-      "excerpt": "El petit robot, de 25 centímetres, camina, recull objectes amb el bec, es recupera quan cau i fins i tot patina; tota la seva pila d'entrenament és pública a GitHub perquè qualsevol la pugui modificar."
+      "title": "Nvidia trasllada la seva batalla competitiva del xip a tot el sistema, amb el nou processador Vera com a peça central",
+      "excerpt": "Amb la capitalització borsària estancada des de fa un any després d'haver-se multiplicat per deu, l'empresa aposta que el seu avantatge real ja no és només la potència de càlcul del xip, sinó la capacitat de moure dades sense colls d'ampolla a l'escala de centres de dades sencers."
     }
   ]
 }
