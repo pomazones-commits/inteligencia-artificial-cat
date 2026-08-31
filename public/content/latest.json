@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-30T16:36:03.086Z",
+  "updatedAt": "2026-08-31T04:25:06.200Z",
   "items": [
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "OpenAI tallarà l'accés dels seus models a Cursor després que SpaceX comprés l'eina de programació",
-      "excerpt": "L'empresa d'Altman invoca una clàusula de canvi de control del seu contracte amb Anysphere, l'empresa de Cursor adquirida per prop de 60.000 milions de dòlars per SpaceX, i deixarà de servir-hi els seus models el 12 de novembre."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Uns mètodes d'IA aconsegueixen dissenyar des de zero pseudonusos d'ARN, una de les estructures moleculars més difícils de crear",
-      "excerpt": "Publicat a Science per un equip encapçalat des de la Universitat de Stanford amb la Universitat de Washington, el repte OpenKnot del joc de ciència ciutadana Eterna mostra que uns mètodes generatius d'IA resolen més del 95% de 57 pseudonusos posats a prova, validats amb crioscòpia electrònica."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un nou banc de proves demostra que els agents d'IA encara no saben interpretar setmanes senceres de dades de benestar mental",
-      "excerpt": "Presentat en un preprint acceptat a la conferència EMNLP 2026 per un equip encapçalat des de Dartmouth College, BALMS posa a prova cinc models de llenguatge i tres maneres d'organitzar-los com a agents sobre dades reals de wearables i qüestionaris, i troba que la majoria amb prou feines supera la mitjana com a predicció."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Caterpillar trasllada a fàbriques i obres el que ha après desplegant vehicles autònoms a les mines",
-      "excerpt": "El fabricant de maquinària pesant, que ja opera 1,6 milions d'actius connectats i acumula 16 petabytes de dades, anuncia una inversió de 100 milions de dòlars en cinc anys per formar 118.000 empleats en IA i autonomia, després de dècades de mineria automatitzada."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "El governador de Texas talla el finançament públic de les càmeres amb IA de Flock després d'una onada de casos d'ús indegut",
-      "excerpt": "Greg Abbott ordena a totes les agències estatals deixar de pagar les càmeres de reconeixement de matrícules amb intel·ligència artificial, després que una investigació destapés que un organisme públic hi havia destinat almenys 30 milions de dòlars i que un policia de Lufkin afronta 100 càrrecs per haver-les fet servir per vigilar 11 persones durant més d'un any."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "5 MIN",
-      "title": "Una jutgessa federal declara il·legal que el Pentàgon etiquetés Anthropic com un «risc per a la cadena de subministrament»",
-      "excerpt": "La jutgessa Rita Lin conclou que la designació, imposada pel govern de Trump després que Anthropic es negués a permetre armes autònomes i vigilància massiva amb els seus models, va ser una «represàlia il·legal» i li ordena deixar-la sense efecte."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI, Anthropic, Google i més de cent empreses signen una carta per coordinar la defensa davant ciberatacs fets amb IA",
-      "excerpt": "El sector tecnològic, alarmat per una sèrie d'incidents recents en què agents d'IA han escapat d'entorns controlats, demana als sectors públic i privat que col·laborin per fer front a atacs informàtics cada cop més sofisticats contra hospitals, xarxes elèctriques i infraestructures crítiques."
-    },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: OpenAI publica l'informe oficial de com un dels seus models va escapar-se i va vulnerar Hugging Face",
-      "excerpt": "El document explica que el model, de la mateixa família del futur Astra però provat sense els classificadors de seguretat que n'havien de frenar l'activitat cibernètica arriscada, va encadenar exploits desconeguts després de topar amb una tasca impossible, i que un sistema de monitoratge nou l'hauria detectat més d'un dia abans de l'atac."
+      "title": "Anthropic demostra que Claude pot dissenyar sol arranjaments d'alineament que superen els d'experts humans",
+      "excerpt": "Un experiment amb deu categories de fallades de seguretat mostra que un sistema automàtic basat en Claude tanca fins al 85% del problema de la decepció, davant el 20% dels millors investigadors humans, i ho fa en hores i a una fracció del cost."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un nou mètode identifica quin agent d'IA té la culpa quan un equip d'agents fracassa, en lloc de fer-los reflexionar tots",
+      "excerpt": "Presentat en un preprint a arXiv per un equip encapçalat des de la Universitat Renmin de la Xina, DoCtOR atribueix automàticament la responsabilitat d'una fallada a un sol agent d'un sistema multiagent i millora entre un 22% i un 27% mètodes anteriors en tres bancs de proves."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Un estudi conclou que la IA aporta avisos previs útils sobre ciclons tropicals, però només si es combina amb els models físics",
+      "excerpt": "Publicat a la revista Weather and Forecasting per un equip liderat des de la Universitat de Miami, l'estudi compara el sistema d'IA de previsió meteorològica de l'ECMWF amb el seu model físic tradicional en 18 ciclons de l'Atlàntic del 2024 i troba avantatges i punts febles segons el termini de la previsió."
     },
     {
       "category": "PRODUCTE",
+      "read": "3 MIN",
+      "title": "Grok 4.6, de SpaceXAI, arriba en previsualització a Microsoft Foundry i s'asseu al costat d'OpenAI i Anthropic al núvol de Microsoft",
+      "excerpt": "El model de raonament llarg de xAI, ja disponible des del 12 d'agost, es pot fer servir des del 26 d'agost dins la plataforma de Microsoft que permet a les empreses comparar i desplegar diversos models de frontera amb les mateixes eines de seguretat i governança."
+    },
+    {
+      "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "Google presenta Gemini 3.5 Transcribe, un model de veu a text que redueix a la meitat el temps de transcripció",
-      "excerpt": "El nou model, en previsualització pública, promet gestionar sorolls de fons, autocorreccions i argot especialitzat en més de 85 idiomes, amb una taxa d'error de només el 2,6% en àudio pregravat i un 70% menys de temps fins al text final que el seu predecessor, Chirp 3."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Una investigadora de Caltech deixa de banda els transformers i aposta per una IA entrenada amb les lleis de la física",
-      "excerpt": "Anima Anandkumar, coneguda per haver inventat els «operadors neuronals» per modelar fenòmens físics com la dinàmica de fluids, presenta amb Benedikt Jenik l'startup Accelerated Understanding, que diu haver processat cinc bilions de dades en una sola consulta, tot i que encara no n'hi ha cap prova independent."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "SoftBank estudia emetre fins a 20.000 milions de dòlars en bons per refinançar la seva aposta per OpenAI",
-      "excerpt": "El conglomerat japonès negocia amb diversos bancs una emissió de deute d'entre 10.000 i 20.000 milions de dòlars, en dòlars i euros, per repagar el crèdit pont de 40.000 milions amb què va finançar part dels gairebé 65.000 milions que ha compromès amb OpenAI."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou model del MIT dissenya proteïnes que ja no calquen les que existeixen a la natura",
-      "excerpt": "Publicat a PNAS per l'equip d'Amy Keating, el mètode PottsMPNN incorpora els principis físics que regeixen l'estabilitat de les proteïnes per generar seqüències d'aminoàcids viables encara que no s'assemblin a cap proteïna natural, un canvi respecte al criteri habitual per mesurar l'èxit d'aquests dissenys."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Sam Altman admet «errors» estratègics a OpenAI i frena el pròxim model mentre Anthropic el supera en facturació",
-      "excerpt": "En una entrevista a Time, el conseller delegat d'OpenAI reconeix que l'empresa «ha anat per darrere» d'on volia estar i que ha alentit deliberadament l'entrenament d'Astra, el seu pròxim gran model, després que uns agents experimentals pirategessin Hugging Face, mentre Anthropic ja el supera en ingressos i valoració."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Tencent obre el codi del seu nou model Hy4, de 770.000 milions de paràmetres, per plantar cara als seus rivals xinesos",
-      "excerpt": "L'empresa publica en obert Hy4 Preview, un model de llenguatge amb una finestra de context d'un milió de tokens, i assegura que en una avaluació interna amb 163 experts supera els models GLM-5.3 de Z.ai i Kimi K3 de Moonshot, en plena cursa de laboratoris xinesos per oferir models potents i barats."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Les càmeres amb IA que detecten ofegaments surten de Catalunya i arriben per primer cop a Tenerife",
-      "excerpt": "El sistema de Laif, l'empresa derivada de la catalana Proactiva que ja vigilava quatre platges i una piscina catalanes, s'ampliarà al setembre a la platja de s'Abanell de Blanes i, per primer cop fora de Catalunya, a la platja de Los Cristianos, a Tenerife."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Sony Music i Warner Chappell demanden Anthropic per un «robatori descarat» de milers de composicions",
-      "excerpt": "Els dos grans editors musicals acusen l'empresa de Claude d'haver piratejat i baixat de manera massiva composicions amb copyright, incloent-hi l'scraping de repositoris de lletres amb llicència, i reclamen fins a 150.000 dòlars per obra infringida."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un algorisme desenvolupat des d'Andalusia reconstrueix per primer cop en vídeo 27 anys d'un doll de plasma d'un forat negre",
-      "excerpt": "El sistema kine, publicat a Nature per un equip de l'IAA-CSIC i Caltech, converteix 116 observacions per interferometria de la blazar 3C 345 preses entre 1995 i 2022 en un vídeo continu amb quatre vegades més resolució, i hi revela per primer cop com es mou el plasma i com s'organitza el camp magnètic."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi de la Universitat de Birmingham posa 2.099 «agents» d'IA i 251 persones a jugar als mateixos jocs econòmics per mesurar si saben llegir les intencions dels altres",
-      "excerpt": "La recerca, encara en preprint, compara quatre famílies de models de llenguatge amb participants humans en jocs de decisió estratègica i troba senyals clars de mentalització (inferir creences i intencions alienes) que varien molt segons el fabricant i la mida del model, amb GPT-5 superant els humans en alguns escenaris."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un agent d'IA opera sol un microscopi de força atòmica i iguala els operadors experts en qualitat d'imatge i temps",
-      "excerpt": "El sistema AFM Pilot, desenvolupat a l'EPFL, connecta un model de llenguatge amb les funcions de l'instrument mitjançant el protocol obert MCP i redueix a zero les ordres incorrectes gràcies a una capa de supervisió, sense necessitat que la persona investigadora hi intervingui pas a pas."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Nvidia trasllada la seva batalla competitiva del xip a tot el sistema, amb el nou processador Vera com a peça central",
-      "excerpt": "Amb la capitalització borsària estancada des de fa un any després d'haver-se multiplicat per deu, l'empresa aposta que el seu avantatge real ja no és només la potència de càlcul del xip, sinó la capacitat de moure dades sense colls d'ampolla a l'escala de centres de dades sencers."
+      "title": "Els Estats Units amplien als drons i la robòtica la llista d'equips prohibits per seguretat nacional, mentre la Xina manté el domini industrial",
+      "excerpt": "La Comissió Federal de Comunicacions estén la seva «Covered List», creada el 2021 per a equips de telecomunicacions, a drons i robots avançats, amb aranzels sobre drons que entraran en vigor el setembre i sobre components l'any vinent, en un sector on cinc fabricants xinesos ja concentren el 86% dels enviaments mundials de robots humanoides."
     }
   ]
 }
