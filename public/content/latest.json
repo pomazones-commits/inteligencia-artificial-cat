@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-08-31T04:25:06.200Z",
+  "updatedAt": "2026-08-31T08:21:38.689Z",
   "items": [
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "title": "Anthropic alerta que un programari lladre de dades segresta sessions de Claude per esgotar-ne l'ús sense que ningú hi entri",
+      "excerpt": "L'empresa ha detectat que un malware conegut per robar contrasenyes i galetes del navegador també roba les sessions actives de Claude, salta la doble autenticació i consumeix l'ús pagat dels comptes; Anthropic en tanca les sessions, en retira els mètodes de pagament desats i en retorna els càrrecs no autoritzats."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Un model d'aprenentatge profund amb dades de 3,5 milions de suecs prediu el risc de fractura de maluc set vegades millor que els cribratges actuals",
+      "excerpt": "Publicat a PLOS Medicine per investigadors de la Universitat de Gotemburg, FRACTURE-ML combina més de 100.000 variables de registres sanitaris nacionals suecs i identifica gairebé set vegades més persones en risc a dos anys vista que els mètodes clínics vigents, sense necessitat de cap visita presencial."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Apple es veu desbordada per la demanda empresarial de Mac per fer córrer models d'IA i avança el llançament del nou Mac mini i Mac Studio",
+      "excerpt": "Segons una investigació de The Information recollida per MacRumors, Apple ha tret abans d'hora els nous Mac mini i Mac Studio —pensats perquè les empreses hi facin córrer models d'IA en local i connectats en clúster— davant una demanda que ha desbordat una companyia que no tenia ni equip ni estratègia comercial per a clients empresarials."
+    },
+    {
+      "category": "SOCIETAT",
+      "read": "4 MIN",
+      "title": "Un experiment de la NPR i NewsGuard troba que els chatbots d'IA desmenteixen la propaganda xinesa, russa i iraniana millor que els cercadors",
+      "excerpt": "Posats a prova amb 30 preguntes basades en 15 falsedats difoses per governs o actors afins a la Xina, Rússia i l'Iran, ChatGPT, Gemini, Copilot, Meta AI, Grok i Claude van rebatre la desinformació en gairebé tres de cada quatre respostes, per davant dels resums d'IA que ja apareixen dalt de tot dels cercadors."
+    },
+    {
+      "category": "INVERSIÓ",
+      "read": "4 MIN",
+      "title": "Una start-up novaiorquesa que ensenya robots mirant enregistraments de videojocs busca finançament a una valoració de 6.000 milions de dòlars",
+      "excerpt": "General Intuition, sorgida l'octubre passat de la plataforma de clips de videojocs Medal, negocia una ronda que gairebé triplicaria en vuit setmanes la seva valoració, per destinar els diners a portar el seu model de moviment i orientació espacial fins als robots físics."
+    },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
