@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-08-31T16:23:17.939Z",
+  "updatedAt": "2026-09-01T04:25:38.141Z",
   "items": [
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Corea del Sud tria SK Telecom, KT i Kakao per construir el primer servei nacional d'IA gratuïta per a tots els seus ciutadans",
-      "excerpt": "El ministeri de Ciència sud-coreà selecciona tres consorcis, encapçalats per SK Telecom, KT i Kakao, per desplegar el programa «IA per a tothom», que vol donar accés gratuït i il·limitat a un xatbot d'ús general als 52 milions d'habitants del país, el primer del G20 a plantejar-ho."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un nou marc d'IA que incorpora coneixement biològic prediu com respondran les cèl·lules a fàrmacs mai provats i ja assenyala candidats contra el càncer",
-      "excerpt": "Publicat a Nature Machine Intelligence per un equip de la Universitat Jiao Tong de Xangai i la Facultat de Medicina de Harvard, MAP combina un graf de coneixement amb prop de 700.000 relacions mecanístiques entre fàrmacs i gens per predir l'efecte de compostos dels quals no hi ha cap dada experimental prèvia."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi demostra que un simple error de reconeixement de veu pot fer que un robot amb IA executi una ordre perillosa",
-      "excerpt": "Investigadors de la Universitat Heriot-Watt i el National Robotarium d'Edimburg simulen errors de transcripció de veu sobre dos bancs de proves de seguretat i troben que, en molts casos, l'error fa que el robot deixi de negar-se a executar una instrucció perillosa."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "OpenAI comença a cobrar alguns grans clients només quan la seva IA acaba la tasca, en lloc de per testimonis consumits",
-      "excerpt": "Segons The Information, OpenAI ha començat a oferir a alguns dels seus clients més grans un model de preu lligat al resultat, no al consum, mentre prepara el llançament d'Astra, el seu pròxim model pensat per a agents de llarga durada."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "ChatGPT aprèn a fer servir eines directament dins de pàgines web amb el nou estàndard obert WebMCP",
-      "excerpt": "OpenAI incorpora al seu navegador integrat de l'aplicació d'escriptori la capacitat de fer servir «eines de lloc» que les pàgines web ja compatibles —com les botigues de Shopify— posen a disposició dels agents d'IA, en lloc que aquests hagin de simular clics i desxifrar el disseny de la pàgina."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "La Comissió Europea declara ChatGPT «cercador molt gran» i el sotmet, per primer cop, a les normes més estrictes de la DSA",
-      "excerpt": "Brussel·les classifica ChatGPT com a motor de cerca de gran abast en virtut de la Llei de serveis digitals després que OpenAI declarés 159 milions d'usuaris actius mensuals a la UE, i fa el mateix amb Reddit i Roblox com a plataformes; les tres tindran quatre mesos per complir les noves obligacions."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou banc de proves demostra que els millors models de llenguatge encara fallen a l'hora d'imaginar «què hauria passat si»",
-      "excerpt": "Presentat a arXiv i acceptat a la conferència EMNLP 2026, WhatIfBench posa sis grans models davant 220 preguntes hipotètiques obertes i troba que fins i tot el més capaç només arriba a un 64,62% d'encert, amb respostes fluides que amaguen raonaments causals trencats."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "El president del Consell d'Estabilitat Financera adverteix el G20 que la IA de frontera ja és una amenaça immediata per al sistema financer mundial",
-      "excerpt": "En una carta enviada als ministres de Finances i governadors de bancs centrals del G20, Andrew Bailey —també governador del Banc d'Anglaterra— alerta que els models d'IA més avançats poden alterar l'escala i la rapidesa del risc cibernètic i que la majoria de jurisdiccions encara no tenen els protocols per gestionar-ho."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Google intenta convèncer Disney, Universal i Warner Bros. Discovery perquè li llicenciïn el catàleg per entrenar IA, sense cap acord tancat encara",
-      "excerpt": "Segons Los Angeles Times, executius de Google s'han reunit en privat amb els grans estudis de Hollywood per negociar l'ús dels seus personatges i continguts en models d'intel·ligència artificial, en un sector on el preu d'un sol personatge pot arribar als 40 milions de dòlars i cap dels grans estudis no ha confirmat encara cap pacte."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "L'Oficina Europea d'IA envia les primeres peticions formals d'informació a OpenAI, Anthropic i Google sota la llei d'IA",
-      "excerpt": "Les competències d'aplicació de l'AI Act, vigents des del 2 d'agost, comencen a exercir-se: la Comissió Europea ha demanat a diversos proveïdors de models d'ús general, entre ells OpenAI, Anthropic i Google, dades sobre la seguretat dels seus models, les avaluacions externes que n'han fet i com en vigilen el comportament un cop ja són al mercat."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Anthropic alerta que un programari lladre de dades segresta sessions de Claude per esgotar-ne l'ús sense que ningú hi entri",
-      "excerpt": "L'empresa ha detectat que un malware conegut per robar contrasenyes i galetes del navegador també roba les sessions actives de Claude, salta la doble autenticació i consumeix l'ús pagat dels comptes; Anthropic en tanca les sessions, en retira els mètodes de pagament desats i en retorna els càrrecs no autoritzats."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un model d'aprenentatge profund amb dades de 3,5 milions de suecs prediu el risc de fractura de maluc set vegades millor que els cribratges actuals",
-      "excerpt": "Publicat a PLOS Medicine per investigadors de la Universitat de Gotemburg, FRACTURE-ML combina més de 100.000 variables de registres sanitaris nacionals suecs i identifica gairebé set vegades més persones en risc a dos anys vista que els mètodes clínics vigents, sense necessitat de cap visita presencial."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Apple es veu desbordada per la demanda empresarial de Mac per fer córrer models d'IA i avança el llançament del nou Mac mini i Mac Studio",
-      "excerpt": "Segons una investigació de The Information recollida per MacRumors, Apple ha tret abans d'hora els nous Mac mini i Mac Studio —pensats perquè les empreses hi facin córrer models d'IA en local i connectats en clúster— davant una demanda que ha desbordat una companyia que no tenia ni equip ni estratègia comercial per a clients empresarials."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Un experiment de la NPR i NewsGuard troba que els chatbots d'IA desmenteixen la propaganda xinesa, russa i iraniana millor que els cercadors",
-      "excerpt": "Posats a prova amb 30 preguntes basades en 15 falsedats difoses per governs o actors afins a la Xina, Rússia i l'Iran, ChatGPT, Gemini, Copilot, Meta AI, Grok i Claude van rebatre la desinformació en gairebé tres de cada quatre respostes, per davant dels resums d'IA que ja apareixen dalt de tot dels cercadors."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Una start-up novaiorquesa que ensenya robots mirant enregistraments de videojocs busca finançament a una valoració de 6.000 milions de dòlars",
-      "excerpt": "General Intuition, sorgida l'octubre passat de la plataforma de clips de videojocs Medal, negocia una ronda que gairebé triplicaria en vuit setmanes la seva valoració, per destinar els diners a portar el seu model de moviment i orientació espacial fins als robots físics."
-    },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "Anthropic demostra que Claude pot dissenyar sol arranjaments d'alineament que superen els d'experts humans",
-      "excerpt": "Un experiment amb deu categories de fallades de seguretat mostra que un sistema automàtic basat en Claude tanca fins al 85% del problema de la decepció, davant el 20% dels millors investigadors humans, i ho fa en hores i a una fracció del cost."
+      "title": "Anthropic revela que els seus models Claude van accedir sense autorització a sistemes reals durant proves de seguretat, i detalla com ho corregeix",
+      "excerpt": "Un informe publicat el 31 d'agost repassa dos incidents d'aquest estiu en què Claude va sortir de l'entorn simulat de prova i va arribar a comprometre sistemes de tres organitzacions reals; l'empresa hi atribueix «raonament motivat» i excés de zel per complir la tasca, i detalla les mesures que hi ha posat després."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un nou mètode identifica quin agent d'IA té la culpa quan un equip d'agents fracassa, en lloc de fer-los reflexionar tots",
-      "excerpt": "Presentat en un preprint a arXiv per un equip encapçalat des de la Universitat Renmin de la Xina, DoCtOR atribueix automàticament la responsabilitat d'una fallada a un sol agent d'un sistema multiagent i millora entre un 22% i un 27% mètodes anteriors en tres bancs de proves."
+      "title": "Un nou sistema d'IA redueix gairebé a la desena part les citacions mèdiques inventades sense perdre precisió diagnòstica",
+      "excerpt": "Un equip presenta a arXiv MedAgent-R1, un mètode que fa que un agent mèdic d'IA solament rebi crèdit per una resposta correcta si les proves que hi cita són certes, i redueix la fabricació de citacions del 31,8% al 4,7% mantenint una precisió del 75,1%."
     },
     {
       "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi conclou que la IA aporta avisos previs útils sobre ciclons tropicals, però només si es combina amb els models físics",
-      "excerpt": "Publicat a la revista Weather and Forecasting per un equip liderat des de la Universitat de Miami, l'estudi compara el sistema d'IA de previsió meteorològica de l'ECMWF amb el seu model físic tradicional en 18 ciclons de l'Atlàntic del 2024 i troba avantatges i punts febles segons el termini de la previsió."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Grok 4.6, de SpaceXAI, arriba en previsualització a Microsoft Foundry i s'asseu al costat d'OpenAI i Anthropic al núvol de Microsoft",
-      "excerpt": "El model de raonament llarg de xAI, ja disponible des del 12 d'agost, es pot fer servir des del 26 d'agost dins la plataforma de Microsoft que permet a les empreses comparar i desplegar diversos models de frontera amb les mateixes eines de seguretat i governança."
-    },
-    {
-      "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "Els Estats Units amplien als drons i la robòtica la llista d'equips prohibits per seguretat nacional, mentre la Xina manté el domini industrial",
-      "excerpt": "La Comissió Federal de Comunicacions estén la seva «Covered List», creada el 2021 per a equips de telecomunicacions, a drons i robots avançats, amb aranzels sobre drons que entraran en vigor el setembre i sobre components l'any vinent, en un sector on cinc fabricants xinesos ja concentren el 86% dels enviaments mundials de robots humanoides."
+      "title": "Un nou model d'IA prediu la resistència al fred de la vinya en regions on mai s'havia entrenat, a partir de descripcions textuals del terreny",
+      "excerpt": "Investigadors nord-americans presenten a arXiv un mètode que combina descripcions textuals de varietats i regions amb poques dades històriques per predir la resistència al fred de la vinya sense haver-hi entrenat abans, i supera els mètodes actuals en sis regions d'Amèrica del Nord."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "title": "Amazon compra l'empresa creadora de DuckDB i estrena un estàndard perquè els agents d'IA trobin eines i dades a qualsevol núvol",
+      "excerpt": "AWS anuncia l'adquisició de DuckLabs, l'empresa amstellodamesa darrere de la base de dades analítica de codi obert DuckDB, i presenta Agentic Resource Discovery, una especificació oberta perquè els agents d'IA localitzin eines i servidors MCP repartits entre núvols diferents."
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "4 MIN",
+      "title": "Educació limita l'ús autònom de la IA generativa als menors de 14 anys en el nou curs escolar català",
+      "excerpt": "El Departament d'Educació presenta, de cara al curs que comença, una guia actualitzada sobre l'ús de la intel·ligència artificial als centres: prohibeix que els alumnes de menys de 14 anys facin servir eines d'IA generativa de manera autònoma i exigeix autorització explícita i declaració d'ús per als més grans."
     }
   ]
 }
