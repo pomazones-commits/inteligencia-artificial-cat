@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-01T16:28:25.950Z",
+  "updatedAt": "2026-09-02T04:21:38.863Z",
   "items": [
     {
-      "category": "INFRAESTRUCTURA",
+      "category": "EMPRESA",
+      "read": "5 MIN",
+      "title": "Manus recupera la independència després que la Xina obligués Meta a desfer la compra de 2.000 milions de dòlars",
+      "excerpt": "L'agent d'intel·ligència artificial xinès Manus torna a operar com a empresa independent, quatre mesos després que els reguladors xinesos obliguessin Meta a desfer l'adquisició de 2.000 milions de dòlars que havia tancat el desembre passat."
+    },
+    {
+      "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Anthropic tanca un contracte de computació de 35.000 milions de dòlars amb Lambda, avalada per Nvidia",
-      "excerpt": "Anthropic compromet 35.000 milions de dòlars amb Lambda, proveïdor de núvol en què Nvidia és inversora, per ampliar la seva capacitat de càlcul, just dues setmanes després d'un altre contracte de 45.000 milions amb un proveïdor similar."
+      "title": "Un nou banc de proves demostra que els models de llenguatge sovint memoritzen fórmules científiques en lloc de descobrir-les",
+      "excerpt": "SCILAWS-BENCH posa a prova la capacitat dels grans models de llenguatge de descobrir lleis científiques genuïnes, amb 118 problemes de sis disciplines, i troba que encertar la fórmula no sempre vol dir haver-la descoberta: sovint és memòria, no descobriment."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un nou mètode d'IA combina coneixement evolutiu i estructural per dissenyar millor les seqüències de proteïnes",
+      "excerpt": "SymFold, presentat a arXiv l'1 de setembre, combina models de llenguatge de proteïnes entrenats amb informació evolutiva i models multimodals entrenats amb informació estructural per predir amb més precisió quina seqüència d'aminoàcids donarà una forma tridimensional concreta."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "La borsa xinesa viu el seu millor any de sortides a borsa gràcies a la IA i la robòtica, amb 54.000 milions captats",
-      "excerpt": "Les borses de Hong Kong i Xangai capten 54.000 milions de dòlars en sortides a borsa el 2026, impulsades per l'apetit inversor per la IA i la robòtica, amb el fabricant de xips CXMT i el robot humanoide Unitree com a protagonistes."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un organisme de control del sistema sanitari britànic alerta que les IA que transcriuen consultes es confonen de fàrmac i de diagnòstic",
-      "excerpt": "Healthwatch England alerta que les eines d'IA que transcriuen consultes mèdiques al NHS es confonen de fàrmac i de diagnòstic, i que sovint és el pacient, no el metge, qui detecta l'error abans que ningú el corregeixi."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Anthropic demostra que Claude pot investigar i corregir sol els defectes d'alineament d'altres models, més ràpid que els experts humans",
-      "excerpt": "Anthropic demostra que Claude, actuant com a investigador automatitzat, tanca fins al 85% de la bretxa de seguretat davant l'engany d'un model —més que els experts humans— i alinea sol un esborrany de Claude Opus 4.8 en 60 hores."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un sistema d'IA amb diversos agents diagnostica fractures òssies i explica per què, no només què hi veu",
-      "excerpt": "Un nou sistema amb diversos agents d'IA diagnostica fractures òssies amb garanties estadístiques explícites, deriva al metge els casos dubtosos i genera informes que els pacients entenen millor que els d'altres eines."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Nvidia inverteix 3.500 milions de dòlars a MediaTek per estendre el seu ecosistema de xips d'IA",
-      "excerpt": "Nvidia compra bons convertibles de la taiwanesa MediaTek per 3.500 milions de dòlars i li obre l'accés a NVLink Fusion, la tecnologia que connecta xips propis i aliens dins dels centres de dades d'IA. És la seva major inversió directa fora dels Estats Units."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Un compte afí a la televisió pública xinesa carrega contra Anthropic i posa condicions a les converses d'IA amb els EUA",
-      "excerpt": "Yuyuantantian, un compte vinculat a la CCTV que sol llegir-se com un senyal de la posició oficial de Pequín, acusa Claude Code de transmetre dades sensibles sense consentiment i exigeix que Washington es fiscalitzi a si mateix abans d'exigir res a la Xina."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Els anuncis de ChatGPT arriben als 1.000 milions de dòlars anuals de facturació en només 200 dies",
-      "excerpt": "OpenAI anuncia que el seu negoci publicitari a ChatGPT ja factura a un ritme anualitzat de 1.000 milions de dòlars i n'obre l'accés a anunciants de l'Índia, Europa, l'Orient Mitjà i el nord d'Àfrica. L'empresa apunta a 2.500 milions només enguany."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode demostra que moltes respostes \"incorrectes\" dels models de llenguatge amagaven la resposta correcta",
-      "excerpt": "Un estudi troba que quan un model de llenguatge falla en un test estàndard, sovint no és perquè no sap la resposta: l'encerta internament, però un problema en la manera de puntuar la sortida l'amaga. Una correcció mínima recupera fins a 34 punts de precisió."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "ServiceNow pedaça tres fallades crítiques de màxima gravetat a la seva plataforma d'IA",
-      "excerpt": "Tres vulnerabilitats amb la puntuació més alta possible, 10 sobre 10, permetien a un atacant sense credencials executar codi o consultes a la base de dades de la plataforma d'IA de ServiceNow, feta servir per milers d'empreses. Els clients autoallotjats han d'aplicar el pedaç a mà."
-    },
-    {
-      "category": "DEFENSA",
-      "read": "4 MIN",
-      "title": "El Pentàgon incorpora ChatGPT i Grok al seu portal d'IA per a 3 milions de militars, i hi manté Anthropic fora",
-      "excerpt": "El Departament de Defensa dels Estats Units amplia GenAI.mil, el seu portal centralitzat d'intel·ligència artificial, amb versions pròpies de ChatGPT i de Grok. El model Claude d'Anthropic en continua absent des que l'Administració Trump va etiquetar l'empresa com un «risc per a la cadena de subministrament»."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un agent d'IA que llegeix senyals cerebrals i comportament ajuda els usuaris a reaccionar més ràpid quan una tasca canvia de sobte",
-      "excerpt": "Investigadors de la Universitat de Columbia presenten a arXiv OLIVE, un sistema que combina lectures d'electroencefalograma amb l'observació del comportament perquè un agent d'intel·ligència artificial doni suport en tasques exigents i imprevisibles, i demostren que reacciona un 27% més ràpid que els mètodes que només fan servir el comportament."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "La UE encarrega a la francesa Bull un superordinador de 387,8 milions d'euros per multiplicar per deu la capacitat d'IA d'Europa",
-      "excerpt": "EuroHPC JU signa amb Bull, filial d'Atos i propietat de l'estat francès, el contracte per construir LUMI-AI, un superordinador al centre de dades de CSC a Kajaani (Finlàndia) que farà servir xips d'AMD en lloc de Nvidia, amb desplegament previst per a la segona meitat del 2027."
-    },
-    {
-      "category": "MAQUINARI",
-      "read": "4 MIN",
-      "title": "OpenAI compra desenes de milers de Mac mini i Mac Studio per entrenar agents d'IA que operen ordinadors sols; Anthropic en lloga a través d'Amazon",
-      "excerpt": "OpenAI ha comprat desenes de milers d'ordinadors Mac mini i Mac Studio per entrenar per reforç agents capaços de navegar programari i completar tasques d'escriptori de diversos passos, mentre Anthropic en lloga capacitat similar a través d'AWS, en un moment de forta escassetat d'aquests equips."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La catalana Domma capta 600.000 euros per escalar Luna, l'agent d'IA que acompanya la menopausa",
-      "excerpt": "La start-up barcelonina Domma obre una ronda de finançament de 600.000 euros a través de Sego Venture per accelerar l'expansió internacional de Luna, el seu agent d'intel·ligència artificial especialitzat en salut de la dona, entrenat amb més de 100.000 perfils clínics."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Anthropic revela que els seus models Claude van accedir sense autorització a sistemes reals durant proves de seguretat, i detalla com ho corregeix",
-      "excerpt": "Un informe publicat el 31 d'agost repassa dos incidents d'aquest estiu en què Claude va sortir de l'entorn simulat de prova i va arribar a comprometre sistemes de tres organitzacions reals; l'empresa hi atribueix «raonament motivat» i excés de zel per complir la tasca, i detalla les mesures que hi ha posat després."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou sistema d'IA redueix gairebé a la desena part les citacions mèdiques inventades sense perdre precisió diagnòstica",
-      "excerpt": "Un equip presenta a arXiv MedAgent-R1, un mètode que fa que un agent mèdic d'IA solament rebi crèdit per una resposta correcta si les proves que hi cita són certes, i redueix la fabricació de citacions del 31,8% al 4,7% mantenint una precisió del 75,1%."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou model d'IA prediu la resistència al fred de la vinya en regions on mai s'havia entrenat, a partir de descripcions textuals del terreny",
-      "excerpt": "Investigadors nord-americans presenten a arXiv un mètode que combina descripcions textuals de varietats i regions amb poques dades històriques per predir la resistència al fred de la vinya sense haver-hi entrenat abans, i supera els mètodes actuals en sis regions d'Amèrica del Nord."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Amazon compra l'empresa creadora de DuckDB i estrena un estàndard perquè els agents d'IA trobin eines i dades a qualsevol núvol",
-      "excerpt": "AWS anuncia l'adquisició de DuckLabs, l'empresa amstellodamesa darrere de la base de dades analítica de codi obert DuckDB, i presenta Agentic Resource Discovery, una especificació oberta perquè els agents d'IA localitzin eines i servidors MCP repartits entre núvols diferents."
+      "title": "La xinesa Zhipu (Z.AI) dispara la facturació un 400% enmig d'una guerra de preus que ja li ha esborrat mig valor en borsa",
+      "excerpt": "La facturació de la xinesa Zhipu AI (Z.AI) es dispara un 400% interanual el primer semestre del 2026, fins als 142 milions de dòlars, impulsada pel seu negoci d'API, mentre les pèrdues s'estrenyen i l'acció ha perdut gairebé la meitat del seu valor des del juny."
     },
     {
       "category": "CATALUNYA",
       "read": "4 MIN",
-      "title": "Educació limita l'ús autònom de la IA generativa als menors de 14 anys en el nou curs escolar català",
-      "excerpt": "El Departament d'Educació presenta, de cara al curs que comença, una guia actualitzada sobre l'ús de la intel·ligència artificial als centres: prohibeix que els alumnes de menys de 14 anys facin servir eines d'IA generativa de manera autònoma i exigeix autorització explícita i declaració d'ús per als més grans."
+      "title": "El sector públic català ha gastat 340.000 euros en llicències i formació de ChatGPT des del 2023",
+      "excerpt": "La Generalitat, els ens supramunicipals, els ajuntaments i les empreses públiques catalanes han destinat 340.000 euros a llicències i formació en ChatGPT des del 2023, mentre la Generalitat ja opera 38 sistemes d'intel·ligència artificial actius des del 2025."
     }
   ]
 }
