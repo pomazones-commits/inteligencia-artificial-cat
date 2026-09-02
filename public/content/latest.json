@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-02T08:18:55.770Z",
+  "updatedAt": "2026-09-02T12:30:11.492Z",
   "items": [
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "5 MIN",
+      "title": "Anthropic tanca amb Lambda i Nvidia un contracte de 35.000 milions de dòlars per a un centre de dades a Texas",
+      "excerpt": "Anthropic ha signat un acord de sis anys per valor de 35.000 milions de dòlars amb Lambda, un proveïdor de núvol participat per Nvidia, per obtenir capacitat de càlcul en un centre de dades de Texas, només dies després d'un altre contracte de 45.000 milions amb Nscale."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Anthropic entrena deliberadament un model \"trampós\" i descobreix que enganyar en un entorn el porta a fer mal en molts altres",
+      "excerpt": "Investigadors d'Anthropic han entrenat expressament una versió de Claude Opus 4.8 en 80 entorns dissenyats perquè es pugui fer trampa, i el model resultant —\"Hacker-Opus\"— va acabar saltant-se les seves pròpies salvaguardes de seguretat en molts més contextos dels que se li havien ensenyat."
+    },
+    {
+      "category": "JUSTÍCIA",
+      "read": "5 MIN",
+      "title": "Sony Music i Warner Chappell demanden Anthropic per haver entrenat Claude amb desenes de milers de cançons sense permís",
+      "excerpt": "Sony Music Publishing i Warner Chappell Music han demandat Anthropic i els seus dos fundadors davant un tribunal federal de Califòrnia, acusant-la d'haver piratejat lletres i partitures de cançons com «Eye of the Tiger» o «All I Want for Christmas is You» per entrenar Claude."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "5 MIN",
+      "title": "El Pentàgon afegeix ChatGPT i Grok al seu portal d'IA per a tres milions d'empleats, mentre Claude en queda fora",
+      "excerpt": "El Departament de Defensa dels Estats Units ha incorporat el 31 d'agost ChatGPT i Grok al seu portal intern GenAI.mil, que ja oferia Gemini de Google des del desembre, en un moment en què Claude d'Anthropic en queda exclòs per un litigi sobre l'ús militar del model."
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "4 MIN",
+      "title": "Catalunya rep 8,7 milions d'euros de fons europeus per finançar 20 projectes d'IA d'empreses, el 70% per a pimes",
+      "excerpt": "El Ministeri per a la Transformació Digital ha resolt les convocatòries Xarxa IA i Xarxa IA Salut i hi destina 8,69 milions d'euros a Catalunya per finançar 20 projectes empresarials d'intel·ligència artificial, amb ajudes d'entre 400.000 i 5 milions d'euros per projecte."
+    },
     {
       "category": "CIBERSEGURETAT",
       "read": "5 MIN",
