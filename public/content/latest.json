@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-02T12:30:11.492Z",
+  "updatedAt": "2026-09-02T16:23:27.178Z",
   "items": [
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "Anthropic presenta Claude Fable 5.1 i reserva Mythos 5.1, amb menys restriccions, a experts verificats en ciberseguretat i biologia",
+      "excerpt": "Anthropic ha llançat l'1 de setembre Claude Fable 5.1, d'ús general, i Claude Mythos 5.1, una versió amb salvaguardes rebaixades reservada a professionals verificats de ciberseguretat defensiva i recerca biomèdica, amb millores de rendiment i preus més baixos."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Huawei preveu disparar un 60% la facturació dels seus xips d'IA Ascend, fins als 12.000 milions de dòlars el 2026",
+      "excerpt": "Un informe del Financial Times, recollit per diversos mitjans l'1 de setembre, situa la facturació prevista dels xips Ascend de Huawei en 12.000 milions de dòlars el 2026, empesa per l'adopció del model xinès DeepSeek V4, optimitzat per funcionar-hi."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un experiment amb accés \"privilegiat\" desmunta la idea que els grans models de llenguatge controlin la seva pròpia activitat interna",
+      "excerpt": "Un preprint publicat l'1 de setembre a arXiv redissenya els experiments de \"neurofeedback en context\" perquè el model no pugui deduir l'objectiu de control a partir de l'enunciat, i troba que els grans models de llenguatge deixen de mostrar aquest control."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un nou mètode fa que els models de visió i llenguatge expliquin per què classifiquen un desastre com a greu, no només que ho facin",
+      "excerpt": "Un mètode presentat a la revista Reliability Engineering & System Safety combina ajust supervisat i optimització de preferències humanes perquè els models que avaluen danys de desastres naturals raonin com un expert, amb millores de fins al 29% en precisió."
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "title": "Palo Alto Networks compra Console per convertir Cortex en una plataforma d'agents d'IA que investiguen i actuen sols",
+      "excerpt": "Palo Alto Networks ha anunciat l'1 de setembre la compra de Console, una plataforma d'agents d'IA que s'integrarà a Cortex perquè investigui incidents, prioritzi la feina i actuï automàticament, dins d'una onada d'adquisicions de seguretat basada en IA."
+    },
     {
       "category": "INFRAESTRUCTURA",
       "read": "5 MIN",
