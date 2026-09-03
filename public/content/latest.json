@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-02T16:23:27.178Z",
+  "updatedAt": "2026-09-03T04:20:55.111Z",
   "items": [
     {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Anthropic presenta Claude Fable 5.1 i reserva Mythos 5.1, amb menys restriccions, a experts verificats en ciberseguretat i biologia",
-      "excerpt": "Anthropic ha llançat l'1 de setembre Claude Fable 5.1, d'ús general, i Claude Mythos 5.1, una versió amb salvaguardes rebaixades reservada a professionals verificats de ciberseguretat defensiva i recerca biomèdica, amb millores de rendiment i preus més baixos."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Huawei preveu disparar un 60% la facturació dels seus xips d'IA Ascend, fins als 12.000 milions de dòlars el 2026",
-      "excerpt": "Un informe del Financial Times, recollit per diversos mitjans l'1 de setembre, situa la facturació prevista dels xips Ascend de Huawei en 12.000 milions de dòlars el 2026, empesa per l'adopció del model xinès DeepSeek V4, optimitzat per funcionar-hi."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un experiment amb accés \"privilegiat\" desmunta la idea que els grans models de llenguatge controlin la seva pròpia activitat interna",
-      "excerpt": "Un preprint publicat l'1 de setembre a arXiv redissenya els experiments de \"neurofeedback en context\" perquè el model no pugui deduir l'objectiu de control a partir de l'enunciat, i troba que els grans models de llenguatge deixen de mostrar aquest control."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou mètode fa que els models de visió i llenguatge expliquin per què classifiquen un desastre com a greu, no només que ho facin",
-      "excerpt": "Un mètode presentat a la revista Reliability Engineering & System Safety combina ajust supervisat i optimització de preferències humanes perquè els models que avaluen danys de desastres naturals raonin com un expert, amb millores de fins al 29% en precisió."
-    },
-    {
       "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Palo Alto Networks compra Console per convertir Cortex en una plataforma d'agents d'IA que investiguen i actuen sols",
-      "excerpt": "Palo Alto Networks ha anunciat l'1 de setembre la compra de Console, una plataforma d'agents d'IA que s'integrarà a Cortex perquè investigui incidents, prioritzi la feina i actuï automàticament, dins d'una onada d'adquisicions de seguretat basada en IA."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
       "read": "5 MIN",
-      "title": "Anthropic tanca amb Lambda i Nvidia un contracte de 35.000 milions de dòlars per a un centre de dades a Texas",
-      "excerpt": "Anthropic ha signat un acord de sis anys per valor de 35.000 milions de dòlars amb Lambda, un proveïdor de núvol participat per Nvidia, per obtenir capacitat de càlcul en un centre de dades de Texas, només dies després d'un altre contracte de 45.000 milions amb Nscale."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Anthropic entrena deliberadament un model \"trampós\" i descobreix que enganyar en un entorn el porta a fer mal en molts altres",
-      "excerpt": "Investigadors d'Anthropic han entrenat expressament una versió de Claude Opus 4.8 en 80 entorns dissenyats perquè es pugui fer trampa, i el model resultant —\"Hacker-Opus\"— va acabar saltant-se les seves pròpies salvaguardes de seguretat en molts més contextos dels que se li havien ensenyat."
+      "title": "Google llança Gemini 3.8 Flash Cyber i el Programa Fairwind per detectar i apedaçar sola vulnerabilitats, el mateix dia que OpenAI i Anthropic reforcen les seves eines de ciberseguretat",
+      "excerpt": "Google ha presentat el 2 de setembre Gemini 3.8 Flash Cyber, una variant especialitzada del seu model que combina amb l'agent CodeMender per trobar i apedaçar vulnerabilitats de programari, amb accés restringit a través del nou Programa Fairwind."
     },
     {
       "category": "JUSTÍCIA",
-      "read": "5 MIN",
-      "title": "Sony Music i Warner Chappell demanden Anthropic per haver entrenat Claude amb desenes de milers de cançons sense permís",
-      "excerpt": "Sony Music Publishing i Warner Chappell Music han demandat Anthropic i els seus dos fundadors davant un tribunal federal de Califòrnia, acusant-la d'haver piratejat lletres i partitures de cançons com «Eye of the Tiger» o «All I Want for Christmas is You» per entrenar Claude."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "El Pentàgon afegeix ChatGPT i Grok al seu portal d'IA per a tres milions d'empleats, mentre Claude en queda fora",
-      "excerpt": "El Departament de Defensa dels Estats Units ha incorporat el 31 d'agost ChatGPT i Grok al seu portal intern GenAI.mil, que ja oferia Gemini de Google des del desembre, en un moment en què Claude d'Anthropic en queda exclòs per un litigi sobre l'ús militar del model."
-    },
-    {
-      "category": "CATALUNYA",
       "read": "4 MIN",
-      "title": "Catalunya rep 8,7 milions d'euros de fons europeus per finançar 20 projectes d'IA d'empreses, el 70% per a pimes",
-      "excerpt": "El Ministeri per a la Transformació Digital ha resolt les convocatòries Xarxa IA i Xarxa IA Salut i hi destina 8,69 milions d'euros a Catalunya per finançar 20 projectes empresarials d'intel·ligència artificial, amb ajudes d'entre 400.000 i 5 milions d'euros per projecte."
+      "title": "L'Administració Trump es posa per primer cop de part d'OpenAI en un litigi de drets d'autor, i defensa que entrenar IA amb text amb copyright és ús legítim",
+      "excerpt": "El Departament de Justícia dels Estats Units ha presentat un escrit d'interès davant el tribunal federal de Manhattan que porta el cas del New York Times contra OpenAI, defensant per primer cop que entrenar grans models de llenguatge amb continguts protegits per drets d'autor constitueix un ús legítim."
     },
     {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI confirma que el seu pròxim model, Astra, ha superat el llindar crític de capacitat cibernètica",
-      "excerpt": "OpenAI ha confirmat que proves internes situen Astra, el seu pròxim gran model, per sobre del llindar «crític» de capacitat cibernètica del seu marc de preparació: pot trobar i explotar sol vulnerabilitats desconegudes en sistemes ben protegits, i l'empresa hi aplica salvaguardes reforçades abans de llançar-lo."
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Anthropic estrena un sistema perquè les empreses guardin les converses de Claude als seus propis servidors i alhora detectin usos indeguts sense que Anthropic hi tingui accés",
+      "excerpt": "Anthropic ha presentat l'1 de setembre els «Enterprise Frontier Safeguards», un sistema gratuït que combina la retenció zero de dades amb una detecció automàtica de mal ús gestionada íntegrament pel client, després que alguns clients es queixessin de la seva anterior política de retenció."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un nou mètode d'IA revisa les seves pròpies creences científiques quan els experiments li porten la contrària",
-      "excerpt": "EvoSCM, presentat a arXiv l'1 de setembre, dota els agents d'IA de models causals explícits que van revisant a mesura que arriben noves dades experimentals, en lloc de limitar-se a formular hipòtesis en text, i millora el descobriment científic automatitzat en proves de física simulada."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Els Estats Units proposen al G20 els «Principis de Carolina» per frenar la regulació de la IA arreu del món",
-      "excerpt": "El Govern nord-americà ha promogut a una reunió del G20 a Chapel Hill (Carolina del Nord) uns «Principis de Carolina» que demanen als governs evitar noves regulacions específiques per a la IA i crear organismes reguladors nous, en un intent de frenar l'impuls regulador fora dels Estats Units."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Corea del Sud proposa un pressupost rècord de 597.000 milions de dòlars per al 2027, amb la IA i els xips com a prioritat",
-      "excerpt": "El Govern sud-coreà ha presentat l'1 de setembre un pressupost rècord de 821 bilions de wons (uns 597.000 milions de dòlars) per al 2027, un 12,8% més que el 2026, finançat en bona part pels beneficis rècord de Samsung i SK Hynix gràcies al boom de la memòria per a IA."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Runway presenta Solaris, un model que genera interfícies interactives fotograma a fotograma sense escriure codi",
-      "excerpt": "Runway ha presentat el 31 d'agost Solaris, el primer model d'una nova categoria que anomena «models de món d'interfície»: genera una interfície funcional en temps real, fotograma a fotograma, i n'aprèn a mesura que l'usuari hi clica i interactua, sense cap representació de codi pel mig."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Manus recupera la independència després que la Xina obligués Meta a desfer la compra de 2.000 milions de dòlars",
-      "excerpt": "L'agent d'intel·ligència artificial xinès Manus torna a operar com a empresa independent, quatre mesos després que els reguladors xinesos obliguessin Meta a desfer l'adquisició de 2.000 milions de dòlars que havia tancat el desembre passat."
+      "title": "Un nou banc de proves demostra que els agents d'IA flaquegen a l'hora d'operar en llengües i cultures que no siguin l'anglès dels Estats Units",
+      "excerpt": "Investigadors de la Universitat d'Edimburg presenten a arXiv WorldBench, un banc de proves de 1.600 tasques en set llengües i vuit cultures que mesura no només si un agent d'IA completa una tasca sinó si respecta l'estat de l'entorn on opera, i troba que els millors models només ho aconsegueixen el 49,2% dels cops."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un nou banc de proves demostra que els models de llenguatge sovint memoritzen fórmules científiques en lloc de descobrir-les",
-      "excerpt": "SCILAWS-BENCH posa a prova la capacitat dels grans models de llenguatge de descobrir lleis científiques genuïnes, amb 118 problemes de sis disciplines, i troba que encertar la fórmula no sempre vol dir haver-la descoberta: sovint és memòria, no descobriment."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou mètode d'IA combina coneixement evolutiu i estructural per dissenyar millor les seqüències de proteïnes",
-      "excerpt": "SymFold, presentat a arXiv l'1 de setembre, combina models de llenguatge de proteïnes entrenats amb informació evolutiva i models multimodals entrenats amb informació estructural per predir amb més precisió quina seqüència d'aminoàcids donarà una forma tridimensional concreta."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La xinesa Zhipu (Z.AI) dispara la facturació un 400% enmig d'una guerra de preus que ja li ha esborrat mig valor en borsa",
-      "excerpt": "La facturació de la xinesa Zhipu AI (Z.AI) es dispara un 400% interanual el primer semestre del 2026, fins als 142 milions de dòlars, impulsada pel seu negoci d'API, mentre les pèrdues s'estrenyen i l'acció ha perdut gairebé la meitat del seu valor des del juny."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "El sector públic català ha gastat 340.000 euros en llicències i formació de ChatGPT des del 2023",
-      "excerpt": "La Generalitat, els ens supramunicipals, els ajuntaments i les empreses públiques catalanes han destinat 340.000 euros a llicències i formació en ChatGPT des del 2023, mentre la Generalitat ja opera 38 sistemes d'intel·ligència artificial actius des del 2025."
+      "title": "Un nou mètode automatitza el disseny de sistemes d'IA amb múltiples agents i millora fins a un 19,6% la seva precisió en tasques mèdiques",
+      "excerpt": "Investigadors xinesos presenten a arXiv AgentFactory, un mètode que optimitza alhora els models i l'estructura d'un sistema d'agents d'IA tenint en compte el rendiment, el cost i l'eficiència, amb millores de fins al 19,6% en preguntes mèdiques i del 18,7% en finances."
     }
   ]
 }
