@@ -1,95 +1,35 @@
 {
-  "updatedAt": "2026-09-03T16:26:22.533Z",
+  "updatedAt": "2026-09-04T04:21:13.213Z",
   "items": [
     {
       "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "OpenAI connecta ChatGPT Health amb Epic i dona als metges accés de només lectura a l'historial de 325 milions de pacients",
-      "excerpt": "OpenAI ha anunciat l'1 de setembre que ChatGPT Health es pot connectar directament amb Epic, el sistema de registres mèdics electrònics més estès als Estats Units, perquè el personal clínic consulti notes, resultats i medicació d'un pacient sense sortir de la conversa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou model de fundació robòtica aprèn a «sentir» la força de contacte per muntar peces industrials amb precisió mil·limètrica",
-      "excerpt": "Investigadors de la Universitat Tecnològica de Nanyang, a Singapur, presenten a arXiv Facet-0, un model de fundació per a robots que combina visió, llenguatge i mesura de força de contacte, i que aconsegueix un 82% d'èxit en tasques de muntatge de submil·límetre, davant del 15% del millor model rival."
-    },
-    {
-      "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Un estudi amb Eric Lander i Pardis Sabeti mesura quan els agents d'IA «resolen» un experiment biològic sense entendre'n les regles",
-      "excerpt": "Un equip de referència en genòmica, amb Eric S. Lander i Pardis Sabeti entre els autors, presenta a arXiv els «science sandboxes», un mètode per comprovar si els agents d'IA raonen de debò sobre la biologia o només optimitzen una mètrica sense entendre per què funciona."
+      "title": "OpenAI presenta GPT-6 Astra i el seu president diu que marca l'entrada a «l'era de l'AGI»",
+      "excerpt": "OpenAI ha llançat el 3 de setembre GPT-6 Astra, un model pensat per operar sol dins d'ordinadors i navegadors, amb el primer avís oficial de risc cibernètic «crític» de la companyia i un desplegament esglaonat per a clients empresarials."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Investigadors del Barcelona Supercomputing Center publiquen una guia per reduir la petjada energètica de la IA aplicada al clima",
-      "excerpt": "Un equip del departament de Ciències de la Terra del BSC presenta a arXiv una llista de verificació pràctica, presentada al taller GREEN-AI de la conferència ECML PKDD, perquè els científics del clima avaluïn i redueixin el consum energètic i les emissions dels seus propis models d'IA."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "ChatGPT, Claude i Grok cauen gairebé alhora en una de les avaries més estranyes de la IA generativa d'aquest any",
-      "excerpt": "OpenAI, Anthropic i xAI han patit el 2 i el 3 de setembre errors de servei en una finestra de temps molt curta que ha deixat sense resposta milers d'usuaris de ChatGPT, Claude i Grok, en un episodi que diversos mitjans, entre ells Bloomberg, han recollit com a inusualment simultani."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Meta llança Muse Spark 1.3, el seu model més potent fins ara, i diu haver-se posat a l'alçada d'OpenAI i Anthropic",
-      "excerpt": "Meta ha començat a distribuir el 2 de setembre Muse Spark 1.3, una actualització centrada en tasques agèntiques i de programació que, segons el seu director d'IA, representa el salt de rendiment més gran de la companyia fins ara."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "L'Administració Trump diu que torna a confiar en Anthropic, mesos després d'acusar-la d'obstaculitzar el Pentàgon",
-      "excerpt": "El secretari de Comerç dels Estats Units, Howard Lutnick, ha declarat l'1 de setembre a la cimera ministerial d'innovació del G20 que Anthropic ha «fet el que li vam demanar» i que torna a ser de confiança, després de mesos d'enfrontament obert entre la companyia i la Casa Blanca."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Dell tanca el seu millor trimestre de la història gràcies als servidors d'IA, amb una cartera de comandes de 95.000 milions de dòlars",
-      "excerpt": "Dell Technologies ha anunciat l'1 de setembre uns resultats trimestrals rècord impulsats per la demanda de maquinari per a intel·ligència artificial: 60.900 milions de dòlars en noves comandes de servidors d'IA i una previsió anual a l'alça de 25.000 milions de dòlars."
+      "title": "Un estudi calcula que gairebé el 90% dels articles biomèdics recents porten senyals d'haver-se escrit amb IA",
+      "excerpt": "Un preprint de Dmitry Kobak (Universitat de Gant) analitza el llenguatge de milions d'articles de PubMed Central i troba marques d'assistència d'un model de llenguatge en gairebé nou de cada deu, amb el risc més gran a les seccions de resultats."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Una tècnica de persuasió humana funciona amb Claude Opus 5 però es gira en contra amb els models d'OpenAI i Google",
-      "excerpt": "Un preprint publicat el 2 de setembre a arXiv prova la tècnica de persuasió «porta a la cara» —demanar molt per aconseguir després un sí a una petició menor— en nou models de llenguatge de producció, i troba que funciona amb Opus 5 d'Anthropic però redueix la cooperació dels models d'OpenAI i Google."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "CrowdStrike i Nvidia presenten SafeMind, un sistema que enfronta una IA atacant i una IA defensora per entrenar-se soles",
-      "excerpt": "CrowdStrike ha presentat l'1 de setembre SafeMind, un sistema agèntic construït amb Nvidia que combina Red Tempest, un model ofensiu que simula atacants, i Blue Solano, un model defensiu, en un cicle tancat que, segons l'empresa, detecta un 29% més d'amenaces i les remeia sis vegades més ràpid."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Google llança Gemini 3.8 Flash Cyber i el Programa Fairwind per detectar i apedaçar sola vulnerabilitats, el mateix dia que OpenAI i Anthropic reforcen les seves eines de ciberseguretat",
-      "excerpt": "Google ha presentat el 2 de setembre Gemini 3.8 Flash Cyber, una variant especialitzada del seu model que combina amb l'agent CodeMender per trobar i apedaçar vulnerabilitats de programari, amb accés restringit a través del nou Programa Fairwind."
+      "title": "La física que redacta la posició oficial dels EUA sobre la IA a la recerca: «Cal saber què és perdurable»",
+      "excerpt": "Sarah Demers, cap del departament de física de Yale, lidera per encàrrec de l'American Physical Society una declaració sobre l'ús de la intel·ligència artificial en la recerca, i explica per què encara no ha escrit mai res a ChatGPT ni a Claude."
     },
     {
       "category": "JUSTÍCIA",
       "read": "4 MIN",
-      "title": "L'Administració Trump es posa per primer cop de part d'OpenAI en un litigi de drets d'autor, i defensa que entrenar IA amb text amb copyright és ús legítim",
-      "excerpt": "El Departament de Justícia dels Estats Units ha presentat un escrit d'interès davant el tribunal federal de Manhattan que porta el cas del New York Times contra OpenAI, defensant per primer cop que entrenar grans models de llenguatge amb continguts protegits per drets d'autor constitueix un ús legítim."
+      "title": "El Departament de Justícia dels EUA es posa de part d'OpenAI i Microsoft en el litigi de drets d'autor amb The New York Times",
+      "excerpt": "En un escrit presentat davant d'un jutjat federal de Nova York, l'Administració Trump argumenta per primer cop que entrenar models de llenguatge amb text amb copyright és un ús «transformador» legítim, en un cas que pot marcar tota la indústria."
     },
     {
-      "category": "SEGURETAT",
+      "category": "TREBALL",
       "read": "4 MIN",
-      "title": "Anthropic estrena un sistema perquè les empreses guardin les converses de Claude als seus propis servidors i alhora detectin usos indeguts sense que Anthropic hi tingui accés",
-      "excerpt": "Anthropic ha presentat l'1 de setembre els «Enterprise Frontier Safeguards», un sistema gratuït que combina la retenció zero de dades amb una detecció automàtica de mal ús gestionada íntegrament pel client, després que alguns clients es queixessin de la seva anterior política de retenció."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou banc de proves demostra que els agents d'IA flaquegen a l'hora d'operar en llengües i cultures que no siguin l'anglès dels Estats Units",
-      "excerpt": "Investigadors de la Universitat d'Edimburg presenten a arXiv WorldBench, un banc de proves de 1.600 tasques en set llengües i vuit cultures que mesura no només si un agent d'IA completa una tasca sinó si respecta l'estat de l'entorn on opera, i troba que els millors models només ho aconsegueixen el 49,2% dels cops."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou mètode automatitza el disseny de sistemes d'IA amb múltiples agents i millora fins a un 19,6% la seva precisió en tasques mèdiques",
-      "excerpt": "Investigadors xinesos presenten a arXiv AgentFactory, un mètode que optimitza alhora els models i l'estructura d'un sistema d'agents d'IA tenint en compte el rendiment, el cost i l'eficiència, amb millores de fins al 19,6% en preguntes mèdiques i del 18,7% en finances."
+      "title": "Meta deixa de mesurar els seus empleats pel consum de tocs d'IA, deu mesos després d'imposar-ho",
+      "excerpt": "L'empresa retira els «dashboards» d'adopció d'IA i els comptadors de tokens de les avaluacions de rendiment del seu personal, mentre reconeix que un 93% dels canvis de codi ja compten amb assistència d'agents d'IA."
     }
   ]
 }
