@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-04T16:20:09.156Z",
+  "updatedAt": "2026-09-05T04:22:06.673Z",
   "items": [
     {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Dos legisladors dels EUA proposen prohibir la superintel·ligència artificial i aturar temporalment els models de frontera",
-      "excerpt": "Bernie Sanders i Greg Casar presenten la Ban Artificial Superintelligence Act, amb penes de fins a 20 anys de presó i la dissolució d'empreses infractores, el mateix dia que OpenAI proclamava l'«era de l'AGI» amb GPT-6 Astra."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Google Research mesura fins on serveix la genètica europea per predir malalties en poblacions infrarepresentades",
-      "excerpt": "Un estudi amb Biobank Japan i RIKEN mostra que traslladar dades genètiques europees millora les prediccions de risc clínic en poblacions petites, però que aquest avantatge es capgira i acaba perjudicant la precisió a mesura que creixen les dades pròpies de cada població."
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "Un institut de l'Emirats Àrabs Units publica els sis models d'IA oberts més grans creats fins ara, amb tot el codi i les dades d'entrenament",
+      "excerpt": "L'Institute of Foundation Models, de la Universitat Mohamed bin Zayed d'Intel·ligència Artificial, allibera K2 Horizon: sis models de 0,9 a 375.000 milions de paràmetres amb pesos, codi, dades d'entrenament i metodologia sota llicència Apache 2.0."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un sistema del MIT tradueix les decisions d'un cotxe autònom a conceptes que un humà pot entendre i predir",
-      "excerpt": "Investigadors del MIT i l'empresa de vehicles autònoms Motional presenten CW-Net, un mètode que explica per què un cotxe frena o gira amb conceptes com «s'acosta a un vehicle aturat», i demostren que ajuda operadors de seguretat a preveure millor el seu comportament."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Nscale es compromet amb 3.500 milions de dòlars en computació perquè Figure entreni la pròxima generació de robots humanoides",
-      "excerpt": "L'empresa britànica de centres de dades desplegarà fins a 100.000 GPU Nvidia Vera Rubin per alimentar Helix, el sistema d'IA dels robots humanoides de Figure, en una aliança que Nvidia descriu com l'inici d'«una gran indústria nova»."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La catalana Factorial compra l'alemanya Empion per incorporar l'avaluació de talent amb IA a la seva plataforma de recursos humans",
-      "excerpt": "L'unicorn barceloní de gestió d'equips adquireix la start-up berlinesa Empion, que avalua candidats amb IA més enllà del currículum, en una operació que reforça la seva expansió a Alemanya, «el mercat de tecnologia laboral més important d'Europa»."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "DeepSeek encarrega almenys 160.000 xips de Huawei per a un centre de dades gegant a Mongòlia Interior",
-      "excerpt": "L'empresa xinesa vol desplegar processadors Ascend 950DT en una instal·lació d'un gigawatt per fer funcionar els seus models, tot i que continua depenent de xips de Nvidia per entrenar-los, en un nou pas cap a l'autosuficiència xinesa en maquinari d'IA."
-    },
-    {
-      "category": "DEFENSA",
-      "read": "4 MIN",
-      "title": "L'Exèrcit dels EUA encarrega a Palantir i Anduril la producció de vuit estacions de guerra amb IA per 192 milions de dòlars",
-      "excerpt": "El sistema TITAN, una estació terrestre mòbil que fusiona dades de satèl·lits, drons i radars per generar recomanacions d'objectius militars, entra en fase de producció després de deu prototips ja lliurats, en un nou pas cap a la identificació d'objectius automatitzada."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "L'empresa basca Multiverse Computing presenta Quasar, el model d'IA europeu més ben puntuat fins ara",
-      "excerpt": "Amb seu a Donostia-Sant Sebastià, la companyia llança un model de raonament de 438.000 milions de paràmetres que supera Mistral i Nvidia Nemotron en el rànquing independent Artificial Analysis, i que ja fan servir Iberdrola i Bosch."
+      "title": "El Nobel David Baker s'alia amb l'Allen Institute i el Fred Hutch per crear una plataforma d'IA que dissenyi biologia des de zero",
+      "excerpt": "El nou programa AI BioDesign combina models d'intel·ligència artificial amb experiments reals en un cicle continu de disseny, construcció, mesura i aprenentatge per obtenir noves proteïnes, enzims i sistemes biològics."
     },
     {
       "category": "SALUT",
       "read": "5 MIN",
-      "title": "Una revisió amb gairebé 5.000 pacients de càncer troba que cap estudi ha avaluat la seguretat de la IA generativa que se'ls ofereix",
-      "excerpt": "Investigadors de la Universitat Flinders analitzen 32 estudis sobre com perceben pacients, supervivents i cuidadors la IA generativa en oncologia i alerten que gairebé cap examina qüestions com la seguretat, la transparència o l'equitat."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Barcelona es manté com la tercera ciutat del món en inversió estrangera en IA, per davant de qualsevol altra ciutat de la UE",
-      "excerpt": "Un estudi d'IBM Consulting i Moody's situa la capital catalana només darrere de Londres i Singapur en projectes d'inversió estrangera en intel·ligència artificial de l'últim quinquenni, amb unes 500 empreses del sector i gairebé 14.500 llocs de treball."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "OpenAI destina 1.000 milions de dòlars a protegir amb IA les infraestructures que no es poden pagar la ciberseguretat",
-      "excerpt": "El nou programa «Daybreak for Frontline Defenders» dona accés subvencionat als models de ciberdefensa d'OpenAI a petites xarxes d'aigua i electricitat, ajuntaments i bancs locals dels Estats Units, després que la companyia avisés que les infraestructures crítiques ja pateixen atacs més fàcils de muntar gràcies a la IA."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Investigadors del CRG muten cada lletra del genoma d'un virus i descobreixen que la IA encara no en sap predir els efectes",
-      "excerpt": "Un equip liderat per Ben Lehner al Centre de Regulació Genòmica de Barcelona crea 44.195 variants del bacteriòfag ΦX174, la primera mutació sistemàtica de tot un genoma, i troba que els millors predictors d'IA amb prou feines superen un simple model estructural."
+      "title": "Metges i informàtics proposen portar les sessions clàssiques d'error clínic a les fallades de la intel·ligència artificial",
+      "excerpt": "Un equip liderat per l'epidemiòleg Sanjay Basu presenta AI M&M, un mètode estructurat i «sense culpa» per investigar cas per cas per què falla una eina d'IA clínica, inspirat en les sessions hospitalàries de morbimortalitat."
     },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Google presenta WeatherNext 3, un model d'IA que actualitza la previsió de pluja cada hora i la fa cinc vegades més precisa",
-      "excerpt": "DeepMind integra el nou model a Cercador, Gemini, Maps i Earth Engine, amb millores de fins al 60% en la previsió de precipitacions respecte a les dades de satèl·lit de la NASA i actualitzacions horàries a partir d'imatges de satèl·lit en directe."
+      "title": "Google porta la veu conversacional de Gemini al Gmail, els Documents i el Keep",
+      "excerpt": "Les noves funcions Gmail Live, Docs Live i Keep Live permeten preguntar per la safata d'entrada, dictar esborranys i organitzar notes parlant, disponibles per als subscriptors de Google AI a iOS i Android."
     },
     {
-      "category": "PRIVACITAT",
+      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Algú publica gratuïtament 4.500 milions de vídeos de TikTok extrets sense permís al repositori Hugging Face",
-      "excerpt": "Un investigador anònim ha rastrejat durant tres setmanes l'API privada de TikTok i ha penjat un conjunt de dades de 289 GB amb subtítols i metadades de milers de milions de vídeos, tot i reconèixer que aquests subtítols compten com a dades personals sota el RGPD encara que la gent els publiqués en obert."
-    },
-    {
-      "category": "VIGILÀNCIA",
-      "read": "4 MIN",
-      "title": "Un xèrif de Texas fa servir IA per redactar l'informe després de rastrejar 80.000 càmeres buscant una dona que havia avortat",
-      "excerpt": "Documents públics revelen que l'oficina del xèrif del comtat de Johnson va fer servir l'eina d'IA Draft One d'Axon per redactar l'informe d'una recerca amb càmeres Flock arran de la denúncia de la parella maltractadora de la dona, un cas que reobre el debat sobre la transparència de la IA en la policia."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "5 MIN",
-      "title": "OpenAI presenta GPT-6 Astra i el seu president diu que marca l'entrada a «l'era de l'AGI»",
-      "excerpt": "OpenAI ha llançat el 3 de setembre GPT-6 Astra, un model pensat per operar sol dins d'ordinadors i navegadors, amb el primer avís oficial de risc cibernètic «crític» de la companyia i un desplegament esglaonat per a clients empresarials."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi calcula que gairebé el 90% dels articles biomèdics recents porten senyals d'haver-se escrit amb IA",
-      "excerpt": "Un preprint de Dmitry Kobak (Universitat de Gant) analitza el llenguatge de milions d'articles de PubMed Central i troba marques d'assistència d'un model de llenguatge en gairebé nou de cada deu, amb el risc més gran a les seccions de resultats."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "La física que redacta la posició oficial dels EUA sobre la IA a la recerca: «Cal saber què és perdurable»",
-      "excerpt": "Sarah Demers, cap del departament de física de Yale, lidera per encàrrec de l'American Physical Society una declaració sobre l'ús de la intel·ligència artificial en la recerca, i explica per què encara no ha escrit mai res a ChatGPT ni a Claude."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "title": "El Departament de Justícia dels EUA es posa de part d'OpenAI i Microsoft en el litigi de drets d'autor amb The New York Times",
-      "excerpt": "En un escrit presentat davant d'un jutjat federal de Nova York, l'Administració Trump argumenta per primer cop que entrenar models de llenguatge amb text amb copyright és un ús «transformador» legítim, en un cas que pot marcar tota la indústria."
-    },
-    {
-      "category": "TREBALL",
-      "read": "4 MIN",
-      "title": "Meta deixa de mesurar els seus empleats pel consum de tocs d'IA, deu mesos després d'imposar-ho",
-      "excerpt": "L'empresa retira els «dashboards» d'adopció d'IA i els comptadors de tokens de les avaluacions de rendiment del seu personal, mentre reconeix que un 93% dels canvis de codi ja compten amb assistència d'agents d'IA."
+      "title": "Meta presenta un model d'IA que transcriu en temps real fins a vint persones parlant en idiomes diferents",
+      "excerpt": "Muse Voice Transcribe, de Meta Superintelligence Labs, distingeix automàticament els parlants i canvia d'idioma a mig frase; ja lidera la classificació de transcripció en temps real per davant de Google i OpenAI."
     }
   ]
 }
