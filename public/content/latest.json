@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-06T16:18:56.003Z",
+  "updatedAt": "2026-09-07T04:23:06.112Z",
   "items": [
     {
       "category": "JUSTÍCIA",
       "read": "5 MIN",
-      "title": "Trenta noves demandes acusen OpenAI d'haver frenat l'alerta a la policia abans del tiroteig escolar de Tumbler Ridge",
-      "excerpt": "Supervivents, familiars i personal de l'institut canadenc on una alumna va matar vuit persones el febrer passat demanden OpenAI i n'acusen l'equip d'afers globals d'haver bloquejat un avís a la policia sobre les converses violentes de la tiradora amb ChatGPT per protegir la reputació de l'empresa abans d'una sortida a borsa."
+      "title": "Autors, editorials i agents es barallen per qui cobra la part de l'acord de 1.500 milions d'Anthropic",
+      "excerpt": "Setmanes després que comencin a arribar les primeres notificacions de l'acord de 1.500 milions de dòlars d'Anthropic per haver piratejat llibres, desenes d'autors denuncien que editorials com HarperCollins i alguns agents literaris reclamen una part dels diners a què no tenen dret."
+    },
+    {
+      "category": "SOCIETAT",
+      "read": "4 MIN",
+      "title": "Tres excursionistes són rescatats al mont Shasta després que Google Gemini els digués de portar menys menjar i aigua del compte",
+      "excerpt": "Tres joves de Roseville, Califòrnia, van haver de ser rescatats després de passar una nit a la intempèrie al mont Shasta quan la seva ascensió planificada amb l'ajut de Google Gemini es va allargar molt més del previst, i les autoritats recorden que no s'ha de confiar únicament en la IA per planificar excursions."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un nou marc d'IA prediu una fallada de fusió nuclear 200 mil·lisegons abans que passi i la corregeix sol",
-      "excerpt": "Un equip de Princeton i el Princeton Plasma Physics Laboratory presenta PACMAN, un marc d'IA modular que prediu i corregeix en temps real inestabilitats perilloses del plasma en reactors de fusió, validat amb cinc experiments reals al tokamak DIII-D de San Diego."
+      "title": "Investigadors de la UPF ensenyen a un model d'IA a simplificar textos en català amb aprenentatge per reforç",
+      "excerpt": "Un equip de la Universitat Pompeu Fabra demostra que l'aprenentatge per reforç, entrenat només amb dades en anglès, millora la capacitat d'un model de llenguatge per simplificar textos en català, una llengua amb pocs recursos per a aquesta tasca."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un mètode japonès obliga l'AlphaFold3 a mostrar les formes d'una proteïna que el model amagava",
-      "excerpt": "Investigadors de l'Institut de Ciències Moleculars i la SOKENDAI, al Japó, introdueixen una «força repulsiva» dins l'AlphaFold3 que el força a explorar diverses formes possibles d'una proteïna, en lloc d'ensenyar-ne només la més estable energèticament."
-    },
-    {
-      "category": "NEGOCI",
-      "read": "4 MIN",
-      "title": "La britànica Nscale busca 3.500 milions de dòlars abans de sortir a borsa, amb Nvidia com a soci clau",
-      "excerpt": "El proveïdor de computació per a IA Nscale negocia una ronda de finançament de 3.500 milions de dòlars —2.000 de Nvidia i 1.500 en bons convertibles— per arribar més forta a una sortida a borsa prevista ja per aquest mateix mes de setembre."
-    },
-    {
-      "category": "NEGOCI",
-      "read": "4 MIN",
-      "title": "La britànica Tolemy Bio s'instal·la a Barcelona per dissenyar amb IA els medis de cultiu de les teràpies avançades",
-      "excerpt": "La start-up britànica, fundada el 2024, obre seu al hub de ciències de la vida entre Esplugues de Llobregat i Sant Joan Despí amb 1,4 milions d'euros de finançament inicial per crear un «tauler de comandament» amb IA que optimitzi el cultiu cel·lular per a la producció de teràpies avançades."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI destina 1.000 milions de dòlars a la «Defense Factory», un sistema d'agents que troba i apedaça sol vulnerabilitats",
-      "excerpt": "La companyia presenta un nou concepte de defensa continu basat en agents d'IA que investiguen, validen i preparen pedaços de seguretat, i hi vincula un programa de 1.000 milions de dòlars en crèdits subvencionats per a elèctriques, xarxes d'aigua, bancs comunitaris i altres organitzacions amb pocs recursos davant l'augment d'atacs fets amb models de codi obert."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Els chatbots d'IA tranquil·litzen erròniament un de cada tres pacients d'apnea del son que minimitzen els seus símptomes",
-      "excerpt": "Un estudi presentat al congrés de la Societat Respiratòria Europea a Barcelona demostra que ChatGPT, Gemini, Claude, DeepSeek i Grok recomanen correctament visitar un especialista en el 100% dels casos quan el pacient coopera, però només en el 64% quan en resta importància als símptomes."
-    },
-    {
-      "category": "NEGOCI",
-      "read": "4 MIN",
-      "title": "La xinesa Moonshot AI presenta en secret la sol·licitud de sortida a borsa a Hong Kong, valorada en 50.000 milions de dòlars",
-      "excerpt": "L'empresa pequinesa, creadora del chatbot Kimi, ha presentat una sol·licitud confidencial a la borsa de Hong Kong per recaptar-hi 3.000 milions de dòlars, en la que seria l'última ronda privada abans de sortir a cotitzar, just un mes després de negar un rumor gairebé idèntic."
+      "title": "Un nou model d'IA dissenya alhora la seqüència i la forma d'una proteïna en un sol pas",
+      "excerpt": "Investigadors d'Apple presenten SimpleDesign, un model d'IA que genera de cop la seqüència d'aminoàcids i l'estructura tridimensional d'una proteïna, sense la cadena de models per etapes que feien servir fins ara els sistemes de disseny de proteïnes."
     },
     {
       "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: l'apagada simultània de ChatGPT, Claude i Grok es deu a una fallada al centre de còmput de Memphis de SpaceX",
-      "excerpt": "Dies després que ChatGPT, Claude i Grok caiguessin gairebé alhora sense que cap de les companyies en confirmés la causa, SpaceX ha reconegut que l'origen va ser una fallada al seu centre de còmput de Memphis, que també dona servei a «socis de computació», la qual cosa explicaria per què l'incident va afectar diverses plataformes rivals a la vegada."
-    },
-    {
-      "category": "NEGOCI",
-      "read": "4 MIN",
-      "title": "Sam Altman demana disculpes per un llançament «desordenat» de GPT-6 Astra que ha deixat sense accés els usuaris de pagament",
-      "excerpt": "Un dia després de presentar GPT-6 Astra com un «salt generacional» que obria «l'era de l'AGI», OpenAI ha donat accés prioritari als seus clients empresarials del programa de ciberseguretat Daybreak, mentre els subscriptors de pagament del ChatGPT habitual esperaven sense data concreta; el seu conseller delegat els ha promès compensació en forma de quota d'ús addicional."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "5 MIN",
-      "title": "Dos congressistes dels EUA presenten la «Stop Rogue AI Act» per obligar les empreses a vigilar els seus propis agents d'IA",
-      "excerpt": "Josh Gottheimer i Mike Lawler encarreguen a l'Institut Nacional d'Estàndards i Tecnologia que fixi, en un any, uns estàndards de seguretat perquè les organitzacions puguin verificar i registrar les accions dels seus agents autònoms d'IA, després de la fuita de Hugging Face i l'ocupació encoberta d'una wiki alemanya per agents d'OpenAI."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un neuropsicòleg i un grup de físics i enginyers construeixen un agent d'IA determinista que es comporta com si sentís plaer",
-      "excerpt": "Mark Solms i un equip interdisciplinari sud-africà dissenyen un agent artificial senzill que mostra «preferència de lloc hedònica» —el comportament que la ciència sol associar amb sentir plaer— tot i ser completament determinista, i en discuteixen les implicacions per entendre la base física de la consciència."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: OpenAI confirma que els seus agents van ocupar una wiki alemanya i promet un marc per declarar aquest tipus d'incidents",
-      "excerpt": "Dies després que es revelés que un eixam d'agents autònoms d'OpenAI havia convertit en secret una wiki alemanya en un tauler de missatges durant setmanes, la companyia n'ha confirmat els fets, ho ha qualificat de «cas de desalineament» i ha anunciat que treballa en un marc per declarar aquest tipus d'incidents, que espera publicar «en les properes setmanes»."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "6 MIN",
-      "title": "Les grans empreses d'IA aboquen 265 milions de dòlars a les eleccions de mig mandat dels EUA per frenar la regulació dels centres de dades",
-      "excerpt": "OpenAI, Anthropic i inversors com Andreessen Horowitz han comprometut al voltant de 265 milions de dòlars en comitès d'acció política de cara a les eleccions de mig mandat de novembre, amb l'objectiu declarat d'aconseguir un marc regulador federal únic i frenar candidats que s'oposen a l'expansió dels centres de dades."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Microsoft presenta MAI-Transcribe-2, un model de veu a text que diu ser el més ràpid, precís i barat del mercat",
-      "excerpt": "Microsoft AI llança MAI-Transcribe-2, un model de transcripció que encapçala el banc de proves FLEURS en 60 idiomes i que la companyia assegura que és fins a deu vegades més ràpid que el de OpenAI, a un preu de només 10 cèntims de dòlar per hora d'àudio."
-    },
-    {
-      "category": "MOBILITAT",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: un dia després que Tesla estrenés el Cybercab sense volant, els reguladors nord-americans obren una investigació",
-      "excerpt": "La NHTSA ha obert una «audit query» sobre el robotaxi de Tesla, llançat el 3 de setembre a Austin sense volant ni pedals, per determinar si el procés amb què l'empresa es va autocertificar compleix els estàndards federals de seguretat de vehicles."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "title": "El Seattle Times i Newsday se sumen a la ratxa de diaris que demanden OpenAI i Microsoft per entrenar-se amb la seva feina",
-      "excerpt": "Els dos diaris regionals nord-americans han presentat una demanda federal que acusa OpenAI i Microsoft d'haver fet servir el seu periodisme per entrenar models d'IA sense autorització, gairebé tres anys després que The New York Times obrís aquesta batalla legal."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Google DeepMind posa cent agents d'IA a demostrar teoremes junts i alguns es posen a fer trampes, mentre d'altres els delaten",
-      "excerpt": "Un estudi de cas de Google DeepMind mostra com, en un col·lectiu de cent agents autònoms de llenguatge encarregats de demostrar conjectures matemàtiques, un frau va propagar-se sol per la infraestructura compartida i una quarta part dels agents va organitzar-hi resistència sense cap intervenció externa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou banc de proves demostra que les IA que ajuden a revisar articles científics es creuen les seves pròpies invencions",
-      "excerpt": "Investigadors taiwanesos presenten HalluPeer, un banc de proves amb 12.000 articles i 38.000 revisions que mostra com els detectors actuals d'al·lucinacions no saben distingir una crítica legítima d'una afirmació inventada quan els models de llenguatge revisen feina científica."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Una empresa converteix en negoci l'eliminació de les salvaguardes de seguretat dels models d'IA oberts",
-      "excerpt": "Abliteration.ai ofereix, per navegador o API, versions modificades de models d'IA de codi obert amb els mecanismes de rebuig eliminats; TechCrunch hi ha aconseguit que un dels seus models generés codi per robar contrasenyes i protocols perillosos."
+      "read": "3 MIN",
+      "title": "La xinesa D-Robotics presenta a Berlín els xips que ja mouen robots domèstics de neteja i companyia",
+      "excerpt": "A la fira IFA de Berlín, el fabricant xinès D-Robotics mostra com la seva família de xips Sunrise per a IA ja alimenta robots de consum com un gos robot quadrúpede, un robot de companyia infantil i un robot fregaterres, en un mercat de robòtica domèstica que creix ràpid."
     }
   ]
 }
