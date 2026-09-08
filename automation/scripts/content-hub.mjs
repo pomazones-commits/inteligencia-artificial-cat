@@ -13,7 +13,12 @@ const ASSIGNMENTS = {
   // l'últim lot de notícies. No s'ha de confondre amb el Quadern IA setmanal
   // (reflection.js) ni amb la fotografia del dia (assets/daily-reflection-*.jpg).
   dailyReflection: { variable: 'IA_REFLEXIO_DIARIA', file: 'reflexio-diaria.js' },
-  dailyReflectionArchive: { variable: 'IA_REFLEXIONS_ARXIU', file: 'reflexions-arxiu.js' }
+  dailyReflectionArchive: { variable: 'IA_REFLEXIONS_ARXIU', file: 'reflexions-arxiu.js' },
+  // Arxiu de l'anàlisi (08.09.2026). Era l'única peça de la casa que no en
+  // tenia: cada peça nova sobreescrivia l'anterior i la vella desapareixia del
+  // web (només en quedava una còpia a .content-state/backups/, que no és
+  // pública). Els enllaços a una anàlisi moririen al cap de pocs dies.
+  analysisArchive: { variable: 'IA_ANALISIS_ARXIU', file: 'analysis-arxiu.js' }
 };
 
 // L'encàrrec demana 5-6 paràgrafs. Els límits durs són més amplis a posta: una
@@ -22,6 +27,10 @@ const ASSIGNMENTS = {
 const REFLEXIO_PARAGRAFS_MIN = 4;
 const REFLEXIO_PARAGRAFS_MAX = 8;
 const REFLEXIO_ARXIU_MAX = 90;
+// L'anàlisi és setmanal: 52 peces són un any llarg de portades. Es manté per
+// sota de l'arxiu de reflexions a posta, perquè cada anàlisi pesa molt més i
+// arxiu-analisis.html les carrega totes de cop.
+const ANALISI_ARXIU_MAX = 52;
 
 const REQUIRED_NEWS_FIELDS = [
   'category', 'read', 'slug', 'title', 'excerpt',
@@ -568,10 +577,38 @@ async function ingestEditorial(options) {
   const payload = validateEditorial(type, parsePayload(await readFile(resolve(options.input), 'utf8'), type));
   // Data de creació garantida (DD.MM.AAAA): si la peça no la porta, es posa la del dia.
   if (!normalizeText(payload.date)) payload.date = displayDate(editionDate());
+  // Il·lustració opcional de l'anàlisi: si se'n declara una, ha d'existir de
+  // debò. Val el mateix criteri que a la fotografia del dia: més val fallar
+  // aquí que publicar una peça amb una imatge trencada.
+  if (type === 'analysis' && normalizeText(payload.image) && !payload.image.startsWith('http')) {
+    const localImage = join(publicDir, payload.image.replace(/^\.\//, '').replace(/^\//, ''));
+    if (!(await exists(localImage))) throw new Error(`analysis: no existeix l’arxiu ${payload.image}.`);
+  }
   const output = join(publicDir, ASSIGNMENTS[type].file);
   await backupFile(output, join(stateDir, 'backups'), editionDate());
+  // L'anàlisi vigent passa a l'arxiu ABANS de ser substituïda.
+  const archiveSize = type === 'analysis' ? await arxivaAnalisi(publicDir, payload) : null;
   await atomicWrite(output, serializeAssignment(ASSIGNMENTS[type].variable, payload));
-  process.stdout.write(`${type} validat i publicat.\n`);
+  process.stdout.write(`${type} validat i publicat${archiveSize === null ? '' : `; ${archiveSize} a l'arxiu`}.\n`);
+}
+
+// Rotació de l'anàlisi cap a analysis-arxiu.js. La clau és data+títol i no
+// només la data: una anàlisi corregida el mateix dia (o un «Run workflow» a mà,
+// que reingereix sempre) no ha de duplicar-se ni quedar alhora vigent i
+// arxivada.
+async function arxivaAnalisi(publicDir, payload) {
+  const clau = item => `${normalizeText(item?.date)}|${normalizeText(item?.title)}`;
+  const current = await readAssignment(join(publicDir, ASSIGNMENTS.analysis.file), '{', '}', null);
+  const stored = await readAssignment(join(publicDir, ASSIGNMENTS.analysisArchive.file), '[', ']', []);
+  let archive = (Array.isArray(stored) ? stored : []).filter(item => item && normalizeText(item.title));
+  archive = archive.filter(item => clau(item) !== clau(payload));
+  if (current && normalizeText(current.title) && clau(current) !== clau(payload)) {
+    archive = [current, ...archive.filter(item => clau(item) !== clau(current))];
+  }
+  archive = archive.slice(0, ANALISI_ARXIU_MAX);
+  await atomicWrite(join(publicDir, ASSIGNMENTS.analysisArchive.file),
+    serializeAssignment(ASSIGNMENTS.analysisArchive.variable, archive));
+  return archive.length;
 }
 
 async function ingestDailyImage(options) {
