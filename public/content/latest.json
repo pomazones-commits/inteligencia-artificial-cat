@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-08T08:20:11.508Z",
+  "updatedAt": "2026-09-08T12:32:53.705Z",
   "items": [
+    {
+      "category": "JUSTÍCIA",
+      "read": "5 MIN",
+      "title": "Comença a San Francisco el primer judici amb jurat dels Estats Units sobre si entrenar IA amb obres amb drets d'autor és una infracció",
+      "excerpt": "Les il·lustradores Sarah Andersen, Kelly McKernan i Karla Ortiz porten Stability AI, Midjourney i DeviantArt davant d'un jurat federal amb la tesi que els models d'IA són ells mateixos còpies infractores de les obres amb què es van entrenar, un judici que podria marcar com es regula tota la indústria de la imatge generada per IA."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "El cap científic d'OpenAI demana «cautela extrema» davant la velocitat de la IA i alerta que ningú està preparat per a màquines que es milloren soles",
+      "excerpt": "Jakub Pachocki, que va substituir Ilya Sutskever com a cap científic d'OpenAI el 2024, escriu que «ningú està preparat per les conseqüències» d'un augment ràpid i continuat de la intel·ligència de les màquines i demana que els laboratoris estiguin disposats a alentir voluntàriament el desenvolupament si cal."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un estudi amb vuit models de Claude, GPT i Gemini demostra que les explicacions que donen els xatbots no s'ajusten fiablement al que realment els fa decidir",
+      "excerpt": "Investigadors de diverses universitats sotmeten vuit grans models de llenguatge a intervencions controlades i troben que els factors que els xatbots diuen que més els influeixen sovint no coincideixen amb els que realment determinen la seva resposta, amb una correlació feble en tots els models provats."
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "La FDA deixa que quatre dispositius amb IA generativa arribin a pacients de Medicare abans de tenir l'autorització completa de comercialització",
+      "excerpt": "Una investigació de STAT repassa el pilot TEMPO de la FDA, que permet a aplicacions de salut mental i malalties cròniques amb intel·ligència artificial generativa —com el «company» terapèutic Unpacked, de Limbic— arribar a pacients reals sense l'autorització prèvia habitual, a canvi de recollir dades d'ús real."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "title": "Gimlet Labs capta 300 milions de dòlars per construir núvols d'IA que reparteixen una mateixa tasca d'inferència entre xips de diversos fabricants",
+      "excerpt": "La start-up, valorada ara en 3.000 milions de dòlars en una ronda liderada per Andreessen Horowitz, ven una alternativa als «neoclouds» que aposten només per GPU de Nvidia: divideix cada model de llenguatge en mòduls i els reparteix entre el tipus de xip més adequat per a cada part de la feina."
+    },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
