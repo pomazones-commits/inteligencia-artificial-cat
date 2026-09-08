@@ -189,6 +189,74 @@ test('valida i publica les peces editorials setmanals', async () => {
   assert.match(await readFile(join(root, 'reflection.js'), 'utf8'), /window\.IA_REFLECTION/);
 });
 
+// ── Arxiu de l'anàlisi (08.09.2026) ─────────────────────────────────────────
+// Fins avui l'anàlisi era l'única peça de la casa sense arxiu: la nova
+// sobreescrivia l'anterior i la vella desapareixia del web.
+
+function analysisPayload(n, extra = {}) {
+  return {
+    title: `Anàlisi ${n}`,
+    excerpt: `Entradeta de l'anàlisi ${n}.`,
+    body: [`Primer paràgraf de l'anàlisi ${n}.`, `Segon paràgraf de l'anàlisi ${n}.`],
+    date: `0${n}.09.2026`,
+    ...extra
+  };
+}
+
+async function publicaAnalisi(root, payload) {
+  const input = join(root, `analysis-${payload.title.replace(/\W+/g, '-')}.json`);
+  await writeFile(input, JSON.stringify(payload), 'utf8');
+  return run(['ingest-editorial', '--type', 'analysis', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state')], root);
+}
+
+test('l’anàlisi vigent passa a l’arxiu quan n’arriba una de nova', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  assert.equal((await publicaAnalisi(root, analysisPayload(1))).status, 0);
+  assert.equal((await publicaAnalisi(root, analysisPayload(2))).status, 0);
+  const vigent = JSON.parse((await readFile(join(root, 'analysis.js'), 'utf8')).match(/= ([\s\S]+);\n$/)[1]);
+  const arxiu = parseAssignment(await readFile(join(root, 'analysis-arxiu.js'), 'utf8'));
+  assert.equal(vigent.title, 'Anàlisi 2');
+  assert.equal(arxiu.length, 1);
+  assert.equal(arxiu[0].title, 'Anàlisi 1');
+  // L'arxiu ha de conservar la peça sencera, no només el titular.
+  assert.equal(arxiu[0].body.length, 2);
+});
+
+test('reingerir la mateixa anàlisi no la duplica ni la deixa alhora vigent i arxivada', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  await publicaAnalisi(root, analysisPayload(1));
+  await publicaAnalisi(root, analysisPayload(2));
+  // «Run workflow» a mà: el workflow reingereix sempre, també sense canvis.
+  await publicaAnalisi(root, analysisPayload(2));
+  const arxiu = parseAssignment(await readFile(join(root, 'analysis-arxiu.js'), 'utf8'));
+  assert.equal(arxiu.length, 1);
+  assert.equal(arxiu.filter(item => item.title === 'Anàlisi 2').length, 0);
+});
+
+test('l’arxiu d’anàlisis es queda en 52 peces', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  for (let i = 1; i <= 55; i += 1) {
+    const r = await publicaAnalisi(root, { ...analysisPayload(1), title: `Anàlisi ${i}`, date: '01.09.2026' });
+    assert.equal(r.status, 0, r.stderr);
+  }
+  const arxiu = parseAssignment(await readFile(join(root, 'analysis-arxiu.js'), 'utf8'));
+  assert.equal(arxiu.length, 52);
+  assert.equal(arxiu[0].title, 'Anàlisi 54');
+});
+
+test('una anàlisi que declara una il·lustració inexistent no es publica', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const { mkdir } = await import('node:fs/promises');
+  const fallida = await publicaAnalisi(root, analysisPayload(1, { image: './assets/no-hi-es.jpg', alt: 'Una il·lustració que no existeix enlloc.' }));
+  assert.equal(fallida.status, 1);
+  assert.match(fallida.stderr, /no existeix/);
+  await mkdir(join(root, 'assets'), { recursive: true });
+  await writeFile(join(root, 'assets', 'hi-es.jpg'), 'jpg', 'utf8');
+  const bona = await publicaAnalisi(root, analysisPayload(1, { image: './assets/hi-es.jpg', alt: 'Una il·lustració que sí que existeix.' }));
+  assert.equal(bona.status, 0, bona.stderr);
+  assert.match(await readFile(join(root, 'analysis.js'), 'utf8'), /hi-es\.jpg/);
+});
+
 test('publica una fotografia diària només si existeix i té metadades accessibles', async () => {
   const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
   const imageDir = join(root, 'assets');
