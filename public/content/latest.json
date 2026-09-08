@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-07T16:34:11.397Z",
+  "updatedAt": "2026-09-08T04:22:46.372Z",
   "items": [
     {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "Nvidia compra Hugging Face per gairebé 13.000 milions de dòlars i es queda amb el gran repositori obert de la IA",
-      "excerpt": "Nvidia anuncia l'adquisició de Hugging Face, la plataforma que allotja milions de models i conjunts de dades oberts i que fan servir més de 18 milions de desenvolupadors, per uns 12.930 milions de dòlars, i es compromet a mantenir-la oberta a qualsevol maquinari, no només al propi."
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "title": "FluidStack, l'empresa que aixeca els centres de dades d'Anthropic, capta 1.500 milions de dòlars i dobla la valoració fins als 18.000 milions",
+      "excerpt": "La firma de negociació algorísmica Jane Street lidera una ronda de 1.500 milions de dòlars per a FluidStack, l'operador de centres de dades que construeix i gestiona la infraestructura d'Anthropic sense posseir ni un sol xip, i que en tres mesos dobla la valoració que tenia al juliol."
     },
     {
       "category": "SALUT",
       "read": "4 MIN",
-      "title": "Un model d'IA prediu quins pacients d'un hospital de llarga estada empitjoraran, un àmbit on la salut digital sol quedar-se enrere",
-      "excerpt": "Investigadors de Sinai Health, a Toronto, entrenen sis models d'aprenentatge automàtic amb les dades d'un hospital de cures continuades i rehabilitació per predir quins pacients acabaran traslladats a urgències, amb una sensibilitat del 81% en el millor dels casos."
+      "title": "Un model d'IA entrenat per calcular l'edat del cervell es converteix en una eina genèrica per detectar senyals d'alzheimer en ressonàncies magnètiques",
+      "excerpt": "Investigadors de l'Institut Neurològic de Mont-real, a la Universitat McGill, adapten amb una tècnica lleugera un model ja entrenat per predir l'edat cerebral i el converteixen en una eina capaç de distingir pacients amb demència, predir la positivitat d'amiloide i estimar volums cerebrals sense haver de tornar a entrenar-lo des de zero per a cada tasca."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Una xarxa neuronal aprèn a reconstruir com era l'univers als seus primers instants combinant dos tipus de senyal de ràdio del cel",
-      "excerpt": "Astrofísics de diverses universitats entrenen un model d'aprenentatge profund per remuntar, a partir d'observacions simulades de l'època de reionització, el mapa de densitat de l'univers primitiu, i milloren fins a un factor de dos la precisió amb què es podrien mesurar paràmetres cosmològics clau."
+      "title": "Un nou banc de proves posa a prova catorze models d'IA amb dades reals de rellotges intel·ligents i biomarcadors de sang",
+      "excerpt": "Investigadors de Meta presenten WearableQA, un banc de proves amb més de quatre mil preguntes construïdes a partir de mesures reals de dispositius portables de dos-cents usuaris, i troben que els millors models de llenguatge encara fallen en gairebé un terç de les preguntes que combinen diversos senyals fisiològics."
     },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
-      "title": "Thinking Machines, el laboratori d'IA de l'exdirectora tècnica d'OpenAI, negocia una ronda de 1.000 milions de dòlars a una valoració de 40.000 milions",
-      "excerpt": "Accel negocia liderar una nova ronda de finançament per a Thinking Machines Lab, l'empresa de Mira Murati, que la valoraria en 40.000 milions de dòlars, per sota dels 50.000 milions que l'empresa havia buscat a finals del 2025, tot i una facturació encara modesta."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Crusoe capta 3.000 milions de dòlars i triplica la seva valoració fins als 30.000 milions en només deu mesos",
-      "excerpt": "El proveïdor de núvol d'IA Crusoe, nascut el 2018 com una mineria de criptomonedes que aprofitava gas natural cremat en excés, tanca una ronda de 3.000 milions de dòlars després de signar un contracte de còmput de 13.000 milions amb la firma de negociació algorísmica Jane Street."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "Anthropic acumula 517.000 milions de dòlars en compromisos de computació en només onze mesos, de cara a la sortida a borsa",
-      "excerpt": "Una anàlisi del mitjà The Information calcula que, des de l'octubre passat, Anthropic ha signat acords per almenys 14,8 gigawatts de capacitat de còmput que podrien costar-li fins a 517.000 milions de dòlars al llarg de la pròxima dècada, en un moment en què l'empresa prepara una sortida a borsa per a finals d'octubre o principis de novembre."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou banc de proves posa a prova disset models d'IA amb gairebé 19.000 preguntes clíniques reals sobre gossos i gats",
-      "excerpt": "Investigadors sud-coreans presenten PetQA, el primer banc de proves de preguntes i respostes llargues centrat en coneixement veterinari i raonament clínic, amb prop de 19.000 preguntes reals de propietaris de mascotes i respostes d'experts veterinaris."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Una investigació del New York Times destapa que la sancionada Inspur ha seguit comprant xips Nvidia Blackwell per valor de 3.000 milions de dòlars a través d'una filial nord-americana",
-      "excerpt": "Registres duaners analitzats per ImportGenius i revisats pel New York Times mostren que Aivres, la filial californiana del fabricant xinès de servidors Inspur, va exportar almenys 5.600 milions de dòlars en tecnologia avançada dels EUA cap al sud-est asiàtic entre l'abril del 2024 i el febrer del 2026, més de 3.000 milions dels quals en servidors amb xips Blackwell de Nvidia, per acabar desviant-se cap a la Xina."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Google porta Lyria 3.5, el seu nou model de generació musical, a l'app de Gemini",
-      "excerpt": "Google fa disponible globalment Lyria 3.5, la seva última versió del model de generació musical amb IA, a l'app i l'API de Gemini, amb veus més expressives i cançons de fins a tres minuts, en un mercat on ja competeixen eines com Suno."
+      "title": "ACTUALITZACIÓ: Cognition, creadora de l'agent de programació Devin, tanca la ronda que la valora en 47.000 milions de dòlars, gairebé el doble que fa tres mesos",
+      "excerpt": "Setmanes després que es revelés que Cognition negociava una nova ronda que la podria situar «per sobre dels 40.000 milions», Bloomberg confirma la xifra final: 47.000 milions de dòlars, amb prop de 10.000 milions de dòlars d'interès inversor i una facturació que gairebé s'ha doblat en tres mesos."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "SoundHound AI completa la compra de LivePerson i crea un gegant de la IA conversacional omnicanal",
-      "excerpt": "SoundHound AI tanca l'adquisició de LivePerson, sanejant el seu deute i integrant la infraestructura de missatgeria digital de l'empresa en la seva plataforma d'agents OASYS, en un moviment de consolidació del sector de l'atenció al client amb IA."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Els Estats Units proposen a la Xina vigilar junts els ciberatacs impulsats per IA abans de la cimera Trump-Xi",
-      "excerpt": "Washington prepara per a mitjans de setembre un diàleg bilateral amb Pequín sobre seguretat de la intel·ligència artificial, amb la proposta que els laboratoris d'IA de tots dos països «es vigilin a si mateixos» i comparteixin informació sobre ciberatacs, abans de la cimera Trump-Xi del 24 de setembre a Washington."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Google i l'institut Janelia completen el primer mapa sencer del cervell d'una mosca de la fruita, amb 166.000 neurones",
-      "excerpt": "Un equip de Google Research i l'institut Janelia de l'HHMI, amb col·laboradors de Columbia i Harvard, publica el connectoma complet del sistema nerviós central d'una mosca de la fruita mascle: més de 166.000 neurones i 125 milions de connexions sinàptiques, reconstruïdes amb ajuda d'intel·ligència artificial."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "title": "Microsoft diu als tribunals que Copilot gairebé mai reprodueix llibres ni articles protegits per drets d'autor",
-      "excerpt": "En un moviment per tancar per la via ràpida el litigi que autors i editors mantenen contra OpenAI i Microsoft, l'empresa presenta davant un tribunal federal de Nova York un anàlisi de 8,2 milions de converses de Copilot que només va trobar 24 respostes amb fragments coincidents d'obres protegides."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Atoms, l'empresa de robòtica de l'exconseller delegat d'Uber, prepara la seva entrada al negoci del robotaxi",
-      "excerpt": "Travis Kalanick, que va fundar i dirigir Uber fins al 2017, hauria parlat amb la seva antiga empresa sobre com utilitzar la tecnologia de conducció autònoma d'Atoms, la companyia de robòtica en què ha invertit 1.700 milions de dòlars aquest estiu, segons revela una investigació del Financial Times recollida per TechCrunch."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Una start-up que fa teleoperar tasques domèstiques a persones per entrenar robots s'acosta als 1.200 milions de dòlars de valoració",
-      "excerpt": "XDOF, fundada per dos investigadors de la Universitat de Berkeley, negocia una ronda de finançament sèrie B que la valoraria en 1.200 milions de dòlars, només tres mesos després de sortir del sigil, per satisfer la demanda de dades reals amb què entrenar robots de propòsit general."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "5 MIN",
-      "title": "Autors, editorials i agents es barallen per qui cobra la part de l'acord de 1.500 milions d'Anthropic",
-      "excerpt": "Setmanes després que comencin a arribar les primeres notificacions de l'acord de 1.500 milions de dòlars d'Anthropic per haver piratejat llibres, desenes d'autors denuncien que editorials com HarperCollins i alguns agents literaris reclamen una part dels diners a què no tenen dret."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Tres excursionistes són rescatats al mont Shasta després que Google Gemini els digués de portar menys menjar i aigua del compte",
-      "excerpt": "Tres joves de Roseville, Califòrnia, van haver de ser rescatats després de passar una nit a la intempèrie al mont Shasta quan la seva ascensió planificada amb l'ajut de Google Gemini es va allargar molt més del previst, i les autoritats recorden que no s'ha de confiar únicament en la IA per planificar excursions."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Investigadors de la UPF ensenyen a un model d'IA a simplificar textos en català amb aprenentatge per reforç",
-      "excerpt": "Un equip de la Universitat Pompeu Fabra demostra que l'aprenentatge per reforç, entrenat només amb dades en anglès, millora la capacitat d'un model de llenguatge per simplificar textos en català, una llengua amb pocs recursos per a aquesta tasca."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou model d'IA dissenya alhora la seqüència i la forma d'una proteïna en un sol pas",
-      "excerpt": "Investigadors d'Apple presenten SimpleDesign, un model d'IA que genera de cop la seqüència d'aminoàcids i l'estructura tridimensional d'una proteïna, sense la cadena de models per etapes que feien servir fins ara els sistemes de disseny de proteïnes."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "La xinesa D-Robotics presenta a Berlín els xips que ja mouen robots domèstics de neteja i companyia",
-      "excerpt": "A la fira IFA de Berlín, el fabricant xinès D-Robotics mostra com la seva família de xips Sunrise per a IA ja alimenta robots de consum com un gos robot quadrúpede, un robot de companyia infantil i un robot fregaterres, en un mercat de robòtica domèstica que creix ràpid."
+      "title": "Onorato AI, un lloro amb IA creat a Barcelona, comença a arribar a les primeres cases per combatre la solitud de la gent gran",
+      "excerpt": "L'empresa catalana Onorato AI comença a lliurar aquest setembre les seves primeres 30 unitats a Espanya, els Estats Units, Anglaterra i Suïssa: un lloro robòtic amb reconeixement facial i tres «satèl·lits» domèstics pensat per acompanyar la gent gran que viu sola."
     }
   ]
 }
