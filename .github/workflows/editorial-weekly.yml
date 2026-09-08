@@ -45,7 +45,7 @@ jobs:
         run: |
           git config user.name "intel·ligènciaartificial.cat bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/analysis.js public/reflection.js .content-state/
+          git add public/analysis.js public/analysis-arxiu.js public/reflection.js .content-state/
           if git diff --cached --quiet; then
             exit 0
           fi
