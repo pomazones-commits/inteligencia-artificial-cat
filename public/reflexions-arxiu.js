@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-09-07",
+    "title": "El dia que els diners es van comprar la infraestructura oberta, no els resultats",
+    "dek": "Nvidia es queda Hugging Face i tres laboratoris més tanquen rondes de desenes de milers de milions, mentre la comprovació real del que fan aquests diners —d'un acord d'autors a un forat en les sancions de xips— continua fragmentada i lenta.",
+    "body": [
+      "Avui el moviment més gran no ha estat cap model nou, sinó una compra: Nvidia es queda Hugging Face, el repositori obert que fan servir 18 milions de desenvolupadors, per gairebé 13.000 milions de dòlars, i promet mantenir-lo neutral respecte al maquinari. El mateix dia, Anthropic revela 517.000 milions de dòlars en compromisos de còmput de cara a la seva sortida a borsa, i dos laboratoris més —Thinking Machines, de Mira Murati, i el proveïdor de núvol Crusoe— negocien rondes que els valorarien en 40.000 i 30.000 milions respectivament. La xifra agregada d'avui, només en aquestes quatre operacions, supera els 580.000 milions de dòlars.",
+      "El que hi ha de nou de debò, però, és més discret que la xifra: bona part d'aquest capital compra infraestructura i accés —un repositori, còmput, una empresa de missatgeria digital com LivePerson— abans que resultats verificats. Thinking Machines factura poc més de 100 milions a l'any per a una valoració de 40.000; XDOF encara recull dades de robòtica fent que persones teleoperin tasques domèstiques; el model de disseny de proteïnes d'Apple no té cap validació de laboratori; l'eina que prediu deteriorament clínic a Toronto només s'ha provat en un sol hospital. El capital es mou molt més ràpid que la prova que allò que finança funciona.",
+      "En paral·lel, la rendició de comptes va per un altre ritme, més lent i més disputat. Autors, editorials i agents es barallen encara per qui es queda la part de l'acord de 1.500 milions d'Anthropic; Microsoft es defensa en un litigi de drets d'autor amb un estudi encarregat per ella mateixa; una investigació destapa que Inspur va seguir comprant xips Blackwell prohibits rebatejant la seva filial nord-americana; i uns excursionistes van acabar rescatats al mont Shasta sense que ningú sàpiga exactament què els va dir Gemini. En cap d'aquests quatre casos hi ha algú extern que pugui comprovar del tot els fets.",
+      "La tendència que s'hi dibuixa és de concentració a dues bandes alhora: el maquinari, els repositoris oberts i els laboratoris d'elit cada cop en mans de menys actors —Nvidia ja fabrica els xips i ara també és propietària d'on es comparteixen els models—, mentre la supervisió real es queda repartida entre tribunals, periodistes d'investigació i autoritats que ni tan sols confirmen si es reuniran, com ha passat avui amb el diàleg de seguretat entre els Estats Units i la Xina, que la Casa Blanca nega que estigui previst per a mitjans de setembre.",
+      "La ciència d'avui ofereix un contrapunt més modest però més transparent: un equip de cosmologia ensenya una xarxa neuronal a reconstruir com era l'univers acabat de néixer combinant dos senyals de ràdio simulats, i uns investigadors de la UPF milloren la simplificació de textos en català fent aprenentatge per reforç només amb dades en anglès. Cap de les dues peces promet res que no puguin justificar, i totes dues expliquen amb detall els seus límits —dades simulades, bancs de proves fets a mida— d'una manera que els grans anuncis empresarials d'avui no fan.",
+      "De cara als propers dies caldrà mirar si les autoritats de competència posen condicions reals a la compra de Hugging Face perquè la promesa de neutralitat de maquinari sigui alguna cosa més que una declaració d'intencions, si el diàleg entre Washington i Pequín sobre seguretat de la IA arriba a celebrar-se malgrat el desmentiment de la Casa Blanca, i si la investigació sobre Inspur i Aivres es tradueix en cap sanció nova o queda, com tantes altres, en una peça periodística sense conseqüències."
+    ],
+    "signals": [
+      {
+        "title": "Nvidia compra Hugging Face per gairebé 13.000 milions de dòlars i es queda amb el gran repositori obert de la IA",
+        "slug": "nvidia-compra-hugging-face-12900-milions"
+      },
+      {
+        "title": "Autors, editorials i agents es barallen per qui cobra la part de l'acord de 1.500 milions d'Anthropic",
+        "slug": "anthropic-acord-1500-milions-autors-editorials-agents"
+      },
+      {
+        "title": "Una investigació del New York Times destapa que la sancionada Inspur ha seguit comprant xips Nvidia Blackwell per valor de 3.000 milions de dòlars a través d'una filial nord-americana",
+        "slug": "inspur-aivres-xips-nvidia-blackwell-elusio-sancions"
+      },
+      {
+        "title": "Thinking Machines, el laboratori d'IA de l'exdirectora tècnica d'OpenAI, negocia una ronda de 1.000 milions de dòlars a una valoració de 40.000 milions",
+        "slug": "thinking-machines-mira-murati-ronda-1000-milions"
+      }
+    ],
+    "read": "4 MIN",
+    "words": 582
+  },
+  {
     "date": "2026-09-06",
     "title": "El dia que OpenAI ha volgut ser l'escut i li han recordat quan va callar",
     "dek": "La companyia presenta ciberdefensa i transparència sobre els seus agents el mateix dia que trenta noves demandes l'acusen d'haver silenciat un avís real a la policia per no perjudicar-se abans d'una sortida a borsa.",
