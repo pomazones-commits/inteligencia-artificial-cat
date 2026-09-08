@@ -15,19 +15,31 @@
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="./editorial.css?v=2026072401">
   <script defer src="./shared.js?v=2026080702"></script>
+  <style>
+    /* Il·lustració de la peça (opcional): l'anàlisi pot portar imatge des del 08.09.2026. */
+    .analisi-illustracio { margin: 0 0 28px; }
+    .analisi-illustracio img { display: block; width: 100%; height: auto; border: 1px solid #e3e7ef; }
+    .analisi-illustracio figcaption { margin-top: 8px; font: 400 12px/1.5 "IBM Plex Mono", monospace; color: #5d6472; }
+    /* Fonts consultades: les dades ja les portaven, però no sortien enlloc. */
+    .analisi-fonts { margin: 40px 0 0; padding-top: 24px; border-top: 1px solid #e3e7ef; }
+    .analisi-fonts h2 { margin: 0 0 14px; font: 600 10px "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .1em; color: #5d6472; }
+    .analisi-fonts ul { margin: 0; padding-left: 20px; }
+    .analisi-fonts li { margin: 0 0 9px; font-size: 14px; line-height: 1.6; }
+    .analisi-anterior { margin-top: 10px; font-size: 13px; color: #5d6472; }
+  </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Anàlisi de la setmana","description":"Anàlisi en profunditat sobre intel·ligència artificial, el seu impacte i les decisions que marcaran l’ecosistema català.","url":"https://inteligencia-artificial.cat/analisi.html","mainEntityOfPage":"https://inteligencia-artificial.cat/analisi.html","inLanguage":"ca","publisher":{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/"},"author":{"@type":"Organization","name":"Redacció IA.cat","url":"https://inteligencia-artificial.cat/redaccio.html"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://inteligencia-artificial.cat/"},{"@type":"ListItem","position":2,"name":"Anàlisi de la setmana","item":"https://inteligencia-artificial.cat/analisi.html"}]}]}</script>
 </head>
 <body class="editorial-body">
   <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./tribuna.html">Tribuna</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
 
   <main class="editorial-shell editorial-main">
-    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><span>Anàlisi de la setmana</span></nav>
+    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><span>Anàlisi</span></nav>
     <p class="editorial-kicker" id="estat">CARREGANT L'ANÀLISI…</p>
     <div id="contingut" hidden>
       <header class="article-header">
         <div><p class="editorial-kicker" id="kicker"></p><h1 id="titol"></h1><p class="editorial-lede" id="entradeta"></p></div>
         <div class="article-byline-clean">
-          <p>Per <strong>Redacció IA.cat</strong></p><span>Anàlisi de la setmana</span>
+          <p>Per <strong>Redacció IA.cat</strong></p><span>Anàlisi</span>
           <time id="data"></time>
           <a rel="author" href="./redaccio.html">Com treballem →</a>
         </div>
@@ -35,11 +47,14 @@
       <div class="article-layout">
         <article>
           <div id="lector"></div>
+          <figure class="analisi-illustracio" id="illustracio" hidden><img id="illustracio-img" src="" alt=""><figcaption id="illustracio-peu" hidden></figcaption></figure>
           <div class="article-body-clean" id="cos"></div>
+          <section class="analisi-fonts" id="fonts" hidden><h2>Fonts consultades</h2><ul id="fonts-llista"></ul></section>
         </article>
         <aside class="article-sidebar">
           <section class="article-sidecard"><h2>Comparteix</h2><div class="article-share-clean"><a id="share-linkedin" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a><a id="share-whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a><a id="share-mail" href="#">Correu</a><button type="button" data-copy-url="https://inteligencia-artificial.cat/analisi.html">Copia</button></div></section>
           <section class="article-sidecard"><h2>Sobre aquesta peça</h2><p>Anàlisi setmanal elaborada per la redacció a partir de l’actualitat i les fonts citades al briefing diari. <a href="./redaccio.html">Consulta el mètode editorial →</a></p></section>
+          <section class="article-sidecard"><h2>Anàlisis anteriors</h2><p>Totes les anàlisis publicades fins ara. <a href="./arxiu-analisis.html">Ves a l’arxiu d’anàlisis →</a></p><p class="analisi-anterior" id="anterior" hidden></p></section>
         </aside>
       </div>
     </div>
@@ -47,11 +62,38 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
-  <script src="./analysis.js?v=2026072402"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
-    (function () {
-      var a = window.IA_ANALYSIS;
+    // Les dades es regeneren cada setmana i el segell ha de ser horari (la
+    // lliçó de reflexio.html del 08.08.2026: amb un ?v= fix el navegador es
+    // queda per sempre amb la còpia que va baixar aquell dia).
+    var segellHorari = (function () {
+      var ara = new Date();
+      return [
+        ara.getUTCFullYear(),
+        String(ara.getUTCMonth() + 1).padStart(2, '0'),
+        String(ara.getUTCDate()).padStart(2, '0'),
+        String(ara.getUTCHours()).padStart(2, '0')
+      ].join('');
+    }());
+    var carregaDades = function (fitxers) {
+      return Promise.all(fitxers.map(function (src) {
+        return new Promise(function (resolve) {
+          var s = document.createElement('script');
+          s.src = src + '?v=' + segellHorari;
+          s.onload = resolve;
+          s.onerror = resolve;
+          document.head.appendChild(s);
+        });
+      }));
+    };
+    carregaDades(['./analysis.js', './analysis-arxiu.js']).then(function () {
+      // ?arxiu=N mostra una anàlisi arxivada (analysis-arxiu.js); sense
+      // paràmetre, la vigent (analysis.js).
+      var arxiu = window.IA_ANALISIS_ARXIU || [];
+      var idx = parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
+      var esArxivada = !isNaN(idx) && !!arxiu[idx];
+      var a = esArxivada ? arxiu[idx] : window.IA_ANALYSIS;
       var estat = document.getElementById('estat');
       if (!a || !a.title) {
         estat.textContent = 'ANÀLISI NO DISPONIBLE. TORNA-HO A PROVAR EN UNS INSTANTS.';
@@ -59,33 +101,92 @@
       }
       document.title = a.title + ' · intel·ligència artificial.cat';
       estat.hidden = true;
-      var kicker = ['ANÀLISI DE LA SETMANA', a.read || '', a.date || ''].filter(Boolean).join(' · ');
+      var kicker = ['ANÀLISI', a.read || '', a.date || ''].filter(Boolean).join(' · ');
       document.getElementById('kicker').textContent = kicker;
       document.getElementById('titol').textContent = a.title;
       document.getElementById('entradeta').textContent = a.excerpt || '';
       document.getElementById('data').textContent = a.date || '';
-      var paragrafs = String(a.body || '').split(/\n\n+/).filter(Boolean);
+
+      // El cos arriba com a llista de paràgrafs; s'accepta també una cadena
+      // amb línies en blanc. ⚠️ Abans es feia String(a.body).split(/\n\n+/) i,
+      // com que el camp és un array, la pàgina publicava tota l'anàlisi en un
+      // sol paràgraf amb comes entre frase i frase (arreglat el 08.09.2026).
+      var paragrafs = Array.isArray(a.body)
+        ? a.body.filter(Boolean)
+        : String(a.body || '').split(/\n\n+/).filter(Boolean);
       var cos = document.getElementById('cos');
       paragrafs.forEach(function (text) {
         var p = document.createElement('p');
         p.textContent = text;
         cos.appendChild(p);
       });
-      var url = encodeURIComponent('https://inteligencia-artificial.cat/analisi.html');
+
+      // Il·lustració opcional.
+      if (a.image) {
+        var img = document.getElementById('illustracio-img');
+        img.src = a.image;
+        img.alt = a.alt || '';
+        var textPeu = [a.caption || '', a.credit || ''].filter(Boolean).join(' · ');
+        if (textPeu) {
+          var peu = document.getElementById('illustracio-peu');
+          peu.textContent = textPeu;
+          peu.hidden = false;
+        }
+        document.getElementById('illustracio').hidden = false;
+      }
+
+      // Fonts consultades (construïdes amb el DOM, mai amb innerHTML).
+      var fonts = Array.isArray(a.sources) ? a.sources.filter(function (f) { return f && f.name; }) : [];
+      if (fonts.length) {
+        var llistaFonts = document.getElementById('fonts-llista');
+        fonts.forEach(function (font) {
+          var li = document.createElement('li');
+          if (font.url) {
+            var enllac = document.createElement('a');
+            enllac.href = font.url;
+            enllac.target = '_blank';
+            enllac.rel = 'noopener noreferrer';
+            enllac.textContent = font.name;
+            li.appendChild(enllac);
+          } else {
+            li.textContent = font.name;
+          }
+          llistaFonts.appendChild(li);
+        });
+        document.getElementById('fonts').hidden = false;
+      }
+
+      // Enllaç a l'anàlisi immediatament anterior a la que s'està llegint.
+      var seguentIdx = esArxivada ? idx + 1 : 0;
+      if (arxiu[seguentIdx] && arxiu[seguentIdx].title) {
+        var anterior = document.getElementById('anterior');
+        var enllacAnterior = document.createElement('a');
+        enllacAnterior.href = './analisi.html?arxiu=' + seguentIdx;
+        enllacAnterior.textContent = arxiu[seguentIdx].title;
+        anterior.appendChild(document.createTextNode('Anterior' + (arxiu[seguentIdx].date ? ' (' + arxiu[seguentIdx].date + ')' : '') + ': '));
+        anterior.appendChild(enllacAnterior);
+        anterior.hidden = false;
+      }
+
+      // Compartir (les arxivades comparteixen l'adreça amb ?arxiu=N).
+      var pagina = 'https://inteligencia-artificial.cat/analisi.html' + (esArxivada ? '?arxiu=' + idx : '');
+      var botoCopia = document.querySelector('[data-copy-url]');
+      if (botoCopia) botoCopia.setAttribute('data-copy-url', pagina);
+      var url = encodeURIComponent(pagina);
       var titolCodificat = encodeURIComponent(a.title);
       document.getElementById('share-linkedin').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
       document.getElementById('share-whatsapp').href = 'https://wa.me/?text=' + titolCodificat + '%20' + url;
       document.getElementById('share-mail').href = 'mailto:?subject=' + titolCodificat + '&body=' + url;
       document.getElementById('contingut').hidden = false;
+
       // Lector: MP3 neural si existeix (analisi-AAAA-MM-DD.mp3), veu del navegador si no.
       var m = /^(\d{2})\.(\d{2})\.(\d{4})$/.exec(a.date || '');
-      var audioUrl = m ? './assets/audio/analisi-' + m[3] + '-' + m[2] + '-' + m[1] + '.mp3' : null;
       window.IALector.init({
         container: document.getElementById('lector'),
-        audioUrl: audioUrl,
+        audioUrl: m ? './assets/audio/analisi-' + m[3] + '-' + m[2] + '-' + m[1] + '.mp3' : null,
         parts: [a.title, a.excerpt || ''].concat(paragrafs).filter(Boolean)
       });
-    })();
+    });
   </script>
 </body>
 </html>
