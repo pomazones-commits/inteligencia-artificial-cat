@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-08T16:28:42.601Z",
+  "updatedAt": "2026-09-09T04:20:01.915Z",
   "items": [
     {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "La pròpia targeta de seguretat de GPT-6 Astra admet que el model pot amagar deliberadament el seu raonament als supervisors",
-      "excerpt": "OpenAI reconeix a la documentació oficial d'Astra que la seva capacitat de controlar el contingut de la cadena de pensament s'ha disparat i que, si el model decidís amagar deliberadament un mal comportament, «probablement no ho podríem detectar»."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Google DeepMind publica un atles amb la predicció de l'efecte de 9.000 milions de variants possibles del genoma humà",
-      "excerpt": "L'AlphaGenome Atlas condensa en una base de dades d'un petabyte, més de trenta vegades més gran que la d'AlphaFold, l'efecte molecular calculat per a cada canvi d'una sola lletra possible de l'ADN humà, amb accés lliure per a la recerca acadèmica."
-    },
-    {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Dos matemàtics demostren amb ajuda intensiva d'IA i verificació formal tres resultats de formació de singularitats en equacions de fluids",
-      "excerpt": "Tristan Buckmaster (NYU) i Levent Alpöge han fet públiques demostracions, verificades línia a línia pel sistema Lean, que unes dades inicials i una força externa perfectament suaus poden fer «explotar» en temps finit les equacions d'Euler, Boussinesq i del medi porós incompressible."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "5 MIN",
-      "title": "Un informe destapa més de 300 anuncis amb abusos sexuals infantils generats amb IA aprovats i monetitzats a Facebook i Instagram",
-      "excerpt": "El Tech Transparency Project ha trobat més de 250 anuncis nous des de l'agost que s'afegeixen als 53 detectats inicialment, i per primer cop hi identifica fotografies reals de menors, inclosa una familiar de la reialesa europea, manipulades amb IA, no només imatges sintètiques."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "El ministeri d'indústria xinès es marca l'objectiu de quadruplicar la seva capacitat de còmput d'IA fins als 9.800 exaflops el 2030",
-      "excerpt": "El pla quinquennal del sector de les telecomunicacions xinès preveu 3,8 bilions de iuans (532.000 milions de dòlars) d'inversió acumulada en infraestructura digital entre el 2026 i el 2030, amb l'objectiu declarat de reduir la dependència dels xips estrangers."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "5 MIN",
-      "title": "Comença a San Francisco el primer judici amb jurat dels Estats Units sobre si entrenar IA amb obres amb drets d'autor és una infracció",
-      "excerpt": "Les il·lustradores Sarah Andersen, Kelly McKernan i Karla Ortiz porten Stability AI, Midjourney i DeviantArt davant d'un jurat federal amb la tesi que els models d'IA són ells mateixos còpies infractores de les obres amb què es van entrenar, un judici que podria marcar com es regula tota la indústria de la imatge generada per IA."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "El cap científic d'OpenAI demana «cautela extrema» davant la velocitat de la IA i alerta que ningú està preparat per a màquines que es milloren soles",
-      "excerpt": "Jakub Pachocki, que va substituir Ilya Sutskever com a cap científic d'OpenAI el 2024, escriu que «ningú està preparat per les conseqüències» d'un augment ràpid i continuat de la intel·ligència de les màquines i demana que els laboratoris estiguin disposats a alentir voluntàriament el desenvolupament si cal."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi amb vuit models de Claude, GPT i Gemini demostra que les explicacions que donen els xatbots no s'ajusten fiablement al que realment els fa decidir",
-      "excerpt": "Investigadors de diverses universitats sotmeten vuit grans models de llenguatge a intervencions controlades i troben que els factors que els xatbots diuen que més els influeixen sovint no coincideixen amb els que realment determinen la seva resposta, amb una correlació feble en tots els models provats."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "La FDA deixa que quatre dispositius amb IA generativa arribin a pacients de Medicare abans de tenir l'autorització completa de comercialització",
-      "excerpt": "Una investigació de STAT repassa el pilot TEMPO de la FDA, que permet a aplicacions de salut mental i malalties cròniques amb intel·ligència artificial generativa —com el «company» terapèutic Unpacked, de Limbic— arribar a pacients reals sense l'autorització prèvia habitual, a canvi de recollir dades d'ús real."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Gimlet Labs capta 300 milions de dòlars per construir núvols d'IA que reparteixen una mateixa tasca d'inferència entre xips de diversos fabricants",
-      "excerpt": "La start-up, valorada ara en 3.000 milions de dòlars en una ronda liderada per Andreessen Horowitz, ven una alternativa als «neoclouds» que aposten només per GPU de Nvidia: divideix cada model de llenguatge en mòduls i els reparteix entre el tipus de xip més adequat per a cada part de la feina."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Mistral tanca una ronda de 3.000 milions d'euros liderada per Samsung, la ronda de capital privat més gran mai feta per una tecnològica europea",
-      "excerpt": "La start-up francesa d'IA sobirana Mistral assoleix una valoració de més de 21.000 milions d'euros, gairebé el doble que fa un any, en una ronda liderada per Samsung Electronics amb la participació de Nvidia, BlackRock i el mateix estat de Luxemburg."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou marc d'aprenentatge automàtic quàntic prediu com es comportaran els xips de nova generació abans de fabricar-los, amb fins a un 84% menys d'error",
-      "excerpt": "Un equip internacional de recerca, amb suport tècnic de Nvidia, combina xarxes neuronals i circuits quàntics compactes per predir amb més precisió el comportament elèctric de transistors de nova generació —GaN i nanofils— fins i tot amb poques dades de fabricació, un problema crònic del disseny de xips."
+      "title": "Claude, d'Anthropic, produeix la primera demostració completa i verificada per ordinador de l'últim teorema de Fermat",
+      "excerpt": "Treballant de manera pràcticament autònoma durant onze dies a través de la plataforma Prove2Me, Claude ha generat 13 milions de línies de codi en el llenguatge de verificació formal Lean per formalitzar la demostració del teorema, un dels reptes de formalització matemàtica més esperats."
     },
     {
       "category": "NEGOCI",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Anthropic abandona la compra de 6.000 milions de dòlars de la start-up israeliana Decart",
-      "excerpt": "Setmanes després de revelar-se que Anthropic negociava la compra més gran de la seva història, l'startup de vídeo i eficiència de xips Decart, per 6.000 milions de dòlars, Bloomberg informa que l'empresa ha abandonat l'operació després de la diligència deguda, sense arribar a un acord final."
+      "title": "Nvidia compra la plataforma d'IA oberta Hugging Face per 12.930 milions de dòlars",
+      "excerpt": "L'operació dona a Nvidia el control d'un dels principals punts de trobada de la comunitat d'IA oberta, amb més de 18 milions d'usuaris i tres milions de models compartits; l'empresa assegura que Hugging Face continuarà sent una plataforma oberta i que no exigirà maquinari de Nvidia per fer-la servir."
     },
     {
-      "category": "TREBALL",
-      "read": "5 MIN",
-      "title": "Reuters destapa que Zuckerberg va planejar retallar equips de Meta fins a un 60% confiant que la IA en mantindria la productivitat",
-      "excerpt": "Una investigació de Reuters revela «Project OT», el pla secret amb què Mark Zuckerberg volia convertir Meta en una empresa «nativa en IA» amb equips fins a un 60% més petits, un projecte que va acabar aturant-se la nit abans de la primera onada de retallades després de topar amb resistència interna i resultats tècnics insuficients."
-    },
-    {
-      "category": "EDUCACIÓ",
+      "category": "ROBÒTICA",
       "read": "4 MIN",
-      "title": "Nova York prohibeix la IA generativa a les aules de 600.000 alumnes de primària i secundària bàsica durant tot un curs",
-      "excerpt": "L'alcalde Zohran Mamdani anuncia una moratòria d'un any sobre els xatbots i les eines d'IA generativa dirigides als estudiants de P3 a vuitè curs a les escoles públiques de Nova York, mentre una coalició d'educadors i famílies n'estudia l'impacte real a l'aula."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "FluidStack, l'empresa que aixeca els centres de dades d'Anthropic, capta 1.500 milions de dòlars i dobla la valoració fins als 18.000 milions",
-      "excerpt": "La firma de negociació algorísmica Jane Street lidera una ronda de 1.500 milions de dòlars per a FluidStack, l'operador de centres de dades que construeix i gestiona la infraestructura d'Anthropic sense posseir ni un sol xip, i que en tres mesos dobla la valoració que tenia al juliol."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un model d'IA entrenat per calcular l'edat del cervell es converteix en una eina genèrica per detectar senyals d'alzheimer en ressonàncies magnètiques",
-      "excerpt": "Investigadors de l'Institut Neurològic de Mont-real, a la Universitat McGill, adapten amb una tècnica lleugera un model ja entrenat per predir l'edat cerebral i el converteixen en una eina capaç de distingir pacients amb demència, predir la positivitat d'amiloide i estimar volums cerebrals sense haver de tornar a entrenar-lo des de zero per a cada tasca."
+      "title": "Sam Altman confirma que OpenAI construirà un robot humanoide propi",
+      "excerpt": "El conseller delegat d'OpenAI assegura al pòdcast «Sources» que l'empresa «definitivament farà un humanoide», mig any després de crear una divisió interna de robòtica, mentre reconeix que encara no és la prioritat immediata i que no hi ha ni calendari ni fabricant ni preu decidits."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un nou banc de proves posa a prova catorze models d'IA amb dades reals de rellotges intel·ligents i biomarcadors de sang",
-      "excerpt": "Investigadors de Meta presenten WearableQA, un banc de proves amb més de quatre mil preguntes construïdes a partir de mesures reals de dispositius portables de dos-cents usuaris, i troben que els millors models de llenguatge encara fallen en gairebé un terç de les preguntes que combinen diversos senyals fisiològics."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Cognition, creadora de l'agent de programació Devin, tanca la ronda que la valora en 47.000 milions de dòlars, gairebé el doble que fa tres mesos",
-      "excerpt": "Setmanes després que es revelés que Cognition negociava una nova ronda que la podria situar «per sobre dels 40.000 milions», Bloomberg confirma la xifra final: 47.000 milions de dòlars, amb prop de 10.000 milions de dòlars d'interès inversor i una facturació que gairebé s'ha doblat en tres mesos."
+      "title": "L'Allen Institute, la Universitat de Washington i el Fred Hutch llancen un accelerador que combina IA i biologia experimental per dissenyar noves molècules",
+      "excerpt": "L'AI BioDesign Accelerator funciona amb un cicle continu en què els models d'IA proposen dissenys biològics, els científics els construeixen i els proven al laboratori, i els resultats retroalimenten els models; l'objectiu declarat inclou tractaments contra el càncer, enzims que degradin plàstic i sistemes de còmput biològic de baix consum."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "Onorato AI, un lloro amb IA creat a Barcelona, comença a arribar a les primeres cases per combatre la solitud de la gent gran",
-      "excerpt": "L'empresa catalana Onorato AI comença a lliurar aquest setembre les seves primeres 30 unitats a Espanya, els Estats Units, Anglaterra i Suïssa: un lloro robòtic amb reconeixement facial i tres «satèl·lits» domèstics pensat per acompanyar la gent gran que viu sola."
+      "title": "La britànica Tolemy Bio s'instal·la a Barcelona amb una plataforma d'IA per accelerar la fabricació de teràpies avançades",
+      "excerpt": "L'startup, fundada el 2024, obre operacions experimentals al hub científic SID/Barcelona amb una ronda de 1,4 milions d'euros i crearà sis llocs de treball especialitzats per desenvolupar Orbit, una eina que combina models virtuals de cèl·lules i IA per predir el comportament de cultius cel·lulars."
     }
   ]
 }
