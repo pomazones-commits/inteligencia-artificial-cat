@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-09T04:20:01.915Z",
+  "updatedAt": "2026-09-09T12:28:19.974Z",
   "items": [
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "OpenAI diu que un eixam de 10.000 agents d'IA ha resolt un dels problemes del mil·lenni, el de Navier-Stokes",
+      "excerpt": "Un sistema intern encara no publicat, més capaç que GPT-6 Astra, ha produït en 88 hores una demostració —formalitzada en Lean— que les equacions de Navier-Stokes poden desenvolupar una singularitat en temps finit; l'empresa diu que no reclamarà el premi del Clay Mathematics Institute i reconeix una disputa de crèdit amb dos investigadors que treballaven en un problema relacionat."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un agent d'IA d'OpenAI opera sol un xip quàntic de sis qubits del MIT per calibrar-lo",
+      "excerpt": "Una estudiant de doctorat del grup Engineering Quantum Systems del MIT ha fet servir GPT-5.6 Sol, a través de Codex, per triar mesures, operar l'instrumental del laboratori i calibrar les freqüències i els temps de coherència d'un xip superconductor de sis qubits, encara que l'agent flaqueja quan els senyals són febles o ambigus."
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "title": "Google alerta que un grup criminal ha fet servir agents d'IA autònoms per robar milers de credencials en menys de sis hores",
+      "excerpt": "El Google Threat Intelligence Group documenta un atac real en què un actor amb motivació econòmica va desplegar un marc d'agents d'IA que va gestionar sol l'escaneig de vulnerabilitats, la resolució de problemes i la rotació d'adreces IP fins a robar milers de credencials, i detalla un servidor exposat que gestionava més de 23.800 secrets robats."
+    },
+    {
+      "category": "NEGOCI",
+      "read": "4 MIN",
+      "title": "Accenture i Google Cloud creen una divisió conjunta de 1.000 enginyers per implantar IA agent als seus clients",
+      "excerpt": "El nou Accenture Gemini Enterprise Business Group formarà fins a 1.000 «enginyers desplegats» que treballaran presencialment amb clients per construir aplicacions reals amb Gemini Enterprise, sobre la base dels prop de 50.000 professionals d'Accenture ja certificats en Google Cloud."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Carme Artigas, primera secretària d'Estat d'IA d'Espanya, fitxa per la barcelonina Nazca Capital",
+      "excerpt": "L'exsecretària d'Estat de Digitalització i Intel·ligència Artificial (2020-2023) presidirà el nou comitè tecnològic de la gestora de capital risc Nazca Capital, amb seu a Barcelona i especialitzada en tecnologia profunda, i s'incorporarà al seu consell assessor industrial per avaluar la solidesa tècnica de les inversions en aeroespacial, seguretat i defensa."
+    },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
