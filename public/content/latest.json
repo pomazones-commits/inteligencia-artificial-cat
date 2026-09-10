@@ -1,95 +1,35 @@
 {
-  "updatedAt": "2026-09-09T16:28:10.879Z",
+  "updatedAt": "2026-09-10T04:24:30.804Z",
   "items": [
     {
-      "category": "DEFENSA",
-      "read": "6 MIN",
-      "title": "Documents obtinguts per The Intercept revelen com el Pentàgon va lligar OpenAI, Anthropic, Google i xAI amb contractes de fins a 200 milions de dòlars",
-      "excerpt": "Més de 400 pàgines aconseguides per via judicial mostren que els quatre laboratoris es van comprometre el juliol de 2025 a construir prototips d'IA per a la «guerra», la intel·ligència militar i la presa de decisions de combat; els documents lliguen també Anthropic amb l'ús de Claude en la identificació d'objectius durant els bombardejos a l'Iran."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un sistema del MIT i Motional tradueix les decisions d'un cotxe autònom a conceptes que una persona pot entendre i preveure",
-      "excerpt": "El CW-Net, publicat a Nature per investigadors del MIT i l'empresa de vehicles autònoms Motional, converteix el raonament intern —opac— d'un cotxe sense conductor en frases com «s'acosta a un vehicle aturat», i millora la capacitat de conductors de seguretat i usuaris sense experiència per preveure com es comportarà el vehicle en situacions inesperades."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "El medallista Fields Jacob Tsimerman llança un institut per fonamentar matemàticament la seguretat de la IA",
-      "excerpt": "El Mathematical AI Safety Institute (MAISI), amb seu a la badia de San Francisco, vol desenvolupar definicions, mesures i conceptes de solució rigorosos —no només recomanacions polítiques— per determinar quan es pot confiar que un sistema d'IA no causarà una catàstrofe, amb un primer semestre de residència previst per al gener de 2027."
-    },
-    {
-      "category": "CIBERSEGURETAT",
+      "category": "GOVERNANÇA",
       "read": "5 MIN",
-      "title": "Els EUA acusen sis empreses xineses d'IA de fer de la destil·lació massiva dels models nord-americans el nucli, no un complement, de la seva estratègia",
-      "excerpt": "Una alerta conjunta de la NSA, la CISA i l'FBI assenyala DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun i Z.AI per haver extret «milers de milions de tokens» de Claude, ChatGPT, Gemini i Grok des de finals del 2024, a través d'un «mercat gris» de servidors pont per esquivar les restriccions d'accés."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Catalunya rep 8,7 milions d'euros per finançar 20 projectes d'IA industrial i sanitària, el 70% en pimes",
-      "excerpt": "El programa estatal Xarxa IA, gestionat per Red.es amb fons FEDER dins l'Estratègia Nacional d'IA, reparteix a Catalunya ajuts d'entre 400.000 i 5 milions d'euros per a projectes de bessons digitals, robòtica avançada, visió per computador i recerca clínica amb intel·ligència artificial."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "OpenAI diu que un eixam de 10.000 agents d'IA ha resolt un dels problemes del mil·lenni, el de Navier-Stokes",
-      "excerpt": "Un sistema intern encara no publicat, més capaç que GPT-6 Astra, ha produït en 88 hores una demostració —formalitzada en Lean— que les equacions de Navier-Stokes poden desenvolupar una singularitat en temps finit; l'empresa diu que no reclamarà el premi del Clay Mathematics Institute i reconeix una disputa de crèdit amb dos investigadors que treballaven en un problema relacionat."
+      "title": "Un matemàtic acusa un investigador d'OpenAI d'haver-lo pressionat perquè retirés un coautor d'Anthropic d'una prova sobre les equacions d'Euler",
+      "excerpt": "Tristan Buckmaster, matemàtic de la Universitat de Nova York, denuncia que Sébastien Bubeck li va demanar dues vegades que eliminés Levent Alpöge, que treballa a Anthropic, com a coautor d'una demostració feta amb IA, un dia abans que OpenAI proclamés haver resolt en solitari, amb un eixam d'agents, el problema relacionat de Navier-Stokes."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un agent d'IA d'OpenAI opera sol un xip quàntic de sis qubits del MIT per calibrar-lo",
-      "excerpt": "Una estudiant de doctorat del grup Engineering Quantum Systems del MIT ha fet servir GPT-5.6 Sol, a través de Codex, per triar mesures, operar l'instrumental del laboratori i calibrar les freqüències i els temps de coherència d'un xip superconductor de sis qubits, encara que l'agent flaqueja quan els senyals són febles o ambigus."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Google alerta que un grup criminal ha fet servir agents d'IA autònoms per robar milers de credencials en menys de sis hores",
-      "excerpt": "El Google Threat Intelligence Group documenta un atac real en què un actor amb motivació econòmica va desplegar un marc d'agents d'IA que va gestionar sol l'escaneig de vulnerabilitats, la resolució de problemes i la rotació d'adreces IP fins a robar milers de credencials, i detalla un servidor exposat que gestionava més de 23.800 secrets robats."
-    },
-    {
-      "category": "NEGOCI",
-      "read": "4 MIN",
-      "title": "Accenture i Google Cloud creen una divisió conjunta de 1.000 enginyers per implantar IA agent als seus clients",
-      "excerpt": "El nou Accenture Gemini Enterprise Business Group formarà fins a 1.000 «enginyers desplegats» que treballaran presencialment amb clients per construir aplicacions reals amb Gemini Enterprise, sobre la base dels prop de 50.000 professionals d'Accenture ja certificats en Google Cloud."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Carme Artigas, primera secretària d'Estat d'IA d'Espanya, fitxa per la barcelonina Nazca Capital",
-      "excerpt": "L'exsecretària d'Estat de Digitalització i Intel·ligència Artificial (2020-2023) presidirà el nou comitè tecnològic de la gestora de capital risc Nazca Capital, amb seu a Barcelona i especialitzada en tecnologia profunda, i s'incorporarà al seu consell assessor industrial per avaluar la solidesa tècnica de les inversions en aeroespacial, seguretat i defensa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Claude, d'Anthropic, produeix la primera demostració completa i verificada per ordinador de l'últim teorema de Fermat",
-      "excerpt": "Treballant de manera pràcticament autònoma durant onze dies a través de la plataforma Prove2Me, Claude ha generat 13 milions de línies de codi en el llenguatge de verificació formal Lean per formalitzar la demostració del teorema, un dels reptes de formalització matemàtica més esperats."
-    },
-    {
-      "category": "NEGOCI",
-      "read": "4 MIN",
-      "title": "Nvidia compra la plataforma d'IA oberta Hugging Face per 12.930 milions de dòlars",
-      "excerpt": "L'operació dona a Nvidia el control d'un dels principals punts de trobada de la comunitat d'IA oberta, amb més de 18 milions d'usuaris i tres milions de models compartits; l'empresa assegura que Hugging Face continuarà sent una plataforma oberta i que no exigirà maquinari de Nvidia per fer-la servir."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Sam Altman confirma que OpenAI construirà un robot humanoide propi",
-      "excerpt": "El conseller delegat d'OpenAI assegura al pòdcast «Sources» que l'empresa «definitivament farà un humanoide», mig any després de crear una divisió interna de robòtica, mentre reconeix que encara no és la prioritat immediata i que no hi ha ni calendari ni fabricant ni preu decidits."
+      "title": "Una intel·ligència artificial revisa vuit milions de plecs d'herbari i confirma que la floració s'avança 2,5 dies cada dècada",
+      "excerpt": "L'informe «State of the World's Plants and Fungi 2026», dels Reial Jardins Botànics de Kew i 400 científics de 40 països, ha fet servir un model d'aprenentatge automàtic per detectar l'estat de floració en vuit milions d'espècimens digitalitzats, una feina que hauria requerit prop de 20 anys de treball humà i que s'ha completat en una setmana."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "L'Allen Institute, la Universitat de Washington i el Fred Hutch llancen un accelerador que combina IA i biologia experimental per dissenyar noves molècules",
-      "excerpt": "L'AI BioDesign Accelerator funciona amb un cicle continu en què els models d'IA proposen dissenys biològics, els científics els construeixen i els proven al laboratori, i els resultats retroalimenten els models; l'objectiu declarat inclou tractaments contra el càncer, enzims que degradin plàstic i sistemes de còmput biològic de baix consum."
+      "title": "Un estudi suec destapa que els mètodes fets servir per mesurar si un model de llenguatge «comparteix» coneixement entre idiomes es contradiuen entre si",
+      "excerpt": "Investigadors de la Universitat de Linköping han comparat quatre mètriques d'interpretabilitat en 21 models de llenguatge i han trobat que gairebé totes discrepen sobre com de compartides són les representacions internes entre idiomes, un problema que atribueixen a l'anisotropia de l'espai d'incrustacions."
     },
     {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La britànica Tolemy Bio s'instal·la a Barcelona amb una plataforma d'IA per accelerar la fabricació de teràpies avançades",
-      "excerpt": "L'startup, fundada el 2024, obre operacions experimentals al hub científic SID/Barcelona amb una ronda de 1,4 milions d'euros i crearà sis llocs de treball especialitzats per desenvolupar Orbit, una eina que combina models virtuals de cèl·lules i IA per predir el comportament de cultius cel·lulars."
+      "category": "INFRAESTRUCTURA",
+      "read": "3 MIN",
+      "title": "Google anuncia la seva inversió més gran mai feta a Europa: 13.000 milions d'euros en infraestructura d'IA a Finlàndia",
+      "excerpt": "L'empresa desplegarà el capital entre el 2027 i el 2028 en centres de dades i projectes d'energia neta a quatre municipis finlandesos, amb un contracte de subministrament elèctric a 22 anys amb la central nuclear de Loviisa i nova capacitat eòlica i d'emmagatzematge."
+    },
+    {
+      "category": "MODELS",
+      "read": "3 MIN",
+      "title": "DeepSeek llança el V4.1 Flash i el converteix, de cop, en el substitut del seu propi model de pagament V4 Pro",
+      "excerpt": "L'empresa xinesa assegura que el nou model supera el V4 Pro en rendiment, cost i velocitat, i encaminarà totes les peticions del model de pagament cap al nou Flash amb preus fins a un 60% més barats, sense haver publicat cap taula de referències que ho demostri."
     }
   ]
 }
