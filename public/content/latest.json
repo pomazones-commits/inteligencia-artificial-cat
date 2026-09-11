@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-10T16:23:56.712Z",
+  "updatedAt": "2026-09-11T04:34:53.939Z",
   "items": [
     {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Califòrnia aprova les primeres lleis dels Estats Units que obliguen a auditar la intel·ligència artificial amb avaluadors independents",
-      "excerpt": "El governador Gavin Newsom ha signat dues lleis que creen un registre estatal d'auditors d'IA i un marc perquè organitzacions independents verifiquin si els sistemes compleixen la normativa, just quan l'Administració Trump pressiona als fòrums internacionals per afluixar la regulació del sector."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "IBM i la NASA publiquen en obert un model d'IA que combina trenta capes de dades de quatre missions per cartografiar el gel i els cràters de la Lluna",
-      "excerpt": "El nou model, entrenat amb observacions de la sonda Lunar Reconnaissance Orbiter, la missió GRAIL i la japonesa SELENE/Kaguya, millora fins a un 22% la detecció de gel a les zones permanentment ombrejades del pol sud lunar respecte als mètodes anteriors."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un model generatiu simula en pocs nanosegons transicions moleculars que els mètodes clàssics trigaven ordres de magnitud més a calcular",
-      "excerpt": "Investigadors del CNRS i la Universitat d'Illinois a Urbana-Champaign presenten a Nature Gen-COMPAS, un mètode que combina un model de difusió amb filtres estadístics per reconstruir com es plega una proteïna o com travessa una membrana, sense haver de triar per endavant quines variables són rellevants."
-    },
-    {
-      "category": "COMPETÈNCIA",
-      "read": "4 MIN",
-      "title": "El Departament de Justícia dels EUA investiga si Nvidia va dissenyar el seu acord de 20.000 milions amb Groq per esquivar el control antimonopoli",
-      "excerpt": "L'agència federal ha enviat a Nvidia una petició formal d'informació sobre l'acord de llicència de tecnologia i fitxatge d'executius tancat amb la start-up de xips Groq el desembre passat, per determinar si es va estructurar deliberadament per evitar una revisió completa de fusions."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Investigadors de La Salle-URL porten a Àustria un sistema que tradueix ones cerebrals en imatges generades per IA en temps real",
-      "excerpt": "Albert Barqué-Duran i Ada Llauradó-Crespo presenten avui a Ars Electronica, a Linz, el prototip SYNAPTICON, que combina lectura d'electroencefalograma amb models de llenguatge i difusió per convertir l'activitat cerebral en narracions visuals; el projecte ja ha guanyat el Gran Premi de Runway al Festival d'IA 2026."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Un investigador d'Anthropic dimiteix públicament i acusa el sector d'apostar amb la vida de tothom per arribar primer a la superintel·ligència",
-      "excerpt": "Jacob Coxon, que ha treballat tres anys en la investigació de preentrenament a OpenAI i Anthropic, ha anunciat la seva sortida del sector amb un missatge públic on demana acords de ritme entre laboratoris i fins i tot moratòries temporals; un responsable d'alineament d'Anthropic li ha donat la raó."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un model d'IA que aprèn de l'evolució de nou espècies millora la predicció de quines mutacions humanes són perilloses",
-      "excerpt": "Investigadors de la Universitat de Califòrnia a Berkeley presenten GPN-Star, un model de llenguatge genòmic que compara l'ADN humà amb el de vuit altres espècies per identificar variants genètiques rellevants per a la salut, amb només una fracció de la computació que requereixen els models rivals."
-    },
-    {
       "category": "CIBERSEGURETAT",
+      "read": "5 MIN",
+      "title": "Anthropic detalla com la IA ha esborrat la diferència entre un pirata solitari i un grup d'espionatge d'estat",
+      "excerpt": "L'informe de intel·ligència d'amenaces de setembre d'Anthropic documenta operacions d'espionatge rus contra objectius ucraïnesos i europeus, un atac contra desenes d'empreses d'IA per robar claus d'API i una xarxa de desinformació que va publicar prop de 9.000 articles en vint idiomes."
+    },
+    {
+      "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Uns investigadors demostren que la IA pot trobar i explotar en poques setmanes una fallada capaç de segrestar comptes de WeChat amb una simple trucada",
-      "excerpt": "La firma de seguretat Calif ha fet servir intel·ligència artificial per descobrir una vulnerabilitat crítica a WeChat i construir-hi WeWorm, un cuc capaç de prendre el control total d'un compte sense que la víctima respongui la trucada; Tencent ja l'ha pedaçat."
+      "title": "Un sistema d'IA aprèn a detectar en vídeo el moment exacte en què un peix ja no aguanta el fred",
+      "excerpt": "Investigadors de la Universitat de Nagoya i la Universitat de Fukui combinen dos models d'aprenentatge automàtic per identificar de manera objectiva quan un peix perd l'equilibri per estrès tèrmic, una mesura clau per preveure com el canvi climàtic afectarà les poblacions de peixos."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Els candidats exageren molt més davant d'una entrevista de vídeo avaluada per IA, i el sistema no ho penalitza",
+      "excerpt": "Un estudi acadèmic amb centenars de persones que buscaven feina mostra que qui pensa que una IA jutjarà les seves respostes exagera i s'inventa més coses que qui creu que ho farà una persona, mentre que l'eina d'IA provada puntua igual els candidats honestos i els que exageren."
     },
     {
       "category": "PRODUCTE",
       "read": "4 MIN",
-      "title": "Meta llança Muse, un agent d'IA personal que reserva viatges, negocia preus i continua treballant encara que tanquis l'aplicació",
-      "excerpt": "L'agent, disponible als Estats Units per a mòbil i web amb un nivell gratuït i dos de pagament, funciona dins d'una màquina virtual aïllada —la Muse Secure VM— i necessita l'aprovació d'un «agent sentinella» abans de fer res que surti d'aquest entorn."
+      "title": "OpenAI obre en beta pública la infraestructura que fa funcionar Codex, perquè qualsevol desenvolupador en creï els seus propis agents",
+      "excerpt": "La nova Agents API exposa, a través d'una sola crida, tot el sistema que gestiona sessions, orquestració i recuperació d'errors dels agents autònoms de Codex, amb execució de codi en entorns aïllats, edició de fitxers i delegació entre diversos agents, sense cost addicional més enllà dels testimonis del model."
     },
     {
       "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Una consultora sevillana es queda el contracte per portar la intel·ligència artificial a l'Institut Català de Finances, per davant de 31 rivals",
-      "excerpt": "Guadaltel dissenyarà i implantarà sistemes d'IA per optimitzar la gestió de dades i l'anàlisi de risc de l'entitat financera pública catalana, en un contracte d'un milió d'euros a dos anys que ha deixat fora grans consultores com NTT Data, PwC o Inetum."
-    },
-    {
-      "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "OpenAI incorpora a la seva fundació Paul Christiano, un dels crítics més coneguts del ritme de desenvolupament de la IA",
-      "excerpt": "El coinventor de l'aprenentatge per reforç amb retroalimentació humana (RLHF) i fundador del Alignment Research Center s'incorpora al consell de la fundació d'OpenAI i al seu Comitè de Seguretat i Protecció, alhora que actuarà com a observador sense vot al consell de l'empresa amb ànim de lucre."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Tres agents d'IA es reparteixen la feina de dissenyar cuines i habitacions virtuals perquè els robots hi aprenguin abans de sortir al món real",
-      "excerpt": "Investigadors del MIT CSAIL i el Toyota Research Institute presenten SceneSmith, un sistema en què tres models de visió i llenguatge —un de dissenyador, un de crític i un d'orquestrador— generen escenes domèstiques llestes per a simulació física, amb fins a sis vegades més objectes que els mètodes anteriors."
-    },
-    {
-      "category": "XIPS",
-      "read": "5 MIN",
-      "title": "Una start-up nord-americana surt de l'ombra amb un xip de memòria que diu haver resolt, en part, l'escassetat de memòria per a la IA",
-      "excerpt": "Kepler Computing, amb 468 milions de dòlars captats i vuit anys de desenvolupament a l'esquena, presenta un material ferroelèctric compost que promet apropar la densitat de la memòria d'alta amplada de banda (HBM) a la velocitat de l'SRAM amb menys consum, però reconeix que encara li queden anys d'ajustos per fabricar-lo a gran escala."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "La start-up legal Harvey capta 550 milions de dòlars més i arriba als 15.600 milions de valoració en només nou mesos",
-      "excerpt": "L'empresa d'intel·ligència artificial per a despatxos d'advocats, que ja factura més de 400 milions de dòlars anuals i treballa amb el 80% dels bufets del rànquing Am Law 100, destinarà la nova ronda a desenvolupar models d'IA propis en lloc de dependre només dels de tercers."
-    },
-    {
-      "category": "INDÚSTRIA MUSICAL",
-      "read": "4 MIN",
-      "title": "Suno retira els seus models antics i en llança uns de nous entrenats només amb música llicenciada de Warner, BMG i Believe",
-      "excerpt": "L'empresa de generació musical amb IA, demandada per les grans discogràfiques per haver entrenat els seus models amb cançons sense permís, presenta la família v6 —construïda des de zero amb catàlegs llicenciats— i es compromet a repartir ingressos amb els titulars dels drets cada vegada que un usuari en generi música."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Un matemàtic acusa un investigador d'OpenAI d'haver-lo pressionat perquè retirés un coautor d'Anthropic d'una prova sobre les equacions d'Euler",
-      "excerpt": "Tristan Buckmaster, matemàtic de la Universitat de Nova York, denuncia que Sébastien Bubeck li va demanar dues vegades que eliminés Levent Alpöge, que treballa a Anthropic, com a coautor d'una demostració feta amb IA, un dia abans que OpenAI proclamés haver resolt en solitari, amb un eixam d'agents, el problema relacionat de Navier-Stokes."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una intel·ligència artificial revisa vuit milions de plecs d'herbari i confirma que la floració s'avança 2,5 dies cada dècada",
-      "excerpt": "L'informe «State of the World's Plants and Fungi 2026», dels Reial Jardins Botànics de Kew i 400 científics de 40 països, ha fet servir un model d'aprenentatge automàtic per detectar l'estat de floració en vuit milions d'espècimens digitalitzats, una feina que hauria requerit prop de 20 anys de treball humà i que s'ha completat en una setmana."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi suec destapa que els mètodes fets servir per mesurar si un model de llenguatge «comparteix» coneixement entre idiomes es contradiuen entre si",
-      "excerpt": "Investigadors de la Universitat de Linköping han comparat quatre mètriques d'interpretabilitat en 21 models de llenguatge i han trobat que gairebé totes discrepen sobre com de compartides són les representacions internes entre idiomes, un problema que atribueixen a l'anisotropia de l'espai d'incrustacions."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "3 MIN",
-      "title": "Google anuncia la seva inversió més gran mai feta a Europa: 13.000 milions d'euros en infraestructura d'IA a Finlàndia",
-      "excerpt": "L'empresa desplegarà el capital entre el 2027 i el 2028 en centres de dades i projectes d'energia neta a quatre municipis finlandesos, amb un contracte de subministrament elèctric a 22 anys amb la central nuclear de Loviisa i nova capacitat eòlica i d'emmagatzematge."
-    },
-    {
-      "category": "MODELS",
-      "read": "3 MIN",
-      "title": "DeepSeek llança el V4.1 Flash i el converteix, de cop, en el substitut del seu propi model de pagament V4 Pro",
-      "excerpt": "L'empresa xinesa assegura que el nou model supera el V4 Pro en rendiment, cost i velocitat, i encaminarà totes les peticions del model de pagament cap al nou Flash amb preus fins a un 60% més barats, sense haver publicat cap taula de referències que ho demostri."
+      "title": "Una xarxa de catalans repartits pel món es reuneix per primer cop a San Francisco per parlar d'IA i inversió",
+      "excerpt": "La Catalonia Global Talent Initiative estrena avui la seva primera sessió, esgotada, a Fisherman's Wharf amb professionals catalans de Meta, Hilti Ventures i NFX, en un intent de convertir els contactes informals de la diàspora tecnològica catalana en una xarxa organitzada."
     }
   ]
 }
