@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-09-11",
-  "updatedAt": "2026-09-11T08:21:37.958Z",
-  "batches": 2,
+  "updatedAt": "2026-09-11T12:27:10.031Z",
+  "batches": 3,
   "target": 20,
   "items": [
+    {
+      "category": "PUBLICITAT",
+      "read": "4 MIN",
+      "slug": "amazon-anuncis-chatgpt-openai-publicitat",
+      "title": "Amazon comença a vendre anuncis dins de ChatGPT a través del seu propi sistema de publicitat",
+      "excerpt": "Amazon Ads i OpenAI obren un pilot perquè anunciants nord-americans estenguin les seves campanyes d'Amazon DSP a les respostes de ChatGPT, amb Delta Vacations com a primera marca de prova.",
+      "sourceName": "Amazon Ads",
+      "sourceUrl": "https://advertising.amazon.com/library/news/amazon-ads-chat-gpt-advertising-integration",
+      "sourceDate": "10 de setembre de 2026",
+      "body": "OpenAI porta mesos buscant noves vies d'ingressos més enllà de les subscripcions de ChatGPT, i la publicitat n'és una de les més evidents: l'empresa ja havia arribat a un ritme anualitzat de 1.000 milions de dòlars en anuncis, però fins ara Amazon s'havia resistit a obrir la seva botiga en línia a plataformes d'IA externes.\n\nAmazon Ads i OpenAI van anunciar el 10 de setembre l'obertura de «ChatGPT Ads», un pilot que permet a un grup seleccionat d'anunciants dels Estats Units ampliar a ChatGPT les campanyes que ja tenen actives a Amazon DSP, el seu gestor publicitari, com un servei més dins d'aquesta plataforma. Delta Vacations és la primera marca que hi participa. «Els anuncis conversacionals representen l'oportunitat d'interacció que més creix perquè les marques arribin a audiències noves i existents», ha declarat Chris Conetta, director de subministrament omnicanal d'Amazon DSP; Katrin Koenig, presidenta de Delta Vacations, ha dit que «la planificació de viatges és cada cop més personalitzada» i que els viatgers «esperen experiències que se sentin rellevants».\n\nLa notícia és rellevant perquè és el primer gran pas d'Amazon —que controla bilions de senyals de compra, navegació i consum de contingut— cap a la incipient indústria publicitària de ChatGPT, i perquè normalitza la idea que les respostes d'un assistent d'IA puguin incloure contingut patrocinat, un terreny que OpenAI havia tractat fins ara amb cautela per no erosionar la confiança dels usuaris en les respostes del xatbot.\n\nEl pilot es limita, de moment, a un grup reduït d'anunciants nord-americans i a una sola marca confirmada públicament; ni Amazon ni OpenAI han revelat quan s'ampliarà a més anunciants, com es diferenciaran els anuncis de les respostes «orgàniques» de ChatGPT, ni quin percentatge dels ingressos es repartiran totes dues empreses.",
+      "image": "./assets/amazon-anuncis-chatgpt-openai-publicitat-20260911.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "teorema-quatre-colors-nova-demostracio",
+      "title": "Un equip internacional de matemàtics reformula el teorema dels quatre colors amb l'ajuda d'ordinadors, mig segle després de la primera prova",
+      "excerpt": "Carsten Thomassen, Ken-ichi Kawarabayashi, Mikkel Thorup i Bojan Mohar troben 8.202 configuracions reduïbles davant les 633 de la demostració clàssica de 1996 i acceleren el temps de càlcul de n² a n log n.",
+      "sourceName": "Quanta Magazine",
+      "sourceUrl": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
+      "sourceDate": "10 de setembre de 2026",
+      "body": "El teorema dels quatre colors —que qualsevol mapa es pot acolorir amb només quatre colors sense que dues regions veïnes comparteixin color— és cèlebre perquè la seva primera demostració, el 1976, va ser també la primera gran prova matemàtica que depenia d'un ordinador per comprovar centenars de casos, cosa que va incomodar bona part de la comunitat matemàtica. La versió que s'ha fet servir des de llavors, publicada el 1996 per Neil Robertson, Daniel Sanders, Paul Seymour i Robin Thomas, reduïa el problema a 633 configuracions i acolorria un mapa en un temps proporcional al quadrat del nombre de regions (n²).\n\nUn equip format per Carsten Thomassen (Universitat Tècnica de Dinamarca), Mikkel Thorup (Universitat de Copenhaguen), Ken-ichi Kawarabayashi (Institut Nacional d'Informàtica del Japó) i Bojan Mohar (Universitat Simon Fraser, Canadà), amb els estudiants de doctorat Yuta Inoue i Atsuyuki Miyashita, va penjar el març del 2026 una nova demostració que identifica 8.202 configuracions reduïbles —moltes més que el 1996— però que es poden localitzar i tractar en paral·lel en zones «planes» del mapa on cada vèrtex es connecta amb sis més, una part del problema que les proves anteriors deixaven de banda. Això permet acolorir qualsevol mapa en un temps proporcional a n multiplicat pel seu logaritme (n log n), més ràpid que l'estàndard de 1996, i el treball es presentarà al novembre al congrés Foundations of Computer Science.\n\nLa notícia és rellevant perquè aporta una eina d'acoloriment de mapes bastant més ràpida que l'anterior i, sobretot, perquè revela una estructura fins ara desconeguda a l'interior dels grafs plans —les regions denses que els autors anomenen «zones planes»—, una troballa que els mateixos investigadors creuen que es podrà aplicar a altres problemes d'acoloriment de grafs, per exemple sobre superfícies com el tor.\n\nLa nova prova, tal com reconeix el mateix Thomassen, «és encara més complicada que les seves predecessores» i continua depenent de càlculs informàtics massius per verificar totes les configuracions, de manera que no respon a l'objectiu que ell mateix diu perseguir des de fa dècades: una demostració del teorema que no necessiti cap ordinador.",
+      "image": "./assets/teorema-quatre-colors-nova-demostracio-20260911.jpg"
+    },
+    {
+      "category": "XIPS",
+      "read": "4 MIN",
+      "slug": "xips-ia-xinesos-preus-escassetat-hbm",
+      "title": "Huawei i Cambricon apugen fins a un 50% el preu dels seus xips d'IA per l'escassetat mundial de memòria d'alt ample de banda",
+      "excerpt": "Reuters revela que els fabricants xinesos de xips depenen cada cop més de canals de mercat gris per aconseguir memòria HBM des que Washington en va restringir l'exportació el desembre de 2024.",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://ca.finance.yahoo.com/news/exclusive-chinas-ai-chipmakers-raise-050223278.html",
+      "sourceDate": "10 de setembre de 2026",
+      "body": "Pequín pressiona des de fa temps les seves empreses tecnològiques perquè substitueixin els xips d'IA de Nvidia per alternatives fabricades al país, però aquesta estratègia topa amb un coll d'ampolla que Washington coneix bé: la memòria d'alt ample de banda (HBM), la peça vertical d'aquests xips que fabriquen gairebé en exclusiva la sud-coreana SK Hynix, la també sud-coreana Samsung i la nord-americana Micron.\n\nReuters va revelar el 10 de setembre que Huawei ha apujat el preu indicatiu de la seva targeta acceleradora Ascend 950DT per sobre dels 250.000 iuans (uns 37.255 dòlars), entre un 20% i un 50% més que les cotitzacions de fa dos mesos; Cambricon ha fet el mateix amb el seu futur xip 690, amb pujades del 20% al 30%, i les rivals més petites MetaX i Iluvatar CoreX han apujat preus en una proporció semblant. Chips més antics de Huawei també han pujat: el 950PR un 30% i el 910C un 22% respecte a començaments d'any. Des que els Estats Units van endurir el desembre de 2024 els controls a l'exportació de determinats productes HBM cap a la Xina, els fabricants xinesos depenen cada cop més de canals de mercat gris, que solen costar diverses vegades més que el preu que paguen els compradors fora del país.\n\nLa notícia és rellevant perquè mostra, amb xifres concretes, com un control d'exportacions nord-americà sobre un sol component —la memòria HBM— està encarint tota la cadena de fabricació xinesa de xips d'IA, just quan el govern xinès en fa una prioritat estratègica, i perquè afecta directament el cost que hauran d'assumir gegants tecnològics com ByteDance, que fa servir Huawei com el seu principal proveïdor domèstic de xips d'IA, seguit de Cambricon i Iluvatar CoreX.\n\nReuters no detalla quin percentatge exacte de l'aprovisionament de cada fabricant passa pel mercat gris ni quant de temps es podran mantenir aquestes pujades de preus sense frenar la demanda interna; tampoc queda clar si l'escassetat de memòria HBM remetrà a curt termini o si seguirà encarint els xips xinesos durant els pròxims trimestres.",
+      "image": "./assets/xips-ia-xinesos-preus-escassetat-hbm-20260911.jpg"
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "slug": "nvidia-australia-infraestructura-ia-2gw",
+      "title": "Nvidia s'alia amb vuit operadors australians per aixecar fins a 2 gigawatts de capacitat d'IA abans del 2027",
+      "excerpt": "L'acord inclou un desplegament de fins a 68.000 GPU de Nvidia amb Sharon AI i un campus de 800 megawatts d'IREN, dins la plataforma DSX de «fàbriques d'IA» de la companyia.",
+      "sourceName": "NVIDIA",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
+      "sourceDate": "9 de setembre de 2026",
+      "body": "La cursa per aixecar capacitat de còmput per entrenar i executar models d'IA no es limita als Estats Units i la Xina: Austràlia, amb un cost energètic competitiu i bona connectivitat, s'ha convertit en un dels destins que Nvidia vol consolidar com a node regional de la seva xarxa de centres de dades.\n\nNvidia va anunciar el 9 de setembre una col·laboració amb vuit operadors i proveïdors d'infraestructura australians —Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC i AirTrunk— per aixecar fins a 2 gigawatts de capacitat d'IA al país abans del 2027, sobre la seva plataforma DSX de «fàbriques d'IA» que integra instal·lacions, còmput, xarxa i programari. Sharon AI hi desplegarà fins a 68.000 GPU de Nvidia amb xarxa Quantum InfiniBand; IREN construeix un campus de 800 megawatts a Bundey, i CDC ja opera més de 550 megawatts a Austràlia i Nova Zelanda, amb 800 megawatts més en construcció. Empreses com Atlassian i Heidi figuren entre els primers usuaris finals esmentats. «Les fàbriques d'IA converteixen l'energia en intel·ligència, el recurs essencial de l'economia de la IA», ha declarat Raj Mirpuri, vicepresident de Nvidia; Oliver Curtis, de Firmus, ha descrit l'aliança, batejada «Project Southgate», com «un compromís tangible amb el futur de la IA d'Austràlia».\n\nLa notícia és rellevant perquè situa Austràlia com un dels pols emergents de la infraestructura mundial d'IA, en un moment en què la disponibilitat d'energia —més que la de xips— s'ha convertit en el principal coll d'ampolla per créixer, i perquè mobilitza vuit operadors diferents alhora en lloc d'un sol projecte aïllat.\n\nL'anunci fixa un objectiu de capacitat per al 2027, però no detalla quina part d'aquests 2 gigawatts prové ja de projectes en construcció (com els d'IREN i CDC) i quina és encara compromís futur, ni quant costarà el conjunt de l'operació ni com s'assegurarà l'energia neta necessària per alimentar-la.",
+      "image": "./assets/nvidia-australia-infraestructura-ia-2gw-20260911.jpg"
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "3 MIN",
+      "slug": "google-gemini-app-windows-escriptori",
+      "title": "Google porta Gemini a l'escriptori de Windows amb una drecera per obrir-lo sobre qualsevol finestra",
+      "excerpt": "L'aplicació, gratuïta per a Windows 10 i 11, s'obre amb Alt+Espai i es connecta al Gmail, el Drive i l'agent Gemini Spark, mentre reserva les funcions més avançades a la subscripció de pagament.",
+      "sourceName": "Google",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
+      "sourceDate": "10 de setembre de 2026",
+      "body": "Fins ara, fer servir Gemini en un ordinador amb Windows volia dir obrir el navegador i anar-hi cada vegada; Microsoft, en canvi, ja fa temps que integra el seu propi Copilot directament a l'escriptori. Google hi respon amb una aplicació nativa pròpia.\n\nGoogle va llançar el 10 de setembre l'aplicació de Gemini per a Windows, descarregable gratuïtament des de gemini.google/desktop per a Windows 10 i 11 arreu del món. Es pot obrir en qualsevol moment amb la drecera Alt+Espai, com una capa superposada sobre el document, full de càlcul o presentació amb què s'estigui treballant, per demanar-hi ajuda o verificar dades; també ofereix un espai de treball dedicat que connecta amb Gmail i Google Drive i dona accés a Gemini Spark, l'agent personal de Google per gestionar tasques de diversos passos, a més d'eines per generar imatges i vídeos. Segons Google, l'aplicació funciona de manera lleugera, sense alentir l'ordinador. Les funcions més avançades, com Gemini Spark i Gemini Omni, requereixen una subscripció de pagament a Google AI i estan restringides a majors de 18 anys.\n\nLa notícia és rellevant perquè intensifica la competència directa entre Google i Microsoft pel lloc de treball digital dels usuaris de Windows —el sistema operatiu més estès del món—, un terreny on Microsoft ja tenia avantatge en integrar Copilot al mateix sistema operatiu que desenvolupa.\n\nGoogle no ha precisat quantes funcions de pagament quedaran fora de l'ús gratuït ni ha donat cap xifra d'usuaris o descàrregues; l'empresa només avança que «aniran arribant més capacitats natives d'escriptori amb el temps», sense calendari concret.",
+      "image": "./assets/google-gemini-app-windows-escriptori-20260911.jpg"
+    },
     {
       "category": "INDÚSTRIA MUSICAL",
       "read": "4 MIN",
