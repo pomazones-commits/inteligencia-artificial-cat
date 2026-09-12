@@ -1,95 +1,35 @@
 {
-  "updatedAt": "2026-09-11T16:25:06.833Z",
+  "updatedAt": "2026-09-12T04:19:15.263Z",
   "items": [
     {
       "category": "GOVERNANÇA",
       "read": "5 MIN",
-      "title": "OpenAI demana per primer cop regles vinculants de seguretat per a la IA als Estats Units, un gir respecte a la seva posició anterior",
-      "excerpt": "L'empresa reclama estàndards de prova comuns, avaluacions independents i notificació obligatòria d'incidents greus, després d'haver-se oposat fins ara a una regulació més estricta."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "6 MIN",
-      "title": "Anthropic mesura per primer cop si els seus models saben triangular la ubicació de persones i guiar drons cap a un objectiu",
-      "excerpt": "Una nova bateria de proves del seu equip de «red team» conclou que els models més avançats de Claude ja igualen o superen experts humans en geolocalització i comencen a fer tasques bàsiques de guiatge de drons, encara que fallen en condicions difícils."
+      "title": "Califòrnia aprova la llei de seguretat de xatbots més estricta dels Estats Units, arran de la mort d'un adolescent que parlava amb ChatGPT",
+      "excerpt": "El governador Gavin Newsom ha signat la «Llei d'Adam», batejada en memòria d'Adam Raine, que obliga les empreses d'IA a fer auditories independents de seguretat infantil i a activar protocols davant senyals d'ideació suïcida."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un nou banc de proves demostra que els models d'IA entenen la topologia d'una imatge però la perden de vista quan han d'actuar-hi",
-      "excerpt": "MindTopo, amb participació de Microsoft Research, Northwestern i Stanford, avalua 14 models multimodals amb més d'11.000 proves sobre nusos, tancaments i continuïtat, i troba que cap s'acosta al rendiment humà quan ha de planificar accions, no només reconèixer-les."
+      "title": "Una IA física calcula per primer cop a escala mundial quant carboni «es queda» amagat als sediments del fons marí",
+      "excerpt": "Investigadors de la Universitat de Manchester entrenen models d'aprenentatge automàtic per reproduir un model mecanicista massa complex per aplicar-lo a tot el planeta, i troben que la meitat del carboni orgànic sòlid de la capa superior dels sediments prové de carboni dissolt adherit als minerals."
     },
     {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Meta compra la start-up sueca Stilla per reforçar el seu agent d'IA per a negocis, que ja fan servir un milió d'empreses",
-      "excerpt": "Stilla, fundada el 2024 a Estocolm, es converteix en la desena adquisició d'IA de Meta enguany, dies després que Business Agent —el seu servei per automatitzar converses de venda a WhatsApp, Messenger i Instagram— superés el milió d'empreses usuàries."
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "L'ETH de Zúric trasllada 100 petabytes de dades de la NASA a un superordinador suís per entrenar IA que anticipi desastres naturals",
+      "excerpt": "Els investigadors de Zúric han trigat un any a copiar prop de sis mil milions de fitxers climàtics i d'observació de la Terra de la NASA als servidors del superordinador Alps, per entrenar models capaços de fer una previsió meteorològica global en minuts."
     },
     {
       "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "Nvidia i Palantir converteixen la pròpia cadena de subministrament de Nvidia en el primer banc de proves d'una «IA sobirana» per a la indústria",
-      "excerpt": "El nou sistema combina els models oberts Nemotron de Nvidia amb la plataforma de dades de Palantir per gestionar en temps real l'1,3 milions de peces que porta cada bastidor del seu superordinador Vera Rubin, sense cedir el control de les dades a cap tercer."
+      "title": "Microsoft preveu triplicar la seva capacitat de centres de dades fins als 38 gigawatts el 2032 després de quedar-se curta de servidors per a la IA",
+      "excerpt": "Segons Bloomberg, l'empresa ha hagut de rebutjar clients de núvol i d'IA per manca de capacitat —Temu hauria traslladat un contracte a Oracle i GitHub va patir una avaria de vuit hores per aquest motiu— i preveu que un terç de la nova capacitat es dediqui a IA."
     },
     {
-      "category": "INDÚSTRIA MUSICAL",
+      "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "Universal Music es converteix en la primera gran discogràfica que fitxa amb ElevenLabs per a un servei d'IA amb els seus artistes",
-      "excerpt": "UMG i ElevenLabs desenvoluparan una plataforma perquè els fans remesclin cançons dels artistes que hi vulguin participar. No es revelen xifres ni data de llançament."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Visa, Mastercard i Ant International s'uneixen per crear un carnet d'identitat compartit per als agents d'IA que compren en línia",
-      "excerpt": "Les tres xarxes de pagament col·laboren en el marc «Know-Your-Agent» per distingir agents d'IA autoritzats de bots fraudulents entre plataformes diferents."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "OpenAI llança un ChatGPT fet a mida per a bancs d'inversió, amb Morgan Stanley i Evercore com a socis de disseny",
-      "excerpt": "ChatGPT for Financial Services incorpora dades de pagament de Daloopa, PitchBook o Crunchbase i genera presentacions amb citacions rastrejables fins a la font."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi de Stanford amb 1.131 usuaris de Character.AI troba que la companyia d'un xatbot no substitueix la solitud, i de vegades l'agreuja",
-      "excerpt": "L'estudi, publicat a Nature Human Behaviour, encreua enquestes amb 464.687 missatges reals i conclou que l'ús intensiu per companyia s'associa a un benestar més baix."
-    },
-    {
-      "category": "ENERGIA",
-      "read": "4 MIN",
-      "title": "Massachusetts obliga els nous centres de dades d'IA a portar la seva pròpia energia neta o pagar-la",
-      "excerpt": "L'ordre executiva de la governadora Maura Healey exigeix aprovació local i el 100% d'energia neta per als centres de més de 25 megawatts."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Anthropic detalla com la IA ha esborrat la diferència entre un pirata solitari i un grup d'espionatge d'estat",
-      "excerpt": "L'informe de intel·ligència d'amenaces de setembre d'Anthropic documenta operacions d'espionatge rus contra objectius ucraïnesos i europeus, un atac contra desenes d'empreses d'IA per robar claus d'API i una xarxa de desinformació que va publicar prop de 9.000 articles en vint idiomes."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un sistema d'IA aprèn a detectar en vídeo el moment exacte en què un peix ja no aguanta el fred",
-      "excerpt": "Investigadors de la Universitat de Nagoya i la Universitat de Fukui combinen dos models d'aprenentatge automàtic per identificar de manera objectiva quan un peix perd l'equilibri per estrès tèrmic, una mesura clau per preveure com el canvi climàtic afectarà les poblacions de peixos."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Els candidats exageren molt més davant d'una entrevista de vídeo avaluada per IA, i el sistema no ho penalitza",
-      "excerpt": "Un estudi acadèmic amb centenars de persones que buscaven feina mostra que qui pensa que una IA jutjarà les seves respostes exagera i s'inventa més coses que qui creu que ho farà una persona, mentre que l'eina d'IA provada puntua igual els candidats honestos i els que exageren."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "OpenAI obre en beta pública la infraestructura que fa funcionar Codex, perquè qualsevol desenvolupador en creï els seus propis agents",
-      "excerpt": "La nova Agents API exposa, a través d'una sola crida, tot el sistema que gestiona sessions, orquestració i recuperació d'errors dels agents autònoms de Codex, amb execució de codi en entorns aïllats, edició de fitxers i delegació entre diversos agents, sense cost addicional més enllà dels testimonis del model."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Una xarxa de catalans repartits pel món es reuneix per primer cop a San Francisco per parlar d'IA i inversió",
-      "excerpt": "La Catalonia Global Talent Initiative estrena avui la seva primera sessió, esgotada, a Fisherman's Wharf amb professionals catalans de Meta, Hilti Ventures i NFX, en un intent de convertir els contactes informals de la diàspora tecnològica catalana en una xarxa organitzada."
+      "title": "Google tanca un acord d'1.500 milions de dòlars per fitxar l'equip de la start-up Mechanize i llicenciar-ne la tecnologia per a agents de programació",
+      "excerpt": "L'acord no és una compra formal: Google contracta més d'una dotzena d'empleats de Mechanize, inclòs el seu cofundador Tamay Besiroglu, que passa a Google DeepMind, i en llicencia la tecnologia de manera no exclusiva, seguint el mateix patró que va fer servir amb Windsurf."
     }
   ]
 }
