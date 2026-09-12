@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-12T04:19:15.263Z",
+  "updatedAt": "2026-09-12T08:17:10.761Z",
   "items": [
+    {
+      "category": "INVERSIÓ",
+      "read": "4 MIN",
+      "title": "Nvidia negocia invertir fins a 10.000 milions de dòlars com a inversor d'ancoratge en la sortida a borsa d'Anthropic, valorada en uns 2 bilions",
+      "excerpt": "Segons Reuters, l'operació podria recaptar fins a 100.000 milions de dòlars i tancar-se abans de les eleccions de mig mandat dels Estats Units, en el que seria una de les majors sortides a borsa de la història."
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "5 MIN",
+      "title": "Un atacant fa servir centenars d'agents d'IA per envair 395 organitzacions de 48 països a través d'una fallada del programari d'impressió PaperCut",
+      "excerpt": "La firma de ciberseguretat GreyNoise documenta com un sol atacant va orquestrar una campanya gairebé autònoma amb agents basats en Codex d'OpenAI i un model de DeepSeek, que van arribar a comprometre 11 organitzacions en 26 segons."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Una auditoria independent troba fuites de sandbox a Claude Code, Codex i Cursor, i denuncia que Anthropic ha trigat 50 dies a apedaçar-ne una",
+      "excerpt": "La start-up de seguretat Accomplish diu que OpenAI i Cursor van corregir les vulnerabilitats que els va reportar en aproximadament una setmana, mentre que Anthropic hi va trigar unes 30 actualitzacions de programari."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un estudi demostra que els models d'IA prou lleugers per funcionar dins d'una càmera de fototrampeig fallen molt més que els especialitzats a identificar espècies",
+      "excerpt": "Investigadors comparen quatre models de visió i llenguatge d'entre 2.000 i 8.000 milions de paràmetres amb BioCLIP, un model especialitzat deu vegades més petit, i troben que tots perden fins a 26,6 punts de precisió amb imatges reals de camp."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "5 MIN",
+      "title": "25 medallistes Fields, entre ells Terence Tao, alerten que la cursa de les empreses d'IA per resoldre problemes famosos perjudica les matemàtiques",
+      "excerpt": "En una declaració conjunta publicada al blog de Tao, els matemàtics denuncien que convertir la resolució de problemes en un exercici de marca trenca el procés pel qual un resultat es converteix en coneixement compartit i genera «greus problemes d'atribució i plagi»."
+    },
     {
       "category": "GOVERNANÇA",
       "read": "5 MIN",
