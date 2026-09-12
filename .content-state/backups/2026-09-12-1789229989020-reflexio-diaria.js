@@ -1,0 +1,33 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-09-11",
+  "title": "El dia en què la IA es va posar a manar de debò",
+  "dek": "Entre un dron guiat per Claude i una cadena de subministrament governada per un model obert, avui la IA ha deixat de proposar per començar a decidir, i el sector mateix ho ha dit en veu alta.",
+  "body": [
+    "Avui les notícies no parlen tant de què sap dir la IA com de què és capaç de fer sola. Anthropic ha mesurat que els seus models ja igualen experts humans triangulant la ubicació d'algú a partir d'una foto i comencen a guiar drons cap a un objectiu en moviment; Nvidia i Palantir han posat un model obert a decidir en temps real com es reparteixen 1,3 milions de peces per bastidor a la pròpia cadena de subministrament de Nvidia; i Visa, Mastercard i Ant International construeixen un carnet d'identitat perquè els agents d'IA puguin comprar sols sense que ningú els confongui amb un bot fraudulent. En els tres casos, el pas de respondre preguntes a prendre decisions amb conseqüències ja no és una promesa, és un producte amb data.",
+    "El que hi ha de nou de debò no és la capacitat en si mateixa —fa mesos que se sap que els models milloren en tasques agèntiques— sinó que avui és el mateix sector qui ho assenyala com un risc, no només com un èxit per celebrar. Anthropic publica les seves pròpies xifres de com d'a prop estan els seus models de fer tasques que fins ara exigien un analista militar format, i OpenAI, que fins fa poc es resistia a qualsevol llei d'IA vinculant, demana avui al Congrés dels Estats Units estàndards de prova obligatoris i notificació d'incidents greus. És un canvi de posició pública, no només un llançament de producte.",
+    "Hi ha, però, un contrapunt que conviu amb aquest avenç i que convida a no llegir-lo com una progressió lineal: MindTopo, el banc de proves presentat també avui, demostra que catorze dels millors models multimodals reconeixen perfectament una relació topològica en una imatge estàtica però la perden de vista en el moment d'actuar-hi. Això xoca amb la seguretat amb què Anthropic mesura les capacitats de guiatge físic dels seus propis models: la IA sap veure millor del que sap fer, i aquesta bretxa entre percepció i acció és precisament on solen amagar-se els errors que ni els mateixos creadors saben preveure del tot.",
+    "L'adopció comercial, mentrestant, avança sense esperar que es resolgui cap d'aquestes preguntes: Meta compra la sueca Stilla per reforçar un agent de vendes que ja fan servir un milió d'empreses, i OpenAI llança un ChatGPT fet a mida per a bancs d'inversió amb Morgan Stanley i Evercore entre els seus socis de disseny. Són decisions de negoci preses amb la mateixa naturalitat amb què fa un any s'anunciava un xatbot nou, com si la conversa sobre capacitats i riscos avancés en un carril diferent del de la facturació trimestral, i com si la infraestructura de compres (el carnet d'identitat de Visa, Mastercard i Ant per als agents que paguen sols) i la de vendes (Stilla, ChatGPT for Financial Services) es construïssin en paral·lel sense esperar-se l'una a l'altra.",
+    "Ahir parlàvem d'una crisi de confiança individual —qui deia la veritat sobre un descobriment o un acord—; avui la pregunta s'ha desplaçat cap a una escala més gran: no si es pot confiar en una persona concreta, sinó si el sector sap mesurar i contenir el que ell mateix construeix abans que ho faci algú amb menys escrúpols. Els dos estudis de ciència del dia hi afegeixen un matís incòmode: un xatbot de companyia no substitueix la solitud real i de vegades l'agreuja, i un sistema d'IA que avalua entrevistes de vídeo no penalitza qui exagera davant la càmera. En totes dues direccions, la IA sembla saber fer la feina tècnica millor que la feina de jutjar-la.",
+    "El que caldrà mirar demà és si la petició d'OpenAI de regles vinculants es tradueix en cap moviment legislatiu real abans que s'acabi l'any, i si les xifres que avui dona Anthropic sobre capacitats militars —contrastades amb el poc que encara sap mesurar un sistema com MindTopo sobre el raonament dels propis models— acaben marcant el ritme amb què la resta del sector decideix, o no, seguir el mateix camí de transparència. Si la resposta arriba només en forma de nous productes i cap més laboratori es mulla amb xifres pròpies, avui haurà quedat com un dia solitari, no com un canvi de norma."
+  ],
+  "signals": [
+    {
+      "title": "Anthropic mesura per primer cop si els seus models saben triangular la ubicació de persones i guiar drons cap a un objectiu",
+      "slug": "anthropic-avaluacio-capacitats-armes-ia"
+    },
+    {
+      "title": "Un nou banc de proves demostra que els models d'IA entenen la topologia d'una imatge però la perden de vista quan han d'actuar-hi",
+      "slug": "mindtopo-benchmark-raonament-topologic-ia"
+    },
+    {
+      "title": "OpenAI demana per primer cop regles vinculants de seguretat per a la IA als Estats Units, un gir respecte a la seva posició anterior",
+      "slug": "openai-regles-vinculants-seguretat-ia"
+    },
+    {
+      "title": "Nvidia i Palantir converteixen la pròpia cadena de subministrament de Nvidia en el primer banc de proves d'una «IA sobirana» per a la indústria",
+      "slug": "nvidia-palantir-ia-sobirana-subministrament"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 694
+};
