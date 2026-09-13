@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-12T16:19:53.521Z",
+  "updatedAt": "2026-09-13T04:30:14.463Z",
   "items": [
     {
       "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Dario Amodei demana a tot el sector de la IA que freni deliberadament el ritme de millora dels models",
-      "excerpt": "El conseller delegat d'Anthropic publica un assaig on proposa un pla en tres passos per «pacar la frontera» de la IA i anuncia que la seva empresa donarà accés d'empleat a avaluadors externs."
+      "read": "4 MIN",
+      "title": "Sam Altman descarta la sortida a borsa d'OpenAI el 2026 i l'ajorna citant «tot el que està passant amb la seguretat»",
+      "excerpt": "El conseller delegat d'OpenAI diu a Fortune que sortir a borsa ara seria «un moment poc encertat» i que l'empresa pausaria l'entrenament si calgués per evitar un sistema fora de control."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Un dispositiu portàtil amb IA que guia sol l'agulla per aturar una hemorràgia guanya el premi federal de transferència tecnològica dels EUA",
+      "excerpt": "AI-GUIDE, desenvolupat pel MIT Lincoln Laboratory i el Massachusetts General Hospital, combina ecografia portàtil i programari d'IA perquè un sanitari amb poca formació pugui col·locar un catèter vascular al camp de batalla."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un agent d'IA aprèn a triar quins gens val la pena editar amb CRISPR i troba una quarta part dels resultats provant només un 5% dels candidats",
-      "excerpt": "Investigadors de Genentech i universitats dels Estats Units presenten AssayLoop, un sistema que decideix quines edicions genètiques provar a cada ronda d'un cribratge CRISPR en lloc de testar-les totes."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un agent d'IA que revisa les seves pròpies hipòtesis bat el rècord en el banc de proves més exigent per predir la toxicitat de fàrmacs",
-      "excerpt": "ADMET-EvO, presentat per un equip de recerca xinès i nord-americà, aconsegueix la puntuació més alta mai vista al banc de proves TDC i redueix en un 72% el temps de càlcul necessari."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "3 MIN",
-      "title": "La canadenca Cohere negocia una ronda de fins a 3.000 milions de dòlars que la valoraria en 20.000 milions",
-      "excerpt": "L'empresa d'IA especialitzada en clients empresarials i governamentals triplicaria amb escreix la valoració de fa un any, en el que seria el finançament privat més gran mai fet per una start-up canadenca."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Barcelona es manté com la tercera ciutat del món amb més projectes d'inversió estrangera en IA, per darrere només de Londres i Singapur",
-      "excerpt": "Un informe d'IBM Consulting i Moody's situa Barcelona com la primera ciutat de la Unió Europea en captació d'inversió estrangera en intel·ligència artificial per segon any consecutiu."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "El Senat dels Estats Units negocia una llei que obligaria OpenAI, Google i Anthropic a evitar riscos catastròfics de la IA",
-      "excerpt": "La proposta bipartidista de Thune, Cruz i Klobuchar imposaria un «deure de cura» als models més avançats i donaria al govern federal poder per bloquejar-ne el llançament si es consideren insegurs, tot i que les empreses podrien recórrer als tribunals."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "El seguiment de converses de ChatGPT per part d'OpenAI permet frustrar un atac escolar planejat per un adolescent a l'Argentina",
-      "excerpt": "La policia federal argentina va detenir un jove de 15 anys a Quilmes després que l'FBI alertés que preguntava al xatbot què necessitaria per atacar els seus antics companys de classe el 2027; li van trobar guants tàctics, passamuntanyes i roba d'estil militar."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un model d'IA localitza en segons els punts d'una proteïna on s'enganxen els ions, amb més precisió que AlphaFold 3",
-      "excerpt": "Investigadors de la Universitat Constructor entrenen BiteNetI amb més de 12.000 complexos proteics i 35.000 ions, i el sistema en detecta 14 tipus diferents amb una precisió de dues a tres vegades superior a la dels mètodes existents."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "La japonesa Sakana AI llança Fugu Max i Fugu Ultra v2, dos «directors d'orquestra» que repengen la feina entre models oberts per abaratir-la",
-      "excerpt": "En lloc de dependre d'un sol model gegant, els nous sistemes reparteixen cada tasca entre un ventall de models oberts i especialitzats, inclosos els Nemotron de Nvidia, i Fugu Max costa fins a un 60% menys que els models de referència del sector."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "La IA de Meta genera preguntes que revelen dades de les filles d'una mare a partir de fotos i vídeos familiars, fins i tot d'una imatge que creia esborrada",
-      "excerpt": "Meta reconeix que la funció, activa a Instagram i Facebook, «no hauria d'haver fet mai» aquest tipus de preguntes després que Futurism en documentés el cas: l'eina va arribar a compilar edats, pes de naixement, aficions i la ubicació de la família."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Nvidia negocia invertir fins a 10.000 milions de dòlars com a inversor d'ancoratge en la sortida a borsa d'Anthropic, valorada en uns 2 bilions",
-      "excerpt": "Segons Reuters, l'operació podria recaptar fins a 100.000 milions de dòlars i tancar-se abans de les eleccions de mig mandat dels Estats Units, en el que seria una de les majors sortides a borsa de la història."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Un atacant fa servir centenars d'agents d'IA per envair 395 organitzacions de 48 països a través d'una fallada del programari d'impressió PaperCut",
-      "excerpt": "La firma de ciberseguretat GreyNoise documenta com un sol atacant va orquestrar una campanya gairebé autònoma amb agents basats en Codex d'OpenAI i un model de DeepSeek, que van arribar a comprometre 11 organitzacions en 26 segons."
+      "title": "Sis rellotges biològics independents coincideixen: un fàrmac dissenyat amb IA va rejovenir uns 3-4 anys els pacients d'un assaig clínic",
+      "excerpt": "Un estudi a Nature Biotechnology aplica per primer cop sis mètodes diferents de mesurar l'edat biològica a partir de proteïnes de la sang a un mateix assaig, el del rentosertib d'Insilico Medicine contra la fibrosi pulmonar."
     },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Una auditoria independent troba fuites de sandbox a Claude Code, Codex i Cursor, i denuncia que Anthropic ha trigat 50 dies a apedaçar-ne una",
-      "excerpt": "La start-up de seguretat Accomplish diu que OpenAI i Cursor van corregir les vulnerabilitats que els va reportar en aproximadament una setmana, mentre que Anthropic hi va trigar unes 30 actualitzacions de programari."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi demostra que els models d'IA prou lleugers per funcionar dins d'una càmera de fototrampeig fallen molt més que els especialitzats a identificar espècies",
-      "excerpt": "Investigadors comparen quatre models de visió i llenguatge d'entre 2.000 i 8.000 milions de paràmetres amb BioCLIP, un model especialitzat deu vegades més petit, i troben que tots perden fins a 26,6 punts de precisió amb imatges reals de camp."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "25 medallistes Fields, entre ells Terence Tao, alerten que la cursa de les empreses d'IA per resoldre problemes famosos perjudica les matemàtiques",
-      "excerpt": "En una declaració conjunta publicada al blog de Tao, els matemàtics denuncien que convertir la resolució de problemes en un exercici de marca trenca el procés pel qual un resultat es converteix en coneixement compartit i genera «greus problemes d'atribució i plagi»."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Califòrnia aprova la llei de seguretat de xatbots més estricta dels Estats Units, arran de la mort d'un adolescent que parlava amb ChatGPT",
-      "excerpt": "El governador Gavin Newsom ha signat la «Llei d'Adam», batejada en memòria d'Adam Raine, que obliga les empreses d'IA a fer auditories independents de seguretat infantil i a activar protocols davant senyals d'ideació suïcida."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA física calcula per primer cop a escala mundial quant carboni «es queda» amagat als sediments del fons marí",
-      "excerpt": "Investigadors de la Universitat de Manchester entrenen models d'aprenentatge automàtic per reproduir un model mecanicista massa complex per aplicar-lo a tot el planeta, i troben que la meitat del carboni orgànic sòlid de la capa superior dels sediments prové de carboni dissolt adherit als minerals."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "L'ETH de Zúric trasllada 100 petabytes de dades de la NASA a un superordinador suís per entrenar IA que anticipi desastres naturals",
-      "excerpt": "Els investigadors de Zúric han trigat un any a copiar prop de sis mil milions de fitxers climàtics i d'observació de la Terra de la NASA als servidors del superordinador Alps, per entrenar models capaços de fer una previsió meteorològica global en minuts."
+      "title": "Un segon investigador de seguretat d'Anthropic dimiteix en dues setmanes i diu que «potser no sobrevivim» a la cursa de la IA",
+      "excerpt": "Joe Benton, que dirigia l'equip de supervisió escalable d'Anthropic, explica per què va deixar l'empresa fa dues setmanes i passa a METR per fer avaluacions independents de risc, just després de la dimissió de Jacob Coxon."
     },
     {
       "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Microsoft preveu triplicar la seva capacitat de centres de dades fins als 38 gigawatts el 2032 després de quedar-se curta de servidors per a la IA",
-      "excerpt": "Segons Bloomberg, l'empresa ha hagut de rebutjar clients de núvol i d'IA per manca de capacitat —Temu hauria traslladat un contracte a Oracle i GitHub va patir una avaria de vuit hores per aquest motiu— i preveu que un terç de la nova capacitat es dediqui a IA."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Google tanca un acord d'1.500 milions de dòlars per fitxar l'equip de la start-up Mechanize i llicenciar-ne la tecnologia per a agents de programació",
-      "excerpt": "L'acord no és una compra formal: Google contracta més d'una dotzena d'empleats de Mechanize, inclòs el seu cofundador Tamay Besiroglu, que passa a Google DeepMind, i en llicencia la tecnologia de manera no exclusiva, seguint el mateix patró que va fer servir amb Windsurf."
+      "read": "3 MIN",
+      "title": "El Pentàgon negocia un préstec de 5.000 milions de dòlars a Fluidstack, no per obrir un centre de dades sinó per fabricar-ne els components",
+      "excerpt": "L'Oficina de Capital Estratègic del Departament de Defensa dels EUA estudia finançar l'empresa d'infraestructura d'IA perquè reforci la cadena de subministrament de transformadors i altres components elèctrics crítics, encara escassos."
     }
   ]
 }
