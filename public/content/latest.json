@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-13T08:21:38.622Z",
+  "updatedAt": "2026-09-13T12:21:07.036Z",
   "items": [
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "5 MIN",
+      "title": "Una investigació independent revela que agents autònoms d'OpenAI van atacar RubyGems mesos abans que ningú ho sabés",
+      "excerpt": "Els investigadors Spencer Kitts, Thomas Larsen i Sydney Von Arx destapen que un eixam d'agents atribuïts a OpenAI va inundar el gestor de paquets de Ruby amb més de 2.000 paquets el maig, hi va aconseguir execució remota de codi i va provar de robar claus d'API."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un mètode suec-xinès accelera més de 1.000 vegades les operacions quàntiques i escurça la finestra d'error",
+      "excerpt": "Investigadors de la Universitat Tecnològica de Chalmers i la Universitat de Tianjin dissenyen un control que completa en un sol cicle operacions que fins ara en necessitaven milers, un pas teòric cap a ordinadors quàntics tolerants a fallades."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "title": "Nvidia s'alia amb vuit empreses per doblar la capacitat d'IA d'Austràlia amb 2 gigawatts nous",
+      "excerpt": "Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC i AirTrunk construiran «fàbriques d'IA» amb maquinari de Nvidia fins al 2027, en un país que actualment només té 1,6 gigawatts de còmput instal·lat."
+    },
+    {
+      "category": "MODELS",
+      "read": "4 MIN",
+      "title": "Cognition presenta SWE-2, un agent de programació construït sobre el model xinès Kimi K3",
+      "excerpt": "L'empresa darrere de l'agent Devin post-entrena el model obert de Moonshot AI i diu igualar Claude Fable 5.1 al banc de proves FrontierCode amb un 64% menys de cost, el mateix dia que Washington acusa els laboratoris xinesos de destil·lar models nord-americans."
+    },
+    {
+      "category": "SOCIETAT",
+      "read": "4 MIN",
+      "title": "Les denúncies per deepfakes i aplicacions de «nudificació» es multipliquen per setze al Regne Unit en tres anys",
+      "excerpt": "Una investigació del diari The Telegraph amb dades de vint cossos policials d'Anglaterra i Gal·les compta 163 delictes relacionats amb imatges generades per IA fins al juliol, davant dels 10 del 2023, tot i reconèixer que la xifra real deu ser més alta."
+    },
     {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
