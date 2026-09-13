@@ -1,0 +1,32 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-09-12",
+  "title": "El dia en què frenar es va convertir en un compromís, no una promesa",
+  "dek": "Dario Amodei posa per escrit un pla concret per alentir la IA el mateix dia que les rondes d'inversió i els plans d'infraestructura marquen xifres rècord, i que la pressió reguladora arriba alhora pel Senat, els tribunals i la comunitat matemàtica.",
+  "body": [
+    "El dia s'ha tancat amb Dario Amodei publicant un assaig on demana a tot el sector que «pagui la frontera» de la IA: que freni deliberadament el ritme amb què millora les capacitats dels models per donar temps a la seguretat de posar-se al dia. No arriba sol ni per sorpresa. Ja pel matí el Senat dels Estats Units negociava una llei de «deure de cura» que obligaria OpenAI, Google i Anthropic a evitar riscos catastròfics, i vint-i-cinc medallistes Fields alertaven que la cursa per resoldre problemes matemàtics famosos està distorsionant la disciplina. Califòrnia, per la seva banda, ja ha signat la llei de seguretat de xatbots per a menors més estricta del país.",
+    "El que hi ha de nou de debò no és que algú digui que cal anar amb compte —fa dies que el sector ho repeteix— sinó que per primer cop un dels dos laboratoris que marquen el ritme es compromet a alguna cosa verificable: donar a avaluadors externs un accés equivalent al d'un empleat, amb dret a publicar el que hi trobin. És un salt respecte a ahir, quan Anthropic es limitava a mesurar públicament els seus propis riscos; avui proposa deixar que algú de fora els comprovi. I arriba just un dia després que Sam Altman digués als seus empleats que OpenAI també estaria disposada a alentir-se si la resta ho fa.",
+    "El contrapunt que conviu amb tot això és que ningú, de moment, ha frenat res de debò. El mateix dia que Amodei parla de pagar la frontera, Nvidia negocia invertir fins a 10.000 milions de dòlars com a àncora de la sortida a borsa d'Anthropic, Microsoft preveu triplicar la seva capacitat de centres de dades fins als 38 gigawatts el 2032, i la canadenca Cohere tanca una ronda que la valoraria en 20.000 milions. Barcelona, de fet, es manté com la tercera ciutat del món en inversió estrangera captada en IA. La retòrica de la cautela i el ritme de capital circulen avui per carrils que no es toquen.",
+    "La tendència que s'hi comença a veure és una bifurcació: la conversa sobre seguretat es fa cada cop més interna al sector —compromisos i mesures que els mateixos laboratoris s'imposen, més ràpids de posar en marxa que qualsevol llei—, mentre els riscos operatius ja no són hipòtesis. Avui mateix es confirmava que un atac amb centenars d'agents d'IA ha envaït 395 organitzacions de 48 països explotant una fallada de programari, i que una auditoria independent ha trigat 50 dies a veure com Anthropic apedaçava una fuita de seguretat als seus propis agents de programació. La preocupació ja no es formula en futur.",
+    "El que caldrà mirar és si aquest gest d'Amodei queda en un compromís aïllat o si Google i OpenAI hi responen amb mesures igual de concretes, més enllà de declaracions com la d'Altman; si el projecte de llei del Senat avança ara que el mateix sector demana ser vigilat; i, sobretot, si algun dels moviments d'inversió d'aquests dies —l'IPO d'Anthropic, la ronda de Cohere, l'expansió de Microsoft— mostra cap senyal de pausa real. De moment, la data que marca el pas és la de l'assaig, no la de cap frenada efectiva."
+  ],
+  "signals": [
+    {
+      "title": "Dario Amodei demana a tot el sector de la IA que freni deliberadament el ritme de millora dels models",
+      "slug": "dario-amodei-pacar-frontera-ia"
+    },
+    {
+      "title": "El Senat dels Estats Units negocia una llei que obligaria OpenAI, Google i Anthropic a evitar riscos catastròfics de la IA",
+      "slug": "senat-eua-llei-deure-cura-ia-catastrofica"
+    },
+    {
+      "title": "Un atacant fa servir centenars d'agents d'IA per envair 395 organitzacions de 48 països a través d'una fallada del programari d'impressió PaperCut",
+      "slug": "agents-ia-atac-papercut-395-organitzacions"
+    },
+    {
+      "title": "La canadenca Cohere negocia una ronda de fins a 3.000 milions de dòlars que la valoraria en 20.000 milions",
+      "slug": "cohere-ronda-20000-milions-valoracio"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 529
+};

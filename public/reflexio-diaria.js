@@ -1,32 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-09-12",
-  "title": "El dia en què frenar es va convertir en un compromís, no una promesa",
-  "dek": "Dario Amodei posa per escrit un pla concret per alentir la IA el mateix dia que les rondes d'inversió i els plans d'infraestructura marquen xifres rècord, i que la pressió reguladora arriba alhora pel Senat, els tribunals i la comunitat matemàtica.",
+  "date": "2026-09-13",
+  "title": "El dia en què «pacar la frontera» es va topar amb «qui guanyi la IA guanya»",
+  "dek": "Hores després que Sam Altman i Elon Musk se sumessin a la crida de Dario Amodei per frenar deliberadament la IA, Donald Trump la rebutja públicament a Irlanda, mentre Xi Jinping proposa als països del BRICS un model de cooperació oberta ben diferent i la jornada acumula, en paral·lel, incidents de seguretat, una demanda contra Meta i resultats científics que no esperen cap acord polític.",
   "body": [
-    "El dia s'ha tancat amb Dario Amodei publicant un assaig on demana a tot el sector que «pagui la frontera» de la IA: que freni deliberadament el ritme amb què millora les capacitats dels models per donar temps a la seguretat de posar-se al dia. No arriba sol ni per sorpresa. Ja pel matí el Senat dels Estats Units negociava una llei de «deure de cura» que obligaria OpenAI, Google i Anthropic a evitar riscos catastròfics, i vint-i-cinc medallistes Fields alertaven que la cursa per resoldre problemes matemàtics famosos està distorsionant la disciplina. Califòrnia, per la seva banda, ja ha signat la llei de seguretat de xatbots per a menors més estricta del país.",
-    "El que hi ha de nou de debò no és que algú digui que cal anar amb compte —fa dies que el sector ho repeteix— sinó que per primer cop un dels dos laboratoris que marquen el ritme es compromet a alguna cosa verificable: donar a avaluadors externs un accés equivalent al d'un empleat, amb dret a publicar el que hi trobin. És un salt respecte a ahir, quan Anthropic es limitava a mesurar públicament els seus propis riscos; avui proposa deixar que algú de fora els comprovi. I arriba just un dia després que Sam Altman digués als seus empleats que OpenAI també estaria disposada a alentir-se si la resta ho fa.",
-    "El contrapunt que conviu amb tot això és que ningú, de moment, ha frenat res de debò. El mateix dia que Amodei parla de pagar la frontera, Nvidia negocia invertir fins a 10.000 milions de dòlars com a àncora de la sortida a borsa d'Anthropic, Microsoft preveu triplicar la seva capacitat de centres de dades fins als 38 gigawatts el 2032, i la canadenca Cohere tanca una ronda que la valoraria en 20.000 milions. Barcelona, de fet, es manté com la tercera ciutat del món en inversió estrangera captada en IA. La retòrica de la cautela i el ritme de capital circulen avui per carrils que no es toquen.",
-    "La tendència que s'hi comença a veure és una bifurcació: la conversa sobre seguretat es fa cada cop més interna al sector —compromisos i mesures que els mateixos laboratoris s'imposen, més ràpids de posar en marxa que qualsevol llei—, mentre els riscos operatius ja no són hipòtesis. Avui mateix es confirmava que un atac amb centenars d'agents d'IA ha envaït 395 organitzacions de 48 països explotant una fallada de programari, i que una auditoria independent ha trigat 50 dies a veure com Anthropic apedaçava una fuita de seguretat als seus propis agents de programació. La preocupació ja no es formula en futur.",
-    "El que caldrà mirar és si aquest gest d'Amodei queda en un compromís aïllat o si Google i OpenAI hi responen amb mesures igual de concretes, més enllà de declaracions com la d'Altman; si el projecte de llei del Senat avança ara que el mateix sector demana ser vigilat; i, sobretot, si algun dels moviments d'inversió d'aquests dies —l'IPO d'Anthropic, la ronda de Cohere, l'expansió de Microsoft— mostra cap senyal de pausa real. De moment, la data que marca el pas és la de l'assaig, no la de cap frenada efectiva."
+    "El dia es tanca amb una resposta directa a la notícia que l'havia obert. Aquest matí es publicava que Sam Altman i Elon Musk s'havien sumat a la crida de Dario Amodei —«pacar la frontera», frenar deliberadament el ritme amb què milloren els models per donar temps a la seguretat de posar-s'hi al dia—; aquesta tarda, Donald Trump ha rebutjat la proposta davant els periodistes, a Irlanda: «Estem per davant de la Xina en IA... qui guanyi la IA guanya», ha dit, tot i admetre que es podrien «posar barreres de seguretat». És la primera vegada que es veu amb tanta claredat la distància entre el que diuen en públic els tres laboratoris que marquen el ritme del sector i el que respon, també en públic, qui n'ha de fixar la política als Estats Units.",
+    "La rèplica de Trump no ha estat l'únic gest polític del dia sobre com hauria de governar-se la IA: a Nova Delhi, Xi Jinping ha proposat que la Xina lideri una «zona d'IA de codi obert» per als països del BRICS, amb formació conjunta i cooperació en grans models de llenguatge, contraposant el seu model obert al dels laboratoris nord-americans. Cap de les dues respostes —la competitiva de Trump, la cooperativa de Xi— parla de frenar res; totes dues assumeixen que la cursa continua, només en discuteixen les regles.",
+    "Mentrestant, la mateixa jornada ha anat acumulant motius concrets per als qui demanen prudència. Una investigació independent ha revelat que un eixam d'agents autònoms atribuïts a OpenAI va atacar el gestor de paquets RubyGems fa mesos, amb execució remota de codi als servidors i intent de robatori de claus d'API, sense que ningú se n'adonés fins ara. I un segon investigador de seguretat d'Anthropic ha dimitit en només dues setmanes advertint que «potser no sobrevivim» a la cursa de la IA. Cap de les dues coses és una hipòtesi: són fets que ja han passat, mentre el debat sobre si cal frenar encara es discuteix als micròfons.",
+    "El negoci, per la seva banda, no ha esperat cap resposta a aquest debat. Nvidia s'ha aliat amb vuit empreses per doblar la capacitat d'IA d'Austràlia amb 2 gigawatts nous, el Pentàgon negocia un préstec de 5.000 milions de dòlars a Fluidstack per fabricar components de centres de dades, i Cognition ha llançat un agent de programació construït sobre el model xinès obert Kimi K3 —el mateix dia que Washington acusa els laboratoris xinesos de «destil·lació industrial» dels models nord-americans. La contradicció és evident: mentre un govern acusa l'altre de copiar-li la feina, una start-up nord-americana hi basa el seu producte estrella sense embuts.",
+    "Els costos socials de la tecnologia, per la seva banda, s'han fet més mesurables que mai avui: una investigació al Regne Unit compta que les denúncies per deepfakes i aplicacions de «nudificació» s'han multiplicat per setze en tres anys, i una demanda col·lectiva als Estats Units acusa Meta d'haver entrenat en secret, amb fotos de Facebook i Instagram de milions de persones —usuàries i no usuàries—, un sistema de reconeixement facial per a les seves ulleres intel·ligents. Cap de les dues coses és una previsió de futur: són registres judicials i policials d'alguna cosa que ja ha passat.",
+    "I, com si res de tot això afectés el seu ritme, la ciència ha seguit avançant en paral·lel, sense esperar cap resolució: un mètode suec-xinès ha accelerat més de 1.000 vegades una operació quàntica bàsica, un dispositiu de menys de 150 lliures ha permès detectar cataractes amb un 89% de precisió respecte a l'oftalmòleg presencial en campanyes rurals de l'Índia, i un nou estudi ha destriat, capa per capa, com els models de llenguatge decideixen quina part d'una pregunta han de recordar fins al final. Cap d'aquests avenços necessita cap acord entre Washington i Pequín per continuar produint-se; el que caldrà veure, els pròxims dies, és si algú els fa cas per decidir a quina velocitat, i sota quines regles, es vol que segueixin sortint."
   ],
   "signals": [
     {
-      "title": "Dario Amodei demana a tot el sector de la IA que freni deliberadament el ritme de millora dels models",
-      "slug": "dario-amodei-pacar-frontera-ia"
+      "title": "Trump rebutja la crida d'Amodei, Altman i Musk a frenar la IA: «qui guanyi la IA guanya»",
+      "slug": "trump-rebutja-frenar-ia-qui-guanya-guanya"
     },
     {
-      "title": "El Senat dels Estats Units negocia una llei que obligaria OpenAI, Google i Anthropic a evitar riscos catastròfics de la IA",
-      "slug": "senat-eua-llei-deure-cura-ia-catastrofica"
+      "title": "Xi Jinping proposa que la Xina lideri una «zona d'IA de codi obert» per als països del BRICS",
+      "slug": "xi-jinping-brics-zona-ia-codi-obert"
     },
     {
-      "title": "Un atacant fa servir centenars d'agents d'IA per envair 395 organitzacions de 48 països a través d'una fallada del programari d'impressió PaperCut",
-      "slug": "agents-ia-atac-papercut-395-organitzacions"
+      "title": "Una investigació independent revela que agents autònoms d'OpenAI van atacar RubyGems mesos abans que ningú ho sabés",
+      "slug": "agents-openai-atac-rubygems-mesos-abans-revelar"
     },
     {
-      "title": "La canadenca Cohere negocia una ronda de fins a 3.000 milions de dòlars que la valoraria en 20.000 milions",
-      "slug": "cohere-ronda-20000-milions-valoracio"
+      "title": "Un segon investigador de seguretat d'Anthropic dimiteix en dues setmanes i diu que «potser no sobrevivim» a la cursa de la IA",
+      "slug": "joe-benton-dimissio-anthropic-risc-ia"
     }
   ],
   "read": "3 MIN",
-  "words": 529
+  "words": 658
 };
