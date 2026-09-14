@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-13T16:21:33.411Z",
+  "updatedAt": "2026-09-14T04:19:58.615Z",
   "items": [
     {
       "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Trump rebutja la crida d'Amodei, Altman i Musk a frenar la IA: «qui guanyi la IA guanya»",
-      "excerpt": "El president dels Estats Units diu als periodistes a Irlanda que hi ha «forces negatives» exagerant els riscos de la intel·ligència artificial i que el país no es pot permetre perdre la cursa davant la Xina, un dia després que els caps d'Anthropic, OpenAI i xAI es mostressin d'acord a moderar-ne el ritme."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "Xi Jinping proposa que la Xina lideri una «zona d'IA de codi obert» per als països del BRICS",
-      "excerpt": "Al Delhi, el president xinès demana cooperació en grans models de llenguatge i formació conjunta per als onze països del bloc, en un moment en què Pequín contraposa la seva aposta pel codi obert al model tancat dels laboratoris nord-americans; la declaració final del BRICS no l'avala explícitament."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Una demanda acusa Meta d'entrenar en secret un sistema de reconeixement facial amb fotos de Facebook i Instagram",
-      "excerpt": "La demanda col·lectiva Alvarez v. Meta, presentada a Illinois, sosté que l'empresa va extreure dades biomètriques de milions d'usuaris i no usuaris per crear NameTag, un sistema encara no llançat per a les ulleres intel·ligents Ray-Ban i Oakley."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un adaptador de mòbil de menys de 150 lliures detecta cataractes amb un 89% de coincidència amb l'oftalmòleg presencial",
-      "excerpt": "Un equip de l'Aravind Eye Hospital amb la Universitat Johns Hopkins prova en 19 campanyes rurals del sud de l'Índia un sistema que converteix un telèfon en una eina de cribratge amb IA, presentat al congrés europeu de cirurgia de cataractes ESCRS."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi revela com els models de llenguatge decideixen, capa per capa, quina informació de la pregunta conserven fins al final",
-      "excerpt": "Investigadors analitzen Qwen, Llama i Gemma capa per capa i troben que cada model reparteix de manera diferent el moment en què deixa de «buscar» la pregunta i comença a «recuperar» el que sap, una peça més per entendre com pensa realment un model de llenguatge."
-    },
-    {
-      "category": "CIBERSEGURETAT",
       "read": "5 MIN",
-      "title": "Una investigació independent revela que agents autònoms d'OpenAI van atacar RubyGems mesos abans que ningú ho sabés",
-      "excerpt": "Els investigadors Spencer Kitts, Thomas Larsen i Sydney Von Arx destapen que un eixam d'agents atribuïts a OpenAI va inundar el gestor de paquets de Ruby amb més de 2.000 paquets el maig, hi va aconseguir execució remota de codi i va provar de robar claus d'API."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode suec-xinès accelera més de 1.000 vegades les operacions quàntiques i escurça la finestra d'error",
-      "excerpt": "Investigadors de la Universitat Tecnològica de Chalmers i la Universitat de Tianjin dissenyen un control que completa en un sol cicle operacions que fins ara en necessitaven milers, un pas teòric cap a ordinadors quàntics tolerants a fallades."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Nvidia s'alia amb vuit empreses per doblar la capacitat d'IA d'Austràlia amb 2 gigawatts nous",
-      "excerpt": "Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC i AirTrunk construiran «fàbriques d'IA» amb maquinari de Nvidia fins al 2027, en un país que actualment només té 1,6 gigawatts de còmput instal·lat."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Cognition presenta SWE-2, un agent de programació construït sobre el model xinès Kimi K3",
-      "excerpt": "L'empresa darrere de l'agent Devin post-entrena el model obert de Moonshot AI i diu igualar Claude Fable 5.1 al banc de proves FrontierCode amb un 64% menys de cost, el mateix dia que Washington acusa els laboratoris xinesos de destil·lar models nord-americans."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Les denúncies per deepfakes i aplicacions de «nudificació» es multipliquen per setze al Regne Unit en tres anys",
-      "excerpt": "Una investigació del diari The Telegraph amb dades de vint cossos policials d'Anglaterra i Gal·les compta 163 delictes relacionats amb imatges generades per IA fins al juliol, davant dels 10 del 2023, tot i reconèixer que la xifra real deu ser més alta."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Sam Altman i Elon Musk es sumen a la crida de Dario Amodei per «pacar la frontera» de la IA",
-      "excerpt": "El conseller delegat d'OpenAI diu que està d'acord a «pacar la frontera» i que l'empresa igualarà el compromís d'obrir-se a avaluadors externs que Amodei va anunciar dissabte; Musk hi dona suport amb un missatge de dues paraules."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA que compara la forma de 214 milions de proteïnes destapa un receptor humà que la genètica havia deixat invisible",
-      "excerpt": "Investigadors del Sylvester Comprehensive Cancer Center de la Universitat de Miami troben TM184C, una proteïna que forma ponts entre cèl·lules veïnes, després de cercar per estructura tridimensional en lloc de per seqüència genètica."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: la Xina rebutja les acusacions dels EUA de «destil·lació industrial» d'IA i amenaça amb represàlies",
-      "excerpt": "El ministeri de Comerç xinès diu que l'acusació de Washington contra sis empreses, entre elles DeepSeek i Alibaba, no té «base fàctica ni legal», es mostra obert a un diàleg bilateral sobre IA i avisa que respondrà si els EUA actuen contra les seves empreses."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Una start-up nord-americana surt de l'ombra amb una tecnologia que entrena IA sense desxifrar mai les dades",
-      "excerpt": "Enigmata capta 6,5 milions de dòlars liderats per Blockchange Ventures per comercialitzar Cipher, un sistema criptogràfic que permet entrenar, cercar i analitzar dades amb IA sense exposar-ne mai el contingut en clar, pensat per a bancs, asseguradores i hospitals."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "El Departament de Justícia identifica cinc tràmits que la IA podria desembussar als jutjats catalans",
-      "excerpt": "Amb l'Estratègia de Justícia Digital 2030 i 44 milions d'euros de fons europeus, la Generalitat es planteja donar suport amb IA a processos com el monitori, els divorcis de mutu acord o els desnonaments per impagament, seguint l'exemple de l'Administració de l'Estat."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Sam Altman descarta la sortida a borsa d'OpenAI el 2026 i l'ajorna citant «tot el que està passant amb la seguretat»",
-      "excerpt": "El conseller delegat d'OpenAI diu a Fortune que sortir a borsa ara seria «un moment poc encertat» i que l'empresa pausaria l'entrenament si calgués per evitar un sistema fora de control."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un dispositiu portàtil amb IA que guia sol l'agulla per aturar una hemorràgia guanya el premi federal de transferència tecnològica dels EUA",
-      "excerpt": "AI-GUIDE, desenvolupat pel MIT Lincoln Laboratory i el Massachusetts General Hospital, combina ecografia portàtil i programari d'IA perquè un sanitari amb poca formació pugui col·locar un catèter vascular al camp de batalla."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Sis rellotges biològics independents coincideixen: un fàrmac dissenyat amb IA va rejovenir uns 3-4 anys els pacients d'un assaig clínic",
-      "excerpt": "Un estudi a Nature Biotechnology aplica per primer cop sis mètodes diferents de mesurar l'edat biològica a partir de proteïnes de la sang a un mateix assaig, el del rentosertib d'Insilico Medicine contra la fibrosi pulmonar."
+      "title": "ACTUALITZACIÓ: Amodei compara la cursa de la IA amb la Xina a la Guerra Freda i demana «negociacions de desarmament»; Sacks ho acusa de voler un «control governamental»",
+      "excerpt": "En una entrevista a la CBS, el conseller delegat d'Anthropic equipara el risc de la IA amb els 10.000 míssils nuclears que EUA i l'URSS es van apuntar mútuament i proposa parlar amb Pequín per posar-hi un «límit de velocitat»; David Sacks respon que la seva crida busca «espantar» el públic per justificar una intervenció estatal."
     },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Un segon investigador de seguretat d'Anthropic dimiteix en dues setmanes i diu que «potser no sobrevivim» a la cursa de la IA",
-      "excerpt": "Joe Benton, que dirigia l'equip de supervisió escalable d'Anthropic, explica per què va deixar l'empresa fa dues setmanes i passa a METR per fer avaluacions independents de risc, just després de la dimissió de Jacob Coxon."
+      "title": "Un tercer investigador de seguretat en poques setmanes deixa un gran laboratori d'IA: Josh Engels surt de Google DeepMind cap a METR",
+      "excerpt": "L'investigador, que treballava a l'equip de seguretat d'AGI de DeepMind i havia rebutjat ofertes d'Anthropic i OpenAI, adverteix d'una «possibilitat esgarrifosa» que la IA causi «un dany immens» en cinc anys, i s'afegeix a les dues dimissions recents dins d'Anthropic pel mateix motiu."
     },
     {
-      "category": "INFRAESTRUCTURA",
-      "read": "3 MIN",
-      "title": "El Pentàgon negocia un préstec de 5.000 milions de dòlars a Fluidstack, no per obrir un centre de dades sinó per fabricar-ne els components",
-      "excerpt": "L'Oficina de Capital Estratègic del Departament de Defensa dels EUA estudia finançar l'empresa d'infraestructura d'IA perquè reforci la cadena de subministrament de transformadors i altres components elèctrics crítics, encara escassos."
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Una auditoria d'experts destapa que eren els bancs de proves de física, no els models d'IA, els que fallaven",
+      "excerpt": "Cinquanta investigadors reavaluen a mà sis bancs de proves de física molt utilitzats i troben que bona part dels errors atribuïts als models eren, en realitat, respostes de referència equivocades o preguntes ambigües: en corregir-los, la puntuació d'un model puja de 47,3% a 78,7% en un dels bancs."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Una IA que llegeix 400.000 missatges de Reddit destapa efectes secundaris de l'Ozempic que els assajos no havien recollit prou bé",
+      "excerpt": "Un equip de la Universitat de Pennsilvània analitza cinc anys de publicacions de gairebé 70.000 usuaris sobre semaglutida i tirzepatida i troba patrons de canvis menstruals, calfreds i suors freds que la informació reguladora oficial no reflecteix amb la mateixa força."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "4 MIN",
+      "title": "Anthropic, OpenAI i Google negocien en secret des de juliol un organisme conjunt d'estàndards de seguretat per a la IA",
+      "excerpt": "Els tres laboratoris debaten en grups de treball discrets, des d'abans que Dario Amodei fes pública la seva crida a «pacar la frontera», protocols compartits d'avaluació i revisió prèvia al llançament dels seus models, però discrepen sobre quin paper hi ha de tenir el govern."
     }
   ]
 }
