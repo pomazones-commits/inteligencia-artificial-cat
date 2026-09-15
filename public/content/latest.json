@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-15T12:21:03.892Z",
+  "updatedAt": "2026-09-15T16:18:58.375Z",
   "items": [
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Google trenca amb la seva política interna i deixa que tots els seus enginyers facin servir Claude Opus 5",
+      "excerpt": "Segons Business Insider, l'empresa permet ara accedir al model d'Anthropic a través de la seva eina interna Antigravity amb una quota per empleat, després de mesos de queixes internes perquè Gemini anava per darrere de Claude i GPT en tasques de programació."
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "Una IA generativa dissenya proteïnes per a teràpies CAR-T que controlen el càncer millor que les aprovades per la FDA",
+      "excerpt": "Un equip del Memorial Sloan Kettering Cancer Center ha encadenat dos models d'intel·ligència artificial per generar i seleccionar «lligands» proteics que ajuden les cèl·lules CAR-T a reconèixer tumors, i n'ha obtingut un que controla completament el creixement del càncer en ratolins."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Una IA descobreix per si sola les equacions que descriuen com es deformen els metalls i el cautxú",
+      "excerpt": "Investigadors de l'Eastern Institute of Technology, a la Xina, han creat GraphED, un sistema que representa equacions matemàtiques com a grafs i n'explora milers de combinacions fins a trobar lleis constitutives que superen els models d'enginyeria de referència per a acers, liti metàl·lic i cautxús."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Un laboratori xinès publica en silenci un model obert de 744.000 milions de paràmetres pensat per a agents autònoms",
+      "excerpt": "El Shanghai AI Laboratory ha penjat a GitHub i Hugging Face els pesos d'Atria Dawn Preview, construït sobre GLM-5.2 i entrenat amb una «canonada d'experiència verificable» que lliga cada acció de l'agent a un entorn executable, sense cap anunci previ ni article acadèmic que l'acompanyés."
+    },
+    {
+      "category": "ECONOMIA",
+      "read": "4 MIN",
+      "title": "Els treballadors catalans fan servir la IA molt més de pressa que les empreses on treballen",
+      "excerpt": "Un 30,4% de les empreses catalanes de més de nou treballadors havia incorporat o invertit en IA el 2025, sis punts més que l'any anterior, però la bretxa entre grans companyies i pimes es manté i el 77% dels empleats que ja en fan servir hi porten eines pròpies sense esperar l'aval de l'empresa."
+    },
     {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
