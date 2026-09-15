@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-14T16:27:48.397Z",
+  "updatedAt": "2026-09-15T04:22:52.112Z",
   "items": [
     {
-      "category": "GEOPOLÍTICA",
+      "category": "GOVERNANÇA",
       "read": "5 MIN",
-      "title": "El cap de l'espionatge xinès alerta que la IA amenaça la «seguretat política» del país, dies abans de la cimera Trump-Xi",
-      "excerpt": "Chen Yixin, ministre de Seguretat de l'Estat de la Xina, escriu a la revista oficial China Cyberspace que «forces hostils» fan servir la IA generativa per fabricar rumors polítics i guerra cognitiva contra Pequín, i assenyala Claude i ChatGPT com a eines amb capacitat de pirateig preocupant per a les infraestructures crítiques xineses."
+      "title": "ACTUALITZACIÓ: Microsoft publica un esborrany de 37 pàgines per mantenir la IA «sota control humà permanent»",
+      "excerpt": "El «Humanist AI Code of Conduct», liderat per Mustafa Suleyman i supervisat per Satya Nadella, prohibeix que els seus models ajudin a desenvolupar armes autònomes, facin operacions cibernètiques ofensives o amaguin el seu raonament intern, i obre sis setmanes de consulta pública abans de guiar els models MAI del 2027."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Físics austríacs connecten un microscopi electrònic a un ordinador quàntic per «veure» mostres biològiques amb molts menys electrons",
-      "excerpt": "Un equip de la Universitat Tècnica de Viena, la Universitat de Viena, la Universitat Johannes Kepler de Linz i la Universitat d'Innsbruck proposa acoblar el feix d'electrons d'un microscopi a un ordinador quàntic d'ions atrapats, entrellaçant-los per extreure'n més informació amb menys dosi de radiació, clau per estudiar proteïnes i altres mostres delicades."
+      "title": "Un mètode del MIT aconsegueix que la IA generativa compleixi sempre les normes físiques sense haver de reentrenar-la",
+      "excerpt": "L'algorisme HardFlow, del Laboratory for Information and Decision Systems del MIT, deixa que el model tingui llibertat mentre genera la solució i només n'imposa les restriccions de seguretat al resultat final: en proves de manipulació robòtica, navegació per laberints i edició d'imatges, va complir sempre les condicions i va trobar solucions millors que els mètodes existents."
     },
     {
-      "category": "SALUT",
+      "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Un dispositiu portàtil amb IA que ajuda a canalitzar una vena en plena batalla guanya el premi federal nord-americà de transferència tecnològica",
-      "excerpt": "AI-GUIDE, desenvolupat pel Lincoln Laboratory del MIT i l'Hospital General de Massachusetts amb finançament de l'Exèrcit dels Estats Units, combina un ecògraf portàtil amb programari d'IA que guia pas a pas la inserció d'un catèter en una vena, perquè personal amb formació mínima pugui fer-ho fora d'un hospital."
+      "title": "Un test d'associació implícita aplicat a models de raonament revela que els costa menys pensar en estereotips que contradir-los",
+      "excerpt": "Messi H. J. Lee (Washington University in St. Louis) i Calvin K. Lai adapten el test psicològic d'associació implícita a quatre models de raonament i troben que gasten sistemàticament menys «esforç» —mesurat en fitxes de raonament— quan processen informació que confirma un estereotip que quan el contradiu; Claude 3.7 Sonnet és l'única excepció."
     },
     {
       "category": "MERCATS",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: SoftBank aconsegueix un préstec rècord de 11.870 milions de dòlars per seguir finançant OpenAI, mentre les seves accions cauen fins a un 13%",
-      "excerpt": "Uns vint bancs sobresubscriuen un préstec a dos anys per a SoftBank, ampliat dels 10.000 milions previstos inicialment fins als 11.870 milions, per seguir sufragant la seva aposta de gairebé 65.000 milions de dòlars a OpenAI, el mateix dia en què les seves accions han arribat a caure un 13%, la baixada més forta des del 17 de juliol."
-    },
-    {
-      "category": "TREBALL",
-      "read": "4 MIN",
-      "title": "Meta torna a nomenar caps d'equip a la divisió d'IA aplicada, un any després d'haver-los eliminat en nom de la IA",
-      "excerpt": "Meta pregunta als treballadors individuals de la seva divisió Applied AI si volen tornar a assumir rols de comandament, i desfà parcialment l'aposta de Mark Zuckerberg de 2023 per «aplanar» l'organització confiant que la IA reduiria la necessitat de gestors intermedis."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Anthropic admet per primer cop que els seus models més nous ja no es poden donar per descomptat per sota del llindar de risc de bioarmes",
-      "excerpt": "L'informe trimestral de detecció de mal ús de Claude descriu cinc casos en què científics van fer servir el model per investigar chikungunya, grip aviar, ortopoxvirus i pèptids de verí amb un possible ús armamentístic, i reconeix per primera vegada que els models més recents ja no queden clarament per sota del llindar de risc biològic."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Obama demana als demòcrates un «pla molt clar» sobre la IA i adverteix que «avança molt de pressa en mans privades»",
-      "excerpt": "En un acte de recaptació de fons dijous, l'expresident nord-americà va dir al líder demòcrata a la Cambra, Hakeem Jeffries, que el seu partit ha de convertir la intel·ligència artificial en un «tema central» i preparar un marc de debat públic si recupera el control de la Cambra de Representants."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una IA que llegeix la forma tridimensional del genoma destapa un mecanisme amagat de l'Alzheimer en cèl·lules cerebrals",
-      "excerpt": "Un equip de la Universitat Carnegie Mellon, la Universitat de Pittsburgh i la Universitat de Washington fa servir Hicformer, un model d'aprenentatge profund que combina seqüència de DNA i mapes de contacte del genoma, per mostrar que l'organització tridimensional de l'ADN es desestructura en cèl·lules cerebrals afectades per l'Alzheimer, amb connexions més febles entre gens i els seus reguladors."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Comencen aquesta setmana els primers lliuraments del robot humanoide de companyia UWORLD U1, amb més de 13.000 comandes prèvies",
-      "excerpt": "La xinesa UBTech, líder mundial en vendes de robots humanoides, comença el 16 de setembre a lliurar el seu primer robot pensat exclusivament per a la llar: un humanoide de companyia amb pell sintètica realista i un model de llenguatge que reconeix més de vint estats emocionals, en preus que van dels 17.600 als 146.000 dòlars."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un think tank català proposa que la IA renovi automàticament fins a 1,1 milions de receptes cròniques l'any",
-      "excerpt": "L'Institut Ostrom planteja integrar un mòdul d'intel·ligència artificial al sistema de recepta electrònica de Catalunya per renovar sola la medicació crònica de baixa complexitat, amb un estalvi estimat d'entre 19 i 94 milions d'euros anuals, dins un marc regulador pensat per encaixar amb el sorral normatiu del Reglament europeu d'IA."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "5 MIN",
-      "title": "Apple llança avui iOS 27 amb Siri reconstruïda sobre Gemini, i deixa la Unió Europea sense la nova assistent",
-      "excerpt": "Apple distribueix des d'avui iOS 27 amb una Siri reconstruïda sobre el Gemini 2.5 Pro de Google, en un acord que xifres filtrades situen a 1.000 milions de dòlars anuals; la Unió Europea es queda sense la nova assistent perquè Apple no ha volgut obrir-la als rivals com exigeix la llei europea de mercats digitals."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Els «bessons digitals» d'IA són, de moment, un mirall de fira: un estudi amb 1.784 persones troba que prediuen malament com respon cadascú",
-      "excerpt": "Un estudi amb 1.784 persones i 19 experiments de la Universitat de Columbia troba que els «bessons digitals» d'IA -entrenats amb centenars de respostes prèvies de cada individu- prediuen les seves respostes reals amb una correlació d'només 0,2, i recorren a estereotips demogràfics més que als trets propis de cada persona."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Microsoft s'apunta al «pacing» de la IA: Nadella prepara un codi de conducta per als seus propis models",
-      "excerpt": "Satya Nadella dona suport públicament al «ritme deliberat» que reclama Dario Amodei i anuncia que Microsoft publicarà avui mateix un codi de conducta per als seus propis models MAI, obert a consulta pública, amb els «avaluadors incrustats» com a peça central de la proposta."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Les accions de SoftBank cauen més d'un 11% després que Altman confirmi que OpenAI no sortirà a borsa el 2026",
-      "excerpt": "Les accions de SoftBank cauen fins a un 11,6% després que Sam Altman confirmi que OpenAI no sortirà a borsa el 2026 i es sumi a la crida a frenar la IA, just quan l'empresa japonesa té pendents 25.900 milions de dòlars d'un préstec i un tram de 10.000 milions més del seu compromís d'inversió."
+      "title": "Anthropic manté el pla de sortir a borsa el 2026 malgrat la controvèrsia sobre la seguretat dels seus propis models",
+      "excerpt": "Segons fonts consultades per Axios, l'empresa de Claude no pensa ajornar la seva sortida a borsa —a diferència d'OpenAI, que ja l'ha posposada al 2027— i defensa que les obligacions de transparència d'una cotitzada reforcen, en lloc de debilitar, els seus compromisos de seguretat."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "Salesforce posa nom i feina fixa a set agents d'IA abans de la seva fira anual Dreamforce",
-      "excerpt": "Dos dies abans de Dreamforce, Salesforce presenta set agents d'IA amb nom i funció fixos -de l'atenció al client a la cadena de subministrament- i diu que, junt amb Slack, ja han completat 7.000 milions d'«unitats de treball agèntic»."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Amodei compara la cursa de la IA amb la Xina a la Guerra Freda i demana «negociacions de desarmament»; Sacks ho acusa de voler un «control governamental»",
-      "excerpt": "En una entrevista a la CBS, el conseller delegat d'Anthropic equipara el risc de la IA amb els 10.000 míssils nuclears que EUA i l'URSS es van apuntar mútuament i proposa parlar amb Pequín per posar-hi un «límit de velocitat»; David Sacks respon que la seva crida busca «espantar» el públic per justificar una intervenció estatal."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Un tercer investigador de seguretat en poques setmanes deixa un gran laboratori d'IA: Josh Engels surt de Google DeepMind cap a METR",
-      "excerpt": "L'investigador, que treballava a l'equip de seguretat d'AGI de DeepMind i havia rebutjat ofertes d'Anthropic i OpenAI, adverteix d'una «possibilitat esgarrifosa» que la IA causi «un dany immens» en cinc anys, i s'afegeix a les dues dimissions recents dins d'Anthropic pel mateix motiu."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una auditoria d'experts destapa que eren els bancs de proves de física, no els models d'IA, els que fallaven",
-      "excerpt": "Cinquanta investigadors reavaluen a mà sis bancs de proves de física molt utilitzats i troben que bona part dels errors atribuïts als models eren, en realitat, respostes de referència equivocades o preguntes ambigües: en corregir-los, la puntuació d'un model puja de 47,3% a 78,7% en un dels bancs."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA que llegeix 400.000 missatges de Reddit destapa efectes secundaris de l'Ozempic que els assajos no havien recollit prou bé",
-      "excerpt": "Un equip de la Universitat de Pennsilvània analitza cinc anys de publicacions de gairebé 70.000 usuaris sobre semaglutida i tirzepatida i troba patrons de canvis menstruals, calfreds i suors freds que la informació reguladora oficial no reflecteix amb la mateixa força."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Anthropic, OpenAI i Google negocien en secret des de juliol un organisme conjunt d'estàndards de seguretat per a la IA",
-      "excerpt": "Els tres laboratoris debaten en grups de treball discrets, des d'abans que Dario Amodei fes pública la seva crida a «pacar la frontera», protocols compartits d'avaluació i revisió prèvia al llançament dels seus models, però discrepen sobre quin paper hi ha de tenir el govern."
+      "title": "Temporal capta 550 milions de dòlars per evitar que els agents d'IA es trenquin quan encadenen moltes accions seguides",
+      "excerpt": "La ronda Sèrie E, liderada per Lightspeed i Wellington Management, valora l'empresa d'infraestructura «d'execució durable» en 12.550 milions de dòlars, més del doble que fa set mesos; entre els seus clients hi ha OpenAI, Nvidia, Snap i JPMorgan Chase."
     }
   ]
 }
