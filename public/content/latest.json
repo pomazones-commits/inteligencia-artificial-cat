@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-15T04:22:52.112Z",
+  "updatedAt": "2026-09-15T08:20:49.603Z",
   "items": [
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Cloudflare comença avui a bloquejar per defecte els robots d'IA que barregen cerca i entrenament",
+      "excerpt": "La nova configuració, que Cloudflare va anunciar l'1 de juliol i que entra en vigor aquest 15 de setembre, bloqueja per defecte els rastrejadors «multiús» —com Googlebot— a les pàgines amb publicitat quan un client tria blocar l'entrenament d'IA, i estrena un mercat de pagament per ús pel contingut que apareix en respostes generades."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un marc d'IA entrenat amb dades sintètiques converteix la microscòpia de força atòmica en una eina autònoma",
+      "excerpt": "Investigadors de l'Oak Ridge National Laboratory han desenvolupat SimuScan, un sistema que genera imatges sintètiques realistes de nanoestructures per entrenar models d'IA sense etiquetatge manual, i que després guia el microscopi sol cap a les zones d'una mostra amb més interès científic."
+    },
+    {
+      "category": "PRIVACITAT",
+      "read": "5 MIN",
+      "title": "Centenars de contractistes d'OpenAI llegeixen converses reals de ChatGPT per millorar les respostes del model",
+      "excerpt": "Una investigació de 404 Media destapa «Project Lily», un programa intern amb centenars de revisors externs, pagats per hora a través de la plataforma Mercor, que puntuen respostes de ChatGPT sobre converses reals d'usuaris que de vegades contenen dades sensibles."
+    },
+    {
+      "category": "JUSTÍCIA",
+      "read": "5 MIN",
+      "title": "Comença als Estats Units el primer judici amb jurat sobre si entrenar IA amb art amb drets d'autor és una infracció",
+      "excerpt": "Un jurat de dotze persones del districte nord de Califòrnia, i no un jutge, decidirà per primer cop si Stability AI, Midjourney i DeviantArt van infringir els drets d'autor de les il·lustradores Sarah Andersen, Kelly McKernan i Karla Ortiz en entrenar els seus generadors d'imatges amb el conjunt de dades LAION."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "4 MIN",
+      "title": "Catalunya crearà un observatori per vigilar com la intel·ligència artificial transforma el mercat de treball",
+      "excerpt": "El president Salvador Illa ha anunciat, en la conferència pel seu mig mandat al Museu Marítim de Barcelona, la creació de l'Observatori Català d'IA i Mercat de Treball, que el Govern preveu aprovar aquest dimarts i que es vincularà a ajuts a pimes i al projecte AINA."
+    },
     {
       "category": "GOVERNANÇA",
       "read": "5 MIN",
