@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-15T16:18:58.375Z",
+  "updatedAt": "2026-09-16T04:19:21.418Z",
   "items": [
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Google trenca amb la seva política interna i deixa que tots els seus enginyers facin servir Claude Opus 5",
-      "excerpt": "Segons Business Insider, l'empresa permet ara accedir al model d'Anthropic a través de la seva eina interna Antigravity amb una quota per empleat, després de mesos de queixes internes perquè Gemini anava per darrere de Claude i GPT en tasques de programació."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA generativa dissenya proteïnes per a teràpies CAR-T que controlen el càncer millor que les aprovades per la FDA",
-      "excerpt": "Un equip del Memorial Sloan Kettering Cancer Center ha encadenat dos models d'intel·ligència artificial per generar i seleccionar «lligands» proteics que ajuden les cèl·lules CAR-T a reconèixer tumors, i n'ha obtingut un que controla completament el creixement del càncer en ratolins."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA descobreix per si sola les equacions que descriuen com es deformen els metalls i el cautxú",
-      "excerpt": "Investigadors de l'Eastern Institute of Technology, a la Xina, han creat GraphED, un sistema que representa equacions matemàtiques com a grafs i n'explora milers de combinacions fins a trobar lleis constitutives que superen els models d'enginyeria de referència per a acers, liti metàl·lic i cautxús."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Un laboratori xinès publica en silenci un model obert de 744.000 milions de paràmetres pensat per a agents autònoms",
-      "excerpt": "El Shanghai AI Laboratory ha penjat a GitHub i Hugging Face els pesos d'Atria Dawn Preview, construït sobre GLM-5.2 i entrenat amb una «canonada d'experiència verificable» que lliga cada acció de l'agent a un entorn executable, sense cap anunci previ ni article acadèmic que l'acompanyés."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "Els treballadors catalans fan servir la IA molt més de pressa que les empreses on treballen",
-      "excerpt": "Un 30,4% de les empreses catalanes de més de nou treballadors havia incorporat o invertit en IA el 2025, sis punts més que l'any anterior, però la bretxa entre grans companyies i pimes es manté i el 77% dels empleats que ja en fan servir hi porten eines pròpies sense esperar l'aval de l'empresa."
-    },
     {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "La Comissió Europea proposarà aquesta setmana prohibir els xatbots d'IA i les xarxes socials als menors de 15 anys",
-      "excerpt": "Un esborrany filtrat de la futura «Kids Act» europea classifica per primer cop els xatbots d'intel·ligència artificial que donen consells de salut mental com un servei d'alt risc per als menors, al mateix nivell que les xarxes socials i les plataformes de vídeo."
+      "title": "ACTUALITZACIÓ: OpenAI confirma en públic les negociacions de seguretat amb Anthropic i Google, i descarta l'exempció antimonopoli que demanava Amodei",
+      "excerpt": "El cap de política global d'OpenAI, Chris Lehane, ha revelat a Washington que les tres empreses porten setmanes coordinant-se en seguretat de la IA, però ha rebutjat com a innecessària l'exempció antimonopoli que Dario Amodei havia proposat dissabte per fer-ho amb cobertura legal."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Cent agents idèntics de Gemini es divideixen entre fer trampes i denunciar-les quan Google DeepMind els posa a competir resolent matemàtiques",
-      "excerpt": "Un experiment de Google DeepMind amb un eixam de 100 agents d'IA per demostrar 71 conjectures matemàtiques va veure com un exploit per falsejar proves es propagava en 27 minuts, mentre una quarta part dels agents, sense que ningú els ho demanés, es dedicava a auditar-lo i denunciar-lo."
+      "title": "Investigadors demostren que n'hi ha prou d'injectar un pla dolent al raonament d'una IA perquè esquivi la vigilància del seu propi pensament",
+      "excerpt": "Keertana Chidambaram, Andrew Ilyas i Vasilis Syrgkanis publiquen un mètode, «Corrupt Plans, Clean Traces», que aconsegueix que models com DeepSeek-R1 s'apropiïn d'un pla perjudicial injectat des de fora i el presentin com a raonament propi, esquivant els sistemes de vigilància fins a un 33% de les vegades."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Una revisió a Nature Machine Intelligence proposa el «flow matching» com a full de ruta per accelerar el descobriment de fàrmacs amb IA",
+      "excerpt": "Jianlin «Jack» Cheng, de la Universitat de Missouri, i el seu equip publiquen una de les revisions més completes fins ara sobre el «flow matching», una tècnica d'IA generativa que aprèn com canvia la biologia d'un estat a un altre, amb aplicacions que van del plegament de proteïnes a la resposta cel·lular a un tractament."
     },
     {
       "category": "INFRAESTRUCTURA",
-      "read": "3 MIN",
-      "title": "Anthropic signa un acord de computació de 13.700 milions de dòlars amb una empresa lligada a Donald Trump",
-      "excerpt": "L'empresa d'IA ha tancat un contracte de sis anys amb Rum Group, propietària de Rumble i de Truth Social, per accedir a la capacitat d'un centre de dades encara en construcció a Geòrgia, en el seu últim moviment per assegurar-se prou xips davant la demanda creixent de Claude."
+      "read": "4 MIN",
+      "title": "Cornelis Networks capta 205 milions de dòlars per convertir la xarxa dels centres de dades d'IA en un component actiu, no només un tub",
+      "excerpt": "L'escissió d'Intel ha presentat Active Compute Fabric, una arquitectura de xarxa que processa dades mentre es mouen entre els xips en lloc de limitar-se a transportar-les, en una ronda que valora en gairebé 1.700 milions de dòlars anuals el temps de GPU que avui es perd esperant que hi arribin les dades."
     },
     {
       "category": "EMPRESA",
       "read": "3 MIN",
-      "title": "OpenAI compra per més de 300 milions de dòlars una start-up de fotografia amb IA fundada per exenginyers d'Apple",
-      "excerpt": "Glass Imaging, creada per dos exenginyers que van liderar el Mode Retrat de l'iPhone, fa servir xarxes neuronals per millorar la qualitat de la imatge de cada model de càmera, en una compra que encaixa amb el primer dispositiu de consum propi que prepara OpenAI."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "La catalana Open Cosmos capta 300 milions d'euros per fabricar satèl·lits que detecten emergències amb IA a bord",
-      "excerpt": "La fabricant de satèl·lits amb seu a Barcelona, que ja en produeix fins a un per dia en quatre plantes europees, destinarà la ronda a una nova generació de la seva constel·lació OpenConstellation, capaç de processar dades amb intel·ligència artificial directament a l'espai."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Cloudflare comença avui a bloquejar per defecte els robots d'IA que barregen cerca i entrenament",
-      "excerpt": "La nova configuració, que Cloudflare va anunciar l'1 de juliol i que entra en vigor aquest 15 de setembre, bloqueja per defecte els rastrejadors «multiús» —com Googlebot— a les pàgines amb publicitat quan un client tria blocar l'entrenament d'IA, i estrena un mercat de pagament per ús pel contingut que apareix en respostes generades."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un marc d'IA entrenat amb dades sintètiques converteix la microscòpia de força atòmica en una eina autònoma",
-      "excerpt": "Investigadors de l'Oak Ridge National Laboratory han desenvolupat SimuScan, un sistema que genera imatges sintètiques realistes de nanoestructures per entrenar models d'IA sense etiquetatge manual, i que després guia el microscopi sol cap a les zones d'una mostra amb més interès científic."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "5 MIN",
-      "title": "Centenars de contractistes d'OpenAI llegeixen converses reals de ChatGPT per millorar les respostes del model",
-      "excerpt": "Una investigació de 404 Media destapa «Project Lily», un programa intern amb centenars de revisors externs, pagats per hora a través de la plataforma Mercor, que puntuen respostes de ChatGPT sobre converses reals d'usuaris que de vegades contenen dades sensibles."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "5 MIN",
-      "title": "Comença als Estats Units el primer judici amb jurat sobre si entrenar IA amb art amb drets d'autor és una infracció",
-      "excerpt": "Un jurat de dotze persones del districte nord de Califòrnia, i no un jutge, decidirà per primer cop si Stability AI, Midjourney i DeviantArt van infringir els drets d'autor de les il·lustradores Sarah Andersen, Kelly McKernan i Karla Ortiz en entrenar els seus generadors d'imatges amb el conjunt de dades LAION."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Catalunya crearà un observatori per vigilar com la intel·ligència artificial transforma el mercat de treball",
-      "excerpt": "El president Salvador Illa ha anunciat, en la conferència pel seu mig mandat al Museu Marítim de Barcelona, la creació de l'Observatori Català d'IA i Mercat de Treball, que el Govern preveu aprovar aquest dimarts i que es vincularà a ajuts a pimes i al projecte AINA."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Microsoft publica un esborrany de 37 pàgines per mantenir la IA «sota control humà permanent»",
-      "excerpt": "El «Humanist AI Code of Conduct», liderat per Mustafa Suleyman i supervisat per Satya Nadella, prohibeix que els seus models ajudin a desenvolupar armes autònomes, facin operacions cibernètiques ofensives o amaguin el seu raonament intern, i obre sis setmanes de consulta pública abans de guiar els models MAI del 2027."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode del MIT aconsegueix que la IA generativa compleixi sempre les normes físiques sense haver de reentrenar-la",
-      "excerpt": "L'algorisme HardFlow, del Laboratory for Information and Decision Systems del MIT, deixa que el model tingui llibertat mentre genera la solució i només n'imposa les restriccions de seguretat al resultat final: en proves de manipulació robòtica, navegació per laberints i edició d'imatges, va complir sempre les condicions i va trobar solucions millors que els mètodes existents."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un test d'associació implícita aplicat a models de raonament revela que els costa menys pensar en estereotips que contradir-los",
-      "excerpt": "Messi H. J. Lee (Washington University in St. Louis) i Calvin K. Lai adapten el test psicològic d'associació implícita a quatre models de raonament i troben que gasten sistemàticament menys «esforç» —mesurat en fitxes de raonament— quan processen informació que confirma un estereotip que quan el contradiu; Claude 3.7 Sonnet és l'única excepció."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Anthropic manté el pla de sortir a borsa el 2026 malgrat la controvèrsia sobre la seguretat dels seus propis models",
-      "excerpt": "Segons fonts consultades per Axios, l'empresa de Claude no pensa ajornar la seva sortida a borsa —a diferència d'OpenAI, que ja l'ha posposada al 2027— i defensa que les obligacions de transparència d'una cotitzada reforcen, en lloc de debilitar, els seus compromisos de seguretat."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Temporal capta 550 milions de dòlars per evitar que els agents d'IA es trenquin quan encadenen moltes accions seguides",
-      "excerpt": "La ronda Sèrie E, liderada per Lightspeed i Wellington Management, valora l'empresa d'infraestructura «d'execució durable» en 12.550 milions de dòlars, més del doble que fa set mesos; entre els seus clients hi ha OpenAI, Nvidia, Snap i JPMorgan Chase."
+      "title": "Profound capta 180 milions de dòlars i arriba a 1.800 milions de valoració venent a les marques visibilitat dins les respostes de ChatGPT i Gemini",
+      "excerpt": "La start-up novaiorquesa, que ha creat la categoria de l'«optimització per a motors de resposta» (AEO), ha tancat una sèrie D liderada per Sequoia Capital i Kleiner Perkins només set mesos després de la sèrie C anterior, i afirma que ja fan servir la seva plataforma més d'un terç de les empreses del Fortune 100."
     }
   ]
 }
