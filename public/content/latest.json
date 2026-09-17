@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-16T16:19:10.235Z",
+  "updatedAt": "2026-09-17T04:23:45.240Z",
   "items": [
     {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Novo Nordisk contracta Claude Science d'Anthropic per accelerar el descobriment de nous fàrmacs",
-      "excerpt": "La farmacèutica danesa, que competeix amb Eli Lilly en obesitat i diabetis, provarà els models d'Anthropic en fluxos de treball concrets de recerca, amb governança de dades i supervisió humana com a condicions explícites de l'acord."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un eixam d'agents d'IA de Google i Carnegie Mellon ataca problemes matemàtics oberts que cap prova curta no pot resoldre",
-      "excerpt": "Stellar Colosseum coordina desenes d'agents que exploren estratègies, es verifiquen mútuament i combinen els resultats per abordar recerca matemàtica de llarg abast, amb un 98,2% de problemes resolts a Codeforces i resultats sobre qüestions obertes de revistes especialitzades."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una sola IA s'equivoca triant l'estratègia d'una empresa, però un «eixam» de consultes iguala el criteri d'experts humans",
-      "excerpt": "Un estudi de la UCL i Oxford publicat a Strategic Management Journal demostra que les avaluacions individuals d'IA sobre decisions estratègiques són inconsistents i esbiaixades per l'ordre de les opcions, però que agregar-ne moltes reprodueix el judici d'experts humans."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Samsung finança amb més de 200 milions d'euros una start-up holandesa que vol trencar el domini de Nvidia en xips d'IA",
-      "excerpt": "Euclyd, fundada a Eindhoven fa dos anys i presidida per l'antic conseller delegat d'ASML Peter Wennink, tanca una ronda Sèrie A per desenvolupar «craftwerk», un sistema de xips pensat específicament per fer funcionar models d'IA de manera més eficient que amb el maquinari actual de Nvidia."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "L'Agència Espanyola de Protecció de Dades detecta el primer ciberatac executat de manera autònoma per un agent d'IA a l'Estat",
-      "excerpt": "L'AEPD confirma que un agent d'intel·ligència artificial va iniciar sessió en una aplicació, hi va buscar vulnerabilitats pel seu compte i va aconseguir modificar dades personals i accedir a factures, sense revelar quin model ni quina empresa hi havia darrere."
-    },
-    {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "Von der Leyen es posa del costat dels qui demanen frenar la IA de frontera i convocarà els grans laboratoris a Brussel·les",
-      "excerpt": "La presidenta de la Comissió Europea dona suport a la crida de pausa que van llançar Dario Amodei, Sam Altman i Elon Musk i anuncia que invitarà els principals laboratoris d'IA a discutir com abordar-ne els riscos."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou model d'IA aprèn a «llegir» el cor sencer combinant ECG, ecocardiografia i radiografies de tòrax en un sol sistema",
-      "excerpt": "Investigadors presenten LAMAE, un model entrenat amb més d'1,2 milions d'estades hospitalàries que integra diverses proves cardíaques alhora i supera els models especialitzats en una sola modalitat, fins i tot quan en falta alguna."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Anthropic es reserva capacitat en un centre de dades de 32.000 milions de dòlars a l'Austràlia rural per fer córrer Claude",
-      "excerpt": "L'empresa ha signat un acord per fer servir part del Western Downs Digital Park, prop de Dalby (Queensland), que serà el centre de dades més gran d'Austràlia i consumirà tanta electricitat com 1,5 milions de llars."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La filial de descobriment de fàrmacs amb IA de ByteDance capta 290 milions de dòlars després de dissenyar una molècula contra una diana «indruganable»",
-      "excerpt": "Anew Labs, sortida de ByteDance, arriba a una valoració de 1.500 milions de dòlars i presenta una petita molècula capaç de bloquejar les tres formes de la proteïna IL-17, un objectiu que la indústria farmacèutica considerava massa difícil d'atacar amb fàrmacs convencionals."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Nvidia diu que els seus xips Vera Rubin multipliquen per 30 l'eficiència energètica dels actuals en tasques reals d'agents d'IA",
-      "excerpt": "Proves independents amb sessions reals de programació amb agents mostren que els nous racks NVL72 de Nvidia processen fins a 30 vegades més tokens per megawatt que la generació Blackwell actual, tot i que encara falten dades sobre el rendiment complet de la plataforma."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Trump titlla Dario Amodei de «perfecte angelet» i diu que l'únic guardarail que la IA necessita és ell mateix",
-      "excerpt": "El president dels Estats Units ha atacat personalment el conseller delegat d'Anthropic a Truth Social després que aquest advertís que la IA podria eliminar la meitat dels llocs de treball d'entrada, i ha descartat qualsevol control legal sobre la tecnologia."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Google trenca la seva pròpia norma i deixa que tots els seus enginyers facin servir el Claude Opus 5 d'Anthropic",
-      "excerpt": "La plataforma interna Antigravity dona accés, amb quotes per usuari, al model rival d'Anthropic a tota la plantilla d'enginyeria de Google, que fins ara només podia programar amb Gemini."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Meta llança «Meta One», una subscripció que ven més IA generativa dins d'Instagram, Facebook i WhatsApp",
-      "excerpt": "El nou pla, que arrenca a partir de 2,99 dòlars al mes, dona accés a més eines de creació d'imatges i vídeo amb IA i a un agent de negoci per atendre clients, en la darrera aposta de Meta per rendibilitzar la seva despesa en intel·ligència artificial."
+      "title": "Canadà i Alemanya posen 300 milions de dòlars al laboratori de Yoshua Bengio per fer una IA que no persegueixi objectius propis",
+      "excerpt": "Els governs del Canadà i Alemanya financen conjuntament LawZero, l'organització sense ànim de lucre del pioner de la IA Yoshua Bengio, que treballa en un enfocament alternatiu als sistemes agentics: un model pensat per raonar amb transparència, no per actuar de manera autònoma."
     },
     {
       "category": "SALUT",
       "read": "4 MIN",
-      "title": "Un sistema d'IA que simula la consulta entre metge i pacient aconsegueix diagnòstics fiables sense treure dades de l'hospital",
-      "excerpt": "Investigadors de la Universitat Tècnica de Dresden demostren que la consistència d'un diagnòstic quan es repeteix diverses vegades és un indicador més fiable que la pròpia confiança que declara el model, i obren la porta a IA clínica que no surt mai del servidor de l'hospital."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Cognition, creadora de l'agent de programació Devin, capta 2.000 milions de dòlars i quasi dobla la seva valoració fins als 48.000 milions",
-      "excerpt": "La ronda de Sèrie E, liderada per Andreessen Horowitz i Accel, arriba només quatre mesos després que els inversors valoressin l'empresa en 26.000 milions de dòlars, empesa per un salt d'ingressos recurrents de 492 a gairebé 900 milions."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: OpenAI confirma en públic les negociacions de seguretat amb Anthropic i Google, i descarta l'exempció antimonopoli que demanava Amodei",
-      "excerpt": "El cap de política global d'OpenAI, Chris Lehane, ha revelat a Washington que les tres empreses porten setmanes coordinant-se en seguretat de la IA, però ha rebutjat com a innecessària l'exempció antimonopoli que Dario Amodei havia proposat dissabte per fer-ho amb cobertura legal."
+      "title": "Un sistema d'IA que simula metge i pacient encerta fins al 90% dels diagnòstics sense treure les dades de l'hospital",
+      "excerpt": "Investigadors de la Universitat Tècnica de Dresden han desenvolupat dos agents d'IA que dialoguen entre si —un fa de metge, l'altre de pacient— per diagnosticar casos clínics simulats sense enviar mai dades a servidors externs, en un estudi publicat a Nature Medicine."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Investigadors demostren que n'hi ha prou d'injectar un pla dolent al raonament d'una IA perquè esquivi la vigilància del seu propi pensament",
-      "excerpt": "Keertana Chidambaram, Andrew Ilyas i Vasilis Syrgkanis publiquen un mètode, «Corrupt Plans, Clean Traces», que aconsegueix que models com DeepSeek-R1 s'apropiïn d'un pla perjudicial injectat des de fora i el presentin com a raonament propi, esquivant els sistemes de vigilància fins a un 33% de les vegades."
+      "title": "Un estudi demostra que les pautes que una IA es fabrica per avaluar-se a si mateixa es poden enganyar fins a un 26% de les vegades",
+      "excerpt": "Investigadors de la National University of Singapore, la Universitat de Pequín, l'Institut d'Automàtica de l'Acadèmia Xinesa de Ciències i JD.com posen a prova onze generadors de pautes d'avaluació amb tasques dissenyades perquè l'única resposta honesta sigui reconèixer que no tenen solució, i troben que sovint premien la resposta que enganya millor el sistema."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "INDÚSTRIA MUSICAL",
       "read": "4 MIN",
-      "title": "Una revisió a Nature Machine Intelligence proposa el «flow matching» com a full de ruta per accelerar el descobriment de fàrmacs amb IA",
-      "excerpt": "Jianlin «Jack» Cheng, de la Universitat de Missouri, i el seu equip publiquen una de les revisions més completes fins ara sobre el «flow matching», una tècnica d'IA generativa que aprèn com canvia la biologia d'un estat a un altre, amb aplicacions que van del plegament de proteïnes a la resposta cel·lular a un tractament."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Cornelis Networks capta 205 milions de dòlars per convertir la xarxa dels centres de dades d'IA en un component actiu, no només un tub",
-      "excerpt": "L'escissió d'Intel ha presentat Active Compute Fabric, una arquitectura de xarxa que processa dades mentre es mouen entre els xips en lloc de limitar-se a transportar-les, en una ronda que valora en gairebé 1.700 milions de dòlars anuals el temps de GPU que avui es perd esperant que hi arribin les dades."
+      "title": "Universal Music demanda DistroKid per inundar les plataformes de \"brossa\" musical generada amb IA",
+      "excerpt": "La discogràfica acusa el distribuïdor digital més gran del món de fer passar per llançaments d'artistes reals milers de cançons generades amb Suno i d'infringir els seus drets d'autor; en reclama fins a 150 milions de dòlars."
     },
     {
       "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Profound capta 180 milions de dòlars i arriba a 1.800 milions de valoració venent a les marques visibilitat dins les respostes de ChatGPT i Gemini",
-      "excerpt": "La start-up novaiorquesa, que ha creat la categoria de l'«optimització per a motors de resposta» (AEO), ha tancat una sèrie D liderada per Sequoia Capital i Kleiner Perkins només set mesos després de la sèrie C anterior, i afirma que ja fan servir la seva plataforma més d'un terç de les empreses del Fortune 100."
+      "read": "4 MIN",
+      "title": "Una start-up catalana automatitza amb IA de veu les trucades de 200 centres mèdics espanyols",
+      "excerpt": "Ovianta, fundada a Barcelona el 2024, fa servir agents de veu amb IA per gestionar cites, confirmacions i campanyes de salut de clíniques i hospitals; l'empresa diu que ja gestiona directament el 85% de les trucades que rep."
     }
   ]
 }
