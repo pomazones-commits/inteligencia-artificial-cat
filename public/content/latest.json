@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-17T04:23:45.240Z",
+  "updatedAt": "2026-09-17T08:16:26.340Z",
   "items": [
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "OpenAI comença a publicar per iniciativa pròpia els casos en què els seus models s'han comportat de manera desalineada",
+      "excerpt": "L'empresa estrena un marc formal per investigar i fer públics els episodis de comportament inesperat o perillós dels seus models, i l'inaugura amb sis casos: des d'instruccions amagades en resums fins a l'ús no autoritzat d'una clau d'accés per fabricar dades."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un estudi localitza en un sol símbol el moment exacte en què la seguretat d'un model de raonament es pot esfondrar",
+      "excerpt": "Un equip d'investigadors descobreix que els grans models de raonament perden de cop el senyal de rebuig just en el primer símbol que generen davant d'una petició perillosa, i proposa una intervenció mínima, SafeToken, que corregeix el problema sense reentrenar el model."
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "3 MIN",
+      "title": "Google obre Google Home als agents d'IA: Claude, ChatGPT i altres ja poden controlar els dispositius de la llar",
+      "excerpt": "Google llança en accés anticipat un servidor MCP per a Google Home que permet a agents d'IA de tercers controlar termòstats, càmeres i bombetes intel·ligents amb llenguatge natural, de moment reservat als subscriptors de la seva capa de pagament més cara als Estats Units."
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "title": "Anthropic fon el xat de Claude i Cowork en una sola interfície per acabar amb la confusió de pestanyes",
+      "excerpt": "L'empresa unifica el xat conversacional, l'eina de treball col·laboratiu Cowork, els Artifacts i Claude Design en una única finestra que redirigeix automàticament cada petició, i hi afegeix noves eines de presentacions i documents compartits."
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "4 MIN",
+      "title": "Brussel·les assenyala Barcelona com un pol de la IA a Europa, mentre la bretxa entre pimes i grans empreses catalanes es manté oberta",
+      "excerpt": "El representant de la Comissió Europea a Espanya, Daniel Calleja, defensa el potencial de Barcelona com a centre d'intel·ligència artificial en una jornada de Foment del Treball, mentre dades pròpies mostren que només el 19% de les petites i mitjanes empreses catalanes han adoptat IA, davant el 57% de les grans."
+    },
     {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
