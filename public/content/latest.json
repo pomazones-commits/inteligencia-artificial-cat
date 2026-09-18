@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-17T16:17:20.293Z",
+  "updatedAt": "2026-09-18T04:20:30.977Z",
   "items": [
     {
-      "category": "PRODUCTE",
+      "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "Google llança Gemini 3.8 Live, el seu nou model de veu que raona sense tallar la conversa",
-      "excerpt": "Els nous models 3.8 Live i 3.8 Live Extended Thinking permeten a Gemini executar eines en segon pla mentre manté la conversa oberta, canviar d'idioma entre 97 llengües a mig diàleg i lideren el rànquing de veu a veu d'Artificial Analysis."
+      "title": "El rei Carles III reuneix Nvidia, OpenAI, Anthropic i Google DeepMind per parlar de seguretat de la IA",
+      "excerpt": "La cimera a Dumfries House, organitzada per la Ditchley Foundation, arriba pocs dies després que Dario Amodei demanés a la indústria que frenés deliberadament el ritme de millora dels models. La trobada no ha acabat amb cap acord vinculant."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un mètode de Cambridge i DeepMind fa que un model d'IA sàpiga si s'equivoca sense haver de repetir la resposta deu vegades",
-      "excerpt": "XConf estima la confiança d'un model de llenguatge a partir de com li ha anat en episodis passats semblants, en lloc de generar la mateixa resposta múltiples vegades: iguala o supera el mètode habitual amb una desena part del cost de càlcul."
+      "title": "Un model d'IA de Google DeepMind allarga un dia sencer l'avís previ davant d'un huracà",
+      "excerpt": "WeatherNext Cyclones, publicat a Nature, prediu la trajectòria, la intensitat i la mida dels ciclons tropicals amb un dia més d'antelació que els millors models operatius actuals, i pot generar fins a 1.000 escenaris simultanis."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un projecte converteix el codi científic de tot el món en un gimnàs perquè els agents d'IA aprenguin a fer recerca",
-      "excerpt": "ScienceIDE transforma repositoris de programari científic en entorns executables amb criteris de correcció definits per experts, i els fa servir per entrenar una família de models que millora tant en reparar codi científic com en tasques generals de raonament."
+      "title": "Un estudi demostra que les eines per «llegir la ment» d'una IA es poden enganyar amb canvis mínims en la pregunta",
+      "excerpt": "Investigadors de la Universitat Tècnica de Munic mostren que les xarxes interpretables que s'usen per entendre models de llenguatge poden canviar la seva «explicació» amb pertorbacions gairebé imperceptibles, i proposen el primer mètode per certificar-ne matemàticament la fiabilitat."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "4 MIN",
+      "title": "Google DeepMind crea un institut per obrir el debat intern sobre la superintel·ligència",
+      "excerpt": "El nou DeepMind Institute, dirigit per Shane Legg, James Manyika i Demis Hassabis, publica quatre assaigs inicials sobre transparència dels models, polítiques econòmiques i un possible organisme internacional d'avaluació de la IA de frontera."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "Una start-up d'un mes fundada per extreballadors de DeepMind negocia una ronda que la valoraria en 3.700 milions de dòlars",
-      "excerpt": "Emulate, creada al Regne Unit per tres investigadors que van treballar en els models de món Genie de Google DeepMind, negocia amb Index Ventures i Lightspeed una ronda llavor de fins a 700 milions de dòlars, sense cap producte públic encara."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "El Congrés dels Estats Units vota gairebé per unanimitat que les grans tecnològiques, i no les famílies, paguin la factura elèctrica dels centres de dades d'IA",
-      "excerpt": "La Cambra de Representants aprova per 417 vots a 3 la Ratepayer Protection Act, que obligarà els reguladors estatals a estudiar que els centres de dades de més de 100 megawatts assumeixin el cost de les millores de xarxa que provoquen, en lloc de repercutir-lo als consumidors domèstics."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Anthropic i OpenAI es comprometen a incrustar avaluadors de seguretat independents dins dels seus laboratoris",
-      "excerpt": "Dario Amodei proposa donar als avaluadors dret a publicar les seves troballes sense control editorial de l'empresa, i Sam Altman diu que OpenAI farà el mateix. Meta, SpaceX AI i Google DeepMind encara no s'hi han sumat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un mètode evolutiu de Salesforce triplica l'èxit d'un agent d'IA en tasques de navegació web, sense tocar el model",
-      "excerpt": "En lloc de reentrenar el model, els investigadors fan evolucionar la capa de prompts i eines que l'envolta. En el banc de proves WebArena-Infinity, la taxa d'èxit de l'agent puja del 43,5% al 93%."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Jensen Huang diu que la IA no necessita cap llei nova: «la seguretat és un problema d'enginyeria, no legal»",
-      "excerpt": "El conseller delegat de Nvidia defensa a la conferència Dreamforce que el mercat, no la regulació, ha de forçar la seguretat dels productes d'IA, just quan altres laboratoris es comprometen a obrir-se a auditors externs."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Un enginyer català que va treballar a Anthropic alerta: «Internament discutim que la IA podria ser més perillosa del que la gent sap»",
-      "excerpt": "Arnau Marin-Llobet, exinvestigador d'Anthropic i ara investigador a Harvard, diu a RAC1 que la regulació «serà obsoleta al cap de tres mesos» i que «ni els que l'hem dissenyat» entenem del tot com funciona la IA."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "L'startup de l'exconseller delegat d'Infosys capta 53 milions més per portar IA a l'enginyeria de software de grans empreses",
-      "excerpt": "Hang Ten Systems, de Vishal Sikka, tanca una segona ronda llavor de 53 milions de dòlars només cinc setmanes després de la primera, amb inversors com els consellers delegats d'Intel i Micron."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI comença a publicar per iniciativa pròpia els casos en què els seus models s'han comportat de manera desalineada",
-      "excerpt": "L'empresa estrena un marc formal per investigar i fer públics els episodis de comportament inesperat o perillós dels seus models, i l'inaugura amb sis casos: des d'instruccions amagades en resums fins a l'ús no autoritzat d'una clau d'accés per fabricar dades."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi localitza en un sol símbol el moment exacte en què la seguretat d'un model de raonament es pot esfondrar",
-      "excerpt": "Un equip d'investigadors descobreix que els grans models de raonament perden de cop el senyal de rebuig just en el primer símbol que generen davant d'una petició perillosa, i proposa una intervenció mínima, SafeToken, que corregeix el problema sense reentrenar el model."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Google obre Google Home als agents d'IA: Claude, ChatGPT i altres ja poden controlar els dispositius de la llar",
-      "excerpt": "Google llança en accés anticipat un servidor MCP per a Google Home que permet a agents d'IA de tercers controlar termòstats, càmeres i bombetes intel·ligents amb llenguatge natural, de moment reservat als subscriptors de la seva capa de pagament més cara als Estats Units."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Anthropic fon el xat de Claude i Cowork en una sola interfície per acabar amb la confusió de pestanyes",
-      "excerpt": "L'empresa unifica el xat conversacional, l'eina de treball col·laboratiu Cowork, els Artifacts i Claude Design en una única finestra que redirigeix automàticament cada petició, i hi afegeix noves eines de presentacions i documents compartits."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Brussel·les assenyala Barcelona com un pol de la IA a Europa, mentre la bretxa entre pimes i grans empreses catalanes es manté oberta",
-      "excerpt": "El representant de la Comissió Europea a Espanya, Daniel Calleja, defensa el potencial de Barcelona com a centre d'intel·ligència artificial en una jornada de Foment del Treball, mentre dades pròpies mostren que només el 19% de les petites i mitjanes empreses catalanes han adoptat IA, davant el 57% de les grans."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Canadà i Alemanya posen 300 milions de dòlars al laboratori de Yoshua Bengio per fer una IA que no persegueixi objectius propis",
-      "excerpt": "Els governs del Canadà i Alemanya financen conjuntament LawZero, l'organització sense ànim de lucre del pioner de la IA Yoshua Bengio, que treballa en un enfocament alternatiu als sistemes agentics: un model pensat per raonar amb transparència, no per actuar de manera autònoma."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un sistema d'IA que simula metge i pacient encerta fins al 90% dels diagnòstics sense treure les dades de l'hospital",
-      "excerpt": "Investigadors de la Universitat Tècnica de Dresden han desenvolupat dos agents d'IA que dialoguen entre si —un fa de metge, l'altre de pacient— per diagnosticar casos clínics simulats sense enviar mai dades a servidors externs, en un estudi publicat a Nature Medicine."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi demostra que les pautes que una IA es fabrica per avaluar-se a si mateixa es poden enganyar fins a un 26% de les vegades",
-      "excerpt": "Investigadors de la National University of Singapore, la Universitat de Pequín, l'Institut d'Automàtica de l'Acadèmia Xinesa de Ciències i JD.com posen a prova onze generadors de pautes d'avaluació amb tasques dissenyades perquè l'única resposta honesta sigui reconèixer que no tenen solució, i troben que sovint premien la resposta que enganya millor el sistema."
-    },
-    {
-      "category": "INDÚSTRIA MUSICAL",
-      "read": "4 MIN",
-      "title": "Universal Music demanda DistroKid per inundar les plataformes de \"brossa\" musical generada amb IA",
-      "excerpt": "La discogràfica acusa el distribuïdor digital més gran del món de fer passar per llançaments d'artistes reals milers de cançons generades amb Suno i d'infringir els seus drets d'autor; en reclama fins a 150 milions de dòlars."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Una start-up catalana automatitza amb IA de veu les trucades de 200 centres mèdics espanyols",
-      "excerpt": "Ovianta, fundada a Barcelona el 2024, fa servir agents de veu amb IA per gestionar cites, confirmacions i campanyes de salut de clíniques i hospitals; l'empresa diu que ja gestiona directament el 85% de les trucades que rep."
+      "title": "OpenAI detecta que els treballadors incorporen a la seva feina habitual tasques que no els pertoquen",
+      "excerpt": "Un informe d'OpenAI Economic Research sobre 1,5 milions de missatges de ChatGPT relacionats amb la feina (abril-juliol de 2026) descriu el «task crossover»: treballadors que proven tasques d'altres ocupacions i acaben tornant-hi de manera recurrent."
     }
   ]
 }
