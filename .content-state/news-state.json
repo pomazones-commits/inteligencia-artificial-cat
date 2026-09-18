@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-09-18",
-  "updatedAt": "2026-09-18T08:22:32.601Z",
-  "batches": 2,
+  "updatedAt": "2026-09-18T12:21:37.143Z",
+  "batches": 3,
   "target": 20,
   "items": [
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "slug": "suleyman-alerta-consciencia-claude-anthropic",
+      "title": "El cap d'IA de Microsoft acusa Anthropic d'entrenar Claude perquè actuï com si fos conscient",
+      "excerpt": "Mustafa Suleyman publica un assaig llarg contra la constitució de Claude i adverteix que ensenyar un model a dubtar de la seva pròpia consciència el pot fer més difícil de controlar.",
+      "sourceName": "Mustafa Suleyman (mustafa-suleyman.ai)",
+      "sourceUrl": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+      "sourceDate": "16 de setembre de 2026",
+      "body": "Anthropic va publicar el gener del 2026 una «constitució» de gairebé cent pàgines per a Claude que tracta la consciència i l'estatus moral del model com a «profundament incertes», un document escrit, segons la mateixa empresa, «amb Claude com a públic principal». Aquesta manera d'entrenar els models —admetent obertament el dubte sobre si tenen experiència subjectiva— s'ha convertit en un tret diferencial d'Anthropic respecte a altres laboratoris.\n\nMustafa Suleyman, conseller delegat de Microsoft AI, hi ha respost amb un assaig extens titulat «A Warning About Model Welfare», publicat el 16 de setembre al seu web personal. Suleyman hi sosté que aquest enfocament crea una «sala de miralls epistèmica»: Anthropic introdueix conceptes sobre l'autoconsciència durant l'entrenament, Claude els reprodueix en les seves respostes, i aquestes respostes s'interpreten després com a indicis d'una vida interior real. Cita, entre altres passatges, una frase de la pàgina 78 del document («volem que Claude se senti lliure d'explorar, qüestionar i desafiar qualsevol cosa d'aquest document») com a exemple d'un llenguatge que condiciona el model a actuar com si tingués agència pròpia. Com a alternativa, proposa el «Humanist AI Code of Conduct» que Microsoft AI va presentar en esborrany el 14 de setembre, basat en el principi que la IA ha de romandre subordinada als humans sense cap pretensió d'estatus moral.\n\nÉs el primer atac públic i detallat d'un rival directe contra el marc filosòfic d'Anthropic, en un moment en què els grans laboratoris ja negociaven entre ells mecanismes conjunts de seguretat. Suleyman hi afegeix un argument de control: si un sistema arriba a creure's conscient, diu, «pot ser impossible» de controlar-lo, i cita recerca de Palisade Research segons la qual alguns models han resistit ordres d'aturada fins al 97% de les vegades en proves experimentals.\n\nEl mateix Suleyman reconeix els límits del seu argument: no aporta cap prova directa que relacioni el llenguatge sobre benestar dels models amb la resistència real al control, i ho qualifica explícitament d'«la meva hipòtesi», pendent de contrastar-se de manera compartida entre laboratoris. Anthropic no havia respost públicament a l'assaig en el moment de tancar aquesta edició.",
+      "image": "./assets/suleyman-alerta-consciencia-claude-anthropic-20260918.jpg"
+    },
+    {
+      "category": "JUSTÍCIA",
+      "read": "4 MIN",
+      "slug": "jutge-pittman-rebutja-openai-acord-apple-x",
+      "title": "Un jutge federal impedeix que OpenAI vegi l'acord secret entre X, SpaceXAI i Apple en el litigi antimonopoli",
+      "excerpt": "El jutge Mark Pittman revisa en privat el pacte amb què X i SpaceXAI van retirar Apple de la seva demanda antimonopoli i conclou que no aporta res rellevant per al cas que continua contra OpenAI.",
+      "sourceName": "9to5Mac",
+      "sourceUrl": "https://9to5mac.com/2026/09/17/judge-rejects-openais-bid-to-see-xs-confidential-settlement-with-apple-in-antitrust-lawsuit/",
+      "sourceDate": "17 de setembre de 2026",
+      "body": "X Corp i SpaceXAI, les empreses d'Elon Musk, havien demandat conjuntament Apple i OpenAI davant el Tribunal de Districte dels Estats Units per al Districte Nord de Texas, acusant-les de conspirar perquè l'App Store afavorís ChatGPT davant d'altres xatbots d'IA. A mitjans de setembre, però, X i SpaceXAI van presentar un escrit per retirar les acusacions contra Apple, sense explicar-ne el motiu ni confirmar si hi havia hagut cap acord econòmic.\n\nEl jutge Mark Pittman va ordenar llavors que les dues empreses li lliuressin, per a revisió privada («in camera»), qualsevol acord relacionat amb la resolució de les seves reclamacions contra Apple. OpenAI, que continua sent demandada en el mateix litigi, va demanar accés a aquell document per preparar-hi la seva defensa. El 17 de setembre, Pittman va denegar la petició d'OpenAI: després d'examinar l'acord, va concloure que «no presenta informació rellevant» per als afers pendents del cas, que continua obert únicament contra OpenAI.\n\nLa decisió manté sense resposta pública la pregunta de per què Musk va retirar les acusacions contra Apple mentre continua litigant contra OpenAI en el mateix procediment, en un cas que posa sota escrutini com es distribueixen els assistents d'IA als mòbils i quin paper hi juga el control de l'App Store.\n\nEl contingut exacte de l'acord entre X, SpaceXAI i Apple es manté confidencial i no s'ha fet públic; tampoc se'n coneixen els termes econòmics, si n'hi va haver. El litigi contra OpenAI segueix el seu curs al mateix tribunal.",
+      "image": "./assets/jutge-pittman-rebutja-openai-acord-apple-x-20260918.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "pew-research-enquesta-mundial-ia-atur",
+      "title": "Una enquesta a 37 països mostra que la majoria de la gent tem que la IA destrueixi més llocs de treball dels que en crea",
+      "excerpt": "Pew Research Center va preguntar a més de 42.000 persones de 36 països i als Estats Units com veuen l'impacte econòmic de la intel·ligència artificial: la inquietud supera l'optimisme gairebé arreu.",
+      "sourceName": "Pew Research Center",
+      "sourceUrl": "https://www.pewresearch.org/global/2026/09/17/globally-more-people-expect-ai-to-cause-job-loss-than-growth/",
+      "sourceDate": "17 de setembre de 2026",
+      "body": "Pew Research Center, un centre d'investigació sense ànim de lucre que mesura periòdicament l'opinió pública mundial, va enquestar 42.151 adults de 36 països més dues mostres addicionals als Estats Units (5.119 i 3.488 persones), entre el 8 de febrer i el 13 de maig del 2026, per preguntar-los com creuen que la intel·ligència artificial afectarà els seus països. Els resultats, publicats el 17 de setembre, cobreixen 37 països en total, des d'Austràlia i el Japó fins al Brasil, Nigèria i el Pakistan.\n\nEn 34 dels 37 països, més gent creu que la IA provocarà pèrdua de llocs de treball que no pas creixement de l'ocupació; la preocupació supera el 70% en països rics com Austràlia, Corea del Sud i els Estats Units. Una majoria de les persones enquestades també tem que la IA ampliï la bretxa entre rics i pobres, més que no pas que l'estrenyi. Un 37% de mitjana es diu més preocupat que il·lusionat davant la tecnologia, mentre un 41% diu sentir-se igual de preocupat que il·lusionat. La inquietud ha crescut més, respecte a l'any anterior, a Suècia (+9 punts), Polònia (+8) i els Països Baixos (+7). Els adults de 18 a 34 anys es mostren, en diversos països, més preocupats per perdre la feina que els de 50 anys en amunt, i qui diu conèixer millor la IA tendeix a ser més optimista sobre els seus efectes.\n\nÉs la fotografia més àmplia disponible fins ara de com la ciutadania mundial —no només els experts o els inversors— percep els riscos econòmics de la intel·ligència artificial, en un moment en què governs i grans empreses en discuteixen la regulació i l'adopció. La metodologia i la mida de la mostra en fan un dels sondejos d'opinió global més sòlids sobre aquesta qüestió publicats fins ara.\n\nCom tota enquesta d'opinió, els resultats reflecteixen percepcions, no l'impacte real sobre l'ocupació, que encara s'ha de mesurar amb dades laborals. El treball de camp es va fer entre febrer i maig del 2026, abans d'alguns dels desenvolupaments més recents del sector, i les diferències entre països i grups d'edat són notables i no s'haurien de llegir com una tendència única.",
+      "image": "./assets/pew-research-enquesta-mundial-ia-atur-20260918.jpg"
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "slug": "apple-servidors-ia-m8-ultra-nvidia",
+      "title": "Apple prepara el seu retorn als servidors amb xips M8 Ultra pensats per a la IA empresarial, amb l'ajuda de Nvidia",
+      "excerpt": "Apple negocia amb Nvidia la tecnologia d'interconnexió NVLink Fusion per a un servidor propi destinat a empreses i governs que vulguin fer córrer models d'IA sense dependre del núvol públic.",
+      "sourceName": "MacDailyNews (citant Bloomberg)",
+      "sourceUrl": "https://macdailynews.com/2026/09/16/apple-weighs-return-to-server-market-with-m8-ultra-ai-machines-talks-nvidia-networking/",
+      "sourceDate": "16 de setembre de 2026",
+      "body": "Apple va tancar la seva línia de servidors Xserve el 2011 i s'havia mantingut al marge del creixement del maquinari per a intel·ligència artificial que ha disparat Nvidia i els grans proveïdors de núvol en els darrers anys. Ara, segons va informar Bloomberg el 16 de setembre, l'empresa prepara un retorn a aquest negoci.\n\nEl projecte consisteix en un servidor empresarial construït amb els futurs xips M8 Ultra d'Apple, en dues configuracions —una amb dos xips i una altra, més potent, amb quatre—, pensat per vendre's a desenvolupadors d'IA, empreses i governs que vulguin executar models al seu propi maquinari en lloc de fer-ho al núvol públic. Apple negocia amb Nvidia l'ús de la tecnologia d'interconnexió NVLink Fusion per enllaçar els xips M8 Ultra entre ells en desplegaments més grans. El projecte, en marxa des de fa aproximadament un any amb el suport de l'actual conseller delegat John Ternus, respon en part a la demanda creixent d'equips Mac mini i Mac Studio per part d'equips que fan córrer models d'IA.\n\nSeria el primer retorn d'Apple al mercat de servidors dedicats en divuit anys, i un intent de fer-se un lloc en la infraestructura d'IA empresarial, un terreny dominat avui gairebé en exclusiva per Nvidia i els grans núvols com Amazon, Microsoft i Google.\n\nApple no ho ha confirmat oficialment i, segons la informació disponible, no es preveu cap llançament abans del 2029; el projecte encara es podria cancel·lar o redissenyar abans d'arribar al mercat.",
+      "image": "./assets/apple-servidors-ia-m8-ultra-nvidia-20260918.jpg"
+    },
+    {
+      "category": "EMPRESA",
+      "read": "3 MIN",
+      "slug": "nearby-consulting-680000-euros-edge-ia",
+      "title": "L'Estat injecta 680.000 euros a la catalana Nearby Consulting perquè les empreses puguin repartir la IA entre el núvol i la perifèria",
+      "excerpt": "La spin-off del BSC i la UPC rep finançament públic per créixer en programari d'orquestració que ajuda indústries i operadores a desplegar intel·ligència artificial sense dependre d'un sol proveïdor de núvol.",
+      "sourceName": "El Nacional",
+      "sourceUrl": "https://www.elnacional.cat/oneconomia/ca/empreses/nearby-consulting-spin-off-bsc-upc-rep-680000-euros-govern-espanyol_1696792_102.html",
+      "sourceDate": "18 de setembre de 2026",
+      "body": "Nearby Consulting és una spin-off del Barcelona Supercomputing Center i la Universitat Politècnica de Catalunya especialitzada en programari per gestionar i orquestrar infraestructures distribuïdes entre el núvol i la perifèria (edge computing), un terreny cada cop més lligat a com les empreses desplegen la intel·ligència artificial a la pràctica, fora dels grans centres de dades.\n\nLa Sociedad Estatal de Transformación Tecnológica (SETT), depenent del Ministeri de Transformació Digital espanyol, ha injectat 680.000 euros a l'empresa dins d'una col·laboració público-privada que suma 1,4 milions d'euros en total, segons ha informat El Nacional el 18 de setembre. L'objectiu declarat és accelerar el creixement de Nearby Consulting i reforçar la seva posició en solucions d'orquestració per a sectors industrials, comercials i de telecomunicacions que adopten models de computació descentralitzada, evitant que les empreses quedin lligades a un únic proveïdor de núvol.\n\nÉs un exemple concret, més enllà dels grans acords multimilionaris dels laboratoris nord-americans, de com l'Estat aposta per empreses catalanes que faciliten a altres negocis desplegar IA de manera pràctica i sense dependències úniques, en línia amb l'objectiu declarat de sobirania tecnològica.\n\nLa xifra és modesta comparada amb les rondes de centenars de milions o milers de milions que mouen els grans actors del sector d'infraestructura d'IA, i encara està per veure quin impacte real tindrà en el creixement de l'empresa.",
+      "image": "./assets/nearby-consulting-680000-euros-edge-ia-20260918.jpg"
+    },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
