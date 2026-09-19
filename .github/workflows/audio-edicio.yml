@@ -12,6 +12,11 @@ on:
       - "Content Hub — la reflexió del dia"
     types: [completed]
   workflow_dispatch:
+    inputs:
+      regenera:
+        description: "Slugs de notícies rectificades a les quals cal refer l'àudio (separats per comes). Buit = passada normal."
+        required: false
+        default: ""
   # Xarxa de seguretat (25.07.2026): passada horària. El script salta els MP3
   # que ja existeixen al servidor, així que si tot és al dia acaba en ~1 min; si
   # una passada anterior havia fallat (Hostinger caigut, com el matí
@@ -112,4 +117,5 @@ jobs:
           SSH_USER: ${{ secrets.SSH_USER }}
           SSH_PORT: ${{ secrets.SSH_PORT }}
           SSH_PATH: ${{ secrets.SSH_PATH }}
+          REGENERA: ${{ github.event.inputs.regenera || '' }}
         run: python automation/scripts/genera_audio.py
