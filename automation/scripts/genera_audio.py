@@ -37,6 +37,7 @@ FTP_HOST = "srv1589.hstgr.io"
 FTP_USER = "u901078817.claude"
 SSH_PATH_DEFECTE = "domains/inteligencia-artificial.cat/public_html"
 ARTICLES = Path("public/data/articles.json")
+ARXIU_PLA = Path("public/data/archive.json")  # totes les notícies publicades (fins a 1.000)
 MIDA_MINIMA = 20000  # bytes: per sota d'això considerem l'àudio corrupte
 
 # Peces editorials fixes: (fitxer window.IA_*, prefix del nom del MP3, camps de text)
@@ -192,6 +193,45 @@ def tria_transport():
     return None
 
 
+def cerca_noticia(slug: str):
+    """Busca una notícia per slug a l'edició d'avui i, si no hi és, a l'arxiu pla."""
+    fonts = []
+    if ARTICLES.is_file():
+        fonts.append(json.loads(ARTICLES.read_text(encoding="utf-8")).get("items", []))
+    if ARXIU_PLA.is_file():
+        dades = json.loads(ARXIU_PLA.read_text(encoding="utf-8"))
+        fonts.append(dades if isinstance(dades, list) else dades.get("items", []))
+    for items in fonts:
+        for item in items:
+            if isinstance(item, dict) and (item.get("slug") or "").strip() == slug:
+                return item
+    return None
+
+
+def regenera_forcats(transport, fets: int, errors: int):
+    """Torna a sintetitzar les notícies de REGENERA encara que el MP3 ja existeixi."""
+    demanats = [s.strip() for s in os.environ.get("REGENERA", "").split(",") if s.strip()]
+    for slug in demanats:
+        if not re.fullmatch(r"[a-z0-9-]+", slug):
+            print(f"AVÍS: slug no vàlid a REGENERA: {slug!r}; s'ignora.")
+            continue
+        item = cerca_noticia(slug)
+        if not item:
+            print(f"ERROR: no s'ha trobat cap notícia amb l'slug {slug} per regenerar-ne l'àudio.")
+            errors += 1
+            continue
+        text = "\n\n".join(
+            part for part in (item.get("title", ""), item.get("excerpt", ""), item.get("body", ""))
+            if part
+        )
+        print(f"Regeneració forçada de {slug}.mp3")
+        if sintetitza_i_puja(slug, text, transport):
+            fets += 1
+        else:
+            errors += 1
+    return fets, errors
+
+
 def sintetitza_i_puja(slug: str, text: str, transport) -> bool:
     """Sintetitza `text` i el puja a assets/audio/<slug>.mp3. True si tot ha anat bé."""
     with tempfile.TemporaryDirectory() as td:
@@ -235,6 +275,15 @@ def main() -> int:
     if transport is None:
         return 1
     fets = saltats = errors = 0
+
+    # 0) Regeneració forçada (19.09.2026). Quan es rectifica una notícia ja
+    #    publicada, el seu MP3 continua llegint el text antic, perquè la passada
+    #    normal salta els àudios que ja són al servidor. Llançant el workflow a
+    #    mà amb l'entrada «regenera» (slugs separats per comes), aquestes
+    #    notícies es tornen a sintetitzar i el MP3 se sobreescriu. Només actua
+    #    amb aquesta entrada: la passada horària no hi entra mai, de manera
+    #    que no pot entrar en bucle.
+    fets, errors = regenera_forcats(transport, fets, errors)
 
     # 1) Les notícies de l'edició (comportament de sempre).
     if ARTICLES.is_file():
