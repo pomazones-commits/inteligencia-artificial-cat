@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-20T04:16:29.001Z",
+  "updatedAt": "2026-09-20T08:16:05.540Z",
   "items": [
+    {
+      "category": "GOVERNANÇA",
+      "read": "4 MIN",
+      "title": "Trump anuncia la creació d'una «AI Force» i nomenarà un «tsar» de la IA que no regularà el sector",
+      "excerpt": "El president dels Estats Units diu que crearà un cos federal dedicat a la IA «igual que vaig fer amb la Space Force» i qualifica d'«engany» els avisos d'experts com Geoffrey Hinton, mentre governadors demòcrates com Gavin Newsom aproven les seves pròpies mesures de control."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "4 MIN",
+      "title": "Califòrnia obre la porta a un «botó d'emergència» per aturar els models d'IA de frontera",
+      "excerpt": "Gavin Newsom signa una ordre executiva que demana a un grup d'experts que en dos mesos proposi mesures per reforçar la llei californiana d'IA, entre elles un mecanisme d'aturada d'urgència per als models més avançats i auditors independents dins de les pròpies empreses."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "Una fallada de seguretat anomenada «Plugin4Shell» afecta els quatre grans agents d'IA per programar",
+      "excerpt": "Investigadors de seguretat troben una vulnerabilitat d'execució remota de codi que no requereix cap clic i que afecta Claude Code, Codex, GitHub Copilot i Gemini CLI: un atacant que controli un connector pot substituir-lo per codi maliciós sense trencar la verificació que hauria de detectar-ho."
+    },
+    {
+      "category": "MERCATS",
+      "read": "5 MIN",
+      "title": "OpenAI preveu cremar 278.000 milions de dòlars més del que ingressarà fins al 2030",
+      "excerpt": "Documents interns citats per Financial Times i confirmats per Bloomberg mostren que l'empresa espera un flux de caixa lliure negatiu acumulat de 278.000 milions de dòlars entre el 2026 i el 2030, malgrat que preveu multiplicar per deu els ingressos, arran de la seva despesa massiva en infraestructura."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un mètode del MIT aconsegueix que la IA generativa compleixi sempre les restriccions dures que exigeix la robòtica",
+      "excerpt": "«HardFlow» permet que un model generatiu ja entrenat respecti al 100% condicions innegociables —com no col·lidir amb un obstacle— sense haver de tornar-lo a entrenar, en proves amb braços robòtics, navegació en laberints i edició d'imatges guiada per text."
+    },
     {
       "category": "COMPETÈNCIA",
       "read": "5 MIN",
