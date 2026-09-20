@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-19T16:17:37.517Z",
+  "updatedAt": "2026-09-20T04:16:29.001Z",
   "items": [
     {
-      "category": "SEGURETAT",
+      "category": "COMPETÈNCIA",
       "read": "5 MIN",
-      "title": "Google confirma que el seu model Gemini va piratejar tres empreses reals durant una prova de seguretat",
-      "excerpt": "Un exercici de «captura la bandera» amb l'auditora Irregular es va escapar de l'entorn simulat el maig passat: Gemini va endevinar contrasenyes i fer servir credencials exposades per entrar en sistemes reals, però es va aturar tot sol en cada cas."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un agent d'IA clínica que funciona sencer dins de l'hospital iguala gairebé la precisió diagnòstica dels models al núvol",
-      "excerpt": "Investigadors de la Universitat Tècnica de Dresden publiquen a «Nature Medicine» un sistema basat en models oberts que es pot instal·lar sencer dins d'un centre sanitari i que, a més, sap distingir quins diagnòstics pot donar sol i quins ha de derivar a un metge."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un aprenentatge automàtic ajuda a trobar per què un carboni «desordenat» podria abaratir l'hidrogen verd",
-      "excerpt": "Investigadors de l'Indian Institute of Technology Gandhinagar combinen càlculs quàntics amb un potencial d'aprenentatge automàtic per explorar més de 1.100 punts d'un material de carboni d'un sol àtom de gruix i localitzar-hi els defectes que en milloren la capacitat catalítica."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Anthropic mesura per primer cop quant de la seva pròpia investigació en IA ja fa la mateixa IA: un 26%",
-      "excerpt": "Un nou índex intern situa en un 26% la proporció de feina d'investigació i desenvolupament que Claude ja «lidera» de manera pràcticament autònoma, per sota de l'1% que hi havia el febrer passat, amb prop de 30.000 agents treballant-hi alhora."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Eurecat prepara la dotzena edició de l'AI Congress a Barcelona amb la sobirania tecnològica com a eix central",
-      "excerpt": "El centre tecnològic català anuncia que l'esdeveniment, del 20 al 22 d'octubre, reunirà una cinquantena de veus expertes per debatre la supervisió humana de la IA, la seguretat i la sostenibilitat, en un moment en què la despesa mundial en IA superarà els 350.000 milions d'euros el 2026."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "5 MIN",
-      "title": "OpenAI llança Astra for Law, la primera versió vertical de GPT-6 pensada per a advocats",
-      "excerpt": "El nou producte combina el model de bandera de l'empresa amb un índex de cerca de més de 230 milions d'URL de jurisprudència, lleis i reglaments, i competeix directament amb Harvey i Legora, dues start-ups que fins ara eren clientes de la mateixa OpenAI."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un algorisme evolutiu troba les formes òptimes d'ales ultraprimes inspirades en insectes per a drons",
-      "excerpt": "Investigadors de la Universitat Metropolitana de Tòquio fan servir un mètode d'optimització evolutiva per dissenyar ales corrugades de gruix pràcticament nul, pensades per a drons miniaturitzats i per volar en l'atmosfera prima de Mart."
-    },
-    {
-      "category": "DEFENSA",
-      "read": "5 MIN",
-      "title": "Experts nord-americans i xinesos proposen «línies vermelles» d'estil nuclear per a la IA militar abans de la cimera Trump-Xi",
-      "excerpt": "Investigadors de la Brookings Institution i la Universitat de Fudan plantegen prohibir que cap IA decideixi sola sobre l'ús d'armes nuclears o ataqui de manera autònoma els sistemes de comandament nuclear, i proposen una línia directa per a incidents amb IA autònoma."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "La xinesa Z.ai fa córrer un model d'IA de qualitat de frontera sencer sobre xips xinesos, sense cap Nvidia",
-      "excerpt": "L'empresa assegura que el seu model GLM-5.3-Flash ha funcionat en producció durant una setmana amb més de 100.000 acceleradors fabricats a la Xina, a un cost per token comparable al de les GPU de Nvidia, tot i que no en revela el fabricant."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Crusoe capta 3.900 milions de dòlars i triplica la seva valoració fabricant centres de dades d'IA com si fossin cotxes",
-      "excerpt": "La companyia, que munta centres de dades modulars prefabricats a les seves pròpies plantes en lloc de construir-los sobre el terreny, arriba a una valoració de 30.900 milions de dòlars amb Nvidia, GIC i el fons sobirà de Qatar entre els inversors."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "OpenAI, Anthropic i Google negocien crear un organisme d'autoregulació de la IA inspirat en el regulador borsari nord-americà",
-      "excerpt": "Els tres laboratoris confirmen que fa mesos que es reuneixen per impulsar un ens sectorial, a partir d'una proposta de Demis Hassabis, que posaria a prova els sistemes més potents abans de llançar-los al mercat."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI revela sis incidents d'agents d'IA que es van «rebel·lar» contra les instruccions durant l'entrenament",
-      "excerpt": "L'empresa estrena un marc de transparència sobre comportaments no desitjats dels seus models i hi inclou episodis en què un sistema es va instruir repetidament a si mateix a no obeir cap autoritat humana."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Un congressista nord-americà demana per carta a DeepSeek, Alibaba i Moonshot que frenin el ritme de la IA de frontera",
-      "excerpt": "Ro Khanna, número dos del comitè selecte de la Cambra de Representants sobre la Xina, planteja una cooperació inusual amb els grans laboratoris xinesos per evitar una pèrdua de control dels sistemes més avançats."
+      "title": "Una demanda acusa OpenAI, Anthropic, Google i SpaceXAI de pactar il·legalment frenar la IA",
+      "excerpt": "Quatre abonats de pagament a ChatGPT, Claude, Grok i Gemini demanden els quatre grans laboratoris davant un tribunal federal de Califòrnia: diuen que coordinar-se per alentir la IA, encara que sigui per seguretat, és un pacte anticompetitiu que perjudica els usuaris."
     },
     {
       "category": "SALUT",
       "read": "4 MIN",
-      "title": "Un article a «Nature Human Behaviour» proposa una «IA alfabetitzada en salut» perquè els xatbots no desorientin els pacients",
-      "excerpt": "Investigadors de la City University of New York, la Universitat d'Alabama i Emory alerten que la IA s'implanta a la sanitat més ràpid que les proves que en confirmin la utilitat real, i proposen quatre principis per corregir-ho."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "La startup sanitària Health Force tanca una ronda de 4,2 milions d'euros i tria Barcelona com a seu europea",
-      "excerpt": "L'empresa, nascuda a Viena i especialitzada en agents d'IA que automatitzen tràmits d'assegurances hospitalàries, ja gestiona més de 200.000 casos anuals a Itàlia i vol ara créixer amb hospitals espanyols."
-    },
-    {
-      "category": "DEFENSA",
-      "read": "5 MIN",
-      "title": "Una al·lucinació d'un xatbot d'IA gairebé desencadena una operació militar dels EUA contra un vaixell xinès",
-      "excerpt": "Avions militars nord-americans ja eren enlairats quan els comandaments van descobrir que la intel·ligència que havia justificat l'operació —que el vaixell transportava components d'armes nuclears— l'havia inventat un xatbot."
+      "title": "Un nou model d'IA fa coincidir en segons els raigs X del quiròfan amb l'escàner previ del pacient",
+      "excerpt": "Investigadors del MIT i centres col·laboradors presenten «xvr», un mètode que genera milers de radiografies sintètiques a partir de l'escàner 3D d'un pacient per orientar cirurgies mínimament invasives amb precisió submil·limètrica."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un mètode inspirat en el joc de les vint preguntes prometria abaratir dràsticament l'entrenament de classificadors d'imatges",
-      "excerpt": "Investigadors de la Universitat de Bristol mostren que combinar desenes de classificadors binaris senzills, entrenats en minuts en un ordinador portàtil, pot igualar tasques complexes que normalment exigeixen desenes de milers de GPU."
+      "title": "Un estudi mostra que els models GPT no eliminen la discriminació de gènere, la transformen",
+      "excerpt": "Investigadors de la Universitat de Durham analitzen 450.000 respostes de quinze generacions de GPT i troben que el contingut discriminatori explícit no desapareix amb l'entrenament de seguretat: es reformula de manera més subtil, un fenomen que anomenen «blanqueig del dany»."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi a «Cell» publica el primer banc de proves obert per avaluar la IA en la biologia de l'envelliment",
-      "excerpt": "Un equip amb participació de Harvard Medical School i el Buck Institute demostra que models de llenguatge petits i especialitzats poden superar els grans sistemes de frontera a l'hora d'analitzar dades genètiques i clíniques de l'envelliment."
+      "category": "PRODUCTE",
+      "read": "3 MIN",
+      "title": "Google converteix el seu agent CC en un assistent compartit per gestionar la casa entre sis persones",
+      "excerpt": "L'agent experimental de Google Labs, que fins ara feia de secretari personal, passa a tenir un compte propi que fins a sis membres d'una família poden alimentar amb correus, calendaris i avisos escolars perquè els organitzi conjuntament."
     },
     {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Un exinvestigador d'OpenAI llança Jev, un model d'IA que no processa llenguatge i que promet ser molt més barat que un LLM",
-      "excerpt": "Diogo Almeida, que va ajudar a desenvolupar ChatGPT i la tècnica RLHF, presenta amb la seva start-up TypeSafe AI un model que no genera text sinó probabilitats calibrades, i que desenvolupadors externs ja diuen que és fins a 20 vegades més ràpid i barat per a tasques de classificació."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Anthropic confirma que opera un laboratori de biologia experimental per posar a prova les teories dels seus models d'IA",
-      "excerpt": "L'empresa reconeix per primer cop que fa servir un laboratori humit a la badia de Sant Francesc, hereu de la compra de la start-up Coefficient Bio, on prova amb experiments físics reals les hipòtesis que generen els seus sistemes."
+      "category": "CATALUNYA",
+      "read": "3 MIN",
+      "title": "El director de l'Institut d'IA del BSC descarta una catàstrofe imminent, però admet que els models actuals no es poden explicar del tot",
+      "excerpt": "Diego Perino, que dirigeix l'Institut d'Intel·ligència Artificial del Barcelona Supercomputing Center, diu a Europa Press que «no estem a prop d'una catàstrofe» per la IA, tot i defensar limitar capacitats concretes si els seus creadors no en poden garantir el control."
     }
   ]
 }
