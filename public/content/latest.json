@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-21T04:16:18.810Z",
+  "updatedAt": "2026-09-21T08:21:35.011Z",
   "items": [
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Una startup xinesa de set mesos de vida, fundada per un professor de Tsinghua, arriba a una valoració de 1.420 milions de dòlars sense haver tret encara cap model",
+      "excerpt": "Naive AI, creada el febrer del 2026 a Pequín per l'acadèmic Dai Jifeng, ha captat 400 milions de dòlars de Tencent, IDG Capital i altres fons en tres rondes, amb una estratègia diferent de la resta de laboratoris xinesos: no entrenar models des de zero, sinó perfeccionar-ne d'oberts ja existents."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Un model obert d'Alibaba detecta 146 malalties abdominals en un sol TAC i supera 23 dels 26 radiòlegs d'un estudi comparatiu",
+      "excerpt": "L'Acadèmia DAMO d'Alibaba ha publicat a la revista «Science» DAMO RADAR, un sistema d'IA de codi obert que analitza TACs abdominals amb contrast i identifica fins a 146 troballes clíniques en un sol pas, amb un rendiment diagnòstic que supera la majoria dels especialistes que el van posar a prova."
+    },
+    {
+      "category": "GEOPOLÍTICA",
+      "read": "3 MIN",
+      "title": "El president del comitè de la Xina al Congrés nord-americà demana a Trump que tanqui la porta del núvol que permet a la Xina esquivar els controls de xips d'IA",
+      "excerpt": "John Moolenaar, president del Comitè Selecte sobre el Partit Comunista Xinès de la Cambra de Representants, ha enviat una carta a Donald Trump pocs dies abans de la visita de Xi Jinping a Washington demanant que es tanqui la via de l'accés remot a núvols nord-americans que permet als laboratoris xinesos «destil·lar» models d'IA sense comprar xips directament."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Un estudi que va posar a prova 18 xatbots d'IA amb preguntes financeres troba errors en el 57% de les respostes",
+      "excerpt": "La firma financera britànica Saturn va formular 121 preguntes sobre hipoteques, pensions, impostos i deute a 18 models d'IA populars, repetides cinc vegades cadascuna, i va trobar que només el 43% de les respostes eren correctes, amb una taxa d'error de fins al 88% en les preguntes més complexes."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Alibaba llança Qwen3.8-Omni-Flash, un model que processa text, imatge, àudio i vídeo alhora amb un context d'un milió de tokens",
+      "excerpt": "El nou model omnimodal de l'equip Qwen d'Alibaba integra en un sol sistema l'anàlisi d'àudio i vídeo, el raonament i l'ús d'eines per a tasques d'agent, amb una millora de més del 26% respecte al seu predecessor i una reducció del 98% en el cost de processar àudio."
+    },
     {
       "category": "GEOPOLÍTICA",
       "read": "4 MIN",
