@@ -165,8 +165,43 @@
     document.querySelector('#carousel-next').addEventListener('click', () => { nextStory(1); restartCarousel(); });
     document.querySelector('.daily-carousel').addEventListener('mouseenter', () => window.clearInterval(carouselTimer));
     document.querySelector('.daily-carousel').addEventListener('mouseleave', restartCarousel);
+    // ——— Alçada estable del carrusel ———
+    // Cada notícia té un titular d'una llargada diferent, així que el bloc creixia
+    // i s'encongia a cada canvi automàtic i tot el que hi ha a sota de la portada
+    // pujava i baixava mentre es llegia. Aquí es recorren totes les notícies del
+    // dia, es mesura la més alta i es reserva aquesta alçada: no es retalla res i
+    // res no es mou. Es recalcula si canvia l'amplada de la finestra.
+    let lockedWidth = 0;
+    function lockStageHeight() {
+      const width = Math.round(stage.getBoundingClientRect().width);
+      if (!width) return;
+      lockedWidth = width;
+      const shown = activeIndex;
+      stage.style.minHeight = '';
+      stage.setAttribute('aria-busy', 'true');
+      let tallest = 0;
+      for (let index = 0; index < dailyStories.length; index += 1) {
+        activeIndex = index;
+        renderCarousel();
+        tallest = Math.max(tallest, stage.getBoundingClientRect().height);
+      }
+      activeIndex = shown;
+      renderCarousel();
+      stage.removeAttribute('aria-busy');
+      if (tallest) stage.style.minHeight = `${Math.ceil(tallest)}px`;
+    }
+
     renderCarousel();
+    lockStageHeight();
     restartCarousel();
+    // Les tipografies pròpies poden canviar el nombre de línies del titular.
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(lockStageHeight);
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      if (Math.round(stage.getBoundingClientRect().width) === lockedWidth) return;
+      window.clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(lockStageHeight, 200);
+    });
 
     // ——— Llista «En moviment» ———
     document.querySelector('#latest-list').innerHTML = news.slice(0, 5).map(story => `
