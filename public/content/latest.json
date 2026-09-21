@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-20T16:21:19.023Z",
+  "updatedAt": "2026-09-21T04:16:18.810Z",
   "items": [
     {
-      "category": "GOVERNANÇA",
+      "category": "GEOPOLÍTICA",
       "read": "4 MIN",
-      "title": "Els grans caps de la IA nord-americana seuran al sopar d'estat de Trump amb Xi Jinping",
-      "excerpt": "Sam Altman, Jensen Huang, Tim Cook, Elon Musk, Jeff Bezos i Sundar Pichai figuren entre els convidats confirmats per al sopar d'estat del 24 de setembre a la Casa Blanca, on Trump i Xi Jinping tractaran, entre altres temes, la intel·ligència artificial i la rivalitat tecnològica entre els dos països."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un conjunt de models d'IA especialitzats en envelliment, més petits, superen els grans models generalistes",
-      "excerpt": "Insilico Medicine, Liquid AI, el Buck Institute i Harvard Medical School presenten a la revista Cell «LongevityBench», un banc de proves obert per avaluar IA en biologia de l'envelliment, i una família de models compactes que baten els 26 sistemes de frontera avaluats, Gemini inclòs, amb una fracció dels seus paràmetres."
-    },
-    {
-      "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "Les grans tecnològiques amaguen 300.000 milions de dòlars de deute lligat a la IA fora del balanç",
-      "excerpt": "Una investigació del Financial Times revela que Meta, Nvidia, Broadcom i altres han emès en un any garanties per valor d'uns 300.000 milions de dòlars per finançar centres de dades i xips d'IA a través de vehicles financers separats, una tècnica que manté aquesta exposició fora dels seus comptes oficials."
-    },
-    {
-      "category": "COMPETÈNCIA",
-      "read": "4 MIN",
-      "title": "La xinesa CXMT trenca per primer cop en una dècada el domini de Samsung, SK Hynix i Micron en xips de memòria",
-      "excerpt": "El fabricant xinès CXMT anuncia que la seva plataforma de DRAM de cinquena generació, feta sense les màquines de litografia EUV vetades a la Xina, ja està en producció massiva i integrada en mòbils xinesos, un pas que situa la companyia al voltant del 10% del mercat mundial de memòria."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Alibaba trenca amb la seva pròpia tradició de codi obert i llança Qwen-Image-2.1 amb una llicència només de recerca",
-      "excerpt": "El nou model de generació i edició d'imatges d'Alibaba, amb 7.000 milions de paràmetres i suport natiu per a imatges transparents, deixa enrere la llicència permissiva Apache que havien fet servir les versions anteriors de Qwen-Image, en un gir remarcable per a un dels laboratoris xinesos més actius publicant models en obert."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "OpenAI reconeix que no sap com garantir la seguretat d'una IA que es millori a si mateixa, mentre xAI fixa el 2027 per automatitzar-ho del tot",
-      "excerpt": "En un document tècnic, OpenAI admet que «no pot donar per fet» que el progrés en seguretat vagi al mateix ritme que la capacitat dels seus models, just quan persegueix un «investigador» d'IA totalment autònom per al març del 2028. Elon Musk diu que a xAI «cada cop hi ha menys humans al bucle» i preveu l'automatització completa per al 2027 com a molt tard."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un exèrcit de 37.000 agents d'IA de Stanford proposa un fàrmac contra el càncer de pulmó que després una farmacèutica va confirmar de manera independent",
-      "excerpt": "El projecte «Virtual Biotech» de la Universitat de Stanford, amb una IA que fa de directora científica i delega tasques a milers d'agents especialitzats, va identificar el 2025 una diana contra el càncer de pulmó que una gran farmacèutica va acabar desenvolupant pel seu compte mesos després, amb designació de teràpia innovadora de l'FDA."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Anthropic incorpora Accenture com a primera «avaluadora incrustada» amb accés intern equiparable al d'un empleat, en un pla de mil milions de dòlars",
-      "excerpt": "L'acord, que compleix un compromís de l'assaig «We Must Pace the Frontier» de Dario Amodei, permetrà a un equip d'Accenture —liderat per la seva filial Faculty— observar des de dins com s'entrenen i es despleguen els models de Claude per fer-hi avaluacions de seguretat i alineament independents."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Anthropic ajorna la sortida a borsa fins al novembre i preveu superar els 100.000 milions de dòlars de facturació anual el 2026",
-      "excerpt": "Segons Bloomberg i el New York Times, la companyia de Claude podria acabar l'any amb una facturació anualitzada per sobre dels 100.000 milions de dòlars —davant els 65.000 milions de juliol— mentre ajorna el debut borsari fins al novembre per presentar als inversors els resultats del tercer trimestre, amb una valoració que ronda els 2 bilions de dòlars."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "OpenAI permet instal·lar extensions de Chrome dins del navegador integrat de l'aplicació d'escriptori de ChatGPT",
-      "excerpt": "Els usuaris de l'app d'escriptori de ChatGPT ja poden instal·lar i fixar extensions com 1Password dins del navegador propi de l'aplicació, sense haver de canviar de finestra; OpenAI diu que l'agent de ChatGPT no pot accedir ni a les extensions ni a les seves dades."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Trump anuncia la creació d'una «AI Force» i nomenarà un «tsar» de la IA que no regularà el sector",
-      "excerpt": "El president dels Estats Units diu que crearà un cos federal dedicat a la IA «igual que vaig fer amb la Space Force» i qualifica d'«engany» els avisos d'experts com Geoffrey Hinton, mentre governadors demòcrates com Gavin Newsom aproven les seves pròpies mesures de control."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Califòrnia obre la porta a un «botó d'emergència» per aturar els models d'IA de frontera",
-      "excerpt": "Gavin Newsom signa una ordre executiva que demana a un grup d'experts que en dos mesos proposi mesures per reforçar la llei californiana d'IA, entre elles un mecanisme d'aturada d'urgència per als models més avançats i auditors independents dins de les pròpies empreses."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Una fallada de seguretat anomenada «Plugin4Shell» afecta els quatre grans agents d'IA per programar",
-      "excerpt": "Investigadors de seguretat troben una vulnerabilitat d'execució remota de codi que no requereix cap clic i que afecta Claude Code, Codex, GitHub Copilot i Gemini CLI: un atacant que controli un connector pot substituir-lo per codi maliciós sense trencar la verificació que hauria de detectar-ho."
-    },
-    {
-      "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "OpenAI preveu cremar 278.000 milions de dòlars més del que ingressarà fins al 2030",
-      "excerpt": "Documents interns citats per Financial Times i confirmats per Bloomberg mostren que l'empresa espera un flux de caixa lliure negatiu acumulat de 278.000 milions de dòlars entre el 2026 i el 2030, malgrat que preveu multiplicar per deu els ingressos, arran de la seva despesa massiva en infraestructura."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode del MIT aconsegueix que la IA generativa compleixi sempre les restriccions dures que exigeix la robòtica",
-      "excerpt": "«HardFlow» permet que un model generatiu ja entrenat respecti al 100% condicions innegociables —com no col·lidir amb un obstacle— sense haver de tornar-lo a entrenar, en proves amb braços robòtics, navegació en laberints i edició d'imatges guiada per text."
-    },
-    {
-      "category": "COMPETÈNCIA",
-      "read": "5 MIN",
-      "title": "Una demanda acusa OpenAI, Anthropic, Google i SpaceXAI de pactar il·legalment frenar la IA",
-      "excerpt": "Quatre abonats de pagament a ChatGPT, Claude, Grok i Gemini demanden els quatre grans laboratoris davant un tribunal federal de Califòrnia: diuen que coordinar-se per alentir la IA, encara que sigui per seguretat, és un pacte anticompetitiu que perjudica els usuaris."
+      "title": "Washington proposa a la Xina un sistema de notificació mútua d'incidents d'IA abans de la cimera Trump-Xi",
+      "excerpt": "El secretari del Tresor Scott Bessent ha plantejat al vicepresident xinès He Lifeng un mecanisme bilateral per avisar-se d'incidents d'intel·ligència artificial amb risc de seguretat nacional, en unes converses a Nova York que continuaran aquesta setmana just abans de la trobada entre Donald Trump i Xi Jinping."
     },
     {
       "category": "SALUT",
       "read": "4 MIN",
-      "title": "Un nou model d'IA fa coincidir en segons els raigs X del quiròfan amb l'escàner previ del pacient",
-      "excerpt": "Investigadors del MIT i centres col·laboradors presenten «xvr», un mètode que genera milers de radiografies sintètiques a partir de l'escàner 3D d'un pacient per orientar cirurgies mínimament invasives amb precisió submil·limètrica."
+      "title": "Una revisió de la Clínica Mayo conclou que els grans models de llenguatge només són fiables a la consulta si s'adapten al context mèdic",
+      "excerpt": "Un equip de la Clínica Mayo ha revisat 35 estudis recents sobre l'ús de models de llenguatge en diagnòstic, triatge i planificació de tractaments, i conclou que la potència del model per si sola no n'assegura la fiabilitat clínica: cal triar bé el mètode d'adaptació segons la tasca."
     },
     {
       "category": "CIÈNCIA",
+      "read": "3 MIN",
+      "title": "Un laboratori robòtic del MIT munta i ajusta sol un experiment d'òptica de precisió en mitja hora",
+      "excerpt": "Investigadors del MIT han demostrat un sistema robòtic capaç de muntar, alinear i estabilitzar un experiment d'òptica de precisió sense intervenció humana, un procés que normalment requereix setmanes o mesos d'ajustos manuals."
+    },
+    {
+      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Un estudi mostra que els models GPT no eliminen la discriminació de gènere, la transformen",
-      "excerpt": "Investigadors de la Universitat de Durham analitzen 450.000 respostes de quinze generacions de GPT i troben que el contingut discriminatori explícit no desapareix amb l'entrenament de seguretat: es reformula de manera més subtil, un fenomen que anomenen «blanqueig del dany»."
+      "title": "La xinesa StepFun llança un model de 600.000 milions de paràmetres set vegades més barat que els grans models nord-americans",
+      "excerpt": "StepFun ha obert l'accés per API a Step 5 Preview, un model de barreja d'experts de 600.000 milions de paràmetres pensat per a tasques d'agent —programació, anàlisi financera, feina de coneixement— amb un preu que és aproximadament una setena part del de GPT-5.6."
     },
     {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Google converteix el seu agent CC en un assistent compartit per gestionar la casa entre sis persones",
-      "excerpt": "L'agent experimental de Google Labs, que fins ara feia de secretari personal, passa a tenir un compte propi que fins a sis membres d'una família poden alimentar amb correus, calendaris i avisos escolars perquè els organitzi conjuntament."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "El director de l'Institut d'IA del BSC descarta una catàstrofe imminent, però admet que els models actuals no es poden explicar del tot",
-      "excerpt": "Diego Perino, que dirigeix l'Institut d'Intel·ligència Artificial del Barcelona Supercomputing Center, diu a Europa Press que «no estem a prop d'una catàstrofe» per la IA, tot i defensar limitar capacitats concretes si els seus creadors no en poden garantir el control."
+      "category": "PRIVACITAT",
+      "read": "4 MIN",
+      "title": "Una investigació independent troba que el píxel publicitari de ChatGPT recull dades personals no declarades pels anunciants",
+      "excerpt": "Una anàlisi independent de centenars de píxels publicitaris d'OpenAI conclou que el sistema recull més dades identificatives extretes directament de les pàgines dels anunciants —incloent-hi codis postals sense xifrar— que dades que els anunciants li proporcionen expressament, i que la cookie de seguiment persisteix fins a un any."
     }
   ]
 }
