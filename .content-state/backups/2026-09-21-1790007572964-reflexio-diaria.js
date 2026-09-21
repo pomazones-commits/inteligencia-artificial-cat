@@ -1,0 +1,33 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-09-20",
+  "title": "El deute que la IA no ensenya als seus propis comptes",
+  "dek": "El mateix dia que OpenAI admet que cremarà 278.000 milions més del que ingressarà i el Financial Times revela 300.000 milions més amagats fora de balanç a la resta del sector, els executius que en debaten el ritme es preparen per seure a taula amb Trump i Xi Jinping.",
+  "body": [
+    "L'edició d'avui combina dos eixos que fa dies que conviuen sense acabar de trobar-se: el polític, amb Trump anunciant una «AI Force» que no vol regular res i Califòrnia obrint la porta a un «botó d'emergència» per als models de frontera, i el financer, amb OpenAI xifrant per primer cop en 278.000 milions de dòlars el que preveu cremar per sobre dels ingressos fins al 2030. A banda, una demanda acusa els quatre grans laboratoris de pactar il·legalment alentir la IA, i es confirma que els caps d'aquests mateixos laboratoris seuran d'aquí quatre dies a la mateixa taula que Trump i Xi Jinping.",
+    "El que és genuïnament nou avui no és el debat sobre si cal «pacar la frontera»: aquest ja porta dies repetint-se amb petites variacions de to entre Amodei, Altman, Musk i Trump. El nou és financer, i ve per partida doble: a la xifra pròpia d'OpenAI s'hi suma una investigació independent del Financial Times que troba que Meta, Nvidia i Broadcom han emès en un any garanties per 300.000 milions de dòlars lligades a centres de dades i xips, mantingudes fora dels seus balanços oficials a través de vehicles financers separats. Són dues fonts diferents, un mateix patró: els diners que sostenen la IA creixen més de pressa que la manera de fer-los visibles.",
+    "La tendència que s'hi dibuixa és que el debat sobre la seguretat de la IA i el risc financer de la seva infraestructura, que fins ara circulaven per separat, comencen a ser la mateixa conversa. Els mateixos executius que discuteixen en públic si cal alentir el desenvolupament per motius de seguretat són, alhora, els qui subscriuen o es beneficien d'una exposició econòmica cada cop més gran i cada cop menys visible als comptes oficials; i el 24 de setembre, els uns i els altres compartiran sopar amb els dos caps d'estat que decideixen les regles del joc en xips i comerç.",
+    "Aquesta mateixa lògica de cursa —qui pot avançar més de pressa i amb quins mitjans— també té una cara que passa fora dels Estats Units: el fabricant xinès CXMT anuncia avui que ja produeix en massa xips de memòria fets sense litografia EUV, la tecnologia que les restriccions nord-americanes li vetaven, i trenca per primer cop en una dècada el domini conjunt de Samsung, SK Hynix i Micron. És un recordatori que la carrera de la IA no es decideix només amb assajos ètics o promeses de pacte: també es juga, i es continua jugant, en la fàbrica de xips.",
+    "Enmig d'aquest soroll de xifres i anuncis polítics, la ciència sòlida avança sense fer-se notar: avui es publica «LongevityBench», un banc de proves obert sobre biologia de l'envelliment on models compactes, especialitzats i oberts superen sistemes generalistes molt més grans com el Gemini de Google, amb tot el codi i les dades publicats perquè altres grups de recerca els puguin reproduir. És un contrapunt útil per llegir l'edició d'avui amb una mica de perspectiva: mentre es discuteix als diaris si cal frenar la IA per risc existencial o per risc financer, part de la mateixa tecnologia continua produint, en paral·lel i sense gaire soroll, resultats verificables i útils en àmbits molt més concrets i menys espectaculars que un sopar d'estat o una previsió de pèrdues.",
+    "Demà caldrà mirar si la investigació del Financial Times sobre el deute ocult genera reaccions d'analistes o d'inversors sobre els comptes de Meta, Nvidia o Broadcom, si OpenAI o Anthropic aporten més detall sobre com pensen finançar els pròxims anys de pèrdues, i si el sopar del 24 de setembre entre Trump, Xi Jinping i els grans caps de la IA deixa cap traça concreta més enllà de la fotografia. Fins que això no passi, l'edició d'avui deixa clar que la pregunta de qui pagarà la IA comença a pesar tant com la de qui la controlarà."
+  ],
+  "signals": [
+    {
+      "title": "OpenAI preveu cremar 278.000 milions de dòlars més del que ingressarà fins al 2030",
+      "slug": "openai-preveu-278000-milions-perdues-caixa-2030"
+    },
+    {
+      "title": "Les grans tecnològiques amaguen 300.000 milions de dòlars de deute lligat a la IA fora del balanç",
+      "slug": "big-tech-deute-ocult-ia-centres-dades-300000-milions"
+    },
+    {
+      "title": "Els grans caps de la IA nord-americana seuran al sopar d'estat de Trump amb Xi Jinping",
+      "slug": "trump-cimera-xi-ceos-ia-sopar-estat-2026"
+    },
+    {
+      "title": "La xinesa CXMT trenca per primer cop en una dècada el domini de Samsung, SK Hynix i Micron en xips de memòria",
+      "slug": "cxmt-xina-dram-g5-samsung-sk-hynix"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 640
+};
