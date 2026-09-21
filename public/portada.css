@@ -97,7 +97,7 @@ button { color: inherit; }
 
 .lead-layout { display: grid; grid-template-columns: minmax(0,1.82fr) minmax(310px,.78fr); gap: 18px; padding-bottom: 90px; }
 .daily-carousel { min-width: 0; }
-.carousel-stage { min-height: 570px; }
+.carousel-stage { display: grid; min-height: 570px; }
 .hero-story { display: grid; grid-template-columns: 1.12fr .88fr; min-height: 570px; overflow: hidden; border-radius: 32px; color: #fff; background: var(--ink); box-shadow: 0 25px 75px rgba(17,21,38,.18); }
 .hero-story__image { position: relative; min-height: 570px; overflow: hidden; }
 .hero-story__image::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg,transparent 50%,rgba(17,21,38,.22)); }
