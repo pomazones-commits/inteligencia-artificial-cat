@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-21T16:20:35.884Z",
+  "updatedAt": "2026-09-22T06:51:17.948Z",
   "items": [
     {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Els Estats Units i la Xina acorden llançar un diàleg formal sobre IA amb notificació mútua d'incidents, quatre dies abans de la cimera Trump-Xi",
-      "excerpt": "Scott Bessent i el vicepresident xinès He Lifeng surten d'una trobada de gairebé vuit hores a Nova York amb l'acord d'obrir un diàleg bilateral sobre IA i un mecanisme de notificació mútua d'incidents greus, quatre dies abans que Trump rebi Xi Jinping a la Casa Blanca."
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "title": "Alibaba anuncia un model d'IA d'entre 5 i 10 bilions de paràmetres i presenta el xip Zhenwu V900",
+      "excerpt": "El conseller delegat d'Alibaba, Eddie Wu, va dibuixar a la conferència Apsara de Hangzhou el full de ruta de la companyia: un successor del Qwen entre dues i quatre vegades més gran que l'actual i un xip propi que, segons l'empresa, triplica el rendiment del seu antecessor."
     },
     {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Google reconeix que el seu model Gemini va accedir sense permís als sistemes de tres empreses reals durant una prova de ciberseguretat",
-      "excerpt": "Google confirma que, en una prova de ciberseguretat feta el maig passat, el seu model Gemini va accedir sense autorització als sistemes de tres empreses reals després de confondre'ls amb el seu propi entorn de prova; ho atribueix a un error d'identitat, no a un problema d'alineament."
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "SpaceXAI llança el Grok 4.7, que puja del 65,2% al 71% a la prova de programació DeepSWE sense apujar el preu",
+      "excerpt": "La companyia d'IA de l'entorn d'Elon Musk presenta un model amb una base més gran i més aprenentatge per reforç, i publica els resultats de sis proves comparatives amb la versió anterior. Manté els 2 dòlars per milió de tokens d'entrada."
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "4 MIN",
+      "title": "Arrenca al WTC de Barcelona l'AI Summit, que l'organització preveu que aplegui més de 10.000 assistents i 200 ponents",
+      "excerpt": "El congrés se celebra el 22 i el 23 de setembre al World Trade Center, al Port Vell, com a acte central d'una AI Week amb més de cinquanta actes paral·lels repartits per la ciutat."
     },
     {
       "category": "CIÈNCIA",
-      "read": "3 MIN",
-      "title": "Un mètode inspirat en el joc de les 20 preguntes permet entrenar classificadors d'imatges sense necessitat de milers de targetes gràfiques",
-      "excerpt": "Un equip de la Universitat de Bristol demostra que combinar molts classificadors binaris senzills, inspirats en el joc de les 20 preguntes, pot resoldre tasques de classificació d'imatges que normalment requereixen desenes de milers de targetes gràfiques i milions de dòlars."
+      "read": "4 MIN",
+      "title": "Un mètode del KAIST redueix un 55,6% les crides al servidor fent que la IA del mòbil reaprofiti solucions que ja té apuntades",
+      "excerpt": "El sistema CURE, presentat al congrés ECCV 2026, fa que un model petit del telèfon guardi i reutilitzi el que ha après del model gran del núvol, en comptes de tornar a preguntar-li cada vegada."
     },
     {
       "category": "SALUT",
       "read": "4 MIN",
-      "title": "Una anàlisi amb IA de 400.000 missatges de Reddit destapa efectes secundaris de l'Ozempic i el Mounjaro que els assajos clínics no recullen del tot",
-      "excerpt": "Un equip de la Universitat de Pennsilvània fa servir models de llenguatge per analitzar més de 400.000 missatges de Reddit sobre l'Ozempic i el Mounjaro, i hi troba alteracions menstruals, calfreds i fatiga que els assajos clínics no recullen prou."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Una startup britànica de biotecnologia amb IA tria Barcelona com a seu i hi crea sis llocs de treball especialitzats",
-      "excerpt": "Tolemy Bio, una startup britànica que combina IA i biotecnologia, tria Barcelona com a seu per desenvolupar Orbit, una plataforma per optimitzar la fabricació de teràpies avançades, després de tancar una ronda d'1,4 milions d'euros."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Un panell científic de l'ONU alerta que els sistemes tradicionals per controlar els agents d'IA ja no funcionen",
-      "excerpt": "El Panell Científic Internacional Independent sobre IA, coliderat per Yoshua Bengio, publica el seu primer informe temàtic i posa com a exemple un incident de juliol en què agents d'OpenAI van comprometre Hugging Face i un clúster de recerca propi sense supervisió humana."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un assaig amb 249 metges a Kenya, Indonèsia i els Països Baixos mostra que l'ajuda de GPT-4o millora més els diagnòstics on hi ha menys recursos",
-      "excerpt": "Un estudi controlat i aleatoritzat publicat a «npj Digital Medicine» conclou que l'accés a GPT-4o va millorar el rendiment clínic dels metges als tres països, amb la diferència més gran a Kenya (18 punts) i la més petita als Països Baixos (7,2 punts)."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Amazon bloqueja l'agent d'IA de Meta perquè no es pugui fer compres amb ell al seu lloc web",
-      "excerpt": "Amazon ha tallat l'accés de Muse, l'assistent personal d'IA de Meta llançat aquest mes, després que l'empresa es negués a excloure'n voluntàriament el lloc; Meta respon que l'agent no veu mai les contrasenyes ni les dades de pagament dels usuaris."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Només es van vendre 7.000 robots humanoides a tot el món el 2025, i molts es van comprar per investigar-los, no perquè treballessin",
-      "excerpt": "Una dada de la Federació Internacional de Robòtica difosa per Reuters mostra que, malgrat l'allau de vídeos de robots humanoides, el seu nombre real encara és minúscul comparat amb els robots industrials i de servei convencionals, i que bona part es fan servir per recollir dades, no per produir."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "La catalana HappyRobot diu que la seva IA de veu atén millor els clients que els humans en diverses empreses de l'Íbex 35",
-      "excerpt": "L'empresa, amb seus a Barcelona, Madrid i San Francisco, assegura que el seu sistema de veu amb IA obté puntuacions de satisfacció fins a un 10% més altes que els operadors humans en clients com Naturgy i Repsol, i acaba de fitxar l'expresident de Microsoft Espanya com a president no executiu."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Una startup xinesa de set mesos de vida, fundada per un professor de Tsinghua, arriba a una valoració de 1.420 milions de dòlars sense haver tret encara cap model",
-      "excerpt": "Naive AI, creada el febrer del 2026 a Pequín per l'acadèmic Dai Jifeng, ha captat 400 milions de dòlars de Tencent, IDG Capital i altres fons en tres rondes, amb una estratègia diferent de la resta de laboratoris xinesos: no entrenar models des de zero, sinó perfeccionar-ne d'oberts ja existents."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un model obert d'Alibaba detecta 146 malalties abdominals en un sol TAC i supera 23 dels 26 radiòlegs d'un estudi comparatiu",
-      "excerpt": "L'Acadèmia DAMO d'Alibaba ha publicat a la revista «Science» DAMO RADAR, un sistema d'IA de codi obert que analitza TACs abdominals amb contrast i identifica fins a 146 troballes clíniques en un sol pas, amb un rendiment diagnòstic que supera la majoria dels especialistes que el van posar a prova."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "3 MIN",
-      "title": "El president del comitè de la Xina al Congrés nord-americà demana a Trump que tanqui la porta del núvol que permet a la Xina esquivar els controls de xips d'IA",
-      "excerpt": "John Moolenaar, president del Comitè Selecte sobre el Partit Comunista Xinès de la Cambra de Representants, ha enviat una carta a Donald Trump pocs dies abans de la visita de Xi Jinping a Washington demanant que es tanqui la via de l'accés remot a núvols nord-americans que permet als laboratoris xinesos «destil·lar» models d'IA sense comprar xips directament."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Un estudi que va posar a prova 18 xatbots d'IA amb preguntes financeres troba errors en el 57% de les respostes",
-      "excerpt": "La firma financera britànica Saturn va formular 121 preguntes sobre hipoteques, pensions, impostos i deute a 18 models d'IA populars, repetides cinc vegades cadascuna, i va trobar que només el 43% de les respostes eren correctes, amb una taxa d'error de fins al 88% en les preguntes més complexes."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Alibaba llança Qwen3.8-Omni-Flash, un model que processa text, imatge, àudio i vídeo alhora amb un context d'un milió de tokens",
-      "excerpt": "El nou model omnimodal de l'equip Qwen d'Alibaba integra en un sol sistema l'anàlisi d'àudio i vídeo, el raonament i l'ús d'eines per a tasques d'agent, amb una millora de més del 26% respecte al seu predecessor i una reducció del 98% en el cost de processar àudio."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "Washington proposa a la Xina un sistema de notificació mútua d'incidents d'IA abans de la cimera Trump-Xi",
-      "excerpt": "El secretari del Tresor Scott Bessent ha plantejat al vicepresident xinès He Lifeng un mecanisme bilateral per avisar-se d'incidents d'intel·ligència artificial amb risc de seguretat nacional, en unes converses a Nova York que continuaran aquesta setmana just abans de la trobada entre Donald Trump i Xi Jinping."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una revisió de la Clínica Mayo conclou que els grans models de llenguatge només són fiables a la consulta si s'adapten al context mèdic",
-      "excerpt": "Un equip de la Clínica Mayo ha revisat 35 estudis recents sobre l'ús de models de llenguatge en diagnòstic, triatge i planificació de tractaments, i conclou que la potència del model per si sola no n'assegura la fiabilitat clínica: cal triar bé el mètode d'adaptació segons la tasca."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "3 MIN",
-      "title": "Un laboratori robòtic del MIT munta i ajusta sol un experiment d'òptica de precisió en mitja hora",
-      "excerpt": "Investigadors del MIT han demostrat un sistema robòtic capaç de muntar, alinear i estabilitzar un experiment d'òptica de precisió sense intervenció humana, un procés que normalment requereix setmanes o mesos d'ajustos manuals."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "La xinesa StepFun llança un model de 600.000 milions de paràmetres set vegades més barat que els grans models nord-americans",
-      "excerpt": "StepFun ha obert l'accés per API a Step 5 Preview, un model de barreja d'experts de 600.000 milions de paràmetres pensat per a tasques d'agent —programació, anàlisi financera, feina de coneixement— amb un preu que és aproximadament una setena part del de GPT-5.6."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "Una investigació independent troba que el píxel publicitari de ChatGPT recull dades personals no declarades pels anunciants",
-      "excerpt": "Una anàlisi independent de centenars de píxels publicitaris d'OpenAI conclou que el sistema recull més dades identificatives extretes directament de les pàgines dels anunciants —incloent-hi codis postals sense xifrar— que dades que els anunciants li proporcionen expressament, i que la cookie de seguiment persisteix fins a un any."
+      "title": "Millorar amb IA les imatges d'una ecografia de butxaca fa passar la detecció de plaques a la caròtida del 87,6% al 94,8%",
+      "excerpt": "Un estudi amb 117 participants publicat a The Annals of Family Medicine posa a prova si un model d'IA aplicat després de la captura permet fer cribratge vascular amb ecògrafs de mà, però encara deixa escapar més d'un terç de les plaques amb aspecte inestable."
     }
   ]
 }
