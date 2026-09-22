@@ -2,10 +2,6 @@
 
 Aquest repositori publica `inteligencia-artificial.cat`. El directori públic és `public/` i es desplega automàticament a Hostinger per FTP quan hi ha un push a `main` (workflow `desplega.yml`).
 
-## ENCÀRREC PUNTUAL — AI Summit Barcelona (vàlid NOMÉS el 22.09.2026 i el 23.09.2026; a partir del 24.09.2026 ignora aquesta secció sencera)
-
-L'AI Summit Barcelona 2026 (22 i 23 de setembre, WTC Barcelona; l'organització parla de més de 10.000 assistents i més de 200 ponents, dins de l'AI Week Barcelona, amb més de 50 actes paral·lels) encara no ha sortit al web. Al primer lot del 22.09 en què encara no s'hagi publicat (comprova-ho a `public/news.js`), dedica-hi UNA de les places catalanes: una notícia que anunciï el congrés, verificada a la font oficial (https://aisummitbarcelona.com) i, si n'hi ha, a alguna crònica de premsa. Si ja s'ha publicat, no la repeteixis; el 23.09 només hi tornes si hi ha una novetat concreta i verificada. Com a màxim una peça per dia. To informatiu, no publicitari: les xifres, atribuïdes a l'organització, i els límits al quart paràgraf. No el confonguis amb l'AI Congress Barcelona d'Eurecat (octubre). La resta del lot i del flux no canvien.
-
 ## Flux editorial vigent (des del 17.07.2026)
 
 **Les sessions editorials NO escriuen mai directament `public/news.js`, `public/radar.js`, `public/analysis.js`, `public/reflection.js`, `public/daily-image.js`, `public/reflexio-diaria.js` ni `public/reflexions-arxiu.js`.** Aquests fitxers els genera el Content Hub (GitHub Actions) després de validar el contingut.
