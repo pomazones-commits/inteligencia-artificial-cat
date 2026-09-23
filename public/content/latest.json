@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-23T12:19:00.587Z",
+  "updatedAt": "2026-09-23T16:21:38.755Z",
   "items": [
+    {
+      "category": "GEOPOLÍTICA",
+      "read": "4 MIN",
+      "title": "OpenAI oferirà gratis a Ucraïna el seu sistema de ciberdefensa Daybreak per protegir infraestructures civils",
+      "excerpt": "L'acord, anunciat als marges de l'Assemblea General de l'ONU, dona al Ministeri de Transformació Digital ucraïnès accés sense cost a Daybreak i al model GPT-5.6 Sol per detectar vulnerabilitats en sistemes crítics com hospitals i centrals elèctriques."
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "Un model d'IA detecta el 90% dels càncers d'esòfag en TAC de tòrax rutinaris sense contrast, segons un estudi a 80.000 pacients",
+      "excerpt": "El sistema EAGLE, validat en 12 centres de la Xina, la República Txeca i Austràlia, aconsegueix un 98,5% d'especificitat en proves externes, però la implementació real en un hospital de Xangai en rebaixa la utilitat: només un 42% dels casos marcats eren realment càncer."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un nou banc de proves demostra que els robots amb IA \"aparenten\" seguir instruccions més que no pas les entenen de debò",
+      "excerpt": "Investigadors xinesos presenten RoboFollow, un mètode d'avaluació que detecta que els agents robòtics assoleixen bones puntuacions perquè les escenes de prova solen tenir una única tasca possible, no perquè comprenguin realment el llenguatge que se'ls dona."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "4 MIN",
+      "title": "El regulador britànic de competència vol obligar Google a oferir assistents d'IA rivals a Android i Chrome",
+      "excerpt": "La CMA proposa que, en configurar per primer cop un mòbil Android o el navegador Chrome, els usuaris del Regne Unit vegin una pantalla d'elecció que inclogui ChatGPT o Perplexity al costat de Google, i que se'ls torni a preguntar un cop l'any."
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "title": "L'empresa xinesa Z.ai allibera en codi obert el seu assistent de programació ZCode després que enviés dades de desenvolupadors sense permís",
+      "excerpt": "Un desenvolupador independent va detectar que ZCode comprimia i xifrava fins a 345 MB d'espais de treball sencers i els enviava a servidors d'Alibaba Cloud sense avisar-ne ni oferir manera de desactivar-ho, amb la clau de desxifratge només en mans de Z.ai."
+    },
     {
       "category": "CIBERSEGURETAT",
       "read": "4 MIN",
