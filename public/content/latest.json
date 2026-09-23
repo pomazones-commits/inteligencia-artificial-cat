@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-22T16:25:53.961Z",
+  "updatedAt": "2026-09-23T04:18:59.425Z",
   "items": [
     {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "El proveïdor britànic de núvol d'IA Nscale surt a borsa a Nova York amb el 85% dels ingressos concentrat en Microsoft i Anthropic",
-      "excerpt": "L'empresa, nascuda fa dos anys d'una mineradora de criptomonedes, busca recaptar 3.000 milions de dòlars amb una valoració de 35.000 milions, mentre acumula 1.020 milions de dòlars de pèrdues i depèn de contractes de desenes de milers de milions amb els dos gegants de la IA."
+      "category": "GOVERNANÇA",
+      "read": "5 MIN",
+      "title": "El Consell de Seguretat de l'ONU escolta per primer cop Sam Altman i Dario Amodei sobre els riscos de la IA",
+      "excerpt": "França ha convocat una sessió d'alt nivell, presidida pel ministre Jean-Noël Barrot, amb els caps d'OpenAI i Anthropic, el científic Yoshua Bengio i el conseller delegat de Hugging Face, i ha convidat també les xineses DeepSeek i Moonshot a intervenir-hi."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un equip de Stanford converteix articles científics en agents d'IA que repliquen els resultats i responen preguntes sobre l'estudi",
-      "excerpt": "Paper2Agent transforma el manuscrit, el codi i les dades d'un article en un agent consultable: en proves amb 100 articles de biologia computacional, en va «agentificar» 74 amb un 91,2% d'encert en preguntes de referència."
+      "title": "Un robot volador de la mida d'una cinta de casset aprèn amb IA a fer deu tombarelles seguides en onze segons",
+      "excerpt": "Un equip del MIT ha desenvolupat un controlador d'intel·ligència artificial en dues parts que fa volar el seu microrobot inspirat en insectes un 447% més ràpid i amb un 255% més d'acceleració, mantenint-lo a només 4 o 5 centímetres de la trajectòria prevista."
     },
     {
-      "category": "SALUT",
+      "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Una IA que llegeix un TAC cranial sense contrast fa pujar la sensibilitat dels metges per detectar ictus greus del 46,6% al 63,7%",
-      "excerpt": "Un algorisme sud-coreà validat amb prop de mil pacients de Corea i els Estats Units ajuda a detectar oclusions de grans vasos cerebrals a partir d'un escàner bàsic, sense contrast ni angiografia, i millora la capacitat diagnòstica dels metges que hi tenen accés."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "La minera d'asteroides AstroForge posarà una IA al comandament de la seva propera nau per estalviar-se un centre de control a terra",
-      "excerpt": "L'startup, que va perdre el contacte amb la seva sonda Odin el 2025, ha desenvolupat «Solo», un model basat en transformers que ha de resoldre sol les anomalies de vol de les seves properes missions, DeepSpace-2 aquest 2026 i Autonomy-1 el 2027."
-    },
-    {
-      "category": "COMERÇ",
-      "read": "4 MIN",
-      "title": "L'home que va dissenyar les botigues d'Apple dubta que la gent deixi mai que un agent d'IA li compri un ordinador",
-      "excerpt": "Ron Johnson, l'arquitecte del retail d'Apple i expresident de J.C. Penney, es mostra escèptic amb l'aposta de Google i OpenAI perquè els agents d'IA facin compres senceres en nom dels usuaris, sobretot en productes cars."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: La Colúmbia Britànica demanda OpenAI per no alertar la policia abans del tiroteig de Tumbler Ridge",
-      "excerpt": "El govern provincial canadenc porta OpenAI i Sam Altman a un tribunal federal de San Francisco i els acusa d'haver detectat converses violentes de l'autora del tiroteig a ChatGPT sense avisar mai les autoritats. És la primera vegada que un govern, i no només les famílies afectades, demanda la companyia pel cas."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un model d'IA que llegeix deu anys de mamografies 3D prediu millor el risc de càncer de mama que les eines actuals",
-      "excerpt": "L'eina NYU-DRP, desenvolupada per l'Escola de Medicina Grossman de la Universitat de Nova York, encerta el 72% de les vegades qui tindrà càncer de mama en cinc anys, per damunt del 56% del qüestionari Tyrer-Cuzick, i troba risc alt en dones amb pit poc dens que els mètodes actuals classifiquen com a baix risc."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Meta prepara unes ulleres intel·ligents sense càmera, «Luna», per esquivar la controvèrsia de gravar en secret",
-      "excerpt": "Segons diverses filtracions, la propera generació d'ulleres de Meta eliminarà la càmera frontal i la substituirà per sis micròfons i un botó per activar l'assistent d'IA, després d'un any de demandes i prohibicions judicials contra les Ray-Ban Meta per gravacions no consentides. S'esperen presentar-se al Meta Connect d'aquest dimecres."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "La finlandesa Verda es converteix en unicorni europeu del núvol d'IA amb una ronda de 189 milions de dòlars",
-      "excerpt": "L'empresa d'Hèlsinki, que opera els seus propis centres de dades amb energia renovable a Finlàndia, supera els 1.000 milions de dòlars de valoració en una ronda liderada pel fons nord-americà Emergence Capital, en un moment en què Europa busca alternatives pròpies a Amazon, Microsoft i Google per llogar capacitat de càlcul d'IA."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Salvador Illa planteja prohibir la IA a les escoles catalanes fins als 14 anys per combatre l'addicció a les pantalles",
-      "excerpt": "El president de la Generalitat ho ha defensat en una entrevista a RAC1 coincidint amb la presentació d'una nova Guia de Salut Digital que alerta que els adolescents catalans passen fins a 6,8 hores diàries davant de pantalles els caps de setmana. Illa vincula la mesura a fomentar la lectura i preveu un marc normatiu de benestar digital per al març del 2027."
+      "title": "Un mètode del MIT aconsegueix que la IA generativa compleixi sempre les restriccions dures sense perdre qualitat ni haver de reentrenar-la",
+      "excerpt": "HardFlow reformula el compliment de restriccions estrictes com un problema de control òptim i s'aplica a un model ja entrenat en el moment de generar la resposta: en proves de manipulació robòtica, navegació per laberints i edició d'imatges va complir sempre les restriccions i va trobar solucions millors que els mètodes existents."
     },
     {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "OpenAI crea un grup assessor de matemàtiques a Princeton, després que 25 medallistes Fields en critiquessin el ritme",
-      "excerpt": "La companyia anuncia un consell extern allotjat a l'Institute for Advanced Study amb nou matemàtics de prestigi, i afirma que el seu model intern ha resolt més de cent problemes oberts. El grup no assessorarà sobre el ritme de progrés."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Google obre les reserves del Googlebook, un portàtil de 899 dòlars pensat perquè Gemini hi visqui integrat",
-      "excerpt": "La companyia comença a acceptar comandes de cinc models d'ordinador portàtil, amb sistema híbrid Android-Chrome, un any de Google AI Pro inclòs i actualitzacions garantides fins a deu anys. Les vendes als Estats Units comencen el 4 d'octubre."
+      "title": "OpenAI deixarà que grups externs avaluïn la seguretat dels seus models durant l'entrenament, no només abans de llançar-los",
+      "excerpt": "La companyia ha publicat els seus principis per a les avaluacions independents i negocia amb organitzacions com METR i Redwood Research un accés anticipat als seus sistemes, després que Sam Altman prometés fa deu dies taules, credencials i dret de publicació per als avaluadors."
     },
     {
       "category": "COMPETÈNCIA",
       "read": "4 MIN",
-      "title": "L'aplicació Muse de Meta supera els primers dotze dies de ChatGPT amb 1,8 milions de descàrregues a l'iOS dels EUA i el Canadà",
-      "excerpt": "Segons estimacions de la firma d'anàlisi Appfigures, el nou agent d'IA de Meta ha aconseguit més descàrregues i usuaris actius diaris a Nord-amèrica que ChatGPT en el mateix període després del seu propi debut mòbil."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Claude optimitza en quatre setmanes trenta models biomoleculars de codi obert i n'accelera l'execució fins a quatre vegades",
-      "excerpt": "Dos tècnics d'Anthropic sense experiència prèvia en optimització de programari van fer servir Claude per accelerar 36 implementacions de predicció d'estructures i disseny de proteïnes, amb una millora mitjana de quatre vegades."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "El BSC i Almirall s'alien per aplicar IA i supercomputació a malalties dermatològiques rares",
-      "excerpt": "El Barcelona Supercomputing Center i la farmacèutica catalana engeguen un projecte de tres anys per identificar dianes terapèutiques, dissenyar fàrmacs amb IA i crear «bessons digitals» de pell amb dades sintètiques."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Alibaba anuncia un model d'IA d'entre 5 i 10 bilions de paràmetres i presenta el xip Zhenwu V900",
-      "excerpt": "El conseller delegat d'Alibaba, Eddie Wu, va dibuixar a la conferència Apsara de Hangzhou el full de ruta de la companyia: un successor del Qwen entre dues i quatre vegades més gran que l'actual i un xip propi que, segons l'empresa, triplica el rendiment del seu antecessor."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "SpaceXAI llança el Grok 4.7, que puja del 65,2% al 71% a la prova de programació DeepSWE sense apujar el preu",
-      "excerpt": "La companyia d'IA de l'entorn d'Elon Musk presenta un model amb una base més gran i més aprenentatge per reforç, i publica els resultats de sis proves comparatives amb la versió anterior. Manté els 2 dòlars per milió de tokens d'entrada."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Arrenca al WTC de Barcelona l'AI Summit, que l'organització preveu que aplegui més de 10.000 assistents i 200 ponents",
-      "excerpt": "El congrés se celebra el 22 i el 23 de setembre al World Trade Center, al Port Vell, com a acte central d'una AI Week amb més de cinquanta actes paral·lels repartits per la ciutat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode del KAIST redueix un 55,6% les crides al servidor fent que la IA del mòbil reaprofiti solucions que ja té apuntades",
-      "excerpt": "El sistema CURE, presentat al congrés ECCV 2026, fa que un model petit del telèfon guardi i reutilitzi el que ha après del model gran del núvol, en comptes de tornar a preguntar-li cada vegada."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Millorar amb IA les imatges d'una ecografia de butxaca fa passar la detecció de plaques a la caròtida del 87,6% al 94,8%",
-      "excerpt": "Un estudi amb 117 participants publicat a The Annals of Family Medicine posa a prova si un model d'IA aplicat després de la captura permet fer cribratge vascular amb ecògrafs de mà, però encara deixa escapar més d'un terç de les plaques amb aspecte inestable."
+      "title": "OpenAI i Anthropic llancen amb hores de diferència models més barats, malgrat haver demanat totes dues moderar el ritme de la IA",
+      "excerpt": "Anthropic presenta Claude Opus 5.5, un 40% més barat de fer córrer que l'Opus 5 i amb un rendiment equiparable, mentre OpenAI treu el GPT-6 Sol i el Luna amb preus un 50% per sota de l'Astra promocional, en plena guerra de preus per l'ús empresarial quotidià."
     }
   ]
 }
