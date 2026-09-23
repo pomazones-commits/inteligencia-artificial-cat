@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-23T04:18:59.425Z",
+  "updatedAt": "2026-09-23T08:18:37.074Z",
   "items": [
+    {
+      "category": "GOVERNANÇA",
+      "read": "4 MIN",
+      "title": "Trump diu a l'Assemblea General de l'ONU que els Estats Units rebatejaran la intel·ligència artificial com a «superintel·ligència»",
+      "excerpt": "En el mateix discurs on ha tornat a comparar les advertències sobre els riscos de la IA amb les del canvi climàtic, el president nord-americà ha anunciat que tots els documents dels Estats Units diran «superintel·ligència» en lloc d'«intel·ligència artificial»."
+    },
+    {
+      "category": "ROBÒTICA",
+      "read": "4 MIN",
+      "title": "Alphabet allibera en codi obert el nucli de la seva plataforma de robòtica industrial",
+      "excerpt": "Intrinsic, la filial de robòtica d'Alphabet, ha presentat a ROSCon 2026 «Intrinsic Core», un conjunt de components compatibles amb ROS —control en temps real, detecció de posa, planificació de moviment i de la pinça— sota llicència Apache 2.0."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Matemàtics i aficionats ajudats per IA resolen un problema de simetries obert des dels anys 80",
+      "excerpt": "Un equip internacional ha trobat la família de polinomis de grau 23 associada al grup esporàdic M23, l'últim dels grups de Mathieu que quedava sense resoldre en el problema invers de Galois, combinant intuïció humana amb agents d'IA que van explorar milers de combinacions."
+    },
+    {
+      "category": "XIPS",
+      "read": "4 MIN",
+      "title": "ACTUALITZACIÓ: DeepSeek diu que apostarà pels xips de Huawei també per entrenar els seus models, no només per fer-los funcionar",
+      "excerpt": "El fundador Liang Wenfeng qualifica de «la nostra aposta més gran» l'ús de processadors Ascend per entrenar un futur model de vuit bilions de paràmetres, un pas més enllà de l'encàrrec de 160.000 xips que la companyia xinesa ja havia fet a l'agost per fer-los córrer en un centre de dades a Mongòlia Interior."
+    },
+    {
+      "category": "MODELS",
+      "read": "3 MIN",
+      "title": "Xiaomi publica en obert MiMo-V2.6, un model d'un bilió de paràmetres que diu superar Kimi K3 i GLM-5.3",
+      "excerpt": "La família inclou les versions Pro i Flash, capaces de processar text, imatge, vídeo i àudio amb un context d'un milió de tokens, i una variant Pro-UltraSpeed vint vegades més ràpida; Xiaomi hi ha publicat també l'informe tècnic i els entorns d'entrenament per reforç."
+    },
     {
       "category": "GOVERNANÇA",
       "read": "5 MIN",
