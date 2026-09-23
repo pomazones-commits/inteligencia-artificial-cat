@@ -33,6 +33,8 @@ on:
 
 permissions:
   contents: write
+  # 23.09.2026: per rellançar el desplegament i l'àudio (vegeu l'últim pas).
+  actions: write
 
 concurrency:
   group: content-hub-${{ github.ref }}
@@ -102,3 +104,29 @@ jobs:
           git commit -m "[content-hub] completa l'edició automàtica"
           git pull --rebase origin main
           git push origin main
+
+      # 23.09.2026 — CADENA TRENCADA QUAN EL LOT EL FUSIONA L'AUTO-FUSIÓ.
+      # Si aquest run l'ha disparat «Auto-fusiona els lots» (workflow_dispatch
+      # fet amb el GITHUB_TOKEN), GitHub NO crea cap `workflow_run` en acabar:
+      # ni el desplegament, ni l'àudio, ni la xarxa de seguretat s'assabenten
+      # que hi ha edició nova. Comprovat amb l'historial de runs: els Content
+      # Hub disparats per push (pomazones-commits) sempre han encadenat el
+      # desplegament; els disparats per github-actions[bot] (des del 22.09 a
+      # la tarda, tots els lots) no l'han encadenat MAI. Resultat: el
+      # desplegament del merge pujava la versió d'abans del Content Hub i la
+      # web es quedava amb el lot anterior fins que un cron (:08/:38, que
+      # GitHub deixa caure gairebé tots) o la xarxa ho repescaven — 1-2 h tard
+      # els lots de les 10.05 i de les 14.05 del 23.09.
+      # Un workflow_dispatch fet amb el GITHUB_TOKEN SÍ que crea run (és
+      # l'excepció documentada), o sigui que el rellancem a mà. Si el run l'has
+      # llançat tu a mà, també s'executa: com a molt hi haurà un desplegament
+      # de més, idempotent (el grup de concurrència en cancel·la un).
+      - name: Rellançar el desplegament i l'àudio (el workflow_run no arriba)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run desplega.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar el desplegament; el cron :08/:38 o la xarxa de seguretat ho hauran de repescar."
+          gh workflow run audio-edicio.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar l'àudio; el cron :26 ho repescarà."
