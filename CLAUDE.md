@@ -79,6 +79,26 @@ La secció «La tribuna» publica escrits signats per persones (no generats per 
 
 La portada mostra la banda `#tribuna` (sobre l'anàlisi de la setmana) només si `window.IA_TRIBUNA` té contingut; si val `null`, la secció queda amagada. La pàgina completa és `public/tribuna.html` i els estils viuen a `public/tribuna.css` (mai a portada.css/styles.css). Contracte públic nou a mantenir: `window.IA_TRIBUNA`.
 
+## Adreces fixes, seccions de servei i agenda (des del 24.09.2026)
+
+- **Cada peça de «La tribuna», «Estudis», l'anàlisi, el Quadern IA i la reflexió del dia té una adreça fixa**: `/tribuna/<id>`, `/estudis/<id>`, `/analisi/<id>`, `/quadern/<id>` i `/reflexio/<AAAA-MM-DD>` (les serveix `public/peca.php`; l'algorisme és a `public/inc/peces.php` i, idèntic, a `public/peces.js`). L'`<id>` surt del **títol**: ⚠️ **no canviïs el títol d'una peça ja publicada**; si és imprescindible, afegeix-hi el camp `"id"` amb l'identificador antic i l'enllaç no es trencarà. Si toques l'algorisme, passa `node scripts/prova-peces.mjs`.
+- **Qui hi escriu** (`/autors`, `/autor/<slug>`) surt sol de `tribuna*.js` i `estudis*.js`: no cal fer res en publicar una peça nova.
+- **Correccions** (`/correccions`) es construeix sol: quan es rectifiqui una notícia, la nota final ha de començar **exactament** per `Rectificació (<dia> de <mes> de <any>):` (p. ex. `Rectificació (21 de setembre de 2026): …`). Les correccions fora d'una notícia van a `public/data/correccions.json`.
+- **Glossari** (`public/data/glossari.json`) i **Ecosistema** (`public/data/ecosistema.json`) són manuals. Al glossari, la forma catalana és la del TERMCAT («Terminologia de la intel·ligència artificial»).
+- **Pòdcast** (`/podcast.xml`, `public/podcast.php`): no genera àudio; fa servir els MP3 que ja puja «Àudio de l'edició». No cal fer res.
+
+### Agenda d'actes — manteniment mensual (tasca «Edicions», lot de les 10:05 del dia 1 de cada mes)
+
+Només el **dia 1 de cada mes**, al lot de les **10:05** (el més prim de notícies), un cop escrit el lot:
+
+1. Llegeix `public/data/agenda.json`.
+2. Busca actes sobre intel·ligència artificial a Catalunya i als Països Catalans (o en línia organitzats per entitats d'aquí) per als **sis mesos següents**: congressos, jornades, fires, hackatons, cursos i convocatòries (premis, beques, ajuts). Fonts de partida: ACIA, Eurecat i CIDAI, BSC, i2CAT, CVC, IIIA-CSIC, universitats, OEIAC, APDCAT, Softcatalà, Projecte Aina, Fira de Barcelona, Barcelona Activa, Biocat, Mobile World Capital i ACCIÓ.
+3. 🛑 **Només actes amb la data confirmada a la web oficial de l'organitzador per a l'edició que ve.** Si només trobes l'edició de l'any passat, no hi va. No inventis cap camp: si no el saps, deixa'l buit.
+4. Cada acte: `titol`, `organitza`, `inici` (AAAA-MM-DD), `fi` (AAAA-MM-DD o buit), `lloc` («Ciutat (espai)»), `format` (`presencial` | `en línia` | `híbrid`), `tipus` (`congrés` | `jornada` | `fira` | `webinar` | `curs` | `hackató` | `convocatòria`; en una convocatòria, `fi` és el darrer dia del termini), `preu` (`gratuït` | `de pagament` | buit), `descripcio` (20-35 paraules, neutra, en català) i `url` (la web oficial).
+5. Revisa els que ja hi són: corregeix els que hagin canviat de data i treu els cancel·lats i els que fa més de dos mesos que han passat (la pàgina ja amaga sola els passats).
+6. Posa `"actualitzat"` a la data d'avui i comprova que el JSON és vàlid: `node -e "JSON.parse(require('fs').readFileSync('public/data/agenda.json','utf8'))"`.
+7. Inclou el fitxer al mateix commit del lot. Si un mes no trobes res de nou, deixa'l com està i només actualitza `"actualitzat"`.
+
 ## Regles
 
 - **Llengua: cap mot inventat.** «Pacar» (calc de l'anglès *to pace*) **no existeix en català**: fes servir «moderar el ritme», «acompassar», «alentir» o «frenar». En una cita traduïda, tradueix el sentit, no la forma de la paraula anglesa. No inventis mai verbs calcats de l'anglès o del castellà.
