@@ -38,7 +38,7 @@ function iacat_capcalera(array $meta): void
   <link rel="alternate" type="application/rss+xml" title="intel·ligènciaartificial.cat — notícies" href="/feed.xml">
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="/editorial.css?v=2026072401">
-  <link rel="stylesheet" href="/seccions.css?v=2026092401">
+  <link rel="stylesheet" href="/seccions.css?v=2026092402">
   <script defer src="/shared.js?v=2026092401"></script>
   <?php if (!empty($meta['jsonld'])): ?><script type="application/ld+json"><?= json_encode($meta['jsonld'], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) ?></script>
   <?php endif; ?>
