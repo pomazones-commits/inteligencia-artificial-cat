@@ -80,7 +80,8 @@
    "categoria": "Recerca",
    "lloc": "Barcelona",
    "descripcio": "Unitat catalana de la xarxa europea ELLIS, que reuneix investigadors d'aprenentatge automàtic de diverses institucions.",
-   "url": "https://ellisbarcelona.eu/"
+   "url": "https://ellisbarcelona.eu/",
+   "logo": "/assets/ecosistema-ellis.png"
   },
   {
    "nom": "Xarxa de Recerca i Innovació en IA",
@@ -125,7 +126,7 @@
    "lloc": "Barcelona",
    "descripcio": "Laboratori de la Universitat de Barcelona que aplica la IA a la medicina personalitzada a partir de dades mèdiques diverses.",
    "url": "https://www.bcn-aim.org/",
-   "logo": "/assets/ecosistema-ub.png"
+   "logo": "/assets/ecosistema-bcn-aim.png"
   },
   {
    "nom": "Grup de Visió per Computador i Robòtica (UdG)",
@@ -277,7 +278,8 @@
    "categoria": "Comunitat",
    "lloc": "Barcelona",
    "descripcio": "Corporació professional dels enginyers informàtics de Catalunya, amb activitat de difusió sobre IA i transformació digital.",
-   "url": "https://enginyeriainformatica.cat/"
+   "url": "https://enginyeriainformatica.cat/",
+   "logo": "/assets/ecosistema-coeinf.png"
   },
   {
    "nom": "Mobile World Capital Barcelona",
@@ -294,7 +296,8 @@
    "categoria": "Empresa",
    "lloc": "Barcelona",
    "descripcio": "Clúster d'empreses, entitats i grups de recerca per impulsar la transformació digital, sobretot en la indústria.",
-   "url": "https://www.clusterdigital.cat/"
+   "url": "https://www.clusterdigital.cat/",
+   "logo": "/assets/ecosistema-cluster-digital.png"
   },
   {
    "nom": "THEKER",
@@ -302,7 +305,8 @@
    "categoria": "Empresa",
    "lloc": "Barcelona",
    "descripcio": "Empresa de robòtica industrial basada en IA que desenvolupa robots modulars que aprenen a la fàbrica.",
-   "url": "https://www.theker.ai/"
+   "url": "https://www.theker.ai/",
+   "logo": "/assets/ecosistema-theker.png"
   },
   {
    "nom": "Biorce",
@@ -310,7 +314,8 @@
    "categoria": "Empresa",
    "lloc": "Barcelona",
    "descripcio": "Empresa que desenvolupa una plataforma d'IA per gestionar el desenvolupament i els assajos clínics de fàrmacs.",
-   "url": "https://www.biorce.com/"
+   "url": "https://www.biorce.com/",
+   "logo": "/assets/ecosistema-biorce.png"
   },
   {
    "nom": "NeuralTrust",
@@ -327,7 +332,8 @@
    "categoria": "Empresa",
    "lloc": "Barcelona",
    "descripcio": "Empresa especialitzada en reconeixement facial per a videovigilància i control d'accés.",
-   "url": "https://hertasecurity.com/"
+   "url": "https://hertasecurity.com/",
+   "logo": "/assets/ecosistema-herta.png"
   },
   {
    "nom": "Mitiga Solutions",
@@ -335,7 +341,8 @@
    "categoria": "Empresa",
    "lloc": "Barcelona",
    "descripcio": "Empresa derivada del BSC que calcula riscos climàtics físics combinant IA, supercomputació i models científics.",
-   "url": "https://www.mitigasolutions.com/"
+   "url": "https://www.mitigasolutions.com/",
+   "logo": "/assets/ecosistema-mitiga.png"
   },
   {
    "nom": "AllRead",
