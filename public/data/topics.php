@@ -40,7 +40,7 @@ return [
         'description' => 'Ciberseguretat, vulnerabilitats, privacitat, avaluacions i riscos dels sistemes d’intel·ligència artificial.',
         'categories' => ['SEGURETAT'],
         'resources' => [
-            ['label' => 'Recurs oficial', 'title' => 'IA i decisions automatitzades', 'description' => 'Informació de l’Autoritat Catalana de Protecció de Dades sobre intel·ligència artificial.', 'url' => 'https://apdcat.gencat.cat/ca/documentacio/intelligencia_artificial/'],
+            ['label' => 'Informe oficial · PDF', 'title' => 'Intel·ligència artificial i decisions automatitzades a Catalunya', 'description' => 'L’informe de l’Autoritat Catalana de Protecció de Dades (2020): més de 50 exemples d’algorismes que decideixen, els seus riscos i recomanacions.', 'url' => '/dossiers/apdcat-decisions-automatitzades-2020.pdf'],
         ],
     ],
     'societat-i-cultura' => [
