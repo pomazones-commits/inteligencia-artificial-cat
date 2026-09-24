@@ -42,8 +42,8 @@ function iacat_seccions(): array
             'resum' => ['excerpt'], 'audio' => 'analisi-', 'clau' => 'titol',
         ],
         'quadern' => [
-            'nom' => 'Quadern IA', 'cami' => 'quadern', 'html' => 'quadern.html', 'arxiuHtml' => 'quadern.html',
-            'vigent' => ['reflection.js', 'IA_REFLECTION'], 'arxiu' => null,
+            'nom' => 'Quadern IA', 'cami' => 'quadern', 'html' => 'quadern.html', 'arxiuHtml' => 'arxiu-quadern.html',
+            'vigent' => ['reflection.js', 'IA_REFLECTION'], 'arxiu' => ['quadern-arxiu.js', 'IA_QUADERN_ARXIU'],
             'resum' => ['dek'], 'audio' => 'quadern-', 'clau' => 'titol',
         ],
         'reflexio' => [
