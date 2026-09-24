@@ -1,0 +1,318 @@
+{
+ "actualitzat": "2026-09-24",
+ "nota": "Directori orientatiu. Webs comprovades el 24.09.2026.",
+ "entitats": [
+  {
+   "nom": "Institut d'Investigació en Intel·ligència Artificial",
+   "sigles": "IIIA-CSIC",
+   "categoria": "Recerca",
+   "lloc": "Bellaterra",
+   "descripcio": "Institut del CSIC dedicat exclusivament a la intel·ligència artificial: raonament, sistemes multiagent, aprenentatge automàtic i ètica de la IA.",
+   "url": "https://www.iiia.csic.es/"
+  },
+  {
+   "nom": "Barcelona Supercomputing Center – Centro Nacional de Supercomputación",
+   "sigles": "BSC-CNS",
+   "categoria": "Recerca",
+   "lloc": "Barcelona",
+   "descripcio": "Centre nacional de supercomputació que gestiona el MareNostrum. Fa recerca en computació d'altes prestacions i en IA, i desenvolupa els models de llenguatge del Projecte Aina.",
+   "url": "https://www.bsc.es/"
+  },
+  {
+   "nom": "Centre de Visió per Computador",
+   "sigles": "CVC",
+   "categoria": "Recerca",
+   "lloc": "Bellaterra",
+   "descripcio": "Centre de recerca vinculat a la UAB especialitzat en visió per computador i aprenentatge automàtic. Coordina la Xarxa RDI-IA.",
+   "url": "https://www.cvc.uab.es/"
+  },
+  {
+   "nom": "Fundació i2CAT",
+   "sigles": "i2CAT",
+   "categoria": "Recerca",
+   "lloc": "Barcelona",
+   "descripcio": "Centre de recerca i innovació en tecnologies digitals. La intel·ligència artificial és una de les seves àrees, al costat de les xarxes 5G/6G, la ciberseguretat i l'espai.",
+   "url": "https://i2cat.net/"
+  },
+  {
+   "nom": "Eurecat, Centre Tecnològic de Catalunya",
+   "sigles": "Eurecat",
+   "categoria": "Recerca",
+   "lloc": "Cerdanyola del Vallès",
+   "descripcio": "Centre tecnològic que fa recerca i innovació per a empreses, amb unitats d'IA aplicada i de ciència de dades. Gestiona l'oficina tècnica del CIDAI.",
+   "url": "https://eurecat.org/"
+  },
+  {
+   "nom": "Institut de Robòtica i Informàtica Industrial",
+   "sigles": "IRI (CSIC-UPC)",
+   "categoria": "Recerca",
+   "lloc": "Barcelona",
+   "descripcio": "Institut mixt del CSIC i la UPC que investiga en robòtica, percepció, planificació i control automàtic.",
+   "url": "https://www.iri.upc.edu/"
+  },
+  {
+   "nom": "Centre Tecnològic de Telecomunicacions de Catalunya",
+   "sigles": "CTTC",
+   "categoria": "Recerca",
+   "lloc": "Castelldefels",
+   "descripcio": "Centre de recerca en telecomunicacions i tractament del senyal, amb una línia d'intel·ligència artificial sostenible aplicada a xarxes.",
+   "url": "https://www.cttc.cat/"
+  },
+  {
+   "nom": "Centre d'Innovació per a Dades i Intel·ligència Artificial",
+   "sigles": "CIDAI",
+   "categoria": "Recerca",
+   "lloc": "Barcelona",
+   "descripcio": "Iniciativa de la Generalitat, empreses i centres tecnològics per impulsar l'adopció de la IA en sectors com la mobilitat o la salut. Organitza l'AI Congress Barcelona.",
+   "url": "https://cidai.eu/"
+  },
+  {
+   "nom": "ELLIS Unit Barcelona",
+   "sigles": "ELLIS",
+   "categoria": "Recerca",
+   "lloc": "Barcelona",
+   "descripcio": "Unitat catalana de la xarxa europea ELLIS, que reuneix investigadors d'aprenentatge automàtic de diverses institucions.",
+   "url": "https://ellisbarcelona.eu/"
+  },
+  {
+   "nom": "Xarxa de Recerca i Innovació en IA",
+   "sigles": "Xarxa RDI-IA",
+   "categoria": "Recerca",
+   "lloc": "Bellaterra",
+   "descripcio": "Xarxa finançada pel Departament de Recerca i Universitats i coordinada pel CVC que agrupa més de seixanta grups de recerca d'IA de Catalunya.",
+   "url": "https://xarxardi-ia.cat/"
+  },
+  {
+   "nom": "Intelligent Data Science and Artificial Intelligence Research Center",
+   "sigles": "IDEAI-UPC",
+   "categoria": "Universitat",
+   "lloc": "Barcelona",
+   "descripcio": "Centre de la UPC que agrupa set grups de recerca en intel·ligència artificial i ciència de dades.",
+   "url": "https://ideai.upc.edu/"
+  },
+  {
+   "nom": "Grup d'Intel·ligència Artificial i Aprenentatge Automàtic (UPF)",
+   "sigles": "AI&ML-UPF",
+   "categoria": "Universitat",
+   "lloc": "Barcelona",
+   "descripcio": "Grup de la Universitat Pompeu Fabra que investiga en planificació automàtica i aprenentatge automàtic.",
+   "url": "https://www.upf.edu/web/ai-ml"
+  },
+  {
+   "nom": "Computer Vision and Machine Learning Group (UB)",
+   "sigles": "CVMLUB",
+   "categoria": "Universitat",
+   "lloc": "Barcelona",
+   "descripcio": "Grup de la Universitat de Barcelona que treballa en visió per computador i aprenentatge automàtic.",
+   "url": "https://www.ub.edu/datascience/imub/"
+  },
+  {
+   "nom": "Artificial Intelligence in Medicine Lab (UB)",
+   "sigles": "BCN-AIM",
+   "categoria": "Universitat",
+   "lloc": "Barcelona",
+   "descripcio": "Laboratori de la Universitat de Barcelona que aplica la IA a la medicina personalitzada a partir de dades mèdiques diverses.",
+   "url": "https://www.bcn-aim.org/"
+  },
+  {
+   "nom": "Grup de Visió per Computador i Robòtica (UdG)",
+   "sigles": "ViCOROB",
+   "categoria": "Universitat",
+   "lloc": "Girona",
+   "descripcio": "Grup de la Universitat de Girona especialitzat en visió per computador, robots submarins autònoms i anàlisi d'imatge mèdica.",
+   "url": "https://vicorob.udg.edu/"
+  },
+  {
+   "nom": "Artificial Intelligence for Human Well-being (UOC)",
+   "sigles": "AIWELL",
+   "categoria": "Universitat",
+   "lloc": "Barcelona",
+   "descripcio": "Grup de la Universitat Oberta de Catalunya que desenvolupa IA i visió per computador per reconèixer objectes, emocions i gestos en contingut audiovisual.",
+   "url": "https://recerca.uoc.edu/grupos/37378/detalle?lang=en"
+  },
+  {
+   "nom": "Observatori d'Ètica en Intel·ligència Artificial de Catalunya",
+   "sigles": "OEIAC",
+   "categoria": "Observatori",
+   "lloc": "Girona",
+   "descripcio": "Observatori de la Universitat de Girona que estudia les conseqüències ètiques, socials i legals de la IA. Ha creat el model PIO d'autoavaluació.",
+   "url": "https://www.oeiac.cat/"
+  },
+  {
+   "nom": "Observatori d'IA en Salut",
+   "sigles": "",
+   "categoria": "Observatori",
+   "lloc": "Barcelona",
+   "descripcio": "Observatori del programa Salut/IA que segueix com s'implanta la intel·ligència artificial al sistema sanitari català.",
+   "url": "https://iasalut.cat/observatori-ia-en-salut/"
+  },
+  {
+   "nom": "Observatori de la Intel·ligència Artificial i les Noves Tecnologies",
+   "sigles": "OIANT",
+   "categoria": "Observatori",
+   "lloc": "Barcelona",
+   "descripcio": "Observatori de la Universitat Internacional de Catalunya dedicat a la recerca interdisciplinària i al debat sobre les implicacions de la IA.",
+   "url": "https://www.uic.es/en/research/research/observatories/observatory-on-artificial-intelligence-and-new-technologies"
+  },
+  {
+   "nom": "Estratègia Catalunya IA 2030",
+   "sigles": "",
+   "categoria": "Administració",
+   "lloc": "Barcelona",
+   "descripcio": "Estratègia de la Generalitat en intel·ligència artificial, successora de Catalonia.AI, amb 88 actuacions agrupades en 8 eixos.",
+   "url": "https://politiquesdigitals.gencat.cat/ca/economia/ia/"
+  },
+  {
+   "nom": "ACCIÓ – Agència per al creixement de les empreses",
+   "sigles": "ACCIÓ",
+   "categoria": "Administració",
+   "lloc": "Barcelona",
+   "descripcio": "Agència de la Generalitat per a la innovació i la internacionalització de les empreses, amb formació i ajuts per adoptar la IA.",
+   "url": "https://www.accio.gencat.cat/ca/inici"
+  },
+  {
+   "nom": "Autoritat Catalana de Protecció de Dades",
+   "sigles": "APDCAT",
+   "categoria": "Administració",
+   "lloc": "Barcelona",
+   "descripcio": "Autoritat independent que vetlla per la protecció de dades personals a Catalunya i analitza l'impacte de la IA sobre la privacitat.",
+   "url": "https://www.apdcat.cat/ca"
+  },
+  {
+   "nom": "Projecte Aina",
+   "sigles": "Aina",
+   "categoria": "Administració",
+   "lloc": "Barcelona",
+   "descripcio": "Projecte de la Generalitat, executat pel BSC, que crea corpus, models i eines oberts perquè el català tingui presència plena en la IA.",
+   "url": "https://projecteaina.cat/"
+  },
+  {
+   "nom": "Programa Salut/IA (Fundació TIC Salut Social)",
+   "sigles": "",
+   "categoria": "Administració",
+   "lloc": "Barcelona",
+   "descripcio": "Programa de la Generalitat que coordina el desplegament de solucions d'IA al sistema de salut de Catalunya.",
+   "url": "https://iasalut.cat/"
+  },
+  {
+   "nom": "Consorci Administració Oberta de Catalunya",
+   "sigles": "AOC",
+   "categoria": "Administració",
+   "lloc": "Barcelona",
+   "descripcio": "Consorci de serveis digitals per a les administracions catalanes, amb una línia d'innovació en IA per al sector públic.",
+   "url": "https://www.aoc.cat/en/projecte-innovacio-category/intelligencia-artificial/"
+  },
+  {
+   "nom": "Local.iA",
+   "sigles": "",
+   "categoria": "Administració",
+   "lloc": "Barcelona",
+   "descripcio": "Projecte de les diputacions catalanes que ofereix models, guies, formació i assistència perquè els ens locals facin servir la IA de manera responsable.",
+   "url": "https://localia.cat/ca/"
+  },
+  {
+   "nom": "Barcelona Ciutat Digital",
+   "sigles": "",
+   "categoria": "Administració",
+   "lloc": "Barcelona",
+   "descripcio": "Àrea digital de l'Ajuntament de Barcelona, que impulsa polítiques sobre l'ús ètic de la intel·ligència artificial.",
+   "url": "https://ajuntament.barcelona.cat/digital/ca"
+  },
+  {
+   "nom": "Associació Catalana d'Intel·ligència Artificial",
+   "sigles": "ACIA",
+   "categoria": "Comunitat",
+   "lloc": "Catalunya",
+   "descripcio": "Associació sense ànim de lucre, afiliada a EurAI, que fomenta la IA a la societat catalana i organitza el congrés internacional CCIA.",
+   "url": "https://www.acia.cat/"
+  },
+  {
+   "nom": "Softcatalà",
+   "sigles": "",
+   "categoria": "Comunitat",
+   "lloc": "Catalunya",
+   "descripcio": "Associació sense ànim de lucre que promou el català a les tecnologies: traductor, corrector, transcripció, doblatge automàtic i guies d'IA local.",
+   "url": "https://www.softcatala.org/"
+  },
+  {
+   "nom": "Societat Catalana de Tecnologia (IEC)",
+   "sigles": "SCT",
+   "categoria": "Comunitat",
+   "lloc": "Barcelona",
+   "descripcio": "Societat filial de l'Institut d'Estudis Catalans que promou la tecnologia com a fet cultural i té una secció dedicada a la IA.",
+   "url": "https://sct.iec.cat/"
+  },
+  {
+   "nom": "Col·legi Oficial d'Enginyeria Informàtica de Catalunya",
+   "sigles": "COEINF",
+   "categoria": "Comunitat",
+   "lloc": "Barcelona",
+   "descripcio": "Corporació professional dels enginyers informàtics de Catalunya, amb activitat de difusió sobre IA i transformació digital.",
+   "url": "https://enginyeriainformatica.cat/"
+  },
+  {
+   "nom": "Mobile World Capital Barcelona",
+   "sigles": "MWCapital",
+   "categoria": "Comunitat",
+   "lloc": "Barcelona",
+   "descripcio": "Fundació que impulsa l'ecosistema digital de Barcelona amb programes de talent, transferència tecnològica i divulgació.",
+   "url": "https://mobileworldcapital.com/"
+  },
+  {
+   "nom": "Clúster Digital de Catalunya",
+   "sigles": "",
+   "categoria": "Empresa",
+   "lloc": "Barcelona",
+   "descripcio": "Clúster d'empreses, entitats i grups de recerca per impulsar la transformació digital, sobretot en la indústria.",
+   "url": "https://www.clusterdigital.cat/"
+  },
+  {
+   "nom": "THEKER",
+   "sigles": "",
+   "categoria": "Empresa",
+   "lloc": "Barcelona",
+   "descripcio": "Empresa de robòtica industrial basada en IA que desenvolupa robots modulars que aprenen a la fàbrica.",
+   "url": "https://www.theker.ai/"
+  },
+  {
+   "nom": "Biorce",
+   "sigles": "",
+   "categoria": "Empresa",
+   "lloc": "Barcelona",
+   "descripcio": "Empresa que desenvolupa una plataforma d'IA per gestionar el desenvolupament i els assajos clínics de fàrmacs.",
+   "url": "https://www.biorce.com/"
+  },
+  {
+   "nom": "NeuralTrust",
+   "sigles": "",
+   "categoria": "Empresa",
+   "lloc": "Barcelona",
+   "descripcio": "Empresa de seguretat i governança d'agents d'intel·ligència artificial per a grans organitzacions.",
+   "url": "https://neuraltrust.ai/"
+  },
+  {
+   "nom": "Herta",
+   "sigles": "",
+   "categoria": "Empresa",
+   "lloc": "Barcelona",
+   "descripcio": "Empresa especialitzada en reconeixement facial per a videovigilància i control d'accés.",
+   "url": "https://hertasecurity.com/"
+  },
+  {
+   "nom": "Mitiga Solutions",
+   "sigles": "",
+   "categoria": "Empresa",
+   "lloc": "Barcelona",
+   "descripcio": "Empresa derivada del BSC que calcula riscos climàtics físics combinant IA, supercomputació i models científics.",
+   "url": "https://www.mitigasolutions.com/"
+  },
+  {
+   "nom": "AllRead",
+   "sigles": "",
+   "categoria": "Empresa",
+   "lloc": "Barcelona",
+   "descripcio": "Empresa derivada del CVC que fa servir visió artificial per llegir automàticament contenidors i vagons en ports i terminals.",
+   "url": "https://www.allread.ai/"
+  }
+ ]
+}

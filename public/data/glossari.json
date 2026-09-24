@@ -1,0 +1,430 @@
+{
+ "actualitzat": "2026-09-24",
+ "font": "https://www.termcat.cat/ca/diccionaris-en-linia/347",
+ "termes": [
+  {
+   "terme": "agent",
+   "en": "AI agent",
+   "altres": "agent d’IA; IA agentiva (agentic AI)",
+   "definicio": "Sistema d’IA que, a partir d’un objectiu, planifica i executa accions pel seu compte —buscar informació, fer servir programes, enviar missatges— i en revisa el resultat, amb poca intervenció humana a cada pas.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg5MjMxNQ%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "afinament",
+   "en": "fine-tuning",
+   "altres": "",
+   "definicio": "Entrenament addicional d’un model ja entrenat amb un conjunt de dades més petit i específic, perquè s’adapti a una tasca, un àmbit o un estil concrets sense haver-lo d’entrenar des de zero.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjE1NA%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "al·lucinació",
+   "en": "hallucination",
+   "altres": "confabulació",
+   "definicio": "Contingut incorrecte o inventat que un sistema d’IA generativa presenta com si fos cert: una dada falsa, una cita que ningú no ha dit, una referència bibliogràfica que no existeix. Per això cal verificar sempre les respostes.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjE1Mw%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "algorisme",
+   "en": "algorithm",
+   "altres": "algoritme",
+   "definicio": "Seqüència finita d’instruccions ordenades per resoldre un problema o fer una tasca. En IA, els algorismes d’aprenentatge són els que permeten que un sistema ajusti el seu comportament a partir de dades.",
+   "fitxa": "https://www.termcat.cat/ca/cercaterm/fitxa/NTkyOTcz",
+   "nota": ""
+  },
+  {
+   "terme": "alineació de la intel·ligència artificial",
+   "en": "AI alignment",
+   "altres": "alineació de la IA",
+   "definicio": "Camp de recerca que intenta que els sistemes d’IA persegueixin els objectius i els valors que volen les persones que els fan servir i la societat, i no pas objectius imprevistos o perjudicials.",
+   "fitxa": "",
+   "nota": "El TERMCAT no recull aquest sentit; és la forma de la Viquipèdia en català."
+  },
+  {
+   "terme": "aprenentatge automàtic",
+   "en": "machine learning",
+   "altres": "",
+   "definicio": "Branca de la IA en què els sistemes aprenen a fer una tasca a partir d’exemples i dades, en lloc de seguir regles escrites a mà.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI0Mw%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "aprenentatge no supervisat",
+   "en": "unsupervised learning",
+   "altres": "",
+   "definicio": "Aprenentatge automàtic a partir de dades sense etiquetar: el sistema busca per si sol patrons, grups o estructures amagades.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3NzgyOQ%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "aprenentatge per reforçament",
+   "en": "reinforcement learning",
+   "altres": "",
+   "definicio": "Aprenentatge per assaig i error: el sistema prova accions, rep recompenses o penalitzacions i ajusta la manera d’actuar per obtenir la recompensa més alta.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI2OQ%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "aprenentatge profund",
+   "en": "deep learning",
+   "altres": "",
+   "definicio": "Aprenentatge automàtic basat en xarxes neuronals de moltes capes. És la tècnica que hi ha darrere del reconeixement de veu, la traducció automàtica i els models de llenguatge actuals.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI3MQ%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "aprenentatge supervisat",
+   "en": "supervised learning",
+   "altres": "",
+   "definicio": "Aprenentatge automàtic a partir d’exemples etiquetats —per exemple, fotografies amb el nom de l’objecte que hi surt— perquè el sistema aprengui a posar l’etiqueta correcta a exemples nous.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3NzgzMQ%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "biaix algorísmic",
+   "en": "algorithmic bias",
+   "altres": "",
+   "definicio": "Error sistemàtic d’un sistema d’IA que el porta a tractar de manera injusta o desigual persones o grups, sovint perquè les dades amb què s’ha entrenat ja reflectien aquestes desigualtats.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3NDA4NQ%3D%3D",
+   "nota": "El TERMCAT fa servir «algorísmic», no «algorítmic»."
+  },
+  {
+   "terme": "bot de conversa",
+   "en": "chatbot",
+   "altres": "assistent d’IA generativa",
+   "definicio": "Programa que manté una conversa amb una persona, per escrit o de viva veu. Els assistents basats en models de llenguatge grans en són la versió més avançada.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI3NQ%3D%3D",
+   "nota": "Per a assistents com ChatGPT, Claude o Gemini, el TERMCAT recull també «assistent d’intel·ligència artificial generativa»."
+  },
+  {
+   "terme": "conjunt de dades",
+   "en": "dataset",
+   "altres": "",
+   "definicio": "Col·lecció organitzada de dades —textos, imatges, àudios, registres— que es fa servir per entrenar, afinar o avaluar un sistema d’IA.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDkyMjI1Nw%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "conversió de text a parla",
+   "en": "text-to-speech",
+   "altres": "conversió de text a veu; síntesi de la parla",
+   "definicio": "Tecnologia que genera veu sintètica a partir d’un text escrit. És la que permet escoltar en àudio les peces d’aquest web.",
+   "fitxa": "https://www.termcat.cat/ca/cercaterm/fitxa/NTkyMDcy",
+   "nota": ""
+  },
+  {
+   "terme": "dades d’entrenament",
+   "en": "training data",
+   "altres": "",
+   "definicio": "Dades amb què s’entrena un model. La seva quantitat, qualitat i procedència determinen en bona part què sap fer el model i quins biaixos té.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg4MDU3Mw%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "dades sintètiques",
+   "en": "synthetic data",
+   "altres": "",
+   "definicio": "Dades generades artificialment, sovint per un altre model d’IA, que imiten les característiques de dades reals. Serveixen per entrenar o provar sistemes quan les dades reals són escasses o privades.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI0Nw%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "destil·lació del coneixement",
+   "en": "knowledge distillation",
+   "altres": "destil·lació de models",
+   "definicio": "Tècnica per entrenar un model petit (l’alumne) perquè imiti les respostes d’un model gran (el mestre), de manera que en conservi bona part de la capacitat amb un cost molt més baix.",
+   "fitxa": "",
+   "nota": "El TERMCAT no recull aquest sentit; és la forma de la Viquipèdia en català."
+  },
+  {
+   "terme": "enginyeria d’indicacions",
+   "en": "prompt engineering",
+   "altres": "",
+   "definicio": "Conjunt de tècniques per redactar indicacions que obtinguin respostes més útils i fiables d’un model d’IA.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3NzgzNQ%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "entrenament",
+   "en": "training",
+   "altres": "",
+   "definicio": "Procés en què un model aprèn a partir de dades ajustant-ne els paràmetres. Per als models més grans demana setmanes de càlcul en milers de processadors.",
+   "fitxa": "",
+   "nota": ""
+  },
+  {
+   "terme": "finestra de context",
+   "en": "context window",
+   "altres": "",
+   "definicio": "Quantitat màxima de text, comptada en segments textuals, que un model de llenguatge pot tenir en compte alhora: la conversa, els documents adjunts i la resposta que està escrivint.",
+   "fitxa": "",
+   "nota": "El TERMCAT no recull aquest terme; és la forma habitual en català."
+  },
+  {
+   "terme": "generació augmentada per recuperació",
+   "en": "retrieval-augmented generation (RAG)",
+   "altres": "",
+   "definicio": "Tècnica en què, abans de respondre, el sistema busca informació en una col·lecció de documents i la hi afegeix, perquè la resposta es basi en fonts concretes i actualitzades.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3NDU0OA%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "hipertrucatge",
+   "en": "deepfake",
+   "altres": "",
+   "definicio": "Imatge, vídeo o àudio manipulat o generat amb IA que fa aparèixer una persona dient o fent coses que no ha dit ni fet, amb un realisme que en dificulta la detecció.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI0MA%3D%3D",
+   "nota": "El TERMCAT recomana «hipertrucatge» en lloc de l’anglicisme «deepfake»."
+  },
+  {
+   "terme": "immersió",
+   "en": "embedding",
+   "altres": "immersió vectorial",
+   "definicio": "Representació d’una paraula, una frase o una imatge com una llista de números (un vector), de manera que els elements de significat semblant queden a prop. És la base de la cerca semàntica.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI5NA%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "indicació",
+   "en": "prompt",
+   "altres": "",
+   "definicio": "Instrucció o pregunta que una persona escriu a un sistema d’IA generativa per obtenir-ne una resposta. Com més clara i concreta, millor sol ser el resultat.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI4NA%3D%3D",
+   "nota": "El TERMCAT no recull «prompt» com a forma catalana."
+  },
+  {
+   "terme": "inferència",
+   "en": "inference",
+   "altres": "",
+   "definicio": "Fase en què un model ja entrenat es fa servir: rep una entrada i produeix una resposta. Cada pregunta a un assistent és una inferència, i cadascuna té un cost de càlcul i d’energia.",
+   "fitxa": "",
+   "nota": "El TERMCAT no recull aquest sentit; és la forma habitual i és correcta segons el DIEC."
+  },
+  {
+   "terme": "intel·ligència artificial",
+   "en": "artificial intelligence",
+   "altres": "IA",
+   "definicio": "Disciplina que desenvolupa sistemes capaços de fer tasques que associem a la intel·ligència humana: entendre el llenguatge, reconèixer imatges, raonar, planificar o aprendre de l’experiència.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI1Mw%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "intel·ligència artificial explicable",
+   "en": "explainable AI",
+   "altres": "IA explicable",
+   "definicio": "Conjunt de mètodes perquè les decisions d’un sistema d’IA es puguin entendre i justificar, cosa especialment important en àmbits com la salut, la justícia o el crèdit.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3NDA4Ng%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "intel·ligència artificial general",
+   "en": "artificial general intelligence (AGI)",
+   "altres": "IA general",
+   "definicio": "Hipotètic sistema d’IA capaç d’igualar o superar les persones en la gran majoria de tasques intel·lectuals, i no només en una de concreta. No hi ha una definició compartida ni consens sobre si arribarà, ni quan.",
+   "fitxa": "",
+   "nota": "No s’ha d’abreujar «IAG»: el TERMCAT reserva aquesta sigla per a la IA generativa."
+  },
+  {
+   "terme": "intel·ligència artificial generativa",
+   "en": "generative AI",
+   "altres": "IA generativa; IAG",
+   "definicio": "IA que crea contingut nou —text, imatges, àudio, vídeo o codi— a partir de les indicacions de l’usuari, en lloc de limitar-se a classificar o predir.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI1NA%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "marca d’aigua",
+   "en": "watermark",
+   "altres": "",
+   "definicio": "Senyal imperceptible incrustat en un contingut generat per IA (text, imatge o àudio) que permet identificar-ne l’origen artificial.",
+   "fitxa": "https://www.termcat.cat/ca/cercaterm/fitxa/MzcwNzIyMA%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "model de difusió",
+   "en": "diffusion model",
+   "altres": "",
+   "definicio": "Tipus de model generatiu que crea imatges, àudio o vídeo partint de soroll aleatori i eliminant-lo pas a pas fins a obtenir un resultat coherent amb la indicació.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3Nzg0MA%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "model de llenguatge gran",
+   "en": "large language model (LLM)",
+   "altres": "MLG",
+   "definicio": "Model d’IA entrenat amb quantitats enormes de text per predir la paraula següent, i que gràcies a això pot redactar, resumir, traduir, respondre preguntes o programar. Les famílies GPT, Claude, Gemini o Salamandra en són exemples.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3Nzg0MQ%3D%3D",
+   "nota": "El TERMCAT tria «gran» i no «extens»."
+  },
+  {
+   "terme": "model de pesos oberts",
+   "en": "open-weight model",
+   "altres": "model obert; model de codi obert",
+   "definicio": "Model d’IA que es pot descarregar i fer funcionar lliurement. Cal anar amb compte: publicar els pesos (els paràmetres entrenats) no vol dir publicar també el codi ni les dades d’entrenament.",
+   "fitxa": "",
+   "nota": "El TERMCAT no recull aquest terme."
+  },
+  {
+   "terme": "model fonamental",
+   "en": "foundation model",
+   "altres": "",
+   "definicio": "Model gran entrenat amb dades molt diverses que serveix de base per a moltes aplicacions diferents, sovint després d’un afinament.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg5MDExMQ%3D%3D",
+   "nota": "El TERMCAT recull «model fonamental»; «model fundacional» segueix el castellà."
+  },
+  {
+   "terme": "model multimodal",
+   "en": "multimodal model",
+   "altres": "",
+   "definicio": "Model que treballa amb diversos tipus de dades alhora —text, imatges, àudio o vídeo—: per exemple, pot descriure una fotografia o respondre de viva veu.",
+   "fitxa": "",
+   "nota": "El TERMCAT recull «model de llenguatge gran multimodal» i «model fonamental multimodal»."
+  },
+  {
+   "terme": "paràmetre",
+   "en": "parameter",
+   "altres": "",
+   "definicio": "Cadascun dels valors numèrics interns que un model ajusta durant l’entrenament. Els models de llenguatge grans en tenen des de milers fins a centenars de milers de milions, i el nombre se sol fer servir per indicar-ne la mida.",
+   "fitxa": "https://www.termcat.cat/ca/cercaterm/fitxa/MjgwMjg2OQ%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "processador gràfic",
+   "en": "GPU",
+   "altres": "unitat de processament gràfic; GPU",
+   "definicio": "Xip dissenyat originalment per als gràfics que pot fer milers de càlculs en paral·lel. Aquesta capacitat l’ha convertit en la peça bàsica per entrenar i fer funcionar models d’IA.",
+   "fitxa": "https://www.termcat.cat/ca/cercaterm/fitxa/NDgxNDg4",
+   "nota": ""
+  },
+  {
+   "terme": "processament del llenguatge natural",
+   "en": "natural language processing",
+   "altres": "PLN",
+   "definicio": "Àmbit de la IA que tracta de fer que les màquines entenguin, generin i tradueixin el llenguatge humà, escrit o parlat.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI1OA%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "prova de referència",
+   "en": "benchmark",
+   "altres": "banc de proves",
+   "definicio": "Conjunt estandarditzat de preguntes o tasques que es fa servir per mesurar i comparar el rendiment dels models d’IA.",
+   "fitxa": "",
+   "nota": "El TERMCAT no recull aquest sentit; és una forma descriptiva."
+  },
+  {
+   "terme": "proves d’equip vermell",
+   "en": "red teaming",
+   "altres": "equip vermell",
+   "definicio": "Atacs simulats que fa un equip d’especialistes contra un sistema d’IA per trobar-ne vulnerabilitats, usos perillosos o comportaments no desitjats abans que ho facin altres.",
+   "fitxa": "",
+   "nota": "El TERMCAT no recull aquest terme."
+  },
+  {
+   "terme": "reconeixement de la parla",
+   "en": "speech recognition",
+   "altres": "reconeixement de la veu",
+   "definicio": "Tecnologia que converteix la veu en text escrit. En català n’hi ha models oberts, com els que ha publicat el Projecte Aina a partir de Whisper.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg4MDU4Mg%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "Reglament europeu d’intel·ligència artificial",
+   "en": "AI Act",
+   "altres": "Llei d’intel·ligència artificial; Llei d’IA",
+   "definicio": "El Reglament (UE) 2024/1689, marc legal de la Unió Europea per a la IA. Classifica els sistemes segons el risc que comporten i hi imposa obligacions més estrictes com més alt és el risc. S’aplica de manera esglaonada.",
+   "fitxa": "",
+   "nota": "No hi ha denominació oficial en català; l’Escola d’Administració Pública de Catalunya en diu «Llei d’intel·ligència artificial»."
+  },
+  {
+   "terme": "robòtica",
+   "en": "robotics",
+   "altres": "",
+   "definicio": "Disciplina que dissenya i construeix robots, màquines capaces de percebre l’entorn i actuar-hi. La IA hi aporta la percepció, la planificació i l’aprenentatge.",
+   "fitxa": "https://www.termcat.cat/ca/cercaterm/fitxa/NTkyMDEx",
+   "nota": ""
+  },
+  {
+   "terme": "salvaguardes",
+   "en": "guardrails",
+   "altres": "mecanismes de protecció",
+   "definicio": "Mecanismes que limiten què pot fer o dir un sistema d’IA —filtres, regles, controls de seguretat— per evitar respostes perilloses, il·legals o fora de propòsit.",
+   "fitxa": "",
+   "nota": "El TERMCAT no recull aquest terme; és una forma descriptiva."
+  },
+  {
+   "terme": "segment textual",
+   "en": "token",
+   "altres": "segment",
+   "definicio": "Unitat mínima en què un model de llenguatge divideix el text: una paraula, un tros de paraula o un signe. La finestra de context i el preu d’ús dels models es compten en segments.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3Nzg0NQ%3D%3D",
+   "nota": "El TERMCAT no recull «token» com a forma catalana."
+  },
+  {
+   "terme": "sistema d’IA d’alt risc",
+   "en": "high-risk AI system",
+   "altres": "",
+   "definicio": "Categoria del Reglament europeu d’IA per als sistemes que poden afectar greument la salut, la seguretat o els drets de les persones —per exemple, en la contractació, l’educació, el crèdit o la justícia— i que han de complir requisits estrictes.",
+   "fitxa": "",
+   "nota": ""
+  },
+  {
+   "terme": "sistema de recomanació",
+   "en": "recommender system",
+   "altres": "",
+   "definicio": "Sistema que suggereix continguts o productes —vídeos, cançons, notícies, compres— a partir del que una persona ha fet abans i del que han fet usuaris semblants.",
+   "fitxa": "https://www.termcat.cat/ca/cercaterm/fitxa/NDQxNTM2MQ%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "sobreajust",
+   "en": "overfitting",
+   "altres": "sobreajustament",
+   "definicio": "Problema d’un model que s’ha adaptat tant a les dades d’entrenament que les «memoritza» i deixa de funcionar bé amb dades noves.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI2NA%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "supercomputador",
+   "en": "supercomputer",
+   "altres": "",
+   "definicio": "Ordinador de capacitat de càlcul molt alta, format per milers de processadors que treballen en paral·lel. El MareNostrum 5 del Barcelona Supercomputing Center n’és un exemple.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI3Mw%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "transformador",
+   "en": "transformer",
+   "altres": "",
+   "definicio": "Arquitectura de xarxa neuronal, presentada el 2017, basada en un mecanisme d’atenció que relaciona totes les parts d’un text alhora. És la base de gairebé tots els models de llenguatge actuals.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg5MTQwMA%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "vehicle autònom",
+   "en": "autonomous vehicle",
+   "altres": "cotxe autònom",
+   "definicio": "Vehicle capaç de circular sense conductor humà, o amb una intervenció mínima, gràcies a sensors i sistemes d’IA que perceben l’entorn i prenen decisions.",
+   "fitxa": "",
+   "nota": ""
+  },
+  {
+   "terme": "visió artificial",
+   "en": "computer vision",
+   "altres": "visió per ordinador",
+   "definicio": "Àmbit de la IA que permet a les màquines interpretar imatges i vídeos: reconèixer objectes, persones, text o moviments.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg4MDU4Nw%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "xarxa neuronal artificial",
+   "en": "neural network",
+   "altres": "xarxa neuronal",
+   "definicio": "Model matemàtic inspirat, de manera molt simplificada, en les neurones del cervell: capes de nodes connectats que transformen les dades d’entrada fins a produir un resultat. Quan té moltes capes es parla de xarxa neuronal profunda.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI2NQ%3D%3D",
+   "nota": ""
+  }
+ ]
+}
