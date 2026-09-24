@@ -57,7 +57,26 @@ iacat_capcalera([
       <h2 id="t-<?= $ancora ?>"><?= iacat_e($nom) ?></h2>
       <ul class="seccio-grid">
 <?php foreach ($perCat[$cat] as $e): ?>
-        <li class="fitxa">
+<?php
+    $logo = (string) ($e['logo'] ?? '');
+    if ($logo !== '' && !is_file(__DIR__ . '/' . ltrim($logo, '/'))) { $logo = ''; }
+    $sigles = trim((string) ($e['sigles'] ?? ''));
+    if ($sigles === '' || mb_strlen($sigles) > 7) {
+        // Inicials de les paraules amb majúscula (p. ex. «Clúster Digital de Catalunya» → CDC).
+        preg_match_all('/\b\p{Lu}/u', (string) $e['nom'], $m);
+        $sigles = mb_substr(implode('', $m[0]), 0, 4);
+        // Una sola inicial (THEKER, Biorce, Herta): el nom sencer, si és curt.
+        if (mb_strlen($sigles) < 2) { $sigles = mb_strtoupper(mb_substr(strtok((string) $e['nom'], ' '), 0, 7)); }
+    }
+?>
+        <li class="fitxa fitxa--entitat">
+          <a class="fitxa__logo<?= $logo === '' ? ' fitxa__logo--buit' : '' ?>" href="<?= iacat_e((string) $e['url']) ?>" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+<?php if ($logo !== ''): ?>
+            <img src="<?= iacat_e($logo) ?>" alt="" loading="lazy" decoding="async">
+<?php else: ?>
+            <span><?= iacat_e($sigles) ?></span>
+<?php endif; ?>
+          </a>
           <span class="fitxa__meta"><?= iacat_e(implode(' · ', array_filter([(string) ($e['sigles'] ?? ''), (string) ($e['lloc'] ?? '')]))) ?></span>
           <h3><a href="<?= iacat_e((string) $e['url']) ?>" target="_blank" rel="noopener"><?= iacat_e((string) $e['nom']) ?></a></h3>
           <p><?= iacat_e((string) ($e['descripcio'] ?? '')) ?></p>
