@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./editorial.css?v=2026072401">
   <script defer src="./shared.js?v=2026092401"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Quadern IA","description":"Quadern IA: la reflexió setmanal de la redacció sobre un tema filosòfic relacionat amb la intel·ligència artificial.","url":"https://inteligencia-artificial.cat/quadern.html","mainEntityOfPage":"https://inteligencia-artificial.cat/quadern.html","inLanguage":"ca","publisher":{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/"},"author":{"@type":"Organization","name":"Redacció IA.cat","url":"https://inteligencia-artificial.cat/redaccio.html"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://inteligencia-artificial.cat/"},{"@type":"ListItem","position":2,"name":"Quadern IA","item":"https://inteligencia-artificial.cat/quadern.html"}]}]}</script>
+  <style>.quadern-anterior { margin-top: 10px; font-size: 13px; color: #5d6472; }</style>
 </head>
 <body class="editorial-body">
   <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./tribuna.html">Tribuna</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
@@ -40,6 +41,7 @@
         <aside class="article-sidebar">
           <section class="article-sidecard"><h2>Comparteix</h2><div class="article-share-clean"><a id="share-linkedin" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a><a id="share-whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a><a id="share-mail" href="#">Correu</a><button type="button" data-copy-url="https://inteligencia-artificial.cat/quadern.html">Copia</button></div></section>
           <section class="article-sidecard"><h2>Sobre aquesta peça</h2><p>Reflexió setmanal de la redacció sobre un tema filosòfic relacionat amb la IA, elaborada a partir d’una investigació prèvia de fonts i pensadors reals. <a href="./redaccio.html">Consulta el mètode editorial →</a></p></section>
+          <section class="article-sidecard"><h2>Quaderns anteriors</h2><p>Tots els quaderns publicats fins ara. <a href="./arxiu-quadern.html">Ves a l’arxiu del Quadern →</a></p><p class="quadern-anterior" id="anterior" hidden></p></section>
         </aside>
       </div>
     </div>
@@ -47,12 +49,40 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
-  <script src="./reflection.js?v=2026072403"></script>
-  <script src="./peces.js?v=2026092401"></script>
+  <script src="./peces.js?v=2026092402"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
-    (function () {
-      var q = window.IA_REFLECTION;
+    // Segell horari (com a analisi.html): reflection.js canvia cada divendres i
+    // quadern-arxiu.js amb ell; amb un ?v= fix el navegador es quedaria la còpia vella.
+    var segellHorari = (function () {
+      var ara = new Date();
+      return [
+        ara.getUTCFullYear(),
+        String(ara.getUTCMonth() + 1).padStart(2, '0'),
+        String(ara.getUTCDate()).padStart(2, '0'),
+        String(ara.getUTCHours()).padStart(2, '0')
+      ].join('');
+    }());
+    var carregaDades = function (fitxers) {
+      return Promise.all(fitxers.map(function (src) {
+        return new Promise(function (resolve) {
+          var s = document.createElement('script');
+          s.src = src + '?v=' + segellHorari;
+          s.onload = resolve;
+          s.onerror = resolve;
+          document.head.appendChild(s);
+        });
+      }));
+    };
+    carregaDades(['./reflection.js', './quadern-arxiu.js']).then(function () {
+      // /quadern/<id> (peca.php) arriba amb window.IA_PECA; ?arxiu=N també val.
+      // idx -1 = el quadern vigent (reflection.js).
+      var arxiu = window.IA_QUADERN_ARXIU || [];
+      var llistaFixa = [window.IA_REFLECTION].concat(arxiu);
+      var forcat = window.IA_PECA && window.IA_PECA.tipus === 'quadern' ? window.IA_PECA.idx : null;
+      var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
+      var esArxivat = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
+      var q = esArxivat ? arxiu[idx] : window.IA_REFLECTION;
       var estat = document.getElementById('estat');
       if (!q || !q.title) {
         estat.textContent = 'EL QUADERN NO ESTÀ DISPONIBLE ARA MATEIX.';
@@ -74,8 +104,22 @@
         p.textContent = text;
         cos.appendChild(p);
       });
+
+      // Enllaç al quadern immediatament anterior al que s'està llegint.
+      var seguentIdx = esArxivat ? idx + 1 : 0;
+      if (arxiu[seguentIdx] && arxiu[seguentIdx].title) {
+        var anterior = document.getElementById('anterior');
+        var enllacAnterior = document.createElement('a');
+        enllacAnterior.href = (window.IAPeces && window.IAPeces.cami('quadern', arxiu[seguentIdx], llistaFixa)) || ('./quadern.html?arxiu=' + seguentIdx);
+        enllacAnterior.textContent = arxiu[seguentIdx].title;
+        anterior.appendChild(document.createTextNode('Anterior' + (arxiu[seguentIdx].date ? ' (' + arxiu[seguentIdx].date + ')' : '') + ': '));
+        anterior.appendChild(enllacAnterior);
+        anterior.hidden = false;
+      }
+
       // Compartir: l'adreça fixa del quadern (/quadern/<id>). També és la canònica.
-      var pagina = (window.IAPeces && window.IAPeces.url('quadern', q, [q])) || 'https://inteligencia-artificial.cat/quadern.html';
+      var pagina = (window.IAPeces && window.IAPeces.url('quadern', q, llistaFixa)) ||
+        'https://inteligencia-artificial.cat/quadern.html' + (esArxivat ? '?arxiu=' + idx : '');
       if (window.IAPeces) window.IAPeces.canonica(pagina);
       var botoCopia = document.querySelector('[data-copy-url]');
       if (botoCopia) botoCopia.setAttribute('data-copy-url', pagina);
@@ -93,7 +137,7 @@
         audioUrl: audioUrl,
         parts: [q.title, q.dek || ''].concat(paragrafs).filter(Boolean)
       });
-    })();
+    });
   </script>
 </body>
 </html>
