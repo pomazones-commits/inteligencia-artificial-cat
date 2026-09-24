@@ -35,6 +35,27 @@ foreach ($candidates as $item) {
     if (count($items) >= 30) { break; }
 }
 
+// Recurs (24.09.2026): archive.json només guarda les 1.000 peces més recents
+// (~45 dies). Si el tema no n'ha reunit 30, es completa amb l'hemeroteca
+// sencera (arxiu.json, totes les edicions des del 12.07.2026). Sense això, els
+// temes amb poques peces perdien tot el que tenia més d'un mes i mig.
+if (count($items) < 30) {
+    $arxiuPath = __DIR__ . '/data/arxiu.json';
+    $arxiu = is_file($arxiuPath) ? json_decode((string) file_get_contents($arxiuPath), true) : [];
+    foreach ((array) ($arxiu['editions'] ?? []) as $edicio) {
+        foreach ((array) ($edicio['items'] ?? []) as $item) {
+            if (!is_array($item)) { continue; }
+            $itemSlug = (string) ($item['slug'] ?? '');
+            if ($itemSlug === '' || isset($seen[$itemSlug])) { continue; }
+            $category = topic_upper((string) ($item['category'] ?? ''));
+            if (!in_array($category, (array) $topic['categories'], true)) { continue; }
+            $seen[$itemSlug] = true;
+            $items[] = $item;
+            if (count($items) >= 30) { break 2; }
+        }
+    }
+}
+
 if ($found && !$items) { http_response_code(404); }
 $canonical = $base . '/tema/' . $slug;
 $jsonld = [
@@ -84,13 +105,13 @@ $rest = array_slice($items, 1);
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="/editorial.css?v=2026072301">
-  <script defer src="/shared.js?v=2026080702"></script>
+  <script defer src="/shared.js?v=2026092401"></script>
 </head>
 <body class="editorial-body">
   <header class="editorial-topbar">
     <div class="editorial-shell editorial-topbar__inner">
       <a class="editorial-brand" href="/" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a>
-      <nav class="editorial-nav" aria-label="Navegació principal"><a href="/#ultima-hora">Última hora</a><a href="/#catalunya">Radar català</a><a href="/analisi.html">Anàlisi</a><a href="/dossiers.html">Dossiers</a><a href="/arxiu.html">Arxiu</a></nav>
+      <nav class="editorial-nav" aria-label="Navegació principal"><a href="/#ultima-hora">Última hora</a><a href="/#catalunya">Radar català</a><a href="/tribuna.html">Tribuna</a><a href="/analisi.html">Anàlisi</a><a href="/dossiers.html">Dossiers</a><a href="/arxiu.html">Arxiu</a></nav>
       <a class="editorial-back" href="/">← Portada</a>
     </div>
   </header>

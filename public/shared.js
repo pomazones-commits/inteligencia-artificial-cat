@@ -67,6 +67,24 @@
     nav.appendChild(a);
   })();
 
+  // Enllaços a les seccions de servei (24.09.2026) al peu de les pàgines
+  // interiors. A la portada són estàtics dins d'index.html. Rutes ABSOLUTES.
+  (() => {
+    if (document.getElementById('primary-nav')) return;
+    const nav = document.querySelector('footer nav');
+    if (!nav || nav.querySelector('.peu-seccions')) return;
+    [['/autors', 'Qui hi escriu'], ['/escriu.html', 'Escriu a IA.cat'], ['/agenda', 'Agenda'],
+     ['/glossari', 'Glossari'], ['/llengua', 'La IA i el català'], ['/ecosistema', 'Ecosistema'],
+     ['/podcast.html', 'Pòdcast'], ['/correccions', 'Correccions']].forEach(([href, text], i) => {
+      if (nav.querySelector('a[href="' + href + '"], a[href=".' + href + '"]')) return;
+      const a = document.createElement('a');
+      a.href = href;
+      a.textContent = text;
+      if (i === 0) a.className = 'peu-seccions';
+      nav.appendChild(a);
+    });
+  })();
+
   // Banda de subscripció al butlletí, injectada a totes les pàgines interiors
   // just abans del footer. La portada (que té #newsletter-form propi) i
   // qualsevol pàgina que ja porti un formulari .js-subscribe-form al seu HTML

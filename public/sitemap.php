@@ -118,6 +118,28 @@ foreach (array_keys($topics) as $topicSlug) {
     $urls[] = ['loc' => $base . '/tema/' . $topicSlug, 'lastmod' => $topicIso[$topicSlug] ?? $siteIso];
 }
 
+// Seccions noves (24.09.2026): pàgines de servei i de consulta.
+foreach (['escriu.html', 'autors', 'agenda', 'glossari', 'ecosistema', 'llengua', 'correccions', 'podcast.html'] as $page) {
+    $urls[] = ['loc' => $base . '/' . $page, 'lastmod' => $siteIso];
+}
+
+// Peces editorials amb adreça fixa (/tribuna/<id>, /estudis/<id>, /analisi/<id>,
+// /quadern/<id>, /reflexio/<data>) i fitxa de cada persona autora. Vegeu inc/peces.php.
+require_once __DIR__ . '/inc/peces.php';
+$autors = [];
+foreach (iacat_totes_les_peces() as $peca) {
+    $url = ['loc' => $peca['url']];
+    if ($peca['dataIso'] !== '') { $url['lastmod'] = $peca['dataIso']; }
+    $urls[] = $url;
+    if ($peca['autor'] !== '') {
+        $clau = iacat_slug($peca['autor']);
+        if (!isset($autors[$clau]) || $peca['dataIso'] > $autors[$clau]) { $autors[$clau] = $peca['dataIso']; }
+    }
+}
+foreach ($autors as $clau => $iso) {
+    $urls[] = ['loc' => $base . '/autor/' . $clau] + ($iso !== '' ? ['lastmod' => $iso] : []);
+}
+
 // Articles.
 foreach ($articleUrls as $url) {
     $urls[] = $url;

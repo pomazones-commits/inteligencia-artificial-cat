@@ -1,0 +1,100 @@
+/* Seccions de servei (24.09.2026): qui hi escriu, escriu a IA.cat, agenda,
+   glossari, ecosistema, la IA i el català, pòdcast i correccions.
+   Full autònom: fa servir les variables d'editorial.css i no en toca cap regla. */
+
+.seccio-hero{display:grid;grid-template-columns:1.4fr .6fr;gap:60px;align-items:end;padding-bottom:46px;border-bottom:1px solid var(--ed-line)}
+.seccio-hero h1{margin:14px 0 20px;font-size:clamp(44px,6.4vw,80px)}
+.seccio-hero .editorial-lede{margin:0;max-width:760px}
+.seccio-hero aside{padding:22px 0 0 26px;border-left:3px solid var(--ed-accent);color:var(--ed-muted);font-size:14px;line-height:1.6}
+.seccio-hero aside strong{display:block;margin-bottom:6px;color:var(--ed-ink);font:600 10px var(--ed-mono);letter-spacing:.1em;text-transform:uppercase}
+.seccio-hero aside a{color:var(--ed-blue)}
+
+.seccio-bloc{padding:52px 0 0}
+.seccio-bloc>h2{margin:0 0 8px;font:600 clamp(30px,3.6vw,42px)/1.05 var(--ed-serif);letter-spacing:-.035em}
+.seccio-bloc>.seccio-intro{max-width:760px;margin:0 0 26px;color:var(--ed-muted);font-size:16px;line-height:1.6}
+.seccio-bloc>.seccio-intro a,.seccio-text a{color:var(--ed-blue)}
+
+.seccio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:0;padding:0;list-style:none}
+.seccio-grid--2{grid-template-columns:repeat(2,1fr)}
+.fitxa{display:flex;flex-direction:column;gap:10px;padding:24px;border:1px solid var(--ed-line);border-radius:14px;background:var(--ed-paper)}
+.fitxa h3{margin:0;font-size:19px;line-height:1.2;letter-spacing:-.02em}
+.fitxa h3 a{text-decoration:none}.fitxa h3 a:hover{color:var(--ed-blue);text-decoration:underline}
+.fitxa p{margin:0;color:var(--ed-muted);font-size:14px;line-height:1.55}
+.fitxa__meta{color:var(--ed-blue);font:600 10px var(--ed-mono);letter-spacing:.08em;text-transform:uppercase}
+.fitxa__peu{margin-top:auto;padding-top:6px;font:600 10px var(--ed-mono);letter-spacing:.06em;text-transform:uppercase}
+.fitxa__peu a{color:var(--ed-blue);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:3px}
+
+.xips{display:flex;flex-wrap:wrap;gap:8px;margin:30px 0 0;padding:0;list-style:none}
+.xips a,.xips button{display:inline-block;padding:8px 13px;border:1px solid var(--ed-line);border-radius:999px;background:var(--ed-paper);color:var(--ed-ink);font:600 10px var(--ed-mono);letter-spacing:.06em;text-decoration:none;text-transform:uppercase;cursor:pointer}
+.xips a:hover,.xips a:focus-visible,.xips button:hover,.xips button[aria-pressed="true"]{border-color:var(--ed-blue);background:var(--ed-blue-soft);color:var(--ed-blue)}
+
+.seccio-text{max-width:760px;font-size:17px;line-height:1.7}
+.seccio-text h2{margin:48px 0 12px;font:600 30px/1.1 var(--ed-serif);letter-spacing:-.03em}
+.seccio-text h3{margin:28px 0 8px;font-size:18px}
+.seccio-text ul,.seccio-text ol{padding-left:22px}.seccio-text li{margin:6px 0}
+.seccio-nota{margin-top:40px;padding:18px 20px;border-radius:12px;background:var(--ed-blue-soft);color:var(--ed-ink);font-size:14px;line-height:1.6}
+.seccio-nota a{color:var(--ed-blue)}
+.boto-correu{display:inline-block;margin-top:10px;padding:13px 20px;border-radius:999px;background:var(--ed-ink);color:var(--ed-accent)!important;font:600 11px var(--ed-mono);letter-spacing:.06em;text-decoration:none;text-transform:uppercase}
+
+/* Qui hi escriu */
+.autor-fitxa{flex-direction:row;align-items:flex-start;gap:18px}
+.autor-fitxa img,.autor-fitxa .autor-inicials{flex:0 0 76px;width:76px;height:76px;border-radius:50%;object-fit:cover;background:var(--ed-blue-soft)}
+.autor-inicials{display:grid;place-items:center;color:var(--ed-blue);font:600 22px var(--ed-serif)}
+.autor-cap{display:flex;gap:28px;align-items:center;padding-bottom:40px;border-bottom:1px solid var(--ed-line)}
+.autor-cap img,.autor-cap .autor-inicials{width:132px;height:132px;flex:0 0 132px;border-radius:50%;object-fit:cover;font-size:38px}
+.autor-cap h1{margin:10px 0 8px;font:600 clamp(40px,5.6vw,68px)/.95 var(--ed-serif);letter-spacing:-.045em}
+.autor-cap p{margin:0;color:var(--ed-muted);font-size:17px;line-height:1.5}
+.peces-llista{margin:0;padding:0;list-style:none;border-top:1px solid var(--ed-line)}
+.peces-llista li{display:grid;grid-template-columns:150px 1fr;gap:24px;padding:22px 0;border-bottom:1px solid var(--ed-line)}
+.peces-llista .fitxa__meta{padding-top:5px}
+.peces-llista h3{margin:0 0 6px;font:600 23px/1.15 var(--ed-serif);letter-spacing:-.02em}
+.peces-llista h3 a{text-decoration:none}.peces-llista h3 a:hover{color:var(--ed-blue);text-decoration:underline}
+.peces-llista p{margin:0;color:var(--ed-muted);font-size:15px;line-height:1.55}
+
+/* Agenda */
+.agenda-mes{margin:46px 0 14px;font:600 12px var(--ed-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ed-blue)}
+.acte{display:grid;grid-template-columns:118px 1fr;gap:22px;padding:22px;border:1px solid var(--ed-line);border-radius:14px;background:var(--ed-paper);margin-bottom:12px}
+.acte__data{display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:96px;padding:10px;border-radius:10px;background:var(--ed-ink);color:#fff;text-align:center}
+.acte__data strong{font:600 34px/1 var(--ed-serif);letter-spacing:-.04em;color:var(--ed-accent)}
+.acte__data span{margin-top:6px;font:600 10px/1.4 var(--ed-mono);letter-spacing:.06em;text-transform:uppercase}
+.acte h3{margin:4px 0 8px;font-size:20px;line-height:1.2;letter-spacing:-.02em}
+.acte h3 a{text-decoration:none}.acte h3 a:hover{color:var(--ed-blue);text-decoration:underline}
+.acte p{margin:0 0 10px;color:var(--ed-muted);font-size:14px;line-height:1.55}
+.acte__detalls{display:flex;flex-wrap:wrap;gap:6px 16px;color:var(--ed-ink);font:500 11px var(--ed-mono)}
+.acte--convocatoria .acte__data{background:var(--ed-blue)}
+
+/* Glossari */
+.lletres{position:sticky;top:0;z-index:2;display:flex;flex-wrap:wrap;gap:4px;margin:30px 0 0;padding:12px 0;background:rgba(246,247,251,.96);border-bottom:1px solid var(--ed-line)}
+.lletres a{display:grid;place-items:center;min-width:32px;height:32px;border-radius:8px;font:600 12px var(--ed-mono);text-decoration:none;text-transform:uppercase}
+.lletres a:hover{background:var(--ed-blue-soft);color:var(--ed-blue)}
+.lletres span{display:grid;place-items:center;min-width:32px;height:32px;color:#b6bcc8;font:600 12px var(--ed-mono);text-transform:uppercase}
+.glossari-cerca{display:block;width:100%;max-width:520px;margin:26px 0 0;padding:14px 18px;border:1px solid var(--ed-line);border-radius:999px;background:var(--ed-paper);font:16px var(--ed-sans)}
+.glossari-lletra{margin:40px 0 6px;font:600 44px/1 var(--ed-serif);color:var(--ed-blue);scroll-margin-top:70px}
+.glossari{margin:0}
+.terme{padding:22px 0;border-bottom:1px solid var(--ed-line);scroll-margin-top:70px}
+.terme dt{font:600 24px/1.15 var(--ed-serif);letter-spacing:-.02em}
+.terme dt small{margin-left:10px;color:var(--ed-muted);font:500 12px var(--ed-mono);letter-spacing:0}
+.terme dd{margin:8px 0 0;max-width:780px;font-size:16px;line-height:1.65}
+.terme .terme__altres,.terme .terme__nota{color:var(--ed-muted);font-size:13px}
+.terme .terme__font{font:600 10px var(--ed-mono);letter-spacing:.06em;text-transform:uppercase}
+.terme .terme__font a{color:var(--ed-blue)}
+
+/* Correccions */
+.correccio{padding:24px 0;border-bottom:1px solid var(--ed-line)}
+.correccio h3{margin:6px 0 10px;font:600 22px/1.2 var(--ed-serif);letter-spacing:-.02em}
+.correccio h3 a{text-decoration:none}.correccio h3 a:hover{color:var(--ed-blue);text-decoration:underline}
+.correccio blockquote{margin:0;padding:0 0 0 18px;border-left:3px solid var(--ed-accent);color:var(--ed-muted);font-size:15px;line-height:1.6}
+
+@media(max-width:860px){
+  .seccio-hero{grid-template-columns:1fr;gap:26px}
+  .seccio-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:620px){
+  .seccio-grid,.seccio-grid--2{grid-template-columns:1fr}
+  .acte{grid-template-columns:1fr;gap:14px;padding:18px}
+  .acte__data{flex-direction:row;gap:10px;min-height:0;justify-content:flex-start}
+  .acte__data strong{font-size:26px}.acte__data span{margin-top:0}
+  .peces-llista li{grid-template-columns:1fr;gap:6px}
+  .autor-cap{flex-direction:column;align-items:flex-start;gap:18px}
+  .terme dt small{display:block;margin:4px 0 0}
+}

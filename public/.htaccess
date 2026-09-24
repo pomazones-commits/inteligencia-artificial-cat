@@ -54,6 +54,23 @@ RewriteRule ^news-sitemap\.xml$ news-sitemap.php [L]
 RewriteRule ^feed\.xml$ feed.php [L]
 RewriteRule ^tema/([a-z0-9-]+)/?$ tema.php?tema=$1 [L,QSA]
 
+# Adreces fixes de les peces editorials (24.09.2026): /tribuna/<id>, /estudis/<id>,
+# /analisi/<id>, /quadern/<id> i /reflexio/<AAAA-MM-DD>. Vegeu peca.php i inc/peces.php.
+RewriteRule ^(tribuna|estudis|analisi|quadern|reflexio)/([a-z0-9-]+)/?$ peca.php?tipus=$1&id=$2 [L,QSA]
+
+# Seccions de servei (24.09.2026).
+RewriteRule ^autors/?$ autors.php [L,QSA]
+RewriteRule ^autor/([a-z0-9-]+)/?$ autors.php?nom=$1 [L,QSA]
+RewriteRule ^agenda/?$ agenda.php [L,QSA]
+RewriteRule ^glossari/?$ glossari.php [L,QSA]
+RewriteRule ^ecosistema/?$ ecosistema.php [L,QSA]
+RewriteRule ^llengua/?$ llengua.php [L,QSA]
+RewriteRule ^correccions/?$ correccions.php [L,QSA]
+RewriteRule ^podcast\.xml$ podcast.php [L]
+
+# Peces de codi compartit: no s'han de poder demanar directament.
+RewriteRule ^inc/ - [F,L]
+
 # URLs antigues: cada pàgina es redirigeix al nou equivalent temàtic.
 RewriteRule ^ara/?$ https://inteligencia-artificial.cat/ [R=301,L]
 RewriteRule ^onu/?$ https://inteligencia-artificial.cat/tema/politica-i-governanca [R=301,L]
@@ -73,7 +90,6 @@ RewriteRule ^formacio/?$ https://inteligencia-artificial.cat/eines.html [R=301,L
 RewriteRule ^llibres-tecnics/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
 RewriteRule ^salut/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
 RewriteRule ^turisme/?$ https://inteligencia-artificial.cat/tema/empresa-i-treball [R=301,L]
-RewriteRule ^llengua/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]
 RewriteRule ^ciberseguretat/?$ https://inteligencia-artificial.cat/tema/seguretat [R=301,L]
 RewriteRule ^aigua/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]
 RewriteRule ^canvi-climatic/?$ https://inteligencia-artificial.cat/tema/infraestructura-i-energia [R=301,L]

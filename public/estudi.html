@@ -14,7 +14,7 @@
   <title>Estudis · intel·ligència artificial.cat</title>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="./editorial.css?v=2026072401">
-  <script defer src="./shared.js?v=2026080702"></script>
+  <script defer src="./shared.js?v=2026092401"></script>
   <style>
     /* Peces pròpies d'un estudi acadèmic: resum, paraules clau, seccions i bibliografia. */
     .estudi-resum { margin: 0 0 30px; padding: 24px 26px; background: #f2f5fb; border-left: 3px solid #233a82; }
@@ -42,7 +42,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Estudis","description":"Estudis: articles de fons signats per investigadores i investigadors, amb resum, paraules clau i bibliografia.","url":"https://inteligencia-artificial.cat/estudi.html","mainEntityOfPage":"https://inteligencia-artificial.cat/estudi.html","inLanguage":"ca","publisher":{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://inteligencia-artificial.cat/"},{"@type":"ListItem","position":2,"name":"Estudis","item":"https://inteligencia-artificial.cat/estudi.html"}]}]}</script>
 </head>
 <body class="editorial-body">
-  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
+  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./tribuna.html">Tribuna</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
 
   <main class="editorial-shell editorial-main" id="estudi-main">
     <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><span>Estudis</span></nav>
@@ -79,13 +79,16 @@
 
   <script src="./estudis.js?v=2026092202"></script>
   <script src="./estudis-arxiu.js?v=2026092202"></script>
+  <script src="./peces.js?v=2026092401"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
     (function () {
-      // ?arxiu=N mostra un estudi arxivat (estudis-arxiu.js); sense parametre, el vigent.
+      // /estudis/<id> (peca.php, via window.IA_PECA) o ?arxiu=N mostren un estudi
+      // arxivat (estudis-arxiu.js); sense res, el vigent. idx -1 = el vigent.
       var arxiu = window.IA_ESTUDIS_ARXIU || [];
-      var idx = parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
-      var esArxivat = !isNaN(idx) && !!arxiu[idx];
+      var forcat = window.IA_PECA && window.IA_PECA.tipus === 'estudis' ? window.IA_PECA.idx : null;
+      var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
+      var esArxivat = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
       var e = esArxivat ? arxiu[idx] : window.IA_ESTUDI;
       var estat = document.getElementById('estat');
       if (!e || !e.title) {
@@ -246,8 +249,10 @@
         notes.hidden = false;
       }
 
-      // Compartir (els arxivats comparteixen l'adreça amb ?arxiu=N)
-      var pagina = 'https://inteligencia-artificial.cat/estudi.html' + (esArxivat ? '?arxiu=' + idx : '');
+      // Compartir: sempre l'adreça fixa de l'estudi (/estudis/<id>). També és la canònica.
+      var pagina = (window.IAPeces && window.IAPeces.url('estudis', e, [window.IA_ESTUDI].concat(arxiu))) ||
+        'https://inteligencia-artificial.cat/estudi.html' + (esArxivat ? '?arxiu=' + idx : '');
+      if (window.IAPeces) window.IAPeces.canonica(pagina);
       var botoCopia = document.querySelector('[data-copy-url]');
       if (botoCopia) botoCopia.setAttribute('data-copy-url', pagina);
       var url = encodeURIComponent(pagina);

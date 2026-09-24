@@ -14,11 +14,11 @@
   <title>La tribuna · intel·ligència artificial.cat</title>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="./editorial.css?v=2026072401">
-  <script defer src="./shared.js?v=2026080702"></script>
+  <script defer src="./shared.js?v=2026092401"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"La tribuna","description":"La tribuna: articles d'opinió i anàlisi signats per veus expertes en intel·ligència artificial.","url":"https://inteligencia-artificial.cat/tribuna.html","mainEntityOfPage":"https://inteligencia-artificial.cat/tribuna.html","inLanguage":"ca","publisher":{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://inteligencia-artificial.cat/"},{"@type":"ListItem","position":2,"name":"La tribuna","item":"https://inteligencia-artificial.cat/tribuna.html"}]}]}</script>
 </head>
 <body class="editorial-body">
-  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
+  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./tribuna.html">Tribuna</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
 
   <main class="editorial-shell editorial-main" id="tribuna-main">
     <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><span>La tribuna</span></nav>
@@ -50,13 +50,16 @@
 
   <script src="./tribuna.js?v=2026092401"></script>
   <script src="./tribuna-arxiu.js?v=2026092401"></script>
+  <script src="./peces.js?v=2026092401"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
     (function () {
-      // ?arxiu=N mostra una tribuna arxivada (tribuna-arxiu.js); sense parametre, la vigent.
+      // /tribuna/<id> (peca.php, via window.IA_PECA) o ?arxiu=N mostren una tribuna
+      // arxivada (tribuna-arxiu.js); sense res, la vigent. idx -1 = la vigent.
       var arxiu = window.IA_TRIBUNA_ARXIU || [];
-      var idx = parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
-      var esArxivada = !isNaN(idx) && !!arxiu[idx];
+      var forcat = window.IA_PECA && window.IA_PECA.tipus === 'tribuna' ? window.IA_PECA.idx : null;
+      var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
+      var esArxivada = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
       var t = esArxivada ? arxiu[idx] : window.IA_TRIBUNA;
       var estat = document.getElementById('estat');
       if (!t || !t.title) {
@@ -101,8 +104,11 @@
         p.appendChild(document.createTextNode(text.slice(ultim)));
         cos.appendChild(p);
       });
-      // Compartir (les arxivades comparteixen l'adreça amb ?arxiu=N)
-      var pagina = 'https://inteligencia-artificial.cat/tribuna.html' + (esArxivada ? '?arxiu=' + idx : '');
+      // Compartir: sempre l'adreça fixa de la peça (/tribuna/<id>), que no canvia
+      // quan se n'arxiva una de nova. També passa a ser la canònica.
+      var pagina = (window.IAPeces && window.IAPeces.url('tribuna', t, [window.IA_TRIBUNA].concat(arxiu))) ||
+        'https://inteligencia-artificial.cat/tribuna.html' + (esArxivada ? '?arxiu=' + idx : '');
+      if (window.IAPeces) window.IAPeces.canonica(pagina);
       var botoCopia = document.querySelector('[data-copy-url]');
       if (botoCopia) botoCopia.setAttribute('data-copy-url', pagina);
       var url = encodeURIComponent(pagina);

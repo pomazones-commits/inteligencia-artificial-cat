@@ -14,7 +14,7 @@
   <title>Anàlisi · intel·ligència artificial.cat</title>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="./editorial.css?v=2026072401">
-  <script defer src="./shared.js?v=2026080702"></script>
+  <script defer src="./shared.js?v=2026092401"></script>
   <style>
     /* Il·lustració de la peça (opcional): l'anàlisi pot portar imatge des del 08.09.2026. */
     .analisi-illustracio { margin: 0 0 28px; }
@@ -62,6 +62,7 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
+  <script src="./peces.js?v=2026092401"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
     // Les dades es regeneren cada setmana i el segell ha de ser horari (la
@@ -90,9 +91,12 @@
     carregaDades(['./analysis.js', './analysis-arxiu.js']).then(function () {
       // ?arxiu=N mostra una anàlisi arxivada (analysis-arxiu.js); sense
       // paràmetre, la vigent (analysis.js).
+      // /analisi/<id> (peca.php) arriba amb window.IA_PECA; idx -1 = la vigent.
       var arxiu = window.IA_ANALISIS_ARXIU || [];
-      var idx = parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
-      var esArxivada = !isNaN(idx) && !!arxiu[idx];
+      var llistaFixa = [window.IA_ANALYSIS].concat(arxiu);
+      var forcat = window.IA_PECA && window.IA_PECA.tipus === 'analisi' ? window.IA_PECA.idx : null;
+      var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
+      var esArxivada = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
       var a = esArxivada ? arxiu[idx] : window.IA_ANALYSIS;
       var estat = document.getElementById('estat');
       if (!a || !a.title) {
@@ -161,15 +165,17 @@
       if (arxiu[seguentIdx] && arxiu[seguentIdx].title) {
         var anterior = document.getElementById('anterior');
         var enllacAnterior = document.createElement('a');
-        enllacAnterior.href = './analisi.html?arxiu=' + seguentIdx;
+        enllacAnterior.href = (window.IAPeces && window.IAPeces.cami('analisi', arxiu[seguentIdx], llistaFixa)) || ('./analisi.html?arxiu=' + seguentIdx);
         enllacAnterior.textContent = arxiu[seguentIdx].title;
         anterior.appendChild(document.createTextNode('Anterior' + (arxiu[seguentIdx].date ? ' (' + arxiu[seguentIdx].date + ')' : '') + ': '));
         anterior.appendChild(enllacAnterior);
         anterior.hidden = false;
       }
 
-      // Compartir (les arxivades comparteixen l'adreça amb ?arxiu=N).
-      var pagina = 'https://inteligencia-artificial.cat/analisi.html' + (esArxivada ? '?arxiu=' + idx : '');
+      // Compartir: sempre l'adreça fixa (/analisi/<id>). També és la canònica.
+      var pagina = (window.IAPeces && window.IAPeces.url('analisi', a, llistaFixa)) ||
+        'https://inteligencia-artificial.cat/analisi.html' + (esArxivada ? '?arxiu=' + idx : '');
+      if (window.IAPeces) window.IAPeces.canonica(pagina);
       var botoCopia = document.querySelector('[data-copy-url]');
       if (botoCopia) botoCopia.setAttribute('data-copy-url', pagina);
       var url = encodeURIComponent(pagina);

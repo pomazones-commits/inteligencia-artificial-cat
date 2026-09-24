@@ -31,4 +31,22 @@ foreach (($edition['items'] ?? []) as $item) {
     if ($updatedAt !== '') { echo '    <pubDate>' . x(date(DATE_RSS, strtotime($updatedAt))) . "</pubDate>\n"; }
     echo "  </item>\n";
 }
+// Peces signades i peces de fons (24.09.2026): la tribuna, l'estudi, l'anàlisi i
+// el quadern vigents, i les tres últimes reflexions del dia, amb la seva adreça fixa.
+require_once __DIR__ . '/inc/peces.php';
+$extres = [];
+foreach (['tribuna' => 1, 'estudis' => 1, 'analisi' => 1, 'quadern' => 1, 'reflexio' => 3] as $tipus => $quantes) {
+    foreach (array_slice(iacat_peces($tipus), 0, $quantes) as $peca) { $extres[] = $peca; }
+}
+foreach ($extres as $peca) {
+    $titol = $peca['titol'] . ($peca['autor'] !== '' ? ' — ' . $peca['autor'] : '');
+    echo "  <item>\n";
+    echo '    <title>' . x($titol) . "</title>\n";
+    echo '    <link>' . x($peca['url']) . "</link>\n";
+    echo '    <guid isPermaLink="true">' . x($peca['url']) . "</guid>\n";
+    echo '    <description>' . x($peca['resum']) . "</description>\n";
+    echo '    <category>' . x(function_exists('mb_strtoupper') ? mb_strtoupper($peca['seccio'], 'UTF-8') : $peca['seccio']) . "</category>\n";
+    if ($peca['dataIso'] !== '') { echo '    <pubDate>' . x(date(DATE_RSS, strtotime($peca['dataIso'] . 'T08:00:00+02:00'))) . "</pubDate>\n"; }
+    echo "  </item>\n";
+}
 echo "</channel>\n</rss>\n";

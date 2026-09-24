@@ -14,7 +14,7 @@
   <title>La reflexió del dia · intel·ligència artificial.cat</title>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="./editorial.css?v=2026072401">
-  <script defer src="./shared.js?v=2026080702"></script>
+  <script defer src="./shared.js?v=2026092401"></script>
   <style>
     /* Els senyals del dia: les notícies de l'edició en què es basa la reflexió. */
     .reflexio-senyals-peca { margin: 40px 0 0; padding-top: 24px; border-top: 1px solid #e3e7ef; }
@@ -26,7 +26,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"La reflexió del dia","description":"La reflexió del dia: el balanç de la redacció sobre com ha evolucionat avui la intel·ligència artificial i quines tendències s'hi veuen, a partir de les notícies del dia.","url":"https://inteligencia-artificial.cat/reflexio.html","mainEntityOfPage":"https://inteligencia-artificial.cat/reflexio.html","inLanguage":"ca","publisher":{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/"},"author":{"@type":"Organization","name":"Redacció IA.cat","url":"https://inteligencia-artificial.cat/redaccio.html"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://inteligencia-artificial.cat/"},{"@type":"ListItem","position":2,"name":"La reflexió del dia","item":"https://inteligencia-artificial.cat/reflexio.html"}]}]}</script>
 </head>
 <body class="editorial-body">
-  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
+  <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./tribuna.html">Tribuna</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
 
   <main class="editorial-shell editorial-main">
     <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><span>La reflexió del dia</span></nav>
@@ -57,6 +57,7 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
+  <script src="./peces.js?v=2026092401"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
     // Les dades es regeneren cada dia. El segell ?v= ha de ser horari (com a
@@ -86,9 +87,12 @@
     carregaDades(['./reflexio-diaria.js', './reflexions-arxiu.js']).then(function () {
       // ?arxiu=N mostra una reflexió arxivada (reflexions-arxiu.js); sense
       // paràmetre, la vigent (reflexio-diaria.js).
+      // /reflexio/<AAAA-MM-DD> (peca.php) arriba amb window.IA_PECA; idx -1 = la vigent.
       var arxiu = window.IA_REFLEXIONS_ARXIU || [];
-      var idx = parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
-      var esArxivada = !isNaN(idx) && !!arxiu[idx];
+      var llistaFixa = [window.IA_REFLEXIO_DIARIA].concat(arxiu);
+      var forcat = window.IA_PECA && window.IA_PECA.tipus === 'reflexio' ? window.IA_PECA.idx : null;
+      var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
+      var esArxivada = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
       var r = esArxivada ? arxiu[idx] : window.IA_REFLEXIO_DIARIA;
       var estat = document.getElementById('estat');
       if (!r || !r.title) {
@@ -142,15 +146,17 @@
         var anterior = document.getElementById('anterior');
         var ma = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(arxiu[seguentIdx].date || ''));
         var enllacAnterior = document.createElement('a');
-        enllacAnterior.href = './reflexio.html?arxiu=' + seguentIdx;
+        enllacAnterior.href = (window.IAPeces && window.IAPeces.cami('reflexio', arxiu[seguentIdx], llistaFixa)) || ('./reflexio.html?arxiu=' + seguentIdx);
         enllacAnterior.textContent = arxiu[seguentIdx].title;
         anterior.appendChild(document.createTextNode('Anterior' + (ma ? ' (' + ma[3] + '.' + ma[2] + '.' + ma[1] + ')' : '') + ': '));
         anterior.appendChild(enllacAnterior);
         anterior.hidden = false;
       }
 
-      // Compartir (les arxivades comparteixen l'adreça amb ?arxiu=N)
-      var pagina = 'https://inteligencia-artificial.cat/reflexio.html' + (esArxivada ? '?arxiu=' + idx : '');
+      // Compartir: sempre l'adreça fixa (/reflexio/<AAAA-MM-DD>). També és la canònica.
+      var pagina = (window.IAPeces && window.IAPeces.url('reflexio', r, llistaFixa)) ||
+        'https://inteligencia-artificial.cat/reflexio.html' + (esArxivada ? '?arxiu=' + idx : '');
+      if (window.IAPeces) window.IAPeces.canonica(pagina);
       var botoCopia = document.querySelector('[data-copy-url]');
       if (botoCopia) botoCopia.setAttribute('data-copy-url', pagina);
       var url = encodeURIComponent(pagina);
