@@ -1,6 +1,6 @@
 {
  "actualitzat": "2026-09-24",
- "nota": "Directori orientatiu. Webs comprovades el 24.09.2026.",
+ "nota": "Directori orientatiu. Webs comprovades el 24.09.2026. Logos: cada entitat en el seu propi fitxer a /assets/ecosistema-*.png (400x160 px com a màxim, PNG); si una entitat no en té, la fitxa mostra les sigles.",
  "entitats": [
   {
    "nom": "Institut d'Investigació en Intel·ligència Artificial",
@@ -8,7 +8,8 @@
    "categoria": "Recerca",
    "lloc": "Bellaterra",
    "descripcio": "Institut del CSIC dedicat exclusivament a la intel·ligència artificial: raonament, sistemes multiagent, aprenentatge automàtic i ètica de la IA.",
-   "url": "https://www.iiia.csic.es/"
+   "url": "https://www.iiia.csic.es/",
+   "logo": "/assets/ecosistema-iiia-csic.png"
   },
   {
    "nom": "Barcelona Supercomputing Center – Centro Nacional de Supercomputación",
@@ -16,7 +17,8 @@
    "categoria": "Recerca",
    "lloc": "Barcelona",
    "descripcio": "Centre nacional de supercomputació que gestiona el MareNostrum. Fa recerca en computació d'altes prestacions i en IA, i desenvolupa els models de llenguatge del Projecte Aina.",
-   "url": "https://www.bsc.es/"
+   "url": "https://www.bsc.es/",
+   "logo": "/assets/ecosistema-bsc-cns.png"
   },
   {
    "nom": "Centre de Visió per Computador",
@@ -24,7 +26,8 @@
    "categoria": "Recerca",
    "lloc": "Bellaterra",
    "descripcio": "Centre de recerca vinculat a la UAB especialitzat en visió per computador i aprenentatge automàtic. Coordina la Xarxa RDI-IA.",
-   "url": "https://www.cvc.uab.es/"
+   "url": "https://www.cvc.uab.es/",
+   "logo": "/assets/ecosistema-cvc.png"
   },
   {
    "nom": "Fundació i2CAT",
@@ -32,7 +35,8 @@
    "categoria": "Recerca",
    "lloc": "Barcelona",
    "descripcio": "Centre de recerca i innovació en tecnologies digitals. La intel·ligència artificial és una de les seves àrees, al costat de les xarxes 5G/6G, la ciberseguretat i l'espai.",
-   "url": "https://i2cat.net/"
+   "url": "https://i2cat.net/",
+   "logo": "/assets/ecosistema-i2cat.png"
   },
   {
    "nom": "Eurecat, Centre Tecnològic de Catalunya",
@@ -40,7 +44,8 @@
    "categoria": "Recerca",
    "lloc": "Cerdanyola del Vallès",
    "descripcio": "Centre tecnològic que fa recerca i innovació per a empreses, amb unitats d'IA aplicada i de ciència de dades. Gestiona l'oficina tècnica del CIDAI.",
-   "url": "https://eurecat.org/"
+   "url": "https://eurecat.org/",
+   "logo": "/assets/ecosistema-eurecat.png"
   },
   {
    "nom": "Institut de Robòtica i Informàtica Industrial",
@@ -48,7 +53,8 @@
    "categoria": "Recerca",
    "lloc": "Barcelona",
    "descripcio": "Institut mixt del CSIC i la UPC que investiga en robòtica, percepció, planificació i control automàtic.",
-   "url": "https://www.iri.upc.edu/"
+   "url": "https://www.iri.upc.edu/",
+   "logo": "/assets/ecosistema-iri-csic-upc.png"
   },
   {
    "nom": "Centre Tecnològic de Telecomunicacions de Catalunya",
@@ -56,7 +62,8 @@
    "categoria": "Recerca",
    "lloc": "Castelldefels",
    "descripcio": "Centre de recerca en telecomunicacions i tractament del senyal, amb una línia d'intel·ligència artificial sostenible aplicada a xarxes.",
-   "url": "https://www.cttc.cat/"
+   "url": "https://www.cttc.cat/",
+   "logo": "/assets/ecosistema-cttc.png"
   },
   {
    "nom": "Centre d'Innovació per a Dades i Intel·ligència Artificial",
@@ -64,7 +71,8 @@
    "categoria": "Recerca",
    "lloc": "Barcelona",
    "descripcio": "Iniciativa de la Generalitat, empreses i centres tecnològics per impulsar l'adopció de la IA en sectors com la mobilitat o la salut. Organitza l'AI Congress Barcelona.",
-   "url": "https://cidai.eu/"
+   "url": "https://cidai.eu/",
+   "logo": "/assets/ecosistema-cidai.png"
   },
   {
    "nom": "ELLIS Unit Barcelona",
@@ -80,7 +88,8 @@
    "categoria": "Recerca",
    "lloc": "Bellaterra",
    "descripcio": "Xarxa finançada pel Departament de Recerca i Universitats i coordinada pel CVC que agrupa més de seixanta grups de recerca d'IA de Catalunya.",
-   "url": "https://xarxardi-ia.cat/"
+   "url": "https://xarxardi-ia.cat/",
+   "logo": "/assets/ecosistema-xarxa-rdi-ia.png"
   },
   {
    "nom": "Intelligent Data Science and Artificial Intelligence Research Center",
@@ -88,7 +97,8 @@
    "categoria": "Universitat",
    "lloc": "Barcelona",
    "descripcio": "Centre de la UPC que agrupa set grups de recerca en intel·ligència artificial i ciència de dades.",
-   "url": "https://ideai.upc.edu/"
+   "url": "https://ideai.upc.edu/",
+   "logo": "/assets/ecosistema-ideai-upc.png"
   },
   {
    "nom": "Grup d'Intel·ligència Artificial i Aprenentatge Automàtic (UPF)",
@@ -96,7 +106,8 @@
    "categoria": "Universitat",
    "lloc": "Barcelona",
    "descripcio": "Grup de la Universitat Pompeu Fabra que investiga en planificació automàtica i aprenentatge automàtic.",
-   "url": "https://www.upf.edu/web/ai-ml"
+   "url": "https://www.upf.edu/web/ai-ml",
+   "logo": "/assets/ecosistema-ai-ml-upf.png"
   },
   {
    "nom": "Computer Vision and Machine Learning Group (UB)",
@@ -104,7 +115,8 @@
    "categoria": "Universitat",
    "lloc": "Barcelona",
    "descripcio": "Grup de la Universitat de Barcelona que treballa en visió per computador i aprenentatge automàtic.",
-   "url": "https://www.ub.edu/datascience/imub/"
+   "url": "https://www.ub.edu/datascience/imub/",
+   "logo": "/assets/ecosistema-ub.png"
   },
   {
    "nom": "Artificial Intelligence in Medicine Lab (UB)",
@@ -112,7 +124,8 @@
    "categoria": "Universitat",
    "lloc": "Barcelona",
    "descripcio": "Laboratori de la Universitat de Barcelona que aplica la IA a la medicina personalitzada a partir de dades mèdiques diverses.",
-   "url": "https://www.bcn-aim.org/"
+   "url": "https://www.bcn-aim.org/",
+   "logo": "/assets/ecosistema-ub.png"
   },
   {
    "nom": "Grup de Visió per Computador i Robòtica (UdG)",
@@ -120,7 +133,8 @@
    "categoria": "Universitat",
    "lloc": "Girona",
    "descripcio": "Grup de la Universitat de Girona especialitzat en visió per computador, robots submarins autònoms i anàlisi d'imatge mèdica.",
-   "url": "https://vicorob.udg.edu/"
+   "url": "https://vicorob.udg.edu/",
+   "logo": "/assets/ecosistema-vicorob.png"
   },
   {
    "nom": "Artificial Intelligence for Human Well-being (UOC)",
@@ -128,7 +142,8 @@
    "categoria": "Universitat",
    "lloc": "Barcelona",
    "descripcio": "Grup de la Universitat Oberta de Catalunya que desenvolupa IA i visió per computador per reconèixer objectes, emocions i gestos en contingut audiovisual.",
-   "url": "https://recerca.uoc.edu/grupos/37378/detalle?lang=en"
+   "url": "https://recerca.uoc.edu/grupos/37378/detalle?lang=en",
+   "logo": "/assets/ecosistema-aiwell.png"
   },
   {
    "nom": "Observatori d'Ètica en Intel·ligència Artificial de Catalunya",
@@ -136,7 +151,8 @@
    "categoria": "Observatori",
    "lloc": "Girona",
    "descripcio": "Observatori de la Universitat de Girona que estudia les conseqüències ètiques, socials i legals de la IA. Ha creat el model PIO d'autoavaluació.",
-   "url": "https://www.oeiac.cat/"
+   "url": "https://www.oeiac.cat/",
+   "logo": "/assets/ecosistema-oeiac.png"
   },
   {
    "nom": "Observatori d'IA en Salut",
@@ -144,7 +160,8 @@
    "categoria": "Observatori",
    "lloc": "Barcelona",
    "descripcio": "Observatori del programa Salut/IA que segueix com s'implanta la intel·ligència artificial al sistema sanitari català.",
-   "url": "https://iasalut.cat/observatori-ia-en-salut/"
+   "url": "https://iasalut.cat/observatori-ia-en-salut/",
+   "logo": "/assets/ecosistema-salut-ia.png"
   },
   {
    "nom": "Observatori de la Intel·ligència Artificial i les Noves Tecnologies",
@@ -152,7 +169,8 @@
    "categoria": "Observatori",
    "lloc": "Barcelona",
    "descripcio": "Observatori de la Universitat Internacional de Catalunya dedicat a la recerca interdisciplinària i al debat sobre les implicacions de la IA.",
-   "url": "https://www.uic.es/en/research/research/observatories/observatory-on-artificial-intelligence-and-new-technologies"
+   "url": "https://www.uic.es/en/research/research/observatories/observatory-on-artificial-intelligence-and-new-technologies",
+   "logo": "/assets/ecosistema-oiant.png"
   },
   {
    "nom": "Estratègia Catalunya IA 2030",
@@ -160,7 +178,8 @@
    "categoria": "Administració",
    "lloc": "Barcelona",
    "descripcio": "Estratègia de la Generalitat en intel·ligència artificial, successora de Catalonia.AI, amb 88 actuacions agrupades en 8 eixos.",
-   "url": "https://politiquesdigitals.gencat.cat/ca/economia/ia/"
+   "url": "https://politiquesdigitals.gencat.cat/ca/economia/ia/",
+   "logo": "/assets/ecosistema-gencat.png"
   },
   {
    "nom": "ACCIÓ – Agència per al creixement de les empreses",
@@ -168,7 +187,8 @@
    "categoria": "Administració",
    "lloc": "Barcelona",
    "descripcio": "Agència de la Generalitat per a la innovació i la internacionalització de les empreses, amb formació i ajuts per adoptar la IA.",
-   "url": "https://www.accio.gencat.cat/ca/inici"
+   "url": "https://www.accio.gencat.cat/ca/inici",
+   "logo": "/assets/ecosistema-accio.png"
   },
   {
    "nom": "Autoritat Catalana de Protecció de Dades",
@@ -176,7 +196,8 @@
    "categoria": "Administració",
    "lloc": "Barcelona",
    "descripcio": "Autoritat independent que vetlla per la protecció de dades personals a Catalunya i analitza l'impacte de la IA sobre la privacitat.",
-   "url": "https://www.apdcat.cat/ca"
+   "url": "https://www.apdcat.cat/ca",
+   "logo": "/assets/ecosistema-apdcat.png"
   },
   {
    "nom": "Projecte Aina",
@@ -184,7 +205,8 @@
    "categoria": "Administració",
    "lloc": "Barcelona",
    "descripcio": "Projecte de la Generalitat, executat pel BSC, que crea corpus, models i eines oberts perquè el català tingui presència plena en la IA.",
-   "url": "https://projecteaina.cat/"
+   "url": "https://projecteaina.cat/",
+   "logo": "/assets/ecosistema-aina.png"
   },
   {
    "nom": "Programa Salut/IA (Fundació TIC Salut Social)",
@@ -192,7 +214,8 @@
    "categoria": "Administració",
    "lloc": "Barcelona",
    "descripcio": "Programa de la Generalitat que coordina el desplegament de solucions d'IA al sistema de salut de Catalunya.",
-   "url": "https://iasalut.cat/"
+   "url": "https://iasalut.cat/",
+   "logo": "/assets/ecosistema-salut-ia.png"
   },
   {
    "nom": "Consorci Administració Oberta de Catalunya",
@@ -200,7 +223,8 @@
    "categoria": "Administració",
    "lloc": "Barcelona",
    "descripcio": "Consorci de serveis digitals per a les administracions catalanes, amb una línia d'innovació en IA per al sector públic.",
-   "url": "https://www.aoc.cat/en/projecte-innovacio-category/intelligencia-artificial/"
+   "url": "https://www.aoc.cat/en/projecte-innovacio-category/intelligencia-artificial/",
+   "logo": "/assets/ecosistema-aoc.png"
   },
   {
    "nom": "Local.iA",
@@ -208,7 +232,8 @@
    "categoria": "Administració",
    "lloc": "Barcelona",
    "descripcio": "Projecte de les diputacions catalanes que ofereix models, guies, formació i assistència perquè els ens locals facin servir la IA de manera responsable.",
-   "url": "https://localia.cat/ca/"
+   "url": "https://localia.cat/ca/",
+   "logo": "/assets/ecosistema-local-ia.png"
   },
   {
    "nom": "Barcelona Ciutat Digital",
@@ -216,7 +241,8 @@
    "categoria": "Administració",
    "lloc": "Barcelona",
    "descripcio": "Àrea digital de l'Ajuntament de Barcelona, que impulsa polítiques sobre l'ús ètic de la intel·ligència artificial.",
-   "url": "https://ajuntament.barcelona.cat/digital/ca"
+   "url": "https://ajuntament.barcelona.cat/digital/ca",
+   "logo": "/assets/ecosistema-barcelona-ciutat-digital.png"
   },
   {
    "nom": "Associació Catalana d'Intel·ligència Artificial",
@@ -224,7 +250,8 @@
    "categoria": "Comunitat",
    "lloc": "Catalunya",
    "descripcio": "Associació sense ànim de lucre, afiliada a EurAI, que fomenta la IA a la societat catalana i organitza el congrés internacional CCIA.",
-   "url": "https://www.acia.cat/"
+   "url": "https://www.acia.cat/",
+   "logo": "/assets/ecosistema-acia.png"
   },
   {
    "nom": "Softcatalà",
@@ -232,7 +259,8 @@
    "categoria": "Comunitat",
    "lloc": "Catalunya",
    "descripcio": "Associació sense ànim de lucre que promou el català a les tecnologies: traductor, corrector, transcripció, doblatge automàtic i guies d'IA local.",
-   "url": "https://www.softcatala.org/"
+   "url": "https://www.softcatala.org/",
+   "logo": "/assets/ecosistema-softcatala.png"
   },
   {
    "nom": "Societat Catalana de Tecnologia (IEC)",
@@ -240,7 +268,8 @@
    "categoria": "Comunitat",
    "lloc": "Barcelona",
    "descripcio": "Societat filial de l'Institut d'Estudis Catalans que promou la tecnologia com a fet cultural i té una secció dedicada a la IA.",
-   "url": "https://sct.iec.cat/"
+   "url": "https://sct.iec.cat/",
+   "logo": "/assets/ecosistema-sct.png"
   },
   {
    "nom": "Col·legi Oficial d'Enginyeria Informàtica de Catalunya",
@@ -256,7 +285,8 @@
    "categoria": "Comunitat",
    "lloc": "Barcelona",
    "descripcio": "Fundació que impulsa l'ecosistema digital de Barcelona amb programes de talent, transferència tecnològica i divulgació.",
-   "url": "https://mobileworldcapital.com/"
+   "url": "https://mobileworldcapital.com/",
+   "logo": "/assets/ecosistema-mwcapital.png"
   },
   {
    "nom": "Clúster Digital de Catalunya",
@@ -288,7 +318,8 @@
    "categoria": "Empresa",
    "lloc": "Barcelona",
    "descripcio": "Empresa de seguretat i governança d'agents d'intel·ligència artificial per a grans organitzacions.",
-   "url": "https://neuraltrust.ai/"
+   "url": "https://neuraltrust.ai/",
+   "logo": "/assets/ecosistema-neuraltrust.png"
   },
   {
    "nom": "Herta",
@@ -312,7 +343,8 @@
    "categoria": "Empresa",
    "lloc": "Barcelona",
    "descripcio": "Empresa derivada del CVC que fa servir visió artificial per llegir automàticament contenidors i vagons en ports i terminals.",
-   "url": "https://www.allread.ai/"
+   "url": "https://www.allread.ai/",
+   "logo": "/assets/ecosistema-allread.png"
   }
  ]
 }
