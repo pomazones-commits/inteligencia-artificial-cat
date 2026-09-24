@@ -233,6 +233,45 @@ test('reingerir la mateixa anàlisi no la duplica ni la deixa alhora vigent i ar
   assert.equal(arxiu.filter(item => item.title === 'Anàlisi 2').length, 0);
 });
 
+function quadernPayload(n) {
+  return {
+    title: `Quadern ${n}`,
+    dek: `Entradeta del quadern ${n}.`,
+    body: [`Primer paràgraf del quadern ${n}.`, `Segon paràgraf del quadern ${n}.`],
+    date: `1${n}.09.2026`
+  };
+}
+
+async function publicaQuadern(root, payload) {
+  const input = join(root, `reflection-${payload.title.replace(/\W+/g, '-')}.json`);
+  await writeFile(input, JSON.stringify(payload), 'utf8');
+  return run(['ingest-editorial', '--type', 'reflection', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state')], root);
+}
+
+test('el quadern vigent passa a quadern-arxiu.js quan n’arriba un de nou', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  assert.equal((await publicaQuadern(root, quadernPayload(1))).status, 0);
+  assert.equal((await publicaQuadern(root, quadernPayload(2))).status, 0);
+  const vigent = JSON.parse((await readFile(join(root, 'reflection.js'), 'utf8')).match(/= ([\s\S]+);\n$/)[1]);
+  const arxiu = parseAssignment(await readFile(join(root, 'quadern-arxiu.js'), 'utf8'));
+  assert.equal(vigent.title, 'Quadern 2');
+  assert.equal(arxiu.length, 1);
+  assert.equal(arxiu[0].title, 'Quadern 1');
+  assert.equal(arxiu[0].body.length, 2);
+  // L'anàlisi i el quadern tenen arxius separats.
+  await assert.rejects(readFile(join(root, 'analysis-arxiu.js'), 'utf8'));
+});
+
+test('reingerir el mateix quadern no el duplica ni el deixa alhora vigent i arxivat', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  await publicaQuadern(root, quadernPayload(1));
+  await publicaQuadern(root, quadernPayload(2));
+  await publicaQuadern(root, quadernPayload(2));
+  const arxiu = parseAssignment(await readFile(join(root, 'quadern-arxiu.js'), 'utf8'));
+  assert.equal(arxiu.length, 1);
+  assert.equal(arxiu.filter(item => item.title === 'Quadern 2').length, 0);
+});
+
 test('l’arxiu d’anàlisis es queda en 52 peces', async () => {
   const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
   for (let i = 1; i <= 55; i += 1) {
