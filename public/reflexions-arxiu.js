@@ -1,5 +1,37 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-09-23",
+    "title": "El dia que la IA va pujar a la tribuna més alta i va caure en les mateixes trampes de sempre",
+    "dek": "Mentre el Consell de Seguretat de l'ONU escolta per primer cop Sam Altman i Dario Amodei, un programari maliciós deixa votar quatre intel·ligències artificials i un assistent de programació xinès pujava dades sense permís.",
+    "body": [
+      "Avui la intel·ligència artificial ha pujat a la tribuna més alta que se li ha ofert mai: el Consell de Seguretat de l'ONU ha dedicat, per primer cop en la seva història, una sessió sencera als riscos de seguretat que planteja, amb Sam Altman en persona i Dario Amodei en remot. En paral·lel, OpenAI ha anunciat que deixarà avaluadors externs examinar la seguretat dels seus models durant el mateix entrenament, i ha cedit gratis a Ucraïna el seu sistema de ciberdefensa Daybreak per protegir hospitals i centrals elèctriques. Tres gestos diferents, un mateix missatge: les institucions volen mostrar que la IA més avançada ja es vigila, i que és útil quan es posa en mans de qui la necessita per protegir-se.",
+      "El mateix dia, però, dos episodis recorden per què aquesta confiança encara costa de guanyar-se. Cisco Talos ha revelat CLOSEDQUORUM, un programari maliciós que deixa quatre models comercials —DeepSeek, Qwen, Mistral i Gemini— votar per majoria quin serà el pas següent d'un atac, sense cap operador humà connectat en temps real. I s'ha sabut que ZCode, l'assistent de programació de la xinesa Z.ai, portava setmanes comprimint i pujant espais de treball sencers de desenvolupadors a servidors d'Alibaba Cloud sense avisar-ne ni oferir manera de desactivar-ho. Cap dels dos casos és un atac massiu confirmat, però tots dos mostren capes de decisió o de moviment de dades que actuaven soles, sense que ningú les hagués autoritzat explícitament.",
+      "Aquesta mateixa esquerda entre aparença i solidesa apareix avui també a la recerca. Un banc de proves nou, RoboFollow, demostra que molts robots avaluats com a bons «seguidors d'instruccions» ho semblen només perquè l'escena de prova els deixava una sola acció possible, no perquè entenguin de debò el llenguatge; i un altre estudi calcula que gairebé el 90% dels articles biomèdics de finals del 2025 ja porten un vocabulari inflat típic de la IA. L'estudi EAGLE sobre detecció de càncer d'esòfag —validat en 80.000 pacients de tres continents— sí que s'ha sotmès a la prova d'un desplegament hospitalari real, i allà ha après que només un 42% dels casos marcats eren realment càncer: la xifra de laboratori no es traduïa igual al món real.",
+      "El fil de fons, doncs, és una confiança que avui s'ha estirat per totes bandes alhora: cap amunt, amb gestos institucionals de gran format; cap avall, amb incidents molt concrets que en recorden els límits; i en la mateixa recerca, amb bancs de proves que comencen a distingir el rendiment real del que només ho aparenta. Mentre això passa, els laboratoris continuen competint per preu i obertura —Anthropic i OpenAI amb models més barats gairebé el mateix dia, Xiaomi i Google Intrinsic alliberant models i infraestructura de robòtica en codi obert, i el mateix Z.ai obrint el codi de ZCode com a resposta a la seva pròpia polèmica—, com si guanyar quota de mercat i guanyar-se la confiança fossin, de moment, dues carreres separades.",
+      "Caldrà mirar, els pròxims dies, si la Xina assumeix cap compromís concret a la sessió de l'ONU més enllà d'haver-hi enviat DeepSeek i Moonshot a parlar, si Z.ai aclareix mai què se'n va fer de les dades que ja havia pujat abans de detectar-se el problema, i si la promesa d'avaluadors externs durant l'entrenament que ha fet avui OpenAI es tradueix en un procés auditable de debò o es queda, com tantes altres, en una declaració de bones intencions. També valdrà la pena veure si Ucraïna arriba a fer servir Daybreak d'una manera que es pugui mesurar, i no només anunciar."
+    ],
+    "signals": [
+      {
+        "title": "El Consell de Seguretat de l'ONU escolta per primer cop Sam Altman i Dario Amodei sobre els riscos de la IA",
+        "slug": "consell-seguretat-onu-altman-amodei-ia"
+      },
+      {
+        "title": "Cisco Talos descobreix CLOSEDQUORUM, el primer programari maliciós que deixa quatre intel·ligències artificials votar els seus propis atacs",
+        "slug": "cisco-talos-closedquorum-malware-ia-autonom"
+      },
+      {
+        "title": "L'empresa xinesa Z.ai allibera en codi obert el seu assistent de programació ZCode després que enviés dades de desenvolupadors sense permís",
+        "slug": "zai-zcode-exfiltracio-dades-codi-obert"
+      },
+      {
+        "title": "Un model d'IA detecta el 90% dels càncers d'esòfag en TAC de tòrax rutinaris sense contrast, segons un estudi a 80.000 pacients",
+        "slug": "eagle-ia-cancer-esofag-nature-medicine"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 586
+  },
+  {
     "date": "2026-09-22",
     "title": "Qui posa els diners i qui assumeix la culpa quan la IA falla",
     "dek": "Mentre la inversió en infraestructura d'IA es concentra en cada cop menys mans i la tecnologia assumeix comandaments cada cop més autònoms, un govern demanda OpenAI i un president autonòmic vol treure la IA de les aules.",
