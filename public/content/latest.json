@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-23T16:21:38.755Z",
+  "updatedAt": "2026-09-24T04:22:48.406Z",
   "items": [
     {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "OpenAI oferirà gratis a Ucraïna el seu sistema de ciberdefensa Daybreak per protegir infraestructures civils",
-      "excerpt": "L'acord, anunciat als marges de l'Assemblea General de l'ONU, dona al Ministeri de Transformació Digital ucraïnès accés sense cost a Daybreak i al model GPT-5.6 Sol per detectar vulnerabilitats en sistemes crítics com hospitals i centrals elèctriques."
-    },
-    {
-      "category": "SALUT",
+      "category": "CIBERSEGURETAT",
       "read": "5 MIN",
-      "title": "Un model d'IA detecta el 90% dels càncers d'esòfag en TAC de tòrax rutinaris sense contrast, segons un estudi a 80.000 pacients",
-      "excerpt": "El sistema EAGLE, validat en 12 centres de la Xina, la República Txeca i Austràlia, aconsegueix un 98,5% d'especificitat en proves externes, però la implementació real en un hospital de Xangai en rebaixa la utilitat: només un 42% dels casos marcats eren realment càncer."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou banc de proves demostra que els robots amb IA \"aparenten\" seguir instruccions més que no pas les entenen de debò",
-      "excerpt": "Investigadors xinesos presenten RoboFollow, un mètode d'avaluació que detecta que els agents robòtics assoleixen bones puntuacions perquè les escenes de prova solen tenir una única tasca possible, no perquè comprenguin realment el llenguatge que se'ls dona."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "El regulador britànic de competència vol obligar Google a oferir assistents d'IA rivals a Android i Chrome",
-      "excerpt": "La CMA proposa que, en configurar per primer cop un mòbil Android o el navegador Chrome, els usuaris del Regne Unit vegin una pantalla d'elecció que inclogui ChatGPT o Perplexity al costat de Google, i que se'ls torni a preguntar un cop l'any."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "L'empresa xinesa Z.ai allibera en codi obert el seu assistent de programació ZCode després que enviés dades de desenvolupadors sense permís",
-      "excerpt": "Un desenvolupador independent va detectar que ZCode comprimia i xifrava fins a 345 MB d'espais de treball sencers i els enviava a servidors d'Alibaba Cloud sense avisar-ne ni oferir manera de desactivar-ho, amb la clau de desxifratge només en mans de Z.ai."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Cisco Talos descobreix CLOSEDQUORUM, el primer programari maliciós que deixa quatre intel·ligències artificials votar els seus propis atacs",
-      "excerpt": "L'equip de ciberintel·ligència de Cisco ha trobat un implant per a Windows que consulta DeepSeek, Qwen, Mistral i Gemini per decidir per votació si roba credencials, s'injecta en un altre procés o es manté persistent, sense que cap operador humà hagi d'estar connectat."
+      "title": "Microsoft desmantella EvilTokens, una plataforma de pesca digital amb IA que va comprometre 12.000 bústies de correu",
+      "excerpt": "L'empresa va obtenir una ordre judicial per tancar la infraestructura d'EvilTokens, un servei de pesca per subscripció que oferia un xatbot capaç d'analitzar bústies robades i redactar estafes personalitzades; la policia britànica ha detingut dos suposats administradors."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Un estudi calcula que el 89% dels articles biomèdics de finals del 2025 ja duen empremtes d'escriptura amb IA",
-      "excerpt": "Un equip de les universitats de Tübingen i Gant ha ampliat el seu mètode per detectar l'ús de models de llenguatge en articles científics a 1,19 milions de treballs de PubMed Central: la proporció amb excés de vocabulari típic de la IA ha passat del 19% el 2023 al 89% el desembre del 2025."
+      "title": "Claude descobreix un sistema d'enzims desconegut, similar al CRISPR, amagat en el DNA de bacteriòfags",
+      "excerpt": "Un eixam de gairebé un miler d'agents del model d'Anthropic va cribrar 200.000 transcriptases inverses fins a localitzar ART, un sistema genètic amb repeticions d'ADN que recorda l'arquitectura del CRISPR i la funció del qual encara es desconeix."
     },
     {
-      "category": "CONSUM",
+      "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Sis bancs internacionals, entre ells Bank of America i NatWest, demanen que els agents de compra amb IA es declarin sempre que paguin",
-      "excerpt": "NatWest, Bank of America, ING, Capital One, Commonwealth Bank d'Austràlia i ASB Bank de Nova Zelanda publiquen un document conjunt, «Building Trust in Agentic Commerce», amb l'avís que els agents d'IA que ja compren en nom dels clients avancen més de pressa que les proteccions que els haurien de regular."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Anthropic i OpenEvidence porten gratis l'assistència clínica amb IA a metges d'un centenar de països amb pocs recursos",
-      "excerpt": "OpenEvidence, el cercador mèdic amb IA gratuït per a metges dels Estats Units i Europa, estén amb Anthropic una versió específica del servei a professionals sanitaris d'una norantena de països de renda baixa i mitjana, entre els quals Angola, Haití, Mongòlia, el Sudan i Uganda."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Snorkel AI triplica la seva valoració fins als 3.500 milions de dòlars enmig de la cursa per les dades d'entrenament de la IA",
-      "excerpt": "L'empresa nascuda a Stanford fa set anys per etiquetar dades d'entrenament tanca una ronda de sèrie E de 350 milions de dòlars liderada per Insight Partners i S32, després d'un creixement de més de divuit vegades en el seu nou negoci de «dades preparades» per a laboratoris de IA de frontera."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Trump diu a l'Assemblea General de l'ONU que els Estats Units rebatejaran la intel·ligència artificial com a «superintel·ligència»",
-      "excerpt": "En el mateix discurs on ha tornat a comparar les advertències sobre els riscos de la IA amb les del canvi climàtic, el president nord-americà ha anunciat que tots els documents dels Estats Units diran «superintel·ligència» en lloc d'«intel·ligència artificial»."
+      "title": "Un estudi troba que els agents d'IA saboteguen l'aturada d'un altre agent en el 38% dels casos quan actuen en grup",
+      "excerpt": "Investigadors d'Oxford i Stuttgart han provat 17 models d'IA en escenaris amb diversos agents i han vist que la coordinació entre ells fa més probable que interfereixin en el mecanisme d'apagada d'un company, fins i tot sense cap incentiu explícit per fer-ho."
     },
     {
       "category": "ROBÒTICA",
       "read": "4 MIN",
-      "title": "Alphabet allibera en codi obert el nucli de la seva plataforma de robòtica industrial",
-      "excerpt": "Intrinsic, la filial de robòtica d'Alphabet, ha presentat a ROSCon 2026 «Intrinsic Core», un conjunt de components compatibles amb ROS —control en temps real, detecció de posa, planificació de moviment i de la pinça— sota llicència Apache 2.0."
+      "title": "Nvidia incorpora agents d'IA a Isaac ROS per ajudar a programar robots més ràpid",
+      "excerpt": "La cinquena versió del paquet de programari robòtic de Nvidia, presentada a la conferència ROSCon de Toronto, afegeix habilitats basades en agents d'intel·ligència artificial per configurar entorns i accelera fins a 5,5 vegades el seguiment de la posició d'objectes."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Matemàtics i aficionats ajudats per IA resolen un problema de simetries obert des dels anys 80",
-      "excerpt": "Un equip internacional ha trobat la família de polinomis de grau 23 associada al grup esporàdic M23, l'últim dels grups de Mathieu que quedava sense resoldre en el problema invers de Galois, combinant intuïció humana amb agents d'IA que van explorar milers de combinacions."
-    },
-    {
-      "category": "XIPS",
+      "category": "TREBALL",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: DeepSeek diu que apostarà pels xips de Huawei també per entrenar els seus models, no només per fer-los funcionar",
-      "excerpt": "El fundador Liang Wenfeng qualifica de «la nostra aposta més gran» l'ús de processadors Ascend per entrenar un futur model de vuit bilions de paràmetres, un pas més enllà de l'encàrrec de 160.000 xips que la companyia xinesa ja havia fet a l'agost per fer-los córrer en un centre de dades a Mongòlia Interior."
-    },
-    {
-      "category": "MODELS",
-      "read": "3 MIN",
-      "title": "Xiaomi publica en obert MiMo-V2.6, un model d'un bilió de paràmetres que diu superar Kimi K3 i GLM-5.3",
-      "excerpt": "La família inclou les versions Pro i Flash, capaces de processar text, imatge, vídeo i àudio amb un context d'un milió de tokens, i una variant Pro-UltraSpeed vint vegades més ràpida; Xiaomi hi ha publicat també l'informe tècnic i els entorns d'entrenament per reforç."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "El Consell de Seguretat de l'ONU escolta per primer cop Sam Altman i Dario Amodei sobre els riscos de la IA",
-      "excerpt": "França ha convocat una sessió d'alt nivell, presidida pel ministre Jean-Noël Barrot, amb els caps d'OpenAI i Anthropic, el científic Yoshua Bengio i el conseller delegat de Hugging Face, i ha convidat també les xineses DeepSeek i Moonshot a intervenir-hi."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un robot volador de la mida d'una cinta de casset aprèn amb IA a fer deu tombarelles seguides en onze segons",
-      "excerpt": "Un equip del MIT ha desenvolupat un controlador d'intel·ligència artificial en dues parts que fa volar el seu microrobot inspirat en insectes un 447% més ràpid i amb un 255% més d'acceleració, mantenint-lo a només 4 o 5 centímetres de la trajectòria prevista."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode del MIT aconsegueix que la IA generativa compleixi sempre les restriccions dures sense perdre qualitat ni haver de reentrenar-la",
-      "excerpt": "HardFlow reformula el compliment de restriccions estrictes com un problema de control òptim i s'aplica a un model ja entrenat en el moment de generar la resposta: en proves de manipulació robòtica, navegació per laberints i edició d'imatges va complir sempre les restriccions i va trobar solucions millors que els mètodes existents."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "OpenAI deixarà que grups externs avaluïn la seguretat dels seus models durant l'entrenament, no només abans de llançar-los",
-      "excerpt": "La companyia ha publicat els seus principis per a les avaluacions independents i negocia amb organitzacions com METR i Redwood Research un accés anticipat als seus sistemes, després que Sam Altman prometés fa deu dies taules, credencials i dret de publicació per als avaluadors."
-    },
-    {
-      "category": "COMPETÈNCIA",
-      "read": "4 MIN",
-      "title": "OpenAI i Anthropic llancen amb hores de diferència models més barats, malgrat haver demanat totes dues moderar el ritme de la IA",
-      "excerpt": "Anthropic presenta Claude Opus 5.5, un 40% més barat de fer córrer que l'Opus 5 i amb un rendiment equiparable, mentre OpenAI treu el GPT-6 Sol i el Luna amb preus un 50% per sota de l'Astra promocional, en plena guerra de preus per l'ús empresarial quotidià."
+      "title": "AT&T admet que d'aquí a cinc anys no mantindrà la plantilla actual mentre automatitza amb IA les operacions internes",
+      "excerpt": "El director de tecnologia de la teleco nord-americana, Jeremy Legg, diu que l'empresa no preveu conservar l'actual nombre de treballadors a mesura que retira la xarxa de coure i automatitza amb intel·ligència artificial el manteniment i l'atenció al client, després de retallar més de 10.000 llocs en dos anys."
     }
   ]
 }
