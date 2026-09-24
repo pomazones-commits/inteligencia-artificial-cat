@@ -18,7 +18,11 @@ const ASSIGNMENTS = {
   // tenia: cada peça nova sobreescrivia l'anterior i la vella desapareixia del
   // web (només en quedava una còpia a .content-state/backups/, que no és
   // pública). Els enllaços a una anàlisi moririen al cap de pocs dies.
-  analysisArchive: { variable: 'IA_ANALISIS_ARXIU', file: 'analysis-arxiu.js' }
+  analysisArchive: { variable: 'IA_ANALISIS_ARXIU', file: 'analysis-arxiu.js' },
+  // Arxiu del Quadern IA (24.09.2026). Mateix problema que tenia l'anàlisi: cada
+  // divendres el quadern nou sobreescrivia l'anterior i el vell desapareixia del
+  // web. L'arxiu es va sembrar amb les còpies de .content-state/backups/.
+  reflectionArchive: { variable: 'IA_QUADERN_ARXIU', file: 'quadern-arxiu.js' }
 };
 
 // L'encàrrec demana 5-6 paràgrafs. Els límits durs són més amplis a posta: una
@@ -31,6 +35,9 @@ const REFLEXIO_ARXIU_MAX = 90;
 // sota de l'arxiu de reflexions a posta, perquè cada anàlisi pesa molt més i
 // arxiu-analisis.html les carrega totes de cop.
 const ANALISI_ARXIU_MAX = 52;
+// El Quadern també és setmanal, però és un text de fons que no caduca: se'n
+// guarden dos anys.
+const QUADERN_ARXIU_MAX = 104;
 
 const REQUIRED_NEWS_FIELDS = [
   'category', 'read', 'slug', 'title', 'excerpt',
@@ -586,28 +593,29 @@ async function ingestEditorial(options) {
   }
   const output = join(publicDir, ASSIGNMENTS[type].file);
   await backupFile(output, join(stateDir, 'backups'), editionDate());
-  // L'anàlisi vigent passa a l'arxiu ABANS de ser substituïda.
-  const archiveSize = type === 'analysis' ? await arxivaAnalisi(publicDir, payload) : null;
+  // L'anàlisi i el quadern vigents passen a l'arxiu ABANS de ser substituïts.
+  const archiveSize = await arxivaPeca(publicDir, payload, type);
   await atomicWrite(output, serializeAssignment(ASSIGNMENTS[type].variable, payload));
   process.stdout.write(`${type} validat i publicat${archiveSize === null ? '' : `; ${archiveSize} a l'arxiu`}.\n`);
 }
 
-// Rotació de l'anàlisi cap a analysis-arxiu.js. La clau és data+títol i no
-// només la data: una anàlisi corregida el mateix dia (o un «Run workflow» a mà,
-// que reingereix sempre) no ha de duplicar-se ni quedar alhora vigent i
-// arxivada.
-async function arxivaAnalisi(publicDir, payload) {
+// Rotació de l'anàlisi (analysis-arxiu.js) i del Quadern IA (quadern-arxiu.js).
+// La clau és data+títol i no només la data: una peça corregida el mateix dia (o
+// un «Run workflow» a mà, que reingereix sempre) no ha de duplicar-se ni quedar
+// alhora vigent i arxivada.
+async function arxivaPeca(publicDir, payload, type) {
+  const arxiu = type === 'analysis' ? ASSIGNMENTS.analysisArchive : ASSIGNMENTS.reflectionArchive;
+  const maxim = type === 'analysis' ? ANALISI_ARXIU_MAX : QUADERN_ARXIU_MAX;
   const clau = item => `${normalizeText(item?.date)}|${normalizeText(item?.title)}`;
-  const current = await readAssignment(join(publicDir, ASSIGNMENTS.analysis.file), '{', '}', null);
-  const stored = await readAssignment(join(publicDir, ASSIGNMENTS.analysisArchive.file), '[', ']', []);
+  const current = await readAssignment(join(publicDir, ASSIGNMENTS[type].file), '{', '}', null);
+  const stored = await readAssignment(join(publicDir, arxiu.file), '[', ']', []);
   let archive = (Array.isArray(stored) ? stored : []).filter(item => item && normalizeText(item.title));
   archive = archive.filter(item => clau(item) !== clau(payload));
   if (current && normalizeText(current.title) && clau(current) !== clau(payload)) {
     archive = [current, ...archive.filter(item => clau(item) !== clau(current))];
   }
-  archive = archive.slice(0, ANALISI_ARXIU_MAX);
-  await atomicWrite(join(publicDir, ASSIGNMENTS.analysisArchive.file),
-    serializeAssignment(ASSIGNMENTS.analysisArchive.variable, archive));
+  archive = archive.slice(0, maxim);
+  await atomicWrite(join(publicDir, arxiu.file), serializeAssignment(arxiu.variable, archive));
   return archive.length;
 }
 
