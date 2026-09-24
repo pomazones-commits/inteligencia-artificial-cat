@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-09-24",
-  "updatedAt": "2026-09-24T12:19:33.904Z",
-  "batches": 4,
+  "updatedAt": "2026-09-24T16:22:45.232Z",
+  "batches": 5,
   "target": 20,
   "items": [
+    {
+      "category": "TECNOLOGIA",
+      "read": "5 MIN",
+      "slug": "amazon-obre-venedors-agents-ia-claude",
+      "title": "Amazon obre les eines dels seus venedors a agents d'IA externs, començant per Claude",
+      "excerpt": "La companyia permet per primer cop que assistents d'altres empreses, com Claude d'Anthropic, gestionin preus, inventari i anuncis dins d'Amazon sense passar pel tauler de Seller Central.",
+      "sourceName": "About Amazon",
+      "sourceUrl": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude",
+      "sourceDate": "23 de setembre de 2026",
+      "body": "Fins ara, els milions de venedors externs que operen a Amazon només podien automatitzar la gestió del seu negoci a través del Seller Assistant intern de la companyia o d'eines pròpies connectades per una API tancada. Amazon presenta ara una via perquè agents d'intel·ligència artificial d'altres empreses hi treballin directament, sense que el venedor hagi d'obrir el tauler de control de Seller Central.\n\nA la conferència Amazon Accelerate del 23 de setembre, la companyia va anunciar un connector en fase beta, disponible per ara només als Estats Units, que permet consultar l'inventari, ajustar preus, actualitzar fitxes de producte i revisar l'analítica de vendes des de Claude, l'assistent d'Anthropic integrat a través d'Amazon Bedrock, o des de Quick, l'assistent propi d'Amazon. El Seller Assistant intern també incorpora nous fluxos de vigilància contínua del negoci i un «canvas», un espai visual generat a partir de les dades en temps real del venedor per comparar estratègies de preu o diagnosticar campanyes publicitàries. Amazon regala, a més, un any d'accés a Quick Plus als titulars de compte fins al 31 de desembre de 2026.\n\nEl moviment confirma que els grans operadors de comerç electrònic comencen a obrir les seves plataformes internes a agents d'IA de tercers en lloc de limitar-los a assistents propis, en la línia del que ja fan bancs i aerolínies amb agents de compra automatitzats. Per a Anthropic suposa un altre client de pes que fa servir Claude per a tasques empresarials concretes, més enllà de la conversa genèrica.\n\nAmazon manté tancat, de moment, el costat de la botiga: els agents de compra de tercers no poden interactuar amb el catàleg que veuen els clients, només amb les eines de gestió dels venedors. L'accés és encara limitat als Estats Units i a un grup beta, i la companyia no ha precisat quan arribarà a altres mercats ni quantes empreses hi participen inicialment.",
+      "image": "./assets/amazon-obre-venedors-agents-ia-claude-20260924.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "cervell-consens-arees-visuals-ia",
+      "title": "Un estudi descobreix com el cervell posa d'acord dues àrees visuals que es contradiuen, amb l'ajuda d'un model d'IA",
+      "excerpt": "Investigadors del Cold Spring Harbor Laboratory mostren que les connexions entre dues regions del còrtex visual fan «consens»: els senyals que coincideixen es mantenen i els que discrepen s'esvaeixen en una fracció de segon.",
+      "sourceName": "Cold Spring Harbor Laboratory",
+      "sourceUrl": "https://www.cshl.edu/when-the-eyes-play-tricks-the-brain-builds-consensus/",
+      "sourceDate": "18 de setembre de 2026",
+      "body": "El cervell no processa una imatge en un únic lloc: la informació visual passa per diverses àrees especialitzades del còrtex que, sovint, arriben a interpretacions lleugerament diferents del mateix estímul. Com es resol aquest desacord perquè en surti una única percepció coherent és una pregunta oberta en neurociència.\n\nMitra Javadzadeh, investigadora del Cold Spring Harbor Laboratory (CSHL), amb col·legues de la Universitat de Cambridge i l'University College de Londres, va ensenyar a set ratolins a distingir dos patrons visuals inclinats en sentits oposats. Mentre feien la tasca, els investigadors van silenciar selectivament el còrtex visual primari (V1) o l'àrea visual lateromedial (LM) per veure com funcionava cada regió sense la seva parella, i van registrar l'activitat de 194 neurones de V1 i 228 de LM. Amb aquestes dades van construir un model de xarxa neuronal artificial del circuit V1-LM per simular què passava quan es manipulaven neurones concretes. L'estudi es va publicar el 18 de setembre a la revista Nature Neuroscience.\n\nEl resultat: quan els senyals de les dues àrees coincidien, el patró compartit es mantenia actiu; quan es contradeien, el desacord s'esvaïa en una fracció de segon. «Aquest tipus de connexions entre àrees implementen un mecanisme que anomenem construcció de consens», explica Javadzadeh. La troballa suggereix que el cervell no imposa una jerarquia fixa entre regions, sinó que negocia contínuament entre elles fins a quedar-se amb la interpretació més consistent.\n\nL'estudi es basa en ratolins entrenats en una tasca molt concreta de discriminació d'orientacions, i encara s'ha de comprovar si el mateix mecanisme de consens opera en tasques visuals més complexes o en altres espècies, inclosos els humans. Els autors apunten que entendre com el cervell concilia senyals contradictoris podria inspirar, a llarg termini, maneres perquè els sistemes d'IA facin el mateix amb fonts d'informació discrepants, però es tracta d'una hipòtesi de futur, no d'un resultat d'aquest treball.",
+      "image": "./assets/cervell-consens-arees-visuals-ia-20260924.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "neurones-vives-ia-video-mes-barata",
+      "title": "Una empresa tradueix el comportament de neurones vives en cultiu a codi i fa un model d'IA de vídeo cinc vegades més ràpid",
+      "excerpt": "The Biological Computing Co. s'alia amb AWS per vendre una capa de programari derivada de mesures de neurones biològiques que redueix un 80% el cost d'un model de generació de vídeo sense perdre qualitat.",
+      "sourceName": "AWS (About Amazon)",
+      "sourceUrl": "https://press.aboutamazon.com/aws/2026/9/the-biological-computing-co-partners-with-aws-to-bring-worlds-first-neuron-derived-ai-video-model-to-market",
+      "sourceDate": "22 de setembre de 2026",
+      "body": "Els models de generació de vídeo amb IA són cars i lents d'executar: cada segon de vídeo requereix moltes passades de càlcul per un model amb milers de milions de paràmetres. Diversos grups de recerca exploren des de fa anys si la manera com processen la informació els sistemes biològics pot inspirar dreceres per fer més eficients els sistemes artificials.\n\nThe Biological Computing Co. (TBC), una empresa que porta anys cultivant neurones humanes en plaques de laboratori, estimulant-les i enregistrant com responen, ha anunciat una aliança amb AWS per portar al mercat el que diu que és el primer model de vídeo amb IA derivat d'aquest treball. La companyia tradueix els patrons de resposta de les neurones vives a estructures matemàtiques que després aplica com una capa de programari lleugera —representa menys del 0,1% del model base— sobre un model convencional de text a vídeo de codi obert. Segons TBC, aquesta capa redueix un 80% el cost d'inferència, multiplica per cinc la velocitat de generació i millora la qualitat respecte al model original, sense necessitat de maquinari biològic ni de canviar el flux de treball del client. El model funcionarà sobre els xips Trainium d'Amazon, estarà disponible a Amazon SageMaker AI i es podrà comprar a l'AWS Marketplace.\n\nLa proposta és rellevant perquè no es limita a fer servir xarxes neuronals artificials «inspirades» vagament en el cervell, sinó que parteix de mesures reals de teixit neuronal viu per obtenir una millora d'eficiència computacional mesurable i verificable en un producte comercial. S'emmarca en un interès creixent, encara minoritari, per la computació biohíbrida com a font de idees per a la IA convencional.\n\nLes xifres de millora —80% i cinc vegades— són les que dona la mateixa empresa i encara no han estat validades de manera independent ni publicades en una revista revisada per experts. Tampoc es coneix el detall tècnic complet del mètode de traducció de senyals biològics a paràmetres del model, que TBC considera propietat intel·lectual pròpia.",
+      "image": "./assets/neurones-vives-ia-video-mes-barata-20260924.jpg"
+    },
+    {
+      "category": "INVERSIÓ",
+      "read": "3 MIN",
+      "slug": "basecamp-research-140-milions-eden",
+      "title": "Basecamp Research aixeca 140 milions de dòlars per als seus models d'IA biològica, amb Anthropic i Nvidia com a inversors",
+      "excerpt": "La startup britànica destinarà la ronda a entrenar una nova generació del seu model EDEN i a avançar teràpies cel·lulars dissenyades amb IA per reprogramar cèl·lules dins del cos del pacient.",
+      "sourceName": "SiliconANGLE",
+      "sourceUrl": "https://siliconangle.com/2026/09/23/ai-drug-discovery-startup-basecamp-research-raises-140m/",
+      "sourceDate": "23 de setembre de 2026",
+      "body": "Entrenar models d'IA capaços de dissenyar teràpies biològiques noves exigeix conjunts de dades genòmiques i evolutives molt més amplis que els que fan servir els grans models de llenguatge generalistes, i aconseguir-los és un dels colls d'ampolla del sector de la biotecnologia amb IA.\n\nBasecamp Research, una startup britànica, ha tancat una ronda sèrie C de 140 milions de dòlars, sobresubscrita, liderada per S32 i amb participació del fons d'inversió NATO Innovation Fund, Nvidia i l'Anthology Fund d'Anthropic, entre d'altres. Els diners es destinaran a entrenar una nova generació del model EDEN de l'empresa —entrenat, segons Basecamp, amb el conjunt de dades evolutives més gran i divers que existeix— i a avançar un catàleg de teràpies cel·lulars in vivo dissenyades amb IA, pensades per reprogramar cèl·lules dins del mateix cos del pacient en lloc de fabricar-les en laboratori. La ronda eleva a 225 milions de dòlars el capital total recaptat per l'empresa.\n\nLa inversió és rellevant perquè situa Anthropic, a través del seu fons Anthology, com a inversor directe en una companyia de disseny de teràpies amb IA, un àmbit allunyat del seu negoci principal de models de llenguatge, i confirma l'interès de Nvidia per la infraestructura de computació que exigeix aquest tipus de recerca.\n\nLes teràpies cel·lulars in vivo que promet Basecamp encara són a fase de disseny i desenvolupament preclínic: la notícia és sobre finançament i estratègia empresarial, no sobre un resultat clínic o assaig ja completat, i l'empresa no ha donat un calendari per a les primeres proves en humans.",
+      "image": "./assets/basecamp-research-140-milions-eden-20260924.jpg"
+    },
+    {
+      "category": "ROBÒTICA",
+      "read": "3 MIN",
+      "slug": "pitpro-robot-canviarodes-calgary",
+      "title": "Un robot canvia les quatre rodes d'un cotxe en menys de quinze minuts en un taller de Calgary",
+      "excerpt": "La startup PitPro Automation posa en marxa el seu primer sistema comercial a un taller de Kal Tire, a l'Alberta, per fer front a la manca de mecànics durant la temporada de canvi de pneumàtics d'hivern.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/23/pitpros-first-tire-changing-robot-goes-live-in-canada/",
+      "sourceDate": "23 de setembre de 2026",
+      "body": "La indústria del pneumàtic a Amèrica del Nord arrossega una manca crònica de mecànics, agreujada perquè feines properes i menys dures físicament, com la restauració, competeixen pel mateix personal. PitPro Automation, una startup de San Francisco fundada per Jeremy Conrad, hi porta una resposta robòtica.\n\nEl seu sistema, format per dues unitats de la mida d'un forn equipades amb sensors i braços robòtics, localitza i afluixa automàticament els cargols de les llandes, els guarda, treu les rodes i en munta de noves o rotades, tot en menys de quinze minuts per a un cotxe sencer. El primer desplegament comercial s'ha fet aquest setembre en un establiment de Kal Tire, una de les grans cadenes independents de pneumàtics del Canadà, a Calgary (Alberta). El sistema s'integra a les rampes de manteniment existents sense obres, de manera que els mecànics poden fer servir el mateix espai per a altres feines mentre el robot treballa.\n\nConrad, que compta amb l'exdirectiu de Ford Pro Ted Cannis com a assessor, explica la pressió laboral del sector amb un exemple: «un gerent de taller m'explicava que havia de demanar permís especial per pujar sous perquè un Panda Express va obrir al davant» i es va endur mitja plantilla. L'empresa ha triat centrar-se en cadenes de pneumàtics, amb rampes estandarditzades que faciliten desplegar el mateix robot a molts establiments, i aprofita la demanda estacional del Canadà pel canvi obligatori a pneumàtics d'hivern.\n\nEl robot ha hagut de resoldre problemes d'enginyeria poc habituals per a un sistema d'interior, com la pols, la brutícia i fins i tot llavors de dent de lleó que interferien amb els sensors quan les portes del taller quedaven obertes. És, de moment, un únic desplegament comercial; encara s'ha de veure com es comporta el sistema a gran escala i en un ventall més ampli de vehicles i condicions.",
+      "image": "./assets/pitpro-robot-canviarodes-calgary-20260924.jpg"
+    },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
