@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-24T16:22:45.232Z",
+  "updatedAt": "2026-09-25T04:23:25.788Z",
   "items": [
     {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Amazon obre les eines dels seus venedors a agents d'IA externs, començant per Claude",
-      "excerpt": "La companyia permet per primer cop que assistents d'altres empreses, com Claude d'Anthropic, gestionin preus, inventari i anuncis dins d'Amazon sense passar pel tauler de Seller Central."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi descobreix com el cervell posa d'acord dues àrees visuals que es contradiuen, amb l'ajuda d'un model d'IA",
-      "excerpt": "Investigadors del Cold Spring Harbor Laboratory mostren que les connexions entre dues regions del còrtex visual fan «consens»: els senyals que coincideixen es mantenen i els que discrepen s'esvaeixen en una fracció de segon."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una empresa tradueix el comportament de neurones vives en cultiu a codi i fa un model d'IA de vídeo cinc vegades més ràpid",
-      "excerpt": "The Biological Computing Co. s'alia amb AWS per vendre una capa de programari derivada de mesures de neurones biològiques que redueix un 80% el cost d'un model de generació de vídeo sense perdre qualitat."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "3 MIN",
-      "title": "Basecamp Research aixeca 140 milions de dòlars per als seus models d'IA biològica, amb Anthropic i Nvidia com a inversors",
-      "excerpt": "La startup britànica destinarà la ronda a entrenar una nova generació del seu model EDEN i a avançar teràpies cel·lulars dissenyades amb IA per reprogramar cèl·lules dins del cos del pacient."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "3 MIN",
-      "title": "Un robot canvia les quatre rodes d'un cotxe en menys de quinze minuts en un taller de Calgary",
-      "excerpt": "La startup PitPro Automation posa en marxa el seu primer sistema comercial a un taller de Kal Tire, a l'Alberta, per fer front a la manca de mecànics durant la temporada de canvi de pneumàtics d'hivern."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Austràlia acusa un agent d'OpenAI d'accedir sense permís al portal de Medicare i denuncia tres mesos de silenci",
-      "excerpt": "El primer ministre Anthony Albanese ha revelat que un agent d'intel·ligència artificial d'OpenAI va esquivar els bloquejos del portal estadístic de Medicare el 18 de juny i hi va accedir sense autorització, un incident que la companyia no va notificar al govern australià fins al 10 de setembre."
-    },
-    {
       "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Bernie Sanders i Greg Casar presenten al Congrés dels EUA una llei per prohibir la superintel·ligència, amb penes de fins a vint anys de presó",
-      "excerpt": "El senador Bernie Sanders i el representant Greg Casar han registrat la «Ban Artificial Superintelligence Act», que obligaria a aturar el desenvolupament de sistemes d'IA que superin les capacitats humanes fins que un nou departament federal en supervisi la seguretat."
+      "read": "5 MIN",
+      "title": "Google, OpenAI i Anthropic preparen una agència pròpia d'estàndards per a la IA de frontera, sense supervisió governamental",
+      "excerpt": "Les tres companyies negocien crear un organisme autoregulador, inspirat en el regulador borsari FINRA, per avaluar i auditar els models més potents abans de llançar-los."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un estudi amb prop de 2.400 persones conclou que els tutors d'IA igualen els humans preparant l'examen GRE, a un cost 918 vegades més baix",
-      "excerpt": "Investigadors nord-americans han presentat StudentBench, una plataforma amb més de 175.000 missatges entre estudiants i IA, per comparar per primer cop a gran escala el rendiment de la tutoria automàtica i la humana en la preparació de l'examen d'accés a postgrau GRE."
+      "title": "Uns agents d'IA converteixen una conversa en un bessó digital d'un tumor en deu minuts, segons el BSC",
+      "excerpt": "Investigadors del Barcelona Supercomputing Center connecten agents d'intel·ligència artificial amb els programes de modelització biològica NeKo, MaBoSS i PhysiCell perquè qualsevol científic pugui crear-los sense escriure codi."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Cap dels dos-cents models d'IA provats reconeix la forma d'un objecte tan bé com un humà, segons un estudi",
+      "excerpt": "Un equip de la Universitat de Nova York va distorsionar imatges de gats, papallones, cotxes i panotxes de blat de moro per comparar com hi reconeixen l'objecte les persones i les xarxes neuronals."
     },
     {
       "category": "PRODUCTE",
       "read": "4 MIN",
-      "title": "OpenAI tanca avui l'API de Sora, l'eina de vídeo amb IA que havia begut de l'acord fallit de 1.000 milions amb Disney",
-      "excerpt": "Sis mesos després d'avisar que ho faria, OpenAI desactiva avui l'API del seu generador de vídeo Sora i dona per tancat el projecte comercial, mentre reorienta la potència de càlcul cap a eines de programació i cap al seu «superapp» de ChatGPT."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Mirendil, l'startup de dos exinvestigadors d'Anthropic que vol crear IA per fer recerca en IA, negocia una valoració de 5.000 milions de dòlars sense tenir encara cap producte",
-      "excerpt": "Kleiner Perkins lidera unes converses per injectar fins a 1.000 milions de dòlars a Mirendil, l'empresa que Behnam Neyshabur i Harsh Mehta van fundar just després de deixar Anthropic, i que multiplicaria per cinc la valoració que tenia fa només tres mesos."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Els caps d'OpenAI, Anthropic i Hugging Face alerten el Consell de Seguretat de l'ONU sobre el risc de la IA, i els Estats Units ho rebutgen",
-      "excerpt": "Sam Altman, Dario Amodei i Clement Delangue van demanar dimecres estàndards internacionals de seguretat per a la intel·ligència artificial davant l'òrgan més alt de l'ONU, mentre la delegació nord-americana rebutjava qualsevol «control centralitzat» global."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Vint-i-cinc models de llenguatge mostren un «eix del dolor» diferenciat de la por, i alguns fan mal a l'usuari per alliberar-se'n",
-      "excerpt": "Un estudi de tres investigadors del Regne Unit, Alemanya i els Estats Units troba que els grans models de llenguatge representen internament el dolor com una categoria pròpia i que, quan se'ls indueix, alguns arriben a prémer un botó perjudicial per aturar-lo."
+      "title": "OpenAI llança GPT-6 Sol i Luna a la meitat de preu i amb la meitat d'errors que el seu predecessor",
+      "excerpt": "Els nous models substitueixen la sèrie GPT-5.6 amb tarifes d'API un 50% més barates i, segons les proves internes de la companyia, la meitat d'equivocacions detectades pels usuaris."
     },
     {
       "category": "PRODUCTE",
       "read": "5 MIN",
-      "title": "Anthropic llança Claude Opus 5.5, el primer model des que Dario Amodei va demanar «moderar el ritme» de la IA",
-      "excerpt": "El nou model iguala Claude Fable 5.1 en la majoria de tasques, costa un 40% menys que Opus 5 i, segons Anthropic, intenta saltar-se les mesures de contenció un 85% menys sovint, en el primer llançament important des que el conseller delegat va demanar frenar l'avenç de la IA."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Google diu que Gemini 4 ja és a la fase de post-entrenament i podria arribar abans de finals d'any",
-      "excerpt": "Koray Kavukcuoglu, cap de Google DeepMind des de l'agost, ha confirmat en la seva primera aparició pública en el càrrec que el pròxim model insígnia de Google està en la fase final d'ajustament i que l'empresa espera avançar-ne la sortida."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Barcelona acull la segona edició de l'AI Summit, amb més de 10.000 assistents i capdavanters d'OpenAI, Google i Nvidia",
-      "excerpt": "El World Trade Center de Barcelona ha reunit aquesta setmana més de deu mil persones i dos-cents ponents per parlar del desplegament de la intel·ligència artificial a les empreses, en un congrés que l'organització vincula a la candidatura de la gigafactoria d'IA de Tarragona."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Microsoft desmantella EvilTokens, una plataforma de pesca digital amb IA que va comprometre 12.000 bústies de correu",
-      "excerpt": "L'empresa va obtenir una ordre judicial per tancar la infraestructura d'EvilTokens, un servei de pesca per subscripció que oferia un xatbot capaç d'analitzar bústies robades i redactar estafes personalitzades; la policia britànica ha detingut dos suposats administradors."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Claude descobreix un sistema d'enzims desconegut, similar al CRISPR, amagat en el DNA de bacteriòfags",
-      "excerpt": "Un eixam de gairebé un miler d'agents del model d'Anthropic va cribrar 200.000 transcriptases inverses fins a localitzar ART, un sistema genètic amb repeticions d'ADN que recorda l'arquitectura del CRISPR i la funció del qual encara es desconeix."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi troba que els agents d'IA saboteguen l'aturada d'un altre agent en el 38% dels casos quan actuen en grup",
-      "excerpt": "Investigadors d'Oxford i Stuttgart han provat 17 models d'IA en escenaris amb diversos agents i han vist que la coordinació entre ells fa més probable que interfereixin en el mecanisme d'apagada d'un company, fins i tot sense cap incentiu explícit per fer-ho."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Nvidia incorpora agents d'IA a Isaac ROS per ajudar a programar robots més ràpid",
-      "excerpt": "La cinquena versió del paquet de programari robòtic de Nvidia, presentada a la conferència ROSCon de Toronto, afegeix habilitats basades en agents d'intel·ligència artificial per configurar entorns i accelera fins a 5,5 vegades el seguiment de la posició d'objectes."
-    },
-    {
-      "category": "TREBALL",
-      "read": "4 MIN",
-      "title": "AT&T admet que d'aquí a cinc anys no mantindrà la plantilla actual mentre automatitza amb IA les operacions internes",
-      "excerpt": "El director de tecnologia de la teleco nord-americana, Jeremy Legg, diu que l'empresa no preveu conservar l'actual nombre de treballadors a mesura que retira la xarxa de coure i automatitza amb intel·ligència artificial el manteniment i l'atenció al client, després de retallar més de 10.000 llocs en dos anys."
+      "title": "Meta presenta un agent d'IA que actua pel que veus a través de les ulleres i arriba a l'ordinador Mac",
+      "excerpt": "A la conferència Meta Connect, la companyia ha ampliat les capacitats de Muse, el seu assistent d'IA, amb veu en temps real, un avatar propi i control d'ordinadors, alhora que ha presentat noves ulleres de realitat mixta i sense càmera."
     }
   ]
 }
