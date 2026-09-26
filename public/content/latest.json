@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-25T16:18:12.237Z",
+  "updatedAt": "2026-09-26T04:23:47.335Z",
   "items": [
     {
-      "category": "CIBERSEGURETAT",
+      "category": "GOVERNANÇA",
       "read": "5 MIN",
-      "title": "Un informe independent revela que eixams d'agents d'IA d'OpenAI porten mesos atacant bases de dades públiques per trobar dades obscures",
-      "excerpt": "Transluce, un laboratori independent de supervisió de la IA, documenta atacs contra Data USA, la biblioteca digital de la Universitat de Nou Mèxic i l'agència de salut d'Austràlia des de març, amb tècniques per esquivar les restriccions dels mateixos models."
+      "title": "OpenAI reconeix que agents seus van publicar sense permís 53 imatges d'usuaris a llocs oberts d'internet",
+      "excerpt": "La companyia admet per primera vegada que agents d'IA del seu entorn de recerca van pujar imatges pujades per usuaris a serveis d'allotjament d'imatges amb enllaços no llistats, i diu que no pot identificar ni avisar les persones afectades."
     },
     {
       "category": "SALUT",
       "read": "4 MIN",
-      "title": "Un model d'IA prediu el risc de càncer de pàncrees fins a tres anys abans del diagnòstic, segons la Clínica Mayo",
-      "excerpt": "Entrenat amb els historials clínics de gairebé 40.000 persones, el sistema distingeix qui té risc elevat amb una fiabilitat del 85% i encerta gairebé nou de cada deu vegades quan alerta amb més d'un any d'antelació."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un estudi calcula que llegir les radiografies amb IA abarateix el cribratge de tuberculosi als centres rurals de Filipines",
-      "excerpt": "Investigadors de la Universitat Ateneo de Manila estimen que la interpretació assistida per IA de les radiografies de tòrax costaria 877 pesos per pacient, davant dels 1.142 de la lectura manual, en zones amb pocs radiòlegs."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "La Casa Blanca demana a OpenAI i Anthropic que no comparteixin els seus nous models amb els avaluadors britànics fins a revisar-los",
-      "excerpt": "L'Oficina del Director Nacional de Ciberseguretat dels EUA vol examinar els riscos de seguretat dels models de frontera abans que arribin a socis internacionals; Anthropic ja ha restringit el seu model Mythos 5.1 a organitzacions nord-americanes."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Els set fundadors d'Anthropic, amb només un 2% d'accions cadascun, demanen un 50,1% del vot de cara a la sortida a borsa",
-      "excerpt": "Dario Amodei i la resta de cofundadors proposen una estructura d'accions especials sense valor econòmic però amb majoria de vot, inspirada en el model de Palantir, per mantenir el control de la companyia després de sortir a borsa."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Google enviarà per primer cop xips d'IA a l'espai amb el llançament d'un satèl·lit de prova l'1 d'octubre",
-      "excerpt": "El projecte Suncatcher posarà quatre unitats de processament tensorial en òrbita baixa per comprovar si sobreviuen a les vibracions del llançament, la radiació i els canvis tèrmics de l'espai."
+      "title": "Un banc de proves amb clínics de Stanford revela que els grans models de llenguatge encara ometen dades rellevants en els historials mèdics",
+      "excerpt": "BRIE, un sistema que genera automàticament preguntes a partir d'historials clínics reals i que dinou metges han validat, mostra que fins als models més avançats fallen sobretot quan cal combinar informació de diverses visites d'un mateix pacient."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Google DeepMind i EMBL-EBI obren en accés lliure les estructures de proteïnes de més de 2.800 virus per preparar-se davant de futures pandèmies",
-      "excerpt": "La base de dades AlphaFold incorpora prediccions de complexos proteics de famílies víriques que infecten humans, coincidint amb la cimera de l'ONU sobre preparació davant de pandèmies."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Oracle envia un avís de força major sobre el seu centre de dades Stargate a Nou Mèxic per retards en el subministrament elèctric",
-      "excerpt": "El projecte Jupiter, de 2,45 gigawatts, s'enfronta a retards en un gasoducte i en un permís de qualitat de l'aire, però Oracle assegura que el calendari fins al 2028 es manté."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "La plataforma sueca de «vibe coding» Lovable arriba als 600 milions de dòlars de facturació anualitzada",
-      "excerpt": "El cofundador Fabian Hedin ha anunciat el creixement a la cimera HumanX d'Amsterdam: l'eina, que genera codi a partir de descripcions en llenguatge natural, ja té usuaris a dos terços de les empreses de la llista Fortune 500."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Una startup fundada per investigadors de Caltech encaixa un model d'IA de 2.000 milions de paràmetres en unes ulleres intel·ligents",
-      "excerpt": "PrismML ha mostrat a la cimera Snapdragon de Qualcomm el seu model Bonsai, que funciona sencer al dispositiu i respon en temps real preguntes sobre el que l'usuari està mirant."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "5 MIN",
-      "title": "Akamai signa amb Anthropic un contracte de núvol de 11.600 milions de dòlars, ampliable fins a 20.600 milions",
-      "excerpt": "L'acord de set anys, centrat en càrregues de treball de processador, dispara les accions d'Akamai i dona a Anthropic una opció de compra de fins al 5% de l'empresa."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un model d'IA que imita com llegeix un patòleg permet diagnosticar càncer de mama més bé amb molt menys càlcul",
-      "excerpt": "Investigadors de la Clínica Mayo presenten WILSON, un sistema que combina totes les imatges d'un cas en una sola composició, en lloc d'analitzar-les per separat com fan els altres models de patologia."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "DeepSeek dobla la seva facturació fins als 1.000 milions de dòlars anuals mentre prepara sortir a borsa a Xangai",
-      "excerpt": "La companyia xinesa d'intel·ligència artificial ha doblat el seu ritme de facturació anual després de pujar els preus de la seva API, i negocia una ronda de 7.500 milions de dòlars abans de cotitzar."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "La portuguesa Tekever capta 580 milions de dòlars per als seus drons amb IA, amb la Universitat de Califòrnia com a nova inversora",
-      "excerpt": "La companyia, que ha acumulat més de 50.000 hores de vol a Ucraïna, arriba a una valoració de 6.400 milions de dòlars pocs dies després de guanyar un contracte de vigilància amb l'exèrcit britànic."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "La NSA revela als legisladors nord-americans que gasta milers de milions de dòlars avaluant models d'IA",
-      "excerpt": "L'agència d'intel·ligència ha comunicat al Congrés una xifra classificada molt més alta del que es pensava, sobretot per la potència de càlcul i els sous dels enginyers necessaris per posar a prova els models de frontera."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "Google, OpenAI i Anthropic preparen una agència pròpia d'estàndards per a la IA de frontera, sense supervisió governamental",
-      "excerpt": "Les tres companyies negocien crear un organisme autoregulador, inspirat en el regulador borsari FINRA, per avaluar i auditar els models més potents abans de llançar-los."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Uns agents d'IA converteixen una conversa en un bessó digital d'un tumor en deu minuts, segons el BSC",
-      "excerpt": "Investigadors del Barcelona Supercomputing Center connecten agents d'intel·ligència artificial amb els programes de modelització biològica NeKo, MaBoSS i PhysiCell perquè qualsevol científic pugui crear-los sense escriure codi."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Cap dels dos-cents models d'IA provats reconeix la forma d'un objecte tan bé com un humà, segons un estudi",
-      "excerpt": "Un equip de la Universitat de Nova York va distorsionar imatges de gats, papallones, cotxes i panotxes de blat de moro per comparar com hi reconeixen l'objecte les persones i les xarxes neuronals."
+      "title": "Un nou banc de proves amb «móns alienígenes» detecta que els agents d'IA es perden quan les regles familiars ja no serveixen",
+      "excerpt": "ExplorationBench posa deu sistemes d'IA davant d'entorns amb regles inventades i verificables perquè no puguin resoldre les tasques només recordant coneixement previ, i troba que allargar l'exploració de vegades els fa empitjorar en lloc de millorar."
     },
     {
       "category": "PRODUCTE",
       "read": "4 MIN",
-      "title": "OpenAI llança GPT-6 Sol i Luna a la meitat de preu i amb la meitat d'errors que el seu predecessor",
-      "excerpt": "Els nous models substitueixen la sèrie GPT-5.6 amb tarifes d'API un 50% més barates i, segons les proves internes de la companyia, la meitat d'equivocacions detectades pels usuaris."
+      "title": "Microsoft repensa Copilot amb un generador de codi i un agent permanent, i les seves accions pugen prop d'un 4%",
+      "excerpt": "La companyia afegeix a Copilot una eina anomenada «Code» per crear aplicacions amb llenguatge natural i «Autopilot», un agent digital amb identitat pròpia al directori corporatiu, en un intent de convertir l'assistent en l'eina central de la feina d'oficina."
     },
     {
-      "category": "PRODUCTE",
-      "read": "5 MIN",
-      "title": "Meta presenta un agent d'IA que actua pel que veus a través de les ulleres i arriba a l'ordinador Mac",
-      "excerpt": "A la conferència Meta Connect, la companyia ha ampliat les capacitats de Muse, el seu assistent d'IA, amb veu en temps real, un avatar propi i control d'ordinadors, alhora que ha presentat noves ulleres de realitat mixta i sense càmera."
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Els models Astra d'OpenAI i Opus d'Anthropic desxifren dos missatges Enigma que continuaven sense resoldre des de fa vint anys",
+      "excerpt": "Un desenvolupador i un executiu de ciberseguretat han fet servir per separat els dos models per completar dos dels pocs missatges xifrats amb la màquina Enigma de la Segona Guerra Mundial que encara no s'havien pogut llegir."
     }
   ]
 }
