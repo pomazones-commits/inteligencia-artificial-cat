@@ -102,6 +102,12 @@ Només el **dia 1 de cada mes**, al lot de les **10:05** (el més prim de notíc
 ## Regles
 
 - **Llengua: cap mot inventat.** «Pacar» (calc de l'anglès *to pace*) **no existeix en català**: fes servir «moderar el ritme», «acompassar», «alentir» o «frenar». En una cita traduïda, tradueix el sentit, no la forma de la paraula anglesa. No inventis mai verbs calcats de l'anglès o del castellà.
+- **Llengua: castellanismes i calcs prohibits.** Abans de lliurar cap text (notícies, fotografia editorial, reflexions, anàlisis), repassa'l contra aquesta llista. Quan en Rafael en detecti un de nou, s'hi afegeix aquí i al bloc «Llengua» dels prompts d'`automation/prompts/`.
+
+  | No escriguis | Escriu | Motiu |
+  |---|---|---|
+  | pacar, paci, pacat | moderar el ritme, acompassar, alentir, frenar | calc de l'anglès *to pace* (21.09.2026) |
+  | zancada | gambada, passa | castellanisme (fotografia editorial del 26.09.2026) |
 - **La imatge ha de mostrar el que diu la notícia.** Si la notícia parla de robots humanoides, la fotografia ha de mostrar un robot humanoide; si parla d'un braç robòtic industrial, un braç robòtic; si parla d'un centre de dades, un centre de dades. La consigna d'**evitar robots, androides i clixés tecnològics** que hi ha a `automation/prompts/daily-image.md` val NOMÉS per a la fotografia editorial del dia («IA × Societat»), on el robot és una cursileria: **no s'aplica a les imatges de les notícies**, on mana el subjecte real de la peça. Error real del 30.07.2026: dues notícies sobre robots humanoides (Google Gemini Robotics i SoftBank–Gravis) il·lustrades amb robots no humanoides.
 - Si una imatge de notícia no s'ha pogut generar, ometre el camp `image` d'aquella notícia (no posar-hi rutes que no existeixen).
 - **Pes de les imatges.** Tota imatge que es desi a `public/assets/` ha de ser un JPEG de debò (no un PNG amb l'extensió `.jpg`: es nota perquè passa dels 500 KB), d'uns 1200 px de costat com a màxim i per sota de 350 KB. Si l'eina de generació retorna un PNG, cal reconvertir-lo abans de fer el commit, per exemple amb `python3 -c "from PIL import Image; im=Image.open('X.jpg').convert('RGB'); im.save('X.jpg','JPEG',quality=88,optimize=True,progressive=True)"`. Motiu: el juliol del 2026 s'hi van colar 26 PNG de 1,6 MB de mitjana i Googlebot es descarregava 34 MB per visita, amb un temps de resposta mitjà de 567 ms.
