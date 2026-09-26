@@ -89,3 +89,10 @@ Retorna exclusivament aquest JSON a `incoming/daily-image.json`:
 - l'escena és una de les del punt 2.
 
 En qualsevol d'aquests casos, torna a generar-la. Val més cinc minuts més que una fotografia que el lector ja ha vist tres vegades aquest mes.
+
+## Llengua: castellanismes i calcs prohibits
+
+Escriu en un català normatiu i genuí. No inventis mai mots calcats de l'anglès o del castellà, i revisa el text abans de lliurar-lo contra aquesta llista (la llista completa i actualitzada és a `CLAUDE.md`, «Regles»):
+
+- **pacar / paci / pacat** (calc de l'anglès *to pace*) → «moderar el ritme», «acompassar», «alentir», «frenar».
+- **zancada** (castellanisme) → «gambada» o «passa».

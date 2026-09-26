@@ -14,3 +14,10 @@ Retorna exclusivament JSON vàlid amb aquesta forma:
 ```
 
 Totes les URL han de correspondre a fonts reals consultades. Si no hi ha prou evidència, no generis el contingut i informa de l'error.
+
+## Llengua: castellanismes i calcs prohibits
+
+Escriu en un català normatiu i genuí. No inventis mai mots calcats de l'anglès o del castellà, i revisa el text abans de lliurar-lo contra aquesta llista (la llista completa i actualitzada és a `CLAUDE.md`, «Regles»):
+
+- **pacar / paci / pacat** (calc de l'anglès *to pace*) → «moderar el ritme», «acompassar», «alentir», «frenar».
+- **zancada** (castellanisme) → «gambada» o «passa».

@@ -63,3 +63,10 @@ La peça es publica amb autoria «Per Redacció IA.cat», surt a la portada just
 «El senyal d'avui» i s'obre sencera a `reflexio.html`, amb lector d'àudio
 (`assets/audio/reflexio-AAAA-MM-DD.mp3`, que genera sol el workflow d'àudio). La
 reflexió del dia anterior passa automàticament a `arxiu-reflexions.html`.
+
+## Llengua: castellanismes i calcs prohibits
+
+Escriu en un català normatiu i genuí. No inventis mai mots calcats de l'anglès o del castellà, i revisa el text abans de lliurar-lo contra aquesta llista (la llista completa i actualitzada és a `CLAUDE.md`, «Regles»):
+
+- **pacar / paci / pacat** (calc de l'anglès *to pace*) → «moderar el ritme», «acompassar», «alentir», «frenar».
+- **zancada** (castellanisme) → «gambada» o «passa».

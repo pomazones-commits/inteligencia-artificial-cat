@@ -25,3 +25,10 @@ Retorna exclusivament JSON vàlid:
 - No incloguis HTML, Markdown ni cap text fora del JSON.
 
 La peça es publica amb autoria «Per Redacció IA.cat», es mostra a la portada (targeta «Quadern IA · Cada divendres») i s'obre completa a `quadern.html`, amb lector d'àudio (el workflow d'àudio genera `assets/audio/quadern-AAAA-MM-DD.mp3` automàticament).
+
+## Llengua: castellanismes i calcs prohibits
+
+Escriu en un català normatiu i genuí. No inventis mai mots calcats de l'anglès o del castellà, i revisa el text abans de lliurar-lo contra aquesta llista (la llista completa i actualitzada és a `CLAUDE.md`, «Regles»):
+
+- **pacar / paci / pacat** (calc de l'anglès *to pace*) → «moderar el ritme», «acompassar», «alentir», «frenar».
+- **zancada** (castellanisme) → «gambada» o «passa».
