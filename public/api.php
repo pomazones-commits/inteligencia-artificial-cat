@@ -39,7 +39,7 @@ if ($action === 'subscribe' && $_SERVER['REQUEST_METHOD'] === 'POST') {
             . 'Content-Type: text/plain; charset=UTF-8';
         // El 5è paràmetre (-f) fixa el sobre-remitent: sense això, Hostinger envia
         // amb l'usuari del sistema com a remitent i Gmail ho sol descartar en silenci.
-        $enviat = @mail('pomazones@gmail.com', 'IA.cat: subscriptor nou al butlletí', $avis, $capceleres, '-f no-reply@inteligencia-artificial.cat');
+        $enviat = @mail('pomazona@gmail.com', 'IA.cat: subscriptor nou al butlletí', $avis, $capceleres, '-f no-reply@inteligencia-artificial.cat');
         // Registre de diagnòstic (no públic, vegeu .htaccess): permet saber si mail() accepta l'enviament.
         @file_put_contents($dataDir . '/mail.log', date('c') . ' subscriptor=' . $email . ' mail()=' . ($enviat ? 'OK' : 'ERROR') . PHP_EOL, FILE_APPEND | LOCK_EX);
     }
