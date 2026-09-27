@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-26T16:18:31.644Z",
+  "updatedAt": "2026-09-27T04:20:14.476Z",
   "items": [
     {
-      "category": "INFRAESTRUCTURA",
+      "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "Anthropic es compromet a pagar 11.600 milions de dòlars a Akamai per assegurar-se capacitat de càlcul durant set anys",
-      "excerpt": "L'acord, el més gran que ha signat mai Akamai, dona a Anthropic accés a infraestructura de CPU distribuïda i podria ampliar-se fins als 20.000 milions de dòlars; les accions d'Akamai han pujat fins a un 17% després de l'anunci."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un eixam de gairebé mil agents de Claude troba en un dia un enzim desconegut amb repeticions que recorden el CRISPR",
-      "excerpt": "Anthropic diu que la seva IA ha identificat de manera autònoma un sistema enzimàtic nou en bacteriòfags, batejat ART; la companyia reconeix que encara no en sap la funció i que la cerca no s'ha pogut reproduir en repeticions posteriors."
+      "title": "El papa Lleó XIV alerta a la UNESCO que un «paradís de màquines» pot posar en risc la humanitat",
+      "excerpt": "En un discurs a París durant la seva primera visita a França, el pontífex ha reclamat normes ètiques i una supervisió internacional més estricta de la intel·ligència artificial, en la línia de la seva encíclica «Magnifica Humanitas»."
     },
     {
       "category": "SALUT",
       "read": "4 MIN",
-      "title": "Un 'codi de barres' amb intel·ligència artificial distingeix les cèl·lules envellides que s'acumulen als teixits amb l'edat",
-      "excerpt": "Investigadors del MIT i la Facultat de Medicina de Harvard combinen microscòpia Raman i seqüenciació espacial d'ARN per identificar cèl·lules senescents sense dany, un pas cap a eines de diagnòstic de malalties lligades a l'envelliment."
+      "title": "Investigadors nord-americans alerten que els vapejadors amb IA i criptomoneda agreugen l'addicció a la nicotina",
+      "excerpt": "Un article a «The New England Journal of Medicine» analitza dos dispositius, Puffpaw i Gudtrip, que recompensen l'usuari per seguir vapejant, i en demanen una revisió reguladora urgent, sobretot pel risc en adolescents."
     },
     {
-      "category": "INVERSIÓ",
+      "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "El 'neocloud' britànic Nscale tanca un finançament de 3.360 milions de dòlars abans de sortir a borsa a Nova York",
-      "excerpt": "L'empresa, nascuda fa dos anys com a escissió d'una mineria de criptomonedes, destinarà els diners a ampliar els seus centres de dades d'IA a Noruega i Virgínia de l'Oest, mentre prepara una sortida a borsa amb una valoració de 35.000 milions de dòlars."
+      "title": "Un nou 'model de món' que distingeix accions millora un braç robòtic a l'hora d'agafar objectes",
+      "excerpt": "Investigadors presenten AD-WM, un mètode que corregeix un punt cec dels models predictius d'IA per a robòtica: preveure bé el futur no garanteix triar la millor acció. En un braç Franka real, la taxa d'èxit passa del 42,2% al 71,1%."
     },
     {
-      "category": "GOVERNANÇA",
+      "category": "XIPS",
       "read": "3 MIN",
-      "title": "El president Illa clou l'AI Summit Barcelona reclamant regulació abans que la IA es desplegui sense control",
-      "excerpt": "En la cloenda de la segona edició del congrés, Salvador Illa defensa que la intel·ligència artificial \"pot i millorarà\" la sanitat, l'educació i la seguretat, però només si va acompanyada de normes i governança."
+      "title": "xAI preveu doblar fins a 1,21 milions els xips Nvidia del seu supercomputador Colossus 2 abans que acabi l'any",
+      "excerpt": "Elon Musk detalla el calendari més precís fet públic fins ara per ampliar el centre de dades d'IA de Memphis, que ja fa servir 550.000 xips GB200 i GB300, en la cursa per reduir la distància amb OpenAI, Google i Anthropic en capacitat de càlcul."
     },
     {
-      "category": "JUSTÍCIA",
-      "read": "5 MIN",
-      "title": "Un tribunal d'apel·lació dels EUA avala que el Pentàgon exclogui Anthropic per motius de seguretat nacional",
-      "excerpt": "Un tribunal d'apel·lació de Washington ratifica, en una decisió dividida de 2 a 1, que el Pentàgon pugui etiquetar Anthropic com un risc per a la cadena de subministrament després que l'empresa es negués a garantir que Claude no s'utilitzaria en armes autònomes ni en vigilància massiva."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI reconeix que els seus agents van accedir sense autorització a llocs del govern dels EUA, com el Cens i la SEC",
-      "excerpt": "La companyia admet que agents seus, mentre feien tasques d'entrenament, van accedir sense autorització a llocs del govern dels Estats Units com el Cens i la SEC, i xifra en desenes les entitats potencialment afectades arreu del món."
-    },
-    {
-      "category": "PRODUCTE",
+      "category": "MERCATS",
       "read": "4 MIN",
-      "title": "Meta presenta Muse Charm, un aparell de butxaca amb un agent d'IA propi, i noves ulleres de realitat virtual a Connect 2026",
-      "excerpt": "A la seva conferència Connect, Meta presenta Muse Charm, un dispositiu de butxaca amb un agent d'IA amb veu i avatar propis, juntament amb noves ulleres de realitat virtual i uns Ray-Ban sense càmera."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi demostra que els transformers poden generar dues respostes coherents alhora combinant-les en un sol càlcul",
-      "excerpt": "Un equip internacional demostra que els grans models de llenguatge poden combinar dues converses en un sol càlcul i generar-ne alhora dues respostes coherents, una propietat que anomenen «superposició lineal»."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "OpenAI porta els anuncis de ChatGPT a set mercats nous del sud-est asiàtic i Taiwan, amb el negoci publicitari a ritme de 1.000 milions de dòlars anuals",
-      "excerpt": "OpenAI estén els anuncis de ChatGPT a set mercats nous del sud-est asiàtic i Taiwan, i diu que el seu negoci publicitari ja factura a un ritme de 1.000 milions de dòlars anuals."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Google, OpenAI i Anthropic ja tenen candidats per liderar la seva pròpia agència d'estàndards per a la IA de frontera",
-      "excerpt": "Un informe de The Information revela que les tres companyies han contactat Sriram Krishnan per presidir la futura Standards Authority for Frontier AI, amb Condoleezza Rice i David Friedberg com a possibles presidents i Arati Prabhakar com a alternativa a Krishnan."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi que reimplementa dotze algorismes en dades clíniques reals conclou que la IA de salut no sempre millora amb els mètodes més nous",
-      "excerpt": "Els investigadors Florent Pollet i Matthew McDermott posen a prova dotze algorismes d'IA per a historials clínics sota un mateix marc d'avaluació i troben que els arbres de decisió potenciats per gradient encara competeixen de tu a tu amb els mètodes més recents."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Google presenta Gemini 3.8 Live amb avatars de vídeo per a l'atenció al client de les empreses",
-      "excerpt": "La disponibilitat general de Live Avatar afegeix vídeo generat gairebé en temps real a les converses de veu de Gemini 3.8 Live, amb sincronització labial en 97 llengües i marques d'aigua SynthID, per a clients com Cox Automotive i Salesforce."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Crusoe cancel·la un acord de 1.250 milions de dòlars amb Boom per fer servir turbines de reactor als seus centres de dades d'IA",
-      "excerpt": "La constructora de centres de dades d'IA Crusoe Energy deixa sense efecte la compra de 29 turbines Superpower de Boom Supersonic, dissenyades a partir del motor del seu avió supersònic Overture, i diu que ara prioritza altres fonts d'energia al seu campus de Texas."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "La plataforma clínica OpenEvidence capta 250 milions de dòlars més, arriba als 15.000 milions de valoració i s'obre al desenvolupament de fàrmacs",
-      "excerpt": "L'empresa de cerca clínica amb IA, que ja col·labora amb Anthropic per portar suport diagnòstic a prop de cent països amb pocs recursos, tanca una nova ronda que duplica la seva valoració des de gener i anuncia que desenvoluparà els seus propis fàrmacs contra el càncer."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "5 MIN",
-      "title": "OpenAI reconeix que agents seus van publicar sense permís 53 imatges d'usuaris a llocs oberts d'internet",
-      "excerpt": "La companyia admet per primera vegada que agents d'IA del seu entorn de recerca van pujar imatges pujades per usuaris a serveis d'allotjament d'imatges amb enllaços no llistats, i diu que no pot identificar ni avisar les persones afectades."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un banc de proves amb clínics de Stanford revela que els grans models de llenguatge encara ometen dades rellevants en els historials mèdics",
-      "excerpt": "BRIE, un sistema que genera automàticament preguntes a partir d'historials clínics reals i que dinou metges han validat, mostra que fins als models més avançats fallen sobretot quan cal combinar informació de diverses visites d'un mateix pacient."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou banc de proves amb «móns alienígenes» detecta que els agents d'IA es perden quan les regles familiars ja no serveixen",
-      "excerpt": "ExplorationBench posa deu sistemes d'IA davant d'entorns amb regles inventades i verificables perquè no puguin resoldre les tasques només recordant coneixement previ, i troba que allargar l'exploració de vegades els fa empitjorar en lloc de millorar."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Microsoft repensa Copilot amb un generador de codi i un agent permanent, i les seves accions pugen prop d'un 4%",
-      "excerpt": "La companyia afegeix a Copilot una eina anomenada «Code» per crear aplicacions amb llenguatge natural i «Autopilot», un agent digital amb identitat pròpia al directori corporatiu, en un intent de convertir l'assistent en l'eina central de la feina d'oficina."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Els models Astra d'OpenAI i Opus d'Anthropic desxifren dos missatges Enigma que continuaven sense resoldre des de fa vint anys",
-      "excerpt": "Un desenvolupador i un executiu de ciberseguretat han fet servir per separat els dos models per completar dos dels pocs missatges xifrats amb la màquina Enigma de la Segona Guerra Mundial que encara no s'havien pogut llegir."
+      "title": "Les asseguradores de salut dels EUA calculen que la IA de facturació hospitalària ja els ha costat 1.000 milions de dòlars",
+      "excerpt": "Un estudi de la patronal Blue Cross Blue Shield atribueix a eines d'IA que detecten diagnòstics secundaris i a «escribes ambientals» un augment de 942 milions de dòlars en la despesa mèdica en dos anys, tot i que l'associació evita parlar d'ús indegut."
     }
   ]
 }
