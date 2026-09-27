@@ -188,6 +188,20 @@ function validateNews(payload) {
       }
       item.image = image;
     }
+    // Crèdit d'una fotografia real amb llicència (27.09.2026). Només el posa
+    // automation/scripts/fotos-llicencia.py, que desa aquestes fotos com a
+    // <slug>-AAAAMMDD-foto.jpg. Si la imatge no porta aquest sufix és una
+    // il·lustració generada amb IA i el crèdit es descarta: mai no es publica
+    // «Foto: …» damunt d'una imatge inventada. `imageFetch` és intern de
+    // l'script i no passa mai d'aquí.
+    const imageCredit = normalizeText(raw?.imageCredit);
+    const imageLicense = normalizeText(raw?.imageLicense);
+    if (item.image && imageCredit && imageLicense && /-foto\.(jpe?g|webp)$/i.test(item.image)) {
+      item.imageCredit = imageCredit.slice(0, 120);
+      item.imageLicense = imageLicense.slice(0, 40);
+      const imageSourceUrl = normalizeText(raw?.imageSourceUrl);
+      if (/^https?:\/\//.test(imageSourceUrl)) item.imageSourceUrl = imageSourceUrl;
+    }
     // Encaminament opcional entre seccions (camp intern, no forma part del
     // contracte públic IA_NEWS). Per defecte (absent o "senyal"): la notícia va
     // al feed "El senyal d'avui" i, si té context català, també es deriva a
