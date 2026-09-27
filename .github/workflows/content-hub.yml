@@ -79,6 +79,26 @@ jobs:
         if: github.event_name == 'schedule' && steps.pendent.outputs.pending != 'yes'
         run: echo "El lot que hi ha a incoming/ ja és publicat. La repesca no toca res."
 
+      # 27.09.2026 — FOTOS REALS AMB LLICÈNCIA. Abans d'ingerir el lot:
+      #   1. Les notícies que parlen d'una persona del banc de retrats
+      #      (automation/retrats.json: Altman, Amodei, Huang, Illa…) hi reben el
+      #      seu retrat de Wikimedia Commons.
+      #   2. Les que porten `imageFetch` (una foto que la sessió editorial ha triat
+      #      però no ha pogut baixar, perquè el seu sandbox no hi arriba) la baixen
+      #      aquí.
+      # Tot es desa com a public/assets/<slug>-AAAAMMDD-foto.jpg, amb el crèdit.
+      # Només es baixa dels servidors d'automation/image-sources.json.
+      # MAI no atura la publicació: si falla, la notícia surt amb la il·lustració
+      # que ja portava i sense crèdit (continue-on-error, i l'script mateix acaba
+      # sempre amb 0).
+      - name: Fotos amb llicència i banc de retrats
+        if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
+        continue-on-error: true
+        timeout-minutes: 4
+        run: |
+          python3 -m pip install --quiet --disable-pip-version-check pillow
+          python3 automation/scripts/fotos-llicencia.py --final --input incoming/news-batch.json --public-dir public
+
       - name: Validar i acumular el lot de Claude
         if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
         run: >-
@@ -98,6 +118,10 @@ jobs:
           git config user.name "intel·ligènciaartificial.cat bot"
           git config user.email "actions@users.noreply.github.com"
           git add public/news.js public/radar.js public/content-status.json public/data/ public/content/ .content-state/
+          # Fotos amb llicència baixades pel pas anterior (i el lot, ja sense
+          # `imageFetch`, perquè una repesca no les torni a baixar).
+          git add incoming/news-batch.json
+          git add public/assets/*-foto.jpg 2>/dev/null || true
           if git diff --cached --quiet; then
             exit 0
           fi
