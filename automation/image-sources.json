@@ -6,7 +6,11 @@
       "id": "generalitat",
       "nom": "Generalitat de Catalunya (govern.cat, notes i sala de premsa)",
       "directe": true,
-      "hosts": ["cdn-govern.watchity.net", "govern.cat", "www.govern.cat"],
+      "hosts": [
+        "cdn-govern.watchity.net",
+        "govern.cat",
+        "www.govern.cat"
+      ],
       "llicencia": "CC0",
       "credit": "<Nom del fotògraf> / Generalitat de Catalunya",
       "condicions": "Avís legal de govern.cat: reutilització sota CC0 citant la font («Generalitat de Catalunya»), sense desvirtuar-ne el sentit. No autoritza l'ús de logotips, escuts ni símbols de la Generalitat. El nom del fotògraf surt al peu de la foto de cada nota («Fotografia: …»). Si el peu diu ACN, EFE, Europa Press, Getty o una altra agència, la foto NO és de la Generalitat i no es pot fer servir.",
@@ -17,7 +21,10 @@
       "id": "parlament",
       "nom": "Parlament de Catalunya",
       "directe": true,
-      "hosts": ["www.parlament.cat", "parlament.cat"],
+      "hosts": [
+        "www.parlament.cat",
+        "parlament.cat"
+      ],
       "llicencia": "Reutilització lliure",
       "credit": "Parlament de Catalunya",
       "condicions": "Avís legal: la informació «pot ser reutilitzada sense necessitat d'obtenir una autorització expressa… ni de pagar cap preu», citant el Parlament de Catalunya com a font, sense alterar-ne el sentit ni presentar-la com a oficial. No autoritza logotips, marques ni escuts.",
@@ -28,7 +35,10 @@
       "id": "moncloa",
       "nom": "La Moncloa (Govern d'Espanya), NOMÉS fotos «Pool Moncloa»",
       "directe": true,
-      "hosts": ["www.lamoncloa.gob.es", "lamoncloa.gob.es"],
+      "hosts": [
+        "www.lamoncloa.gob.es",
+        "lamoncloa.gob.es"
+      ],
       "llicencia": "Lliure accés (Pool Moncloa)",
       "credit": "Pool Moncloa / <Nom del fotògraf>",
       "condicions": "Avís legal: «Las imágenes firmadas Pool Moncloa son de libre acceso.» Cal citar-ne l'origen (lamoncloa.gob.es). Les fotos que no porten la firma «Pool Moncloa» poden ser de tercers: no es poden fer servir.",
@@ -39,7 +49,10 @@
       "id": "comissio-europea",
       "nom": "Comissió Europea (Servei Audiovisual)",
       "directe": true,
-      "hosts": ["ec.europa.eu", "audiovisual.ec.europa.eu"],
+      "hosts": [
+        "ec.europa.eu",
+        "audiovisual.ec.europa.eu"
+      ],
       "llicencia": "CC BY 4.0",
       "credit": "© Unió Europea, <any>",
       "condicions": "Contingut propietat de la UE amb CC BY 4.0: reutilització permesa amb el crèdit i indicant-ne els canvis. Queden fora les fotos de tercers i les de particulars identificables. Cal mirar les «Conditions of use» de cada fitxer.",
@@ -47,9 +60,39 @@
       "verificat": "2026-09-27"
     },
     {
+      "id": "meta",
+      "nom": "Meta (galeria multimèdia i sala de premsa), NOMÉS per a notícies sobre Meta",
+      "directe": true,
+      "hosts": [
+        "lookaside.fbsbx.com",
+        "about.fb.com"
+      ],
+      "llicencia": "Ús de premsa (Meta)",
+      "credit": "Meta",
+      "nomesPerA": [
+        "Meta",
+        "Facebook",
+        "Instagram",
+        "WhatsApp",
+        "Threads",
+        "Zuckerberg",
+        "Llama",
+        "Quest",
+        "Ray-Ban",
+        "Oakley",
+        "Connect"
+      ],
+      "condicions": "Galeria multimèdia (retrats de directius, oficines i centres de dades): «Restricciones de uso: las imágenes solo se pueden utilizar para ilustrar artículos sobre Meta.» Sala de premsa (about.fb.com/news): cada nota posa les imatges a disposició de la premsa («Download all images», «Press Resources»), sense condicions escrites a part; s'hi aplica la mateixa restricció. L'script rebutja la foto si el títol i el resum no parlen de Meta o d'un producte seu.",
+      "avisLegal": "https://www.meta.com/media-gallery/ (text a la fitxa de cada directiu)",
+      "verificat": "2026-09-27"
+    },
+    {
       "id": "commons",
       "nom": "Wikimedia Commons (via «File:…»)",
-      "hosts": ["commons.wikimedia.org", "upload.wikimedia.org"],
+      "hosts": [
+        "commons.wikimedia.org",
+        "upload.wikimedia.org"
+      ],
       "llicencia": "la de cada fitxer",
       "credit": "<Autor> / Wikimedia Commons",
       "condicions": "Commons només accepta contingut lliure. L'script llegeix l'autor i la llicència de l'API de Commons i rebutja tot el que porti NC o ND. Un URL directe a upload.wikimedia.org NO s'accepta: cal passar per «File:…» perquè la llicència es comprovi.",
@@ -58,7 +101,9 @@
     {
       "id": "wikidata",
       "nom": "Wikidata (via «wikidata:Q…»): la imatge principal (P18) d'una persona, lloc o organització",
-      "hosts": ["www.wikidata.org"],
+      "hosts": [
+        "www.wikidata.org"
+      ],
       "llicencia": "la del fitxer de Commons",
       "credit": "<Autor> / Wikimedia Commons",
       "condicions": "La imatge és a Commons, i es comprova igual que un «File:…». És el que fa servir el banc de retrats (automation/retrats.json).",
@@ -67,7 +112,12 @@
     {
       "id": "openverse",
       "nom": "Openverse (via «openverse:<id>»): Flickr i Commons amb llicència lliure",
-      "hosts": ["api.openverse.org", "live.staticflickr.com", ".staticflickr.com", "upload.wikimedia.org"],
+      "hosts": [
+        "api.openverse.org",
+        "live.staticflickr.com",
+        ".staticflickr.com",
+        "upload.wikimedia.org"
+      ],
       "llicencia": "CC BY, CC BY-SA, CC0 o domini públic",
       "credit": "<Autor> / Flickr",
       "condicions": "Cercador: https://api.openverse.org/v1/images/?q=<nom>&license=by,by-sa,cc0,pdm. Hi ha molts retrats de directius als comptes de Flickr de TechCrunch, Web Summit, el Parlament Europeu i la Comissió Europea, amb llicència CC BY. L'script comprova la llicència a l'API i només accepta by, by-sa, cc0 i pdm.",
@@ -75,10 +125,25 @@
     }
   ],
   "perVerificar": [
-    { "nom": "Meta (galeria de premsa)", "url": "https://www.meta.com/media-gallery/", "nota": "27.09.2026: no se n'han pogut llegir les condicions (la pàgina bloqueja la lectura automàtica)." },
-    { "nom": "NVIDIA", "url": "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/", "nota": "27.09.2026: sense condicions per a premsa; els termes generals prohibeixen la difusió pública. NO." },
-    { "nom": "Anthropic (press kit)", "url": "https://www.anthropic.com/press-kit", "nota": "27.09.2026: és un ZIP que no s'ha pogut obrir; condicions desconegudes." },
-    { "nom": "OpenAI", "url": "https://openai.com/brand/", "nota": "27.09.2026: només logotips, cap foto de directius." },
-    { "nom": "Ajuntament de Barcelona", "url": "https://www.barcelona.cat/imatges/ca/legaldisclaimer/", "nota": "27.09.2026: no s'ha pogut llegir; segons la premsa, el banc d'imatges és CC BY-NC-ND, que no permet retallar." }
+    {
+      "nom": "NVIDIA",
+      "url": "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/",
+      "nota": "27.09.2026, llegit amb el Chrome: la sala de premsa (nvidianews.nvidia.com) ofereix retrats i imatges per baixar però sense cap condició d'ús; s'hi apliquen els termes generals, que només permeten un ús «personal, non-commercial internal» i prohibeixen «any public display». NO, llevat de permís escrit de NVIDIA. (El retrat de Jensen Huang ja surt de Commons, domini públic.)"
+    },
+    {
+      "nom": "OpenAI",
+      "url": "https://openai.com/brand/",
+      "nota": "27.09.2026, llegit amb el Chrome: la pàgina de marca només té logotips i normes d'ús de la marca; cap foto de directius ni de producte, i OpenAI es reserva el dret de prohibir l'ús de les seves marques. NO."
+    },
+    {
+      "nom": "Anthropic",
+      "url": "https://brandfolder.com/anthropic/newsroom",
+      "nota": "27.09.2026, llegit amb el Chrome: la col·lecció pública del Brandfolder («Newsroom», 13 recursos) només té il·lustracions de la sala de premsa, cap foto; diu «publicly accessible for usage. Please comply with all usage guidelines», però les pautes no són públiques. El press kit (anthropic.com/press-kit) és un ZIP que no s'ha obert. NO de moment."
+    },
+    {
+      "nom": "Ajuntament de Barcelona",
+      "url": "https://www.barcelona.cat/imatges/ca/legaldisclaimer/",
+      "nota": "27.09.2026: no s'ha pogut llegir; segons la premsa, el banc d'imatges és CC BY-NC-ND, que no permet retallar."
+    }
   ]
 }
