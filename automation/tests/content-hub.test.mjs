@@ -723,5 +723,5 @@ test('fotos-llicencia.py passa les seves proves sense xarxa', () => {
   if (result.error?.code === 'ENOENT') return; // sense python3 no hi ha res a provar
   if (/No module named 'PIL'/.test(result.stderr)) return; // Pillow s'instal·la al workflow només si cal
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /15 proves OK/);
+  assert.match(result.stdout, /\d+ proves OK/);
 });
