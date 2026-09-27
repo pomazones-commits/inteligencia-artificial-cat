@@ -61,6 +61,35 @@ La fotografia ha d'il·lustrar **el que diu la notícia**, no la idea genèrica 
 
 ⚠️ La instrucció d'evitar robots i androides que hi ha a `daily-image.md` és **només** per a la fotografia editorial del dia, on el robot és un clixé. **Aquí no s'aplica**: una notícia sobre robots humanoides il·lustrada amb un robot no humanoide és un error (va passar el 30.07.2026 amb dues notícies del mateix lot).
 
+### Persones, actes i productes concrets: foto real amb llicència (des del 27.09.2026)
+
+Error real del 26.09.2026: «El president Illa clou l'AI Summit» es va il·lustrar amb una altra persona, i «Meta presenta unes ulleres de realitat virtual» amb unes ulleres inventades. Una il·lustració generada amb IA **no pot** mostrar una persona real ni un producte concret: s'inventa la cara o l'aparell i enganya el lector.
+
+Per a cada notícia, pregunta't primer: **el subjecte és una persona real identificable, un acte concret (una cimera, una roda de premsa, una signatura) o un producte concret que es presenta?** Si és que sí, la notícia ha de portar una **foto real**. N'hi ha tres camins, per aquest ordre:
+
+1. **Banc de retrats (automàtic).** Si el **títol** esmenta una persona d'`automation/retrats.json` (Sam Altman, Dario Amodei, Jensen Huang, Demis Hassabis, Zuckerberg, Musk, Nadella, Pichai, Hinton, LeCun, Von der Leyen, Trump, Pedro Sánchez, Salvador Illa, Collboni, el papa Lleó XIV i una seixantena més), no cal fer res: l'script hi posa el seu retrat de Wikimedia Commons. Si parles d'una persona que hi surt sovint i no hi és, afegeix-la al banc (nom, àlies i identificador de Wikidata `Q…`).
+2. **Una foto de l'acte o del producte**, millor que un retrat quan n'hi ha. Busca-la NOMÉS a les fonts d'`automation/image-sources.json` i posa-la al camp intern `imageFetch` (el web no el veu mai):
+   - **Notes del Govern** (`govern.cat`): URL del fitxer (`cdn-govern.watchity.net`) + `imageCredit` («Nom del fotògraf / Generalitat de Catalunya») + `imageLicense` («CC0»). 🛑 Si el peu diu **ACN, EFE, Europa Press, Getty** o una altra agència, **no** és de la Generalitat.
+   - **Parlament de Catalunya**, **La Moncloa** (només fotos firmades «Pool Moncloa») i **Comissió Europea**: igual, URL del fitxer + crèdit + llicència (vegeu el format a `image-sources.json`).
+   - **Openverse** (fotos de Flickr i Commons amb llicència lliure; hi ha molts actes tecnològics dels comptes de TechCrunch, Web Summit, el Parlament Europeu i la Comissió): cerca a `https://api.openverse.org/v1/images/?q=<nom o acte>&license=by,by-sa,cc0,pdm`, tria'n una on es vegi de debò el subjecte i posa `"imageFetch": "openverse:<id>"`.
+   - **Wikimedia Commons**: `"imageFetch": "File:Nom exacte del fitxer.jpg"`.
+
+   Amb Openverse, Commons i Wikidata **no posis crèdit**: l'autor i la llicència els llegeix l'script de l'API, i rebutja les fotos que no són lliures.
+3. **Genera igualment la il·lustració** i posa-la a `image` com sempre. És el recanvi si la foto no es pot baixar.
+
+Abans del commit, executa `python3 automation/scripts/fotos-llicencia.py --input incoming/news-batch.json --public-dir public`. Si la teva xarxa no hi arriba, no passa res: ho deixa tot com estava i ho farà el workflow `content-hub.yml`, que sí que hi arriba (i que també aplica el banc de retrats).
+
+🛑 **MAI la foto del mitjà que dona la notícia** (diaris, agències, blogs, Engadget, The Verge…): té drets i no es pot reproduir. Tampoc cap servidor que no sigui a `automation/image-sources.json`. Per afegir-hi una font nova, primer cal llegir-ne les condicions d'ús i anotar-les al fitxer.
+
+**Si no hi ha cap foto amb llicència** (el cas més habitual per a un producte que s'acaba de presentar), la il·lustració ha de mostrar el **context**, no el subjecte:
+
+- 🛑 **cap persona real reconeixible**: res de cares de polítics, directius o científics amb nom. Sí: un faristol amb micròfons en un auditori, el públic d'esquena, una silueta a contrallum, unes mans.
+- 🛑 **cap producte concret inventat**: si la notícia és justament la presentació d'unes ulleres, un mòbil o un xip nous, no els dibuixis. Sí: l'escenari de la presentació, una pantalla gran sense text, una mà que sosté un objecte desenfocat.
+- 🛑 **cap logotip, marca ni text** llegible.
+- Els objectes **genèrics** sí que es poden mostrar tal com diu la notícia: un robot humanoide, un braç robòtic, un centre de dades (vegeu més amunt). El que no es pot fer és fer-los passar pel model concret d'una empresa.
+
+La pàgina de l'article mostra sola el peu «Foto: …» per a les fotos reals i «Il·lustració generada amb IA» per a la resta.
+
 ## Camp opcional `seccio` (encaminament de seccions)
 
 A part dels camps de dalt, cada notícia pot portar un camp OPCIONAL `seccio` per decidir a quina secció del web va:
