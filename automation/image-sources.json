@@ -1,0 +1,84 @@
+{
+  "actualitzat": "2026-09-27",
+  "nota": "Fonts de fotografies REALS que les notícies poden fer servir legalment. automation/scripts/fotos-llicencia.py no descarrega de cap altre servidor. Les fonts «directe» admeten un URL de fitxer al camp imageFetch, i el lot hi ha de posar el crèdit. Les altres només es fan servir a través de la seva API (File:…, wikidata:Q…, openverse:<id>), que és d'on es treuen l'autor i la llicència. Per afegir una font, cal haver llegit les condicions d'ús a la web oficial i anotar-hi la data i l'enllaç. MAI la foto del mitjà que dona la notícia (diaris, agències, blogs): té drets i no es pot reproduir.",
+  "fonts": [
+    {
+      "id": "generalitat",
+      "nom": "Generalitat de Catalunya (govern.cat, notes i sala de premsa)",
+      "directe": true,
+      "hosts": ["cdn-govern.watchity.net", "govern.cat", "www.govern.cat"],
+      "llicencia": "CC0",
+      "credit": "<Nom del fotògraf> / Generalitat de Catalunya",
+      "condicions": "Avís legal de govern.cat: reutilització sota CC0 citant la font («Generalitat de Catalunya»), sense desvirtuar-ne el sentit. No autoritza l'ús de logotips, escuts ni símbols de la Generalitat. El nom del fotògraf surt al peu de la foto de cada nota («Fotografia: …»). Si el peu diu ACN, EFE, Europa Press, Getty o una altra agència, la foto NO és de la Generalitat i no es pot fer servir.",
+      "avisLegal": "https://govern.cat/gov/avis-legal",
+      "verificat": "2026-09-27"
+    },
+    {
+      "id": "parlament",
+      "nom": "Parlament de Catalunya",
+      "directe": true,
+      "hosts": ["www.parlament.cat", "parlament.cat"],
+      "llicencia": "Reutilització lliure",
+      "credit": "Parlament de Catalunya",
+      "condicions": "Avís legal: la informació «pot ser reutilitzada sense necessitat d'obtenir una autorització expressa… ni de pagar cap preu», citant el Parlament de Catalunya com a font, sense alterar-ne el sentit ni presentar-la com a oficial. No autoritza logotips, marques ni escuts.",
+      "avisLegal": "https://www.parlament.cat/wp/pcat/serveis-parlament/avis-legal/",
+      "verificat": "2026-09-27"
+    },
+    {
+      "id": "moncloa",
+      "nom": "La Moncloa (Govern d'Espanya), NOMÉS fotos «Pool Moncloa»",
+      "directe": true,
+      "hosts": ["www.lamoncloa.gob.es", "lamoncloa.gob.es"],
+      "llicencia": "Lliure accés (Pool Moncloa)",
+      "credit": "Pool Moncloa / <Nom del fotògraf>",
+      "condicions": "Avís legal: «Las imágenes firmadas Pool Moncloa son de libre acceso.» Cal citar-ne l'origen (lamoncloa.gob.es). Les fotos que no porten la firma «Pool Moncloa» poden ser de tercers: no es poden fer servir.",
+      "avisLegal": "https://www.lamoncloa.gob.es/Paginas/es_AvisoLegal.aspx",
+      "verificat": "2026-09-27"
+    },
+    {
+      "id": "comissio-europea",
+      "nom": "Comissió Europea (Servei Audiovisual)",
+      "directe": true,
+      "hosts": ["ec.europa.eu", "audiovisual.ec.europa.eu"],
+      "llicencia": "CC BY 4.0",
+      "credit": "© Unió Europea, <any>",
+      "condicions": "Contingut propietat de la UE amb CC BY 4.0: reutilització permesa amb el crèdit i indicant-ne els canvis. Queden fora les fotos de tercers i les de particulars identificables. Cal mirar les «Conditions of use» de cada fitxer.",
+      "avisLegal": "https://audiovisual.ec.europa.eu/en/conditions-of-use",
+      "verificat": "2026-09-27"
+    },
+    {
+      "id": "commons",
+      "nom": "Wikimedia Commons (via «File:…»)",
+      "hosts": ["commons.wikimedia.org", "upload.wikimedia.org"],
+      "llicencia": "la de cada fitxer",
+      "credit": "<Autor> / Wikimedia Commons",
+      "condicions": "Commons només accepta contingut lliure. L'script llegeix l'autor i la llicència de l'API de Commons i rebutja tot el que porti NC o ND. Un URL directe a upload.wikimedia.org NO s'accepta: cal passar per «File:…» perquè la llicència es comprovi.",
+      "verificat": "2026-09-27"
+    },
+    {
+      "id": "wikidata",
+      "nom": "Wikidata (via «wikidata:Q…»): la imatge principal (P18) d'una persona, lloc o organització",
+      "hosts": ["www.wikidata.org"],
+      "llicencia": "la del fitxer de Commons",
+      "credit": "<Autor> / Wikimedia Commons",
+      "condicions": "La imatge és a Commons, i es comprova igual que un «File:…». És el que fa servir el banc de retrats (automation/retrats.json).",
+      "verificat": "2026-09-27"
+    },
+    {
+      "id": "openverse",
+      "nom": "Openverse (via «openverse:<id>»): Flickr i Commons amb llicència lliure",
+      "hosts": ["api.openverse.org", "live.staticflickr.com", ".staticflickr.com", "upload.wikimedia.org"],
+      "llicencia": "CC BY, CC BY-SA, CC0 o domini públic",
+      "credit": "<Autor> / Flickr",
+      "condicions": "Cercador: https://api.openverse.org/v1/images/?q=<nom>&license=by,by-sa,cc0,pdm. Hi ha molts retrats de directius als comptes de Flickr de TechCrunch, Web Summit, el Parlament Europeu i la Comissió Europea, amb llicència CC BY. L'script comprova la llicència a l'API i només accepta by, by-sa, cc0 i pdm.",
+      "verificat": "2026-09-27"
+    }
+  ],
+  "perVerificar": [
+    { "nom": "Meta (galeria de premsa)", "url": "https://www.meta.com/media-gallery/", "nota": "27.09.2026: no se n'han pogut llegir les condicions (la pàgina bloqueja la lectura automàtica)." },
+    { "nom": "NVIDIA", "url": "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/", "nota": "27.09.2026: sense condicions per a premsa; els termes generals prohibeixen la difusió pública. NO." },
+    { "nom": "Anthropic (press kit)", "url": "https://www.anthropic.com/press-kit", "nota": "27.09.2026: és un ZIP que no s'ha pogut obrir; condicions desconegudes." },
+    { "nom": "OpenAI", "url": "https://openai.com/brand/", "nota": "27.09.2026: només logotips, cap foto de directius." },
+    { "nom": "Ajuntament de Barcelona", "url": "https://www.barcelona.cat/imatges/ca/legaldisclaimer/", "nota": "27.09.2026: no s'ha pogut llegir; segons la premsa, el banc d'imatges és CC BY-NC-ND, que no permet retallar." }
+  ]
+}

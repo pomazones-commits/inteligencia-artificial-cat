@@ -1,0 +1,404 @@
+{
+  "actualitzat": "2026-09-27",
+  "nota": "Banc de retrats: quan el TÍTOL d'una notícia esmenta una d'aquestes persones (pel nom o per un dels àlies, amb majúscules i paraula sencera) i la notícia no porta cap altra foto, automation/scripts/fotos-llicencia.py hi posa el seu retrat. La foto és la que Wikidata té com a imatge principal de la persona (propietat P18, a Wikimedia Commons), o la de «fitxer» si s'hi indica (File:… o openverse:<id>). La llicència i l'autor es comproven cada vegada a Commons/Openverse. Si es repeteix el nom de dues persones, mana la que surt primer al títol. «noSi»: si el títol conté aquest text, aquesta entrada no s'aplica (p. ex. «Daniela Amodei» no ha de treure la foto del seu germà). Per afegir-hi algú: el seu identificador de Wikidata (Q…) i comprovar que té imatge (P18) d'almenys 600 px d'amplada.",
+  "persones": [
+    {
+      "nom": "Sam Altman",
+      "alies": [
+        "Altman"
+      ],
+      "wikidata": "Q7407093"
+    },
+    {
+      "nom": "Dario Amodei",
+      "alies": [
+        "Amodei"
+      ],
+      "wikidata": "Q103335665",
+      "noSi": [
+        "Daniela Amodei"
+      ]
+    },
+    {
+      "nom": "Jensen Huang",
+      "alies": [],
+      "wikidata": "Q305177"
+    },
+    {
+      "nom": "Demis Hassabis",
+      "alies": [
+        "Hassabis"
+      ],
+      "wikidata": "Q3022141"
+    },
+    {
+      "nom": "Sundar Pichai",
+      "alies": [
+        "Pichai"
+      ],
+      "wikidata": "Q3503829"
+    },
+    {
+      "nom": "Satya Nadella",
+      "alies": [
+        "Nadella"
+      ],
+      "wikidata": "Q7426870"
+    },
+    {
+      "nom": "Mark Zuckerberg",
+      "alies": [
+        "Zuckerberg"
+      ],
+      "wikidata": "Q36215"
+    },
+    {
+      "nom": "Elon Musk",
+      "alies": [
+        "Musk"
+      ],
+      "wikidata": "Q317521"
+    },
+    {
+      "nom": "Mustafa Suleyman",
+      "alies": [
+        "Suleyman"
+      ],
+      "wikidata": "Q16847797"
+    },
+    {
+      "nom": "Yann LeCun",
+      "alies": [
+        "LeCun"
+      ],
+      "wikidata": "Q3571662"
+    },
+    {
+      "nom": "Geoffrey Hinton",
+      "alies": [
+        "Hinton"
+      ],
+      "wikidata": "Q92894"
+    },
+    {
+      "nom": "Yoshua Bengio",
+      "alies": [
+        "Bengio"
+      ],
+      "wikidata": "Q3572699"
+    },
+    {
+      "nom": "Fei-Fei Li",
+      "alies": [],
+      "wikidata": "Q18686107"
+    },
+    {
+      "nom": "Ilya Sutskever",
+      "alies": [
+        "Sutskever"
+      ],
+      "wikidata": "Q21712134",
+      "fitxer": "openverse:79499db3-7cbd-442a-85f6-a1d1e6b55504"
+    },
+    {
+      "nom": "Greg Brockman",
+      "alies": [
+        "Brockman"
+      ],
+      "wikidata": "Q100604534"
+    },
+    {
+      "nom": "Tim Cook",
+      "alies": [],
+      "wikidata": "Q265852"
+    },
+    {
+      "nom": "Andy Jassy",
+      "alies": [
+        "Jassy"
+      ],
+      "wikidata": "Q41812531"
+    },
+    {
+      "nom": "Lisa Su",
+      "alies": [],
+      "wikidata": "Q18207172"
+    },
+    {
+      "nom": "Arthur Mensch",
+      "alies": [],
+      "wikidata": "Q123758735"
+    },
+    {
+      "nom": "Masayoshi Son",
+      "alies": [],
+      "wikidata": "Q717038"
+    },
+    {
+      "nom": "Alexandr Wang",
+      "alies": [],
+      "wikidata": "Q112629173"
+    },
+    {
+      "nom": "Aravind Srinivas",
+      "alies": [],
+      "wikidata": "Q120492201"
+    },
+    {
+      "nom": "Clément Delangue",
+      "alies": [
+        "Clem Delangue"
+      ],
+      "wikidata": "Q140527842"
+    },
+    {
+      "nom": "Andrew Ng",
+      "alies": [],
+      "wikidata": "Q2846695"
+    },
+    {
+      "nom": "Stuart Russell",
+      "alies": [],
+      "wikidata": "Q3656334",
+      "fitxer": "File:Stuart Russell 01.jpg"
+    },
+    {
+      "nom": "Marc Benioff",
+      "alies": [
+        "Benioff"
+      ],
+      "wikidata": "Q1521908"
+    },
+    {
+      "nom": "Larry Ellison",
+      "alies": [],
+      "wikidata": "Q92759"
+    },
+    {
+      "nom": "Jeff Bezos",
+      "alies": [
+        "Bezos"
+      ],
+      "wikidata": "Q312556"
+    },
+    {
+      "nom": "Bill Gates",
+      "alies": [],
+      "wikidata": "Q5284"
+    },
+    {
+      "nom": "Brad Smith",
+      "alies": [],
+      "wikidata": "Q50300377"
+    },
+    {
+      "nom": "Timnit Gebru",
+      "alies": [
+        "Gebru"
+      ],
+      "wikidata": "Q59753117"
+    },
+    {
+      "nom": "Gary Marcus",
+      "alies": [],
+      "wikidata": "Q3348133"
+    },
+    {
+      "nom": "Kai-Fu Lee",
+      "alies": [],
+      "wikidata": "Q699605"
+    },
+    {
+      "nom": "Sergey Brin",
+      "alies": [],
+      "wikidata": "Q92764"
+    },
+    {
+      "nom": "Larry Page",
+      "alies": [],
+      "wikidata": "Q4934"
+    },
+    {
+      "nom": "Safra Catz",
+      "alies": [],
+      "wikidata": "Q450628"
+    },
+    {
+      "nom": "Michael Dell",
+      "alies": [],
+      "wikidata": "Q218630",
+      "fitxer": "openverse:20e482af-3fc3-4d5e-a07d-57a1ec28109c"
+    },
+    {
+      "nom": "Peter Thiel",
+      "alies": [
+        "Thiel"
+      ],
+      "wikidata": "Q705525"
+    },
+    {
+      "nom": "Alex Karp",
+      "alies": [],
+      "wikidata": "Q19560940"
+    },
+    {
+      "nom": "Marc Andreessen",
+      "alies": [
+        "Andreessen"
+      ],
+      "wikidata": "Q62882"
+    },
+    {
+      "nom": "Reid Hoffman",
+      "alies": [],
+      "wikidata": "Q211098"
+    },
+    {
+      "nom": "Shane Legg",
+      "alies": [],
+      "wikidata": "Q22278829"
+    },
+    {
+      "nom": "Fidji Simo",
+      "alies": [],
+      "wikidata": "Q64853019"
+    },
+    {
+      "nom": "Sarah Friar",
+      "alies": [],
+      "wikidata": "Q107434318"
+    },
+    {
+      "nom": "Chris Lehane",
+      "alies": [],
+      "wikidata": "Q5107216"
+    },
+    {
+      "nom": "Kate Crawford",
+      "alies": [],
+      "wikidata": "Q6375450"
+    },
+    {
+      "nom": "Meredith Whittaker",
+      "alies": [],
+      "wikidata": "Q55433882"
+    },
+    {
+      "nom": "Robin Li",
+      "alies": [],
+      "wikidata": "Q92985"
+    },
+    {
+      "nom": "Pony Ma",
+      "alies": [],
+      "wikidata": "Q1739008"
+    },
+    {
+      "nom": "Jack Ma",
+      "alies": [],
+      "wikidata": "Q1137062"
+    },
+    {
+      "nom": "Ursula von der Leyen",
+      "alies": [
+        "Von der Leyen",
+        "von der Leyen"
+      ],
+      "wikidata": "Q60772"
+    },
+    {
+      "nom": "Henna Virkkunen",
+      "alies": [
+        "Virkkunen"
+      ],
+      "wikidata": "Q2983767"
+    },
+    {
+      "nom": "Emmanuel Macron",
+      "alies": [
+        "Macron"
+      ],
+      "wikidata": "Q3052772"
+    },
+    {
+      "nom": "Donald Trump",
+      "alies": [
+        "Trump"
+      ],
+      "wikidata": "Q22686"
+    },
+    {
+      "nom": "JD Vance",
+      "alies": [
+        "J.D. Vance",
+        "J. D. Vance"
+      ],
+      "wikidata": "Q28935729"
+    },
+    {
+      "nom": "Xi Jinping",
+      "alies": [],
+      "wikidata": "Q15031"
+    },
+    {
+      "nom": "Keir Starmer",
+      "alies": [
+        "Starmer"
+      ],
+      "wikidata": "Q6383803"
+    },
+    {
+      "nom": "Pedro Sánchez",
+      "alies": [],
+      "wikidata": "Q6070218"
+    },
+    {
+      "nom": "Óscar López",
+      "alies": [],
+      "wikidata": "Q6174855"
+    },
+    {
+      "nom": "Carlos Cuerpo",
+      "alies": [],
+      "wikidata": "Q124040442"
+    },
+    {
+      "nom": "Salvador Illa",
+      "alies": [
+        "president Illa",
+        "President Illa"
+      ],
+      "wikidata": "Q64577417"
+    },
+    {
+      "nom": "Jaume Collboni",
+      "alies": [
+        "Collboni"
+      ],
+      "wikidata": "Q11927262"
+    },
+    {
+      "nom": "Lleó XIV",
+      "alies": [
+        "papa Lleó",
+        "Papa Lleó",
+        "León XIV",
+        "Leo XIV"
+      ],
+      "wikidata": "Q6109517"
+    },
+    {
+      "nom": "Mateo Valero",
+      "alies": [],
+      "wikidata": "Q3305393",
+      "fitxer": "openverse:e32cab36-e38d-4731-9445-b99483525a84"
+    },
+    {
+      "nom": "Nuria Oliver",
+      "alies": [
+        "Núria Oliver"
+      ],
+      "wikidata": "Q18720176"
+    }
+  ]
+}
