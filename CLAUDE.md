@@ -99,6 +99,18 @@ Només el **dia 1 de cada mes**, al lot de les **10:05** (el més prim de notíc
 6. Posa `"actualitzat"` a la data d'avui i comprova que el JSON és vàlid: `node -e "JSON.parse(require('fs').readFileSync('public/data/agenda.json','utf8'))"`.
 7. Inclou el fitxer al mateix commit del lot. Si un mes no trobes res de nou, deixa'l com està i només actualitza `"actualitzat"`.
 
+### Formació en IA — revisió trimestral (tasca «Edicions», lot de les 10:05 dels dies 1 de gener, abril, juliol i octubre)
+
+Només aquests quatre dies, al lot de les **10:05**, un cop escrit el lot. La pàgina és `/formacio` (`public/formacio.php`) i només mostra les fitxes amb `"estat": "actiu"`.
+
+1. Llegeix `public/data/formacio.json`.
+2. Per a cada fitxa **activa**, obre l'URL oficial i comprova que el programa continua i que té edició oberta o prevista. Si canvia el nom, la llengua o la modalitat, corregeix-ho. Si ha desaparegut, posa `"estat": "retirat"` (no surt a la pàgina) i esborra la fitxa a la revisió següent. Posa `"verificat"` a la data d'avui.
+3. Torna a provar les fitxes **«per verificar»**: només passen a `"actiu"` si la web oficial ho confirma. ⚠️ Les webs de la Generalitat, la GVA i el Govern balear sovint bloquegen la lectura automàtica: si no pots confirmar-ho, deixa-les com estan i anota-ho al resum del lot.
+4. Cerca oferta **nova** als cinc territoris (Catalunya, País Valencià, Illes Balears, Andorra, Catalunya Nord): graus i màsters (sobretot a l'abril, quan surten les preinscripcions), FP (al juliol), cursos públics i formació per a docents. Només formació oficial, pública o sense ànim de lucre amb la IA com a eix. 🛑 No inventis cap camp: si no el saps, deixa'l buit.
+5. **Formació privada** (`"privada": true`): comprova que el camp `titol` encara diu la veritat sobre el títol que dona. 🛑 **No hi afegeixis cap centre privat nou sense l'OK d'en Rafael.** Els preus són referència interna: la pàgina no els mostra.
+6. Posa `"actualitzat"` a la data d'avui i `"propera_revisio"` al dia 1 del trimestre següent. Valida: `node -e "JSON.parse(require('fs').readFileSync('public/data/formacio.json','utf8'))"`.
+7. Inclou el fitxer al commit del lot. Si no hi ha canvis, actualitza només les dates.
+
 ## Regles
 
 - **Llengua: cap mot inventat.** «Pacar» (calc de l'anglès *to pace*) **no existeix en català**: fes servir «moderar el ritme», «acompassar», «alentir» o «frenar». En una cita traduïda, tradueix el sentit, no la forma de la paraula anglesa. No inventis mai verbs calcats de l'anglès o del castellà.
