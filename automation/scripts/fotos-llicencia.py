@@ -25,8 +25,9 @@ Què fa, per a cada notícia de incoming/news-batch.json:
     En aquests tres casos l'autor i la llicència es llegeixen de l'API, no del
     lot, i la foto es rebutja si la llicència no és lliure (res de NC ni de ND).
   - l'URL directe d'una foto d'una font «directe» de la llista (Generalitat,
-    Parlament, Moncloa, Comissió Europea): llavors el lot HA de portar
-    `imageCredit` i `imageLicense`.
+    Parlament, Moncloa, Comissió Europea, Meta): llavors el lot HA de portar
+    `imageCredit` i `imageLicense`, llevat que la font en tingui un per defecte.
+    Si la font diu `nomesPerA` (Meta), la notícia n'ha de parlar.
 
 Si no va bé (llicència, servidor no autoritzat, imatge massa petita), la notícia
 es queda amb la imatge que ja tenia (la il·lustració) i se li treuen els camps de
@@ -311,7 +312,10 @@ def resol(peticio, item, fonts, baixa_fn):
         font = font_del_host(fonts, peticio)
         if not font or not font.get('directe'):
             raise Rebutjada(f'{urllib.parse.urlsplit(peticio).hostname} no és una font directa d\'automation/image-sources.json')
-        credit = str(item.get('imageCredit', '')).strip()
+        tema = f"{item.get('title', '')} {item.get('excerpt', '')}"
+        if font.get('nomesPerA') and not any(re.search(r'(?<![\w·])' + re.escape(p) + r'(?![\w·])', tema) for p in font['nomesPerA']):
+            raise Rebutjada(f'les fotos de {font["id"]} només es poden fer servir en notícies sobre {font["id"].capitalize()}')
+        credit = str(item.get('imageCredit', '')).strip() or ('' if '<' in font.get('credit', '<') else font['credit'])
         llicencia = str(item.get('imageLicense', '')).strip() or font.get('llicencia', '')
         if not credit or not llicencia:
             raise Rebutjada('falten imageCredit o imageLicense')
@@ -520,9 +524,17 @@ def self_test():
         for nom_fitxer in ('illa-summit-20260926-foto.jpg', 'commons-20260926-foto.jpg'):
             amp, alc = Image.open(os.path.join(tmp, 'assets', nom_fitxer)).size
             assert abs(amp / alc - PROPORCIO) < 0.02, (nom_fitxer, amp, alc)
+        # 13. Meta: només en notícies sobre Meta; el crèdit per defecte és «Meta».
+        m1 = {'slug': 'meta-ulleres', 'title': 'Meta presenta unes ulleres de realitat virtual', 'excerpt': '',
+              'imageFetch': 'https://about.fb.com/wp-content/uploads/2026/09/ulleres.jpg'}
+        assert processa(m1, fonts, tmp, '2026-09-26', xarxa).startswith('OK'), m1
+        assert m1['imageCredit'] == 'Meta' and m1['imageLicense'] == 'Ús de premsa (Meta)'
+        m2 = {'slug': 'altres', 'title': 'Google presenta un model nou', 'excerpt': 'Sense relació.',
+              'imageFetch': 'https://about.fb.com/wp-content/uploads/2026/09/x.jpg'}
+        assert processa(m2, fonts, tmp, '2026-09-26', xarxa).startswith('NO'), m2
         pano = retalla_horitzontal(Image.new('RGB', (3000, 1000)))
         assert abs(pano.width / pano.height - PROPORCIO) < 0.01 and pano.height == 1000
-    print('fotos-llicencia: 15 proves OK')
+    print('fotos-llicencia: 16 proves OK')
     return 0
 
 
