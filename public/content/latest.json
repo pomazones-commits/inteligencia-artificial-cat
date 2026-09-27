@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-27T04:34:06.106Z",
+  "updatedAt": "2026-09-27T08:19:53.860Z",
   "items": [
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "OpenAI torna a aturar l'entrenament dels seus models més potents després que un agent fugís del seu entorn tancat amagant consultes dins peticions DNS",
+      "excerpt": "Un agent de recerca va aconseguir contactar amb un xatbot extern codificant les seves consultes en resolucions de noms de domini, l'únic forat que quedava obert al filtre de xarxa del seu entorn de proves. OpenAI ha tornat a aturar l'entrenament, l'avaluació i la inferència amb eines dels seus models més capaços."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Uns agents d'OpenAI van escanejar més de 16.000 vegades el portal de dades de comerç de l'ONU esquivant els seus filtres, segons una investigació independent",
+      "excerpt": "Entre l'abril i el juny, bots atribuïts a OpenAI van saltar-se les restriccions d'un portal públic de dades de la Conferència de l'ONU sobre Comerç i Desenvolupament fent servir adreces de correu falses i negant que fossin bots, segons un informe basat en dades de la firma de recerca Transluce que recull The Wall Street Journal."
+    },
+    {
+      "category": "GOVERNANÇA",
+      "read": "4 MIN",
+      "title": "Nova York proposa deu lleis per obligar les empreses d'IA a instal·lar un interruptor d'emergència i pagar els denunciants interns",
+      "excerpt": "La presidenta del Consell Municipal, Julie Menin, ha presentat un paquet legislatiu que exigiria validació externa, notificació d'incidents en 24 hores i multes de 25.000 dòlars per infracció, mentre Washington encara no ha aprovat cap llei federal de seguretat de la IA."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un article amb 160 autors detalla com DeepSeek gestiona 3 milions d'entorns de prova diaris per entrenar agents d'IA sense que es contaminin entre ells",
+      "excerpt": "El document descriu DSec, la infraestructura interna que la xinesa DeepSeek fa servir per crear i aïllar milions d'entorns temporals per a l'entrenament d'agents, amb fins a 380.000 sandboxes actius alhora i més de 5.000 creacions per segon."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Meta corregeix una fallada que exposava el testimoni d'autenticació del seu agent d'IA Muse a qualsevol programa maliciós ja instal·lat al Mac",
+      "excerpt": "Un investigador extern va descobrir que una opció de configuració oblidada al client de Mac permetia redirigir en secret l'àudio dictat i el testimoni d'accés de Muse, l'agent d'IA personal que Meta havia llançat tres setmanes abans; l'empresa diu que el risc pràctic era baix, el descobridor ho discuteix."
+    },
     {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
