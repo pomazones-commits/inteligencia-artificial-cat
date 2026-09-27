@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-27T12:18:52.372Z",
+  "updatedAt": "2026-09-27T16:20:55.370Z",
   "items": [
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "title": "Uns investigadors demostren com un sol formulari web podia buidar en silenci les dades de qualsevol client de l'agent d'IA Agentforce de Salesforce",
+      "excerpt": "Zenity Labs descriu «SalesBleed», tres fallades que permetien injectar instruccions ocultes en un formulari públic de captació de clients i, sense cap clic de l'empleat, fer sortir dades del CRM per consultes DNS camuflades en imatges. Salesforce ho va corregir l'agost."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un estudi troba que els models de llenguatge «saben» més gramàtica de la que arriben a fer servir quan responen",
+      "excerpt": "Un article acceptat a la conferència AACL-IJCNLP 2026 distingeix tres nivells per mesurar si un model ha après una estructura sintàctica: si la fa servir en la resposta, si la codifica internament i si un sensor extern la pot recuperar. En set models i tres llengües, el tercer nivell sempre supera els altres dos."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Nvidia publica en obert un model que identifica qui parla en una conversa amb la meitat d'errors que els sistemes anteriors",
+      "excerpt": "Nemotron 3 Diarization distingeix fins a vuit veus diferents en un àudio, en temps real o gravat, amb una sola passada d'un transformador de 31 capes. En el banc de proves independent VoiceArena queda primer entre dotze sistemes, amb una millora relativa d'un 24% respecte del segon."
+    },
+    {
+      "category": "MEDIAMBIENT",
+      "read": "3 MIN",
+      "title": "Una empresa catalana combina intel·ligència artificial i blockchain per vigilar l'estat dels boscos reforestats",
+      "excerpt": "Vottun desenvolupa DEEPFOREST, un sistema que analitza imatges de satèl·lit amb IA per detectar sequeres, incendis i plagues fins a un 50% més ràpid que els mètodes tradicionals, i guarda les dades en una base protegida per blockchain. El projecte compta amb 173.546 euros d'ACCIÓ."
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "title": "Investigadors troben 349 «habilitats» d'agents d'IA que enllacen a dominis d'exemple que qualsevol estafador pot registrar",
+      "excerpt": "Manifold Security detecta que 349 «skills» d'agents d'intel·ligència artificial i 359.000 fitxers de GitHub citen dominis d'exemple no reservats com «yoursite.com», que després es poden registrar i convertir en pàgines d'estafa sense tocar ni una línia del codi original."
+    },
     {
       "category": "GEOPOLÍTICA",
       "read": "4 MIN",
