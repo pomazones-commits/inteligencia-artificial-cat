@@ -67,6 +67,15 @@ if (!$article) {
 $canonical = $base . '/article.php?slug=' . rawurlencode($slug);
 $desc = trim((string) ($article['excerpt'] ?? ''));
 $imgAbs = absolute_asset((string) ($article['image'] ?? ''), $base);
+// Fotografia real amb llicència o il·lustració generada amb IA (27.09.2026).
+// El crèdit només el posa automation/scripts/fotos-llicencia.py; tota la resta
+// d'imatges de notícia són il·lustracions i així s'han de declarar.
+$imgCredit = trim((string) ($article['imageCredit'] ?? ''));
+$imgLicense = trim((string) ($article['imageLicense'] ?? ''));
+$imgCreditUrl = (string) ($article['imageSourceUrl'] ?? '');
+if (!preg_match('#^https?://#i', $imgCreditUrl)) { $imgCreditUrl = ''; }
+$isPhoto = $imgCredit !== '';
+$imgAlt = ($isPhoto ? 'Fotografia: ' : 'Il·lustració generada amb IA: ') . (string) $article['title'];
 $audioFile = __DIR__ . '/assets/audio/' . $slug . '.mp3';
 $audioUrl = ($slug !== '' && is_file($audioFile)) ? './assets/audio/' . $slug . '.mp3?v=' . (string) filemtime($audioFile) : '';
 $category = utf8_upper((string) ($article['category'] ?? 'ACTUALITAT'));
@@ -152,12 +161,12 @@ $shareText = rawurlencode((string) $article['title']);
   <meta property="og:title" content="<?= e((string) $article['title']) ?>"><meta property="og:description" content="<?= e($desc) ?>"><meta property="og:url" content="<?= e($canonical) ?>">
   <meta property="article:author" content="<?= e($authorName) ?>"><meta property="article:section" content="<?= e($category) ?>">
   <?php if ($publishedIso !== ''): ?><meta property="article:published_time" content="<?= e($publishedIso) ?>"><?php endif; ?>
-  <?php if ($imgAbs !== ''): ?><meta property="og:image" content="<?= e($imgAbs) ?>"><meta property="og:image:alt" content="Il·lustració editorial de <?= e((string) $article['title']) ?>"><meta name="twitter:card" content="summary_large_image"><?php else: ?><meta property="og:image" content="https://inteligencia-artificial.cat/assets/og-portada.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="intel·ligènciaartificial.cat — el briefing diari de la intel·ligència artificial en català"><meta name="twitter:card" content="summary_large_image"><?php endif; ?>
+  <?php if ($imgAbs !== ''): ?><meta property="og:image" content="<?= e($imgAbs) ?>"><meta property="og:image:alt" content="<?= e($imgAlt) ?>"><meta name="twitter:card" content="summary_large_image"><?php else: ?><meta property="og:image" content="https://inteligencia-artificial.cat/assets/og-portada.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="intel·ligènciaartificial.cat — el briefing diari de la intel·ligència artificial en català"><meta name="twitter:card" content="summary_large_image"><?php endif; ?>
   <script type="application/ld+json"><?= json_encode($jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="./editorial.css?v=2026072301"><script defer src="./shared.js?v=2026092401"></script>
-  <style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.tts-player button,.tts-speed select{font-family:inherit}.tts-player button{padding:9px 13px;border:1px solid #dfe3eb;background:#fff;color:#233a82;cursor:pointer}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:430px}.tts-note,.tts-speed{font-size:11px;color:#5d6472}</style>
+  <style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.tts-player button,.tts-speed select{font-family:inherit}.tts-player button{padding:9px 13px;border:1px solid #dfe3eb;background:#fff;color:#233a82;cursor:pointer}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:430px}.tts-note,.tts-speed{font-size:11px;color:#5d6472}.article-hero-figure{margin:0}.article-hero-caption{margin:8px 0 0;font-size:12px;line-height:1.4;color:#5d6472;text-align:right}.article-hero-caption a{color:inherit;text-decoration:underline;text-underline-offset:2px}</style>
 </head>
 <body class="editorial-body">
   <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./tribuna.html">Tribuna</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
@@ -174,7 +183,7 @@ $shareText = rawurlencode((string) $article['title']);
       </div>
     </header>
 
-    <?php if (!empty($article['image'])): ?><img class="article-hero-image" src="<?= e((string) $article['image']) ?>" alt="Il·lustració editorial de <?= e((string) $article['title']) ?>"><?php endif; ?>
+    <?php if (!empty($article['image'])): ?><figure class="article-hero-figure"><img class="article-hero-image" src="<?= e((string) $article['image']) ?>" alt="<?= e($imgAlt) ?>"><figcaption class="article-hero-caption"><?php if ($isPhoto): ?>Foto: <?php if ($imgCreditUrl !== ''): ?><a href="<?= e($imgCreditUrl) ?>" target="_blank" rel="noopener noreferrer"><?= e($imgCredit) ?></a><?php else: ?><?= e($imgCredit) ?><?php endif; ?><?php if ($imgLicense !== ''): ?> · <?= e($imgLicense) ?><?php endif; ?><?php else: ?>Il·lustració generada amb IA<?php endif; ?></figcaption></figure><?php endif; ?>
 
     <div class="article-layout">
       <article>

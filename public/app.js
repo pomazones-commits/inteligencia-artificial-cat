@@ -35,6 +35,12 @@
 
   const escapeHTML = (value = '') => String(value).replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[c]);
   const storyHref = story => story.slug ? `./article.php?slug=${encodeURIComponent(story.slug)}` : (story.url || '#');
+  // Crèdit d'una fotografia real amb llicència (27.09.2026): les llicències
+  // demanen citar l'autor allà on es mostra la foto. Estils en línia per no
+  // tocar portada.css. Les il·lustracions no en porten (el peu és a l'article).
+  const photoCredit = story => story.imageCredit
+    ? `<span class="foto-credit" style="position:absolute;right:8px;bottom:8px;z-index:2;max-width:calc(100% - 16px);padding:2px 7px;border-radius:3px;background:rgba(17,21,38,.62);color:#fff;font-size:11px;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none">Foto: ${escapeHTML(story.imageCredit)}</span>`
+    : '';
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   function init(news, radar, status) {
@@ -126,7 +132,7 @@
       stage.innerHTML = `
         <article class="hero-story" aria-label="Notícia ${activeIndex + 1} de ${dailyStories.length}">
           <a class="hero-story__image" href="${escapeHTML(storyHref(story))}">
-            ${story.image ? `<img src="${escapeHTML(story.image)}" alt="" fetchpriority="high">` : ''}
+            ${story.image ? `<img src="${escapeHTML(story.image)}" alt="" fetchpriority="high">${photoCredit(story)}` : ''}
           </a>
           <div class="hero-story__content">
             <p class="story-number">${indexLabel} — ${totalLabel}</p>
@@ -214,7 +220,7 @@
       newsGrid.innerHTML = items.map(story => `
         <article class="news-card">
           <a href="${escapeHTML(storyHref(story))}">
-            ${story.image ? `<div class="news-card__image"><img src="${escapeHTML(story.image)}" alt="" loading="lazy"></div>` : ''}
+            ${story.image ? `<div class="news-card__image"${story.imageCredit ? ' style="position:relative"' : ''}><img src="${escapeHTML(story.image)}" alt="" loading="lazy">${photoCredit(story)}</div>` : ''}
             <p class="story-meta"><i></i>${escapeHTML(story.category)} · ${escapeHTML(story.read || '5 MIN')}</p>
             <h3>${escapeHTML(story.title)}</h3>
             <p>${escapeHTML(story.excerpt || '')}</p>
