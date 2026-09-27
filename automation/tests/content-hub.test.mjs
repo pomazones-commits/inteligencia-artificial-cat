@@ -674,3 +674,54 @@ test('--dies només retalla la llista, mai els vetos', async () => {
   assert.deepEqual(dades.temesVetats, ['cultura'], '…però el tema segueix vetat');
   assert.deepEqual(dades.subjectesVetats, ['tecnica-de-so']);
 });
+
+// ── Fotografies reals amb llicència (27.09.2026) ─────────────────────────────
+test('una foto amb llicència (-foto.jpg) conserva el crèdit fins a news.js i articles.json', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  const foto = {
+    ...story(1),
+    image: './assets/noticia-1-20260926-foto.jpg',
+    imageCredit: 'Arnau Carbonell / Generalitat de Catalunya',
+    imageLicense: 'CC0',
+    imageSourceUrl: 'https://govern.cat/gov/notes-premsa/1/x',
+    imageFetch: 'https://cdn-govern.watchity.net/govern/images/1.jpg'
+  };
+  await writeFile(input, JSON.stringify([foto, story(2)]), 'utf8');
+  const result = run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-09-26'], root);
+  assert.equal(result.status, 0, result.stderr);
+  const published = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  const item = published.find(story => story.slug === 'noticia-de-prova-1');
+  assert.equal(item.imageCredit, 'Arnau Carbonell / Generalitat de Catalunya');
+  assert.equal(item.imageLicense, 'CC0');
+  assert.equal(item.imageSourceUrl, 'https://govern.cat/gov/notes-premsa/1/x');
+  assert.equal(item.imageFetch, undefined, 'el camp intern no arriba mai al web');
+  const articles = JSON.parse(await readFile(join(root, 'data', 'articles.json'), 'utf8'));
+  assert.equal(articles.items.find(story => story.slug === 'noticia-de-prova-1').imageCredit, item.imageCredit);
+  assert.equal(published.find(story => story.slug === 'noticia-de-prova-2').imageCredit, undefined);
+});
+
+test('un crèdit de foto damunt d’una il·lustració (sense -foto) es descarta', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  const falsa = { ...story(1), imageCredit: 'Algú', imageLicense: 'CC0', imageSourceUrl: 'https://govern.cat/x' };
+  const sensImatge = { ...story(2), imageCredit: 'Algú', imageLicense: 'CC0' };
+  delete sensImatge.image;
+  await writeFile(input, JSON.stringify([falsa, sensImatge]), 'utf8');
+  const result = run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-09-26'], root);
+  assert.equal(result.status, 0, result.stderr);
+  for (const item of parseAssignment(await readFile(join(root, 'news.js'), 'utf8'))) {
+    assert.equal(item.imageCredit, undefined, item.slug);
+    assert.equal(item.imageLicense, undefined, item.slug);
+    assert.equal(item.imageSourceUrl, undefined, item.slug);
+  }
+});
+
+test('fotos-llicencia.py passa les seves proves sense xarxa', () => {
+  const py = resolve(import.meta.dirname, '..', 'scripts', 'fotos-llicencia.py');
+  const result = spawnSync('python3', [py, '--self-test'], { encoding: 'utf8' });
+  if (result.error?.code === 'ENOENT') return; // sense python3 no hi ha res a provar
+  if (/No module named 'PIL'/.test(result.stderr)) return; // Pillow s'instal·la al workflow només si cal
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stdout, /15 proves OK/);
+});
