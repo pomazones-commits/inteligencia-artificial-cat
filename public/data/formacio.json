@@ -1,7 +1,7 @@
 {
- "actualitzat": "2026-09-26",
+ "actualitzat": "2026-09-27",
  "propera_revisio": "2027-01-01",
- "nota": "Formació en IA als Països Catalans (manual; revisió trimestral a la tasca «Edicions», vegeu CLAUDE.md). La pàgina /formacio només mostra les fitxes amb \"estat\": \"actiu\". Estats: actiu | per verificar | sense edició nova | comença el 2027 | retirat. Camp opcional \"logo\": \"/assets/formacio-<slug>.png\" (mateix format que l'Ecosistema). Els preus són referència interna: la pàgina no els mostra.",
+ "nota": "Formació en IA als Països Catalans (manual; revisió trimestral a la tasca «Edicions», vegeu CLAUDE.md). La pàgina /formacio només mostra les fitxes amb \"estat\": \"actiu\". Estats: actiu | per verificar | sense edició nova | comença el 2027 | retirat | fora de criteri. Camp opcional \"logo\": \"/assets/formacio-<slug>.png\" (mateix format que l'Ecosistema). Els preus són referència interna: la pàgina no els mostra.",
  "criteris": "Formació oficial (universitats, FP), pública o sense ànim de lucre amb la IA com a eix; la formació privada va en un bloc a part, etiquetada i amb el títol real que dona. Cap enllaç d'afiliat.",
  "programes": [
   {
@@ -445,7 +445,7 @@
    "logo": "/assets/formacio-uoc.png"
   },
   {
-   "nom": "Màster Universitari en Intel·ligència Artificial (Master of Science in Artificial Intelligence)",
+   "nom": "Master of Science in Artificial Intelligence",
    "centre": "La Salle – Universitat Ramon Llull (ETS d'Enginyeria La Salle)",
    "sigles": "URL",
    "territori": "Catalunya",
@@ -454,14 +454,14 @@
    "oficial": true,
    "modalitat": "presencial",
    "llengua": "anglès",
-   "durada": "",
+   "durada": "10 mesos (60 ECTS), inici el 19.10.2026; tardes entre setmana amb algunes sessions en línia",
    "privada": false,
    "preu": "",
    "gratuit": false,
    "url": "https://www.salleurl.edu/en/education/master-science-artificial-intelligence",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Apareix al directori oficial d'estudis de la URL (url.edu/en/estudis) com a màster universitari en anglès, però l'eina no ha pogut obrir la web de La Salle (robots.txt/timeout). No s'han pogut comprovar ni l'edició 2026-2027 ni les dades. Cal revisar-ho a mà.",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La fitxa oficial de La Salle (salleurl.edu, consultada el 27.09.2026) mostra l'edició que comença el 19 d'octubre de 2026: presencial a Barcelona, en anglès, 60 ECTS, 10 mesos i 60 places, amb títol expedit pel Ministeri d'Educació.",
    "logo": "/assets/formacio-lasalle-url.png"
   },
   {
@@ -639,9 +639,9 @@
    "preu": "",
    "gratuit": null,
    "url": "https://fp.gencat.cat/ca/Oferta-fpcat-365/Cercador-oferta-FPCAT-365/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Cercador oficial de l'oferta d'FP, on es poden consultar tots els centres que fan el curs. No s'ha pogut obrir amb el lector automàtic perquè fp.gencat.cat ho impedeix (robots.txt). L'URL s'ha trobat en un cercador web. Cal accés previ amb un títol de grau superior d'informàtica o afins.",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "El cercador oficial FPCAT funciona. Es nodreix del conjunt de dades obertes 7vig-4syr (analisi.transparenciacatalunya.cat), que s'ha consultat el 27.09.2026. Per al curs EFPS IC03 (IA i Big Data) hi surten set centres amb inici el 14.09.2026. Amb finançament públic: Institut Francesc Vidal i Barraquer (Tarragona), Institut Sa Palomera (Blanes) i Institut Bernat el Ferrer (Molins de Rei). Sense finançament públic: La Salle Gràcia, Jesuïtes Clot, Monlau La Maquinista i Stucom Pelai, tots a Barcelona. L'Institut TIC de Barcelona surt al cercador amb altres cicles, però no amb aquest curs, tot i que la seva web confirma l'edició 2026-27 (vegeu l'idx 35).",
    "logo": "/assets/ecosistema-gencat.png"
   },
   {
@@ -699,9 +699,10 @@
    "preu": "",
    "gratuit": null,
    "url": "https://www.vidalibarraquer.net/index.php/cicles-de-la-familia-informatica/curs-d-especialitzacio-en-intel-ligencia-artificial-i-big-data",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Centre públic. La pàgina funciona, però la informació és del maig del 2022 i no confirma l'edició 2026-27. Cal comprovar-ho al cercador FPCAT o amb el centre."
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La pàgina del centre és del maig del 2022, però el cercador oficial FPCAT (dades obertes 7vig-4syr, consultades el 27.09.2026) llista el curs EFPS IC03 a l'Institut Francesc Vidal i Barraquer de Tarragona, amb finançament públic i inici el 14.09.2026.",
+   "logo": "/assets/formacio-vidal-barraquer.png"
   },
   {
    "nom": "Curs d'especialització en Intel·ligència Artificial i Big Data",
@@ -713,14 +714,15 @@
    "oficial": true,
    "modalitat": "presencial",
    "llengua": "català",
-   "durada": "600 h",
+   "durada": "600 h, de tarda (dl.–dj. 16.30–21.00, dv. 18.00–21.00)",
    "privada": false,
    "preu": "",
    "gratuit": null,
-   "url": "https://agora.xtec.cat/iticbcn/portada/curs-despecialitzacio-en-intelligencia-artificial-i-big-data/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Centre públic. Els cercadors web el mostren com a centre que ofereix el curs, amb preinscripció fins al 2025-26. La web (agora.xtec.cat) no s'ha pogut obrir perquè entra en un bucle de redireccions. No s'ha confirmat el 2026-27."
+   "url": "https://agora.xtec.cat/iticbcn/projecte-educatiu/ce-en-intelligencia-artificial-i-big-data/",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La web del centre (agora.xtec.cat/iticbcn, que ara s'obre bé) publica a «CE – Preinscripció i matrícula» el calendari de preinscripció dels cursos d'especialització 2026-2027, amb el formulari del 25.06 al 03.07.2026 i la «Llista d'admesos i llista d'espera pel Curs d'Especialització en Intel·ligència Artificial i Big Data» del 13.07.2026. L'URL antic és una notícia del 2023. Atenció: el cercador FPCAT no el llista per a aquest curs.",
+   "logo": "/assets/formacio-itic.png"
   },
   {
    "nom": "Curs d'especialització en Intel·ligència Artificial i Big Data",
@@ -737,9 +739,10 @@
    "preu": "",
    "gratuit": null,
    "url": "https://www.sapalomera.cat/estudis/cicles-formatius-informatica/intelligencia-artificial-i-big-data/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Centre públic, l'únic de la demarcació de Girona que s'ha trobat. Segons els cercadors web hi ha una llista d'admesos del 2025-26. La web dona un error de certificat SSL i no s'ha pogut obrir. No s'ha confirmat el 2026-27."
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La web (sapalomera.cat) ara s'obre bé i anuncia portes obertes el 24.03.2026. El cercador oficial FPCAT (dades obertes 7vig-4syr, consultades el 27.09.2026) llista el curs EFPS IC03 a l'Institut Sa Palomera de Blanes, amb finançament públic i inici el 14.09.2026.",
+   "logo": "/assets/formacio-sa-palomera.png"
   },
   {
    "nom": "Curs d'especialització (Màster FP) CE IC03 — Intel·ligència Artificial i Big Data",
@@ -796,9 +799,9 @@
    "preu": "",
    "gratuit": true,
    "url": "https://politiquesdigitals.gencat.cat/ca/ciutadania/pla-de-xoc-contra-la-bretxa-digital/index.html",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Forma part del pla contra la bretxa digital. La nota del Govern del 27.10.2025 (govern.cat) confirma el curs, en línia i gratuït, del 3 de novembre del 2025 al juny del 2026. La pàgina del programa no s'ha pogut obrir (robots.txt). No se sap si hi haurà edició 2026-27.",
+   "estat": "retirat",
+   "verificat": "2026-09-27",
+   "notes": "La pàgina oficial de Més digitals (politiquesdigitals.gencat.cat, consultada el 27.09.2026) en parla en passat: «S'ha implementat entre el gener de 2025 i juny de 2026». Els cursos virtuals de 8 h incloïen la IA, però no s'anuncia cap edició nova.",
    "logo": "/assets/ecosistema-gencat.png"
   },
   {
@@ -874,11 +877,11 @@
    "durada": "Prova de 60 preguntes (màxim 100 minuts)",
    "privada": false,
    "preu": "",
-   "gratuit": null,
+   "gratuit": false,
    "url": "https://actic.gencat.cat/ca/la-prova/continguts26/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "És una acreditació oficial, no un curs. Els continguts nous són vigents des del 15.09.2026, segons la nota de premsa de govern.cat (llegida), i inclouen l'ús responsable i la sensibilització sobre la IA. Nous perfils: Participant, Actiu i Transformador. La pàgina actic.gencat.cat no s'ha pogut obrir (robots.txt) i no s'ha pogut confirmar el preu de la prova.",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La pàgina actic.gencat.cat/ca/la-prova/continguts26/ confirma el model ACTIC 2026, amb continguts vigents per a les sol·licituds presentades a partir del 15.09.2026. Segons la pàgina de procediment, per fer la prova cal pagar la taxa legal, tot i que hi ha supòsits d'exempció i de bonificació. És un servei estable i vigent.",
    "logo": "/assets/ecosistema-gencat.png"
   },
   {
@@ -896,9 +899,9 @@
    "preu": "",
    "gratuit": true,
    "url": "https://conforcat.gencat.cat/ca/Treballadors/cercador-cursos-del-consorci/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Les notes del Govern confirmen cursos 100% subvencionats per a treballadors ocupats el 2026 (uns 115.000 en formació sectorial i transversal). Els imparteixen entitats diverses i el cercador inclou cursos d'IA. El cercador no s'ha pogut obrir (robots.txt).",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "El cercador de cursos del Consorci (conforcat.gencat.cat) funciona. Al cercador FPCAT (dades obertes 7vig-4syr, 27.09.2026) hi ha 21 accions del CFCC sobre IA que comencen entre el 24.09 i el 02.11.2026. Alguns exemples: «Introducció a la intel·ligència artificial» (25 h; Deltebre, Lleida i Torredembarra, i també virtual), «Fonaments de la IA generativa» (60 h, virtual), «Millora la teva productivitat amb IA» (100 h; Reus o virtual) i «Eines d'IA per a una educació inclusiva» (30 h, Igualada).",
    "logo": "/assets/ecosistema-gencat.png"
   },
   {
@@ -916,9 +919,9 @@
    "preu": "",
    "gratuit": true,
    "url": "https://serveiocupacio.gencat.cat/ca/persones/vull-formar-me/formacio-professional-ocupacio-persones-aturades/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Cursos gratuïts per a persones aturades, impartits per centres col·laboradors. Hi ha cursos d'IA generativa i ChatGPT, com els de la Fundació CIM UPC. La pàgina del SOC no s'ha pogut obrir (robots.txt) i no s'ha pogut confirmar l'oferta concreta d'IA del 2026.",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La pàgina oficial del SOC funciona i descriu l'FPO per a persones aturades o en actiu, amb un enllaç al cercador de cursos. Al cercador FPCAT (dades obertes 7vig-4syr, 27.09.2026) hi ha cursos del SOC amb IA per a la tardor del 2026: «ChatGPT i Intel·ligència Artificial» (60 h, CIFO La Violeta, 03.12.2026), «Programador júnior de JavaScript amb IA» (150 h, CIFO La Violeta, 15.12.2026), «Posicionament web i màrqueting digital amb IA» (150 h, CIFO La Violeta, 09.11 i 17.12.2026) i «IA aplicada a màrqueting digital» (200 h, CIFO Vallès, Terrassa, 01.09.2026).",
    "logo": "/assets/ecosistema-gencat.png"
   },
   {
@@ -982,7 +985,7 @@
    "logo": "/assets/ecosistema-gencat.png"
   },
   {
-   "nom": "Local.IA — formació en IA i dades per a personal tècnic municipal",
+   "nom": "Local.iA — formació en IA i dades per a personal tècnic municipal",
    "centre": "Diputació de Barcelona",
    "sigles": "Diba",
    "territori": "Catalunya",
@@ -995,10 +998,10 @@
    "privada": false,
    "preu": "",
    "gratuit": null,
-   "url": "https://www.diba.cat/en/web/local-ia",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Programa per als ajuntaments de la demarcació. Segons el Diari de la Diba, el 2025 s'hi van formar uns 350 perfils tècnics municipals. La web de diba.cat no s'ha pogut obrir (robots.txt) i no s'ha confirmat l'oferta del 2026. L'URL, trobat en un cercador web, és el de la versió anglesa de la pàgina.",
+   "url": "https://localia.cat/ca/cursos",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "diba.cat/web/local-ia redirigeix ara a localia.cat. La notícia del 09.09.2026, «Noves formacions en dades i intel·ligència artificial», anuncia cursos per a la tardor del 2026 amb inscripció oberta. Entre altres: «La IA impactarà sí o sí en la teva administració» (14–23.09.2026, en línia i presencial), «Desenvolupar projectes d'IA a l'administració» (nivell avançat, 14–28.10.2026) i cursos de dades per Zoom al setembre i l'octubre.",
    "logo": "/assets/ecosistema-local-ia.png"
   },
   {
@@ -1011,14 +1014,14 @@
    "oficial": true,
    "modalitat": "semipresencial",
    "llengua": "català",
-   "durada": "Variable",
+   "durada": "15–30 h segons el curs",
    "privada": false,
    "preu": "",
    "gratuit": true,
    "url": "https://projectes.xtec.cat/ia/formacio/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Espai oficial del Departament sobre IA a l'aula, amb formació, recursos i experiències. No s'ha pogut obrir (bucle de redireccions). Hi ha activitat confirmada el 2026: la jornada de presentació del marc de Competència digital docent en IA (13.01.2026), segons el canal oficial de Telegram projectes_xtec/digital. El Departament també ha anunciat orientacions d'ús de la IA als centres per al curs 2026-27.",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La pàgina projectes.xtec.cat/ia/formacio/ ara s'obre bé (peu de pàgina de 2026). Hi ha dos cursos certificables de 30 h, «IA pràctica per a docents» i «Cocreació de situacions d'aprenentatge amb IAG», que s'ofereixen al primer torn, al segon torn i al torn d'estiu de l'oferta del Departament (ara amb la inscripció tancada). També hi ha dues formacions obertes sense certificació, de 15 h i de 30 h. És un catàleg estable i vigent.",
    "logo": "/assets/ecosistema-gencat.png"
   },
   {
@@ -1096,9 +1099,9 @@
    "preu": "",
    "gratuit": null,
    "url": "https://www.rosasensat.org/tag/intelligencia-artificial/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Entitat sense ànim de lucre. El novembre del 2025 va anunciar a X una formació gratuïta sobre la IA a l'aula, i té o ha tingut cursos com «Aprenem a utilitzar la IA» i «Treball per projectes amb IA». Aquestes pàgines i l'etiqueta enllaçada ara donen error 404, i la portada actual no mostra cap curs d'IA per al 2026-27.",
+   "estat": "retirat",
+   "verificat": "2026-09-27",
+   "notes": "L'etiqueta /tag/intelligencia-artificial/ ja no mostra cap contingut, i la cerca interna no dona resultats d'IA. La pàgina «Oportunitats formatives (tardor-hivern)» de rosasensat.org (consultada el 27.09.2026) té vuit cursos i cap no tracta de la IA. No hi ha cap curs d'IA anunciat per al 2026-27.",
    "logo": "/assets/formacio-rosa-sensat.png"
   },
   {
@@ -1316,9 +1319,9 @@
    "preu": "",
    "gratuit": false,
    "url": "https://www.uv.es/titols-propis/ca/listado/titol-propi.html?p5=inteligencia-artificial-IA",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Títol propi que apareix als cercadors, però la fitxa es carrega amb JavaScript i no se n'ha pogut llegir l'edició, les dates ni el preu. La web antiga del Màster IA^3 (idal.uv.es) només mostra l'edició 2020-2021.",
+   "estat": "retirat",
+   "verificat": "2026-09-27",
+   "notes": "La fitxa de l'URL surt buida. El catàleg de títols propis de la UV/ADEIT (consultat el 27.09.2026, subàrea «Intel·ligència Artificial» i totes les àrees) no inclou cap «Màster de Formació Permanent en Intel·ligència Artificial» genèric. Sí que hi ha, entre altres: el Màster de Formació Permanent en Big Data i IA a l'Esport (2a ed., en línia, 60 ECTS, 2.500 €, preinscripció fins al 20.10.2026), el Màster de Formació Permanent en Règim Jurídic de l'Ús de la IA a l'Administració i la Justícia (1a ed., en línia, 60 ECTS, 1.750 €, preinscripció fins al 23.09.2026) i un Expert Universitari en IA amb enquadrament jurídic.",
    "logo": "/assets/formacio-uv.png"
   },
   {
@@ -1558,7 +1561,7 @@
    "url": "https://digitalia.valgrai.eu/cursos-presenciales/",
    "estat": "per verificar",
    "verificat": "",
-   "notes": "Programa gratuït amb certificat. La web diu que dura fins al 30.06.2026; la premsa del gener del 2026 diu que les activitats s'allarguen fins al segon semestre del 2026. No se n'ha pogut confirmar la continuïtat el curs 2026-2027.",
+   "notes": "La web digitalia.valgrai.eu continua en línia, amb el catàleg de cursos gratuïts (alguns marcats «Nuevo»), la inscripció d'ajuntaments i entitats i el Digital-IA Fest. Ara bé, no mostra cap data ni calendari (el peu diu © 2025) i no confirma cap edició o continuïtat per al curs 2026-27.",
    "logo": "/assets/formacio-valgrai.png"
   },
   {
@@ -1591,14 +1594,14 @@
    "oficial": true,
    "modalitat": "presencial",
    "llengua": "",
-   "durada": "600 h",
+   "durada": "600 h (30 setmanes)",
    "privada": false,
    "preu": "",
    "gratuit": true,
    "url": "https://ceice.gva.es/va/web/formacion-profesional/publicador-de-cursos-especialitzacio/-/asset_publisher/MRg14dkTb9DQ/content/inteligencia-artificial-y-big-data",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Pàgina oficial de la Conselleria amb la fitxa del curs i els centres. El robots.txt n'impedeix la lectura automàtica: cal revisar-la a mà. Centres on apareix el curs: CIPFP Mislata, IES Antonio Sequeros (Almoradí), IES Severo Ochoa (Elx), IES Pere Maria Orts (Benidorm), IES Eduardo Primo Marqués (Carlet), IES Sant Vicent Ferrer, IES San Vicente i IES Benigasló (Vila-real). Cal accés des d'un grau superior d'FP.",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La fitxa oficial de la Conselleria ara s'obre bé (600 h, RD 279/2021, mòduls 5071–5075). El «Dossier cursos especialització» de ceice.gva.es porta el títol «Oferta de cursos d'especialització en la Comunitat Valenciana, curs 2026-27» i hi inclou Intel·ligència Artificial i Big Data. L'enllaç «On estudiar» de la fitxa dona error, però el CIPFP Mislata i l'IES Antonio Sequeros en confirmen l'edició 2026-27 (idx 80 i 81).",
    "logo": "/assets/formacio-gva.png"
   },
   {
@@ -1616,9 +1619,10 @@
    "preu": "",
    "gratuit": true,
    "url": "https://www.fpmislata.com/wordpress/inteligencia-artificial-y-big-data-2/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Centre públic; l'URL funciona. La pàgina no esmenta el curs 2026-2027 (l'última data que s'hi veu és del 2022)."
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La pàgina del curs és del 2022, però la pàgina «Proceso de admisión | Cursos especialización» del centre (fpmislata.com) és de l'«Admisión curso 2026-27». Hi consten la preinscripció a AdmiNOVA del 25.05 al 02.06.2026, les llistes provisionals del 08.07.2026 i la matrícula al juliol, amb una «Mesa 3: Inteligencia Artificial y Big Data».",
+   "logo": "/assets/formacio-cipfp-mislata.png"
   },
   {
    "nom": "Curs d'Especialització en Intel·ligència Artificial i Big Data",
@@ -1630,14 +1634,14 @@
    "oficial": true,
    "modalitat": "semipresencial",
    "llengua": "castellà",
-   "durada": "600 h (d'octubre a maig)",
+   "durada": "600 h (d'octubre a maig); presentació l'1.10.2026 i classes des del 5.10.2026",
    "privada": false,
    "preu": "",
    "gratuit": true,
    "url": "https://portal.edu.gva.es/iesantoniosequeros/ensenanzas/fp/curso-de-especializacion-en-inteligencia-artificial-y-big-data/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Centre públic. Es fa semipresencial des del 2024-2025 amb la plataforma AULES. La guia didàctica és del 2025-2026; no s'ha trobat la confirmació del 2026-2027.",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La notícia del centre del 16.09.2026, «Presentación Cursos de Especialización (Curso 2026/2027)», anuncia la presentació del CE IABD l'1 d'octubre a les 16.30 h i l'inici de les classes el 5 d'octubre. També s'hi ha publicat la llista definitiva d'admesos del 2026-27. Continua sent semipresencial (AULES).",
    "logo": "/assets/formacio-gva.png"
   },
   {
@@ -1650,14 +1654,14 @@
    "oficial": true,
    "modalitat": "",
    "llengua": "",
-   "durada": "",
+   "durada": "800 h en 30 setmanes (inclou formació en empresa)",
    "privada": false,
    "preu": "",
    "gratuit": true,
-   "url": "https://ceice.gva.es/es/web/formacion-profesional/publicador-de-cursos-especialitzacio",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Curs d'especialització nou creat per l'Estat el març del 2026. Segons la premsa (València Extra, 19.05.2026), la Comunitat Valenciana l'incorpora al 2026-2027. No s'han pogut verificar els centres: la pàgina de la Conselleria està bloquejada per robots.txt.",
+   "url": "https://ceice.gva.es/va/web/formacion-profesional/publicador-de-cursos-especialitzacio/-/asset_publisher/MRg14dkTb9DQ/content/aprendizaje-autom%C3%A1tico-gesti%C3%B3n-de-datos-y-entrenamiento",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "El dossier oficial «Oferta de cursos d'especialització en la Comunitat Valenciana, curs 2026-27» (ceice.gva.es) inclou, dins la nova família «Intel·ligència artificial i Data», «Aprenentatge automàtic: gestió de dades i entrenament» i també «Aprenentatge automàtic: instal·lació, desplegament i explotació de sistemes». La fitxa oficial indica 800 h i formació en empresa obligatòria. No s'han pogut veure els centres que l'ofereixen.",
    "logo": "/assets/formacio-gva.png"
   },
   {
@@ -1677,12 +1681,12 @@
    "url": "https://labora.gva.es/es/novetats/-/asset_publisher/87ivQPQFa0Cg/content/plan-de-formacion-labora-2026",
    "estat": "per verificar",
    "verificat": "",
-   "notes": "Cursos gratuïts per a persones aturades inscrites a LABORA. La web de LABORA no ha respost (timeout). Informació de premsa (Diario de Alicante, 1.04.2026); no hi ha dades de cursos concrets.",
+   "notes": "La web de LABORA ara s'obre bé. La nota oficial del 17.02.2026 confirma el Pla de Formació 2026 (unes 200 M€, més de 4.100 accions i 58.000 persones), però no esmenta la IA. Tampoc la pàgina «Programación de cursos». No s'ha pogut confirmar l'especialitat «IA aplicada a l'empresa» a la web oficial.",
    "logo": "/assets/formacio-gva.png"
   },
   {
    "nom": "INITIA 2026: programa de formació en innovació disruptiva i intel·ligència artificial",
-   "centre": "Col·legi Oficial d'Enginyers Industrials de la Comunitat Valenciana (COIICV) amb la Generalitat Valenciana",
+   "centre": "Col·legi Oficial d'Enginyers Industrials de la Comunitat Valenciana — Demarcació de València (COIICV Valencia), amb la Generalitat Valenciana (Conselleria d'Indústria)",
    "sigles": "COIICV",
    "territori": "País Valencià",
    "ciutat": "València",
@@ -1695,9 +1699,10 @@
    "preu": "",
    "gratuit": true,
    "url": "https://iicv.net/el-coiicv-valencia-en-colaboracion-con-la-generalitat-valenciana-lanza-initia-2026-un-programa-formativo-gratuito-para-acercar-la-innovacion-disruptiva-y-la-ia-a-la-industria/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Formació gratuïta per a professionals i pimes industrials, subvencionada per la Generalitat. Dades confirmades a Economia 3 (23.09.2026); la pàgina oficial del COIICV no ha respost (timeout)."
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La notícia oficial de iicv.net, publicada el 15.09.2026, confirma INITIA 2026: 100% gratuït, presencial a la seu del COIICV de València (av. de França, 55), del 6 d'octubre al 30 de novembre de 2026, amb sis accions que sumen 64 h (IA, IoT, blockchain, bessó digital i IA generativa). Es pot fer l'itinerari sencer o cursos solts, amb la col·laboració d'Elevae, l'ITI i Glonec.",
+   "logo": "/assets/formacio-coiicv.png"
   },
   {
    "nom": "Alfabetització en intel·ligència artificial",
@@ -1707,16 +1712,16 @@
    "ciutat": "",
    "tipus": "docents",
    "oficial": true,
-   "modalitat": "",
+   "modalitat": "en línia",
    "llengua": "",
    "durada": "",
    "privada": false,
    "preu": "",
    "gratuit": true,
    "url": "https://portal.edu.gva.es/cefire/alfabetitzacio-en-intelligencia-artificial/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Pàgina del CEFIRE sobre formació del professorat en IA. El robots.txt de portal.edu.gva.es impedeix llegir-ne dates i modalitat: cal revisar-la a mà.",
+   "estat": "retirat",
+   "verificat": "2026-09-27",
+   "notes": "La pàgina del CEFIRE ara s'obre bé. El curs «Alfabetització en IA» (codi 25IA92IN001, amb Microsoft i Founderz) tenia la inscripció del 10.12.2025 al 06.02.2026 i es va fer del 16.02 al 23.03.2026. Aquesta edició ja s'ha acabat i no se n'anuncia cap de nova.",
    "logo": "/assets/formacio-gva.png"
   },
   {
@@ -1727,16 +1732,16 @@
    "ciutat": "",
    "tipus": "docents",
    "oficial": true,
-   "modalitat": "",
+   "modalitat": "en línia",
    "llengua": "",
    "durada": "",
    "privada": false,
    "preu": "",
    "gratuit": true,
    "url": "https://portal.edu.gva.es/cefire/intelligencia-artificial-en-formacio-professional/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Formació per al professorat d'FP. També hi ha una pàgina del CEFIRE d'IA de la xarxa: https://portal.edu.gva.es/cefire/xarxa-cefire/cfr_cefire-ia/. No s'ha pogut llegir (robots.txt): cal revisar-la a mà.",
+   "estat": "retirat",
+   "verificat": "2026-09-27",
+   "notes": "El curs 26IA92CF005 es va fer del 27.04 al 24.05.2026, a AULES i amb sessions síncrones els dimarts. La inscripció anava del 16.03 al 14.04.2026. Aquesta edició ja s'ha acabat i la pàgina no n'anuncia cap de nova. El CEFIRE d'IA i Pensament Computacional segueix actiu i ha publicat una guia per al PAF 26-27, però no hi figura aquest curs.",
    "logo": "/assets/formacio-gva.png"
   },
   {
@@ -1754,13 +1759,13 @@
    "preu": "",
    "gratuit": false,
    "url": "https://estudis.uib.cat/estudis-de-master/master/MUSI/",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Especialitats en IA (aprenentatge automàtic, aprenentatge profund, intel·ligència computacional), visió per computador, ciència de dades, IoT i robòtica mòbil; també es pot cursar integrat al màster Erasmus Mundus EDISS. La pàgina oficial surt indexada com a «Any 2026-27», però avui el servidor de la UIB no responia i la còpia recuperada era d'un curs anterior (30 places; 28,45 €/crèdit el 2024-25). Cal confirmar-ho a mà.",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "La fitxa oficial (estudis.uib.cat, «Any acadèmic 2026-27», consultada el 27.09.2026) dona per al 2026-27: 30 places de nou ingrés, 60 crèdits, presencial al campus de Mallorca, en català, castellà i anglès, a 28,45 € el crèdit.",
    "logo": "/assets/formacio-uib.png"
   },
   {
-   "nom": "Màster Universitari en Anàlisi de Dades Massives en Economia i Empresa",
+   "nom": "Màster Universitari en Analítica de Dades i Intel·ligència de Negocis",
    "centre": "Universitat de les Illes Balears",
    "sigles": "UIB",
    "territori": "Illes Balears",
@@ -1768,15 +1773,15 @@
    "tipus": "master",
    "oficial": true,
    "modalitat": "presencial",
-   "llengua": "català, castellà i anglès",
+   "llengua": "català i castellà",
    "durada": "90 ECTS",
    "privada": false,
    "preu": "",
    "gratuit": false,
-   "url": "https://estudis.uib.cat/estudis-de-master/master/MADM/",
-   "estat": "per verificar",
+   "url": "https://estudis.uib.cat/estudis-de-master/master/MAD2/",
+   "estat": "fora de criteri",
    "verificat": "",
-   "notes": "Ciència de dades aplicada (aprenentatge estadístic, mineria de dades i textos, big data); la IA hi és present però no n'és l'únic eix. Indexat com a «Any 2026-27» a la web oficial, però no s'ha pogut carregar la versió actual. Hi ha una memòria de modificació per rebatejar-lo «Ciència de Dades i Intel·ligència de Negoci»: cal comprovar el nom vigent.",
+   "notes": "La fitxa de l'antic MADM (2026-27) diu «No s'ofereixen places de nou ingrés per extinció de pla». L'oferta de màsters oficials 2026-27 de la UIB inclou el nou Màster Universitari en Analítica de Dades i Intel·ligència de Negocis (MAD2): 30 places, 90 crèdits, presencial a Mallorca, en català i castellà, 28,45 € el crèdit. La fitxa s'actualitza amb el nou màster. — Decisió 27.09.2026: el nou màster és d'analítica de dades i intel·ligència de negocis, no té la IA com a eix; no es mostra.",
    "logo": "/assets/formacio-uib.png"
   },
   {
@@ -1949,14 +1954,14 @@
    "oficial": true,
    "modalitat": "en línia",
    "llengua": "català",
-   "durada": "variable",
+   "durada": "cursos de 15 a 20 h",
    "privada": false,
    "preu": "",
    "gratuit": true,
-   "url": "https://www.caib.es/webgoib/w/escola-balear-administracio-publica",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Una notícia oficial del GOIB diu que l'EBAP dedica 150.000 € a una nova oferta amb cursos d'IA, però la pàgina no es pot descarregar (robots.txt) i la de l'EBAP no detalla cap curs. Només per al personal públic. La modalitat no està confirmada.",
+   "url": "https://www.caib.es/sites/iagoib/ca/n/laebap_publica_una_nova_oferta_de_cursos_sobre_intelaligancia_artificial_i_tractament_de_dades",
+   "estat": "actiu",
+   "verificat": "2026-09-27",
+   "notes": "Segons la notícia oficial del portal «La IA al GOIB» (caib.es), l'EBAP ha publicat la convocatòria d'activitats formatives per al segon semestre del 2026. Inclou aquests cursos: «Introducció a la IA i aplicacions a la feina diària» (15 h), «Nou reglament europeu sobre la IA» (15 h), «Planificació creativa amb mapes mentals i IA» (20 h), «IA per a la informació geogràfica» (20 h), «IA i dades massives» (16 h) i «Automatització de processos amb RPA» (16 h). Són només per al personal públic. La modalitat no s'hi especifica.",
    "logo": "/assets/formacio-govern-balear.png"
   },
   {
@@ -1967,16 +1972,16 @@
    "ciutat": "Palma",
    "tipus": "curs",
    "oficial": false,
-   "modalitat": "en línia",
+   "modalitat": "presencial",
    "llengua": "català",
    "durada": "2 ECTS",
    "privada": false,
    "preu": "",
    "gratuit": false,
    "url": "https://fueib.org/ca/microcredencials/811/formacion/curso/1707/microcredencial-universitaria-dia-i-recerca-de-treball-2-ects",
-   "estat": "per verificar",
-   "verificat": "",
-   "notes": "Trobada al cercador, però fueib.org no responia (timeout). No s'ha pogut confirmar l'edició, les dates, la modalitat ni el preu. La FUEIB també anuncia cursos d'IA per a la docència universitària («Potencia la teva docència amb la IA»), que tampoc s'han pogut verificar.",
+   "estat": "retirat",
+   "verificat": "2026-09-27",
+   "notes": "La fitxa de la FUEIB ara s'obre bé. És la 1a edició, del curs 2025-26 (UIBTalent): 2 ECTS i 20 h presencials a la UIB (Sa Riera), del 17 al 26 de març de 2026, gratuïta per a persones en atur i altres col·lectius vulnerables. Aquesta edició ja s'ha acabat i no se n'anuncia cap de nova.",
    "logo": "/assets/formacio-uib.png"
   },
   {
@@ -2089,18 +2094,18 @@
    "oficial": true,
    "modalitat": "presencial",
    "llengua": "francès",
-   "durada": "2 anys (M1 + M2)",
+   "durada": "2 anys (M1 + M2); el 2026-27 només s'obre el M2",
    "privada": false,
    "preu": "",
    "gratuit": false,
-   "url": "https://www.univ-perp.fr/fr/master-calcul-haute-performance-simulation",
+   "url": "https://formations.univ-perp.fr/diplome/masters/master-calcul-haute-performance-simulation",
    "estat": "per verificar",
    "verificat": "",
-   "notes": "No és un màster d'IA. S'hi inclou perquè al tercer semestre ofereix el mòdul optatiu «HPC pour l'Intelligence Artificielle» i també «Traitement de données multidimensionnelles : réduction et classification». L'URL funciona, però la pàgina es va actualitzar per darrer cop el 5 de maig de 2021 i no esmenta el curs 2026-2027. La fitxa actual (formations.univ-perp.fr) retorna un error 403 i no s'ha pogut consultar. Hi ha indicis que el màster continua (l'annuari Thotis 2026 i el M2 en alternança del CFA ENSUPLR), però no s'ha pogut confirmar que els mòduls d'IA encara hi siguin.",
+   "notes": "L'URL antic redirigeix a la fitxa de formations.univ-perp.fr, actualitzada el 15.04.2026. Diu: «Le M1 n'ouvrira pas cette année. Seul le M2 est ouvert à l'inscription». També es pot fer en alternança i en formació contínua. No s'ha pogut confirmar que el mòdul «HPC pour l'IA» (S3) encara hi sigui: el programa és en PDFs del 2024 que no s'han pogut llegir. Cal revisar si mereix la fitxa. — Decisió 27.09.2026: el programa existeix, però no s'ha pogut confirmar que conservi el component d'IA; queda amagat.",
    "logo": "/assets/formacio-upvd.png"
   },
   {
-   "nom": "Master Sciences, technologies, santé mention Informatique — parcours Réseaux et objets connectés, robotique et apprentissage (Màster en Informàtica — itinerari Xarxes i objectes connectats, robòtica i aprenentatge)",
+   "nom": "Master Sciences, technologies, santé mention Informatique — parcours Réseaux et objets connectés (Màster en Informàtica — itinerari Xarxes i objectes connectats), a Perpinyà amb l'IMERIR",
    "centre": "Conservatoire national des arts et métiers — Cnam Occitanie, en col·laboració amb l'IMERIR",
    "sigles": "Cnam Occitanie",
    "territori": "Catalunya Nord",
@@ -2113,10 +2118,10 @@
    "privada": false,
    "preu": "",
    "gratuit": false,
-   "url": "https://formation.cnam-hauts-de-france.fr/formations/master-sciences-technologies-sante-mention-informatique-parcours-reseaux-et-objets-connectes-robotique-et-apprentissage-cnam-occitanie/formations_0_959.html",
+   "url": "https://www.cnam-occitanie.fr/nos-formations/offre-de-bdo/master-informatique-parcours-reseaux-et-objets-connectes-perpignan-formation-en-alternance-1350937.kjsp",
    "estat": "per verificar",
    "verificat": "",
-   "notes": "Màster nacional del Cnam (establiment públic) en alternança, amb classes de dia a Perpinyà. Segons el catàleg oficial del Cnam, inclou una unitat d'«Intelligence Artificielle» de 6 ECTS al M1 i aprenentatge automàtic aplicat a la robòtica. L'IMERIR, que imparteix les classes, és una escola privada associada; el diploma l'expedeix el Cnam. No s'ha pogut obrir la fitxa de cnam-occitanie.fr (temps d'espera esgotat) ni la de cnam.fr, i la pàgina consultada (Cnam Hauts-de-France) no esmenta el curs 2026-2027. Com que és en alternança, el cost el sol pagar l'empresa o l'OPCO.",
+   "notes": "La fitxa del Cnam Occitanie surt dins l'oferta actual de formacions en alternança. S'hi pot candidatar per Mon Master i està acreditat per l'arrêté del 30.05.2025 fins al 2029-2030. L'intitulat oficial és ara «parcours Réseaux et objets connectés». Entre els objectius hi ha «l'intégration de l'IA et de l'apprentissage automatique» en ciberseguretat. No s'ha confirmat la unitat de 6 ECTS d'IA del M1, ni hi ha cap data explícita de l'entrada del 2026-27. — Decisió 27.09.2026: el programa existeix, però no s'ha pogut confirmar que conservi el component d'IA; queda amagat.",
    "logo": "/assets/formacio-cnam.png"
   },
   {
@@ -2215,7 +2220,7 @@
    "url": "https://www.cma66.fr/formations/numerique/exploiter-le-potentiel-de-lia-pour-developper-votre-entreprise/",
    "estat": "per verificar",
    "verificat": "",
-   "notes": "La cambra consular és un establiment públic, no una empresa privada. El curs, pensat per a artesans i empreses, tracta d'eines d'IA generativa i costa 210 €, amb possible finançament de l'OPCO o del CPF. Es fa en grup, presencialment o a distància. L'URL funciona, però la pàgina no dona dates per al 2026-2027 i alguns continguts (Bard) són antics, de manera que no es pot confirmar que el curs estigui actiu.",
+   "notes": "La pàgina de cma66.fr continua al catàleg (© 2026, amb preinscripció): 1 dia de 7 h (9.00–12.30 i 13.30–17.00) a Perpinyà/Ribesaltes. No dona dates de cap sessió i la web no té cap calendari. No es pot confirmar que hi hagi cap edició programada per al 2026-27.",
    "logo": "/assets/formacio-cma66.png"
   },
   {
