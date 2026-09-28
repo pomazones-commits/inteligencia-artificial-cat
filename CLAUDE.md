@@ -114,12 +114,29 @@ Només aquests quatre dies, al lot de les **10:05**, un cop escrit el lot. La p�
 ## Regles
 
 - **Llengua: cap mot inventat.** «Pacar» (calc de l'anglès *to pace*) **no existeix en català**: fes servir «moderar el ritme», «acompassar», «alentir» o «frenar». En una cita traduïda, tradueix el sentit, no la forma de la paraula anglesa. No inventis mai verbs calcats de l'anglès o del castellà.
+- **Llengua: escriu com un periodista català, no com un traductor (des del 28.09.2026).** Les fonts són sovint en anglès i el perill no és només el mot inventat, sinó la **frase calcada**: adverbis i locucions traduïts literalment, termes tècnics opacs, passives i gerundis a l'anglesa. Abans de lliurar, rellegeix cada titular i cada entradeta com si fossin per a la ràdio: si sona a traducció, reescriu-ho amb la paraula que faria servir un bon redactor de Vilaweb o de Catalunya Ràdio. Prefereix el verb concret i la veu activa; tradueix el sentit, no la construcció. Els termes tècnics s'expliquen amb paraules planeres (Termcat com a referència, però si el terme normatiu és opac per al lector, fes servir una perífrasi entenedora). Exemple real del 28.09.2026: «un formulari podia **buidar en silenci** les dades» → «un formulari podia **sostreure d'amagat** les dades»; «exposava el **testimoni d'autenticació** de l'agent» → «deixava a la vista la **credencial d'accés** de l'agent».
 - **Llengua: castellanismes i calcs prohibits.** Abans de lliurar cap text (notícies, fotografia editorial, reflexions, anàlisis), repassa'l contra aquesta llista. Quan en Rafael en detecti un de nou, s'hi afegeix aquí i al bloc «Llengua» dels prompts d'`automation/prompts/`.
 
   | No escriguis | Escriu | Motiu |
   |---|---|---|
   | pacar, paci, pacat | moderar el ritme, acompassar, alentir, frenar | calc de l'anglès *to pace* (21.09.2026) |
   | zancada | gambada, passa | castellanisme (fotografia editorial del 26.09.2026) |
+  | buidar/copiar/publicar **en silenci** (*silently*) | d'amagat, sense fer soroll, sense que ningú se n'adoni, imperceptiblement, sense avisar | calc de l'anglès (notícies del 28.09.2026) |
+  | **testimoni** d'autenticació / de sessió (*token*) | credencial d'accés, clau de sessió, credencials d'inici de sessió; si cal, *token* en cursiva entre parèntesis la primera vegada | terme tècnic opac per al lector general (notícies del 28.09.2026) |
+  | adreçar un problema (*to address*) | resoldre, afrontar, encarar, ocupar-se de | calc de l'anglès |
+  | escalar un servei (*to scale*) | ampliar, fer créixer, estendre | calc de l'anglès |
+  | suportar una funció (*to support*) | admetre, ser compatible amb | calc de l'anglès |
+  | habilitar (*to enable*) | activar, permetre, fer possible | calc de l'anglès |
+  | eventualment (*eventually*) | finalment, al capdavall, amb el temps | fals amic |
+  | assumir que (*to assume*) | suposar, donar per fet | fals amic |
+  | fer sentit (*to make sense*) | tenir sentit | calc de l'anglès |
+  | jugar un paper | fer un paper, tenir un paper | calc |
+  | prendre lloc (*to take place*) | tenir lloc, fer-se, celebrar-se | calc de l'anglès |
+  | al final del dia (*at the end of the day*) | al capdavall, en definitiva | calc de l'anglès |
+  | fuga de dades | filtració de dades | castellanisme |
+  | en base a, a nivell de, degut a | a partir de / segons, pel que fa a, a causa de | castellanismes |
+  | de forma + adjectiu, realitzar (per a tot) | de manera…, fer | castellanisme / crossa |
+  | gerundi de posterioritat («…, provocant una caiguda») | «…, i va provocar una caiguda» | castellanisme sintàctic |
 - **La imatge ha de mostrar el que diu la notícia.** Si la notícia parla de robots humanoides, la fotografia ha de mostrar un robot humanoide; si parla d'un braç robòtic industrial, un braç robòtic; si parla d'un centre de dades, un centre de dades. La consigna d'**evitar robots, androides i clixés tecnològics** que hi ha a `automation/prompts/daily-image.md` val NOMÉS per a la fotografia editorial del dia («IA × Societat»), on el robot és una cursileria: **no s'aplica a les imatges de les notícies**, on mana el subjecte real de la peça. Error real del 30.07.2026: dues notícies sobre robots humanoides (Google Gemini Robotics i SoftBank–Gravis) il·lustrades amb robots no humanoides.
 - **Persones, actes i productes concrets: foto real amb llicència (des del 27.09.2026).** Una il·lustració generada amb IA **no pot mostrar mai una persona real reconeixible ni un producte concret**: s'inventa la cara o l'aparell. Errors reals del 26.09.2026: «Illa clou l'AI Summit» amb una altra persona i «Meta presenta unes ulleres» amb unes ulleres inventades. A tema concret, fotografia concreta:
   1. **Banc de retrats automàtic** (`automation/retrats.json`, 65 persones: Altman, Amodei, Huang, Hassabis, Zuckerberg, Musk, Von der Leyen, Sánchez, Illa…). Si el títol n'esmenta una, l'script li posa el retrat de Wikimedia Commons sense fer res més. Si algú surt sovint i no hi és, afegeix-lo (nom, àlies, identificador de Wikidata).
