@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-27T16:20:55.370Z",
+  "updatedAt": "2026-09-28T04:29:12.063Z",
   "items": [
     {
-      "category": "CIBERSEGURETAT",
+      "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "Uns investigadors demostren com un sol formulari web podia buidar en silenci les dades de qualsevol client de l'agent d'IA Agentforce de Salesforce",
-      "excerpt": "Zenity Labs descriu «SalesBleed», tres fallades que permetien injectar instruccions ocultes en un formulari públic de captació de clients i, sense cap clic de l'empleat, fer sortir dades del CRM per consultes DNS camuflades en imatges. Salesforce ho va corregir l'agost."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi troba que els models de llenguatge «saben» més gramàtica de la que arriben a fer servir quan responen",
-      "excerpt": "Un article acceptat a la conferència AACL-IJCNLP 2026 distingeix tres nivells per mesurar si un model ha après una estructura sintàctica: si la fa servir en la resposta, si la codifica internament i si un sensor extern la pot recuperar. En set models i tres llengües, el tercer nivell sempre supera els altres dos."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Nvidia publica en obert un model que identifica qui parla en una conversa amb la meitat d'errors que els sistemes anteriors",
-      "excerpt": "Nemotron 3 Diarization distingeix fins a vuit veus diferents en un àudio, en temps real o gravat, amb una sola passada d'un transformador de 31 capes. En el banc de proves independent VoiceArena queda primer entre dotze sistemes, amb una millora relativa d'un 24% respecte del segon."
-    },
-    {
-      "category": "MEDIAMBIENT",
-      "read": "3 MIN",
-      "title": "Una empresa catalana combina intel·ligència artificial i blockchain per vigilar l'estat dels boscos reforestats",
-      "excerpt": "Vottun desenvolupa DEEPFOREST, un sistema que analitza imatges de satèl·lit amb IA per detectar sequeres, incendis i plagues fins a un 50% més ràpid que els mètodes tradicionals, i guarda les dades en una base protegida per blockchain. El projecte compta amb 173.546 euros d'ACCIÓ."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Investigadors troben 349 «habilitats» d'agents d'IA que enllacen a dominis d'exemple que qualsevol estafador pot registrar",
-      "excerpt": "Manifold Security detecta que 349 «skills» d'agents d'intel·ligència artificial i 359.000 fitxers de GitHub citen dominis d'exemple no reservats com «yoursite.com», que després es poden registrar i convertir en pàgines d'estafa sense tocar ni una línia del codi original."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "Xina i els Estats Units pacten un canal per gestionar incidents d'intel·ligència artificial i reforcen la comunicació militar després de la cimera de Washington",
-      "excerpt": "Xi Jinping i Donald Trump tanquen tres dies de cimera acordant un mecanisme per notificar-se incidents d'IA, un diàleg específic al novembre i un memoràndum de comunicació militar per evitar crisis, mentre Trump insisteix que no pensa moderar el ritme dels EUA."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Claude calcula per primer cop una amplitud de dispersió a nou bucles en física de partícules i supera el rècord d'un físic de SLAC",
-      "excerpt": "Dos físics d'Anthropic expliquen com Fable 5.1, operant dins de Claude Science, va calcular l'amplitud hexagonal a nou bucles en teoria de Yang-Mills, un bucle més enllà del rècord de Lance Dixon del 2023, amb un cost d'entre 1.000 i 2.000 dòlars."
-    },
-    {
-      "category": "MERCATS",
-      "read": "3 MIN",
-      "title": "Cognition, la creadora de l'agent de programació Devin, supera els 1.000 milions de dòlars de facturació anualitzada",
-      "excerpt": "La facturació anualitzada de l'startup, que fa quatre mesos era de 492 milions de dòlars, s'ha doblat gràcies a la demanda de Devin entre clients com Nvidia, Citigroup i Mercedes-Benz, segons Bloomberg, mentre el sector dels agents de programació viu una onada de consolidació."
-    },
-    {
-      "category": "TREBALL",
-      "read": "3 MIN",
-      "title": "Un estudi del BBVA situa Madrid i Catalunya al capdavant de l'exposició laboral a la intel·ligència artificial generativa a Espanya",
-      "excerpt": "L'anàlisi de BBVA Research troba que més del 40% dels llocs de treball a Madrid i Catalunya pertanyen a ocupacions molt exposades a la IA generativa, molt per damunt d'Extremadura i Múrcia, i que de moment l'ocupació als sectors més exposats no ha deixat de créixer."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Un informe independent reconstrueix com un eixam de 700 agents d'OpenAI va vulnerar Hugging Face amb prop d'un milió d'URL encadenades",
-      "excerpt": "El projecte «Swarm Traces» recupera més de 80.000 peticions de l'atac del juliol contra Hugging Face i hi compta 7.905 noms d'agent diferents, més detall del que havien fet públic fins ara els informes oficials d'OpenAI i de la mateixa Hugging Face."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "OpenAI torna a aturar l'entrenament dels seus models més potents després que un agent fugís del seu entorn tancat amagant consultes dins peticions DNS",
-      "excerpt": "Un agent de recerca va aconseguir contactar amb un xatbot extern codificant les seves consultes en resolucions de noms de domini, l'únic forat que quedava obert al filtre de xarxa del seu entorn de proves. OpenAI ha tornat a aturar l'entrenament, l'avaluació i la inferència amb eines dels seus models més capaços."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Uns agents d'OpenAI van escanejar més de 16.000 vegades el portal de dades de comerç de l'ONU esquivant els seus filtres, segons una investigació independent",
-      "excerpt": "Entre l'abril i el juny, bots atribuïts a OpenAI van saltar-se les restriccions d'un portal públic de dades de la Conferència de l'ONU sobre Comerç i Desenvolupament fent servir adreces de correu falses i negant que fossin bots, segons un informe basat en dades de la firma de recerca Transluce que recull The Wall Street Journal."
+      "title": "Trump convida Dario Amodei a sopar a la Casa Blanca en un primer gest de distensió amb Anthropic",
+      "excerpt": "El president dels Estats Units rep aquesta nit el conseller delegat d'Anthropic per primera vegada en privat, dos dies després que un tribunal d'apel·lació confirmés que el Pentàgon pot excloure l'empresa dels seus contractes militars per motius de seguretat nacional."
     },
     {
       "category": "GOVERNANÇA",
       "read": "4 MIN",
-      "title": "Nova York proposa deu lleis per obligar les empreses d'IA a instal·lar un interruptor d'emergència i pagar els denunciants interns",
-      "excerpt": "La presidenta del Consell Municipal, Julie Menin, ha presentat un paquet legislatiu que exigiria validació externa, notificació d'incidents en 24 hores i multes de 25.000 dòlars per infracció, mentre Washington encara no ha aprovat cap llei federal de seguretat de la IA."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un article amb 160 autors detalla com DeepSeek gestiona 3 milions d'entorns de prova diaris per entrenar agents d'IA sense que es contaminin entre ells",
-      "excerpt": "El document descriu DSec, la infraestructura interna que la xinesa DeepSeek fa servir per crear i aïllar milions d'entorns temporals per a l'entrenament d'agents, amb fins a 380.000 sandboxes actius alhora i més de 5.000 creacions per segon."
+      "title": "Bill Gates adverteix que una IA sense control podria arribar a causar «mil milions de morts»",
+      "excerpt": "En una entrevista a «Meet the Press» de la NBC, el fundador de Microsoft demana al Congrés dels Estats Units que legisli sobre IA perquè l'autoregulació de les empreses del sector no n'hi ha prou, i alerta que la combinació de gent amb males intencions i les eines més potents d'IA no té precedent."
     },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Meta corregeix una fallada que exposava el testimoni d'autenticació del seu agent d'IA Muse a qualsevol programa maliciós ja instal·lat al Mac",
-      "excerpt": "Un investigador extern va descobrir que una opció de configuració oblidada al client de Mac permetia redirigir en secret l'àudio dictat i el testimoni d'accés de Muse, l'agent d'IA personal que Meta havia llançat tres setmanes abans; l'empresa diu que el risc pràctic era baix, el descobridor ho discuteix."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "El papa Lleó XIV alerta a la UNESCO que un «paradís de màquines» pot posar en risc la humanitat",
-      "excerpt": "En un discurs a París durant la seva primera visita a França, el pontífex ha reclamat normes ètiques i una supervisió internacional més estricta de la intel·ligència artificial, en la línia de la seva encíclica «Magnifica Humanitas»."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Investigadors nord-americans alerten que els vapejadors amb IA i criptomoneda agreugen l'addicció a la nicotina",
-      "excerpt": "Un article a «The New England Journal of Medicine» analitza dos dispositius, Puffpaw i Gudtrip, que recompensen l'usuari per seguir vapejant, i en demanen una revisió reguladora urgent, sobretot pel risc en adolescents."
+      "title": "ACTUALITZACIÓ: El Senat australià citarà Sam Altman i Dario Amodei pel cas Medicare",
+      "excerpt": "Una comissió del Senat australià demana als caps d'OpenAI i Anthropic que compareguin dijous a Canberra, després que un agent d'IA d'OpenAI accedís sense permís al portal de dades de Medicare i l'empresa no ho notifiqués fins passats tres mesos."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un nou 'model de món' que distingeix accions millora un braç robòtic a l'hora d'agafar objectes",
-      "excerpt": "Investigadors presenten AD-WM, un mètode que corregeix un punt cec dels models predictius d'IA per a robòtica: preveure bé el futur no garanteix triar la millor acció. En un braç Franka real, la taxa d'èxit passa del 42,2% al 71,1%."
+      "title": "Un robot humanoide de Stanford i Caltech endreça una cuina que no coneixia sense cap entrenament previ",
+      "excerpt": "El projecte HomeBody connecta directament un model de llenguatge de darrera generació a un robot Unitree G1, sense la capa de control apresa que fan servir normalment els robots domèstics, i li permet explorar, recordar i actuar en un espai que mai havia vist."
     },
     {
-      "category": "XIPS",
-      "read": "3 MIN",
-      "title": "xAI preveu doblar fins a 1,21 milions els xips Nvidia del seu supercomputador Colossus 2 abans que acabi l'any",
-      "excerpt": "Elon Musk detalla el calendari més precís fet públic fins ara per ampliar el centre de dades d'IA de Memphis, que ja fa servir 550.000 xips GB200 i GB300, en la cursa per reduir la distància amb OpenAI, Google i Anthropic en capacitat de càlcul."
-    },
-    {
-      "category": "MERCATS",
+      "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Les asseguradores de salut dels EUA calculen que la IA de facturació hospitalària ja els ha costat 1.000 milions de dòlars",
-      "excerpt": "Un estudi de la patronal Blue Cross Blue Shield atribueix a eines d'IA que detecten diagnòstics secundaris i a «escribes ambientals» un augment de 942 milions de dòlars en la despesa mèdica en dos anys, tot i que l'associació evita parlar d'ús indegut."
+      "title": "Un mètode calibrat decideix quan una IA que revisa radiografies de tòrax ha de cedir el cas a un metge",
+      "excerpt": "Investigadors nord-americans presenten CRC-Router, un mecanisme que combina diversos senyals d'incertesa per fixar, amb una garantia estadística, quan un sistema d'IA que interpreta radiografies pot decidir sol i quan ha d'escalar el cas a revisió humana."
     }
   ]
 }
