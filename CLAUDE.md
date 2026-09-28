@@ -76,6 +76,7 @@ La secció «La tribuna» publica escrits signats per persones (no generats per 
 1. Desar la foto de l'autor (si n'hi ha) a `public/assets/tribuna-<nom>-AAAAMMDD.jpg`.
 2. Substituir l'objecte de `public/tribuna.js` amb els camps: `date`, `category` ("TRIBUNA"), `read` ("X MIN"), `author`, `role` (afiliació), `title`, `excerpt`, `quote` (opcional), `photo` (ruta `./assets/...` o `""`), `photoAlt`, `body` (paràgrafs separats per `\n\n`). Generar el fitxer amb `JSON.stringify` per garantir l'escapament correcte.
 3. Commit i push a `main` (es desplega sol).
+4. **Pujar el `?v=` de `tribuna.js` i `tribuna-arxiu.js` a `tribuna.html` i `arxiu-tribuna.html` amb una LLETRA al final** (`AAAAMMDDNNb`, `…c`), mai només xifres. `app.js` carrega aquests fitxers amb un segell horari `AAAAMMDDHH` (UTC): una versió només de xifres pot coincidir amb una hora ja passada que la CDN té desada amb la peça antiga, i la pàgina mostraria la tribuna anterior (va passar el 28.09.2026). El mateix val per a `estudis.js` i `estudis-arxiu.js`. Per verificar-ho, entra per la portada i clica «Llegir la tribuna».
 
 La portada mostra la banda `#tribuna` (sobre l'anàlisi de la setmana) només si `window.IA_TRIBUNA` té contingut; si val `null`, la secció queda amagada. La pàgina completa és `public/tribuna.html` i els estils viuen a `public/tribuna.css` (mai a portada.css/styles.css). Contracte públic nou a mantenir: `window.IA_TRIBUNA`.
 
