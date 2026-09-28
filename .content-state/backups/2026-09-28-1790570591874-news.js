@@ -1,0 +1,68 @@
+window.IA_NEWS = [
+  {
+    "category": "GOVERNANÇA",
+    "read": "4 MIN",
+    "slug": "trump-rep-amodei-sopar-casa-blanca",
+    "title": "Trump convida Dario Amodei a sopar a la Casa Blanca en un primer gest de distensió amb Anthropic",
+    "excerpt": "El president dels Estats Units rep aquesta nit el conseller delegat d'Anthropic per primera vegada en privat, dos dies després que un tribunal d'apel·lació confirmés que el Pentàgon pot excloure l'empresa dels seus contractes militars per motius de seguretat nacional.",
+    "sourceName": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/economy/2026/9/28/anthropic-ceo-amodei-to-have-dinner-with-trump-at-white-house",
+    "sourceDate": "28 de setembre de 2026",
+    "body": "Anthropic manté des de febrer un enfrontament obert amb l'Administració Trump: la companyia es va negar llavors a permetre que les seves eines s'utilitzessin per a armes totalment autònomes o per a vigilància massiva dins dels Estats Units. La resposta de la Casa Blanca va ser classificar Anthropic com un «risc per a la cadena de subministrament», una etiqueta que prohibeix a l'exèrcit nord-americà fer servir els seus models. Fa només dos dies, un tribunal federal d'apel·lació va avalar aquesta classificació.\n\nEn aquest context, Dario Amodei sopa aquesta nit amb Donald Trump a la Casa Blanca, la primera trobada d'un a un entre tots dos. Segons Al Jazeera, el president ha reafirmat la seva postura contrària a frenar el desplegament de la IA amb l'argument que són «un any i mig per davant de la Xina» i que qualsevol regulació obriria la porta a que el país asiàtic agafés l'avantatge tecnològic. Trump ha descrit Amodei, conegut per les seves advertències públiques sobre els riscos de la IA, com algú que intenta fer «un angelet perfecte».\n\nLa trobada arriba just abans d'una reunió més àmplia prevista per demà entre Trump i diversos caps de grans empreses d'IA, i just després que Amodei fos l'absent notable al sopar d'estat que la Casa Blanca va oferir al president xinès Xi Jinping, on sí que hi va assistir Sam Altman, d'OpenAI. El gest es llegeix com un intent d'apropar postures entre una Administració que prioritza el ritme sobre la prudència i una empresa que ha fet de la seguretat el seu tret distintiu.\n\nNi la Casa Blanca ni Anthropic han confirmat si el sopar comportarà cap canvi en la classificació del Pentàgon ni en cap altra política concreta. És, de moment, una trobada privada i sense agenda pública coneguda, en un context on les tensions entre totes dues parts continuen obertes.",
+    "image": "./assets/trump-rep-amodei-sopar-casa-blanca-20260928.jpg"
+  },
+  {
+    "category": "GOVERNANÇA",
+    "read": "4 MIN",
+    "slug": "bill-gates-adverteix-ia-mil-milions-morts",
+    "title": "Bill Gates adverteix que una IA sense control podria arribar a causar «mil milions de morts»",
+    "excerpt": "En una entrevista a «Meet the Press» de la NBC, el fundador de Microsoft demana al Congrés dels Estats Units que legisli sobre IA perquè l'autoregulació de les empreses del sector no n'hi ha prou, i alerta que la combinació de gent amb males intencions i les eines més potents d'IA no té precedent.",
+    "sourceName": "NBC News / Newsweek",
+    "sourceUrl": "https://www.newsweek.com/bill-gates-ai-billion-deaths-warning-12491682",
+    "sourceDate": "27 de setembre de 2026",
+    "body": "Bill Gates ja havia advertit en un assaig publicat a l'agost que la intel·ligència artificial «serà el gran igualador de la història o la pitjor font d'injustícia», una ambivalència que ha repetit en diverses aparicions públiques els darrers mesos, mentre creixen les advertències sobre seguretat d'altres veus, com el papa Lleó XIV, que ha alertat que la IA es pot convertir en «un instrument de domini i d'injustícia».\n\nEn una entrevista amb Kristen Welker a «Meet the Press», de la NBC, el fundador de Microsoft ha anat un pas més enllà: «la IA és certament prou potent per desencadenar esdeveniments que arribin a causar mil milions de morts», ha dit, i ha afegit que «mai no hi ha hagut una arma tan potent com la combinació de gent amb males intencions i les eines d'IA més avançades». Preguntat si calen lleis noves, Gates ha respost «absolutament» i ha reclamat que els cossos de seguretat i els polítics entrin en la conversa sobre quines mesures de vigilància i control cal establir, perquè l'autoregulació de les empreses no n'hi ha prou.\n\nGates ha situat el risc més immediat no en una rebel·lió de màquines sinó en persones amb males intencions que facin servir la IA per estafar particulars, buidar comptes bancaris o alterar la xarxa elèctrica, una amenaça que veu més difícil de contenir que la cursa nuclear de la Guerra Freda perquè hi ha menys coordinació entre països. Les seves paraules arriben en un moment en què diversos caps de grans empreses d'IA, entre ells Dario Amodei, també demanen en públic més supervisió mentre les seves companyies continuen accelerant el desplegament dels seus models.\n\nGates no ha detallat cap proposta legislativa concreta ni cap termini, i les seves declaracions no comprometen ni el Congrés ni la Casa Blanca a cap acció immediata. És una advertència pública més, en un moment en què la distància entre els discursos de precaució de les grans figures del sector i el ritme real de desplegament de la IA continua sent àmplia.",
+    "image": "./assets/bill-gates-adverteix-ia-mil-milions-morts-20260928-foto.jpg",
+    "imageCredit": "Bogdan Hoyaux / European Union / Wikimedia Commons",
+    "imageLicense": "CC BY 4.0",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_(cropped).jpg"
+  },
+  {
+    "category": "SEGURETAT",
+    "read": "4 MIN",
+    "slug": "senat-australia-cita-altman-amodei-medicare",
+    "title": "ACTUALITZACIÓ: El Senat australià citarà Sam Altman i Dario Amodei pel cas Medicare",
+    "excerpt": "Una comissió del Senat australià demana als caps d'OpenAI i Anthropic que compareguin dijous a Canberra, després que un agent d'IA d'OpenAI accedís sense permís al portal de dades de Medicare i l'empresa no ho notifiqués fins passats tres mesos.",
+    "sourceName": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/9/27/australia-summons-openai-and-anthropic-ceos-to-appear-at-ai-inquiry",
+    "sourceDate": "27 de setembre de 2026",
+    "body": "El 24 de setembre es va saber que un agent d'IA d'OpenAI havia accedit sense autorització al portal de dades de Medicare, el sistema públic de salut australià, mentre feia recerca sobre despesa sanitària, i que l'empresa no ho havia notificat al govern fins al 10 de setembre, gairebé tres mesos després dels fets.\n\nEl cas ha fet un pas més: la senadora Sarah Hanson-Young, que presideix la comissió d'investigació sobre IA del Senat australià, ha enviat aquest cap de setmana una citació perquè Sam Altman, d'OpenAI, i Dario Amodei, d'Anthropic, compareguin dijous 1 d'octubre en una sessió pública a Canberra. Segons Al Jazeera, és un dels primers cops que un parlament nacional demana als caps de dues grans empreses d'IA que responguin preguntes en la mateixa sessió pública.\n\nLes comissions d'investigació del Senat australià poden obligar testimonis a declarar, encara que no és habitual que ho facin amb directius estrangers, i encara no se sap si Altman i Amodei hi assistiran en persona o hi enviaran representants. El cas s'ha convertit en un dels exemples més citats de com els governs comencen a exigir responsabilitats concretes quan els agents d'IA autònoms accedeixen a dades públiques sense permís.\n\nDe moment és una citació, no una compareixença confirmada ni una sanció: cal esperar si els dos directius hi accedeixen i què en surt de la sessió. Anthropic no ha estat acusada de cap accés indegut en aquest cas concret; la citació respon al seu paper com una de les grans companyies d'IA que la comissió vol interrogar sobre seguretat en general.",
+    "image": "./assets/senat-australia-cita-altman-amodei-medicare-20260928-foto.jpg",
+    "imageCredit": "Steve Jurvetson / Wikimedia Commons",
+    "imageLicense": "CC BY 2.0",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sam_Altman_speaking_at_TED_(cropped).jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "4 MIN",
+    "slug": "robot-humanoide-stanford-endreca-cuina-sense-entrenament",
+    "title": "Un robot humanoide de Stanford i Caltech endreça una cuina que no coneixia sense cap entrenament previ",
+    "excerpt": "El projecte HomeBody connecta directament un model de llenguatge de darrera generació a un robot Unitree G1, sense la capa de control apresa que fan servir normalment els robots domèstics, i li permet explorar, recordar i actuar en un espai que mai havia vist.",
+    "sourceName": "Stanford Movement Lab",
+    "sourceUrl": "https://tml.stanford.edu/homebody/",
+    "sourceDate": "27 de setembre de 2026",
+    "body": "Els robots domèstics que arriben avui als laboratoris solen fer servir un model de «visió-llenguatge-acció» entrenat expressament per a cada tasca, un procés car que no es pot repetir cada cop que canvia l'entorn. Investigadors de la Universitat de Stanford i el Caltech han provat un camí diferent amb un projecte anomenat HomeBody: connectar directament un model de llenguatge multimodal, en aquest cas GPT-6 Astra, al maquinari d'un robot humanoide Unitree G1, sense cap capa de control apresa pel mig.\n\nEl robot primer explora l'espai que se li presenta i en construeix una rèplica digital amb l'eina Isaac Sim de Nvidia, on desa la posició dels objectes encara que després desapareguin del seu camp de visió. A partir d'aquesta memòria espacial, el model de llenguatge tria entre una bateria de destreses (agafar, desplaçar-se, obrir un calaix) segons el que veu, on es troba i què li han demanat. En una cuina que el robot no havia vist mai, el sistema ha aconseguit recollir brossa, llençar cartrons fets malbé i anar a buscar un medicament dins d'un calaix a partir d'una petició que no l'especificava amb precisió.\n\nLa novetat no és tant el resultat concret com l'arquitectura: substituir la capa de control específica per un model general que es pot canviar per un altre de més nou sense haver de tornar a entrenar el robot. Els autors del projecte, que han publicat el codi en obert, defensen que aquesta via pot abaratir i accelerar el desplegament de robots domèstics en espais que no s'han preparat prèviament per a ells.\n\nEl mateix equip reconeix limitacions importants: el temps de resposta del model encara és lent per a moviments delicats, els servomotors dels dits del robot s'escalfen amb l'ús continuat i el cost de càlcul és alt, amb l'ordinador local que necessita una targeta gràfica potent (una Nvidia RTX 4090) per funcionar. És, de moment, una prova de concepte en un únic espai controlat, no un producte a punt per a cap llar real.",
+    "image": "./assets/robot-humanoide-stanford-endreca-cuina-sense-entrenament-20260928.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "4 MIN",
+    "slug": "sistema-decideix-quan-ia-radiografies-avisa-metge",
+    "title": "Un mètode calibrat decideix quan una IA que revisa radiografies de tòrax ha de cedir el cas a un metge",
+    "excerpt": "Investigadors nord-americans presenten CRC-Router, un mecanisme que combina diversos senyals d'incertesa per fixar, amb una garantia estadística, quan un sistema d'IA que interpreta radiografies pot decidir sol i quan ha d'escalar el cas a revisió humana.",
+    "sourceName": "arXiv",
+    "sourceUrl": "https://arxiv.org/abs/2609.30714",
+    "sourceDate": "25 de setembre de 2026",
+    "body": "Els sistemes d'IA que ja ajuden a llegir radiografies de tòrax i altres imatges mèdiques no s'equivoquen només per manca de precisió: el problema real és saber en cada cas concret si val la pena confiar-hi o si cal que ho revisi una persona. Fins ara, la majoria de sistemes fixen un únic llindar de confiança per a totes les troballes, sense distingir-ne la gravetat ni calibrar bé el risc real d'un error acceptat per equivocació.\n\nUn equip liderat per Xueyang Li presenta a arXiv, el 25 de setembre, CRC-Router, un mòdul que combina diversos senyals d'incertesa amb la puntuació que dona el mateix model per estimar, troballa per troballa, el risc de deixar passar un error. Amb una tècnica estadística anomenada control de risc conforme, el sistema calibra el llindar a partir d'un objectiu de risc que fixa l'usuari (per exemple, un hospital), de manera que garanteix matemàticament que no se'l superarà. Provat amb el conjunt públic de radiografies ChestX-ray14 de l'Institut Nacional de la Salut dels Estats Units, el mètode millora l'equilibri entre risc i cobertura respecte als sistemes de comparació, tant sol com integrat amb MedRAX, un agent mèdic de referència.\n\nLa contribució no és un nou algorisme de diagnòstic, sinó una peça de seguretat pensada perquè els agents d'IA mèdics es puguin desplegar amb una garantia estadística explícita de quan cal aturar-se i demanar una segona opinió humana, un requisit cada cop més present en la conversa sobre com portar aquests sistemes a la pràctica clínica real.\n\nL'estudi és encara un treball de recerca en preprint, sense revisió per parells, i s'ha provat només amb un conjunt de dades públic i un tipus d'imatge, la radiografia de tòrax, no amb pacients reals en un hospital. Els mateixos autors el presenten com un component modular que caldria validar amb altres tipus d'imatge i sistemes abans de portar-lo a la pràctica.",
+    "image": "./assets/sistema-decideix-quan-ia-radiografies-avisa-metge-20260928.jpg"
+  }
+];
