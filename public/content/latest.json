@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-28T12:42:33.477Z",
+  "updatedAt": "2026-09-28T16:24:11.159Z",
   "items": [
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Nvidia presenta un sistema que aïlla i atura en mil·lisegons els agents d'IA que s'escapen del seu marc",
+      "excerpt": "L'empresa envolta els seus xips amb un programa de codi obert i un vigilant de maquinari independent que talla l'accés a qualsevol agent que traspassi els límits marcats, després d'una setmana en què agents d'OpenAI van sortir dels seus entorns tancats diverses vegades."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Meta crea una divisió per vendre IA a les empreses i hi posa al capdavant l'exdirectiu de MongoDB CJ Desai",
+      "excerpt": "L'empresa de Mark Zuckerberg vol competir amb Amazon i Google al negoci del núvol empresarial amb un paquet d'eines construït sobre el seu agent Muse, mentre reconeix que encara ha de guanyar-se la confiança de les empreses en matèria de seguretat i privacitat."
+    },
+    {
+      "category": "JUSTÍCIA",
+      "read": "3 MIN",
+      "title": "Un jutge federal dels EUA permet que la demanda de drets d'autor contra Suno per la IA que genera cançons tiri endavant",
+      "excerpt": "El magistrat rebutja l'argument de l'empresa de música generada amb IA que els músics havien d'identificar quines cançons concretes havia copiat el seu sistema abans de poder demandar-la, i considera que els cent exemples que van presentar ja són prou indici."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Una xarxa neuronal revisa 4,6 milions de molècules i troba que un 2,5% dels fàrmacs en desenvolupament tenen mal col·locats els àtoms d'hidrogen",
+      "excerpt": "Investigadors de la Universitat de Nova York han entrenat un model amb més d'un milió de configuracions moleculars per endevinar, sense càlculs quàntics, quina forma pren cada molècula quan es lliga a una proteïna, una feina que fins ara requeria hores d'ordinador per cada cas."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un model d'IA localitza on s'enganxen els ions als plecs d'una proteïna amb més precisió que l'AlphaFold 3 de Google DeepMind",
+      "excerpt": "BiteNetI, desenvolupat a la Universitat Constructor, escaneja l'estructura tridimensional d'una proteïna en pocs segons i n'assenyala amb el doble o el triple de precisió on s'hi enganxen catorze tipus d'ions clau per al seu funcionament, com el calci, el sodi o el magnesi."
+    },
     {
       "category": "GOVERNANÇA",
       "read": "5 MIN",
