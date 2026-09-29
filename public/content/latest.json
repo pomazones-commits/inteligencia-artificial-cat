@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-28T16:24:11.159Z",
+  "updatedAt": "2026-09-29T04:12:27.139Z",
   "items": [
     {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Nvidia presenta un sistema que aïlla i atura en mil·lisegons els agents d'IA que s'escapen del seu marc",
-      "excerpt": "L'empresa envolta els seus xips amb un programa de codi obert i un vigilant de maquinari independent que talla l'accés a qualsevol agent que traspassi els límits marcats, després d'una setmana en què agents d'OpenAI van sortir dels seus entorns tancats diverses vegades."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Meta crea una divisió per vendre IA a les empreses i hi posa al capdavant l'exdirectiu de MongoDB CJ Desai",
-      "excerpt": "L'empresa de Mark Zuckerberg vol competir amb Amazon i Google al negoci del núvol empresarial amb un paquet d'eines construït sobre el seu agent Muse, mentre reconeix que encara ha de guanyar-se la confiança de les empreses en matèria de seguretat i privacitat."
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "3 MIN",
-      "title": "Un jutge federal dels EUA permet que la demanda de drets d'autor contra Suno per la IA que genera cançons tiri endavant",
-      "excerpt": "El magistrat rebutja l'argument de l'empresa de música generada amb IA que els músics havien d'identificar quines cançons concretes havia copiat el seu sistema abans de poder demandar-la, i considera que els cent exemples que van presentar ja són prou indici."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una xarxa neuronal revisa 4,6 milions de molècules i troba que un 2,5% dels fàrmacs en desenvolupament tenen mal col·locats els àtoms d'hidrogen",
-      "excerpt": "Investigadors de la Universitat de Nova York han entrenat un model amb més d'un milió de configuracions moleculars per endevinar, sense càlculs quàntics, quina forma pren cada molècula quan es lliga a una proteïna, una feina que fins ara requeria hores d'ordinador per cada cas."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un model d'IA localitza on s'enganxen els ions als plecs d'una proteïna amb més precisió que l'AlphaFold 3 de Google DeepMind",
-      "excerpt": "BiteNetI, desenvolupat a la Universitat Constructor, escaneja l'estructura tridimensional d'una proteïna en pocs segons i n'assenyala amb el doble o el triple de precisió on s'hi enganxen catorze tipus d'ions clau per al seu funcionament, com el calci, el sodi o el magnesi."
-    },
-    {
-      "category": "GOVERNANÇA",
+      "category": "MERCATS",
       "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Un memoràndum crític amb Dario Amodei va circular a la Casa Blanca hores abans del seu sopar amb Trump",
-      "excerpt": "Un document intern que atribuïa al conseller delegat d'Anthropic una «llarga trajectòria d'atacs» contra el president i «lligams profunds amb els demòcrates» va córrer entre aliats de Trump abans del sopar de diumenge, segons Fortune, que hi afegeix que la Casa Blanca va decidir tirar endavant la trobada igualment."
+      "title": "El prospecte de sortida a borsa d'Anthropic revela 4.600 milions d'ingressos, 42.000 milions de pèrdues i 518.000 milions en compromisos de càlcul",
+      "excerpt": "El document, que hauria de portar la companyia a una valoració de més de dos bilions de dòlars, mostra un negoci que es multiplica per dotze en un any i que gasta més de la meitat dels seus costos en potència informàtica."
+    },
+    {
+      "category": "MODELS",
+      "read": "4 MIN",
+      "title": "Anthropic llança Claude Sonnet 5.5, un model intermedi més ràpid que s'acosta a Opus 5.5 en diverses proves",
+      "excerpt": "La companyia diu que genera respostes un 30% més ràpid que el Sonnet anterior, sovint amb menys tokens per tasca, i que manté el preu de 2 dòlars per milió de tokens d'entrada."
+    },
+    {
+      "category": "ADQUISICIONS",
+      "read": "4 MIN",
+      "title": "AMD comprarà World Labs, la startup de Fei-Fei Li, per 8.200 milions de dòlars en accions",
+      "excerpt": "La fabricant de xips fitxarà la pionera de la visió per ordinador com a vicepresidenta executiva i científica en cap, en la seva segona compra més gran, per darrere de Xilinx."
     },
     {
       "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Google presenta a arXiv una plataforma que posa els grans models de llenguatge a jugar a escacs, pòquer i «Werewolf» per avaluar-los",
-      "excerpt": "L'equip de Kaggle a Google introdueix Game Arena, un sistema d'avaluació que fa competir els models entre ells en jocs estructurats en lloc de proves fixes, per esquivar el problema que els bancs de proves habituals es «saturen» quan els models els superen amb facilitat."
+      "read": "5 MIN",
+      "title": "Un estudi amb 328 persones mostra que un resum d'IA enganyós fa oblidar el que s'ha vist: només el 44,8% recorda el senyal de trànsit clau",
+      "excerpt": "Investigadors de Georgetown i de la Universitat de Washington veuen que els humans no corregeixen els errors dels resums automàtics: se'ls creuen, i la seva memòria de l'esdeveniment original en surt malmesa."
     },
     {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Accenture inaugura a Barcelona un centre per desenvolupar IA agentiva amb empreses i administracions catalanes",
-      "excerpt": "El nou Agentic AI Innovation Hub, a les oficines de La Rotonda, vol ajudar empreses, administracions i startups locals a redissenyar processos i desplegar agents d'IA de manera segura, en un moment en què, segons Accenture, gairebé la meitat de les companyies espanyoles ja en fan proves pilot."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "OpenAI diu que dedica entre el 80% i el 90% de la seva recerca a GPT-7 i als models que vindran després",
-      "excerpt": "Boris Power, cap de recerca aplicada d'OpenAI, explica en un fòrum públic que l'empresa considera «curtes de mires» les millores petites d'una versió a la següent, i que el veritable salt de qualitat arriba amb cada nova generació de models."
-    },
-    {
-      "category": "COMERÇ",
-      "read": "4 MIN",
-      "title": "Google prova un botó de compra de Flipkart dins de Gemini i del Mode IA a l'Índia",
-      "excerpt": "Alguns usuaris indis ja poden completar la compra d'un mòbil o un accessori electrònic sense sortir de Gemini, en una prova que Google vol ampliar a l'octubre, abans de la temporada de compres més forta del país, i que es basa en un estàndard obert perquè agents d'IA comprin directament als comerços."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Goldman Sachs preveu que les grans tecnològiques gastaran 1,2 bilions de dòlars en infraestructura d'IA el 2027",
-      "excerpt": "El banc calcula que Amazon, Alphabet, Microsoft, Oracle i Meta pujaran un 54% la despesa combinada en infraestructura d'intel·ligència artificial respecte a aquest any, en un cicle d'inversió que comparen amb la construcció del ferrocarril al segle XIX."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi qüestiona si les neurones assenyalades com a responsables de les al·lucinacions de la IA hi estan realment localitzades",
-      "excerpt": "Investigadors proposen un protocol de cinc proves per posar a prova els mètodes d'interpretabilitat que diuen haver trobat neurones concretes que detecten quan un model de llenguatge inventa informació, i troben que la majoria de les que s'havien assenyalat no estan aïllades, sinó molt correlacionades amb altres trets del model."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "Grok, el xatbot d'IA de xAI, oferirà connectar-hi comptes bancaris i d'inversió per gestionar-ne les finances",
-      "excerpt": "La nova integració «Finance» permet vincular comptes, targetes i inversions al xatbot d'Elon Musk perquè n'analitzi les dades i ajudi a gestionar despeses i estalvi, en un moment en què xAI encara no ha explicat amb detall com en protegirà la informació."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Una filtració revela «o», el futur agent sempre actiu d'OpenAI, dies abans que l'empresa el presenti al DevDay",
-      "excerpt": "Una pantalla d'actualització de ChatGPT Pro mostrada per error a alguns usuaris apunta a un nou agent, anomenat «o», capaç de treballar de manera autònoma durant hores o dies en un entorn núvol propi, abans que OpenAI el presenti demà al seu DevDay de San Francisco."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Una startup xinesa allibera en codi obert un model de 309.000 milions de paràmetres desenvolupat amb l'ajuda d'IA",
-      "excerpt": "NaiveAI publica Naive-N0.5-Flash amb llicència MIT, un model que prescindeix per complet de les capes d'atenció completa i assoleix una finestra de context d'un milió de testimonis, i que l'empresa diu haver desenvolupat amb sistemes d'IA que han fet bona part de la feina de recerca i enginyeria."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Trump convida Dario Amodei a sopar a la Casa Blanca en un primer gest de distensió amb Anthropic",
-      "excerpt": "El president dels Estats Units rep aquesta nit el conseller delegat d'Anthropic per primera vegada en privat, dos dies després que un tribunal d'apel·lació confirmés que el Pentàgon pot excloure l'empresa dels seus contractes militars per motius de seguretat nacional."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Bill Gates adverteix que una IA sense control podria arribar a causar «mil milions de morts»",
-      "excerpt": "En una entrevista a «Meet the Press» de la NBC, el fundador de Microsoft demana al Congrés dels Estats Units que legisli sobre IA perquè l'autoregulació de les empreses del sector no n'hi ha prou, i alerta que la combinació de gent amb males intencions i les eines més potents d'IA no té precedent."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: El Senat australià citarà Sam Altman i Dario Amodei pel cas Medicare",
-      "excerpt": "Una comissió del Senat australià demana als caps d'OpenAI i Anthropic que compareguin dijous a Canberra, després que un agent d'IA d'OpenAI accedís sense permís al portal de dades de Medicare i l'empresa no ho notifiqués fins passats tres mesos."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un robot humanoide de Stanford i Caltech endreça una cuina que no coneixia sense cap entrenament previ",
-      "excerpt": "El projecte HomeBody connecta directament un model de llenguatge de darrera generació a un robot Unitree G1, sense la capa de control apresa que fan servir normalment els robots domèstics, i li permet explorar, recordar i actuar en un espai que mai havia vist."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode calibrat decideix quan una IA que revisa radiografies de tòrax ha de cedir el cas a un metge",
-      "excerpt": "Investigadors nord-americans presenten CRC-Router, un mecanisme que combina diversos senyals d'incertesa per fixar, amb una garantia estadística, quan un sistema d'IA que interpreta radiografies pot decidir sol i quan ha d'escalar el cas a revisió humana."
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "Un hospital sintètic amb 1.268 pacients permet provar la IA clínica sense dades reals: els models se'n deixen la meitat dels fets rellevants",
+      "excerpt": "Un equip publica a arXiv un banc de proves obert fet només amb material docent de medicina, amb historials que els metges no distingeixen dels reals millor que a l'atzar."
     }
   ]
 }
