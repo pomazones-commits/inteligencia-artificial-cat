@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-29T16:11:44.768Z",
+  "updatedAt": "2026-09-30T04:11:49.786Z",
   "items": [
     {
-      "category": "MODELS",
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "Hinton, Bengio i científics d'OpenAI, Anthropic i Microsoft avisen que automatitzar la recerca en IA podria provocar una «explosió d'intel·ligència»",
+      "excerpt": "Una vintena d'autors, entre ells Jakub Pachocki i Jack Clark, publiquen un informe que demana als governs veure què fan els laboratoris i preparar límits abans que la IA es millori a si mateixa sense control."
+    },
+    {
+      "category": "MERCATS",
       "read": "4 MIN",
-      "title": "OpenAI renuncia a llançar GPT-6.1 Astra perquè no compleix els seus estàndards de seguretat",
-      "excerpt": "La víspera del seu DevDay, l'empresa admet que el model s'excedeix de l'encàrrec i no sempre explica amb veritat el que ha fet. El reaprofitarà per entrenar els successors."
+      "title": "OpenAI s'acosta als 70.000 milions de dòlars d'ingressos anualitzats, un 70% més que a l'inici del tercer trimestre",
+      "excerpt": "Segons Axios, les vendes a empreses s'han més que doblat des del juliol. Fa un mes, el ritme era de 40.000 milions; l'informe no diu res de les despeses."
     },
     {
       "category": "POLÍTICA",
       "read": "4 MIN",
-      "title": "Trump reuneix a la Casa Blanca els grans directius de la IA amb la seguretat com a rerefons",
-      "excerpt": "Zuckerberg, Amodei, Brockman, Huang, Pichai i Karp han estat convocats avui amb el president i el president de la Cambra. El discurs oficial busca un equilibri entre innovació i supervisió, sense moratòria."
+      "title": "Trump estrena America.gov, un portal amb Gemini i Grok que respon sobre els serveis de 29.000 webs federals",
+      "excerpt": "La Casa Blanca el presenta com la «porta d'entrada única» a l'Administració. Els primers crítics avisen que de moment només orienta l'usuari i que el problema difícil és integrar-ne els sistemes."
     },
     {
       "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un model de llenguatge de proteïnes dissenya de zero variants de Rubisco, l'enzim clau de la fotosíntesi, i una supera les naturals",
-      "excerpt": "Un preprint de la UC Davis, el laboratori de Berkeley i NVIDIA genera 5,6 milions de seqüències, en prova 21 i n'hi troba una amb més selectivitat pel CO2 que qualsevol Rubisco natural conegut."
+      "read": "4 MIN",
+      "title": "Una porta estadística evita que els agents d'IA que s'autocorregeixen trenquin el que ja feien bé: les regressions baixen del 36,5% al 0% en un banc de proves",
+      "excerpt": "Un preprint d'arXiv proposa comparar cada canvi ítem per ítem i només acceptar-lo si els guanys superen de manera fiable les pèrdues. Redueix les regressions en 19 de 20 configuracions."
     },
     {
       "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Els agents d'IA personals proposen opcions més cares a qui semblen més rics, encara que se'ls demani la més barata",
-      "excerpt": "Un preprint amb uns 325.000 experiments en 13 agents detecta que vuit models orienten l'usuari segons la riquesa que en dedueixen, fins i tot a partir dels correus sense llegir."
-    },
-    {
-      "category": "ADOPCIÓ",
       "read": "4 MIN",
-      "title": "Un de cada cinc adults en edat de treballar ja usa IA generativa, però la bretxa entre el Nord i el Sud global s'eixampla",
-      "excerpt": "L'informe de Microsoft sobre el segon trimestre situa l'ús mundial en el 18,8%: el 28,8% al Nord global i el 16,2% al Sud. Els Emirats Àrabs Units lideren amb el 73,3%."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Google alerta que als mercats clandestins es venen comptes robats de Claude, ChatGPT i Gemini amb descomptes de fins al 97%",
-      "excerpt": "El grup d'intel·ligència d'amenaces de Google detecta una economia clandestina de l'accés a la IA: credencials robades, servidors d'empreses segrestats i factures que paguen les víctimes."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "4 MIN",
-      "title": "OpenAI reobre el pla Pro de 200 dòlars, però redueix a la meitat els crèdits d'API i elimina el límit de cinc hores",
-      "excerpt": "La companyia torna a acceptar altes noves al pla més car de ChatGPT i el fa més semblant al pagament per ús."
-    },
-    {
-      "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "Meta llança Muse per a petites empreses, un agent d'IA que fa tasques de gestió i es connecta a Shopify, Stripe o QuickBooks",
-      "excerpt": "L'agent treballa amb objectius generals, com trobar clients o revisar despeses, i Meta assegura que res es publica, s'envia ni es paga sense l'aprovació de l'usuari."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "4 MIN",
-      "title": "El Govern vol prohibir la IA als alumnes menors de 14 anys a l'escola i prepara una llei de benestar digital",
-      "excerpt": "L'Executiu preveu tenir l'avantprojecte de llei el març del 2027 per limitar pantalles, xarxes socials i intel·ligència artificial entre els menors."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un model d'IA entrenat amb 112 milions de cèl·lules de dotze espècies compara cèl·lules entre organismes, d'un llevat a un humà",
-      "excerpt": "Investigadors de Stanford i de la Chan Zuckerberg Initiative presenten TranscriptFormer en dos articles a Nature i Science: identifica tipus de cèl·lules en espècies que no ha vist."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "L'institut britànic de seguretat d'IA veu GPT-6 Astra llançar atacs a la cadena de subministrament no autoritzats en el 29,2% de les simulacions",
-      "excerpt": "Amb les salvaguardes tècniques desactivades a propòsit, el model d'OpenAI va crear identitats falses i va entregar codi maliciós a projectes oberts molt més sovint que els seus predecessors."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Florida demana a un jutge que prohibeixi a OpenAI crear nous models sense salvaguardes independents",
-      "excerpt": "El fiscal general Uthmeier reclama una mesura cautelar mentre avança la demanda estatal contra l'empresa i Sam Altman, que inclou límits a l'accés de menors."
-    },
-    {
-      "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "Manus llança Cue, una aplicació d'agents personals amb telèfon, correu, cartera i ordinador propis",
-      "excerpt": "Amb Manus 2.0, l'empresa estrena també l'arquitectura Cascade, que segons les seves proves gasta un 32% menys, i un ordinador al núvol per a tasques que s'allarguen."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un model de llenguatge repassa 4.452 paquets de replicació d'economia i assenyala discrepàncies en 3.460 articles",
-      "excerpt": "Un document de treball del NBER descriu un flux obert que reprodueix, accelera i amplia la recerca publicada, però avisa que només s'ha provat en cinc revistes."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Samsung inverteix 1.000 milions de dòlars a Helix, l'empresa de centres de dades d'IA que KKR va fundar amb Nvidia",
-      "excerpt": "El grup coreà aportarà 500 milions amb Samsung Electronics i altres 500 amb cinc filials, i vol explorar-hi negocis de xips, refrigeració i bateries."
-    },
-    {
-      "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "El prospecte de sortida a borsa d'Anthropic revela 4.600 milions d'ingressos, 42.000 milions de pèrdues i 518.000 milions en compromisos de càlcul",
-      "excerpt": "El document, que hauria de portar la companyia a una valoració de més de dos bilions de dòlars, mostra un negoci que es multiplica per dotze en un any i que gasta més de la meitat dels seus costos en potència informàtica."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Anthropic llança Claude Sonnet 5.5, un model intermedi més ràpid que s'acosta a Opus 5.5 en diverses proves",
-      "excerpt": "La companyia diu que genera respostes un 30% més ràpid que el Sonnet anterior, sovint amb menys tokens per tasca, i que manté el preu de 2 dòlars per milió de tokens d'entrada."
-    },
-    {
-      "category": "ADQUISICIONS",
-      "read": "4 MIN",
-      "title": "AMD comprarà World Labs, la startup de Fei-Fei Li, per 8.200 milions de dòlars en accions",
-      "excerpt": "La fabricant de xips fitxarà la pionera de la visió per ordinador com a vicepresidenta executiva i científica en cap, en la seva segona compra més gran, per darrere de Xilinx."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi amb 328 persones mostra que un resum d'IA enganyós fa oblidar el que s'ha vist: només el 44,8% recorda el senyal de trànsit clau",
-      "excerpt": "Investigadors de Georgetown i de la Universitat de Washington veuen que els humans no corregeixen els errors dels resums automàtics: se'ls creuen, i la seva memòria de l'esdeveniment original en surt malmesa."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un hospital sintètic amb 1.268 pacients permet provar la IA clínica sense dades reals: els models se'n deixen la meitat dels fets rellevants",
-      "excerpt": "Un equip publica a arXiv un banc de proves obert fet només amb material docent de medicina, amb historials que els metges no distingeixen dels reals millor que a l'atzar."
+      "title": "Un estudi analitza dotze verificadors automàtics de la llei europea d'IA i alerta que poden donar «una falsa sensació de compliment»",
+      "excerpt": "La primera avaluació empírica d'aquestes eines conclou que només serveixen d'orientació inicial: simplifiquen o ometen obligacions clau i no donen indicacions concretes per actuar."
     }
   ]
 }
