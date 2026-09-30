@@ -54,16 +54,50 @@ $fitxa = static function (array $a, bool $convocatoria) use ($caixaData, $abrev)
 };
 
 // JSON-LD: un Event per acte (les convocatòries no ho són).
+// 30.09.2026: Search Console demanava endDate, image, offers, performer i organizer.url.
+// Camps opcionals nous a agenda.json: "imatge" (URL d'una imatge de l'acte),
+// "organitza_url" (web de l'organitzador), "ponents" (llista de noms) i "preu_eur" (número).
+// Si falten: imatge de marca, domini de l'URL de l'acte, l'organitzador com a performer
+// i una oferta amb només l'enllaç d'inscripció.
+$origen = static function (string $url): string {
+    $p = parse_url($url);
+    return !empty($p['scheme']) && !empty($p['host']) ? $p['scheme'] . '://' . $p['host'] . '/' : $url;
+};
 $events = [];
 foreach ($actes as $a) {
-    $e = ['@type' => 'Event', 'name' => (string) $a['titol'], 'startDate' => (string) $a['inici'], 'url' => (string) $a['url'],
-        'description' => (string) ($a['descripcio'] ?? ''), 'eventStatus' => 'https://schema.org/EventScheduled'];
-    if (!empty($a['fi'])) { $e['endDate'] = (string) $a['fi']; }
+    $url = (string) $a['url'];
+    $inici = (string) $a['inici'];
+    $e = ['@type' => 'Event', 'name' => (string) $a['titol'], 'startDate' => $inici,
+        'endDate' => !empty($a['fi']) ? (string) $a['fi'] : $inici, 'url' => $url,
+        'description' => (string) ($a['descripcio'] ?? ''), 'eventStatus' => 'https://schema.org/EventScheduled',
+        'image' => [!empty($a['imatge']) ? (string) $a['imatge'] : IACAT_BASE . '/assets/og-portada.jpg']];
     $format = (string) ($a['format'] ?? '');
     $e['eventAttendanceMode'] = $format === 'en línia' ? 'https://schema.org/OnlineEventAttendanceMode'
         : ($format === 'híbrid' ? 'https://schema.org/MixedEventAttendanceMode' : 'https://schema.org/OfflineEventAttendanceMode');
-    if (!empty($a['lloc']) && $format !== 'en línia') { $e['location'] = ['@type' => 'Place', 'name' => (string) $a['lloc'], 'address' => (string) $a['lloc']]; }
-    if (!empty($a['organitza'])) { $e['organizer'] = ['@type' => 'Organization', 'name' => (string) $a['organitza']]; }
+    $llocs = [];
+    if (!empty($a['lloc']) && $format !== 'en línia') { $llocs[] = ['@type' => 'Place', 'name' => (string) $a['lloc'], 'address' => (string) $a['lloc']]; }
+    if ($format === 'en línia' || $format === 'híbrid') { $llocs[] = ['@type' => 'VirtualLocation', 'url' => $url]; }
+    if ($llocs) { $e['location'] = count($llocs) === 1 ? $llocs[0] : $llocs; }
+    $organitzador = null;
+    if (!empty($a['organitza'])) {
+        $organitzador = ['@type' => 'Organization', 'name' => (string) $a['organitza'],
+            'url' => !empty($a['organitza_url']) ? (string) $a['organitza_url'] : $origen($url)];
+        $e['organizer'] = $organitzador;
+    }
+    $ponents = array_values(array_filter(array_map('strval', (array) ($a['ponents'] ?? [])), 'strlen'));
+    if ($ponents) {
+        $e['performer'] = array_map(static fn(string $n): array => ['@type' => 'Person', 'name' => $n], $ponents);
+    } elseif ($organitzador) {
+        $e['performer'] = $organitzador;
+    }
+    $oferta = ['@type' => 'Offer', 'url' => $url];
+    $preu = (string) ($a['preu'] ?? '');
+    if ($preu === 'gratuït') {
+        $oferta += ['price' => 0, 'priceCurrency' => 'EUR'];
+    } elseif (isset($a['preu_eur']) && is_numeric($a['preu_eur'])) {
+        $oferta += ['price' => (float) $a['preu_eur'], 'priceCurrency' => 'EUR'];
+    }
+    $e['offers'] = $oferta;
     $events[] = $e;
 }
 
