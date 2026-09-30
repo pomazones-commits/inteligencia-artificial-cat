@@ -66,7 +66,7 @@ reflexió del dia anterior passa automàticament a `arxiu-reflexions.html`.
 
 ## Denominacions territorials
 
-No facis servir mai «Països Catalans». Per parlar de tot el domini lingüístic, escriu «territoris de parla catalana» (o, segons el context, «Catalunya, el País Valencià, les Illes Balears i Andorra»). Si una font la fa servir, cita-la entre cometes, però no la facis teva al titular ni a l'entradeta.
+No facis servir mai «Països Catalans». Per parlar de tot el domini lingüístic, escriu «territoris de parla catalana» (o, segons el context, «Catalunya, la Comunitat Valenciana, les Illes Balears i Andorra»). Per al territori valencià, escriu «Comunitat Valenciana», no «País Valencià». Si una font fa servir aquestes denominacions, cita-les entre cometes, però no les facis teves al titular ni a l'entradeta.
 
 ## Llengua: castellanismes i calcs prohibits
 
