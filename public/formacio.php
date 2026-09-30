@@ -11,7 +11,7 @@ require __DIR__ . '/inc/plantilla.php';
 $dades = iacat_dades('formacio.json');
 $territoris = [
     'Catalunya' => 'catalunya',
-    'País Valencià' => 'pais-valencia',
+    'Comunitat Valenciana' => 'comunitat-valenciana',
     'Illes Balears' => 'illes-balears',
     'Andorra' => 'andorra',
     'Catalunya Nord' => 'catalunya-nord',
@@ -90,7 +90,7 @@ function formacio_fitxa(array $p, array $etiqueta, bool $privada = false): void
 
 iacat_capcalera([
     'titol' => 'On estudiar intel·ligència artificial',
-    'descripcio' => 'Graus, màsters, FP, cursos i formació per a docents en intel·ligència artificial a Catalunya, el País Valencià, les Illes Balears, Andorra i Catalunya Nord.',
+    'descripcio' => 'Graus, màsters, FP, cursos i formació per a docents en intel·ligència artificial a Catalunya, la Comunitat Valenciana, les Illes Balears, Andorra i Catalunya Nord.',
     'cami' => '/formacio',
     'molla' => 'Formació',
     'jsonld' => ['@context' => 'https://schema.org', '@type' => 'CollectionPage', 'name' => 'On estudiar intel·ligència artificial als territoris de parla catalana', 'url' => IACAT_BASE . '/formacio', 'inLanguage' => 'ca'],
@@ -98,7 +98,7 @@ iacat_capcalera([
 ?>
     <header class="seccio-hero">
       <div><p class="editorial-kicker">Formació</p><h1 class="editorial-display">On aprendre IA <em>als territoris de parla catalana.</em></h1>
-      <p class="editorial-lede"><?= $total ?> graus, màsters, cursos de formació professional, formació gratuïta i cursos per a docents a Catalunya, el País Valencià, les Illes Balears, Andorra i Catalunya Nord.</p></div>
+      <p class="editorial-lede"><?= $total ?> graus, màsters, cursos de formació professional, formació gratuïta i cursos per a docents a Catalunya, la Comunitat Valenciana, les Illes Balears, Andorra i Catalunya Nord.</p></div>
       <aside><strong>Com l’hem fet</strong>Hi entra la formació oficial, pública o sense ànim de lucre que té la IA com a eix; la privada va a part. Cada fitxa enllaça la web oficial del centre. Hi trobes a faltar res? <a href="mailto:pomazona@gmail.com?subject=Formaci%C3%B3%20IA.cat">Escriu-nos</a>.<br><br>Revisat el <?= iacat_e(iacat_data_llarga((string) ($dades['actualitzat'] ?? ''))) ?>. Es revisa cada trimestre.</aside>
     </header>
 
