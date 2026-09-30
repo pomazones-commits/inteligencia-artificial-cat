@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 // ---------------------------------------------------------------------------
-// Formació en IA als Països Catalans (26.09.2026) — /formacio
+// Formació en IA als territoris de parla catalana (26.09.2026) — /formacio
 // Dades: public/data/formacio.json (manual, revisió trimestral: CLAUDE.md).
 // Només es mostren les fitxes amb "estat": "actiu". La formació privada va en
 // un bloc a part, amb el títol que dona realment i sense preus.
@@ -93,11 +93,11 @@ iacat_capcalera([
     'descripcio' => 'Graus, màsters, FP, cursos i formació per a docents en intel·ligència artificial a Catalunya, el País Valencià, les Illes Balears, Andorra i Catalunya Nord.',
     'cami' => '/formacio',
     'molla' => 'Formació',
-    'jsonld' => ['@context' => 'https://schema.org', '@type' => 'CollectionPage', 'name' => 'On estudiar intel·ligència artificial als Països Catalans', 'url' => IACAT_BASE . '/formacio', 'inLanguage' => 'ca'],
+    'jsonld' => ['@context' => 'https://schema.org', '@type' => 'CollectionPage', 'name' => 'On estudiar intel·ligència artificial als territoris de parla catalana', 'url' => IACAT_BASE . '/formacio', 'inLanguage' => 'ca'],
 ]);
 ?>
     <header class="seccio-hero">
-      <div><p class="editorial-kicker">Formació</p><h1 class="editorial-display">On aprendre IA <em>als Països Catalans.</em></h1>
+      <div><p class="editorial-kicker">Formació</p><h1 class="editorial-display">On aprendre IA <em>als territoris de parla catalana.</em></h1>
       <p class="editorial-lede"><?= $total ?> graus, màsters, cursos de formació professional, formació gratuïta i cursos per a docents a Catalunya, el País Valencià, les Illes Balears, Andorra i Catalunya Nord.</p></div>
       <aside><strong>Com l’hem fet</strong>Hi entra la formació oficial, pública o sense ànim de lucre que té la IA com a eix; la privada va a part. Cada fitxa enllaça la web oficial del centre. Hi trobes a faltar res? <a href="mailto:pomazona@gmail.com?subject=Formaci%C3%B3%20IA.cat">Escriu-nos</a>.<br><br>Revisat el <?= iacat_e(iacat_data_llarga((string) ($dades['actualitzat'] ?? ''))) ?>. Es revisa cada trimestre.</aside>
     </header>

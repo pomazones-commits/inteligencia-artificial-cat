@@ -103,7 +103,7 @@ foreach ($actes as $a) {
 
 iacat_capcalera([
     'titol' => 'Agenda de la IA a Catalunya',
-    'descripcio' => 'Congressos, jornades, fires i convocatòries sobre intel·ligència artificial a Catalunya i als Països Catalans, actualitzats cada mes.',
+    'descripcio' => 'Congressos, jornades, fires i convocatòries sobre intel·ligència artificial a Catalunya i a la resta de territoris de parla catalana, actualitzats cada mes.',
     'cami' => '/agenda',
     'molla' => 'Agenda',
     'jsonld' => ['@context' => 'https://schema.org', '@graph' => array_merge(
@@ -112,7 +112,7 @@ iacat_capcalera([
 ?>
     <header class="seccio-hero">
       <div><p class="editorial-kicker">Agenda</p><h1 class="editorial-display">Què passa <em>i quan.</em></h1>
-      <p class="editorial-lede">Congressos, jornades, fires i convocatòries sobre intel·ligència artificial a Catalunya i als Països Catalans. Cada acte enllaça la web de qui l’organitza: comprova-hi l’horari i les inscripcions.</p></div>
+      <p class="editorial-lede">Congressos, jornades, fires i convocatòries sobre intel·ligència artificial a Catalunya i a la resta de territoris de parla catalana. Cada acte enllaça la web de qui l’organitza: comprova-hi l’horari i les inscripcions.</p></div>
       <aside><strong>Organitzes un acte?</strong>Envia’ns el nom, la data, el lloc i l’enllaç oficial. <a href="mailto:pomazona@gmail.com?subject=Acte%20per%20a%20l%E2%80%99agenda%20d%E2%80%99IA.cat">pomazona@gmail.com</a><br><br>Última revisió: <?= iacat_e(iacat_data_llarga((string) ($dades['actualitzat'] ?? ''))) ?>.</aside>
     </header>
 
@@ -139,7 +139,7 @@ foreach ($actes as $a) {
     echo $fitxa($a, false);
 }
 ?>
-      <p class="seccio-nota">Les dates i els llocs són els que publica cada organització; si canvien, mana la seva web. Hi entren actes amb la intel·ligència artificial com a eix, oberts al públic o a professionals, fets a Catalunya o als Països Catalans, o en línia i organitzats per entitats d’aquí.</p>
+      <p class="seccio-nota">Les dates i els llocs són els que publica cada organització; si canvien, mana la seva web. Hi entren actes amb la intel·ligència artificial com a eix, oberts al públic o a professionals, fets a Catalunya o a la resta de territoris de parla catalana, o en línia i organitzats per entitats d’aquí.</p>
     </section>
 <?php
 iacat_peu();
