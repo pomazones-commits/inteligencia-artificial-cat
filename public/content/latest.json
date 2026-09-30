@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-09-30T08:11:33.168Z",
+  "updatedAt": "2026-09-30T12:10:47.560Z",
   "items": [
+    {
+      "category": "LLEI",
+      "read": "4 MIN",
+      "title": "Un tribunal d'apel·lació dels EUA rebutja que entrenar una IA amb textos protegits sigui ús legítim, en el primer cas d'aquest tipus",
+      "excerpt": "El Tercer Circuit dona la raó a Thomson Reuters contra Ross Intelligence: copiar els resums de Westlaw per crear un cercador jurídic rival no és ús legítim."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "Apple va estudiar acomiadar 5.000 persones d'AppleCare i substituir-les per agents d'IA, però ha aparcat el pla",
+      "excerpt": "Segons Bloomberg, la companyia comptava que agents telefònics i web assumissin part de la feina de suport, i ara diu que ja no pensa fer aquest pas."
+    },
+    {
+      "category": "ECONOMIA",
+      "read": "4 MIN",
+      "title": "Meta va rebaixar un 71% l'impost federal de societats el 2025 en tractar els centres de dades d'IA com a despesa experimental",
+      "excerpt": "Segons The New York Times, la tecnològica va passar de pagar 9.600 a 2.800 milions de dòlars, gràcies a una norma fiscal que permet deduir de cop les despeses de recerca."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Una fallada a l'SDK oficial de Python del protocol MCP deixava que un servidor maliciós robés les credencials d'accés dels clients",
+      "excerpt": "La firma Cycode va detectar que la biblioteca no comprovava el servidor d'autenticació que li indicava el servidor MCP. Ja hi ha versions corregides."
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "Un estudi amb clínics analitza 19.930 converses de joves amb ChatGPT i conclou que respon a l'angoixa amb massa dramatisme i salta massa aviat als consells",
+      "excerpt": "El preprint, basat en 158 joves de 18 a 25 anys i deu professionals clínics, detecta set errors de procés i proposa una pauta en tres fases."
+    },
     {
       "category": "PRODUCTE",
       "read": "5 MIN",
