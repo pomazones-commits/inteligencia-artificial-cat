@@ -26,6 +26,10 @@ Retorna exclusivament JSON vàlid:
 
 La peça es publica amb autoria «Per Redacció IA.cat», es mostra a la portada (targeta «Quadern IA · Cada divendres») i s'obre completa a `quadern.html`, amb lector d'àudio (el workflow d'àudio genera `assets/audio/quadern-AAAA-MM-DD.mp3` automàticament).
 
+## Denominacions territorials
+
+No facis servir mai «Països Catalans». Per parlar de tot el domini lingüístic, escriu «territoris de parla catalana» (o, segons el context, «Catalunya, el País Valencià, les Illes Balears i Andorra»). Si una font la fa servir, cita-la entre cometes, però no la facis teva al titular ni a l'entradeta.
+
 ## Llengua: castellanismes i calcs prohibits
 
 Escriu en un català normatiu i genuí. No inventis mai mots calcats de l'anglès o del castellà, i revisa el text abans de lliurar-lo contra aquesta llista (la llista completa i actualitzada és a `CLAUDE.md`, «Regles»):
