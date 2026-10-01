@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-01T04:11:53.965Z",
+  "updatedAt": "2026-10-01T08:10:35.555Z",
   "items": [
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "slug": "tencent-oracle-lloguer-100000-xips-ia",
+      "title": "Tencent lloga a Oracle uns 100.000 xips d'IA per 7.000 milions de dòlars en centres de dades del sud-est asiàtic",
+      "excerpt": "El contracte, de cinc anys, és el lloguer més gran que el gegant xinès ha tancat a l'estranger i li dona accés a processadors avançats sense importar-los a la Xina.",
+      "sourceName": "AI Weekly (a partir del Financial Times)",
+      "sourceUrl": "https://aiweekly.co/alerts/tencent-leases-100000-ai-chips-from-oracle-in-7b-deal",
+      "sourceDate": "1 d'octubre de 2026",
+      "body": "Les empreses xineses tenen vetada la compra directa dels processadors d'IA més avançats pels controls d'exportació dels Estats Units. Les normes, però, sí que permeten llogar capacitat de càlcul en centres de dades situats fora de la Xina, i és aquest marge el que ara aprofita Tencent.\n\nSegons el Financial Times, Tencent ha signat amb Oracle un contracte de cinc anys d'uns 7.000 milions de dòlars que li dona accés a uns 100.000 xips avançats, sobretot de Nvidia, instal·lats en centres de dades d'Oracle al sud-est asiàtic. Aproximadament un 30% de l'import es paga per avançat. Els països concrets i les generacions exactes de xips no s'han fet públics.\n\nÉs el lloguer més gran que Tencent ha tancat fora de la Xina i, per a Oracle, un compromís de molts anys que redueix la seva dependència d'OpenAI com a gran client d'IA. L'acord també mostra com les empreses xineses obtenen potència de càlcul de primer nivell sense que els xips entrin al país.\n\nConvé tenir present que les dades venen d'una informació del Financial Times, reproduïda per mitjans secundaris, i que cap de les dues empreses no ha detallat les condicions. El compromís ja va pesar en el flux de caixa lliure de Tencent del segon trimestre.",
+      "image": "./assets/tencent-oracle-lloguer-100000-xips-ia-20261001.jpg"
+    },
+    {
+      "category": "GOVERN",
+      "read": "4 MIN",
+      "slug": "claude-for-government-disponible-general",
+      "title": "Anthropic obre Claude for Government a totes les agències federals i estatals dels Estats Units, amb autorització FedRAMP High",
+      "excerpt": "L'eina, que ja és d'ús general, es paga per consum amb un topall rígid i incorpora registres d'auditoria i aprovació per part de dues persones en les operacions sensibles.",
+      "sourceName": "Anthropic",
+      "sourceUrl": "https://claude.com/blog/claude-for-government-is-now-generally-available",
+      "sourceDate": "30 de setembre de 2026",
+      "body": "Anthropic va anunciar el 30 de setembre que Claude for Government ja està disponible de manera general per a les agències federals i estatals dels Estats Units. El servei funciona en un entorn amb autorització FedRAMP High, el nivell de seguretat que exigeix el govern federal per a dades sensibles.\n\nSegons l'empresa, les agències accedeixen a capacitats de Claude comparables a les dels clients comercials, entre les quals el xat i l'assistent de programació Claude Code, des de l'aplicació d'escriptori. La CLI de Claude Code i Claude per a Microsoft 365 arriben en accés anticipat, amb els mateixos controls d'administració.\n\nEl model de pagament tria un camí diferent de l'habitual: no hi ha quotes per usuari, sinó una compra per consum en increments fixos amb un topall que no es pot superar. Els administradors fixen límits per nivells d'usuari i despesa per departaments, i hi ha registres d'auditoria, aprovació per part de dues persones en les operacions sensibles i exportacions d'ús que només porten dades de mesura.\n\nL'anunci no esmenta cap agència client concreta, i el xoc de fons continua obert: el 26 de setembre un tribunal d'apel·lació va avalar que el Pentàgon exclogui Anthropic per motius de seguretat nacional. L'obertura a altres agències mostra que l'empresa continua apostant pel mercat públic.",
+      "image": "./assets/claude-for-government-disponible-general-20261001.jpg"
+    },
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "slug": "salesforce-adquireix-listen-labs",
+      "title": "Salesforce compra Listen Labs, la startup que fa entrevistes a clients amb agents d'IA i simula com reaccionaran",
+      "excerpt": "L'acord definitiu es va signar el 29 de setembre i s'ha de tancar en el quart trimestre de l'exercici fiscal 2027; el preu oficial no s'ha fet públic.",
+      "sourceName": "Salesforce",
+      "sourceUrl": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/",
+      "sourceDate": "29 de setembre de 2026",
+      "body": "Salesforce ha signat un acord definitiu per adquirir Listen Labs, una plataforma que automatitza la recerca de mercat amb agents d'IA. L'operació es tancarà, si els reguladors hi donen el vistiplau, durant el quart trimestre del seu exercici fiscal 2027.\n\nSegons la companyia, els agents de Listen Labs dissenyen els estudis, recluten participants entre una xarxa de més de 50 milions de persones, fan entrevistes en més de 120 llengües i en sintetitzen les conclusions. La plataforma també crea «bessons digitals», simulacions basades en el comportament de clients reals per provar productes i missatges abans de llançar-los.\n\nSalesforce hi veu una peça per completar les seves eines de màrqueting i atenció al client. Amb els agents, diu l'empresa, un estudi que abans trigava mesos es pot fer en dies, i amb milers de converses alhora. Mitjans com Business Insider havien situat el preu al voltant dels 2.000 milions de dòlars, quan Listen Labs valia 500 milions el gener.\n\nCal remarcar que Salesforce no ha revelat el preu, de manera que la xifra de 2.000 milions prové d'informacions prèvies de premsa i no està confirmada oficialment. Tampoc no s'han fet públiques dades de resultats de les simulacions.",
+      "image": "./assets/salesforce-adquireix-listen-labs-20261001.jpg"
+    },
+    {
+      "category": "OPINIÓ",
+      "read": "4 MIN",
+      "slug": "lecun-amodei-enganyat-extincio",
+      "title": "Yann LeCun diu que Dario Amodei està «completament enganyat» i que no li preocupa que la IA pugui causar l'extinció humana",
+      "excerpt": "En una entrevista a Fortune, l'antic cap científic d'IA de Meta atribueix els incidents amb agents autònoms a entorns de prova mal dissenyats i veu en el discurs del risc una arma per frenar la competència.",
+      "sourceName": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+      "sourceDate": "1 d'octubre de 2026",
+      "body": "Yann LeCun, guanyador del premi Turing el 2018 i durant anys cap científic d'IA de Meta, ha tornat a posar-se en contra del discurs més alarmista sobre la intel·ligència artificial. Ho fa en una entrevista publicada per Fortune, feta en un cafè del barri de SoHo, a Nova York.\n\nLeCun assegura que té «zero preocupacions» sobre els incidents recents amb agents autònoms, com el d'agents d'OpenAI que van entrar als servidors de Hugging Face al juliol. Al seu parer, «aquests agents fan exactament el que se'ls ha demanat» i el problema és que els entorns aïllats eren «foradats i horriblement dissenyats». Sobre el director d'Anthropic, Dario Amodei, diu que està «completament enganyat».\n\nEl científic, que ara dirigeix AMI Labs i hi desenvolupa models del món basats en l'arquitectura JEPA per a aplicacions industrials com la robòtica, afirma també que dir que «la IA ens pot matar a tots» és «increïblement destructiu». Considera que aquest missatge afavoreix una regulació que protegeix els grans actors i perjudica la competència.\n\nÉs una opinió, no un resultat: Amodei i altres veus del sector defensen justament el contrari i els fets que invoca LeCun es coneixen sobretot a través d'informes del mateix sector. L'entrevista, però, il·lustra la fractura entre els pioners de la IA just quan la Comissió Federal de Comerç investiga la seguretat dels models.",
+      "image": "./assets/lecun-amodei-enganyat-extincio-20261001.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "xarxes-neuronals-modularitat-tasques-cervell",
+      "title": "Les xarxes neuronals que aprenen tasques una darrere l'altra s'organitzen en mòduls, com el cervell humà",
+      "excerpt": "Un estudi a Nature Machine Intelligence mostra que l'aprenentatge multitasca incremental fa sorgir mòduls en xarxes recurrents i que la seva estructura s'assembla més a la del cervell que la dels models basats només en l'espai.",
+      "sourceName": "Nature Machine Intelligence",
+      "sourceUrl": "https://www.nature.com/articles/s42256-026-01306-9",
+      "sourceDate": "28 de setembre de 2026",
+      "body": "El cervell humà no és una massa uniforme: les seves regions formen grups de zones molt connectades entre elles i poc amb la resta, el que els científics anomenen organització modular. Fins ara, moltes explicacions atribuïen aquesta estructura a restriccions físiques, com ara reduir el cost metabòlic de connectar neurones llunyanes.\n\nUn equip de la Universitat de Ciència i Tecnologia Electrònica de la Xina, la Universitat de Zhejiang, la de Nova York i la de Pennsilvània, amb Dani Bassett i Marcelo Mattar entre els autors, ha entrenat xarxes neuronals recurrents amb tasques cognitives i n'ha comparat l'organització. L'estudi, publicat el 28 de setembre a Nature Machine Intelligence, una revista revisada per parells, conclou que l'aprenentatge multitasca fa augmentar la modularitat respecte de l'entrenament d'una sola tasca, sobretot quan la càrrega de feina exigeix molt a la capacitat de la xarxa.\n\nEl grau més alt de modularitat, amb un rendiment també millor, es va obtenir amb l'aprenentatge multitasca incremental, en què les tasques s'introdueixen una a una. Les xarxes resultants s'assemblaven més al connectoma humà, mesurat amb 84 àrees corticals del Human Connectome Project, que els models basats només en limitacions espacials. Els autors hi veuen la modularitat com una resposta adaptativa a haver d'aprendre tasques complexes en seqüència.\n\nEls resultats surten de models simplificats en entorns controlats, i no d'un cervell real ni de simulacions a gran escala, de manera que no demostren que el cervell s'organitzi així per aquesta raó. Sí que ofereixen una explicació comprovable i una pista per dissenyar xarxes que aprenguin sense oblidar el que ja saben.",
+      "image": "./assets/xarxes-neuronals-modularitat-tasques-cervell-20261001.jpg"
+    },
     {
       "category": "REGULACIÓ",
       "read": "4 MIN",
