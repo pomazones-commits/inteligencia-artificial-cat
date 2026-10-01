@@ -216,3 +216,26 @@ function iacat_e(string $valor): string
 {
     return htmlspecialchars($valor, ENT_QUOTES, 'UTF-8');
 }
+
+// Càrrec de l'autor amb l'entitat enllaçada (01.10.2026). Camps opcionals de la
+// peça: "org" (nom de l'entitat tal com surt dins de "role") i "orgUrl" (la seva
+// web). Mateixa lògica que IAPeces.rolAmbEnllac a peces.js. Retorna HTML escapat.
+function iacat_rol_html(string $rol, string $org = '', string $orgUrl = ''): string
+{
+    if ($rol === '') { return ''; }
+    if (!preg_match('#^https?://#i', $orgUrl)) { return iacat_e($rol); }
+    $obre = '<a class="rol-org" href="' . iacat_e($orgUrl) . '" target="_blank" rel="noopener">';
+    $pos = $org !== '' ? mb_strpos($rol, $org) : false;
+    if ($pos === false) { return $obre . iacat_e($rol) . '</a>'; }
+    return iacat_e(mb_substr($rol, 0, $pos)) . $obre . iacat_e($org) . '</a>'
+        . iacat_e(mb_substr($rol, $pos + mb_strlen($org)));
+}
+
+// Entitat de l'autor per al JSON-LD (Person.affiliation), o null si la peça no en porta.
+function iacat_afiliacio(array $item): ?array
+{
+    $org = trim((string) ($item['org'] ?? ''));
+    $url = trim((string) ($item['orgUrl'] ?? ''));
+    if ($org === '' || !preg_match('#^https?://#i', $url)) { return null; }
+    return ['@type' => 'Organization', 'name' => $org, 'url' => $url];
+}
