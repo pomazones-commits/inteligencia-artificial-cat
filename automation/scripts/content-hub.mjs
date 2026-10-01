@@ -209,10 +209,16 @@ function validateNews(payload) {
     // aquí" i no apareix mai al feed principal ni a l'hemeroteca.
     const seccio = normalizeText(raw?.seccio).toLocaleLowerCase('ca');
     if (seccio) {
-      if (seccio !== 'radar' && seccio !== 'senyal') {
-        throw new Error(`Notícia ${index + 1}: seccio només pot ser "radar" o "senyal".`);
+      if (seccio !== 'radar' && seccio !== 'senyal' && seccio !== 'catalunya') {
+        throw new Error(`Notícia ${index + 1}: seccio només pot ser "radar", "senyal" o "catalunya".`);
       }
-      if (seccio === 'radar') item.seccio = 'radar';
+      // "catalunya" (01.10.2026): la notícia va al feed com qualsevol altra i,
+      // a més, entra SEMPRE al radar, encara que no porti cap terme de
+      // LOCAL_TERMS. Motiu: el 29 i el 30.09.2026 dues peces catalanes
+      // («El Govern vol prohibir la IA...» i «Interior defensa la IA... Mossos»)
+      // no es van derivar al radar perquè «Govern», «Interior» i «Mossos» no hi
+      // eren. La llista de termes no pot preveure-ho tot; qui escriu el lot sí.
+      if (seccio === 'radar' || seccio === 'catalunya') item.seccio = seccio;
     }
     return item;
   });
@@ -368,7 +374,7 @@ function radarCategory(story) {
 // radar (va passar el 24.07.2026 amb CaixaBank). Només noms que no poden
 // aparèixer per casualitat en una notícia global.
 const LOCAL_TERMS = [
-  'catalunya', 'català', 'catalana', 'catalanes', 'països catalans', 'barcelona', 'girona', 'lleida', 'tarragona', 'mataró', 'flix', 'sabadell', 'terrassa', 'manresa', 'reus', 'badalona', 'hospitalet', 'vic', 'granollers', 'igualada', 'generalitat', 'aina', 'softcatalà', 'bsc', 'upc', 'uab', 'ub', 'urv',
+  'catalunya', 'català', 'catalana', 'catalanes', 'països catalans', 'barcelona', 'bcn', 'mossos', 'mossos d\'esquadra', 'girona', 'lleida', 'tarragona', 'mataró', 'flix', 'sabadell', 'terrassa', 'manresa', 'reus', 'badalona', 'hospitalet', 'vic', 'granollers', 'igualada', 'generalitat', 'aina', 'softcatalà', 'bsc', 'upc', 'uab', 'ub', 'urv',
   'caixabank', 'fundació la caixa', 'criteriacaixa', 'banc sabadell', 'grifols', 'cellnex', 'fluidra', 'seat', 'cupra', 'esade', 'uoc', 'upf', 'udg', 'udl', 'eurecat', 'submer', 'openchip', 'i2cat', 'mobile world congress', 'mwc', 'tv3', '3cat', 'mare nostrum', 'marenostrum'
 ];
 
@@ -392,7 +398,7 @@ function isLocalStory(story) {
 // empreses de l'entorn, encara que no portin cap topònim català). Les notícies
 // globals de sempre no s'hi disfressen mai de locals.
 function deriveRadar(items, date) {
-  return items.filter(story => story.seccio === 'radar' || isLocalStory(story)).map(story => ({
+  return items.filter(story => story.seccio === 'radar' || story.seccio === 'catalunya' || isLocalStory(story)).map(story => ({
     place: detectPlace(story),
     category: radarCategory(story),
     date: displayDate(date),
@@ -504,6 +510,9 @@ async function ingestNews(options) {
   // NOMÉS a "La IA que passa aquí" (via deriveRadar més avall) i no entren al
   // feed "El senyal d'avui" ni a l'acumulació del dia. La resta segueix el flux
   // habitual; els traiem el camp intern perquè no arribi al contracte públic.
+  // El radar es deriva ABANS d'esborrar el camp intern: si no, les peces
+  // marcades "catalunya" ja l'haurien perdut quan s'avaluen.
+  const radarIncoming = deriveRadar(incoming, date);
   const feedIncoming = incoming.filter(story => story.seccio !== 'radar');
   for (const story of feedIncoming) delete story.seccio;
   const items = mergeNews(feedIncoming, previous, target);
@@ -543,7 +552,7 @@ async function ingestNews(options) {
   // Radar català: senyals nous només de notícies catalanes + senyals anteriors, fins a 8.
   const radarPath = join(publicDir, 'radar.js');
   const existingRadar = await readAssignment(radarPath);
-  const radar = mergeRadar(deriveRadar(incoming, date), Array.isArray(existingRadar) ? existingRadar : []);
+  const radar = mergeRadar(radarIncoming, Array.isArray(existingRadar) ? existingRadar : []);
   if (radar.length) {
     await backupFile(radarPath, join(stateDir, 'backups'), date);
     await atomicWrite(radarPath, serializeAssignment(ASSIGNMENTS.radar.variable, radar));
