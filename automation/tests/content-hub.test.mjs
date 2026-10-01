@@ -370,6 +370,41 @@ test('una notícia global que diu «la caixa» en sentit de tresoreria NO es col
   assert.ok(radar.some(item => item.title.startsWith('La Fundació la Caixa')), 'la Fundació la Caixa sí que es deriva al radar');
 });
 
+test('les peces catalanes sense cap terme de LOCAL_TERMS entren al radar amb seccio "catalunya" o pels termes nous', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  // Casos reals del 29 i el 30.09.2026: cap de les dues peces no es va derivar al radar.
+  const govern = {
+    ...story(1),
+    slug: 'govern-veto-ia-menors-14-anys-escola-llei',
+    sourceUrl: 'https://example.com/govern-veto',
+    category: 'EDUCACIÓ',
+    title: 'El Govern vol prohibir la IA als alumnes menors de 14 anys a l’escola i prepara una llei de benestar digital',
+    excerpt: 'L’Executiu preveu tenir l’avantprojecte de llei el març del 2027.',
+    seccio: 'catalunya'
+  };
+  const mossos = {
+    ...story(2),
+    slug: 'mossos-lectio-ia-predictiva-bcn-desperta',
+    sourceUrl: 'https://example.com/mossos-lectio',
+    category: 'SEGURETAT',
+    title: 'Interior defensa la IA per «actuar abans de qualsevol risc» i posa com a exemple els lectors de matrícules Lectio dels Mossos',
+    excerpt: 'La secretària general del Departament va presentar la IA en el fòrum BCN Desperta!'
+  };
+  const global1 = { ...story(3), slug: 'noticia-global-ia', sourceUrl: 'https://example.com/global-radar', title: 'Un laboratori presenta un model nou', excerpt: 'Anunci global sense vincle local.' };
+  await writeFile(input, JSON.stringify([govern, mossos, global1, story(5), story(7)]), 'utf8');
+  assert.equal(run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-09-30'], root).status, 0);
+
+  const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.ok(radar.some(item => item.title.startsWith('El Govern vol prohibir')), 'seccio "catalunya" força l’entrada al radar');
+  assert.ok(radar.some(item => item.title.startsWith('Interior defensa la IA')), '«Mossos» i «BCN» ja identifiquen una peça catalana');
+  assert.ok(!radar.some(item => item.title === 'Un laboratori presenta un model nou'), 'les notícies globals continuen fora del radar');
+
+  const feed = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.ok(feed.some(item => item.slug === govern.slug), 'la peça "catalunya" també surt al feed');
+  assert.ok(feed.every(item => !('seccio' in item)), 'el camp intern seccio no arriba mai a IA_NEWS');
+});
+
 // ——— La reflexió del dia (04.08.2026) ———
 
 function reflexio(date, paragrafs = 5, extra = {}) {
