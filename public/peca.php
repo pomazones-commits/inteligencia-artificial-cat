@@ -57,6 +57,7 @@ $autor = $peca['autor'] !== ''
     ? ['@type' => 'Person', 'name' => $peca['autor']] + (!empty($item['role']) ? ['jobTitle' => (string) $item['role']] : [])
     : ['@type' => 'Organization', 'name' => 'Redacció IA.cat', 'url' => IACAT_BASE . '/redaccio.html'];
 if ($peca['autor'] !== '') { $autor['url'] = IACAT_BASE . '/autor/' . iacat_slug($peca['autor']); }
+if ($peca['autor'] !== '' && ($afiliacio = iacat_afiliacio($item))) { $autor['affiliation'] = $afiliacio; }
 $article = [
     '@type' => $tipus === 'estudis' ? 'ScholarlyArticle' : ($tipus === 'tribuna' ? 'OpinionNewsArticle' : 'Article'),
     'headline' => $peca['titol'],

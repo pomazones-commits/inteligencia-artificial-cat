@@ -1,5 +1,5 @@
 /* Adreces fixes de les peces editorials (24.09.2026).
-   Contracte públic: window.IAPeces = { slug, ids, cami, url, canonica }.
+   Contracte públic: window.IAPeces = { slug, ids, cami, url, canonica, rolAmbEnllac }.
 
    Cada peça de «La tribuna», «Estudis», l'anàlisi, el Quadern IA i la
    reflexió del dia té una adreça que no canvia mai: /tribuna/<id>,
@@ -92,5 +92,31 @@
     if (og) og.content = adreca;
   }
 
-  window.IAPeces = { slug: slug, ids: ids, cami: cami, url: url, canonica: canonica };
+  // Càrrec de l'autor amb l'entitat enllaçada (01.10.2026). Camps opcionals de
+  // cada peça: "org" (el nom de l'entitat tal com surt dins de "role") i "orgUrl"
+  // (la seva web). Si "org" no apareix dins del càrrec, s'enllaça el càrrec sencer.
+  // Sense "orgUrl" vàlida, el càrrec surt com a text, com sempre. Es construeix amb
+  // el DOM, mai amb innerHTML. Sense noreferrer: que l'entitat vegi d'on li arriben.
+  function rolAmbEnllac(el, item) {
+    if (!el) return;
+    el.textContent = '';
+    var rol = String((item && item.role) || '');
+    var org = String((item && item.org) || '');
+    var href = String((item && item.orgUrl) || '');
+    if (!rol) return;
+    if (!/^https?:\/\//i.test(href)) { el.textContent = rol; return; }
+    var a = document.createElement('a');
+    a.href = href;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.className = 'rol-org';
+    var i = org ? rol.indexOf(org) : -1;
+    if (i < 0) { a.textContent = rol; el.appendChild(a); return; }
+    el.appendChild(document.createTextNode(rol.slice(0, i)));
+    a.textContent = org;
+    el.appendChild(a);
+    el.appendChild(document.createTextNode(rol.slice(i + org.length)));
+  }
+
+  window.IAPeces = { slug: slug, ids: ids, cami: cami, url: url, canonica: canonica, rolAmbEnllac: rolAmbEnllac };
 })();

@@ -73,6 +73,18 @@
   text-transform: uppercase;
 }
 
+/* Entitat de l'autor enllaçada dins del byline (01.10.2026): no és un botó. */
+.tribuna-byline a {
+  display: inline;
+  padding: 0;
+  border-radius: 0;
+  color: inherit;
+  background: none;
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 @media (max-width: 880px) {
   .tribuna-band { border-radius: 25px; }
   .tribuna-layout { grid-template-columns: 1fr; gap: 26px; padding: 34px 24px; align-items: start; }

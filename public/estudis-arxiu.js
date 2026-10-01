@@ -11,6 +11,8 @@ window.IA_ESTUDIS_ARXIU = [
     "read": "11 MIN",
     "author": "Carles Sierra",
     "role": "Director de l'Institut d'Investigació en Intel·ligència Artificial (IIIA-CSIC)",
+    "org": "IIIA-CSIC",
+    "orgUrl": "https://www.iiia.csic.es/",
     "title": "La importància estratègica de les dades en l'educació amb sistemes d'intel·ligència artificial",
     "excerpt": "Sense dades no hi ha evidència i, sense evidència, tot canvi educatiu es queda en una opinió. Una crida a dissenyar la recollida de dades a l'aula amb el mateix rigor amb què Tycho Brahe mirava el cel.",
     "quote": "Hem de transformar els docents en investigadors, en els Tycho Brahe de la IA.",

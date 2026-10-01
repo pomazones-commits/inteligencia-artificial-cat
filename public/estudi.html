@@ -13,7 +13,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <title>Estudis · intel·ligència artificial.cat</title>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
-  <link rel="stylesheet" href="./editorial.css?v=2026072401">
+  <link rel="stylesheet" href="./editorial.css?v=2026100101b">
   <script defer src="./shared.js?v=2026092401"></script>
   <style>
     /* Peces pròpies d'un estudi acadèmic: resum, paraules clau, seccions i bibliografia. */
@@ -77,9 +77,9 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
-  <script src="./estudis.js?v=2026092202"></script>
-  <script src="./estudis-arxiu.js?v=2026092202"></script>
-  <script src="./peces.js?v=2026092401"></script>
+  <script src="./estudis.js?v=2026100101b"></script>
+  <script src="./estudis-arxiu.js?v=2026100101b"></script>
+  <script src="./peces.js?v=2026100101b"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
     (function () {
@@ -101,7 +101,7 @@
       document.getElementById('titol').textContent = e.title;
       document.getElementById('entradeta').textContent = e.excerpt || '';
       document.getElementById('autor-nom').textContent = e.author || '';
-      document.getElementById('autor-rol').textContent = e.role || '';
+      window.IAPeces.rolAmbEnllac(document.getElementById('autor-rol'), e);
       document.getElementById('data').textContent = e.date || '';
       if (e.photo) {
         var foto = document.getElementById('autor-foto');

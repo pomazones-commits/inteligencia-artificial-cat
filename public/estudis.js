@@ -13,6 +13,8 @@ window.IA_ESTUDI = {
   "read": "7 MIN",
   "author": "David Masip Rodó",
   "role": "Catedràtic dels Estudis d'Informàtica, Multimèdia i Telecomunicació (Universitat Oberta de Catalunya)",
+  "org": "Universitat Oberta de Catalunya",
+  "orgUrl": "https://www.uoc.edu/",
   "title": "L'ull, la finestra digital a la teva salut",
   "excerpt": "La mateixa fotografia del fons de l'ull que es fa a qualsevol òptica conté prou informació perquè una xarxa neuronal estimi el risc d'infart o detecti l'Alzheimer anys abans del primer símptoma. Què és l'oculòmica, què ja se'n sap i què li falta per arribar a la consulta.",
   "quote": "Els nostres ulls estan parlant constantment de com ens sentim per dins. Ara, per fi, la tecnologia ens està ensenyant a escoltar-los.",

@@ -14,13 +14,17 @@ foreach (['tribuna', 'estudis'] as $tipus) {
         if ($peca['autor'] === '') { continue; }
         $clau = iacat_slug($peca['autor']);
         if (!isset($autors[$clau])) {
-            $autors[$clau] = ['nom' => $peca['autor'], 'rol' => '', 'foto' => '', 'fotoAlt' => '', 'peces' => [], 'darrera' => ''];
+            $autors[$clau] = ['nom' => $peca['autor'], 'rol' => '', 'org' => '', 'orgUrl' => '', 'foto' => '', 'fotoAlt' => '', 'peces' => [], 'darrera' => ''];
         }
         $a = &$autors[$clau];
         $a['peces'][] = $peca;
         if ($peca['dataIso'] >= $a['darrera']) {
             $a['darrera'] = $peca['dataIso'];
-            if (!empty($peca['item']['role'])) { $a['rol'] = (string) $peca['item']['role']; }
+            if (!empty($peca['item']['role'])) {
+                $a['rol'] = (string) $peca['item']['role'];
+                $a['org'] = (string) ($peca['item']['org'] ?? '');
+                $a['orgUrl'] = (string) ($peca['item']['orgUrl'] ?? '');
+            }
         }
         if ($a['foto'] === '' && !empty($peca['item']['photo'])) {
             $a['foto'] = '/' . ltrim((string) preg_replace('#^\./#', '', (string) $peca['item']['photo']), '/');
@@ -64,6 +68,8 @@ if ($nom !== '') {
     $desc = $a['nom'] . ($a['rol'] !== '' ? ' (' . $a['rol'] . ')' : '') . ' signa ' . $n . ($n === 1 ? ' peça' : ' peces') . ' a intel·ligènciaartificial.cat.';
     $persona = ['@type' => 'Person', 'name' => $a['nom'], 'url' => IACAT_BASE . $cami];
     if ($a['rol'] !== '') { $persona['jobTitle'] = $a['rol']; }
+    $afiliacio = iacat_afiliacio(['org' => $a['org'], 'orgUrl' => $a['orgUrl']]);
+    if ($afiliacio) { $persona['affiliation'] = $afiliacio; }
     if ($a['foto'] !== '') { $persona['image'] = IACAT_BASE . $a['foto']; }
     iacat_capcalera([
         'titol' => $a['nom'], 'descripcio' => $desc, 'cami' => $cami, 'tipusOg' => 'profile',
@@ -73,7 +79,7 @@ if ($nom !== '') {
     ?>
     <header class="autor-cap">
       <?= $retrat($a) ?>
-      <div><p class="editorial-kicker">Signatura convidada · <?= $n ?> <?= $n === 1 ? 'peça' : 'peces' ?></p><h1><?= iacat_e($a['nom']) ?></h1><?php if ($a['rol'] !== ''): ?><p><?= iacat_e($a['rol']) ?></p><?php endif; ?></div>
+      <div><p class="editorial-kicker">Signatura convidada · <?= $n ?> <?= $n === 1 ? 'peça' : 'peces' ?></p><h1><?= iacat_e($a['nom']) ?></h1><?php if ($a['rol'] !== ''): ?><p><?= iacat_rol_html($a['rol'], $a['org'], $a['orgUrl']) ?></p><?php endif; ?></div>
     </header>
     <section class="seccio-bloc" aria-labelledby="peces-titol">
       <h2 id="peces-titol">Les seves peces</h2>
@@ -117,7 +123,7 @@ iacat_capcalera([
           <?= $retrat($a) ?>
           <div>
             <h3><a href="/autor/<?= iacat_e($clau) ?>"><?= iacat_e($a['nom']) ?></a></h3>
-            <?php if ($a['rol'] !== ''): ?><p><?= iacat_e($a['rol']) ?></p><?php endif; ?>
+            <?php if ($a['rol'] !== ''): ?><p><?= iacat_rol_html($a['rol'], $a['org'], $a['orgUrl']) ?></p><?php endif; ?>
             <p class="fitxa__meta" style="margin-top:10px"><?= $n ?> <?= $n === 1 ? 'peça' : 'peces' ?> · última: <?= iacat_e(iacat_data_llarga($ultima['dataIso'])) ?></p>
           </div>
         </li>

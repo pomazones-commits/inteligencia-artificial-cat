@@ -8,6 +8,8 @@ window.IA_TRIBUNA = {
   "read": "5 MIN",
   "author": "Ignasi Belda",
   "role": "Director de DELTA (Banc d’Espanya)",
+  "org": "Banc d’Espanya",
+  "orgUrl": "https://www.bde.es/",
   "title": "DELTA: com el Banc d’Espanya experimenta amb la intel·ligència artificial per transformar la banca central",
   "excerpt": "El director de DELTA explica com el Banc d’Espanya ha creat un laboratori per portar la intel·ligència artificial a la feina de cada dia de la banca central: de l’assistent intern MIA i la plataforma BECopilot a la detecció d’anomalies en pagaments i l’anàlisi de discursos de política monetària, sempre amb supervisió humana. I recorda el doble paper del Banc: fa servir la IA i n’haurà de supervisar l’ús en la concessió de crèdit.",
   "quote": "La intel·ligència artificial no substitueix la interpretació humana, sinó que amplifica la capacitat dels experts.",

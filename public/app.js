@@ -306,7 +306,33 @@
       document.querySelector('#tribuna-title').textContent = tribuna.title;
       document.querySelector('#tribuna-excerpt').textContent = tribuna.excerpt || '';
       document.querySelector('#tribuna-eyebrow').textContent = tribuna.read ? `La tribuna · ${tribuna.read.toLowerCase()}` : 'La tribuna';
-      document.querySelector('#tribuna-byline').textContent = [tribuna.author, tribuna.role].filter(Boolean).join(' · ');
+      // Byline: autor · càrrec, amb l'entitat enllaçada si la peça porta org/orgUrl
+      // (mateixa lògica que IAPeces.rolAmbEnllac, que la portada no carrega).
+      const byline = document.querySelector('#tribuna-byline');
+      byline.textContent = tribuna.author || '';
+      if (tribuna.role) {
+        if (tribuna.author) byline.appendChild(document.createTextNode(' · '));
+        const org = String(tribuna.org || '');
+        const href = String(tribuna.orgUrl || '');
+        const i = org ? tribuna.role.indexOf(org) : -1;
+        if (/^https?:\/\//i.test(href)) {
+          const a = document.createElement('a');
+          a.href = href;
+          a.target = '_blank';
+          a.rel = 'noopener';
+          if (i < 0) {
+            a.textContent = tribuna.role;
+            byline.appendChild(a);
+          } else {
+            byline.appendChild(document.createTextNode(tribuna.role.slice(0, i)));
+            a.textContent = org;
+            byline.appendChild(a);
+            byline.appendChild(document.createTextNode(tribuna.role.slice(i + org.length)));
+          }
+        } else {
+          byline.appendChild(document.createTextNode(tribuna.role));
+        }
+      }
       if (tribuna.photo) {
         const img = document.querySelector('#tribuna-img');
         img.src = tribuna.photo;

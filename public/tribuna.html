@@ -13,7 +13,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <title>La tribuna · intel·ligència artificial.cat</title>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
-  <link rel="stylesheet" href="./editorial.css?v=2026072401">
+  <link rel="stylesheet" href="./editorial.css?v=2026100101b">
   <script defer src="./shared.js?v=2026092401"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"La tribuna","description":"La tribuna: articles d'opinió i anàlisi signats per veus expertes en intel·ligència artificial.","url":"https://inteligencia-artificial.cat/tribuna.html","mainEntityOfPage":"https://inteligencia-artificial.cat/tribuna.html","inLanguage":"ca","publisher":{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://inteligencia-artificial.cat/"},{"@type":"ListItem","position":2,"name":"La tribuna","item":"https://inteligencia-artificial.cat/tribuna.html"}]}]}</script>
 </head>
@@ -48,9 +48,9 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
-  <script src="./tribuna.js?v=2026092801b"></script>
-  <script src="./tribuna-arxiu.js?v=2026092801b"></script>
-  <script src="./peces.js?v=2026092401"></script>
+  <script src="./tribuna.js?v=2026100101b"></script>
+  <script src="./tribuna-arxiu.js?v=2026100101b"></script>
+  <script src="./peces.js?v=2026100101b"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
     (function () {
@@ -73,7 +73,7 @@
       document.getElementById('titol').textContent = t.title;
       document.getElementById('entradeta').textContent = t.excerpt || '';
       document.getElementById('autor-nom').textContent = t.author || '';
-      document.getElementById('autor-rol').textContent = t.role || '';
+      window.IAPeces.rolAmbEnllac(document.getElementById('autor-rol'), t);
       document.getElementById('data').textContent = t.date || '';
       if (t.photo) {
         var foto = document.getElementById('autor-foto');

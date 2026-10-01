@@ -14,7 +14,7 @@
   <title>Arxiu de la tribuna · intel·ligència artificial.cat</title>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="./editorial.css?v=2026072301">
-  <script src="./peces.js?v=2026092401"></script>
+  <script src="./peces.js?v=2026100101b"></script>
   <script defer src="./shared.js?v=2026092401"></script>
   <style>
     .tribuna-llista { display: grid; gap: 22px; margin-top: 28px; }
@@ -27,6 +27,7 @@
     .tribuna-fitxa p { margin: 0 0 10px; color: #444b59; font-size: 14px; line-height: 1.6; }
     .tribuna-fitxa .qui { color: #5d6472; font-size: 12px; }
     .tribuna-fitxa .qui strong { color: #1c2333; }
+    .tribuna-fitxa .qui a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
     .tribuna-vigent { font: 600 9px "IBM Plex Mono", monospace; color: #233a82; text-transform: uppercase; letter-spacing: .08em; }
     @media (max-width: 560px) { .tribuna-fitxa { grid-template-columns: 1fr; } }
   </style>
@@ -46,8 +47,8 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
-  <script src="./tribuna.js?v=2026092801b"></script>
-  <script src="./tribuna-arxiu.js?v=2026092801b"></script>
+  <script src="./tribuna.js?v=2026100101b"></script>
+  <script src="./tribuna-arxiu.js?v=2026100101b"></script>
   <script>
     (function () {
       var llista = document.getElementById('llista');
@@ -101,7 +102,12 @@
         nom.textContent = t.author || '';
         qui.appendChild(document.createTextNode('Per '));
         qui.appendChild(nom);
-        if (t.role) qui.appendChild(document.createTextNode(' · ' + t.role));
+        if (t.role) {
+          var rol = document.createElement('span');
+          window.IAPeces.rolAmbEnllac(rol, t);
+          qui.appendChild(document.createTextNode(' · '));
+          qui.appendChild(rol);
+        }
         cos.appendChild(meta);
         cos.appendChild(titol);
         cos.appendChild(entradeta);
