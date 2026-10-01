@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-01T12:33:06.903Z",
+  "updatedAt": "2026-10-01T16:13:59.767Z",
   "items": [
+    {
+      "category": "REGULACIÓ",
+      "read": "4 MIN",
+      "slug": "newsom-ordena-agencies-californianes-dir-intelligencia-artificial",
+      "title": "ACTUALITZACIÓ: Newsom contesta Trump i obliga les agències de Califòrnia a seguir dient «intel·ligència artificial»",
+      "excerpt": "Un dia després que la Casa Blanca decretés que el govern federal parli de «superintel·ligència», el governador de Califòrnia signa una ordre que ho prohibeix a les agències estatals.",
+      "sourceName": "Yahoo News",
+      "sourceUrl": "https://www.yahoo.com/news/politics/articles/war-words-newsom-orders-california-023435723.html",
+      "sourceDate": "1 d'octubre de 2026",
+      "body": "El 30 de setembre, durant l'acte de la Casa Blanca on els directius de les grans empreses d'IA van signar un compromís voluntari de seguretat, Donald Trump va anunciar que el govern federal deixaria de dir «intel·ligència artificial» i passaria a dir «superintel·ligència». L'argument és que la IA «no és artificial», i que el mot «artificial» fa pensar que és falsa.\n\nAquest dijous, el governador de Califòrnia, Gavin Newsom, ha respost amb una ordre executiva que obliga totes les agències i departaments sota el seu control a fer servir només «intel·ligència artificial» o «IA», encara que el govern federal en faci servir d'altres, tret que una llei exigeixi una altra cosa. Segons Yahoo News, Newsom ha dit que «la superintel·ligència evidentment no ve de la Casa Blanca, i per això Califòrnia continua liderant». L'ordre s'ha signat el mateix dia que el governador firmava lleis de protecció dels treballadors davant l'ús de la IA en acomiadaments i sancions.\n\nLa disputa és sobretot simbòlica, però diu alguna cosa de com s'han repartit les posicions. Segons el SF Standard, Google, OpenAI i Anthropic van continuar parlant d'«IA» a la roda de premsa, i fins i tot Elon Musk va dir «SI» un moment i després va tornar a «AI», mentre que Meta i Nvidia ja han adoptat el terme «superintel·ligència». Que un estat tan gran com Califòrnia, seu de bona part del sector, es mantingui en el nom clàssic converteix una qüestió de vocabulari en un gest polític entre Washington i Sacramento.\n\nConvé no inflar-ne l'abast. L'ordre només afecta les agències que depenen del governador i no canvia cap obligació legal ni cap norma sobre seguretat. Tampoc no consta que les empreses hagin acceptat de debò la nova denominació federal, ni que el compromís que van signar s'hi refereixi. El que sí que s'ha vist és que la manera de dir la tecnologia ha passat a ser, també, un terreny de pols entre administracions.",
+      "image": "./assets/newsom-ordena-agencies-californianes-dir-intelligencia-artificial-20261001.jpg"
+    },
+    {
+      "category": "FINANCES",
+      "read": "4 MIN",
+      "slug": "ia-consumidor-2-2-per-cent-paga-economia-techcrunch",
+      "title": "Només un 2,2% dels consumidors paga per la IA, i ni arribant a l'escala de Netflix no cobriria els costos d'OpenAI",
+      "excerpt": "Una anàlisi de TechCrunch recorda que el negoci de consum de la IA no surt a compte i explica per què els laboratoris es giren cap a les empreses.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/",
+      "sourceDate": "30 de setembre de 2026",
+      "body": "Aquesta setmana han arribat al mercat dos assistents personals pensats per al gran públic: Muse, de Meta, i els «dots», d'OpenAI. Sembla que els productes de consum de la IA agafen embranzida, però l'article de Russell Brandom a TechCrunch posa el dubte on toca: no en la capacitat dels models, sinó en el negoci.\n\nLa dada de partida és que, el maig de 2026, només un 2,2% dels consumidors pagava per algun servei d'IA, amb una despesa mitjana de 31 dòlars al mes. Segons TechCrunch, que cita un informe d'Andreessen Horowitz que al seu torn es basa en dades de PNC, si la IA arribés al nivell de saturació de Netflix, amb 325 milions de subscriptors i uns 34 dòlars per client, els ingressos serien d'uns 11.000 milions de dòlars l'any, menys d'un terç dels costos d'explotació d'OpenAI, segons xifres del Financial Times que l'article reprodueix.\n\nLa conclusió de l'autor és que el problema és de costos més que d'ingressos: la IA és una tecnologia molt cara de fer funcionar, a diferència de les xarxes socials o del núvol lleuger, i el pagament per part dels usuaris no ha pujat al ritme que milloren els models. Per això els grans laboratoris es giren cap a les empreses: segons l'article, les contractacions empresarials d'OpenAI s'han duplicat des del juliol i l'empresa s'acosta als 70.000 milions de dòlars d'ingressos anualitzats. Meta, en canvi, compta amb la publicitat per rendibilitzar Muse.\n\nLes xifres tenen límits que l'article mateix reconeix: Bank of America situa l'adopció de pagament als Estats Units en un 3%, una mica més alta, i una enquesta de Menlo diu que un quart dels adults fa servir IA cada dia. Que molts la facin servir no vol dir que molts la paguin, i l'escenari de Netflix és un càlcul il·lustratiu, no una previsió.",
+      "image": "./assets/ia-consumidor-2-2-per-cent-paga-economia-techcrunch-20261001.jpg"
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "slug": "ia-autonoma-dermatologia-8391-pacients-nhs-eadv",
+      "title": "Una IA autònoma gestiona el 94% dels casos urgents de sospita de càncer de pell en dos hospitals britànics i allibera 2.851 hores de dermatòlegs",
+      "excerpt": "Un estudi real amb 8.391 pacients, presentat al congrés europeu de dermatologia, mostra com un dispositiu amb IA pot donar d'alta els casos benignes sense revisió humana, però també que s'escapen alguns tumors.",
+      "sourceName": "Medical Xpress (congrés EADV 2026)",
+      "sourceUrl": "https://medicalxpress.com/news/2026-09-autonomous-ai-capacity-thousands-dermatology.html",
+      "sourceDate": "30 de setembre de 2026",
+      "body": "Els serveis de dermatologia estan saturats per les derivacions urgents per sospita de càncer de pell, i la majoria acaben sent lesions benignes. Un equip dirigit per la doctora Lucy Thomas ha presentat al congrés de l'Acadèmia Europea de Dermatologia i Venereologia (EADV) a Viena els resultats d'un desplegament real d'un dispositiu mèdic de classe III amb marcatge CE que fa servir imatges clíniques i dermatoscòpiques fetes amb un mòbil.\n\nL'estudi, prospectiu, va seguir 8.391 pacients durant setze mesos en dos hospitals del Regne Unit, que són el 94% de les derivacions urgents per sospita de càncer de pell d'aquests centres. El sistema donava d'alta de manera autònoma els pacients amb lesions classificades com a benignes, entre un 25% i un 31% segons les dades, i enviava els casos de més risc a un teledermatòleg. El 86% dels pacients va acceptar que decidís una màquina. Segons els autors, es van estalviar 2.851 hores de feina clínica, equivalents a més de 8.500 visites presencials de vint minuts, i les biòpsies van baixar al 27%, davant del 43% de la via convencional.\n\nLa seguretat és la part decisiva. La sensibilitat va ser superior al 98% per al melanoma invasiu, el carcinoma escamós i el carcinoma basocel·lular, i l'especificitat del 72,1%, és a dir, que gairebé tres de cada deu lesions benignes encara van anar a revisió. La vigilància posterior a la comercialització va detectar sis falsos negatius, cinc carcinomes basocel·lulars i un melanoma in situ, sense efectes adversos en el seguiment disponible.\n\nCal llegir-ho amb cautela: són resultats d'un congrés, presentats en una nota de premsa, i la font no precisa que hagin passat per una revista revisada per parells. Tampoc no es pot generalitzar a altres hospitals, poblacions amb altres tons de pell o dispositius diferents. El que l'estudi mostra, amb aquestes reserves, és que la IA pot alliberar temps d'especialistes per als casos més complexos, a canvi d'un risc petit però real d'errors.",
+      "image": "./assets/ia-autonoma-dermatologia-8391-pacients-nhs-eadv-20261001.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "processador-optic-deepfakes-15-videos-ucla-elight",
+      "title": "Un processador òptic de la UCLA detecta deepfakes en quinze vídeos alhora amb un 97,8% d'encert i gairebé sense gastar energia",
+      "excerpt": "L'equip d'Aydogan Ozcan fa que part del càlcul es faci amb la propagació de la llum, i publica a eLight un sistema que revisa en paral·lel diversos fluxos de vídeo.",
+      "sourceName": "eLight (UCLA)",
+      "sourceUrl": "https://doi.org/10.1186/s43593-026-00143-y",
+      "sourceDate": "22 de setembre de 2026",
+      "body": "Detectar vídeos falsos és cada cop més car: els sistemes habituals els examinen d'un en un en processadors digitals, i el volum de vídeo generat amb IA no para de créixer. Un equip de la UCLA liderat per Aydogan Ozcan, amb Parnian Ghapandar Kashani i Shiqi Chen, proposa fer part del càlcul amb llum en lloc d'electricitat.\n\nL'estudi, publicat a la revista eLight (DOI 10.1186/s43593-026-00143-y), descriu un codificador digital lleuger que extreu les característiques de cada vídeo i les converteix en patrons de fase que es mostren en un modulador espacial de llum. Els fronts d'ona travessen després un descodificador òptic passiu, fet amb capes difractives, i uns detectors donen una puntuació d'autenticitat per a cada vídeo. D'aquesta manera es poden analitzar quinze fluxos o més alhora, en un sol pas de llum.\n\nSegons els autors, l'encert mitjà és del 97,79%, amb una sensibilitat del 99,86% i una especificitat del 95,72% en els vídeos falsos del conjunt Celeb-DF. En vídeos generats amb Veo 3, de Google, i amb poc reentrenament, l'encert baixa al 94,8%. Afegir capes difractives va millorar l'encert un 6,8% sense gastar gaire més energia, i el sistema aguanta soroll, desenfocament, compressió JPEG i petits desalineaments. Com que els paràmetres són a la mateixa maquinari, també resisteix atacs adversaris.\n\nEl resultat és un prototip de laboratori. Els autors el presenten com una primera etapa de cribratge, que després hauria de revisar un sistema digital convencional, i els encerts s'han mesurat amb conjunts de dades concrets, no amb el trànsit real d'una xarxa social. Falta veure si funciona amb tipus de falsificació nous i a escala industrial.",
+      "image": "./assets/processador-optic-deepfakes-15-videos-ucla-elight-20261001.jpg"
+    },
+    {
+      "category": "POLÍTICA",
+      "read": "4 MIN",
+      "slug": "brockman-no-mes-diners-super-pac-leading-the-future",
+      "title": "El president d'OpenAI, Greg Brockman, no donarà més diners al súper PAC proindústria perquè es «distreu» la plantilla",
+      "excerpt": "El segon xec de 25 milions de dòlars que havia promès a Leading the Future no ha arribat mai, segons un missatge intern que recull The New York Times.",
+      "sourceName": "The Next Web (a partir de The New York Times)",
+      "sourceUrl": "https://thenextweb.com/news/greg-brockman-leading-the-future-super-pac-second-25m",
+      "sourceDate": "1 d'octubre de 2026",
+      "body": "Leading the Future és un comitè de finançament polític (un súper PAC, en l'argot nord-americà) que dona suport a candidats favorables al desenvolupament de la IA. Va néixer amb el capital de Greg Brockman, president i cofundador d'OpenAI, i la seva dona, Anna, i del fons Andreessen Horowitz.\n\nSegons The Next Web, que resumeix la informació de The New York Times, els Brockman havien promès 50 milions de dòlars en total, 25 el 2025 i 25 el 2026, però el segon pagament, que havia d'arribar el primer trimestre, no s'ha fet. En un missatge intern a Slack del juny, Brockman va dir als empleats que se sentia «fatal» perquè el comitè «no para de reflectir-se en l'empresa i s'ha convertit en una distracció per a la gent d'aquí». El diari en dona ara la notícia.\n\nEl comitè va rebre 50 milions d'Andreessen Horowitz i tenia uns 43 milions en caixa a finals de juny. Les entitats de la indústria alineades amb OpenAI i Anthropic han gastat 55,7 milions de dòlars en les eleccions al Congrés d'aquest any; entre 95 anuncis revisats, cap no esmentava els centres de dades i només set citaven empreses d'IA.\n\nEl gest, tanmateix, s'ha d'interpretar amb prudència: no es diu que Brockman es desdigui de donar suport polític a la indústria, sinó que no hi posarà més diners del que ja hi havia posat, i la font original és un missatge intern, no una declaració pública. Això sí, encaixa amb una setmana en què OpenAI i Anthropic són a l'ull públic per la seguretat i el control polític.",
+      "image": "./assets/brockman-no-mes-diners-super-pac-leading-the-future-20261001.jpg"
+    },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
