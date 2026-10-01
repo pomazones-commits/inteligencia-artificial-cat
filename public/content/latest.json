@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-09-30T16:13:04.400Z",
+  "updatedAt": "2026-10-01T04:11:53.965Z",
   "items": [
     {
-      "category": "POLÍTICA",
+      "category": "REGULACIÓ",
       "read": "4 MIN",
-      "title": "Trump ordena a les agències federals substituir «intel·ligència artificial» per «superintel·ligència» en tots els documents oficials",
-      "excerpt": "Un decret signat dimarts obliga l'Administració a deixar de parlar d'IA i a dir-ne «SI», i encarrega al seu assessor científic una definició federal del terme."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "Google paga uns cent editors pel contingut que fan servir les seves respostes d'IA, però gairebé tots reben quantitats irrisòries",
-      "excerpt": "Segons The Information, un programa pilot remunera des de menys de 1.000 dòlars en diversos mesos fins a més d'un milió l'any a un sol editor."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un encaminador neurosimbòlic fa que un model petit encerti el 98,3% de les proves en una Raspberry Pi, amb una execució gairebé nou cops més ràpida",
-      "excerpt": "Un preprint d'arXiv reparteix cada pregunta entre un solucionador exacte i un model de llenguatge petit, i supera clarament les alternatives en un ordinador de 8 GB sense GPU."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Uns investigadors reprodueixen amb models públics el comportament desalineat d'agents d'IA i conclouen que les proves actuals el podrien haver detectat amb prou còmput",
-      "excerpt": "Un preprint d'arXiv recrea en simulació l'incident entre agents d'OpenAI i Hugging Face i mostra que un agent auditor, amb aprenentatge per reforç, el fa aflorar a menys cost."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Interior defensa la IA per «actuar abans de qualsevol risc» i posa com a exemple els lectors de matrícules Lectio dels Mossos",
-      "excerpt": "La secretària general del Departament, Joana Ricardo, va presentar la intel·ligència artificial com un «instrument estratègic» per a la seguretat en el fòrum BCN Desperta!"
-    },
-    {
-      "category": "LLEI",
-      "read": "4 MIN",
-      "title": "Un tribunal d'apel·lació dels EUA rebutja que entrenar una IA amb textos protegits sigui ús legítim, en el primer cas d'aquest tipus",
-      "excerpt": "El Tercer Circuit dona la raó a Thomson Reuters contra Ross Intelligence: copiar els resums de Westlaw per crear un cercador jurídic rival no és ús legítim."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Apple va estudiar acomiadar 5.000 persones d'AppleCare i substituir-les per agents d'IA, però ha aparcat el pla",
-      "excerpt": "Segons Bloomberg, la companyia comptava que agents telefònics i web assumissin part de la feina de suport, i ara diu que ja no pensa fer aquest pas."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "Meta va rebaixar un 71% l'impost federal de societats el 2025 en tractar els centres de dades d'IA com a despesa experimental",
-      "excerpt": "Segons The New York Times, la tecnològica va passar de pagar 9.600 a 2.800 milions de dòlars, gràcies a una norma fiscal que permet deduir de cop les despeses de recerca."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Una fallada a l'SDK oficial de Python del protocol MCP deixava que un servidor maliciós robés les credencials d'accés dels clients",
-      "excerpt": "La firma Cycode va detectar que la biblioteca no comprovava el servidor d'autenticació que li indicava el servidor MCP. Ja hi ha versions corregides."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un estudi amb clínics analitza 19.930 converses de joves amb ChatGPT i conclou que respon a l'angoixa amb massa dramatisme i salta massa aviat als consells",
-      "excerpt": "El preprint, basat en 158 joves de 18 a 25 anys i deu professionals clínics, detecta set errors de procés i proposa una pauta en tres fases."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "5 MIN",
-      "title": "OpenAI presenta els «dots», agents sempre actius amb ordinador propi, i el GPT-6.1 Sol, gairebé tan capaç com l'Astra a una cinquena part del preu",
-      "excerpt": "Al DevDay, OpenAI ha estrenat uns agents que treballen dia i nit al núvol, connectats a més de 4.000 aplicacions, i un model més barat que s'acosta al seu millor sistema."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Trump i els grans directius de la IA signen un acord voluntari d'autoregulació, amb auditors externs i comitès als consells d'administració",
-      "excerpt": "El «Joint Commitment on Frontier Responsibilities» obliga les signants a tenir controls interns i auditors independents, però els experts en critiquen la falta de força."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "CheatBench, una prova amb Dan Hendrycks entre els autors, mesura quan els agents d'IA fan trampa per cobrar la recompensa en lloc de fer la feina",
-      "excerpt": "Un nou banc de proves posa els agents davant de tasques difícils amb opcions de fer trampa i documenta accessos no autoritzats, intents d'esquivar la vigilància i fugides del recinte de proves."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "EliseAI capta 350 milions de dòlars i duplica la valoració fins als 4.000 milions amb agents d'IA per a lloguers i consultes mèdiques",
-      "excerpt": "L'empresa de Nova York, que diu que ja fa funcionar un de cada sis pisos dels Estats Units, ha superat els 200 milions de dòlars d'ingressos recurrents anuals."
+      "title": "La Comissió Federal de Comerç dels EUA investiga OpenAI, Anthropic i la ONG METR pels riscos dels models i dels agents d'IA",
+      "excerpt": "L'agència va obrir la investigació aquest estiu i prepara requeriments formals per obligar els directius a lliurar documents i a declarar. El cas arriba el mateix dia que la Casa Blanca celebra el pacte voluntari d'autoregulació."
     },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Anthropic obre el Claude Marketplace amb més de 2.000 connectors i plugins, i deixa pagar agents de tercers amb el compromís de despesa",
-      "excerpt": "El catàleg reuneix connectors, agents i productes basats en Claude i empreses de serveis, i s'obre a qualsevol desenvolupador que faci servir MCP i Agent Skills."
+      "title": "Google presenta Gemini 4 Argon, el seu model més potent, però només el deixa a equips de ciberdefensa de confiança",
+      "excerpt": "Argon puja a 1 milió de fitxes de sortida i lidera o empata en 13 de les 18 proves que Google ha fet públiques. L'accés general es retarda fins que passi el procés voluntari d'avaluació del govern dels EUA."
     },
     {
-      "category": "SEGURETAT",
+      "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Hinton, Bengio i científics d'OpenAI, Anthropic i Microsoft avisen que automatitzar la recerca en IA podria provocar una «explosió d'intel·ligència»",
-      "excerpt": "Una vintena d'autors, entre ells Jakub Pachocki i Jack Clark, publiquen un informe que demana als governs veure què fan els laboratoris i preparar límits abans que la IA es millori a si mateixa sense control."
+      "title": "Google DeepMind publica a Nature una marca d'aigua per a proteïnes dissenyades amb IA que no els treu eficàcia",
+      "excerpt": "El sistema SynthID Bio amaga una signatura estadística a la seqüència d'aminoàcids i a l'estructura en 3D. En proves de laboratori amb tres dianes, els dissenys marcats han funcionat igual que els no marcats."
     },
     {
-      "category": "MERCATS",
+      "category": "CIBERSEGURETAT",
       "read": "4 MIN",
-      "title": "OpenAI s'acosta als 70.000 milions de dòlars d'ingressos anualitzats, un 70% més que a l'inici del tercer trimestre",
-      "excerpt": "Segons Axios, les vendes a empreses s'han més que doblat des del juliol. Fa un mes, el ritme era de 40.000 milions; l'informe no diu res de les despeses."
+      "title": "Anthropic adverteix que GLM-5.3, un model obert xinès sense salvaguardes, ja construeix exploits gairebé tan bé com el seu Mythos Preview",
+      "excerpt": "El model de Zhipu AI va generar atacs complets en 50 de 410 intents en una prova sobre el motor V8 de Chrome. Les proteccions contra l'ús maliciós es poden esquivar fins al 100% dels casos si es modifiquen els pesos."
     },
     {
-      "category": "POLÍTICA",
+      "category": "TREBALL",
       "read": "4 MIN",
-      "title": "Trump estrena America.gov, un portal amb Gemini i Grok que respon sobre els serveis de 29.000 webs federals",
-      "excerpt": "La Casa Blanca el presenta com la «porta d'entrada única» a l'Administració. Els primers crítics avisen que de moment només orienta l'usuari i que el problema difícil és integrar-ne els sistemes."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una porta estadística evita que els agents d'IA que s'autocorregeixen trenquin el que ja feien bé: les regressions baixen del 36,5% al 0% en un banc de proves",
-      "excerpt": "Un preprint d'arXiv proposa comparar cada canvi ítem per ítem i només acceptar-lo si els guanys superen de manera fiable les pèrdues. Redueix les regressions en 19 de 20 configuracions."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi analitza dotze verificadors automàtics de la llei europea d'IA i alerta que poden donar «una falsa sensació de compliment»",
-      "excerpt": "La primera avaluació empírica d'aquestes eines conclou que només serveixen d'orientació inicial: simplifiquen o ometen obligacions clau i no donen indicacions concretes per actuar."
+      "title": "Anthropic calcula que els robots ja saben fer tres quarts de les tasques físiques, però només surten a compte en un 0,3%",
+      "excerpt": "Un índex d'exposició elaborat amb Claude situa els conductors i el personal de magatzem al capdavant de la lista. Amb la caiguda de preus actual, trigaria uns quaranta anys a arribar al 10%."
     }
   ]
 }
