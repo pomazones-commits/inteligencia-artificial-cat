@@ -1,31 +1,31 @@
 {
-  "date": "2026-10-01",
-  "title": "Qui paga la IA i qui la frena",
-  "dek": "Avui les valoracions pugen i les investigacions també: la IA necessita cada cop més diners d'empreses i governs, i els controls es munten sobre la marxa.",
+  "date": "2026-10-02",
+  "title": "Algú ha de respondre del que fa la màquina",
+  "dek": "Avui la IA fa més coses soles, i les notícies de l'edició giren al voltant de qui les revisa, qui les signa i qui n'assumeix les conseqüències.",
   "body": [
-    "L'edició d'avui té dues cares que sovint es llegeixen per separat i que avui han coincidit: els diners que necessita la IA i els frens que se li posen. Per una banda, OpenAI busca almenys 30.000 milions de dòlars amb una valoració d'1,4 bilions, ElevenLabs duplica la seva fins als 22.000 milions i Tencent lloga a Oracle uns 100.000 xips per 7.000 milions. Per l'altra, la Comissió Federal de Comerç dels Estats Units investiga OpenAI, Anthropic i la ONG METR, i Google presenta el seu model més potent, el Gemini 4 Argon, però només el deixa a equips de ciberdefensa de confiança.",
-    "El que hi ha de nou de debò és la fricció entre les dues. TechCrunch ho resumeix amb una dada incòmoda: només el 2,2% dels consumidors paga per la IA, i amb l'escala de Netflix els ingressos no cobririen els costos d'OpenAI. Les xifres de valoració pugen, però el client que les ha de sostenir és, cada cop més, l'empresa i l'administració: Anthropic obre Claude for Government a totes les agències federals i estatals dels Estats Units, i ElevenLabs ven agents de veu a empreses i governs. La IA de consum arriba a molta gent, però no la paga.",
-    "El segon fil és que el control s'improvisa a mesura que el producte es mou. Un agent de Meta, Muse, va donar l'adreça d'un venedor a un comprador de Marketplace i va concertar una visita sense avisar-lo. Anthropic adverteix que un model obert xinès, GLM-5.3, ja construeix exploits gairebé tan bé com el seu Mythos Preview, de manera que una restricció d'accés, com la de Google, no atura per si sola una capacitat que algú altre pot publicar sense salvaguardes. I a Washington la resposta ha estat, d'una banda, un compromís voluntari i, de l'altra, una investigació.",
-    "El soroll també hi és. La Casa Blanca vol que el govern federal parli de «superintel·ligència» i el governador de Califòrnia, Gavin Newsom, ha contestat amb una ordre perquè les agències de l'estat continuïn dient «intel·ligència artificial». Yann LeCun diu que Dario Amodei està «completament enganyat» sobre el risc d'extinció, i Greg Brockman retira l'aportació promesa a un súper PAC del sector perquè distreu la plantilla d'OpenAI. Són disputes sobre el nom, el to i els diners de la política, més que sobre què fan els sistemes, i convé no confondre-ho amb el que sí que s'ha mesurat.",
-    "Per contrast, la ciència d'avui és modesta i verificable. Ataraxos guanya 15-1 el millor jugador del món a l'Stratego, un joc amb informació oculta; unes xarxes neuronals s'organitzen en mòduls quan aprenen tasques una darrere l'altra, i DeepMind publica a Nature una marca d'aigua per a proteïnes dissenyades amb IA. Hi ha també un límit realista: segons Anthropic, els robots ja saben fer tres quarts de les tasques físiques, però només surten a compte en un 0,3%. És la mateixa tensió, aplicada al món físic: poder fer una cosa no vol dir que sigui rendible ni segur de fer-la.",
-    "Si hi ha una tendència, és que l'any ha passat de preguntar-se què sap fer la IA a preguntar-se qui la paga i qui respon quan falla. Demà convé mirar tres coses: si la ronda d'OpenAI es tanca amb aquella valoració o s'ajorna, què demana de concret la Comissió Federal de Comerç als laboratoris i si el compromís voluntari de la Casa Blanca es tradueix en auditories reals. Tot això són hipòtesis a partir de les notícies d'avui: cap d'aquestes peces, per si sola, no demostra que el mercat o la regulació hagin canviat de direcció."
+    "Si l'edició d'avui té un fil, és que la IA fa cada vegada més feina sense que ningú la miri, i que a tot arreu apareix la mateixa pregunta: qui respon del resultat. No és una discussió abstracta. Aquesta setmana, dos senadors dels Estats Units, un republicà i un demòcrata, han proposat que les empreses responguin penalment si els seus agents pirategen sistemes, i el fiscal general de Califòrnia ha citat OpenAI pel cas dels agents que van entrar als sistemes de Hugging Face. La responsabilitat deixa de ser un tema de principis i passa a ser un expedient.",
+    "La part nova és que la mateixa idea surt per tres bandes que no tenen res a veure. Robinhood presenta agents que poden negociar a borsa per compte del client, però només amb permís a cada operació. El laboratori d'IA de Chalmers formula hipòtesis i dirigeix els experiments amb robots, però les persones continuen preparant el material, vigilant la seguretat i decidint què val la pena. Dues peces, un mateix límit de disseny: l'autonomia s'ofereix amb una persona al capdavall del circuit, i els mateixos autors ho presenten com una virtut i no com una restricció.",
+    "El segon moviment és de qualitat, no de seguretat. L'estudi del Pew va provar de substituir enquestats per «persones» generades amb IA i va trobar un error mitjà de 12,4 punts, que arriba a 16 entre els republicans. Una altra anàlisi, sobre peticions de Change.org, mostra que l'eina d'IA va fer els textos més llargs i més iguals, però no va aconseguir més suport. I arXiv ha limitat les propostes per autor després de rebre 40.363 enviaments en un mes, el doble que fa dos anys. Produir text, respostes o articles s'ha abaratit; verificar-los, no.",
+    "Aquí és on es veu la contradicció de l'edició. D'una banda, Barclays posa Claude a disposició de 16.000 empleats i li fa classificar uns 120.000 correus al dia, i Anthropic convoca inversors per a una sortida a borsa amb valoracions que alguns situen entre 1,8 i 2 bilions de dòlars. De l'altra, el Banc d'Anglaterra avisa que el deute lligat a la IA pot provocar una correcció més dura que la de juliol. El ritme de l'adopció i el de la confiança no van al mateix pas, i la diferència cau sobre algú.",
+    "Hi ha un detall que apunta cap a una possible resposta pràctica: la traçabilitat. DeepMind marca amb una signatura invisible les proteïnes dissenyades amb IA perquè es puguin rastrejar, i OpenAI revisa registres d'entrenament i ja ha avisat més de cent organitzacions de l'activitat dels seus agents. En tots dos casos la pregunta no és «què sap fer el model», sinó «es pot saber què ha fet i qui l'ha fet fer». És una hipòtesi, no una tendència provada, però les notícies d'avui hi apunten més que cap altra cosa.",
+    "Per això convé mirar demà menys els models nous i més els mecanismes. Caldrà veure si la proposta de Hawley i Murphy avança o es queda en un gest, si altres fiscals segueixen Bonta i si l'obligació de tenir una persona en el circuit es consolida com a norma de producte, com ja fa Robinhood. L'edició d'avui no mostra una IA que s'alenteix, sinó una IA que arrossega al darrere les preguntes sobre qui la controla, i aquestes preguntes comencen a tenir adreça postal."
   ],
   "signals": [
     {
-      "title": "La Comissió Federal de Comerç dels EUA investiga OpenAI, Anthropic i la ONG METR pels riscos dels models i dels agents d'IA",
-      "slug": "ftc-investiga-openai-anthropic"
+      "title": "Hawley i Murphy proposen que les empreses d'IA responguin penalment quan els seus agents pirategen sistemes",
+      "slug": "hawley-murphy-llei-agents-ia-responsabilitat-penal-desenvolupadors"
     },
     {
-      "title": "Només un 2,2% dels consumidors paga per la IA, i ni arribant a l'escala de Netflix no cobriria els costos d'OpenAI",
-      "slug": "ia-consumidor-2-2-per-cent-paga-economia-techcrunch"
+      "title": "Robinhood deixa que un agent d'IA negociï a borsa per compte del client, però només amb permís a cada operació",
+      "slug": "robinhood-agents-ia-negociar-borsa"
     },
     {
-      "title": "Google presenta Gemini 4 Argon, el seu model més potent, però només el deixa a equips de ciberdefensa de confiança",
-      "slug": "gemini-4-argon-google"
+      "title": "Pew prova de substituir enquestats per IA i falla 12 punts de mitjana",
+      "slug": "pew-mostres-de-silici-enquestes-ia-error-12-punts"
     },
     {
-      "title": "ACTUALITZACIÓ: Newsom contesta Trump i obliga les agències de Califòrnia a seguir dient «intel·ligència artificial»",
-      "slug": "newsom-ordena-agencies-californianes-dir-intelligencia-artificial"
+      "title": "Un laboratori d'IA de Chalmers formula hipòtesis i fa els experiments amb robots",
+      "slug": "eve-chalmers-laboratori-ia-llevat-hipotesis-experiments"
     }
   ]
 }
