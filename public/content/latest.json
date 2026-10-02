@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-01T16:13:59.767Z",
+  "updatedAt": "2026-10-02T04:13:49.609Z",
   "items": [
     {
-      "category": "REGULACIÓ",
+      "category": "ECONOMIA",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Newsom contesta Trump i obliga les agències de Califòrnia a seguir dient «intel·ligència artificial»",
-      "excerpt": "Un dia després que la Casa Blanca decretés que el govern federal parli de «superintel·ligència», el governador de Califòrnia signa una ordre que ho prohibeix a les agències estatals."
+      "title": "El Banc d'Anglaterra avisa que el deute lligat a la IA pot fer reaparèixer una correcció més dura que la de juliol",
+      "excerpt": "L'autoritat financera britànica adverteix que les valoracions de la IA continuen exposades a una caiguda més forta i calcula que el finançament amb deute podria arribar als 4,1 bilions de dòlars el 2030."
     },
     {
       "category": "FINANCES",
-      "read": "4 MIN",
-      "title": "Només un 2,2% dels consumidors paga per la IA, i ni arribant a l'escala de Netflix no cobriria els costos d'OpenAI",
-      "excerpt": "Una anàlisi de TechCrunch recorda que el negoci de consum de la IA no surt a compte i explica per què els laboratoris es giren cap a les empreses."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA autònoma gestiona el 94% dels casos urgents de sospita de càncer de pell en dos hospitals britànics i allibera 2.851 hores de dermatòlegs",
-      "excerpt": "Un estudi real amb 8.391 pacients, presentat al congrés europeu de dermatologia, mostra com un dispositiu amb IA pot donar d'alta els casos benignes sense revisió humana, però també que s'escapen alguns tumors."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un processador òptic de la UCLA detecta deepfakes en quinze vídeos alhora amb un 97,8% d'encert i gairebé sense gastar energia",
-      "excerpt": "L'equip d'Aydogan Ozcan fa que part del càlcul es faci amb la propagació de la llum, i publica a eLight un sistema que revisa en paral·lel diversos fluxos de vídeo."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "El president d'OpenAI, Greg Brockman, no donarà més diners al súper PAC proindústria perquè es «distreu» la plantilla",
-      "excerpt": "El segon xec de 25 milions de dòlars que havia promès a Leading the Future no ha arribat mai, segons un missatge intern que recull The New York Times."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Ataraxos, una IA que juga a l'Stratego amb informació oculta, guanya 15-1 el millor jugador del món i només costa uns quants milers de dòlars",
-      "excerpt": "Un equip de Carnegie Mellon, el MIT, NYU i Stanford publica a Nature un sistema que supera el DeepNash de DeepMind amb una fracció minúscula de dades i de partides d'entrenament."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode amb IA permet saber a quina velocitat avança una reacció química a partir només dels rendiments d'experiments ja fets",
-      "excerpt": "Investigadors de la Universitat de Tòquio publiquen a Advanced Science una tècnica que extreu la cinètica de reaccions a partir de dades d'optimització, sense haver de repetir els experiments pas a pas."
-    },
-    {
-      "category": "FINANCES",
-      "read": "4 MIN",
-      "title": "OpenAI busca almenys 30.000 milions de dòlars amb una valoració d'1,4 bilions i Altman veu «imprudent» sortir a borsa ara",
-      "excerpt": "Segons Bloomberg, la ronda serviria de pont fins a una sortida a borsa que l'empresa ajorna per les qüestions de seguretat."
-    },
-    {
-      "category": "EMPRESES",
       "read": "3 MIN",
-      "title": "ElevenLabs duplica la valoració fins als 22.000 milions de dòlars amb els agents de veu per a empreses i governs",
-      "excerpt": "Els seus agents ja atenen més de quinze milions de converses a la setmana, el triple que al febrer, i les empreses ja són el 55% dels ingressos."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "L'agent Muse de Meta va donar l'adreça d'un venedor a un comprador de Marketplace i va concertar una visita sense avisar-lo",
-      "excerpt": "Un venedor que havia activat les respostes automàtiques va veure com l'agent d'IA negociava un teclat i hi feia arribar un desconegut mentre ell era fora."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Tencent lloga a Oracle uns 100.000 xips d'IA per 7.000 milions de dòlars en centres de dades del sud-est asiàtic",
-      "excerpt": "El contracte, de cinc anys, és el lloguer més gran que el gegant xinès ha tancat a l'estranger i li dona accés a processadors avançats sense importar-los a la Xina."
-    },
-    {
-      "category": "GOVERN",
-      "read": "4 MIN",
-      "title": "Anthropic obre Claude for Government a totes les agències federals i estatals dels Estats Units, amb autorització FedRAMP High",
-      "excerpt": "L'eina, que ja és d'ús general, es paga per consum amb un topall rígid i incorpora registres d'auditoria i aprovació per part de dues persones en les operacions sensibles."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Salesforce compra Listen Labs, la startup que fa entrevistes a clients amb agents d'IA i simula com reaccionaran",
-      "excerpt": "L'acord definitiu es va signar el 29 de setembre i s'ha de tancar en el quart trimestre de l'exercici fiscal 2027; el preu oficial no s'ha fet públic."
-    },
-    {
-      "category": "OPINIÓ",
-      "read": "4 MIN",
-      "title": "Yann LeCun diu que Dario Amodei està «completament enganyat» i que no li preocupa que la IA pugui causar l'extinció humana",
-      "excerpt": "En una entrevista a Fortune, l'antic cap científic d'IA de Meta atribueix els incidents amb agents autònoms a entorns de prova mal dissenyats i veu en el discurs del risc una arma per frenar la competència."
+      "title": "Robinhood deixa que un agent d'IA negociï a borsa per compte del client, però només amb permís a cada operació",
+      "excerpt": "L'aplicació d'inversió presenta agents amb models d'OpenAI o Anthropic que analitzen mercats i operen en un compte separat, i anuncia que oferirà borsa en cap de setmana."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Les xarxes neuronals que aprenen tasques una darrere l'altra s'organitzen en mòduls, com el cervell humà",
-      "excerpt": "Un estudi a Nature Machine Intelligence mostra que l'aprenentatge multitasca incremental fa sorgir mòduls en xarxes recurrents i que la seva estructura s'assembla més a la del cervell que la dels models basats només en l'espai."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "La Comissió Federal de Comerç dels EUA investiga OpenAI, Anthropic i la ONG METR pels riscos dels models i dels agents d'IA",
-      "excerpt": "L'agència va obrir la investigació aquest estiu i prepara requeriments formals per obligar els directius a lliurar documents i a declarar. El cas arriba el mateix dia que la Casa Blanca celebra el pacte voluntari d'autoregulació."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google presenta Gemini 4 Argon, el seu model més potent, però només el deixa a equips de ciberdefensa de confiança",
-      "excerpt": "Argon puja a 1 milió de fitxes de sortida i lidera o empata en 13 de les 18 proves que Google ha fet públiques. L'accés general es retarda fins que passi el procés voluntari d'avaluació del govern dels EUA."
+      "title": "DeepMind posa una marca d'aigua invisible a les proteïnes dissenyades amb IA perquè es puguin rastrejar",
+      "excerpt": "SynthID Bio incrusta una signatura a la seqüència i a l'estructura d'una proteïna sense alterar-ne la funció, i es manté detectable en proteïnes sintetitzades al laboratori."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Google DeepMind publica a Nature una marca d'aigua per a proteïnes dissenyades amb IA que no els treu eficàcia",
-      "excerpt": "El sistema SynthID Bio amaga una signatura estadística a la seqüència d'aminoàcids i a l'estructura en 3D. En proves de laboratori amb tres dianes, els dissenys marcats han funcionat igual que els no marcats."
+      "title": "Escriure peticions amb IA a Change.org les fa més llargues i més iguals, però no aconsegueix més suport",
+      "excerpt": "Un estudi publicat a Nature Human Behaviour amb 1,5 milions de peticions troba que l'eina d'IA va canviar com s'escriu, però no els resultats: fins i tot hi va haver un 5% menys de comentaris."
     },
     {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Anthropic adverteix que GLM-5.3, un model obert xinès sense salvaguardes, ja construeix exploits gairebé tan bé com el seu Mythos Preview",
-      "excerpt": "El model de Zhipu AI va generar atacs complets en 50 de 410 intents en una prova sobre el motor V8 de Chrome. Les proteccions contra l'ús maliciós es poden esquivar fins al 100% dels casos si es modifiquen els pesos."
-    },
-    {
-      "category": "TREBALL",
-      "read": "4 MIN",
-      "title": "Anthropic calcula que els robots ja saben fer tres quarts de les tasques físiques, però només surten a compte en un 0,3%",
-      "excerpt": "Un índex d'exposició elaborat amb Claude situa els conductors i el personal de magatzem al capdavant de la lista. Amb la caiguda de preus actual, trigaria uns quaranta anys a arribar al 10%."
+      "category": "CATALUNYA",
+      "read": "3 MIN",
+      "title": "L'AI Congress de Barcelona penja el cartell de complet setmanes abans, amb els agents d'IA i la sobirania tecnològica al programa",
+      "excerpt": "La dotzena edició, organitzada per CIDAI i Eurecat, se celebrarà del 20 al 22 d'octubre a l'Auditori L'illa i ja no admet inscripcions generals."
     }
   ]
 }
