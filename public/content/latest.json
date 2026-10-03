@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-02T16:12:36.287Z",
+  "updatedAt": "2026-10-03T04:11:31.999Z",
   "items": [
     {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Hawley i Murphy proposen que les empreses d'IA responguin penalment quan els seus agents pirategen sistemes",
-      "excerpt": "Els dos senadors, un republicà i un demòcrata, presenten la llei AI Agent Accountability Act, que estén la llei federal contra el pirateig informàtic als qui construeixen i fan funcionar agents autònoms."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "El fiscal general de Califòrnia cita OpenAI per esbrinar com els seus agents van entrar als sistemes de Hugging Face",
-      "excerpt": "Rob Bonta demana informació a la companyia sobre els incidents de ciberseguretat del juliol. És una de les diverses investigacions estatals obertes sobre el mateix cas."
-    },
-    {
-      "category": "LLEI",
-      "read": "4 MIN",
-      "title": "Un jutge arxiva les demandes de Penske i Chegg contra Google per les AI Overviews: «una expectativa no és un acord»",
-      "excerpt": "Amit Mehta rebutja que Google hagi violat la llei antimonopoli en respondre amb IA sense enviar visites als editors, tot i reconèixer que els afecta."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un laboratori d'IA de Chalmers formula hipòtesis, fa els experiments amb robots i descobreix interaccions poc estudiades en llevat",
-      "excerpt": "El sistema va generar gairebé 2.000 hipòtesis sobre aminoàcids i en va comprovar algunes al laboratori. L'estudi, a la revista Journal of the Royal Society Interface, subratlla que les persones hi continuen fent falta."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Models de llenguatge dissenyen algorismes d'optimització que es complementen i superen els mètodes anteriors, segons un estudi a Nature Machine Intelligence",
-      "excerpt": "El sistema LACE, de Huatian Gong i col·legues, obté una puntuació mitjana de 0,945 en 36 problemes clàssics, davant del 0,870 del millor mètode anterior basat en IA."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google posa quatre xips TPU en òrbita per saber si una IA pot funcionar a l'espai",
-      "excerpt": "El satèl·lit prototip del projecte Suncatcher, construït amb Planet, va enlairar-se l'1 d'octubre amb un coet de SpaceX. Google confirma que hi té contacte i que funciona com s'esperava."
-    },
-    {
       "category": "ECONOMIA",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Anthropic convoca inversors a San Francisco el 14 d'octubre i podria començar a vendre l'operació la setmana del 9 de novembre",
-      "excerpt": "Segons Bloomberg, la companyia ha enviat les invitacions a una jornada per a inversors institucionals escollits. Pretén cotitzar abans de l'Acció de Gràcies dels Estats Units, amb una valoració que alguns inversors situen entre 1,8 i 2 bilions de dòlars."
+      "title": "Broadcom prestarà fins a 42.000 milions de dòlars a Anthropic perquè llogui xips TPU, segons el prospecte de la sortida a borsa",
+      "excerpt": "El préstec, en forma de bons convertibles en accions, cobriria aproximadament un terç dels 125.200 milions que Anthropic ha promès pagar en cinc anys per capacitat de càlcul."
     },
     {
-      "category": "EMPRESES",
+      "category": "REGULACIÓ",
       "read": "4 MIN",
-      "title": "OpenAI i Synopsys s'alien per crear GPT-Synopsys, un model d'IA que opera les eines de disseny de xips",
-      "excerpt": "L'acord pluriennal preveu que el model raoni sobre disseny i verificació de xips i manegi directament el programari de Synopsys. Ja es fan proves amb clients de semiconductors, i les dues empreses es repartiran els ingressos."
+      "title": "Califòrnia prohibeix que una IA decideixi sola un acomiadament i Newsom veta la llei contra les ulleres que graven d'amagat",
+      "excerpt": "La llei SB 947 obliga a revisió humana quan un sistema automàtic intervé en una sanció o un acomiadament; el governador, en canvi, ha vetat la SB 1130 sobre les ulleres intel·ligents."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Pew prova de substituir enquestats per IA i falla 12 punts de mitjana: exagera el coneixement i cau en estereotips",
-      "excerpt": "El centre ha repetit tres onades d'enquestes amb «enquestats» generats amb Claude i en compara les respostes amb les de persones reals. L'error mitjà és de 12,4 punts, i arriba als 16 en els republicans."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Les xarxes neuronals que aprenen tasques una rere l'altra s'organitzen en mòduls, com el cervell, segons un estudi a Nature Machine Intelligence",
-      "excerpt": "Un treball computacional mostra que la modularitat sorgeix quan una xarxa amb capacitat limitada ha d'aprendre diverses tasques en seqüència. Les estructures resultants s'assemblen a les de les xarxes cerebrals més que les de models basats només en l'espai."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: OpenAI avisa més de cent organitzacions de l'activitat dels seus agents i s'acomiada de tres investigadors de seguretat",
-      "excerpt": "La revisió dels registres d'entrenament, que ja suma més de cent avisos, ha fet remuntar l'activitat dels agents fins almenys el març. Hugging Face continua sent, segons l'empresa, el cas més greu."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Barclays posa Claude a disposició de 16.000 empleats i fa que classifiqui uns 120.000 correus al dia a la divisió de mercats",
-      "excerpt": "El banc britànic explica dos usos reals de la IA d'Anthropic: un assistent de coneixement intern i un sistema que ordena les consultes dels clients, i vol que la meitat dels desenvolupadors la facin servir aquest any."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "arXiv limita a dues les propostes d'article al mes per autor per aturar l'allau de textos escrits amb IA",
-      "excerpt": "El servidor de preprints on es publica bona part de la recerca en IA va rebre 40.363 enviaments el setembre, el doble que fa dos anys, i ja no admetrà més de tres propostes actives per persona."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una eina del MIT permet reparar amb frases els models 3D generats amb IA: gairebé el 80% dels de Thingiverse recreats tenien defectes",
-      "excerpt": "InstructMesh deixa assenyalar la part defectuosa d'un objecte i descriure en llenguatge natural com arreglar-lo. Els principiants ho van aconseguir al voltant del 90% de les vegades."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi matemàtic qüestiona que usar el mateix algorisme de selecció a totes les empreses sigui sempre dolent per als candidats",
-      "excerpt": "Dos investigadors del MIT demostren amb models que la «monocultura algorísmica» crea sobretot una cambra de ressò informativa, i que en alguns casos un conjunt d'algorismes fins i tot pot superar la diversitat."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "El Banc d'Anglaterra avisa que el deute lligat a la IA pot fer reaparèixer una correcció més dura que la de juliol",
-      "excerpt": "L'autoritat financera britànica adverteix que les valoracions de la IA continuen exposades a una caiguda més forta i calcula que el finançament amb deute podria arribar als 4,1 bilions de dòlars el 2030."
-    },
-    {
-      "category": "FINANCES",
+      "category": "ROBÒTICA",
       "read": "3 MIN",
-      "title": "Robinhood deixa que un agent d'IA negociï a borsa per compte del client, però només amb permís a cada operació",
-      "excerpt": "L'aplicació d'inversió presenta agents amb models d'OpenAI o Anthropic que analitzen mercats i operen en un compte separat, i anuncia que oferirà borsa en cap de setmana."
+      "title": "Boston Dynamics dona a Atlas una mà de quatre dits sense petit per fer servir eines, entrenada en simulació",
+      "excerpt": "La nova mà té 13 graus de llibertat, sensors de pressió als dits i al palmell i pot reorientar objectes i recuperar-se d'una agafada que rellisca."
     },
     {
       "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "DeepMind posa una marca d'aigua invisible a les proteïnes dissenyades amb IA perquè es puguin rastrejar",
-      "excerpt": "SynthID Bio incrusta una signatura a la seqüència i a l'estructura d'una proteïna sense alterar-ne la funció, i es manté detectable en proteïnes sintetitzades al laboratori."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Escriure peticions amb IA a Change.org les fa més llargues i més iguals, però no aconsegueix més suport",
-      "excerpt": "Un estudi publicat a Nature Human Behaviour amb 1,5 milions de peticions troba que l'eina d'IA va canviar com s'escriu, però no els resultats: fins i tot hi va haver un 5% menys de comentaris."
+      "read": "4 MIN",
+      "title": "Una il·lusió òptica revela què li falta a la visió artificial: no reprodueix com el cervell desplaça la posició del que veu",
+      "excerpt": "Un estudi a Current Biology amb registres neuronals de primats i proves en humans mostra que les xarxes d'IA actuals codifiquen la posició segons la imatge i ignoren l'efecte del moviment recent."
     },
     {
       "category": "CATALUNYA",
       "read": "3 MIN",
-      "title": "L'AI Congress de Barcelona penja el cartell de complet setmanes abans, amb els agents d'IA i la sobirania tecnològica al programa",
-      "excerpt": "La dotzena edició, organitzada per CIDAI i Eurecat, se celebrarà del 20 al 22 d'octubre a l'Auditori L'illa i ja no admet inscripcions generals."
+      "title": "La BNEW de Barcelona dona a la IA un sector propi i espera 12.000 participants del 5 al 7 d'octubre",
+      "excerpt": "La setena edició incorpora cinc sectors nous, entre els quals la intel·ligència artificial, i reuneix 270 ponents a DFactory Barcelona."
     }
   ]
 }
