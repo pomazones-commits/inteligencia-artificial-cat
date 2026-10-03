@@ -1,0 +1,2651 @@
+{
+ "actualitzat": "2026-10-03",
+ "propera_revisio": "2026-11-15",
+ "nota": "Centres de dades i supercomputació als territoris de parla catalana. Manual: revisió setmanal a la tasca «Edicions» (vegeu CLAUDE.md). Pàgina: /centres-de-dades (public/centres-de-dades.php). Estats: en funcionament | en construcció | en tramitació | aturat | descartat. origen de cada xifra: promotor (ho diu l’empresa) | administració (ho anuncia un govern o un ajuntament) | oficial (consta en un tràmit o document públic: Miteco, DOGC, DOGV, BOIB, BOPA, BOE, llicència, contracte) | premsa (xifra publicada sense font primària). llocs = [[lat, lon], …] aproximades. polemica: sempre amb la resposta de l’empresa o de l’administració, o una nota que digui que no n’hem trobat. Contractacions: només amb document públic o comunicat de totes dues parts. Cap camp inventat.",
+ "xifres": [
+  {
+   "valor": "26",
+   "etiqueta": "projectes potencials de centres de dades a Catalunya, que sumarien uns 2.000 MW. És una previsió del Govern, no són projectes aprovats",
+   "font_nom": "Govern de la Generalitat",
+   "font": "https://govern.cat/gov/notes-premsa/811964/el-govern-identifica-26-projectes-potencials-de-centres-de-dades-i-n-estableix-set-pols-d-implantacio-a-catalunya",
+   "data_font": "2026-04-14"
+  },
+  {
+   "valor": "~120 MW",
+   "etiqueta": "en funcionament avui a Catalunya, segons les entitats que demanen la moratòria. El Govern parla de més d’una quinzena de centres d’entre 1 i 16 MW",
+   "font_nom": "Llibertat.cat (petició de moratòria)",
+   "font": "https://www.llibertat.cat/2026/09/mes-de-140-entitats-reclamen-una-moratoria-als-megacentres-de-dades-previstos-a-catalunya-61412",
+   "data_font": "2026-09-22"
+  },
+  {
+   "valor": "6",
+   "etiqueta": "connexions a la xarxa denegades per Red Eléctrica a projectes valencians en només dos mesos",
+   "font_nom": "Valencia Plaza",
+   "font": "https://valenciaplaza.com/valenciaplaza/empresas1/un-macro-centro-de-datos-busca-espacio-en-valencia-tras-tumbarle-red-electrica-la-conexion-en-catadau",
+   "data_font": "2026-05-05"
+  },
+  {
+   "valor": "12.000 MW",
+   "etiqueta": "de sol·licituds de connexió de centres de dades a tot l'Estat: una quarta part del sistema elèctric",
+   "font_nom": "EbreDigital",
+   "font": "https://ebredigital.cat/2026/09/12/els-centres-de-dades-pengen-del-fil-del-reial-decret-que-prepara-el-govern-espanyol/",
+   "data_font": "2026-09-12"
+  }
+ ],
+ "territoris": {
+  "Catalunya": {
+   "context": "És el territori amb més projectes i amb més infraestructura pública de càlcul: el Barcelona Supercomputing Center hi té el MareNostrum 5 i una de les fàbriques d'IA de la Unió Europea. El 14 d'abril de 2026 el Govern va identificar 26 projectes privats potencials, que sumarien uns 2.000 MW, i va fixar set pols d'implantació: Parc de l'Alba, Sant Adrià de Besòs–Barcelonès, Metropolità Sud, Tarragona, Lleida, Anoia i Terres de l'Ebre. Una desena, els més madurs, podrien aportar entre 300 i 500 MW entre el 2030 i el 2035. La llista nominal dels 26 no s'ha fet pública: els noms de promotors que hi ha aquí surten de la premsa. El 22 de setembre, més de 140 entitats van demanar una moratòria.",
+   "font_nom": "Govern de la Generalitat",
+   "font": "https://govern.cat/gov/notes-premsa/811964/el-govern-identifica-26-projectes-potencials-de-centres-de-dades-i-n-estableix-set-pols-d-implantacio-a-catalunya"
+  },
+  "Comunitat Valenciana": {
+   "context": "Té pocs centres en funcionament i un gran projecte en espera, Digital Valley, a Picassent. El coll d'ampolla és la xarxa elèctrica: Red Eléctrica va denegar sis connexions en dos mesos per saturació. La Universitat de València té el supercomputador Tirant, node de la Xarxa Espanyola de Supercomputació.",
+   "font_nom": "Valencia Plaza",
+   "font": "https://valenciaplaza.com/valenciaplaza/empresas1/un-macro-centro-de-datos-busca-espacio-en-valencia-tras-tumbarle-red-electrica-la-conexion-en-catadau"
+  },
+  "Illes Balears": {
+   "context": "No hi ha cap projecte comercial que compleixi el criteri d’inclusió: el moviment és públic. El 2026 s’hi ha posat en marxa el primer supercomputador de les Illes, Talaia, i el Centre de Supercomputació i IA de la UIB. El Govern hi ha estrenat un centre de dades propi i l’Espai de Dades de les Illes Balears. Hi ha centres petits d’operadors (Infotelecom, Vodafone) per sota dels 5 MW.",
+   "font_nom": "Economía de Mallorca",
+   "font": "https://www.economiademallorca.com/articulo/actualidad/supercomputador-islas-baleares-es-realidad/20260716131602121641.html"
+  },
+  "Andorra": {
+   "context": "No té supercomputador ni cap projecte de gran escala: els centres de dades del país són d'Andorra Telecom. El 28 de setembre de 2026, Andorra Recerca + Innovació i el BSC van signar el programa DeepTech, de quatre anys, per acostar la supercomputació i la IA a les empreses andorranes. Al Consell General hi ha qui defensa que el país atregui centres de dades i IA.",
+   "font_nom": "Alto Andorra",
+   "font": "https://www.alto.ad/business/2026/09/andorra-bsc-supercomputing-partnership-deeptech"
+  },
+  "Catalunya Nord": {
+   "context": "No hi hem trobat cap instal·lació que compleixi el criteri d’inclusió. L’únic centre de dades conegut és el d’Adamentis al Voló (Vallespir), que no n’ha publicat la potència.",
+   "font_nom": "Adamentis",
+   "font": "https://www.adamentis.com/datacenter"
+  }
+ },
+ "debat": [
+  {
+   "titol": "Aigua",
+   "text": "Depèn del sistema de refrigeració. Els que evaporen aigua en torres de refrigeració en gasten molta; els de circuit tancat o refrigerats per aire en gasten molt poca o gens. Gairebé tots els projectes nous diuen que són d’aquest segon tipus: NxN a València, el centre del Govern balear, Quetta a Molins de Rei o els del Parc de l’Alba, que segons el Consorci no tenen refrigeració evaporativa. N’hi ha que sí que en preveuen: Serosense compta amb l’aigua del canal de Pinyana. La campanya «No als megacentres de dades» calcula que un centre de 100 MW pot consumir uns 150 milions de litres l’any. A Móra la Nova, les entitats temen un consum alt; el Govern i l’Ajuntament diuen que el circuit tancat no evapora aigua.",
+   "fonts": [
+    {
+     "nom": "No als megacentres de dades",
+     "url": "https://nomegacentresdedades.cat/"
+    },
+    {
+     "nom": "Diari Públic",
+     "url": "https://www.diaripublic.cat/medi-ambient/crit-alerta-entitats-locals-per-impacte-gigafactoria-ia-consumira-aigua-anual-mora-nova-mora-ebre-juntes.html"
+    },
+    {
+     "nom": "Canal Terres de l'Ebre",
+     "url": "https://canalte.cat/actualitat/societat/el-projecte-de-la-gigafactoria-dia-de-mora-la-nova-ja-disposa-dels-54-mw-necessaris-per-comencar-la-primera-fase/"
+    }
+   ]
+  },
+  {
+   "titol": "Electricitat i xarxa",
+   "text": "Si es fessin els 26 projectes catalans, el consum seria d’uns 12.000 GWh l’any, segons les entitats que demanen la moratòria: el doble del que consumeix la ciutat de Barcelona. A tot l’Estat, les sol·licituds de connexió ja sumen 12.000 MW. El Govern espanyol prepara un reial decret per cribar-les i exigir-los renovables, i el sector avisa que fins al 90% dels projectes podrien quedar fora. La Generalitat respon que la nova planificació elèctrica, amb 3.800 MW més per a Catalunya fins al 2030, ha de permetre encabir els projectes estratègics. Al Parc de l’Alba, el Consorci admet que el consum serà «especialment elevat» i diu que el reforç de la xarxa el paguen els promotors.",
+   "fonts": [
+    {
+     "nom": "No als megacentres de dades",
+     "url": "https://nomegacentresdedades.cat/"
+    },
+    {
+     "nom": "EbreDigital",
+     "url": "https://ebredigital.cat/2026/09/12/els-centres-de-dades-pengen-del-fil-del-reial-decret-que-prepara-el-govern-espanyol/"
+    },
+    {
+     "nom": "EbreDigital (planificació elèctrica)",
+     "url": "https://ebredigital.cat/2026/09/24/la-nova-planificacio-electrica-a-catalunya-permetra-tirar-endavant-la-gigafactoria-a-mora-la-nova/"
+    },
+    {
+     "nom": "elCugatenc",
+     "url": "https://www.elcugatenc.cat/noticia/101575/energia-aigua-i-urbanitzacio-del-centre-direccional-que-se-sap-dels-nous-centres-de-dades-"
+    }
+   ]
+  },
+  {
+   "titol": "Feina",
+   "text": "Les xifres de feina gairebé sempre les dona el promotor. El Govern només considera estratègic un projecte si crea com a mínim dos llocs de treball per cada milió d’euros invertit. La campanya contrària calcula que els 26 centres crearien uns 2.200 llocs de treball estables, aproximadament un per megawatt. El Consorci del Parc de l’Alba en preveu 130 en funcionament i uns 500 durant la construcció per a tots els centres del polígon. Els experts consultats per Xataka posen en dubte els 30.000 llocs que promet Digital Valley: els centres més grans del món tenen menys de mil treballadors.",
+   "fonts": [
+    {
+     "nom": "Govern de la Generalitat",
+     "url": "https://govern.cat/gov/notes-premsa/811964/el-govern-identifica-26-projectes-potencials-de-centres-de-dades-i-n-estableix-set-pols-d-implantacio-a-catalunya"
+    },
+    {
+     "nom": "No als megacentres de dades",
+     "url": "https://nomegacentresdedades.cat/"
+    },
+    {
+     "nom": "Xataka",
+     "url": "https://www.xataka.com/empresas-y-economia/30-000-empleos-muchas-dudas-que-sabemos-que-no-data-valley-valenciano"
+    },
+    {
+     "nom": "elCugatenc",
+     "url": "https://www.elcugatenc.cat/noticia/101575/energia-aigua-i-urbanitzacio-del-centre-direccional-que-se-sap-dels-nous-centres-de-dades-"
+    }
+   ]
+  },
+  {
+   "titol": "Sobirania digital",
+   "text": "Els governs defensen aquestes infraestructures perquè permeten entrenar i fer funcionar models d'IA sense dependre de servidors de fora d'Europa. La Unió Europea vol seleccionar fins a set gigafactories d'IA i Espanya hi compromet 719 milions d'euros. Les Balears i Andorra fan el mateix camí a escala petita: un centre de dades públic propi, en un cas, i accés al BSC, en l'altre.",
+   "fonts": [
+    {
+     "nom": "Canal 21 Ebre",
+     "url": "https://www.canal21ebre.com/brusselles-avala-empreses-gigafactoria-ia-mora-la-nova/"
+    },
+    {
+     "nom": "Ultima Hora",
+     "url": "https://www.ultimahora.es/noticias/local/2026/09/24/2715207/baleares-refuerza-soberania-digital-nuevo-centro-procesamiento-datos.html"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "merlin-edged-barcelona",
+   "nom": "Centre de dades de MERLIN Edged a la Zona Franca",
+   "promotor": "MERLIN Properties i Edged Energy",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Barcelonès",
+   "municipi": "Barcelona (Zona Franca)",
+   "llocs": [
+    [
+     41.34,
+     2.139
+    ]
+   ],
+   "precisio_ubicacio": "polígon (Parc Logístic de la Zona Franca, carrer 25 núm. 6; aproximat)",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": 15,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "Sistema sense aigua: la calor surt amb un circuit tancat de glicol cap a refredadors d’aire a la coberta",
+    "aigua": "No en consumeix, segons el promotor",
+    "qui_ho_diu": "promotor (Edged)",
+    "font": "https://www.edged.es/barcelona"
+   },
+   "energia": "Energia 100% renovable, segons el promotor.",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Segons MERLIN, hi té servidors CoreWeave, una empresa nord-americana de núvol especialitzada en IA. Es va inaugurar el maig del 2025.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2025-05-13",
+     "fet": "L’alcalde de Barcelona inaugura el centre",
+     "font": "https://www.merlinproperties.com/prensa/el-alcalde-de-barcelona-inaugura-el-data-center-que-aloja-el-hiperescalar-lider-en-ia-de-coreweave/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "MERLIN Properties",
+     "url": "https://www.merlinproperties.com/prensa/el-alcalde-de-barcelona-inaugura-el-data-center-que-aloja-el-hiperescalar-lider-en-ia-de-coreweave/",
+     "data": "2025-05-13"
+    }
+   ],
+   "paraules": [
+    "MERLIN",
+    "Edged",
+    "CoreWeave"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "digital-realty-bcn1",
+   "nom": "BCN1 de Digital Realty",
+   "promotor": "Digital Realty",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Barcelonès",
+   "municipi": "Sant Adrià de Besòs (Tres Xemeneies)",
+   "llocs": [
+    [
+     41.42,
+     2.226
+    ]
+   ],
+   "precisio_ubicacio": "adreça aproximada (Av. del Maresme 43-45, Sant Adrià de Besòs)",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": 14,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "",
+   "tramits": [],
+   "polemica": null,
+   "notes": "És el primer centre de l'empresa a Barcelona. Preveu fer-lo créixer fins al 2030.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2026-05-18",
+     "fet": "Obre el BCN1 (14 MW), el primer centre de l'empresa a Barcelona",
+     "font": "https://www.elnacional.cat/oneconomia/ca/empreses/digital-realty-obre-seu-primer-centre-dades-barcelona_1641694_102.html"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "ON Economia",
+     "url": "https://www.elnacional.cat/oneconomia/ca/empreses/digital-realty-obre-seu-primer-centre-dades-barcelona_1641694_102.html",
+     "data": "2026-05-18"
+    }
+   ],
+   "paraules": [
+    "Digital Realty"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "oxigen",
+   "nom": "Oxigen Data Center (Sant Cugat i 22@)",
+   "promotor": "Oxigen Data Center",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Vallès Occidental i Barcelonès",
+   "municipi": "Sant Cugat del Vallès i Barcelona (22@)",
+   "llocs": [
+    [
+     41.49,
+     2.05
+    ],
+    [
+     41.403,
+     2.194
+    ]
+   ],
+   "precisio_ubicacio": "Sant Cugat: adreça aproximada (Av. de la Generalitat 163); Barcelona: barri (22@)",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": 10,
+    "origen": "promotor",
+    "nota": "Les dues seus de l’àrea de Barcelona; l’empresa en preveu més de 40 MW a finals del 2026 sumant-hi Sant Fruitós de Bages."
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "Aigua en circuit tancat",
+    "aigua": "Circuit tancat; no hi ha xifres de consum publicades",
+    "qui_ho_diu": "premsa (Ara)",
+    "font": "https://es.ara.cat/economia/tecnologia/empresa-invierte-centros-datos-100-catalanes_1_5188863.html"
+   },
+   "energia": "Plaques fotovoltaiques d’autoconsum.",
+   "tramits": [],
+   "polemica": null,
+   "notes": "És un operador de capital 100% català.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2023-01-01",
+     "fet": "Oxigen reobre el centre de Sant Cugat, que havia estat de CaixaBank",
+     "font": "https://www.datacentermap.com/spain/barcelona/oxigen-d/",
+     "precisio": "any"
+    },
+    {
+     "data": "2026-02-18",
+     "fet": "Compra el centre de dades de Banc Sabadell a Sant Fruitós de Bages (10 MW): passa de 10 a 20 MW i n'acabarà la posada en marxa el primer semestre del 2026",
+     "font": "https://www.datacenterdynamics.com/en/news/spains-oxigen-dc-acquires-banco-sabadell-data-center-outside-barcelona/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Ara",
+     "url": "https://es.ara.cat/economia/tecnologia/empresa-invierte-centros-datos-100-catalanes_1_5188863.html",
+     "data": "2024-11-02"
+    },
+    {
+     "nom": "DCD",
+     "url": "https://www.datacenterdynamics.com/en/news/spains-oxigen-dc-acquires-banco-sabadell-data-center-outside-barcelona/",
+     "data": "2026-02-18"
+    }
+   ],
+   "paraules": [
+    "Oxigen"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "oxigen-sant-fruitos",
+   "nom": "Oxigen Sant Fruitós de Bages",
+   "promotor": "Oxigen Data Center",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Bages",
+   "municipi": "Sant Fruitós de Bages",
+   "llocs": [
+    [
+     41.745,
+     1.873
+    ]
+   ],
+   "precisio_ubicacio": "municipi",
+   "estat": "en funcionament",
+   "previsio": "Posada en marxa completa el primer semestre del 2026",
+   "potencia": {
+    "mw": 10,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "Energia 100% renovable, segons el promotor.",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Antic centre de dades de Banc Sabadell, comprat per Oxigen el febrer del 2026.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2026-02-18",
+     "fet": "Oxigen compra el centre de dades de Banc Sabadell",
+     "font": "https://www.datacenterdynamics.com/en/news/spains-oxigen-dc-acquires-banco-sabadell-data-center-outside-barcelona/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "DCD",
+     "url": "https://www.datacenterdynamics.com/en/news/spains-oxigen-dc-acquires-banco-sabadell-data-center-outside-barcelona/",
+     "data": "2026-02-18"
+    }
+   ],
+   "paraules": [
+    "Oxigen",
+    "Sant Fruitós de Bages"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "edgeconnex-viladecans",
+   "nom": "Centre de dades d’EdgeConneX a Viladecans",
+   "promotor": "EdgeConneX",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Baix Llobregat",
+   "municipi": "Viladecans",
+   "llocs": [
+    [
+     41.314,
+     2.014
+    ]
+   ],
+   "precisio_ubicacio": "municipi",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": 8.4,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Al costat d’una subestació, connectat a l’estació de cables submarins de Barcelona. El 2023 s’hi va acabar una segona sala.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2026-03-01",
+     "fet": "Fitxa tècnica actualitzada de l’empresa (8,4 MW)",
+     "font": "https://www.edgeconnex.com/wp-content/uploads/2026/03/Barcelona-Data-Sheet-Q1-update.pdf"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "EdgeConneX",
+     "url": "https://www.edgeconnex.com/wp-content/uploads/2026/03/Barcelona-Data-Sheet-Q1-update.pdf",
+     "data": "2026-03-01"
+    },
+    {
+     "nom": "Font complementària",
+     "url": "https://www.edgeconnex.com/wp-content/uploads/2023/07/Barcelona-SPGMI_Reprint_EdgeConnex_07JUL2023.pdf",
+     "data": ""
+    }
+   ],
+   "paraules": [
+    "EdgeConneX",
+    "Viladecans"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "atlasedge-acer",
+   "nom": "Centre de dades d’AtlasEdge a la Zona Franca",
+   "promotor": "AtlasEdge",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Barcelonès",
+   "municipi": "Barcelona (Zona Franca)",
+   "llocs": [
+    [
+     41.354,
+     2.135
+    ]
+   ],
+   "precisio_ubicacio": "adreça aproximada",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": 6,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Antic centre de Colt. L’edifici és propietat de Principal Real Estate, que el va comprar el 2022 i el té llogat a AtlasEdge fins al 2033.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2022-08-24",
+     "fet": "Principal Real Estate compra l’edifici, llogat a AtlasEdge fins al 2033",
+     "font": "https://www.datacenterdynamics.com/en/news/principal-real-estate-acquires-atlasedge-leased-data-center-in-barcelona-spain/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "DCD",
+     "url": "https://www.datacenterdynamics.com/en/news/principal-real-estate-acquires-atlasedge-leased-data-center-in-barcelona-spain/",
+     "data": "2022-08-24"
+    }
+   ],
+   "paraules": [
+    "AtlasEdge"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "estacio-cable-barcelona",
+   "nom": "Estació de cables submarins de Barcelona",
+   "promotor": "AFR-IX Telecom",
+   "tipus": "estació de cable submarí",
+   "territori": "Catalunya",
+   "comarca": "Barcelonès",
+   "municipi": "Sant Adrià de Besòs",
+   "llocs": [
+    [
+     41.416,
+     2.227
+    ]
+   ],
+   "precisio_ubicacio": "municipi/barri (Sant Adrià de Besòs, prop del Fòrum; adreça no verificada)",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "Plaques solars a l'edifici.",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Hi arriba el cable 2Africa des del 2022 i hi ha d'arribar el Medusa. Els cables submarins són un dels motius pels quals els operadors volen instal·lar-se a l'àrea de Barcelona.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2022-10-24",
+     "fet": "Hi arriba el cable 2Africa i l'estació entra en servei",
+     "font": "https://www.datacenterdynamics.com/en/news/barcelona-cable-landing-station-goes-live-receives-2africa-cable/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "DCD",
+     "url": "https://www.datacenterdynamics.com/en/news/barcelona-cable-landing-station-goes-live-receives-2africa-cable/",
+     "data": "2022-10-26"
+    }
+   ],
+   "paraules": [
+    "2Africa",
+    "Medusa",
+    "AFR-IX"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "marenostrum-5",
+   "nom": "MareNostrum 5",
+   "promotor": "Barcelona Supercomputing Center i EuroHPC",
+   "tipus": "supercomputador públic",
+   "territori": "Catalunya",
+   "comarca": "Barcelonès",
+   "municipi": "Barcelona",
+   "llocs": [
+    [
+     41.3895,
+     2.1155
+    ]
+   ],
+   "precisio_ubicacio": "barri (Campus Nord UPC / Torre Girona, BSC)",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": 151.41,
+    "origen": "oficial",
+    "nota": "Contracte d’EuroHPC amb Atos (2022). El BSC en xifra el cost total, amb la infraestructura, en 202 M€."
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "Refrigeració líquida directa amb aigua tèbia, en circuit tancat. La calor que treu escalfa l’edifici principal del BSC",
+    "aigua": "Circuits tancats; no hi ha xifres de consum publicades",
+    "qui_ho_diu": "administració (BSC, a EE Times)",
+    "font": "https://www.eetimes.com/bsc-about-to-dispatch-marenostrum-5-for-critical-research/"
+   },
+   "energia": "",
+   "tramits": [
+    {
+     "organisme": "EuroHPC JU",
+     "fet": "Signa el contracte de compra del MareNostrum 5 amb Bull SAS (Atos): pressupost total de 151,41 M€",
+     "data": "2022-06-16",
+     "url": "https://www.eurohpc-ju.europa.eu/marenostrum5-new-eurohpc-world-class-supercomputer-spain-2022-06-16_en"
+    }
+   ],
+   "polemica": null,
+   "notes": "Es va inaugurar el desembre del 2023 amb 314 petaflops de capacitat de càlcul, i és dels més potents d’Europa. Fa recerca pública: clima, medicina, materials i models de llengua com els del projecte Aina.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2022-06-16",
+     "fet": "EuroHPC adjudica el MareNostrum 5 a Atos (151,41 M€)",
+     "font": "https://www.eurohpc-ju.europa.eu/marenostrum5-new-eurohpc-world-class-supercomputer-spain-2022-06-16_en"
+    },
+    {
+     "data": "2023-12-19",
+     "fet": "Inauguració",
+     "font": "https://eurohpc-ju.europa.eu/marenostrum-5s-inauguration-2023-12-19_pl"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "HPCwire",
+     "url": "https://www.hpcwire.com/off-the-wire/bsc-inaugurates-marenostrum-5-marking-a-historic-investment-in-spanish-and-european-science/",
+     "data": "2023-12-21"
+    }
+   ],
+   "paraules": [
+    "MareNostrum",
+    "Barcelona Supercomputing Center"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "csuc-pirineus",
+   "nom": "Supercomputador Pirineus III i centre de dades del CSUC",
+   "promotor": "Consorci de Serveis Universitaris de Catalunya (CSUC)",
+   "tipus": "supercomputador públic",
+   "territori": "Catalunya",
+   "comarca": "",
+   "municipi": "",
+   "llocs": [
+    [
+     41.3878,
+     2.1135
+    ]
+   ],
+   "precisio_ubicacio": "barri (seu del CSUC a Campus Nord / Gran Capità; ubicació del CPD no confirmada)",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": 7.5,
+    "origen": "administració",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Dona servei a les universitats catalanes. Pirineus III supera els 2 petaflops i té processadors gràfics. Els 7,5 M€ (fons Next Generation) són del centre de dades nou, que va multiplicar per 25 la capacitat d'emmagatzematge.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2024-05-22",
+     "fet": "El conseller Nadal visita el CPD nou (220 m², 50 PB)",
+     "font": "https://govern.cat/salapremsa/notes-premsa/609902/el-conseller-nadal-visita-el-nou-centre-de-processament-de-dades-del-csuc-que-multiplica-per-25-la-seva-capacitat-per-emmagatzemar-grans-volums-de-dades"
+    },
+    {
+     "data": "2024-06-27",
+     "fet": "El Pirineus III comença el període de proves",
+     "font": "https://www.csuc.cat/ca/noticia/arranca-en-periode-de-proves-el-nou-supercomputador-del-csuc-pirineus-iii"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Govern de la Generalitat",
+     "url": "https://govern.cat/salapremsa/notes-premsa/609902/el-conseller-nadal-visita-el-nou-centre-de-processament-de-dades-del-csuc-que-multiplica-per-25-la-seva-capacitat-per-emmagatzemar-grans-volums-de-dades",
+     "data": "2024-05-22"
+    }
+   ],
+   "paraules": [
+    "CSUC",
+    "Pirineus"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "panattoni-parc-alba",
+   "nom": "Campus de centres de dades de Panattoni",
+   "promotor": "Panattoni",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Vallès Occidental",
+   "municipi": "Cerdanyola del Vallès (Parc de l'Alba)",
+   "llocs": [
+    [
+     41.494,
+     2.115
+    ]
+   ],
+   "precisio_ubicacio": "polígon (Parc de l'Alba, aproximat; parcel·la BP-1413)",
+   "estat": "en construcció",
+   "previsio": "Primera fase (42 MW) a finals del 2026",
+   "potencia": {
+    "mw": 88,
+    "origen": "promotor",
+    "nota": "La llicència d’obres de la primera fase (42 MW) l’ha anunciada el promotor."
+   },
+   "inversio": {
+    "meur": 300,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [
+    {
+     "xifra": "Uns 40 llocs",
+     "qui_ho_diu": "Guanyem Cerdanyola (via Tot Cerdanyola)",
+     "tipus": "premsa",
+     "font": "https://www.totcerdanyola.cat/actualitat/guanyem-cerdanyola-exigeix-transparencia-macrocentre-dades-panattoni_2213782102.html"
+    },
+    {
+     "xifra": "130 llocs en funcionament i uns 500 durant la construcció, per a tots els centres del Parc de l'Alba",
+     "qui_ho_diu": "administració (Consorci del Parc de l'Alba)",
+     "tipus": "administració",
+     "font": "https://www.elcugatenc.cat/noticia/101575/energia-aigua-i-urbanitzacio-del-centre-direccional-que-se-sap-dels-nous-centres-de-dades-"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "Refredadores d’aire amb circuit d’aigua tancat, sense refrigeració evaporativa",
+    "aigua": "Sense refrigeració evaporativa, segons el Consorci. Ecologistes en Acció calcula, en canvi, que farà pujar un 20% el consum d'aigua de la ciutat.",
+    "qui_ho_diu": "administració (Consorci del Parc de l’Alba)",
+    "font": "https://www.elcugatenc.cat/noticia/101575/energia-aigua-i-urbanitzacio-del-centre-direccional-que-se-sap-dels-nous-centres-de-dades-"
+   },
+   "energia": "",
+   "tramits": [
+    {
+     "organisme": "Ajuntament de Cerdanyola del Vallès / Consorci del Parc de l'Alba (el comunicat no diu quin dels dos)",
+     "fet": "Llicència d'obres de la fase I (42 MW, 21.292 m²)",
+     "data": "2025-01-28",
+     "url": "https://panattonieurope.com/en/newsroom/panattoni-iberia-secures-building-permit-for-42-mw-data-center-development-in-barcelona",
+     "via_premsa": true
+    }
+   ],
+   "polemica": {
+    "critica": {
+     "text": "Guanyem Cerdanyola diu que no està en contra d’aquests centres, però vol garanties ambientals: calcula que el centre gastarà 370 GWh l’any, un 115% més del que consumeix ara tot el municipi. Ecologistes en Acció hi demana una moratòria (octubre i novembre del 2025).",
+     "data": "2025-05-08",
+     "font": "https://www.totcerdanyola.cat/actualitat/guanyem-cerdanyola-exigeix-transparencia-macrocentre-dades-panattoni_2213782102.html"
+    },
+    "respostes": [
+     {
+      "qui": "Consorci del Parc de l'Alba",
+      "text": "Admet que el consum d’energia serà «especialment elevat», perquè és una activitat electrointensiva. Defensa que crearà feina, unes 500 persones durant la construcció i uns 130 llocs en funcionament, i diu que el reforç de la xarxa elèctrica el paguen els promotors.",
+      "data": "2025-05-26",
+      "font": "https://www.elcugatenc.cat/noticia/101575/energia-aigua-i-urbanitzacio-del-centre-direccional-que-se-sap-dels-nous-centres-de-dades-"
+     }
+    ],
+    "nota": ""
+   },
+   "notes": "Els 300 M€ són només de la primera fase.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2025-01-28",
+     "fet": "Llicència d'obres de la fase I (42 MW)",
+     "font": "https://panattonieurope.com/en/newsroom/panattoni-iberia-secures-building-permit-for-42-mw-data-center-development-in-barcelona"
+    },
+    {
+     "data": "2025-05-08",
+     "fet": "Guanyem Cerdanyola exigeix transparència",
+     "font": "https://www.totcerdanyola.cat/actualitat/guanyem-cerdanyola-exigeix-transparencia-macrocentre-dades-panattoni_2213782102.html"
+    },
+    {
+     "data": "2025-05-26",
+     "fet": "El Consorci del Parc de l'Alba respon sobre energia, aigua i ocupació",
+     "font": "https://www.elcugatenc.cat/noticia/101575/energia-aigua-i-urbanitzacio-del-centre-direccional-que-se-sap-dels-nous-centres-de-dades-"
+    },
+    {
+     "data": "2025-11-12",
+     "fet": "Ecologistes en Acció demana aturar la construcció de centres de dades",
+     "font": "https://www.totcerdanyola.cat/actualitat/ecologistes-en-accio-demana-aturar-construccio-centres-dades_2225560102.html"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Observatorio Inmobiliario",
+     "url": "https://observatorioinmobiliario.es/noticias/logistica/panattoni-invierte-300-millones-en-la-primera-fase-de-su-centro-de-datos-en-barcelona/",
+     "data": "2025-01-28"
+    }
+   ],
+   "paraules": [
+    "Panattoni",
+    "Parc de l'Alba",
+    "Cerdanyola"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "aq-compute-bcn1",
+   "nom": "BCN1 d’hscale (abans AQ Compute)",
+   "promotor": "hscale (abans AQ Compute; propietat majoritària de Bain Capital)",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Vallès Occidental",
+   "municipi": "Cerdanyola del Vallès (Parc de l'Alba)",
+   "llocs": [
+    [
+     41.494,
+     2.115
+    ]
+   ],
+   "precisio_ubicacio": "polígon (Parc de l'Alba, aproximat; Carretera de Cerdanyola / Ctra. Sant Cugat)",
+   "estat": "en construcció",
+   "previsio": "Obertura prevista el quart trimestre del 2026, amb 10 MW inicials",
+   "potencia": {
+    "mw": 60,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": 600,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [
+    {
+     "xifra": "130 llocs en funcionament per al conjunt del Parc de l’Alba, no només aquest centre",
+     "qui_ho_diu": "administració (Consorci del Parc de l'Alba)",
+     "tipus": "administració",
+     "font": "https://www.elcugatenc.cat/noticia/101575/energia-aigua-i-urbanitzacio-del-centre-direccional-que-se-sap-dels-nous-centres-de-dades-"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "Aigua refrigerada amb refredadors i refrigeració natural (free cooling), preparat per a refrigeració líquida",
+    "aigua": "Sense refrigeració evaporativa, segons el Consorci del Parc de l’Alba",
+    "qui_ho_diu": "promotor (hscale) i administració (Consorci del Parc de l'Alba)",
+    "font": "https://www.hscaledc.com/data-centres/spain-barcelona/"
+   },
+   "energia": "Electricitat 100% renovable, segons el promotor.",
+   "tramits": [],
+   "polemica": null,
+   "notes": "La primera fase, anunciada per al 2025, encara no funciona: segons l’empresa, el centre és en construcció. AQ Compute va passar a dir-se hscale el 2025.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2024-06-27",
+     "fet": "Comencen les obres (60 MW; primera fase de 15 MW prevista per al 2025)",
+     "font": "https://www.datacenterdynamics.com/en/news/aq-compute-starts-construction-on-60mw-data-center-campus-in-barcelona-spain/"
+    },
+    {
+     "data": "2025-05-01",
+     "fet": "AQ Compute passa a dir-se hscale, després que Bain Capital en comprés el 80%",
+     "font": "https://www.datacentermap.com/spain/barcelona/aq-compute-aq-bcn1/",
+     "precisio": "mes"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "ON Economia",
+     "url": "https://www.elnacional.cat/oneconomia/es/empresas/aq-duplica-su-inversion-en-centro-datos-cerdanyola-hasta-600-millones_1243164_102.html",
+     "data": "2024-06-27"
+    }
+   ],
+   "paraules": [
+    "hscale",
+    "AQ Compute",
+    "Parc de l'Alba"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "quetta-molins",
+   "nom": "Centre de dades de Quetta a Molins de Rei",
+   "promotor": "Quetta Data Centers (Azora i Core Tech Capital)",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Baix Llobregat",
+   "municipi": "Molins de Rei (polígon del Pla)",
+   "llocs": [
+    [
+     41.405,
+     2.03
+    ]
+   ],
+   "precisio_ubicacio": "polígon (El Pla, Molins de Rei, al costat d'una subestació; aproximat)",
+   "estat": "en construcció",
+   "previsio": "",
+   "potencia": {
+    "mw": 10,
+    "origen": "promotor",
+    "nota": "Potència màxima, segons la premsa local (setembre del 2026)."
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [
+    {
+     "xifra": "50 llocs tècnics directes i ~100 d'indirectes",
+     "qui_ho_diu": "promotor (via Viu Molins de Rei)",
+     "tipus": "promotor",
+     "font": "https://viumolinsderei.com/2026/09/02/el-nou-centre-de-dades-del-pla-preveu-crear-50-llocs-de-treball-directes/"
+    },
+    {
+     "xifra": "Menys de 30 treballadors",
+     "qui_ho_diu": "Marcel Muñoz, en un article d’opinió a Viu Molins de Rei",
+     "tipus": "experts",
+     "font": "https://viumolinsderei.com/2026/08/21/el-centre-de-dades-una-gran-oportunitat-plena-de-reptes/"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "Circuit tancat d'aigua i glicol, sense consum continu d'aigua",
+    "aigua": "Consum net zero: diu que gastarà com «una oficina d’unes 30 persones»",
+    "qui_ho_diu": "promotor (Quetta)",
+    "font": "https://viumolinsderei.com/2026/09/02/el-nou-centre-de-dades-del-pla-preveu-crear-50-llocs-de-treball-directes/"
+   },
+   "energia": "Refrigeració líquida amb consum net d'aigua zero i energia renovable.",
+   "tramits": [
+    {
+     "organisme": "Ajuntament de Molins de Rei",
+     "fet": "Llicències municipals concedides; a l'espera de començar l'obra (segons la premsa local)",
+     "url": "https://viumolinsderei.com/2026/09/02/el-nou-centre-de-dades-del-pla-preveu-crear-50-llocs-de-treball-directes/",
+     "via_premsa": true
+    }
+   ],
+   "polemica": {
+    "critica": {
+     "text": "La CUP de Molins de Rei va alertar del consum energètic (maig del 2026). Marcel Muñoz qüestiona la poca feina que crearà, l'origen real de l'energia renovable, la càrrega per a la xarxa del Baix Llobregat i el model de fons d'inversió que acaba revenent.",
+     "data": "2026-08-21",
+     "font": "https://viumolinsderei.com/2026/08/21/el-centre-de-dades-una-gran-oportunitat-plena-de-reptes/"
+    },
+    "respostes": [
+     {
+      "qui": "Quetta Data Centers",
+      "text": "Respon que el centre tindrà tecnologia de refrigeració avançada, semblant a la dels equips Nvidia, i que «el subministrament elèctric es contractarà íntegrament de fonts renovables». Preveu 18 mesos d'obra i 6 de posada en marxa.",
+      "data": "2026-09-02",
+      "font": "https://viumolinsderei.com/2026/09/02/el-nou-centre-de-dades-del-pla-preveu-crear-50-llocs-de-treball-directes/"
+     }
+    ],
+    "nota": ""
+   },
+   "notes": "Forma part de la xarxa de centres de dades que l’empresa construeix a la península. Preveu 18 mesos d’obra i 6 de posada en marxa.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2025-12-10",
+     "fet": "Quetta anuncia el seu primer projecte a Barcelona, a Molins de Rei",
+     "font": "https://www.idealista.com/news/inmobiliario/activos-alternativos/2025/12/10/875969-azora-amplia-a-20-mw-su-data-center-en-madrid-y-arranca-las-obras-de"
+    },
+    {
+     "data": "2026-04-15",
+     "fet": "DCD el presenta com un node clau de la xarxa ibèrica",
+     "font": "https://www.datacenterdynamics.com/es/noticias/quetta-avanza-en-su-red-de-centros-de-datos-con-un-nodo-clave-en-molins-de-rei/"
+    },
+    {
+     "data": "2026-09-02",
+     "fet": "Detalls: 10 MW, 50 llocs directes, llicències municipals obtingudes",
+     "font": "https://viumolinsderei.com/2026/09/02/el-nou-centre-de-dades-del-pla-preveu-crear-50-llocs-de-treball-directes/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "DCD",
+     "url": "https://www.datacenterdynamics.com/es/noticias/quetta-avanza-en-su-red-de-centros-de-datos-con-un-nodo-clave-en-molins-de-rei/",
+     "data": "2026-04-15"
+    }
+   ],
+   "paraules": [
+    "Quetta",
+    "Molins de Rei"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "adam-parc-alba",
+   "nom": "Centre de dades d'Adam al Parc de l'Alba",
+   "promotor": "Adam",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Vallès Occidental",
+   "municipi": "Cerdanyola del Vallès (Parc de l'Alba)",
+   "llocs": [
+    [
+     41.494,
+     2.115
+    ]
+   ],
+   "precisio_ubicacio": "polígon (Parc de l'Alba, aproximat)",
+   "estat": "en construcció",
+   "previsio": "2027",
+   "potencia": {
+    "mw": 8,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "«Sistemes avançats de refrigeració i monitoratge intel·ligent del consum» (sense més detall)",
+    "aigua": "No consta",
+    "qui_ho_diu": "promotor (via Tot Cerdanyola)",
+    "font": "https://www.totcerdanyola.cat/actualitat/adam-inicia-construccio-nou-centre-dades-parc-alba_2220289102.html"
+   },
+   "energia": "Primera fase de 4 MW, amb plaques fotovoltaiques.",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Adam és un operador català.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2025-10-07",
+     "fet": "Comencen les obres: 8 MW (primera fase de 4 MW), 7.500 m², Tier III, ple funcionament el 2027",
+     "font": "https://www.totcerdanyola.cat/actualitat/adam-inicia-construccio-nou-centre-dades-parc-alba_2220289102.html"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Tot Cerdanyola",
+     "url": "https://www.totcerdanyola.cat/actualitat/adam-inicia-construccio-nou-centre-dades-parc-alba_2220289102.html",
+     "data": "2025-10-07"
+    }
+   ],
+   "paraules": [
+    "Parc de l'Alba"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "ai-factory-bsc",
+   "nom": "Ampliació d'IA del MareNostrum 5 (fàbrica d'IA del BSC)",
+   "promotor": "EuroHPC, BSC i Govern espanyol, amb participació de la Generalitat",
+   "tipus": "supercomputador públic",
+   "territori": "Catalunya",
+   "comarca": "Barcelonès",
+   "municipi": "Barcelona",
+   "llocs": [
+    [
+     41.3895,
+     2.1155
+    ]
+   ],
+   "precisio_ubicacio": "barri (Campus Nord UPC: CPD principal del BSC i capella de Torre Girona)",
+   "estat": "en construcció",
+   "previsio": "Instal·lació prevista el primer semestre del 2026",
+   "potencia": {
+    "mw": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": 129,
+    "origen": "oficial",
+    "nota": "Contracte signat per EuroHPC el 26.01.2026."
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "EuroHPC només parla de «tecnologies de refrigeració eficients», sense detall",
+    "aigua": "No consta",
+    "qui_ho_diu": "administració (EuroHPC)",
+    "font": "https://eurohpc-ju.europa.eu/contract-signed-boost-marenostrum-5s-ai-capabilities-2026-01-26_en"
+   },
+   "energia": "",
+   "tramits": [
+    {
+     "organisme": "EuroHPC JU",
+     "fet": "Signa el contracte de l'ampliació d'IA del MareNostrum 5 amb un consorci liderat per Fsas Technologies (Fujitsu) i Telefónica, per uns 129 M€ (50% EuroHPC; 50% Espanya, Portugal i Turquia)",
+     "data": "2026-01-26",
+     "url": "https://eurohpc-ju.europa.eu/contract-signed-boost-marenostrum-5s-ai-capabilities-2026-01-26_en"
+    },
+    {
+     "organisme": "Ministeri de Ciència, Innovació i Universitats",
+     "fet": "Anuncia l'adjudicació; Espanya hi aporta 60 M€",
+     "data": "2026-01-26",
+     "url": "https://www.ciencia.gob.es/Noticias/2026/enero/adjudicada-ampliacion-MareNostrum-5-BSC.html"
+    }
+   ],
+   "polemica": null,
+   "notes": "És una de les fàbriques d’IA que la Unió Europea va aprovar el desembre del 2024. Tindrà una part per entrenar models de llengua i una altra per fer-los funcionar. La meitat la paga EuroHPC i l’altra meitat, Espanya (60 M€, amb participació de la Generalitat), Portugal i Turquia. No hem trobat cap notícia que confirmi que ja funciona.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2026-01-26",
+     "fet": "Signatura del contracte (Fsas Technologies i Telefónica, 129 M€)",
+     "font": "https://eurohpc-ju.europa.eu/contract-signed-boost-marenostrum-5s-ai-capabilities-2026-01-26_en"
+    },
+    {
+     "data": "2026-01-27",
+     "fet": "Instal·lació prevista per al primer semestre del 2026",
+     "font": "https://www.laecuaciondigital.com/tecnologias/inteligencia-artificial/marenostrum5-supercomputacion-europea-ia/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Ministeri de Ciència",
+     "url": "https://www.ciencia.gob.es/Noticias/2026/enero/adjudicada-ampliacion-MareNostrum-5-BSC.html",
+     "data": "2026-01-26"
+    }
+   ],
+   "paraules": [
+    "MareNostrum"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "adequa-santa-barbara",
+   "nom": "Centre de dades d'Adequa a Santa Bàrbara",
+   "promotor": "Adequa",
+   "tipus": "hiperescala",
+   "territori": "Catalunya",
+   "comarca": "Montsià",
+   "municipi": "Santa Bàrbara",
+   "llocs": [
+    [
+     40.715,
+     0.493
+    ]
+   ],
+   "precisio_ubicacio": "municipi",
+   "estat": "en tramitació",
+   "previsio": "",
+   "potencia": {
+    "mw": 200,
+    "origen": "premsa",
+    "nota": "Xifra publicada per la SER i EbreDigital; el Govern no ha fet pública la llista dels 26 projectes."
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "",
+   "tramits": [],
+   "polemica": {
+    "critica": {
+     "text": "Ecologistes en Acció de Tarragona i l’Ebre l’inclou a les al·legacions contra el projecte de reial decret de centres de dades.",
+     "data": "2026-09-22",
+     "font": "https://ebredigital.cat/2026/09/22/ecologistes-en-accio-de-tarragona-i-ebre-presenta-allegacions-al-projecte-de-reial-decret-sobre-centres-de-dades/"
+    },
+    "respostes": [],
+    "nota": "No hem trobat cap resposta."
+   },
+   "notes": "Aspira a ser declarat projecte estratègic. L’estratègia de centres de dades del Govern (març del 2025) permet declarar d’interès general superior els projectes de 20 MW o més situats en un dels set pols.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2026-03-27",
+     "fet": "La SER i EbreDigital situen Santa Bàrbara entre els 26 projectes que estudia el Govern (200 MW, Adequa)",
+     "font": "https://ebredigital.cat/2026/03/27/santa-barbara-aspirant-a-acollir-un-centre-de-dades-de-200-mw/"
+    },
+    {
+     "data": "2026-04-26",
+     "fet": "Revista Cloud el compta entre els dos projectes més grans identificats",
+     "font": "https://revistacloud.com/cataluna-acelera-26-nuevos-centros-de-datos-2-000-mw-bajo-debate"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "EbreDigital",
+     "url": "https://ebredigital.cat/2026/03/27/santa-barbara-aspirant-a-acollir-un-centre-de-dades-de-200-mw/",
+     "data": "2026-03-27"
+    }
+   ],
+   "paraules": [
+    "Santa Bàrbara",
+    "Adequa"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "adequa-odena",
+   "nom": "Centre de dades d'Adequa a Òdena",
+   "promotor": "Adequa",
+   "tipus": "hiperescala",
+   "territori": "Catalunya",
+   "comarca": "Anoia",
+   "municipi": "Òdena (Can Morera)",
+   "llocs": [
+    [
+     41.606,
+     1.64
+    ]
+   ],
+   "precisio_ubicacio": "municipi (Can Morera no geolocalitzat)",
+   "estat": "en tramitació",
+   "previsio": "",
+   "potencia": {
+    "mw": 200,
+    "origen": "premsa",
+    "nota": "Xifra de premsa; el Govern no ha fet pública la llista dels 26 projectes."
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [
+    {
+     "xifra": "750 llocs directes (projecte D-hub del 2020, més de 1.000 M€)",
+     "qui_ho_diu": "promotor (Adequa / propietaris de Can Morera)",
+     "tipus": "promotor",
+     "font": "http://infoanoia.cat/propietaris-can-morera-presenten-projecte-d-hub-odena-promesa-1-000-milions-deuros-dinversio-750-llocs-treball/"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "",
+   "tramits": [
+    {
+     "organisme": "Mancomunitat Intermunicipal de la Conca d'Òdena / Generalitat (PDUAECO)",
+     "fet": "El procés participatiu del Pla director urbanístic d'activitat econòmica deixa fora els terrenys de Can Morera (Plataforma Ferroviària Nord). La premsa en recull el resultat.",
+     "data": "2021-03-04",
+     "url": "https://www.anoiadiari.cat/societat/promotors-can-morera-asseguren-han-error-resultats-del-proces-participatiu",
+     "via_premsa": true
+    }
+   ],
+   "polemica": {
+    "critica": {
+     "text": "Hi ha entitats contràries a qualsevol ús industrial de Can Morera, i el procés participatiu del PDUAECO va excloure'n els terrenys.",
+     "data": "2020-07-22",
+     "font": "http://infoanoia.cat/propietaris-can-morera-presenten-projecte-d-hub-odena-promesa-1-000-milions-deuros-dinversio-750-llocs-treball/"
+    },
+    "respostes": [
+     {
+      "qui": "Adequa (família Singla, promotora del D-hub)",
+      "text": "Diu que «hi ha d'haver un error», perquè la iniciativa de buscar uns terrenys així «va venir del propi govern de la Generalitat». Recorda que els resultats «no són vinculants» i defensa que Can Morera és l'únic lloc que compleix tots els requisits.",
+      "data": "2021-03-04",
+      "font": "https://www.anoiadiari.cat/societat/promotors-can-morera-asseguren-han-error-resultats-del-proces-participatiu"
+     }
+    ],
+    "nota": ""
+   },
+   "notes": "L’Anoia és un dels set pols del Govern, que hi vol facilitar quatre grans centres entre Òdena i Jorba. El 2020 Adequa ja havia presentat aquí el D-hub Òdena (més de 1.000 M€).",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2020-07-22",
+     "fet": "Adequa presenta el D-hub Òdena (més de 1.000 M€ i 750 llocs)",
+     "font": "http://infoanoia.cat/propietaris-can-morera-presenten-projecte-d-hub-odena-promesa-1-000-milions-deuros-dinversio-750-llocs-treball/"
+    },
+    {
+     "data": "2021-03-04",
+     "fet": "El PDUAECO exclou Can Morera; Adequa ho contesta",
+     "font": "https://www.anoiadiari.cat/societat/promotors-can-morera-asseguren-han-error-resultats-del-proces-participatiu"
+    },
+    {
+     "data": "2026-03-28",
+     "fet": "La Generalitat vol facilitar quatre grans centres de dades entre Òdena i Jorba",
+     "font": "https://veuanoia.cat/generalitat-vol-facilitar-installacio-quatre-grans-centres-dades-odena-jorba/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "EbreDigital",
+     "url": "https://ebredigital.cat/2026/03/27/santa-barbara-aspirant-a-acollir-un-centre-de-dades-de-200-mw/",
+     "data": "2026-03-27"
+    }
+   ],
+   "paraules": [
+    "Òdena",
+    "Can Morera",
+    "Adequa"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "gigafactoria-mora-la-nova",
+   "nom": "Gigafactoria d'IA de Móra la Nova",
+   "promotor": "Consorci de SETT (Govern espanyol), ACS, Telefónica, Banco Santander, Multiverse Computing i la Generalitat",
+   "tipus": "gigafactoria d'IA",
+   "territori": "Catalunya",
+   "comarca": "Ribera d'Ebre",
+   "municipi": "Móra la Nova (polígon del Molló)",
+   "llocs": [
+    [
+     41.105,
+     0.655
+    ]
+   ],
+   "precisio_ubicacio": "municipi (el polígon del Molló és al sud del nucli, entre Móra la Nova i Tivissa; no n'hem verificat el centroide)",
+   "estat": "en tramitació",
+   "previsio": "Candidatura a la UE fins al 12.11.2026; decisió a principis del 2027",
+   "potencia": {
+    "mw": 129,
+    "origen": "administració",
+    "nota": "54 MW garantits per a la primera fase (compra de 20 MW ratificada pel Govern el 21.07.2026) i 75 MW més en tràmit, segons l’alcalde."
+   },
+   "inversio": {
+    "meur": 1500,
+    "origen": "promotor",
+    "nota": "Capital inicial anunciat pel consorci; parla de fins a 5.000 M€ en quatre o cinc anys."
+   },
+   "ocupacio": [
+    {
+     "xifra": "250 llocs qualificats en una fase inicial",
+     "qui_ho_diu": "administració (el senador socialista Manel de la Vega, sense dir d'on surt la xifra)",
+     "tipus": "administració",
+     "font": "https://www.marfanta.com/2025/06/26/la-gigafactoria-de-mora-la-nova-crearia-250-llocs-de-treball-qualificats-i-triplicaria-les-tecnologiques-amb-base-a-lebre/"
+    },
+    {
+     "xifra": "500 llocs durant la construcció i la posada en marxa; 150 de fixos en funcionament",
+     "qui_ho_diu": "premsa (Directa, que atribueix les xifres a Aleix Carbó, de la CGT)",
+     "tipus": "premsa",
+     "font": "https://directa.cat/gigafactoria-dia-mora-la-nova-consumira-lelectricitat-180-000-llars/"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "Refrigeració líquida en circuit tancat, sense torres evaporatives",
+    "aigua": "Gairebé gens, segons el Govern i l’Ajuntament (circuit tancat, sense torres evaporatives). Les entitats contràries calculen entre 1,3 i 1,5 hm³ l’any per a 100 MW.",
+    "qui_ho_diu": "Govern de la Generalitat i alcalde de Móra la Nova",
+    "font": "https://www.diaridetarragona.com/economia/264630/gigafactoria-ia-mora-nova-consumira-agua.html"
+   },
+   "energia": "Dues línies elèctriques (principal i de reserva) des de la subestació d’Aubals (Garcia). La consellera Paneque diu que la nova planificació elèctrica ha de permetre tirar endavant el projecte.",
+   "tramits": [
+    {
+     "organisme": "Govern de la Generalitat",
+     "fet": "Declaració institucional de suport a la candidatura; demana que es declari d'interès públic. Terrenys de l'Incasòl.",
+     "data": "2025-06-25",
+     "url": "https://govern.cat/gov/acords-govern/15021/el-govern-confia-que-europa-trii-el-projecte-de-gigafactoria-d-ia-a-mora-la-nova-perque-es-un-projecte-solvent"
+    },
+    {
+     "organisme": "Govern de la Generalitat",
+     "fet": "Aprova els estatuts i el pacte de socis de la societat publicoprivada (Generalitat 1% via Incasòl, Estat via SETT)",
+     "data": "2026-06-16",
+     "url": "https://govern.cat/gov/notes-premsa/836636/el-govern-dona-llum-verda-a-la-societat-publicoprivada-que-impulsara-la-gigafactoria-de-mora-la-nova"
+    },
+    {
+     "organisme": "Govern de la Generalitat",
+     "fet": "Declara el projecte inversió estratègica per a Catalunya (acord GOV/141/2026). No hem localitzat la data exacta ni la publicació al DOGC",
+     "url": "https://govern.cat/salapremsa/notes-premsa/851910/un-pas-mes-per-fer-realitat-la-gigafactoria-d-intelligencia-artificial-de-mora-la-nova-i-tivissa"
+    },
+    {
+     "organisme": "Govern de la Generalitat / Incasòl",
+     "fet": "Ratifica la compra de 20 MW a Cetenis SL per passar dels 34 MW disponibles al sector del Molló als 54 MW de la primera fase",
+     "data": "2026-07-21",
+     "url": "https://govern.cat/salapremsa/notes-premsa/851910/un-pas-mes-per-fer-realitat-la-gigafactoria-d-intelligencia-artificial-de-mora-la-nova-i-tivissa"
+    },
+    {
+     "organisme": "Comissió Europea (DG Competència)",
+     "fet": "Autoritza per procediment simplificat la societat conjunta d’ACS, Telefónica, Banco Santander i SETT (cas M.12498)",
+     "data": "2026-08-20",
+     "url": "https://www.eureporter.co/politics/european-commission/2026/08/21/commission-clears-creation-of-joint-venture-by-acs-aiid-telefonica-banco-santander-and-sett/",
+     "via_premsa": true
+    }
+   ],
+   "polemica": {
+    "critica": {
+     "text": "La plataforma «Aturem la gigafactoria d’IA» (Ecologistes en Acció, Terra Alta Viva, Sediments, CGT i GEPEC) reclama un debat públic amb experts i denuncia opacitat: «No queda clar què produirà exactament ni quin impacte real tindrà sobre el territori», diu Aleix Carbó, de la CGT.",
+     "data": "2026-04-30",
+     "font": "https://www.publico.es/sociedad/m-ambiente/nueva-plataforma-ciudadana-cuestiona-gigafactoria-ia-prevista-sur-catalunya-queremos-debate-publico-expertos.html"
+    },
+    "respostes": [
+     {
+      "qui": "Fonts del Govern espanyol",
+      "text": "Asseguren que la candidatura «disposarà de totes les garanties» de sostenibilitat i de consum mínim d’aigua i d’energia.",
+      "data": "2026-04-30",
+      "font": "https://directa.cat/gigafactoria-dia-mora-la-nova-consumira-lelectricitat-180-000-llars/"
+     },
+     {
+      "qui": "Govern de la Generalitat",
+      "text": "Assegura que el circuit tancat no evapora aigua i que el consum serà «pròxim a zero». Primera fase de 30–50 MW a partir del 2028 i fins a 100–125 MW amb tot el projecte.",
+      "data": "2026-07-01",
+      "font": "https://www.diaridetarragona.com/economia/264630/gigafactoria-ia-mora-nova-consumira-agua.html"
+     },
+     {
+      "qui": "Alcalde de Móra la Nova, Jesús Álvarez",
+      "text": "Refrigerarà amb líquids en un circuit sense evaporació. Diu que el consum d'aigua serà «pràcticament nul» i que el projecte obre la porta a feina qualificada a les Terres de l'Ebre.",
+      "data": "",
+      "font": "https://canalte.cat/actualitat/societat/el-projecte-de-la-gigafactoria-dia-de-mora-la-nova-ja-disposa-dels-54-mw-necessaris-per-comencar-la-primera-fase/"
+     }
+    ],
+    "nota": ""
+   },
+   "notes": "És la candidatura ibèrica a una de les gigafactories d’IA de la Unió Europea, compartida amb un emplaçament a Madrid. La UE n’ha autoritzat la societat conjunta (20.08.2026), però encara no ha triat les gigafactories: la decisió és a principis del 2027.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2025-06-25",
+     "fet": "El Govern aprova una declaració de suport a la candidatura",
+     "font": "https://govern.cat/gov/acords-govern/15021/el-govern-confia-que-europa-trii-el-projecte-de-gigafactoria-d-ia-a-mora-la-nova-perque-es-un-projecte-solvent"
+    },
+    {
+     "data": "2026-06-16",
+     "fet": "El Govern aprova la societat publicoprivada",
+     "font": "https://govern.cat/gov/notes-premsa/836636/el-govern-dona-llum-verda-a-la-societat-publicoprivada-que-impulsara-la-gigafactoria-de-mora-la-nova"
+    },
+    {
+     "data": "2026-07-21",
+     "fet": "Compra de 20 MW addicionals: 54 MW garantits per a la primera fase",
+     "font": "https://govern.cat/salapremsa/notes-premsa/851910/un-pas-mes-per-fer-realitat-la-gigafactoria-d-intelligencia-artificial-de-mora-la-nova-i-tivissa"
+    },
+    {
+     "data": "2026-08-20",
+     "fet": "La Comissió Europea autoritza la societat conjunta (M.12498)",
+     "font": "https://www.elnacional.cat/oneconomia/es/on-ia/bruselas-da-luz-verde-alianza-acs-telefonica-santander-gigafactoria-ia-mora-nova_1683982_102.html"
+    },
+    {
+     "data": "2026-09-24",
+     "fet": "La nova planificació elèctrica (3.800 MW més a Catalunya fins al 2030) ha de permetre tirar endavant el projecte, segons la consellera Paneque",
+     "font": "https://ebredigital.cat/2026/09/24/la-nova-planificacio-electrica-a-catalunya-permetra-tirar-endavant-la-gigafactoria-a-mora-la-nova/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Canal Terres de l'Ebre",
+     "url": "https://canalte.cat/actualitat/societat/el-projecte-de-la-gigafactoria-dia-de-mora-la-nova-ja-disposa-dels-54-mw-necessaris-per-comencar-la-primera-fase/",
+     "data": "2026-10-01"
+    }
+   ],
+   "paraules": [
+    "Móra la Nova"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "submer-flix",
+   "nom": "Centre de dades d'IA de Submer a l'antiga planta d'Ercros",
+   "promotor": "Submer Group (filial Rubix Data Centers)",
+   "tipus": "hiperescala",
+   "territori": "Catalunya",
+   "comarca": "Ribera d'Ebre",
+   "municipi": "Flix",
+   "llocs": [
+    [
+     41.229,
+     0.548
+    ]
+   ],
+   "precisio_ubicacio": "municipi/planta d'Ercros (aproximat; no verificat amb cartografia)",
+   "estat": "en tramitació",
+   "previsio": "Primera fase a finals del 2027",
+   "potencia": {
+    "mw": 70,
+    "origen": "premsa",
+    "nota": "Potència elèctrica vinculada a l’antiga planta d’Ercros; el promotor no l’ha detallada per fases."
+   },
+   "inversio": {
+    "meur": 1000,
+    "origen": "promotor",
+    "nota": "«Més de 1.000 M€» segons el promotor i l’Ajuntament; altres mitjans en donen 1.500."
+   },
+   "ocupacio": [
+    {
+     "xifra": "Fins a 150 llocs permanents quan estigui acabat",
+     "qui_ho_diu": "promotor",
+     "tipus": "promotor",
+     "font": "https://submer.com/blog/press/invest-more-than-1-billion-in-an-ai-data-center-in-flix/"
+    },
+    {
+     "xifra": "Entre 105 i 150 llocs permanents a la primera fase",
+     "qui_ho_diu": "administració (Ajuntament de Flix)",
+     "tipus": "administració",
+     "font": "https://www.flix.cat/2026/07/11/submer-group-invertira-mes-de-1-000-milions-deuros-en-un-centre-de-dades-dia-a-la-planta-dercros-a-flix/"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "Refrigeració líquida d'alta eficiència",
+    "aigua": "No en consumeix mentre funciona, segons el promotor",
+    "qui_ho_diu": "promotor (Submer) i Ajuntament de Flix",
+    "font": "https://submer.com/blog/press/invest-more-than-1-billion-in-an-ai-data-center-in-flix/"
+   },
+   "energia": "Aprofita la connexió elèctrica de l’antiga planta química d’Ercros, que hi arrenda els terrenys.",
+   "tramits": [],
+   "polemica": {
+    "critica": {
+     "text": "Ecologistes en Acció de Tarragona i l’Ebre inclou Flix a les al·legacions contra el projecte de reial decret: demana que es prohibeixi refrigerar evaporant aigua dolça en municipis amb estrès hídric i que l’avaluació ambiental inclogui les subestacions. Agustí Emperador, de la mateixa entitat, compara el consum elèctric del centre amb el de la fàbrica de Seat a Martorell, que dona feina a molta més gent (MetaData).",
+     "data": "2026-09-22",
+     "font": "https://ebredigital.cat/2026/09/22/ecologistes-en-accio-de-tarragona-i-ebre-presenta-allegacions-al-projecte-de-reial-decret-sobre-centres-de-dades/"
+    },
+    "respostes": [],
+    "nota": "No hem trobat cap resposta pública de Submer ni de l’administració a aquestes crítiques."
+   },
+   "notes": "Es va presentar el juliol del 2026 amb el president Salvador Illa.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2026-07-11",
+     "fet": "Presentació amb el president Illa: més de 1.000 M€ i dues fases",
+     "font": "https://www.flix.cat/2026/07/11/submer-group-invertira-mes-de-1-000-milions-deuros-en-un-centre-de-dades-dia-a-la-planta-dercros-a-flix/"
+    },
+    {
+     "data": "2026-07-13",
+     "fet": "Ercros confirma que arrenda els terrenys i hi presta serveis",
+     "font": "https://www.ercros.es/es/sala-de-prensa/noticias/un-centro-de-datos-de-ultima-generacion-se-instala-en-los-terrenos-de-flix"
+    },
+    {
+     "data": "2026-09-22",
+     "fet": "Ecologistes en Acció hi fa al·legacions",
+     "font": "https://ebredigital.cat/2026/09/22/ecologistes-en-accio-de-tarragona-i-ebre-presenta-allegacions-al-projecte-de-reial-decret-sobre-centres-de-dades/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Ara",
+     "url": "https://en.ara.cat/economy/submer-will-invest-more-than-1-000-million-in-new-data-center-in-flix_1_5795996.html",
+     "data": "2026-07-11"
+    },
+    {
+     "nom": "MetaData",
+     "url": "https://www.metadata.cat/noticia/6472/catalunya-afronta-el-repte-energetic-dels-centres-de-dades-impulsats-per-la-ia",
+     "data": ""
+    }
+   ],
+   "paraules": [
+    "Flix",
+    "Submer"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "ark-maquinista",
+   "nom": "Centre de dades urbà d'Ark a la Maquinista",
+   "promotor": "Ark Data Centres",
+   "tipus": "hiperescala",
+   "territori": "Catalunya",
+   "comarca": "Barcelonès",
+   "municipi": "Barcelona (Sant Andreu)",
+   "llocs": [
+    [
+     41.4405,
+     2.198
+    ]
+   ],
+   "precisio_ubicacio": "barri (la Maquinista, Sant Andreu)",
+   "estat": "en tramitació",
+   "previsio": "",
+   "potencia": {
+    "mw": 45,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": 600,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [
+    {
+     "xifra": "~350 llocs directes l'any durant la construcció; ~150 llocs directes en funcionament",
+     "qui_ho_diu": "promotor (Ark, via DCD i Cushman & Wakefield)",
+     "tipus": "promotor",
+     "font": "https://www.datacenterdynamics.com/es/noticias/ark-apuesta-por-barcelona-con-un-macrodata-center-urbano-de-m%C3%A1s-de-600-millones/"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Ark ha comprat uns 30.000 m² de sòl industrial. Preveu unes 150 feines directes quan funcioni.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2026-03-18",
+     "fet": "Ark anuncia més de 600 M€ i fins a 45 MW d'IT en uns 30.000 m² al costat de la Maquinista",
+     "font": "https://www.idealista.com/news/inmobiliario/activos-alternativos/2026/03/18/889374-ark-data-centres-invertira-mas-de-600-millones-de-euros-en-un-centro-de"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "DCD",
+     "url": "https://www.datacenterdynamics.com/es/noticias/ark-apuesta-por-barcelona-con-un-macrodata-center-urbano-de-m%C3%A1s-de-600-millones/",
+     "data": "2026-03-19"
+    }
+   ],
+   "paraules": [
+    "Ark Data Centres",
+    "Maquinista"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "gtr-parc-alba",
+   "nom": "Centre de dades de Global Technical Realty al Parc de l'Alba",
+   "promotor": "Global Technical Realty (KKR)",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Vallès Occidental",
+   "municipi": "Cerdanyola del Vallès (Parc de l'Alba)",
+   "llocs": [
+    [
+     41.494,
+     2.115
+    ]
+   ],
+   "precisio_ubicacio": "polígon",
+   "estat": "en tramitació",
+   "previsio": "",
+   "potencia": {
+    "mw": 16,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "Energia renovable, segons el promotor.",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Va comprar el sòl el 2023. No hem pogut confirmar si ja s’està construint.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2023-08-03",
+     "fet": "GTR anuncia un centre de 16 MW al Parc de l’Alba",
+     "font": "https://www.datacenterdynamics.com/es/noticias/global-technical-realty-construir%C3%A1-un-centro-de-datos-de-16mw-en-barcelona/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "DCD",
+     "url": "https://www.datacenterdynamics.com/es/noticias/global-technical-realty-construir%C3%A1-un-centro-de-datos-de-16mw-en-barcelona/",
+     "data": "2023-08-03"
+    }
+   ],
+   "paraules": [
+    "Global Technical Realty",
+    "Parc de l'Alba"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "serosense-alcarras",
+   "nom": "Primer centre de dades de Lleida",
+   "promotor": "Electra Serosense",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Segrià",
+   "municipi": "Alcarràs",
+   "llocs": [
+    [
+     41.564,
+     0.525
+    ]
+   ],
+   "precisio_ubicacio": "municipi (sòl SUDI al costat de l'N-II i l'A-2, a 8 km de Lleida)",
+   "estat": "en tramitació",
+   "previsio": "Uns quatre anys",
+   "potencia": {
+    "mw": 10,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [
+    {
+     "xifra": "80 llocs directes",
+     "qui_ho_diu": "promotor (Montse Montull, gerent d'Electra Serosense)",
+     "tipus": "promotor",
+     "font": "https://www.segre.com/ca/comarques/260319/alcarrs-allotjar-el-primer-centre-de-dades-de-lleida-de-12000-m-i-amb-80-llocs-de-treball_1148024.html"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "Sí: el promotor diu que la zona de reg del canal de Pinyana en garanteix l’aigua de refrigeració.",
+    "qui_ho_diu": "promotor",
+    "font": "https://www.segre.com/ca/comarques/260319/alcarrs-allotjar-el-primer-centre-de-dades-de-lleida-de-12000-m-i-amb-80-llocs-de-treball_1148024.html"
+   },
+   "energia": "10 MW ampliables a 30. Està dins la zona de reg del canal de Pinyana, que n'hauria de garantir l'aigua de refrigeració.",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Ocuparia 12.000 m². Cal modificar el planejament urbanístic (POUM) abans de construir-lo.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2025-05-28",
+     "fet": "Alcarràs s'ofereix a la Generalitat per acollir un centre de dades",
+     "font": "https://www.alcarras.cat/noticies/alcarras-proposa-a-la-generalitat-acollir-un-centre-de-dades-al-municipi"
+    },
+    {
+     "data": "2026-03-19",
+     "fet": "Serosense presenta el projecte: 10 MW ampliables a 30, 12.000 m² i 80 llocs",
+     "font": "https://www.segre.com/ca/comarques/260319/alcarrs-allotjar-el-primer-centre-de-dades-de-lleida-de-12000-m-i-amb-80-llocs-de-treball_1148024.html"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Segre",
+     "url": "https://www.segre.com/ca/comarques/260319/alcarrs-allotjar-el-primer-centre-de-dades-de-lleida-de-12000-m-i-amb-80-llocs-de-treball_1148024.html",
+     "data": "2026-03-19"
+    }
+   ],
+   "paraules": [
+    "Alcarràs",
+    "Serosense"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "atlasedge-barcelona-2",
+   "nom": "Segon centre d'AtlasEdge a Barcelona",
+   "promotor": "AtlasEdge",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Barcelonès",
+   "municipi": "Barcelona (ubicació exacta no publicada)",
+   "llocs": [],
+   "precisio_ubicacio": "No es coneix",
+   "estat": "en tramitació",
+   "previsio": "2027",
+   "potencia": {
+    "mw": 10,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Parcel·la de 18.000 m², a prop de l’estació de cables submarins. Ampliable a 24 MW. L’empresa diu que ja té la potència elèctrica assegurada.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2024-07-19",
+     "fet": "AtlasEdge anuncia el segon centre a Barcelona",
+     "font": "https://www.datacenterdynamics.com/en/news/atlasedge-plans-second-barcelona-data-center/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "DCD",
+     "url": "https://www.datacenterdynamics.com/en/news/atlasedge-plans-second-barcelona-data-center/",
+     "data": "2024-07-19"
+    }
+   ],
+   "paraules": [
+    "AtlasEdge"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "mediterra-montmelo",
+   "nom": "Centre de dades de Mediterra a Montmeló",
+   "promotor": "Mediterra DataCenters",
+   "tipus": "centre de dades comercial",
+   "territori": "Catalunya",
+   "comarca": "Vallès Oriental",
+   "municipi": "Montmeló (zona industrial)",
+   "llocs": [
+    [
+     41.551,
+     2.25
+    ]
+   ],
+   "precisio_ubicacio": "municipi",
+   "estat": "en tramitació",
+   "previsio": "Segon semestre del 2027",
+   "potencia": {
+    "mw": 8,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "Refrigeració líquida en circuit tancat",
+    "aigua": "Circuit tancat, segons el promotor",
+    "qui_ho_diu": "promotor",
+    "font": "https://brainsre.news/mediterra-datacenters-elige-barcelona-centro-datos/"
+   },
+   "energia": "12 MW de connexió elèctrica assegurats, segons el promotor. Preveu aprofitar la calor residual per a serveis públics locals.",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Plataforma italiana. Ocuparà 9.700 m².",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2026-02-17",
+     "fet": "Mediterra anuncia el centre de Montmeló",
+     "font": "https://brainsre.news/mediterra-datacenters-elige-barcelona-centro-datos/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Brains RE News",
+     "url": "https://brainsre.news/mediterra-datacenters-elige-barcelona-centro-datos/",
+     "data": "2026-02-17"
+    },
+    {
+     "nom": "Font complementària",
+     "url": "https://metropoliabierta.elespanol.com/economia/20260217/mediterra-desembarca-barcelona-centro-datos-partir/1003742733493_0.html",
+     "data": ""
+    }
+   ],
+   "paraules": [
+    "Mediterra",
+    "Montmeló"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "ponentia",
+   "nom": "Projectes de Ponentia Logistics al Camp, la Conca i el Segrià",
+   "promotor": "Ponentia Logistics",
+   "tipus": "hiperescala",
+   "territori": "Catalunya",
+   "comarca": "Baix Camp, Conca de Barberà i Segrià",
+   "municipi": "Vandellòs i l'Hospitalet de l'Infant, l'Espluga de Francolí i Lleida",
+   "llocs": [
+    [
+     40.993,
+     0.923
+    ],
+    [
+     41.398,
+     1.101
+    ],
+    [
+     41.617,
+     0.62
+    ]
+   ],
+   "precisio_ubicacio": "municipi (l'Hospitalet de l'Infant, l'Espluga de Francolí, Lleida)",
+   "estat": "en tramitació",
+   "previsio": "",
+   "potencia": {
+    "mw": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [
+    {
+     "xifra": "Més de 1.500 llocs (polígon logístic de Montblanc i l'Espluga, no només el centre de dades)",
+     "qui_ho_diu": "promotor (via Nova Conca)",
+     "tipus": "promotor",
+     "font": "https://www.novaconca.cat/noticia/250631/ponentia-logistics-presenta-un-projecte-per-a-crear-un-poligon-entre-montblanc-i-lespluga-"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "",
+   "tramits": [],
+   "polemica": {
+    "critica": {
+     "text": "La plataforma En Peu de Terra qualifica el polígon d'«especulatiu» i critica la manca de transparència.",
+     "data": "2026-08-21",
+     "font": "https://tarragonadigital.com/economia/ajuntament-montblanc-ponentia-reprenen-converses-futur-poligon-industrial-logistic.html"
+    },
+    "respostes": [
+     {
+      "qui": "Ponentia",
+      "text": "Diu als ajuntaments que el projecte encara li interessa, després de mesos sense donar senyals de vida.",
+      "data": "2026-08-21",
+      "font": "https://tarragonadigital.com/economia/ajuntament-montblanc-ponentia-reprenen-converses-futur-poligon-industrial-logistic.html"
+     },
+     {
+      "qui": "Alcalde de Montblanc, Marc Vinya",
+      "text": "Hi és «escèptic»: «no veiem massa clar que això pugui acabar sent una realitat». Hi veu poca infraestructura elèctrica per a un centre de dades i tràmits urbanístics llargs.",
+      "data": "2026-08-21",
+      "font": "https://tarragonadigital.com/economia/ajuntament-montblanc-ponentia-reprenen-converses-futur-poligon-industrial-logistic.html"
+     },
+     {
+      "qui": "Tinent d'alcalde de Montblanc, Oriol Pallissó",
+      "text": "«No trobem a ningú a l'altra banda del telèfon». L'Ajuntament va donar a Ponentia de termini fins a Setmana Santa del 2026.",
+      "data": "",
+      "font": "https://reusdigital.cat/noticies/economia/el-futur-poligon-logistic-montblanc-i-lespluga-de-francoli-esta-estancat-lespera"
+     }
+    ],
+    "nota": ""
+   },
+   "notes": "Tres emplaçaments dins dels pols de Tarragona i Lleida. El polígon logístic de Montblanc i l’Espluga, on s’hi preveien centres de dades, està encallat.",
+   "xifres_nota": "Alguns mitjans digitals atribueixen 460 MW als tres projectes junts, sense citar cap font primària: no ho donem per bo.",
+   "cronologia": [
+    {
+     "data": "2025-04-02",
+     "fet": "Ponentia anuncia un polígon de 110 ha entre Montblanc i l'Espluga (més de 100 M€)",
+     "font": "https://www.diarimes.com/ca/camp-tarragona/conca-barbera/250402/projecten-poligon-110-hectarees-montblanc-i-l-espluga-francoli_173363.html"
+    },
+    {
+     "data": "2026-04-26",
+     "fet": "Revista Cloud atribueix 460 MW als tres projectes de Ponentia (sense font primària)",
+     "font": "https://revistacloud.com/cataluna-acelera-26-nuevos-centros-de-datos-2-000-mw-bajo-debate"
+    },
+    {
+     "data": "2026-08-21",
+     "fet": "Es reprenen les converses amb l'Ajuntament de Montblanc",
+     "font": "https://tarragonadigital.com/economia/ajuntament-montblanc-ponentia-reprenen-converses-futur-poligon-industrial-logistic.html"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Modernet Digital",
+     "url": "https://www.modernetdigital.cat/articulo/tech/catalunya-facilitara-26-nous-centres-dades-gran-salt-digital/20260326235718009322.html",
+     "data": "2026-03-26"
+    }
+   ],
+   "paraules": [
+    "Ponentia",
+    "Montblanc",
+    "Espluga de Francolí"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "tirant-uv",
+   "nom": "Supercomputador Tirant",
+   "promotor": "Universitat de València",
+   "tipus": "supercomputador públic",
+   "territori": "Comunitat Valenciana",
+   "comarca": "l'Horta Nord",
+   "municipi": "Burjassot (campus de Burjassot-Paterna)",
+   "llocs": [
+    [
+     39.5125,
+     -0.4245
+    ]
+   ],
+   "precisio_ubicacio": "barri (campus de Burjassot de la UV)",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Node de la Xarxa Espanyola de Supercomputació, que en fa servir la meitat. La versió actual, Tirant 4, té 288 nodes i gairebé un petaflop de pic.",
+   "xifres_nota": "",
+   "cronologia": [],
+   "fonts": [
+    {
+     "nom": "Red Española de Supercomputación",
+     "url": "https://www.res.es/en/about-res/nodes/tirant-uv",
+     "data": "2024-04-29"
+    }
+   ],
+   "paraules": [
+    "Tirant",
+    "Universitat de València"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "nxn-vara-de-quart",
+   "nom": "Centre de dades de NxN a Vara de Quart",
+   "promotor": "NxN Data Centers",
+   "tipus": "centre de dades comercial",
+   "territori": "Comunitat Valenciana",
+   "comarca": "València",
+   "municipi": "València (Vara de Quart)",
+   "llocs": [
+    [
+     39.4625,
+     -0.41
+    ]
+   ],
+   "precisio_ubicacio": "polígon (Vara de Quart, al costat de la V-30; aproximat)",
+   "estat": "en construcció",
+   "previsio": "Primer semestre del 2027",
+   "potencia": {
+    "mw": 6,
+    "origen": "oficial",
+    "nota": "Potència de la llicència municipal (febrer del 2025). El promotor diu que arrencarà amb 5 MW; al principi n’anunciava 20."
+   },
+   "inversio": {
+    "meur": 60,
+    "origen": "administració",
+    "nota": ""
+   },
+   "ocupacio": [
+    {
+     "xifra": "100 llocs directes i ~500 d'indirectes",
+     "qui_ho_diu": "promotor i administració (Ajuntament de València)",
+     "tipus": "promotor",
+     "font": "https://www.valencia.es/cas/actualidad/-/content/centro-de-datos-vara-de-quart"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "Refrigeració líquida per a alta densitat i IA",
+    "aigua": "«Consum d'aigua zero», segons el promotor",
+    "qui_ho_diu": "administració (Ajuntament de València) i promotor",
+    "font": "https://www.valencia.es/cas/actualidad/-/content/centro-de-datos-vara-de-quart"
+   },
+   "energia": "Consum d'aigua zero i energia 100% renovable.",
+   "tramits": [
+    {
+     "organisme": "Ajuntament de València",
+     "fet": "Concedeix la llicència d'obres i d'activitat (6 MW, 6.500 m²) en set mesos",
+     "data": "2025-02-28",
+     "url": "https://www.valencia.es/cas/actualidad/-/content/centro-de-datos-vara-de-quart"
+    }
+   ],
+   "polemica": {
+    "critica": {
+     "text": "La regidora de Compromís Lluïsa Notario critica que es fes l’acte de la primera pedra quan l’obra encara no havia començat. L’associació de veïns de Tres Forques-Vara de Quart en denuncia la falta de transparència i reclamarà compensacions ambientals.",
+     "data": "2026-02-05",
+     "font": "https://infoemplea2.com/primera-piedra-centro-datos-vara-quart-valencia/"
+    },
+    "respostes": [
+     {
+      "qui": "NxN Data Centers",
+      "text": "Diu que el barri ha rebut bé el projecte, que no consumirà aigua i que serà molt eficient energèticament.",
+      "data": "2026-02-05",
+      "font": "https://infoemplea2.com/primera-piedra-centro-datos-vara-quart-valencia/"
+     }
+    ],
+    "nota": ""
+   },
+   "notes": "És el primer centre de dades de la ciutat de València.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2025-02-28",
+     "fet": "Llicència d'obres i d'activitat",
+     "font": "https://www.valencia.es/cas/actualidad/-/content/centro-de-datos-vara-de-quart"
+    },
+    {
+     "data": "2026-02-03",
+     "fet": "Previsió d'obrir el primer semestre del 2027, amb 100 contractacions",
+     "font": "https://valenciaplaza.com/valenciaplaza/empresas1/nxn-contratara-a-100-personas-en-su-data-center-de-valencia-y-empezara-a-operar-en-2027"
+    },
+    {
+     "data": "2026-02-05",
+     "fet": "Primera pedra",
+     "font": "https://infoemplea2.com/primera-piedra-centro-datos-vara-quart-valencia/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Valencia Plaza",
+     "url": "https://valenciaplaza.com/valenciaplaza/empresas1/nxn-contratara-a-100-personas-en-su-data-center-de-valencia-y-empezara-a-operar-en-2027",
+     "data": "2026-02-03"
+    }
+   ],
+   "paraules": [
+    "NxN",
+    "Vara de Quart"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "digital-valley-picassent",
+   "nom": "Campus Digital Valley",
+   "promotor": "Digital Valley Comunitat Valenciana",
+   "tipus": "hiperescala",
+   "territori": "Comunitat Valenciana",
+   "comarca": "l'Horta Sud",
+   "municipi": "Picassent",
+   "llocs": [
+    [
+     39.363,
+     -0.459
+    ]
+   ],
+   "precisio_ubicacio": "municipi (paratge de la Foia de la Coma, no geolocalitzat)",
+   "estat": "en tramitació",
+   "previsio": "",
+   "potencia": {
+    "mw": 200,
+    "origen": "promotor",
+    "nota": "La primera fase (més de 150 MW) espera l’accés a la xarxa del Ministeri per a la Transició Ecològica."
+   },
+   "inversio": {
+    "meur": 2200,
+    "origen": "promotor",
+    "nota": "Algunes fonts en donen 2.296 M€."
+   },
+   "ocupacio": [
+    {
+     "xifra": "30.000 llocs",
+     "qui_ho_diu": "administració (president Carlos Mazón) i promotor",
+     "tipus": "administració",
+     "font": "https://www.elperiodic.com/mazon-firma-proyecto-digital-valley-generara-30000-empleos-inversion-superior-2200-millones-euros_998942"
+    },
+    {
+     "xifra": "30.000–40.000 llocs fins al 2040",
+     "qui_ho_diu": "promotor",
+     "tipus": "promotor",
+     "font": "https://www.theia.global/article/digital-valleys-data-center-project-in-picassent-faces-bureaucratic-delays-for-power-approval-b70fe3"
+    },
+    {
+     "xifra": "Xifra «poc realista»: els centres més grans del món tenen menys de 1.000 treballadors",
+     "qui_ho_diu": "experts/premsa (Xataka)",
+     "tipus": "experts",
+     "font": "https://www.xataka.com/empresas-y-economia/30-000-empleos-muchas-dudas-que-sabemos-que-no-data-valley-valenciano"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "Promet una planta solar i una d’hidrogen verd.",
+   "tramits": [
+    {
+     "organisme": "Generalitat Valenciana / Ajuntament de Picassent",
+     "fet": "Acord d'intencions (MoU) entre el president Mazón, el promotor Armando Layna i l'alcaldessa de Picassent. Mazón lliga el projecte a la figura dels Projectes d'Interès Autonòmic (PIA) que «prioritzen les inversions».",
+     "data": "2025-01-28",
+     "url": "https://www.elperiodic.com/mazon-firma-proyecto-digital-valley-generara-30000-empleos-inversion-superior-2200-millones-euros_998942",
+     "via_premsa": true
+    },
+    {
+     "organisme": "Ministeri per a la Transició Ecològica (MITECO) / Red Eléctrica",
+     "fet": "Accés i connexió per a la primera fase (més de 150 MW) pendents. L'empresa hi ha presentat aclariments i al·legacions.",
+     "data": "2026-02-04",
+     "url": "https://www.theia.global/article/digital-valleys-data-center-project-in-picassent-faces-bureaucratic-delays-for-power-approval-b70fe3",
+     "via_premsa": true
+    }
+   ],
+   "polemica": {
+    "critica": {
+     "text": "Juntes pel Territori, amb Ecologistes en Acció, Xúquer Viu, Per l'Horta, CURE, Ciutat en Alerta i No és sequera és saqueig: «Aquest model d'infraestructura posa en risc els recursos naturals». Hi oposen l'aigua, l'energia, la proximitat a l'Albufera (2,8 km), el risc d'inundació que assenyala el Patricova (el pla valencià de prevenció d'inundacions) i l'ús de la via autonòmica per saltar-se el municipi.",
+     "data": "2026-02-20",
+     "font": "https://www.diarilaveu.cat/medi-ambient/picassent-es-mobilitza-contra-el-centre-de-dades-digital-valley-625203/"
+    },
+    "respostes": [
+     {
+      "qui": "Digital Valley",
+      "text": "Assegura que el projecte «no tindrà un impacte negatiu en la comunitat local», i promet 11,2 hectàrees d’equipaments i zones verdes i una activitat neutra o negativa en carboni.",
+      "data": "2026-02-04",
+      "font": "https://www.theia.global/article/digital-valleys-data-center-project-in-picassent-faces-bureaucratic-delays-for-power-approval-b70fe3"
+     },
+     {
+      "qui": "Digital Valley",
+      "text": "Diu que té inversors amb acords de confidencialitat, però no n'ha fet públic cap nom.",
+      "data": "2026-09-21",
+      "font": "https://asturiasliberal.es/2026/09/21/el-centro-de-datos-de-salas-ante-dos-espejos-zamora-y-picassent/"
+     }
+    ],
+    "nota": ""
+   },
+   "notes": "Ocupa 77 hectàrees, 37 per als centres de dades. No hem trobat cap declaració oficial d’interès autonòmic publicada al DOGV; el promotor diu que té inversors amb acords de confidencialitat, però no n’ha fet públic cap nom.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2023-12-01",
+     "fet": "Es constitueix l’empresa Digital Valley Comunitat Valenciana",
+     "font": "https://asturiasliberal.es/2026/09/21/el-centro-de-datos-de-salas-ante-dos-espejos-zamora-y-picassent/",
+     "precisio": "mes"
+    },
+    {
+     "data": "2025-01-28",
+     "fet": "Presentació i acord d'intencions amb la Generalitat i l'Ajuntament",
+     "font": "https://www.elperiodic.com/mazon-firma-proyecto-digital-valley-generara-30000-empleos-inversion-superior-2200-millones-euros_998942"
+    },
+    {
+     "data": "2026-02-04",
+     "fet": "L'accés a la xarxa continua pendent del MITECO",
+     "font": "https://www.theia.global/article/digital-valleys-data-center-project-in-picassent-faces-bureaucratic-delays-for-power-approval-b70fe3"
+    },
+    {
+     "data": "2026-02-20",
+     "fet": "Acte de Juntes pel Territori contra el projecte a Picassent",
+     "font": "https://www.diarilaveu.cat/medi-ambient/picassent-es-mobilitza-contra-el-centre-de-dades-digital-valley-625203/"
+    },
+    {
+     "data": "2026-09-21",
+     "fet": "Continua en tramitació, sense client tractor conegut",
+     "font": "https://asturiasliberal.es/2026/09/21/el-centro-de-datos-de-salas-ante-dos-espejos-zamora-y-picassent/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Theia",
+     "url": "https://www.theia.global/article/digital-valleys-data-center-project-in-picassent-faces-bureaucratic-delays-for-power-approval-b70fe3",
+     "data": "2026-02-04"
+    }
+   ],
+   "paraules": [
+    "Digital Valley",
+    "Picassent"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "vdpc-sagunt",
+   "nom": "Estació del cable Barracuda i centre de dades de Sagunt",
+   "promotor": "Valencia Digital Port Connect, amb Téset Capital",
+   "tipus": "estació de cable submarí",
+   "territori": "Comunitat Valenciana",
+   "comarca": "Camp de Morvedre",
+   "municipi": "Sagunt",
+   "llocs": [
+    [
+     39.64,
+     -0.215
+    ]
+   ],
+   "precisio_ubicacio": "port (Port de Sagunt, moll nord I; aproximat)",
+   "estat": "en tramitació",
+   "previsio": "Principis del 2028",
+   "potencia": {
+    "mw": 10,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": 100,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "Plaques solars a la coberta.",
+   "tramits": [
+    {
+     "organisme": "Autoritat Portuària de València (BOE)",
+     "fet": "Informació pública de la sol·licitud de concessió demanial per 30 anys: cable de fibra Gènova–Sagunt, uns 410 m de terra al costat del moll nord I i 2.614 m d'aigües exteriors (BOE-B-2026-10170)",
+     "data": "2026-04-01",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-10170"
+    }
+   ],
+   "polemica": null,
+   "notes": "El cable Barracuda unirà Gènova i la Comunitat Valenciana. L’estació en podrà acollir fins a quatre.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2025-05-01",
+     "fet": "Anunci: l'estació del Barracuda i el centre de dades aniran a Sagunt (100 M€)",
+     "font": "https://www.eleconomista.es/telecomunicaciones/noticias/13388719/05/25/ni-alicante-ni-valencia-el-cable-submarino-barracuda-y-su-data-center-aterrizan-en-sagunto-con-sus-100-millones.html"
+    },
+    {
+     "data": "2026-04-01",
+     "fet": "Informació pública de la concessió al BOE",
+     "font": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2026-10170"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Valencia Plaza",
+     "url": "https://valenciaplaza.com/valenciaplaza/empresas1/valencia-digital-port-connect-pide-permiso-a-la-apv-para-la-conexion-del-cable-submarino-sagunt-genova",
+     "data": "2026-04-02"
+    }
+   ],
+   "paraules": [
+    "Barracuda",
+    "Sagunt",
+    "Valencia Digital Port Connect"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "valfortec-monforte",
+   "nom": "Campus de centres de dades de Valfortec",
+   "promotor": "Valfortec",
+   "tipus": "centre de dades comercial",
+   "territori": "Comunitat Valenciana",
+   "comarca": "Vinalopó Mitjà",
+   "municipi": "Monforte del Cid",
+   "llocs": [
+    [
+     38.38,
+     -0.729
+    ]
+   ],
+   "precisio_ubicacio": "municipi (Parque Empresarial Las Norias, entre Monforte del Cid i Novelda; no geolocalitzat)",
+   "estat": "en tramitació",
+   "previsio": "",
+   "potencia": {
+    "mw": 10,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": 350,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [
+    {
+     "xifra": "Entre 800 i 1.000 llocs entre construcció i funcionament",
+     "qui_ho_diu": "promotor (via Alicante Plaza)",
+     "tipus": "promotor",
+     "font": "https://alicanteplaza.es/alicanteplaza/empresas/la-castellonense-valfortec-proyecta-un-centro-de-datos-en-monforte-del-cid-con-una-inversion-de-hasta-500-millones"
+    }
+   ],
+   "refrigeracio": {
+    "sistema": "Refrigeració per aire d'alta eficiència, PUE per sota d'1,2",
+    "aigua": "Mínim, perquè refrigera per aire",
+    "qui_ho_diu": "promotor (via Alicante Plaza)",
+    "font": "https://alicanteplaza.es/alicanteplaza/empresas/la-castellonense-valfortec-proyecta-un-centro-de-datos-en-monforte-del-cid-con-una-inversion-de-hasta-500-millones"
+   },
+   "energia": "Refrigeració per aire, per estalviar aigua, amb energia fotovoltaica, eòlica i bateries.",
+   "tramits": [
+    {
+     "organisme": "Generalitat Valenciana",
+     "fet": "Admet el projecte a tràmit i l’obre a exposició pública (la premsa no diu la conselleria ni la referència al DOGV)",
+     "data": "2026-07-06",
+     "url": "https://alicanteplaza.es/alicanteplaza/empresas/la-castellonense-valfortec-proyecta-un-centro-de-datos-en-monforte-del-cid-con-una-inversion-de-hasta-500-millones",
+     "via_premsa": true
+    }
+   ],
+   "polemica": null,
+   "notes": "Projecte «El Lobo», al polígon Las Norias, entre Monforte del Cid i Novelda.",
+   "xifres_nota": "Les fonts no coincideixen: Alicante Plaza parla de 10 MW inicials i d’una inversió de 350 a 500 M€; elEconomista, de 60 MW i 300 M€.",
+   "cronologia": [
+    {
+     "data": "2026-07-06",
+     "fet": "Es fa públic el projecte «El Lobo», en exposició pública",
+     "font": "https://alicanteplaza.es/alicanteplaza/empresas/la-castellonense-valfortec-proyecta-un-centro-de-datos-en-monforte-del-cid-con-una-inversion-de-hasta-500-millones"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Alicante Plaza",
+     "url": "https://alicanteplaza.es/alicanteplaza/empresas/la-castellonense-valfortec-proyecta-un-centro-de-datos-en-monforte-del-cid-con-una-inversion-de-hasta-500-millones",
+     "data": "2026-07-06"
+    }
+   ],
+   "paraules": [
+    "Valfortec",
+    "Monforte del Cid"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "catadau",
+   "nom": "Projecte de centre de dades a Catadau",
+   "promotor": "No s'ha fet públic",
+   "tipus": "hiperescala",
+   "territori": "Comunitat Valenciana",
+   "comarca": "la Ribera Alta",
+   "municipi": "Catadau",
+   "llocs": [
+    [
+     39.275,
+     -0.567
+    ]
+   ],
+   "precisio_ubicacio": "municipi",
+   "estat": "aturat",
+   "previsio": "",
+   "potencia": {
+    "mw": 25,
+    "origen": "premsa",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": 250,
+    "origen": "premsa",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "",
+    "aigua": "",
+    "qui_ho_diu": "",
+    "font": ""
+   },
+   "energia": "Red Eléctrica va denegar la connexió per saturació de la xarxa.",
+   "tramits": [
+    {
+     "organisme": "Red Eléctrica de España",
+     "fet": "Denega l'accés a la subestació de Catadau per «l'elevada saturació de la xarxa» (data de la denegació no publicada)",
+     "data": "2026-05-05",
+     "url": "https://valenciaplaza.com/valenciaplaza/empresas1/un-macro-centro-de-datos-busca-espacio-en-valencia-tras-tumbarle-red-electrica-la-conexion-en-catadau",
+     "via_premsa": true
+    }
+   ],
+   "polemica": null,
+   "notes": "El promotor, que no s’ha fet públic, busca un altre emplaçament: Sagunt, l’Eliana o Betxí, segons la premsa.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2026-05-05",
+     "fet": "Després de la negativa de REE, el promotor busca terrenys de 50.000–80.000 m² a Sagunt, l'Eliana o Betxí",
+     "font": "https://valenciaplaza.com/valenciaplaza/empresas1/un-macro-centro-de-datos-busca-espacio-en-valencia-tras-tumbarle-red-electrica-la-conexion-en-catadau"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Valencia Plaza",
+     "url": "https://valenciaplaza.com/valenciaplaza/empresas1/un-macro-centro-de-datos-busca-espacio-en-valencia-tras-tumbarle-red-electrica-la-conexion-en-catadau",
+     "data": "2026-05-05"
+    }
+   ],
+   "paraules": [
+    "Catadau"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "talaia-uib",
+   "nom": "Supercomputador Talaia i Centre de Supercomputació i IA de les Illes Balears",
+   "promotor": "Universitat de les Illes Balears i Govern de les Illes Balears",
+   "tipus": "supercomputador públic",
+   "territori": "Illes Balears",
+   "comarca": "Mallorca",
+   "municipi": "Palma (ParcBit)",
+   "llocs": [
+    [
+     39.636,
+     2.63
+    ]
+   ],
+   "precisio_ubicacio": "polígon (ParcBit, Palma)",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": 2.3,
+    "origen": "administració",
+    "nota": "Conveni plurianual entre el Govern i la UIB per posar en marxa i fer funcionar el centre, personal inclòs."
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "Per aire",
+    "aigua": "No consta",
+    "qui_ho_diu": "administració (Govern balear i UIB)",
+    "font": "https://okdiario.com/baleares/govern-uib-impulsan-nuevo-centro-supercomputacion-baleares-inversion-23-millones-19008584"
+   },
+   "energia": "",
+   "tramits": [
+    {
+     "organisme": "Govern de les Illes Balears i UIB",
+     "fet": "Conveni de col·laboració: 2,3 M€ plurianuals per posar en marxa i fer funcionar el Centre de Supercomputació i IA (inclou personal)",
+     "data": "2026-07-16",
+     "url": "https://okdiario.com/baleares/govern-uib-impulsan-nuevo-centro-supercomputacion-baleares-inversion-23-millones-19008584",
+     "via_premsa": true
+    }
+   ],
+   "polemica": null,
+   "notes": "És el primer supercomputador de les Illes i el node més recent de la Xarxa Espanyola de Supercomputació. El nom el van triar els alumnes del CEIP Tramuntana de Palma. El dirigeix Alberto Ortiz.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2026-07-16",
+     "fet": "Arrenca el Talaia i es crea el Centre de Supercomputació i IA de les Illes Balears",
+     "font": "https://mallorcainforma.com/2026/07/16/baleares-pone-en-marcha-su-supercomputador-y-crea-el-centro-de-supercomputacion-e-inteligencia-artificial/"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Economía de Mallorca",
+     "url": "https://www.economiademallorca.com/articulo/actualidad/supercomputador-islas-baleares-es-realidad/20260716131602121641.html",
+     "data": "2026-07-16"
+    }
+   ],
+   "paraules": [
+    "Talaia"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "cpd-govern-balear",
+   "nom": "Centre de dades nou del Govern balear",
+   "promotor": "Govern de les Illes Balears",
+   "tipus": "centre de dades públic",
+   "territori": "Illes Balears",
+   "comarca": "Mallorca",
+   "municipi": "",
+   "llocs": [],
+   "precisio_ubicacio": "No es publica la ubicació del CPD nou. Només se sap que treballa en paral·lel amb el de Sant Pere.",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "Refrigeració en circuit tancat i climatització d’alta eficiència",
+    "aigua": "No, segons el Govern",
+    "qui_ho_diu": "administració (Govern balear)",
+    "font": "https://www.ultimahora.es/noticias/local/2026/09/24/2715207/baleares-refuerza-soberania-digital-nuevo-centro-procesamiento-datos.html"
+   },
+   "energia": "Refrigeració en circuit tancat, sense consum d'aigua.",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Funciona en paral·lel amb el de Sant Pere: cadascun pot assumir sol tota l’activitat si l’altre falla. El Govern el presenta com una aposta per la sobirania digital. No se n’ha publicat la ubicació.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2026-09-24",
+     "fet": "El vicepresident Costa visita el CPD nou (disponibilitat del 99,982%)",
+     "font": "https://www.ultimahora.es/noticias/local/2026/09/24/2715207/baleares-refuerza-soberania-digital-nuevo-centro-procesamiento-datos.html"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Ultima Hora",
+     "url": "https://www.ultimahora.es/noticias/local/2026/09/24/2715207/baleares-refuerza-soberania-digital-nuevo-centro-procesamiento-datos.html",
+     "data": "2026-09-24"
+    }
+   ],
+   "paraules": [
+    "Govern balear"
+   ],
+   "verificat": "2026-10-03"
+  },
+  {
+   "id": "andorra-telecom",
+   "nom": "Centre de dades d'Andorra Telecom",
+   "promotor": "Andorra Telecom",
+   "tipus": "centre de dades públic",
+   "territori": "Andorra",
+   "comarca": "",
+   "municipi": "la Massana",
+   "llocs": [
+    [
+     42.545,
+     1.515
+    ]
+   ],
+   "precisio_ubicacio": "municipi (la Massana). Datacentermap en dona l'adreça carrer de les Palanques 1, AD400 la Massana, però no l'hem pogut geolocalitzar.",
+   "estat": "en funcionament",
+   "previsio": "",
+   "potencia": {
+    "mw": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "inversio": {
+    "meur": null,
+    "origen": "promotor",
+    "nota": ""
+   },
+   "ocupacio": [],
+   "refrigeracio": {
+    "sistema": "Refrigeració InRow amb passadissos d'aire tancats",
+    "aigua": "No consta",
+    "qui_ho_diu": "promotor (Andorra Telecom)",
+    "font": "https://www.andorratelecom.ad/en/business/data-center/"
+   },
+   "energia": "",
+   "tramits": [],
+   "polemica": null,
+   "notes": "Andorra Telecom, l’operadora pública del país, hi ofereix allotjament de servidors a empreses i administracions. La sala de la Massana és del 2008.",
+   "xifres_nota": "",
+   "cronologia": [
+    {
+     "data": "2008-01-01",
+     "fet": "Andorra Telecom construeix la sala de servidors de la Massana (170 m²)",
+     "font": "https://www.andorratelecom.ad/en/business/data-center/",
+     "precisio": "any"
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Andorra Telecom",
+     "url": "https://www.andorratelecom.ad/en/business/data-center/",
+     "data": "2026-10-03"
+    }
+   ],
+   "paraules": [
+    "Andorra Telecom"
+   ],
+   "verificat": "2026-10-03"
+  }
+ ],
+ "versio": 2,
+ "criteri": "Hi entren els centres de dades de 5 MW o més (en funcionament o anunciats), la infraestructura pública de càlcul (supercomputadors i centres de dades dels governs), les estacions de cables submarins que condicionen on s’instal·len els centres i els projectes amb potència encara no publicada que són en tràmit o en debat públic.",
+ "canvis": []
+}
