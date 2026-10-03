@@ -405,6 +405,38 @@ test('les peces catalanes sense cap terme de LOCAL_TERMS entren al radar amb sec
   assert.ok(feed.every(item => !('seccio' in item)), 'el camp intern seccio no arriba mai a IA_NEWS');
 });
 
+test('centres de dades (03.10.2026): etiqueta temàtica per a totes i radar només per a les del territori', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  const molins = {
+    ...story(1),
+    slug: 'quetta-centre-dades-molins-rei',
+    sourceUrl: 'https://example.com/quetta-molins',
+    category: 'INFRAESTRUCTURA',
+    title: 'Quetta obté les llicències del seu centre de dades de 10 MW a Molins de Rei',
+    excerpt: 'L’empresa preveu 50 llocs de treball directes.'
+  };
+  const texas = {
+    ...story(2),
+    slug: 'openai-centre-dades-texas',
+    sourceUrl: 'https://example.com/openai-texas',
+    category: 'INFRAESTRUCTURA',
+    title: 'OpenAI construirà un centre de dades d’un gigawatt a Texas',
+    excerpt: 'El campus tindrà la seva pròpia central de gas.'
+  };
+  await writeFile(input, JSON.stringify([molins, texas, story(3), story(5), story(7)]), 'utf8');
+  assert.equal(run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-10-03'], root).status, 0);
+
+  const feed = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.deepEqual(feed.find(item => item.slug === molins.slug).etiquetes, ['centres-de-dades'], 'la de Molins de Rei porta l’etiqueta');
+  assert.deepEqual(feed.find(item => item.slug === texas.slug).etiquetes, ['centres-de-dades'], 'la de Texas també: l’etiqueta és temàtica');
+  assert.ok(!('etiquetes' in feed.find(item => item.slug === 'noticia-de-prova-3')), 'una notícia qualsevol no porta etiqueta');
+
+  const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.ok(radar.some(item => item.title.startsWith('Quetta obté')), '«Molins de Rei» la fa local');
+  assert.ok(!radar.some(item => item.title.startsWith('OpenAI construirà')), 'un centre de dades a Texas no entra al radar');
+});
+
 // ——— La reflexió del dia (04.08.2026) ———
 
 function reflexio(date, paragrafs = 5, extra = {}) {
