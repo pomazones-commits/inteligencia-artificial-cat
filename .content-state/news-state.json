@@ -1,9 +1,72 @@
 {
   "editionDate": "2026-10-03",
-  "updatedAt": "2026-10-03T12:10:36.311Z",
-  "batches": 3,
+  "updatedAt": "2026-10-03T16:11:53.063Z",
+  "batches": 4,
   "target": 20,
   "items": [
+    {
+      "category": "XIPS",
+      "read": "5 MIN",
+      "slug": "deepseek-obre-eines-huawei-ascend-tilelang-alternativa-cuda",
+      "title": "DeepSeek publica en obert sis mòduls per programar els xips Ascend de Huawei i vol fer-ne una alternativa a CUDA",
+      "excerpt": "El laboratori xinès ofereix lliurement el llenguatge TileLang i les biblioteques de càlcul i comunicació per als acceleradors de Huawei, en plena dependència xinesa dels xips d'Nvidia.",
+      "sourceName": "The Next Web",
+      "sourceUrl": "https://thenextweb.com/news/deepseek-huawei-ascend-tilelang-open-source-cuda",
+      "sourceDate": "1 d'octubre de 2026",
+      "body": "Programar els xips d'IA d'Nvidia és fàcil perquè gairebé tothom ho fa amb CUDA, el programari que els acompanya i que, segons les estimacions que recull The Next Web, mou uns quatre milions de desenvolupadors. Aquest ecosistema és la barrera més alta per a qualsevol competidor, i també per a la Xina, que té restringida l'exportació dels acceleradors més potents.\n\nDeepSeek ha publicat en obert sis mòduls de programari per als acceleradors Ascend de Huawei, entre els quals una versió de TileLang, un llenguatge pensat per escriure els programes que els xips executen, i biblioteques de càlcul i de comunicació entre xips. Segons el mitjà, el laboratori l'utilitza com a «eina central» per al seu treball i afirma que és «universal, fàcil de programar» i capaç d'arribar al rendiment màxim del maquinari. DeepSeek i Huawei han muntat un «supernode» amb 128 xips Ascend 950, i DeepSeek preveu desplegar almenys 160.000 acceleradors de Huawei en un centre de dades de Mongòlia Interior.\n\nLa mesura arriba dues setmanes després que Huawei presentés la nova generació d'Ascend. El president rotatori de la companyia, Eric Xu, hi ha resumit la lògica de fons: «No podem acceptar un destí en què no controlem el nostre futur». Alhora, segons la mateixa font, Huawei no pot atendre la demanda actual i té previst limitar les vendes fora de la Xina, de manera que l'oferta de xips continua sent un coll d'ampolla.\n\nCal ser prudent: que el codi sigui obert no vol dir que els desenvolupadors se'n passin de seguida, i les xifres de rendiment són afirmacions del propi DeepSeek, no mesures independents. El que sí que hi ha de nou és que una de les peces que mancaven a l'alternativa xinesa, el programari, comença a estar sobre la taula.",
+      "image": "./assets/deepseek-obre-eines-huawei-ascend-tilelang-alternativa-cuda-20261003.jpg"
+    },
+    {
+      "category": "PRODUCTE",
+      "read": "4 MIN",
+      "slug": "meta-muse-gadgets-codi-obert-home-link-5000-unitats",
+      "title": "Meta obre el codi de Muse Gadgets perquè qualsevol construeixi aparells per a l'agent Muse i en regala 5.000 d'enllaç domèstic",
+      "excerpt": "El kit inclou un microprogramari per a plaques ESP32 i un SDK per a Linux, amb llicència Apache 2.0, i un petit adaptador USB-C que connecta Muse amb els aparells de casa.",
+      "sourceName": "AI Weekly",
+      "sourceUrl": "https://aiweekly.co/alerts/meta-open-sources-muse-gadgets-ships-5000-home-link-dongles",
+      "sourceDate": "2 d'octubre de 2026",
+      "body": "Meta ha anat acostant el seu agent d'IA Muse a la vida quotidiana, de les tasques de gestió per a petites empreses al servei de consum. Ara fa un pas més cap al maquinari: deixa que altres en construeixin.\n\nSegons AI Weekly, que recull l'anunci fet per Nat Friedman el 2 d'octubre, Meta ha publicat Muse Gadgets, un microprogramari obert per a plaques ESP32 i un SDK per a Linux amb llicència Apache 2.0. La llista compatible inclou onze plaques ESP32, de la ESP32-C5 DevKitC-1 d'Espressif a pantalles de tinta electrònica de Seeed, i diversos models de Raspberry Pi. Els desenvolupadors obtenen una clau d'accés a gadgets.muse.ai i el codi és a GitHub.\n\nL'altra meitat de l'anunci és el Muse Home Link, un adaptador USB-C que connecta Muse a la xarxa Wi-Fi de casa perquè pugui parlar amb televisors, altaveus i qualsevol aparell que exposi una interfície HTTPS. Meta n'ha fabricat 5.000 unitats, que regalarà als subscriptors de Muse mentre durin les existències, i prevé enviar-les en unes setmanes.\n\nEl moviment obre Muse a una comunitat de constructors, però té límits: la regalada és una sèrie curta i el mitjà hi veu una manera de repartir entre aficionats el risc del maquinari de consum alhora que Meta posa un pont de marca pròpia a les llars, el terreny d'Alexa i Google Home. Queda per veure quants aparells acabaran fent servir realment els desenvolupadors.",
+      "image": "./assets/meta-muse-gadgets-codi-obert-home-link-5000-unitats-20261003.jpg"
+    },
+    {
+      "category": "EMPRESA",
+      "read": "3 MIN",
+      "slug": "meta-acomiada-equip-virtue-ai-quatre-mesos-despres",
+      "title": "Meta se separa de l'equip de Virtue AI quatre mesos després de fitxar-lo per reforçar la seguretat de la seva IA",
+      "excerpt": "Segons Semafor, els cofundadors Bo Li, Dawn Song i Sanmi Koyejo surten de Meta; la companyia diu que l'acord «no ha funcionat com estava previst».",
+      "sourceName": "Semafor",
+      "sourceUrl": "https://www.semafor.com/article/10/02/2026/meta-parts-ways-with-virtue-ai",
+      "sourceDate": "2 d'octubre de 2026",
+      "body": "El juny del 2026 Meta va incorporar empleats de Virtue AI, una empresa emergent de seguretat de la IA que havia treballat amb Anthropic, OpenAI i l'Institut Nacional d'Estàndards i Tecnologia dels Estats Units (NIST) del Departament de Comerç. Aquelles incorporacions havien de reforçar el costat de la seguretat dels seus models.\n\nSemafor explica ara que Meta s'ha separat d'aquestes persones quatre mesos després. Entre les que se'n van hi ha els tres cofundadors de Virtue, Bo Li, Dawn Song i Sanmi Koyejo, i altres membres de l'equip. Un portaveu de Meta, citat pel mitjà, ho ha resumit així: «Malauradament, l'acord no ha funcionat com estava previst». La nota no detalla el nombre exacte de persones afectades.\n\nMeta assegura que el seu laboratori de superintel·ligència continua centrat en la seguretat, l'alineament i els riscos de la IA més avançada. La notícia arriba en un moment d'escrutini creixent a Washington sobre com gestionen aquests riscos les grans empreses del sector.\n\nCap de les dues parts no ha explicat què va fallar més enllà d'aquesta frase, de manera que no es pot saber si el desacord va ser sobre el mètode, els recursos o la direcció. Per ara, és un senyal de la dificultat de fer encaixar dins d'una gran empresa equips petits i especialitzats que vénen de fora.",
+      "image": "./assets/meta-acomiada-equip-virtue-ai-quatre-mesos-despres-20261003.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "sorpresa-informacio-mutua-sistemes-autonoms-georgia-tech",
+      "title": "Investigadors de Georgia Tech proposen una mesura de «sorpresa» perquè els sistemes autònoms sàpiguen quan un fet inesperat importa de debò",
+      "excerpt": "El mètode, publicat a l'«INFORMS Journal on Data Science», mesura la sorpresa com a coneixement guanyat, i no només com a raresa del fet o canvi de creences.",
+      "sourceName": "Tech Xplore (INFORMS Journal on Data Science)",
+      "sourceUrl": "https://techxplore.com/news/2026-10-machine-ai-agent-autonomous-unexpected.html",
+      "sourceDate": "2 d'octubre de 2026",
+      "body": "Una persona nota de seguida quan alguna cosa no quadra i decideix si val la pena aturar-se. Un assistent d'IA, un robot o una planta automatitzada ho tenen més difícil: no saben distingir un fet rar però irrellevant d'un fet que els hauria de fer replantejar-se què fan.\n\nYu Ding, Xiao Liu, Yinsong Wang i Quan Zeng, de l'Escola d'Enginyeria Industrial i de Sistemes de Georgia Tech, han publicat a l'«INFORMS Journal on Data Science» (1 d'octubre del 2026, DOI 10.1287/ijds.2026.0182) un marc que anomenen «sorpresa d'informació mútua». Defineix la sorpresa com el coneixement que el sistema guanya, no com la raresa del fet (la sorpresa de Shannon) ni com el canvi de creences (la sorpresa bayesiana).\n\nSegons els autors, les mesures actuals fallen en situacions concretes: la sorpresa de Shannon dona molta importància a un fet que només és poc freqüent, com un model de cotxe estrany, i la bayesiana no detecta casos realment sorprenents, com un alumne excel·lent que de sobte treu mala nota. La nova mesura intenta marcar només els moments en què cal reconsiderar el pla.\n\nEls usos que proposen són assistents que reconeguin els seus buits de coneixement, robots davant d'una situació mai vista i fàbriques que detectin una alteració que requereix intervenció humana. La nota de premsa no entra en proves en entorns reals ni en les dificultats d'aplicar-ho, de manera que cal veure-ho com un marc teòric, encara per validar a la pràctica.",
+      "image": "./assets/sorpresa-informacio-mutua-sistemes-autonoms-georgia-tech-20261003.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "satellits-obligatoris-centres-dades-ia-surrey-nature-reviews",
+      "title": "Investigadors de Surrey demanen que els governs exigeixin dades de satèl·lit abans d'aprovar un centre de dades d'IA",
+      "excerpt": "Un comentari a «Nature Reviews Clean Technology» defensa fer servir observació de la Terra per avaluar energia renovable, aigua, terreny i riscos climàtics en triar on es construeixen.",
+      "sourceName": "Tech Xplore (Nature Reviews Clean Technology)",
+      "sourceUrl": "https://techxplore.com/news/2026-10-require-satellite-ai-centers-urge.html",
+      "sourceDate": "2 d'octubre de 2026",
+      "body": "Els centres de dades d'IA consumeixen cada cop més electricitat i aigua, i les decisions sobre on instal·lar-los es prenen sovint amb poca informació sobre el territori. Segons les xifres que cita l'estudi, la demanda mundial d'electricitat d'aquestes instal·lacions podria passar de 485 a 950 terawatts-hora entre el 2025 i el 2030.\n\nAna Andries i Ravi Silva, de l'Institut de Tecnologia Avançada de la Universitat de Surrey, proposen a «Nature Reviews Clean Technology» (DOI 10.1038/s44359-026-00220-y) que els governs exigeixin dades d'observació de la Terra per satèl·lit en els permisos. Les imatges permetrien valorar el potencial solar i renovable, la disponibilitat d'aigua, les restriccions de terreny i els riscos climàtics, i també vigilar després l'impacte tèrmic.\n\nEls autors es basen en exemples: al Regne Unit, les sol·licituds de connexió a la xarxa van saltar de 41 a 125 gigawatts entre novembre del 2024 i juny del 2025, en bona part per centres de dades, i la sequera del Danubi del 2024 va obligar Romania a aturar els dos reactors de Cernavodă, que donen una cinquena part de la seva electricitat.\n\nÉs un comentari amb una proposta de política, no un estudi experimental, i els mateixos autors reconeixen que caldria formar els ministeris, estandarditzar les dades i comprovar que costa menys del que aporta. Afegeixen que els satèl·lits han de complementar, no substituir, l'observació sobre el terreny i el coneixement local.",
+      "image": "./assets/satellits-obligatoris-centres-dades-ia-surrey-nature-reviews-20261003.jpg",
+      "etiquetes": [
+        "centres-de-dades"
+      ]
+    },
     {
       "category": "ENERGIA",
       "read": "4 MIN",
