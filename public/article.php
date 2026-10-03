@@ -123,6 +123,9 @@ foreach ($allItems as $candidate) {
 }
 
 $sourceUrl = (string) ($article['sourceUrl'] ?? $article['url'] ?? '');
+// Notícies de centres de dades del territori (03.10.2026): enllaç al mapa.
+require_once __DIR__ . '/inc/centres-dades.php';
+$esCentresDades = iacat_cd_es_noticia($article);
 $sourceName = (string) ($article['sourceName'] ?? 'Font original');
 $jsonld = null;
 if ($found) {
@@ -165,7 +168,7 @@ $shareText = rawurlencode((string) $article['title']);
   <script type="application/ld+json"><?= json_encode($jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
-  <link rel="stylesheet" href="./editorial.css?v=2026072301"><script defer src="./shared.js?v=2026092401"></script>
+  <link rel="stylesheet" href="./editorial.css?v=2026072301"><script defer src="./shared.js?v=2026100301"></script>
   <style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.tts-player button,.tts-speed select{font-family:inherit}.tts-player button{padding:9px 13px;border:1px solid #dfe3eb;background:#fff;color:#233a82;cursor:pointer}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:430px}.tts-note,.tts-speed{font-size:11px;color:#5d6472}.article-hero-figure{margin:0}.article-hero-caption{margin:8px 0 0;font-size:12px;line-height:1.4;color:#5d6472;text-align:right}.article-hero-caption a{color:inherit;text-decoration:underline;text-underline-offset:2px}</style>
 </head>
 <body class="editorial-body">
@@ -192,6 +195,7 @@ $shareText = rawurlencode((string) $article['title']);
       </article>
       <aside class="article-sidebar">
         <?php if ($sourceUrl !== ''): ?><section class="article-sidecard"><h2>Font original</h2><p>Consulta la informació de partida i contrasta’n els detalls.</p><p style="margin-top:12px"><a href="<?= e($sourceUrl) ?>" target="_blank" rel="noreferrer"><?= e($sourceName) ?> ↗</a><?php if (!empty($article['sourceDate'])): ?><br><?= e((string) $article['sourceDate']) ?><?php endif; ?></p></section><?php endif; ?>
+        <?php if ($esCentresDades): ?><section class="article-sidecard"><h2>Centres de dades</h2><p>Tots els projectes dels territoris de parla catalana: on són, en quin estat, qui els promou i què se’n discuteix.</p><p style="margin-top:12px"><a href="/centres-de-dades">Mapa i fitxes →</a></p></section><?php endif; ?>
         <section class="article-sidecard"><h2>Comparteix</h2><div class="article-share-clean"><a href="https://www.linkedin.com/sharing/share-offsite/?url=<?= $shareUrl ?>" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://wa.me/?text=<?= $shareText ?>%20<?= $shareUrl ?>" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="mailto:?subject=<?= $shareText ?>&amp;body=<?= $shareUrl ?>">Correu</a><button type="button" data-copy-url="<?= e($canonical) ?>">Copia</button></div></section>
         <?php if (!$isHumanAuthor): ?><section class="article-sidecard"><h2>Sobre aquesta peça</h2><p>Informació elaborada a partir de les fonts citades i publicada dins del briefing diari d’IA.cat. <a href="./redaccio.html">Consulta el mètode editorial →</a></p></section><?php endif; ?>
       </aside>

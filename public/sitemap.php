@@ -119,7 +119,7 @@ foreach (array_keys($topics) as $topicSlug) {
 }
 
 // Seccions noves (24.09.2026): pàgines de servei i de consulta.
-foreach (['escriu.html', 'autors', 'agenda', 'glossari', 'ecosistema', 'formacio', 'llengua', 'correccions', 'podcast.html'] as $page) {
+foreach (['escriu.html', 'autors', 'agenda', 'glossari', 'ecosistema', 'formacio', 'centres-de-dades', 'llengua', 'correccions', 'podcast.html'] as $page) {
     $urls[] = ['loc' => $base . '/' . $page, 'lastmod' => $siteIso];
 }
 

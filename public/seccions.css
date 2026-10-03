@@ -111,3 +111,78 @@
 .fitxa h4 a{text-decoration:none}.fitxa h4 a:hover{color:var(--ed-blue);text-decoration:underline}
 .fitxa p.fitxa__titol{color:var(--ed-ink);font-size:13px}
 .fitxa p.fitxa__dades{margin-top:auto;padding-top:6px;font:600 10px var(--ed-mono);letter-spacing:.05em;text-transform:uppercase;color:var(--ed-muted)}
+
+/* Centres de dades (03.10.2026) — /centres-de-dades */
+.cd-xifres{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:40px 0 0;padding:0;list-style:none}
+.cd-xifres li{display:flex;flex-direction:column;gap:8px;padding:22px;border-radius:14px;background:var(--ed-ink);color:#fff}
+.cd-xifres strong{font:600 clamp(34px,4vw,46px)/1 var(--ed-serif);letter-spacing:-.04em;color:var(--ed-accent)}
+.cd-xifres p{margin:0;font-size:14px;line-height:1.5;color:#e6e9f0}
+.cd-xifres small{margin-top:auto;padding-top:6px;color:#aab2c3;font:500 10px/1.5 var(--ed-mono);letter-spacing:.03em}
+.cd-xifres small a{color:#d7defb}
+.cd-filtres{display:flex;flex-direction:column;gap:10px;margin:18px 0 22px}
+.cd-filtres>div{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.cd-filtres span{min-width:72px;color:var(--ed-muted);font:600 10px var(--ed-mono);letter-spacing:.1em;text-transform:uppercase}
+.cd-filtres button{display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border:1px solid var(--ed-line);border-radius:999px;background:var(--ed-paper);color:var(--ed-ink);font:600 10px var(--ed-mono);letter-spacing:.05em;text-transform:uppercase;cursor:pointer}
+.cd-filtres button:hover,.cd-filtres button:focus-visible{border-color:var(--ed-blue);color:var(--ed-blue)}
+.cd-filtres button[aria-pressed="true"]{border-color:var(--ed-ink);background:var(--ed-ink);color:#fff}
+.cd-filtres button i,.cd-estat i{display:inline-block;width:9px;height:9px;border-radius:50%;background:currentColor}
+.cd-recompte{margin:4px 0 0;color:var(--ed-muted);font-size:13px}
+.cd-b-funcionament i{background:#1f7a4d}.cd-b-construccio i{background:#d98a00}.cd-b-tramitacio i{background:#6d5bd0}.cd-b-aturat i{background:#8a919e}.cd-b-descartat i{background:#c4c8d0}
+.cd-mapa-graella{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:28px;align-items:start}
+.cd-mapa{margin:0;border:1px solid var(--ed-line);border-radius:14px;overflow:hidden;background:#eaf0f8}
+.cd-mapa svg{display:block;width:100%;height:auto}
+.cd-mar{fill:#eaf0f8}.cd-fons{fill:#dde2ea;stroke:#fff;stroke-width:.8}
+.cd-terra{fill:#c9d4f2;stroke:#fff;stroke-width:1}
+.cd-nom-terr{fill:#4a5aa0;font:600 13px var(--ed-mono);letter-spacing:.06em;text-transform:uppercase;pointer-events:none}
+.cd-zona{fill:none;stroke:var(--ed-ink);stroke-width:1.2;stroke-dasharray:3 2}
+.cd-zona-linia{stroke:var(--ed-ink);stroke-width:1;stroke-dasharray:3 2}
+.cd-detall-mar{fill:#eaf0f8}.cd-detall-vora{fill:none;stroke:var(--ed-ink);stroke-width:1.4}
+.cd-nom-detall{fill:var(--ed-ink);font:600 10px var(--ed-mono);letter-spacing:.06em;text-transform:uppercase}
+.cd-punt circle,.cd-punt rect,.cd-llegenda circle,.cd-llegenda rect{stroke:#fff;stroke-width:1.6}
+.cd-punt{cursor:pointer}.cd-punt:hover circle,.cd-punt:hover rect,.cd-punt:focus-visible circle,.cd-punt:focus-visible rect{stroke:var(--ed-ink);stroke-width:2.4}
+.cd-e-funcionament{fill:#1f7a4d}.cd-e-construccio{fill:#d98a00}.cd-e-tramitacio{fill:#6d5bd0}.cd-e-aturat{fill:#8a919e}.cd-e-descartat{fill:#c4c8d0}.cd-e-neutre{fill:#5d6472}
+.cd-punt.cd-e-funcionament circle,.cd-punt.cd-e-funcionament rect{fill:#1f7a4d}.cd-punt.cd-e-construccio circle,.cd-punt.cd-e-construccio rect{fill:#d98a00}.cd-punt.cd-e-tramitacio circle,.cd-punt.cd-e-tramitacio rect{fill:#6d5bd0}.cd-punt.cd-e-aturat circle,.cd-punt.cd-e-aturat rect{fill:#8a919e}.cd-punt.cd-e-descartat circle,.cd-punt.cd-e-descartat rect{fill:#c4c8d0}
+.cd-llegenda{padding:20px;border:1px solid var(--ed-line);border-radius:14px;background:var(--ed-paper);font-size:13px;line-height:1.55;color:var(--ed-muted)}
+.cd-llegenda h3{margin:0 0 10px;color:var(--ed-ink);font:600 10px var(--ed-mono);letter-spacing:.1em;text-transform:uppercase}
+.cd-llegenda ul{margin:0 0 14px;padding:0;list-style:none}.cd-llegenda li{display:flex;gap:9px;align-items:flex-start;margin:6px 0;color:var(--ed-ink)}
+.cd-llegenda li svg{flex:0 0 14px;width:14px;height:14px;margin-top:3px}
+.cd-llegenda p{margin:0 0 10px}
+.cd-fitxes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.cd-fitxa{display:flex;flex-direction:column;gap:12px;padding:24px;border:1px solid var(--ed-line);border-radius:14px;background:var(--ed-paper);scroll-margin-top:20px}
+.cd-fitxa:target{border-color:var(--ed-blue);box-shadow:0 0 0 3px var(--ed-blue-soft)}
+.cd-fitxa__cap{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;margin:0;color:var(--ed-muted);font:600 10px var(--ed-mono);letter-spacing:.07em;text-transform:uppercase}
+.cd-estat{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:var(--ed-bg);color:var(--ed-ink)}
+.cd-fitxa h3{margin:0;font:600 23px/1.15 var(--ed-serif);letter-spacing:-.02em}
+.cd-fitxa__lloc{margin:0;color:var(--ed-muted);font-size:14px;line-height:1.5}
+.cd-dades{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:2px 0 0;padding:14px 0;border-top:1px solid var(--ed-line);border-bottom:1px solid var(--ed-line)}
+.cd-dades dt{color:var(--ed-muted);font:600 9px var(--ed-mono);letter-spacing:.1em;text-transform:uppercase}
+.cd-dades dd{margin:5px 0 0;font:600 18px/1.2 var(--ed-serif)}
+.cd-dades dd small{display:block;margin-top:4px;color:var(--ed-blue);font:500 10px/1.35 var(--ed-sans)}
+.cd-camp{margin:0;font-size:14px;line-height:1.55}
+.cd-camp--petit{font-size:13px;color:var(--ed-muted)}
+.cd-camp strong{color:var(--ed-ink)}
+.cd-notes{margin:0;color:var(--ed-muted);font-size:14px;line-height:1.55}
+.cd-qui{color:var(--ed-muted);font-size:12px}.cd-qui a,.cd-camp a,.cd-polemica a,.cd-plec a,.cd-fitxa__peu a,.cd-font-curta a{color:var(--ed-blue)}
+.cd-buit{color:var(--ed-muted);font-style:italic;font-weight:400;font-family:var(--ed-sans);font-size:14px}
+.cd-polemica{padding:14px 16px;border-left:3px solid var(--ed-accent);border-radius:0 10px 10px 0;background:var(--ed-bg)}
+.cd-polemica p{margin:0 0 8px;font-size:14px;line-height:1.55}.cd-polemica p:last-child{margin-bottom:0}
+.cd-polemica__titol{color:var(--ed-muted);font:600 10px var(--ed-mono)!important;letter-spacing:.1em;text-transform:uppercase}
+.cd-plec{border-top:1px solid var(--ed-line);padding-top:10px}
+.cd-plec summary{cursor:pointer;color:var(--ed-ink);font:600 11px var(--ed-mono);letter-spacing:.06em;text-transform:uppercase}
+.cd-plec ul,.cd-plec ol{margin:10px 0 0;padding-left:18px;font-size:13px;line-height:1.55}.cd-plec li{margin:6px 0}
+.cd-data-curta{color:var(--ed-muted);font:500 11px var(--ed-mono)}
+.cd-relacionades{padding-top:10px;border-top:1px solid var(--ed-line)}
+.cd-relacionades p{margin:0 0 6px;color:var(--ed-muted);font:600 10px var(--ed-mono);letter-spacing:.1em;text-transform:uppercase}
+.cd-relacionades ul{margin:0;padding-left:18px;font-size:13px;line-height:1.5}.cd-relacionades li{margin:4px 0}
+.cd-relacionades a{color:var(--ed-ink)}.cd-relacionades span{color:var(--ed-muted);font:500 11px var(--ed-mono)}
+.cd-fitxa__peu{margin:auto 0 0;padding-top:10px;color:var(--ed-muted);font:500 11px/1.6 var(--ed-mono)}
+.is-amagat{display:none!important}
+@media(max-width:980px){.cd-xifres{grid-template-columns:repeat(2,1fr)}.cd-mapa-graella{grid-template-columns:1fr}}
+@media(max-width:760px){.cd-fitxes{grid-template-columns:1fr}}
+@media(max-width:520px){.cd-xifres{grid-template-columns:1fr}.cd-dades{grid-template-columns:1fr 1fr}.cd-filtres span{min-width:100%}.cd-fitxa{padding:18px}}
+.cd-nom-ciutat{fill:var(--ed-muted);font:italic 500 11px var(--ed-serif);pointer-events:none}
+.cd-dades dd.cd-dd-text{font:500 13px/1.45 var(--ed-sans)}
+.cd-canvis{margin:0;padding:0;list-style:none;border-top:1px solid var(--ed-line)}
+.cd-canvis li{padding:12px 0;border-bottom:1px solid var(--ed-line);font-size:15px;line-height:1.5}
+.cd-canvis a{color:var(--ed-blue);font-weight:600}
+.cd-filtres button.cd-b-funcionament i{background:#1f7a4d}.cd-filtres button.cd-b-construccio i{background:#d98a00}.cd-filtres button.cd-b-tramitacio i{background:#6d5bd0}.cd-filtres button.cd-b-aturat i{background:#8a919e}.cd-filtres button.cd-b-descartat i{background:#c4c8d0}
