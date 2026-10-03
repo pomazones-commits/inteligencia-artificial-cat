@@ -92,6 +92,7 @@ La portada mostra la banda `#tribuna` (sobre l'anàlisi de la setmana) només si
 - **Correccions** (`/correccions`) es construeix sol: quan es rectifiqui una notícia, la nota final ha de començar **exactament** per `Rectificació (<dia> de <mes> de <any>):` (p. ex. `Rectificació (21 de setembre de 2026): …`). Les correccions fora d'una notícia van a `public/data/correccions.json`.
 - **Glossari** (`public/data/glossari.json`) i **Ecosistema** (`public/data/ecosistema.json`) són manuals. Al glossari, la forma catalana és la del TERMCAT («Terminologia de la intel·ligència artificial»).
 - **Pòdcast** (`/podcast.xml`, `public/podcast.php`): no genera àudio; fa servir els MP3 que ja puja «Àudio de l'edició». No cal fer res.
+- **Centres de dades** (`/centres-de-dades`, des del 03.10.2026): fitxes manuals amb revisió setmanal (vegeu més avall); el mapa és SVG en línia generat a `public/inc/mapa-territoris.php` (no l'editis a mà) i el fil de notícies surt sol de l'hemeroteca.
 
 ### Agenda d'actes — manteniment mensual (tasca «Edicions», lot de les 10:05 del dia 1 de cada mes)
 
@@ -117,6 +118,19 @@ Només aquests quatre dies, al lot de les **10:05**, un cop escrit el lot. La p�
 5. **Formació privada** (`"privada": true`): comprova que el camp `titol` encara diu la veritat sobre el títol que dona. 🛑 **No hi afegeixis cap centre privat nou sense l'OK d'en Rafael.** Els preus són referència interna: la pàgina no els mostra.
 6. Posa `"actualitzat"` a la data d'avui i `"propera_revisio"` al dia 1 del trimestre següent. Valida: `node -e "JSON.parse(require('fs').readFileSync('public/data/formacio.json','utf8'))"`.
 7. Inclou el fitxer al commit del lot. Si no hi ha canvis, actualitza només les dates.
+
+### Centres de dades — revisió setmanal (tasca «Edicions», lot de les 10:05 de cada dilluns)
+
+Només els **dilluns**, al lot de les **10:05**, un cop escrit el lot. La pàgina és `/centres-de-dades` (`public/centres-de-dades.php`); les dades, `public/data/centres-dades.json` (l'explicació de cada camp és al camp `"nota"` del mateix fitxer). Les notícies del tema s'etiqueten soles (`"etiquetes": ["centres-de-dades"]`, a `content-hub.mjs`) i el fil de la pàgina es construeix sol: aquí només es revisen les fitxes.
+
+1. Llegeix el JSON. Per a cada fitxa, cerca novetats dels últims deu dies pel nom del projecte, el promotor i el municipi: canvis d'estat, tràmits nous, xifres noves, polèmiques i respostes. Revisa també les notícies del web de la setmana sobre centres de dades.
+2. **Tràmits oficials** (`tramits`): accés i connexió a la xarxa (Miteco/Red Eléctrica), DOGC, DOGV, BOIB, BOPA, BOE, BOP, avaluació ambiental, llicència o acord de ple municipal, contracte públic, decisió de la Comissió Europea. Enllaça el document oficial; si només el cita la premsa, posa `"via_premsa": true`.
+3. **Qui diu cada xifra.** `potencia.origen` i `inversio.origen`: `promotor` (ho diu l'empresa), `administració` (ho anuncia un govern o un ajuntament), `oficial` (consta en un tràmit o document públic) o `premsa` (publicat sense font primària). Una xifra només passa a `oficial` amb el document. Les xifres de feina (`ocupacio`) porten sempre `qui_ho_diu`. 🛑 **Contractacions (clients, inversors, compres d'energia): només amb document públic o comunicat de totes dues parts.**
+4. **Equilibri.** La pàgina informa; no fa campanya. Si afegeixes una crítica a `polemica.critica`, busca la resposta de l'empresa o de l'administració i posa-la a `polemica.respostes`; si no n'hi ha, escriu-ho a `polemica.nota`. L'aigua depèn del sistema: omple `refrigeracio` (sistema, aigua, qui ho diu) i no generalitzis.
+5. **Estats** (només aquests): `en funcionament`, `en construcció`, `en tramitació` (anunciat i pendent de permisos), `aturat`, `descartat`. Quan una fitxa canviï d'estat o tingui una novetat important, afegeix-ne una línia a `"canvis"` (`{"data": "AAAA-MM-DD", "id": "<id de la fitxa>", "fet": "…"}`) i una entrada a la seva `cronologia`; esmenta-ho al missatge del commit.
+6. **Fitxes noves**: només si compleixen el camp `"criteri"` (5 MW o més, infraestructura pública de càlcul, estacions de cable submarí, o projectes sense potència publicada que són en tràmit o en debat públic). Camps obligatoris: els de les fitxes que ja hi ha, amb `llocs` (coordenades aproximades del municipi o del polígon) i `paraules` (noms propis inconfusibles del projecte i del municipi, per lligar-hi les notícies). Si el municipi és nou i inconfusible, afegeix-lo també a `LOCAL_TERMS` de `content-hub.mjs` (amb els tests).
+7. Posa `"verificat"` a la data d'avui a cada fitxa que hagis pogut comprovar (encara que no hagi canviat) i `"actualitzat"` a la data d'avui. 🛑 No inventis cap camp: si no el saps, deixa'l buit o `null`. Denominacions territorials: les de la regla de sota.
+8. Valida: `node scripts/valida-centres-dades.mjs`. Inclou el fitxer al commit del lot.
 
 ## Regles
 
