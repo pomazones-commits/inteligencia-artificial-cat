@@ -220,6 +220,14 @@ function validateNews(payload) {
       // eren. La llista de termes no pot preveure-ho tot; qui escriu el lot sí.
       if (seccio === 'radar' || seccio === 'catalunya') item.seccio = seccio;
     }
+    // Etiqueta temàtica derivada (03.10.2026): les notícies sobre centres de
+    // dades, supercomputadors i gigafactories d'IA porten "etiquetes":
+    // ["centres-de-dades"]. La fan servir /centres-de-dades (fil de darreres
+    // notícies) i article.php (enllaç al mapa). És un camp additiu: no canvia
+    // res del que ja llegeixen la portada i les altres pàgines.
+    if (DATA_CENTER_RE.test(`${item.title} ${item.excerpt} ${item.slug.replace(/-/g, ' ')}`)) {
+      item.etiquetes = ['centres-de-dades'];
+    }
     return item;
   });
 }
@@ -373,9 +381,21 @@ function radarCategory(story) {
 // esmenta cap topònim al títol ni al resum, i sense això no es derivava al
 // radar (va passar el 24.07.2026 amb CaixaBank). Només noms que no poden
 // aparèixer per casualitat en una notícia global.
+// Mateix criteri que IACAT_CD_TEMA de public/inc/centres-dades.php: si en toques
+// un, toca l'altre.
+const DATA_CENTER_RE = /(centres? de (processament de )?dades|\bCPDs?\b|data ?cent(er|re)s?|megacentres? de dades|macrocentres? de dades|gigafactori(a|es) d.IA|supercomputador(s|es)?|superordinadors?|marenostrum|fàbriques? d.IA|ai factory|campus de dades)/iu;
+
 const LOCAL_TERMS = [
   'catalunya', 'català', 'catalana', 'catalanes', 'països catalans', 'barcelona', 'bcn', 'mossos', 'mossos d\'esquadra', 'girona', 'lleida', 'tarragona', 'mataró', 'flix', 'sabadell', 'terrassa', 'manresa', 'reus', 'badalona', 'hospitalet', 'vic', 'granollers', 'igualada', 'generalitat', 'aina', 'softcatalà', 'bsc', 'upc', 'uab', 'ub', 'urv',
-  'caixabank', 'fundació la caixa', 'criteriacaixa', 'banc sabadell', 'grifols', 'cellnex', 'fluidra', 'seat', 'cupra', 'esade', 'uoc', 'upf', 'udg', 'udl', 'eurecat', 'submer', 'openchip', 'i2cat', 'mobile world congress', 'mwc', 'tv3', '3cat', 'mare nostrum', 'marenostrum'
+  'caixabank', 'fundació la caixa', 'criteriacaixa', 'banc sabadell', 'grifols', 'cellnex', 'fluidra', 'seat', 'cupra', 'esade', 'uoc', 'upf', 'udg', 'udl', 'eurecat', 'submer', 'openchip', 'i2cat', 'mobile world congress', 'mwc', 'tv3', '3cat', 'mare nostrum', 'marenostrum',
+  // Centres de dades als territoris (03.10.2026): municipis i projectes amb nom
+  // propi de public/data/centres-dades.json. Només noms inconfusibles; els
+  // termes genèrics («centre de dades», «MW», «moratòria») NO van aquí, perquè
+  // colarien al radar notícies de Texas o de Mongòlia: van a DATA_CENTER_RE.
+  'móra la nova', 'parc de l\'alba', 'cerdanyola', 'òdena', 'alcarràs', 'molins de rei', 'sant adrià de besòs',
+  'sant fruitós de bages', 'montmeló', 'viladecans', 'santa bàrbara del montsià', 'picassent', 'sagunt', 'vara de quart',
+  'catadau', 'parcbit', 'valgrai', 'andorra telecom', 'csuc', 'ponentia', 'quetta data centers', 'nxn data centers',
+  'oxigen data center', 'digital valley comunitat valenciana'
 ];
 
 // Els termes de LOCAL_TERMS han de ser INCONFUSIBLES: la comparació no distingeix
