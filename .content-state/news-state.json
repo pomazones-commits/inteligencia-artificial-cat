@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-10-04",
-  "updatedAt": "2026-10-04T12:12:44.285Z",
-  "batches": 3,
+  "updatedAt": "2026-10-04T16:11:58.169Z",
+  "batches": 4,
   "target": 20,
   "items": [
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "slug": "hong-kong-record-recaptacio-ia-tercer-trimestre",
+      "title": "Hong Kong aixeca 47.500 milions de dòlars en un trimestre, un rècord, empès per la febre de la IA",
+      "excerpt": "Les sortides a borsa, ampliacions i vendes de paquets d'accions de juliol a setembre superen qualsevol tercer trimestre anterior. Z.AI, Alibaba i el fabricant de components Zhongji Innolight en són els grans noms.",
+      "sourceName": "China Daily Hong Kong (a partir de Bloomberg)",
+      "sourceUrl": "https://www.chinadailyhk.com/hk/article/640506",
+      "sourceDate": "4 d'octubre de 2026",
+      "body": "Hong Kong ha tancat el tercer trimestre amb la recaptació de capital més alta que ha vist mai en aquest període: 47.500 milions de dòlars entre sortides a borsa, ampliacions de capital i vendes de paquets d'accions. Segons Bloomberg, els intermediaris amb prou feines van fer vacances a l'estiu. En el que va d'any, el mercat ja ha passat dels 92.000 milions, a prop del rècord de 112.500 milions del 2021.\n\nLa intel·ligència artificial és el motor de l'onada. Alibaba va liderar l'estiu amb una ampliació de 10.200 milions de dòlars, i la cotització de Zhongji Innolight, de gairebé 8.000 milions, ha estat la més gran a la ciutat en set anys. Z.AI acumula 9.600 milions aquest any entre sortida a borsa, noves vendes d'accions i bons convertibles. Al conjunt d'Àsia i el Pacífic, les vendes d'accions van superar els 120.000 milions, la xifra més alta en sis anys.\n\nEl canvi més notable és el ritme. James Wang, de Goldman Sachs, explica que abans les empreses de la Xina continental sortien al mercat una vegada i passaven un o dos anys sense tornar-hi; ara tornen a demanar diners tres mesos després. Per a les empreses de models i xips, Hong Kong s'ha convertit en una font de finançament recurrent, no en una porta d'entrada puntual, enmig d'una cursa pel càlcul que exigeix capital constant.\n\nHi ha límits. La mateixa informació adverteix que l'alça dels rendiments dels bons i el mal comportament de diverses cotitzacions recents fan que els inversors se sentin més selectius de cara a final d'any. Un trimestre rècord no garanteix que el següent ho sigui, i el volum recaptat no diu res sobre si aquestes empreses acabaran guanyant diners. Tot el que consta aquí són xifres de mercat publicades per Bloomberg i reproduïdes per la premsa.",
+      "image": "./assets/hong-kong-record-recaptacio-ia-tercer-trimestre-20261004.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "genfocal-ia-generativa-climes-regionals-nature-machine-intelligence",
+      "title": "Una IA generativa de Google tradueix les projeccions climàtiques a escala regional i reprodueix onades de calor i cicles tropicals",
+      "excerpt": "GenFocal, descrit a «Nature Machine Intelligence», converteix els models climàtics globals, de resolució grollera, en temps meteorològic de detall fi sense haver de parellar simulacions i observacions.",
+      "sourceName": "Nature Machine Intelligence (DOI)",
+      "sourceUrl": "https://doi.org/10.1038/s42256-026-01308-7",
+      "sourceDate": "28 de setembre de 2026",
+      "body": "Els models climàtics globals simulen el planeta amb quadrícules de desenes de quilòmetres per cantó, massa gruixudes per dir què passarà en una comarca o una ciutat. Qui ha de decidir on posar un dic o com protegir una xarxa elèctrica necessita un detall molt més fi, i els mètodes estadístics clàssics solen fallar justament amb els fenòmens més perillosos: els extrems rars i duradors.\n\nZhong Yi Wan, Ignacio Lopez-Gomez i Leonardo Zepeda-Núñez, de Google Research, amb Tapio Schneider, Fei Sha i altres coautors, presenten GenFocal, un marc d'IA generativa que combina dues tècniques, una per corregir el biaix del model i una altra per afinar-ne la resolució. Passa d'una quadrícula d'1,5 graus a una de 0,25 graus i modela seqüències de dies consecutius, no fotos aïllades. Segons l'article, no necessita parells d'esdeveniments simulats i observats per entrenar-se.\n\nEl resultat és que reprodueix amb més fidelitat esdeveniments com les onades de calor i els cicles tropicals, fins i tot quan el model groller els representa malament, i millora l'estimació del risc regional dels extrems compostos. És una peça de recerca revisada, publicada a «Nature Machine Intelligence» (DOI 10.1038/s42256-026-01308-7); el codi és obert i s'ha dipositat a Zenodo. El treball circulava des del 2024 com a preprint a arXiv.\n\nConvé no exagerar-ne l'abast. GenFocal depèn de la qualitat del model climàtic de partida: si aquest no genera un fenomen, la IA no el pot inventar amb garanties. Els autors el presenten com una eina per a l'avaluació de riscos, no com una previsió del temps. Que el resultat sigui estadísticament coherent no el converteix en una predicció exacta de cap esdeveniment concret.",
+      "image": "./assets/genfocal-ia-generativa-climes-regionals-nature-machine-intelligence-20261004.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "insilico-ia-protac-leucemia-bruton-journal-medicinal-chemistry",
+      "title": "Un equip d'Insilico Medicine dissenya amb IA molècules que destrueixen una proteïna clau en càncers de la sang",
+      "excerpt": "Els investigadors descriuen a «Journal of Medicinal Chemistry» compostos PROTAC contra la proteïna BTK, i asseguren que la IA va escurçar a 12-18 mesos la selecció dels candidats. Encara són compostos de laboratori.",
+      "sourceName": "The National",
+      "sourceUrl": "https://thenationalnews.com/news/uae/2026/10/04/uae-scientists-harness-ai-to-discover-potential-blood-cancer-drug",
+      "sourceDate": "4 d'octubre de 2026",
+      "body": "Alguns càncers de la sang, com certes leucèmies i limfomes, depenen de la proteïna BTK (tirosina cinasa de Bruton), que ajuda les cèl·lules malignes a créixer i estendre's. Els fàrmacs actuals la bloquegen, però poden deixar de funcionar quan el tumor muta. Una alternativa són els PROTAC, molècules de dos extrems que fan que la cèl·lula destrueixi la proteïna en lloc de limitar-se a bloquejar-la.\n\nEl químic orgànic Ahmad Alghaith, d'Insilico Medicine, companyia de biotecnologia amb seu a Abu Dhabi, explica al diari «The National» que el seu equip ha publicat a «Journal of Medicinal Chemistry» el disseny de PROTAC contra BTK. Van fer servir dues plataformes de la companyia: PandaOmics, que assenyala proteïnes rellevants per a una malaltia, i Chemistry42, que dissenya molècules que s'hi acoblin.\n\nLa companyia afirma que aquest flux de treball redueix la selecció de candidats a entre 12 i 18 mesos, davant dels 2,5 a 4 anys del mètode tradicional. Aquest guany de temps és una afirmació de l'empresa, no una mesura independent. «L'esperança de la IA és que augmenti l'índex d'èxit i en redueixi el temps i el cost», diu Alghaith.\n\nEl límit principal és que parlem de «compostos líder»: les proves per decidir si poden passar a assaigs clínics encara no han acabat, i arribar a pacients pot costar anys, amb la regulació pel mig. Aquest article s'ha elaborat a partir de la informació de The National; no hem pogut consultar el text complet de la revista.",
+      "image": "./assets/insilico-ia-protac-leucemia-bruton-journal-medicinal-chemistry-20261004.jpg"
+    },
+    {
+      "category": "JUSTÍCIA",
+      "read": "4 MIN",
+      "slug": "arizona-anul-sentencia-video-victima-generat-ia",
+      "title": "Un tribunal d'Arizona anul·la una condemna perquè la família va mostrar un vídeo de la víctima recreat amb IA",
+      "excerpt": "El Tribunal d'Apel·lacions ordena una nova vista de pena en el cas «State v. Horcasitas»: les parts sintètiques del vídeo atribuïen a un mort paraules i gestos que mai no va fer.",
+      "sourceName": "Law Commentary",
+      "sourceUrl": "https://lawcommentary.com/articles/arizona-court-ai-generated-victim-impact-video-sentence",
+      "sourceDate": "30 de setembre de 2026",
+      "body": "El Tribunal d'Apel·lacions d'Arizona, Divisió Primera, ha anul·lat per unanimitat la condemna de 10 anys i mig imposada a Gabriel Paul Horcasitas per un homicidi involuntari, i ha ordenat una nova vista per fixar la pena. La sentència, del 30 de setembre, no toca la condemna en si mateixa: el fet de ser culpable continua vigent.\n\nEl cas ve d'un tiroteig de 2021 en una discussió de trànsit. Durant la vista de pena, la família de la víctima va presentar un vídeo que recreava amb IA el seu aspecte i la seva veu, combinant una fotografia i un perfil de veu amb imatges autèntiques. El jutge va imposar la pena màxima i va citar la presentació amb aprovació.\n\nSegons la sentència, les parts sintètiques no tenen prou fiabilitat per a decidir una pena: la parla i les expressions generades «creaven una conducta que mai no havia existit» i atribuïen declaracions a algú que no podia confirmar-les. Que el vídeo advertís que era fet amb IA no ho va arreglar. Els jutges ho distingeixen del dol documentat, que la jurisprudència anterior sí que admet.\n\nLa decisió és una sola sentència d'una sala d'apel·lació estatal, no una regla nacional, i només tracta de vistes de pena. Tot i això, és un indici de com els tribunals poden tractar les recreacions fetes amb IA quan hi ha una persona en joc. La nova vista tindrà lloc al Tribunal Superior del comtat de Maricopa.",
+      "image": "./assets/arizona-anul-sentencia-video-victima-generat-ia-20261004.jpg"
+    },
+    {
+      "category": "DEFENSA",
+      "read": "3 MIN",
+      "slug": "corea-del-nord-missil-guiat-ia-wonsan",
+      "title": "Corea del Nord diu que ha llançat un míssil que corregeix la ruta amb IA; Seül només n'ha confirmat l'abast",
+      "excerpt": "Pyongyang afirma que el projectil, que va recórrer més de 700 quilòmetres, ajusta la trajectòria a baixa altura per esquivar la detecció. Ningú de fora no ha verificat la capacitat d'IA.",
+      "sourceName": "Arab News",
+      "sourceUrl": "https://www.arabnews.com/world/north-koreas-kim-oversaw-launch-of-missile-that-uses-ai-3004496",
+      "sourceDate": "4 d'octubre de 2026",
+      "body": "Corea del Nord ha informat que Kim Jong Un va presenciar el llançament d'un míssil des de la zona de Wonsan que, segons l'agència estatal KCNA, fa servir intel·ligència artificial per modificar la trajectòria a baixa altura. Segons l'informe, el projectil va recórrer més de 700 quilòmetres. L'exèrcit de Corea del Sud va confirmar-ne la distància, però no ha donat més detalls.\n\nLa germana de Kim, Kim Yo Jong, va assegurar que la IA fa que «no hi ha manera d'evitar» l'atac. A l'acte també hi eren la dona del líder i la seva filla, Ju Ae. El llançament arriba en un moment de tensió amb Seül, que havia exigit una disculpa per una explosió a la zona desmilitaritzada que va ferir tres soldats sud-coreans.\n\nHi ha una part verificada i una de no verificada. El que consta, amb confirmació sud-coreana, és el llançament i els 700 quilòmetres. El que no es pot comprovar és tot el que s'atribueix a la IA: ni les capacitats reals del sistema, ni si el míssil va funcionar com es diu, ni les seves especificacions tècniques.\n\nEn contextos militars, «IA» pot voler dir des d'un algorisme de correcció de rumb fins a un simple recurs de propaganda. De moment, l'únic que tenim són afirmacions de l'estat que l'ha llançat. Caldrà esperar anàlisis independents de la trajectòria i de les imatges, si n'hi ha, abans de donar a l'afirmació el valor d'un fet tècnic.",
+      "image": "./assets/corea-del-nord-missil-guiat-ia-wonsan-20261004.jpg"
+    },
     {
       "category": "CIBERSEGURETAT",
       "read": "4 MIN",
