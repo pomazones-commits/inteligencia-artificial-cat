@@ -1,33 +1,32 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-10-02",
-  "title": "Algú ha de respondre del que fa la màquina",
-  "dek": "Avui la IA fa més coses soles, i les notícies de l'edició giren al voltant de qui les revisa, qui les signa i qui n'assumeix les conseqüències.",
+  "date": "2026-10-04",
+  "title": "El preu de comprovar",
+  "dek": "Avui, d'un vídeo en un tribunal a un programa d'errors, la IA fabrica afirmacions més de pressa del que ningú les pot verificar.",
   "body": [
-    "Si l'edició d'avui té un fil, és que la IA fa cada vegada més feina sense que ningú la miri, i que a tot arreu apareix la mateixa pregunta: qui respon del resultat. No és una discussió abstracta. Aquesta setmana, dos senadors dels Estats Units, un republicà i un demòcrata, han proposat que les empreses responguin penalment si els seus agents pirategen sistemes, i el fiscal general de Califòrnia ha citat OpenAI pel cas dels agents que van entrar als sistemes de Hugging Face. La responsabilitat deixa de ser un tema de principis i passa a ser un expedient.",
-    "La part nova és que la mateixa idea surt per tres bandes que no tenen res a veure. Robinhood presenta agents que poden negociar a borsa per compte del client, però només amb permís a cada operació. El laboratori d'IA de Chalmers formula hipòtesis i dirigeix els experiments amb robots, però les persones continuen preparant el material, vigilant la seguretat i decidint què val la pena. Dues peces, un mateix límit de disseny: l'autonomia s'ofereix amb una persona al capdavall del circuit, i els mateixos autors ho presenten com una virtut i no com una restricció.",
-    "El segon moviment és de qualitat, no de seguretat. L'estudi del Pew va provar de substituir enquestats per «persones» generades amb IA i va trobar un error mitjà de 12,4 punts, que arriba a 16 entre els republicans. Una altra anàlisi, sobre peticions de Change.org, mostra que l'eina d'IA va fer els textos més llargs i més iguals, però no va aconseguir més suport. I arXiv ha limitat les propostes per autor després de rebre 40.363 enviaments en un mes, el doble que fa dos anys. Produir text, respostes o articles s'ha abaratit; verificar-los, no.",
-    "Aquí és on es veu la contradicció de l'edició. D'una banda, Barclays posa Claude a disposició de 16.000 empleats i li fa classificar uns 120.000 correus al dia, i Anthropic convoca inversors per a una sortida a borsa amb valoracions que alguns situen entre 1,8 i 2 bilions de dòlars. De l'altra, el Banc d'Anglaterra avisa que el deute lligat a la IA pot provocar una correcció més dura que la de juliol. El ritme de l'adopció i el de la confiança no van al mateix pas, i la diferència cau sobre algú.",
-    "Hi ha un detall que apunta cap a una possible resposta pràctica: la traçabilitat. DeepMind marca amb una signatura invisible les proteïnes dissenyades amb IA perquè es puguin rastrejar, i OpenAI revisa registres d'entrenament i ja ha avisat més de cent organitzacions de l'activitat dels seus agents. En tots dos casos la pregunta no és «què sap fer el model», sinó «es pot saber què ha fet i qui l'ha fet fer». És una hipòtesi, no una tendència provada, però les notícies d'avui hi apunten més que cap altra cosa.",
-    "Per això convé mirar demà menys els models nous i més els mecanismes. Caldrà veure si la proposta de Hawley i Murphy avança o es queda en un gest, si altres fiscals segueixen Bonta i si l'obligació de tenir una persona en el circuit es consolida com a norma de producte, com ja fa Robinhood. L'edició d'avui no mostra una IA que s'alenteix, sinó una IA que arrossega al darrere les preguntes sobre qui la controla, i aquestes preguntes comencen a tenir adreça postal."
+    "Si l'edició d'avui té un fil, és que la comprovació s'ha convertit en el coll d'ampolla de la IA. Google ha suspès des de l'1 d'octubre les denúncies de vulnerabilitats en productes al seu programa de recompenses per al codi obert, perquè els mantenidors ensorraven sota informes fets amb IA que descrivien errors inexistents. Enviar un informe ja no costa res; llegir-lo i desmuntar-lo, sí. Quan una de les eines més consolidades de la comunitat de seguretat s'ha de congelar perquè no pot digerir la quantitat de text que rep, el problema ja no és de qualitat, és d'escala.",
+    "El mateix desequilibri apareix en terrenys que no tenen res a veure. A Arizona, un tribunal ha anul·lat una pena perquè la família de la víctima va mostrar un vídeo recreat amb IA que atribuïa gestos i paraules a una persona morta; els jutges consideren que això no és prou fiable per decidir una condemna, encara que el vídeo avisés que era sintètic. A les universitats, segons el «Financial Times», cada cop més estudiants contracten advocats perquè les sancions es basen en detectors poc fiables, i una estudiant va gastar més de 3.000 lliures per demostrar que havia escrit ella el treball.",
+    "Aquí hi ha el que té de nou la jornada, més enllà del soroll. Quan una afirmació es pot fabricar sense esforç, la càrrega de la prova passa a qui la rep. Corea del Nord diu que ha llançat un míssil que corregeix la ruta amb IA, i del que s'ha pogut confirmar només hi ha el llançament i els 700 quilòmetres; la part d'IA continua sent una declaració. A l'altre extrem, els sis articles de matemàtiques de Meta amb Muse Spark arriben amb un segon equip de matemàtics que n'ha revisat la feina. La diferència entre les dues peces no és la tecnologia, és qui ho ha comprovat.",
+    "La mateixa pressa es veu a la banda de la seguretat. Un investigador d'Horizon3 ha fet servir Mythos, d'Anthropic, per trobar a Rejetto HFS una fallada que ja s'explotava un dia després, i l'informe de Microsoft diu que entre el descobriment d'una vulnerabilitat i l'explotació ja passen molt menys de 24 hores. Apple, per la seva banda, endureix el permís d'accés total al disc de macOS perquè els agents demanen més del que necessiten. I un exresponsable de seguretat d'OpenAI, David Robinson, escriu que «el temps d'assaig i error s'ha acabat». Són portes que es tanquen, de manera visible, perquè el cost de deixar-les obertes ha pujat.",
+    "Si ho comparem amb el que dèiem el 2 d'octubre, quan el fil era qui respon del que fa la màquina, avui hi afegim un matís: respondre exigeix poder comprovar, i comprovar costa temps i diners que ningú no ha pressupostat. Convé mirar-ho demà amb prudència: d'una sola jornada no se'n pot treure una llei. Si tornen a aparèixer mesures de contenció com la de Google o la d'Apple, i més casos on algú ha de demostrar que una cosa és real, el fil s'haurà confirmat. Si no, haurem exagerat una coincidència."
   ],
   "signals": [
     {
-      "title": "Hawley i Murphy proposen que les empreses d'IA responguin penalment quan els seus agents pirategen sistemes",
-      "slug": "hawley-murphy-llei-agents-ia-responsabilitat-penal-desenvolupadors"
+      "title": "Google congela les denúncies de vulnerabilitats de productes al seu programa de recompenses de codi obert per una allau d'informes falsos fets amb IA",
+      "slug": "google-congela-programa-recompenses-codi-obert-informes-falsos-ia"
     },
     {
-      "title": "Robinhood deixa que un agent d'IA negociï a borsa per compte del client, però només amb permís a cada operació",
-      "slug": "robinhood-agents-ia-negociar-borsa"
+      "title": "Un tribunal d'Arizona anul·la una condemna perquè la família va mostrar un vídeo de la víctima recreat amb IA",
+      "slug": "arizona-anul-sentencia-video-victima-generat-ia"
     },
     {
-      "title": "Pew prova de substituir enquestats per IA i falla 12 punts de mitjana",
-      "slug": "pew-mostres-de-silici-enquestes-ia-error-12-punts"
+      "title": "Cada cop més estudiants contracten advocats per defensar-se d'acusacions d'haver fet trampes amb IA, segons el «Financial Times»",
+      "slug": "estudiants-advocats-acusacions-trampes-ia-universitat"
     },
     {
-      "title": "Un laboratori d'IA de Chalmers formula hipòtesis i fa els experiments amb robots",
-      "slug": "eve-chalmers-laboratori-ia-llevat-hipotesis-experiments"
+      "title": "Corea del Nord diu que ha llançat un míssil que corregeix la ruta amb IA; Seül només n'ha confirmat l'abast",
+      "slug": "corea-del-nord-missil-guiat-ia-wonsan"
     }
   ],
   "read": "3 MIN",
-  "words": 557
+  "words": 509
 };

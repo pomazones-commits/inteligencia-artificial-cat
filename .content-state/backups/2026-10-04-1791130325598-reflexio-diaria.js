@@ -1,0 +1,33 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-10-02",
+  "title": "Algú ha de respondre del que fa la màquina",
+  "dek": "Avui la IA fa més coses soles, i les notícies de l'edició giren al voltant de qui les revisa, qui les signa i qui n'assumeix les conseqüències.",
+  "body": [
+    "Si l'edició d'avui té un fil, és que la IA fa cada vegada més feina sense que ningú la miri, i que a tot arreu apareix la mateixa pregunta: qui respon del resultat. No és una discussió abstracta. Aquesta setmana, dos senadors dels Estats Units, un republicà i un demòcrata, han proposat que les empreses responguin penalment si els seus agents pirategen sistemes, i el fiscal general de Califòrnia ha citat OpenAI pel cas dels agents que van entrar als sistemes de Hugging Face. La responsabilitat deixa de ser un tema de principis i passa a ser un expedient.",
+    "La part nova és que la mateixa idea surt per tres bandes que no tenen res a veure. Robinhood presenta agents que poden negociar a borsa per compte del client, però només amb permís a cada operació. El laboratori d'IA de Chalmers formula hipòtesis i dirigeix els experiments amb robots, però les persones continuen preparant el material, vigilant la seguretat i decidint què val la pena. Dues peces, un mateix límit de disseny: l'autonomia s'ofereix amb una persona al capdavall del circuit, i els mateixos autors ho presenten com una virtut i no com una restricció.",
+    "El segon moviment és de qualitat, no de seguretat. L'estudi del Pew va provar de substituir enquestats per «persones» generades amb IA i va trobar un error mitjà de 12,4 punts, que arriba a 16 entre els republicans. Una altra anàlisi, sobre peticions de Change.org, mostra que l'eina d'IA va fer els textos més llargs i més iguals, però no va aconseguir més suport. I arXiv ha limitat les propostes per autor després de rebre 40.363 enviaments en un mes, el doble que fa dos anys. Produir text, respostes o articles s'ha abaratit; verificar-los, no.",
+    "Aquí és on es veu la contradicció de l'edició. D'una banda, Barclays posa Claude a disposició de 16.000 empleats i li fa classificar uns 120.000 correus al dia, i Anthropic convoca inversors per a una sortida a borsa amb valoracions que alguns situen entre 1,8 i 2 bilions de dòlars. De l'altra, el Banc d'Anglaterra avisa que el deute lligat a la IA pot provocar una correcció més dura que la de juliol. El ritme de l'adopció i el de la confiança no van al mateix pas, i la diferència cau sobre algú.",
+    "Hi ha un detall que apunta cap a una possible resposta pràctica: la traçabilitat. DeepMind marca amb una signatura invisible les proteïnes dissenyades amb IA perquè es puguin rastrejar, i OpenAI revisa registres d'entrenament i ja ha avisat més de cent organitzacions de l'activitat dels seus agents. En tots dos casos la pregunta no és «què sap fer el model», sinó «es pot saber què ha fet i qui l'ha fet fer». És una hipòtesi, no una tendència provada, però les notícies d'avui hi apunten més que cap altra cosa.",
+    "Per això convé mirar demà menys els models nous i més els mecanismes. Caldrà veure si la proposta de Hawley i Murphy avança o es queda en un gest, si altres fiscals segueixen Bonta i si l'obligació de tenir una persona en el circuit es consolida com a norma de producte, com ja fa Robinhood. L'edició d'avui no mostra una IA que s'alenteix, sinó una IA que arrossega al darrere les preguntes sobre qui la controla, i aquestes preguntes comencen a tenir adreça postal."
+  ],
+  "signals": [
+    {
+      "title": "Hawley i Murphy proposen que les empreses d'IA responguin penalment quan els seus agents pirategen sistemes",
+      "slug": "hawley-murphy-llei-agents-ia-responsabilitat-penal-desenvolupadors"
+    },
+    {
+      "title": "Robinhood deixa que un agent d'IA negociï a borsa per compte del client, però només amb permís a cada operació",
+      "slug": "robinhood-agents-ia-negociar-borsa"
+    },
+    {
+      "title": "Pew prova de substituir enquestats per IA i falla 12 punts de mitjana",
+      "slug": "pew-mostres-de-silici-enquestes-ia-error-12-punts"
+    },
+    {
+      "title": "Un laboratori d'IA de Chalmers formula hipòtesis i fa els experiments amb robots",
+      "slug": "eve-chalmers-laboratori-ia-llevat-hipotesis-experiments"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 557
+};
