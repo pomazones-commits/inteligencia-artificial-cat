@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-03T16:11:53.063Z",
+  "updatedAt": "2026-10-04T04:11:26.284Z",
   "items": [
     {
-      "category": "XIPS",
-      "read": "5 MIN",
-      "title": "DeepSeek publica en obert sis mòduls per programar els xips Ascend de Huawei i vol fer-ne una alternativa a CUDA",
-      "excerpt": "El laboratori xinès ofereix lliurement el llenguatge TileLang i les biblioteques de càlcul i comunicació per als acceleradors de Huawei, en plena dependència xinesa dels xips d'Nvidia."
-    },
-    {
-      "category": "PRODUCTE",
+      "category": "POLÍTICA",
       "read": "4 MIN",
-      "title": "Meta obre el codi de Muse Gadgets perquè qualsevol construeixi aparells per a l'agent Muse i en regala 5.000 d'enllaç domèstic",
-      "excerpt": "El kit inclou un microprogramari per a plaques ESP32 i un SDK per a Linux, amb llicència Apache 2.0, i un petit adaptador USB-C que connecta Muse amb els aparells de casa."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Meta se separa de l'equip de Virtue AI quatre mesos després de fitxar-lo per reforçar la seguretat de la seva IA",
-      "excerpt": "Segons Semafor, els cofundadors Bo Li, Dawn Song i Sanmi Koyejo surten de Meta; la companyia diu que l'acord «no ha funcionat com estava previst»."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Investigadors de Georgia Tech proposen una mesura de «sorpresa» perquè els sistemes autònoms sàpiguen quan un fet inesperat importa de debò",
-      "excerpt": "El mètode, publicat a l'«INFORMS Journal on Data Science», mesura la sorpresa com a coneixement guanyat, i no només com a raresa del fet o canvi de creences."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Investigadors de Surrey demanen que els governs exigeixin dades de satèl·lit abans d'aprovar un centre de dades d'IA",
-      "excerpt": "Un comentari a «Nature Reviews Clean Technology» defensa fer servir observació de la Terra per avaluar energia renovable, aigua, terreny i riscos climàtics en triar on es construeixen."
-    },
-    {
-      "category": "ENERGIA",
-      "read": "4 MIN",
-      "title": "Oracle vol quedar-se entre el 10% i el 20% de l'electricitat de la central nuclear de Point Beach per al centre de dades d'OpenAI a Wisconsin",
-      "excerpt": "La companyia elèctrica We Energies ha demanat al regulador de Wisconsin que aprovi l'acord, que segons ella estalviaria uns 300 milions de dòlars en combustible als altres clients."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Aleph Alpha presenta Kolibri, un model d'IA que raona directament en alemany i s'executa a la infraestructura del client",
-      "excerpt": "L'empresa, fusionada amb Cohere, el dirigeix a administracions i sectors regulats, però no n'ha publicat ni la mida ni cap prova independent."
+      "title": "Trump posa Jay Clayton al capdavant d'un grup de treball sobre la IA que haurà d'informar en 120 dies",
+      "excerpt": "El director d'Intel·ligència Nacional serà el «czar» de la IA i presidirà el «Super Intelligence Force», amb la vicepresidència, Defensa, Tresor i el cap de gabinet com a membres."
     },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Una estafa amb la veu clonada del conseller delegat d'Intesa Sanpaolo va fer perdre 95 milions d'euros a Fideuram",
-      "excerpt": "Els estafadors van combinar un missatge de WhatsApp i una trucada amb veu generada per IA; se n'han recuperat uns 53 milions, i uns 36 han desaparegut."
+      "title": "Un responsable de seguretat d'OpenAI se'n va i escriu a «The Atlantic» que «el temps d'assaig i error s'ha acabat»",
+      "excerpt": "David Robinson, tres anys i mig a l'empresa, diu que la cultura s'ha trencat i reclama salvaguardes semblants a les de l'aviació o l'energia nuclear; OpenAI respon que frena models quan cal."
     },
     {
-      "category": "SALUT",
+      "category": "CIBERSEGURETAT",
       "read": "4 MIN",
-      "title": "Una IA ajuda els clínics a detectar l'ictus per oclusió de gran vas en tomografies sense contrast: la sensibilitat puja del 46,6% al 63,7%",
-      "excerpt": "L'estudi, publicat al Journal of NeuroInterventional Surgery amb 963 pacients de Corea i dels Estats Units, mostra que amb l'eina es detecta un cas més de cada 18 exploracions."
+      "title": "Apple endureix el permís d'accés total al disc de macOS per frenar els agents d'IA que ho demanen tot",
+      "excerpt": "La companyia avisa els desenvolupadors que només es podrà donar aquest accés «amb una acció d'usuari molt explícita», però no n'indica ni la versió de macOS ni la data."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "title": "Amazon vol vendre uns 8.000 milions de dòlars en xips d'Nvidia a inversors i llogar-los de nou, segons el «Financial Times»",
+      "excerpt": "L'operació passaria per una societat instrumental que emetria bons amb la qualificació de crèdit d'Amazon, en plena escalada d'inversió: uns 220.000 milions de dòlars aquest any."
     },
     {
       "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un conjunt de dades amb 13 gossos i 23 persones permet que una IA generi el moviment d'un gos a partir dels gestos i la veu del seu amo",
-      "excerpt": "El treball de l'Institut de Ciència de Tòquio i la Carnegie Mellon, presentat a l'ECCV 2026, redueix gairebé a la meitat l'error del sistema de referència."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Trump diu que el Govern dels EUA podria entrar al capital d'OpenAI i d'Anthropic, com ja ha fet amb Intel",
-      "excerpt": "En una entrevista a TIME, el president afirma «potser ho podria fer», descarta nacionalitzar els laboratoris i insisteix que s'oposa a regular la IA."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Microsoft estén MAI-Transcribe-2 amb una versió en temps real en 60 llengües i hi suma dos models de veu per a agents que parlen",
-      "excerpt": "MAI-Transcribe-2-Streaming diu que lidera la classificació d'Artificial Analysis amb un 2,5% d'errors, i s'hi afegeixen MAI-Voice-2.1 i la versió Flash."
-    },
-    {
-      "category": "LLEI",
-      "read": "4 MIN",
-      "title": "Els mitjans públics d'Austràlia rebutgen que Anthropic proposi entrenar amb contingut local si els editors se n'han d'excloure ells mateixos",
-      "excerpt": "ABC i SBS diuen al Parlament que el sistema d'exclusió amb robots.txt «se sol ignorar o esquivar» i que la càrrega ha de recaure en les empreses d'IA."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi amb 1.100 persones mostra que atribuïm menys consciència a una IA que a un humà, encara que es comporti igual",
-      "excerpt": "La LMU de Múnic publica a «Cognition» que fins i tot la IA més reactiva es jutja menys conscient que l'humà menys reactiu, tot i que sí que la veiem com a «conscient de l'entorn»."
-    },
-    {
-      "category": "EDUCACIÓ",
       "read": "5 MIN",
-      "title": "Un assaig amb 2.383 estudiants troba que un tutor d'IA aconsegueix tants guanys d'aprenentatge com un d'humà per preparar el GRE, però és un preprint",
-      "excerpt": "Handshake AI diu que Gemma 4 31B iguala els guanys d'aprenentatge amb un cost 918 vegades inferior; el treball encara no ha passat la revisió per parells."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "Broadcom prestarà fins a 42.000 milions de dòlars a Anthropic perquè llogui xips TPU, segons el prospecte de la sortida a borsa",
-      "excerpt": "El préstec, en forma de bons convertibles en accions, cobriria aproximadament un terç dels 125.200 milions que Anthropic ha promès pagar en cinc anys per capacitat de càlcul."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Califòrnia prohibeix que una IA decideixi sola un acomiadament i Newsom veta la llei contra les ulleres que graven d'amagat",
-      "excerpt": "La llei SB 947 obliga a revisió humana quan un sistema automàtic intervé en una sanció o un acomiadament; el governador, en canvi, ha vetat la SB 1130 sobre les ulleres intel·ligents."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "3 MIN",
-      "title": "Boston Dynamics dona a Atlas una mà de quatre dits sense petit per fer servir eines, entrenada en simulació",
-      "excerpt": "La nova mà té 13 graus de llibertat, sensors de pressió als dits i al palmell i pot reorientar objectes i recuperar-se d'una agafada que rellisca."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una il·lusió òptica revela què li falta a la visió artificial: no reprodueix com el cervell desplaça la posició del que veu",
-      "excerpt": "Un estudi a Current Biology amb registres neuronals de primats i proves en humans mostra que les xarxes d'IA actuals codifiquen la posició segons la imatge i ignoren l'efecte del moviment recent."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "La BNEW de Barcelona dona a la IA un sector propi i espera 12.000 participants del 5 al 7 d'octubre",
-      "excerpt": "La setena edició incorpora cinc sectors nous, entre els quals la intel·ligència artificial, i reuneix 270 ponents a DFactory Barcelona."
+      "title": "Matemàtics i Muse Spark publiquen sis articles, cinc dels quals responen preguntes obertes, entre elles un contraexemple amb un grup de 384 elements",
+      "excerpt": "Meta detalla com els investigadors van fer servir el model per explorar problemes de probabilitat, equacions diferencials, teoria de grups i àlgebra; un segon equip de matemàtics n'ha revisat la feina."
     }
   ]
 }
