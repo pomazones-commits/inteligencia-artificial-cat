@@ -11,7 +11,7 @@
     x: 'https://x.com/iacatdiari',
     linkedin: '',
     telegram: '',
-    whatsapp: '',
+    whatsapp: 'https://whatsapp.com/channel/0029Vb8nPG55q08Z5nlni301',
     rss: '/feed.xml'
   };
   // ⚠️ Rutes ABSOLUTES a tot aquest fitxer. shared.js també s'executa a
