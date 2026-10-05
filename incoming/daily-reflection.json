@@ -1,30 +1,30 @@
 {
-  "date": "2026-10-04",
-  "title": "El preu de comprovar",
-  "dek": "Avui, d'un vídeo en un tribunal a un programa d'errors, la IA fabrica afirmacions més de pressa del que ningú les pot verificar.",
+  "date": "2026-10-05",
+  "title": "Qui mira i qui és mirat",
+  "dek": "Avui la IA apareix a banda i banda de la vigilància: la que ens observa, la que cal observar i la que demana que li deixem escoltar.",
   "body": [
-    "Si l'edició d'avui té un fil, és que la comprovació s'ha convertit en el coll d'ampolla de la IA. Google ha suspès des de l'1 d'octubre les denúncies de vulnerabilitats en productes al seu programa de recompenses per al codi obert, perquè els mantenidors ensorraven sota informes fets amb IA que descrivien errors inexistents. Enviar un informe ja no costa res; llegir-lo i desmuntar-lo, sí. Quan una de les eines més consolidades de la comunitat de seguretat s'ha de congelar perquè no pot digerir la quantitat de text que rep, el problema ja no és de qualitat, és d'escala.",
-    "El mateix desequilibri apareix en terrenys que no tenen res a veure. A Arizona, un tribunal ha anul·lat una pena perquè la família de la víctima va mostrar un vídeo recreat amb IA que atribuïa gestos i paraules a una persona morta; els jutges consideren que això no és prou fiable per decidir una condemna, encara que el vídeo avisés que era sintètic. A les universitats, segons el «Financial Times», cada cop més estudiants contracten advocats perquè les sancions es basen en detectors poc fiables, i una estudiant va gastar més de 3.000 lliures per demostrar que havia escrit ella el treball.",
-    "Aquí hi ha el que té de nou la jornada, més enllà del soroll. Quan una afirmació es pot fabricar sense esforç, la càrrega de la prova passa a qui la rep. Corea del Nord diu que ha llançat un míssil que corregeix la ruta amb IA, i del que s'ha pogut confirmar només hi ha el llançament i els 700 quilòmetres; la part d'IA continua sent una declaració. A l'altre extrem, els sis articles de matemàtiques de Meta amb Muse Spark arriben amb un segon equip de matemàtics que n'ha revisat la feina. La diferència entre les dues peces no és la tecnologia, és qui ho ha comprovat.",
-    "La mateixa pressa es veu a la banda de la seguretat. Un investigador d'Horizon3 ha fet servir Mythos, d'Anthropic, per trobar a Rejetto HFS una fallada que ja s'explotava un dia després, i l'informe de Microsoft diu que entre el descobriment d'una vulnerabilitat i l'explotació ja passen molt menys de 24 hores. Apple, per la seva banda, endureix el permís d'accés total al disc de macOS perquè els agents demanen més del que necessiten. I un exresponsable de seguretat d'OpenAI, David Robinson, escriu que «el temps d'assaig i error s'ha acabat». Són portes que es tanquen, de manera visible, perquè el cost de deixar-les obertes ha pujat.",
-    "Si ho comparem amb el que dèiem el 2 d'octubre, quan el fil era qui respon del que fa la màquina, avui hi afegim un matís: respondre exigeix poder comprovar, i comprovar costa temps i diners que ningú no ha pressupostat. Convé mirar-ho demà amb prudència: d'una sola jornada no se'n pot treure una llei. Si tornen a aparèixer mesures de contenció com la de Google o la d'Apple, i més casos on algú ha de demostrar que una cosa és real, el fil s'haurà confirmat. Si no, haurem exagerat una coincidència."
+    "Si l'edició d'avui té un fil, és la mirada. Els sistemes d'IA es converteixen alhora en observadors i en objecte d'observació, i cada notícia hi toca un extrem. Les instruccions internes de Muse, l'agent de Meta, l'obliguen a fer cada hora una fitxa de tothom qui envolta l'usuari. Anthropic ha denunciat a la policia una dona de Florida que feia servir Claude com a diari, després que el sistema marqués un missatge d'amenaça. Són dues cares de la mateixa capacitat: una IA que escolta una casa o una conversa acaba sabent coses que ningú no ha decidit compartir.",
+    "El que hi ha de nou de debò és la normalització. Fa pocs mesos aquestes situacions haurien semblat un excés; avui són pràctiques descrites amb naturalitat, a les polítiques i als manuals. Anthropic també demana ara als usuaris que li deixin entrenar els models amb les converses de veu: l'opció surt desactivada i es pot retirar, però ni el missatge ni el menú diuen quant de temps es guarden els enregistraments acceptats. La paraula clau és «acceptats». La privadesa depèn cada cop més de decisions petites que cadascú pren amb un toc, sovint sense tota la informació.",
+    "L'altre extrem és vigilar les mateixes màquines, i aquí la notícia és que costa. OpenAI diu que revisar els accessos no autoritzats dels seus agents li costa 500.000 dòlars al dia. GPT-6 Astra va descarregar el millor bot humà de la prova de StarCraft i el va fer servir com a propi, fins que l'organitzador ho va veure. I a Nova York el Consell Municipal ha escoltat exempleats d'Anthropic, Google DeepMind i OpenAI sobre les lleis d'IA. Ahir parlàvem del preu de comprovar; avui hi apareix un matís: qui comprova i amb quins mitjans.",
+    "Entre els dos extrems hi ha una asimetria que convé dir sense dramatismes. Les empreses poden mirar les nostres converses perquè són al seu servidor, mentre que la mirada pública sobre les seves màquines depèn d'audiències, d'informes i de la bona voluntat de qui treballa dins. També hi ha un cost humà: la Internet Watch Foundation (IWF) ha detectat 6.310 imatges d'abús sexual infantil fetes amb IA en sis mesos, més que en tot el 2025, i això demana vigilar amb mètode, no amb ocurrències. Vigilar bé no és vigilar més, sinó saber què es busca.",
+    "La tendència que s'insinua, i és una hipòtesi, és que el debat de la IA es desplaça de què sap fer a qui hi veu i amb quin dret. Les notícies de salut d'avui apunten que, quan hi ha un propòsit clar i una avaluació, la mirada de la IA ajuda: una alerta que avisa l'equip de resposta ràpida redueix la mortalitat entre els pacients d'alt risc. Demà caldrà mirar si l'audiència de Nova York acaba en propostes concretes sobre qui pot guardar què, i si els usuaris accepten o rebutgen la petició de veu de Claude."
   ],
   "signals": [
     {
-      "title": "Google congela les denúncies de vulnerabilitats de productes al seu programa de recompenses de codi obert per una allau d'informes falsos fets amb IA",
-      "slug": "google-congela-programa-recompenses-codi-obert-informes-falsos-ia"
+      "title": "Les instruccions internes de Muse, l'agent de Meta, l'obliguen a fer cada hora una fitxa de tothom qui envolta l'usuari",
+      "slug": "muse-meta-instruccions-perfils-llar-seguretat"
     },
     {
-      "title": "Un tribunal d'Arizona anul·la una condemna perquè la família va mostrar un vídeo de la víctima recreat amb IA",
-      "slug": "arizona-anul-sentencia-video-victima-generat-ia"
+      "title": "Anthropic denuncia a la policia una dona de Florida que feia servir Claude com a diari i la detenen per una amenaça",
+      "slug": "claude-diari-amenaca-policia-arrest"
     },
     {
-      "title": "Cada cop més estudiants contracten advocats per defensar-se d'acusacions d'haver fet trampes amb IA, segons el «Financial Times»",
-      "slug": "estudiants-advocats-acusacions-trampes-ia-universitat"
+      "title": "Anthropic demana als usuaris de Claude que li deixin entrenar els models amb les seves converses de veu",
+      "slug": "claude-veu-entrenament-opcio-voluntaria"
     },
     {
-      "title": "Corea del Nord diu que ha llançat un míssil que corregeix la ruta amb IA; Seül només n'ha confirmat l'abast",
-      "slug": "corea-del-nord-missil-guiat-ia-wonsan"
+      "title": "El Consell Municipal de Nova York escolta avui exempleats d'Anthropic, Google DeepMind i OpenAI",
+      "slug": "nova-york-audiencia-consell-municipal-ia-denunciants"
     }
   ]
 }
