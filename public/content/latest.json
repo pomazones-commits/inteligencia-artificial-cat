@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-04T16:11:58.169Z",
+  "updatedAt": "2026-10-05T04:11:05.619Z",
   "items": [
     {
-      "category": "MERCATS",
+      "category": "REGULACIÓ",
       "read": "4 MIN",
-      "title": "Hong Kong aixeca 47.500 milions de dòlars en un trimestre, un rècord, empès per la febre de la IA",
-      "excerpt": "Les sortides a borsa, ampliacions i vendes de paquets d'accions de juliol a setembre superen qualsevol tercer trimestre anterior. Z.AI, Alibaba i el fabricant de components Zhongji Innolight en són els grans noms."
+      "title": "Altman diu que el món ha d'acceptar «algunes coses dolentes» a canvi dels beneficis de la IA i marca distància amb Anthropic",
+      "excerpt": "El conseller delegat d'OpenAI defensa en una entrevista a Politico que la tecnologia ha de quedar a l'abast de tothom, encara que això comporti riscos, i rebutja que un sol laboratori en controli l'accés."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una IA generativa de Google tradueix les projeccions climàtiques a escala regional i reprodueix onades de calor i cicles tropicals",
-      "excerpt": "GenFocal, descrit a «Nature Machine Intelligence», converteix els models climàtics globals, de resolució grollera, en temps meteorològic de detall fi sense haver de parellar simulacions i observacions."
-    },
-    {
-      "category": "CIÈNCIA",
+      "category": "MOBILITAT",
       "read": "4 MIN",
-      "title": "Un equip d'Insilico Medicine dissenya amb IA molècules que destrueixen una proteïna clau en càncers de la sang",
-      "excerpt": "Els investigadors descriuen a «Journal of Medicinal Chemistry» compostos PROTAC contra la proteïna BTK, i asseguren que la IA va escurçar a 12-18 mesos la selecció dels candidats. Encara són compostos de laboratori."
+      "title": "Califòrnia multarà fins a 10.000 dòlars els robotaxis que bloquegin els serveis d'emergència més de mitja hora",
+      "excerpt": "Newsom signa la llei SB 1246, que obliga les empreses de vehicles autònoms a enviar tècnics locals quan els ho demanin els equips d'emergència. Entrarà en vigor l'1 de juliol del 2028."
     },
     {
-      "category": "JUSTÍCIA",
+      "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Un tribunal d'Arizona anul·la una condemna perquè la família va mostrar un vídeo de la víctima recreat amb IA",
-      "excerpt": "El Tribunal d'Apel·lacions ordena una nova vista de pena en el cas «State v. Horcasitas»: les parts sintètiques del vídeo atribuïen a un mort paraules i gestos que mai no va fer."
-    },
-    {
-      "category": "DEFENSA",
-      "read": "3 MIN",
-      "title": "Corea del Nord diu que ha llançat un míssil que corregeix la ruta amb IA; Seül només n'ha confirmat l'abast",
-      "excerpt": "Pyongyang afirma que el projectil, que va recórrer més de 700 quilòmetres, ajusta la trajectòria a baixa altura per esquivar la detecció. Ningú de fora no ha verificat la capacitat d'IA."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Google congela les denúncies de vulnerabilitats de productes al seu programa de recompenses de codi obert per una allau d'informes falsos fets amb IA",
-      "excerpt": "Des de l'1 d'octubre, el programa OSS VRP ja no accepta informes de fallades en productes de Google: els mantenidors ensorraven sota textos que descrivien errors inexistents. Google promet una novetat abans del primer trimestre del 2027."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Amazon diu que ja no demana acords de confidencialitat als governs locals per als centres de dades i destinarà 1.000 milions de dòlars a les comunitats veïnes",
-      "excerpt": "El conseller delegat d'AWS, Matt Garman, admet que el rebuig veïnal està frenant projectes. El programa «Built Together» preveu inversions en formació, energia i aigua durant cinc anys, però no queda clar si val per als intermediaris."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA de l'IDIBELL i el BSC detecta l'envelliment de les cèl·lules mare de la sang a partir d'imatges del nucli, amb un 77% d'encert en ratolí",
-      "excerpt": "ChromAgeNet, publicat a «Aging Cell», analitza la disposició de la cromatina en imatges tridimensionals amb una tinció barata i supera models anteriors; de moment només s'ha provat amb cèl·lules de ratolí."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi de Copenhaguen amb 27 models d'IA troba que els xatbots donen una informació menys variada que un cercador, fins i tot el més divers",
-      "excerpt": "La recerca, que es presentarà a l'EMNLP 2026, va analitzar uns 70 milions d'afirmacions sobre 155 temes. El model més divers, GPT-5, oferia almenys un 18,7% menys de varietat que Google Search."
+      "title": "Sean Parker reorienta Stability AI cap a la música, amb el suport de Sony, Warner i Universal",
+      "excerpt": "Segons «The Information», la companyia ja no aposta per les imatges sinó per eines per a professionals de la música, després d'una ronda de 76 milions de dòlars amb les tres grans discografiques com a inversores."
     },
     {
       "category": "SALUT",
       "read": "5 MIN",
-      "title": "Un assaig clínic al Japó mostra que un xatbot d'IA millora el coneixement sobre la vacuna del VPH respecte d'un fulletó, però no canvia la decisió de vacunar",
-      "excerpt": "L'estudi de JAMA Network Open comparava el xatbot amb el fulletó oficial del Govern. La diferència de coneixement era petita però persistia dues setmanes després; les decisions de vacunar es van quedar igual: 40,3% contra 39,6%."
+      "title": "Una IA de la Politècnica de València localitza amb un 89% d'encert el teixit malalt de l'aurícula a partir d'electrocardiogrames",
+      "excerpt": "El sistema, publicat a «Discover Computing», identifica on és el dany que provoca arrítmies, però s'ha provat només amb 14.400 registres simulats i encara no amb pacients."
     },
     {
-      "category": "CIBERSEGURETAT",
+      "category": "CATALUNYA",
       "read": "4 MIN",
-      "title": "Microsoft adverteix que la IA ja pot encadenar un atac sencer: Mythos i GPT-5.5 en van completar un de 32 passos en un entorn de prova",
-      "excerpt": "L'informe anual de Microsoft conclou que els atacants porten avantatge en aquesta primera etapa de la IA i que entre el descobriment d'una vulnerabilitat i la seva explotació ja passen molt menys de 24 hores."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Mythos, d'Anthropic, detecta una fallada crítica al servidor Rejetto HFS i els atacants l'exploten al cap d'un dia",
-      "excerpt": "La vulnerabilitat CVE-2026-61500 permet falsificar la sessió de l'administrador i executar codi a distància; es corregeix a la versió 3.2.1."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Google deixa els usuaris gratuïts de Gemini només amb Flash-Lite, el model més petit, i el pla de 4,99 dòlars perd el Pro",
-      "excerpt": "Segons The Decoder, els canvis arriben aquest mes d'octubre: Flash i Pro queden reservats a qui paga, i els subscriptors d'AI Plus es quedaran sense el Pro."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "3 MIN",
-      "title": "Un tribunal d'apel·lació dels EUA frena la llei de Minnesota contra les imatges de nus fetes amb IA mentre xAI la porta als tribunals",
-      "excerpt": "El Vuitè Circuit atén la petició d'una mesura cautelar de l'empresa de Musk: la decisió no resol si la norma és constitucional, només en suspèn l'aplicació."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "3 MIN",
-      "title": "Cada cop més estudiants contracten advocats per defensar-se d'acusacions d'haver fet trampes amb IA, segons el «Financial Times»",
-      "excerpt": "Detectors poc fiables i normes desiguals entre universitats alimenten els casos; una estudiant va gastar més de 3.000 lliures per demostrar que havia escrit ella el treball."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Trump posa Jay Clayton al capdavant d'un grup de treball sobre la IA que haurà d'informar en 120 dies",
-      "excerpt": "El director d'Intel·ligència Nacional serà el «czar» de la IA i presidirà el «Super Intelligence Force», amb la vicepresidència, Defensa, Tresor i el cap de gabinet com a membres."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Un responsable de seguretat d'OpenAI se'n va i escriu a «The Atlantic» que «el temps d'assaig i error s'ha acabat»",
-      "excerpt": "David Robinson, tres anys i mig a l'empresa, diu que la cultura s'ha trencat i reclama salvaguardes semblants a les de l'aviació o l'energia nuclear; OpenAI respon que frena models quan cal."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Apple endureix el permís d'accés total al disc de macOS per frenar els agents d'IA que ho demanen tot",
-      "excerpt": "La companyia avisa els desenvolupadors que només es podrà donar aquest accés «amb una acció d'usuari molt explícita», però no n'indica ni la versió de macOS ni la data."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Amazon vol vendre uns 8.000 milions de dòlars en xips d'Nvidia a inversors i llogar-los de nou, segons el «Financial Times»",
-      "excerpt": "L'operació passaria per una societat instrumental que emetria bons amb la qualificació de crèdit d'Amazon, en plena escalada d'inversió: uns 220.000 milions de dòlars aquest any."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Matemàtics i Muse Spark publiquen sis articles, cinc dels quals responen preguntes obertes, entre elles un contraexemple amb un grup de 384 elements",
-      "excerpt": "Meta detalla com els investigadors van fer servir el model per explorar problemes de probabilitat, equacions diferencials, teoria de grups i àlgebra; un segon equip de matemàtics n'ha revisat la feina."
+      "title": "La gigafactoria d'IA de Móra la Nova ja té els 54 MW per a la primera fase i assegura que gairebé no consumirà aigua",
+      "excerpt": "L'alcalde, Jesús Álvarez, explica que la segona fase encara necessita dues línies elèctriques des de la subestació d'Aubals i que el projecte s'ha de presentar a la Comissió Europea abans del 12 de novembre."
     }
   ]
 }
