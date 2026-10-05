@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-05T08:14:56.626Z",
+  "updatedAt": "2026-10-05T12:25:43.923Z",
   "items": [
+    {
+      "category": "PRIVACITAT",
+      "read": "4 MIN",
+      "slug": "iwf-imatges-abus-infantil-ia-primer-semestre-2026",
+      "title": "L'IWF detecta 6.310 imatges d'abús sexual infantil fetes amb IA en sis mesos, més que en tot el 2025",
+      "excerpt": "L'entitat britànica que rastreja contingut il·legal xifra l'augment en un 40% respecte de l'any passat sencer i demana a la UE una llei que permeti detectar també material mai vist.",
+      "sourceName": "Internet Watch Foundation",
+      "sourceUrl": "https://www.iwf.org.uk/news-media/news/more-ai-generated-child-sexual-abuse-images-found-in-the-first-six-months-of-2026-than-all-of-2025-iwf-warns/",
+      "sourceDate": "5 d'octubre de 2026",
+      "body": "La Internet Watch Foundation (IWF) és l'entitat britànica que revisa denúncies de contingut d'abús sexual infantil a internet i el converteix en empremtes digitals (hashes) que comparteixen les forces de seguretat i les plataformes per bloquejar-lo automàticament. Cada any en publica un balanç, i aquest és el primer que cobreix només mig any.\n\nSegons l'informe que ha fet públic avui, entre l'1 de gener i el 30 de juny de 2026 els seus analistes van avaluar 6.310 imatges generades amb IA que complien la definició legal d'abús sexual infantil. És un 40% més que les 4.512 que van identificar durant tot el 2025. El 98% de les imatges en què consten edat i sexe mostraven nenes, el 79% representaven infants d'entre set i tretze anys i n'hi havia 190 que mostraven nadons i criatures de menys de dos anys.\n\nL'entitat aprofita les dades per demanar als legisladors de la Unió Europea i del Regne Unit una norma de protecció de la infància que permeti detectar tant el contingut ja conegut com el que encara no s'ha vist mai. El motiu és tècnic: la coincidència d'empremtes només frena la propagació de material que algú ja ha identificat, i una imatge generada de nou no consta a cap base de dades fins que un analista la revisa.\n\nCal llegir la xifra amb cura: compta imatges avaluades per l'IWF, no el total real de material que circula, i la comparació amb el 2025 depèn de quantes denúncies arriben i de quant es revisa. Tampoc no detalla quines eines concretes s'han fet servir per generar-les. Amb tot, la tendència confirma que la generació d'imatges amb IA s'ha convertit en un problema de protecció de menors que les regles actuals només cobreixen en part.",
+      "image": "./assets/iwf-imatges-abus-infantil-ia-primer-semestre-2026-20261005.jpg"
+    },
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "slug": "openai-anuncis-visuals-chatgpt-generacio-imatges",
+      "title": "OpenAI provarà aquest mes anuncis amb imatges mentre els usuaris generen imatges a ChatGPT",
+      "excerpt": "Els anuncis sortiran etiquetats i separats de la imatge que es crea. L'empresa també amplia les eines per mesurar-ne l'efecte i diu que els socis no veuran les converses privades.",
+      "sourceName": "BleepingComputer (a partir d'OpenAI)",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
+      "sourceDate": "5 d'octubre de 2026",
+      "body": "OpenAI ha començat a vendre publicitat dins de ChatGPT i ara hi afegeix un format nou. Segons l'empresa, ChatGPT té 1.200 milions d'usuaris setmanals, i els anuncis són una font d'ingressos més, a banda de les subscripcions.\n\nEl nou format consisteix en anuncis amb imatges —que mostren un producte, com s'utilitza o l'experiència que promet— que apareixeran mentre l'usuari genera una imatge amb ChatGPT. OpenAI assegura que els anuncis aniran clarament etiquetats i separats de la imatge que s'està creant. La prova començarà més endavant aquest mes als Estats Units, amb un primer grup d'anunciants.\n\nL'anunci va acompanyat d'una ampliació de les eines de mesura: OpenAI treballa amb empreses com Hightouch, Tealium i LiveRamp per mesurar conversions, i amb socis d'atribució com AppsFlyer i Branch. L'empresa subratlla que els socis independents no tindran accés a les converses privades dels usuaris, i prepara proves amb DoubleVerify i Integral Ad Science per avaluar si el contingut al costat dels anuncis és adequat per a les marques.\n\nDe moment és una prova petita i només als Estats Units; l'article no precisa si afecta tots els plans o només els gratuïts, ni quan es farà extensiva. Queda per veure com reaccionaran els usuaris a veure publicitat en un moment tan personal com crear una imatge, i com es garantirà que l'anunci no condiciona el resultat, tal com promet OpenAI.",
+      "image": "./assets/openai-anuncis-visuals-chatgpt-generacio-imatges-20261005.jpg"
+    },
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "slug": "groq-enginyers-demanden-junta-acord-nvidia",
+      "title": "ACTUALITZACIÓ: Dos antics enginyers de Groq demanen la junta pel pacte de 20.000 milions amb Nvidia",
+      "excerpt": "Acusen els consellers d'haver estructurat la llicència a favor dels de dalt i en perjudici dels accionistes ordinaris. El cas s'afegeix a la investigació antimonopoli del Departament de Justícia.",
+      "sourceName": "Crypto Briefing (a partir del Financial Times)",
+      "sourceUrl": "https://cryptobriefing.com/groq-engineers-sue-board-nvidia-deal/",
+      "sourceDate": "5 d'octubre de 2026",
+      "body": "El desembre del 2025 Nvidia va tancar amb Groq, fabricant de xips per executar models d'IA, un acord que es va presentar com una llicència «no exclusiva» valorada en uns 20.000 milions de dòlars: Groq continuava existint, però Nvidia fitxava una part molt gran dels seus enginyers. El setembre d'aquest any, el Departament de Justícia dels Estats Units va obrir una investigació per saber si l'operació va esquivar el control antimonopoli, tal com ja vam explicar.\n\nLa novetat és una demanda presentada a Delaware entre el 3 i el 4 d'octubre per Benjamin Serebrin i Joshua Rubin, dos antics enginyers de Groq i alhora accionistes. Segons la informació que recull el Financial Times, sostenen que la junta va estructurar el pacte de manera inadequada: que els titulars d'accions ordinàries en van sortir amb molt poc, que no es va defensar el millor preu i que alguns accionistes no van poder votar.\n\nEl cas il·lustra una pràctica cada cop més habitual al sector: pagar una llicència en comptes de comprar l'empresa, de manera que el talent canvia de mans però la societat original continua en peu. Aquesta fórmula pot evitar part del control regulador, però deixa oberta la pregunta de qui cobra què quan l'empresa original queda amb la llicència i sense l'equip.\n\nCal tenir present que són acusacions d'una demanda i no s'ha provat res; les fonts consultades tampoc no coincideixen en el repartiment exacte dels diners de l'acord, i per això aquí només es dona la xifra global aproximada. Ni Nvidia ni Groq no consten en les fonts consultades amb una resposta detallada a la demanda.",
+      "image": "./assets/groq-enginyers-demanden-junta-acord-nvidia-20261005.jpg"
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "slug": "npj-mental-health-ia-avaluacio-psiquiatrica-video",
+      "title": "Una IA avalua l'estat mental de pacients simulats gairebé tan bé com un equip de psiquiatres, segons un estudi d'UTHealth Houston i Yale",
+      "excerpt": "El sistema analitza veu, to i comportament en vídeo. Publicat a «npj Mental Health Research», funciona pitjor en aspectes com l'aparença o els moviments fins, i els autors el plantegen com a suport, no com a substitut.",
+      "sourceName": "npj Mental Health Research (via Medical Xpress)",
+      "sourceUrl": "https://medicalxpress.com/news/2026-09-ai-tool-nears-psychiatrist-accuracy.html",
+      "sourceDate": "17 de setembre de 2026",
+      "body": "L'avaluació de l'estat mental és una part central de l'exploració psiquiàtrica: el clínic observa com parla el pacient, com es mou, com es comporta, i en puntua una sèrie de criteris. És una tasca que exigeix molta formació i que a les zones rurals o als centres docents sovint no es pot fer amb un equip especialitzat.\n\nUn grup de la Universitat de Texas Health Science Center a Houston (UTHealth Houston) i de Yale ha provat un sistema d'IA que analitza enregistraments en vídeo, tenint en compte la parla, el to i el comportament, i puntua deu criteris d'una exploració psiquiàtrica. L'estudi, publicat a la revista revisada per parells npj Mental Health Research (DOI 10.1038/s44184-026-00245-y), el va posar a prova amb actors que interpretaven casos d'esquizofrènia, trastorn obsessivocompulsiu i trastorn bipolar, amb diversos graus de gravetat. En el diagnòstic global, la IA va assolir una exactitud gairebé igual a la d'un equip de psiquiatres.\n\nSegons els autors, l'eina podria ajudar sobretot en entorns docents i en llocs on no hi ha psiquiatres. Hammza Hamoudi, primer coautor, la descriu com una avaluació diagnòstica «gairebé tan bona com la d'un equip de psiquiatres».\n\nEls límits són importants: els pacients eren actors i no persones amb un trastorn real, i els casos eren tres diagnòstics concrets. El rendiment va ser més fluix en criteris observacionals com l'aparença o la motricitat fina. Els mateixos autors insisteixen que ha de complementar el criteri del clínic i no substituir-lo, i que calen proves amb pacients reals abans de plantejar un ús assistencial.",
+      "image": "./assets/npj-mental-health-ia-avaluacio-psiquiatrica-video-20261005.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "ia-salut-ansietat-depressio-joves-estudi-florida",
+      "title": "Els joves que consulten la IA per qüestions de salut tenen més ansietat i depressió, però l'estudi no demostra que en sigui la causa",
+      "excerpt": "Una anàlisi d'enquestes a gairebé 100.000 joves d'EUA, publicada a «Journal of Counseling & Development», troba una associació del 52% i del 46% en les probabilitats de cribratge positiu.",
+      "sourceName": "Journal of Counseling & Development (via Medical Xpress)",
+      "sourceUrl": "https://medicalxpress.com/news/2026-09-ai-health-anxiety-depression-young.html",
+      "sourceDate": "28 de setembre de 2026",
+      "body": "Cada cop més persones pregunten a un xatbot per un símptoma, un fàrmac o una preocupació de salut. Una de les qüestions que ha de respondre la recerca és quin tipus de persona ho fa, i si fer-ho es relaciona amb el seu benestar emocional.\n\nUn equip de la Facultat d'Educació de la Universitat de Florida, dirigit per Yusen Zhai, ha analitzat dades d'enquestes a gairebé 100.000 joves adults recollides els anys 2023 i 2024. L'estudi, publicat a Journal of Counseling & Development (DOI 10.1002/jcad.70064), troba que entre els qui feien servir IA generativa per a qüestions de salut, un 52% donava positiu al cribratge d'ansietat, davant del 43% dels qui no ho feien; en depressió, el 47% davant del 38%. Això equival a unes probabilitats un 52% i un 46% més altes, respectivament.\n\nEls autors no en treuen cap conclusió causal i ho diuen expressament: l'estudi mostra una associació i no demostra que fer servir IA provoqui ansietat o depressió. Poden estar passant coses diferents: que les persones més ansioses busquin respostes a la IA, o que consultar-la una vegada i una altra reforci la inquietud.\n\nLes dades són d'una etapa inicial de l'ús de la IA generativa i provenen d'enquestes, no d'un seguiment al llarg del temps; el cribratge positiu tampoc no és un diagnòstic clínic. Serveix, doncs, per plantejar la pregunta i no per respondre-la, i demana estudis que segueixin les mateixes persones durant mesos.",
+      "image": "./assets/ia-salut-ansietat-depressio-joves-estudi-florida-20261005.jpg"
+    },
     {
       "category": "PRIVACITAT",
       "read": "4 MIN",
