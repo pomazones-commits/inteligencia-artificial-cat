@@ -99,6 +99,17 @@ jobs:
           python3 -m pip install --quiet --disable-pip-version-check pillow
           python3 automation/scripts/fotos-llicencia.py --final --input incoming/news-batch.json --public-dir public
 
+      # 06.10.2026 — VÍDEOS (prova pilot). La sessió editorial pot associar un
+      # vídeo de YouTube a una notícia, però el seu sandbox no arriba a YouTube.
+      # Aquí es comprova per oEmbed (sense clau d'API) que existeix i es pot
+      # inserir, i s'hi posen el títol i el canal reals. Si no, es treu el vídeo.
+      # content-hub.mjs només publica els vídeos verificats. MAI no atura el lot.
+      - name: Comprovar els vídeos de YouTube
+        if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
+        continue-on-error: true
+        timeout-minutes: 2
+        run: node automation/scripts/videos.mjs --input incoming/news-batch.json
+
       - name: Validar i acumular el lot de Claude
         if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
         run: >-
