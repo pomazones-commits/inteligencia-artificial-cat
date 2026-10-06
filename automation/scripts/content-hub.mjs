@@ -228,8 +228,55 @@ function validateNews(payload) {
     if (DATA_CENTER_RE.test(`${item.title} ${item.excerpt} ${item.slug.replace(/-/g, ' ')}`)) {
       item.etiquetes = ['centres-de-dades'];
     }
+    // Vídeo associat (prova pilot des del 06.10.2026). Camp opcional i additiu.
+    // Només passa si automation/scripts/videos.mjs l'ha comprovat a YouTube
+    // (`verificat`): el sandbox editorial no hi arriba i un vídeo inexistent,
+    // privat o amb la inserció desactivada deixaria un reproductor trencat.
+    // Un vídeo dolent no atura MAI el lot: simplement es descarta.
+    const video = normalizeVideo(raw?.video);
+    if (video) item.video = video;
     return item;
   });
+}
+
+const YOUTUBE_ID_RE = /^[A-Za-z0-9_-]{11}$/;
+
+// Extreu l'identificador d'11 caràcters d'una URL de YouTube (watch, youtu.be,
+// shorts, embed, live) o l'accepta tal qual si ja ho és.
+function youtubeId(value) {
+  const text = normalizeText(value);
+  if (!text) return '';
+  if (YOUTUBE_ID_RE.test(text)) return text;
+  let url;
+  try { url = new URL(text); } catch { return ''; }
+  const host = url.hostname.replace(/^(www|m|music)\./, '');
+  let id = '';
+  if (host === 'youtu.be') id = url.pathname.split('/')[1] || '';
+  else if (host === 'youtube.com' || host === 'youtube-nocookie.com') {
+    id = url.searchParams.get('v') || '';
+    const match = url.pathname.match(/^\/(?:shorts|embed|live|v)\/([^/?#]+)/);
+    if (!id && match) id = match[1];
+  }
+  return YOUTUBE_ID_RE.test(id) ? id : '';
+}
+
+function normalizeVideo(raw) {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return null;
+  const id = youtubeId(raw.id) || youtubeId(raw.url);
+  const verificat = normalizeText(raw.verificat);
+  if (!id || !/^\d{4}-\d{2}-\d{2}$/.test(verificat)) return null;
+  const video = { id, verificat };
+  const titol = normalizeText(raw.titol);
+  const canal = normalizeText(raw.canal);
+  const canalUrl = normalizeText(raw.canalUrl);
+  const idioma = normalizeText(raw.idioma).toLowerCase();
+  const resum = normalizeText(raw.resum);
+  if (titol) video.titol = titol.slice(0, 200);
+  if (canal) video.canal = canal.slice(0, 100);
+  if (/^https:\/\/(www\.)?youtube\.com\//.test(canalUrl)) video.canalUrl = canalUrl;
+  video.idioma = /^[a-z]{2}$/.test(idioma) ? idioma : 'en';
+  if (resum) video.resum = resum.slice(0, 600);
+  return video;
 }
 
 function validateEditorial(type, payload) {
