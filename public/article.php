@@ -127,6 +127,20 @@ $sourceUrl = (string) ($article['sourceUrl'] ?? $article['url'] ?? '');
 require_once __DIR__ . '/inc/centres-dades.php';
 $esCentresDades = iacat_cd_es_noticia($article);
 $sourceName = (string) ($article['sourceName'] ?? 'Font original');
+
+// Vídeo associat (prova pilot des del 06.10.2026). El Content Hub només hi deixa
+// arribar vídeos comprovats a YouTube (automation/scripts/videos.mjs).
+$video = is_array($article['video'] ?? null) ? $article['video'] : null;
+$videoId = $video ? (string) ($video['id'] ?? '') : '';
+if (!preg_match('/^[A-Za-z0-9_-]{11}$/', $videoId)) { $video = null; $videoId = ''; }
+$videoTitol = $video ? trim((string) ($video['titol'] ?? '')) : '';
+$videoCanal = $video ? trim((string) ($video['canal'] ?? '')) : '';
+$videoCanalUrl = $video ? (string) ($video['canalUrl'] ?? '') : '';
+if (!preg_match('#^https://(www\.)?youtube\.com/#', $videoCanalUrl)) { $videoCanalUrl = ''; }
+$videoResum = $video ? trim((string) ($video['resum'] ?? '')) : '';
+$videoIdioma = $video ? strtolower(trim((string) ($video['idioma'] ?? 'en'))) : '';
+$idiomes = ['ca' => 'català', 'en' => 'anglès', 'es' => 'castellà', 'fr' => 'francès', 'de' => 'alemany', 'it' => 'italià', 'pt' => 'portuguès', 'zh' => 'xinès', 'ja' => 'japonès', 'ko' => 'coreà'];
+$videoIdiomaNom = $idiomes[$videoIdioma] ?? '';
 $jsonld = null;
 if ($found) {
     $authorSchema = $isHumanAuthor
@@ -169,6 +183,7 @@ $shareText = rawurlencode((string) $article['title']);
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="./editorial.css?v=2026072301"><script defer src="./shared.js?v=2026100401"></script>
+  <?php if ($videoId !== ''): ?><link rel="stylesheet" href="./video.css?v=2026100601a"><script defer src="./video.js?v=2026100601a"></script><?php endif; ?>
   <style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.tts-player button,.tts-speed select{font-family:inherit}.tts-player button{padding:9px 13px;border:1px solid #dfe3eb;background:#fff;color:#233a82;cursor:pointer}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:430px}.tts-note,.tts-speed{font-size:11px;color:#5d6472}.article-hero-figure{margin:0}.article-hero-caption{margin:8px 0 0;font-size:12px;line-height:1.4;color:#5d6472;text-align:right}.article-hero-caption a{color:inherit;text-decoration:underline;text-underline-offset:2px}</style>
 </head>
 <body class="editorial-body">
@@ -192,6 +207,7 @@ $shareText = rawurlencode((string) $article['title']);
       <article>
         <?php if ($audioUrl): ?><div class="tts-player"><strong>Escolta:</strong><audio id="tts-audio" controls preload="none" src="<?= e($audioUrl) ?>">El teu navegador no pot reproduir l’àudio.</audio><label class="tts-speed">Velocitat <select id="tts-speed" aria-label="Velocitat de reproducció"><option value="1">1×</option><option value="1.25" selected>1,25×</option><option value="1.5">1,5×</option><option value="1.75">1,75×</option><option value="2">2×</option></select></label></div><?php else: ?><div class="tts-player"><strong>Escolta:</strong><span class="tts-note">Àudio en preparació.</span></div><?php endif; ?>
         <div class="article-body-clean"><?php foreach (preg_split('/\n\n+/', (string) ($article['body'] ?? '')) as $paragraph): ?><p><?= e($paragraph) ?></p><?php endforeach; ?></div>
+        <?php if ($videoId !== ''): ?><section class="iac-video" aria-labelledby="video-title"><h2 id="video-title">El vídeo</h2><div class="iac-video__frame"><button type="button" class="iac-video__play" data-video-id="<?= e($videoId) ?>" data-video-lang="<?= e($videoIdioma) ?>" data-video-title="<?= e($videoTitol !== '' ? $videoTitol : 'Vídeo de YouTube') ?>" aria-label="Reprodueix el vídeo<?= $videoTitol !== '' ? ': ' . e($videoTitol) : '' ?>"><img src="https://i.ytimg.com/vi/<?= e($videoId) ?>/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"><span class="iac-video__icon" aria-hidden="true"></span></button></div><p class="iac-video__meta"><?php if ($videoTitol !== ''): ?><strong><?= e($videoTitol) ?></strong> · <?php endif; ?><?php if ($videoCanal !== ''): ?><?php if ($videoCanalUrl !== ''): ?><a href="<?= e($videoCanalUrl) ?>" target="_blank" rel="noopener noreferrer"><?= e($videoCanal) ?></a><?php else: ?><?= e($videoCanal) ?><?php endif; ?> · <?php endif; ?><a href="https://www.youtube.com/watch?v=<?= e($videoId) ?>" target="_blank" rel="noopener noreferrer">YouTube ↗</a></p><?php if ($videoResum !== ''): ?><p class="iac-video__resum"><?= e($videoResum) ?></p><?php endif; ?><p class="iac-video__nota"><?php if ($videoIdioma !== 'ca'): ?><?= $videoIdiomaNom !== '' ? 'Vídeo en ' . e($videoIdiomaNom) . '.' : 'Vídeo en una altra llengua.' ?> Els subtítols s’intenten posar sols en català; si no hi surten: ⚙ Configuració › Subtítols › Traducció automàtica › Català. <?php endif; ?>El reproductor de YouTube només es carrega quan hi fas clic.</p></section><?php endif; ?>
       </article>
       <aside class="article-sidebar">
         <?php if ($sourceUrl !== ''): ?><section class="article-sidecard"><h2>Font original</h2><p>Consulta la informació de partida i contrasta’n els detalls.</p><p style="margin-top:12px"><a href="<?= e($sourceUrl) ?>" target="_blank" rel="noreferrer"><?= e($sourceName) ?> ↗</a><?php if (!empty($article['sourceDate'])): ?><br><?= e((string) $article['sourceDate']) ?><?php endif; ?></p></section><?php endif; ?>
