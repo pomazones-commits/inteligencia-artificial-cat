@@ -792,3 +792,69 @@ test('fotos-llicencia.py passa les seves proves sense xarxa', () => {
   assert.equal(result.status, 0, result.stderr);
   assert.match(result.stdout, /\d+ proves OK/);
 });
+
+// ── Vídeos associats (prova pilot des del 06.10.2026) ─────────────────────────
+test('publica un vídeo verificat i el conserva en el lot següent', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const first = join(root, 'first.json');
+  const second = join(root, 'second.json');
+  const items = Array.from({ length: 5 }, (_, index) => story(index + 1));
+  items[0].video = {
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=30s',
+    idioma: 'EN',
+    resum: 'Resum en català del vídeo.',
+    titol: 'Títol real',
+    canal: 'Canal oficial',
+    canalUrl: 'https://www.youtube.com/@canal',
+    verificat: '2026-10-06'
+  };
+  await writeFile(first, JSON.stringify(items), 'utf8');
+  await writeFile(second, JSON.stringify(Array.from({ length: 5 }, (_, index) => story(index + 6))), 'utf8');
+  const args = file => ['ingest-news', '--input', file, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-10-06'];
+  assert.equal(run(args(first), root).status, 0);
+  assert.equal(run(args(second), root).status, 0);
+  const published = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  const withVideo = published.find(item => item.slug === 'noticia-de-prova-1');
+  assert.deepEqual(withVideo.video, {
+    id: 'dQw4w9WgXcQ',
+    verificat: '2026-10-06',
+    titol: 'Títol real',
+    canal: 'Canal oficial',
+    canalUrl: 'https://www.youtube.com/@canal',
+    idioma: 'en',
+    resum: 'Resum en català del vídeo.'
+  });
+  assert.equal(published.filter(item => item.video).length, 1);
+  const articles = JSON.parse(await readFile(join(root, 'data', 'articles.json'), 'utf8'));
+  assert.equal(articles.items.find(item => item.slug === 'noticia-de-prova-1').video.id, 'dQw4w9WgXcQ');
+});
+
+test('descarta sense aturar el lot els vídeos no verificats o amb URL dolenta', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  const items = Array.from({ length: 5 }, (_, index) => story(index + 1));
+  items[0].video = { url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', idioma: 'en', resum: 'Sense verificar.' };
+  items[1].video = { url: 'https://vimeo.com/12345', verificat: '2026-10-06' };
+  items[2].video = { url: 'https://www.youtube.com/@canal', verificat: '2026-10-06' };
+  items[3].video = 'https://youtu.be/dQw4w9WgXcQ';
+  await writeFile(input, JSON.stringify(items), 'utf8');
+  const result = run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-10-06'], root);
+  assert.equal(result.status, 0, result.stderr);
+  const published = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.equal(published.length, 5);
+  assert.equal(published.filter(item => 'video' in item).length, 0);
+});
+
+test('reconeix les adreces de YouTube i rebutja les altres', async () => {
+  const { youtubeId } = await import(resolve(import.meta.dirname, '..', 'scripts', 'videos.mjs'));
+  assert.equal(youtubeId('https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PL1'), 'dQw4w9WgXcQ');
+  assert.equal(youtubeId('https://youtu.be/dQw4w9WgXcQ?si=abc'), 'dQw4w9WgXcQ');
+  assert.equal(youtubeId('https://www.youtube.com/shorts/dQw4w9WgXcQ'), 'dQw4w9WgXcQ');
+  assert.equal(youtubeId('https://www.youtube.com/live/dQw4w9WgXcQ'), 'dQw4w9WgXcQ');
+  assert.equal(youtubeId('https://m.youtube.com/watch?v=dQw4w9WgXcQ'), 'dQw4w9WgXcQ');
+  assert.equal(youtubeId('dQw4w9WgXcQ'), 'dQw4w9WgXcQ');
+  assert.equal(youtubeId('https://www.youtube.com/@OpenAI'), '');
+  assert.equal(youtubeId('https://www.youtube.com/playlist?list=PL123'), '');
+  assert.equal(youtubeId('https://evil.example/watch?v=dQw4w9WgXcQ'), '');
+  assert.equal(youtubeId(''), '');
+});
