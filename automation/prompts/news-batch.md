@@ -96,6 +96,40 @@ Abans del commit, executa `python3 automation/scripts/fotos-llicencia.py --input
 
 La pàgina de l'article mostra sola el peu «Foto: …» per a les fotos reals i «Il·lustració generada amb IA» per a la resta.
 
+## Camp opcional `video` (prova pilot del 06.10 al 13.10.2026)
+
+Una notícia pot portar un vídeo de YouTube que expliqui **el mateix fet**. La pàgina de l'article el mostra sota el text, amb una miniatura que només carrega el reproductor quan el lector hi fa clic.
+
+**És l'excepció, no la norma: entre 0 i 3 vídeos per edició sencera (els quatre lots), i en cap lot n'hi ha d'haver més de 2.** Més val cap vídeo que un vídeo dubtós.
+
+Només hi va un vídeo si compleix **TOTES** aquestes condicions:
+
+1. **Font fiable**, per aquest ordre de preferència:
+   - el **canal oficial** de qui protagonitza el fet: l'empresa (OpenAI, Anthropic, Google, Google DeepMind, Meta, NVIDIA, Microsoft, Apple…), la institució (Comissió Europea, Parlament Europeu, Govern, Parlament de Catalunya, La Moncloa), la universitat o el centre de recerca (BSC, UPC, CSIC…), o la revista (*Nature*, *Science*);
+   - una **televisió o un mitjà reconegut**: 3Cat (TV3, 324), betevé, À Punt, IB3, RTVE, BBC, DW, Reuters, AP, Bloomberg, CNBC…;
+   - la **gravació oficial** d'una conferència o d'un congrés (la ponència, la roda de premsa).
+   🛑 **Mai** canals de comentaristes, recopilacions, «reaccions», vídeos amb veu sintètica o fets amb IA, ni retransmissions d'aficionats d'un acte, encara que tinguin moltes visualitzacions.
+2. **Tracta exactament aquest fet**, no el tema en general. Una notícia sobre el model nou d'OpenAI → el vídeo de presentació d'aquest model, no una entrevista antiga a Altman.
+3. **És d'aquests dies** (publicat, com a màxim, uns quants dies abans de la notícia), llevat que la notícia sigui precisament sobre un vídeo o una ponència anteriors.
+4. **Prioritat al català**: si el mateix fet té un vídeo de 3Cat, betevé, À Punt o IB3, tria aquest.
+
+Com trobar-lo: cerca a la web `site:youtube.com` + el nom del producte, de l'acte o de la institució, i comprova el canal llegint `https://www.youtube.com/oembed?format=json&url=<URL del vídeo>` (amb l'eina de lectura web, que sí que hi arriba): el camp `author_name` és el canal. Si no pots confirmar el canal, no hi posis el vídeo.
+
+Format (dins de la notícia, al costat dels altres camps):
+
+```json
+"video": {
+  "url": "https://www.youtube.com/watch?v=XXXXXXXXXXX",
+  "idioma": "en",
+  "resum": "Dues o tres frases en català que expliquin què s'hi veu i què s'hi diu."
+}
+```
+
+- `url`: l'adreça del vídeo a YouTube (no d'una llista ni d'un canal).
+- `idioma`: codi de dues lletres de la llengua en què es parla (`ca`, `es`, `en`, `fr`…). Si és en una altra llengua que no és el català, la pàgina ja avisa el lector i intenta posar-li els subtítols en català.
+- `resum`: **obligatori si el vídeo no és en català**. Dues o tres frases (màxim 60 paraules) que diguin què s'hi veu i què s'hi diu, perquè el lector que no entén la llengua sàpiga què hi trobarà. Amb les mateixes regles de llengua que la resta de la notícia. No hi transcriguis frases senceres del vídeo.
+- **No hi posis títol, canal ni `verificat`**: els omple sols el workflow `content-hub.yml`, que comprova a YouTube que el vídeo existeix i es pot inserir, i que llegeix el títol i el canal reals. Si el vídeo no passa la comprovació, la notícia es publica igualment, sense vídeo.
+
 ## Camp opcional `seccio` (encaminament de seccions)
 
 A part dels camps de dalt, cada notícia pot portar un camp OPCIONAL `seccio` per decidir a quina secció del web va:
