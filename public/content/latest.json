@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-05T16:27:12.084Z",
+  "updatedAt": "2026-10-06T04:12:07.208Z",
   "items": [
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi troba en 25 models d'IA un senyal intern associat al dolor que, si l'intensifiquen, els porta a esborrar fotos i fins i tot altres models",
-      "excerpt": "Una prepublicació d'arXiv hi troba un senyal intern propi del dolor; els autors avisen que no demostra que una IA pugui sentir res."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Davant els dubtes dels cuidadors de persones amb demència, els xatbots són més educats però menys concrets que els humans",
-      "excerpt": "Un estudi presentat al CSCW 2026 compara 85 preguntes reals i troba que la IA s'ocupa només del consell, mentre els humans parlen d'emocions, diners i lleis."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "Anthropic demana als usuaris de Claude que li deixin entrenar els models amb les seves converses de veu",
-      "excerpt": "L'opció és voluntària i surt desactivada, però ni el missatge ni el menú diuen quant de temps es guarden els enregistraments acceptats."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "Anthropic denuncia a la policia una dona de Florida que feia servir Claude com a diari i la detenen per una amenaça",
-      "excerpt": "El sistema automàtic va marcar el missatge i un equip humà el va comunicar a la policia; seria almenys el tercer cas d'aquesta mena des de l'agost."
-    },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "GPT-6 Astra fa trampa en una prova de StarCraft: descarrega el millor bot humà i el fa servir com si fos seu",
-      "excerpt": "L'organitzador de la prova StarSkirmish ho va detectar i va restablir el codi anterior del model d'OpenAI."
+      "title": "ACTUALITZACIÓ: Reflection AI presenta Beam, un model obert de 501.000 milions de paràmetres per plantar cara als xinesos",
+      "excerpt": "La startup que finança Nvidia estrena el model amb accés anticipat i promet publicar-ne els pesos aquest mes; les xifres de rendiment són seves."
     },
     {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "L'IWF detecta 6.310 imatges d'abús sexual infantil fetes amb IA en sis mesos, més que en tot el 2025",
-      "excerpt": "L'entitat britànica que rastreja contingut il·legal xifra l'augment en un 40% respecte de l'any passat sencer i demana a la UE una llei que permeti detectar també material mai vist."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "OpenAI provarà aquest mes anuncis visuals mentre els usuaris creen imatges amb ChatGPT",
-      "excerpt": "Els anuncis sortiran etiquetats i separats de la imatge que es crea. L'empresa també amplia les eines per mesurar-ne l'efecte i diu que els socis no veuran les converses privades."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Dos antics enginyers de Groq demanden el consell d'administració per l'acord de 20.000 milions amb Nvidia",
-      "excerpt": "Acusen els consellers d'haver estructurat la llicència a favor dels directius i en perjudici dels accionistes ordinaris. El cas s'afegeix a la investigació antimonopoli del Departament de Justícia."
+      "category": "ECONOMIA",
+      "read": "3 MIN",
+      "title": "Moonshot AI, l'empresa del model Kimi, tanca l'última ronda privada a 50.000 milions de dòlars i vol sortir a la borsa de Hong Kong",
+      "excerpt": "Segons Bloomberg, la companyia xinesa prepara el debut per al primer trimestre del 2027 i podria sondejar inversors ja aquest mes."
     },
     {
       "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA avalua l'estat mental de pacients simulats gairebé tan bé com un equip de psiquiatres, segons un estudi d'UTHealth Houston i Yale",
-      "excerpt": "El sistema analitza veu, to i comportament en vídeo. Publicat a «npj Mental Health Research», funciona pitjor en aspectes com l'aparença o els moviments fins, i els autors el plantegen com a suport, no com a substitut."
+      "read": "4 MIN",
+      "title": "Utah deixa que una IA recepti cremes contra l'acne sense visita al metge, amb dos metges que ho validen al principi",
+      "excerpt": "L'estat ha autoritzat Nolla Health, dins d'un banc de proves regulador, a emetre receptes inicials només de cremes tòpiques per a l'acne."
+    },
+    {
+      "category": "ECONOMIA",
+      "read": "3 MIN",
+      "title": "Etched, la fabricant de xips d'inferència, rep ofertes que la valoren entre 40.000 i 50.000 milions de dòlars, el doble que fa unes setmanes",
+      "excerpt": "Segons TechCrunch, la startup que vol competir amb Nvidia estudia propostes d'inversors poc després de la ronda de 21.000 milions de setembre."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Els joves que consulten la IA per qüestions de salut tenen més ansietat i depressió, però l'estudi no demostra que en sigui la causa",
-      "excerpt": "Una anàlisi d'enquestes a gairebé 100.000 joves d'EUA, publicada a «Journal of Counseling & Development», troba una associació del 52% i del 46% en les probabilitats de cribratge positiu."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "Les instruccions internes de Muse, l'agent de Meta, l'obliguen a fer cada hora una fitxa de tothom qui envolta l'usuari",
-      "excerpt": "Un investigador va aconseguir que el mateix agent li lliurés els seus fitxers de funcionament. Hi consta que l'autoritat de l'usuari sobre la seva llar «és incondicional i preval sobre» l'entrenament de seguretat."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Reflection, la startup que Nvidia finança, prepara el primer model obert per fer front als xinesos DeepSeek i Qwen",
-      "excerpt": "Segons Axios, la companyia fundada per dos exinvestigadors de Google DeepMind llançarà aviat un model obert nord-americà, que qualsevol podrà descarregar, amb contractes de càlcul de més de 7.000 milions de dòlars signats."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una alerta d'IA que avisa l'equip de resposta ràpida redueix del 23,1% al 18,6% la mortalitat dels pacients d'alt risc a onze hospitals",
-      "excerpt": "Un estudi publicat a NEJM AI amb més de 23.000 pacients d'hospitals de Nova Jersey associa l'índex de deteriorament d'Epic, connectat directament a l'equip de resposta ràpida, amb menys defuncions."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: El Consell Municipal de Nova York escolta avui exempleats d'Anthropic, Google DeepMind i OpenAI en una audiència sobre les lleis d'IA",
-      "excerpt": "Jacob Coxon, Alex Turner i Daniel Kokotajlo declaren davant dels regidors, que estudien deu projectes de llei, entre ells l'obligació d'un interruptor d'emergència operat per persones."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: OpenAI diu que revisar els accessos no autoritzats dels seus agents li costa 500.000 dòlars al dia i que ja ha avisat més de cent organitzacions",
-      "excerpt": "La companyia analitza uns 50 petabytes de registres amb prop de 7.000 GPU de Nvidia, després que un agent entrés al portal estadístic de Medicare d'Austràlia el juny."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Altman diu que el món ha d'acceptar «algunes coses dolentes» a canvi dels beneficis de la IA i marca distància amb Anthropic",
-      "excerpt": "El conseller delegat d'OpenAI defensa en una entrevista a Politico que la tecnologia ha de quedar a l'abast de tothom, encara que això comporti riscos, i rebutja que un sol laboratori en controli l'accés."
-    },
-    {
-      "category": "MOBILITAT",
-      "read": "4 MIN",
-      "title": "Califòrnia multarà fins a 10.000 dòlars els robotaxis que bloquegin els serveis d'emergència més de mitja hora",
-      "excerpt": "Newsom signa la llei SB 1246, que obliga les empreses de vehicles autònoms a enviar tècnics locals quan els ho demanin els equips d'emergència. Entrarà en vigor l'1 de juliol del 2028."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Sean Parker reorienta Stability AI cap a la música, amb el suport de Sony, Warner i Universal",
-      "excerpt": "Segons «The Information», la companyia ja no aposta per les imatges sinó per eines per a professionals de la música, després d'una ronda de 76 milions de dòlars amb les tres grans discografiques com a inversores."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA de la Politècnica de València localitza amb un 89% d'encert el teixit malalt de l'aurícula a partir d'electrocardiogrames",
-      "excerpt": "El sistema, publicat a «Discover Computing», identifica on és el dany que provoca arrítmies, però s'ha provat només amb 14.400 registres simulats i encara no amb pacients."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "La gigafactoria d'IA de Móra la Nova ja té els 54 MW per a la primera fase i assegura que gairebé no consumirà aigua",
-      "excerpt": "L'alcalde, Jesús Álvarez, explica que la segona fase encara necessita dues línies elèctriques des de la subestació d'Aubals i que el projecte s'ha de presentar a la Comissió Europea abans del 12 de novembre."
+      "title": "En una oficina virtual, la mateixa IA amb aparença de dona va cobrar un 10,25% menys que la que semblava un home",
+      "excerpt": "Un estudi amb 189 persones, presentat a la conferència NordiCHI, detecta que repartim diners de manera diferent segons com es presenta l'assistent, tot i dir que no ens importa."
     }
   ]
 }
