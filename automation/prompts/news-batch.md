@@ -100,7 +100,11 @@ La pàgina de l'article mostra sola el peu «Foto: …» per a les fotos reals i
 
 Una notícia pot portar un vídeo de YouTube que expliqui **el mateix fet**. La pàgina de l'article el mostra sota el text, amb una miniatura que només carrega el reproductor quan el lector hi fa clic.
 
-**És l'excepció, no la norma: entre 0 i 3 vídeos per edició sencera (els quatre lots), i en cap lot n'hi ha d'haver més de 2.** Més val cap vídeo que un vídeo dubtós.
+**Fins a 6 vídeos per edició sencera (els quatre lots), i com a màxim 2 per lot** (ampliat de 3 a 6 el 06.10.2026, a petició d'en Rafael). Abans de posar-ne cap, compta a `public/news.js` quants n'han sortit avui (notícies amb camp `video`).
+
+🛑 **És un sostre, no una quota.** Si un dia només n'hi ha un de bo, se'n posa un; si no n'hi ha cap, cap. Més val cap vídeo que un vídeo dubtós: no omplis el buit amb canals de comentaristes ni amb vídeos que no tracten ben bé el fet.
+
+On n'hi sol haver: **llançaments i presentacions** (OpenAI, Google, Anthropic, Meta, NVIDIA: gairebé sempre tenen vídeo oficial), **notícies catalanes** (peça de 3Cat o betevé, vídeo del Govern o del Parlament) i **ciència** (vídeo explicatiu de la universitat, del laboratori o de la revista). Les notícies d'economia i d'inversions rarament en tenen cap que valgui la pena.
 
 Només hi va un vídeo si compleix **TOTES** aquestes condicions:
 
