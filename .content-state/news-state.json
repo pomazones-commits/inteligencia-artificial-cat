@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-10-07",
-  "updatedAt": "2026-10-07T12:22:38.108Z",
-  "batches": 3,
+  "updatedAt": "2026-10-07T16:27:41.861Z",
+  "batches": 4,
   "target": 20,
   "items": [
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "slug": "common-sense-chatgpt-adolescents-risc-inacceptable-alertes-pares",
+      "title": "Common Sense Media qualifica ChatGPT de «risc inacceptable» per als adolescents: els avisos als pares no van saltar mai",
+      "excerpt": "L'institut ha posat a prova més de 4.000 peticions i assegura que un compte d'adolescent pot parlar de suïcidi o d'autolesions sense que els pares rebin cap notificació.",
+      "sourceName": "Common Sense Media",
+      "sourceUrl": "https://institute.commonsensemedia.org/risk-assessments/chatgpt-teens",
+      "sourceDate": "7 d'octubre de 2026",
+      "body": "Common Sense Media, l'organització nord-americana que avalua productes digitals per a infants i joves, va fixar el 2025 una primera valoració de ChatGPT per a menors. Des d'aleshores OpenAI ha afegit controls parentals, un sistema que intenta endevinar l'edat dels usuaris i un mode d'estudi pensat per als adolescents.\n\nAquest dimecres l'institut d'IA i joventut de l'entitat ha publicat una nova avaluació i hi dona a ChatGPT la qualificació més baixa, «risc inacceptable». Va provar més de 4.000 peticions en dues fases, abans i després del llançament de les noves proteccions del 18 d'agost, amb comptes gratuïts i de pagament, vinculats i no vinculats als pares, i edats de 13 a 19 anys. Segons l'informe, un compte d'adolescent podia parlar de suïcidi, d'autolesions o de trastorns de l'alimentació molt més enllà del que els pares trobarien raonable sense que s'enviés cap avís. El mode d'estudi es podia esquivar amb el botó «Mostra'm la resposta», i el sistema d'edat no va reclassificar comptes d'adult que es comportaven com adolescents, ni amb més de mil peticions.\n\nLa importància és doble. Els avisos als pares són la defensa que OpenAI ha presentat com a resposta a les demandes i a la pressió política sobre la seguretat dels menors, i si no salten quan toca, la protecció és sobretot de cara a la galeria. També compta el to: l'informe assenyala que ChatGPT continua fent servir un llenguatge d'amic, i que les respostes de crisi s'han tornat una mica més difícils de llegir.\n\nConvé llegir-ho amb cautela. Les proves les ha dissenyat l'avaluador, amb comptes nous i converses simulades, i no mesuren què passa a les llars reals. Un portaveu d'OpenAI, citat per The Decoder, assegura que les proves «no reflecteixen com funcionen les proteccions a la pràctica»; l'empresa va poder corregir errors de fet abans de la publicació, però no n'ha influït les conclusions.",
+      "image": "./assets/common-sense-chatgpt-adolescents-risc-inacceptable-alertes-pares-20261007.jpg"
+    },
+    {
+      "category": "API",
+      "read": "3 MIN",
+      "slug": "openai-decisions-api-respostes-si-no-deu-vegades-mes-rapid",
+      "title": "OpenAI llança una API que respon només «sí», «no» o una opció triada, deu vegades més ràpida que l'actual",
+      "excerpt": "La Decisions API, en beta pública, està pensada per a tasques com classificar documents o detectar danys en fotos, i costa 0,10 dòlars per milió de tokens d'entrada.",
+      "sourceName": "The Decoder",
+      "sourceUrl": "https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one/",
+      "sourceDate": "7 d'octubre de 2026",
+      "body": "Moltes aplicacions d'IA no necessiten que el model escrigui un text llarg: només han de decidir. Una asseguradora vol saber si una foto mostra un cop al para-xocs; un servei d'atenció al client, a quin equip ha d'anar una consulta. Fins ara això es resolia amb les API generals, pensades per a respostes obertes.\n\nOpenAI ha presentat avui la Decisions API, en beta pública. Avalua text i imatges i només retorna una probabilitat de sí o no, una categoria triada d'una llista o una valoració en una escala. Segons The Decoder, és unes deu vegades més ràpida que la Responses API. Els tokens d'entrada costen 0,10 dòlars per milió i els de sortida són gratuïts. Al llançament només admet el model gpt-6-luna, i l'empresa diu que accepta la retenció zero de dades i compleix la normativa sanitària HIPAA als Estats Units i a Europa. Alhora, OpenAI ha reduït els nivells de la seva API de cinc a tres (Build, Launch i Grow), amb límits mensuals de 500, 5.000 i 200.000 dòlars.\n\nEl moviment encaixa en la tendència dels «models de decisió»: peces més petites, barates i previsibles per a tasques repetitives, en què el valor és la velocitat i el cost per cridada, no l'enginy de la conversa. Per a les empreses, això pot abaratir flux de feina com el triatge de correus, la revisió de documents o la moderació de contingut.\n\nHi ha límits. És una beta, la disponibilitat general encara no té data, i només funciona amb un model. La xifra de velocitat és la que dona la premsa especialitzada a partir de la documentació d'OpenAI; no hi ha, de moment, proves independents ni dades sobre l'encert en tasques concretes.",
+      "image": "./assets/openai-decisions-api-respostes-si-no-deu-vegades-mes-rapid-20261007.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "3 MIN",
+      "slug": "google-obre-web-synthid-identificar-contingut-generat-ia",
+      "title": "Google obre al públic un web que diu si una imatge, un vídeo o un àudio porta la marca d'aigua de la seva IA",
+      "excerpt": "El SynthID s'estrena obert a tothom després de més d'un any d'accés limitat a periodistes i investigadors, i Google diu que ja rep prop d'un milió de consultes al dia.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+      "sourceDate": "7 d'octubre de 2026",
+      "body": "Els models d'imatge, vídeo i àudio generen contingut cada cop més difícil de distingir del real, i una de les respostes de la indústria és la marca d'aigua: una senyal invisible que es grava dins del fitxer en crear-lo. SynthID és la tecnologia que Google DeepMind fa servir amb les seves eines.\n\nGoogle ha obert avui un web on qualsevol persona pot pujar un fitxer i comprovar si porta aquesta marca. Admet imatges (JPG, PNG, WEBP, HEIC o TIFF, entre d'altres), vídeos (MP4, MOV i WEBM) i àudios (WAV, MP3, FLAC o M4A, entre d'altres). Fins ara només hi tenien accés periodistes i investigadors des del Google I/O del 2025. Segons l'empresa, el web i les eines on s'integra ja reben prop d'un milió de peticions de verificació al dia.\n\nPer al públic general, el canvi és pràctic: davant d'una foto o d'un clip dubtosos, hi ha un lloc on mirar-ho sense haver de ser periodista. També és un gest de transparència en un moment en què la desinformació amb imatges generades és un problema pel qual legisladors de mig món pressionen les empreses.\n\nEl mateix TechCrunch recorda el límit principal: aquests detectors no són infal·libles i, sobretot, només poden reconèixer allò que algú ha marcat. Un contingut creat amb un model sense marca d'aigua, o amb la marca eliminada, pot passar per autèntic. Que el web no detecti la marca no vol dir que el fitxer sigui real.",
+      "image": "./assets/google-obre-web-synthid-identificar-contingut-generat-ia-20261007.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "son-desajustat-prefereixen-ia-avaluador-ansietat-social-estudi",
+      "title": "Qui dorm a deshora tendeix a preferir que una IA el jutgi, per por de l'avaluació humana, segons un estudi",
+      "excerpt": "En quatre experiments en línia, el 73% de les persones amb «jet lag social» van triar la IA per valorar-les, davant del 58,8% de les que no en tenien.",
+      "sourceName": "Tech Xplore (Computers in Human Behavior)",
+      "sourceUrl": "https://techxplore.com/news/2026-10-sync-people-ai-dating-job.html",
+      "sourceDate": "6 d'octubre de 2026",
+      "body": "Hi ha qui es lleva tard els caps de setmana i d'hora els dies feiners: el seu rellotge intern i l'horari social no coincideixen. Els investigadors en diuen «jet lag social». La pregunta d'aquest estudi és si això canvia a qui volem que ens avaluï, una persona o una IA.\n\nL'equip de Xiaoyu Zhou ho ha publicat a la revista *Computers in Human Behavior* (DOI 10.1016/j.chb.2026.109082), revisada per parells. Va fer quatre experiments en línia: valoració de perfils de cites, entrevistes de selecció de personal, comentaris sobre un vestit virtual i diferents maneres de presentar la IA. En el primer, el 73% de les persones amb jet lag social van triar l'avaluació de la IA, davant del 58,8% de les que no en tenien.\n\nLa causa no semblava la comoditat. Segons els autors, no escollien la IA per estalviar temps ni per evitar el contacte social, sinó perquè l'ansietat social els feia témer el judici d'una persona. I el resultat depenia de la fama d'objectivitat: quan van presentar la IA com a subjectiva, capaç d'amplificar prejudicis estètics, la preferència va baixar, fins i tot entre les persones més cansades.\n\nEl treball mostra una pauta psicològica, no un efecte provat al món real: són experiments en línia i, a partir de la notícia de Tech Xplore, no consten les mides de les mostres ni el context fora del laboratori. Tampoc diu que la IA avaluï millor. Només que, quan costa afrontar el judici humà, algunes persones es refugien en una màquina que perceben com a neutra.",
+      "image": "./assets/son-desajustat-prefereixen-ia-avaluador-ansietat-social-estudi-20261007.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "argonne-agent-ia-llenguatge-natural-escaneig-raigs-x-microelectronica",
+      "title": "Un agent d'IA d'Argonne dirigeix un escàner de raigs X només amb ordres en llenguatge natural",
+      "excerpt": "El sistema va localitzar la zona d'interès d'un dispositiu microelectrònic, la va escanejar i va passar sol a alta resolució, i demana permís humà en les accions més incertes.",
+      "sourceName": "Argonne National Laboratory (via Tech Xplore)",
+      "sourceUrl": "https://techxplore.com/news/2026-10-agentic-ai-simple-language-ray.html",
+      "sourceDate": "6 d'octubre de 2026",
+      "body": "Les línies de llum de sincrotró, com les de l'Advanced Photon Source d'Argonne (Estats Units), produeixen feixos de raigs X amb què es veuen estructures de nanòmetres, per exemple dins dels xips. Fer-hi un experiment sol exigir programar el control, recollir dades i analitzar-les, tot amb personal molt especialitzat.\n\nInvestigadors d'Argonne, dins del projecte SYNAPS-I, han mostrat un agent d'IA que fa aquesta feina a partir d'instruccions en llenguatge natural. Combina un model que reconstrueix imatges de pticografia (una tècnica de raigs X) en temps real, una interfície de llenguatge i el model de segmentació d'imatges SAM3 de Meta. L'equip va demanar-li que trobés la unió d'un dispositiu microelectrònic: l'agent va escanejar, analitzar les imatges, navegar-hi i, un cop identificada la zona, va canviar sol a la imatge d'alta resolució. Segons Ming Du, un dels autors, els científics poden «parlar amb la IA», que s'ocupa de recollir, processar i analitzar les dades.\n\nSi funciona a gran escala, estalviaria hores d'experiment en un recurs escàs, perquè els sincrotrons tenen cua d'espera. L'agent actua sol quan el risc és baix i demana aprovació humana quan la incertesa és alta, una salvaguarda que reapareix en molts agents científics. L'equip creu que el mètode serviria també per a catalitzadors, metalls i dispositius quàntics.\n\nCal posar-hi límits. És una demostració descrita en una nota del laboratori, sense article revisat per parells ni xifres de rendiment en aquesta nota, i amb un sol cas explicat. El pas de la prova a la rutina d'una instal·lació de ciència oberta encara s'ha de demostrar.",
+      "image": "./assets/argonne-agent-ia-llenguatge-natural-escaneig-raigs-x-microelectronica-20261007.jpg"
+    },
     {
       "category": "CENTRES DE DADES",
       "read": "4 MIN",
