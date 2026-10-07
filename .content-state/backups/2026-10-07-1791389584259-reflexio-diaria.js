@@ -1,0 +1,33 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-10-06",
+  "title": "La promesa que ningú no firma",
+  "dek": "Les empreses no garanteixen el comportament dels seus agents, i alhora el capital i la sobirania acceleren la cursa.",
+  "body": [
+    "Si l'edició d'avui té un fil, és una frase que ningú no ha volgut pronunciar: «ho garantim». Davant el consell municipal de Nova York, OpenAI, Anthropic, Meta i Google van negar-se a assegurar sota jurament que els seus agents compliran sempre les salvaguardes. Cap no va prometre la perfecció, i Anthropic va admetre que la ciència per fer-ho «encara no està resolta». El mateix dia, el cap dels drets humans de l'ONU, Volker Türk, deia que ja no es pot confiar en la bona voluntat de les empreses, i OpenAI demanava perdó a un Parlament, el d'Austràlia, pels accessos dels seus models a webs públiques.",
+    "No és nou que el sector reconegui límits. El que sí que ho és, aquesta vegada, és que ho diu davant una institució que pregunta amb la mà alçada. La disculpa d'Austràlia en dona la mida concreta: els incidents són de juny, la companyia els va detectar a mitjans d'agost i els primers avisos són del 10 de setembre. Segons el seu propi relat, només es van consultar dades no sensibles. Però la crítica dels parlamentaris no era per les dades, sinó per la manera d'avisar. Avui el debat ja no gira tant al voltant del risc en abstracte com de qui avisa, quan i per quin canal.",
+    "Mentrestant, els diners no han frenat. Moonshot AI tanca una ronda privada a 50.000 milions de dòlars i prepara la borsa de Hong Kong; Etched rep ofertes que la valoren entre 40.000 i 50.000 milions, el doble que fa unes setmanes; DayOne demana entrar al Nasdaq amb uns ingressos gairebé duplicats, tot i que continua en pèrdues; i Google contracta 3,6 gigawatts a Constellation Energy per alimentar els seus centres de dades. La paradoxa és vistosa: les empreses no poden garantir el comportament dels seus agents i, alhora, és el moment en què més capital s'hi concentra.",
+    "Hi ha una segona línia, més geopolítica, que explica part d'aquesta febre: la sobirania. Mistral ha presentat Large 4, un model d'un bilió de paràmetres que diu que és el més potent fora de la Xina, amb els pesos obertament descarregables el 27 d'octubre. Reflection AI estrena Beam, també obert, i Corea del Sud prepara un projecte de 3.500 milions de dòlars per tenir un model propi que competeixi amb els xinesos. Tres països i una mateixa idea: no dependre d'un proveïdor aliè. Convé recordar, això sí, que les xifres de rendiment de Mistral i de Reflection són de les mateixes empreses.",
+    "Entre tant soroll, hi ha escenes més petites i, potser per això, més informatives. Utah deixa que una IA recepti cremes contra l'acne, dins d'un banc de proves regulador i amb dos metges que vigilen al principi. És una manera de respondre a la pregunta de Nova York sense prometre la perfecció: es limita què pot fer el sistema, es posa algú a mirar-lo i es veu què passa. En l'àmbit de la salut, la ciència d'avui mostra els dos costats: una IA que llegeix 400.000 missatges de Reddit per trobar efectes secundaris que els assaigs no veuen, i un model per descartar el rebuig d'un cor trasplantat que només s'ha provat amb 38 pacients.",
+    "La tendència que s'insinua és que la confiança deixa de ser una declaració i passa a ser un procediment: registres revisats, avisos als ministres i no a una bústia, marques d'aigua als textos, permisos limitats i bancs de proves. Ho és, en part, perquè la garantia absoluta no existeix. Demà valdrà la pena mirar dues coses: si la comissió australiana aconsegueix de l'empresa una revisió dels registres que desvetlli més casos, i si els arguments de sobirania, que avui sonen a política industrial, acaben convertits en normes sobre qui pot obrir quins models i en quines condicions."
+  ],
+  "signals": [
+    {
+      "title": "OpenAI, Anthropic, Meta i Google no garanteixen davant del consell municipal de Nova York que els seus agents d'IA compliran sempre les salvaguardes",
+      "slug": "nyc-council-agents-salvaguardes"
+    },
+    {
+      "title": "ACTUALITZACIÓ: OpenAI demana perdó al Parlament australià pels accessos dels seus models a webs públiques i promet avisar abans",
+      "slug": "openai-demana-perdo-parlament-australia-accessos-agents"
+    },
+    {
+      "title": "Mistral presenta Large 4, un model d'un bilió de paràmetres que publicarà en obert el 27 d'octubre",
+      "slug": "mistral-large-4-le-chonk-model-obert-bilio-parametres"
+    },
+    {
+      "title": "Moonshot AI, l'empresa del model Kimi, tanca l'última ronda privada a 50.000 milions de dòlars i vol sortir a la borsa de Hong Kong",
+      "slug": "moonshot-ai-borsa-hong-kong-valoracio-50-mil-milions"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 624
+};
