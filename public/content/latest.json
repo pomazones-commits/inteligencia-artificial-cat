@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-06T16:12:32.682Z",
+  "updatedAt": "2026-10-07T04:13:12.162Z",
   "items": [
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Mistral presenta Large 4, un model d'un bilió de paràmetres que publicarà en obert el 27 d'octubre",
-      "excerpt": "L'empresa francesa diu que és el sistema obert més potent fora de la Xina i el presenta com a alternativa europea sobirana."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: OpenAI demana perdó al Parlament australià pels accessos dels seus models a webs públiques i promet avisar abans",
-      "excerpt": "Davant una comissió conjunta, un directiu de l'empresa va admetre que la resposta a l'incident «podia haver estat millor»."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "3 MIN",
-      "title": "Corea del Sud posarà 3.500 milions de dòlars l'any que ve en un model d'IA propi capaç de competir amb els xinesos",
-      "excerpt": "El Govern coreà pagarà la meitat del cost, repartirà 29.000 GPU públiques i exigirà a les empreses una aportació igual."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA llegeix 400.000 missatges de Reddit i hi troba efectes secundaris dels fàrmacs contra l'obesitat que no consten als assaigs",
-      "excerpt": "Un estudi de Pennsilvània a «Nature Health» detecta alteracions menstruals i símptomes de fred i calor entre usuaris de semaglutida i tirzepatida."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA combina electrocardiogrames i anàlisis de sang per descartar el rebuig d'un cor trasplantat i estalviar biòpsies",
-      "excerpt": "Un equip de NYU Langone ha entrenat el model amb dades de 2.357 receptors, però l'ha provat només amb 38 pacients."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "OpenAI, Anthropic, Meta i Google no garanteixen davant del consell municipal de Nova York que els seus agents d'IA compliran sempre les salvaguardes",
-      "excerpt": "En una audiència al consell municipal de Nova York, la presidenta li va demanar a cada empresa que ho jurés. Cap no ho va fer."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "El cap dels drets humans de l'ONU demana salvaguardes obligatòries per a la IA: «Ja no ens podem permetre esperar ni confiar en la bona voluntat»",
-      "excerpt": "Volker Türk diu que l'autoregulació de les empreses no basta i reclama prohibir que les màquines decideixin sobre la vida i la mort."
-    },
-    {
-      "category": "ENERGIA",
-      "read": "4 MIN",
-      "title": "Google contracta 3,6 gigawatts a Constellation Energy, una quarta part de nova energia nuclear, per alimentar els centres de dades",
-      "excerpt": "L'acord combina 890 megawatts de reactors ampliats a 20 anys i 2.700 megawatts més a la xarxa PJM, als Estats Units."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un nou model de món, derivat de l'arquitectura JEPA de LeCun, funciona en set àmbits i proposa un tractament contra el càncer de fetge que ha superat proves de laboratori",
-      "excerpt": "Una prepublicació d'arXiv, encara no revisada per parells, redueix un 34,8% l'error en prediccions d'intervencions i suggereix una combinació de fàrmacs que s'ha provat en cèl·lules, organoides i ratolins."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Vuit antics empleats d'OpenAI, Anthropic i Google DeepMind expliquen per què van marxar: la cursa, els usos militars i la llibertat per parlar",
-      "excerpt": "Un reportatge de «New York Magazine» i «Asterisk» recull els motius d'investigadors que van deixar els grans laboratoris per treballar en seguretat, auditoria o política."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "OpenAI afegirà una marca d'aigua invisible als textos de ChatGPT i Codex a la Unió Europea",
-      "excerpt": "La tècnica, anomenada textGrain, s'estendrà en les pròximes setmanes als usuaris europeus per complir la llei d'IA; qui vulgui detectar-la n'haurà de tenir permís."
-    },
     {
       "category": "CIBERSEGURETAT",
       "read": "4 MIN",
-      "title": "Corea del Sud investiga el pirateig de set entitats financeres, amb una eina d'IA de codi obert pel mig",
-      "excerpt": "La policia ha trobat rastres d'Artex AI, un programa de proves d'intrusió, en les adreces des d'on es va atacar; els experts alerten de no atribuir-ho a «la IA xinesa»."
+      "title": "Anthropic obre tres nivells d'accés a Claude, amb menys filtres, per als professionals de la ciberseguretat verificats",
+      "excerpt": "El nou programa de verificació substitueix el Projecte Glasswing i obre a defensors, equips de simulació d'atacs i operadors d'infraestructures crítiques unes capacitats que normalment queden bloquejades."
     },
     {
-      "category": "ECONOMIA",
+      "category": "AGENTS",
       "read": "4 MIN",
-      "title": "DayOne, el promotor asiàtic de centres de dades, demana sortir al Nasdaq amb uns ingressos que gairebé s'han duplicat",
-      "excerpt": "La companyia de Singapur va facturar 512 milions de dòlars el primer semestre i continua en pèrdues, mentre assegura 4,6 GW de capacitat en deu mercats."
+      "title": "Sierra i Meta proposen un estàndard obert perquè els agents d'IA personals puguin identificar-se davant les empreses",
+      "excerpt": "El protocol parteix d'OAuth: l'agent entra com a convidat i només guanya permisos de lectura o d'escriptura quan el client inicia sessió. Els pagaments queden per a més endavant."
     },
     {
       "category": "SALUT",
       "read": "5 MIN",
-      "title": "Un agent d'IA clínic que s'executa a l'hospital encerta el 90% dels diagnòstics i deixa als metges els casos dubtosos",
-      "excerpt": "Un estudi de Nature Medicine, dirigit per Jakob Nikolas Kather, mostra que un model obert local s'acosta al GPT-5.2 al núvol i que la coherència entre repeticions és un bon senyal de fiabilitat."
+      "title": "Google fa servir un model d'IA amb dades de cerques, mobilitat i clima per millorar les previsions de vacunació, dengue i còlera",
+      "excerpt": "Cinc casos pràctics, des de la vacuna del xarampió fins al còlera a la República Democràtica del Congo, mostren millores desiguals; el treball encara és una prepublicació."
     },
     {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "HackerRank obre a tots els clients Chakra, un entrevistador d'IA que avalua com treballa el candidat i no només què respon",
-      "excerpt": "Després de mig milió d'entrevistes en sis mesos de prova, l'eina uneix en una sola sessió el filtre, la prova a casa i l'entrevista tècnica."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Reflection AI presenta Beam, un model obert de 501.000 milions de paràmetres per plantar cara als xinesos",
-      "excerpt": "La startup que finança Nvidia estrena el model amb accés anticipat i promet publicar-ne els pesos aquest mes; les xifres de rendiment són seves."
-    },
-    {
-      "category": "ECONOMIA",
+      "category": "SOFTWARE",
       "read": "3 MIN",
-      "title": "Moonshot AI, l'empresa del model Kimi, tanca l'última ronda privada a 50.000 milions de dòlars i vol sortir a la borsa de Hong Kong",
-      "excerpt": "Segons Bloomberg, la companyia xinesa prepara el debut per al primer trimestre del 2027 i podria sondejar inversors ja aquest mes."
+      "title": "LibreOffice garanteix que la instal·lació per defecte no portarà cap funció d'IA generativa",
+      "excerpt": "La Document Foundation presenta la decisió com a funció de seguretat per a qui tracta dades confidencials; l'IA només hi arribarà per extensions opcionals amb models locals."
     },
     {
-      "category": "SALUT",
+      "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Utah deixa que una IA recepti cremes contra l'acne sense visita al metge, amb dos metges que ho validen al principi",
-      "excerpt": "L'estat ha autoritzat Nolla Health, dins d'un banc de proves regulador, a emetre receptes inicials només de cremes tòpiques per a l'acne."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "3 MIN",
-      "title": "Etched, la fabricant de xips d'inferència, rep ofertes que la valoren entre 40.000 i 50.000 milions de dòlars, el doble que fa unes setmanes",
-      "excerpt": "Segons TechCrunch, la startup que vol competir amb Nvidia estudia propostes d'inversors poc després de la ronda de 21.000 milions de setembre."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "En una oficina virtual, la mateixa IA amb aparença de dona va cobrar un 10,25% menys que la que semblava un home",
-      "excerpt": "Un estudi amb 189 persones, presentat a la conferència NordiCHI, detecta que repartim diners de manera diferent segons com es presenta l'assistent, tot i dir que no ens importa."
+      "title": "Lambda prepara una ronda de fins a 4.000 milions de dòlars amb una valoració de 14.500 milions abans de sortir a borsa el 2027",
+      "excerpt": "La cartera de comandes del proveïdor de càlcul per a IA ha passat de 15.000 a 50.000 milions de dòlars en tres mesos, gràcies sobretot a un contracte d'Anthropic."
     }
   ]
 }
