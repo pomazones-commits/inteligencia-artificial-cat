@@ -105,7 +105,7 @@ foreach ($substitucions as $patro => $nou) {
 $extra = '';
 if ($peca['dataIso'] !== '') { $extra .= '<meta property="article:published_time" content="' . $e($peca['dataIso']) . '">'; }
 if ($peca['autor'] !== '') { $extra .= '<meta name="author" content="' . $e($peca['autor']) . '">'; }
-$extra .= '<script>window.IA_PECA=' . json_encode(['tipus' => $tipus, 'idx' => $peca['idx'], 'url' => $url], JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) . ';</script>';
+$extra .= '<script>window.IA_PECA=' . json_encode(['tipus' => $tipus, 'id' => $peca['id'], 'idx' => $peca['idx'], 'url' => $url], JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) . ';</script>';
 
 $html = (string) preg_replace('/<head>/', "<head>\n  <base href=\"/\">", $html, 1);
 $html = (string) preg_replace('/<\/head>/', '  ' . $extra . "\n</head>", $html, 1);

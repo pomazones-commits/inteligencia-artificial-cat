@@ -1,5 +1,5 @@
 /* Adreces fixes de les peces editorials (24.09.2026).
-   Contracte públic: window.IAPeces = { slug, ids, cami, url, canonica, rolAmbEnllac }.
+   Contracte públic: window.IAPeces = { slug, ids, cami, url, canonica, posicio, rolAmbEnllac }.
 
    Cada peça de «La tribuna», «Estudis», l'anàlisi, el Quadern IA i la
    reflexió del dia té una adreça que no canvia mai: /tribuna/<id>,
@@ -83,8 +83,32 @@
     return c ? BASE + c : null;
   }
 
+  // Peça que demana peca.php (07.10.2026). Es busca per IDENTIFICADOR dins de la
+  // llista carregada (la vigent primer i després l'arxiu) i es retorna la posició
+  // amb el conveni de sempre: -1 = la vigent, N = arxiu[N]. Només si no es troba
+  // es fa servir l'idx que va calcular el servidor.
+  // Per què: l'HTML (amb l'idx) i les dades (.js) es poden obtenir en moments
+  // diferents (Googlebot renderitza hores o dies després de rastrejar, i amb
+  // memòria cau pròpia). Quan entra una peça nova, l'arxiu es desplaça una
+  // posició i l'idx apuntava a la peça VEÏNA: la pàgina mostrava una altra peça i
+  // en declarava la canònica. Search Console ho va marcar com a «Pàgina
+  // alternativa amb l'etiqueta canònica correcta» i «URL duplicat».
+  function posicio(tipus, llista) {
+    var p = window.IA_PECA;
+    if (!p || p.tipus !== tipus) return null;
+    var id = String(p.id || (p.url ? String(p.url).split('/').pop() : '') || '');
+    if (id && llista) {
+      var i = ids(tipus, llista).indexOf(id);
+      if (i >= 0) return i - 1;
+    }
+    return typeof p.idx === 'number' ? p.idx : null;
+  }
+
   // Posa la URL fixa a l'etiqueta <link rel="canonical"> i a og:url.
+  // A /tribuna/<id>, /analisi/<id>… (peca.php) mana sempre l'adreça que ha
+  // posat el servidor: la canònica no ha de dependre de les dades del navegador.
   function canonica(adreca) {
+    if (window.IA_PECA && window.IA_PECA.url) adreca = window.IA_PECA.url;
     if (!adreca) return;
     var link = document.querySelector('link[rel="canonical"]');
     if (link) link.href = adreca;
@@ -118,5 +142,5 @@
     el.appendChild(document.createTextNode(rol.slice(i + org.length)));
   }
 
-  window.IAPeces = { slug: slug, ids: ids, cami: cami, url: url, canonica: canonica, rolAmbEnllac: rolAmbEnllac };
+  window.IAPeces = { slug: slug, ids: ids, cami: cami, url: url, canonica: canonica, posicio: posicio, rolAmbEnllac: rolAmbEnllac };
 })();

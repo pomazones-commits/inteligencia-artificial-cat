@@ -79,14 +79,16 @@
 
   <script src="./estudis.js?v=2026100701b"></script>
   <script src="./estudis-arxiu.js?v=2026100701b"></script>
-  <script src="./peces.js?v=2026100101b"></script>
+  <script src="./peces.js?v=2026100701"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
     (function () {
       // /estudis/<id> (peca.php, via window.IA_PECA) o ?arxiu=N mostren un estudi
       // arxivat (estudis-arxiu.js); sense res, el vigent. idx -1 = el vigent.
       var arxiu = window.IA_ESTUDIS_ARXIU || [];
-      var forcat = window.IA_PECA && window.IA_PECA.tipus === 'estudis' ? window.IA_PECA.idx : null;
+      var forcat = window.IA_PECA && window.IA_PECA.tipus === 'estudis'
+        ? (window.IAPeces && window.IAPeces.posicio ? window.IAPeces.posicio('estudis', [window.IA_ESTUDI].concat(arxiu)) : window.IA_PECA.idx)
+        : null;
       var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
       var esArxivat = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
       var e = esArxivat ? arxiu[idx] : window.IA_ESTUDI;

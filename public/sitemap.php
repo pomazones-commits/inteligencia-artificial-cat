@@ -108,7 +108,12 @@ $urls[] = ['loc' => $base . '/', 'lastmod' => $siteIso];
 
 // Pàgines de secció: es reconstrueixen amb cada edició, per tant comparteixen
 // la data de l'última edició publicada.
-$pages = ['redaccio.html', 'avis-legal.html', 'eines.html', 'analisi.html', 'arxiu-analisis.html', 'arxiu-quadern.html', 'tribuna.html', 'arxiu-tribuna.html', 'estudi.html', 'arxiu-estudis.html', 'quadern.html', 'reflexio.html', 'arxiu-reflexions.html', 'dossiers.html', 'arxiu.html'];
+// ⚠️ analisi.html, tribuna.html, estudi.html, quadern.html i reflexio.html NO hi
+// van (07.10.2026): mostren la peça vigent i declaren com a canònica la seva
+// adreça fixa (/analisi/<id>…), que ja surt més avall. Posar-les al sitemap
+// feia que Search Console avisés de «Pàgina alternativa amb l'etiqueta canònica
+// correcta» per a pàgines d'un mapa del lloc.
+$pages = ['redaccio.html', 'avis-legal.html', 'eines.html', 'arxiu-analisis.html', 'arxiu-quadern.html', 'arxiu-tribuna.html', 'arxiu-estudis.html', 'arxiu-reflexions.html', 'dossiers.html', 'arxiu.html'];
 foreach ($pages as $page) {
     $urls[] = ['loc' => $base . '/' . $page, 'lastmod' => $siteIso];
 }

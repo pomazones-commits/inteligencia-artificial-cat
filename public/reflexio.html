@@ -57,7 +57,7 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
-  <script src="./peces.js?v=2026092401"></script>
+  <script src="./peces.js?v=2026100701"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
     // Les dades es regeneren cada dia. El segell ?v= ha de ser horari (com a
@@ -90,7 +90,9 @@
       // /reflexio/<AAAA-MM-DD> (peca.php) arriba amb window.IA_PECA; idx -1 = la vigent.
       var arxiu = window.IA_REFLEXIONS_ARXIU || [];
       var llistaFixa = [window.IA_REFLEXIO_DIARIA].concat(arxiu);
-      var forcat = window.IA_PECA && window.IA_PECA.tipus === 'reflexio' ? window.IA_PECA.idx : null;
+      var forcat = window.IA_PECA && window.IA_PECA.tipus === 'reflexio'
+        ? (window.IAPeces && window.IAPeces.posicio ? window.IAPeces.posicio('reflexio', llistaFixa) : window.IA_PECA.idx)
+        : null;
       var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
       var esArxivada = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
       var r = esArxivada ? arxiu[idx] : window.IA_REFLEXIO_DIARIA;

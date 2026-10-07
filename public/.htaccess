@@ -105,6 +105,12 @@ RewriteRule ^arquitectura/?$ https://inteligencia-artificial.cat/tema/tecnologia
 RewriteRule ^ia-i-medicina/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
 RewriteRule ^el-futur-de-la-intelligncia-artificial/?$ https://inteligencia-artificial.cat/tema/tecnologia [R=301,L]
 
+# Més URL antigues que Search Console donava com a 404 (07.10.2026).
+RewriteRule ^oeiac/?$ https://inteligencia-artificial.cat/ecosistema [R=301,L]
+RewriteRule ^podcasts/?$ https://inteligencia-artificial.cat/podcast.html [R=301,L]
+RewriteRule ^industries-culturals/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
+RewriteRule ^fires-i-congressos/?$ https://inteligencia-artificial.cat/agenda [R=301,L]
+
 # Restes del WordPress antic (wp-login.php, wp-cron.php, wp-admin...):
 # redirigides a la portada perquè deixin de comptar com a 404.
 RewriteRule ^wp-[^/]*\.php$ https://inteligencia-artificial.cat/ [R=301,L]

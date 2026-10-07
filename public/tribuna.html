@@ -50,14 +50,16 @@
 
   <script src="./tribuna.js?v=2026100201b"></script>
   <script src="./tribuna-arxiu.js?v=2026100201b"></script>
-  <script src="./peces.js?v=2026100101b"></script>
+  <script src="./peces.js?v=2026100701"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
     (function () {
       // /tribuna/<id> (peca.php, via window.IA_PECA) o ?arxiu=N mostren una tribuna
       // arxivada (tribuna-arxiu.js); sense res, la vigent. idx -1 = la vigent.
       var arxiu = window.IA_TRIBUNA_ARXIU || [];
-      var forcat = window.IA_PECA && window.IA_PECA.tipus === 'tribuna' ? window.IA_PECA.idx : null;
+      var forcat = window.IA_PECA && window.IA_PECA.tipus === 'tribuna'
+        ? (window.IAPeces && window.IAPeces.posicio ? window.IAPeces.posicio('tribuna', [window.IA_TRIBUNA].concat(arxiu)) : window.IA_PECA.idx)
+        : null;
       var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
       var esArxivada = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
       var t = esArxivada ? arxiu[idx] : window.IA_TRIBUNA;
