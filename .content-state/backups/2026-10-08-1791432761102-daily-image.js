@@ -1,0 +1,13 @@
+window.IA_DAILY_IMAGE = {
+  "date": "2026-10-07",
+  "image": "./assets/daily-reflection-2026-10-07.jpg",
+  "alt": "Una intèrpret jurada amb un auricular petit, vestida amb americana fosca, s'inclina per parlar a cau d'orella a una dona gran asseguda en un banc de fusta d'un passadís de jutjat, amb una carpeta de papers a la falda; al fons, altres persones esperen desenfocades.",
+  "kicker": "IA × Societat",
+  "title": "Qui comprova que t'han entès al jutjat",
+  "caption": "Les eines d'IA per traduir i transcriure al sistema judicial ajuden a entendre's, però la garantia que algú ha entès de debò continua sent humana.",
+  "credit": "Imatge editorial generada amb IA",
+  "tema": "justicia-i-drets",
+  "escenari": "passadís de jutjat",
+  "subjecte": "intèrpret jurada i veïna gran",
+  "body": "Als passadissos d'un jutjat, l'espera té un so particular: noms que es criden, papers que canvien de mà i veus baixes que expliquen a algú què passarà d'aquí a deu minuts. La intèrpret de la fotografia no decideix res del procés, però qui l'escolta depèn d'ella per entendre què es diu i què s'espera que digui. Aquesta dependència és la que les eines d'IA aplicades a la justícia han de tenir molt present.\n\nPel que fa a la llengua, les xifres són modestes. Quan el Departament de Justícia va presentar les dades, el març del 2025, el català era el 5,3% de les sentències i el 5,6% dels primers escrits processals. Per revertir-ho, el Govern va anunciar que volia recuperar els incentius econòmics als jutges i funcionaris que redactin en català, ampliar-los als advocats particulars i destinar-hi 500.000 euros aquell any.\n\nAl costat dels incentius, el Departament explicava que desenvolupava eines d'intel·ligència artificial per traduir automàticament documents judicials entre el català i el castellà i per transcriure vistes orals amb tecnologia finançada amb fons europeus, accessibles des del Portal Jurídic. Són eines pensades per reduir una barrera pràctica: que triar una llengua no vulgui dir dificultar la tramitació.\n\nPerò una traducció automàtica d'una sentència no és el mateix que una traducció amb valor jurídic, i una transcripció d'una vista pot equivocar-se justament en el matís que decideix un cas. Qui revisa el text, qui en respon i com s'avisa la persona afectada quan hi ha un error són preguntes que la tecnologia, per ella mateixa, no contesta.\n\nPer això la fotografia no mostra cap pantalla. El dret de ser entès en una llengua que es domina, i de comprovar que el que s'ha dit és el que consta, continua passant per persones: intèrprets, funcionaris, advocats. La IA pot fer que arribin a més gent i abans, a condició que algú, en un passadís com aquest, continuï comprovant que ningú no queda enrere."
+};
