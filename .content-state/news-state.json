@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-10-08",
-  "updatedAt": "2026-10-08T04:12:41.132Z",
-  "batches": 1,
+  "updatedAt": "2026-10-08T08:12:11.476Z",
+  "batches": 2,
   "target": 20,
   "items": [
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "microsoft-surface-laptop-ultra-nvidia-rtx-spark-windows-11",
+      "title": "Microsoft presenta el Surface Laptop Ultra, el primer portàtil seu amb el xip RTX Spark de Nvidia, des de 2.600 dòlars",
+      "excerpt": "El portàtil i una estació de treball per a programadors estan pensats per executar models d'IA al mateix aparell, i arriben amb una versió renovada de Windows 11 que aïlla els agents.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+      "sourceDate": "7 d'octubre de 2026",
+      "body": "Al juny, Nvidia va anunciar acords amb Microsoft i altres fabricants d'ordinadors per construir equips amb Windows preparats per a la IA i per als agents, basats en el seu xip RTX Spark. Aquesta setmana, en un acte a San Francisco, Microsoft n'ha donat les característiques i els preus.\n\nLa peça central és el Surface Laptop Ultra, que té dos models de base: un de 2.600 dòlars i un altre, amb un xip més potent, de 3.700. Amb més memòria i emmagatzematge, el preu arriba als 5.900 dòlars, i segons Microsoft la versió més alta ja s'ha esgotat. També presenta el Surface RTX Spark Dev Box, una estació de treball des de 6.000 dòlars que porta eines com VS Code, GitHub Copilot CLI i PowerShell 7. Dell ha avançat el seu XPS 16 Creator Edition, de 3.800 dòlars, que es pot reservar a Best Buy amb lliurament a finals d'octubre.\n\nMicrosoft ven aquests equips com a màquines per fer funcionar models d'IA directament a l'aparell, sense pagar per cada ús, i hi suma una versió renovada de Windows 11 amb una funció, les «Execution Containers», que facilita aïllar els agents d'IA perquè no toquin la resta del sistema. Satya Nadella ha dit que aquesta funció arribarà a tots els usuaris de Windows 11. L'empresa també ofereix fins a 1.000 dòlars de descompte a qui lliuri un MacBook Pro.\n\nEls preus apunten a un públic professional, no al gran consum, i de moment només disposem de les xifres que ha donat la mateixa Microsoft: no hi ha proves independents de com rendeixen aquests equips amb models grans. Caldrà veure si l'aïllament dels agents és tan sòlid com es promet quan l'utilitzin milions de persones.",
+      "image": "./assets/microsoft-surface-laptop-ultra-nvidia-rtx-spark-windows-11-20261008.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "mit-minzer-conjectura-2-a-1-jocs-unics-openai-quanta",
+      "title": "Un equip del MIT demostra una versió més feble de la conjectura «2 a 1» mentre OpenAI diu que una IA ha resolt la dels «jocs únics»",
+      "excerpt": "Dor Minzer i dos estudiants de doctorat van publicar la prova el setembre. L'anunci d'OpenAI, sense revisió d'experts, ha convertit la recerca en una cursa.",
+      "sourceName": "Quanta Magazine",
+      "sourceUrl": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
+      "sourceDate": "7 d'octubre de 2026",
+      "body": "La conjectura dels jocs únics la va formular Subhash Khot el 2002, quan era estudiant de doctorat, i és una de les preguntes obertes centrals de la teoria de la complexitat computacional: tracta de la dificultat de satisfer, de manera aproximada, restriccions sobre colors en grafs. La conjectura «2 a 1», del mateix Khot, cobreix un punt cec de l'anterior, els casos en què existeix una solució perfecta.\n\nEl 4 de setembre, Dor Minzer (MIT) i els estudiants Yumou Fei i Shuo Wang van publicar un text de 95 pàgines que demostra una variant més feble de la conjectura «2 a 1», en què cada restricció admet quatre opcions en lloc de dues. L'equip hi treballava des del 2025 i, després de mesos d'intents fallits, va tenir el resultat a l'abril del 2026. Segons ells, se'n desprèn una pregunta antiga sobre colorejar grafs: quan un graf es pot pintar amb tres colors, trobar-ne un coloratge continua sent difícil encara que es deixin molts més colors. L'11 de setembre Minzer va saber que corria el rumor que OpenAI tenia una prova de la conjectura dels jocs únics i l'equip va accelerar per acabar el text, que van publicar tres dies després.\n\nEl 6 d'octubre OpenAI va anunciar una prova de la conjectura dels jocs únics, entre altres resultats de matemàtiques, escrita per una IA. Quanta recull reaccions dividides: Ryan O'Donnell elogia el treball de Minzer, i Mark Braverman critica les «matemàtiques per nota de premsa», tot i que admet que una prova generada per una IA podria obrir línies de recerca noves.\n\nÉs important el que encara no se sap. El text de Minzer és una prepublicació, **encara no revisada per parells**, i els mateixos autors avisen que és matemàticament completa però no pulida: li falten els textos d'enllaç a partir de la secció 6, i en prepararan una versió revisada. De la prova d'OpenAI, segons Quanta, no consta cap revisió independent d'experts, i només la demostració de la conjectura «2 a 1» s'ha comprovat amb l'assistent Lean.",
+      "image": "./assets/mit-minzer-conjectura-2-a-1-jocs-unics-openai-quanta-20261008.jpg"
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "slug": "meta-eines-ia-anuncis-enllacen-material-abus-sexual-infantil",
+      "title": "Meta fa servir un model de llenguatge per detectar anuncis que porten a material d'abús sexual infantil penjat en altres webs",
+      "excerpt": "L'empresa mira ara on envia l'anunci, no només què diu, i afegeix un agent que prova les seves pròpies defenses i un sistema per reconèixer qui torna amb comptes nous.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
+      "sourceDate": "7 d'octubre de 2026",
+      "body": "Meta ha anunciat noves eines d'IA contra l'explotació sexual infantil a Facebook i Instagram. Diu que en el primer semestre del 2026 va actuar contra 33,2 milions de peces de contingut d'aquest tipus i que més del 97% les havien detectat els seus sistemes abans que cap usuari no les denunciés. A l'Índia, la xifra va ser de 5,3 milions de peces, amb més del 98% detectades de manera automàtica.\n\nLa novetat principal és un sistema basat en un model de llenguatge que ataca el que Meta anomena «senyalització»: anuncis d'aparença innocent que redirigeixen cap a material il·legal o nociu allotjat en un altre lloc. Fins ara es revisava sobretot el contingut de l'anunci; ara també se n'analitza la destinació, i es poden bloquejar els llocs infractors i actuar contra els comptes que hi ha al darrere. Segons l'empresa, els qui fan aquestes pràctiques n'han adoptat la tàctica fa poc per esquivar els controls.\n\nMeta hi suma altres peces: escaneigs addicionals d'IA per trobar contingut que els sistemes anteriors no veien, un agent d'IA que fa de «equip vermell» i prova les defenses de l'empresa per descobrir mètodes d'abús abans que es propaguin, i una millora per identificar les persones que tornen amb comptes nous després d'haver estat expulsades. L'anunci arriba després que, a l'agost, Meta acceptés pagar fins a 18.000 milions de dòlars per tancar una demanda de 29 estats dels EUA per la seguretat dels menors.\n\nLes xifres de detecció són les que dona la mateixa empresa i no s'ha publicat cap auditoria externa. Tampoc no se sap quants anuncis amb aquesta tàctica han passat els filtres abans de les eines noves, ni quin marge d'error tenen.",
+      "image": "./assets/meta-eines-ia-anuncis-enllacen-material-abus-sexual-infantil-20261008.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "3 MIN",
+      "slug": "google-playground-crear-videojocs-ia-descripcio-escrita",
+      "title": "Google estrena Playground, una eina que crea videojocs jugables al navegador a partir d'una descripció escrita",
+      "excerpt": "És un experiment de Google Labs, de moment només per a majors de 18 anys als EUA, amb jocs en 2D o 3D, d'un jugador o multijugador.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+      "sourceDate": "7 d'octubre de 2026",
+      "body": "Google Labs, la incubadora pública de l'empresa, ha posat en marxa Playground, una plataforma experimental per crear jocs amb IA sense saber programar. L'usuari descriu el que vol i l'eina el genera perquè es pugui jugar al navegador, tant al mòbil com a l'ordinador.\n\nEs pot partir d'un gènere, com un joc de preguntes o una cursa, o d'una pàgina en blanc; s'hi tria si és en 2D o en 3D i d'un jugador o multijugador, i s'hi descriuen les mecàniques i l'estil visual. També es poden pujar imatges perquè la IA les converteixi en elements del joc. Cada projecte pot quedar privat, es pot compartir amb un enllaç o publicar a la galeria Explore, on els jocs publicats poden tenir classificacions de jugadors. El creador els pot seguir editant després de publicar-los.\n\nPer ara només hi poden accedir persones de 18 anys o més als Estats Units, tot i que Google preveu ampliar-ho a altres països. Mirar i jugar els jocs és gratuït; crear-ne funciona amb fitxes setmanals, amb un límit per als usuaris gratuïts i un de més alt per als subscriptors de Google One AI. Una actualització futura hi afegirà la integració amb Unity Spark.\n\nGoogle no diu quin model hi ha al darrere i no s'ha pogut comprovar la qualitat dels jocs que genera. TechCrunch situa l'eina al costat de la funció Build de Roblox, anunciada al juliol, i recorda els intents anteriors de Google al món del joc, com Stadia i YouTube Playables.",
+      "image": "./assets/google-playground-crear-videojocs-ia-descripcio-escrita-20261008.jpg"
+    },
+    {
+      "category": "EMPRESES",
+      "read": "3 MIN",
+      "slug": "nous-research-hermes-empreses-90-milions-valoracio-1500",
+      "title": "Nous Research confirma 90 milions de dòlars a una valoració d'1.500 milions i estrena agents d'IA per a empreses",
+      "excerpt": "La startup del Hermes Agent obert, que diu que genera un 2,5% de l'ús mundial de fitxes d'IA, vol passar dels 100 milions d'ingressos anuals a final d'any.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "sourceDate": "7 d'octubre de 2026",
+      "body": "Nous Research, una empresa de tres anys que desenvolupa models i agents d'IA oberts, ha confirmat una ronda sèrie B de 90 milions de dòlars que la valora en 1.500 milions. La lidera Robot Ventures, amb Nvidia, Union Square Ventures, Menlo Ventures, Samsung i 1789 Capital, on és soci Donald Trump Jr. Amb aquesta ronda, el total aixecat arriba als 158 milions. TechCrunch ja n'havia avançat la xifra el 13 de juliol.\n\nAlhora, la companyia llança «Hermes for Businesses», que permet a les empreses desplegar agents d'IA a mida per a tasques de diversos passos, amb un tractament privat i segur de les dades. Se suma a Hermes Agent, la versió oberta, que segons Nous s'ha clonat més de 24 milions de vegades i impulsa al voltant del 2,5% de l'ús mundial de fitxes (*tokens*) d'IA.\n\nSegons el *Wall Street Journal*, que cita la publicació, els ingressos anualitzats són d'uns 36 milions de dòlars a mitjan setembre, i l'objectiu és superar els 100 milions a final del 2026. Això vol dir multiplicar per prop de tres la facturació en poc més de tres mesos.\n\nLes xifres d'ús i d'ingressos són de la companyia o de filtracions a la premsa, no d'una auditoria. Que un model obert es converteixi en negoci per a empreses és un camí que han provat altres actors, i no es pot donar per fet que els clients hi pagaran el que Nous projecta.",
+      "image": "./assets/nous-research-hermes-empreses-90-milions-valoracio-1500-20261008.jpg"
+    },
     {
       "category": "TECNOLOGIA",
       "read": "3 MIN",
