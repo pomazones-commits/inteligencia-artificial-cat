@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-07T16:27:41.861Z",
+  "updatedAt": "2026-10-08T04:12:41.132Z",
   "items": [
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Common Sense Media qualifica ChatGPT de «risc inacceptable» per als adolescents: els avisos als pares no van saltar mai",
-      "excerpt": "L'institut ha posat a prova més de 4.000 peticions i assegura que un compte d'adolescent pot parlar de suïcidi o d'autolesions sense que els pares rebin cap notificació."
-    },
-    {
-      "category": "API",
-      "read": "3 MIN",
-      "title": "OpenAI llança una API que respon només «sí», «no» o una opció triada, deu vegades més ràpida que l'actual",
-      "excerpt": "La Decisions API, en beta pública, està pensada per a tasques com classificar documents o detectar danys en fotos, i costa 0,10 dòlars per milió de tokens d'entrada."
-    },
     {
       "category": "TECNOLOGIA",
       "read": "3 MIN",
-      "title": "Google obre al públic un web que diu si una imatge, un vídeo o un àudio porta la marca d'aigua de la seva IA",
-      "excerpt": "El SynthID s'estrena obert a tothom després de més d'un any d'accés limitat a periodistes i investigadors, i Google diu que ja rep prop d'un milió de consultes al dia."
+      "title": "OpenAI estrena GPT-6 a ChatGPT amb respostes que porten botons, gràfics i calculadores integrades",
+      "excerpt": "La nova interfície, anomenada Intelligent UI, canvia el text per diagrames, gràfics editables i eines a mida dins de la conversa. Els usuaris de pagament la reben primer i els gratuïts, l'endemà."
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "title": "Anthropic llança Claude Haiku 5.5, el model petit de la família, amb un cost mitjà un 75% més baix que el d'abans",
+      "excerpt": "Costa 0,10 dòlars per milió de paraules d'entrada i 0,50 de sortida en els encàrrecs habituals. L'empresa el recomana per a tasques concretes i de gran volum, no per a programació complexa."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Qui dorm a deshora tendeix a preferir que una IA el jutgi, per por de l'avaluació humana, segons un estudi",
-      "excerpt": "En quatre experiments en línia, el 73% de les persones amb «jet lag social» van triar la IA per valorar-les, davant del 58,8% de les que no en tenien."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un agent d'IA d'Argonne dirigeix un escàner de raigs X només amb ordres en llenguatge natural",
-      "excerpt": "El sistema va localitzar la zona d'interès d'un dispositiu microelectrònic, la va escanejar i va passar sol a alta resolució, i demana permís humà en les accions més incertes."
-    },
-    {
-      "category": "CENTRES DE DADES",
-      "read": "4 MIN",
-      "title": "Finlàndia investiga si Google va talar 300 hectàrees de bosc per als seus centres de dades sense l'avaluació ambiental obligatòria",
-      "excerpt": "L'organisme de control finès vol saber si es van destruir espais naturals protegits al pla local, mentre una iniciativa ciutadana que demana regular més els centres de dades supera les 50.000 signatures en tres dies."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Anthropic regala un any de Claude Team i 1.000 dòlars en crèdits a les empreses emergents",
-      "excerpt": "El programa, anunciat durant la SF Tech Week, inclou fins a cinc places premium, accés al mercat de connectors Claude Marketplace i hores d'assessorament amb l'equip d'IA aplicada."
-    },
-    {
-      "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "Els agents d'IA personals topen amb webs que no els deixen comprar: Amazon va bloquejar Muse i Walmart ho va fer sense voler",
-      "excerpt": "Els assistents que compren i reserven en nom de l'usuari fracassen on hi ha mesures antirobot o reticències de les empreses; Meta, Walmart, Stripe i Sierra, entre d'altres, treballen en un estàndard obert."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una xarxa neuronal inspirada en el cervell aprèn a predir quin fet passarà, quan i amb quina probabilitat",
-      "excerpt": "Un model de la Universitat de Tòquio, amb només 1.000 neurones i regles d'aprenentatge locals, va aprendre aquestes tres coses alhora i s'adaptava de pressa quan canviaven les condicions."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "Hark, la startup de Brett Adcock, llança un assistent d'IA que fa de sistema operatiu i promet no vendre anuncis ni dades",
-      "excerpt": "Hark Pro, ja disponible per a tothom, accedeix al correu, al calendari i a les targetes de crèdit de l'usuari i mostra en una finestra el que fa a la web; el fundador anuncia un aparell propi el 2027."
-    },
-    {
-      "category": "MATEMÀTIQUES",
-      "read": "5 MIN",
-      "title": "OpenAI publica 722 manuscrits de matemàtiques escrits per un model intern, però només 162 tenen la prova verificada per ordinador",
-      "excerpt": "Els textos, agrupats en 372 famílies de resultats, inclouen afirmacions sobre conjectures conegudes; la mateixa empresa admet que alguns resultats sense formalitzar «podrien tenir problemes»."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Wikimedia confirma que agents d'OpenAI van editar els seus wikis, van intentar penetrar en una eina i van saturar-ne els servidors",
-      "excerpt": "La fundació diu que gairebé totes les edicions eren proves en zones que els lectors no veuen, però que van fer milions de peticions automàtiques que haurien contribuït a una caiguda del maig."
+      "title": "Els models d'IA avalen més sovint l'opció que no canvia res, també quan donen consells sobre el clima, segons un estudi de Waterloo",
+      "excerpt": "Una anàlisi de 54.888 consultes a models d'OpenAI, Google i Anthropic mostra que els xatbots tendeixen a defensar el que ja hi ha, un biaix que pot frenar la reducció d'emissions."
     },
     {
       "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Boston Dynamics nomena conseller delegat Rohit Prasad, fins fa poc cap científic d'Alexa i d'IA general a Amazon",
-      "excerpt": "Prasad agafa el timó el 7 d'octubre, vuit mesos després de la marxa de Robert Playter, i la companyia de Hyundai diu que accelerarà la seva estratègia d'«IA física»."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Waymo amplia fins a 5.000 milions de dòlars el seu primer préstec privat, després de veure l'interès dels prestadors",
-      "excerpt": "L'empresa de robotaxis d'Alphabet, que fins ara es finançava amb capital, deixa el deute a 5,25 punts per sobre del tipus de referència per créixer a l'estranger."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una tècnica d'IA pensada per crear imatges permet preveure per hores el cabal dels rius i quantificar-ne la incertesa",
-      "excerpt": "Un equip de Penn State aplica la difusió, el mètode de molts generadors d'imatges, a 516 conques dels Estats Units i obté millors prediccions dels pics de cabal que els models d'aprenentatge profund horaris existents."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Anthropic obre tres nivells d'accés a Claude, amb menys filtres, per als professionals de la ciberseguretat verificats",
-      "excerpt": "El nou programa de verificació substitueix el Projecte Glasswing i obre a defensors, equips de simulació d'atacs i operadors d'infraestructures crítiques unes capacitats que normalment queden bloquejades."
-    },
-    {
-      "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "Sierra i Meta proposen un estàndard obert perquè els agents d'IA personals puguin identificar-se davant les empreses",
-      "excerpt": "El protocol parteix d'OAuth: l'agent entra com a convidat i només guanya permisos de lectura o d'escriptura quan el client inicia sessió. Els pagaments queden per a més endavant."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Google fa servir un model d'IA amb dades de cerques, mobilitat i clima per millorar les previsions de vacunació, dengue i còlera",
-      "excerpt": "Cinc casos pràctics, des de la vacuna del xarampió fins al còlera a la República Democràtica del Congo, mostren millores desiguals; el treball encara és una prepublicació."
-    },
-    {
-      "category": "SOFTWARE",
       "read": "3 MIN",
-      "title": "LibreOffice garanteix que la instal·lació per defecte no portarà cap funció d'IA generativa",
-      "excerpt": "La Document Foundation presenta la decisió com a funció de seguretat per a qui tracta dades confidencials; l'IA només hi arribarà per extensions opcionals amb models locals."
+      "title": "Mecka aixeca 60 milions de dòlars per pagar persones que es graven fent tasques quotidianes i entrenar amb elles els robots",
+      "excerpt": "La startup, liderada per Sequoia i amb Nvidia i M12 entre els inversors, vol fer per a la robòtica el que Scale AI va fer per als models de llenguatge: vendre dades humanes."
     },
     {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Lambda prepara una ronda de fins a 4.000 milions de dòlars amb una valoració de 14.500 milions abans de sortir a borsa el 2027",
-      "excerpt": "La cartera de comandes del proveïdor de càlcul per a IA ha passat de 15.000 a 50.000 milions de dòlars en tres mesos, gràcies sobretot a un contracte d'Anthropic."
+      "category": "GEOPOLÍTICA",
+      "read": "3 MIN",
+      "title": "Les empreses xineses d'IA, amb DeepSeek al capdavant, van publicar 16 models el setembre malgrat els avisos d'Anthropic",
+      "excerpt": "Segons Nikkei Asia, l'esforç de Pequín per accelerar la IA no s'alenteix, tot i les peticions de frenar-ne el desenvolupament per motius de seguretat."
     }
   ]
 }
