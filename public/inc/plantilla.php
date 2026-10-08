@@ -11,7 +11,8 @@ require_once __DIR__ . '/peces.php';
 
 /**
  * $meta: titol, descripcio, cami (p. ex. '/agenda'), jsonld (array), molla (text del fil d'Ariadna),
- *        robots (opcional), tipusOg (opcional).
+ *        robots (opcional), tipusOg (opcional), css (opcional: fulls d'estil propis de la pàgina),
+ *        imatgeOg (opcional: ruta absoluta d'una imatge per a les xarxes).
  */
 function iacat_capcalera(array $meta): void
 {
@@ -32,14 +33,18 @@ function iacat_capcalera(array $meta): void
   <meta property="og:title" content="<?= iacat_e($titol) ?>">
   <meta property="og:description" content="<?= iacat_e($desc) ?>">
   <meta property="og:url" content="<?= iacat_e($url) ?>">
-  <meta property="og:image" content="https://inteligencia-artificial.cat/assets/og-portada.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <?php if (!empty($meta['imatgeOg'])): ?><meta property="og:image" content="<?= iacat_e(IACAT_BASE . (string) $meta['imatgeOg']) ?>">
+  <?php else: ?><meta property="og:image" content="https://inteligencia-artificial.cat/assets/og-portada.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <?php endif; ?>
   <meta property="og:image:alt" content="intel·ligènciaartificial.cat — el briefing diari de la intel·ligència artificial en català">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="alternate" type="application/rss+xml" title="intel·ligènciaartificial.cat — notícies" href="/feed.xml">
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="/editorial.css?v=2026072401">
   <link rel="stylesheet" href="/seccions.css?v=2026100301">
-  <script defer src="/shared.js?v=2026100401"></script>
+  <script defer src="/shared.js?v=2026100801"></script>
+  <?php foreach ((array) ($meta['css'] ?? []) as $full): ?><link rel="stylesheet" href="<?= iacat_e((string) $full) ?>">
+  <?php endforeach; ?>
   <?php if (!empty($meta['jsonld'])): ?><script type="application/ld+json"><?= json_encode($meta['jsonld'], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) ?></script>
   <?php endif; ?>
 </head>
@@ -54,7 +59,7 @@ function iacat_capcalera(array $meta): void
 
 function iacat_barra(): void
 {
-    ?><header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="/" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="/#ultima-hora">Última hora</a><a href="/#catalunya">Radar català</a><a href="/tribuna.html">Tribuna</a><a href="/analisi.html">Anàlisi</a><a href="/dossiers.html">Dossiers</a><a href="/arxiu.html">Arxiu</a></nav><a class="editorial-back" href="/">← Portada</a></div></header>
+    ?><header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="/" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="/#ultima-hora">Última hora</a><a href="/#catalunya">Radar català</a><a href="/tribuna.html">Tribuna</a><a href="/analisi.html">Anàlisi</a><a href="/dossiers.html">Dossiers</a><a href="/club-de-lectura">Club de lectura</a><a href="/arxiu.html">Arxiu</a></nav><a class="editorial-back" href="/">← Portada</a></div></header>
 <?php
 }
 
