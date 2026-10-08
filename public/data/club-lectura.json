@@ -1,0 +1,421 @@
+{
+ "nota": "Club de lectura sobre IA (08.10.2026). Dades MANUALS. Les opinions dels lectors NO són aquí: viuen només al servidor (data/club-opinions.json, bloquejat per HTTP) i les gestiona api.php. «portada» és l'identificador d'imatge d'Amazon: la pàgina baixa la coberta una sola vegada a assets/club/<id>.jpg. «ressenya» és la d'en Rafael (traduïda al català si llengua_ressenya és 'es').",
+ "actualitzat": "2026-10-08",
+ "ressenyador": {
+  "nom": "Rafael Julivert",
+  "rol": "editor d’IA.cat",
+  "autor": "rafael-julivert"
+ },
+ "llibre_del_mes": {
+  "id": "nexus",
+  "mes": "2026-10",
+  "motiu": "Per obrir el club: el llibre que més ha fet parlar de la IA i el poder aquest darrer any."
+ },
+ "temes": [
+  {
+   "id": "per-comencar",
+   "nom": "Per començar",
+   "descripcio": "Introduccions a la intel·ligència artificial: què és, com funciona i què pot canviar."
+  },
+  {
+   "id": "vigilancia",
+   "nom": "Vigilància i poder de les dades",
+   "descripcio": "Com internet i les plataformes digitals han convertit les nostres dades en poder."
+  },
+  {
+   "id": "democracia",
+   "nom": "IA, política i democràcia",
+   "descripcio": "Què passa amb la democràcia quan els algorismes reorganitzen la informació i el poder."
+  },
+  {
+   "id": "etica",
+   "nom": "Ètica i filosofia de la tecnologia",
+   "descripcio": "Preguntes de fons: què ens fa humans, qui és responsable i cap a on anem."
+  },
+  {
+   "id": "ment-i-futur",
+   "nom": "Ment, singularitat i riscos",
+   "descripcio": "La IA pensa? Ens superarà? Es pot controlar? Els llibres sobre el futur de la intel·ligència."
+  }
+ ],
+ "llibres": [
+  {
+   "id": "inteligencia-artificial-kaplan",
+   "tema": "per-comencar",
+   "titol": "Inteligencia artificial. Lo que todo el mundo debe saber",
+   "autor": "Jerry Kaplan",
+   "editorial": "Teell",
+   "any": 2017,
+   "isbn": "978-84-16511-15-0",
+   "portada": "A1BEhl2aJpL",
+   "estrelles": 4,
+   "llengua_ressenya": "ca",
+   "data_ressenya": "2024-09-27",
+   "obertura": "Escrit el 2016, abans de la IA generativa, i sorprenentment vigent. El millor és com explica l’impacte de la IA en la feina i en la desigualtat; el que més ha envellit, el seu escepticisme sobre una intel·ligència general a curt termini.",
+   "pregunta": "Kaplan dubtava que arribés aviat una intel·ligència artificial general. Deu anys després, creus que tenia raó o que s’equivocava?",
+   "ressenya": [
+    "El llibre de Jerry Kaplan, publicat el 2016, és sorprenentment vigent malgrat el ràpid avenç tecnològic que hi ha hagut des d’aleshores. Kaplan ofereix una visió molt pertinent dels reptes socials i ètics que planteja la IA, i para una atenció especial a com aquesta tecnologia pot afectar la igualtat social i el treball humà. La seva anàlisi de l’impacte de la IA en el mercat laboral és profunda i inquietant, perquè s’avança a les discussions actuals sobre l’automatització i la pèrdua de llocs de treball.",
+    "Un dels punts forts del llibre és com tracta les implicacions legals i ètiques de la IA. Kaplan explora com s’hauran d’adaptar les lleis a les noves tecnologies i els reptes que això comporta. A més, ofereix una introducció històrica ben estructurada sobre l’evolució de la IA, des de la seva definició fins a les fronteres filosòfiques i els límits de la seva aplicació, cosa que el fa accessible tant per a experts com per a lectors sense formació prèvia.",
+    "Tot i que es va escriure abans de l’eclosió de la IA generativa, el text no sembla gens antiquat. De fet, molts lectors segurament voldrien que Kaplan l’hagués pogut escriure més recentment per reflexionar sobre els canvis d’aquests darrers anys. El seu escepticisme sobre la possibilitat d’una intel·ligència artificial general a curt termini pot semblar desfasat el 2024, quan figures com Sam Altman afirmen que som a només uns quants milers de dies d’aconseguir una superintel·ligència.",
+    "En resum, és un llibre que es gaudeix tant per la capacitat de plantejar preguntes de fons sobre el futur de la IA com per la seva accessibilitat i el seu rigor."
+   ]
+  },
+  {
+   "id": "en-que-piensan-los-robots",
+   "tema": "per-comencar",
+   "titol": "¿En qué piensan los robots?",
+   "autor": "Miguel Serrano i Ignacio Peletier",
+   "editorial": "Deusto",
+   "any": 2024,
+   "isbn": "978-84-234-3792-4",
+   "portada": "71KQnEdzXEL",
+   "estrelles": 4,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-09-30",
+   "obertura": "Una bona introducció a la IA generativa, que no aclapara amb dades i dialoga amb clàssics com Kurzweil i Bostrom. El punt feble: algunes explicacions s’allarguen massa i alenteixen la lectura.",
+   "pregunta": "Quin llibre recomanaries a algú que no sap res d’intel·ligència artificial i en vol entendre els fonaments?",
+   "ressenya": [
+    "«¿En qué piensan los robots?», de Miguel Serrano i Ignacio Peletier, és sens dubte un llibre molt interessant que aborda diversos aspectes essencials de la intel·ligència artificial i de la seva relació amb el funcionament del cervell humà. S’endinsa en temes com els models predictius, els tipus d’algorismes i les preguntes i respostes ètiques sobre el futur de la IA. És especialment enriquidor per a qui vulgui fer-se una idea general de la intel·ligència artificial generativa, un camp que cada vegada té més pes.",
+    "Els autors entreteixeixen el seu discurs amb la influència de llibres fonamentals de la matèria, com «Cómo crear una mente», de Ray Kurzweil, o «Superintel·ligència», de Nick Bostrom, obres que exploren tant el funcionament de la ment humana com l’arribada potencial d’una superintel·ligència, benigna o maligna. Aquest paral·lelisme permet al lector situar-se en un context teòric més ampli, en què la superintel·ligència no és només una possibilitat llunyana, sinó un tema de debat filosòfic i tècnic actual.",
+    "Tanmateix, el llibre no està lliure de punts febles. En alguns moments, l’excés de detall pot fer-se avorrit, sobretot quan els autors s’estenen en exemples que volen il·lustrar l’impacte de la IA en la nostra societat. Aquestes explicacions busquen ser clares, però de vegades s’allarguen tant que alenteixen el ritme de lectura.",
+    "Malgrat això, és una excel·lent introducció al món de la intel·ligència artificial generativa, amb un bon equilibri entre la teoria i els exemples pràctics. No aclapara amb un excés de dades, i això el converteix en un recurs accessible per a qui vulgui entendre els fonaments de la IA sense perdre’s en la complexitat tècnica."
+   ]
+  },
+  {
+   "id": "la-inteligencia-artificial-y-tu",
+   "tema": "per-comencar",
+   "titol": "La inteligencia artificial y tú",
+   "autor": "Rafael Tamames",
+   "editorial": "Plataforma",
+   "any": 2024,
+   "isbn": "978-84-10243-36-1",
+   "portada": "71rKVCYzA3L",
+   "estrelles": 1,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-09-23",
+   "obertura": "Promet una introducció a la IA i es queda en una visió superficial i reiterativa, sense anàlisi tècnica ni ètica. Potser serveix a qui només en vol una idea molt lleugera.",
+   "pregunta": "Un llibre de divulgació ha de ser bàsic per arribar a tothom, o el lector general també mereix profunditat?",
+   "ressenya": [
+    "«La inteligencia artificial y tú», de Rafael Tamames, promet ser una introducció a un tema tan vast i rellevant com la intel·ligència artificial, però malauradament es queda curt en diversos aspectes. L’obra ofereix una visió superficial, gairebé anecdòtica, de les possibilitats i els reptes de la IA, sense aprofundir de manera sòlida en les qüestions tècniques ni en les ètiques. Tot i que s’adreça a un públic no especialitzat, el contingut és excessivament bàsic: potser ideal per a empresaris o directius que vulguin una visió molt lleugera del tema sense entrar en detalls.",
+    "Un dels principals problemes del llibre és la manca de profunditat. Cada tema es tracta de manera escarida, i deixa la sensació que només se’n frega la superfície. Les idees són reiteratives i, en molts casos, massa generals per aportar res de valor a qui vulgui anar més enllà del que és purament introductori. No hi ha cap anàlisi exhaustiva ni cap reflexió crítica que permeti explorar l’impacte real de la intel·ligència artificial en els diferents sectors.",
+    "En resum, és un llibre esquifit tant en el plantejament com en les conclusions. Es llegeix de pressa, però deixa la sensació que s’ha desaprofitat l’oportunitat d’aprofundir en un tema tan complex i decisiu."
+   ]
+  },
+  {
+   "id": "esta-vez-es-diferente",
+   "tema": "per-comencar",
+   "titol": "Esta vez es diferente. Cuando la inteligencia artificial trasciende a la humanidad",
+   "autor": "Omar Hatamleh",
+   "editorial": "Deusto",
+   "any": 2024,
+   "isbn": "",
+   "portada": "71OS58oJfDL",
+   "estrelles": 2,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-09-11",
+   "obertura": "Més un recull d’idees soltes que un assaig cohesionat. Té un bon moment quan parla dels robots humanoides, però no l’aprofita, i evita qualsevol crítica a l’ús de la IA per al control social a la Xina.",
+   "pregunta": "Un llibre sobre IA que parla de la Xina ha de criticar obertament el seu sistema de control social, o n’hi ha prou de descriure’l?",
+   "ressenya": [
+    "El llibre d’Omar Hatamleh promet un recorregut exhaustiu per la intel·ligència artificial i el seu impacte en la humanitat, però es queda a mig camí: és una obra que no arrenca amb la força que s’espera d’un tema tan fascinant. En conjunt, sembla més un recull d’idees soltes que un assaig cohesionat.",
+    "Un dels moments en què Hatamleh sembla arribar al punt àlgid és quan parla dels robots humanoides. Aquí l’autor aconsegueix, almenys per un moment, entrellaçar diverses de les perspectives que havia plantejat als capítols anteriors. Però aquest breu llampec s’esvaeix aviat, i el que ve després és una successió de capítols que aborden la intel·ligència artificial des de punts de vista tan diversos que no arriben a connectar ni a construir un relat.",
+    "El llibre toca temes com el creixement exponencial de la intel·ligència artificial, l’exaptació, l’aprenentatge col·lectiu humà comparat amb el de les màquines i l’«explosió cambriana» de la robòtica. Tot i la rellevància d’aquests temes, Hatamleh no aconsegueix fer-los atractius. Cadascun es presenta gairebé de manera independent, i això impedeix que l’obra funcioni com un tot.",
+    "Un dels aspectes més criticables és el tractament políticament correcte de temes tan delicats com l’aplicació de la intel·ligència artificial a la Xina. Hatamleh evita qualsevol crítica contundent al Partit Comunista Xinès i a la construcció d’un sistema de control social que recorda les visions més distòpiques d’Orwell. Així esquiva les implicacions ètiques de com s’utilitza la IA en certs contextos geopolítics i el llibre perd força crítica.",
+    "En definitiva, té moments de lucidesa, però no sap capitalitzar-los en una obra sòlida. El lector es queda amb la sensació que el llibre podia haver estat molt més del que és."
+   ]
+  },
+  {
+   "id": "surveillance-valley",
+   "tema": "vigilancia",
+   "titol": "Surveillance Valley. The Secret Military History of the Internet",
+   "autor": "Yasha Levine",
+   "editorial": "Icon Books",
+   "any": 2019,
+   "isbn": "978-1-78578-505-4",
+   "portada": "91soaPXBAFL",
+   "estrelles": 5,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-11-28",
+   "obertura": "Una història crua i documentada d’internet com a eina pensada des del principi per vigilar, des d’ARPANET fins a Google i la IA. Una lectura incòmoda però necessària, que no deixa marge per a les il·lusions.",
+   "pregunta": "Levine sosté que xifrar-ho tot només ens fa més sospitosos. Creus que encara és possible protegir la privacitat a internet?",
+   "ressenya": [
+    "El llibre de Yasha Levine ofereix una visió crua i documentada de la història d’internet com una eina dissenyada des dels seus inicis per a la vigilància. Lluny del relat utòpic que molts atribueixen a l’origen de la xarxa, Levine desmunta la idea que internet es va concebre com un espai lliure i en subratlla la relació amb la contrainsurrecció, el desenvolupament militar i el control social.",
+    "Des dels primers passos d’ARPANET, Levine mostra com figures influents com J. C. R. Licklider o Norbert Wiener, ja als anys cinquanta i seixanta, van impulsar una informàtica al servei de la vigilància estatal. El llibre segueix com aquest enfocament va evolucionar fins a convertir-se en l’eina de vigilància global que coneixem avui, alimentada per gegants tecnològics com Google i per tecnologies avançades com la intel·ligència artificial.",
+    "Un aspecte destacat és la crítica al projecte Tor, que Levine descriu com una falsa bandera de la privacitat. L’autor explica com aquesta tecnologia, suposadament pensada per protegir l’anonimat, ha estat utilitzada i finançada per institucions com la CIA i l’NSA, i s’ha convertit en una arma de doble tall que facilita la vigilància en comptes de protegir-ne. Fins i tot Edward Snowden, una figura icònica de la defensa de la privacitat, hi apareix més com un propagandista involuntari d’aquestes eines que no pas com un veritable agent de canvi.",
+    "Levine descobreix la paradoxa de la privacitat a l’era digital: com més s’intenta protegir amb eines de xifratge, més sospita desperta en els sistemes de vigilància, que intensifiquen l’escrutini sobre els usuaris que les fan servir. El missatge és clar: no hi ha escapatòria real en un ecosistema tecnològic profundament controlat per governs i corporacions.",
+    "En conclusió, és una lectura incòmoda però necessària. Desmunta la ingenuïtat de creure que la tecnologia actual ens pot alliberar de la vigilància quan, en realitat, s’ha dissenyat per consolidar-la. Un llibre que no deixa marge per a les il·lusions i que convida a reflexionar sobre la veritable naturalesa de la nostra relació amb el món digital."
+   ]
+  },
+  {
+   "id": "la-era-del-capitalismo-de-la-vigilancia",
+   "tema": "vigilancia",
+   "titol": "La era del capitalismo de la vigilancia",
+   "autor": "Shoshana Zuboff",
+   "editorial": "Paidós",
+   "any": 2020,
+   "isbn": "978-84-493-3762-8",
+   "portada": "71F1KaY8qSL",
+   "estrelles": 5,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-11-16",
+   "obertura": "Gairebé mil pàgines que valen la pena: explica com les plataformes no només ens observen, sinó que modelen el nostre comportament. Un llibre fonamental del nostre temps, «El capital» del segle XXI.",
+   "pregunta": "Zuboff diu que les plataformes no només recullen dades, sinó que modelen el que fem. Ho notes en la teva vida diària?",
+   "ressenya": [
+    "Quan vaig veure «La era del capitalismo de la vigilancia», de Shoshana Zuboff, a la llibreria, el primer que vaig pensar va ser: per què he de llegir aquest totxo de gairebé mil pàgines si el missatge sembla clar? Ens vigilen, i això ja ho sé. Però vaig decidir donar-li una oportunitat i vaig descobrir que és molt més que un simple avís sobre el poder de les grans tecnològiques. És una obra essencial per entendre l’estat actual de la nostra societat, la polarització creixent, el debilitament de la democràcia i la idiosincràsia que està modelant el ciutadà d’avui.",
+    "Zuboff va més enllà de l’evidència i disseca amb una precisió gairebé quirúrgica la dinàmica del capitalisme de la vigilància i les seves implicacions. No només analitza com aquestes empreses recullen i fan diners amb la nostra informació personal, sinó també com aquest procés redefineix la noció mateixa de privacitat, de llibertat i fins i tot de democràcia. Les conclusions colpeixen: ens estan despullant no només de la intimitat, sinó també de la capacitat de decidir per nosaltres mateixos, mentre es configura una societat de bombolles informatives que fomenta l’extremisme, la falsedat i l’alienació.",
+    "El nivell de detall amb què Zuboff tracta el tema és aclaparador, però necessari. El llibre revela com les plataformes digitals no només observen, sinó que modelen i manipulen comportaments per crear un món en què l’individu es converteix en un simple engranatge d’un rusc informatitzat. La seva anàlisi ressona com un eco contemporani d’«El capital» de Marx adaptat als reptes del segle XXI: un text que no només denuncia, sinó que proposa un marc teòric per entendre un sistema que amenaça de deshumanitzar-nos.",
+    "En definitiva, és un llibre fonamental del nostre temps. Demana paciència i reflexió, però la seva lectura és imprescindible per a qui vulgui entendre com les tecnologies que fem servir cada dia, intel·ligència artificial inclosa, estan transformant la nostra societat, sovint en detriment del que valorem com a individus i com a ciutadans."
+   ]
+  },
+  {
+   "id": "ciberleviatan",
+   "tema": "vigilancia",
+   "titol": "Ciberleviatán. El colapso de la democracia liberal frente a la revolución digital",
+   "autor": "José María Lassalle",
+   "editorial": "Arpa",
+   "any": 2019,
+   "isbn": "978-84-17623-25-8",
+   "portada": "81+cnotydfL",
+   "estrelles": 5,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-11-18",
+   "obertura": "Breu però contundent: el que Zuboff explica en mil pàgines, Lassalle ho condensa en un manifest. Diagnòstic devastador i precoç sobre la IA, publicat el 2019; flaqueja, això sí, a l’hora de proposar solucions.",
+   "pregunta": "Lassalle parla d’un «retorn a la infància cívica»: deixar que els algorismes decideixin per nosaltres. Hi estàs d’acord?",
+   "ressenya": [
+    "«Ciberleviatán», de José María Lassalle, mereix ser considerat una obra clau en l’anàlisi de la transformació digital i les seves implicacions polítiques i socials. Si molts han declarat «La era del capitalismo de la vigilancia», de Shoshana Zuboff, «El capital» del segle XXI per la capacitat de revelar estructures polítiques i econòmiques ocultes, com l’explotació de l’excedent conductual, «Ciberleviatán» hauria d’ocupar un lloc semblant al del «Manifest del Partit Comunista». És breu però contundent en l’anàlisi de la crisi que denuncia Zuboff, cosa que Lassalle reconeix explícitament quan la cita.",
+    "El llibre no només complementa l’obra de Zuboff, sinó que fa un pas més enllà i conceptualitza el fenomen del Ciberleviatan: una mena de dictadura digital que neix de la convergència de tres forces principals, el tecnopoder de les corporacions tecnològiques i dels governs autoritaris com el model xinès, la crisi de la democràcia liberal i el paper de les multituds digitals, usuaris que participen massivament en el sistema sense ser conscients que són engranatges d’una maquinària de control.",
+    "Lassalle tracta temes com la pèrdua de la identitat humana davant dels sistemes digitals, el concepte de llibertat assistida i com l’ascens del Ciberleviatan ens porta a un «retorn a la infància cívica», en què els ciutadans renuncien a la seva autonomia a favor de decisions preses per algorismes. Aquesta anàlisi és especialment pertinent davant la influència creixent de la intel·ligència artificial, que Lassalle tracta amb una precocitat extraordinària per a un llibre publicat el 2019.",
+    "Tanmateix, tot i que el diagnòstic és encertat i devastador, el llibre flaqueja quan ha de proposar solucions concretes. Lassalle defensa un nou pacte amb la tecnologia per preservar els valors del liberalisme, però aquestes idees no tenen un desenvolupament pràctic que permeti afrontar el problema amb eficàcia. Malgrat això, és un text brillant i necessari, que condensa en poques pàgines una anàlisi profunda i essencial dels reptes digitals de la nostra època."
+   ]
+  },
+  {
+   "id": "por-que-la-ia-debilita-la-democracia",
+   "tema": "democracia",
+   "titol": "Por qué la IA debilita la democracia y qué hacer al respecto",
+   "autor": "Mark Coeckelbergh",
+   "editorial": "Cátedra",
+   "any": 2024,
+   "isbn": "978-84-376-4821-7",
+   "portada": "71qwAbR1zXL",
+   "estrelles": 3,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-10-15",
+   "obertura": "Un bon diagnòstic de com la IA erosiona la democràcia (bombolles informatives, manipulació, vigilància), però massa tímid en les solucions. Vaig trobar a faltar propostes més audaces.",
+   "pregunta": "Les grans empreses d’IA s’haurien de regular més, nacionalitzar o deixar-les fer? Quina mesura et sembla més realista?",
+   "ressenya": [
+    "El llibre de Mark Coeckelbergh ofereix una anàlisi profunda de les implicacions polítiques i socials de la intel·ligència artificial, però no és prou valent per proposar una mesura dràstica com l’expropiació de les grans empreses d’IA per part dels estats, una iniciativa que podria ser crucial per a la supervivència de la humanitat i la preservació de la democràcia. Coeckelbergh planteja la possibilitat que la IA s’utilitzi per crear un estat autoritari i orwellià si no s’assegura que als laboratoris d’IA hi hagi persones que vetllin per valors com el republicanisme, l’igualitarisme, la democràcia, la Il·lustració i l’humanisme.",
+    "Coeckelbergh exposa encertadament com governs autoritaris com els de Rússia i la Xina fan servir aquestes tecnologies per exercir un control total sobre la població, però no aprofundeix prou en com, fins i tot en les democràcies, l’ús de la IA planteja dilemes ètics en relació amb els drets fonamentals. Les eines de vigilància i control basades en la intel·ligència artificial podrien obrir la porta a abusos si no s’estableixen salvaguardes clares i mecanismes de supervisió que protegeixin les llibertats individuals i els principis democràtics.",
+    "El llibre també explora com els algorismes generen bombolles informatives, cambres de ressonància en què les persones només es relacionen amb idees afins, cosa que impedeix la trobada amb l’«altre» i les seves idees. I explica com la IA es pot utilitzar per manipular creences polítiques, amb el perjudici que això suposa per a l’autonomia dels ciutadans.",
+    "En resum, Coeckelbergh demostra que la IA actual soscava principis democràtics fonamentals, i ho generalitza a totes les aplicacions d’IA que fem servir avui. Però, com que no aprofundeix en solucions més audaces, el llibre es queda curt a l’hora de proposar els canvis estructurals que podrien mitigar els riscos d’aquesta tecnologia."
+   ]
+  },
+  {
+   "id": "nexus",
+   "tema": "democracia",
+   "titol": "Nexus. Una breve historia de las redes de información desde la Edad de Piedra hasta la IA",
+   "autor": "Yuval Noah Harari",
+   "editorial": "Debate",
+   "any": 2024,
+   "isbn": "978-84-19951-03-8",
+   "portada": "71wvzWzpQwL",
+   "estrelles": 4,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-11-02",
+   "obertura": "Un assaig ambiciós sobre informació, poder i IA. La primera part és massa introductòria, però la segona i la tercera brillen, sobretot amb la idea del «teló de silici» que pot dividir el món.",
+   "pregunta": "Harari parla d’un «teló de silici» que dividirà el món en blocs tecnològics. Creus que ja l’estem veient aixecar-se?",
+   "ressenya": [
+    "«Nexus», de Yuval Noah Harari, és un assaig ambiciós que tracta temes essencials del nostre temps, com la intel·ligència artificial, el poder de la informació i l’impacte de les xarxes humanes en l’evolució social i política. Des de les primeres pàgines, Harari ens guia per l’evolució de les xarxes d’informació i les relaciona amb la religió, amb la capacitat d’autocorrecció i amb el paper que aquests sistemes tenen en les diferents formes de govern, de la democràcia al totalitarisme.",
+    "Cal dir, però, que la primera part del llibre té un to introductori que pot fer-se una mica feixuc, potser massa descriptiu per a qui busqui una anàlisi profunda des del començament. És a la segona i la tercera part on el llibre brilla de debò. Harari desplega tota la seva capacitat analítica per explorar com la revolució de la intel·ligència artificial i la digitalització estan reconfigurant les estructures de poder i la manera com entenem la vigilància i la democràcia a l’era digital.",
+    "L’obra posa en evidència els reptes i les oportunitats de la IA per a la política, i es pregunta com els sistemes d’intel·ligència artificial poden tant enfortir com soscavar els principis democràtics. Amb el concepte de «teló de silici», Harari suggereix una nova divisió global impulsada per la tecnologia, un punt de vista provocador i revelador que fa pensar sobre el futur del poder.",
+    "«Nexus» és un llibre imprescindible per als nostres governants i per a tothom qui vulgui entendre el paper de la IA i de la informació en la dinàmica del poder actual. La capacitat de tractar temes complexos i l’atenció a les conseqüències ètiques i polítiques d’aquests avenços el fan una lectura fonamental en un món en què la intel·ligència artificial és cada vegada més protagonista."
+   ]
+  },
+  {
+   "id": "civilizacion-artificial",
+   "tema": "democracia",
+   "titol": "Civilización artificial",
+   "autor": "José María Lassalle",
+   "editorial": "Arpa",
+   "any": 2024,
+   "isbn": "978-84-19558-64-0",
+   "portada": "71bzAvZ68BL",
+   "estrelles": 5,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-09-18",
+   "obertura": "Escrit ja des de la IA generativa, defensa que aquesta tecnologia ha d’anar guiada per valors humans i proposa el model europeu com a alternativa al mercantilisme dels Estats Units i al control autoritari de la Xina.",
+   "pregunta": "Lassalle defensa el model europeu d’IA entre el dels Estats Units i el de la Xina. És una alternativa real o un fre a la innovació?",
+   "ressenya": [
+    "«Civilización artificial», de José María Lassalle, és una obra fascinant que aborda la intel·ligència artificial des de múltiples perspectives amb un missatge clar i cohesionat: aquesta tecnologia ha d’estar guiada per valors humans fonamentals. Lassalle destaca conceptes com la saviesa i la consciència de la temporalitat i la finitud de l’ésser humà, i recorda que la IA no pot ni ha d’escapar del marc ètic que ens defineix com a espècie.",
+    "L’autor analitza amb precisió els reptes actuals de la recerca en intel·ligència artificial i la competició entre les superpotències tecnològiques per dominar aquest camp. La seva visió és especialment pertinent quan explora les implicacions socials i individuals que la IA ja té en les nostres vides, des de l’automatització fins a la transformació del mercat laboral i de les relacions humanes. Lassalle s’aventura fins i tot a reflexionar sobre el metavers, un espai que, segons ell, dependrà del desenvolupament de la intel·ligència artificial: la IA no és vista només com una eina, sinó com la pedra angular d’aquesta nova realitat virtual.",
+    "A més, Lassalle fa una crítica encertada dels models d’intel·ligència artificial dels Estats Units i de la Xina i assenyala els greus errors de cadascun: d’una banda, la mercantilització excessiva i la manca de regulació del model nord-americà; de l’altra, el control autoritari i la vigilància massiva que defineixen el model xinès. Davant d’aquests extrems, proposa el model europeu com una alternativa més equilibrada, que hauria de servir de guia per impregnar la cultura nord-americana i evitar els riscos d’una societat distòpica com la que ja s’està gestant a la Xina.",
+    "El que distingeix aquest llibre d’altres del mercat és la seva actualitat. No és una obra anterior a la revolució de la IA generativa: està escrita des del present de la tecnologia i en projecta l’impacte cap al futur. Tot i que en alguns moments pot resultar abstracte, manté l’interès gràcies a un missatge continu i clar. És, sens dubte, un excel·lent punt de partida per reflexionar sobre els riscos i les oportunitats d’aquesta tecnologia."
+   ]
+  },
+  {
+   "id": "pensar-la-tecnologia",
+   "tema": "etica",
+   "titol": "Pensar la tecnología. Una guía para comprender filosóficamente el desarrollo tecnológico actual",
+   "autor": "Antonio Diéguez",
+   "editorial": "Shackleton Books",
+   "any": 2024,
+   "isbn": "978-84-1361-332-1",
+   "portada": "81WxPwxcw8L",
+   "estrelles": 4,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-11-03",
+   "obertura": "Una guia filosòfica clara sobre preguntes de fons: la tecnologia és neutral? Ens deshumanitza? Pot una màquina ser moralment responsable? Destaca el capítol sobre IA i biotecnologia.",
+   "pregunta": "La tecnologia és neutral i tot depèn de l’ús que en fem, o ja porta valors incorporats des del disseny?",
+   "ressenya": [
+    "«Pensar la tecnología», d’Antonio Diéguez, és una obra fascinant que aborda preguntes profundes i fonamentals sobre el paper de la tecnologia en les nostres vides i el seu impacte en la societat. Diéguez es pregunta si la tecnologia és neutral o si té un component intrínsecament bo o dolent, fins a quin punt ens pot deshumanitzar i si realment està fora de control. Al llarg del llibre es plantegen qüestions sobre el transhumanisme i sobre com el desenvolupament tecnològic afecta la democràcia, especialment a través de les tecnologies disruptives, que posen a prova les nostres idees de llibertat i de participació ciutadana.",
+    "La filosofia hi esdevé essencial per entendre la complexitat de la tecnologia. Diéguez proposa reflexionar sobre què podem fer perquè aquesta evolució es dirigeixi cap al bé comú, i evita el determinisme tecnològic, un enfocament que ell mateix considera problemàtic. L’obra examina com la tecnologia pot diluir la responsabilitat moral i es pregunta si les màquines podrien arribar a ser moralment responsables. És possible actuar èticament en l’àmbit tecnològic? És un dels dilemes que s’hi tracten a fons.",
+    "Diéguez també analitza els riscos que la intel·ligència artificial planteja a la democràcia i es pregunta com podem garantir-ne el futur a l’era de la IA. Subratlla el paper de la responsabilitat individual en l’ús de la tecnologia i explora el transhumanisme i la seva relació amb la possibilitat d’una superintel·ligència artificial.",
+    "Un dels capítols més interessants és el dedicat a la intel·ligència artificial i la biotecnologia, en què Diéguez examina els principals riscos i beneficis d’aquests camps. La importància de la transparència en el desenvolupament de la IA, la regulació proposada per Brussel·les, la diferència entre la biotecnologia d’ara i la del passat i conceptes com la millora biològica de l’ésser humà enriqueixen el text. En conclusió, un llibre molt interessant que convida a reflexionar sobre els reptes ètics i filosòfics del desenvolupament tecnològic."
+   ]
+  },
+  {
+   "id": "etica-o-ideologia-de-la-inteligencia-artificial",
+   "tema": "etica",
+   "titol": "¿Ética o ideología de la inteligencia artificial? El eclipse de la razón comunicativa en una sociedad tecnologizada",
+   "autor": "Adela Cortina",
+   "editorial": "Paidós",
+   "any": 2024,
+   "isbn": "978-84-493-4300-1",
+   "portada": "71uNeZs384L",
+   "estrelles": 3,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-10-13",
+   "obertura": "Una mirada completa sobre l’ètica de la IA, especialment bona quan tracta el transhumanisme. Alguns capítols són massa abstractes, i el seu escepticisme sobre la IA a l’educació em sembla excessiu.",
+   "pregunta": "Adela Cortina és escèptica amb la IA a les aules. Tu creus que ajuda o perjudica l’aprenentatge?",
+   "ressenya": [
+    "El llibre d’Adela Cortina ofereix una mirada completa i multidimensional sobre els reptes ètics de la intel·ligència artificial. L’autora aborda des de diferents perspectives què ens fa humans en un món en què la IA té un paper central, i hi distingeix tres tipus d’intel·ligència artificial i tres tipus d’ètica.",
+    "Un dels eixos del llibre és el transhumanisme: Cortina analitza els límits entre allò humà i allò tecnològic i les fronteres de la persona en el món tecnocientífic. També explora la llibertat a l’era digital i el paper de l’ètica en aquest context, amb una ètica de la superintel·ligència i la necessitat d’una IA fiable que respecti els principis morals. Un altre aspecte destacat és l’ètica robòtica, una reflexió de fons sobre com hauríem de dissenyar màquines intel·ligents amb una base ètica sòlida. El llibre s’endinsa, a més, en les possibles ideologies que hi ha darrere l’ús de la IA, i es pregunta si les propostes actuals són realment ètiques o responen a altres interessos.",
+    "Per a mi, un dels punts menys convincents és l’escepticisme de Cortina sobre l’ús de la IA a l’educació. Tenint en compte els reptes actuals d’aquest àmbit, la seva postura em sembla excessivament pessimista. Amb tot, i malgrat alguns capítols massa abstractes, m’ha agradat especialment com tracta el transhumanisme, una qüestió cada vegada més rellevant."
+   ]
+  },
+  {
+   "id": "homo-deus",
+   "tema": "etica",
+   "titol": "Homo Deus. Breve historia del mañana",
+   "autor": "Yuval Noah Harari",
+   "editorial": "Debate",
+   "any": 2016,
+   "isbn": "978-84-9992-664-3",
+   "portada": "71XqaAcu0DL",
+   "estrelles": 4,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-10-29",
+   "obertura": "Una anàlisi captivadora de com la ciència i la tecnologia han redefinit les aspiracions humanes, amb el «datisme» com a nova religió. Però és del 2016, i el que diu de la IA ja es queda en una introducció.",
+   "pregunta": "Harari presenta el «datisme», la fe en les dades, com una nova religió. Et sembla una exageració o una bona descripció del present?",
+   "ressenya": [
+    "Publicat el 2016, «Homo Deus», de Yuval Noah Harari, és una anàlisi ambiciosa dels èxits i les aspiracions de la humanitat, i de com la ciència i la tecnologia ens han portat a redefinir el nostre paper al món. L’autor parteix de la superació de la fam, la pesta i la guerra, problemes que durant segles van marcar la història humana i que avui s’han dominat en bona part. Un cop superats aquests reptes, diu Harari, l’ésser humà ha redirigit les seves ambicions cap a metes més abstractes com la immortalitat, la felicitat i una mena de «divinitat» laica.",
+    "Entre els punts clau que analitza hi ha la manipulació bioquímica de l’ésser humà, el sorgiment de cultures complexes des de la revolució agrícola fins a l’antropocè i el poder de les ficcions compartides per modelar la història. L’obra presenta l’humanisme com un credo revolucionari que fa de la humanitat la mesura de totes les coses, explora ideologies modernes com el liberalisme, el socialisme i l’humanisme evolutiu, qüestiona el lliure albir i proposa el «datisme» com una nova «religió» del coneixement i les dades.",
+    "Tanmateix, com que és un llibre del 2016, el tractament de la intel·ligència artificial i la biotecnologia, decisives en la revolució tecnocientífica actual, és més aviat introductori. Harari n’intueix l’enorme potencial, però escrivia en un moment en què l’impacte encara no era tan evident, i es limita a esbossar-ne les implicacions sense aprofundir en els canvis radicals que avui transformen la nostra societat.",
+    "En resum, és una obra captivadora que analitza des d’una perspectiva històrica i filosòfica com la ciència i la tecnologia han redefinit el paper humà. Però la data de publicació hi deixa en evidència la manca de profunditat sobre l’impacte actual de la IA i la biotecnologia, temes que només s’hi entreveuen."
+   ]
+  },
+  {
+   "id": "artificialitis",
+   "tema": "etica",
+   "titol": "Artificialitis. Què els passa pel cap als malalts de la intel·ligència artificial",
+   "autor": "Josep Lluís Micó",
+   "editorial": "Edicions Saldonar",
+   "any": 2024,
+   "isbn": "978-84-19571-37-3",
+   "portada": "71iW8s-Z6zL",
+   "estrelles": 2,
+   "llengua_ressenya": "ca",
+   "data_ressenya": "2024-09-24",
+   "obertura": "Un català ric i sonor, però una sintaxi massa recargolada i una tesi que no acaba de quallar. Podia haver estat una defensa apassionada de l’humanisme i es queda en un recull de punts de vista.",
+   "pregunta": "Hi ha una «addicció» a la IA com n’hi ha a les xarxes socials? Coneixes algú que en faci un ús excessiu?",
+   "ressenya": [
+    "«Artificialitis», de Josep Lluís Micó, és sens dubte una obra ambiciosa que intenta abordar una gran varietat de temes, però ho fa d’una manera massa recargolada. La riquesa del seu llenguatge és innegable, però aquesta mateixa qualitat es converteix en un obstacle per a la lectura. El català que hi fa servir és eufònic i curós, però amb una sintaxi tan abstrusa que el lector es perd en els girs de les frases.",
+    "Micó presenta una quantitat notable de dades i referències, moltes de persones poc conegudes, cosa que contribueix a la sensació de dispersió temàtica. En comptes de centrar-se en una tesi clara, l’obra divaga entre opinions diverses sobre temes que podrien haver estat una defensa apassionada de l’humanisme davant l’omnipresència creixent de la intel·ligència artificial, o fins i tot una crítica contundent de l’addicció tecnològica. Però, en lloc d’aprofundir en alguna d’aquestes línies, el text acaba sent un recull de punts de vista que no arriben a quallar en una idea central coherent.",
+    "És un llibre que, malgrat la voluntat d’explorar, es fa difícil de recordar: en l’apartat conceptual no arriba a desvetllar cap reflexió potent o memorable. El seu valor lingüístic, en canvi, és remarcable, perquè Micó escriu en un català florit i sonor que, tot i que pot ser bell, no sempre facilita la comprensió ni la fluïdesa de la lectura.",
+    "El resultat final és un llibre que, malgrat les intencions, no deixa bon gust de boca i que corre el risc de ser oblidat aviat. És, com indica el mateix autor, més un «llibret» que no pas un llibre profund i estructurat."
+   ]
+  },
+  {
+   "id": "como-crear-una-mente",
+   "tema": "ment-i-futur",
+   "titol": "Cómo crear una mente. El secreto del pensamiento humano",
+   "autor": "Ray Kurzweil",
+   "editorial": "Lola Books",
+   "any": 2015,
+   "isbn": "978-3-944203-17-1",
+   "portada": "71gFxVKsv9L",
+   "estrelles": 3,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-10-03",
+   "obertura": "Dens, en alguns trams més un tractat de neuropsiquiatria que un llibre d’IA, però estimulant: la llei dels rendiments accelerats i la fusió entre el cervell i la computació fan pensar.",
+   "pregunta": "Kurzweil imagina petits dispositius que entraran al cervell pel torrent sanguini. Ho veus com un avenç desitjable o com una amenaça?",
+   "ressenya": [
+    "«Cómo crear una mente», de Ray Kurzweil, és una obra que fàcilment podria ser un llibre de capçalera per a neuropsiquiatres i futuristes. Ara bé, la lectura és considerablement densa, fins al punt que en algunes seccions s’assembla més a un tractat de neuropsiquiatria que a un llibre dedicat a la intel·ligència artificial, malgrat les connexions evidents que hi té.",
+    "Kurzweil fa una exploració exhaustiva de la configuració i la cartografia del cervell, i pot aclaparar els lectors que busquen una aproximació més accessible a la IA. Aquesta part és, sens dubte, detallada i rigorosa, i descriu el funcionament del cervell humà amb una gran minuciositat.",
+    "Malgrat això, l’obra no deixa de sorprendre i de fer pensar, perquè tracta temes fascinants com la superintel·ligència, les interfícies cervell-ordinador i el que Kurzweil anomena la llei dels rendiments accelerats, una evolució de la llei de Moore aplicada a la informació i a la ment humana. L’autor descriu com en el futur la computació s’integrarà directament amb la biologia humana mitjançant petits dispositius que entraran al cervell a través del torrent sanguini. Aquesta visió de la fusió entre la ment i la tecnologia convida a reflexionar sobre el futur de la intel·ligència artificial i sobre una possible transformació radical de la nostra manera de pensar i d’existir.",
+    "En resum, és un llibre dens però imprescindible per a qui vulgui aprofundir en els límits entre la neurociència i la intel·ligència artificial, i planteja preguntes que no poden deixar indiferent ningú que s’interessi pel futur de la ment humana."
+   ]
+  },
+  {
+   "id": "the-singularity-is-nearer",
+   "tema": "ment-i-futur",
+   "titol": "The Singularity Is Nearer. When We Merge with AI",
+   "autor": "Ray Kurzweil",
+   "editorial": "Vintage",
+   "any": 2024,
+   "isbn": "978-1-5299-3750-3",
+   "portada": "817CK01LdvL",
+   "estrelles": 3,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-09-21",
+   "obertura": "L’actualització de les idees de Kurzweil a l’era de la IA generativa. Hi ha molta anàlisi socioeconòmica que desvia l’atenció, però també espai per als riscos: mal ús, guerra nuclear o una superintel·ligència no alineada.",
+   "pregunta": "Kurzweil és un optimista de la fusió entre humans i IA. Tu ets més optimista o més pessimista que ell?",
+   "ressenya": [
+    "«The Singularity Is Nearer», de Ray Kurzweil, és una obra publicada el 2024 en anglès que tracta amb detall els darrers avenços de la intel·ligència artificial, especialment els de la IA generativa. Kurzweil, conegut per la seva visió optimista de la fusió entre la tecnologia i l’ésser humà, hi actualitza de manera fascinant les seves idees i amplia l’anàlisi de com la intel·ligència artificial configura el present i modelarà el futur pròxim.",
+    "El llibre recupera temes que ja havia explorat a «Cómo crear una mente», com la interfície cervell-ordinador i els mecanismes de la cognició humana. Però aquí s’hi aprecien amb més claredat les aplicacions actuals i les implicacions socials de la IA, que no només complementarà el desenvolupament humà sinó que l’accelerarà.",
+    "Un dels aspectes que poden desorientar el lector és la gran atenció que Kurzweil dedica a l’anàlisi socioeconòmica i política de l’evolució humana. Durant bona part del llibre, la IA queda en segon pla mentre l’autor s’endinsa en l’impacte d’aquests avenços en l’estructura econòmica i social, cosa que pot fer-se feixuga a qui busqui un enfocament més centrat en la tecnologia. Amb tot, el que explica sobre com la intel·ligència artificial influirà en la vida quotidiana és revelador.",
+    "Kurzweil tampoc no és aliè als riscos. Dedica un espai als perills que podrien derivar-se del mal ús de la IA, a l’amenaça d’una guerra nuclear o fins i tot a l’aparició d’una superintel·ligència no alineada amb els interessos humans, i subratlla la importància de gestionar aquests avenços èticament. En resum, és una obra complexa i profunda que, malgrat alguns trams més densos, ofereix una mirada completa i actual sobre el futur de la intel·ligència artificial i el seu paper en l’evolució de l’ésser humà."
+   ]
+  },
+  {
+   "id": "la-singularidad-fenollosa",
+   "tema": "ment-i-futur",
+   "titol": "La singularidad. Inteligencia artificial: causas, consecuencias y retos de haber creado máquinas que piensan",
+   "autor": "Carlos Fenollosa",
+   "editorial": "Arpa",
+   "any": 2024,
+   "isbn": "978-84-10313-28-6",
+   "portada": "61j8ASQbUSL",
+   "estrelles": 5,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-10-07",
+   "obertura": "Audaç i apassionat: Fenollosa s’atreveix a dir que la IA que fem servir ja «pensa», «eppur si cogita». Les primeres cent pàgines es llegeixen d’una tirada, i explica la IA d’una manera molt accessible.",
+   "pregunta": "Fenollosa sosté que models com ChatGPT ja pensen. Hi estàs d’acord, o només imiten el pensament?",
+   "ressenya": [
+    "«La singularidad», de Carlos Fenollosa, és una obra sorprenent i audaç que desafia els paradigmes establerts sobre la intel·ligència artificial. Amb una narració apassionada, Fenollosa no només suggereix que la IA que hem desenvolupat, com ChatGPT, ja «pensa», sinó que s’atreveix a afirmar-ho amb una convicció gairebé galileana: «eppur si cogita», i tanmateix pensa. És una idea que colpeix, sobretot si tenim en compte que altres referents de la singularitat, com Ray Kurzweil, no ho han dit d’una manera tan directa i contundent.",
+    "L’obra es pot comparar amb una simfonia romàntica com la Tercera de Beethoven: plena de força i d’inspiració, amb moments d’esplendor i d’intensitat. Les primeres cent pàgines es llegeixen d’una tirada, mentre Fenollosa exposa idees revolucionàries sobre el futur de la IA i la seva capacitat de pensar, tot i que molts científics i experts ho neguen categòricament. Si és el primer llibre sobre intel·ligència artificial que llegeix algú, els que vinguin després li semblaran una ombra al costat de la brillantor d’aquest.",
+    "Fenollosa no es limita al debat sobre la consciència de la IA: explora també la batalla pel control de la IA, els somnis antics de crear vida artificial i els reptes socials i tecnològics de la singularitat. A més, ofereix una visió clara dels models d’IA, de Siri a ChatGPT, i fa accessible al lector mitjà la complexitat d’aquesta tecnologia.",
+    "En resum, és una obra que desperta consciències i que situa Fenollosa entre els pioners a defensar que la IA ja ha començat a pensar. Una visió innovadora i provocadora que el fa imprescindible per a qui s’interessi pel futur tecnològic i per la singularitat."
+   ]
+  },
+  {
+   "id": "ai-unexplainable-unpredictable-uncontrollable",
+   "tema": "ment-i-futur",
+   "titol": "AI: Unexplainable, Unpredictable, Uncontrollable",
+   "autor": "Roman V. Yampolskiy",
+   "editorial": "Chapman and Hall/CRC",
+   "any": 2024,
+   "isbn": "",
+   "portada": "71UwZdEWRnL",
+   "estrelles": 5,
+   "llengua_ressenya": "es",
+   "data_ressenya": "2024-10-11",
+   "obertura": "Un llibre de capçalera per als líders de la IA: repeteix de mil maneres que la intel·ligència artificial és perillosa i que, fins i tot la que es dissenya per ser «amigable», és inexplicable, impredictible i incontrolable.",
+   "pregunta": "Es pot controlar una intel·ligència més capaç que nosaltres? Què hauria de passar perquè confiessis en una IA molt avançada?",
+   "ressenya": [
+    "«AI: Unexplainable, Unpredictable, Uncontrollable», de Roman Yampolskiy, és una obra imprescindible per prendre consciència dels perills de la intel·ligència artificial. Ja la coberta, amb un monstre que porta una careta somrient a cadascun dels tentacles, suggereix el to del contingut: la IA, per atractiva que sigui, és potencialment terrorífica i difícil de controlar.",
+    "L’estil del llibre és barroc, i repeteix de mil maneres diferents el missatge principal: la intel·ligència artificial és perillosa. Amb exemples i arguments, Yampolskiy revela una veritat inquietant sobre la naturalesa fractal de la IA i insisteix que, malgrat els avenços, no s’ha de confondre la intel·ligència humana amb la intel·ligència artificial general (AGI). Alguns pensadors tendeixen a equiparar l’AGI amb les capacitats humanes, però l’autor ens posa davant l’evidència que aquesta intel·ligència ja està superant l’ésser humà.",
+    "Yampolskiy sorprèn quan afirma que les intel·ligències actuals comencen a prendre consciència d’elles mateixes i que, en certa manera, ja les podem considerar una forma incipient d’AGI. Això dibuixa una realitat esfereïdora: la intel·ligència artificial d’avui, lluny de ser controlable o predictible, és més a prop d’una superintel·ligència que de la intel·ligència humana comuna.",
+    "El llibre hauria de ser de lectura obligatòria per als líders del desenvolupament de la IA, com Sam Altman, Mark Zuckerberg o fins i tot Dario Amodei, que, segons Yampolskiy, ignoren que qualsevol IA, fins i tot la dissenyada per ser «amigable», és per naturalesa impredictible, inexplicable i incontrolable."
+   ]
+  }
+ ]
+}
