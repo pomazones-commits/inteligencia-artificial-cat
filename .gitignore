@@ -8,3 +8,8 @@ outputs/
 *.tgz
 *.zip
 public/data/subscribers.csv
+# Club de lectura: dades que només viuen al servidor (vegeu public/inc/club.php)
+public/data/club-opinions.json
+public/data/club-opinions.lock
+public/data/club-secret.txt
+public/assets/club/
