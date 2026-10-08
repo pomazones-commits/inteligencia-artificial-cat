@@ -74,7 +74,7 @@
     const nav = document.querySelector('footer nav');
     if (!nav || nav.querySelector('.peu-seccions')) return;
     [['/autors', 'Qui hi escriu'], ['/escriu.html', 'Escriu a IA.cat'], ['/agenda', 'Agenda'],
-     ['/glossari', 'Glossari'], ['/llengua', 'La IA i el català'], ['/ecosistema', 'Ecosistema'], ['/formacio', 'Formació'], ['/centres-de-dades', 'Centres de dades'],
+     ['/glossari', 'Glossari'], ['/llengua', 'La IA i el català'], ['/ecosistema', 'Ecosistema'], ['/formacio', 'Formació'], ['/club-de-lectura', 'Club de lectura'], ['/centres-de-dades', 'Centres de dades'],
      ['/podcast.html', 'Pòdcast'], ['/correccions', 'Correccions']].forEach(([href, text], i) => {
       if (nav.querySelector('a[href="' + href + '"], a[href=".' + href + '"]')) return;
       const a = document.createElement('a');

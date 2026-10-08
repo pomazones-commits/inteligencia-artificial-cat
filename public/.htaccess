@@ -38,6 +38,12 @@ Require all denied
 <Files "mail.log">
 Require all denied
 </Files>
+# Club de lectura (08.10.2026): opinions dels lectors (pendents incloses) i clau
+# de moderació. Només existeixen al servidor; api.php i club-modera.php hi
+# accedeixen pel sistema de fitxers.
+<FilesMatch "^club-(opinions\.json|opinions\.json\.tmp|opinions\.lock|secret\.txt)$">
+Require all denied
+</FilesMatch>
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -66,6 +72,8 @@ RewriteRule ^glossari/?$ glossari.php [L,QSA]
 RewriteRule ^ecosistema/?$ ecosistema.php [L,QSA]
 RewriteRule ^formacio/?$ formacio.php [L,QSA]
 RewriteRule ^centres-de-dades/?$ centres-de-dades.php [L,QSA]
+RewriteRule ^club-de-lectura/?$ club-de-lectura.php [L,QSA]
+RewriteRule ^club-de-lectura/([a-z0-9-]+)/?$ club-de-lectura.php?llibre=$1 [L,QSA]
 RewriteRule ^llengua/?$ llengua.php [L,QSA]
 RewriteRule ^correccions/?$ correccions.php [L,QSA]
 RewriteRule ^podcast\.xml$ podcast.php [L]

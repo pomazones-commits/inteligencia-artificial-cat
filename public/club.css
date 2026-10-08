@@ -1,0 +1,108 @@
+/* Club de lectura sobre IA (08.10.2026). Full autònom: fa servir les variables
+   d'editorial.css i no en toca cap regla. El carrega només club-de-lectura.php. */
+
+.club-etiqueta{margin:0 0 10px;color:var(--ed-blue);font:600 10px var(--ed-mono);letter-spacing:.1em;text-transform:uppercase}
+.club-autor{margin:0;color:var(--ed-ink);font:500 17px var(--ed-sans)}
+.club-estrelles{color:#b07d00;letter-spacing:1px;white-space:nowrap}
+.club-boto{display:inline-block;padding:13px 22px;border:0;border-radius:999px;background:var(--ed-ink);color:var(--ed-accent)!important;font:600 11px var(--ed-mono);letter-spacing:.06em;text-decoration:none;text-transform:uppercase;cursor:pointer}
+.club-boto:hover,.club-boto:focus-visible{background:var(--ed-blue);color:#fff!important}
+.club-boto:disabled{opacity:.5;cursor:default}
+
+/* Portades (verticals, 2:3). Si no n'hi ha, coberta tipogràfica. */
+.club-portada{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;border-radius:4px 8px 8px 4px;background:var(--ed-blue-soft);box-shadow:0 1px 2px rgba(17,24,39,.08),0 10px 24px -12px rgba(17,24,39,.35)}
+.club-portada--text{display:flex;flex-direction:column;justify-content:space-between;padding:16px 14px;box-sizing:border-box;background:linear-gradient(160deg,#233a82,#111827);color:#fff;text-align:left}
+.club-portada--text strong{font:600 17px/1.15 var(--ed-serif);letter-spacing:-.01em}
+.club-portada--text span{color:var(--ed-accent);font:600 10px var(--ed-mono);letter-spacing:.06em;text-transform:uppercase}
+
+/* El llibre del mes */
+.club-mes{display:grid;grid-template-columns:200px 1fr;gap:40px;align-items:center;margin:46px 0 0;padding:34px;border-radius:18px;background:var(--ed-ink);color:#fff}
+.club-mes .club-etiqueta{color:var(--ed-accent)}
+.club-mes h2{margin:0 0 6px;font:600 clamp(30px,3.8vw,44px)/1.05 var(--ed-serif);letter-spacing:-.03em}
+.club-mes h2 a{color:inherit;text-decoration:none}.club-mes h2 a:hover{text-decoration:underline}
+.club-mes .club-autor{color:#c9cdd8;margin-bottom:16px}
+.club-mes p{max-width:640px;color:#e3e6ee;font-size:16px;line-height:1.6}
+.club-mes .club-pregunta-curta{margin:18px 0 22px;padding-left:16px;border-left:3px solid var(--ed-accent);color:#fff;font:italic 500 19px/1.45 var(--ed-serif)}
+.club-mes .club-boto{background:var(--ed-accent);color:var(--ed-ink)!important}
+.club-mes .club-boto:hover{background:#fff}
+
+/* Graella de llibres */
+.club-graella{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:30px 22px;margin:0;padding:0;list-style:none}
+.club-graella--petita{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
+.club-llibre a{display:flex;flex-direction:column;gap:6px;color:var(--ed-ink);text-decoration:none}
+.club-llibre .club-portada{margin-bottom:8px;transition:transform .2s ease}
+.club-llibre a:hover .club-portada,.club-llibre a:focus-visible .club-portada{transform:translateY(-4px)}
+.club-llibre__titol{font:600 17px/1.2 var(--ed-serif);letter-spacing:-.01em}
+.club-llibre a:hover .club-llibre__titol{color:var(--ed-blue);text-decoration:underline}
+.club-llibre__autor{color:var(--ed-muted);font-size:14px}
+.club-llibre__peu{color:var(--ed-blue);font:600 10px var(--ed-mono);letter-spacing:.05em;text-transform:uppercase}
+
+/* Fitxa d'un llibre */
+.club-fitxa{max-width:900px}
+.club-fitxa__cap{display:grid;grid-template-columns:240px 1fr;gap:44px;align-items:end;padding:10px 0 40px;border-bottom:1px solid var(--ed-line)}
+.club-fitxa__cap .editorial-kicker a{color:inherit;text-decoration:none}
+.club-fitxa__titol{margin:12px 0 8px;font:600 clamp(36px,5vw,58px)/1.02 var(--ed-serif);letter-spacing:-.035em}
+.club-fitxa__subtitol{margin:0 0 16px;color:var(--ed-muted);font:500 19px/1.35 var(--ed-serif)}
+.club-fitxa__dades{margin:4px 0 0;color:var(--ed-muted);font-size:14px}
+.club-fitxa__lectors{margin:18px 0 0;font-size:14px;color:var(--ed-muted)}
+.club-fitxa__lectors a{color:var(--ed-blue)}
+
+.club-debat{margin:40px 0 0;padding:28px 30px;border:1px solid var(--ed-line);border-radius:16px;background:var(--ed-paper)}
+.club-debat__text{margin:0;font:500 21px/1.5 var(--ed-serif)}
+.club-debat__signatura{margin:14px 0 0;color:var(--ed-muted);font-size:14px}
+.club-ressenya{margin-top:20px;border-top:1px solid var(--ed-line);padding-top:14px}
+.club-ressenya summary{cursor:pointer;color:var(--ed-blue);font:600 11px var(--ed-mono);letter-spacing:.06em;text-transform:uppercase}
+.club-ressenya p{max-width:720px;font-size:17px;line-height:1.7}
+.club-ressenya__nota{color:var(--ed-muted);font-size:13px!important;font-style:italic}
+
+.club-pregunta{margin:34px 0 0;padding:26px 30px;border-radius:16px;background:var(--ed-blue-soft)}
+.club-pregunta__text{margin:0;font:600 clamp(22px,2.6vw,28px)/1.3 var(--ed-serif);letter-spacing:-.015em;color:var(--ed-ink)}
+
+.club-opinions{margin-top:48px}
+.club-opinions h2,.club-form h2{margin:0 0 16px;font:600 clamp(28px,3.2vw,38px)/1.1 var(--ed-serif);letter-spacing:-.03em}
+.club-opinions h2 span{color:var(--ed-muted)}
+.club-buit{color:var(--ed-muted);font-size:16px}
+.club-opinions__llista{margin:0;padding:0;list-style:none}
+.club-opinio{padding:22px 0;border-top:1px solid var(--ed-line)}
+.club-opinio__qui{margin:0 0 8px;font-size:15px}.club-opinio__qui span{color:var(--ed-muted)}
+.club-opinio__text p{margin:0 0 10px;font-size:17px;line-height:1.65}
+.club-opinio__data{margin:0;color:var(--ed-muted);font:500 11px var(--ed-mono)}
+
+/* Formulari */
+.club-form{margin-top:48px;padding:30px;border:1px solid var(--ed-line);border-radius:16px;background:var(--ed-paper)}
+.js-club-form{display:flex;flex-direction:column;gap:18px}
+.js-club-form label{display:flex;flex-direction:column;gap:6px;font:600 14px var(--ed-sans)}
+.js-club-form label span,.club-form__estrelles legend span{color:var(--ed-muted);font-weight:400}
+.js-club-form input[type=text],.js-club-form textarea{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid var(--ed-line);border-radius:10px;background:var(--ed-bg);color:var(--ed-ink);font:400 16px/1.5 var(--ed-sans)}
+.js-club-form input:focus,.js-club-form textarea:focus{outline:2px solid var(--ed-blue);outline-offset:1px;border-color:transparent}
+.club-form__fila{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.club-form__estrelles{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;border:0}
+.club-form__estrelles legend{margin-bottom:8px;font:600 14px var(--ed-sans)}
+.club-form__estrelles label{flex-direction:row;align-items:center;gap:6px;padding:8px 12px;border:1px solid var(--ed-line);border-radius:999px;cursor:pointer;color:#b07d00;font-weight:400}
+.club-form__estrelles label:has(input:checked){border-color:var(--ed-blue);background:var(--ed-blue-soft)}
+.club-form__estrelles input{margin:0;accent-color:var(--ed-blue)}
+.js-club-form .club-form__estrelles label span[aria-hidden]{color:#b07d00;letter-spacing:1px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.club-form__parany{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.club-form__privacitat{margin:0;color:var(--ed-muted);font-size:13px;line-height:1.55}
+.club-form__privacitat a{color:var(--ed-blue)}
+.js-club-form .club-boto{align-self:flex-start}
+.club-form__missatge{margin:0;min-height:1.4em;font-weight:600;color:#9a3412}
+.club-form__missatge--ok{color:#166534}
+.club-form__resultat{padding:14px 16px;border-radius:10px;font-weight:600}
+.club-form__resultat--ok{background:#e3f6e8;color:#14532d}.club-form__resultat--error{background:#fde8e1;color:#9a3412}
+
+@media(max-width:860px){
+  .club-mes{grid-template-columns:140px 1fr;gap:24px;padding:24px}
+  .club-fitxa__cap{grid-template-columns:170px 1fr;gap:26px}
+}
+@media(max-width:620px){
+  .club-mes{grid-template-columns:1fr;padding:22px}
+  .club-mes__coberta{max-width:150px}
+  .club-fitxa__cap{grid-template-columns:1fr;align-items:start}
+  .club-fitxa__coberta{max-width:180px}
+  .club-graella{grid-template-columns:repeat(2,1fr);gap:24px 16px}
+  .club-graella--petita{grid-template-columns:repeat(2,1fr)}
+  .club-debat,.club-pregunta,.club-form{padding:20px}
+  .club-form__fila{grid-template-columns:1fr}
+  .club-debat__text{font-size:19px}
+}

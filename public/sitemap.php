@@ -128,6 +128,16 @@ foreach (['escriu.html', 'autors', 'agenda', 'glossari', 'ecosistema', 'formacio
     $urls[] = ['loc' => $base . '/' . $page, 'lastmod' => $siteIso];
 }
 
+// Club de lectura (08.10.2026): la portada del club i la fitxa de cada llibre.
+$club = is_file(__DIR__ . '/data/club-lectura.json') ? json_decode((string) file_get_contents(__DIR__ . '/data/club-lectura.json'), true) : null;
+if (is_array($club)) {
+    $clubIso = (string) ($club['actualitzat'] ?? '');
+    $urls[] = array_filter(['loc' => $base . '/club-de-lectura', 'lastmod' => $clubIso]);
+    foreach ((array) ($club['llibres'] ?? []) as $llibre) {
+        if (!empty($llibre['id'])) { $urls[] = array_filter(['loc' => $base . '/club-de-lectura/' . $llibre['id'], 'lastmod' => $clubIso]); }
+    }
+}
+
 // Peces editorials amb adreça fixa (/tribuna/<id>, /estudis/<id>, /analisi/<id>,
 // /quadern/<id>, /reflexio/<data>) i fitxa de cada persona autora. Vegeu inc/peces.php.
 require_once __DIR__ . '/inc/peces.php';
