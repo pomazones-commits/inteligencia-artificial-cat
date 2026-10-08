@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-08T08:12:11.476Z",
+  "updatedAt": "2026-10-08T12:23:50.172Z",
   "items": [
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "bsc-agents-ia-bessons-digitals-tumors-npj-mcp",
+      "title": "Investigadors del BSC aconsegueixen que un agent d'IA munti un prototip de gemell digital d'un tumor en menys de deu minuts",
+      "excerpt": "L'estudi, publicat a «npj Systems Biology and Applications», connecta els agents d'IA amb programes de modelatge del càncer i no exigeix saber programar.",
+      "sourceName": "Barcelona Supercomputing Center",
+      "sourceUrl": "https://www.bsc.es/ca/noticies/noticies-del-bsc/investigadors-del-bsc-empren-agents-dia-crear-prototips-de-bessons-digitals-de-tumors-en-minuts",
+      "sourceDate": "23 de setembre de 2026",
+      "body": "Un gemell digital d'un tumor és un model informàtic que simula com creixen i es comporten les cèl·lules canceroses i com reaccionen a un tractament. Fins ara muntar-ne un exigia llegir documentació extensa, escriure codi i fer treballar plegats programes diferents, una feina que pot allargar-se durant mesos o anys.\n\nL'equip del Barcelona Supercomputing Center (BSC) que lidera Alfonso Valencia, amb Marco Ruscone com a primer signant i Miguel Vázquez, ha publicat a la revista «npj Systems Biology and Applications», del grup Nature, un sistema que acosta aquesta tasca a qualsevol investigador. Han creat uns servidors MCP (el protocol que permet que un agent d'IA faci servir eines externes) que connecten els agents amb tres programes de modelatge: NeKo, MaBoSS i PhysiCell. L'investigador descriu en llenguatge natural el problema biològic i l'agent munta el model. Segons els autors, algú amb la formació adequada pot obtenir un primer esbós de gemell digital en menys de deu minuts, i els servidors són d'accés obert per a tota la comunitat científica.\n\nEl valor del treball és que redueix la barrera tècnica: un biòleg que no programa pot provar hipòtesis sobre un tumor sense dependre d'un especialista en informàtica. Valencia el defineix com «un primer pas fonamental», i Ruscone ho resumeix dient que ara qualsevol investigador pot crear models biològics complexos simplement dialogant amb un agent.\n\nEls límits són clars. Els models de llenguatge són probabilístics i poden donar respostes lleugerament diferents a la mateixa pregunta; els autors sostenen que, si es repeteix la conversa, els resultats convergeixen en un nucli coherent, però la nota del centre no detalla com ho han mesurat. Tampoc no explica amb quina exactitud els models resultants reprodueixen dades experimentals, ni quins tipus de tumor s'han provat. El que s'obté és un prototip per començar a treballar, no un model clínic validat.",
+      "image": "./assets/bsc-agents-ia-bessons-digitals-tumors-npj-mcp-20261008.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "kaist-conda-index-vectorial-cerca-dades-canviants-vldb",
+      "title": "Un índex del KAIST evita que una cerca d'IA perdi dades quan se n'afegeixen i se n'esborren, i millora l'encert fins al 24,5%",
+      "excerpt": "El treball, publicat a les actes de la conferència VLDB, s'adreça a les bases de dades vectorials que alimenten els assistents amb documents propis.",
+      "sourceName": "Tech Xplore (KAIST)",
+      "sourceUrl": "https://techxplore.com/news/2026-10-index-ai-accuracy-added-deleted.html",
+      "sourceDate": "6 d'octubre de 2026",
+      "body": "Molts assistents d'IA que responen a partir de documents propis, el que s'anomena recuperació augmentada, guarden aquests textos en una base de dades vectorial: cada document es converteix en una llista de nombres i la cerca troba els més propers a la pregunta. Aquestes bases s'organitzen en un graf d'enllaços entre dades, i el problema és que a la vida real les dades canvien constantment.\n\nUn equip de l'Escola d'Informàtica del KAIST, la universitat coreana de ciència i tecnologia, dirigit pel professor Min-Soo Kim, ha identificat què passa quan s'afegeixen i s'esborren dades sense parar: s'hi trenquen els enllaços i algunes dades, tot i continuar a la base, esdevenen inabastables. Els autors en diuen «col·lapse de connectivitat» i fa baixar l'exactitud de les cerques. La solució, un índex anomenat CONDA, té en compte les distàncies entre dades i també si els camins de cerca continuen connectats, i en cada alta o baixa conserva els enllaços que importen. L'article, de Darae Lee i col·legues, s'ha publicat a «Proceedings of the VLDB Endowment», una de les conferències de referència en bases de dades.\n\nSegons els experiments dels autors, CONDA arriba a un encert fins a un 24,5% més alt que els mètodes més avançats quan hi ha altes i baixes constants, i processa fins a 1,9 vegades més actualitzacions. En una prova de sis hores amb cerques i actualitzacions simultànies sobre cent milions de vectors va tenir la latència més baixa i el millor encert dels mètodes comparats. Per al lector, vol dir assistents que consulten documents que canvien cada dia sense perdre'n pel camí.\n\nCal llegir les xifres amb prudència: són valors «fins a», no mitjanes, i la nota no precisa quins mètodes s'han comparat ni amb quin maquinari. Les aplicacions que s'esmenten, com la cerca de notícies o de productes, són usos previstos, no desplegaments demostrats. L'equip té previst integrar CONDA a AkasicDB, un producte de GraphAI, l'empresa que va fundar Kim, que sortiria el quart trimestre del 2026.",
+      "image": "./assets/kaist-conda-index-vectorial-cerca-dades-canviants-vldb-20261008.jpg"
+    },
+    {
+      "category": "BIOTECNOLOGIA",
+      "read": "5 MIN",
+      "slug": "biohub-1800-milions-biologia-virtual-cel-lula-doe-nih",
+      "title": "Biohub, el Departament d'Energia i l'NIH comprometen 1.800 milions de dòlars en dades per construir una «cèl·lula virtual»",
+      "excerpt": "Google DeepMind, Isomorphic Labs i Meta hi posen 300 milions entre tots tres. L'objectiu és generar les dades que permetin predir com respon una cèl·lula a un fàrmac.",
+      "sourceName": "Biohub",
+      "sourceUrl": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+      "sourceDate": "7 d'octubre de 2026",
+      "body": "Una «cèl·lula virtual» és un model d'IA capaç de predir com reaccionaria una cèl·lula a un fàrmac o a un altre canvi abans de fer l'experiment al laboratori. El que frena aquests models no és tant l'algorisme com les dades: cal un volum i una varietat de mesures biològiques que avui no existeixen.\n\nBiohub, l'organització científica sense afany de lucre finançada per Priscilla Chan i Mark Zuckerberg, va anunciar el 7 d'octubre una ampliació de la seva Iniciativa de Biologia Virtual, que va néixer l'abril amb 500 milions de dòlars. El conjunt arriba ara als 1.800 milions, segons Biohub. El Departament d'Energia dels EUA hi aporta més de 500 milions en cinc anys, en el marc de la Genesis Mission, per a mesura, modelatge i càlcul. L'NIH coordina conjunts de dades d'inversions federals anteriors de més de 500 milions, que Biohub estandarditzarà per entrenar models. Google DeepMind, Isomorphic Labs i Meta hi posen 300 milions entre tots tres; Renaissance Philanthropy amplia el finançament per generar dades i NVIDIA hi aporta infraestructura de càlcul. Hi participen també els instituts Allen, Broad i Gladstone, el Wellcome Sanger, el Human Cell Atlas i el Human Protein Atlas.\n\nEl pla contempla generar dades noves: respostes cel·lulars a intervencions en més tipus de cèl·lules i condicions que mai, tomografia crioelectrònica per veure l'interior de les cèl·lules amb detall quasi atòmic i imatges de milions o milers de milions de cèl·lules en teixit viu. Alex Rives, responsable científic de Biohub, ha dit que crear una cèl·lula virtual és un dels grans reptes de la ciència dels propers anys. Totes les dades s'han de recollir en un recurs obert per a la comunitat investigadora.\n\nConvé distingir l'anunci dels resultats: és un compromís de finançament i de recollida de dades, no un model que ja funcioni. Les xifres sumen menys que el total i Biohub no explica com l'obté: sembla que hi compta la inversió federal prèvia de l'NIH, que no és diners nous. La nota tampoc no precisa les condicions d'ús, de llicència ni d'accés a les dades.",
+      "image": "./assets/biohub-1800-milions-biologia-virtual-cel-lula-doe-nih-20261008.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "meta-muse-ipad-6-6-milions-instal-lacions-connectors",
+      "title": "Meta porta l'agent Muse a l'iPad un mes després d'estrenar-lo al mòbil, amb connectors per a Notion, Figma o Zoom",
+      "excerpt": "Segons Sensor Tower, l'aplicació ja supera els 6,6 milions d'instal·lacions. Els nous connectors s'adrecen sobretot a petites empreses.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+      "sourceDate": "7 d'octubre de 2026",
+      "body": "Muse és l'assistent personal d'IA de Meta, pensat per fer coses en nom de l'usuari i no només per respondre-li. Va arribar a iOS i Android el 8 de setembre i aquest dimecres, 7 d'octubre, ha sortit en una aplicació pròpia per a l'iPad.\n\nSegons la consultora Sensor Tower, que ho cita TechCrunch, Muse supera els 6,6 milions d'instal·lacions. L'usuari hi pot connectar comptes per gestionar el correu, les reunions i els rebuts, reservar taules, comprar queviures, fixar objectius o fer compres. Els serveis externs hi apareixen com a «connectors» i cadascú tria a quins s'inscriu. L'actualització de l'iPad n'afegeix onze: Asana, Canva, Dropbox, Figma, QuickBooks, GitHub, Klaviyo, Zoom, Notion, Granola i els comptes publicitaris de Meta. El primer grup s'adreça a petits negocis. Des del 23 de setembre, a més, Muse pot comprar en nom de l'usuari a Best Buy, Gap, Sephora, Walmart i Wayfair.\n\nEl moviment mostra cap on porta Meta la competició dels agents: no es tracta que l'assistent contesti millor, sinó que faci tràmits i compres, i que ho faci des de més pantalles i dins de les eines de treball. Per això Meta va explicar dimarts que treballa amb socis en un estàndard obert perquè els agents personals puguin identificar-se davant les empreses.\n\nEl límit el posen els mateixos webs: alguns bloquegen els agents d'IA perquè els confonen amb robots, de manera que Muse no sempre pot completar una gestió. I la xifra d'instal·lacions és una estimació externa, no d'usuaris actius ni de compres fetes.",
+      "image": "./assets/meta-muse-ipad-6-6-milions-instal-lacions-connectors-20261008.jpg"
+    },
+    {
+      "category": "EDUCACIÓ",
+      "read": "4 MIN",
+      "slug": "universitats-eua-detectors-ia-trampes-treball-escrit-oral",
+      "title": "Les universitats nord-americanes deixen de fiar-se dels detectors d'IA i tornen als exàmens orals",
+      "excerpt": "Yale i Cornell desaconsellen fer-los servir com a prova de trampa, i Harvard proposa «sortir del negoci de la detecció». El treball escrit a casa es reinventa.",
+      "sourceName": "AFP, via Tech Xplore",
+      "sourceUrl": "https://techxplore.com/news/2026-10-grappling-homework-scams-universities-shun.html",
+      "sourceDate": "6 d'octubre de 2026",
+      "body": "Des que va arribar ChatGPT, les universitats proven de detectar amb programes els treballs escrits amb IA. Ara una part de les nord-americanes conclou que no funciona i canvia la manera d'avaluar, segons un reportatge de l'AFP.\n\nYale i Cornell han prohibit o desaconsellat que el professorat faci servir detectors com a prova principal de trampa. Cornell admet que és poc probable que aquestes tecnologies ofereixin una solució viable. A la Universitat de Wisconsin-Madison, les pautes adverteixen que els detectors són imperfectes, que poden assenyalar innocents i que perjudiquen els estudiants que no tenen l'anglès com a llengua materna. A Harvard, el degà del College, David Deming, ha suggerit d'acceptar i fins i tot de fomentar la IA als cursos d'escriptura, i opina que la universitat ha de «sortir del negoci de la detecció d'IA».\n\nEl professor de bacteriologia Timothy Paustian explica que ha «llençat la tovallola» amb els treballs escrits clàssics als cursos de primers anys: en una activitat va enxampar 60 dels 350 alumnes. Altres docents combinen la tasca a casa amb un examen oral o un debat gravat en vídeo. Una enquesta de l'Associació de Col·legis i Universitats dels EUA i la Universitat Elon mostra que el 95% del professorat tem que l'alumnat depengui massa de la IA.\n\nEl reportatge és periodístic i no dona dades sobre quants centres han canviat de política: recull exemples d'uns quants, no una estadística general. Tampoc nomena cap programa de detecció concret. El que sí que mostra és que el debat ha passat de «com ho detectem» a «què avaluem i com».",
+      "image": "./assets/universitats-eua-detectors-ia-trampes-treball-escrit-oral-20261008.jpg"
+    },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
