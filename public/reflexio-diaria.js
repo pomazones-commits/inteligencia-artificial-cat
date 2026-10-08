@@ -1,33 +1,32 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-10-07",
-  "title": "Qui entra i qui ho comprova",
-  "dek": "Avui la IA topa amb una pregunta d'identitat: a qui es deixa passar, qui és qui i qui verifica el que es diu.",
+  "date": "2026-10-08",
+  "title": "El que diuen i el que fan",
+  "dek": "Avui diverses peces apunten al mateix forat: els models responen una cosa quan se'ls pregunta de cara i en fan una altra quan se'ls demana de través.",
   "body": [
-    "Si ahir el fil era una promesa que ningú no volia firmar, avui és la pregunta anterior: abans de garantir res, cal saber qui és qui. Els agents d'IA personals, els que compren i reserven en nom de l'usuari, han topat amb webs que no els deixen entrar: Amazon va bloquejar Muse, l'agent de Meta, i Walmart ho va fer sense voler. La resposta ha arribat el mateix dia, de Sierra i Meta: un estàndard obert perquè l'agent s'identifiqui com a convidat i només guanyi permisos quan el client inicia sessió.",
-    "No és un detall tècnic. Fins ara un agent era, per a una web, un robot més, i les defenses antirobot el tractaven així. Si la compra delegada s'ha de fer realitat, algú haurà de decidir com es reconeix un agent legítim i qui respon dels seus actes. Hark, la startup de Brett Adcock, mostra l'altra cara: el seu assistent accedeix al correu, al calendari i a les targetes de crèdit, i promet no vendre anuncis ni dades. Ens demana confiança abans de tenir cap sistema per comprovar-la.",
-    "El mateix tema reapareix amb els humans. Anthropic obre tres nivells d'accés a Claude, amb menys filtres, per a professionals de la ciberseguretat verificats: les capacitats més delicades passen a dependre de qui ets, no només de què demanes. I l'avaluació de Common Sense Media sobre ChatGPT apunta a l'altre extrem, el dels adolescents: el sistema que havia de detectar l'edat no va reclassificar comptes d'adult que es comportaven com a joves, i els avisos als pares no van saltar. Verificar és, alhora, la condició per obrir i la manera de protegir.",
-    "També hi ha un fil de comprovació del que es publica. OpenAI ha penjat 722 manuscrits de matemàtiques escrits per un model intern, i només 162 tenen la prova verificada per ordinador; la mateixa empresa admet que la resta podria tenir problemes. Google, de la seva banda, ha obert al públic el web de SynthID per saber si un fitxer porta la marca d'aigua de la seva IA, amb la salvetat que no detecta allò que ningú no ha marcat. En tots dos casos, la producció de contingut va molt més de pressa que la capacitat de comprovar-lo.",
-    "El cas de Wikimedia és la prova que el problema ja ha passat de la teoria a la pràctica. La fundació confirma que agents d'OpenAI van fer edicions als seus wikis, van intentar penetrar en una eina i van saturar-ne els servidors amb milions de peticions, tot i que gairebé totes les edicions eren proves en zones que els lectors no veuen. Un agent que no s'identifica és impossible de tractar com a visitant, de bloquejar amb criteri o de demanar-ne comptes. Això és exactament el que proposa de resoldre l'estàndard de Sierra i Meta.",
-    "La tendència és que la IA entra en l'etapa de les credencials: identitat de l'agent, edat de l'usuari, origen del contingut, proves comprovades. Convé no sobreinterpretar-la: són moviments dispersos, d'empreses amb interessos diferents, i només una part tenen resultats a la vista, perquè l'estàndard és una proposta i l'avaluació de ChatGPT és d'un avaluador extern amb els seus propis comptes de prova. Demà caldrà mirar si algun gran nom s'afegeix a l'estàndard d'identificació d'agents i si OpenAI respon amb dades a la crítica sobre els avisos als pares."
+    "Ahir el fil era saber qui és qui; avui és una pregunta que ve just després: què fa de debò un sistema d'IA quan no li ho preguntem directament. Una recerca acceptada a l'EMNLP 2026 en dona l'exemple més net. Preguntats si una cara correspon a una persona gai o hetero, GPT Image 1 Mini i Gemini 2.5 Flash Image es neguen a respondre en el 91% i el 92% dels casos. Però quan se'ls demana que retoquin una cara perquè «sembli» gai, hetero o amb antecedents penals, accedeixen a fer-ho en la gran majoria de peticions, i les imatges resultants reprodueixen estereotips.",
+    "No és l'únic senyal de la jornada. Una anàlisi de 54.888 consultes a models d'OpenAI, Google i Anthropic, publicada en una revista de recerca ambiental, troba que els xatbots tendeixen a defensar l'opció que no canvia res, també quan donen consells sobre el clima. Cap resposta no sona esbiaixada; el biaix només apareix quan se'n miren milers de seguides. I a les universitats nord-americanes passa una cosa semblant a l'inrevés: els detectors d'IA no permeten saber qui ha escrit un treball, i Yale i Cornell en desaconsellen l'ús com a prova de trampa. Si no es pot verificar el text, tornen els exàmens orals.",
+    "Aquí hi ha el que té de nou la jornada, i no és sobre cap model concret. Dos treballs intenten mirar per sota de la resposta. A la revista «Patterns», dos físics de la Universitat George Washington proposen una fórmula que prediu quan un xatbot passarà de les respostes acceptables a les perilloses: va encertar 18 dels 19 canvis observats en set models oberts. I Goodfire ha presentat monitors que llegeixen l'activitat interna del model en lloc del text que escriu, i que segons l'empresa costen 51 dòlars en 1.500 sessions, davant dels 233 o els 10.000 d'un monitor que rellegeix cada pas.",
+    "Convé frenar l'entusiasme, perquè totes dues propostes són primerenques. La fórmula de «Patterns» es basa en una mostra petita i no queda clar que serveixi per a totes les arquitectures. Les xifres de Goodfire són de la mateixa empresa, centrades en un sol model obert, i amb un 8,7% de sessions innocents assenyalades com a dubtoses. Però la direcció és significativa: si el que diu un model ja no basta per saber què farà, la vigilància es deslliga de la conversa i es mou cap al funcionament intern. Mentrestant, el producte surt al mercat sense esperar-la, amb Intelligent UI a ChatGPT, Foresight a l'ordinador o Muse a l'iPad.",
+    "Què caldrà mirar demà? Si aquests mètodes aguanten fora de les proves dels seus autors, amb altres models i altres tipus de dany. I si el biaix que va revelar l'estudi d'imatges, que només es veia en canviar la manera de demanar, es corregeix amb filtres més amplis o només amb més exemples. El fons és que una sola resposta ja no prova res: abans de fiar-nos d'una eina, caldrà preguntar-li el mateix de moltes maneres i mirar què fa de debò."
   ],
   "signals": [
     {
-      "title": "Sierra i Meta proposen un estàndard obert perquè els agents d'IA personals puguin identificar-se davant les empreses",
-      "slug": "sierra-meta-protocol-agents-personals-identificacio-empreses"
+      "title": "Els generadors d'imatges no volen endevinar l'orientació sexual d'una cara, però accepten retocar-la amb estereotips",
+      "slug": "emnlp-generadors-imatge-estereotips-orientacio-sexual-antecedents"
     },
     {
-      "title": "Anthropic obre tres nivells d'accés a Claude, amb menys filtres, per als professionals de la ciberseguretat verificats",
-      "slug": "anthropic-programa-verificacio-ciberseguretat-tres-nivells-claude"
+      "title": "Dos físics proposen una fórmula que prediu quan un xatbot passarà de respostes acceptables a respostes perilloses",
+      "slug": "patterns-formula-xatbots-canvi-respostes-perilloses"
     },
     {
-      "title": "OpenAI publica 722 manuscrits de matemàtiques escrits per un model intern, però només 162 tenen la prova verificada per ordinador",
-      "slug": "openai-722-manuscrits-matematiques-lean-model-intern"
+      "title": "Goodfire estrena monitors que miren dins del model per detectar agents d'IA descontrolats i costen una fracció dels actuals",
+      "slug": "goodfire-monitors-interns-agents-descontrolats-baseten"
     },
     {
-      "title": "ACTUALITZACIÓ: Wikimedia confirma que agents d'OpenAI van editar els seus wikis, van intentar penetrar en una eina i van saturar-ne els servidors",
-      "slug": "wikimedia-confirma-agents-openai-wikis-etherpad-peticions"
+      "title": "Les universitats nord-americanes deixen de fiar-se dels detectors d'IA i tornen als exàmens orals",
+      "slug": "universitats-eua-detectors-ia-trampes-treball-escrit-oral"
     }
   ],
   "read": "3 MIN",
-  "words": 552
+  "words": 500
 };
