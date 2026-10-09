@@ -1,0 +1,95 @@
+name: Vídeos — recollida dels canals oficials
+
+# 09.10.2026. Llegeix el RSS públic dels canals de YouTube de la llista tancada
+# automation/video-channels.json (sense clau d'API) i desa els vídeos sobre IA
+# dels últims 21 dies a public/data/videos.json, amb les miniatures a
+# public/assets/videos/. D'aquí beuen la secció /videos i la sessió editorial,
+# que tria els vídeos de les notícies d'aquesta llista en lloc de cercar-los a
+# la web (la cerca no tornava cap enllaç de YouTube: 0 vídeos en 60 notícies
+# del 06 al 09.10.2026). Detall: capçalera d'automation/scripts/recull-videos.mjs.
+#
+# Quan corre:
+#   - en acabar el Content Hub (lot publicat): hi aplica les assignacions de
+#     vídeos tardans que la sessió hagi deixat a incoming/videos-assignats.json.
+#     Si el Content Hub l'ha llançat l'auto-fusió (GITHUB_TOKEN), el
+#     workflow_run no arriba: per això content-hub.yml també el dispara a mà;
+#   - uns minuts abans de cada lot (05.47, 09.47, 13.47, 17.47 CEST), perquè la
+#     sessió editorial trobi la llista fresca. GitHub deixa caure molts crons
+#     d'aquest repositori: la passada de després de cada lot és la que mana;
+#   - a mà: Actions → «Vídeos — recollida dels canals oficials» → «Run workflow».
+#
+# Idempotent: si la llista no ha canviat no fa cap commit. MAI no toca res fora
+# de public/data/videos.json i public/assets/videos/.
+
+on:
+  workflow_run:
+    workflows: ["Content Hub — completar l'edició"]
+    types: [completed]
+  schedule:
+    - cron: '47 3,7,11,15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: videos-recollida
+  cancel-in-progress: false
+
+jobs:
+  recull:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion != 'cancelled'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Recuperar el web
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Llegir els canals i desar els vídeos
+        run: >-
+          node automation/scripts/recull-videos.mjs
+          --canals automation/video-channels.json
+          --sortida public/data/videos.json
+          --miniatures public/assets/videos
+          --assignacions incoming/videos-assignats.json
+          --public-dir public
+
+      - name: Publicar si hi ha canvis
+        id: publica
+        run: |
+          git config user.name "intel·ligènciaartificial.cat bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A public/data/videos.json public/assets/videos
+          if git diff --cached --quiet; then
+            echo "Cap canvi a la llista de vídeos."
+            echo "canvis=no" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "[videos] recull els vídeos dels canals oficials"
+          for intent in 1 2 3; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "canvis=si" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep $((intent * 10))
+          done
+          echo "::error::No he pogut pujar la llista de vídeos després de tres intents."
+          exit 1
+
+      # Un push fet amb el GITHUB_TOKEN no dispara el desplegament (cap workflow
+      # en dispara cap altre així). Un workflow_dispatch, sí.
+      - name: Desplegar
+        if: steps.publica.outputs.canvis == 'si'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run desplega.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar el desplegament; el cron :08/:38 o la xarxa de seguretat ho repescaran."
