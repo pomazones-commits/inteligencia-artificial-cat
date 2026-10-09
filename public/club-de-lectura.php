@@ -181,7 +181,7 @@ function club_fitxa(array $b, array $temes, array $llibres, array $ressenyador, 
 <?php foreach ((array) $b['ressenya'] as $p): ?>
           <p><?= iacat_e((string) $p) ?></p>
 <?php endforeach; ?>
-          <p class="club-ressenya__nota"><?= $esEs ? 'Traducció de l’original en castellà, publicat' : 'Publicada originalment' ?> a Amazon el <?= iacat_e(iacat_data_llarga((string) ($b['data_ressenya'] ?? ''))) ?>.</p>
+          <p class="club-ressenya__nota"><?php if (($b['origen_ressenya'] ?? '') === 'club'): ?><?= $esEs ? 'Traducció de l’original en castellà, escrit' : 'Escrita' ?> per al club de lectura el <?php else: ?><?= $esEs ? 'Traducció de l’original en castellà, publicat' : 'Publicada originalment' ?> a Amazon el <?php endif; ?><?= iacat_e(iacat_data_llarga((string) ($b['data_ressenya'] ?? ''))) ?>.</p>
         </details>
       </section>
 
