@@ -12,7 +12,9 @@
 
    El cartell és disseny propi (HTML i CSS): no fem servir el cartell oficial de
    l'organitzador, que té drets. Si un organitzador ens en dona permís, es pot
-   posar la seva imatge al camp opcional "cartell" (ruta /assets/...).
+   posar la seva imatge al camp opcional "cartell" (ruta /assets/...). Amb
+   "inscripcions": "tancades" (o si l'acte ja ha començat) el botó diu «Web de
+   l'acte» en lloc d'«Inscripcions i bases».
    Banda pròpia amb CSS propi (cartell.css): no es toca portada.css. */
 (() => {
   'use strict';
@@ -67,7 +69,9 @@
     const d = dates(acte.inici, acte._fi);
     const url = urlSegura(acte.url);
     const tipus = NOM_TIPUS[acte.tipus] || 'Acte';
-    const xips = [acte.format, acte.preu].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join('');
+    const enMarxa = acte.inici <= avui && avui <= acte._fi;
+    const tancades = enMarxa || acte.inscripcions === 'tancades';
+    const xips = [acte.format, acte.preu, tancades ? 'inscripcions tancades' : ''].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join('');
     const imatge = imatgeLocal(acte.cartell);
     const llista = propers.map(p => {
       const dp = dates(p.inici, p._fi);
@@ -95,7 +99,7 @@
           </dl>
           ${xips ? `<p class="cartell-poster__xips">${xips}</p>` : ''}
           <p class="cartell-poster__accions">
-            ${url ? `<a class="cartell-boto" href="${esc(url)}" target="_blank" rel="noopener">${acte.tipus === 'hackató' ? 'Inscripcions i bases' : 'Web oficial'} <span aria-hidden="true">↗</span></a>` : ''}
+            ${url ? `<a class="cartell-boto" href="${esc(url)}" target="_blank" rel="noopener">${tancades ? "Web de l'acte" : acte.tipus === 'hackató' ? 'Inscripcions i bases' : 'Web oficial'} <span aria-hidden="true">↗</span></a>` : ''}
             <a class="cartell-enllac" href="/agenda">Tota l'agenda <span aria-hidden="true">→</span></a>
           </p>
         </article>
