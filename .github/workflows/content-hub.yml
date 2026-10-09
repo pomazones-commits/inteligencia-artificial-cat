@@ -169,3 +169,7 @@ jobs:
           # sessió ha lligat a notícies ja publicades). Pel mateix motiu.
           gh workflow run videos.yml --repo "$GITHUB_REPOSITORY" --ref main \
             || echo "::warning::No he pogut disparar la recollida de vídeos; la propera passada programada ho farà."
+          # 10.10.2026: el ressò de premsa (aplica els destacats que la sessió ha
+          # deixat a incoming/premsa-destacats.json). Pel mateix motiu.
+          gh workflow run premsa.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar el ressò de premsa; la propera passada programada ho farà."
