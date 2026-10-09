@@ -858,3 +858,171 @@ test('reconeix les adreces de YouTube i rebutja les altres', async () => {
   assert.equal(youtubeId('https://evil.example/watch?v=dQw4w9WgXcQ'), '');
   assert.equal(youtubeId(''), '');
 });
+
+// --- Recollida de vídeos dels canals oficials (09.10.2026) ------------------
+
+const recull = resolve(import.meta.dirname, '..', 'scripts', 'recull-videos.mjs');
+const CANAL_3CAT = 'UCKseJ43xWvnywQzl6kYbf0g';
+const CANAL_OPENAI = 'UCXZCJLdBC09xxGZ6gcdrc6A';
+
+function feedXml(canalId, nom, entrades) {
+  const cos = entrades.map(e => `
+ <entry>
+  <id>yt:video:${e.id}</id><yt:videoId>${e.id}</yt:videoId><yt:channelId>${canalId}</yt:channelId>
+  <title>${e.titol}</title>
+  <link rel="alternate" href="https://www.youtube.com/${e.shorts ? 'shorts/' : 'watch?v='}${e.id}"/>
+  <published>${e.publicat}</published>
+  <media:group><media:title>${e.titol}</media:title><media:description>${e.descripcio || ''}</media:description></media:group>
+ </entry>`).join('');
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <yt:channelId>${canalId}</yt:channelId>
+ <title>${nom}</title>${cos}
+</feed>`;
+}
+
+const ARA = new Date('2026-10-09T20:00:00Z');
+
+test('vídeos: del RSS només entren els d’IA, d’aquests dies i sense Shorts', async () => {
+  const { parseFeed, seleccionaEntrades } = await import(recull);
+  const xml = feedXml(CANAL_3CAT, '3CatInfo', [
+    { id: 'AAAAAAAAAA1', titol: 'La IA arriba als hospitals: així funciona', publicat: '2026-10-09T10:00:00+00:00' },
+    { id: 'AAAAAAAAAA2', titol: 'El temps: pluges a l&apos;Empordà', publicat: '2026-10-09T09:00:00+00:00', descripcio: 'Previsió del dia' },
+    { id: 'AAAAAAAAAA3', titol: 'IA: el resum en un minut', publicat: '2026-10-09T08:00:00+00:00', shorts: true },
+    { id: 'AAAAAAAAAA4', titol: 'Un algoritme a l&#39;escola', publicat: '2026-10-08T08:00:00+00:00', descripcio: 'Reportatge sobre la intel·ligència artificial a les aules' },
+    { id: 'AAAAAAAAAA5', titol: 'La IA del 2025', publicat: '2026-08-01T08:00:00+00:00' },
+    { id: 'AAAAAAAAAA6', titol: 'La iaia de Sabadell fa 100 anys', publicat: '2026-10-09T07:00:00+00:00' }
+  ]);
+  const feed = parseFeed(xml);
+  assert.equal(feed.canalId, CANAL_3CAT);
+  assert.equal(feed.entrades.length, 6);
+  assert.equal(feed.entrades[1].titol, "El temps: pluges a l'Empordà");
+  const triats = seleccionaEntrades(feed, { nom: '3CatInfo', id: CANAL_3CAT, grup: 'catala', idioma: 'ca', filtre: true }, { ara: ARA });
+  assert.deepEqual(triats.map(v => v.id), ['AAAAAAAAAA1', 'AAAAAAAAAA4']);
+  assert.equal(triats[0].grup, 'catala');
+  assert.equal(triats[0].idioma, 'ca');
+  assert.equal(triats[0].publicat, '2026-10-09T10:00:00.000Z');
+
+  // Un canal que és tot d'IA (sense filtre) ho agafa tot, menys els Shorts i el que és vell.
+  const oa = parseFeed(feedXml(CANAL_OPENAI, 'OpenAI', [
+    { id: 'BBBBBBBBBB1', titol: 'How we built our new data center', publicat: '2026-10-09T10:00:00+00:00' },
+    { id: 'BBBBBBBBBB2', titol: 'Shorts', publicat: '2026-10-09T10:00:00+00:00', shorts: true }
+  ]));
+  const triatsOa = seleccionaEntrades(oa, { nom: 'OpenAI', id: CANAL_OPENAI, grup: 'empreses', idioma: 'en', filtre: false }, { ara: ARA });
+  assert.deepEqual(triatsOa.map(v => v.id), ['BBBBBBBBBB1']);
+  assert.equal(triatsOa[0].idioma, 'en');
+});
+
+test('vídeos: detecta l’IA sense confondre-la amb paraules que la contenen', async () => {
+  const { parlaDIA, detectaIdioma } = await import(recull);
+  for (const t of ['La IA a les escoles', 'Introducing our new AI agents', 'GPT-6 explained', 'Copilot a Windows', 'Model de llenguatge en català', 'intel·ligència artificial i salut', 'Intel.ligencia artificial']) {
+    assert.equal(parlaDIA(t), true, t);
+  }
+  for (const t of ['La iaia de Sabadell', 'Dia de la Mercè', 'Maig a Barcelona', 'Paella i arròs', 'Daily news']) {
+    assert.equal(parlaDIA(t), false, t);
+  }
+  assert.equal(detectaIdioma('La IA arriba als hospitals amb els metges', 'en'), 'ca');
+  assert.equal(detectaIdioma('La IA llega a los hospitales con los médicos', 'ca'), 'es');
+  assert.equal(detectaIdioma('How the new model works for developers', 'ca'), 'en');
+  assert.equal(detectaIdioma('GPT-6', 'en'), 'en');
+});
+
+test('vídeos: la fusió conserva el que ha decidit la sessió i caduca els vídeos solts', async () => {
+  const { fusiona } = await import(recull);
+  const existents = [
+    { id: 'CCCCCCCCCC1', titol: 'Títol vell', canal: 'OpenAI', canalId: CANAL_OPENAI, grup: 'empreses', idioma: 'ca', publicat: '2026-10-08T10:00:00.000Z', noticia: 'gpt-6', noticiaTitol: 'GPT-6', resum: 'Resum.' },
+    { id: 'CCCCCCCCCC2', titol: 'Solt i vell', canal: 'OpenAI', canalId: CANAL_OPENAI, grup: 'empreses', idioma: 'en', publicat: '2026-09-01T10:00:00.000Z' },
+    { id: 'CCCCCCCCCC3', titol: 'Lligat i vell', canal: 'OpenAI', canalId: CANAL_OPENAI, grup: 'empreses', idioma: 'en', publicat: '2026-09-01T10:00:00.000Z', noticia: 'vella' },
+    { id: 'CCCCCCCCCC4', titol: 'Exclòs', canal: 'OpenAI', canalId: CANAL_OPENAI, grup: 'empreses', idioma: 'en', publicat: '2026-10-09T10:00:00.000Z' },
+    { id: 'malament', publicat: '2026-10-09T10:00:00.000Z' }
+  ];
+  const nous = [
+    { id: 'CCCCCCCCCC1', titol: 'Títol nou', canal: 'OpenAI', canalId: CANAL_OPENAI, grup: 'empreses', idioma: 'en', publicat: '2026-10-08T10:00:00.000Z' },
+    { id: 'CCCCCCCCCC5', titol: 'Nou', canal: 'OpenAI', canalId: CANAL_OPENAI, grup: 'empreses', idioma: 'en', publicat: '2026-10-09T11:00:00.000Z' }
+  ];
+  const fusionats = fusiona(existents, nous, { ara: ARA, exclou: new Set(['CCCCCCCCCC4']) });
+  assert.deepEqual(fusionats.map(v => v.id), ['CCCCCCCCCC5', 'CCCCCCCCCC1', 'CCCCCCCCCC3']);
+  const lligat = fusionats.find(v => v.id === 'CCCCCCCCCC1');
+  assert.equal(lligat.titol, 'Títol nou');
+  assert.equal(lligat.noticia, 'gpt-6');
+  assert.equal(lligat.resum, 'Resum.');
+  assert.equal(lligat.idioma, 'ca');
+});
+
+test('vídeos: les assignacions tardanes només lliguen vídeos de la llista a notícies publicades', async () => {
+  const { aplicaAssignacions, lligaVideosDeNoticies } = await import(recull);
+  const base = { canal: '3CatInfo', canalId: CANAL_3CAT, grup: 'catala', idioma: 'ca', publicat: '2026-10-09T10:00:00.000Z' };
+  const videos = [
+    { ...base, id: 'DDDDDDDDDD1', titol: 'U' },
+    { ...base, id: 'DDDDDDDDDD2', titol: 'Dos', noticia: 'una-altra' },
+    { ...base, id: 'DDDDDDDDDD3', titol: 'Tres' },
+    { ...base, id: 'DDDDDDDDDD4', titol: 'Quatre' }
+  ];
+  const noticies = new Map([
+    ['noticia-a', { title: 'Notícia A' }],
+    ['noticia-b', { title: 'Notícia B', video: 'ZZZZZZZZZZ9' }],
+    ['una-altra', { title: 'Una altra' }],
+    ['noticia-c', { title: 'Notícia C', video: 'DDDDDDDDDD4', resum: 'Del lot.', idioma: 'ca' }]
+  ]);
+  const { aplicades, rebutjades } = aplicaAssignacions(videos, [
+    { slug: 'noticia-a', video: 'https://www.youtube.com/watch?v=DDDDDDDDDD1', resum: '  Peça   del 324. ' },
+    { slug: 'noticia-a', video: 'EEEEEEEEEE1' },
+    { slug: 'no-existeix', video: 'DDDDDDDDDD3' },
+    { slug: 'noticia-a', video: 'DDDDDDDDDD2' },
+    { slug: 'noticia-b', video: 'DDDDDDDDDD3' },
+    'brossa'
+  ], noticies);
+  assert.deepEqual(aplicades, ['DDDDDDDDDD1 → noticia-a']);
+  assert.equal(rebutjades.length, 4);
+  assert.equal(videos[0].noticia, 'noticia-a');
+  assert.equal(videos[0].noticiaTitol, 'Notícia A');
+  assert.equal(videos[0].resum, 'Peça del 324.');
+  assert.equal(videos[2].noticia, undefined);
+
+  // El vídeo que ja porta una notícia del lot també hi queda lligat.
+  assert.equal(lligaVideosDeNoticies(videos, noticies), 1);
+  assert.equal(videos[3].noticia, 'noticia-c');
+  assert.equal(videos[3].resum, 'Del lot.');
+});
+
+test('vídeos: la comanda desa la llista i no la reescriu si no ha canviat', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-videos-'));
+  const fixtures = join(root, 'fx');
+  const publicDir = join(root, 'public');
+  await spawnSync('mkdir', ['-p', fixtures, join(publicDir, 'data')]);
+  await writeFile(join(root, 'canals.json'), JSON.stringify({
+    canals: [
+      { nom: '3CatInfo', id: CANAL_3CAT, grup: 'catala', idioma: 'ca', filtre: true },
+      { nom: 'OpenAI', id: CANAL_OPENAI, grup: 'empreses', idioma: 'en', filtre: false },
+      { nom: 'Sense RSS', id: 'UC0000000000000000000000', grup: 'ciencia', idioma: 'en', filtre: true },
+      { nom: 'Dolent', id: 'no-es-un-canal', grup: 'empreses' }
+    ],
+    exclou: []
+  }));
+  const ahir = new Date(Date.now() - 86400000).toISOString();
+  await writeFile(join(fixtures, `${CANAL_3CAT}.xml`), feedXml(CANAL_3CAT, '3CatInfo', [{ id: 'FFFFFFFFFF1', titol: 'La IA i el català', publicat: ahir }]));
+  await writeFile(join(fixtures, `${CANAL_OPENAI}.xml`), feedXml(CANAL_OPENAI, 'OpenAI', [{ id: 'FFFFFFFFFF2', titol: 'Introducing a new model', publicat: ahir }]));
+  await writeFile(join(publicDir, 'data', 'archive.json'), JSON.stringify([{ slug: 'el-catala-i-la-ia', title: 'El català i la IA' }]));
+  await writeFile(join(root, 'assignats.json'), JSON.stringify([{ slug: 'el-catala-i-la-ia', video: 'FFFFFFFFFF1' }]));
+  const sortida = join(publicDir, 'data', 'videos.json');
+  const args = ['--canals', join(root, 'canals.json'), '--sortida', sortida, '--assignacions', join(root, 'assignats.json'),
+    '--public-dir', publicDir, '--fixtures', fixtures, '--sense-miniatures'];
+  const primera = spawnSync(process.execPath, [recull, ...args], { cwd: root, encoding: 'utf8' });
+  assert.equal(primera.status, 0, primera.stderr);
+  const dades = JSON.parse(await readFile(sortida, 'utf8'));
+  assert.deepEqual(dades.videos.map(v => v.id).sort(), ['FFFFFFFFFF1', 'FFFFFFFFFF2']);
+  assert.equal(dades.videos.find(v => v.id === 'FFFFFFFFFF1').noticia, 'el-catala-i-la-ia');
+  assert.match(primera.stderr, /Sense RSS: RSS no llegit/);
+  assert.match(primera.stderr, /canal invàlid/);
+
+  const abans = await readFile(sortida, 'utf8');
+  const segona = spawnSync(process.execPath, [recull, ...args], { cwd: root, encoding: 'utf8' });
+  assert.equal(segona.status, 0, segona.stderr);
+  assert.match(segona.stdout, /Cap canvi/);
+  assert.equal(await readFile(sortida, 'utf8'), abans);
+
+  const candidats = spawnSync(process.execPath, [recull, '--candidats', '--sortida', sortida], { cwd: root, encoding: 'utf8' });
+  assert.equal(candidats.status, 0, candidats.stderr);
+  assert.match(candidats.stdout, /FFFFFFFFFF2 \| en \| OpenAI \| Introducing a new model/);
+  assert.match(candidats.stdout, /ja lligat a el-catala-i-la-ia/);
+});
