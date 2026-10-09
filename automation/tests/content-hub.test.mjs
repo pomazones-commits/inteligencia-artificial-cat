@@ -874,9 +874,10 @@ function feedXml(canalId, nom, entrades) {
   <published>${e.publicat}</published>
   <media:group><media:title>${e.titol}</media:title><media:description>${e.descripcio || ''}</media:description></media:group>
  </entry>`).join('');
+  // Com el RSS real de YouTube: a la capçalera, l'identificador sense «UC».
   return `<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
- <yt:channelId>${canalId}</yt:channelId>
+ <yt:channelId>${canalId.replace(/^UC/, '')}</yt:channelId>
  <title>${nom}</title>${cos}
 </feed>`;
 }
@@ -894,7 +895,7 @@ test('vídeos: del RSS només entren els d’IA, d’aquests dies i sense Shorts
     { id: 'AAAAAAAAAA6', titol: 'La iaia de Sabadell fa 100 anys', publicat: '2026-10-09T07:00:00+00:00' }
   ]);
   const feed = parseFeed(xml);
-  assert.equal(feed.canalId, CANAL_3CAT);
+  assert.equal(feed.canalId, CANAL_3CAT.replace(/^UC/, ''));
   assert.equal(feed.entrades.length, 6);
   assert.equal(feed.entrades[1].titol, "El temps: pluges a l'Empordà");
   const triats = seleccionaEntrades(feed, { nom: '3CatInfo', id: CANAL_3CAT, grup: 'catala', idioma: 'ca', filtre: true }, { ara: ARA });
@@ -1014,6 +1015,12 @@ test('vídeos: la comanda desa la llista i no la reescriu si no ha canviat', asy
   assert.equal(dades.videos.find(v => v.id === 'FFFFFFFFFF1').noticia, 'el-catala-i-la-ia');
   assert.match(primera.stderr, /Sense RSS: RSS no llegit/);
   assert.match(primera.stderr, /canal invàlid/);
+
+  // Un RSS d'un altre canal es rebutja (amb el prefix o sense).
+  await writeFile(join(fixtures, `${CANAL_OPENAI}.xml`), feedXml(CANAL_3CAT, '3CatInfo', [{ id: 'FFFFFFFFFF9', titol: 'IA', publicat: ahir }]));
+  const altre = spawnSync(process.execPath, [recull, ...args, '--dry-run'], { cwd: root, encoding: 'utf8' });
+  assert.match(altre.stderr, /OpenAI: RSS no llegit \(el RSS és d'un altre canal/);
+  await writeFile(join(fixtures, `${CANAL_OPENAI}.xml`), feedXml(CANAL_OPENAI, 'OpenAI', [{ id: 'FFFFFFFFFF2', titol: 'Introducing a new model', publicat: ahir }]));
 
   const abans = await readFile(sortida, 'utf8');
   const segona = spawnSync(process.execPath, [recull, ...args], { cwd: root, encoding: 'utf8' });

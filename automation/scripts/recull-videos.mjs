@@ -425,7 +425,9 @@ export async function principal(argv = process.argv.slice(2), ara = new Date()) 
         ? await readFile(join(resolve(arrel, o.fixtures), `${canal.id}.xml`), 'utf8')
         : await baixa(`https://www.youtube.com/feeds/videos.xml?channel_id=${canal.id}`);
       const feed = parseFeed(xml);
-      if (feed.canalId && feed.canalId !== canal.id) throw new Error(`el RSS és d'un altre canal (${feed.canalId})`);
+      // A la capçalera del RSS real, l'identificador va SENSE el prefix «UC»
+      // (comprovat a la primera passada del 09.10.2026); a les entrades, amb.
+      if (feed.canalId && feed.canalId.replace(/^UC/, '') !== canal.id.replace(/^UC/, '')) throw new Error(`el RSS és d'un altre canal (${feed.canalId})`);
       const triats = seleccionaEntrades(feed, canal, { ara, exclou });
       nous.push(...triats);
       ok += 1;
