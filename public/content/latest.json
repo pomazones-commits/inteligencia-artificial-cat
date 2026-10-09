@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-08T16:13:37.922Z",
+  "updatedAt": "2026-10-09T04:12:11.416Z",
   "items": [
     {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Manus capta més de 500 milions de dòlars en la primera ronda des que va trencar amb Meta",
-      "excerpt": "La startup d'agents d'IA d'origen xinès l'ha tancada amb Boyu Capital i IDG Capital al capdavant i no n'ha revelat la valoració."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Goodfire estrena monitors que miren dins del model per detectar agents d'IA descontrolats i costen una fracció dels actuals",
-      "excerpt": "En una prova de 1.500 sessions, vigilar-les amb aquest sistema va costar uns 51 dòlars, per 233 amb un model auxiliar barat i uns 10.000 amb un de primer nivell."
-    },
-    {
       "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Google estrena Foresight, una aplicació per al Mac que transcriu reunions i en pren notes sense connexió a internet",
-      "excerpt": "Funciona amb models que s'executen a l'ordinador, deixa escriure notes pròpies al costat de les generades i admet documents propis com a base de consulta."
-    },
-    {
-      "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Dos físics proposen una fórmula que prediu quan un xatbot passarà de respostes acceptables a respostes perilloses",
-      "excerpt": "L'estudi, publicat a «Patterns», va encertar 18 de 19 canvis en set models oberts, però es basa en una mostra petita."
+      "title": "Google estrena un agent de Gemini per a empreses que té compte i correu propis i delega la feina a subagents",
+      "excerpt": "Es presenta com un únic punt d'entrada per fer preguntes i encarregar tasques, arriba primer a les empreses i més endavant als consumidors."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Els generadors d'imatges no volen endevinar l'orientació sexual d'una cara, però accepten retocar-la amb estereotips",
-      "excerpt": "Un estudi acceptat a l'EMNLP 2026 mostra que GPT Image 1 Mini i Gemini 2.5 Flash Image obeeixen gairebé sempre quan se'ls demana que una cara «sembli» gai, hetero o criminal."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Investigadors del BSC aconsegueixen que un agent d'IA munti un prototip de bessó digital d'un tumor en menys de deu minuts",
-      "excerpt": "L'estudi, publicat a «npj Systems Biology and Applications», connecta els agents d'IA amb programes de modelatge del càncer i no exigeix saber programar."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un índex del KAIST evita que una cerca d'IA perdi dades quan se n'afegeixen i se n'esborren, i millora l'encert fins al 24,5%",
-      "excerpt": "El treball, publicat a les actes de la conferència VLDB, s'adreça a les bases de dades vectorials que alimenten els assistents amb documents propis."
-    },
-    {
-      "category": "BIOTECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Biohub, el Departament d'Energia i l'NIH comprometen 1.800 milions de dòlars en dades per construir una «cèl·lula virtual»",
-      "excerpt": "Google DeepMind, Isomorphic Labs i Meta hi posen 300 milions entre tots tres. L'objectiu és generar les dades que permetin predir com respon una cèl·lula a un fàrmac."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Meta porta l'agent Muse a l'iPad un mes després d'estrenar-lo al mòbil, amb connectors per a Notion, Figma o Zoom",
-      "excerpt": "Segons Sensor Tower, l'aplicació ja supera els 6,6 milions d'instal·lacions. Els nous connectors s'adrecen sobretot a petites empreses."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "4 MIN",
-      "title": "Les universitats nord-americanes deixen de fiar-se dels detectors d'IA i tornen als exàmens orals",
-      "excerpt": "Yale i Cornell desaconsellen fer-los servir com a prova de trampa, i Harvard proposa «sortir del negoci de la detecció». El treball escrit a casa es reinventa."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Microsoft presenta el Surface Laptop Ultra, el primer portàtil seu amb el xip RTX Spark de Nvidia, des de 2.600 dòlars",
-      "excerpt": "El portàtil i una estació de treball per a programadors estan pensats per executar models d'IA al mateix aparell, i arriben amb una versió renovada de Windows 11 que aïlla els agents."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un equip del MIT demostra una versió més feble de la conjectura «2 a 1» mentre OpenAI diu que una IA ha resolt la dels «jocs únics»",
-      "excerpt": "Dor Minzer i dos estudiants de doctorat van publicar la prova el setembre. L'anunci d'OpenAI, sense revisió d'experts, ha convertit la recerca en una cursa."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Meta fa servir un model de llenguatge per detectar anuncis que porten a material d'abús sexual infantil penjat en altres webs",
-      "excerpt": "L'empresa mira ara on envia l'anunci, no només què diu, i afegeix un agent que prova les seves pròpies defenses i un sistema per reconèixer qui torna amb comptes nous."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Google estrena Playground, una eina que crea videojocs jugables al navegador a partir d'una descripció escrita",
-      "excerpt": "És un experiment de Google Labs, de moment només per a majors de 18 anys als EUA, amb jocs en 2D o 3D, d'un jugador o multijugador."
+      "title": "Un sistema de DeepMind resol 9 problemes oberts d'Erdős, dos d'ells de fa més de cinquanta anys",
+      "excerpt": "La feina, publicada a «Science», combina agents d'IA que proposen demostracions amb el verificador Lean, que en comprova cada pas."
     },
     {
       "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Nous Research confirma 90 milions de dòlars a una valoració d'1.500 milions i estrena agents d'IA per a empreses",
-      "excerpt": "La startup del Hermes Agent obert, que diu que genera un 2,5% de l'ús mundial de fitxes d'IA, vol passar dels 100 milions d'ingressos anuals a final d'any."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "OpenAI estrena GPT-6 a ChatGPT amb respostes que porten botons, gràfics i calculadores integrades",
-      "excerpt": "La nova interfície, anomenada Intelligent UI, canvia el text per diagrames, gràfics editables i eines a mida dins de la conversa. Els usuaris de pagament la reben primer i els gratuïts, l'endemà."
-    },
-    {
-      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Anthropic llança Claude Haiku 5.5, el model petit de la família, amb un cost mitjà un 75% més baix que el d'abans",
-      "excerpt": "Costa 0,10 dòlars per milió de paraules d'entrada i 0,50 de sortida en els encàrrecs habituals. L'empresa el recomana per a tasques concretes i de gran volum, no per a programació complexa."
+      "title": "OpenAI diu als inversors que els seus ingressos anualitzats s'acosten als 50.000 milions de dòlars, no als 70.000 que es van filtrar",
+      "excerpt": "Segons el «Financial Times», la xifra anterior sortia d'una comparació amb Anthropic que no comptava els ingressos de la mateixa manera."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "REGULACIÓ",
+      "read": "3 MIN",
+      "title": "Anthropic prohibeix maltractar Claude de manera persistent i reforça les normes contra la manipulació d'eleccions",
+      "excerpt": "La nova política d'ús també vetlla per no usar el model en campanyes d'engany, en programari d'armes ni en vigilància."
+    },
+    {
+      "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Els models d'IA avalen més sovint l'opció que no canvia res, també quan donen consells sobre el clima, segons un estudi de Waterloo",
-      "excerpt": "Una anàlisi de 54.888 consultes a models d'OpenAI, Google i Anthropic mostra que els xatbots tendeixen a defensar el que ja hi ha, un biaix que pot frenar la reducció d'emissions."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "3 MIN",
-      "title": "Mecka aixeca 60 milions de dòlars per pagar persones que es graven fent tasques quotidianes i entrenar amb elles els robots",
-      "excerpt": "La startup, liderada per Sequoia i amb Nvidia i M12 entre els inversors, vol fer per a la robòtica el que Scale AI va fer per als models de llenguatge: vendre dades humanes."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "3 MIN",
-      "title": "Les empreses xineses d'IA, amb DeepSeek al capdavant, van publicar 16 models el setembre malgrat els avisos d'Anthropic",
-      "excerpt": "Segons Nikkei Asia, l'esforç de Pequín per accelerar la IA no s'alenteix, tot i les peticions de frenar-ne el desenvolupament per motius de seguretat."
+      "title": "Arena, el rànquing de models d'IA nascut a Berkeley, aixeca 200 milions de dòlars i en val 3.100",
+      "excerpt": "La ronda, liderada per Lightspeed i Khosla, arriba amb un nou rànquing d'alineament que castiga els models que fan accions no autoritzades o diuen que han acabat una tasca sense haver-la fet."
     }
   ]
 }
