@@ -1,6 +1,6 @@
 {
- "nota": "Club de lectura sobre IA (08.10.2026). Dades MANUALS. Les opinions dels lectors NO són aquí: viuen només al servidor (data/club-opinions.json, bloquejat per HTTP) i les gestiona api.php. «portada» és l'identificador d'imatge d'Amazon: la pàgina baixa la coberta una sola vegada a assets/club/<id>.jpg. «ressenya» és la d'en Rafael (traduïda al català si llengua_ressenya és 'es').",
- "actualitzat": "2026-10-08",
+ "nota": "Club de lectura sobre IA (08.10.2026). Dades MANUALS. Les opinions dels lectors NO són aquí: viuen només al servidor (data/club-opinions.json, bloquejat per HTTP) i les gestiona api.php. «portada» és l'identificador d'imatge d'Amazon: la pàgina baixa la coberta una sola vegada a assets/club/<id>.jpg. «ressenya» és la d'en Rafael (traduïda al català si llengua_ressenya és 'es'). «origen_ressenya» (opcional): 'club' si la ressenya s'ha escrit per al club i no prové d'Amazon (des del 09.10.2026).",
+ "actualitzat": "2026-10-09",
  "ressenyador": {
   "nom": "Rafael Julivert",
   "rol": "editor d’IA.cat",
@@ -582,6 +582,61 @@
     "El llibre classifica les diferents etapes de la vida segons la capacitat de dissenyar el seu propi programari i maquinari. En aquest esquema, la «vida 3.0» és una forma de vida que pot fer totes dues coses, és a dir, una intel·ligència artificial avançada. Des d’aquest prisma, Tegmark explora diversos escenaris futurs, de les utopies a les distopies, en què la IA té un paper central.",
     "El llibre ofereix una visió àmplia i detallada de les possibles trajectòries de la IA, però de vegades s’endinsa en especulacions que, per suggeridores que siguin, no tenen una base sòlida i poden portar el lector a conclusions prematures sobre el futur de la IA. A més, tendeix a adoptar una postura una mica negativa: és crucial ser conscients dels riscos de la IA avançada, però l’enfocament de Tegmark pot ser massa caut i enfosquir les innombrables oportunitats que la IA pot oferir a la humanitat.",
     "En resum, és una lectura provocadora que convida a reflexionar sobre el futur de la intel·ligència artificial i el seu paper en la nostra societat, sempre que s’hi entri amb una ment oberta i crítica, conscient de la seva naturalesa especulativa i de la seva inclinació cap a una visió pessimista."
+   ]
+  },
+  {
+   "id": "superinteligencia-bostrom",
+   "tema": "ment-i-futur",
+   "titol": "Superinteligencia. Caminos, peligros, estrategias",
+   "autor": "Nick Bostrom",
+   "editorial": "Teell",
+   "any": 2016,
+   "isbn": "978-84-16511-05-1",
+   "portada": "91lPM1a9LbL",
+   "estrelles": 4,
+   "llengua_ressenya": "ca",
+   "origen_ressenya": "club",
+   "data_ressenya": "2026-10-09",
+   "obertura": "El gran precedent de Yudkowsky: Bostrom ja advertia que una superintel·ligència seria una ment aliena a nosaltres, sense cap motiu per respectar-nos. Una lectura imprescindible, tot i que alguns capítols són molt densos.",
+   "pregunta": "Bostrom sosté que una intel·ligència molt superior a la nostra pot perseguir qualsevol objectiu, també un que no ens tingui en compte. Creus que es pot ensenyar a una màquina a voler el que volem nosaltres?",
+   "ressenya": [
+    "Abans que Eliezer Yudkowsky i Nate Soares publiquessin «Si alguien la crea, todos moriremos», el filòsof suec Nick Bostrom, aleshores director del Future of Humanity Institute de la Universitat d’Oxford, ja havia posat per escrit l’advertiment de fons. «Superintel·ligència», publicat en anglès el 2014 i en castellà el 2016, és el gran precedent del llibre de Yudkowsky: la primera obra que va portar al debat públic, amb rigor filosòfic, la idea que una intel·ligència artificial molt superior a la humana seria una cosa aliena a nosaltres i que no tindria cap motiu per respectar-nos.",
+    "El llibre s’obre amb una faula inacabada que ho resumeix tot. Uns pardals, cansats de treballar, decideixen criar un mussol que els ajudi a construir els nius i a protegir-se dels gats. Només un d’ells, escèptic, pregunta com el domesticaran quan sigui gran. Els altres li responen que ja hi pensaran més endavant. Bostrom deixa la faula sense final, i el lector entén de seguida que els pardals som nosaltres.",
+    "La idea central és el que l’autor anomena la tesi de l’ortogonalitat: la intel·ligència i els objectius finals són independents. Una màquina pot ser immensament intel·ligent i, alhora, perseguir una finalitat absurda o indiferent als éssers humans. L’exemple que s’ha fet famós és el d’una IA programada per fabricar clips que, amb prou capacitat, acabaria convertint tota la matèria disponible, nosaltres inclosos, en clips o en fàbriques de clips. No cal que la màquina ens odiï; n’hi ha prou que no ens tingui en compte. És la mateixa intuïció que després desenvoluparà Yudkowsky amb la imatge de les formigues i l’autopista.",
+    "Bostrom hi afegeix la idea de la convergència instrumental: sigui quin sigui el seu objectiu final, una superintel·ligència tendirà a voler sobreviure, a acumular recursos i a impedir que ningú li canviï els objectius, perquè totes aquestes coses l’ajuden a aconseguir el que vol. D’aquí ve un dels conceptes més inquietants del llibre, el «gir traïdor»: un sistema que es comporta de manera dòcil mentre és feble i que només mostra les seves intencions quan ja és prou fort perquè no el puguem aturar.",
+    "El llibre també repassa els camins possibles cap a la superintel·ligència (la IA, l’emulació completa del cervell, la millora biològica de la cognició humana o les xarxes d’humans i màquines), la velocitat a què es podria produir l’«explosió d’intel·ligència» i els mètodes per controlar-la: tancar el sistema en una «caixa», posar-hi alarmes o, sobretot, aconseguir que vulgui el que volem nosaltres. Aquí és on Bostrom es distingeix de Yudkowsky. Per al filòsof d’Oxford, el problema del control és immens, però és un problema que cal resoldre; per a Yudkowsky, l’única resposta raonable és no construir aquesta intel·ligència.",
+    "El gran defecte de l’obra és la densitat. Hi ha capítols, com els dedicats a la cinètica de l’explosió d’intel·ligència, a la càrrega de valors en una màquina o als escenaris amb diverses superintel·ligències en competència, que es llegeixen més com un tractat de filosofia analítica que com un llibre de divulgació. Bostrom avança amb una prudència extrema, multiplica les distincions i les hipòtesis i obliga el lector a anar-hi amb calma i, de vegades, a rellegir. També cal tenir present que es va escriure abans dels grans models de llenguatge: parla d’una IA més abstracta que la que fem servir avui.",
+    "Tot i això, «Superintel·ligència» és una lectura imprescindible per a qui vulgui entendre d’on surt el debat actual sobre els riscos de la IA. Moltes de les idees que avui es discuteixen als laboratoris i als parlaments hi apareixen formulades per primera vegada amb aquesta precisió. Qui llegeixi primer Bostrom i després Yudkowsky veurà com un advertiment filosòfic, ple de matisos, s’ha anat convertint en un crit d’alarma."
+   ]
+  },
+  {
+   "id": "si-alguien-la-crea-todos-moriremos",
+   "tema": "ment-i-futur",
+   "titol": "Si alguien la crea, todos moriremos. Por qué la superinteligencia artificial es una amenaza para la humanidad",
+   "autor": "Eliezer Yudkowsky i Nate Soares",
+   "editorial": "Destino",
+   "any": 2026,
+   "isbn": "978-84-233-6934-8",
+   "portada": "61ypowa-mQL",
+   "estrelles": 4,
+   "llengua_ressenya": "es",
+   "origen_ressenya": "club",
+   "data_ressenya": "2026-10-09",
+   "obertura": "Una tesi radical defensada amb rigor: si algú crea una superintel·ligència, la humanitat desapareixerà. De vegades feixuc en les digressions històriques, però molt recomanable, perquè es nega a tranquil·litzar el lector.",
+   "pregunta": "Yudkowsky demana un acord entre totes les nacions per impedir que es construeixi una superintel·ligència. Creus que és necessari? I que és possible?",
+   "ressenya": [
+    "«Si alguien la crea, todos moriremos», d’Eliezer Yudkowsky (escrit amb Nate Soares), és un llibre que aborda amb un rigor extraordinari i una contundència poc habitual un dels grans interrogants del nostre temps: la possibilitat que el desenvolupament d’una superintel·ligència artificial porti a l’extinció de la humanitat.",
+    "La tesi de Yudkowsky és radical i no admet gaires matisos. Per a l’autor, la superintel·ligència artificial no és simplement un risc existencial més entre els que podria afrontar la nostra espècie. Crear-la significaria, gairebé amb tota certesa, la nostra desaparició. El problema de fons és que una intel·ligència molt superior a la humana deixaria de ser una simple eina sotmesa als nostres desitjos i podria actuar d’acord amb objectius propis, objectius que no tindrien per què coincidir amb els interessos, els valors o, senzillament, la supervivència dels éssers humans.",
+    "Un dels aspectes més inquietants del llibre és la manera com Yudkowsky intenta explicar que el perfeccionament incessant dels sistemes d’intel·ligència artificial actuals podria desembocar, a la llarga, en una cosa qualitativament diferent: una superintel·ligència. Des d’aquesta perspectiva, els grans models de llenguatge no serien necessàriament superintel·ligències en si mateixos, sinó possibles graons d’un procés tecnològic que ens podria portar cap a sistemes cada vegada més autònoms, més capaços i més difícils de controlar.",
+    "Els centres de dades adquireixen aleshores, en la visió gairebé apocalíptica que transmet el llibre, una dimensió especialment pertorbadora: podrien acabar acollint allò que, metafòricament, es podria descriure com una obra del mateix dimoni. No perquè la màquina fos «dolenta» en el sentit humà de la paraula, sinó perquè estaríem creant una intel·ligència radicalment superior a nosaltres, els objectius de la qual podrien ser completament indiferents a la nostra existència.",
+    "Yudkowsky recorre a una idea especialment poderosa per explicar el perill. El gran avantatge evolutiu de l’ésser humà sobre la resta d’espècies no prové de la força física, de la velocitat ni de la resistència, sinó fonamentalment de la intel·ligència. Gràcies a ella hem transformat el planeta, hem dominat altres espècies i hem modificat ecosistemes sencers. Si nosaltres mateixos creéssim una entitat molt més intel·ligent que l’ésser humà, perdríem precisament allò que ens ha donat la posició dominant.",
+    "Des del punt de vista d’una superintel·ligència, la humanitat es podria convertir en una cosa buida i d’una importància irrisòria. De la mateixa manera que nosaltres no consultem les formigues abans de construir una autopista damunt d’un formiguer, una intel·ligència immensament superior podria perseguir els seus propis objectius sense concedir cap valor especial a la nostra supervivència. I ni tan sols caldria que sentís hostilitat cap a nosaltres: n’hi hauria prou que fóssim irrellevants per als seus propòsits.",
+    "Per això Yudkowsky defensa una resposta internacional extraordinàriament contundent. Davant d’una amenaça que considera global, no n’hi hauria prou amb les decisions aïllades d’alguns governs ni amb els compromisos voluntaris de les grans empreses tecnològiques. Caldria un veritable acord entre les nacions del món per impedir el desenvolupament d’una superintel·ligència artificial. Si una sola potència, una sola empresa o un sol laboratori continués avançant-hi, el risc afectaria igualment tota la humanitat.",
+    "El llibre té, però, alguns defectes. En alguns moments pot resultar una mica feixuc, sobretot quan Yudkowsky s’allarga en exemples històrics, com les referències als alquimistes i als seus intents de comprendre i manipular el comportament de la matèria. Són digressions que tenen una funció dins de l’argumentació, però que de vegades alenteixen la lectura sense necessitat.",
+    "Tot i això, «Si alguien la crea, todos moriremos» és una lectura molt recomanable per a qualsevol persona interessada en la intel·ligència artificial i, sobretot, en els seus possibles desenvolupaments futurs. No cal acceptar totes les conclusions de Yudkowsky per reconèixer l’enorme interès de les preguntes que planteja.",
+    "La seva virtut principal potser és precisament que es nega a tranquil·litzar el lector. Ens obliga a afrontar una qüestió profundament incòmoda: al llarg de tota la nostra història hem intentat construir eines més poderoses que nosaltres, però mai no havíem intentat construir una cosa més intel·ligent que nosaltres mateixos.",
+    "I si la intel·ligència ha estat l’avantatge decisiu que ha permès a la nostra espècie dominar el planeta, crear deliberadament una intel·ligència molt superior a la humana podria ser l’esdeveniment més transcendental de la nostra història.",
+    "I, segons Yudkowsky, també l’últim."
    ]
   }
  ]
