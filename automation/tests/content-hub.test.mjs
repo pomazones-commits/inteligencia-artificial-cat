@@ -1056,3 +1056,137 @@ test('vídeos: cada vídeo rep una categoria temàtica', async () => {
   // Si el títol no diu res, la descripció decideix.
   assert.equal(categoritza('Episode 5', 'Inside our new data center'), 'maquinari');
 });
+
+// --- Ressò de premsa (10.10.2026) ---------------------------------------------
+
+const premsa = resolve(import.meta.dirname, '..', 'scripts', 'recull-premsa.mjs');
+
+function rssXml(items) {
+  const cos = items.map(i => `
+  <item>
+   <title><![CDATA[${i.titol}]]></title>
+   <link><![CDATA[${i.url}]]></link>
+   <description><![CDATA[${i.entradeta || ''}]]></description>
+   <guid isPermaLink="true">${i.url}</guid>
+   <pubDate>${i.data}</pubDate>
+  </item>`).join('');
+  return `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Diari</title>${cos}</channel></rss>`;
+}
+
+const ARA_PREMSA = new Date('2026-10-09T22:00:00Z');
+
+test('premsa: detecta les peces d’IA sense confondre «llama», «Claude» ni sigles dins de paraules', async () => {
+  const { parlaDIA } = await import(premsa);
+  for (const t of ['La IA arriba als jutjats', 'ChatGPT ja té 900 milions d’usuaris', 'La intel·ligència artificial i el català',
+    'Bruselas multa a OpenAI', 'Anthropic prohíbe insultar a su IA', 'El Govern aprova un pla d’intel·ligència artificial',
+    'Les IAs generatives a l’escola', 'Un deepfake del president', 'Los modelos de lenguaje mienten', 'GPT-6 Astra']) {
+    assert.equal(parlaDIA(t), true, t);
+  }
+  for (const t of ['Mohamed VI llama a la calma', 'Claude Monet, al Prado', 'La via de Rodalies', 'La iaia de Sabadell',
+    'Géminis: el horóscopo', 'ERC veu encarrilada la candidatura', 'La Diada a Barcelona']) {
+    assert.equal(parlaDIA(t), false, t);
+  }
+});
+
+test('premsa: del RSS només entren les d’IA, recents i sense paràmetres de seguiment', async () => {
+  const { parseFeed, seleccionaEntrades, netejaText } = await import(premsa);
+  const xml = rssXml([
+    { titol: 'La IA entra a les aules de Girona', url: 'https://www.diari.cat/societat/ia-aules.html?utm_source=rss&utm_medium=feed', data: 'Fri, 09 Oct 2026 19:00:00 +0200' },
+    { titol: 'El temps: pluja a l&apos;Empordà', url: 'https://www.diari.cat/temps.html', data: 'Fri, 09 Oct 2026 19:00:00 +0200' },
+    { titol: 'Una nova eina per als metges', url: 'https://www.diari.cat/salut/eina.html', data: 'Fri, 09 Oct 2026 18:00:00 +0200', entradeta: 'L’hospital fa servir un model de llenguatge per resumir històries clíniques' },
+    { titol: 'La IA del 2025', url: 'https://www.diari.cat/vell.html', data: 'Mon, 01 Sep 2026 10:00:00 +0200' },
+    // Regió7: l'hora local marcada com a UTC deixa la peça «al futur».
+    { titol: 'ChatGPT al Bages', url: 'https://www.diari.cat/bages.html', data: 'Sat, 10 Oct 2026 17:50:00 +0000' }
+  ]);
+  const entrades = parseFeed(xml);
+  assert.equal(entrades.length, 5);
+  assert.equal(entrades[1].titol, "El temps: pluja a l'Empordà");
+  assert.equal(netejaText("l&amp;apos;escola"), "l'escola");
+
+  const titol = seleccionaEntrades(entrades, { id: 'diari', nom: 'Diari', llengua: 'ca', ambit: 'catala', mira: 'titol' }, { ara: ARA_PREMSA });
+  assert.deepEqual(titol.map(p => p.url), ['https://www.diari.cat/societat/ia-aules.html', 'https://www.diari.cat/bages.html']);
+  assert.equal(titol[0].publicat, '2026-10-09T17:00:00.000Z');
+  assert.equal(titol[1].publicat, ARA_PREMSA.toISOString());
+  assert.match(titol[0].id, /^[0-9a-f]{12}$/);
+  assert.equal(titol[0].mitja, 'Diari');
+  assert.equal('entradeta' in titol[0], false, 'mai no es desa el text de l’article');
+
+  const ambEntradeta = seleccionaEntrades(entrades, { id: 'diari', nom: 'Diari', llengua: 'ca', ambit: 'catala', mira: 'titol+entradeta' }, { ara: ARA_PREMSA });
+  assert.equal(ambEntradeta.length, 3);
+});
+
+test('premsa: la fusió conserva la primera data, els destacats i treu els duplicats del mateix diari', async () => {
+  const { fusiona, aplicaDestacats, idPeca, lligaNoticies } = await import(premsa);
+  const p = (url, titol, publicat, extra = {}) => ({ id: idPeca(url), mitja: 'Ara', font: 'ara', llengua: 'ca', ambit: 'catala', titol, url, publicat, ...extra });
+  const existents = [
+    p('https://www.ara.cat/a.html', 'La IA a la feina', '2026-10-09T10:00:00.000Z', { destacat: true, comentari: 'Un comentari de la sessió prou llarg.' }),
+    p('https://www.ara.cat/vell.html', 'La IA fa un mes', '2026-09-01T10:00:00.000Z')
+  ];
+  const nous = [
+    p('https://www.ara.cat/a.html', 'La IA a la feina (actualitzat)', '2026-10-09T21:00:00.000Z'),
+    p('https://www.ara.cat/b.html', 'ChatGPT a l’escola', '2026-10-09T12:00:00.000Z'),
+    p('https://www.ara.cat/tecnologia/b.html', 'ChatGPT a l’escola', '2026-10-09T12:30:00.000Z')
+  ];
+  const fusionats = fusiona(existents, nous, { ara: ARA_PREMSA });
+  assert.deepEqual(fusionats.map(x => x.url), ['https://www.ara.cat/b.html', 'https://www.ara.cat/a.html']);
+  const a = fusionats.find(x => x.url.endsWith('/a.html'));
+  assert.equal(a.publicat, '2026-10-09T10:00:00.000Z');
+  assert.equal(a.titol, 'La IA a la feina (actualitzat)');
+  assert.equal(a.destacat, true);
+
+  const { aplicats, rebutjats } = aplicaDestacats(fusionats, [
+    { url: 'https://www.ara.cat/b.html?utm_source=x', comentari: 'Per què val la pena: explica bé el pla d’Educació.' },
+    { url: 'https://www.ara.cat/no-hi-es.html', comentari: 'Aquesta peça no és a la llista recollida i no es pot destacar.' },
+    { url: 'https://www.ara.cat/a.html', comentari: 'curt' }
+  ]);
+  assert.deepEqual(aplicats, ['https://www.ara.cat/b.html']);
+  assert.equal(rebutjats.length, 2);
+  assert.equal(fusionats[0].destacat, true);
+
+  const n = lligaNoticies(fusionats, new Map([['https://www.ara.cat/b.html', { slug: 'chatgpt-escola', title: 'ChatGPT a l’escola catalana' }]]));
+  assert.equal(n, 1);
+  assert.equal(fusionats[0].noticia, 'chatgpt-escola');
+});
+
+test('premsa: la comanda desa la llista, no la reescriu si no ha canviat i no s’atura si un diari falla', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-premsa-'));
+  const fixtures = join(root, 'fx');
+  const publicDir = join(root, 'public');
+  spawnSync('mkdir', ['-p', fixtures, join(publicDir, 'data')]);
+  await writeFile(join(root, 'fonts.json'), JSON.stringify({
+    fonts: [
+      { id: 'ara', nom: 'Ara', url: 'https://www.ara.cat/rss/', llengua: 'ca', ambit: 'catala', mira: 'titol' },
+      { id: 'mut', nom: 'Diari mut', url: 'https://example.com/rss', llengua: 'ca', ambit: 'catala', mira: 'titol' },
+      { id: 'DOLENT', nom: 'Dolent', url: 'http://x', ambit: 'catala' }
+    ],
+    exclou: []
+  }));
+  const ahir = new Date(Date.now() - 86400000).toUTCString();
+  await writeFile(join(fixtures, 'ara.xml'), rssXml([
+    { titol: 'La IA i el català', url: 'https://www.ara.cat/ia-catala.html', data: ahir },
+    { titol: 'Res a veure', url: 'https://www.ara.cat/res.html', data: ahir }
+  ]));
+  await writeFile(join(publicDir, 'data', 'archive.json'), JSON.stringify([{ slug: 'el-catala-i-la-ia', title: 'El català i la IA', sourceUrl: 'https://www.ara.cat/ia-catala.html' }]));
+  await writeFile(join(root, 'destacats.json'), JSON.stringify([{ url: 'https://www.ara.cat/ia-catala.html', comentari: 'Una bona síntesi de com els models aprenen català.' }]));
+  const sortida = join(publicDir, 'data', 'premsa.json');
+  const args = ['--fonts', join(root, 'fonts.json'), '--sortida', sortida, '--destacats', join(root, 'destacats.json'), '--public-dir', publicDir, '--fixtures', fixtures];
+  const primera = spawnSync(process.execPath, [premsa, ...args], { cwd: root, encoding: 'utf8' });
+  assert.equal(primera.status, 0, primera.stderr);
+  const dades = JSON.parse(await readFile(sortida, 'utf8'));
+  assert.equal(dades.articles.length, 1);
+  assert.equal(dades.articles[0].titol, 'La IA i el català');
+  assert.equal(dades.articles[0].destacat, true);
+  assert.equal(dades.articles[0].noticia, 'el-catala-i-la-ia');
+  assert.match(primera.stderr, /Diari mut \(mut\): RSS no llegit/);
+  assert.match(primera.stderr, /font invàlida/);
+
+  const abans = await readFile(sortida, 'utf8');
+  const segona = spawnSync(process.execPath, [premsa, ...args], { cwd: root, encoding: 'utf8' });
+  assert.equal(segona.status, 0, segona.stderr);
+  assert.match(segona.stdout, /Cap canvi/);
+  assert.equal(await readFile(sortida, 'utf8'), abans);
+
+  const candidats = spawnSync(process.execPath, [premsa, '--candidats', '--sortida', sortida], { cwd: root, encoding: 'utf8' });
+  assert.equal(candidats.status, 0, candidats.stderr);
+  assert.match(candidats.stdout, /Ara \| La IA i el català \| https:\/\/www\.ara\.cat\/ia-catala\.html {2}\[ja destacada\]/);
+});

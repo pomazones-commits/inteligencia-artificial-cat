@@ -1,0 +1,19 @@
+/* Pàgina /premsa (10.10.2026). Full propi: no es toquen seccions.css ni editorial.css.
+   La banda de portada té el seu propi full (premsa.css). */
+.xips a[aria-current="page"]{border-color:var(--ed-ink);background:var(--ed-ink);color:#fff}
+.seccio-bloc>h2 small{margin-left:10px;color:var(--ed-muted);font:600 11px var(--ed-mono);letter-spacing:.08em;text-transform:uppercase;vertical-align:middle}
+.pr-llista{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px;margin:0;padding:0;list-style:none}
+.pr-llista--destacades{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.pr-peca{min-width:0;padding:18px 0;border-top:1px solid var(--ed-line)}
+.pr-peca__meta{margin:0 0 6px;color:var(--ed-muted);font:500 10px/1.5 var(--ed-mono);letter-spacing:.06em;text-transform:uppercase}
+.pr-peca__meta strong{color:#a33127;font-weight:700}
+.pr-peca__titol{margin:0;font:500 20px/1.28 var(--ed-serif);letter-spacing:-.015em;overflow-wrap:anywhere}
+.pr-peca__titol a{color:var(--ed-ink);text-decoration:none}
+.pr-peca__titol a:hover,.pr-peca__titol a:focus-visible{color:var(--ed-blue);text-decoration:underline}
+.pr-peca__titol span{color:var(--ed-muted);font-family:var(--ed-sans);font-size:.75em}
+.pr-peca__comentari{margin:10px 0 0;color:var(--ed-ink);font-size:15px;line-height:1.55}
+.pr-peca__comentari span{display:inline-block;margin-right:6px;padding:2px 8px;border-radius:999px;background:var(--ed-accent);color:var(--ed-ink);font:600 9px/1.6 var(--ed-mono);letter-spacing:.08em;text-transform:uppercase;vertical-align:1px}
+.pr-peca__nostra{margin:8px 0 0;font-size:14px}
+.pr-peca__nostra a{color:var(--ed-blue)}
+.pr-peca--destacada{padding:22px 24px;border:1px solid var(--ed-line);border-radius:14px;background:var(--ed-paper)}
+@media (max-width:760px){.pr-llista,.pr-llista--destacades{grid-template-columns:1fr}.pr-peca__titol{font-size:18px}}

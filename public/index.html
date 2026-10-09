@@ -25,7 +25,11 @@
   <link rel="stylesheet" href="./estudis.css?v=2026073002">
   <link rel="stylesheet" href="./reflexio.css?v=2026080403">
   <link rel="stylesheet" href="./xarxes-peu.css?v=2026080501">
+  <link rel="stylesheet" href="./cartell.css?v=2026101001">
+  <link rel="stylesheet" href="./premsa.css?v=2026101001">
   <script defer src="./app.js?v=2026100101b"></script>
+  <script defer src="./cartell.js?v=2026101001"></script>
+  <script defer src="./premsa.js?v=2026101001"></script>
 </head>
 <body>
   <a class="skip-link" href="#contingut">Ves al contingut</a>
@@ -69,6 +73,8 @@
         <a href="#estudis">Estudis</a>
         <a href="./dossiers.html">Dossiers</a>
         <a href="./videos">Vídeos</a>
+        <a href="./premsa">Premsa</a>
+        <a href="./agenda">Agenda</a>
         <a href="#opinions">Quadern IA</a>
         <a href="./club-de-lectura">Club de lectura</a>
         <a href="./arxiu.html">Arxiu</a>
@@ -132,6 +138,10 @@
       </aside>
     </section>
 
+    <!-- 10.10.2026: cartell de l'acte destacat de l'agenda (cartell.js + cartell.css,
+         dades de data/agenda.json). Amagat si no hi ha cap acte proper. -->
+    <section class="cartell-band" id="cartell" hidden aria-label="Destacat de l'agenda"></section>
+
     <section class="shell news-section" id="totes" aria-labelledby="news-title">
       <header class="section-heading">
         <p id="news-count">L'edició del dia</p>
@@ -158,6 +168,10 @@
         </article>
       </div>
     </section>
+
+    <!-- 10.10.2026: ressò de premsa (premsa.js + premsa.css, dades de data/premsa.json,
+         que omple el workflow premsa.yml). Amagat si no hi ha prou peces. -->
+    <section class="premsa-band" id="premsa" hidden aria-labelledby="premsa-titol"></section>
 
     <section class="tribuna-band" id="tribuna" hidden>
       <div class="shell tribuna-layout">
@@ -277,7 +291,7 @@
       </div>
       <div>
         <strong>Explora</strong>
-        <a href="#ultima-hora">Última hora</a><a href="#catalunya">Radar català</a><a href="./tribuna.html">La tribuna</a><a href="#analisi">Anàlisi</a><a href="./agenda">Agenda</a><a href="./podcast.html">Pòdcast</a><a href="./glossari">Glossari</a><a href="./llengua">La IA i el català</a><a href="./ecosistema">Ecosistema</a><a href="./formacio">Formació</a><a href="./club-de-lectura">Club de lectura</a><a href="./centres-de-dades">Centres de dades</a><a href="./videos">Vídeos</a><a href="./arxiu.html">Arxiu</a>
+        <a href="#ultima-hora">Última hora</a><a href="#catalunya">Radar català</a><a href="./tribuna.html">La tribuna</a><a href="#analisi">Anàlisi</a><a href="./agenda">Agenda</a><a href="./podcast.html">Pòdcast</a><a href="./glossari">Glossari</a><a href="./llengua">La IA i el català</a><a href="./ecosistema">Ecosistema</a><a href="./formacio">Formació</a><a href="./club-de-lectura">Club de lectura</a><a href="./centres-de-dades">Centres de dades</a><a href="./videos">Vídeos</a><a href="./premsa">Ressò de premsa</a><a href="./arxiu.html">Arxiu</a>
       </div>
       <div>
         <strong>Projecte</strong>

@@ -59,7 +59,7 @@ function iacat_capcalera(array $meta): void
 
 function iacat_barra(): void
 {
-    ?><header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="/" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="/#ultima-hora">Última hora</a><a href="/#catalunya">Radar català</a><a href="/tribuna.html">Tribuna</a><a href="/analisi.html">Anàlisi</a><a href="/dossiers.html">Dossiers</a><a href="/videos">Vídeos</a><a href="/club-de-lectura">Club de lectura</a><a href="/arxiu.html">Arxiu</a></nav><a class="editorial-back" href="/">← Portada</a></div></header>
+    ?><header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="/" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="/#ultima-hora">Última hora</a><a href="/#catalunya">Radar català</a><a href="/tribuna.html">Tribuna</a><a href="/analisi.html">Anàlisi</a><a href="/dossiers.html">Dossiers</a><a href="/videos">Vídeos</a><a href="/premsa">Premsa</a><a href="/club-de-lectura">Club de lectura</a><a href="/arxiu.html">Arxiu</a></nav><a class="editorial-back" href="/">← Portada</a></div></header>
 <?php
 }
 

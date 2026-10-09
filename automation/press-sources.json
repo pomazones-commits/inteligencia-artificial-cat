@@ -1,0 +1,22 @@
+{
+  "nota": "Diaris dels quals automation/scripts/recull-premsa.mjs llegeix el RSS públic (sense clau) per al «Ressò de premsa» (/premsa i la banda de portada). Llista TANCADA: només diaris i mitjans informatius reconeguts. Cada adreça es va comprovar el 10.10.2026 obrint-la al navegador (tornava un RSS amb notícies del dia). \"mira\": \"titol\" vol dir que la peça només entra si el TITULAR parla d'IA (feeds generals, per no colar-hi notícies que només l'esmenten de passada); \"titol+entradeta\" mira també l'inici de l'entradeta (feeds de tecnologia). \"ambit\": catala (mitjans en català o dels territoris de parla catalana) | estatal. Per treure una peça concreta, posa'n l'adreça a \"exclou\". Mai no es desa ni es mostra el text de l'article: només el titular, el mitjà, la data i l'enllaç.",
+  "fonts": [
+    { "id": "ara", "nom": "Ara", "url": "https://www.ara.cat/rss/", "llengua": "ca", "ambit": "catala", "mira": "titol" },
+    { "id": "arabalears", "nom": "Ara Balears", "url": "https://www.arabalears.cat/rss/", "llengua": "ca", "ambit": "catala", "mira": "titol" },
+    { "id": "vilaweb", "nom": "VilaWeb", "url": "https://www.vilaweb.cat/feed/", "llengua": "ca", "ambit": "catala", "mira": "titol" },
+    { "id": "elperiodico", "nom": "El Periódico", "url": "https://www.elperiodico.com/ca/rss/rss_portada.xml", "llengua": "ca", "ambit": "catala", "mira": "titol" },
+    { "id": "elperiodico-tec", "nom": "El Periódico", "url": "https://www.elperiodico.com/ca/rss/tecnologia/rss.xml", "llengua": "ca", "ambit": "catala", "mira": "titol+entradeta" },
+    { "id": "elnacional", "nom": "El Nacional", "url": "https://www.elnacional.cat/uploads/feeds/feed_ca.xml", "llengua": "ca", "ambit": "catala", "mira": "titol" },
+    { "id": "naciodigital", "nom": "Nació Digital", "url": "https://www.naciodigital.cat/rss", "llengua": "ca", "ambit": "catala", "mira": "titol" },
+    { "id": "diaridegirona", "nom": "Diari de Girona", "url": "https://www.diaridegirona.cat/rss/", "llengua": "ca", "ambit": "catala", "mira": "titol" },
+    { "id": "regio7", "nom": "Regió7", "url": "https://www.regio7.cat/rss/", "llengua": "ca", "ambit": "catala", "mira": "titol" },
+    { "id": "lavanguardia", "nom": "La Vanguardia", "url": "https://www.lavanguardia.com/rss/home.xml", "llengua": "es", "ambit": "catala", "mira": "titol" },
+    { "id": "lavanguardia-tec", "nom": "La Vanguardia", "url": "https://www.lavanguardia.com/rss/tecnologia.xml", "llengua": "es", "ambit": "catala", "mira": "titol+entradeta" },
+    { "id": "elpais-tec", "nom": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada", "llengua": "es", "ambit": "estatal", "mira": "titol+entradeta" },
+    { "id": "elmundo-tec", "nom": "El Mundo", "url": "https://www.elmundo.es/rss/tecnologia.xml", "llengua": "es", "ambit": "estatal", "mira": "titol+entradeta" },
+    { "id": "eldiario-tec", "nom": "elDiario.es", "url": "https://www.eldiario.es/rss/tecnologia/", "llengua": "es", "ambit": "estatal", "mira": "titol+entradeta" },
+    { "id": "cincodias", "nom": "Cinco Días", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/cincodias.elpais.com/portada", "llengua": "es", "ambit": "estatal", "mira": "titol" },
+    { "id": "expansion-tec", "nom": "Expansión", "url": "https://www.expansion.com/rss/empresasdigitech.xml", "llengua": "es", "ambit": "estatal", "mira": "titol" }
+  ],
+  "exclou": []
+}

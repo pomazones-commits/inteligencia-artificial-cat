@@ -75,6 +75,8 @@ RewriteRule ^centres-de-dades/?$ centres-de-dades.php [L,QSA]
 RewriteRule ^club-de-lectura/?$ club-de-lectura.php [L,QSA]
 # Vídeos (09.10.2026): dades a data/videos.json, generades pel workflow videos.yml.
 RewriteRule ^videos/?$ videos.php [L,QSA]
+# Ressò de premsa (10.10.2026): dades a data/premsa.json, generades pel workflow premsa.yml.
+RewriteRule ^premsa/?$ premsa.php [L,QSA]
 RewriteRule ^club-de-lectura/([a-z0-9-]+)/?$ club-de-lectura.php?llibre=$1 [L,QSA]
 RewriteRule ^llengua/?$ llengua.php [L,QSA]
 RewriteRule ^correccions/?$ correccions.php [L,QSA]
