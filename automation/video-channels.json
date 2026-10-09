@@ -1,0 +1,25 @@
+{
+  "nota": "Canals de YouTube dels quals automation/scripts/recull-videos.mjs llegeix el RSS públic (sense clau d'API) per a la secció /videos i per als candidats de vídeo dels lots. Llista TANCADA: només canals oficials o mitjans reconeguts. Cada identificador (UC…) es va comprovar el 09.10.2026 a la pàgina del canal. \"filtre\": true vol dir que només s'hi agafen els vídeos que parlen d'IA (títol o descripció); false, que el canal és tot d'IA. \"grup\": catala | empreses | ciencia. \"idioma\": la llengua habitual del canal (el script la corregeix pel títol quan és clar). Per treure un vídeo concret de la secció, posa'n l'identificador d'11 caràcters a \"exclou\".",
+  "canals": [
+    { "nom": "3Cat", "id": "UC9vyJdMp74RIR1kOXvn-b0Q", "handle": "@3cat", "grup": "catala", "idioma": "ca", "filtre": true },
+    { "nom": "3CatInfo", "id": "UCKseJ43xWvnywQzl6kYbf0g", "handle": "@3catinfo", "grup": "catala", "idioma": "ca", "filtre": true },
+    { "nom": "betevé", "id": "UCenoiY7GMRPMCkMJmvV9hNA", "handle": "@betevecat", "grup": "catala", "idioma": "ca", "filtre": true },
+    { "nom": "À Punt Mèdia", "id": "UC06jp6UgU3rzTNpuBk0OebQ", "handle": "@apuntmedia", "grup": "catala", "idioma": "ca", "filtre": true },
+    { "nom": "IB3", "id": "UCff_CBVJDTHP4wOHPjP5BMg", "handle": "@IB3", "grup": "catala", "idioma": "ca", "filtre": true },
+    { "nom": "Govern de la Generalitat de Catalunya", "id": "UCLaqEt7ZJeqFCI2WB6XLz8w", "handle": "@governcat", "grup": "catala", "idioma": "ca", "filtre": true },
+    { "nom": "OpenAI", "id": "UCXZCJLdBC09xxGZ6gcdrc6A", "handle": "@OpenAI", "grup": "empreses", "idioma": "en", "filtre": false },
+    { "nom": "Anthropic", "id": "UCrDwWp7EBBv4NwvScIpBDOA", "handle": "@anthropic-ai", "grup": "empreses", "idioma": "en", "filtre": false },
+    { "nom": "Google DeepMind", "id": "UCP7jMXSY2xbc3KCAE0MHQ-A", "handle": "@GoogleDeepMind", "grup": "empreses", "idioma": "en", "filtre": false },
+    { "nom": "AI at Meta", "id": "UC5qxlwEKM7-5YZudb24l0bg", "handle": "@AIatMeta", "grup": "empreses", "idioma": "en", "filtre": false },
+    { "nom": "Google", "id": "UCK8sQmJBp8GCxrOtXWBpyEA", "handle": "@Google", "grup": "empreses", "idioma": "en", "filtre": true },
+    { "nom": "Google for Developers", "id": "UC_x5XG1OV2P6uZZ5FSM9Ttw", "handle": "@GoogleDevelopers", "grup": "empreses", "idioma": "en", "filtre": true },
+    { "nom": "NVIDIA", "id": "UCHuiy8bXnmK5nisYHUd1J5g", "handle": "@NVIDIA", "grup": "empreses", "idioma": "en", "filtre": true },
+    { "nom": "Microsoft", "id": "UCFtEEv80fQVKkD4h1PF-Xqw", "handle": "@Microsoft", "grup": "empreses", "idioma": "en", "filtre": true },
+    { "nom": "BSC-CNS", "id": "UC-jQw5yIjnUTRAg4DwOY4aA", "handle": "@BSCCNS", "grup": "ciencia", "idioma": "en", "filtre": true },
+    { "nom": "Universitat Politècnica de Catalunya", "id": "UC8bnBbUtFYcJVnWhsTyCCgg", "handle": "@upc", "grup": "ciencia", "idioma": "ca", "filtre": true },
+    { "nom": "Nature", "id": "UC7c8mE90qCtu11z47U0KErg", "handle": "@NatureVideoChannel", "grup": "ciencia", "idioma": "en", "filtre": true },
+    { "nom": "Science", "id": "UCv0aU2eKry3kdSTnFa8QAWA", "handle": "@ScienceMagazine", "grup": "ciencia", "idioma": "en", "filtre": true },
+    { "nom": "Comissió Europea", "id": "UCMPaviJxybo1RTdzvYcU91A", "handle": "@EuropeanCommission", "grup": "ciencia", "idioma": "en", "filtre": true }
+  ],
+  "exclou": []
+}
