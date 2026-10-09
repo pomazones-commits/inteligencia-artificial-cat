@@ -15,10 +15,20 @@ declare(strict_types=1);
 require __DIR__ . '/inc/plantilla.php';
 
 $dades = iacat_dades('videos.json');
+// 10.10.2026: blocs per TEMA (abans, per qui publicava, i només en sortien dos o
+// tres). La categoria la posa recull-videos.mjs (CATEGORIES); els vídeos en
+// català van sempre al primer bloc, sigui quin sigui el tema.
 $grups = [
-    'catala' => ['En català', 'Peces de 3Cat, betevé, À Punt, IB3 i el Govern sobre la intel·ligència artificial.'],
-    'empreses' => ['Dels laboratoris i les empreses', 'Presentacions i demostracions dels canals oficials d’OpenAI, Anthropic, Google, Meta, NVIDIA i Microsoft. És la versió de qui ven el producte: per al context, llegeix la notícia.'],
-    'ciencia' => ['Ciència i institucions', 'Recerca explicada pels centres i les revistes (BSC, UPC, Nature, Science) i la Comissió Europea.'],
+    'catala' => ['En català', 'Peces de 3Cat, betevé, À Punt, IB3, el Govern i les universitats sobre la intel·ligència artificial.'],
+    'models' => ['Models i productes', 'Presentacions de models i d’eines noves explicades pels qui les fan. És la versió de l’empresa: per al context, llegeix la notícia.'],
+    'programacio' => ['Programació i agents', 'Per a qui desenvolupa: agents, eines de programació, API i ponències de conferències per a desenvolupadors.'],
+    'empreses' => ['Empreses i casos d’ús', 'Com fan servir la IA empreses concretes i què en diuen les empreses emergents.'],
+    'ciencia' => ['Ciència i recerca', 'Recerca feta amb IA o sobre la IA, explicada pels centres, els laboratoris i les revistes.'],
+    'salut' => ['Salut', 'La intel·ligència artificial a la medicina, als hospitals i a la recerca biomèdica.'],
+    'robotica' => ['Robòtica', 'Robots que aprenen, es mouen i treballen amb IA.'],
+    'maquinari' => ['Xips i centres de dades', 'El maquinari que fa funcionar la IA: xips, supercomputadors, centres de dades i infraestructura.'],
+    'societat' => ['Societat, seguretat i regulació', 'Seguretat, ètica, educació, feina i les lleis que regulen la intel·ligència artificial.'],
+    'altres' => ['Altres', 'Vídeos sobre IA que no encaixen en cap dels temes anteriors.'],
 ];
 $idiomes = ['ca' => 'català', 'en' => 'anglès', 'es' => 'castellà', 'fr' => 'francès', 'de' => 'alemany', 'it' => 'italià', 'pt' => 'portuguès'];
 $limitDies = 21;
@@ -30,8 +40,8 @@ foreach ((array) ($dades['videos'] ?? []) as $v) {
     if (!is_array($v) || !preg_match('/^[A-Za-z0-9_-]{11}$/', (string) ($v['id'] ?? ''))) { continue; }
     $t = strtotime((string) ($v['publicat'] ?? ''));
     if ($t === false || $t < $ara - $limitDies * 86400) { continue; }
-    $g = (string) ($v['grup'] ?? '');
-    if (!isset($grups[$g])) { continue; }
+    $g = (($v['grup'] ?? '') === 'catala' || ($v['idioma'] ?? '') === 'ca') ? 'catala' : (string) ($v['categoria'] ?? '');
+    if (!isset($grups[$g])) { $g = 'altres'; }
     $v['_t'] = $t;
     $perGrup[$g][] = $v;
     $total++;
@@ -72,14 +82,14 @@ iacat_capcalera([
     'descripcio' => 'Els vídeos sobre IA dels últims dies, recollits dels canals oficials: 3Cat, betevé, À Punt i IB3 en català, els laboratoris que fan els models i els centres de recerca. Amb subtítols en català.',
     'cami' => '/videos',
     'molla' => 'Vídeos',
-    'css' => ['/video.css?v=2026100901', '/videos.css?v=2026100901'],
+    'css' => ['/video.css?v=2026100901', '/videos.css?v=2026101001'],
     'jsonld' => ['@context' => 'https://schema.org', '@type' => 'CollectionPage', 'name' => 'Vídeos sobre intel·ligència artificial', 'url' => IACAT_BASE . '/videos', 'inLanguage' => 'ca'],
 ]);
 ?>
     <header class="seccio-hero">
       <div><p class="editorial-kicker">Vídeos</p><h1 class="editorial-display">La IA, en vídeo. <em>De la font, sense intermediaris.</em></h1>
       <p class="editorial-lede"><?= $total ? $total . ' vídeos dels últims ' . $limitDies . ' dies' : 'Els vídeos dels últims dies' ?>: les peces de les televisions en català, les presentacions dels laboratoris i la recerca explicada pels mateixos científics. Quan un vídeo explica una notícia que hem publicat, hi trobaràs l’enllaç.</p></div>
-      <aside><strong>Com l’hem fet</strong>Només hi entren vídeos dels canals oficials d’una llista tancada, i dels canals generalistes només els que parlen d’IA. Es recullen sols diverses vegades al dia. El reproductor de YouTube no es carrega fins que hi fas clic, i els vídeos en una altra llengua s’obren amb els subtítols en català si YouTube els pot traduir.<?php if ($actualitzat !== ''): ?><br><br>Darrera recollida: <?= iacat_e(iacat_data_llarga(substr($actualitzat, 0, 10))) ?>.<?php endif; ?></aside>
+      <aside><strong>Com l’hem fet</strong>Només hi entren vídeos dels canals oficials d’una llista tancada, i dels canals generalistes només els que parlen d’IA. Es recullen sols diverses vegades al dia i s’ordenen per tema. El reproductor de YouTube no es carrega fins que hi fas clic, i els vídeos en una altra llengua s’obren amb la traducció automàtica al català, que pot trigar uns segons a aparèixer.<?php if ($actualitzat !== ''): ?><br><br>Darrera recollida: <?= iacat_e(iacat_data_llarga(substr($actualitzat, 0, 10))) ?>.<?php endif; ?></aside>
     </header>
 
 <?php if ($total): ?>
@@ -101,7 +111,7 @@ iacat_capcalera([
 <?php else: ?>
     <p class="seccio-nota">Encara no hi ha cap vídeo recollit. La llista s’omple sola des dels canals oficials diverses vegades al dia: torna-hi d’aquí a una estona.</p>
 <?php endif; ?>
-    <p class="seccio-nota">Si un vídeo no té subtítols en català: ⚙ Configuració › Subtítols › Traducció automàtica › Català. Hi trobes a faltar algun canal oficial o algun vídeo no hi hauria de ser? <a href="mailto:pomazona@gmail.com?subject=V%C3%ADdeos%20IA.cat">Escriu-nos</a>.</p>
+    <p class="seccio-nota">Els subtítols en català són la traducció automàtica de YouTube i poden trigar uns segons a sortir. Si no surten: ⚙ Configuració › Subtítols › Traducció automàtica › Català. Hi trobes a faltar algun canal oficial o algun vídeo no hi hauria de ser? <a href="mailto:pomazona@gmail.com?subject=V%C3%ADdeos%20IA.cat">Escriu-nos</a>.</p>
   <script defer src="/video.js?v=2026100601a"></script>
 <?php
 iacat_peu();
