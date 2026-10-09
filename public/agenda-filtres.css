@@ -1,0 +1,6 @@
+/* Filtres de /agenda (10.10.2026). Full propi: no es toquen seccions.css ni editorial.css. */
+.agenda-filtres{display:grid;gap:10px;margin-top:30px}
+.agenda-filtres .xips{margin:0}
+.agenda-filtres .xips a[aria-current="page"]{border-color:var(--ed-ink);background:var(--ed-ink);color:#fff}
+#actes-titol small,#conv-titol small{margin-left:10px;color:var(--ed-muted);font:600 11px var(--ed-mono);letter-spacing:.08em;vertical-align:middle}
+.acte__ara{color:#a33127}
