@@ -69,6 +69,35 @@ export function parlaDIA(text) {
   return IA_SIGLES.test(t) || IA_TERMES.test(t);
 }
 
+// --- Categoria temàtica (secció /videos) ------------------------------------
+//
+// Una sola categoria per vídeo, la primera regla que encaixa en aquest ordre (les
+// més concretes primer). Es calcula de nou a cada passada a partir del títol i de
+// l'inici de la descripció, de manera que canviar una regla reclassifica tota la
+// llista sense tocar res a mà.
+export const CATEGORIES = [
+  ['robotica', /\brobots?\b|rob[òo]tic|robotics|humanoid/i],
+  ['salut', /\bhealth|m[eèé]dic|\bsalut\b|\bsalud\b|hospital|c[àaá]ncer|diagnos|diagnòs|patients?\b|pacients?|cl[ií]nic|drug discovery|f[àa]rmac/i],
+  ['maquinari', /\bchips?\b|\bgpus?\b|data ?cent(er|re)s?|centres? de dades|centros? de datos|supercomput|\bdgx\b|\brtx\b|blackwell|bluefield|hardware|maquinari|semiconduct|ai factor|in space|\bsatel|sat[èe]l·?lit|\blasers?\b/i],
+  // «How Oracle uses…», «How Sophos cuts…»: el nom propi amb majúscula, el verb tant se val.
+  ['empreses', /\bHow [A-Z][\w&.'-]*(?: [A-Z][\w&.'-]*)? (?:[Uu]ses|[Cc]uts|[Bb]uilt|[Bb]uilds|[Tt]ransforms|[Ss]cales|[Hh]elps|is using)\b/],
+  ['empreses', /customer stor|\bstartups?\b|inception|enterprise|empreses?\b|empresas?\b|business|negoci|employees|treballadors|case stud|cas d'[úu]s/i],
+  ['programacio', /\bcodex\b|\bcode\b|coding|\bcodi\b|programaci|developers?|desenvolupador|\bsdk\b|devday/i],
+  ['societat', /safety|security|seguretat|seguridad|cyber|ciber|threat|regulat|regulaci|ai act|\blleis?\b|\blaws?\b|policy|pol[ií]tica|deepfake|watermark|marca d'aigua|ethic|[èe]tic|responsible|responsable|privacy|privacitat|educa|school|escola|\bjobs\b|\btreball\b|empleo|democr|election|elecci|women|\bdones\b|infants|children/i],
+  ['ciencia', /research|recerca|investigaci|science|scientific|ci[èe]ncia|cient[ií]fic|biolog|molecul|\bdna\b|\badn\b|protein|prote[iï]n|\bmath|matem[àa]t|erd[őo]s|physics|f[íi]sica|climate|\bclima\b|weather|alphafold|\blab\b|laborator/i],
+  ['programacio', /\bcodex\b|\bcode\b|coding|\bcodi\b|programaci|developers?|desenvolupador|\bapis?\b|\bsdk\b|plugins?|\bagents?\b|agentic|build(?:ing)? with|devday|embedding|fine-tun|\bprompts?\b|no-code/i],
+  ['models', /introducing|presentem|presenta|launch|llan[çc]a|\bmodels?\b|modelo|\bgpt|gemini|claude|llama|gemma|chatgpt|copilot|text-to-speech|\bvoices?\b|\bveu\b|\bsora\b|\bveo\b|\bapp\b|aplicaci/i]
+];
+
+export function categoritza(titol, descripcio = '') {
+  const text = `${titol || ''}\n${String(descripcio || '').slice(0, 300)}`;
+  // El títol mana: si ja encaixa en una categoria, la descripció no la canvia.
+  for (const font of [String(titol || ''), text]) {
+    for (const [id, re] of CATEGORIES) if (re.test(font)) return id;
+  }
+  return 'altres';
+}
+
 // --- Llengua del vídeo (per als subtítols) ---------------------------------
 
 const MARQUES = {
@@ -150,6 +179,7 @@ export function seleccionaEntrades(feed, canal, { ara = new Date(), dies = DIES_
       canal: canal.nom,
       canalId: canal.id,
       grup: canal.grup,
+      categoria: categoritza(e.titol, inici),
       idioma: detectaIdioma(`${e.titol} ${inici.slice(0, 200)}`, canal.idioma),
       publicat: new Date(t).toISOString(),
       // Només per a la sessió editorial (per triar i resumir): la secció no la mostra.
@@ -376,7 +406,7 @@ function args(argv) {
   return out;
 }
 
-const CAMPS = ['id', 'titol', 'canal', 'canalId', 'grup', 'idioma', 'publicat', 'descripcio', 'miniatura', 'noticia', 'noticiaTitol', 'resum'];
+const CAMPS = ['id', 'titol', 'canal', 'canalId', 'grup', 'categoria', 'idioma', 'publicat', 'descripcio', 'miniatura', 'noticia', 'noticiaTitol', 'resum'];
 
 // Sempre els mateixos camps i en el mateix ordre: el fitxer només canvia quan
 // canvia el contingut.
@@ -438,6 +468,8 @@ export async function principal(argv = process.argv.slice(2), ara = new Date()) 
   }
 
   const videos = fusiona(existents, nous, { ara, exclou });
+  // Les regles de categoria s'apliquen a tota la llista (també als vídeos d'abans).
+  for (const v of videos) v.categoria = categoritza(v.titol, v.descripcio);
   const noticies = await carregaNoticies(resolve(arrel, o['public-dir'] || 'public'));
   const lligats = lligaVideosDeNoticies(videos, noticies);
   const assignacions = await llegeixJson(resolve(arrel, o.assignacions || 'incoming/videos-assignats.json'), []);

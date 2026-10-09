@@ -1033,3 +1033,26 @@ test('vídeos: la comanda desa la llista i no la reescriu si no ha canviat', asy
   assert.match(candidats.stdout, /FFFFFFFFFF2 \| en \| OpenAI \| Introducing a new model/);
   assert.match(candidats.stdout, /ja lligat a el-catala-i-la-ia/);
 });
+
+test('vídeos: cada vídeo rep una categoria temàtica', async () => {
+  const { categoritza } = await import(recull);
+  const casos = {
+    'Introducing GPT-6 in ChatGPT with Intelligent UI': 'models',
+    'Build Plugins for ChatGPT': 'programacio',
+    'Production Monitoring with Codex: Grafana, Kubernetes, & Security': 'programacio',
+    'How Oracle Uses ChatGPT Work to Transform Recruitment': 'empreses',
+    'Meet The Startup: Probabl: by the Creators of Scikit-Learn': 'empreses',
+    'Inside Anthropic\'s molecular biology lab': 'ciencia',
+    'Building low-latency remote robotics with Gemini': 'robotica',
+    'Testing AI chips to survive in space': 'maquinari',
+    'From deepfakes to DNA: the science of watermarking AI': 'societat',
+    'La IA arriba als hospitals catalans': 'salut',
+    'Nou reglament europeu: la llei d\'IA entra en vigor': 'societat',
+    'Una entrevista sobre el futur': 'altres'
+  };
+  for (const [titol, esperada] of Object.entries(casos)) assert.equal(categoritza(titol), esperada, titol);
+  // El títol mana sobre la descripció.
+  assert.equal(categoritza('Build Plugins for ChatGPT', 'Our new data center and GPUs'), 'programacio');
+  // Si el títol no diu res, la descripció decideix.
+  assert.equal(categoritza('Episode 5', 'Inside our new data center'), 'maquinari');
+});
