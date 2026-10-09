@@ -324,13 +324,22 @@ export function canonic(p) {
   return out;
 }
 
+// Primer ens identifiquem; si el diari respon 403/406 (els de Prensa Ibérica —El
+// Periódico, Regió7, Diari de Girona— van tornar 406 a la primera passada del
+// 10.10.2026, i al navegador el mateix RSS sí que surt), es torna a provar amb
+// les capçaleres d'un navegador corrent.
+const CAPCALERES = [
+  { 'user-agent': 'Mozilla/5.0 (compatible; inteligencia-artificial.cat recull de premsa; +https://inteligencia-artificial.cat/premsa)', accept: 'application/rss+xml, application/xml, text/xml, */*' },
+  { 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36', accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'accept-language': 'ca,es;q=0.8,en;q=0.5' }
+];
+
 async function baixa(url, { timeout = 15000 } = {}) {
   let darrer = '';
-  for (let intent = 0; intent < 2; intent += 1) {
+  for (let intent = 0; intent < 3; intent += 1) {
     try {
       const r = await fetch(url, {
         signal: AbortSignal.timeout(timeout),
-        headers: { 'user-agent': 'Mozilla/5.0 (compatible; inteligencia-artificial.cat recull de premsa; +https://inteligencia-artificial.cat/premsa)', accept: 'application/rss+xml, application/xml, text/xml, */*' }
+        headers: CAPCALERES[Math.min(intent, CAPCALERES.length - 1)]
       });
       if (r.ok) return await r.text();
       darrer = `HTTP ${r.status}`;
