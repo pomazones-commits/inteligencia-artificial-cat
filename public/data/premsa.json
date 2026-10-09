@@ -1,6 +1,237 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "",
- "fonts": 0,
- "articles": []
+ "actualitzat": "2026-10-09T23:31:28.703Z",
+ "fonts": 16,
+ "articles": [
+  {
+   "id": "a09a08958bc4",
+   "mitja": "El Nacional",
+   "font": "elnacional",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Claude estrena dues funcions d'IA per crear gràfics interactius i vídeos animats amb les teves dades o idees",
+   "url": "https://www.elnacional.cat/ca/tecnologia/claude-estrena-dues-funcions-ia-crear-grafics-interactius-videos-animats-teves-dades-idees_1707901_102.html",
+   "publicat": "2026-10-09T14:30:00.000Z"
+  },
+  {
+   "id": "a4cb3c9e5d61",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "¿Se puede ser cruel con una IA? Anthropic prohíbe insultar “de manera sostenida” a su ‘chatbot’ Claude",
+   "url": "https://elpais.com/tecnologia/2026-10-09/se-puede-ser-cruel-con-una-ia-anthropic-prohibe-insultar-de-manera-sostenida-a-su-chatbot-claude.html",
+   "publicat": "2026-10-09T12:23:11.000Z"
+  },
+  {
+   "id": "0952f585970c",
+   "mitja": "El Nacional",
+   "font": "elnacional",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Prohibit ser cruel amb la IA: Anthropic canvia les regles de Claude",
+   "url": "https://www.elnacional.cat/ca/tecnologia/prohibit-ser-cruel-ia-anthropic-canvia-regles-claude_1707724_102.html",
+   "publicat": "2026-10-09T10:30:00.000Z"
+  },
+  {
+   "id": "0cde3729ac98",
+   "mitja": "Ara",
+   "font": "ara",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Ignasi Belda (Banc d'Espanya): \"La IA impacta en tota la cadena de valor de la banca\"",
+   "url": "https://www.ara.cat/economia/banca/ignasi-belda-banc-d-espanya-ia-impacta-tota-cadena-banca_1_5874280.html",
+   "publicat": "2026-10-09T09:46:27.000Z"
+  },
+  {
+   "id": "98ac82bdaddd",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "WhatsApp como prueba en el proceso civil: la solución del eIDAS y el reto de los deepfakes",
+   "url": "https://cincodias.elpais.com/legal/2026-10-09/whatsapp-como-prueba-en-el-proceso-civil-la-solucion-del-eidas-y-el-reto-de-los-deepfakes.html",
+   "publicat": "2026-10-09T06:35:00.000Z"
+  },
+  {
+   "id": "270935b0ea75",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Autentic AI cierra una ronda de 1,5 millones para su IA de estudios de mercado y competir con Kantar, IPsos o NielsenIQ",
+   "url": "https://cincodias.elpais.com/companias/2026-10-09/autentic-ai-cierra-una-ronda-de-15-millones-para-su-ia-de-estudios-de-mercado-y-competir-con-kantar-ipsos-o-nielseniq.html",
+   "publicat": "2026-10-09T03:15:00.000Z"
+  },
+  {
+   "id": "edc67aeea06c",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia encadena más récords en Bolsa con la euforia por la IA: próxima parada, los seis billones de capitalización",
+   "url": "https://cincodias.elpais.com/companias/2026-10-09/nvidia-encadena-mas-records-en-bolsa-con-la-euforia-por-la-ia-proxima-parada-los-seis-billones-de-capitalizacion.html",
+   "publicat": "2026-10-09T03:15:00.000Z"
+  },
+  {
+   "id": "59b7cb16eeeb",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Francesca Bria: \"España ha liderado el enfoque social de la IA, pero eso no se puede dar por hecho\"",
+   "url": "https://www.eldiario.es/tecnologia/francesca-bria-espana-liderado-enfoque-social-ia-no-dar-hecho_1_13572915.html",
+   "publicat": "2026-10-08T16:59:13.000Z"
+  },
+  {
+   "id": "965b786b8bff",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La IA no distingue el bien del mal: dos físicos destapan lo que las grandes empresas quieren esconder",
+   "url": "https://elpais.com/tecnologia/2026-10-08/la-ia-no-distingue-el-bien-del-mal-dos-fisicos-destapan-lo-que-las-grandes-empresas-quieren-esconder.html",
+   "publicat": "2026-10-08T15:25:13.000Z"
+  },
+  {
+   "id": "b0b3d7f42173",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El consejo de sabios de la IA pide más impuestos a las tecnológicas y reforzar el control de los menores",
+   "url": "https://elpais.com/tecnologia/2026-10-08/el-consejo-de-sabios-de-la-ia-pide-mas-impuestos-a-las-tecnologicas-y-reforzar-el-control-de-los-menores.html",
+   "publicat": "2026-10-08T14:45:43.000Z"
+  },
+  {
+   "id": "1c0760b6f5ee",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "OpenAI crea una marca de agua invisible para detectar los textos escritos por ChatGPT",
+   "url": "https://www.elmundo.es/tecnologia/2026/10/08/6ac75b61fdddff08248b45a7.html",
+   "publicat": "2026-10-08T09:18:40.000Z"
+  },
+  {
+   "id": "5f5123bddea5",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Alquila a un humano: el futuro en el que las IA contratan personas para hacer trabajos físicos ya está aquí",
+   "url": "https://elpais.com/tecnologia/2026-10-08/alquila-a-un-humano-el-futuro-en-el-que-las-ia-contratan-personas-para-hacer-trabajos-fisicos-ya-esta-aqui.html",
+   "publicat": "2026-10-08T03:30:01.000Z"
+  },
+  {
+   "id": "64027e86ade0",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El Surface Laptop Ultra llega con un chip de Nvidia y precio de MacBook Pro",
+   "url": "https://www.elmundo.es/tecnologia/creadores/2026/10/07/6ac6a5abe85ecec8188b45a0.html",
+   "publicat": "2026-10-07T20:03:59.000Z"
+  },
+  {
+   "id": "c95d46630367",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Google se suma al club de las IA peligrosas con Gemini 4 Argon, su modelo más avanzado",
+   "url": "https://www.elmundo.es/tecnologia/innovacion/2026/10/01/6abe9e07e9cf4a6e748b45c4.html",
+   "publicat": "2026-10-07T06:23:20.000Z"
+  },
+  {
+   "id": "ae3e877affcd",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-tec",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "No estás enviando un correo electrónico, estás entrenando una IA",
+   "url": "https://www.lavanguardia.com/tecnologia/20261007/11652316/ia-inteligencia-artificial-datos-big-data-email.html",
+   "publicat": "2026-10-07T04:00:00.000Z"
+  },
+  {
+   "id": "bb96818158a9",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "De Sheinbaum a Meloni: las líderes mundiales impulsan medidas para protegerse de los ‘deepfakes’ con IA",
+   "url": "https://elpais.com/tecnologia/2026-10-07/de-sheinbaum-a-meloni-las-lideres-mundiales-impulsan-medidas-para-protegerse-de-los-deepfakes-con-ia.html",
+   "publicat": "2026-10-07T03:30:01.000Z"
+  },
+  {
+   "id": "afa5de6349e2",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Europa ya presume de IA: Mistral lanza un modelo de pesos abiertos de un billón de parámetros",
+   "url": "https://www.elmundo.es/tecnologia/2026/10/07/6ac57d7ee9cf4a5e0b8b4581.html",
+   "publicat": "2026-10-06T23:02:39.000Z"
+  },
+  {
+   "id": "68a961070654",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La presidenta del Parlamento Europeo denuncia el “intolerable” acoso con pornografía ‘deepfake’ a decenas de eurodiputadas",
+   "url": "https://elpais.com/sociedad/2026-10-06/la-presidenta-del-parlamento-europeo-denuncia-el-intolerable-acoso-con-pornografia-deepfake-a-decenas-de-eurodiputadas.html",
+   "publicat": "2026-10-06T14:35:11.000Z"
+  },
+  {
+   "id": "b2fc90bc95de",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Corea del Sur detecta \"indicios\" de IA en una gran oleada de ciberataques contra sus principales bancos",
+   "url": "https://www.eldiario.es/tecnologia/corea-sur-detecta-indicios-ia-gran-oleada-ciberataques-principales-bancos_1_13565100.html",
+   "publicat": "2026-10-06T08:17:19.000Z"
+  },
+  {
+   "id": "bd9b238fb03c",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "WeatherNext 3, el modelo con IA que predice fenómenos atmosféricos con mucha más precisión",
+   "url": "https://elpais.com/tecnologia/2026-10-06/weathernext-3-el-modelo-con-ia-que-predice-fenomenos-atmosfericos-con-mucha-mas-precision.html",
+   "publicat": "2026-10-06T03:30:01.000Z"
+  },
+  {
+   "id": "3139cdd333cd",
+   "mitja": "Ara Balears",
+   "font": "arabalears",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Experts debaten a Mallorca sobre els límits de la intel·ligència artificial",
+   "url": "https://www.arabalears.cat/media/experts-debaten-aquest-dijous-mallorca-limits-intel-ligencia-artificial_1_5870206.html",
+   "publicat": "2026-10-05T13:09:13.000Z"
+  },
+  {
+   "id": "90f33291e34a",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Amar a la IA: el 10% de los jóvenes de EEUU ya no se relaciona con otras personas. De Kupid a Candy, así la inteligencia artificial 'sustituye' a las novias",
+   "url": "https://www.elmundo.es/tecnologia/2026/10/05/6ac38e57fc6c83df568b4570.html",
+   "publicat": "2026-10-05T11:59:21.000Z"
+  },
+  {
+   "id": "7ad070304708",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "¿Quién responde judicialmente cuando los agentes de IA autónomos se descontrolan?",
+   "url": "https://www.elmundo.es/tecnologia/2026/10/05/6ac35986fc6c8345238b4579.html",
+   "publicat": "2026-10-05T08:02:16.000Z"
+  }
+ ]
 }
