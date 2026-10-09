@@ -1,0 +1,93 @@
+name: Ressò de premsa — recollida dels diaris
+
+# 10.10.2026. Llegeix el RSS públic dels diaris de la llista tancada
+# automation/press-sources.json (sense clau d'API) i desa les peces sobre IA
+# dels últims 7 dies a public/data/premsa.json. D'aquí beuen la banda «La
+# premsa en parla» de la portada (public/premsa.js) i la pàgina /premsa
+# (public/premsa.php). Només titular, mitjà, data i enllaç: mai el text.
+# Detall: capçalera d'automation/scripts/recull-premsa.mjs.
+#
+# Quan corre:
+#   - cada dues hores de 06 a 22 h CEST (els diaris publiquen tot el dia).
+#     GitHub deixa caure molts crons d'aquest repositori: la passada de després
+#     de cada lot és la de garantia;
+#   - en acabar el Content Hub (lot publicat): hi aplica els destacats que la
+#     sessió editorial hagi deixat a incoming/premsa-destacats.json. Si el
+#     Content Hub l'ha llançat l'auto-fusió (GITHUB_TOKEN), el workflow_run no
+#     arriba: per això content-hub.yml també el dispara a mà;
+#   - a mà: Actions → «Ressò de premsa — recollida dels diaris» → «Run workflow».
+#
+# Idempotent: si la llista no ha canviat no fa cap commit. MAI no toca res fora
+# de public/data/premsa.json.
+
+on:
+  workflow_run:
+    workflows: ["Content Hub — completar l'edició"]
+    types: [completed]
+  schedule:
+    - cron: '52 4-20/2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: premsa-recollida
+  cancel-in-progress: false
+
+jobs:
+  recull:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion != 'cancelled'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Recuperar el web
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Llegir els diaris i desar les peces sobre IA
+        run: >-
+          node automation/scripts/recull-premsa.mjs
+          --fonts automation/press-sources.json
+          --sortida public/data/premsa.json
+          --destacats incoming/premsa-destacats.json
+          --public-dir public
+
+      - name: Publicar si hi ha canvis
+        id: publica
+        run: |
+          git config user.name "intel·ligènciaartificial.cat bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data/premsa.json
+          if git diff --cached --quiet; then
+            echo "Cap canvi al ressò de premsa."
+            echo "canvis=no" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "[premsa] recull les peces de premsa sobre IA"
+          for intent in 1 2 3; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "canvis=si" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep $((intent * 10))
+          done
+          echo "::error::No he pogut pujar el ressò de premsa després de tres intents."
+          exit 1
+
+      # Un push fet amb el GITHUB_TOKEN no dispara el desplegament (cap workflow
+      # en dispara cap altre així). Un workflow_dispatch, sí.
+      - name: Desplegar
+        if: steps.publica.outputs.canvis == 'si'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run desplega.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar el desplegament; el cron :08/:38 o la xarxa de seguretat ho repescaran."
