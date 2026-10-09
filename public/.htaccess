@@ -73,6 +73,8 @@ RewriteRule ^ecosistema/?$ ecosistema.php [L,QSA]
 RewriteRule ^formacio/?$ formacio.php [L,QSA]
 RewriteRule ^centres-de-dades/?$ centres-de-dades.php [L,QSA]
 RewriteRule ^club-de-lectura/?$ club-de-lectura.php [L,QSA]
+# Vídeos (09.10.2026): dades a data/videos.json, generades pel workflow videos.yml.
+RewriteRule ^videos/?$ videos.php [L,QSA]
 RewriteRule ^club-de-lectura/([a-z0-9-]+)/?$ club-de-lectura.php?llibre=$1 [L,QSA]
 RewriteRule ^llengua/?$ llengua.php [L,QSA]
 RewriteRule ^correccions/?$ correccions.php [L,QSA]

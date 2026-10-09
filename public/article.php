@@ -133,6 +133,31 @@ $sourceName = (string) ($article['sourceName'] ?? 'Font original');
 $video = is_array($article['video'] ?? null) ? $article['video'] : null;
 $videoId = $video ? (string) ($video['id'] ?? '') : '';
 if (!preg_match('/^[A-Za-z0-9_-]{11}$/', $videoId)) { $video = null; $videoId = ''; }
+// 09.10.2026: vídeos que arriben TARD (una peça de 3Cat, la gravació d'un
+// congrés) i que la sessió editorial ha lligat a aquesta notícia després de
+// publicar-la. Viuen a data/videos.json (workflow videos.yml), no a la notícia.
+if ($videoId === '' && $slug !== '' && is_file(__DIR__ . '/data/videos.json')) {
+    $videosRecollits = json_decode((string) file_get_contents(__DIR__ . '/data/videos.json'), true);
+    foreach ((array) ($videosRecollits['videos'] ?? []) as $recollit) {
+        if (!is_array($recollit) || ($recollit['noticia'] ?? '') !== $slug) { continue; }
+        if (!preg_match('/^[A-Za-z0-9_-]{11}$/', (string) ($recollit['id'] ?? ''))) { continue; }
+        $canalRecollit = (string) ($recollit['canalId'] ?? '');
+        $video = [
+            'id' => (string) $recollit['id'],
+            'titol' => (string) ($recollit['titol'] ?? ''),
+            'canal' => (string) ($recollit['canal'] ?? ''),
+            'canalUrl' => preg_match('/^UC[A-Za-z0-9_-]{22}$/', $canalRecollit) ? 'https://www.youtube.com/channel/' . $canalRecollit : '',
+            'resum' => (string) ($recollit['resum'] ?? ''),
+            'idioma' => (string) ($recollit['idioma'] ?? 'en'),
+        ];
+        $videoId = $video['id'];
+        break;
+    }
+}
+// Miniatura al nostre servidor si la recollida l'ha baixada (no demana res a Google).
+$videoMiniatura = ($videoId !== '' && is_file(__DIR__ . '/assets/videos/' . $videoId . '.jpg'))
+    ? './assets/videos/' . $videoId . '.jpg'
+    : ($videoId !== '' ? 'https://i.ytimg.com/vi/' . $videoId . '/hqdefault.jpg' : '');
 $videoTitol = $video ? trim((string) ($video['titol'] ?? '')) : '';
 $videoCanal = $video ? trim((string) ($video['canal'] ?? '')) : '';
 $videoCanalUrl = $video ? (string) ($video['canalUrl'] ?? '') : '';
@@ -207,7 +232,7 @@ $shareText = rawurlencode((string) $article['title']);
       <article>
         <?php if ($audioUrl): ?><div class="tts-player"><strong>Escolta:</strong><audio id="tts-audio" controls preload="none" src="<?= e($audioUrl) ?>">El teu navegador no pot reproduir l’àudio.</audio><label class="tts-speed">Velocitat <select id="tts-speed" aria-label="Velocitat de reproducció"><option value="1">1×</option><option value="1.25" selected>1,25×</option><option value="1.5">1,5×</option><option value="1.75">1,75×</option><option value="2">2×</option></select></label></div><?php else: ?><div class="tts-player"><strong>Escolta:</strong><span class="tts-note">Àudio en preparació.</span></div><?php endif; ?>
         <div class="article-body-clean"><?php foreach (preg_split('/\n\n+/', (string) ($article['body'] ?? '')) as $paragraph): ?><p><?= e($paragraph) ?></p><?php endforeach; ?></div>
-        <?php if ($videoId !== ''): ?><section class="iac-video" aria-labelledby="video-title"><h2 id="video-title">El vídeo</h2><div class="iac-video__frame"><button type="button" class="iac-video__play" data-video-id="<?= e($videoId) ?>" data-video-lang="<?= e($videoIdioma) ?>" data-video-title="<?= e($videoTitol !== '' ? $videoTitol : 'Vídeo de YouTube') ?>" aria-label="Reprodueix el vídeo<?= $videoTitol !== '' ? ': ' . e($videoTitol) : '' ?>"><img src="https://i.ytimg.com/vi/<?= e($videoId) ?>/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"><span class="iac-video__icon" aria-hidden="true"></span></button></div><p class="iac-video__meta"><?php if ($videoTitol !== ''): ?><strong><?= e($videoTitol) ?></strong> · <?php endif; ?><?php if ($videoCanal !== ''): ?><?php if ($videoCanalUrl !== ''): ?><a href="<?= e($videoCanalUrl) ?>" target="_blank" rel="noopener noreferrer"><?= e($videoCanal) ?></a><?php else: ?><?= e($videoCanal) ?><?php endif; ?> · <?php endif; ?><a href="https://www.youtube.com/watch?v=<?= e($videoId) ?>" target="_blank" rel="noopener noreferrer">YouTube ↗</a></p><?php if ($videoResum !== ''): ?><p class="iac-video__resum"><?= e($videoResum) ?></p><?php endif; ?><p class="iac-video__nota"><?php if ($videoIdioma !== 'ca'): ?><?= $videoIdiomaNom !== '' ? 'Vídeo en ' . e($videoIdiomaNom) . '.' : 'Vídeo en una altra llengua.' ?> Els subtítols s’intenten posar sols en català; si no hi surten: ⚙ Configuració › Subtítols › Traducció automàtica › Català. <?php endif; ?>El reproductor de YouTube només es carrega quan hi fas clic.</p></section><?php endif; ?>
+        <?php if ($videoId !== ''): ?><section class="iac-video" aria-labelledby="video-title"><h2 id="video-title">El vídeo</h2><div class="iac-video__frame"><button type="button" class="iac-video__play" data-video-id="<?= e($videoId) ?>" data-video-lang="<?= e($videoIdioma) ?>" data-video-title="<?= e($videoTitol !== '' ? $videoTitol : 'Vídeo de YouTube') ?>" aria-label="Reprodueix el vídeo<?= $videoTitol !== '' ? ': ' . e($videoTitol) : '' ?>"><img src="<?= e($videoMiniatura) ?>" alt="" loading="lazy" width="480" height="360"><span class="iac-video__icon" aria-hidden="true"></span></button></div><p class="iac-video__meta"><?php if ($videoTitol !== ''): ?><strong><?= e($videoTitol) ?></strong> · <?php endif; ?><?php if ($videoCanal !== ''): ?><?php if ($videoCanalUrl !== ''): ?><a href="<?= e($videoCanalUrl) ?>" target="_blank" rel="noopener noreferrer"><?= e($videoCanal) ?></a><?php else: ?><?= e($videoCanal) ?><?php endif; ?> · <?php endif; ?><a href="https://www.youtube.com/watch?v=<?= e($videoId) ?>" target="_blank" rel="noopener noreferrer">YouTube ↗</a></p><?php if ($videoResum !== ''): ?><p class="iac-video__resum"><?= e($videoResum) ?></p><?php endif; ?><p class="iac-video__nota"><?php if ($videoIdioma !== 'ca'): ?><?= $videoIdiomaNom !== '' ? 'Vídeo en ' . e($videoIdiomaNom) . '.' : 'Vídeo en una altra llengua.' ?> Els subtítols s’intenten posar sols en català; si no hi surten: ⚙ Configuració › Subtítols › Traducció automàtica › Català. <?php endif; ?>El reproductor de YouTube només es carrega quan hi fas clic.</p></section><?php endif; ?>
       </article>
       <aside class="article-sidebar">
         <?php if ($sourceUrl !== ''): ?><section class="article-sidecard"><h2>Font original</h2><p>Consulta la informació de partida i contrasta’n els detalls.</p><p style="margin-top:12px"><a href="<?= e($sourceUrl) ?>" target="_blank" rel="noreferrer"><?= e($sourceName) ?> ↗</a><?php if (!empty($article['sourceDate'])): ?><br><?= e((string) $article['sourceDate']) ?><?php endif; ?></p></section><?php endif; ?>

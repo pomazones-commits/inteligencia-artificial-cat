@@ -1,0 +1,21 @@
+/* Secció /videos (09.10.2026). Full propi: no es toquen seccions.css ni portada.css.
+   El reproductor (marc, botó i icona) ve de video.css, el mateix de les notícies. */
+.vids{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 22px;margin:0;padding:0;list-style:none}
+.vid{display:flex;flex-direction:column;min-width:0}
+.vid .iac-video__frame{border-radius:10px}
+.vid .iac-video__icon{width:56px;height:40px;margin:-20px 0 0 -28px;border-radius:10px}
+.vid .iac-video__icon::after{left:22px;top:11px;border-width:9px 0 9px 15px}
+.vid__meta{margin:12px 0 0;color:var(--ed-muted,#5d6472);font:600 10px/1.5 var(--ed-mono,monospace);letter-spacing:.06em;text-transform:uppercase}
+.vid__meta a{color:inherit;text-decoration:none}
+.vid__meta a:hover,.vid__meta a:focus-visible{color:var(--ed-blue,#233a82);text-decoration:underline}
+.vid__llengua{white-space:nowrap}
+.vid__titol{margin:6px 0 0;font-size:18px;line-height:1.25;letter-spacing:-.015em;overflow-wrap:anywhere}
+.vid__noticia{margin:10px 0 0;font-size:14px;line-height:1.45}
+.vid__noticia span{display:inline-block;margin-right:4px;padding:2px 7px;border-radius:999px;background:var(--ed-blue-soft,#e8ecf8);color:var(--ed-blue,#233a82);font:600 9px/1.6 var(--ed-mono,monospace);letter-spacing:.08em;text-transform:uppercase;vertical-align:1px}
+.vid__noticia a{color:var(--ed-ink,#1c2233)}
+.vid__noticia a:hover,.vid__noticia a:focus-visible{color:var(--ed-blue,#233a82)}
+.vid__resum{margin:8px 0 0;color:var(--ed-muted,#5d6472);font-size:14px;line-height:1.55}
+.vid__peu{margin:8px 0 0;font-size:13px}
+.vid__peu a{color:var(--ed-muted,#5d6472)}
+@media (max-width:980px){.vids{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.vids{grid-template-columns:1fr;gap:30px}.vid__titol{font-size:17px}}
