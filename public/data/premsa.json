@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-09T23:31:28.703Z",
+ "actualitzat": "2026-10-09T23:33:15.915Z",
  "fonts": 16,
  "articles": [
   {
@@ -134,6 +134,26 @@
    "publicat": "2026-10-07T20:03:59.000Z"
   },
   {
+   "id": "053b2442d08b",
+   "mitja": "El Periódico",
+   "font": "elperiodico-tec",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L’avançament de les eleccions deixa Espanya sense veto a les xarxes socials per a menors i als deepfakes’ sexuals amb IA",
+   "url": "https://www.elperiodico.cat/politica/20261007/ia-ciberseguretat-avancament-eleccions-espanya-lleis-digitals-135070245",
+   "publicat": "2026-10-07T10:46:44.000Z"
+  },
+  {
+   "id": "8de911ce7984",
+   "mitja": "El Periódico",
+   "font": "elperiodico-tec",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Europa fa un salt de gegant en IA per competir amb els Estats Units i la Xina",
+   "url": "https://www.elperiodico.cat/tecnologia/20261007/europa-fa-salt-gegant-ia-cursa-mistral-aleph-alpha-openar-anthropic-google-competicio-135086719",
+   "publicat": "2026-10-07T08:32:42.000Z"
+  },
+  {
    "id": "c95d46630367",
    "mitja": "El Mundo",
    "font": "elmundo-tec",
@@ -222,6 +242,16 @@
    "titol": "Amar a la IA: el 10% de los jóvenes de EEUU ya no se relaciona con otras personas. De Kupid a Candy, así la inteligencia artificial 'sustituye' a las novias",
    "url": "https://www.elmundo.es/tecnologia/2026/10/05/6ac38e57fc6c83df568b4570.html",
    "publicat": "2026-10-05T11:59:21.000Z"
+  },
+  {
+   "id": "7eaae803198a",
+   "mitja": "El Periódico",
+   "font": "elperiodico-tec",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Sam Altman, creador de ChatGPT: «El món hauria d’acceptar que passin algunes coses dolentes» en benefici dels avantatges de la IA",
+   "url": "https://www.elperiodico.cat/tecnologia/20261005/sam-altman-chatgpt-openai-mon-acceptar-coses-dolentes-riscos-ia-135011243",
+   "publicat": "2026-10-05T10:20:21.000Z"
   },
   {
    "id": "7ad070304708",
