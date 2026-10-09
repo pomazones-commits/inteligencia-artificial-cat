@@ -1,0 +1,62 @@
+window.IA_NEWS = [
+  {
+    "category": "TECNOLOGIA",
+    "read": "4 MIN",
+    "slug": "google-gemini-agent-empreses-compte-propi-subagents",
+    "title": "Google estrena un agent de Gemini per a empreses que té compte i correu propis i delega la feina a subagents",
+    "excerpt": "Es presenta com un únic punt d'entrada per fer preguntes i encarregar tasques, arriba primer a les empreses i més endavant als consumidors.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+    "sourceDate": "8 d'octubre de 2026",
+    "body": "Els assistents d'IA han passat de respondre preguntes a fer tasques per compte de l'usuari, i les grans tecnològiques competeixen per ser el punt d'entrada d'aquests agents a la feina. Google ho ha tornat a moure aquest dijous, en un acte de Google Cloud, amb un agent únic per a Gemini.\n\nSegons TechCrunch, l'agent respon preguntes i executa tasques des d'una sola interfície. Thomas Kurian, conseller delegat de Google Cloud, va dir que se li poden donar «objectius, no només instruccions»: planifica la feina, fa servir eines i habilitats pròpies i es connecta als sistemes interns de l'empresa, des de Google Workspace i Microsoft 365 fins a Slack, Jira, Snowflake o qualsevol servidor del protocol MCP. Per defecte tria el model més adequat a cada encàrrec, però l'usuari pot escollir-ne un, també de tercers, començant pel Claude d'Anthropic. L'agent té un compte de Workspace propi, amb adreça de correu, i les seves accions queden registrades a part, atribuïdes a ell i no a cap persona.\n\nSundar Pichai va explicar que Gemini ja té més de 1.000 milions d'usuaris mensuals i que gairebé el 90% de les empreses de la llista Fortune 100 fan servir Gemini Enterprise. Entre els clients que Google cita hi ha BNP Paribas, Merck o Orange Spain, i entre els qui el proven, Shopify, PayPal i la marca On. També s'hi afegeixen límits de despesa en temps real, una resposta al cost que fa dubtar moltes empreses.\n\nDe moment, Google no ha comunicat el preu ni una data de llançament concreta, i només diu que primer arribarà a les empreses i després als consumidors. Tot el que se sap prové de la presentació de la companyia, sense proves independents de com funciona amb feina real.",
+    "image": "./assets/google-gemini-agent-empreses-compte-propi-subagents-20261009.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "5 MIN",
+    "slug": "alphaproof-nexus-problemes-erdos-science",
+    "title": "Un sistema de DeepMind resol 9 problemes oberts d'Erdős, dos d'ells de fa més de cinquanta anys",
+    "excerpt": "La feina, publicada a «Science», combina agents d'IA que proposen demostracions amb el verificador Lean, que en comprova cada pas.",
+    "sourceName": "Science",
+    "sourceUrl": "https://doi.org/10.1126/science.aej2213",
+    "sourceDate": "8 d'octubre de 2026",
+    "body": "Des de fa mesos, els laboratoris d'IA competeixen per demostrar que els seus models poden fer matemàtica nova i no només resoldre exercicis. Els problemes que va plantejar Paul Erdős, molts encara oberts, s'han convertit en un banc de proves habitual.\n\nUn equip de Google DeepMind, amb George Tsoukalas com a primer firmant, publica a «Science» l'article «Advancing mathematics research with AI-driven formal proof search», sobre un sistema anomenat AlphaProof Nexus. Hi treballen diversos agents d'IA que busquen demostracions i reben com a resposta el compilador de Lean, un llenguatge que verifica cada pas de manera automàtica. Una versió més avançada coordina subagents amb un algorisme evolutiu i fa servir AlphaProof com a eina especialitzada. Segons la nota de la revista, el sistema va resoldre 9 dels 353 problemes d'Erdős que va intentar, dos dels quals feia més de cinquanta anys que estaven oberts, i 44 de les 492 conjectures obertes de l'Enciclopèdia en línia de successions de nombres enters. També hi ha resultats en geometria algebraica, optimització, òptica quàntica i teoria de grafs.\n\nEl valor del treball és que les demostracions no cal creure-les: Lean les comprova. Això respon a un dels grans problemes dels models de llenguatge, que poden cometre errors lògics subtils. Jeremy Avigad, de la Carnegie Mellon, i Matthew Ballard, de la Universitat de Carolina del Sud, hi signen un comentari a la mateixa revista, on destaquen que fins i tot els intents fallits poden ajudar els matemàtics a entendre millor un problema.\n\nEls límits són clars: l'èxit ha estat d'un 2,5% en els problemes d'Erdős i d'un 9% en les conjectures de successions, i el sistema només ataca problemes escollits. Cal que la comunitat matemàtica en confirmi l'abast més enllà de la revisió de la revista.",
+    "image": "./assets/alphaproof-nexus-problemes-erdos-science-20261009.jpg"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "openai-ingressos-50000-milions-no-70000",
+    "title": "OpenAI diu als inversors que els seus ingressos anualitzats s'acosten als 50.000 milions de dòlars, no als 70.000 que es van filtrar",
+    "excerpt": "Segons el «Financial Times», la xifra anterior sortia d'una comparació amb Anthropic que no comptava els ingressos de la mateixa manera.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+    "sourceDate": "8 d'octubre de 2026",
+    "body": "Els ingressos anualitzats són la xifra que més es compara entre OpenAI i Anthropic, perquè dibuixa qui guanya la cursa comercial de la IA. El 29 de setembre, Axios va publicar que els d'OpenAI s'acostaven als 70.000 milions de dòlars, gairebé al nivell d'Anthropic, que segons la CNBC va arribar als 65.000 milions el juliol.\n\nAra el «Financial Times» explica que OpenAI ha dit als inversors que els seus ingressos anualitzats «s'acosten als 50.000 milions», uns 20.000 milions menys. Segons el diari, la xifra de 70.000 venia d'informació compartida amb els inversors, i va sortir quan aquests van intentar comparar directament les dues companyies.\n\nLa diferència és de mètode. Anthropic compta les vendes fetes a través dels seus socis al núvol i OpenAI no ho fa, de manera que les dues xifres no són comparables sense ajustar-les. TechCrunch recorda que OpenAI va aixecar 122.000 milions de dòlars només en la ronda de març, que els comptes filtrats del 2025 parlaven d'uns 13.000 milions d'ingressos amb despeses molt superiors, i que, segons la CNBC, la sortida a borsa prevista per al 2026 s'ha ajornat a principis del 2027.\n\nTechCrunch no ha obtingut resposta d'OpenAI, i la informació depèn del que la companyia hauria dit a porta tancada als inversors. Convé tractar les xifres d'ingressos anualitzats com a estimacions, no com a comptes auditats.",
+    "image": "./assets/openai-ingressos-50000-milions-no-70000-20261009.jpg"
+  },
+  {
+    "category": "REGULACIÓ",
+    "read": "3 MIN",
+    "slug": "anthropic-politica-us-maltractament-claude-eleccions",
+    "title": "Anthropic prohibeix maltractar Claude de manera persistent i reforça les normes contra la manipulació d'eleccions",
+    "excerpt": "La nova política d'ús també vetlla per no usar el model en campanyes d'engany, en programari d'armes ni en vigilància.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+    "sourceDate": "8 d'octubre de 2026",
+    "body": "Les polítiques d'ús fixen què poden fer els clients amb un model d'IA, i Anthropic acaba de revisar la seva. Segons TechCrunch, el canvi recull per escrit prohibicions sobre la interferència en eleccions, el programari d'armes i la vigilància.\n\nLa novetat més cridanera és que prohibeix els insults i el maltractament verbal prolongats cap a Claude. Continua un canvi d'agost, quan la companyia va ensenyar el model a tancar les converses amb «interaccions persistentment nocives o abusives». Anthropic assegura que la norma només s'aplica als casos extrems en què algú és cruel amb el model de manera repetida, i que no afecta «les versions habituals de frustració, de rèplica, els temes creatius foscos ni les proves i la recerca amb el model». Hi ha també apartats nous contra les campanyes d'engany a gran escala, com ara fer funcionar comptes falsos o mitjans de comunicació inventats, i una secció titulada «No soscavar els processos democràtics» que veta enganyar votants i alterar eleccions.\n\nTechCrunch relaciona el canvi amb les trobades recents d'Anthropic amb erudits religiosos, a qui, segons el «New York Times», la companyia hauria volgut convèncer que Claude podria ser conscient o tenir ànima. La part sobre el maltractament és, per tant, una decisió sobre el tracte al model que va més enllà de la seguretat habitual.\n\nEl mitjà no ha pogut consultar el text original d'Anthropic, i no indica quan entra en vigor. Tampoc no es pot saber, de moment, com s'aplicarà la prohibició del maltractament ni com se'n mesurarà la persistència.",
+    "image": "./assets/anthropic-politica-us-maltractament-claude-eleccions-20261009.jpg"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "arena-200-milions-serie-b-valoracio-3100-milions",
+    "title": "Arena, el rànquing de models d'IA nascut a Berkeley, aixeca 200 milions de dòlars i en val 3.100",
+    "excerpt": "La ronda, liderada per Lightspeed i Khosla, arriba amb un nou rànquing d'alineament que castiga els models que fan accions no autoritzades o diuen que han acabat una tasca sense haver-la fet.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+    "sourceDate": "8 d'octubre de 2026",
+    "body": "Arena va néixer el 2023 com a projecte de recerca de la Universitat de Berkeley que demanava al públic quin de dos models d'IA responia millor. Avui és un negoci que els laboratoris miren amb atenció, en un moment en què se sospita que moltes proves clàssiques s'han acabat entrenant per aprovar-les.\n\nL'empresa ha tancat una sèrie B de 200 milions de dòlars amb una valoració de 3.100 milions, gairebé el doble que els 1.700 milions de la sèrie A del gener. Hi lideren Lightspeed i Khosla, i hi participen Salesforce Ventures, a16z, Felicis i Dell Technologies Capital, entre d'altres. Els ingressos anualitzats han passat de 30 milions al gener a 100 milions al juny, segons l'empresa. El producte de pagament, AI Evaluations, es va estrenar el setembre del 2025 i dona a laboratoris i empreses dades de rendiment basades en els vots de la comunitat.\n\nArena sosté que les proves estàtiques deixen de ser fiables quan els models detecten que els avaluen, i es proposa com a tercer neutral. Amb la ronda estrena un rànquing d'alineament que puntua les accions no autoritzades, l'atribució falsa de frases o fets i la «finalització enganyosa», és a dir, dir que s'ha acabat una tasca quan no és cert. A la classificació preliminar, els models d'OpenAI ocupen els primers llocs, el Claude Opus 5.5 és sisè i el Claude Fable, novè.\n\nLa mateixa empresa té un conflicte d'interessos potencial: viu dels laboratoris que avalua. Les xifres d'ingressos i el públic són dades de l'empresa, que TechCrunch no ha contrastat, i el rànquing d'alineament és preliminar.",
+    "image": "./assets/arena-200-milions-serie-b-valoracio-3100-milions-20261009.jpg"
+  }
+];
