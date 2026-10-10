@@ -124,7 +124,11 @@
         .sort((a, b) => a.inici.localeCompare(b.inici));
       const acte = tria(actes, avui);
       if (!acte) return;
-      pinta(acte, actes.filter(a => a !== acte).slice(0, 4), avui);
+      // Des del 10.10.2026 l'agenda també porta trobades, cursos i webinars (un
+      // centenar d'actes): a la portada, només els grans (congressos, jornades,
+      // fires i hackatons). La resta és a /agenda.
+      const grans = new Set(['congrés', 'jornada', 'fira', 'hackató']);
+      pinta(acte, actes.filter(a => a !== acte && grans.has(a.tipus)).slice(0, 4), avui);
     })
     .catch(() => {});
 })();
