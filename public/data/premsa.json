@@ -1,8 +1,38 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-10T04:13:40.959Z",
+ "actualitzat": "2026-10-10T08:13:40.686Z",
  "fonts": 16,
  "articles": [
+  {
+   "id": "37062e285c07",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nou incident de la IA: un model d’Anthropic envia una pista falsa sobre un homicidi a la policia de Filadèlfia",
+   "url": "https://www.vilaweb.cat/noticies/anthropic-claude-pista-falsa-homicidi-policia-filadelfia",
+   "publicat": "2026-10-10T08:05:30.000Z"
+  },
+  {
+   "id": "87951d4f86ce",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA entra en la contratación pública para hacer los procesos más transparentes",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261010/11636342/ia-entra-contratacion-publica-procesos-mas-transparentes.html",
+   "publicat": "2026-10-10T04:05:24.000Z"
+  },
+  {
+   "id": "12a8d61ec9e8",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una IA a dos velocidades",
+   "url": "https://www.lavanguardia.com/economia/20261010/11655521/ia-dos-velocidades.html",
+   "publicat": "2026-10-10T04:00:00.000Z"
+  },
   {
    "id": "e08001ee17b2",
    "mitja": "Cinco Días",
