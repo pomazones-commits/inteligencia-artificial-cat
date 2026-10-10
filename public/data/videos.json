@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-09T22:04:02.718Z",
+ "actualitzat": "2026-10-10T04:13:40.451Z",
  "canals": 19,
  "videos": [
   {
@@ -97,7 +97,10 @@
    "idioma": "en",
    "publicat": "2026-10-07T21:55:41.000Z",
    "descripcio": "ChatGPT just got a lot more visual—introducing Intelligent UI. Intelligent UI allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual. It makes learning complex topics easier, and it quickly creates tools to solve a task right in the moment. Oh,",
-   "miniatura": "/assets/videos/IsL4dVezs18.jpg"
+   "miniatura": "/assets/videos/IsL4dVezs18.jpg",
+   "noticia": "openai-gpt-6-intelligent-ui-chatgpt-botons-grafics",
+   "noticiaTitol": "OpenAI estrena GPT-6 a ChatGPT amb respostes que porten botons, gràfics i calculadores integrades",
+   "resum": "Presentació oficial que OpenAI va publicar el 7 d'octubre sobre GPT-6 a ChatGPT i la nova «Intelligent UI», que permet respostes amb interfícies interactives i més visuals. El vídeo és en anglès."
   },
   {
    "id": "LiNhqbetrbU",
