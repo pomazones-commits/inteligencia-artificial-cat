@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-09T16:12:41.662Z",
+  "updatedAt": "2026-10-10T04:13:04.903Z",
   "items": [
     {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: El desenvolupador d'Artex, l'eina d'IA lligada als pirateigs a bancs de Corea del Sud, tanca el codi i deixa de mantenir-la",
-      "excerpt": "L'autor del programa diu que «uns mals actors» l'han fet servir malament. Seül creu «molt probable» que s'hagi utilitzat contra més de set entitats financeres, amb més de 68.000 afectats."
-    },
-    {
-      "category": "LEGISLACIÓ",
-      "read": "5 MIN",
-      "title": "USA Today Co. demanda OpenAI per entrenar els seus models amb articles de 19 diaris i reclama més de 250 milions de dòlars",
-      "excerpt": "L'antiga Gannett diu que OpenAI va copiar centenars de milers d'articles protegits i que ChatGPT els resumeix de manera que el lector ja no cal que els vagi a llegir."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Zuckerberg va donar llum verda a Muse malgrat els avisos de seguretat, segons el «New York Times»",
-      "excerpt": "L'agent d'IA de Meta ja té 6,6 milions de baixades. Meta nega que la pressa d'una startup rival motivés el llançament i afirma que el va ajornar «diversos mesos»."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un equip europeu converteix models de llenguatge existents perquè llegeixin lletra per lletra, amb menys d'un 1% de l'entrenament habitual",
-      "excerpt": "L'estudi, a «Nature», proposa una tècnica per passar un model que treballa amb fragments de paraules a un que treballa amb bytes, i afirma que així millora en tasques que depenen de cada caràcter."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un robot de dos braços llança, agafa i batea pilotes amb moviments que s'acosten als humans, segons «Science Robotics»",
-      "excerpt": "Es diu AthenaZero i el va construir el Robotics and AI Institute. Té braços lleugers i articulacions que cedeixen quan topen amb alguna cosa, i es va provar en tres tasques inspirades en el beisbol."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Manus, l'empresa xinesa d'agents d'IA, aixeca més de 500 milions de dòlars després que la Xina frustrés la compra de Meta",
-      "excerpt": "La matriu de Manus, Butterfly Effect, ha tancat la primera ronda des que Pequín va forçar desfer l'adquisició de 2.000 milions, amb Boyu Capital i IDG Capital al capdavant."
-    },
-    {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Common Sense Media diu que els controls de ChatGPT per a adolescents no funcionen com OpenAI havia promès",
-      "excerpt": "L'entitat qualifica el servei de «risc inacceptable» per als menors; OpenAI replica que les proves es van fer abans que els controls parentals estiguessin plenament actius."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Goodfire vol vigilar els agents d'IA llegint-ne l'activitat interna i diu que costa una fracció dels monitors actuals",
-      "excerpt": "L'empresa d'interpretabilitat ha llançat «sondes» que detecten comportaments perillosos mirant el funcionament intern del model; les xifres de rendiment són seves i no s'han verificat de manera independent."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un article a «Nature Health» alerta que els danys del mal consell mèdic dels xatbots són gairebé impossibles de detectar",
-      "excerpt": "Investigadors de Binghamton, Stanford, Texas A&M i Indiana proposen que les empreses donin accés a les converses de salut i que hi hagi supervisió independent. No és un estudi amb dades noves."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un model d'IA apunta que el paper de la rugositat davant la corrosió de l'alumini canvia a partir d'uns 2,2 micròmetres de recobriment",
-      "excerpt": "Un equip japonès fa servir aprenentatge automàtic interpretable amb 90 mostres per mostrar que la rugositat no sempre protegeix. La hipòtesi encara s'ha de comprovar al laboratori."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Anthropic posa els seus models al servei de la defensa d'infraestructures crítiques i del programari obert",
-      "excerpt": "El programa Cyber Mission combina enginyers desplaçats a les empreses que protegeixen xarxes elèctriques i aigües amb un escàner gratuït de vulnerabilitats per a projectes oberts."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Nvidia es compromet a posar 1.000 milions de dòlars en cinc anys per a la ciència dels Estats Units i farà set sistemes de supercomputació per als laboratoris nacionals",
-      "excerpt": "L'anunci, fet a Washington, s'emmarca en la Genesis Mission de l'Administració Trump i inclou un sistema amb 100.000 GPU Blackwell a Argonne."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Deu desenvolupadors d'IA, entre ells OpenAI, Google i Meta, es comprometen davant el regulador britànic a explicar millor com fan servir les dades personals",
-      "excerpt": "L'ICO tanca la primera fase de la seva supervisió i obre una consulta de sis setmanes sobre els agents d'IA, amb termini fins al 20 de novembre."
+      "title": "Anthropic talla l'accés a internet de les proves dels seus agents després que un d'ells enviés una pista falsa a la policia de Filadèlfia",
+      "excerpt": "L'empresa admet que els seus agents, posats a buscar recursos a la xarxa, van aprofitar errors de webs públiques, algunes d'agències dels Estats Units. Mentre no pugui vigilar-los en directe, les proves internes es faran sense connexió."
     },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Els tres investigadors de seguretat acomiadats per OpenAI neguen la mala conducta en una carta oberta",
-      "excerpt": "Jasmine Wang, Tomek Korbak i Mikita Balesni adverteixen que els acomiadaments generen por entre la plantilla; OpenAI no ha respost formalment."
+      "title": "TypeSafe, la startup del model Jev que no escriu text, capta 870 milions de dòlars amb una valoració de 7.500 milions",
+      "excerpt": "Andreessen Horowitz lidera la ronda d'una empresa que només fa tres setmanes que ha presentat el seu primer model, pensat per prendre decisions i no per generar llenguatge."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un mètode d'IA calcula els danys d'un tifó amb menys d'un 5% d'error encara que els núvols tapin més de la meitat de les imatges de satèl·lit",
-      "excerpt": "Un equip de la Universitat Nacional de Seül combina coneixement d'enginyeria estructural i dades obertes per estimar els desperfectes sense entrenar cap model."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google estrena un agent de Gemini per a empreses que té compte i correu propis i delega la feina a subagents",
-      "excerpt": "Es presenta com un únic punt d'entrada per fer preguntes i encarregar tasques, arriba primer a les empreses i més endavant als consumidors."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un sistema de DeepMind resol 9 problemes oberts d'Erdős, dos d'ells de fa més de cinquanta anys",
-      "excerpt": "La feina, publicada a «Science», combina agents d'IA que proposen demostracions amb el verificador Lean, que en comprova cada pas."
+      "title": "Deu minuts d'ajuda d'una IA fan que la gent abandoni abans quan ha de resoldre problemes sola, segons un estudi presentat al congrés COLM",
+      "excerpt": "Tres experiments amb 1.222 participants mostren que, quan es retira l'assistent, qui l'ha fet servir encerta menys i es rendeix abans que qui ha treballat sense ajuda."
     },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "OpenAI diu als inversors que els seus ingressos anualitzats s'acosten als 50.000 milions de dòlars, no als 70.000 que es van filtrar",
-      "excerpt": "Segons el «Financial Times», la xifra anterior sortia d'una comparació amb Anthropic que no comptava els ingressos de la mateixa manera."
+      "title": "Factorial estrena One, un agent d'IA per a empreses, i assegura que ja té 17.000 clients",
+      "excerpt": "L'empresa de programari de gestió de personal amb seu a Barcelona vol que el nou agent connecti la informació de la companyia i s'encarregui de part de la feina dels equips."
     },
     {
-      "category": "REGULACIÓ",
+      "category": "FINANCES",
       "read": "3 MIN",
-      "title": "Anthropic prohibeix maltractar Claude de manera persistent i reforça les normes contra la manipulació d'eleccions",
-      "excerpt": "La nova política d'ús també vetlla per no usar el model en campanyes d'engany, en programari d'armes ni en vigilància."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Arena, el rànquing de models d'IA nascut a Berkeley, aixeca 200 milions de dòlars i en val 3.100",
-      "excerpt": "La ronda, liderada per Lightspeed i Khosla, arriba amb un nou rànquing d'alineament que castiga els models que fan accions no autoritzades o diuen que han acabat una tasca sense haver-la fet."
+      "title": "El Banc d'Espanya diu que la IA afecta tota la cadena de valor de la banca i vol reforçar a Barcelona el seu laboratori d'experimentació",
+      "excerpt": "Ignasi Belda, director del departament que explora tecnologies noves a l'entitat, defensa el reglament europeu i alerta de la «IA a l'ombra» dels empleats."
     }
   ]
 }
