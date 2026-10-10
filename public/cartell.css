@@ -182,3 +182,58 @@
 @media (prefers-reduced-motion: reduce) {
   .cartell-boto { transition: none; }
 }
+
+/* ——— Carrusel (11.10.2026) ———
+   Quan avui hi ha més d'un acte gran en marxa, els cartells s'apilen a la
+   mateixa cel·la de la graella (l'alçada és la del més alt i la pàgina no
+   salta) i se'n mostra un cada 5 segons amb un fos encadenat. */
+.cartell-escena { min-width: 0; display: flex; flex-direction: column; }
+.cartell-pista { display: grid; flex: 1; }
+.cartell-pista > .cartell-poster { grid-area: 1 / 1; }
+.cartell-diapo {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(28px) scale(.985);
+  transition: opacity .7s ease, transform .7s ease, visibility 0s linear .7s;
+}
+.cartell-diapo.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: opacity .7s ease, transform .7s ease, visibility 0s;
+}
+
+.cartell-controls { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; margin-top: 12px; padding-left: 6px; }
+.cartell-ctrl {
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--ink);
+  background: #fff;
+  font: 600 14px var(--sans);
+  cursor: pointer;
+}
+.cartell-ctrl:hover { border-color: var(--ink); }
+.cartell-ctrl--pausa { font-size: 11px; letter-spacing: -.1em; }
+.cartell-punts { display: flex; gap: 6px; align-items: center; }
+.cartell-punt {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: #c9cee0;
+  cursor: pointer;
+  transition: width .3s ease, background .3s ease;
+}
+.cartell-punt.is-active { width: 28px; background: var(--ink); }
+.cartell-compte { margin-left: 4px; color: var(--muted); font: 600 11px var(--mono); letter-spacing: .08em; }
+.cartell-compte b { color: var(--ink); }
+.cartell-ctrl:focus-visible, .cartell-punt:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .cartell-diapo, .cartell-diapo.is-active, .cartell-punt { transition: none; transform: none; }
+}
