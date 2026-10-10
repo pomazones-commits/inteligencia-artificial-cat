@@ -1,8 +1,28 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-10T20:20:35.547Z",
+ "actualitzat": "2026-10-10T23:54:40.342Z",
  "fonts": 16,
  "articles": [
+  {
+   "id": "0359441dc138",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El ‘shadow AI’ se propaga y aumenta riesgos en la empresa",
+   "url": "https://www.lavanguardia.com/economia/20261011/11655470/shadow-ai-propaga-aumenta-riesgos-empresa.html",
+   "publicat": "2026-10-10T22:05:00.000Z"
+  },
+  {
+   "id": "8c826aba84a7",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Avance científico e IA",
+   "url": "https://www.lavanguardia.com/dinero/20261011/11655006/avance-cientifico-e-ia.html",
+   "publicat": "2026-10-10T22:05:00.000Z"
+  },
   {
    "id": "be5df8dde04d",
    "mitja": "Ara",
