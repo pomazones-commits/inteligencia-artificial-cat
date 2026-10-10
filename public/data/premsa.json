@@ -1,8 +1,18 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-10T08:13:40.686Z",
+ "actualitzat": "2026-10-10T10:50:19.805Z",
  "fonts": 16,
  "articles": [
+  {
+   "id": "e2916c20a756",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic admite que su IA envió pistas falsas sobre un homicidio a la policía y rellenó visados de forma autónoma",
+   "url": "https://www.eldiario.es/tecnologia/anthropic-admite-ia-envio-pistas-falsas-homicidio-policia-relleno-visados-forma-autonoma_1_13577005.html",
+   "publicat": "2026-10-10T08:48:28.000Z"
+  },
   {
    "id": "37062e285c07",
    "mitja": "VilaWeb",
