@@ -105,6 +105,19 @@
    "url": "https://luma.com/adropr4a"
   },
   {
+   "titol": "Cursos gratuïts d'IA del Cibernàrium (tardor 2026)",
+   "organitza": "Barcelona Activa (Cibernàrium)",
+   "inici": "2026-10-13",
+   "fi": "2026-11-26",
+   "lloc": "Barcelona (Cibernàrium i aula virtual)",
+   "territori": "catalunya",
+   "format": "",
+   "tipus": "curs",
+   "preu": "gratuït",
+   "descripcio": "Una vintena de cursos gratuïts amb data sobre IA: enginyeria de prompts, Copilot, ciberseguretat en IA generativa, màrqueting i xarxes socials amb IA, a més de sessions en línia per seguir al propi ritme.",
+   "url": "https://cibernarium.barcelonactiva.cat/formacions?scope=22"
+  },
+  {
    "titol": "IA aplicada per a comercials",
    "organitza": "Cambra de Comerç de Barcelona",
    "inici": "2026-10-13",
@@ -428,6 +441,19 @@
    "url": "https://ia.elindependiente.com/"
   },
   {
+   "titol": "Invertim la Piranya creativa! Convertim la IA voraç en servei de la creació humana",
+   "organitza": "zumito fanzine, Tlayayo i Canòdrom",
+   "inici": "2026-10-17",
+   "fi": "",
+   "lloc": "Barcelona (Canòdrom)",
+   "territori": "catalunya",
+   "format": "presencial",
+   "tipus": "curs",
+   "preu": "",
+   "descripcio": "Taller de dibuix col·lectiu que reivindica la creació humana davant dels algoritmes: cada participant dibuixa a cegues una part d'un fanzine que només pren sentit quan s'ajunten totes.",
+   "url": "https://canodrom.barcelona/ca/esdeveniment-agenda/invertim-la-piranya-creativa"
+  },
+  {
    "titol": "[Online] Building an AI Harness for Your Data Team",
    "organitza": "Barcelona Data and AI Product Management meetup",
    "inici": "2026-10-19",
@@ -568,6 +594,19 @@
    "preu": "gratuït",
    "descripcio": "Trobada informal en format de desconferència per a professionals de producte de dades i IA, que es reparteixen en grups petits per parlar dels reptes que els preocupen.",
    "url": "https://luma.com/a6la66jh"
+  },
+  {
+   "titol": "SORS/WomenInBSC: Governing Artificial Intelligence: Institutions, Expertise, and Economic Interests",
+   "organitza": "Barcelona Supercomputing Center (BSC-CNS)",
+   "inici": "2026-10-21",
+   "fi": "",
+   "lloc": "Barcelona (BSC) i en línia",
+   "territori": "catalunya",
+   "format": "híbrid",
+   "tipus": "jornada",
+   "preu": "",
+   "descripcio": "Seminari de Laura Chaqués Bonafont (UB i IBEI) sobre com els governs regulen la intel·ligència artificial, de quins experts depenen i quins interessos econòmics hi pesen. Es pot seguir per Zoom.",
+   "url": "https://www.bsc.es/research-and-development/research-seminars/sorswomeninbsc-governing-artificial-intelligence-institutions-expertise-and-economic-interests"
   },
   {
    "titol": "Taller de la BSC AI Factory: avançar en l'adopció de la IA",
@@ -736,6 +775,19 @@
    "preu": "",
    "descripcio": "Matí de debat entre professionals de la salut sobre com la IA canvia el registre i l'ús de la història clínica electrònica: oportunitats per decidir millor i reptes de qualitat de dades, interoperabilitat i privadesa.",
    "url": "https://www.gips.cat/agenda/cafe-gips-historia-clinica-electronica-IA"
+  },
+  {
+   "titol": "SORS/WomenInBSC: Gendered Harms in LLM-Based Agents in Medicine",
+   "organitza": "Barcelona Supercomputing Center (BSC-CNS)",
+   "inici": "2026-10-28",
+   "fi": "",
+   "lloc": "En línia",
+   "territori": "en-linia",
+   "format": "en línia",
+   "tipus": "webinar",
+   "preu": "",
+   "descripcio": "Seminari en línia de Mónica Cano Abadía (Universitat de Graz) sobre els biaixos de gènere que arrosseguen els agents basats en models de llenguatge quan s'apliquen a la medicina.",
+   "url": "https://www.bsc.es/research-and-development/research-seminars/sorswomeninbsc-gendered-harms-llm-based-agents-medicine-feminist-and-medical-humanities-perspective"
   },
   {
    "titol": "Webinar Acelera Pyme – La IA per a empreses sense por: què és i què no és",
@@ -1084,6 +1136,32 @@
    "preu": "gratuït",
    "descripcio": "Competició de ciència de dades de cap de setmana: equips que resolen reptes reals d'IA i dades amb tallers i mentoria.",
    "url": "https://www.datathon.cat/"
+  },
+  {
+   "titol": "IV Premis ValgrAI d'Intel·ligència Artificial de la Comunitat Valenciana",
+   "organitza": "ValgrAI",
+   "inici": "2026-11-16",
+   "fi": "2026-11-16",
+   "lloc": "",
+   "territori": "comunitat-valenciana",
+   "format": "",
+   "tipus": "convocatòria",
+   "preu": "",
+   "descripcio": "Premis de ValgrAI a la recerca i als projectes d'intel·ligència artificial fets a la Comunitat Valenciana. Segons la pàgina de la convocatòria, el termini acaba el dilluns 16 de novembre: consulteu-ne les bases.",
+   "url": "https://valgrai.eu/events/iv-premios-valgrai-de-inteligencia-artificial-de-la-comunitat-valenciana/"
+  },
+  {
+   "titol": "BSC AI Factory Masterclass: LLMs from Zero to Production",
+   "organitza": "BSC AI Factory (Barcelona Supercomputing Center)",
+   "inici": "2026-11-17",
+   "fi": "",
+   "lloc": "En línia",
+   "territori": "en-linia",
+   "format": "en línia",
+   "tipus": "webinar",
+   "preu": "gratuït",
+   "descripcio": "Classe magistral en línia per entendre com funcionen els grans models de llenguatge i com es porten a producció, pensada també per a públic sense coneixements tècnics previs.",
+   "url": "https://www.bsc.es/news/events/bsc-ai-factory-masterclass-llms-zero-production"
   },
   {
    "titol": "ROBOT2026 — Novena Conferència Ibèrica de Robòtica",
