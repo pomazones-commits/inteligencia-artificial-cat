@@ -1,8 +1,18 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-10T15:58:10.330Z",
+ "actualitzat": "2026-10-10T20:20:35.547Z",
  "fonts": 16,
  "articles": [
+  {
+   "id": "be5df8dde04d",
+   "mitja": "Ara",
+   "font": "ara",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Els matemàtics tremolen després del nou avenç d'OpenAI",
+   "url": "https://www.ara.cat/societat/matematics-tremolen-despres-nou-avenc-d-openai_1_5875832.html",
+   "publicat": "2026-10-10T19:26:30.000Z"
+  },
   {
    "id": "fe3a8025b3df",
    "mitja": "El Mundo",
