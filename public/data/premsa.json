@@ -1,8 +1,38 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-10T10:50:19.805Z",
+ "actualitzat": "2026-10-10T15:58:10.330Z",
  "fonts": 16,
  "articles": [
+  {
+   "id": "fe3a8025b3df",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Una IA de Anthropic envía una denuncia falsa sobre un asesinato a la policía de Filadelfia (EEUU)",
+   "url": "https://www.elmundo.es/tecnologia/2026/10/10/6aca303ce4d4d8d3638b459e.html",
+   "publicat": "2026-10-10T12:44:25.000Z"
+  },
+  {
+   "id": "cec65ddb8429",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Kevin Bacon: “Me encanta hacer y ver películas de terror, lo que me asusta son Trump y la IA”",
+   "url": "https://www.lavanguardia.com/cultura/20261010/11655895/kevin-bacon-me-encanta-ver-peliculas-terror-me-asusta-son-trump-ia-sitges-family-movie.html",
+   "publicat": "2026-10-10T11:38:10.000Z"
+  },
+  {
+   "id": "4a73283c3826",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic revela un aviso falso a la policía entre los nuevos incidentes de una IA descontrolada",
+   "url": "https://elpais.com/tecnologia/2026-10-10/anthropic-revela-un-aviso-falso-a-la-policia-entre-los-nuevos-incidentes-de-una-ia-descontrolada.html",
+   "publicat": "2026-10-10T11:13:15.000Z"
+  },
   {
    "id": "e2916c20a756",
    "mitja": "elDiario.es",
