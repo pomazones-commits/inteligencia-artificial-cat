@@ -1,8 +1,18 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-09T23:33:15.915Z",
+ "actualitzat": "2026-10-10T04:13:40.959Z",
  "fonts": 16,
  "articles": [
+  {
+   "id": "e08001ee17b2",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El error de empezar la IA por la reducción de plantilla",
+   "url": "https://cincodias.elpais.com/opinion/2026-10-10/el-error-de-empezar-la-ia-por-la-reduccion-de-plantilla.html",
+   "publicat": "2026-10-10T03:40:00.000Z"
+  },
   {
    "id": "a09a08958bc4",
    "mitja": "El Nacional",
@@ -41,7 +51,9 @@
    "ambit": "catala",
    "titol": "Ignasi Belda (Banc d'Espanya): \"La IA impacta en tota la cadena de valor de la banca\"",
    "url": "https://www.ara.cat/economia/banca/ignasi-belda-banc-d-espanya-ia-impacta-tota-cadena-banca_1_5874280.html",
-   "publicat": "2026-10-09T09:46:27.000Z"
+   "publicat": "2026-10-09T09:46:27.000Z",
+   "noticia": "banc-d-espanya-belda-ia-impacta-tota-cadena-banca",
+   "noticiaTitol": "El Banc d'Espanya diu que la IA afecta tota la cadena de valor de la banca i vol reforçar a Barcelona el seu laboratori d'experimentació"
   },
   {
    "id": "98ac82bdaddd",
