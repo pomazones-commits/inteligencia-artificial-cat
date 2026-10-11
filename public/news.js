@@ -1,5 +1,65 @@
 window.IA_NEWS = [
   {
+    "category": "EMPRESES",
+    "read": "3 MIN",
+    "slug": "apple-huxe-contractacio-equip-llicencia-tecnologia-udio",
+    "title": "Apple fitxarà part de l'equip de Huxe, la startup d'àudio personalitzat que va tancar a la primavera, i en llicenciarà la tecnologia",
+    "excerpt": "Un document presentat a la Comissió Europea revela que Apple contractarà «determinats empleats» de Huxe AI i obtindrà una llicència no exclusiva de la seva propietat intel·lectual, sense xifres ni plans coneguts.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+    "sourceDate": "10 d'octubre de 2026",
+    "body": "Huxe era una startup que feia àudio personalitzat generat amb IA, una mena de pòdcasts a mida. La van fundar desenvolupadors que havien treballat en les funcions de pòdcast generat amb IA de NotebookLM, de Google. El 21 de maig de 2026 va anunciar que tancava: retiraria l'aplicació de les botigues d'Apple i de Google, aturaria el servei i esborraria les dades dels usuaris.\n\nAra se sap que Apple va notificar l'operació a la Comissió Europea el 9 de juny, poc després del tancament. Segons el document, Apple oferirà feina a «determinats empleats» de Huxe AI i rebrà una llicència no exclusiva de la seva propietat intel·lectual. MacRumors en va informar el 9 d'octubre i TechCrunch ho va recollir l'endemà. No es dona cap import econòmic.\n\nÉs una fórmula que el sector anomena «acqui-hire inversa»: la gran empresa s'endú persones i tecnologia sense comprar la companyia, cosa que pot evitar l'escrutini antimonopoli d'una adquisició completa. TechCrunch apunta que Apple podria voler funcions semblants per a l'aplicació Podcasts, però és una hipòtesi del mitjà, no una cosa que Apple hagi confirmat.\n\nEl document no diu quins empleats han rebut oferta, si l'han acceptada ni què es farà amb la tecnologia. Tampoc se sap si l'àudio personalitzat interessa de debò al gran públic: els directius del sector hi aposten, però la demanda és encara per demostrar.",
+    "image": "./assets/apple-huxe-contractacio-equip-llicencia-tecnologia-udio-20261011.jpg"
+  },
+  {
+    "category": "TECNOLOGIA",
+    "read": "4 MIN",
+    "slug": "google-embeddinggemma-2-model-obert-multimodal-mobil",
+    "title": "Google publica EmbeddingGemma 2, un model obert que entén text, imatge, àudio, vídeo i codi i cap en un mòbil",
+    "excerpt": "El model, de 740 milions de paràmetres i amb llicència Apache 2.0, situa tots els formats en un mateix espai de cerca i, segons Google, lidera la seva mida en codi i àudio.",
+    "sourceName": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+    "sourceDate": "6 d'octubre de 2026",
+    "body": "Un model d'*embeddings* converteix textos, imatges o sons en llistes de números que permeten comparar-los pel significat. Serveix, per exemple, per cercar documents semblants o perquè un assistent trobi el fragment adequat d'un arxiu. Google n'havia publicat una primera versió, EmbeddingGemma, només per a text.\n\nLa segona versió, presentada el 6 d'octubre, és multimodal: situa text, imatges, àudio, vídeo i codi en un mateix espai. Té 740 milions de paràmetres, es basa en Gemma 4 i admet 8.000 *tokens* de context, quatre vegades més que la primera. Per a un ús només de text en bastarien 270 milions, i els mòduls de visió (170 milions) i d'àudio (300 milions) són opcionals. Els pesos es poden baixar de Hugging Face i Kaggle amb llicència Apache 2.0, i funciona amb eines com llama.cpp, Ollama o sentence-transformers.\n\nSegons Google, la puntuació en codi de la prova MTEB passa de 68,76 a 78,68 punts, i el model encapçala els de menys de mil milions de paràmetres en codi i en àudio. També es pot escurçar de 768 a 128 dimensions per estalviar fins a sis vegades d'espai. Quantitzat en un Pixel 11 Pro, diu que ocupa uns 191 MB de memòria només amb text i uns 567 MB en versió completa.\n\nTotes les xifres de rendiment són de Google, mesurades per ella mateixa; no hi ha cap avaluació independent. El model admet com a màxim uns 5 minuts i mig d'àudio, 29 imatges o 58 fotogrames de vídeo per consulta, i la disponibilitat a la plataforma d'empresa de Google queda anunciada com a «properament».",
+    "image": "./assets/google-embeddinggemma-2-model-obert-multimodal-mobil-20261011.jpg"
+  },
+  {
+    "category": "SALUT",
+    "read": "5 MIN",
+    "slug": "medgemma-nature-medicine-model-obert-imatge-medica",
+    "title": "Nature Medicine publica MedGemma, un model obert de Google per a imatge i text mèdics que millora un 15-18% en radiografies de tòrax",
+    "excerpt": "L'article descriu una família de models basats en Gemma 3 que superen els de la mateixa mida en tasques mèdiques i serveixen de base per ajustar-los amb poques dades.",
+    "sourceName": "Nature Medicine",
+    "sourceUrl": "https://www.nature.com/articles/s41591-026-04626-w",
+    "sourceDate": "6 d'octubre de 2026",
+    "body": "Els models de fundació en medicina tenen un problema pràctic: cal entrenar-los amb dades molt diverses i sovint privades, i adaptar-los a cada tasca costa. *Nature Medicine* ha publicat el 6 d'octubre la descripció revisada per parells de MedGemma, una col·lecció de models de visió i llenguatge per a l'àmbit mèdic que Google ha construït a partir de Gemma 3 i que ofereix de manera oberta.\n\nEls autors expliquen que MedGemma entén imatges i text de diversos tipus d'imatge mèdica i supera els models generatius de mida comparable sense perdre les capacitats generals de Gemma. En tasques fora de la distribució d'entrenament, millora entre un 2,6 i un 10% en preguntes sobre imatges mèdiques, entre un 15,5 i un 18,1% en la classificació de troballes en radiografies de tòrax i un 10,8% en avaluacions amb agents, respecte dels models base. També presenten MedSigLIP, un codificador de visió ajustat per a medicina que fa de base de la part visual.\n\nUna de les conclusions pràctiques és que ajustar MedGemma funciona millor que ajustar el Gemma 3 genèric per a tasques mèdiques, sobretot quan hi ha poques dades. Això abarateix el desenvolupament d'eines pròpies per a hospitals i grups de recerca que no poden compartir les seves dades de pacients.\n\nCal llegir-ho amb mesura: són millores en proves de referència i en avaluacions dissenyades pels mateixos autors, no en assajos amb pacients ni en pràctica clínica real. El resum de l'article tampoc no detalla com es comporta el model en poblacions o centres diferents d'aquells en què es va provar.",
+    "image": "./assets/medgemma-nature-medicine-model-obert-imatge-medica-20261011.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "4 MIN",
+    "slug": "nature-medicine-codi-models-prediccio-clinica-revisio-12-per-cent",
+    "title": "Només un 12% dels estudis de models de predicció clínica comparteixen el codi, segons una revisió a «Nature Medicine»",
+    "excerpt": "Una revisió amb un cribratge assistit per IA va analitzar 3.967 articles i en va trobar 482 amb una declaració sobre el codi, amb grans diferències entre revistes i països.",
+    "sourceName": "Nature Medicine",
+    "sourceUrl": "https://www.nature.com/articles/s41591-026-04691-1",
+    "sourceDate": "9 d'octubre de 2026",
+    "body": "Els models de predicció clínica s'usen cada cop més per donar suport a decisions de diagnòstic i de pronòstic. Perquè els altres investigadors en puguin comprovar la fiabilitat, cal poder reproduir-los, i això exigeix tenir el codi amb què es van construir. Una revisió publicada el 9 d'octubre a *Nature Medicine* ha mesurat fins a quin punt es fa.\n\nEls autors van muntar una cadena de treball assistida per un model de llenguatge per cribrar els articles que citaven les guies TRIPOD o TRIPOD+AI, extreure'n els enllaços a repositoris i valorar els repositoris trobats segons 14 trets de reproductibilitat predefinits. De 3.967 articles, 482 (el 12,2%) incloïen una declaració sobre la compartició del codi.\n\nLa freqüència variava molt segons la revista i el país, i els repositoris analitzats eren molt heterogenis: no n'hi ha prou que el codi existeixi si falten la documentació, la llista de dependències o una estructura que es pugui executar. Els resultats han de servir per elaborar TRIPOD-Code, una guia d'informació nova sobre disponibilitat i reproductibilitat del codi.\n\nLa mostra és la dels articles que ja citen aquestes guies, i part del cribratge el va fer un model de llenguatge, de manera que els recomptes depenen de la seva precisió; el resum de l'article no en detalla l'error. Tampoc no es pot saber si els models amb codi públic són millors, només que són més fàcils de comprovar.",
+    "image": "./assets/nature-medicine-codi-models-prediccio-clinica-revisio-12-per-cent-20261011.jpg"
+  },
+  {
+    "category": "SOCIETAT",
+    "read": "4 MIN",
+    "slug": "tarragona-fiscalia-montatges-sexuals-menors-ia-casos",
+    "title": "La Fiscalia de Tarragona detecta casos de menors que fan servir la IA per crear imatges sexuals falses de companyes",
+    "excerpt": "Els processos judicials per delictes sexuals en línia a la província van passar de 15 el 2018 a 44 el 2025; la fiscal de menors descriu fotos d'Instagram o TikTok manipulades per humiliar adolescents.",
+    "sourceName": "Diari de Tarragona",
+    "sourceUrl": "https://www.diaridetarragona.com/tarragona/272780/tarragona-detecta-casos-montajes-sexuales-menores-ia.html",
+    "sourceDate": "10 d'octubre de 2026",
+    "body": "El Diari de Tarragona publica un reportatge en què fiscals, una magistrada i un director d'institut expliquen com la IA s'ha fet servir a la demarcació per crear imatges sexuals falses de menors. Els casos descrits són, per exemple, una foto d'Instagram o de TikTok d'una adolescent transformada en una imatge d'ella nua per humiliar-la davant dels companys, o *stickers* que combinen fotos de companys amb frases denigrants.\n\nSegons les xifres que cita el diari, els processos judicials per delictes sexuals en línia a la província han passat de 15 el 2018 a 44 el 2025, un augment del 193,3%. El 2018 és el primer any amb dades provincials. Inés Torrenti, fiscal delegada de menors de la Fiscalia Provincial de Tarragona, recalca que prioritzen la protecció de les víctimes i una intervenció educativa amb els infractors; alguns, diu, eren menors de 14 anys i no poden ser considerats penalment responsables.\n\nJordi Satorra, director de l'Institut Antoni de Martí i Franquès, explica que quan un alumne denuncia una agressió el centre l'acompanya, sovint fins als Mossos d'Esquadra per posar la denúncia, avisa les famílies quan cal i coordina el cas amb els serveis socials. La magistrada María del Prado Escoda demana posar límits a l'accés dels menors a internet, i l'advocat Isaac González atribueix part de l'augment a un menor estigma per denunciar.\n\nEl mateix Satorra reconeix que no es pot saber del cert si hi ha més casos o si els alumnes en parlen més perquè se senten més segurs. Les xifres són de processos judicials per delictes sexuals en línia en general, no només dels fets amb IA, de manera que no mesuren quants casos hi ha amb imatges generades.",
+    "image": "./assets/tarragona-fiscalia-montatges-sexuals-menors-ia-casos-20261011.jpg"
+  },
+  {
     "category": "SEGURETAT",
     "read": "3 MIN",
     "slug": "nadella-fre-demergencia-ia-controls-fora-model",
