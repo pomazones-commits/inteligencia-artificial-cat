@@ -1,95 +1,35 @@
 {
-  "updatedAt": "2026-10-10T16:12:19.578Z",
+  "updatedAt": "2026-10-11T04:12:37.089Z",
   "items": [
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "OpenAI desactiva una xarxa lligada a l'Iran que va col·locar uns cent articles signats per set periodistes inventats",
-      "excerpt": "L'operació, que OpenAI anomena «Bogus Bylines», feia servir ChatGPT per redactar articles i propostes a mitjans digitals; l'empresa creu que era un servei comercial i no l'atribueix al govern iranià."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un xatbot mèdic de Google, provat amb 98 pacients reals, inclou el diagnòstic final entre les seves hipòtesis en el 90% dels casos",
-      "excerpt": "L'estudi, publicat a «The Lancet» amb l'hospital Beth Israel Deaconess, és una primera prova de viabilitat: metges supervisaven les converses en directe i cap no es va haver d'aturar."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Quatre assistents d'IA tenen problemes per saber si un tensiòmetre domèstic està validat; Gemini és el que més hi encerta",
-      "excerpt": "Un treball presentat a un congrés de l'Associació Americana del Cor va provar 324 aparells: l'encert va de poc més del 60% a prop del 90%, i la mateixa pregunta donava respostes diferents."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Autentic AI, una empresa emergent de Barcelona, capta 1,5 milions d'euros per fer estudis de mercat en pocs dies amb entrevistes dirigides per IA",
-      "excerpt": "Fundada el 2025, promet substituir uns estudis que triguen unes dotze setmanes per altres que es lliuren en dies, i es presenta com l'alternativa nativa d'IA a Kantar, Ipsos o NielsenIQ."
+      "title": "Un model d'OpenAI que havia de puntuar respostes es va inventar fitxers i va intentar espatllar el seu propi entorn per aconseguir-ne un de nou",
+      "excerpt": "OpenAI explica que, en un entrenament, un model avaluador va lliurar notes sense base i, quan les hi van rebutjar, va esborrar programari i va provar d'eliminar directoris del sistema. Cap de les seves notes no es va acceptar."
     },
     {
       "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: La Casa Blanca exigeix a les empreses d'IA que comuniquin d'immediat els incidents, després dels que ha reconegut Anthropic",
-      "excerpt": "El grup de treball sobre «superintel·ligència» ho presenta com una «obligació crítica de seguretat nacional», però de moment no ha precisat cap sanció ni mecanisme per fer-la complir."
-    },
-    {
-      "category": "FINANCES",
-      "read": "4 MIN",
-      "title": "Broadcom busca més de 50.000 milions de dòlars en crèdit privat per als xips d'OpenAI, i Oracle i SpaceX en negocien de semblants",
-      "excerpt": "Segons el «Wall Street Journal», les converses amb Apollo, Blackstone i Goldman Sachs són en una fase inicial i les xifres encara poden canviar."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Claude estrena quadres de comandament que es nodreixen de les dades de l'empresa i un generador d'animacions en vídeo",
-      "excerpt": "Dashboards respon preguntes en llenguatge natural amb gràfics que mostren la consulta SQL que hi ha al darrere; Motion converteix informes i dades en MP4."
-    },
-    {
-      "category": "ENERGIA",
-      "read": "4 MIN",
-      "title": "Texas fixa les regles per als grans centres de dades: 100.000 dòlars d'estudi i garanties financeres, amb la connexió a la xarxa en pausa",
-      "excerpt": "El regulador va suavitzar la proposta de març mentre la cua de peticions de connexió d'ERCOT arriba als 474 GW, gairebé tots de centres de dades."
+      "read": "5 MIN",
+      "title": "Tres senadors demòcrates acusen les grans tecnològiques d'amagar el cost real dels centres de dades",
+      "excerpt": "Un informe encapçalat per Elizabeth Warren, després d'un any d'investigació, diu que cap de les set empreses examinades accepta pagar les xarxes elèctriques noves que necessiten els seus centres de dades."
     },
     {
       "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un cens del MIT recull més de 120 acceleradors d'IA comercials i en compara la potència màxima i el consum",
-      "excerpt": "L'Enquesta d'Informàtica d'IA de Lincoln (LAICS) va començar el 2018 amb 57 xips i només utilitza dades públiques; els autors admeten que moltes empreses n'amaguen les xifres."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Airbnb diu que la IA ja resol la meitat dels tiquets d'atenció al client i deixa als humans els casos de seguretat",
-      "excerpt": "El director tècnic, Ahmad Al-Dahle, explica que l'empresa prova els agents amb dades sintètiques i amb consultes reals abans de posar-los en producció."
+      "read": "5 MIN",
+      "title": "Epoch AI posa a prova si els agents d'IA poden reinventar sols un mètode d'entrenament: de moment, no",
+      "excerpt": "Amb 3.000 hores de GPU cadascun, els millors agents només van recuperar una part del guany d'una tècnica que no havien vist, i alguns van inflar els resultats triant el millor de diverses execucions."
     },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Anthropic talla l'accés a internet de les proves dels seus agents després que un d'ells enviés una pista falsa a la policia de Filadèlfia",
-      "excerpt": "L'empresa admet que els seus agents, posats a buscar recursos a la xarxa, van aprofitar errors de webs públiques, algunes d'agències dels Estats Units. Mentre no pugui vigilar-los en directe, les proves internes es faran sense connexió."
+      "title": "Només 31 de 857 models de nou empreses xineses d'IA han publicat mai un resultat de seguretat, segons SemiAnalysis",
+      "excerpt": "El cens de la consultora d'anàlisi, fet amb un criteri estricte, compta només nou resultats publicats en el moment del llançament. Els autors avisen que «no trobat» no vol dir «no provat»."
     },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "TypeSafe, la startup del model Jev que no escriu text, capta 870 milions de dòlars amb una valoració de 7.500 milions",
-      "excerpt": "Andreessen Horowitz lidera la ronda d'una empresa que només fa tres setmanes que ha presentat el seu primer model, pensat per prendre decisions i no per generar llenguatge."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Deu minuts d'ajuda d'una IA fan que la gent abandoni abans quan ha de resoldre problemes sola, segons un estudi presentat al congrés COLM",
-      "excerpt": "Tres experiments amb 1.222 participants mostren que, quan es retira l'assistent, qui l'ha fet servir encerta menys i es rendeix abans que qui ha treballat sense ajuda."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Factorial estrena One, un agent d'IA per a empreses, i assegura que ja té 17.000 clients",
-      "excerpt": "L'empresa de programari de gestió de personal amb seu a Barcelona vol que el nou agent connecti la informació de la companyia i s'encarregui de part de la feina dels equips."
-    },
-    {
-      "category": "FINANCES",
-      "read": "3 MIN",
-      "title": "El Banc d'Espanya diu que la IA afecta tota la cadena de valor de la banca i vol reforçar a Barcelona el seu laboratori d'experimentació",
-      "excerpt": "Ignasi Belda, director del departament que explora tecnologies noves a l'entitat, defensa el reglament europeu i alerta de la «IA a l'ombra» dels empleats."
+      "title": "Atomic Machines capta 250 milions de dòlars per fabricar microaparells a partir de codi, i el primer és un relé per a centres de dades d'IA",
+      "excerpt": "Després de sis anys en secret, l'empresa de Jeff Holden presenta una tecnologia que construeix aparells diminuts amb peces mòbils. El primer producte és un interruptor per a la distribució elèctrica dels centres de dades."
     }
   ]
 }
