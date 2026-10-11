@@ -202,6 +202,16 @@ async function normalitza(bytes, m) {
   }
 }
 
+// Una imatge gairebé d'un sol color (un fons buit, 11.10.2026: La Salle) no és
+// cap cartell. Només es pot mirar amb sharp; sense, es dona per bona.
+export async function gairebeBuida(bytes) {
+  try {
+    const { default: sharp } = await import('sharp');
+    const { channels } = await sharp(Buffer.from(bytes)).stats();
+    return channels.slice(0, 3).every(c => c.stdev < 10);
+  } catch { return false; }
+}
+
 async function existeix(ruta) {
   try { await access(ruta); return true; } catch { return false; }
 }
@@ -223,6 +233,7 @@ async function recull(acte, clau, { fixtures }) {
   const m = mides(bytes);
   const motiu = acceptable(m);
   if (motiu) throw new Error(motiu);
+  if (await gairebeBuida(bytes)) throw new Error('imatge gairebé buida (d\'un sol color)');
   const final = await normalitza(bytes, m);
   return { pagina: pagina || urlHttps(acte.url), font, ...final };
 }
