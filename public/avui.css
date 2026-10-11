@@ -1,0 +1,23 @@
+/* L'edició d'avui (/avui, 11.10.2026): totes les notícies del dia en una llista.
+   Full propi de la pàgina; fa servir els tokens de editorial.css. */
+.avui-llista { margin: 40px 0 0; padding: 0; list-style: none; }
+.avui-peca { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 28px; padding: 28px 0; border-top: 1px solid var(--ed-line); }
+.avui-peca:last-child { border-bottom: 1px solid var(--ed-line); }
+.avui-peca:first-child { border-top: 0; }
+.avui-peca__foto { position: relative; display: block; aspect-ratio: 3 / 2; overflow: hidden; border-radius: 16px; background: var(--ed-blue-soft); }
+.avui-peca__foto img { width: 100%; height: 100%; object-fit: cover; transition: transform .45s; }
+.avui-peca:hover .avui-peca__foto img { transform: scale(1.04); }
+.avui-peca__foto span { position: absolute; top: 10px; left: 10px; padding: 2px 8px; border-radius: 7px; color: #fff; background: rgba(17, 24, 39, .78); font: 600 12px var(--ed-mono); }
+.avui-peca__meta { margin: 2px 0 8px; color: var(--ed-blue); font: 600 12px var(--ed-mono); letter-spacing: .06em; text-transform: uppercase; }
+.avui-peca__titol { margin: 0; font: 500 clamp(22px, 2.2vw, 28px)/1.15 var(--ed-serif); letter-spacing: -.01em; }
+.avui-peca__titol a { color: var(--ed-ink); text-decoration: none; }
+.avui-peca__titol a:hover { color: var(--ed-blue); }
+.avui-peca__entradeta { max-width: 760px; margin: 10px 0 0; color: var(--ed-muted); font-size: 16px; line-height: 1.55; }
+.avui-peca__font { margin: 10px 0 0; color: var(--ed-muted); font-size: 14px; }
+.avui-peca__font a { color: var(--ed-blue); }
+
+@media (max-width: 700px) {
+  .avui-peca { grid-template-columns: 1fr; gap: 14px; padding: 22px 0; }
+  .avui-peca__titol { font-size: 23px; }
+  .avui-peca__entradeta { font-size: 15px; }
+}

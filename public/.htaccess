@@ -97,6 +97,8 @@ RewriteRule ^club-de-lectura/?$ club-de-lectura.php [L,QSA]
 RewriteRule ^videos/?$ videos.php [L,QSA]
 # Ressò de premsa (10.10.2026): dades a data/premsa.json, generades pel workflow premsa.yml.
 RewriteRule ^premsa/?$ premsa.php [L,QSA]
+# L'edició d'avui (11.10.2026): totes les notícies del dia juntes (data/articles.json).
+RewriteRule ^avui/?$ avui.php [L,QSA]
 RewriteRule ^club-de-lectura/([a-z0-9-]+)/?$ club-de-lectura.php?llibre=$1 [L,QSA]
 RewriteRule ^llengua/?$ llengua.php [L,QSA]
 RewriteRule ^correccions/?$ correccions.php [L,QSA]
