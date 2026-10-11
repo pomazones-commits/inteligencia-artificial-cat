@@ -32,7 +32,7 @@
   border-radius: 999px;
   color: var(--ink);
   background: #fff1c9;
-  font: 600 9px var(--mono);
+  font: 600 12px var(--mono);
   letter-spacing: .06em;
   text-transform: uppercase;
 }
@@ -56,7 +56,7 @@
 .premsa-llista > .premsa-peca--destacada:first-child { margin-top: 14px; }
 .premsa-peca--destacada { grid-column: 1 / -1; padding: 20px 22px; margin: 4px 0 10px; border: 0; border-radius: 22px; background: var(--ink); color: #fff; }
 
-.premsa-peca__meta { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; margin: 0 0 6px; color: var(--muted); font: 500 10px var(--mono); letter-spacing: .06em; text-transform: uppercase; }
+.premsa-peca__meta { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; margin: 0 0 6px; color: var(--muted); font: 500 12px var(--mono); letter-spacing: .05em; text-transform: uppercase; }
 .premsa-peca__meta strong { color: #a33127; font-weight: 700; }
 .premsa-peca__llengua { padding: 1px 7px; border-radius: 999px; background: #eef0f6; color: #4d566d; }
 
@@ -66,7 +66,7 @@
 .premsa-peca__fora { color: var(--muted); font-family: var(--sans); font-size: .75em; }
 
 .premsa-peca__comentari { margin: 10px 0 0; color: #c9cfe6; font-size: 14px; line-height: 1.55; }
-.premsa-peca__comentari span { display: inline-block; margin-right: 6px; padding: 2px 8px; border-radius: 999px; color: var(--ink); background: var(--lime); font: 600 9px/1.6 var(--mono); letter-spacing: .08em; text-transform: uppercase; vertical-align: 1px; }
+.premsa-peca__comentari span { display: inline-block; margin-right: 6px; padding: 2px 8px; border-radius: 999px; color: var(--ink); background: var(--lime); font: 600 11px/1.6 var(--mono); letter-spacing: .08em; text-transform: uppercase; vertical-align: 1px; }
 
 .premsa-peca__nostra { display: inline-block; margin-top: 8px; color: var(--blue); font-size: 13px; font-weight: 600; text-decoration: none; }
 .premsa-peca__nostra::before { content: "→ "; }

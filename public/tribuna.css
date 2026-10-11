@@ -57,7 +57,7 @@
 .tribuna-byline {
   margin: 0 0 24px;
   color: var(--lime);
-  font: 600 10px var(--mono);
+  font: 600 12px var(--mono);
   text-transform: uppercase;
   letter-spacing: .08em;
 }
@@ -69,8 +69,12 @@
   border-radius: 999px;
   color: var(--ink);
   background: #fff;
-  font: 600 9px var(--mono);
-  text-transform: uppercase;
+  min-height: 46px;
+  align-items: center;
+  padding-inline: 22px;
+  font: 600 15px var(--sans);
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 /* Entitat de l'autor enllaçada dins del byline (01.10.2026): no és un botó. */

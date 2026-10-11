@@ -20,14 +20,14 @@
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="alternate" type="application/rss+xml" title="intel·ligènciaartificial.cat — notícies" href="./feed.xml">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","description":"Notícies, anàlisi i context sobre intel·ligència artificial, en català.","publishingPrinciples":"https://inteligencia-artificial.cat/redaccio.html"},{"@type":"WebSite","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","inLanguage":"ca"}]}</script>
-  <link rel="stylesheet" href="./portada.css?v=2026092101">
-  <link rel="stylesheet" href="./tribuna.css?v=2026100101b">
-  <link rel="stylesheet" href="./estudis.css?v=2026073002">
-  <link rel="stylesheet" href="./reflexio.css?v=2026080403">
-  <link rel="stylesheet" href="./xarxes-peu.css?v=2026080501">
-  <link rel="stylesheet" href="./cartell.css?v=2026101101">
-  <link rel="stylesheet" href="./premsa.css?v=2026101001">
-  <script defer src="./app.js?v=2026100101b"></script>
+  <link rel="stylesheet" href="./portada.css?v=2026101101">
+  <link rel="stylesheet" href="./tribuna.css?v=2026101101">
+  <link rel="stylesheet" href="./estudis.css?v=2026101101">
+  <link rel="stylesheet" href="./reflexio.css?v=2026101101">
+  <link rel="stylesheet" href="./xarxes-peu.css?v=2026101101">
+  <link rel="stylesheet" href="./cartell.css?v=2026101101b">
+  <link rel="stylesheet" href="./premsa.css?v=2026101101">
+  <script defer src="./app.js?v=2026101101"></script>
   <script defer src="./cartell.js?v=2026101101"></script>
   <script defer src="./premsa.js?v=2026101001"></script>
 </head>
@@ -93,26 +93,20 @@
   </header>
 
   <main id="contingut">
+    <!-- 11.10.2026: capçalera compacta. Les notícies entren a la primera pantalla;
+         la imatge del dia passa a la seva pròpia banda, sota «En moviment». -->
     <section class="shell edition-heading" id="portada" aria-labelledby="edition-title">
       <div class="edition-copy">
         <p class="edition-kicker">Edició del dia · <span id="edition-count">&nbsp;</span> · Actualitzada a les <span id="edition-time">&nbsp;</span></p>
-        <h1 id="edition-title"><span>Intel·ligència</span><span>artificial,</span><em>al dia.</em></h1>
+        <h1 id="edition-title"><span>Intel·ligència</span> <span>artificial,</span> <em>al dia.</em></h1>
+      </div>
+      <div class="edition-side">
         <p class="edition-intro">El briefing català per a qui vol entendre què ha canviat avui, què vindrà demà i què val la pena provar.</p>
         <div class="edition-actions">
           <a href="#ultima-hora">Comença el briefing <span>↓</span></a>
           <button type="button" id="focus-mode" aria-pressed="false"><i></i> Mode focus</button>
         </div>
       </div>
-      <figure class="daily-visual" id="daily-visual" aria-labelledby="daily-visual-title">
-        <img id="daily-visual-image" src="./assets/daily-reflection-2026-07-17.jpg" alt="Un investigador jove i una dona gran conversen davant d’un ordinador en una biblioteca de Barcelona.">
-        <span class="daily-visual__date" id="daily-image-date">Imatge del dia</span>
-        <figcaption>
-          <p id="daily-visual-kicker">IA × Societat</p>
-          <h2 id="daily-visual-title">Aprendre junts continua sent la tecnologia més poderosa</h2>
-          <p id="daily-visual-caption">La intel·ligència artificial guanya sentit quan amplia una conversa, no quan la substitueix.</p>
-          <small id="daily-visual-credit">Imatge editorial generada amb IA</small>
-        </figcaption>
-      </figure>
     </section>
 
     <section class="shell lead-layout" id="ultima-hora" aria-label="Notícies destacades del dia">
@@ -136,6 +130,19 @@
         <h2 id="latest-title">En moviment</h2>
         <ol id="latest-list" class="latest-list"></ol>
       </aside>
+    </section>
+
+    <section class="shell daily-visual-band" aria-label="Imatge del dia">
+      <figure class="daily-visual" id="daily-visual" aria-labelledby="daily-visual-title">
+        <img id="daily-visual-image" src="./assets/daily-reflection-2026-07-17.jpg" alt="Un investigador jove i una dona gran conversen davant d’un ordinador en una biblioteca de Barcelona.">
+        <figcaption>
+          <span class="daily-visual__date" id="daily-image-date">Imatge del dia</span>
+          <p id="daily-visual-kicker">IA × Societat</p>
+          <h2 id="daily-visual-title">Aprendre junts continua sent la tecnologia més poderosa</h2>
+          <p id="daily-visual-caption">La intel·ligència artificial guanya sentit quan amplia una conversa, no quan la substitueix.</p>
+          <small id="daily-visual-credit">Imatge editorial generada amb IA</small>
+        </figcaption>
+      </figure>
     </section>
 
     <!-- 10.10.2026: cartell de l'acte destacat de l'agenda (cartell.js + cartell.css,
