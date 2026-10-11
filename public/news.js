@@ -1,5 +1,68 @@
 window.IA_NEWS = [
   {
+    "category": "SOCIETAT",
+    "read": "4 MIN",
+    "slug": "google-vizag-centre-dades-15000-milions-veins",
+    "title": "Veïns de Visakhapatnam, a l'Índia, qüestionen el centre de dades de 15.000 milions de dòlars que hi construeix Google",
+    "excerpt": "La inversió més gran de Google fora dels Estats Units ocupa 243 hectàrees d'una ciutat amb problemes d'aigua. L'empresa promet refrigeració per aire; els veïns demanen una auditoria independent.",
+    "sourceName": "AFP (via Tech Xplore)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-google-backlash-india-center.html",
+    "sourceDate": "11 d'octubre de 2026",
+    "body": "Visakhapatnam, a la costa sud-est de l'Índia, és una ciutat portuària on arriben cables submarins d'internet que la uneixen amb Singapur. Hi és en obres el que Google presenta com el seu centre de dades més gran fora dels Estats Units: una inversió de 15.000 milions de dòlars en un solar de 243 hectàrees (600 acres) on les excavadores ja netegen bosc i terres de conreu, segons un reportatge de l'agència AFP publicat l'11 d'octubre.\n\nEls veïns i els activistes temen que el complex tensioni encara més l'aigua i l'electricitat, en una ciutat que ja té escassetat d'aigua, i consideren que oferirà massa poques feines locals. Reclamen una moratòria a tot l'estat per als centres de dades nous fins que es publiquin avaluacions independents de l'impacte ambiental i social, i un activista demana una auditoria independent de l'aigua. Una pagesa explica que va rebre més de 82.000 dòlars per dues acres, i una associació immobiliària local xifra en més d'un 45% de mitjana la pujada dels preus del sòl des que es va anunciar el projecte.\n\nGoogle respon que el centre farà servir refrigeració per aire en comptes de sistemes que consumeixen molta aigua, i calcula 688 milions de dòlars d'activitat econòmica local l'any i uns 4.200 llocs de feina durant la construcció; quan funcioni, el 2028, preveu centenars de llocs especialitzats. El Govern d'Andhra Pradesh afirma que compensa i reallotja les persones que vivien al solar i espera 188.000 feines directes i indirectes a tot l'estat. També preveu sis centrals nuclears d'1,2 gigawatts, i el ministre de Tecnologia, Nara Lokesh, assegura que les necessitats residencials passaran davant les dels centres de dades.\n\nEl cas mostra una tensió que ja apareix en altres llocs: per exemple, una autoritat finlandesa va ordenar aturar les obres de dos emplaçaments de Google fins a tenir avaluacions ambientals. Cal tenir present que les xifres d'ocupació, d'activitat econòmica i de consum d'aigua són projeccions de l'empresa i del govern, no mesures independents, i que el reportatge no recull cap dada sobre la demanda elèctrica concreta del complex.",
+    "image": "./assets/google-vizag-centre-dades-15000-milions-veins-20261011.jpg",
+    "etiquetes": [
+      "centres-de-dades"
+    ]
+  },
+  {
+    "category": "TECNOLOGIA",
+    "read": "3 MIN",
+    "slug": "agents-ia-missatgeria-22-assistents-imessage-whatsapp",
+    "title": "Una vintena d'agents d'IA ja treballen dins d'iMessage, WhatsApp o SMS, i un d'ells val 10.000 milions de dòlars",
+    "excerpt": "TechCrunch n'ha comptat 22 que responen als missatges, al correu i al calendari. Els preus van de gratuït a 100 dòlars al mes, i la privadesa és el gran punt de divergència.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "sourceDate": "10 d'octubre de 2026",
+    "body": "L'assistent d'IA ja no és només una aplicació a part: cada cop més sovint és un contacte més a la llista de converses. TechCrunch ha fet un repàs de 22 agents d'IA que viuen dins de plataformes de missatgeria com iMessage, SMS, RCS, WhatsApp, Telegram, Signal, WeChat o Slack, i que sovint també es connecten amb Gmail, Outlook, Google Calendar o Google Drive.\n\nEl més destacat és Instinct, que va aixecar 1.000 milions de dòlars el setembre amb una valoració de 10.000 milions, quan en la ronda anterior en valia 2.500. Tab ha sortit aquest octubre amb una valoració de 300 milions, Town va captar 55 milions de dòlars de sèrie A al juny amb Andreessen Horowitz i Forerunner, i l'empresa matriu de Poke va ser adquirida per Cognition en una operació de baix nou xifres. Els preus que cita el mitjà van de les opcions gratuïtes o de codi obert, com Comma, fins als plans d'Ollie, de 25 dòlars al mes per 150 missatges a 100 per 1.000.\n\nAllò que els diferencia més és com tracten les dades. Underdog fa funcionar el model íntegrament al dispositiu de l'usuari; Folk treballa en un ordinador al núvol privat; Ollie diu que compleix la norma de seguretat SOC 2, i Wajo dona al seu agent una adreça de correu, un telèfon i una targeta de pagament propis perquè l'usuari no hagi de compartir les credencials amb les empreses. Sobre Instinct, en canvi, el mitjà recorda que la seva gran autonomia ha despertat dubtes de privadesa i seguretat.\n\nConvé llegir-ho amb prudència: és un repàs periodístic i no una comparativa de qualitat, i les valoracions són les que declaren les empreses i els seus inversors. El que sí que s'hi veu és la direcció del mercat: portar l'agent allà on la gent ja parla, amb el risc afegit que un assistent amb accés al correu, al calendari i als pagaments és també una porta d'entrada per als atacants.",
+    "image": "./assets/agents-ia-missatgeria-22-assistents-imessage-whatsapp-20261011.jpg"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "crunchbase-tercer-trimestre-2026-capital-risc-ia-159000",
+    "title": "El capital risc va posar 102.000 milions de dòlars en empreses d'IA el tercer trimestre, el 64% del total mundial",
+    "excerpt": "Segons Crunchbase, 27 empreses van aixecar rondes de més de 1.000 milions, un rècord, i van concentrar un terç de tot el capital. Però el total baixa un 25% respecte del trimestre anterior.",
+    "sourceName": "Crunchbase News",
+    "sourceUrl": "https://news.crunchbase.com/venture/q3-2026-global-startup-funding-ai-billion-dollar-rounds-exits-data/",
+    "sourceDate": "5 d'octubre de 2026",
+    "body": "La plataforma de dades Crunchbase ha publicat el balanç del tercer trimestre del 2026: les empreses emergents del món van captar 159.000 milions de dòlars, repartits entre prop de 6.000 companyies. És un 25% menys que els 212.000 milions del segon trimestre, però un 53% més que fa un any, i els nou primers mesos de l'any sumen 679.000 milions, la xifra més alta d'un començament d'any.\n\nLa intel·ligència artificial s'hi emporta la part principal: les empreses d'IA van captar 102.000 milions, el 64% del total, encara que aquesta proporció és més baixa que en els dos trimestres anteriors. Un rècord de 27 empreses van tancar rondes d'almenys 1.000 milions (eren 16 al segon trimestre i 14 al primer) i van acaparar un terç del capital. Databricks i Safe Superintelligence van aixecar 5.000 milions cadascuna, i Crusoe, Moonshot AI, Mistral AI, Nscale, The Boring Co. i Kling AI van superar els 3.000 milions.\n\nPel que fa a la geografia, les empreses dels Estats Units van captar 91.000 milions, el 57% del total mundial, i només la regió de la badia de San Francisco en va concentrar el 24%. Entre les sortides a borsa més grans hi ha ChangXin Memory Technologies (8.600 milions) i, entre les adquisicions, la d'Hugging Face per part de Nvidia (12.900 milions), la de World Labs per AMD (8.200 milions) i la d'OpenRouter per Stripe (7.500 milions), tal com les recull Crunchbase.\n\nConvé no llegir-ho com una pujada sense matisos: el trimestre és més fluix que l'anterior i el capital es concentra en pocs noms, de manera que la mitjana amaga que la gran majoria d'empreses reben molt menys. Les xifres són estimacions de Crunchbase a data de l'2 d'octubre i poden variar quan es registrin més operacions.",
+    "image": "./assets/crunchbase-tercer-trimestre-2026-capital-risc-ia-159000-20261011.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "5 MIN",
+    "slug": "koc-xarxa-neuronal-fotonica-laser-fibra-classificacio",
+    "title": "Un equip turc fa que la llum faci part del càlcul d'una IA i classifica imatges amb un encert del 85% al 99%",
+    "excerpt": "Dos treballs de la Universitat Koç, publicats a Communications Engineering i Communications Physics, processen imatges amb òptica abans de passar-les a un classificador senzill.",
+    "sourceName": "Communications Engineering / Tech Xplore",
+    "sourceUrl": "https://www.nature.com/articles/s44172-026-00762-w",
+    "sourceDate": "10 d'octubre de 2026",
+    "body": "Entrenar i fer funcionar xarxes neuronals gasta molta electricitat, i una de les vies que estudia la recerca és fer que part del càlcul el faci la llum en lloc dels circuits electrònics. L'equip d'Uğur Teğin, professor de la Universitat Koç, a Istanbul, ha publicat dos treballs revisats per parells en aquesta línia, segons ha explicat la universitat a través de Tech Xplore el 10 d'octubre.\n\nEn el primer, a Communications Engineering, les imatges en color es codifiquen en un dispositiu que controla la llum de manera programable, i els canals vermell, verd i blau es processen junts, sense passar-los a grisos. Una càmera registra el patró òptic resultant, que es fa servir per classificar. En una prova amb malalties de la pell, l'encert va passar del 68% amb els píxels en brut al 98% després del processament òptic. El sistema aprèn a partir de mesures experimentals, de manera que pot compensar desalineacions i imperfeccions de fabricació sense un model informàtic perfecte.\n\nEl segon treball, a Communications Physics, fa servir un làser de fibra multimode com a processador físic: la imatge es codifica en la llum i la dinàmica del làser fa part del càlcul, abans que un classificador senzill n'interpreti la sortida. L'encert va anar del 85% al 99% segons els conjunts de dades, que incloïen residus reciclables, meteorologia i imatges de satèl·lit, retines i lesions cutànies, amb molts menys paràmetres entrenables que els models d'aprenentatge profund convencionals.\n\nEls límits són importants: els dos sistemes continuen depenent de components electrònics, com ara càmeres i unitats de control, i l'estalvi d'energia es presenta com una possibilitat futura, no com una mesura feta; l'article tampoc no dona un recompte exacte de paràmetres. Per això és un resultat de laboratori prometedor més que una alternativa llesta per substituir els xips actuals.",
+    "image": "./assets/koc-xarxa-neuronal-fotonica-laser-fibra-classificacio-20261011.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "4 MIN",
+    "slug": "cispa-marques-daigua-imatges-model-entrenament",
+    "title": "Les marques d'aigua de les imatges d'IA no duren igual: algunes desapareixen quan un altre model s'entrena amb aquestes imatges",
+    "excerpt": "Un estudi del centre alemany CISPA, presentat en un congrés de l'ACM, prova quatre mètodes i dues arquitectures. BitMark és el que resisteix millor.",
+    "sourceName": "CISPA / Tech Xplore",
+    "sourceUrl": "https://techxplore.com/news/2026-10-ai-image-watermarks-survive-durability.html",
+    "sourceDate": "9 d'octubre de 2026",
+    "body": "Les marques d'aigua invisibles s'han proposat com a manera d'identificar les imatges fetes amb IA, però hi ha un problema pràctic: si aquestes imatges serveixen per entrenar un altre model, la marca sobreviu? Michel Meintz, del laboratori SprintML del centre CISPA Helmholtz de seguretat de la informació, ha presentat la resposta a l'Workshop d'Ocultació d'Informació i Seguretat Multimèdia de l'ACM (IH&MMSec 2026), a Florència, amb el treball «Watermark Degradation Across Model Iterations».\n\nEl mètode és simple: un primer model genera imatges amb marca d'aigua, un segon model s'entrena amb aquestes imatges i es comprova si les que genera a continuació encara porten la marca. L'estudi n'ha provat quatre —TrustMark, StableSignature, TreeRing i BitMark— en dos tipus de models, els de difusió i els autoregressius, i la detecció s'ha fet amb una anàlisi estadística conjunta de conjunts d'imatges, no de cada imatge per separat.\n\nEl resultat és que la durabilitat varia molt: alguns mètodes perden el senyal després d'un sol cicle d'entrenament i d'altres es mantenen detectables molt més temps. BitMark va ser el més resistent: en el model Infinity-2B, la marca es detectava de manera fiable amb només l'1% de les dades d'entrenament marcades. Segons Meintz, el comportament depèn alhora del mètode de marcatge i de l'arquitectura del model.\n\nHi ha límits clars. La detecció necessita un conjunt d'imatges i no serveix per a una de sola, perquè això exigiria un senyal molt més fort; BitMark es va dissenyar només per a Infinity i no se sap si funciona en altres arquitectures, i el fet que cada proveïdor faci servir marques incompatibles dificulta filtrar les dades sintètiques de tota la indústria. Els detalls de mostra i condicions s'han de comprovar a l'article complet, que aquí només coneixem a través del resum de Tech Xplore.",
+    "image": "./assets/cispa-marques-daigua-imatges-model-entrenament-20261011.jpg"
+  },
+  {
     "category": "EMPRESES",
     "read": "3 MIN",
     "slug": "apple-huxe-contractacio-equip-llicencia-tecnologia-udio",
