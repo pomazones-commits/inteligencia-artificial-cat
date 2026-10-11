@@ -25,44 +25,10 @@
 
 .reflexio-layout {
   display: grid;
-  grid-template-columns: minmax(260px, 420px) minmax(0, 1fr);
+  grid-template-columns: 118px minmax(0, 1fr);
   gap: 40px;
   align-items: stretch;
 }
-
-/* 11.10.2026: imatge fixa de la secció a l'esquerra (abans hi havia només la
-   data en vertical). La data passa a una etiqueta damunt de la imatge. */
-.reflexio-segell {
-  position: relative;
-  align-self: center;
-  margin: 0;
-  padding: 32px 0 32px 32px;
-}
-.reflexio-segell img {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 745 / 355;
-  object-fit: cover;
-  border-radius: 22px;
-  box-shadow: 0 14px 34px rgba(17, 21, 38, .14);
-}
-.reflexio-segell .reflexio-mark {
-  position: absolute;
-  top: 46px;
-  right: 14px;
-  margin: 0;
-  padding: 4px 10px;
-  border: 0;
-  border-radius: 999px;
-  color: #a33127;
-  background: rgba(255, 255, 255, .92);
-  font: 600 12px var(--mono);
-  letter-spacing: .08em;
-  writing-mode: horizontal-tb;
-  transform: none;
-}
-.reflexio-segell .reflexio-mark:empty { display: none; }
 
 .reflexio-mark {
   align-self: stretch;
@@ -173,9 +139,6 @@
     transform: none;
     font-size: 13px;
   }
-  .reflexio-segell { padding: 20px 20px 0; }
-  .reflexio-segell img { border-radius: 18px; }
-  .reflexio-segell .reflexio-mark { top: 32px; right: 32px; padding: 3px 9px; font-size: 12px; }
   .reflexio-copy { padding: 18px 24px 34px; }
   .reflexio-copy h2 { font-size: 30px; }
 }
