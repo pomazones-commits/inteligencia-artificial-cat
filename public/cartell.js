@@ -8,18 +8,23 @@
      - Si AVUI hi ha més d'un acte gran en marxa (congrés, jornada, fira o
        hackató, o un de «destacat»), surten tots en un carrusel que en canvia
        cada 5 segons (màxim 6; primer els destacats i les hackatons).
-     - Si no, un sol cartell: el primer «destacat» que encara no s'ha acabat; si
-       no n'hi ha, la primera hackató dels propers 45 dies; si tampoc, el primer
-       congrés, jornada o fira dels propers 21 dies.
+     - Si no, un sol cartell: l'acte gran MÉS PROPER dels propers 60 dies
+       (11.10.2026: abans les hackatons i els «destacat» passaven davant de
+       tot, i la portada anunciava una hackató del 7 de novembre amb congressos
+       a dos dies vista). «destacat» i hackató ara només desempaten quan dos
+       actes comencen el mateix dia; «destacat» també fa gran un acte petit.
    Un acte surt sol del cartell l'endemà que s'acaba (es compara amb el camp
    "fi" a l'hora de Barcelona): no cal tocar res. Si no queda cap acte, la banda
    s'amaga. Al costat, els propers actes.
    El carrusel s'atura quan el ratolí o el focus són a sobre, quan la pestanya
    no es veu i, del tot, si el lector té demanat «menys moviment» al sistema.
 
-   El cartell és disseny propi (HTML i CSS): no fem servir el cartell oficial de
-   l'organitzador, que té drets. Si un organitzador ens en dona permís, es pot
-   posar la seva imatge al camp opcional "cartell" (ruta /assets/...). Amb
+   Cartell original (11.10.2026, a petició d'en Rafael): si tenim la imatge
+   oficial de l'acte, surt sencera al costat del text, amb el crèdit de
+   l'organitzador. La recull sola automation/scripts/recull-cartells.mjs
+   (workflow cartells.yml) a /data/cartells.json i /assets/cartells/; el camp
+   "cartell" de l'agenda (ruta /assets/...) hi té preferència i "cartell": false
+   la treu. Sense imatge, el cartell és de disseny propi (HTML i CSS). Amb
    "inscripcions": "tancades" (o si l'acte ja ha començat) el botó diu «Web de
    l'acte» en lloc d'«Inscripcions i bases».
    Banda pròpia amb CSS propi (cartell.css): no es toca portada.css. */
@@ -67,21 +72,28 @@
   const GRANS = new Set(['congrés', 'jornada', 'fira', 'hackató']);
   const PAS_MS = 5000;
   const MAX_DIAPOS = 6;
+  const HORITZO = 60;
+  const esGran = a => GRANS.has(a.tipus) || a.destacat === true;
+  const desempat = (a, b) => (b.destacat === true) - (a.destacat === true) || (b.tipus === 'hackató') - (a.tipus === 'hackató');
 
+  // La mateixa clau que automation/scripts/recull-cartells.mjs (clauActe).
+  const clauActe = a => `${a.inici}-${String(a.titol || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60).replace(/-+$/g, '')}`;
+
+  // L'acte gran més proper (els actes ja venen ordenats per data d'inici).
   function tria(actes, avui) {
-    const dinsDe = (a, dies) => (dataUtc(a.inici) - dataUtc(avui)) / DIA <= dies;
-    return actes.find(a => a.destacat === true)
-      || actes.find(a => a.tipus === 'hackató' && dinsDe(a, 45))
-      || actes.find(a => ['congrés', 'jornada', 'fira'].includes(a.tipus) && dinsDe(a, 21))
-      || null;
+    const dinsDe = a => (dataUtc(a.inici) - dataUtc(avui)) / DIA <= HORITZO;
+    const llista = actes.filter(a => esGran(a) && dinsDe(a));
+    if (!llista.length) return null;
+    return llista.filter(a => a.inici === llista[0].inici).sort(desempat)[0];
   }
 
   // Els actes del cartell: tots els grans que són en marxa avui (si n'hi ha més
   // d'un, fan carrusel) o, si no, l'únic que tria la regla de sempre.
   function diapositives(actes, avui) {
     const avuiMateix = actes
-      .filter(a => a.inici <= avui && avui <= a._fi && (GRANS.has(a.tipus) || a.destacat === true))
-      .sort((a, b) => (b.destacat === true) - (a.destacat === true) || (b.tipus === 'hackató') - (a.tipus === 'hackató') || a.inici.localeCompare(b.inici));
+      .filter(a => a.inici <= avui && avui <= a._fi && esGran(a))
+      .sort((a, b) => desempat(a, b) || a.inici.localeCompare(b.inici));
     if (avuiMateix.length > 1) return avuiMateix.slice(0, MAX_DIAPOS);
     const una = tria(actes, avui);
     return una ? [una] : [];
@@ -94,12 +106,23 @@
     const enMarxa = acte.inici <= avui && avui <= acte._fi;
     const tancades = enMarxa || acte.inscripcions === 'tancades';
     const xips = [acte.format, acte.preu, acte.inscripcions === 'tancades' ? 'inscripcions tancades' : ''].filter(Boolean).map(x => `<span>${esc(x)}</span>`).join('');
-    const imatge = imatgeLocal(acte.cartell);
+    const original = acte._original;
     const idTitol = `cartell-titol-${i}`;
     const carrusel = total > 1;
+    const credit = original ? (acte.organitza || original.organitza || '') : '';
+    // Vertical o quadrat → columna al costat del text; apaïsat → a dalt, sencer.
+    const amp = Number(original?.amplada) || 0;
+    const alc = Number(original?.alcada) || 0;
+    const vertical = amp > 0 && alc >= amp * 0.9;
     return `
-        <article class="cartell-poster${imatge ? ' cartell-poster--imatge' : ''}${carrusel ? ' cartell-diapo' : ''}${i === 0 ? ' is-active' : ''}" aria-labelledby="${idTitol}"${carrusel ? ` role="group" aria-roledescription="diapositiva" aria-label="${i + 1} de ${total}"${i === 0 ? '' : ' aria-hidden="true" inert'}` : ''}>
-          ${imatge ? `<img class="cartell-poster__img" src="${esc(imatge)}" alt="" loading="lazy">` : '<div class="cartell-poster__trama" aria-hidden="true"></div>'}
+        <article class="cartell-poster${original ? ` cartell-poster--original${vertical ? ' cartell-poster--vertical' : ''}` : ''}${carrusel ? ' cartell-diapo' : ''}${i === 0 ? ' is-active' : ''}" aria-labelledby="${idTitol}"${carrusel ? ` role="group" aria-roledescription="diapositiva" aria-label="${i + 1} de ${total}"${i === 0 ? '' : ' aria-hidden="true" inert'}` : ''}>
+          <div class="cartell-poster__trama" aria-hidden="true"></div>
+          ${original ? `<figure class="cartell-poster__obra">
+            <div class="cartell-poster__marc" style="--fons:url('${esc(original.imatge)}');--proporcio:${amp && alc ? `${amp} / ${alc}` : '16 / 9'}">
+              <img src="${esc(original.imatge)}"${amp && alc ? ` width="${amp}" height="${alc}"` : ''} alt="Cartell oficial: ${esc(acte.titol)}" loading="${i === 0 ? 'eager' : 'lazy'}" decoding="async">
+            </div>
+            <figcaption>Cartell oficial${credit ? ` · ${esc(credit)}` : ''}</figcaption>
+          </figure>` : ''}
           <div class="cartell-poster__cap">
             <p class="cartell-poster__tipus">${esc(tipus)}</p>
             <p class="cartell-poster__compte">${esc(compteEnrere(acte.inici, acte._fi, avui))}</p>
@@ -216,21 +239,28 @@
     arrenca();
   }
 
-  fetch('/data/agenda.json', { cache: 'no-cache' })
-    .then(r => (r.ok ? r.json() : null))
-    .then(dades => {
+  const llegeix = url => fetch(url, { cache: 'no-cache' }).then(r => (r.ok ? r.json() : null)).catch(() => null);
+  Promise.all([llegeix('/data/agenda.json'), llegeix('/data/cartells.json')])
+    .then(([dades, recull]) => {
+      const cartells = recull && typeof recull.cartells === 'object' ? recull.cartells : {};
       const avui = avuiIso();
       const actes = (Array.isArray(dades?.actes) ? dades.actes : [])
         .filter(a => a && a.titol && valida(a.inici) && a.tipus !== 'convocatòria')
         .map(a => ({ ...a, _fi: valida(a.fi) && a.fi >= a.inici ? a.fi : a.inici }))
         .filter(a => a._fi >= avui)
         .sort((a, b) => a.inici.localeCompare(b.inici));
+      // Cartell original: el camp "cartell" de l'agenda o el recollit a cartells.json.
+      for (const a of actes) {
+        const propi = imatgeLocal(a.cartell);
+        const recollit = a.cartell === false ? null : cartells[clauActe(a)];
+        a._original = propi ? { imatge: propi } : (recollit && imatgeLocal(recollit.imatge) ? recollit : null);
+      }
       const llista = diapositives(actes, avui);
       if (!llista.length) return;
       // Des del 10.10.2026 l'agenda també porta trobades, cursos i webinars (un
       // centenar d'actes): a la portada, només els grans (congressos, jornades,
       // fires i hackatons). La resta és a /agenda.
-      pinta(llista, actes.filter(a => !llista.includes(a) && GRANS.has(a.tipus)).slice(0, 4), avui);
+      pinta(llista, actes.filter(a => !llista.includes(a) && esGran(a)).slice(0, 4), avui);
     })
     .catch(() => {});
 })();

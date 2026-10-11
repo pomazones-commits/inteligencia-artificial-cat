@@ -237,3 +237,62 @@
 @media (prefers-reduced-motion: reduce) {
   .cartell-diapo, .cartell-diapo.is-active, .cartell-punt { transition: none; transform: none; }
 }
+
+/* ——— Cartell original de l'acte (11.10.2026) ———
+   Quan tenim la imatge oficial (public/data/cartells.json o el camp "cartell"
+   de l'agenda), surt SENCERA —mai retallada: porta text a dins— sobre un fons
+   fet amb la mateixa imatge desenfocada, i el text del nostre cartell queda al
+   costat (cartells verticals o quadrats) o a sota (cartells apaïsats). */
+.cartell-poster__obra { grid-area: obra; display: flex; flex-direction: column; gap: 8px; min-width: 0; margin: 0; }
+.cartell-poster__marc {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  aspect-ratio: var(--proporcio, 16 / 9);
+  max-height: 340px;
+  border-radius: 22px;
+  background: #0c0f1d;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, .1);
+}
+.cartell-poster__marc::before {
+  content: "";
+  position: absolute;
+  inset: -30px;
+  z-index: -1;
+  background: var(--fons) center / cover no-repeat;
+  filter: blur(26px) brightness(.5) saturate(1.1);
+}
+.cartell-poster__marc img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.cartell-poster__obra figcaption { color: #a3abc8; font: 600 11px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+
+/* Apaïsat: la imatge a dalt, a l'amplada del cartell. */
+.cartell-poster--original { grid-template-areas: "cap cap" "obra obra" "titol data" "lema lema" "desc desc" "fitxa fitxa" "xips xips" "accions accions"; }
+.cartell-poster--original .cartell-poster__cap { margin-bottom: 18px; }
+.cartell-poster--original .cartell-poster__obra { margin-bottom: 22px; }
+.cartell-poster--original .cartell-poster__titol { font-size: clamp(30px, 3.6vw, 48px); }
+.cartell-poster--original .cartell-poster__data strong { font-size: clamp(40px, 4.8vw, 66px); }
+
+/* Vertical o quadrat: columna a l'esquerra, d'alt a baix. */
+.cartell-poster--vertical {
+  grid-template-columns: minmax(190px, .8fr) minmax(0, 1fr) auto;
+  grid-template-areas: "obra cap cap" "obra titol data" "obra lema lema" "obra desc desc" "obra fitxa fitxa" "obra xips xips" "obra accions accions";
+  column-gap: 0;
+  padding-left: 24px;
+}
+.cartell-poster--vertical .cartell-poster__obra { margin: 0 30px 0 0; }
+.cartell-poster--vertical .cartell-poster__marc { flex: 1; max-height: none; min-height: 300px; aspect-ratio: auto; }
+.cartell-poster--vertical .cartell-poster__titol { font-size: clamp(28px, 3vw, 42px); }
+.cartell-poster--vertical .cartell-poster__data strong { font-size: clamp(36px, 4vw, 56px); }
+.cartell-poster--vertical .cartell-poster__fitxa { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }
+
+@media (max-width: 620px) {
+  .cartell-poster--original,
+  .cartell-poster--vertical {
+    grid-template-columns: 1fr;
+    grid-template-areas: "cap" "obra" "data" "titol" "lema" "desc" "fitxa" "xips" "accions";
+    padding-left: 22px;
+  }
+  .cartell-poster--original .cartell-poster__obra,
+  .cartell-poster--vertical .cartell-poster__obra { margin: 0 0 18px; }
+  .cartell-poster--vertical .cartell-poster__marc { flex: none; min-height: 0; aspect-ratio: var(--proporcio, 3 / 4); max-height: 440px; }
+}
