@@ -245,8 +245,25 @@
     renderNews(gridNews);
 
     // ——— Radar català ———
+    // 11.10.2026: cada targeta porta miniatura. La imatge ve de radar.js; si l'entrada
+    // és antiga i no en té, es busca la mateixa notícia entre les del dia (per URL de
+    // la font o per títol). Si tampoc hi és, es mostra el lloc en gran (mai un buit).
+    const newsByKey = new Map();
+    news.forEach(story => {
+      if (!story.image) return;
+      if (story.sourceUrl) newsByKey.set(`u:${story.sourceUrl}`, story);
+      if (story.title) newsByKey.set(`t:${story.title}`, story);
+    });
+    const radarThumb = item => {
+      const match = item.image ? item : (newsByKey.get(`u:${item.url}`) || newsByKey.get(`t:${item.title}`));
+      if (match && match.image) {
+        return `<div class="radar-card__thumb"><img src="${escapeHTML(match.image)}" alt="" loading="lazy">${photoCredit(match)}</div>`;
+      }
+      return `<div class="radar-card__thumb radar-card__thumb--lloc" aria-hidden="true"><span>${escapeHTML(item.place || 'Catalunya')}</span></div>`;
+    };
     document.querySelector('#radar-grid').innerHTML = radar.slice(0, 8).map(item => `
       <a class="radar-card" href="${escapeHTML(item.url || '#')}" ${item.url ? 'target="_blank" rel="noreferrer"' : ''}>
+        ${radarThumb(item)}
         <p class="radar-card__place"><span>${escapeHTML(item.place)} · ${escapeHTML(item.category)}</span><span>${escapeHTML(item.date)}</span></p>
         <h3>${escapeHTML(item.title)}</h3>
         <p>${escapeHTML(item.summary || '')}</p>

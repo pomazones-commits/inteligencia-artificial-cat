@@ -473,7 +473,15 @@ function deriveRadar(items, date) {
     summary: story.excerpt,
     detail: story.body,
     source: story.sourceName,
-    url: story.sourceUrl
+    url: story.sourceUrl,
+    // 11.10.2026: el radar conserva la fotografia de la notícia (i el crèdit,
+    // si és una foto real amb llicència) perquè la targeta porti miniatura.
+    // `_slug` és intern: serveix per enllaçar la imatge si el lot no porta
+    // el camp `image`, i s'esborra abans d'escriure radar.js.
+    ...(story.image ? { image: story.image } : {}),
+    ...(story.imageCredit ? { imageCredit: story.imageCredit, imageLicense: story.imageLicense } : {}),
+    ...(story.imageSourceUrl ? { imageSourceUrl: story.imageSourceUrl } : {}),
+    _slug: story.slug
   }));
 }
 
@@ -598,6 +606,19 @@ async function ingestNews(options) {
       }
     }
   }
+  // La mateixa xarxa per a les miniatures del radar (inclou les peces radar-only).
+  for (const signal of radarIncoming) {
+    if (!signal.image && signal._slug) {
+      for (const ext of ['jpg', 'webp', 'png']) {
+        const candidate = join(publicDir, 'assets', `${signal._slug}-${compactDate}.${ext}`);
+        if (await exists(candidate)) {
+          signal.image = `./assets/${signal._slug}-${compactDate}.${ext}`;
+          break;
+        }
+      }
+    }
+    delete signal._slug;
+  }
 
   const now = new Date().toISOString();
   const state = {
@@ -620,6 +641,24 @@ async function ingestNews(options) {
   const radarPath = join(publicDir, 'radar.js');
   const existingRadar = await readAssignment(radarPath);
   const radar = mergeRadar(radarIncoming, Array.isArray(existingRadar) ? existingRadar : []);
+  // 11.10.2026: les entrades de radar anteriors a aquest canvi no portaven imatge.
+  // Es completen amb la de la mateixa notícia (per URL de la font o per títol)
+  // a l'edició d'avui o a l'hemeroteca, només si el fitxer existeix. Purament
+  // additiu: mai treu ni canvia una imatge que ja hi sigui.
+  if (radar.some(signal => !signal.image)) {
+    const archiveForImages = await readJson(join(stateDir, 'archive.json'), { items: [] });
+    const known = [...items, ...(Array.isArray(archiveForImages.items) ? archiveForImages.items : [])].filter(story => story?.image);
+    for (const signal of radar) {
+      if (signal.image) continue;
+      const match = known.find(story => (signal.url && story.sourceUrl === signal.url) || story.title === signal.title);
+      if (!match) continue;
+      const local = /^\.?\//.test(match.image) ? join(publicDir, match.image.replace(/^\.?\//, '')) : null;
+      if (local && !(await exists(local))) continue;
+      signal.image = match.image;
+      if (match.imageCredit) { signal.imageCredit = match.imageCredit; signal.imageLicense = match.imageLicense; }
+      if (match.imageSourceUrl) signal.imageSourceUrl = match.imageSourceUrl;
+    }
+  }
   if (radar.length) {
     await backupFile(radarPath, join(stateDir, 'backups'), date);
     await atomicWrite(radarPath, serializeAssignment(ASSIGNMENTS.radar.variable, radar));

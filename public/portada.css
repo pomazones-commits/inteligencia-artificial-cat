@@ -180,15 +180,28 @@ button { color: inherit; }
 
 .radar-section { padding-bottom: 84px; }
 .radar-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; }
-.radar-card { min-height: 270px; padding: 24px; border: 1px solid var(--line); border-radius: 22px; background: rgba(255,255,255,.76); transition: transform .25s,box-shadow .25s; }
+.radar-card { display: flex; flex-direction: column; min-height: 0; overflow: hidden; padding: 12px 12px 22px; border: 1px solid var(--line); border-radius: 22px; background: #fff; transition: transform .25s,box-shadow .25s; }
+/* 11.10.2026: miniatura apaïsada a cada targeta del radar; sense foto, el lloc en gran. */
+.radar-card__thumb { position: relative; aspect-ratio: 16/9; overflow: hidden; margin: 0 0 16px; border-radius: 14px; background: #dbe0ea; }
+.radar-card__thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .45s; }
+.radar-card:hover .radar-card__thumb img { transform: scale(1.035); }
+.radar-card__thumb--lloc { display: flex; align-items: flex-end; padding: 14px 16px; background: #e4e9ff; }
+.radar-card__thumb--lloc span { color: #233a82; font: 500 30px/1 var(--serif); letter-spacing: -.02em; }
+.radar-card:nth-child(4n+2) .radar-card__thumb--lloc { background: #d8f3f7; }
+.radar-card:nth-child(4n+2) .radar-card__thumb--lloc span { color: #0b5560; }
+.radar-card:nth-child(4n+3) .radar-card__thumb--lloc { background: #ffe4e1; }
+.radar-card:nth-child(4n+3) .radar-card__thumb--lloc span { color: #8a2a22; }
+.radar-card:nth-child(4n+4) .radar-card__thumb--lloc { background: #ece4ff; }
+.radar-card:nth-child(4n+4) .radar-card__thumb--lloc span { color: #4b2a9a; }
+.radar-card > p, .radar-card > h3 { padding-inline: 8px; }
 .radar-card:nth-child(4n+1) { box-shadow: inset 0 3px 0 var(--blue); }
 .radar-card:nth-child(4n+2) { box-shadow: inset 0 3px 0 var(--cyan); }
 .radar-card:nth-child(4n+3) { box-shadow: inset 0 3px 0 var(--coral); }
 .radar-card:nth-child(4n+4) { box-shadow: inset 0 3px 0 var(--violet); }
-.radar-card__place { display: flex; justify-content: space-between; gap: 14px; margin: 0 0 48px; color: #2f52e0; font: 600 12px var(--mono); text-transform: uppercase; letter-spacing: .05em; }
+.radar-card__place { display: flex; justify-content: space-between; gap: 14px; margin: 0 0 10px; color: #2f52e0; font: 600 12px var(--mono); text-transform: uppercase; letter-spacing: .05em; }
 .radar-card__place span:last-child { color: var(--muted); white-space: nowrap; }
-.radar-card h3 { margin: 0; font-size: 20px; line-height: 1.16; letter-spacing: -.03em; }
-.radar-card p:last-child { margin: 13px 0 0; color: #687187; font-size: 12px; line-height: 1.5; }
+.radar-card h3 { margin: 0; font-size: 18px; font-weight: 600; line-height: 1.3; letter-spacing: -.01em; }
+.radar-card p:last-child { margin: 10px 0 0; color: #5b6378; font-size: 14px; line-height: 1.5; }
 .radar-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(17,21,38,.1); }
 
 .service-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; }
@@ -302,7 +315,6 @@ button { color: inherit; }
   .analysis-copy { padding: 42px 24px; }
   .analysis-copy h2 { font-size: 38px; }
   .radar-grid { grid-template-columns: 1fr; }
-  .radar-card { min-height: 230px; }
   .service-grid { grid-template-columns: 1fr; }
   .weekly-card,.tools-card { padding: 30px 25px; border-radius: 24px; }
   .service-grid h2 { font-size: 38px; }

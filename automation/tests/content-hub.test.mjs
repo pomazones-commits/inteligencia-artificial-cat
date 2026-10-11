@@ -137,6 +137,49 @@ test('una notícia amb seccio "radar" va només a La IA que passa aquí, no al f
   assert.ok(!archive.some(item => item.slug === 'adopcio-empresa-espanyola-ia'), 'la notícia radar-only no s’arxiva a l’hemeroteca del feed');
 });
 
+test('el radar conserva la miniatura de la notícia i l’enllaça si el lot no porta image', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const { mkdir } = await import('node:fs/promises');
+  await mkdir(join(root, 'assets'), { recursive: true });
+  // Una peça radar-only SENSE camp image però amb el fitxer generat a assets/.
+  await writeFile(join(root, 'assets', 'radar-sense-camp-image-20261011.jpg'), 'x', 'utf8');
+  const ambImatge = { ...story(1), slug: 'barcelona-amb-imatge', sourceUrl: 'https://example.com/bcn-imatge', title: 'Barcelona estrena un servei d’IA', image: './assets/barcelona-amb-imatge-20261011.jpg' };
+  const senseCamp = { ...story(2), slug: 'radar-sense-camp-image', sourceUrl: 'https://example.com/radar-sense', title: 'Una empresa espanyola adopta IA', seccio: 'radar' };
+  delete senseCamp.image;
+  await writeFile(join(root, 'batch.json'), JSON.stringify([ambImatge, senseCamp, story(3), story(5), story(7), story(9)]), 'utf8');
+  const result = run(['ingest-news', '--input', join(root, 'batch.json'), '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-10-11'], root);
+  assert.equal(result.status, 0, result.stderr);
+  const radarText = await readFile(join(root, 'radar.js'), 'utf8');
+  const radar = parseAssignment(radarText);
+  assert.equal(radar.find(item => item.title === 'Barcelona estrena un servei d’IA').image, './assets/barcelona-amb-imatge-20261011.jpg', 'la imatge de la notícia passa al radar');
+  assert.equal(radar.find(item => item.title === 'Una empresa espanyola adopta IA').image, './assets/radar-sense-camp-image-20261011.jpg', 'la xarxa de seguretat enllaça la imatge generada');
+  assert.ok(!/_slug/.test(radarText), 'el camp intern _slug no arriba mai al contracte públic IA_RADAR');
+});
+
+test('les entrades antigues del radar sense imatge la recuperen de l’hemeroteca', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const { mkdir } = await import('node:fs/promises');
+  await mkdir(join(root, 'assets'), { recursive: true });
+  await mkdir(join(root, 'state'), { recursive: true });
+  await writeFile(join(root, 'assets', 'bsc-antiga-20261008.jpg'), 'x', 'utf8');
+  await writeFile(join(root, 'radar.js'), `window.IA_RADAR = ${JSON.stringify([
+    { place: 'Barcelona', category: 'RECERCA', date: '08.10.2026', title: 'El BSC fa una cosa antiga', summary: 'Resum.', url: 'https://example.com/bsc-antiga' },
+    { place: 'Lleida', category: 'IA I SOCIETAT', date: '07.10.2026', title: 'Sense rastre a l’hemeroteca', summary: 'Resum.', url: 'https://example.com/sense-rastre' },
+    { place: 'Girona', category: 'IA I SOCIETAT', date: '06.10.2026', title: 'Imatge esborrada del servidor', summary: 'Resum.', url: 'https://example.com/esborrada' }
+  ])};\n`, 'utf8');
+  await writeFile(join(root, 'state', 'archive.json'), JSON.stringify({ items: [
+    { ...story(40), title: 'El BSC fa una cosa antiga', sourceUrl: 'https://example.com/bsc-antiga', image: './assets/bsc-antiga-20261008.jpg', editionDate: '2026-10-08' },
+    { ...story(41), title: 'Imatge esborrada del servidor', sourceUrl: 'https://example.com/esborrada', image: './assets/ja-no-hi-es.jpg', editionDate: '2026-10-06' }
+  ] }), 'utf8');
+  await writeFile(join(root, 'batch.json'), JSON.stringify([story(1), story(2), story(3), story(5), story(7)]), 'utf8');
+  const result = run(['ingest-news', '--input', join(root, 'batch.json'), '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-10-11'], root);
+  assert.equal(result.status, 0, result.stderr);
+  const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.equal(radar.find(item => item.title === 'El BSC fa una cosa antiga').image, './assets/bsc-antiga-20261008.jpg', 'recupera la imatge de l’hemeroteca');
+  assert.ok(!radar.find(item => item.title === 'Sense rastre a l’hemeroteca').image, 'sense coincidència no s’inventa cap imatge');
+  assert.ok(!radar.find(item => item.title === 'Imatge esborrada del servidor').image, 'no enllaça una imatge que ja no existeix');
+});
+
 test('en canviar de dia arxiva l’edició anterior a data/arxiu.json', async () => {
   const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
   const first = join(root, 'first.json');
