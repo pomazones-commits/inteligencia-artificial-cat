@@ -11,6 +11,15 @@
 # quedar-se a la cau tant de temps com calgui.
 
 <IfModule mod_headers.c>
+# Prova d'origen de WebMCP a Chrome (registrada l'11.10.2026 amb el compte de
+# Rafael; origen https://inteligencia-artificial.cat, sense subdominis).
+# Activa document.modelContext perquè funcionin les eines de /webmcp.js.
+# NO és cap secret: Chrome el vol a la vista a cada pàgina. CADUCA el
+# 30.03.2027 (o abans, si Chrome tanca la prova): renovar-lo a
+# https://developer.chrome.com/origintrials/ («My Registrations» → WebMCP →
+# «Renew») i substituir-lo aquí. Si caduca, el web continua igual i les
+# eines simplement no s'activen.
+Header set Origin-Trial "Ap2Z/GkS6fdk35uhBaZhZGttzLUafppVkdeLAtC5tSaxiI2WOUYSiIxzhHR7GEGg6AGEmSIZvUhTPkQi9jO/UA8AAABbeyJvcmlnaW4iOiJodHRwczovL2ludGVsaWdlbmNpYS1hcnRpZmljaWFsLmNhdDo0NDMiLCJmZWF0dXJlIjoiV2ViTUNQIiwiZXhwaXJ5IjoxODA2MzY0ODAwfQ=="
 <FilesMatch "^(news|radar|analysis|reflection|daily-image)\.js$">
 Header set Cache-Control "no-cache, must-revalidate"
 </FilesMatch>
