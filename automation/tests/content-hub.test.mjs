@@ -1277,3 +1277,107 @@ test('premsa: icones dels diaris — nom curt, fitxers acceptats i ruta local a 
   assert.equal(dades.articles.find(p => p.mitja === 'Ara').icona, '/assets/premsa/ara.svg');
   assert.equal(dades.articles.find(p => p.mitja === 'VilaWeb').icona, undefined);
 });
+
+// --- Cartells originals de l'agenda (11.10.2026) ------------------------------
+
+const cartellsScript = resolve(import.meta.dirname, '..', 'scripts', 'recull-cartells.mjs');
+
+// Capçalera mínima d'un JPEG (SOI + APP0 + SOF0) amb les mides que vulguem.
+function jpegFals(amplada, alcada) {
+  return Uint8Array.from([0xff, 0xd8, 0xff, 0xe0, 0x00, 0x10, 0x4a, 0x46, 0x49, 0x46, 0x00, 0x01, 0x01, 0x00, 0x00, 0x01, 0x00, 0x01, 0x00, 0x00,
+    0xff, 0xc0, 0x00, 0x11, 0x08, alcada >> 8, alcada & 255, amplada >> 8, amplada & 255, 0x03, 0x01, 0x22, 0x00, 0x02, 0x11, 0x01, 0x03, 0x11, 0x01, 0xff, 0xd9]);
+}
+
+test('cartells: la clau de l’acte és la mateixa al script i a public/cartell.js', async () => {
+  const { clauActe } = await import(cartellsScript);
+  const font = await readFile(resolve(import.meta.dirname, '..', '..', 'public', 'cartell.js'), 'utf8');
+  const m = font.match(/const clauActe = (a => `[\s\S]*?`);/);
+  assert.ok(m, 'clauActe no trobada a cartell.js');
+  const delNavegador = (0, eval)(m[1]);
+  for (const acte of [
+    { inici: '2026-11-07', titol: 'UAB THE HACK! 2026' },
+    { inici: '2026-10-15', titol: "17a Jornada d'Orientació Professional a les Terres de Lleida: IA en temps d'orientació" },
+    { inici: '2026-10-21', titol: 'Barcelona | Workshop (Women in Tech)' },
+    { inici: '2026-10-30', titol: 'Intel·ligència artificial: ètica, dret i ciència — València' }
+  ]) assert.equal(delNavegador(acte), clauActe(acte), acte.titol);
+  assert.equal(clauActe({ inici: '2026-11-07', titol: 'UAB THE HACK! 2026' }), '2026-11-07-uab-the-hack-2026');
+});
+
+test('cartells: es llegeix la imatge per compartir de la web, amb preferència i adreces relatives', async () => {
+  const { extreuImatge } = await import(cartellsScript);
+  const base = 'https://acte.example/2026/';
+  assert.equal(extreuImatge('<meta name="twitter:image" content="https://a.example/t.jpg"><meta content="/img/og.png?a=1&amp;b=2" property="og:image">', base), 'https://acte.example/img/og.png?a=1&b=2');
+  assert.equal(extreuImatge("<meta property='og:image:secure_url' content='https://s.example/x.webp'><meta property=og:image content=https://o.example/y.jpg>", base), 'https://s.example/x.webp');
+  assert.equal(extreuImatge('<link rel="image_src" href="cartell.jpg">', base), 'https://acte.example/2026/cartell.jpg');
+  assert.equal(extreuImatge('<meta property="og:image" content="http://insegur.example/a.jpg">', base), null, 'sense https no');
+  assert.equal(extreuImatge('<title>res</title>', base), null);
+});
+
+test('cartells: es llegeixen les mides i es descarten logos i bandes estranyes', async () => {
+  const { mides, acceptable } = await import(cartellsScript);
+  assert.deepEqual(mides(jpegFals(1080, 1350)), { format: 'jpeg', amplada: 1080, alcada: 1350 });
+  const png = new Uint8Array(32);
+  png.set([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a, 0, 0, 0, 13, 0x49, 0x48, 0x44, 0x52, 0, 0, 4, 176, 0, 0, 2, 118]);
+  assert.deepEqual(mides(png), { format: 'png', amplada: 1200, alcada: 630 });
+  assert.equal(mides(new TextEncoder().encode('<svg></svg>')), null);
+  assert.equal(acceptable({ format: 'jpeg', amplada: 1200, alcada: 630 }), null);
+  assert.equal(acceptable({ format: 'jpeg', amplada: 1080, alcada: 1528 }), null, 'un cartell A vertical sí');
+  assert.match(acceptable({ format: 'png', amplada: 256, alcada: 256 }), /massa petita/);
+  assert.match(acceptable({ format: 'png', amplada: 2000, alcada: 400 }), /proporció/);
+});
+
+test('cartells: només els actes grans dels propers 60 dies que no tenen ja imatge', async () => {
+  const { candidats } = await import(cartellsScript);
+  const actes = [
+    { titol: 'Lluny', tipus: 'congrés', inici: '2027-01-20', url: 'https://a.example/' },
+    { titol: 'Trobada', tipus: 'trobada', inici: '2026-10-13', url: 'https://b.example/' },
+    { titol: 'Trobada destacada', tipus: 'trobada', destacat: true, inici: '2026-10-14', url: 'https://c.example/' },
+    { titol: 'Ja passat', tipus: 'congrés', inici: '2026-10-01', fi: '2026-10-02', url: 'https://d.example/' },
+    { titol: 'En marxa', tipus: 'fira', inici: '2026-10-10', fi: '2026-10-12', url: 'https://e.example/' },
+    { titol: 'Amb imatge pròpia', tipus: 'congrés', inici: '2026-10-20', url: 'https://f.example/', cartell: '/assets/x.jpg' },
+    { titol: 'Sense cartell', tipus: 'congrés', inici: '2026-10-20', url: 'https://g.example/', cartell: false },
+    { titol: 'Sense web', tipus: 'hackató', inici: '2026-10-25' },
+    { titol: 'Amb font', tipus: 'hackató', inici: '2026-10-25', cartell_font: 'https://h.example/c.jpg' }
+  ];
+  assert.deepEqual(candidats(actes, '2026-10-11').map(a => a.titol), ['En marxa', 'Trobada destacada', 'Amb font']);
+});
+
+test('cartells: la comanda desa la imatge, no reintenta un error de seguida i retira el que ja no toca', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-cartells-'));
+  const fx = join(root, 'fx');
+  const publicDir = join(root, 'public');
+  spawnSync('mkdir', ['-p', fx, join(publicDir, 'data')]);
+  const agendaPath = join(publicDir, 'data', 'agenda.json');
+  const sortida = join(publicDir, 'data', 'cartells.json');
+  const ok = { titol: 'Shift AI Europe', organitza: 'Shift AI Events', tipus: 'congrés', inici: '2026-10-13', fi: '2026-10-14', url: 'https://europe.shiftai.events/' };
+  const ko = { titol: 'Web sense imatge', tipus: 'jornada', inici: '2026-10-15', url: 'https://ko.example/' };
+  await writeFile(agendaPath, JSON.stringify({ actes: [ok, ko] }));
+  await writeFile(join(fx, '2026-10-13-shift-ai-europe.html'), '<meta property="og:image" content="/og.jpg">');
+  await writeFile(join(fx, '2026-10-13-shift-ai-europe.img'), jpegFals(1200, 630));
+  await writeFile(join(fx, '2026-10-15-web-sense-imatge.html'), '<title>res</title>');
+  const corre = avui => spawnSync(process.execPath, [cartellsScript, '--agenda', agendaPath, '--sortida', sortida, '--public-dir', publicDir, '--fixtures', fx, '--avui', avui], { cwd: root, encoding: 'utf8' });
+
+  let r = corre('2026-10-11');
+  assert.equal(r.status, 0, r.stderr);
+  let dades = JSON.parse(await readFile(sortida, 'utf8')).cartells;
+  assert.equal(dades['2026-10-13-shift-ai-europe'].imatge, '/assets/cartells/2026-10-13-shift-ai-europe.jpg');
+  assert.equal(dades['2026-10-13-shift-ai-europe'].font, 'https://europe.shiftai.events/og.jpg');
+  assert.equal(dades['2026-10-13-shift-ai-europe'].amplada, 1200);
+  assert.match(dades['2026-10-15-web-sense-imatge'].error, /og:image/);
+  await readFile(join(publicDir, 'assets', 'cartells', '2026-10-13-shift-ai-europe.jpg'));
+
+  // L'endemà no es torna a baixar res ni es reescriu el fitxer.
+  const abans = await readFile(sortida, 'utf8');
+  r = corre('2026-10-12');
+  assert.equal(r.status, 0, r.stderr);
+  assert.match(r.stdout, /cap canvi/);
+  assert.equal(await readFile(sortida, 'utf8'), abans);
+
+  // Si l'organitzador ho demana ("cartell": false), la imatge surt del repositori.
+  await writeFile(agendaPath, JSON.stringify({ actes: [{ ...ok, cartell: false }, ko] }));
+  r = corre('2026-10-12');
+  assert.equal(r.status, 0, r.stderr);
+  dades = JSON.parse(await readFile(sortida, 'utf8')).cartells;
+  assert.equal(dades['2026-10-13-shift-ai-europe'], undefined);
+  await assert.rejects(readFile(join(publicDir, 'assets', 'cartells', '2026-10-13-shift-ai-europe.jpg')));
+});
