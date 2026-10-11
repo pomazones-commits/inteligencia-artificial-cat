@@ -1,5 +1,16 @@
 window.IA_RADAR = [
   {
+    "place": "Tarragona",
+    "category": "IA I SOCIETAT",
+    "date": "11.10.2026",
+    "title": "Un empresari de Reus impulsa a Nevada un parc d'energia solar amb bateries per alimentar centres de dades d'IA",
+    "summary": "Xavier Lara, d'Endura Energy, diu que el model és el que també necessita la gigafactoria d'IA de Móra la Nova: electricitat renovable les 24 hores amb contractes a llarg termini.",
+    "detail": "L'electricitat s'ha convertit en el coll d'ampolla dels centres de dades d'IA, i un empresari de Reus hi veu una oportunitat. Segons el Diari de Tarragona, Xavier Lara, conseller delegat d'Endura Energy, promou dos projectes d'energia a l'Amèrica del Nord i del Sud, un dels quals pensat expressament per abastir grans consumidors com aquests centres.\n\nÉs el Dark Sky Energy Park, al comtat de Nye, a prop de Tonopah, al desert de Nevada, una zona amb molt de sol, molt de terreny i infraestructura energètica propera. El projecte, que porta la filial Endura Tonopah Energy LLC, combina generació solar, bateries i altres tecnologies que aportin electricitat quan el sol no n'hi ha prou, per oferir subministrament renovable continu. Ara l'empresa assegura els terrenys, defineix l'accés a la xarxa i estructura els futurs contractes amb clients. A més, a la regió xilena d'Atacama, Endura participa amb dos socis en Ibitú, un sistema de bateries de 500 MWh i una planta solar de 100 MWp.\n\nEl vincle català és que Lara compara el seu disseny amb el que necessitaria la gigafactoria d'IA de Móra la Nova: cobertura renovable 24 hores, contractes a llarg termini i emmagatzematge amb bateries, «exactament el que estem dissenyant al Dark Sky Energy Park». També diu que Endura ha participat en acords de compravenda d'energia per a grans consumidors dels Estats Units, entre ells projectes de solar amb bateries a Texas que haurien arribat a acords amb Google i Tesla.\n\nEls límits són clars. El Dark Sky és en una fase inicial i el text no en dona capacitat, inversió, calendari ni cap client confirmat, i les afirmacions de Lara sobre els acords previs no s'han pogut verificar de manera independent. Ibitú, per la seva banda, encara espera els permisos ambientals, l'autorització definitiva de connexió a la xarxa i les llicències sectorials i municipals. Convé, doncs, llegir-ho com un projecte en desenvolupament i no com una infraestructura contractada.",
+    "source": "Diari de Tarragona",
+    "url": "https://www.diaridetarragona.com/economia/272787/empresario-reus-impulsa-proyecto-nevada-dotar-energia-centros-ia.html",
+    "image": "./assets/empresari-reus-nevada-energia-centres-dades-ia-20261011.jpg"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "10.10.2026",
@@ -75,16 +86,5 @@ window.IA_RADAR = [
     "source": "Crónica Global",
     "url": "https://cronicaglobal.elespanol.com/business/20260930/bnew-vuelca-ia-suma-nuevos-sectores/1003742798441_0.html",
     "image": "./assets/bnew-barcelona-ia-sector-propi-20261003.jpg"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "02.10.2026",
-    "title": "L'AI Congress de Barcelona penja el cartell de complet setmanes abans, amb els agents d'IA i la sobirania tecnològica al programa",
-    "summary": "La dotzena edició, organitzada per CIDAI i Eurecat, se celebrarà del 20 al 22 d'octubre a l'Auditori L'illa i ja no admet inscripcions generals.",
-    "detail": "L'AI Congress és la cita anual del sector de la intel·ligència artificial aplicada a l'empresa a Catalunya. La dotzena edició se celebrarà els dies 20, 21 i 22 d'octubre de 2026 a l'Auditori L'illa de Barcelona, amb sessions de matí, de les 8.30 a les 14.00, i ja ha esgotat les places.\n\nSegons la web de l'organització, el congrés el coordina Eurecat i l'organitza CIDAI, el centre d'innovació en dades i IA, amb el suport de l'Estratègia Catalonia.AI 2030 i de la Generalitat. La inscripció general està tancada perquè s'ha omplert l'aforament, i l'organització parla d'una resposta «excepcional». Entre els patrocinadors d'or hi ha CaixaBank Tech, Conversia, Forvis Mazars, Orange, Raona i Softeng, i hi col·laboren l'Ajuntament de Barcelona, el Barcelona Supercomputing Center, la UPC i i2cat.\n\nEl programa vol mostrar casos reals d'empreses pioneres i parlarà d'IA d'agents i arquitectures multiagent, de dades sintètiques, de regulació i sobirania tecnològica, de models multimodals i de privacitat, transparència i control de costos en la IA generativa. És una bona mostra de quins temes preocupen avui les empreses catalanes que ja passen de la prova pilot a la producció.\n\nConvé tenir present que és un avançament d'un acte futur, no un resultat: el programa detallat i la llista de ponents no es podien consultar a la pàgina principal en el moment de redactar aquesta peça, i el nombre exacte d'inscrits no s'ha fet públic. Qui s'hi vulgui apuntar ha de consultar l'organització per si s'obre una llista d'espera.",
-    "source": "AI Congress Barcelona",
-    "url": "https://aicongress.barcelona/en/",
-    "image": "./assets/ai-congress-barcelona-complet-agents-sobirania-20261002.jpg"
   }
 ];
