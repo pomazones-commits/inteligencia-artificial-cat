@@ -1,5 +1,5 @@
 {
- "actualitzat": "2026-10-10",
+ "actualitzat": "2026-10-11",
  "actes": [
   {
    "titol": "Beques de l'ACIA per assistir a congressos d'IA",
@@ -428,6 +428,21 @@
    "url": "https://luma.com/47veye40"
   },
   {
+   "titol": "Women Evolution Barcelona 2026",
+   "organitza": "Women Evolution",
+   "inici": "2026-10-15",
+   "fi": "",
+   "lloc": "Sant Cugat del Vallès (campus d'Esade)",
+   "territori": "catalunya",
+   "format": "híbrid",
+   "tipus": "congrés",
+   "preu": "de pagament",
+   "descripcio": "Vuitena edició del congrés sobre talent i lideratge femenins, que enguany té la integració de la intel·ligència artificial com a eix estratègic. Inclou els premis WE Leadership Awards i retransmissió gratuïta en línia.",
+   "url": "https://www.inscribirme.com/womenevolutionbarcelona2026",
+   "lema": "El talent que transforma el món",
+   "preu_eur": 75
+  },
+  {
    "titol": "IX Congreso Internacional de Inteligencia Artificial",
    "organitza": "El Independiente",
    "inici": "2026-10-16",
@@ -439,6 +454,23 @@
    "preu": "",
    "descripcio": "Novena edició d'aquest congrés sobre IA amb taules dedicades a la sobirania tecnològica, les infraestructures intel·ligents, els serveis socials predictius i la competitivitat de les empreses. Cal inscripció prèvia.",
    "url": "https://ia.elindependiente.com/"
+  },
+  {
+   "titol": "Your AI Second Brain",
+   "organitza": "Foment del Treball",
+   "inici": "2026-10-16",
+   "fi": "",
+   "lloc": "Barcelona (Foment del Treball, Via Laietana, 32)",
+   "territori": "catalunya",
+   "format": "presencial",
+   "tipus": "curs",
+   "preu": "",
+   "descripcio": "Sessió pràctica i sense tecnicismes per aprendre a donar memòria del propi negoci a la IA i connectar-la amb les eines de treball habituals. La condueix Jérémie Benhamou (The Tech Nation). Cal portar ordinador.",
+   "url": "https://www.foment.com/events/your-ai-second-brain/",
+   "organitza_url": "https://www.foment.com/",
+   "ponents": [
+    "Jérémie Benhamou"
+   ]
   },
   {
    "titol": "Invertim la Piranya creativa! Convertim la IA voraç en servei de la creació humana",
@@ -659,6 +691,19 @@
    "preu": "de pagament",
    "descripcio": "Novena edició de la gran trobada d'empreses emergents, corporacions i inversors de València. La IA hi té un eix propi, «AI & Deep Tech», i un programa específic, VDS AI.",
    "url": "https://vds.tech/"
+  },
+  {
+   "titol": "Saló de l'Ocupació 2026",
+   "organitza": "Fira de Barcelona, amb Barcelona Activa",
+   "inici": "2026-10-21",
+   "fi": "2026-10-22",
+   "lloc": "Barcelona (recinte de Montjuïc de Fira de Barcelona)",
+   "territori": "catalunya",
+   "format": "presencial",
+   "tipus": "fira",
+   "preu": "gratuït",
+   "descripcio": "Saló de l'ocupació i l'orientació professional amb més d'una quinzena de sessions sobre intel·ligència artificial: la IA en la selecció de personal, eines d'IA per al currículum, l'anàlisi de dades i l'automatització de tasques.",
+   "url": "https://www.salocupacio.com/"
   },
   {
    "titol": "From Population Models to Personalized Digital Twins",
@@ -1230,6 +1275,20 @@
    "preu": "",
    "descripcio": "Congrés científic de la comunitat robòtica de la península Ibèrica. Entre els eixos del programa hi ha les aplicacions de la IA a la robòtica, la visió per computador i la interacció entre persones i robots.",
    "url": "https://robot2026.upc.edu/"
+  },
+  {
+   "titol": "Diada de les TIC a Catalunya 2026",
+   "organitza": "Graustic, associació de professionals de les TIC de Catalunya",
+   "inici": "2026-11-18",
+   "fi": "2026-11-19",
+   "lloc": "Barcelona (World Trade Center)",
+   "territori": "catalunya",
+   "format": "presencial",
+   "tipus": "jornada",
+   "preu": "",
+   "descripcio": "Trobada anual del sector TIC català, amb el lliurament dels Premis d'Innovació Digital de Catalunya. Enguany se centra en la responsabilitat digital, la governança ètica de les dades i dels sistemes d'IA i la confiança.",
+   "url": "https://graustic.cat/diada-2026/",
+   "lema": "Tecnologia amb propòsit"
   },
   {
    "titol": "Symposium: Clinical Insights in Cancer Genome Interpretation",
