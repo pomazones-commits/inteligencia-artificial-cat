@@ -91,8 +91,8 @@
       }
     }
     dailyImageEl.addEventListener('error', () => {
-      const band = dailyFigure.closest('.daily-visual-band');
-      if (band) band.hidden = true; else dailyFigure.hidden = true;
+      dailyFigure.hidden = true;
+      document.querySelector('#portada').classList.add('no-visual');
     });
 
     // La fotografia del dia neix de la reflexió editorial: en clicar-la s'obre el Quadern IA.
