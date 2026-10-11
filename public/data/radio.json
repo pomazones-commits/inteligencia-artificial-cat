@@ -1,0 +1,292 @@
+{
+  "actualitzat": "2026-10-11",
+  "nota": "La IA a la ràdio (11.10.2026). Fitxer MANUAL: cap automatització no el toca. Cada intervenció és una fitxa amb: id (únic, minúscules i guions; per a 3Cat, «3cat-<id de l'àudio>»), emissora, programa, programa_url (web oficial del programa), data (AAAA-MM-DD, la de l'àudio a la web de l'emissora), durada («53 min»), titol (TÍTOL PROPI, no el de l'emissora), convidats (llista de {nom, rol}; el rol tal com el presenta el programa, en català), resum (RESUM PROPI de 30-80 paraules a partir de la descripció oficial: no copiïs la de l'emissora i no t'inventis què s'hi diu), tema (un dels de «temes»), url (la pàgina oficial de l'àudio) i reproductor ({tipus, id}). Tipus de reproductor admesos: «3cat» (id numèric de l'àudio; el reproductor oficial és https://www.3cat.cat/3cat/audio/<id>/embed/) i «enllac» (l'emissora no ofereix reproductor incrustable: la fitxa només enllaça la seva web). Per afegir una emissora amb reproductor propi, cal donar d'alta el tipus a radio.php i a radio.js i comprovar abans que l'emissora permet incrustar-lo. 🛑 Mai no es baixa ni s'allotja l'àudio ni la foto de l'emissora: només el seu reproductor, i només quan el lector hi fa clic. Valida amb: node scripts/valida-radio.mjs",
+  "temes": {
+    "societat": "Societat, ètica i desinformació",
+    "poder": "Poder, política i regulació",
+    "feina": "Feina, empresa i economia",
+    "ciencia": "Ciència i recerca",
+    "educacio": "Educació",
+    "seguretat": "Ciberseguretat",
+    "recursos": "Centres de dades i recursos",
+    "cultura": "Cultura i memòria"
+  },
+  "intervencions": [
+    {
+      "id": "3cat-1293456",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-10",
+      "durada": "53 min",
+      "titol": "Metges que no existeixen: la IA al servei dels falsos remeis",
+      "convidats": [
+        { "nom": "Marc Amorós", "rol": "periodista especialitzat en desinformació" }
+      ],
+      "resum": "Amorós explica com circulen per les xarxes vídeos de suposats metges, creats amb IA, que promocionen falsos remeis. L'aparença de professional dona a aquests personatges una autoritat que no tenen, i el risc per a la salut és real. El programa parla també de benestar digital i de les mesures de la Generalitat per protegir els menors.",
+      "tema": "societat",
+      "url": "https://www.3cat.cat/3cat/marc-amoros-la-ia-ja-fabrica-metges-que-no-existeixen-per-vendrens-falsos-remeis/audio/1293456/",
+      "reproductor": { "tipus": "3cat", "id": "1293456" }
+    },
+    {
+      "id": "3cat-1293561",
+      "emissora": "Catalunya Ràdio",
+      "programa": "El matí de Catalunya Ràdio",
+      "programa_url": "https://www.3cat.cat/catradio/el-mati-de-catalunya-radio/",
+      "data": "2026-10-09",
+      "durada": "19 min",
+      "titol": "Els Nobel del 2026 i el paper de la IA en la predicció del temps",
+      "convidats": [
+        { "nom": "Pere Estupinyà", "rol": "divulgador científic" }
+      ],
+      "resum": "Estupinyà repassa les recerques premiades aquest any amb els Nobel de Medicina, Física i Química i s'atura en una pregunta pràctica: fins a quin punt la intel·ligència artificial pot millorar la previsió meteorològica i ajudar a anticipar episodis extrems com una dana.",
+      "tema": "ciencia",
+      "url": "https://www.3cat.cat/3cat/la-ia-ajudara-a-millorar-la-prediccio-duna-dana/audio/1293561/",
+      "reproductor": { "tipus": "3cat", "id": "1293561" }
+    },
+    {
+      "id": "3cat-1292760",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-03",
+      "durada": "52 min",
+      "titol": "Qui decideix fins on arriba la IA? Interessos i ideologia a Silicon Valley",
+      "convidats": [
+        { "nom": "Carles Planas", "rol": "periodista especialitzat en tecnologia i poder" }
+      ],
+      "resum": "Planas posa la lupa sobre els interessos que mouen la cursa de la intel·ligència artificial i sobre el discurs del «risc existencial»: es pregunta si no desvia l'atenció de problemes més immediats, com la desinformació, la concentració de poder, la desigualtat o els efectes sobre la feina. Al mateix programa es parla dels agents d'IA a les empreses.",
+      "tema": "poder",
+      "url": "https://www.3cat.cat/3cat/carles-planas-la-ia-com-un-nou-deu-la-ideologia-que-esta-marcant-la-revolucio-de-silicon-valley/audio/1292760/",
+      "reproductor": { "tipus": "3cat", "id": "1292760" }
+    },
+    {
+      "id": "3cat-1292755",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-03",
+      "durada": "10 min",
+      "titol": "Quan la IA tingui cos: el salt cap als robots",
+      "convidats": [
+        { "nom": "Jérémie Benhamou", "rol": "fundador i conseller delegat de The Tech Nation i cofundador de l'AI Summit Barcelona" }
+      ],
+      "resum": "Conversa amb l'emprenedor arran de la Claude Community House de Barcelona, un punt de trobada de la comunitat d'usuaris del model d'Anthropic. Benhamou parla de cap on va la intel·ligència artificial i de l'efecte que tindrà en la societat, i defensa que el gran canvi vindrà quan aquests sistemes s'integrin en robots.",
+      "tema": "feina",
+      "url": "https://www.3cat.cat/3cat/jeremie-benhamou-la-gran-revolucio-arribara-quan-posem-dins-dun-robot-la-ia/audio/1292755/",
+      "reproductor": { "tipus": "3cat", "id": "1292755" }
+    },
+    {
+      "id": "3cat-1292398",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-09-29",
+      "durada": "10 min",
+      "titol": "«Superintel·ligència»: un nom nou per a la mateixa tecnologia?",
+      "convidats": [
+        { "nom": "Román Orús", "rol": "membre del grup científic d'experts en intel·ligència artificial de l'ONU" }
+      ],
+      "resum": "Arran de la proposta de Donald Trump de deixar de dir-ne «intel·ligència artificial» i parlar de «superintel·ligència», Orús analitza si darrere del canvi de nom hi ha res més. L'únic català, i l'únic expert de l'Estat, al grup científic de l'ONU sobre IA hi recorda els límits reals d'aquests sistemes davant de les capacitats humanes.",
+      "tema": "poder",
+      "url": "https://www.3cat.cat/3cat/roman-orus-la-ia-no-es-una-intelligencia-superior-no-pot-fer-tot-el-que-fem-els-humans/audio/1292398/",
+      "reproductor": { "tipus": "3cat", "id": "1292398" }
+    },
+    {
+      "id": "3cat-1291608",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-09-22",
+      "durada": "6 min",
+      "titol": "Un centenar d'entitats demanen aturar els nous centres de dades",
+      "convidats": [
+        { "nom": "Clàudia Bosch", "rol": "responsable de la campanya «Electrònica justa» de SETEM Catalunya" }
+      ],
+      "resum": "El mateix dia que l'AI Summit omplia el World Trade Center de Barcelona, una protesta a les portes del congrés reclamava una moratòria per a la instal·lació de centres de dades. Bosch explica per què les entitats creuen que l'expansió d'aquestes infraestructures topa amb un límit de recursos.",
+      "tema": "recursos",
+      "url": "https://www.3cat.cat/3cat/demanen-una-moratoria-dels-centres-de-dades-dia-hi-ha-un-limit-de-recursos/audio/1291608/",
+      "reproductor": { "tipus": "3cat", "id": "1291608" }
+    },
+    {
+      "id": "3cat-1291054",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-09-20",
+      "durada": "13 min",
+      "titol": "Ni entusiasme cec ni por: debat sobre els dilemes de la IA",
+      "convidats": [
+        { "nom": "Ricard Castellet", "rol": "cap de Transformació Digital de Gebro Pharma" },
+        { "nom": "Jordi Pi", "rol": "productor executiu de la Corporació Catalana de Mitjans Audiovisuals" }
+      ],
+      "resum": "Debat a dues veus sobre les preguntes que la intel·ligència artificial obliga a respondre: quins criteris ètics han de guiar-la, qui respon de les seves decisions, quin cost ambiental té i si pot ser una eina contra la desinformació. Tots dos reivindiquen el pensament crític davant la fascinació i la por.",
+      "tema": "societat",
+      "url": "https://www.3cat.cat/3cat/castellet-i-pi-ni-fascinacio-ni-por-a-la-ia-pensament-critic/audio/1291054/",
+      "reproductor": { "tipus": "3cat", "id": "1291054" }
+    },
+    {
+      "id": "3cat-1291051",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-09-19",
+      "durada": "52 min",
+      "titol": "Riscos reals i especulació: què podem esperar de la IA",
+      "convidats": [
+        { "nom": "Caterina Biscari", "rol": "directora del sincrotró ALBA" },
+        { "nom": "David López", "rol": "degà associat de l'MBA d'Esade i expert en intel·ligència artificial" }
+      ],
+      "resum": "Una científica i un expert en empresa intenten separar el que sabem del que és pura especulació sobre la intel·ligència artificial. Parlen dels riscos que cal prendre seriosament, dels interessos econòmics que envolten la cursa tecnològica i de les possibilitats que obre per a la recerca científica.",
+      "tema": "societat",
+      "url": "https://www.3cat.cat/3cat/prou-alarmismes-la-ia-no-acabara-amb-tota-la-humanitat/audio/1291051/",
+      "reproductor": { "tipus": "3cat", "id": "1291051" }
+    },
+    {
+      "id": "3cat-1291050",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-09-19",
+      "durada": "11 min",
+      "titol": "Els papirs d'Herculà, llegits per primera vegada gràcies a la IA",
+      "convidats": [
+        { "nom": "Enzo Longobucco", "rol": "científic de dades i professor de La Salle" }
+      ],
+      "resum": "Els rotlles d'Herculà van quedar carbonitzats per l'erupció del Vesuvi de l'any 79 i, durant gairebé dos mil anys, no es podien obrir sense destruir-los. Longobucco explica com la intel·ligència artificial ha permès desxifrar-ne el contingut i què pot aportar al coneixement del món antic.",
+      "tema": "ciencia",
+      "url": "https://www.3cat.cat/3cat/longobucco-llegir-textos-que-portaven-2000-anys-tancats-amb-ia-canvia-la-historia/audio/1291050/",
+      "reproductor": { "tipus": "3cat", "id": "1291050" }
+    },
+    {
+      "id": "3cat-1290685",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-09-14",
+      "durada": "13 min",
+      "titol": "Un problema matemàtic de dècades, resolt per la IA en quatre dies",
+      "convidats": [
+        { "nom": "Javier Gómez Serrano", "rol": "matemàtic i professor a la Universitat Brown" }
+      ],
+      "resum": "OpenAI va anunciar que el seu sistema havia resolt en menys de quatre dies un problema que els matemàtics tenien obert des de feia dècades. Gómez Serrano valora l'anunci i defensa que la recerca matemàtica s'haurà d'adaptar a la nova situació.",
+      "tema": "ciencia",
+      "url": "https://www.3cat.cat/3cat/la-ia-resol-en-menys-de-4-dies-un-dels-problemes-matematics-del-millenni-ens-hem-dadaptar/audio/1290685/",
+      "reproductor": { "tipus": "3cat", "id": "1290685" }
+    },
+    {
+      "id": "3cat-1290534",
+      "emissora": "Catalunya Ràdio",
+      "programa": "El suplement",
+      "programa_url": "https://www.3cat.cat/catradio/el-suplement/",
+      "data": "2026-09-13",
+      "durada": "27 min",
+      "titol": "Neil Harbisson torna la veu a un capellà mort el 1936",
+      "convidats": [
+        { "nom": "Neil Harbisson", "rol": "artista cíborg" }
+      ],
+      "resum": "Mossèn Josep Samsó va ser assassinat a Mataró a l'inici de la Guerra Civil. Harbisson l'ha fet «tornar» a través d'una recreació amb intel·ligència artificial i explica com el projecte se li ha escapat de les mans. Una història real que obre la pregunta de què vol dir reviure els morts amb aquestes eines.",
+      "tema": "cultura",
+      "url": "https://www.3cat.cat/3cat/neil-harbisson-he-fet-reviure-un-mort-amb-intelligencia-artificial-i-se-me-nha-anat-de-les-mans/audio/1290534/",
+      "reproductor": { "tipus": "3cat", "id": "1290534" }
+    },
+    {
+      "id": "3cat-1290337",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-09-13",
+      "durada": "11 min",
+      "titol": "Les feines que la IA ja no deixa néixer",
+      "convidats": [
+        { "nom": "Santiago Niño-Becerra", "rol": "economista" }
+      ],
+      "resum": "L'economista reflexiona sobre el preu de les coses, de l'energia a l'alimentació, i el lliga amb un efecte de la intel·ligència artificial que costa més de veure: els llocs de treball que deixaran de crear-se.",
+      "tema": "feina",
+      "url": "https://www.3cat.cat/3cat/shan-deixat-de-crear-200000-llocs-de-treball-nous-per-culpa-de-la-ia/audio/1290337/",
+      "reproductor": { "tipus": "3cat", "id": "1290337" }
+    },
+    {
+      "id": "3cat-1290334",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-09-12",
+      "durada": "52 min",
+      "titol": "Com viurem amb la IA d'aquí a catorze anys",
+      "convidats": [
+        { "nom": "Cristina Aranda", "rol": "doctora en Lingüística, experta en intel·ligència artificial i autora de «Vides futures»" }
+      ],
+      "resum": "A partir del seu llibre, Aranda dibuixa com podria ser la vida quotidiana cap al 2040: com treballarem i aprendrem, quina relació tindrem amb la intel·ligència artificial i quin pes tindrà la tecnologia en la salut i en el dia a dia de les persones.",
+      "tema": "feina",
+      "url": "https://www.3cat.cat/3cat/cristina-aranda-revela-que-fan-les-empreses-amb-la-ia-que-pot-canviar-ho-tot/audio/1290334/",
+      "reproductor": { "tipus": "3cat", "id": "1290334" }
+    },
+    {
+      "id": "3cat-1290333",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-09-12",
+      "durada": "15 min",
+      "titol": "Balanç de l'estiu de la IA: robots, agents i lectors que ja no van als diaris",
+      "convidats": [
+        { "nom": "Esteve Almirall", "rol": "catedràtic d'Esade i director del Center for Innovation in Cities" }
+      ],
+      "resum": "Almirall repassa els grans moviments de la intel·ligència artificial durant l'estiu: els robots humanoides, la competència entre els laboratoris, el negoci que hi ha al darrere i l'auge dels agents capaços de fer feines llargues pel seu compte. També parla de l'efecte sobre els diaris, que perden visites perquè molta gent s'informa directament amb xats d'IA.",
+      "tema": "feina",
+      "url": "https://www.3cat.cat/3cat/els-diaris-estan-perdent-moltes-visites-perque-ara-sinformen-per-chatgpt/audio/1290333/",
+      "reproductor": { "tipus": "3cat", "id": "1290333" }
+    },
+    {
+      "id": "3cat-1286728",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-07-18",
+      "durada": "12 min",
+      "titol": "Per què cal formar els docents en intel·ligència artificial",
+      "convidats": [
+        { "nom": "Xavier Olivella", "rol": "director d'Innovació de K-tuin" }
+      ],
+      "resum": "Olivella defensa que la formació del professorat és el primer pas perquè la IA entri bé a les aules. Hi veu una eina per adaptar l'aprenentatge a cada alumne, estalviar feina repetitiva i estimular el pensament crític, sempre amb el docent al centre i mai com a substitut.",
+      "tema": "educacio",
+      "url": "https://www.3cat.cat/3cat/ensenyar-a-professors-la-ia/audio/1286728/",
+      "reproductor": { "tipus": "3cat", "id": "1286728" }
+    },
+    {
+      "id": "3cat-1286239",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-07-12",
+      "durada": "52 min",
+      "titol": "Ciberestafes: com les fa més convincents la IA i com protegir-se'n",
+      "convidats": [
+        { "nom": "Laura Caballero", "rol": "directora de l'Agència de Ciberseguretat de Catalunya" },
+        { "nom": "Eduard Castells", "rol": "CaixaBank" },
+        { "nom": "Miquel Àngel Garcia", "rol": "cap de la Comissaria General TIC dels Mossos d'Esquadra" }
+      ],
+      "resum": "Programa especial sobre els fraus digitals, que no paren de créixer a Catalunya. Una responsable pública, un banc i la policia expliquen com la intel·ligència artificial fa els enganys més creïbles i donen consells pràctics per detectar-los i no caure-hi.",
+      "tema": "seguretat",
+      "url": "https://www.3cat.cat/3cat/una-ciberestafa-cada-sis-minuts-a-catalunya-la-ia-sofistica-els-enganys/audio/1286239/",
+      "reproductor": { "tipus": "3cat", "id": "1286239" }
+    },
+    {
+      "id": "3cat-1285702",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-07-04",
+      "durada": "10 min",
+      "titol": "Washington estreny el control sobre els models d'IA més avançats",
+      "convidats": [
+        { "nom": "Esteve Almirall", "rol": "professor d'Esade i expert en innovació" }
+      ],
+      "resum": "Almirall analitza per què l'administració dels Estats Units vol controlar més de prop els models d'intel·ligència artificial més potents, en un moment de forta competència tecnològica i de preocupació creixent per la ciberseguretat.",
+      "tema": "poder",
+      "url": "https://www.3cat.cat/3cat/esteve-almirall-per-que-a-donald-trump-li-fa-tanta-por-la-intelligencia-artificial/audio/1285702/",
+      "reproductor": { "tipus": "3cat", "id": "1285702" }
+    }
+  ]
+}
