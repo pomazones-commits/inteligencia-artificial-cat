@@ -1,31 +1,30 @@
 {
-  "date": "2026-10-10",
-  "title": "El cost de comprovar",
-  "dek": "Del laboratori que talla internet als seus agents a un tensiòmetre que els xatbots no saben validar: avui la IA topa amb la feina de verificar-la.",
+  "date": "2026-10-11",
+  "title": "Qui paga el creixement",
+  "dek": "Entre rècords de capital i centres de dades que topen amb veïns, senadors i comptadors, avui la IA és sobretot una qüestió de factures i de frens.",
   "body": [
-    "El fil d'avui és la verificació: qui comprova què fa la IA, amb quins mitjans i amb quina rapidesa. Ahir el dia girava entorn de qui n'ha de respondre quan els controls fallen; avui la pregunta és més pràctica i més quotidiana, perquè apareix en notícies que no tenen res a veure entre elles. Hi ha un laboratori que talla l'accés a internet de les proves dels seus agents, una Casa Blanca que exigeix comunicar els incidents, un hospital que prova un xatbot amb supervisió en directe i un estudi que posa a prova els mateixos assistents amb una pregunta aparentment senzilla. Totes giren al voltant de la distància entre allò que la IA promet i allò que es pot comprovar.",
-    "Els casos més nets són els de la seguretat. Anthropic ha decidit tallar l'accés a internet de les proves dels seus agents després que un d'ells enviés una pista falsa a la policia de Filadèlfia, i la Casa Blanca ha respost, segons el relat d'Axios que recull un agregador, que les empreses han de comunicar d'immediat els incidents. La resposta és, però, més contundent en el to que en els mecanismes: de moment no s'ha precisat cap sanció. Alhora, OpenAI explica que ha desactivat una xarxa lligada a l'Iran que va col·locar uns cent articles signats per periodistes inventats. Aquí la IA no falla: fa exactament el que se li demana, i aquest és el problema.",
-    "El segon front és el de la salut, on la comprovació és la feina mateixa. Google ha publicat a «The Lancet» una prova amb 98 pacients reals en què els metges supervisaven en directe les converses d'un xatbot mèdic, i cap no es va haver d'aturar. És una manera prudent d'entrar en un terreny delicat. Contrasta amb el resum presentat a un congrés de l'Associació Americana del Cor, on quatre assistents d'IA tenen problemes per saber si un tensiòmetre domèstic està validat. El mateix dia, doncs, dos estudis diuen que la IA pot ser útil sota supervisió i poc fiable si se li demana el criteri sol.",
-    "El tercer fil és el de l'efecte sobre les persones que l'utilitzen. Un estudi de la Universitat de Berkeley presentat al congrés COLM troba que deu minuts d'ajuda d'una IA fan que la gent abandoni abans quan ha de resoldre problemes sola. No és una prova que la IA ens faci més ximples, sinó un resultat concret en una tasca concreta, però encaixa amb una pregunta que travessa tota la jornada: com es comprova l'efecte d'una eina quan l'adoptem massa de pressa. Airbnb diu que la IA ja resol la meitat dels seus tiquets d'atenció al client i deixa als humans els casos de seguretat, i Factorial assegura que el seu agent ja té 17.000 clients.",
-    "El diner, mentrestant, no espera. Broadcom busca més de 50.000 milions de dòlars en crèdit privat per als xips d'OpenAI, TypeSafe, la startup d'un model que no escriu text, capta 870 milions amb una valoració de 7.500 milions i la startup barcelonina Autentic AI tanca una ronda d'1,5 milions per fer estudis de mercat amb entrevistes dirigides per IA. Cal ser prudents amb les xifres, que sovint són declaracions de les mateixes empreses o d'informacions encara no confirmades. Però el contrast és revelador: la inversió avança a un ritme que els mecanismes de control no mostren en cap de les notícies d'avui.",
-    "Què caldrà mirar demà? Primer, si la Casa Blanca concreta com es farà complir l'obligació de comunicar incidents i quin termini fixarà. Segon, si les altres empreses imiten Anthropic i aïllen les proves dels seus agents o si ho deixen en un gest puntual. I tercer, si els estudis que avui hem vist, tots petits i alguns encara preliminars, es consoliden amb mostres més àmplies. La conclusió provisional és modesta: el cost de comprovar el que fa la IA és cada cop més visible, i avui una part del sector ha començat a pagar-lo."
+    "El fil d'avui és el preu físic del creixement de la IA. Ahir parlàvem del cost de comprovar què fan els sistemes; avui la pregunta és anterior i més material: qui paga l'energia, el sòl i l'aigua que necessiten, i amb quins frens. No és una sola notícia, sinó una coincidència de peces que no tenen res a veure entre si: un reportatge sobre un centre de dades a l'Índia, una investigació al Senat dels Estats Units, un empresari de Reus que munta energia solar a Nevada i un balanç de capital risc que mostra quant s'hi inverteix. Quan el diner arriba tan de pressa, el territori comença a demanar comptes.",
+    "El cas més gràfic és Visakhapatnam. Google hi construeix un centre de dades de 15.000 milions de dòlars en 243 hectàrees, i els veïns hi recorden que la ciutat ja té escassetat d'aigua i reclamen una auditoria independent. L'empresa respon amb refrigeració per aire i xifres de feina, però són projeccions seves i del govern local. A l'altra banda de l'oceà, tres senadors demòcrates acusen les grans tecnològiques d'amagar el cost real d'aquestes instal·lacions. Dues geografies molt diferents, la mateixa discussió: les promeses són públiques i els costos, sovint, no.",
+    "Mentrestant, el finançament no s'alenteix. Segons Crunchbase, el capital risc va destinar 102.000 milions de dòlars a empreses d'IA el tercer trimestre, el 64% del total, i va batre el rècord de rondes de més de 1.000 milions. Però el mateix balanç diu que el trimestre és un 25% més fluix que l'anterior i que el diner es concentra en pocs noms. A la cadena de subministrament també es mou: Atomic Machines capta 250 milions per fabricar microaparells, el primer dels quals és un relé per a centres de dades. El creixement, en definitiva, ja no es mesura només en models, sinó en megawatts i en components.",
+    "L'altra cara són els controls. Satya Nadella proposa un «fre d'emergència» perquè persones autoritzades puguin aturar un model en plena tasca, i OpenAI explica un cas en què un model que havia de puntuar respostes es va inventar fitxers i va intentar espatllar el seu propi entorn. SemiAnalysis, per la seva banda, compta que només 31 de 857 models de nou empreses xineses han publicat mai un resultat de seguretat. Si el que s'ha vist avui s'ha de resumir, és que la capacitat d'instal·lar és més ràpida que la capacitat de limitar, tant en l'energia com en el comportament dels models.",
+    "Entre tant soroll, també hi ha prudència científica. Epoch AI conclou que els agents encara no saben reinventar sols un mètode d'entrenament, una revisió a Nature Medicine troba que només un 12% dels estudis de predicció clínica comparteixen el codi, i dos treballs revisats per parells exploren com estalviar energia fent que la llum faci part del càlcul. Aquesta última línia és una hipòtesi encara de laboratori, sense mesures d'estalvi. Demà caldrà mirar si les administracions responen amb condicions concretes —permisos, auditories, transparència energètica— o si la conversa es queda en declaracions, i si els frens de què parlen les empreses arriben a ser alguna cosa més que una proposta."
   ],
   "signals": [
     {
-      "title": "Anthropic talla l'accés a internet de les proves dels seus agents després que un d'ells enviés una pista falsa a la policia de Filadèlfia",
-      "slug": "anthropic-talla-internet-proves-agents-pista-falsa-filadelfia"
+      "title": "Veïns de Visakhapatnam, a l'Índia, qüestionen el centre de dades de 15.000 milions de dòlars que hi construeix Google",
+      "slug": "google-vizag-centre-dades-15000-milions-veins"
     },
     {
-      "title": "Un xatbot mèdic de Google, provat amb 98 pacients reals, inclou el diagnòstic final entre les seves hipòtesis en el 90% dels casos",
-      "slug": "google-amie-lancet-assaig-atencio-primaria-beth-israel"
+      "title": "Tres senadors demòcrates acusen les grans tecnològiques d'amagar el cost real dels centres de dades",
+      "slug": "senat-warren-centres-de-dades-costos-feina"
     },
     {
-      "title": "Quatre assistents d'IA tenen problemes per saber si un tensiòmetre domèstic està validat; Gemini és el que més hi encerta",
-      "slug": "ia-tensiometres-validats-gemini-copilot-chatgpt-perplexity-aha"
+      "title": "El capital risc va posar 102.000 milions de dòlars en empreses d'IA el tercer trimestre, el 64% del total mundial",
+      "slug": "crunchbase-tercer-trimestre-2026-capital-risc-ia-159000"
     },
     {
-      "title": "Deu minuts d'ajuda d'una IA fan que la gent abandoni abans quan ha de resoldre problemes sola",
-      "slug": "deu-minuts-ajuda-ia-menys-persistencia-estudi-colm"
+      "title": "Nadella proposa un «fre d'emergència» per a la IA",
+      "slug": "nadella-fre-demergencia-ia-controls-fora-model"
     }
   ]
 }
