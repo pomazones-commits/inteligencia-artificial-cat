@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-11T04:13:13.909Z",
+ "actualitzat": "2026-10-11T08:12:45.606Z",
  "fonts": 29,
  "articles": [
+  {
+   "id": "cf0368b664d3",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Es la IA un nuevo Renacimiento?",
+   "url": "https://www.lavanguardia.com/magazine/lifestyle/20261011/11654091/ia-nuevo-renacimiento.html",
+   "publicat": "2026-10-11T04:55:00.000Z"
+  },
+  {
+   "id": "a1217d6df55c",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Ateneu Universitari Sant Pacià reflexionará sobre la IA en un congreso",
+   "url": "https://www.lavanguardia.com/vida/20261011/11656004/ateneu-universitari-sant-pacia-reflexionara-sobre-ia-congreso.html",
+   "publicat": "2026-10-11T04:00:00.000Z"
+  },
   {
    "id": "cefcdd2ffb67",
    "mitja": "Diari de Tarragona",
@@ -12,7 +34,9 @@
    "ambit": "catala",
    "titol": "Un empresario de Reus impulsa un proyecto en Nevada para dotar de energía a centros de IA",
    "url": "https://www.diaridetarragona.com/economia/272787/empresario-reus-impulsa-proyecto-nevada-dotar-energia-centros-ia.html",
-   "publicat": "2026-10-11T03:00:00.000Z"
+   "publicat": "2026-10-11T03:00:00.000Z",
+   "noticia": "empresari-reus-nevada-energia-centres-dades-ia",
+   "noticiaTitol": "Un empresari de Reus impulsa a Nevada un parc d'energia solar amb bateries per alimentar centres de dades d'IA"
   },
   {
    "id": "c25d0adfdcbe",
