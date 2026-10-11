@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-11T02:13:11.072Z",
+ "actualitzat": "2026-10-11T04:13:13.909Z",
  "fonts": 29,
  "articles": [
+  {
+   "id": "cefcdd2ffb67",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un empresario de Reus impulsa un proyecto en Nevada para dotar de energía a centros de IA",
+   "url": "https://www.diaridetarragona.com/economia/272787/empresario-reus-impulsa-proyecto-nevada-dotar-energia-centros-ia.html",
+   "publicat": "2026-10-11T03:00:00.000Z"
+  },
   {
    "id": "c25d0adfdcbe",
    "mitja": "El Punt Avui",
