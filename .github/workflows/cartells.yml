@@ -1,0 +1,95 @@
+name: Cartells originals de l'agenda
+
+# 11.10.2026. Baixa la imatge oficial dels propers actes grans de l'agenda
+# (congressos, jornades, fires i hackatons dels propers 60 dies) i la desa al
+# nostre servidor perquè la banda #cartell de la portada (public/cartell.js)
+# mostri el cartell ORIGINAL de l'acte, com va demanar en Rafael.
+# Detall i camps de l'agenda que hi intervenen ("cartell", "cartell_font"):
+# capçalera d'automation/scripts/recull-cartells.mjs.
+#
+# Quan corre:
+#   - quan es publica una agenda nova (push a public/data/agenda.json);
+#   - cada dia a les 05.47 CEST, per als actes que entren dins dels 60 dies i
+#     per reintentar les webs que no havien respost;
+#   - a mà: Actions → «Cartells originals de l'agenda» → «Run workflow».
+#
+# Idempotent: una imatge ja desada no es torna a baixar i, si res no canvia, no
+# fa cap commit. MAI no toca res fora de public/data/cartells.json i
+# public/assets/cartells/.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/data/agenda.json'
+  schedule:
+    - cron: '47 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: cartells-agenda
+  cancel-in-progress: false
+
+jobs:
+  recull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Recuperar el web
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # sharp redimensiona les imatges i les desa com a JPEG lleuger. Només viu al
+      # runner: no és cap dependència del web.
+      - name: Instal·lar sharp
+        run: npm install --no-save --no-audit --no-fund sharp@0.34
+
+      - name: Baixar els cartells oficials
+        run: >-
+          node automation/scripts/recull-cartells.mjs
+          --agenda public/data/agenda.json
+          --sortida public/data/cartells.json
+          --public-dir public
+
+      - name: Publicar si hi ha canvis
+        id: publica
+        run: |
+          git config user.name "intel·ligènciaartificial.cat bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A public/data/cartells.json
+          if [ -d public/assets/cartells ]; then git add -A public/assets/cartells; fi
+          if git diff --cached --quiet; then
+            echo "Cap canvi als cartells."
+            echo "canvis=no" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "[imatges] cartells originals de l'agenda"
+          for intent in 1 2 3; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "canvis=si" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep $((intent * 10))
+          done
+          echo "::error::No he pogut pujar els cartells després de tres intents."
+          exit 1
+
+      # Un push fet amb el GITHUB_TOKEN no dispara el desplegament. Un
+      # workflow_dispatch, sí.
+      - name: Desplegar
+        if: steps.publica.outputs.canvis == 'si'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run desplega.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar el desplegament; el cron :08/:38 o la xarxa de seguretat ho repescaran."
