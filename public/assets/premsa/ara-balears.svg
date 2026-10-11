@@ -7,11 +7,7 @@
       fill: #002D53;
     }
 
-    @media (prefers-color-scheme: dark) {
-      .logo {
-        fill: #fff;
-      }
-    }
+    
   </style>
 
   <path

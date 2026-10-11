@@ -1249,6 +1249,10 @@ test('premsa: icones dels diaris — nom curt, fitxers acceptats i ruta local a 
   const svgDolent = new TextEncoder().encode('<svg xmlns="http://www.w3.org/2000/svg" onload="alert(1)"><script>alert(1)</script></svg>' + ' '.repeat(40));
   assert.equal(iconaAcceptable('image/svg+xml', svgBo, 'https://x.cat/i.svg'), 'svg');
   assert.equal(iconaAcceptable('image/svg+xml', svgDolent, 'https://x.cat/i.svg'), null, 'un SVG amb codi no entra mai');
+  const { netejaSvg } = await import(premsa);
+  const fosc = '<svg><style>.logo { fill: #002D53; } @media (prefers-color-scheme: dark) { .logo { fill: #fff; } }</style><path class="logo"/></svg>';
+  assert.ok(!/prefers-color-scheme|#fff/.test(netejaSvg(fosc)), 'la icona no es torna blanca en mode fosc');
+  assert.match(netejaSvg(fosc), /fill: #002D53/);
   const peces = posaIcones([{ mitja: 'Ara' }, { mitja: 'Diari mut', icona: '/assets/premsa/vella.png' }], new Map([['ara', '/assets/premsa/ara.svg']]));
   assert.equal(peces[0].icona, '/assets/premsa/ara.svg');
   assert.equal(peces[1].icona, undefined, 'sense fitxer, la peça no porta icona');

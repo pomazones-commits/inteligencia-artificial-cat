@@ -373,12 +373,18 @@ async function baixaIcones(fonts, publicDir) {
       const ext = iconaAcceptable(r.headers.get('content-type'), bytes, font.icona);
       if (!ext) throw new Error(`no és una icona acceptable (${r.headers.get('content-type')}, ${bytes.length} bytes)`);
       await mkdir(join(publicDir, DIR_ICONES), { recursive: true });
-      await writeFile(join(publicDir, DIR_ICONES, `${clau}.${ext}`), bytes);
+      await writeFile(join(publicDir, DIR_ICONES, `${clau}.${ext}`), ext === 'svg' ? netejaSvg(Buffer.from(bytes).toString('utf8')) : bytes);
       console.log(`Icona desada: ${font.nom} → /${DIR_ICONES}/${clau}.${ext}`);
     } catch (error) {
       console.warn(`::warning::Icona de ${font.nom} no baixada (${error.message}); la peça surt sense icona.`);
     }
   }
+}
+
+// Algunes icones SVG (l'Ara) es tornen blanques si el sistema del lector és en
+// mode fosc; a la web van sempre sobre fons blanc, així que es treu aquesta regla.
+export function netejaSvg(text) {
+  return String(text).replace(/@media\s*\(\s*prefers-color-scheme\s*:\s*dark\s*\)\s*\{(?:[^{}]*\{[^{}]*\})*[^{}]*\}/gi, '');
 }
 
 export function posaIcones(peces, icones) {
