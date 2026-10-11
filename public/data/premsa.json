@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-11T16:12:00.424Z",
+ "actualitzat": "2026-10-11T22:31:13.086Z",
  "fonts": 29,
  "articles": [
+  {
+   "id": "7e548fca2c70",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Reclamar facturas, buscar vuelos y anular suscripciones: la IA que todo el mundo quería tiene cara B",
+   "url": "https://www.eldiario.es/tecnologia/reclamar-facturas-buscar-vuelos-anular-suscripciones-ia-mundo-queria-cara-b_1_13571363.html",
+   "publicat": "2026-10-11T19:10:58.000Z"
+  },
   {
    "id": "6a71a8f14a63",
    "mitja": "Cinco Días",
@@ -13,6 +24,17 @@
    "titol": "Claude para novatos: así puedes hacer que la IA trabaje por ti dentro de tus páginas web",
    "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-10-10/claude-para-novatos-asi-puedes-hacer-que-la-ia-trabaje-por-ti-dentro-de-tus-paginas-web.html",
    "publicat": "2026-10-11T15:30:00.000Z"
+  },
+  {
+   "id": "373b9e06954f",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia estudia comprar una altra empresa d'IA de codi obert",
+   "url": "https://www.ara.cat/economia/tecnologia/nvidia-negocia-comprar-negoci-d-ia-codi-obert_25_5876184.html",
+   "publicat": "2026-10-11T11:11:43.000Z"
   },
   {
    "id": "cf0368b664d3",
