@@ -28,6 +28,17 @@
     rss: { nom: 'RSS', d: 'M4.5 15a4.5 4.5 0 0 1 4.5 4.5H6a3 3 0 0 0-3-3v-3zM3 9a10.5 10.5 0 0 1 10.5 10.5h-3A7.5 7.5 0 0 0 3 12V9zm0-6c9.113 0 16.5 7.387 16.5 16.5h-3C16.5 12.044 10.456 6 3 6V3z' }
   };
 
+  // WebMCP (11.10.2026): eines de NOMÉS LECTURA per als agents d'IA integrats
+  // al navegador (notícies del dia, una notícia sencera, cerca a l'hemeroteca i
+  // agenda). Només es baixa si el navegador ofereix l'API; a la resta, res.
+  // La portada té el mateix carregador a index.html. Detall: /webmcp.js.
+  if ((document.modelContext || navigator.modelContext) && !document.querySelector('script[src^="/webmcp.js"]')) {
+    const s = document.createElement('script');
+    s.src = '/webmcp.js?v=2026101101';
+    s.defer = true;
+    document.head.appendChild(s);
+  }
+
   // Fila d'icones al peu. La portada la porta estàtica al seu HTML.
   (() => {
     const peu = document.querySelector('footer');

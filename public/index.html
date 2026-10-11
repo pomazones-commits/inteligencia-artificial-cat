@@ -308,5 +308,8 @@
       <span>Fet a Catalunya · Pensat per a tothom</span>
     </div>
   </footer>
+  <!-- WebMCP (11.10.2026): eines de només lectura per a agents d'IA del navegador.
+       Només es baixa si el navegador ofereix l'API. El mateix carregador és a shared.js. -->
+  <script>if((document.modelContext||navigator.modelContext)&&!document.querySelector('script[src^="/webmcp.js"]')){var s=document.createElement('script');s.src='/webmcp.js?v=2026101101';s.defer=true;document.head.appendChild(s);}</script>
 </body>
 </html>

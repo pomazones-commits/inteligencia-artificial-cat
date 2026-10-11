@@ -1,0 +1,66 @@
+# intel·ligènciaartificial.cat (IA.cat)
+
+> Briefing diari i independent sobre intel·ligència artificial, en català. Segueix l'actualitat internacional, posa el focus en Catalunya i en els territoris de parla catalana i enllaça sempre la font original de cada notícia. És una iniciativa de divulgació sense ànim de lucre de l'Associació Amics de la Ciència, sense publicitat.
+
+Informació per a models de llenguatge i agents d'IA que vulguin entendre o citar aquest web (format llms.txt, https://llmstxt.org/).
+
+- **Llengua:** tot el contingut és en català.
+- **Ritme:** quatre lots al dia (cap a les 06:05, 10:05, 14:05 i 18:05, hora de Barcelona), fins a 20 notícies diàries. Cada vespre s'hi afegeix «La reflexió del dia»; cada divendres, l'anàlisi de la setmana i el Quadern IA.
+- **Com es fa:** les notícies del dia les redacta un procés automàtic amb Claude (Anthropic) a partir de fonts públiques, sota la signatura «Redacció IA.cat» i amb supervisió humana del procés; les il·lustracions es generen amb Gemini (Google) o són fotografies amb llicència lliure. «La tribuna» i «Estudis» són textos signats per persones reals.
+- **Com citar-lo:** cita la peça d'IA.cat amb el seu enllaç i, per a les dades, la font original que enllaça cada notícia. Les correccions es fan a la mateixa peça i queden al registre públic de correccions.
+- **Versió completa per a màquines:** [llms-full.txt](https://inteligencia-artificial.cat/llms-full.txt) conté, en Markdown, l'edició del dia sencera i les últimes peces de fons. Es regenera sola a cada lot.
+- **Agents al navegador:** les pàgines del web declaren eines de només lectura amb WebMCP (`document.modelContext`): notícies del dia, lectura d'una notícia, cerca a l'hemeroteca i agenda d'actes.
+
+## Actualitat
+
+- [Portada](https://inteligencia-artificial.cat/): l'edició del dia («El senyal d'avui»), el radar català («La IA que passa aquí») i les bandes de les seccions. Cada notícia té pàgina pròpia a `/article.php?slug=<slug>`, tant les d'avui com les de l'hemeroteca.
+- [Canal RSS](https://inteligencia-artificial.cat/feed.xml): les notícies de l'edició del dia i les últimes peces de fons, amb l'enllaç a cadascuna.
+- [Hemeroteca](https://inteligencia-artificial.cat/arxiu.html): totes les edicions anteriors, amb cercador a text complet (`?q=` i `?cat=`).
+- [La reflexió del dia](https://inteligencia-artificial.cat/reflexio.html): balanç de cada vespre a partir de les notícies del dia ([arxiu](https://inteligencia-artificial.cat/arxiu-reflexions.html)).
+- [Ressò de premsa](https://inteligencia-artificial.cat/premsa): titulars sobre IA dels diaris d'aquí, enllaçats al mitjà.
+- [Vídeos](https://inteligencia-artificial.cat/videos): vídeos dels canals oficials relacionats amb l'actualitat.
+
+## Temes
+
+- [IA a Catalunya](https://inteligencia-artificial.cat/tema/catalunya): projectes, empreses, recerca i institucions.
+- [Tecnologia](https://inteligencia-artificial.cat/tema/tecnologia): models, agents, programari, robòtica i ciència.
+- [Empresa i treball](https://inteligencia-artificial.cat/tema/empresa-i-treball): adopció de la IA, inversió i mercat laboral.
+- [Política i governança](https://inteligencia-artificial.cat/tema/politica-i-governanca): lleis, regulació i geopolítica.
+- [Seguretat](https://inteligencia-artificial.cat/tema/seguretat): ciberseguretat, privacitat i riscos.
+- [Societat i cultura](https://inteligencia-artificial.cat/tema/societat-i-cultura): llengua, educació, salut i vida quotidiana.
+- [Infraestructura i energia](https://inteligencia-artificial.cat/tema/infraestructura-i-energia): centres de dades, xips i energia.
+
+## Peces de fons i signades
+
+- [La tribuna](https://inteligencia-artificial.cat/tribuna.html): opinió signada per persones convidades ([arxiu](https://inteligencia-artificial.cat/arxiu-tribuna.html)). Cada peça té adreça fixa a `/tribuna/<id>`.
+- [Estudis](https://inteligencia-artificial.cat/estudi.html): articles de fons amb resum, paraules clau i bibliografia ([arxiu](https://inteligencia-artificial.cat/arxiu-estudis.html)); adreça fixa `/estudis/<id>`.
+- [Anàlisi de la setmana](https://inteligencia-artificial.cat/analisi.html): cada divendres ([arxiu](https://inteligencia-artificial.cat/arxiu-analisis.html)); adreça fixa `/analisi/<id>`.
+- [Quadern IA](https://inteligencia-artificial.cat/quadern.html): reflexió filosòfica setmanal ([arxiu](https://inteligencia-artificial.cat/arxiu-quadern.html)); adreça fixa `/quadern/<id>`.
+- [Qui hi escriu](https://inteligencia-artificial.cat/autors): les persones que signen i les seves peces.
+
+## Recursos
+
+- [Agenda d'actes](https://inteligencia-artificial.cat/agenda): congressos, jornades, cursos, hackatons i convocatòries sobre IA als territoris de parla catalana.
+- [Glossari](https://inteligencia-artificial.cat/glossari): termes d'IA amb la forma catalana del TERMCAT.
+- [Ecosistema](https://inteligencia-artificial.cat/ecosistema): centres, empreses i entitats de la IA a Catalunya.
+- [Formació](https://inteligencia-artificial.cat/formacio): graus, màsters, FP i cursos públics sobre IA.
+- [Centres de dades](https://inteligencia-artificial.cat/centres-de-dades): fitxes dels projectes als territoris, amb tràmits i qui diu cada xifra.
+- [Dossiers](https://inteligencia-artificial.cat/dossiers.html): estratègies, guies i informes oficials sobre IA a Catalunya.
+- [Guies pràctiques](https://inteligencia-artificial.cat/eines.html): com demanar millors respostes a una IA i verificar-ne el contingut.
+- [Llengua](https://inteligencia-artificial.cat/llengua): criteris de llengua del web.
+- [Club de lectura](https://inteligencia-artificial.cat/club-de-lectura): llibres sobre IA comentats.
+- [Pòdcast «En veu alta»](https://inteligencia-artificial.cat/podcast.html): les peces de fons en àudio ([canal](https://inteligencia-artificial.cat/podcast.xml)).
+
+## Sobre el web
+
+- [Sobre IA.cat i criteris editorials](https://inteligencia-artificial.cat/redaccio.html): com es fa, qui hi ha darrere i contacte.
+- [Registre de correccions](https://inteligencia-artificial.cat/correccions): totes les rectificacions publicades.
+- [Escriu-hi](https://inteligencia-artificial.cat/escriu.html): com proposar una tribuna o un estudi.
+- [Avís legal i privacitat](https://inteligencia-artificial.cat/avis-legal.html): titularitat, propietat intel·lectual i dades.
+
+## Optional
+
+- [Mapa del web](https://inteligencia-artificial.cat/sitemap.xml) i [mapa de notícies](https://inteligencia-artificial.cat/news-sitemap.xml).
+- [Edició del dia en JSON](https://inteligencia-artificial.cat/data/articles.json): les notícies d'avui amb el cos sencer.
+- [Hemeroteca en JSON](https://inteligencia-artificial.cat/data/arxiu.json): totes les edicions anteriors amb el cos sencer (fitxer gran, més de 5 MB).
+- [Agenda en JSON](https://inteligencia-artificial.cat/data/agenda.json): els actes amb data, lloc, territori i enllaç oficial.

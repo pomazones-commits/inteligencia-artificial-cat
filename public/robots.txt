@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
 
+# Agents i models de llenguatge: índex del web a /llms.txt i edició del dia
+# en Markdown a /llms-full.txt (https://llmstxt.org/).
+
 Sitemap: https://inteligencia-artificial.cat/sitemap.xml
 Sitemap: https://inteligencia-artificial.cat/news-sitemap.xml

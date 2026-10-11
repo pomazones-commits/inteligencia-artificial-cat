@@ -17,7 +17,7 @@ Header set Cache-Control "no-cache, must-revalidate"
 <FilesMatch "\.json$">
 Header set Cache-Control "no-cache, must-revalidate"
 </FilesMatch>
-<FilesMatch "\.(html|php)$">
+<FilesMatch "\.(html|php|txt)$">
 Header set Cache-Control "no-cache, must-revalidate"
 </FilesMatch>
 <FilesMatch "\.(jpg|jpeg|png|webp|gif|svg|mp3)$">
@@ -28,6 +28,14 @@ Header set Cache-Control "public, max-age=2592000, immutable"
 <FilesMatch "\.(woff2|woff)$">
 Header set Cache-Control "public, max-age=31536000, immutable"
 </FilesMatch>
+</IfModule>
+
+# Textos plans en UTF-8 (11.10.2026): sense això, llms.txt i robots.txt podien
+# sortir sense joc de caràcters i un agent llegiria «intelÂ·ligÃ¨ncia».
+# (Només AddCharset, de mod_mime: el mateix nivell de permís que ja fan servir
+# les regles de reescriptura, i no toca cap altra resposta del web.)
+<IfModule mod_mime.c>
+AddCharset UTF-8 .txt .md
 </IfModule>
 
 # Fitxers privats de dades: mai no s'han de poder descarregar per HTTP.
@@ -58,6 +66,9 @@ RewriteRule ^ https://inteligencia-artificial.cat%{REQUEST_URI} [R=301,L]
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
 RewriteRule ^news-sitemap\.xml$ news-sitemap.php [L]
 RewriteRule ^feed\.xml$ feed.php [L]
+# Agents d'IA (11.10.2026): /llms.txt és un fitxer estàtic (l'índex del web) i
+# /llms-full.txt, l'edició del dia en Markdown, el genera llms-full.php.
+RewriteRule ^llms-full\.txt$ llms-full.php [L]
 RewriteRule ^tema/([a-z0-9-]+)/?$ tema.php?tema=$1 [L,QSA]
 
 # Adreces fixes de les peces editorials (24.09.2026): /tribuna/<id>, /estudis/<id>,
