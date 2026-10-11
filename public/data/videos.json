@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-10T04:13:40.451Z",
+ "actualitzat": "2026-10-11T08:12:51.199Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "Ju-JyxDgV7g",
+   "titol": "How Oracle Uses Codex to Help Business Users Get Answers",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-10-10T21:40:25.000Z",
+   "descripcio": "Richard Lam, Group Vice President at Oracle Applications Lab, shares how his team uses Codex to help business users get answers from company data. By describing the outcome they want, users can get an analysis, a report, or an application, with Codex gathering the information from internal systems. ",
+   "miniatura": "/assets/videos/Ju-JyxDgV7g.jpg"
+  },
   {
    "id": "p5KxBTUncoE",
    "titol": "Set up your dot in the ChatGPT mobile app",
