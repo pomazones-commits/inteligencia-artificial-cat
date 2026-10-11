@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-11T08:12:45.606Z",
+ "actualitzat": "2026-10-11T12:11:48.751Z",
  "fonts": 29,
  "articles": [
   {
@@ -190,7 +190,9 @@
    "ambit": "catala",
    "titol": "Tarragona detecta casos de montajes sexuales de menores con IA",
    "url": "https://www.diaridetarragona.com/tarragona/272780/tarragona-detecta-casos-montajes-sexuales-menores-ia.html",
-   "publicat": "2026-10-10T03:00:00.000Z"
+   "publicat": "2026-10-10T03:00:00.000Z",
+   "noticia": "tarragona-fiscalia-montatges-sexuals-menors-ia-casos",
+   "noticiaTitol": "La Fiscalia de Tarragona detecta casos de menors que fan servir la IA per crear imatges sexuals falses de companyes"
   },
   {
    "id": "a09a08958bc4",
