@@ -1,0 +1,81 @@
+name: La IA a la ràdio — logos de les emissores
+
+# 11.10.2026. Baixa UNA vegada la icona oficial de cada emissora de
+# public/data/radio.json («emissores» → «icona») a public/assets/radio/ i
+# actualitza public/data/radio-icones.json. El web la serveix des del nostre
+# servidor: el lector no fa mai cap petició a l'emissora.
+# Detall: capçalera d'automation/scripts/icones-radio.mjs.
+#
+# Quan corre: en cada push que toqui public/data/radio.json (una emissora nova
+# porta el seu logo) i a mà (Actions → «La IA a la ràdio — logos de les
+# emissores» → «Run workflow»). Idempotent: si no hi ha cap icona nova, no fa
+# cap commit. MAI no toca res fora de public/assets/radio/ i
+# public/data/radio-icones.json.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - public/data/radio.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: radio-icones
+  cancel-in-progress: false
+
+jobs:
+  icones:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Recuperar el web
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validar les fitxes
+        run: node scripts/valida-radio.mjs
+
+      - name: Baixar els logos que faltin
+        run: node automation/scripts/icones-radio.mjs --public-dir public
+
+      - name: Publicar si hi ha canvis
+        id: publica
+        run: |
+          git config user.name "intel·ligènciaartificial.cat bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -f public/data/radio-icones.json ]; then git add public/data/radio-icones.json; fi
+          if [ -d public/assets/radio ]; then git add public/assets/radio; fi
+          if git diff --cached --quiet; then
+            echo "Cap logo nou."
+            echo "canvis=no" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "[ràdio] logos de les emissores"
+          for intent in 1 2 3; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "canvis=si" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep $((intent * 10))
+          done
+          echo "::error::No he pogut pujar els logos després de tres intents."
+          exit 1
+
+      # Un push fet amb el GITHUB_TOKEN no dispara el desplegament. Un workflow_dispatch, sí.
+      - name: Desplegar
+        if: steps.publica.outputs.canvis == 'si'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run desplega.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar el desplegament; el cron :08/:38 ho repescarà."
