@@ -223,8 +223,9 @@
     const latestList = document.querySelector('#latest-list');
     // La numeració continua la del carrusel (05, 06…) perquè es vegi que són notícies noves.
     latestList.style.counterReset = `latest ${splitEdition ? 4 : 0}`;
+    // 11.10.2026: miniatura quadrada de cada notícia (la imatge es carrega quan s'hi arriba).
     latestList.innerHTML = latestNews.map(story => `
-      <li><div><time>${escapeHTML(story.category)}</time><a href="${escapeHTML(storyHref(story))}">${escapeHTML(story.title)}</a></div></li>
+      <li${story.image ? ' class="has-thumb"' : ''}><div><time>${escapeHTML(story.category)}</time><a href="${escapeHTML(storyHref(story))}">${escapeHTML(story.title)}</a></div>${story.image ? `<a class="latest-thumb" href="${escapeHTML(storyHref(story))}" tabindex="-1" aria-hidden="true"><img src="${escapeHTML(story.image)}" alt="" loading="lazy" decoding="async"></a>` : ''}</li>
     `).join('');
 
     // ——— Graella de notícies del dia ———

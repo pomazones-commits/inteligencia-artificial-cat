@@ -136,6 +136,17 @@ button { color: inherit; }
 .latest-panel h2 { margin: 18px 0 8px; font: 500 34px/1 var(--serif); letter-spacing: -.02em; }
 .latest-list { margin: 0; padding: 0; list-style: none; counter-reset: latest; }
 .latest-list li { counter-increment: latest; position: relative; display: grid; grid-template-columns: 34px 1fr; gap: 8px; padding: 15px 0; border-top: 1px solid var(--line); }
+/* 11.10.2026: amb miniatura, la foto ocupa la columna del número i el número hi va a sobre
+   (així el titular conserva l'amplada i el bloc no s'allarga). */
+.latest-list li.has-thumb { grid-template-columns: 68px minmax(0,1fr); gap: 8px 14px; }
+.latest-list li.has-thumb > div { grid-column: 2; grid-row: 1; }
+.latest-list li.has-thumb .latest-thumb { grid-column: 1; grid-row: 1; }
+.latest-list li.has-thumb::before { position: absolute; z-index: 1; top: 21px; left: 5px; padding: 1px 6px; border-radius: 6px; color: #fff; background: rgba(17,21,38,.78); font-size: 11px; }
+.latest-list li.has-thumb::after { display: none; }
+.latest-list li.has-thumb a { font-size: 16px; }
+.latest-thumb { display: block; width: 68px; height: 68px; overflow: hidden; border-radius: 12px; background: #dbe0ea; }
+.latest-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .45s; }
+.latest-list li:hover .latest-thumb img { transform: scale(1.06); }
 .latest-list li::before { content: counter(latest,decimal-leading-zero); color: var(--blue); font: 600 13px var(--mono); }
 .latest-list li::after { content: ""; position: absolute; left: 14px; top: 39px; bottom: -1px; width: 1px; background: #e4e8f0; }
 .latest-list li:last-child::after { display: none; }
@@ -299,6 +310,8 @@ button { color: inherit; }
   .hero-story h2 { font-size: 27px; }
   .hero-story__dek { font-size: 15px; }
   .latest-list a { font-size: 16px; }
+  .latest-list li.has-thumb { grid-template-columns: 64px minmax(0,1fr); gap: 8px 12px; }
+  .latest-thumb { width: 64px; height: 64px; border-radius: 10px; }
   .latest-list { display: block; }
   .section-heading { grid-template-columns: 1fr auto; gap: 7px; }
   .section-heading > p { grid-column: 1/-1; }
