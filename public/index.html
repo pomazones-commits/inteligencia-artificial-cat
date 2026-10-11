@@ -27,9 +27,11 @@
   <link rel="stylesheet" href="./xarxes-peu.css?v=2026101101">
   <link rel="stylesheet" href="./cartell.css?v=2026101102">
   <link rel="stylesheet" href="./premsa.css?v=2026101102">
+  <link rel="stylesheet" href="./radio-portada.css?v=2026101101">
   <script defer src="./app.js?v=2026101104"></script>
   <script defer src="./cartell.js?v=2026101102"></script>
   <script defer src="./premsa.js?v=2026101101"></script>
+  <script defer src="./radio-portada.js?v=2026101101"></script>
 </head>
 <body>
   <a class="skip-link" href="#contingut">Ves al contingut</a>
@@ -173,6 +175,11 @@
     <!-- 10.10.2026: ressò de premsa (premsa.js + premsa.css, dades de data/premsa.json,
          que omple el workflow premsa.yml). Amagat si no hi ha prou peces. -->
     <section class="premsa-band" id="premsa" hidden aria-labelledby="premsa-titol"></section>
+
+    <!-- 11.10.2026: la IA a la ràdio (radio-portada.js + radio-portada.css, dades de
+         data/radio.json, manuals, i logos de data/radio-icones.json). Amagat si no
+         hi ha prou intervencions recents. -->
+    <section class="radio-band" id="radio" hidden aria-labelledby="radio-titol"></section>
 
     <section class="tribuna-band" id="tribuna" hidden>
       <div class="shell tribuna-layout">

@@ -23,6 +23,10 @@ const HTTPS = /^https:\/\/[a-z0-9.-]+\.[a-z]{2,}(\/[^\s"'<>]*)?$/i;
 // Han de coincidir amb $reproductors de public/radio.php i TIPUS de public/radio.js.
 const REPRODUCTORS = {
   '3cat': { id: /^\d{4,9}$/, url: /^https:\/\/www\.3cat\.cat\/(3cat|catradio|3catinfo)\/.+\/audio\/(\d+)\/$/ },
+  rtve: { id: /^\d{5,10}$/, url: /^https:\/\/www\.rtve\.es\/play\/audios\/[a-z0-9-]+\/[a-z0-9-]+\/(\d+)\/$/ },
+  omny: { id: /^[a-z0-9-]+\/[a-z0-9-]+$/, url: /^https:\/\/omny\.fm\/shows\/([a-z0-9-]+\/[a-z0-9-]+)$/ },
+  soundcloud: { id: /^\d{4,12}$/, url: HTTPS },
+  youtube: { id: /^[A-Za-z0-9_-]{11}$/, url: HTTPS },
   enllac: { id: null, url: HTTPS }
 };
 const paraules = t => String(t || '').trim().split(/\s+/).filter(Boolean).length;
@@ -31,6 +35,11 @@ const avui = new Date().toISOString().slice(0, 10);
 if (!ISO.test(dades.actualitzat || '')) errors.push('actualitzat: ha de ser AAAA-MM-DD');
 const temes = dades.temes && typeof dades.temes === 'object' ? dades.temes : {};
 if (!Object.keys(temes).length) errors.push('temes: falta el diccionari de temes');
+const emissores = dades.emissores && typeof dades.emissores === 'object' ? dades.emissores : {};
+for (const [nom, e] of Object.entries(emissores)) {
+  if (!HTTPS.test(e?.web || '')) errors.push(`emissora ${nom}: web ha de ser https`);
+  if (e?.icona && !HTTPS.test(e.icona)) errors.push(`emissora ${nom}: icona ha de ser https`);
+}
 if (!Array.isArray(dades.intervencions)) errors.push('intervencions: ha de ser una llista');
 
 const ids = new Set();
@@ -40,12 +49,13 @@ for (const [n, f] of (dades.intervencions || []).entries()) {
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(f.id || '')) errors.push(`${on}: id buit o amb caràcters no permesos`);
   if (ids.has(f.id)) errors.push(`${on}: id repetit`);
   ids.add(f.id);
-  for (const camp of ['emissora', 'programa', 'titol', 'resum', 'durada']) {
+  for (const camp of ['emissora', 'programa', 'titol', 'resum']) {
     if (!String(f[camp] || '').trim()) errors.push(`${on}: falta ${camp}`);
   }
   if (!ISO.test(f.data || '')) errors.push(`${on}: data ha de ser AAAA-MM-DD`);
   else if (f.data > avui) errors.push(`${on}: data futura (${f.data})`);
   if (f.durada && !/^(\d+ h )?\d+ min$/.test(f.durada)) errors.push(`${on}: durada «${f.durada}» (format «53 min» o «1 h 9 min»)`);
+  if (!emissores[f.emissora]) errors.push(`${on}: l'emissora «${f.emissora}» no és a «emissores»`);
   if (!temes[f.tema]) errors.push(`${on}: tema «${f.tema}» no és a «temes»`);
   if (!HTTPS.test(f.url || '')) errors.push(`${on}: url ha de ser https`);
   if (urls.has(f.url)) errors.push(`${on}: url repetida (la mateixa intervenció dues vegades?)`);
@@ -68,11 +78,11 @@ for (const [n, f] of (dades.intervencions || []).entries()) {
   if (!tipus) { errors.push(`${on}: reproductor.tipus «${r.tipus}» no admès (${Object.keys(REPRODUCTORS).join(' | ')})`); continue; }
   if (tipus.id && !tipus.id.test(String(r.id || ''))) errors.push(`${on}: reproductor.id «${r.id}» no vàlid per a ${r.tipus}`);
   if (f.url && !tipus.url.test(f.url)) errors.push(`${on}: la url no és una pàgina d'àudio de ${r.tipus}`);
-  if (r.tipus === '3cat') {
-    const m = String(f.url || '').match(tipus.url);
-    if (m && m[2] !== String(r.id)) errors.push(`${on}: l'id del reproductor (${r.id}) no coincideix amb el de la url (${m[2]})`);
-    if (f.id !== `3cat-${r.id}`) errors.push(`${on}: per a 3Cat, l'id ha de ser «3cat-${r.id}»`);
+  const m = String(f.url || '').match(tipus.url);
+  if ((r.tipus === '3cat' || r.tipus === 'rtve' || r.tipus === 'omny') && m && m[m.length - 1] !== String(r.id)) {
+    errors.push(`${on}: l'id del reproductor (${r.id}) no coincideix amb el de la url (${m[m.length - 1]})`);
   }
+  if (r.tipus === '3cat' && f.id !== `3cat-${r.id}`) errors.push(`${on}: per a 3Cat, l'id ha de ser «3cat-${r.id}»`);
 }
 
 if (errors.length) {

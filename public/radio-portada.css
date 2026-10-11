@@ -1,0 +1,99 @@
+/* ——— La IA a la ràdio a la portada (11.10.2026) ———
+   Banda #radio, just després de «La premsa en parla». La pinta
+   public/radio-portada.js a partir de public/data/radio.json; amagada si no hi
+   ha prou intervencions recents. Full independent per no tocar portada.css
+   (regla de CLAUDE.md). Distinció visual respecte de la premsa (paper blanc):
+   fons d'estudi fosc i sobri, amb el logo de cada emissora sobre blanc. */
+
+.radio-band { width: var(--shell); margin: 0 auto 26px; }
+.radio-band[hidden] { display: none; }
+
+.radio-layout {
+  padding: 32px 36px 34px;
+  border-radius: 34px;
+  color: #fff;
+  background: linear-gradient(150deg, #151a2e, var(--ink));
+  box-shadow: 0 22px 60px rgba(17, 21, 38, .14);
+}
+
+.radio-cap {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 18px 34px;
+  align-items: end;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, .14);
+}
+.radio-cap__eti {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  margin: 0 0 12px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(255, 255, 255, .08);
+  font: 600 12px var(--mono);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.radio-cap__eti i { width: 7px; height: 7px; border-radius: 50%; background: var(--coral); box-shadow: 0 0 0 4px rgba(255, 109, 98, .2); }
+.radio-cap h2 { margin: 0; font: 500 40px/1.02 var(--serif); letter-spacing: -.04em; white-space: nowrap; }
+.radio-cap > p { max-width: 560px; margin: 0; color: #b9c0d6; font-size: 14px; line-height: 1.6; }
+.radio-cap__tot { justify-self: start; color: var(--lime); font-weight: 600; font-size: 14px; text-decoration: none; border-bottom: 1px solid currentColor; white-space: nowrap; }
+.radio-cap__tot:focus-visible, .radio-peca__enllac:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+
+.radio-llista {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 22px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.radio-peca { min-width: 0; }
+.radio-peca__enllac {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 22px;
+  color: inherit;
+  background: rgba(255, 255, 255, .04);
+  text-decoration: none;
+  transition: background .2s, border-color .2s;
+}
+.radio-peca__enllac:hover { background: rgba(255, 255, 255, .08); border-color: rgba(255, 255, 255, .22); }
+
+.radio-peca__cap { display: flex; gap: 10px; align-items: center; min-width: 0; }
+.radio-peca__cap > span:last-child { display: grid; min-width: 0; }
+.radio-peca__cap strong { overflow: hidden; color: #fff; font: 700 12px var(--mono); letter-spacing: .04em; text-transform: uppercase; text-overflow: ellipsis; white-space: nowrap; }
+.radio-peca__cap small { overflow: hidden; color: #aeb6c8; font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
+.radio-peca__logo { display: grid; flex: 0 0 auto; place-items: center; width: 34px; height: 34px; overflow: hidden; border-radius: 9px; background: #fff; }
+.radio-peca__logo img { width: 100%; height: 100%; object-fit: contain; }
+.radio-peca__logo.is-buit { color: var(--ink); background: var(--lime); font: 700 16px/1 var(--serif); }
+
+.radio-peca__titol { font: 500 19px/1.24 var(--serif); letter-spacing: -.015em; overflow-wrap: anywhere; }
+.radio-peca__enllac:hover .radio-peca__titol { color: var(--cyan); }
+.radio-peca__qui { margin: 0; color: #c9cfe6; font-size: 13px; line-height: 1.45; }
+.radio-peca__qui span { display: inline-block; margin-right: 4px; padding: 1px 7px; border-radius: 999px; color: var(--ink); background: var(--lime); font: 600 10px/1.6 var(--mono); letter-spacing: .08em; text-transform: uppercase; vertical-align: 1px; }
+.radio-peca__peu { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; margin-top: auto; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, .1); color: #aeb6c8; font: 500 11px var(--mono); letter-spacing: .04em; text-transform: uppercase; }
+.radio-peca__escolta { margin-left: auto; color: var(--lime); font-weight: 600; }
+
+@media (max-width: 1100px) {
+  .radio-cap { grid-template-columns: 1fr auto; }
+  .radio-cap > p { grid-column: 1 / -1; grid-row: 2; }
+  .radio-llista { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 620px) {
+  .radio-layout { padding: 26px 20px; border-radius: 26px; }
+  .radio-cap { grid-template-columns: 1fr; }
+  .radio-cap h2 { font-size: 32px; white-space: normal; }
+  .radio-llista { grid-template-columns: 1fr; }
+  /* Al mòbil, només les dues més recents: la portada ja és llarga. */
+  .radio-peca:nth-child(n+3) { display: none; }
+}

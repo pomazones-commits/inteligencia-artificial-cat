@@ -1,10 +1,20 @@
 /* La IA a la ràdio (11.10.2026) — /radio. Full propi: no es toquen seccions.css,
    editorial.css ni portada.css. Fa servir les variables d'editorial.css. */
+.ona-filtres{display:grid;gap:10px;margin-top:30px}
+.ona-filtres .xips{margin:0}
 .ona-filtres a[aria-current="page"]{border-color:var(--ed-ink);background:var(--ed-ink);color:#fff}
+.ona-emissores a{display:inline-flex;align-items:center;gap:7px}
+.ona-emissores .ona-logo{border-radius:5px}
+/* Logo de l'emissora: icona oficial desada al nostre servidor (radio-icones.yml), sempre sobre blanc. */
+.ona-logo{display:inline-grid;flex:0 0 auto;place-items:center;overflow:hidden;border:1px solid var(--ed-line);border-radius:10px;background:#fff}
+.ona-logo img{display:block;width:100%;height:100%;object-fit:contain}
+.ona-logo--inicial{background:var(--ed-blue-soft);color:var(--ed-blue);font:700 17px/1 var(--ed-serif)}
+.ona-emissores .ona-logo--inicial{font-size:10px}
+.ona__cap{display:flex;align-items:center;gap:12px}
 .ones{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:0;padding:0;list-style:none}
 .ona{display:flex;flex-direction:column;min-width:0;padding:24px 24px 20px;border:1px solid var(--ed-line);border-radius:14px;background:var(--ed-paper)}
 .ona__meta{margin:0;color:var(--ed-blue);font:600 10px/1.5 var(--ed-mono);letter-spacing:.08em;text-transform:uppercase}
-.ona__meta strong{font-weight:700}
+.ona__meta strong,.ona__meta .ona__emissora{font-weight:700}
 .ona__meta a{color:inherit;text-decoration:none;border-bottom:1px solid transparent}
 .ona__meta a:hover,.ona__meta a:focus-visible{border-bottom-color:currentColor}
 .ona__data{margin:4px 0 0;color:var(--ed-muted);font:500 10px/1.6 var(--ed-mono);letter-spacing:.06em;text-transform:uppercase}
@@ -26,6 +36,7 @@
 .ona__icona::after{content:"";position:absolute;left:12px;top:9px;border-style:solid;border-width:6px 0 6px 10px;border-color:transparent transparent transparent var(--ed-ink)}
 .ona__avis{margin:8px 0 0;color:var(--ed-muted);font-size:12px;line-height:1.5}
 .ona__marc{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:10px;background:#111526}
+.ona__marc--barra{border-radius:12px;background:transparent}
 .ona__marc iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .ona__peu{margin:14px 0 0;padding-top:12px;border-top:1px solid var(--ed-line);font:600 10px var(--ed-mono);letter-spacing:.06em;text-transform:uppercase}
 .ona__peu a{color:var(--ed-blue);text-decoration:none}
