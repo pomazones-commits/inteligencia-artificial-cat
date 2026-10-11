@@ -18,7 +18,8 @@ name: Ressò de premsa — recollida dels diaris
 #   - a mà: Actions → «Ressò de premsa — recollida dels diaris» → «Run workflow».
 #
 # Idempotent: si la llista no ha canviat no fa cap commit. MAI no toca res fora
-# de public/data/premsa.json.
+# de public/data/premsa.json i public/assets/premsa/ (les icones dels diaris,
+# que es baixen UNA vegada i es serveixen des del nostre servidor; 11.10.2026).
 
 on:
   workflow_run:
@@ -66,6 +67,7 @@ jobs:
           git config user.name "intel·ligènciaartificial.cat bot"
           git config user.email "actions@users.noreply.github.com"
           git add public/data/premsa.json
+          if [ -d public/assets/premsa ]; then git add public/assets/premsa; fi
           if git diff --cached --quiet; then
             echo "Cap canvi al ressò de premsa."
             echo "canvis=no" >> "$GITHUB_OUTPUT"

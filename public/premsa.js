@@ -50,12 +50,18 @@
     return triats;
   }
 
+  // 11.10.2026: icona oficial del diari, desada al nostre servidor (/assets/premsa/).
+  // Si no n'hi ha o no carrega, només surt el nom.
+  const icona = p => /^\/assets\/premsa\/[a-z0-9-]+\.(png|svg|webp|jpg|ico)$/.test(p.icona || '')
+    ? `<img class="premsa-peca__icona" src="${esc(p.icona)}" alt="" width="20" height="20" loading="lazy" decoding="async" onerror="this.remove()">`
+    : '';
+
   function peca(p, ara) {
     const url = urlSegura(p.url);
     const llengua = LLENGUA[p.llengua] ? `<span class="premsa-peca__llengua">${LLENGUA[p.llengua]}</span>` : '';
     const nostra = /^[a-z0-9-]+$/.test(p.noticia || '') ? `<a class="premsa-peca__nostra" href="/article.php?slug=${esc(p.noticia)}">La notícia a IA.cat</a>` : '';
     return `<li class="premsa-peca${p.destacat && p.comentari ? ' premsa-peca--destacada' : ''}">
-        <p class="premsa-peca__meta"><strong>${esc(p.mitja)}</strong><time datetime="${esc(p.publicat)}">${esc(quan(p.publicat, ara))}</time>${llengua}</p>
+        <p class="premsa-peca__meta">${icona(p)}<strong>${esc(p.mitja)}</strong><time datetime="${esc(p.publicat)}">${esc(quan(p.publicat, ara))}</time>${llengua}</p>
         <h3 class="premsa-peca__titol"><a href="${esc(url)}" target="_blank" rel="noopener">${esc(p.titol)}<span class="premsa-peca__fora" aria-hidden="true"> ↗</span><span class="sr-only"> (s'obre a ${esc(p.mitja)})</span></a></h3>
         ${p.destacat && p.comentari ? `<p class="premsa-peca__comentari"><span>Per què llegir-la</span> ${esc(p.comentari)}</p>` : ''}
         ${nostra}

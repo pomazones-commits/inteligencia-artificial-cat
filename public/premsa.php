@@ -66,7 +66,7 @@ function premsa_peca(array $p, array $llengues, DateTimeZone $zona, bool $coment
     $noticia = preg_replace('/[^a-z0-9-]/', '', strtolower((string) ($p['noticia'] ?? '')));
     ?>
         <li class="pr-peca<?= $comentari && !empty($p['destacat']) && !empty($p['comentari']) ? ' pr-peca--destacada' : '' ?>">
-          <p class="pr-peca__meta"><strong><?= iacat_e((string) ($p['mitja'] ?? '')) ?></strong> · <time datetime="<?= iacat_e((string) ($p['publicat'] ?? '')) ?>"><?= iacat_e($hora) ?></time><?php if ($llengua !== ''): ?> · <span><?= iacat_e($llengua) ?></span><?php endif; ?></p>
+          <p class="pr-peca__meta"><?php if (preg_match('#^/assets/premsa/[a-z0-9-]+\.(png|svg|webp|jpg|ico)$#', (string) ($p['icona'] ?? '')) && is_file(__DIR__ . (string) $p['icona'])): ?><img class="pr-peca__icona" src="<?= iacat_e((string) $p['icona']) ?>" alt="" width="20" height="20" loading="lazy" decoding="async"><?php endif; ?><strong><?= iacat_e((string) ($p['mitja'] ?? '')) ?></strong> · <time datetime="<?= iacat_e((string) ($p['publicat'] ?? '')) ?>"><?= iacat_e($hora) ?></time><?php if ($llengua !== ''): ?> · <span><?= iacat_e($llengua) ?></span><?php endif; ?></p>
           <h3 class="pr-peca__titol"><a href="<?= iacat_e((string) $p['url']) ?>" target="_blank" rel="noopener"><?= iacat_e((string) $p['titol']) ?> <span aria-hidden="true">↗</span></a></h3>
 <?php if ($comentari && !empty($p['destacat']) && !empty($p['comentari'])): ?>
           <p class="pr-peca__comentari"><span>Per què llegir-la</span> <?= iacat_e((string) $p['comentari']) ?></p>
@@ -84,7 +84,7 @@ iacat_capcalera([
     'descripcio' => 'Què publiquen sobre intel·ligència artificial l’Ara, VilaWeb, El Periódico, La Vanguardia, El Nacional, El País i la resta de diaris, recollit cada dues hores amb l’enllaç a la peça original.',
     'cami' => '/premsa',
     'molla' => 'Ressò de premsa',
-    'css' => ['/premsa-pagina.css?v=2026101001'],
+    'css' => ['/premsa-pagina.css?v=2026101101'],
     'jsonld' => ['@context' => 'https://schema.org', '@type' => 'CollectionPage', 'name' => 'Ressò de premsa: la IA als diaris', 'url' => IACAT_BASE . '/premsa', 'inLanguage' => 'ca'],
 ]);
 ?>

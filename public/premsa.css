@@ -56,8 +56,10 @@
 .premsa-llista > .premsa-peca--destacada:first-child { margin-top: 14px; }
 .premsa-peca--destacada { grid-column: 1 / -1; padding: 20px 22px; margin: 4px 0 10px; border: 0; border-radius: 22px; background: var(--ink); color: #fff; }
 
-.premsa-peca__meta { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; margin: 0 0 6px; color: var(--muted); font: 500 12px var(--mono); letter-spacing: .05em; text-transform: uppercase; }
+.premsa-peca__meta { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; margin: 0 0 6px; color: var(--muted); font: 500 12px var(--mono); letter-spacing: .05em; text-transform: uppercase; }
 .premsa-peca__meta strong { color: #a33127; font-weight: 700; }
+/* 11.10.2026: icona oficial del diari (desada a /assets/premsa/). */
+.premsa-peca__icona { width: 20px; height: 20px; margin-right: -4px; border-radius: 5px; object-fit: contain; background: #fff; box-shadow: 0 0 0 1px rgba(17, 21, 38, .1); }
 .premsa-peca__llengua { padding: 1px 7px; border-radius: 999px; background: #eef0f6; color: #4d566d; }
 
 .premsa-peca__titol { margin: 0; font: 500 19px/1.25 var(--serif); letter-spacing: -.015em; overflow-wrap: anywhere; }

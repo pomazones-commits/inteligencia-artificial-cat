@@ -1233,3 +1233,43 @@ test('premsa: la comanda desa la llista, no la reescriu si no ha canviat i no s�
   assert.equal(candidats.status, 0, candidats.stderr);
   assert.match(candidats.stdout, /Ara \| La IA i el català \| https:\/\/www\.ara\.cat\/ia-catala\.html {2}\[ja destacada\]/);
 });
+
+test('premsa: icones dels diaris — nom curt, fitxers acceptats i ruta local a cada peça', async () => {
+  const { slugMitja, iconaAcceptable, posaIcones } = await import(premsa);
+  assert.equal(slugMitja('El Periódico'), 'el-periodico');
+  assert.equal(slugMitja("Diari d'Andorra"), 'diari-d-andorra');
+  assert.equal(slugMitja('À Punt'), 'a-punt');
+  assert.equal(slugMitja('elDiario.es'), 'eldiario-es');
+  const png = new Uint8Array(400);
+  assert.equal(iconaAcceptable('image/png', png, 'https://x.cat/i.png'), 'png');
+  assert.equal(iconaAcceptable('application/octet-stream', png, 'https://x.cat/favicon.ico'), 'ico');
+  assert.equal(iconaAcceptable('text/html', png, 'https://x.cat/i.png'), null, 'una pàgina HTML no és una icona');
+  assert.equal(iconaAcceptable('image/png', new Uint8Array(300 * 1024), 'https://x.cat/i.png'), null, 'massa gran');
+  const svgBo = new TextEncoder().encode('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"><rect width="10" height="10" fill="#c00"/></svg>' + ' '.repeat(40));
+  const svgDolent = new TextEncoder().encode('<svg xmlns="http://www.w3.org/2000/svg" onload="alert(1)"><script>alert(1)</script></svg>' + ' '.repeat(40));
+  assert.equal(iconaAcceptable('image/svg+xml', svgBo, 'https://x.cat/i.svg'), 'svg');
+  assert.equal(iconaAcceptable('image/svg+xml', svgDolent, 'https://x.cat/i.svg'), null, 'un SVG amb codi no entra mai');
+  const peces = posaIcones([{ mitja: 'Ara' }, { mitja: 'Diari mut', icona: '/assets/premsa/vella.png' }], new Map([['ara', '/assets/premsa/ara.svg']]));
+  assert.equal(peces[0].icona, '/assets/premsa/ara.svg');
+  assert.equal(peces[1].icona, undefined, 'sense fitxer, la peça no porta icona');
+
+  // La comanda posa la icona local a les peces del diari que en té (en mode fixtures no baixa res).
+  const root = await mkdtemp(join(tmpdir(), 'ia-premsa-icones-'));
+  const fixtures = join(root, 'fx');
+  const publicDir = join(root, 'public');
+  spawnSync('mkdir', ['-p', fixtures, join(publicDir, 'data'), join(publicDir, 'assets', 'premsa')]);
+  await writeFile(join(publicDir, 'assets', 'premsa', 'ara.svg'), svgBo);
+  await writeFile(join(root, 'fonts.json'), JSON.stringify({ fonts: [
+    { id: 'ara', nom: 'Ara', url: 'https://www.ara.cat/rss/', llengua: 'ca', ambit: 'catala', mira: 'titol', icona: 'https://www.ara.cat/icona.svg' },
+    { id: 'vilaweb', nom: 'VilaWeb', url: 'https://www.vilaweb.cat/feed/', llengua: 'ca', ambit: 'catala', mira: 'titol' }
+  ], exclou: [] }));
+  const ahir = new Date(Date.now() - 86400000).toUTCString();
+  await writeFile(join(fixtures, 'ara.xml'), rssXml([{ titol: 'La IA i el català', url: 'https://www.ara.cat/ia.html', data: ahir }]));
+  await writeFile(join(fixtures, 'vilaweb.xml'), rssXml([{ titol: 'Un xatbot de la IA a l’escola', url: 'https://www.vilaweb.cat/ia.html', data: ahir }]));
+  const sortida = join(publicDir, 'data', 'premsa.json');
+  const r = spawnSync(process.execPath, [premsa, '--fonts', join(root, 'fonts.json'), '--sortida', sortida, '--destacats', join(root, 'cap.json'), '--public-dir', publicDir, '--fixtures', fixtures], { cwd: root, encoding: 'utf8' });
+  assert.equal(r.status, 0, r.stderr);
+  const dades = JSON.parse(await readFile(sortida, 'utf8'));
+  assert.equal(dades.articles.find(p => p.mitja === 'Ara').icona, '/assets/premsa/ara.svg');
+  assert.equal(dades.articles.find(p => p.mitja === 'VilaWeb').icona, undefined);
+});

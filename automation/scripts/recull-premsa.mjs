@@ -38,7 +38,7 @@
 //     → llista per a la sessió editorial (no baixa res; llegeix premsa.json).
 
 import { createHash } from 'node:crypto';
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
@@ -298,7 +298,7 @@ export function validaFonts(config) {
     let ok = f && ID_FONT.test(f.id || '') && f.nom && AMBITS.has(f.ambit) && /^https:\/\//.test(f.url || '');
     if (ok && fonts.some(x => x.id === f.id)) ok = false;
     if (!ok) { errors.push(`font invàlida: ${JSON.stringify(f)}`); continue; }
-    fonts.push({ id: f.id, nom: String(f.nom), url: f.url, llengua: /^[a-z]{2}$/.test(f.llengua || '') ? f.llengua : 'ca', ambit: f.ambit, mira: MIRA.has(f.mira) ? f.mira : 'titol' });
+    fonts.push({ id: f.id, nom: String(f.nom), url: f.url, llengua: /^[a-z]{2}$/.test(f.llengua || '') ? f.llengua : 'ca', ambit: f.ambit, mira: MIRA.has(f.mira) ? f.mira : 'titol', ...(/^https:\/\/[^\s"'<>]+$/.test(f.icona || '') ? { icona: f.icona } : {}) });
   }
   const exclou = new Set((Array.isArray(config?.exclou) ? config.exclou : []).map(urlCanonica).filter(Boolean));
   return { fonts, exclou, errors };
@@ -316,7 +316,78 @@ function args(argv) {
   return out;
 }
 
-const CAMPS = ['id', 'mitja', 'font', 'llengua', 'ambit', 'titol', 'url', 'publicat', 'destacat', 'comentari', 'noticia', 'noticiaTitol'];
+const CAMPS = ['id', 'mitja', 'font', 'icona', 'llengua', 'ambit', 'titol', 'url', 'publicat', 'destacat', 'comentari', 'noticia', 'noticiaTitol'];
+
+// --- Icones de capçalera (11.10.2026) ---------------------------------------------
+//
+// En Rafael va voler que al costat del nom de cada diari hi sortís la seva icona
+// oficial (la de la pestanya del navegador). Es baixa UNA vegada de l'adreça
+// del camp `icona` d'automation/press-sources.json i es DESA AL NOSTRE SERVIDOR
+// (public/assets/premsa/<mitja>.<ext>): el lector no fa mai cap petició al diari
+// (vegeu l'avís legal: cap recurs de tercers). Si el fitxer ja hi és, no es torna
+// a baixar; per renovar-la, esborra el fitxer. Cada peça porta `icona` amb la
+// ruta local només si el fitxer existeix.
+
+export const DIR_ICONES = 'assets/premsa';
+const MAX_ICONA = 200 * 1024;
+const EXT_ICONA = { 'image/png': 'png', 'image/svg+xml': 'svg', 'image/webp': 'webp', 'image/jpeg': 'jpg', 'image/x-icon': 'ico', 'image/vnd.microsoft.icon': 'ico' };
+
+// El mateix nom curt que fa servir premsa.php per filtrar per mitjà (?mitja=).
+export function slugMitja(nom) {
+  return String(nom || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+async function iconesLocals(publicDir) {
+  const mapa = new Map();
+  let fitxers = [];
+  try { fitxers = await readdir(join(publicDir, DIR_ICONES)); } catch { return mapa; }
+  for (const f of fitxers) {
+    const m = /^([a-z0-9-]+)\.(png|svg|webp|jpg|ico)$/.exec(f);
+    if (m && !mapa.has(m[1])) mapa.set(m[1], `/${DIR_ICONES}/${f}`);
+  }
+  return mapa;
+}
+
+export function iconaAcceptable(tipus, bytes, url) {
+  let ext = EXT_ICONA[String(tipus || '').split(';')[0].trim().toLowerCase()];
+  if (!ext && /octet-stream/.test(tipus || '') && /\.ico$/i.test(new URL(url).pathname)) ext = 'ico';
+  if (!ext || !bytes || bytes.length < 50 || bytes.length > MAX_ICONA) return null;
+  if (ext === 'svg') {
+    const text = Buffer.from(bytes).toString('utf8');
+    if (!/<svg[\s>]/i.test(text) || /<script|<foreignObject|\son[a-z]+\s*=|javascript:/i.test(text)) return null;
+  }
+  return ext;
+}
+
+async function baixaIcones(fonts, publicDir) {
+  const tenim = await iconesLocals(publicDir);
+  const fetes = new Set();
+  for (const font of fonts) {
+    const clau = slugMitja(font.nom);
+    if (!font.icona || tenim.has(clau) || fetes.has(clau)) continue;
+    fetes.add(clau);
+    try {
+      const r = await fetch(font.icona, { signal: AbortSignal.timeout(15000), headers: { ...CAPCALERES[1], accept: 'image/avif,image/webp,image/png,image/svg+xml,image/*,*/*;q=0.8' } });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const bytes = new Uint8Array(await r.arrayBuffer());
+      const ext = iconaAcceptable(r.headers.get('content-type'), bytes, font.icona);
+      if (!ext) throw new Error(`no és una icona acceptable (${r.headers.get('content-type')}, ${bytes.length} bytes)`);
+      await mkdir(join(publicDir, DIR_ICONES), { recursive: true });
+      await writeFile(join(publicDir, DIR_ICONES, `${clau}.${ext}`), bytes);
+      console.log(`Icona desada: ${font.nom} → /${DIR_ICONES}/${clau}.${ext}`);
+    } catch (error) {
+      console.warn(`::warning::Icona de ${font.nom} no baixada (${error.message}); la peça surt sense icona.`);
+    }
+  }
+}
+
+export function posaIcones(peces, icones) {
+  for (const p of peces) {
+    const ruta = icones.get(slugMitja(p.mitja));
+    if (ruta) p.icona = ruta; else delete p.icona;
+  }
+  return peces;
+}
 
 export function canonic(p) {
   const out = {};
@@ -379,6 +450,9 @@ export async function principal(argv = process.argv.slice(2), ara = new Date()) 
   for (const e of errors) console.warn(`::warning::${e}`);
   if (!fonts.length) { console.warn('::warning::Cap font vàlida: no es toca res.'); return 0; }
 
+  const publicDir = resolve(arrel, o['public-dir'] || 'public');
+  if (!o.fixtures && !o['dry-run']) await baixaIcones(fonts, publicDir);
+
   const nous = [];
   let ok = 0;
   for (const font of fonts) {
@@ -404,6 +478,7 @@ export async function principal(argv = process.argv.slice(2), ara = new Date()) 
   for (const r of rebutjats) console.warn(`::warning::Destacat rebutjat: ${r}`);
   const lligades = lligaNoticies(peces, await carregaFonts(resolve(arrel, o['public-dir'] || 'public')));
   if (lligades) console.log(`Lligades ${lligades} peces a notícies del web que les citen com a font.`);
+  posaIcones(peces, await iconesLocals(publicDir));
 
   console.log(`Diaris llegits: ${ok}/${fonts.length}. Peces a la llista: ${peces.length} (${peces.filter(p => p.destacat).length} destacades).`);
   const abans = JSON.stringify(existents.map(canonic));
