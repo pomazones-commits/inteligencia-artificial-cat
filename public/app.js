@@ -15,8 +15,8 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026101202';
-  const MANUALS = ['./tribuna.js', './estudis.js', './series.js'];
+  const VERSIO_MANUAL = '2026101203';
+  const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './series.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
     script.src = `${src}?v=${stamp}${MANUALS.includes(src) ? 'm' + VERSIO_MANUAL : ''}`;
@@ -382,41 +382,52 @@
       } else {
         document.querySelector('.tribuna-layout').classList.add('tribuna-layout--solo');
       }
-      // Sèrie «Veus de CIVICAi» (12.10.2026): si la tribuna vigent és de la sèrie,
-      // ho diu l'etiqueta; si no, una franja sota la tribuna porta a la sèrie.
-      // Dades a series.js (window.IA_SERIES); estils a tribuna.css.
-      const serie = window.IA_SERIES && window.IA_SERIES['veus-de-civicai'];
-      if (serie) {
-        const esDeLaSerie = tribuna.serie === 'veus-de-civicai';
-        if (esDeLaSerie) {
-          document.querySelector('#tribuna-eyebrow').textContent = `${serie.nom}${tribuna.read ? ' · ' + tribuna.read.toLowerCase() : ''}`;
-        }
-        const franja = document.createElement('a');
-        franja.className = 'tribuna-serie';
-        franja.href = serie.cami;
-        const marc = document.createElement('span');
-        marc.className = 'tribuna-serie__logo';
-        const logo = document.createElement('img');
-        logo.src = serie.logo;
-        logo.alt = serie.entitat;
-        logo.width = 128;
-        logo.height = 26;
-        marc.appendChild(logo);
-        const text = document.createElement('span');
-        text.className = 'tribuna-serie__text';
-        const nom = document.createElement('strong');
-        nom.textContent = serie.nom;
-        text.appendChild(nom);
-        text.appendChild(document.createTextNode(esDeLaSerie
-          ? ' · Totes les veus de la sèrie'
-          : ' · La sèrie de la tribuna on escriuen les sòcies, els socis i la direcció de CIVICAi'));
-        const fletxa = document.createElement('span');
-        fletxa.className = 'tribuna-serie__fletxa';
-        fletxa.textContent = '→';
-        franja.append(marc, text, fletxa);
-        band.appendChild(franja);
-      }
       band.hidden = false;
+    }
+
+    // ——— Veus de CIVICAi (12.10.2026): banda pròpia amb la darrera peça de la sèrie ———
+    // tribuna-arxiu.js (≈100 KB) i peces.js es baixen DESPRÉS de pintar la portada,
+    // per no endarrerir-la. Peça triada: la més recent amb "serie":"veus-de-civicai"
+    // que NO sigui la tribuna vigent (si ho és, la banda de la tribuna ja la mostra).
+    const serieVeus = window.IA_SERIES && window.IA_SERIES['veus-de-civicai'];
+    if (serieVeus) {
+      Promise.all([loadScript('./tribuna-arxiu.js'), loadScript('./peces.js')]).then(() => {
+        const llista = [window.IA_TRIBUNA].concat(window.IA_TRIBUNA_ARXIU || []);
+        const peca = llista.find((t, i) => i > 0 && t && t.title && t.serie === 'veus-de-civicai');
+        if (!peca) return;
+        const banda = document.querySelector('#veus-civicai');
+        if (!banda) return;
+        const cami = (window.IAPeces && window.IAPeces.cami('tribuna', peca, llista)) || serieVeus.cami;
+        document.querySelector('#veus-desc').textContent = serieVeus.descripcio || '';
+        document.querySelector('#veus-eyebrow').textContent = `Veus de CIVICAi${peca.read ? ' · ' + peca.read.toLowerCase() : ''}${peca.date ? ' · ' + peca.date : ''}`;
+        const enllacTitol = document.querySelector('#veus-enllac-titol');
+        enllacTitol.textContent = peca.title;
+        enllacTitol.href = cami;
+        document.querySelector('#veus-enllac').href = cami;
+        document.querySelector('#veus-entradeta').textContent = peca.excerpt || '';
+        if (serieVeus.crida && serieVeus.crida.href) document.querySelector('#veus-crida').href = serieVeus.crida.href;
+        const qui = document.querySelector('#veus-byline');
+        qui.textContent = peca.author || '';
+        if (peca.role) {
+          if (peca.author) qui.appendChild(document.createTextNode(' · '));
+          if (window.IAPeces && window.IAPeces.rolAmbEnllac) {
+            const rol = document.createElement('span');
+            window.IAPeces.rolAmbEnllac(rol, peca);
+            qui.appendChild(rol);
+          } else {
+            qui.appendChild(document.createTextNode(peca.role));
+          }
+        }
+        if (peca.photo) {
+          const img = document.querySelector('#veus-img');
+          img.src = peca.photo;
+          img.alt = peca.photoAlt || `Retrat de ${peca.author || ''}`.trim();
+          document.querySelector('#veus-photo').hidden = false;
+        } else {
+          document.querySelector('.veus-layout').classList.add('veus-layout--solo');
+        }
+        banda.hidden = false;
+      });
     }
 
     // ——— Estudis (article de fons signat, fitxer manual estudis.js) ———
