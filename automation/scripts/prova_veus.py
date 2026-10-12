@@ -135,14 +135,24 @@ def sintetitza_gemini(text: str, veu: str, model: str, desti: Path) -> None:
         "response_format": {"type": "audio"},
         "generation_config": {"speech_config": [{"voice": veu}]},
     }).encode()
-    req = urllib.request.Request(GEMINI_URL, data=cos, headers={
-        "Content-Type": "application/json", "x-goog-api-key": clau})
-    try:
-        with urllib.request.urlopen(req, timeout=600) as r:
-            resposta = json.loads(r.read())
-    except urllib.error.HTTPError as exc:
-        # El cos de l'error de Google no porta la clau; en mostrem el principi.
-        raise RuntimeError(f"HTTP {exc.code}: {exc.read().decode('utf-8', 'replace')[:300]}") from None
+    # Des del maig del 2026 AI Studio dona claus «AQ.» (Authentication Keys) en
+    # lloc de les antigues «AIza». Les dues van a x-goog-api-key; si Google la
+    # rebutja per tipus de testimoni, es prova una vegada com a Bearer.
+    capçaleres = [{"x-goog-api-key": clau}, {"Authorization": f"Bearer {clau}"}]
+    for i, auth in enumerate(capçaleres):
+        req = urllib.request.Request(GEMINI_URL, data=cos,
+                                     headers={"Content-Type": "application/json", **auth})
+        try:
+            with urllib.request.urlopen(req, timeout=600) as r:
+                resposta = json.loads(r.read())
+            break
+        except urllib.error.HTTPError as exc:
+            # El cos de l'error de Google no porta la clau; en mostrem el principi.
+            detall = exc.read().decode("utf-8", "replace")[:300]
+            if exc.code in (401, 403) and i == 0:
+                print(f"   (x-goog-api-key rebutjada amb {exc.code}; es prova com a Bearer)")
+                continue
+            raise RuntimeError(f"HTTP {exc.code}: {detall}") from None
     dades = _darrer_audio(resposta)
     if not dades:
         raise RuntimeError(f"resposta sense àudio: {str(resposta)[:300]}")
