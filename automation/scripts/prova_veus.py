@@ -98,10 +98,71 @@ def sintetitza(text: str, veu: str, variant: str, desti: Path) -> None:
             w.writeframes(f)
 
 
+# --- Gemini (Google) -------------------------------------------------------
+# La clau arriba NOMÉS per l'entorn (secret GEMINI_API_KEY de GitHub), mai en
+# cap fitxer. Interactions API: el text es llegeix tal qual i l'estil va a part.
+GEMINI_URL = os.environ.get("GEMINI_URL", "https://generativelanguage.googleapis.com/v1beta/interactions")
+GEMINI_VEUS_DEFECTE = "Kore:gemini-3.8-flash-lite-tts,Charon:gemini-3.8-flash-lite-tts,Kore:gemini-3.8-flash-tts"
+GEMINI_ESTIL = ("Locució de notícies en català central, to informatiu i serè, "
+                "ritme pausat, pronúncia catalana genuïna.")
+
+
+def _darrer_audio(node):
+    """Busca a la resposta el darrer bloc {"type": "audio", "data": ...}."""
+    trobat = None
+    if isinstance(node, dict):
+        if node.get("type") == "audio" and node.get("data"):
+            trobat = node["data"]
+        for v in node.values():
+            trobat = _darrer_audio(v) or trobat
+    elif isinstance(node, list):
+        for v in node:
+            trobat = _darrer_audio(v) or trobat
+    return trobat
+
+
+def sintetitza_gemini(text: str, veu: str, model: str, desti: Path) -> None:
+    import base64
+    clau = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not clau:
+        raise RuntimeError("falta el secret GEMINI_API_KEY")
+    cos = json.dumps({
+        "model": model,
+        "input": [{"type": "user_input", "content": [{
+            "type": "text", "text": text,
+            "annotations": [{"type": "speech_metadata", "style": GEMINI_ESTIL}],
+        }]}],
+        "response_format": {"type": "audio"},
+        "generation_config": {"speech_config": [{"voice": veu}]},
+    }).encode()
+    req = urllib.request.Request(GEMINI_URL, data=cos, headers={
+        "Content-Type": "application/json", "x-goog-api-key": clau})
+    try:
+        with urllib.request.urlopen(req, timeout=600) as r:
+            resposta = json.loads(r.read())
+    except urllib.error.HTTPError as exc:
+        # El cos de l'error de Google no porta la clau; en mostrem el principi.
+        raise RuntimeError(f"HTTP {exc.code}: {exc.read().decode('utf-8', 'replace')[:300]}") from None
+    dades = _darrer_audio(resposta)
+    if not dades:
+        raise RuntimeError(f"resposta sense àudio: {str(resposta)[:300]}")
+    bruts = base64.b64decode(dades)
+    if bruts[:4] == b"RIFF":
+        desti.write_bytes(bruts)
+    else:  # PCM sense capçalera: 24 kHz, mono, 16 bits
+        with wave.open(str(desti), "wb") as w:
+            w.setnchannels(1)
+            w.setsampwidth(2)
+            w.setframerate(24000)
+            w.writeframes(bruts)
+
+
 def main() -> int:
     sys.stdout.reconfigure(line_buffering=True)
-    with urllib.request.urlopen(f"{API}/api/available-voices", timeout=30) as r:
-        print("Veus disponibles al servei:", r.read().decode()[:400])
+    motor = os.environ.get("MOTOR", "matxa").strip().lower() or "matxa"
+    if motor == "matxa":
+        with urllib.request.urlopen(f"{API}/api/available-voices", timeout=30) as r:
+            print("Veus disponibles al servei:", r.read().decode()[:400])
 
     item = tria_noticia()
     text = "\n".join(p for p in (item.get("title", ""), item.get("excerpt", ""), item.get("body", "")) if p)
@@ -112,22 +173,30 @@ def main() -> int:
         return 1
 
     errors = 0
-    for parell in (os.environ.get("VEUS", "").strip() or VEUS_DEFECTE).split(","):
+    defecte = GEMINI_VEUS_DEFECTE if motor == "gemini" else VEUS_DEFECTE
+    for parell in (os.environ.get("VEUS", "").strip() or defecte).split(","):
         veu, _, variant = parell.strip().partition(":")
-        variant = variant or "ca-es"
+        variant = variant or ("gemini-3.8-flash-lite-tts" if motor == "gemini" else "ca-es")
         with tempfile.TemporaryDirectory() as td:
             wav = Path(td) / "veu.wav"
             mp3 = Path(td) / "veu.mp3"
             inici = time.time()
             try:
-                sintetitza(text, veu, variant, wav)
+                if motor == "gemini":
+                    sintetitza_gemini(text, veu, variant, wav)
+                else:
+                    sintetitza(text, veu, variant, wav)
                 wav_a_mp3(wav, mp3)
             except Exception as exc:
                 print(f"ERROR amb {veu} ({variant}): {exc}")
                 errors += 1
                 continue
             segons = time.time() - inici
-            nom = f"prova-veu-matxa-{veu}"
+            if motor == "gemini":
+                gamma = "lite" if "lite" in variant else "flash"
+                nom = f"prova-veu-gemini-{veu.lower()}-{gamma}"
+            else:
+                nom = f"prova-veu-matxa-{veu}"
             if transport.puja(mp3, nom):
                 print(f"OK {nom}.mp3 · {variant} · {mp3.stat().st_size // 1024} KB · {segons:.0f} s de síntesi")
                 print(f"   https://inteligencia-artificial.cat/assets/audio/{nom}.mp3")

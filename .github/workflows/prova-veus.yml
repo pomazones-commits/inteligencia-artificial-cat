@@ -1,17 +1,23 @@
-name: Prova de veus (Matxa, Projecte Aina)
+name: Prova de veus (Matxa o Gemini)
 
 # Només a mà (12.10.2026). Llegeix una notícia amb diverses veus catalanes de
-# Matxa (BSC / Projecte Aina) i puja els MP3 a assets/audio/prova-veu-matxa-*.mp3
+# Matxa (BSC / Projecte Aina) o de Gemini (Google; cal el secret GEMINI_API_KEY)
+# i puja els MP3 a assets/audio/prova-veu-*.mp3
 # perquè es puguin escoltar i triar. No toca res del web ni dels MP3 de l'edició.
 on:
   workflow_dispatch:
     inputs:
+      motor:
+        description: "Motor de veu"
+        type: choice
+        options: [matxa, gemini]
+        default: matxa
       slug:
         description: "Slug de la notícia a llegir (buit = la primera de l'edició d'avui)"
         required: false
         default: ""
       veus:
-        description: "Veus veu:variant separades per comes (buit = elia, grau, olga, emma, gina)"
+        description: "Veus veu:variant (Matxa) o veu:model (Gemini), separades per comes. Buit = les de prova"
         required: false
         default: ""
 
@@ -31,6 +37,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Engega el servei de veu de Matxa
+        if: github.event.inputs.motor != 'gemini'
         run: |
           docker run -d --name matxa -p 8000:8000 projecteaina/tts-api:latest
           for i in $(seq 1 60); do
@@ -59,10 +66,13 @@ jobs:
           SSH_USER: ${{ secrets.SSH_USER }}
           SSH_PORT: ${{ secrets.SSH_PORT }}
           SSH_PATH: ${{ secrets.SSH_PATH }}
+          # Gemini (12.10.2026): la clau només viu com a secret de GitHub.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MOTOR: ${{ github.event.inputs.motor }}
           SLUG: ${{ github.event.inputs.slug }}
           VEUS: ${{ github.event.inputs.veus }}
         run: python automation/scripts/prova_veus.py
 
       - name: Registre del servei (si alguna cosa ha fallat)
-        if: failure()
+        if: failure() && github.event.inputs.motor != 'gemini'
         run: docker logs --tail 80 matxa || true
