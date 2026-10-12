@@ -94,11 +94,6 @@ window.IA_SERIES = {
     "web": "https://civicai.cat/",
     "logo": "/assets/entitats/civicai.png",
     "descripcio": "La sèrie de «La tribuna» on escriuen sòcies i socis, fundadores i fundadors i directores i directors de CIVICAi, l’associació que treballa per una intel·ligència artificial responsable, de tothom i per a tothom.",
-    "crida": { "text": "Associa’t a CIVICAi", "href": "https://civicai.cat/participa/" },
-    "columna": {
-      "titol": "La columna del president",
-      "autor": "Manel Sanromà",
-      "intro": "Manel Sanromà, president de CIVICAi, publica cada setmana la seva tribuna a inteligencia-artificial.cat."
-    }
+    "crida": { "text": "Associa’t a CIVICAi", "href": "https://civicai.cat/participa/" }
   }
 };

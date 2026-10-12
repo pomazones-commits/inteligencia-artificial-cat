@@ -15,6 +15,14 @@
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="./editorial.css?v=2026100101b">
   <link rel="stylesheet" href="./series.css?v=2026101201">
+  <style>
+    /* Subtítols, llistes i procedència dins del cos d'una tribuna (12.10.2026). */
+    .article-body-clean h2.tribuna-seccio { margin: 38px 0 12px; font-family: Newsreader, serif; font-size: 26px; line-height: 1.2; letter-spacing: -.015em; }
+    .article-body-clean ul.tribuna-pics { margin: 0 0 22px; padding-left: 22px; }
+    .article-body-clean ul.tribuna-pics li { margin: 0 0 10px; line-height: 1.6; }
+    .article-body-clean p.tribuna-origen { margin-top: 34px; padding-top: 16px; border-top: 1px solid #e3e7ef; color: #5d6472; font-size: 14px; }
+    .article-body-clean p.tribuna-origen a { word-break: break-word; }
+  </style>
   <script defer src="./shared.js?v=2026101201"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"La tribuna","description":"La tribuna: articles d'opinió i anàlisi signats per veus expertes en intel·ligència artificial.","url":"https://inteligencia-artificial.cat/tribuna.html","mainEntityOfPage":"https://inteligencia-artificial.cat/tribuna.html","inLanguage":"ca","publisher":{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://inteligencia-artificial.cat/"},{"@type":"ListItem","position":2,"name":"La tribuna","item":"https://inteligencia-artificial.cat/tribuna.html"}]}]}</script>
 </head>
@@ -50,8 +58,8 @@
 
   <footer class="editorial-footer"><div class="editorial-shell editorial-footer__inner"><div><a class="editorial-brand" href="./"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><p>Actualitat, context i recursos sobre intel·ligència artificial en català.</p></div><nav><a href="./redaccio.html">Sobre IA.cat</a><a href="./eines.html">Guies</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav></div></footer>
 
-  <script src="./tribuna.js?v=2026100801b"></script>
-  <script src="./tribuna-arxiu.js?v=2026100801b"></script>
+  <script src="./tribuna.js?v=2026101201b"></script>
+  <script src="./tribuna-arxiu.js?v=2026101201b"></script>
   <script src="./series.js?v=2026101201"></script>
   <script src="./peces.js?v=2026100701"></script>
   <script src="./lector.js?v=2026072901"></script>
@@ -90,25 +98,61 @@
       var cos = document.getElementById('cos');
       // Les adreces web del text es converteixen en enllaços clicables (construïts
       // amb el DOM, mai amb innerHTML). La puntuació final no forma part de l'enllaç.
-      paragrafs.forEach(function (text) {
-        var p = document.createElement('p');
+      function ambEnllacos(el, text) {
         var re = /https?:\/\/[^\s]+/g;
         var ultim = 0;
         var m;
         while ((m = re.exec(text))) {
           var url = m[0].replace(/[).,;:!?»]+$/, '');
-          p.appendChild(document.createTextNode(text.slice(ultim, m.index)));
+          el.appendChild(document.createTextNode(text.slice(ultim, m.index)));
           var a = document.createElement('a');
           a.href = url;
           a.textContent = url;
           a.target = '_blank';
           a.rel = 'noopener noreferrer';
-          p.appendChild(a);
+          el.appendChild(a);
           ultim = m.index + url.length;
         }
-        p.appendChild(document.createTextNode(text.slice(ultim)));
+        el.appendChild(document.createTextNode(text.slice(ultim)));
+      }
+      // Mateixes marques que «Estudis» (12.10.2026): «## » = subtítol, «• » = llista
+      // de pics; la resta, paràgrafs. genera_audio.py ja les treu de l'àudio.
+      var perAlLector = [];
+      paragrafs.forEach(function (text) {
+        if (text.indexOf('## ') === 0) {
+          var h2 = document.createElement('h2');
+          h2.className = 'tribuna-seccio';
+          h2.textContent = text.slice(3).trim();
+          cos.appendChild(h2);
+          perAlLector.push(h2.textContent);
+          return;
+        }
+        if (text.indexOf('•') === 0) {
+          var ul = document.createElement('ul');
+          ul.className = 'tribuna-pics';
+          text.split('\n').forEach(function (linia) {
+            var item = linia.replace(/^•\s*/, '').trim();
+            if (!item) return;
+            var li = document.createElement('li');
+            ambEnllacos(li, item);
+            ul.appendChild(li);
+            perAlLector.push(item);
+          });
+          cos.appendChild(ul);
+          return;
+        }
+        var p = document.createElement('p');
+        ambEnllacos(p, text);
         cos.appendChild(p);
+        perAlLector.push(text);
       });
+      // Procedència (camp opcional «origin»): si el text també s'ha publicat en un altre lloc.
+      if (t.origin) {
+        var origen = document.createElement('p');
+        origen.className = 'tribuna-origen';
+        ambEnllacos(origen, String(t.origin));
+        cos.appendChild(origen);
+      }
       // Compartir: sempre l'adreça fixa de la peça (/tribuna/<id>), que no canvia
       // quan se n'arxiva una de nova. També passa a ser la canònica.
       var pagina = (window.IAPeces && window.IAPeces.url('tribuna', t, [window.IA_TRIBUNA].concat(arxiu))) ||
@@ -130,7 +174,7 @@
       window.IALector.init({
         container: document.getElementById('lector'),
         audioUrl: audioUrl,
-        parts: [t.title, t.excerpt || ''].concat(paragrafs).filter(Boolean)
+        parts: [t.title, t.excerpt || ''].concat(perAlLector).filter(Boolean)
       });
     })();
   </script>
