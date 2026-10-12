@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-12T16:12:42.290Z",
+ "actualitzat": "2026-10-12T21:25:51.842Z",
  "fonts": 29,
  "articles": [
+  {
+   "id": "24c57a66bb67",
+   "mitja": "El Nacional",
+   "font": "elnacional",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Un desenvolupador utilitza la IA per crear alternatives gratuïtes a Photoshop, Premiere i Lightroom",
+   "url": "https://www.elnacional.cat/ca/tecnologia/desenvolupador-utilitza-ia-crear-alternatives-gratuites-photoshop-premiere-lightroom_1708696_102.html",
+   "publicat": "2026-10-12T20:00:00.000Z"
+  },
+  {
+   "id": "d016b380bc31",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Google le pone pantalla a su pulsera de actividad más sencilla",
+   "url": "https://www.elmundo.es/tecnologia/2026/10/12/6acd2568fc6c83a6498b4573.html",
+   "publicat": "2026-10-12T18:24:57.000Z"
+  },
+  {
+   "id": "12c164d3593c",
+   "mitja": "El Nacional",
+   "font": "elnacional",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Un estudi posa en dubte la seguretat de ChatGPT per a adolescents: les seves alertes sobre el suïcidi fallen",
+   "url": "https://www.elnacional.cat/ca/tecnologia/estudi-posa-en-dubte-seguretat-chatgpt-adolescents-seves-alertes-sobre-suicidi-fallen_1708651_102.html",
+   "publicat": "2026-10-12T17:00:00.000Z"
+  },
   {
    "id": "356bcba70272",
    "mitja": "La Vanguardia",
