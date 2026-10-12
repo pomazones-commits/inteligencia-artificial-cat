@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-12T08:27:17.101Z",
+  "updatedAt": "2026-10-12T12:27:51.521Z",
   "items": [
+    {
+      "category": "POLÍTICA",
+      "read": "5 MIN",
+      "slug": "informe-aturada-maquinari-entrenament-ia-frontera",
+      "title": "Un grup d'acadèmics proposa aturar deu anys l'entrenament dels models d'IA més potents amb xips que només serveixin per fer-los funcionar",
+      "excerpt": "L'informe, de 26 investigadors de Berkeley, Princeton, Stanford, Harvard i Oxford, no discuteix si cal frenar la IA, sinó si es podria fer i comprovar-ho.",
+      "sourceName": "Grup de Treball sobre la Viabilitat d'una Aturada de la IA",
+      "sourceUrl": "https://hardwired-pause.ai/paper",
+      "sourceDate": "10 d'octubre de 2026",
+      "body": "Des de fa dos anys, la idea de frenar la IA més avançada s'ha discutit sobretot com a desig o com a eslògan. Un grup de treball d'acadèmics ha preferit una altra pregunta: si els governs ho volguessin, es podria fer de manera verificable? La resposta és un document de treball d'unes 200 pàgines, penjat el 10 d'octubre, que Tech Xplore ha recollit aquest dilluns.\n\nL'informe, titulat «The Feasibility of a Hardwired Pause of Frontier AI Training», el signa el Grup de Treball sobre la Viabilitat d'una Aturada de la IA, coordinat pels professors William Fithian i Wesley Holliday, de Berkeley. Hi participen 26 investigadors de Berkeley, Princeton, Stanford, Harvard i Oxford, entre ells Stuart Russell. Proposa una aturada internacional d'almenys deu anys de l'entrenament de nous models de frontera, amb una llista de models ja existents considerats segurs, un cens mundial dels xips d'entrenament i l'aturada o la reducció forta de la seva producció. Els xips actuals se substituirien progressivament per xips «només d'inferència»: serveixen per executar models ja aprovats, però estarien dissenyats de manera que fos poc pràctic entrenar-hi models nous, ni que algú els robés.\n\nEl pes de l'argument recau en la verificació. La cadena de subministrament de xips d'IA està molt concentrada, amb pocs punts de pas obligats, i això permetria als governs controlar-ne la producció. L'objectiu, segons el text, no és impedir qualsevol trampa sinó mantenir la capacitat d'entrenament encoberta o oberta de cada estat per sota d'uns límits, i fer-la prou cara de detectar perquè la cooperació sigui sostenible. L'informe fa servir lliçons del control d'armament i la teoria de jocs.\n\nCal llegir-lo com el que és: un document de treball, no una proposta política en marxa, i no discuteix si l'aturada és desitjable ni probable. Depèn que els líders mundials la vulguin, que accepten retirar o traslladar els xips d'abans de l'aturada i que hi hagi una supervisió prou bona. Els mateixos autors reconeixen que els xips només d'inferència només són atractius econòmicament si els models nous queden prohibits i que una aturada no resoldria tots els riscos de la IA.",
+      "image": "./assets/informe-aturada-maquinari-entrenament-ia-frontera-20261012.jpg"
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "slug": "anthropic-oss-scanner-vulnerabilitats-codi-obert",
+      "title": "Anthropic ofereix un escàner d'IA gratuït que busca vulnerabilitats en projectes de codi obert i en proposa les correccions",
+      "excerpt": "Els responsables de projectes crítics s'hi poden apuntar des de GitHub. L'empresa espera un encert superior al 90%, però avisa que els informes no passen per cap revisió humana.",
+      "sourceName": "The Decoder",
+      "sourceUrl": "https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects/",
+      "sourceDate": "9 d'octubre de 2026",
+      "body": "Una bona part del programari que fa funcionar bancs, hospitals i xarxes elèctriques és codi obert que mantenen equips molt petits, sovint de voluntaris. Quan algú hi troba un forat de seguretat, a vegades ningú no té temps de revisar-lo. Aquesta és la bretxa que Anthropic diu que vol cobrir amb una eina nova.\n\nSe'n diu OSS Scanner i l'empresa l'ha presentat el 9 d'octubre dins del que anomena la seva «Cyber Mission». Revisa els projectes de codi obert de manera periòdica, assenyala les vulnerabilitats, n'explica el motiu i proposa correccions. És gratuït i els responsables de projectes d'infraestructura crítica o amb impacte en la seguretat dels usuaris s'hi poden apuntar a través de GitHub. Segons The Decoder, Anthropic l'ha posat dins d'un programa més ampli, el de Defensa d'Infraestructures Crítiques, que dona accés a models de Claude, enginyers i anàlisi d'amenaces a operadors de xarxes elèctriques, aigua i transport, amb CrowdStrike, Palo Alto Networks, Deloitte i Rockwell Automation com a socis fundadors.\n\nLa rellevància és clara: les eines d'IA ja ajuden a trobar fallades de seguretat, però els mantenidors de codi obert han patit també l'altra cara, un allau d'informes falsos generats amb IA que els fa perdre el temps. Un escàner que posi la mateixa tecnologia al servei de qui ha de corregir els errors, i no només de qui els busca, és una resposta a aquest problema.\n\nEls límits són els que declara l'empresa: espera un encert superior al 90%, però això és una expectativa i no una xifra mesurada per tercers, i els informes es lliuren sense revisió humana i «poden contenir errors». Per a un mantenidor amb poc temps, això vol dir que cada avís s'ha de comprovar abans de fiar-se'n.",
+      "image": "./assets/anthropic-oss-scanner-vulnerabilitats-codi-obert-20261012.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "odyssey-3-model-mon-generatiu-prova-gratuita",
+      "title": "Odyssey obre una prova gratuïta d'Odyssey-3, un model que genera mons interactius en temps real a partir d'una descripció",
+      "excerpt": "L'empresa californiana el vol fer servir per entrenar robots, drons i agents. Les puntuacions que n'esmenta són pròpies, i una no compleix les condicions de la prova.",
+      "sourceName": "The Decoder",
+      "sourceUrl": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
+      "sourceDate": "11 d'octubre de 2026",
+      "body": "Un «model de món» és una IA que aprèn com canvia un entorn quan s'hi actua: si empenys una caixa, cau; si gires a la dreta, el paisatge es desplaça. Serveix per generar escenes jugables, però sobretot per ensenyar robots i agents en simulació abans de deixar-los anar a la realitat. Odyssey, una empresa californiana fundada el 2023 per Oliver Cameron i Jeff Hawke, acaba d'obrir al públic la seva tercera versió.\n\nSegons The Decoder, Odyssey-3 és un transformador de difusió autoregressiu: genera cada fotograma nou a partir dels anteriors i de les accions de qui l'utilitza. El model base té 14.000 milions de paràmetres i dibuixa a 832 × 480 píxels; la versió Pro arriba a 1280 × 720. Qualsevol pot provar la demo gratuïta, que funciona amb la variant Flash, i escollir veure l'escena en primera o en tercera persona. Els desenvolupadors poden demanar accés a l'API. L'empresa, que va aixecar 310 milions de dòlars el juny amb inversors com Amazon i AMD Ventures, el vol aplicar a la robòtica (amb la firma suïssa Flexion), els drons, els videojocs i l'entrenament d'agents d'IA.\n\nLa notícia importa perquè els mons simulats són una de les maneres amb què la indústria pensa de superar la falta de dades reals per a robots. Si un model manté la física creïble durant molta estona, es pot entrenar a baix cost en situacions que serien cares o perilloses de provocar de debò.\n\nLes xifres vénen de l'empresa. Odyssey-3 Pro hauria assolit 66,1 punts a Physics-IQ Verified, però en una sola execució amb un mètode de selecció; sense aquest mètode, la mitjana de quatre execucions és de 63,37. The Decoder remarca que el rècord que s'atribueix no compleix els requisits de la prova. Al WorldMark, l'empresa diu que és primer en tres de les quatre categories, segons la seva pròpia avaluació. Cal esperar a una comprovació independent.",
+      "image": "./assets/odyssey-3-model-mon-generatiu-prova-gratuita-20261012.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "claude-science-mapa-ultraviolat-complet-cel",
+      "title": "Un astrofísic i uns agents de Claude Science munten el primer mapa ultraviolat de tot el cel, amb un terç del cel predit i no mesurat",
+      "excerpt": "Brice Ménard ha combinat dades de cinc missions espacials i ha omplert els buits amb un model. En proves amb regions amagades, les prediccions van quedar a un 10% de la mesura real.",
+      "sourceName": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+      "sourceDate": "8 d'octubre de 2026",
+      "body": "La llum ultraviolada revela la pols que il·luminen les estrelles joves i els anells que deixen les explosions estel·lars, però l'atmosfera la bloqueja i només es pot mesurar des de l'espai. La missió GALEX de la NASA (2003–2013) en va cobrir uns dos terços del cel i va esquivar a posta les regions més brillants. Faltava un mapa complet.\n\nL'ha fet Brice Ménard, astrofísic de la Universitat Johns Hopkins i investigador d'Anthropic, que descriu el procés en una publicació de l'empresa del 8 d'octubre. Els agents d'IA de Claude Science van fer homogènies les dades de GALEX, Swift, la coreana FIMS/SPEAR i la europea TD-1, en van treure el reflex de les estrelles, les van calibrar i les van fusionar en un sol sistema de coordenades. Per al terç del cel que mai no s'havia observat en ultraviolat, un model va aprendre com es relaciona la brillantor ultraviolada amb la de la llum visible, l'infraroig i les ràdio a les zones mesurades i va predir la resta. A sobre hi van afegir l'ultraviolat estimat de més de cent milions d'estrelles a partir de dades de Gaia. Cada píxel del mapa s'etiqueta com a «mesurat» o «predit», amb la seva incertesa, i es pot consultar a la web de l'autor.\n\nEl resultat és útil com a material de referència i com a mostra de què poden fer els agents amb feina de dades que molts científics van ajornant. Segons l'autor, la validació consisteix a amagar parts de regions ja mesurades i comparar-hi les prediccions: l'error mitjà va ser d'un 10%.\n\nCal tenir present què no és. Ni la publicació ni el mapa indiquen que hagin passat una revisió per parells. Un terç és predit, no observat, i el 10% prové de regions de prova, no és una garantia per a cada buit. El mateix text admet que els agents van deixar passar una pega, uns cercles causats per la brillantor residual de l'atmosfera, durant dues rondes de revisió, i que no hi ha un pressupost d'error final.",
+      "image": "./assets/claude-science-mapa-ultraviolat-complet-cel-20261012.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "jetlag-social-prefereix-avaluadors-ia-ansietat-social",
+      "title": "Les persones amb «jet lag social» trien més sovint la IA perquè les jutgi, segons quatre experiments sobre ansietat social",
+      "excerpt": "Qui dorm molt diferent entre setmana i cap de setmana tendeix a preferir un avaluador de IA a un de humà. L'efecte s'afebleix si la IA es presenta com a subjectiva.",
+      "sourceName": "Tech Xplore (Computers in Human Behavior)",
+      "sourceUrl": "https://techxplore.com/news/2026-10-sync-people-ai-dating-job.html",
+      "sourceDate": "6 d'octubre de 2026",
+      "body": "Hi ha qui dorm a l'hora del seu rellotge intern només els caps de setmana i la resta de dies s'ha de llevar quan no toca. En diuen «jet lag social»: la diferència entre l'horari de son de feina i el de lleure. Un estudi publicat a la revista revisada per parells *Computers in Human Behavior* li troba un efecte curiós sobre la manera de triar qui ens avalua.\n\nEl treball, de Xiaoyu Zhou i col·laboradors («Too tired to be judged by humans: Social jetlag increases preference for AI through social anxiety», DOI 10.1016/j.chb.2026.109082), consta de quatre experiments en línia. En el primer, els participants havien d'imaginar que feien un perfil de cites i triaven si un humà o una IA en valorava l'atractiu; el desfasament de son es provocava programant la tasca a una hora que xocava amb el seu ritme natural. Entre els afectats, el 73% va triar la IA, davant del 58,8% dels qui no el tenien. Resultats semblants van sortir amb una entrevista de feina imaginada i amb una valoració de perfil sense descriure l'avaluador. En l'últim, una aplicació d'estilisme va tenir menys atractiu entre els cansats quan es presentava com a subjectiva i amb biaixos.\n\nSegons els autors, el que ho explica és l'ansietat social, en concret la por de l'avaluació negativa d'altres persones, i no tant l'estalvi de temps ni el desig d'evitar el contacte. L'efecte depèn de la idea que la IA és objectiva: si se la presenta com a subjectiva, desapareix.\n\nCal moderar la conclusió. Segons la nota de Tech Xplore, que no en dona les mides de mostra, la força de l'efecte ni les limitacions dels autors, els dos primers experiments es basen en situacions imaginades i no en decisions reals, i el tercer només mesura el jet lag, sense provocar-lo, de manera que la relació és correlacional. Per jutjar-ne el pes cal llegir l'article original.",
+      "image": "./assets/jetlag-social-prefereix-avaluadors-ia-ansietat-social-20261012.jpg"
+    },
     {
       "category": "ECONOMIA",
       "read": "4 MIN",
