@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-11T22:31:13.086Z",
+ "actualitzat": "2026-10-12T04:12:52.999Z",
  "fonts": 29,
  "articles": [
+  {
+   "id": "015e4600246f",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA comparte todos los secretos",
+   "url": "https://www.lavanguardia.com/opinion/20261012/11656683/ia-comparte-todos-secretos.html",
+   "publicat": "2026-10-11T22:05:00.000Z"
+  },
   {
    "id": "7e548fca2c70",
    "mitja": "elDiario.es",
@@ -34,7 +45,9 @@
    "ambit": "catala",
    "titol": "Nvidia estudia comprar una altra empresa d'IA de codi obert",
    "url": "https://www.ara.cat/economia/tecnologia/nvidia-negocia-comprar-negoci-d-ia-codi-obert_25_5876184.html",
-   "publicat": "2026-10-11T11:11:43.000Z"
+   "publicat": "2026-10-11T11:11:43.000Z",
+   "noticia": "nvidia-negocia-comprar-reflection-ai",
+   "noticiaTitol": "Nvidia negocia comprar Reflection AI, la startup d'IA oberta en què ja ha invertit 800 milions de dòlars, segons el «Financial Times»"
   },
   {
    "id": "cf0368b664d3",
