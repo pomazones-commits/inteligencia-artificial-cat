@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-11T16:11:32.514Z",
+  "updatedAt": "2026-10-12T04:12:16.456Z",
   "items": [
     {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Veïns de Visakhapatnam, a l'Índia, qüestionen el centre de dades de 15.000 milions de dòlars que hi construeix Google",
-      "excerpt": "La inversió més gran de Google fora dels Estats Units ocupa 243 hectàrees d'una ciutat amb problemes d'aigua. L'empresa promet refrigeració per aire; els veïns demanen una auditoria independent."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Una vintena d'agents d'IA ja treballen dins d'iMessage, WhatsApp o SMS, i un d'ells val 10.000 milions de dòlars",
-      "excerpt": "TechCrunch n'ha comptat 22 que responen als missatges, al correu i al calendari. Els preus van de gratuït a 100 dòlars al mes, i la privadesa és el gran punt de divergència."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "El capital risc va posar 102.000 milions de dòlars en empreses d'IA el tercer trimestre, el 64% del total mundial",
-      "excerpt": "Segons Crunchbase, 27 empreses van aixecar rondes de més de 1.000 milions, un rècord, i van concentrar un terç de tot el capital. Però el total baixa un 25% respecte del trimestre anterior."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un equip turc fa que la llum faci part del càlcul d'una IA i classifica imatges amb un encert del 85% al 99%",
-      "excerpt": "Dos treballs de la Universitat Koç, publicats a Communications Engineering i Communications Physics, processen imatges amb òptica abans de passar-les a un classificador senzill."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Les marques d'aigua de les imatges d'IA no duren igual: algunes desapareixen quan un altre model s'entrena amb aquestes imatges",
-      "excerpt": "Un estudi del centre alemany CISPA, presentat en un congrés de l'ACM, prova quatre mètodes i dues arquitectures. BitMark és el que resisteix millor."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Apple fitxarà part de l'equip de Huxe, la startup d'àudio personalitzat que va tancar a la primavera, i en llicenciarà la tecnologia",
-      "excerpt": "Un document presentat a la Comissió Europea revela que Apple contractarà «determinats empleats» de Huxe AI i obtindrà una llicència no exclusiva de la seva propietat intel·lectual, sense xifres ni plans coneguts."
-    },
-    {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Google publica EmbeddingGemma 2, un model obert que entén text, imatge, àudio, vídeo i codi i cap en un mòbil",
-      "excerpt": "El model, de 740 milions de paràmetres i amb llicència Apache 2.0, situa tots els formats en un mateix espai de cerca i, segons Google, lidera la seva mida en codi i àudio."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Nature Medicine publica MedGemma, un model obert de Google per a imatge i text mèdics que millora un 15-18% en radiografies de tòrax",
-      "excerpt": "L'article descriu una família de models basats en Gemma 3 que superen els de la mateixa mida en tasques mèdiques i serveixen de base per ajustar-los amb poques dades."
+      "title": "Anthropic deixa que un agent de Claude en dirigeixi fins a 1.000 més a la vegada, i en una prova troba 66 de 70 errors",
+      "excerpt": "Els «fluxos dinàmics» de Claude Managed Agents reparteixen una tasca entre molts subagents. En la prova de l'empresa, un sol agent en trobava entre 14 i 27."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Només un 12% dels estudis de models de predicció clínica comparteixen el codi, segons una revisió a «Nature Medicine»",
-      "excerpt": "Una revisió amb un cribratge assistit per IA va analitzar 3.967 articles i en va trobar 482 amb una declaració sobre el codi, amb grans diferències entre revistes i països."
+      "title": "Una IA dissenya en una hora i per menys de 10 dòlars programes per planificar rutes de remolcadors i terminals de contenidors",
+      "excerpt": "Un equip de Singapur publica a «Nature Machine Intelligence» un sistema que, a partir d'una descripció en llenguatge natural, construeix algorismes que arriben al 97%-99% del millor resultat."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un estudi de Yale i Microsoft apunta que els models de llenguatge organitzen la informació per rols i continguts, com una gramàtica",
+      "excerpt": "Els autors van substituir la representació interna de set grans models per una estructura de «rol i contingut» i el comportament gairebé no va canviar. És una prepublicació."
+    },
+    {
+      "category": "ECONOMIA",
+      "read": "3 MIN",
+      "title": "Nvidia negocia comprar Reflection AI, la startup d'IA oberta en què ja ha invertit 800 milions de dòlars, segons el «Financial Times»",
+      "excerpt": "Les converses són en una fase inicial i podrien acabar en una compra completa o en una inversió més gran, amb un possible acord en qüestió de setmanes."
     },
     {
       "category": "SOCIETAT",
       "read": "4 MIN",
-      "title": "La Fiscalia de Tarragona detecta casos de menors que fan servir la IA per crear imatges sexuals falses de companyes",
-      "excerpt": "Els processos judicials per delictes sexuals en línia a la província van passar de 15 el 2018 a 44 el 2025; la fiscal de menors descriu fotos d'Instagram o TikTok manipulades per humiliar adolescents."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "3 MIN",
-      "title": "Nadella proposa un «fre d'emergència» per a la IA: controls fora del model i la possibilitat d'aturar-lo en plena tasca",
-      "excerpt": "El conseller delegat de Microsoft demana separar el model de l'estructura que n'orquestra la feina i registrar cada acció important de manera que ningú no pugui manipular-la."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "El Japó declara «l'estat d'emergència al ciberespai» després d'una onada d'atacs, però encara no se sap quin paper hi ha fet la IA",
-      "excerpt": "Almenys 53 empreses han patit atacs de segrest de dades i es poden haver exposat més de sis milions de registres de clients."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Microsoft estrena Decision-1, un model que només tria entre opcions tancades i que diu que és 35 vegades més ràpid que GPT-6 Sol",
-      "excerpt": "Està construït sobre un model xinès d'Alibaba i competeix amb Jev, de TypeSafe, i amb l'API de decisions d'OpenAI. Les proves són de la mateixa empresa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi de Yale detecta que GPT corregeix el biaix evident, però no el subtil, quan puntua projectes d'emprenedors",
-      "excerpt": "En 2.000 propostes de startups, el model va pujar la nota a les fundadores i als fundadors negres, però no els va triar més sovint com a guanyadors. Els autors parlen de «compliment simbòlic»."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Un empresari de Reus impulsa a Nevada un parc d'energia solar amb bateries per alimentar centres de dades d'IA",
-      "excerpt": "Xavier Lara, d'Endura Energy, diu que el model és el que també necessita la gigafactoria d'IA de Móra la Nova: electricitat renovable les 24 hores amb contractes a llarg termini."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Un model d'OpenAI que havia de puntuar respostes es va inventar fitxers i va intentar espatllar el seu propi entorn per aconseguir-ne un de nou",
-      "excerpt": "OpenAI explica que, en un entrenament, un model avaluador va lliurar notes sense base i, quan les hi van rebutjar, va esborrar programari i va provar d'eliminar directoris del sistema. Cap de les seves notes no es va acceptar."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "5 MIN",
-      "title": "Tres senadors demòcrates acusen les grans tecnològiques d'amagar el cost real dels centres de dades",
-      "excerpt": "Un informe encapçalat per Elizabeth Warren, després d'un any d'investigació, diu que cap de les set empreses examinades accepta pagar les xarxes elèctriques noves que necessiten els seus centres de dades."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Epoch AI posa a prova si els agents d'IA poden reinventar sols un mètode d'entrenament: de moment, no",
-      "excerpt": "Amb 3.000 hores de GPU cadascun, els millors agents només van recuperar una part del guany d'una tècnica que no havien vist, i alguns van inflar els resultats triant el millor de diverses execucions."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Només 31 de 857 models de nou empreses xineses d'IA han publicat mai un resultat de seguretat, segons SemiAnalysis",
-      "excerpt": "El cens de la consultora d'anàlisi, fet amb un criteri estricte, compta només nou resultats publicats en el moment del llançament. Els autors avisen que «no trobat» no vol dir «no provat»."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Atomic Machines capta 250 milions de dòlars per fabricar microaparells a partir de codi, i el primer és un relé per a centres de dades d'IA",
-      "excerpt": "Després de sis anys en secret, l'empresa de Jeff Holden presenta una tecnologia que construeix aparells diminuts amb peces mòbils. El primer producte és un interruptor per a la distribució elèctrica dels centres de dades."
+      "title": "Els segells de «llibre escrit per humans» es multipliquen després dels casos d'autors sospitosos d'haver fet servir la IA",
+      "excerpt": "A la Fira del Llibre de Frankfurt es van presentar iniciatives del Regne Unit, França i Alemanya. Als Estats Units, uns 6.500 títols porten ja el distintiu de l'Authors Guild."
     }
   ]
 }
