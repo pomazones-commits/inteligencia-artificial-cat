@@ -65,6 +65,49 @@
     caixa.appendChild(fila);
   })();
 
+  // ───────────────────────────────────────────────────────────────────────
+  // Entitats col·laboradores al peu — ÚNIC LLOC on es toquen (a la portada el
+  // bloc és estàtic dins d'index.html: si canvies res aquí, canvia-ho allà).
+  // Llista buida = el bloc no apareix. Logos a /assets/entitats/ (rutes
+  // ABSOLUTES, pel mateix motiu que les xarxes). Estil: entitats-peu.css.
+  // `serie`: si l'entitat té sèrie pròpia a la tribuna (series.js), l'enllaç.
+  // ───────────────────────────────────────────────────────────────────────
+  const ENTITATS = [
+    {
+      nom: 'CIVICAi',
+      web: 'https://civicai.cat/',
+      logo: '/assets/entitats/civicai.png',
+      crida: { text: 'Associa’t a CIVICAi', href: 'https://civicai.cat/participa/' },
+      serie: { text: 'Veus de CIVICAi', href: '/veus-de-civicai' }
+    }
+  ];
+
+  (() => {
+    const peu = document.querySelector('footer');
+    if (!peu || !ENTITATS.length || peu.querySelector('.entitats-peu')) return;
+
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = '/entitats-peu.css?v=2026101201';
+    document.head.appendChild(css);
+
+    const bloc = document.createElement('div');
+    bloc.className = 'entitats-peu';
+    bloc.innerHTML = '<span class="entitats-peu__etiqueta">Entitats col·laboradores</span>' +
+      '<div class="entitats-peu__llista">' + ENTITATS.map(e =>
+        '<div class="entitat-peu">' +
+        '<a class="entitat-peu__logo" href="' + e.web + '" rel="noopener" target="_blank" title="' + e.nom + '">' +
+        '<img src="' + e.logo + '" alt="' + e.nom + '" width="128" height="26" loading="lazy" decoding="async"></a>' +
+        (e.serie ? '<a class="entitat-peu__crida" href="' + e.serie.href + '">' + e.serie.text + ' →</a>' : '') +
+        (e.crida ? '<a class="entitat-peu__crida" href="' + e.crida.href + '" rel="noopener" target="_blank">' +
+          e.crida.text + ' →</a>' : '') +
+        '</div>'
+      ).join('') + '</div>';
+
+    const caixa = peu.querySelector('.editorial-footer__inner > div') || peu.firstElementChild || peu;
+    caixa.appendChild(bloc);
+  })();
+
   // Enllaç a l'avís legal al peu de les pàgines interiors. A la portada
   // l'enllaç és estàtic dins d'index.html (com el de les xarxes). Les rutes són
   // ABSOLUTES perquè aquest fitxer també s'executa a /noticia/... i /tema/...

@@ -239,3 +239,30 @@ function iacat_afiliacio(array $item): ?array
     if ($org === '' || !preg_match('#^https?://#i', $url)) { return null; }
     return ['@type' => 'Organization', 'name' => $org, 'url' => $url];
 }
+
+// ---------------------------------------------------------------------------
+// Sèries de «La tribuna» i «Estudis» (12.10.2026). Les dades viuen a series.js
+// (window.IA_SERIES), el mateix fitxer que fa servir el navegador: font única.
+// Una peça hi entra amb el camp opcional "serie" (la clau de la sèrie).
+// ---------------------------------------------------------------------------
+
+/** Totes les sèries definides a series.js, indexades per clau. */
+function iacat_series(): array
+{
+    static $cau = null;
+    if ($cau === null) { $cau = (array) (iacat_llegeix_js('series.js', 'IA_SERIES') ?? []); }
+    return $cau;
+}
+
+/** Les peces (tribuna i estudis) d'una sèrie, de la més recent a la més antiga. */
+function iacat_peces_serie(string $clau): array
+{
+    $peces = [];
+    foreach (['tribuna', 'estudis'] as $tipus) {
+        foreach (iacat_peces($tipus) as $peca) {
+            if (($peca['item']['serie'] ?? '') === $clau) { $peces[] = $peca; }
+        }
+    }
+    usort($peces, static fn(array $a, array $b): int => strcmp($b['dataIso'], $a['dataIso']));
+    return $peces;
+}

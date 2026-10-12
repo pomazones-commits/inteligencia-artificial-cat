@@ -14,7 +14,8 @@
   <title>Estudis · intel·ligència artificial.cat</title>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="./editorial.css?v=2026100101b">
-  <script defer src="./shared.js?v=2026101101"></script>
+  <link rel="stylesheet" href="./series.css?v=2026101201">
+  <script defer src="./shared.js?v=2026101201"></script>
   <style>
     /* Peces pròpies d'un estudi acadèmic: resum, paraules clau, seccions i bibliografia. */
     .estudi-resum { margin: 0 0 30px; padding: 24px 26px; background: #f2f5fb; border-left: 3px solid #233a82; }
@@ -79,6 +80,7 @@
 
   <script src="./estudis.js?v=2026100701b"></script>
   <script src="./estudis-arxiu.js?v=2026100701b"></script>
+  <script src="./series.js?v=2026101201"></script>
   <script src="./peces.js?v=2026100701"></script>
   <script src="./lector.js?v=2026072901"></script>
   <script>
@@ -262,6 +264,8 @@
       document.getElementById('share-linkedin').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
       document.getElementById('share-whatsapp').href = 'https://wa.me/?text=' + titolCodificat + '%20' + url;
       document.getElementById('share-mail').href = 'mailto:?subject=' + titolCodificat + '&body=' + url;
+      // Sèrie (12.10.2026): si la peça porta "serie", etiqueta sobre el títol i targeta al final (series.js).
+      if (window.IASeries) window.IASeries.marca(e, { etiqueta: document.getElementById('kicker'), peu: document.getElementById('notes') });
       document.getElementById('contingut').hidden = false;
 
       // Lector: MP3 neural si existeix (estudi-AAAA-MM-DD.mp3).

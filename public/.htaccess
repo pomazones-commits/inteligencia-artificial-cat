@@ -93,6 +93,8 @@ RewriteRule ^ecosistema/?$ ecosistema.php [L,QSA]
 RewriteRule ^formacio/?$ formacio.php [L,QSA]
 RewriteRule ^centres-de-dades/?$ centres-de-dades.php [L,QSA]
 RewriteRule ^club-de-lectura/?$ club-de-lectura.php [L,QSA]
+# Sèrie «Veus de CIVICAi» (12.10.2026): definició a series.js; peces amb "serie" a tribuna*.js i estudis*.js.
+RewriteRule ^veus-de-civicai/?$ veus-de-civicai.php [L,QSA]
 # Vídeos (09.10.2026): dades a data/videos.json, generades pel workflow videos.yml.
 RewriteRule ^videos/?$ videos.php [L,QSA]
 # La IA a la ràdio (11.10.2026): fitxes MANUALS a data/radio.json.

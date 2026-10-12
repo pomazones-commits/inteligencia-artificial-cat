@@ -1,0 +1,72 @@
+/* «Entitats col·laboradores» al peu de pàgina (preparat el 08.10.2026,
+   publicat el 12.10.2026). Full autònom: no toca portada.css ni styles.css.
+   El marcatge el genera shared.js a les pàgines interiors i és estàtic a
+   index.html (la portada no carrega shared.js). La llista d'entitats viu a
+   shared.js (constant ENTITATS): si hi afegeixes o en treus una, actualitza
+   també el bloc d'index.html. */
+
+.entitats-peu {
+  margin-top: 22px;
+}
+
+.entitats-peu__etiqueta {
+  display: block;
+  margin-bottom: 9px;
+  font: 600 10px "IBM Plex Mono", monospace;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  opacity: .55;
+}
+
+.entitats-peu__llista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  align-items: center;
+}
+
+.entitat-peu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+}
+
+/* El logo va sobre una targeta blanca: així es llegeix igual al peu fosc de
+   la portada i al peu clar de les pàgines interiors. */
+.entitat-peu__logo {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 12px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .08);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.entitat-peu__logo:hover,
+.entitat-peu__logo:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .18);
+}
+
+.entitat-peu__logo img {
+  display: block;
+  width: auto;
+  height: 26px;
+}
+
+.entitat-peu__crida {
+  color: inherit;
+  font: 600 10px "IBM Plex Mono", monospace;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: .7;
+}
+
+.entitat-peu__crida:hover,
+.entitat-peu__crida:focus-visible {
+  opacity: 1;
+  text-decoration: underline;
+}
