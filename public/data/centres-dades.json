@@ -1,5 +1,5 @@
 {
- "actualitzat": "2026-10-03",
+ "actualitzat": "2026-10-12",
  "propera_revisio": "2026-11-15",
  "nota": "Centres de dades i supercomputació als territoris de parla catalana. Manual: revisió setmanal a la tasca «Edicions» (vegeu CLAUDE.md). Pàgina: /centres-de-dades (public/centres-de-dades.php). Estats: en funcionament | en construcció | en tramitació | aturat | descartat. origen de cada xifra: promotor (ho diu l’empresa) | administració (ho anuncia un govern o un ajuntament) | oficial (consta en un tràmit o document públic: Miteco, DOGC, DOGV, BOIB, BOPA, BOE, llicència, contracte) | premsa (xifra publicada sense font primària). llocs = [[lat, lon], …] aproximades. polemica: sempre amb la resposta de l’empresa o de l’administració, o una nota que digui que no n’hem trobat. Contractacions: només amb document públic o comunicat de totes dues parts. Cap camp inventat.",
  "xifres": [
@@ -25,11 +25,11 @@
    "data_font": "2026-05-05"
   },
   {
-   "valor": "12.000 MW",
-   "etiqueta": "de sol·licituds de connexió de centres de dades a tot l'Estat: una quarta part del sistema elèctric",
-   "font_nom": "EbreDigital",
-   "font": "https://ebredigital.cat/2026/09/12/els-centres-de-dades-pengen-del-fil-del-reial-decret-que-prepara-el-govern-espanyol/",
-   "data_font": "2026-09-12"
+   "valor": "6.329 MW",
+   "etiqueta": "d'accés a la xarxa de transport concedit a centres de dades a tot l'Estat. Cap no és encara en servei",
+   "font_nom": "DCD, a partir del mapa de capacitat de Red Eléctrica",
+   "font": "https://www.datacenterdynamics.com/es/noticias/espa%C3%B1a-afronta-22-gw-de-solicitudes-de-centros-de-datos/",
+   "data_font": "2026-10-05"
   }
  ],
  "territoris": {
@@ -80,7 +80,7 @@
   },
   {
    "titol": "Electricitat i xarxa",
-   "text": "Si es fessin els 26 projectes catalans, el consum seria d’uns 12.000 GWh l’any, segons les entitats que demanen la moratòria: el doble del que consumeix la ciutat de Barcelona. A tot l’Estat, les sol·licituds de connexió ja sumen 12.000 MW. El Govern espanyol prepara un reial decret per cribar-les i exigir-los renovables, i el sector avisa que fins al 90% dels projectes podrien quedar fora. La Generalitat respon que la nova planificació elèctrica, amb 3.800 MW més per a Catalunya fins al 2030, ha de permetre encabir els projectes estratègics. Al Parc de l’Alba, el Consorci admet que el consum serà «especialment elevat» i diu que el reforç de la xarxa el paguen els promotors.",
+   "text": "Si es fessin els 26 projectes catalans, el consum seria d’uns 12.000 GWh l’any, segons les entitats que demanen la moratòria: el doble del que consumeix la ciutat de Barcelona. A tot l’Estat, els centres de dades ja tenen 6.329 MW d’accés concedit a la xarxa de transport, segons Red Eléctrica, i cap no és encara en servei. El Govern espanyol prepara un reial decret per cribar-los: hauran de cobrir almenys el 80% del consum de cada hora amb renovables noves. El ministre Óscar López el vol aprovar abans de les eleccions del 29 de novembre; la CNMC demana flexibilitzar aquesta exigència, i el sector avisa que fins al 90% dels projectes podrien quedar fora. La Generalitat respon que la nova planificació elèctrica, amb 3.800 MW més per a Catalunya fins al 2030, ha de permetre encabir els projectes estratègics. Al Parc de l’Alba, el Consorci admet que el consum serà «especialment elevat» i diu que el reforç de la xarxa el paguen els promotors.",
    "fonts": [
     {
      "nom": "No als megacentres de dades",
@@ -97,6 +97,18 @@
     {
      "nom": "elCugatenc",
      "url": "https://www.elcugatenc.cat/noticia/101575/energia-aigua-i-urbanitzacio-del-centre-direccional-que-se-sap-dels-nous-centres-de-dades-"
+    },
+    {
+     "nom": "DCD (Red Eléctrica)",
+     "url": "https://www.datacenterdynamics.com/es/noticias/espa%C3%B1a-afronta-22-gw-de-solicitudes-de-centros-de-datos/"
+    },
+    {
+     "nom": "El Periódico de la Energía",
+     "url": "https://elperiodicodelaenergia.com/el-gobierno-espera-aprobar-en-breve-y-antes-del-29n-el-real-decreto-de-los-centros-de-datos/"
+    },
+    {
+     "nom": "elDiario.es (CNMC)",
+     "url": "https://www.eldiario.es/economia/cnmc-pide-flexibilizar-obligacion-centros-datos-cubrir-80-consumo-renovables_1_13574342.html"
     }
    ]
   },
@@ -196,7 +208,7 @@
     "Edged",
     "CoreWeave"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "digital-realty-bcn1",
@@ -254,7 +266,7 @@
    "paraules": [
     "Digital Realty"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "oxigen",
@@ -327,7 +339,7 @@
    "paraules": [
     "Oxigen"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "oxigen-sant-fruitos",
@@ -386,7 +398,7 @@
     "Oxigen",
     "Sant Fruitós de Bages"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "edgeconnex-viladecans",
@@ -450,12 +462,12 @@
     "EdgeConneX",
     "Viladecans"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "atlasedge-acer",
-   "nom": "Centre de dades d’AtlasEdge a la Zona Franca",
-   "promotor": "AtlasEdge",
+   "nom": "Centre de dades de Templus a la Zona Franca (antic AtlasEdge)",
+   "promotor": "Templus (fins al maig del 2026, AtlasEdge)",
    "tipus": "centre de dades comercial",
    "territori": "Catalunya",
    "comarca": "Barcelonès",
@@ -470,9 +482,9 @@
    "estat": "en funcionament",
    "previsio": "",
    "potencia": {
-    "mw": 6,
+    "mw": 4,
     "origen": "promotor",
-    "nota": ""
+    "nota": "Segons Templus (via MetaData), l'antic centre d'AtlasEdge aporta 4 MW al seu campus de Barcelona, que en suma 10. Abans la fitxa en donava 6, la xifra d'AtlasEdge."
    },
    "inversio": {
     "meur": null,
@@ -489,13 +501,23 @@
    "energia": "",
    "tramits": [],
    "polemica": null,
-   "notes": "Antic centre de Colt. L’edifici és propietat de Principal Real Estate, que el va comprar el 2022 i el té llogat a AtlasEdge fins al 2033.",
+   "notes": "Antic centre de Colt. AtlasEdge el va vendre a Templus dins un lot de nou centres europeus (venda tancada el 05.05.2026), i Templus l'ha integrat amb l'antic centre de Cellnex en un campus de 10 MW. L'edifici és propietat de Principal Real Estate, que el va comprar el 2022, quan era llogat a AtlasEdge fins al 2033; no hem trobat si el lloguer ha passat a Templus. MetaData situa el campus a la part de la Zona Franca de l'Hospitalet de Llobregat.",
    "xifres_nota": "",
    "cronologia": [
     {
      "data": "2022-08-24",
      "fet": "Principal Real Estate compra l’edifici, llogat a AtlasEdge fins al 2033",
      "font": "https://www.datacenterdynamics.com/en/news/principal-real-estate-acquires-atlasedge-leased-data-center-in-barcelona-spain/"
+    },
+    {
+     "data": "2026-05-05",
+     "fet": "AtlasEdge tanca la venda de nou centres de dades a Templus, entre els quals el de Barcelona",
+     "font": "https://atlasedge.com/atlasedge-completes-sale-of-selected-data-centre-sites-accelerating-focus-on-scalable-high-growth-markets/"
+    },
+    {
+     "data": "2026-05-28",
+     "fet": "Templus inaugura un campus de 10 MW a Barcelona amb l'antic centre d'AtlasEdge (4 MW) i l'antic de Cellnex",
+     "font": "https://www.metadata.cat/noticia/6339/templus-inaugura-campus-centres-dades-barcelona"
     }
    ],
    "fonts": [
@@ -503,12 +525,23 @@
      "nom": "DCD",
      "url": "https://www.datacenterdynamics.com/en/news/principal-real-estate-acquires-atlasedge-leased-data-center-in-barcelona-spain/",
      "data": "2022-08-24"
+    },
+    {
+     "nom": "AtlasEdge",
+     "url": "https://atlasedge.com/atlasedge-completes-sale-of-selected-data-centre-sites-accelerating-focus-on-scalable-high-growth-markets/",
+     "data": "2026-05-05"
+    },
+    {
+     "nom": "MetaData",
+     "url": "https://www.metadata.cat/noticia/6339/templus-inaugura-campus-centres-dades-barcelona",
+     "data": "2026-05-28"
     }
    ],
    "paraules": [
-    "AtlasEdge"
+    "AtlasEdge",
+    "Templus"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "estacio-cable-barcelona",
@@ -568,7 +601,7 @@
     "Medusa",
     "AFR-IX"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "marenostrum-5",
@@ -639,7 +672,7 @@
     "MareNostrum",
     "Barcelona Supercomputing Center"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "csuc-pirineus",
@@ -703,7 +736,7 @@
     "CSUC",
     "Pirineus"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "panattoni-parc-alba",
@@ -800,6 +833,11 @@
      "data": "2025-11-12",
      "fet": "Ecologistes en Acció demana aturar la construcció de centres de dades",
      "font": "https://www.totcerdanyola.cat/actualitat/ecologistes-en-accio-demana-aturar-construccio-centres-dades_2225560102.html"
+    },
+    {
+     "data": "2026-10-12",
+     "fet": "Refem i ADENC diuen que la sentència sobre el seu recurs contra el planejament del Parc de l'Alba (aprovat per la Generalitat el 2020) els dona la raó en alguns aspectes, però en manté parts substancials. La notícia no diu quin tribunal l'ha dictada ni si afecta les parcel·les dels centres de dades",
+     "font": "https://www.totcerdanyola.cat/actualitat/refem-explicara-sentencia-sobre-parc-alba-en-acte-public_2241822102.html"
     }
    ],
    "fonts": [
@@ -814,7 +852,7 @@
     "Parc de l'Alba",
     "Cerdanyola"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "aq-compute-bcn1",
@@ -873,6 +911,11 @@
      "fet": "AQ Compute passa a dir-se hscale, després que Bain Capital en comprés el 80%",
      "font": "https://www.datacentermap.com/spain/barcelona/aq-compute-aq-bcn1/",
      "precisio": "mes"
+    },
+    {
+     "data": "2026-10-12",
+     "fet": "Refem i ADENC diuen que la sentència sobre el seu recurs contra el planejament del Parc de l'Alba (aprovat per la Generalitat el 2020) els dona la raó en alguns aspectes, però en manté parts substancials. La notícia no diu quin tribunal l'ha dictada ni si afecta les parcel·les dels centres de dades",
+     "font": "https://www.totcerdanyola.cat/actualitat/refem-explicara-sentencia-sobre-parc-alba-en-acte-public_2241822102.html"
     }
    ],
    "fonts": [
@@ -887,7 +930,7 @@
     "AQ Compute",
     "Parc de l'Alba"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "quetta-molins",
@@ -905,7 +948,7 @@
    ],
    "precisio_ubicacio": "polígon (El Pla, Molins de Rei, al costat d'una subestació; aproximat)",
    "estat": "en construcció",
-   "previsio": "",
+   "previsio": "Obres pendents de començar (setembre del 2026, segons la premsa local); 18 mesos d'obra i 6 de posada en marxa",
    "potencia": {
     "mw": 10,
     "origen": "promotor",
@@ -991,7 +1034,7 @@
     "Quetta",
     "Molins de Rei"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "adam-parc-alba",
@@ -1037,6 +1080,11 @@
      "data": "2025-10-07",
      "fet": "Comencen les obres: 8 MW (primera fase de 4 MW), 7.500 m², Tier III, ple funcionament el 2027",
      "font": "https://www.totcerdanyola.cat/actualitat/adam-inicia-construccio-nou-centre-dades-parc-alba_2220289102.html"
+    },
+    {
+     "data": "2026-10-12",
+     "fet": "Refem i ADENC diuen que la sentència sobre el seu recurs contra el planejament del Parc de l'Alba (aprovat per la Generalitat el 2020) els dona la raó en alguns aspectes, però en manté parts substancials. La notícia no diu quin tribunal l'ha dictada ni si afecta les parcel·les dels centres de dades",
+     "font": "https://www.totcerdanyola.cat/actualitat/refem-explicara-sentencia-sobre-parc-alba-en-acte-public_2241822102.html"
     }
    ],
    "fonts": [
@@ -1049,7 +1097,7 @@
    "paraules": [
     "Parc de l'Alba"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "ai-factory-bsc",
@@ -1125,7 +1173,7 @@
    "paraules": [
     "MareNostrum"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "adequa-santa-barbara",
@@ -1197,7 +1245,7 @@
     "Santa Bàrbara",
     "Adequa"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "adequa-odena",
@@ -1297,7 +1345,7 @@
     "Can Morera",
     "Adequa"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "gigafactoria-mora-la-nova",
@@ -1446,7 +1494,7 @@
    "paraules": [
     "Móra la Nova"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "submer-flix",
@@ -1464,11 +1512,11 @@
    ],
    "precisio_ubicacio": "municipi/planta d'Ercros (aproximat; no verificat amb cartografia)",
    "estat": "en tramitació",
-   "previsio": "Primera fase a finals del 2027",
+   "previsio": "Primera fase a finals del 2027, segons l'empresa (Ara)",
    "potencia": {
-    "mw": 70,
+    "mw": null,
     "origen": "premsa",
-    "nota": "Potència elèctrica vinculada a l’antiga planta d’Ercros; el promotor no l’ha detallada per fases."
+    "nota": "No publicada. Ni l'Ajuntament, ni Ercros, ni l'Ara, ni MetaData no en donen cap xifra; la fitxa deia 70 MW sense cap font que ho sostingués (corregit el 12.10.2026)."
    },
    "inversio": {
     "meur": 1000,
@@ -1499,7 +1547,7 @@
    "tramits": [],
    "polemica": {
     "critica": {
-     "text": "Ecologistes en Acció de Tarragona i l’Ebre inclou Flix a les al·legacions contra el projecte de reial decret: demana que es prohibeixi refrigerar evaporant aigua dolça en municipis amb estrès hídric i que l’avaluació ambiental inclogui les subestacions. Agustí Emperador, de la mateixa entitat, compara el consum elèctric del centre amb el de la fàbrica de Seat a Martorell, que dona feina a molta més gent (MetaData).",
+     "text": "Ecologistes en Acció de Tarragona i l’Ebre inclou Flix a les al·legacions contra el projecte de reial decret: demana que es prohibeixi refrigerar evaporant aigua dolça en municipis amb estrès hídric i que l’avaluació ambiental inclogui les subestacions. L'entitat compara el consum elèctric del futur centre amb el de la fàbrica de Seat a Martorell, que dona feina a molta més gent (MetaData, 14.08.2026).",
      "data": "2026-09-22",
      "font": "https://ebredigital.cat/2026/09/22/ecologistes-en-accio-de-tarragona-i-ebre-presenta-allegacions-al-projecte-de-reial-decret-sobre-centres-de-dades/"
     },
@@ -1534,14 +1582,14 @@
     {
      "nom": "MetaData",
      "url": "https://www.metadata.cat/noticia/6472/catalunya-afronta-el-repte-energetic-dels-centres-de-dades-impulsats-per-la-ia",
-     "data": ""
+     "data": "2026-08-14"
     }
    ],
    "paraules": [
     "Flix",
     "Submer"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "ark-maquinista",
@@ -1607,7 +1655,7 @@
     "Ark Data Centres",
     "Maquinista"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "gtr-parc-alba",
@@ -1653,6 +1701,11 @@
      "data": "2023-08-03",
      "fet": "GTR anuncia un centre de 16 MW al Parc de l’Alba",
      "font": "https://www.datacenterdynamics.com/es/noticias/global-technical-realty-construir%C3%A1-un-centro-de-datos-de-16mw-en-barcelona/"
+    },
+    {
+     "data": "2026-10-12",
+     "fet": "Refem i ADENC diuen que la sentència sobre el seu recurs contra el planejament del Parc de l'Alba (aprovat per la Generalitat el 2020) els dona la raó en alguns aspectes, però en manté parts substancials. La notícia no diu quin tribunal l'ha dictada ni si afecta les parcel·les dels centres de dades",
+     "font": "https://www.totcerdanyola.cat/actualitat/refem-explicara-sentencia-sobre-parc-alba-en-acte-public_2241822102.html"
     }
    ],
    "fonts": [
@@ -1666,7 +1719,7 @@
     "Global Technical Realty",
     "Parc de l'Alba"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "serosense-alcarras",
@@ -1737,7 +1790,7 @@
     "Alcarràs",
     "Serosense"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "atlasedge-barcelona-2",
@@ -1790,7 +1843,7 @@
    "paraules": [
     "AtlasEdge"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "mediterra-montmelo",
@@ -1827,8 +1880,30 @@
     "font": "https://brainsre.news/mediterra-datacenters-elige-barcelona-centro-datos/"
    },
    "energia": "12 MW de connexió elèctrica assegurats, segons el promotor. Preveu aprofitar la calor residual per a serveis públics locals.",
-   "tramits": [],
-   "polemica": null,
+   "tramits": [
+    {
+     "organisme": "Ajuntament de Montmeló (ple municipal)",
+     "fet": "Adjudica directament a Mediterra Data Centers Iberia una concessió del subsòl per 30 anys per a una línia elèctrica soterrada d'1,9 km, des de la subestació del polígon Riera Marçà fins a la parcel·la del polígon del Circuit. Fem Montmeló hi vota a favor; Junts i Canviem s'abstenen",
+     "url": "https://www.sommontmelo.cat/noticia/114185/mediterra-pagara-mes-de-40.000-euros-a-lany-a-montmelo-per-la-linia-electrica-del-seu-cent",
+     "via_premsa": true
+    }
+   ],
+   "polemica": {
+    "critica": {
+     "text": "Junts demana prudència per l'adjudicació directa a tants anys, i Canviem es queixa que no els van consultar i demana que la taxa s'actualitzi.",
+     "data": "2026-08-09",
+     "font": "https://www.sommontmelo.cat/noticia/114185/mediterra-pagara-mes-de-40.000-euros-a-lany-a-montmelo-per-la-linia-electrica-del-seu-cent"
+    },
+    "respostes": [
+     {
+      "qui": "Alcalde de Montmeló, Pere Rodríguez",
+      "text": "Diu que tenir un centre de dades al costat és un avantatge per als polígons i que la seguretat de la línia «està més que garantida».",
+      "data": "2026-08-09",
+      "font": "https://www.sommontmelo.cat/noticia/114185/mediterra-pagara-mes-de-40.000-euros-a-lany-a-montmelo-per-la-linia-electrica-del-seu-cent"
+     }
+    ],
+    "nota": "La premsa local dona un ingrés d'uns 43.000 € l'any, però la xifra no quadra amb el preu per metre quadrat que cita; no la donem fins que la puguem comprovar a l'acta del ple."
+   },
    "notes": "Plataforma italiana. Ocuparà 9.700 m².",
    "xifres_nota": "",
    "cronologia": [
@@ -1836,6 +1911,11 @@
      "data": "2026-02-17",
      "fet": "Mediterra anuncia el centre de Montmeló",
      "font": "https://brainsre.news/mediterra-datacenters-elige-barcelona-centro-datos/"
+    },
+    {
+     "data": "2026-08-09",
+     "fet": "El ple adjudica a Mediterra la concessió del subsòl per a la línia elèctrica d'1,9 km fins al centre",
+     "font": "https://www.sommontmelo.cat/noticia/114185/mediterra-pagara-mes-de-40.000-euros-a-lany-a-montmelo-per-la-linia-electrica-del-seu-cent"
     }
    ],
    "fonts": [
@@ -1848,13 +1928,18 @@
      "nom": "Font complementària",
      "url": "https://metropoliabierta.elespanol.com/economia/20260217/mediterra-desembarca-barcelona-centro-datos-partir/1003742733493_0.html",
      "data": ""
+    },
+    {
+     "nom": "somMontmeló",
+     "url": "https://www.sommontmelo.cat/noticia/114185/mediterra-pagara-mes-de-40.000-euros-a-lany-a-montmelo-per-la-linia-electrica-del-seu-cent",
+     "data": "2026-08-09"
     }
    ],
    "paraules": [
     "Mediterra",
     "Montmeló"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "ponentia",
@@ -1966,7 +2051,7 @@
     "Montblanc",
     "Espluga de Francolí"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "tirant-uv",
@@ -2019,12 +2104,12 @@
     "Tirant",
     "Universitat de València"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "nxn-vara-de-quart",
    "nom": "Centre de dades de NxN a Vara de Quart",
-   "promotor": "NxN Data Centers",
+   "promotor": "NxN Data Centers (participació majoritària d'InfraRed Capital Partners des del desembre del 2025)",
    "tipus": "centre de dades comercial",
    "territori": "Comunitat Valenciana",
    "comarca": "València",
@@ -2111,13 +2196,18 @@
      "nom": "Valencia Plaza",
      "url": "https://valenciaplaza.com/valenciaplaza/empresas1/nxn-contratara-a-100-personas-en-su-data-center-de-valencia-y-empezara-a-operar-en-2027",
      "data": "2026-02-03"
+    },
+    {
+     "nom": "DCD",
+     "url": "https://www.datacenterdynamics.com/es/noticias/infrared-toma-el-control-de-nxn-data-centers/",
+     "data": "2025-12-16"
     }
    ],
    "paraules": [
     "NxN",
     "Vara de Quart"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "digital-valley-picassent",
@@ -2252,7 +2342,7 @@
     "Digital Valley",
     "Picassent"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "vdpc-sagunt",
@@ -2324,7 +2414,7 @@
     "Sagunt",
     "Valencia Digital Port Connect"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "valfortec-monforte",
@@ -2398,7 +2488,7 @@
     "Valfortec",
     "Monforte del Cid"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "catadau",
@@ -2464,7 +2554,7 @@
    "paraules": [
     "Catadau"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "talaia-uib",
@@ -2530,7 +2620,7 @@
    "paraules": [
     "Talaia"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "cpd-govern-balear",
@@ -2583,7 +2673,7 @@
    "paraules": [
     "Govern balear"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   },
   {
    "id": "andorra-telecom",
@@ -2642,10 +2732,26 @@
    "paraules": [
     "Andorra Telecom"
    ],
-   "verificat": "2026-10-03"
+   "verificat": "2026-10-12"
   }
  ],
  "versio": 2,
  "criteri": "Hi entren els centres de dades de 5 MW o més (en funcionament o anunciats), la infraestructura pública de càlcul (supercomputadors i centres de dades dels governs), les estacions de cables submarins que condicionen on s’instal·len els centres i els projectes amb potència encara no publicada que són en tràmit o en debat públic.",
- "canvis": []
+ "canvis": [
+  {
+   "data": "2026-10-12",
+   "id": "panattoni-parc-alba",
+   "fet": "Sentència sobre el planejament del Parc de l'Alba: segons les entitats que la van recórrer, els dona la raó en alguns aspectes i en manté parts substancials. Encara no se sap si afecta els centres de dades del polígon"
+  },
+  {
+   "data": "2026-10-12",
+   "id": "atlasedge-acer",
+   "fet": "Correcció: el centre ja no és d'AtlasEdge. Templus el va comprar (venda tancada el 05.05.2026) i l'ha integrat en un campus de 10 MW; l'antic centre hi aporta 4 MW, no 6"
+  },
+  {
+   "data": "2026-10-12",
+   "id": "submer-flix",
+   "fet": "Correcció: es retira la xifra de 70 MW, que no consta en cap font. La potència del projecte no s'ha fet pública"
+  }
+ ]
 }
