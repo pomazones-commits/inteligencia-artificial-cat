@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026101204';
+  const VERSIO_MANUAL = '2026101205';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './series.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');

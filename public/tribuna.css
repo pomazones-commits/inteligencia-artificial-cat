@@ -18,7 +18,8 @@
 
 .tribuna-layout {
   display: grid;
-  grid-template-columns: minmax(230px, .55fr) minmax(0, 1.45fr);
+  /* 12.10.2026: retrat més petit (abans ocupava ~310 px i pesava més que el text). */
+  grid-template-columns: 230px minmax(0, 1fr);
   gap: 48px;
   align-items: center;
   padding-block: 50px;
@@ -31,7 +32,9 @@
   display: block;
   width: 100%;
   /* proporció natural de la foto */
+  aspect-ratio: 4 / 5;
   object-fit: cover;
+  object-position: center 20%;
   border-radius: 26px;
   border: 1px solid rgba(255, 255, 255, .2);
   box-shadow: 0 18px 55px rgba(0, 0, 0, .35);
@@ -92,6 +95,6 @@
 @media (max-width: 880px) {
   .tribuna-band { border-radius: 25px; }
   .tribuna-layout { grid-template-columns: 1fr; gap: 26px; padding: 34px 24px; align-items: start; }
-  .tribuna-photo { max-width: 340px; }
+  .tribuna-photo { max-width: 200px; }
   .tribuna-copy h2 { font-size: 33px; }
 }
