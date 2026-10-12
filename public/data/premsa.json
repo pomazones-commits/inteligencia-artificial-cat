@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-12T04:12:52.999Z",
+ "actualitzat": "2026-10-12T08:13:50.881Z",
  "fonts": 29,
  "articles": [
+  {
+   "id": "16a37a048089",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Johann Choron: “En una película la IA puede generar píxeles, pero no puede generar intención ni oficio”",
+   "url": "https://elpais.com/babelia/2026-10-12/johann-choron-en-una-pelicula-la-ia-puede-generar-pixeles-pero-no-puede-generar-intencion-ni-oficio.html",
+   "publicat": "2026-10-12T03:30:00.000Z"
+  },
+  {
+   "id": "6923f3abd0fe",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los inversores españoles suben su apuesta en Nvidia hasta los 4.500 millones en plena euforia de la IA",
+   "url": "https://cincodias.elpais.com/companias/2026-10-12/los-inversores-espanoles-suben-su-apuesta-en-nvidia-hasta-los-4500-millones-en-plena-euforia-de-la-ia.html",
+   "publicat": "2026-10-12T03:15:00.000Z"
+  },
   {
    "id": "015e4600246f",
    "mitja": "La Vanguardia",
@@ -375,6 +397,17 @@
    "publicat": "2026-10-08T09:18:40.000Z"
   },
   {
+   "id": "a6d087c07837",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "De la innovació als resultats: el desafiament empresarial de la IA",
+   "url": "https://www.elperiodico.cat/sostenibilitat-estalvi/20261008/innovacio-als-resultats-desafiament-empresarial-ia-135109109",
+   "publicat": "2026-10-08T03:30:32.000Z"
+  },
+  {
    "id": "5f5123bddea5",
    "mitja": "El País",
    "font": "elpais-tec",
@@ -549,17 +582,6 @@
    "titol": "Sam Altman, creador de ChatGPT: «El món hauria d’acceptar que passin algunes coses dolentes» en benefici dels avantatges de la IA",
    "url": "https://www.elperiodico.cat/tecnologia/20261005/sam-altman-chatgpt-openai-mon-acceptar-coses-dolentes-riscos-ia-135011243",
    "publicat": "2026-10-05T10:20:21.000Z"
-  },
-  {
-   "id": "7ad070304708",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "¿Quién responde judicialmente cuando los agentes de IA autónomos se descontrolan?",
-   "url": "https://www.elmundo.es/tecnologia/2026/10/05/6ac35986fc6c8345238b4579.html",
-   "publicat": "2026-10-05T08:02:16.000Z"
   }
  ]
 }
