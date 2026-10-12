@@ -290,19 +290,40 @@ def _sintetitza_piper(fitxer_text: Path, mp3: Path, slug: str) -> bool:
         if r1.returncode != 0 or not wav.is_file():
             print(f"AVÍS: Piper ha fallat amb {slug}: {(r1.stderr or '').strip()[-200:]}")
             return False
-        # Mateix format que els MP3 de sempre: mono i lleuger per al mòbil.
-        r2 = subprocess.run(
-            ["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav),
-             "-ac", "1", "-codec:a", "libmp3lame", "-b:a", "64k", str(mp3)],
-            timeout=300, capture_output=True, text=True,
-        )
     except subprocess.TimeoutExpired:
         print(f"AVÍS: la veu de recanvi s'ha penjat amb {slug}.")
         return False
-    if r2.returncode != 0:
-        print(f"AVÍS: ffmpeg ha fallat amb {slug}: {(r2.stderr or '').strip()[-200:]}")
+    try:
+        wav_a_mp3(wav, mp3)
+    except Exception as exc:  # p. ex. lameenc no instal·lat
+        print(f"AVÍS: no s'ha pogut passar a MP3 {slug}: {exc}")
         return False
     return mp3.is_file() and mp3.stat().st_size > MIDA_MINIMA
+
+
+def wav_a_mp3(wav: Path, mp3: Path, kbps: int = 64) -> None:
+    """WAV PCM 16 bits → MP3 mono amb lameenc (Python pur: el runner no porta ffmpeg)."""
+    import array
+    import wave
+
+    import lameenc
+
+    with wave.open(str(wav), "rb") as w:
+        canals, amplada, freq = w.getnchannels(), w.getsampwidth(), w.getframerate()
+        dades = w.readframes(w.getnframes())
+    if amplada != 2:
+        raise ValueError(f"WAV de {amplada * 8} bits; s'esperava 16")
+    if canals == 2:  # mono, com els MP3 de sempre
+        mostres = array.array("h", dades)
+        dades = array.array("h", ((mostres[i] + mostres[i + 1]) // 2
+                                  for i in range(0, len(mostres) - 1, 2))).tobytes()
+        canals = 1
+    enc = lameenc.Encoder()
+    enc.set_bit_rate(kbps)
+    enc.set_in_sample_rate(freq)
+    enc.set_channels(canals)
+    enc.set_quality(2)
+    mp3.write_bytes(enc.encode(dades) + enc.flush())
 
 
 def sintetitza_i_puja(slug: str, text: str, transport) -> bool:

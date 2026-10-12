@@ -116,7 +116,7 @@ jobs:
       # queda sense cap àudio. Piper és una veu catalana neuronal LOCAL (corre
       # al runner, sense claus ni serveis externs). Només s'usa si la Joana falla.
       - name: Instal·la la veu de recanvi (Piper)
-        run: pip install piper-tts
+        run: pip install piper-tts lameenc
 
       - name: Recupera la veu de recanvi de la memòria cau
         id: cache-piper
