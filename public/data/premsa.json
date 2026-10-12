@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-12T08:13:50.881Z",
+ "actualitzat": "2026-10-12T12:28:25.079Z",
  "fonts": 29,
  "articles": [
+  {
+   "id": "356bcba70272",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El FMI confirma que la IA tira del crecimiento y puede compensar el declive demográfico",
+   "url": "https://www.lavanguardia.com/internacional/20261012/11656938/fmi-confirma-ia-tira-crecimiento-compensar-declive-demografico.html",
+   "publicat": "2026-10-12T11:30:03.000Z"
+  },
+  {
+   "id": "4a4279e52b93",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Dos gironins creen una app que vol convertir la IA en un assessor financer personal",
+   "url": "https://www.diaridegirona.cat/economia/2026/10/12/gironins-creen-app-vol-convertir-ia-assesor-financer-135102463.html",
+   "publicat": "2026-10-12T09:51:15.000Z"
+  },
   {
    "id": "16a37a048089",
    "mitja": "Cinco Días",
@@ -560,28 +582,6 @@
    "titol": "Experts debaten a Mallorca sobre els límits de la intel·ligència artificial",
    "url": "https://www.arabalears.cat/media/experts-debaten-aquest-dijous-mallorca-limits-intel-ligencia-artificial_1_5870206.html",
    "publicat": "2026-10-05T13:09:13.000Z"
-  },
-  {
-   "id": "90f33291e34a",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Amar a la IA: el 10% de los jóvenes de EEUU ya no se relaciona con otras personas. De Kupid a Candy, así la inteligencia artificial 'sustituye' a las novias",
-   "url": "https://www.elmundo.es/tecnologia/2026/10/05/6ac38e57fc6c83df568b4570.html",
-   "publicat": "2026-10-05T11:59:21.000Z"
-  },
-  {
-   "id": "7eaae803198a",
-   "mitja": "El Periódico",
-   "font": "elperiodico-tec",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Sam Altman, creador de ChatGPT: «El món hauria d’acceptar que passin algunes coses dolentes» en benefici dels avantatges de la IA",
-   "url": "https://www.elperiodico.cat/tecnologia/20261005/sam-altman-chatgpt-openai-mon-acceptar-coses-dolentes-riscos-ia-135011243",
-   "publicat": "2026-10-05T10:20:21.000Z"
   }
  ]
 }
