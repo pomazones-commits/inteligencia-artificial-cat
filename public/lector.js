@@ -83,8 +83,20 @@
     var pending = function () { renderPending(container); };
     if (opts.audioUrl) {
       // Comprovem si l'MP3 neural existeix; si encara no, «Àudio en preparació.»
-      fetch(opts.audioUrl, { method: 'HEAD' })
-        .then(function (r) { r.ok ? renderAudio(container, opts.audioUrl) : pending(); })
+      // 12.10.2026: els MP3 es desen a la cau 30 dies («immutable», .htaccess) i
+      // la CDN de Hostinger els serveix encara que s'hagin refet (p. ex. en
+      // canviar de veu). Si la URL no porta ja «?v=» (article.php i
+      // imatge-del-dia.php la hi posen), la comprovació salta la cau i fem servir
+      // la data real del fitxer com a versió: un MP3 refet és una URL nova.
+      var url = opts.audioUrl;
+      var jaVersionada = url.indexOf('?') !== -1;
+      var comprova = jaVersionada ? url : url + '?nc=' + Math.floor(Date.now() / 60000);
+      fetch(comprova, { method: 'HEAD', cache: 'no-store' })
+        .then(function (r) {
+          if (!r.ok) { pending(); return; }
+          var data = Date.parse(r.headers.get('last-modified') || '');
+          renderAudio(container, (jaVersionada || isNaN(data)) ? url : url + '?v=' + Math.floor(data / 1000));
+        })
         .catch(pending);
     } else {
       pending();
