@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Genera un MP3 per notícia amb la veu neuronal catalana i el puja al servidor.
 
-S'executa dins de GitHub Actions (gratuït) amb edge-tts i la veu ca-ES-JoanaNeural.
-Si Microsoft no respon (des del 12.10.2026 edge-tts rep un 403), fa servir la
-veu catalana local de Piper (ca_ES-upc_ona-medium), que corre al mateix runner.
+S'executa dins de GitHub Actions. Veu principal (des del 12.10.2026): Gemini,
+veu «Kore», model gemini-3.8-flash-lite-tts. Si Gemini falla, fa servir la veu
+catalana local de Piper (ca_ES-upc_ona-medium), que corre al mateix runner.
+Fins al 12.10.2026 era la Joana d'edge-tts, fins que Microsoft la va tallar.
 Els MP3 NO es guarden al repositori: es pugen directament al servidor,
 a assets/audio/<slug>.mp3. Si una síntesi falla, la notícia conserva el lector
 de veu del navegador com a xarxa de seguretat (article.php ho gestiona sol).
@@ -34,12 +35,23 @@ import tempfile
 import time
 from pathlib import Path
 
-VOICE = "ca-ES-JoanaNeural"
+# Veu principal (12.10.2026, triada per Rafael d'oïda entre Matxa, Gemini i
+# Piper): Gemini «Kore» amb el model econòmic, a ritme normal. La clau arriba
+# NOMÉS pel secret GEMINI_API_KEY de GitHub. Abans era la Joana d'edge-tts,
+# que Microsoft va tallar el 12.10.2026 (rany2/edge-tts#490).
+GEMINI_URL = os.environ.get("GEMINI_URL", "https://generativelanguage.googleapis.com/v1beta/interactions")
+GEMINI_MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-3.8-flash-lite-tts")
+GEMINI_VEU = os.environ.get("GEMINI_TTS_VEU", "Kore")
+GEMINI_ESTIL = ("Locució de notícies en català central, to informatiu i serè, "
+                "ritme normal i natural, pronúncia catalana genuïna.")
+GEMINI_MAX_CARACTERS = 3500  # per petició; els textos llargs es parteixen per paràgrafs
 # Veu de recanvi (12.10.2026): Piper, local i sense claus. El workflow la baixa
-# a PIPER_DIR abans de començar. Es fa servir quan edge-tts falla.
+# a PIPER_DIR abans de començar. Es fa servir quan Gemini falla.
 PIPER_VOICE = "ca_ES-upc_ona-medium"
 PIPER_DIR = Path(os.environ.get("PIPER_DIR", str(Path.home() / "piper-veus")))
-_EDGE_KO = os.environ.get("NOMES_PIPER", "") == "1"  # també es pot forçar a mà
+# Si Gemini falla de manera persistent (sense clau, quota, servei caigut), no
+# ho tornem a provar a cada peça de la passada. NOMES_PIPER=1 ho força a mà.
+_GEMINI_KO = os.environ.get("NOMES_PIPER", "") == "1"
 FTP_HOST = "srv1589.hstgr.io"
 FTP_USER = "u901078817.claude"
 SSH_PATH_DEFECTE = "domains/inteligencia-artificial.cat/public_html"
@@ -239,35 +251,152 @@ def regenera_forcats(transport, fets: int, errors: int):
     return fets, errors
 
 
-def _sintetitza_edge(fitxer_text: Path, mp3: Path, slug: str) -> bool:
-    """Veu de Microsoft (edge-tts). True si ha deixat un MP3 vàlid a `mp3`."""
-    global _EDGE_KO
-    for intent in range(3):
-        if intent:
-            time.sleep(10)  # pausa entre reintents: el throttling d'edge-tts es recupera sol
+def _trossos(text: str, maxim: int = GEMINI_MAX_CARACTERS) -> list:
+    """Parteix el text en trossos de com a molt `maxim` caràcters, per paràgrafs."""
+    trossos, actual = [], ""
+    for par in (p.strip() for p in text.split("\n") if p.strip()):
+        while len(par) > maxim:  # paràgraf enorme: es talla per l'últim punt possible
+            tall = par.rfind(". ", 0, maxim)
+            tall = tall + 1 if tall > 0 else maxim
+            if actual:
+                trossos.append(actual)
+                actual = ""
+            trossos.append(par[:tall].strip())
+            par = par[tall:].strip()
+        if actual and len(actual) + len(par) + 1 > maxim:
+            trossos.append(actual)
+            actual = par
+        else:
+            actual = f"{actual}\n{par}" if actual else par
+    if actual:
+        trossos.append(actual)
+    return trossos
+
+
+def _darrer_audio(node):
+    """Busca a la resposta de Gemini el darrer bloc {"type": "audio", "data": ...}."""
+    trobat = None
+    if isinstance(node, dict):
+        if node.get("type") == "audio" and node.get("data"):
+            trobat = node["data"]
+        for v in node.values():
+            trobat = _darrer_audio(v) or trobat
+    elif isinstance(node, list):
+        for v in node:
+            trobat = _darrer_audio(v) or trobat
+    return trobat
+
+
+class GeminiError(RuntimeError):
+    def __init__(self, missatge: str, persistent: bool):
+        super().__init__(missatge)
+        self.persistent = persistent  # True: no val la pena tornar-ho a provar en aquesta passada
+
+
+def _gemini_pcm(text: str, veu: str = GEMINI_VEU, model: str = GEMINI_MODEL,
+                estil: str = GEMINI_ESTIL) -> tuple:
+    """Una petició a Gemini. Retorna (frames PCM 16 bits, freqüència, canals)."""
+    import base64
+    import io
+    import urllib.error
+    import urllib.request
+    import wave
+
+    clau = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not clau:
+        raise GeminiError("falta el secret GEMINI_API_KEY", persistent=True)
+    cos = json.dumps({
+        "model": model,
+        "input": [{"type": "user_input", "content": [{
+            "type": "text", "text": text,
+            "annotations": [{"type": "speech_metadata", "style": estil}],
+        }]}],
+        "response_format": {"type": "audio"},
+        "generation_config": {"speech_config": [{"voice": veu}]},
+    }).encode()
+    # Claus noves «AQ.» (des del maig del 2026) i antigues «AIza»: totes dues
+    # van a x-goog-api-key; si Google la rebutja pel tipus, es prova com a Bearer.
+    capcaleres = [{"x-goog-api-key": clau}, {"Authorization": f"Bearer {clau}"}]
+    auth, resposta, reintents_429, reintents_xarxa = 0, None, 0, 0
+    while resposta is None:
+        req = urllib.request.Request(GEMINI_URL, data=cos,
+                                     headers={"Content-Type": "application/json", **capcaleres[auth]})
         try:
-            # timeout per intent: sense això, una síntesi penjada bloqueja la run
-            # sencera fins al límit de 30 min del workflow i les peces restants
-            # es queden sense àudio (va passar el 24.07.2026, runs #33 i #36).
-            resultat = subprocess.run(
-                ["edge-tts", "--voice", VOICE, "-f", str(fitxer_text), "--write-media", str(mp3)],
-                timeout=120, capture_output=True, text=True,
-            )
-        except subprocess.TimeoutExpired:
-            print(f"AVÍS: edge-tts penjat amb {slug} (intent {intent + 1}/3); es reintenta.")
-            continue
-        if resultat.returncode == 0 and mp3.is_file() and mp3.stat().st_size > MIDA_MINIMA:
-            return True
-        darrera = (resultat.stderr or "").strip().splitlines()[-1:] or ["sense missatge"]
-        print(f"AVÍS: edge-tts ha fallat amb {slug} (intent {intent + 1}/3): {darrera[0][:160]}")
-        # 403 = Microsoft rebutja la connexió (canvi de protocol del 10-12.10.2026).
-        # Reintentar no serveix de res: passem de seguida a la veu local.
-        if "403" in (resultat.stderr or ""):
-            break
-    # Si Microsoft no respon, no ho tornem a provar a cada peça d'aquesta passada:
-    # cada intent fallit són ~20 s i amb 20 peces el job s'eternitzaria.
-    _EDGE_KO = True
-    return False
+            with urllib.request.urlopen(req, timeout=300) as r:
+                resposta = json.loads(r.read())
+        except urllib.error.HTTPError as exc:
+            detall = exc.read().decode("utf-8", "replace")[:200].replace("\n", " ")
+            if exc.code in (401, 403) and auth == 0:
+                auth = 1  # prova la mateixa clau com a Bearer
+                continue
+            if exc.code in (401, 403):
+                raise GeminiError(f"clau rebutjada (HTTP {exc.code}): {detall}", persistent=True)
+            if exc.code == 429:
+                # Quota per minut: es recupera esperant. Si torna a passar, és la diària.
+                if reintents_429 >= 1:
+                    raise GeminiError(f"quota esgotada (HTTP 429): {detall}", persistent=True)
+                reintents_429 += 1
+                time.sleep(60)
+                continue
+            if exc.code >= 500 and reintents_xarxa < 3:
+                reintents_xarxa += 1
+                time.sleep(10)
+                continue
+            raise GeminiError(f"HTTP {exc.code}: {detall}", persistent=exc.code >= 500)
+        except (urllib.error.URLError, TimeoutError) as exc:
+            if reintents_xarxa < 3:
+                reintents_xarxa += 1
+                time.sleep(10)
+                continue
+            raise GeminiError(f"sense connexió: {exc}", persistent=True)
+    if resposta is None:
+        raise GeminiError("sense resposta", persistent=True)
+    dades = _darrer_audio(resposta)
+    if not dades:
+        raise GeminiError(f"resposta sense àudio: {str(resposta)[:200]}", persistent=False)
+    bruts = base64.b64decode(dades)
+    if bruts[:4] == b"RIFF":
+        with wave.open(io.BytesIO(bruts), "rb") as w:
+            return w.readframes(w.getnframes()), w.getframerate(), w.getnchannels()
+    return bruts, 24000, 1  # PCM sense capçalera: 24 kHz, mono, 16 bits
+
+
+def sintetitza_gemini_wav(text: str, desti: Path, veu: str = GEMINI_VEU,
+                          model: str = GEMINI_MODEL, estil: str = GEMINI_ESTIL) -> None:
+    """Text → WAV amb Gemini, partint els textos llargs. Llença GeminiError si falla."""
+    import wave
+
+    frames, freq, canals = [], 24000, 1
+    for i, tros in enumerate(_trossos(text)):
+        pcm, freq, canals = _gemini_pcm(tros, veu, model, estil)
+        if i:
+            frames.append(b"\x00" * (2 * canals * int(freq * 0.4)))  # pausa entre trossos
+        frames.append(pcm)
+    with wave.open(str(desti), "wb") as w:
+        w.setnchannels(canals)
+        w.setsampwidth(2)
+        w.setframerate(freq)
+        for f in frames:
+            w.writeframes(f)
+
+
+def _sintetitza_gemini(fitxer_text: Path, mp3: Path, slug: str) -> bool:
+    """Veu principal (Gemini Kore). True si ha deixat un MP3 vàlid a `mp3`."""
+    global _GEMINI_KO
+    wav = mp3.with_suffix(".gemini.wav")
+    try:
+        sintetitza_gemini_wav(fitxer_text.read_text(encoding="utf-8"), wav)
+        wav_a_mp3(wav, mp3)
+    except GeminiError as exc:
+        print(f"AVÍS: Gemini ha fallat amb {slug}: {exc}")
+        if exc.persistent:
+            print("AVÍS: la resta d'aquesta passada es farà amb la veu de recanvi.")
+            _GEMINI_KO = True
+        return False
+    except Exception as exc:
+        print(f"AVÍS: error inesperat amb Gemini a {slug}: {exc}")
+        return False
+    return mp3.is_file() and mp3.stat().st_size > MIDA_MINIMA
 
 
 def _sintetitza_piper(fitxer_text: Path, mp3: Path, slug: str) -> bool:
@@ -329,9 +458,8 @@ def wav_a_mp3(wav: Path, mp3: Path, kbps: int = 64) -> None:
 def sintetitza_i_puja(slug: str, text: str, transport) -> bool:
     """Sintetitza `text` i el puja a assets/audio/<slug>.mp3. True si tot ha anat bé.
 
-    Primer prova la veu de Microsoft (Joana, edge-tts). Si falla — com des del
-    12.10.2026, quan Microsoft va canviar el servei i edge-tts rep un 403 a cada
-    petició —, fa servir la veu catalana local de Piper, que corre dins del
+    Primer la veu principal (Gemini Kore). Si falla — sense clau, sense quota o
+    amb el servei caigut —, la veu catalana local de Piper, que corre dins del
     mateix runner i no depèn de cap servei extern ni de cap clau.
     """
     with tempfile.TemporaryDirectory() as td:
@@ -339,9 +467,9 @@ def sintetitza_i_puja(slug: str, text: str, transport) -> bool:
         mp3 = Path(td) / "audio.mp3"
         fitxer_text.write_text(text, encoding="utf-8")
         correcte = False
-        veu = "Joana"
-        if not _EDGE_KO:
-            correcte = _sintetitza_edge(fitxer_text, mp3, slug)
+        veu = "Gemini Kore"
+        if not _GEMINI_KO:
+            correcte = _sintetitza_gemini(fitxer_text, mp3, slug)
         if not correcte:
             mp3.unlink(missing_ok=True)
             veu = "Piper"
@@ -365,6 +493,12 @@ def main() -> int:
     if transport is None:
         return 1
     fets = saltats = errors = 0
+    # REFES_EDICIO=1 (entrada «refes_edicio» del workflow, 12.10.2026): torna a
+    # sintetitzar TOTES les peces de l'edició actual encara que ja tinguin MP3,
+    # p. ex. després de canviar de veu. Només a mà: la passada horària no ho fa.
+    refes = os.environ.get("REFES_EDICIO", "") == "1"
+    if refes:
+        print("Mode «refés l'edició»: es tornen a fer tots els MP3 de l'edició actual.")
 
     # 0) Regeneració forçada (19.09.2026). Quan es rectifica una notícia ja
     #    publicada, el seu MP3 continua llegint el text antic, perquè la passada
@@ -382,7 +516,7 @@ def main() -> int:
             slug = (item.get("slug") or "").strip()
             if not slug:
                 continue
-            if transport.ja_existeix(slug):
+            if not refes and transport.ja_existeix(slug):
                 saltats += 1
                 continue
             text = "\n\n".join(
@@ -408,7 +542,7 @@ def main() -> int:
             if not data or not iso:
                 continue
             slug = f"{prefix}-{iso}"
-            if transport.ja_existeix(slug):
+            if not refes and transport.ja_existeix(slug):
                 saltats += 1
                 continue
             text = "\n\n".join(

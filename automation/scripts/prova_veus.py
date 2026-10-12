@@ -25,7 +25,9 @@ import wave
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from genera_audio import ARTICLES, cerca_noticia, tria_transport, wav_a_mp3  # noqa: E402
+from genera_audio import (  # noqa: E402
+    ARTICLES, cerca_noticia, sintetitza_gemini_wav, tria_transport, wav_a_mp3,
+)
 
 API = os.environ.get("MATXA_API", "http://localhost:8000")
 # veu:variant. Variants del servei: ca-es (central), ca-ba (balear),
@@ -99,72 +101,12 @@ def sintetitza(text: str, veu: str, variant: str, desti: Path) -> None:
 
 
 # --- Gemini (Google) -------------------------------------------------------
-# La clau arriba NOMÉS per l'entorn (secret GEMINI_API_KEY de GitHub), mai en
-# cap fitxer. Interactions API: el text es llegeix tal qual i l'estil va a part.
-GEMINI_URL = os.environ.get("GEMINI_URL", "https://generativelanguage.googleapis.com/v1beta/interactions")
+# La mateixa crida que fa servir l'edició (genera_audio.py): una sola definició.
 GEMINI_VEUS_DEFECTE = "Kore:gemini-3.8-flash-lite-tts,Charon:gemini-3.8-flash-lite-tts,Kore:gemini-3.8-flash-tts"
-GEMINI_ESTIL = ("Locució de notícies en català central, to informatiu i serè, "
-                "ritme pausat, pronúncia catalana genuïna.")
-
-
-def _darrer_audio(node):
-    """Busca a la resposta el darrer bloc {"type": "audio", "data": ...}."""
-    trobat = None
-    if isinstance(node, dict):
-        if node.get("type") == "audio" and node.get("data"):
-            trobat = node["data"]
-        for v in node.values():
-            trobat = _darrer_audio(v) or trobat
-    elif isinstance(node, list):
-        for v in node:
-            trobat = _darrer_audio(v) or trobat
-    return trobat
 
 
 def sintetitza_gemini(text: str, veu: str, model: str, desti: Path) -> None:
-    import base64
-    clau = os.environ.get("GEMINI_API_KEY", "").strip()
-    if not clau:
-        raise RuntimeError("falta el secret GEMINI_API_KEY")
-    cos = json.dumps({
-        "model": model,
-        "input": [{"type": "user_input", "content": [{
-            "type": "text", "text": text,
-            "annotations": [{"type": "speech_metadata", "style": GEMINI_ESTIL}],
-        }]}],
-        "response_format": {"type": "audio"},
-        "generation_config": {"speech_config": [{"voice": veu}]},
-    }).encode()
-    # Des del maig del 2026 AI Studio dona claus «AQ.» (Authentication Keys) en
-    # lloc de les antigues «AIza». Les dues van a x-goog-api-key; si Google la
-    # rebutja per tipus de testimoni, es prova una vegada com a Bearer.
-    capçaleres = [{"x-goog-api-key": clau}, {"Authorization": f"Bearer {clau}"}]
-    for i, auth in enumerate(capçaleres):
-        req = urllib.request.Request(GEMINI_URL, data=cos,
-                                     headers={"Content-Type": "application/json", **auth})
-        try:
-            with urllib.request.urlopen(req, timeout=600) as r:
-                resposta = json.loads(r.read())
-            break
-        except urllib.error.HTTPError as exc:
-            # El cos de l'error de Google no porta la clau; en mostrem el principi.
-            detall = exc.read().decode("utf-8", "replace")[:300]
-            if exc.code in (401, 403) and i == 0:
-                print(f"   (x-goog-api-key rebutjada amb {exc.code}; es prova com a Bearer)")
-                continue
-            raise RuntimeError(f"HTTP {exc.code}: {detall}") from None
-    dades = _darrer_audio(resposta)
-    if not dades:
-        raise RuntimeError(f"resposta sense àudio: {str(resposta)[:300]}")
-    bruts = base64.b64decode(dades)
-    if bruts[:4] == b"RIFF":
-        desti.write_bytes(bruts)
-    else:  # PCM sense capçalera: 24 kHz, mono, 16 bits
-        with wave.open(str(desti), "wb") as w:
-            w.setnchannels(1)
-            w.setsampwidth(2)
-            w.setframerate(24000)
-            w.writeframes(bruts)
+    sintetitza_gemini_wav(text, desti, veu=veu, model=model)
 
 
 def main() -> int:

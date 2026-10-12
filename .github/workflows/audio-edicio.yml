@@ -17,6 +17,11 @@ on:
         description: "Slugs de notícies rectificades a les quals cal refer l'àudio (separats per comes). Buit = passada normal."
         required: false
         default: ""
+      refes_edicio:
+        description: "Torna a fer TOTS els MP3 de l'edició actual (p. ex. després de canviar de veu)"
+        type: boolean
+        required: false
+        default: false
   # Xarxa de seguretat (25.07.2026): passada horària. El script salta els MP3
   # que ja existeixen al servidor, així que si tot és al dia acaba en ~1 min; si
   # una passada anterior havia fallat (Hostinger caigut, com el matí
@@ -106,15 +111,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Instal·la edge-tts
-        # -U: quan edge-tts publiqui la correcció del 403 de Microsoft
-        # (rany2/edge-tts#490), la Joana torna sola sense tocar res.
-        run: pip install -U edge-tts
-
-      # Veu de recanvi (12.10.2026). Microsoft va canviar el servei de veu
-      # d'Edge i edge-tts rep un 403 a cada petició: sense això l'edició es
-      # queda sense cap àudio. Piper és una veu catalana neuronal LOCAL (corre
-      # al runner, sense claus ni serveis externs). Només s'usa si la Joana falla.
+      # Veus (12.10.2026). Principal: Gemini «Kore» (crida HTTP des del script,
+      # no cal instal·lar res; clau al secret GEMINI_API_KEY). Fins avui era la
+      # Joana d'edge-tts, que Microsoft va tallar (rany2/edge-tts#490).
+      # Recanvi: Piper, veu catalana neuronal LOCAL (corre al runner, sense
+      # claus ni serveis externs). Només s'usa si Gemini falla.
       - name: Instal·la la veu de recanvi (Piper)
         run: pip install piper-tts lameenc
 
@@ -130,7 +131,7 @@ jobs:
         run: |
           mkdir -p ~/piper-veus
           python -m piper.download_voices ca_ES-upc_ona-medium --download-dir ~/piper-veus \
-            || echo "::warning::No s'ha pogut baixar la veu de recanvi; només es provarà la Joana."
+            || echo "::warning::No s'ha pogut baixar la veu de recanvi; només es provarà Gemini."
           ls -la ~/piper-veus
 
       - name: Genera els MP3 de l'edició i puja'ls
@@ -142,4 +143,6 @@ jobs:
           SSH_PORT: ${{ secrets.SSH_PORT }}
           SSH_PATH: ${{ secrets.SSH_PATH }}
           REGENERA: ${{ github.event.inputs.regenera || '' }}
+          REFES_EDICIO: ${{ github.event.inputs.refes_edicio == 'true' && '1' || '' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python automation/scripts/genera_audio.py
