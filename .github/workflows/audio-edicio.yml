@@ -107,7 +107,31 @@ jobs:
           python-version: '3.12'
 
       - name: Instal·la edge-tts
-        run: pip install edge-tts
+        # -U: quan edge-tts publiqui la correcció del 403 de Microsoft
+        # (rany2/edge-tts#490), la Joana torna sola sense tocar res.
+        run: pip install -U edge-tts
+
+      # Veu de recanvi (12.10.2026). Microsoft va canviar el servei de veu
+      # d'Edge i edge-tts rep un 403 a cada petició: sense això l'edició es
+      # queda sense cap àudio. Piper és una veu catalana neuronal LOCAL (corre
+      # al runner, sense claus ni serveis externs). Només s'usa si la Joana falla.
+      - name: Instal·la la veu de recanvi (Piper)
+        run: pip install piper-tts
+
+      - name: Recupera la veu de recanvi de la memòria cau
+        id: cache-piper
+        uses: actions/cache@v4
+        with:
+          path: ~/piper-veus
+          key: piper-ca_ES-upc_ona-medium-v1
+
+      - name: Baixa la veu de recanvi si no hi és
+        if: steps.cache-piper.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ~/piper-veus
+          python -m piper.download_voices ca_ES-upc_ona-medium --download-dir ~/piper-veus \
+            || echo "::warning::No s'ha pogut baixar la veu de recanvi; només es provarà la Joana."
+          ls -la ~/piper-veus
 
       - name: Genera els MP3 de l'edició i puja'ls
         env:

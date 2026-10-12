@@ -2,6 +2,8 @@
 """Genera un MP3 per notícia amb la veu neuronal catalana i el puja al servidor.
 
 S'executa dins de GitHub Actions (gratuït) amb edge-tts i la veu ca-ES-JoanaNeural.
+Si Microsoft no respon (des del 12.10.2026 edge-tts rep un 403), fa servir la
+veu catalana local de Piper (ca_ES-upc_ona-medium), que corre al mateix runner.
 Els MP3 NO es guarden al repositori: es pugen directament al servidor,
 a assets/audio/<slug>.mp3. Si una síntesi falla, la notícia conserva el lector
 de veu del navegador com a xarxa de seguretat (article.php ho gestiona sol).
@@ -33,6 +35,11 @@ import time
 from pathlib import Path
 
 VOICE = "ca-ES-JoanaNeural"
+# Veu de recanvi (12.10.2026): Piper, local i sense claus. El workflow la baixa
+# a PIPER_DIR abans de començar. Es fa servir quan edge-tts falla.
+PIPER_VOICE = "ca_ES-upc_ona-medium"
+PIPER_DIR = Path(os.environ.get("PIPER_DIR", str(Path.home() / "piper-veus")))
+_EDGE_KO = os.environ.get("NOMES_PIPER", "") == "1"  # també es pot forçar a mà
 FTP_HOST = "srv1589.hstgr.io"
 FTP_USER = "u901078817.claude"
 SSH_PATH_DEFECTE = "domains/inteligencia-artificial.cat/public_html"
@@ -232,35 +239,97 @@ def regenera_forcats(transport, fets: int, errors: int):
     return fets, errors
 
 
+def _sintetitza_edge(fitxer_text: Path, mp3: Path, slug: str) -> bool:
+    """Veu de Microsoft (edge-tts). True si ha deixat un MP3 vàlid a `mp3`."""
+    global _EDGE_KO
+    for intent in range(3):
+        if intent:
+            time.sleep(10)  # pausa entre reintents: el throttling d'edge-tts es recupera sol
+        try:
+            # timeout per intent: sense això, una síntesi penjada bloqueja la run
+            # sencera fins al límit de 30 min del workflow i les peces restants
+            # es queden sense àudio (va passar el 24.07.2026, runs #33 i #36).
+            resultat = subprocess.run(
+                ["edge-tts", "--voice", VOICE, "-f", str(fitxer_text), "--write-media", str(mp3)],
+                timeout=120, capture_output=True, text=True,
+            )
+        except subprocess.TimeoutExpired:
+            print(f"AVÍS: edge-tts penjat amb {slug} (intent {intent + 1}/3); es reintenta.")
+            continue
+        if resultat.returncode == 0 and mp3.is_file() and mp3.stat().st_size > MIDA_MINIMA:
+            return True
+        darrera = (resultat.stderr or "").strip().splitlines()[-1:] or ["sense missatge"]
+        print(f"AVÍS: edge-tts ha fallat amb {slug} (intent {intent + 1}/3): {darrera[0][:160]}")
+        # 403 = Microsoft rebutja la connexió (canvi de protocol del 10-12.10.2026).
+        # Reintentar no serveix de res: passem de seguida a la veu local.
+        if "403" in (resultat.stderr or ""):
+            break
+    # Si Microsoft no respon, no ho tornem a provar a cada peça d'aquesta passada:
+    # cada intent fallit són ~20 s i amb 20 peces el job s'eternitzaria.
+    _EDGE_KO = True
+    return False
+
+
+def _sintetitza_piper(fitxer_text: Path, mp3: Path, slug: str) -> bool:
+    """Veu local de recanvi (Piper, ca_ES-upc_ona-medium). True si ha deixat un MP3 vàlid."""
+    model = PIPER_DIR / f"{PIPER_VOICE}.onnx"
+    if not model.is_file():
+        print(f"AVÍS: no hi ha la veu de recanvi {model}; {slug} es queda sense MP3.")
+        return False
+    wav = mp3.with_suffix(".wav")
+    # Piper llegeix una frase per línia: un paràgraf per línia, sense línies buides.
+    linies = [l.strip() for l in fitxer_text.read_text(encoding="utf-8").splitlines() if l.strip()]
+    entrada = mp3.with_name("piper.txt")
+    entrada.write_text("\n".join(linies) + "\n", encoding="utf-8")
+    try:
+        r1 = subprocess.run(
+            [sys.executable, "-m", "piper", "-m", str(model), "-i", str(entrada),
+             "-f", str(wav), "--sentence-silence", "0.35"],
+            timeout=600, capture_output=True, text=True,
+        )
+        if r1.returncode != 0 or not wav.is_file():
+            print(f"AVÍS: Piper ha fallat amb {slug}: {(r1.stderr or '').strip()[-200:]}")
+            return False
+        # Mateix format que els MP3 de sempre: mono i lleuger per al mòbil.
+        r2 = subprocess.run(
+            ["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav),
+             "-ac", "1", "-codec:a", "libmp3lame", "-b:a", "64k", str(mp3)],
+            timeout=300, capture_output=True, text=True,
+        )
+    except subprocess.TimeoutExpired:
+        print(f"AVÍS: la veu de recanvi s'ha penjat amb {slug}.")
+        return False
+    if r2.returncode != 0:
+        print(f"AVÍS: ffmpeg ha fallat amb {slug}: {(r2.stderr or '').strip()[-200:]}")
+        return False
+    return mp3.is_file() and mp3.stat().st_size > MIDA_MINIMA
+
+
 def sintetitza_i_puja(slug: str, text: str, transport) -> bool:
-    """Sintetitza `text` i el puja a assets/audio/<slug>.mp3. True si tot ha anat bé."""
+    """Sintetitza `text` i el puja a assets/audio/<slug>.mp3. True si tot ha anat bé.
+
+    Primer prova la veu de Microsoft (Joana, edge-tts). Si falla — com des del
+    12.10.2026, quan Microsoft va canviar el servei i edge-tts rep un 403 a cada
+    petició —, fa servir la veu catalana local de Piper, que corre dins del
+    mateix runner i no depèn de cap servei extern ni de cap clau.
+    """
     with tempfile.TemporaryDirectory() as td:
         fitxer_text = Path(td) / "text.txt"
         mp3 = Path(td) / "audio.mp3"
         fitxer_text.write_text(text, encoding="utf-8")
         correcte = False
-        for intent in range(3):
-            if intent:
-                time.sleep(10)  # pausa entre reintents: el throttling d'edge-tts es recupera sol
-            try:
-                # timeout per intent: sense això, una síntesi penjada bloqueja la run
-                # sencera fins al límit de 30 min del workflow i les peces restants
-                # es queden sense àudio (va passar el 24.07.2026, runs #33 i #36).
-                resultat = subprocess.run(
-                    ["edge-tts", "--voice", VOICE, "-f", str(fitxer_text), "--write-media", str(mp3)],
-                    timeout=120,
-                )
-            except subprocess.TimeoutExpired:
-                print(f"AVÍS: edge-tts penjat amb {slug} (intent {intent + 1}/3); es reintenta.")
-                continue
-            if resultat.returncode == 0 and mp3.is_file() and mp3.stat().st_size > MIDA_MINIMA:
-                correcte = True
-                break
+        veu = "Joana"
+        if not _EDGE_KO:
+            correcte = _sintetitza_edge(fitxer_text, mp3, slug)
+        if not correcte:
+            mp3.unlink(missing_ok=True)
+            veu = "Piper"
+            correcte = _sintetitza_piper(fitxer_text, mp3, slug)
         if not correcte:
             print(f"ERROR sintetitzant {slug} (la peça conserva el lector del navegador)")
             return False
         if transport.puja(mp3, slug):
-            print(f"OK {slug}.mp3 ({mp3.stat().st_size // 1024} KB)")
+            print(f"OK {slug}.mp3 ({mp3.stat().st_size // 1024} KB, veu {veu})")
             return True
         print(f"ERROR pujant {slug}.mp3")
         return False
