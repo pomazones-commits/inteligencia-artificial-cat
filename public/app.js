@@ -10,9 +10,16 @@
     String(now.getUTCHours()).padStart(2, '0')
   ].join('');
 
+  // Peces MANUALS (tribuna, estudis, sèries): a més del segell horari porten una
+  // versió fixa. Si una sessió publica una peça nova, la CDN pot tenir desat el
+  // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
+  // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
+  // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
+  const VERSIO_MANUAL = '2026101202';
+  const MANUALS = ['./tribuna.js', './estudis.js', './series.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
-    script.src = `${src}?v=${stamp}`;
+    script.src = `${src}?v=${stamp}${MANUALS.includes(src) ? 'm' + VERSIO_MANUAL : ''}`;
     script.onload = resolve;
     script.onerror = resolve;
     document.head.append(script);
@@ -24,6 +31,7 @@
     loadScript('./analysis.js'),
     loadScript('./tribuna.js'),
     loadScript('./estudis.js'),
+    loadScript('./series.js'),
     loadScript('./reflection.js'),
     loadScript('./reflexio-diaria.js'),
     loadScript('./daily-image.js')
@@ -373,6 +381,40 @@
         document.querySelector('#tribuna-photo').hidden = false;
       } else {
         document.querySelector('.tribuna-layout').classList.add('tribuna-layout--solo');
+      }
+      // Sèrie «Veus de CIVICAi» (12.10.2026): si la tribuna vigent és de la sèrie,
+      // ho diu l'etiqueta; si no, una franja sota la tribuna porta a la sèrie.
+      // Dades a series.js (window.IA_SERIES); estils a tribuna.css.
+      const serie = window.IA_SERIES && window.IA_SERIES['veus-de-civicai'];
+      if (serie) {
+        const esDeLaSerie = tribuna.serie === 'veus-de-civicai';
+        if (esDeLaSerie) {
+          document.querySelector('#tribuna-eyebrow').textContent = `${serie.nom}${tribuna.read ? ' · ' + tribuna.read.toLowerCase() : ''}`;
+        }
+        const franja = document.createElement('a');
+        franja.className = 'tribuna-serie';
+        franja.href = serie.cami;
+        const marc = document.createElement('span');
+        marc.className = 'tribuna-serie__logo';
+        const logo = document.createElement('img');
+        logo.src = serie.logo;
+        logo.alt = serie.entitat;
+        logo.width = 128;
+        logo.height = 26;
+        marc.appendChild(logo);
+        const text = document.createElement('span');
+        text.className = 'tribuna-serie__text';
+        const nom = document.createElement('strong');
+        nom.textContent = serie.nom;
+        text.appendChild(nom);
+        text.appendChild(document.createTextNode(esDeLaSerie
+          ? ' · Totes les veus de la sèrie'
+          : ' · La sèrie de la tribuna on escriuen les sòcies, els socis i la direcció de CIVICAi'));
+        const fletxa = document.createElement('span');
+        fletxa.className = 'tribuna-serie__fletxa';
+        fletxa.textContent = '→';
+        franja.append(marc, text, fletxa);
+        band.appendChild(franja);
       }
       band.hidden = false;
     }

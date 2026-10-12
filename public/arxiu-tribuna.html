@@ -17,6 +17,12 @@
   <script src="./peces.js?v=2026100101b"></script>
   <script defer src="./shared.js?v=2026101201"></script>
   <style>
+    .arxiu-serie { margin: 18px 0 0; }
+    .arxiu-serie a { display: inline-flex; align-items: center; gap: 12px; padding: 8px 14px 8px 8px; border: 1px solid #dfe3eb; border-radius: 999px; background: #fff; color: #233a82; font-size: 14px; text-decoration: none; }
+    .arxiu-serie a:hover { border-color: #233a82; }
+    .arxiu-serie img { display: block; height: 18px; width: auto; padding: 3px 6px; }
+    .tribuna-fitxa .editorial-kicker a.tribuna-serie-marca { color: #233a82; text-decoration: none; }
+    .tribuna-fitxa .editorial-kicker a.tribuna-serie-marca:hover { text-decoration: underline; }
     .tribuna-llista { display: grid; gap: 22px; margin-top: 28px; }
     .tribuna-fitxa { display: grid; grid-template-columns: 96px 1fr; gap: 20px; padding: 24px; border: 1px solid #e3e7ef; background: #fff; }
     .tribuna-fitxa img { width: 96px; height: 96px; object-fit: cover; border-radius: 50%; }
@@ -39,7 +45,7 @@
   <main class="editorial-shell editorial-main">
     <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><span>/</span><a href="./tribuna.html">La tribuna</a><span>/</span><span>Arxiu</span></nav>
     <header class="article-header">
-      <div><p class="editorial-kicker">LA TRIBUNA · ARXIU</p><h1>Totes les tribunes</h1><p class="editorial-lede">Escrits signats per persones expertes, publicats a «La tribuna». Les opinions expressades són de l’autoria.</p></div>
+      <div><p class="editorial-kicker">LA TRIBUNA · ARXIU</p><h1>Totes les tribunes</h1><p class="editorial-lede">Escrits signats per persones expertes, publicats a «La tribuna». Les opinions expressades són de l’autoria.</p><p class="arxiu-serie"><a href="/veus-de-civicai"><img src="/assets/entitats/civicai.png" alt="CIVICAi" width="128" height="26"><span>Veus de CIVICAi: la sèrie de la tribuna amb les veus de CIVICAi →</span></a></p></div>
     </header>
     <p class="editorial-kicker" id="estat">CARREGANT L’ARXIU…</p>
     <div class="tribuna-llista" id="llista"></div>
@@ -83,6 +89,14 @@
         var meta = document.createElement('p');
         meta.className = 'editorial-kicker';
         meta.textContent = [t.date || '', t.read || ''].filter(Boolean).join(' · ');
+        // Peça d'una sèrie (12.10.2026): el nom de la sèrie, enllaçat, a la línia de dades.
+        if (t.serie === 'veus-de-civicai') {
+          var serie = document.createElement('a');
+          serie.className = 'tribuna-serie-marca';
+          serie.href = '/veus-de-civicai';
+          serie.textContent = ' · VEUS DE CIVICAI';
+          meta.appendChild(serie);
+        }
         if (e.vigent) {
           var marca = document.createElement('span');
           marca.className = 'tribuna-vigent';

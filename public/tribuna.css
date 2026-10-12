@@ -95,3 +95,35 @@
   .tribuna-photo { max-width: 340px; }
   .tribuna-copy h2 { font-size: 33px; }
 }
+
+/* Franja «Veus de CIVICAi» sota la tribuna de portada (12.10.2026; app.js). */
+.tribuna-band a.tribuna-serie {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
+  padding: 16px clamp(20px, 4vw, 48px);
+  border-top: 1px solid rgba(255, 255, 255, .14);
+  color: #fff;
+  background: rgba(255, 255, 255, .04);
+  text-decoration: none;
+  font: 500 14px/1.4 var(--sans);
+}
+.tribuna-band a.tribuna-serie:hover,
+.tribuna-band a.tribuna-serie:focus-visible { background: rgba(255, 255, 255, .09); }
+.tribuna-serie__logo {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: #fff;
+}
+.tribuna-serie__logo img { display: block; width: auto; height: 22px; }
+.tribuna-serie__text { flex: 1; color: #dfe3f5; }
+.tribuna-serie__text strong { color: var(--lime); font: 600 12px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+.tribuna-serie__fletxa { flex: none; color: var(--lime); font-size: 18px; }
+@media (max-width: 640px) {
+  .tribuna-band a.tribuna-serie { flex-wrap: wrap; gap: 10px 12px; }
+  .tribuna-serie__fletxa { display: none; }
+}

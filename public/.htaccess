@@ -20,7 +20,9 @@
 # «Renew») i substituir-lo aquí. Si caduca, el web continua igual i les
 # eines simplement no s'activen.
 Header set Origin-Trial "Ap2Z/GkS6fdk35uhBaZhZGttzLUafppVkdeLAtC5tSaxiI2WOUYSiIxzhHR7GEGg6AGEmSIZvUhTPkQi9jO/UA8AAABbeyJvcmlnaW4iOiJodHRwczovL2ludGVsaWdlbmNpYS1hcnRpZmljaWFsLmNhdDo0NDMiLCJmZWF0dXJlIjoiV2ViTUNQIiwiZXhwaXJ5IjoxODA2MzY0ODAwfQ=="
-<FilesMatch "^(news|radar|analysis|reflection|daily-image)\.js$">
+# 12.10.2026: també les peces manuals (tribuna, estudis, sèries), que la CDN
+# servia velles fins a una hora després de publicar-ne una de nova.
+<FilesMatch "^(news|radar|analysis|reflection|daily-image|tribuna|tribuna-arxiu|estudis|estudis-arxiu|series)\.js$">
 Header set Cache-Control "no-cache, must-revalidate"
 </FilesMatch>
 <FilesMatch "\.json$">
