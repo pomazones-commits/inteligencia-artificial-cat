@@ -14,10 +14,12 @@ No toca cap MP3 de les notícies ni cap fitxer del web: és només per escoltar 
 triar. La neteja setmanal d'àudio (neteja_audio.py) els retira sols als 90 dies.
 """
 import json
+import re
 import os
 import sys
 import tempfile
 import time
+import urllib.error
 import urllib.request
 import wave
 from pathlib import Path
@@ -44,17 +46,45 @@ def tria_noticia():
     return items[0]
 
 
+SUBSTITUCIONS = {
+    "(": ", ", ")": ", ", "[": ", ", "]": ", ", "—": ", ", "–": ", ", "/": " ",
+    "%": " per cent", "&": " i ", "’": "'", "‘": "'", "«": "", "»": "", "“": "", "”": "",
+    '"': "", "…": "...", " ": " ",
+}
+# Lletres (amb els accents i la ela geminada), xifres i la puntuació bàsica.
+PERMESOS = re.compile(r"[^0-9A-Za-zÀ-ÖØ-öø-ÿ·' .,;:?!¡¿\-]")
+
+
+def neteja(text: str, estricta: bool = False) -> str:
+    """Matxa peta (KeyError al símbol) amb caràcters que no coneix, com «(»."""
+    for a, b in SUBSTITUCIONS.items():
+        text = text.replace(a, b)
+    text = PERMESOS.sub(" ", text)
+    if estricta:  # segon intent: només lletres, xifres, punts i comes
+        text = re.sub(r"[^0-9A-Za-zÀ-ÖØ-öø-ÿ·' .,]", " ", text)
+    text = re.sub(r"\s+([,.;:?!])", r"\1", text)      # sense espai abans de la puntuació
+    text = re.sub(r",(\s*[,.;:?!])+", lambda m: m.group(0).strip(", ")[-1:] or ",", text)
+    return re.sub(r"\s{2,}", " ", text).strip(" ,")
+
+
+def demana(part: str, veu: str, variant: str) -> bytes:
+    cos = json.dumps({"voice": veu, "language": variant, "type": "text", "text": part}).encode()
+    req = urllib.request.Request(f"{API}/api/tts", data=cos,
+                                 headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=600) as r:
+        return r.read()
+
+
 def sintetitza(text: str, veu: str, variant: str, desti: Path) -> None:
     """POST /api/tts per paràgraf i ho uneix tot en un sol WAV."""
-    parts = [p.strip() for p in text.split("\n") if p.strip()]
+    parts = [neteja(p) for p in text.split("\n") if p.strip()]
     params = None
     frames = []
-    for i, part in enumerate(parts):
-        cos = json.dumps({"voice": veu, "language": variant, "type": "text", "text": part}).encode()
-        req = urllib.request.Request(f"{API}/api/tts", data=cos,
-                                     headers={"Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=600) as r:
-            dades = r.read()
+    for i, part in enumerate(p for p in parts if p):
+        try:
+            dades = demana(part, veu, variant)
+        except urllib.error.HTTPError:
+            dades = demana(neteja(part, estricta=True), veu, variant)
         tros = desti.with_name(f"tros-{i}.wav")
         tros.write_bytes(dades)
         with wave.open(str(tros), "rb") as w:
