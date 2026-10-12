@@ -1,0 +1,68 @@
+name: Prova de veus (Matxa, Projecte Aina)
+
+# Només a mà (12.10.2026). Llegeix una notícia amb diverses veus catalanes de
+# Matxa (BSC / Projecte Aina) i puja els MP3 a assets/audio/prova-veu-matxa-*.mp3
+# perquè es puguin escoltar i triar. No toca res del web ni dels MP3 de l'edició.
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Slug de la notícia a llegir (buit = la primera de l'edició d'avui)"
+        required: false
+        default: ""
+      veus:
+        description: "Veus veu:variant separades per comes (buit = elia, grau, olga, emma, gina)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: prova-veus
+  cancel-in-progress: false
+
+jobs:
+  prova:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Descarrega el repositori
+        uses: actions/checkout@v4
+
+      - name: Engega el servei de veu de Matxa
+        run: |
+          docker run -d --name matxa -p 8000:8000 projecteaina/tts-api:latest
+          for i in $(seq 1 60); do
+            if curl -sf http://localhost:8000/api/available-voices >/dev/null; then
+              echo "Matxa a punt (intent $i)."; exit 0
+            fi
+            sleep 10
+          done
+          docker logs --tail 50 matxa
+          echo "::error::El servei de Matxa no ha arrencat en 10 minuts."
+          exit 1
+
+      - name: Prepara Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instal·la el codificador MP3
+        run: pip install lameenc
+
+      - name: Llegeix la notícia amb cada veu i puja els MP3
+        env:
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_PATH: ${{ secrets.SSH_PATH }}
+          SLUG: ${{ github.event.inputs.slug }}
+          VEUS: ${{ github.event.inputs.veus }}
+        run: python automation/scripts/prova_veus.py
+
+      - name: Registre del servei (si alguna cosa ha fallat)
+        if: failure()
+        run: docker logs --tail 80 matxa || true
