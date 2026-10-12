@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-11T08:12:51.199Z",
+ "actualitzat": "2026-10-12T16:12:39.659Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "BruxDak0xnM",
+   "titol": "State of the Union 2026: What's Next for Europe? | SOTEU Highlights",
+   "canal": "Comissió Europea",
+   "canalId": "UCMPaviJxybo1RTdzvYcU91A",
+   "grup": "ciencia",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-10-12T13:01:56.000Z",
+   "descripcio": "#eunews #europeancommission #soteu From strengthening Europe's partnership with Canada and boosting competitiveness to embracing AI, tackling climate change, reinforcing Europe's security and protecting children online, President Ursula von der Leyen outlines the EU's priorities in her 2026 State of",
+   "miniatura": "/assets/videos/BruxDak0xnM.jpg"
+  },
   {
    "id": "Ju-JyxDgV7g",
    "titol": "How Oracle Uses Codex to Help Business Users Get Answers",
