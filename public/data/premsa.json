@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-12T21:25:51.842Z",
+ "actualitzat": "2026-10-13T04:13:49.781Z",
  "fonts": 29,
  "articles": [
   {
@@ -37,6 +37,17 @@
    "publicat": "2026-10-12T17:00:00.000Z"
   },
   {
+   "id": "cfac4e933ac7",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nadella reclama que los modelos de IA dispongan de “un freno de emergencia”",
+   "url": "https://www.lavanguardia.com/vida/20261012/11657233/nadella-reclama-modelos-ia-dispongan-freno-emergencia.html",
+   "publicat": "2026-10-12T16:39:55.000Z"
+  },
+  {
    "id": "356bcba70272",
    "mitja": "La Vanguardia",
    "font": "lavanguardia",
@@ -56,7 +67,9 @@
    "ambit": "catala",
    "titol": "Dos gironins creen una app que vol convertir la IA en un assessor financer personal",
    "url": "https://www.diaridegirona.cat/economia/2026/10/12/gironins-creen-app-vol-convertir-ia-assesor-financer-135102463.html",
-   "publicat": "2026-10-12T09:51:15.000Z"
+   "publicat": "2026-10-12T09:51:15.000Z",
+   "noticia": "davant-girona-ia-assessor-financer-personal",
+   "noticiaTitol": "Dos gironins aixequen 200.000 euros per crear Davant, una aplicació d'IA que vol fer d'assessor financer personal"
   },
   {
    "id": "16a37a048089",
@@ -593,17 +606,6 @@
    "titol": "Corea del Sur detecta \"indicios\" de IA en una gran oleada de ciberataques contra sus principales bancos",
    "url": "https://www.eldiario.es/tecnologia/corea-sur-detecta-indicios-ia-gran-oleada-ciberataques-principales-bancos_1_13565100.html",
    "publicat": "2026-10-06T08:17:19.000Z"
-  },
-  {
-   "id": "bd9b238fb03c",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "WeatherNext 3, el modelo con IA que predice fenómenos atmosféricos con mucha más precisión",
-   "url": "https://elpais.com/tecnologia/2026-10-06/weathernext-3-el-modelo-con-ia-que-predice-fenomenos-atmosfericos-con-mucha-mas-precision.html",
-   "publicat": "2026-10-06T03:30:01.000Z"
   }
  ]
 }
