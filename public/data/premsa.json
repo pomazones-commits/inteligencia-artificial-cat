@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-13T08:14:17.334Z",
+ "actualitzat": "2026-10-13T12:13:34.281Z",
  "fonts": 29,
  "articles": [
+  {
+   "id": "897b3f64a66e",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Centenares de supermercados en Francia, víctimas de un ciberataque que disparó la temperatura de sus congeladores",
+   "url": "https://www.eldiario.es/tecnologia/centenares-supermercados-francia-victimas-ciberataque-disparo-temperatura-congeladores_1_13581861.html",
+   "publicat": "2026-10-13T11:53:04.000Z"
+  },
+  {
+   "id": "b57ab8ed0176",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Más de 400 científicos denuncian la \"negligencia\" de los laboratorios de IA y exigen control internacional",
+   "url": "https://www.eldiario.es/tecnologia/400-cientificos-denuncian-negligencia-laboratorios-ia-exigen-control-internacional_1_13581421.html",
+   "publicat": "2026-10-13T11:27:06.000Z"
+  },
+  {
+   "id": "cf95d512da0d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "ColorOS 17 se lanza a nivel mundial con una IA avanzada, estos son los OPPO que lo recibirán",
+   "url": "https://cincodias.elpais.com/smartlife/smartphones/2026-10-13/oppo-coloros-17-oficial-nivel-mundial-modelos.html",
+   "publicat": "2026-10-13T11:00:00.000Z"
+  },
+  {
+   "id": "cba8f5bc31ed",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La intel·ligència artificial i la inflació, els grans factors que condicionaran el mercat en el futur",
+   "url": "https://www.elperiodico.cat/economia/20261013/intelligencia-artificial-inflacio-els-grans-135273957",
+   "publicat": "2026-10-13T09:57:43.000Z"
+  },
+  {
+   "id": "79c85f15dc0c",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nuevo castigo bursátil a las acciones ligadas a la IA y los chips en Asia",
+   "url": "https://www.lavanguardia.com/economia/20261013/11657607/nuevo-castigo-bursatil-acciones-ligadas-ia-asia.html",
+   "publicat": "2026-10-13T09:03:22.000Z"
+  },
   {
    "id": "75f2211b93dc",
    "mitja": "Cinco Días",
@@ -672,17 +727,6 @@
    "titol": "La presidenta del Parlamento Europeo denuncia el “intolerable” acoso con pornografía ‘deepfake’ a decenas de eurodiputadas",
    "url": "https://elpais.com/sociedad/2026-10-06/la-presidenta-del-parlamento-europeo-denuncia-el-intolerable-acoso-con-pornografia-deepfake-a-decenas-de-eurodiputadas.html",
    "publicat": "2026-10-06T14:35:11.000Z"
-  },
-  {
-   "id": "b2fc90bc95de",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Corea del Sur detecta \"indicios\" de IA en una gran oleada de ciberataques contra sus principales bancos",
-   "url": "https://www.eldiario.es/tecnologia/corea-sur-detecta-indicios-ia-gran-oleada-ciberataques-principales-bancos_1_13565100.html",
-   "publicat": "2026-10-06T08:17:19.000Z"
   }
  ]
 }
