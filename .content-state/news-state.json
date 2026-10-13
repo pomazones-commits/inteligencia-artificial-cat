@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-10-13",
-  "updatedAt": "2026-10-13T12:22:46.178Z",
-  "batches": 4,
+  "updatedAt": "2026-10-13T16:14:23.466Z",
+  "batches": 5,
   "target": 20,
   "items": [
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "slug": "character-ai-concurs-creditors-disney-20-milions",
+      "title": "Character.AI entra en concurs de creditors als Estats Units i Disney n'ofereix 20 milions per alguns actius",
+      "excerpt": "L'empresa de xatbots amb personatges d'IA ha demanat el capítol 11 i seguirà funcionant mentre busca comprador; si no n'hi ha cap de viable, tancarà la plataforma.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "sourceDate": "13 d'octubre de 2026",
+      "body": "Character.AI es va fundar a finals del 2021 amb una idea senzilla: deixar que qualsevol usuari creés personatges d'IA i hi conversés. L'impulsaven dos antics enginyers de Google, Noam Shazeer i Daniel De Freitas. El setembre del 2022 ja valia més de mil milions de dòlars després d'una ronda de 150 milions, i l'octubre del 2024 tenia 20 milions d'usuaris actius al mes. L'agost d'aquell any Google va pagar 2.700 milions de dòlars per llicenciar-ne els models, i els dos fundadors hi van tornar.\n\nAquest dimarts l'empresa ha demanat el capítol 11 de la llei de fallides dels Estats Units, un procediment de reestructuració sota control d'un jutge. Segons el document que cita TechCrunch, els seus actius i deutes se situen entre els 50 i els 100 milions de dòlars. Disney ha acordat comprar-ne alguns actius per 20 milions i obtindrà una llicència perpètua, no exclusiva, de la tecnologia. Alguns antics treballadors de Character.AI que van passar a Disney el mes passat, juntament amb Karandeep Singh Anand, que dirigia l'empresa fins fa poc, ajudaran en la transició.\n\nEl consell d'administració diu que el procés de venda és la millor manera de maximitzar el valor per als accionistes i creditors. L'empresa continuarà operant mentre dura, i l'operació es preveu per a finals de novembre o principis de desembre. TechCrunch recorda que, entre tant, la companyia havia afrontat demandes, com la d'una mare que explica que el seu fill de 14 anys, que es va suïcidar, s'havia obsessionat amb un xatbot de la plataforma, i una investigació del Texas sobre la protecció dels menors. Després va afegir mesures de seguretat i va prohibir l'accés als menors, però, segons el mitjà, els canvis no van fer el negoci sostenible: com més s'usa la IA, més costa.\n\nConvé no llegir-hi més del que hi ha. Disney compra alguns actius, no l'empresa sencera, i Colin Adams, que dirigeix ara l'empresa, ha reconegut que encara no hi ha cap oferta pel conjunt: si no n'arriba cap de viable, la plataforma es tancarà. La darrera xifra d'usuaris de l'article és del 2024, i la peça no precisa en quin tribunal s'ha presentat la sol·licitud. Aquest text es basa en el relat de TechCrunch, no en el document judicial.",
+      "image": "./assets/character-ai-concurs-creditors-disney-20-milions-20261013.jpg"
+    },
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "slug": "amex-marc-intencio-agents-ia-compres-no-autoritzades",
+      "title": "American Express crea un sistema perquè un agent d'IA no pugui comprar res que el client no hagi aprovat",
+      "excerpt": "El marc «Intent Intelligence» desa què ha demanat l'usuari abans de pagar i bloqueja la compra si l'agent s'aparta de l'encàrrec; Amex vol que esdevingui un estàndard del sector.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "sourceDate": "13 d'octubre de 2026",
+      "body": "Els agents d'IA personals ja no es limiten a recomanar: cada vegada més sovint compren en nom de l'usuari. El problema, explica TechCrunch, és que els models de llenguatge no sempre fan el mateix davant del mateix encàrrec, i un agent pot acabar sortint-se de les instruccions i fent una compra que ningú havia autoritzat. American Express vol resoldre aquest risc abans que es faci gran el comerç fet per agents.\n\nLa companyia ha presentat l'Intent Intelligence Framework, un marc que captura la intenció de compra del client abans que l'agent pagui. Funciona en cinc passos: una API desa l'encàrrec i els límits (comerç, pressupost màxim, preferències); el client s'identifica i l'aprova; es genera un identificador d'intenció i una credencial amb les restriccions principals; amb aquesta credencial s'obté una credencial de pagament digital, que l'agent fa servir a la caixa en lloc del número real de la targeta; i tot plegat queda registrat per si cal prevenir un frau o resoldre una disputa.\n\nL'exemple de la companyia és clar: si el client demana unes vambes Nike blanques del número 9 i l'agent en demana unes d'Adidas, Amex podria bloquejar la transacció. Hannah Bozian, de l'àrea d'Agentic Partnerships and Strategy d'Amex, diu que la diferència és que la intenció s'incorpora al principi del procés, no després. Amex hi veu també un registre de què ha pogut fer cada agent i quan, útil contra el frau, i preveu que els agents actuaran amb més autonomia, per exemple reposant productes de la llar on només importen el preu i la mida.\n\nConvé distingir l'anunci del resultat. Amex vol que sigui un estàndard del sector, però l'article no recull cap compromís d'adopció, ni dates, ni preu, ni socis amb nom: diu només que parla amb actors de l'ecosistema de pagaments. La companyia afirma que encara no ha vist augmentar les disputes per compres d'agents i que construeix l'eina de manera preventiva. La informació surt d'un únic mitjà i de declaracions de l'empresa.",
+      "image": "./assets/amex-marc-intencio-agents-ia-compres-no-autoritzades-20261013.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "3 MIN",
+      "slug": "spacexsi-subscripcio-x-grok-cursor-cinc-nivells",
+      "title": "SpaceXSI agrupa X Premium, Grok i Cursor en una sola subscripció amb cinc nivells, de gratuït a 200 dòlars al mes",
+      "excerpt": "La nova «The X Subscription» ofereix Free, Plus (8 $), Premium (30 $), Super (100 $) i Ultra (200 $), amb més ús d'IA a mesura que puja el nivell.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+      "sourceDate": "13 d'octubre de 2026",
+      "body": "La carrera per vendre IA ja no es juga només amb models: també amb la manera de cobrar-los. Cada empresa del sector prova de convertir els usuaris en subscriptors de pagament i, per això, agrupa serveis que abans anaven per separat. Aquest dimarts ho ha fet SpaceXSI, l'empresa que reuneix X i Grok, segons ha informat TechCrunch.\n\nSpaceXSI ha ajuntat X Premium, Grok i Cursor, l'eina per programar amb IA, en un sol pla anomenat «The X Subscription». Té cinc nivells: Free, Plus (8 dòlars al mes), Premium (30), Super (100) i Ultra (200). El que s'hi inclou és el xat de Grok amb veu, imatge, vídeo i accés per API, l'agent de Grok, Cursor i els avantatges d'X Premium: la marca de compte verificat, eines per a creadors i menys anuncis. Els límits d'ús de la IA van creixent a cada nivell, i el pla gratuït només permet un ús limitat del xat i dels agents.\n\nPer als qui ja pagaven, l'empresa assegura que el pla equivalent de la nova subscripció costa igual o menys que l'actual X Premium+. Els subscriptors poden passar-s'hi des de la configuració de facturació d'X o conservar el pla actual, i l'opció es va activant de mica en mica. Per accedir als models més recents de Grok cal ser com a mínim Premium. TechCrunch situa la mesura com un moviment per atraure més subscriptors enfront d'OpenAI, Anthropic i altres empreses.\n\nL'article deixa buits importants. No explica com ha entrat Cursor a l'oferta, no detalla els límits d'ús de cada nivell, no diu quin pla nou correspon a cada pla antic ni dona una data per a tothom. Són dades que caldrà comprovar quan l'oferta arribi a tots els usuaris. Per ara, la informació es basa en aquest únic mitjà i en l'anunci de l'empresa.",
+      "image": "./assets/spacexsi-subscripcio-x-grok-cursor-cinc-nivells-20261013.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "wits-xarxa-neuronal-optica-81-patrons-llum-nature-communications",
+      "title": "Una xarxa neuronal òptica identifica 81 estructures de llum després d'aprendre'n només 15",
+      "excerpt": "Investigadors de la Universitat del Witwatersrand publiquen a «Nature Communications» un sistema que llegeix la forma de la llum sense fer-ne una imatge, un pas cap a comunicacions òptiques més ràpides.",
+      "sourceName": "Tech Xplore (Universitat del Witwatersrand) / Nature Communications",
+      "sourceUrl": "https://techxplore.com/news/2026-10-optical-intelligence-communications-complex-patterns.html",
+      "sourceDate": "13 d'octubre de 2026",
+      "body": "La llum es pot «estructurar»: donar-li formes complexes, amb girs i nusos, que serveixen per transportar informació en comunicacions òptiques o en aplicacions quàntiques. El repte és llegir aquests patrons. La via habitual és fotografiar-los i analitzar després molts punts d'una imatge, cosa lenta i costosa. L'equip del Laboratori de Llum Estructurada de la Universitat del Witwatersrand, a Sud-àfrica, ha provat una altra via: que l'aprenentatge ocorri dins del mateix aparell òptic.\n\nEls resultats s'han publicat a «Nature Communications» (DOI 10.1038/s41467-026-77376-5) amb el títol «Deep diffractive optical neural networks for detecting skyrmionic topologies of light and their live training». El treball l'ha dirigit Hadrian Bezuidenhout, estudiant de màster, amb Cade Peters i Ram Nandan Kumar, i l'han concebut i supervisat Isaac Nape i Andrew Forbes. El sistema és una xarxa neuronal difractiva: la llum travessa capes dissenyades per desviar-la cap a uns detectors, i el lloc on arriba indica quina informació porta. Així identifica la topologia del patró, és a dir, quants girs té, sense cartografiar-ne cada detall.\n\nEntrenada amb només 15 exemples, la xarxa va reconèixer 81 estructures de llum diferents de la família estudiada, també algunes que no havia vist durant l'entrenament, i va seguir funcionant quan es va afegir soroll al detector. Els autors ho presenten com un pas cap a sistemes de comunicació òptica més ràpids i, més endavant, cap a aplicacions quàntiques, i diuen que l'aprenentatge «en directe» permet adaptar el sistema mentre treballa.\n\nCal ser prudents. La nota de premsa no dona taxes d'encert, ni velocitats, ni comparacions amb mètodes convencionals, ni detalls de les proves de soroll, i tampoc no diu com escalaria el mètode fora de la família de patrons provada. Les aplicacions en comunicacions i en computació quàntica són una perspectiva, no una cosa ja demostrada. Aquest text parteix de la nota de la universitat, no de la lectura completa de l'article.",
+      "image": "./assets/wits-xarxa-neuronal-optica-81-patrons-llum-nature-communications-20261013.jpg"
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "slug": "ia-minuscula-prediccio-crisis-epilepsia-eeg-cyborg-bionic-systems",
+      "title": "Una IA de 0,13 MB prediu crisis d'epilèpsia amb un 88,5% de sensibilitat si coneix el pacient, però només un 61% si no",
+      "excerpt": "Un equip d'investigadors fa que un algorisme cerqui sol l'arquitectura més lleugera per llegir electroencefalogrames; el resultat és molt bo per a cada pacient, i bastant pitjor amb pacients nous.",
+      "sourceName": "EurekAlert! (Beijing Institute of Technology Press) / Cyborg and Bionic Systems",
+      "sourceUrl": "https://www.eurekalert.org/news-releases/1147301",
+      "sourceDate": "13 d'octubre de 2026",
+      "body": "Prevenir una crisi d'epilèpsia uns minuts abans que passi permetria avisar el pacient o activar un dispositiu. Però els models que ho intenten sobre electroencefalogrames (EEG) solen ser grans, i això ho fa difícil de portar a un aparell que es dugui posat. Bo Yu, Xun Chen i la resta de l'equip, a la revista «Cyborg and Bionic Systems» (DOI 10.34133/cbsystems.0689, publicat el 30 de setembre), proposen una xarxa petita que ha trobat un algorisme de cerca.\n\nEl mètode es diu CMS-NAS. Una cerca evolutiva, que tria, creua i muta candidats com si fossin éssers vius, explora uns 1,74 × 10¹⁷ dissenys possibles combinant tres tipus de blocs: xarxes convolucionals, models Mamba i xarxes neuronals de pics, que imiten les descàrregues del cervell i gasten poca energia. L'EEG de diversos canals es converteix en una imatge de freqüències al llarg del temps, i la cerca, que va durar 11 hores, equilibra l'encert i la mida. El model final té 0,034 milions de paràmetres, ocupa 0,131 MB i triga 1,308 mil·lisegons a respondre.\n\nS'ha provat amb dues bases de dades públiques (CHB-MIT i AES) i una de clínica privada. Quan el model s'ajusta a cada pacient, a CHB-MIT arriba a un AUC de 0,930, una sensibilitat del 88,5% i 0,108 falses alarmes per hora; a AES, 87,3% i 0,107; a la clínica, 84,4% i 0,138. Amb un horitzó de predicció d'un minut, 17 dels 18 pacients de CHB-MIT superen el criteri estadístic. Els autors diuen que treure qualsevol de les tres peces empitjora el resultat.\n\nLa part que fa pensar és l'altra: quan el model s'ha d'aplicar a pacients que no ha vist, la sensibilitat baixa al 60,7% a CHB-MIT, al 61,3% a AES i al 51,6% a la base clínica, amb 0,253 falses alarmes per hora. Això s'ha de tenir present abans de parlar d'aparells reals. Els autors també avisen que el sistema serveix per a una tasca fixa i només fa servir EEG, i que volen ampliar-lo a dades de més tipus. Aquest text es basa en la nota de premsa de l'editorial, no en l'article complet.",
+      "image": "./assets/ia-minuscula-prediccio-crisis-epilepsia-eeg-cyborg-bionic-systems-20261013.jpg"
+    },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
