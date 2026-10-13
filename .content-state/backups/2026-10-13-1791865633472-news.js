@@ -1,0 +1,71 @@
+window.IA_NEWS = [
+  {
+    "category": "TECNOLOGIA",
+    "read": "4 MIN",
+    "slug": "meta-muse-wonder-models-gamma-alta",
+    "title": "Meta estrena Muse Wonder, els seus primers models de gamma alta, i diu que planten cara a GPT-6 Astra i Claude Opus 5.5",
+    "excerpt": "Els Muse Wonder i Muse Wonder Full ja estan disponibles per als subscriptors de Muse Code, i el primer també per l'API de Meta. Les comparacions amb els rivals són de proves internes de la mateixa empresa.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Fins ara, Meta havia competit en la carrera de la IA amb models lleugers i amb productes. Muse Spark, el primer model del seu laboratori de superintel·ligència, és un model petit i de resposta ràpida, i l'agent Muse, que fa d'assistent personal, encara no havia mostrat la capacitat bruta dels models líders.\n\nEl 12 d'octubre, Meta va presentar Muse Wonder i Muse Wonder Full, dos models més grans i que l'empresa descriu com els més capaços que ha fet mai. Segons The Verge, estan disponibles des d'avui per als subscriptors de Muse Code, i Muse Wonder també es pot fer servir a través de l'API de Meta, a 4 dòlars per milió de fitxes d'entrada i 20 per milió de sortida, segons TechCrunch; Wonder Full només s'ofereix als subscriptors. Meta diu que els dos models rivalitzen amb GPT-6 Astra, Claude Opus 5.5 i Claude Fable 5.1, i destaca que Wonder supera aquests rivals en MemoryBench, una prova de memòria. L'empresa també insisteix en la «memòria activa», és a dir, la capacitat de retenir i fer servir amb el temps el que l'usuari li explica. Els models s'han entrenat al centre de dades Prometheus, a l'Ohio.\n\nEl moviment importa perquè és la primera vegada que Meta es posa al nivell de les empreses que lideren el sector, després d'haver invertit milers de milions en talent i infraestructura. Meta també diu que, més endavant, l'agent Muse funcionarà amb Wonder, començant pels subscriptors, però no ha donat cap data.\n\nConvé llegir-ho amb distància: les comparacions vénen de proves internes de la mateixa Meta i, de moment, ningú de fora no les ha verificat. L'empresa no ha publicat les puntuacions concretes en el text de la notícia, ni ha aclarit si els pesos dels models seran oberts, i The Verge assenyala que encara no se sap com queden davant de Gemini 4 Argon, de Google.",
+    "image": "./assets/meta-muse-wonder-models-gamma-alta-20261013.jpg",
+    "video": {
+      "id": "4ZwVP0-ylZU",
+      "verificat": "2026-10-13",
+      "titol": "Introducing Muse Wonder & Muse Wonder Full: frontier models for agentic tasks",
+      "canal": "AI at Meta",
+      "canalUrl": "https://www.youtube.com/@AIatMeta",
+      "idioma": "en",
+      "resum": "Presentació oficial que el canal AI at Meta ha publicat dels models Muse Wonder i Muse Wonder Full, descrits com a models de gamma alta per a tasques d'agents personals i professionals. Està en anglès."
+    }
+  },
+  {
+    "category": "SALUT",
+    "read": "5 MIN",
+    "slug": "nit-de-son-ia-risc-demencia-infart-mortalitat",
+    "title": "Una nit de son enregistrada a la clínica permet a una IA calcular el risc futur de demència, infart o mort, segons dos estudis",
+    "excerpt": "Dos models d'IA entrenats amb enregistraments clínics del son, publicats a Nature Medicine i a Nature Communications, treuen del son informació sobre la salut que les mesures habituals no capten.",
+    "sourceName": "Nature (News & Views)",
+    "sourceUrl": "https://www.nature.com/articles/d41586-026-03207-8",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Quan algú passa una nit en una unitat del son, els sensors registren l'activitat del cervell, del cor, de la respiració i dels músculs. El que acaba al full del metge, però, sol ser un resum: per exemple, l'índex d'apnees i hipopnees, que compta les pauses de la respiració. Una part enorme de la informació enregistrada no s'aprofita.\n\nEl 12 d'octubre, Rachel K. Rowe, de la Universitat de Colorado a Boulder, va publicar a Nature un comentari sobre dos treballs d'enguany que intenten aprofitar-la amb IA. El primer, a Nature Medicine, presenta SleepFM, un model entrenat amb més de 585.000 hores d'enregistraments d'unes 65.000 persones. Segons el resum de l'article, a partir d'una sola nit prediu 130 malalties amb un índex de concordança d'almenys 0,75, entre les quals la mortalitat per qualsevol causa (0,84), la demència (0,85), l'infart de miocardi (0,81) i la insuficiència cardíaca (0,80). El segon, a Nature Communications, fa servir més de 10.000 enregistraments clínics lligats a històries mèdiques i hi distingeix cinc grups de risc: el de més risc té més del doble de mortalitat que el de menys, mentre que les categories de l'índex d'apnees tenen poc valor predictiu.\n\nAixò apunta que el son encara amaga senyals de salut que es perden en les mesures de sempre, i que un enregistrament que ja es fa als hospitals podria servir per detectar el risc abans del diagnòstic.\n\nEls límits són importants. Són estudis sobre dades que ja existien, no assaigs que mostrin que fer servir aquests models millori la salut dels pacients, i un índex de concordança mesura la capacitat de separar persones de més i de menys risc, no de predir què li passarà a una persona concreta. El comentari de Nature és de pagament i aquest text es basa en el fragment visible i en els resums dels dos articles.",
+    "image": "./assets/nit-de-son-ia-risc-demencia-infart-mortalitat-20261013.jpg"
+  },
+  {
+    "category": "SOCIETAT",
+    "read": "4 MIN",
+    "slug": "nikon-descalifica-video-microscopia-ia",
+    "title": "Nikon descalifica el vídeo guanyador d'un concurs de microscòpia perquè s'hi va fer servir IA",
+    "excerpt": "El primer premi del Small World in Motion mostrava el moviment de les cilis dels pulmons. Uns científics van advertir que alguns detalls semblaven poc plausibles, i l'autor va explicar que havia fet servir un model d'IA en el postprocessament.",
+    "sourceName": "Nature",
+    "sourceUrl": "https://www.nature.com/articles/d41586-026-03240-7",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Els concursos de fotografia i vídeo científics premien imatges que sorprenen, però també imatges que s'han de poder creure. El Small World in Motion, que organitza Nikon Instruments, reconeix les millors gravacions de fenòmens vistos al microscopi, i les seves normes no admeten vídeos generats amb IA.\n\nEl 15 de setembre, el concurs va donar el primer premi a un vídeo de l'enginyer òptic Ning Xu que mostrava el moviment de les cilis, unes estructures com pèls, a les vies respiratòries. En pocs dies, científics van fer notar a LinkedIn que alguns detalls del vídeo semblaven biològicament poc plausibles. Xu va respondre que el seu equip havia fet servir un model d'IA en el postprocessament per millorar la presentació visual de les zones per sota de les cilis, sense «fer afirmacions anatòmiques» sobre què representaven aquests detalls. Els missatges es van esborrar després. El 25 de setembre, Nikon va dir a Nature que investigava el cas, i el 9 d'octubre va anunciar que, un cop reavaluat el vídeo amb el jurat, no complia les normes i quedava descalificat.\n\nEl cas va més enllà d'un premi. Un retoc amb IA pot fer passar per una observació real el que no ho és, i per això l'episodi, segons Nature, ha obert un debat sobre l'ús de la IA en les imatges científiques.\n\nNikon subratlla que la decisió es basa només en si el vídeo complia les normes i no jutja la reputació ni les intencions de l'autor. Xu no va respondre a Nature, i la Universitat Nacional de Singapur diu que va participar-hi abans d'incorporar-s'hi i que el vídeo no té res a veure amb la seva feina allà.",
+    "image": "./assets/nikon-descalifica-video-microscopia-ia-20261013.jpg"
+  },
+  {
+    "category": "REGULACIÓ",
+    "read": "4 MIN",
+    "slug": "brad-smith-microsoft-regulacio-ia-regne-unit",
+    "title": "El president de Microsoft reclama regles mundials per a la IA i diu que el Regne Unit és qui millor les pot liderar",
+    "excerpt": "Brad Smith defensa que l'autoregulació voluntària només l'acaten les empreses responsables i proposa que els laboratoris obtinguin l'aval d'avaluadors externs abans de llançar un producte.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Les tecnològiques que fabriquen els models d'IA més potents ja no només parlen de llançaments: parlen de límits. En les últimes setmanes, directius com Dario Amodei, d'Anthropic, i Sam Altman, d'OpenAI, han demanat frenar el ritme després de diversos incidents amb agents d'IA que van actuar fora de control, segons TechCrunch.\n\nEn un pòdcast de la BBC, el president de Microsoft, Brad Smith, va dir que ha arribat el moment d'establir normes mundials de seguretat i va descriure la IA com una «arma i una eina» que posa en risc la ciberseguretat. Va comparar el sector amb els productes de consum: segons ell, la llet o les rentadores tenen més supervisió que les empreses que construeixen IA. Smith defensa que el Regne Unit, i no els Estats Units ni la Unió Europea, és el millor situat per liderar-les, perquè Washington no mira Londres com mira Brussel·les. Entre les mesures que prefereix hi ha l'obligació legal d'avisar una organització si un agent descontrolat n'ha vulnerat els sistemes, l'aprovació prèvia d'avaluadors externs abans de llançar un producte i uns «botons d'aturada» per frenar la IA si els humans en perden el control.\n\nLes paraules arriben en un moment delicat per a l'Institut de Seguretat de la IA britànic (AISI), que prova els models dels grans laboratoris americans abans que surtin. El mes passat, segons les informacions, Donald Trump va demanar a Anthropic i a OpenAI que no els donessin accés, però l'AISI va confirmar dilluns que pot continuar provant els models més recents. Smith va valorar el pacte que les empreses van signar a la Casa Blanca per treballar amb auditors independents com un «bon pas», però insuficient: el problema de l'autoregulació, va dir, és que només la compleixen les empreses bones.\n\nCal tenir present que Smith parla com a directiu d'una empresa que té molt a dir en la futura regulació, i que les seves propostes són una opinió, no una norma ni un projecte de llei en tramitació.",
+    "image": "./assets/brad-smith-microsoft-regulacio-ia-regne-unit-20261013.jpg"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "davant-girona-ia-assessor-financer-personal",
+    "title": "Dos gironins aixequen 200.000 euros per crear Davant, una aplicació d'IA que vol fer d'assessor financer personal",
+    "excerpt": "Gerard Lozano i Martí Parnau, que van constituir l'empresa al juliol, preveuen una primera versió el gener del 2027, i les recomanacions personalitzades només quan la CNMV els doni l'autorització.",
+    "sourceName": "Diari de Girona",
+    "sourceUrl": "https://www.diaridegirona.cat/economia/2026/10/12/gironins-creen-app-vol-convertir-ia-assesor-financer-135102463.html",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Moltes persones acumulen estalvis, comptes, inversions o plans de pensions sense una estratègia global, i l'assessorament financer personalitzat continua sent poc accessible. Aquest és el forat que vol ocupar Davant, una empresa nascuda aquest estiu a Girona, que, segons Diari de Girona, ja ha captat més de 200.000 euros abans de sortir al mercat.\n\nEls fundadors són Gerard Lozano, conseller delegat, i Martí Parnau, director tecnològic, dos extreballadors de Fundcraft que van constituir la societat al juliol. La ronda s'ha tancat en uns dos mesos i aproximadament la meitat dels diners són de capital gironí. L'aplicació permetrà connectar comptes, inversions, plans de pensions, targetes, préstecs, hipoteques i assegurances, amb una connexió només de lectura, i la IA farà les preguntes inicials, analitzarà el patrimoni i generarà un diagnòstic de la salut financera de cada usuari. La companyia diu que no desarà les credencials bancàries. El negoci serà una subscripció, amb preus publicats a la seva web de 7,99 euros al mes en el pla anual, 10,99 en el semestral i 13,99 en el trimestral.\n\nEl projecte mostra com la IA arriba als serveis financers per a persones, no només a les grans entitats. Però el condicionant és regulador: Davant encara no presta cap servei i tramita l'autorització de la CNMV per ser una empresa d'assessorament financer.\n\nPer això el desplegament es farà en dues fases: una primera versió al gener del 2027, que farà el diagnòstic però no dirà a l'usuari què ha de fer amb els diners, i les recomanacions personalitzades quan arribi l'autorització, que els fundadors situen cap al maig o juny del 2027. Són previsions de l'empresa i depenen del regulador. Una segona ronda, de la qual encara no hi ha xifra ni data, dependrà d'haver aconseguit l'autorització, d'haver llançat el producte i de comprovar que hi ha prou demanda.",
+    "image": "./assets/davant-girona-ia-assessor-financer-personal-20261013.jpg"
+  }
+];
