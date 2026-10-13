@@ -1,0 +1,131 @@
+window.IA_NEWS = [
+  {
+    "category": "TECNOLOGIA",
+    "read": "4 MIN",
+    "slug": "windborne-contracte-forca-aerea-globus-meteorologics",
+    "title": "La Força Aèria dels EUA compra a WindBorne fins a 49 milions de dòlars en dades de globus meteorològics",
+    "excerpt": "L'empresa californiana alimenta amb les seves mesures un model d'IA de predicció del temps. El contracte, sense concurs públic, és el més gran que ha tingut amb el Govern: de moment, l'Aviació n'ha encarregat per 1,7 milions.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Els models d'IA que prediuen el temps aprenen de dècades de dades, però per treballar bé necessiten també observacions fresques de l'atmosfera, que en molts indrets escassegen. WindBorne Systems, fundada el 2015 i amb seu a Redwood City (Califòrnia), n'ha fet el seu negoci: té uns 700 globus autònoms en vol que recullen dades i les ven als clients, a més d'usar-les per al seu propi model de predicció.\n\nSegons TechCrunch, la Força Aèria dels Estats Units ha adjudicat a WindBorne un contracte de fins a 49 milions de dòlars per comprar-ne dades. L'Aviació només paga les dades que necessita i pot demanar regions concretes en moments concrets; fins ara n'ha encarregat per 1,7 milions, i l'empresa espera més comandes. L'adjudicació es va fer sense concurs: el cofundador i director tècnic, Andrey Sushko, la va descriure com una «determinació del Govern» que WindBorne era l'única que podia cobrir el que es demanava. Els globus es dirigeixen canviant d'altitud, deixant anar aire o llançant llast de sorra per enganxar els vents que els duen cap a l'objectiu.\n\nL'empresa assegura que el seu model WeatherMesh 6, aparegut a principis d'estiu, supera les prediccions basades en la física del Centre Europeu de Prediccions Meteorològiques a Mitjà Termini (ECMWF). L'agost, a més, va enviar per primer cop un sistema sense motor a l'ull d'un tifó; Sushko ho presenta com una de les primeres vegades que un model d'aprenentatge profund ha servit per prendre decisions operatives reals. És el contracte públic més gran de WindBorne, que també ha treballat amb el Servei Meteorològic Nacional i amb l'Aviació i l'Armada.\n\nConvé llegir-ho amb mesura: la superioritat sobre l'ECMWF és una afirmació de l'empresa, i TechCrunch recorda que la predicció amb IA encara és irregular i que calen tant els models d'IA com els tradicionals. Els 49 milions són un sostre, no una xifra garantida: depèn del que l'Aviació acabi encarregant.",
+    "image": "./assets/windborne-contracte-forca-aerea-globus-meteorologics-20261013.jpg"
+  },
+  {
+    "category": "TECNOLOGIA",
+    "read": "3 MIN",
+    "slug": "google-fitbit-edge-entrenador-salut-gemini",
+    "title": "Google presenta Fitbit Edge, una polsera de 179,99 dòlars amb pantalla i un entrenador de salut amb Gemini",
+    "excerpt": "L'entrenador de salut amb IA només funciona amb una subscripció a Google Health Premium. Les reserves ja són obertes i la polsera arribarà a les botigues el 27 d'octubre.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch/",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Google vol omplir l'espai que queda entre la seva polsera d'activitat més senzilla, la Fitbit Air, i el rellotge Pixel Watch. Ho fa amb la Fitbit Edge, presentada aquest dilluns, una banda prima que, a diferència de la Air, porta pantalla.\n\nLa Edge costa 179,99 dòlars (219,99 l'edició especial Stephen Curry), es pot reservar a la botiga de Google i arribarà a les botigues el 27 d'octubre. La pantalla OLED mostra indicacions de mapes, notificacions, el temps i els controls de música. Google promet fins a set dies de bateria i resistència a l'aigua fins a 50 metres, un GPS un 40% més precís que el de la generació anterior i una detecció de les fases del son un 15% més exacta. Reconeix i registra sola fins a 100 activitats i ofereix més de 50 modes d'exercici.\n\nLa part d'IA és l'entrenador Google Health Coach, amb Gemini, que munta rutines i plans d'entrenament setmanals a partir de les dades de forma física, salut i informació mèdica de l'usuari, i els ajusta a la seva agenda; requereix la subscripció Google Health Premium. La polsera també incorpora Health Guardian, que vigila canvis notables en les mesures de salut al llarg del temps, com ara indicadors lligats a la pressió arterial i a la resistència a la insulina, i que Google ja havia presentat a l'agost amb el Pixel Watch 5.\n\nLes millores de precisió són xifres de Google, sense proves independents, i no se n'explica el punt de partida. TechCrunch tampoc detalla com es validen els indicadors de pressió arterial i d'insulina. Per tant, la polsera costa 179,99 dòlars, però l'entrenador amb IA s'hi suma com a servei de pagament.",
+    "image": "./assets/google-fitbit-edge-entrenador-salut-gemini-20261013.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "5 MIN",
+    "slug": "kareus-perseus-estalvi-energia-entrenament-ia-michigan",
+    "title": "Una eina de la Universitat de Michigan redueix entre un 10% i un 30% l'energia d'entrenar grans models d'IA, segons els autors",
+    "excerpt": "Kareus, presentada al congrés OSDI '26, se suma a Perseus, que ja n'estalviava fins a un 30%. Els autors creuen que junts s'acostarien al 40-50%, però és una estimació, no una mesura.",
+    "sourceName": "Tech Xplore (Universitat de Michigan)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-software-tools-ai-energy.html",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Per entrenar un model d'IA gran, el model i les dades es reparteixen entre centenars o milers de processadors gràfics (GPU). Com que no acaben tots alhora, els més ràpids han d'esperar els més lents, i mentrestant consumeixen energia sense fer res d'útil. Aquest malbaratament és el que ataquen dues eines de l'equip de Mosharaf Chowdhury, a la Universitat de Michigan.\n\nLa primera, Perseus, alenteix els nuclis que van massa ràpids perquè acabin a la vegada que els altres: un estudi del 2024 va mesurar un estalvi d'energia d'entrenament de fins a un 30%. La segona, Kareus, coordina els nuclis dins de cada GPU i ordena el calendari de les tasques de càlcul; en dos models de llenguatge oberts de referència va reduir l'energia necessària entre un 10% i un 30% més. Kareus, obra de Ruofan Wu, Jeff Ma, Jae-Won Chung i Chowdhury, es va presentar el juliol al congrés USENIX OSDI '26 amb el títol «Kareus: Joint Reduction of Dynamic and Static Energy in Large Model Training».\n\nL'energia que gasten els centres de dades d'IA és un dels debats de fons del sector. En aquest cas, l'avantatge és que no cal canviar el maquinari: és programari que reorganitza el treball. L'equip col·labora amb NVIDIA per integrar l'enfocament a Megatron-LM, la plataforma oberta amb què aquesta empresa entrena models.\n\nEls límits són clars. L'estalvi conjunt de 40-50% en models grans és una extrapolació dels autors («podria acostar-s'hi»), no un resultat mesurat; les mesures publicades són les del 30% de Perseus i les del 10-30% de Kareus en dos models. Que l'estalvi arribi sense afectar la velocitat ni el rendiment ho afirmen els autors, i la peça no en detalla les proves. I que serveixi en altres plataformes d'entrenament és només una possibilitat que apunta Chowdhury.",
+    "image": "./assets/kareus-perseus-estalvi-energia-entrenament-ia-michigan-20261013.jpg"
+  },
+  {
+    "category": "TECNOLOGIA",
+    "read": "4 MIN",
+    "slug": "ultrahuman-abu-dhabi-model-edat-biologica",
+    "title": "Ultrahuman i Abu Dhabi desenvolupen un model d'IA que calcula l'edat biològica amb dades de dispositius i anàlisis",
+    "excerpt": "L'acord de dos anys és de recerca i validació clínica: encara no hi ha calendari de desplegament ni proves que el model sigui exacte.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Ultrahuman, una empresa emergent de Bangalore coneguda pels seus anells intel·ligents, n'ha venut uns 800.000 arreu del món. Els Emirats Àrabs Units són un dels seus deu mercats principals i hi fa entre un 4% i un 5% dels ingressos. Hi opera des de fa gairebé cinc anys i diu que hi té una fidelitat d'usuaris un 25% superior a la d'altres mercats.\n\nAquest dilluns ha signat un memoràndum d'entesa de dos anys amb el Centre de Salut Pública d'Abu Dhabi (ADPHC) per desenvolupar i validar un model d'edat biològica. Combina biomarcadors clínics amb dades de dispositius per estimar a quin ritme envelleix una persona i quins factors (el son, l'activitat, la salut cardiovascular, el metabolisme) l'acceleren o la frenen. No serà exclusiu dels seus anells: admetrà dades de rellotges, corretges i pegats. Amb el temps, els ciutadans podrien veure la seva edat de salut a les plataformes governamentals TAMM i Sahatna.\n\nEl model s'ha construït amb dades que Ultrahuman ja tenia: edat, senyals dels dispositius i marcadors de les anàlisis de sang d'alguns usuaris. El conseller delegat, Mohit Kumar, assegura que no s'entrenarà amb dades dels Emirats i que l'empresa no accedirà a informació personal identificable. L'emirat ja havia anunciat al maig una col·laboració amb la rival Oura, centrada en la salut de les dones i el risc cardiometabòlic.\n\nEls dos primers anys són de recerca i de validació clínica, així que la precisió del model està per demostrar. No s'ha fixat cap calendari per al desplegament, que serà per fases, i TechCrunch no explica com es tractaran les dades dels Emirats més enllà d'aquesta promesa de no accedir a dades identificables.",
+    "image": "./assets/ultrahuman-abu-dhabi-model-edat-biologica-20261013.jpg"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "blueprints-ai-plans-arquitectura-llicencia-disrupt",
+    "title": "Una empresa emergent diu que genera en minuts plànols d'arquitectura llestos per demanar la llicència d'obres",
+    "excerpt": "Blueprints AI, finalista de la Startup Battlefield 200 de TechCrunch, parteix d'un croquis en 2D o d'un PDF. Un professional amb llicència ha de revisar i signar els documents abans de presentar-los.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Segons Al Dram, arquitecte i contractista general, els arquitectes dediquen al voltant d'un 80% del temps a dibuixar i només un 20% a dissenyar. Amb Blueprints AI, l'empresa que ha cofundat a Santa Monica (Califòrnia) el 2025, vol capgirar la proporció: «el 20-80».\n\nEl programari crea plànols que compleixen la normativa en pocs minuts a partir d'un croquis en 2D o d'un PDF. La primera versió genera documents de construcció d'arquitectura i costa entre 3.200 i 8.500 dòlars al mes segons el pla. La segona, presentada al TechCrunch Disrupt (13-15 d'octubre, a San Francisco) i disponible aquesta setmana, afegeix estructura, instal·lacions mecàniques i elèctriques, fontaneria i interiorisme; els canvis d'un dibuix s'actualitzen a tot el projecte i es comproven amb els codis locals. La tercera, en desenvolupament, afegirà l'anàlisi estructural i el disseny de quadres elèctrics.\n\nEls models s'han entrenat amb vuit anys de jocs de plànols aprovats de l'empresa de disseny i construcció de Dram, que continua en actiu. L'empresa, que també té com a cofundadora la científica de dades Coco Cao, ven per subscripció a despatxos d'arquitectura, enginyeria i disseny, i també a promotors i propietaris immobiliaris.\n\nLa velocitat i l'ajust a la normativa són afirmacions de l'empresa; la peça no en recull avaluacions independents ni diu quantes llicències s'han obtingut amb aquests plànols. Un professional amb llicència continua havent de revisar i signar els documents abans de presentar-los a l'administració.",
+    "image": "./assets/blueprints-ai-plans-arquitectura-llicencia-disrupt-20261013.jpg"
+  },
+  {
+    "category": "TECNOLOGIA",
+    "read": "4 MIN",
+    "slug": "meta-muse-wonder-models-gamma-alta",
+    "title": "Meta estrena Muse Wonder, els seus primers models de gamma alta, i diu que planten cara a GPT-6 Astra i Claude Opus 5.5",
+    "excerpt": "Els Muse Wonder i Muse Wonder Full ja estan disponibles per als subscriptors de Muse Code, i el primer també per l'API de Meta. Les comparacions amb els rivals són de proves internes de la mateixa empresa.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Fins ara, Meta havia competit en la carrera de la IA amb models lleugers i amb productes. Muse Spark, el primer model del seu laboratori de superintel·ligència, és un model petit i de resposta ràpida, i l'agent Muse, que fa d'assistent personal, encara no havia mostrat la capacitat bruta dels models líders.\n\nEl 12 d'octubre, Meta va presentar Muse Wonder i Muse Wonder Full, dos models més grans i que l'empresa descriu com els més capaços que ha fet mai. Segons The Verge, estan disponibles des d'avui per als subscriptors de Muse Code, i Muse Wonder també es pot fer servir a través de l'API de Meta, a 4 dòlars per milió de fitxes d'entrada i 20 per milió de sortida, segons TechCrunch; Wonder Full només s'ofereix als subscriptors. Meta diu que els dos models rivalitzen amb GPT-6 Astra, Claude Opus 5.5 i Claude Fable 5.1, i destaca que Wonder supera aquests rivals en MemoryBench, una prova de memòria. L'empresa també insisteix en la «memòria activa», és a dir, la capacitat de retenir i fer servir amb el temps el que l'usuari li explica. Els models s'han entrenat al centre de dades Prometheus, a l'Ohio.\n\nEl moviment importa perquè és la primera vegada que Meta es posa al nivell de les empreses que lideren el sector, després d'haver invertit milers de milions en talent i infraestructura. Meta també diu que, més endavant, l'agent Muse funcionarà amb Wonder, començant pels subscriptors, però no ha donat cap data.\n\nConvé llegir-ho amb distància: les comparacions vénen de proves internes de la mateixa Meta i, de moment, ningú de fora no les ha verificat. L'empresa no ha publicat les puntuacions concretes en el text de la notícia, ni ha aclarit si els pesos dels models seran oberts, i The Verge assenyala que encara no se sap com queden davant de Gemini 4 Argon, de Google.",
+    "image": "./assets/meta-muse-wonder-models-gamma-alta-20261013.jpg",
+    "video": {
+      "id": "4ZwVP0-ylZU",
+      "verificat": "2026-10-13",
+      "titol": "Introducing Muse Wonder & Muse Wonder Full: frontier models for agentic tasks",
+      "canal": "AI at Meta",
+      "canalUrl": "https://www.youtube.com/@AIatMeta",
+      "idioma": "en",
+      "resum": "Presentació oficial que el canal AI at Meta ha publicat dels models Muse Wonder i Muse Wonder Full, descrits com a models de gamma alta per a tasques d'agents personals i professionals. Està en anglès."
+    }
+  },
+  {
+    "category": "SALUT",
+    "read": "5 MIN",
+    "slug": "nit-de-son-ia-risc-demencia-infart-mortalitat",
+    "title": "Una nit de son enregistrada a la clínica permet a una IA calcular el risc futur de demència, infart o mort, segons dos estudis",
+    "excerpt": "Dos models d'IA entrenats amb enregistraments clínics del son, publicats a Nature Medicine i a Nature Communications, treuen del son informació sobre la salut que les mesures habituals no capten.",
+    "sourceName": "Nature (News & Views)",
+    "sourceUrl": "https://www.nature.com/articles/d41586-026-03207-8",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Quan algú passa una nit en una unitat del son, els sensors registren l'activitat del cervell, del cor, de la respiració i dels músculs. El que acaba al full del metge, però, sol ser un resum: per exemple, l'índex d'apnees i hipopnees, que compta les pauses de la respiració. Una part enorme de la informació enregistrada no s'aprofita.\n\nEl 12 d'octubre, Rachel K. Rowe, de la Universitat de Colorado a Boulder, va publicar a Nature un comentari sobre dos treballs d'enguany que intenten aprofitar-la amb IA. El primer, a Nature Medicine, presenta SleepFM, un model entrenat amb més de 585.000 hores d'enregistraments d'unes 65.000 persones. Segons el resum de l'article, a partir d'una sola nit prediu 130 malalties amb un índex de concordança d'almenys 0,75, entre les quals la mortalitat per qualsevol causa (0,84), la demència (0,85), l'infart de miocardi (0,81) i la insuficiència cardíaca (0,80). El segon, a Nature Communications, fa servir més de 10.000 enregistraments clínics lligats a històries mèdiques i hi distingeix cinc grups de risc: el de més risc té més del doble de mortalitat que el de menys, mentre que les categories de l'índex d'apnees tenen poc valor predictiu.\n\nAixò apunta que el son encara amaga senyals de salut que es perden en les mesures de sempre, i que un enregistrament que ja es fa als hospitals podria servir per detectar el risc abans del diagnòstic.\n\nEls límits són importants. Són estudis sobre dades que ja existien, no assaigs que mostrin que fer servir aquests models millori la salut dels pacients, i un índex de concordança mesura la capacitat de separar persones de més i de menys risc, no de predir què li passarà a una persona concreta. El comentari de Nature és de pagament i aquest text es basa en el fragment visible i en els resums dels dos articles.",
+    "image": "./assets/nit-de-son-ia-risc-demencia-infart-mortalitat-20261013.jpg"
+  },
+  {
+    "category": "SOCIETAT",
+    "read": "4 MIN",
+    "slug": "nikon-descalifica-video-microscopia-ia",
+    "title": "Nikon descalifica el vídeo guanyador d'un concurs de microscòpia perquè s'hi va fer servir IA",
+    "excerpt": "El primer premi del Small World in Motion mostrava el moviment de les cilis dels pulmons. Uns científics van advertir que alguns detalls semblaven poc plausibles, i l'autor va explicar que havia fet servir un model d'IA en el postprocessament.",
+    "sourceName": "Nature",
+    "sourceUrl": "https://www.nature.com/articles/d41586-026-03240-7",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Els concursos de fotografia i vídeo científics premien imatges que sorprenen, però també imatges que s'han de poder creure. El Small World in Motion, que organitza Nikon Instruments, reconeix les millors gravacions de fenòmens vistos al microscopi, i les seves normes no admeten vídeos generats amb IA.\n\nEl 15 de setembre, el concurs va donar el primer premi a un vídeo de l'enginyer òptic Ning Xu que mostrava el moviment de les cilis, unes estructures com pèls, a les vies respiratòries. En pocs dies, científics van fer notar a LinkedIn que alguns detalls del vídeo semblaven biològicament poc plausibles. Xu va respondre que el seu equip havia fet servir un model d'IA en el postprocessament per millorar la presentació visual de les zones per sota de les cilis, sense «fer afirmacions anatòmiques» sobre què representaven aquests detalls. Els missatges es van esborrar després. El 25 de setembre, Nikon va dir a Nature que investigava el cas, i el 9 d'octubre va anunciar que, un cop reavaluat el vídeo amb el jurat, no complia les normes i quedava descalificat.\n\nEl cas va més enllà d'un premi. Un retoc amb IA pot fer passar per una observació real el que no ho és, i per això l'episodi, segons Nature, ha obert un debat sobre l'ús de la IA en les imatges científiques.\n\nNikon subratlla que la decisió es basa només en si el vídeo complia les normes i no jutja la reputació ni les intencions de l'autor. Xu no va respondre a Nature, i la Universitat Nacional de Singapur diu que va participar-hi abans d'incorporar-s'hi i que el vídeo no té res a veure amb la seva feina allà.",
+    "image": "./assets/nikon-descalifica-video-microscopia-ia-20261013.jpg"
+  },
+  {
+    "category": "REGULACIÓ",
+    "read": "4 MIN",
+    "slug": "brad-smith-microsoft-regulacio-ia-regne-unit",
+    "title": "El president de Microsoft reclama regles mundials per a la IA i diu que el Regne Unit és qui millor les pot liderar",
+    "excerpt": "Brad Smith defensa que l'autoregulació voluntària només l'acaten les empreses responsables i proposa que els laboratoris obtinguin l'aval d'avaluadors externs abans de llançar un producte.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Les tecnològiques que fabriquen els models d'IA més potents ja no només parlen de llançaments: parlen de límits. En les últimes setmanes, directius com Dario Amodei, d'Anthropic, i Sam Altman, d'OpenAI, han demanat frenar el ritme després de diversos incidents amb agents d'IA que van actuar fora de control, segons TechCrunch.\n\nEn un pòdcast de la BBC, el president de Microsoft, Brad Smith, va dir que ha arribat el moment d'establir normes mundials de seguretat i va descriure la IA com una «arma i una eina» que posa en risc la ciberseguretat. Va comparar el sector amb els productes de consum: segons ell, la llet o les rentadores tenen més supervisió que les empreses que construeixen IA. Smith defensa que el Regne Unit, i no els Estats Units ni la Unió Europea, és el millor situat per liderar-les, perquè Washington no mira Londres com mira Brussel·les. Entre les mesures que prefereix hi ha l'obligació legal d'avisar una organització si un agent descontrolat n'ha vulnerat els sistemes, l'aprovació prèvia d'avaluadors externs abans de llançar un producte i uns «botons d'aturada» per frenar la IA si els humans en perden el control.\n\nLes paraules arriben en un moment delicat per a l'Institut de Seguretat de la IA britànic (AISI), que prova els models dels grans laboratoris americans abans que surtin. El mes passat, segons les informacions, Donald Trump va demanar a Anthropic i a OpenAI que no els donessin accés, però l'AISI va confirmar dilluns que pot continuar provant els models més recents. Smith va valorar el pacte que les empreses van signar a la Casa Blanca per treballar amb auditors independents com un «bon pas», però insuficient: el problema de l'autoregulació, va dir, és que només la compleixen les empreses bones.\n\nCal tenir present que Smith parla com a directiu d'una empresa que té molt a dir en la futura regulació, i que les seves propostes són una opinió, no una norma ni un projecte de llei en tramitació.",
+    "image": "./assets/brad-smith-microsoft-regulacio-ia-regne-unit-20261013.jpg"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "davant-girona-ia-assessor-financer-personal",
+    "title": "Dos gironins aixequen 200.000 euros per crear Davant, una aplicació d'IA que vol fer d'assessor financer personal",
+    "excerpt": "Gerard Lozano i Martí Parnau, que van constituir l'empresa al juliol, preveuen una primera versió el gener del 2027, i les recomanacions personalitzades només quan la CNMV els doni l'autorització.",
+    "sourceName": "Diari de Girona",
+    "sourceUrl": "https://www.diaridegirona.cat/economia/2026/10/12/gironins-creen-app-vol-convertir-ia-assesor-financer-135102463.html",
+    "sourceDate": "12 d'octubre de 2026",
+    "body": "Moltes persones acumulen estalvis, comptes, inversions o plans de pensions sense una estratègia global, i l'assessorament financer personalitzat continua sent poc accessible. Aquest és el forat que vol ocupar Davant, una empresa nascuda aquest estiu a Girona, que, segons Diari de Girona, ja ha captat més de 200.000 euros abans de sortir al mercat.\n\nEls fundadors són Gerard Lozano, conseller delegat, i Martí Parnau, director tecnològic, dos extreballadors de Fundcraft que van constituir la societat al juliol. La ronda s'ha tancat en uns dos mesos i aproximadament la meitat dels diners són de capital gironí. L'aplicació permetrà connectar comptes, inversions, plans de pensions, targetes, préstecs, hipoteques i assegurances, amb una connexió només de lectura, i la IA farà les preguntes inicials, analitzarà el patrimoni i generarà un diagnòstic de la salut financera de cada usuari. La companyia diu que no desarà les credencials bancàries. El negoci serà una subscripció, amb preus publicats a la seva web de 7,99 euros al mes en el pla anual, 10,99 en el semestral i 13,99 en el trimestral.\n\nEl projecte mostra com la IA arriba als serveis financers per a persones, no només a les grans entitats. Però el condicionant és regulador: Davant encara no presta cap servei i tramita l'autorització de la CNMV per ser una empresa d'assessorament financer.\n\nPer això el desplegament es farà en dues fases: una primera versió al gener del 2027, que farà el diagnòstic però no dirà a l'usuari què ha de fer amb els diners, i les recomanacions personalitzades quan arribi l'autorització, que els fundadors situen cap al maig o juny del 2027. Són previsions de l'empresa i depenen del regulador. Una segona ronda, de la qual encara no hi ha xifra ni data, dependrà d'haver aconseguit l'autorització, d'haver llançat el producte i de comprovar que hi ha prou demanda.",
+    "image": "./assets/davant-girona-ia-assessor-financer-personal-20261013.jpg"
+  }
+];
