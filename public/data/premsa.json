@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-13T16:15:01.467Z",
+ "actualitzat": "2026-10-13T19:34:27.683Z",
  "fonts": 29,
  "articles": [
+  {
+   "id": "5e3cb1f0f4de",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Or�lien nega les acusacions d'haver utilitzat la IA en la seva novel�la, per� admet plagis anteriors",
+   "url": "https://www.3cat.cat/3catinfo/orelien-nega-les-acusacions-dhaver-utilitzat-la-ia-en-la-seva-novella-pero-admet-plagis-anteriors/noticia/3433904",
+   "publicat": "2026-10-13T18:59:12.000Z"
+  },
+  {
+   "id": "74faa272f7d0",
+   "mitja": "El Nacional",
+   "font": "elnacional",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Microsoft presenta Maia 300: el seu xip propi d'IA per dependre menys de Nvidia",
+   "url": "https://www.elnacional.cat/ca/tecnologia/microsoft-presenta-maia-300-seu-xip-propi-ia-dependre-menys-nvidia_1709239_102.html",
+   "publicat": "2026-10-13T18:00:00.000Z"
+  },
   {
    "id": "b66a8e7eb671",
    "mitja": "El Nacional",
@@ -27,9 +49,9 @@
   },
   {
    "id": "f50c74ad88a8",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
    "titol": "Así es HomeView, la última pantalla inteligente de Apple para controlar los hogares con su nueva IA",
