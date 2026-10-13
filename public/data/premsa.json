@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-13T04:13:49.781Z",
+ "actualitzat": "2026-10-13T08:14:17.334Z",
  "fonts": 29,
  "articles": [
+  {
+   "id": "75f2211b93dc",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las Bolsas europeas suben pese a que se enfría el entusiasmo por la IA",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-13/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-10-13T08:10:31.000Z"
+  },
+  {
+   "id": "39ead847b402",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "¿Cuánta IA hay en los libros más vendidos? Mucha en novelas románticas de Amazon y en el superventas de Alvise Pérez",
+   "url": "https://elpais.com/tecnologia/2026-10-13/alvise-perez-y-novelas-romanticas-autoeditadas-cuanta-ia-hay-en-los-libros-mas-vendidos-de-espana.html",
+   "publicat": "2026-10-13T07:05:13.000Z"
+  },
+  {
+   "id": "2817e41c28dd",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic desafia el boom de la IA amb la sortida a la borsa \"més ridícula de l'any\"",
+   "url": "https://www.ara.cat/economia/tecnologia/boom-anthropic-desafia-ia-sortida-borsa-mes-ridicula-l-any_1_5874974.html",
+   "publicat": "2026-10-13T05:00:08.000Z"
+  },
+  {
+   "id": "62d9b32d4d25",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "“La IA debería ayudarnos a pensar mejor, no a evitar que pensemos”",
+   "url": "https://www.lavanguardia.com/vivo/tendencias/20261013/11654077/jesus-c-guillen-astrofisico-neurocientifico-ia-deberia-ayudarnos-pensar-mejor-evitar-pensemos.html",
+   "publicat": "2026-10-13T04:00:00.000Z"
+  },
+  {
+   "id": "b83db67c4834",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una red de expertos europeos promoverá y supervisará el uso de la IA en salud mental",
+   "url": "https://www.lavanguardia.com/vida/20261013/11657145/red-expertos-europeos-promovera-supervisara-ia-salud-mental.html",
+   "publicat": "2026-10-13T04:00:00.000Z"
+  },
+  {
+   "id": "1be831207f83",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cómo incorporar la inteligencia artificial en el trabajo con criterio",
+   "url": "https://www.lavanguardia.com/economia/20261013/11652636/como-incorporar-inteligencia-artificial-trabajo-criterio-brl.html",
+   "publicat": "2026-10-13T03:55:00.000Z"
+  },
+  {
+   "id": "cd0163433fed",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "IA y centros de datos",
+   "url": "https://www.lavanguardia.com/economia/20261013/11657258/ia-inteligencia-artificial-espana-centros-datos.html",
+   "publicat": "2026-10-13T03:00:00.000Z"
+  },
   {
    "id": "24c57a66bb67",
    "mitja": "El Nacional",
