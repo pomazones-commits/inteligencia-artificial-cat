@@ -20,6 +20,33 @@ if ($action === 'latest') {
     respond($edition ?: ['items' => [], 'updatedAt' => null]);
 }
 
+// Edició anterior (13.10.2026): les primeres hores del dia (lot de les 06:05)
+// l'edició només té 5 notícies i la portada les repetia al carrusel, a «En
+// moviment» i a la graella. Ara app.js omple aquests dos blocs amb les notícies
+// de l'última edició tancada de l'hemeroteca (data/arxiu.json, ~5 MB: per això
+// es retalla aquí i no es baixa sencer al navegador). Només lectura.
+if ($action === 'previous') {
+    header('Cache-Control: public, max-age=900');
+    $arxiuFile = $dataDir . '/arxiu.json';
+    $buit = ['date' => null, 'items' => []];
+    if (!is_file($arxiuFile)) respond($buit);
+    $arxiu = json_decode((string) file_get_contents($arxiuFile), true);
+    $avui = (new DateTimeImmutable('now', new DateTimeZone('Europe/Madrid')))->format('d.m.Y');
+    $camps = ['category', 'read', 'slug', 'title', 'excerpt', 'image', 'imageCredit'];
+    foreach ((array) ($arxiu['editions'] ?? []) as $edicio) {
+        $data = (string) ($edicio['date'] ?? '');
+        $items = (array) ($edicio['items'] ?? []);
+        if ($data === '' || $data === $avui || !$items) continue;
+        $sortida = [];
+        foreach (array_slice($items, 0, 16) as $item) {
+            if (!is_array($item) || empty($item['title'])) continue;
+            $sortida[] = array_intersect_key($item, array_flip($camps));
+        }
+        respond(['date' => $data, 'items' => $sortida]);
+    }
+    respond($buit);
+}
+
 if ($action === 'subscribe' && $_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = filter_var(trim((string) ($_POST['email'] ?? '')), FILTER_VALIDATE_EMAIL);
     if (!$email) respond(['ok' => false, 'message' => 'Introdueix un correu electrònic vàlid.'], 422);

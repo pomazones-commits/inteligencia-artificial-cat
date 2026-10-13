@@ -63,12 +63,15 @@
     // ——— Repartiment de l'edició sense repeticions (11.10.2026) ———
     // Amb 9 notícies o més, cada notícia surt un sol cop a la portada:
     // el carrusel mostra la 1-4, «En moviment» la 5-8 i «El senyal d'avui» la resta.
-    // Amb menys notícies (primers lots del dia) es manté el repartiment antic,
-    // perquè cap bloc quedi buit.
+    // Amb menys notícies (13.10.2026; el lot de les 06:05 en porta 5) totes les
+    // d'avui van al carrusel i «En moviment» i la graella s'omplen amb l'edició
+    // anterior (api.php?action=previous), rotulada com a tal. Abans les mateixes
+    // 5 notícies sortien tres vegades. Si l'edició anterior no arriba, es torna
+    // al repartiment antic perquè cap bloc quedi buit.
     const splitEdition = news.length >= 9;
     const carouselNews = splitEdition ? news.slice(0, 4) : news.slice(0, Math.min(8, news.length));
-    const latestNews = splitEdition ? news.slice(4, 8) : news.slice(0, 5);
-    const gridNews = splitEdition ? news.slice(8) : news;
+    let latestNews = splitEdition ? news.slice(4, 8) : [];
+    let gridNews = splitEdition ? news.slice(8) : [];
     document.querySelector('#news-count').textContent = splitEdition
       ? `${gridNews.length} ${gridNews.length === 1 ? 'història més' : 'històries més'} · de la 9 a la ${news.length}`
       : `L'edició del dia`;
@@ -232,9 +235,12 @@
     // La numeració continua la del carrusel (05, 06…) perquè es vegi que són notícies noves.
     latestList.style.counterReset = `latest ${splitEdition ? 4 : 0}`;
     // 11.10.2026: miniatura quadrada de cada notícia (la imatge es carrega quan s'hi arriba).
-    latestList.innerHTML = latestNews.map(story => `
-      <li${story.image ? ' class="has-thumb"' : ''}><div><time>${escapeHTML(story.category)}</time><a href="${escapeHTML(storyHref(story))}">${escapeHTML(story.title)}</a></div>${story.image ? `<a class="latest-thumb" href="${escapeHTML(storyHref(story))}" tabindex="-1" aria-hidden="true"><img src="${escapeHTML(story.image)}" alt="" loading="lazy" decoding="async"></a>` : ''}</li>
-    `).join('');
+    function renderLatest(items) {
+      latestList.innerHTML = items.map(story => `
+        <li${story.image ? ' class="has-thumb"' : ''}><div><time>${escapeHTML(story.category)}</time><a href="${escapeHTML(storyHref(story))}">${escapeHTML(story.title)}</a></div>${story.image ? `<a class="latest-thumb" href="${escapeHTML(storyHref(story))}" tabindex="-1" aria-hidden="true"><img src="${escapeHTML(story.image)}" alt="" loading="lazy" decoding="async"></a>` : ''}</li>
+      `).join('');
+    }
+    renderLatest(latestNews);
 
     // ——— Graella de notícies del dia ———
     const newsGrid = document.querySelector('#news-grid');
@@ -252,6 +258,44 @@
         </article>`).join('');
     }
     renderNews(gridNews);
+
+    // ——— Edició curta: «En moviment» i la graella amb l'edició anterior (13.10.2026) ———
+    if (!splitEdition) {
+      const fallback = () => {
+        latestNews = news.slice(0, 5);
+        gridNews = news;
+        renderLatest(latestNews);
+        renderNews(gridNews);
+      };
+      fetch(`./api.php?action=previous&v=${stamp}`)
+        .then(response => (response.ok ? response.json() : null))
+        .then(previous => {
+          const todayKeys = new Set(news.flatMap(story => [story.slug, story.title]).filter(Boolean));
+          const items = (previous?.items || []).filter(story => story?.title && !todayKeys.has(story.slug) && !todayKeys.has(story.title));
+          if (items.length < 4 || !/^\d{2}\.\d{2}\.\d{4}$/.test(previous.date || '')) return fallback();
+          // «Ahir» si l'edició és de just el dia abans (hora de Barcelona); si no, la data.
+          const madrid = date => {
+            const p = Object.fromEntries(new Intl.DateTimeFormat('ca-ES', { timeZone: 'Europe/Madrid', day: '2-digit', month: '2-digit', year: 'numeric' })
+              .formatToParts(date).map(part => [part.type, part.value]));
+            return `${p.day}.${p.month}.${p.year}`;
+          };
+          const isYesterday = previous.date === madrid(new Date(now.getTime() - 86400000));
+          const shortDate = previous.date.slice(0, 5);
+          latestNews = items.slice(0, 4);
+          gridNews = items.slice(4, 12);
+          const panel = latestList.closest('.latest-panel');
+          const panelLabel = panel?.querySelector('.section-label span');
+          const panelLink = panel?.querySelector('.section-label a');
+          if (panelLabel) panelLabel.textContent = 'Edició anterior';
+          if (panelLink) panelLink.href = './arxiu.html';
+          document.querySelector('#latest-title').textContent = isYesterday ? 'D’ahir' : `Del ${shortDate}`;
+          document.querySelector('#news-title').textContent = isYesterday ? 'El senyal d’ahir' : `El senyal del ${shortDate}`;
+          document.querySelector('#news-count').textContent = `Mentre arriben les d’avui · edició del ${previous.date}`;
+          renderLatest(latestNews);
+          renderNews(gridNews);
+        })
+        .catch(fallback);
+    }
 
     // ——— Radar català ———
     // 11.10.2026: cada targeta porta miniatura. La imatge ve de radar.js; si l'entrada
