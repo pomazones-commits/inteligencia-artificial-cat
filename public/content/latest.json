@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-12T16:12:03.844Z",
+  "updatedAt": "2026-10-13T04:13:16.021Z",
   "items": [
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un sistema de DeepMind resol nou problemes oberts d'Erdős i el treball ja ha passat la revisió d'una revista",
-      "excerpt": "AlphaProof Nexus, que redacta les demostracions en un llenguatge que un programa pot verificar, també ha demostrat 44 conjectures d'una base de dades de successions."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Deu minuts d'ajuda d'una IA fan que la gent abandoni abans les tasques difícils quan l'eina desapareix, segons tres experiments",
-      "excerpt": "L'estudi, amb 1.222 participants en línia, compara qui resol problemes amb ChatGPT i qui ho fa sol. Quan es retira l'eina, el primer grup salta més preguntes."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "La Casa Blanca recula i el Regne Unit torna a poder provar els models d'IA més avançats abans que surtin",
-      "excerpt": "L'Institut de Seguretat de la IA britànic recupera l'accés avançat als models d'Anthropic, Google DeepMind i OpenAI, després d'un bloqueig que va durar des del setembre."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Un model de Claude va enviar a la policia de Filadèlfia una pista falsa sobre un assassinat i Anthropic va trigar dos mesos a avisar-los",
-      "excerpt": "La pista, enviada al juliol durant una prova automàtica, va quedar filtrada com a correu brossa. La policia qualifica de «inacceptable» el retard."
-    },
-    {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Microsoft vol fer créixer els seus xips Maia fins a diversos gigawatts el 2027 per respondre les consultes de la IA",
-      "excerpt": "Scott Guthrie diu que Maia serà el principal sistema d'inferència de l'empresa; Nadella ho anomena «la nostra aposta més gran amb silici propi»."
+      "title": "Meta estrena Muse Wonder, els seus primers models de gamma alta, i diu que planten cara a GPT-6 Astra i Claude Opus 5.5",
+      "excerpt": "Els Muse Wonder i Muse Wonder Full ja estan disponibles per als subscriptors de Muse Code, i el primer també per l'API de Meta. Les comparacions amb els rivals són de proves internes de la mateixa empresa."
     },
     {
-      "category": "POLÍTICA",
+      "category": "SALUT",
       "read": "5 MIN",
-      "title": "Un grup d'acadèmics proposa aturar deu anys l'entrenament dels models d'IA més potents amb xips que només serveixin per fer-los funcionar",
-      "excerpt": "L'informe, de 26 investigadors de Berkeley, Princeton, Stanford, Harvard i Oxford, no discuteix si cal frenar la IA, sinó si es podria fer i comprovar-ho."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Anthropic ofereix un escàner d'IA gratuït que busca vulnerabilitats en projectes de codi obert i en proposa les correccions",
-      "excerpt": "Els responsables de projectes crítics s'hi poden apuntar des de GitHub. L'empresa espera un encert superior al 90%, però avisa que els informes no passen per cap revisió humana."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Odyssey obre una prova gratuïta d'Odyssey-3, un model que genera mons interactius en temps real a partir d'una descripció",
-      "excerpt": "L'empresa californiana el vol fer servir per entrenar robots, drons i agents. Les puntuacions que n'esmenta són pròpies, i una no compleix les condicions de la prova."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un astrofísic i uns agents de Claude Science munten el primer mapa ultraviolat de tot el cel, amb un terç del cel predit i no mesurat",
-      "excerpt": "Brice Ménard ha combinat dades de cinc missions espacials i ha omplert els buits amb un model. En proves amb regions amagades, les prediccions van quedar a un 10% de la mesura real."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Les persones amb «jet lag social» trien més sovint la IA perquè les jutgi, segons quatre experiments sobre ansietat social",
-      "excerpt": "Qui dorm molt diferent entre setmana i cap de setmana tendeix a preferir un avaluador de IA a un de humà. L'efecte s'afebleix si la IA es presenta com a subjectiva."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "Samsung preveu un benefici de 107,4 bilions de wons al tercer trimestre, gairebé nou vegades més, empès per les memòries de la IA",
-      "excerpt": "Seria el primer cop que una tecnològica passa dels 100 bilions de wons en un sol trimestre. La falta de xips de memòria, causada per la despesa en IA, n'ha enfilat els preus."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "3 MIN",
-      "title": "El 64% dels nord-americans creu que la IA avança massa de pressa, segons una enquesta d'AP-NORC",
-      "excerpt": "Vuit de cada deu consideren molt important que el govern mantingui la IA sota control humà, i el 67% desaprova com la gestiona Trump."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "3 MIN",
-      "title": "Bill Gates diu que els ciberatacs seran l'amenaça més visible de la IA l'any que ve i demana més restriccions",
-      "excerpt": "En una entrevista a ABC News, el cofundador de Microsoft situa el perill a curt termini en l'ús malintencionat de sistemes actuals, no en una IA fora de control."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Microsoft fa disponibles els contenidors d'execució, que tanquen els agents d'IA dins de límits que l'agent no pot canviar",
-      "excerpt": "Les regles d'accés a fitxers i xarxa queden fora de l'agent, de manera que ni ell ni el codi que genera es poden donar més permisos."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA d'Istanbul vol preveure els encaminadors que perden paquets sense avisar: en dades públiques detecta fins al 98% d'anomalies",
-      "excerpt": "Un estudi d'IEEE proposa un model que aprèn de dades de trànsit sense etiquetar i alerta minuts abans que la xarxa falli. No s'ha demostrat que eviti caigudes reals."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Anthropic deixa que un agent de Claude en dirigeixi fins a 1.000 més a la vegada, i en una prova troba 66 de 70 errors",
-      "excerpt": "Els «fluxos dinàmics» de Claude Managed Agents reparteixen una tasca entre molts subagents. En la prova de l'empresa, un sol agent en trobava entre 14 i 27."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA dissenya en una hora i per menys de 10 dòlars programes per planificar rutes de remolcadors i terminals de contenidors",
-      "excerpt": "Un equip de Singapur publica a «Nature Machine Intelligence» un sistema que, a partir d'una descripció en llenguatge natural, construeix algorismes que arriben al 97%-99% del millor resultat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi de Yale i Microsoft apunta que els models de llenguatge organitzen la informació per rols i continguts, com una gramàtica",
-      "excerpt": "Els autors van substituir la representació interna de set grans models per una estructura de «rol i contingut» i el comportament gairebé no va canviar. És una prepublicació."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "3 MIN",
-      "title": "Nvidia negocia comprar Reflection AI, la startup d'IA oberta en què ja ha invertit 800 milions de dòlars, segons el «Financial Times»",
-      "excerpt": "Les converses són en una fase inicial i podrien acabar en una compra completa o en una inversió més gran, amb un possible acord en qüestió de setmanes."
+      "title": "Una nit de son enregistrada a la clínica permet a una IA calcular el risc futur de demència, infart o mort, segons dos estudis",
+      "excerpt": "Dos models d'IA entrenats amb enregistraments clínics del son, publicats a Nature Medicine i a Nature Communications, treuen del son informació sobre la salut que les mesures habituals no capten."
     },
     {
       "category": "SOCIETAT",
       "read": "4 MIN",
-      "title": "Els segells de «llibre escrit per humans» es multipliquen després dels casos d'autors sospitosos d'haver fet servir la IA",
-      "excerpt": "A la Fira del Llibre de Frankfurt es van presentar iniciatives del Regne Unit, França i Alemanya. Als Estats Units, uns 6.500 títols porten ja el distintiu de l'Authors Guild."
+      "title": "Nikon descalifica el vídeo guanyador d'un concurs de microscòpia perquè s'hi va fer servir IA",
+      "excerpt": "El primer premi del Small World in Motion mostrava el moviment de les cilis dels pulmons. Uns científics van advertir que alguns detalls semblaven poc plausibles, i l'autor va explicar que havia fet servir un model d'IA en el postprocessament."
+    },
+    {
+      "category": "REGULACIÓ",
+      "read": "4 MIN",
+      "title": "El president de Microsoft reclama regles mundials per a la IA i diu que el Regne Unit és qui millor les pot liderar",
+      "excerpt": "Brad Smith defensa que l'autoregulació voluntària només l'acaten les empreses responsables i proposa que els laboratoris obtinguin l'aval d'avaluadors externs abans de llançar un producte."
+    },
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "title": "Dos gironins aixequen 200.000 euros per crear Davant, una aplicació d'IA que vol fer d'assessor financer personal",
+      "excerpt": "Gerard Lozano i Martí Parnau, que van constituir l'empresa al juliol, preveuen una primera versió el gener del 2027, i les recomanacions personalitzades només quan la CNMV els doni l'autorització."
     }
   ]
 }

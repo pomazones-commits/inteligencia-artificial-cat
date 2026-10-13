@@ -1,5 +1,16 @@
 window.IA_RADAR = [
   {
+    "place": "Girona",
+    "category": "IA I SOCIETAT",
+    "date": "13.10.2026",
+    "title": "Dos gironins aixequen 200.000 euros per crear Davant, una aplicació d'IA que vol fer d'assessor financer personal",
+    "summary": "Gerard Lozano i Martí Parnau, que van constituir l'empresa al juliol, preveuen una primera versió el gener del 2027, i les recomanacions personalitzades només quan la CNMV els doni l'autorització.",
+    "detail": "Moltes persones acumulen estalvis, comptes, inversions o plans de pensions sense una estratègia global, i l'assessorament financer personalitzat continua sent poc accessible. Aquest és el forat que vol ocupar Davant, una empresa nascuda aquest estiu a Girona, que, segons Diari de Girona, ja ha captat més de 200.000 euros abans de sortir al mercat.\n\nEls fundadors són Gerard Lozano, conseller delegat, i Martí Parnau, director tecnològic, dos extreballadors de Fundcraft que van constituir la societat al juliol. La ronda s'ha tancat en uns dos mesos i aproximadament la meitat dels diners són de capital gironí. L'aplicació permetrà connectar comptes, inversions, plans de pensions, targetes, préstecs, hipoteques i assegurances, amb una connexió només de lectura, i la IA farà les preguntes inicials, analitzarà el patrimoni i generarà un diagnòstic de la salut financera de cada usuari. La companyia diu que no desarà les credencials bancàries. El negoci serà una subscripció, amb preus publicats a la seva web de 7,99 euros al mes en el pla anual, 10,99 en el semestral i 13,99 en el trimestral.\n\nEl projecte mostra com la IA arriba als serveis financers per a persones, no només a les grans entitats. Però el condicionant és regulador: Davant encara no presta cap servei i tramita l'autorització de la CNMV per ser una empresa d'assessorament financer.\n\nPer això el desplegament es farà en dues fases: una primera versió al gener del 2027, que farà el diagnòstic però no dirà a l'usuari què ha de fer amb els diners, i les recomanacions personalitzades quan arribi l'autorització, que els fundadors situen cap al maig o juny del 2027. Són previsions de l'empresa i depenen del regulador. Una segona ronda, de la qual encara no hi ha xifra ni data, dependrà d'haver aconseguit l'autorització, d'haver llançat el producte i de comprovar que hi ha prou demanda.",
+    "source": "Diari de Girona",
+    "url": "https://www.diaridegirona.cat/economia/2026/10/12/gironins-creen-app-vol-convertir-ia-assesor-financer-135102463.html",
+    "image": "./assets/davant-girona-ia-assessor-financer-personal-20261013.jpg"
+  },
+  {
     "place": "Tarragona",
     "category": "IA I SOCIETAT",
     "date": "11.10.2026",
@@ -75,16 +86,5 @@ window.IA_RADAR = [
     "source": "Canal TE",
     "url": "https://canalte.cat/actualitat/societat/el-projecte-de-la-gigafactoria-dia-de-mora-la-nova-ja-disposa-dels-54-mw-necessaris-per-comencar-la-primera-fase/",
     "image": "./assets/gigafactoria-ia-mora-la-nova-54-mw-primera-fase-20261005.jpg"
-  },
-  {
-    "place": "Barcelona",
-    "category": "RECERCA",
-    "date": "04.10.2026",
-    "title": "Una IA de l'IDIBELL i el BSC detecta l'envelliment de les cèl·lules mare de la sang a partir d'imatges del nucli, amb un 77% d'encert en ratolí",
-    "summary": "ChromAgeNet, publicat a «Aging Cell», analitza la disposició de la cromatina en imatges tridimensionals amb una tinció barata i supera models anteriors; de moment només s'ha provat amb cèl·lules de ratolí.",
-    "detail": "Les cèl·lules mare de la sang (hematopoètiques) fabriquen durant tota la vida les cèl·lules sanguines i immunitàries. Amb l'edat perden eficàcia, i entendre com envelleixen ajudaria a estudiar malalties de la sang i a provar fàrmacs que intentin rejovenir-les. El problema és que l'envelliment no és uniforme: dues cèl·lules de la mateixa edat poden estar en estats molt diferents.\n\nUn equip de l'Institut d'Investigació Biomèdica de Bellvitge (IDIBELL), el Barcelona Supercomputing Center (BSC-CNS) i l'ISGlobal ha desenvolupat ChromAgeNet, un model d'IA que ha publicat a la revista *Aging Cell*. El treball l'han dirigit Maria Carolina Florian, professora d'investigació ICREA a l'IDIBELL, i Paula Petrone, del BSC. El model és una xarxa neuronal convolucional que analitza imatges tridimensionals de nuclis de cèl·lules mare de ratolí tenyits amb DAPI, un colorant habitual i barat, i aprèn a distingir les joves de les envellides a partir de l'organització de la cromatina, és a dir, de com s'empaqueta l'ADN dins del nucli.\n\nSegons els autors, el model classifica correctament el 77% de les cèl·lules i fa millor feina que els mètodes anteriors, que partien de característiques de la cromatina definides d'antuvi. També assenyala quins trets pesen més en la predicció: l'entropia de la cromatina, l'heterocromatina perifèrica i els condensats de cromatina. Com que només cal una tinció corrent, l'eina es pot afegir als protocols de microscòpia existents i es pot fer servir per cribar tractaments epigenètics que busquin rejovenir les cèl·lules.\n\nCal tenir present els límits: el treball només inclou cèl·lules de ratolí, i un 77% d'encert vol dir que una de cada quatre cèl·lules es classifica malament. Els mateixos investigadors recorden que l'envelliment de les cèl·lules mare és un procés heterogeni, de manera que caldrà validar l'eina amb altres models i, més endavant, amb cèl·lules humanes abans de pensar-hi en una aplicació clínica.",
-    "source": "IDIBELL",
-    "url": "https://idibell.cat/en/2026/09/artificial-intelligence-identifies-signs-of-aging-in-blood-stem-cells-through-images-of-the-nucleus/",
-    "image": "./assets/chromagenet-ia-detecta-envelliment-cellules-mare-sanguinies-idibell-bsc-20261004.jpg"
   }
 ];
