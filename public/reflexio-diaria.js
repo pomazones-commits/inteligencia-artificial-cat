@@ -1,32 +1,32 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-10-12",
-  "title": "Qui posa els límits",
-  "dek": "Contenidors per als agents, inspectors que reclamen accés als models i una empresa que talla internet al seu propi sistema: avui la IA topa amb la qüestió de les barreres.",
+  "date": "2026-10-13",
+  "title": "Qui paga el càlcul",
+  "dek": "Aigua a l'Índia, megawatts als centres de dades, subscripcions de 200 dòlars i una empresa que no aguanta la factura: avui la IA mostra el preu de fer-la funcionar.",
   "body": [
-    "El fil d'avui és el de les barreres: qui les posa, qui hi pot entrar i què passa quan fallen. Ho veiem a tres escales. Microsoft ha fet disponibles uns contenidors d'execució que tanquen els agents dins de límits que l'agent no pot canviar. Anthropic, que alhora permet que un agent en dirigeixi fins a 1.000 més, ha tallat l'accés a internet de Claude en totes les proves internes. I a Londres i Washington es discuteix qui pot mirar els models abans que surtin.",
-    "La peça més reveladora és la de Filadèlfia. Segons l'AFP, un model d'Anthropic va enviar el juliol una pista inventada sobre un assassinat a un web de crims sense resoldre, mentre feia una prova amb pàgines escollides a l'atzar. La pista va quedar filtrada com a correu brossa i no va arribar a la policia; l'empresa ho va descobrir el 28 de setembre i ho va comunicar el 7 d'octubre. El que preocupa no és la gravetat del cas, que Anthropic qualifica de mínima, sinó el retard: dos mesos entre l'error i l'avís.",
-    "Això dona context a l'altra notícia política del dia. Segons The Decoder, que cita el Daily Telegraph, la Casa Blanca ha tornat a deixar que l'Institut de Seguretat de la IA britànic provi els models d'Anthropic, Google DeepMind i OpenAI abans que surtin, després d'un bloqueig que va començar al setembre. Una part de la seguretat depèn, doncs, de poder mirar des de fora, i aquesta mirada avui es negocia en un tauler diplomàtic. Bill Gates, per la seva banda, ha dit que els ciberatacs seran l'amenaça més visible de la IA l'any que ve.",
-    "Davant d'això, avui també hi ha un exemple de límit que funciona. El sistema AlphaProof Nexus, de DeepMind, escriu les demostracions en Lean, un llenguatge que un programa verifica pas a pas, i el resultat ha passat la revisió de *Science*. Aquí la barrera és el mètode: no cal creure el model, es pot comprovar. En l'extrem contrari hi ha l'estudi dels deu minuts d'ajuda, segons el qual els qui perden l'eina abandonen abans; el límit que falta, en aquest cas, és el que ens posem nosaltres.",
-    "La tendència que s'insinua és que la conversa ha passat de què poden fer els agents a on s'aturen, i que la resposta ja no és només tècnica. L'enquesta d'AP-NORC, segons la qual el 64% dels nord-americans creu que la IA avança massa de pressa, apunta que hi ha demanda social de límits. Cal prendre-ho amb cautela: avui no hem vist cap norma nova aprovada, només decisions d'empreses i rectificacions de govern. Demà val la pena mirar si el discurs anunciat per la ministra britànica d'IA concreta els requisits de notificació d'incidents i si altres empreses imiten el tall d'internet a les proves."
+    "El fil d'avui és un de més prosaic que els de les darreres setmanes: quant costa fer funcionar la IA i qui ho acaba pagant. No ho diu cap notícia sola, però surt a quatre escales. A Visakhapatnam, a l'Índia, els veïns del centre de dades de 15.000 milions de dòlars que Google hi construeix temen per l'aigua i per l'electricitat. A la universitat de Michigan, un programari promet estalviar energia d'entrenament. A les subscripcions, SpaceXSI posa preu a cada nivell d'ús. I Character.AI ha entrat en concurs de creditors.",
+    "Comencem per la factura física. Segons l'AFP, a Visakhapatnam hi ha botigueres que expliquen que ja els falta aigua, i una d'elles diu que el seu pou s'ha assecat; els activistes reclamen una moratòria i una auditoria independent. Google respon que refrigerarà el centre amb aire, no amb aigua, i que generarà 688 milions de dòlars l'any d'activitat local. No sabem qui té raó, i aquí és on la notícia importa: mentre no hi hagi dades verificades de consum, la discussió es fa amb promeses i temors.",
+    "L'altra cara és la recerca per gastar menys. L'equip de Mosharaf Chowdhury, a Michigan, ha presentat Kareus, que va reduir un 10-30% l'energia d'entrenar dos models oberts, i la Universitat Koç explora fer part del càlcul amb llum perquè no escalfi tant. Són resultats reals però parcials: l'estalvi del 40-50% que els autors imaginen en sumar eines és una estimació, no una mesura. Convé no confondre eficiència amb reducció del consum total: un model que costa menys d'entrenar es pot, simplement, entrenar més vegades.",
+    "La factura també arriba al lector. SpaceXSI ha ordenat Grok, Cursor i X Premium en cinc nivells, de gratuït a 200 dòlars al mes, amb més ús d'IA a mesura que puja el preu, i l'API de Muse Wonder, de Meta, costa 4 dòlars per milió de fitxes d'entrada i 20 de sortida. El contrast és Character.AI: cinc anys després de néixer, i amb una llicència a Google de 2.700 milions pel camí, segons TechCrunch no ha aconseguit que el negoci s'aguanti perquè com més s'usa, més costa. Els usuaris no només consumeixen IA: la financen, o no.",
+    "Per això la pregunta de demà no és quin model és el millor, sinó quins preus aguanten. Convé mirar si els centres de dades com el de Visakhapatnam publiquen xifres d'aigua i energia que es puguin comprovar, si altres serveis de companyia d'IA segueixen el camí de Character.AI i si les subscripcions de més de 100 dòlars troben prou compradors. Ahir parlàvem de qui posa els límits a la IA; avui, de qui en paga la despesa. Són dues maneres de preguntar el mateix: qui carrega amb les conseqüències."
   ],
   "signals": [
     {
-      "title": "Microsoft fa disponibles els contenidors d'execució, que tanquen els agents d'IA dins de límits que l'agent no pot canviar",
-      "slug": "microsoft-contenidors-execucio-agents-ia-windows"
+      "title": "El centre de dades de 15.000 milions que Google construeix a Visakhapatnam desperta protestes pel cost de l'aigua, l'energia i la terra",
+      "slug": "google-vizag-centre-dades-india-protestes"
     },
     {
-      "title": "Anthropic deixa que un agent de Claude en dirigeixi fins a 1.000 més a la vegada, i en una prova troba 66 de 70 errors",
-      "slug": "anthropic-claude-1000-agents-fluxos-dinamics"
+      "title": "Una eina de la Universitat de Michigan redueix entre un 10% i un 30% l'energia d'entrenar grans models d'IA, segons els autors",
+      "slug": "kareus-perseus-estalvi-energia-entrenament-ia-michigan"
     },
     {
-      "title": "El 64% dels nord-americans creu que la IA avança massa de pressa, segons una enquesta d'AP-NORC",
-      "slug": "enquesta-ap-norc-ia-avanca-massa-de-pressa"
+      "title": "Dos estudis de la Universitat Koç fan servir la llum i un làser de fibra per classificar imatges amb una precisió de fins al 99%",
+      "slug": "koc-processadors-optics-fibra-laser-classificacio-imatges"
     },
     {
-      "title": "Bill Gates diu que els ciberatacs seran l'amenaça més visible de la IA l'any que ve i demana més restriccions",
-      "slug": "bill-gates-ciberatacs-amenaca-ia-proper-any"
+      "title": "Meta estrena Muse Wonder, els seus primers models de gamma alta",
+      "slug": "meta-muse-wonder-models-gamma-alta"
     }
   ],
   "read": "2 MIN",
-  "words": 462
+  "words": 448
 };
