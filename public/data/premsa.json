@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-13T12:13:34.281Z",
+ "actualitzat": "2026-10-13T12:23:26.665Z",
  "fonts": 29,
  "articles": [
   {
@@ -23,7 +23,9 @@
    "ambit": "estatal",
    "titol": "Más de 400 científicos denuncian la \"negligencia\" de los laboratorios de IA y exigen control internacional",
    "url": "https://www.eldiario.es/tecnologia/400-cientificos-denuncian-negligencia-laboratorios-ia-exigen-control-internacional_1_13581421.html",
-   "publicat": "2026-10-13T11:27:06.000Z"
+   "publicat": "2026-10-13T11:27:06.000Z",
+   "noticia": "cientifics-carta-negligencia-laboratoris-ia-ciberseguretat",
+   "noticiaTitol": "Més de 400 científics acusen els laboratoris d'IA de negligència en ciberseguretat i reclamen un organisme internacional"
   },
   {
    "id": "cf95d512da0d",
