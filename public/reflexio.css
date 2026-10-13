@@ -64,7 +64,7 @@
 .reflexio-byline {
   margin: 0 0 22px;
   color: #8a3a33;
-  font: 600 12px var(--mono);
+  font: 600 10px var(--mono);
   text-transform: uppercase;
   letter-spacing: .07em;
 }
@@ -74,15 +74,12 @@
 .reflexio-copy a {
   display: inline-flex;
   gap: 12px;
-  min-height: 46px;
-  align-items: center;
-  padding: 0 22px;
+  padding: 11px 14px;
   border-radius: 999px;
   color: #fff;
   background: var(--ink);
-  font: 600 15px var(--sans);
-  text-transform: none;
-  letter-spacing: 0;
+  font: 600 9px var(--mono);
+  text-transform: uppercase;
 }
 
 .reflexio-copy a.reflexio-link-secundari {
@@ -106,13 +103,12 @@
 .reflexio-senyals li { margin: 0; }
 
 .reflexio-copy .reflexio-senyals a {
-  min-height: 38px;
-  padding: 8px 14px;
+  padding: 8px 12px;
   border: 1px solid #e6ddd8;
   border-radius: 999px;
   color: #4d566d;
   background: rgba(255, 255, 255, .7);
-  font: 500 14px/1.3 var(--sans);
+  font: 500 11px/1.3 var(--sans);
   text-transform: none;
   letter-spacing: 0;
   transition: color .2s, border-color .2s;
@@ -123,7 +119,7 @@
   align-self: center;
   margin-right: 4px;
   color: var(--muted);
-  font: 600 12px var(--mono);
+  font: 600 9px var(--mono);
   text-transform: uppercase;
   letter-spacing: .07em;
 }

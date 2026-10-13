@@ -48,7 +48,7 @@
 
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = '/xarxes-peu.css?v=2026080702';
+    css.href = '/xarxes-peu.css?v=2026101302';
     document.head.appendChild(css);
 
     const fila = document.createElement('div');

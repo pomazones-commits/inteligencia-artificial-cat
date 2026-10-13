@@ -60,20 +60,8 @@
     const updatedAt = status?.generatedAt ? new Date(status.generatedAt) : now;
     document.querySelector('#edition-time').textContent = new Intl.DateTimeFormat('ca-ES', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Madrid' }).format(updatedAt);
     document.querySelector('#edition-count').textContent = `${news.length} ${news.length === 1 ? 'història' : 'històries'}`;
-    // ——— Repartiment de l'edició sense repeticions (11.10.2026) ———
-    // Amb 9 notícies o més, cada notícia surt un sol cop a la portada:
-    // el carrusel mostra la 1-4, «En moviment» la 5-8 i «El senyal d'avui» la resta.
-    // Amb menys notícies (13.10.2026; el lot de les 06:05 en porta 5) totes les
-    // d'avui van al carrusel i «En moviment» i la graella s'omplen amb l'edició
-    // anterior (api.php?action=previous), rotulada com a tal. Abans les mateixes
-    // 5 notícies sortien tres vegades. Si l'edició anterior no arriba, es torna
-    // al repartiment antic perquè cap bloc quedi buit.
-    const splitEdition = news.length >= 9;
-    const carouselNews = splitEdition ? news.slice(0, 4) : news.slice(0, Math.min(8, news.length));
-    let latestNews = splitEdition ? news.slice(4, 8) : [];
-    let gridNews = splitEdition ? news.slice(8) : [];
-    document.querySelector('#news-count').textContent = splitEdition
-      ? `${gridNews.length} ${gridNews.length === 1 ? 'història més' : 'històries més'} · de la 9 a la ${news.length}`
+    document.querySelector('#news-count').textContent = news.length >= 6
+      ? `${news.length} històries · ${Math.min(5, news.length)} imprescindibles`
       : `L'edició del dia`;
 
     // ——— Temes del dia (barra superior) ———
@@ -143,7 +131,7 @@
     const stage = document.querySelector('#carousel-stage');
     const progress = document.querySelector('#carousel-progress');
     const count = document.querySelector('#carousel-count');
-    const dailyStories = carouselNews;
+    const dailyStories = news.slice(0, Math.min(8, news.length));
 
     function renderCarousel() {
       const story = dailyStories[activeIndex];
@@ -185,8 +173,7 @@
       // Reinicia la barra de temps de la notícia activa perquè vagi sincronitzada amb el canvi.
       const activeButton = progress.children[activeIndex];
       if (activeButton) { activeButton.classList.remove('active'); void activeButton.offsetWidth; activeButton.classList.add('active'); }
-      // 9 s per notícia (11.10.2026; abans 7 s). Ha de coincidir amb l'animació de portada.css.
-      if (!reduceMotion) carouselTimer = window.setInterval(() => nextStory(1), 9000);
+      if (!reduceMotion) carouselTimer = window.setInterval(() => nextStory(1), 7000);
     }
     document.querySelector('#carousel-prev').addEventListener('click', () => { nextStory(-1); restartCarousel(); });
     document.querySelector('#carousel-next').addEventListener('click', () => { nextStory(1); restartCarousel(); });
@@ -231,24 +218,17 @@
     });
 
     // ——— Llista «En moviment» ———
-    const latestList = document.querySelector('#latest-list');
-    // La numeració continua la del carrusel (05, 06…) perquè es vegi que són notícies noves.
-    latestList.style.counterReset = `latest ${splitEdition ? 4 : 0}`;
-    // 11.10.2026: miniatura quadrada de cada notícia (la imatge es carrega quan s'hi arriba).
-    function renderLatest(items) {
-      latestList.innerHTML = items.map(story => `
-        <li${story.image ? ' class="has-thumb"' : ''}><div><time>${escapeHTML(story.category)}</time><a href="${escapeHTML(storyHref(story))}">${escapeHTML(story.title)}</a></div>${story.image ? `<a class="latest-thumb" href="${escapeHTML(storyHref(story))}" tabindex="-1" aria-hidden="true"><img src="${escapeHTML(story.image)}" alt="" loading="lazy" decoding="async"></a>` : ''}</li>
-      `).join('');
-    }
-    renderLatest(latestNews);
+    // 13.10.2026: repartiment d'abans de l'11.10 (carrusel 1-8, «En moviment» 1-5,
+    // graella amb totes). Es mantenen les miniatures d'«En moviment».
+    document.querySelector('#latest-list').innerHTML = news.slice(0, 5).map(story => `
+      <li${story.image ? ' class="has-thumb"' : ''}><div><time>${escapeHTML(story.category)}</time><a href="${escapeHTML(storyHref(story))}">${escapeHTML(story.title)}</a></div>${story.image ? `<a class="latest-thumb" href="${escapeHTML(storyHref(story))}" tabindex="-1" aria-hidden="true"><img src="${escapeHTML(story.image)}" alt="" loading="lazy" decoding="async"></a>` : ''}</li>
+    `).join('');
 
     // ——— Graella de notícies del dia ———
     const newsGrid = document.querySelector('#news-grid');
     function renderNews(items) {
-      // Les primeres targetes ocupen dues columnes fins que l'última fila de 4 queda plena.
-      const featured = Math.min(items.length, (4 - (items.length % 4)) % 4);
-      newsGrid.innerHTML = items.map((story, index) => `
-        <article class="news-card${index < featured ? ' is-featured' : ''}">
+      newsGrid.innerHTML = items.map(story => `
+        <article class="news-card">
           <a href="${escapeHTML(storyHref(story))}">
             ${story.image ? `<div class="news-card__image"${story.imageCredit ? ' style="position:relative"' : ''}><img src="${escapeHTML(story.image)}" alt="" loading="lazy">${photoCredit(story)}</div>` : ''}
             <p class="story-meta"><i></i>${escapeHTML(story.category)} · ${escapeHTML(story.read || '5 MIN')}</p>
@@ -257,45 +237,7 @@
           </a>
         </article>`).join('');
     }
-    renderNews(gridNews);
-
-    // ——— Edició curta: «En moviment» i la graella amb l'edició anterior (13.10.2026) ———
-    if (!splitEdition) {
-      const fallback = () => {
-        latestNews = news.slice(0, 5);
-        gridNews = news;
-        renderLatest(latestNews);
-        renderNews(gridNews);
-      };
-      fetch(`./api.php?action=previous&v=${stamp}`)
-        .then(response => (response.ok ? response.json() : null))
-        .then(previous => {
-          const todayKeys = new Set(news.flatMap(story => [story.slug, story.title]).filter(Boolean));
-          const items = (previous?.items || []).filter(story => story?.title && !todayKeys.has(story.slug) && !todayKeys.has(story.title));
-          if (items.length < 4 || !/^\d{2}\.\d{2}\.\d{4}$/.test(previous.date || '')) return fallback();
-          // «Ahir» si l'edició és de just el dia abans (hora de Barcelona); si no, la data.
-          const madrid = date => {
-            const p = Object.fromEntries(new Intl.DateTimeFormat('ca-ES', { timeZone: 'Europe/Madrid', day: '2-digit', month: '2-digit', year: 'numeric' })
-              .formatToParts(date).map(part => [part.type, part.value]));
-            return `${p.day}.${p.month}.${p.year}`;
-          };
-          const isYesterday = previous.date === madrid(new Date(now.getTime() - 86400000));
-          const shortDate = previous.date.slice(0, 5);
-          latestNews = items.slice(0, 4);
-          gridNews = items.slice(4, 12);
-          const panel = latestList.closest('.latest-panel');
-          const panelLabel = panel?.querySelector('.section-label span');
-          const panelLink = panel?.querySelector('.section-label a');
-          if (panelLabel) panelLabel.textContent = 'Edició anterior';
-          if (panelLink) panelLink.href = './arxiu.html';
-          document.querySelector('#latest-title').textContent = isYesterday ? 'D’ahir' : `Del ${shortDate}`;
-          document.querySelector('#news-title').textContent = isYesterday ? 'El senyal d’ahir' : `El senyal del ${shortDate}`;
-          document.querySelector('#news-count').textContent = `Mentre arriben les d’avui · edició del ${previous.date}`;
-          renderLatest(latestNews);
-          renderNews(gridNews);
-        })
-        .catch(fallback);
-    }
+    renderNews(news);
 
     // ——— Radar català ———
     // 11.10.2026: cada targeta porta miniatura. La imatge ve de radar.js; si l'entrada
@@ -518,8 +460,7 @@
     // ——— Cerca dins l'edició (depèn de renderNews) ———
     document.querySelector('#site-search').addEventListener('input', event => {
       const query = event.target.value.trim().toLocaleLowerCase('ca');
-      // Sense text de cerca es torna a la graella normal (sense les notícies de dalt).
-      const filtered = query ? news.filter(story => `${story.title} ${story.excerpt} ${story.category}`.toLocaleLowerCase('ca').includes(query)) : gridNews;
+      const filtered = news.filter(story => `${story.title} ${story.excerpt} ${story.category}`.toLocaleLowerCase('ca').includes(query));
       renderNews(filtered);
       document.querySelector('#empty-search').hidden = filtered.length > 0;
       if (query) document.querySelector('#totes').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
