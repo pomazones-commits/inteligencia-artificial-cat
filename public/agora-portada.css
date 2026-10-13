@@ -1,0 +1,130 @@
+/* ——— L'Àgora a la portada (13.10.2026) ———
+   Banda #agora, just després de «La reflexió del dia». La pinta
+   public/agora-portada.js amb les dades en directe de /agora/; amagada si
+   l'Àgora no respon. Full independent per no tocar portada.css (regla de
+   CLAUDE.md). Identitat pròpia: paper clar amb l'eix de color que va de la
+   mirada apocalíptica (corall) a la integrada (or), el mateix de l'Àgora. */
+
+.agora-band { width: var(--shell); margin: 0 auto 26px; }
+.agora-band[hidden] { display: none; }
+
+.agora-layout {
+  position: relative;
+  overflow: hidden;
+  padding: 32px 36px 34px;
+  border: 1px solid var(--line);
+  border-radius: 34px;
+  background: #fff;
+  box-shadow: 0 22px 60px rgba(17, 21, 38, .07);
+}
+.agora-layout::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 6px;
+  background: linear-gradient(90deg, #c8432e, #e0806b 28%, #9aa1bd 50%, #d9b45a 72%, #b8901f);
+}
+
+.agora-cap {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) auto;
+  gap: 18px 34px;
+  align-items: end;
+}
+.agora-cap__eti {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  margin: 0 0 12px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  color: var(--ink);
+  background: var(--paper);
+  font: 600 12px var(--mono);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.agora-cap__eti i { width: 7px; height: 7px; border-radius: 50%; background: var(--coral); box-shadow: 0 0 0 4px rgba(255, 109, 98, .2); }
+.agora-cap h2 { margin: 0; font: 500 38px/1.04 var(--serif); letter-spacing: -.035em; }
+.agora-cap > p { max-width: 520px; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.6; }
+.agora-cap b.is-apo { color: #b23a26; font-weight: 600; }
+.agora-cap b.is-int { color: #8a6a12; font-weight: 600; }
+.agora-cap__tot {
+  justify-self: start;
+  padding: 12px 18px;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--ink);
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.agora-cap__tot span { color: var(--lime); }
+.agora-cap__tot:hover { background: #262c47; }
+.agora-cap__tot:focus-visible, .agora-sala__enllac:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+
+.agora-eix {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  margin: 22px 0 0;
+  color: var(--muted);
+  font: 600 11px var(--mono);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.agora-eix i { height: 2px; border-radius: 2px; background: linear-gradient(90deg, #c8432e, #9aa1bd, #b8901f); }
+
+.agora-llista {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.agora-sala { min-width: 0; }
+.agora-sala__enllac {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  color: inherit;
+  background: var(--paper);
+  text-decoration: none;
+  transition: border-color .2s, box-shadow .2s, transform .2s;
+}
+.agora-sala__enllac:hover { border-color: #c9cfe0; box-shadow: 0 14px 34px rgba(17, 21, 38, .08); transform: translateY(-2px); }
+.agora-sala__foto { display: block; position: relative; aspect-ratio: 3 / 2; background: linear-gradient(120deg, #f3d9d2, #e6e8f1, #f1e6c6); }
+.agora-sala__foto img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.agora-sala__cos { display: flex; flex: 1; flex-direction: column; gap: 9px; padding: 16px 18px 18px; }
+.agora-sala__titol { font: 500 21px/1.15 var(--serif); letter-spacing: -.015em; }
+.agora-sala__enllac:hover .agora-sala__titol { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.agora-sala__pregunta { flex: 1; color: var(--muted); font-size: 14px; line-height: 1.5; overflow-wrap: anywhere; }
+.agora-sala__barra { display: flex; height: 8px; overflow: hidden; border-radius: 999px; background: #e6e8f1; }
+.agora-sala__barra i { display: block; height: 100%; }
+.agora-sala__barra.is-buida { background: repeating-linear-gradient(90deg, #e6e8f1 0 6px, #f1f2f7 6px 12px); }
+.agora-sala__meta { color: var(--muted); font: 500 12px var(--mono); letter-spacing: .02em; }
+.agora-sala__meta b { color: #1d7a52; font-weight: 600; }
+.agora-peu { margin: 16px 0 0; color: var(--muted); font-size: 13px; }
+
+@media (max-width: 1080px) {
+  .agora-cap { grid-template-columns: minmax(0, 1fr); align-items: start; }
+  .agora-llista { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 620px) {
+  .agora-layout { padding: 26px 18px 22px; border-radius: 24px; }
+  .agora-cap h2 { font-size: 29px; }
+  .agora-llista { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .agora-sala__enllac { flex-direction: row; }
+  .agora-sala__foto { flex: 0 0 34%; aspect-ratio: auto; min-height: 118px; }
+  .agora-sala__cos { padding: 12px 14px 14px; gap: 7px; }
+  .agora-sala__titol { font-size: 18px; }
+  .agora-sala__pregunta { font-size: 13px; }
+}
+@media (prefers-reduced-motion: reduce) { .agora-sala__enllac { transition: none; } .agora-sala__enllac:hover { transform: none; } }

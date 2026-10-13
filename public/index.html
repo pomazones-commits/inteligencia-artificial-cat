@@ -30,10 +30,12 @@
   <link rel="stylesheet" href="./cartell.css?v=2026101102">
   <link rel="stylesheet" href="./premsa.css?v=2026101102">
   <link rel="stylesheet" href="./radio-portada.css?v=2026101101">
+  <link rel="stylesheet" href="./agora-portada.css?v=2026101301">
   <script defer src="./app.js?v=2026101205"></script>
   <script defer src="./cartell.js?v=2026101102"></script>
   <script defer src="./premsa.js?v=2026101101"></script>
   <script defer src="./radio-portada.js?v=2026101101"></script>
+  <script defer src="./agora-portada.js?v=2026101301"></script>
 </head>
 <body>
   <a class="skip-link" href="#contingut">Ves al contingut</a>
@@ -174,6 +176,10 @@
         </article>
       </div>
     </section>
+
+    <!-- 13.10.2026: l'Àgora (agora-portada.js + agora-portada.css, dades en directe de
+         /agora/api/index.php?a=topics). Amagada si l'Àgora no respon. -->
+    <section class="agora-band" id="agora" hidden aria-labelledby="agora-titol"></section>
 
     <!-- 10.10.2026: ressò de premsa (premsa.js + premsa.css, dades de data/premsa.json,
          que omple el workflow premsa.yml). Amagat si no hi ha prou peces. -->
