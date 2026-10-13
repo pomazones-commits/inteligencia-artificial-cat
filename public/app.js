@@ -60,9 +60,23 @@
     const updatedAt = status?.generatedAt ? new Date(status.generatedAt) : now;
     document.querySelector('#edition-time').textContent = new Intl.DateTimeFormat('ca-ES', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Madrid' }).format(updatedAt);
     document.querySelector('#edition-count').textContent = `${news.length} ${news.length === 1 ? 'història' : 'històries'}`;
-    document.querySelector('#news-count').textContent = news.length >= 6
-      ? `${news.length} històries · ${Math.min(5, news.length)} imprescindibles`
+    // ——— Repartiment sense repeticions (13.10.2026, decisió d'en Rafael) ———
+    // Cada notícia surt un sol cop: carrusel 1-4, «En moviment» 5-8 i «El senyal
+    // d'avui» de la 9 en endavant. Amb poques notícies (lot de les 06:05) els blocs
+    // que quedin buits s'amaguen; tornen a sortir sols quan arriba el lot següent.
+    const carouselNews = news.slice(0, 4);
+    const latestNews = news.slice(4, 8);
+    const gridNews = news.slice(8);
+    document.querySelector('#news-count').textContent = gridNews.length
+      ? `${gridNews.length} ${gridNews.length === 1 ? 'història més' : 'històries més'} · de la 9 a la ${news.length}`
       : `L'edició del dia`;
+    const latestPanel = document.querySelector('.latest-panel');
+    if (latestPanel && !latestNews.length) {
+      latestPanel.hidden = true;
+      document.querySelector('#ultima-hora')?.classList.add('lead-layout--solo');
+    }
+    const newsSection = document.querySelector('#totes');
+    if (newsSection) newsSection.hidden = !gridNews.length;
 
     // ——— Temes del dia (barra superior) ———
     const interestLinks = document.querySelector('#interest-links');
@@ -131,7 +145,7 @@
     const stage = document.querySelector('#carousel-stage');
     const progress = document.querySelector('#carousel-progress');
     const count = document.querySelector('#carousel-count');
-    const dailyStories = news.slice(0, Math.min(8, news.length));
+    const dailyStories = carouselNews;
 
     function renderCarousel() {
       const story = dailyStories[activeIndex];
@@ -219,9 +233,10 @@
     });
 
     // ——— Llista «En moviment» ———
-    // 13.10.2026: repartiment d'abans de l'11.10 (carrusel 1-8, «En moviment» 1-5,
-    // graella amb totes). Es mantenen les miniatures d'«En moviment».
-    document.querySelector('#latest-list').innerHTML = news.slice(0, 5).map(story => `
+    // Notícies 5-8, numerades 05-08 perquè es vegi que continuen el carrusel.
+    const latestList = document.querySelector('#latest-list');
+    latestList.style.counterReset = 'latest 4';
+    latestList.innerHTML = latestNews.map(story => `
       <li${story.image ? ' class="has-thumb"' : ''}><div><time>${escapeHTML(story.category)}</time><a href="${escapeHTML(storyHref(story))}">${escapeHTML(story.title)}</a></div>${story.image ? `<a class="latest-thumb" href="${escapeHTML(storyHref(story))}" tabindex="-1" aria-hidden="true"><img src="${escapeHTML(story.image)}" alt="" loading="lazy" decoding="async"></a>` : ''}</li>
     `).join('');
 
@@ -238,7 +253,7 @@
           </a>
         </article>`).join('');
     }
-    renderNews(news);
+    renderNews(gridNews);
 
     // ——— Radar català ———
     // 11.10.2026: cada targeta porta miniatura. La imatge ve de radar.js; si l'entrada
@@ -461,7 +476,9 @@
     // ——— Cerca dins l'edició (depèn de renderNews) ———
     document.querySelector('#site-search').addEventListener('input', event => {
       const query = event.target.value.trim().toLocaleLowerCase('ca');
-      const filtered = news.filter(story => `${story.title} ${story.excerpt} ${story.category}`.toLocaleLowerCase('ca').includes(query));
+      // La cerca busca en totes les notícies del dia; amb el camp buit torna la graella normal.
+      const filtered = query ? news.filter(story => `${story.title} ${story.excerpt} ${story.category}`.toLocaleLowerCase('ca').includes(query)) : gridNews;
+      if (newsSection) newsSection.hidden = !query && !gridNews.length;
       renderNews(filtered);
       document.querySelector('#empty-search').hidden = filtered.length > 0;
       if (query) document.querySelector('#totes').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });

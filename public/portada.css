@@ -96,6 +96,9 @@ button { color: inherit; }
 .daily-visual figcaption small { color: rgba(255,255,255,.55); font: 500 8px var(--mono); text-transform: uppercase; letter-spacing: .04em; }
 
 .lead-layout { display: grid; grid-template-columns: minmax(0,1.82fr) minmax(310px,.78fr); gap: 18px; padding-bottom: 90px; }
+/* 13.10.2026: sense «En moviment» (poques notícies), el carrusel ocupa tota l'amplada. */
+.lead-layout.lead-layout--solo { grid-template-columns: minmax(0,1fr); }
+.latest-panel[hidden], .news-section[hidden] { display: none !important; }
 .daily-carousel { min-width: 0; }
 .carousel-stage { display: grid; min-height: 570px; }
 .hero-story { display: grid; grid-template-columns: 1.12fr .88fr; min-height: 570px; overflow: hidden; border-radius: 32px; color: #fff; background: var(--ink); box-shadow: 0 25px 75px rgba(17,21,38,.18); }
