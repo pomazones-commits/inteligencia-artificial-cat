@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-13T19:34:27.683Z",
+ "actualitzat": "2026-10-13T23:57:57.024Z",
  "fonts": 29,
  "articles": [
   {
@@ -784,17 +784,6 @@
    "titol": "De Sheinbaum a Meloni: las líderes mundiales impulsan medidas para protegerse de los ‘deepfakes’ con IA",
    "url": "https://elpais.com/tecnologia/2026-10-07/de-sheinbaum-a-meloni-las-lideres-mundiales-impulsan-medidas-para-protegerse-de-los-deepfakes-con-ia.html",
    "publicat": "2026-10-07T03:30:01.000Z"
-  },
-  {
-   "id": "afa5de6349e2",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Europa ya presume de IA: Mistral lanza un modelo de pesos abiertos de un billón de parámetros",
-   "url": "https://www.elmundo.es/tecnologia/2026/10/07/6ac57d7ee9cf4a5e0b8b4581.html",
-   "publicat": "2026-10-06T23:02:39.000Z"
   }
  ]
 }
