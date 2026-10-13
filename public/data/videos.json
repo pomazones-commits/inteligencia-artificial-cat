@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-12T20:25:55.879Z",
+ "actualitzat": "2026-10-13T04:13:49.979Z",
  "canals": 19,
  "videos": [
   {
@@ -13,7 +13,10 @@
    "idioma": "en",
    "publicat": "2026-10-12T16:58:33.000Z",
    "descripcio": "We’re excited to introduce the Muse Wonder series with Muse Wonder and Muse Wonder Full, our most capable models yet. Both are frontier models, built to deliver state-of-the-art performance for personal and professional agentic tasks. Muse Wonder is available today via the Meta Model API and Muse Co",
-   "miniatura": "/assets/videos/4ZwVP0-ylZU.jpg"
+   "miniatura": "/assets/videos/4ZwVP0-ylZU.jpg",
+   "noticia": "meta-muse-wonder-models-gamma-alta",
+   "noticiaTitol": "Meta estrena Muse Wonder, els seus primers models de gamma alta, i diu que planten cara a GPT-6 Astra i Claude Opus 5.5",
+   "resum": "Presentació oficial que el canal AI at Meta ha publicat dels models Muse Wonder i Muse Wonder Full, descrits com a models de gamma alta per a tasques d'agents personals i professionals. Està en anglès."
   },
   {
    "id": "IZXv6a78NDw",
@@ -461,18 +464,6 @@
    "publicat": "2026-09-22T23:00:10.000Z",
    "descripcio": "Learn what makes Gemma 4 12B, Google's encoder-free open source language model, unique in the Gemma 4 family. Google DeepMind’s Maarten Grootendorst explains how it processes audio and image inputs without encoders. Subscribe to Google for Developers → https://goo.gle/developers Products Mentioned: ",
    "miniatura": "/assets/videos/YDCB8Bk1OBE.jpg"
-  },
-  {
-   "id": "4oxA9o_OmWo",
-   "titol": "Understand the Gemma 4 model family",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-09-21T23:00:36.000Z",
-   "descripcio": "Learn about the Gemma 4 family of multimodal open source language models from Google. Google DeepMind’s Maarten Grootendorst walks through all five model sizes across four architectures, from the efficient E2B and E4B models with per-layer embeddings to the encoder-free 12B, the 26B mixture of exper",
-   "miniatura": "/assets/videos/4oxA9o_OmWo.jpg"
   }
  ]
 }
