@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-13T08:14:18.764Z",
+ "actualitzat": "2026-10-13T16:14:58.248Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "9PICEmtfpWU",
+   "titol": "Teaching a humanoid robot to play cornhole with Gemini 4 Argon",
+   "canal": "Google DeepMind",
+   "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "grup": "empreses",
+   "categoria": "robotica",
+   "idioma": "en",
+   "publicat": "2026-10-13T15:58:20.000Z",
+   "descripcio": "In an internal test, Google DeepMind robotics researchers instructed Gemini 4 Argon to watch a video of a human playing cornhole. Using its video understanding and advanced reasoning capabilities, Gemini 4 built a virtual simulation in MuJoCo and accurately calculated the physics and whole-body cont",
+   "miniatura": "/assets/videos/9PICEmtfpWU.jpg"
+  },
+  {
+   "id": "9jQA7IgPhBE",
+   "titol": "Untangling 500-page chemistry patents with Gemini 4",
+   "canal": "Google DeepMind",
+   "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-13T15:58:17.000Z",
+   "descripcio": "Auditing chemistry literature usually means weeks of manual, error-prone reading, where a molecule’s structure can sit 50 pages away from its experimental readout. At Isomorphic Labs, researchers Brian Bender and Santosh Adhikari are using Gemini 4 Argon’s multimodal capabilities to help tackle this",
+   "miniatura": "/assets/videos/9jQA7IgPhBE.jpg"
+  },
   {
    "id": "4ZwVP0-ylZU",
    "titol": "Introducing Muse Wonder & Muse Wonder Full: frontier models for agentic tasks",
