@@ -1,8 +1,44 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-13T16:14:58.248Z",
+ "actualitzat": "2026-10-13T18:31:29.626Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "N6K_pxaAh0w",
+   "titol": "Block on Finding and Fixing Security Risks with OpenAI",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-10-13T17:59:33.000Z",
+   "descripcio": "“Now you know and now you can take action before someone else knows.” A weakness in your code can be part of a much bigger attack. Seeing how those weaknesses connect gives defenders a clearer picture of where to act. Block’s Chief Information Security Officer, James Nettesheim, shares how OpenAI’s ",
+   "miniatura": "/assets/videos/N6K_pxaAh0w.jpg"
+  },
+  {
+   "id": "LVEfFyijQ2c",
+   "titol": "Applying Gemini 4 for large-scale codebase maintenance in Chromium",
+   "canal": "Google DeepMind",
+   "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-13T16:38:17.000Z",
+   "descripcio": "The Chromium codebase is millions of lines long and decades old. In the past, working with it has meant navigating decades of tangled features, where touching one component can unexpectedly affect another. Erik Chen, an engineer at Google, is using Gemini 4 Argon to ‘untangle’ the architecture. The ",
+   "miniatura": "/assets/videos/LVEfFyijQ2c.jpg"
+  },
+  {
+   "id": "ftkic7Tdpcg",
+   "titol": "Using Gemini 4 Argon to protect against Cyber attackers",
+   "canal": "Google DeepMind",
+   "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-10-13T16:38:14.000Z",
+   "descripcio": "In shadow A/B testing on real-world systems, Wiz security researchers put Gemini 4 Argon to the test against complex cyber threats. Using its advanced reasoning and long-horizon capabilities, Gemini 4 Argon found over two times more vulnerabilities than baseline models and successfully uncovered cri",
+   "miniatura": "/assets/videos/ftkic7Tdpcg.jpg"
+  },
   {
    "id": "9PICEmtfpWU",
    "titol": "Teaching a humanoid robot to play cornhole with Gemini 4 Argon",
