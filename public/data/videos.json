@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-14T04:14:42.943Z",
+ "actualitzat": "2026-10-14T08:13:06.259Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "G-9Y2xNiDKQ",
+   "titol": "Work with your team in ChatGPT Space",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-13T21:01:10.000Z",
+   "descripcio": "Explore a shared place to work with people and ChatGPT. See how Space brings conversations, context and collaborative work together.",
+   "miniatura": "/assets/videos/G-9Y2xNiDKQ.jpg"
+  },
+  {
+   "id": "OYp5j2RihPE",
+   "titol": "Gemini 4 Argon and Google Antigravity: From 2D concept to 3D cathedral",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-13T19:00:11.000Z",
+   "descripcio": "Watch how an autonomous AI agent takes a flat 2D concept image and reconstructs a photorealistic 3D cathedral in Blender from scratch. Tiago Aragona demonstrates how to connect Antigravity directly to Blender via the Model Context Protocol (MCP), leveraging Gemini 4 Argon across 45 iterative agentic",
+   "miniatura": "/assets/videos/OYp5j2RihPE.jpg"
+  },
   {
    "id": "N6K_pxaAh0w",
    "titol": "Block on Finding and Fixing Security Risks with OpenAI",
