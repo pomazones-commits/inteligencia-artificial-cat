@@ -1,7 +1,7 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-13T23:57:57.024Z",
- "fonts": 29,
+ "actualitzat": "2026-10-14T02:46:39.219Z",
+ "fonts": 31,
  "articles": [
   {
    "id": "5e3cb1f0f4de",
@@ -24,6 +24,17 @@
    "titol": "Microsoft presenta Maia 300: el seu xip propi d'IA per dependre menys de Nvidia",
    "url": "https://www.elnacional.cat/ca/tecnologia/microsoft-presenta-maia-300-seu-xip-propi-ia-dependre-menys-nvidia_1709239_102.html",
    "publicat": "2026-10-13T18:00:00.000Z"
+  },
+  {
+   "id": "2f1d10cbbdff",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un montañero canadiense tiene que ser rescatado después de seguir una ruta planificada con IA",
+   "url": "https://www.lavanguardia.com/vida/20261013/11658113/montanero-canadiense-rescatado-seguir-ruta-planificada-ia.html",
+   "publicat": "2026-10-13T16:45:45.000Z"
   },
   {
    "id": "b66a8e7eb671",
@@ -70,6 +81,17 @@
    "publicat": "2026-10-13T14:21:59.000Z"
   },
   {
+   "id": "5d8ae1fbaa2d",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El crecimiento de la economía mundial depende en exceso de la inversión de la IA a través de deuda, según el FMI",
+   "url": "https://www.elperiodico.com/es/economia/20261013/crecimiento-economia-mundial-depende-exceso-135287067",
+   "publicat": "2026-10-13T13:00:34.000Z"
+  },
+  {
    "id": "67dd17dcd24f",
    "mitja": "Diari de Girona",
    "font": "diaridegirona",
@@ -105,6 +127,17 @@
    "noticiaTitol": "Més de 400 científics acusen els laboratoris d'IA de negligència en ciberseguretat i reclamen un organisme internacional"
   },
   {
+   "id": "f6eb363301ed",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA impulsa el salto de gestor a asesor",
+   "url": "https://www.lavanguardia.com/dinero/20261013/11657777/ia-impulsa-salto-gestor-asesor.html",
+   "publicat": "2026-10-13T11:11:28.000Z"
+  },
+  {
    "id": "cf95d512da0d",
    "mitja": "Cinco Días",
    "font": "cincodias",
@@ -127,15 +160,37 @@
    "publicat": "2026-10-13T09:57:43.000Z"
   },
   {
+   "id": "31bd555fa9c7",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Meta presenta Muse Wonder, su inteligencia artificial más avanzada para superar a OpenAI y Anthropic",
+   "url": "https://www.lavanguardia.com/neo/ia/20261013/11657673/meta-presenta-muse-wonder-inteligencia-artificial-mas-avanzada-superar-openai-anthropic.html",
+   "publicat": "2026-10-13T09:50:01.000Z"
+  },
+  {
    "id": "79c85f15dc0c",
    "mitja": "La Vanguardia",
-   "font": "lavanguardia",
+   "font": "lavanguardia-totes",
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
    "titol": "Nuevo castigo bursátil a las acciones ligadas a la IA y los chips en Asia",
    "url": "https://www.lavanguardia.com/economia/20261013/11657607/nuevo-castigo-bursatil-acciones-ligadas-ia-asia.html",
    "publicat": "2026-10-13T09:03:22.000Z"
+  },
+  {
+   "id": "b2984d432ea9",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Gurmeet Saran, ingeniero de Anthropic: “La privacidad no puede ser una capa añadida, tiene que formar parte de la arquitectura”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261013/11657573/gurmeet-saran-ingeniero-anthropic-privacidad-capa-anadida-formar-parte-arquitectura.html",
+   "publicat": "2026-10-13T09:01:10.000Z"
   },
   {
    "id": "75f2211b93dc",
@@ -149,6 +204,28 @@
    "publicat": "2026-10-13T08:10:31.000Z"
   },
   {
+   "id": "951d0b77c402",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Hemos creado con IA una app para ayudar a los mayores y puedes probarla",
+   "url": "https://www.lavanguardia.com/vida/20261013/11654606/hemos-creado-ia-app-ayudar-mayores-puedes-probarla.html",
+   "publicat": "2026-10-13T08:04:47.000Z"
+  },
+  {
+   "id": "bcd8d34352d5",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Antonio Banderas interpretará a Hernán Cortés en una película producida con IA",
+   "url": "https://www.lavanguardia.com/cultura/20261013/11657557/antonio-banderas-interpretara-hernan-cortes-pelicula-producida-ia.html",
+   "publicat": "2026-10-13T07:36:58.000Z"
+  },
+  {
    "id": "39ead847b402",
    "mitja": "El País",
    "font": "elpais-tec",
@@ -158,6 +235,17 @@
    "titol": "¿Cuánta IA hay en los libros más vendidos? Mucha en novelas románticas de Amazon y en el superventas de Alvise Pérez",
    "url": "https://elpais.com/tecnologia/2026-10-13/alvise-perez-y-novelas-romanticas-autoeditadas-cuanta-ia-hay-en-los-libros-mas-vendidos-de-espana.html",
    "publicat": "2026-10-13T07:05:13.000Z"
+  },
+  {
+   "id": "364cb476aa66",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Antonio Banderas da un paso adelante y se alía con la IA para convertirse en Hernán Cortés",
+   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261013/antonio-banderas-da-paso-adelante-135267882",
+   "publicat": "2026-10-13T06:39:49.000Z"
   },
   {
    "id": "2817e41c28dd",
@@ -173,18 +261,18 @@
   {
    "id": "62d9b32d4d25",
    "mitja": "La Vanguardia",
-   "font": "lavanguardia",
+   "font": "lavanguardia-totes",
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "“La IA debería ayudarnos a pensar mejor, no a evitar que pensemos”",
+   "titol": "Jesús C. Guillén, astrofísico y neurocientífico: “La IA debería ayudarnos a pensar mejor, no a evitar que pensemos”",
    "url": "https://www.lavanguardia.com/vivo/tendencias/20261013/11654077/jesus-c-guillen-astrofisico-neurocientifico-ia-deberia-ayudarnos-pensar-mejor-evitar-pensemos.html",
    "publicat": "2026-10-13T04:00:00.000Z"
   },
   {
    "id": "b83db67c4834",
    "mitja": "La Vanguardia",
-   "font": "lavanguardia",
+   "font": "lavanguardia-totes",
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
@@ -195,7 +283,7 @@
   {
    "id": "1be831207f83",
    "mitja": "La Vanguardia",
-   "font": "lavanguardia",
+   "font": "lavanguardia-totes",
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
@@ -206,7 +294,7 @@
   {
    "id": "cd0163433fed",
    "mitja": "La Vanguardia",
-   "font": "lavanguardia",
+   "font": "lavanguardia-totes",
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
@@ -250,13 +338,46 @@
   {
    "id": "cfac4e933ac7",
    "mitja": "La Vanguardia",
-   "font": "lavanguardia",
+   "font": "lavanguardia-totes",
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
    "titol": "Nadella reclama que los modelos de IA dispongan de “un freno de emergencia”",
    "url": "https://www.lavanguardia.com/vida/20261012/11657233/nadella-reclama-modelos-ia-dispongan-freno-emergencia.html",
    "publicat": "2026-10-12T16:39:55.000Z"
+  },
+  {
+   "id": "0b3d2f5b6d11",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un estadounidense que superó a Taylor Swift en reproducciones gracias a la IA, condenado a 18 meses de cárcel",
+   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261012/estadounidense-supero-taylor-swift-reproducciones-135254730",
+   "publicat": "2026-10-12T15:36:23.000Z"
+  },
+  {
+   "id": "d678006e6e07",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El magnate que asesora a Trump sobre IA y guerra pide realizar ejecuciones públicas: \"Tienen que ser brutales\"",
+   "url": "https://www.elperiodico.com/es/internacional/20261012/brutales-magnate-asesora-trump-ia-guerra-ejecucion-eeuu-palmer-luckey-anduril-pentagono-musk-135253638",
+   "publicat": "2026-10-12T14:57:37.000Z"
+  },
+  {
+   "id": "9ca88d1a68b4",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Google lanza Fitbit Edge, una pulsera de salud con entrenador de Gemini y batería reemplazable",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261012/google-lanza-fitbit-edge-pulsera-135202977",
+   "publicat": "2026-10-12T12:00:15.000Z"
   },
   {
    "id": "356bcba70272",
@@ -268,6 +389,28 @@
    "titol": "El FMI confirma que la IA tira del crecimiento y puede compensar el declive demográfico",
    "url": "https://www.lavanguardia.com/internacional/20261012/11656938/fmi-confirma-ia-tira-crecimiento-compensar-declive-demografico.html",
    "publicat": "2026-10-12T11:30:03.000Z"
+  },
+  {
+   "id": "c584ab8fa32a",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Ferran Adrià (64 años) revela cómo ChatGPT le ha ayudado a hablar mejor: \"Estoy empezando a hacer un trabajo de logopeda\"",
+   "url": "https://www.elperiodico.com/es/gente/20261012/ferran-adria-serie-genesi-actor-miquel-fernandez-logopeda-habla-el-bulli-dv-et-134786628",
+   "publicat": "2026-10-12T11:12:00.000Z"
+  },
+  {
+   "id": "723707c5e251",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "“Si la inteligencia artificial llega a ser más inteligente que nosotros, seremos como un gato intentando encerrar a un humano”",
+   "url": "https://www.lavanguardia.com/clic/20261012/11653465/inteligencia-artificial-llega-mas-inteligente-seremos-gato-intentando-encerrar-humano-gvm.html",
+   "publicat": "2026-10-12T10:35:00.000Z"
   },
   {
    "id": "4a4279e52b93",
@@ -641,6 +784,17 @@
    "titol": "Francesca Bria: \"España ha liderado el enfoque social de la IA, pero eso no se puede dar por hecho\"",
    "url": "https://www.eldiario.es/tecnologia/francesca-bria-espana-liderado-enfoque-social-ia-no-dar-hecho_1_13572915.html",
    "publicat": "2026-10-08T16:59:13.000Z"
+  },
+  {
+   "id": "ed725da2fabd",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Securitize lanza acciones tokenizadas de Apple, Nvidia y otras grandes cotizadas en EE UU",
+   "url": "https://cincodias.elpais.com/criptoactivos/2026-10-08/securitize-lanza-acciones-tokenizadas-de-apple-nvidia-y-otras-grandes-cotizadas-en-ee-uu.html",
+   "publicat": "2026-10-08T16:44:51.000Z"
   },
   {
    "id": "965b786b8bff",
