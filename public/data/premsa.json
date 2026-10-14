@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-14T15:33:40.951Z",
+ "actualitzat": "2026-10-14T16:16:33.743Z",
  "fonts": 34,
  "articles": [
+  {
+   "id": "cc5c4b128b01",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Víctor López-Barrantes (NTT Data): “El mayor riesgo de la inteligencia artificial no es destruir empleo, sino quedarse sin talento”",
+   "url": "https://cincodias.elpais.com/economia/foro-creo-creando-oportunidades/2026-10-14/victor-lopez-barrantes-ntt-data-el-mayor-riesgo-de-la-inteligencia-artificial-no-es-destruir-empleo-sino-quedarse-sin-talento.html",
+   "publicat": "2026-10-14T15:34:23.000Z"
+  },
   {
    "id": "af8049a47fe0",
    "mitja": "El Nacional",
@@ -24,6 +35,17 @@
    "titol": "Nothing prepara dues ulleres intel·ligents: unes sense càmera i unes altres amb ChatGPT",
    "url": "https://www.elnacional.cat/ca/tecnologia/nothing-prepara-dues-ulleres-intelligents-sense-camera-altres-chatgpt_1709677_102.html",
    "publicat": "2026-10-14T15:30:00.000Z"
+  },
+  {
+   "id": "43dca052e1fc",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El Foro CREO, en directo | Turrado, director general de HP SCDS: “La IA es como una carrera de Fórmula 1 sin saber dónde está la meta”",
+   "url": "https://cincodias.elpais.com/economia/foro-creo-creando-oportunidades/2026-10-14/primera-jornada-del-foro-creo.html",
+   "publicat": "2026-10-14T14:25:33.000Z"
   },
   {
    "id": "7155dacb9224",
@@ -56,7 +78,9 @@
    "ambit": "catala",
    "titol": "Un projecte de la MWCapital identifica columnes de fum a Collserola amb IA",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/projecte-mwcapital-identifica-columnes-fum-collserola-ia_1709554_102.html",
-   "publicat": "2026-10-14T11:33:45.000Z"
+   "publicat": "2026-10-14T11:33:45.000Z",
+   "noticia": "mwcapital-collserola-ia-columnes-fum",
+   "noticiaTitol": "Un projecte de Mobile World Capital detecta amb IA 1.036 columnes de fum a Collserola en dos mesos i mig, i avisa en uns tres minuts"
   },
   {
    "id": "7485e3e311b3",
