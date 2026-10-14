@@ -23,6 +23,18 @@
 //   4. Si una notícia nostra cita la mateixa adreça com a font, la lliga
 //      (camp `noticia`), perquè la pàgina hi posi «La notícia a IA.cat».
 //
+// 14.10.2026 — MÉS EXHAUSTIU. En Rafael va llegir La Vanguardia i El Periódico
+// en paper i hi havia moltes més peces d'IA que les que recollíem: el RSS de
+// portada només porta una tria i les seccions d'Economia, Vida, Cultura,
+// Opinió o el suplement Dinero no hi surten. Ara una font també pot ser el
+// MAPA DE NOTÍCIES PER A GOOGLE (sitemap «news») que el diari declara al seu
+// robots.txt: hi surten TOTES les peces de les últimes 48-72 hores, amb
+// titular i data. parseFeed() el reconeix sol (blocs <url> amb <news:title>).
+// Camp opcional "salta": trossos d'adreça que no s'han de recollir (les
+// traduccions de /encatala/ de La Vanguardia, que sortirien repetides, o les
+// pàgines de compres). Si el mateix article surt en català i en castellà amb el
+// mateix número d'article (El Periódico), es queda la versió en català.
+//
 // DRETS. Mai no es desa ni es mostra el text de l'article ni la imatge: només
 // el titular, el mitjà, la data i l'enllaç (com qualsevol recull de premsa).
 //
@@ -44,7 +56,8 @@ import { pathToFileURL } from 'node:url';
 
 export const DIES_FINESTRA = 7;
 export const MAX_PECES = 250;
-export const MAX_PER_FONT_I_PASSADA = 15;
+// 14.10.2026: de 15 a 40, perquè un mapa de notícies porta tot el dia d'un diari.
+export const MAX_PER_FONT_I_PASSADA = 40;
 export const MAX_DESTACATS = 3;
 const DIA = 86400000;
 const HORA = 3600000;
@@ -63,9 +76,12 @@ const TERMES = new RegExp([
   'intel[·.\\-‧•]?lig[eè]nci(?:a|es) artificials?', 'inteligencias? artificial(es)?', 'artificial intelligence',
   'aprenentatge autom[àa]tic', 'aprendizaje autom[áa]tico', 'machine learning', 'deep learning',
   'xarxes? neuronals?', 'redes? neuronales?', 'models? de llenguatge', 'modelos? de lenguaje',
-  'xatbots?', 'chatbots?', 'deepfakes?', 'ultrafalsos?', 'algoritmes? generatius?'
+  'xatbots?', 'chatbots?', 'deepfakes?', 'ultrafalsos?', 'algoritmes? generatius?',
+  'superintel[·.\\-‧•]?lig[eè]ncia', 'superinteligencia'
 ].join('|'), 'iu');
-const MARQUES = /(^|[^\p{L}\p{N}])(ChatGPT|OpenAI|Anthropic|DeepMind|Gemini|Copilot|Claude AI|Mistral AI|Grok|Perplexity|Midjourney|Sora|Llama \d|GPT-?\d[\w.-]*)(?=$|[^\p{L}\p{N}])/u;
+// 14.10.2026: + DeepSeek, Nvidia, NotebookLM i els noms propis de Sam Altman,
+// Dario Amodei i Demis Hassabis (titulars de paper que no diuen «IA»).
+const MARQUES = /(^|[^\p{L}\p{N}])(ChatGPT|OpenAI|Anthropic|DeepMind|DeepSeek|Gemini|Copilot|Claude AI|Mistral AI|Grok|Perplexity|Midjourney|Sora|NotebookLM|Nvidia|NVIDIA|Sam Altman|Altman|Amodei|Hassabis|Llama \d|GPT-?\d[\w.-]*)(?=$|[^\p{L}\p{N}])/u;
 
 export function parlaDIA(text) {
   const t = String(text || '');
@@ -110,6 +126,22 @@ export function parseFeed(xml) {
   const blocs = [...text.matchAll(/<item(?:\s[^>]*)?>([\s\S]*?)<\/item>/gi)].map(m => ({ bloc: m[1], atom: false }));
   if (!blocs.length) {
     for (const m of text.matchAll(/<entry(?:\s[^>]*)?>([\s\S]*?)<\/entry>/gi)) blocs.push({ bloc: m[1], atom: true });
+  }
+  // 14.10.2026: mapa de notícies (sitemap «news» de Google): <url><loc>…</loc>
+  // <news:news><news:publication_date>…<news:title>…</news:news></url>.
+  if (!blocs.length) {
+    for (const m of text.matchAll(/<url(?:\s[^>]*)?>([\s\S]*?)<\/url>/gi)) {
+      if (!/<news:title[\s>]/i.test(m[1])) continue;
+      const llengua = etiqueta(m[1], 'news:language').toLowerCase().slice(0, 2);
+      entrades.push({
+        titol: etiqueta(m[1], 'news:title'),
+        url: etiqueta(m[1], 'loc'),
+        data: etiqueta(m[1], 'news:publication_date', 'lastmod'),
+        entradeta: '',
+        ...(/^[a-z]{2}$/.test(llengua) ? { llengua } : {})
+      });
+    }
+    return entrades;
   }
   for (const { bloc, atom } of blocs) {
     let url = '';
@@ -166,6 +198,7 @@ export function seleccionaEntrades(entrades, font, { ara = new Date(), dies = DI
   for (const e of entrades || []) {
     const url = urlCanonica(e.url);
     if (!url || !e.titol || exclou.has(url)) continue;
+    if ((font.salta || []).some(tros => url.includes(tros))) continue;
     let t = Date.parse(e.data);
     if (!Number.isFinite(t)) continue;
     if (t > ara.getTime() + HORA) t = ara.getTime();
@@ -176,7 +209,7 @@ export function seleccionaEntrades(entrades, font, { ara = new Date(), dies = DI
       id: idPeca(url),
       mitja: font.nom,
       font: font.id,
-      llengua: font.llengua,
+      llengua: /^[a-z]{2}$/.test(e.llengua || '') ? e.llengua : font.llengua,
       ambit: font.ambit,
       titol: e.titol.slice(0, 240),
       url,
@@ -214,16 +247,39 @@ export function fusiona(existents, nous, { ara = new Date(), dies = DIES_FINESTR
       ...pick(anterior, ['destacat', 'comentari', 'noticia', 'noticiaTitol'])
     });
   }
+  // 14.10.2026: el mateix article en català i en castellà (El Periódico el
+  // publica a elperiodico.cat i a elperiodico.com amb el mateix número al final
+  // de l'adreça). Es queda UNA peça: la catalana si n'hi ha, amb la data més
+  // antiga i el que hagi decidit la sessió editorial.
+  const perArticle = new Map();
+  const sols = [];
+  for (const p of [...perId.values()].sort(ordreAntic)) {
+    const clau = clauArticle(p);
+    if (!clau) { sols.push(p); continue; }
+    const altre = perArticle.get(clau);
+    if (!altre) { perArticle.set(clau, p); continue; }
+    const [queda, cau] = p.llengua === 'ca' && altre.llengua !== 'ca' ? [p, altre] : [altre, p];
+    perArticle.set(clau, { ...pick(cau, ['destacat', 'comentari', 'noticia', 'noticiaTitol']), ...queda, publicat: altre.publicat });
+  }
   // La mateixa peça pot sortir a dos feeds del mateix diari (portada i
   // tecnologia) amb adreces lleugerament diferents: es queda la primera vista.
   const vistos = new Set();
-  const tots = [...perId.values()].sort(ordreAntic).filter(p => {
+  const tots = [...sols, ...perArticle.values()].sort(ordreAntic).filter(p => {
     const clau = clauTitol(p.mitja, p.titol);
     if (vistos.has(clau)) return false;
     vistos.add(clau);
     return true;
   });
   return tots.sort(ordre).slice(0, MAX_PECES);
+}
+
+// Número d'article al final de l'adreça (…/slug-135289301 o …-135289301.html).
+// Només n'hi ha a les adreces que el porten així; les altres es comparen pel titular.
+export function clauArticle(p) {
+  let cami = '';
+  try { cami = new URL(p.url).pathname; } catch { return ''; }
+  const n = cami.match(/-(\d{7,})(?:\.html?)?$/)?.[1];
+  return n ? `${slugMitja(p.mitja)}|${n}` : '';
 }
 
 function ordre(a, b) {
@@ -301,7 +357,7 @@ export function validaFonts(config) {
     let ok = f && ID_FONT.test(f.id || '') && f.nom && AMBITS.has(f.ambit) && /^https:\/\//.test(f.url || '');
     if (ok && fonts.some(x => x.id === f.id)) ok = false;
     if (!ok) { errors.push(`font invàlida: ${JSON.stringify(f)}`); continue; }
-    fonts.push({ id: f.id, nom: String(f.nom), url: f.url, llengua: /^[a-z]{2}$/.test(f.llengua || '') ? f.llengua : 'ca', ambit: f.ambit, mira: MIRA.has(f.mira) ? f.mira : 'titol', ...(/^https:\/\/[^\s"'<>]+$/.test(f.icona || '') ? { icona: f.icona } : {}) });
+    fonts.push({ id: f.id, nom: String(f.nom), url: f.url, llengua: /^[a-z]{2}$/.test(f.llengua || '') ? f.llengua : 'ca', ambit: f.ambit, mira: MIRA.has(f.mira) ? f.mira : 'titol', ...(Array.isArray(f.salta) && f.salta.length ? { salta: f.salta.filter(t => typeof t === 'string' && t.length >= 3).slice(0, 12) } : {}), ...(/^https:\/\/[^\s"'<>]+$/.test(f.icona || '') ? { icona: f.icona } : {}) });
   }
   const exclou = new Set((Array.isArray(config?.exclou) ? config.exclou : []).map(urlCanonica).filter(Boolean));
   return { fonts, exclou, errors };

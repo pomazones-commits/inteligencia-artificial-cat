@@ -1132,6 +1132,53 @@ test('premsa: detecta les peces d’IA sense confondre «llama», «Claude» ni 
   }
 });
 
+test('premsa: el mapa de notícies d’un diari (sitemap «news») es llegeix sencer i salta les adreces vetades', async () => {
+  const { parseFeed, seleccionaEntrades, validaFonts } = await import(premsa);
+  const url = (cami, titol, data, llengua = 'es') => `<url><loc>https://www.diari.cat${cami}</loc><news:news><news:publication><news:name>Diari</news:name><news:language>${llengua}</news:language></news:publication><news:publication_date>${data}</news:publication_date><news:title><![CDATA[${titol}]]></news:title></news:news><image:image><image:loc>https://img.diari.cat/x.jpg</image:loc></image:image><lastmod>2026-10-09T23:00:00+02:00</lastmod></url>`;
+  const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    ${url('/vida/20261009/1/montanero-ruta-ia.html', 'Un montañero sigue una ruta planificada con IA', '2026-10-09T20:00:00+02:00')}
+    ${url('/dinero/20261009/2/gestor.html', 'Nvidia vuelve a tirar de la bolsa', '2026-10-09T19:00:00+02:00')}
+    ${url('/encatala/20261009/3/muntanyenc.html', 'Un muntanyenc segueix una ruta planificada amb IA', '2026-10-09T20:05:00+02:00', 'ca')}
+    ${url('/deportes/20261009/4/partido.html', 'El Barça gana en Vigo', '2026-10-09T18:00:00+02:00')}
+  </urlset>`;
+  const entrades = parseFeed(xml);
+  assert.equal(entrades.length, 4);
+  assert.equal(entrades[0].url, 'https://www.diari.cat/vida/20261009/1/montanero-ruta-ia.html');
+  assert.equal(entrades[2].llengua, 'ca');
+  const { fonts } = validaFonts({ fonts: [{ id: 'diari-totes', nom: 'Diari', url: 'https://www.diari.cat/sitemap-news.xml', llengua: 'es', ambit: 'catala', mira: 'titol', salta: ['/encatala/'] }] });
+  assert.deepEqual(fonts[0].salta, ['/encatala/']);
+  const triats = seleccionaEntrades(entrades, fonts[0], { ara: ARA_PREMSA });
+  assert.deepEqual(triats.map(p => p.titol), ['Un montañero sigue una ruta planificada con IA', 'Nvidia vuelve a tirar de la bolsa']);
+  assert.equal(triats[0].llengua, 'es');
+  // Un RSS normal no es confon amb un mapa de notícies.
+  assert.equal(parseFeed(rssXml([{ titol: 'La IA', url: 'https://diari.cat/a', data: ARA_PREMSA.toUTCString() }])).length, 1);
+});
+
+test('premsa: el mateix article en català i en castellà surt una sola vegada, en català', async () => {
+  const { fusiona, idPeca, clauArticle } = await import(premsa);
+  const peca = (url, llengua, publicat, extra = {}) => ({ id: idPeca(url), mitja: 'El Periódico', font: llengua === 'ca' ? 'elperiodico' : 'elperiodico-totes', llengua, ambit: 'catala', titol: llengua === 'ca' ? 'La IA a l’escola' : 'La IA en la escuela', url, publicat, ...extra });
+  const es = peca('https://www.elperiodico.com/es/sociedad/20261009/ia-escuela-135273957', 'es', '2026-10-09T18:00:00.000Z', { destacat: true, comentari: 'Una peça que val la pena per com explica el cas de les escoles.' });
+  const ca = peca('https://www.elperiodico.cat/ca/societat/20261009/ia-escola-135273957', 'ca', '2026-10-09T19:00:00.000Z');
+  assert.equal(clauArticle(es), clauArticle(ca));
+  assert.equal(clauArticle({ mitja: 'La Vanguardia', url: 'https://www.lavanguardia.com/vida/20261013/11658113/montanero.html' }), '');
+  for (const [a, b] of [[es, ca], [ca, es]]) {
+    const r = fusiona([a], [b], { ara: ARA_PREMSA });
+    assert.equal(r.length, 1);
+    assert.equal(r[0].llengua, 'ca');
+    assert.equal(r[0].url, ca.url);
+    assert.equal(r[0].publicat, es.publicat);
+    assert.equal(r[0].destacat, true);
+  }
+  // Dos articles diferents del mateix diari no es fusionen.
+  const altre = peca('https://www.elperiodico.com/es/economia/20261009/ia-banca-135270001', 'es', '2026-10-09T17:00:00.000Z');
+  assert.equal(fusiona([es], [ca, altre], { ara: ARA_PREMSA }).length, 2);
+});
+
+test('premsa: els titulars sense «IA» però amb noms inconfusibles també compten', async () => {
+  const { parlaDIA } = await import(premsa);
+  for (const t of ['Nvidia vuelve a tirar de la bolsa', 'DeepSeek presenta un nou model', 'Sam Altman visita Barcelona', 'El debat sobre la superintel·ligència']) assert.equal(parlaDIA(t), true, t);
+});
+
 test('premsa: els feeds en ISO-8859-1 (3CatInfo) es llegeixen sense «�»', async () => {
   const { descodificaFeed, fusiona } = await import(premsa);
   const titol = 'Orélien nega haver fet servir la IA en la seva novel·la, però admet plagis';
