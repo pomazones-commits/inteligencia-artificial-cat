@@ -1,8 +1,118 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-14T04:14:40.980Z",
+ "actualitzat": "2026-10-14T08:13:09.733Z",
  "fonts": 34,
  "articles": [
+  {
+   "id": "d17bb69653e6",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Puede ChatGPT diagnosticar la alopecia? Los dermatólogos alertan de los riesgos de confiar en la IA",
+   "url": "https://www.elperiodico.com/es/salud/20261014/chatgpt-diagnosticar-alopecia-dermatologos-alertan-ia-135313759",
+   "publicat": "2026-10-14T08:12:47.000Z"
+  },
+  {
+   "id": "31f3b032eacf",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El FBI detiene a un empleado de OpenAI acusado de colocar una grabadora para espiar reuniones confidenciales",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261014/espionaje-openai-fbi-detiene-empleado-grabadora-microfono-reuniones-confidenciales-secreto-chatgpt-135312519",
+   "publicat": "2026-10-14T08:01:29.000Z"
+  },
+  {
+   "id": "e56834477a85",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El nuevo Grado en IA y Robótica Aplicadas del TecnoCampus arranca con pleno de matriculaciones y lista de espera",
+   "url": "https://www.lavanguardia.com/economia/innovacion/20261014/11657981/nuevo-grado-ia-robotica-aplicadas-tecnocampus-arranca-pleno-matriculaciones-lista-espera-brl.html",
+   "publicat": "2026-10-14T08:00:00.000Z"
+  },
+  {
+   "id": "4f509ae80b73",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Rafael López, el malagueño de 25 años que triunfa con la Inteligencia Artificial en Silicon Valley: \"La clave para que la IA sea fiable es saber enseñarla\"",
+   "url": "https://www.elperiodico.com/es/sociedad/20261014/rafael-lopez-malagueno-silicon-valley-ia-wordware-san-francisco-135220939",
+   "publicat": "2026-10-14T07:59:07.000Z"
+  },
+  {
+   "id": "f28b4a04a81d",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Quan l'alcalde és IA: així governa el batlle de Tirana, empresonat per corrupció",
+   "url": "https://www.elnacional.cat/ca/internacional/quan-alcalde-es-ia-aixi-governa-batlle-tirana-empresonat-corrupcio_1709350_102.html",
+   "publicat": "2026-10-14T07:01:44.000Z"
+  },
+  {
+   "id": "4a0d1c0875fd",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Una grabadora oculta en OpenAI: el FBI detiene a un empleado por espiar reuniones confidenciales",
+   "url": "https://elpais.com/tecnologia/2026-10-14/una-grabadora-oculta-en-openai-el-fbi-detiene-a-un-empleado-acusado-de-espiar-reuniones-confidenciales.html",
+   "publicat": "2026-10-14T06:45:45.000Z"
+  },
+  {
+   "id": "d87ce60238af",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La IA, a examen entre juristas: ¿la usan a diario? ¿es una bendición o un castigo para el sector?",
+   "url": "https://cincodias.elpais.com/legal/2026-10-14/la-ia-a-examen-entre-juristas-la-usan-a-diario-es-una-bendicion-o-un-castigo-para-el-sector.html",
+   "publicat": "2026-10-14T06:31:00.000Z"
+  },
+  {
+   "id": "c3cff9b3f22a",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
+   "url": "https://www.elperiodico.com/es/economia/20261014/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135287734",
+   "publicat": "2026-10-14T05:00:18.000Z"
+  },
+  {
+   "id": "520479087191",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El ressorgiment de Nokia gràcies a la IA",
+   "url": "https://empreses.ara.cat/empreses/ressorgiment-nokia-gracies-ia_1_5877489.html",
+   "publicat": "2026-10-14T05:00:11.000Z"
+  },
+  {
+   "id": "9e27abed56a4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Adiós a los maquinistas: China presenta el primer metro conducido con IA que aprende y decide sobre la marcha",
+   "url": "https://www.lavanguardia.com/neo/ia/20261014/11657764/adios-maquinistas-china-presenta-primer-metro-conducido-ia-aprende-decide-sobre-marcha.html",
+   "publicat": "2026-10-14T05:00:00.000Z"
+  },
   {
    "id": "0e0460b09cdb",
    "mitja": "La Vanguardia",
@@ -133,7 +243,9 @@
    "ambit": "catala",
    "titol": "HomeView, Apple presenta la seva nova pantalla intel·ligent per a la llar amb molta IA i Siri AI",
    "url": "https://www.elnacional.cat/ca/tecnologia/homeview-apple-presenta-seva-nova-pantalla-intelligent-llar-arriba-molta-ia-siri-ai_1709056_102.html",
-   "publicat": "2026-10-13T13:15:00.000Z"
+   "publicat": "2026-10-13T13:15:00.000Z",
+   "noticia": "apple-homeview-pantalla-llar-299-dolars-sense-data-espanya",
+   "noticiaTitol": "Apple presenta HomeView, la seva primera pantalla per a la llar, a 299 dòlars i sense data d'arribada a Espanya ni a la resta de la UE"
   },
   {
    "id": "5d8ae1fbaa2d",
@@ -982,17 +1094,6 @@
    "titol": "Europa fa un salt de gegant en IA per competir amb els Estats Units i la Xina",
    "url": "https://www.elperiodico.cat/tecnologia/20261007/europa-fa-salt-gegant-ia-cursa-mistral-aleph-alpha-openar-anthropic-google-competicio-135086719",
    "publicat": "2026-10-07T08:32:42.000Z"
-  },
-  {
-   "id": "c95d46630367",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Google se suma al club de las IA peligrosas con Gemini 4 Argon, su modelo más avanzado",
-   "url": "https://www.elmundo.es/tecnologia/innovacion/2026/10/01/6abe9e07e9cf4a6e748b45c4.html",
-   "publicat": "2026-10-07T06:23:20.000Z"
   }
  ]
 }
