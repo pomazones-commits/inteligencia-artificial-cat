@@ -1,6 +1,8 @@
-// Fitxer MANUAL — arxiu de tribunes anteriors (la més recent primer).
-// Quan es publica una tribuna nova, l'objecte que hi havia a tribuna.js s'afegeix
-// AL DAVANT d'aquesta llista. El renderitzen arxiu-tribuna.html i tribuna.html?arxiu=N.
+// Fitxer MANUAL — arxiu de tribunes anteriors, PER DATA (la més recent primer).
+// Quan es publica una tribuna nova, l'objecte que hi havia a tribuna.js s'hi afegeix
+// al lloc que li toca per data (normalment al davant). Les veus de «Veus de CIVICAi»
+// (camp "serie": "veus-de-civicai") es publiquen DIRECTAMENT aquí, mai a tribuna.js
+// (decisió d'en Rafael del 14.10.2026). El renderitzen arxiu-tribuna.html i tribuna.html?arxiu=N.
 window.IA_TRIBUNA_ARXIU = [
   {
     "date": "08.10.2026",

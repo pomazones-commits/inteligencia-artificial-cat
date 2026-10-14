@@ -98,6 +98,33 @@ def llegeix_ia_js(path: Path) -> dict:
     return data if isinstance(data, dict) else {}
 
 
+def darrera_veu_civicai(path: Path = Path("public/tribuna-arxiu.js")) -> dict:
+    """La peça més recent de «Veus de CIVICAi» de l'arxiu de la tribuna.
+
+    Des del 14.10.2026 les veus de CIVICAi es publiquen directament a
+    tribuna-arxiu.js (mai a tribuna.js), de manera que no passen mai per la
+    tribuna vigent: aquesta funció les fa entrar a l'àudio igualment."""
+    if not path.is_file():
+        return {}
+    raw = path.read_text(encoding="utf-8")
+    m = re.search(r"^window\.IA_TRIBUNA_ARXIU\s*=\s*", raw, re.M)
+    if not m:
+        return {}
+    cos = raw[m.end():].strip().rstrip(";").strip()
+    try:
+        llista = json.loads(cos)
+    except json.JSONDecodeError:
+        return {}
+    millor = {}
+    for peca in llista if isinstance(llista, list) else []:
+        if not isinstance(peca, dict) or peca.get("serie") != "veus-de-civicai":
+            continue
+        iso = data_iso(str(peca.get("date", "")))
+        if iso and iso > data_iso(str(millor.get("date", ""))):
+            millor = peca
+    return millor
+
+
 def data_iso(valor: str) -> str:
     """Normalitza DD.MM.AAAA o AAAA-MM-DD a AAAA-MM-DD. Retorna '' si no quadra."""
     valor = (valor or "").strip()
@@ -535,9 +562,18 @@ def main() -> int:
     # 2) Peces editorials fixes (anàlisi, tribuna, imatge del dia).
     #    Mai no fan fallar el workflow: si una peça falla, la pàgina conserva
     #    el lector de veu del navegador.
-    for fitxer, prefix, camps in PECES_EXTRES:
+    # La veu de CIVICAi més recent (14.10.2026) va amb el prefix «tribuna» perquè
+    # tribuna.html busca l'MP3 per data (tribuna-AAAA-MM-DD.mp3). Si coincidís el
+    # mateix dia que la tribuna vigent, es salta (els dos MP3 es trepitjarien).
+    peces = [(fitxer, prefix, camps, None) for fitxer, prefix, camps in PECES_EXTRES]
+    veu = darrera_veu_civicai()
+    if veu and data_iso(str(veu.get("date", ""))) != data_iso(str(llegeix_ia_js(Path("public/tribuna.js")).get("date", ""))):
+        peces.append((Path("public/tribuna-arxiu.js"), "tribuna", ("title", "excerpt", "body"), veu))
+    elif veu:
+        print("AVÍS: la darrera veu de CIVICAi té la mateixa data que la tribuna vigent; no se'n fa l'àudio.")
+    for fitxer, prefix, camps, fixa in peces:
         try:
-            data = llegeix_ia_js(fitxer)
+            data = fixa if fixa is not None else llegeix_ia_js(fitxer)
             iso = data_iso(str(data.get("date", "")))
             if not data or not iso:
                 continue

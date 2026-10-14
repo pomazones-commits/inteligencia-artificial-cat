@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026101205';
+  const VERSIO_MANUAL = '2026101401';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './series.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -389,13 +389,18 @@
 
     // ——— Veus de CIVICAi (12.10.2026): banda pròpia amb la darrera peça de la sèrie ———
     // tribuna-arxiu.js (≈100 KB) i peces.js es baixen DESPRÉS de pintar la portada,
-    // per no endarrerir-la. Peça triada: la més recent amb "serie":"veus-de-civicai"
-    // que NO sigui la tribuna vigent (si ho és, la banda de la tribuna ja la mostra).
+    // per no endarrerir-la. Peça triada: la més recent PER DATA amb "serie":"veus-de-civicai"
+    // que NO sigui la tribuna vigent. Des del 14.10.2026 (decisió d'en Rafael) les veus de
+    // CIVICAi ja no ocupen mai la tribuna: es publiquen directament a tribuna-arxiu.js i
+    // surten només en aquesta banda i a /veus-de-civicai.
     const serieVeus = window.IA_SERIES && window.IA_SERIES['veus-de-civicai'];
     if (serieVeus) {
       Promise.all([loadScript('./tribuna-arxiu.js'), loadScript('./peces.js')]).then(() => {
         const llista = [window.IA_TRIBUNA].concat(window.IA_TRIBUNA_ARXIU || []);
-        const peca = llista.find((t, i) => i > 0 && t && t.title && t.serie === 'veus-de-civicai');
+        const clauData = (d) => String(d || '').split('.').reverse().join('');
+        const peca = llista
+          .filter((t, i) => i > 0 && t && t.title && t.serie === 'veus-de-civicai')
+          .reduce((millor, t) => (!millor || clauData(t.date) > clauData(millor.date) ? t : millor), null);
         if (!peca) return;
         const banda = document.querySelector('#veus-civicai');
         if (!banda) return;

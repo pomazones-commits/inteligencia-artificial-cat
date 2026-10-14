@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
+import { readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { spawnSync } from 'node:child_process';
@@ -1402,4 +1403,24 @@ test('cartells: la comanda desa la imatge, no reintenta un error de seguida i re
   dades = JSON.parse(await readFile(sortida, 'utf8')).cartells;
   assert.equal(dades['2026-10-13-shift-ai-europe'], undefined);
   await assert.rejects(readFile(join(publicDir, 'assets', 'cartells', '2026-10-13-shift-ai-europe.jpg')));
+});
+
+test('Veus de CIVICAi: mai a la tribuna vigent, arxiu per data i àudio de la darrera veu (14.10.2026)', () => {
+  const arrel = resolve(import.meta.dirname, '..', '..');
+  const valida = spawnSync(process.execPath, [join(arrel, 'scripts', 'valida-series.mjs')], { encoding: 'utf8' });
+  assert.equal(valida.status, 0, valida.stderr);
+  // La portada tria la veu més recent per data, encara que l'arxiu no vingui ordenat.
+  const app = readFileSync(join(arrel, 'public', 'app.js'), 'utf8');
+  assert.match(app, /t\.serie === 'veus-de-civicai'\)\s*\.reduce\(/);
+  // genera_audio.py fa l'àudio de la darrera veu de l'arxiu.
+  const py = spawnSync('python3', ['-c', [
+    'import importlib.util, json, sys, tempfile, pathlib',
+    `spec = importlib.util.spec_from_file_location("g", ${JSON.stringify(join(arrel, 'automation', 'scripts', 'genera_audio.py'))})`,
+    'g = importlib.util.module_from_spec(spec); spec.loader.exec_module(g)',
+    'd = pathlib.Path(tempfile.mkdtemp()) / "a.js"',
+    'd.write_text("// cap\\nwindow.IA_TRIBUNA_ARXIU = " + json.dumps([{"date":"12.10.2026","title":"T"},{"date":"08.10.2026","title":"V1","serie":"veus-de-civicai"},{"date":"14.10.2026","title":"V2","serie":"veus-de-civicai"}]) + ";\\n", encoding="utf-8")',
+    'print(g.darrera_veu_civicai(d).get("title"))',
+  ].join('\n')], { encoding: 'utf8' });
+  assert.equal(py.status, 0, py.stderr);
+  assert.equal(py.stdout.trim(), 'V2');
 });

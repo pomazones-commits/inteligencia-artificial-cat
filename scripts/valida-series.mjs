@@ -8,7 +8,9 @@
 //      en silenci i la pàgina de la sèrie deixaria de funcionar);
 //   2. que cada sèrie té els camps que fan servir series.js i veus-de-civicai.php;
 //   3. que el logo existeix a public/;
-//   4. que cada peça amb "serie" apunta a una sèrie que existeix.
+//   4. que cada peça amb "serie" apunta a una sèrie que existeix;
+//   5. que cap veu de CIVICAi no és la tribuna ni l'estudi vigents (14.10.2026);
+//   6. que tribuna-arxiu.js va per data, de la més recent a la més antiga.
 import { readFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -59,6 +61,25 @@ for (const p of peces) {
   if (p.serie === undefined) continue;
   enSerie++;
   if (!series || !series[p.serie]) errors.push(`«${p.title}»: la sèrie «${p.serie}» no existeix a series.js`);
+}
+
+// 5. Des del 14.10.2026 (decisió d'en Rafael), les veus de CIVICAi no ocupen mai la
+//    tribuna ni l'estudi vigents: es publiquen directament a tribuna-arxiu.js (o
+//    estudis-arxiu.js) i surten a la banda #veus-civicai i a /veus-de-civicai.
+for (const [nom, p] of [['tribuna.js', w.IA_TRIBUNA], ['estudis.js', w.IA_ESTUDI]]) {
+  if (p && p.serie === 'veus-de-civicai') {
+    errors.push(`${nom}: «${p.title}» és de «Veus de CIVICAi» i no pot ser la peça vigent; va a l'arxiu (al davant, per data)`);
+  }
+}
+
+// 6. L'arxiu de la tribuna ha d'anar per data, de la més recent a la més antiga
+//    (la banda de la portada i l'arxiu ho suposen).
+const clauData = (d) => String(d || '').split('.').reverse().join('');
+const arxiu = w.IA_TRIBUNA_ARXIU || [];
+for (let i = 1; i < arxiu.length; i++) {
+  if (clauData(arxiu[i].date) > clauData(arxiu[i - 1].date)) {
+    errors.push(`tribuna-arxiu.js: «${arxiu[i].title}» (${arxiu[i].date}) és més recent que la peça que té al davant (${arxiu[i - 1].date})`);
+  }
 }
 
 if (errors.length) {
