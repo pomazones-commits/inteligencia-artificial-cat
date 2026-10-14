@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-14T02:51:40.876Z",
+ "actualitzat": "2026-10-14T04:14:40.980Z",
  "fonts": 34,
  "articles": [
+  {
+   "id": "0e0460b09cdb",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA al servicio de la propaganda en Irán: ¿se puede sustituir a un jefe de Estado?",
+   "url": "https://www.lavanguardia.com/internacional/20261014/11657936/ia-servicio-propaganda-iran-sustituir-jefe.html",
+   "publicat": "2026-10-14T04:00:00.000Z"
+  },
+  {
+   "id": "ce78ce7a96dc",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-tec",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La ofensiva matemática de la IA lleva la ciencia a un territorio inexplorado",
+   "url": "https://www.lavanguardia.com/tecnologia/20261014/11657790/ia-inteligencia-artificial-ciencia-matematicas-openai.html",
+   "publicat": "2026-10-14T04:00:00.000Z"
+  },
+  {
+   "id": "d2f36a81060b",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿La IA nos vuelve idiotas?",
+   "url": "https://www.lavanguardia.com/vida/20261014/11658120/ia-vuelve-idiotas.html",
+   "publicat": "2026-10-14T04:00:00.000Z"
+  },
+  {
+   "id": "5dde781a4b05",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las claves: después de las plagas y el apocalipsis, llega la serpiente de la IA",
+   "url": "https://cincodias.elpais.com/opinion/2026-10-14/las-claves-despues-de-las-plagas-y-el-apocalipsis-llega-la-serpiente-de-la-ia.html",
+   "publicat": "2026-10-14T03:40:00.000Z"
+  },
+  {
+   "id": "452fdbedb3a5",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El gran sobresalto de la IA",
+   "url": "https://elpais.com/economia/2026-10-14/el-gran-sobresalto-de-la-ia.html",
+   "publicat": "2026-10-14T03:30:01.000Z"
+  },
   {
    "id": "5e3cb1f0f4de",
    "mitja": "3CatInfo",
@@ -38,9 +93,9 @@
   },
   {
    "id": "f50c74ad88a8",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
    "llengua": "es",
    "ambit": "estatal",
    "titol": "Así es HomeView, la última pantalla inteligente de Apple para controlar los hogares con su nueva IA",
@@ -938,39 +993,6 @@
    "titol": "Google se suma al club de las IA peligrosas con Gemini 4 Argon, su modelo más avanzado",
    "url": "https://www.elmundo.es/tecnologia/innovacion/2026/10/01/6abe9e07e9cf4a6e748b45c4.html",
    "publicat": "2026-10-07T06:23:20.000Z"
-  },
-  {
-   "id": "023e52b229f5",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Andrés López: “El repte no és consultar la IA, sinó incorporar-la amb criteri”",
-   "url": "https://www.diariandorra.ad/la-contra/261007/andres-lopez-repte-consultar-ia-incorporar-amb-criteri_205925.html",
-   "publicat": "2026-10-07T04:01:31.000Z"
-  },
-  {
-   "id": "ae3e877affcd",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-tec",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "No estás enviando un correo electrónico, estás entrenando una IA",
-   "url": "https://www.lavanguardia.com/tecnologia/20261007/11652316/ia-inteligencia-artificial-datos-big-data-email.html",
-   "publicat": "2026-10-07T04:00:00.000Z"
-  },
-  {
-   "id": "bb96818158a9",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "De Sheinbaum a Meloni: las líderes mundiales impulsan medidas para protegerse de los ‘deepfakes’ con IA",
-   "url": "https://elpais.com/tecnologia/2026-10-07/de-sheinbaum-a-meloni-las-lideres-mundiales-impulsan-medidas-para-protegerse-de-los-deepfakes-con-ia.html",
-   "publicat": "2026-10-07T03:30:01.000Z"
   }
  ]
 }
