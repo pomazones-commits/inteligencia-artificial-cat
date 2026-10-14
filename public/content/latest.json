@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-13T16:14:23.466Z",
+  "updatedAt": "2026-10-14T04:14:08.380Z",
   "items": [
     {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Character.AI entra en concurs de creditors als Estats Units i Disney n'ofereix 20 milions per alguns actius",
-      "excerpt": "L'empresa de xatbots amb personatges d'IA ha demanat el capítol 11 i seguirà funcionant mentre busca comprador; si no n'hi ha cap de viable, tancarà la plataforma."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "American Express crea un sistema perquè un agent d'IA no pugui comprar res que el client no hagi aprovat",
-      "excerpt": "El marc «Intent Intelligence» desa què ha demanat l'usuari abans de pagar i bloqueja la compra si l'agent s'aparta de l'encàrrec; Amex vol que esdevingui un estàndard del sector."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "SpaceXSI agrupa X Premium, Grok i Cursor en una sola subscripció amb cinc nivells, de gratuït a 200 dòlars al mes",
-      "excerpt": "La nova «The X Subscription» ofereix Free, Plus (8 $), Premium (30 $), Super (100 $) i Ultra (200 $), amb més ús d'IA a mesura que puja el nivell."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una xarxa neuronal òptica identifica 81 estructures de llum després d'aprendre'n només 15",
-      "excerpt": "Investigadors de la Universitat del Witwatersrand publiquen a «Nature Communications» un sistema que llegeix la forma de la llum sense fer-ne una imatge, un pas cap a comunicacions òptiques més ràpides."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA de 0,13 MB prediu crisis d'epilèpsia amb un 88,5% de sensibilitat si coneix el pacient, però només un 61% si no",
-      "excerpt": "Un equip d'investigadors fa que un algorisme cerqui sol l'arquitectura més lleugera per llegir electroencefalogrames; el resultat és molt bo per a cada pacient, i bastant pitjor amb pacients nous."
-    },
-    {
       "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Més de 400 científics acusen els laboratoris d'IA de negligència en ciberseguretat i reclamen un organisme internacional",
-      "excerpt": "Investigadors d'IA i de ciberseguretat de 30 països demanen desconnectar d'internet els models capaços de fer ciberatacs i obligar a comunicar els incidents."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "El centre de dades de 15.000 milions que Google construeix a Visakhapatnam desperta protestes pel cost de l'aigua, l'energia i la terra",
-      "excerpt": "Veïns, pagesos i activistes demanen una moratòria i una auditoria independent de l'aigua; Google diu que farà servir refrigeració per aire."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Vint-i-sis investigadors proposen aturar deu anys l'entrenament de les IA més avançades amb xips que només serveixin per fer-les funcionar",
-      "excerpt": "Un informe de 200 pàgines defensa que una pausa mundial verificada és tècnicament viable si es controla la fabricació de xips."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Després de deu minuts amb l'ajuda d'una IA, els participants s'esforcen menys i abandonen abans quan els la treuen, segons tres assaigs amb 1.222 persones",
-      "excerpt": "Investigadors de Carnegie Mellon, Berkeley, Oxford i altres centres veuen caure l'exactitud i la constància dels participants quan se'ls retira l'assistent."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Dos estudis de la Universitat Koç fan servir la llum i un làser de fibra per classificar imatges amb una precisió de fins al 99%",
-      "excerpt": "Una xarxa neuronal fotònica passa del 68% al 98% de precisió en lesions de pell, i un làser de fibra obté entre el 85% i el 99% en quatre conjunts d'imatges."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "La Força Aèria dels EUA compra a WindBorne fins a 49 milions de dòlars en dades de globus meteorològics",
-      "excerpt": "L'empresa californiana alimenta amb les seves mesures un model d'IA de predicció del temps. El contracte, sense concurs públic, és el més gran que ha tingut amb el Govern: de moment, l'Aviació n'ha encarregat per 1,7 milions."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Google presenta Fitbit Edge, una polsera de 179,99 dòlars amb pantalla i un entrenador de salut amb Gemini",
-      "excerpt": "L'entrenador de salut amb IA només funciona amb una subscripció a Google Health Premium. Les reserves ja són obertes i la polsera arribarà a les botigues el 27 d'octubre."
-    },
-    {
-      "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Una eina de la Universitat de Michigan redueix entre un 10% i un 30% l'energia d'entrenar grans models d'IA, segons els autors",
-      "excerpt": "Kareus, presentada al congrés OSDI '26, se suma a Perseus, que ja n'estalviava fins a un 30%. Els autors creuen que junts s'acostarien al 40-50%, però és una estimació, no una mesura."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Ultrahuman i Abu Dhabi desenvolupen un model d'IA que calcula l'edat biològica amb dades de dispositius i anàlisis",
-      "excerpt": "L'acord de dos anys és de recerca i validació clínica: encara no hi ha calendari de desplegament ni proves que el model sigui exacte."
+      "title": "Anthropic adverteix que uns models d'IA petits podrien copiar-se sols d'un aparell connectat a un altre d'aquí a pocs mesos",
+      "excerpt": "Un equip de l'empresa ha provat que alguns models oberts poden instal·lar-se en una xarxa d'aparells sense cap centre de dades; el risc, diuen, és real però lent i encara depèn d'una fallada de seguretat molt bàsica."
     },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Una empresa emergent diu que genera en minuts plànols d'arquitectura llestos per demanar la llicència d'obres",
-      "excerpt": "Blueprints AI, finalista de la Startup Battlefield 200 de TechCrunch, parteix d'un croquis en 2D o d'un PDF. Un professional amb llicència ha de revisar i signar els documents abans de presentar-los."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Meta estrena Muse Wonder, els seus primers models de gamma alta, i diu que planten cara a GPT-6 Astra i Claude Opus 5.5",
-      "excerpt": "Els Muse Wonder i Muse Wonder Full ja estan disponibles per als subscriptors de Muse Code, i el primer també per l'API de Meta. Les comparacions amb els rivals són de proves internes de la mateixa empresa."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una nit de son enregistrada a la clínica permet a una IA calcular el risc futur de demència, infart o mort, segons dos estudis",
-      "excerpt": "Dos models d'IA entrenats amb enregistraments clínics del son, publicats a Nature Medicine i a Nature Communications, treuen del son informació sobre la salut que les mesures habituals no capten."
+      "title": "Un jutge obliga OpenAI a lliurar a Apple documents de les entrevistes a antics empleats de la companyia, en el cas per secrets comercials",
+      "excerpt": "El magistrat accepta només una part del que demanava Apple: material de les entrevistes, missatges privats i tres declaracions, amb terminis de cinc i catorze dies."
     },
     {
       "category": "SOCIETAT",
       "read": "4 MIN",
-      "title": "Nikon descalifica el vídeo guanyador d'un concurs de microscòpia perquè s'hi va fer servir IA",
-      "excerpt": "El primer premi del Small World in Motion mostrava el moviment de les cilis dels pulmons. Uns científics van advertir que alguns detalls semblaven poc plausibles, i l'autor va explicar que havia fet servir un model d'IA en el postprocessament."
+      "title": "Una baronessa amb atròfia muscular espinal parla a la Cambra dels Lords amb una còpia de la seva veu d'abans de la malaltia, feta amb IA",
+      "excerpt": "Jane Campbell, de 67 anys, és la primera persona que fa un discurs al Parlament britànic amb una veu generada per intel·ligència artificial; el comitè de procediment de la cambra ho va aprovar."
     },
     {
-      "category": "REGULACIÓ",
+      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "El president de Microsoft reclama regles mundials per a la IA i diu que el Regne Unit és qui millor les pot liderar",
-      "excerpt": "Brad Smith defensa que l'autoregulació voluntària només l'acaten les empreses responsables i proposa que els laboratoris obtinguin l'aval d'avaluadors externs abans de llançar un producte."
+      "title": "Google Play deixa que els usuaris d'Android facin servir aplicacions pròpies creades amb IA sense haver-les de publicar a la botiga",
+      "excerpt": "Es creen descrivint l'aplicació amb paraules a Google AI Studio i només les pot fer servir qui les ha fetes; de moment, només als Estats Units i per a majors de 18 anys."
     },
     {
-      "category": "EMPRESES",
+      "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Dos gironins aixequen 200.000 euros per crear Davant, una aplicació d'IA que vol fer d'assessor financer personal",
-      "excerpt": "Gerard Lozano i Martí Parnau, que van constituir l'empresa al juliol, preveuen una primera versió el gener del 2027, i les recomanacions personalitzades només quan la CNMV els doni l'autorització."
+      "title": "Un nou detector de textos d'IA es fixa en les idees i no en les paraules, però el treball és una prepublicació que encara no ha revisat ningú",
+      "excerpt": "IdeaLens, de la Universitat de Maryland i col·laboradors, reconeix el 91% dels documents escrits per IA, però falla quan les idees són humanes i l'estil el posa una màquina."
     }
   ]
 }
