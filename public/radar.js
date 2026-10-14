@@ -1,5 +1,16 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "14.10.2026",
+    "title": "Un projecte de Mobile World Capital detecta amb IA 1.036 columnes de fum a Collserola en dos mesos i mig, i avisa en uns tres minuts",
+    "summary": "El sistema analitza les imatges de les càmeres de les torres de guaita i redueix un 86% les alertes irrellevants. Un tècnic del parc confirma cada avís.",
+    "detail": "La serra de Collserola, amb milions de persones a prop, és una zona on detectar aviat un incendi pot decidir si queda en un ensurt. Per això un projecte pilot guanyador del Barcelona Horizon Award, que promouen Mobile World Capital, el Consorci del Parc Natural de Collserola i l'Àrea Metropolitana de Barcelona, hi ha provat un sistema de detecció amb IA.\n\nSegons les xifres que dona El Nacional, entre l'1 de juliol i el 17 de setembre el sistema va identificar 1.036 columnes de fum a Collserola i el seu entorn. Analitza les imatges de les càmeres de les torres de guaita, busca patrons de fum i fa una segona comprovació abans d'enviar l'avís. De la detecció a l'alerta passen, de mitjana, uns tres minuts, i el personal del parc confirma cada alerta visualment abans que s'avisi l'equip.\n\nEl projecte també combina les imatges amb dades de satèl·lit, el perímetre del parc i el temps per identificar les zones de més risc i preveure com podria avançar un foc. Durant el període inicial d'ajust, les alertes irrellevants van baixar un 86%, de 207 a 30 per setmana. El sistema l'ha desenvolupat una empresa del Brasil.\n\nConvé matisar que les xifres són del projecte pilot i no hi consta cap avaluació independent. Moltes columnes de fum corresponen a focs urbans, cremes controlades o llocs fora del parc, de manera que el recompte no equival a incendis forestals evitats. L'article no explica quants falsos negatius hi ha hagut ni quin cost té estendre el sistema.",
+    "source": "El Nacional",
+    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/projecte-mwcapital-identifica-columnes-fum-collserola-ia_1709554_102.html",
+    "image": "./assets/mwcapital-collserola-ia-columnes-fum-20261014.jpg"
+  },
+  {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "14.10.2026",
@@ -74,16 +85,5 @@ window.IA_RADAR = [
     "source": "Ara",
     "url": "https://www.ara.cat/economia/tecnologia/factorial-completa-salt-ia-nou-agent-personal_1_5872367.html",
     "image": "./assets/factorial-one-agent-ia-empreses-17000-clients-20261010.jpg"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "10.10.2026",
-    "title": "El Banc d'Espanya diu que la IA afecta tota la cadena de valor de la banca i vol reforçar a Barcelona el seu laboratori d'experimentació",
-    "summary": "Ignasi Belda, director del departament que explora tecnologies noves a l'entitat, defensa el reglament europeu i alerta de la «IA a l'ombra» dels empleats.",
-    "detail": "Els bancs i els supervisors porten temps provant la IA, però poques vegades expliquen com la fan servir. Aquest divendres, Ignasi Belda, director del departament d'Experimentació i Laboratori de Tecnologies Aplicades (Delta) del Banc d'Espanya, ho va fer en un esmorzar de l'organització de directius CEDE a la seu de Foment del Treball, a Barcelona, segons l'Ara.\n\nBelda va assegurar que la IA afecta tota la cadena de valor bancària amb un impacte «brutal» i que totes les entitats l'adopten, des de la gestió del personal fins a processos de negoci com el crèdit, el risc o la política monetària. Va citar BBVA, CaixaBank i Banc Sabadell entre els bancs que l'han reforçat recentment. El benefici principal és l'eficiència, sobretot en productivitat i anàlisi: per exemple, permet rastrejar la premsa local per saber què es diu d'una empresa o preparar documentació per al governador, José Luis Escrivá, abans dels debats de tipus d'interès a Frankfurt.\n\nEl departament que dirigeix, a Barcelona, vol créixer amb matemàtics, enginyers i especialistes en dades massives, i redistribuir tasques perquè la IA hi «afegeixi el màxim valor». Belda també va defensar el reglament europeu d'IA davant de les crítiques, contraposant-lo a les unes 600 normes que, va dir, hi ha als Estats Units, i va assegurar que el Banc d'Espanya té sistemes «molt estrictes» per evitar-ne usos indeguts i vigila la «IA a l'ombra», és a dir, els empleats que fan servir tecnologia sense supervisió de l'empresa.\n\nEs tracta de les declaracions d'un directiu de l'entitat en un acte públic, no d'un informe amb dades: l'article no dona xifres de projectes, de personal ni de resultats, de manera que el balanç real de la IA al Banc d'Espanya continua sense quantificar.",
-    "source": "Ara",
-    "url": "https://www.ara.cat/economia/banca/ignasi-belda-banc-d-espanya-ia-impacta-tota-cadena-banca_1_5874280.html",
-    "image": "./assets/banc-d-espanya-belda-ia-impacta-tota-cadena-banca-20261010.jpg"
   }
 ];
