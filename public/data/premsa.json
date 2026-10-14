@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-14T20:21:13.492Z",
+ "actualitzat": "2026-10-14T23:29:38.755Z",
  "fonts": 34,
  "articles": [
   {
@@ -1419,17 +1419,6 @@
    "titol": "Alquila a un humano: el futuro en el que las IA contratan personas para hacer trabajos físicos ya está aquí",
    "url": "https://elpais.com/tecnologia/2026-10-08/alquila-a-un-humano-el-futuro-en-el-que-las-ia-contratan-personas-para-hacer-trabajos-fisicos-ya-esta-aqui.html",
    "publicat": "2026-10-08T03:30:01.000Z"
-  },
-  {
-   "id": "80f91fff43ae",
-   "mitja": "dBalears",
-   "font": "dbalears",
-   "icona": "/assets/premsa/dbalears.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Els mitjans de comunicació debaten sobre la IA aquest dijous a Palma",
-   "url": "https://www.dbalears.cat/balears/balears/2026/10/08/423155/els-mitjans-comunicacio-debaten-sobre-aquest-dijous-palma.html",
-   "publicat": "2026-10-07T22:39:00.000Z"
   }
  ]
 }
