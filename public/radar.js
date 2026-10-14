@@ -1,5 +1,15 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "14.10.2026",
+    "title": "ACTUALITZACIÓ: El BBVA, primer banc europeu a unir-se a Poppy, el protocol de Sierra i Meta perquè els agents d'IA parlin amb les empreses",
+    "summary": "El projecte ja té 35 socis de disseny i vol que un agent pugui identificar-se, mostrar els permisos de l'usuari i connectar-se als serveis d'una empresa.",
+    "detail": "El 7 d'octubre es va informar que Sierra i Meta proposaven un estàndard obert perquè els agents d'IA personals puguin identificar-se davant les empreses. La novetat és que ara hi entra un banc espanyol.\n\nSegons El Nacional, el BBVA s'ha afegit a la iniciativa Personal Agent Protocol, anomenada Poppy, i és el primer banc europeu que ho fa. Poppy té 35 socis de disseny, entre empreses tecnològiques, financeres i de comerç electrònic. L'objectiu és que un agent faci tasques per a l'usuari amb la seva autorització i el seu control: el protocol identifica l'agent, desa els permisos que li dona l'usuari i li permet comunicar-se amb els serveis de l'empresa, ja sigui navegant per la web, per API o amb altres agents. Es basa en estàndards ja existents (OAuth, HTTPS, OpenAPI i MCP), de manera que les empreses poden aprofitar la infraestructura que tenen.\n\nDavid Puente, responsable de Solucions per a Clients Particulars del BBVA, diu que «la seguretat ha d'estar en el centre de les interaccions entre agents d'IA i serveis digitals» i que la participació del banc ha d'ajudar a definir nous models d'interacció i a explorar-ne l'ús en futurs serveis financers.\n\nDe moment és una adhesió a un projecte de disseny d'un protocol, no un servei en marxa: l'article no diu quan els clients del BBVA podran usar agents amb aquest sistema ni quins serveis concrets hi sortiran.",
+    "source": "El Nacional",
+    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/bbva-uneix-sierra-ai-meta-connectar-agents-ia-empreses_1709002_102.html"
+  },
+  {
     "place": "Girona",
     "category": "IA I SOCIETAT",
     "date": "13.10.2026",
@@ -75,16 +85,5 @@ window.IA_RADAR = [
     "source": "Barcelona Supercomputing Center",
     "url": "https://www.bsc.es/ca/noticies/noticies-del-bsc/investigadors-del-bsc-empren-agents-dia-crear-prototips-de-bessons-digitals-de-tumors-en-minuts",
     "image": "./assets/bsc-agents-ia-bessons-digitals-tumors-npj-mcp-20261008.jpg"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "05.10.2026",
-    "title": "La gigafactoria d'IA de Móra la Nova ja té els 54 MW per a la primera fase i assegura que gairebé no consumirà aigua",
-    "summary": "L'alcalde, Jesús Álvarez, explica que la segona fase encara necessita dues línies elèctriques des de la subestació d'Aubals i que el projecte s'ha de presentar a la Comissió Europea abans del 12 de novembre.",
-    "detail": "El projecte de gigafactoria d'intel·ligència artificial de Móra la Nova (Ribera d'Ebre) ja disposa dels 54 MW de potència elèctrica que calen per començar la primera fase, segons ha explicat l'alcalde del municipi, Jesús Álvarez, a Canal TE. El consorci que opta a acollir-la ha de presentar la candidatura a la Comissió Europea abans del 12 de novembre de 2026.\n\n«Tenim 54 per a la fase 1, que és el que cal per començar a funcionar», va dir l'alcalde, que va precisar que les garanties d'energia de la primera fase estan cobertes, però que la segona encara depèn de projectes. Aquesta fase requereix tirar dues línies, una principal i una de reserva, des de la subestació d'Aubals fins a Móra la Nova, per arribar a uns 75 MW addicionals. L'ampliació d'Aubals ja estava prevista per al 2030, abans de plantejar-se la gigafactoria.\n\nPel que fa a l'aigua, Álvarez assegura que el consum serà «pràcticament nul». La instal·lació s'ubicarà al polígon del Molló, una zona industrial ja urbanitzada fa uns 25 anys i amb la captació d'aigua existent, i farà servir un sistema de refrigeració líquida en circuit tancat que evita l'evaporació.\n\nSón dades que ofereix l'alcalde del municipi que acull el projecte i, per tant, cal llegir-les com a declaracions i no com a xifres verificades en un tràmit. El projecte encara no ha estat seleccionat per Brussel·les: l'avaluació de la candidatura i la decisió final són pendents.",
-    "source": "Canal TE",
-    "url": "https://canalte.cat/actualitat/societat/el-projecte-de-la-gigafactoria-dia-de-mora-la-nova-ja-disposa-dels-54-mw-necessaris-per-comencar-la-primera-fase/",
-    "image": "./assets/gigafactoria-ia-mora-la-nova-54-mw-primera-fase-20261005.jpg"
   }
 ];

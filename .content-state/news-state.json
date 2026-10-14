@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-10-14",
-  "updatedAt": "2026-10-14T04:14:08.380Z",
-  "batches": 1,
+  "updatedAt": "2026-10-14T08:12:31.225Z",
+  "batches": 2,
   "target": 20,
   "items": [
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "apple-homeview-pantalla-llar-299-dolars-sense-data-espanya",
+      "title": "Apple presenta HomeView, la seva primera pantalla per a la llar, a 299 dòlars i sense data d'arribada a Espanya ni a la resta de la UE",
+      "excerpt": "El dispositiu, amb pantalla de set polzades i reconeixement de cada membre de la família, es reserva ja als Estats Units i a cinc països més i arribarà a les botigues el 13 de novembre.",
+      "sourceName": "El Nacional",
+      "sourceUrl": "https://www.elnacional.cat/ca/tecnologia/homeview-apple-presenta-seva-nova-pantalla-intelligent-llar-arriba-molta-ia-siri-ai_1709056_102.html",
+      "sourceDate": "13 d'octubre de 2026",
+      "body": "Apple no havia fet mai una pantalla pensada per a la sala d'estar o la cuina: fins ara els seus aparells domèstics eren altaveus com el HomePod o caixes connectades al televisor. Amb HomeView, presentat aquest dimarts, l'empresa entra en un terreny on Amazon i Google fa anys que venen pantalles amb assistent de veu.\n\nSegons la crònica d'El Nacional, HomeView té una pantalla Liquid Retina de set polzades i un disseny que recorda l'iMac G4. Se'n faran dues versions amb la mateixa pantalla i les mateixes funcions: una de sobretaula i una de paret, aquesta en gris espacial o plata i amb suports de Schneider Home que es poden instal·lar un mateix o amb un professional. Costen 299 dòlars als Estats Units. Es poden reservar als Estats Units, al Regne Unit, al Canadà, a Austràlia, a Nova Zelanda i a l'Índia; a Singapur les reserves comencen el 15 d'octubre, i les primeres unitats s'enviaran el 13 de novembre. El dispositiu reconeix cada membre de la família per mostrar-li els missatges, el calendari, els recordatoris i l'app Buscar sense configurar res cada vegada, i admet ordres de veu, trucades de FaceTime, música i el control dels accessoris compatibles de la llar. Apple assegura que cada persona només hi accedeix al seu contingut.\n\nPer al lector d'aquí, la notícia és sobretot el que no hi és: HomeView no es posarà a la venda a Espanya ni a la resta de la UE de moment. Apple atribueix l'absència al fet que la nova Siri amb IA encara no funciona a l'iOS europeu i diu que treballa per trobar-hi una solució, però no ha donat cap data ni cap preu en euros.\n\nConvé llegir-ho amb cautela: les dades surten d'una crònica de la presentació i no de la nota oficial d'Apple, i la peça no precisa fins a quin punt HomeView depèn de la nova Siri amb IA. Tampoc no hi ha proves independents de com funciona el reconeixement de membres de la família ni de com es tracten aquestes dades, un punt que a Europa tindrà força pes quan arribi.",
+      "image": "./assets/apple-homeview-pantalla-llar-siri-ai-no-ue-20261014.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "estudi-cognition-participants-atribueixen-menys-consciencia-ia-que-humans",
+      "title": "Davant del mateix comportament, la gent atribueix menys consciència a una IA que a una persona, segons un estudi de la Universitat de Munic",
+      "excerpt": "Gairebé 1.100 participants van valorar personatges descrits amb les mateixes reaccions: la IA més sensible va quedar per sota de l'humà menys sensible.",
+      "sourceName": "ScienceDaily (Universitat Ludwig-Maximilian de Munic)",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/10/261012185017.htm",
+      "sourceDate": "13 d'octubre de 2026",
+      "body": "Cada cop és més habitual que els assistents d'IA conversin, reaccionin al to de veu i semblin entendre com ens sentim. Una pregunta que se'n deriva és si, en veure aquest comportament, els humans els atribuïm consciència, i si ho fem igual que a una altra persona.\n\nUn equip de la Universitat Ludwig-Maximilian de Munic, amb Louis Longin com a primer autor i Bahador Bahrami i Ophelia Deroy com a responsables sèniors, ho ha provat amb prop de 1.100 participants, repartits en dos grups. A uns se'ls van descriure agents artificials amb diferents graus de sensibilitat a l'entorn, com reaccionar als sons o reconèixer les emocions dels altres; a la resta, les mateixes situacions amb personatges humans. Després havien de valorar com de conscient semblava cada personatge. El treball s'ha publicat a la revista revisada per parells Cognition (DOI 10.1016/j.cognition.2026.106733).\n\nEl resultat és que com més sensible era el personatge, més consciència li atribuïen, tant si era humà com artificial. Però fins i tot la IA més sensible va rebre una valoració més baixa que l'humà menys sensible, de manera que el comportament idèntic no donava la mateixa consciència. En canvi, quan es preguntava per un terme més neutre, com ara «estar al corrent» de l'entorn, les valoracions de persones i màquines es van assemblar força. «La gent atribueix sistemàticament menys consciència a la IA que als humans, fins i tot quan el comportament és idèntic», resumeix Longin.\n\nEls límits són clars. Els participants no van interactuar amb cap IA ni amb cap persona: només van llegir breus descripcions escrites, i la nota de premsa no detalla com es van repartir els participants entre els grups ni discuteix limitacions. Que la gent atribueixi menys consciència a una IA tampoc no diu res sobre si una IA pot ser o no conscient: mesura percepcions, no la realitat dels sistemes.",
+      "image": "./assets/cognition-estudi-consciencia-ia-humans-mateix-comportament-20261014.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "3 MIN",
+      "slug": "facebook-your-algorithm-triar-feed-reels-amb-llenguatge-natural",
+      "title": "Facebook deixa que els usuaris expliquin amb les seves paraules què volen veure al feed i als Reels",
+      "excerpt": "Meta porta a Facebook «Your Algorithm», una funció amb IA que ja existia a Instagram i que ajusta les recomanacions en temps real a partir del que l'usuari descriu.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+      "sourceDate": "13 d'octubre de 2026",
+      "body": "Una de les queixes més repetides sobre les xarxes socials és que l'usuari no sap per què veu el que veu ni té gaire manera de canviar-ho. Els botons de «m'interessa» i «no m'interessa» ajuden poc quan el que es voldria és demanar, per exemple, menys política i més cuina.\n\nMeta ha anunciat aquest dimarts «Your Algorithm» a Facebook, segons TechCrunch. L'usuari descriu amb les seves paraules quins temes vol veure més o menys sovint al feed i als Reels i, segons la companyia, els canvis es noten en les recomanacions en temps real. El sistema pot fer preguntes de seguiment per afinar què ha agradat i què no. També es pot obrir des del menú de tres punts d'una publicació, i s'han actualitzat els botons «Interessa» i «No interessa».\n\nLa funció ja existia en altres plataformes de Meta: a Instagram es va estrenar als Reels el desembre del 2025 i es va estendre al feed i a Explorar el juny del 2026, i Threads té una de semblant, «Dear Algo», des del febrer. Per a l'usuari és un pas cap a un control més directe de l'algoritme; per a Meta, una manera de respondre a les crítiques sobre la opacitat de les recomanacions.\n\nL'article no precisa en quins països arribarà ni amb quin calendari, i tampoc dona dades d'ús de la funció a Instagram. Convé esperar a veure si, a la pràctica, les peticions de l'usuari pesen de debò sobre el criteri que prioritza l'estona que es passa a la xarxa.",
+      "image": "./assets/facebook-your-algorithm-controlar-feed-llenguatge-natural-20261014.jpg"
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "slug": "science-corporation-xip-prima-primer-pacient-stargardt",
+      "title": "Science Corporation implanta el xip PRIMA al primer pacient amb la malaltia de Stargardt, que ha llegit una lletra i, a la sessió següent, una paraula",
+      "excerpt": "El director de la companyia explica a TechCrunch Disrupt un assaig a Sydney amb un implant de 2 × 2 mm que dona visió central en blanc i negre; de moment hi ha un sol pacient.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "sourceDate": "13 d'octubre de 2026",
+      "body": "La malaltia de Stargardt és una afecció hereditària de l'ull que destrueix poc a poc la visió central: el malalt veu créixer un punt cec al mig del camp visual. Segons TechCrunch, afecta unes 150.000 persones al món i avui no té cura.\n\nMax Hodak, conseller delegat de Science Corporation i cofundador de Neuralink, va explicar aquest dimarts a TechCrunch Disrupt que la companyia ha implantat el xip PRIMA al primer pacient amb aquesta malaltia. L'operació es va fer al maig del 2026, dins d'un assaig en curs a l'Hospital Oftalmològic de Sydney, i dura aproximadament una hora. El xip, de 2 per 2 mm, se situa al fons de l'ull, on s'han degradat els fotoreceptors, i fa de fotoreceptor artificial: el pacient porta unes ulleres amb càmera que li envien la imatge. A la primera sessió de rehabilitació el pacient va veure una lletra i a la segona va llegir una paraula.\n\nLa visió que ofereix és en blanc i negre, d'alt contrast i en una petita zona central, de manera que només es poden veure un parell de lletres alhora; Hodak la compara amb mirar per una palleta. PRIMA ja es ven a Europa per a pacients que han perdut la vista per atròfia geogràfica, una forma avançada de degeneració macular associada a l'edat, i la companyia prepara un model nou que podria provar-se en persones d'aquí a un any.\n\nCal tenir present que són declaracions de l'empresa en un acte públic, amb un sol pacient i només dues sessions de rehabilitació. L'article no dona la mida de l'assaig, ni dades de seguretat ni de seguiment, i les previsions d'Hodak, com apropar-se a l'agudesa natural en cinc anys, són expectatives, no resultats.",
+      "image": "./assets/science-corporation-implant-prima-stargardt-primer-pacient-20261014.jpg"
+    },
+    {
+      "category": "ROBÒTICA",
+      "read": "4 MIN",
+      "slug": "industrial-next-estacions-robotiques-canviar-tasca-minuts",
+      "title": "Industrial Next presenta unes estacions robòtiques que, diu, canvien de tasca en minuts i no en setmanes",
+      "excerpt": "L'empresa de San Francisco, fundada per antics enginyers de Tesla, ensenya tasques als seus robots amb simulació i demostracions i en prova una amb BMW.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "sourceDate": "13 d'octubre de 2026",
+      "body": "Reprogramar un robot industrial per a un producte nou pot costar setmanes d'enginyeria, i això fa que moltes tasques fines, com treballar amb cables flexibles o peces minúscules, es continuïn fent a mà. Les startups de robòtica amb IA volen canviar-ho.\n\nIndustrial Next, de San Francisco, fundada el 2021 per Lukas Pankau i Allen Pan, tots dos antics de Tesla, va presentar el seu producte dimarts a l'Startup Battlefield de TechCrunch Disrupt. Són estacions robòtiques autònomes que funcionen amb models de base propis que uneixen visió, context de la tasca i moviment. Es poden reconfigurar, combinar i reutilitzar en altres línies, i les tasques noves s'hi ensenyen mitjançant simulació i demostracions, no amb programes escrits a mà.\n\nL'empresa assegura que una de les seves estacions, que treu la pel·lícula protectora de mòduls de càmera i botons, ho fa a velocitat humana o superior amb un encert del 100%, també amb models de telèfon que no havia vist. Diu que algunes estacions ja es fan servir en la fabricació d'un dels mòbils més venuts, sense dir quin, i que BMW Group Technology Office avalua la seva manipulació de precisió. A llarg termini voldria arribar a construir un cotxe sencer sense intervenció humana.\n\nTotes aquestes xifres són declaracions de l'empresa i no s'han pogut contrastar amb una font independent. L'article no esmenta finançament, nombre d'estacions instal·lades, preus ni ingressos, i l'acord amb BMW és una avaluació, no un desplegament.",
+      "image": "./assets/industrial-next-estacions-robotiques-fabrica-canviar-tasca-minuts-20261014.jpg"
+    },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
