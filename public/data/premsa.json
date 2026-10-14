@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-14T12:17:17.777Z",
+ "actualitzat": "2026-10-14T15:33:40.951Z",
  "fonts": 34,
  "articles": [
+  {
+   "id": "af8049a47fe0",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Replica Word, Excel i PowerPoint amb IA després de fer-ho amb Photoshop",
+   "url": "https://www.elnacional.cat/ca/tecnologia/replica-word-excel-powerpoint-ia-despres-fer-ho-photoshop_1709659_102.html",
+   "publicat": "2026-10-14T15:30:00.000Z"
+  },
+  {
+   "id": "d04451d5999d",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nothing prepara dues ulleres intel·ligents: unes sense càmera i unes altres amb ChatGPT",
+   "url": "https://www.elnacional.cat/ca/tecnologia/nothing-prepara-dues-ulleres-intelligents-sense-camera-altres-chatgpt_1709677_102.html",
+   "publicat": "2026-10-14T15:30:00.000Z"
+  },
+  {
+   "id": "7155dacb9224",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "VZMORE AX9 MAX, análisis: un mini PC que apuesta por la IA local sin renunciar a la potencia",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261014/vzmore-ax9-max-analisis-precio-135330582",
+   "publicat": "2026-10-14T14:11:10.000Z"
+  },
+  {
+   "id": "f93400187b10",
+   "mitja": "dBalears",
+   "font": "dbalears",
+   "icona": "/assets/premsa/dbalears.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Ramon Torrents, president d’AMIC: «Els mitjans locals són primordials per a la IA»",
+   "url": "https://www.dbalears.cat/mitjans-mallorquins/ona-mediterrania/2026/10/14/423305/ramon-torrents-president-amic-els-mitjans-locals-son-primordials-per.html",
+   "publicat": "2026-10-14T13:35:00.000Z"
+  },
   {
    "id": "11f236e1263b",
    "mitja": "El Nacional",
