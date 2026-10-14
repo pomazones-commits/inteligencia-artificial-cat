@@ -1,0 +1,42 @@
+/* Crida a l'Àgora al final de tribuna, estudis i reflexió (14.10.2026). Vegeu agora-crida.js. */
+.agora-crida {
+  margin: 36px 0 8px;
+  padding: 24px 26px 26px;
+  border: 1px solid var(--ed-line, #dfe3eb);
+  border-radius: 22px;
+  background: linear-gradient(120deg, #fbf1ee, #f3f4f9 55%, #faf5e7);
+  color: var(--ed-ink, #111827);
+}
+.agora-crida__eti {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  color: var(--ed-muted, #5d6472);
+  font: 600 11px var(--ed-mono, monospace);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.agora-crida__eti i { width: 8px; height: 8px; border-radius: 50%; background: linear-gradient(90deg, #c8432e, #b8901f); }
+.agora-crida h2 { margin: 10px 0 8px; font: 500 28px/1.1 var(--ed-serif, Georgia, serif); letter-spacing: -.015em; }
+.agora-crida p { margin: 0 0 16px; font-size: 16px; line-height: 1.55; }
+.agora-crida .is-apo { color: #b13a27; }
+.agora-crida .is-int { color: #8f6f12; }
+.agora-crida__boto {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: var(--ed-ink, #111827);
+  color: #fff;
+  font: 600 12px var(--ed-mono, monospace);
+  letter-spacing: .04em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.agora-crida__boto:hover, .agora-crida__boto:focus-visible { background: var(--ed-blue, #233a82); }
+@media (max-width: 620px) {
+  .agora-crida { padding: 20px 18px 22px; border-radius: 18px; }
+  .agora-crida h2 { font-size: 24px; }
+}
