@@ -22,7 +22,8 @@
 .agora-crida p { margin: 0 0 16px; font-size: 16px; line-height: 1.55; }
 .agora-crida .is-apo { color: #b13a27; }
 .agora-crida .is-int { color: #8f6f12; }
-.agora-crida__boto {
+.agora-crida a.agora-crida__boto,
+.agora-crida a.agora-crida__boto:visited {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -35,7 +36,10 @@
   text-decoration: none;
   text-transform: uppercase;
 }
-.agora-crida__boto:hover, .agora-crida__boto:focus-visible { background: var(--ed-blue, #233a82); }
+.agora-crida a.agora-crida__boto:hover,
+.agora-crida a.agora-crida__boto:focus-visible { background: var(--ed-blue, #233a82); color: #fff; }
+/* Abans era només .agora-crida__boto i perdia contra «.editorial-body a{color:inherit}»
+   d'editorial.css: el text del botó sortia fosc sobre fons fosc (14.10.2026). */
 @media (max-width: 620px) {
   .agora-crida { padding: 20px 18px 22px; border-radius: 18px; }
   .agora-crida h2 { font-size: 24px; }
