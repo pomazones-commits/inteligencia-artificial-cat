@@ -31,11 +31,13 @@
     let millor = null;
     for (const t of sales) {
       if (!t || !t.id || !t.title) continue;
-      // Com a mínim dues paraules en comú, i almenys una del títol de la sala.
+      // Com a mínim tres paraules en comú, i almenys una del títol de la sala
+      // (amb dues, qualsevol peça que digui «català» i «públic» queia a la sala
+      // del model públic en català).
       let punts = 0;
       for (const w of paraules(`${t.title} ${t.q || ''}`)) if (claus.has(w)) punts += 1;
       const delTitol = [...paraules(t.title)].some(w => claus.has(w));
-      if (delTitol && punts >= 2 && (!millor || punts > millor.punts)) millor = { t, punts };
+      if (delTitol && punts >= 3 && (!millor || punts > millor.punts)) millor = { t, punts };
     }
     return millor && millor.t;
   }
