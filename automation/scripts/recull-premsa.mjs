@@ -197,6 +197,9 @@ export function fusiona(existents, nous, { ara = new Date(), dies = DIES_FINESTR
   for (const p of Array.isArray(existents) ? existents : []) {
     if (!pecaValida(p) || exclou.has(urlCanonica(p.url))) continue;
     if (Date.parse(p.publicat) < limit) continue;
+    // 14.10.2026: un titular desat amb «�» (feed mal descodificat) no es
+    // conserva; si el diari encara el serveix, torna a entrar ben escrit.
+    if (String(p.titol).includes('�')) continue;
     perId.set(p.id, { ...p });
   }
   for (const p of nous) {
@@ -410,6 +413,30 @@ const CAPCALERES = [
   { 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36', accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'accept-language': 'ca,es;q=0.8,en;q=0.5' }
 ];
 
+// 14.10.2026. Abans es feia r.text(), que SEMPRE llegeix en UTF-8. El RSS de
+// 3CatInfo arriba en un joc de caràcters d'un byte (ISO-8859-1) i els accents
+// sortien com a «�» («Or�lien», «novel�la», «per�»). Ara es llegeixen els bytes
+// i es descodifiquen amb el joc de caràcters que declara el diari: primer la
+// capçalera HTTP (charset=…), després la declaració XML (encoding="…"). Si no
+// en declara cap, o diu UTF-8 i en surten «�», es torna a provar en
+// windows-1252 (superconjunt de l'ISO-8859-1).
+export function descodificaFeed(bytes, contentType = '') {
+  const buf = bytes instanceof Uint8Array ? bytes : new Uint8Array(bytes || []);
+  const prova = nom => {
+    try { return new TextDecoder(nom).decode(buf); } catch { return null; }
+  };
+  // Marca d'ordre de bytes UTF-8: mana sobre qualsevol declaració.
+  if (buf[0] === 0xef && buf[1] === 0xbb && buf[2] === 0xbf) return prova('utf-8');
+  const declarat = String(contentType || '').match(/charset\s*=\s*["']?([\w.:-]+)/i)?.[1]
+    || new TextDecoder('latin1').decode(buf.subarray(0, 256)).match(/<\?xml[^>]*\bencoding\s*=\s*["']([\w.:-]+)["']/i)?.[1];
+  if (declarat) {
+    const text = prova(declarat.toLowerCase());
+    if (text !== null && !(/^utf-?8$/i.test(declarat) && text.includes('�'))) return text;
+  }
+  const utf8 = prova('utf-8');
+  return utf8.includes('�') ? prova('windows-1252') : utf8;
+}
+
 async function baixa(url, { timeout = 15000 } = {}) {
   let darrer = '';
   for (let intent = 0; intent < 3; intent += 1) {
@@ -418,7 +445,7 @@ async function baixa(url, { timeout = 15000 } = {}) {
         signal: AbortSignal.timeout(timeout),
         headers: CAPCALERES[Math.min(intent, CAPCALERES.length - 1)]
       });
-      if (r.ok) return await r.text();
+      if (r.ok) return descodificaFeed(new Uint8Array(await r.arrayBuffer()), r.headers.get('content-type'));
       darrer = `HTTP ${r.status}`;
       if (r.status === 404 || r.status === 410) break;
     } catch (error) {

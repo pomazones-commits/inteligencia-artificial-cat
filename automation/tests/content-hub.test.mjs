@@ -1131,6 +1131,28 @@ test('premsa: detecta les peces d’IA sense confondre «llama», «Claude» ni 
   }
 });
 
+test('premsa: els feeds en ISO-8859-1 (3CatInfo) es llegeixen sense «�»', async () => {
+  const { descodificaFeed, fusiona } = await import(premsa);
+  const titol = 'Orélien nega haver fet servir la IA en la seva novel·la, però admet plagis';
+  const latin1 = Uint8Array.from(titol, c => c.charCodeAt(0));
+  const xml = s => new TextEncoder().encode(`<?xml version="1.0" encoding="${s}"?><rss>`);
+  const amb = (cap, cos) => { const b = new Uint8Array(cap.length + cos.length); b.set(cap); b.set(cos, cap.length); return b; };
+  // Declarat a la capçalera HTTP, a la declaració XML, o enlloc.
+  assert.equal(descodificaFeed(latin1, 'application/rss+xml; charset=ISO-8859-1'), titol);
+  assert.ok(descodificaFeed(amb(xml('ISO-8859-1'), latin1), 'text/xml').endsWith(titol));
+  assert.equal(descodificaFeed(latin1, ''), titol);
+  // Diu UTF-8 però envia Latin-1.
+  assert.equal(descodificaFeed(latin1, 'text/xml; charset=utf-8'), titol);
+  // UTF-8 de debò, amb BOM i sense, no es toca.
+  const utf8 = new TextEncoder().encode(titol);
+  assert.equal(descodificaFeed(utf8, 'text/xml; charset=utf-8'), titol);
+  assert.equal(descodificaFeed(amb(Uint8Array.of(0xef, 0xbb, 0xbf), utf8), 'text/xml; charset=ISO-8859-1'), '﻿'.slice(1) + titol);
+  // Un titular ja desat amb «�» no es conserva.
+  const vell = { id: 'aaaaaaaaaaaa', url: 'https://www.3cat.cat/a', titol: 'Or�lien nega', mitja: '3CatInfo', font: '3catinfo', publicat: ARA_PREMSA.toISOString() };
+  assert.equal(fusiona([vell], [], { ara: ARA_PREMSA }).length, 0);
+  assert.equal(fusiona([{ ...vell, titol: 'Orélien nega' }], [], { ara: ARA_PREMSA }).length, 1);
+});
+
 test('premsa: del RSS només entren les d’IA, recents i sense paràmetres de seguiment', async () => {
   const { parseFeed, seleccionaEntrades, netejaText } = await import(premsa);
   const xml = rssXml([
