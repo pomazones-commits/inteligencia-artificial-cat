@@ -242,9 +242,23 @@
 
     // ——— Graella de notícies del dia ———
     const newsGrid = document.querySelector('#news-grid');
+    // 14.10.2026: l'última fila sempre plena. A escriptori la graella fa 7+5 i
+    // després files de 3; si en sobren 2, van a mitges, i si en sobra 1, les quatre
+    // últimes fan dues files de 2 (abans, amb 12 notícies, l'última quedava sola).
+    // A tauleta (files de 2), si el total és senar l'última ocupa tota l'amplada.
+    function cardClass(i, total) {
+      const classes = ['news-card'];
+      if (total === 1) classes.push('news-card--ple');
+      const resta = total > 2 ? (total - 2) % 3 : 0;
+      const desde = resta === 2 ? total - 2 : resta === 1 && total >= 6 ? total - 4 : Infinity;
+      if (resta === 1 && total < 6 && i === total - 1) classes.push('news-card--ple');
+      if (i >= desde) classes.push('news-card--mig');
+      if (total % 2 === 1 && i === total - 1) classes.push('news-card--senar-final');
+      return classes.join(' ');
+    }
     function renderNews(items) {
-      newsGrid.innerHTML = items.map(story => `
-        <article class="news-card">
+      newsGrid.innerHTML = items.map((story, i) => `
+        <article class="${cardClass(i, items.length)}">
           <a href="${escapeHTML(storyHref(story))}">
             ${story.image ? `<div class="news-card__image"${story.imageCredit ? ' style="position:relative"' : ''}><img src="${escapeHTML(story.image)}" alt="" loading="lazy">${photoCredit(story)}</div>` : ''}
             <p class="story-meta"><i></i>${escapeHTML(story.category)} · ${escapeHTML(story.read || '5 MIN')}</p>

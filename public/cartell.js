@@ -73,6 +73,15 @@
   const PAS_MS = 5000;
   const MAX_DIAPOS = 6;
   const HORITZO = 60;
+  // 14.10.2026: títols de més de 70 caràcters van a un cos més petit (la Jornada
+  // EPS, amb 120, ocupava cinc línies i feia el cartell d'un metre d'alt).
+  const TITOL_LLARG = 70;
+  // Propers actes (14.10.2026): en escriptori la llista s'allarga fins a fer
+  // l'alçada del cartell (abans eren 4 fixos i la columna quedava mig buida).
+  // En mòbil i tauleta, on la llista va a sota del cartell, se'n mostren 4.
+  const PROPERS_MAX = 12;
+  const PROPERS_ESTRET = 4;
+  const PROPERS_MIN = 3;
   const esGran = a => GRANS.has(a.tipus) || a.destacat === true;
   const desempat = (a, b) => (b.destacat === true) - (a.destacat === true) || (b.tipus === 'hackató') - (a.tipus === 'hackató');
 
@@ -114,8 +123,9 @@
     const amp = Number(original?.amplada) || 0;
     const alc = Number(original?.alcada) || 0;
     const vertical = amp > 0 && alc >= amp * 0.9;
+    const titolLlarg = String(acte.titol || '').length > TITOL_LLARG;
     return `
-        <article class="cartell-poster${original ? ` cartell-poster--original${vertical ? ' cartell-poster--vertical' : ''}` : ''}${carrusel ? ' cartell-diapo' : ''}${i === 0 ? ' is-active' : ''}" aria-labelledby="${idTitol}"${carrusel ? ` role="group" aria-roledescription="diapositiva" aria-label="${i + 1} de ${total}"${i === 0 ? '' : ' aria-hidden="true" inert'}` : ''}>
+        <article class="cartell-poster${original ? ` cartell-poster--original${vertical ? ' cartell-poster--vertical' : ''}` : ''}${titolLlarg ? ' cartell-poster--titol-llarg' : ''}${carrusel ? ' cartell-diapo' : ''}${i === 0 ? ' is-active' : ''}" aria-labelledby="${idTitol}"${carrusel ? ` role="group" aria-roledescription="diapositiva" aria-label="${i + 1} de ${total}"${i === 0 ? '' : ' aria-hidden="true" inert'}` : ''}>
           <div class="cartell-poster__trama" aria-hidden="true"></div>
           ${original ? `<figure class="cartell-poster__obra">
             <div class="cartell-poster__marc" style="--fons:url('${esc(original.imatge)}');--proporcio:${amp && alc ? `${amp} / ${alc}` : '16 / 9'}">
@@ -175,7 +185,31 @@
         </aside>` : ''}
       </div>`;
     banda.hidden = false;
+    ajustaPropers();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(ajustaPropers).catch(() => {});
+    let espera = null;
+    window.addEventListener('resize', () => { clearTimeout(espera); espera = setTimeout(ajustaPropers, 150); });
     if (total > 1) engega(total);
+  }
+
+  // Mostra tants propers actes com caben a l'alçada del cartell sense allargar-lo.
+  function ajustaPropers() {
+    const layout = banda.querySelector('.cartell-layout');
+    const escena = banda.querySelector('.cartell-escena');
+    const propers = banda.querySelector('.cartell-propers');
+    if (!layout || !escena || !propers) return;
+    const items = [...propers.querySelectorAll('li')];
+    items.forEach(li => { li.hidden = false; });
+    const alCostat = getComputedStyle(layout).gridTemplateColumns.trim().split(/\s+/).length > 1;
+    if (!alCostat) {
+      items.forEach((li, i) => { li.hidden = i >= PROPERS_ESTRET; });
+      return;
+    }
+    // Alçada pròpia del cartell, sense l'estirament de la graella.
+    layout.style.alignItems = 'start';
+    const alt = escena.offsetHeight;
+    for (let i = items.length - 1; i >= PROPERS_MIN && propers.offsetHeight > alt; i--) items[i].hidden = true;
+    layout.style.alignItems = '';
   }
 
   function engega(total) {
@@ -260,7 +294,7 @@
       // Des del 10.10.2026 l'agenda també porta trobades, cursos i webinars (un
       // centenar d'actes): a la portada, només els grans (congressos, jornades,
       // fires i hackatons). La resta és a /agenda.
-      pinta(llista, actes.filter(a => !llista.includes(a) && esGran(a)).slice(0, 4), avui);
+      pinta(llista, actes.filter(a => !llista.includes(a) && esGran(a)).slice(0, PROPERS_MAX), avui);
     })
     .catch(() => {});
 })();

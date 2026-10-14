@@ -165,6 +165,9 @@ button { color: inherit; }
 .news-card:nth-child(2) { grid-column: span 5; color: #fff; background: linear-gradient(145deg,#3558f3,#7d50e8); border-color: transparent; }
 .news-card:nth-child(2) .story-meta { color: var(--lime); }
 .news-card:nth-child(2) p:last-child { color: #dce0ff; }
+/* 14.10.2026: l'última fila de la graella sempre plena (app.js, cardClass). */
+.news-grid .news-card--mig { grid-column: span 6; }
+.news-grid .news-card--ple { grid-column: 1/-1; }
 .news-card:hover { transform: translateY(-5px); box-shadow: 0 20px 50px rgba(17,21,38,.11); }
 .news-card__image { aspect-ratio: 16/9; overflow: hidden; margin: -8px -8px 20px; border-radius: 18px; background: #dbe0ea; }
 .news-card__image img { height: 100%; object-fit: cover; transition: transform .45s; }
@@ -266,6 +269,7 @@ button { color: inherit; }
   .lead-layout { grid-template-columns: 1fr; }
   .latest-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; }
   .news-card,.news-card:first-child,.news-card:nth-child(2) { grid-column: span 6; }
+  .news-grid .news-card--senar-final { grid-column: 1/-1; }
   .analysis-layout { grid-template-columns: 85px 1fr; }
   .analysis-layout blockquote { display: none; }
   .radar-grid { grid-template-columns: repeat(2,1fr); }
@@ -312,6 +316,7 @@ button { color: inherit; }
   .section-heading > a,.section-note { font-size: 0; padding: 8px; }
   .section-heading > a span { font-size: 13px; }
   .news-card,.news-card:first-child,.news-card:nth-child(2) { grid-column: 1/-1; min-height: 380px; }
+  .news-grid .news-card--mig,.news-grid .news-card--ple,.news-grid .news-card--senar-final { grid-column: 1/-1; }
   .analysis-band { border-radius: 25px; }
   .analysis-layout { grid-template-columns: 1fr; min-height: auto; }
   .analysis-mark { display: none; }

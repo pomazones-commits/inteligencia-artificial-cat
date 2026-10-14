@@ -296,3 +296,24 @@
   .cartell-poster--vertical .cartell-poster__obra { margin: 0 0 18px; }
   .cartell-poster--vertical .cartell-poster__marc { flex: none; min-height: 0; aspect-ratio: var(--proporcio, 3 / 4); max-height: 440px; }
 }
+
+/* ——— Escriptori més compacte (14.10.2026) ———
+   El carrusel pren l'alçada del cartell més alt; amb un títol de cinc línies i la
+   imatge a 340 px, la banda feia més d'un metre i els cartells curts quedaven
+   amb un gran buit a sota. Ara: títol llarg en cos més petit, descripció a quatre
+   línies (la sencera és a /agenda), imatge apaïsada més baixa i els botons
+   sempre al peu del cartell, que es llegeix com un cartell i no com un forat. */
+.cartell-poster { grid-template-rows: repeat(6, auto) 1fr; }
+.cartell-poster--original { grid-template-rows: repeat(7, auto) 1fr; }
+.cartell-poster--vertical { grid-template-rows: repeat(6, auto) 1fr; }
+.cartell-poster__accions { align-self: end; }
+.cartell-poster__desc { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; }
+.cartell-poster--titol-llarg .cartell-poster__titol,
+.cartell-poster--original.cartell-poster--titol-llarg .cartell-poster__titol,
+.cartell-poster--vertical.cartell-poster--titol-llarg .cartell-poster__titol { font-size: clamp(24px, 2.5vw, 34px); line-height: 1.08; letter-spacing: -.03em; }
+.cartell-poster--original:not(.cartell-poster--vertical) .cartell-poster__marc { max-height: 250px; }
+.cartell-propers li[hidden] { display: none; }
+
+@media (max-width: 620px) {
+  .cartell-poster, .cartell-poster--original, .cartell-poster--vertical { grid-template-rows: none; }
+}
