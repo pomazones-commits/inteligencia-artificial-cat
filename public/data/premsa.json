@@ -1,8 +1,140 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-14T08:13:09.733Z",
+ "actualitzat": "2026-10-14T09:46:42.443Z",
  "fonts": 34,
  "articles": [
+  {
+   "id": "1a898a6cc85c",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Més de 400 científics de tot el món demanen una regulació internacional de la IA per minimitzar-ne el risc",
+   "url": "https://www.regio7.cat/arreu-catalunya-espanya-mon/2026/10/14/cientifics-mon-demanen-regulacio-ia-riscos-ciberatacs-openai-anthropic-135317337.html",
+   "publicat": "2026-10-14T09:20:11.000Z"
+  },
+  {
+   "id": "faacbc81ba67",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Thélyson Orélien niega haber utilizado inteligencia artificial para escribir su última novela: «Las amenazas, el linchamiento mediático y el acoso racista son insoportables»",
+   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261014/thelyson-orelien-niega-haber-utilizado-135315824",
+   "publicat": "2026-10-14T09:18:55.000Z"
+  },
+  {
+   "id": "792aeb773176",
+   "mitja": "El Periódico",
+   "font": "elperiodico-tec",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Més de 400 científics de tot el món demanen una regulació internacional de la IA per minimitzar-ne el risc",
+   "url": "https://www.elperiodico.cat/internacional/20261014/cientifics-mon-demanen-regulacio-ia-riscos-ciberatacs-openai-anthropic-135314563",
+   "publicat": "2026-10-14T09:14:38.000Z"
+  },
+  {
+   "id": "c7614e75326b",
+   "mitja": "Diari de Sabadell",
+   "font": "diaridesabadell",
+   "icona": "/assets/premsa/diari-de-sabadell.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Indra inverteix 10 milions en Qilimanjaro per accelerar l'aplicació quàntica en IA i robòtica",
+   "url": "https://www.diaridesabadell.com/diners/indra-group-qilimanjaro.html",
+   "publicat": "2026-10-14T09:00:38.000Z"
+  },
+  {
+   "id": "42b3b6b44d5c",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La UPC engega un nou xatbot sobre registre electrònic i identitat digital",
+   "url": "https://www.lavanguardia.com/launi/20261014/11658578/upc-engega-nou-xatbot-sobre-registre-encatala-electronic-i-identitat-digital-ctx.html",
+   "publicat": "2026-10-14T08:49:44.000Z"
+  },
+  {
+   "id": "e3b9d15afd14",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L’FBI deté un empleat d’OpenAI acusat de col·locar una gravadora per espiar reunions confidencials",
+   "url": "https://www.regio7.cat/ciencia-i-tecnologia/2026/10/14/espionatge-openai-fbi-dete-empleat-gravadora-microfon-reunions-confidencials-secret-chatgpt-135314448.html",
+   "publicat": "2026-10-14T08:48:40.000Z"
+  },
+  {
+   "id": "89eaecb970ca",
+   "mitja": "Diari de Terrassa",
+   "font": "diarideterrassa",
+   "icona": "/assets/premsa/diari-de-terrassa.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Una llibreria de Terrassa es posa filosòfica: \"El fet de pensar s’està externalitzant al món digital de la IA\"",
+   "url": "https://www.diarideterrassa.com/cultura-i-espectacles/una-llibreria-de-terrassa-es-posa-filosofica-el-fet-de-pensar-sesta-externalitzant-al-mon-digital-de-la-ia.html",
+   "publicat": "2026-10-14T08:44:59.000Z"
+  },
+  {
+   "id": "c03d6cc633e8",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La UPC pone en marcha un nuevo chatbot sobre registro electrónico e identidad digital",
+   "url": "https://www.lavanguardia.com/launi/20261014/11658514/upc-pone-marcha-nuevo-chatbot-sobre-registro-electronico-e-identidad-digital.html",
+   "publicat": "2026-10-14T08:44:17.000Z"
+  },
+  {
+   "id": "28917a8feb35",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA, altavoz de falsas “alternativas naturales” al Ozempic para perder peso",
+   "url": "https://www.lavanguardia.com/vida/verificacion/20261014/11658550/ia-altavoz-falsas-alternativas-naturales-ozempic-perder-peso.html",
+   "publicat": "2026-10-14T08:41:32.000Z"
+  },
+  {
+   "id": "580e089062d4",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Arresten un enginyer d'OpenAI per amagar una \"sofisticada\" gravadora en una sala de reunions",
+   "url": "https://www.ara.cat/internacional/estats-units/arresten-enginyer-d-openai-amagar-sofisticada-gravadora-sala-reunions_1_5878547.html",
+   "publicat": "2026-10-14T08:35:14.000Z"
+  },
+  {
+   "id": "92f6311a63d0",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El FBI detiene a un empleado de OpenAI de origen saudí por espiar reuniones confidenciales",
+   "url": "https://www.eldiario.es/tecnologia/fbi-detiene-empleado-openai-origen-saudi-espiar-reuniones-confidenciales_1_13583891.html",
+   "publicat": "2026-10-14T08:31:19.000Z"
+  },
+  {
+   "id": "adab5cff672c",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic alerta de que la IA ya es capaz de propagarse por electrodomésticos y televisores como si fuera un virus",
+   "url": "https://www.lavanguardia.com/neo/ia/20261014/11658519/anthropic-alerta-ia-capaz-propagarse-electrodomesticos-televisores-fuera-virus.html",
+   "publicat": "2026-10-14T08:29:19.000Z"
+  },
   {
    "id": "d17bb69653e6",
    "mitja": "El Periódico",
@@ -15,14 +147,14 @@
    "publicat": "2026-10-14T08:12:47.000Z"
   },
   {
-   "id": "31f3b032eacf",
+   "id": "ef66d0e218ef",
    "mitja": "El Periódico",
-   "font": "elperiodico-totes",
+   "font": "elperiodico-tec",
    "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
+   "llengua": "ca",
    "ambit": "catala",
-   "titol": "El FBI detiene a un empleado de OpenAI acusado de colocar una grabadora para espiar reuniones confidenciales",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261014/espionaje-openai-fbi-detiene-empleado-grabadora-microfono-reuniones-confidenciales-secreto-chatgpt-135312519",
+   "titol": "L’FBI deté un empleat d’OpenAI acusat de col·locar una gravadora per espiar reunions confidencials",
+   "url": "https://www.elperiodico.cat/tecnologia/20261014/espionatge-openai-fbi-dete-empleat-gravadora-microfon-reunions-confidencials-secret-chatgpt-135312519",
    "publicat": "2026-10-14T08:01:29.000Z"
   },
   {
@@ -1083,17 +1215,6 @@
    "titol": "L’avançament de les eleccions deixa Espanya sense veto a les xarxes socials per a menors i als deepfakes’ sexuals amb IA",
    "url": "https://www.elperiodico.cat/politica/20261007/ia-ciberseguretat-avancament-eleccions-espanya-lleis-digitals-135070245",
    "publicat": "2026-10-07T10:46:44.000Z"
-  },
-  {
-   "id": "8de911ce7984",
-   "mitja": "El Periódico",
-   "font": "elperiodico-tec",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Europa fa un salt de gegant en IA per competir amb els Estats Units i la Xina",
-   "url": "https://www.elperiodico.cat/tecnologia/20261007/europa-fa-salt-gegant-ia-cursa-mistral-aleph-alpha-openar-anthropic-google-competicio-135086719",
-   "publicat": "2026-10-07T08:32:42.000Z"
   }
  ]
 }
