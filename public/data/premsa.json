@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-14T09:46:42.443Z",
+ "actualitzat": "2026-10-14T12:17:17.777Z",
  "fonts": 34,
  "articles": [
+  {
+   "id": "11f236e1263b",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Un projecte de la MWCapital identifica columnes de fum a Collserola amb IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/projecte-mwcapital-identifica-columnes-fum-collserola-ia_1709554_102.html",
+   "publicat": "2026-10-14T11:33:45.000Z"
+  },
+  {
+   "id": "7485e3e311b3",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Demis Hassabis, presidente de Google DeepMind advierte de que la IA podría causar \"incidentes graves\" en 2 años sin medidas adecuadas",
+   "url": "https://www.elmundo.es/tecnologia/2026/10/14/6acf48c121efa0c7118b4590.html",
+   "publicat": "2026-10-14T11:11:35.000Z"
+  },
+  {
+   "id": "2318d4e40aaf",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Microsoft presenta Xbox Labs: cualquier usuario podrá utilizar IA para crear sus propios videojuegos",
+   "url": "https://www.lavanguardia.com/neo/videojuegos/20261014/11658789/microsoft-presenta-xbox-labs-usuario-podra-utilizar-ia-crear-propios-videojuegos.html",
+   "publicat": "2026-10-14T11:09:37.000Z"
+  },
+  {
+   "id": "b2234e3f9d2e",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Ferran Adrià revela el sorprenent efecte que ChatGPT té en la seva manera de parlar: «Ara vocalitzo millor»",
+   "url": "https://www.diaridegirona.cat/fets-gent/2026/10/14/ferran-adria-revela-sorprenent-efecte-135247478.html",
+   "publicat": "2026-10-14T11:08:25.000Z"
+  },
+  {
+   "id": "ebaa9dd6643c",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Ramon López de Mántaras, físic santvicentí: «Dir que la IA es rebel·larà és una ximpleria que alguns diuen per atreure inversions»",
+   "url": "https://www.elperiodico.cat/internacional/20261014/ramon-lopez-mantaras-fisic-santvicenti-135320729",
+   "publicat": "2026-10-14T10:38:50.000Z"
+  },
+  {
+   "id": "2d2d6fdb676f",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Detienen a un ingeniero de OpenAI acusado de colocar un micrófono oculto en una sala de reuniones",
+   "url": "https://www.lavanguardia.com/neo/ia/20261014/11658649/detienen-ingeniero-openai-acusado-colocar-microfono-oculto-sala-reuniones.html",
+   "publicat": "2026-10-14T10:04:35.000Z"
+  },
+  {
+   "id": "42f3bbe2d6e8",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Cuatro años de cola para comprar máquinas de chips: la fiebre de la IA desborda al gigante europeo ASML",
+   "url": "https://www.eldiario.es/tecnologia/cuatro-anos-cola-comprar-maquinas-chips-fiebre-ia-desborda-gigante-europeo-asml_1_13583869.html",
+   "publicat": "2026-10-14T10:02:26.000Z"
+  },
+  {
+   "id": "8fcbc8f03490",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Mondéjar (CaixaBank): “La IA no va a hacer que reduzcamos plantilla”",
+   "url": "https://cincodias.elpais.com/economia/foro-creo-creando-oportunidades/2026-10-14/mondejar-caixabank-la-ia-no-va-a-hacer-que-reduzcamos-plantilla.html",
+   "publicat": "2026-10-14T09:44:25.000Z"
+  },
   {
    "id": "1a898a6cc85c",
    "mitja": "Regió7",
@@ -32,7 +120,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Més de 400 científics de tot el món demanen una regulació internacional de la IA per minimitzar-ne el risc",
+   "titol": "Més de 400 científics de tot el món demanen regular la IA i carreguen contra la «irresponsabilitat» d’OpenAI i Anthropic",
    "url": "https://www.elperiodico.cat/internacional/20261014/cientifics-mon-demanen-regulacio-ia-riscos-ciberatacs-openai-anthropic-135314563",
    "publicat": "2026-10-14T09:14:38.000Z"
   },
@@ -45,7 +133,9 @@
    "ambit": "catala",
    "titol": "Indra inverteix 10 milions en Qilimanjaro per accelerar l'aplicació quàntica en IA i robòtica",
    "url": "https://www.diaridesabadell.com/diners/indra-group-qilimanjaro.html",
-   "publicat": "2026-10-14T09:00:38.000Z"
+   "publicat": "2026-10-14T09:00:38.000Z",
+   "noticia": "indra-qilimanjaro-10-milions-quantica-ia",
+   "noticiaTitol": "Indra posa 10 milions d'euros a Qilimanjaro, l'empresa catalana de computació quàntica, per aplicar-la a la IA i la robòtica"
   },
   {
    "id": "42b3b6b44d5c",
@@ -111,7 +201,9 @@
    "ambit": "catala",
    "titol": "Arresten un enginyer d'OpenAI per amagar una \"sofisticada\" gravadora en una sala de reunions",
    "url": "https://www.ara.cat/internacional/estats-units/arresten-enginyer-d-openai-amagar-sofisticada-gravadora-sala-reunions_1_5878547.html",
-   "publicat": "2026-10-14T08:35:14.000Z"
+   "publicat": "2026-10-14T08:35:14.000Z",
+   "noticia": "openai-enginyer-detingut-gravadora-sala-reunions",
+   "noticiaTitol": "L'FBI deté un enginyer d'OpenAI acusat d'amagar una gravadora darrere d'una televisió d'una sala de reunions directives"
   },
   {
    "id": "92f6311a63d0",
@@ -1204,17 +1296,6 @@
    "titol": "El Surface Laptop Ultra llega con un chip de Nvidia y precio de MacBook Pro",
    "url": "https://www.elmundo.es/tecnologia/creadores/2026/10/07/6ac6a5abe85ecec8188b45a0.html",
    "publicat": "2026-10-07T20:03:59.000Z"
-  },
-  {
-   "id": "053b2442d08b",
-   "mitja": "El Periódico",
-   "font": "elperiodico-tec",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L’avançament de les eleccions deixa Espanya sense veto a les xarxes socials per a menors i als deepfakes’ sexuals amb IA",
-   "url": "https://www.elperiodico.cat/politica/20261007/ia-ciberseguretat-avancament-eleccions-espanya-lleis-digitals-135070245",
-   "publicat": "2026-10-07T10:46:44.000Z"
   }
  ]
 }
