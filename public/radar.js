@@ -3,6 +3,17 @@ window.IA_RADAR = [
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "14.10.2026",
+    "title": "Indra posa 10 milions d'euros a Qilimanjaro, l'empresa catalana de computació quàntica, per aplicar-la a la IA i la robòtica",
+    "summary": "La inversió, a través d'IndraMind, forma part d'un primer tancament de ronda de gairebé 20 milions. Indra la vol per a defensa, seguretat i simulació de sistemes complexos.",
+    "detail": "Qilimanjaro Quantum Tech, una empresa catalana de computació quàntica fundada el 2019, ha rebut 10 milions d'euros d'Indra Group. L'operació, anunciada en un comunicat conjunt, es fa a través d'IndraMind i completa un primer tancament de ronda de gairebé 20 milions d'euros. La informació consultada no diu quin percentatge del capital representa.\n\nIndra explica que vol reforçar la seva posició en una tecnologia emergent «d'alt potencial» i que la capacitat de Qilimanjaro és estratègica per aplicar la computació quàntica a la IA avançada, la defensa i la seguretat. Amb aquesta entrada, IndraMind ampliarà la feina en IA física, robòtica i simulació de sistemes complexos, com ara energia, materials, electromagnetisme i sistemes autònoms.\n\nPer a l'ecosistema català, l'operació dona múscul financer a una de les empreses quàntiques més visibles del país i la vincula a un dels grans grups tecnològics i de defensa de l'Estat. Convé no confondre-la amb una aplicació ja existent: l'anunci parla d'objectius i línies de treball, no de productes quàntics que ja funcionin en IA o en robòtica.\n\nEl comunicat no detalla calendaris ni resultats esperats, i les fonts consultades no precisen què es farà amb els diners. Caldrà veure si la col·laboració es tradueix en projectes concrets i en quins ritmes.",
+    "source": "Diari de Sabadell",
+    "url": "https://www.diaridesabadell.com/diners/indra-group-qilimanjaro.html",
+    "image": "./assets/indra-qilimanjaro-10-milions-quantica-ia-20261014.jpg"
+  },
+  {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "14.10.2026",
     "title": "ACTUALITZACIÓ: El BBVA, primer banc europeu a unir-se a Poppy, el protocol de Sierra i Meta perquè els agents d'IA parlin amb les empreses",
     "summary": "El projecte ja té 35 socis de disseny i vol que un agent pugui identificar-se, mostrar els permisos de l'usuari i connectar-se als serveis d'una empresa.",
     "detail": "El 7 d'octubre es va informar que Sierra i Meta proposaven un estàndard obert perquè els agents d'IA personals puguin identificar-se davant les empreses. La novetat és que ara hi entra un banc espanyol.\n\nSegons El Nacional, el BBVA s'ha afegit a la iniciativa Personal Agent Protocol, anomenada Poppy, i és el primer banc europeu que ho fa. Poppy té 35 socis de disseny, entre empreses tecnològiques, financeres i de comerç electrònic. L'objectiu és que un agent faci tasques per a l'usuari amb la seva autorització i el seu control: el protocol identifica l'agent, desa els permisos que li dona l'usuari i li permet comunicar-se amb els serveis de l'empresa, ja sigui navegant per la web, per API o amb altres agents. Es basa en estàndards ja existents (OAuth, HTTPS, OpenAPI i MCP), de manera que les empreses poden aprofitar la infraestructura que tenen.\n\nDavid Puente, responsable de Solucions per a Clients Particulars del BBVA, diu que «la seguretat ha d'estar en el centre de les interaccions entre agents d'IA i serveis digitals» i que la participació del banc ha d'ajudar a definir nous models d'interacció i a explorar-ne l'ús en futurs serveis financers.\n\nDe moment és una adhesió a un projecte de disseny d'un protocol, no un servei en marxa: l'article no diu quan els clients del BBVA podran usar agents amb aquest sistema ni quins serveis concrets hi sortiran.",
@@ -74,16 +85,5 @@ window.IA_RADAR = [
     "source": "Ara",
     "url": "https://www.ara.cat/economia/banca/ignasi-belda-banc-d-espanya-ia-impacta-tota-cadena-banca_1_5874280.html",
     "image": "./assets/banc-d-espanya-belda-ia-impacta-tota-cadena-banca-20261010.jpg"
-  },
-  {
-    "place": "Barcelona",
-    "category": "RECERCA",
-    "date": "08.10.2026",
-    "title": "Investigadors del BSC aconsegueixen que un agent d'IA munti un prototip de bessó digital d'un tumor en menys de deu minuts",
-    "summary": "L'estudi, publicat a «npj Systems Biology and Applications», connecta els agents d'IA amb programes de modelatge del càncer i no exigeix saber programar.",
-    "detail": "Un bessó digital d'un tumor és un model informàtic que simula com creixen i es comporten les cèl·lules canceroses i com reaccionen a un tractament. Fins ara muntar-ne un exigia llegir documentació extensa, escriure codi i fer treballar plegats programes diferents, una feina que pot allargar-se durant mesos o anys.\n\nL'equip del Barcelona Supercomputing Center (BSC) que lidera Alfonso Valencia, amb Marco Ruscone com a primer signant i Miguel Vázquez, ha publicat a la revista «npj Systems Biology and Applications», del grup Nature, un sistema que acosta aquesta tasca a qualsevol investigador. Han creat uns servidors MCP (el protocol que permet que un agent d'IA faci servir eines externes) que connecten els agents amb tres programes de modelatge: NeKo, MaBoSS i PhysiCell. L'investigador descriu en llenguatge natural el problema biològic i l'agent munta el model. Segons els autors, algú amb la formació adequada pot obtenir un primer esbós de bessó digital en menys de deu minuts, i els servidors són d'accés obert per a tota la comunitat científica.\n\nEl valor del treball és que redueix la barrera tècnica: un biòleg que no programa pot provar hipòtesis sobre un tumor sense dependre d'un especialista en informàtica. Valencia el defineix com «un primer pas fonamental», i Ruscone ho resumeix dient que ara qualsevol investigador pot crear models biològics complexos simplement dialogant amb un agent.\n\nEls límits són clars. Els models de llenguatge són probabilístics i poden donar respostes lleugerament diferents a la mateixa pregunta; els autors sostenen que, si es repeteix la conversa, els resultats convergeixen en un nucli coherent, però la nota del centre no detalla com ho han mesurat. Tampoc no explica amb quina exactitud els models resultants reprodueixen dades experimentals, ni quins tipus de tumor s'han provat. El que s'obté és un prototip per començar a treballar, no un model clínic validat.",
-    "source": "Barcelona Supercomputing Center",
-    "url": "https://www.bsc.es/ca/noticies/noticies-del-bsc/investigadors-del-bsc-empren-agents-dia-crear-prototips-de-bessons-digitals-de-tumors-en-minuts",
-    "image": "./assets/bsc-agents-ia-bessons-digitals-tumors-npj-mcp-20261008.jpg"
   }
 ];
