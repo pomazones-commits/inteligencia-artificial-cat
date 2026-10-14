@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-13T18:31:29.626Z",
+ "actualitzat": "2026-10-14T04:14:42.943Z",
  "canals": 19,
  "videos": [
   {
@@ -512,18 +512,6 @@
    "publicat": "2026-09-23T10:08:26.000Z",
    "descripcio": "Speaker: Virginia Dignum, Professor of Responsible Artificial Intelligence at Umeå University. Abstract: Artificial Intelligence is changing how we work, study, and connect. However, conversations about AI are too often driven by hype or fear. Generative AI and large language models raise urgent que",
    "miniatura": "/assets/videos/Hit_KExD33k.jpg"
-  },
-  {
-   "id": "YDCB8Bk1OBE",
-   "titol": "Gemma 4 12B: The encoder-free model explained",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-09-22T23:00:10.000Z",
-   "descripcio": "Learn what makes Gemma 4 12B, Google's encoder-free open source language model, unique in the Gemma 4 family. Google DeepMind’s Maarten Grootendorst explains how it processes audio and image inputs without encoders. Subscribe to Google for Developers → https://goo.gle/developers Products Mentioned: ",
-   "miniatura": "/assets/videos/YDCB8Bk1OBE.jpg"
   }
  ]
 }
