@@ -1,30 +1,30 @@
 {
-  "date": "2026-10-13",
-  "title": "Qui paga el càlcul",
-  "dek": "Aigua a l'Índia, megawatts als centres de dades, subscripcions de 200 dòlars i una empresa que no aguanta la factura: avui la IA mostra el preu de fer-la funcionar.",
+  "date": "2026-10-14",
+  "title": "La confiança, avui, es mesura en supervisió",
+  "dek": "Els laboratoris avisen d'incidents greus, els pacients volen un metge al darrere i els fabricants de xips no donen l'abast: el fre ja no és només tècnic.",
   "body": [
-    "El fil d'avui és un de més prosaic que els de les darreres setmanes: quant costa fer funcionar la IA i qui ho acaba pagant. No ho diu cap notícia sola, però surt a quatre escales. A Visakhapatnam, a l'Índia, els veïns del centre de dades de 15.000 milions de dòlars que Google hi construeix temen per l'aigua i per l'electricitat. A la universitat de Michigan, un programari promet estalviar energia d'entrenament. A les subscripcions, SpaceXSI posa preu a cada nivell d'ús. I Character.AI ha entrat en concurs de creditors.",
-    "Comencem per la factura física. Segons l'AFP, a Visakhapatnam hi ha botigueres que expliquen que ja els falta aigua, i una d'elles diu que el seu pou s'ha assecat; els activistes reclamen una moratòria i una auditoria independent. Google respon que refrigerarà el centre amb aire, no amb aigua, i que generarà 688 milions de dòlars l'any d'activitat local. No sabem qui té raó, i aquí és on la notícia importa: mentre no hi hagi dades verificades de consum, la discussió es fa amb promeses i temors.",
-    "L'altra cara és la recerca per gastar menys. L'equip de Mosharaf Chowdhury, a Michigan, ha presentat Kareus, que va reduir un 10-30% l'energia d'entrenar dos models oberts, i la Universitat Koç explora fer part del càlcul amb llum perquè no escalfi tant. Són resultats reals però parcials: l'estalvi del 40-50% que els autors imaginen en sumar eines és una estimació, no una mesura. Convé no confondre eficiència amb reducció del consum total: un model que costa menys d'entrenar es pot, simplement, entrenar més vegades.",
-    "La factura també arriba al lector. SpaceXSI ha ordenat Grok, Cursor i X Premium en cinc nivells, de gratuït a 200 dòlars al mes, amb més ús d'IA a mesura que puja el preu, i l'API de Muse Wonder, de Meta, costa 4 dòlars per milió de fitxes d'entrada i 20 de sortida. El contrast és Character.AI: cinc anys després de néixer, i amb una llicència a Google de 2.700 milions pel camí, segons TechCrunch no ha aconseguit que el negoci s'aguanti perquè com més s'usa, més costa. Els usuaris no només consumeixen IA: la financen, o no.",
-    "Per això la pregunta de demà no és quin model és el millor, sinó quins preus aguanten. Convé mirar si els centres de dades com el de Visakhapatnam publiquen xifres d'aigua i energia que es puguin comprovar, si altres serveis de companyia d'IA segueixen el camí de Character.AI i si les subscripcions de més de 100 dòlars troben prou compradors. Ahir parlàvem de qui posa els límits a la IA; avui, de qui en paga la despesa. Són dues maneres de preguntar el mateix: qui carrega amb les conseqüències."
+    "Avui la IA ha parlat sobretot de límits, i n'ha parlat des de bandes que no sempre s'escolten entre elles. Demis Hassabis, el cap de Google DeepMind, ha dit a Dublín que els pirateigs fets amb agents d'IA són «els primers advertiments» i que podrien venir incidents greus d'aquí a un parell d'anys si no es reforcen les proteccions. Anthropic, per la seva banda, ha avisat que uns models petits podrien copiar-se sols d'un aparell connectat a un altre d'aquí a pocs mesos. Quan els qui construeixen els models són els primers a posar-hi data, el debat deixa de ser teòric.",
+    "El més nou d'avui no és l'avís, que ja havíem sentit, sinó qui el fa i què proposa. Hassabis no demana aturar res: demana importar pràctiques de la biologia i del sector nuclear, una certificació proporcional al risc i, més endavant, un organisme internacional que sigui àgil. És una posició més concreta que la simple inquietud, però continua sent una opinió sense dades noves ni cap incident descrit. Convé distingir entre l'ambició d'un marc regulador i la prova que els controls actuals fallen, perquè avui només tenim la primera.",
+    "Mentrestant, la gent corrent diu el que vol d'una IA, i ho diu amb una claredat poc habitual. Una enquesta publicada a «JAMA Network Open» troba que el 63% dels nord-americans no avalaria respostes mèdiques d'IA sense la revisió d'un clínic, i un estudi de la Universitat de Munic apunta que, davant del mateix comportament, la gent atribueix menys consciència a una IA que a una persona. Són dues maneres de dir el mateix: acceptem l'eina, però volem saber qui hi respon. La confiança, avui, no es mesura en capacitats, sinó en supervisió.",
+    "Aquesta cautela contrasta amb el ritme del negoci. ASML, que fabrica les màquines que fan possibles els xips avançats, ha reconegut que no podrà servir tota la demanda del 2027 i el 2028, i hi ha clients que ja volen reservar per al 2029 i el 2030. Un obstacle físic, com la fabricació de màquines, és un fre de debò, mentre que els avisos de seguretat encara depenen de decisions polítiques. A l'altre extrem, el cas de l'enginyer d'OpenAI detingut per amagar una gravadora a una sala de reunions recorda que els riscos també són humans i molt antics.",
+    "Hi ha una part de la jornada que no encaixa en cap tensió: la ciència que funciona. Uns agents d'IA que no parteixen de cap vocabulari s'acorden sols un llenguatge per descriure dades de sensors; una xarxa amplia de 152 a 9.389 les reaccions que expliquen com es converteix el CO₂ en metanol, i a Collserola un projecte pilot detecta fum i avisa en uns tres minuts. Són resultats modestos i acotats, però amb un mètode i una mesura, justament el que demanen els qui reclamen més supervisió. Demà caldrà mirar si algun d'aquests avisos es converteix en una mesura concreta o es queda en un titular."
   ],
   "signals": [
     {
-      "title": "El centre de dades de 15.000 milions que Google construeix a Visakhapatnam desperta protestes pel cost de l'aigua, l'energia i la terra",
-      "slug": "google-vizag-centre-dades-india-protestes"
+      "title": "Hassabis veu en els pirateigs fets amb agents d'IA «els primers advertiments» i alerta d'incidents greus en un parell d'anys",
+      "slug": "hassabis-primers-avisos-incidents-greus-ia-dublin"
     },
     {
-      "title": "Una eina de la Universitat de Michigan redueix entre un 10% i un 30% l'energia d'entrenar grans models d'IA, segons els autors",
-      "slug": "kareus-perseus-estalvi-energia-entrenament-ia-michigan"
+      "title": "El 63% dels nord-americans no avalaria respostes mèdiques d'IA sense la revisió d'un clínic, segons una enquesta a 1.185 adults",
+      "slug": "jama-enquesta-pacients-respostes-ia-sense-revisio"
     },
     {
-      "title": "Dos estudis de la Universitat Koç fan servir la llum i un làser de fibra per classificar imatges amb una precisió de fins al 99%",
-      "slug": "koc-processadors-optics-fibra-laser-classificacio-imatges"
+      "title": "ASML tanca el trimestre amb 11.700 milions d'euros de vendes i admet que no podrà servir tota la demanda de xips d'IA del 2027 i el 2028",
+      "slug": "asml-vendes-record-demanda-xips-2028"
     },
     {
-      "title": "Meta estrena Muse Wonder, els seus primers models de gamma alta",
-      "slug": "meta-muse-wonder-models-gamma-alta"
+      "title": "Anthropic adverteix que uns models d'IA petits podrien copiar-se sols d'un aparell connectat a un altre d'aquí a pocs mesos",
+      "slug": "anthropic-models-ia-petits-copiar-se-aparells-connectats"
     }
   ]
 }
