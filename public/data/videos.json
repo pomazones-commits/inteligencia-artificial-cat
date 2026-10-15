@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-15T15:44:38.115Z",
+ "actualitzat": "2026-10-15T16:14:14.527Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "nSwmcs37Jd4",
+   "titol": "Gemini 4 Argon in Antigravity",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-15T16:00:02.000Z",
+   "descripcio": "Gemini 4 Argon is live in Google Antigravity, our agent-first software development platform. You may have tried Antigravity before, but with our frontier model it’s more fun to build in than ever. Watch as we build a 3D pagoda model, a racing game, a handheld game-console, and a 3D world running on ",
+   "miniatura": "/assets/videos/nSwmcs37Jd4.jpg"
+  },
   {
    "id": "BOTAeAU5ExQ",
    "titol": "Weeks to Hours: SentinelOne on Cybersecurity Research with OpenAI",
@@ -536,18 +548,6 @@
    "publicat": "2026-09-24T23:02:25.000Z",
    "descripcio": "Valeria Wu (Google DeepMind) and Soham Ray (Sierra AI) explore the latest advances in native audio models and the challenges of building better real-time voice experiences. They discuss conversational latency, multilingual code-switching, agentic voice tasks, and how new benchmarks can better measur",
    "miniatura": "/assets/videos/-G431WC_-RM.jpg"
-  },
-  {
-   "id": "xAgq8ByWK0M",
-   "titol": "10 Years of NVIDIA DGX: From One System to AI Factories",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-09-24T16:00:27.000Z",
-   "descripcio": "A decade ago, Jensen Huang introduced DGX-1 to help researchers tackle AI challenges once thought out of reach. He delivered the first DGX-1 to OpenAI, which started the AI revolution. What began as a single system has evolved into the blueprint for the modern AI factory—driving breakthroughs across",
-   "miniatura": "/assets/videos/xAgq8ByWK0M.jpg"
   }
  ]
 }
