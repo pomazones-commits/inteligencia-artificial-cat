@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-15T04:18:14.139Z",
+ "actualitzat": "2026-10-15T08:14:34.593Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d543f3a1191d",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Móviles, televisores y electrodomésticos: Anthropic alerta del riesgo de los gusanos informáticos de IA",
+   "url": "https://www.informacion.es/tendencias21/2026/10/15/moviles-televisores-electrodomesticos-anthropic-alerta-135356335.html",
+   "publicat": "2026-10-15T07:40:41.000Z"
+  },
+  {
+   "id": "bf053feb5865",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic calienta su histórica salida a Bolsa con un aumento trimestral de sus ingresos del 46%",
+   "url": "https://cincodias.elpais.com/companias/2026-10-15/anthropic-calienta-su-historica-salida-a-bolsa-con-un-aumento-trimestral-de-sus-ingresos-del-46.html",
+   "publicat": "2026-10-15T07:13:38.000Z"
+  },
+  {
+   "id": "e7e130909a4e",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "OpenAI, la impulsora de ChatGPT, demandada por ocho estados de EEUU por \"causar daños a niños\" e infringir la ley",
+   "url": "https://www.informacion.es/nacional/2026/10/15/openai-impulsora-chatgpt-demandada-ocho-135353105.html",
+   "publicat": "2026-10-15T06:32:17.000Z"
+  },
+  {
+   "id": "198fa635eb44",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Másteres de marketing en 2026: cómo integrar la IA y qué ofrece ESIC Barcelona",
+   "url": "https://www.lavanguardia.com/vida/formacion/20261005/11643665/masteres-marketing-reinventan-esic-barcelona-claro-ninguno-permitirse-ensenar-ia-mkt-esic.html",
+   "publicat": "2026-10-15T06:26:06.000Z"
+  },
+  {
+   "id": "30983d146446",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El 60% de l'atenció al client a Europa estarà en mans de la IA el 2027",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/60-atencio-client-europa-estara-en-mans-ia-2027_1709851_102.html",
+   "publicat": "2026-10-15T06:16:10.000Z"
+  },
+  {
+   "id": "11d99ed226cb",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Una dona va creure durant un any que sortia amb Jon Bon Jovi: així evoluciona la IA per estafar",
+   "url": "https://www.elnacional.cat/ca/tecnologia/dona-va-creure-durant-any-sortia-jon-bon-jovi-aixi-evoluciona-ia-estafar_1709815_102.html",
+   "publicat": "2026-10-15T05:00:00.000Z"
+  },
   {
    "id": "c0c0dd006bc7",
    "mitja": "Alicante Plaza",
@@ -13,6 +79,17 @@
    "titol": "Tierra de empresas | El CEEI Elche organiza desayunos empresariales sobre IA con directivos de Gioseppo, Simetry y ASV",
    "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/como-la-ia-esta-cambiando-la-forma-de-dirigir-las-empresas-en-los-coffe-ceo-del-ceei-elche",
    "publicat": "2026-10-15T04:00:05.000Z"
+  },
+  {
+   "id": "aac8712bb5b5",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Experts mostren aplicacions de la IA per a la gestió de personal en empreses",
+   "url": "https://www.segre.com/ca/lleida/261015/experts-mostren-aplicacions-ia-per-gestio-personal-empreses_1364275.html",
+   "publicat": "2026-10-15T03:34:12.000Z"
   },
   {
    "id": "60aa2b146e6b",
@@ -26,6 +103,17 @@
    "publicat": "2026-10-15T03:33:13.000Z"
   },
   {
+   "id": "6a2f7739fc53",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Oncolliga Lleida finança un projecte per predir l’evolució del melanoma amb IA",
+   "url": "https://www.segre.com/ca/societat/261015/oncolliga-lleida-financa-projecte-per-predir-l-evolucio-melanoma-amb-ia_1364247.html",
+   "publicat": "2026-10-15T03:31:50.000Z"
+  },
+  {
    "id": "26d414a865e5",
    "mitja": "El Periódico",
    "font": "elperiodico-totes",
@@ -35,6 +123,17 @@
    "titol": "Más allá del algoritmo: cómo llevar la IA a la industria empresarial",
    "url": "https://www.elperiodico.com/es/consorci-zona-franca/20261015/algoritmo-llevar-ia-industria-empresarial-bc-135061249",
    "publicat": "2026-10-15T03:30:51.000Z"
+  },
+  {
+   "id": "cc7c9f8b2023",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los trabajadores europeos que entrenan las IA: “Ya sabía que me metía en unas condiciones que no eran las mejores”",
+   "url": "https://elpais.com/tecnologia/2026-10-15/los-trabajadores-europeos-que-entrenan-las-ia-ya-sabia-que-me-metia-en-unas-condiciones-que-no-eran-las-mejores.html",
+   "publicat": "2026-10-15T03:30:01.000Z"
   },
   {
    "id": "a199093adede",
