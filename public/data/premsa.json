@@ -1,7 +1,7 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-14T23:29:38.755Z",
- "fonts": 34,
+ "actualitzat": "2026-10-15T02:42:15.985Z",
+ "fonts": 44,
  "articles": [
   {
    "id": "eeaa01903896",
@@ -13,6 +13,17 @@
    "titol": "Carissa Véliz, filósofa: “La IA presenta las predicciones como hechos, pero la democracia necesita incertidumbre para ser libre”",
    "url": "https://cincodias.elpais.com/economia/foro-creo-creando-oportunidades/2026-10-14/carissa-veliz-filosofa-la-ia-presenta-las-predicciones-como-hechos-pero-la-democracia-necesita-incertidumbre-para-ser-libre.html",
    "publicat": "2026-10-14T20:15:39.000Z"
+  },
+  {
+   "id": "14cca1c8ddba",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Gandia Pensa aborda el impacto de la inteligencia artificial: \"Nos acompaña desde que somos sapiens\"",
+   "url": "https://www.levante-emv.com/safor/2026/10/14/gandia-pensa-aborda-impacto-inteligencia-135345410.html",
+   "publicat": "2026-10-14T20:02:34.000Z"
   },
   {
    "id": "5121d2e7f8d8",
@@ -114,6 +125,17 @@
    "publicat": "2026-10-14T15:30:00.000Z"
   },
   {
+   "id": "66d14e63d3b5",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alcoy - El Comtat | Sin IA, con mucha alcoyanía y por encargo: así será el cartel de la Cabalgata de Alcoy tras quitar el concurso",
+   "url": "https://alicanteplaza.es/alicanteplaza/alcoy-el-comtat/sin-ia-con-mucha-alcoyania-y-por-encargo-asi-sera-el-cartel-de-la-cabalgata-de-alcoy-tras-quitar-el-concurso",
+   "publicat": "2026-10-14T14:35:39.000Z"
+  },
+  {
    "id": "43dca052e1fc",
    "mitja": "Cinco Días",
    "font": "cincodias",
@@ -145,6 +167,17 @@
    "titol": "Ramon Torrents, president d’AMIC: «Els mitjans locals són primordials per a la IA»",
    "url": "https://www.dbalears.cat/mitjans-mallorquins/ona-mediterrania/2026/10/14/423305/ramon-torrents-president-amic-els-mitjans-locals-son-primordials-per.html",
    "publicat": "2026-10-14T13:35:00.000Z"
+  },
+  {
+   "id": "35afe3c7da9d",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Crean un detector de ideas generadas por IA: se enfoca en los argumentos y no en el texto",
+   "url": "https://www.levante-emv.com/tendencias21/2026/10/14/crean-detector-ideas-generadas-ia-135330203.html",
+   "publicat": "2026-10-14T13:30:07.000Z"
   },
   {
    "id": "11f236e1263b",
@@ -204,6 +237,17 @@
    "publicat": "2026-10-14T10:38:50.000Z"
   },
   {
+   "id": "ed6e6f2fcf16",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Deezer agregará una función para excluir la música generada por IA de los resultados de búsqueda",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/14/2728611/deezer-agregara-funcion-para-excluir-musica-generada-por-resultados-busqueda.html",
+   "publicat": "2026-10-14T10:12:00.000Z"
+  },
+  {
    "id": "2d2d6fdb676f",
    "mitja": "La Vanguardia",
    "font": "lavanguardia-totes",
@@ -224,6 +268,50 @@
    "titol": "Cuatro años de cola para comprar máquinas de chips: la fiebre de la IA desborda al gigante europeo ASML",
    "url": "https://www.eldiario.es/tecnologia/cuatro-anos-cola-comprar-maquinas-chips-fiebre-ia-desborda-gigante-europeo-asml_1_13583869.html",
    "publicat": "2026-10-14T10:02:26.000Z"
+  },
+  {
+   "id": "03f99a1944f0",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Más de 400 científicos de todo el mundo piden una regulación internacional de la IA para minimizar su riesgo",
+   "url": "https://www.informacion.es/tecnologia/2026/10/14/cientificos-mundo-piden-regulacion-ia-riesgos-ciberataques-openai-anthropic-135318105.html",
+   "publicat": "2026-10-14T09:56:36.000Z"
+  },
+  {
+   "id": "5f285430500a",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Más de 400 científicos de todo el mundo piden una regulación internacional de la IA para minimizar su riesgo",
+   "url": "https://www.diariodemallorca.es/vida-y-estilo/tecnologia/2026/10/14/cientificos-mundo-piden-regulacion-ia-riesgos-ciberataques-openai-anthropic-135318102.html",
+   "publicat": "2026-10-14T09:56:36.000Z"
+  },
+  {
+   "id": "e9ed6fc236e9",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Más de 400 científicos de todo el mundo piden una regulación internacional de la IA para minimizar su riesgo",
+   "url": "https://www.levante-emv.com/vida-y-estilo/tecnologia/2026/10/14/cientificos-mundo-piden-regulacion-ia-riesgos-ciberataques-openai-anthropic-135318108.html",
+   "publicat": "2026-10-14T09:56:36.000Z"
+  },
+  {
+   "id": "51d52427b1aa",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "“Las máquinas no toman decisiones, los humanos somos responsables”: Adela Cortina analiza el papel de la IA en las empresas en el Foro Alicante",
+   "url": "https://www.informacion.es/economia/2026/10/14/maquinas-toman-decisiones-humanos-responsables-135317466.html",
+   "publicat": "2026-10-14T09:53:54.000Z"
   },
   {
    "id": "8fcbc8f03490",
@@ -283,6 +371,17 @@
    "noticiaTitol": "Indra posa 10 milions d'euros a Qilimanjaro, l'empresa catalana de computació quàntica, per aplicar-la a la IA i la robòtica"
   },
   {
+   "id": "1432f3e24988",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Xbox Labs experimentará con las posibilidades que abre la IA en el desarrollo de nuevas experiencias para videojuegos",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/14/2728553/xbox-labs-experimentara-las-posibilidades-abre-desarrollo-nuevas-experiencias-para-videojuegos.html",
+   "publicat": "2026-10-14T08:57:00.000Z"
+  },
+  {
    "id": "42b3b6b44d5c",
    "mitja": "La Vanguardia",
    "font": "lavanguardia-totes",
@@ -327,6 +426,17 @@
    "publicat": "2026-10-14T08:44:17.000Z"
   },
   {
+   "id": "2a07e346a63a",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Medusa Festival imagina el futuro en Cullera con robots, inteligencia artificial y una 'nueva era' para bailar",
+   "url": "https://www.levante-emv.com/ribera/2026/10/14/medusa-festival-imagina-futuro-cullera-135314752.html",
+   "publicat": "2026-10-14T08:44:07.000Z"
+  },
+  {
    "id": "28917a8feb35",
    "mitja": "La Vanguardia",
    "font": "lavanguardia-totes",
@@ -349,6 +459,39 @@
    "publicat": "2026-10-14T08:35:14.000Z",
    "noticia": "openai-enginyer-detingut-gravadora-sala-reunions",
    "noticiaTitol": "L'FBI deté un enginyer d'OpenAI acusat d'amagar una gravadora darrere d'una televisió d'una sala de reunions directives"
+  },
+  {
+   "id": "74975c1dc0d5",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El FBI detiene a un empleado de OpenAI acusado de colocar una grabadora para espiar reuniones confidenciales",
+   "url": "https://www.diariodemallorca.es/vida-y-estilo/tecnologia/2026/10/14/espionaje-openai-fbi-detiene-empleado-grabadora-microfono-reuniones-confidenciales-secreto-chatgpt-135314593.html",
+   "publicat": "2026-10-14T08:33:31.000Z"
+  },
+  {
+   "id": "896a013a2cc4",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El FBI detiene a un empleado de OpenAI acusado de colocar una grabadora para espiar reuniones confidenciales",
+   "url": "https://www.levante-emv.com/vida-y-estilo/tecnologia/2026/10/14/espionaje-openai-fbi-detiene-empleado-grabadora-microfono-reuniones-confidenciales-secreto-chatgpt-135314600.html",
+   "publicat": "2026-10-14T08:33:31.000Z"
+  },
+  {
+   "id": "da0b4117e20f",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El FBI detiene a un empleado de OpenAI acusado de colocar una grabadora para espiar reuniones confidenciales",
+   "url": "https://www.informacion.es/tecnologia/2026/10/14/espionaje-openai-fbi-detiene-empleado-grabadora-microfono-reuniones-confidenciales-secreto-chatgpt-135314601.html",
+   "publicat": "2026-10-14T08:33:31.000Z"
   },
   {
    "id": "92f6311a63d0",
@@ -417,6 +560,17 @@
    "publicat": "2026-10-14T07:59:07.000Z"
   },
   {
+   "id": "7533bb538386",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una IA de Anthropic confunde a la policía al proporcionar una pista falsa sobre un asesinato sin resolver",
+   "url": "https://www.levante-emv.com/tendencias21/2026/10/14/ia-anthropic-confunde-policia-proporcionar-135312467.html",
+   "publicat": "2026-10-14T07:41:03.000Z"
+  },
+  {
    "id": "f28b4a04a81d",
    "mitja": "El Nacional",
    "font": "elnacional-totes",
@@ -448,6 +602,39 @@
    "titol": "La IA, a examen entre juristas: ¿la usan a diario? ¿es una bendición o un castigo para el sector?",
    "url": "https://cincodias.elpais.com/legal/2026-10-14/la-ia-a-examen-entre-juristas-la-usan-a-diario-es-una-bendicion-o-un-castigo-para-el-sector.html",
    "publicat": "2026-10-14T06:31:00.000Z"
+  },
+  {
+   "id": "0ecb6ee78499",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
+   "url": "https://www.informacion.es/economia/2026/10/14/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135309827.html",
+   "publicat": "2026-10-14T05:19:52.000Z"
+  },
+  {
+   "id": "3a07efb871b1",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
+   "url": "https://www.levante-emv.com/economia/2026/10/14/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135309843.html",
+   "publicat": "2026-10-14T05:19:52.000Z"
+  },
+  {
+   "id": "c4ae16e727c9",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
+   "url": "https://www.diariodemallorca.es/economia/2026/10/14/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135309839.html",
+   "publicat": "2026-10-14T05:19:52.000Z"
   },
   {
    "id": "c3cff9b3f22a",
@@ -604,6 +791,17 @@
    "publicat": "2026-10-13T13:37:00.000Z"
   },
   {
+   "id": "956dd8a91810",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Apple HomeView, la pantalla inteligente de Apple para el hogar conectado con Siri AI y reconocimiento de rostro",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/13/2728083/apple-homeview-pantalla-inteligente-apple-para-hogar-conectado-siri-reconocimiento-rostro.html",
+   "publicat": "2026-10-13T13:32:00.000Z"
+  },
+  {
    "id": "b66a8e7eb671",
    "mitja": "El Nacional",
    "font": "elnacional-totes",
@@ -615,6 +813,39 @@
    "publicat": "2026-10-13T13:15:00.000Z",
    "noticia": "apple-homeview-pantalla-llar-299-dolars-sense-data-espanya",
    "noticiaTitol": "Apple presenta HomeView, la seva primera pantalla per a la llar, a 299 dòlars i sense data d'arribada a Espanya ni a la resta de la UE"
+  },
+  {
+   "id": "252242ee5416",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El crecimiento de la economía mundial depende en exceso de la inversión de la IA a través de deuda, según el FMI",
+   "url": "https://www.diariodemallorca.es/economia/2026/10/13/crecimiento-economia-mundial-depende-exceso-135287246.html",
+   "publicat": "2026-10-13T13:05:20.000Z"
+  },
+  {
+   "id": "867affcf64ca",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El crecimiento de la economía mundial depende en exceso de la inversión de la IA a través de deuda, según el FMI",
+   "url": "https://www.levante-emv.com/economia/2026/10/13/crecimiento-economia-mundial-depende-exceso-135287245.html",
+   "publicat": "2026-10-13T13:05:20.000Z"
+  },
+  {
+   "id": "d313d5fa25e3",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El crecimiento de la economía mundial depende en exceso de la inversión de la IA a través de deuda, según el FMI",
+   "url": "https://www.informacion.es/economia/2026/10/13/crecimiento-economia-mundial-depende-exceso-135287264.html",
+   "publicat": "2026-10-13T13:05:20.000Z"
   },
   {
    "id": "5d8ae1fbaa2d",
@@ -637,6 +868,17 @@
    "titol": "La sanitat gironina alerta de l'allau d'eines d'intel·ligència artificial i demana garanties",
    "url": "https://www.diaridegirona.cat/comarques/2026/10/13/sanitat-gironina-alerta-lallau-deines-135284929.html",
    "publicat": "2026-10-13T12:24:00.000Z"
+  },
+  {
+   "id": "f4887d13f767",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Ayuntamiento de Alcoy fulmina el concurso del cartel de la Cabalgata tras las polémicas con la IA",
+   "url": "https://www.informacion.es/alcoy/2026/10/13/ayuntamiento-alcoy-fulmina-concurso-cartel-135282927.html",
+   "publicat": "2026-10-13T12:12:50.000Z"
   },
   {
    "id": "897b3f64a66e",
@@ -707,6 +949,17 @@
    "publicat": "2026-10-13T09:57:43.000Z"
   },
   {
+   "id": "99019e720694",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Epic retrasa el lanzamiento de su juego basado en Star Wars y Marvel: el código y todo el arte se harán con IA",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/13/2727855/epic-retrasa-lanzamiento-juego-basado-star-wars-marvel-codigo-todo-arte-haran-ia.html",
+   "publicat": "2026-10-13T09:54:00.000Z"
+  },
+  {
    "id": "31bd555fa9c7",
    "mitja": "La Vanguardia",
    "font": "lavanguardia-totes",
@@ -716,6 +969,17 @@
    "titol": "Meta presenta Muse Wonder, su inteligencia artificial más avanzada para superar a OpenAI y Anthropic",
    "url": "https://www.lavanguardia.com/neo/ia/20261013/11657673/meta-presenta-muse-wonder-inteligencia-artificial-mas-avanzada-superar-openai-anthropic.html",
    "publicat": "2026-10-13T09:50:01.000Z"
+  },
+  {
+   "id": "055338ac5878",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic dice que los modelos pequeños están a \"meses\" de autorreplicarse de forma autónoma en el IoT",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/13/2727837/anthropic-dice-los-modelos-pequenos-estan-meses-autorreplicarse-forma-autonoma-iot.html",
+   "publicat": "2026-10-13T09:23:00.000Z"
   },
   {
    "id": "79c85f15dc0c",
@@ -740,6 +1004,17 @@
    "publicat": "2026-10-13T09:01:10.000Z"
   },
   {
+   "id": "b300afde4c49",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Microsoft presenta Maia 300, su nuevo chip optimizado para escalar su infraestructura de IA que llegará en 2027",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/13/2727759/microsoft-presenta-maia-300-nuevo-chip-optimizado-para-escalar-infraestructura-llegara-2027.html",
+   "publicat": "2026-10-13T08:38:24.000Z"
+  },
+  {
    "id": "75f2211b93dc",
    "mitja": "Cinco Días",
    "font": "cincodias",
@@ -760,6 +1035,17 @@
    "titol": "Hemos creado con IA una app para ayudar a los mayores y puedes probarla",
    "url": "https://www.lavanguardia.com/vida/20261013/11654606/hemos-creado-ia-app-ayudar-mayores-puedes-probarla.html",
    "publicat": "2026-10-13T08:04:47.000Z"
+  },
+  {
+   "id": "798f2200b449",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Inditex sufre un fuerte deterioro de su reputación algorítmica en la IA china DeepSeek, según RepIndex.AI",
+   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/10/13/2728093/inditex-sufre-fuerte-deterioro-reputacion-algoritmica-china-deepseek-segun-repindex-ai.html",
+   "publicat": "2026-10-13T07:56:00.000Z"
   },
   {
    "id": "bcd8d34352d5",
@@ -784,6 +1070,28 @@
    "publicat": "2026-10-13T07:05:13.000Z"
   },
   {
+   "id": "01ae964219a1",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Antonio Banderas da un paso adelante y se alía con la IA para convertirse en Hernán Cortés",
+   "url": "https://www.diariodemallorca.es/ocio/cine/2026/10/13/antonio-banderas-da-paso-adelante-135267868.html",
+   "publicat": "2026-10-13T06:39:49.000Z"
+  },
+  {
+   "id": "05966a732eb2",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Antonio Banderas da un paso adelante y se alía con la IA para convertirse en Hernán Cortés",
+   "url": "https://www.informacion.es/ocio/cine/2026/10/13/antonio-banderas-da-paso-adelante-135267886.html",
+   "publicat": "2026-10-13T06:39:49.000Z"
+  },
+  {
    "id": "364cb476aa66",
    "mitja": "El Periódico",
    "font": "elperiodico-totes",
@@ -792,6 +1100,17 @@
    "ambit": "catala",
    "titol": "Antonio Banderas da un paso adelante y se alía con la IA para convertirse en Hernán Cortés",
    "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261013/antonio-banderas-da-paso-adelante-135267882",
+   "publicat": "2026-10-13T06:39:49.000Z"
+  },
+  {
+   "id": "bebe4ef8141e",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Antonio Banderas da un paso adelante y se alía con la IA para convertirse en Hernán Cortés",
+   "url": "https://www.levante-emv.com/ocio/cine/2026/10/13/antonio-banderas-da-paso-adelante-135267887.html",
    "publicat": "2026-10-13T06:39:49.000Z"
   },
   {
@@ -982,6 +1301,17 @@
    "publicat": "2026-10-12T09:51:15.000Z",
    "noticia": "davant-girona-ia-assessor-financer-personal",
    "noticiaTitol": "Dos gironins aixequen 200.000 euros per crear Davant, una aplicació d'IA que vol fer d'assessor financer personal"
+  },
+  {
+   "id": "866213e569db",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Taylor Swift registra su imagen como marca en Europa para protegerse de la IA",
+   "url": "https://www.informacion.es/economia/2026/10/12/conexion-alicantina-taylor-swift-cantante-135243087.html",
+   "publicat": "2026-10-12T09:45:18.000Z"
   },
   {
    "id": "16a37a048089",
