@@ -531,6 +531,11 @@ function deriveRadar(items, date) {
     ...(story.image ? { image: story.image } : {}),
     ...(story.imageCredit ? { imageCredit: story.imageCredit, imageLicense: story.imageLicense } : {}),
     ...(story.imageSourceUrl ? { imageSourceUrl: story.imageSourceUrl } : {}),
+    // 15.10.2026: `slug` (públic) diu on és la pàgina pròpia de la notícia a
+    // article.php, perquè els correus i el web hi puguin enllaçar directament.
+    // Les peces del feed la tenen a l'hemeroteca; les radar-only, a
+    // data/radar-arxiu.json (vegeu ingestNews).
+    ...(story.slug ? { slug: story.slug } : {}),
     _slug: story.slug
   }));
 }
@@ -638,6 +643,13 @@ async function ingestNews(options) {
   // El radar es deriva ABANS d'esborrar el camp intern: si no, les peces
   // marcades "catalunya" ja l'haurien perdut quan s'avaluen.
   const radarIncoming = deriveRadar(incoming, date);
+  // 15.10.2026: les peces radar-only no surten al feed ni a l'hemeroteca, però
+  // necessiten pàgina pròpia (article.php?slug=...). Es guarden senceres a
+  // data/radar-arxiu.json; només les que han entrat de debò al radar.
+  const radarSlugs = new Set(radarIncoming.map(signal => signal._slug));
+  const radarOnlyStories = incoming
+    .filter(story => story.seccio === 'radar' && radarSlugs.has(story.slug))
+    .map(({ seccio, ...story }) => ({ ...story, editionDate: date }));
   const feedIncoming = incoming.filter(story => story.seccio !== 'radar');
   for (const story of feedIncoming) delete story.seccio;
   const items = mergeNews(feedIncoming, previous, target);
@@ -730,6 +742,15 @@ async function ingestNews(options) {
   );
   await atomicWrite(archivePath, `${JSON.stringify({ updatedAt: now, items: archivedItems }, null, 2)}\n`);
   await atomicWrite(join(publicDir, 'data', 'archive.json'), `${JSON.stringify(archivedItems, null, 2)}\n`);
+
+  // Arxiu de les peces radar-only (15.10.2026): el llegeix article.php com a
+  // últim recurs, perquè cada notícia del radar tingui pàgina pròpia.
+  if (radarOnlyStories.length) {
+    const radarArchivePath = join(publicDir, 'data', 'radar-arxiu.json');
+    const previousRadarArchive = await readJson(radarArchivePath, []);
+    const radarArchive = mergeNews(radarOnlyStories, Array.isArray(previousRadarArchive) ? previousRadarArchive : [], 1000);
+    await atomicWrite(radarArchivePath, `${JSON.stringify(radarArchive, null, 2)}\n`);
+  }
 
   const newsletter = {
     editionDate: date,

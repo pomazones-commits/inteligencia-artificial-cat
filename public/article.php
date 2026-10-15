@@ -58,6 +58,23 @@ if (!$article && $slug !== '' && is_array($flatArchive)) {
     }
 }
 
+// Quart recurs (15.10.2026): les notícies que només surten al «Radar català»
+// (seccio "radar") no són ni al feed ni a l'hemeroteca. El Content Hub les
+// guarda a data/radar-arxiu.json perquè també tinguin pàgina pròpia i els
+// correus als protagonistes hi puguin enllaçar directament.
+if (!$article && $slug !== '') {
+    $radarArxiuFile = __DIR__ . '/data/radar-arxiu.json';
+    $radarArxiu = is_file($radarArxiuFile) ? json_decode((string) file_get_contents($radarArxiuFile), true) : [];
+    foreach ((array) $radarArxiu as $item) {
+        if (!is_array($item) || ($item['slug'] ?? '') !== $slug) { continue; }
+        $article = $item;
+        if (preg_match('/^\d{4}-\d{2}-\d{2}$/', (string) ($item['editionDate'] ?? ''))) {
+            $publishedIso = (string) $item['editionDate'];
+        }
+        break;
+    }
+}
+
 $found = $article !== null;
 if (!$article) {
     http_response_code(404);

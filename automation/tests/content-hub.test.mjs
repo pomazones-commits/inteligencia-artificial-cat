@@ -140,6 +140,42 @@ test('una notícia amb seccio "radar" dels territoris va només al radar, no al 
   assert.ok(!archive.some(item => item.slug === 'adopcio-empresa-gandia-ia'), 'la notícia radar-only no s’arxiva a l’hemeroteca del feed');
 });
 
+test('les peces radar-only tenen pàgina pròpia: slug al radar i arxiu a data/radar-arxiu.json (15.10.2026)', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const radarOnly = {
+    ...story(1),
+    slug: 'ceei-elx-esmorzars-ia',
+    sourceUrl: 'https://example.com/ceei-elx',
+    category: 'EMPRESA',
+    title: "El CEEI d'Elx organitza esmorzars sobre la IA a l'empresa",
+    excerpt: 'Tres trobades amb directius a Elx.',
+    seccio: 'radar'
+  };
+  const feedCatala = { ...story(2), slug: 'barcelona-projecte-ia', sourceUrl: 'https://example.com/bcn', title: 'Barcelona posa en marxa un projecte d’IA', seccio: 'catalunya' };
+  const first = join(root, 'first.json');
+  await writeFile(first, JSON.stringify([radarOnly, feedCatala, story(3), story(5), story(7)]), 'utf8');
+  assert.equal(run(['ingest-news', '--input', first, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-10-15'], root).status, 0);
+
+  const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.equal(radar.find(item => item.title === radarOnly.title)?.slug, 'ceei-elx-esmorzars-ia', 'la peça radar-only porta el slug al radar');
+  assert.equal(radar.find(item => item.title === feedCatala.title)?.slug, 'barcelona-projecte-ia', 'la peça del feed també porta el slug al radar');
+
+  const arxiu = JSON.parse(await readFile(join(root, 'data', 'radar-arxiu.json'), 'utf8'));
+  assert.equal(arxiu.length, 1, 'només s’arxiva la peça radar-only');
+  assert.equal(arxiu[0].slug, 'ceei-elx-esmorzars-ia');
+  assert.equal(arxiu[0].body, radarOnly.body, 'es guarda la notícia sencera');
+  assert.equal(arxiu[0].editionDate, '2026-10-15');
+  assert.ok(!('seccio' in arxiu[0]), 'el camp intern seccio no arriba a l’arxiu públic');
+
+  // Un segon lot no esborra l'arxiu anterior.
+  const second = join(root, 'second.json');
+  const altra = { ...radarOnly, slug: 'ubesol-cocentaina', sourceUrl: 'https://example.com/ubesol', title: 'Ubesol obre una fàbrica a Cocentaina' };
+  await writeFile(second, JSON.stringify([altra, story(9), story(11), story(13), story(15), story(17)]), 'utf8');
+  assert.equal(run(['ingest-news', '--input', second, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-10-15'], root).status, 0);
+  const arxiu2 = JSON.parse(await readFile(join(root, 'data', 'radar-arxiu.json'), 'utf8'));
+  assert.deepEqual(arxiu2.map(item => item.slug), ['ubesol-cocentaina', 'ceei-elx-esmorzars-ia']);
+});
+
 test('el radar català descarta les notícies estatals marcades i accepta les dels territoris (15.10.2026)', async () => {
   const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
   const input = join(root, 'batch.json');
