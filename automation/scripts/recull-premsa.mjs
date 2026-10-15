@@ -264,13 +264,25 @@ export function fusiona(existents, nous, { ara = new Date(), dies = DIES_FINESTR
   // La mateixa peça pot sortir a dos feeds del mateix diari (portada i
   // tecnologia) amb adreces lleugerament diferents: es queda la primera vista.
   const vistos = new Set();
-  const tots = [...sols, ...perArticle.values()].sort(ordreAntic).filter(p => {
+  const perMitja = [...sols, ...perArticle.values()].sort(ordreAntic).filter(p => {
     const clau = clauTitol(p.mitja, p.titol);
     if (vistos.has(clau)) return false;
     vistos.add(clau);
     return true;
   });
-  return tots.sort(ordre).slice(0, MAX_PECES);
+  // 15.10.2026: la mateixa peça d'agència a diversos diaris del mateix grup
+  // (Información, Levante-EMV, Diario de Mallorca i El Periódico, de Prensa
+  // Ibérica, publiquen els teletips amb el titular idèntic). Si el titular és
+  // exactament igual i prou llarg per no ser genèric (40 caràcters), es queda
+  // UNA peça: la que es va veure primer, amb el que hagi decidit la sessió.
+  const perTitular = new Map();
+  for (const p of perMitja) {
+    const clau = clauTitol('', p.titol);
+    const altre = clau.length > 41 ? perTitular.get(clau) : null;
+    if (!altre) { perTitular.set(clau.length > 41 ? clau : `${p.id}|${clau}`, p); continue; }
+    perTitular.set(clau, { ...pick(p, ['destacat', 'comentari', 'noticia', 'noticiaTitol']), ...altre });
+  }
+  return [...perTitular.values()].sort(ordre).slice(0, MAX_PECES);
 }
 
 // Número d'article al final de l'adreça (…/slug-135289301 o …-135289301.html).

@@ -1223,6 +1223,23 @@ test('premsa: el mateix article en català i en castellà surt una sola vegada, 
   assert.equal(fusiona([es], [ca, altre], { ara: ARA_PREMSA }).length, 2);
 });
 
+test('premsa: el mateix teletip a diversos diaris del grup surt una sola vegada (15.10.2026)', async () => {
+  const { fusiona, idPeca } = await import(premsa);
+  const titol = 'Más de 400 científicos de todo el mundo piden una regulación internacional de la IA';
+  const peca = (mitja, url, publicat, extra = {}) => ({ id: idPeca(url), mitja, font: mitja.toLowerCase().replace(/[^a-z]/g, ''), llengua: 'es', ambit: 'catala', titol, url, publicat, ...extra });
+  const inf = peca('Información', 'https://www.informacion.es/tecnologia/2026/10/14/cientificos-regulacion-ia-aaa.html', '2026-10-09T10:00:00.000Z');
+  const lev = peca('Levante-EMV', 'https://www.levante-emv.com/tecnologia/2026/10/14/cientificos-regulacion-ia-bbb.html', '2026-10-09T10:05:00.000Z', { destacat: true, comentari: 'Un comentari de la sessió editorial que s’ha de conservar.' });
+  const dm = peca('Diario de Mallorca', 'https://www.diariodemallorca.es/tecnologia/2026/10/14/cientificos-regulacion-ia-ccc.html', '2026-10-09T10:10:00.000Z');
+  const r = fusiona([], [dm, lev, inf], { ara: ARA_PREMSA });
+  assert.equal(r.length, 1, 'un sol teletip');
+  assert.equal(r[0].mitja, 'Información', 'es queda el primer que es va publicar');
+  assert.equal(r[0].destacat, true, 'el destacat de la sessió es conserva');
+  // Titulars curts i genèrics no es fusionen entre diaris diferents.
+  const curt1 = { ...peca('Información', 'https://www.informacion.es/x/ia-ddd.html', '2026-10-09T11:00:00.000Z'), titol: 'La IA a l’aula' };
+  const curt2 = { ...peca('Levante-EMV', 'https://www.levante-emv.com/x/ia-eee.html', '2026-10-09T11:00:00.000Z'), titol: 'La IA a l’aula' };
+  assert.equal(fusiona([], [curt1, curt2], { ara: ARA_PREMSA }).length, 2);
+});
+
 test('premsa: els titulars sense «IA» però amb noms inconfusibles també compten', async () => {
   const { parlaDIA } = await import(premsa);
   for (const t of ['Nvidia vuelve a tirar de la bolsa', 'DeepSeek presenta un nou model', 'Sam Altman visita Barcelona', 'El debat sobre la superintel·ligència']) assert.equal(parlaDIA(t), true, t);
