@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-15T20:04:26.902Z",
+ "actualitzat": "2026-10-15T23:20:12.760Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "a15f239a6338",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Isabel Allende: “Una vez probé la IA y fue horrible; te sale con unas cursiladas que no te imaginas”",
+   "url": "https://www.lavanguardia.com/magazine/protagonistas/20261015/11659962/isabel-allende-vez-probe-ia-horrible-te-sale-cursiladas-te-imaginas.html",
+   "publicat": "2026-10-15T20:55:32.000Z"
+  },
+  {
+   "id": "661ee19a25c5",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Silicon Valley acapara el crédito para sus centros de datos de IA y ahoga a las empresas europeas",
+   "url": "https://www.eldiario.es/tecnologia/silicon-valley-acapara-credito-centros-datos-ia-ahoga-empresas-europeas_1_13582669.html",
+   "publicat": "2026-10-15T20:03:52.000Z"
+  },
   {
    "id": "2dab18213d07",
    "mitja": "Levante-EMV",
