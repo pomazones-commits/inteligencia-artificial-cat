@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-15T02:45:20.833Z",
+ "actualitzat": "2026-10-15T04:18:14.139Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "c0c0dd006bc7",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tierra de empresas | El CEEI Elche organiza desayunos empresariales sobre IA con directivos de Gioseppo, Simetry y ASV",
+   "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/como-la-ia-esta-cambiando-la-forma-de-dirigir-las-empresas-en-los-coffe-ceo-del-ceei-elche",
+   "publicat": "2026-10-15T04:00:05.000Z"
+  },
+  {
+   "id": "60aa2b146e6b",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La intel·ligència artificial dispara el frau en anuncis de lloguers de pisos",
+   "url": "https://www.diariandorra.ad/nacional/261015/intel-ligencia-artificial-dispara-frau-anuncis-lloguers-pisos_206511.html",
+   "publicat": "2026-10-15T03:33:13.000Z"
+  },
+  {
+   "id": "26d414a865e5",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Más allá del algoritmo: cómo llevar la IA a la industria empresarial",
+   "url": "https://www.elperiodico.com/es/consorci-zona-franca/20261015/algoritmo-llevar-ia-industria-empresarial-bc-135061249",
+   "publicat": "2026-10-15T03:30:51.000Z"
+  },
+  {
+   "id": "a199093adede",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La oportunidad de Valencia en la nueva geografía de la inteligencia artificial",
+   "url": "https://www.lavanguardia.com/local/valencia/20261015/11658607/oportunidad-valencia-nueva-geografia-inteligencia-artificial.html",
+   "publicat": "2026-10-15T03:00:00.000Z"
+  },
   {
    "id": "eeaa01903896",
    "mitja": "Cinco Días",
@@ -1573,28 +1617,6 @@
    "titol": "OpenAI crea una marca de agua invisible para detectar los textos escritos por ChatGPT",
    "url": "https://www.elmundo.es/tecnologia/2026/10/08/6ac75b61fdddff08248b45a7.html",
    "publicat": "2026-10-08T09:18:40.000Z"
-  },
-  {
-   "id": "a6d087c07837",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "De la innovació als resultats: el desafiament empresarial de la IA",
-   "url": "https://www.elperiodico.cat/sostenibilitat-estalvi/20261008/innovacio-als-resultats-desafiament-empresarial-ia-135109109",
-   "publicat": "2026-10-08T03:30:32.000Z"
-  },
-  {
-   "id": "5f5123bddea5",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Alquila a un humano: el futuro en el que las IA contratan personas para hacer trabajos físicos ya está aquí",
-   "url": "https://elpais.com/tecnologia/2026-10-08/alquila-a-un-humano-el-futuro-en-el-que-las-ia-contratan-personas-para-hacer-trabajos-fisicos-ya-esta-aqui.html",
-   "publicat": "2026-10-08T03:30:01.000Z"
   }
  ]
 }
