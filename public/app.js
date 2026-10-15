@@ -388,52 +388,100 @@
       band.hidden = false;
     }
 
-    // ——— Veus de CIVICAi (12.10.2026): banda pròpia amb la darrera peça de la sèrie ———
+    // ——— Veus de CIVICAi (12.10.2026): banda pròpia amb les peces de la sèrie ———
     // tribuna-arxiu.js (≈100 KB) i peces.js es baixen DESPRÉS de pintar la portada,
-    // per no endarrerir-la. Peça triada: la més recent PER DATA amb "serie":"veus-de-civicai"
-    // que NO sigui la tribuna vigent. Des del 14.10.2026 (decisió d'en Rafael) les veus de
+    // per no endarrerir-la. Des del 14.10.2026 (decisió d'en Rafael) les veus de
     // CIVICAi ja no ocupen mai la tribuna: es publiquen directament a tribuna-arxiu.js i
     // surten només en aquesta banda i a /veus-de-civicai.
+    // 15.10.2026 (decisió d'en Rafael): DUES places alhora, perquè la columna setmanal
+    // d'en Manel Sanromà (cada dijous) no tapi les peces de la resta de membres:
+    //   1) la columna: la peça més recent d'en Sanromà;
+    //   2) la peça més recent de qualsevol altre membre de CIVICAi (si té menys de
+    //      VEUS_DIES_MAX dies; si no, la banda mostra només la columna).
+    // Les dues targetes s'ordenen per data (la més nova primer). Si només n'hi ha una,
+    // es pinta gran, com abans.
     const serieVeus = window.IA_SERIES && window.IA_SERIES['veus-de-civicai'];
+    const VEUS_DIES_MAX = 30;
     if (serieVeus) {
       Promise.all([loadScript('./tribuna-arxiu.js'), loadScript('./peces.js')]).then(() => {
         const llista = [window.IA_TRIBUNA].concat(window.IA_TRIBUNA_ARXIU || []);
         const clauData = (d) => String(d || '').split('.').reverse().join('');
-        const peca = llista
+        const diesDes = (d) => {
+          const [dd, mm, aa] = String(d || '').split('.').map(Number);
+          if (!dd || !mm || !aa) return Infinity;
+          return (Date.now() - new Date(aa, mm - 1, dd).getTime()) / 864e5;
+        };
+        const veus = llista
           .filter((t, i) => i > 0 && t && t.title && t.serie === 'veus-de-civicai')
-          .reduce((millor, t) => (!millor || clauData(t.date) > clauData(millor.date) ? t : millor), null);
-        if (!peca) return;
+          .sort((a, b) => clauData(b.date).localeCompare(clauData(a.date)));
+        const esColumna = (t) => /sanrom/i.test(String(t.author || ''));
+        const columna = veus.find(esColumna);
+        const altra = veus.find((t) => !esColumna(t) && diesDes(t.date) <= VEUS_DIES_MAX);
+        const peces = [columna, altra].filter(Boolean)
+          .sort((a, b) => clauData(b.date).localeCompare(clauData(a.date)));
+        if (!peces.length) {
+          const unica = veus[0];
+          if (!unica) return;
+          peces.push(unica);
+        }
         const banda = document.querySelector('#veus-civicai');
-        if (!banda) return;
-        const cami = (window.IAPeces && window.IAPeces.cami('tribuna', peca, llista)) || serieVeus.cami;
+        const graella = document.querySelector('#veus-peces');
+        if (!banda || !graella) return;
         document.querySelector('#veus-desc').textContent = serieVeus.descripcio || '';
-        document.querySelector('#veus-eyebrow').textContent = `Veus de CIVICAi${peca.read ? ' · ' + peca.read.toLowerCase() : ''}${peca.date ? ' · ' + peca.date : ''}`;
-        const enllacTitol = document.querySelector('#veus-enllac-titol');
-        enllacTitol.textContent = peca.title;
-        enllacTitol.href = cami;
-        document.querySelector('#veus-enllac').href = cami;
-        document.querySelector('#veus-entradeta').textContent = peca.excerpt || '';
         if (serieVeus.crida && serieVeus.crida.href) document.querySelector('#veus-crida').href = serieVeus.crida.href;
-        const qui = document.querySelector('#veus-byline');
-        qui.textContent = peca.author || '';
-        if (peca.role) {
-          if (peca.author) qui.appendChild(document.createTextNode(' · '));
-          if (window.IAPeces && window.IAPeces.rolAmbEnllac) {
-            const rol = document.createElement('span');
-            window.IAPeces.rolAmbEnllac(rol, peca);
-            qui.appendChild(rol);
+        const el = (tag, classe, text) => {
+          const n = document.createElement(tag);
+          if (classe) n.className = classe;
+          if (text) n.textContent = text;
+          return n;
+        };
+        graella.textContent = '';
+        graella.classList.toggle('veus-peces--una', peces.length === 1);
+        peces.forEach((peca, index) => {
+          const cami = (window.IAPeces && window.IAPeces.cami('tribuna', peca, llista)) || serieVeus.cami;
+          const targeta = el('article', 'veus-peca');
+          if (peca.photo) {
+            const figura = el('figure', 'veus-photo');
+            const img = el('img');
+            img.src = peca.photo;
+            img.alt = peca.photoAlt || `Retrat de ${peca.author || ''}`.trim();
+            img.loading = 'lazy';
+            figura.appendChild(img);
+            targeta.appendChild(figura);
           } else {
-            qui.appendChild(document.createTextNode(peca.role));
+            targeta.classList.add('veus-peca--sense-foto');
           }
-        }
-        if (peca.photo) {
-          const img = document.querySelector('#veus-img');
-          img.src = peca.photo;
-          img.alt = peca.photoAlt || `Retrat de ${peca.author || ''}`.trim();
-          document.querySelector('#veus-photo').hidden = false;
-        } else {
-          document.querySelector('.veus-layout').classList.add('veus-layout--solo');
-        }
+          const text = el('div', 'veus-copy');
+          const etiqueta = esColumna(peca) ? 'Columna setmanal' : 'Veus de CIVICAi';
+          text.appendChild(el('p', 'eyebrow', `${etiqueta}${peca.read ? ' · ' + peca.read.toLowerCase() : ''}${peca.date ? ' · ' + peca.date : ''}`));
+          const titol = el('h2');
+          if (index === 0) titol.id = 'veus-titol';
+          const enllac = el('a', '', peca.title);
+          enllac.href = cami;
+          titol.appendChild(enllac);
+          text.appendChild(titol);
+          if (peca.excerpt) text.appendChild(el('p', 'veus-entradeta', peca.excerpt));
+          const qui = el('p', 'veus-byline', peca.author || '');
+          if (peca.role) {
+            if (peca.author) qui.appendChild(document.createTextNode(' · '));
+            if (window.IAPeces && window.IAPeces.rolAmbEnllac) {
+              const rol = el('span');
+              window.IAPeces.rolAmbEnllac(rol, peca);
+              qui.appendChild(rol);
+            } else {
+              qui.appendChild(document.createTextNode(peca.role));
+            }
+          }
+          text.appendChild(qui);
+          const accions = el('p', 'veus-accions');
+          const boto = el('a', 'veus-boto', 'Llegir la peça ');
+          boto.href = cami;
+          boto.appendChild(el('span', '', '↗'));
+          accions.appendChild(boto);
+          text.appendChild(accions);
+          targeta.appendChild(text);
+          graella.appendChild(targeta);
+        });
         banda.hidden = false;
       });
     }

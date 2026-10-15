@@ -1524,7 +1524,11 @@ test('Veus de CIVICAi: mai a la tribuna vigent, arxiu per data i àudio de la da
   assert.equal(valida.status, 0, valida.stderr);
   // La portada tria la veu més recent per data, encara que l'arxiu no vingui ordenat.
   const app = readFileSync(join(arrel, 'public', 'app.js'), 'utf8');
-  assert.match(app, /t\.serie === 'veus-de-civicai'\)\s*\.reduce\(/);
+  // 15.10.2026: dues places (columna d'en Sanromà + la peça més recent d'un altre membre), ordenades per data.
+  assert.match(app, /t\.serie === 'veus-de-civicai'\)\s*\.sort\(/);
+  assert.match(app, /const esColumna = \(t\) => \/sanrom\/i/);
+  assert.match(app, /!esColumna\(t\) && diesDes\(t\.date\) <= VEUS_DIES_MAX/);
+  assert.ok(!/veu convidada/i.test(app), 'mai «veu convidada»: tots són de CIVICAi');
   // genera_audio.py fa l'àudio de la darrera veu de l'arxiu.
   const py = spawnSync('python3', ['-c', [
     'import importlib.util, json, sys, tempfile, pathlib',

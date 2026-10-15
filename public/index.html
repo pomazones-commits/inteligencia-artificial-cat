@@ -22,7 +22,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","description":"Notícies, anàlisi i context sobre intel·ligència artificial, en català.","publishingPrinciples":"https://inteligencia-artificial.cat/redaccio.html"},{"@type":"WebSite","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","inLanguage":"ca"}]}</script>
   <link rel="stylesheet" href="./portada.css?v=2026101405">
   <link rel="stylesheet" href="./tribuna.css?v=2026101302">
-  <link rel="stylesheet" href="./veus-portada.css?v=2026101205">
+  <link rel="stylesheet" href="./veus-portada.css?v=2026101501">
   <link rel="stylesheet" href="./estudis.css?v=2026101302">
   <link rel="stylesheet" href="./reflexio.css?v=2026101302">
   <link rel="stylesheet" href="./xarxes-peu.css?v=2026101302">
@@ -31,7 +31,7 @@
   <link rel="stylesheet" href="./premsa.css?v=2026101302">
   <link rel="stylesheet" href="./radio-portada.css?v=2026101101">
   <link rel="stylesheet" href="./agora-portada.css?v=2026101401">
-  <script defer src="./app.js?v=2026101501"></script>
+  <script defer src="./app.js?v=2026101502"></script>
   <script defer src="./cartell.js?v=2026101401"></script>
   <script defer src="./premsa.js?v=2026101101"></script>
   <script defer src="./radio-portada.js?v=2026101101"></script>
@@ -191,28 +191,19 @@
       </div>
     </section>
 
-    <!-- Veus de CIVICAi (12.10.2026): la darrera peça de la sèrie, amb foto. La pinta app.js. -->
+    <!-- Veus de CIVICAi (12.10.2026; dues peces des del 15.10.2026). La pinta app.js. -->
     <section class="veus-band" id="veus-civicai" hidden aria-labelledby="veus-titol">
       <div class="veus-capcalera">
         <a class="veus-marca" href="./veus-de-civicai"><img src="./assets/entitats/civicai.png" alt="CIVICAi" width="128" height="26"><span>Veus de CIVICAi</span></a>
         <p id="veus-desc"></p>
       </div>
-      <div class="veus-layout">
-        <figure class="veus-photo" id="veus-photo" hidden>
-          <img id="veus-img" src="" alt="" loading="lazy">
-        </figure>
-        <article class="veus-copy">
-          <p class="eyebrow" id="veus-eyebrow">Veus de CIVICAi</p>
-          <h2 id="veus-titol"><a id="veus-enllac-titol" href="./veus-de-civicai"></a></h2>
-          <p class="veus-entradeta" id="veus-entradeta"></p>
-          <p class="veus-byline" id="veus-byline"></p>
-          <p class="veus-accions">
-            <a class="veus-boto" id="veus-enllac" href="./veus-de-civicai">Llegir la peça <span>↗</span></a>
-            <a class="veus-mes" href="./veus-de-civicai">Totes les veus →</a>
-            <a class="veus-mes" id="veus-crida" href="https://civicai.cat/participa/" target="_blank" rel="noopener">Associa’t a CIVICAi →</a>
-          </p>
-        </article>
-      </div>
+      <!-- 15.10.2026: fins a dues peces alhora —la columna setmanal d'en Manel Sanromà (dijous)
+           i la darrera peça d'un altre membre de CIVICAi—. Les targetes les pinta app.js. -->
+      <div class="veus-peces" id="veus-peces"></div>
+      <p class="veus-accions veus-accions--peu">
+        <a class="veus-mes" href="./veus-de-civicai">Totes les veus →</a>
+        <a class="veus-mes" id="veus-crida" href="https://civicai.cat/participa/" target="_blank" rel="noopener">Associa’t a CIVICAi →</a>
+      </p>
     </section>
 
     <section class="estudis-band" id="estudis" hidden>
