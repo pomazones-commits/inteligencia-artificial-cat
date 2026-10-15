@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-15T15:21:10.929Z",
+ "actualitzat": "2026-10-15T16:14:17.373Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "eaf59f6d8752",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA gana terreno en las finanzas: casi nueve de cada diez españoles valora que le ayude a comparar opciones",
+   "url": "https://www.elperiodico.com/es/economia/20261015/inteligencia-artificial-chatgpt-gemini-claude-decisiones-financieras-nueve-cada-diez-espanoles-135369950",
+   "publicat": "2026-10-15T16:00:07.000Z"
+  },
   {
    "id": "0b76e56ec9de",
    "mitja": "La Vanguardia",
@@ -24,6 +35,17 @@
    "titol": "Microsoft crea Xbox Labs para investigar el uso de la IA en el desarrollo de videojuegos",
    "url": "https://www.informacion.es/vida-y-estilo/tecnologia/2026/10/15/microsoft-crea-xbox-labs-investigar-135378137.html",
    "publicat": "2026-10-15T14:55:57.000Z"
+  },
+  {
+   "id": "5ebedcc8cc76",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "15.10.2026 | LLUM, intel·ligència artificial per estalviar en electricitat",
+   "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/15-10-2026-llum-intel-ligencia-artificial-estalviar-electricitat_135_1901997.html",
+   "publicat": "2026-10-15T14:55:00.000Z"
   },
   {
    "id": "67201439d068",
@@ -56,13 +78,15 @@
    "ambit": "catala",
    "titol": "BSC AI Factory llança el seu primer programa d'acceleració per a 100 start-ups",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/bsc-ai-factory-llanca-primer-programa-acceleracio-100-start-ups_1710175_102.html",
-   "publicat": "2026-10-15T14:27:41.000Z"
+   "publicat": "2026-10-15T14:27:41.000Z",
+   "noticia": "bsc-ai-factory-acceleracio-100-startups",
+   "noticiaTitol": "El BSC AI Factory obre un programa d'acceleració de 14 setmanes per a 100 empreses emergents d'IA"
   },
   {
    "id": "9a1e5108752c",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
    "titol": "La inteligencia artificial y la conectividad redefinen el futuro de los concesionarios",
@@ -266,6 +290,17 @@
    "titol": "Móviles, televisores y electrodomésticos: Anthropic alerta del riesgo de los gusanos informáticos de IA",
    "url": "https://www.informacion.es/tendencias21/2026/10/15/moviles-televisores-electrodomesticos-anthropic-alerta-135356335.html",
    "publicat": "2026-10-15T07:40:41.000Z"
+  },
+  {
+   "id": "72f3e7c0e8bd",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Gobierno refuerza la CNMC con un economista jefe y una unidad de inteligencia artificial para detectar cárteles",
+   "url": "https://www.elperiodico.com/es/economia/20261015/gobierno-cambia-estructura-cnmc-economista-135355791",
+   "publicat": "2026-10-15T07:24:21.000Z"
   },
   {
    "id": "bf053feb5865",
@@ -1936,17 +1971,6 @@
    "titol": "Securitize lanza acciones tokenizadas de Apple, Nvidia y otras grandes cotizadas en EE UU",
    "url": "https://cincodias.elpais.com/criptoactivos/2026-10-08/securitize-lanza-acciones-tokenizadas-de-apple-nvidia-y-otras-grandes-cotizadas-en-ee-uu.html",
    "publicat": "2026-10-08T16:44:51.000Z"
-  },
-  {
-   "id": "965b786b8bff",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La IA no distingue el bien del mal: dos físicos destapan lo que las grandes empresas quieren esconder",
-   "url": "https://elpais.com/tecnologia/2026-10-08/la-ia-no-distingue-el-bien-del-mal-dos-fisicos-destapan-lo-que-las-grandes-empresas-quieren-esconder.html",
-   "publicat": "2026-10-08T15:25:13.000Z"
   }
  ]
 }
