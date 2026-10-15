@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-15T02:42:15.985Z",
+ "actualitzat": "2026-10-15T02:45:20.833Z",
  "fonts": 44,
  "articles": [
   {
@@ -270,28 +270,6 @@
    "publicat": "2026-10-14T10:02:26.000Z"
   },
   {
-   "id": "03f99a1944f0",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Más de 400 científicos de todo el mundo piden una regulación internacional de la IA para minimizar su riesgo",
-   "url": "https://www.informacion.es/tecnologia/2026/10/14/cientificos-mundo-piden-regulacion-ia-riesgos-ciberataques-openai-anthropic-135318105.html",
-   "publicat": "2026-10-14T09:56:36.000Z"
-  },
-  {
-   "id": "5f285430500a",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Más de 400 científicos de todo el mundo piden una regulación internacional de la IA para minimizar su riesgo",
-   "url": "https://www.diariodemallorca.es/vida-y-estilo/tecnologia/2026/10/14/cientificos-mundo-piden-regulacion-ia-riesgos-ciberataques-openai-anthropic-135318102.html",
-   "publicat": "2026-10-14T09:56:36.000Z"
-  },
-  {
    "id": "e9ed6fc236e9",
    "mitja": "Levante-EMV",
    "font": "levante-totes",
@@ -393,17 +371,6 @@
    "publicat": "2026-10-14T08:49:44.000Z"
   },
   {
-   "id": "e3b9d15afd14",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L’FBI deté un empleat d’OpenAI acusat de col·locar una gravadora per espiar reunions confidencials",
-   "url": "https://www.regio7.cat/ciencia-i-tecnologia/2026/10/14/espionatge-openai-fbi-dete-empleat-gravadora-microfon-reunions-confidencials-secret-chatgpt-135314448.html",
-   "publicat": "2026-10-14T08:48:40.000Z"
-  },
-  {
    "id": "89eaecb970ca",
    "mitja": "Diari de Terrassa",
    "font": "diarideterrassa",
@@ -459,28 +426,6 @@
    "publicat": "2026-10-14T08:35:14.000Z",
    "noticia": "openai-enginyer-detingut-gravadora-sala-reunions",
    "noticiaTitol": "L'FBI deté un enginyer d'OpenAI acusat d'amagar una gravadora darrere d'una televisió d'una sala de reunions directives"
-  },
-  {
-   "id": "74975c1dc0d5",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El FBI detiene a un empleado de OpenAI acusado de colocar una grabadora para espiar reuniones confidenciales",
-   "url": "https://www.diariodemallorca.es/vida-y-estilo/tecnologia/2026/10/14/espionaje-openai-fbi-detiene-empleado-grabadora-microfono-reuniones-confidenciales-secreto-chatgpt-135314593.html",
-   "publicat": "2026-10-14T08:33:31.000Z"
-  },
-  {
-   "id": "896a013a2cc4",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El FBI detiene a un empleado de OpenAI acusado de colocar una grabadora para espiar reuniones confidenciales",
-   "url": "https://www.levante-emv.com/vida-y-estilo/tecnologia/2026/10/14/espionaje-openai-fbi-detiene-empleado-grabadora-microfono-reuniones-confidenciales-secreto-chatgpt-135314600.html",
-   "publicat": "2026-10-14T08:33:31.000Z"
   },
   {
    "id": "da0b4117e20f",
@@ -602,39 +547,6 @@
    "titol": "La IA, a examen entre juristas: ¿la usan a diario? ¿es una bendición o un castigo para el sector?",
    "url": "https://cincodias.elpais.com/legal/2026-10-14/la-ia-a-examen-entre-juristas-la-usan-a-diario-es-una-bendicion-o-un-castigo-para-el-sector.html",
    "publicat": "2026-10-14T06:31:00.000Z"
-  },
-  {
-   "id": "0ecb6ee78499",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
-   "url": "https://www.informacion.es/economia/2026/10/14/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135309827.html",
-   "publicat": "2026-10-14T05:19:52.000Z"
-  },
-  {
-   "id": "3a07efb871b1",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
-   "url": "https://www.levante-emv.com/economia/2026/10/14/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135309843.html",
-   "publicat": "2026-10-14T05:19:52.000Z"
-  },
-  {
-   "id": "c4ae16e727c9",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
-   "url": "https://www.diariodemallorca.es/economia/2026/10/14/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135309839.html",
-   "publicat": "2026-10-14T05:19:52.000Z"
   },
   {
    "id": "c3cff9b3f22a",
@@ -813,39 +725,6 @@
    "publicat": "2026-10-13T13:15:00.000Z",
    "noticia": "apple-homeview-pantalla-llar-299-dolars-sense-data-espanya",
    "noticiaTitol": "Apple presenta HomeView, la seva primera pantalla per a la llar, a 299 dòlars i sense data d'arribada a Espanya ni a la resta de la UE"
-  },
-  {
-   "id": "252242ee5416",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El crecimiento de la economía mundial depende en exceso de la inversión de la IA a través de deuda, según el FMI",
-   "url": "https://www.diariodemallorca.es/economia/2026/10/13/crecimiento-economia-mundial-depende-exceso-135287246.html",
-   "publicat": "2026-10-13T13:05:20.000Z"
-  },
-  {
-   "id": "867affcf64ca",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El crecimiento de la economía mundial depende en exceso de la inversión de la IA a través de deuda, según el FMI",
-   "url": "https://www.levante-emv.com/economia/2026/10/13/crecimiento-economia-mundial-depende-exceso-135287245.html",
-   "publicat": "2026-10-13T13:05:20.000Z"
-  },
-  {
-   "id": "d313d5fa25e3",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El crecimiento de la economía mundial depende en exceso de la inversión de la IA a través de deuda, según el FMI",
-   "url": "https://www.informacion.es/economia/2026/10/13/crecimiento-economia-mundial-depende-exceso-135287264.html",
-   "publicat": "2026-10-13T13:05:20.000Z"
   },
   {
    "id": "5d8ae1fbaa2d",
@@ -1068,39 +947,6 @@
    "titol": "¿Cuánta IA hay en los libros más vendidos? Mucha en novelas románticas de Amazon y en el superventas de Alvise Pérez",
    "url": "https://elpais.com/tecnologia/2026-10-13/alvise-perez-y-novelas-romanticas-autoeditadas-cuanta-ia-hay-en-los-libros-mas-vendidos-de-espana.html",
    "publicat": "2026-10-13T07:05:13.000Z"
-  },
-  {
-   "id": "01ae964219a1",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Antonio Banderas da un paso adelante y se alía con la IA para convertirse en Hernán Cortés",
-   "url": "https://www.diariodemallorca.es/ocio/cine/2026/10/13/antonio-banderas-da-paso-adelante-135267868.html",
-   "publicat": "2026-10-13T06:39:49.000Z"
-  },
-  {
-   "id": "05966a732eb2",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Antonio Banderas da un paso adelante y se alía con la IA para convertirse en Hernán Cortés",
-   "url": "https://www.informacion.es/ocio/cine/2026/10/13/antonio-banderas-da-paso-adelante-135267886.html",
-   "publicat": "2026-10-13T06:39:49.000Z"
-  },
-  {
-   "id": "364cb476aa66",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Antonio Banderas da un paso adelante y se alía con la IA para convertirse en Hernán Cortés",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261013/antonio-banderas-da-paso-adelante-135267882",
-   "publicat": "2026-10-13T06:39:49.000Z"
   },
   {
    "id": "bebe4ef8141e",
