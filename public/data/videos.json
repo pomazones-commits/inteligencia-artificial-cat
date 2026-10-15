@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-15T08:14:35.675Z",
+ "actualitzat": "2026-10-15T15:44:38.115Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "BOTAeAU5ExQ",
+   "titol": "Weeks to Hours: SentinelOne on Cybersecurity Research with OpenAI",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-10-15T14:12:09.000Z",
+   "descripcio": "Cybersecurity research, moving from weeks to hours. SentinelOne’s Gregor Stewart describes OpenAI’s cyber capabilities reaching human-level output in about eight hours on reverse-engineering work that would take a top researcher four to six weeks. That lets security teams investigate more malware, c",
+   "miniatura": "/assets/videos/BOTAeAU5ExQ.jpg"
+  },
   {
    "id": "vJvFta7e76E",
    "titol": "The Road to NVIDIA RTX Spark",
@@ -536,18 +548,6 @@
    "publicat": "2026-09-24T16:00:27.000Z",
    "descripcio": "A decade ago, Jensen Huang introduced DGX-1 to help researchers tackle AI challenges once thought out of reach. He delivered the first DGX-1 to OpenAI, which started the AI revolution. What began as a single system has evolved into the blueprint for the modern AI factory—driving breakthroughs across",
    "miniatura": "/assets/videos/xAgq8ByWK0M.jpg"
-  },
-  {
-   "id": "o1JK79jszqo",
-   "titol": "Google’s latest moonshot to put machine learning in space",
-   "canal": "Google",
-   "canalId": "UCK8sQmJBp8GCxrOtXWBpyEA",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-09-24T13:12:27.000Z",
-   "descripcio": "A solar panel in space generates up to 8 times more power than one on Earth. That’s the vision behind Project Suncatcher: Google’s moonshot to capture continuous sunlight and more efficiently power machine learning in space. In this video, we explore some of the monumental engineering questions that",
-   "miniatura": "/assets/videos/o1JK79jszqo.jpg"
   }
  ]
 }
