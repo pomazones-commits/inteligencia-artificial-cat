@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-15T09:28:09.242Z",
+ "actualitzat": "2026-10-15T12:15:01.580Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "5b129bcc64a3",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El mercado del ‘smartphone’ sufre una caída histórica por el aumento del precio de los chips de memoria ante la demanda de la IA",
+   "url": "https://cincodias.elpais.com/companias/2026-10-15/el-mercado-del-smartphone-sufre-una-caida-historica-por-el-aumento-del-precio-de-los-chips-de-memoria-ante-la-demanda-de-la-ia.html",
+   "publicat": "2026-10-15T11:57:42.000Z"
+  },
+  {
+   "id": "f7595e080537",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial ha detectado este verano 1.036 columnas de humo en Collserola y ha confirmado 150 fuegos",
+   "url": "https://www.lavanguardia.com/elllobregat/sociedad/20261015/11659732/inteligencia-artificial-detectado-verano-1-036-columnas-humo-collserola-confirmado-150-fuegos.html",
+   "publicat": "2026-10-15T11:54:06.000Z"
+  },
+  {
+   "id": "85267202786c",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Banco de España arranca la transformación de la sede de Barcelona en un centro de IA",
+   "url": "https://www.lavanguardia.com/economia/20261015/11659679/banco-espana-arranca-transformacion-sede-barcelona-centro-ia.html",
+   "publicat": "2026-10-15T11:15:12.000Z"
+  },
+  {
+   "id": "fa59a7b32329",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Check Point descubre dos vulnerabilidades de alto riesgo en LiteLLM, una herramienta que conecta 'apps' con la IA",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/15/2729399/check-point-descubre-dos-vulnerabilidades-alto-riesgo-litellm-herramienta-conecta-apps-ia.html",
+   "publicat": "2026-10-15T10:51:55.000Z"
+  },
+  {
+   "id": "3aadf8b08c84",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Unizar lidera un proyecto pionero que usará IA para anticipar el comportamiento humano antes las epidemias",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/15/2729341/unizar-lidera-proyecto-pionero-usara-para-anticipar-comportamiento-humano-antes-epidemias.html",
+   "publicat": "2026-10-15T10:04:49.000Z"
+  },
+  {
+   "id": "6ae63ee460d2",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Demis Hassabis, cofundador de Google DeepMind, alerta sobre los recientes ataques con agentes de IA: “Son disparos de advertencia”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261015/11659604/demis-hassabis-cofundador-google-deepmind-alerta-sobre-recientes-ataques-agentes-ia-son-disparos-advertencia.html",
+   "publicat": "2026-10-15T10:01:59.000Z"
+  },
+  {
+   "id": "2b3c1c0c9e1a",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Altea convierte a su Guerrero íbero en un avatar con inteligencia artificial y presenta el proyecto en Italia",
+   "url": "https://www.informacion.es/benidorm/2026/10/15/altea-convierte-guerrero-ibero-avatar-135361808.html",
+   "publicat": "2026-10-15T09:48:03.000Z"
+  },
+  {
+   "id": "8e6222f2a3ed",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "YouTube etiquetará las canciones creadas con inteligencia artificial: \"Nuestros oyentes nos han dicho que quieren transparencia\"",
+   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261015/youtube-etiquetara-canciones-creadas-inteligencia-135361315",
+   "publicat": "2026-10-15T09:34:17.000Z"
+  },
   {
    "id": "0bd76cc85c06",
    "mitja": "Levante-EMV",
