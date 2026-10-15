@@ -25,6 +25,6 @@ node --test automation/tests/content-hub.test.mjs
 ## Adaptacions respecte del prototip del paquet de traspàs
 
 - Rutes adaptades a l'estructura real del repositori: web a `public/`, safata a `incoming/`, estat a `.content-state/` (arrel, fora del directori desplegat).
-- El radar català només incorpora notícies realment catalanes i conserva els senyals anteriors (decisió editorial de Rafael, 17.07.2026).
+- El radar català només incorpora notícies amb protagonista dels territoris de parla catalana i conserva els senyals anteriors (decisió editorial de Rafael, 17.07.2026; ampliada als territoris i sense les notícies estatals el 15.10.2026).
 - El camp `image` de cada notícia és opcional: si una imatge no s'ha pogut generar, la targeta es publica sense imatge en lloc de rebutjar el lot.
 - `ingest-news` manté també els contractes existents del web: `public/data/articles.json` (usat per `article.php`), `public/content/latest.json` (usat per `api.php?action=latest`) i l'hemeroteca `public/data/arxiu.json`, on l'edició anterior s'arxiva automàticament en canviar de dia.

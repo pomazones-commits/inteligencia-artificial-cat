@@ -204,21 +204,27 @@ function validateNews(payload) {
     }
     // Encaminament opcional entre seccions (camp intern, no forma part del
     // contracte públic IA_NEWS). Per defecte (absent o "senyal"): la notícia va
-    // al feed "El senyal d'avui" i, si té context català, també es deriva a
-    // "La IA que passa aquí". Amb "radar": va NOMÉS al radar "La IA que passa
-    // aquí" i no apareix mai al feed principal ni a l'hemeroteca.
+    // al feed "El senyal d'avui" i, si té context local, també es deriva al
+    // radar català. Amb "radar": va NOMÉS al radar i no apareix mai al feed
+    // principal ni a l'hemeroteca (des del 15.10.2026, només per a notícies dels
+    // territoris de parla catalana; vegeu entraAlRadar).
     const seccio = normalizeText(raw?.seccio).toLocaleLowerCase('ca');
     if (seccio) {
       if (seccio !== 'radar' && seccio !== 'senyal' && seccio !== 'catalunya') {
         throw new Error(`Notícia ${index + 1}: seccio només pot ser "radar", "senyal" o "catalunya".`);
       }
       // "catalunya" (01.10.2026): la notícia va al feed com qualsevol altra i,
-      // a més, entra SEMPRE al radar, encara que no porti cap terme de
-      // LOCAL_TERMS. Motiu: el 29 i el 30.09.2026 dues peces catalanes
+      // a més, entra al radar encara que el titular no porti cap terme de
+      // LOCAL_TERMS (n'hi ha prou que el cos n'esmenti algun: vegeu
+      // entraAlRadar, 15.10.2026). Motiu: el 29 i el 30.09.2026 dues peces catalanes
       // («El Govern vol prohibir la IA...» i «Interior defensa la IA... Mossos»)
       // no es van derivar al radar perquè «Govern», «Interior» i «Mossos» no hi
       // eren. La llista de termes no pot preveure-ho tot; qui escriu el lot sí.
-      if (seccio === 'radar' || seccio === 'catalunya') item.seccio = seccio;
+      // "senyal" explícit (15.10.2026): només al feed, MAI al radar, encara que
+      // el titular digui «Catalunya». Serveix per als estudis i rànquings
+      // estatals on Catalunya només és un dels territoris mesurats (cas real:
+      // l'estudi del BBVA sobre Madrid i Catalunya, 27.09.2026).
+      if (seccio === 'radar' || seccio === 'catalunya' || seccio === 'senyal') item.seccio = seccio;
     }
     // Etiqueta temàtica derivada (03.10.2026): les notícies sobre centres de
     // dades, supercomputadors i gigafactories d'IA porten "etiquetes":
@@ -406,10 +412,26 @@ function wholeWord(term) {
   return new RegExp(`(?<![\\p{L}\\p{N}])${escaped}(?![\\p{L}\\p{N}])`, 'iu');
 }
 
+// Lloc de la targeta del radar. Des del 15.10.2026 cobreix tots els territoris
+// de parla catalana i mira primer el titular i l'entradeta i després el cos:
+// abans es mirava tot junt i, si no hi havia cap ciutat catalana, posava
+// «Catalunya» per defecte (la valenciana iPronics va sortir com a «Catalunya»).
+const RADAR_PLACES = ['Barcelona', 'Girona', 'Lleida', 'Tarragona', 'Mataró', 'Flix', 'Sabadell', 'Terrassa', 'Manresa', 'Reus',
+  'València', 'Alacant', 'Castelló', 'Elx', 'Palma', 'Mallorca', 'Menorca', 'Eivissa', 'Andorra', 'Perpinyà', "l'Alguer"];
+const RADAR_REGIONS = [
+  ['Comunitat Valenciana', ['comunitat valenciana', 'valencià', 'valenciana', 'valencians', 'valencianes', 'gandia', 'alcoi', 'benidorm', 'sagunt', 'uji', 'umh', 'vrain', 'valgrai', 'à punt']],
+  ['Illes Balears', ['illes balears', 'balears', 'balear', 'formentera', 'uib', 'ib3', 'parcbit']],
+  ['Catalunya Nord', ['catalunya nord']],
+  ['la Franja', ['franja de ponent']]
+];
 function detectPlace(story) {
-  const text = `${story.title} ${story.excerpt} ${story.body}`;
-  const places = ['Barcelona', 'Girona', 'Lleida', 'Tarragona', 'Mataró', 'Flix', 'Sabadell', 'Terrassa', 'Manresa', 'Reus'];
-  return places.find(place => wholeWord(place).test(text)) || 'Catalunya';
+  for (const text of [`${story.title} ${story.excerpt}`, `${story.body || ''}`]) {
+    const place = RADAR_PLACES.find(name => wholeWord(name).test(text));
+    if (place) return place;
+    const region = RADAR_REGIONS.find(([, terms]) => terms.some(term => wholeWord(term).test(text)));
+    if (region) return region[0];
+  }
+  return 'Catalunya';
 }
 
 function radarCategory(story) {
@@ -442,7 +464,16 @@ const LOCAL_TERMS = [
   'móra la nova', 'parc de l\'alba', 'cerdanyola', 'òdena', 'alcarràs', 'molins de rei', 'sant adrià de besòs',
   'sant fruitós de bages', 'montmeló', 'viladecans', 'santa bàrbara del montsià', 'picassent', 'sagunt', 'vara de quart',
   'catadau', 'parcbit', 'valgrai', 'andorra telecom', 'csuc', 'ponentia', 'quetta data centers', 'nxn data centers',
-  'oxigen data center', 'digital valley comunitat valenciana'
+  'oxigen data center', 'digital valley comunitat valenciana',
+  // Resta dels territoris de parla catalana (15.10.2026, decisió d'en Rafael:
+  // el radar català és dels territoris, no només de Catalunya). Mateixa regla:
+  // només noms inconfusibles. NO hi van 'valencia' sense accent (l'investigador
+  // del BSC Alfonso Valencia, el castellà), 'palma' sola, 'rosselló' ni 'fraga'
+  // (cognoms freqüents) ni 'upv' (també és la del País Basc).
+  'comunitat valenciana', 'valència', 'valencià', 'valenciana', 'valencians', 'valencianes', 'alacant', 'castelló', 'elx', 'gandia', 'alcoi', 'benidorm',
+  'universitat de valència', 'universitat politècnica de valència', 'universitat d\'alacant', 'uji', 'umh', 'vrain', 'à punt',
+  'illes balears', 'balears', 'balear', 'mallorca', 'menorca', 'eivissa', 'formentera', 'palma de mallorca', 'uib', 'ib3',
+  'andorra', 'andorrà', 'andorrana', 'andorrans', 'perpinyà', 'catalunya nord', 'franja de ponent', 'alguer'
 ];
 
 // Els termes de LOCAL_TERMS han de ser INCONFUSIBLES: la comparació no distingeix
@@ -452,20 +483,39 @@ const LOCAL_TERMS = [
 // i la llista contenia 'la caixa'. Substituït per 'fundació la caixa'. Abans
 // d'afegir cap terme nou, pregunta't si podria sortir per casualitat en una
 // notícia internacional.
-function isLocalStory(story) {
+function isLocalStory(story, { ambCos = false } = {}) {
   // L'slug també compta: sovint porta el nom de l'entitat encara que el títol
-  // s'hagi escurçat. El cos NO s'inclou per evitar falsos positius (una notícia
-  // global que esmenta Barcelona de passada no és local).
-  const haystack = `${story.category} ${story.title} ${story.excerpt} ${(story.slug || '').replace(/-/g, ' ')}`;
+  // s'hagi escurçat. El cos NO s'inclou per defecte per evitar falsos positius
+  // (una notícia global que esmenta Barcelona de passada no és local). Només
+  // s'inclou (ambCos) per comprovar les peces que qui escriu el lot ja ha
+  // marcat com a locals amb seccio "radar" o "catalunya".
+  const haystack = `${story.category} ${story.title} ${story.excerpt} ${(story.slug || '').replace(/-/g, ' ')}${ambCos ? ` ${story.body || ''}` : ''}`;
   return LOCAL_TERMS.some(term => wholeWord(term).test(haystack));
 }
 
-// Deriva senyals de radar de les notícies realment catalanes del dia i, a més,
-// de les que s'han marcat explícitament amb seccio "radar" (adopció d'IA per
-// empreses de l'entorn, encara que no portin cap topònim català). Les notícies
-// globals de sempre no s'hi disfressen mai de locals.
+// Entra al radar? (15.10.2026) Les peces marcades "radar" o "catalunya" hi
+// entren si esmenten algun terme local en qualsevol lloc, també al cos (així hi
+// continuen entrant les que només diuen «el Govern» al titular). Les que no en
+// porten cap enlloc no són dels territoris: entre el 22.09 i el 14.10.2026 el
+// radar va publicar com a «Catalunya» el Pla IA360 de la Moncloa, els ajuts
+// estatals, una enquesta a CIOs espanyols i el BBVA i Poppy, tots marcats
+// "radar". Les no marcades hi entren, com sempre, pel titular, l'entradeta o l'slug.
+function entraAlRadar(story) {
+  if (story.seccio === 'senyal') return false;
+  if (story.seccio === 'radar' || story.seccio === 'catalunya') {
+    if (isLocalStory(story, { ambCos: true })) return true;
+    console.warn(`Radar: «${story.title}» (seccio "${story.seccio}") no esmenta cap lloc ni entitat dels territoris de parla catalana; no entra al radar.`);
+    return false;
+  }
+  return isLocalStory(story);
+}
+
+// Deriva senyals de radar de les notícies dels territoris de parla catalana del
+// dia: les que porten un terme local al titular, l'entradeta o l'slug, i les
+// marcades amb seccio "radar" o "catalunya" que n'esmentin algun (vegeu
+// entraAlRadar). Les notícies globals i estatals no s'hi disfressen mai de locals.
 function deriveRadar(items, date) {
-  return items.filter(story => story.seccio === 'radar' || story.seccio === 'catalunya' || isLocalStory(story)).map(story => ({
+  return items.filter(entraAlRadar).map(story => ({
     place: detectPlace(story),
     category: radarCategory(story),
     date: displayDate(date),

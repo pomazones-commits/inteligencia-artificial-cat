@@ -28,7 +28,7 @@ Atenció al canvi d'hora: els crons són en UTC. A l'hivern (CET) les execucions
 ## Fitxers que produeix el Content Hub
 
 - `public/news.js` — fins a 20 notícies del dia (dedupe per `slug` i per URL de font).
-- `public/radar.js` — fins a 8 senyals; **només** s'hi incorporen notícies realment catalanes i es conserven els senyals anteriors.
+- `public/radar.js` — fins a 8 senyals; **només** s'hi incorporen notícies amb protagonista dels territoris de parla catalana (des del 15.10.2026, mai notícies estatals ni globals) i es conserven els senyals anteriors.
 - `public/data/articles.json` i `public/content/latest.json` — contractes existents (`article.php`, `api.php?action=latest`).
 - `public/data/arxiu.json` — hemeroteca per edicions; l'edició anterior s'arxiva automàticament en canviar de dia.
 - `public/data/archive.json` — històric pla de fins a 1.000 notícies.

@@ -109,16 +109,16 @@ test('el radar només incorpora notícies catalanes i conserva els senyals anter
   assert.ok(!radar.some(item => item.title === 'OpenAI presenta un model nou'), 'les notícies globals no entren al radar');
 });
 
-test('una notícia amb seccio "radar" va només a La IA que passa aquí, no al feed', async () => {
+test('una notícia amb seccio "radar" dels territoris va només al radar, no al feed', async () => {
   const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
   const input = join(root, 'batch.json');
   const radarOnly = {
     ...story(1),
-    slug: 'adopcio-empresa-espanyola-ia',
-    sourceUrl: 'https://example.com/adopcio-espanyola',
+    slug: 'adopcio-empresa-gandia-ia',
+    sourceUrl: 'https://example.com/adopcio-gandia',
     category: 'EMPRESA',
-    title: 'Una empresa espanyola desplega IA a producció',
-    excerpt: 'Cas d’ús real sense cap topònim català.',
+    title: 'Una empresa de Gandia desplega IA a producció',
+    excerpt: 'Cas d’ús real d’una pime local.',
     seccio: 'radar'
   };
   const general = { ...story(2), slug: 'noticia-general-ia', sourceUrl: 'https://example.com/general' };
@@ -128,14 +128,62 @@ test('una notícia amb seccio "radar" va només a La IA que passa aquí, no al f
   const feedText = await readFile(join(root, 'news.js'), 'utf8');
   const feed = parseAssignment(feedText);
   assert.equal(feed.length, 4, 'el feed només conté les 4 notícies no marcades com a radar');
-  assert.ok(!feed.some(item => item.slug === 'adopcio-empresa-espanyola-ia'), 'la notícia radar-only no surt al feed');
+  assert.ok(!feed.some(item => item.slug === 'adopcio-empresa-gandia-ia'), 'la notícia radar-only no surt al feed');
   assert.ok(!/"seccio"/.test(feedText), 'el camp intern seccio no arriba mai al contracte públic IA_NEWS');
 
   const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
-  assert.ok(radar.some(item => item.title === 'Una empresa espanyola desplega IA a producció'), 'la notícia radar-only entra al radar tot i no ser catalana');
+  const entrada = radar.find(item => item.title === 'Una empresa de Gandia desplega IA a producció');
+  assert.ok(entrada, 'la notícia radar-only dels territoris entra al radar');
+  assert.equal(entrada.place, 'Comunitat Valenciana', 'el lloc és el territori real, no «Catalunya» per defecte');
 
   const archive = JSON.parse(await readFile(join(root, 'data', 'archive.json'), 'utf8'));
-  assert.ok(!archive.some(item => item.slug === 'adopcio-empresa-espanyola-ia'), 'la notícia radar-only no s’arxiva a l’hemeroteca del feed');
+  assert.ok(!archive.some(item => item.slug === 'adopcio-empresa-gandia-ia'), 'la notícia radar-only no s’arxiva a l’hemeroteca del feed');
+});
+
+test('el radar català descarta les notícies estatals marcades i accepta les dels territoris (15.10.2026)', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  // Cas real del 14.10.2026: marcada "radar" però sense res dels territoris.
+  const estatal = { ...story(1), slug: 'bbva-poppy-protocol-agents', sourceUrl: 'https://example.com/bbva-poppy', category: 'EMPRESA',
+    title: 'El BBVA s’uneix a Poppy, el protocol de Sierra i Meta', excerpt: 'El banc és el primer d’Europa que s’hi adhereix.',
+    body: 'El banc amb seu a Bilbao i Madrid participarà en el disseny del protocol.', seccio: 'radar' };
+  // Marcada "catalunya" sense terme al titular però amb la Generalitat al cos: hi ha d'entrar.
+  const govern = { ...story(2), slug: 'govern-veto-ia-escoles', sourceUrl: 'https://example.com/govern-veto', category: 'EDUCACIÓ',
+    title: 'El Govern vol limitar la IA a l’escola', excerpt: 'La portaveu ho anuncia en roda de premsa.',
+    body: 'La mesura afectaria els centres educatius que depenen de la Generalitat.', seccio: 'catalunya' };
+  // Sense marca, derivada pel titular: una notícia de Mallorca.
+  const mallorca = { ...story(3), slug: 'uib-model-ia-posidonia', sourceUrl: 'https://example.com/uib-posidonia', category: 'CIÈNCIA',
+    title: 'La UIB entrena una IA per vigilar la posidònia a Mallorca', excerpt: 'El model detecta la regressió de les praderies.' };
+  // Global que esmenta Alfonso Valencia: no és local.
+  const global1 = { ...story(5), slug: 'model-proteines-global', sourceUrl: 'https://example.com/proteines', category: 'CIÈNCIA',
+    title: 'Un model nou prediu interaccions de proteïnes', excerpt: 'Segons Alfonso Valencia, és un pas endavant.' };
+  await writeFile(input, JSON.stringify([estatal, govern, mallorca, global1, story(7), story(9)]), 'utf8');
+  const result = run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-10-15'], root);
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stderr, /BBVA/, 'el log avisa de la peça descartada');
+
+  const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.ok(!radar.some(item => item.title.startsWith('El BBVA')), 'una notícia estatal marcada "radar" no entra al radar');
+  assert.ok(radar.some(item => item.title === 'El Govern vol limitar la IA a l’escola'), 'una peça "catalunya" amb la Generalitat al cos sí que hi entra');
+  assert.equal(radar.find(item => item.title.startsWith('La UIB')).place, 'Mallorca', 'les notícies balears es deriven amb el seu lloc');
+  assert.ok(!radar.some(item => item.title.startsWith('Un model nou')), '«Valencia» com a cognom no fa local una notícia global');
+
+  const feed = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.ok(!feed.some(item => item.slug === 'bbva-poppy-protocol-agents'), 'la peça radar-only descartada tampoc no surt al feed');
+});
+
+test('seccio "senyal" explícita deixa al feed, fora del radar, un estudi estatal que diu «Catalunya»', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  const estudi = { ...story(1), slug: 'bbva-madrid-catalunya-exposicio-laboral-ia', sourceUrl: 'https://example.com/bbva-estudi', category: 'EMPRESA',
+    title: 'Un estudi del BBVA situa Madrid i Catalunya al capdavant de l’exposició laboral a la IA', excerpt: 'Dades agregades d’abast espanyol.', seccio: 'senyal' };
+  await writeFile(input, JSON.stringify([estudi, story(2), story(3), story(5), story(7)]), 'utf8');
+  assert.equal(run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-10-15'], root).status, 0);
+  const feedText = await readFile(join(root, 'news.js'), 'utf8');
+  assert.ok(parseAssignment(feedText).some(item => item.slug === estudi.slug), 'l’estudi surt al feed');
+  assert.ok(!/"seccio"/.test(feedText), 'el camp intern no arriba al contracte públic');
+  const radarText = await readFile(join(root, 'radar.js'), 'utf8').catch(() => '[]');
+  assert.ok(!parseAssignment(radarText).some(item => item.title.startsWith('Un estudi del BBVA')), '«senyal» el deixa fora del radar');
 });
 
 test('el radar conserva la miniatura de la notícia i l’enllaça si el lot no porta image', async () => {
@@ -145,7 +193,7 @@ test('el radar conserva la miniatura de la notícia i l’enllaça si el lot no 
   // Una peça radar-only SENSE camp image però amb el fitxer generat a assets/.
   await writeFile(join(root, 'assets', 'radar-sense-camp-image-20261011.jpg'), 'x', 'utf8');
   const ambImatge = { ...story(1), slug: 'barcelona-amb-imatge', sourceUrl: 'https://example.com/bcn-imatge', title: 'Barcelona estrena un servei d’IA', image: './assets/barcelona-amb-imatge-20261011.jpg' };
-  const senseCamp = { ...story(2), slug: 'radar-sense-camp-image', sourceUrl: 'https://example.com/radar-sense', title: 'Una empresa espanyola adopta IA', seccio: 'radar' };
+  const senseCamp = { ...story(2), slug: 'radar-sense-camp-image', sourceUrl: 'https://example.com/radar-sense', title: 'Una empresa de Girona adopta IA', seccio: 'radar' };
   delete senseCamp.image;
   await writeFile(join(root, 'batch.json'), JSON.stringify([ambImatge, senseCamp, story(3), story(5), story(7), story(9)]), 'utf8');
   const result = run(['ingest-news', '--input', join(root, 'batch.json'), '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-10-11'], root);
@@ -153,7 +201,7 @@ test('el radar conserva la miniatura de la notícia i l’enllaça si el lot no 
   const radarText = await readFile(join(root, 'radar.js'), 'utf8');
   const radar = parseAssignment(radarText);
   assert.equal(radar.find(item => item.title === 'Barcelona estrena un servei d’IA').image, './assets/barcelona-amb-imatge-20261011.jpg', 'la imatge de la notícia passa al radar');
-  assert.equal(radar.find(item => item.title === 'Una empresa espanyola adopta IA').image, './assets/radar-sense-camp-image-20261011.jpg', 'la xarxa de seguretat enllaça la imatge generada');
+  assert.equal(radar.find(item => item.title === 'Una empresa de Girona adopta IA').image, './assets/radar-sense-camp-image-20261011.jpg', 'la xarxa de seguretat enllaça la imatge generada');
   assert.ok(!/_slug/.test(radarText), 'el camp intern _slug no arriba mai al contracte públic IA_RADAR');
 });
 
@@ -425,6 +473,7 @@ test('les peces catalanes sense cap terme de LOCAL_TERMS entren al radar amb sec
     category: 'EDUCACIÓ',
     title: 'El Govern vol prohibir la IA als alumnes menors de 14 anys a l’escola i prepara una llei de benestar digital',
     excerpt: 'L’Executiu preveu tenir l’avantprojecte de llei el març del 2027.',
+    body: 'La portaveu del Govern ha explicat que la mesura afectaria els centres que depenen del Departament d’Educació de la Generalitat.',
     seccio: 'catalunya'
   };
   const mossos = {
