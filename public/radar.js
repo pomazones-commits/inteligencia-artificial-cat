@@ -1,5 +1,16 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "15.10.2026",
+    "title": "El BSC AI Factory obre un programa d'acceleració de 14 setmanes per a 100 empreses emergents d'IA",
+    "summary": "El centre de Barcelona posa 2,3 milions d'euros i l'accés al MareNostrum 5 a disposició de projectes avançats de tot Espanya. Les sol·licituds es poden presentar fins al 9 de novembre.",
+    "detail": "La BSC AI Factory, la fàbrica d'IA que lidera el Barcelona Supercomputing Center, ha llançat el seu primer programa d'acceleració, pensat per a 100 empreses emergents que desenvolupin tecnologies, productes o serveis basats en intel·ligència artificial. La convocatòria la fa el Ministeri per a la Transformació Digital i hi col·labora el Departament de la Presidència de la Generalitat de Catalunya.\n\nSegons El Nacional, el programa dura 14 setmanes i té una dotació de 2,3 milions d'euros. Admet empreses en fase avançada d'arreu d'Espanya i de qualsevol sector, amb atenció especial a la salut, les finances i el dret, els mitjans, la sostenibilitat i el clima. Les participants tindran accés al supercomputador MareNostrum 5, mentoria tècnica i empresarial, assessorament sobre proposta de valor, estratègia comercial, preus i recerca de finançament, i contacte amb grans empreses i inversors internacionals. S'executarà des de les oficines de Barcelona, Bilbao, Madrid i Màlaga, i la prova pilot comença al centre de càlcul de Barcelona. Hi haurà dues fases de selecció i les més destacades presentaran el projecte en un acte final a Madrid el març del 2027.\n\nEl pes del BSC en aquesta iniciativa és el que la fa rellevant per a Catalunya: l'accés a un supercomputador de primer nivell és una de les coses que més costa a una empresa emergent, i aquí es posa en un programa públic. Els terminis són curts, perquè les sol·licituds es tanquen el 9 de novembre. La previsió, a dos anys vista, és donar suport a 400 empreses emergents espanyoles en total.\n\nLa informació prové de l'article d'El Nacional, que atribueix la convocatòria al ministeri; no hem pogut consultar-ne les bases oficials. Per això no es poden confirmar els criteris de selecció ni les condicions d'ús del supercomputador, que són el que decidirà si el programa serveix de debò a empreses petites.",
+    "source": "El Nacional",
+    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/bsc-ai-factory-llanca-primer-programa-acceleracio-100-start-ups_1710175_102.html",
+    "image": "./assets/bsc-ai-factory-acceleracio-100-startups-20261015.jpg"
+  },
+  {
     "place": "Comunitat Valenciana",
     "category": "IA I SOCIETAT",
     "date": "15.10.2026",
@@ -73,16 +84,5 @@ window.IA_RADAR = [
     "source": "Diari de Girona",
     "url": "https://www.diaridegirona.cat/economia/2026/10/12/gironins-creen-app-vol-convertir-ia-assesor-financer-135102463.html",
     "image": "./assets/davant-girona-ia-assessor-financer-personal-20261013.jpg"
-  },
-  {
-    "place": "Tarragona",
-    "category": "IA I SOCIETAT",
-    "date": "11.10.2026",
-    "title": "La Fiscalia de Tarragona detecta casos de menors que fan servir la IA per crear imatges sexuals falses de companyes",
-    "summary": "Els processos judicials per delictes sexuals en línia a la província van passar de 15 el 2018 a 44 el 2025; la fiscal de menors descriu fotos d'Instagram o TikTok manipulades per humiliar adolescents.",
-    "detail": "El Diari de Tarragona publica un reportatge en què fiscals, una magistrada i un director d'institut expliquen com la IA s'ha fet servir a la demarcació per crear imatges sexuals falses de menors. Els casos descrits són, per exemple, una foto d'Instagram o de TikTok d'una adolescent transformada en una imatge d'ella nua per humiliar-la davant dels companys, o *stickers* que combinen fotos de companys amb frases denigrants.\n\nSegons les xifres que cita el diari, els processos judicials per delictes sexuals en línia a la província han passat de 15 el 2018 a 44 el 2025, un augment del 193,3%. El 2018 és el primer any amb dades provincials. Inés Torrenti, fiscal delegada de menors de la Fiscalia Provincial de Tarragona, recalca que prioritzen la protecció de les víctimes i una intervenció educativa amb els infractors; alguns, diu, eren menors de 14 anys i no poden ser considerats penalment responsables.\n\nJordi Satorra, director de l'Institut Antoni de Martí i Franquès, explica que quan un alumne denuncia una agressió el centre l'acompanya, sovint fins als Mossos d'Esquadra per posar la denúncia, avisa les famílies quan cal i coordina el cas amb els serveis socials. La magistrada María del Prado Escoda demana posar límits a l'accés dels menors a internet, i l'advocat Isaac González atribueix part de l'augment a un menor estigma per denunciar.\n\nEl mateix Satorra reconeix que no es pot saber del cert si hi ha més casos o si els alumnes en parlen més perquè se senten més segurs. Les xifres són de processos judicials per delictes sexuals en línia en general, no només dels fets amb IA, de manera que no mesuren quants casos hi ha amb imatges generades.",
-    "source": "Diari de Tarragona",
-    "url": "https://www.diaridetarragona.com/tarragona/272780/tarragona-detecta-casos-montajes-sexuales-menores-ia.html",
-    "image": "./assets/tarragona-fiscalia-montatges-sexuals-menors-ia-casos-20261011.jpg"
   }
 ];

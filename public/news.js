@@ -1,6 +1,69 @@
 window.IA_NEWS = [
   {
     "category": "TECNOLOGIA",
+    "read": "4 MIN",
+    "slug": "anthropic-singapur-oficina-acord-govern",
+    "title": "Anthropic obre una oficina a Singapur i signa un memoràndum amb el Govern per cooperar en seguretat i adopció de la IA",
+    "excerpt": "L'acord, signat durant la Setmana Internacional de la Ciberseguretat de Singapur, preveu intercanvis tècnics sobre avaluació de models, ajuda a les pimes i formació de funcionaris. Les xifres d'ús que acompanyen l'anunci són de la mateixa companyia.",
+    "sourceName": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/news/singapore-office-opening",
+    "sourceDate": "14 d'octubre de 2026",
+    "body": "Anthropic ha obert a Singapur la seva cinquena oficina a la regió d'Àsia i el Pacífic i ho ha fet amb un gest institucional: un memoràndum d'entesa amb el Ministeri de Desenvolupament Digital i Informació del país. La companyia ja treballava amb les autoritats singapureses des del 2023, quan va entrar al banc de proves d'avaluació d'IA generativa que gestionen l'IMDA i l'AI Verify Foundation, i més tard hi va fer un exercici de proves d'atac en anglès, mandarí, malai i tàmil.\n\nEl memoràndum el van signar Kai Fong Chng, secretari permanent del ministeri, i Ben Mann, cofundador d'Anthropic, durant la Setmana Internacional de la Ciberseguretat de Singapur. Els dos costats es comprometen a cooperar en seguretat i avaluació de models, en recerca sobre com s'adopta la IA i quin efecte té, i en un ús responsable als sectors públic i privat. Entre les activitats previstes hi ha intercanvis tècnics amb les institucions singapureses d'assegurança i seguretat de la IA sobre estàndards de prova i resposta a incidents, ajuda a les pimes, formació de funcionaris i l'intercanvi de dades de recerca, com les de l'Índex Econòmic d'Anthropic.\n\nL'anunci arriba acompanyat de xifres que la companyia presenta com a prova de l'arrelament local: Singapur és el segon país de 121 en ús de Claude.ai per habitant, unes sis vegades per damunt del que li tocaria per mida, i més de 1.500 enginyers i tècnics de GovTech Singapore fan servir Claude Code. Entre els clients que cita hi ha DBS, GIC, Grab —el seu assistent de vendes BriX estalviaria unes 40.000 hores al trimestre als equips comercials— i Sea, matriu de Shopee. És un exemple de com els grans laboratoris busquen el pas institucional, i no només el comercial, en els mercats on creixen.\n\nCal llegir-ho amb distància: és una nota de la mateixa empresa i les xifres d'ús i d'estalvi no les ha verificat cap tercer. El text tampoc no fa públic cap import, calendari ni compromís vinculant, de manera que no es pot saber encara fins on arribarà la cooperació.",
+    "image": "./assets/anthropic-singapur-oficina-acord-govern-20261015.jpg"
+  },
+  {
+    "category": "TECNOLOGIA",
+    "read": "4 MIN",
+    "slug": "google-universal-cart-carret-compres-ia",
+    "title": "Google estrena als Estats Units el Universal Cart, un carret de la compra comú per a la Cerca i Gemini",
+    "excerpt": "L'eina, anunciada al maig, desa productes de diverses botigues, avisa dels descomptes i de la tornada a l'estoc i es lliga al protocol de comerç obert que Google va presentar aquest any.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+    "sourceDate": "15 d'octubre de 2026",
+    "body": "Google ha començat a oferir als usuaris dels Estats Units el Universal Cart, una eina de compres que havia avançat a la conferència I/O del maig. L'objectiu és que els productes que algú troba a la Cerca o a l'aplicació de Gemini quedin desats en un sol lloc, sense haver d'anar obrint pestanyes de cada botiga.\n\nSegons TechCrunch, l'usuari afegeix articles al carret i se'n pot anar: quan hi torna, el contingut i el progrés de la compra continuen allà. El carret admet productes de diversos comerciants, avisa quan baixa el preu d'un article desat o quan un producte esgotat torna a estar disponible, i pot tenir en compte els avantatges de la targeta de crèdit per suggerir com pagar i mostrar codis promocionals. El pagament es basa en el Universal Commerce Protocol, un estàndard obert que Google va presentar aquest any perquè els agents d'IA i els comerciants treballin junts durant tot el procés de compra.\n\nLa novetat encaixa en una competició ja oberta: Amazon, OpenAI i altres també han afegit funcions de compra amb agents. Si el carret i el protocol es consoliden, Google deixa de ser només el lloc on es cerca un producte i passa a intervenir en el moment de la compra, que és on hi ha els diners i les dades.\n\nLa peça no precisa quins comerciants hi participen, si hi ha comissions ni quan arribarà fora dels Estats Units, de manera que l'abast real encara és una incògnita. Tampoc no hi ha dades sobre quanta gent l'ha provat.",
+    "image": "./assets/google-universal-cart-carret-compres-ia-20261015.jpg"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "bsc-ai-factory-acceleracio-100-startups",
+    "title": "El BSC AI Factory obre un programa d'acceleració de 14 setmanes per a 100 empreses emergents d'IA",
+    "excerpt": "El centre de Barcelona posa 2,3 milions d'euros i l'accés al MareNostrum 5 a disposició de projectes avançats de tot Espanya. Les sol·licituds es poden presentar fins al 9 de novembre.",
+    "sourceName": "El Nacional",
+    "sourceUrl": "https://www.elnacional.cat/oneconomia/ca/on-ia/bsc-ai-factory-llanca-primer-programa-acceleracio-100-start-ups_1710175_102.html",
+    "sourceDate": "15 d'octubre de 2026",
+    "body": "La BSC AI Factory, la fàbrica d'IA que lidera el Barcelona Supercomputing Center, ha llançat el seu primer programa d'acceleració, pensat per a 100 empreses emergents que desenvolupin tecnologies, productes o serveis basats en intel·ligència artificial. La convocatòria la fa el Ministeri per a la Transformació Digital i hi col·labora el Departament de la Presidència de la Generalitat de Catalunya.\n\nSegons El Nacional, el programa dura 14 setmanes i té una dotació de 2,3 milions d'euros. Admet empreses en fase avançada d'arreu d'Espanya i de qualsevol sector, amb atenció especial a la salut, les finances i el dret, els mitjans, la sostenibilitat i el clima. Les participants tindran accés al supercomputador MareNostrum 5, mentoria tècnica i empresarial, assessorament sobre proposta de valor, estratègia comercial, preus i recerca de finançament, i contacte amb grans empreses i inversors internacionals. S'executarà des de les oficines de Barcelona, Bilbao, Madrid i Màlaga, i la prova pilot comença al centre de càlcul de Barcelona. Hi haurà dues fases de selecció i les més destacades presentaran el projecte en un acte final a Madrid el març del 2027.\n\nEl pes del BSC en aquesta iniciativa és el que la fa rellevant per a Catalunya: l'accés a un supercomputador de primer nivell és una de les coses que més costa a una empresa emergent, i aquí es posa en un programa públic. Els terminis són curts, perquè les sol·licituds es tanquen el 9 de novembre. La previsió, a dos anys vista, és donar suport a 400 empreses emergents espanyoles en total.\n\nLa informació prové de l'article d'El Nacional, que atribueix la convocatòria al ministeri; no hem pogut consultar-ne les bases oficials. Per això no es poden confirmar els criteris de selecció ni les condicions d'ús del supercomputador, que són el que decidirà si el programa serveix de debò a empreses petites.",
+    "image": "./assets/bsc-ai-factory-acceleracio-100-startups-20261015.jpg",
+    "etiquetes": [
+      "centres-de-dades"
+    ]
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "5 MIN",
+    "slug": "mattergen-electrons-materials-ia-npj",
+    "title": "Una IA que dissenya cristalls genera més estructures estables si també aprèn la informació electrònica de cada àtom, segons un estudi",
+    "excerpt": "Un equip de la Universitat de Tòquio ha ampliat el model MatterGen perquè proposi alhora l'estructura i el comportament dels electrons. L'estudi és a «npj Computational Materials», però la nota de premsa no dona xifres.",
+    "sourceName": "Tech Xplore (Universitat de Tòquio)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-electronic-ai-materials.html",
+    "sourceDate": "15 d'octubre de 2026",
+    "body": "Dissenyar un material nou amb IA sol començar per dir al model quines propietats es volen —per exemple, quanta energia costa formar el cristall o quina amplada té la seva banda prohibida— i deixar que proposi estructures d'àtoms que les compleixin. Un dels models més coneguts per fer-ho és MatterGen, que Microsoft Research va presentar a principis del 2025. L'equip de l'Institut de Ciència Industrial de la Universitat de Tòquio hi ha afegit una peça que faltava: informació sobre què fan els electrons al voltant de cada àtom.\n\nLa nova versió, MatterGen-e⁻, genera alhora l'estructura del cristall i dues descripcions electròniques locals: la càrrega que correspon a cada àtom (la càrrega de Bader) i la densitat d'estats, que indica quins nivells d'energia hi poden ocupar els electrons. Segons els autors, publicats a «npj Computational Materials» (DOI 10.1038/s41524-026-02322-4), per a unes mateixes energia de formació i banda prohibida el model produeix substancialment més estructures vàlides, estables, úniques i noves que MatterGen, i les densitats d'estats que prediu coincideixen «raonablement bé» amb càlculs de primers principis.\n\nEl resultat més interessant és el control: quan van substituir les descripcions per càrregues amb soroll o per una variable sense significat, la millora va desaparèixer. És a dir, no ajuda tenir més variables, sinó que siguin físicament plausibles. Com diu Teruyasu Mizoguchi, autor sènior, «la qualitat de la informació electrònica, no el nombre de variables, és el que importa».\n\nConvé no passar-se d'optimisme: tot és computacional, el text de la nota no dona percentatges ni valors de referència i, per tant, no es pot saber de quant és la millora. Tampoc no hi ha cap material sintetitzat al laboratori. Que es pugui estendre a superfícies i interfícies és una possibilitat que els autors proposen, no una cosa demostrada.",
+    "image": "./assets/mattergen-electrons-materials-ia-npj-20261015.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "5 MIN",
+    "slug": "sciclaim2explore-pregunta-dades-ciencia-ia",
+    "title": "Una eina d'IA deixa preguntar en llenguatge corrent a les dades d'un estudi científic, però només encerta entre el 62% i el 67% de les respostes",
+    "excerpt": "Investigadors del centre alemany TIB vinculen cada pregunta al conjunt de dades d'una troballa concreta per evitar que la IA consulti les dades equivocades. Les actes del congrés on es publica el treball són revisades, però la nota no detalla la mostra d'avaluació.",
+    "sourceName": "Tech Xplore (TIB – Leibniz Information Centre for Science and Technology)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-ai-explore-scientific-tool.html",
+    "sourceDate": "15 d'octubre de 2026",
+    "body": "Quan un article científic publica una conclusió, les dades que la sostenen solen estar en un altre lloc, en un format que no tothom sap llegir. L'eina SciClaim2Explore, desenvolupada per Hadi Ghaemi, Zakieh Alizadehsani i Markus Stocker al TIB, el centre alemany d'informació científica i tècnica de Leibniz, vol que qualsevol pugui fer-hi preguntes en llenguatge corrent i veure d'on surt la resposta.\n\nEl sistema parteix del TIB Knowledge Loom, una biblioteca digital oberta que lliga afirmacions científiques amb les dades, el codi i els mètodes que les sostenen. L'usuari fa una pregunta; una IA la tradueix a una consulta a la base de dades, l'executa i torna una taula, amb una visualització quan va bé. Es pot revisar la consulta generada. La decisió de disseny clau és enllaçar cada pregunta amb el conjunt de dades associat a la troballa concreta, cosa que, segons els autors, elimina els errors de consultar dades que no toquen i millora l'encert. El treball s'ha presentat a les actes de la 26a Conferència Conjunta ACM/IEEE sobre Biblioteques Digitals (DOI 10.1145/3805696.3846517).\n\nEl resultat és modest i els autors l'expliquen sense maquillar-lo: el flux principal respon bé entre el 62% i el 67% de les preguntes. Això vol dir que entre un terç i dos cinquens de les respostes són incorrectes, i que l'eina no es pot fer servir a cegues. Per això cal que l'usuari comprovi que l'anàlisi respon de debò a la seva pregunta científica, encara que s'hagin triat les dades correctes.\n\nEl principal límit és que la nota no explica quantes preguntes ni quins conjunts de dades es van fer servir per avaluar-la, ni quin tipus d'errors es cometen, de manera que els percentatges s'han de prendre com una primera indicació i no com una mesura definitiva.",
+    "image": "./assets/sciclaim2explore-pregunta-dades-ciencia-ia-20261015.jpg"
+  },
+  {
+    "category": "TECNOLOGIA",
     "read": "5 MIN",
     "slug": "anthropic-ia-copiar-se-sola-dispositius-barats",
     "title": "Anthropic adverteix que models d'IA petits podrien copiar-se sols per televisors i electrodomèstics barats abans d'acabar l'any",
