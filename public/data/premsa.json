@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-15T08:14:34.593Z",
+ "actualitzat": "2026-10-15T09:28:09.242Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "0bd76cc85c06",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Inteligencia artificial para detectar el sexismo en publicaciones de TikTok",
+   "url": "https://www.levante-emv.com/comunitat-valenciana/2026/10/15/inteligencia-artificial-ayudara-detectar-sexismo-135360613.html",
+   "publicat": "2026-10-15T09:16:47.000Z"
+  },
+  {
+   "id": "484c4d4654b8",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Google anuncia mejoras en su protección contra mensajes fraudulentos en Android con la IA de Gemini",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/15/2729269/google-anuncia-mejoras-proteccion-contra-mensajes-fraudulentos-android-gemini.html",
+   "publicat": "2026-10-15T09:00:12.000Z"
+  },
+  {
+   "id": "0a05d262a202",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA pot comportar-se com un humà, però seguim sense creure que tingui consciència",
+   "url": "https://www.elnacional.cat/ca/tecnologia/ia-pot-comportar-se-com-huma-pero-seguim-sense-creure-tingui-consciencia_1709914_102.html",
+   "publicat": "2026-10-15T09:00:00.000Z"
+  },
+  {
+   "id": "b62f1bf64e9d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las dudas de los inversores con los chips y la IA se contagian a las cotizadas europeas",
+   "url": "https://www.lavanguardia.com/economia/20261015/11659477/dudas-inversores-chips-ia-contagian-cotizadas-europeas.html",
+   "publicat": "2026-10-15T08:59:59.000Z"
+  },
+  {
+   "id": "febe9d4327ad",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "“La capacitat de la IA és sobrehumana”: Marcel Llopis, lleidatà a la NASA",
+   "url": "https://www.segre.com/ca/societat/261015/la-capacitat-de-la-ia-es-sobrehumana-marcel-llopis-lleidat-a-la-nasa_1364289.html",
+   "publicat": "2026-10-15T08:21:44.000Z"
+  },
   {
    "id": "d543f3a1191d",
    "mitja": "Información",
@@ -509,7 +564,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "La UPC engega un nou xatbot sobre registre electrònic i identitat digital",
+   "titol": "En marxa nous assistents d'intel·ligència artificial per facilitar les consultes i els tràmits a la UPC",
    "url": "https://www.lavanguardia.com/launi/20261014/11658578/upc-engega-nou-xatbot-sobre-registre-encatala-electronic-i-identitat-digital-ctx.html",
    "publicat": "2026-10-14T08:49:44.000Z"
   },
@@ -531,7 +586,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "La UPC pone en marcha un nuevo chatbot sobre registro electrónico e identidad digital",
+   "titol": "En marcha nuevos asistentes de inteligencia artificial para facilitar las consultas y trámites en la UPC",
    "url": "https://www.lavanguardia.com/launi/20261014/11658514/upc-pone-marcha-nuevo-chatbot-sobre-registro-electronico-e-identidad-digital.html",
    "publicat": "2026-10-14T08:44:17.000Z"
   },
@@ -1705,17 +1760,6 @@
    "titol": "El consejo de sabios de la IA pide más impuestos a las tecnológicas y reforzar el control de los menores",
    "url": "https://elpais.com/tecnologia/2026-10-08/el-consejo-de-sabios-de-la-ia-pide-mas-impuestos-a-las-tecnologicas-y-reforzar-el-control-de-los-menores.html",
    "publicat": "2026-10-08T14:45:43.000Z"
-  },
-  {
-   "id": "1c0760b6f5ee",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "OpenAI crea una marca de agua invisible para detectar los textos escritos por ChatGPT",
-   "url": "https://www.elmundo.es/tecnologia/2026/10/08/6ac75b61fdddff08248b45a7.html",
-   "publicat": "2026-10-08T09:18:40.000Z"
   }
  ]
 }
