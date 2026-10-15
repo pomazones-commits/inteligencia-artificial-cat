@@ -1,8 +1,107 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-15T16:14:17.373Z",
+ "actualitzat": "2026-10-15T20:04:26.902Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "2dab18213d07",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una IA resuelve problemas en 22 campos científicos con soluciones que estaban a la vista de todos",
+   "url": "https://www.levante-emv.com/tendencias21/2026/10/15/ia-resuelve-problemas-22-campos-135385753.html",
+   "publicat": "2026-10-15T17:38:14.000Z"
+  },
+  {
+   "id": "0cac7cab2fb7",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alcoy reúne a más de 150 participantes en una jornada para acercar la IA a las empresas",
+   "url": "https://www.informacion.es/alcoy/2026/10/15/alcoy-reune-150-participantes-jornada-135384424.html",
+   "publicat": "2026-10-15T17:29:54.000Z"
+  },
+  {
+   "id": "8b071b6e1962",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Prosegur apuesta por la robótica y la inteligencia artificial para transformar el negocio de la seguridad",
+   "url": "https://cincodias.elpais.com/economia/foro-creo-creando-oportunidades/2026-10-15/prosegur-apuesta-por-la-robotica-y-la-inteligencia-artificial-para-transformar-el-negocio-de-la-seguridad.html",
+   "publicat": "2026-10-15T17:19:40.000Z"
+  },
+  {
+   "id": "ded58f3e2aa4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-tec",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La factoría de IA del BSC lanza un programa para acelerar startups",
+   "url": "https://www.lavanguardia.com/economia/20261015/11660033/factoria-ia-bsc-lanza-programa-acelerar-startups.html",
+   "publicat": "2026-10-15T17:16:29.000Z"
+  },
+  {
+   "id": "0cc482128d61",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Pot ChatGPT diagnosticar l'alopècia? Els dermatòlegs alerten dels riscos de confiar en la IA",
+   "url": "https://www.regio7.cat/salut/2026/10/15/pot-chatgpt-diagnosticar-lalopecia-els-135370425.html",
+   "publicat": "2026-10-15T17:00:45.000Z"
+  },
+  {
+   "id": "880e16b2f6e2",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'Ibex-35 perd els 19.200 punts pels dubtes del mercat davant el futur de la IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/mercats/ibex-35-perd-19200-punts-dubtes-mercat-futur-ia_1710298_102.html",
+   "publicat": "2026-10-15T17:00:36.000Z"
+  },
+  {
+   "id": "0591faad27a4",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "OpenAI acusa un exempleat que es va unir a Apple de robar informació sobre un dispositiu secret",
+   "url": "https://www.elnacional.cat/ca/tecnologia/openai-acusa-exempleat-es-va-unir-apple-robar-informacio-sobre-dispositiu-secret_1710238_102.html",
+   "publicat": "2026-10-15T17:00:00.000Z"
+  },
+  {
+   "id": "1ce60748b6b2",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Andrés Pedreño anima a los empresarios a ver la IA como una oportunidad de negocio y no como un coste",
+   "url": "https://www.informacion.es/economia/2026/10/15/andres-pedreno-anima-empresarios-ver-135383268.html",
+   "publicat": "2026-10-15T16:58:13.000Z"
+  },
+  {
+   "id": "361af0bb0a6c",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Ensenyat defensa a Roma una IA que no deixi ningú enrere",
+   "url": "https://www.diariandorra.ad/nacional/261015/ensenyat-defensa-roma-ia-deixi-ningu-enrere_206573.html",
+   "publicat": "2026-10-15T16:17:08.000Z"
+  },
   {
    "id": "eaf59f6d8752",
    "mitja": "El Periódico",
@@ -1949,28 +2048,6 @@
    "titol": "Nvidia encadena más récords en Bolsa con la euforia por la IA: próxima parada, los seis billones de capitalización",
    "url": "https://cincodias.elpais.com/companias/2026-10-09/nvidia-encadena-mas-records-en-bolsa-con-la-euforia-por-la-ia-proxima-parada-los-seis-billones-de-capitalizacion.html",
    "publicat": "2026-10-09T03:15:00.000Z"
-  },
-  {
-   "id": "59b7cb16eeeb",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Francesca Bria: \"España ha liderado el enfoque social de la IA, pero eso no se puede dar por hecho\"",
-   "url": "https://www.eldiario.es/tecnologia/francesca-bria-espana-liderado-enfoque-social-ia-no-dar-hecho_1_13572915.html",
-   "publicat": "2026-10-08T16:59:13.000Z"
-  },
-  {
-   "id": "ed725da2fabd",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Securitize lanza acciones tokenizadas de Apple, Nvidia y otras grandes cotizadas en EE UU",
-   "url": "https://cincodias.elpais.com/criptoactivos/2026-10-08/securitize-lanza-acciones-tokenizadas-de-apple-nvidia-y-otras-grandes-cotizadas-en-ee-uu.html",
-   "publicat": "2026-10-08T16:44:51.000Z"
   }
  ]
 }
