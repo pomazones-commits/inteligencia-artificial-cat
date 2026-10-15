@@ -125,6 +125,32 @@ def darrera_veu_civicai(path: Path = Path("public/tribuna-arxiu.js")) -> dict:
     return millor
 
 
+def darrera_veu_empresa(path: Path = Path("public/empresa.js")) -> dict:
+    """La peça més recent de «Veus d'empresa» (15.10.2026).
+
+    empresa.js és una llista (window.IA_EMPRESA), sense peça vigent: se'n fa
+    l'àudio de la més recent, amb el prefix «empresa» (empresa-AAAA-MM-DD.mp3),
+    que és el que busca empresa.html. Prefix propi: no xoca mai amb la tribuna."""
+    if not path.is_file():
+        return {}
+    raw = path.read_text(encoding="utf-8")
+    m = re.search(r"^window\.IA_EMPRESA\s*=\s*", raw, re.M)
+    if not m:
+        return {}
+    try:
+        llista = json.loads(raw[m.end():].strip().rstrip(";").strip())
+    except json.JSONDecodeError:
+        return {}
+    millor = {}
+    for peca in llista if isinstance(llista, list) else []:
+        if not isinstance(peca, dict):
+            continue
+        iso = data_iso(str(peca.get("date", "")))
+        if iso and iso > data_iso(str(millor.get("date", ""))):
+            millor = peca
+    return millor
+
+
 def data_iso(valor: str) -> str:
     """Normalitza DD.MM.AAAA o AAAA-MM-DD a AAAA-MM-DD. Retorna '' si no quadra."""
     valor = (valor or "").strip()
@@ -571,6 +597,9 @@ def main() -> int:
         peces.append((Path("public/tribuna-arxiu.js"), "tribuna", ("title", "excerpt", "body"), veu))
     elif veu:
         print("AVÍS: la darrera veu de CIVICAi té la mateixa data que la tribuna vigent; no se'n fa l'àudio.")
+    empresa = darrera_veu_empresa()
+    if empresa:
+        peces.append((Path("public/empresa.js"), "empresa", ("title", "excerpt", "body"), empresa))
     for fitxer, prefix, camps, fixa in peces:
         try:
             data = fixa if fixa is not None else llegeix_ia_js(fitxer)

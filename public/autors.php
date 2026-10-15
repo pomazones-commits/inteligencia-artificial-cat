@@ -4,12 +4,12 @@ declare(strict_types=1);
 // «Qui hi escriu» (24.09.2026): /autors (totes les signatures) i /autor/<slug>
 // (fitxa d'una persona amb totes les seves peces). No té dades pròpies: surt
 // sol de «La tribuna» i «Estudis» (tribuna.js, tribuna-arxiu.js, estudis.js,
-// estudis-arxiu.js). Quan es publica una peça nova, la fitxa s'actualitza sola.
+// estudis-arxiu.js i, des del 15.10.2026, empresa.js de «Veus d'empresa»). Quan es publica una peça nova, la fitxa s'actualitza sola.
 // ---------------------------------------------------------------------------
 require __DIR__ . '/inc/plantilla.php';
 
 $autors = [];
-foreach (['tribuna', 'estudis'] as $tipus) {
+foreach (['tribuna', 'estudis', 'empresa'] as $tipus) {
     foreach (iacat_peces($tipus) as $peca) {
         if ($peca['autor'] === '') { continue; }
         $clau = iacat_slug($peca['autor']);

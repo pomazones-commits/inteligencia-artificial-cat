@@ -35,7 +35,7 @@ foreach (($edition['items'] ?? []) as $item) {
 // el quadern vigents, i les tres últimes reflexions del dia, amb la seva adreça fixa.
 require_once __DIR__ . '/inc/peces.php';
 $extres = [];
-foreach (['tribuna' => 1, 'estudis' => 1, 'analisi' => 1, 'quadern' => 1, 'reflexio' => 3] as $tipus => $quantes) {
+foreach (['tribuna' => 1, 'estudis' => 1, 'analisi' => 1, 'quadern' => 1, 'reflexio' => 3, 'empresa' => 1] as $tipus => $quantes) {
     foreach (array_slice(iacat_peces($tipus), 0, $quantes) as $peca) { $extres[] = $peca; }
 }
 foreach ($extres as $peca) {

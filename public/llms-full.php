@@ -107,7 +107,7 @@ if ($radar) {
 $sortida[] = '## Peces de fons';
 $sortida[] = '';
 $senceres = ['reflexio' => 1, 'analisi' => 1, 'quadern' => 1];
-$fitxes = ['tribuna' => 3, 'estudis' => 3];
+$fitxes = ['tribuna' => 3, 'estudis' => 3, 'empresa' => 3];
 foreach ($senceres as $tipus => $quantes) {
     foreach (array_slice(iacat_peces($tipus), 0, $quantes) as $peca) {
         $sortida[] = '### ' . $peca['seccio'] . ': ' . lf_linia($peca['titol']);

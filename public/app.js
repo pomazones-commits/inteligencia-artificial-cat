@@ -15,8 +15,8 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026101501';
-  const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './series.js'];
+  const VERSIO_MANUAL = '2026101502';
+  const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
     script.src = `${src}?v=${stamp}${MANUALS.includes(src) ? 'm' + VERSIO_MANUAL : ''}`;
@@ -485,6 +485,68 @@
         banda.hidden = false;
       });
     }
+
+    // ——— Veus d'empresa (15.10.2026): la peça més recent d'empresa.js ———
+    // empresa.js es baixa després de pintar la portada. Es mostra la peça més recent
+    // si té menys d'EMPRESA_DIES_MAX dies; si no, la banda queda amagada.
+    const EMPRESA_DIES_MAX = 30;
+    Promise.all([loadScript('./empresa.js'), loadScript('./peces.js')]).then(() => {
+      const llista = [null].concat(window.IA_EMPRESA || []);
+      const peca = llista[1];
+      const banda = document.querySelector('#veus-empresa');
+      const graella = document.querySelector('#empresa-peces');
+      if (!peca || !peca.title || !banda || !graella) return;
+      const [dd, mm, aa] = String(peca.date || '').split('.').map(Number);
+      if (!dd || !mm || !aa || (Date.now() - new Date(aa, mm - 1, dd).getTime()) / 864e5 > EMPRESA_DIES_MAX) return;
+      const el = (tag, classe, text) => {
+        const n = document.createElement(tag);
+        if (classe) n.className = classe;
+        if (text) n.textContent = text;
+        return n;
+      };
+      const cami = (window.IAPeces && window.IAPeces.cami('empresa', peca, llista)) || './veus-d-empresa';
+      const targeta = el('article', 'veus-peca');
+      if (peca.photo) {
+        const figura = el('figure', 'veus-photo');
+        const img = el('img');
+        img.src = peca.photo;
+        img.alt = peca.photoAlt || `Retrat de ${peca.author || ''}`.trim();
+        img.loading = 'lazy';
+        figura.appendChild(img);
+        targeta.appendChild(figura);
+      } else {
+        targeta.classList.add('veus-peca--sense-foto');
+      }
+      const text = el('div', 'veus-copy');
+      const tipus = peca.category ? peca.category.charAt(0) + peca.category.slice(1).toLowerCase() : 'Veus d’empresa';
+      text.appendChild(el('p', 'eyebrow', `${tipus}${peca.read ? ' · ' + peca.read.toLowerCase() : ''}${peca.date ? ' · ' + peca.date : ''}`));
+      const titol = el('h2');
+      titol.id = 'empresa-titol';
+      const enllac = el('a', '', peca.title);
+      enllac.href = cami;
+      titol.appendChild(enllac);
+      text.appendChild(titol);
+      if (peca.excerpt) text.appendChild(el('p', 'veus-entradeta', peca.excerpt));
+      const qui = el('p', 'veus-byline', peca.author || '');
+      if (peca.role) {
+        if (peca.author) qui.appendChild(document.createTextNode(' · '));
+        const rol = el('span');
+        if (window.IAPeces && window.IAPeces.rolAmbEnllac) window.IAPeces.rolAmbEnllac(rol, peca);
+        else rol.textContent = peca.role;
+        qui.appendChild(rol);
+      }
+      text.appendChild(qui);
+      const accions = el('p', 'veus-accions');
+      const boto = el('a', 'veus-boto', peca.category === 'ENTREVISTA' ? 'Llegir l’entrevista ' : 'Llegir la peça ');
+      boto.href = cami;
+      boto.appendChild(el('span', '', '↗'));
+      accions.appendChild(boto);
+      text.appendChild(accions);
+      targeta.appendChild(text);
+      graella.textContent = '';
+      graella.appendChild(targeta);
+      banda.hidden = false;
+    });
 
     // ——— Estudis (article de fons signat, fitxer manual estudis.js) ———
     if (window.IA_ESTUDI && window.IA_ESTUDI.title) {

@@ -13,7 +13,7 @@ const w = {};
 vm.runInNewContext(llegeix('peces.js'), { window: w, document: {} });
 const dades = {};
 for (const f of ['tribuna.js', 'tribuna-arxiu.js', 'estudis.js', 'estudis-arxiu.js', 'analysis.js',
-  'analysis-arxiu.js', 'reflection.js', 'quadern-arxiu.js', 'reflexio-diaria.js', 'reflexions-arxiu.js']) {
+  'analysis-arxiu.js', 'reflection.js', 'quadern-arxiu.js', 'reflexio-diaria.js', 'reflexions-arxiu.js', 'empresa.js']) {
   vm.runInNewContext(llegeix(f), { window: dades });
 }
 const seccions = {
@@ -21,7 +21,9 @@ const seccions = {
   estudis: [dades.IA_ESTUDI, dades.IA_ESTUDIS_ARXIU],
   analisi: [dades.IA_ANALYSIS, dades.IA_ANALISIS_ARXIU],
   quadern: [dades.IA_REFLECTION, dades.IA_QUADERN_ARXIU],
-  reflexio: [dades.IA_REFLEXIO_DIARIA, dades.IA_REFLEXIONS_ARXIU]
+  reflexio: [dades.IA_REFLEXIO_DIARIA, dades.IA_REFLEXIONS_ARXIU],
+  // «Veus d'empresa» (15.10.2026): sense peça vigent (null) i tota la llista a empresa.js.
+  empresa: [null, dades.IA_EMPRESA]
 };
 
 const php = execFileSync('php', ['-r', `

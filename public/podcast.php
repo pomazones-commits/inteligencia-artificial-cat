@@ -16,7 +16,7 @@ header('Content-Type: text/xml; charset=utf-8');
 $x = static fn(string $v): string => htmlspecialchars($v, ENT_XML1 | ENT_QUOTES, 'UTF-8');
 $seccions = iacat_seccions();
 $dirAudio = __DIR__ . '/assets/audio/';
-$hores = ['reflexio' => '19:00', 'analisi' => '09:00', 'quadern' => '09:30', 'tribuna' => '08:00', 'estudis' => '08:30'];
+$hores = ['reflexio' => '19:00', 'analisi' => '09:00', 'quadern' => '09:30', 'tribuna' => '08:00', 'estudis' => '08:30', 'empresa' => '08:15'];
 
 $episodis = [];
 foreach (iacat_totes_les_peces() as $peca) {

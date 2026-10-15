@@ -51,6 +51,14 @@ function iacat_seccions(): array
             'vigent' => ['reflexio-diaria.js', 'IA_REFLEXIO_DIARIA'], 'arxiu' => ['reflexions-arxiu.js', 'IA_REFLEXIONS_ARXIU'],
             'resum' => ['dek'], 'audio' => 'reflexio-', 'clau' => 'data',
         ],
+        // «Veus d'empresa» (15.10.2026): articles i entrevistes de persones que treballen
+        // en empreses privades. Una sola llista, de la més recent a la més antiga
+        // (empresa.js), sense peça «vigent»: 'vigent' => null.
+        'empresa' => [
+            'nom' => "Veus d'empresa", 'cami' => 'empresa', 'html' => 'empresa.html', 'arxiuHtml' => 'veus-d-empresa',
+            'vigent' => null, 'arxiu' => ['empresa.js', 'IA_EMPRESA'],
+            'resum' => ['excerpt'], 'audio' => 'empresa-', 'clau' => 'titol',
+        ],
     ];
 }
 
@@ -117,7 +125,7 @@ function iacat_peces(string $tipus): array
 
     // Llista en l'ordre del web: la vigent primer i després l'arxiu.
     $llista = [];
-    $vigent = iacat_llegeix_js($s['vigent'][0], $s['vigent'][1]);
+    $vigent = $s['vigent'] ? iacat_llegeix_js($s['vigent'][0], $s['vigent'][1]) : null;
     if (is_array($vigent) && !empty($vigent['title'])) { $llista[] = ['idx' => -1, 'item' => $vigent]; }
     if ($s['arxiu']) {
         $arxiu = iacat_llegeix_js($s['arxiu'][0], $s['arxiu'][1]);

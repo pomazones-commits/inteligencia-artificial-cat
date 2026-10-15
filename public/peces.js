@@ -2,7 +2,7 @@
    Contracte públic: window.IAPeces = { slug, ids, cami, url, canonica, posicio, rolAmbEnllac }.
 
    Cada peça de «La tribuna», «Estudis», l'anàlisi, el Quadern IA i la
-   reflexió del dia té una adreça que no canvia mai: /tribuna/<id>,
+   reflexió del dia (i, des del 15.10.2026, «Veus d'empresa», /empresa/<id>) té una adreça que no canvia mai: /tribuna/<id>,
    /estudis/<id>, /analisi/<id>, /quadern/<id> i /reflexio/<AAAA-MM-DD>.
    Les serveix peca.php.
 
@@ -10,7 +10,7 @@
    canvia l'altre i passa `node automation/tests/peces-paritat.test.mjs`. */
 (function () {
   var BASE = 'https://inteligencia-artificial.cat';
-  var CAMINS = { tribuna: 'tribuna', estudis: 'estudis', analisi: 'analisi', quadern: 'quadern', reflexio: 'reflexio' };
+  var CAMINS = { tribuna: 'tribuna', estudis: 'estudis', analisi: 'analisi', quadern: 'quadern', reflexio: 'reflexio', empresa: 'empresa' };
   var MAPA = {
     'à': 'a', 'á': 'a', 'â': 'a', 'ä': 'a', 'ã': 'a', 'å': 'a',
     'è': 'e', 'é': 'e', 'ê': 'e', 'ë': 'e',

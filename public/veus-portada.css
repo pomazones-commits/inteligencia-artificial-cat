@@ -149,3 +149,11 @@
   .veus-peca .veus-copy h2 { font-size: 24px; }
   .veus-accions--peu { padding: 16px 20px 22px; }
 }
+
+/* ——— Veus d'empresa (15.10.2026): mateixa banda, sense logo i amb accent blau ——— */
+.veus-band--empresa {
+  background:
+    radial-gradient(circle at 96% 6%, rgba(37, 99, 235, .10), transparent 38%),
+    #fff;
+}
+.veus-marca--text span { padding-left: 0; border-left: 0; }

@@ -6,7 +6,7 @@ Informació per a models de llenguatge i agents d'IA que vulguin entendre o cita
 
 - **Llengua:** tot el contingut és en català.
 - **Ritme:** quatre lots al dia (cap a les 06:05, 10:05, 14:05 i 18:05, hora de Barcelona), fins a 20 notícies diàries. Cada vespre s'hi afegeix «La reflexió del dia»; cada divendres, l'anàlisi de la setmana i el Quadern IA.
-- **Com es fa:** les notícies del dia les redacta un procés automàtic amb Claude (Anthropic) a partir de fonts públiques, sota la signatura «Redacció IA.cat» i amb supervisió humana del procés; les il·lustracions es generen amb Gemini (Google) o són fotografies amb llicència lliure. «La tribuna» i «Estudis» són textos signats per persones reals.
+- **Com es fa:** les notícies del dia les redacta un procés automàtic amb Claude (Anthropic) a partir de fonts públiques, sota la signatura «Redacció IA.cat» i amb supervisió humana del procés; les il·lustracions es generen amb Gemini (Google) o són fotografies amb llicència lliure. «La tribuna», «Estudis» i «Veus d'empresa» són textos signats per persones reals.
 - **Com citar-lo:** cita la peça d'IA.cat amb el seu enllaç i, per a les dades, la font original que enllaça cada notícia. Les correccions es fan a la mateixa peça i queden al registre públic de correccions.
 - **Versió completa per a màquines:** [llms-full.txt](https://inteligencia-artificial.cat/llms-full.txt) conté, en Markdown, l'edició del dia sencera i les últimes peces de fons. Es regenera sola a cada lot.
 - **Agents al navegador:** les pàgines del web declaren eines de només lectura amb WebMCP (`document.modelContext`): notícies del dia, lectura d'una notícia, cerca a l'hemeroteca i agenda d'actes.
@@ -35,6 +35,7 @@ Informació per a models de llenguatge i agents d'IA que vulguin entendre o cita
 
 - [La tribuna](https://inteligencia-artificial.cat/tribuna.html): opinió signada per persones convidades ([arxiu](https://inteligencia-artificial.cat/arxiu-tribuna.html)). Cada peça té adreça fixa a `/tribuna/<id>`.
 - [Veus de CIVICAi](https://inteligencia-artificial.cat/veus-de-civicai): la sèrie de «La tribuna» on escriuen sòcies i socis, fundadores i fundadors i directores i directors de CIVICAi, i la columna setmanal del seu president, Manel Sanromà.
+- [Veus d'empresa](https://inteligencia-artificial.cat/veus-d-empresa): articles i entrevistes de persones que fan servir o construeixen IA a les empreses, signats amb nom i càrrec. No és contingut patrocinat. Cada peça té adreça fixa a `/empresa/<id>`.
 - [Estudis](https://inteligencia-artificial.cat/estudi.html): articles de fons amb resum, paraules clau i bibliografia ([arxiu](https://inteligencia-artificial.cat/arxiu-estudis.html)); adreça fixa `/estudis/<id>`.
 - [Anàlisi de la setmana](https://inteligencia-artificial.cat/analisi.html): cada divendres ([arxiu](https://inteligencia-artificial.cat/arxiu-analisis.html)); adreça fixa `/analisi/<id>`.
 - [Quadern IA](https://inteligencia-artificial.cat/quadern.html): reflexió filosòfica setmanal ([arxiu](https://inteligencia-artificial.cat/arxiu-quadern.html)); adreça fixa `/quadern/<id>`.
