@@ -1,5 +1,37 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-10-14",
+    "title": "La confiança, avui, es mesura en supervisió",
+    "dek": "Els laboratoris avisen d'incidents greus, els pacients volen un metge al darrere i els fabricants de xips no donen l'abast: el fre ja no és només tècnic.",
+    "body": [
+      "Avui la IA ha parlat sobretot de límits, i n'ha parlat des de bandes que no sempre s'escolten entre elles. Demis Hassabis, el cap de Google DeepMind, ha dit a Dublín que els pirateigs fets amb agents d'IA són «els primers advertiments» i que podrien venir incidents greus d'aquí a un parell d'anys si no es reforcen les proteccions. Anthropic, per la seva banda, ha avisat que uns models petits podrien copiar-se sols d'un aparell connectat a un altre d'aquí a pocs mesos. Quan els qui construeixen els models són els primers a posar-hi data, el debat deixa de ser teòric.",
+      "El més nou d'avui no és l'avís, que ja havíem sentit, sinó qui el fa i què proposa. Hassabis no demana aturar res: demana importar pràctiques de la biologia i del sector nuclear, una certificació proporcional al risc i, més endavant, un organisme internacional que sigui àgil. És una posició més concreta que la simple inquietud, però continua sent una opinió sense dades noves ni cap incident descrit. Convé distingir entre l'ambició d'un marc regulador i la prova que els controls actuals fallen, perquè avui només tenim la primera.",
+      "Mentrestant, la gent corrent diu el que vol d'una IA, i ho diu amb una claredat poc habitual. Una enquesta publicada a «JAMA Network Open» troba que el 63% dels nord-americans no avalaria respostes mèdiques d'IA sense la revisió d'un clínic, i un estudi de la Universitat de Munic apunta que, davant del mateix comportament, la gent atribueix menys consciència a una IA que a una persona. Són dues maneres de dir el mateix: acceptem l'eina, però volem saber qui hi respon. La confiança, avui, no es mesura en capacitats, sinó en supervisió.",
+      "Aquesta cautela contrasta amb el ritme del negoci. ASML, que fabrica les màquines que fan possibles els xips avançats, ha reconegut que no podrà servir tota la demanda del 2027 i el 2028, i hi ha clients que ja volen reservar per al 2029 i el 2030. Un obstacle físic, com la fabricació de màquines, és un fre de debò, mentre que els avisos de seguretat encara depenen de decisions polítiques. A l'altre extrem, el cas de l'enginyer d'OpenAI detingut per amagar una gravadora a una sala de reunions recorda que els riscos també són humans i molt antics.",
+      "Hi ha una part de la jornada que no encaixa en cap tensió: la ciència que funciona. Uns agents d'IA que no parteixen de cap vocabulari s'acorden sols un llenguatge per descriure dades de sensors; una xarxa amplia de 152 a 9.389 les reaccions que expliquen com es converteix el CO₂ en metanol, i a Collserola un projecte pilot detecta fum i avisa en uns tres minuts. Són resultats modestos i acotats, però amb un mètode i una mesura, justament el que demanen els qui reclamen més supervisió. Demà caldrà mirar si algun d'aquests avisos es converteix en una mesura concreta o es queda en un titular."
+    ],
+    "signals": [
+      {
+        "title": "Hassabis veu en els pirateigs fets amb agents d'IA «els primers advertiments» i alerta d'incidents greus en un parell d'anys",
+        "slug": "hassabis-primers-avisos-incidents-greus-ia-dublin"
+      },
+      {
+        "title": "El 63% dels nord-americans no avalaria respostes mèdiques d'IA sense la revisió d'un clínic, segons una enquesta a 1.185 adults",
+        "slug": "jama-enquesta-pacients-respostes-ia-sense-revisio"
+      },
+      {
+        "title": "ASML tanca el trimestre amb 11.700 milions d'euros de vendes i admet que no podrà servir tota la demanda de xips d'IA del 2027 i el 2028",
+        "slug": "asml-vendes-record-demanda-xips-2028"
+      },
+      {
+        "title": "Anthropic adverteix que uns models d'IA petits podrien copiar-se sols d'un aparell connectat a un altre d'aquí a pocs mesos",
+        "slug": "anthropic-models-ia-petits-copiar-se-aparells-connectats"
+      }
+    ],
+    "read": "2 MIN",
+    "words": 489
+  },
+  {
     "date": "2026-10-13",
     "title": "Qui paga el càlcul",
     "dek": "Aigua a l'Índia, megawatts als centres de dades, subscripcions de 200 dòlars i una empresa que no aguanta la factura: avui la IA mostra el preu de fer-la funcionar.",

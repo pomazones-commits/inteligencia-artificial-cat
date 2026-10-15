@@ -1,32 +1,32 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-10-14",
-  "title": "La confiança, avui, es mesura en supervisió",
-  "dek": "Els laboratoris avisen d'incidents greus, els pacients volen un metge al darrere i els fabricants de xips no donen l'abast: el fre ja no és només tècnic.",
+  "date": "2026-10-15",
+  "title": "Qui ho diu i amb quina prova",
+  "dek": "Entre un micròfon que no diu el mateix que la seva web i uns models que fallen en el detall, el dia ha girat sobre la distància entre l'afirmació i la comprovació.",
   "body": [
-    "Avui la IA ha parlat sobretot de límits, i n'ha parlat des de bandes que no sempre s'escolten entre elles. Demis Hassabis, el cap de Google DeepMind, ha dit a Dublín que els pirateigs fets amb agents d'IA són «els primers advertiments» i que podrien venir incidents greus d'aquí a un parell d'anys si no es reforcen les proteccions. Anthropic, per la seva banda, ha avisat que uns models petits podrien copiar-se sols d'un aparell connectat a un altre d'aquí a pocs mesos. Quan els qui construeixen els models són els primers a posar-hi data, el debat deixa de ser teòric.",
-    "El més nou d'avui no és l'avís, que ja havíem sentit, sinó qui el fa i què proposa. Hassabis no demana aturar res: demana importar pràctiques de la biologia i del sector nuclear, una certificació proporcional al risc i, més endavant, un organisme internacional que sigui àgil. És una posició més concreta que la simple inquietud, però continua sent una opinió sense dades noves ni cap incident descrit. Convé distingir entre l'ambició d'un marc regulador i la prova que els controls actuals fallen, perquè avui només tenim la primera.",
-    "Mentrestant, la gent corrent diu el que vol d'una IA, i ho diu amb una claredat poc habitual. Una enquesta publicada a «JAMA Network Open» troba que el 63% dels nord-americans no avalaria respostes mèdiques d'IA sense la revisió d'un clínic, i un estudi de la Universitat de Munic apunta que, davant del mateix comportament, la gent atribueix menys consciència a una IA que a una persona. Són dues maneres de dir el mateix: acceptem l'eina, però volem saber qui hi respon. La confiança, avui, no es mesura en capacitats, sinó en supervisió.",
-    "Aquesta cautela contrasta amb el ritme del negoci. ASML, que fabrica les màquines que fan possibles els xips avançats, ha reconegut que no podrà servir tota la demanda del 2027 i el 2028, i hi ha clients que ja volen reservar per al 2029 i el 2030. Un obstacle físic, com la fabricació de màquines, és un fre de debò, mentre que els avisos de seguretat encara depenen de decisions polítiques. A l'altre extrem, el cas de l'enginyer d'OpenAI detingut per amagar una gravadora a una sala de reunions recorda que els riscos també són humans i molt antics.",
-    "Hi ha una part de la jornada que no encaixa en cap tensió: la ciència que funciona. Uns agents d'IA que no parteixen de cap vocabulari s'acorden sols un llenguatge per descriure dades de sensors; una xarxa amplia de 152 a 9.389 les reaccions que expliquen com es converteix el CO₂ en metanol, i a Collserola un projecte pilot detecta fum i avisa en uns tres minuts. Són resultats modestos i acotats, però amb un mètode i una mesura, justament el que demanen els qui reclamen més supervisió. Demà caldrà mirar si algun d'aquests avisos es converteix en una mesura concreta o es queda en un titular."
+    "Si ahir la IA es mesurava en supervisió, avui s'ha mesurat en prova. Gairebé cada peça del dia ha plantejat la mateixa pregunta: qui ho diu, i amb quin suport? El conseller delegat de Flock va assegurar en un acte que els micròfons de l'empresa detecten «només trets», però la web de la companyia també hi enumera petards, exhibicions de cotxes i accidents greus. L'empresa matisa que volia dir que no escolta converses. La distància entre el que es diu en públic i el que posa al catàleg és, avui, la notícia sencera.",
+    "No és un cas aïllat, i això és el que dona fil a la jornada. Les xifres d'ingressos d'Anthropic, 16.800 milions de dòlars el tercer trimestre, no consten en cap fulletó oficial: les expliquen fonts del mercat al «Financial Times» i a Reuters. Els resultats d'Apate, l'empresa que fa respondre agents d'IA a estafadors, són els que presenta la mateixa companyia. Colossal assegura que la seva plataforma assenyala uns 2.300 punts del genoma del dodo per editar, però són prediccions per provar al laboratori i encara no hi ha cap article que n'avali el mètode.",
+    "La ciència del dia, en canvi, ha fet el que toca amb la prova, que és ensenyar-ne els límits. Un estudi publicat en una revista de la Societat Meteorològica Americana mostra que els models de llenguatge encerten els grans patrons de temperatura, però s'equivoquen entre 3 i 6 graus en el clima d'un lloc concret; afegir el nom del lloc, a més de les coordenades, va reduir els errors un 27%. A «Nature», una capa d'aprenentatge automàtic dobla la precisió de les previsions a entre dues i sis setmanes. Cap dels dos resultats es presenta com a definitiu, i per això es poden creure millor.",
+    "Aquí hi ha el contrast que val la pena guardar. Quan l'afirmació ve d'una empresa, sol arribar sense mètode; quan ve d'un laboratori, arriba amb la manera de fer-la fallar. La mateixa tendència es veu en un terreny més modest: un projecte català, PredIHC-MEL, vol predir amb IA l'evolució d'un melanoma, però el seu anunci reconeix que encara és a l'inici i que no hi ha resultats. Reconèixer-ho no li resta valor; l'hi dona, perquè deixa clar què s'ha de comprovar i quan.",
+    "Si hi ha una tendència, no és que la IA hagi millorat o empitjorat avui, sinó que el públic, els reguladors i els mitjans demanen cada cop més el detall del «com ho saps». Ho veiem en el que es pregunta a una xifra, a una etiqueta i a un micròfon. Demà caldrà mirar si algun dels qui avui han donat xifres sense font les aporta, i si les empreses que han fet afirmacions grans les acompanyen d'un mètode que algú altre pugui repetir. Si no, la distància d'avui seguirà creixent."
   ],
   "signals": [
     {
-      "title": "Hassabis veu en els pirateigs fets amb agents d'IA «els primers advertiments» i alerta d'incidents greus en un parell d'anys",
-      "slug": "hassabis-primers-avisos-incidents-greus-ia-dublin"
+      "title": "El conseller delegat de Flock assegura que els seus micròfons detecten «només trets», però la web de l'empresa diu una altra cosa",
+      "slug": "flock-microfons-nomes-trets-web-diu-altra-cosa"
     },
     {
-      "title": "El 63% dels nord-americans no avalaria respostes mèdiques d'IA sense la revisió d'un clínic, segons una enquesta a 1.185 adults",
-      "slug": "jama-enquesta-pacients-respostes-ia-sense-revisio"
+      "title": "Els models de llenguatge encerten els grans patrons de temperatura, però s'equivoquen entre 3 i 6 graus en el clima local, segons un estudi",
+      "slug": "models-llenguatge-clima-local-error-3-6-graus-estudi-ams"
     },
     {
-      "title": "ASML tanca el trimestre amb 11.700 milions d'euros de vendes i admet que no podrà servir tota la demanda de xips d'IA del 2027 i el 2028",
-      "slug": "asml-vendes-record-demanda-xips-2028"
+      "title": "Colossal presenta GenoMorph, una IA que assenyala gens per editar en el projecte de recuperar el dodo",
+      "slug": "colossal-genomorph-dodo-ia-edicio-genetica"
     },
     {
-      "title": "Anthropic adverteix que uns models d'IA petits podrien copiar-se sols d'un aparell connectat a un altre d'aquí a pocs mesos",
-      "slug": "anthropic-models-ia-petits-copiar-se-aparells-connectats"
+      "title": "Anthropic diu als inversors que va ingressar 16.800 milions de dòlars el tercer trimestre",
+      "slug": "anthropic-ingressos-tercer-trimestre-16800-milions-borsa"
     }
   ],
   "read": "2 MIN",
-  "words": 489
+  "words": 467
 };
