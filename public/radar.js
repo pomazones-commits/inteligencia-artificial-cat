@@ -1,5 +1,26 @@
 window.IA_RADAR = [
   {
+    "place": "Comunitat Valenciana",
+    "category": "IA I SOCIETAT",
+    "date": "15.10.2026",
+    "title": "Ubesol invertirà uns 115 milions d'euros en una fàbrica de Cocentaina amb IA i robòtica",
+    "summary": "El grup d'higiene personal, amb seu a la Comunitat Valenciana, vol una planta amb magatzem robotitzat, bessó digital i uns 200 llocs de treball qualificats. Les primeres línies arrencaran a mitjan 2027.",
+    "detail": "El grup Ubesol, dedicat als productes d'higiene personal, ha explicat que farà a Cocentaina (l'Alcoià, Comunitat Valenciana) el pas industrial més gran de la seva història. L'anunci arriba un dia després que una delegació del Consell visités les instal·lacions per conèixer-ne els plans de creixement.\n\nSegons el diari alacantí, la inversió ronda els 115 milions d'euros i es farà al polígon Els Algars, reconvertint unes naus construïdes el 2001, amb una parcel·la de més de 33.500 metres quadrats. L'empresa defineix la planta com una «fàbrica intel·ligent» que combinarà IA, robòtica col·laborativa i automatització integral. Tindrà un magatzem robotitzat amb 44.000 posicions, un sistema de control únic que lligarà fabricació, envasat i logística, dosificació automàtica de precisió, traçabilitat total i un bessó digital de la planta. També preveu una línia que, diuen, farà el canvi de format i la neteja en zero minuts, una cosa que presenten com a primera del sector. La capacitat superarà els 500 milions d'unitats l'any.\n\nEl projecte crearà uns 200 llocs de treball qualificats, sobretot d'enginyeria, manteniment, automatització, planificació i digitalització, a més de formuladors i químics. Ubesol va tancar el 2025 amb 347 milions d'euros d'ingressos, un 4,6% més, i es proposa arribar als 500 milions el 2030. És un exemple de la IA aplicada a la indústria de producte de consum, més enllà dels projectes de serveis i de dades. El directiu José Manuel Soler va agrair el suport de la Generalitat Valenciana i de l'Ajuntament de Cocentaina.\n\nLes xifres i les prestacions les dona l'empresa i el diari no assenyala cap font independent ni detalla quines tasques farà exactament la IA. Les primeres línies han d'entrar en funcionament a mitjan 2027 i la plena operativitat es preveu per al 2028, de manera que tant el calendari com la inversió final poden canviar.",
+    "source": "Diario de Alicante",
+    "url": "https://diariodealicante.net/grupo-ubesol-fabrica-cocentaina-115-millones/",
+    "image": "./assets/ubesol-cocentaina-115-milions-fabrica-intelligent-20261015.jpg"
+  },
+  {
+    "place": "Elx",
+    "category": "IA I SOCIETAT",
+    "date": "15.10.2026",
+    "title": "El CEEI d'Elx organitza tres esmorzars amb directius de Gioseppo, Simetry i ASV per parlar de la IA a l'empresa",
+    "summary": "Les sessions, gratuïtes i amb inscripció prèvia, tindran lloc a l'Hort del Xocolater entre el 27 d'octubre i el 9 de desembre, dins del programa Horizonte Tech de la Generalitat Valenciana.",
+    "detail": "El Centre Europeu d'Empreses i Innovació (CEEI) d'Elx, a la Comunitat Valenciana, ha programat tres trobades «Coffee & CEO» perquè directius d'empreses de la zona expliquin com la intel·ligència artificial i les noves tecnologies canvien la manera de treballar i de prendre decisions.\n\nLes sessions formen part de «Tech Leaders», dins del programa Horizonte Tech, que finança la Direcció General d'Innovació de la Generalitat Valenciana i que coordina la xarxa de CEEI de la Comunitat Valenciana (Castelló, Elx i València). Se celebraran a l'Hort del Xocolater, d'Elx, de 9 a 11 del matí: el 27 d'octubre, amb Luis Flores, director de dades de Gioseppo, i l'expert en IA José Luis Gallardo; el 12 de novembre, amb Senti Bernabéu, conseller delegat de Simetry, i l'expert Ronald Aveillán; i el 9 de desembre, amb Mario de Felipe, director de Persones, Innovació i Cultura del Grup ASV, i l'especialista Santiago Ambit.\n\nEl format és una conversa participativa entre professionals de la tecnologia i directius que lideren la transformació de la seva empresa. Van adreçades a propietaris, directius i membres de comitès de pime i d'altres empreses interessades a saber com ho fan les seves homòlogues.\n\nL'assistència és gratuïta, però cal inscriure's a cada sessió a través de la web del CEEI d'Elx; la de la primera ja era oberta quan es va publicar la informació. No es descriu cap projecte ni cap resultat concret: és una convocatòria, de manera que el contingut de les xerrades es coneixerà quan se celebrin.",
+    "source": "Alicante Plaza",
+    "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/como-la-ia-esta-cambiando-la-forma-de-dirigir-las-empresas-en-los-coffe-ceo-del-ceei-elche"
+  },
+  {
     "place": "Lleida",
     "category": "IA I SOCIETAT",
     "date": "15.10.2026",
@@ -63,27 +84,5 @@ window.IA_RADAR = [
     "source": "Diari de Tarragona",
     "url": "https://www.diaridetarragona.com/tarragona/272780/tarragona-detecta-casos-montajes-sexuales-menores-ia.html",
     "image": "./assets/tarragona-fiscalia-montatges-sexuals-menors-ia-casos-20261011.jpg"
-  },
-  {
-    "place": "Tarragona",
-    "category": "IA I SOCIETAT",
-    "date": "11.10.2026",
-    "title": "Un empresari de Reus impulsa a Nevada un parc d'energia solar amb bateries per alimentar centres de dades d'IA",
-    "summary": "Xavier Lara, d'Endura Energy, diu que el model és el que també necessita la gigafactoria d'IA de Móra la Nova: electricitat renovable les 24 hores amb contractes a llarg termini.",
-    "detail": "L'electricitat s'ha convertit en el coll d'ampolla dels centres de dades d'IA, i un empresari de Reus hi veu una oportunitat. Segons el Diari de Tarragona, Xavier Lara, conseller delegat d'Endura Energy, promou dos projectes d'energia a l'Amèrica del Nord i del Sud, un dels quals pensat expressament per abastir grans consumidors com aquests centres.\n\nÉs el Dark Sky Energy Park, al comtat de Nye, a prop de Tonopah, al desert de Nevada, una zona amb molt de sol, molt de terreny i infraestructura energètica propera. El projecte, que porta la filial Endura Tonopah Energy LLC, combina generació solar, bateries i altres tecnologies que aportin electricitat quan el sol no n'hi ha prou, per oferir subministrament renovable continu. Ara l'empresa assegura els terrenys, defineix l'accés a la xarxa i estructura els futurs contractes amb clients. A més, a la regió xilena d'Atacama, Endura participa amb dos socis en Ibitú, un sistema de bateries de 500 MWh i una planta solar de 100 MWp.\n\nEl vincle català és que Lara compara el seu disseny amb el que necessitaria la gigafactoria d'IA de Móra la Nova: cobertura renovable 24 hores, contractes a llarg termini i emmagatzematge amb bateries, «exactament el que estem dissenyant al Dark Sky Energy Park». També diu que Endura ha participat en acords de compravenda d'energia per a grans consumidors dels Estats Units, entre ells projectes de solar amb bateries a Texas que haurien arribat a acords amb Google i Tesla.\n\nEls límits són clars. El Dark Sky és en una fase inicial i el text no en dona capacitat, inversió, calendari ni cap client confirmat, i les afirmacions de Lara sobre els acords previs no s'han pogut verificar de manera independent. Ibitú, per la seva banda, encara espera els permisos ambientals, l'autorització definitiva de connexió a la xarxa i les llicències sectorials i municipals. Convé, doncs, llegir-ho com un projecte en desenvolupament i no com una infraestructura contractada.",
-    "source": "Diari de Tarragona",
-    "url": "https://www.diaridetarragona.com/economia/272787/empresario-reus-impulsa-proyecto-nevada-dotar-energia-centros-ia.html",
-    "image": "./assets/empresari-reus-nevada-energia-centres-dades-ia-20261011.jpg"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "10.10.2026",
-    "title": "Autentic AI, una empresa emergent de Barcelona, capta 1,5 milions d'euros per fer estudis de mercat en pocs dies amb entrevistes dirigides per IA",
-    "summary": "Fundada el 2025, promet substituir uns estudis que triguen unes dotze setmanes per altres que es lliuren en dies, i es presenta com l'alternativa nativa d'IA a Kantar, Ipsos o NielsenIQ.",
-    "detail": "Els estudis de mercat tradicionals són lents i cars: segons el diari, poden trigar unes dotze setmanes i costar des de desenes fins a centenars de milers d'euros, perquè depenen en bona part de feina manual. Sobre aquest terreny s'ha plantat Autentic AI, una empresa emergent de Barcelona fundada el 2025 que utilitza la intel·ligència artificial per accelerar-los.\n\nL'empresa ha tancat una ronda de prellavor de 1,5 milions d'euros amb Baobab Ventures, Lanai Ventures, Acurio Ventures i Masia VC. Els fundadors són Dani Diestre, que és codirector executiu, Aniol Carreras i Jacob Bamio. La plataforma fa entrevistes simultànies a consumidors i a experts verificats i, segons el que expliquen, ja en completa unes 1.000 al dia; amb això diu que lliura un estudi en pocs dies.\n\nDe moment es dirigeix a quatre sectors: gran consum, comerç minorista, farmàcia i cosmètica, i consultoria estratègica i capital privat. Els fundadors la presenten com la primera alternativa nativa d'IA a empreses com Kantar, Ipsos o NielsenIQ, i preveuen automatitzar més part del procés i construir la seva pròpia infraestructura per seleccionar els enquestats. Kate Cornell, d'Acurio Ventures, defensa que és una proposta guanyadora per la combinació d'elements diferencials.\n\nCal llegir-ho com el que és: una ronda petita i les xifres de rapidesa i volum són declaracions de la mateixa empresa i dels seus inversors, que el diari recull sense contrastar-les amb clients. Tampoc no queda clar com es comprova que els entrevistats siguin qui diuen ser, ni com es compara la qualitat dels resultats amb els estudis clàssics, que és justament el punt on es jugarà la credibilitat del model.",
-    "source": "ON Economia (El Nacional)",
-    "url": "https://elnacional.cat/oneconomia/ca/empreses/autentic-ia-plataforma-dicta-tendencies-mercat-en-tan-sols-dies-capta-15-milions_1707457_102.html",
-    "image": "./assets/autentic-ai-barcelona-1-5-milions-estudis-de-mercat-20261010.jpg"
   }
 ];
