@@ -60,21 +60,16 @@
     const updatedAt = status?.generatedAt ? new Date(status.generatedAt) : now;
     document.querySelector('#edition-time').textContent = new Intl.DateTimeFormat('ca-ES', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Madrid' }).format(updatedAt);
     document.querySelector('#edition-count').textContent = `${news.length} ${news.length === 1 ? 'història' : 'històries'}`;
-    // ——— Repartiment sense repeticions (13.10.2026, decisió d'en Rafael) ———
-    // Cada notícia surt un sol cop: carrusel 1-4, «En moviment» 5-8 i «El senyal
-    // d'avui» de la 9 en endavant. Amb poques notícies (lot de les 06:05) els blocs
-    // que quedin buits s'amaguen; tornen a sortir sols quan arriba el lot següent.
+    // ——— Repartiment (15.10.2026, decisió d'en Rafael) ———
+    // Carrusel = les 4 destacades. «En moviment» s'ha retirat i la graella és
+    // l'edició sencera («Totes les notícies d'avui»): hi surten totes, també les
+    // del carrusel. Cap notícia no surt més de dues vegades. Així la graella ja
+    // té 5 notícies després del lot de les 06:05 i no es veu buida fins al migdia.
     const carouselNews = news.slice(0, 4);
-    const latestNews = news.slice(4, 8);
-    const gridNews = news.slice(8);
+    const gridNews = news;
     document.querySelector('#news-count').textContent = gridNews.length
-      ? `${gridNews.length} ${gridNews.length === 1 ? 'història més' : 'històries més'} · de la 9 a la ${news.length}`
-      : `L'edició del dia`;
-    const latestPanel = document.querySelector('.latest-panel');
-    if (latestPanel && !latestNews.length) {
-      latestPanel.hidden = true;
-      document.querySelector('#ultima-hora')?.classList.add('lead-layout--solo');
-    }
+      ? `L'edició sencera · ${gridNews.length} ${gridNews.length === 1 ? 'notícia' : 'notícies'}`
+      : `L'edició sencera`;
     const newsSection = document.querySelector('#totes');
     if (newsSection) newsSection.hidden = !gridNews.length;
 
@@ -231,14 +226,6 @@
       window.clearTimeout(resizeTimer);
       resizeTimer = window.setTimeout(lockStageHeight, 200);
     });
-
-    // ——— Llista «En moviment» ———
-    // Notícies 5-8, numerades 05-08 perquè es vegi que continuen el carrusel.
-    const latestList = document.querySelector('#latest-list');
-    latestList.style.counterReset = 'latest 4';
-    latestList.innerHTML = latestNews.map(story => `
-      <li${story.image ? ' class="has-thumb"' : ''}><div><time>${escapeHTML(story.category)}</time><a href="${escapeHTML(storyHref(story))}">${escapeHTML(story.title)}</a></div>${story.image ? `<a class="latest-thumb" href="${escapeHTML(storyHref(story))}" tabindex="-1" aria-hidden="true"><img src="${escapeHTML(story.image)}" alt="" loading="lazy" decoding="async"></a>` : ''}</li>
-    `).join('');
 
     // ——— Graella de notícies del dia ———
     const newsGrid = document.querySelector('#news-grid');
