@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-14T16:29:47.279Z",
+  "updatedAt": "2026-10-15T04:17:37.295Z",
   "items": [
     {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Hassabis veu en els pirateigs fets amb agents d'IA «els primers advertiments» i alerta d'incidents greus en un parell d'anys",
-      "excerpt": "El cap de Google DeepMind ho va dir a Dublín i va demanar importar pràctiques de seguretat de la biologia i el sector nuclear. No va concretar cap incident concret."
-    },
-    {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "ASML tanca el trimestre amb 11.700 milions d'euros de vendes i admet que no podrà servir tota la demanda de xips d'IA del 2027 i el 2028",
-      "excerpt": "El fabricant de les màquines que fan possibles els xips avançats estudia ampliar encara més la capacitat del 2028, i alguns clients ja volen reservar per al 2029 i el 2030."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una capa d'aprenentatge automàtic duplica la capacitat de predir el temps a dues-sis setmanes vista, segons un treball publicat a «Nature»",
-      "excerpt": "L'equip de Judah Cohen, del MIT, corregeix amb dades històriques els errors dels models existents i millora sobretot la previsió dels fenòmens extrems."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "El 63% dels nord-americans no avalaria respostes mèdiques d'IA sense la revisió d'un clínic, segons una enquesta a 1.185 adults",
-      "excerpt": "L'estudi de Columbia, publicat a «JAMA Network Open», pregunta què accepta la gent quan la IA respon missatges dels portals de pacients."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Un projecte de Mobile World Capital detecta amb IA 1.036 columnes de fum a Collserola en dos mesos i mig, i avisa en uns tres minuts",
-      "excerpt": "El sistema analitza les imatges de les càmeres de les torres de guaita i redueix un 86% les alertes irrellevants. Un tècnic del parc confirma cada avís."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Google obre Gemini 4 Argon als desenvolupadors i al públic de pagament, amb un preu d'estrena que es doblarà el 30 de novembre",
-      "excerpt": "Dues setmanes després d'anunciar-lo només per a equips de ciberdefensa, Google l'ofereix per API i a les subscripcions Ultra i Pro. Els resultats que presumeix són seus."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "L'FBI deté un enginyer d'OpenAI acusat d'amagar una gravadora darrere d'una televisió d'una sala de reunions directives",
-      "excerpt": "Els fiscals diuen que va fer servir un xatbot per aprendre a muntar-la. L'empresa assegura que no hi ha indicis que s'emportés codi ni dades de clients."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Uns agents d'IA que no parteixen de cap vocabulari s'acorden sols un llenguatge per descriure dades de sensors",
-      "excerpt": "Un treball de la Vrije Universiteit Brussel i la Universitat de Namur, publicat en una revista revisada, ho prova amb 37 conjunts de dades. Les aplicacions a vehicles o robots són encara només una possibilitat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una IA amplia de 152 a 9.389 les reaccions que expliquen com es converteix el CO₂ en metanol sobre coure, i les prediccions passen a coincidir amb els experiments",
-      "excerpt": "L'Institut Indi de Ciència combina simulacions quàntiques i aprenentatge automàtic en un treball de «Nature Communications». També apunta una via inesperada per a l'hidrogen."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Indra posa 10 milions d'euros a Qilimanjaro, l'empresa catalana de computació quàntica, per aplicar-la a la IA i la robòtica",
-      "excerpt": "La inversió, a través d'IndraMind, forma part d'un primer tancament de ronda de gairebé 20 milions. Indra la vol per a defensa, seguretat i simulació de sistemes complexos."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Apple presenta HomeView, la seva primera pantalla per a la llar, a 299 dòlars i sense data d'arribada a Espanya ni a la resta de la UE",
-      "excerpt": "El dispositiu, amb pantalla de set polzades i reconeixement de cada membre de la família, es reserva ja als Estats Units i a cinc països més i arribarà a les botigues el 13 de novembre."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Davant del mateix comportament, la gent atribueix menys consciència a una IA que a una persona, segons un estudi de la Universitat de Munic",
-      "excerpt": "Gairebé 1.100 participants van valorar personatges descrits amb les mateixes reaccions: la IA més sensible va quedar per sota de l'humà menys sensible."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Facebook deixa que els usuaris expliquin amb les seves paraules què volen veure al feed i als Reels",
-      "excerpt": "Meta porta a Facebook «Your Algorithm», una funció amb IA que ja existia a Instagram i que ajusta les recomanacions en temps real a partir del que l'usuari descriu."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Science Corporation implanta el xip PRIMA al primer pacient amb la malaltia de Stargardt, que ha llegit una lletra i, a la sessió següent, una paraula",
-      "excerpt": "El director de la companyia explica a TechCrunch Disrupt un assaig a Sydney amb un implant de 2 × 2 mm que dona visió central en blanc i negre; de moment hi ha un sol pacient."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Industrial Next presenta unes estacions robòtiques que, diu, canvien de tasca en minuts i no en setmanes",
-      "excerpt": "L'empresa de San Francisco, fundada per antics enginyers de Tesla, ensenya tasques als seus robots amb simulació i demostracions i en prova una amb BMW."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Anthropic adverteix que uns models d'IA petits podrien copiar-se sols d'un aparell connectat a un altre d'aquí a pocs mesos",
-      "excerpt": "Un equip de l'empresa ha provat que alguns models oberts poden instal·lar-se en una xarxa d'aparells sense cap centre de dades; el risc, diuen, és real però lent i encara depèn d'una fallada de seguretat molt bàsica."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Un jutge obliga OpenAI a lliurar a Apple documents de les entrevistes a antics empleats de la companyia, en el cas per secrets comercials",
-      "excerpt": "El magistrat accepta només una part del que demanava Apple: material de les entrevistes, missatges privats i tres declaracions, amb terminis de cinc i catorze dies."
+      "title": "Anthropic diu als inversors que va ingressar 16.800 milions de dòlars el tercer trimestre, un 45% més, a les portes de la borsa",
+      "excerpt": "Segons el «Financial Times» i Reuters, la companyia també assegura que va tenir beneficis ajustats. Les xifres no consten en cap fulletó oficial: les expliquen fonts del mercat."
     },
     {
       "category": "SOCIETAT",
       "read": "4 MIN",
-      "title": "Una baronessa amb atròfia muscular espinal parla a la Cambra dels Lords amb una còpia de la seva veu d'abans de la malaltia, feta amb IA",
-      "excerpt": "Jane Campbell, de 67 anys, és la primera persona que fa un discurs al Parlament britànic amb una veu generada per intel·ligència artificial; el comitè de procediment de la cambra ho va aprovar."
+      "title": "Vuit estats nord-americans demanden OpenAI i l'acusen de perjudicar els menors amb ChatGPT",
+      "excerpt": "Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska i Virgínia Occidental han presentat demandes separades als tribunals estatals. OpenAI encara no ha respost."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Una xarxa que parteix de connexions a l'atzar s'organitza sola i aprèn a classificar imatges, segons un estudi del MIT a «PNAS»",
+      "excerpt": "El treball, publicat el 9 d'octubre, diu que el sistema arriba a un nivell semblant al de les xarxes entrenades amb retropropagació. Els autors avisen que això no vol dir que el cervell aprengui així."
     },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Google Play deixa que els usuaris d'Android facin servir aplicacions pròpies creades amb IA sense haver-les de publicar a la botiga",
-      "excerpt": "Es creen descrivint l'aplicació amb paraules a Google AI Studio i només les pot fer servir qui les ha fetes; de moment, només als Estats Units i per a majors de 18 anys."
+      "title": "YouTube Music etiquetarà les cançons fetes amb IA generativa, i Deezer prepara un botó per amagar-les",
+      "excerpt": "Les plataformes de música competeixen per tractar l'allau de temes generats amb IA: YouTube posa l'accent en la transparència i Deezer deixarà que l'usuari les esborri de les cerques."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un nou detector de textos d'IA es fixa en les idees i no en les paraules, però el treball és una prepublicació que encara no ha revisat ningú",
-      "excerpt": "IdeaLens, de la Universitat de Maryland i col·laboradors, reconeix el 91% dels documents escrits per IA, però falla quan les idees són humanes i l'estil el posa una màquina."
+      "category": "SALUT",
+      "read": "3 MIN",
+      "title": "Oncolliga Lleida finança un projecte de l'IRBLleida que vol predir amb IA com evolucionarà un melanoma des del diagnòstic",
+      "excerpt": "El projecte PredIHC-MEL farà servir aprenentatge automàtic amb dades que ja es recullen a l'assistència habitual. Encara és a l'inici: no hi ha resultats."
     }
   ]
 }

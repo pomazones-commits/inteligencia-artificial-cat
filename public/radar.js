@@ -1,5 +1,16 @@
 window.IA_RADAR = [
   {
+    "place": "Lleida",
+    "category": "IA I SOCIETAT",
+    "date": "15.10.2026",
+    "title": "Oncolliga Lleida finança un projecte de l'IRBLleida que vol predir amb IA com evolucionarà un melanoma des del diagnòstic",
+    "summary": "El projecte PredIHC-MEL farà servir aprenentatge automàtic amb dades que ja es recullen a l'assistència habitual. Encara és a l'inici: no hi ha resultats.",
+    "detail": "Predir com evolucionarà un melanoma des del moment del diagnòstic ajudaria els clínics a decidir quin seguiment i quin tractament convenen a cada pacient. D'això va el projecte PredIHC-MEL, de l'Institut de Recerca Biomèdica de Lleida (IRBLleida), que acaba de rebre finançament d'Oncolliga Lleida a través de la primera edició de la seva convocatòria d'ajuts a la recerca oncològica.\n\nEl nom complet del projecte és «Algorisme predictiu basat en immunohistoquímica per a l'estratificació molecular, el pronòstic i el tractament personalitzat de pacients amb melanoma primari». La investigadora principal és Anna Macià Armengol, del grup de Patologia Oncològica de l'IRBLleida. El conveni el van signar aquesta setmana Enric Martí, president d'Oncolliga Lleida, i Diego Arango, director de l'institut. La notícia no en precisa l'import.\n\nL'equip aplicarà aprenentatge automàtic a dades que ja es recullen a l'assistència: informació clínica, histològica, molecular i genètica. L'algorisme buscarà patrons lligats al curs de la malaltia, al risc de metàstasi i a la resposta probable al tractament. Com que es basa en biomarcadors i tècniques que ja s'usen als hospitals, segons la notícia seria més fàcil d'incorporar a la pràctica clínica. La finalitat és una eina de suport a les decisions, no un substitut del criteri mèdic.\n\nCal recordar que és el principi del camí. La font només descriu l'objectiu i el mètode, no dona dates d'inici ni de final i no presenta cap resultat; l'eina haurà de demostrar que prediu bé i que serveix en la pràctica clínica abans d'arribar a l'hospital. De moment, és una aposta de recerca finançada per una entitat de pacients i professionals de Lleida.",
+    "source": "La Mañana",
+    "url": "https://lamanyana.cat/oncolliga-lleida-financa-un-projecte-de-lirblleida-per-predir-levolucio-del-melanoma-amb-intelligencia-artificial/",
+    "image": "./assets/oncolliga-irblleida-melanoma-ia-predihc-mel-20261015.jpg"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "14.10.2026",
@@ -74,16 +85,5 @@ window.IA_RADAR = [
     "source": "ON Economia (El Nacional)",
     "url": "https://elnacional.cat/oneconomia/ca/empreses/autentic-ia-plataforma-dicta-tendencies-mercat-en-tan-sols-dies-capta-15-milions_1707457_102.html",
     "image": "./assets/autentic-ai-barcelona-1-5-milions-estudis-de-mercat-20261010.jpg"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "10.10.2026",
-    "title": "Factorial estrena One, un agent d'IA per a empreses, i assegura que ja té 17.000 clients",
-    "summary": "L'empresa de programari de gestió de personal amb seu a Barcelona vol que el nou agent connecti la informació de la companyia i s'encarregui de part de la feina dels equips.",
-    "detail": "Factorial, l'empresa barcelonina de programari per gestionar recursos humans, nòmines i processos interns de les companyies, ha fet el salt a la IA amb One, un agent pensat per connectar la informació d'una organització i automatitzar-ne la feina. Ho explica l'Ara.\n\nSegons el diari, One entén la informació de l'empresa, hi pot actuar i executa tasques per acompanyar els treballadors dels clients de Factorial. L'ha desenvolupat la mateixa companyia combinant diversos models de Microsoft. El seu conseller delegat, Jordi Romero, assegura que «tota la feina que es pot fer amb un agent la pot fer One» i que compleix bé normes com el reglament de protecció de dades i el reglament europeu d'IA.\n\nEl llançament arriba poques setmanes després que Factorial comprés Empion, una startup alemanya d'IA per gestionar el talent. Segons les dades que recull el diari, l'empresa té una valoració de 2.500 milions de dòlars després d'una ronda sèrie D de 150 milions, uns 17.000 clients empresarials amb més d'1,3 milions d'usuaris, i espera acabar l'any amb unes 1.900 persones, un 35% més que l'any passat. A Alemanya ja té més de 1.700 clients. Romero diu que les empreses europees tenen «curiositat» per l'IA, però també «inseguretat».\n\nCal tenir en compte que són xifres i afirmacions de la mateixa companyia. L'article no esmenta el preu de One, i no en detalla el rendiment real ni com es comporta amb dades sensibles de personal, que és justament on més pesa la regulació.",
-    "source": "Ara",
-    "url": "https://www.ara.cat/economia/tecnologia/factorial-completa-salt-ia-nou-agent-personal_1_5872367.html",
-    "image": "./assets/factorial-one-agent-ia-empreses-17000-clients-20261010.jpg"
   }
 ];
