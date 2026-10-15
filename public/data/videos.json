@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-15T16:14:14.527Z",
+ "actualitzat": "2026-10-15T19:25:14.118Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "i3X7Fv0Z3Uc",
+   "titol": "Turning raw hardware sensor data into music with Gemini",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "maquinari",
+   "idioma": "en",
+   "publicat": "2026-10-15T19:00:22.000Z",
+   "descripcio": "Using Google AI Studio, Google Antigravity, and Gemini, this creator tapped into raw accelerometer hardware APIs to convert physical motion into browser-based audio. Watch how every tilt, shake, and gesture translates into live musical output without any extra equipment. Try building today → https:/",
+   "miniatura": "/assets/videos/i3X7Fv0Z3Uc.jpg"
+  },
+  {
+   "id": "GyO8Ao7yKJc",
+   "titol": "GPT-Live-1.1 has new voices and better accents.",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-15T18:24:44.000Z",
+   "descripcio": "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.",
+   "miniatura": "/assets/videos/GyO8Ao7yKJc.jpg"
+  },
   {
    "id": "nSwmcs37Jd4",
    "titol": "Gemini 4 Argon in Antigravity",
