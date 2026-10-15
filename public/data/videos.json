@@ -1,8 +1,56 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-15T04:18:13.173Z",
+ "actualitzat": "2026-10-15T08:14:35.675Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "vJvFta7e76E",
+   "titol": "The Road to NVIDIA RTX Spark",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "maquinari",
+   "idioma": "en",
+   "publicat": "2026-10-14T19:01:02.000Z",
+   "descripcio": "Decades of NVIDIA innovation have led to RTX Spark: https://www.nvidia.com/en-us/products/rtx-spark/ See how we got here—and what comes next for gaming, creating, and building AI locally. Hear from industry leaders at NVIDIA and Microsoft, creators at Corridor Crew, and game developers from CD PROJE",
+   "miniatura": "/assets/videos/vJvFta7e76E.jpg"
+  },
+  {
+   "id": "zGdwmsR9dVs",
+   "titol": "Accelerating Scientific Research in Health Data Science With Muse Models",
+   "canal": "AI at Meta",
+   "canalId": "UC5qxlwEKM7-5YZudb24l0bg",
+   "grup": "empreses",
+   "categoria": "salut",
+   "idioma": "en",
+   "publicat": "2026-10-14T18:45:36.000Z",
+   "descripcio": "We’re exploring how AI can accelerate health science research. While AI has made significant breakthroughs in formal sciences like mathematics, health data science depends on imperfect real-world data and consequential choices about cohorts, variables, and causal assumptions. To explore how AI can a",
+   "miniatura": "/assets/videos/zGdwmsR9dVs.jpg"
+  },
+  {
+   "id": "Jh6mgf9M06M",
+   "titol": "Gemini 4 Argon: What’s new and what’s next",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-14T17:01:36.000Z",
+   "descripcio": "Josh Woodward, Melvin Johnson, Sergey Brin, and Tulsee Doshi from Google DeepMind join host Logan Kilpatrick to introduce Gemini 4 Argon. Their conversation covers what made this release possible and how 100,000 Googlers tested the model before launch. They also discuss industry-leading one million ",
+   "miniatura": "/assets/videos/Jh6mgf9M06M.jpg"
+  },
+  {
+   "id": "rBN0PDfJWIc",
+   "titol": "How NVIDIA AI Is Transforming Chip Design and Manufacturing",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "maquinari",
+   "idioma": "en",
+   "publicat": "2026-10-14T16:46:00.000Z",
+   "descripcio": "Demand for advanced chips is accelerating, bringing greater complexity to semiconductor design and manufacturing. See how NVIDIA accelerated computing and AI are helping the industry build the AI-defined fab. Explore how NVIDIA CUDA-X libraries, AI physics models, digital twins, AI agents, and robot",
+   "miniatura": "/assets/videos/rBN0PDfJWIc.jpg"
+  },
   {
    "id": "G-9Y2xNiDKQ",
    "titol": "Work with your team in ChatGPT Space",
