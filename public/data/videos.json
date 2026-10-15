@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-14T15:58:05.498Z",
+ "actualitzat": "2026-10-15T04:18:13.173Z",
  "canals": 19,
  "videos": [
   {
@@ -500,18 +500,6 @@
    "publicat": "2026-09-24T13:12:27.000Z",
    "descripcio": "A solar panel in space generates up to 8 times more power than one on Earth. That’s the vision behind Project Suncatcher: Google’s moonshot to capture continuous sunlight and more efficiently power machine learning in space. In this video, we explore some of the monumental engineering questions that",
    "miniatura": "/assets/videos/o1JK79jszqo.jpg"
-  },
-  {
-   "id": "DdCEmlAydcw",
-   "titol": "Inside Anthropic's molecular biology lab",
-   "canal": "Anthropic",
-   "canalId": "UCrDwWp7EBBv4NwvScIpBDOA",
-   "grup": "empreses",
-   "categoria": "ciencia",
-   "idioma": "en",
-   "publicat": "2026-09-23T18:01:32.000Z",
-   "descripcio": "Some of the biggest discoveries in biology started with someone noticing something strange in one of the many molecular machines found in nature. We’re introducing a new molecular biology research group and lab at Anthropic to see if Claude can help scientists notice more of them. The team has spent",
-   "miniatura": "/assets/videos/DdCEmlAydcw.jpg"
   }
  ]
 }
