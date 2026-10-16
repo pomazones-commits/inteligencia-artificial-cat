@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-16T16:16:17.065Z",
+ "actualitzat": "2026-10-16T19:02:08.778Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "OMxEUdIgsQc",
+   "titol": "Put ChatGPT to work on shared team tasks",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-16T18:00:49.000Z",
+   "descripcio": "Set up recurring work your team can manage together with team tasks in ChatGPT. Follow a legal team's daily intake workflow—from reviewing incoming requests and checking deadlines to refining shared instructions for the next run. Tasks run in the cloud, so teammates can review results, improve the w",
+   "miniatura": "/assets/videos/OMxEUdIgsQc.jpg"
+  },
   {
    "id": "_tsiWjmWEZ8",
    "titol": "NVIDIA RTX Spark | A New Beginning for Windows PCs",
