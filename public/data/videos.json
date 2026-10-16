@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-16T12:17:12.861Z",
+ "actualitzat": "2026-10-16T16:16:17.065Z",
  "canals": 19,
  "videos": [
   {
@@ -587,18 +587,6 @@
    "publicat": "2026-09-28T14:10:18.000Z",
    "descripcio": "Project Suncatcher is a moonshot initiative by Google that aims to put AI into orbit and capture space-based solar energy to power them. In this video, the Project Suncatcher team tackles hardware survival: how do you build systems that can withstand 5 years of cosmic radiation, solar events, and th",
    "miniatura": "/assets/videos/8NPgswgbTnE.jpg"
-  },
-  {
-   "id": "s82Ho5HdltE",
-   "titol": "Per-Layer Embeddings (PLE) in Gemma 4 explained",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-09-25T16:00:04.000Z",
-   "descripcio": "Learn how per-layer embeddings, or PLE, work in Gemma 4 E2B and E4B, Google's open source language model. Google DeepMind’s Maarten Grootendorst breaks down how PLE gives each token a layer-specific embedding for more diverse representation, boosting model performance without increasing the paramete",
-   "miniatura": "/assets/videos/s82Ho5HdltE.jpg"
   }
  ]
 }
