@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-16T04:15:21.122Z",
+ "actualitzat": "2026-10-16T08:11:00.150Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "KJ_7KPKlO_Q",
+   "titol": "Build more personal sites with Codex",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-10-15T20:48:59.000Z",
+   "descripcio": "Keep your team's Sites up to date and make them personal to each visitor. Connect scheduled tasks to refresh site data automatically and let your users connect their plugins for a personalized view of your site. To try it out, just ask Codex.",
+   "miniatura": "/assets/videos/KJ_7KPKlO_Q.jpg"
+  },
   {
    "id": "i3X7Fv0Z3Uc",
    "titol": "Turning raw hardware sensor data into music with Gemini",
