@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-16T12:17:10.203Z",
+ "actualitzat": "2026-10-16T15:01:40.516Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "2fa20aefe4cd",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic, con el rating de ‘bono basura’ más alto a las puertas de la salida a Bolsa",
+   "url": "https://cincodias.elpais.com/companias/2026-10-16/anthropic-con-el-rating-de-bono-basura-mas-alto-a-las-puertas-de-la-salida-a-bolsa.html",
+   "publicat": "2026-10-16T14:56:00.000Z"
+  },
+  {
+   "id": "b7ecad4eb1bd",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "OpenAI actualiza la extensión de ChatGPT en Chrome para que pueda ver las pestañas abiertas y realizar tareas en ellas",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/16/2730291/openai-actualiza-extension-chatgpt-chrome-para-pueda-ver-pestanas-abiertas-realizar-tareas-ellas.html",
+   "publicat": "2026-10-16T13:56:53.000Z"
+  },
+  {
+   "id": "ebf3ca6ff7d7",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "ASUS presenta el ProArt GR1X, un Mini PC diseñado para ejecutar IA local y tareas profesionales con Nvidia RTX Spark",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/16/2730245/asus-presenta-proart-gr1x-mini-disenado-para-ejecutar-local-tareas-profesionales-nvidia-rtx-spark.html",
+   "publicat": "2026-10-16T13:00:50.000Z"
+  },
+  {
+   "id": "1c2efb976687",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "ASUS amplía la gama ProArt con los nuevos P14 y P16: potencia de Nvidia RTX Spark, pantallas OLED y batería de 100 Wh",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/16/2730247/asus-amplia-gama-proart-los-nuevos-p14-p16-potencia-nvidia-rtx-spark-pantallas-oled-bateria-100-wh.html",
+   "publicat": "2026-10-16T12:59:56.000Z"
+  },
+  {
+   "id": "1f046a4aefca",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "\"Ens hem embarcat en un suïcidi anunciat\": els centres de dades d'IA ja deixen poblacions sense aigua",
+   "url": "https://www.ara.cat/internacional/hem-embarcat-suicidi-anunciat-centres-dades-d-ia-ja-deixen-poblacions-aigua_1_5878952.html",
+   "publicat": "2026-10-16T12:52:37.000Z"
+  },
+  {
+   "id": "857148d55a13",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic permite que evaluadores externos analicen sus modelos de IA como cualquier empleado: “Queremos rendir cuentas públicamente por nuestras decisiones”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261016/11660551/anthropic-permite-evaluadores-externos-analicen-modelos-ia-empleado-queremos-rendir-cuentas-publicamente-decisiones.html",
+   "publicat": "2026-10-16T12:49:11.000Z"
+  },
   {
    "id": "9728a0ced954",
    "mitja": "Ara",
@@ -21,7 +87,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Catalunya tendrÃ¡ un asistente con IA que permitirÃ¡ a la poblaciÃ³n detectar posibles estafas virtuales",
+   "titol": "Un nuevo asistente con IA ayudarÃ¡ a los catalanes a detectar estafas virtuales",
    "url": "https://www.elperiodico.com/es/sociedad/20261016/catalunya-tendra-asistente-ia-permitira-detectar-estafas-135410925",
    "publicat": "2026-10-16T11:19:06.000Z"
   },
@@ -2272,39 +2338,6 @@
    "publicat": "2026-10-10T03:00:00.000Z",
    "noticia": "tarragona-fiscalia-montatges-sexuals-menors-ia-casos",
    "noticiaTitol": "La Fiscalia de Tarragona detecta casos de menors que fan servir la IA per crear imatges sexuals falses de companyes"
-  },
-  {
-   "id": "a09a08958bc4",
-   "mitja": "El Nacional",
-   "font": "elnacional",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Claude estrena dues funcions d'IA per crear gràfics interactius i vídeos animats amb les teves dades o idees",
-   "url": "https://www.elnacional.cat/ca/tecnologia/claude-estrena-dues-funcions-ia-crear-grafics-interactius-videos-animats-teves-dades-idees_1707901_102.html",
-   "publicat": "2026-10-09T14:30:00.000Z"
-  },
-  {
-   "id": "44e00e31d2fb",
-   "mitja": "dBalears",
-   "font": "dbalears",
-   "icona": "/assets/premsa/dbalears.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Hiperlocalisme i coneixement de les fonts primàries: els mitjans en català reivindiquen el seu valor i la unió per defensar l’autoria davant la IA",
-   "url": "https://www.dbalears.cat/ara/paisos-catalans/2026/10/09/423197/hiperlocalisme-coneixement-les-fonts-primaries-els-mitjans-catala-reivindiquen-seu-valor-unio-per-defensar-autoria-davant-ia.html",
-   "publicat": "2026-10-09T13:18:00.000Z"
-  },
-  {
-   "id": "a4cb3c9e5d61",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "¿Se puede ser cruel con una IA? Anthropic prohíbe insultar “de manera sostenida” a su ‘chatbot’ Claude",
-   "url": "https://elpais.com/tecnologia/2026-10-09/se-puede-ser-cruel-con-una-ia-anthropic-prohibe-insultar-de-manera-sostenida-a-su-chatbot-claude.html",
-   "publicat": "2026-10-09T12:23:11.000Z"
   }
  ]
 }
