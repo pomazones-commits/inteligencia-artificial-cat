@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-15T23:20:12.760Z",
+ "actualitzat": "2026-10-16T04:15:19.008Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "38a5f6d64a5e",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alcoy - El Comtat | Alcoy acerca pros y contras de la IA a las pymes en la Jornada Ciudades Inteligentes: automatizar sí, hasta un límite",
+   "url": "https://alicanteplaza.es/alicanteplaza/alcoy-el-comtat/alcoy-acerca-pros-y-contras-de-la-ia-a-las-pymes-en-la-jornada-ciudades-inteligentes-automatizar-si-hasta-un-limite",
+   "publicat": "2026-10-16T04:00:05.000Z"
+  },
+  {
+   "id": "fd1f74b3e6a1",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tensor impulsa el futuro de la movilidad autónoma basada en IA desde DFactory Barcelona",
+   "url": "https://www.elperiodico.com/es/consorci-zona-franca/20261016/tensor-impulsa-futuro-movilidad-autonoma-ia-dfactory-barcelona-bc-135333542",
+   "publicat": "2026-10-16T03:31:02.000Z"
+  },
+  {
+   "id": "ff2a71430bb5",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Ingroup compra els actius de BCN3D i fabricarà impressores 3D amb IA integrada",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/ingroup-compra-actius-bcn3d-fabricara-impressores-3d-ia-integrada_1710106_102.html",
+   "publicat": "2026-10-16T03:30:00.000Z"
+  },
+  {
+   "id": "214bae0f7837",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Lleida té la segona planta d’impressores 3D de l’Estat i pionera amb la IA incorporada",
+   "url": "https://www.segre.com/ca/lleida/261016/lleida-te-segona-planta-d-impressores-3d-l-estat-i-pionera-amb-ia-incorporada_1365672.html",
+   "publicat": "2026-10-16T03:21:08.000Z"
+  },
+  {
+   "id": "ed59e9081f66",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Éric Sadin: «Hacia 2030 podría desaparecer todo lo que nos hace humanos por culpa de la IA»",
+   "url": "https://www.ultimahora.es/noticias/cultura/2026/10/16/2729657/eric-sadin-hacia-2030-podria-desaparecer-todo-nos-hace-humanos-por-culpa.html",
+   "publicat": "2026-10-16T02:48:01.000Z"
+  },
+  {
+   "id": "425dbb436425",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Europa declara la guerra a la creación de imágenes sexuales con IA sin consentimiento",
+   "url": "https://www.lasprovincias.es/tecnologia/europa-declara-guerra-creacion-imagenes-sexuales-ia-20261016014334-nt.html",
+   "publicat": "2026-10-15T23:43:34.000Z"
+  },
   {
    "id": "a15f239a6338",
    "mitja": "La Vanguardia",
@@ -322,7 +388,9 @@
    "ambit": "catala",
    "titol": "Banco Sabadell y T-Systems sellan un acuerdo para la adopción de IA agéntica a escala y con soberanía tecnológica",
    "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/10/15/2729545/banco-sabadell-systems-sellan-acuerdo-para-adopcion-agentica-escala-soberania-tecnologica.html",
-   "publicat": "2026-10-15T09:49:00.000Z"
+   "publicat": "2026-10-15T09:49:00.000Z",
+   "noticia": "banc-sabadell-t-systems-plataforma-agents-ia-sobirania",
+   "noticiaTitol": "Banc Sabadell farà servir la plataforma d'agents d'IA de T-Systems i diu que així no dependrà d'un sol proveïdor de models"
   },
   {
    "id": "2b3c1c0c9e1a",
@@ -400,6 +468,17 @@
    "titol": "“La capacitat de la IA és sobrehumana”: Marcel Llopis, lleidatà a la NASA",
    "url": "https://www.segre.com/ca/societat/261015/la-capacitat-de-la-ia-es-sobrehumana-marcel-llopis-lleidat-a-la-nasa_1364289.html",
    "publicat": "2026-10-15T08:21:44.000Z"
+  },
+  {
+   "id": "b287a290974d",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Crean un método de inteligencia artificial que genera «cerebros» motores para robots humanoides sin entrenarlos desde cero",
+   "url": "https://www.lasprovincias.es/tecnologia/crean-metodo-inteligencia-artificial-20261015081015-nt.html",
+   "publicat": "2026-10-15T08:09:00.000Z"
   },
   {
    "id": "d543f3a1191d",
@@ -2048,28 +2127,6 @@
    "titol": "WhatsApp como prueba en el proceso civil: la solución del eIDAS y el reto de los deepfakes",
    "url": "https://cincodias.elpais.com/legal/2026-10-09/whatsapp-como-prueba-en-el-proceso-civil-la-solucion-del-eidas-y-el-reto-de-los-deepfakes.html",
    "publicat": "2026-10-09T06:35:00.000Z"
-  },
-  {
-   "id": "270935b0ea75",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Autentic AI cierra una ronda de 1,5 millones para su IA de estudios de mercado y competir con Kantar, IPsos o NielsenIQ",
-   "url": "https://cincodias.elpais.com/companias/2026-10-09/autentic-ai-cierra-una-ronda-de-15-millones-para-su-ia-de-estudios-de-mercado-y-competir-con-kantar-ipsos-o-nielseniq.html",
-   "publicat": "2026-10-09T03:15:00.000Z"
-  },
-  {
-   "id": "edc67aeea06c",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nvidia encadena más récords en Bolsa con la euforia por la IA: próxima parada, los seis billones de capitalización",
-   "url": "https://cincodias.elpais.com/companias/2026-10-09/nvidia-encadena-mas-records-en-bolsa-con-la-euforia-por-la-ia-proxima-parada-los-seis-billones-de-capitalizacion.html",
-   "publicat": "2026-10-09T03:15:00.000Z"
   }
  ]
 }
