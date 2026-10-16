@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-16T09:20:22.760Z",
+ "actualitzat": "2026-10-16T12:17:10.203Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "9728a0ced954",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'FMI, en alerta per la IA: \"Sense salvaguardes, el risc pot superar les oportunitats\"",
+   "url": "https://www.ara.cat/economia/tecnologia/l-fmi-alerta-ia-salvaguardes-risc-pot-superar-oportunitats_1_5880840.html",
+   "publicat": "2026-10-16T11:42:30.000Z"
+  },
+  {
+   "id": "40e7cd6768c0",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Catalunya tendrÃ¡ un asistente con IA que permitirÃ¡ a la poblaciÃ³n detectar posibles estafas virtuales",
+   "url": "https://www.elperiodico.com/es/sociedad/20261016/catalunya-tendra-asistente-ia-permitira-detectar-estafas-135410925",
+   "publicat": "2026-10-16T11:19:06.000Z"
+  },
+  {
+   "id": "2da534c1ac9c",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un investigador de la UIB obté el segon lloc en un repte de l'ESA sobre intel·ligència artificial i observació de la Terra",
+   "url": "https://www.diariodemallorca.es/cronica-uib/2026/10/16/investigador-uib-segon-lloc-esa-ia-observacio-terra-135407003.html",
+   "publicat": "2026-10-16T10:29:54.000Z"
+  },
+  {
+   "id": "566931d6f4a4",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tierra de empresas | Inescop investiga el uso de la inteligencia artificial para acelerar el diseño y desarrollo de calzado",
+   "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/inescop-investiga-el-uso-de-la-inteligencia-artificial-para-acelerar-el-diseno-y-desarrollo-de-calzado",
+   "publicat": "2026-10-16T10:02:19.000Z"
+  },
   {
    "id": "a1cc42709785",
    "mitja": "Valencia Plaza",
@@ -300,7 +344,9 @@
    "ambit": "catala",
    "titol": "OpenAI acusa un exempleat que es va unir a Apple de robar informació sobre un dispositiu secret",
    "url": "https://www.elnacional.cat/ca/tecnologia/openai-acusa-exempleat-es-va-unir-apple-robar-informacio-sobre-dispositiu-secret_1710238_102.html",
-   "publicat": "2026-10-15T17:00:00.000Z"
+   "publicat": "2026-10-15T17:00:00.000Z",
+   "noticia": "openai-contrademanda-apple-exempleat-dispositiu-secret",
+   "noticiaTitol": "OpenAI acusa Apple d'haver obtingut més de cent fitxers confidencials sobre un dispositiu sense anunciar a través d'un exempleat"
   },
   {
    "id": "1ce60748b6b2",
@@ -2259,30 +2305,6 @@
    "titol": "¿Se puede ser cruel con una IA? Anthropic prohíbe insultar “de manera sostenida” a su ‘chatbot’ Claude",
    "url": "https://elpais.com/tecnologia/2026-10-09/se-puede-ser-cruel-con-una-ia-anthropic-prohibe-insultar-de-manera-sostenida-a-su-chatbot-claude.html",
    "publicat": "2026-10-09T12:23:11.000Z"
-  },
-  {
-   "id": "0952f585970c",
-   "mitja": "El Nacional",
-   "font": "elnacional",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Prohibit ser cruel amb la IA: Anthropic canvia les regles de Claude",
-   "url": "https://www.elnacional.cat/ca/tecnologia/prohibit-ser-cruel-ia-anthropic-canvia-regles-claude_1707724_102.html",
-   "publicat": "2026-10-09T10:30:00.000Z"
-  },
-  {
-   "id": "0cde3729ac98",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Ignasi Belda (Banc d'Espanya): \"La IA impacta en tota la cadena de valor de la banca\"",
-   "url": "https://www.ara.cat/economia/banca/ignasi-belda-banc-d-espanya-ia-impacta-tota-cadena-banca_1_5874280.html",
-   "publicat": "2026-10-09T09:46:27.000Z",
-   "noticia": "banc-d-espanya-belda-ia-impacta-tota-cadena-banca",
-   "noticiaTitol": "El Banc d'Espanya diu que la IA afecta tota la cadena de valor de la banca i vol reforçar a Barcelona el seu laboratori d'experimentació"
   }
  ]
 }
