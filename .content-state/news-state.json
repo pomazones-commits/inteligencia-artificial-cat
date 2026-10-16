@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-10-16",
-  "updatedAt": "2026-10-16T12:16:35.224Z",
-  "batches": 3,
+  "updatedAt": "2026-10-16T16:15:38.714Z",
+  "batches": 4,
   "target": 20,
   "items": [
+    {
+      "category": "POLÍTICA",
+      "read": "4 MIN",
+      "slug": "fmi-georgieva-ia-salvaguardes-riscos-jack-clark-anthropic",
+      "title": "La directora de l'FMI avisa que, sense salvaguardes, els riscos de la IA poden superar-ne els beneficis",
+      "excerpt": "Kristalina Georgieva reclama controls ètics i supervisió de la mateixa indústria, i el cofundador d'Anthropic Jack Clark respon que el problema és pitjor del que ella pensa.",
+      "sourceName": "Ara",
+      "sourceUrl": "https://www.ara.cat/economia/tecnologia/l-fmi-alerta-ia-salvaguardes-risc-pot-superar-oportunitats_1_5880840.html",
+      "sourceDate": "16 d'octubre de 2026",
+      "body": "Les reunions anuals del Fons Monetari Internacional i el Banc Mundial, que aquesta setmana se celebren a Bangkok, han portat la intel·ligència artificial al centre del debat econòmic. L'organisme afirma al seu informe *World Economic Outlook* que la inversió en IA ha donat impuls a l'activitat mundial i al comerç internacional, arrossegada per la despesa massiva en infraestructures i maquinari.\n\nSegons que explica el diari Ara, la directora gerent de l'FMI, Kristalina Georgieva, va advertir que, sense salvaguardes, els riscos poden superar les oportunitats. Va dir que la IA necessita uns fonaments ètics sòlids i que no sap si la societat ja els té, i que fins ara només s'hi veuen guanys de productivitat incipients, no encara a una escala transformadora. Va afegir que els governs no poden regular una tecnologia que va tan de pressa perquè en saben massa poc, i que la responsabilitat del control ha de recaure en les empreses líders. Va comparar els grans models de llenguatge amb una cursa de Fórmula 1: si el cotxe surt de la pista i causa morts, el regal potser no val la pena.\n\nJack Clark, cofundador d'Anthropic i responsable de política pública de l'empresa, hi va replicar que el problema és pitjor del que ella pensa i va fer servir la imatge d'un cotxe de Fórmula 1 de nit i sense frens. Segons l'Ara, va defensar que cal fixar un estàndard comú per als models abans de posar-hi barreres reguladores, que l'hauria de fixar el govern, i que les proves de seguretat i la compartició de resultats haurien de ser obligatòries i no voluntàries, com ho són ara a Anthropic.\n\nConvé llegir-ho amb mesura: són declaracions en un fòrum, no una proposta formal, i la crònica no en reporta xifres noves. També és notable que l'FMI reconegui l'impuls econòmic de la inversió en IA i alhora en qüestioni l'efecte a llarg termini: encara cal veure si aquest impuls de la demanda esdevindrà un guany real de productivitat i d'oferta.",
+      "image": "./assets/fmi-georgieva-ia-salvaguardes-riscos-jack-clark-anthropic-20261016.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "elorian-glimpse-model-raonament-visual-55-milions",
+      "title": "Elorian, una empresa emergent amb 55 milions de dòlars, presenta Glimpse, un model que retalla i mesura imatges mentre raona",
+      "excerpt": "El primer model de l'empresa de Palo Alto no només descriu el que veu: pot ampliar zones d'una imatge, extreure fotogrames d'un vídeo i executar codi per mesurar-los. Els resultats que en dona són de l'empresa.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "sourceDate": "16 d'octubre de 2026",
+      "body": "La majoria dels models d'IA amb visió descriuen una imatge i després en raonen amb paraules. Elorian, una empresa emergent de Palo Alto que va sortir del mode discret fa sis mesos, vol fer-ho al revés: que el raonament passi per les imatges mateixes. Ho ha fet amb Glimpse, el primer model, que acaba de sortir com a vista prèvia de recerca.\n\nLa tecnologia clau és un «espai de treball visual». Mentre raona, Glimpse pot retallar i ampliar regions d'una imatge, treure fotogrames concrets d'un vídeo i executar codi per mesurar o comparar el que hi veu. Segons l'empresa, un equip petit el va entrenar amb uns quants centenars de GPU, i és molt més petit que els models capdavanters amb què es compara. L'accés per API ja és obert, el xat és només per a una llista d'espera i costa 0,60 dòlars per milió de fitxes d'entrada i 3 dòlars per milió de sortida.\n\nElorian va captar una ronda llavor de 55 milions de dòlars, amb una valoració de 300 milions, abans de tenir cap producte. La van codirigir Striker Venture Partners, Menlo Ventures i Altimeter Capital, amb Nvidia i el cap científic de Google, Jeff Dean, com a participants. El conseller delegat, Andrew Dai, és un antic investigador de Google DeepMind, i els primers clients que busca són empreses amb molt de vídeo: robòtica, laboratoris científics i mitjans.\n\nCal anar amb cautela: les proves que diuen que Glimpse supera GPT-6 Astra en raonament sobre gràfics científics i en descripció breu de vídeos són de l'empresa mateixa, sense verificació independent. Retallar i ampliar mentre es raona tampoc no és nou: OpenAI ho va afegir als seus models de la sèrie o el 2025. El que Elorian defensa és haver construït tot el model al voltant d'aquesta idea. Els objectius de controlar robots directament són, de moment, plans.",
+      "image": "./assets/elorian-glimpse-model-raonament-visual-55-milions-20261016.jpg"
+    },
+    {
+      "category": "EMPRESA",
+      "read": "3 MIN",
+      "slug": "valencia-govtech-challenges-ia-emergencies-citcom-ai",
+      "title": "València busca empreses que provin solucions d'IA per a inundacions, incendis i alertes a la ciutadania, amb 10.000 euros per projecte",
+      "excerpt": "València Innovation Capital convoca sis reptes d'emergències dins del projecte europeu CitCom.ai. Les empreses tenen fins l'11 de novembre per presentar-hi una proposta.",
+      "sourceName": "Valencia Plaza",
+      "sourceUrl": "https://valenciaplaza.com/valenciaplaza/empresas1/valencia-busca-startups-para-probar-soluciones-de-inteligencia-artificial-aplicadas-a-emergencias",
+      "sourceDate": "16 d'octubre de 2026",
+      "body": "L'Ajuntament de València vol saber quines solucions d'IA poden ajudar de debò a prevenir, afrontar i protegir la gent en una emergència. Per això, València Innovation Capital, el centre municipal d'innovació Las Naves, ha obert una convocatòria dels seus GovTech Challenges, dins del projecte europeu CitCom.ai, el node sud del qual coordina la ciutat.\n\nHi ha sis reptes independents: la predicció d'inundacions, la gestió de recursos per a l'extinció d'incendis, la localització de persones que necessiten ajuda amb garanties de privacitat, els sistemes públics d'alerta, la visualització compartida de recursos de bombers, policia i 112, i la gestió intel·ligent del trànsit amb detecció de multituds. Poden presentar-se empreses, pimes i empreses emergents, soles o en unió temporal, amb una proposta per a un sol repte.\n\nUn jurat avaluarà de forma anònima els informes tècnics segons la viabilitat, l'experiència de l'equip, l'originalitat, l'impacte, l'escalabilitat, l'ètica i la protecció de dades, i l'accessibilitat. Se'n triarà una per repte, amb experiments de tres mesos. Cada experiment rebrà com a màxim 10.000 euros, sense IVA, i 60.000 en total, a més d'assessorament, un entorn de proves urbà, el clúster de GPU de VRAIN i dades obertes de la ciutat. Les propostes es presenten a la Plataforma de Contractació del Sector Públic fins l'11 de novembre a les 23.59.\n\nÉs una convocatòria de proves, no un contracte de desplegament: els imports són modestos i res no garanteix que cap solució acabi als serveis d'emergències. L'accés a certes dades municipals requerirà autorització prèvia, viabilitat tècnica i compliment de les normes de protecció de dades i seguretat.",
+      "image": "./assets/valencia-govtech-challenges-ia-emergencies-citcom-ai-20261016.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "organoides-cerebrals-braille-frontiers-ai-bristol",
+      "title": "Una IA descodifica l'activitat de mini cervells cultivats i hi identifica lletres en braille: un 61% d'encert amb un organoide i un 83% amb tres",
+      "excerpt": "Investigadors de la Universitat de Bristol han fet «llegir» braille a organoides cerebrals amb un classificador senzill, però l'estudi no mostra que aprenguin res.",
+      "sourceName": "EurekAlert (Universitat de Bristol)",
+      "sourceUrl": "https://www.eurekalert.org/news-releases/1147141",
+      "sourceDate": "16 d'octubre de 2026",
+      "body": "Els organoides són cultius de cèl·lules humanes que imiten parts d'un òrgan. Els de l'estudi, que s'assemblen a un tros de prosencèfal, fan menys d'un mil·límetre i tenen uns 10.000 neurones, i no tenen moltes estructures d'un cervell humà. L'equip de la Universitat de Bristol volia saber si es pot enviar informació tàctil a aquests teixits i recuperar-la, com a pas cap a una informàtica biohíbrida.\n\nEls resultats s'han publicat a *Frontiers in Artificial Intelligence* (DOI 10.3389/frai.2026.1800219), a l'article «Encoding Tactile Stimuli for Braille Recognition with Organoids». Els organoides es van col·locar sobre matrius d'elèctrodes que els mantenen vius i en registren la resposta. Un sensor tàctil va escanejar les 26 lletres del braille, les dades es van convertir en patrons d'estimulació elèctrica i una màquina de vectors de suport, un classificador senzill d'aprenentatge automàtic, va intentar endevinar la lletra a partir de l'activitat resultant.\n\nUn organoide sol va donar un senyal que permetia descodificar la lletra correcta al voltant del 61% de les vegades, i equips de tres organoides van arribar al 83%. Amb filtres de soroll afegits, les respostes dels organoides eren més difícils de descodificar que els senyals amb soroll, però el classificador que treballava directament amb els senyals amb soroll es deixava enganyar amb més facilitat que el que llegia els organoides.\n\nEls autors són explícits amb els límits: no s'ha demostrat aprenentatge ni canvis duradors als organoides, només que reben senyals i hi responen. Només es va provar una tasca, amb una codificació fixa i una mesura d'activitat neuronal força simple, i no se sap per què tres organoides funcionen millor que un: la variabilitat entre ells pot aportar informació complementària, però també fa més difícil normalitzar els sistemes.",
+      "image": "./assets/organoides-cerebrals-braille-frontiers-ai-bristol-20261016.jpg"
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "slug": "transformer-genomica-ictus-isquemic-uts-cmpb",
+      "title": "Una IA de tipus transformer troba 18 variants genètiques associades a l'ictus isquèmic i separa millor els pacients que les eines anteriors",
+      "excerpt": "Un estudi de la Universitat de Tecnologia de Sydney aplica l'arquitectura dels grans models de llenguatge a l'ADN, però no en dona mesures de precisió concretes.",
+      "sourceName": "EurekAlert (Universitat de Tecnologia de Sydney)",
+      "sourceUrl": "https://www.eurekalert.org/news-releases/1148030",
+      "sourceDate": "16 d'octubre de 2026",
+      "body": "L'ictus és la segona causa de mort al món, i uns 46.000 australians en pateixen un cada any; un de cada tres supervivents queda amb una discapacitat moderada o greu. L'ictus isquèmic, per obstrucció d'una artèria del cervell, és el més freqüent, i part del seu risc és hereditari. Detectar-lo a temps permetria prevenir-lo.\n\nInvestigadors de la Universitat de Tecnologia de Sydney, amb l'Hospital Liverpool i l'Australian Artificial Intelligence Institute, han fet servir un model de tipus transformer —la mateixa arquitectura que hi ha darrere dels grans models de llenguatge— per llegir l'ADN. El model identifica variants genètiques lligades a l'ictus i té en compte on són al genoma i com poden interactuar. L'estudi, titulat «Predicting risk of ischemic stroke: A transformer model using genomic data», es va publicar el 17 de setembre a *Computer Methods and Programs in Biomedicine* (DOI 10.1016/j.cmpb.2026.109625), i la universitat n'ha difós la nota aquesta setmana.\n\nEl sistema va trobar 18 variants genètiques associades a l'ictus isquèmic. Es va provar amb dades genètiques i de salut del UK Biobank i amb registres sanitaris de la base nord-americana All of Us. El grup de risc genètic més alt tenia un 22% més de probabilitats de patir un ictus que el de risc més baix, i el model separava millor els pacients dels no pacients que les eines genètiques anteriors. També assenyala el gen EDEM2 al teixit de l'escorça cerebral com a possible factor i objectiu de futures recerques.\n\nLa nota no dona mesures de precisió, de manera que no es pot saber de quant és la millora, ni aclareix si el 22% és un risc relatiu o absolut. Les dades són del Regne Unit i dels Estats Units, i no se sap com funcionaria en altres poblacions. La genètica és només un factor: els autors volen combinar-la amb la pressió arterial, l'edat, la fibril·lació auricular, la diabetis, el colesterol i l'estil de vida. L'assaig clínic preventiu que proposen encara és només una proposta.",
+      "image": "./assets/transformer-genomica-ictus-isquemic-uts-cmpb-20261016.jpg"
+    },
     {
       "category": "DRET",
       "read": "4 MIN",

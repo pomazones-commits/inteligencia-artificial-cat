@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "València",
+    "category": "EMPRESA",
+    "date": "16.10.2026",
+    "title": "València busca empreses que provin solucions d'IA per a inundacions, incendis i alertes a la ciutadania, amb 10.000 euros per projecte",
+    "summary": "València Innovation Capital convoca sis reptes d'emergències dins del projecte europeu CitCom.ai. Les empreses tenen fins l'11 de novembre per presentar-hi una proposta.",
+    "detail": "L'Ajuntament de València vol saber quines solucions d'IA poden ajudar de debò a prevenir, afrontar i protegir la gent en una emergència. Per això, València Innovation Capital, el centre municipal d'innovació Las Naves, ha obert una convocatòria dels seus GovTech Challenges, dins del projecte europeu CitCom.ai, el node sud del qual coordina la ciutat.\n\nHi ha sis reptes independents: la predicció d'inundacions, la gestió de recursos per a l'extinció d'incendis, la localització de persones que necessiten ajuda amb garanties de privacitat, els sistemes públics d'alerta, la visualització compartida de recursos de bombers, policia i 112, i la gestió intel·ligent del trànsit amb detecció de multituds. Poden presentar-se empreses, pimes i empreses emergents, soles o en unió temporal, amb una proposta per a un sol repte.\n\nUn jurat avaluarà de forma anònima els informes tècnics segons la viabilitat, l'experiència de l'equip, l'originalitat, l'impacte, l'escalabilitat, l'ètica i la protecció de dades, i l'accessibilitat. Se'n triarà una per repte, amb experiments de tres mesos. Cada experiment rebrà com a màxim 10.000 euros, sense IVA, i 60.000 en total, a més d'assessorament, un entorn de proves urbà, el clúster de GPU de VRAIN i dades obertes de la ciutat. Les propostes es presenten a la Plataforma de Contractació del Sector Públic fins l'11 de novembre a les 23.59.\n\nÉs una convocatòria de proves, no un contracte de desplegament: els imports són modestos i res no garanteix que cap solució acabi als serveis d'emergències. L'accés a certes dades municipals requerirà autorització prèvia, viabilitat tècnica i compliment de les normes de protecció de dades i seguretat.",
+    "source": "Valencia Plaza",
+    "url": "https://valenciaplaza.com/valenciaplaza/empresas1/valencia-busca-startups-para-probar-soluciones-de-inteligencia-artificial-aplicadas-a-emergencias",
+    "image": "./assets/valencia-govtech-challenges-ia-emergencies-citcom-ai-20261016.jpg",
+    "slug": "valencia-govtech-challenges-ia-emergencies-citcom-ai"
+  },
+  {
     "place": "Lleida",
     "category": "IA I SOCIETAT",
     "date": "16.10.2026",
@@ -76,16 +88,5 @@ window.IA_RADAR = [
     "source": "El Nacional",
     "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/projecte-mwcapital-identifica-columnes-fum-collserola-ia_1709554_102.html",
     "image": "./assets/mwcapital-collserola-ia-columnes-fum-20261014.jpg"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "14.10.2026",
-    "title": "Indra posa 10 milions d'euros a Qilimanjaro, l'empresa catalana de computació quàntica, per aplicar-la a la IA i la robòtica",
-    "summary": "La inversió, a través d'IndraMind, forma part d'un primer tancament de ronda de gairebé 20 milions. Indra la vol per a defensa, seguretat i simulació de sistemes complexos.",
-    "detail": "Qilimanjaro Quantum Tech, una empresa catalana de computació quàntica fundada el 2019, ha rebut 10 milions d'euros d'Indra Group. L'operació, anunciada en un comunicat conjunt, es fa a través d'IndraMind i completa un primer tancament de ronda de gairebé 20 milions d'euros. La informació consultada no diu quin percentatge del capital representa.\n\nIndra explica que vol reforçar la seva posició en una tecnologia emergent «d'alt potencial» i que la capacitat de Qilimanjaro és estratègica per aplicar la computació quàntica a la IA avançada, la defensa i la seguretat. Amb aquesta entrada, IndraMind ampliarà la feina en IA física, robòtica i simulació de sistemes complexos, com ara energia, materials, electromagnetisme i sistemes autònoms.\n\nPer a l'ecosistema català, l'operació dona múscul financer a una de les empreses quàntiques més visibles del país i la vincula a un dels grans grups tecnològics i de defensa de l'Estat. Convé no confondre-la amb una aplicació ja existent: l'anunci parla d'objectius i línies de treball, no de productes quàntics que ja funcionin en IA o en robòtica.\n\nEl comunicat no detalla calendaris ni resultats esperats, i les fonts consultades no precisen què es farà amb els diners. Caldrà veure si la col·laboració es tradueix en projectes concrets i en quins ritmes.",
-    "source": "Diari de Sabadell",
-    "url": "https://www.diaridesabadell.com/diners/indra-group-qilimanjaro.html",
-    "image": "./assets/indra-qilimanjaro-10-milions-quantica-ia-20261014.jpg"
   }
 ];
