@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-16T08:10:56.551Z",
+ "actualitzat": "2026-10-16T09:20:22.760Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "a1cc42709785",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Empresas | València busca startups para probar soluciones de inteligencia artificial aplicadas a emergencias",
+   "url": "https://valenciaplaza.com/valenciaplaza/empresas1/valencia-busca-startups-para-probar-soluciones-de-inteligencia-artificial-aplicadas-a-emergencias",
+   "publicat": "2026-10-16T09:18:13.000Z"
+  },
+  {
+   "id": "b82c464d2e38",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Siempre nos quedarÃ¡ la IA",
+   "url": "https://www.elperiodico.com/es/gente/20261016/mamarazzis-siempre-quedara-ia-lorena-vazquez-135403479",
+   "publicat": "2026-10-16T09:16:29.000Z"
+  },
+  {
+   "id": "dcfccce33c83",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una ola de ciberataques en Japón filtra millones de datos: hay temor de que hayan sido impulsados por la IA",
+   "url": "https://www.lavanguardia.com/vida/20261016/11660490/ola-ciberataques-japon-filtra-millones-datos-hay-temor-hayan-sido-impulsados-ia.html",
+   "publicat": "2026-10-16T08:54:23.000Z"
+  },
+  {
+   "id": "954b5305ed13",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Google actualiza el Modo IA y AI Overviews con enlaces más claros, contexto sobre las fuentes y artículos de actualidad",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/16/2729933/google-actualiza-modo-overviews-enlaces-mas-claros-contexto-sobre-fuentes-articulos-actualidad.html",
+   "publicat": "2026-10-16T08:15:00.000Z"
+  },
   {
    "id": "2fe487865844",
    "mitja": "El Nacional",
@@ -98,7 +142,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Tensor impulsa el futuro de la movilidad autónoma basada en IA desde DFactory Barcelona",
+   "titol": "Tensor impulsa el futuro de la movilidad autÃ³noma basada en IA desde DFactory Barcelona",
    "url": "https://www.elperiodico.com/es/consorci-zona-franca/20261016/tensor-impulsa-futuro-movilidad-autonoma-ia-dfactory-barcelona-bc-135333542",
    "publicat": "2026-10-16T03:31:02.000Z"
   },
@@ -287,7 +331,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "La IA gana terreno en las finanzas: casi nueve de cada diez españoles valora que le ayude a comparar opciones",
+   "titol": "La IA gana terreno en las finanzas: casi nueve de cada diez espaÃ±oles valora que le ayude a comparar opciones",
    "url": "https://www.elperiodico.com/es/economia/20261015/inteligencia-artificial-chatgpt-gemini-claude-decisiones-financieras-nueve-cada-diez-espanoles-135369950",
    "publicat": "2026-10-15T16:00:07.000Z"
   },
@@ -500,7 +544,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "YouTube etiquetará las canciones creadas con inteligencia artificial: \"Nuestros oyentes nos han dicho que quieren transparencia\"",
+   "titol": "YouTube etiquetarÃ¡ las canciones creadas con inteligencia artificial: \"Nuestros oyentes nos han dicho que quieren transparencia\"",
    "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261015/youtube-etiquetara-canciones-creadas-inteligencia-135361315",
    "publicat": "2026-10-15T09:34:17.000Z"
   },
@@ -582,13 +626,24 @@
    "publicat": "2026-10-15T07:40:41.000Z"
   },
   {
+   "id": "7596cd206640",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Gobierno refuerza la CNMC con un economista jefe y una unidad de inteligencia artificial para detectar cárteles",
+   "url": "https://www.informacion.es/economia/2026/10/15/gobierno-cambia-estructura-cnmc-economista-135356030.html",
+   "publicat": "2026-10-15T07:31:20.000Z"
+  },
+  {
    "id": "72f3e7c0e8bd",
    "mitja": "El Periódico",
    "font": "elperiodico-totes",
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "El Gobierno refuerza la CNMC con un economista jefe y una unidad de inteligencia artificial para detectar cárteles",
+   "titol": "El Gobierno refuerza la CNMC con un economista jefe y una unidad de inteligencia artificial para detectar cÃ¡rteles",
    "url": "https://www.elperiodico.com/es/economia/20261015/gobierno-cambia-estructura-cnmc-economista-135355791",
    "publicat": "2026-10-15T07:24:21.000Z"
   },
@@ -602,6 +657,17 @@
    "titol": "Anthropic calienta su histórica salida a Bolsa con un aumento trimestral de sus ingresos del 46%",
    "url": "https://cincodias.elpais.com/companias/2026-10-15/anthropic-calienta-su-historica-salida-a-bolsa-con-un-aumento-trimestral-de-sus-ingresos-del-46.html",
    "publicat": "2026-10-15T07:13:38.000Z"
+  },
+  {
+   "id": "2173f95d688e",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "OpenAI, la impulsora de ChatGPT, demandada por ocho estados de EEUU por \"causar daÃ±os a niÃ±os\" e infringir la ley",
+   "url": "https://www.elperiodico.com/es/politica/20261015/openai-impulsora-chatgpt-demandada-ocho-135353107",
+   "publicat": "2026-10-15T06:32:17.000Z"
   },
   {
    "id": "e7e130909a4e",
@@ -698,7 +764,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Más allá del algoritmo: cómo llevar la IA a la industria empresarial",
+   "titol": "MÃ¡s allÃ¡ del algoritmo: cÃ³mo llevar la IA a la industria empresarial",
    "url": "https://www.elperiodico.com/es/consorci-zona-franca/20261015/algoritmo-llevar-ia-industria-empresarial-bc-135061249",
    "publicat": "2026-10-15T03:30:51.000Z"
   },
@@ -874,7 +940,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "VZMORE AX9 MAX, análisis: un mini PC que apuesta por la IA local sin renunciar a la potencia",
+   "titol": "VZMORE AX9 MAX, anÃ¡lisis: un mini PC que apuesta por la IA local sin renunciar a la potencia",
    "url": "https://www.elperiodico.com/es/tecnologia/20261014/vzmore-ax9-max-analisis-precio-135330582",
    "publicat": "2026-10-14T14:11:10.000Z"
   },
@@ -1041,7 +1107,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Thélyson Orélien niega haber utilizado inteligencia artificial para escribir su última novela: «Las amenazas, el linchamiento mediático y el acoso racista son insoportables»",
+   "titol": "ThÃ©lyson OrÃ©lien niega haber utilizado inteligencia artificial para escribir su Ãºltima novela: Â«Las amenazas, el linchamiento mediÃ¡tico y el acoso racista son insoportablesÂ»",
    "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261014/thelyson-orelien-niega-haber-utilizado-135315824",
    "publicat": "2026-10-14T09:18:55.000Z"
   },
@@ -1188,7 +1254,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "¿Puede ChatGPT diagnosticar la alopecia? Los dermatólogos alertan de los riesgos de confiar en la IA",
+   "titol": "Â¿Puede ChatGPT diagnosticar la alopecia? Los dermatÃ³logos alertan de los riesgos de confiar en la IA",
    "url": "https://www.elperiodico.com/es/salud/20261014/chatgpt-diagnosticar-alopecia-dermatologos-alertan-ia-135313759",
    "publicat": "2026-10-14T08:12:47.000Z"
   },
@@ -1221,7 +1287,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Rafael López, el malagueño de 25 años que triunfa con la Inteligencia Artificial en Silicon Valley: \"La clave para que la IA sea fiable es saber enseñarla\"",
+   "titol": "Rafael LÃ³pez, el malagueÃ±o de 25 aÃ±os que triunfa con la Inteligencia Artificial en Silicon Valley: \"La clave para que la IA sea fiable es saber enseÃ±arla\"",
    "url": "https://www.elperiodico.com/es/sociedad/20261014/rafael-lopez-malagueno-silicon-valley-ia-wordware-san-francisco-135220939",
    "publicat": "2026-10-14T07:59:07.000Z"
   },
@@ -1270,13 +1336,24 @@
    "publicat": "2026-10-14T06:31:00.000Z"
   },
   {
+   "id": "c4ae16e727c9",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
+   "url": "https://www.diariodemallorca.es/economia/2026/10/14/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135309839.html",
+   "publicat": "2026-10-14T05:19:52.000Z"
+  },
+  {
    "id": "c3cff9b3f22a",
    "mitja": "El Periódico",
    "font": "elperiodico-totes",
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
+   "titol": "La IA necesita cada vez mÃ¡s supervisiÃ³n en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
    "url": "https://www.elperiodico.com/es/economia/20261014/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135287734",
    "publicat": "2026-10-14T05:00:18.000Z"
   },
