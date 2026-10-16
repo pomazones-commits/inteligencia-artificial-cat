@@ -15,8 +15,8 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026101601';
-  const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './series.js', './empresa.js'];
+  const VERSIO_MANUAL = '2026101602';
+  const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './estudis-arxiu.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
     script.src = `${src}?v=${stamp}${MANUALS.includes(src) ? 'm' + VERSIO_MANUAL : ''}`;
@@ -400,19 +400,29 @@
     //      VEUS_DIES_MAX dies; si no, la banda mostra només la columna).
     // Les dues targetes s'ordenen per data (la més nova primer). Si només n'hi ha una,
     // es pinta gran, com abans.
+    // 16.10.2026 (decisió d'en Rafael): «Veus de CIVICAi» recull TOTES les col·laboracions
+    // dels membres de CIVICAi, sigui quin sigui el format. Els estudis de membres de
+    // CIVICAi es publiquen directament a estudis-arxiu.js (mai a estudis.js) amb el camp
+    // serie, i entren a la banda igual que les peces d'opinió de tribuna-arxiu.js.
     const serieVeus = window.IA_SERIES && window.IA_SERIES['veus-de-civicai'];
     const VEUS_DIES_MAX = 30;
     if (serieVeus) {
-      Promise.all([loadScript('./tribuna-arxiu.js'), loadScript('./peces.js')]).then(() => {
+      Promise.all([loadScript('./tribuna-arxiu.js'), loadScript('./estudis-arxiu.js'), loadScript('./peces.js')]).then(() => {
         const llista = [window.IA_TRIBUNA].concat(window.IA_TRIBUNA_ARXIU || []);
+        const llistaEstudis = [window.IA_ESTUDI].concat(window.IA_ESTUDIS_ARXIU || []);
+        // Cada veu sap de quina llista surt, per calcular-ne l'adreça fixa
+        // (/tribuna/<id> o /estudis/<id>).
+        const origen = new Map();
+        llista.forEach((t, i) => { if (i > 0 && t) origen.set(t, { tipus: 'tribuna', llista }); });
+        llistaEstudis.forEach((t, i) => { if (i > 0 && t) origen.set(t, { tipus: 'estudis', llista: llistaEstudis }); });
         const clauData = (d) => String(d || '').split('.').reverse().join('');
         const diesDes = (d) => {
           const [dd, mm, aa] = String(d || '').split('.').map(Number);
           if (!dd || !mm || !aa) return Infinity;
           return (Date.now() - new Date(aa, mm - 1, dd).getTime()) / 864e5;
         };
-        const veus = llista
-          .filter((t, i) => i > 0 && t && t.title && t.serie === 'veus-de-civicai')
+        const veus = [...origen.keys()]
+          .filter((t) => t && t.title && t.serie === 'veus-de-civicai')
           .sort((a, b) => clauData(b.date).localeCompare(clauData(a.date)));
         const esColumna = (t) => /sanrom/i.test(String(t.author || ''));
         const columna = veus.find(esColumna);
@@ -438,7 +448,8 @@
         graella.textContent = '';
         graella.classList.toggle('veus-peces--una', peces.length === 1);
         peces.forEach((peca, index) => {
-          const cami = (window.IAPeces && window.IAPeces.cami('tribuna', peca, llista)) || serieVeus.cami;
+          const lloc = origen.get(peca) || { tipus: 'tribuna', llista };
+          const cami = (window.IAPeces && window.IAPeces.cami(lloc.tipus, peca, lloc.llista)) || serieVeus.cami;
           const targeta = el('article', 'veus-peca');
           if (peca.photo) {
             const figura = el('figure', 'veus-photo');
@@ -460,7 +471,8 @@
           enllac.href = cami;
           titol.appendChild(enllac);
           text.appendChild(titol);
-          if (peca.excerpt) text.appendChild(el('p', 'veus-entradeta', peca.excerpt));
+          const entradeta = peca.excerpt || peca.abstract;
+          if (entradeta) text.appendChild(el('p', 'veus-entradeta', entradeta));
           const qui = el('p', 'veus-byline', peca.author || '');
           if (peca.role) {
             if (peca.author) qui.appendChild(document.createTextNode(' · '));
