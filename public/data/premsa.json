@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-16T04:15:19.008Z",
+ "actualitzat": "2026-10-16T08:10:56.551Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "2fe487865844",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La CNN i Google uneixen forces per portar la IA generativa a les redaccions",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/cnn-google-uneixen-forces-portar-ia-generativa-redaccions_1710475_102.html",
+   "publicat": "2026-10-16T07:27:00.000Z"
+  },
+  {
+   "id": "e23fcb75fc75",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "“No entiendo la utilidad de la IA dentro del proceso cinematográfico”: la superinteligencia brilla por su ausencia en 'Whalefall', el insólito desafío de rodar dentro de una ballena",
+   "url": "https://www.lavanguardia.com/neo/ciencia-ficcion/20261016/11660131/entiendo-utilidad-ia-proceso-cinematografico-superinteligencia-brilla-ausencia-whalefall-insolito-desafio-rodar-ballena.html",
+   "publicat": "2026-10-16T07:02:48.000Z"
+  },
+  {
+   "id": "3aef4a363a42",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un nuevo banco de pruebas mide la capacidad de los robots con inteligencia artificial para adaptarse a los gustos humanos",
+   "url": "https://www.lasprovincias.es/tecnologia/nuevo-banco-pruebas-mide-rlt_arx-20261016061040-nt.html",
+   "publicat": "2026-10-16T06:20:40.000Z"
+  },
+  {
+   "id": "9d25fcdd0a6d",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'empresariat de Solsona Cardona promou l'ús de la intel·ligència artificial i la creació de xarxa professional",
+   "url": "https://www.regio7.cat/solsones/2026/10/16/lempresariat-solsona-cardona-promou-lus-135356514.html",
+   "publicat": "2026-10-16T06:01:02.000Z"
+  },
+  {
+   "id": "bf5536d813e0",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una startup envía agentes de IA para ser estafados y conocer cómo actúan los timadores: “Obtenemos la información antes de que nadie resulte perjudicado”",
+   "url": "https://www.lavanguardia.com/neo/seguridad/20261016/11659644/startup-envia-agentes-ia-estafados-conocer-como-actuan-timadores-obtenemos-informacion-nadie-resulte-perjudicado.html",
+   "publicat": "2026-10-16T05:45:00.000Z"
+  },
+  {
+   "id": "f5f4cd825efd",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La Fundació AndUp centrarà els primers esforços en vendes i IA",
+   "url": "https://www.diariandorra.ad/nacional/261016/fundacio-andup-centrara-els-primers-esforcos-vendes-i-ia_206608.html",
+   "publicat": "2026-10-16T04:30:19.000Z"
+  },
+  {
+   "id": "4d203b3a9d84",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Ensenyat aborda els reptes de la intel·ligència artificial",
+   "url": "https://www.diariandorra.ad/nacional/261016/ensenyat-aborda-els-reptes-intel-ligencia-artificial_206606.html",
+   "publicat": "2026-10-16T04:26:31.000Z"
+  },
   {
    "id": "38a5f6d64a5e",
    "mitja": "Alicante Plaza",
@@ -26,6 +103,17 @@
    "publicat": "2026-10-16T03:31:02.000Z"
   },
   {
+   "id": "8f2230a9bd35",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "IA para reducir las muertes por sepsis",
+   "url": "https://cincodias.elpais.com/extras/ciencia-salud/2026-10-16/ia-para-reducir-las-muertes-por-sepsis.html",
+   "publicat": "2026-10-16T03:30:00.000Z"
+  },
+  {
    "id": "ff2a71430bb5",
    "mitja": "El Nacional",
    "font": "elnacional-oneconomia",
@@ -34,7 +122,9 @@
    "ambit": "catala",
    "titol": "Ingroup compra els actius de BCN3D i fabricarà impressores 3D amb IA integrada",
    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/ingroup-compra-actius-bcn3d-fabricara-impressores-3d-ia-integrada_1710106_102.html",
-   "publicat": "2026-10-16T03:30:00.000Z"
+   "publicat": "2026-10-16T03:30:00.000Z",
+   "noticia": "ingroup-bcn3d-impressores-3d-ia-lleida",
+   "noticiaTitol": "Ingroup compra els actius de BCN3D i obrirà a Lleida una fàbrica d'impressores 3D amb IA que s'ordenen de viva veu"
   },
   {
    "id": "214bae0f7837",
@@ -56,7 +146,7 @@
    "ambit": "catala",
    "titol": "Éric Sadin: «Hacia 2030 podría desaparecer todo lo que nos hace humanos por culpa de la IA»",
    "url": "https://www.ultimahora.es/noticias/cultura/2026/10/16/2729657/eric-sadin-hacia-2030-podria-desaparecer-todo-nos-hace-humanos-por-culpa.html",
-   "publicat": "2026-10-16T02:48:01.000Z"
+   "publicat": "2026-10-16T02:48:00.000Z"
   },
   {
    "id": "425dbb436425",
@@ -2116,17 +2206,6 @@
    "publicat": "2026-10-09T09:46:27.000Z",
    "noticia": "banc-d-espanya-belda-ia-impacta-tota-cadena-banca",
    "noticiaTitol": "El Banc d'Espanya diu que la IA afecta tota la cadena de valor de la banca i vol reforçar a Barcelona el seu laboratori d'experimentació"
-  },
-  {
-   "id": "98ac82bdaddd",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "WhatsApp como prueba en el proceso civil: la solución del eIDAS y el reto de los deepfakes",
-   "url": "https://cincodias.elpais.com/legal/2026-10-09/whatsapp-como-prueba-en-el-proceso-civil-la-solucion-del-eidas-y-el-reto-de-los-deepfakes.html",
-   "publicat": "2026-10-09T06:35:00.000Z"
   }
  ]
 }
