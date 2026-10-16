@@ -98,16 +98,19 @@ def llegeix_ia_js(path: Path) -> dict:
     return data if isinstance(data, dict) else {}
 
 
-def darrera_veu_civicai(path: Path = Path("public/tribuna-arxiu.js")) -> dict:
-    """La peça més recent de «Veus de CIVICAi» de l'arxiu de la tribuna.
+def darrera_veu_civicai(path: Path = Path("public/tribuna-arxiu.js"), variable: str = "IA_TRIBUNA_ARXIU") -> dict:
+    """La peça més recent de «Veus de CIVICAi» d'un arxiu (per defecte, el de la tribuna).
 
     Des del 14.10.2026 les veus de CIVICAi es publiquen directament a
     tribuna-arxiu.js (mai a tribuna.js), de manera que no passen mai per la
-    tribuna vigent: aquesta funció les fa entrar a l'àudio igualment."""
+    tribuna vigent: aquesta funció les fa entrar a l'àudio igualment.
+    Des del 16.10.2026 els estudis de membres de CIVICAi van, de la mateixa
+    manera, a estudis-arxiu.js (variable IA_ESTUDIS_ARXIU): vegeu
+    darrer_estudi_civicai()."""
     if not path.is_file():
         return {}
     raw = path.read_text(encoding="utf-8")
-    m = re.search(r"^window\.IA_TRIBUNA_ARXIU\s*=\s*", raw, re.M)
+    m = re.search(r"^window\." + re.escape(variable) + r"\s*=\s*", raw, re.M)
     if not m:
         return {}
     cos = raw[m.end():].strip().rstrip(";").strip()
@@ -123,6 +126,13 @@ def darrera_veu_civicai(path: Path = Path("public/tribuna-arxiu.js")) -> dict:
         if iso and iso > data_iso(str(millor.get("date", ""))):
             millor = peca
     return millor
+
+
+def darrer_estudi_civicai(path: Path = Path("public/estudis-arxiu.js")) -> dict:
+    """L'estudi més recent de «Veus de CIVICAi» (16.10.2026, decisió d'en Rafael:
+    la secció recull totes les col·laboracions dels membres de CIVICAi, també els
+    estudis). Es publiquen directament a estudis-arxiu.js, mai a estudis.js."""
+    return darrera_veu_civicai(path, "IA_ESTUDIS_ARXIU")
 
 
 def darrera_veu_empresa(path: Path = Path("public/empresa.js")) -> dict:
@@ -597,6 +607,14 @@ def main() -> int:
         peces.append((Path("public/tribuna-arxiu.js"), "tribuna", ("title", "excerpt", "body"), veu))
     elif veu:
         print("AVÍS: la darrera veu de CIVICAi té la mateixa data que la tribuna vigent; no se'n fa l'àudio.")
+    # L'estudi de CIVICAi més recent (16.10.2026) va amb el prefix «estudi», perquè
+    # estudi.html busca l'MP3 per data (estudi-AAAA-MM-DD.mp3). Si coincidís el
+    # mateix dia que l'estudi vigent, es salta (els dos MP3 es trepitjarien).
+    estudi_veu = darrer_estudi_civicai()
+    if estudi_veu and data_iso(str(estudi_veu.get("date", ""))) != data_iso(str(llegeix_ia_js(Path("public/estudis.js")).get("date", ""))):
+        peces.append((Path("public/estudis-arxiu.js"), "estudi", ("title", "abstract", "body"), estudi_veu))
+    elif estudi_veu:
+        print("AVÍS: el darrer estudi de CIVICAi té la mateixa data que l'estudi vigent; no se'n fa l'àudio.")
     empresa = darrera_veu_empresa()
     if empresa:
         peces.append((Path("public/empresa.js"), "empresa", ("title", "excerpt", "body"), empresa))
