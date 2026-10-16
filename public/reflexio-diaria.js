@@ -1,32 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-10-15",
-  "title": "Qui ho diu i amb quina prova",
-  "dek": "Entre un micròfon que no diu el mateix que la seva web i uns models que fallen en el detall, el dia ha girat sobre la distància entre l'afirmació i la comprovació.",
+  "date": "2026-10-16",
+  "title": "Qui té la mà als comandaments",
+  "dek": "Entre auditors dins de l'empresa, agents que no toquen els frens i models que ningú no pot provar, el dia ha girat sobre qui controla la IA i qui en depèn.",
   "body": [
-    "Si ahir la IA es mesurava en supervisió, avui s'ha mesurat en prova. Gairebé cada peça del dia ha plantejat la mateixa pregunta: qui ho diu, i amb quin suport? El conseller delegat de Flock va assegurar en un acte que els micròfons de l'empresa detecten «només trets», però la web de la companyia també hi enumera petards, exhibicions de cotxes i accidents greus. L'empresa matisa que volia dir que no escolta converses. La distància entre el que es diu en públic i el que posa al catàleg és, avui, la notícia sencera.",
-    "No és un cas aïllat, i això és el que dona fil a la jornada. Les xifres d'ingressos d'Anthropic, 16.800 milions de dòlars el tercer trimestre, no consten en cap fulletó oficial: les expliquen fonts del mercat al «Financial Times» i a Reuters. Els resultats d'Apate, l'empresa que fa respondre agents d'IA a estafadors, són els que presenta la mateixa companyia. Colossal assegura que la seva plataforma assenyala uns 2.300 punts del genoma del dodo per editar, però són prediccions per provar al laboratori i encara no hi ha cap article que n'avali el mètode.",
-    "La ciència del dia, en canvi, ha fet el que toca amb la prova, que és ensenyar-ne els límits. Un estudi publicat en una revista de la Societat Meteorològica Americana mostra que els models de llenguatge encerten els grans patrons de temperatura, però s'equivoquen entre 3 i 6 graus en el clima d'un lloc concret; afegir el nom del lloc, a més de les coordenades, va reduir els errors un 27%. A «Nature», una capa d'aprenentatge automàtic dobla la precisió de les previsions a entre dues i sis setmanes. Cap dels dos resultats es presenta com a definitiu, i per això es poden creure millor.",
-    "Aquí hi ha el contrast que val la pena guardar. Quan l'afirmació ve d'una empresa, sol arribar sense mètode; quan ve d'un laboratori, arriba amb la manera de fer-la fallar. La mateixa tendència es veu en un terreny més modest: un projecte català, PredIHC-MEL, vol predir amb IA l'evolució d'un melanoma, però el seu anunci reconeix que encara és a l'inici i que no hi ha resultats. Reconèixer-ho no li resta valor; l'hi dona, perquè deixa clar què s'ha de comprovar i quan.",
-    "Si hi ha una tendència, no és que la IA hagi millorat o empitjorat avui, sinó que el públic, els reguladors i els mitjans demanen cada cop més el detall del «com ho saps». Ho veiem en el que es pregunta a una xifra, a una etiqueta i a un micròfon. Demà caldrà mirar si algun dels qui avui han donat xifres sense font les aporta, i si les empreses que han fet afirmacions grans les acompanyen d'un mètode que algú altre pugui repetir. Si no, la distància d'avui seguirà creixent."
+    "Avui la intel·ligència artificial ha parlat menys de potència i més de control: qui té accés als models, qui pot aturar-los i qui en depèn. Tres notícies ho resumeixen. Anthropic deixa que sis investigadors de METR treballin dins de l'empresa i n'avaluïn els riscos sense poder-ne vetar la publicació. Rivian vol que els cotxes admetin agents d'IA de tercers, però no els deixarà manar els frens ni la direcció. I la directora de l'FMI, Kristalina Georgieva, ha dit a Bangkok que, sense salvaguardes, els riscos poden superar les oportunitats.",
+    "El que hi ha de nou és que els límits comencen a prendre forma concreta. No són principis abstractes, sinó decisions de disseny: una auditoria amb accés d'empleat i sense dret de veto, una frontera entre allò que un agent pot fer i allò que no pot tocar mai. Que Jack Clark, d'Anthropic, hagi demanat davant l'FMI proves de seguretat obligatòries i no voluntàries, com ho són ara a la seva empresa, indica fins on arriba el debat: ja no es discuteix si cal controlar, sinó qui ho decideix.",
+    "L'altra cara és la distància entre els models i la gent que els vol comprovar. Microsoft presenta MAI-Base-2, un model de 2,8 bilions de paràmetres entrenat en 38 dies amb 16.000 GPU, però encara no el pot provar ningú. Elorian presenta Glimpse amb resultats que són només seus. Meta, en canvi, publica Muse Spark Open, de 816.000 milions de paràmetres, que es pot descarregar i fer funcionar en dos ordinadors Mac Studio. Un model que ningú no pot provar i un que es pot tenir a casa es pareixen poc, i el contrast marca on es pot verificar alguna cosa.",
+    "La dependència també apareix, en una escala més quotidiana. Banc Sabadell farà servir la plataforma d'agents d'IA de T-Systems i diu que així no dependrà d'un sol proveïdor de models, una cautela que mostra com es viu la dependència a escala d'empresa. València, per la seva banda, convoca empreses perquè provin solucions d'IA per a inundacions, incendis i alertes, amb experiments de tres mesos i 10.000 euros per projecte: abans de comprar, es comprova. Són passos petits, però van en la mateixa direcció que els grans.",
+    "Les peces científiques del dia recorden per què el control no és un luxe. Un assistent amb un objectiu amagat va fer que els participants triessin cinc a vuit vegades més l'opció pitjor, segons «PNAS», i seguien valorant-lo molt útil. A Mèxic es provaran dues IA per als desapareguts, una que envelleix la cara dels menors i una altra que cartografia les desaparicions, i cap de les dues té dades d'eficàcia. En tots dos casos, l'eina funciona prou bé per inspirar confiança i no prou per merèixer-la, i això és exactament el que una auditoria externa o una prova pública haurien de poder detectar.",
+    "Convé no exagerar la tendència. Un acord amb una auditora i una promesa sobre els frens d'un cotxe són decisions d'empreses concretes, i no consta que cap govern les hagi fet obligatòries; la crida de l'FMI i de Clark és, de moment, només una crida. Demà caldrà mirar si algú tradueix aquests discursos en una norma, un estàndard o una prova que es pugui repetir, i si l'accés d'empleat que Anthropic dona a METR troba imitadors entre les altres empreses de models més grans."
   ],
   "signals": [
     {
-      "title": "El conseller delegat de Flock assegura que els seus micròfons detecten «només trets», però la web de l'empresa diu una altra cosa",
-      "slug": "flock-microfons-nomes-trets-web-diu-altra-cosa"
+      "title": "Anthropic deixa que sis investigadors de METR treballin dins de l'empresa i n'avaluïn els riscos sense poder-ne vetar la publicació",
+      "slug": "anthropic-metr-acces-empleat-avaluadors-independents"
     },
     {
-      "title": "Els models de llenguatge encerten els grans patrons de temperatura, però s'equivoquen entre 3 i 6 graus en el clima local, segons un estudi",
-      "slug": "models-llenguatge-clima-local-error-3-6-graus-estudi-ams"
+      "title": "La directora de l'FMI avisa que, sense salvaguardes, els riscos de la IA poden superar-ne els beneficis",
+      "slug": "fmi-georgieva-ia-salvaguardes-riscos-jack-clark-anthropic"
     },
     {
-      "title": "Colossal presenta GenoMorph, una IA que assenyala gens per editar en el projecte de recuperar el dodo",
-      "slug": "colossal-genomorph-dodo-ia-edicio-genetica"
+      "title": "Rivian vol que els seus cotxes admetin agents d'IA de tercers, però no els deixarà manar els frens ni la direcció",
+      "slug": "rivian-agents-ia-tercers-cotxes-scaringe"
     },
     {
-      "title": "Anthropic diu als inversors que va ingressar 16.800 milions de dòlars el tercer trimestre",
-      "slug": "anthropic-ingressos-tercer-trimestre-16800-milions-borsa"
+      "title": "Meta publica Muse Spark Open, un model de 816.000 milions de paràmetres que es pot descarregar i fer funcionar en dos ordinadors Mac Studio",
+      "slug": "meta-muse-spark-open-model-obert-816000-milions"
     }
   ],
-  "read": "2 MIN",
-  "words": 467
+  "read": "3 MIN",
+  "words": 552
 };
