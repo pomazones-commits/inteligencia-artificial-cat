@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-16T16:16:23.655Z",
+ "actualitzat": "2026-10-16T19:43:44.011Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "1b615cbe0f82",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Amazon lanza dos accesorios de Bee con IA para recordar conversaciones y tareas del día a día",
+   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-10-16/bee-frontier-bee-eclipse-amazon.html",
+   "publicat": "2026-10-16T19:30:00.000Z"
+  },
+  {
+   "id": "b7f46664e1f9",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Benidorm se convierte en banco de pruebas para la aplicación de la IA en la medición de la huella hídrica",
+   "url": "https://www.informacion.es/economia/2026/10/16/benidorm-convierte-banco-pruebas-huella-hidrica-hoteles-135370003.html",
+   "publicat": "2026-10-16T18:46:10.000Z"
+  },
+  {
+   "id": "4236dc996a2b",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Amazon presenta dos curiosos dispositius d'IA per utilitzar en el dia a dia",
+   "url": "https://www.elnacional.cat/ca/tecnologia/amazon-presenta-dos-curiosos-dispositius-ia-utilitzar-en-dia-dia_1710868_102.html",
+   "publicat": "2026-10-16T18:00:00.000Z"
+  },
+  {
+   "id": "0e0b82a74f7e",
+   "mitja": "Diari de Terrassa",
+   "font": "diarideterrassa",
+   "icona": "/assets/premsa/diari-de-terrassa.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Has incorporat ChatGPT a la teva empresa, però ha canviat realment res?",
+   "url": "https://www.diarideterrassa.com/opinio/has-incorporat-chatgpt-a-la-teva-empresa-pero-ha-canviat-realment-res.html",
+   "publicat": "2026-10-16T17:36:57.000Z"
+  },
+  {
+   "id": "43c724d7778f",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El impacto académico de la inteligencia artificial centra la inauguración del curso del CESAG",
+   "url": "https://www.ultimahora.es/noticias/local/2026/10/16/2730515/impacto-academico-inteligencia-artificial-centra-inauguracion-del-curso-del-cesag.html",
+   "publicat": "2026-10-16T17:01:00.000Z"
+  },
   {
    "id": "2dfeb69b0bbd",
    "mitja": "El Nacional",
