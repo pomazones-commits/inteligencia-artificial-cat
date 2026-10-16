@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-16T15:01:40.516Z",
+ "actualitzat": "2026-10-16T16:16:23.655Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "2dfeb69b0bbd",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Apple i Meta s'alien per sorpresa per executar Muse AI als Mac més potents",
+   "url": "https://www.elnacional.cat/ca/tecnologia/apple-meta-alien-sorpresa-executar-muse-ai-mac-mes-potents_1710808_102.html",
+   "publicat": "2026-10-16T16:00:00.000Z"
+  },
+  {
+   "id": "831b414324a1",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El CESAG inaugura su 52º curso académico con la inteligencia artificial como protagonista",
+   "url": "https://www.diariodemallorca.es/mallorca/2026/10/16/cesag-inaugura-52o-curso-academico-135424566.html",
+   "publicat": "2026-10-16T15:43:30.000Z"
+  },
+  {
+   "id": "23d229346073",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Se descontrola una nueva flota de agentes de IA: los pillan intentando extraer datos de la app de mapas china Amap",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/16/2730381/descontrola-nueva-flota-agentes-pillan-intentando-extraer-datos-app-mapas-china-amap.html",
+   "publicat": "2026-10-16T15:37:02.000Z"
+  },
   {
    "id": "2fa20aefe4cd",
    "mitja": "Cinco Días",
@@ -78,7 +111,9 @@
    "ambit": "catala",
    "titol": "L'FMI, en alerta per la IA: \"Sense salvaguardes, el risc pot superar les oportunitats\"",
    "url": "https://www.ara.cat/economia/tecnologia/l-fmi-alerta-ia-salvaguardes-risc-pot-superar-oportunitats_1_5880840.html",
-   "publicat": "2026-10-16T11:42:30.000Z"
+   "publicat": "2026-10-16T11:42:30.000Z",
+   "noticia": "fmi-georgieva-ia-salvaguardes-riscos-jack-clark-anthropic",
+   "noticiaTitol": "La directora de l'FMI avisa que, sense salvaguardes, els riscos de la IA poden superar-ne els beneficis"
   },
   {
    "id": "40e7cd6768c0",
@@ -122,7 +157,9 @@
    "ambit": "catala",
    "titol": "Empresas | València busca startups para probar soluciones de inteligencia artificial aplicadas a emergencias",
    "url": "https://valenciaplaza.com/valenciaplaza/empresas1/valencia-busca-startups-para-probar-soluciones-de-inteligencia-artificial-aplicadas-a-emergencias",
-   "publicat": "2026-10-16T09:18:13.000Z"
+   "publicat": "2026-10-16T09:18:13.000Z",
+   "noticia": "valencia-govtech-challenges-ia-emergencies-citcom-ai",
+   "noticiaTitol": "València busca empreses que provin solucions d'IA per a inundacions, incendis i alertes a la ciutadania, amb 10.000 euros per projecte"
   },
   {
    "id": "b82c464d2e38",
