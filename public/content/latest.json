@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-15T16:13:37.275Z",
+  "updatedAt": "2026-10-16T04:14:42.327Z",
   "items": [
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Anthropic obre una oficina a Singapur i signa un memoràndum amb el Govern per cooperar en seguretat i adopció de la IA",
-      "excerpt": "L'acord, signat durant la Setmana Internacional de la Ciberseguretat de Singapur, preveu intercanvis tècnics sobre avaluació de models, ajuda a les pimes i formació de funcionaris. Les xifres d'ús que acompanyen l'anunci són de la mateixa companyia."
+      "title": "Meta publica Muse Spark Open, un model de 816.000 milions de paràmetres que es pot descarregar i fer funcionar en dos ordinadors Mac Studio",
+      "excerpt": "Els pesos del model es poden baixar i són gratuïts per a molts desenvolupadors, però amb una llicència pròpia de Meta amb condicions comercials limitades. El text de presentació no dona puntuacions de capacitat: les remet a un informe que arribarà «aviat»."
     },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Google estrena als Estats Units el Universal Cart, un carret de la compra comú per a la Cerca i Gemini",
-      "excerpt": "L'eina, anunciada al maig, desa productes de diverses botigues, avisa dels descomptes i de la tornada a l'estoc i es lliga al protocol de comerç obert que Google va presentar aquest any."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "El BSC AI Factory obre un programa d'acceleració de 14 setmanes per a 100 empreses emergents d'IA",
-      "excerpt": "El centre de Barcelona posa 2,3 milions d'euros i l'accés al MareNostrum 5 a disposició de projectes avançats de tot Espanya. Les sol·licituds es poden presentar fins al 9 de novembre."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una IA que dissenya cristalls genera més estructures estables si també aprèn la informació electrònica de cada àtom, segons un estudi",
-      "excerpt": "Un equip de la Universitat de Tòquio ha ampliat el model MatterGen perquè proposi alhora l'estructura i el comportament dels electrons. L'estudi és a «npj Computational Materials», però la nota de premsa no dona xifres."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una eina d'IA deixa preguntar en llenguatge corrent a les dades d'un estudi científic, però només encerta entre el 62% i el 67% de les respostes",
-      "excerpt": "Investigadors del centre alemany TIB vinculen cada pregunta al conjunt de dades d'una troballa concreta per evitar que la IA consulti les dades equivocades. Les actes del congrés on es publica el treball són revisades, però la nota no detalla la mostra d'avaluació."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Anthropic adverteix que models d'IA petits podrien copiar-se sols per televisors i electrodomèstics barats abans d'acabar l'any",
-      "excerpt": "L'equip de Frontier Red Team de la companyia ha fet funcionar un model en 15 capses de televisor Android de 55 dòlars. Els autors admeten que la part del pirateig l'han fet deliberadament fàcil, de manera que els resultats marquen un límit superior."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "El conseller delegat de Flock assegura que els seus micròfons detecten «només trets», però la web de l'empresa diu una altra cosa",
-      "excerpt": "En un acte de TechCrunch, Garrett Langley va defensar que el sistema d'àudio no fa res més. La web enumera també petards, exhibicions de cotxes i accidents greus. L'empresa matisa que volia dir que no escolta converses."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una capa d'aprenentatge automàtic dobla la precisió de les previsions del temps a entre dues i sis setmanes, segons un estudi a «Nature»",
-      "excerpt": "L'eina corregeix els errors d'un model meteorològic ja existent i, segons els autors, és la primera que supera la mitjana climàtica en aquest termini. Un dels autors diu que hi ha oficines meteorològiques, com la de Kènia, interessades a fer-la servir."
+      "title": "Microsoft presenta MAI-Base-2, un model de 2,8 bilions de paràmetres entrenat en 38 dies amb 16.000 GPU, però encara no el pot provar ningú",
+      "excerpt": "La companyia diu que és entre 4 i 12 vegades més eficient en càlcul d'entrenament que el DeepSeek-V4-Pro-Base. El model és a la fase final de preparació i només es llicenciarà a socis de confiança."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Els models de llenguatge encerten els grans patrons de temperatura, però s'equivoquen entre 3 i 6 graus en el clima local, segons un estudi",
-      "excerpt": "La recerca, publicada en una revista de la Societat Meteorològica Americana, va preguntar a diversos models pel clima de llocs concrets. Afegir-hi el nom del lloc, a més de les coordenades, va reduir els errors un 27%."
+      "title": "Una IA que llegeix el teixit d'un tumor explica per què algunes cèl·lules immunitàries hi entren i d'altres no, segons un estudi a «Nature Biomedical Engineering»",
+      "excerpt": "L'eina SPACER, de l'MD Anderson, va ser entre 4 i 21 vegades més eficaç que els mètodes actuals en 37 conjunts de dades de càncer. Les troballes sobre les mucines i la miocarditis són associacions i encara s'han de provar al laboratori."
     },
     {
-      "category": "SOCIETAT",
-      "read": "5 MIN",
-      "title": "Anthropic detalla com limitarà Claude abans de les eleccions dels EUA: només el 0,01% de les converses preguntava a qui votar",
-      "excerpt": "La companyia ha analitzat 250.000 converses de Claude.ai i anuncia enllaços a informació electoral oficial, nous detectors d'usos coordinats i dos casos de comptes vetats per fabricar notícies falses amb Claude."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Nvidia donarà 250 milions de dòlars en capacitat de càlcul a la recerca en seguretat d'IA al Regne Unit",
-      "excerpt": "La donació, repartida en cinc anys, no és en diners sinó en accés a màquines, i va a grups d'Oxford, UCL i l'Imperial College. Bloomberg afegeix un pla d'inversions a Europa que Nvidia encara no ha confirmat."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Ubesol invertirà uns 115 milions d'euros en una fàbrica de Cocentaina amb IA i robòtica",
-      "excerpt": "El grup d'higiene personal, amb seu a la Comunitat Valenciana, vol una planta amb magatzem robotitzat, bessó digital i uns 200 llocs de treball qualificats. Les primeres línies arrencaran a mitjan 2027."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Figma vol que els agents d'IA segueixin les normes de disseny de cada empresa i estrena un editor d'especificacions",
-      "excerpt": "En el primer Config celebrat a l'Índia, la companyia presenta «Specs», un editor on es defineix el llenguatge de disseny, i obre en beta pública les capes de codi."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Una empresa australiana fa que agents d'IA es facin passar per víctimes per fer perdre el temps als estafadors",
-      "excerpt": "Apate respon trucades i missatges fraudulents amb personatges falsos i lliura als clients dades dels estafadors. Els resultats que presenta són de la mateixa companyia."
-    },
-    {
-      "category": "BIOTECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Colossal presenta GenoMorph, una IA que assenyala gens per editar en el projecte de recuperar el dodo",
-      "excerpt": "La plataforma ha identificat uns 2.300 punts candidats a editar, però són prediccions per provar al laboratori. De moment no hi ha cap article científic que n'avali el mètode."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Anthropic diu als inversors que va ingressar 16.800 milions de dòlars el tercer trimestre, un 45% més, a les portes de la borsa",
-      "excerpt": "Segons el «Financial Times» i Reuters, la companyia també assegura que va tenir beneficis ajustats. Les xifres no consten en cap fulletó oficial: les expliquen fonts del mercat."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Vuit estats nord-americans demanden OpenAI i l'acusen de perjudicar els menors amb ChatGPT",
-      "excerpt": "Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska i Virgínia Occidental han presentat demandes separades als tribunals estatals. OpenAI encara no ha respost."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una xarxa que parteix de connexions a l'atzar s'organitza sola i aprèn a classificar imatges, segons un estudi del MIT a «PNAS»",
-      "excerpt": "El treball, publicat el 9 d'octubre, diu que el sistema arriba a un nivell semblant al de les xarxes entrenades amb retropropagació. Els autors avisen que això no vol dir que el cervell aprengui així."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "YouTube Music etiquetarà les cançons fetes amb IA generativa, i Deezer prepara un botó per amagar-les",
-      "excerpt": "Les plataformes de música competeixen per tractar l'allau de temes generats amb IA: YouTube posa l'accent en la transparència i Deezer deixarà que l'usuari les esborri de les cerques."
-    },
-    {
-      "category": "SALUT",
+      "category": "ECONOMIA",
       "read": "3 MIN",
-      "title": "Oncolliga Lleida finança un projecte de l'IRBLleida que vol predir amb IA com evolucionarà un melanoma des del diagnòstic",
-      "excerpt": "El projecte PredIHC-MEL farà servir aprenentatge automàtic amb dades que ja es recullen a l'assistència habitual. Encara és a l'inici: no hi ha resultats."
+      "title": "Banc Sabadell farà servir la plataforma d'agents d'IA de T-Systems i diu que així no dependrà d'un sol proveïdor de models",
+      "excerpt": "L'acord amb la filial de Deutsche Telekom vol permetre que el banc estengui els agents d'IA a més processos i entitats del grup amb un mateix marc de seguretat. El comunicat no n'explica ni l'import, ni els terminis, ni els casos d'ús."
+    },
+    {
+      "category": "ECONOMIA",
+      "read": "3 MIN",
+      "title": "TSMC factura 46.720 milions de dòlars el tercer trimestre, un 41% més que fa un any, i preveu que el quart en sigui més alt",
+      "excerpt": "El principal fabricant de xips per encàrrec guanya 763.060 milions de dòlars taiwanesos i veu com la tecnologia de 2 nanòmetres ja pesa un 8% de les obleas. El comunicat parla de «forta demanda» però no separa quina part és d'IA."
     }
   ]
 }
