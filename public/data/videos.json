@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-15T19:25:14.118Z",
+ "actualitzat": "2026-10-16T04:15:21.122Z",
  "canals": 19,
  "videos": [
   {
@@ -85,7 +85,10 @@
    "idioma": "en",
    "publicat": "2026-10-14T17:01:36.000Z",
    "descripcio": "Josh Woodward, Melvin Johnson, Sergey Brin, and Tulsee Doshi from Google DeepMind join host Logan Kilpatrick to introduce Gemini 4 Argon. Their conversation covers what made this release possible and how 100,000 Googlers tested the model before launch. They also discuss industry-leading one million ",
-   "miniatura": "/assets/videos/Jh6mgf9M06M.jpg"
+   "miniatura": "/assets/videos/Jh6mgf9M06M.jpg",
+   "noticia": "gemini-4-argon-obertura-desenvolupadors-empreses",
+   "noticiaTitol": "ACTUALITZACIÓ: Google obre Gemini 4 Argon als desenvolupadors i al públic de pagament, amb un preu d'estrena que es doblarà el 30 de novembre",
+   "resum": "Vídeo de Google for Developers titulat «Gemini 4 Argon: What's new and what's next», publicat el 14 d'octubre de 2026, que repassa les novetats del model i el que preveu fer la companyia a continuació. Resum fet a partir del títol i de la descripció; no s'ha vist el vídeo."
   },
   {
    "id": "rBN0PDfJWIc",
@@ -560,18 +563,6 @@
    "publicat": "2026-09-25T16:00:04.000Z",
    "descripcio": "Learn how per-layer embeddings, or PLE, work in Gemma 4 E2B and E4B, Google's open source language model. Google DeepMind’s Maarten Grootendorst breaks down how PLE gives each token a layer-specific embedding for more diverse representation, boosting model performance without increasing the paramete",
    "miniatura": "/assets/videos/s82Ho5HdltE.jpg"
-  },
-  {
-   "id": "-G431WC_-RM",
-   "titol": "The next generation of voice AI with Google DeepMind and Sierra AI",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-09-24T23:02:25.000Z",
-   "descripcio": "Valeria Wu (Google DeepMind) and Soham Ray (Sierra AI) explore the latest advances in native audio models and the challenges of building better real-time voice experiences. They discuss conversational latency, multilingual code-switching, agentic voice tasks, and how new benchmarks can better measur",
-   "miniatura": "/assets/videos/-G431WC_-RM.jpg"
   }
  ]
 }
