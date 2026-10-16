@@ -1577,3 +1577,24 @@ test('Veus de CIVICAi: mai a la tribuna vigent, arxiu per data i àudio de la da
   assert.equal(py.status, 0, py.stderr);
   assert.equal(py.stdout.trim(), 'V2');
 });
+
+test('Veus de CIVICAi: també els estudis dels membres, a la portada i en àudio (16.10.2026)', () => {
+  const arrel = resolve(import.meta.dirname, '..', '..');
+  const app = readFileSync(join(arrel, 'public', 'app.js'), 'utf8');
+  // La banda llegeix també estudis-arxiu.js i calcula l'adreça amb el tipus de cada peça.
+  assert.match(app, /loadScript\('\.\/estudis-arxiu\.js'\)/);
+  assert.match(app, /origen\.set\(t, \{ tipus: 'estudis', llista: llistaEstudis \}\)/);
+  assert.match(app, /window\.IAPeces\.cami\(lloc\.tipus, peca, lloc\.llista\)/);
+  assert.match(app, /peca\.excerpt \|\| peca\.abstract/);
+  // genera_audio.py fa l'àudio del darrer estudi de CIVICAi de estudis-arxiu.js.
+  const py = spawnSync('python3', ['-c', [
+    'import importlib.util, json, sys, tempfile, pathlib',
+    `spec = importlib.util.spec_from_file_location("g", ${JSON.stringify(join(arrel, 'automation', 'scripts', 'genera_audio.py'))})`,
+    'g = importlib.util.module_from_spec(spec); spec.loader.exec_module(g)',
+    'd = pathlib.Path(tempfile.mkdtemp()) / "e.js"',
+    'd.write_text("/* arxiu */\\nwindow.IA_ESTUDIS_ARXIU = " + json.dumps([{"date":"20.10.2026","title":"E0"},{"date":"18.10.2026","title":"E1","serie":"veus-de-civicai"},{"date":"03.10.2026","title":"E2","serie":"veus-de-civicai"}]) + ";\\n", encoding="utf-8")',
+    'print(g.darrer_estudi_civicai(d).get("title"))',
+  ].join('\n')], { encoding: 'utf8' });
+  assert.equal(py.status, 0, py.stderr);
+  assert.equal(py.stdout.trim(), 'E1');
+});
