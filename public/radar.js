@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Lleida",
+    "category": "IA I SOCIETAT",
+    "date": "16.10.2026",
+    "title": "Ingroup compra els actius de BCN3D i obrirà a Lleida una fàbrica d'impressores 3D amb IA que s'ordenen de viva veu",
+    "summary": "El grup lleidatà ha invertit més de dos milions d'euros al polígon Activa Park, preveu 30 llocs de treball i presentarà les màquines al Formnext de Frankfurt al novembre.",
+    "detail": "BCN3D Technologies, fabricant d'impressores 3D amb fàbrica a Gavà, va demanar el concurs de creditors el maig del 2025 per un endeutament excessiu. Ingroup, un grup empresarial de Lleida que treballa en fabricació additiva des del 2015 com a distribuïdor i desenvolupador de programari, n'ha comprat els actius per fer el salt a fabricant.\n\nSegons El Nacional, Ingroup ha invertit més de dos milions d'euros en les instal·lacions i en la compra dels actius de BCN3D. La fàbrica serà al polígon Activa Park de Lleida i, segons el seu conseller delegat, Joan Folguera, serà la primera de Catalunya amb IA integrada i la segona de l'Estat. El responsable de planta, Francesc Adell, preveu crear 30 llocs de treball i fabricar entre 30 i 35 màquines de format petit al mes, d'uns 3.500 a 4.000 euros, i entre 8 i 10 d'Omega, de format gran, d'uns 22.000 euros.\n\nLa part d'IA és que la màquina entén les instruccions que l'operari li dicta de viva veu, crea el model digital de la peça i la fabrica, de manera que es redueix el temps entre la idea i l'objecte acabat. Folguera la compara amb una màquina expenedora autònoma i diu que són les úniques impressores d'Europa amb IA nativa. Unes vint empreses ja en fan proves de concepte i el sistema es presentarà oficialment al Formnext de Frankfurt, al novembre. S'adreça sobretot a la indústria de procés i als departaments d'enginyeria de producte, per fer prototips, recanvis a demanda i eines pròpies de muntatge. El projecte compta amb el suport del Departament de la Presidència de la Generalitat.\n\nLes xifres de producció, de preu i el caràcter pioner de la fàbrica són afirmacions de l'empresa que la crònica no contrasta amb cap font independent. Tampoc no detalla quin model d'IA fa servir la màquina ni com es comporta davant d'ordres ambigües, i queda per veure si la demanda justifica el ritme de producció previst un cop passin les proves de concepte.",
+    "source": "El Nacional",
+    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/ingroup-compra-actius-bcn3d-fabricara-impressores-3d-ia-integrada_1710106_102.html",
+    "image": "./assets/ingroup-bcn3d-impressores-3d-ia-lleida-20261016.jpg",
+    "slug": "ingroup-bcn3d-impressores-3d-ia-lleida"
+  },
+  {
     "place": "Sabadell",
     "category": "IA I SOCIETAT",
     "date": "16.10.2026",
@@ -75,15 +87,5 @@ window.IA_RADAR = [
     "source": "Diari de Sabadell",
     "url": "https://www.diaridesabadell.com/diners/indra-group-qilimanjaro.html",
     "image": "./assets/indra-qilimanjaro-10-milions-quantica-ia-20261014.jpg"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "14.10.2026",
-    "title": "ACTUALITZACIÓ: El BBVA, primer banc europeu a unir-se a Poppy, el protocol de Sierra i Meta perquè els agents d'IA parlin amb les empreses",
-    "summary": "El projecte ja té 35 socis de disseny i vol que un agent pugui identificar-se, mostrar els permisos de l'usuari i connectar-se als serveis d'una empresa.",
-    "detail": "El 7 d'octubre es va informar que Sierra i Meta proposaven un estàndard obert perquè els agents d'IA personals puguin identificar-se davant les empreses. La novetat és que ara hi entra un banc espanyol.\n\nSegons El Nacional, el BBVA s'ha afegit a la iniciativa Personal Agent Protocol, anomenada Poppy, i és el primer banc europeu que ho fa. Poppy té 35 socis de disseny, entre empreses tecnològiques, financeres i de comerç electrònic. L'objectiu és que un agent faci tasques per a l'usuari amb la seva autorització i el seu control: el protocol identifica l'agent, desa els permisos que li dona l'usuari i li permet comunicar-se amb els serveis de l'empresa, ja sigui navegant per la web, per API o amb altres agents. Es basa en estàndards ja existents (OAuth, HTTPS, OpenAPI i MCP), de manera que les empreses poden aprofitar la infraestructura que tenen.\n\nDavid Puente, responsable de Solucions per a Clients Particulars del BBVA, diu que «la seguretat ha d'estar en el centre de les interaccions entre agents d'IA i serveis digitals» i que la participació del banc ha d'ajudar a definir nous models d'interacció i a explorar-ne l'ús en futurs serveis financers.\n\nDe moment és una adhesió a un projecte de disseny d'un protocol, no un servei en marxa: l'article no diu quan els clients del BBVA podran usar agents amb aquest sistema ni quins serveis concrets hi sortiran.",
-    "source": "El Nacional",
-    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/bbva-uneix-sierra-ai-meta-connectar-agents-ia-empreses_1709002_102.html"
   }
 ];
