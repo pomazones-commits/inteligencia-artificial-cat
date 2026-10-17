@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-17T04:13:50.814Z",
+ "actualitzat": "2026-10-17T08:14:52.477Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "062283e763bc",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic plantea una ley sobre IA que otorga a un juez potestad de bloquear un modelo peligroso",
+   "url": "https://www.elperiodico.com/es/internacional/20261017/anthropic-plantea-ley-ia-otorga-juez-potestad-bloquear-modelo-peligroso-135439195",
+   "publicat": "2026-10-17T07:55:47.000Z"
+  },
+  {
+   "id": "502ac6fba426",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Corea del Norte prueba un nuevo sistema de torpedos guiados por IA en medio de nuevas tensiones con SeÃºl",
+   "url": "https://www.elperiodico.com/es/internacional/20261017/corea-norte-prueba-nuevo-sistema-torpedos-guiado-ia-135439154",
+   "publicat": "2026-10-17T07:42:07.000Z"
+  },
+  {
+   "id": "b92e9c2546ce",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Corea del Norte prueba un nuevo sistema de torpedos guiados por IA en medio de nuevas tensiones con Seúl",
+   "url": "https://www.diariodemallorca.es/internacional/2026/10/17/corea-norte-prueba-nuevo-sistema-torpedos-guiado-ia-135439149.html",
+   "publicat": "2026-10-17T07:42:07.000Z"
+  },
+  {
+   "id": "91cc0b2778dd",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Meta permite que su IA practique ‘sexting’ con los usuarios: “Muse no bloquea los comportamientos legales propios de adultos”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261017/11660620/meta-permite-ia-practique-sexting-usuarios-muse-bloquea-comportamientos-legales-propios-adultos.html",
+   "publicat": "2026-10-17T06:00:00.000Z"
+  },
+  {
+   "id": "227523151ee6",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El funcionario del futuro trabajará con IA, no contra ella",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261017/11653193/funcionario-futuro-trabajara-ia.html",
+   "publicat": "2026-10-17T05:26:23.000Z"
+  },
   {
    "id": "8bbd900230f1",
    "mitja": "La Vanguardia",
@@ -13,6 +68,17 @@
    "titol": "Miguel Ángel Jenner, actor de doblaje: “La IA es un monstruo de cien cabezas; no le venderé mi alma al diablo y me llevaré mi voz a la tumba”",
    "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261017/11656074/miguel-angel-jenner-actor-doblaje-ia-monstruo-cien-cabezas-le-vendere-mi-alma-diablo-me-llevare-mi-voz-tumba.html",
    "publicat": "2026-10-17T04:00:00.000Z"
+  },
+  {
+   "id": "dab5b0f2c9e1",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Microsoft vuelve a los cuatro billones en Bolsa y recupera su papel como uno de los actores principales en la IA",
+   "url": "https://elpais.com/economia/2026-10-17/microsoft-vuelve-a-los-cuatro-billones-en-bolsa-y-recupera-su-papel-como-uno-de-los-actores-principales-en-la-ia.html",
+   "publicat": "2026-10-17T03:15:00.000Z"
   },
   {
    "id": "1b615cbe0f82",
@@ -2386,17 +2452,6 @@
    "titol": "Anthropic admite que su IA envió pistas falsas sobre un homicidio a la policía y rellenó visados de forma autónoma",
    "url": "https://www.eldiario.es/tecnologia/anthropic-admite-ia-envio-pistas-falsas-homicidio-policia-relleno-visados-forma-autonoma_1_13577005.html",
    "publicat": "2026-10-10T08:48:28.000Z"
-  },
-  {
-   "id": "37062e285c07",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nou incident de la IA: un model d’Anthropic envia una pista falsa sobre un homicidi a la policia de Filadèlfia",
-   "url": "https://www.vilaweb.cat/noticies/anthropic-claude-pista-falsa-homicidi-policia-filadelfia",
-   "publicat": "2026-10-10T08:05:30.000Z"
   }
  ]
 }
