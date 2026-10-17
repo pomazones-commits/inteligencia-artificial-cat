@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-17T08:14:05.866Z",
+  "generat": "2026-10-17T12:13:41.243Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -64,7 +64,7 @@
       "programa": "Són 4 dies",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 3
+      "sobre_ia": 2
     },
     {
       "font": "rtve",
@@ -152,11 +152,8 @@
       "font": "wordpress",
       "emissora": "Ràdio Capital de l'Empordà",
       "programa": "Supermatí",
-      "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
-      "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
-      "estat": "ok",
-      "audios": 21,
-      "sobre_ia": 3
+      "estat": "error",
+      "error": "This operation was aborted"
     },
     {
       "font": "wordpress",
