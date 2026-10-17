@@ -1,31 +1,58 @@
 {
   "fitxes": [
     {
-      "id": "rna-1925096",
-      "emissora": "Ràdio Nacional d'Andorra",
-      "programa": "Les coses grans",
-      "programa_url": "https://www.rtva.ad/programes/les-coses-grans",
-      "data": "2026-10-05",
-      "durada": "",
-      "titol": "Convexify, l'empresa andorrana que treballa amb OpenAI",
+      "id": "3cat-1294150",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-17",
+      "durada": "9 min",
+      "titol": "Copilot arriba a 10.000 empleats públics: com canvia la feina a la Generalitat",
       "convidats": [
         {
-          "nom": "Javier Sáez",
-          "rol": "fundador i conseller delegat de Convexify"
+          "nom": "Jaume Miralles",
+          "rol": "director general d'Intel·ligència Artificial de la Generalitat de Catalunya"
         }
       ],
-      "resum": "Una empresa andorrana, Convexify, ha estat nomenada partner d'OpenAI, l'empresa que hi ha darrere de ChatGPT. El seu fundador i conseller delegat, Javier Sáez, en parla a Les coses grans, en una edició que posa la intel·ligència artificial al centre de l'actualitat andorrana.",
+      "resum": "Xantal Llavina parla amb Jaume Miralles del desplegament de 10.000 llicències avançades de Copilot entre els treballadors públics i de la nova política d'ús de la IA a la Generalitat. La conversa se centra en el repte de convertir una estratègia tecnològica en canvis reals en la feina quotidiana de l'administració.",
       "tema": "feina",
-      "url": "https://www.rtva.ad/programes/l-ia-protagonista-a-andorra-les-coses-grans-05-10-2026",
+      "url": "https://www.3cat.cat/3cat/10000-llicencies-avancades-de-copilot-per-als-treballadors-publics/audio/1294150/",
       "reproductor": {
-        "tipus": "enllac"
+        "tipus": "3cat",
+        "id": "1294150"
+      }
+    },
+    {
+      "id": "3cat-1294152",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-17",
+      "durada": "10 min",
+      "titol": "Per on comença una pime que vol fer servir la IA sense gastar de més",
+      "convidats": [
+        {
+          "nom": "Carles Miranda",
+          "rol": "mànager d'Indústria 4.0 i Sostenibilitat d'Acció"
+        },
+        {
+          "nom": "Juan González Fraile",
+          "rol": "cofundador de PickleTech"
+        }
+      ],
+      "resum": "Carles Miranda, d'Acció, repassa els passos previs a incorporar la IA en una pime, els errors que convé evitar i com mesurar-ne els resultats sense inversions innecessàries. Juan González Fraile, cofundador de PickleTech, hi afegeix l'aplicació als productes sanitaris i la fiabilitat, la privacitat i la supervisió humana.",
+      "tema": "feina",
+      "url": "https://www.3cat.cat/3cat/com-incorporar-la-ia-a-una-pime-sense-fer-grans-inversions/audio/1294152/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1294152"
       }
     }
   ],
   "descartats": [
     {
-      "id": "rna-1928399",
-      "motiu": "la IA només surt al títol; la descripció parla d'economia i mercats"
+      "id": "3cat-1294151",
+      "motiu": "programa sencer de 53 minuts amb economia i habitatge; la IA només hi ocupa blocs sense descripció prou detallada, i dos dels blocs ja es recullen en fitxes pròpies"
     }
   ]
 }
