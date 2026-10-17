@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-17T04:37:31.099Z",
+  "generat": "2026-10-17T08:14:05.866Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 20,
+      "audios": 21,
       "sobre_ia": 3
     },
     {
@@ -177,57 +177,5 @@
       "sobre_ia": 2
     }
   ],
-  "candidats": [
-    {
-      "id": "3cat-1294150",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-17",
-      "durada": "9 min",
-      "titol_original": "10.000 llicències avançades de Copilot per als treballadors públics",
-      "descripcio_original": "Parlem del desplegament de 10.000 llicències de Copilot, de la nova política d'ús de la IA a la Generalitat i dels reptes de convertir una estratègia tecnològica en canvis reals en el funcionament de l'administració. Xantal Llavina conversa amb Jaume Miralles, director general d'Intel·ligència Artificial de la Generalitat de Catalunya, per descobrir com la intel·ligència artificial s'incorpora a la feina quotidiana dels empleats públics.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.3cat.cat/3cat/10000-llicencies-avancades-de-copilot-per-als-treballadors-publics/audio/1294150/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1294150"
-      }
-    },
-    {
-      "id": "3cat-1294151",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-17",
-      "durada": "53 min",
-      "titol_original": "Niño-Becerra: \"Abans calien cinc anys de sou per comprar un pis. Ara, més de vuit\"",
-      "descripcio_original": "El \"Revolució 4.0\", presentat i dirigit per Xantal Llavina, arrenca amb la masterclass de l'economista Santiago Niño-Becerra, amb qui analitzem la crisi de l'habitatge i les dificultats creixents per accedir a una vivenda. Parlem de l'augment dels preus, de les perspectives dels joves i de l'impacte de la regulació dels lloguers. També comptem amb Jaume Miralles, director general d'Intel·ligència Artificial de la Generalitat, amb qui descobrim com s'implanta la IA a l'administració pública; Carles Miranda, d'Acció, i Juan González Fraile, de PickleTech i ABCDx, amb qui explorem les aplicacions de la IA a les pimes i als productes sanitaris, i Juanjo Fernández, creador de DIBUPA, que ens explica com el pensament visual pot ajudar-nos a comprendre idees complexes i comunicar millor.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/nino-becerra-abans-calien-5-anys-de-sou-per-comprar-un-pis-ara-mes-de-vuit/audio/1294151/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1294151"
-      }
-    },
-    {
-      "id": "3cat-1294152",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-17",
-      "durada": "10 min",
-      "titol_original": "Com incorporar la IA a una pime sense fer grans inversions?",
-      "descripcio_original": "Parlem dels passos que cal seguir abans d'incorporar la IA a les pimes, dels errors que convé evitar i de com mesurar-ne els resultats amb Carles Miranda, mànager d'Indústria 4.0 i Sostenibilitat d'Acció. Ens explica com les petites i mitjanes empreses poden aprofitar la intel·ligència artificial per ser més competitives sense fer inversions innecessàries. També conversem amb Juan González Fraile, cofundador de PickleTech sobre l'aplicació de la IA als productes sanitaris i la importància de garantir-ne la fiabilitat, la privacitat, la validació i la supervisió humana.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.3cat.cat/3cat/com-incorporar-la-ia-a-una-pime-sense-fer-grans-inversions/audio/1294152/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1294152"
-      }
-    }
-  ]
+  "candidats": []
 }
