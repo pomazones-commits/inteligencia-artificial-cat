@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-17T03:18:20.163Z",
+  "generat": "2026-10-17T03:21:42.281Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -128,8 +128,8 @@
       "programa": "",
       "resultats": 6,
       "estat": "ok",
-      "audios": 4,
-      "sobre_ia": 4
+      "audios": 0,
+      "sobre_ia": 0
     },
     {
       "font": "wordpress",
@@ -160,221 +160,36 @@
     },
     {
       "font": "wordpress",
-      "emissora": "Ràdio Sabadell",
-      "programa": "",
-      "estat": "error",
-      "error": "HTTP 404"
-    },
-    {
-      "font": "wordpress",
-      "emissora": "Ràdio Desvern",
-      "programa": "",
-      "estat": "error",
-      "error": "HTTP 404"
-    },
-    {
-      "font": "wordpress",
       "emissora": "Tarragona Ràdio",
       "programa": "",
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
-      "nota": "font de prova: no proposa candidats",
       "estat": "ok",
       "audios": 17,
-      "sobre_ia": 1,
-      "mostra": [
-        "2026-10-08 · Blau de Prússia: Intel·ligència artificial: qui aprèn de qui? [youtube]"
-      ]
-    },
-    {
-      "font": "wordpress",
-      "emissora": "Mataró Ràdio",
-      "programa": "",
-      "estat": "error",
-      "error": "fetch failed"
-    },
-    {
-      "font": "wordpress",
-      "emissora": "betevé",
-      "programa": "",
-      "estat": "error",
-      "error": "HTTP 401"
-    },
-    {
-      "font": "wordpress",
-      "emissora": "Cugat Ràdio",
-      "programa": "",
-      "estat": "error",
-      "error": "HTTP 404"
-    },
-    {
-      "font": "wordpress",
-      "emissora": "El Prat Ràdio",
-      "programa": "",
-      "estat": "error",
-      "error": "Unexpected token '<', ...\"          <!-- Dev w\"... is not valid JSON"
-    },
-    {
-      "font": "wordpress",
-      "emissora": "Ràdio Vilafranca",
-      "programa": "",
-      "estat": "error",
-      "error": "fetch failed"
-    },
-    {
-      "font": "wordpress",
-      "emissora": "Ona Mediterrània",
-      "programa": "",
-      "estat": "error",
-      "error": "HTTP 404"
-    },
-    {
-      "font": "wordpress",
-      "emissora": "Ràdio Klara",
-      "programa": "",
-      "estat": "error",
-      "error": "HTTP 404"
-    },
-    {
-      "font": "wordpress",
-      "emissora": "Ràdio Arrels",
-      "programa": "",
-      "estat": "error",
-      "error": "HTTP 404"
-    },
-    {
-      "font": "wordpress",
-      "emissora": "Ràdio Silenci",
-      "programa": "",
-      "estat": "error",
-      "error": "HTTP 404"
+      "sobre_ia": 1
     }
   ],
   "candidats": [
     {
-      "id": "apunt-1901997",
-      "emissora": "À Punt Ràdio",
-      "programa": "Cadena de valor",
-      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
-      "data": "2026-10-15",
-      "durada": "",
-      "titol_original": "15.10.2026 | LLUM, intel·ligència artificial per estalviar en electricitat",
-      "descripcio_original": "Héctor Gómez presenta el xatbot valencià que analitza les factures de la llum i detecta possibles estalvis en la tarifa i la potència contractades.",
-      "descripcio_curta": true,
-      "ia_al_titol": true,
-      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/15-10-2026-llum-intel-ligencia-artificial-estalviar-electricitat_135_1901997.html",
-      "reproductor": {
-        "tipus": "enllac"
-      }
-    },
-    {
-      "id": "capital-428751",
-      "emissora": "Ràdio Capital de l'Empordà",
-      "programa": "Supermatí",
-      "programa_url": "https://www.radiocapital.cat/",
-      "data": "2026-10-13",
-      "durada": "",
-      "titol_original": "Noves tecnologies amb IA per acompanyar el final de la vida i el dol",
-      "descripcio_original": "L’acompanyament i la cura de persones amb malalties avançades i el dol després de la mort d’un ésser estimat són processos que requereixen la presència humana, però les solucions tecnològiques amb intel·ligència artificial també hi poden ajudar. Diversos experts, col·laboradors del programa per a l’Atenció Integral a Persones amb Malalties Avançades de la Fundació ”la Caixa”, […]",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.radiocapital.cat/noves-tecnologies-amb-ia-per-acompanyar-el-final-de-la-vida-i-el-dol/",
-      "reproductor": {
-        "tipus": "youtube",
-        "id": "tNmNslWqhZM"
-      },
-      "etiquetes_web": [
-        "Notícies"
-      ]
-    },
-    {
-      "id": "apunt-1901285",
-      "emissora": "À Punt Ràdio",
-      "programa": "L'hora de la cultura",
-      "programa_url": "https://www.apuntmedia.es/programes/l-hora-de-la-cultura/",
-      "data": "2026-10-12",
-      "durada": "",
-      "titol_original": "12.10.2026 | Antonio Albertos: una dècada de cultura digital amb Volumens",
-      "descripcio_original": "El director i comissari artístic presenta una edició que connecta art contemporani, ciència, música electrònica, intel·ligència artificial i experiències immersives.",
-      "descripcio_curta": true,
-      "ia_al_titol": false,
-      "url": "https://www.apuntmedia.es/programes/l-hora-de-la-cultura/clips/12-10-2026-antonio-albertos-una-decada-cultura-digital-volumens_135_1901285.html",
-      "reproductor": {
-        "tipus": "enllac"
-      }
-    },
-    {
-      "id": "apunt-1901719",
-      "emissora": "À Punt Ràdio",
-      "programa": "Cadena de valor",
-      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
-      "data": "2026-10-12",
-      "durada": "",
-      "titol_original": "12.10.2026 | Yurest: tecnologia valenciana per a gestionar restaurants",
-      "descripcio_original": "El creador de Yurest, Marcos Gómez, explica com les dades i la intel·ligència artificial ajuden els restaurants a controlar costos, anticipar la demanda i millorar-ne la rendibilitat.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/12-10-2026-yurest-tecnologia-valenciana-gestionar-restaurants_135_1901719.html",
-      "reproductor": {
-        "tipus": "enllac"
-      }
-    },
-    {
-      "id": "capital-428692",
-      "emissora": "Ràdio Capital de l'Empordà",
-      "programa": "Supermatí",
-      "programa_url": "https://www.radiocapital.cat/",
+      "id": "tgnradio-373034",
+      "emissora": "Tarragona Ràdio",
+      "programa": "",
+      "programa_url": "https://www.tarragonaradio.cat/",
       "data": "2026-10-08",
       "durada": "",
-      "titol_original": "La Cambra de Comerç de Palamós reuneix un centenar d’empresaris amb la ponència del president del Banc Sabadell, Josep Oliu",
-      "descripcio_original": "El president de Banc Sabadell, Josep Oliu, ha participat aquest dijous en una jornada organitzada per la Cambra de Comerç de Palamós. La trobada ha reunit més d’un centenar d’empresaris per abordar la relació entre la banca i les empreses davant els avenços de la intel·ligència artificial. L’acte també ha servit per destacar el creixement de la Cambra els darrers anys.",
+      "titol_original": "Blau de Prússia: Intel·ligència artificial: qui aprèn de qui?",
+      "descripcio_original": "Hi ha tecnologies que necessiten dècades per canviar-nos la vida. I n’hi ha d’altres que sembla que arribin un dimarts qualsevol… i que, quan arriba divendres, ja hagin canviat la manera com treballem, estudiem, escrivim, busquem informació… i fins i tot com pensem. La intel·ligència artificial n’és una. En molt poc temps hem après a […]",
       "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.radiocapital.cat/la-cambra-de-comerc-de-palamos-reuneix-un-centenar-dempresaris-amb-la-ponencia-del-president-del-banc-sabadell-josep-oliu/",
+      "ia_al_titol": true,
+      "url": "https://www.tarragonaradio.cat/blau-de-prussia-intelligencia-artificial-qui-apren-de-qui/",
       "reproductor": {
-        "tipus": "enllac"
+        "tipus": "youtube",
+        "id": "cuCKmRMFAZQ"
       },
       "etiquetes_web": [
-        "Notícies",
-        "Calonge i Sant Antoni",
-        "Palamós"
+        "Podcasts",
+        "Zona Podcast"
       ]
-    },
-    {
-      "id": "capital-428439",
-      "emissora": "Ràdio Capital de l'Empordà",
-      "programa": "Supermatí",
-      "programa_url": "https://www.radiocapital.cat/",
-      "data": "2026-10-06",
-      "durada": "",
-      "titol_original": "Pol Fages: «La tecnologia ha d’ajudar les empreses, no allunyar-les de la banca»",
-      "descripcio_original": "La Cambra de Comerç de Palamós reunirà empresaris i professionals en una jornada sobre banca, intel·ligència artificial i proximitat amb la participació del president del Banc Sabadell, Josep Oliu. Al Supermatí, el president de la Cambra, Pol Fages, ha defensat que la digitalització ha d’anar acompanyada de formació, rigor i, sobretot, tracte humà.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.radiocapital.cat/pol-fages-la-tecnologia-ha-dajudar-les-empreses-no-allunyar-les-de-la-banca/",
-      "reproductor": {
-        "tipus": "enllac"
-      },
-      "etiquetes_web": [
-        "Entrevistes",
-        "Programes"
-      ]
-    },
-    {
-      "id": "apunt-1899278",
-      "emissora": "À Punt Ràdio",
-      "programa": "Cadena de valor",
-      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
-      "data": "2026-10-02",
-      "durada": "",
-      "titol_original": "02.10.2026 | Miguel Florido: el màrqueting digital com a motor empresarial",
-      "descripcio_original": "El director de l’Escola Marketing and Web analitza l’evolució del sector, les oportunitats laborals, l’impacte de la intel·ligència artificial i les novetats del congrés DSM València.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/02-10-2026-miguel-florido-marqueting-digital-motor-empresarial_135_1899278.html",
-      "reproductor": {
-        "tipus": "enllac"
-      }
     }
   ]
 }
