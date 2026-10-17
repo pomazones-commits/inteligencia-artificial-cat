@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-17T02:58:51.026Z",
+  "generat": "2026-10-17T03:00:16.847Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -103,93 +103,25 @@
       "emissora": "RAC1",
       "programa": "Via lliure",
       "estat": "ok",
-      "audios": 240,
-      "sobre_ia": 1
+      "audios": 473,
+      "sobre_ia": 2
     },
     {
       "font": "omny",
       "emissora": "RAC1",
       "programa": "La primera pedra",
       "estat": "ok",
-      "audios": 240,
+      "audios": 480,
       "sobre_ia": 0
     },
     {
       "font": "omny",
       "emissora": "RAC1",
       "programa": "El món a RAC1",
-      "estat": "error",
-      "error": "cap show d'Omny comença per «el-mon-a-rac1» (semblants: el-mon-apunts-imprescindibles, el-mon-bits, castells-a-rac1, el-mon-coses-d-internet, crims-contra-el-patrimoni, el-mon-cuinetes, el-mon-de-que-"
+      "estat": "ok",
+      "audios": 420,
+      "sobre_ia": 0
     }
   ],
-  "candidats": [
-    {
-      "id": "rtve-17261315",
-      "emissora": "Ràdio 4",
-      "programa": "La tarda de Ràdio 4",
-      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
-      "data": "2026-10-09",
-      "durada": "24 min",
-      "titol_original": "Antonio Turiel 'El Fondo del Pozo'",
-      "descripcio_original": "Parlem de la crisi energètica amb Antonio Turie l, físic i investigador del CSIC, que presenta el llibre El fondo del pozo. Reflexionem sobre els límits de la transició energètica, les guerres pel petroli i els reptes de les renovables, la intel·ligència artificial i el consum energètic. També analitzem com els governs poden preparar un futur energètic més sostenible sense perjudicar les famílies vulnerables.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-antonio-turiel-fondo-del-pozo/17261315/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17261315"
-      }
-    },
-    {
-      "id": "rtve-17259369",
-      "emissora": "Ràdio 4",
-      "programa": "La tarda de Ràdio 4",
-      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
-      "data": "2026-10-08",
-      "durada": "29 min",
-      "titol_original": "Diferència entre soledat i solitud amb Ana Asensio",
-      "descripcio_original": "Parlem de soledat no desitjada amb Ana Asensio, psicòloga, doctora en neurociència i divulgadora. L’OMS calcula que una de cada sis persones al món se sent sola, una realitat que pot afectar també la salut i afavorir problemes com la depressió i l’ansietat. Analitzem què necessita el cervell per sentir-se acompanyat, com les pantalles i les xarxes socials poden agreujar la sensació de soledat i com distingir entre gaudir de la solitud i resignar-s’hi. També reflexionem sobre les relacions de parella, les aplicacions de cites, la criança i el paper que pot tenir la intel·ligència artificial com a companyia.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-diferencia-entre-soledat-solitud-amb-ana-asensio/17259369/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17259369"
-      }
-    },
-    {
-      "id": "rtve-17259388",
-      "emissora": "Ràdio 4",
-      "programa": "La tarda de Ràdio 4",
-      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
-      "data": "2026-10-08",
-      "durada": "55 min",
-      "titol_original": "Segona Hora: Diferència entre soledat i solitud amb Ana Asensio i un anàlisi de la comunicació no verbal amb Patrycia Centeno",
-      "descripcio_original": "Parlem de soledat no desitjada amb Ana Asensio, psicòloga, doctora en neurociència i divulgadora. L’OMS calcula que una de cada sis persones al món se sent sola, una realitat que pot afectar també la salut i afavorir problemes com la depressió i l’ansietat. Analitzem què necessita el cervell per sentir-se acompanyat, com les pantalles i les xarxes socials poden agreujar la sensació de soledat i com distingir entre gaudir de la solitud i resignar-s’hi. També reflexionem sobre les relacions de parella, les aplicacions de cites, la criança i el paper que pot tenir la intel·ligència artificial com a companyia. Continuem amb l'anàlisi d'expressió no verbal amb Patrycia Centeno. Shakira i Gerard Piqué s’han tornat a veure als jutjats de Barcelona per qüestions relacionades amb la custòdia i el règim de visites dels seus fills. Centeno analitza els seus looks i com la roba pot transmetre determinats missatges en un context judicial. També posa el focus en la portada del llibre d’ Isabel Díaz Ayuso i interpreta els diferents elements de la fotografia, des del filtre sèpia fins a la postura i l’expressió de la presidenta madrilenya. I acabem amb un homenatge al dirigent i intel·lectual nacionalista gallec Xosé Manuel Beiras, que ha mort als 90 anys. Patrycia Centeno repassa el seu estil, que defineix com a bohemi, intel·lectual i d’esquerres, i reivindica la seva manera de vestir, basada en teixits naturals, colors, complements i artesania.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-segona-hora-diferencia-entre-soledat-solitud-amb-ana-asensio-analisi-comunicacio-no-verbal-amb-patrycia-centeno/17259388/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17259388"
-      }
-    },
-    {
-      "id": "rtve-17250042",
-      "emissora": "Ràdio 4",
-      "programa": "Lletra lligada",
-      "programa_url": "https://www.rtve.es/play/audios/lletra-lligada/",
-      "data": "2026-09-26",
-      "durada": "24 min",
-      "titol_original": "Margarida Romero: \"No tot és culpa de les famílies\"",
-      "descripcio_original": "Pel que fa a la tecnologia, molts adults tenim la sensació que mai estarem al dia, però, com ens recorda aquesta experta, pares, mares i docents sabem què és més assenyat pels nostres infants i alumnes. La Margarida Romero és Investigadora a l’Institut d’Investigació en Intel·ligència Artificial, el principal centre del CSIC a Espanya dedicat exclusivament a la investigació científica en el camp de la Intel·ligència Artificial. A més, és experta en Ciències Socials i Educació, i mare. Ens ha ajudat a mirar aquesta qüestió amb perspectiva i ens ha donat uns quants consells.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/lletra-lligada/margarida-romero-no-tot-culpa-les-families-ia-lletra-lligada-radio4/17250042/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17250042"
-      }
-    }
-  ]
+  "candidats": []
 }
