@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-17T12:15:04.228Z",
+  "generat": "2026-10-17T16:15:13.414Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -88,7 +88,7 @@
       "programa": "Sentit de viure",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 0
+      "sobre_ia": 1
     },
     {
       "font": "rtve",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 34,
+      "audios": 35,
       "sobre_ia": 0
     },
     {
@@ -177,5 +177,23 @@
       "sobre_ia": 2
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "rtve-17271363",
+      "emissora": "Ràdio 4",
+      "programa": "Sentit de viure",
+      "programa_url": "https://www.rtve.es/play/audios/sentit-de-viure/",
+      "data": "2026-10-17",
+      "durada": "1 h 0 min",
+      "titol_original": "Els SeniorLabs, un projecte global del CITILAB per a la revolució del coneixement social digital i la IA",
+      "descripcio_original": "No va ser fins als primers anys del segle XXI que l’antiga fàbrica de Can Suris va adquirir una nova funció. Després que l’Ajuntament de Cornellà impulsés la seva recuperació, l’edifici va ser sotmès a un procés de rehabilitació i adaptació entre 2003 i 2007. Aquell any va obrir les portes el Citilab, convertint un espai del passat industrial en un laboratori ciutadà de 4.500m2 dedicat a la innovació social i digital. A finals del segle XIX, les grans xemeneies de les fàbriques simbolitzaven el progrés, la mecanització i una nova manera de produir i d’organitzar la societat. Més d’un segle després, la xemeneia de Can Suris conserva aquella memòria, però adquireix un nou significat: ja no anuncia la revolució industrial, sinó la revolució del coneixement. El canvi és també simbòlic. On abans es transformaven matèries primeres, avui es transformen idees, experiències i projectes. Can Suris ha passat de ser una fàbrica de la societat industrial a convertir-se en un espai de 2 creació dins la societat digital. De la fàbrica industrial a la fàbrica del coneixement. Convidats Xavier González, director gerent CITILAB (Cornellà del Llobregat); Suren Vázquez Maya, coordinadora del proyecte SeniorLab; Neus Sevilla Santamaria, Seniorlab; Rosa Garví Polo. Seniorlab; Antonio Martínez del Hoyo, president comissió d'Advocats Sèniors del Col·legi de l'Advocacia de Barcelona (ICAB); Juan Francisco Jiménez, Doctor en IA. Director del Centre de Innovació Tecnològica e Intel·ligència Artificial,",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtve.es/play/audios/sentit-de-viure/seniorlabs-projecte-global-citilab-revolucio-coneixement-social-digital-ia/17271363/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17271363"
+      }
+    }
+  ]
 }
