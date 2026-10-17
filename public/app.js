@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026101602';
+  const VERSIO_MANUAL = '2026101701';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './estudis-arxiu.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -633,7 +633,16 @@
     document.querySelector('.search-form').addEventListener('submit', event => event.preventDefault());
 
     // ——— Subscripció al butlletí (sistema actual, api.php) ———
-    document.querySelector('#newsletter-form').addEventListener('submit', async event => {
+    const formButlleti = document.querySelector('#newsletter-form');
+    // Parany antibots (17.10.2026): camp invisible «web» i temps des de la càrrega («t»). Vegeu api.php.
+    if (formButlleti && !formButlleti.querySelector('input[name="web"]')) {
+      const camp = document.createElement('input');
+      camp.type = 'text'; camp.name = 'web'; camp.tabIndex = -1; camp.autocomplete = 'off';
+      camp.setAttribute('aria-hidden', 'true');
+      camp.style.cssText = 'position:absolute;left:-9999px;width:1px;height:1px;opacity:0;';
+      formButlleti.appendChild(camp);
+    }
+    formButlleti.addEventListener('submit', async event => {
       event.preventDefault();
       const email = document.querySelector('#email');
       const message = document.querySelector('#form-message');
@@ -644,7 +653,11 @@
       }
       message.textContent = 'Un moment…';
       try {
-        const body = new URLSearchParams({ email: email.value.trim() });
+        const body = new URLSearchParams({
+          email: email.value.trim(),
+          web: (formButlleti.querySelector('input[name="web"]') || {}).value || '',
+          t: String(Math.round(performance.now()))
+        });
         const response = await fetch('./api.php?action=subscribe', {
           method: 'POST',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },

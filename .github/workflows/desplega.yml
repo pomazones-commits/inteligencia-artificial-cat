@@ -254,3 +254,14 @@ jobs:
           done
           echo "::error::El desplegament FTP ha fallat despres de $intents intents. Les passades de repesca (:08 i :38) i la xarxa de seguretat ho reintentaran."
           exit 1
+
+      # Butlletí enviat des del web (17.10.2026): després de cada desplegament,
+      # demanem al servidor que enviï les edicions pendents de public/data/butlleti/.
+      # És idempotent (una edició no s'envia mai dues vegades) i no porta cap
+      # clau; si encara no hi ha res a enviar, respon de seguida. Un error aquí
+      # no fa fallar el desplegament: la passada següent (:08 o :38) ho reprèn.
+      - name: Envia el butlletí pendent (si n'hi ha)
+        if: always()
+        run: |
+          curl -sS --max-time 280 -A "IA.cat desplega" "https://inteligencia-artificial.cat/butlleti-envia.php" || echo "::warning::No s'ha pogut cridar butlleti-envia.php; ho reprendrà la passada següent."
+          echo

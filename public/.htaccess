@@ -63,6 +63,11 @@ Require all denied
 <FilesMatch "^club-(opinions\.json|opinions\.json\.tmp|opinions\.lock|secret\.txt)$">
 Require all denied
 </FilesMatch>
+# Butlletí enviat des del web (17.10.2026): estat dels subscriptors, llista
+# inicial, clau de les signatures, registre i bloquejos. Només al servidor.
+<FilesMatch "^butlleti(-estat\.json|-estat\.json\.tmp|-estat\.lock|-confirmats\.txt|-secret\.txt|\.log|\.lock)$">
+Require all denied
+</FilesMatch>
 
 <IfModule mod_rewrite.c>
 RewriteEngine On

@@ -171,7 +171,20 @@
     else document.body.appendChild(banda);
   })();
 
+  // Parany antibots del butlletí (17.10.2026): un camp invisible que una persona deixa
+  // buit i el temps des que s'ha carregat la pàgina («t»). Vegeu api.php.
+  const paranyButlleti = form => {
+    if (form.querySelector('input[name="web"]')) return;
+    const camp = document.createElement('input');
+    camp.type = 'text'; camp.name = 'web'; camp.tabIndex = -1; camp.autocomplete = 'off';
+    camp.setAttribute('aria-hidden', 'true');
+    camp.style.cssText = 'position:absolute;left:-9999px;width:1px;height:1px;opacity:0;';
+    form.appendChild(camp);
+  };
+  window.IACAT_PARANY_BUTLLETI = paranyButlleti;
+
   document.querySelectorAll('.js-subscribe-form').forEach(form => {
+    paranyButlleti(form);
     form.addEventListener('submit', async event => {
       event.preventDefault();
       const message = form.querySelector('.js-form-message');
@@ -179,7 +192,9 @@
       if (message) message.textContent = '';
       if (button) button.disabled = true;
       try {
-        const response = await fetch(form.action, { method: 'POST', body: new FormData(form) });
+        const dades = new FormData(form);
+        dades.set('t', String(Math.round(performance.now())));
+        const response = await fetch(form.action, { method: 'POST', body: dades });
         const payload = await response.json();
         if (message) message.textContent = payload.message || (response.ok ? 'Subscripció confirmada.' : 'No s’ha pogut completar la subscripció.');
         if (response.ok) form.reset();
