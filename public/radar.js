@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "SEGURETAT",
+    "date": "17.10.2026",
+    "title": "Catalunya té un assistent d'IA al web i al WhatsApp que ajuda a detectar estafes abans de pagar o fer clic",
+    "summary": "L'Agència de Ciberseguretat de Catalunya l'ofereix dins d'un pla contra les ciberestafes. Entre gener i agost els Mossos van registrar 53.577 estafes digitals, amb pèrdues de 103 milions d'euros.",
+    "detail": "L'Agència de Ciberseguretat de Catalunya ofereix un assistent basat en intel·ligència artificial, accessible des del seu web i per WhatsApp, que ajuda a identificar possibles estafes virtuals, a valorar si una persona pot haver-ne estat víctima i a resoldre dubtes de seguretat digital. Segons Ara, l'usuari hi pot enviar una captura o l'enllaç d'un SMS o d'una botiga en línia i saber de seguida quin risc de frau hi ha abans de pagar o de fer clic.\n\nL'eina forma part de la resposta del Govern a unes xifres que no paren de pujar. Entre gener i agost del 2026, els Mossos d'Esquadra van registrar 53.577 estafes digitals, unes 220 al dia, amb pèrdues de 103 milions d'euros. Des de principis del 2024, el perjudici acumulat s'acosta als 490 milions i les víctimes passen de 200.000. Les ciberestafes són ja el segon delicte més denunciat a Catalunya.\n\nL'assistent s'acompanya d'un pla estratègic 2026-2028 contra les estafes virtuals, elaborat pels Mossos i l'Agència, que el Govern havia d'aprovar el dimarts següent i que vol reforçar la coordinació amb la banca, les plataformes de venda en línia i les operadores mòbils. Els Mossos han creat també un grup de ciberintel·ligència per anticipar riscos, i la Comissaria Virtual, un portal per denunciar des de casa, s'ha previst per al novembre.\n\nLímits: les fonts no detallen com es comprova la fiabilitat de les respostes de l'assistent ni quantes persones l'han fet servir, i no hi ha dades públiques sobre quants fraus ha evitat. El pla encara havia de passar pel Consell Executiu en el moment de publicar-se les informacions.",
+    "source": "El Nacional",
+    "url": "https://www.elnacional.cat/ca/societat/ciberseguretat_1710637_102.html",
+    "image": "./assets/agencia-ciberseguretat-assistent-ia-estafes-whatsapp-20261017.jpg",
+    "slug": "agencia-ciberseguretat-assistent-ia-estafes-whatsapp"
+  },
+  {
     "place": "Comunitat Valenciana",
     "category": "IA I SOCIETAT",
     "date": "17.10.2026",
@@ -78,16 +90,5 @@ window.IA_RADAR = [
     "detail": "El Centre Europeu d'Empreses i Innovació (CEEI) d'Elx, a la Comunitat Valenciana, ha programat tres trobades «Coffee & CEO» perquè directius d'empreses de la zona expliquin com la intel·ligència artificial i les noves tecnologies canvien la manera de treballar i de prendre decisions.\n\nLes sessions formen part de «Tech Leaders», dins del programa Horizonte Tech, que finança la Direcció General d'Innovació de la Generalitat Valenciana i que coordina la xarxa de CEEI de la Comunitat Valenciana (Castelló, Elx i València). Se celebraran a l'Hort del Xocolater, d'Elx, de 9 a 11 del matí: el 27 d'octubre, amb Luis Flores, director de dades de Gioseppo, i l'expert en IA José Luis Gallardo; el 12 de novembre, amb Senti Bernabéu, conseller delegat de Simetry, i l'expert Ronald Aveillán; i el 9 de desembre, amb Mario de Felipe, director de Persones, Innovació i Cultura del Grup ASV, i l'especialista Santiago Ambit.\n\nEl format és una conversa participativa entre professionals de la tecnologia i directius que lideren la transformació de la seva empresa. Van adreçades a propietaris, directius i membres de comitès de pime i d'altres empreses interessades a saber com ho fan les seves homòlogues.\n\nL'assistència és gratuïta, però cal inscriure's a cada sessió a través de la web del CEEI d'Elx; la de la primera ja era oberta quan es va publicar la informació. No es descriu cap projecte ni cap resultat concret: és una convocatòria, de manera que el contingut de les xerrades es coneixerà quan se celebrin.",
     "source": "Alicante Plaza",
     "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/como-la-ia-esta-cambiando-la-forma-de-dirigir-las-empresas-en-los-coffe-ceo-del-ceei-elche"
-  },
-  {
-    "place": "Lleida",
-    "category": "IA I SOCIETAT",
-    "date": "15.10.2026",
-    "title": "Oncolliga Lleida finança un projecte de l'IRBLleida que vol predir amb IA com evolucionarà un melanoma des del diagnòstic",
-    "summary": "El projecte PredIHC-MEL farà servir aprenentatge automàtic amb dades que ja es recullen a l'assistència habitual. Encara és a l'inici: no hi ha resultats.",
-    "detail": "Predir com evolucionarà un melanoma des del moment del diagnòstic ajudaria els clínics a decidir quin seguiment i quin tractament convenen a cada pacient. D'això va el projecte PredIHC-MEL, de l'Institut de Recerca Biomèdica de Lleida (IRBLleida), que acaba de rebre finançament d'Oncolliga Lleida a través de la primera edició de la seva convocatòria d'ajuts a la recerca oncològica.\n\nEl nom complet del projecte és «Algorisme predictiu basat en immunohistoquímica per a l'estratificació molecular, el pronòstic i el tractament personalitzat de pacients amb melanoma primari». La investigadora principal és Anna Macià Armengol, del grup de Patologia Oncològica de l'IRBLleida. El conveni el van signar aquesta setmana Enric Martí, president d'Oncolliga Lleida, i Diego Arango, director de l'institut. La notícia no en precisa l'import.\n\nL'equip aplicarà aprenentatge automàtic a dades que ja es recullen a l'assistència: informació clínica, histològica, molecular i genètica. L'algorisme buscarà patrons lligats al curs de la malaltia, al risc de metàstasi i a la resposta probable al tractament. Com que es basa en biomarcadors i tècniques que ja s'usen als hospitals, segons la notícia seria més fàcil d'incorporar a la pràctica clínica. La finalitat és una eina de suport a les decisions, no un substitut del criteri mèdic.\n\nCal recordar que és el principi del camí. La font només descriu l'objectiu i el mètode, no dona dates d'inici ni de final i no presenta cap resultat; l'eina haurà de demostrar que prediu bé i que serveix en la pràctica clínica abans d'arribar a l'hospital. De moment, és una aposta de recerca finançada per una entitat de pacients i professionals de Lleida.",
-    "source": "La Mañana",
-    "url": "https://lamanyana.cat/oncolliga-lleida-financa-un-projecte-de-lirblleida-per-predir-levolucio-del-melanoma-amb-intelligencia-artificial/",
-    "image": "./assets/oncolliga-irblleida-melanoma-ia-predihc-mel-20261015.jpg"
   }
 ];
