@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-17T15:59:14.479Z",
+ "actualitzat": "2026-10-17T18:53:13.927Z",
  "fonts": 44,
  "articles": [
   {
@@ -2397,17 +2397,6 @@
    "titol": "Els matemàtics tremolen després del nou avenç d'OpenAI",
    "url": "https://www.ara.cat/societat/matematics-tremolen-despres-nou-avenc-d-openai_1_5875832.html",
    "publicat": "2026-10-10T19:26:30.000Z"
-  },
-  {
-   "id": "e99300f062f9",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic revela que la IA va enviar pistes falses d'un homicidi a la policia",
-   "url": "https://www.3cat.cat/3catinfo/anthropic-revela-que-la-ia-va-enviar-pistes-falses-dun-homicidi-a-la-policia/noticia/3433510",
-   "publicat": "2026-10-10T17:11:05.000Z"
   }
  ]
 }
