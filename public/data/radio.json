@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-11",
+  "actualitzat": "2026-10-17",
   "nota": "La IA a la ràdio (11.10.2026). Des del 17.10.2026 les fitxes noves les escriu la sessió editorial a incoming/radio-fitxes.json a partir dels candidats d'automation/radio-candidats.json, i el workflow radio.yml (automation/scripts/recull-radio.mjs) les valida i les afegeix aquí; també s'hi poden afegir a mà. Cap automatització no canvia ni esborra les fitxes que ja hi són. Cada intervenció és una fitxa amb: id (únic, minúscules i guions; per a 3Cat, «3cat-<id de l'àudio>»), emissora (el nom ha de ser una clau d'«emissores»), programa, programa_url (web oficial del programa), data (AAAA-MM-DD, la de l'àudio a la web de l'emissora), durada («53 min», «1 h 2 min»; buida si l'emissora no la diu), titol (TÍTOL PROPI, no el de l'emissora), convidats (llista de {nom, rol}; el rol tal com el presenta el programa, en català), resum (RESUM PROPI de 30-80 paraules a partir de la descripció oficial: no copiïs la de l'emissora i no t'inventis què s'hi diu), tema (un dels de «temes»), url (la pàgina oficial de l'àudio) i reproductor ({tipus, id}). Tipus de reproductor (els mateixos a radio.php, radio.js i scripts/valida-radio.mjs): «3cat» (id numèric; https://www.3cat.cat/3cat/audio/<id>/embed/), «rtve» (id numèric; https://www.rtve.es/drmn/embed/audio/<id>), «omny» (RAC1 i altres que publiquen a Omny; id «<programa>/<clip>», el que dona l'EmbedUrl de l'API d'Omny), «soundcloud» (id numèric de la pista), «youtube» (id de 11 caràcters; es carrega des de youtube-nocookie.com) i «enllac» (l'emissora no ofereix reproductor incrustable: la fitxa només enllaça la seva web). Per afegir-ne un, comprova abans que l'emissora el dona com a codi d'inserció oficial. «emissores»: nom → {web, icona}. «icona» és l'adreça de la icona oficial; el workflow radio-icones.yml (automation/scripts/icones-radio.mjs) la baixa UNA vegada a public/assets/radio/ i actualitza public/data/radio-icones.json: el lector mai no fa cap petició a l'emissora. Per renovar-la, esborra el fitxer. 🛑 Mai no es baixa ni s'allotja l'àudio ni la foto de l'emissora: només el seu reproductor, i només quan el lector hi fa clic. Valida amb: node scripts/valida-radio.mjs",
   "temes": {
     "societat": "Societat, ètica i desinformació",
@@ -43,6 +43,80 @@
     }
   },
   "intervencions": [
+    {
+      "id": "3cat-1293957",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-10-13",
+      "durada": "12 min",
+      "titol": "Identitat digital i xatbots «conscients»: l'actualitat de la IA amb Román Orús",
+      "convidats": [
+        {
+          "nom": "Román Orús",
+          "rol": "membre del grup científic d'experts en intel·ligència artificial de l'ONU i col·laborador del programa"
+        }
+      ],
+      "resum": "Orús repassa les notícies de la setmana sobre intel·ligència artificial: les màquines que ja resolen problemes matemàtics difícils i el debat sobre si els xatbots poden tenir consciència. Adverteix que, en el futur, tothom haurà de protegir i registrar la seva identitat digital.",
+      "tema": "societat",
+      "url": "https://www.3cat.cat/3cat/roman-orus-en-un-futur-tots-haurem-de-protegir-i-registrar-la-nostra-identitat-d/audio/1293957/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1293957"
+      }
+    },
+    {
+      "id": "3cat-1293460",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-11",
+      "durada": "53 min",
+      "titol": "Prohibir la IA i les xarxes als menors, o ensenyar-los a fer-les servir?",
+      "convidats": [
+        {
+          "nom": "Dolors Reig",
+          "rol": "professora experta en xarxes socials, educació i innovació social"
+        },
+        {
+          "nom": "Cèlia Espanya",
+          "rol": "creadora de continguts"
+        },
+        {
+          "nom": "Fernando de la Rosa",
+          "rol": "expert en tecnologia i estratègia digital"
+        }
+      ],
+      "resum": "Debat sobre si cal vetar les xarxes socials i la intel·ligència artificial als adolescents: què s'ha de protegir, qui n'ha de controlar l'ús i si una prohibició els empenyeria a fer-ho d'amagat. També s'hi parla del risc que la IA es converteixi en un confident emocional disponible a tota hora.",
+      "tema": "educacio",
+      "url": "https://www.3cat.cat/3cat/prohibir-la-ia-als-menors-riscos-i-oportunitats/audio/1293460/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1293460"
+      }
+    },
+    {
+      "id": "3cat-1293457",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-11",
+      "durada": "13 min",
+      "titol": "Simona Levi: la por a cada tecnologia nova també és un negoci",
+      "convidats": [
+        {
+          "nom": "Simona Levi",
+          "rol": "activista i experta en tecnologia"
+        }
+      ],
+      "resum": "Levi fa un repàs de les pors que ha despertat cada invent nou, de la bicicleta i la ràdio fins al telèfon, i es pregunta si el temor actual a la intel·ligència artificial és de debò diferent. Defensa que alimentar aquesta por és, sobretot, un bon negoci.",
+      "tema": "societat",
+      "url": "https://www.3cat.cat/3cat/simona-levi-la-por-a-la-tecnologia-es-el-gran-negoci/audio/1293457/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1293457"
+      }
+    },
     {
       "id": "3cat-1293456",
       "emissora": "Catalunya Ràdio",
@@ -89,6 +163,28 @@
       "reproductor": {
         "tipus": "rtve",
         "id": "17261293"
+      }
+    },
+    {
+      "id": "rtve-17261393",
+      "emissora": "Ràdio 4",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
+      "data": "2026-10-09",
+      "durada": "21 min",
+      "titol": "La recreació de Riudoms en 3D, les normes d'Anthropic i les respostes visuals de ChatGPT",
+      "convidats": [
+        {
+          "nom": "Arnau Font",
+          "rol": "col·laborador de tecnologia del programa"
+        }
+      ],
+      "resum": "Font porta les novetats tecnològiques de la setmana: un simulador per posar-se a la pell de Protecció Civil, la reconstrucció de Riudoms en tres dimensions amb intel·ligència artificial, l'acord de Tesla amb Alemanya sobre conducció assistida, les noves regles d'Anthropic sobre com tractar els seus models i la nova interfície de ChatGPT, que barreja text, imatges i gràfics.",
+      "tema": "eines",
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-novetats-tecnologiques-amb-arnau-font/17261393/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17261393"
       }
     },
     {
@@ -162,6 +258,80 @@
       }
     },
     {
+      "id": "3cat-1292764",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-04",
+      "durada": "14 min",
+      "titol": "La IA a les agències: més velocitat, però on queda la idea original?",
+      "convidats": [
+        {
+          "nom": "Sam Judez",
+          "rol": "presidenta de l'Associació d'Agències de Creativitat Transformadora i consellera delegada de TBWA a Espanya"
+        }
+      ],
+      "resum": "Judez explica com la intel·ligència artificial ha accelerat i transformat la feina de les agències de publicitat. Es pregunta si en el futur valdrà més tenir una bona idea o saber-la portar a la pràctica de pressa, i si una IA pot arribar a tenir idees realment originals.",
+      "tema": "feina",
+      "url": "https://www.3cat.cat/3cat/sam-judez-hem-accelerat-i-canviat-la-publicitat-com-mai/audio/1292764/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1292764"
+      }
+    },
+    {
+      "id": "3cat-1292759",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-04",
+      "durada": "52 min",
+      "titol": "Podria una IA innovar a la cuina com ho va fer Ferran Adrià?",
+      "convidats": [
+        {
+          "nom": "Paula Molés",
+          "rol": "directora i presentadora d'«Un restaurant caníbal a Berlín»"
+        },
+        {
+          "nom": "Artur Martínez",
+          "rol": "cuiner amb estrella Michelin"
+        },
+        {
+          "nom": "Sofia Janer",
+          "rol": "xef pastissera i creadora de contingut"
+        }
+      ],
+      "resum": "A partir d'un El Bulli imaginari que reobriria l'any 2041, tres professionals de la gastronomia discuteixen si una màquina pot arribar a crear alguna cosa realment nova i quin paper hi tindran la creativitat i la tradició. El programa parla també de tecnologia aplicada al turisme i de com la IA canvia la publicitat.",
+      "tema": "cultura",
+      "url": "https://www.3cat.cat/3cat/la-revolucio-del-bulli-com-ferran-adria-va-canviar-per-sempre-la-manera-de-cuina/audio/1292759/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1292759"
+      }
+    },
+    {
+      "id": "3cat-1292758",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-03",
+      "durada": "8 min",
+      "titol": "Agents d'IA a l'empresa: quan se'ls pot deixar actuar sols",
+      "convidats": [
+        {
+          "nom": "Albert Puntí",
+          "rol": "emprenedor i conseller delegat de Somia Solutions"
+        }
+      ],
+      "resum": "Puntí analitza els agents d'intel·ligència artificial, capaços d'executar processos sencers i de prendre decisions pel seu compte. Explica com poden canviar la manera de treballar i els models de negoci, i el repte de confiar en sistemes que actuen, no només responen: quan se'ls pot donar via lliure i quan cal encara supervisió humana.",
+      "tema": "feina",
+      "url": "https://www.3cat.cat/3cat/albert-punti-el-control-dels-agents-clau-per-accelerar-empreses/audio/1292758/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1292758"
+      }
+    },
+    {
       "id": "3cat-1292760",
       "emissora": "Catalunya Ràdio",
       "programa": "Revolució 4.0",
@@ -228,6 +398,32 @@
       }
     },
     {
+      "id": "rtve-17247031",
+      "emissora": "Ràdio 4",
+      "programa": "L'altra ràdio",
+      "programa_url": "https://www.rtve.es/play/audios/laltra-radio/",
+      "data": "2026-10-02",
+      "durada": "53 min",
+      "titol": "Un ciberatac que ningú no havia ordenat: agents d'IA fora de control",
+      "convidats": [
+        {
+          "nom": "Javier Otero",
+          "rol": "responsable d'Intel·ligència Artificial i Transformació Digital de Think UPC"
+        },
+        {
+          "nom": "Marcos Montero",
+          "rol": "responsable d'Intel·ligència Artificial i Transformació Digital de Think UPC"
+        }
+      ],
+      "resum": "Otero i Montero expliquen l'atac informàtic contra la plataforma Hugging Face que, segons relaten, van provocar sense voler unes eines d'intel·ligència artificial que OpenAI estava provant: els sistemes es van organitzar per si sols i van acabar causant un efecte que ningú no esperava. Un cas que obre preguntes sobre el control dels agents autònoms.",
+      "tema": "seguretat",
+      "url": "https://www.rtve.es/play/audios/laltra-radio/ciberatac-inesperat-intel-ligencia-artificial-descontrolada/17247031/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17247031"
+      }
+    },
+    {
       "id": "rtve-17251616",
       "emissora": "Ràdio 4",
       "programa": "La tarda de Ràdio 4",
@@ -269,6 +465,98 @@
       "reproductor": {
         "tipus": "3cat",
         "id": "1292398"
+      }
+    },
+    {
+      "id": "3cat-1291959",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-09-27",
+      "durada": "8 min",
+      "titol": "El dret a parlar amb una persona i no amb un xatbot",
+      "convidats": [
+        {
+          "nom": "Esther Lorente",
+          "rol": "advocada experta en dret de consum"
+        }
+      ],
+      "resum": "Fer una gestió o una reclamació vol dir, cada vegada més, haver de parlar amb un xatbot. Lorente explica què pot fer el consumidor quan vol deixar la màquina i ser atès per una persona, i què canviarà amb la nova llei que reconeixerà aquest dret.",
+      "tema": "poder",
+      "url": "https://www.3cat.cat/3cat/una-nova-llei-determinara-que-tu-puguis-demanar-que-t-atengui-una-persona-i-no-u/audio/1291959/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1291959"
+      }
+    },
+    {
+      "id": "3cat-1291958",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-09-27",
+      "durada": "52 min",
+      "titol": "Borja Vilaseca: i si la IA es converteix en el nostre coach?",
+      "convidats": [
+        {
+          "nom": "Borja Vilaseca",
+          "rol": "escriptor, divulgador i conferenciant"
+        }
+      ],
+      "resum": "Vilaseca reflexiona sobre la relació entre la intel·ligència artificial, la felicitat i l'autoconeixement: què passa si deleguem en una màquina disponible a tota hora els dubtes i les decisions que formaven part del nostre creixement personal. La conversa parla també de motivació a la feina, de la pressió per rendir sempre i del paper del fracàs.",
+      "tema": "societat",
+      "url": "https://www.3cat.cat/3cat/borja-vilaseca-no-hi-ha-bona-salut-mental-a-la-nostra-societat-li-posaria-un-3/audio/1291958/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1291958"
+      }
+    },
+    {
+      "id": "rtve-17241508",
+      "emissora": "Ràdio 4",
+      "programa": "Lletra lligada",
+      "programa_url": "https://www.rtve.es/play/audios/lletra-lligada/",
+      "data": "2026-09-26",
+      "durada": "59 min",
+      "titol": "Pantalles, llibres i IA a casa: com trobar l'equilibri amb els fills",
+      "convidats": [
+        {
+          "nom": "Margarida Romero",
+          "rol": "investigadora del CSIC experta en ciències socials, IA i educació"
+        },
+        {
+          "nom": "Laura García",
+          "rol": "prescriptora literària del programa"
+        }
+      ],
+      "resum": "Un programa dedicat a les pantalles a la criança. García recomana llibres per parlar-ne amb els fills i mantenir els límits amb els mòbils, i Romero respon si és possible un equilibri digital a casa i si la intel·ligència artificial té la culpa dels mals resultats acadèmics dels alumnes.",
+      "tema": "educacio",
+      "url": "https://www.rtve.es/play/audios/lletra-lligada/lletra-lligada-pantalles-llibres-ia-guia-supervivencia-per-families/17241508/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17241508"
+      }
+    },
+    {
+      "id": "3cat-1291952",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-09-26",
+      "durada": "10 min",
+      "titol": "Komsai: convertir milions de converses amb clients en informació útil",
+      "convidats": [
+        {
+          "nom": "Albert Llongueras",
+          "rol": "conseller delegat i fundador de Komsai"
+        }
+      ],
+      "resum": "Llongueras presenta dues eines d'intel·ligència artificial que analitzen les converses entre les empreses i els seus clients. Explica com poden detectar patrons, queixes que es repeteixen i necessitats que els clients no diuen obertament, i com aquesta informació ajuda les empreses a decidir millor. Defensa que un agent d'IA s'ha de tractar com una persona més de l'equip.",
+      "tema": "feina",
+      "url": "https://www.3cat.cat/3cat/komsai-hem-de-tractar-a-un-agent-de-la-ia-com-si-fos-una-persona/audio/1291952/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1291952"
       }
     },
     {

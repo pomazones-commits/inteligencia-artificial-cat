@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-17T02:55:15.865Z",
+  "generat": "2026-10-17T02:58:51.026Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -72,7 +72,7 @@
       "programa": "La tarda de Ràdio 4",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 3
+      "sobre_ia": 6
     },
     {
       "font": "rtve",
@@ -80,7 +80,7 @@
       "programa": "Lletra lligada",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 3
     },
     {
       "font": "rtve",
@@ -119,348 +119,76 @@
       "emissora": "RAC1",
       "programa": "El món a RAC1",
       "estat": "error",
-      "error": "cap show d'Omny comença per «el-mon-a-rac1»"
+      "error": "cap show d'Omny comença per «el-mon-a-rac1» (semblants: el-mon-apunts-imprescindibles, el-mon-bits, castells-a-rac1, el-mon-coses-d-internet, crims-contra-el-patrimoni, el-mon-cuinetes, el-mon-de-que-"
     }
   ],
   "candidats": [
     {
-      "id": "rtve-17267130",
-      "emissora": "Ràdio 4",
-      "programa": "La tarda de Ràdio 4",
-      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
-      "data": "2026-10-14",
-      "durada": "30 min",
-      "titol_original": "Toni Cano: la IA en les trucades d'atenció al client i el gas de casa seva",
-      "descripcio_original": "Toni Cano , el nostre home de carrer, pregunta als barcelonins i barcelonines sobre el fet que la IA sigui la responsable de l'atenci&oacute; telef&ograve;nica de moltes empreses. Tamb&eacute; ens ha explicat qu&egrave; li ha passat amb el gas a casa seva.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-des-del-carrer-amb-toni-cano/17267130/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17267130"
-      }
-    },
-    {
-      "id": "3cat-1293957",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Catalunya nit",
-      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
-      "data": "2026-10-13",
-      "durada": "12 min",
-      "titol_original": "Román Orús: \"En un futur, tots haurem de protegir i registrar la nostra identitat digital\"",
-      "descripcio_original": "Comentem les notícies dels últims dies relacionades amb la IA, com la resolució de problemes matemàtics o la consciència dels xatbots, amb Román Orús, l'únic català i l'únic espanyol membre del panel d'experts sobre IA de l'ONU i col·laborador del programa.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/roman-orus-en-un-futur-tots-haurem-de-protegir-i-registrar-la-nostra-identitat-d/audio/1293957/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1293957"
-      }
-    },
-    {
-      "id": "3cat-1293962",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Catalunya nit",
-      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
-      "data": "2026-10-13",
-      "durada": "1 h 0 min",
-      "titol_original": "Catalunya nit, de 22 a 23 h - 13/10/2026",
-      "descripcio_original": "Analitzem els límits de la IA en àmbits com la política amb l'expert Román Orús i entrevistem l'escriptora canadenca d'origen ucraïnès Maria Reva, que publica la novel·la \"L'últim rastre\".",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/catalunya-nit-de-22-a-23-h-13102026/audio/1293962/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1293962"
-      }
-    },
-    {
-      "id": "3cat-1293457",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-11",
-      "durada": "13 min",
-      "titol_original": "Simona Levi: \"La por a la tecnologia és el gran negoci\"",
-      "descripcio_original": "El programa compta amb Simona Levi, activista i experta en tecnologia, amb qui repassem les pors que han acompanyat l'arribada de noves tecnologies, des de la bicicleta i la ràdio fins al telèfon, i reflexionem sobre si la por actual a la intel·ligència artificial és realment nova.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/simona-levi-la-por-a-la-tecnologia-es-el-gran-negoci/audio/1293457/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1293457"
-      }
-    },
-    {
-      "id": "3cat-1293460",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-11",
-      "durada": "53 min",
-      "titol_original": "Prohibir la IA als menors? Riscos i oportunitats",
-      "descripcio_original": "Xantal Llavina, al \"Revolució 4.0\", debat amb Dolors Reig, professora experta en xarxes socials, educació i innovació social; Cèlia Espanya, creadora de continguts, i Fernando de la Rosa, expert en tecnologia i estratègia digital, si cal prohibir les xarxes socials i la intel·ligència artificial als menors. La conversa posa sobre la taula què cal protegir exactament, qui ha d'assumir el control de l'ús que en fan els adolescents i si una prohibició pot acabar generant una cultura de l'\"ho faré d'amagat\". També parlem dels riscos de la IA quan deixa de ser una simple eina i es converteix en un interlocutor emocional disponible les 24 hores del dia. El programa també compta amb Simona Levi, amb qui repassem les pors que han acompanyat l'arribada de noves tecnologies, i amb Silvia Alsina, presidenta i CEO de Roman, amb qui parlem de la seva trajectòria professional, l'emprenedoria i el lideratge femení.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.3cat.cat/3cat/prohibir-la-ia-als-menors-riscos-i-oportunitats/audio/1293460/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1293460"
-      }
-    },
-    {
-      "id": "rtve-17261310",
+      "id": "rtve-17261315",
       "emissora": "Ràdio 4",
       "programa": "La tarda de Ràdio 4",
       "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
       "data": "2026-10-09",
-      "durada": "54 min",
-      "titol_original": "Segona hora: Crisi energètica amb Antoni Turiel i IA i novetats tecnològiques amb Arnau Fonts",
-      "descripcio_original": "Parlem de la crisi energ&egrave;tica amb Antonio Turie l, f&iacute;sic i investigador del CSIC, que presenta el llibre El fondo del pozo . Reflexionem sobre els l&iacute;mits de la transici&oacute; energ&egrave;tica, les guerres pel petroli i els reptes de les renovables, la intel·lig&egrave;ncia artificial i el consum energ&egrave;tic. Tamb&eacute; analitzem com els governs poden preparar un futur energ&egrave;tic m&eacute;s sostenible sense perjudicar les fam&iacute;lies vulnerables. A l&rsquo;apartat de tecnologia, Arnau Font ens porta diverses novetats: l&rsquo;ES Alert Simulator, un joc per posar-se a la pell de Protecci&oacute; Civil; la recreaci&oacute; de Riudoms en 3D amb intel·lig&egrave;ncia artificial; l&rsquo;acord de Tesla amb Alemanya sobre conducci&oacute; assistida; i les noves pol&iacute;tiques d&rsquo;Anthropic sobre el tracte als models d&rsquo;IA. I acabem amb ChatGPT Intelligent UI, la nova funci&oacute; d&rsquo;OpenAI que combina text, imatges, gr&agrave;fics i elements interactius per fer les respostes m&eacute;s visuals i &uacute;tils.",
+      "durada": "24 min",
+      "titol_original": "Antonio Turiel 'El Fondo del Pozo'",
+      "descripcio_original": "Parlem de la crisi energètica amb Antonio Turie l, físic i investigador del CSIC, que presenta el llibre El fondo del pozo. Reflexionem sobre els límits de la transició energètica, les guerres pel petroli i els reptes de les renovables, la intel·ligència artificial i el consum energètic. També analitzem com els governs poden preparar un futur energètic més sostenible sense perjudicar les famílies vulnerables.",
       "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-segona-hora/17261310/",
+      "ia_al_titol": false,
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-antonio-turiel-fondo-del-pozo/17261315/",
       "reproductor": {
         "tipus": "rtve",
-        "id": "17261310"
+        "id": "17261315"
       }
     },
     {
-      "id": "rtve-17261393",
+      "id": "rtve-17259369",
       "emissora": "Ràdio 4",
       "programa": "La tarda de Ràdio 4",
       "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
-      "data": "2026-10-09",
-      "durada": "21 min",
-      "titol_original": "Novetats tecnològiques amb Arnau Font",
-      "descripcio_original": "A l&rsquo;apartat de tecnologia, Arnau Font ens porta diverses novetats: l&rsquo;ES Alert Simulator, un joc per posar-se a la pell de Protecci&oacute; Civil; la recreaci&oacute; de Riudoms en 3D amb intel·lig&egrave;ncia artificial; l&rsquo;acord de Tesla amb Alemanya sobre conducci&oacute; assistida; i les noves pol&iacute;tiques d&rsquo;Anthropic sobre el tracte als models d&rsquo;IA. I acabem amb ChatGPT Intelligent UI, la nova funci&oacute; d&rsquo;OpenAI que combina text, imatges, gr&agrave;fics i elements interactius per fer les respostes m&eacute;s visuals i &uacute;tils.",
+      "data": "2026-10-08",
+      "durada": "29 min",
+      "titol_original": "Diferència entre soledat i solitud amb Ana Asensio",
+      "descripcio_original": "Parlem de soledat no desitjada amb Ana Asensio, psicòloga, doctora en neurociència i divulgadora. L’OMS calcula que una de cada sis persones al món se sent sola, una realitat que pot afectar també la salut i afavorir problemes com la depressió i l’ansietat. Analitzem què necessita el cervell per sentir-se acompanyat, com les pantalles i les xarxes socials poden agreujar la sensació de soledat i com distingir entre gaudir de la solitud i resignar-s’hi. També reflexionem sobre les relacions de parella, les aplicacions de cites, la criança i el paper que pot tenir la intel·ligència artificial com a companyia.",
       "descripcio_curta": false,
       "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-novetats-tecnologiques-amb-arnau-font/17261393/",
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-diferencia-entre-soledat-solitud-amb-ana-asensio/17259369/",
       "reproductor": {
         "tipus": "rtve",
-        "id": "17261393"
+        "id": "17259369"
       }
     },
     {
-      "id": "3cat-1292759",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-04",
-      "durada": "52 min",
-      "titol_original": "La revolució d'El Bulli: com Ferran Adrià va canviar per sempre la manera de cuinar",
-      "descripcio_original": "Xantal Llavina, al \"Revolució 4.0\", conversa amb Paula Molés, directora i presentadora d'\"Un restaurant caníbal a Berlín\"; Artur Martínez, cuiner i xef amb estrella Michelin, i Sofia Janer, xef pastissera i creadora de contingut, sobre el futur de la innovació gastronòmica. La conversa parteix d'un hipotètic El Bulli reobert l'any 2041 i planteja si una IA podria arribar a innovar tant com Ferran Adrià, si una màquina pot crear alguna cosa realment nova i quin paper tindran la creativitat i la tradició en la gastronomia del futur. El programa també presenta WOWIST amb Sergi Quinto, amb qui parlem de com la tecnologia pot transformar la manera de fer turisme i personalitzar l'experiència de cada visitant. Finalment, amb Sam Júdez, analitzem com la IA està canviant la publicitat, la creativitat i la manera com les marques arriben al públic.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/la-revolucio-del-bulli-com-ferran-adria-va-canviar-per-sempre-la-manera-de-cuina/audio/1292759/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1292759"
-      }
-    },
-    {
-      "id": "3cat-1292764",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-04",
-      "durada": "14 min",
-      "titol_original": "Sam Judez: \"Hem accelerat i canviat la publicitat com mai\"",
-      "descripcio_original": "Xantal Llavina conversa amb Sam Judez, presidenta de l'Associació d'Agències de Creativitat Transformadora i CEO de TBWA a Espanya, sobre com la intel·ligència artificial està transformant la publicitat i la creativitat. Parlem de si en el futur tindrà més valor tenir una bona idea o ser capaç de convertir-la ràpidament en realitat, i de si una IA pot arribar a crear idees realment originals.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/sam-judez-hem-accelerat-i-canviat-la-publicitat-com-mai/audio/1292764/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1292764"
-      }
-    },
-    {
-      "id": "3cat-1292758",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-03",
-      "durada": "8 min",
-      "titol_original": "Albert Puntí: \"El control dels agents, clau per accelerar empreses\"",
-      "descripcio_original": "Albert Puntí, emprenedor i CEO de Somia Solutions, analitza l'arribada dels agents d'IA, capaços d'executar processos sencers i prendre decisions de manera autònoma. Parlem de com poden transformar la manera de treballar i els models de negoci, i del repte de confiar en sistemes que no només responen, sinó que actuen. També abordem quan podem deixar-los actuar sols i quan encara és necessària la supervisió humana.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/albert-punti-el-control-dels-agents-clau-per-accelerar-empreses/audio/1292758/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1292758"
-      }
-    },
-    {
-      "id": "rtve-17252083",
+      "id": "rtve-17259388",
       "emissora": "Ràdio 4",
-      "programa": "Són 4 dies",
-      "programa_url": "https://www.rtve.es/play/audios/son-4-dies/",
-      "data": "2026-10-03",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
+      "data": "2026-10-08",
       "durada": "55 min",
-      "titol_original": "Són 4 dies- 03-10-26 3era hora: Artistes davant el nazisme. Dones creades per IA",
-      "descripcio_original": "Pep Gorgori repassa l&rsquo;any que els nazis van cremar els llibres. L&rsquo;any 1933, l&rsquo;arribada de Hitler al poder marca l&rsquo;inici de la persecuci&oacute; de la cultura i el pensament cr&iacute;tic a Alemanya. La crema de llibres del 10 de maig, amb obres de Freud, Remarque, Brecht o Marx, simbolitza aquesta ofensiva contra la llibertat intel·lectual. La m&uacute;sica de Kurt Weill, Arnold Sch&ouml;nberg i Richard Strauss ens permet rec&oacute;rrer les diferents actituds dels creadors davant el nazisme: l&rsquo;exili, la persecuci&oacute; i la perman&egrave;ncia a Alemanya. Amb la sex&ograve;loga Elena Crespi analitzem temes com les imatges de dones ficticies creades per IA i l'efecte que aquestes falses dones tenen en les dones reals.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/son-4-dies/son-4-dies-03-10-26-3era-hora-artistes-davant-nazisme-dones-creades-per-ia/17252083/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17252083"
-      }
-    },
-    {
-      "id": "rtve-17247031",
-      "emissora": "Ràdio 4",
-      "programa": "L'altra ràdio",
-      "programa_url": "https://www.rtve.es/play/audios/laltra-radio/",
-      "data": "2026-10-02",
-      "durada": "53 min",
-      "titol_original": "Ciberatac inesperat amb intel·ligència artificial descontrolada",
-      "descripcio_original": "Javier Otero i Marcos Montero , responsables d&rsquo;Intel·lig&egrave;ncia Artificial i Transformaci&oacute; Digital de Think UPC expliquen el ciberatac a l&rsquo;empresa inform&agrave;tica dels EE.UU. Hugging Face. Es va fer, involunt&agrave;riament, amb eines d&rsquo;intel·lig&egrave;ncia artificial que estaven provant a l&rsquo;empresa Open AI. Els sistemes es van organitzar aut&ograve;nomament i van provoca aquest efecte inesperat.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/laltra-radio/ciberatac-inesperat-intel-ligencia-artificial-descontrolada/17247031/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17247031"
-      }
-    },
-    {
-      "id": "rtve-17250132",
-      "emissora": "Ràdio 4",
-      "programa": "El pla B",
-      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
-      "data": "2026-10-01",
-      "durada": "25 min",
-      "titol_original": "L'IA a les portades",
-      "descripcio_original": "A la secci&oacute; de Josep Maria Ribes parlem de com la intel·lig&egrave;ncia artificial ha ocupat les portades durant les &uacute;ltimes setmanes, enmig de la cursa tecnol&ograve;gica entre les grans pot&egrave;ncies i del debat sobre els riscos que planteja.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-lia-les-portades/17250132/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17250132"
-      }
-    },
-    {
-      "id": "rtve-17244000",
-      "emissora": "Ràdio 4",
-      "programa": "La tàctica",
-      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
-      "data": "2026-09-28",
-      "durada": "13 min",
-      "titol_original": "Neix una app per localitzar la benzinera més barata",
-      "descripcio_original": "Parlem amb Masumi Mutsuda, actor de doblatge i tamb&eacute; enginyer inform&agrave;tic especialitzat en IA, que acaba de crear un localitzador de preus de gasolina. Ja es pot consultar a gas.mutsuda.com.",
+      "titol_original": "Segona Hora: Diferència entre soledat i solitud amb Ana Asensio i un anàlisi de la comunicació no verbal amb Patrycia Centeno",
+      "descripcio_original": "Parlem de soledat no desitjada amb Ana Asensio, psicòloga, doctora en neurociència i divulgadora. L’OMS calcula que una de cada sis persones al món se sent sola, una realitat que pot afectar també la salut i afavorir problemes com la depressió i l’ansietat. Analitzem què necessita el cervell per sentir-se acompanyat, com les pantalles i les xarxes socials poden agreujar la sensació de soledat i com distingir entre gaudir de la solitud i resignar-s’hi. També reflexionem sobre les relacions de parella, les aplicacions de cites, la criança i el paper que pot tenir la intel·ligència artificial com a companyia. Continuem amb l'anàlisi d'expressió no verbal amb Patrycia Centeno. Shakira i Gerard Piqué s’han tornat a veure als jutjats de Barcelona per qüestions relacionades amb la custòdia i el règim de visites dels seus fills. Centeno analitza els seus looks i com la roba pot transmetre determinats missatges en un context judicial. També posa el focus en la portada del llibre d’ Isabel Díaz Ayuso i interpreta els diferents elements de la fotografia, des del filtre sèpia fins a la postura i l’expressió de la presidenta madrilenya. I acabem amb un homenatge al dirigent i intel·lectual nacionalista gallec Xosé Manuel Beiras, que ha mort als 90 anys. Patrycia Centeno repassa el seu estil, que defineix com a bohemi, intel·lectual i d’esquerres, i reivindica la seva manera de vestir, basada en teixits naturals, colors, complements i artesania.",
       "descripcio_curta": false,
       "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-neix-app-per-localitzar-benzinera-mes-barata/17244000/",
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-segona-hora-diferencia-entre-soledat-solitud-amb-ana-asensio-analisi-comunicacio-no-verbal-amb-patrycia-centeno/17259388/",
       "reproductor": {
         "tipus": "rtve",
-        "id": "17244000"
+        "id": "17259388"
       }
     },
     {
-      "id": "3cat-1291958",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-09-27",
-      "durada": "52 min",
-      "titol_original": "Borja Vilaseca: \"No hi ha bona salut mental a la nostra societat. Li posaria un 3\"",
-      "descripcio_original": "Xantal Llavina conversa amb l'escriptor, divulgador i conferenciant Borja Vilaseca sobre la relació entre intel·ligència artificial, felicitat, motivació i autoconeixement. La conversa planteja si una IA pot convertir-se en un coach disponible les 24 hores i què pot passar si deleguem en la tecnologia decisions i dubtes que fins ara formaven part del nostre procés personal. També parlem de motivació laboral, la pressió per ser constantment la millor versió de nosaltres mateixos, els diners i la satisfacció professional i el paper del fracàs en la vida empresarial.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/borja-vilaseca-no-hi-ha-bona-salut-mental-a-la-nostra-societat-li-posaria-un-3/audio/1291958/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1291958"
-      }
-    },
-    {
-      "id": "3cat-1291959",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-09-27",
-      "durada": "8 min",
-      "titol_original": "Una nova llei determinarà que tu puguis demanar que t'atengui una persona i no un xatbot",
-      "descripcio_original": "El \"Revolució 4.0\" posa el focus en una experiència tecnològica cada vegada més habitual: haver de parlar amb un xatbot per fer una gestió, presentar una reclamació o contactar amb una empresa. Amb l'advocada experta en dret de consum Esther Lorente, analitzem què passa quan el consumidor vol deixar de parlar amb una màquina i aconseguir arribar a una persona.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.3cat.cat/3cat/una-nova-llei-determinara-que-tu-puguis-demanar-que-t-atengui-una-persona-i-no-u/audio/1291959/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1291959"
-      }
-    },
-    {
-      "id": "3cat-1291952",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-09-26",
-      "durada": "10 min",
-      "titol_original": "Komsai: hem de tractar un agent de la IA com si fos una persona",
-      "descripcio_original": "Albert Llongueras, CEO i fundador de Komsai, presenta dues eines d'intel·ligència artificial capaces d'analitzar les converses entre empreses i clients. El programa explica com aquestes eines poden convertir milers o milions de converses en informació útil per detectar patrons, queixes recurrents i necessitats que els clients no expressen explícitament, i transformar-les en coneixement per ajudar les empreses a prendre millors decisions.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.3cat.cat/3cat/komsai-hem-de-tractar-a-un-agent-de-la-ia-com-si-fos-una-persona/audio/1291952/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1291952"
-      }
-    },
-    {
-      "id": "rac1-20260926-el-descontrol-de-la-ia-la-crisi",
-      "emissora": "RAC1",
-      "programa": "Via lliure",
-      "programa_url": "https://www.rac1.cat/a-la-carta/programes/via-lliure",
-      "data": "2026-09-26",
-      "durada": "1 h 24 min",
-      "titol_original": "El descontrol de la IA, la crisi d'habitatge i el desnonament de Maricarmen, i la prohibició del burca als carrers de Lleida.",
-      "descripcio_original": "",
-      "descripcio_curta": true,
-      "ia_al_titol": true,
-      "url": "https://omny.fm/shows/via-lliure-conversa/el-descontrol-de-la-ia-la-crisi-dhabitatge-i-el-desnonament-de-maricarmen-i-la-prohibici-del-burca-als-carrers-de-lleida",
-      "reproductor": {
-        "tipus": "omny",
-        "id": "via-lliure-conversa/el-descontrol-de-la-ia-la-crisi-dhabitatge-i-el-desnonament-de-maricarmen-i-la-prohibici-del-burca-als-carrers-de-lleida"
-      }
-    },
-    {
-      "id": "rtve-17241508",
+      "id": "rtve-17250042",
       "emissora": "Ràdio 4",
       "programa": "Lletra lligada",
       "programa_url": "https://www.rtve.es/play/audios/lletra-lligada/",
       "data": "2026-09-26",
-      "durada": "59 min",
-      "titol_original": "Pantalles, llibres i IA: Guia de supervivència per a famílies",
-      "descripcio_original": "Torna la nostra prescriptora liter&agrave;ria amb un #BookLife dedicat a les pantalles . La Laura Garc&iacute;a ens ha recomanat llibres per abordar aquesta q&uuml;esti&oacute; amb els fills i per trobar reafirmacions i trucs que ens permetin mantenir les decisions i els l&iacute;mits envers els m&ograve;bils i altres dispositius electr&ograve;nics. Tamb&eacute; ens ha acompanyat la investigadora del CSIC Margarida Romero , experta en Ci&egrave;ncies Socials, IA i Educaci&oacute; . &Eacute;s possible trobar l'equilibri digital en la crian&ccedil;a? La IA t&eacute; la culpa dels mals resultats acad&egrave;mics dels alumnes?",
+      "durada": "24 min",
+      "titol_original": "Margarida Romero: \"No tot és culpa de les famílies\"",
+      "descripcio_original": "Pel que fa a la tecnologia, molts adults tenim la sensació que mai estarem al dia, però, com ens recorda aquesta experta, pares, mares i docents sabem què és més assenyat pels nostres infants i alumnes. La Margarida Romero és Investigadora a l’Institut d’Investigació en Intel·ligència Artificial, el principal centre del CSIC a Espanya dedicat exclusivament a la investigació científica en el camp de la Intel·ligència Artificial. A més, és experta en Ciències Socials i Educació, i mare. Ens ha ajudat a mirar aquesta qüestió amb perspectiva i ens ha donat uns quants consells.",
       "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/lletra-lligada/lletra-lligada-pantalles-llibres-ia-guia-supervivencia-per-families/17241508/",
+      "ia_al_titol": false,
+      "url": "https://www.rtve.es/play/audios/lletra-lligada/margarida-romero-no-tot-culpa-les-families-ia-lletra-lligada-radio4/17250042/",
       "reproductor": {
         "tipus": "rtve",
-        "id": "17241508"
-      }
-    },
-    {
-      "id": "rtve-17241837",
-      "emissora": "Ràdio 4",
-      "programa": "Són 4 dies",
-      "programa_url": "https://www.rtve.es/play/audios/son-4-dies/",
-      "data": "2026-09-26",
-      "durada": "30 min",
-      "titol_original": "Són 4 dies- L'impacte social de la IA",
-      "descripcio_original": "L'impacte social de la IA. Hem reflexionat sobre aquest tema amb Juan Francisco Jim&eacute;nez, Professor de Comunicaci&oacute; i Tecnologia de la Universitat Abat Oliba i Director de la c&aacute;tedra de IA de la mateixa universitat .",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/son-4-dies/son-4-dies-limpacte-social-ia/17241837/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17241837"
+        "id": "17250042"
       }
     }
   ]
