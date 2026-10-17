@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-16T19:43:44.011Z",
+ "actualitzat": "2026-10-17T04:13:50.814Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "8bbd900230f1",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Miguel Ángel Jenner, actor de doblaje: “La IA es un monstruo de cien cabezas; no le venderé mi alma al diablo y me llevaré mi voz a la tumba”",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261017/11656074/miguel-angel-jenner-actor-doblaje-ia-monstruo-cien-cabezas-le-vendere-mi-alma-diablo-me-llevare-mi-voz-tumba.html",
+   "publicat": "2026-10-17T04:00:00.000Z"
+  },
   {
    "id": "1b615cbe0f82",
    "mitja": "Cinco Días",
@@ -201,7 +212,9 @@
    "ambit": "catala",
    "titol": "Tierra de empresas | Inescop investiga el uso de la inteligencia artificial para acelerar el diseño y desarrollo de calzado",
    "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/inescop-investiga-el-uso-de-la-inteligencia-artificial-para-acelerar-el-diseno-y-desarrollo-de-calzado",
-   "publicat": "2026-10-16T10:02:19.000Z"
+   "publicat": "2026-10-16T10:02:19.000Z",
+   "noticia": "prodia-calcat-envasos-ia-comunitat-valenciana",
+   "noticiaTitol": "Un projecte valencià liderat per l'ITI vol que la IA ajudi a dissenyar calçat i envasos i a provar-ne el mercat abans de fabricar-los"
   },
   {
    "id": "a1cc42709785",
@@ -2384,52 +2397,6 @@
    "titol": "Nou incident de la IA: un model d’Anthropic envia una pista falsa sobre un homicidi a la policia de Filadèlfia",
    "url": "https://www.vilaweb.cat/noticies/anthropic-claude-pista-falsa-homicidi-policia-filadelfia",
    "publicat": "2026-10-10T08:05:30.000Z"
-  },
-  {
-   "id": "87951d4f86ce",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA entra en la contratación pública para hacer los procesos más transparentes",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261010/11636342/ia-entra-contratacion-publica-procesos-mas-transparentes.html",
-   "publicat": "2026-10-10T04:05:24.000Z"
-  },
-  {
-   "id": "12a8d61ec9e8",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una IA a dos velocidades",
-   "url": "https://www.lavanguardia.com/economia/20261010/11655521/ia-dos-velocidades.html",
-   "publicat": "2026-10-10T04:00:00.000Z"
-  },
-  {
-   "id": "e08001ee17b2",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El error de empezar la IA por la reducción de plantilla",
-   "url": "https://cincodias.elpais.com/opinion/2026-10-10/el-error-de-empezar-la-ia-por-la-reduccion-de-plantilla.html",
-   "publicat": "2026-10-10T03:40:00.000Z"
-  },
-  {
-   "id": "4bea3f5f5d9b",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tarragona detecta casos de montajes sexuales de menores con IA",
-   "url": "https://www.diaridetarragona.com/tarragona/272780/tarragona-detecta-casos-montajes-sexuales-menores-ia.html",
-   "publicat": "2026-10-10T03:00:00.000Z",
-   "noticia": "tarragona-fiscalia-montatges-sexuals-menors-ia-casos",
-   "noticiaTitol": "La Fiscalia de Tarragona detecta casos de menors que fan servir la IA per crear imatges sexuals falses de companyes"
   }
  ]
 }
