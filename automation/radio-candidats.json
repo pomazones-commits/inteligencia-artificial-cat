@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-17T12:13:41.243Z",
+  "generat": "2026-10-17T12:15:04.228Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -152,8 +152,11 @@
       "font": "wordpress",
       "emissora": "Ràdio Capital de l'Empordà",
       "programa": "Supermatí",
-      "estat": "error",
-      "error": "This operation was aborted"
+      "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
+      "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
+      "estat": "ok",
+      "audios": 21,
+      "sobre_ia": 3
     },
     {
       "font": "wordpress",
