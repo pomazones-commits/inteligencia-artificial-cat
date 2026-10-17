@@ -12,8 +12,8 @@
    apocalíptica-integrada només surt quan alguna sala ja ensenya la barra.
    17.10.2026: carrusel amb TOTES les sales (abans, només les 4 amb més gent).
    Ordre: primer les que tenen més persones situades; a igualtat, les més noves
-   primer, perquè una sala acabada d'obrir es vegi. Avança una targeta cada 9 s
-   (el mateix ritme que el carrusel de notícies), torna al principi en arribar
+   primer, perquè una sala acabada d'obrir es vegi. Avança una targeta cada 5 s
+   (abans 9 s, el ritme del carrusel de notícies), torna al principi en arribar
    al final i s'atura mentre el cursor, el dit o el focus hi són, quan la
    pestanya no es veu i amb «reduir el moviment». Botons ← → i lliscament amb
    el dit (scroll-snap). Cap salt vertical: totes les targetes fan la mateixa
@@ -23,7 +23,7 @@
   const banda = document.getElementById('agora');
   if (!banda || !window.fetch) return;
 
-  const PAS_MS = 9000;  // una targeta cada 9 s, com el carrusel de notícies (app.js)
+  const PAS_MS = 5000;  // una targeta cada 5 s (17.10.2026, en Rafael el vol més dinàmic que el de notícies, que va a 9 s)
   const MINIM = 5;      // persones situades a partir de les quals es mostra la barra
   const ARA_MINIM = 2;  // «N ara mateix» només a partir d'aquí
   const BASE = '/agora/';
