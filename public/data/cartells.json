@@ -1,29 +1,7 @@
 {
-  "actualitzat": "2026-10-14",
+  "actualitzat": "2026-10-17",
   "nota": "Imatges oficials dels actes, desades al nostre servidor. Les genera automation/scripts/recull-cartells.mjs: no s'edita a mà.",
   "cartells": {
-    "2026-10-13-shift-ai-europe": {
-      "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-10-14"
-    },
-    "2026-10-14-cloud-ai-live-barcelona-developers-track": {
-      "imatge": "/assets/cartells/2026-10-14-cloud-ai-live-barcelona-developers-track.jpg",
-      "amplada": 1200,
-      "alcada": 1200,
-      "font": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/blob_R2Lkr9p",
-      "pagina": "https://gdg.community.dev/events/details/google-gdg-barcelona-presents-cloud-ai-live-barcelona-developers-track/",
-      "organitza": "GDG Barcelona",
-      "recollit": "2026-10-11"
-    },
-    "2026-10-14-jornada-eps-inspiring-the-future-2026-talent-oportunitats-i": {
-      "imatge": "/assets/cartells/2026-10-14-jornada-eps-inspiring-the-future-2026-talent-oportunitats-i.jpg",
-      "amplada": 1200,
-      "alcada": 788,
-      "font": "https://www.eps.udl.cat/export/sites/Eps/Copia-de-HackEPS-2026-Nou-Logo.png",
-      "pagina": "https://www.eps.udl.cat/ca/agenda/Jornada-EPS-Inspiring-the-Future-2026-Talent-oportunitats-i-intelligencia-artificial-per-construir-el-propi-cami/",
-      "organitza": "Escola Politècnica Superior de la Universitat de Lleida i Alumni UdL",
-      "recollit": "2026-10-11"
-    },
     "2026-10-14-medtech-meets-ai-conference": {
       "imatge": "/assets/cartells/2026-10-14-medtech-meets-ai-conference.jpg",
       "amplada": 1200,
@@ -70,11 +48,18 @@
     },
     "2026-10-19-col-loqui-de-transjus-artificial-intelligence-and-cross-bord": {
       "error": "HTTP 403",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17",
+      "cartell_font": "https://web.ub.edu/documents/2710030/0/Artificial+Intelligence+ad+Cross-Border+Tort+Liability+copia.png/29830b46-d146-ee8d-031f-ffa8ef763541?t=1791287666089"
     },
     "2026-10-19-global-sustainability-barcelona-summit-2026": {
-      "error": "massa petita (399×204), segurament un logo",
-      "provat": "2026-10-14"
+      "imatge": "/assets/cartells/2026-10-19-global-sustainability-barcelona-summit-2026.jpg",
+      "amplada": 399,
+      "alcada": 204,
+      "font": "https://globalsustainabilitybarcelonasummit.com/wp-content/uploads/2026/03/Global-summit.png",
+      "pagina": "https://globalsustainabilitybarcelonasummit.com/",
+      "organitza": "Inspiring Events",
+      "logo": true,
+      "recollit": "2026-10-17"
     },
     "2026-10-20-ai-congress-barcelona-2026": {
       "imatge": "/assets/cartells/2026-10-20-ai-congress-barcelona-2026.jpg",
@@ -87,7 +72,7 @@
     },
     "2026-10-20-jornada-la-integritat-en-l-activitat-docent-cicle-qualitat-i": {
       "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-10-21-salo-de-l-ocupacio-2026": {
       "imatge": "/assets/cartells/2026-10-21-salo-de-l-ocupacio-2026.jpg",
@@ -99,8 +84,8 @@
       "recollit": "2026-10-11"
     },
     "2026-10-21-sors-womeninbsc-governing-artificial-intelligence-institutio": {
-      "error": "massa petita (96×100), segurament un logo",
-      "provat": "2026-10-14"
+      "error": "la web no declara cap imatge per compartir (og:image)",
+      "provat": "2026-10-17"
     },
     "2026-10-21-taller-de-la-bsc-ai-factory-avancar-en-l-adopcio-de-la-ia": {
       "imatge": "/assets/cartells/2026-10-21-taller-de-la-bsc-ai-factory-avancar-en-l-adopcio-de-la-ia.jpg",
@@ -113,7 +98,7 @@
     },
     "2026-10-21-uoc-nexus-ruraltech-iii-intel-ligencia-artificial-reptes-i-o": {
       "error": "massa petita (460×200), segurament un logo",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-10-21-vds-2026-valencia-digital-summit": {
       "imatge": "/assets/cartells/2026-10-21-vds-2026-valencia-digital-summit.jpg",
@@ -144,11 +129,11 @@
     },
     "2026-10-28-cafe-gips-historia-clinica-electronica-i-ia": {
       "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-10-29-conferencia-medium-ai-critical-thinking-and-the-future-of-kn": {
       "error": "proporció estranya (1690×400)",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-10-29-jornada-tecnica-recerca-i-innovacio-per-a-la-sostenibilitat": {
       "imatge": "/assets/cartells/2026-10-29-jornada-tecnica-recerca-i-innovacio-per-a-la-sostenibilitat.jpg",
@@ -161,7 +146,7 @@
     },
     "2026-10-30-2a-jornada-anual-de-la-societat-espanyola-d-intel-ligencia-a": {
       "error": "proporció estranya (2048×499)",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-11-02-forum-sobre-la-ia-en-l-advocacia": {
       "imatge": "/assets/cartells/2026-11-02-forum-sobre-la-ia-en-l-advocacia.jpg",
@@ -174,7 +159,7 @@
     },
     "2026-11-02-jornada-de-presentacio-del-projecte-pgtec-i-aiia-innovation": {
       "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-11-03-barcelona-deep-tech-summit-2026": {
       "imatge": "/assets/cartells/2026-11-03-barcelona-deep-tech-summit-2026.jpg",
@@ -214,11 +199,11 @@
     },
     "2026-11-09-gartner-it-symposium-xpo-2026": {
       "error": "HTTP 403",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-11-11-congreso-internacional-riesgo-responsabilidad-y-confianza-en": {
       "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-11-14-datathon-fme-2026": {
       "imatge": "/assets/cartells/2026-11-14-datathon-fme-2026.jpg",
@@ -240,7 +225,7 @@
     },
     "2026-11-18-robot2026-novena-conferencia-iberica-de-robotica": {
       "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-11-19-symposium-clinical-insights-in-cancer-genome-interpretation": {
       "imatge": "/assets/cartells/2026-11-19-symposium-clinical-insights-in-cancer-genome-interpretation.jpg",
@@ -253,11 +238,11 @@
     },
     "2026-11-19-v-forum-europeo-de-inteligencia-artificial": {
       "error": "no és una imatge JPEG, PNG ni WebP",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-11-19-valenciantech-26": {
       "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-11-20-4t-simposi-del-centre-de-ciencies-omiques": {
       "imatge": "/assets/cartells/2026-11-20-4t-simposi-del-centre-de-ciencies-omiques.jpg",
@@ -270,7 +255,7 @@
     },
     "2026-11-21-codex-chatgpt-hackaton-barcelona-devday-exchange-community-b": {
       "error": "no és una imatge JPEG, PNG ni WebP",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-11-21-devfest-girona-2026": {
       "imatge": "/assets/cartells/2026-11-21-devfest-girona-2026.jpg",
@@ -283,15 +268,15 @@
     },
     "2026-11-26-ai-day-bcombinator-from-pilots-to-operations": {
       "error": "imatge gairebé buida (d'un sol color)",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     },
     "2026-11-26-ii-congres-internacional-sobre-comunicacio-tecnologia-i-llen": {
-      "error": "proporció estranya (1400×400)",
-      "provat": "2026-10-14"
+      "error": "proporció estranya (1077×308)",
+      "provat": "2026-10-17"
     },
     "2026-12-02-tech-spirit-barcelona-2026": {
       "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-10-14"
+      "provat": "2026-10-17"
     }
   }
 }
