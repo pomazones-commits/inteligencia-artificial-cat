@@ -1,9 +1,31 @@
 {
-  "fitxes": [],
+  "fitxes": [
+    {
+      "id": "rna-1925096",
+      "emissora": "Ràdio Nacional d'Andorra",
+      "programa": "Les coses grans",
+      "programa_url": "https://www.rtva.ad/programes/les-coses-grans",
+      "data": "2026-10-05",
+      "durada": "",
+      "titol": "Convexify, l'empresa andorrana que treballa amb OpenAI",
+      "convidats": [
+        {
+          "nom": "Javier Sáez",
+          "rol": "fundador i conseller delegat de Convexify"
+        }
+      ],
+      "resum": "Una empresa andorrana, Convexify, ha estat nomenada partner d'OpenAI, l'empresa que hi ha darrere de ChatGPT. El seu fundador i conseller delegat, Javier Sáez, en parla a Les coses grans, en una edició que posa la intel·ligència artificial al centre de l'actualitat andorrana.",
+      "tema": "feina",
+      "url": "https://www.rtva.ad/programes/l-ia-protagonista-a-andorra-les-coses-grans-05-10-2026",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    }
+  ],
   "descartats": [
     {
-      "id": "tgnradio-373034",
-      "motiu": "La descripció no diu cap convidat ni cap persona amb nom, i no s'ha pogut escoltar l'àudio; no es pot escriure la fitxa sense inventar-ne."
+      "id": "rna-1928399",
+      "motiu": "la IA només surt al títol; la descripció parla d'economia i mercats"
     }
   ]
 }
