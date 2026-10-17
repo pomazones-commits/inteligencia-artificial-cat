@@ -190,6 +190,9 @@ test('WordPress: només les entrades amb reproductor, i quin reproductor', () =>
   assert.equal(a.length, 1);
   assert.equal(a[0].descripcio, 'Debat a “Món Digital”');
   assert.deepEqual(a[0].etiquetes, ['Món Digital']);
+  // Extracte tallat → el text sencer de l'entrada.
+  const tallat = llegeixWordpress([{ ...posts[0], excerpt: { rendered: '<p>Hi ha tecnologies que […]</p>' }, content: { rendered: '<p>Hi ha tecnologies que ens canvien la vida. Amb Anna Puig.</p><iframe src="https://www.youtube.com/embed/SnrL9yfki5k"></iframe>' } }]);
+  assert.equal(tallat[0].descripcio, 'Hi ha tecnologies que ens canvien la vida. Amb Anna Puig.');
 });
 
 test('À Punt: talls de ràdio del cercador i dades de la pàgina', () => {

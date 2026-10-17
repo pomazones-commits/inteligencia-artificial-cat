@@ -256,7 +256,9 @@ export function llegeixWordpress(posts, categories = new Map()) {
   return (Array.isArray(posts) ? posts : []).map(post => {
     const contingut = post?.content?.rendered || '';
     const reproductor = reproductorDe(contingut);
-    const descripcio = textPla(post?.excerpt?.rendered || '') || textPla(contingut);
+    // L'extracte de WordPress sovint acaba tallat («[…]»): llavors, el text sencer.
+    const extracte = textPla(post?.excerpt?.rendered || '');
+    const descripcio = !extracte || /\[(?:…|\.\.\.)\]\s*$/.test(extracte) ? textPla(contingut) || extracte : extracte;
     return {
       font_id: String(post?.id ?? ''),
       data: dataIso(post?.date),
@@ -529,7 +531,7 @@ export async function recull({ fonts, dades, descartats = [], anterior = null, a
 // de cada font (no els comptadors ni l'hora, que canvien a cada passada).
 export function firma(r) {
   return JSON.stringify({
-    c: (r?.candidats || []).map(c => c.id + '|' + c.titol_original + '|' + c.durada),
+    c: (r?.candidats || []).map(c => [c.id, c.titol_original, c.durada, c.descripcio_original].join('|')),
     f: (r?.fonts || []).map(f => `${f.emissora}|${f.programa}|${f.estat}`)
   });
 }
