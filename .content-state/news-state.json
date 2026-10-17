@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-10-17",
-  "updatedAt": "2026-10-17T12:13:43.269Z",
-  "batches": 5,
+  "updatedAt": "2026-10-17T16:14:39.012Z",
+  "batches": 6,
   "target": 20,
   "items": [
+    {
+      "category": "REGULACIÓ",
+      "read": "5 MIN",
+      "slug": "xina-controls-exportacio-models-pesos-oberts-23-tecnologies",
+      "title": "La Xina proposa controlar l'exportació de 23 tecnologies d'IA, entre elles models grans i agents, i demana un registre previ",
+      "excerpt": "El Ministeri de Comerç i el de Ciència han posat a consulta un nou catàleg de tecnologies d'exportació prohibida o restringida. Fins que s'aprovi, els exportadors han de registrar certes operacions abans d'enviar-les.",
+      "sourceName": "Ministeri de Comerç de la Xina (MOFCOM)",
+      "sourceUrl": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_d7661dbf62794345a221404f82a25959.html",
+      "sourceDate": "16 d'octubre de 2026",
+      "body": "Fa anys que els Estats Units limiten l'exportació de xips d'IA a la Xina. Ara és Pequín qui mou fitxa en l'altre sentit: no sobre el maquinari que compra, sinó sobre el programari que pot vendre o regalar a l'estranger, com els models, els agents i les eines que els fan servir.\n\nSegons l'anunci número 48 del 2026, el Ministeri de Comerç i el de Ciència i Tecnologia han posat a consulta pública una revisió del catàleg de tecnologies d'exportació prohibida o restringida. El projecte afegeix 40 tecnologies clau: 23 d'intel·ligència artificial (models grans, agents, clústers de còmput i tractament d'informació), 5 de biomedicina i 12 de fotovoltaica. 14 es proposen com a prohibides i 26 com a restringides. Entre les prohibides hi ha les eines d'IA que generen o modifiquen codi maliciós; entre les restringides, les que ajuden a trobar vulnerabilitats. Des del 16 d'octubre i fins que el catàleg entri en vigor, certes exportacions s'han de registrar al sistema del ministeri abans de ser enviades.\n\nSegons el web especialitzat The Decoder, que ha llegit també el document de la via ràpida, els models grans quedarien sota control en dos casos: si s'han entrenat amb «dades importants» segons la llei de seguretat de dades xinesa, o si la tecnologia central (pesos, codi, arquitectura, mètodes d'entrenament) supera uns llindars, com ara 10^26 operacions d'entrenament, 2 bilions de paràmetres o una plaça entre els deu millors del món. Publicar la tecnologia restringida com a codi obert tindria una llicència automàtica, i l'ús dels models per API, aplicació o web no estaria controlat. L'anunci diu que el codi obert, els treballs acadèmics publicats i l'accés per API o SaaS reben un tracte diferent, i que alguns queden fora del control.\n\nFalta saber molt: és un projecte, el comunicat no fixa quan s'aprovarà la versió definitiva i no s'han donat les 23 tecnologies una a una. L'anàlisi sobre l'efecte en les empreses nord-americanes i europees que fan servir models oberts xinesos és interpretació de The Decoder, no una posició oficial. Dean W. Ball, d'OpenAI, ha dit que el marc no tanca els models oberts xinesos, però dona al Govern l'opció de fer-ho quan vulgui.",
+      "image": "./assets/xina-controls-exportacio-models-pesos-oberts-23-tecnologies-20261017.jpg"
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "slug": "claude-corbes-el-liptiques-nist-lrand48-origen-llavors",
+      "title": "Anthropic diu que Claude va descobrir en menys de mitja hora com es van triar les llavors de les corbes de signatura digital del NIST",
+      "excerpt": "Durant 25 anys, el mètode amb què es van generar les xifres inicials d'unes corbes criptogràfiques estàndard va alimentar sospites de porta del darrere. Anthropic explica que provenen d'un generador aleatori senzill.",
+      "sourceName": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "sourceDate": "16 d'octubre de 2026",
+      "body": "L'any 2000, l'institut nord-americà d'estàndards (NIST) va fixar unes corbes el·líptiques per a la signatura digital ECDSA, que avui es fa servir per protegir transaccions i connexions. Cada corba parteix d'un nombre inicial, una «llavor», que l'NSA va donar sense explicar-ne l'origen. Aquell silenci va alimentar durant dècades la sospita que les corbes podien amagar una porta del darrere.\n\nAnthropic explica, en un text de recerca, que un dels seus models Claude, en una versió interna, ha trobat d'on surten les llavors de les corbes P-192, P-224, P-256, P-384 i P-521. No són el resultat d'una funció de resum aplicada a una frase, com s'havia suposat, sinó la sortida del generador de nombres aleatoris lrand48 de la llibreria C, inicialitzat amb una marca horària d'entre el maig del 1997 i l'abril del 1998. L'empresa diu que el model ho va aconseguir en menys de mitja hora: va notar que lrand48 només dona 31 bits i que els bits més alts d'algunes llavors eren sempre zero, i va recuperar l'estat del generador amb una tècnica de reducció de reticles (LLL).\n\nLa troballa respon el repte que va obrir el criptògraf Filippo Valsorda amb una recompensa de 36.864 dòlars, que Anthropic diu que donarà a l'Internet Security Research Group. L'empresa també explica els punts de partida de la corba P-192 i de cinc corbes més de l'estàndard ANSI X9.62, i publica el codi per regenerar-ho, amb llicència CC0.\n\nEls límits són clars. Anthropic diu que això no és cap trencament criptogràfic ni revela cap debilitat, i que només fa menys plausible una porta del darrere perquè les llavors surten d'un procés senzill i reproduïble: no demostra que no n'hi hagi. Els punts de partida de P-224, P-256, P-384 i P-521 continuen sense explicació, igual que la llavor B-163. El text el signen investigadors de l'empresa i no diu que experts externs hagin verificat el resultat.",
+      "image": "./assets/claude-corbes-el-liptiques-nist-lrand48-origen-llavors-20261017.jpg"
+    },
+    {
+      "category": "MODELS",
+      "read": "4 MIN",
+      "slug": "deepseek-v41-flash-1017-agents-cost",
+      "title": "DeepSeek publica un model obert que, segons l'empresa, supera rivals més grans en tasques d'agent i costa menys per tasca",
+      "excerpt": "La versió V4.1-Flash-1017 es pot descarregar, i DeepSeek obre també la seva cerca interna als desenvolupadors. Les xifres són de l'empresa i encara no n'hi ha proves independents.",
+      "sourceName": "The Decoder",
+      "sourceUrl": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+      "sourceDate": "17 d'octubre de 2026",
+      "body": "DeepSeek continua afinant la sèrie V4.1 amb un model que posa el pes en el cost per tasca. Aquest cop no és un salt de mida, sinó un ajust: més ràpid, amb respostes més curtes i un preu més baix per resoldre una feina d'agent, és a dir, una tasca llarga en què el model fa servir eines.\n\nL'empresa xinesa ha posat V4.1-Flash-1017 al web, a l'aplicació i a l'API, i n'ha publicat els pesos a Hugging Face i ModelScope. Segons DeepSeek, s'ha entrenat amb un aprenentatge per reforç on el model es puntua amb les seves pròpies valoracions de confiança o crítiques, no amb avaluadors humans. A la prova interna DeepSWE assegura que arriba al 77,0% per menys de 0,20 dòlars per tasca; el predecessor feia el 74,2% per uns 0,50. L'empresa afirma que supera Claude Opus 5, GPT 5.6-Sol, Kimi K3 i GLM 5.3 en diverses categories de programació i agents, amb costos per tasca que en els rivals van de 2 dòlars a més de 10.\n\nLa novetat que pot interessar més els desenvolupadors és que DeepSeek ofereix una API de cerca i una de lectura de pàgines, a 0,75 dòlars per cada mil crides. Fins al 31 d'octubre a les 16 h UTC es poden fer servir gratis amb les eines de servidor de DeepSeek Harness, Claude Code i Codex.\n\nTot això són xifres de l'empresa, de proves pròpies, i The Decoder indica que encara no n'hi havia de proves independents; recorda també que els resultats de les proves no sempre coincideixen amb la qualitat del codi que els programadors perceben. El mateix mitjà esmenta, sense confirmar-ho, que el Govern xinès prepara regles més estrictes per a la publicació de models oberts, cosa que s'hauria de seguir amb el catàleg que es va posar a consulta divendres.",
+      "image": "./assets/deepseek-v41-flash-1017-agents-cost-20261017.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "6 MIN",
+      "slug": "google-agents-laboratori-humit-aptamers-proteines",
+      "title": "Google fa que agents d'IA dissenyin experiments, els provin en un laboratori robotitzat i aprenguin dels errors",
+      "excerpt": "En tres rondes, els agents van millorar les molècules que enganxen una proteïna fins al 42% d'encert, però també van caure en una drecera que semblava un èxit. Els tres informes no consten revisats per parells.",
+      "sourceName": "Google Research",
+      "sourceUrl": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+      "sourceDate": "16 d'octubre de 2026",
+      "body": "Un agent d'IA pot proposar mil molècules en una tarda, però el que compta en biologia és què passa quan es barregen de debò al laboratori. Els investigadors de Google Research Pooja Rao, Petar Sirkovic i Annalisa Pawlosky expliquen un intent de tancar aquest cercle: que l'agent dissenyi, l'experiment es faci amb robots, i el resultat torni a l'agent per millorar el disseny.\n\nEl sistema té tres peces. VERID és un «bessó digital» del laboratori, construït sobre la llibreria oberta PyLabRobot, que segueix la posició del braç robòtic, els volums dels pous i les puntes de pipeta, simula cada protocol abans d'executar-lo i bloqueja les ordres invàlides. La segona és un banc de proves amb aptàmers, fragments d'ADN que s'enganxen a una proteïna, amb un cicle de 7 a 10 dies. Amb l'α-trombina, el percentatge d'aptàmers que s'hi van unir va passar del 0% a la primera ronda al 26,0% a la segona i al 42,1% a la tercera, amb un 98,5% d'especificitat. La tercera peça és el disseny de proteïnes contra FAP, un receptor abundant en alguns tumors sòlids: segons els autors, la col·laboració entre persona i agent va gairebé doblar l'encert en simulació respecte d'un científic sol, i els millors candidats van arribar a unir-se amb afinitat de nanomolars d'un sol dígit després de poques tirades experimentals.\n\nEl cas més instructiu és el de la mioglobina. A la segona ronda els agents van afavorir uns motius d'ADN (G-quadruplexos, el 63% dels dissenys) que feien pujar la captura bruta, però s'enganxaven a tot: l'especificitat va caure del 75,0% al 19,1%. A la tercera, els agents van corregir les seves regles i van recuperar el 72,4% d'especificitat. Els autors hi veuen un exemple de com un agent pot optimitzar una drecera.\n\nCal llegir-ho amb mesura. És una entrada de blog amb tres informes tècnics allotjats per Google, i la pàgina no diu que hagin estat revisats per parells. Són dues molècules de prova i poques rondes; no s'ha demostrat que funcioni amb altres dianes. Google diu que només fa servir sistemes sense risc infecciós, que cada seqüència passa un filtre de bioseguretat i que una persona autoritza protocols i execucions. Els mateixos autors reconeixen que verificar protocols llargs i vigilar com raonen els agents continua obert.",
+      "image": "./assets/google-agents-laboratori-humit-aptamers-proteines-20261017.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "6 MIN",
+      "slug": "bootloops-schwartz-claude-36-manuscrits",
+      "title": "Un físic de Harvard escriu 36 manuscrits en tres mesos amb Claude i unes eines obertes, i n'explica els límits",
+      "excerpt": "Matthew Schwartz diu que ha treballat uns 400 problemes candidats en 18 camps amb 19 coautors. Els resultats encara s'estan verificant i l'autor és investigador visitant d'Anthropic.",
+      "sourceName": "Anthropic Science (article d'opinió convidat de Matthew Schwartz)",
+      "sourceUrl": "https://www.anthropic.com/research/claude-shaped-science",
+      "sourceDate": "1 d'octubre de 2026",
+      "body": "La pregunta que es fa Matthew Schwartz, físic teòric de Harvard, és quina mena de problema deixa fer bé una IA que treballa hores sense parar. La seva resposta és BootLoops: unes eines de codi obert per a càlculs exactes en ciència quantitativa, que ell manté i que, com remarca, no són un projecte d'Anthropic.\n\nEn un text publicat a la secció de ciència d'Anthropic, de la qual és investigador visitant, explica el mètode: sessions de Claude Code que treballen en màquines virtuals de Google Cloud, una per projecte, amb una sessió mestra que coordina el còmput i valida els resultats, i altres que escriuen, programen eines i revisen els resultats d'una manera adversària. En tres mesos, segons ell, han sortit 36 manuscrits, en 18 camps, amb 19 coautors i d'entre uns 400 problemes candidats. Entre les xifres que dona hi ha 30 integrals resoltes de punta a punta (15 reproduccions i 15 de noves), 5.700 milions de parells de mutacions analitzats, 4.452 articles d'economia revisats i una base lingüística de 6.072 llengües.\n\nEl que fa més útil el text són els avisos. Segons Schwartz, el model sovint dona la feina per acabada abans d'hora, fa mals càlculs del temps que necessita, tendeix a empassar-se càlculs llargs en lloc de fer una eina més ràpida, i perd context quan comprimeix la conversa. «El model treballarà per sempre si el deixes», escriu. Calia la validació d'experts per jutjar quins resultats importaven, i les conclusions poden ser errònies.\n\nTampoc no es pot parlar encara de ciència establerta. El text no diu que els manuscrits hagin estat revisats per parells: assegura que els resultats estan «en procés d'exploració i verificació», i el treball d'economia consta com a document de treball de l'NBER. Per tant, són preprints o assajos pendents de comprovar, i les xifres de l'abast les dona l'autor, que en parla des d'una plataforma d'Anthropic i amb un model d'Anthropic.",
+      "image": "./assets/bootloops-schwartz-claude-36-manuscrits-20261017.jpg"
+    },
     {
       "category": "ROBÒTICA",
       "read": "4 MIN",
