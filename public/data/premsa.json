@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-17T12:14:18.444Z",
+ "actualitzat": "2026-10-17T15:59:14.479Z",
  "fonts": 44,
  "articles": [
   {
@@ -2408,17 +2408,6 @@
    "titol": "Anthropic revela que la IA va enviar pistes falses d'un homicidi a la policia",
    "url": "https://www.3cat.cat/3catinfo/anthropic-revela-que-la-ia-va-enviar-pistes-falses-dun-homicidi-a-la-policia/noticia/3433510",
    "publicat": "2026-10-10T17:11:05.000Z"
-  },
-  {
-   "id": "fe3a8025b3df",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Una IA de Anthropic envía una denuncia falsa sobre un asesinato a la policía de Filadelfia (EEUU)",
-   "url": "https://www.elmundo.es/tecnologia/2026/10/10/6aca303ce4d4d8d3638b459e.html",
-   "publicat": "2026-10-10T12:44:25.000Z"
   }
  ]
 }
