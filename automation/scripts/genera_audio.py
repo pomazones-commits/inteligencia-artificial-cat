@@ -135,6 +135,21 @@ def darrer_estudi_civicai(path: Path = Path("public/estudis-arxiu.js")) -> dict:
     return darrera_veu_civicai(path, "IA_ESTUDIS_ARXIU")
 
 
+# Prefix propi de «Veus de CIVICAi» (17.10.2026, decisió d'en Rafael): així una
+# veu i una tribuna (o un estudi de CIVICAi i l'estudi vigent) es poden publicar
+# el mateix dia sense que els MP3 es trepitgin. Les peces anteriors al 18.10.2026
+# conserven el nom antic. tribuna.html, estudi.html i podcast.php fan servir la
+# mateixa regla (CIVICAI_DES_DE).
+CIVICAI_DES_DE = "2026-10-18"
+
+
+def prefix_civicai(data: str, estudi: bool) -> str:
+    """Prefix del MP3 d'una peça de «Veus de CIVICAi» segons la data."""
+    if data_iso(data) >= CIVICAI_DES_DE:
+        return "civicai-estudi" if estudi else "civicai"
+    return "estudi" if estudi else "tribuna"
+
+
 def darrera_veu_empresa(path: Path = Path("public/empresa.js")) -> dict:
     """La peça més recent de «Veus d'empresa» (15.10.2026).
 
@@ -598,23 +613,27 @@ def main() -> int:
     # 2) Peces editorials fixes (anàlisi, tribuna, imatge del dia).
     #    Mai no fan fallar el workflow: si una peça falla, la pàgina conserva
     #    el lector de veu del navegador.
-    # La veu de CIVICAi més recent (14.10.2026) va amb el prefix «tribuna» perquè
-    # tribuna.html busca l'MP3 per data (tribuna-AAAA-MM-DD.mp3). Si coincidís el
-    # mateix dia que la tribuna vigent, es salta (els dos MP3 es trepitjarien).
     peces = [(fitxer, prefix, camps, None) for fitxer, prefix, camps in PECES_EXTRES]
+    # Veus de CIVICAi (opinió i entrevistes de tribuna-arxiu.js, i estudis
+    # d'estudis-arxiu.js). Des del 18.10.2026 (decisió d'en Rafael del 17.10)
+    # porten prefix propi —civicai-AAAA-MM-DD.mp3 i civicai-estudi-AAAA-MM-DD.mp3—
+    # i ja no xoquen mai amb la tribuna ni amb l'estudi vigents. Les d'abans
+    # d'aquella data conserven el nom antic (tribuna-/estudi-), que és el que
+    # tenen al servidor; només en aquest cas cal saltar-les si coincideixen.
     veu = darrera_veu_civicai()
-    if veu and data_iso(str(veu.get("date", ""))) != data_iso(str(llegeix_ia_js(Path("public/tribuna.js")).get("date", ""))):
-        peces.append((Path("public/tribuna-arxiu.js"), "tribuna", ("title", "excerpt", "body"), veu))
-    elif veu:
-        print("AVÍS: la darrera veu de CIVICAi té la mateixa data que la tribuna vigent; no se'n fa l'àudio.")
-    # L'estudi de CIVICAi més recent (16.10.2026) va amb el prefix «estudi», perquè
-    # estudi.html busca l'MP3 per data (estudi-AAAA-MM-DD.mp3). Si coincidís el
-    # mateix dia que l'estudi vigent, es salta (els dos MP3 es trepitjarien).
+    if veu:
+        pref = prefix_civicai(str(veu.get("date", "")), estudi=False)
+        if pref == "tribuna" and data_iso(str(veu.get("date", ""))) == data_iso(str(llegeix_ia_js(Path("public/tribuna.js")).get("date", ""))):
+            print("AVÍS: la darrera veu de CIVICAi (nom antic) té la mateixa data que la tribuna vigent; no se'n fa l'àudio.")
+        else:
+            peces.append((Path("public/tribuna-arxiu.js"), pref, ("title", "excerpt", "body"), veu))
     estudi_veu = darrer_estudi_civicai()
-    if estudi_veu and data_iso(str(estudi_veu.get("date", ""))) != data_iso(str(llegeix_ia_js(Path("public/estudis.js")).get("date", ""))):
-        peces.append((Path("public/estudis-arxiu.js"), "estudi", ("title", "abstract", "body"), estudi_veu))
-    elif estudi_veu:
-        print("AVÍS: el darrer estudi de CIVICAi té la mateixa data que l'estudi vigent; no se'n fa l'àudio.")
+    if estudi_veu:
+        pref = prefix_civicai(str(estudi_veu.get("date", "")), estudi=True)
+        if pref == "estudi" and data_iso(str(estudi_veu.get("date", ""))) == data_iso(str(llegeix_ia_js(Path("public/estudis.js")).get("date", ""))):
+            print("AVÍS: el darrer estudi de CIVICAi (nom antic) té la mateixa data que l'estudi vigent; no se'n fa l'àudio.")
+        else:
+            peces.append((Path("public/estudis-arxiu.js"), pref, ("title", "abstract", "body"), estudi_veu))
     empresa = darrera_veu_empresa()
     if empresa:
         peces.append((Path("public/empresa.js"), "empresa", ("title", "excerpt", "body"), empresa))

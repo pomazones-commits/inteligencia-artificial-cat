@@ -171,8 +171,12 @@
       if (window.IASeries) window.IASeries.marca(t, { etiqueta: document.getElementById('kicker'), peu: document.getElementById('cos') });
       document.getElementById('contingut').hidden = false;
       // Lector: MP3 neural si existeix (tribuna-AAAA-MM-DD.mp3), veu del navegador si no.
+      // «Veus de CIVICAi» des del 18.10.2026: prefix propi (civicai-AAAA-MM-DD.mp3),
+      // perquè una veu i una tribuna del mateix dia no es trepitgin (genera_audio.py).
       var m = /^(\d{2})\.(\d{2})\.(\d{4})$/.exec(t.date || '');
-      var audioUrl = m ? './assets/audio/tribuna-' + m[3] + '-' + m[2] + '-' + m[1] + '.mp3' : null;
+      var iso = m ? m[3] + '-' + m[2] + '-' + m[1] : '';
+      var prefixAudio = (t.serie === 'veus-de-civicai' && iso >= '2026-10-18') ? 'civicai-' : 'tribuna-';
+      var audioUrl = m ? './assets/audio/' + prefixAudio + iso + '.mp3' : null;
       window.IALector.init({
         container: document.getElementById('lector'),
         audioUrl: audioUrl,

@@ -1599,6 +1599,26 @@ test('Veus de CIVICAi: també els estudis dels membres, a la portada i en àudio
   assert.equal(py.stdout.trim(), 'E1');
 });
 
+test('Veus de CIVICAi: MP3 amb prefix propi des del 18.10.2026, sense trepitjar la tribuna (17.10.2026)', () => {
+  const arrel = resolve(import.meta.dirname, '..', '..');
+  const py = spawnSync('python3', ['-c', [
+    'import importlib.util',
+    `spec = importlib.util.spec_from_file_location("g", ${JSON.stringify(join(arrel, 'automation', 'scripts', 'genera_audio.py'))})`,
+    'g = importlib.util.module_from_spec(spec); spec.loader.exec_module(g)',
+    'print(g.prefix_civicai("27.10.2026", False), g.prefix_civicai("2026-10-18", True), g.prefix_civicai("14.10.2026", False), g.prefix_civicai("16.10.2026", True))',
+  ].join('\n')], { encoding: 'utf8' });
+  assert.equal(py.status, 0, py.stderr);
+  assert.equal(py.stdout.trim(), 'civicai civicai-estudi tribuna estudi');
+  // Les pàgines i el pòdcast fan servir la mateixa regla i la mateixa data de tall.
+  const tribuna = readFileSync(join(arrel, 'public', 'tribuna.html'), 'utf8');
+  assert.match(tribuna, /t\.serie === 'veus-de-civicai' && iso >= '2026-10-18'\) \? 'civicai-' : 'tribuna-'/);
+  const estudi = readFileSync(join(arrel, 'public', 'estudi.html'), 'utf8');
+  assert.match(estudi, /e\.serie === 'veus-de-civicai' && isoEstudi >= '2026-10-18'\) \? 'civicai-estudi-' : 'estudi-'/);
+  const podcast = readFileSync(join(arrel, 'public', 'podcast.php'), 'utf8');
+  assert.match(podcast, /=== 'veus-de-civicai' && \$peca\['dataIso'\] >= '2026-10-18'/);
+  assert.match(podcast, /'civicai-estudi-' : 'civicai-'/);
+});
+
 test('cartell: si el dia més proper té dos actes grans, surten tots dos en carrusel (17.10.2026)', async () => {
   const vm = await import('node:vm');
   const src = await readFile(resolve(import.meta.dirname, '..', '..', 'public', 'cartell.js'), 'utf8');

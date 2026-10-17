@@ -5,7 +5,8 @@ declare(strict_types=1);
 //
 // RSS amb les etiquetes d'Apple Podcasts i Spotify. NO genera cap àudio: fa
 // servir els MP3 que el workflow «Àudio de l'edició» ja puja cada dia a
-// assets/audio/ (reflexio-, analisi-, quadern-, tribuna- i estudi-AAAA-MM-DD).
+// assets/audio/ (reflexio-, analisi-, quadern-, tribuna-, estudi-, empresa-,
+// civicai- i civicai-estudi-AAAA-MM-DD).
 // Només hi surten els episodis que tenen el fitxer al servidor: quan la neteja
 // setmanal retira un MP3 de més de 90 dies, l'episodi desapareix sol del canal.
 // Per donar-lo d'alta a Spotify o Apple Podcasts n'hi ha prou amb aquesta adreça.
@@ -21,7 +22,12 @@ $hores = ['reflexio' => '19:00', 'analisi' => '09:00', 'quadern' => '09:30', 'tr
 $episodis = [];
 foreach (iacat_totes_les_peces() as $peca) {
     if ($peca['dataIso'] === '') { continue; }
-    $nom = $seccions[$peca['tipus']]['audio'] . $peca['dataIso'] . '.mp3';
+    $prefix = $seccions[$peca['tipus']]['audio'];
+    // «Veus de CIVICAi» des del 18.10.2026: prefix propi (genera_audio.py, prefix_civicai).
+    if (($peca['item']['serie'] ?? '') === 'veus-de-civicai' && $peca['dataIso'] >= '2026-10-18') {
+        $prefix = $peca['tipus'] === 'estudis' ? 'civicai-estudi-' : 'civicai-';
+    }
+    $nom = $prefix . $peca['dataIso'] . '.mp3';
     if (!is_file($dirAudio . $nom)) { continue; }
     $peca['_mp3'] = $nom;
     $peca['_mida'] = (int) filesize($dirAudio . $nom);
