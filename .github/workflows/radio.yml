@@ -10,7 +10,8 @@ name: La IA a la ràdio — recollida de les emissores
 #      passen. Els candidats que la sessió descarta van a
 #      automation/radio-descartats.json perquè no tornin a sortir.
 #   2. RECULL els àudios nous sobre IA dels programes de la llista tancada
-#      automation/radio-sources.json (APIs públiques de 3Cat, RTVE i Omny, sense
+#      automation/radio-sources.json (APIs públiques de 3Cat, RTVE i Omny, el
+#      cercador d'À Punt i les webs WordPress de RAB i les ràdios locals, sense
 #      cap clau) i en desa les metadades oficials a automation/radio-candidats.json.
 #      Les sessions no hi arriben (el sandbox bloqueja aquestes APIs); Actions sí.
 #
@@ -54,7 +55,7 @@ jobs:
   recull:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion != 'cancelled'
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 15
     steps:
       - name: Recuperar el web
         uses: actions/checkout@v4

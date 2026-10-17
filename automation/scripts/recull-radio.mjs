@@ -21,6 +21,11 @@
 //      i només afegeix a public/data/radio.json les que passen. Una fitxa dolenta
 //      deixa un avís i prou: mai no atura res ni toca les fitxes que ja hi ha.
 //
+// Fonts (17.10.2026): APIs de 3Cat, RTVE i Omny (RAC1); el cercador d'À Punt
+// (sense API, HTML pintat al servidor); i les webs WordPress de RAB Ràdio i de
+// les ràdios locals (/wp-json/, només les entrades que porten reproductor). Una
+// font amb «prova»: true només informa i no proposa candidats.
+//
 // Les sessions no escriuen mai public/data/radio.json directament quan treballen
 // des dels candidats: així un lot que acabi en una PR (auto-merge-lots.yml només
 // accepta incoming/** i public/assets/**) no queda encallat per una fitxa.
@@ -153,15 +158,21 @@ async function escriuJson(ruta, dades) {
 
 function obtenidor(fixtures) {
   if (fixtures) {
-    return async clau => JSON.parse(await readFile(join(fixtures, `${clau}.json`), 'utf8'));
+    return async (clau, _url, { text = false } = {}) => {
+      const cont = await readFile(join(fixtures, `${clau}.${text ? 'html' : 'json'}`), 'utf8');
+      return text ? cont : JSON.parse(cont);
+    };
   }
-  return async (_clau, url) => {
+  return async (_clau, url, { text = false } = {}) => {
     const ctrl = new AbortController();
-    const t = setTimeout(() => ctrl.abort(), 25000);
+    const t = setTimeout(() => ctrl.abort(), 20000);
     try {
-      const r = await fetch(url, { headers: { 'user-agent': UA, accept: 'application/json' }, signal: ctrl.signal });
+      const r = await fetch(url, {
+        headers: { 'user-agent': UA, accept: text ? 'text/html,application/xhtml+xml' : 'application/json' },
+        signal: ctrl.signal
+      });
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      return await r.json();
+      return text ? await r.text() : await r.json();
     } finally {
       clearTimeout(t);
     }
@@ -226,11 +237,158 @@ export function llegeixOmny(json) {
 }
 const OMNY_ID = /^[a-z0-9-]+\/[a-z0-9-]+$/;
 
+// --- WordPress (RAB Ràdio i ràdios locals) --------------------------------------
+// Moltes ràdios locals publiquen cada tall com una entrada de WordPress amb el
+// reproductor incrustat. Només compta l'entrada que porta un reproductor: una
+// notícia escrita sense àudio no és una intervenció a la ràdio.
+
+export function reproductorDe(html) {
+  const h = String(html || '');
+  let m = h.match(/youtube(?:-nocookie)?\.com\/embed\/([A-Za-z0-9_-]{11})/);
+  if (m) return { tipus: 'youtube', id: m[1] };
+  m = h.match(/api\.soundcloud\.com(?:%2F|\/)tracks(?:%2F|\/)(?:soundcloud(?:%3A|:)tracks(?:%3A|:))?(\d{4,12})/i);
+  if (m) return { tipus: 'soundcloud', id: m[1] };
+  if (/<audio\b|\.mp3\b|wp-block-audio|ivoox\.com|spreaker\.com|mixcloud\.com|omny\.fm\/shows|open\.spotify\.com\/(?:embed\/)?episode/i.test(h)) return { tipus: 'enllac' };
+  return null;
+}
+
+export function llegeixWordpress(posts, categories = new Map()) {
+  return (Array.isArray(posts) ? posts : []).map(post => {
+    const contingut = post?.content?.rendered || '';
+    const reproductor = reproductorDe(contingut);
+    const descripcio = textPla(post?.excerpt?.rendered || '') || textPla(contingut);
+    return {
+      font_id: String(post?.id ?? ''),
+      data: dataIso(post?.date),
+      segons: 0,
+      titol: textPla(post?.title?.rendered),
+      descripcio,
+      url: String(post?.link || '').replace(/^http:/, 'https:'),
+      reproductor,
+      etiquetes: (post?.categories || []).map(id => categories.get(id)).filter(Boolean)
+    };
+  }).filter(a => a.reproductor && /^\d+$/.test(a.font_id) && a.url.startsWith('https://'));
+}
+
+async function audiosWordpress(p, { des, obtenir }) {
+  const base = String(p.web || '').replace(/\/+$/, '');
+  const clau = `wp-${p.prefix}`;
+  const info = {};
+  try {
+    const idx = await obtenir(`${clau}-index`, `${base}/wp-json/`);
+    info.nom_web = textPla(idx?.name || '');
+    if (idx?.site_icon_url) info.icona_web = idx.site_icon_url;
+  } catch { /* l'índex és opcional */ }
+  const categories = new Map();
+  try {
+    const cats = await obtenir(`${clau}-categories`, `${base}/wp-json/wp/v2/categories?per_page=100&_fields=id,name`);
+    for (const c of Array.isArray(cats) ? cats : []) categories.set(c.id, textPla(c.name));
+  } catch { /* sense categories, igualment */ }
+  const camps = '_fields=id,date,link,title,excerpt,content,categories';
+  const posts = new Map();
+  // Les entrades més recents (obligatori: si això falla, la font és caiguda)…
+  const recents = await obtenir(`${clau}-posts`, `${base}/wp-json/wp/v2/posts?after=${des}T00:00:00&per_page=100&${camps}`);
+  for (const q of Array.isArray(recents) ? recents : []) posts.set(q.id, q);
+  // …i, per a les webs amb moltes entrades al dia, una cerca pels termes.
+  const termes = p.termes || ['intel·ligència artificial', 'inteligencia artificial'];
+  for (const [n, t] of termes.entries()) {
+    try {
+      const r = await obtenir(`${clau}-cerca-${n}`, `${base}/wp-json/wp/v2/posts?search=${encodeURIComponent(t)}&after=${des}T00:00:00&per_page=50&${camps}`);
+      for (const q of Array.isArray(r) ? r : []) posts.set(q.id, q);
+    } catch { /* la cerca és un complement */ }
+  }
+  return { audios: llegeixWordpress([...posts.values()], categories), info };
+}
+
+// --- À Punt Ràdio ---------------------------------------------------------------
+// apuntmedia.es no té API pública, però el cercador es pinta al servidor. Els
+// talls de ràdio porten «_135_<id>.html» a l'adreça (la televisió, «_134_»).
+// De cada tall nou se'n llegeix la pàgina: og:title, og:description i durada.
+
+export function enllacosApunt(html) {
+  const fets = new Map();
+  const re = /href="(?:https:\/\/www\.apuntmedia\.es)?(\/programes\/([a-z0-9-]+)\/[^"#?]*?_135_(\d+)\.html)"/g;
+  let m;
+  while ((m = re.exec(String(html || '')))) {
+    if (fets.has(m[3])) continue;
+    const d = m[1].match(/\/(\d{2})-(\d{2})-(\d{4})-/);
+    fets.set(m[3], {
+      font_id: m[3],
+      programa_slug: m[2],
+      data: d ? `${d[3]}-${d[2]}-${d[1]}` : '',
+      url: `https://www.apuntmedia.es${m[1]}`
+    });
+  }
+  return [...fets.values()];
+}
+
+function metaDe(html, nom) {
+  const h = String(html || '');
+  const re1 = new RegExp(`<meta[^>]+(?:property|name)=["']${nom}["'][^>]+content=["']([^"']*)["']`, 'i');
+  const re2 = new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]+(?:property|name)=["']${nom}["']`, 'i');
+  const m = h.match(re1) || h.match(re2);
+  return m ? textPla(m[1]) : '';
+}
+
+// «PT19M30S», «PT1H2M» → segons.
+export function segonsIso(valor) {
+  const m = String(valor || '').match(/^P(?:T)?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+(?:\.\d+)?)S)?$/);
+  if (!m) return 0;
+  return (Number(m[1] || 0) * 3600) + (Number(m[2] || 0) * 60) + Number(m[3] || 0);
+}
+
+export function llegeixPaginaApunt(html) {
+  const h = String(html || '');
+  const titol = metaDe(h, 'og:title').replace(/\s*[-|]\s*À Punt.*$/i, '');
+  const descripcio = metaDe(h, 'og:description') || metaDe(h, 'description');
+  const dur = h.match(/"duration"\s*:\s*"(P[^"]+)"/) || h.match(/itemprop=["']duration["'][^>]*content=["'](P[^"']+)["']/);
+  return { titol, descripcio, segons: dur ? segonsIso(dur[1]) : 0 };
+}
+
+export function nomProgramaApunt(slug, noms = {}) {
+  if (noms[slug]) return noms[slug];
+  const t = slug.replace(/-d-a-punt$/, " d'À Punt").replace(/\b([ld])-(?=[aeiouhàèéíòóú])/g, "$1'").replace(/-/g, ' ');
+  return t.charAt(0).toUpperCase() + t.slice(1);
+}
+
+async function audiosApunt(p, { des, avui, coneguts, obtenir }) {
+  const termes = p.termes || ['intel·ligència artificial', 'IA'];
+  const enllacos = new Map();
+  for (const [n, t] of termes.entries()) {
+    const html = await obtenir(`apunt-cerca-${n}`, `https://www.apuntmedia.es/resultats/${encodeURIComponent(t)}`, { text: true });
+    for (const e of enllacosApunt(html)) if (!enllacos.has(e.font_id)) enllacos.set(e.font_id, e);
+  }
+  const audios = [];
+  const nous = [...enllacos.values()]
+    .filter(e => e.data && e.data >= des && e.data <= avui)
+    .filter(e => !coneguts.has(`apunt-${e.font_id}`) && !coneguts.has(e.url))
+    .slice(0, 20);
+  for (const e of nous) {
+    try {
+      const pag = llegeixPaginaApunt(await obtenir(`apunt-${e.font_id}`, e.url, { text: true }));
+      audios.push({
+        font_id: e.font_id,
+        data: e.data,
+        segons: pag.segons,
+        titol: pag.titol,
+        descripcio: pag.descripcio,
+        url: e.url,
+        reproductor: { tipus: 'enllac' },
+        programa: nomProgramaApunt(e.programa_slug, p.noms_programes),
+        programa_url: `https://www.apuntmedia.es/programes/${e.programa_slug}/`
+      });
+    } catch { /* una pàgina que no respon es torna a provar a la passada següent */ }
+  }
+  return { audios, info: { resultats: enllacos.size } };
+}
+
 // --- recull ----------------------------------------------------------------------
 
 function idFitxa(programa, a) {
   if (a.reproductor.tipus === '3cat') return `3cat-${a.font_id}`;
   if (a.reproductor.tipus === 'rtve') return `rtve-${a.font_id}`;
+  if (programa.font === 'apunt') return `apunt-${a.font_id}`;
+  if (programa.font === 'wordpress') return `${programa.prefix}-${a.font_id}`;
   // RAC1 i altres d'Omny: emissora + data + un tros del clip, perquè sigui curt i estable.
   const pref = slugifica(programa.emissora).split('-')[0] || 'omny';
   let tros = '';
@@ -296,9 +454,22 @@ export async function recull({ fonts, dades, descartats = [], anterior = null, a
           const j = await obtenir(`omny-${s.Slug}`, `https://api.omny.fm/orgs/${fonts.omny_org}/programs/${s.Id}/clips?pageSize=40`);
           audios.push(...llegeixOmny(j));
         }
+      } else if (p.font === 'wordpress') {
+        const r = await audiosWordpress(p, { des, obtenir });
+        audios = r.audios;
+        Object.assign(fila, r.info);
+      } else if (p.font === 'apunt') {
+        const r = await audiosApunt(p, { des, avui, coneguts, obtenir });
+        audios = r.audios;
+        Object.assign(fila, r.info);
       } else {
         throw new Error(`font desconeguda «${p.font}»`);
       }
+      // Una font «de prova» (o d'una emissora que encara no és a «emissores» de
+      // radio.json) només informa: no proposa cap candidat.
+      const nomesInforma = p.prova || !dades.emissores?.[p.emissora];
+      if (nomesInforma) fila.nota = p.prova ? 'font de prova: no proposa candidats' : "l'emissora no és a «emissores» de radio.json";
+      const mostra = [];
       let ia = 0;
       for (const a of audios) {
         if (!a.data || a.data < des || a.data > avui) continue;
@@ -306,13 +477,17 @@ export async function recull({ fonts, dades, descartats = [], anterior = null, a
         const iaTitol = parlaDIA(a.titol);
         if (!iaTitol && !parlaDIA(a.descripcio.slice(0, 600))) continue;
         ia++;
+        if (nomesInforma) {
+          if (mostra.length < 3) mostra.push(`${a.data} · ${a.titol.slice(0, 90)} [${a.reproductor.tipus}]`);
+          continue;
+        }
         const id = idFitxa(p, a);
         if (coneguts.has(id) || coneguts.has(`${a.reproductor.tipus}:${a.reproductor.id}`) || coneguts.has(a.url)) continue;
         trobats.push({
           id,
           emissora: p.emissora,
-          programa: p.programa,
-          programa_url: p.programa_url || '',
+          programa: a.programa || p.programa,
+          programa_url: a.programa_url || p.programa_url || '',
           data: a.data,
           durada: durada(a.segons),
           titol_original: a.titol,
@@ -320,12 +495,14 @@ export async function recull({ fonts, dades, descartats = [], anterior = null, a
           descripcio_curta: a.descripcio.split(/\s+/).filter(Boolean).length < 25,
           ia_al_titol: iaTitol,
           url: a.url,
-          reproductor: a.reproductor
+          reproductor: a.reproductor,
+          ...(a.etiquetes?.length ? { etiquetes_web: a.etiquetes } : {})
         });
       }
       fila.estat = 'ok';
       fila.audios = audios.length;
       fila.sobre_ia = ia;
+      if (mostra.length) fila.mostra = mostra;
     } catch (e) {
       fila.estat = 'error';
       fila.error = String(e.message || e).slice(0, 200);
