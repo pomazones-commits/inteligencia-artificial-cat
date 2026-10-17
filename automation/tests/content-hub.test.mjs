@@ -1623,3 +1623,11 @@ test('cartell: si el dia més proper té dos actes grans, surten tots dos en car
   assert.match(banda.innerHTML, /cartell-escena--carrusel/);
   assert.match(banda.innerHTML, /<strong>Congrés C<\/strong>/);
 });
+
+test('cartells: amb "cartell_logo" s\'accepta el logo petit, sense no (17.10.2026)', async () => {
+  const { acceptable } = await import(cartellsScript);
+  const logo = { format: 'png', amplada: 399, alcada: 204 };
+  assert.match(acceptable(logo), /massa petita/);
+  assert.equal(acceptable(logo, { logo: true }), null);
+  assert.match(acceptable({ format: 'png', amplada: 100, alcada: 60 }, { logo: true }), /massa petita/);
+});

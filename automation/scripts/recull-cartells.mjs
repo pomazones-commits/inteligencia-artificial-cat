@@ -30,6 +30,9 @@
 //                               si l'organitzador ho demana): se'n treu el fitxer;
 //   "cartell_font": "https://…/cartell.jpg" → la imatge bona quan l'og:image de
 //                               la web és un logo o una foto genèrica.
+//   "cartell_logo": true      → (17.10.2026, decisió d'en Rafael) si l'acte no té
+//                               cartell, val el logo oficial: s'accepta una imatge
+//                               més petita (MIDA_MIN_LOGO) i surt com a «Logo oficial».
 //
 // Idempotent: una imatge ja desada no es torna a baixar, un error no es
 // reintenta fins al cap de DIES_REINTENT dies, i cartells.json només es
@@ -53,6 +56,7 @@ export const DIES_REINTENT = 3;
 export const DIES_CONSERVA = 2;          // després d'acabat, encara es conserva
 export const MAX_PER_PASSADA = 30;
 export const MIDA_MIN = 300;             // px, el costat curt
+export const MIDA_MIN_LOGO = 120;        // px, el costat curt quan l'acte porta "cartell_logo": true
 export const PROPORCIO_MIN = 0.5;        // alt/ample: més estret que A3 vertical no
 export const PROPORCIO_MAX = 3.2;        // més allargat que una banda, tampoc
 export const BYTES_MAX = 12 * 1024 * 1024;
@@ -156,10 +160,10 @@ export function mides(bytes) {
   return null;
 }
 
-export function acceptable(m) {
+export function acceptable(m, { logo = false } = {}) {
   if (!m) return 'no és una imatge JPEG, PNG ni WebP';
   if (!m.amplada || !m.alcada) return 'no se n\'han pogut llegir les mides';
-  if (Math.min(m.amplada, m.alcada) < MIDA_MIN) return `massa petita (${m.amplada}×${m.alcada}), segurament un logo`;
+  if (Math.min(m.amplada, m.alcada) < (logo ? MIDA_MIN_LOGO : MIDA_MIN)) return `massa petita (${m.amplada}×${m.alcada}), segurament un logo`;
   const p = m.alcada / m.amplada;
   if (p < 1 / PROPORCIO_MAX || p > 1 / PROPORCIO_MIN) return `proporció estranya (${m.amplada}×${m.alcada})`;
   return null;
@@ -231,7 +235,7 @@ async function recull(acte, clau, { fixtures }) {
     ? new Uint8Array(await readFile(join(fixtures, `${clau}.img`)))
     : (await baixa(font, 'image/avif,image/webp,image/png,image/jpeg,image/*;q=0.8')).bytes;
   const m = mides(bytes);
-  const motiu = acceptable(m);
+  const motiu = acceptable(m, { logo: acte.cartell_logo === true });
   if (motiu) throw new Error(motiu);
   if (await gairebeBuida(bytes)) throw new Error('imatge gairebé buida (d\'un sol color)');
   const final = await normalitza(bytes, m);
@@ -272,7 +276,7 @@ export async function executa(opts) {
         await mkdir(join(opts.publicDir, DIR), { recursive: true });
         await writeFile(join(opts.publicDir, DIR, `${clau}.jpg`), r.bytes);
       }
-      mapa[clau] = { imatge: ruta, amplada: r.amplada, alcada: r.alcada, font: r.font, pagina: r.pagina, organitza: acte.organitza || undefined, recollit: avui };
+      mapa[clau] = { imatge: ruta, amplada: r.amplada, alcada: r.alcada, font: r.font, pagina: r.pagina, organitza: acte.organitza || undefined, ...(acte.cartell_logo === true ? { logo: true } : {}), recollit: avui };
       baixades += 1;
       console.log(`Cartell desat: ${acte.titol} → ${ruta} (${r.amplada}×${r.alcada}, de ${r.font})`);
     } catch (error) {

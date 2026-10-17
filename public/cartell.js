@@ -134,9 +134,9 @@
           <div class="cartell-poster__trama" aria-hidden="true"></div>
           ${original ? `<figure class="cartell-poster__obra">
             <div class="cartell-poster__marc" style="--fons:url('${esc(original.imatge)}');--proporcio:${amp && alc ? `${amp} / ${alc}` : '16 / 9'}">
-              <img src="${esc(original.imatge)}"${amp && alc ? ` width="${amp}" height="${alc}"` : ''} alt="Cartell oficial: ${esc(acte.titol)}" loading="${i === 0 ? 'eager' : 'lazy'}" decoding="async">
+              <img src="${esc(original.imatge)}"${amp && alc ? ` width="${amp}" height="${alc}"` : ''} alt="${original.logo ? 'Logo oficial' : 'Cartell oficial'}: ${esc(acte.titol)}" loading="${i === 0 ? 'eager' : 'lazy'}" decoding="async">
             </div>
-            <figcaption>Cartell oficial${credit ? ` · ${esc(credit)}` : ''}</figcaption>
+            <figcaption>${original.logo ? 'Logo oficial' : 'Cartell oficial'}${credit ? ` · ${esc(credit)}` : ''}</figcaption>
           </figure>` : ''}
           <div class="cartell-poster__cap">
             <p class="cartell-poster__tipus">${esc(tipus)}</p>
