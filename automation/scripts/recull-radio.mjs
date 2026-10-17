@@ -292,7 +292,7 @@ export async function recull({ fonts, dades, descartats = [], anterior = null, a
           const semblants = programesOmny.map(s => String(s.Slug || '')).filter(sl => mots.some(m => sl.includes(m))).slice(0, 8);
           throw new Error(`cap show d'Omny comença per «${p.slug}»${semblants.length ? ` (semblants: ${semblants.join(', ')})` : ''}`);
         }
-        for (const s of shows.slice(0, 6)) {
+        for (const s of shows.slice(0, 12)) {
           const j = await obtenir(`omny-${s.Slug}`, `https://api.omny.fm/orgs/${fonts.omny_org}/programs/${s.Id}/clips?pageSize=40`);
           audios.push(...llegeixOmny(j));
         }
