@@ -1,0 +1,23 @@
+{
+  "nota": "Programes que llegeix cada dia automation/scripts/recull-radio.mjs (workflow radio.yml, 17.10.2026) per trobar intervencions noves sobre IA a «La IA a la ràdio». Llista TANCADA i oficial: només els arxius de les emissores, mai reculls d'altres webs. «emissora» ha de ser una clau de «emissores» de public/data/radio.json. 3Cat: «id» és el programaradio_id de l'API https://api.3cat.cat/audios. Ràdio 4: «id» és l'id de programa de https://www.rtve.es/api/programas/<id>/audios.json. RAC1 (Omny): «slug» és el començament del nom del show a omny.fm/shows/<slug>…; el script en busca l'id a l'API pública d'Omny. Per afegir un programa n'hi ha prou amb una línia nova aquí.",
+  "dies": 21,
+  "durada_minima_min": 3,
+  "omny_org": "47dc05c7-7279-4c6f-9b31-ae74013297d9",
+  "programes": [
+    { "font": "3cat", "id": 1780, "emissora": "Catalunya Ràdio", "programa": "Revolució 4.0", "programa_url": "https://www.3cat.cat/3cat/revolucio/" },
+    { "font": "3cat", "id": 1682, "emissora": "Catalunya Ràdio", "programa": "Catalunya nit", "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/" },
+    { "font": "3cat", "id": 1566, "emissora": "Catalunya Ràdio", "programa": "El matí de Catalunya Ràdio", "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/" },
+    { "font": "3cat", "id": 1358, "emissora": "Catalunya Ràdio", "programa": "El suplement", "programa_url": "https://www.3cat.cat/3cat/el-suplement/" },
+    { "font": "3cat", "id": 1737, "emissora": "Catalunya Ràdio", "programa": "Popap", "programa_url": "https://www.3cat.cat/3cat/popap/" },
+    { "font": "rtve", "id": 1030997, "emissora": "Ràdio 4", "programa": "La tàctica", "programa_url": "https://www.rtve.es/play/audios/la-tactica/" },
+    { "font": "rtve", "id": 2016, "emissora": "Ràdio 4", "programa": "L'altra ràdio", "programa_url": "https://www.rtve.es/play/audios/laltra-radio/" },
+    { "font": "rtve", "id": 119370, "emissora": "Ràdio 4", "programa": "Són 4 dies", "programa_url": "https://www.rtve.es/play/audios/son-4-dies/" },
+    { "font": "rtve", "id": 1031010, "emissora": "Ràdio 4", "programa": "La tarda de Ràdio 4", "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/" },
+    { "font": "rtve", "id": 79990, "emissora": "Ràdio 4", "programa": "Lletra lligada", "programa_url": "https://www.rtve.es/play/audios/lletra-lligada/" },
+    { "font": "rtve", "id": 1000700, "emissora": "Ràdio 4", "programa": "Sentit de viure", "programa_url": "https://www.rtve.es/play/audios/sentit-de-viure/" },
+    { "font": "rtve", "id": 167630, "emissora": "Ràdio 4", "programa": "El pla B", "programa_url": "https://www.rtve.es/play/audios/el-pla-b/" },
+    { "font": "omny", "slug": "via-lliure", "emissora": "RAC1", "programa": "Via lliure", "programa_url": "https://www.rac1.cat/a-la-carta/programes/via-lliure" },
+    { "font": "omny", "slug": "la-primera-pedra", "emissora": "RAC1", "programa": "La primera pedra", "programa_url": "https://www.rac1.cat/a-la-carta/programes/la-primera-pedra" },
+    { "font": "omny", "slug": "el-mon-a-rac1", "emissora": "RAC1", "programa": "El món a RAC1", "programa_url": "https://www.rac1.cat/a-la-carta/programes/el-mon-a-rac1" }
+  ]
+}

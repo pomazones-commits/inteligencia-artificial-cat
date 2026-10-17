@@ -173,3 +173,7 @@ jobs:
           # deixat a incoming/premsa-destacats.json). Pel mateix motiu.
           gh workflow run premsa.yml --repo "$GITHUB_REPOSITORY" --ref main \
             || echo "::warning::No he pogut disparar el ressò de premsa; la propera passada programada ho farà."
+          # 17.10.2026: la ràdio (incorpora les fitxes que la sessió ha deixat a
+          # incoming/radio-fitxes.json). Pel mateix motiu.
+          gh workflow run radio.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar la recollida de la ràdio; la propera passada programada ho farà."

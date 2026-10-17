@@ -1,0 +1,131 @@
+name: La IA a la ràdio — recollida de les emissores
+
+# 17.10.2026. Fins avui /radio era manual del tot i les últimes fitxes eren del
+# 10.10. Aquest workflow fa dues coses (detall: capçalera
+# d'automation/scripts/recull-radio.mjs):
+#
+#   1. INCORPORA les fitxes que la sessió editorial ha escrit a
+#      incoming/radio-fitxes.json (títol i resum propis): les valida una a una
+#      amb scripts/valida-radio.mjs i afegeix a public/data/radio.json les que
+#      passen. Els candidats que la sessió descarta van a
+#      automation/radio-descartats.json perquè no tornin a sortir.
+#   2. RECULL els àudios nous sobre IA dels programes de la llista tancada
+#      automation/radio-sources.json (APIs públiques de 3Cat, RTVE i Omny, sense
+#      cap clau) i en desa les metadades oficials a automation/radio-candidats.json.
+#      Les sessions no hi arriben (el sandbox bloqueja aquestes APIs); Actions sí.
+#
+# Quan corre:
+#   - uns 30 minuts abans de cada lot (05.35, 09.35, 13.35 i 17.35 CEST) i a les
+#     21.35, perquè la sessió editorial trobi la llista fresca. GitHub deixa caure
+#     molts crons d'aquest repositori: per això també corre
+#   - en cada push que toqui incoming/radio-fitxes.json (el lot de la sessió) i
+#   - en acabar el Content Hub (si el lot l'ha fusionat l'auto-fusió, el
+#     content-hub.yml el dispara a mà, perquè el workflow_run no arriba);
+#   - a mà: Actions → «La IA a la ràdio — recollida de les emissores» → «Run workflow».
+#
+# Idempotent: si res no ha canviat, no fa cap commit. MAI no toca res fora de
+# public/data/radio.json, automation/radio-candidats.json i
+# automation/radio-descartats.json. Mai no baixa ni allotja àudio.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - incoming/radio-fitxes.json
+      - automation/radio-sources.json
+      - automation/scripts/recull-radio.mjs
+      - .github/workflows/radio.yml
+  workflow_run:
+    workflows: ["Content Hub — completar l'edició"]
+    types: [completed]
+  schedule:
+    - cron: '35 3,7,11,15,19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: radio-recollida
+  cancel-in-progress: false
+
+jobs:
+  recull:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion != 'cancelled'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Recuperar el web
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Provar la recollida
+        run: node --test automation/tests/radio.test.mjs
+
+      - name: Incorporar les fitxes noves de la sessió editorial
+        run: >-
+          node automation/scripts/recull-radio.mjs incorpora
+          --entrada incoming/radio-fitxes.json
+          --dades public/data/radio.json
+          --descartats automation/radio-descartats.json
+
+      - name: Llegir els arxius de les emissores
+        run: >-
+          node automation/scripts/recull-radio.mjs recull
+          --fonts automation/radio-sources.json
+          --dades public/data/radio.json
+          --descartats automation/radio-descartats.json
+          --sortida automation/radio-candidats.json
+
+      - name: Validar les fitxes publicades
+        run: node scripts/valida-radio.mjs
+
+      - name: Publicar si hi ha canvis
+        id: publica
+        run: |
+          git config user.name "intel·ligènciaartificial.cat bot"
+          git config user.email "actions@users.noreply.github.com"
+          for f in public/data/radio.json automation/radio-candidats.json automation/radio-descartats.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          if git diff --cached --quiet; then
+            echo "Cap canvi a la ràdio."
+            echo "canvis=no" >> "$GITHUB_OUTPUT"
+            echo "web=no" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if git diff --cached --quiet -- public/data/radio.json; then web=no; else web=si; fi
+          echo "web=$web" >> "$GITHUB_OUTPUT"
+          if [ "$web" = si ]; then
+            git commit -m "[ràdio] fitxes noves a La IA a la ràdio"
+          else
+            git commit -m "[ràdio] candidats de les emissores"
+          fi
+          for intent in 1 2 3; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "canvis=si" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep $((intent * 10))
+          done
+          echo "::error::No he pogut pujar els canvis de la ràdio després de tres intents."
+          exit 1
+
+      # Un push fet amb el GITHUB_TOKEN no dispara cap altre workflow (ni el
+      # desplegament ni els logos de radio-icones.yml). Un workflow_dispatch, sí.
+      - name: Desplegar i baixar els logos d'emissores noves
+        if: steps.publica.outputs.web == 'si' && steps.publica.outputs.canvis == 'si'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run desplega.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar el desplegament; el cron :08/:38 o la xarxa de seguretat ho repescaran."
+          gh workflow run radio-icones.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar els logos; ho farà el pròxim canvi de radio.json."
