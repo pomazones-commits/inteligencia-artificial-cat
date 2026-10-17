@@ -339,7 +339,8 @@ export function segonsIso(valor) {
 
 export function llegeixPaginaApunt(html) {
   const h = String(html || '');
-  const titol = metaDe(h, 'og:title').replace(/\s*[-|]\s*À Punt.*$/i, '');
+  // «15.10.2026 | LLUM, …» → «LLUM, …»
+  const titol = metaDe(h, 'og:title').replace(/\s*[-|]\s*À Punt.*$/i, '').replace(/^\d{2}\.\d{2}\.\d{4}\s*\|\s*/, '');
   const descripcio = metaDe(h, 'og:description') || metaDe(h, 'description');
   const dur = h.match(/"duration"\s*:\s*"(P[^"]+)"/) || h.match(/itemprop=["']duration["'][^>]*content=["'](P[^"']+)["']/);
   return { titol, descripcio, segons: dur ? segonsIso(dur[1]) : 0 };
@@ -635,7 +636,7 @@ async function main() {
       console.log(`\n[${c.id}] ${c.data} · ${c.emissora} · ${c.programa} · ${c.durada || 'sense durada'}${c.descripcio_curta ? ' · ⚠️ descripció curta' : ''}`);
       console.log(`  Títol de l'emissora: ${c.titol_original}`);
       console.log(`  Descripció: ${c.descripcio_original}`);
-      console.log(`  ${c.url}  reproductor ${c.reproductor.tipus}:${c.reproductor.id}`);
+      console.log(`  ${c.url}  reproductor ${c.reproductor.tipus}${c.reproductor.id ? `:${c.reproductor.id}` : ''}${c.etiquetes_web ? ` · categories de la web: ${c.etiquetes_web.join(', ')}` : ''}`);
     }
     return;
   }

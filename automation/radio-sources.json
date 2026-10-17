@@ -1,5 +1,5 @@
 {
-  "nota": "Programes que llegeix cada dia automation/scripts/recull-radio.mjs (workflow radio.yml, 17.10.2026) per trobar intervencions noves sobre IA a «La IA a la ràdio». Llista TANCADA i oficial: només els arxius de les emissores, mai reculls d'altres webs. «emissora» ha de ser una clau de «emissores» de public/data/radio.json. 3Cat: «id» és el programaradio_id de l'API https://api.3cat.cat/audios. Ràdio 4: «id» és l'id de programa de https://www.rtve.es/api/programas/<id>/audios.json. RAC1 (Omny): «slug» és el començament del nom del show a omny.fm/shows/<slug>…; el script en busca l'id a l'API pública d'Omny. Per afegir un programa n'hi ha prou amb una línia nova aquí. WordPress (des del 17.10.2026; RAB Ràdio i ràdios locals): «web» és l'arrel del lloc i «prefix» el començament dels identificadors de les fitxes; només compten les entrades que porten un reproductor (YouTube, SoundCloud o àudio). À Punt («font»: «apunt»): el script fa servir el cercador de apuntmedia.es (no té API) i llegeix la pàgina de cada tall de ràdio («_135_»). Una entrada amb «prova»: true només informa (si respon, quantes entrades amb àudio sobre IA hi ha, i el nom i la icona del lloc) i no proposa cap candidat: per passar-la a real, treu «prova» i dona d'alta l'emissora a «emissores» de public/data/radio.json.",
+  "nota": "Programes que llegeix cada dia automation/scripts/recull-radio.mjs (workflow radio.yml, 17.10.2026) per trobar intervencions noves sobre IA a «La IA a la ràdio». Llista TANCADA i oficial: només els arxius de les emissores, mai reculls d'altres webs. «emissora» ha de ser una clau de «emissores» de public/data/radio.json. 3Cat: «id» és el programaradio_id de l'API https://api.3cat.cat/audios. Ràdio 4: «id» és l'id de programa de https://www.rtve.es/api/programas/<id>/audios.json. RAC1 (Omny): «slug» és el començament del nom del show a omny.fm/shows/<slug>…; el script en busca l'id a l'API pública d'Omny. Per afegir un programa n'hi ha prou amb una línia nova aquí. WordPress (des del 17.10.2026; RAB Ràdio i ràdios locals): «web» és l'arrel del lloc i «prefix» el començament dels identificadors de les fitxes; només compten les entrades que porten un reproductor (YouTube, SoundCloud o àudio). À Punt («font»: «apunt»): el script fa servir el cercador de apuntmedia.es (no té API) i llegeix la pàgina de cada tall de ràdio («_135_»). Una entrada amb «prova»: true només informa (si respon, quantes entrades amb àudio sobre IA hi ha, i el nom i la icona del lloc) i no proposa cap candidat: per passar-la a real, treu «prova» i dona d'alta l'emissora a «emissores» de public/data/radio.json. Provades el 17.10.2026 i sense via automàtica: Ràdio Sabadell, Ràdio Desvern, Cugat Ràdio, Ona Mediterrània, Ràdio Klara, Ràdio Arrels i Ràdio Silenci (cap /wp-json/ públic, 404), betevé (l'API demana usuari, 401), El Prat Ràdio (no és WordPress), Mataró Ràdio i Ràdio Vilafranca (el domini no respon).",
   "dies": 21,
   "durada_minima_min": 3,
   "omny_org": "47dc05c7-7279-4c6f-9b31-ae74013297d9",
@@ -151,123 +151,11 @@
     },
     {
       "font": "wordpress",
-      "prefix": "rsab",
-      "web": "https://www.radiosabadell.fm",
-      "emissora": "Ràdio Sabadell",
-      "programa": "",
-      "programa_url": "https://www.radiosabadell.fm/",
-      "prova": true,
-      "termes": []
-    },
-    {
-      "font": "wordpress",
-      "prefix": "rdesvern",
-      "web": "https://www.radiodesvern.com",
-      "emissora": "Ràdio Desvern",
-      "programa": "",
-      "programa_url": "https://www.radiodesvern.com/",
-      "prova": true,
-      "termes": []
-    },
-    {
-      "font": "wordpress",
       "prefix": "tgnradio",
       "web": "https://www.tarragonaradio.cat",
       "emissora": "Tarragona Ràdio",
       "programa": "",
-      "programa_url": "https://www.tarragonaradio.cat/",
-      "prova": true,
-      "termes": []
-    },
-    {
-      "font": "wordpress",
-      "prefix": "mataro",
-      "web": "https://www.mataroradio.cat",
-      "emissora": "Mataró Ràdio",
-      "programa": "",
-      "programa_url": "https://www.mataroradio.cat/",
-      "prova": true,
-      "termes": []
-    },
-    {
-      "font": "wordpress",
-      "prefix": "beteve",
-      "web": "https://beteve.cat",
-      "emissora": "betevé",
-      "programa": "",
-      "programa_url": "https://beteve.cat/",
-      "prova": true,
-      "termes": []
-    },
-    {
-      "font": "wordpress",
-      "prefix": "cugat",
-      "web": "https://www.cugat.cat",
-      "emissora": "Cugat Ràdio",
-      "programa": "",
-      "programa_url": "https://www.cugat.cat/",
-      "prova": true,
-      "termes": []
-    },
-    {
-      "font": "wordpress",
-      "prefix": "elprat",
-      "web": "https://www.elpratradio.com",
-      "emissora": "El Prat Ràdio",
-      "programa": "",
-      "programa_url": "https://www.elpratradio.com/",
-      "prova": true,
-      "termes": []
-    },
-    {
-      "font": "wordpress",
-      "prefix": "rvilafranca",
-      "web": "https://www.radiovilafranca.cat",
-      "emissora": "Ràdio Vilafranca",
-      "programa": "",
-      "programa_url": "https://www.radiovilafranca.cat/",
-      "prova": true,
-      "termes": []
-    },
-    {
-      "font": "wordpress",
-      "prefix": "onamed",
-      "web": "https://www.onamediterrania.cat",
-      "emissora": "Ona Mediterrània",
-      "programa": "",
-      "programa_url": "https://www.onamediterrania.cat/",
-      "prova": true,
-      "termes": []
-    },
-    {
-      "font": "wordpress",
-      "prefix": "klara",
-      "web": "https://www.radioklara.org",
-      "emissora": "Ràdio Klara",
-      "programa": "",
-      "programa_url": "https://www.radioklara.org/",
-      "prova": true,
-      "termes": []
-    },
-    {
-      "font": "wordpress",
-      "prefix": "arrels",
-      "web": "https://www.radioarrels.cat",
-      "emissora": "Ràdio Arrels",
-      "programa": "",
-      "programa_url": "https://www.radioarrels.cat/",
-      "prova": true,
-      "termes": []
-    },
-    {
-      "font": "wordpress",
-      "prefix": "silenci",
-      "web": "https://radiosilenci.cat",
-      "emissora": "Ràdio Silenci",
-      "programa": "",
-      "programa_url": "https://radiosilenci.cat/",
-      "prova": true,
-      "termes": []
+      "programa_url": "https://www.tarragonaradio.cat/"
     }
   ]
 }

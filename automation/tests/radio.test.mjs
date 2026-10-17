@@ -199,7 +199,7 @@ test('À Punt: talls de ràdio del cercador i dades de la pàgina', () => {
   const e = enllacosApunt(html);
   assert.equal(e.length, 1);
   assert.deepEqual(e[0], { font_id: '1901997', programa_slug: 'cadena-de-valor', data: '2026-10-15', url: 'https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/15-10-2026-llum-intel-ligencia-artificial-estalviar-electricitat_135_1901997.html' });
-  const pag = llegeixPaginaApunt(`<meta property="og:title" content="LLUM, intel·ligència artificial per estalviar - À Punt"><meta property="og:description" content="Entrevista amb l&#039;equip de LLUM."><script>{"duration":"PT19M30S"}</script>`);
+  const pag = llegeixPaginaApunt(`<meta property="og:title" content="15.10.2026 | LLUM, intel·ligència artificial per estalviar - À Punt"><meta property="og:description" content="Entrevista amb l&#039;equip de LLUM."><script>{"duration":"PT19M30S"}</script>`);
   assert.deepEqual(pag, { titol: 'LLUM, intel·ligència artificial per estalviar', descripcio: "Entrevista amb l'equip de LLUM.", segons: 1170 });
   assert.equal(segonsIso('PT1H2M'), 3720);
   assert.equal(nomProgramaApunt('l-hora-de-la-cultura'), "L'hora de la cultura");

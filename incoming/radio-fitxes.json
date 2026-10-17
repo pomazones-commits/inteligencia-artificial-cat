@@ -1,21 +1,85 @@
 {
-  "fitxes": [],
+  "fitxes": [
+    {
+      "id": "apunt-1901997",
+      "emissora": "À Punt Ràdio",
+      "programa": "Cadena de valor",
+      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
+      "data": "2026-10-15",
+      "durada": "",
+      "titol": "Un xatbot valencià que llegeix la factura de la llum",
+      "convidats": [
+        {
+          "nom": "Héctor Gómez",
+          "rol": "de LLUM"
+        }
+      ],
+      "resum": "Gómez presenta LLUM, un xatbot fet a la Comunitat Valenciana que analitza les factures de l'electricitat i assenyala on es pot estalviar, tant en la tarifa com en la potència contractada. Un exemple d'intel·ligència artificial aplicada a una despesa de cada casa.",
+      "tema": "eines",
+      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/15-10-2026-llum-intel-ligencia-artificial-estalviar-electricitat_135_1901997.html",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    },
+    {
+      "id": "apunt-1901719",
+      "emissora": "À Punt Ràdio",
+      "programa": "Cadena de valor",
+      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
+      "data": "2026-10-12",
+      "durada": "",
+      "titol": "Dades i IA per fer més rendibles els restaurants",
+      "convidats": [
+        {
+          "nom": "Marcos Gómez",
+          "rol": "creador de Yurest"
+        }
+      ],
+      "resum": "Gómez explica com Yurest, una eina de gestió feta a la Comunitat Valenciana, fa servir les dades i la intel·ligència artificial perquè els restaurants controlin millor els costos, s'avancin a la demanda i en guanyin rendibilitat.",
+      "tema": "feina",
+      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/12-10-2026-yurest-tecnologia-valenciana-gestionar-restaurants_135_1901719.html",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    },
+    {
+      "id": "capital-428439",
+      "emissora": "Ràdio Capital de l'Empordà",
+      "programa": "Supermatí",
+      "programa_url": "https://www.radiocapital.cat/",
+      "data": "2026-10-06",
+      "durada": "",
+      "titol": "La IA a la banca, sí, però sense perdre el tracte humà",
+      "convidats": [
+        {
+          "nom": "Pol Fages",
+          "rol": "president de la Cambra de Comerç de Palamós"
+        }
+      ],
+      "resum": "Abans d'una jornada sobre banca, intel·ligència artificial i proximitat a la Cambra de Comerç de Palamós, Fages defensa que la tecnologia ha d'ajudar les empreses i no allunyar-les de les entitats financeres, i que la digitalització ha d'anar acompanyada de formació, rigor i tracte humà.",
+      "tema": "feina",
+      "url": "https://www.radiocapital.cat/pol-fages-la-tecnologia-ha-dajudar-les-empreses-no-allunyar-les-de-la-banca/",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    }
+  ],
   "descartats": [
     {
-      "id": "rtve-17261315",
-      "motiu": "la IA només hi surt de passada (crisi energètica)"
+      "id": "capital-428751",
+      "motiu": "cap convidat amb nom a la descripció (només «diversos experts»)"
     },
     {
-      "id": "rtve-17259369",
-      "motiu": "la IA només hi surt de passada (soledat no desitjada)"
+      "id": "apunt-1901285",
+      "motiu": "la IA només hi surt de passada (festival Volumens)"
     },
     {
-      "id": "rtve-17259388",
-      "motiu": "hora sencera amb altres temes; la IA de passada"
+      "id": "capital-428692",
+      "motiu": "crònica d'un acte, no una intervenció a la ràdio"
     },
     {
-      "id": "rtve-17250042",
-      "motiu": "tall del programa que ja té fitxa sencera (rtve-17241508)"
+      "id": "apunt-1899278",
+      "motiu": "la IA només hi surt de passada (màrqueting digital)"
     }
   ]
 }
