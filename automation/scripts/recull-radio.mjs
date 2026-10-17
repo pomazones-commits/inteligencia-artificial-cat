@@ -385,12 +385,59 @@ async function audiosApunt(p, { des, avui, coneguts, obtenir }) {
   return { audios, info: { resultats: enllacos.size } };
 }
 
+// --- Ràdio Nacional d'Andorra (RTVA) ---------------------------------------------
+// La web rtva.ad beu d'una API pública de la plataforma Hiway Media
+// (rtva.hiwaymedia.io/api/widget/content): els últims àudios de tots els
+// programes, de 100 en 100, amb títol, descripció («subtitle»), data i adreça.
+// Els títols porten el programa al final: «Què fan les apps… - Les coses grans -
+// 15/10/2026» o «IA, deutes… amb Enric Galí – La Companyia 14/10/2026».
+
+export function separaTitolRtva(titol) {
+  const parts = String(titol || '').split(/\s+[-–—]\s+/).map(t => t.trim()).filter(Boolean);
+  const sensData = t => t.replace(/\s*\d{1,2}\/\d{1,2}\/\d{2,4}\s*$/, '').trim();
+  const netes = parts.map(sensData).filter(Boolean);
+  if (netes.length < 2) return { titol: netes[0] || String(titol || '').trim(), programa: '' };
+  return { titol: netes[0], programa: netes[netes.length - 1] };
+}
+
+export function llegeixRtva(json) {
+  const items = json?.data?.body;
+  return (Array.isArray(items) ? items : []).filter(i => i?.type === 'episode_audio').map(i => {
+    const { titol, programa } = separaTitolRtva(textPla(i.title));
+    const slug = String(i.slug || '');
+    return {
+      font_id: String(i.id_content ?? ''),
+      data: dataIso(i.date),
+      segons: 0,
+      titol,
+      titol_complet: textPla(i.title),
+      descripcio: textPla(i.subtitle || ''),
+      url: slug.startsWith('/') ? `https://www.rtva.ad${slug}` : '',
+      reproductor: { tipus: 'enllac' },
+      programa,
+      programa_url: programa ? `https://www.rtva.ad/programes/${slugifica(programa)}` : 'https://www.rtva.ad/a-la-carta'
+    };
+  }).filter(a => /^\d+$/.test(a.font_id) && a.url);
+}
+
+async function audiosRtva(p, { des, obtenir }) {
+  const audios = [];
+  for (let pagina = 0; pagina < (p.pagines || 5); pagina++) {
+    const j = await obtenir(`rtva-${pagina}`, `https://rtva.hiwaymedia.io/api/widget/content?offset=${pagina * 100}&limit=100&order_date=DESC&type=episode_audio`);
+    const lot = llegeixRtva(j);
+    audios.push(...lot);
+    if (!lot.length || lot[lot.length - 1].data < des) break;
+  }
+  return { audios };
+}
+
 // --- recull ----------------------------------------------------------------------
 
 function idFitxa(programa, a) {
   if (a.reproductor.tipus === '3cat') return `3cat-${a.font_id}`;
   if (a.reproductor.tipus === 'rtve') return `rtve-${a.font_id}`;
   if (programa.font === 'apunt') return `apunt-${a.font_id}`;
+  if (programa.font === 'rtva') return `rna-${a.font_id}`;
   if (programa.font === 'wordpress') return `${programa.prefix}-${a.font_id}`;
   // RAC1 i altres d'Omny: emissora + data + un tros del clip, perquè sigui curt i estable.
   const pref = slugifica(programa.emissora).split('-')[0] || 'omny';
@@ -461,6 +508,8 @@ export async function recull({ fonts, dades, descartats = [], anterior = null, a
         const r = await audiosWordpress(p, { des, obtenir });
         audios = r.audios;
         Object.assign(fila, r.info);
+      } else if (p.font === 'rtva') {
+        audios = (await audiosRtva(p, { des, obtenir })).audios;
       } else if (p.font === 'apunt') {
         const r = await audiosApunt(p, { des, avui, coneguts, obtenir });
         audios = r.audios;
@@ -493,7 +542,7 @@ export async function recull({ fonts, dades, descartats = [], anterior = null, a
           programa_url: a.programa_url || p.programa_url || '',
           data: a.data,
           durada: durada(a.segons),
-          titol_original: a.titol,
+          titol_original: a.titol_complet || a.titol,
           descripcio_original: a.descripcio.slice(0, MAX_DESCRIPCIO),
           descripcio_curta: a.descripcio.split(/\s+/).filter(Boolean).length < 25,
           ia_al_titol: iaTitol,

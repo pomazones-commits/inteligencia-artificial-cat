@@ -11,7 +11,7 @@ import { execFileSync } from 'node:child_process';
 import {
   dataIso, durada, segonsDe, textPla, llegeix3Cat, llegeixRtve, llegeixOmny,
   recull, incorpora, firma, reproductorDe, llegeixWordpress, enllacosApunt, llegeixPaginaApunt,
-  nomProgramaApunt, segonsIso
+  nomProgramaApunt, segonsIso, separaTitolRtva, llegeixRtva
 } from '../scripts/recull-radio.mjs';
 
 const ARA = new Date('2026-10-17T08:00:00Z');
@@ -241,4 +241,19 @@ test('recull: WordPress i À Punt donen candidats; una font de prova només info
   assert.equal(prova.estat, 'ok');
   assert.equal(prova.icona_web, 'https://prova.cat/icona.png');
   assert.equal(prova.mostra.length, 1);
+});
+
+test('RTVA: programa a partir del títol i àudios de l\'API', () => {
+  assert.deepEqual(separaTitolRtva('Què fan les apps menstruals amb les nostres dades? - Les coses grans - 15/10/2026'), { titol: 'Què fan les apps menstruals amb les nostres dades?', programa: 'Les coses grans' });
+  assert.deepEqual(separaTitolRtva('IA, deutes dels països i petroli amb Enric Galí – La Companyia 14/10/2026'), { titol: 'IA, deutes dels països i petroli amb Enric Galí', programa: 'La Companyia' });
+  assert.deepEqual(separaTitolRtva('La nova portaveu - Plana internacional - Les coses grans - 16/10/2026').programa, 'Les coses grans');
+  const a = llegeixRtva({ data: { body: [
+    { id_content: '1929362', type: 'episode_audio', date: '2026-10-14 10:00:00 +0000 UTC', slug: '/programes/ia-deutes', title: 'IA i deutes – La Companyia 14/10/2026', subtitle: 'En parlem amb Enric Galí.' },
+    { id_content: '1929363', type: 'episode_video', date: '2026-10-14 10:00:00 +0000 UTC', slug: '/programes/tele', title: 'Tele', subtitle: '' }
+  ] } });
+  assert.equal(a.length, 1);
+  assert.equal(a[0].url, 'https://www.rtva.ad/programes/ia-deutes');
+  assert.equal(a[0].programa, 'La Companyia');
+  assert.equal(a[0].data, '2026-10-14');
+  assert.deepEqual(a[0].reproductor, { tipus: 'enllac' });
 });
