@@ -1598,3 +1598,28 @@ test('Veus de CIVICAi: també els estudis dels membres, a la portada i en àudio
   assert.equal(py.status, 0, py.stderr);
   assert.equal(py.stdout.trim(), 'E1');
 });
+
+test('cartell: si el dia més proper té dos actes grans, surten tots dos en carrusel (17.10.2026)', async () => {
+  const vm = await import('node:vm');
+  const src = await readFile(resolve(import.meta.dirname, '..', '..', 'public', 'cartell.js'), 'utf8');
+  const agenda = { actes: [
+    { inici: '2026-10-19', tipus: 'jornada', titol: 'Acte A' },
+    { inici: '2026-10-19', tipus: 'webinar', titol: 'Webinar petit' },
+    { inici: '2026-10-19', tipus: 'jornada', titol: 'Acte B' },
+    { inici: '2026-10-20', fi: '2026-10-22', tipus: 'congrés', titol: 'Congrés C' }
+  ] };
+  const banda = { hidden: true, innerHTML: '', querySelector: () => null, querySelectorAll: () => [], addEventListener() {} };
+  const Real = Date;
+  class Avui extends Real { constructor(...a) { super(...(a.length ? a : ['2026-10-17T10:00:00Z'])); } }
+  vm.runInNewContext(src, {
+    document: { getElementById: () => banda, addEventListener() {} },
+    window: { fetch: true, addEventListener() {}, matchMedia: () => ({ matches: true }) },
+    fetch: u => Promise.resolve({ ok: true, json: () => Promise.resolve(u.includes('agenda') ? agenda : { cartells: {} }) }),
+    Date: Avui, Intl, getComputedStyle: () => ({ gridTemplateColumns: '1fr' }), setTimeout, clearTimeout, setInterval: () => 0, clearInterval() {}
+  });
+  await new Promise(r => setTimeout(r, 20));
+  const titols = [...banda.innerHTML.matchAll(/class="cartell-poster__titol">([^<]+)/g)].map(m => m[1]);
+  assert.deepEqual(titols, ['Acte A', 'Acte B']);
+  assert.match(banda.innerHTML, /cartell-escena--carrusel/);
+  assert.match(banda.innerHTML, /<strong>Congrés C<\/strong>/);
+});

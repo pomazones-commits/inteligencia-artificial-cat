@@ -8,7 +8,8 @@
      - Si AVUI hi ha més d'un acte gran en marxa (congrés, jornada, fira o
        hackató, o un de «destacat»), surten tots en un carrusel que en canvia
        cada 5 segons (màxim 6; primer els destacats i les hackatons).
-     - Si no, un sol cartell: l'acte gran MÉS PROPER dels propers 60 dies
+     - Si no, l'acte gran MÉS PROPER dels propers 60 dies; si aquell dia en
+       comencen més d'un, surten tots en carrusel (17.10.2026)
        (11.10.2026: abans les hackatons i els «destacat» passaven davant de
        tot, i la portada anunciava una hackató del 7 de novembre amb congressos
        a dos dies vista). «destacat» i hackató ara només desempaten quan dos
@@ -89,23 +90,27 @@
   const clauActe = a => `${a.inici}-${String(a.titol || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60).replace(/-+$/g, '')}`;
 
-  // L'acte gran més proper (els actes ja venen ordenats per data d'inici).
+  // Els actes grans del dia més proper (els actes ja venen ordenats per data
+  // d'inici). 17.10.2026: abans en tornava només un, i si aquell dia n'hi havia
+  // dos (el 19.10, TRANSJUS i el Global Sustainability Barcelona Summit) el
+  // segon no sortia enlloc del cartell. Ara hi surten tots, en carrusel, amb el
+  // desempat de sempre per decidir l'ordre.
   function tria(actes, avui) {
     const dinsDe = a => (dataUtc(a.inici) - dataUtc(avui)) / DIA <= HORITZO;
     const llista = actes.filter(a => esGran(a) && dinsDe(a));
-    if (!llista.length) return null;
-    return llista.filter(a => a.inici === llista[0].inici).sort(desempat)[0];
+    if (!llista.length) return [];
+    return llista.filter(a => a.inici === llista[0].inici).sort(desempat);
   }
 
   // Els actes del cartell: tots els grans que són en marxa avui (si n'hi ha més
-  // d'un, fan carrusel) o, si no, l'únic que tria la regla de sempre.
+  // d'un, fan carrusel) o, si no, tots els grans del dia més proper (també en
+  // carrusel si n'hi ha més d'un).
   function diapositives(actes, avui) {
     const avuiMateix = actes
       .filter(a => a.inici <= avui && avui <= a._fi && esGran(a))
       .sort((a, b) => desempat(a, b) || a.inici.localeCompare(b.inici));
     if (avuiMateix.length > 1) return avuiMateix.slice(0, MAX_DIAPOS);
-    const una = tria(actes, avui);
-    return una ? [una] : [];
+    return tria(actes, avui).slice(0, MAX_DIAPOS);
   }
 
   function posterHtml(acte, avui, i, total) {
@@ -174,7 +179,7 @@
 
     banda.innerHTML = `
       <div class="cartell-layout">
-        <div class="cartell-escena${total > 1 ? ' cartell-escena--carrusel' : ''}"${total > 1 ? ` aria-roledescription="carrusel" aria-label="Actes d'IA d'avui"` : ''}>
+        <div class="cartell-escena${total > 1 ? ' cartell-escena--carrusel' : ''}"${total > 1 ? ` aria-roledescription="carrusel" aria-label="${llistaActes[0].inici <= avui ? "Actes d'IA d'avui" : "Propers actes d'IA"}"` : ''}>
           <div class="cartell-pista">${posters}</div>${controls}
         </div>
         ${llista ? `<aside class="cartell-propers" aria-labelledby="cartell-propers-titol">
