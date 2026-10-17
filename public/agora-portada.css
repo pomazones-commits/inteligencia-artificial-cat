@@ -77,15 +77,48 @@
 }
 .agora-eix i { height: 2px; border-radius: 2px; background: linear-gradient(90deg, #c8432e, #9aa1bd, #b8901f); }
 
+/* 17.10.2026: carrusel amb totes les sales. Una sola fila que llisca en
+   horitzontal (scroll-snap); 4 targetes visibles a l'escriptori, 2 a la
+   tauleta i una i mitja al mòbil, perquè s'endevini que n'hi ha més. */
+.agora-carrusel { margin: 18px 0 0; }
 .agora-llista {
+  --agora-visibles: 4;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - (var(--agora-visibles) - 1) * 16px) / var(--agora-visibles));
   gap: 16px;
-  margin: 18px 0 0;
-  padding: 0;
+  margin: 0;
+  padding: 2px 0 6px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
   list-style: none;
 }
-.agora-sala { min-width: 0; }
+.agora-llista::-webkit-scrollbar { display: none; }
+.agora-llista:focus { outline: none; }
+.agora-sala { min-width: 0; scroll-snap-align: start; }
+.agora-controls { display: flex; gap: 10px; align-items: center; justify-content: flex-end; margin: 12px 0 0; }
+.agora-comptador { margin-right: auto; color: var(--muted); font: 500 12px var(--mono); letter-spacing: .02em; }
+.agora-fletxa {
+  display: inline-grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--ink);
+  background: #fff;
+  font: 600 18px/1 var(--sans, system-ui, sans-serif);
+  cursor: pointer;
+  transition: background .2s, border-color .2s;
+}
+.agora-fletxa:hover:not(:disabled) { border-color: #c9cfe0; background: var(--paper); }
+.agora-fletxa:disabled { opacity: .35; cursor: default; }
+.agora-fletxa:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+.agora-carrusel.is-estatic .agora-fletxa { display: none; }
 .agora-sala__enllac {
   display: flex;
   flex-direction: column;
@@ -117,16 +150,14 @@
 
 @media (max-width: 1080px) {
   .agora-cap { grid-template-columns: minmax(0, 1fr); align-items: start; }
-  .agora-llista { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .agora-llista { --agora-visibles: 2; }
 }
 @media (max-width: 620px) {
   .agora-layout { padding: 26px 18px 22px; border-radius: 24px; }
   .agora-cap h2 { font-size: 29px; }
-  .agora-llista { grid-template-columns: minmax(0, 1fr); gap: 12px; }
-  .agora-sala__enllac { flex-direction: row; }
-  .agora-sala__foto { flex: 0 0 34%; aspect-ratio: auto; min-height: 118px; }
+  .agora-llista { grid-auto-columns: 78%; gap: 12px; }
   .agora-sala__cos { padding: 12px 14px 14px; gap: 7px; }
   .agora-sala__titol { font-size: 18px; }
   .agora-sala__pregunta { font-size: 13px; }
 }
-@media (prefers-reduced-motion: reduce) { .agora-sala__enllac { transition: none; } .agora-sala__enllac:hover { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .agora-sala__enllac { transition: none; } .agora-sala__enllac:hover { transform: none; } .agora-llista { scroll-behavior: auto; } }

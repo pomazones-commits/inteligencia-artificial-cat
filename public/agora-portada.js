@@ -9,13 +9,21 @@
    14.10.2026: mentre una sala té menys de MINIM persones situades no se'n
    mostren ni la barra ni el comptador (una sala amb «0 persones» fa mala
    impressió): només la imatge, la pregunta i la crida a opinar. L'eix
-   apocalíptica-integrada només surt quan alguna sala ja ensenya la barra. */
+   apocalíptica-integrada només surt quan alguna sala ja ensenya la barra.
+   17.10.2026: carrusel amb TOTES les sales (abans, només les 4 amb més gent).
+   Ordre: primer les que tenen més persones situades; a igualtat, les més noves
+   primer, perquè una sala acabada d'obrir es vegi. Avança una targeta cada 9 s
+   (el mateix ritme que el carrusel de notícies), torna al principi en arribar
+   al final i s'atura mentre el cursor, el dit o el focus hi són, quan la
+   pestanya no es veu i amb «reduir el moviment». Botons ← → i lliscament amb
+   el dit (scroll-snap). Cap salt vertical: totes les targetes fan la mateixa
+   alçada perquè la pista és una sola fila. */
 (() => {
   'use strict';
   const banda = document.getElementById('agora');
   if (!banda || !window.fetch) return;
 
-  const MAX = 4;
+  const PAS_MS = 9000;  // una targeta cada 9 s, com el carrusel de notícies (app.js)
   const MINIM = 5;      // persones situades a partir de les quals es mostra la barra
   const ARA_MINIM = 2;  // «N ara mateix» només a partir d'aquí
   const BASE = '/agora/';
@@ -26,13 +34,12 @@
   const persones = n => n === 1 ? '1 persona situada' : `${n} persones situades`;
 
   function tria(sales) {
-    // Primer les que tenen més gent situada; a igualtat, les que tenen imatge,
-    // i després l'ordre de l'Àgora.
+    // Totes les sales. Primer les que tenen més gent situada; a igualtat, les
+    // que tenen imatge, i després les més noves (id més alt) primer.
     return sales
       .filter(t => t && t.id && t.title && t.q)
       .map((t, i) => ({ ...t, i, n: POS.reduce((s, v) => s + (Number((t.dist || {})[String(v)]) || 0), 0) }))
-      .sort((a, b) => (b.n - a.n) || ((b.thumb ? 1 : 0) - (a.thumb ? 1 : 0)) || (a.i - b.i))
-      .slice(0, MAX);
+      .sort((a, b) => (b.n - a.n) || ((b.thumb ? 1 : 0) - (a.thumb ? 1 : 0)) || (Number(b.id) - Number(a.id)) || (a.i - b.i));
   }
 
   const visible = t => t.n >= MINIM;
@@ -54,11 +61,11 @@
     return `<small class="agora-sala__meta agora-sala__crida">Dona la teva opinió <span aria-hidden="true">→</span>${ara ? ` · ${ara}` : ''}</small>`;
   }
 
-  function sala(t) {
+  function sala(t, k, total) {
     const img = /^uploads\/topics\/[0-9]+-t\.jpg(\?v=[0-9]+)?$/.test(t.thumb || '')
-      ? `<img src="${esc(BASE + t.thumb)}" alt="" width="480" height="320" loading="lazy" decoding="async" onerror="this.remove()">`
+      ? `<img src="${esc(BASE + t.thumb)}" alt="" width="480" height="320" loading="${k < 4 ? 'eager' : 'lazy'}" decoding="async" onerror="this.remove()">`
       : '';
-    return `<li class="agora-sala">
+    return `<li class="agora-sala" aria-roledescription="diapositiva" aria-label="${k + 1} de ${total}">
         <a class="agora-sala__enllac" href="${BASE}#sala/${Number(t.id)}">
           <span class="agora-sala__foto" aria-hidden="true">${img}</span>
           <span class="agora-sala__cos">
@@ -83,9 +90,75 @@
           <a class="agora-cap__tot" href="${BASE}">Entra a l’Àgora <span aria-hidden="true">→</span></a>
         </header>
         ${ambBarra ? '<div class="agora-eix" aria-hidden="true"><span>Apocalíptica</span><i></i><span>Integrada</span></div>' : ''}
-        <ol class="agora-llista">${sales.map(sala).join('')}</ol>
+        <div class="agora-carrusel" aria-roledescription="carrusel" aria-label="Sales de l’Àgora">
+          <ol class="agora-llista" tabindex="-1">${sales.map((t, k) => sala(t, k, sales.length)).join('')}</ol>
+          <div class="agora-controls">
+            <span class="agora-comptador" aria-live="polite"></span>
+            <button type="button" class="agora-fletxa" data-dir="-1" aria-label="Sales anteriors"><span aria-hidden="true">←</span></button>
+            <button type="button" class="agora-fletxa" data-dir="1" aria-label="Sales següents"><span aria-hidden="true">→</span></button>
+          </div>
+        </div>
       </div>`;
     banda.hidden = false;
+    carrusel(banda.querySelector('.agora-carrusel'), sales.length);
+  }
+
+  function carrusel(caixa, total) {
+    const pista = caixa.querySelector('.agora-llista');
+    const comptador = caixa.querySelector('.agora-comptador');
+    const fletxes = [...caixa.querySelectorAll('.agora-fletxa')];
+    const reduir = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let timer = 0;
+    let aturat = false;
+
+    const pas = () => {
+      const li = pista.querySelector('.agora-sala');
+      if (!li) return pista.clientWidth;
+      const gap = parseFloat(getComputedStyle(pista).columnGap) || 0;
+      return li.getBoundingClientRect().width + gap;
+    };
+    const visibles = () => Math.max(1, Math.round((pista.clientWidth + 1) / (pas() || 1)));
+    const alFinal = () => pista.scrollLeft + pista.clientWidth >= pista.scrollWidth - 4;
+    const behavior = reduir ? 'auto' : 'smooth';
+
+    function estat() {
+      const n = visibles();
+      const cap = Math.min(total, Math.round(pista.scrollLeft / (pas() || 1)) + 1);
+      const fi = Math.min(total, cap + n - 1);
+      comptador.textContent = total <= n ? `${total} sales` : (cap === fi ? `${cap} de ${total}` : `${cap}–${fi} de ${total}`);
+      const cal = total > n;
+      caixa.classList.toggle('is-estatic', !cal);
+      fletxes[0].disabled = !cal || pista.scrollLeft <= 4;
+      fletxes[1].disabled = !cal;
+      return cal;
+    }
+
+    function mou(dir) {
+      if (dir > 0 && alFinal()) pista.scrollTo({ left: 0, behavior });
+      else pista.scrollBy({ left: dir * pas(), behavior });
+    }
+
+    function para() { if (timer) { window.clearInterval(timer); timer = 0; } }
+    function engega() {
+      para();
+      if (reduir || aturat || document.hidden || !estat()) return;
+      timer = window.setInterval(() => mou(1), PAS_MS);
+    }
+
+    fletxes.forEach(b => b.addEventListener('click', () => { mou(Number(b.dataset.dir)); engega(); }));
+    let espera = 0;
+    pista.addEventListener('scroll', () => { window.clearTimeout(espera); espera = window.setTimeout(estat, 80); }, { passive: true });
+    const quiet = () => { aturat = true; para(); };
+    const segueix = () => { aturat = false; engega(); };
+    caixa.addEventListener('mouseenter', quiet);
+    caixa.addEventListener('mouseleave', segueix);
+    caixa.addEventListener('focusin', quiet);
+    caixa.addEventListener('focusout', e => { if (!caixa.contains(e.relatedTarget)) segueix(); });
+    pista.addEventListener('touchstart', quiet, { passive: true });
+    pista.addEventListener('touchend', () => { window.setTimeout(segueix, 4000); }, { passive: true });
+    document.addEventListener('visibilitychange', engega);
+    window.addEventListener('resize', () => { window.clearTimeout(espera); espera = window.setTimeout(engega, 150); });
+    engega();
   }
 
   fetch(`${BASE}api/index.php?a=topics`, { credentials: 'omit', cache: 'no-store' })
