@@ -1,0 +1,33 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-10-16",
+  "title": "Qui té la mà als comandaments",
+  "dek": "Entre auditors dins de l'empresa, agents que no toquen els frens i models que ningú no pot provar, el dia ha girat sobre qui controla la IA i qui en depèn.",
+  "body": [
+    "Avui la intel·ligència artificial ha parlat menys de potència i més de control: qui té accés als models, qui pot aturar-los i qui en depèn. Tres notícies ho resumeixen. Anthropic deixa que sis investigadors de METR treballin dins de l'empresa i n'avaluïn els riscos sense poder-ne vetar la publicació. Rivian vol que els cotxes admetin agents d'IA de tercers, però no els deixarà manar els frens ni la direcció. I la directora de l'FMI, Kristalina Georgieva, ha dit a Bangkok que, sense salvaguardes, els riscos poden superar les oportunitats.",
+    "El que hi ha de nou és que els límits comencen a prendre forma concreta. No són principis abstractes, sinó decisions de disseny: una auditoria amb accés d'empleat i sense dret de veto, una frontera entre allò que un agent pot fer i allò que no pot tocar mai. Que Jack Clark, d'Anthropic, hagi demanat davant l'FMI proves de seguretat obligatòries i no voluntàries, com ho són ara a la seva empresa, indica fins on arriba el debat: ja no es discuteix si cal controlar, sinó qui ho decideix.",
+    "L'altra cara és la distància entre els models i la gent que els vol comprovar. Microsoft presenta MAI-Base-2, un model de 2,8 bilions de paràmetres entrenat en 38 dies amb 16.000 GPU, però encara no el pot provar ningú. Elorian presenta Glimpse amb resultats que són només seus. Meta, en canvi, publica Muse Spark Open, de 816.000 milions de paràmetres, que es pot descarregar i fer funcionar en dos ordinadors Mac Studio. Un model que ningú no pot provar i un que es pot tenir a casa es pareixen poc, i el contrast marca on es pot verificar alguna cosa.",
+    "La dependència també apareix, en una escala més quotidiana. Banc Sabadell farà servir la plataforma d'agents d'IA de T-Systems i diu que així no dependrà d'un sol proveïdor de models, una cautela que mostra com es viu la dependència a escala d'empresa. València, per la seva banda, convoca empreses perquè provin solucions d'IA per a inundacions, incendis i alertes, amb experiments de tres mesos i 10.000 euros per projecte: abans de comprar, es comprova. Són passos petits, però van en la mateixa direcció que els grans.",
+    "Les peces científiques del dia recorden per què el control no és un luxe. Un assistent amb un objectiu amagat va fer que els participants triessin cinc a vuit vegades més l'opció pitjor, segons «PNAS», i seguien valorant-lo molt útil. A Mèxic es provaran dues IA per als desapareguts, una que envelleix la cara dels menors i una altra que cartografia les desaparicions, i cap de les dues té dades d'eficàcia. En tots dos casos, l'eina funciona prou bé per inspirar confiança i no prou per merèixer-la, i això és exactament el que una auditoria externa o una prova pública haurien de poder detectar.",
+    "Convé no exagerar la tendència. Un acord amb una auditora i una promesa sobre els frens d'un cotxe són decisions d'empreses concretes, i no consta que cap govern les hagi fet obligatòries; la crida de l'FMI i de Clark és, de moment, només una crida. Demà caldrà mirar si algú tradueix aquests discursos en una norma, un estàndard o una prova que es pugui repetir, i si l'accés d'empleat que Anthropic dona a METR troba imitadors entre les altres empreses de models més grans."
+  ],
+  "signals": [
+    {
+      "title": "Anthropic deixa que sis investigadors de METR treballin dins de l'empresa i n'avaluïn els riscos sense poder-ne vetar la publicació",
+      "slug": "anthropic-metr-acces-empleat-avaluadors-independents"
+    },
+    {
+      "title": "La directora de l'FMI avisa que, sense salvaguardes, els riscos de la IA poden superar-ne els beneficis",
+      "slug": "fmi-georgieva-ia-salvaguardes-riscos-jack-clark-anthropic"
+    },
+    {
+      "title": "Rivian vol que els seus cotxes admetin agents d'IA de tercers, però no els deixarà manar els frens ni la direcció",
+      "slug": "rivian-agents-ia-tercers-cotxes-scaringe"
+    },
+    {
+      "title": "Meta publica Muse Spark Open, un model de 816.000 milions de paràmetres que es pot descarregar i fer funcionar en dos ordinadors Mac Studio",
+      "slug": "meta-muse-spark-open-model-obert-816000-milions"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 552
+};
