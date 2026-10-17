@@ -630,11 +630,18 @@ async function ingestNews(options) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) throw new Error('--date ha de tenir el format AAAA-MM-DD.');
 
   const inputText = await readFile(resolve(options.input), 'utf8');
-  const incoming = validateNews(parsePayload(inputText, 'news'));
+  // Notícies retirades (17.10.2026): mai no tornen a entrar, ni que el lot o la
+  // repesca les portin un altre cop (vegeu l'ordre `retira`).
+  const retirades = await llegeixRetirades(stateDir);
+  const incoming = validateNews(parsePayload(inputText, 'news')).filter(story => {
+    if (!esRetirada(story, retirades)) return true;
+    process.stdout.write(`AVÍS: «${story.title}» (${story.slug}) és una notícia retirada; no es publica.\n`);
+    return false;
+  });
   const statePath = join(stateDir, 'news-state.json');
   const previousState = await readJson(statePath, { editionDate: date, items: [], batches: 0 });
   const previous = previousState.editionDate === date && Array.isArray(previousState.items) && previousState.items.length
-    ? validateNews(previousState.items)
+    ? validateNews(previousState.items).filter(story => !esRetirada(story, retirades))
     : [];
   // Encaminament de seccions: les notícies marcades amb seccio "radar" van
   // NOMÉS a "La IA que passa aquí" (via deriveRadar més avall) i no entren al
@@ -978,7 +985,10 @@ async function pendingWork(options) {
     // de manera que no hi ha cap rastre fiable per saber si ja s'han ingerit.
     // Un lot que només en porti no dispara la repesca: val més no fer res que
     // reingerir en bucle. El camí normal (push a incoming/) sí que el cobreix.
-    const slugs = incoming.filter(story => story.seccio !== 'radar').map(story => story.slug);
+    const retirades = await llegeixRetirades(stateDir);
+    const slugs = incoming
+      .filter(story => story.seccio !== 'radar' && !esRetirada(story, retirades))
+      .map(story => story.slug);
     if (!slugs.length) {
       reason = 'el lot només porta senyals de radar; la repesca no hi arriba';
     } else {
@@ -1006,6 +1016,132 @@ async function pendingWork(options) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Retirar una notícia publicada (17.10.2026).
+// Fins ara no hi havia cap manera de treure una notícia equivocada: news.js i
+// la resta es regeneren i no es poden editar a mà, i si només es treia de
+// l'estat la repesca (`pending`) la tornava a publicar des d'incoming/. Aquesta
+// ordre la treu de tots els fitxers generats i l'apunta a
+// .content-state/retirades.json, que `ingest-news` i `pending` respecten.
+// ---------------------------------------------------------------------------
+async function llegeixRetirades(stateDir) {
+  const data = await readJson(join(stateDir, 'retirades.json'), { items: [] });
+  return Array.isArray(data?.items) ? data.items : [];
+}
+
+function esRetirada(story, retirades) {
+  if (!story || !retirades.length) return false;
+  const url = normalizeText(story.sourceUrl || story.url).toLocaleLowerCase('ca');
+  return retirades.some(entry => (entry.slug && entry.slug === (story.slug || story._slug))
+    || (entry.sourceUrl && url && entry.sourceUrl.toLocaleLowerCase('ca') === url)
+    || (entry.title && normalizeText(story.title) === entry.title));
+}
+
+async function retiraNoticia(options) {
+  const slug = normalizeText(options.slug);
+  if (!/^[a-z0-9-]+$/.test(slug)) throw new Error('Falta --slug (només a-z, 0-9 i guions).');
+  const publicDir = resolve(options['public-dir'] || '.');
+  const stateDir = resolve(options['state-dir'] || '.content-state');
+  const motiu = normalizeText(options.motiu);
+  const date = editionDate();
+
+  // Busquem la notícia a l'estat o a l'hemeroteca per saber-ne el títol i la font.
+  const statePath = join(stateDir, 'news-state.json');
+  const state = await readJson(statePath, null);
+  const archivePath = join(stateDir, 'archive.json');
+  const archive = await readJson(archivePath, { items: [] });
+  const archiveItems = Array.isArray(archive.items) ? archive.items : [];
+  const trobada = (Array.isArray(state?.items) ? state.items : []).find(item => item.slug === slug)
+    || archiveItems.find(item => item.slug === slug);
+  if (!trobada) throw new Error(`No hi ha cap notícia publicada amb l'slug ${slug}.`);
+  const entrada = {
+    slug,
+    title: normalizeText(trobada.title),
+    sourceUrl: normalizeText(trobada.sourceUrl),
+    retiradaEl: date,
+    ...(motiu ? { motiu } : {})
+  };
+  const retirades = (await llegeixRetirades(stateDir)).filter(item => item.slug !== slug);
+  retirades.unshift(entrada);
+  await atomicWrite(join(stateDir, 'retirades.json'), `${JSON.stringify({ items: retirades }, null, 2)}\n`);
+  const fora = story => !esRetirada(story, [entrada]);
+  const now = new Date().toISOString();
+  const tocats = [];
+
+  // Edició del dia: estat, news.js, articles.json, latest.json, butlletí i estat públic.
+  if (state && Array.isArray(state.items)) {
+    const items = state.items.filter(fora);
+    if (items.length !== state.items.length) {
+      await backupFile(join(publicDir, 'news.js'), join(stateDir, 'backups'), date);
+      await atomicWrite(statePath, `${JSON.stringify({ ...state, updatedAt: now, items }, null, 2)}\n`);
+      await atomicWrite(join(publicDir, 'news.js'), serializeAssignment(ASSIGNMENTS.news.variable, items));
+      await atomicWrite(join(publicDir, 'data', 'articles.json'), `${JSON.stringify({ updatedAt: now, items }, null, 2)}\n`);
+      await atomicWrite(join(publicDir, 'content', 'latest.json'), `${JSON.stringify({
+        updatedAt: now,
+        items: items.map(({ category, read, title, excerpt }) => ({ category, read, title, excerpt }))
+      }, null, 2)}\n`);
+      const newsletterPath = join(publicDir, 'data', 'newsletter.json');
+      const newsletter = await readJson(newsletterPath, null);
+      if (newsletter && newsletter.editionDate === state.editionDate) {
+        await atomicWrite(newsletterPath, `${JSON.stringify({
+          ...newsletter,
+          subject: `La setmana d’IA: ${items[0]?.title || 'les històries essencials'}`,
+          lead: items[0] || null,
+          stories: items.slice(0, 5)
+        }, null, 2)}\n`);
+      }
+      const statusPath = join(publicDir, 'content-status.json');
+      const status = await readJson(statusPath, null);
+      if (status) await atomicWrite(statusPath, `${JSON.stringify({ ...status, newsCount: items.length }, null, 2)}\n`);
+      tocats.push('news.js', 'data/articles.json', 'content/latest.json', 'data/newsletter.json');
+    }
+  }
+
+  // Radar català.
+  const radarPath = join(publicDir, 'radar.js');
+  const radar = await readAssignment(radarPath);
+  if (Array.isArray(radar)) {
+    const net = radar.filter(fora);
+    if (net.length !== radar.length) {
+      await backupFile(radarPath, join(stateDir, 'backups'), date);
+      await atomicWrite(radarPath, serializeAssignment(ASSIGNMENTS.radar.variable, net));
+      tocats.push('radar.js');
+    }
+  }
+
+  // Hemeroteca interna i pública, arxiu per edicions i arxiu del radar.
+  const archiveNet = archiveItems.filter(fora);
+  if (archiveNet.length !== archiveItems.length) {
+    await atomicWrite(archivePath, `${JSON.stringify({ ...archive, updatedAt: now, items: archiveNet }, null, 2)}\n`);
+    await atomicWrite(join(publicDir, 'data', 'archive.json'), `${JSON.stringify(archiveNet, null, 2)}\n`);
+    tocats.push('data/archive.json');
+  }
+  const arxiuPath = join(publicDir, 'data', 'arxiu.json');
+  const arxiu = await readJson(arxiuPath, null);
+  if (arxiu && Array.isArray(arxiu.editions)) {
+    let canvis = false;
+    for (const edition of arxiu.editions) {
+      if (!Array.isArray(edition?.items)) continue;
+      const net = edition.items.filter(fora);
+      if (net.length !== edition.items.length) { edition.items = net; canvis = true; }
+    }
+    if (canvis) {
+      await atomicWrite(arxiuPath, `${JSON.stringify(arxiu, null, 2)}\n`);
+      tocats.push('data/arxiu.json');
+    }
+  }
+  const radarArxiuPath = join(publicDir, 'data', 'radar-arxiu.json');
+  const radarArxiu = await readJson(radarArxiuPath, null);
+  if (Array.isArray(radarArxiu)) {
+    const net = radarArxiu.filter(fora);
+    if (net.length !== radarArxiu.length) {
+      await atomicWrite(radarArxiuPath, `${JSON.stringify(net, null, 2)}\n`);
+      tocats.push('data/radar-arxiu.json');
+    }
+  }
+  process.stdout.write(`Retirada «${entrada.title}» (${slug}). Fitxers: ${tocats.join(', ') || 'cap'}.\n`);
+}
+
 async function validateCommand(options) {
   if (!options.input || !options.type) throw new Error('Falten --input i --type.');
   const text = await readFile(resolve(options.input), 'utf8');
@@ -1024,7 +1160,7 @@ function usage() {
   node content-hub.mjs ingest-daily-reflection --input daily-reflection.json --public-dir .
   node content-hub.mjs validate --type news|analysis|reflection|daily-reflection --input fitxer.json
   node content-hub.mjs pending --what news|daily-reflection --input fitxer.json --public-dir . --state-dir .content-state
-  node content-hub.mjs imatges-recents --state-dir .content-state [--dies 30] [--json]\n`;
+  node content-hub.mjs imatges-recents --state-dir .content-state [--dies 30] [--json]\n  node content-hub.mjs retira --slug <slug> [--motiu "…"] --public-dir public --state-dir .content-state\n`;
 }
 
 try {
@@ -1036,6 +1172,7 @@ try {
   else if (command === 'validate') await validateCommand(options);
   else if (command === 'pending') await pendingWork(options);
   else if (command === 'imatges-recents') await imatgesRecents(options);
+  else if (command === 'retira') await retiraNoticia(options);
   else {
     process.stdout.write(usage());
     process.exitCode = command ? 1 : 0;

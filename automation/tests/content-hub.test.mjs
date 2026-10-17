@@ -1631,3 +1631,38 @@ test('cartells: amb "cartell_logo" s\'accepta el logo petit, sense no (17.10.202
   assert.equal(acceptable(logo, { logo: true }), null);
   assert.match(acceptable({ format: 'png', amplada: 100, alcada: 60 }, { logo: true }), /massa petita/);
 });
+
+test('retira: treu una notícia de tots els fitxers generats i la repesca no la torna a publicar (17.10.2026)', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-retira-'));
+  const input = join(root, 'lot.json');
+  const items = Array.from({ length: 5 }, (_, index) => story(index + 1));
+  items[1].title = 'Un assistent de Barcelona per detectar estafes';
+  items[1].seccio = 'catalunya';
+  await writeFile(input, JSON.stringify(items), 'utf8');
+  const date = '2026-10-17';
+  const base = ['--public-dir', root, '--state-dir', join(root, 'state')];
+  assert.equal(run(['ingest-news', '--input', input, '--date', date, ...base], root).status, 0);
+  const radarAbans = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.ok(radarAbans.some(signal => signal.title === items[1].title));
+
+  const retira = run(['retira', '--slug', 'noticia-de-prova-2', '--motiu', 'prova', ...base], root);
+  assert.equal(retira.status, 0, retira.stderr);
+  const news = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.equal(news.length, 4);
+  assert.ok(!news.some(item => item.slug === 'noticia-de-prova-2'));
+  const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.ok(!radar.some(signal => signal.title === items[1].title));
+  for (const file of ['data/articles.json', 'data/archive.json', 'content/latest.json', 'data/newsletter.json']) {
+    assert.ok(!(await readFile(join(root, file), 'utf8')).includes(items[1].title), file);
+  }
+
+  // La repesca veu el lot com a publicat i, si es torna a ingerir, no reapareix.
+  const pending = run(['pending', '--what', 'news', '--input', input, ...base], root);
+  assert.equal(pending.stdout.trim(), 'no');
+  assert.equal(run(['ingest-news', '--input', input, '--date', date, ...base], root).status, 0);
+  const despres = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.ok(!despres.some(item => item.slug === 'noticia-de-prova-2'));
+  assert.ok(!parseAssignment(await readFile(join(root, 'radar.js'), 'utf8')).some(signal => signal.title === items[1].title));
+
+  assert.notEqual(run(['retira', '--slug', 'no-existeix', ...base], root).status, 0);
+});

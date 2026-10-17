@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T08:14:14.148Z",
+  "updatedAt": "2026-10-17T08:47:46.764Z",
   "items": [
     {
       "category": "SEGURETAT",
@@ -36,18 +36,6 @@
       "sourceDate": "16 d'octubre de 2026",
       "body": "Auscultar els pulmons d'un infant demana un estetoscopi i una persona que sàpiga interpretar el que sent. Un equip del Departament d'Intel·ligència Artificial Aplicada de la Universitat Nacional de Ciència i Tecnologia de Seül (SEOULTECH) ha provat si un telèfon mòbil podria fer una part d'aquest cribratge. L'estudi, signat per Seunggyu Jeong, Sungwoo Nam, Seongkwan Jung i Seong-Eun Kim, es va publicar el 30 de juliol a la revista revisada per parells *IEEE Journal of Biomedical and Health Informatics*, i la universitat n'ha difós la nota aquesta setmana.\n\nEl problema de fons és que hi ha molts enregistraments amb estetoscopi electrònic i pocs amb mòbil, i un model entrenat només amb els primers falla quan escolta el so d'un micròfon de telèfon. Els autors van partir de gravacions de 611 nens de 0 a 6 anys, de les quals 147 tenien també la versió de mòbil presa als mateixos quatre punts del cos. Van filtrar i reduir l'àudio del mòbil i van afegir un mòdul que fa que el model aprengui les diferències entre els dos aparells dins d'un transformador d'espectrogrames d'àudio.\n\nEn les gravacions de mòbil del grup principal, el sistema va obtenir una puntuació F1 de 0,802 i una AUROC de 0,911, per sobre del model entrenat només amb mòbil (0,732) i del que barrejava els dos aparells sense més (0,708). En un grup extern de 48 nens amb només gravacions de mòbil, la F1 va ser de 0,744 i l'AUROC de 0,862, mentre que el model entrenat només amb estetoscopi gairebé no funcionava (F1 de 0,034).\n\nLímits: els mateixos autors el defineixen com una prova de concepte i diuen que cal validar-lo amb grups més grans i de diversos centres, amb gravacions fetes a casa i amb diferents models de mòbil. No és una eina diagnòstica ni substitueix l'exploració d'un pediatre.",
       "image": "./assets/mobil-sorolls-pulmonars-nens-ieee-seoultech-20261017.jpg"
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "slug": "agencia-ciberseguretat-assistent-ia-estafes-whatsapp",
-      "title": "Catalunya té un assistent d'IA al web i al WhatsApp que ajuda a detectar estafes abans de pagar o fer clic",
-      "excerpt": "L'Agència de Ciberseguretat de Catalunya l'ofereix dins d'un pla contra les ciberestafes. Entre gener i agost els Mossos van registrar 53.577 estafes digitals, amb pèrdues de 103 milions d'euros.",
-      "sourceName": "El Nacional",
-      "sourceUrl": "https://www.elnacional.cat/ca/societat/ciberseguretat_1710637_102.html",
-      "sourceDate": "16 d'octubre de 2026",
-      "body": "L'Agència de Ciberseguretat de Catalunya ofereix un assistent basat en intel·ligència artificial, accessible des del seu web i per WhatsApp, que ajuda a identificar possibles estafes virtuals, a valorar si una persona pot haver-ne estat víctima i a resoldre dubtes de seguretat digital. Segons Ara, l'usuari hi pot enviar una captura o l'enllaç d'un SMS o d'una botiga en línia i saber de seguida quin risc de frau hi ha abans de pagar o de fer clic.\n\nL'eina forma part de la resposta del Govern a unes xifres que no paren de pujar. Entre gener i agost del 2026, els Mossos d'Esquadra van registrar 53.577 estafes digitals, unes 220 al dia, amb pèrdues de 103 milions d'euros. Des de principis del 2024, el perjudici acumulat s'acosta als 490 milions i les víctimes passen de 200.000. Les ciberestafes són ja el segon delicte més denunciat a Catalunya.\n\nL'assistent s'acompanya d'un pla estratègic 2026-2028 contra les estafes virtuals, elaborat pels Mossos i l'Agència, que el Govern havia d'aprovar el dimarts següent i que vol reforçar la coordinació amb la banca, les plataformes de venda en línia i les operadores mòbils. Els Mossos han creat també un grup de ciberintel·ligència per anticipar riscos, i la Comissaria Virtual, un portal per denunciar des de casa, s'ha previst per al novembre.\n\nLímits: les fonts no detallen com es comprova la fiabilitat de les respostes de l'assistent ni quantes persones l'han fet servir, i no hi ha dades públiques sobre quants fraus ha evitat. El pla encara havia de passar pel Consell Executiu en el moment de publicar-se les informacions.",
-      "image": "./assets/agencia-ciberseguretat-assistent-ia-estafes-whatsapp-20261017.jpg"
     },
     {
       "category": "MODELS",
