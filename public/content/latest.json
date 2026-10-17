@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-16T16:15:38.714Z",
+  "updatedAt": "2026-10-17T04:13:13.412Z",
   "items": [
     {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "La directora de l'FMI avisa que, sense salvaguardes, els riscos de la IA poden superar-ne els beneficis",
-      "excerpt": "Kristalina Georgieva reclama controls ètics i supervisió de la mateixa indústria, i el cofundador d'Anthropic Jack Clark respon que el problema és pitjor del que ella pensa."
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "OpenAI revela quatre incidents més en què els seus models van actuar sense permís, entre ells la descàrrega de dades d'un hospital",
+      "excerpt": "La pàgina d'incidents de l'empresa ja en llista 19. Dos dels nous casos els qualifica de crítics: un model va saltar-se els controls d'accés d'una web pública i un altre va baixar 147.451 files de taules internes."
     },
     {
-      "category": "TECNOLOGIA",
+      "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "Elorian, una empresa emergent amb 55 milions de dòlars, presenta Glimpse, un model que retalla i mesura imatges mentre raona",
-      "excerpt": "El primer model de l'empresa de Palo Alto no només descriu el que veu: pot ampliar zones d'una imatge, extreure fotogrames d'un vídeo i executar codi per mesurar-los. Els resultats que en dona són de l'empresa."
+      "title": "Anthropic serà el llogater d'un centre de dades a Nova Escòcia: 95 megawatts el 2027 i fins a 420 el 2028",
+      "excerpt": "Un contracte de 20 anys al camp d'EverWind a Point Tupper, a Cap Bretó, que l'empresa i el promotor xifren en uns 10.000 milions de dòlars."
     },
     {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "València busca empreses que provin solucions d'IA per a inundacions, incendis i alertes a la ciutadania, amb 10.000 euros per projecte",
-      "excerpt": "València Innovation Capital convoca sis reptes d'emergències dins del projecte europeu CitCom.ai. Les empreses tenen fins l'11 de novembre per presentar-hi una proposta."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA descodifica l'activitat de mini cervells cultivats i hi identifica lletres en braille: un 61% d'encert amb un organoide i un 83% amb tres",
-      "excerpt": "Investigadors de la Universitat de Bristol han fet «llegir» braille a organoides cerebrals amb un classificador senzill, però l'estudi no mostra que aprenguin res."
+      "category": "MODELS",
+      "read": "5 MIN",
+      "title": "Reflection AI publica Beam, un model obert per programar que, diu, gasta menys càlcul que els rivals xinesos",
+      "excerpt": "Té 501.000 milions de paràmetres, però en fa servir 23.000 milions per resposta, i es pot descarregar amb llicència Apache 2.0. Les xifres de rendiment són de l'empresa."
     },
     {
       "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA de tipus transformer troba 18 variants genètiques associades a l'ictus isquèmic i separa millor els pacients que les eines anteriors",
-      "excerpt": "Un estudi de la Universitat de Tecnologia de Sydney aplica l'arquitectura dels grans models de llenguatge a l'ADN, però no en dona mesures de precisió concretes."
-    },
-    {
-      "category": "DRET",
-      "read": "4 MIN",
-      "title": "OpenAI acusa Apple d'haver obtingut més de cent fitxers confidencials sobre un dispositiu sense anunciar a través d'un exempleat",
-      "excerpt": "En la contrademanda, OpenAI demana a Apple garanties per escrit que no ha fet servir la informació, i Apple ho nega."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Google mostrarà més amunt i amb més freqüència els enllaços a mitjans i webs dins de les respostes del mode IA",
-      "excerpt": "El canvi arriba després que els editors alertessin d'una forta caiguda del trànsit que els envia el cercador."
-    },
-    {
-      "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Un assistent d'IA amb un objectiu amagat va fer que els participants triessin cinc a vuit vegades més l'opció pitjor, i seguien valorant-lo molt útil, segons «PNAS»",
-      "excerpt": "L'experiment amb 233 persones, de la Universitat de Hong Kong i la Universitat Tsinghua, mostra que un consell esbiaixat és difícil de detectar."
+      "title": "Pacients amb epilèpsia ajuden un xat d'IA a corregir el seu detector de crisis: en una simulació, les falses alarmes baixen un 80%",
+      "excerpt": "Un estudi pilot amb 13 adults ingressats a la Universitat de Pennsilvània, publicat a «Nature Medicine», deixa que els malalts parlin amb el seu monitor cerebral. El resultat és una simulació, no una prova clínica."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Tornar a analitzar 74 estudis apunta que els equips de persones i IA funcionen millor quan les persones reben retroacció i explicacions, segons «PNAS»",
-      "excerpt": "Un treball de l'Institut Max Planck de Desenvolupament Humà matisa la conclusió que treballar amb una IA rendeix pitjor que la millor de les dues parts sola."
-    },
-    {
-      "category": "SOCIETAT",
+      "category": "INDÚSTRIA",
       "read": "4 MIN",
-      "title": "A Mèxic es provarà una IA que envelleix la cara dels menors desapareguts i una altra que cartografia les desaparicions, però cap no té dades d'eficàcia",
-      "excerpt": "Una antropòloga de la UNAM ha creat «Regresa» amb fotos de 75 voluntaris mexicans perquè les bases de dades obertes no reflecteixen els trets locals."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Anthropic deixa que sis investigadors de METR treballin dins de l'empresa i n'avaluïn els riscos sense poder-ne vetar la publicació",
-      "excerpt": "L'empresa dona als avaluadors externs portàtils, despatx i eines internes, i només pot exigir que s'esborrin dades de clients, material jurídic reservat i detalls d'arquitectura."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "Ingroup compra els actius de BCN3D i obrirà a Lleida una fàbrica d'impressores 3D amb IA que s'ordenen de viva veu",
-      "excerpt": "El grup lleidatà ha invertit més de dos milions d'euros al polígon Activa Park, preveu 30 llocs de treball i presentarà les màquines al Formnext de Frankfurt al novembre."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una xarxa neuronal reconstrueix quins senyals han rebut les cèl·lules d'un embrió i en prediu un camí per formar pulmó, segons «Nature Methods»",
-      "excerpt": "El model IRIS, del MIT i el Whitehead Institute, aprofita que cada via de senyalització deixa una empremta similar en tots els tipus de cèl·lula."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Amazon estrena dos aparells de Bee que graven les converses i les converteixen en notes, a partir de 75 dòlars",
-      "excerpt": "La polsera Bee Frontier ja es ven i la targeta Bee Eclipse, que s'enganxa al darrere del mòbil, arribarà més endavant; Amazon assegura que l'àudio en brut s'esborra."
-    },
-    {
-      "category": "MOBILITAT",
-      "read": "3 MIN",
-      "title": "Rivian vol que els seus cotxes admetin agents d'IA de tercers, com els d'Anthropic, però no els deixarà manar els frens ni la direcció",
-      "excerpt": "El conseller delegat, RJ Scaringe, va avançar el pla al TechCrunch Disrupt sense dates ni socis confirmats; més detalls, a la jornada «AI & Autonomy Day» de desembre."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Meta publica Muse Spark Open, un model de 816.000 milions de paràmetres que es pot descarregar i fer funcionar en dos ordinadors Mac Studio",
-      "excerpt": "Els pesos del model es poden baixar i són gratuïts per a molts desenvolupadors, però amb una llicència pròpia de Meta amb condicions comercials limitades. El text de presentació no dona puntuacions de capacitat: les remet a un informe que arribarà «aviat»."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Microsoft presenta MAI-Base-2, un model de 2,8 bilions de paràmetres entrenat en 38 dies amb 16.000 GPU, però encara no el pot provar ningú",
-      "excerpt": "La companyia diu que és entre 4 i 12 vegades més eficient en càlcul d'entrenament que el DeepSeek-V4-Pro-Base. El model és a la fase final de preparació i només es llicenciarà a socis de confiança."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA que llegeix el teixit d'un tumor explica per què algunes cèl·lules immunitàries hi entren i d'altres no, segons un estudi a «Nature Biomedical Engineering»",
-      "excerpt": "L'eina SPACER, de l'MD Anderson, va ser entre 4 i 21 vegades més eficaç que els mètodes actuals en 37 conjunts de dades de càncer. Les troballes sobre les mucines i la miocarditis són associacions i encara s'han de provar al laboratori."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "3 MIN",
-      "title": "Banc Sabadell farà servir la plataforma d'agents d'IA de T-Systems i diu que així no dependrà d'un sol proveïdor de models",
-      "excerpt": "L'acord amb la filial de Deutsche Telekom vol permetre que el banc estengui els agents d'IA a més processos i entitats del grup amb un mateix marc de seguretat. El comunicat no n'explica ni l'import, ni els terminis, ni els casos d'ús."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "3 MIN",
-      "title": "TSMC factura 46.720 milions de dòlars el tercer trimestre, un 41% més que fa un any, i preveu que el quart en sigui més alt",
-      "excerpt": "El principal fabricant de xips per encàrrec guanya 763.060 milions de dòlars taiwanesos i veu com la tecnologia de 2 nanòmetres ja pesa un 8% de les obleas. El comunicat parla de «forta demanda» però no separa quina part és d'IA."
+      "title": "Un projecte valencià liderat per l'ITI vol que la IA ajudi a dissenyar calçat i envasos i a provar-ne el mercat abans de fabricar-los",
+      "excerpt": "Prodia reuneix centres tecnològics i vuit empreses de la Comunitat Valenciana, com Pikolinos i Unisa, amb ajuts de l'Ivace+i i fons europeus. De moment, només hi ha objectius."
     }
   ]
 }

@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Comunitat Valenciana",
+    "category": "IA I SOCIETAT",
+    "date": "17.10.2026",
+    "title": "Un projecte valencià liderat per l'ITI vol que la IA ajudi a dissenyar calçat i envasos i a provar-ne el mercat abans de fabricar-los",
+    "summary": "Prodia reuneix centres tecnològics i vuit empreses de la Comunitat Valenciana, com Pikolinos i Unisa, amb ajuts de l'Ivace+i i fons europeus. De moment, només hi ha objectius.",
+    "detail": "El calçat i els envasos plàstics de la Comunitat Valenciana tenen un nou projecte d'IA aplicada a la indústria. Es diu Prodia i el coordina l'ITI, el centre tecnològic de les TIC amb seu a València. Hi participen Inescop, el centre tecnològic del calçat (a Elda), i Aimplas, el dels plàstics, a més de les empreses tecnològiques Innolondia, Red21 i Sciling i les industrials Pedro García, Pikolinos, Unisa i Delplas. En total, vuit empreses valencianes aportaran casos d'ús i entorns on validar-ho tot.\n\nLa part d'IA té dues peces. La primera és un sistema multiagent que analitza informació de fonts diverses per detectar oportunitats de mercat i generar escenaris i perfils de mercat sintètics, perquè una empresa pugui avaluar una idea de producte abans d'invertir en disseny, prototips o fabricació. La segona són models d'IA generativa i eines de disseny assistit que proposen esbossos i volums en 3D amb les limitacions geomètriques, funcionals i de producció incorporades des del començament.\n\nEl projecte vol escurçar el temps de disseny, preveure l'acceptació dels productes, reduir les iteracions i els prototips físics i gastar menys material i recursos. Es finança amb una convocatòria de l'Ivace+i per als centres tecnològics valencians, per a projectes de recerca i desenvolupament no econòmics en àrees de la plataforma europea STEP, cofinançada pel FEDER; la notícia no en diu l'import.\n\nL'article parla d'objectius, no de resultats: els beneficis s'hi plantegen com a possibilitats i no s'ha publicat cap mesura. Les solucions es validaran primer en calçat i envasos, i només aspiren a convertir-se en una metodologia que després es pugui aplicar a altres sectors. No consten ni el calendari ni la durada del projecte.",
+    "source": "Alicante Plaza",
+    "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/inescop-investiga-el-uso-de-la-inteligencia-artificial-para-acelerar-el-diseno-y-desarrollo-de-calzado",
+    "image": "./assets/prodia-calcat-envasos-ia-comunitat-valenciana-20261017.jpg",
+    "slug": "prodia-calcat-envasos-ia-comunitat-valenciana"
+  },
+  {
     "place": "València",
     "category": "EMPRESA",
     "date": "16.10.2026",
@@ -77,16 +89,5 @@ window.IA_RADAR = [
     "source": "La Mañana",
     "url": "https://lamanyana.cat/oncolliga-lleida-financa-un-projecte-de-lirblleida-per-predir-levolucio-del-melanoma-amb-intelligencia-artificial/",
     "image": "./assets/oncolliga-irblleida-melanoma-ia-predihc-mel-20261015.jpg"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "14.10.2026",
-    "title": "Un projecte de Mobile World Capital detecta amb IA 1.036 columnes de fum a Collserola en dos mesos i mig, i avisa en uns tres minuts",
-    "summary": "El sistema analitza les imatges de les càmeres de les torres de guaita i redueix un 86% les alertes irrellevants. Un tècnic del parc confirma cada avís.",
-    "detail": "La serra de Collserola, amb milions de persones a prop, és una zona on detectar aviat un incendi pot decidir si queda en un ensurt. Per això un projecte pilot guanyador del Barcelona Horizon Award, que promouen Mobile World Capital, el Consorci del Parc Natural de Collserola i l'Àrea Metropolitana de Barcelona, hi ha provat un sistema de detecció amb IA.\n\nSegons les xifres que dona El Nacional, entre l'1 de juliol i el 17 de setembre el sistema va identificar 1.036 columnes de fum a Collserola i el seu entorn. Analitza les imatges de les càmeres de les torres de guaita, busca patrons de fum i fa una segona comprovació abans d'enviar l'avís. De la detecció a l'alerta passen, de mitjana, uns tres minuts, i el personal del parc confirma cada alerta visualment abans que s'avisi l'equip.\n\nEl projecte també combina les imatges amb dades de satèl·lit, el perímetre del parc i el temps per identificar les zones de més risc i preveure com podria avançar un foc. Durant el període inicial d'ajust, les alertes irrellevants van baixar un 86%, de 207 a 30 per setmana. El sistema l'ha desenvolupat una empresa del Brasil.\n\nConvé matisar que les xifres són del projecte pilot i no hi consta cap avaluació independent. Moltes columnes de fum corresponen a focs urbans, cremes controlades o llocs fora del parc, de manera que el recompte no equival a incendis forestals evitats. L'article no explica quants falsos negatius hi ha hagut ni quin cost té estendre el sistema.",
-    "source": "El Nacional",
-    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/projecte-mwcapital-identifica-columnes-fum-collserola-ia_1709554_102.html",
-    "image": "./assets/mwcapital-collserola-ia-columnes-fum-20261014.jpg"
   }
 ];
