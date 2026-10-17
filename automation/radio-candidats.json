@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-17T04:13:16.205Z",
+  "generat": "2026-10-17T04:35:58.397Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -167,6 +167,14 @@
       "estat": "ok",
       "audios": 17,
       "sobre_ia": 1
+    },
+    {
+      "font": "rtva",
+      "emissora": "Ràdio Nacional d'Andorra",
+      "programa": "",
+      "estat": "ok",
+      "audios": 400,
+      "sobre_ia": 2
     }
   ],
   "candidats": [
@@ -219,6 +227,38 @@
       "reproductor": {
         "tipus": "3cat",
         "id": "1294152"
+      }
+    },
+    {
+      "id": "rna-1928399",
+      "emissora": "Ràdio Nacional d'Andorra",
+      "programa": "La Companyia",
+      "programa_url": "https://www.rtva.ad/programes/la-companyia",
+      "data": "2026-10-14",
+      "durada": "",
+      "titol_original": "IA, deutes dels països, petroli i resultats empresarials amb Enric Galí – La Companyia - 14/10/2026",
+      "descripcio_original": "Els mercats es mouen, l’economia evoluciona i les decisions que es prenen a escala global acaben tenint un impacte directe en la nostra butxaca. Què podem esperar dels pròxims mesos? Com hem d’interpretar els moviments dels mercats financers i quins factors poden condicionar l’economia? A La Companyia, en parlem amb Enric Galí, Assessor Financer Independent a AlfaQuest - Saboya Assessors, per analitzar l’actualitat econòmica, entendre què hi ha darrere de les xifres i posar una mica de llum en un escenari ple d’incerteses.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtva.ad/programes/ia-deutes-dels-paisos-petroli-i-resultats-empresarials-amb-enric-gali-la-companyia-14-10-2026",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    },
+    {
+      "id": "rna-1925096",
+      "emissora": "Ràdio Nacional d'Andorra",
+      "programa": "Les coses grans",
+      "programa_url": "https://www.rtva.ad/programes/les-coses-grans",
+      "data": "2026-10-05",
+      "durada": "",
+      "titol_original": "L'IA protagonista a Andorra - Les coses grans 05/10/2026",
+      "descripcio_original": "Una empresa andorrana, Convexify, ha estat nomenada partner de OpenIA, Javier Sáez Fundador i Conseller Delegat i Georgina Jover n'han parlat a Les coses grans..",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtva.ad/programes/l-ia-protagonista-a-andorra-les-coses-grans-05-10-2026",
+      "reproductor": {
+        "tipus": "enllac"
       }
     }
   ]
