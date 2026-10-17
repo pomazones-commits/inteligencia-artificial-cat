@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-17T18:53:13.927Z",
+ "actualitzat": "2026-10-17T22:42:36.480Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d3244e7f6bb4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Pasos para adoptar la IA",
+   "url": "https://www.lavanguardia.com/dinero/20261018/11660750/pasos-adoptar-ia.html",
+   "publicat": "2026-10-17T22:05:00.000Z"
+  },
+  {
+   "id": "8847e994a026",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Gestores Administrativos: del papel a la Inteligencia Artificial",
+   "url": "https://www.informacion.es/empresas-en-alicante/2026/10/17/gestores-administrativos-papel-inteligencia-artificial-bc-135425846.html",
+   "publicat": "2026-10-17T20:30:37.000Z"
+  },
+  {
+   "id": "cf820639012e",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "“Puede colapsar las defensas”: dentro de la primera línea de Policía y CNI ante los ataques con IA",
+   "url": "https://www.eldiario.es/tecnologia/colapsar-defensas-primera-linea-policia-cni-ataques-ia_1_13584501.html",
+   "publicat": "2026-10-17T20:11:43.000Z"
+  },
   {
    "id": "062283e763bc",
    "mitja": "El Periódico",
@@ -2364,39 +2397,6 @@
    "titol": "La intel·ligència artificial ja investiga",
    "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2680653-la-intel-ligencia-artificial-ja-investiga.html",
    "publicat": "2026-10-11T00:00:00.000Z"
-  },
-  {
-   "id": "0359441dc138",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El ‘shadow AI’ se propaga y aumenta riesgos en la empresa",
-   "url": "https://www.lavanguardia.com/economia/20261011/11655470/shadow-ai-propaga-aumenta-riesgos-empresa.html",
-   "publicat": "2026-10-10T22:05:00.000Z"
-  },
-  {
-   "id": "8c826aba84a7",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Avance científico e IA",
-   "url": "https://www.lavanguardia.com/dinero/20261011/11655006/avance-cientifico-e-ia.html",
-   "publicat": "2026-10-10T22:05:00.000Z"
-  },
-  {
-   "id": "be5df8dde04d",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Els matemàtics tremolen després del nou avenç d'OpenAI",
-   "url": "https://www.ara.cat/societat/matematics-tremolen-despres-nou-avenc-d-openai_1_5875832.html",
-   "publicat": "2026-10-10T19:26:30.000Z"
   }
  ]
 }
