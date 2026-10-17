@@ -292,7 +292,9 @@
       for (const a of actes) {
         const propi = imatgeLocal(a.cartell);
         const recollit = a.cartell === false ? null : cartells[clauActe(a)];
-        a._original = propi ? { imatge: propi } : (recollit && imatgeLocal(recollit.imatge) ? recollit : null);
+        // 17.10.2026: una imatge pròpia pot portar les mides (cartell_amplada i
+        // cartell_alcada) perquè un cartell quadrat o vertical vagi en columna.
+        a._original = propi ? { imatge: propi, amplada: Number(a.cartell_amplada) || 0, alcada: Number(a.cartell_alcada) || 0 } : (recollit && imatgeLocal(recollit.imatge) ? recollit : null);
       }
       const llista = diapositives(actes, avui);
       if (!llista.length) return;
