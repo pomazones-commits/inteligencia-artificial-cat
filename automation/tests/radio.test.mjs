@@ -87,6 +87,8 @@ test('formats de data i durada de les emissores', () => {
   assert.equal(durada(3720), '1 h 2 min');
   assert.equal(durada(0), '');
   assert.equal(textPla('<p>A &amp; B&nbsp;<b>C</b></p>'), 'A & B C');
+  // RTVE escapa l'HTML dues vegades.
+  assert.equal(textPla('atenci&amp;oacute; telef&ograve;nica, l&rsquo;acord, can&ccedil;\u00f3, q&uuml;esti&oacute;'), 'atenció telefònica, l’acord, cançó, qüestió');
 });
 
 test('lectors de 3Cat, RTVE i Omny', () => {

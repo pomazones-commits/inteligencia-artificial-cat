@@ -52,15 +52,33 @@ const MAX_DESCRIPCIO = 1500;
 
 // --- Utilitats ---------------------------------------------------------------
 
-const ENTITATS = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', middot: '·', laquo: '«', raquo: '»' };
+const ENTITATS = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', middot: '·', laquo: '«', raquo: '»',
+  rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', ndash: '–', mdash: '—', hellip: '…', iexcl: '¡', iquest: '¿',
+  ordf: 'ª', ordm: 'º', euro: '€', szlig: 'ß'
+};
+// Accents: &oacute; → ó, &agrave; → à, &ccedil; → ç, &uuml; → ü…
+const DIACRITICS = { acute: '\u0301', grave: '\u0300', uml: '\u0308', circ: '\u0302', tilde: '\u0303', cedil: '\u0327' };
+function desfesEntitats(t) {
+  return t
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+    .replace(/&([a-zA-Z])(acute|grave|uml|circ|tilde|cedil);/g, (_, l, d) => (l + DIACRITICS[d]).normalize('NFC'))
+    .replace(/&([a-z]+);/gi, (m, n) => ENTITATS[n] ?? ENTITATS[n.toLowerCase()] ?? m);
+}
 export function textPla(html) {
-  return String(html || '')
+  // Algunes APIs (RTVE) escapen l'HTML dues vegades: «&amp;oacute;».
+  let t = String(html || '');
+  for (let i = 0; i < 3; i++) {
+    const seguent = desfesEntitats(t);
+    if (seguent === t) break;
+    t = seguent;
+  }
+  return t
     .replace(/<br\s*\/?>/gi, ' ')
     .replace(/<\/p>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
-    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
-    .replace(/&([a-z]+);/gi, (m, n) => ENTITATS[n.toLowerCase()] ?? m)
+    .replace(/\s+([,.;:!?])/g, '$1')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -268,7 +286,12 @@ export async function recull({ fonts, dades, descartats = [], anterior = null, a
       } else if (p.font === 'omny') {
         if (!Array.isArray(programesOmny)) throw new Error(`llista de programes d'Omny: ${programesOmny?.error || 'no disponible'}`);
         const shows = programesOmny.filter(s => String(s.Slug || '').startsWith(p.slug));
-        if (!shows.length) throw new Error(`cap show d'Omny comença per «${p.slug}»`);
+        if (!shows.length) {
+          // Perquè el log digui quin és el nom bo: els shows que s'hi assemblen.
+          const mots = p.slug.split('-').filter(m => m.length > 2);
+          const semblants = programesOmny.map(s => String(s.Slug || '')).filter(sl => mots.some(m => sl.includes(m))).slice(0, 8);
+          throw new Error(`cap show d'Omny comença per «${p.slug}»${semblants.length ? ` (semblants: ${semblants.join(', ')})` : ''}`);
+        }
         for (const s of shows.slice(0, 6)) {
           const j = await obtenir(`omny-${s.Slug}`, `https://api.omny.fm/orgs/${fonts.omny_org}/programs/${s.Id}/clips?pageSize=40`);
           audios.push(...llegeixOmny(j));
