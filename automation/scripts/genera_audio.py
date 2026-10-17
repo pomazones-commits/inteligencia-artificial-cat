@@ -135,19 +135,65 @@ def darrer_estudi_civicai(path: Path = Path("public/estudis-arxiu.js")) -> dict:
     return darrera_veu_civicai(path, "IA_ESTUDIS_ARXIU")
 
 
-# Prefix propi de «Veus de CIVICAi» (17.10.2026, decisió d'en Rafael): així una
-# veu i una tribuna (o un estudi de CIVICAi i l'estudi vigent) es poden publicar
-# el mateix dia sense que els MP3 es trepitgin. Les peces anteriors al 18.10.2026
-# conserven el nom antic. tribuna.html, estudi.html i podcast.php fan servir la
-# mateixa regla (CIVICAI_DES_DE).
+# Noms propis de «Veus de CIVICAi» (17.10.2026, decisió d'en Rafael). Des del
+# 18.10.2026 cada veu té un MP3 amb el seu nom i el de l'autor:
+#   civicai-AAAA-MM-DD-<autor>.mp3          (opinió i entrevistes, tribuna-arxiu.js)
+#   civicai-estudi-AAAA-MM-DD-<autor>.mp3   (estudis, estudis-arxiu.js)
+# Així no xoquen ni amb la tribuna, ni amb l'estudi vigent, ni entre elles
+# (p. ex. la columna d'en Sanromà i la peça d'un altre membre el mateix dijous).
+# <autor> és el slug de l'autor amb el mateix algorisme que iacat_slug() (PHP) i
+# IAPeces.slug() (JS). Les peces anteriors al 18.10.2026 conserven el nom antic
+# (tribuna-/estudi-AAAA-MM-DD). tribuna.html, estudi.html i podcast.php fan
+# servir la mateixa regla (CIVICAI_DES_DE).
 CIVICAI_DES_DE = "2026-10-18"
+CIVICAI_DIES = 14  # es fa (o es comprova) l'àudio de les veus d'aquests darrers dies
+
+_SLUG_MAPA = str.maketrans({
+    "à": "a", "á": "a", "â": "a", "ä": "a", "ã": "a", "å": "a",
+    "è": "e", "é": "e", "ê": "e", "ë": "e",
+    "ì": "i", "í": "i", "î": "i", "ï": "i",
+    "ò": "o", "ó": "o", "ô": "o", "ö": "o", "õ": "o",
+    "ù": "u", "ú": "u", "û": "u", "ü": "u",
+    "ç": "c", "ñ": "n", "·": "", "ŀ": "l",
+})
 
 
-def prefix_civicai(data: str, estudi: bool) -> str:
-    """Prefix del MP3 d'una peça de «Veus de CIVICAi» segons la data."""
-    if data_iso(data) >= CIVICAI_DES_DE:
-        return "civicai-estudi" if estudi else "civicai"
-    return "estudi" if estudi else "tribuna"
+def slug_text(text: str) -> str:
+    """Còpia exacta d'iacat_slug() (inc/peces.php) i IAPeces.slug() (peces.js)."""
+    t = str(text or "").lower().translate(_SLUG_MAPA)
+    t = re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+    if len(t) > 80:
+        tall = t[:81]
+        guio = tall.rfind("-")
+        t = (tall[:guio] if guio > 40 else t[:80]).rstrip("-")
+    return t or "peca"
+
+
+def nom_audio_civicai(peca: dict, estudi: bool) -> str:
+    """Nom del MP3 (sense .mp3) d'una peça de «Veus de CIVICAi»."""
+    iso = data_iso(str(peca.get("date", "")))
+    if not iso:
+        return ""
+    if iso >= CIVICAI_DES_DE:
+        autor = slug_text(peca.get("author", ""))
+        return f"{'civicai-estudi' if estudi else 'civicai'}-{iso}-{autor}"
+    return f"{'estudi' if estudi else 'tribuna'}-{iso}"
+
+
+def veus_civicai(path: Path, variable: str) -> list:
+    """Totes les peces de «Veus de CIVICAi» d'un arxiu."""
+    if not path.is_file():
+        return []
+    raw = path.read_text(encoding="utf-8")
+    m = re.search(r"^window\." + re.escape(variable) + r"\s*=\s*", raw, re.M)
+    if not m:
+        return []
+    try:
+        llista = json.loads(raw[m.end():].strip().rstrip(";").strip())
+    except json.JSONDecodeError:
+        return []
+    return [p for p in (llista if isinstance(llista, list) else [])
+            if isinstance(p, dict) and p.get("serie") == "veus-de-civicai"]
 
 
 def darrera_veu_empresa(path: Path = Path("public/empresa.js")) -> dict:
@@ -613,37 +659,39 @@ def main() -> int:
     # 2) Peces editorials fixes (anàlisi, tribuna, imatge del dia).
     #    Mai no fan fallar el workflow: si una peça falla, la pàgina conserva
     #    el lector de veu del navegador.
-    peces = [(fitxer, prefix, camps, None) for fitxer, prefix, camps in PECES_EXTRES]
+    peces = [(fitxer, prefix, camps, None, None) for fitxer, prefix, camps in PECES_EXTRES]
     # Veus de CIVICAi (opinió i entrevistes de tribuna-arxiu.js, i estudis
-    # d'estudis-arxiu.js). Des del 18.10.2026 (decisió d'en Rafael del 17.10)
-    # porten prefix propi —civicai-AAAA-MM-DD.mp3 i civicai-estudi-AAAA-MM-DD.mp3—
-    # i ja no xoquen mai amb la tribuna ni amb l'estudi vigents. Les d'abans
-    # d'aquella data conserven el nom antic (tribuna-/estudi-), que és el que
-    # tenen al servidor; només en aquest cas cal saltar-les si coincideixen.
-    veu = darrera_veu_civicai()
-    if veu:
-        pref = prefix_civicai(str(veu.get("date", "")), estudi=False)
-        if pref == "tribuna" and data_iso(str(veu.get("date", ""))) == data_iso(str(llegeix_ia_js(Path("public/tribuna.js")).get("date", ""))):
-            print("AVÍS: la darrera veu de CIVICAi (nom antic) té la mateixa data que la tribuna vigent; no se'n fa l'àudio.")
-        else:
-            peces.append((Path("public/tribuna-arxiu.js"), pref, ("title", "excerpt", "body"), veu))
-    estudi_veu = darrer_estudi_civicai()
-    if estudi_veu:
-        pref = prefix_civicai(str(estudi_veu.get("date", "")), estudi=True)
-        if pref == "estudi" and data_iso(str(estudi_veu.get("date", ""))) == data_iso(str(llegeix_ia_js(Path("public/estudis.js")).get("date", ""))):
-            print("AVÍS: el darrer estudi de CIVICAi (nom antic) té la mateixa data que l'estudi vigent; no se'n fa l'àudio.")
-        else:
-            peces.append((Path("public/estudis-arxiu.js"), pref, ("title", "abstract", "body"), estudi_veu))
+    # d'estudis-arxiu.js). Des del 18.10.2026 cada peça té el seu MP3
+    # (nom_audio_civicai: civicai-AAAA-MM-DD-<autor>), i es fan totes les dels
+    # darrers CIVICAI_DIES dies: dues veus el mateix dia ja no es trepitgen.
+    # Abans d'aquella data només es feia la més recent, amb el nom antic
+    # (tribuna-/estudi-AAAA-MM-DD), i se saltava si coincidia amb la vigent.
+    limit = time.strftime("%Y-%m-%d", time.localtime(time.time() - CIVICAI_DIES * 86400))
+    for fitxer, variable, camps, estudi, vigent in (
+        (Path("public/tribuna-arxiu.js"), "IA_TRIBUNA_ARXIU", ("title", "excerpt", "body"), False, Path("public/tribuna.js")),
+        (Path("public/estudis-arxiu.js"), "IA_ESTUDIS_ARXIU", ("title", "abstract", "body"), True, Path("public/estudis.js")),
+    ):
+        for peca in veus_civicai(fitxer, variable):
+            iso = data_iso(str(peca.get("date", "")))
+            if iso >= CIVICAI_DES_DE and iso >= limit:
+                peces.append((fitxer, "", camps, peca, nom_audio_civicai(peca, estudi)))
+        darrera = darrera_veu_civicai(fitxer, variable)
+        iso = data_iso(str(darrera.get("date", "")))
+        if darrera and iso and iso < CIVICAI_DES_DE:
+            if iso == data_iso(str(llegeix_ia_js(vigent).get("date", ""))):
+                print(f"AVÍS: la darrera veu de CIVICAi de {fitxer.name} (nom antic) té la mateixa data que la peça vigent; no se'n fa l'àudio.")
+            else:
+                peces.append((fitxer, "", camps, darrera, nom_audio_civicai(darrera, estudi)))
     empresa = darrera_veu_empresa()
     if empresa:
-        peces.append((Path("public/empresa.js"), "empresa", ("title", "excerpt", "body"), empresa))
-    for fitxer, prefix, camps, fixa in peces:
+        peces.append((Path("public/empresa.js"), "empresa", ("title", "excerpt", "body"), empresa, None))
+    for fitxer, prefix, camps, fixa, nom in peces:
         try:
             data = fixa if fixa is not None else llegeix_ia_js(fitxer)
             iso = data_iso(str(data.get("date", "")))
             if not data or not iso:
                 continue
-            slug = f"{prefix}-{iso}"
+            slug = nom or f"{prefix}-{iso}"
             if not refes and transport.ja_existeix(slug):
                 saltats += 1
                 continue

@@ -1599,24 +1599,42 @@ test('Veus de CIVICAi: també els estudis dels membres, a la portada i en àudio
   assert.equal(py.stdout.trim(), 'E1');
 });
 
-test('Veus de CIVICAi: MP3 amb prefix propi des del 18.10.2026, sense trepitjar la tribuna (17.10.2026)', () => {
+test('Veus de CIVICAi: un MP3 per peça amb l\'autor al nom des del 18.10.2026 (17.10.2026)', async () => {
   const arrel = resolve(import.meta.dirname, '..', '..');
   const py = spawnSync('python3', ['-c', [
     'import importlib.util',
     `spec = importlib.util.spec_from_file_location("g", ${JSON.stringify(join(arrel, 'automation', 'scripts', 'genera_audio.py'))})`,
     'g = importlib.util.module_from_spec(spec); spec.loader.exec_module(g)',
-    'print(g.prefix_civicai("27.10.2026", False), g.prefix_civicai("2026-10-18", True), g.prefix_civicai("14.10.2026", False), g.prefix_civicai("16.10.2026", True))',
+    'print(g.nom_audio_civicai({"date": "22.10.2026", "author": "Manel Sanromà"}, False))',
+    'print(g.nom_audio_civicai({"date": "22.10.2026", "author": "Miquel Àngel Prats"}, False))',
+    'print(g.nom_audio_civicai({"date": "2026-10-18", "author": "Ismael Peña-López"}, True))',
+    'print(g.nom_audio_civicai({"date": "14.10.2026", "author": "Àlex Arenas"}, False))',
+    'print(g.nom_audio_civicai({"date": "16.10.2026", "author": "X"}, True))',
+    'print(g.slug_text("Ramon Llull i l·lusió ÀÉÏÒÚ Ç Ñ"))',
   ].join('\n')], { encoding: 'utf8' });
   assert.equal(py.status, 0, py.stderr);
-  assert.equal(py.stdout.trim(), 'civicai civicai-estudi tribuna estudi');
+  const linies = py.stdout.trim().split('\n');
+  // El mateix dijous, la columna d'en Sanromà i una altra veu tenen noms diferents.
+  assert.deepEqual(linies.slice(0, 5), [
+    'civicai-2026-10-22-manel-sanroma',
+    'civicai-2026-10-22-miquel-angel-prats',
+    'civicai-estudi-2026-10-18-ismael-pena-lopez',
+    'tribuna-2026-10-14',
+    'estudi-2026-10-16',
+  ]);
+  // El slug de Python ha de ser idèntic al de peces.js (i, per tant, al d'inc/peces.php).
+  const vm = await import('node:vm');
+  const ctx = { window: {}, document: { querySelector: () => null, head: { appendChild() {} }, createElement: () => ({}) } };
+  vm.runInNewContext(readFileSync(join(arrel, 'public', 'peces.js'), 'utf8'), ctx);
+  assert.equal(linies[5], ctx.window.IAPeces.slug('Ramon Llull i l·lusió ÀÉÏÒÚ Ç Ñ'));
   // Les pàgines i el pòdcast fan servir la mateixa regla i la mateixa data de tall.
   const tribuna = readFileSync(join(arrel, 'public', 'tribuna.html'), 'utf8');
-  assert.match(tribuna, /t\.serie === 'veus-de-civicai' && iso >= '2026-10-18'\) \? 'civicai-' : 'tribuna-'/);
+  assert.match(tribuna, /iso >= '2026-10-18' && window\.IAPeces\)\s*\? 'civicai-' \+ iso \+ '-' \+ window\.IAPeces\.slug\(t\.author/);
   const estudi = readFileSync(join(arrel, 'public', 'estudi.html'), 'utf8');
-  assert.match(estudi, /e\.serie === 'veus-de-civicai' && isoEstudi >= '2026-10-18'\) \? 'civicai-estudi-' : 'estudi-'/);
+  assert.match(estudi, /'civicai-estudi-' \+ isoEstudi \+ '-' \+ window\.IAPeces\.slug\(e\.author/);
   const podcast = readFileSync(join(arrel, 'public', 'podcast.php'), 'utf8');
   assert.match(podcast, /=== 'veus-de-civicai' && \$peca\['dataIso'\] >= '2026-10-18'/);
-  assert.match(podcast, /'civicai-estudi-' : 'civicai-'/);
+  assert.match(podcast, /iacat_slug\(\(string\) \(\$peca\['item'\]\['author'\]/);
 });
 
 test('cartell: si el dia més proper té dos actes grans, surten tots dos en carrusel (17.10.2026)', async () => {

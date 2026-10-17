@@ -271,13 +271,15 @@
       document.getElementById('contingut').hidden = false;
 
       // Lector: MP3 neural si existeix (estudi-AAAA-MM-DD.mp3).
-      // «Veus de CIVICAi» des del 18.10.2026: prefix propi (civicai-estudi-AAAA-MM-DD.mp3).
+      // «Veus de CIVICAi» des del 18.10.2026: civicai-estudi-AAAA-MM-DD-<autor>.mp3.
       var d = /^(\d{2})\.(\d{2})\.(\d{4})$/.exec(e.date || '');
       var isoEstudi = d ? d[3] + '-' + d[2] + '-' + d[1] : '';
-      var prefixEstudi = (e.serie === 'veus-de-civicai' && isoEstudi >= '2026-10-18') ? 'civicai-estudi-' : 'estudi-';
+      var nomEstudi = (e.serie === 'veus-de-civicai' && isoEstudi >= '2026-10-18' && window.IAPeces)
+        ? 'civicai-estudi-' + isoEstudi + '-' + window.IAPeces.slug(e.author || '')
+        : 'estudi-' + isoEstudi;
       window.IALector.init({
         container: document.getElementById('lector'),
-        audioUrl: d ? './assets/audio/' + prefixEstudi + isoEstudi + '.mp3' : null,
+        audioUrl: d ? './assets/audio/' + nomEstudi + '.mp3' : null,
         parts: [e.title, e.excerpt || ''].concat(abstract).concat(perAlLector).filter(Boolean)
       });
     })();
