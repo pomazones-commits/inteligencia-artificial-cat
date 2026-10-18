@@ -1,5 +1,68 @@
 window.IA_NEWS = [
   {
+    "category": "ROBÒTICA",
+    "read": "4 MIN",
+    "slug": "openai-robot-huma-2027-demo",
+    "title": "Sam Altman confirma que OpenAI construirà un robot humanoide i en preveu una primera demostració el 2027",
+    "excerpt": "El conseller delegat diu que la forma humana té sentit perquè el món està fet a la mida de les persones, i que el que de debò importa és la IA que el governa.",
+    "sourceName": "Engadget",
+    "sourceUrl": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
+    "sourceDate": "17 d'octubre de 2026",
+    "body": "Fins ara OpenAI només havia deixat pistes sobre la robòtica: ofertes de feina i el recordatori de Dactyl, la mà robòtica que va aprendre en simulació a manipular objectes reals, entre ells un cub de Rubik. Ara el seu conseller delegat, Sam Altman, ho ha dit sense embuts en un pòdcast: l'empresa construirà un robot humanoide. «Ho farem», va afirmar, segons recull Engadget.\n\nAltman defensa la forma humana amb un argument pràctic: portes, teclats i eines estan pensats per a un cos humà, de manera que un robot que s'hi mogui hauria de ser, probablement, semblant. També va restar importància al disseny exacte: el que considera decisiu és la IA que controla la màquina. En una entrevista a Fortune del 15 de setembre ja havia parlat d'una «demostració molt bona» el 2027 i va avisar que veure robots pel carrer encara trigaria uns quants anys més.\n\nLa pàgina de feina d'OpenAI llista 27 ofertes de robòtica, des de control de moviment i estimació d'estat fins a actuadors electromecànics fets a mida i fabricació a gran escala. L'objectiu a curt termini seria un robot de propòsit general que ajudi professionals qualificats a construir infraestructures; a llarg termini, un robot personal capaç de fer més tasques. L'empresa entra així en un terreny on ja treballen Tesla, amb l'Optimus, i fabricants xinesos com XPENG, que acaba de treure un humanoide de la seva línia de producció.\n\nDe moment és una declaració d'intencions, no un producte. OpenAI no ha dit què ensenyarà a la demostració, quin aspecte tindrà el robot, quan en podran provar un persones de fora de l'empresa ni quin preu o model de negoci tindrà. Tampoc no ha explicat com tractaria la privadesa d'un aparell amb càmeres i micròfons dins de cases i llocs de feina. Fins que no n'hi hagi una demostració, el calendari del 2027 és només el que en diu el seu conseller delegat.",
+    "image": "./assets/openai-robot-huma-2027-demo-20261018-foto.jpg",
+    "imageCredit": "Steve Jurvetson / Wikimedia Commons",
+    "imageLicense": "CC BY 2.0",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sam_Altman_speaking_at_TED_(cropped).jpg"
+  },
+  {
+    "category": "FINANCES",
+    "read": "4 MIN",
+    "slug": "schwab-jpmorgan-bloquegen-agents-ia",
+    "title": "Schwab i JPMorgan tanquen la porta als agents d'IA externs: no els deixen moure diners dels clients",
+    "excerpt": "El conseller delegat de Schwab diu que bloquegen cada setmana desenes d'intents d'agents d'IA d'accedir als fons dels clients, i que només ofereixen accés de lectura.",
+    "sourceName": "Forkast",
+    "sourceUrl": "https://forkast.news/schwab-and-jpmorgan-block-unauthorized-ai-agents-from-moving-money-as-private-ordering-reaches-financial-core/",
+    "sourceDate": "17 d'octubre de 2026",
+    "body": "Els assistents d'IA que actuen en nom de l'usuari —els agents— ja no només responen preguntes: alguns intenten operar amb comptes i pagaments. Dos dels grans noms de la banca nord-americana han decidit que, de moment, no els deixaran fer-ho. Rick Wurster, conseller delegat de Charles Schwab, ho va explicar el 16 d'octubre en una entrevista a Bloomberg TV, i la informació la recull Forkast.\n\nSegons Wurster, cada setmana rep un informe que mostra que Schwab bloqueja «desenes» d'intents dels principals agents d'IA —va esmentar Meta Muse— d'accedir als fons dels clients i manipular-los. La seva justificació és de responsabilitat: «No ho podem controlar nosaltres, no ho pot controlar el client, alguna cosa podria anar malament i qui en respondria?». Forkast afegeix que Jamie Dimon, de JPMorgan, hauria confirmat que la seva entitat també bloqueja agents externs, tot i que no en cita cap declaració textual.\n\nSchwab empeny els clients cap al seu assistent propi, Charley, que fa tasques administratives i informatives però no pot executar operacions. Per als models d'IA externs ofereix servidors MCP (un protocol per connectar agents a eines i dades) d'accés només de lectura: l'agent pot consultar saldos i fer recerca, però no moure diners. L'article hi veu una mena d'ordre privat: sense llei federal que reguli la responsabilitat dels agents en finances, i amb diversos projectes aturats al Congrés, són les entitats les que fixen les regles excloent-los.\n\nCal llegir-ho amb cautela. El nucli de la informació és una sola entrevista i una referència indirecta a Dimon; la xifra de «desenes» d'intents setmanals no s'explica ni es defineix què compta com a intent, i només hi ha dues entitats. La interpretació que això marca una tendència és de l'autor de l'article, no un fet comprovat. Sí que mostra un límit actual: els bancs no estan disposats a assumir el risc d'un agent que no controlen.",
+    "image": "./assets/schwab-jpmorgan-bloquegen-agents-ia-20261018.jpg"
+  },
+  {
+    "category": "TREBALL",
+    "read": "5 MIN",
+    "slug": "amazon-atlas-risc-sindicat-magatzems",
+    "title": "Amazon faria servir una eina d'IA, Atlas, que puntua els magatzems segons el risc que els treballadors es sindiquin, segons uns documents filtrats",
+    "excerpt": "Una investigació d'openDemocracy descriu un sistema que posa nota de 100 a 900 a cada centre. Amazon ho nega: diu que només analitza edificis, no persones, i que no s'usa al Regne Unit.",
+    "sourceName": "openDemocracy",
+    "sourceUrl": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+    "sourceDate": "16 d'octubre de 2026",
+    "body": "Una investigació d'Evie Breese a openDemocracy explica que Amazon disposaria d'una eina interna, anomenada Atlas, que calcula quina probabilitat hi ha que els treballadors d'un magatzem als Estats Units, el Canadà i el Regne Unit es sindiquin, facin una ocupació o protagonitzin altres «esdeveniments laborals disruptius». Els documents es van conèixer en un procés judicial del sindicat canadenc Unifor i els va compartir el mitjà nord-americà Truthout.\n\nSegons aquests papers, l'eina fa servir «centenars de dades», entre elles publicacions de Reddit, respostes a enquestes internes de valoració, informació general del centre i antecedents de vagues. Cada magatzem rep una nota de 100 a 900: com més baixa, més probabilitat d'activitat sindical, i els llocs queden repartits en cinc nivells, del 5 (risc mínim) a l'1 (acció imminent). Setze centres de tot el continent són al nivell 1, dos d'ells al Regne Unit: EMA4, a Sutton Coldfield, i BHX4, a prop de Coventry.\n\nAmazon rebutja que sigui vigilància: assegura que Atlas treballa a escala de centre o d'edifici, que no segueix l'opinió, l'afiliació ni les dades personals de cap empleat, que serveix per saber on el personal necessita suport i que ara per ara no s'usa al Regne Unit. No va contestar si hi ha un sistema equivalent amb un altre nom. El sindicat GMB, que el 2024 va perdre per 28 vots una votació de reconeixement a Coventry, i les organitzacions Foxglove i Leigh Day demanen explicacions sobre quines dades i quin càlcul hi ha darrere de cada nota.\n\nEls límits són clars: la descripció del funcionament es basa en documents que semblen materials de formació per a directius canadencs i que l'article no ha pogut verificar de manera independent, i l'ús real d'Atlas al Regne Unit no està confirmat. El cas arriba en un context en què el món laboral europeu ja ha sancionat Amazon pel seguiment excessiu dels treballadors: el 2022 l'autoritat francesa de protecció de dades, la CNIL, li va imposar una multa de 32 milions d'euros.",
+    "image": "./assets/amazon-atlas-risc-sindicat-magatzems-20261018.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "5 MIN",
+    "slug": "seal-ia-regulacio-genica-cervell-fetal",
+    "title": "Una IA entrenada amb dades públiques prediu com es regulen els gens en 26 regions del cervell i vincula variants genètiques a l'autisme",
+    "excerpt": "El model Seal, publicat a «Nature Neuroscience», calcula l'efecte de variants de l'ADN al llarg del desenvolupament cerebral, però tots els resultats són computacionals.",
+    "sourceName": "Nature Neuroscience",
+    "sourceUrl": "https://www.nature.com/articles/s41593-026-02470-2",
+    "sourceDate": "15 d'octubre de 2026",
+    "body": "La major part de les variants genètiques associades a trastorns neuropsiquiàtrics no són a les regions que codifiquen proteïnes, sinó a les que regulen quan i on s'activa un gen. Saber què fa cada canvi, i en quin moment del desenvolupament del cervell, és difícil de mesurar de manera experimental. Un equip del Flatiron Institute i de la Universitat de Princeton, encapçalat per Olga Troyanskaya, proposa resoldre-ho amb un model d'IA anomenat Seal, descrit com un informe tècnic a «Nature Neuroscience».\n\nSeal és un marc d'aprenentatge per transferència que prediu l'expressió dels gens i l'efecte de les variants a partir de la seqüència d'ADN. Cobreix 26 regions del cervell, 30 tipus cel·lulars i 7 etapes del desenvolupament, un total de 802 contextos. L'equip no ha generat dades experimentals noves: ha fet servir recursos públics com GTEx, genomes complets de la cohort Simons Simplex Collection sobre autisme, el projecte 1000 Genomes i dades d'una sola cèl·lula de cervell fetal i adult, i ha comparat el model amb Enformer i AlphaGenome.\n\nSegons l'estudi, transferir el coneixement entre contextos redueix l'error mitjà de la predicció, i molt més en gens del neurodesenvolupament. Els efectes previstos s'enriqueixen en els tipus cel·lulars corresponents, com astròcits, oligodendròcits i micròglia, i en dades d'autisme les variants reguladores noves mostren un excés en neurones excitadores fetals transitòries, sobretot en gens amb més suport com a candidats a l'autisme. L'enriquiment en cèl·lules precursores d'oligodendròcits, en canvi, no va ser significatiu.\n\nConvé no passar-se de rosca. Tot són prediccions informàtiques sense validació al laboratori en aquest treball, i algunes comparacions de tipus cel·lular es basen en molt pocs contextos coincidents, només dos en el cas de la micròglia i dels precursors d'oligodendròcits. L'article és de pagament i només n'hem pogut llegir una part. Seal és una eina per prioritzar hipòtesis i dir on mirar, no una prova que una variant concreta causi un trastorn.",
+    "image": "./assets/seal-ia-regulacio-genica-cervell-fetal-20261018.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "5 MIN",
+    "slug": "litgene-ia-gens-text-ontologia",
+    "title": "Un model d'IA que llegeix articles científics i anotacions de gens proposa ANGPTL6 com a candidat a la fibrosi pulmonar idiopàtica",
+    "excerpt": "LitGene, publicat a «Nature Communications», combina text i l'ontologia de gens per predir funcions i malalties. La pista sobre ANGPTL6 és una hipòtesi, no una troballa establerta.",
+    "sourceName": "Nature Communications",
+    "sourceUrl": "https://www.nature.com/articles/s41467-026-78454-4",
+    "sourceDate": "16 d'octubre de 2026",
+    "body": "Sobre molts gens es publiquen milers d'articles; sobre molts altres, gairebé res. Això crea un biaix: els models d'IA que aprenen de la bibliografia tendeixen a saber molt dels gens coneguts i poc dels poc estudiats. Un equip del Centre Oncològic Integral de la Universitat de Nou Mèxic, amb autors també de la Universitat de Ciència i Tecnologia de Jordània i del William & Mary, ha publicat a «Nature Communications» un model, LitGene, que intenta combinar dues fonts de coneixement.\n\nLitGene és un model de tipus transformer que refina la representació de cada gen unint text científic i les anotacions estructurades de la Gene Ontology, mitjançant aprenentatge contrastiu. Hi afegeix una eina basada en SHAP que mostra quines parts del text pesen més en cada predicció i un sistema que cerca a la bibliografia les proves que la sostenen. El codi és obert i hi ha una interfície web on es poden consultar gens, malalties o fàrmacs.\n\nEls autors diuen que el model és competitiu en vuit tasques de predicció de propietats de proteïnes i que prediu sense entrenament específic funcions de la Gene Ontology, vies KEGG i associacions entre gens i malalties. Com a exemple, assenyala el gen ANGPTL6 com a candidat a intervenir en la fibrosi pulmonar idiopàtica, una malaltia que cicatritza els pulmons, perquè s'expressa de manera diferent en mostres independents de pacients.\n\nEls límits són importants. El resum no dona xifres concretes de rendiment, de manera que no es poden comparar amb altres models; que integrar text redueixi el biaix cap als gens poc estudiats es presenta com una possibilitat, no com un resultat demostrat, i ANGPTL6 és una hipòtesi per generar idees, no biologia establerta. Per confirmar-ho caldrà experimentar-hi al laboratori. La versió consultada era un accés anticipat, sotmès encara a edició.",
+    "image": "./assets/litgene-ia-gens-text-ontologia-20261018.jpg"
+  },
+  {
     "category": "REGULACIÓ",
     "read": "4 MIN",
     "slug": "tribunals-alemanys-google-responsable-ia-resums",
