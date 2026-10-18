@@ -1,32 +1,42 @@
 {
   "fitxes": [
     {
-      "id": "3cat-1294164",
+      "id": "3cat-1294166",
       "emissora": "Catalunya Ràdio",
       "programa": "Revolució 4.0",
       "programa_url": "https://www.3cat.cat/3cat/revolucio/",
       "data": "2026-10-18",
-      "durada": "8 min",
-      "titol": "El català a les màquines i el futur del periodisme, des de la Catosfera de Girona",
+      "durada": "10 min",
+      "titol": "Damm, IAmm i el que aporta una start-up a una gran empresa",
       "convidats": [
-        {
-          "nom": "Joan Camp",
-          "rol": "director de la Catosfera, la trobada i observatori de l'evolució d'internet i de l'ecosistema digital català"
-        }
+        { "nom": "Laura Gil", "rol": "chief digital and data officer de Damm" },
+        { "nom": "Daniel Navarrete", "rol": "professional procedent de la start-up Nennisiwok" }
       ],
-      "resum": "Xantal Llavina conversa amb Joan Camp, director de la Catosfera, a partir de la dinovena edició de la trobada, celebrada a Girona. Segons la descripció del programa, parlen del futur del català en els sistemes d'intel·ligència artificial, de com aquesta tecnologia canvia la manera de comunicar-nos, informar-nos i treballar, i dels reptes que planteja al periodisme.",
-      "tema": "cultura",
-      "url": "https://www.3cat.cat/3cat/el-sector-dels-mitjans-no-es-conscient-del-tsunami-que-ve/audio/1294164/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1294164"
-      }
+      "resum": "El programa repassa l'evolució d'IAmm, el hub de dades i intel·ligència artificial de Damm, amb Laura Gil i Daniel Navarrete. Segons la descripció oficial, parlen de com integrar el talent i el coneixement tecnològic d'una start-up en una gran companyia, quines oportunitats d'innovació en poden sortir i com la IA ajuda a transformar-ne els processos.",
+      "tema": "feina",
+      "url": "https://www.3cat.cat/3cat/laura-gil-la-proxima-revolucio-empresarial-no-es-treballar-mes-rapid-sino-decidi/audio/1294166/",
+      "reproductor": { "tipus": "3cat", "id": "1294166" }
+    },
+    {
+      "id": "3cat-1294167",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-18",
+      "durada": "53 min",
+      "titol": "La IA entra en campanya: els assistents com a consellers de vot",
+      "convidats": [
+        { "nom": "Cristina Aced", "rol": "investigadora, consultora i professora de comunicació i intel·ligència artificial" },
+        { "nom": "Roger Cuartielles", "rol": "investigador i professor especialitzat en verificació, desinformació i intel·ligència artificial" },
+        { "nom": "Óscar Alonso Llombart", "rol": "expert en estratègia i govern de dades i intel·ligència artificial" },
+        { "nom": "Joan Camp", "rol": "director de la Catosfera" },
+        { "nom": "Laura Gil", "rol": "chief digital and data officer de Damm" }
+      ],
+      "resum": "Aced i Cuartielles discuteixen què passa quan ens fiem d'un assistent d'IA per interpretar programes electorals i recomanar un candidat. El programa també tracta el lideratge, amb Alonso Llombart, l'ecosistema digital català i el català en els sistemes d'IA, amb Joan Camp, i la innovació a les grans empreses, amb Laura Gil.",
+      "tema": "societat",
+      "url": "https://www.3cat.cat/3cat/cristina-aced-la-ia-entra-en-campanya-grok-tendeix-a-la-dreta-i-chatgpt-cap-a-le/audio/1294167/",
+      "reproductor": { "tipus": "3cat", "id": "1294167" }
     }
   ],
-  "descartats": [
-    {
-      "id": "3cat-1294165",
-      "motiu": "La IA només hi surt de passada: el tema és el lideratge d'equips amb exemples del rock."
-    }
-  ]
+  "descartats": []
 }
