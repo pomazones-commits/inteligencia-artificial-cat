@@ -75,6 +75,8 @@
       var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('peca'), 10);
       if (isNaN(idx) || idx < 0 || !arxiu[idx]) idx = 0;
       var t = arxiu[idx];
+      // /empresa/<id>: la peça que ha triat el servidor (peca.php, 18.10.2026), mai la veïna.
+      if (window.IA_PECA && window.IA_PECA.tipus === 'empresa' && window.IA_PECA.item && window.IA_PECA.item.title) t = window.IA_PECA.item;
       var estat = document.getElementById('estat');
       if (!t || !t.title) {
         estat.textContent = 'ENCARA NO HI HA CAP PEÇA PUBLICADA A «VEUS D’EMPRESA».';
@@ -97,6 +99,7 @@
       }
       var paragrafs = String(t.body || '').split(/\n\n+/).filter(Boolean);
       var cos = document.getElementById('cos');
+      cos.textContent = ''; // peca.php ja hi deixa el text escrit al servidor (18.10.2026)
       // Les adreces web del text es converteixen en enllaços clicables (construïts
       // amb el DOM, mai amb innerHTML). La puntuació final no forma part de l'enllaç.
       function ambEnllacos(el, text) {

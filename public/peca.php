@@ -105,7 +105,35 @@ foreach ($substitucions as $patro => $nou) {
 $extra = '';
 if ($peca['dataIso'] !== '') { $extra .= '<meta property="article:published_time" content="' . $e($peca['dataIso']) . '">'; }
 if ($peca['autor'] !== '') { $extra .= '<meta name="author" content="' . $e($peca['autor']) . '">'; }
-$extra .= '<script>window.IA_PECA=' . json_encode(['tipus' => $tipus, 'id' => $peca['id'], 'idx' => $peca['idx'], 'url' => $url], JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) . ';</script>';
+// 18.10.2026 (Search Console, «URL duplicat marcat com a canònic per l'usuari, però
+// no per Google»): la peça viatja sencera dins d'IA_PECA ('item'), i la pàgina la fa
+// servir directament en lloc de buscar-la als fitxers de dades. Així el navegador
+// (i Googlebot, que renderitza l'HTML i les dades en moments diferents) mostra
+// sempre la peça que ha triat el servidor, mai la veïna.
+$extra .= '<script>window.IA_PECA=' . json_encode(['tipus' => $tipus, 'id' => $peca['id'], 'idx' => $peca['idx'], 'url' => $url, 'item' => $item], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) . ';</script>';
+
+// 18.10.2026: el títol, l'entradeta i el cos surten ja escrits a l'HTML del servidor.
+// Abans tot el contingut el pintava el JavaScript i l'HTML de totes les peces d'una
+// secció era idèntic: Google va acabar triant /reflexio/2026-08-26 com a canònica de
+// /reflexio/2026-10-10. Ara cada adreça té el seu text encara que el JS no s'executi.
+// El JS de la pàgina el torna a pintar igual (buida #cos abans d'escriure-hi).
+$paragrafs = [];
+foreach (preg_split('/\n\s*\n/', iacat_cos_text($item['body'] ?? '')) ?: [] as $bloc) {
+    $bloc = trim((string) preg_replace('/^\s*(#{1,6}|[-*•]|\d+[.)])\s+/m', '', $bloc));
+    if ($bloc !== '') { $paragrafs[] = '<p>' . nl2br($e($bloc), false) . '</p>'; }
+}
+$preEscrit = [
+    '/<h1 id="titol"><\/h1>/' => '<h1 id="titol">' . $e($peca['titol']) . '</h1>',
+    '/<p class="editorial-lede" id="entradeta"><\/p>/' => '<p class="editorial-lede" id="entradeta">' . $e(trim((string) $peca['resum'])) . '</p>',
+    '/<div class="article-body-clean" id="cos"><\/div>/' => '<div class="article-body-clean" id="cos">' . implode('', $paragrafs) . '</div>',
+    '/<div id="contingut" hidden>/' => '<div id="contingut">',
+    '/(<p class="editorial-kicker" id="estat")>/' => '$1 hidden>',
+];
+foreach ($preEscrit as $patro => $nou) {
+    $html = (string) (strpos($nou, '$1') !== false
+        ? preg_replace($patro, $nou, $html, 1)
+        : preg_replace_callback($patro, static fn() => $nou, $html, 1));
+}
 
 $html = (string) preg_replace('/<head>/', "<head>\n  <base href=\"/\">", $html, 1);
 $html = (string) preg_replace('/<\/head>/', '  ' . $extra . "\n</head>", $html, 1);

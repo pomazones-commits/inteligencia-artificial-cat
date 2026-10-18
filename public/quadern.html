@@ -85,6 +85,8 @@
       var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
       var esArxivat = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
       var q = esArxivat ? arxiu[idx] : window.IA_REFLECTION;
+      // /quadern/<id>: la peça que ha triat el servidor (peca.php, 18.10.2026), mai la veïna.
+      if (window.IA_PECA && window.IA_PECA.tipus === 'quadern' && window.IA_PECA.item && window.IA_PECA.item.title) q = window.IA_PECA.item;
       var estat = document.getElementById('estat');
       if (!q || !q.title) {
         estat.textContent = 'EL QUADERN NO ESTÀ DISPONIBLE ARA MATEIX.';
@@ -101,6 +103,7 @@
         ? q.body.filter(Boolean)
         : String(q.body || '').split(/\n\n+/).filter(Boolean);
       var cos = document.getElementById('cos');
+      cos.textContent = ''; // peca.php ja hi deixa el text escrit al servidor (18.10.2026)
       paragrafs.forEach(function (text) {
         var p = document.createElement('p');
         p.textContent = text;

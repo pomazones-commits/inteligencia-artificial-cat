@@ -100,6 +100,8 @@
       var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
       var esArxivada = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
       var a = esArxivada ? arxiu[idx] : window.IA_ANALYSIS;
+      // /analisi/<id>: la peça que ha triat el servidor (peca.php, 18.10.2026), mai la veïna.
+      if (window.IA_PECA && window.IA_PECA.tipus === 'analisi' && window.IA_PECA.item && window.IA_PECA.item.title) a = window.IA_PECA.item;
       var estat = document.getElementById('estat');
       if (!a || !a.title) {
         estat.textContent = 'ANÀLISI NO DISPONIBLE. TORNA-HO A PROVAR EN UNS INSTANTS.';
@@ -121,6 +123,7 @@
         ? a.body.filter(Boolean)
         : String(a.body || '').split(/\n\n+/).filter(Boolean);
       var cos = document.getElementById('cos');
+      cos.textContent = ''; // peca.php ja hi deixa el text escrit al servidor (18.10.2026)
       paragrafs.forEach(function (text) {
         var p = document.createElement('p');
         p.textContent = text;

@@ -96,6 +96,8 @@
       var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
       var esArxivat = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
       var e = esArxivat ? arxiu[idx] : window.IA_ESTUDI;
+      // /estudis/<id>: la peça que ha triat el servidor (peca.php, 18.10.2026), mai la veïna.
+      if (window.IA_PECA && window.IA_PECA.tipus === 'estudis' && window.IA_PECA.item && window.IA_PECA.item.title) e = window.IA_PECA.item;
       var estat = document.getElementById('estat');
       if (!e || !e.title) {
         estat.textContent = 'ARA MATEIX NO HI HA CAP ESTUDI PUBLICAT.';
@@ -202,6 +204,7 @@
       // Cos: «## » = títol de secció, «• » = llista de pics, la resta paràgrafs.
       var blocs = String(e.body || '').split(/\n\n+/).filter(Boolean);
       var cos = document.getElementById('cos');
+      cos.textContent = ''; // peca.php ja hi deixa el text escrit al servidor (18.10.2026)
       var perAlLector = [];
       blocs.forEach(function (bloc) {
         if (bloc.indexOf('## ') === 0) {

@@ -157,6 +157,8 @@ RewriteRule ^oeiac/?$ https://inteligencia-artificial.cat/ecosistema [R=301,L]
 RewriteRule ^podcasts/?$ https://inteligencia-artificial.cat/podcast.html [R=301,L]
 RewriteRule ^industries-culturals/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
 RewriteRule ^fires-i-congressos/?$ https://inteligencia-artificial.cat/agenda [R=301,L]
+# I una altra del web antic que Search Console va trobar el 12.10.2026.
+RewriteRule ^oms/?$ https://inteligencia-artificial.cat/tema/societat-i-cultura [R=301,L]
 
 # Restes del WordPress antic (wp-login.php, wp-cron.php, wp-admin...):
 # redirigides a la portada perquè deixin de comptar com a 404.

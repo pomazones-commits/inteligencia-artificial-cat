@@ -76,6 +76,8 @@
       var idx = forcat !== null ? forcat : parseInt(new URLSearchParams(location.search).get('arxiu'), 10);
       var esArxivada = !isNaN(idx) && idx >= 0 && !!arxiu[idx];
       var t = esArxivada ? arxiu[idx] : window.IA_TRIBUNA;
+      // /tribuna/<id>: la peça que ha triat el servidor (peca.php, 18.10.2026), mai la veïna.
+      if (window.IA_PECA && window.IA_PECA.tipus === 'tribuna' && window.IA_PECA.item && window.IA_PECA.item.title) t = window.IA_PECA.item;
       var estat = document.getElementById('estat');
       if (!t || !t.title) {
         estat.textContent = 'ARA MATEIX NO HI HA CAP TRIBUNA PUBLICADA.';
@@ -98,6 +100,7 @@
       }
       var paragrafs = String(t.body || '').split(/\n\n+/).filter(Boolean);
       var cos = document.getElementById('cos');
+      cos.textContent = ''; // peca.php ja hi deixa el text escrit al servidor (18.10.2026)
       // Les adreces web del text es converteixen en enllaços clicables (construïts
       // amb el DOM, mai amb innerHTML). La puntuació final no forma part de l'enllaç.
       function ambEnllacos(el, text) {
