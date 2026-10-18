@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Comunitat Valenciana",
+    "category": "IA I SOCIETAT",
+    "date": "18.10.2026",
+    "title": "Altea fa parlar amb IA el seu guerrer ibèric d'Altea la Vella i en presenta el projecte europeu a Molfetta",
+    "summary": "Un projecte Erasmus+ de divuit mesos ha convertit el Guerrer de l'Estela Ibèrica, a la Marina Baixa, en un personatge virtual que pot conversar amb els visitants. L'Ajuntament d'Altea en va presentar els resultats a Itàlia el 6 i 7 d'octubre.",
+    "detail": "A la Comunitat Valenciana, el patrimoni arqueològic comença a rebre ajuda de la intel·ligència artificial. L'Ajuntament d'Altea, a la Marina Baixa, ha participat en el projecte europeu «Living History: AI-powered Cultural Heritage», una associació de col·laboració a petita escala del programa Erasmus+ que ha durat divuit mesos. El coordina InCo Molfetta, d'Itàlia, i hi participen també l'oficina de projectes europeus de l'Ajuntament, EuroAltea; el grup educatiu grec E-School; l'IES Bellaguarda, d'Altea, i l'associació italiana Auserodv.\n\nEl resultat més visible a Altea és que el Guerrer de l'Estela Ibèrica d'Altea la Vella s'ha convertit en un personatge virtual capaç de conversar amb els visitants. L'objectiu és apropar la història local a públics de totes les edats. La font no explica quina tecnologia hi ha al darrere, quants avatars s'han fet ni quin ha estat el pressupost.\n\nEls resultats es van presentar el 6 i 7 d'octubre al Museu Diocesà de Molfetta. El primer dia, l'historiador Jaume Martínez García va exposar l'experiència d'Altea i la importància de l'estela; el segon, les sessions es van centrar en la innovació turística, amb rutes basades en els records de la gent gran de Molfetta i aplicacions de l'oficina d'informació local. Hi van participar estudiants de turisme de l'IES Bellaguarda, amb la professora Cristina Alemany, i alumnes de la Universitat de l'Experiència. Auserodv va organitzar una activitat d'inclusió digital entre persones grans i joves.\n\nAra l'Ajuntament vol portar el que ha après a les àrees de cultura, patrimoni, joventut i transformació digital, així com a les escoles, segons Paloma Verdú, tècnica de projectes europeus i responsable d'EuroAltea. El regidor de Projectes Europeus, Noves Tecnologies i Joventut, Germán Manjón, defensa que els projectes europeus són eines de política pública. El projecte es presentarà al públic al desembre a la Sala del Guerrer de la Casa de Cultura d'Altea; no s'ha concretat el dia.",
+    "source": "Alicante Plaza",
+    "url": "https://alicanteplaza.es/alicanteplaza/marinabaixa/altea-da-voz-a-su-guerrero-de-la-estela-iberica-con-inteligencia-artificial-y-presenta-el-proyecto-en-italia",
+    "image": "./assets/altea-guerrer-estela-iberica-avatar-ia-erasmus-20261018.jpg",
+    "slug": "altea-guerrer-estela-iberica-avatar-ia-erasmus"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "18.10.2026",
@@ -85,16 +97,5 @@ window.IA_RADAR = [
     "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/10/15/2729545/banco-sabadell-systems-sellan-acuerdo-para-adopcion-agentica-escala-soberania-tecnologica.html",
     "image": "./assets/banc-sabadell-t-systems-plataforma-agents-ia-sobirania-20261016.jpg",
     "slug": "banc-sabadell-t-systems-plataforma-agents-ia-sobirania"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "15.10.2026",
-    "title": "El BSC AI Factory obre un programa d'acceleració de 14 setmanes per a 100 empreses emergents d'IA",
-    "summary": "El centre de Barcelona posa 2,3 milions d'euros i l'accés al MareNostrum 5 a disposició de projectes avançats de tot Espanya. Les sol·licituds es poden presentar fins al 9 de novembre.",
-    "detail": "La BSC AI Factory, la fàbrica d'IA que lidera el Barcelona Supercomputing Center, ha llançat el seu primer programa d'acceleració, pensat per a 100 empreses emergents que desenvolupin tecnologies, productes o serveis basats en intel·ligència artificial. La convocatòria la fa el Ministeri per a la Transformació Digital i hi col·labora el Departament de la Presidència de la Generalitat de Catalunya.\n\nSegons El Nacional, el programa dura 14 setmanes i té una dotació de 2,3 milions d'euros. Admet empreses en fase avançada d'arreu d'Espanya i de qualsevol sector, amb atenció especial a la salut, les finances i el dret, els mitjans, la sostenibilitat i el clima. Les participants tindran accés al supercomputador MareNostrum 5, mentoria tècnica i empresarial, assessorament sobre proposta de valor, estratègia comercial, preus i recerca de finançament, i contacte amb grans empreses i inversors internacionals. S'executarà des de les oficines de Barcelona, Bilbao, Madrid i Màlaga, i la prova pilot comença al centre de càlcul de Barcelona. Hi haurà dues fases de selecció i les més destacades presentaran el projecte en un acte final a Madrid el març del 2027.\n\nEl pes del BSC en aquesta iniciativa és el que la fa rellevant per a Catalunya: l'accés a un supercomputador de primer nivell és una de les coses que més costa a una empresa emergent, i aquí es posa en un programa públic. Els terminis són curts, perquè les sol·licituds es tanquen el 9 de novembre. La previsió, a dos anys vista, és donar suport a 400 empreses emergents espanyoles en total.\n\nLa informació prové de l'article d'El Nacional, que atribueix la convocatòria al ministeri; no hem pogut consultar-ne les bases oficials. Per això no es poden confirmar els criteris de selecció ni les condicions d'ús del supercomputador, que són el que decidirà si el programa serveix de debò a empreses petites.",
-    "source": "El Nacional",
-    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/bsc-ai-factory-llanca-primer-programa-acceleracio-100-start-ups_1710175_102.html",
-    "image": "./assets/bsc-ai-factory-acceleracio-100-startups-20261015.jpg"
   }
 ];
