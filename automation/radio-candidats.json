@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-17T16:15:13.414Z",
+  "generat": "2026-10-18T04:12:51.013Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -8,7 +8,7 @@
       "programa": "Revolució 4.0",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 14
+      "sobre_ia": 17
     },
     {
       "font": "3cat",
@@ -80,7 +80,7 @@
       "programa": "Lletra lligada",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 3
+      "sobre_ia": 1
     },
     {
       "font": "rtve",
@@ -104,7 +104,7 @@
       "programa": "Via lliure",
       "estat": "ok",
       "audios": 473,
-      "sobre_ia": 2
+      "sobre_ia": 0
     },
     {
       "font": "omny",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 35,
+      "audios": 33,
       "sobre_ia": 0
     },
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 21,
+      "audios": 22,
       "sobre_ia": 3
     },
     {
@@ -179,20 +179,71 @@
   ],
   "candidats": [
     {
-      "id": "rtve-17271363",
-      "emissora": "Ràdio 4",
-      "programa": "Sentit de viure",
-      "programa_url": "https://www.rtve.es/play/audios/sentit-de-viure/",
-      "data": "2026-10-17",
-      "durada": "1 h 0 min",
-      "titol_original": "Els SeniorLabs, un projecte global del CITILAB per a la revolució del coneixement social digital i la IA",
-      "descripcio_original": "No va ser fins als primers anys del segle XXI que l’antiga fàbrica de Can Suris va adquirir una nova funció. Després que l’Ajuntament de Cornellà impulsés la seva recuperació, l’edifici va ser sotmès a un procés de rehabilitació i adaptació entre 2003 i 2007. Aquell any va obrir les portes el Citilab, convertint un espai del passat industrial en un laboratori ciutadà de 4.500m2 dedicat a la innovació social i digital. A finals del segle XIX, les grans xemeneies de les fàbriques simbolitzaven el progrés, la mecanització i una nova manera de produir i d’organitzar la societat. Més d’un segle després, la xemeneia de Can Suris conserva aquella memòria, però adquireix un nou significat: ja no anuncia la revolució industrial, sinó la revolució del coneixement. El canvi és també simbòlic. On abans es transformaven matèries primeres, avui es transformen idees, experiències i projectes. Can Suris ha passat de ser una fàbrica de la societat industrial a convertir-se en un espai de 2 creació dins la societat digital. De la fàbrica industrial a la fàbrica del coneixement. Convidats Xavier González, director gerent CITILAB (Cornellà del Llobregat); Suren Vázquez Maya, coordinadora del proyecte SeniorLab; Neus Sevilla Santamaria, Seniorlab; Rosa Garví Polo. Seniorlab; Antonio Martínez del Hoyo, president comissió d'Advocats Sèniors del Col·legi de l'Advocacia de Barcelona (ICAB); Juan Francisco Jiménez, Doctor en IA. Director del Centre de Innovació Tecnològica e Intel·ligència Artificial,",
+      "id": "3cat-1294164",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-18",
+      "durada": "8 min",
+      "titol_original": "\"El sector dels mitjans no és conscient del tsunami que ve\"",
+      "descripcio_original": "Parlem del futur del català en els sistemes d'IA, de com aquesta tecnologia transforma la manera com ens comuniquem, ens informem i treballem, i dels desafiaments que planteja per al futur del periodisme. Xantal Llavina conversa amb Joan Camp, director de la Catosfera, la trobada i observatori de l'evolució d'internet i de l'ecosistema digital català, per analitzar els reptes de la dinovena edició, celebrada a Girona.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/el-sector-dels-mitjans-no-es-conscient-del-tsunami-que-ve/audio/1294164/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1294164"
+      }
+    },
+    {
+      "id": "3cat-1294165",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-18",
+      "durada": "14 min",
+      "titol_original": "El secret perquè un equip funcioni com una gran banda de rock",
+      "descripcio_original": "A través d'exemples de Bruce Springsteen, Queen, David Bowie i els Rolling Stones, entre d'altres, parlem de lideratge, creativitat, disciplina i innovació, i de com construir equips cohesionats, transformar les tensions en energia creativa i atrevir-se a explorar nous camins. Parlem amb Óscar Alonso Llombart, expert en estratègia i govern de dades i intel·ligència artificial, docent universitari i autor del llibre \"Rock, datos e inteligencia artificial\", sobre com les grans bandes de la història de la música poden inspirar noves maneres de treballar amb les dades.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/el-secret-perque-un-equip-funcioni-com-una-gran-banda-de-rock/audio/1294165/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1294165"
+      }
+    },
+    {
+      "id": "3cat-1294166",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-18",
+      "durada": "10 min",
+      "titol_original": "Laura Gil: \"La pròxima revolució empresarial no és treballar més ràpid, sinó decidir millor\"",
+      "descripcio_original": "Descobrim l'evolució d'IAmm, hub de dades i intel·ligència artificial, amb Laura Gil, chief digital and data officer de Damm, i Daniel Navarrete, professional procedent de la start-up Nennisiwok. Parlem de com la integració del talent i el coneixement tecnològic d'una start-up en una gran companyia pot generar noves oportunitats d'innovació i de com la intel·ligència artificial contribueix a transformar els processos i l'activitat empresarial.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/laura-gil-la-proxima-revolucio-empresarial-no-es-treballar-mes-rapid-sino-decidi/audio/1294166/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1294166"
+      }
+    },
+    {
+      "id": "3cat-1294167",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-18",
+      "durada": "53 min",
+      "titol_original": "Cristina Aced: \"La IA entra en campanya. Grok tendeix a la dreta i ChatGPT, cap a l'esquerra\"",
+      "descripcio_original": "Amb Cristina Aced, investigadora, consultora i professora de comunicació i intel·ligència artificial, i Roger Cuartielles, investigador i professor especialitzat en verificació, desinformació i intel·ligència artificial, parlem de què passa quan confiem en un assistent d'intel·ligència artificial per interpretar programes electorals i recomanar-nos un candidat. Comptem amb Óscar Alonso Llombart, expert en estratègia i govern de dades i intel·ligència artificial, amb qui descobrim què poden ensenyar les grans bandes de rock sobre lideratge, creativitat i innovació; amb Joan Camp, director de la Catosfera, analitzem l'evolució de l'ecosistema digital català, el futur del català en els sistemes d'IA i els reptes per al periodisme, i amb Laura Gil, chief digital and data officer de Damm, i Daniel Navarrete, de la start-up Nennisiwok, explorem com la integració del talent tecnològic de les start-ups pot impulsar la innovació dins les grans empreses.",
       "descripcio_curta": false,
       "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/sentit-de-viure/seniorlabs-projecte-global-citilab-revolucio-coneixement-social-digital-ia/17271363/",
+      "url": "https://www.3cat.cat/3cat/cristina-aced-la-ia-entra-en-campanya-grok-tendeix-a-la-dreta-i-chatgpt-cap-a-le/audio/1294167/",
       "reproductor": {
-        "tipus": "rtve",
-        "id": "17271363"
+        "tipus": "3cat",
+        "id": "1294167"
       }
     }
   ]
