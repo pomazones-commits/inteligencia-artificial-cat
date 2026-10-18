@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-18T17:35:08.046Z",
+ "actualitzat": "2026-10-18T21:05:28.986Z",
  "fonts": 44,
  "articles": [
   {
@@ -2463,17 +2463,6 @@
    "titol": "La IA comparte todos los secretos",
    "url": "https://www.lavanguardia.com/opinion/20261012/11656683/ia-comparte-todos-secretos.html",
    "publicat": "2026-10-11T22:05:00.000Z"
-  },
-  {
-   "id": "7e548fca2c70",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Reclamar facturas, buscar vuelos y anular suscripciones: la IA que todo el mundo quería tiene cara B",
-   "url": "https://www.eldiario.es/tecnologia/reclamar-facturas-buscar-vuelos-anular-suscripciones-ia-mundo-queria-cara-b_1_13571363.html",
-   "publicat": "2026-10-11T19:10:58.000Z"
   }
  ]
 }
