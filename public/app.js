@@ -243,9 +243,17 @@
       if (total % 2 === 1 && i === total - 1) classes.push('news-card--senar-final');
       return classes.join(' ');
     }
+    // 18.10.2026: les notícies que ja són al carrusel porten .news-card--al-carrusel
+    // a la graella completa (no a la cerca). Només mobil.css les amaga (≤600 px); a
+    // la tauleta i a l'escriptori la graella continua sent l'edició sencera (decisió
+    // del 15.10). No es marquen si a la graella en quedarien menys de 4, perquè de
+    // bon matí no es vegi buida.
+    const alCarrusel = new Set(carouselNews);
+    const marcaCarrusel = gridNews.length - carouselNews.length >= 4;
     function renderNews(items) {
+      const marca = marcaCarrusel && items === gridNews;
       newsGrid.innerHTML = items.map((story, i) => `
-        <article class="${cardClass(i, items.length)}">
+        <article class="${cardClass(i, items.length)}${marca && alCarrusel.has(story) ? ' news-card--al-carrusel' : ''}">
           <a href="${escapeHTML(storyHref(story))}">
             ${story.image ? `<div class="news-card__image"${story.imageCredit ? ' style="position:relative"' : ''}><img src="${escapeHTML(story.image)}" alt="" loading="lazy">${photoCredit(story)}</div>` : ''}
             <p class="story-meta"><i></i>${escapeHTML(story.category)} · ${escapeHTML(story.read || '5 MIN')}</p>

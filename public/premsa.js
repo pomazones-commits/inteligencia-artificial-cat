@@ -75,6 +75,9 @@
       const articles = Array.isArray(dades?.articles) ? dades.articles : [];
       const triats = tria(articles, ara);
       if (triats.length < 3) return;
+      const clauTitol = t => String(t || '').toLocaleLowerCase('es').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+      const vistos = new Map();
+      triats.forEach((p, i) => { if (!vistos.has(clauTitol(p.titol))) vistos.set(clauTitol(p.titol), i); });
       const diaris = new Set(articles.filter(p => Date.parse(p.publicat) >= ara - 86400000).map(p => p.mitja)).size;
       banda.innerHTML = `
         <div class="premsa-layout">
@@ -84,7 +87,15 @@
             <p>Què publiquen avui els diaris sobre intel·ligència artificial${diaris > 1 ? `: ${diaris} capçaleres en les últimes 24 hores` : ''}. Els titulars porten a la peça original.</p>
             <a class="premsa-cap__tot" href="/premsa">Tot el recull de premsa <span aria-hidden="true">→</span></a>
           </header>
-          <ol class="premsa-llista">${triats.map(p => peca(p, ara)).join('')}</ol>
+          <ol class="premsa-llista">${triats.map((p, i) => {
+            // 18.10.2026: el mateix titular de dos diaris (p. ex. una notícia d'agència a
+            // El Periódico i al Diario de Mallorca) porta .premsa-peca--repetida la segona
+            // vegada. Només mobil.css l'amaga (≤600 px); a la tauleta i a l'escriptori es veu.
+            const html = peca(p, ara);
+            return vistos.get(clauTitol(p.titol)) !== i
+              ? html.replace('<li class="premsa-peca', '<li class="premsa-peca premsa-peca--repetida')
+              : html;
+          }).join('')}</ol>
         </div>`;
       banda.hidden = false;
     })

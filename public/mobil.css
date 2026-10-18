@@ -14,9 +14,16 @@
    5. El cartell inactiu de l'agenda ja no sobresurt 11 px pel costat dret.
    6. Les notícies del radar que ja surten a la graella s'amaguen (classe
       .radar-card--repetida, la posa app.js).
+   7. (18.10, segona tanda) Les notícies del carrusel no es repeteixen a la
+      graella (.news-card--al-carrusel, app.js) i el mateix titular de dos diaris
+      surt un sol cop a la premsa (.premsa-peca--repetida, premsa.js).
    Per desfer-ho tot: treure el <link> de mobil.css d'index.html. */
 
 @media (max-width: 600px) {
+
+  /* 7. Sense repeticions */
+  .news-card--al-carrusel,
+  .premsa-peca--repetida { display: none; }
 
   /* 1a. Graella de notícies en llista compacta */
   .news-grid { gap: 10px; }

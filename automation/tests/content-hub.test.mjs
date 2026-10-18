@@ -1303,6 +1303,20 @@ test('premsa: els feeds en ISO-8859-1 (3CatInfo) es llegeixen sense «�»', as
   assert.equal(fusiona([{ ...vell, titol: 'Orélien nega' }], [], { ara: ARA_PREMSA }).length, 1);
 });
 
+test('premsa: el text UTF-8 llegit com a Latin-1 («SeÃºl») es repara i el bo no es toca', async () => {
+  const { reparaMojibake, netejaText, fusiona } = await import(premsa);
+  assert.equal(reparaMojibake('tensiones con SeÃºl'), 'tensiones con Seúl');
+  assert.equal(reparaMojibake('PerÃ² quÃ¨ fa la IA amb la novelÂ·la?'), 'Però què fa la IA amb la novel·la?');
+  assert.equal(reparaMojibake('Lâ€™IA'), 'L’IA');
+  assert.equal(netejaText('<![CDATA[El Govern i SeÃºl]]>'), 'El Govern i Seúl');
+  // Text ben escrit, també en majúscules i amb cometes: idèntic.
+  for (const bo of ['Seúl', '«PER QUÈ»', 'ESTÀ «ÀRIDA»', 'Ångström', 'L’IA — 5 €', 'Àustria i Âmbit']) {
+    assert.equal(reparaMojibake(bo), bo);
+  }
+  const vell = { id: 'bbbbbbbbbbbb', url: 'https://www.elperiodico.com/a', titol: 'Tensiones con SeÃºl', mitja: 'El Periódico', font: 'elperiodico-totes', publicat: ARA_PREMSA.toISOString() };
+  assert.equal(fusiona([vell], [], { ara: ARA_PREMSA })[0].titol, 'Tensiones con Seúl');
+});
+
 test('premsa: del RSS només entren les d’IA, recents i sense paràmetres de seguiment', async () => {
   const { parseFeed, seleccionaEntrades, netejaText } = await import(premsa);
   const xml = rssXml([

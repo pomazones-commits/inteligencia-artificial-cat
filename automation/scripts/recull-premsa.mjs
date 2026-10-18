@@ -104,10 +104,40 @@ function decodeEntitats(text) {
   });
 }
 
+// 18.10.2026. El cas contrari del 14.10: text UTF-8 llegit com si fos d'un byte
+// (passa al mateix diari o al feed), i «Seúl» arriba com a «SeÃºl», «què» com a
+// «quÃ¨». Es busquen els trossos que tenen la forma d'un caràcter UTF-8 escrit en
+// windows-1252 i es tornen a descodificar. Si un tros no és UTF-8 vàlid, es deixa
+// com era: un text ben escrit no canvia mai.
+const CP1252_A_BYTE = new Map(Object.entries({
+  '€': 0x80, '‚': 0x82, 'ƒ': 0x83, '„': 0x84, '…': 0x85, '†': 0x86, '‡': 0x87, 'ˆ': 0x88, '‰': 0x89,
+  'Š': 0x8a, '‹': 0x8b, 'Œ': 0x8c, 'Ž': 0x8e, '‘': 0x91, '’': 0x92, '“': 0x93, '”': 0x94, '•': 0x95,
+  '–': 0x96, '—': 0x97, '˜': 0x98, '™': 0x99, 'š': 0x9a, '›': 0x9b, 'œ': 0x9c, 'ž': 0x9e, 'Ÿ': 0x9f
+}));
+const CONTINUACIO = '[\\u0080-\\u00BF€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ]';
+const MOJIBAKE = new RegExp(`[\\u00C2-\\u00C5]${CONTINUACIO}|\\u00E2${CONTINUACIO}{2}`, 'g');
+// Només s'accepta el resultat si és una lletra llatina accentuada (U+00A0–U+017F)
+// o puntuació tipogràfica (U+2010–U+20AC: ’ “ ” – — … €). Un titular en
+// majúscules com «PER QUÈ»» queda fora perquè «È» no pot obrir cap d'aquests.
+const ACCEPTABLE = /^[ -ſ‐-€]$/;
+const UTF8_ESTRICTE = new TextDecoder('utf-8', { fatal: true });
+export function reparaMojibake(value) {
+  const text = String(value ?? '');
+  if (!/[Â-Åâ]/.test(text)) return text;
+  return text.replace(MOJIBAKE, tros => {
+    const bytes = Uint8Array.from(tros, c => CP1252_A_BYTE.get(c) ?? c.charCodeAt(0));
+    try {
+      const nou = UTF8_ESTRICTE.decode(bytes);
+      return ACCEPTABLE.test(nou) ? nou : tros;
+    } catch { return tros; }
+  });
+}
+
 export function netejaText(value) {
   let t = String(value || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
   // Dues passades: Nació Digital dona «l&amp;apos;» (entitat codificada dues vegades).
   t = decodeEntitats(decodeEntitats(t));
+  t = reparaMojibake(t);
   return t.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
@@ -233,7 +263,8 @@ export function fusiona(existents, nous, { ara = new Date(), dies = DIES_FINESTR
     // 14.10.2026: un titular desat amb «�» (feed mal descodificat) no es
     // conserva; si el diari encara el serveix, torna a entrar ben escrit.
     if (String(p.titol).includes('�')) continue;
-    perId.set(p.id, { ...p });
+    // 18.10.2026: i un titular desat amb «Ã©», «Ãº»… es repara al moment.
+    perId.set(p.id, { ...p, titol: reparaMojibake(p.titol) });
   }
   for (const p of nous) {
     if (!pecaValida(p) || exclou.has(p.url)) continue;
