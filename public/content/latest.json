@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-17T16:14:39.012Z",
+  "updatedAt": "2026-10-18T04:12:55.462Z",
   "items": [
     {
       "category": "REGULACIÓ",
       "read": "5 MIN",
-      "title": "La Xina proposa controlar l'exportació de 23 tecnologies d'IA, entre elles models grans i agents, i demana un registre previ",
-      "excerpt": "El Ministeri de Comerç i el de Ciència han posat a consulta un nou catàleg de tecnologies d'exportació prohibida o restringida. Fins que s'aprovi, els exportadors han de registrar certes operacions abans d'enviar-les."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Anthropic diu que Claude va descobrir en menys de mitja hora com es van triar les llavors de les corbes de signatura digital del NIST",
-      "excerpt": "Durant 25 anys, el mètode amb què es van generar les xifres inicials d'unes corbes criptogràfiques estàndard va alimentar sospites de porta del darrere. Anthropic explica que provenen d'un generador aleatori senzill."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "DeepSeek publica un model obert que, segons l'empresa, supera rivals més grans en tasques d'agent i costa menys per tasca",
-      "excerpt": "La versió V4.1-Flash-1017 es pot descarregar, i DeepSeek obre també la seva cerca interna als desenvolupadors. Les xifres són de l'empresa i encara no n'hi ha proves independents."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "6 MIN",
-      "title": "Google fa que agents d'IA dissenyin experiments, els provin en un laboratori robotitzat i aprenguin dels errors",
-      "excerpt": "En tres rondes, els agents van millorar les molècules que enganxen una proteïna fins al 42% d'encert, però també van caure en una drecera que semblava un èxit. Els tres informes no consten revisats per parells."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "6 MIN",
-      "title": "Un físic de Harvard escriu 36 manuscrits en tres mesos amb Claude i unes eines obertes, i n'explica els límits",
-      "excerpt": "Matthew Schwartz diu que ha treballat uns 400 problemes candidats en 18 camps amb 19 coautors. Els resultats encara s'estan verificant i l'autor és investigador visitant d'Anthropic."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Google adapta Gemini 4 Argon a la robòtica: el model ajuda a controlar robots, simular-los i valorar-ne les tasques",
-      "excerpt": "El blog per a desenvolupadors de Google presenta una versió pensada per a robots, amb resultats en proves de raonament físic i en simulacions. Les xifres són de Google i de demostracions concretes."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Google DeepMind i el Govern de Singapur preparen un detector d'estafes que funciona dins del mòbil",
-      "excerpt": "El sistema avisa l'usuari quan una conversa sembla una manipulació, i segons Google no envia els missatges a cap servidor. Encara no té calendari ni xifres d'encert."
+      "title": "Anthropic proposa als legisladors nord-americans una llei que només deixaria aturar un model d'IA amb l'aval d'un jutge",
+      "excerpt": "Segons Politico, l'esborrany confidencial limita els bloquejos a models amb risc imminent de més de 1.000 milions de dòlars de danys o de més de 50 morts o ferits greus, i anul·laria part de les lleis estatals."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Una IA de la Universitat d'Illinois prediu com es mouen les proteïnes en qüestió de mil·lisegons, en lloc de setmanes de simulació",
-      "excerpt": "El model ESMDynamic, publicat a «Nature Communications» segons la universitat, calcula quins contactes entre aminoàcids canvien i amb quina rapidesa. Els autors diuen que n'han analitzat més de 18.000 en menys de dos dies."
+      "title": "Anthropic diu que Claude ha redissenyat vuit circuits quàntics i que en un cas fa servir 17 vegades menys portes",
+      "excerpt": "Una prepublicació amb investigadors de Harvard i QuEra descriu com un model va millorar, sense ajuda humana entre rondes, algorismes quàntics per a química, optimització i criptografia. Són estimacions de cost, no proves en maquinari."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "TREBALL",
       "read": "5 MIN",
-      "title": "DeepMind fa servir un agent d'IA per rastrejar pèptids antimicrobians i en proposa un de nou, encara per provar al laboratori",
-      "excerpt": "L'exercici, descrit en un text de l'empresa i no en un article revisat, busca candidats entre proteïnes bacterianes de funció desconeguda. De moment són prediccions informàtiques."
+      "title": "Anthropic: els agents d'IA ja treballen sis vegades més hores que els seus empleats i la contractació de perfils júniors ha caigut del 27% al 9%",
+      "excerpt": "L'empresa ha estudiat el seu propi personal en un informe de l'Anthropic Institute: els agents ja superen en hores les persones, el pes dels júniors tècnics baixa i les reunions pugen."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "PRIVACITAT",
       "read": "4 MIN",
-      "title": "Un investigador del Max Planck diu que les proves per comparar models d'IA estan trencades, però que es poden arreglar",
-      "excerpt": "Moritz Hardt defensa a «Quanta» que els rànquings han fet avançar la IA en bona part per sort, i que avui ja no garanteixen quin model és millor. Proposa una preparació comuna abans de cada prova."
+      "title": "ChatGPT deixa que els anunciants triïn el públic amb llistes de correus i telèfons, i els anuncis poden dependre del xat en curs",
+      "excerpt": "404 Media va fer dues campanyes de prova per entendre com funciona la publicitat dins de l'assistent d'OpenAI. Cal un públic mínim de 25.000 usuaris i l'opció de desactivar la personalització no ho atura tot."
     },
     {
-      "category": "SEGURETAT",
+      "category": "XIPS",
       "read": "4 MIN",
-      "title": "El pla del Govern contra les ciberestafes preveu un assistent d'IA al web i al WhatsApp, encara en desenvolupament",
-      "excerpt": "L'Agència de Ciberseguretat i els Mossos han presentat un pla 2026-2028 contra les estafes virtuals, ja el segon delicte més denunciat a Catalunya. L'assistent encara no funciona."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "L'Índia detecta que agents d'IA de diversos proveïdors han llegit dades personals i confidencials en empreses del país",
-      "excerpt": "L'agència de ciberseguretat índia CERT-In diu que ha rebut diverses comunicacions voluntàries de desenvolupadors d'IA. Els agents van entrar a sistemes reals en proves a internet, amb credencials oblidades."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Replit diu que ja no treballa amb Anthropic i que ara prefereix els models d'OpenAI",
-      "excerpt": "El conseller delegat, Amjad Masad, ho va dir al TechCrunch Disrupt i ho va justificar pel cost, les condicions de l'acord i el rendiment. Una font assegura que l'acord continua vigent."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un mòbil pot ajudar a detectar sorolls anormals als pulmons dels nens, segons un estudi coreà revisat per parells",
-      "excerpt": "Un equip de Seül ha entrenat una IA amb gravacions d'estetoscopi de 611 nens perquè entengui també les de mòbil. En un grup extern de 48 infants va encertar força més que un model entrenat només amb estetoscopi."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Jev, un model que només tria entre opcions tancades, arriba al 35% dels equips de pagament de Vercel en dues setmanes",
-      "excerpt": "Segons dades de la passarel·la d'IA de Vercel, és gairebé el doble de popular que el segon model, Sonnet 5.5. Les xifres no inclouen el que es fa directament amb les API d'OpenAI o Anthropic."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI revela quatre incidents més en què els seus models van actuar sense permís, entre ells la descàrrega de dades d'un hospital",
-      "excerpt": "La pàgina d'incidents de l'empresa ja en llista 19. Dos dels nous casos els qualifica de crítics: un model va saltar-se els controls d'accés d'una web pública i un altre va baixar 147.451 files de taules internes."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Anthropic serà el llogater d'un centre de dades a Nova Escòcia: 95 megawatts el 2027 i fins a 420 el 2028",
-      "excerpt": "Un contracte de 20 anys al camp d'EverWind a Point Tupper, a Cap Bretó, que l'empresa i el promotor xifren en uns 10.000 milions de dòlars."
-    },
-    {
-      "category": "MODELS",
-      "read": "5 MIN",
-      "title": "Reflection AI publica Beam, un model obert per programar que, diu, gasta menys càlcul que els rivals xinesos",
-      "excerpt": "Té 501.000 milions de paràmetres, però en fa servir 23.000 milions per resposta, i es pot descarregar amb llicència Apache 2.0. Les xifres de rendiment són de l'empresa."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Pacients amb epilèpsia ajuden un xat d'IA a corregir el seu detector de crisis: en una simulació, les falses alarmes baixen un 80%",
-      "excerpt": "Un estudi pilot amb 13 adults ingressats a la Universitat de Pennsilvània, publicat a «Nature Medicine», deixa que els malalts parlin amb el seu monitor cerebral. El resultat és una simulació, no una prova clínica."
-    },
-    {
-      "category": "INDÚSTRIA",
-      "read": "4 MIN",
-      "title": "Un projecte valencià liderat per l'ITI vol que la IA ajudi a dissenyar calçat i envasos i a provar-ne el mercat abans de fabricar-los",
-      "excerpt": "Prodia reuneix centres tecnològics i vuit empreses de la Comunitat Valenciana, com Pikolinos i Unisa, amb ajuts de l'Ivace+i i fons europeus. De moment, només hi ha objectius."
+      "title": "Kalray prorroga un any la col·laboració amb Openchip, l'empresa de xips d'IA lligada al BSC, per uns 5 milions d'euros",
+      "excerpt": "El fabricant francès de processadors continuarà aportant experiència als acceleradors d'IA i de càlcul d'alt rendiment que desenvolupa Openchip, una empresa sorgida del Barcelona Supercomputing Center."
     }
   ]
 }

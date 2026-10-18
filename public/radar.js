@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "18.10.2026",
+    "title": "Kalray prorroga un any la col·laboració amb Openchip, l'empresa de xips d'IA lligada al BSC, per uns 5 milions d'euros",
+    "summary": "El fabricant francès de processadors continuarà aportant experiència als acceleradors d'IA i de càlcul d'alt rendiment que desenvolupa Openchip, una empresa sorgida del Barcelona Supercomputing Center.",
+    "detail": "Europa vol reduir la seva dependència dels xips d'IA nord-americans, i a Catalunya hi té un dels seus projectes de xips d'IA: Openchip, una empresa de Barcelona sorgida del Barcelona Supercomputing Center (BSC), que dissenya acceleradors per a intel·ligència artificial i càlcul d'alt rendiment. La premsa econòmica espanyola la situa amb el BSC i el grup GTD com a accionistes, i també explica que Openchip ha comprat el 15% de Kalray, una empresa francesa de processadors amb seu a Grenoble.\n\nKalray va anunciar el 14 d'octubre, en un comunicat des de Grenoble, que prorroga 12 mesos més l'associació que van començar el 2025. L'ampliació val uns 5 milions d'euros durant aquest període. Segons el comunicat, Kalray continuarà aportant la seva experiència al desenvolupament dels xips acceleradors de nova generació d'Openchip per a IA i càlcul d'alt rendiment. L'empresa francesa explica que guanya diners amb llicències de propietat intel·lectual de maquinari i programari i amb projectes de desenvolupament que paguen els clients.\n\nLa notícia és petita, però il·lustra com es construeix la cadena d'un xip europeu: una empresa nascuda en un centre de supercomputació públic, amb socis industrials que ja tenen tecnologia provada, intenta arribar a un mercat que dominen Nvidia i uns pocs més. Per a un ecosistema com el barceloní, que acull una de les fàbriques d'IA europees, que Openchip pugui comptar amb un soci així durant un any més és un senyal de continuïtat.\n\nHi ha límits clars. El comunicat de Kalray no diu on és Openchip, ni dona dades de rendiment, de calendari ni de clients dels xips, i tampoc quin percentatge dels 5 milions arriba a Openchip i quin acaba a Kalray. La xifra és la que dona l'empresa cotitzada; no hem pogut contrastar amb Openchip els detalls ni la seva participació accionarial.",
+    "source": "Kalray",
+    "url": "https://www.financialcontent.com/article/actus-2026-10-14-kalray-and-openchip-sign-a-12-month-extension-of-their-partnership",
+    "image": "./assets/openchip-kalray-prorroga-xips-ia-20261018.jpg",
+    "slug": "openchip-kalray-prorroga-xips-ia"
+  },
+  {
     "place": "Catalunya",
     "category": "SEGURETAT",
     "date": "17.10.2026",
@@ -83,15 +95,5 @@ window.IA_RADAR = [
     "source": "Diario de Alicante",
     "url": "https://diariodealicante.net/grupo-ubesol-fabrica-cocentaina-115-millones/",
     "image": "./assets/ubesol-cocentaina-115-milions-fabrica-intelligent-20261015.jpg"
-  },
-  {
-    "place": "Elx",
-    "category": "IA I SOCIETAT",
-    "date": "15.10.2026",
-    "title": "El CEEI d'Elx organitza tres esmorzars amb directius de Gioseppo, Simetry i ASV per parlar de la IA a l'empresa",
-    "summary": "Les sessions, gratuïtes i amb inscripció prèvia, tindran lloc a l'Hort del Xocolater entre el 27 d'octubre i el 9 de desembre, dins del programa Horizonte Tech de la Generalitat Valenciana.",
-    "detail": "El Centre Europeu d'Empreses i Innovació (CEEI) d'Elx, a la Comunitat Valenciana, ha programat tres trobades «Coffee & CEO» perquè directius d'empreses de la zona expliquin com la intel·ligència artificial i les noves tecnologies canvien la manera de treballar i de prendre decisions.\n\nLes sessions formen part de «Tech Leaders», dins del programa Horizonte Tech, que finança la Direcció General d'Innovació de la Generalitat Valenciana i que coordina la xarxa de CEEI de la Comunitat Valenciana (Castelló, Elx i València). Se celebraran a l'Hort del Xocolater, d'Elx, de 9 a 11 del matí: el 27 d'octubre, amb Luis Flores, director de dades de Gioseppo, i l'expert en IA José Luis Gallardo; el 12 de novembre, amb Senti Bernabéu, conseller delegat de Simetry, i l'expert Ronald Aveillán; i el 9 de desembre, amb Mario de Felipe, director de Persones, Innovació i Cultura del Grup ASV, i l'especialista Santiago Ambit.\n\nEl format és una conversa participativa entre professionals de la tecnologia i directius que lideren la transformació de la seva empresa. Van adreçades a propietaris, directius i membres de comitès de pime i d'altres empreses interessades a saber com ho fan les seves homòlogues.\n\nL'assistència és gratuïta, però cal inscriure's a cada sessió a través de la web del CEEI d'Elx; la de la primera ja era oberta quan es va publicar la informació. No es descriu cap projecte ni cap resultat concret: és una convocatòria, de manera que el contingut de les xerrades es coneixerà quan se celebrin.",
-    "source": "Alicante Plaza",
-    "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/como-la-ia-esta-cambiando-la-forma-de-dirigir-las-empresas-en-los-coffe-ceo-del-ceei-elche"
   }
 ];
