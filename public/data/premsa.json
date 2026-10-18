@@ -1,8 +1,107 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-17T22:42:36.480Z",
+ "actualitzat": "2026-10-18T04:13:34.722Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "cda77dedeb8d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Elena Ibáñez, orientadora vocacional: “La educación en España está poniendo los noes a la IA, pero no los síes”",
+   "url": "https://elpais.com/economia/2026-10-18/elena-ibanez-orientadora-vocacional-la-educacion-en-espana-esta-poniendo-noes-a-la-ia-pero-no-sies.html",
+   "publicat": "2026-10-18T04:07:00.000Z"
+  },
+  {
+   "id": "ab4159de0205",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De la plaza a la pantalla y de las redes a la IA: la inquietud por los nuevos formatos que deciden las elecciones",
+   "url": "https://www.levante-emv.com/comunitat-valenciana/2026/10/18/plaza-pantalla-redes-ia-inquietud-135405175.html",
+   "publicat": "2026-10-18T04:02:42.000Z"
+  },
+  {
+   "id": "ab6a786c6705",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "marinabaixa | Altea da voz a su Guerrero de la Estela Ibérica con inteligencia artificial y presenta el proyecto en Italia",
+   "url": "https://alicanteplaza.es/alicanteplaza/marinabaixa/altea-da-voz-a-su-guerrero-de-la-estela-iberica-con-inteligencia-artificial-y-presenta-el-proyecto-en-italia",
+   "publicat": "2026-10-18T04:00:05.000Z"
+  },
+  {
+   "id": "860d3f3daf51",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Robert Blumofe, vicepresidente y jefe tecnológico de Akamai: “Es sencillo: no hay que otorgar a un agente de IA más autoridad de la necesaria”",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261018/11658914/robert-blumofe-vicepresidente-jefe-tecnologico-akamai-sencillo-hay-otorgar-agente-ia-mas-autoridad-necesaria.html",
+   "publicat": "2026-10-18T04:00:00.000Z"
+  },
+  {
+   "id": "cc4c44d4ad0c",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La educación literaria en tiempos de TikTok y ChatGPT",
+   "url": "https://www.lavanguardia.com/vida/20261018/11661525/educacion-literaria-tiempos-tiktok-chatgpt.html",
+   "publicat": "2026-10-18T04:00:00.000Z"
+  },
+  {
+   "id": "075aab5500fb",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Luis Pérez de Ayala (Cuatrecasas): “No podemos dejar que los abogados jóvenes aprendan de la IA”",
+   "url": "https://elpais.com/economia/negocios/2026-10-18/luis-perez-de-ayala-cuatrecasas-no-podemos-dejar-que-los-abogados-jovenes-aprendan-de-la-ia.html",
+   "publicat": "2026-10-18T03:30:00.000Z"
+  },
+  {
+   "id": "b85d2b498955",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Albert Tort: \"L'objectiu és que la IA sigui capaç d'aprendre en català\"",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/albert-tort-lobjectiu-es-ia-sigui-capac-aprendre-en-catala_1708360_102.html",
+   "publicat": "2026-10-18T03:30:00.000Z"
+  },
+  {
+   "id": "4dfea555c358",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El presidente naranja, las tablets y la burbuja de la IA: la economía según Xavier Sala i Martín",
+   "url": "https://www.diaridetarragona.com/economia/273297/presidente-naranja-tablets-burbuja-ia-economia-xavier-sala-i-martin.html",
+   "publicat": "2026-10-18T03:00:00.000Z"
+  },
+  {
+   "id": "4ac9bae41029",
+   "mitja": "El Punt Avui",
+   "font": "elpuntavui-societat",
+   "icona": "/assets/premsa/el-punt-avui.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "IA per governar millor",
+   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2683075-ia-per-governar-millor.html",
+   "publicat": "2026-10-18T00:00:00.000Z"
+  },
   {
    "id": "d3244e7f6bb4",
    "mitja": "La Vanguardia",
@@ -46,17 +145,6 @@
    "titol": "Anthropic plantea una ley sobre IA que otorga a un juez potestad de bloquear un modelo peligroso",
    "url": "https://www.elperiodico.com/es/internacional/20261017/anthropic-plantea-ley-ia-otorga-juez-potestad-bloquear-modelo-peligroso-135439195",
    "publicat": "2026-10-17T07:55:47.000Z"
-  },
-  {
-   "id": "502ac6fba426",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Corea del Norte prueba un nuevo sistema de torpedos guiados por IA en medio de nuevas tensiones con Seúl",
-   "url": "https://www.elperiodico.com/es/internacional/20261017/corea-norte-prueba-nuevo-sistema-torpedos-guiado-ia-135439154",
-   "publicat": "2026-10-17T07:42:07.000Z"
   },
   {
    "id": "b92e9c2546ce",
@@ -287,7 +375,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Un nuevo asistente con IA ayudarÃ¡ a los catalanes a detectar estafas virtuales",
+   "titol": "Un nuevo asistente con IA ayudará a los catalanes a detectar estafas virtuales",
    "url": "https://www.elperiodico.com/es/sociedad/20261016/catalunya-tendra-asistente-ia-permitira-detectar-estafas-135410925",
    "publicat": "2026-10-16T11:19:06.000Z"
   },
@@ -335,7 +423,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Siempre nos quedarÃ¡ la IA",
+   "titol": "Siempre nos quedará la IA",
    "url": "https://www.elperiodico.com/es/gente/20261016/mamarazzis-siempre-quedara-ia-lorena-vazquez-135403479",
    "publicat": "2026-10-16T09:16:29.000Z"
   },
@@ -456,7 +544,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Tensor impulsa el futuro de la movilidad autÃ³noma basada en IA desde DFactory Barcelona",
+   "titol": "Tensor impulsa el futuro de la movilidad autónoma basada en IA desde DFactory Barcelona",
    "url": "https://www.elperiodico.com/es/consorci-zona-franca/20261016/tensor-impulsa-futuro-movilidad-autonoma-ia-dfactory-barcelona-bc-135333542",
    "publicat": "2026-10-16T03:31:02.000Z"
   },
@@ -647,7 +735,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "La IA gana terreno en las finanzas: casi nueve de cada diez espaÃ±oles valora que le ayude a comparar opciones",
+   "titol": "La IA gana terreno en las finanzas: casi nueve de cada diez españoles valora que le ayude a comparar opciones",
    "url": "https://www.elperiodico.com/es/economia/20261015/inteligencia-artificial-chatgpt-gemini-claude-decisiones-financieras-nueve-cada-diez-espanoles-135369950",
    "publicat": "2026-10-15T16:00:07.000Z"
   },
@@ -860,7 +948,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "YouTube etiquetarÃ¡ las canciones creadas con inteligencia artificial: \"Nuestros oyentes nos han dicho que quieren transparencia\"",
+   "titol": "YouTube etiquetará las canciones creadas con inteligencia artificial: \"Nuestros oyentes nos han dicho que quieren transparencia\"",
    "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261015/youtube-etiquetara-canciones-creadas-inteligencia-135361315",
    "publicat": "2026-10-15T09:34:17.000Z"
   },
@@ -942,24 +1030,13 @@
    "publicat": "2026-10-15T07:40:41.000Z"
   },
   {
-   "id": "7596cd206640",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Gobierno refuerza la CNMC con un economista jefe y una unidad de inteligencia artificial para detectar cárteles",
-   "url": "https://www.informacion.es/economia/2026/10/15/gobierno-cambia-estructura-cnmc-economista-135356030.html",
-   "publicat": "2026-10-15T07:31:20.000Z"
-  },
-  {
    "id": "72f3e7c0e8bd",
    "mitja": "El Periódico",
    "font": "elperiodico-totes",
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "El Gobierno refuerza la CNMC con un economista jefe y una unidad de inteligencia artificial para detectar cÃ¡rteles",
+   "titol": "El Gobierno refuerza la CNMC con un economista jefe y una unidad de inteligencia artificial para detectar cárteles",
    "url": "https://www.elperiodico.com/es/economia/20261015/gobierno-cambia-estructura-cnmc-economista-135355791",
    "publicat": "2026-10-15T07:24:21.000Z"
   },
@@ -973,17 +1050,6 @@
    "titol": "Anthropic calienta su histórica salida a Bolsa con un aumento trimestral de sus ingresos del 46%",
    "url": "https://cincodias.elpais.com/companias/2026-10-15/anthropic-calienta-su-historica-salida-a-bolsa-con-un-aumento-trimestral-de-sus-ingresos-del-46.html",
    "publicat": "2026-10-15T07:13:38.000Z"
-  },
-  {
-   "id": "2173f95d688e",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "OpenAI, la impulsora de ChatGPT, demandada por ocho estados de EEUU por \"causar daÃ±os a niÃ±os\" e infringir la ley",
-   "url": "https://www.elperiodico.com/es/politica/20261015/openai-impulsora-chatgpt-demandada-ocho-135353107",
-   "publicat": "2026-10-15T06:32:17.000Z"
   },
   {
    "id": "e7e130909a4e",
@@ -1080,7 +1146,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "MÃ¡s allÃ¡ del algoritmo: cÃ³mo llevar la IA a la industria empresarial",
+   "titol": "Más allá del algoritmo: cómo llevar la IA a la industria empresarial",
    "url": "https://www.elperiodico.com/es/consorci-zona-franca/20261015/algoritmo-llevar-ia-industria-empresarial-bc-135061249",
    "publicat": "2026-10-15T03:30:51.000Z"
   },
@@ -1256,7 +1322,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "VZMORE AX9 MAX, anÃ¡lisis: un mini PC que apuesta por la IA local sin renunciar a la potencia",
+   "titol": "VZMORE AX9 MAX, análisis: un mini PC que apuesta por la IA local sin renunciar a la potencia",
    "url": "https://www.elperiodico.com/es/tecnologia/20261014/vzmore-ax9-max-analisis-precio-135330582",
    "publicat": "2026-10-14T14:11:10.000Z"
   },
@@ -1423,7 +1489,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "ThÃ©lyson OrÃ©lien niega haber utilizado inteligencia artificial para escribir su Ãºltima novela: Â«Las amenazas, el linchamiento mediÃ¡tico y el acoso racista son insoportablesÂ»",
+   "titol": "Thélyson Orélien niega haber utilizado inteligencia artificial para escribir su última novela: «Las amenazas, el linchamiento mediático y el acoso racista son insoportables»",
    "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261014/thelyson-orelien-niega-haber-utilizado-135315824",
    "publicat": "2026-10-14T09:18:55.000Z"
   },
@@ -1570,7 +1636,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Â¿Puede ChatGPT diagnosticar la alopecia? Los dermatÃ³logos alertan de los riesgos de confiar en la IA",
+   "titol": "¿Puede ChatGPT diagnosticar la alopecia? Los dermatólogos alertan de los riesgos de confiar en la IA",
    "url": "https://www.elperiodico.com/es/salud/20261014/chatgpt-diagnosticar-alopecia-dermatologos-alertan-ia-135313759",
    "publicat": "2026-10-14T08:12:47.000Z"
   },
@@ -1603,7 +1669,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Rafael LÃ³pez, el malagueÃ±o de 25 aÃ±os que triunfa con la Inteligencia Artificial en Silicon Valley: \"La clave para que la IA sea fiable es saber enseÃ±arla\"",
+   "titol": "Rafael López, el malagueño de 25 años que triunfa con la Inteligencia Artificial en Silicon Valley: \"La clave para que la IA sea fiable es saber enseñarla\"",
    "url": "https://www.elperiodico.com/es/sociedad/20261014/rafael-lopez-malagueno-silicon-valley-ia-wordware-san-francisco-135220939",
    "publicat": "2026-10-14T07:59:07.000Z"
   },
@@ -1652,24 +1718,13 @@
    "publicat": "2026-10-14T06:31:00.000Z"
   },
   {
-   "id": "c4ae16e727c9",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
-   "url": "https://www.diariodemallorca.es/economia/2026/10/14/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135309839.html",
-   "publicat": "2026-10-14T05:19:52.000Z"
-  },
-  {
    "id": "c3cff9b3f22a",
    "mitja": "El Periódico",
    "font": "elperiodico-totes",
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "La IA necesita cada vez mÃ¡s supervisiÃ³n en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
+   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
    "url": "https://www.elperiodico.com/es/economia/20261014/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135287734",
    "publicat": "2026-10-14T05:00:18.000Z"
   },
@@ -2362,41 +2417,6 @@
    "titol": "¿Es la IA un nuevo Renacimiento?",
    "url": "https://www.lavanguardia.com/magazine/lifestyle/20261011/11654091/ia-nuevo-renacimiento.html",
    "publicat": "2026-10-11T04:55:00.000Z"
-  },
-  {
-   "id": "a1217d6df55c",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Ateneu Universitari Sant Pacià reflexionará sobre la IA en un congreso",
-   "url": "https://www.lavanguardia.com/vida/20261011/11656004/ateneu-universitari-sant-pacia-reflexionara-sobre-ia-congreso.html",
-   "publicat": "2026-10-11T04:00:00.000Z"
-  },
-  {
-   "id": "cefcdd2ffb67",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un empresario de Reus impulsa un proyecto en Nevada para dotar de energía a centros de IA",
-   "url": "https://www.diaridetarragona.com/economia/272787/empresario-reus-impulsa-proyecto-nevada-dotar-energia-centros-ia.html",
-   "publicat": "2026-10-11T03:00:00.000Z",
-   "noticia": "empresari-reus-nevada-energia-centres-dades-ia",
-   "noticiaTitol": "Un empresari de Reus impulsa a Nevada un parc d'energia solar amb bateries per alimentar centres de dades d'IA"
-  },
-  {
-   "id": "c25d0adfdcbe",
-   "mitja": "El Punt Avui",
-   "font": "elpuntavui-societat",
-   "icona": "/assets/premsa/el-punt-avui.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La intel·ligència artificial ja investiga",
-   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2680653-la-intel-ligencia-artificial-ja-investiga.html",
-   "publicat": "2026-10-11T00:00:00.000Z"
   }
  ]
 }
