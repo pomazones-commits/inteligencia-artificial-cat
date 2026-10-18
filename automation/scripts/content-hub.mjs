@@ -179,6 +179,11 @@ function validateNews(payload) {
     if (seenSlugs.has(item.slug)) throw new Error(`Slug duplicat dins del lot: ${item.slug}.`);
     seenSlugs.add(item.slug);
     ensureWebUrl(item.sourceUrl, 'sourceUrl', index);
+    // Categoria territorial (18.10.2026): CATALUNYA, COMUNITAT VALENCIANA,
+    // ILLES BALEARS, ANDORRA o CATALUNYA NORD segons el lloc real de la notícia.
+    // Com que validateNews també repassa les notícies acumulades del dia, un lot
+    // nou corregeix les dels lots anteriors.
+    item.category = categoriaTerritorial(item);
     // La imatge és opcional (la portada gestiona targetes sense imatge),
     // però si hi és, ha de ser una URL o una ruta web vàlida.
     const image = normalizeText(raw?.image);
@@ -432,6 +437,66 @@ function detectPlace(story) {
     if (region) return region[0];
   }
   return 'Catalunya';
+}
+
+// ── Categoria territorial de la notícia (18.10.2026, decisió d'en Rafael) ─────
+// L'etiqueta de categoria que es veu a «Totes les notícies d'avui» (i a la
+// pàgina de l'article i a l'hemeroteca) distingeix el territori: CATALUNYA,
+// COMUNITAT VALENCIANA, ILLES BALEARS, ANDORRA i CATALUNYA NORD. Cas real:
+// «Altea fa parlar amb IA el seu guerrer ibèric…» (18.10.2026) va sortir com a
+// CATALUNYA. Només es toquen les notícies que el lot ja ha marcat amb una
+// categoria territorial; una notícia de CIÈNCIA feta a València continua sent
+// CIÈNCIA. Mateixa regla que LOCAL_TERMS: només noms inconfusibles. Els adjectius
+// de llengua («català», «catalana») NO compten per a Catalunya, perquè una
+// notícia valenciana o balear pot dir «en català» o «territoris de parla
+// catalana»; tampoc 'palma' sola, 'rosselló', 'paterna' ni 'valencia' sense accent.
+const TERRITORIS_CATEGORIA = [
+  ['COMUNITAT VALENCIANA', ['comunitat valenciana', 'generalitat valenciana', 'valència', 'valencià', 'valenciana', 'valencians', 'valencianes',
+    'alacant', 'alicante', 'castelló', 'castellón', 'elx', 'elche', 'gandia', 'alcoi', 'benidorm', 'sagunt', 'altea', 'dénia', 'xàbia', 'xàtiva',
+    'ontinyent', 'torrevella', 'oriola', 'vila-real', 'burjassot', 'la vila joiosa', 'marina baixa', 'marina alta', 'la safor',
+    'universitat d\'alacant', 'universitat de valència', 'politècnica de valència', 'uji', 'umh', 'vrain', 'valgrai', 'ellis alicante',
+    'distrito digital', 'à punt', 'picassent', 'vara de quart', 'catadau']],
+  ['ILLES BALEARS', ['illes balears', 'balears', 'balear', 'mallorca', 'mallorquí', 'mallorquina', 'mallorquins', 'mallorquines', 'menorca', 'menorquí',
+    'menorquina', 'eivissa', 'ibiza', 'eivissenc', 'eivissenca', 'formentera', 'manacor', 'inca', 'sóller', 'maó', 'uib', 'ib3', 'parcbit', 'fundació bit']],
+  ['ANDORRA', ['andorra', 'andorrà', 'andorrana', 'andorrans', 'andorranes', 'escaldes-engordany', 'escaldes', 'encamp', 'la massana', 'ordino',
+    'canillo', 'sant julià de lòria']],
+  ['CATALUNYA NORD', ['catalunya nord', 'perpinyà', 'upvd', 'universitat de perpinyà', 'pirineus orientals']],
+  ['CATALUNYA', ['catalunya', 'catalans', 'catalanes', 'govern català', 'barcelona', 'bcn', 'mossos',
+    'girona', 'lleida', 'tarragona', 'mataró', 'sabadell', 'terrassa', 'manresa', 'reus', 'badalona', 'hospitalet', 'granollers', 'igualada', 'vic',
+    'flix', 'móra la nova', 'cerdanyola', 'bsc', 'upc', 'uab', 'urv', 'upf', 'uoc', 'udg', 'udl', 'eurecat', 'i2cat', 'tv3', '3cat', 'marenostrum', 'mare nostrum']]
+];
+const TERRITORIS_RE = TERRITORIS_CATEGORIA.map(([nom, termes]) => [
+  nom,
+  new RegExp(`(?<![\\p{L}\\p{N}])(?:${termes.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})(?![\\p{L}\\p{N}])`, 'giu')
+]);
+// Grafies alternatives que pot escriure el lot: totes acaben en l'etiqueta canònica.
+const CATEGORIES_TERRITORIALS = new Map([
+  ['CATALUNYA', 'CATALUNYA'], ['COMUNITAT VALENCIANA', 'COMUNITAT VALENCIANA'], ['PAÍS VALENCIÀ', 'COMUNITAT VALENCIANA'],
+  ['VALÈNCIA', 'COMUNITAT VALENCIANA'], ['ILLES BALEARS', 'ILLES BALEARS'], ['BALEARS', 'ILLES BALEARS'], ['MALLORCA', 'ILLES BALEARS'],
+  ['ANDORRA', 'ANDORRA'], ['CATALUNYA NORD', 'CATALUNYA NORD']
+]);
+
+function territoriDelText(text) {
+  const net = String(text || '');
+  const punts = TERRITORIS_RE.map(([nom, re]) => {
+    // «Catalunya Nord» no compta també com a «Catalunya».
+    const font = nom === 'CATALUNYA' ? net.replace(/catalunya nord/giu, ' ') : net;
+    return [nom, (font.match(re) || []).length];
+  }).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]);
+  if (!punts.length) return null;
+  if (punts.length > 1 && punts[0][1] === punts[1][1]) return null; // empat: no es decideix
+  return punts[0][0];
+}
+
+// Retorna la categoria que ha de portar la notícia. Si no és territorial, la
+// deixa tal com és. Si ho és, mana el que diuen el titular i l'entradeta; si no
+// decideixen, el cos; i si tampoc, es queda la que ha posat el lot.
+function categoriaTerritorial(story) {
+  const donada = CATEGORIES_TERRITORIALS.get(String(story.category || '').toLocaleUpperCase('ca'));
+  if (!donada) return story.category;
+  return territoriDelText(`${story.title} ${story.excerpt}`)
+    || territoriDelText(story.body)
+    || donada;
 }
 
 function radarCategory(story) {
@@ -1142,6 +1207,90 @@ async function retiraNoticia(options) {
   process.stdout.write(`Retirada «${entrada.title}» (${slug}). Fitxers: ${tocats.join(', ') || 'cap'}.\n`);
 }
 
+// Recategoritza (18.10.2026): aplica categoriaTerritorial a tot el que ja s'ha
+// publicat —edició del dia, hemeroteca, arxiu per edicions i arxiu del radar—
+// sense esperar cap lot nou. Només canvia el camp `category` de les notícies amb
+// categoria territorial; no treu ni afegeix res. Es pot tornar a executar: si no
+// hi ha res a canviar, no escriu cap fitxer.
+async function recategoritza(options) {
+  const publicDir = resolve(options['public-dir'] || '.');
+  const stateDir = resolve(options['state-dir'] || '.content-state');
+  const date = editionDate();
+  const now = new Date().toISOString();
+  const canvis = [];
+  const tocats = [];
+  const corregeix = list => {
+    let canviat = false;
+    for (const story of Array.isArray(list) ? list : []) {
+      if (!story || typeof story !== 'object' || typeof story.category !== 'string') continue;
+      const nova = categoriaTerritorial(story);
+      if (nova !== story.category) {
+        canvis.push(`${story.category} → ${nova}: «${story.title}»`);
+        story.category = nova;
+        canviat = true;
+      }
+    }
+    return canviat;
+  };
+
+  // Edició del dia.
+  const statePath = join(stateDir, 'news-state.json');
+  const state = await readJson(statePath, null);
+  if (state && corregeix(state.items)) {
+    const items = state.items;
+    await backupFile(join(publicDir, 'news.js'), join(stateDir, 'backups'), date);
+    await atomicWrite(statePath, `${JSON.stringify({ ...state, updatedAt: now }, null, 2)}\n`);
+    await atomicWrite(join(publicDir, 'news.js'), serializeAssignment(ASSIGNMENTS.news.variable, items));
+    await atomicWrite(join(publicDir, 'data', 'articles.json'), `${JSON.stringify({ updatedAt: now, items }, null, 2)}\n`);
+    await atomicWrite(join(publicDir, 'content', 'latest.json'), `${JSON.stringify({
+      updatedAt: now,
+      items: items.map(({ category, read, title, excerpt }) => ({ category, read, title, excerpt }))
+    }, null, 2)}\n`);
+    const newsletterPath = join(publicDir, 'data', 'newsletter.json');
+    const newsletter = await readJson(newsletterPath, null);
+    if (newsletter && newsletter.editionDate === state.editionDate) {
+      await atomicWrite(newsletterPath, `${JSON.stringify({ ...newsletter, lead: items[0] || null, stories: items.slice(0, 5) }, null, 2)}\n`);
+      tocats.push('data/newsletter.json');
+    }
+    tocats.push('news.js', 'data/articles.json', 'content/latest.json');
+  }
+
+  // Hemeroteca interna i pública.
+  const archivePath = join(stateDir, 'archive.json');
+  const archive = await readJson(archivePath, null);
+  if (archive && corregeix(archive.items)) {
+    await atomicWrite(archivePath, `${JSON.stringify({ ...archive, updatedAt: now }, null, 2)}\n`);
+    tocats.push('.content-state/archive.json');
+  }
+  const publicArchivePath = join(publicDir, 'data', 'archive.json');
+  const publicArchive = await readJson(publicArchivePath, null);
+  if (Array.isArray(publicArchive) && corregeix(publicArchive)) {
+    await atomicWrite(publicArchivePath, `${JSON.stringify(publicArchive, null, 2)}\n`);
+    tocats.push('data/archive.json');
+  }
+
+  // Arxiu per edicions i arxiu del radar.
+  const arxiuPath = join(publicDir, 'data', 'arxiu.json');
+  const arxiu = await readJson(arxiuPath, null);
+  if (arxiu && Array.isArray(arxiu.editions)) {
+    let canviat = false;
+    for (const edition of arxiu.editions) canviat = corregeix(edition?.items) || canviat;
+    if (canviat) {
+      await atomicWrite(arxiuPath, `${JSON.stringify(arxiu, null, 2)}\n`);
+      tocats.push('data/arxiu.json');
+    }
+  }
+  const radarArxiuPath = join(publicDir, 'data', 'radar-arxiu.json');
+  const radarArxiu = await readJson(radarArxiuPath, null);
+  if (Array.isArray(radarArxiu) && corregeix(radarArxiu)) {
+    await atomicWrite(radarArxiuPath, `${JSON.stringify(radarArxiu, null, 2)}\n`);
+    tocats.push('data/radar-arxiu.json');
+  }
+
+  for (const linia of [...new Set(canvis)]) process.stdout.write(`${linia}\n`);
+  process.stdout.write(`Recategoritzades: ${new Set(canvis).size}. Fitxers: ${tocats.join(', ') || 'cap'}.\n`);
+}
+
 async function validateCommand(options) {
   if (!options.input || !options.type) throw new Error('Falten --input i --type.');
   const text = await readFile(resolve(options.input), 'utf8');
@@ -1160,7 +1309,7 @@ function usage() {
   node content-hub.mjs ingest-daily-reflection --input daily-reflection.json --public-dir .
   node content-hub.mjs validate --type news|analysis|reflection|daily-reflection --input fitxer.json
   node content-hub.mjs pending --what news|daily-reflection --input fitxer.json --public-dir . --state-dir .content-state
-  node content-hub.mjs imatges-recents --state-dir .content-state [--dies 30] [--json]\n  node content-hub.mjs retira --slug <slug> [--motiu "…"] --public-dir public --state-dir .content-state\n`;
+  node content-hub.mjs imatges-recents --state-dir .content-state [--dies 30] [--json]\n  node content-hub.mjs retira --slug <slug> [--motiu "…"] --public-dir public --state-dir .content-state\n  node content-hub.mjs recategoritza --public-dir public --state-dir .content-state\n`;
 }
 
 try {
@@ -1173,6 +1322,7 @@ try {
   else if (command === 'pending') await pendingWork(options);
   else if (command === 'imatges-recents') await imatgesRecents(options);
   else if (command === 'retira') await retiraNoticia(options);
+  else if (command === 'recategoritza') await recategoritza(options);
   else {
     process.stdout.write(usage());
     process.exitCode = command ? 1 : 0;

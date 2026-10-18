@@ -111,7 +111,7 @@ window.IA_NEWS = [
     "image": "./assets/agents-ia-reemborsament-tren-excuses-vals-ai-20261018.jpg"
   },
   {
-    "category": "CATALUNYA",
+    "category": "COMUNITAT VALENCIANA",
     "read": "3 MIN",
     "slug": "altea-guerrer-estela-iberica-avatar-ia-erasmus",
     "title": "Altea fa parlar amb IA el seu guerrer ibèric d'Altea la Vella i en presenta el projecte europeu a Molfetta",

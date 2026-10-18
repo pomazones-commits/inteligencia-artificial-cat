@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, mkdtemp, readFile, writeFile } from 'node:fs/promises';
 import { readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
@@ -1717,4 +1717,60 @@ test('retira: treu una notícia de tots els fitxers generats i la repesca no la 
   assert.ok(!parseAssignment(await readFile(join(root, 'radar.js'), 'utf8')).some(signal => signal.title === items[1].title));
 
   assert.notEqual(run(['retira', '--slug', 'no-existeix', ...base], root).status, 0);
+});
+
+test('la categoria territorial distingeix Catalunya, la Comunitat Valenciana, les Illes Balears i Andorra', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-territori-'));
+  const input = join(root, 'batch.json');
+  const items = Array.from({ length: 7 }, (_, index) => story(index + 1));
+  // Cas real del 18.10.2026: va sortir com a CATALUNYA.
+  Object.assign(items[0], { category: 'CATALUNYA', title: 'Altea fa parlar amb IA el seu guerrer ibèric d\'Altea la Vella i en presenta el projecte europeu a Molfetta', excerpt: 'Un projecte Erasmus+ a la Marina Baixa.', body: 'A la Comunitat Valenciana, el patrimoni arqueològic…' });
+  Object.assign(items[1], { category: 'CATALUNYA', title: 'La UIB presenta un model d\'IA per a la Serra de Tramuntana', excerpt: 'El Govern balear hi col·labora a Mallorca.' });
+  Object.assign(items[2], { category: 'MALLORCA', title: 'Un projecte d\'IA a Menorca', excerpt: 'Ho impulsa el Consell.' });
+  Object.assign(items[3], { category: 'CATALUNYA', title: 'Andorra aprova una llei d\'intel·ligència artificial', excerpt: 'El Consell General la vota per unanimitat.' });
+  // Catalana que diu «en català»: continua sent CATALUNYA.
+  Object.assign(items[4], { category: 'CATALUNYA', title: 'El Govern vol que la IA aprengui en català', excerpt: 'Ho diu el secretari de Telecomunicacions.', body: 'A Barcelona, el secretari…' });
+  // Una notícia valenciana amb categoria temàtica no es toca.
+  Object.assign(items[5], { category: 'CIÈNCIA', title: 'La Universitat de València publica un model d\'IA', excerpt: 'Recerca a València.' });
+  // El lot ja ho havia escrit bé: es respecta, i «País Valencià» passa a «Comunitat Valenciana».
+  Object.assign(items[6], { category: 'País Valencià', title: 'Un ajuntament estrena un assistent d\'IA', excerpt: 'Atén els veïns per WhatsApp.', body: 'El servei municipal…' });
+  await writeFile(input, JSON.stringify(items), 'utf8');
+  const result = run(['ingest-news', '--input', input, '--date', '2026-10-18', '--public-dir', root, '--state-dir', join(root, 'state')], root);
+  assert.equal(result.status, 0, result.stderr);
+  const news = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  const categoria = slug => news.find(item => item.slug === slug).category;
+  assert.equal(categoria('noticia-de-prova-1'), 'COMUNITAT VALENCIANA');
+  assert.equal(categoria('noticia-de-prova-2'), 'ILLES BALEARS');
+  assert.equal(categoria('noticia-de-prova-3'), 'ILLES BALEARS');
+  assert.equal(categoria('noticia-de-prova-4'), 'ANDORRA');
+  assert.equal(categoria('noticia-de-prova-5'), 'CATALUNYA');
+  assert.equal(categoria('noticia-de-prova-6'), 'CIÈNCIA');
+  assert.equal(categoria('noticia-de-prova-7'), 'COMUNITAT VALENCIANA');
+});
+
+test('recategoritza corregeix l\'edició publicada i l\'hemeroteca sense lot nou', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-recat-'));
+  const stateDir = join(root, 'state');
+  const items = Array.from({ length: 5 }, (_, index) => story(index + 1));
+  Object.assign(items[0], { category: 'CATALUNYA', title: 'Altea fa parlar amb IA el seu guerrer ibèric', excerpt: 'Projecte a la Marina Baixa.' });
+  // Estat escrit com abans del canvi (sense passar per la validació nova).
+  await mkdir(join(root, 'data'), { recursive: true });
+  await mkdir(stateDir, { recursive: true });
+  await writeFile(join(stateDir, 'news-state.json'), JSON.stringify({ editionDate: '2026-10-18', batches: 1, items }), 'utf8');
+  await writeFile(join(stateDir, 'archive.json'), JSON.stringify({ items }), 'utf8');
+  await writeFile(join(root, 'data', 'archive.json'), JSON.stringify(items), 'utf8');
+  await writeFile(join(root, 'data', 'arxiu.json'), JSON.stringify({ editions: [{ date: '17.10.2026', items }] }), 'utf8');
+  await writeFile(join(root, 'news.js'), `window.IA_NEWS = ${JSON.stringify(items)};\n`, 'utf8');
+  const base = ['--public-dir', root, '--state-dir', stateDir];
+  const result = run(['recategoritza', ...base], root);
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stdout, /CATALUNYA → COMUNITAT VALENCIANA/);
+  const news = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.equal(news[0].category, 'COMUNITAT VALENCIANA');
+  assert.equal(news[1].category, 'TECNOLOGIA');
+  assert.equal(JSON.parse(await readFile(join(root, 'data', 'archive.json'), 'utf8'))[0].category, 'COMUNITAT VALENCIANA');
+  assert.equal(JSON.parse(await readFile(join(root, 'data', 'arxiu.json'), 'utf8')).editions[0].items[0].category, 'COMUNITAT VALENCIANA');
+  assert.equal(JSON.parse(await readFile(join(stateDir, 'archive.json'), 'utf8')).items[0].category, 'COMUNITAT VALENCIANA');
+  // Segona passada: res a fer.
+  assert.match(run(['recategoritza', ...base], root).stdout, /Recategoritzades: 0/);
 });
