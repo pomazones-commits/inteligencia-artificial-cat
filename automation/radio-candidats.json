@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-18T08:12:34.199Z",
+  "generat": "2026-10-18T12:11:48.372Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 33,
+      "audios": 34,
       "sobre_ia": 0
     },
     {
@@ -177,40 +177,5 @@
       "sobre_ia": 2
     }
   ],
-  "candidats": [
-    {
-      "id": "3cat-1294166",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-18",
-      "durada": "10 min",
-      "titol_original": "Laura Gil: \"La pròxima revolució empresarial no és treballar més ràpid, sinó decidir millor\"",
-      "descripcio_original": "Descobrim l'evolució d'IAmm, hub de dades i intel·ligència artificial, amb Laura Gil, chief digital and data officer de Damm, i Daniel Navarrete, professional procedent de la start-up Nennisiwok. Parlem de com la integració del talent i el coneixement tecnològic d'una start-up en una gran companyia pot generar noves oportunitats d'innovació i de com la intel·ligència artificial contribueix a transformar els processos i l'activitat empresarial.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/laura-gil-la-proxima-revolucio-empresarial-no-es-treballar-mes-rapid-sino-decidi/audio/1294166/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1294166"
-      }
-    },
-    {
-      "id": "3cat-1294167",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-18",
-      "durada": "53 min",
-      "titol_original": "Cristina Aced: \"La IA entra en campanya. Grok tendeix a la dreta i ChatGPT, cap a l'esquerra\"",
-      "descripcio_original": "Amb Cristina Aced, investigadora, consultora i professora de comunicació i intel·ligència artificial, i Roger Cuartielles, investigador i professor especialitzat en verificació, desinformació i intel·ligència artificial, parlem de què passa quan confiem en un assistent d'intel·ligència artificial per interpretar programes electorals i recomanar-nos un candidat. Comptem amb Óscar Alonso Llombart, expert en estratègia i govern de dades i intel·ligència artificial, amb qui descobrim què poden ensenyar les grans bandes de rock sobre lideratge, creativitat i innovació; amb Joan Camp, director de la Catosfera, analitzem l'evolució de l'ecosistema digital català, el futur del català en els sistemes d'IA i els reptes per al periodisme, i amb Laura Gil, chief digital and data officer de Damm, i Daniel Navarrete, de la start-up Nennisiwok, explorem com la integració del talent tecnològic de les start-ups pot impulsar la innovació dins les grans empreses.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.3cat.cat/3cat/cristina-aced-la-ia-entra-en-campanya-grok-tendeix-a-la-dreta-i-chatgpt-cap-a-le/audio/1294167/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1294167"
-      }
-    }
-  ]
+  "candidats": []
 }
