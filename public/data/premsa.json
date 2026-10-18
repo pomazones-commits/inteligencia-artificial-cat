@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-18T12:12:36.947Z",
+ "actualitzat": "2026-10-18T16:13:15.778Z",
  "fonts": 44,
  "articles": [
   {
@@ -2452,17 +2452,6 @@
    "titol": "Reclamar facturas, buscar vuelos y anular suscripciones: la IA que todo el mundo quería tiene cara B",
    "url": "https://www.eldiario.es/tecnologia/reclamar-facturas-buscar-vuelos-anular-suscripciones-ia-mundo-queria-cara-b_1_13571363.html",
    "publicat": "2026-10-11T19:10:58.000Z"
-  },
-  {
-   "id": "6a71a8f14a63",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Claude para novatos: así puedes hacer que la IA trabaje por ti dentro de tus páginas web",
-   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-10-10/claude-para-novatos-asi-puedes-hacer-que-la-ia-trabaje-por-ti-dentro-de-tus-paginas-web.html",
-   "publicat": "2026-10-11T15:30:00.000Z"
   }
  ]
 }
