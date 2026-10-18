@@ -1,1 +1,47 @@
-{"fitxes": [], "descartats": []}
+{
+  "fitxes": [
+    {
+      "id": "rtve-17271363",
+      "emissora": "Ràdio 4",
+      "programa": "Sentit de viure",
+      "programa_url": "https://www.rtve.es/play/audios/sentit-de-viure/",
+      "data": "2026-10-17",
+      "durada": "1 h 0 min",
+      "titol": "Del Can Suris al SeniorLab: el Citilab de Cornellà i la IA",
+      "convidats": [
+        {
+          "nom": "Xavier González",
+          "rol": "director gerent del Citilab (Cornellà de Llobregat)"
+        },
+        {
+          "nom": "Suren Vázquez Maya",
+          "rol": "coordinadora del projecte SeniorLab"
+        },
+        {
+          "nom": "Neus Sevilla Santamaria",
+          "rol": "SeniorLab"
+        },
+        {
+          "nom": "Rosa Garví Polo",
+          "rol": "SeniorLab"
+        },
+        {
+          "nom": "Antonio Martínez del Hoyo",
+          "rol": "president de la comissió d'Advocats Sèniors del Col·legi de l'Advocacia de Barcelona (ICAB)"
+        },
+        {
+          "nom": "Juan Francisco Jiménez",
+          "rol": "doctor en IA i director d'un centre d'innovació tecnològica i intel·ligència artificial"
+        }
+      ],
+      "resum": "El programa dedica l'hora als SeniorLabs, un projecte del Citilab, el laboratori ciutadà de Cornellà de Llobregat que, des del 2007, ocupa l'antiga fàbrica de Can Suris i treballa la innovació social i digital en 4.500 metres quadrats. Hi parlen el director del centre, l'equip del projecte, un representant dels advocats sèniors de l'ICAB i un doctor en IA.",
+      "tema": "societat",
+      "url": "https://www.rtve.es/play/audios/sentit-de-viure/seniorlabs-projecte-global-citilab-revolucio-coneixement-social-digital-ia/17271363/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17271363"
+      }
+    }
+  ],
+  "descartats": []
+}
