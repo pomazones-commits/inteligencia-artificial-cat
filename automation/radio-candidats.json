@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-18T04:13:56.079Z",
+  "generat": "2026-10-18T08:12:34.199Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -172,45 +172,12 @@
       "font": "rtva",
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
-      "estat": "error",
-      "error": "HTTP 403"
+      "estat": "ok",
+      "audios": 400,
+      "sobre_ia": 2
     }
   ],
   "candidats": [
-    {
-      "id": "3cat-1294164",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-18",
-      "durada": "8 min",
-      "titol_original": "\"El sector dels mitjans no és conscient del tsunami que ve\"",
-      "descripcio_original": "Parlem del futur del català en els sistemes d'IA, de com aquesta tecnologia transforma la manera com ens comuniquem, ens informem i treballem, i dels desafiaments que planteja per al futur del periodisme. Xantal Llavina conversa amb Joan Camp, director de la Catosfera, la trobada i observatori de l'evolució d'internet i de l'ecosistema digital català, per analitzar els reptes de la dinovena edició, celebrada a Girona.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/el-sector-dels-mitjans-no-es-conscient-del-tsunami-que-ve/audio/1294164/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1294164"
-      }
-    },
-    {
-      "id": "3cat-1294165",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-18",
-      "durada": "14 min",
-      "titol_original": "El secret perquè un equip funcioni com una gran banda de rock",
-      "descripcio_original": "A través d'exemples de Bruce Springsteen, Queen, David Bowie i els Rolling Stones, entre d'altres, parlem de lideratge, creativitat, disciplina i innovació, i de com construir equips cohesionats, transformar les tensions en energia creativa i atrevir-se a explorar nous camins. Parlem amb Óscar Alonso Llombart, expert en estratègia i govern de dades i intel·ligència artificial, docent universitari i autor del llibre \"Rock, datos e inteligencia artificial\", sobre com les grans bandes de la història de la música poden inspirar noves maneres de treballar amb les dades.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/el-secret-perque-un-equip-funcioni-com-una-gran-banda-de-rock/audio/1294165/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1294165"
-      }
-    },
     {
       "id": "3cat-1294166",
       "emissora": "Catalunya Ràdio",
