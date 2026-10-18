@@ -1,20 +1,7 @@
 {
-  "actualitzat": "2026-10-17",
+  "actualitzat": "2026-10-18",
   "nota": "Imatges oficials dels actes, desades al nostre servidor. Les genera automation/scripts/recull-cartells.mjs: no s'edita a mà.",
   "cartells": {
-    "2026-10-14-medtech-meets-ai-conference": {
-      "imatge": "/assets/cartells/2026-10-14-medtech-meets-ai-conference.jpg",
-      "amplada": 1200,
-      "alcada": 676,
-      "font": "https://i.imgur.com/mUIv2X2.png",
-      "pagina": "https://www.medtechmeetsai.com/",
-      "organitza": "UBIQ Events",
-      "recollit": "2026-10-11"
-    },
-    "2026-10-15-17a-jornada-d-orientacio-professional-a-les-terres-de-lleida": {
-      "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-10-14"
-    },
     "2026-10-15-seminari-sobre-digitalitzacio-en-la-justicia-penal-europea": {
       "imatge": "/assets/cartells/2026-10-15-seminari-sobre-digitalitzacio-en-la-justicia-penal-europea.jpg",
       "amplada": 904,
@@ -22,19 +9,6 @@
       "font": "https://www.icab.cat/export/sites/icab/.galleries/imatges-esdeveniments/Seminari-Digitalisation-in-European-Criminal-Justice.png",
       "pagina": "https://www.icab.es/ca/actualitat/agenda/esdeveniments/Seminari-sobre-Digitalitzacio-en-la-Justicia-Penal-Europea-Places-gratuites-per-a-collegiats-des/",
       "organitza": "Il·lustre Col·legi de l'Advocacia de Barcelona (ICAB), Departament Internacional",
-      "recollit": "2026-10-11"
-    },
-    "2026-10-15-the-end-barcelona": {
-      "error": "no és una imatge JPEG, PNG ni WebP",
-      "provat": "2026-10-14"
-    },
-    "2026-10-15-women-evolution-barcelona-2026": {
-      "imatge": "/assets/cartells/2026-10-15-women-evolution-barcelona-2026.jpg",
-      "amplada": 1200,
-      "alcada": 675,
-      "font": "https://storage.googleapis.com/inscribirme.appspot.com/media/inscribirme/event-324ab9f86574cf61111ca6eb37bc997e-1784199335032474.png",
-      "pagina": "https://www.inscribirme.com/womenevolutionbarcelona2026",
-      "organitza": "Women Evolution",
       "recollit": "2026-10-11"
     },
     "2026-10-16-ix-congreso-internacional-de-inteligencia-artificial": {
