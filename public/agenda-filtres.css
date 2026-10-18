@@ -4,3 +4,9 @@
 .agenda-filtres .xips a[aria-current="page"]{border-color:var(--ed-ink);background:var(--ed-ink);color:#fff}
 #actes-titol small,#conv-titol small{margin-left:10px;color:var(--ed-muted);font:600 11px var(--ed-mono);letter-spacing:.08em;vertical-align:middle}
 .acte__ara{color:#a33127}
+
+/* 18.10.2026: al mòbil (≤600 px) els filtres fan 44 px d'alçada, la mida mínima
+   per tocar-los amb el dit. La tauleta i l'escriptori no canvien. */
+@media (max-width:600px){
+  .agenda-filtres .xips a{display:inline-flex;align-items:center;min-height:44px;font-size:11px}
+}

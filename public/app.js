@@ -273,8 +273,19 @@
       }
       return `<div class="radar-card__thumb radar-card__thumb--lloc" aria-hidden="true"><span>${escapeHTML(item.place || 'Catalunya')}</span></div>`;
     };
-    document.querySelector('#radar-grid').innerHTML = radar.slice(0, 8).map(item => `
-      <a class="radar-card" href="${escapeHTML(item.url || '#')}" ${item.url ? 'target="_blank" rel="noreferrer"' : ''}>
+    // 18.10.2026: les entrades del radar que ja surten a la graella del dia porten
+    // .radar-card--repetida. Només mobil.css les amaga (≤600 px); a la tauleta i a
+    // l'escriptori no canvia res. No es marquen si al radar en quedarien menys de 3.
+    const aLaGraella = new Set();
+    gridNews.forEach(story => {
+      if (story.sourceUrl) aLaGraella.add(`u:${story.sourceUrl}`);
+      if (story.title) aLaGraella.add(`t:${story.title}`);
+    });
+    const radarItems = radar.slice(0, 8);
+    const esRepetida = item => aLaGraella.has(`u:${item.url}`) || aLaGraella.has(`t:${item.title}`);
+    const marcaRepetides = radarItems.filter(item => !esRepetida(item)).length >= 3;
+    document.querySelector('#radar-grid').innerHTML = radarItems.map(item => `
+      <a class="radar-card${marcaRepetides && esRepetida(item) ? ' radar-card--repetida' : ''}" href="${escapeHTML(item.url || '#')}" ${item.url ? 'target="_blank" rel="noreferrer"' : ''}>
         ${radarThumb(item)}
         <p class="radar-card__place"><span>${escapeHTML(item.place)} · ${escapeHTML(item.category)}</span><span>${escapeHTML(item.date)}</span></p>
         <h3>${escapeHTML(item.title)}</h3>

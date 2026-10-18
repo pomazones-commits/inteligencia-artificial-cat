@@ -151,7 +151,7 @@ iacat_capcalera([
     'descripcio' => 'Tots els actes sobre intel·ligència artificial a Catalunya, la Comunitat Valenciana, les Illes Balears, Andorra i la Catalunya Nord: congressos, jornades, hackatons, trobades, cursos i convocatòries, revisats cada setmana.',
     'cami' => '/agenda',
     'molla' => 'Agenda',
-    'css' => ['/agenda-filtres.css?v=2026101001'],
+    'css' => ['/agenda-filtres.css?v=2026101801'],
     'jsonld' => ['@context' => 'https://schema.org', '@graph' => array_merge(
         [['@type' => 'CollectionPage', 'name' => 'Agenda de la IA a Catalunya', 'url' => IACAT_BASE . '/agenda', 'inLanguage' => 'ca']], $events)],
 ]);

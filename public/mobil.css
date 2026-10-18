@@ -1,0 +1,106 @@
+/* ——— Portada al mòbil (18.10.2026) ———
+   Full propi, carregat l'últim a index.html. TOT el que hi ha aquí és dins de
+   @media (max-width: 600px): només afecta els telèfons. La tauleta (601 px o més)
+   i l'escriptori queden exactament com estaven (decisió d'en Rafael: la versió
+   de tauleta li agrada i no s'ha de tocar).
+
+   Què fa:
+   1. «Totes les notícies d'avui» i el radar en format llista compacta
+      (miniatura a l'esquerra, titular a la dreta, sense entradeta). Abans la
+      graella feia 12 pantalles i el radar gairebé 5.
+   2. Capçalera una mica més curta perquè la imatge del dia entri abans.
+   3. Etiquetes de 8-10 px pujades a 11 px.
+   4. Zones de toc de 44 px (punts dels carrussels, fletxes, barra superior).
+   5. El cartell inactiu de l'agenda ja no sobresurt 11 px pel costat dret.
+   6. Les notícies del radar que ja surten a la graella s'amaguen (classe
+      .radar-card--repetida, la posa app.js).
+   Per desfer-ho tot: treure el <link> de mobil.css d'index.html. */
+
+@media (max-width: 600px) {
+
+  /* 1a. Graella de notícies en llista compacta */
+  .news-grid { gap: 10px; }
+  .news-card,
+  .news-card:first-child,
+  .news-card:nth-child(2),
+  .news-grid .news-card--mig,
+  .news-grid .news-card--ple,
+  .news-grid .news-card--senar-final { grid-column: 1/-1; min-height: 0; padding: 12px; border-radius: 18px; }
+  .news-card:hover { transform: none; box-shadow: none; }
+  .news-card > a {
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    column-gap: 14px;
+    align-items: start;
+  }
+  .news-card > a:not(:has(.news-card__image)) { grid-template-columns: minmax(0, 1fr); }
+  .news-card__image { grid-row: 1 / 3; width: 96px; height: 96px; aspect-ratio: auto; margin: 0; border-radius: 12px; }
+  .news-card__image img { width: 100%; height: 100%; }
+  .news-card .story-meta { margin: 2px 0 6px; }
+  .news-card h3 { font-size: 17px; line-height: 1.18; letter-spacing: -.02em; }
+  .news-card > a > p:last-child { display: none; }
+
+  /* 1b. Radar català en llista compacta */
+  .radar-grid { gap: 10px; }
+  .radar-card {
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    column-gap: 14px;
+    align-items: start;
+    padding: 12px;
+    border-radius: 18px;
+  }
+  .radar-card:hover { transform: none; box-shadow: none; }
+  .radar-card__thumb { grid-row: 1 / 3; width: 96px; height: 96px; aspect-ratio: auto; margin: 0; border-radius: 12px; }
+  .radar-card__thumb--lloc { padding: 10px; }
+  .radar-card__thumb--lloc span { font-size: 18px; }
+  .radar-card__place { flex-wrap: wrap; gap: 2px 8px; margin: 2px 0 6px; }
+  .radar-card h3 { margin: 0; font-size: 17px; line-height: 1.18; letter-spacing: -.02em; }
+  .radar-card > p:last-child { display: none; }
+  .radar-card--repetida { display: none; }
+
+  /* 2. Capçalera més curta */
+  .edition-heading { padding-block: 26px 40px; }
+  .edition-heading h1 { font-size: 56px; }
+  .edition-kicker { border-radius: 14px; line-height: 1.5; }
+
+  /* 3. Etiquetes llegibles (mínim 11 px). !important perquè algunes regles
+     originals són més específiques o van en estil en línia. */
+  .edition-kicker, .edition-kicker span, .eyebrow, .story-meta, .story-number, .story-cta,
+  .carousel-actions span, .section-heading > p, .radar-territoris, .radar-card__place span,
+  .daily-visual__date, #daily-visual-kicker, .daily-visual small,
+  .premsa-cap__eti, .premsa-peca__meta, .premsa-peca__meta span, .premsa-peca__meta strong, .premsa-peca__meta time,
+  .radio-peca__qui span,
+  .cartell-poster__compte, .cartell-poster__tipus, .cartell-poster__xips span, .cartell-poster__fitxa dt,
+  .cartell-propers__eti, .cartell-propers time,
+  .reflexio-byline, .reflexio-links a, .reflexio-links a span, .reflexio-senyals__label,
+  .tribuna-byline, .tribuna-byline a, .tribuna-copy > a, .tribuna-copy > a span,
+  .estudis-byline, .estudis-links a, .estudis-links a span,
+  .analysis-copy > a, .analysis-copy > a span,
+  .tools-card > a, .tools-card > a span, .tool-tags span, .weekly-card .text-button, .weekly-card .text-button span,
+  .interest-label, .interest-links a,
+  .footer-legal, .footer-legal a, .site-footer .shell > span, .footer-grid strong,
+  .entitats-peu__etiqueta, .entitat-peu__crida, .xarxes-peu__etiqueta { font-size: 11px !important; }
+
+  /* 4. Zones de toc de 44 px */
+  .interest-bar__inner { min-height: 40px; }
+  .interest-links a { display: inline-flex; align-items: center; min-height: 40px; }
+  .carousel-progress button { height: 44px; }
+  .carousel-progress button::before,
+  .carousel-progress button::after { top: 20px; }
+  .carousel-actions button { width: 44px; height: 44px; }
+  .cartell-ctrl { width: 44px; height: 44px; }
+  /* El punt visible és el ::before; el botó sencer (44 px d'alçada) és la zona de toc. */
+  .cartell-punts { gap: 0; }
+  .cartell-punt, .cartell-punt.is-active { position: relative; width: 20px; height: 44px; background: transparent; }
+  .cartell-punt.is-active { width: 38px; }
+  .cartell-punt::before { content: ""; position: absolute; top: 17px; right: 5px; left: 5px; height: 10px; border-radius: 999px; background: #c9cee0; transition: background .3s ease; }
+  .cartell-punt.is-active::before { background: var(--ink); }
+  .cartell-enllac { display: inline-flex; align-items: center; min-height: 44px; border-bottom: 0; text-decoration: underline; text-underline-offset: 4px; }
+
+  /* 5. El cartell inactiu no sobresurt pel costat dret */
+  .cartell-diapo { transform: scale(.985); }
+  .cartell-diapo.is-active { transform: none; }
+}
