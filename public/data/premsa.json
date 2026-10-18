@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-18T04:13:34.722Z",
+ "actualitzat": "2026-10-18T08:13:07.774Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "6b5b2dd2a2ec",
+   "mitja": "Nació Digital",
+   "font": "naciodigital-totes",
+   "icona": "/assets/premsa/nacio-digital.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "«Manresa Futur» debatrà a la Torre Busquet el repte de la indústria, el talent i la IA",
+   "url": "https://naciodigital.cat/manresa/economia-i-empresa/manresa-futur-debatra-a-la-torre-busquet-el-repte-de-la-industria-el-talent-i-la-ia.html",
+   "publicat": "2026-10-18T07:22:22.000Z"
+  },
+  {
+   "id": "734fa7bfab7d",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA en el mundo de la empresa: ¿solución o amenaza?",
+   "url": "https://www.diariodemallorca.es/economia/2026/10/18/ia-mundo-empresa-solucion-o-135456499.html",
+   "publicat": "2026-10-18T06:00:42.000Z"
+  },
+  {
+   "id": "e5c24f6a4804",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Seis formas de utilizar la IA para estudiar en la ESO: \"No le pidas que resuelva los problemas de Matemáticas, sino que te ayude a entenderlos\"",
+   "url": "https://www.elperiodico.com/es/sociedad/20261018/como-utilizar-bien-la-inteligencia-artificial-para-estudiar-aprender-mejor-135414515",
+   "publicat": "2026-10-18T06:00:35.000Z"
+  },
+  {
+   "id": "be3b2bdadb1f",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La intel·ligència artificial canviarà els impostos",
+   "url": "https://empreses.ara.cat/opinio/intel-ligencia-artificial-canviara-impostos_129_5879216.html",
+   "publicat": "2026-10-18T05:55:11.000Z"
+  },
+  {
+   "id": "e05141d375b9",
+   "mitja": "Diari de Terrassa",
+   "font": "diarideterrassa",
+   "icona": "/assets/premsa/diari-de-terrassa.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA impulsa les borses",
+   "url": "https://www.diarideterrassa.com/economia/la-ia-impulsa-les-borses.html",
+   "publicat": "2026-10-18T05:00:02.000Z"
+  },
+  {
+   "id": "a6425ae5d737",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De automatizar facturas a responder consultas en cualquier idioma: así ayuda la IA a las pymes a ahorrar tiempo, reducir errores y captar clientes",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261018/11653591/automatizar-facturas-responder-consultas-idioma-asi-ayuda-ia-pymes-ahorrar-reducir-errores-captar-clientes.html",
+   "publicat": "2026-10-18T04:47:23.000Z"
+  },
   {
    "id": "cda77dedeb8d",
    "mitja": "Cinco Días",
@@ -78,7 +144,9 @@
    "ambit": "catala",
    "titol": "Albert Tort: \"L'objectiu és que la IA sigui capaç d'aprendre en català\"",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/albert-tort-lobjectiu-es-ia-sigui-capac-aprendre-en-catala_1708360_102.html",
-   "publicat": "2026-10-18T03:30:00.000Z"
+   "publicat": "2026-10-18T03:30:00.000Z",
+   "noticia": "tort-ia-catala-aprendre-estrategia-ia-2030",
+   "noticiaTitol": "El secretari de Telecomunicacions Albert Tort vol que la IA «aprengui en català» i no només tradueixi, amb el BSC i el projecte AINA"
   },
   {
    "id": "4dfea555c358",
@@ -2406,17 +2474,6 @@
    "publicat": "2026-10-11T11:11:43.000Z",
    "noticia": "nvidia-negocia-comprar-reflection-ai",
    "noticiaTitol": "Nvidia negocia comprar Reflection AI, la startup d'IA oberta en què ja ha invertit 800 milions de dòlars, segons el «Financial Times»"
-  },
-  {
-   "id": "cf0368b664d3",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Es la IA un nuevo Renacimiento?",
-   "url": "https://www.lavanguardia.com/magazine/lifestyle/20261011/11654091/ia-nuevo-renacimiento.html",
-   "publicat": "2026-10-11T04:55:00.000Z"
   }
  ]
 }
