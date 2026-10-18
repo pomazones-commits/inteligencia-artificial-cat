@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-18T16:13:15.778Z",
+ "actualitzat": "2026-10-18T17:35:08.046Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f793da0aab80",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Europa debat el seu futur en la cursa dels gegants de la IA",
+   "url": "https://www.ara.cat/economia/tecnologia/europa-debat-futur-cursa-dels-gegants-ia_1_5881113.html",
+   "publicat": "2026-10-18T17:00:03.000Z"
+  },
+  {
+   "id": "d1233190cf0c",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alberto Caballero clama contra una parodia viral de 'La que se avecina' hecha con IA: \"Lo detesto\"",
+   "url": "https://www.elperiodico.com/es/tele/yotele/20261018/alberto-caballero-clama-parodia-viral-la-que-se-avecina-ia-135474156",
+   "publicat": "2026-10-18T16:48:57.000Z"
+  },
   {
    "id": "6b5b2dd2a2ec",
    "mitja": "Nació Digital",
