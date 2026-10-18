@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-10-18",
-  "updatedAt": "2026-10-18T04:12:55.462Z",
-  "batches": 1,
+  "updatedAt": "2026-10-18T08:12:33.083Z",
+  "batches": 2,
   "target": 20,
   "items": [
+    {
+      "category": "PRIVACITAT",
+      "read": "4 MIN",
+      "slug": "meta-retira-clausula-rastreig-entrenament-ia",
+      "title": "Meta retira una clàusula dels termes comercials que li permetia fer servir el contingut dels webs d'empreses per entrenar la IA",
+      "excerpt": "Experts en dret hi havien vist un permís obert per rastrejar qualsevol editor amb un compte de Meta Business. L'empresa assegura que no canvia com funcionen els seus rastrejadors.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "sourceDate": "17 d'octubre de 2026",
+      "body": "Quan una empresa obre un compte de Meta per anunciar-se o gestionar la seva pàgina, accepta uns termes comercials. Aquest mes Meta els va actualitzar, i una de les clàusules va despertar recels entre editors de mitjans i juristes, perquè tocava un punt sensible: el dret a fer servir contingut aliè per entrenar models d'intel·ligència artificial.\n\nSegons TechCrunch, el text deia que Meta podia «fer servir qualsevol contingut» dels dominis, de les pàgines web o dels URL del titular del compte per proporcionar, desenvolupar i millorar els seus productes i serveis, també amb finalitats de recerca, d'entrenament i de manteniment de la integritat. Nieman Lab, que va donar la notícia, va recollir l'opinió d'experts en dret que la qualificaven de «disposició extraordinària»: podia permetre a Meta rastrejar qualsevol web d'un editor que tingués compte a Meta i aprofitar-ne el contingut per entrenar els seus models. Dissabte, Meta va retirar aquest llenguatge, segons ha informat The Verge.\n\nAbans de la retirada, un portaveu de Meta havia afirmat que els termes nous no reflectien cap canvi en la manera com l'empresa rastreja la xarxa. Després, l'empresa va dir que les condicions de rastreig «només s'aplicaven als seus productes publicitaris i empresarials», que ho ha aclarit als mateixos termes i que «no canvia com Meta fa servir els rastrejadors web». L'episodi arriba en un moment de molta tensió: Meta va guanyar el juny del 2025 un litigi per entrenar models amb llibres, però hi ha altres causes obertes contra ella i diversos editors la van demandar el maig d'aquest any.\n\nL'abast real de la clàusula no es pot comprovar des de fora: no consta quan es va introduir exactament ni si Meta va arribar a fer servir el permís, i la seva versió és que no canviava res. El que sí que s'ha vist és que, davant la reacció d'editors i juristes, l'empresa va preferir treure el text en lloc de defensar-lo.",
+      "image": "./assets/meta-retira-clausula-rastreig-entrenament-ia-20261018.jpg"
+    },
+    {
+      "category": "MODELS",
+      "read": "4 MIN",
+      "slug": "nvidia-nemotron-3-5-super-vl-obert",
+      "title": "NVIDIA publica Nemotron 3.5 Super VL, un model obert de 120.000 milions de paràmetres per llegir documents, taules i imatges",
+      "excerpt": "Amb un ajustament posterior a cada tasca, NVIDIA diu que supera Claude Opus 5 i GPT-6.1 Sol en proves concretes. Són xifres de la mateixa empresa i no mesuren el model en general.",
+      "sourceName": "VentureBeat",
+      "sourceUrl": "https://venturebeat.com/technology/nvidias-new-open-nemotron-3-5-super-vl-with-post-training-beats-claude-opus-5-gpt-6-1-sol-on-specialized-task-benchmarks",
+      "sourceDate": "15 d'octubre de 2026",
+      "body": "NVIDIA continua apostant per models de pesos oberts que les empreses puguin descarregar i adaptar a les seves dades. Aquesta setmana ha presentat la família Nemotron 3.5, encapçalada per Super VL, un model de 120.000 milions de paràmetres que treballa amb PDF, gràfics, taules, imatges i pàgines web, segueix instruccions i pot fer servir eines.\n\nLa companyia explica que Super VL es pot reentrenar amb les dades de cada organització i executar a la infraestructura que triï. En cinc tasques —lectura de documents, resistència a atacs de seguretat, extracció de dades de tiquets financers, experimentació científica i reclamacions d'assegurances mèdiques— la versió ajustada guanya entre un 9% i un 44%. En les reclamacions mèdiques, l'encert puja d'un 28% a un 72%, mentre que Claude Opus 5 en fa un 38% en la mateixa prova; en resistència a atacs passa d'un 35% a un 76%, davant d'un 66% de GPT-6.1 Sol. NVIDIA afegeix que és fins a cinc vegades més ràpid que un model obert comparable. També presenta Bolt, de 74.000 milions de paràmetres, pensat per treballar en local, i una versió petita de 4 GB que arribarà el 23 d'octubre.\n\nEls pesos de Super VL són a Hugging Face i el model arriba per OpenRouter, ModelScope i NVIDIA NIM. La llicència, OpenMDW, permet l'ús comercial, l'ajustament i la redistribució, però fer-lo servir en producció amb NIM exigeix NVIDIA AI Enterprise, que costa uns 4.500 dòlars per GPU i any. L'empresa diu que també publicarà les receptes d'entrenament i els conjunts de dades.\n\nConvé llegir les xifres amb prudència. Són mesures de NVIDIA i comparen versions ajustades a una tasca amb models generals, de manera que no demostren que Super VL sigui millor en conjunt; l'empresa no ha publicat la definició de les proves ni la mida de les mostres. A l'índex general d'Artificial Analysis, el model queda per sota d'altres models oberts, com GLM-5.3-Flash o Qwen3.8-Flash-Next. La seva fortalesa és la lectura de documents, que aquest índex no recull.",
+      "image": "./assets/nvidia-nemotron-3-5-super-vl-obert-20261018.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "ia-materials-cristalls-3d-narratives-sintetiques",
+      "title": "Un model d'IA que combina l'estructura 3D dels cristalls amb text troba candidats a electròlits sòlids per a bateries de liti",
+      "excerpt": "Investigadors del MIT l'han entrenat amb descripcions sintètiques generades a partir d'articles i bases de dades. Els resultats, publicats a «Nature Communications», no porten xifres d'encert a la nota.",
+      "sourceName": "MIT News",
+      "sourceUrl": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "sourceDate": "18 d'octubre de 2026",
+      "body": "Els models de llenguatge han après a llegir text, però un cristall no és un text: és una disposició d'àtoms repetida en tres dimensions, que es guarda en formats especialitzats. Això fa difícil que una IA «entengui» un material, i la bibliografia experimental, a més, s'ha concentrat en unes poques famílies de cristalls, de manera que els models tendeixen a repetir sempre els mateixos.\n\nUn equip del MIT, amb Yang Jeong Park com a primer autor i els professors Ju Li i Elsa Olivetti entre els signants, proposa una solució que ha publicat a «Nature Communications» sota el títol «Scaling multimodal materials representation learning with synthetic narratives». Han construït un model que uneix la imatge de l'estructura atòmica en 3D amb una descripció en llenguatge natural. Per aconseguir prou parelles, van generar narracions sintètiques a partir d'articles experimentals i de bases de dades de càlculs: cada una descriu la composició, l'estructura, les propietats, el procés de fabricació i les aplicacions possibles. L'entrenament és de tipus contrastiu, és a dir, el model aprèn a apropar les estructures i els textos que van junts i a allunyar els que no.\n\nSegons la nota del MIT, la versió entrenada amb aquestes narracions va aprendre a relacionar la geometria amb el text, i la que només havia vist el text dels articles, no. El model va identificar millors dissenys de materials que els models només textuals, va superar una referència quan se li demanava un cristall amb una propietat concreta i, per a electròlits sòlids de bateries d'ió liti, entre les seves primeres propostes hi havia materials que altres grups ja havien assenyalat de manera independent com a prometedors. Ju Li compara l'impacte potencial amb el que AlphaFold ha tingut en biologia.\n\nCal tenir present què no diu la nota: no dona xifres d'encert ni proves en un ventall ampli de cristalls, i que alguns candidats coincideixin amb troballes d'altres grups és un indici, no una prova que el model descobreixi materials nous. El treball va comptar amb finançament de les agències nord-americanes DTRA i DARPA i de la Fundació Nacional de Recerca de Corea.",
+      "image": "./assets/ia-materials-cristalls-3d-narratives-sintetiques-20261018.jpg"
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "4 MIN",
+      "slug": "tort-ia-catala-aprendre-estrategia-ia-2030",
+      "title": "El secretari de Telecomunicacions Albert Tort vol que la IA «aprengui en català» i no només tradueixi, amb el BSC i el projecte AINA",
+      "excerpt": "En una entrevista a ON-IA, el responsable digital de la Generalitat defensa l'Estratègia IA 2030 i demana més dades obertes perquè un model general respongui igual de bé en català que en anglès.",
+      "sourceName": "El Nacional (ON-IA)",
+      "sourceUrl": "https://www.elnacional.cat/oneconomia/ca/on-ia/albert-tort-lobjectiu-es-ia-sigui-capac-aprendre-en-catala_1708360_102.html",
+      "sourceDate": "18 d'octubre de 2026",
+      "body": "Que un assistent d'intel·ligència artificial entengui el català és una cosa; que hi funcioni igual de bé que en anglès, una altra. Aquest és el repte que Albert Tort, secretari de Telecomunicacions i Transformació Digital de la Generalitat de Catalunya, posa al centre de l'entrevista que ha publicat aquest diumenge El Nacional dins la secció ON-IA.\n\nTort explica que l'objectiu del Govern és que els models aprenguin la llengua i no només facin processos de traducció. Vol que un model d'ús general doni respostes de qualitat equivalent en català i en anglès, cosa que, diu, exigeix més dades obertes i més coneixement disponible. Hi situa la col·laboració amb el Barcelona Supercomputing Center i el projecte AINA, que qualifica de «vital» per construir recursos d'IA en català. Pel que fa a l'administració, descriu l'Estratègia IA 2030, que ha de fixar un marc comú per a l'administració i el país, impulsar-ne l'adopció i protegir la ciutadania, i diu que el web de la Generalitat ja té un camp de text amb IA on la persona explica què necessita i rep els enllaços als tràmits corresponents.\n\nL'entrevistat també distingeix dos terrenys: la IA de productivitat general, que veu com una eina de feina quotidiana, i els models experimentals de frontera, que al seu parer requereixen una governança i uns controls més estrictes.\n\nL'entrevista és una declaració d'intencions, no un balanç: no inclou xifres de pressupost, de volum de dades ni de calendari, i no es poden comprovar encara els resultats de l'estratègia. És, en tot cas, una indicació de les prioritats de l'administració en un moment en què el català competeix per ser una llengua amb presència real en els models comercials.",
+      "image": "./assets/tort-ia-catala-aprendre-estrategia-ia-2030-20261018.jpg"
+    },
+    {
+      "category": "MODELS",
+      "read": "4 MIN",
+      "slug": "flux-3-image-klein-pesos-oberts",
+      "title": "Black Forest Labs obre els pesos de FLUX 3 Image Klein, un generador d'imatges de 5.600 milions de paràmetres que funciona en un ordinador domèstic",
+      "excerpt": "La llicència permet l'ús comercial gratuït només a empreses i particulars que facturin menys de 5 milions de dòlars l'any. Les comparacions de qualitat són de la mateixa empresa.",
+      "sourceName": "VentureBeat",
+      "sourceUrl": "https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses",
+      "sourceDate": "15 d'octubre de 2026",
+      "body": "Generar imatges d'alta resolució sense dependre d'un servei al núvol és cada cop més viable. Black Forest Labs, l'empresa alemanya darrere de la família FLUX, ha obert els pesos de FLUX 3 Image Klein, un model de 5.600 milions de paràmetres per crear, editar i personalitzar imatges en maquinari local.\n\nEl model ofereix sortida nativa en 4K, controls espacials a partir d'imatges de referència, edició i col·locació d'elements amb quadres delimitadors. Els pesos es poden descarregar en versió base, en versió destil·lada (amb menys passos i menys latència) i en formats comprimits FP8, NVFP4 i INT8. L'empresa diu que funciona en targetes gràfiques domèstiques i portàtils amb «només 8 GB» de memòria de vídeo. Segons les seves dades, en una RTX 5090 amb la versió destil·lada genera una imatge d'1024×1024 en 4,1 segons i en triga 7,2 a editar-la; en una RTX 4070 en triga 8,9. Funciona amb ComfyUI, Hugging Face Diffusers i altres eines.\n\nLa llicència, FLUX Kommunity, autoritza l'ús comercial gratuït a particulars i empreses amb ingressos anuals inferiors a 5 milions de dòlars; les més grans necessiten un acord a part per allotjar-lo o han de fer servir l'API, que costa 0,009 dòlars per imatge d'un megapíxel. És més restrictiva que la d'alguns models anteriors de la competència.\n\nCal llegir-ho amb cautela: els gràfics de preferència comparen Klein amb Qwen-Image 2.1, Ideogram 4.5 o Krea 2, però no expliquen les consignes, els jutges ni la mida de la mostra, i no hi surten GPT Image 2.5 ni Nano Banana 2.1. La xifra dels 8 GB no està lligada a cap variant ni mida de sortida concreta, i no s'ha provat en 4K.",
+      "image": "./assets/flux-3-image-klein-pesos-oberts-20261018.jpg"
+    },
     {
       "category": "REGULACIÓ",
       "read": "5 MIN",
