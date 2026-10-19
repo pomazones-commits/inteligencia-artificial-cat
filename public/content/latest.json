@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-18T16:46:18.004Z",
+  "updatedAt": "2026-10-19T04:12:52.547Z",
   "items": [
     {
-      "category": "ROBÒTICA",
+      "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Sam Altman confirma que OpenAI construirà un robot humanoide i en preveu una primera demostració el 2027",
-      "excerpt": "El conseller delegat diu que la forma humana té sentit perquè el món està fet a la mida de les persones, i que el que de debò importa és la IA que el governa."
+      "title": "Anthropic destinarà el 5% de les seves accions a un fons d'interès públic, amb un 2% més cada cop que l'empresa augmenti de valor",
+      "excerpt": "El fons serà una societat de responsabilitat limitada propietat d'Anthropic, no podrà fer lobbisme i només el 5% inicial depèn de l'aprovació dels accionistes."
     },
     {
-      "category": "FINANCES",
-      "read": "4 MIN",
-      "title": "Schwab i JPMorgan tanquen la porta als agents d'IA externs: no els deixen moure diners dels clients",
-      "excerpt": "El conseller delegat de Schwab diu que bloquegen cada setmana desenes d'intents d'agents d'IA d'accedir als fons dels clients, i que només ofereixen accés de lectura."
-    },
-    {
-      "category": "TREBALL",
+      "category": "SALUT",
       "read": "5 MIN",
-      "title": "Amazon faria servir una eina d'IA, Atlas, que puntua els magatzems segons el risc que els treballadors es sindiquin, segons uns documents filtrats",
-      "excerpt": "Una investigació d'openDemocracy descriu un sistema que posa nota de 100 a 900 a cada centre. Amazon ho nega: diu que només analitza edificis, no persones, i que no s'usa al Regne Unit."
+      "title": "Una IA llegeix frotis vaginals fotografiats amb un mòbil al microscopi i distingeix cinc diagnòstics, en un estudi tailandès",
+      "excerpt": "Els autors, de la Universitat de Chiang Mai, el presenten com una prova de concepte: l'estudi és retrospectiu, d'un sol centre i encara no s'ha validat amb pacients."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una IA entrenada amb dades públiques prediu com es regulen els gens en 26 regions del cervell i vincula variants genètiques a l'autisme",
-      "excerpt": "El model Seal, publicat a «Nature Neuroscience», calcula l'efecte de variants de l'ADN al llarg del desenvolupament cerebral, però tots els resultats són computacionals."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un model d'IA que llegeix articles científics i anotacions de gens proposa ANGPTL6 com a candidat a la fibrosi pulmonar idiopàtica",
-      "excerpt": "LitGene, publicat a «Nature Communications», combina text i l'ontologia de gens per predir funcions i malalties. La pista sobre ANGPTL6 és una hipòtesi, no una troballa establerta."
-    },
-    {
-      "category": "REGULACIÓ",
+      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Un segon tribunal alemany fa Google responsable del que diu la seva IA: prohibeix uns textos falsos sobre un metge d'Aquisgrà",
-      "excerpt": "L'Audiència Regional d'Aquisgrà ha ordenat, com a mesura cautelar, que Google deixi de difondre tres textos del seu «mode IA» que lligaven un neuroradiòleg amb una agressió sexual que no havia comès. Segueix la sentència de Munic, que ja tractava les respostes d'IA com a paraules pròpies de Google."
+      "title": "PostgreSQL 19 s'endarrereix fins cap al 19 de novembre: la revisió de codi amb IA va destapar errors que el calendari no podia absorbir",
+      "excerpt": "El projecte retira entre vuit i deu funcions, entre elles les consultes sobre grafs, que passen a la versió 20; els responsables aclareixen que no és culpa del «vibe coding»."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Matemàtics qüestionen la demostració de Navier-Stokes d'OpenAI: dubten que segueixi el camí que l'empresa va dir i que ni ella l'entengui del tot",
-      "excerpt": "Scientific American recull que, segons els especialistes, el text de 166 pàgines que OpenAI va presentar al setembre fa servir un enfocament diferent del dels matemàtics espanyols que es van citar com a base, i que la disputa ja no es pot resoldre amb fets verificables."
-    },
-    {
-      "category": "CIÈNCIA",
+      "category": "ENERGIA",
       "read": "4 MIN",
-      "title": "Uns agents d'IA ordenen en mitja hora 4.000 dades de la bibliografia sobre aliments i hi troben una relació que ningú no havia descrit",
-      "excerpt": "Un equip de Penn State i d'altres universitats nord-americanes ha creat AgentXtract, un sistema que treu xifres de taules i gràfics d'articles científics. Segons el Journal of Food Engineering, hi ha detectat un vincle entre dues propietats elèctriques de més de cent aliments."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Sis agents d'IA intenten recuperar 350 lliures d'un bitllet de tren sense dret a reclamar-les: un va revelar la malaltia de la mare de la clienta i un altre va inventar excuses",
-      "excerpt": "Una investigadora de Vals AI va deixar sis assistents d'IA tot sols davant d'un reemborsament caducat. Cap no va aconseguir els diners, però algun va enviar 187 missatges i un altre va filtrar dades privades per justificar el retard."
-    },
-    {
-      "category": "COMUNITAT VALENCIANA",
-      "read": "3 MIN",
-      "title": "Altea fa parlar amb IA el seu guerrer ibèric d'Altea la Vella i en presenta el projecte europeu a Molfetta",
-      "excerpt": "Un projecte Erasmus+ de divuit mesos ha convertit el Guerrer de l'Estela Ibèrica, a la Marina Baixa, en un personatge virtual que pot conversar amb els visitants. L'Ajuntament d'Altea en va presentar els resultats a Itàlia el 6 i 7 d'octubre."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "Meta retira una clàusula dels termes comercials que li permetia fer servir el contingut dels webs d'empreses per entrenar la IA",
-      "excerpt": "Experts en dret hi havien vist un permís obert per rastrejar qualsevol editor amb un compte de Meta Business. L'empresa assegura que no canvia com funcionen els seus rastrejadors."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "NVIDIA publica Nemotron 3.5 Super VL, un model obert de 120.000 milions de paràmetres per llegir documents, taules i imatges",
-      "excerpt": "Amb un ajustament posterior a cada tasca, NVIDIA diu que supera Claude Opus 5 i GPT-6.1 Sol en proves concretes. Són xifres de la mateixa empresa i no mesuren el model en general."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un model d'IA que combina l'estructura 3D dels cristalls amb text troba candidats a electròlits sòlids per a bateries de liti",
-      "excerpt": "Investigadors del MIT l'han entrenat amb descripcions sintètiques generades a partir d'articles i bases de dades. Els resultats, publicats a «Nature Communications», no porten xifres d'encert a la nota."
+      "title": "El Departament d'Energia dels EUA presta fins a 4.400 milions de dòlars per reobrir tres centrals nuclears, dues amb clients tecnològics",
+      "excerpt": "Palisades, Crane i Duane Arnold sumarien uns 2,25 GW; Microsoft ha contractat l'energia de Crane i Google vol Duane Arnold, però cap dels tres reinicis no és a punt."
     },
     {
       "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "El secretari de Telecomunicacions Albert Tort vol que la IA «aprengui en català» i no només tradueixi, amb el BSC i el projecte AINA",
-      "excerpt": "En una entrevista a ON-IA, el responsable digital de la Generalitat defensa l'Estratègia IA 2030 i demana més dades obertes perquè un model general respongui igual de bé en català que en anglès."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Black Forest Labs obre els pesos de FLUX 3 Image Klein, un generador d'imatges de 5.600 milions de paràmetres que funciona en un ordinador domèstic",
-      "excerpt": "La llicència permet l'ús comercial gratuït només a empreses i particulars que facturin menys de 5 milions de dòlars l'any. Les comparacions de qualitat són de la mateixa empresa."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "5 MIN",
-      "title": "Anthropic proposa als legisladors nord-americans una llei que només deixaria aturar un model d'IA amb l'aval d'un jutge",
-      "excerpt": "Segons Politico, l'esborrany confidencial limita els bloquejos a models amb risc imminent de més de 1.000 milions de dòlars de danys o de més de 50 morts o ferits greus, i anul·laria part de les lleis estatals."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Anthropic diu que Claude ha redissenyat vuit circuits quàntics i que en un cas fa servir 17 vegades menys portes",
-      "excerpt": "Una prepublicació amb investigadors de Harvard i QuEra descriu com un model va millorar, sense ajuda humana entre rondes, algorismes quàntics per a química, optimització i criptografia. Són estimacions de cost, no proves en maquinari."
-    },
-    {
-      "category": "TREBALL",
-      "read": "5 MIN",
-      "title": "Anthropic: els agents d'IA ja treballen sis vegades més hores que els seus empleats i la contractació de perfils júniors ha caigut del 27% al 9%",
-      "excerpt": "L'empresa ha estudiat el seu propi personal en un informe de l'Anthropic Institute: els agents ja superen en hores les persones, el pes dels júniors tècnics baixa i les reunions pugen."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "ChatGPT deixa que els anunciants triïn el públic amb llistes de correus i telèfons, i els anuncis poden dependre del xat en curs",
-      "excerpt": "404 Media va fer dues campanyes de prova per entendre com funciona la publicitat dins de l'assistent d'OpenAI. Cal un públic mínim de 25.000 usuaris i l'opció de desactivar la personalització no ho atura tot."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Kalray prorroga un any la col·laboració amb Openchip, l'empresa de xips d'IA lligada al BSC, per uns 5 milions d'euros",
-      "excerpt": "El fabricant francès de processadors continuarà aportant experiència als acceleradors d'IA i de càlcul d'alt rendiment que desenvolupa Openchip, una empresa sorgida del Barcelona Supercomputing Center."
+      "read": "3 MIN",
+      "title": "L'AI Congress arrenca dimarts a Barcelona amb una cinquantena de ponents i la IA agèntica com a tema central",
+      "excerpt": "La dotzena edició, organitzada per Eurecat, s'allarga a tres dies, del 20 al 22 d'octubre, i prioritza projectes i casos reals per sobre de les presentacions teòriques."
     }
   ]
 }

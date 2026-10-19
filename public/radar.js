@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "19.10.2026",
+    "title": "L'AI Congress arrenca dimarts a Barcelona amb una cinquantena de ponents i la IA agèntica com a tema central",
+    "summary": "La dotzena edició, organitzada per Eurecat, s'allarga a tres dies, del 20 al 22 d'octubre, i prioritza projectes i casos reals per sobre de les presentacions teòriques.",
+    "detail": "L'AI Congress de Barcelona arriba aquest any a la dotzena edició i, per primera vegada, s'allarga a tres dies: del 20 al 22 d'octubre de 2026, a l'Auditori de L'illa. L'organitza Eurecat a través del seu centre CIDAI, dins de l'estratègia Catalonia.AI 2030 que impulsa el Govern, i hi col·laboren l'Ajuntament de Barcelona, el Barcelona Supercomputing Center, el Centre de Visió per Computador, la Fundació i2CAT i el centre IDEAI de la UPC.\n\nEl programa reuneix una cinquantena de veus expertes escollides entre més d'un centenar de propostes. Segons Joan Mas, director del congrés i director científic de l'àrea digital d'Eurecat, aquesta edició ha volgut «donar un protagonisme especial als projectes i casos reals». Entre els ponents hi ha Ariadna Font, cofundadora i consellera delegada d'ALINIA AI; Jezabel R. García, directora científica d'IA de Multiverse Computing; Pooja Munshi, fins fa poc responsable de la plataforma de dades del Programa de les Nacions Unides per al Medi Ambient; i Meritxell Borràs, directora de l'Autoritat Catalana de Protecció de Dades.\n\nEl primer dia és d'estratègia i tendències: la implantació de la IA generativa a les empreses, la IA agèntica i una sessió sobre espais de dades de mobilitat urbana basada en el projecte DeployEMDS, que s'assaja a Barcelona amb l'ATM, l'AMB, i2CAT i Eurecat. El segon se centra en tecnologia i desenvolupament: sistemes d'agents i multiagent, com governar-ne la proliferació sense frenar la innovació, i l'avaluació ètica i jurídica dels sistemes. El tercer és de casos d'aplicació, entre ells la gestió de l'aigua, els continguts audiovisuals, el desenvolupament de programari i les dades sintètiques per a salut i mobilitat.\n\nLa informació prové del programa i de la nota de premsa d'Eurecat, que és de setembre; el contingut real de les ponències es coneixerà quan el congrés es faci. Els patrocinadors, entre ells CaixaBank Tech, Orange, Conversia i Laboral Kutxa, hi tenen interès comercial, i el programa és l'oferta de l'organitzador, no una avaluació independent de cap projecte.",
+    "source": "Eurecat",
+    "url": "https://eurecat.org/supervisio-humana-ia-seguretat-sobirania-tecnologica-i-sostenibilitat-claus-ai-congress/",
+    "image": "./assets/ai-congress-barcelona-2026-dotzena-edicio-20261019.jpg",
+    "slug": "ai-congress-barcelona-2026-dotzena-edicio"
+  },
+  {
     "place": "Comunitat Valenciana",
     "category": "IA I SOCIETAT",
     "date": "18.10.2026",
@@ -85,17 +97,5 @@ window.IA_RADAR = [
     "url": "https://www.elnacional.cat/oneconomia/ca/empreses/ingroup-compra-actius-bcn3d-fabricara-impressores-3d-ia-integrada_1710106_102.html",
     "image": "./assets/ingroup-bcn3d-impressores-3d-ia-lleida-20261016.jpg",
     "slug": "ingroup-bcn3d-impressores-3d-ia-lleida"
-  },
-  {
-    "place": "Sabadell",
-    "category": "IA I SOCIETAT",
-    "date": "16.10.2026",
-    "title": "Banc Sabadell farà servir la plataforma d'agents d'IA de T-Systems i diu que així no dependrà d'un sol proveïdor de models",
-    "summary": "L'acord amb la filial de Deutsche Telekom vol permetre que el banc estengui els agents d'IA a més processos i entitats del grup amb un mateix marc de seguretat. El comunicat no n'explica ni l'import, ni els terminis, ni els casos d'ús.",
-    "detail": "Els bancs fa temps que proven assistents d'IA en àrees concretes, però el pas següent és posar-hi ordre: com es creen, se supervisen i s'estenen els agents que fan tasques pel seu compte dins d'una entitat regulada. Banc Sabadell, que dona servei a set milions de clients i és, segons el comunicat, el quart grup bancari d'Espanya, ha tancat un acord amb T-Systems, la divisió de serveis digitals del grup Deutsche Telekom, per afrontar-ho.\n\nSegons el comunicat difós el 15 d'octubre, el banc farà servir la plataforma d'IA agèntica de T-Systems, que l'empresa presenta com a desenvolupada a Europa per a empreses europees. Els primers casos d'ús es podran estendre a nous processos i a altres entitats del grup amb un marc comú de seguretat, governança i supervisió. La plataforma, d'arquitectura oberta i modular, està pensada per gestionar agents creats amb tecnologies i models diferents i connectar-los amb els sistemes corporatius, i admet un núvol sobirà.\n\nEl missatge de fons és la independència: Rüdiger Schmidt, director de tecnologia de Banc Sabadell, destaca que la solució permet incorporar noves capacitats d'agents sense lligar-se als models d'IA del mercat. Per al banc, la promesa és poder llançar iniciatives noves sense construir des de zero les capacitats per portar-les a producció. Que una entitat amb arrels a Sabadell i a Alacant posi l'accent en la sobirania tecnològica enllaça amb un debat europeu més ampli sobre la dependència dels proveïdors nord-americans.\n\nCal tenir present que es tracta d'un comunicat d'empresa, de to promocional i no verificat de manera independent. No s'hi donen imports, terminis, nombre de casos d'ús ni els models concrets que s'hi faran servir, ni s'explica quins processos s'automatitzaran primer. Fins que el banc no n'expliqui els resultats, l'acord és una declaració d'intencions amb una arquitectura, no una prova d'estalvis ni de millors serveis per als clients.",
-    "source": "Servimedia (comunicat d'empresa, a Última Hora)",
-    "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/10/15/2729545/banco-sabadell-systems-sellan-acuerdo-para-adopcion-agentica-escala-soberania-tecnologica.html",
-    "image": "./assets/banc-sabadell-t-systems-plataforma-agents-ia-sobirania-20261016.jpg",
-    "slug": "banc-sabadell-t-systems-plataforma-agents-ia-sobirania"
   }
 ];
