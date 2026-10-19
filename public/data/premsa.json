@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-19T12:14:18.502Z",
+ "actualitzat": "2026-10-19T16:25:13.486Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "205f94999547",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El projecte Emma impulsa noves línies de recerca amb IA per millorar el pronòstic del càncer de mama",
+   "url": "https://www.diaridetarragona.com/ebre/273489/projecte-emma-impulsa-noves-linies-recerca-amb-ia-per-millorar-pronostic-cancer-mama.html",
+   "publicat": "2026-10-19T15:55:51.000Z"
+  },
+  {
+   "id": "0d4ca09fefc9",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Policia i Interpol informen del perill de les noves estafes amb IA",
+   "url": "https://www.elnacional.cat/ca/tecnologia/policia-interpol-informen-perill-noves-estafes-ia_1711756_102.html",
+   "publicat": "2026-10-19T15:00:00.000Z"
+  },
+  {
+   "id": "b316d28c8fb2",
+   "mitja": "Nació Digital",
+   "font": "naciodigital-totes",
+   "icona": "/assets/premsa/nacio-digital.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La Catosfera tanca una nova edició amb una reflexió sobre la comunicació en l’era de la IA",
+   "url": "https://naciodigital.cat/next/tecnologia/la-catosfera-tanca-una-nova-edicio-reflexionant-sobre-el-futur-de-la-comunicacio-en-lera-de-la-ia.html",
+   "publicat": "2026-10-19T14:43:00.000Z"
+  },
+  {
+   "id": "c2f88f081cd5",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alcoy - El Comtat | Focus Pyme ofrece en Alcoy claves para cerrar ventas y herramientas de IA para aumentar la facturación",
+   "url": "https://alicanteplaza.es/alicanteplaza/alcoy-el-comtat/focus-pyme-ofrece-en-alcoy-claves-para-cerrar-ventas-y-herramientas-de-ia-para-aumentar-la-facturacion",
+   "publicat": "2026-10-19T14:00:05.000Z"
+  },
+  {
+   "id": "c2eb23f75cbb",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una canción puede convertirse en una orden secreta para los asistentes de IA",
+   "url": "https://www.levante-emv.com/tendencias21/2026/10/19/cancion-convertirse-orden-secreta-asistentes-135503609.html",
+   "publicat": "2026-10-19T13:24:49.000Z"
+  },
+  {
+   "id": "11b14072407c",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "BBVA reúne a empresarios de toda España para analizar las perspectivas económicas y el impacto de la inteligencia artificial",
+   "url": "https://www.informacion.es/economia/2026/10/19/bbva-reune-empresarios-espana-analizar-135501141.html",
+   "publicat": "2026-10-19T13:08:44.000Z"
+  },
+  {
+   "id": "dea1a03559ed",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Sanidad incorpora la inteligencia artificial como apoyo en la lectura de las mamografías",
+   "url": "https://www.informacion.es/alicante/2026/10/19/sanidad-incorpora-inteligencia-artificial-apoyo-lectura-mamografias-alicante-135499141.html",
+   "publicat": "2026-10-19T12:33:46.000Z"
+  },
   {
    "id": "feec72682851",
    "mitja": "Última Hora",
@@ -12,7 +89,9 @@
    "ambit": "catala",
    "titol": "Instagram busca una solución al contenido de IA que plagia obras originales de artistas y comediantes",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/19/2731851/instagram-busca-solucion-contenido-plagia-obras-originales-artistas-comediantes.html",
-   "publicat": "2026-10-19T10:05:00.000Z"
+   "publicat": "2026-10-19T10:05:00.000Z",
+   "noticia": "instagram-contingut-ia-plagia-creadors-mosseri",
+   "noticiaTitol": "Instagram busca com frenar el contingut d'IA que copia l'obra de còmics i artistes, i el seu cap, Adam Mosseri, admet que els mecanismes actuals no n'hi ha prou"
   },
   {
    "id": "90669d10c5de",
@@ -2654,28 +2733,6 @@
    "titol": "Nadella reclama que los modelos de IA dispongan de “un freno de emergencia”",
    "url": "https://www.lavanguardia.com/vida/20261012/11657233/nadella-reclama-modelos-ia-dispongan-freno-emergencia.html",
    "publicat": "2026-10-12T16:39:55.000Z"
-  },
-  {
-   "id": "0b3d2f5b6d11",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un estadounidense que superó a Taylor Swift en reproducciones gracias a la IA, condenado a 18 meses de cárcel",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261012/estadounidense-supero-taylor-swift-reproducciones-135254730",
-   "publicat": "2026-10-12T15:36:23.000Z"
-  },
-  {
-   "id": "d678006e6e07",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El magnate que asesora a Trump sobre IA y guerra pide realizar ejecuciones públicas: \"Tienen que ser brutales\"",
-   "url": "https://www.elperiodico.com/es/internacional/20261012/brutales-magnate-asesora-trump-ia-guerra-ejecucion-eeuu-palmer-luckey-anduril-pentagono-musk-135253638",
-   "publicat": "2026-10-12T14:57:37.000Z"
   }
  ]
 }
