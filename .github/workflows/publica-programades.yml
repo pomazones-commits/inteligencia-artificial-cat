@@ -1,0 +1,106 @@
+name: Publicació programada de les col·laboracions
+
+# 19.10.2026. Publica sola, el dia que toca, cada peça de la cua
+# `incoming/peces-programades.json` (veus de CIVICAi, «Veus d'empresa», tribunes i
+# estudis ja preparats i aprovats per en Rafael). Detall i format de la cua:
+# capçalera d'automation/scripts/publica-programades.mjs.
+#
+# Quan corre:
+#   - cada dia a les 06.07 i les 07.37 (hora d'estiu; una hora abans a l'hivern);
+#   - en acabar cada lot del Content Hub (els crons de GitHub de vegades cauen:
+#     la passada de després de cada lot és la que mana);
+#   - quan una sessió puja la cua (push a incoming/peces-programades.json);
+#   - a mà: Actions → «Publicació programada de les col·laboracions» → «Run workflow».
+#
+# Idempotent: una peça ja publicada surt de la cua sense tornar-se a publicar; si
+# no toca res, no fa cap commit. Si la foto d'una peça encara no és a public/
+# (fotos-drive.yml no l'ha baixada), s'espera a la passada següent.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'incoming/peces-programades.json'
+  schedule:
+    - cron: '7 4 * * *'
+    - cron: '37 5 * * *'
+  workflow_run:
+    workflows: ["Content Hub — completar l'edició"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: publica-programades
+  cancel-in-progress: false
+
+jobs:
+  publica:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion != 'cancelled'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Recuperar el web
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Publicar les peces que ja toquen
+        id: publica
+        run: |
+          node automation/scripts/publica-programades.mjs \
+            --public public --cua incoming/peces-programades.json | tee "$RUNNER_TEMP/sortida.txt"
+          if grep -q '^PUBLICADA:' "$RUNNER_TEMP/sortida.txt"; then
+            echo "noves=si" >> "$GITHUB_OUTPUT"
+          else
+            echo "noves=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validar
+        if: steps.publica.outputs.noves == 'si'
+        run: |
+          node scripts/valida-series.mjs
+          node scripts/prova-peces.mjs
+
+      - name: Publicar si hi ha canvis
+        id: commit
+        run: |
+          git config user.name "intel·ligènciaartificial.cat bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add incoming/peces-programades.json public
+          if git diff --cached --quiet; then
+            echo "Cap canvi."
+            echo "canvis=no" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          titols=$(grep '^PUBLICADA:' "$RUNNER_TEMP/sortida.txt" | sed 's/^PUBLICADA: //' | paste -sd ';' - || true)
+          git commit -m "[programada] ${titols:-actualitza la cua de peces programades}"
+          for intent in 1 2 3; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "canvis=si" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep $((intent * 10))
+          done
+          echo "::error::No he pogut pujar la publicació després de tres intents."
+          exit 1
+
+      # Un push fet amb el GITHUB_TOKEN no dispara cap altre workflow: el
+      # desplegament i l'àudio es disparen a mà.
+      - name: Desplegar i fer l'àudio
+        if: steps.commit.outputs.canvis == 'si' && steps.publica.outputs.noves == 'si'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run desplega.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar el desplegament; el cron :08/:38 o la xarxa de seguretat ho repescaran."
+          gh workflow run audio-edicio.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar l'àudio; la passada horària :26 el repescarà."
