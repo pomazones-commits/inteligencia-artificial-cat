@@ -1,5 +1,5 @@
 {
- "actualitzat": "2026-10-12",
+ "actualitzat": "2026-10-19",
  "propera_revisio": "2026-11-15",
  "nota": "Centres de dades i supercomputació als territoris de parla catalana. Manual: revisió setmanal a la tasca «Edicions» (vegeu CLAUDE.md). Pàgina: /centres-de-dades (public/centres-de-dades.php). Estats: en funcionament | en construcció | en tramitació | aturat | descartat. origen de cada xifra: promotor (ho diu l’empresa) | administració (ho anuncia un govern o un ajuntament) | oficial (consta en un tràmit o document públic: Miteco, DOGC, DOGV, BOIB, BOPA, BOE, llicència, contracte) | premsa (xifra publicada sense font primària). llocs = [[lat, lon], …] aproximades. polemica: sempre amb la resposta de l’empresa o de l’administració, o una nota que digui que no n’hem trobat. Contractacions: només amb document públic o comunicat de totes dues parts. Cap camp inventat.",
  "xifres": [
@@ -208,7 +208,7 @@
     "Edged",
     "CoreWeave"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "digital-realty-bcn1",
@@ -239,10 +239,10 @@
    },
    "ocupacio": [],
    "refrigeracio": {
-    "sistema": "",
-    "aigua": "",
-    "qui_ho_diu": "",
-    "font": ""
+    "sistema": "Refrigeració líquida a la plataforma d'inferència de Blackfuel; del conjunt del centre no consta",
+    "aigua": "No consta",
+    "qui_ho_diu": "promotor (Digital Realty) i el client (Blackfuel)",
+    "font": "https://www.blackfuel.ai/press.html"
    },
    "energia": "",
    "tramits": [],
@@ -254,6 +254,11 @@
      "data": "2026-05-18",
      "fet": "Obre el BCN1 (14 MW), el primer centre de l'empresa a Barcelona",
      "font": "https://www.elnacional.cat/oneconomia/ca/empreses/digital-realty-obre-seu-primer-centre-dades-barcelona_1641694_102.html"
+    },
+    {
+     "data": "2026-09-30",
+     "fet": "Digital Realty i Blackfuel anuncien, cadascú amb el seu comunicat, que Blackfuel hi instal·larà la seva primera plataforma d'inferència d'IA: servidors Dell amb acceleradors AMD Instinct MI355X i refrigeració líquida. Cap dels dos comunicats no en dona la potència",
+     "font": "https://www.globenewswire.com/news-release/2026/09/30/3372048/0/en/digital-realty-brings-native-ai-inference-platform-on-servicefabric-with-blackfuel.html"
     }
    ],
    "fonts": [
@@ -261,12 +266,17 @@
      "nom": "ON Economia",
      "url": "https://www.elnacional.cat/oneconomia/ca/empreses/digital-realty-obre-seu-primer-centre-dades-barcelona_1641694_102.html",
      "data": "2026-05-18"
+    },
+    {
+     "nom": "Blackfuel (comunicat)",
+     "url": "https://www.blackfuel.ai/press.html",
+     "data": "2026-09-30"
     }
    ],
    "paraules": [
     "Digital Realty"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "oxigen",
@@ -339,7 +349,7 @@
    "paraules": [
     "Oxigen"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "oxigen-sant-fruitos",
@@ -398,7 +408,7 @@
     "Oxigen",
     "Sant Fruitós de Bages"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "edgeconnex-viladecans",
@@ -462,7 +472,7 @@
     "EdgeConneX",
     "Viladecans"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "atlasedge-acer",
@@ -541,7 +551,7 @@
     "AtlasEdge",
     "Templus"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "estacio-cable-barcelona",
@@ -601,7 +611,7 @@
     "Medusa",
     "AFR-IX"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "marenostrum-5",
@@ -672,7 +682,7 @@
     "MareNostrum",
     "Barcelona Supercomputing Center"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "csuc-pirineus",
@@ -736,7 +746,7 @@
     "CSUC",
     "Pirineus"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "panattoni-parc-alba",
@@ -838,6 +848,16 @@
      "data": "2026-10-12",
      "fet": "Refem i ADENC diuen que la sentència sobre el seu recurs contra el planejament del Parc de l'Alba (aprovat per la Generalitat el 2020) els dona la raó en alguns aspectes, però en manté parts substancials. La notícia no diu quin tribunal l'ha dictada ni si afecta les parcel·les dels centres de dades",
      "font": "https://www.totcerdanyola.cat/actualitat/refem-explicara-sentencia-sobre-parc-alba-en-acte-public_2241822102.html"
+    },
+    {
+     "data": "2026-10-14",
+     "fet": "En un acte públic sobre la sentència, Refem alerta del consum d'energia i d'aigua dels centres de dades previstos a Cerdanyola i anuncia sessions informatives sobre aquest tema amb Ecologistes en Acció",
+     "font": "https://www.totcerdanyola.cat/actualitat/refem-adenc-mantindran-lluita-judicial-parc-alba_2242029102.html"
+    },
+    {
+     "data": "2026-10-16",
+     "fet": "El TSJC avala gairebé tot el pla urbanístic del Parc de l'Alba (sentència del 30.09.2026): només anul·la tres parcel·les d'equipaments i un vial a tocar de la riera de Sant Cugat, per risc d'inundació. Les cròniques no esmenten les parcel·les dels centres de dades. No és ferma: Refem i ADENC tenen 30 dies per recórrer en cassació al Suprem, i el Consorci diu que continuarà executant el pla",
+     "font": "https://www.vilaweb.cat/noticies/tsjc-avala-projecte-urbanistic-parc-alba-5000-habitatges/"
     }
    ],
    "fonts": [
@@ -845,6 +865,11 @@
      "nom": "Observatorio Inmobiliario",
      "url": "https://observatorioinmobiliario.es/noticias/logistica/panattoni-invierte-300-millones-en-la-primera-fase-de-su-centro-de-datos-en-barcelona/",
      "data": "2025-01-28"
+    },
+    {
+     "nom": "Diari de Sabadell (sentència del TSJC i resposta del Consorci)",
+     "url": "https://www.diaridesabadell.com/valles/cerdanyola/parc-alba-cerdanyola-tsjc-resolucio.html",
+     "data": "2026-10-19"
     }
    ],
    "paraules": [
@@ -852,7 +877,7 @@
     "Parc de l'Alba",
     "Cerdanyola"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "aq-compute-bcn1",
@@ -916,6 +941,11 @@
      "data": "2026-10-12",
      "fet": "Refem i ADENC diuen que la sentència sobre el seu recurs contra el planejament del Parc de l'Alba (aprovat per la Generalitat el 2020) els dona la raó en alguns aspectes, però en manté parts substancials. La notícia no diu quin tribunal l'ha dictada ni si afecta les parcel·les dels centres de dades",
      "font": "https://www.totcerdanyola.cat/actualitat/refem-explicara-sentencia-sobre-parc-alba-en-acte-public_2241822102.html"
+    },
+    {
+     "data": "2026-10-16",
+     "fet": "El TSJC avala gairebé tot el pla urbanístic del Parc de l'Alba (sentència del 30.09.2026): només anul·la tres parcel·les d'equipaments i un vial a tocar de la riera de Sant Cugat, per risc d'inundació. Les cròniques no esmenten les parcel·les dels centres de dades. No és ferma: Refem i ADENC tenen 30 dies per recórrer en cassació al Suprem, i el Consorci diu que continuarà executant el pla",
+     "font": "https://www.vilaweb.cat/noticies/tsjc-avala-projecte-urbanistic-parc-alba-5000-habitatges/"
     }
    ],
    "fonts": [
@@ -930,7 +960,7 @@
     "AQ Compute",
     "Parc de l'Alba"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "quetta-molins",
@@ -1034,7 +1064,7 @@
     "Quetta",
     "Molins de Rei"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "adam-parc-alba",
@@ -1085,6 +1115,11 @@
      "data": "2026-10-12",
      "fet": "Refem i ADENC diuen que la sentència sobre el seu recurs contra el planejament del Parc de l'Alba (aprovat per la Generalitat el 2020) els dona la raó en alguns aspectes, però en manté parts substancials. La notícia no diu quin tribunal l'ha dictada ni si afecta les parcel·les dels centres de dades",
      "font": "https://www.totcerdanyola.cat/actualitat/refem-explicara-sentencia-sobre-parc-alba-en-acte-public_2241822102.html"
+    },
+    {
+     "data": "2026-10-16",
+     "fet": "El TSJC avala gairebé tot el pla urbanístic del Parc de l'Alba (sentència del 30.09.2026): només anul·la tres parcel·les d'equipaments i un vial a tocar de la riera de Sant Cugat, per risc d'inundació. Les cròniques no esmenten les parcel·les dels centres de dades. No és ferma: Refem i ADENC tenen 30 dies per recórrer en cassació al Suprem, i el Consorci diu que continuarà executant el pla",
+     "font": "https://www.vilaweb.cat/noticies/tsjc-avala-projecte-urbanistic-parc-alba-5000-habitatges/"
     }
    ],
    "fonts": [
@@ -1097,7 +1132,7 @@
    "paraules": [
     "Parc de l'Alba"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "ai-factory-bsc",
@@ -1161,6 +1196,11 @@
      "data": "2026-01-27",
      "fet": "Instal·lació prevista per al primer semestre del 2026",
      "font": "https://www.laecuaciondigital.com/tecnologias/inteligencia-artificial/marenostrum5-supercomputacion-europea-ia/"
+    },
+    {
+     "data": "2026-10-15",
+     "fet": "El BSC AI Factory obre el primer programa d'acceleració: 14 setmanes per a 100 empreses emergents d'IA, amb accés al MareNostrum 5 (2,3 M€; sol·licituds fins al 9 de novembre)",
+     "font": "https://www.elnacional.cat/oneconomia/ca/on-ia/bsc-ai-factory-llanca-primer-programa-acceleracio-100-start-ups_1710175_102.html"
     }
    ],
    "fonts": [
@@ -1173,7 +1213,7 @@
    "paraules": [
     "MareNostrum"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "adequa-santa-barbara",
@@ -1245,7 +1285,7 @@
     "Santa Bàrbara",
     "Adequa"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "adequa-odena",
@@ -1345,7 +1385,7 @@
     "Can Morera",
     "Adequa"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "gigafactoria-mora-la-nova",
@@ -1494,7 +1534,7 @@
    "paraules": [
     "Móra la Nova"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "submer-flix",
@@ -1571,6 +1611,11 @@
      "data": "2026-09-22",
      "fet": "Ecologistes en Acció hi fa al·legacions",
      "font": "https://ebredigital.cat/2026/09/22/ecologistes-en-accio-de-tarragona-i-ebre-presenta-allegacions-al-projecte-de-reial-decret-sobre-centres-de-dades/"
+    },
+    {
+     "data": "2026-10-13",
+     "fet": "Marfanta informa que ja hi treballen màquines als antics terrenys d'Ercros, però no diu si són obres del centre, enderrocs o descontaminació. L'alcalde, Francesc Barbero, considera la inversió estratègica per recuperar l'activitat industrial. No consta cap llicència d'obres publicada: l'estat es manté «en tramitació»",
+     "font": "https://www.marfanta.com/2026/10/13/lalcalde-de-flix-confia-en-el-nou-centre-de-dades-per-recuperar-el-pols-industrial/"
     }
    ],
    "fonts": [
@@ -1589,7 +1634,7 @@
     "Flix",
     "Submer"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "ark-maquinista",
@@ -1655,7 +1700,7 @@
     "Ark Data Centres",
     "Maquinista"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "gtr-parc-alba",
@@ -1706,6 +1751,11 @@
      "data": "2026-10-12",
      "fet": "Refem i ADENC diuen que la sentència sobre el seu recurs contra el planejament del Parc de l'Alba (aprovat per la Generalitat el 2020) els dona la raó en alguns aspectes, però en manté parts substancials. La notícia no diu quin tribunal l'ha dictada ni si afecta les parcel·les dels centres de dades",
      "font": "https://www.totcerdanyola.cat/actualitat/refem-explicara-sentencia-sobre-parc-alba-en-acte-public_2241822102.html"
+    },
+    {
+     "data": "2026-10-16",
+     "fet": "El TSJC avala gairebé tot el pla urbanístic del Parc de l'Alba (sentència del 30.09.2026): només anul·la tres parcel·les d'equipaments i un vial a tocar de la riera de Sant Cugat, per risc d'inundació. Les cròniques no esmenten les parcel·les dels centres de dades. No és ferma: Refem i ADENC tenen 30 dies per recórrer en cassació al Suprem, i el Consorci diu que continuarà executant el pla",
+     "font": "https://www.vilaweb.cat/noticies/tsjc-avala-projecte-urbanistic-parc-alba-5000-habitatges/"
     }
    ],
    "fonts": [
@@ -1719,7 +1769,7 @@
     "Global Technical Realty",
     "Parc de l'Alba"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "serosense-alcarras",
@@ -1790,7 +1840,7 @@
     "Alcarràs",
     "Serosense"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "atlasedge-barcelona-2",
@@ -1843,7 +1893,7 @@
    "paraules": [
     "AtlasEdge"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "mediterra-montmelo",
@@ -1939,7 +1989,7 @@
     "Mediterra",
     "Montmeló"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "ponentia",
@@ -2051,7 +2101,7 @@
     "Montblanc",
     "Espluga de Francolí"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "tirant-uv",
@@ -2104,7 +2154,7 @@
     "Tirant",
     "Universitat de València"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "nxn-vara-de-quart",
@@ -2207,7 +2257,7 @@
     "NxN",
     "Vara de Quart"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "digital-valley-picassent",
@@ -2342,7 +2392,7 @@
     "Digital Valley",
     "Picassent"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "vdpc-sagunt",
@@ -2414,7 +2464,7 @@
     "Sagunt",
     "Valencia Digital Port Connect"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "valfortec-monforte",
@@ -2488,7 +2538,7 @@
     "Valfortec",
     "Monforte del Cid"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "catadau",
@@ -2554,7 +2604,7 @@
    "paraules": [
     "Catadau"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "talaia-uib",
@@ -2620,7 +2670,7 @@
    "paraules": [
     "Talaia"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "cpd-govern-balear",
@@ -2673,7 +2723,7 @@
    "paraules": [
     "Govern balear"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   },
   {
    "id": "andorra-telecom",
@@ -2732,12 +2782,22 @@
    "paraules": [
     "Andorra Telecom"
    ],
-   "verificat": "2026-10-12"
+   "verificat": "2026-10-19"
   }
  ],
  "versio": 2,
  "criteri": "Hi entren els centres de dades de 5 MW o més (en funcionament o anunciats), la infraestructura pública de càlcul (supercomputadors i centres de dades dels governs), les estacions de cables submarins que condicionen on s’instal·len els centres i els projectes amb potència encara no publicada que són en tràmit o en debat públic.",
  "canvis": [
+  {
+   "data": "2026-10-19",
+   "id": "panattoni-parc-alba",
+   "fet": "El TSJC avala gairebé tot el pla del Parc de l'Alba: només anul·la tres parcel·les d'equipaments i un vial per risc d'inundació. Les cròniques no esmenten els centres de dades; la sentència encara es pot recórrer"
+  },
+  {
+   "data": "2026-10-19",
+   "id": "digital-realty-bcn1",
+   "fet": "Primer client d'IA anunciat per totes dues parts: Blackfuel hi instal·larà una plataforma d'inferència amb refrigeració líquida"
+  },
   {
    "data": "2026-10-12",
    "id": "panattoni-parc-alba",
