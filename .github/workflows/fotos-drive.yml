@@ -1,0 +1,111 @@
+name: Fotos dels col·laboradors (Drive → web)
+
+# 19.10.2026. Baixa de Google Drive els retrats dels col·laboradors que una
+# sessió de Claude ha posat a la cua `incoming/fotos-drive.json`, els converteix
+# a JPEG lleuger (≤1200 px, <350 KB) i els desa a public/assets/.
+# Els retrats hi arriben sols des de Gmail per l'script d'Apps Script
+# `automation/apps-script/adjunts-col-laboracions.gs` (compte de Google d'en
+# Rafael). Detall i camps de la cua: capçalera d'automation/scripts/fotos-drive.mjs.
+#
+# Quan corre:
+#   - quan una sessió puja la cua (push a incoming/fotos-drive.json);
+#   - cada hora al minut 19, per reintentar les fotos que encara no tenien
+#     l'enllaç obert (si la cua és buida, no fa res);
+#   - a mà: Actions → «Fotos dels col·laboradors (Drive → web)» → «Run workflow».
+#
+# Cap clau ni secret: només baixa fitxers amb l'enllaç obert. MAI no toca res
+# fora d'incoming/fotos-drive.json i dels .jpg de destí de public/assets/.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'incoming/fotos-drive.json'
+  schedule:
+    - cron: '19 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: fotos-drive
+  cancel-in-progress: false
+
+jobs:
+  baixa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Recuperar el web
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Mirar si hi ha feina
+        id: cua
+        run: |
+          if [ -s incoming/fotos-drive.json ] && [ "$(node -e 'const c=JSON.parse(require("fs").readFileSync("incoming/fotos-drive.json","utf8"));console.log(Array.isArray(c)?c.length:0)')" != "0" ]; then
+            echo "feina=si" >> "$GITHUB_OUTPUT"
+          else
+            echo "Cua buida: res a fer."
+            echo "feina=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Preparar Node
+        if: steps.cua.outputs.feina == 'si'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # sharp gira, redueix i comprimeix les fotos. Només viu al runner.
+      - name: Instal·lar sharp
+        if: steps.cua.outputs.feina == 'si'
+        run: npm install --no-save --no-audit --no-fund sharp@0.34
+
+      - name: Baixar i convertir les fotos
+        id: baixa
+        if: steps.cua.outputs.feina == 'si'
+        continue-on-error: true
+        run: node automation/scripts/fotos-drive.mjs --cua incoming/fotos-drive.json
+
+      - name: Publicar si hi ha canvis
+        id: publica
+        if: steps.cua.outputs.feina == 'si'
+        run: |
+          git config user.name "intel·ligènciaartificial.cat bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add incoming/fotos-drive.json
+          git add -A -- 'public/assets/*.jpg'
+          if git diff --cached --quiet; then
+            echo "Cap canvi."
+            echo "canvis=no" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "[imatges] fotos dels col·laboradors des de Drive"
+          for intent in 1 2 3; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "canvis=si" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep $((intent * 10))
+          done
+          echo "::error::No he pogut pujar les fotos després de tres intents."
+          exit 1
+
+      # Un push fet amb el GITHUB_TOKEN no dispara el desplegament. Un
+      # workflow_dispatch, sí.
+      - name: Desplegar
+        if: steps.publica.outputs.canvis == 'si'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run desplega.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar el desplegament; el cron :08/:38 o la xarxa de seguretat ho repescaran."
+
+      - name: Avisar de les fotos que han fallat
+        if: steps.baixa.outcome == 'failure'
+        run: |
+          echo "::error::Alguna foto no s'ha pogut baixar. Queda a incoming/fotos-drive.json amb el motiu (camp error) i es reintenta cada hora."
+          exit 1
