@@ -24,7 +24,9 @@
 //   i després puja el ?v= (amb lletra) dels fitxers tocats als HTML que els
 //   carreguen, VERSIO_MANUAL d'app.js i el ?v= d'app.js a index.html.
 //
-// Salvaguardes: si la foto de la peça encara no és a public/ (p. ex. el workflow
+// Salvaguardes: una peça amb "photo": "" no es publica mai: s'espera a la cua fins
+// que s'hi posi el retrat confirmat (decisió d'en Rafael del 19.10.2026).
+// Si la foto de la peça encara no és a public/ (p. ex. el workflow
 // fotos-drive.yml no l'ha baixada), l'entrada s'espera a la passada següent. Si ja
 // hi ha publicada una peça amb el mateix títol, l'entrada es treu de la cua sense
 // tornar-la a publicar. Una entrada mal formada queda a la cua amb el camp "error".
@@ -156,6 +158,12 @@ export async function processa({ arrel, cua, avui, hora, fs = { readFile, writeF
     const peca = { date: dataPeca(e.publica), ...net.peca };
     peca.date = dataPeca(e.publica);
 
+    // Cap peça sense foto (decisió d'en Rafael del 19.10.2026): s'espera a la cua
+    // fins que s'hi posi el retrat confirmat de l'autor.
+    if (!peca.photo) {
+      pendents.push({ ...net, espera: 'falta la foto de l\'autor: cap peça no es publica sense foto (19.10.2026)' });
+      continue;
+    }
     if (peca.photo && !(await fs.existeix(join(arrel, peca.photo.replace(/^\.\//, ''))))) {
       pendents.push({ ...net, espera: `la foto ${peca.photo} encara no és a public/` });
       continue;

@@ -6,7 +6,7 @@ import {
 } from '../scripts/publica-programades.mjs';
 
 const peca = (extra = {}) => ({
-  category: 'TRIBUNA', read: '4 MIN', author: 'Autora', role: 'Càrrec', title: 'Títol', excerpt: 'Entradeta', body: 'Cos', photo: '', ...extra
+  category: 'TRIBUNA', read: '4 MIN', author: 'Autora', role: 'Càrrec', title: 'Títol', excerpt: 'Entradeta', body: 'Cos', photo: './assets/hi-es.jpg', ...extra
 });
 
 function fsFals(fitxers) {
@@ -99,6 +99,14 @@ test('espera la foto si encara no és al web', async () => {
     cua: [{ seccio: 'empresa', publica: '2026-10-20', peca: peca({ photo: './assets/falta.jpg' }) }] });
   assert.equal(r.publicades.length, 0);
   assert.match(r.pendents[0].espera, /encara no és/);
+});
+
+test('no publica cap peça sense foto', async () => {
+  const { fs } = fsFals(BASE);
+  const r = await processa({ arrel: '/x/public', avui: '2026-10-21', hora: '06', fs,
+    cua: [{ seccio: 'empresa', publica: '2026-10-20', peca: peca({ photo: '' }) }] });
+  assert.equal(r.publicades.length, 0);
+  assert.match(r.pendents[0].espera, /falta la foto/);
 });
 
 test('no torna a publicar una peça que ja hi és', async () => {
