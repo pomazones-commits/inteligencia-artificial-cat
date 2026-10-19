@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-19T16:25:13.486Z",
+ "actualitzat": "2026-10-19T17:12:23.223Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d3a55144d20f",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Apple posa fi al truc de les apps que 'despullen' amb IA: prohibides encara que es disfressin d'apps normals",
+   "url": "https://www.elnacional.cat/ca/tecnologia/apple-posa-fi-truc-apps-despullen-ia-prohibides-encara-es-disfressin-apps-normals_1711864_102.html",
+   "publicat": "2026-10-19T17:00:00.000Z"
+  },
   {
    "id": "205f94999547",
    "mitja": "Diari de Tarragona",
@@ -2711,28 +2722,6 @@
    "titol": "Google le pone pantalla a su pulsera de actividad más sencilla",
    "url": "https://www.elmundo.es/tecnologia/2026/10/12/6acd2568fc6c83a6498b4573.html",
    "publicat": "2026-10-12T18:24:57.000Z"
-  },
-  {
-   "id": "12c164d3593c",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Un estudi posa en dubte la seguretat de ChatGPT per a adolescents: les seves alertes sobre el suïcidi fallen",
-   "url": "https://www.elnacional.cat/ca/tecnologia/estudi-posa-en-dubte-seguretat-chatgpt-adolescents-seves-alertes-sobre-suicidi-fallen_1708651_102.html",
-   "publicat": "2026-10-12T17:00:00.000Z"
-  },
-  {
-   "id": "cfac4e933ac7",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nadella reclama que los modelos de IA dispongan de “un freno de emergencia”",
-   "url": "https://www.lavanguardia.com/vida/20261012/11657233/nadella-reclama-modelos-ia-dispongan-freno-emergencia.html",
-   "publicat": "2026-10-12T16:39:55.000Z"
   }
  ]
 }
