@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-19T12:14:18.147Z",
+  "generat": "2026-10-19T17:39:30.664Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -174,7 +174,7 @@
       "programa": "",
       "estat": "ok",
       "audios": 400,
-      "sobre_ia": 2
+      "sobre_ia": 3
     }
   ],
   "candidats": [
@@ -197,6 +197,22 @@
         "Entrevistes",
         "Programes"
       ]
+    },
+    {
+      "id": "rna-1930451",
+      "emissora": "Ràdio Nacional d'Andorra",
+      "programa": "Les coses grans",
+      "programa_url": "https://www.rtva.ad/programes/les-coses-grans",
+      "data": "2026-10-19",
+      "durada": "",
+      "titol_original": "Un ciberatac contra congeladors de centenars de supermercats de França provoca pèrdues milionàries - Les coses grans - 19/10/2026",
+      "descripcio_original": "Pol Guasch, expert en IA, ens apropa el tema sobre l’augment d’aquest tipus de ciberatacs.",
+      "descripcio_curta": true,
+      "ia_al_titol": false,
+      "url": "https://www.rtva.ad/programes/un-ciberatac-contra-congeladors-de-centenars-de-supermercats-de-franca-provoca-perdues-milionaries-les-coses-grans-19-10-2026",
+      "reproductor": {
+        "tipus": "enllac"
+      }
     }
   ]
 }
