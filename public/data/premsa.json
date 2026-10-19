@@ -1,8 +1,118 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-19T04:13:33.099Z",
+ "actualitzat": "2026-10-19T08:12:49.220Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "0f0e112c9c0e",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nova eina d'IA per detectar la metàstasi del càncer de mama",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nova-eina-ia-detectar-metastasi-cancer-mama_1711381_102.html",
+   "publicat": "2026-10-19T06:55:18.000Z"
+  },
+  {
+   "id": "0d6a1697698a",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic transferirá el 5% de sus acciones a un fondo para donaciones con el que busca mitigar el impacto laboral de la IA",
+   "url": "https://cincodias.elpais.com/companias/2026-10-19/anthropic-transferira-el-5-de-sus-acciones-a-un-fondo-para-donaciones-con-el-que-busca-mitigar-el-impacto-laboral-de-la-ia.html",
+   "publicat": "2026-10-19T06:49:56.000Z"
+  },
+  {
+   "id": "10dd0f35ef29",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Santander se alía con Nvidia para el despliegue de la IA en el banco",
+   "url": "https://www.lavanguardia.com/dinero/20261019/11662369/santander-alia-nvidia-despliegue-ia-banco.html",
+   "publicat": "2026-10-19T06:39:07.000Z"
+  },
+  {
+   "id": "6ccbe3fdbb50",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La inteligencia artificial entra en la notaría",
+   "url": "https://cincodias.elpais.com/legal/2026-10-16/la-inteligencia-artificial-entra-en-la-notaria.html",
+   "publicat": "2026-10-19T06:30:00.000Z"
+  },
+  {
+   "id": "4dfc31644e34",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El Santander i Nvidia reforcen la seva aliança en intel·ligència artificial",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/santander-nvidia-reforcen-seva-alianca-en-intelligencia-artificial_1711369_102.html",
+   "publicat": "2026-10-19T06:25:39.000Z"
+  },
+  {
+   "id": "db03c6de44b6",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Creen un model d'IA per detectar la metàstasi del càncer de mama en zones properes al pit",
+   "url": "https://www.regio7.cat/societat/2026/10/19/creen-model-dia-per-detectar-135482466.html",
+   "publicat": "2026-10-19T06:19:50.000Z"
+  },
+  {
+   "id": "8a7f9f1e74d2",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Santander y Nvidia firman una alianza de tres años para desarrollar IA bancaria",
+   "url": "https://www.elperiodico.com/es/economia/20261019/santander-nvidia-firman-alianza-tres-135483860",
+   "publicat": "2026-10-19T05:58:00.000Z"
+  },
+  {
+   "id": "76607b56a0c2",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Toyota Sora: el autobús de hidrógeno que supera los 300 kilómetros de autonomía",
+   "url": "https://www.elperiodico.com/es/motor/20261019/toyota-sora-autobus-hidrogeno-supera-135364878",
+   "publicat": "2026-10-19T05:00:54.000Z"
+  },
+  {
+   "id": "a10bc9b51c7a",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El Santander se alía con Nvidia para desplegar la IA en todo el banco",
+   "url": "https://cincodias.elpais.com/companias/2026-10-19/el-santander-se-alia-con-nvidia-para-desplegar-la-ia-en-todo-el-banco.html",
+   "publicat": "2026-10-19T05:00:00.000Z"
+  },
+  {
+   "id": "e61adc3402d0",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La intel·ligència artificial exigeix noves infraestructures",
+   "url": "https://www.diariandorra.ad/nacional/261019/intel-ligencia-artificial-exigeix-noves-infraestructures_206813.html",
+   "publicat": "2026-10-19T04:25:39.000Z"
+  },
   {
    "id": "e854509c9297",
    "mitja": "Valencia Plaza",
@@ -12,7 +122,9 @@
    "ambit": "catala",
    "titol": "Tierra de empresas | De la IA generativa a los agentes autónomos: líderes tecnológicos analizarán en Valencia su impacto global",
    "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/de-la-ia-generativa-a-los-agentes-autonomos-lideres-tecnologicos-analizaran-en-valencia-su-impacto-global",
-   "publicat": "2026-10-19T04:00:04.000Z"
+   "publicat": "2026-10-19T04:00:04.000Z",
+   "noticia": "vds-2026-valencia-programa-ia",
+   "noticiaTitol": "València acull dimecres i dijous el VDS 2026, amb un programa d'IA el dia 21 sobre agents autònoms"
   },
   {
    "id": "a2dca2bab00d",
@@ -111,7 +223,9 @@
    "ambit": "catala",
    "titol": "IA, robots de quatre potes i drons amb esprai pebre: el Japó es trenca el cap per contenir els atacs d’óssos",
    "url": "https://www.vilaweb.cat/noticies/atacs-ossos-japo-tecnologia-ia-robots",
-   "publicat": "2026-10-18T19:30:04.000Z"
+   "publicat": "2026-10-18T19:30:04.000Z",
+   "noticia": "japo-ia-drons-atacs-ossos",
+   "noticiaTitol": "El Japó prova mapes de risc amb IA, càmeres i drons per contenir els óssos, després d'un any amb 13 morts"
   },
   {
    "id": "f793da0aab80",
