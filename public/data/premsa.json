@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-19T08:12:49.220Z",
+ "actualitzat": "2026-10-19T10:20:17.669Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "90669d10c5de",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Apple endurece sus pautas de la App Store para frenar las aplicaciones que generan desnudos con IA",
+   "url": "https://www.elmundo.es/tecnologia/2026/10/19/6ad5ea18e9cf4a74058b4577.html",
+   "publicat": "2026-10-19T09:59:54.000Z"
+  },
+  {
+   "id": "e0f896bdeb76",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic donará 42.000 millones para aplacar el rechazo a la IA ante su histórica salida a Bolsa",
+   "url": "https://www.eldiario.es/tecnologia/anthropic-donara-42-000-millones-aplacar-rechazo-ia-historica-salida-bolsa_1_13596220.html",
+   "publicat": "2026-10-19T09:35:04.000Z"
+  },
+  {
+   "id": "f9d9341e601b",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial desafía al efecto mariposa y logra anticipar el tiempo con hasta seis semanas de antelación",
+   "url": "https://www.levante-emv.com/tendencias21/2026/10/19/inteligencia-artificial-desafia-efecto-mariposa-135488911.html",
+   "publicat": "2026-10-19T09:17:54.000Z"
+  },
+  {
+   "id": "5d0b53fd8d0a",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La reina y la princesa de Bélgica y otras figuras públicas, víctimas de desnudos con IA",
+   "url": "https://www.ultimahora.es/noticias/sociedad/2026/10/19/2731777/reina-princesa-belgica-otras-figuras-publicas-victimas-desnudos-ia.html",
+   "publicat": "2026-10-19T09:17:45.000Z"
+  },
+  {
+   "id": "eb18789209b2",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic plantea destinar el 5% de sus acciones a un fondo de beneficio público",
+   "url": "https://www.lavanguardia.com/dinero/20261019/11662425/anthropic-plantea-destinar-5-acciones-fondo-beneficio-publico.html",
+   "publicat": "2026-10-19T08:48:14.000Z"
+  },
   {
    "id": "0f0e112c9c0e",
    "mitja": "El Nacional",
@@ -57,6 +112,17 @@
    "titol": "El Santander i Nvidia reforcen la seva aliança en intel·ligència artificial",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/santander-nvidia-reforcen-seva-alianca-en-intelligencia-artificial_1711369_102.html",
    "publicat": "2026-10-19T06:25:39.000Z"
+  },
+  {
+   "id": "2ba7077bad90",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un nuevo método de inteligencia artificial supera el cuello de botella visual en la generación directa de imágenes",
+   "url": "https://www.lasprovincias.es/tecnologia/nuevo-metodo-inteligencia-artificial-rlt_arx-20261019061029-nt.html",
+   "publicat": "2026-10-19T06:25:29.000Z"
   },
   {
    "id": "db03c6de44b6",
@@ -2619,30 +2685,6 @@
    "titol": "“Si la inteligencia artificial llega a ser más inteligente que nosotros, seremos como un gato intentando encerrar a un humano”",
    "url": "https://www.lavanguardia.com/clic/20261012/11653465/inteligencia-artificial-llega-mas-inteligente-seremos-gato-intentando-encerrar-humano-gvm.html",
    "publicat": "2026-10-12T10:35:00.000Z"
-  },
-  {
-   "id": "4a4279e52b93",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Dos gironins creen una app que vol convertir la IA en un assessor financer personal",
-   "url": "https://www.diaridegirona.cat/economia/2026/10/12/gironins-creen-app-vol-convertir-ia-assesor-financer-135102463.html",
-   "publicat": "2026-10-12T09:51:15.000Z",
-   "noticia": "davant-girona-ia-assessor-financer-personal",
-   "noticiaTitol": "Dos gironins aixequen 200.000 euros per crear Davant, una aplicació d'IA que vol fer d'assessor financer personal"
-  },
-  {
-   "id": "866213e569db",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Taylor Swift registra su imagen como marca en Europa para protegerse de la IA",
-   "url": "https://www.informacion.es/economia/2026/10/12/conexion-alicantina-taylor-swift-cantante-135243087.html",
-   "publicat": "2026-10-12T09:45:18.000Z"
   }
  ]
 }
