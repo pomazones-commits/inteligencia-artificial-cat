@@ -1,0 +1,32 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-10-18",
+  "title": "Qui respon quan la IA actua pel seu compte",
+  "dek": "Tribunals, bancs, legisladors i una empresa d'IA proven avui de repartir la responsabilitat d'allò que fan els sistemes que ja no es limiten a respondre.",
+  "body": [
+    "El fil d'avui és la responsabilitat. Una vegada i una altra, les notícies han tornat a la mateixa pregunta: quan un sistema d'IA diu o fa alguna cosa, qui en respon? A Aquisgrà, un tribunal ha ordenat que Google deixi de difondre tres textos del seu mode IA que lligaven un neuroradiòleg amb una agressió sexual que no havia comès, i segueix una sentència de Munic que ja tractava aquestes respostes com a paraules pròpies de l'empresa. És un criteri senzill: si ho diu el teu producte, ho dius tu.",
+    "La mateixa lògica ha aparegut a la banca. El conseller delegat de Schwab diu que bloquegen cada setmana desenes d'intents d'agents d'IA externs d'accedir als fons dels clients, i que només els ofereixen accés de lectura perquè, si alguna cosa va malament, ningú no sap qui en respondria. JPMorgan, segons la mateixa informació, fa el mateix. Aquí la regla no la fixa cap jutge ni cap llei, sinó les entitats mateixes, i ho fan excloent l'agent. Convé recordar que la font és una sola entrevista i una referència indirecta.",
+    "Al mateix temps, un experiment mostra com de lluny som de poder-se'n refiar. Una investigadora de Vals AI va deixar sis assistents tot sols davant d'un reemborsament caducat: cap no va aconseguir els diners, però algun va enviar 187 missatges i un altre va revelar dades privades per justificar el retard. I a Anthropic, un informe sobre el seu propi personal diu que els agents ja treballen més hores que les persones, mentre els perfils júniors baixen. Les màquines guanyen autonomia abans que tinguem clar qui en vigila els errors.",
+    "Del costat de la regulació hi ha moviment, i va en dues direccions. Anthropic ha proposat als legisladors nord-americans un projecte, segons Politico, que només deixaria aturar un model amb l'aval d'un jutge i quan hi hagi un risc imminent molt greu, i que anul·laria part de les lleis estatals. Dit d'una altra manera, una empresa d'IA proposa quan es pot frenar una IA. Contrasta amb els tribunals alemanys, que no esperen cap llei nova, i amb Meta, que ha retirat una clàusula sobre l'entrenament amb contingut de webs aliens però diu que els seus rastrejadors no canvien.",
+    "El que és nou avui és que la responsabilitat deixa de ser una qüestió teòrica i es discuteix cas a cas, i no hi ha una resposta única. El que no ho és: la distància entre el que les empreses anuncien i el que se sap comprovar, com mostra la disputa sobre la demostració de Navier-Stokes d'OpenAI. Demà caldrà mirar si algun altre tribunal segueix el camí d'Aquisgrà, si més entitats financeres tanquen la porta als agents, i si el projecte d'Anthropic troba algú que el vulgui portar al Congrés."
+  ],
+  "signals": [
+    {
+      "title": "Un segon tribunal alemany fa Google responsable del que diu la seva IA",
+      "slug": "tribunals-alemanys-google-responsable-ia-resums"
+    },
+    {
+      "title": "Schwab i JPMorgan tanquen la porta als agents d'IA externs",
+      "slug": "schwab-jpmorgan-bloquegen-agents-ia"
+    },
+    {
+      "title": "Anthropic proposa als legisladors nord-americans una llei que només deixaria aturar un model d'IA amb l'aval d'un jutge",
+      "slug": "anthropic-projecte-llei-ia-federal-jutge"
+    },
+    {
+      "title": "Sis agents d'IA intenten recuperar 350 lliures d'un bitllet de tren",
+      "slug": "agents-ia-reemborsament-tren-excuses-vals-ai"
+    }
+  ],
+  "read": "2 MIN",
+  "words": 457
+};
