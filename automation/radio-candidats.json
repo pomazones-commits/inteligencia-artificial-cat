@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-18T12:11:48.372Z",
+  "generat": "2026-10-19T12:14:18.147Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -8,7 +8,7 @@
       "programa": "Revolució 4.0",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 17
+      "sobre_ia": 15
     },
     {
       "font": "3cat",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 34,
+      "audios": 32,
       "sobre_ia": 0
     },
     {
@@ -145,7 +145,7 @@
       "programa": "Actualitat",
       "nom_web": "Ràdio Sant Andreu",
       "estat": "ok",
-      "audios": 2,
+      "audios": 1,
       "sobre_ia": 0
     },
     {
@@ -155,8 +155,8 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 22,
-      "sobre_ia": 3
+      "audios": 23,
+      "sobre_ia": 4
     },
     {
       "font": "wordpress",
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 17,
+      "audios": 12,
       "sobre_ia": 1
     },
     {
@@ -177,5 +177,26 @@
       "sobre_ia": 2
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "capital-429595",
+      "emissora": "Ràdio Capital de l'Empordà",
+      "programa": "Supermatí",
+      "programa_url": "https://www.radiocapital.cat/",
+      "data": "2026-10-19",
+      "durada": "",
+      "titol_original": "Ana Picanyol: «La tecnologia ens ha d’ajudar a pensar i no pensar per nosaltres»",
+      "descripcio_original": "La responsable de l’Oficina Acelera Pyme d’Eurecat a Girona, Ana Picanyol, ha explicat al Supermatí com les petites i mitjanes empreses poden aprofitar la intel·ligència artificial per millorar la competitivitat. També ha advertit dels riscos d’aquesta tecnologia, ha defensat la importància del criteri humà i ha presentat les pròximes formacions gratuïtes adreçades al teixit empresarial gironí.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.radiocapital.cat/ana-picanyol-la-tecnologia-ens-ha-dajudar-a-pensar-i-no-pensar-per-nosaltres/",
+      "reproductor": {
+        "tipus": "enllac"
+      },
+      "etiquetes_web": [
+        "Entrevistes",
+        "Programes"
+      ]
+    }
+  ]
 }
