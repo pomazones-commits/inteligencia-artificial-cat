@@ -1,8 +1,118 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-18T21:05:28.986Z",
+ "actualitzat": "2026-10-19T04:13:33.099Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e854509c9297",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tierra de empresas | De la IA generativa a los agentes autónomos: líderes tecnológicos analizarán en Valencia su impacto global",
+   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/de-la-ia-generativa-a-los-agentes-autonomos-lideres-tecnologicos-analizaran-en-valencia-su-impacto-global",
+   "publicat": "2026-10-19T04:00:04.000Z"
+  },
+  {
+   "id": "a2dca2bab00d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Laia Corbella: “Barcelona volverá a ser un laboratorio urbano con la IA”",
+   "url": "https://www.lavanguardia.com/local/barcelona/20261019/11662048/laia-corbella-barcelona-volvera-laboratorio-urbano-ia.html",
+   "publicat": "2026-10-19T04:00:00.000Z"
+  },
+  {
+   "id": "ff028efdf181",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Getty tiembla ante la amenaza de la IA",
+   "url": "https://www.lavanguardia.com/dinero/20261019/11662078/getty-tiembla-amenaza-ia.html",
+   "publicat": "2026-10-19T04:00:00.000Z"
+  },
+  {
+   "id": "0157c008ae98",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La nueva carrera de las marcas por seducir a la IA",
+   "url": "https://cincodias.elpais.com/economia/2026-10-19/la-nueva-carrera-de-las-marcas-por-seducir-a-la-ia.html",
+   "publicat": "2026-10-19T03:30:01.000Z"
+  },
+  {
+   "id": "9a9f83e83293",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los grandes destinos turísticos tratan de combatir la saturación con nuevas tasas y herramientas de IA",
+   "url": "https://elpais.com/economia/2026-10-19/los-grandes-destinos-turisticos-tratan-de-combatir-la-saturacion-con-nuevas-tasas-y-herramientas-de-ia.html",
+   "publicat": "2026-10-19T03:30:01.000Z"
+  },
+  {
+   "id": "e47d52d089c4",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Víctor López (Rastreator): “Si pudiera delegaría en la IA la gestión de los grupos de WhatsApp de los colegios”",
+   "url": "https://elpais.com/economia/negocios/2026-10-19/victor-lopez-rastreator-si-pudiera-delegaria-en-la-ia-la-gestion-de-los-grupos-de-whatsapp-de-los-colegios.html",
+   "publicat": "2026-10-19T03:30:00.000Z"
+  },
+  {
+   "id": "100cd0d7d367",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La asignatura pendiente de la Inteligencia Artificial",
+   "url": "https://www.ultimahora.es/opinion/editorial/2026/10/19/2731421/asignatura-pendiente-inteligencia-artificial.html",
+   "publicat": "2026-10-19T02:48:01.000Z"
+  },
+  {
+   "id": "e1b7fc81ac39",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Sis maneres d’utilitzar bé la IA per estudiar a l’ESO",
+   "url": "https://www.elperiodico.cat/societat/20261019/sis-maneres-d-utilitzar-be-135479211",
+   "publicat": "2026-10-19T00:07:23.000Z"
+  },
+  {
+   "id": "b894532ab676",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Claude, la IA d'Anthropic, ha enviat una pista falsa d'assassinat a la Policia de Filadèlfia",
+   "url": "https://www.elnacional.cat/ca/tecnologia/claude-ia-anthropic-ha-enviat-pista-falsa-assassinat-policia-filadelfia_1711354_102.html",
+   "publicat": "2026-10-19T00:00:00.000Z"
+  },
+  {
+   "id": "94dadde0572e",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "IA, robots de quatre potes i drons amb esprai pebre: el Japó es trenca el cap per contenir els atacs d’óssos",
+   "url": "https://www.vilaweb.cat/noticies/atacs-ossos-japo-tecnologia-ia-robots",
+   "publicat": "2026-10-18T19:30:04.000Z"
+  },
   {
    "id": "f793da0aab80",
    "mitja": "Ara",
@@ -2419,50 +2529,6 @@
    "titol": "Taylor Swift registra su imagen como marca en Europa para protegerse de la IA",
    "url": "https://www.informacion.es/economia/2026/10/12/conexion-alicantina-taylor-swift-cantante-135243087.html",
    "publicat": "2026-10-12T09:45:18.000Z"
-  },
-  {
-   "id": "16a37a048089",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Johann Choron: “En una película la IA puede generar píxeles, pero no puede generar intención ni oficio”",
-   "url": "https://elpais.com/babelia/2026-10-12/johann-choron-en-una-pelicula-la-ia-puede-generar-pixeles-pero-no-puede-generar-intencion-ni-oficio.html",
-   "publicat": "2026-10-12T03:30:00.000Z"
-  },
-  {
-   "id": "7551b238264f",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L'art de fer preguntes: d'Einstein a la IA",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/art-fer-preguntes-einstein-ia_1707907_102.html",
-   "publicat": "2026-10-12T03:30:00.000Z"
-  },
-  {
-   "id": "6923f3abd0fe",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los inversores españoles suben su apuesta en Nvidia hasta los 4.500 millones en plena euforia de la IA",
-   "url": "https://cincodias.elpais.com/companias/2026-10-12/los-inversores-espanoles-suben-su-apuesta-en-nvidia-hasta-los-4500-millones-en-plena-euforia-de-la-ia.html",
-   "publicat": "2026-10-12T03:15:00.000Z"
-  },
-  {
-   "id": "015e4600246f",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA comparte todos los secretos",
-   "url": "https://www.lavanguardia.com/opinion/20261012/11656683/ia-comparte-todos-secretos.html",
-   "publicat": "2026-10-11T22:05:00.000Z"
   }
  ]
 }
