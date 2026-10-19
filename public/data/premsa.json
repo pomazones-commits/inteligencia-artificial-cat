@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-19T17:12:23.223Z",
+ "actualitzat": "2026-10-19T22:39:44.045Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "768e412e8c97",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia natural de Éric Sadin: un paraguas ante la torrencial lluvia de la IA",
+   "url": "https://www.ultimahora.es/noticias/cultura/2026/10/19/2732357/inteligencia-natural-eric-sadin-paraguas-ante-torrencial-lluvia-ia.html",
+   "publicat": "2026-10-19T18:34:00.000Z"
+  },
+  {
+   "id": "dfda2b9969ed",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Torres (BBVA) destaca el potencial de la inteligencia artificial para impulsar la transformación de las empresas y la economía",
+   "url": "https://www.informacion.es/economia/2026/10/19/torres-bbva-destaca-potencial-inteligencia-135517624.html",
+   "publicat": "2026-10-19T18:21:02.000Z"
+  },
   {
    "id": "d3a55144d20f",
    "mitja": "El Nacional",
@@ -2700,28 +2722,6 @@
    "titol": "IA y centros de datos",
    "url": "https://www.lavanguardia.com/economia/20261013/11657258/ia-inteligencia-artificial-espana-centros-datos.html",
    "publicat": "2026-10-13T03:00:00.000Z"
-  },
-  {
-   "id": "24c57a66bb67",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Un desenvolupador utilitza la IA per crear alternatives gratuïtes a Photoshop, Premiere i Lightroom",
-   "url": "https://www.elnacional.cat/ca/tecnologia/desenvolupador-utilitza-ia-crear-alternatives-gratuites-photoshop-premiere-lightroom_1708696_102.html",
-   "publicat": "2026-10-12T20:00:00.000Z"
-  },
-  {
-   "id": "d016b380bc31",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Google le pone pantalla a su pulsera de actividad más sencilla",
-   "url": "https://www.elmundo.es/tecnologia/2026/10/12/6acd2568fc6c83a6498b4573.html",
-   "publicat": "2026-10-12T18:24:57.000Z"
   }
  ]
 }
