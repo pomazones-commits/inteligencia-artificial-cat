@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "València",
+    "category": "IA I SOCIETAT",
+    "date": "19.10.2026",
+    "title": "València acull dimecres i dijous el VDS 2026, amb un programa d'IA el dia 21 sobre agents autònoms",
+    "summary": "L'esdeveniment tecnològic, organitzat per Startup Valencia a la Ciutat de les Arts i les Ciències, dedica una jornada a l'impacte de la IA generativa i dels agents.",
+    "detail": "València serà aquesta setmana el punt de trobada d'un dels esdeveniments tecnològics més grans de la Comunitat Valenciana. El VDS 2026, que arriba a la novena edició, se celebra el 21 i 22 d'octubre a la Ciutat de les Arts i les Ciències, organitzat per Startup Valencia, i hi dedica una jornada a la IA.\n\nSegons Valencia Plaza, el programa VDS AI és el dimecres 21 a l'escenari Future Stage i reuneix líders d'empreses tecnològiques per parlar del pas de la IA generativa als agents autònoms i del seu impacte global. Hi intervenen, entre altres, David Villalón i Manuel Romero, cofundadors de Maisa AI, una empresa que va tancar una ronda de 25 milions de dòlars el 2025; Linda Hong Cheng, d'Abstract Atomic; Marcos Valera, d'ElevenLabs; Javier Cortés, de Gamma; i Giedrius Zakaitis, conseller delegat de Hostinger. Adam Hruska, cofundador de l'AI Summit Barcelona, hi farà de moderador. Nacho Mas, conseller delegat de Startup Valencia, assegura que la IA està canviant la competitivitat de pràcticament tots els sectors.\n\nL'edició compta amb el Banco Santander com a patrocinador principal, amb València Innovation Capital, de l'Ajuntament de València, com a institució amfitriona, i amb la Generalitat Valenciana, la Universitat de València i la Universitat Politècnica de València entre els col·laboradors. Per al teixit empresarial valencià és una ocasió de veure de prop com les empreses emergents plantegen els agents d'IA.\n\nÉs una peça de previsió d'un acte, escrita a partir d'una crònica de premsa: el contingut real de les ponències es coneixerà quan se celebrin i aquí no es pot avançar què s'hi dirà. Cal comprovar el programa definitiu a la web de l'organització abans d'assistir-hi.",
+    "source": "Valencia Plaza",
+    "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/de-la-ia-generativa-a-los-agentes-autonomos-lideres-tecnologicos-analizaran-en-valencia-su-impacto-global",
+    "image": "./assets/vds-2026-valencia-programa-ia-20261019.jpg",
+    "slug": "vds-2026-valencia-programa-ia"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "19.10.2026",
@@ -85,17 +97,5 @@ window.IA_RADAR = [
     "url": "https://valenciaplaza.com/valenciaplaza/empresas1/valencia-busca-startups-para-probar-soluciones-de-inteligencia-artificial-aplicadas-a-emergencias",
     "image": "./assets/valencia-govtech-challenges-ia-emergencies-citcom-ai-20261016.jpg",
     "slug": "valencia-govtech-challenges-ia-emergencies-citcom-ai"
-  },
-  {
-    "place": "Lleida",
-    "category": "IA I SOCIETAT",
-    "date": "16.10.2026",
-    "title": "Ingroup compra els actius de BCN3D i obrirà a Lleida una fàbrica d'impressores 3D amb IA que s'ordenen de viva veu",
-    "summary": "El grup lleidatà ha invertit més de dos milions d'euros al polígon Activa Park, preveu 30 llocs de treball i presentarà les màquines al Formnext de Frankfurt al novembre.",
-    "detail": "BCN3D Technologies, fabricant d'impressores 3D amb fàbrica a Gavà, va demanar el concurs de creditors el maig del 2025 per un endeutament excessiu. Ingroup, un grup empresarial de Lleida que treballa en fabricació additiva des del 2015 com a distribuïdor i desenvolupador de programari, n'ha comprat els actius per fer el salt a fabricant.\n\nSegons El Nacional, Ingroup ha invertit més de dos milions d'euros en les instal·lacions i en la compra dels actius de BCN3D. La fàbrica serà al polígon Activa Park de Lleida i, segons el seu conseller delegat, Joan Folguera, serà la primera de Catalunya amb IA integrada i la segona de l'Estat. El responsable de planta, Francesc Adell, preveu crear 30 llocs de treball i fabricar entre 30 i 35 màquines de format petit al mes, d'uns 3.500 a 4.000 euros, i entre 8 i 10 d'Omega, de format gran, d'uns 22.000 euros.\n\nLa part d'IA és que la màquina entén les instruccions que l'operari li dicta de viva veu, crea el model digital de la peça i la fabrica, de manera que es redueix el temps entre la idea i l'objecte acabat. Folguera la compara amb una màquina expenedora autònoma i diu que són les úniques impressores d'Europa amb IA nativa. Unes vint empreses ja en fan proves de concepte i el sistema es presentarà oficialment al Formnext de Frankfurt, al novembre. S'adreça sobretot a la indústria de procés i als departaments d'enginyeria de producte, per fer prototips, recanvis a demanda i eines pròpies de muntatge. El projecte compta amb el suport del Departament de la Presidència de la Generalitat.\n\nLes xifres de producció, de preu i el caràcter pioner de la fàbrica són afirmacions de l'empresa que la crònica no contrasta amb cap font independent. Tampoc no detalla quin model d'IA fa servir la màquina ni com es comporta davant d'ordres ambigües, i queda per veure si la demanda justifica el ritme de producció previst un cop passin les proves de concepte.",
-    "source": "El Nacional",
-    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/ingroup-compra-actius-bcn3d-fabricara-impressores-3d-ia-integrada_1710106_102.html",
-    "image": "./assets/ingroup-bcn3d-impressores-3d-ia-lleida-20261016.jpg",
-    "slug": "ingroup-bcn3d-impressores-3d-ia-lleida"
   }
 ];
