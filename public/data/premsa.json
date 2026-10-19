@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-19T10:20:17.669Z",
+ "actualitzat": "2026-10-19T12:14:18.502Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "feec72682851",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Instagram busca una solución al contenido de IA que plagia obras originales de artistas y comediantes",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/19/2731851/instagram-busca-solucion-contenido-plagia-obras-originales-artistas-comediantes.html",
+   "publicat": "2026-10-19T10:05:00.000Z"
+  },
   {
    "id": "90669d10c5de",
    "mitja": "El Mundo",
@@ -13,6 +24,17 @@
    "titol": "Apple endurece sus pautas de la App Store para frenar las aplicaciones que generan desnudos con IA",
    "url": "https://www.elmundo.es/tecnologia/2026/10/19/6ad5ea18e9cf4a74058b4577.html",
    "publicat": "2026-10-19T09:59:54.000Z"
+  },
+  {
+   "id": "46f36734b4a1",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Pruebo el PETKIT Purobot Ultra: ventajas y límites del arenero autolimpiable con IA que ha cambiado la vida de mis gatos",
+   "url": "https://www.lavanguardia.com/comprar/hogar-cocina/20260915/11603088/pruebo-petkit-purobot-ultra-ventajas-limites-arenero-autolimpiable-ia-gatos-mkt-rvw.html",
+   "publicat": "2026-10-19T09:38:09.000Z"
   },
   {
    "id": "e0f896bdeb76",
@@ -45,7 +67,7 @@
    "ambit": "catala",
    "titol": "La reina y la princesa de Bélgica y otras figuras públicas, víctimas de desnudos con IA",
    "url": "https://www.ultimahora.es/noticias/sociedad/2026/10/19/2731777/reina-princesa-belgica-otras-figuras-publicas-victimas-desnudos-ia.html",
-   "publicat": "2026-10-19T09:17:45.000Z"
+   "publicat": "2026-10-19T09:17:00.000Z"
   },
   {
    "id": "eb18789209b2",
@@ -101,6 +123,17 @@
    "titol": "La inteligencia artificial entra en la notaría",
    "url": "https://cincodias.elpais.com/legal/2026-10-16/la-inteligencia-artificial-entra-en-la-notaria.html",
    "publicat": "2026-10-19T06:30:00.000Z"
+  },
+  {
+   "id": "41017cf897a7",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una IA con sello tarraconense mejora la detección de metástasis del cáncer de mama",
+   "url": "https://www.diaridetarragona.com/tarragona/273430/ia-sello-tarraconense-mejora-deteccion-metastasis-cancer-mama.html",
+   "publicat": "2026-10-19T06:28:37.000Z"
   },
   {
    "id": "4dfc31644e34",
@@ -166,7 +199,9 @@
    "ambit": "estatal",
    "titol": "El Santander se alía con Nvidia para desplegar la IA en todo el banco",
    "url": "https://cincodias.elpais.com/companias/2026-10-19/el-santander-se-alia-con-nvidia-para-desplegar-la-ia-en-todo-el-banco.html",
-   "publicat": "2026-10-19T05:00:00.000Z"
+   "publicat": "2026-10-19T05:00:00.000Z",
+   "noticia": "santander-nvidia-acord-tres-anys-ia-tot-el-banc",
+   "noticiaTitol": "El Santander i Nvidia pacten tres anys de col·laboració per portar l'IA dels pilots a tot el banc"
   },
   {
    "id": "e61adc3402d0",
@@ -2641,50 +2676,6 @@
    "titol": "El magnate que asesora a Trump sobre IA y guerra pide realizar ejecuciones públicas: \"Tienen que ser brutales\"",
    "url": "https://www.elperiodico.com/es/internacional/20261012/brutales-magnate-asesora-trump-ia-guerra-ejecucion-eeuu-palmer-luckey-anduril-pentagono-musk-135253638",
    "publicat": "2026-10-12T14:57:37.000Z"
-  },
-  {
-   "id": "9ca88d1a68b4",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Google lanza Fitbit Edge, una pulsera de salud con entrenador de Gemini y batería reemplazable",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261012/google-lanza-fitbit-edge-pulsera-135202977",
-   "publicat": "2026-10-12T12:00:15.000Z"
-  },
-  {
-   "id": "356bcba70272",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El FMI confirma que la IA tira del crecimiento y puede compensar el declive demográfico",
-   "url": "https://www.lavanguardia.com/internacional/20261012/11656938/fmi-confirma-ia-tira-crecimiento-compensar-declive-demografico.html",
-   "publicat": "2026-10-12T11:30:03.000Z"
-  },
-  {
-   "id": "c584ab8fa32a",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Ferran Adrià (64 años) revela cómo ChatGPT le ha ayudado a hablar mejor: \"Estoy empezando a hacer un trabajo de logopeda\"",
-   "url": "https://www.elperiodico.com/es/gente/20261012/ferran-adria-serie-genesi-actor-miquel-fernandez-logopeda-habla-el-bulli-dv-et-134786628",
-   "publicat": "2026-10-12T11:12:00.000Z"
-  },
-  {
-   "id": "723707c5e251",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "“Si la inteligencia artificial llega a ser más inteligente que nosotros, seremos como un gato intentando encerrar a un humano”",
-   "url": "https://www.lavanguardia.com/clic/20261012/11653465/inteligencia-artificial-llega-mas-inteligente-seremos-gato-intentando-encerrar-humano-gvm.html",
-   "publicat": "2026-10-12T10:35:00.000Z"
   }
  ]
 }
