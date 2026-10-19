@@ -1,8 +1,44 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-17T08:02:57.282Z",
+ "actualitzat": "2026-10-19T08:12:37.293Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "mEulEkuxCnM",
+   "titol": "This is the new ChatGPT Voice, powered by GPT Live",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-19T05:30:13.000Z",
+   "descripcio": "You’ll want to turn the sound on for this one. Read more here: https://chatgpt.com/features/voice/",
+   "miniatura": "/assets/videos/mEulEkuxCnM.jpg"
+  },
+  {
+   "id": "xIEzjwReF2s",
+   "titol": "This is the new ChatGPT Voice, powered by GPT Live",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-19T04:30:15.000Z",
+   "descripcio": "Ein kleiner Tipp von uns: Ton an, denn das willst du hören. Hier weiterlesen: https://chatgpt.com/de-DE/features/voice/",
+   "miniatura": "/assets/videos/xIEzjwReF2s.jpg"
+  },
+  {
+   "id": "-vpwIHxkDFw",
+   "titol": "This is the new ChatGPT Voice, powered by GPT Live",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-19T04:30:12.000Z",
+   "descripcio": "Pour cette vidéo, pensez à activez le son pour ne rien manquer. En savoir plus: https://chatgpt.com/fr-FR/features/voice/",
+   "miniatura": "/assets/videos/-vpwIHxkDFw.jpg"
+  },
   {
    "id": "GBOZIRK1ujw",
    "titol": "Put your dot on call",
@@ -29,7 +65,7 @@
   },
   {
    "id": "OMxEUdIgsQc",
-   "titol": "Put ChatGPT to work on shared team tasks",
+   "titol": "How teams can automate recurring tasks with ChatGPT",
    "canal": "OpenAI",
    "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
    "grup": "empreses",
