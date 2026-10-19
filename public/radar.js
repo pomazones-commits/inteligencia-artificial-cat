@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Tarragona",
+    "category": "IA I SOCIETAT",
+    "date": "19.10.2026",
+    "title": "Investigadors de la UPF, la URV i l'Hospital de Tortosa combinen dades clíniques i immunitàries en un model d'IA per detectar metàstasi als ganglis en el càncer de mama",
+    "summary": "L'estudi, publicat a «Breast Cancer Research», redueix els falsos positius respecte d'un model amb dades clíniques només i proposa un possible biomarcador, però no prediu qui desenvoluparà metàstasi.",
+    "detail": "Quan el càncer de mama arriba als ganglis limfàtics de l'aixella, la mortalitat augmenta de manera clara; per això és important saber com més aviat millor si s'hi ha estès. Segons l'Organització Mundial de la Salut, el 2024 es van diagnosticar més de 2,4 milions de casos de càncer de mama al món i en van morir uns 694.000 dones.\n\nUn equip format per la Unitat BCN MedTech de la Universitat Pompeu Fabra (Alba Fischer Carles, Gemma Piella i Jérôme Noailly), l'Hospital Universitari de Tortosa Verge de la Cinta, l'Institut de Recerca Biomèdica Catalunya Sud i la Universitat Rovira i Virgili, amb l'Hospital Joan XXIII de Tarragona, ha publicat a la revista «Breast Cancer Research» (volum 28, article 121) un model d'aprenentatge automàtic que, per primera vegada en un estudi així, afegeix a les dades clíniques i anatomopatològiques les de la resposta immunitària de la pacient. El model final es va entrenar amb 83 dones amb càncer de mama luminal, diagnosticades entre el 1995 i el 2008; set de les nou variables immunitàries provenen de ganglis de l'aixella sense metàstasi. Es van comparar amb un model que només feia servir dades clíniques i que s'havia entrenat amb una sèrie més àmplia de 344 pacients.\n\nEl resultat és que el model amb dades immunitàries redueix els falsos positius de metàstasi respecte del que només té dades clíniques. L'estudi proposa també un possible biomarcador, el CD21 dins del tumor, que correspon a cèl·lules dendrítiques fol·liculars, i suggereix que els ganglis sense metàstasi també donen informació útil sobre com evoluciona la malaltia. Segons els autors, la resposta immunitària no s'avalua de manera rutinària en la pràctica clínica, i el model podria reforçar els mètodes diagnòstics actuals.\n\nEls autors adverteixen que l'eina no serveix per predir si una pacient desenvoluparà metàstasi, sinó per establir quines variables, sobretot immunitàries, s'associen al fet de tenir-ne a l'aixella. La mostra és petita, d'una sola zona i d'un sol tipus de tumor, i el biomarcador s'ha de confirmar en sèries més àmplies i en pacients d'altres centres abans de poder arribar a la consulta.",
+    "source": "Breast Cancer Research (nota de la URV)",
+    "url": "https://doi.org/10.1186/s13058-026-02294-9",
+    "image": "./assets/cancer-mama-ia-immunitat-ganglis-catalunya-20261019.jpg",
+    "slug": "ia-metastasi-ganglis-cancer-mama-upf-urv-tortosa"
+  },
+  {
     "place": "València",
     "category": "IA I SOCIETAT",
     "date": "19.10.2026",
@@ -85,17 +97,5 @@ window.IA_RADAR = [
     "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/inescop-investiga-el-uso-de-la-inteligencia-artificial-para-acelerar-el-diseno-y-desarrollo-de-calzado",
     "image": "./assets/prodia-calcat-envasos-ia-comunitat-valenciana-20261017.jpg",
     "slug": "prodia-calcat-envasos-ia-comunitat-valenciana"
-  },
-  {
-    "place": "València",
-    "category": "EMPRESA",
-    "date": "16.10.2026",
-    "title": "València busca empreses que provin solucions d'IA per a inundacions, incendis i alertes a la ciutadania, amb 10.000 euros per projecte",
-    "summary": "València Innovation Capital convoca sis reptes d'emergències dins del projecte europeu CitCom.ai. Les empreses tenen fins l'11 de novembre per presentar-hi una proposta.",
-    "detail": "L'Ajuntament de València vol saber quines solucions d'IA poden ajudar de debò a prevenir, afrontar i protegir la gent en una emergència. Per això, València Innovation Capital, el centre municipal d'innovació Las Naves, ha obert una convocatòria dels seus GovTech Challenges, dins del projecte europeu CitCom.ai, el node sud del qual coordina la ciutat.\n\nHi ha sis reptes independents: la predicció d'inundacions, la gestió de recursos per a l'extinció d'incendis, la localització de persones que necessiten ajuda amb garanties de privacitat, els sistemes públics d'alerta, la visualització compartida de recursos de bombers, policia i 112, i la gestió intel·ligent del trànsit amb detecció de multituds. Poden presentar-se empreses, pimes i empreses emergents, soles o en unió temporal, amb una proposta per a un sol repte.\n\nUn jurat avaluarà de forma anònima els informes tècnics segons la viabilitat, l'experiència de l'equip, l'originalitat, l'impacte, l'escalabilitat, l'ètica i la protecció de dades, i l'accessibilitat. Se'n triarà una per repte, amb experiments de tres mesos. Cada experiment rebrà com a màxim 10.000 euros, sense IVA, i 60.000 en total, a més d'assessorament, un entorn de proves urbà, el clúster de GPU de VRAIN i dades obertes de la ciutat. Les propostes es presenten a la Plataforma de Contractació del Sector Públic fins l'11 de novembre a les 23.59.\n\nÉs una convocatòria de proves, no un contracte de desplegament: els imports són modestos i res no garanteix que cap solució acabi als serveis d'emergències. L'accés a certes dades municipals requerirà autorització prèvia, viabilitat tècnica i compliment de les normes de protecció de dades i seguretat.",
-    "source": "Valencia Plaza",
-    "url": "https://valenciaplaza.com/valenciaplaza/empresas1/valencia-busca-startups-para-probar-soluciones-de-inteligencia-artificial-aplicadas-a-emergencias",
-    "image": "./assets/valencia-govtech-challenges-ia-emergencies-citcom-ai-20261016.jpg",
-    "slug": "valencia-govtech-challenges-ia-emergencies-citcom-ai"
   }
 ];

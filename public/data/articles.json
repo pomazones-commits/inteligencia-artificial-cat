@@ -1,6 +1,69 @@
 {
-  "updatedAt": "2026-10-19T08:11:55.511Z",
+  "updatedAt": "2026-10-19T12:13:40.710Z",
   "items": [
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "slug": "microsoft-nscale-loughton-centre-dades-xarxa-electrica",
+      "title": "Microsoft es retira del centre de dades de Nscale a Essex, que podria no tenir corrent elèctric fins al 2030, setmanes abans de la sortida a borsa",
+      "excerpt": "El «Telegraph» explica que Microsoft ha deixat l'acord que l'havia de convertir en el client principal del primer centre de dades britànic de Nscale. L'empresa diu que continua compromesa amb Loughton.",
+      "sourceName": "The Next Web",
+      "sourceUrl": "https://thenextweb.com/news/microsoft-pulls-out-nscale-loughton-data-centre-ipo",
+      "sourceDate": "18 d'octubre de 2026",
+      "body": "Nscale, l'empresa britànica de núvol d'IA, preparava a Loughton, a Essex, el seu primer centre de dades al Regne Unit, amb una inversió anunciada de 2.000 milions de lliures. El projecte es va presentar l'any passat amb gran ressò, dins de l'acord tecnològic entre el Regne Unit i els Estats Units, en què Microsoft es va comprometre a invertir 22.000 milions de lliures en IA al país, i Microsoft n'havia de ser el client principal.\n\nSegons el «Telegraph», que han recollit The Next Web i Property Week, Microsoft s'ha retirat d'aquest acord. El diari no diu per què, i Microsoft no ha volgut fer comentaris. El que sí que consta és que el centre, de 50 megawatts ampliables a 90, havia de tenir corrent a finals d'aquest any i que la connexió a la xarxa elèctrica podria no arribar fins a principis dels anys 2030.\n\nNscale diu que continua compromesa amb el projecte i amb el Regne Unit, que estudia fonts d'energia alternatives i altres emplaçaments, i atribueix el problema a una «dificultat de la xarxa elèctrica de tot Londres» que no afecta els altres contractes. Afegeix que la relació amb Microsoft «continua sent sòlida i a llarg termini»; tots dos treballen també en projectes a Noruega, Portugal i els Estats Units. La notícia arriba quan l'empresa prepara la sortida a la borsa de Nova York per aixecar fins a 3.000 milions de dòlars, i el seu document de sortida a borsa recull que Microsoft i Anthropic representen un 85% dels contractes. Aquest cas il·lustra que el coll d'ampolla dels centres de dades d'IA és sovint l'electricitat, més que els xips. Un informe de la consultora Roadnight Taylor citat per Property Week indica que la meitat dels promotors britànics esperen una connexió en un o dos anys, però sovint n'esperen entre tres i vuit. Si la retirada afecta la valoració de Nscale, ho haurà de dir el mercat.\n\nConvé tenir present que la retirada de Microsoft es coneix per una informació del «Telegraph» recollida per altres mitjans; ni Microsoft ni Nscale n'han donat un motiu detallat. Tampoc no se sap si el termini dels anys 2030 és definitiu o si la solució d'energia alternativa que busca Nscale el podria escurçar.",
+      "image": "./assets/microsoft-nscale-loughton-centre-dades-20261019.jpg",
+      "etiquetes": [
+        "centres-de-dades"
+      ]
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "slug": "ia-metastasi-ganglis-cancer-mama-upf-urv-tortosa",
+      "title": "Investigadors de la UPF, la URV i l'Hospital de Tortosa combinen dades clíniques i immunitàries en un model d'IA per detectar metàstasi als ganglis en el càncer de mama",
+      "excerpt": "L'estudi, publicat a «Breast Cancer Research», redueix els falsos positius respecte d'un model amb dades clíniques només i proposa un possible biomarcador, però no prediu qui desenvoluparà metàstasi.",
+      "sourceName": "Breast Cancer Research (nota de la URV)",
+      "sourceUrl": "https://doi.org/10.1186/s13058-026-02294-9",
+      "sourceDate": "19 d'octubre de 2026",
+      "body": "Quan el càncer de mama arriba als ganglis limfàtics de l'aixella, la mortalitat augmenta de manera clara; per això és important saber com més aviat millor si s'hi ha estès. Segons l'Organització Mundial de la Salut, el 2024 es van diagnosticar més de 2,4 milions de casos de càncer de mama al món i en van morir uns 694.000 dones.\n\nUn equip format per la Unitat BCN MedTech de la Universitat Pompeu Fabra (Alba Fischer Carles, Gemma Piella i Jérôme Noailly), l'Hospital Universitari de Tortosa Verge de la Cinta, l'Institut de Recerca Biomèdica Catalunya Sud i la Universitat Rovira i Virgili, amb l'Hospital Joan XXIII de Tarragona, ha publicat a la revista «Breast Cancer Research» (volum 28, article 121) un model d'aprenentatge automàtic que, per primera vegada en un estudi així, afegeix a les dades clíniques i anatomopatològiques les de la resposta immunitària de la pacient. El model final es va entrenar amb 83 dones amb càncer de mama luminal, diagnosticades entre el 1995 i el 2008; set de les nou variables immunitàries provenen de ganglis de l'aixella sense metàstasi. Es van comparar amb un model que només feia servir dades clíniques i que s'havia entrenat amb una sèrie més àmplia de 344 pacients.\n\nEl resultat és que el model amb dades immunitàries redueix els falsos positius de metàstasi respecte del que només té dades clíniques. L'estudi proposa també un possible biomarcador, el CD21 dins del tumor, que correspon a cèl·lules dendrítiques fol·liculars, i suggereix que els ganglis sense metàstasi també donen informació útil sobre com evoluciona la malaltia. Segons els autors, la resposta immunitària no s'avalua de manera rutinària en la pràctica clínica, i el model podria reforçar els mètodes diagnòstics actuals.\n\nEls autors adverteixen que l'eina no serveix per predir si una pacient desenvoluparà metàstasi, sinó per establir quines variables, sobretot immunitàries, s'associen al fet de tenir-ne a l'aixella. La mostra és petita, d'una sola zona i d'un sol tipus de tumor, i el biomarcador s'ha de confirmar en sèries més àmplies i en pacients d'altres centres abans de poder arribar a la consulta.",
+      "image": "./assets/cancer-mama-ia-immunitat-ganglis-catalunya-20261019.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "pell-artificial-iontronica-robot-humanoide-nature-machine-intelligence",
+      "title": "Una pell artificial amb més de 10.000 sensors permet que robots humanoides notin relleus de 300 micròmetres i reaccionin als estímuls nocius",
+      "excerpt": "Un estudi a «Nature Machine Intelligence» descriu una pell que reparteix la feina com el sistema sensorial humà: només envia el que cal i redueix el volum de dades centenars de vegades.",
+      "sourceName": "Nature Machine Intelligence",
+      "sourceUrl": "https://www.nature.com/articles/s42256-026-01325-6",
+      "sourceDate": "16 d'octubre de 2026",
+      "body": "La pell humana recull senyals de més de 200.000 mecanoreceptors i els tracta en capes, de manera que podem notar una textura fina o retirar la mà d'una cosa que crema abans de pensar-hi. Els sensors tàctils que s'han construït per a robots tenen pocs punts i els llegeixen un darrere l'altre; com més n'hi ha, més triga la lectura i més s'interfereixen els senyals.\n\nUn equip liderat per Li i col·laboradors ha publicat a «Nature Machine Intelligence» una pell iontrònica amb una densitat de 1.110 sensors per centímetre quadrat i més de 10.000 sensors en total. Imita l'arquitectura jeràrquica del sistema sensorial humà: codifica la posició de cada sensor per freqüència, cosa que permet enviar els senyals en paral·lel i sense que s'interfereixin a 100 imatges per segon, i després els comprimeix, amb la qual cosa el volum de dades que cal transmetre es redueix centenars de vegades.\n\nEls autors han provat la pell en robots humanoides. Segons l'article, els permet distingir trets superficials de 300 micròmetres, que és una fracció de mil·límetre, manipular objectes delicats i respondre a estímuls nocius amb reaccions d'autoprotecció, de manera semblant al reflex del dolor. És un pas cap a robots amb una percepció tàctil més pròxima a la humana.\n\nEl resultat és una demostració de laboratori. El resum de l'article no explica quant dura el material, què costaria fabricar-lo en sèrie ni com es comportaria fora de les proves descrites; la comparació amb la pell humana és una analogia de disseny, no una equivalència.",
+      "image": "./assets/pell-artificial-iontronica-robot-humanoide-20261019.jpg"
+    },
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "slug": "santander-nvidia-acord-tres-anys-ia-tot-el-banc",
+      "title": "El Santander i Nvidia pacten tres anys de col·laboració per portar l'IA dels pilots a tot el banc",
+      "excerpt": "L'acord cobreix models de base, agents, prevenció del frau i del blanqueig de capitals, decisions en temps real i simulació. El banc diu que un primer ús en atenció al client ha reduït els costos un 50%.",
+      "sourceName": "Cinco Días",
+      "sourceUrl": "https://cincodias.elpais.com/companias/2026-10-19/el-santander-se-alia-con-nvidia-para-desplegar-la-ia-en-todo-el-banco.html",
+      "sourceDate": "19 d'octubre de 2026",
+      "body": "El Banco Santander ha signat amb Nvidia un marc de col·laboració de tres anys per estendre a tota l'entitat les solucions d'intel·ligència artificial que fins ara havia provat en projectes pilot. L'acord arrenca d'una unitat del banc, el Santander IA Lab, on les dues empreses ja havien desenvolupat capacitats conjuntes.\n\nEntre aquestes hi ha Model Arena, una plataforma del banc que avalua com funcionen diferents models en tasques bancàries i permet triar el més adequat per a cada ús, amb eines de Nvidia. Serveix per dissenyar, simular, avaluar i supervisar agents bancaris. Segons el banc, l'ús experimental d'aquestes tecnologies en atenció al client ha reduït els costos un 50%, perquè s'han pogut fer servir models més eficients. El nou marc abasta els models de base, els agents d'IA, la prevenció del frau i del blanqueig de capitals, la presa de decisions en temps real i les tecnologies de simulació avançada.\n\nL'acord entronca amb el pla estratègic de la presidenta, Ana Botín, que preveu un banc més rendible i amb menys costos gràcies a la IA. Botín va fixar en 1.000 milions d'euros l'impacte en dos anys (300 milions d'ingressos més i 700 de costos menys), i al juny va dir que en els sis primers mesos de l'any ja n'havien sortit 200 milions.\n\nLes xifres de rendiment són del mateix banc i no consten verificades de manera independent, i el pacte no n'indica l'import econòmic. Convé veure si el pas del pilot a tot el grup arriba amb els mateixos resultats en àrees tan diferents com el frau o la decisió en temps real.",
+      "image": "./assets/santander-nvidia-alianca-ia-banc-20261019.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "apple-normes-app-store-nudificacio-ia-funcions-amagades",
+      "title": "Apple endureix les normes de l'App Store contra les aplicacions que despullen persones amb IA i contra les que amaguen funcions després de la revisió",
+      "excerpt": "Les directrius actualitzades el 16 d'octubre afegeixen una norma contra les funcions amagades, inclosa l'ofuscació del codi, i adverteixen que qui no posi salvaguardes pot incomplir el codi de conducta dels desenvolupadors.",
+      "sourceName": "9to5Mac",
+      "sourceUrl": "https://9to5mac.com/2026/10/16/apples-new-app-store-rules-crack-down-on-ai-nudification-and-bait-and-switch-apps/",
+      "sourceDate": "16 d'octubre de 2026",
+      "body": "Durant l'últim any s'han multiplicat els informes sobre aplicacions que generen imatges íntimes sense consentiment. El gener, el Tech Transparency Project en va identificar desenes a l'App Store, i el juliol l'Ajuntament de San Francisco va ordenar a Apple que en retirés vuit. Apple va respondre llavors que les aplicacions de «nudificació» ja anaven contra les seves normes.\n\nEl 16 d'octubre Apple ha actualitzat les seves directrius de revisió d'aplicacions, tal com consta a la seva pàgina per a desenvolupadors. A l'apartat 1.2, sobre contingut generat pels usuaris, el text cita expressament la imatgeria íntima no consentida, i avisa que qui no apliqui salvaguardes adequades o no corregeixi les infraccions un cop avisat pot incomplir el codi de conducta dels desenvolupadors. Una norma nova, la 2.5.19, prohibeix les funcions amagades, latents o no documentades, i diu que dissimular-les en el codi, per exemple amb ofuscació, és motiu de retirada i de cancel·lació del compte. Apple vol així frenar les aplicacions «esquer i canvi», que presenten una finalitat durant la revisió i només mostren després capacitats nocives com la nudificació.\n\nL'apartat legal també reforça el text: les aplicacions que facilitin el tràfic de persones o l'explotació infantil seran retirades de la botiga i bloquejades de la distribució alternativa. Per als desenvolupadors, vol dir que la responsabilitat sobre allò que genera una aplicació es fa més explícita, i que la revisió de la botiga no és l'únic filtre.\n\nUna norma escrita no garanteix que s'apliqui, i Apple no ha dit quantes aplicacions revisarà ni quines retirarà. La prohibició de les funcions amagades ja existia a l'apartat 2.3.1; la novetat és que és més explícita i amb sancions més clares.",
+      "image": "./assets/apple-app-store-normes-aplicacions-nuesa-ia-20261019.jpg"
+    },
     {
       "category": "MODELS",
       "read": "5 MIN",
