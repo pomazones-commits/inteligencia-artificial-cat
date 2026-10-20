@@ -1,5 +1,65 @@
 window.IA_NEWS = [
   {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "eka-150-milions-ronda-a-robot-forca-manipulacio",
+    "title": "Eka Robotics aixeca 150 milions de dòlars amb un model de robòtica que prioritza la força sobre el llenguatge",
+    "excerpt": "La startup, fundada per un professor del MIT i un exinvestigador de DeepMind, es valora en 1.450 milions de dòlars amb una pinça sensible a la força i un model que ha après en simulació.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+    "sourceDate": "20 d'octubre de 2026",
+    "body": "Eka Robotics ha tancat una ronda sèrie A de 150 milions de dòlars amb una valoració de 1.450 milions després de la inversió, segons TechCrunch. La lideren a16z i F-Prime. L'empresa la van fundar Pulkit Agrawal, professor del MIT, i Tuomas Haarnoja, exinvestigador de Google DeepMind, que es van conèixer com a estudiants de doctorat a Berkeley.\n\nEl producte és un sistema de manipulació amb una pinça que porta més sensors de força que les convencionals. El seu model de base és de tipus visió-força-acció: dona més pes al que «sent» la mà que no pas als models visió-llenguatge-acció, que es guien sobretot per instruccions en text. L'entrenament es fa en un simulador de física que reprodueix les forces d'un agafament, i d'aquí s'alimenta un entorn d'aprenentatge per reforç que, segons l'empresa, genera milers d'hores d'experiència robòtica en pocs minuts. Els fundadors no han donat detalls de com l'han construït.\n\nL'empresa afirma que el robot mou uns 1.500 objectes per hora, de fins a un quilo cadascun, davant dels uns 600 d'una persona, i que encerta més del 95% dels cops. La pinça costa menys de 1.000 dòlars i està pensada per a 5 milions de cicles, amb l'objectiu d'arribar als 20 milions, que és l'estàndard dels braços industrials. Els experts consultats lloen el maneig suau, com no aixafar una gerd. Ara fa proves pilot amb clients industrials, sense fer-ne públic el nom, en tasques de recollida i col·locació i de manipulació de cables.\n\nCal llegir-ho amb prudència. Les xifres de velocitat i fiabilitat són de l'empresa i no hi ha cap prova independent. El roboticista Kris Hauser, de la Universitat d'Illinois, recorda que una línia de muntatge demana un any de funcionament fiable i que moltes tasques industrials de valor van més enllà de recollir i col·locar. La previsió que el robot superarà les persones en molts treballs de destresa en pocs mesos és d'un inversor, no un resultat comprovat.",
+    "image": "./assets/eka-150-milions-ronda-a-robot-forca-manipulacio-20261020.jpg"
+  },
+  {
+    "category": "SALUT",
+    "read": "5 MIN",
+    "slug": "ia-cara-risc-mort-pacients-cancer-lancet-digital-health",
+    "title": "Una IA calcula el risc de mort de pacients amb càncer a partir d'una fotografia de la cara, però encara és lluny de la clínica",
+    "excerpt": "Dues eines publicades a The Lancet Digital Health estimen l'edat biològica i ordenen els malalts per risc de mortalitat: els qui semblen cinc anys més grans moren un 21% més.",
+    "sourceName": "El Nacional (The Lancet Digital Health)",
+    "sourceUrl": "https://www.elnacional.cat/ca/salut/ia-podria-calcular-risc-mort-pacients-cancer-analisi-cara_1712053_102.html",
+    "sourceDate": "20 d'octubre de 2026",
+    "body": "Un estudi publicat a la revista The Lancet Digital Health presenta dues eines d'intel·ligència artificial que analitzen una fotografia de la cara per orientar el pronòstic de pacients amb càncer. La informació la recull El Nacional, que no diu quin és el grup de recerca ni la institució que hi ha al darrere. La revista és revisada per parells i l'article original és a la seva web, però no hem pogut obrir-lo per comprovar-ne tots els detalls.\n\nLa primera eina, FAHR-FaceAge, estima l'edat biològica de la persona a partir de la cara; segons el diari, es va entrenar amb prop de 740.000 retrats de persones amb l'edat real coneguda. La segona, FAHR-FaceSurvival, ordena els malalts segons el risc de mortalitat: va rebre unes 35.000 fotografies de pacients de càncer amb dades de supervivència, edat, sexe, tipus de tumor i tractament. L'error mitjà en l'edat és d'uns 5,1 anys, i arriba a uns 7 en els pacients tractats amb radioteràpia.\n\nEls resultats principals són que els pacients que semblaven com a mínim cinc anys més grans que la seva edat real tenien un 21% més de risc de morir, i que els del quart amb més risc segons la IA tenien una mortalitat més de tres vegades superior a la dels del quart amb menys risc. Segons l'article, el maquillatge, la llum, l'angle de la foto, la cirurgia estètica o l'expressió gairebé no alteraven l'estimació.\n\nEls mateixos investigadors avisen que és una tecnologia en una fase molt inicial: cal comprovar-ne la fiabilitat i comparar-ne les estimacions amb els marcadors d'envelliment biològic ja establerts. La presenten com un suport per a la decisió clínica, no com un substitut del criteri dels professionals ni de l'atenció personalitzada. Que la cara reveli problemes de salut no la converteix, per ara, en una prova diagnòstica fiable.",
+    "image": "./assets/ia-cara-risc-mort-pacients-cancer-lancet-digital-health-20261020.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "5 MIN",
+    "slug": "deepmind-quatre-agents-gemini-minecraft-ender-dragon-preprint",
+    "title": "Quatre agents d'IA de Google DeepMind aconsegueixen vèncer el drac d'Ender de Minecraft sense ajuda humana, en una sola partida",
+    "excerpt": "L'equip va necessitar 27 hores i 14 minuts, 2.783 programes propis i 605 morts. És una prepublicació encara no revisada per parells.",
+    "sourceName": "Tech Xplore (arXiv)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-ai-slays-dragon-agents-conquer.html",
+    "sourceDate": "20 d'octubre de 2026",
+    "body": "Tres investigadors de Google DeepMind, Maxence Faldor, Satinder Singh i Roberta Raileanu, expliquen que un equip de quatre agents basats en Gemini 4 Argon ha derrotat el drac d'Ender, l'últim enemic de Minecraft, sense que cap persona hi intervingués. El treball, titulat «A team of Gemini 4 Argon agents beats Minecraft», és una prepublicació a arXiv i encara no ha estat revisat per parells. Ho recull Tech Xplore.\n\nEls agents jugaven en un món de supervivència generat a l'atzar, en dificultat fàcil i amb les ordres de trampa desactivades. Controlaven els personatges escrivint codi JavaScript amb Mineflayer, una eina habitual per governar robots de joc; rebien actualitzacions en text sobre salut, inventari i posició, i es comunicaven pel xat del joc. Un cinquè agent feia d'observador per comprovar el progrés i detectar errors tècnics. No tenien dades d'entrenament específiques de Minecraft, ni estratègia ni rols assignats: només l'ordre de vèncer el drac.\n\nVan tardar 27 hores i 14 minuts, van escriure 2.783 programes a mida i van acumular 605 morts, de les quals es van recuperar canviant d'estratègia i de codi. Els autors descriuen un camí de tretze passos, des de les mans nues fins al combat final. Els investigadors seguien una pantalla en directe, però no van intervenir durant la partida.\n\nEl resultat s'ha de prendre com una demostració, no com una mesura. És una sola partida i els mateixos autors reconeixen que no permet saber amb quina fiabilitat funciona el muntatge. No s'ha replicat, no ha passat per revisió científica i es va fer en dificultat fàcil, de manera que no se sap com respondria en condicions més dures.",
+    "image": "./assets/deepmind-quatre-agents-gemini-minecraft-ender-dragon-preprint-20261020.jpg"
+  },
+  {
+    "category": "CATALUNYA",
+    "read": "3 MIN",
+    "slug": "xavier-nueno-premi-anagrama-assaig-revuelta-copistas-ia",
+    "title": "El barceloní Xavier Nueno guanya el Premi Anagrama d'Assaig amb un llibre sobre com la IA s'apropia del saber",
+    "excerpt": "«La revuelta de los copistas» examina com les tecnològiques han privatitzat el patrimoni de les biblioteques i el revenen en subscripcions. El jurat el qualifica de «crit d'alerta».",
+    "sourceName": "Ara",
+    "sourceUrl": "https://llegim.ara.cat/actualitat/premi-anagrama-crit-d-alerta-privatitzacio-trampa-ia_1_5884593.html",
+    "sourceDate": "20 d'octubre de 2026",
+    "body": "L'escriptor i investigador barceloní Xavier Nueno (1990) ha guanyat el Premi Anagrama d'Assaig, dotat amb 10.000 euros, amb «La revuelta de los copistas», segons informa l'Ara. Nueno és doctor en Estudis Fílmics i Visuals per Harvard i el seu primer assaig va ser «El arte del saber ligero» (Siruela, 2023). El llibre surt a la venda el 21 d'octubre.\n\nL'assaig defensa que el coneixement s'ha privatitzat i convertit en mercaderia. Segons el diari, sosté que les empreses tecnològiques s'han quedat el patrimoni intel·lectual que custodiaven les biblioteques i ara el tornen a vendre per subscripció. Posa el focus en els qui han classificat la informació al llarg dels segles, dels copistes als programadors, i presenta la IA com un «simulacre» de coneixement. També qüestiona què valen els algoritmes i les dades massives com a formes de saber, i evita les prediccions apocalíptiques.\n\nEl jurat, de sis membres, va valorar el llibre com a una advertència. Pau Luque diu que el seu valor és ser un «crit d'alerta», i Jordi Gracia, que el bum de la IA és una «estafa gegantina», almenys per a les humanitats. Són opinions del jurat, no pas conclusions demostrades del llibre.\n\nLa notícia no és tecnològica, sinó cultural: mostra que el debat sobre qui s'enriqueix amb els textos que alimenten els models ha arribat als premis literaris de referència. Cal tenir en compte que només hem pogut llegir la ressenya de l'Ara; no hem tingut accés al llibre, que encara no és a les llibreries, i per tant no en podem valorar els arguments de primera mà.",
+    "image": "./assets/xavier-nueno-premi-anagrama-assaig-revuelta-copistas-ia-20261020.jpg"
+  },
+  {
+    "category": "TECNOLOGIA",
+    "read": "3 MIN",
+    "slug": "yelp-assistent-ia-truca-restaurants-temps-espera",
+    "title": "Yelp posa un agent d'IA a trucar als restaurants per saber quant de temps cal esperar per a taula",
+    "excerpt": "La funció «Check for Me» truca al local en nom de l'usuari i li envia el resultat per missatge. L'assistent també podrà reservar amb OpenTable i recordar preferències.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+    "sourceDate": "20 d'octubre de 2026",
+    "body": "Yelp ha afegit a la seva aplicació una funció, «Check for Me», que fa trucades en nom de l'usuari per saber quant cal esperar per a una taula, segons TechCrunch. N'hi ha prou d'obrir la fitxa d'un restaurant, indicar el nombre de persones i el número de telèfon, i un agent de veu truca al local. Després envia el resultat a l'usuari per missatge de text.\n\nL'actualització inclou altres canvis a l'assistent d'IA de l'aplicació. Permet reservar taula amb OpenTable sense sortir de Yelp, recorda les preferències que l'usuari ha esmentat en converses anteriors (ara hi ha accés a l'historial dels últims 30 dies, i el complet arribarà més endavant) i fa avisos personalitzats, com ara suggeriments d'activitats cada divendres. També hi ha dues llistes, «Been Here» i «Want to Go», que es poden filtrar, ordenar, anotar i compartir. El mes que ve començaran les recomanacions setmanals personalitzades.\n\nPer a empreses, Yelp ofereix Smart Lead Reply, que contesta els clients i qualifica contactes, per 30 dòlars al mes; el propietari pot decidir com gestiona les converses l'agent.\n\nL'article no diu quin model d'IA fa servir Yelp, en quins països serà disponible «Check for Me», quan arribarà, ni quins límits té. TechCrunch també apunta un risc evident: l'agent de l'usuari pot acabar parlant amb l'agent del restaurant, i aquesta conversa entre màquines pot fallar.",
+    "image": "./assets/yelp-assistent-ia-truca-restaurants-temps-espera-20261020.jpg"
+  },
+  {
     "category": "POLÍTICA",
     "read": "4 MIN",
     "slug": "eua-prohibeix-deepseek-agencies-federals-civils",

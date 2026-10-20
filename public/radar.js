@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "20.10.2026",
+    "title": "El barceloní Xavier Nueno guanya el Premi Anagrama d'Assaig amb un llibre sobre com la IA s'apropia del saber",
+    "summary": "«La revuelta de los copistas» examina com les tecnològiques han privatitzat el patrimoni de les biblioteques i el revenen en subscripcions. El jurat el qualifica de «crit d'alerta».",
+    "detail": "L'escriptor i investigador barceloní Xavier Nueno (1990) ha guanyat el Premi Anagrama d'Assaig, dotat amb 10.000 euros, amb «La revuelta de los copistas», segons informa l'Ara. Nueno és doctor en Estudis Fílmics i Visuals per Harvard i el seu primer assaig va ser «El arte del saber ligero» (Siruela, 2023). El llibre surt a la venda el 21 d'octubre.\n\nL'assaig defensa que el coneixement s'ha privatitzat i convertit en mercaderia. Segons el diari, sosté que les empreses tecnològiques s'han quedat el patrimoni intel·lectual que custodiaven les biblioteques i ara el tornen a vendre per subscripció. Posa el focus en els qui han classificat la informació al llarg dels segles, dels copistes als programadors, i presenta la IA com un «simulacre» de coneixement. També qüestiona què valen els algoritmes i les dades massives com a formes de saber, i evita les prediccions apocalíptiques.\n\nEl jurat, de sis membres, va valorar el llibre com a una advertència. Pau Luque diu que el seu valor és ser un «crit d'alerta», i Jordi Gracia, que el bum de la IA és una «estafa gegantina», almenys per a les humanitats. Són opinions del jurat, no pas conclusions demostrades del llibre.\n\nLa notícia no és tecnològica, sinó cultural: mostra que el debat sobre qui s'enriqueix amb els textos que alimenten els models ha arribat als premis literaris de referència. Cal tenir en compte que només hem pogut llegir la ressenya de l'Ara; no hem tingut accés al llibre, que encara no és a les llibreries, i per tant no en podem valorar els arguments de primera mà.",
+    "source": "Ara",
+    "url": "https://llegim.ara.cat/actualitat/premi-anagrama-crit-d-alerta-privatitzacio-trampa-ia_1_5884593.html",
+    "image": "./assets/xavier-nueno-premi-anagrama-assaig-revuelta-copistas-ia-20261020.jpg",
+    "slug": "xavier-nueno-premi-anagrama-assaig-revuelta-copistas-ia"
+  },
+  {
     "place": "Tarragona",
     "category": "IA I SOCIETAT",
     "date": "19.10.2026",
@@ -85,17 +97,5 @@ window.IA_RADAR = [
     "imageLicense": "CC0",
     "imageSourceUrl": "https://govern.cat/gov/notes-premsa/881320/el-govern-activa-una-resposta-integral-contra-les-ciberestafes-que-es-consoliden-com-el-segon-delicte-mes-denunciat-a-catalunya",
     "slug": "pla-ciberestafes-govern-assistent-ia-en-desenvolupament"
-  },
-  {
-    "place": "Comunitat Valenciana",
-    "category": "IA I SOCIETAT",
-    "date": "17.10.2026",
-    "title": "Un projecte valencià liderat per l'ITI vol que la IA ajudi a dissenyar calçat i envasos i a provar-ne el mercat abans de fabricar-los",
-    "summary": "Prodia reuneix centres tecnològics i vuit empreses de la Comunitat Valenciana, com Pikolinos i Unisa, amb ajuts de l'Ivace+i i fons europeus. De moment, només hi ha objectius.",
-    "detail": "El calçat i els envasos plàstics de la Comunitat Valenciana tenen un nou projecte d'IA aplicada a la indústria. Es diu Prodia i el coordina l'ITI, el centre tecnològic de les TIC amb seu a València. Hi participen Inescop, el centre tecnològic del calçat (a Elda), i Aimplas, el dels plàstics, a més de les empreses tecnològiques Innolondia, Red21 i Sciling i les industrials Pedro García, Pikolinos, Unisa i Delplas. En total, vuit empreses valencianes aportaran casos d'ús i entorns on validar-ho tot.\n\nLa part d'IA té dues peces. La primera és un sistema multiagent que analitza informació de fonts diverses per detectar oportunitats de mercat i generar escenaris i perfils de mercat sintètics, perquè una empresa pugui avaluar una idea de producte abans d'invertir en disseny, prototips o fabricació. La segona són models d'IA generativa i eines de disseny assistit que proposen esbossos i volums en 3D amb les limitacions geomètriques, funcionals i de producció incorporades des del començament.\n\nEl projecte vol escurçar el temps de disseny, preveure l'acceptació dels productes, reduir les iteracions i els prototips físics i gastar menys material i recursos. Es finança amb una convocatòria de l'Ivace+i per als centres tecnològics valencians, per a projectes de recerca i desenvolupament no econòmics en àrees de la plataforma europea STEP, cofinançada pel FEDER; la notícia no en diu l'import.\n\nL'article parla d'objectius, no de resultats: els beneficis s'hi plantegen com a possibilitats i no s'ha publicat cap mesura. Les solucions es validaran primer en calçat i envasos, i només aspiren a convertir-se en una metodologia que després es pugui aplicar a altres sectors. No consten ni el calendari ni la durada del projecte.",
-    "source": "Alicante Plaza",
-    "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/inescop-investiga-el-uso-de-la-inteligencia-artificial-para-acelerar-el-diseno-y-desarrollo-de-calzado",
-    "image": "./assets/prodia-calcat-envasos-ia-comunitat-valenciana-20261017.jpg",
-    "slug": "prodia-calcat-envasos-ia-comunitat-valenciana"
   }
 ];
