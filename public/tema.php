@@ -129,7 +129,7 @@ $rest = array_slice($items, 1);
   <header class="editorial-topbar">
     <div class="editorial-shell editorial-topbar__inner">
       <a class="editorial-brand" href="/" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a>
-      <nav class="editorial-nav" aria-label="Navegació principal"><a href="/#ultima-hora">Última hora</a><a href="/#catalunya">Radar català</a><a href="/seccions">Seccions</a><a href="/analisi.html">Anàlisi</a><a href="/dossiers.html">Dossiers</a><a href="/arxiu.html">Arxiu</a></nav>
+      <nav class="editorial-nav" aria-label="Navegació principal"><a href="/#ultima-hora">Última hora</a><a href="/#catalunya">Radar català</a><a href="/tribuna.html">Tribuna</a><a href="/seccions">Seccions</a><a href="/analisi.html">Anàlisi</a><a href="/dossiers.html">Dossiers</a><a href="/arxiu.html">Arxiu</a></nav>
       <a class="editorial-back" href="/">← Portada</a>
     </div>
   </header>
@@ -145,10 +145,10 @@ $rest = array_slice($items, 1);
 
     <?php if (!$esTerritori && ($topic['tipus'] ?? 'eix') === 'eix' && $found): ?>
     <section class="eix-veus" aria-labelledby="eix-veus-title">
-      <header class="eix-veus__cap"><div><p class="editorial-kicker">Opinió, estudis i anàlisis</p><h2 id="eix-veus-title">Veus signades</h2></div><a href="/escriu.html">Vols escriure en aquesta secció? →</a></header>
+      <header class="eix-veus__cap"><div><p class="editorial-kicker">Tribuna, estudis i anàlisis</p><h2 id="eix-veus-title">Veus signades</h2></div><a href="/escriu.html">Vols escriure en aquesta secció? →</a></header>
       <?php if ($peces): ?>
       <div class="eix-veus__graella">
-        <?php foreach ($peces as $peca): $serie = (string) ($peca['item']['serie'] ?? ''); $sec = ['nom' => $serie === 'veus-de-civicai' ? 'Veus de CIVICAi' : ($serie === 'veus-de-l-administracio' ? 'Opinió · Veus de l’administració' : (['tribuna' => 'Opinió', 'estudis' => 'Estudi', 'empresa' => 'Veus d’empresa', 'analisi' => 'Anàlisi de la setmana', 'quadern' => 'Quadern IA'][$peca['tipus']] ?? ''))]; if ($serie === 'veus-de-l-administracio' && $peca['tipus'] === 'estudis') { $sec['nom'] = 'Estudi · Veus de l’administració'; } $autor = trim((string) ($peca['item']['author'] ?? '')); ?>
+        <?php foreach ($peces as $peca): $serie = (string) ($peca['item']['serie'] ?? ''); $sec = ['nom' => $serie === 'veus-de-civicai' ? 'Veus de CIVICAi' : ($serie === 'veus-de-l-administracio' ? 'La tribuna · Veus de l’administració' : (['tribuna' => 'La tribuna', 'estudis' => 'Estudi', 'empresa' => 'Veus d’empresa', 'analisi' => 'Anàlisi de la setmana', 'quadern' => 'Quadern IA'][$peca['tipus']] ?? ''))]; if ($serie === 'veus-de-l-administracio' && $peca['tipus'] === 'estudis') { $sec['nom'] = 'Estudi · Veus de l’administració'; } $autor = trim((string) ($peca['item']['author'] ?? '')); ?>
         <article class="eix-veu">
           <p class="topic-meta"><?= topic_e((string) $sec['nom']) ?><?php if ($peca['dataIso'] !== ''): ?> · <?= topic_e(date('d.m.Y', strtotime($peca['dataIso']))) ?><?php endif; ?></p>
           <h3><a href="<?= topic_e((string) $peca['url']) ?>"><?= topic_e((string) $peca['titol']) ?></a></h3>

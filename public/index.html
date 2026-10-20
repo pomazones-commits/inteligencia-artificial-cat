@@ -22,7 +22,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","description":"Notícies, anàlisi i context sobre intel·ligència artificial, en català.","publishingPrinciples":"https://inteligencia-artificial.cat/redaccio.html"},{"@type":"WebSite","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","inLanguage":"ca"}]}</script>
   <link rel="stylesheet" href="./portada.css?v=2026101405">
   <link rel="stylesheet" href="./tribuna.css?v=2026101302">
-  <link rel="stylesheet" href="./seccions-portada.css?v=2026102002">
+  <link rel="stylesheet" href="./seccions-portada.css?v=2026102003">
   <link rel="stylesheet" href="./veus-portada.css?v=2026101502">
   <link rel="stylesheet" href="./estudis.css?v=2026101302">
   <link rel="stylesheet" href="./reflexio.css?v=2026101302">
@@ -38,7 +38,7 @@
   <script defer src="./premsa.js?v=2026101801"></script>
   <script defer src="./radio-portada.js?v=2026101101"></script>
   <script defer src="./agora-portada.js?v=2026101702"></script>
-  <script defer src="./seccions-portada.js?v=2026102002"></script>
+  <script defer src="./seccions-portada.js?v=2026102003"></script>
 </head>
 <body>
   <a class="skip-link" href="#contingut">Ves al contingut</a>
@@ -77,6 +77,7 @@
         <a class="active" href="#portada">Portada</a>
         <a href="#ultima-hora">Última hora</a>
         <a href="#catalunya">Radar català</a>
+        <a href="./tribuna.html">Tribuna</a>
         <a href="#analisi">Anàlisi</a>
         <a href="#estudis">Estudis</a>
         <a href="./seccions">Seccions</a>
@@ -179,13 +180,28 @@
 
     <!-- 13.10.2026: les peces signades (tribuna, Veus de CIVICAi i estudis) pujades just després de
          l'Àgora, per sobre dels reculls de premsa i ràdio (decisió d'en Rafael). -->
-    <!-- 20.10.2026 (decisió d'en Rafael): «La tribuna» deixa de ser una secció. La seva
-         banda passa a ser «Les seccions»: la darrera peça signada de cadascuna de les sis
-         seccions temàtiques (seccions-portada.js + seccions-portada.css). -->
-    <!-- 20.10.2026 (decisió d'en Rafael): «La tribuna» deixa de ser una secció. La seva
-         banda passa a ser «Les seccions»: les SIS seccions temàtiques, sempre visibles, cadascuna
-         amb la darrera peça signada (seccions-portada.js + seccions-portada.css). Les targetes
-         d'aquí són el recanvi si les dades no arriben: la banda no s'amaga mai. -->
+    <!-- 20.10.2026 (decisió d'en Rafael, rectificada el mateix dia): «La tribuna» es continua
+         veient a la portada com abans (la pinta app.js amb tribuna.js). La mateixa peça surt
+         també a la banda «Les seccions», a la targeta de la secció que li toca. -->
+    <section class="tribuna-band" id="tribuna" hidden>
+      <div class="shell tribuna-layout">
+        <figure class="tribuna-photo" id="tribuna-photo" hidden>
+          <img id="tribuna-img" src="" alt="" loading="lazy">
+        </figure>
+        <article class="tribuna-copy">
+          <p class="eyebrow" id="tribuna-eyebrow">La tribuna</p>
+          <h2 id="tribuna-title"></h2>
+          <p id="tribuna-excerpt"></p>
+          <p class="tribuna-byline" id="tribuna-byline"></p>
+          <a href="./tribuna.html">Llegir la tribuna <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <!-- 20.10.2026: «Les seccions»: les SIS seccions temàtiques, sempre visibles, cadascuna
+         amb la darrera peça signada (la tribuna vigent té preferència a la seva secció)
+         (seccions-portada.js + seccions-portada.css). Les targetes d'aquí són el recanvi si
+         les dades no arriben: la banda no s'amaga mai. -->
     <section class="seccions-band" id="seccions" aria-labelledby="seccions-titol">
       <header class="seccions-cap">
         <div><p class="eyebrow">Les seccions</p><h2 id="seccions-titol">Veus signades sobre la intel·ligència artificial, tema a tema</h2></div>
@@ -356,7 +372,7 @@
       </div>
       <div>
         <strong>Explora</strong>
-        <a href="#ultima-hora">Última hora</a><a href="#catalunya">Radar català</a><a href="./seccions">Seccions</a><a href="./veus-de-civicai">Veus de CIVICAi</a><a href="./veus-d-empresa">Veus d’empresa</a><a href="./veus-de-l-administracio">Veus de l’administració</a><a href="#analisi">Anàlisi</a><a href="./agenda">Agenda</a><a href="./podcast.html">Pòdcast</a><a href="./glossari">Glossari</a><a href="./llengua">La IA i el català</a><a href="./ecosistema">Ecosistema</a><a href="./formacio">Formació</a><a href="./club-de-lectura">Club de lectura</a><a href="./agora/">Àgora</a><a href="./centres-de-dades">Centres de dades</a><a href="./videos">Vídeos</a><a href="./radio">La IA a la ràdio</a><a href="./premsa">Ressò de premsa</a><a href="./arxiu.html">Arxiu</a>
+        <a href="#ultima-hora">Última hora</a><a href="#catalunya">Radar català</a><a href="./tribuna.html">La tribuna</a><a href="./seccions">Seccions</a><a href="./veus-de-civicai">Veus de CIVICAi</a><a href="./veus-d-empresa">Veus d’empresa</a><a href="./veus-de-l-administracio">Veus de l’administració</a><a href="#analisi">Anàlisi</a><a href="./agenda">Agenda</a><a href="./podcast.html">Pòdcast</a><a href="./glossari">Glossari</a><a href="./llengua">La IA i el català</a><a href="./ecosistema">Ecosistema</a><a href="./formacio">Formació</a><a href="./club-de-lectura">Club de lectura</a><a href="./agora/">Àgora</a><a href="./centres-de-dades">Centres de dades</a><a href="./videos">Vídeos</a><a href="./radio">La IA a la ràdio</a><a href="./premsa">Ressò de premsa</a><a href="./arxiu.html">Arxiu</a>
       </div>
       <div>
         <strong>Projecte</strong>
@@ -364,7 +380,7 @@
       </div>
       <div>
         <strong>Seccions</strong>
-        <a href="./tema/poder-i-geopolitica">Poder i geopolítica</a><a href="./tema/economia-i-treball">Economia i treball</a><a href="./tema/ciencia-salut-i-robotica">Ciència, salut i robòtica</a><a href="./tema/riscos-seguretat-i-drets">Riscos, seguretat i drets</a><a href="./tema/ment-etica-i-humanisme">Ment, ètica i humanisme</a><a href="./tema/societat-cultura-i-educacio">Societat, cultura i educació</a><a href="./tema/novetats-models-i-productes">Novetats i models</a><a href="./tema/catalunya">IA a Catalunya</a><a href="./arxiu-tribuna.html">Arxiu d’opinió</a>
+        <a href="./tema/poder-i-geopolitica">Poder i geopolítica</a><a href="./tema/economia-i-treball">Economia i treball</a><a href="./tema/ciencia-salut-i-robotica">Ciència, salut i robòtica</a><a href="./tema/riscos-seguretat-i-drets">Riscos, seguretat i drets</a><a href="./tema/ment-etica-i-humanisme">Ment, ètica i humanisme</a><a href="./tema/societat-cultura-i-educacio">Societat, cultura i educació</a><a href="./tema/novetats-models-i-productes">Novetats i models</a><a href="./tema/catalunya">IA a Catalunya</a><a href="./arxiu-tribuna.html">Arxiu de la tribuna</a>
       </div>
     </div>
     <div class="shell footer-bottom">

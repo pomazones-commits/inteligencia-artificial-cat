@@ -20,7 +20,7 @@ function seccions_format(array $peca): string
     if ($serie === 'veus-de-civicai') { return 'Veus de CIVICAi'; }
     if ($serie === 'veus-de-l-administracio') { return 'Veus de l’administració'; }
     return [
-        'tribuna' => 'Opinió', 'estudis' => 'Estudi', 'empresa' => 'Veus d’empresa',
+        'tribuna' => 'La tribuna', 'estudis' => 'Estudi', 'empresa' => 'Veus d’empresa',
         'analisi' => 'Anàlisi de la setmana', 'quadern' => 'Quadern IA',
     ][$peca['tipus']] ?? '';
 }
@@ -46,7 +46,16 @@ unset($llista);
 // columna setmanal no ocupi mitja banda).
 $millor = [];
 $autorsUsats = [];
+// La tribuna vigent (la de la banda «La tribuna») té preferència a la seva secció:
+// també surt aquí, a la targeta del seu tema (decisió d'en Rafael, 20.10.2026).
+foreach (iacat_totes_les_peces() as $peca) {
+    if ($peca['tipus'] !== 'tribuna' || (int) ($peca['idx'] ?? 0) !== -1) { continue; }
+    $millor[iacat_eix($peca['item'], 'tribuna/' . $peca['id'])] = ['peca' => $peca];
+    $autor = trim((string) ($peca['item']['author'] ?? ''));
+    if ($autor !== '') { $autorsUsats[$autor] = true; }
+}
 foreach (array_keys(iacat_eixos()) as $clau) {
+    if (isset($millor[$clau])) { continue; }
     $llista = $candidates[$clau] ?? [];
     $tria = null;
     foreach ($llista as $peca) {

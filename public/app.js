@@ -385,8 +385,8 @@
       a.append(img, nom);
       etiqueta.parentNode.insertBefore(a, etiqueta);
     };
-    // 20.10.2026: la banda #tribuna ja no és a index.html (ara és «Les seccions»,
-    // seccions-portada.js). Aquest bloc només s'executa si la banda hi torna.
+    // 20.10.2026: la banda #tribuna es manté a la portada (decisió d'en Rafael); la
+    // mateixa peça surt també a «Les seccions» (seccions-portada.php).
     if (window.IA_TRIBUNA && window.IA_TRIBUNA.title && document.querySelector('#tribuna')) {
       const tribuna = window.IA_TRIBUNA;
       const band = document.querySelector('#tribuna');
