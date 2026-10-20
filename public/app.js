@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026102002';
+  const VERSIO_MANUAL = '2026102003';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './estudis-arxiu.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -363,17 +363,27 @@
     }
 
     // ——— La tribuna (article d'autor, fitxer manual tribuna.js) ———
-    // Sèrie de la peça vigent (20.10.2026, «Veus de l'administració»): el nom de la
-    // sèrie, enllaçat a la seva pàgina, a la mateixa etiqueta de la banda.
+    // Sèrie de la peça vigent (20.10.2026, «Veus de l'administració»): capçalera
+    // amb la icona i el nom de la sèrie, enllaçada a la seva pàgina, damunt de
+    // l'etiqueta de la banda (mateix estil que la marca de «Veus de CIVICAi»).
     const marcaSerie = (item, etiqueta) => {
       const s = item && item.serie && window.IA_SERIES ? window.IA_SERIES[item.serie] : null;
-      if (!s || !etiqueta) return;
+      if (!s || !etiqueta || !etiqueta.parentNode) return;
       const a = document.createElement('a');
+      a.className = 'veus-marca serie-marca-portada';
       a.href = '.' + s.cami;
-      a.textContent = s.nom;
       // Estil en línia: les bandes donen forma de botó a tots els <a> de dins.
-      a.style.cssText = 'display:inline;padding:0;margin:0;border:0;border-radius:0;background:none;box-shadow:none;min-height:0;color:inherit;font:inherit;letter-spacing:inherit;text-decoration:underline;text-underline-offset:2px';
-      etiqueta.append(' · ', a);
+      a.style.cssText = 'display:flex;align-items:center;gap:14px;width:fit-content;padding:0;margin:0 0 18px;border:0;border-radius:0;background:none;box-shadow:none;min-height:0;color:var(--ink,#10131a);text-decoration:none';
+      const img = document.createElement('img');
+      img.src = s.logo;
+      img.alt = '';
+      img.width = 26;
+      img.height = 26;
+      img.style.cssText = 'display:block;width:26px;height:26px';
+      const nom = document.createElement('span');
+      nom.textContent = s.nom;
+      a.append(img, nom);
+      etiqueta.parentNode.insertBefore(a, etiqueta);
     };
     if (window.IA_TRIBUNA && window.IA_TRIBUNA.title) {
       const tribuna = window.IA_TRIBUNA;
