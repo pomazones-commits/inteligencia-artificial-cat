@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-20T16:13:40.715Z",
+ "actualitzat": "2026-10-20T20:09:57.122Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "a11c36dd40e6",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "José Elías, el multimilionari que dirigeix 200 empreses: \"He externalitzat el meu cervell a una IA\"",
+   "url": "https://www.elnacional.cat/ca/tecnologia/jose-elias-multimilionari-dirigeix-200-empreses-he-externalitzat-meu-cervell-ia_1712488_102.html",
+   "publicat": "2026-10-20T17:00:00.000Z"
+  },
   {
    "id": "fcfc0cb9eb62",
    "mitja": "La Vanguardia",
@@ -23,7 +34,7 @@
    "ambit": "catala",
    "titol": "Spotify modifica su algoritmo para sacar de las recomendaciones la música basura y el spam creados con IA",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/20/2732999/spotify-modifica-algoritmo-para-sacar-recomendaciones-musica-basura-spam-creados-ia.html",
-   "publicat": "2026-10-20T15:45:03.000Z"
+   "publicat": "2026-10-20T15:45:00.000Z"
   },
   {
    "id": "0aae48db23f3",
@@ -2667,39 +2678,6 @@
    "titol": "El gran sobresalto de la IA",
    "url": "https://elpais.com/economia/2026-10-14/el-gran-sobresalto-de-la-ia.html",
    "publicat": "2026-10-14T03:30:01.000Z"
-  },
-  {
-   "id": "5e3cb1f0f4de",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Orélien nega les acusacions d'haver utilitzat la IA en la seva novel·la, però admet plagis anteriors",
-   "url": "https://www.3cat.cat/3catinfo/orelien-nega-les-acusacions-dhaver-utilitzat-la-ia-en-la-seva-novella-pero-admet-plagis-anteriors/noticia/3433904",
-   "publicat": "2026-10-13T18:59:12.000Z"
-  },
-  {
-   "id": "74faa272f7d0",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Microsoft presenta Maia 300: el seu xip propi d'IA per dependre menys de Nvidia",
-   "url": "https://www.elnacional.cat/ca/tecnologia/microsoft-presenta-maia-300-seu-xip-propi-ia-dependre-menys-nvidia_1709239_102.html",
-   "publicat": "2026-10-13T18:00:00.000Z"
-  },
-  {
-   "id": "2f1d10cbbdff",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un montañero canadiense tiene que ser rescatado después de seguir una ruta planificada con IA",
-   "url": "https://www.lavanguardia.com/vida/20261013/11658113/montanero-canadiense-rescatado-seguir-ruta-planificada-ia.html",
-   "publicat": "2026-10-13T16:45:45.000Z"
   }
  ]
 }
