@@ -11,6 +11,7 @@
    ⚠️ inc/peces.php llegeix AQUESTES MATEIXES DADES (iacat_series()), per això
    l'assignació de window.IA_SERIES ha de ser l'ÚLTIMA instrucció del fitxer, a
    la columna 0, i en JSON pur (cometes dobles, sense comes finals ni comentaris).
+   «web» i «crida» són opcionals (Veus de l'administració, 20.10.2026, no és cap entitat).
    Si hi toques res, passa `node scripts/valida-series.mjs`. */
 (function () {
   function troba(item) {
@@ -34,7 +35,7 @@
   }
 
   function logo(s, classe) {
-    var a = enllac(s.web, classe, '', true);
+    var a = s.web ? enllac(s.web, classe, '', true) : enllac(s.cami, classe, '');
     a.title = s.entitat;
     var img = document.createElement('img');
     img.src = s.logo;
@@ -94,6 +95,16 @@ window.IA_SERIES = {
     "web": "https://civicai.cat/",
     "logo": "/assets/entitats/civicai.png",
     "descripcio": "La sèrie de «La tribuna» on escriuen sòcies i socis, fundadores i fundadors i directores i directors de CIVICAi, l’associació que treballa per una intel·ligència artificial responsable, de tothom i per a tothom.",
-    "crida": { "text": "Associa’t a CIVICAi", "href": "https://civicai.cat/participa/" }
+    "crida": {
+      "text": "Associa’t a CIVICAi",
+      "href": "https://civicai.cat/participa/"
+    }
+  },
+  "veus-de-l-administracio": {
+    "nom": "Veus de l’administració",
+    "cami": "/veus-de-l-administracio",
+    "entitat": "Administracions públiques",
+    "logo": "/assets/series/veus-de-l-administracio.svg",
+    "descripcio": "La sèrie on escriuen les persones que porten la intel·ligència artificial a les administracions públiques de Catalunya, la Comunitat Valenciana, les Illes Balears i Andorra: què fan, com ho fan i amb quines garanties per a la ciutadania."
   }
 };

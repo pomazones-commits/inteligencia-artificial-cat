@@ -30,7 +30,8 @@ if (!marques.length) {
   try { series = JSON.parse(json); } catch (e) { errors.push('series.js: IA_SERIES no és JSON pur (' + e.message + ')'); }
 }
 
-const OBLIGATORIS = ['nom', 'cami', 'entitat', 'web', 'logo', 'descripcio'];
+// «web» és opcional des del 20.10.2026 (Veus de l'administració no és cap entitat).
+const OBLIGATORIS = ['nom', 'cami', 'entitat', 'logo', 'descripcio'];
 for (const [clau, s] of Object.entries(series || {})) {
   if (!/^[a-z0-9-]+$/.test(clau)) errors.push(`sèrie «${clau}»: la clau només pot tenir minúscules, xifres i guionets`);
   for (const camp of OBLIGATORIS) if (!s[camp] || typeof s[camp] !== 'string') errors.push(`sèrie «${clau}»: falta «${camp}»`);

@@ -90,11 +90,12 @@
         meta.className = 'editorial-kicker';
         meta.textContent = [t.date || '', t.read || ''].filter(Boolean).join(' · ');
         // Peça d'una sèrie (12.10.2026): el nom de la sèrie, enllaçat, a la línia de dades.
-        if (t.serie === 'veus-de-civicai') {
+        var SERIES = { 'veus-de-civicai': ' · VEUS DE CIVICAI', 'veus-de-l-administracio': ' · VEUS DE L’ADMINISTRACIÓ' };
+        if (SERIES[t.serie]) {
           var serie = document.createElement('a');
           serie.className = 'tribuna-serie-marca';
-          serie.href = '/veus-de-civicai';
-          serie.textContent = ' · VEUS DE CIVICAI';
+          serie.href = '/' + t.serie;
+          serie.textContent = SERIES[t.serie];
           meta.appendChild(serie);
         }
         if (e.vigent) {

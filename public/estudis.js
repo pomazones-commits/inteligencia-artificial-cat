@@ -15,6 +15,7 @@ window.IA_ESTUDI = {
   "role": "Responsable d'innovació en serveis digitals i experiència ciutadana (Generalitat de Catalunya)",
   "org": "Generalitat de Catalunya",
   "orgUrl": "https://administraciodigital.gencat.cat/",
+  "serie": "veus-de-l-administracio",
   "title": "Millorant tràmits amb IA",
   "excerpt": "El programa caTgirem de la Generalitat ha redissenyat 170 tràmits i hi ha dissenyat 38 sistemes d'IA, però no n'ha posat a tot arreu. Qui en porta la innovació explica on encaixa la IA —assistents que responen dubtes, formularis que classifiquen, agents que revisen documents— i com ha canviat, sobretot, la manera de redissenyar.",
   "quote": "La intel·ligència artificial no ha de ser protagonista de la nova Administració, sinó una ajuda perquè en l'Administració la ciutadania hi trobi senzillesa, agilitat i empatia.",
