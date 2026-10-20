@@ -39,7 +39,7 @@ usort($episodis, static fn(array $a, array $b): int => $b['_data'] <=> $a['_data
 $episodis = array_slice($episodis, 0, 150);
 
 $descripcioCanal = 'La intel·ligència artificial explicada en català, per escoltar. Cada vespre, la reflexió del dia: què ha passat avui en IA i què vol dir. '
-    . 'Cada setmana, l’anàlisi, el Quadern IA i les peces signades de «La tribuna» i «Estudis». '
+    . 'Cada setmana, l’anàlisi, el Quadern IA i les peces signades d’opinió i els estudis. '
     . 'Episodis llegits amb veu sintètica a partir dels textos d’intel·ligènciaartificial.cat, un web de divulgació sense ànim de lucre.';
 
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";

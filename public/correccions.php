@@ -72,7 +72,7 @@ iacat_capcalera([
         <blockquote><?= iacat_e($e['text']) ?></blockquote>
       </article>
 <?php endforeach; ?>
-      <p class="seccio-nota">Com treballem: <a href="/redaccio.html">Sobre IA.cat</a>. Les peces signades de «La tribuna» i «Estudis» es corregeixen o es retiren a petició de l’autoria.</p>
+      <p class="seccio-nota">Com treballem: <a href="/redaccio.html">Sobre IA.cat</a>. Les peces signades (opinió i estudis) es corregeixen o es retiren a petició de l’autoria.</p>
     </section>
 <?php
 iacat_peu();
