@@ -21,9 +21,9 @@ Informació per a models de llenguatge i agents d'IA que vulguin entendre o cita
 - [Vídeos](https://inteligencia-artificial.cat/videos): vídeos dels canals oficials relacionats amb l'actualitat.
 - [La IA a la ràdio](https://inteligencia-artificial.cat/radio): entrevistes i debats sobre IA a les ràdios en català (Catalunya Ràdio, Ràdio 4, RAC1, À Punt i emissores locals), amb emissora, data, convidats, un resum propi i el reproductor oficial de l'emissora. Filtres: `?emissora=<nom>` i `?tema=<tema>`.
 
-## Eixos temàtics
+## Seccions temàtiques
 
-Índex: [Eixos temàtics](https://inteligencia-artificial.cat/eixos). Des del 20.10.2026, cada notícia i cada peça signada porta un eix temàtic, i cada eix té la seva pàgina amb les notícies i les tribunes, els estudis i les anàlisis del tema.
+Índex: [Les seccions](https://inteligencia-artificial.cat/seccions). Des del 20.10.2026, les peces signades (opinió, estudis, anàlisis) es publiquen dins de la secció del seu tema, i cada notícia en porta l'etiqueta. «La tribuna» ja no és una secció: les peces d'opinió conserven l'adreça /tribuna/<id>.
 
 - [Poder i geopolítica](https://inteligencia-artificial.cat/tema/poder-i-geopolitica): geopolítica i sobirania tecnològica, regulació, governança, poder corporatiu i militarització.
 - [Economia i treball](https://inteligencia-artificial.cat/tema/economia-i-treball): empreses, indústria, infraestructures, centres de dades, treball, ocupació i desigualtat.
@@ -36,9 +36,9 @@ Informació per a models de llenguatge i agents d'IA que vulguin entendre o cita
 
 ## Peces de fons i signades
 
-- [La tribuna](https://inteligencia-artificial.cat/tribuna.html): opinió signada per persones convidades ([arxiu](https://inteligencia-artificial.cat/arxiu-tribuna.html)). Cada peça té adreça fixa a `/tribuna/<id>`.
-- [Veus de CIVICAi](https://inteligencia-artificial.cat/veus-de-civicai): la sèrie de «La tribuna» on escriuen sòcies i socis, fundadores i fundadors i directores i directors de CIVICAi, i la columna setmanal del seu president, Manel Sanromà.
-- [Veus de l'administració](https://inteligencia-artificial.cat/veus-de-l-administracio): la sèrie de «La tribuna» i «Estudis» on escriuen responsables de les administracions públiques de Catalunya, la Comunitat Valenciana, les Illes Balears i Andorra.
+- Opinió (abans «La tribuna»): peces d'opinió signades per persones convidades, publicades dins de la [secció](https://inteligencia-artificial.cat/seccions) del seu tema ([arxiu d'opinió](https://inteligencia-artificial.cat/arxiu-tribuna.html)). Cada peça té adreça fixa a `/tribuna/<id>`.
+- [Veus de CIVICAi](https://inteligencia-artificial.cat/veus-de-civicai): la sèrie on escriuen sòcies i socis, fundadores i fundadors i directores i directors de CIVICAi, i la columna setmanal del seu president, Manel Sanromà.
+- [Veus de l'administració](https://inteligencia-artificial.cat/veus-de-l-administracio): la sèrie de peces d'opinió i estudis on escriuen responsables de les administracions públiques de Catalunya, la Comunitat Valenciana, les Illes Balears i Andorra.
 - [Veus d'empresa](https://inteligencia-artificial.cat/veus-d-empresa): articles i entrevistes de persones que fan servir o construeixen IA a les empreses, signats amb nom i càrrec. No és contingut patrocinat. Cada peça té adreça fixa a `/empresa/<id>`.
 - [Estudis](https://inteligencia-artificial.cat/estudi.html): articles de fons amb resum, paraules clau i bibliografia ([arxiu](https://inteligencia-artificial.cat/arxiu-estudis.html)); adreça fixa `/estudis/<id>`.
 - [Anàlisi de la setmana](https://inteligencia-artificial.cat/analisi.html): cada divendres ([arxiu](https://inteligencia-artificial.cat/arxiu-analisis.html)); adreça fixa `/analisi/<id>`.

@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-// Índex dels eixos temàtics (/eixos, des del 20.10.2026). Només llegeix les dades
+// Índex de les seccions temàtiques (/seccions; /eixos hi redirigeix), des del 20.10.2026. Només llegeix les dades
 // publicades: data/topics.php, l'hemeroteca i les peces signades (inc/eixos.php).
 require_once __DIR__ . '/inc/eixos.php';
 require_once __DIR__ . '/inc/peces.php';
@@ -22,7 +22,7 @@ foreach (array_merge((array) ($edicio['items'] ?? []), is_array($arxiu) ? $arxiu
 }
 
 function eixos_e(string $v): string { return htmlspecialchars($v, ENT_QUOTES, 'UTF-8'); }
-$descripcio = 'Els grans eixos temàtics de la intel·ligència artificial a inteligencia-artificial.cat: poder i geopolítica, economia i treball, ciència i salut, riscos, ment i ètica, i societat i cultura.';
+$descripcio = 'Les seccions temàtiques d’inteligencia-artificial.cat: poder i geopolítica, economia i treball, ciència i salut, riscos, ment i ètica, i societat i cultura.';
 ?>
 <!doctype html>
 <html lang="ca">
@@ -30,15 +30,15 @@ $descripcio = 'Els grans eixos temàtics de la intel·ligència artificial a int
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f6f7fb">
-  <title>Eixos temàtics — intel·ligènciaartificial.cat</title>
+  <title>Seccions — intel·ligènciaartificial.cat</title>
   <meta name="description" content="<?= eixos_e($descripcio) ?>">
-  <link rel="canonical" href="<?= $base ?>/eixos">
+  <link rel="canonical" href="<?= $base ?>/seccions">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ca_ES">
   <meta property="og:site_name" content="intel·ligènciaartificial.cat">
-  <meta property="og:title" content="Eixos temàtics de la IA">
+  <meta property="og:title" content="Les seccions d’IA.cat">
   <meta property="og:description" content="<?= eixos_e($descripcio) ?>">
-  <meta property="og:url" content="<?= $base ?>/eixos">
+  <meta property="og:url" content="<?= $base ?>/seccions">
   <meta property="og:image" content="https://inteligencia-artificial.cat/assets/og-portada.jpg">
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="/editorial.css?v=2026072301">
@@ -60,16 +60,16 @@ $descripcio = 'Els grans eixos temàtics de la intel·ligència artificial a int
   <header class="editorial-topbar">
     <div class="editorial-shell editorial-topbar__inner">
       <a class="editorial-brand" href="/" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a>
-      <nav class="editorial-nav" aria-label="Navegació principal"><a href="/#ultima-hora">Última hora</a><a href="/#catalunya">Radar català</a><a href="/tribuna.html">Tribuna</a><a href="/analisi.html">Anàlisi</a><a href="/dossiers.html">Dossiers</a><a href="/arxiu.html">Arxiu</a></nav>
+      <nav class="editorial-nav" aria-label="Navegació principal"><a href="/#ultima-hora">Última hora</a><a href="/#catalunya">Radar català</a><a href="/seccions">Seccions</a><a href="/analisi.html">Anàlisi</a><a href="/dossiers.html">Dossiers</a><a href="/arxiu.html">Arxiu</a></nav>
       <a class="editorial-back" href="/">← Portada</a>
     </div>
   </header>
 
   <main class="editorial-shell editorial-main">
-    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="/">Portada</a><span>/</span><span>Eixos temàtics</span></nav>
+    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="/">Portada</a><span>/</span><span>Seccions</span></nav>
     <header class="topic-intro">
-      <div><p class="editorial-kicker">Seccions temàtiques</p><h1 class="editorial-display">Eixos temàtics</h1></div>
-      <div class="topic-intro__aside"><p>Cada notícia, tribuna, estudi i anàlisi del web porta un d’aquests eixos. A la pàgina de cada eix hi ha les veus signades i l’actualitat del tema.</p><small>Les peces signades s’obren aquest novembre amb veus dels territoris de parla catalana</small></div>
+      <div><p class="editorial-kicker">Peces signades i actualitat, per temes</p><h1 class="editorial-display">Les seccions</h1></div>
+      <div class="topic-intro__aside"><p>Les peces d’opinió, els estudis i les anàlisis signades es publiquen dins de la secció del seu tema, al costat de les notícies. Veus de CIVICAi i Veus d’empresa hi surten també.</p><small>Aquest novembre s’hi sumen noves veus dels territoris de parla catalana</small></div>
     </header>
 
     <div class="eixos-llista">
@@ -79,7 +79,7 @@ $descripcio = 'Els grans eixos temàtics de la intel·ligència artificial a int
         <p><?= eixos_e((string) $eix['description']) ?></p>
         <?php if (count((array) ($eix['temes'] ?? [])) > 1): ?><ul class="eix-temes"><?php foreach ($eix['temes'] as $tema): ?><li><?= eixos_e((string) $tema) ?></li><?php endforeach; ?></ul><?php endif; ?>
         <?php if ($peces): ?><p class="eixos-fitxa__peca">Darrera peça signada: <a href="<?= eixos_e((string) $peces[0]['url']) ?>"><?= eixos_e((string) $peces[0]['titol']) ?></a><?php if (!empty($peces[0]['item']['author'])): ?>, de <?= eixos_e((string) $peces[0]['item']['author']) ?><?php endif; ?></p><?php endif; ?>
-        <div class="eixos-fitxa__peu"><span><?= (int) ($comptes[$clau] ?? 0) ?> notícies recents</span><a href="/tema/<?= eixos_e((string) $clau) ?>">Obrir l’eix →</a></div>
+        <div class="eixos-fitxa__peu"><span><?= (int) ($comptes[$clau] ?? 0) ?> notícies recents</span><a href="/tema/<?= eixos_e((string) $clau) ?>">Obrir la secció →</a></div>
       </article>
       <?php endforeach; ?>
     </div>
