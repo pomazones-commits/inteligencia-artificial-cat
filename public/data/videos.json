@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-20T08:34:57.035Z",
+ "actualitzat": "2026-10-20T16:13:40.657Z",
  "canals": 19,
  "videos": [
   {
@@ -659,18 +659,6 @@
    "publicat": "2026-09-29T19:00:28.000Z",
    "descripcio": "How can an AI platform be optimized from hardware to software while staying open to developers and partners at every layer? In Episode 5 of AI Factory Insider, host Kaushik Shirhatti (VP, AI Factory, NVIDIA) is joined by Pradeep Gupta (VP, Industries Solutions Architecture, NVIDIA) and Stephen Jones",
    "miniatura": "/assets/videos/mFv4VRoFj-k.jpg"
-  },
-  {
-   "id": "KO2bNK9L7WA",
-   "titol": "Keeping flying satellites connected with lasers",
-   "canal": "Google",
-   "canalId": "UCK8sQmJBp8GCxrOtXWBpyEA",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-09-29T16:12:33.000Z",
-   "descripcio": "To make space-based AI work, thousands of chips must communicate across a vacuum orbit with minimal delay, orbiting in a highly connected constellation. Without physical cables, we use lasers fired between satellites to transfer information; the equivalent of hitting a moving, coin-sized target from",
-   "miniatura": "/assets/videos/KO2bNK9L7WA.jpg"
   }
  ]
 }
