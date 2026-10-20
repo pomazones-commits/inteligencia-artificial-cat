@@ -9,6 +9,7 @@
    L'assignació ha de ser l'última del fitxer i en JSON pur (la llegeix inc/peces.php). */
 window.IA_EMPRESA = [
   {
+    "id": "roger-lloret-holaluz-que-fa-la-ia-generativa-dins-d-una-electrica-i-que-no-li",
     "date": "20.10.2026",
     "category": "ENTREVISTA",
     "read": "8 MIN",
@@ -16,8 +17,8 @@ window.IA_EMPRESA = [
     "role": "Chief Product & Technology Officer de Holaluz",
     "org": "Holaluz",
     "orgUrl": "https://www.holaluz.com/",
-    "title": "Roger Lloret (Holaluz): què fa la IA generativa dins d’una elèctrica i què no li deixen decidir mai",
-    "excerpt": "Entrevista per escrit al responsable de producte i tecnologia de Holaluz, l’elèctrica de Barcelona. Explica per on van començar a fer servir la IA generativa, com combinen agents d’IA i regles fixes quan hi ha factures pel mig i què recomanaria a una empresa mitjana que no sap per on començar.",
+    "title": "Roger Lloret (Holaluz): què fa la IA generativa dins d’una GreenTech i què no li deixen decidir mai",
+    "excerpt": "Entrevista per escrit al responsable de producte i tecnologia de Holaluz, la GreenTech de Barcelona. Explica per on van començar a fer servir la IA generativa, com combinen agents d’IA i regles fixes quan hi ha factures pel mig i què recomanaria a una empresa mitjana que no sap per on començar.",
     "quote": "La tecnologia per si sola no transforma una empresa; la clau de l'èxit rau en aconseguir que les persones adoptin les eines amb confiança.",
     "photo": "./assets/empresa-roger-lloret-20261020.jpg",
     "photoAlt": "Retrat de Roger Lloret, Chief Product & Technology Officer de Holaluz",
