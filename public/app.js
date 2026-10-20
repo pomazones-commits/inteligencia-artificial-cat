@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026102001';
+  const VERSIO_MANUAL = '2026102002';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './estudis-arxiu.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -363,12 +363,25 @@
     }
 
     // ——— La tribuna (article d'autor, fitxer manual tribuna.js) ———
+    // Sèrie de la peça vigent (20.10.2026, «Veus de l'administració»): el nom de la
+    // sèrie, enllaçat a la seva pàgina, a la mateixa etiqueta de la banda.
+    const marcaSerie = (item, etiqueta) => {
+      const s = item && item.serie && window.IA_SERIES ? window.IA_SERIES[item.serie] : null;
+      if (!s || !etiqueta) return;
+      const a = document.createElement('a');
+      a.href = '.' + s.cami;
+      a.textContent = s.nom;
+      // Estil en línia: les bandes donen forma de botó a tots els <a> de dins.
+      a.style.cssText = 'display:inline;padding:0;margin:0;border:0;border-radius:0;background:none;box-shadow:none;min-height:0;color:inherit;font:inherit;letter-spacing:inherit;text-decoration:underline;text-underline-offset:2px';
+      etiqueta.append(' · ', a);
+    };
     if (window.IA_TRIBUNA && window.IA_TRIBUNA.title) {
       const tribuna = window.IA_TRIBUNA;
       const band = document.querySelector('#tribuna');
       document.querySelector('#tribuna-title').textContent = tribuna.title;
       document.querySelector('#tribuna-excerpt').textContent = tribuna.excerpt || '';
       document.querySelector('#tribuna-eyebrow').textContent = tribuna.read ? `La tribuna · ${tribuna.read.toLowerCase()}` : 'La tribuna';
+      marcaSerie(tribuna, document.querySelector('#tribuna-eyebrow'));
       // Byline: autor · càrrec, amb l'entitat enllaçada si la peça porta org/orgUrl
       // (mateixa lògica que IAPeces.rolAmbEnllac, que la portada no carrega).
       const byline = document.querySelector('#tribuna-byline');
@@ -586,6 +599,7 @@
       document.querySelector('#estudis-title').textContent = estudi.title;
       document.querySelector('#estudis-excerpt').textContent = estudi.excerpt || '';
       document.querySelector('#estudis-eyebrow').textContent = estudi.read ? `Estudis · ${estudi.read.toLowerCase()}` : 'Estudis';
+      marcaSerie(estudi, document.querySelector('#estudis-eyebrow'));
       document.querySelector('#estudis-byline').textContent = [estudi.author, estudi.role].filter(Boolean).join(' · ');
       if (estudi.quote) {
         const quote = document.querySelector('#estudis-quote');
