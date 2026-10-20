@@ -109,18 +109,20 @@ function iacat_eix_etiqueta(string $clau): array
     return ['clau' => $clau, 'nom' => (string) $eix['short'], 'url' => '/tema/' . $clau];
 }
 
-/** Peces signades (tribuna, estudis, empresa, anàlisi, quadern) d'un eix, de la més recent a la més antiga. */
+/** Peces signades d'una secció: primer les de persones, després les de la Redacció. */
 function iacat_peces_eix(string $clau, int $maxim = 12): array
 {
     require_once __DIR__ . '/peces.php';
-    $resultat = [];
+    // Primer les peces signades per persones i després les de la Redacció (anàlisi i
+    // Quadern IA); dins de cada grup, de la més recent a la més antiga.
+    $persones = [];
+    $redaccio = [];
     foreach (iacat_totes_les_peces() as $peca) {
         if ($peca['tipus'] === 'reflexio') { continue; }
         if (iacat_eix($peca['item'], $peca['tipus'] . '/' . $peca['id']) !== $clau) { continue; }
-        $resultat[] = $peca;
-        if (count($resultat) >= $maxim) { break; }
+        if (in_array($peca['tipus'], ['analisi', 'quadern'], true)) { $redaccio[] = $peca; } else { $persones[] = $peca; }
     }
-    return $resultat;
+    return array_slice(array_merge($persones, $redaccio), 0, $maxim);
 }
 
 /** Les claus antigues dels temes (fins al 20.10.2026) i l'eix on van ara. */

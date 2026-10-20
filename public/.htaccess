@@ -101,7 +101,8 @@ RewriteRule ^formacio/?$ formacio.php [L,QSA]
 RewriteRule ^centres-de-dades/?$ centres-de-dades.php [L,QSA]
 RewriteRule ^club-de-lectura/?$ club-de-lectura.php [L,QSA]
 # Sèrie «Veus de CIVICAi» (12.10.2026): definició a series.js; peces amb "serie" a tribuna*.js i estudis*.js.
-RewriteRule ^eixos/?$ eixos.php [L,QSA]
+RewriteRule ^seccions/?$ eixos.php [L,QSA]
+RewriteRule ^eixos/?$ https://inteligencia-artificial.cat/seccions [R=301,L]
 RewriteRule ^veus-de-civicai/?$ veus-de-civicai.php [L,QSA]
 # Sèrie «Veus de l'administració» (20.10.2026): mateix mecanisme que CIVICAi.
 RewriteRule ^veus-de-l-administracio/?$ veus-de-l-administracio.php [L,QSA]

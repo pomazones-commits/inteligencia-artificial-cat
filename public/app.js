@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026102004';
+  const VERSIO_MANUAL = '2026102005';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './estudis-arxiu.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -385,7 +385,9 @@
       a.append(img, nom);
       etiqueta.parentNode.insertBefore(a, etiqueta);
     };
-    if (window.IA_TRIBUNA && window.IA_TRIBUNA.title) {
+    // 20.10.2026: la banda #tribuna ja no és a index.html (ara és «Les seccions»,
+    // seccions-portada.js). Aquest bloc només s'executa si la banda hi torna.
+    if (window.IA_TRIBUNA && window.IA_TRIBUNA.title && document.querySelector('#tribuna')) {
       const tribuna = window.IA_TRIBUNA;
       const band = document.querySelector('#tribuna');
       document.querySelector('#tribuna-title').textContent = tribuna.title;

@@ -1,0 +1,102 @@
+/* ——— Les seccions (20.10.2026) ———
+   Banda de portada que substitueix «La tribuna»: la darrera peça signada de cada
+   secció temàtica. Full autònom (no toca portada.css). La pinta seccions-portada.js;
+   amagada per defecte. Fa servir les variables de portada.css. */
+
+.seccions-band {
+  width: var(--shell);
+  margin: 0 auto 26px;
+  overflow: hidden;
+  border-radius: 34px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 6% 94%, rgba(214, 255, 60, .16), transparent 42%),
+    linear-gradient(135deg, #12162a, #222a47 58%, #191f38);
+  box-shadow: 0 28px 85px rgba(17, 21, 38, .3);
+}
+.seccions-band[hidden] { display: none; }
+
+.seccions-cap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 14px 30px;
+  padding: 38px clamp(24px, 4vw, 48px) 8px;
+}
+.seccions-cap .eyebrow { color: var(--ink); background: var(--lime); }
+.seccions-cap h2 {
+  margin: 14px 0 0;
+  max-width: 720px;
+  font: 500 36px/1.06 var(--serif);
+  letter-spacing: -.035em;
+}
+.seccions-cap > a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+
+.seccions-graella {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  padding: 18px clamp(24px, 4vw, 48px) 40px;
+}
+
+.seccio-targeta {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 24px 22px 24px 0;
+  border-top: 1px solid rgba(255, 255, 255, .16);
+}
+.seccio-targeta:nth-child(3n+2), .seccio-targeta:nth-child(3n+3) { padding-left: 22px; border-left: 1px solid rgba(255, 255, 255, .1); }
+
+.seccio-targeta__seccio {
+  width: fit-content;
+  color: var(--lime);
+  font: 600 11px var(--mono);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.seccio-targeta__seccio:hover { text-decoration: underline; }
+
+.seccio-targeta__cos { display: flex; gap: 14px; align-items: flex-start; }
+.seccio-targeta__foto {
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, .2);
+}
+.seccio-targeta__text { min-width: 0; }
+.seccio-targeta__format {
+  margin: 0 0 6px;
+  color: #aeb7d6;
+  font: 500 10px var(--mono);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.seccio-targeta h3 { margin: 0; font: 500 20px/1.15 var(--serif); letter-spacing: -.02em; }
+.seccio-targeta h3 a { color: #fff; text-decoration: none; }
+.seccio-targeta h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.seccio-targeta__autor { margin: 8px 0 0; color: #dfe3f5; font-size: 13px; }
+
+@media (max-width: 1024px) {
+  .seccions-graella { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .seccio-targeta:nth-child(3n+2), .seccio-targeta:nth-child(3n+3) { padding-left: 0; border-left: 0; }
+  .seccio-targeta:nth-child(2n) { padding-left: 22px; border-left: 1px solid rgba(255, 255, 255, .1); }
+}
+@media (max-width: 640px) {
+  .seccions-band { border-radius: 25px; }
+  .seccions-cap { padding-top: 28px; }
+  .seccions-cap h2 { font-size: 28px; }
+  .seccions-graella { grid-template-columns: 1fr; padding-bottom: 28px; }
+  .seccio-targeta, .seccio-targeta:nth-child(2n) { padding: 20px 0; border-left: 0; }
+}
