@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-20T15:25:37.780Z",
+ "actualitzat": "2026-10-20T16:13:40.715Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "fcfc0cb9eb62",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La imagen de dos ancianos en ropa interior atracados por manifestantes en París que ha compartido Abascal está hecha con IA",
+   "url": "https://www.lavanguardia.com/politica/20261020/11663884/imagen-dos-ancianos-ropa-interior-atracados-manifestantes-paris-compartido-abascal-esta-hecha-ia.html",
+   "publicat": "2026-10-20T16:00:00.000Z"
+  },
+  {
+   "id": "d72171fa689a",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Spotify modifica su algoritmo para sacar de las recomendaciones la música basura y el spam creados con IA",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/20/2732999/spotify-modifica-algoritmo-para-sacar-recomendaciones-musica-basura-spam-creados-ia.html",
+   "publicat": "2026-10-20T15:45:03.000Z"
+  },
   {
    "id": "0aae48db23f3",
    "mitja": "La Vanguardia",
@@ -104,14 +126,16 @@
   },
   {
    "id": "68c92bae446a",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
+   "mitja": "Ara Balears",
+   "font": "arabalears",
+   "icona": "/assets/premsa/ara-balears.svg",
    "llengua": "ca",
    "ambit": "catala",
    "titol": "Premi Anagrama per a un crit d'alerta sobre la privatització del saber i la trampa de la IA",
    "url": "https://llegim.ara.cat/actualitat/premi-anagrama-crit-d-alerta-privatitzacio-trampa-ia_1_5884593.html",
-   "publicat": "2026-10-20T10:18:14.000Z"
+   "publicat": "2026-10-20T10:18:14.000Z",
+   "noticia": "xavier-nueno-premi-anagrama-assaig-revuelta-copistas-ia",
+   "noticiaTitol": "El barceloní Xavier Nueno guanya el Premi Anagrama d'Assaig amb un llibre sobre com la IA s'apropia del saber"
   },
   {
    "id": "299bb9ac730c",
@@ -166,7 +190,9 @@
    "ambit": "catala",
    "titol": "La IA podria calcular el risc de mort de pacients amb càncer amb una anàlisi de la cara",
    "url": "https://www.elnacional.cat/ca/salut/ia-podria-calcular-risc-mort-pacients-cancer-analisi-cara_1712053_102.html",
-   "publicat": "2026-10-20T09:03:09.000Z"
+   "publicat": "2026-10-20T09:03:09.000Z",
+   "noticia": "ia-cara-risc-mort-pacients-cancer-lancet-digital-health",
+   "noticiaTitol": "Una IA calcula el risc de mort de pacients amb càncer a partir d'una fotografia de la cara, però encara és lluny de la clínica"
   },
   {
    "id": "583f1106aa0d",
@@ -2674,17 +2700,6 @@
    "titol": "Un montañero canadiense tiene que ser rescatado después de seguir una ruta planificada con IA",
    "url": "https://www.lavanguardia.com/vida/20261013/11658113/montanero-canadiense-rescatado-seguir-ruta-planificada-ia.html",
    "publicat": "2026-10-13T16:45:45.000Z"
-  },
-  {
-   "id": "f50c74ad88a8",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Así es HomeView, la última pantalla inteligente de Apple para controlar los hogares con su nueva IA",
-   "url": "https://elpais.com/tecnologia/2026-10-13/asi-es-homeview-la-ultima-pantalla-inteligente-de-apple-para-controlar-los-hogares-con-su-nueva-ia.html",
-   "publicat": "2026-10-13T15:34:40.000Z"
   }
  ]
 }
