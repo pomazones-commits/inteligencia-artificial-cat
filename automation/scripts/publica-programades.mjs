@@ -59,6 +59,14 @@ export const HTML_DE = {
 
 const OBLIGATORIS = ['category', 'read', 'author', 'role', 'title', 'excerpt', 'body'];
 
+// Eixos temàtics de les peces signades (20.10.2026). Han de coincidir amb les claus de
+// tipus 'eix' de public/data/topics.php (ho comprova scripts/prova-eixos.php). Una clau
+// desconeguda no atura la peça: es treu i inc/eixos.php la classifica sola.
+export const EIXOS = [
+  'poder-i-geopolitica', 'economia-i-treball', 'ciencia-salut-i-robotica',
+  'riscos-seguretat-i-drets', 'ment-etica-i-humanisme', 'societat-cultura-i-educacio',
+];
+
 export function avuiMadrid(ara = new Date()) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit' }).format(ara);
 }
@@ -157,6 +165,10 @@ export async function processa({ arrel, cua, avui, hora, fs = { readFile, writeF
     const s = SECCIONS[e.seccio];
     const peca = { date: dataPeca(e.publica), ...net.peca };
     peca.date = dataPeca(e.publica);
+    if (peca.eix !== undefined && !EIXOS.includes(peca.eix)) {
+      console.log(`::warning::${e.seccio} ${e.publica} (${peca.author}): l'eix «${peca.eix}» no existeix; es treu i la peça es classifica sola.`);
+      delete peca.eix;
+    }
 
     // Cap peça sense foto (decisió d'en Rafael del 19.10.2026): s'espera a la cua
     // fins que s'hi posi el retrat confirmat de l'autor.

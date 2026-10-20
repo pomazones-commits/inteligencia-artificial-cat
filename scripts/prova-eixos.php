@@ -32,6 +32,20 @@ foreach (iacat_eix_assignacions() as $clauPeca => $eix) {
     if (!isset($existents[$clauPeca])) { $falla("eixos-peces.json: la peça $clauPeca no existeix (ha canviat el títol?)"); }
 }
 
+// La llista EIXOS del publicador ha de coincidir amb els eixos de topics.php, i les
+// peces programades només poden portar claus vàlides.
+$publicador = (string) file_get_contents(__DIR__ . '/../automation/scripts/publica-programades.mjs');
+if (preg_match('/export const EIXOS = \[(.*?)\];/s', $publicador, $m)) {
+    preg_match_all("/'([a-z-]+)'/", $m[1], $claus);
+    $deTopics = array_keys(array_filter($tots, static fn(array $t): bool => ($t['tipus'] ?? '') === 'eix'));
+    if ($claus[1] !== $deTopics) { $falla('EIXOS de publica-programades.mjs no coincideix amb topics.php'); }
+} else { $falla('no trobo EIXOS a publica-programades.mjs'); }
+$cua = json_decode((string) @file_get_contents(__DIR__ . '/../incoming/peces-programades.json'), true);
+foreach ((array) $cua as $entrada) {
+    $eix = $entrada['peca']['eix'] ?? null;
+    if ($eix !== null && (($tots[$eix]['tipus'] ?? '') !== 'eix')) { $falla("peces-programades.json: «{$entrada['peca']['title']}» porta l'eix $eix, que no és vàlid"); }
+}
+
 $casos = [
     [['category' => 'TECNOLOGIA', 'title' => 'OpenAI llança GPT-5.6'], 'novetats-models-i-productes'],
     [['category' => 'GOVERNANÇA', 'title' => 'La Comissió Europea aplica el reglament d’IA'], 'poder-i-geopolitica'],
