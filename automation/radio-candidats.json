@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-19T23:00:08.453Z",
+  "generat": "2026-10-20T04:18:47.547Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -48,7 +48,7 @@
       "programa": "La tàctica",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 1
     },
     {
       "font": "rtve",
@@ -72,7 +72,7 @@
       "programa": "La tarda de Ràdio 4",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 6
+      "sobre_ia": 7
     },
     {
       "font": "rtve",
@@ -135,9 +135,8 @@
       "font": "wordpress",
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
-      "estat": "ok",
-      "audios": 33,
-      "sobre_ia": 0
+      "estat": "error",
+      "error": "This operation was aborted"
     },
     {
       "font": "wordpress",
@@ -172,30 +171,44 @@
       "font": "rtva",
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
-      "estat": "error",
-      "error": "HTTP 403"
+      "estat": "ok",
+      "audios": 400,
+      "sobre_ia": 3
     }
   ],
   "candidats": [
     {
-      "id": "capital-429595",
-      "emissora": "Ràdio Capital de l'Empordà",
-      "programa": "Supermatí",
-      "programa_url": "https://www.radiocapital.cat/",
+      "id": "rna-1930451",
+      "emissora": "Ràdio Nacional d'Andorra",
+      "programa": "Les coses grans",
+      "programa_url": "https://www.rtva.ad/programes/les-coses-grans",
       "data": "2026-10-19",
       "durada": "",
-      "titol_original": "Ana Picanyol: «La tecnologia ens ha d’ajudar a pensar i no pensar per nosaltres»",
-      "descripcio_original": "La responsable de l’Oficina Acelera Pyme d’Eurecat a Girona, Ana Picanyol, ha explicat al Supermatí com les petites i mitjanes empreses poden aprofitar la intel·ligència artificial per millorar la competitivitat. També ha advertit dels riscos d’aquesta tecnologia, ha defensat la importància del criteri humà i ha presentat les pròximes formacions gratuïtes adreçades al teixit empresarial gironí.",
-      "descripcio_curta": false,
+      "titol_original": "Un ciberatac contra congeladors de centenars de supermercats de França provoca pèrdues milionàries - Les coses grans - 19/10/2026",
+      "descripcio_original": "Pol Guasch, expert en IA, ens apropa el tema sobre l’augment d’aquest tipus de ciberatacs.",
+      "descripcio_curta": true,
       "ia_al_titol": false,
-      "url": "https://www.radiocapital.cat/ana-picanyol-la-tecnologia-ens-ha-dajudar-a-pensar-i-no-pensar-per-nosaltres/",
+      "url": "https://www.rtva.ad/programes/un-ciberatac-contra-congeladors-de-centenars-de-supermercats-de-franca-provoca-perdues-milionaries-les-coses-grans-19-10-2026",
       "reproductor": {
         "tipus": "enllac"
-      },
-      "etiquetes_web": [
-        "Entrevistes",
-        "Programes"
-      ]
+      }
+    },
+    {
+      "id": "rtve-17273836",
+      "emissora": "Ràdio 4",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
+      "data": "2026-10-19",
+      "durada": "55 min",
+      "titol_original": "Tercera hora: Música i interpretació amb 'La Camerata', rànquing de sèries amb Serializados i la campanya solidària per esclerosi múltiple amb Christian Escribà",
+      "descripcio_original": "La Camerata presenta Somni d’una nit d’estiu, una proposta que combina la música de Mendelssohn amb els textos d’Anna Andreu i la interpretació d’ Elisabet Casanovas. Marina Arrufat, violinista i cofundadora de La Camerata, i Elisabet Casanovas ens acompanyen al programa per parlar del projecte. Fem un rànquing de les sèries que porta el festival Serializados, on descobrim històries que exploren la intel·ligència artificial, el dol i els dilemes ètics de la societat actual. Finalment, parlem amb la campanya ‘Una Poma per la Vida’ celebra la vintena edició per donar suport a la recerca de l’esclerosi múltiple. Enguany, el pastisser Christian Escribà s’hi suma amb unes postres especials elaborades amb pomes solidàries.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-tercera-hora/17273836/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17273836"
+      }
     }
   ]
 }
