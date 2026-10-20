@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-20T04:20:50.615Z",
+  "generat": "2026-10-20T08:34:09.577Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -24,7 +24,7 @@
       "programa": "El matí de Catalunya Ràdio",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 0
+      "sobre_ia": 1
     },
     {
       "font": "3cat",
@@ -179,36 +179,20 @@
   ],
   "candidats": [
     {
-      "id": "rna-1930451",
-      "emissora": "Ràdio Nacional d'Andorra",
-      "programa": "Les coses grans",
-      "programa_url": "https://www.rtva.ad/programes/les-coses-grans",
+      "id": "3cat-1294535",
+      "emissora": "Catalunya Ràdio",
+      "programa": "El matí de Catalunya Ràdio",
+      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
       "data": "2026-10-19",
-      "durada": "",
-      "titol_original": "Un ciberatac contra congeladors de centenars de supermercats de França provoca pèrdues milionàries - Les coses grans - 19/10/2026",
-      "descripcio_original": "Pol Guasch, expert en IA, ens apropa el tema sobre l’augment d’aquest tipus de ciberatacs.",
-      "descripcio_curta": true,
-      "ia_al_titol": false,
-      "url": "https://www.rtva.ad/programes/un-ciberatac-contra-congeladors-de-centenars-de-supermercats-de-franca-provoca-perdues-milionaries-les-coses-grans-19-10-2026",
-      "reproductor": {
-        "tipus": "enllac"
-      }
-    },
-    {
-      "id": "rtve-17273836",
-      "emissora": "Ràdio 4",
-      "programa": "La tarda de Ràdio 4",
-      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
-      "data": "2026-10-19",
-      "durada": "55 min",
-      "titol_original": "Tercera hora: Música i interpretació amb 'La Camerata', rànquing de sèries amb Serializados i la campanya solidària per esclerosi múltiple amb Christian Escribà",
-      "descripcio_original": "La Camerata presenta Somni d’una nit d’estiu, una proposta que combina la música de Mendelssohn amb els textos d’Anna Andreu i la interpretació d’ Elisabet Casanovas. Marina Arrufat, violinista i cofundadora de La Camerata, i Elisabet Casanovas ens acompanyen al programa per parlar del projecte. Fem un rànquing de les sèries que porta el festival Serializados, on descobrim històries que exploren la intel·ligència artificial, el dol i els dilemes ètics de la societat actual. Finalment, parlem amb la campanya ‘Una Poma per la Vida’ celebra la vintena edició per donar suport a la recerca de l’esclerosi múltiple. Enguany, el pastisser Christian Escribà s’hi suma amb unes postres especials elaborades amb pomes solidàries.",
+      "durada": "1 h 0 min",
+      "titol_original": "El matí, de 10 a 11 h (Magazín) - 19/10/2026",
+      "descripcio_original": "Tanquem \"L'àgora\" parlant de les protestes a França amb Laura Bertran, enviada especial, i Christine Delfour, catedràtica de Ciències Polítiques. Entrevista a Ramon López de Mántaras, professor d'Investigació de l'Institut d'Investigació en Intel·ligència Artificial (CSIC).",
       "descripcio_curta": false,
       "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-tercera-hora/17273836/",
+      "url": "https://www.3cat.cat/3cat/el-mati-de-10-a-11-h-magazin-19102026/audio/1294535/",
       "reproductor": {
-        "tipus": "rtve",
-        "id": "17273836"
+        "tipus": "3cat",
+        "id": "1294535"
       }
     }
   ]
