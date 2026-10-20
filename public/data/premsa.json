@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-20T12:11:43.943Z",
+ "actualitzat": "2026-10-20T12:25:43.906Z",
  "fonts": 44,
  "articles": [
   {
@@ -2698,28 +2698,6 @@
    "titol": "El crecimiento de la economía mundial depende en exceso de la inversión de la IA a través de deuda, según el FMI",
    "url": "https://www.elperiodico.com/es/economia/20261013/crecimiento-economia-mundial-depende-exceso-135287067",
    "publicat": "2026-10-13T13:00:34.000Z"
-  },
-  {
-   "id": "67dd17dcd24f",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La sanitat gironina alerta de l'allau d'eines d'intel·ligència artificial i demana garanties",
-   "url": "https://www.diaridegirona.cat/comarques/2026/10/13/sanitat-gironina-alerta-lallau-deines-135284929.html",
-   "publicat": "2026-10-13T12:24:00.000Z"
-  },
-  {
-   "id": "f4887d13f767",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Ayuntamiento de Alcoy fulmina el concurso del cartel de la Cabalgata tras las polémicas con la IA",
-   "url": "https://www.informacion.es/alcoy/2026/10/13/ayuntamiento-alcoy-fulmina-concurso-cartel-135282927.html",
-   "publicat": "2026-10-13T12:12:50.000Z"
   }
  ]
 }
