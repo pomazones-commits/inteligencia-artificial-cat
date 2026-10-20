@@ -1,8 +1,107 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-20T04:19:30.366Z",
+ "actualitzat": "2026-10-20T08:34:53.180Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "370e8e25f0e4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic demuestra cómo la IA condiciona la contratación de jóvenes desarrolladores: la entrada de técnicos junior cae del 27% al 9% en su plantilla",
+   "url": "https://www.lavanguardia.com/neo/ia/20261020/11663431/anthropic-demuestra-como-ia-condiciona-contratacion-jovenes-desarrolladores-entrada-tecnicos-junior-cae-27-9-plantilla.html",
+   "publicat": "2026-10-20T08:21:41.000Z"
+  },
+  {
+   "id": "b1d4b12495d9",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Recortes en las Bolsas por la incertidumbre política y en torno a la IA",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-20/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-10-20T07:52:20.000Z"
+  },
+  {
+   "id": "a36373fb4d41",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "David M. Suárez, profesor: “Una persona de 50 años tiene un conocimiento tácito que la IA no tiene y que, por tanto, aún se puede monetizar”",
+   "url": "https://www.lavanguardia.com/vivo/longevity/20261020/11662840/david-m-suarez-profesor-persona-50-anos-conocimiento-tacito-ia-tanto-aun-monetizar.html",
+   "publicat": "2026-10-20T07:00:00.000Z"
+  },
+  {
+   "id": "5c8c769a72a8",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "EEUU veta el uso de la IA china DeepSeek en agencias gubernamentales",
+   "url": "https://www.elmundo.es/tecnologia/2026/10/20/6ad7096ce85ece73128b4594.html",
+   "publicat": "2026-10-20T06:31:22.000Z"
+  },
+  {
+   "id": "9981915a48d7",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Crean una IA visual que prescinde de gigantescos modelos de texto y reduce el consumo hasta 275 veces",
+   "url": "https://www.lasprovincias.es/tecnologia/crean-visual-prescinde-gigantescos-rlt_arx-20261020061024-nt.html",
+   "publicat": "2026-10-20T06:25:24.000Z"
+  },
+  {
+   "id": "e0f33c7241cb",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El reconocimiento facial con IA podría ayudar a personalizar tratamientos contra el cáncer",
+   "url": "https://www.ultimahora.es/noticias/sociedad/2026/10/20/2732431/reconocimiento-facial-podria-ayudar-personalizar-tratamientos-contra-cancer.html",
+   "publicat": "2026-10-20T06:06:00.000Z"
+  },
+  {
+   "id": "d86ab512c0d8",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Elice se desploma en su debut bursátil y reaviva las dudas sobre el negocio de la inteligencia artificial",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-20/elice-se-desploma-en-su-debut-bursatil-y-reaviva-las-dudas-sobre-el-negocio-de-la-inteligencia-artificial.html",
+   "publicat": "2026-10-20T05:42:13.000Z"
+  },
+  {
+   "id": "b71201bdf875",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "BBVA analiza con empresarios de toda España las perspectivas económicas y el impacto de la inteligencia artificial",
+   "url": "https://www.diariodemallorca.es/empresas-en-mallorca/2026/10/20/bbva-analiza-empresarios-espana-perspectivas-135524051.html",
+   "publicat": "2026-10-20T05:35:37.000Z"
+  },
+  {
+   "id": "3f881e4a0240",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "“Nunca habríamos hecho esta película sin asumir el riesgo”: un director asegura que redujo un presupuesto de 80 a 1,5 millones de dólares gracias a la IA",
+   "url": "https://www.lavanguardia.com/neo/ia/20261020/11662542/nunca-habriamos-hecho-pelicula-asumir-riesgo-director-asegura-redujo-presupuesto-80-1-5-millones-dolares-gracias-ia.html",
+   "publicat": "2026-10-20T05:30:00.000Z"
+  },
   {
    "id": "4dd7801ed240",
    "mitja": "La Vanguardia",
@@ -2115,7 +2214,7 @@
   {
    "id": "c03d6cc633e8",
    "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
+   "font": "lavanguardia",
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
@@ -2623,83 +2722,6 @@
    "titol": "Microsoft presenta Maia 300, su nuevo chip optimizado para escalar su infraestructura de IA que llegará en 2027",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/13/2727759/microsoft-presenta-maia-300-nuevo-chip-optimizado-para-escalar-infraestructura-llegara-2027.html",
    "publicat": "2026-10-13T08:38:24.000Z"
-  },
-  {
-   "id": "75f2211b93dc",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Las Bolsas europeas pinchan ante el frenazo del entusiasmo por la IA",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-13/la-bolsa-y-el-ibex-35.html",
-   "publicat": "2026-10-13T08:10:31.000Z"
-  },
-  {
-   "id": "951d0b77c402",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Hemos creado con IA una app para ayudar a los mayores y puedes probarla",
-   "url": "https://www.lavanguardia.com/vida/20261013/11654606/hemos-creado-ia-app-ayudar-mayores-puedes-probarla.html",
-   "publicat": "2026-10-13T08:04:47.000Z"
-  },
-  {
-   "id": "798f2200b449",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Inditex sufre un fuerte deterioro de su reputación algorítmica en la IA china DeepSeek, según RepIndex.AI",
-   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/10/13/2728093/inditex-sufre-fuerte-deterioro-reputacion-algoritmica-china-deepseek-segun-repindex-ai.html",
-   "publicat": "2026-10-13T07:56:00.000Z"
-  },
-  {
-   "id": "bcd8d34352d5",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Antonio Banderas interpretará a Hernán Cortés en una película producida con IA",
-   "url": "https://www.lavanguardia.com/cultura/20261013/11657557/antonio-banderas-interpretara-hernan-cortes-pelicula-producida-ia.html",
-   "publicat": "2026-10-13T07:36:58.000Z"
-  },
-  {
-   "id": "39ead847b402",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "¿Cuánta IA hay en los libros más vendidos? Mucha en novelas románticas de Amazon y en el superventas de Alvise Pérez",
-   "url": "https://elpais.com/tecnologia/2026-10-13/alvise-perez-y-novelas-romanticas-autoeditadas-cuanta-ia-hay-en-los-libros-mas-vendidos-de-espana.html",
-   "publicat": "2026-10-13T07:05:13.000Z"
-  },
-  {
-   "id": "bebe4ef8141e",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Antonio Banderas da un paso adelante y se alía con la IA para convertirse en Hernán Cortés",
-   "url": "https://www.levante-emv.com/ocio/cine/2026/10/13/antonio-banderas-da-paso-adelante-135267887.html",
-   "publicat": "2026-10-13T06:39:49.000Z"
-  },
-  {
-   "id": "2817e41c28dd",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic desafia el boom de la IA amb la sortida a la borsa \"més ridícula de l'any\"",
-   "url": "https://www.ara.cat/economia/tecnologia/boom-anthropic-desafia-ia-sortida-borsa-mes-ridicula-l-any_1_5874974.html",
-   "publicat": "2026-10-13T05:00:08.000Z"
   }
  ]
 }
