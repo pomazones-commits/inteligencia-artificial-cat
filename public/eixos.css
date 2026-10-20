@@ -1,0 +1,19 @@
+/* Eixos temàtics (20.10.2026): etiqueta d'eix a notícies i peces, i blocs de les
+   pàgines /tema/<eix>. Fa servir les variables d'editorial.css. */
+.eix-etiqueta{display:inline-flex;align-items:center;gap:7px;margin:0 0 14px;padding:5px 10px;border:1px solid var(--ed-blue,#233a82);color:var(--ed-blue,#233a82);background:var(--ed-blue-soft,#e8edff);font:600 10px/1.2 var(--ed-mono,monospace);letter-spacing:.09em;text-transform:uppercase;text-decoration:none}
+.eix-etiqueta::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.eix-etiqueta:hover{background:var(--ed-blue,#233a82);color:#fff}
+.eix-temes{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0;padding:0;list-style:none}
+.eix-temes li{padding:6px 11px;border:1px solid var(--ed-line,#dfe3eb);background:var(--ed-paper,#fff);font-size:12px;color:var(--ed-muted,#5d6472)}
+.eix-veus{margin:46px 0 54px}
+.eix-veus__cap{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:6px}
+.eix-veus__cap h2{margin:6px 0 0;font:600 30px/1.05 var(--ed-serif,Georgia,serif);letter-spacing:-.02em}
+.eix-veus__cap a{font-size:13px;color:var(--ed-blue,#233a82)}
+.eix-veus__graella{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:0 30px}
+.eix-veu{padding:24px 0 26px;border-top:1px solid var(--ed-line,#dfe3eb)}
+.eix-veu .topic-meta{color:var(--ed-muted,#5d6472)}
+.eix-veu h3{margin:10px 0 8px;font:600 22px/1.12 var(--ed-serif,Georgia,serif);letter-spacing:-.02em}
+.eix-veu h3 a{text-decoration:none}.eix-veu h3 a:hover{color:var(--ed-blue,#233a82)}
+.eix-veu p{margin:0;color:var(--ed-muted,#5d6472);font-size:13px;line-height:1.55}
+.eix-veu__autor{margin-top:10px!important;font-weight:600;color:var(--ed-ink,#111827)!important}
+.eix-buida{margin:30px 0;padding:22px;border:1px dashed var(--ed-line,#dfe3eb);background:var(--ed-paper,#fff);color:var(--ed-muted,#5d6472);font-size:14px;line-height:1.6}

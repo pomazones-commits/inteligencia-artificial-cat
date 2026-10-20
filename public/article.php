@@ -118,14 +118,11 @@ $authorRole = $isHumanAuthor ? trim((string) ($article['authorRole'] ?? 'Col·la
 $authorUrl = $isHumanAuthor ? trim((string) ($article['authorUrl'] ?? '')) : './redaccio.html';
 $authorImage = $isHumanAuthor ? trim((string) ($article['authorImage'] ?? '')) : '';
 
-$topicByCategory = [
-    'CATALUNYA' => 'catalunya', 'TECNOLOGIA' => 'tecnologia',
-    'MERCATS' => 'empresa-i-treball', 'INVERSIÓ' => 'empresa-i-treball',
-    'POLÍTICA' => 'politica-i-governanca', 'GOVERNANÇA' => 'politica-i-governanca',
-    'SEGURETAT' => 'seguretat', 'SOCIETAT' => 'societat-i-cultura',
-    'INFRAESTRUCTURA' => 'infraestructura-i-energia',
-];
-$topicSlug = $topicByCategory[$category] ?? '';
+// Eix temàtic (20.10.2026): substitueix l'antic mapa categoria → tema.
+require_once __DIR__ . '/inc/eixos.php';
+$topicSlug = iacat_eix($article);
+$eixEtiqueta = iacat_eix_etiqueta($topicSlug);
+$topicName = $eixEtiqueta['nom'] !== '' ? $eixEtiqueta['nom'] : $category;
 
 // Lectures relacionades estrictes: mateixa categoria i mai farciment aleatori.
 $related = [];
@@ -133,7 +130,7 @@ $seenRelated = [];
 foreach ($allItems as $candidate) {
     $candidateSlug = (string) ($candidate['slug'] ?? '');
     if ($candidateSlug === '' || $candidateSlug === $slug || isset($seenRelated[$candidateSlug])) { continue; }
-    if (utf8_upper((string) ($candidate['category'] ?? '')) !== $category) { continue; }
+    if (utf8_upper((string) ($candidate['category'] ?? '')) !== $category && iacat_eix($candidate) !== $topicSlug) { continue; }
     $seenRelated[$candidateSlug] = true;
     $related[] = $candidate;
     if (count($related) === 3) { break; }
@@ -201,7 +198,7 @@ if ($found) {
     $jsonld = ['@context' => 'https://schema.org', '@graph' => [$articleSchema, [
         '@type' => 'BreadcrumbList', 'itemListElement' => array_values(array_filter([
             ['@type' => 'ListItem', 'position' => 1, 'name' => 'Portada', 'item' => $base . '/'],
-            $topicSlug !== '' ? ['@type' => 'ListItem', 'position' => 2, 'name' => $category, 'item' => $base . '/tema/' . $topicSlug] : null,
+            $topicSlug !== '' ? ['@type' => 'ListItem', 'position' => 2, 'name' => $topicName, 'item' => $base . '/tema/' . $topicSlug] : null,
             ['@type' => 'ListItem', 'position' => $topicSlug !== '' ? 3 : 2, 'name' => (string) $article['title'], 'item' => $canonical],
         ])),
     ]]];
@@ -224,7 +221,7 @@ $shareText = rawurlencode((string) $article['title']);
   <script type="application/ld+json"><?= json_encode($jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
-  <link rel="stylesheet" href="./editorial.css?v=2026072301"><script defer src="./shared.js?v=2026101701"></script>
+  <link rel="stylesheet" href="./editorial.css?v=2026072301"><link rel="stylesheet" href="./eixos.css?v=2026102001"><script defer src="./shared.js?v=2026101701"></script>
   <?php if ($videoId !== ''): ?><link rel="stylesheet" href="./video.css?v=2026100601a"><script defer src="./video.js?v=2026100601a"></script><?php endif; ?>
   <style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.tts-player button,.tts-speed select{font-family:inherit}.tts-player button{padding:9px 13px;border:1px solid #dfe3eb;background:#fff;color:#233a82;cursor:pointer}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:430px}.tts-note,.tts-speed{font-size:11px;color:#5d6472}.article-hero-figure{margin:0}.article-hero-caption{margin:8px 0 0;font-size:12px;line-height:1.4;color:#5d6472;text-align:right}.article-hero-caption a{color:inherit;text-decoration:underline;text-underline-offset:2px}</style>
 </head>
@@ -232,9 +229,9 @@ $shareText = rawurlencode((string) $article['title']);
   <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./tribuna.html">Tribuna</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>
 
   <main class="editorial-shell editorial-main">
-    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><?php if ($topicSlug !== ''): ?><span>/</span><a href="./tema/<?= e($topicSlug) ?>"><?= e($category) ?></a><?php endif; ?></nav>
+    <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><?php if ($topicSlug !== ''): ?><span>/</span><a href="./tema/<?= e($topicSlug) ?>"><?= e($topicName) ?></a><?php endif; ?></nav>
     <header class="article-header">
-      <div><p class="editorial-kicker"><?= e($category) ?> · <?= e((string) ($article['read'] ?? '5 MIN')) ?></p><h1><?= e((string) $article['title']) ?></h1><p class="editorial-lede"><?= e((string) $article['excerpt']) ?></p></div>
+      <div><?php if ($eixEtiqueta['url'] !== ''): ?><a class="eix-etiqueta" href=".<?= e($eixEtiqueta['url']) ?>">Eix · <?= e($eixEtiqueta['nom']) ?></a><?php endif; ?><p class="editorial-kicker"><?= e($category) ?> · <?= e((string) ($article['read'] ?? '5 MIN')) ?></p><h1><?= e((string) $article['title']) ?></h1><p class="editorial-lede"><?= e((string) $article['excerpt']) ?></p></div>
       <div class="article-byline-clean">
         <?php if ($authorImage !== ''): ?><img src="<?= e($authorImage) ?>" width="54" height="54" alt="Fotografia de <?= e($authorName) ?>"><?php endif; ?>
         <p>Per <strong><?= e($authorName) ?></strong></p><span><?= e($authorRole) ?></span>
@@ -259,7 +256,7 @@ $shareText = rawurlencode((string) $article['title']);
       </aside>
     </div>
 
-    <?php if ($related): ?><section class="article-related" aria-labelledby="related-title"><header class="article-related__head"><div><p class="editorial-kicker">Mateix tema</p><h2 id="related-title">Més context</h2></div><?php if ($topicSlug !== ''): ?><a href="./tema/<?= e($topicSlug) ?>">Veure tot el tema →</a><?php endif; ?></header><div class="article-related__grid"><?php foreach ($related as $item): ?><article><p class="topic-meta"><?= e((string) ($item['category'] ?? 'ACTUALITAT')) ?> · <?= e((string) ($item['read'] ?? '4 MIN')) ?></p><h3><a href="./article.php?slug=<?= rawurlencode((string) $item['slug']) ?>"><?= e((string) $item['title']) ?></a></h3><p><?= e((string) ($item['excerpt'] ?? '')) ?></p></article><?php endforeach; ?></div></section><?php endif; ?>
+    <?php if ($related): ?><section class="article-related" aria-labelledby="related-title"><header class="article-related__head"><div><p class="editorial-kicker">Mateix eix</p><h2 id="related-title">Més context</h2></div><?php if ($topicSlug !== ''): ?><a href="./tema/<?= e($topicSlug) ?>">Veure tot l’eix →</a><?php endif; ?></header><div class="article-related__grid"><?php foreach ($related as $item): ?><article><p class="topic-meta"><?= e((string) ($item['category'] ?? 'ACTUALITAT')) ?> · <?= e((string) ($item['read'] ?? '4 MIN')) ?></p><h3><a href="./article.php?slug=<?= rawurlencode((string) $item['slug']) ?>"><?= e((string) $item['title']) ?></a></h3><p><?= e((string) ($item['excerpt'] ?? '')) ?></p></article><?php endforeach; ?></div></section><?php endif; ?>
 
     <section class="subscribe-panel" aria-labelledby="article-newsletter-title"><div><p class="editorial-kicker">Butlletí de dissabte</p><h2 id="article-newsletter-title">La setmana d’IA, en cinc minuts.</h2></div><form class="js-subscribe-form" action="./api.php?action=subscribe" method="post"><label class="sr-only" for="article-email">El teu correu electrònic</label><input id="article-email" name="email" type="email" placeholder="el.teu@correu.cat" required><button type="submit">Vull rebre’l →</button><p class="js-form-message" role="status"></p></form></section>
   </main>

@@ -135,6 +135,18 @@ foreach ($preEscrit as $patro => $nou) {
         : preg_replace_callback($patro, static fn() => $nou, $html, 1));
 }
 
+// Eix temàtic (20.10.2026): etiqueta enllaçada damunt del títol (no la toca el JS de
+// la pàgina, que només reescriu el contingut del <h1>). La reflexió del dia no en porta.
+if ($tipus !== 'reflexio') {
+    require_once __DIR__ . '/inc/eixos.php';
+    $eix = iacat_eix_etiqueta(iacat_eix($item, $tipus . '/' . $peca['id']));
+    if ($eix['url'] !== '') {
+        $etiqueta = '<a class="eix-etiqueta" href="' . $e($eix['url']) . '">Eix · ' . $e($eix['nom']) . '</a>';
+        $html = (string) preg_replace_callback('/<h1 id="titol">/', static fn() => $etiqueta . '<h1 id="titol">', $html, 1);
+        $extra .= '<link rel="stylesheet" href="/eixos.css?v=2026102001">';
+    }
+}
+
 $html = (string) preg_replace('/<head>/', "<head>\n  <base href=\"/\">", $html, 1);
 $html = (string) preg_replace('/<\/head>/', '  ' . $extra . "\n</head>", $html, 1);
 

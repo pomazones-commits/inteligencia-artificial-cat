@@ -1,15 +1,35 @@
 <?php
 declare(strict_types=1);
 
+// Pàgina de cada EIX temàtic (des del 20.10.2026; abans, «temes» per categoria).
+// Les notícies s'assignen amb inc/eixos.php (iacat_eix); la pàgina territorial
+// («catalunya») continua anant per categoria. Les claus antigues redirigeixen.
+require_once __DIR__ . '/inc/eixos.php';
+
 $base = 'https://inteligencia-artificial.cat';
-$topics = require __DIR__ . '/data/topics.php';
+$topics = iacat_eixos_tots();
 $slug = preg_replace('/[^a-z0-9-]/', '', strtolower((string) ($_GET['tema'] ?? '')));
+$antigues = iacat_eix_claus_antigues();
+if (isset($antigues[$slug])) {
+    header('Location: ' . $base . '/tema/' . $antigues[$slug], true, 301);
+    exit;
+}
 $topic = $topics[$slug] ?? null;
 $found = is_array($topic);
 if (!$found) {
     http_response_code(404);
-    $topic = ['title' => 'Tema no trobat', 'short' => 'Arxiu', 'description' => 'Aquest tema no està disponible.', 'categories' => [], 'resources' => []];
+    $topic = ['tipus' => 'eix', 'title' => 'Tema no trobat', 'short' => 'Arxiu', 'description' => 'Aquest tema no està disponible.', 'categories' => [], 'resources' => []];
 }
+$esTerritori = ($topic['tipus'] ?? 'eix') === 'territori';
+$pertany = static function (array $item) use ($slug, $topic, $esTerritori): bool {
+    if ($esTerritori) {
+        $cat = iacat_eix_majuscules((string) ($item['category'] ?? ''));
+        foreach ((array) $topic['categories'] as $c) { if (iacat_eix_majuscules((string) $c) === $cat) { return true; } }
+        return false;
+    }
+    return iacat_eix($item) === $slug;
+};
+$peces = ($found && !$esTerritori) ? iacat_peces_eix($slug, 6) : [];
 
 function topic_e(string $value): string { return htmlspecialchars($value, ENT_QUOTES, 'UTF-8'); }
 function topic_upper(string $value): string { return function_exists('mb_strtoupper') ? mb_strtoupper($value, 'UTF-8') : strtoupper($value); }
@@ -23,13 +43,11 @@ $archivePath = __DIR__ . '/data/archive.json';
 $archive = is_file($archivePath) ? json_decode((string) file_get_contents($archivePath), true) : [];
 $candidates = array_merge((array) ($edition['items'] ?? []), is_array($archive) ? $archive : []);
 
-// Només fem servir les categories que ja genera el Content Hub. No hi ha
-// classificació per paraules clau ni cap modificació del flux automàtic.
+// Notícies de l'eix (iacat_eix) o, a la pàgina territorial, de les categories del territori.
 foreach ($candidates as $item) {
     $itemSlug = (string) ($item['slug'] ?? '');
     if ($itemSlug === '' || isset($seen[$itemSlug])) { continue; }
-    $category = topic_upper((string) ($item['category'] ?? ''));
-    if (!in_array($category, (array) $topic['categories'], true)) { continue; }
+    if (!$pertany($item)) { continue; }
     $seen[$itemSlug] = true;
     $items[] = $item;
     if (count($items) >= 30) { break; }
@@ -47,8 +65,7 @@ if (count($items) < 30) {
             if (!is_array($item)) { continue; }
             $itemSlug = (string) ($item['slug'] ?? '');
             if ($itemSlug === '' || isset($seen[$itemSlug])) { continue; }
-            $category = topic_upper((string) ($item['category'] ?? ''));
-            if (!in_array($category, (array) $topic['categories'], true)) { continue; }
+            if (!$pertany($item)) { continue; }
             $seen[$itemSlug] = true;
             $items[] = $item;
             if (count($items) >= 30) { break 2; }
@@ -56,7 +73,7 @@ if (count($items) < 30) {
     }
 }
 
-if ($found && !$items) { http_response_code(404); }
+if ($found && !$items && !$peces) { http_response_code(404); }
 $canonical = $base . '/tema/' . $slug;
 $jsonld = [
     '@context' => 'https://schema.org',
@@ -89,7 +106,7 @@ $rest = array_slice($items, 1);
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f6f7fb">
   <title><?= topic_e((string) $topic['title']) ?> — intel·ligènciaartificial.cat</title>
-  <?php if ($found && $items): ?>
+  <?php if ($found && ($items || $peces)): ?>
   <meta name="description" content="<?= topic_e((string) $topic['description']) ?>">
   <link rel="canonical" href="<?= topic_e($canonical) ?>">
   <meta property="og:type" content="website">
@@ -105,6 +122,7 @@ $rest = array_slice($items, 1);
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="/editorial.css?v=2026072301">
+  <link rel="stylesheet" href="/eixos.css?v=2026102001">
   <script defer src="/shared.js?v=2026101701"></script>
 </head>
 <body class="editorial-body">
@@ -119,9 +137,31 @@ $rest = array_slice($items, 1);
   <main class="editorial-shell editorial-main">
     <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="/">Portada</a><span>/</span><span><?= topic_e((string) $topic['short']) ?></span></nav>
     <header class="topic-intro">
-      <div><p class="editorial-kicker">Arxiu temàtic</p><h1 class="editorial-display"><?= topic_e((string) $topic['title']) ?></h1></div>
-      <div class="topic-intro__aside"><p><?= topic_e((string) $topic['description']) ?></p><small><?= count($items) ?> <?= count($items) === 1 ? 'article' : 'articles' ?> · s’actualitza amb l’edició diària</small></div>
+      <div><p class="editorial-kicker"><?= $esTerritori ? 'Arxiu territorial' : 'Eix temàtic' ?></p><h1 class="editorial-display"><?= topic_e((string) $topic['title']) ?></h1></div>
+      <div class="topic-intro__aside"><p><?= topic_e((string) $topic['description']) ?></p><small><?= count($items) ?> <?= count($items) === 1 ? 'notícia' : 'notícies' ?><?= $peces ? ' · ' . count($peces) . ' ' . (count($peces) === 1 ? 'peça signada' : 'peces signades') : '' ?> · s’actualitza amb l’edició diària</small>
+        <?php if (!empty($topic['temes']) && count($topic['temes']) > 1): ?><ul class="eix-temes" aria-label="Temes de l’eix"><?php foreach ($topic['temes'] as $tema): ?><li><?= topic_e((string) $tema) ?></li><?php endforeach; ?></ul><?php endif; ?>
+      </div>
     </header>
+
+    <?php if (!$esTerritori && ($topic['tipus'] ?? 'eix') === 'eix' && $found): ?>
+    <section class="eix-veus" aria-labelledby="eix-veus-title">
+      <header class="eix-veus__cap"><div><p class="editorial-kicker">Tribunes, estudis i anàlisis</p><h2 id="eix-veus-title">Veus signades</h2></div><a href="/escriu.html">Vols escriure sobre aquest eix? →</a></header>
+      <?php if ($peces): ?>
+      <div class="eix-veus__graella">
+        <?php foreach ($peces as $peca): $sec = iacat_seccions()[$peca['tipus']] ?? ['nom' => '']; $autor = trim((string) ($peca['item']['author'] ?? '')); ?>
+        <article class="eix-veu">
+          <p class="topic-meta"><?= topic_e((string) $sec['nom']) ?><?php if ($peca['dataIso'] !== ''): ?> · <?= topic_e(date('d.m.Y', strtotime($peca['dataIso']))) ?><?php endif; ?></p>
+          <h3><a href="<?= topic_e((string) $peca['url']) ?>"><?= topic_e((string) $peca['titol']) ?></a></h3>
+          <?php if (trim((string) $peca['resum']) !== ''): ?><p><?= topic_e(function_exists('mb_strimwidth') ? mb_strimwidth(trim((string) $peca['resum']), 0, 220, '…', 'UTF-8') : (string) $peca['resum']) ?></p><?php endif; ?>
+          <p class="eix-veu__autor"><?= topic_e($autor !== '' ? $autor : 'Redacció IA.cat') ?></p>
+        </article>
+        <?php endforeach; ?>
+      </div>
+      <?php else: ?>
+      <p class="eix-buida">Aquest eix s’estrena aquest mes de novembre amb peces signades de veus dels territoris de parla catalana. Mentrestant, aquí sota hi ha les notícies del tema.</p>
+      <?php endif; ?>
+    </section>
+    <?php endif; ?>
 
     <?php if ($lead): ?>
     <article class="topic-feature">
@@ -152,7 +192,7 @@ $rest = array_slice($items, 1);
     </section>
     <?php endif; ?>
 
-    <section class="topic-directory" aria-labelledby="more-topics"><p class="editorial-kicker" id="more-topics">Altres temes amb contingut</p><div class="topic-directory__links"><?php foreach ($topics as $otherSlug => $other): if ($otherSlug === $slug) continue; ?><a href="/tema/<?= topic_e($otherSlug) ?>"><?= topic_e((string) $other['short']) ?></a><?php endforeach; ?></div></section>
+    <section class="topic-directory" aria-labelledby="more-topics"><p class="editorial-kicker" id="more-topics">Altres eixos</p><div class="topic-directory__links"><?php foreach ($topics as $otherSlug => $other): if ($otherSlug === $slug) continue; ?><a href="/tema/<?= topic_e($otherSlug) ?>"><?= topic_e((string) $other['short']) ?></a><?php endforeach; ?></div></section>
 
     <section class="subscribe-panel" aria-labelledby="topic-newsletter-title"><div><p class="editorial-kicker">Butlletí de dissabte</p><h2 id="topic-newsletter-title">La setmana d’IA, en cinc minuts.</h2></div><form class="js-subscribe-form" action="/api.php?action=subscribe" method="post"><label class="sr-only" for="topic-email">El teu correu electrònic</label><input id="topic-email" name="email" type="email" placeholder="el.teu@correu.cat" required><button type="submit">Vull rebre’l →</button><p class="js-form-message" role="status"></p></form></section>
   </main>

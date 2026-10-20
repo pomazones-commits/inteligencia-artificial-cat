@@ -373,7 +373,7 @@ foreach ($etiquetes as [$text, $lat, $lon]): [$ex, $ey] = iacat_cd_projecta($lat
       </div>
     </section>
 
-    <p class="seccio-nota">Vols saber qui fa recerca en IA al país? Mira <a href="/ecosistema">l’ecosistema</a>. Les notícies d’infraestructura de tot el món són a <a href="/tema/infraestructura-i-energia">Infraestructura i energia</a>. Si treballes en un d’aquests projectes, o t’hi oposes, i vols explicar-ho al web, mira <a href="/escriu.html">com fer-ho</a>.</p>
+    <p class="seccio-nota">Vols saber qui fa recerca en IA al país? Mira <a href="/ecosistema">l’ecosistema</a>. Les notícies d’infraestructura de tot el món són a <a href="/tema/economia-i-treball">Economia i treball</a>. Si treballes en un d’aquests projectes, o t’hi oposes, i vols explicar-ho al web, mira <a href="/escriu.html">com fer-ho</a>.</p>
 
     <script>
     (() => {
