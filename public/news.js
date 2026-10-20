@@ -1,5 +1,68 @@
 window.IA_NEWS = [
   {
+    "category": "POLÍTICA",
+    "read": "4 MIN",
+    "slug": "eua-prohibeix-deepseek-agencies-federals-civils",
+    "title": "Els Estats Units prohibeixen DeepSeek a les agències federals civils i els manen retirar-ne els productes",
+    "excerpt": "El Departament de Seguretat Nacional adverteix que els models de l'empresa xinesa «presenten múltiples vectors d'amenaça» i que podrien enviar dades sensibles a la Xina.",
+    "sourceName": "AFP (via Tech Xplore)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-china-deepseek-agencies.html",
+    "sourceDate": "20 d'octubre de 2026",
+    "body": "L'empresa xinesa DeepSeek va sacsejar el sector el gener del 2025 amb un xatbot de baix cost que feia la competència als models nord-americans. Des d'aleshores, Washington ha anat estrenyent el setge: el Departament de Comerç, l'Armada i els estats de Nova York, Tennessee i Virgínia ja havien vetat els seus productes als dispositius oficials.\n\nAquest dilluns, el Departament de Seguretat Nacional (DHS) ha donat un pas més i ha ordenat a les agències civils del Govern federal que deixin d'usar DeepSeek i que retirin dels seus equips tant els productes de l'empresa com els serveis de tercers construïts amb els seus models. Segons l'agència AFP, un document del DHS afirma que els models de DeepSeek «presenten múltiples vectors d'amenaça» i alerta que l'ús podria fer arribar dades sensibles a la Xina, on hi ha els servidors i on el Govern té «una àmplia autoritat» sobre la infraestructura de les empreses privades.\n\nLa mesura afecta departaments com Tresoreria, Estat o Justícia, però deixa fora l'àmbit militar i els serveis d'intel·ligència, que el DHS no pot dirigir. El Ministeri d'Exteriors xinès ha rebutjat, segons la premsa, que es «polititzin» la tecnologia i el comerç i ha promès defensar els interessos de les seves empreses. La decisió arriba en plena tensió comercial: els Estats Units acusen DeepSeek i altres empreses xineses de copiar sistemàticament capacitats dels models nord-americans, i el tema podria sortir a la cimera de líders prevista a Shenzhen el mes que ve.\n\nConvé tenir en compte que les fonts consultades no citen cap norma concreta que empari l'ordre ni aporten proves públiques de les amenaces que s'al·leguen; el que consta és el que diu el DHS. DeepSeek no ha respost a la petició de comentari d'AFP. L'abast també és limitat: només afecta l'administració civil federal, no les empreses ni els ciutadans.",
+    "image": "./assets/eua-prohibeix-deepseek-agencies-federals-civils-20261020.jpg"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "jensen-huang-berlin-industria-alemanya-ia-fisica",
+    "title": "Jensen Huang demana a la indústria alemanya que adopti la IA: «Els electrons mai no substituiran els àtoms»",
+    "excerpt": "El conseller delegat de Nvidia, a Berlín amb el canceller Merz, defensa que les dades de fabricació d'Alemanya són «el seu recurs natural» i que cal importar la tecnologia sense exportar-ne la cultura.",
+    "sourceName": "AFP (via Tech Xplore)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-nvidia-ceo-urges-german-ai.html",
+    "sourceDate": "20 d'octubre de 2026",
+    "body": "Alemanya arrossega des de fa anys un model industrial sota pressió: energia cara des que va perdre el gas rus barat, competència xinesa en l'automoció, permisos lents i un retard de Europa en centres de dades respecte dels Estats Units. En aquest context, la IA es presenta sovint com una via de modernització.\n\nAquest dilluns, a la cimera «Invest in Germany» de Berlín, el conseller delegat de Nvidia, Jensen Huang, va conversar amb el canceller Friedrich Merz i va instar els fabricants de cotxes i de maquinària a adoptar la IA amb rapidesa. Va defensar que la IA és «física» —robòtica, fàbriques, vehicles, indústria pesant— i va resumir-ho dient que «els electrons mai no substituiran els àtoms». Segons l'agència AFP, també va afirmar que les dades de fabricació del país «són el seu recurs natural» i que «pertanyen a la nació».\n\nHuang va recomanar a Alemanya importar la tecnologia d'IA, però no «exportar la seva cultura, els seus valors ni el seu coneixement». Ell i Merz van assenyalar el Mittelstand, el teixit de centenars de mitjanes empreses industrials especialitzades, com a gran beneficiari possible. L'argument connecta amb la idea, defensada també per l'ex-president del BCE Mario Draghi, que les dades industrials europees són un actiu estratègic davant l'avantatge nord-americà en models.\n\nEls límits són clars: l'acte no va comportar cap anunci d'inversió ni cap acord nou, només un discurs d'un proveïdor que ven les eines que recomana. Quant a xifres, l'únic antecedent és el centre industrial d'IA d'1.000 milions d'euros que Nvidia i Deutsche Telekom van anunciar el novembre del 2025, que no forma part d'aquest esdeveniment.",
+    "image": "./assets/jensen-huang-berlin-industria-alemanya-ia-fisica-20261020-foto.jpg",
+    "imageCredit": "The White House / Wikimedia Commons",
+    "imageLicense": "Domini públic",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jen-Hsun_Huang_2025.jpg"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "3 MIN",
+    "slug": "otter-ai-320-milions-general-catalyst-notes-reunions",
+    "title": "Otter.ai capta 320 milions de dòlars d'un fons de General Catalyst per créixer amb la seva eina de notes de reunions",
+    "excerpt": "L'empresa diu que ja té 40 milions d'usuaris, enfront dels 25 milions de l'any passat, i que va superar els 100 milions de dòlars d'ingressos anuals recurrents.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+    "sourceDate": "20 d'octubre de 2026",
+    "body": "Les eines que graven, transcriuen i resumeixen reunions són una de les aplicacions d'IA més esteses a les empreses, i hi competeixen noms com Fireflies.ai, Granola, Read AI o Circleback. Otter.ai és un dels pioners del sector, i la seva darrera ronda coneguda era del 2021, amb uns 50 milions de dòlars aixecats en total segons PitchBook.\n\nAquest dimarts l'empresa ha anunciat 320 milions de dòlars del Customer Value Fund (CVF) de General Catalyst. Segons TechCrunch, aquest fons no entra al capital i no dilueix els accionistes: aporta diners i obté el retorn en funció dels resultats de la inversió en màrqueting. La valoració de l'empresa no s'ha fet pública. Otter diu que té 40 milions d'usuaris, per sobre dels 25 milions de l'any passat, i que l'any passat va superar els 100 milions de dòlars d'ingressos anuals recurrents, sense actualitzar la xifra.\n\nEls diners aniran a créixer al mercat d'empreses, a la distribució comercial, a l'expansió internacional i a noves funcions, com els resums previs a la reunió i un «Live Assist» que deixa fer preguntes a la IA mentre es parla. Pranav Singhvi, cofundador de CVF, va dir que «la veu és una de les grans oportunitats encara per aprofitar en la IA d'empresa».\n\nQueden sense resposta dades clau, com els usuaris actius mensuals o la fuga de clients (el que els analistes anomenen *churn*), i el finançament es basa en l'anàlisi del propi fons. A més, el sector està molt saturat i part de la seva funció tendeix a integrar-se en eines com els assistents de les plataformes de videotrucades.",
+    "image": "./assets/otter-ai-320-milions-general-catalyst-notes-reunions-20261020.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "4 MIN",
+    "slug": "dynin-robotics-robot-prediu-escenes-futures-neurips",
+    "title": "Un model de robòtica prediu com quedarà l'escena abans de moure's i encerta el 78,4% de les tasques reals",
+    "excerpt": "L'equip de la Universitat Nacional de Seül, que diu que el treball serà a NeurIPS 2026, combina llenguatge, imatge i acció en un sol model i genera els moviments fins a 36 vegades més de pressa que un rival.",
+    "sourceName": "Seoul National University (via Tech Xplore)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-robot-ai-future-scenes.html",
+    "sourceDate": "19 d'octubre de 2026",
+    "body": "Perquè un robot manipuli objectes amb fiabilitat, no n'hi ha prou que entengui una ordre: ha de saber què passarà després de cada moviment. Molts sistemes actuals tradueixen directament la imatge i la instrucció en una acció, sense preveure'n el resultat.\n\nUn equip de la Universitat Nacional de Seül (laboratori AIDAS, dirigit pel professor Jaeyoung Do) presenta Dynin-Robotics, un únic model de fonaments que processa a la vegada llenguatge, imatges, vídeo i accions del robot. El sistema pot predir com serà l'escena després d'una acció, o com hauria de quedar quan la tasca estigui acabada, i fa servir aquesta predicció per generar o triar les accions. A més, agrupa i prediu en paral·lel les seqüències d'accions i en reaprofita càlculs, cosa que accelera la generació de moviments.\n\nEn quatre situacions reals de manipulació (moure fruita, classificar blocs per color i dues de piles de blocs) el model arriba a un 78,4% d'èxit de mitjana, davant del 73,0% de GR00T N1.6 de NVIDIA, el 73,6% de Cosmos Policy i el 76,9% de π0.5 de Physical Intelligence. Genera accions fins a uns 29,2 vegades més de pressa que la versió sense optimitzar i fins a uns 36,6 vegades més que π0.5. Segons l'equip, l'article està acceptat a NeurIPS 2026, que se celebrarà al desembre, i ara mateix és consultable com a preprint a arXiv; l'acceptació la declaren els autors.\n\nEls resultats venen de simulacions i d'entorns reals predeterminats, i l'equip reconeix que cal provar el sistema amb més objectes, tasques i entorns abans de portar-lo a la indústria. Encara no s'ha avaluat en fabricació ni en logística, tot i que ho preveuen fer. La diferència de 2 a 5 punts amb els rivals en èxit és modesta; el guany més clar és la velocitat.",
+    "image": "./assets/dynin-robotics-robot-prediu-escenes-futures-neurips-20261020.jpg"
+  },
+  {
+    "category": "SALUT",
+    "read": "4 MIN",
+    "slug": "xatbots-salut-mental-pujar-muntanya-forat-conill-curtin",
+    "title": "Un marc teòric proposa saber si un xat d'IA amplia la consciència d'una persona o la tanca en les seves creences",
+    "excerpt": "Warren Mansell, de la Universitat Curtin, publica a «Digital Health» una pauta senzilla per entendre quan parlar amb un xatbot ajuda a la salut mental i quan reforça pensaments perjudicials.",
+    "sourceName": "Digital Health (via Tech Xplore)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-ai-chatbots-mental-health.html",
+    "sourceDate": "19 d'octubre de 2026",
+    "body": "Cada cop més gent parla amb xatbots d'IA de les seves preocupacions, i la recerca sobre l'efecte en la salut mental és contradictòria: alguns estudis hi troben una reducció dels símptomes i d'altres alerten de respostes perjudicials i de dependència emocional.\n\nWarren Mansell, catedràtic de salut mental de l'Escola de Salut de la Població de la Universitat Curtin (Austràlia), proposa una pauta conceptual a l'article «Up the mountain or down the rabbit hole?», publicat el 2026 a la revista revisada *Digital Health* (DOI 10.1177/20552076261490707). Hi planteja que una conversa amb un xatbot es pot entendre com un canvi dinàmic de la consciència: o bé s'amplia —la persona explora el problema i considera perspectives noves, com si pugés una muntanya—, o bé s'estreny, amb reassegurança repetida que confirma el que ja creia, com qui s'enfonsa al cau del conill.\n\nSegons l'autor, el resultat depèn de l'estat emocional de la persona, dels seus objectius i de com respon el xatbot, i les persones ja vulnerables poden córrer més risc. La pauta serviria perquè desenvolupadors, clínics i usuaris detectin quin dels dos camins pren una conversa.\n\nÉs important no sobreinterpretar-ho: es tracta d'un article conceptual, sense assaig clínic, dades ni xifres, i el marc encara no s'ha posat a prova. L'autor mateix remarca que calen estudis per explicar per què algunes converses ajuden i d'altres augmenten el malestar, i que s'han d'avaluar els efectes a llarg termini.",
+    "image": "./assets/xatbots-salut-mental-pujar-muntanya-forat-conill-curtin-20261020.jpg"
+  },
+  {
     "category": "EMPRESES",
     "read": "4 MIN",
     "slug": "anthropic-nscale-negocien-nou-acord-45000-milions-computacio",
