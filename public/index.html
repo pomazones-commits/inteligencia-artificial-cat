@@ -22,7 +22,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","description":"Notícies, anàlisi i context sobre intel·ligència artificial, en català.","publishingPrinciples":"https://inteligencia-artificial.cat/redaccio.html"},{"@type":"WebSite","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","inLanguage":"ca"}]}</script>
   <link rel="stylesheet" href="./portada.css?v=2026101405">
   <link rel="stylesheet" href="./tribuna.css?v=2026101302">
-  <link rel="stylesheet" href="./seccions-portada.css?v=2026102001">
+  <link rel="stylesheet" href="./seccions-portada.css?v=2026102002">
   <link rel="stylesheet" href="./veus-portada.css?v=2026101502">
   <link rel="stylesheet" href="./estudis.css?v=2026101302">
   <link rel="stylesheet" href="./reflexio.css?v=2026101302">
@@ -38,7 +38,7 @@
   <script defer src="./premsa.js?v=2026101801"></script>
   <script defer src="./radio-portada.js?v=2026101101"></script>
   <script defer src="./agora-portada.js?v=2026101702"></script>
-  <script defer src="./seccions-portada.js?v=2026102001"></script>
+  <script defer src="./seccions-portada.js?v=2026102002"></script>
 </head>
 <body>
   <a class="skip-link" href="#contingut">Ves al contingut</a>
@@ -182,12 +182,23 @@
     <!-- 20.10.2026 (decisió d'en Rafael): «La tribuna» deixa de ser una secció. La seva
          banda passa a ser «Les seccions»: la darrera peça signada de cadascuna de les sis
          seccions temàtiques (seccions-portada.js + seccions-portada.css). -->
-    <section class="seccions-band" id="seccions" hidden aria-labelledby="seccions-titol">
+    <!-- 20.10.2026 (decisió d'en Rafael): «La tribuna» deixa de ser una secció. La seva
+         banda passa a ser «Les seccions»: les SIS seccions temàtiques, sempre visibles, cadascuna
+         amb la darrera peça signada (seccions-portada.js + seccions-portada.css). Les targetes
+         d'aquí són el recanvi si les dades no arriben: la banda no s'amaga mai. -->
+    <section class="seccions-band" id="seccions" aria-labelledby="seccions-titol">
       <header class="seccions-cap">
         <div><p class="eyebrow">Les seccions</p><h2 id="seccions-titol">Veus signades sobre la intel·ligència artificial, tema a tema</h2></div>
         <a href="./seccions">Totes les seccions →</a>
       </header>
-      <div class="seccions-graella" id="seccions-graella"></div>
+      <div class="seccions-graella" id="seccions-graella">
+        <article class="seccio-targeta seccio-targeta--sense-foto"><a class="seccio-targeta__seccio" href="./tema/poder-i-geopolitica">Poder i geopolítica</a><div class="seccio-targeta__cos"><div class="seccio-targeta__text"><h3><a href="./tema/poder-i-geopolitica">Obre la secció</a></h3></div></div></article>
+        <article class="seccio-targeta seccio-targeta--sense-foto"><a class="seccio-targeta__seccio" href="./tema/economia-i-treball">Economia i treball</a><div class="seccio-targeta__cos"><div class="seccio-targeta__text"><h3><a href="./tema/economia-i-treball">Obre la secció</a></h3></div></div></article>
+        <article class="seccio-targeta seccio-targeta--sense-foto"><a class="seccio-targeta__seccio" href="./tema/ciencia-salut-i-robotica">Ciència, salut i robòtica</a><div class="seccio-targeta__cos"><div class="seccio-targeta__text"><h3><a href="./tema/ciencia-salut-i-robotica">Obre la secció</a></h3></div></div></article>
+        <article class="seccio-targeta seccio-targeta--sense-foto"><a class="seccio-targeta__seccio" href="./tema/riscos-seguretat-i-drets">Riscos, seguretat i drets</a><div class="seccio-targeta__cos"><div class="seccio-targeta__text"><h3><a href="./tema/riscos-seguretat-i-drets">Obre la secció</a></h3></div></div></article>
+        <article class="seccio-targeta seccio-targeta--sense-foto"><a class="seccio-targeta__seccio" href="./tema/ment-etica-i-humanisme">Ment, ètica i humanisme</a><div class="seccio-targeta__cos"><div class="seccio-targeta__text"><h3><a href="./tema/ment-etica-i-humanisme">Obre la secció</a></h3></div></div></article>
+        <article class="seccio-targeta seccio-targeta--sense-foto"><a class="seccio-targeta__seccio" href="./tema/societat-cultura-i-educacio">Societat, cultura i educació</a><div class="seccio-targeta__cos"><div class="seccio-targeta__text"><h3><a href="./tema/societat-cultura-i-educacio">Obre la secció</a></h3></div></div></article>
+      </div>
     </section>
 
     <!-- Veus de CIVICAi (12.10.2026; dues peces des del 15.10.2026). La pinta app.js. -->

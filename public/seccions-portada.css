@@ -14,7 +14,6 @@
     linear-gradient(135deg, #12162a, #222a47 58%, #191f38);
   box-shadow: 0 28px 85px rgba(17, 21, 38, .3);
 }
-.seccions-band[hidden] { display: none; }
 
 .seccions-cap {
   display: flex;
@@ -100,3 +99,8 @@
   .seccions-graella { grid-template-columns: 1fr; padding-bottom: 28px; }
   .seccio-targeta, .seccio-targeta:nth-child(2n) { padding: 20px 0; border-left: 0; }
 }
+
+/* Seccions encara sense peça (20.10.2026): també es veuen sempre. */
+.seccio-targeta__crida { display: inline-block; color: var(--lime) !important; text-decoration: none; }
+.seccio-targeta__crida:hover { text-decoration: underline; }
+.seccio-targeta--buida h3 a { color: #dfe3f5; }
