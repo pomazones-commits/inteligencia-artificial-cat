@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-20T08:34:09.577Z",
+  "generat": "2026-10-20T12:11:00.535Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 31,
+      "audios": 33,
       "sobre_ia": 0
     },
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 22,
+      "audios": 21,
       "sobre_ia": 4
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 12,
+      "audios": 11,
       "sobre_ia": 1
     },
     {
@@ -177,23 +177,5 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": [
-    {
-      "id": "3cat-1294535",
-      "emissora": "Catalunya Ràdio",
-      "programa": "El matí de Catalunya Ràdio",
-      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
-      "data": "2026-10-19",
-      "durada": "1 h 0 min",
-      "titol_original": "El matí, de 10 a 11 h (Magazín) - 19/10/2026",
-      "descripcio_original": "Tanquem \"L'àgora\" parlant de les protestes a França amb Laura Bertran, enviada especial, i Christine Delfour, catedràtica de Ciències Polítiques. Entrevista a Ramon López de Mántaras, professor d'Investigació de l'Institut d'Investigació en Intel·ligència Artificial (CSIC).",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/el-mati-de-10-a-11-h-magazin-19102026/audio/1294535/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1294535"
-      }
-    }
-  ]
+  "candidats": []
 }
