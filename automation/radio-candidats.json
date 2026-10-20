@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-20T04:18:47.547Z",
+  "generat": "2026-10-20T04:20:50.615Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -135,8 +135,9 @@
       "font": "wordpress",
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
-      "estat": "error",
-      "error": "This operation was aborted"
+      "estat": "ok",
+      "audios": 31,
+      "sobre_ia": 0
     },
     {
       "font": "wordpress",
