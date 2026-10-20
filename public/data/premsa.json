@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-19T22:39:44.045Z",
+ "actualitzat": "2026-10-20T04:19:30.366Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "4dd7801ed240",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Por qué el Gobierno de EE.UU. paga solo un dólar por la IA más avanzada?",
+   "url": "https://www.lavanguardia.com/economia/20261020/11662885/gobierno-eeuu-ia-pablo-foncillas-pf-video-seo-lv.html",
+   "publicat": "2026-10-20T04:00:00.000Z"
+  },
+  {
+   "id": "98be716121c8",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Iñaki Gorostiza, experto en estrategia digital: “Mucha gente no conocen la diferencia entre un agente y un chatbot”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261020/11658841/inaki-gorostiza-experto-estrategia-digital-empresas-agentes-ia-tengan-alma-siguen-siendo-herramientas.html",
+   "publicat": "2026-10-20T04:00:00.000Z"
+  },
   {
    "id": "768e412e8c97",
    "mitja": "Última Hora",
@@ -46,6 +68,17 @@
    "titol": "El projecte Emma impulsa noves línies de recerca amb IA per millorar el pronòstic del càncer de mama",
    "url": "https://www.diaridetarragona.com/ebre/273489/projecte-emma-impulsa-noves-linies-recerca-amb-ia-per-millorar-pronostic-cancer-mama.html",
    "publicat": "2026-10-19T15:55:51.000Z"
+  },
+  {
+   "id": "659a542e9c47",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Sergi González defensa l'ús de l'IA per millorar la gestió d'Andorra la Vella",
+   "url": "https://www.diariandorra.ad/parroquies/261019/sergi-gonzalez-defensa-l-us-l-ia-per-millorar-gestio-d-andorra-vella_206854.html",
+   "publicat": "2026-10-19T15:18:25.000Z"
   },
   {
    "id": "0d4ca09fefc9",
@@ -2667,61 +2700,6 @@
    "titol": "Anthropic desafia el boom de la IA amb la sortida a la borsa \"més ridícula de l'any\"",
    "url": "https://www.ara.cat/economia/tecnologia/boom-anthropic-desafia-ia-sortida-borsa-mes-ridicula-l-any_1_5874974.html",
    "publicat": "2026-10-13T05:00:08.000Z"
-  },
-  {
-   "id": "62d9b32d4d25",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Jesús C. Guillén, astrofísico y neurocientífico: “La IA debería ayudarnos a pensar mejor, no a evitar que pensemos”",
-   "url": "https://www.lavanguardia.com/vivo/tendencias/20261013/11654077/jesus-c-guillen-astrofisico-neurocientifico-ia-deberia-ayudarnos-pensar-mejor-evitar-pensemos.html",
-   "publicat": "2026-10-13T04:00:00.000Z"
-  },
-  {
-   "id": "b83db67c4834",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una red de expertos europeos promoverá y supervisará el uso de la IA en salud mental",
-   "url": "https://www.lavanguardia.com/vida/20261013/11657145/red-expertos-europeos-promovera-supervisara-ia-salud-mental.html",
-   "publicat": "2026-10-13T04:00:00.000Z"
-  },
-  {
-   "id": "1be831207f83",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cómo incorporar la inteligencia artificial en el trabajo con criterio",
-   "url": "https://www.lavanguardia.com/economia/20261013/11652636/como-incorporar-inteligencia-artificial-trabajo-criterio-brl.html",
-   "publicat": "2026-10-13T03:55:00.000Z"
-  },
-  {
-   "id": "fa0a1088a455",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Per què la IA ja no necessita mentir",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/ia-ja-no-necessita-mentir_1708345_102.html",
-   "publicat": "2026-10-13T03:30:00.000Z"
-  },
-  {
-   "id": "cd0163433fed",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "IA y centros de datos",
-   "url": "https://www.lavanguardia.com/economia/20261013/11657258/ia-inteligencia-artificial-espana-centros-datos.html",
-   "publicat": "2026-10-13T03:00:00.000Z"
   }
  ]
 }
