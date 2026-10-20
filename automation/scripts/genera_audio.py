@@ -351,6 +351,20 @@ def cerca_noticia(slug: str):
     return None
 
 
+# Noms dels MP3 de les peces signades i de la Redacció (20.10.2026): també es poden
+# refer amb l'entrada «regenera» del workflow, p. ex. «empresa-2026-10-20» quan
+# es corregeix el text d'una peça ja publicada.
+PATRO_AUDIO_PECA = r"(?:empresa|tribuna|estudi|analisi|quadern|reflexio|civicai|civicai-estudi)-\d{4}-\d{2}-\d{2}(?:-[a-z0-9-]+)?"
+
+
+def peces_forcades() -> set:
+    """Els MP3 de peces demanats a REGENERA: es tornen a fer encara que existeixin."""
+    return {
+        s.strip() for s in os.environ.get("REGENERA", "").split(",")
+        if s.strip() and re.fullmatch(PATRO_AUDIO_PECA, s.strip())
+    }
+
+
 def regenera_forcats(transport, fets: int, errors: int):
     """Torna a sintetitzar les notícies de REGENERA encara que el MP3 ja existeixi."""
     demanats = [s.strip() for s in os.environ.get("REGENERA", "").split(",") if s.strip()]
@@ -359,6 +373,11 @@ def regenera_forcats(transport, fets: int, errors: int):
             print(f"AVÍS: slug no vàlid a REGENERA: {slug!r}; s'ignora.")
             continue
         item = cerca_noticia(slug)
+        if not item and re.fullmatch(PATRO_AUDIO_PECA, slug):
+            # 20.10.2026: un MP3 de peça signada (empresa-, tribuna-, civicai-…) es
+            # refà més avall, al bucle de les peces (vegeu peces_forcades()).
+            print(f"{slug}: és l'àudio d'una peça; es refà al bucle de les peces.")
+            continue
         if not item:
             print(f"ERROR: no s'ha trobat cap notícia amb l'slug {slug} per regenerar-ne l'àudio.")
             errors += 1
@@ -632,6 +651,7 @@ def main() -> int:
     #    amb aquesta entrada: la passada horària no hi entra mai, de manera
     #    que no pot entrar en bucle.
     fets, errors = regenera_forcats(transport, fets, errors)
+    forcades = peces_forcades()
 
     # 1) Les notícies de l'edició (comportament de sempre).
     if ARTICLES.is_file():
@@ -692,7 +712,9 @@ def main() -> int:
             if not data or not iso:
                 continue
             slug = nom or f"{prefix}-{iso}"
-            if not refes and transport.ja_existeix(slug):
+            if slug in forcades:
+                print(f"Regeneració forçada de {slug}.mp3 (peça)")
+            elif not refes and transport.ja_existeix(slug):
                 saltats += 1
                 continue
             text = "\n\n".join(
