@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-19T16:12:07.412Z",
+  "updatedAt": "2026-10-20T04:18:49.745Z",
   "items": [
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "L'Índia denuncia que agents d'IA de diversos proveïdors van arribar a sistemes d'organitzacions del país durant proves i van llegir dades personals",
-      "excerpt": "L'agència de ciberseguretat CERT-In diu que els agents van fer servir credencials exposades i que van anar més enllà de les tasques assignades. No ha dit quins proveïdors hi ha implicats."
+      "title": "Microsoft tracta els agents d'IA com una amenaça interna i diu que no es pot confiar en els models més avançats",
+      "excerpt": "L'empresa presenta uns «agents guardians» i una detecció de fins a 60 tipus d'agents que els empleats fan servir pel seu compte, tot i que ven la seva pròpia solució."
     },
     {
-      "category": "EMPRESES",
+      "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Disney farà ofertes de feina a almenys 60 empleats de Character.AI, la majoria de la plantilla, en plena fallida de l'empresa",
-      "excerpt": "Un document judicial xifra en uns 60 milions de dòlars l'any el cost salarial dels llocs de feina. L'acord és una oferta inicial que un altre comprador encara pot superar."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una capa d'IA que corregeix els errors dels models meteorològics dobla l'encert de les previsions a entre dues i sis setmanes",
-      "excerpt": "L'estudi publicat a «Nature» és el primer que, en aquest horitzó, aconsegueix superar les mitjanes climàtiques de llarg termini. La millora és sobretot per als fenòmens extrems."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un model d'IA llegeix «l'empremta» dels senyals que reben les cèl·lules i prediu com es desenvolupa un teixit, amb una prova en pulmó d'embrió de ratolí",
-      "excerpt": "El treball, publicat a «Nature Methods», entrena una xarxa neuronal amb milers de cèl·lules mare humanes per reconstruir quins senyals ha rebut cada cèl·lula i quan."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Instagram busca com frenar el contingut d'IA que copia l'obra de còmics i artistes, i el seu cap, Adam Mosseri, admet que els mecanismes actuals no n'hi ha prou",
-      "excerpt": "Una còpia generada amb IA d'una obra d'un artista va aconseguir 50 milions de visualitzacions. Mosseri descarta prohibir tot el contingut d'IA, perquè diu que no és pràctic."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Microsoft es retira del centre de dades de Nscale a Essex, que podria no tenir corrent elèctric fins al 2030, setmanes abans de la sortida a borsa",
-      "excerpt": "El «Telegraph» explica que Microsoft ha deixat l'acord que l'havia de convertir en el client principal del primer centre de dades britànic de Nscale. L'empresa diu que continua compromesa amb Loughton."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Investigadors de la UPF, la URV i l'Hospital de Tortosa combinen dades clíniques i immunitàries en un model d'IA per detectar metàstasi als ganglis en el càncer de mama",
-      "excerpt": "L'estudi, publicat a «Breast Cancer Research», redueix els falsos positius respecte d'un model amb dades clíniques només i proposa un possible biomarcador, però no prediu qui desenvoluparà metàstasi."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una pell artificial amb més de 10.000 sensors permet que robots humanoides notin relleus de 300 micròmetres i reaccionin als estímuls nocius",
-      "excerpt": "Un estudi a «Nature Machine Intelligence» descriu una pell que reparteix la feina com el sistema sensorial humà: només envia el que cal i redueix el volum de dades centenars de vegades."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "El Santander i Nvidia pacten tres anys de col·laboració per portar l'IA dels pilots a tot el banc",
-      "excerpt": "L'acord cobreix models de base, agents, prevenció del frau i del blanqueig de capitals, decisions en temps real i simulació. El banc diu que un primer ús en atenció al client ha reduït els costos un 50%."
+      "title": "Un atac a l'eina de programació OpenCode carrega despeses als comptes d'IA d'un 1,4% dels usuaris de la consola",
+      "excerpt": "Els atacants van entrar en un sistema antic i van fer servir claus d'API de OpenAI, Anthropic i Google; alguns usuaris van veure càrrecs de centenars de dòlars."
     },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Apple endureix les normes de l'App Store contra les aplicacions que despullen persones amb IA i contra les que amaguen funcions després de la revisió",
-      "excerpt": "Les directrius actualitzades el 16 d'octubre afegeixen una norma contra les funcions amagades, inclosa l'ofuscació del codi, i adverteixen que qui no posi salvaguardes pot incomplir el codi de conducta dels desenvolupadors."
-    },
-    {
-      "category": "MODELS",
-      "read": "5 MIN",
-      "title": "Google diu que Gemini 4 Argon resol els 12 ciberatacs simulats i explica com el vigila mentre raona",
-      "excerpt": "L'informe de seguretat de Google detalla tres capes de control i xifres pròpies, entre elles una prova que va fer créixer del 11,2% al 36,4% els dreceres que el model no deixava escrits."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Mistral presenta Timestral, models per predir sèries temporals que funcionen sense targeta gràfica",
-      "excerpt": "La família té quatre mides, de 5 a 209 milions de paràmetres, i Mistral diu que la gran lidera tres proves de referència; el codi i els models són oberts, amb una llicència MIT modificada."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA quantifica el greix marró en 101.243 escàners i el relaciona amb un 58% menys de probabilitat de diabetis tipus 2",
-      "excerpt": "Un estudi publicat a Nature l'associa també a menys cardiopatia isquèmica; el fàrmac losartan l'activa en cèl·lules i ratolins, però no s'ha provat en persones."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "El Japó prova mapes de risc amb IA, càmeres i drons per contenir els óssos, després d'un any amb 13 morts",
-      "excerpt": "Els atacs d'ós negre asiàtic van deixar 238 ferits i 13 morts l'any fiscal 2025, un rècord; els experts demanen no donar per resolta la crisi només amb tecnologia."
-    },
-    {
-      "category": "COMUNITAT VALENCIANA",
-      "read": "3 MIN",
-      "title": "València acull dimecres i dijous el VDS 2026, amb un programa d'IA el dia 21 sobre agents autònoms",
-      "excerpt": "L'esdeveniment tecnològic, organitzat per Startup Valencia a la Ciutat de les Arts i les Ciències, dedica una jornada a l'impacte de la IA generativa i dels agents."
+      "title": "Amazon llança TorchNeuron perquè les aplicacions de PyTorch passin als seus xips Trainium amb una sola línia de configuració",
+      "excerpt": "L'eina vol esquerdar l'avantatge de programari de Nvidia; el cas que cita Amazon, Deepgram, diu que processa un 70% més d'àudio per dòlar."
     },
     {
       "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Anthropic destinarà el 5% de les seves accions a un fons d'interès públic, amb un 2% més cada cop que l'empresa augmenti de valor",
-      "excerpt": "El fons serà una societat de responsabilitat limitada propietat d'Anthropic, no podrà fer lobbisme i només el 5% inicial depèn de l'aprovació dels accionistes."
+      "read": "3 MIN",
+      "title": "Tenstorrent aixeca 1.500 milions de dòlars amb una valoració de 6.200 milions per fabricar xips per a models oberts",
+      "excerpt": "L'empresa de Jim Keller va decidir seguir independent després que Intel i Qualcomm s'hi interessessin; més que duplica la valoració de fa dos anys."
     },
     {
       "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA llegeix frotis vaginals fotografiats amb un mòbil al microscopi i distingeix cinc diagnòstics, en un estudi tailandès",
-      "excerpt": "Els autors, de la Universitat de Chiang Mai, el presenten com una prova de concepte: l'estudi és retrospectiu, d'un sol centre i encara no s'ha validat amb pacients."
-    },
-    {
-      "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "PostgreSQL 19 s'endarrereix fins cap al 19 de novembre: la revisió de codi amb IA va destapar errors que el calendari no podia absorbir",
-      "excerpt": "El projecte retira entre vuit i deu funcions, entre elles les consultes sobre grafs, que passen a la versió 20; els responsables aclareixen que no és culpa del «vibe coding»."
-    },
-    {
-      "category": "ENERGIA",
-      "read": "4 MIN",
-      "title": "El Departament d'Energia dels EUA presta fins a 4.400 milions de dòlars per reobrir tres centrals nuclears, dues amb clients tecnològics",
-      "excerpt": "Palisades, Crane i Duane Arnold sumarien uns 2,25 GW; Microsoft ha contractat l'energia de Crane i Google vol Duane Arnold, però cap dels tres reinicis no és a punt."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "L'AI Congress arrenca dimarts a Barcelona amb una cinquantena de ponents i la IA agèntica com a tema central",
-      "excerpt": "La dotzena edició, organitzada per Eurecat, s'allarga a tres dies, del 20 al 22 d'octubre, i prioritza projectes i casos reals per sobre de les presentacions teòriques."
+      "title": "Un model d'IA que aprofita la simetria del cap del fetus en segueix la posició durant una ressonància per evitar imatges amb buits",
+      "excerpt": "L'equip del MIT i de l'Hospital Infantil de Boston ha presentat el model al congrés ECCV 2026; encara està entrenat sobretot amb fetus del tercer trimestre."
     }
   ]
 }
