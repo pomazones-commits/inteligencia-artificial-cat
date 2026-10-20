@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-20T12:11:00.535Z",
+  "generat": "2026-10-20T22:31:03.692Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -16,7 +16,7 @@
       "programa": "Catalunya nit",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 4
     },
     {
       "font": "3cat",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 33,
+      "audios": 34,
       "sobre_ia": 0
     },
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 21,
+      "audios": 20,
       "sobre_ia": 4
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 11,
+      "audios": 13,
       "sobre_ia": 1
     },
     {
@@ -177,5 +177,40 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "3cat-1294759",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-10-20",
+      "durada": "11 min",
+      "titol_original": "La IA pot avaluar el risc de mort en pacients amb càncer?",
+      "descripcio_original": "Investigadors nord-americans asseguren que amb una foto de la cara i una eina d'IA es podria avaluar el risc de mort en pacients amb càncer. Els resultats preliminars d'aquesta recerca s'han publicat a la revista mèdica britànica The Lancet Digital Health. En parlem amb Oriol Estrada, metge internista i director d'estratègia assistencial i innovació de l'Hospital Germans Trias i Pujol - Can Ruti.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.3cat.cat/3cat/la-ia-pot-avaluar-el-risc-de-mort-en-pacients-amb-cancer/audio/1294759/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1294759"
+      }
+    },
+    {
+      "id": "3cat-1294766",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-10-20",
+      "durada": "1 h 0 min",
+      "titol_original": "Catalunya nit, de 22 a 23 h - 20/10/2026",
+      "descripcio_original": "Entrevistem Oriol Estrada, doctor de Can Ruti, després de saber que la intel·ligència artificial pot ajudar a saber quines possibilitats de supervivència té un pacient amb càncer. I l'economista Mar Reguant explica què és el dèficit públic, arran de la revolta a França.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/catalunya-nit-de-22-a-23-h-20102026/audio/1294766/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1294766"
+      }
+    }
+  ]
 }
