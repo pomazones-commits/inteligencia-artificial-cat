@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-20T09:40:50.137Z",
+ "actualitzat": "2026-10-20T12:11:43.943Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "efb72c1cbfed",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un nuevo modelo de IA predice el riesgo de muerte de pacientes con cáncer a partir de una fotografía del rostro",
+   "url": "https://www.lavanguardia.com/vida/20261020/11663560/nuevo-modelo-ia-predice-riesgo-muerte-pacientes-cancer-partir-fotografia-rostro.html",
+   "publicat": "2026-10-20T11:34:29.000Z"
+  },
+  {
+   "id": "5b553451abd3",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Aprobado el plan catalán contra las ciberestafas, con un nuevo asistente de IA para la ciudadanía",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/20/2732757/aprobado-plan-catalan-contra-ciberestafas-nuevo-asistente-para-ciudadania.html",
+   "publicat": "2026-10-20T10:53:11.000Z"
+  },
+  {
+   "id": "3b35583bd5b7",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una investigación sobre el saqueo masivo de conocimiento para alimentar la IA gana el Premio Anagrama de Ensayo",
+   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261020/premio-anagrama-ensayo-xavier-nueno-ia-robo-135528734",
+   "publicat": "2026-10-20T10:50:29.000Z"
+  },
+  {
+   "id": "b35710a517a6",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una investigación sobre cómo la IA se apropia de la memoria colectiva gana el Anagrama de Ensayo",
+   "url": "https://www.lavanguardia.com/cultura/20261020/11663535/xavier-nueno-gana-anagrama-ensayo-inteligencia-artidicial-apropia-memoria-colectiva.html",
+   "publicat": "2026-10-20T10:29:52.000Z"
+  },
+  {
+   "id": "0b719961b8c5",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El exCEO de Google aflora un 1% de Anthropic y refuerza la presencia en el capital de los gigantes tecnológicos",
+   "url": "https://cincodias.elpais.com/companias/2026-10-20/el-exceo-de-google-aflora-un-1-de-anthropic-y-refuerza-la-presencia-en-el-capital-de-los-gigantes-tecnologicos.html",
+   "publicat": "2026-10-20T10:21:38.000Z"
+  },
+  {
+   "id": "68c92bae446a",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Premi Anagrama per a un crit d'alerta sobre la privatització del saber i la trampa de la IA",
+   "url": "https://llegim.ara.cat/actualitat/premi-anagrama-crit-d-alerta-privatitzacio-trampa-ia_1_5884593.html",
+   "publicat": "2026-10-20T10:18:14.000Z"
+  },
   {
    "id": "299bb9ac730c",
    "mitja": "Valencia Plaza",
@@ -2654,96 +2720,6 @@
    "titol": "El Ayuntamiento de Alcoy fulmina el concurso del cartel de la Cabalgata tras las polémicas con la IA",
    "url": "https://www.informacion.es/alcoy/2026/10/13/ayuntamiento-alcoy-fulmina-concurso-cartel-135282927.html",
    "publicat": "2026-10-13T12:12:50.000Z"
-  },
-  {
-   "id": "897b3f64a66e",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Centenares de supermercados en Francia, víctimas de un ciberataque que disparó la temperatura de sus congeladores",
-   "url": "https://www.eldiario.es/tecnologia/centenares-supermercados-francia-victimas-ciberataque-disparo-temperatura-congeladores_1_13581861.html",
-   "publicat": "2026-10-13T11:53:04.000Z"
-  },
-  {
-   "id": "3b691738f114",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El BBVA s'uneix a Sierra AI i Meta per connectar agents d'IA amb empreses",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/bbva-uneix-sierra-ai-meta-connectar-agents-ia-empreses_1709002_102.html",
-   "publicat": "2026-10-13T11:47:01.000Z"
-  },
-  {
-   "id": "b57ab8ed0176",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Más de 400 científicos denuncian la \"negligencia\" de los laboratorios de IA y exigen control internacional",
-   "url": "https://www.eldiario.es/tecnologia/400-cientificos-denuncian-negligencia-laboratorios-ia-exigen-control-internacional_1_13581421.html",
-   "publicat": "2026-10-13T11:27:06.000Z",
-   "noticia": "cientifics-carta-negligencia-laboratoris-ia-ciberseguretat",
-   "noticiaTitol": "Més de 400 científics acusen els laboratoris d'IA de negligència en ciberseguretat i reclamen un organisme internacional"
-  },
-  {
-   "id": "f6eb363301ed",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA impulsa el salto de gestor a asesor",
-   "url": "https://www.lavanguardia.com/dinero/20261013/11657777/ia-impulsa-salto-gestor-asesor.html",
-   "publicat": "2026-10-13T11:11:28.000Z"
-  },
-  {
-   "id": "cf95d512da0d",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "ColorOS 17 se lanza a nivel mundial con una IA avanzada, estos son los OPPO que lo recibirán",
-   "url": "https://cincodias.elpais.com/smartlife/smartphones/2026-10-13/oppo-coloros-17-oficial-nivel-mundial-modelos.html",
-   "publicat": "2026-10-13T11:00:00.000Z"
-  },
-  {
-   "id": "cba8f5bc31ed",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La intel·ligència artificial i la inflació, els grans factors que condicionaran el mercat en el futur",
-   "url": "https://www.elperiodico.cat/economia/20261013/intelligencia-artificial-inflacio-els-grans-135273957",
-   "publicat": "2026-10-13T09:57:43.000Z"
-  },
-  {
-   "id": "99019e720694",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Epic retrasa el lanzamiento de su juego basado en Star Wars y Marvel: el código y todo el arte se harán con IA",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/13/2727855/epic-retrasa-lanzamiento-juego-basado-star-wars-marvel-codigo-todo-arte-haran-ia.html",
-   "publicat": "2026-10-13T09:54:00.000Z"
-  },
-  {
-   "id": "31bd555fa9c7",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Meta presenta Muse Wonder, su inteligencia artificial más avanzada para superar a OpenAI y Anthropic",
-   "url": "https://www.lavanguardia.com/neo/ia/20261013/11657673/meta-presenta-muse-wonder-inteligencia-artificial-mas-avanzada-superar-openai-anthropic.html",
-   "publicat": "2026-10-13T09:50:01.000Z"
   }
  ]
 }
