@@ -9,6 +9,7 @@ window.IA_TRIBUNA_ARXIU = [
     "category": "TRIBUNA",
     "read": "4 MIN",
     "author": "Eudald Carbonell",
+    "portada_dies": 7,
     "role": "Vicepresident de la Fundació Atapuerca, i membre de CIVICAi",
     "org": "CIVICAi",
     "orgUrl": "https://civicai.cat/",
