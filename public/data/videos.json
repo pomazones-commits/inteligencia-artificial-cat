@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-21T16:13:20.466Z",
+ "actualitzat": "2026-10-21T16:28:10.456Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "4idQxzAyPDo",
+   "titol": "How AI Enables Better, More Connected Patient Care",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "salut",
+   "idioma": "en",
+   "publicat": "2026-10-21T16:16:52.000Z",
+   "descripcio": "Better care starts when the systems around a doctor and a patient work together. AI connects conversations, lab results, operating room planning, supplies, and recovery support. This gives care teams better information to provide you with what you need. Connected digital tools and AI-powered equipme",
+   "miniatura": "/assets/videos/4idQxzAyPDo.jpg"
+  },
   {
    "id": "Y39uub4n0LA",
    "titol": "How Lila Sciences’ AI and Automated Labs Help Scientists Discover New Medicines Faster",
@@ -73,7 +85,10 @@
    "idioma": "en",
    "publicat": "2026-10-21T11:20:19.000Z",
    "descripcio": "Introducing NVIDIA OpenShell Reference Architecture, an open hardware and software architecture for securing autonomous AI agents across the full stack. As agents take on long-running workflows at scale, safety requires controls outside the agents themselves. See why model alignment alone is not eno",
-   "miniatura": "/assets/videos/xaHdyqGtG1M.jpg"
+   "miniatura": "/assets/videos/xaHdyqGtG1M.jpg",
+   "noticia": "nvidia-gtc-berlin-google-cloud-rubin-agents",
+   "noticiaTitol": "Nvidia presenta a Berlín els ordinadors Vera Rubin a Google Cloud i eines per controlar els agents d'IA de les empreses",
+   "resum": "Vídeo de NVIDIA que presenta l'arquitectura de referència OpenShell, pensada perquè els agents d'IA funcionin amb més seguretat. És en anglès; el resum parteix del títol i de la descripció del canal oficial."
   },
   {
    "id": "IqhDPbRrsh4",
