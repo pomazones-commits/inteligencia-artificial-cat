@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-21T04:13:23.500Z",
+ "actualitzat": "2026-10-21T08:12:42.780Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "3838186ac18c",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Dr. Francisco Anaya explica en la InformaciónTV las mejoras que aporta la IA en medicina reproductiva",
+   "url": "https://www.informacion.es/videos/informaciontv/2026/10/21/dr-francisco-anaya-explica-informaciontv-135534406.html",
+   "publicat": "2026-10-21T08:00:31.000Z"
+  },
+  {
+   "id": "ccef927c61cd",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic perd 80.700 milions de dòlars fins al juny per finançar Claude",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/anthropic-perd-80700-milions-dolars-fins-juny-ajustos-comptables_1712611_102.html",
+   "publicat": "2026-10-21T06:58:32.000Z"
+  },
+  {
+   "id": "80f0baf9cc63",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La ventaja competitiva en el sector jurídico está en saber dónde y cómo usar la IA",
+   "url": "https://cincodias.elpais.com/legal/2026-10-21/la-ventaja-competitiva-en-el-sector-juridico-esta-en-saber-donde-y-como-usar-la-ia.html",
+   "publicat": "2026-10-21T06:30:00.000Z"
+  },
+  {
+   "id": "26b812ecae0b",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Apple compra Samplab, la IA que permet canviar les notes d'una cançó ja enregistrada",
+   "url": "https://www.elnacional.cat/ca/tecnologia/apple-compra-samplab-ia-permet-canviar-notes-canco-ja-enregistrada_1712584_102.html",
+   "publicat": "2026-10-21T04:50:00.000Z"
+  },
   {
    "id": "7c980f7704d2",
    "mitja": "La Vanguardia",
@@ -23,7 +67,9 @@
    "ambit": "catala",
    "titol": "Motor | Volvo Cars y NVIDIA amplían su colaboración para impulsar la conducción automatizada segura",
    "url": "https://valenciaplaza.com/valenciaplaza/plazamotor/volvo-cars-y-nvidia-amplian-su-colaboracion-para-impulsar-la-conduccion-automatizada-segura",
-   "publicat": "2026-10-21T04:00:05.000Z"
+   "publicat": "2026-10-21T04:00:05.000Z",
+   "noticia": "volvo-nvidia-conduccio-automatitzada-segura",
+   "noticiaTitol": "Volvo i Nvidia amplien la col·laboració per portar conducció automatitzada als pròxims cotxes de la marca"
   },
   {
    "id": "e2396e1ebe39",
@@ -35,6 +81,17 @@
    "titol": "Geoffrey Hinton, el padrino de la IA: “No soy catastrofista. Creo que hay un 1% de posibilidades de que nos destruya”",
    "url": "https://elpais.com/ciencia/2026-10-21/geoffrey-hinton-el-padrino-de-la-ia-no-soy-catastrofista-creo-que-hay-un-1-de-posibilidades-de-que-nos-destruya.html",
    "publicat": "2026-10-21T03:30:01.000Z"
+  },
+  {
+   "id": "f0790742f9d4",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic registra unas pérdidas históricas de 80.000 millones de dólares antes de su salida a Bolsa",
+   "url": "https://elpais.com/economia/2026-10-20/anthropic-registra-unas-perdidas-historicas-de-80000-millones-de-dolares-antes-de-su-salida-a-bolsa.html",
+   "publicat": "2026-10-20T22:23:27.000Z"
   },
   {
    "id": "a11c36dd40e6",
@@ -2546,116 +2603,6 @@
    "titol": "¿Puede ChatGPT diagnosticar la alopecia? Los dermatólogos alertan de los riesgos de confiar en la IA",
    "url": "https://www.elperiodico.com/es/salud/20261014/chatgpt-diagnosticar-alopecia-dermatologos-alertan-ia-135313759",
    "publicat": "2026-10-14T08:12:47.000Z"
-  },
-  {
-   "id": "ef66d0e218ef",
-   "mitja": "El Periódico",
-   "font": "elperiodico-tec",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L’FBI deté un empleat d’OpenAI acusat de col·locar una gravadora per espiar reunions confidencials",
-   "url": "https://www.elperiodico.cat/tecnologia/20261014/espionatge-openai-fbi-dete-empleat-gravadora-microfon-reunions-confidencials-secret-chatgpt-135312519",
-   "publicat": "2026-10-14T08:01:29.000Z"
-  },
-  {
-   "id": "e56834477a85",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El nuevo Grado en IA y Robótica Aplicadas del TecnoCampus arranca con pleno de matriculaciones y lista de espera",
-   "url": "https://www.lavanguardia.com/economia/innovacion/20261014/11657981/nuevo-grado-ia-robotica-aplicadas-tecnocampus-arranca-pleno-matriculaciones-lista-espera-brl.html",
-   "publicat": "2026-10-14T08:00:00.000Z"
-  },
-  {
-   "id": "4f509ae80b73",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Rafael López, el malagueño de 25 años que triunfa con la Inteligencia Artificial en Silicon Valley: \"La clave para que la IA sea fiable es saber enseñarla\"",
-   "url": "https://www.elperiodico.com/es/sociedad/20261014/rafael-lopez-malagueno-silicon-valley-ia-wordware-san-francisco-135220939",
-   "publicat": "2026-10-14T07:59:07.000Z"
-  },
-  {
-   "id": "7533bb538386",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una IA de Anthropic confunde a la policía al proporcionar una pista falsa sobre un asesinato sin resolver",
-   "url": "https://www.levante-emv.com/tendencias21/2026/10/14/ia-anthropic-confunde-policia-proporcionar-135312467.html",
-   "publicat": "2026-10-14T07:41:03.000Z"
-  },
-  {
-   "id": "f28b4a04a81d",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Quan l'alcalde és IA: així governa el batlle de Tirana, empresonat per corrupció",
-   "url": "https://www.elnacional.cat/ca/internacional/quan-alcalde-es-ia-aixi-governa-batlle-tirana-empresonat-corrupcio_1709350_102.html",
-   "publicat": "2026-10-14T07:01:44.000Z"
-  },
-  {
-   "id": "4a0d1c0875fd",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Una grabadora oculta en OpenAI: el FBI detiene a un empleado por espiar reuniones confidenciales",
-   "url": "https://elpais.com/tecnologia/2026-10-14/una-grabadora-oculta-en-openai-el-fbi-detiene-a-un-empleado-acusado-de-espiar-reuniones-confidenciales.html",
-   "publicat": "2026-10-14T06:45:45.000Z"
-  },
-  {
-   "id": "d87ce60238af",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La IA, a examen entre juristas: ¿la usan a diario? ¿es una bendición o un castigo para el sector?",
-   "url": "https://cincodias.elpais.com/legal/2026-10-14/la-ia-a-examen-entre-juristas-la-usan-a-diario-es-una-bendicion-o-un-castigo-para-el-sector.html",
-   "publicat": "2026-10-14T06:31:00.000Z"
-  },
-  {
-   "id": "c3cff9b3f22a",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA necesita cada vez más supervisión en las empresas: casi una de cada tres pruebas detecta fallos de fiabilidad",
-   "url": "https://www.elperiodico.com/es/economia/20261014/inteligencia-artificial-necesita-mas-supervision-una-cada-tres-pruebas-fallos-fiabilidad-135287734",
-   "publicat": "2026-10-14T05:00:18.000Z"
-  },
-  {
-   "id": "520479087191",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El ressorgiment de Nokia gràcies a la IA",
-   "url": "https://empreses.ara.cat/empreses/ressorgiment-nokia-gracies-ia_1_5877489.html",
-   "publicat": "2026-10-14T05:00:11.000Z"
-  },
-  {
-   "id": "9e27abed56a4",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Adiós a los maquinistas: China presenta el primer metro conducido con IA que aprende y decide sobre la marcha",
-   "url": "https://www.lavanguardia.com/neo/ia/20261014/11657764/adios-maquinistas-china-presenta-primer-metro-conducido-ia-aprende-decide-sobre-marcha.html",
-   "publicat": "2026-10-14T05:00:00.000Z"
   }
  ]
 }
