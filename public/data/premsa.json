@@ -1,13 +1,57 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-21T17:20:11.278Z",
+ "actualitzat": "2026-10-21T20:23:00.912Z",
  "fonts": 44,
  "articles": [
   {
+   "id": "7ce5624df762",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nuevos OPPO Enco X4, unos auriculares con IA, sonido Dynaudio y cancelación de ruido a precio comedido",
+   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-10-21/nuevos-oppo-enco-x4-unos-auriculares-con-ia-sonido-dynaudio-y-cancelacion-de-ruido-a-precio-comedido.html",
+   "publicat": "2026-10-21T19:00:00.000Z"
+  },
+  {
+   "id": "a8d13f41b79d",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Veinte países iberoamericanos refuerzan en Alicante la cooperación en inteligencia artificial y exploración espacial",
+   "url": "https://www.informacion.es/alicante/2026/10/21/cumbre-iberoamericana-ministros-tecnologia-ciencia-135599602.html",
+   "publicat": "2026-10-21T17:55:19.000Z"
+  },
+  {
+   "id": "2a24f11533c3",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Un fallo crítico en el lenguaje PHP pone en riesgo webs de todo el mundo",
+   "url": "https://www.eldiario.es/tecnologia/estados-unidos-advierte-vulnerabilidades-lenguaje-php-ponen-riesgo-servidores-web_1_13604663.html",
+   "publicat": "2026-10-21T17:23:52.000Z"
+  },
+  {
+   "id": "3ebd6ab0d1b1",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Una greu fallada de seguretat descoberta amb IA amenaça milions de webs",
+   "url": "https://www.vilaweb.cat/noticies/greu-fallada-seguretat-descoberta-ia-amenaca-webs",
+   "publicat": "2026-10-21T17:22:58.000Z"
+  },
+  {
    "id": "4106c6d43178",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
    "titol": "Dos vulnerabilidades críticas detectadas con IA provocan fallos múltiples en miles de páginas web",
@@ -2434,39 +2478,6 @@
    "titol": "La oportunidad de Valencia en la nueva geografía de la inteligencia artificial",
    "url": "https://www.lavanguardia.com/local/valencia/20261015/11658607/oportunidad-valencia-nueva-geografia-inteligencia-artificial.html",
    "publicat": "2026-10-15T03:00:00.000Z"
-  },
-  {
-   "id": "eeaa01903896",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Carissa Véliz, filósofa: “La IA presenta las predicciones como hechos, pero la democracia necesita incertidumbre para ser libre”",
-   "url": "https://cincodias.elpais.com/economia/foro-creo-creando-oportunidades/2026-10-14/carissa-veliz-filosofa-la-ia-presenta-las-predicciones-como-hechos-pero-la-democracia-necesita-incertidumbre-para-ser-libre.html",
-   "publicat": "2026-10-14T20:15:39.000Z"
-  },
-  {
-   "id": "14cca1c8ddba",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Gandia Pensa aborda el impacto de la inteligencia artificial: \"Nos acompaña desde que somos sapiens\"",
-   "url": "https://www.levante-emv.com/safor/2026/10/14/gandia-pensa-aborda-impacto-inteligencia-135345410.html",
-   "publicat": "2026-10-14T20:02:34.000Z"
-  },
-  {
-   "id": "5121d2e7f8d8",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA y las cinco claves para invertir",
-   "url": "https://www.elperiodico.com/es/opinion/20261014/ia-cinco-claves-invertir-135342408",
-   "publicat": "2026-10-14T18:20:00.000Z"
   }
  ]
 }
