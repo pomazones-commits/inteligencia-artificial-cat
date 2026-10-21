@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "València",
+    "category": "IA I SOCIETAT",
+    "date": "21.10.2026",
+    "title": "Un sistema d'IA de la UPV i la Universitat de València ajuda a distingir el sarcoma d'Ewing d'altres tumors amb un 91,6% d'encert",
+    "summary": "L'eina analitza imatges de teixit de 729 pacients de quatre hospitals d'Espanya i Itàlia i vol orientar els patòlegs quan la biòpsia és escassa; el treball s'ha publicat a una revista revisada per parells.",
+    "detail": "El sarcoma d'Ewing és un tumor ossi i de parts toves que es confon fàcilment amb altres tumors de cèl·lules petites i rodones. Distingir-lo bé és decisiu perquè el tractament depèn del diagnòstic, però sovint els patòlegs només tenen una mostra minúscula obtinguda amb una agulla, i això limita les proves que poden fer.\n\nUn equip de la Universitat Politècnica de València, de la Universitat de València i de l'Institut d'Investigació Sanitària INCLIVA ha entrenat un sistema d'aprenentatge profund que reconeix els patrons microscòpics de cada tumor i classifica la mostra. Segons la nota de la UPV, que recull News-Medical, el model es va entrenar i avaluar amb 1.926 mostres histològiques digitalitzades de 729 pacients de quatre hospitals d'Espanya i Itàlia. L'encert global és del 91,6%, la sensibilitat per al sarcoma d'Ewing arriba al 97,1% i l'error entre aquest tumor i el rabdomiosarcoma és de l'1,96%. L'article, signat per Francisco Giner i col·legues, s'ha publicat a l'«International Journal of Molecular Sciences» i compta amb el finançament europeu NextGenerationEU.\n\nL'objectiu no és substituir el patòleg, sinó orientar-lo: quan hi ha poc teixit, saber quines proves complementàries val més demanar primer. Hi han col·laborat també l'hospital La Fe, l'Institut Valencià d'Oncologia, el Centre d'Investigació Príncipe Felipe i l'Institut Ortopèdic Rizzoli de Bolonya, i un dels autors és alhora cap tècnic d'Artikode Intelligence, una empresa derivada de la UPV.\n\nLa nota de premsa no detalla com es van repartir les dades entre entrenament i prova, si hi ha hagut validació amb hospitals aliens als quatre ni si l'eina ja es pot fer servir a la clínica. Tampoc dona intervals de confiança ni resultats per a cada tipus de tumor. Cal llegir l'article complet per saber fins on arriba el 91,6% abans de parlar d'una eina llesta per a la pràctica diària.",
+    "source": "News-Medical (nota de la UPV)",
+    "url": "https://www.news-medical.net/news/20261013/New-AI-tool-distinguishes-Ewing-sarcoma-with-high-accuracy.aspx",
+    "image": "./assets/sarcoma-ewing-ia-upv-uv-20261021.jpg",
+    "slug": "sarcoma-ewing-ia-upv-uv"
+  },
+  {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "20.10.2026",
@@ -82,20 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.financialcontent.com/article/actus-2026-10-14-kalray-and-openchip-sign-a-12-month-extension-of-their-partnership",
     "image": "./assets/openchip-kalray-prorroga-xips-ia-20261018.jpg",
     "slug": "openchip-kalray-prorroga-xips-ia"
-  },
-  {
-    "place": "Catalunya",
-    "category": "SEGURETAT",
-    "date": "17.10.2026",
-    "title": "El pla del Govern contra les ciberestafes preveu un assistent d'IA al web i al WhatsApp, encara en desenvolupament",
-    "summary": "L'Agència de Ciberseguretat i els Mossos han presentat un pla 2026-2028 contra les estafes virtuals, ja el segon delicte més denunciat a Catalunya. L'assistent encara no funciona.",
-    "detail": "L'Agència de Ciberseguretat de Catalunya i els Mossos d'Esquadra han presentat el Pla estratègic per a la lluita contra les estafes virtuals 2026-2028, que el Consell Executiu ha d'aprovar dimarts 20 d'octubre. Entre les accions previstes hi ha un assistent basat en intel·ligència artificial que serà accessible des del web de l'Agència i per WhatsApp. Ha d'ajudar a detectar estafes digitals i a respondre consultes de ciberseguretat amb consells i bones pràctiques. Segons l'Agència, l'assistent encara està en desenvolupament, i es preveu que pugui adreçar directament a la Comissaria Virtual dels Mossos les persones que hagin pogut ser víctimes d'una estafa.\n\nEl pla respon a unes xifres que no paren de créixer. Segons el Departament d'Interior, les estafes en l'àmbit virtual van superar les 83.000 el 2024 i en van ser unes 79.000 el 2025. Fins a l'agost d'enguany se n'han registrat 53.577, unes 220 denúncies al dia, amb pèrdues de 103 milions d'euros. Les ciberestafes ja són el segon delicte més denunciat a Catalunya, només per darrere dels furts. L'Agència atribueix part del canvi a la IA generativa, que permet fer missatges fraudulents personalitzats i cada cop més creïbles.\n\nEl pla distingeix quatre grans tipus d'estafa: les vinculades a transaccions econòmiques (compravendes en línia i falses inversions), els càrrecs bancaris no reconeguts, les suplantacions d'identitat (l'estafa del fill, el frau del CEO o les falses ofertes de feina) i l'enginyeria social per correu electrònic, trucades o missatges de text.\n\nA més de l'assistent, el pla preveu la Comissaria Virtual dels Mossos per denunciar estafes en línia a partir del novembre, l'ampliació del telèfon 012 per atendre consultes sobre denúncies, xerrades de prevenció per a ajuntaments i empreses, amb ACCIÓ, Sinergia i ASCICAT, i campanyes en èpoques de més risc, com les rebaixes, les vacances o el Nadal. Els Mossos també han creat un Grup de Ciberintel·ligència a la Comissaria General de Tecnologies de la Informació i la Comunicació, que recull i analitza informació sobre els autors de les estafes i les tècniques que fan servir.\n\nLímits: de moment, l'assistent d'IA és un anunci. No en consta la data d'estrena, ni amb quina tecnologia funcionarà, ni com es comprovarà que les respostes siguin fiables. El pla tampoc no estava aprovat quan es va presentar.\n\nRectificació (17 d'octubre de 2026): aquest web va publicar el mateix dia una notícia, ja retirada, que deia que l'assistent ja funcionava. Segons la nota oficial de l'Agència de Ciberseguretat, encara està en desenvolupament.",
-    "source": "Govern de la Generalitat",
-    "url": "https://govern.cat/gov/notes-premsa/881320/el-govern-activa-una-resposta-integral-contra-les-ciberestafes-que-es-consoliden-com-el-segon-delicte-mes-denunciat-a-catalunya",
-    "image": "./assets/pla-ciberestafes-govern-assistent-ia-en-desenvolupament-20261017-foto.jpg",
-    "imageCredit": "Generalitat de Catalunya",
-    "imageLicense": "CC0",
-    "imageSourceUrl": "https://govern.cat/gov/notes-premsa/881320/el-govern-activa-una-resposta-integral-contra-les-ciberestafes-que-es-consoliden-com-el-segon-delicte-mes-denunciat-a-catalunya",
-    "slug": "pla-ciberestafes-govern-assistent-ia-en-desenvolupament"
   }
 ];

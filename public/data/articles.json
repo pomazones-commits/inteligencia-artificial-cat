@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-21T08:12:01.009Z",
+  "updatedAt": "2026-10-21T12:18:54.275Z",
   "items": [
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "slug": "sarcoma-ewing-ia-upv-uv",
+      "title": "Un sistema d'IA de la UPV i la Universitat de València ajuda a distingir el sarcoma d'Ewing d'altres tumors amb un 91,6% d'encert",
+      "excerpt": "L'eina analitza imatges de teixit de 729 pacients de quatre hospitals d'Espanya i Itàlia i vol orientar els patòlegs quan la biòpsia és escassa; el treball s'ha publicat a una revista revisada per parells.",
+      "sourceName": "News-Medical (nota de la UPV)",
+      "sourceUrl": "https://www.news-medical.net/news/20261013/New-AI-tool-distinguishes-Ewing-sarcoma-with-high-accuracy.aspx",
+      "sourceDate": "13 d'octubre de 2026",
+      "body": "El sarcoma d'Ewing és un tumor ossi i de parts toves que es confon fàcilment amb altres tumors de cèl·lules petites i rodones. Distingir-lo bé és decisiu perquè el tractament depèn del diagnòstic, però sovint els patòlegs només tenen una mostra minúscula obtinguda amb una agulla, i això limita les proves que poden fer.\n\nUn equip de la Universitat Politècnica de València, de la Universitat de València i de l'Institut d'Investigació Sanitària INCLIVA ha entrenat un sistema d'aprenentatge profund que reconeix els patrons microscòpics de cada tumor i classifica la mostra. Segons la nota de la UPV, que recull News-Medical, el model es va entrenar i avaluar amb 1.926 mostres histològiques digitalitzades de 729 pacients de quatre hospitals d'Espanya i Itàlia. L'encert global és del 91,6%, la sensibilitat per al sarcoma d'Ewing arriba al 97,1% i l'error entre aquest tumor i el rabdomiosarcoma és de l'1,96%. L'article, signat per Francisco Giner i col·legues, s'ha publicat a l'«International Journal of Molecular Sciences» i compta amb el finançament europeu NextGenerationEU.\n\nL'objectiu no és substituir el patòleg, sinó orientar-lo: quan hi ha poc teixit, saber quines proves complementàries val més demanar primer. Hi han col·laborat també l'hospital La Fe, l'Institut Valencià d'Oncologia, el Centre d'Investigació Príncipe Felipe i l'Institut Ortopèdic Rizzoli de Bolonya, i un dels autors és alhora cap tècnic d'Artikode Intelligence, una empresa derivada de la UPV.\n\nLa nota de premsa no detalla com es van repartir les dades entre entrenament i prova, si hi ha hagut validació amb hospitals aliens als quatre ni si l'eina ja es pot fer servir a la clínica. Tampoc dona intervals de confiança ni resultats per a cada tipus de tumor. Cal llegir l'article complet per saber fins on arriba el 91,6% abans de parlar d'una eina llesta per a la pràctica diària.",
+      "image": "./assets/sarcoma-ewing-ia-upv-uv-20261021.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "llms-brain-rot-contingut-brossa-colm",
+      "title": "Entrenar models de llenguatge amb piulades virals i curtes els fa saltar-se passos de raonament, segons un estudi presentat al congrés COLM",
+      "excerpt": "Investigadors de Texas A&M van entrenar quatre models amb un milió de publicacions de Twitter del 2010 i en van mesurar l'efecte: pitjor raonament, menys fre ètic i una recuperació incompleta.",
+      "sourceName": "Tech Xplore (Texas A&M)",
+      "sourceUrl": "https://techxplore.com/news/2026-10-llms-frivolous-online-content-brain.html",
+      "sourceDate": "19 d'octubre de 2026",
+      "body": "Amb els humans, hi ha indicis que el consum continuat de contingut breu i cridaner afecta l'atenció i la memòria. Un equip de la Universitat Texas A&M, liderat pel professor Zhengzhong Tu, es va preguntar si passa el mateix amb els models de llenguatge, que s'entrenen amb mitjans i xarxes socials d'internet.\n\nEls autors van fer servir uns 1,1 milions de publicacions públiques de Twitter del 2010. Com a «contingut brossa» van agafar les que tenien molt d'èxit (més de 500 «m'agrada», retuits o respostes) però menys de 30 unitats de text, i les que un classificador automàtic, GPT-4o mini, va marcar per tàctiques cridaneres o temes frívols. Com a control, les de poc èxit i més llargues. Van entrenar quatre models oberts, entre ells Llama 3 8B i tres de la família Qwen, amb diferents proporcions de cada tipus, i els van avaluar amb proves de raonament, memòria, normes ètiques i personalitat.\n\nEl canvi principal és el que els autors anomenen «salt de pensament»: el model s'ometria passos del raonament o responia sense raonar. L'èxit de la publicació afectava sobretot el raonament, i la brevetat, la memòria i la comprensió. Les salvaguardes ètiques també es debilitaven: en una pregunta sobre com malmetre la reputació d'algú, un model que abans es negava a respondre va acabar donant una resposta detallada després d'entrenar-se només amb contingut brossa. I tornar enrere va costar: reentrenar-los amb dades de qualitat no va recuperar del tot el rendiment. El treball, que es presenta com a estudi pilot, s'ha exposat al congrés COLM 2026 (San Francisco, 6-9 d'octubre) i en circula una versió prèvia a arXiv.\n\nL'abast és limitat: les dades són només de Twitter del 2010, l'etiquetatge depèn en part d'un model d'IA i només s'han provat quatre models oberts, no els grans sistemes comercials, de qui no es coneixen les dades d'entrenament. Tech Xplore tampoc dona les puntuacions concretes, de manera que la mida real de la caiguda s'ha de veure a l'article.",
+      "image": "./assets/llms-brain-rot-contingut-brossa-colm-20261021.jpg"
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "slug": "jama-openevidence-clinics-consultes",
+      "title": "Gairebé un milió de clínics dels Estats Units han fet 271 milions de consultes a OpenEvidence, sobretot sobre tractaments, segons un estudi a «JAMA»",
+      "excerpt": "L'anàlisi de Mass General Brigham descriu qui fa servir l'assistent clínic d'IA més estès del país, per a què i en quines especialitats; entre els autors hi ha un directiu de la mateixa plataforma.",
+      "sourceName": "JAMA (nota d'EurekAlert)",
+      "sourceUrl": "https://www.eurekalert.org/news-releases/1147953",
+      "sourceDate": "15 d'octubre de 2026",
+      "body": "OpenEvidence és una plataforma d'IA que respon preguntes clíniques a partir de la literatura mèdica, i és, segons l'estudi, la més utilitzada als Estats Units. Fins ara se'n sabia poc de qui la fa servir i per a què, tot i que ja forma part de la feina diària de molts professionals.\n\nUn equip de Mass General Brigham i la Facultat de Medicina de Harvard, amb Vishal Patel com a primer autor i Anupam Jena com a responsable sènior, n'ha analitzat l'ús entre el gener del 2024 i el juny del 2026. L'article, titulat «Clinician Use of an Artificial Intelligence–Enabled Clinical Information Platform», s'ha publicat a «JAMA» el 15 d'octubre (DOI 10.1001/jama.2026.21868). En aquest període, uns 952.000 clínics van fer unes 271 milions de consultes, i els usuaris actius, el volum de consultes i la fidelitat van créixer de manera clara.\n\nL'ús és ampli, però més alt entre professionals d'infermeria i assistents mèdics, metges joves, residents i becaris. És més freqüent en oncologia i hematologia, medicina interna i medicina de família, i menys en oftalmologia, radiologia, ortopèdia i anestèsia. La majoria de consultes són sobre tractament i maneig dels pacients, no sobre diagnòstic, i molts clínics pregunten per temes fora de la seva especialitat.\n\nCal llegir-ho amb cautela: és un estudi d'ús, no de resultats, de manera que no diu si les respostes eren correctes ni si els pacients en van sortir beneficiats. A més, empleats d'OpenEvidence van aportar dades i van participar en l'anàlisi, i un dels coautors, Zack, n'era director mèdic durant l'estudi, un conflicte d'interessos que els autors declaren. La nota de premsa no esmenta limitacions; ens hem basat en aquesta nota i no hem pogut accedir a l'article complet.",
+      "image": "./assets/jama-openevidence-clinics-consultes-20261021.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "3 MIN",
+      "slug": "apple-compra-samplab-audio-ia-logic",
+      "title": "Apple compra els actius de Samplab, una empresa suïssa d'IA que edita les notes d'una cançó ja gravada",
+      "excerpt": "La Comissió Europea ha fet públic l'acord, tancat el juny; la companyia va tancar al setembre i Apple no n'ha dit res ni el preu.",
+      "sourceName": "MacRumors",
+      "sourceUrl": "https://www.macrumors.com/2026/10/19/apple-samplab-acquisition/",
+      "sourceDate": "19 d'octubre de 2026",
+      "body": "Samplab era una empresa de Zuric fundada el 2020 que venia eines d'IA per a la producció musical, tant en una aplicació d'escriptori com en connectors per a altres programes. Permetia passar l'àudio a MIDI, detectar i editar acords, separar els instruments d'una cançó i canviar notes dins d'àudio polifònic.\n\nSegons MacRumors, Apple ha adquirit «certs actius» de Samplab i ofereix feina a «certs empleats» de l'empresa, tal com consta en una notificació a la Comissió Europea publicada el 19 d'octubre. L'operació es va tancar al juny; Samplab va deixar de funcionar el 17 de setembre i el seu web ja redirigeix a la pàgina d'Apple. La notificació és obligatòria perquè la Llei de mercats digitals de la UE tracta Apple com a «guardià d'accés».\n\nApple no ha comentat l'adquisició ni n'ha donat el preu ni el nombre de persones que s'incorporen. El que es diu sobre l'ús és una hipòtesi: la tecnologia podria acabar a Logic Pro o a GarageBand. Logic ja inclou separació d'instruments i identificació d'acords, de manera que l'edició de notes dins d'àudio polifònic seria la novetat.\n\nPer ara no hi ha cap anunci de producte ni de calendari, i les xifres de l'operació són desconegudes. És una compra petita, però encaixa en la pràctica habitual d'Apple de comprar equips petits i integrar-ne la feina als seus programes sense fer-ne soroll.",
+      "image": "./assets/apple-compra-samplab-audio-ia-logic-20261021.jpg"
+    },
+    {
+      "category": "EMPRESES",
+      "read": "3 MIN",
+      "slug": "schmidt-anthropic-participacio-1-per-cent",
+      "title": "Eric Schmidt tindria aproximadament l'1% d'Anthropic, la meitat que Dario Amodei, segons Bloomberg",
+      "excerpt": "L'antic conseller delegat de Google va invertir desenes de milions de dòlars el 2021 i, si la sortida a borsa valora l'empresa en 2 bilions, el seu paquet podria valdre fins a 20.000 milions.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "sourceDate": "20 d'octubre de 2026",
+      "body": "Anthropic prepara la sortida a borsa, que es dona per segura abans d'acabar l'any, i això fa que comencin a sortir els noms dels qui en són propietaris. Aquesta vegada, el focus és sobre Eric Schmidt, que va ser conseller delegat de Google fins al 2011 i des d'aleshores és un inversor tecnològic molt actiu.\n\nSegons Bloomberg, que TechCrunch recull el 20 d'octubre, Schmidt té aproximadament l'1% de la companyia, després d'haver invertit desenes de milions de dòlars en la ronda A del 2021, quan Anthropic es valorava en 461 milions segons PitchBook. El seu paquet seria la meitat del de Dario Amodei, el director general, que Reuters va xifrar en un 2% el 18 d'agost, quan va informar que l'empresa preparava vot reforçat per als fundadors abans de sortir a borsa.\n\nLes estimacions més altes del mercat valoren Anthropic en fins a 2 bilions de dòlars. Amb aquesta xifra, la participació de Schmidt aportaria fins a 20.000 milions de dòlars a un patrimoni que Bloomberg calcula ara en 57.500 milions. Schmidt invertiria a través de Tomorrow Ventures, Innovation Endeavors i la seva oficina familiar, Hillspire, i també ha apostat per Mistral, General Intuition i Reflection AI.\n\nNi Schmidt ni Anthropic no han respost a TechCrunch, i el percentatge és una estimació de Bloomberg que el mitjà no ha pogut verificar per un altre camí. La valoració de 2 bilions és el límit alt de les previsions, no una xifra confirmada.",
+      "image": "./assets/schmidt-anthropic-participacio-1-per-cent-20261021.jpg"
+    },
     {
       "category": "EMPRESES",
       "read": "5 MIN",
