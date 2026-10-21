@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-21T12:19:36.478Z",
+ "actualitzat": "2026-10-21T12:33:40.756Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e496236489c4",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "\"La IA tendrá su propio idioma\": el Nobel de Física de 2024 predice el devenir tecnológico de la humanidad",
+   "url": "https://www.levante-emv.com/videos/tecnologia/2026/10/21/ia-tendra-propio-idioma-nobel-135585208.html",
+   "publicat": "2026-10-21T12:32:01.000Z"
+  },
+  {
+   "id": "68d0c3ae84e2",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "OpenAI entra en la indústria farmacèutica: compra Orchestra Bio per desenvolupar fàrmacs amb IA",
+   "url": "https://www.elnacional.cat/ca/tecnologia/openai-entra-en-industria-farmaceutica-compra-orchestra-bio-desenvolupar-farmacs-ia_1712908_102.html",
+   "publicat": "2026-10-21T12:30:00.000Z"
+  },
   {
    "id": "935d88b8d7e5",
    "mitja": "Cinco Días",
