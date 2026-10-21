@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-20T16:12:57.487Z",
+  "updatedAt": "2026-10-21T04:12:48.078Z",
   "items": [
     {
       "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Eka Robotics aixeca 150 milions de dòlars amb un model de robòtica que prioritza la força sobre el llenguatge",
-      "excerpt": "La startup, fundada per un professor del MIT i un exinvestigador de DeepMind, es valora en 1.450 milions de dòlars amb una pinça sensible a la força i un model que ha après en simulació."
-    },
-    {
-      "category": "SALUT",
       "read": "5 MIN",
-      "title": "Una IA calcula el risc de mort de pacients amb càncer a partir d'una fotografia de la cara, però encara és lluny de la clínica",
-      "excerpt": "Dues eines publicades a The Lancet Digital Health estimen l'edat biològica i ordenen els malalts per risc de mortalitat: els qui semblen cinc anys més grans moren un 21% més."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Quatre agents d'IA de Google DeepMind aconsegueixen vèncer el drac d'Ender de Minecraft sense ajuda humana, en una sola partida",
-      "excerpt": "L'equip va necessitar 27 hores i 14 minuts, 2.783 programes propis i 605 morts. És una prepublicació encara no revisada per parells."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "El barceloní Xavier Nueno guanya el Premi Anagrama d'Assaig amb un llibre sobre com la IA s'apropia del saber",
-      "excerpt": "«La revuelta de los copistas» examina com les tecnològiques han privatitzat el patrimoni de les biblioteques i el revenen en subscripcions. El jurat el qualifica de «crit d'alerta»."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Yelp posa un agent d'IA a trucar als restaurants per saber quant de temps cal esperar per a taula",
-      "excerpt": "La funció «Check for Me» truca al local en nom de l'usuari i li envia el resultat per missatge. L'assistent també podrà reservar amb OpenTable i recordar preferències."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Els Estats Units prohibeixen DeepSeek a les agències federals civils i els manen retirar-ne els productes",
-      "excerpt": "El Departament de Seguretat Nacional adverteix que els models de l'empresa xinesa «presenten múltiples vectors d'amenaça» i que podrien enviar dades sensibles a la Xina."
+      "title": "ACTUALITZACIÓ: Musk proposa que Anthropic reparteixi les accions del fons entre el públic, i altres veus en qüestionen l'estructura",
+      "excerpt": "L'anunci del fons d'interès públic, fet el 18 d'octubre, ha provocat una allau de reaccions: Musk demana repartir-ne les accions directament i diversos crítics dubten que una societat controlada per l'empresa serveixi el bé comú."
     },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Jensen Huang demana a la indústria alemanya que adopti la IA: «Els electrons mai no substituiran els àtoms»",
-      "excerpt": "El conseller delegat de Nvidia, a Berlín amb el canceller Merz, defensa que les dades de fabricació d'Alemanya són «el seu recurs natural» i que cal importar la tecnologia sense exportar-ne la cultura."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Otter.ai capta 320 milions de dòlars d'un fons de General Catalyst per créixer amb la seva eina de notes de reunions",
-      "excerpt": "L'empresa diu que ja té 40 milions d'usuaris, enfront dels 25 milions de l'any passat, i que va superar els 100 milions de dòlars d'ingressos anuals recurrents."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un model de robòtica prediu com quedarà l'escena abans de moure's i encerta el 78,4% de les tasques reals",
-      "excerpt": "L'equip de la Universitat Nacional de Seül, que diu que el treball serà a NeurIPS 2026, combina llenguatge, imatge i acció en un sol model i genera els moviments fins a 36 vegades més de pressa que un rival."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un marc teòric proposa saber si un xat d'IA amplia la consciència d'una persona o la tanca en les seves creences",
-      "excerpt": "Warren Mansell, de la Universitat Curtin, publica a «Digital Health» una pauta senzilla per entendre quan parlar amb un xatbot ajuda a la salut mental i quan reforça pensaments perjudicials."
+      "title": "El document per sortir a borsa d'Anthropic, filtrat al «Wall Street Journal», admet dificultats per aconseguir prou capacitat de núvol",
+      "excerpt": "Segons TechCrunch, que cita el diari, Amazon, Google i Microsoft veuen cada cop més Anthropic com un competidor, i l'empresa va perdre 80.700 milions de dòlars el primer semestre."
     },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Anthropic i Nscale negocien un nou acord de 45.000 milions de dòlars en capacitat de càlcul, segons Bloomberg",
-      "excerpt": "Bloomberg diu que les dues empreses són a punt d'anunciar-lo, però les converses continuen obertes i les condicions poden canviar. Cap de les dues no ha fet declaracions."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "L'alcalde de Nova York, Zohran Mamdani, diu que el Govern federal ha abdicat davant la IA i demana als ciutadans que hi plantin cara",
-      "excerpt": "En un acte de l'AI Now Institute, Mamdani va defensar que l'avanç de la IA no és inevitable i que les institucions han de fer retre comptes a les empreses."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Els models de llenguatge responen diferent a un test de personalitat segons si ho fan en anglès o en mandarí, segons un estudi revisat per parells",
-      "excerpt": "Un estudi a «Royal Society Open Science» va fer contestar cinc xatbots al mateix qüestionari en dues llengües i va trobar perfils que canvien, però sense un patró senzill d'origen nacional."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "DeepSeek obre dues API perquè els agents d'IA cerquin a la web i en llegeixin les pàgines, a 0,75 dòlars per cada mil peticions",
-      "excerpt": "Una cerca amb motor propi i una eina que converteix una adreça en text, gratuïtes fins l'1 de novembre si es fan servir des d'eines com Claude Code o Codex."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode crea un nombre immens de variants d'un model de reconeixement de veu perquè un mateix àudio manipulat no enganyi tots els dispositius",
-      "excerpt": "Investigadors de la Universitat George Mason presenten DivNet a les actes del congrés MobiSys 2026: redueix l'èxit dels atacs sense afegir temps de procés."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Microsoft tracta els agents d'IA com una amenaça interna i diu que no es pot confiar en els models més avançats",
-      "excerpt": "L'empresa presenta uns «agents guardians» i una detecció de fins a 60 tipus d'agents que els empleats fan servir pel seu compte, tot i que ven la seva pròpia solució."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Un atac a l'eina de programació OpenCode carrega despeses als comptes d'IA d'un 1,4% dels usuaris de la consola",
-      "excerpt": "Els atacants van entrar en un sistema antic i van fer servir claus d'API de OpenAI, Anthropic i Google; alguns usuaris van veure càrrecs de centenars de dòlars."
+      "title": "OpenAI compra Orchestra Bio, una empresa emergent d'agents d'IA per a biotecnològiques, per reforçar el seu negoci de ciències de la vida",
+      "excerpt": "L'operació, de la qual no s'han fet públiques les condicions, incorpora l'equip i la tecnologia d'Orchestra a Rosalind, el model d'OpenAI per a la recerca biomèdica."
     },
     {
       "category": "TECNOLOGIA",
       "read": "4 MIN",
-      "title": "Amazon llança TorchNeuron perquè les aplicacions de PyTorch passin als seus xips Trainium amb una sola línia de configuració",
-      "excerpt": "L'eina vol esquerdar l'avantatge de programari de Nvidia; el cas que cita Amazon, Deepgram, diu que processa un 70% més d'àudio per dòlar."
+      "title": "Google obre TorchTPU perquè les aplicacions de PyTorch passin als seus xips TPU sense reescriure el codi",
+      "excerpt": "Un dia després que Amazon fes el mateix amb els seus xips Trainium, Google es suma a l'ofensiva contra el domini de Nvidia amb les persones que desenvolupen aplicacions d'IA."
     },
     {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Tenstorrent aixeca 1.500 milions de dòlars amb una valoració de 6.200 milions per fabricar xips per a models oberts",
-      "excerpt": "L'empresa de Jim Keller va decidir seguir independent després que Intel i Qualcomm s'hi interessessin; més que duplica la valoració de fa dos anys."
-    },
-    {
-      "category": "SALUT",
+      "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un model d'IA que aprofita la simetria del cap del fetus en segueix la posició durant una ressonància per evitar imatges amb buits",
-      "excerpt": "L'equip del MIT i de l'Hospital Infantil de Boston ha presentat el model al congrés ECCV 2026; encara està entrenat sobretot amb fetus del tercer trimestre."
+      "title": "Una xarxa neuronal que desactiva unitats a l'atzar mentre s'entrena reconeix millor imatges amb soroll, segons un estudi a «Patterns»",
+      "excerpt": "Investigadors de Tübingen, Roma i Londres s'han inspirat en la variabilitat del cervell: la retroalimentació només ajuda quan la xarxa ha après abans a conviure amb l'atzar."
     }
   ]
 }
