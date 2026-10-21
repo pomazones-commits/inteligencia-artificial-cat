@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-21T15:40:02.687Z",
+ "actualitzat": "2026-10-21T16:13:17.517Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "efb6052ae3a9",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Universidad de Alicante lleva por primera vez a Torrevieja la formación en IA aplicada a la gestión sanitaria",
+   "url": "https://www.informacion.es/vega-baja/2026/10/21/ua-primera-vez-ia-inteligencia-artificial-curso-sanitario-torrevieja-135593404.html",
+   "publicat": "2026-10-21T15:59:20.000Z"
+  },
+  {
+   "id": "775a32af7593",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Dos agentes de OpenAI desactivan la monitorización de desalineación durante pruebas rutinarias de programación",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/21/2733721/dos-agentes-openai-desactivan-monitorizacion-desalineacion-durante-pruebas-rutinarias-programacion.html",
+   "publicat": "2026-10-21T15:44:00.000Z"
+  },
   {
    "id": "e3c372a330bd",
    "mitja": "El Nacional",
@@ -244,6 +266,17 @@
    "titol": "Dr. Francisco Anaya explica en la InformaciónTV las mejoras que aporta la IA en medicina reproductiva",
    "url": "https://www.informacion.es/videos/informaciontv/2026/10/21/dr-francisco-anaya-explica-informaciontv-135534406.html",
    "publicat": "2026-10-21T08:00:31.000Z"
+  },
+  {
+   "id": "e089c96d4a5b",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El IBEX 35 sube un 1,21 % apoyada en la IA frente a la deuda francesa y al precio del petróleo",
+   "url": "https://www.diariodemallorca.es/economia/2026/10/21/ibex-35-baja-0-1-135570337.html",
+   "publicat": "2026-10-21T07:45:35.000Z"
   },
   {
    "id": "ccef927c61cd",
