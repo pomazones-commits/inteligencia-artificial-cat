@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-21T09:42:13.038Z",
+ "actualitzat": "2026-10-21T12:19:36.478Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "935d88b8d7e5",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Bolt iniciará en Madrid en 2027 su plan europeo del vehículo autónomo con el respaldo de Nvidia",
+   "url": "https://cincodias.elpais.com/companias/2026-10-21/bolt-iniciara-en-madrid-en-2027-su-plan-europeo-del-vehiculo-autonomo-con-el-respaldo-de-nvidia.html",
+   "publicat": "2026-10-21T11:50:47.000Z"
+  },
+  {
+   "id": "bd2a16ca93d7",
+   "mitja": "Diari de Terrassa",
+   "font": "diarideterrassa",
+   "icona": "/assets/premsa/diari-de-terrassa.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Terrassa Cooperativa presenta “Hackers Socials Davant la IA”",
+   "url": "https://www.diarideterrassa.com/terrassa/terrassa-cooperativa-presenta-hackers-socials-davant-la-ia.html",
+   "publicat": "2026-10-21T11:22:08.000Z"
+  },
+  {
+   "id": "85e78aec4af1",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial entra en las redacciones: jornada sobre nuevas herramientas para una nueva forma de hacer periodismo",
+   "url": "https://www.elperiodico.com/es/sociedad/20261021/inteligencia-artificial-entra-redacciones-jornada-135578855",
+   "publicat": "2026-10-21T11:02:13.000Z"
+  },
+  {
+   "id": "bdc570bf2360",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "OpenAI revela nous casos d'IA rebel: un d'ells va accedir a carteres cripto sense permís",
+   "url": "https://www.elnacional.cat/ca/tecnologia/openai-revela-nous-casos-ia-rebel-ells-va-accedir-carteres-cripto-sense-permis_1711945_102.html",
+   "publicat": "2026-10-21T11:00:00.000Z"
+  },
+  {
+   "id": "6e7216e49ce7",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tierra de empresas | La FEBF aborda el futuro del Sector Financiero en la Era de la IA Predictiva en su V Jornada Fintech",
+   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/la-febf-aborda-el-futuro-del-sector-financiero-en-la-era-de-la-ia-predictiva-en-su-v-jornada-fintech",
+   "publicat": "2026-10-21T10:48:14.000Z"
+  },
+  {
+   "id": "60029279974e",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic perdió más de 80.000 millones de dólares en la primera mitad de 2026",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261021/anthropic-perdidas-millones-negocio-ia-claude-inteligencia-artificial-chatgpt-135574365",
+   "publicat": "2026-10-21T10:39:57.000Z"
+  },
+  {
+   "id": "172aef9bc47b",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El CEO de Hugging Face no quiere que veas el documental de Netflix sobre el ataque de OpenAI: “Muy decepcionante”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261021/11664473/ceo-hugging-face-quiere-veas-documental-netflix-sobre-ataque-openai-decepcionante.html",
+   "publicat": "2026-10-21T10:16:44.000Z"
+  },
+  {
+   "id": "74d4445f7580",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Musk vislumbra el billón en ingresos de SpaceX y presume de la rentabilidad de su IA frente a las pérdidas de Anthropic",
+   "url": "https://elpais.com/economia/2026-10-21/musk-vislumbra-el-billon-en-ingresos-de-spacex-y-presume-de-la-rentabilidad-de-su-ia-frente-a-las-perdidas-de-anthropic.html",
+   "publicat": "2026-10-21T10:06:00.000Z"
+  },
   {
    "id": "e7c736e0822a",
    "mitja": "Diario de Mallorca",
@@ -2366,129 +2454,6 @@
    "titol": "Crean un detector de ideas generadas por IA: se enfoca en los argumentos y no en el texto",
    "url": "https://www.levante-emv.com/tendencias21/2026/10/14/crean-detector-ideas-generadas-ia-135330203.html",
    "publicat": "2026-10-14T13:30:07.000Z"
-  },
-  {
-   "id": "11f236e1263b",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Un projecte de la MWCapital identifica columnes de fum a Collserola amb IA",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/projecte-mwcapital-identifica-columnes-fum-collserola-ia_1709554_102.html",
-   "publicat": "2026-10-14T11:33:45.000Z",
-   "noticia": "mwcapital-collserola-ia-columnes-fum",
-   "noticiaTitol": "Un projecte de Mobile World Capital detecta amb IA 1.036 columnes de fum a Collserola en dos mesos i mig, i avisa en uns tres minuts"
-  },
-  {
-   "id": "7485e3e311b3",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Demis Hassabis, presidente de Google DeepMind advierte de que la IA podría causar \"incidentes graves\" en 2 años sin medidas adecuadas",
-   "url": "https://www.elmundo.es/tecnologia/2026/10/14/6acf48c121efa0c7118b4590.html",
-   "publicat": "2026-10-14T11:11:35.000Z"
-  },
-  {
-   "id": "2318d4e40aaf",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Microsoft presenta Xbox Labs: cualquier usuario podrá utilizar IA para crear sus propios videojuegos",
-   "url": "https://www.lavanguardia.com/neo/videojuegos/20261014/11658789/microsoft-presenta-xbox-labs-usuario-podra-utilizar-ia-crear-propios-videojuegos.html",
-   "publicat": "2026-10-14T11:09:37.000Z"
-  },
-  {
-   "id": "b2234e3f9d2e",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Ferran Adrià revela el sorprenent efecte que ChatGPT té en la seva manera de parlar: «Ara vocalitzo millor»",
-   "url": "https://www.diaridegirona.cat/fets-gent/2026/10/14/ferran-adria-revela-sorprenent-efecte-135247478.html",
-   "publicat": "2026-10-14T11:08:25.000Z"
-  },
-  {
-   "id": "ebaa9dd6643c",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Ramon López de Mántaras, físic santvicentí: «Dir que la IA es rebel·larà és una ximpleria que alguns diuen per atreure inversions»",
-   "url": "https://www.elperiodico.cat/internacional/20261014/ramon-lopez-mantaras-fisic-santvicenti-135320729",
-   "publicat": "2026-10-14T10:38:50.000Z"
-  },
-  {
-   "id": "ed6e6f2fcf16",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Deezer agregará una función para excluir la música generada por IA de los resultados de búsqueda",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/14/2728611/deezer-agregara-funcion-para-excluir-musica-generada-por-resultados-busqueda.html",
-   "publicat": "2026-10-14T10:12:00.000Z"
-  },
-  {
-   "id": "2d2d6fdb676f",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Detienen a un ingeniero de OpenAI acusado de colocar un micrófono oculto en una sala de reuniones",
-   "url": "https://www.lavanguardia.com/neo/ia/20261014/11658649/detienen-ingeniero-openai-acusado-colocar-microfono-oculto-sala-reuniones.html",
-   "publicat": "2026-10-14T10:04:35.000Z"
-  },
-  {
-   "id": "42f3bbe2d6e8",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Cuatro años de cola para comprar máquinas de chips: la fiebre de la IA desborda al gigante europeo ASML",
-   "url": "https://www.eldiario.es/tecnologia/cuatro-anos-cola-comprar-maquinas-chips-fiebre-ia-desborda-gigante-europeo-asml_1_13583869.html",
-   "publicat": "2026-10-14T10:02:26.000Z"
-  },
-  {
-   "id": "e9ed6fc236e9",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Más de 400 científicos de todo el mundo piden una regulación internacional de la IA para minimizar su riesgo",
-   "url": "https://www.levante-emv.com/vida-y-estilo/tecnologia/2026/10/14/cientificos-mundo-piden-regulacion-ia-riesgos-ciberataques-openai-anthropic-135318108.html",
-   "publicat": "2026-10-14T09:56:36.000Z"
-  },
-  {
-   "id": "51d52427b1aa",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "“Las máquinas no toman decisiones, los humanos somos responsables”: Adela Cortina analiza el papel de la IA en las empresas en el Foro Alicante",
-   "url": "https://www.informacion.es/economia/2026/10/14/maquinas-toman-decisiones-humanos-responsables-135317466.html",
-   "publicat": "2026-10-14T09:53:54.000Z"
-  },
-  {
-   "id": "8fcbc8f03490",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Mondéjar (CaixaBank): “La IA no va a hacer que reduzcamos plantilla”",
-   "url": "https://cincodias.elpais.com/economia/foro-creo-creando-oportunidades/2026-10-14/mondejar-caixabank-la-ia-no-va-a-hacer-que-reduzcamos-plantilla.html",
-   "publicat": "2026-10-14T09:44:25.000Z"
   }
  ]
 }
