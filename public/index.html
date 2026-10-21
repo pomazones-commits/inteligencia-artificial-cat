@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="alternate" type="application/rss+xml" title="intel·ligènciaartificial.cat — notícies" href="./feed.xml">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","description":"Notícies, anàlisi i context sobre intel·ligència artificial, en català.","publishingPrinciples":"https://inteligencia-artificial.cat/redaccio.html"},{"@type":"WebSite","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","inLanguage":"ca"}]}</script>
-  <link rel="stylesheet" href="./portada.css?v=2026101405">
+  <link rel="stylesheet" href="./portada.css?v=2026102101">
   <link rel="stylesheet" href="./tribuna.css?v=2026101302">
   <link rel="stylesheet" href="./seccions-portada.css?v=2026102003">
   <link rel="stylesheet" href="./veus-portada.css?v=2026101502">
@@ -33,7 +33,7 @@
   <link rel="stylesheet" href="./radio-portada.css?v=2026101101">
   <link rel="stylesheet" href="./agora-portada.css?v=2026101701">
   <link rel="stylesheet" href="./mobil.css?v=2026101802">
-  <script defer src="./app.js?v=2026102101"></script>
+  <script defer src="./app.js?v=2026102102"></script>
   <script defer src="./cartell.js?v=2026101703"></script>
   <script defer src="./premsa.js?v=2026101801"></script>
   <script defer src="./radio-portada.js?v=2026101101"></script>
@@ -115,13 +115,16 @@
           <button type="button" id="focus-mode" aria-pressed="false"><i></i> Mode focus</button>
         </div>
       </div>
-      <figure class="daily-visual" id="daily-visual" aria-labelledby="daily-visual-title">
-        <img id="daily-visual-image" src="./assets/daily-reflection-2026-07-17.jpg" alt="Un investigador jove i una dona gran conversen davant d’un ordinador en una biblioteca de Barcelona.">
+      <!-- 21.10.2026: sense foto ni textos fixos. Abans hi havia la imatge inaugural del 17.07
+           i es veia una fracció de segon abans de la del dia. Ara app.js hi posa la del dia
+           (daily-image.js) i la figura es mostra només quan la foto ja s'ha carregat. -->
+      <figure class="daily-visual is-loading" id="daily-visual" aria-labelledby="daily-visual-title">
+        <img id="daily-visual-image" alt="">
         <span class="daily-visual__date" id="daily-image-date">Imatge del dia</span>
         <figcaption>
           <p id="daily-visual-kicker">IA × Societat</p>
-          <h2 id="daily-visual-title">Aprendre junts continua sent la tecnologia més poderosa</h2>
-          <p id="daily-visual-caption">La intel·ligència artificial guanya sentit quan amplia una conversa, no quan la substitueix.</p>
+          <h2 id="daily-visual-title"></h2>
+          <p id="daily-visual-caption"></p>
           <small id="daily-visual-credit">Imatge editorial generada amb IA</small>
         </figcaption>
       </figure>

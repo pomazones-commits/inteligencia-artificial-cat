@@ -88,6 +88,9 @@ button { color: inherit; }
 .daily-visual::after { content: ""; position: absolute; z-index: 1; inset: 0; background: linear-gradient(180deg,rgba(8,12,24,.04) 28%,rgba(8,12,24,.18) 53%,rgba(8,12,24,.9) 100%); }
 .daily-visual img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 48%; transition: transform 1.2s cubic-bezier(.2,.7,.2,1); }
 .daily-visual:hover img { transform: scale(1.025); }
+/* 21.10.2026: mentre es carrega la foto del dia no es veu res més que el fons (cap imatge vella). */
+.daily-visual img, .daily-visual figcaption, .daily-visual__date { transition: opacity .35s ease, transform 1.2s cubic-bezier(.2,.7,.2,1); }
+.daily-visual.is-loading img, .daily-visual.is-loading figcaption, .daily-visual.is-loading .daily-visual__date { opacity: 0; }
 .daily-visual__date { position: absolute; z-index: 2; top: 22px; left: 22px; padding: 9px 11px; border: 1px solid rgba(255,255,255,.34); border-radius: 999px; background: rgba(8,12,24,.28); backdrop-filter: blur(12px); font: 600 8px var(--mono); text-transform: uppercase; letter-spacing: .08em; }
 .daily-visual figcaption { position: absolute; z-index: 2; right: 28px; bottom: 26px; left: 28px; }
 .daily-visual figcaption > p:first-child { margin: 0 0 10px; color: var(--lime); font: 600 9px var(--mono); text-transform: uppercase; letter-spacing: .08em; }

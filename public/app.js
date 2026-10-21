@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026102101';
+  const VERSIO_MANUAL = '2026102102';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './estudis-arxiu.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -85,10 +85,21 @@
     // ——— Fotografia editorial diària ———
     const dailyFigure = document.querySelector('#daily-visual');
     const dailyImageEl = document.querySelector('#daily-visual-image');
-    if (window.IA_DAILY_IMAGE) {
+    // 21.10.2026: index.html ja no porta cap foto fixa (abans s'hi veia un instant la
+    // imatge inaugural del 17.07). La figura surt amb .is-loading i només es mostra quan
+    // la foto del dia s'ha carregat; si no n'hi ha o falla, s'amaga com abans.
+    const hideDailyVisual = () => {
+      dailyFigure.hidden = true;
+      document.querySelector('#portada').classList.add('no-visual');
+    };
+    const showDailyVisual = () => dailyFigure.classList.remove('is-loading');
+    dailyImageEl.addEventListener('load', showDailyVisual);
+    dailyImageEl.addEventListener('error', hideDailyVisual);
+    if (window.IA_DAILY_IMAGE && window.IA_DAILY_IMAGE.image) {
       const dailyImage = window.IA_DAILY_IMAGE;
-      dailyImageEl.src = dailyImage.image || dailyImageEl.src;
-      dailyImageEl.alt = dailyImage.alt || dailyImageEl.alt;
+      dailyImageEl.src = dailyImage.image;
+      if (dailyImageEl.complete && dailyImageEl.naturalWidth) showDailyVisual();
+      dailyImageEl.alt = dailyImage.alt || '';
       document.querySelector('#daily-visual-kicker').textContent = dailyImage.kicker || 'IA × Societat';
       document.querySelector('#daily-visual-title').textContent = dailyImage.title || '';
       document.querySelector('#daily-visual-caption').textContent = dailyImage.caption || '';
@@ -97,11 +108,9 @@
         const [year, month, day] = dailyImage.date.split('-');
         document.querySelector('#daily-image-date').textContent = `Imatge del dia · ${day}.${month}.${year}`;
       }
+    } else {
+      hideDailyVisual();
     }
-    dailyImageEl.addEventListener('error', () => {
-      dailyFigure.hidden = true;
-      document.querySelector('#portada').classList.add('no-visual');
-    });
 
     // La fotografia del dia neix de la reflexió editorial: en clicar-la s'obre el Quadern IA.
     dailyFigure.setAttribute('role', 'link');
