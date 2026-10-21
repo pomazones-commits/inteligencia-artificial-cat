@@ -1,1 +1,32 @@
-{"fitxes": [], "descartats": []}
+{
+  "fitxes": [
+    {
+      "id": "3cat-1294759",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-10-20",
+      "durada": "11 min",
+      "titol": "Pot una fotografia de la cara ajudar a calcular el risc de mort d'un malalt de càncer?",
+      "convidats": [
+        {
+          "nom": "Oriol Estrada",
+          "rol": "metge internista i director d'estratègia assistencial i innovació de l'Hospital Germans Trias i Pujol - Can Ruti"
+        }
+      ],
+      "resum": "Catalunya nit comenta una recerca nord-americana, amb resultats encara preliminars publicats a The Lancet Digital Health, segons la qual una foto del rostre i una eina d'IA podrien avaluar el risc de mort en pacients amb càncer. Ho analitza Oriol Estrada, internista de Can Ruti, entrevistat al programa.",
+      "tema": "ciencia",
+      "url": "https://www.3cat.cat/3cat/la-ia-pot-avaluar-el-risc-de-mort-en-pacients-amb-cancer/audio/1294759/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1294759"
+      }
+    }
+  ],
+  "descartats": [
+    {
+      "id": "3cat-1294766",
+      "motiu": "Programa sencer d'una hora: la IA només n'és un tema entre altres i la descripció no permet resumir-ne la part d'IA sense inventar; ja s'aprofita l'extracte específic."
+    }
+  ]
+}
