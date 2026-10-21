@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-21T08:12:42.780Z",
+ "actualitzat": "2026-10-21T09:42:13.038Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e7c736e0822a",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La agricultura inteligente, que utiliza robots, drones o herramientas de IA, ya es rentable en el 42% de las tierras cultivables del mundo",
+   "url": "https://www.diariodemallorca.es/tendencias21/2026/10/21/agricultura-inteligente-utiliza-robots-drones-135573685.html",
+   "publicat": "2026-10-21T09:17:40.000Z"
+  },
+  {
+   "id": "c4da094c554d",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El pozo sin fondo de la IA: Anthropic prepara su salida a bolsa con 80.000 millones en pérdidas",
+   "url": "https://www.eldiario.es/tecnologia/pozo-fondo-ia-anthropic-prepara-salida-bolsa-80-000-millones-perdidas_1_13602325.html",
+   "publicat": "2026-10-21T09:12:06.000Z"
+  },
+  {
+   "id": "fb446e6e3367",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA guanya protagonisme en recursos humans, però els experts demanen prudència",
+   "url": "https://www.diaridegirona.cat/economia/2026/10/21/ia-guanya-protagonisme-recursos-humans-135572980.html",
+   "publicat": "2026-10-21T09:09:22.000Z"
+  },
+  {
+   "id": "84ec1347fefb",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Amazon apuesta por la energía nuclear para alimentar su IA: “Conectar nuestros centros de datos a la red es un beneficio para todos”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261021/11664383/amazon-apuesta-energia-nuclear-alimentar-ia-conectar-centros-datos-red-beneficio-todos.html",
+   "publicat": "2026-10-21T09:04:07.000Z"
+  },
+  {
+   "id": "f14a651cf790",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "PNV llama a estar \"ojo avizor\" con los grupos disidentes de la IA tras la detención de dos personas por terrorismo",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/21/2733319/pnv-llama-estar-ojo-avizor-los-grupos-disidentes-tras-detencion-dos-personas-por-terrorismo.html",
+   "publicat": "2026-10-21T08:27:12.000Z"
+  },
   {
    "id": "3838186ac18c",
    "mitja": "Información",
@@ -2434,175 +2489,6 @@
    "titol": "Mondéjar (CaixaBank): “La IA no va a hacer que reduzcamos plantilla”",
    "url": "https://cincodias.elpais.com/economia/foro-creo-creando-oportunidades/2026-10-14/mondejar-caixabank-la-ia-no-va-a-hacer-que-reduzcamos-plantilla.html",
    "publicat": "2026-10-14T09:44:25.000Z"
-  },
-  {
-   "id": "1a898a6cc85c",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Més de 400 científics de tot el món demanen una regulació internacional de la IA per minimitzar-ne el risc",
-   "url": "https://www.regio7.cat/arreu-catalunya-espanya-mon/2026/10/14/cientifics-mon-demanen-regulacio-ia-riscos-ciberatacs-openai-anthropic-135317337.html",
-   "publicat": "2026-10-14T09:20:11.000Z"
-  },
-  {
-   "id": "faacbc81ba67",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Thélyson Orélien niega haber utilizado inteligencia artificial para escribir su última novela: «Las amenazas, el linchamiento mediático y el acoso racista son insoportables»",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261014/thelyson-orelien-niega-haber-utilizado-135315824",
-   "publicat": "2026-10-14T09:18:55.000Z"
-  },
-  {
-   "id": "792aeb773176",
-   "mitja": "El Periódico",
-   "font": "elperiodico-tec",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Més de 400 científics de tot el món demanen regular la IA i carreguen contra la «irresponsabilitat» d’OpenAI i Anthropic",
-   "url": "https://www.elperiodico.cat/internacional/20261014/cientifics-mon-demanen-regulacio-ia-riscos-ciberatacs-openai-anthropic-135314563",
-   "publicat": "2026-10-14T09:14:38.000Z"
-  },
-  {
-   "id": "c7614e75326b",
-   "mitja": "Diari de Sabadell",
-   "font": "diaridesabadell",
-   "icona": "/assets/premsa/diari-de-sabadell.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Indra inverteix 10 milions en Qilimanjaro per accelerar l'aplicació quàntica en IA i robòtica",
-   "url": "https://www.diaridesabadell.com/diners/indra-group-qilimanjaro.html",
-   "publicat": "2026-10-14T09:00:38.000Z",
-   "noticia": "indra-qilimanjaro-10-milions-quantica-ia",
-   "noticiaTitol": "Indra posa 10 milions d'euros a Qilimanjaro, l'empresa catalana de computació quàntica, per aplicar-la a la IA i la robòtica"
-  },
-  {
-   "id": "1432f3e24988",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Xbox Labs experimentará con las posibilidades que abre la IA en el desarrollo de nuevas experiencias para videojuegos",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/14/2728553/xbox-labs-experimentara-las-posibilidades-abre-desarrollo-nuevas-experiencias-para-videojuegos.html",
-   "publicat": "2026-10-14T08:57:00.000Z"
-  },
-  {
-   "id": "42b3b6b44d5c",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "En marxa nous assistents d'intel·ligència artificial per facilitar les consultes i els tràmits a la UPC",
-   "url": "https://www.lavanguardia.com/launi/20261014/11658578/upc-engega-nou-xatbot-sobre-registre-encatala-electronic-i-identitat-digital-ctx.html",
-   "publicat": "2026-10-14T08:49:44.000Z"
-  },
-  {
-   "id": "89eaecb970ca",
-   "mitja": "Diari de Terrassa",
-   "font": "diarideterrassa",
-   "icona": "/assets/premsa/diari-de-terrassa.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Una llibreria de Terrassa es posa filosòfica: \"El fet de pensar s’està externalitzant al món digital de la IA\"",
-   "url": "https://www.diarideterrassa.com/cultura-i-espectacles/una-llibreria-de-terrassa-es-posa-filosofica-el-fet-de-pensar-sesta-externalitzant-al-mon-digital-de-la-ia.html",
-   "publicat": "2026-10-14T08:44:59.000Z"
-  },
-  {
-   "id": "c03d6cc633e8",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "En marcha nuevos asistentes de inteligencia artificial para facilitar las consultas y trámites en la UPC",
-   "url": "https://www.lavanguardia.com/launi/20261014/11658514/upc-pone-marcha-nuevo-chatbot-sobre-registro-electronico-e-identidad-digital.html",
-   "publicat": "2026-10-14T08:44:17.000Z"
-  },
-  {
-   "id": "2a07e346a63a",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Medusa Festival imagina el futuro en Cullera con robots, inteligencia artificial y una 'nueva era' para bailar",
-   "url": "https://www.levante-emv.com/ribera/2026/10/14/medusa-festival-imagina-futuro-cullera-135314752.html",
-   "publicat": "2026-10-14T08:44:07.000Z"
-  },
-  {
-   "id": "28917a8feb35",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA, altavoz de falsas “alternativas naturales” al Ozempic para perder peso",
-   "url": "https://www.lavanguardia.com/vida/verificacion/20261014/11658550/ia-altavoz-falsas-alternativas-naturales-ozempic-perder-peso.html",
-   "publicat": "2026-10-14T08:41:32.000Z"
-  },
-  {
-   "id": "580e089062d4",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Arresten un enginyer d'OpenAI per amagar una \"sofisticada\" gravadora en una sala de reunions",
-   "url": "https://www.ara.cat/internacional/estats-units/arresten-enginyer-d-openai-amagar-sofisticada-gravadora-sala-reunions_1_5878547.html",
-   "publicat": "2026-10-14T08:35:14.000Z",
-   "noticia": "openai-enginyer-detingut-gravadora-sala-reunions",
-   "noticiaTitol": "L'FBI deté un enginyer d'OpenAI acusat d'amagar una gravadora darrere d'una televisió d'una sala de reunions directives"
-  },
-  {
-   "id": "da0b4117e20f",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El FBI detiene a un empleado de OpenAI acusado de colocar una grabadora para espiar reuniones confidenciales",
-   "url": "https://www.informacion.es/tecnologia/2026/10/14/espionaje-openai-fbi-detiene-empleado-grabadora-microfono-reuniones-confidenciales-secreto-chatgpt-135314601.html",
-   "publicat": "2026-10-14T08:33:31.000Z"
-  },
-  {
-   "id": "92f6311a63d0",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El FBI detiene a un empleado de OpenAI de origen saudí por espiar reuniones confidenciales",
-   "url": "https://www.eldiario.es/tecnologia/fbi-detiene-empleado-openai-origen-saudi-espiar-reuniones-confidenciales_1_13583891.html",
-   "publicat": "2026-10-14T08:31:19.000Z"
-  },
-  {
-   "id": "adab5cff672c",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic alerta de que la IA ya es capaz de propagarse por electrodomésticos y televisores como si fuera un virus",
-   "url": "https://www.lavanguardia.com/neo/ia/20261014/11658519/anthropic-alerta-ia-capaz-propagarse-electrodomesticos-televisores-fuera-virus.html",
-   "publicat": "2026-10-14T08:29:19.000Z"
-  },
-  {
-   "id": "d17bb69653e6",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Puede ChatGPT diagnosticar la alopecia? Los dermatólogos alertan de los riesgos de confiar en la IA",
-   "url": "https://www.elperiodico.com/es/salud/20261014/chatgpt-diagnosticar-alopecia-dermatologos-alertan-ia-135313759",
-   "publicat": "2026-10-14T08:12:47.000Z"
   }
  ]
 }
