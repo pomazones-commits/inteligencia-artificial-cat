@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-20T16:13:40.657Z",
+ "actualitzat": "2026-10-21T04:13:24.136Z",
  "canals": 19,
  "videos": [
   {
@@ -647,18 +647,6 @@
    "publicat": "2026-09-30T16:07:24.000Z",
    "descripcio": "Project Suncatcher is Google’s moonshot to launch solar-powered AI into Earth’s orbit. But operating TPU clusters in space creates a massive hurdle. On Earth, cooling chips means blowing air over heat sinks. In the vacuum of space, there is no air. In this video, Google researchers share the thermal",
    "miniatura": "/assets/videos/ktdbUIZKeSE.jpg"
-  },
-  {
-   "id": "mFv4VRoFj-k",
-   "titol": "Vertically Integrated, Horizontally Open | AI Factory Insider Ep 5",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-09-29T19:00:28.000Z",
-   "descripcio": "How can an AI platform be optimized from hardware to software while staying open to developers and partners at every layer? In Episode 5 of AI Factory Insider, host Kaushik Shirhatti (VP, AI Factory, NVIDIA) is joined by Pradeep Gupta (VP, Industries Solutions Architecture, NVIDIA) and Stephen Jones",
-   "miniatura": "/assets/videos/mFv4VRoFj-k.jpg"
   }
  ]
 }
