@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "21.10.2026",
+    "title": "Pau Garcia-Milà crea amb Claude «Quina colla!», un joc gratuït per descobrir els castells",
+    "summary": "L'emprenedor català diu que va demanar a l'IA un joc abans d'anar a dormir i que a l'endemà el va trobar fet; el pots provar al navegador, sense registre.",
+    "detail": "Els castells són una de les tradicions més reconeixibles de Catalunya, i ara tenen el seu propi joc fet amb IA. Es diu «Quina colla!», és gratuït, funciona al navegador a quinacolla.cat i vol presentar la cultura castellera d'una manera lúdica.\n\nL'impulsor és Pau Garcia-Milà, emprenedor vinculat a Founderz, que el va presentar en un vídeo a les xarxes. Segons explica ell mateix en una piulada del 19 d'octubre que recull El Nacional, va demanar a Claude, el model d'Anthropic, un joc que el sorprengués quan es despertés, i a l'endemà en va trobar un de complet. Ho anomena fer-lo «d'una tacada» (*one-shot*), és a dir, a partir d'una sola instrucció oberta.\n\nSegons el diari, el joc té escenes ambientades en llocs reconeixibles, com la plaça de Sant Jaume de Barcelona, permet triar la colla, el tipus de castell i la plaça, i fa referència als castells que ha aconseguit cada colla. L'objectiu és explicar els castells d'una manera divertida i respectant la realitat de les colles i de la seva activitat.\n\nConvé matisar-ho: tot el que se sap del procés prové de la versió de l'autor, que no ha detallat quanta feina humana hi va haver després, i no consta que les colles hi hagin participat. Tot i així, és un exemple pràctic de com un projecte cultural local pot néixer d'una sola instrucció a un assistent d'IA.",
+    "source": "El Nacional",
+    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/ia-arriba-mon-casteller-aixi-es-joc-creat-emprenedor-catala_1713016_102.html",
+    "image": "./assets/quina-colla-joc-castells-pau-garcia-mila-claude-20261021.jpg",
+    "slug": "quina-colla-joc-castells-pau-garcia-mila-claude"
+  },
+  {
     "place": "València",
     "category": "IA I SOCIETAT",
     "date": "21.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/albert-tort-lobjectiu-es-ia-sigui-capac-aprendre-en-catala_1708360_102.html",
     "image": "./assets/tort-ia-catala-aprendre-estrategia-ia-2030-20261018.jpg",
     "slug": "tort-ia-catala-aprendre-estrategia-ia-2030"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "18.10.2026",
-    "title": "Kalray prorroga un any la col·laboració amb Openchip, l'empresa de xips d'IA lligada al BSC, per uns 5 milions d'euros",
-    "summary": "El fabricant francès de processadors continuarà aportant experiència als acceleradors d'IA i de càlcul d'alt rendiment que desenvolupa Openchip, una empresa sorgida del Barcelona Supercomputing Center.",
-    "detail": "Europa vol reduir la seva dependència dels xips d'IA nord-americans, i a Catalunya hi té un dels seus projectes de xips d'IA: Openchip, una empresa de Barcelona sorgida del Barcelona Supercomputing Center (BSC), que dissenya acceleradors per a intel·ligència artificial i càlcul d'alt rendiment. La premsa econòmica espanyola la situa amb el BSC i el grup GTD com a accionistes, i també explica que Openchip ha comprat el 15% de Kalray, una empresa francesa de processadors amb seu a Grenoble.\n\nKalray va anunciar el 14 d'octubre, en un comunicat des de Grenoble, que prorroga 12 mesos més l'associació que van començar el 2025. L'ampliació val uns 5 milions d'euros durant aquest període. Segons el comunicat, Kalray continuarà aportant la seva experiència al desenvolupament dels xips acceleradors de nova generació d'Openchip per a IA i càlcul d'alt rendiment. L'empresa francesa explica que guanya diners amb llicències de propietat intel·lectual de maquinari i programari i amb projectes de desenvolupament que paguen els clients.\n\nLa notícia és petita, però il·lustra com es construeix la cadena d'un xip europeu: una empresa nascuda en un centre de supercomputació públic, amb socis industrials que ja tenen tecnologia provada, intenta arribar a un mercat que dominen Nvidia i uns pocs més. Per a un ecosistema com el barceloní, que acull una de les fàbriques d'IA europees, que Openchip pugui comptar amb un soci així durant un any més és un senyal de continuïtat.\n\nHi ha límits clars. El comunicat de Kalray no diu on és Openchip, ni dona dades de rendiment, de calendari ni de clients dels xips, i tampoc quin percentatge dels 5 milions arriba a Openchip i quin acaba a Kalray. La xifra és la que dona l'empresa cotitzada; no hem pogut contrastar amb Openchip els detalls ni la seva participació accionarial.",
-    "source": "Kalray",
-    "url": "https://www.financialcontent.com/article/actus-2026-10-14-kalray-and-openchip-sign-a-12-month-extension-of-their-partnership",
-    "image": "./assets/openchip-kalray-prorroga-xips-ia-20261018.jpg",
-    "slug": "openchip-kalray-prorroga-xips-ia"
   }
 ];
