@@ -1,30 +1,30 @@
 {
-  "date": "2026-10-20",
-  "title": "Més capacitat, menys confiança: la IA que ningú no vol deixar sense vigilar",
-  "dek": "Avui, entre prohibicions, avisos d'una gran empresa i un atac, els diners per ampliar la IA han continuat arribant com si res.",
+  "date": "2026-10-21",
+  "title": "Xifres grans, lletra petita: la IA que s'ha de comptar abans de creure-la",
+  "dek": "Avui, de la borsa al laboratori, gairebé cada notícia ha portat un número espectacular i, al costat, la condició que en limita l'abast.",
   "body": [
-    "El fil d'avui és la desconfiança. Gairebé tot el que ha sortit sobre la IA té una pregunta de fons: qui vigila el que ja s'ha deixat entrar? Els Estats Units han prohibit DeepSeek a les agències federals civils i els han manat retirar-ne els productes. Microsoft ha dit que tracta els agents d'IA com una amenaça interna i que no es pot confiar en els models més avançats. I a Nova York l'alcalde, Zohran Mamdani, ha afirmat que el Govern federal ha abdicat davant la IA i ha demanat als ciutadans que hi plantin cara. Tres veus diferents, amb la mateixa por de fons.",
-    "La novetat no és que hi hagi recel, sinó d'on ve. Fins fa poc, la prevenció era cosa de reguladors o d'activistes. Avui la formula una de les empreses que més agents posa al mercat, i la fan els governs com una mesura d'inventari: què tenim connectat i de qui és. L'atac a l'eina de programació OpenCode, que va carregar despeses als comptes d'IA d'un 1,4% dels usuaris de la consola, mostra que el risc ja no és teòric: una credencial robada paga la factura d'un altre. La confiança es converteix en una part del producte.",
-    "I tanmateix els diners no s'aturen. Anthropic i Nscale negocien, segons Bloomberg, un nou acord de 45.000 milions de dòlars en capacitat de càlcul. Tenstorrent ha aixecat 1.500 milions amb una valoració de 6.200 milions per fabricar xips per a models oberts, Otter.ai n'ha captat 320 per créixer amb l'eina de notes de reunions i Amazon ha llançat TorchNeuron perquè les aplicacions de PyTorch passin als seus xips Trainium amb una sola línia de configuració. La contradicció és evident: mentre es discuteix com contenir els sistemes, s'afegeix capacitat per fer-ne més.",
-    "La recerca d'avui apunta en la mateixa direcció, d'una manera més discreta. Un model de robòtica prediu com quedarà l'escena abans de moure's i encerta el 78,4% de les tasques reals. Un mètode crea moltes variants d'un model de reconeixement de veu perquè un mateix àudio manipulat no enganyi tots els dispositius. Un estudi revisat per parells troba que els models de llenguatge responen diferent a un test de personalitat segons si ho fan en anglès o en mandarí. Cap d'aquests treballs no és una gran capacitat nova; tots tracten d'entendre i limitar el comportament dels models, i tots són resultats acotats.",
-    "Convé no inflar la conclusió. Un dia de notícies no fa una tendència, i la distància entre el que diuen Microsoft o Washington i el que passa a cada empresa és gran. Però el contrast d'avui és prou net per anotar-lo: la capacitat s'amplia més de pressa que la capacitat de comprovar-la. Demà caldrà mirar si algun d'aquests recels es converteix en una norma o una auditoria concretes, o si es queda en declaracions, i si els acords de càlcul continuen arribant al mateix ritme que els avisos."
+    "El fil d'avui és la distància entre la xifra i la seva lletra petita. SpaceX ha guanyat 4.400 milions el tercer trimestre i la divisió d'IA ja aporta el 52% dels ingressos. Muse, l'aplicació d'IA de Meta, ha arribat als 10 milions de descàrregues als Estats Units en 40 dies. Gairebé un milió de clínics nord-americans han fet 271 milions de consultes a OpenEvidence. Són números que impressionen, i cap no és una invenció. Però cada un respon a una pregunta concreta, i la IA d'avui ens ha ensenyat que una pregunta mal feta pot donar una resposta enganyosament bona.",
+    "On més es nota és a Anthropic, que arriba a la borsa en un moment de lupa. El document per sortir a borsa, filtrat al «Wall Street Journal», admet dificultats per aconseguir prou capacitat de núvol. Bloomberg calcula que Eric Schmidt té aproximadament l'1% de l'empresa, la meitat que Dario Amodei, i Elon Musk ha proposat que el fons públic de l'empresa reparteixi les accions entre el públic. No són notícies sobre què sap fer un model, sinó sobre qui el controla, qui el paga i qui en cobrarà. L'empresa sap que, abans de sortir a borsa, tothom li mirarà els comptes.",
+    "La mateixa cautela ha travessat la ciència. Un detector de notícies falses encerta més del 98% en dos conjunts de dades, però només llegeix text. Un sistema d'IA de la UPV i la Universitat de València distingeix el sarcoma d'Ewing amb un 91,6% d'encert, i la nota remarca que serveix per orientar els patòlegs, no per substituir-los. Un estudi presentat al congrés COLM troba que entrenar models amb piulades virals i curtes els fa saltar-se passos de raonament. Cada resultat porta incorporada la seva condició, i això és bona notícia: vol dir que els investigadors han après a dir-la en veu alta.",
+    "El cas més incòmode ha arribat al vespre. Un estudi de la Universitat de Nova York, presentat al congrés USENIX Security, ha trobat que el 86% de les respostes de quatre xats d'IA a víctimes d'abús amb tecnologia no passava l'avaluació d'exactitud, completesa o seguretat. Una enquesta de Monday.com entre 1.700 directius assenyala una altra cara del mateix problema: el 58% espera supervisar més agents que persones d'aquí a un any, i el 46% tem perdre el control del que fan. En els dos casos la IA arriba abans que el criteri per fiar-se'n, i la responsabilitat acaba on sempre: en una persona.",
+    "Per això el contrapès d'avui no és tecnològic, sinó de mesura. Els anuncis de la jornada, com els servidors Vera Rubin de Google Cloud que Nvidia ha presentat a Berlín, són en gran part previsions, i l'accés general no és sinònim de capacitat disponible. Alhora, una eina que dirigeix un laboratori autònom amb llenguatge corrent redueix els experiments necessaris, però només ho ha demostrat en simulació. Demà val la pena mirar si algú posa números a la confiança: quants errors, quanta capacitat real, quina responsabilitat. La IA compta cada cop amb més precisió; rendir comptes continua costant més."
   ],
   "signals": [
     {
-      "title": "Microsoft tracta els agents d'IA com una amenaça interna i diu que no es pot confiar en els models més avançats",
-      "slug": "microsoft-agents-ia-amenaca-interna-models-no-fiables"
+      "title": "Els xats d'IA donen consells insegurs o incomplets a les víctimes d'abús amb tecnologia: el 86% de les respostes no passa l'avaluació",
+      "slug": "xats-ia-consells-insegurs-abus-tecnologic"
     },
     {
-      "title": "Els Estats Units prohibeixen DeepSeek a les agències federals civils i els manen retirar-ne els productes",
-      "slug": "eua-prohibeix-deepseek-agencies-federals-civils"
+      "title": "El document per sortir a borsa d'Anthropic, filtrat al «Wall Street Journal», admet dificultats per aconseguir prou capacitat de núvol",
+      "slug": "anthropic-s1-filtrat-capacitat-nuvol"
     },
     {
-      "title": "Anthropic i Nscale negocien un nou acord de 45.000 milions de dòlars en capacitat de càlcul, segons Bloomberg",
-      "slug": "anthropic-nscale-negocien-nou-acord-45000-milions-computacio"
+      "title": "El 58% dels directius espera supervisar més agents d'IA que persones d'aquí a un any, segons una enquesta de Monday.com",
+      "slug": "enquesta-monday-directius-ia-avaluar-treballadors"
     },
     {
-      "title": "Un atac a l'eina de programació OpenCode carrega despeses als comptes d'IA d'un 1,4% dels usuaris de la consola",
-      "slug": "opencode-atac-claus-api-despeses-usuaris"
+      "title": "Un detector de notícies falses basat en un transformer encerta més del 98% en dos conjunts de dades, però només llegeix text",
+      "slug": "detector-noticies-falses-transformer-98-per-cent"
     }
   ]
 }
