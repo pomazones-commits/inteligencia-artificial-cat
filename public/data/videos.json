@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-21T16:07:12.085Z",
+ "actualitzat": "2026-10-21T16:13:20.466Z",
  "canals": 19,
  "videos": [
   {
@@ -770,18 +770,6 @@
    "publicat": "2026-09-30T19:09:36.000Z",
    "descripcio": "This demo is a side-by-side comparison of two AI coding agents tasked with building a Go-based RDMA application using NVIDIA DOCA on a BlueField-3 platform. Both agents are given the same goal: implement a working RDMA data path and verify that bytes successfully arrive on hardware. The key differen",
    "miniatura": "/assets/videos/vmAIpEHrCok.jpg"
-  },
-  {
-   "id": "ktdbUIZKeSE",
-   "titol": "Making sure AI chips don’t overheat in space",
-   "canal": "Google",
-   "canalId": "UCK8sQmJBp8GCxrOtXWBpyEA",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-09-30T16:07:24.000Z",
-   "descripcio": "Project Suncatcher is Google’s moonshot to launch solar-powered AI into Earth’s orbit. But operating TPU clusters in space creates a massive hurdle. On Earth, cooling chips means blowing air over heat sinks. In the vacuum of space, there is no air. In this video, Google researchers share the thermal",
-   "miniatura": "/assets/videos/ktdbUIZKeSE.jpg"
   }
  ]
 }
