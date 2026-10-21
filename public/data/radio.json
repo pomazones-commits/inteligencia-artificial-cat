@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-20",
+  "actualitzat": "2026-10-21",
   "nota": "La IA a la ràdio (11.10.2026). Des del 17.10.2026 les fitxes noves les escriu la sessió editorial a incoming/radio-fitxes.json a partir dels candidats d'automation/radio-candidats.json, i el workflow radio.yml (automation/scripts/recull-radio.mjs) les valida i les afegeix aquí; també s'hi poden afegir a mà. Quines emissores i programes entren a la recollida (APIs de 3Cat, RTVE i Omny, el cercador d'À Punt i les webs WordPress de RAB i de les ràdios locals) ho diu automation/radio-sources.json. Cap automatització no canvia ni esborra les fitxes que ja hi són. Cada intervenció és una fitxa amb: id (únic, minúscules i guions; per a 3Cat, «3cat-<id de l'àudio>»), emissora (el nom ha de ser una clau d'«emissores»), programa, programa_url (web oficial del programa), data (AAAA-MM-DD, la de l'àudio a la web de l'emissora), durada («53 min», «1 h 2 min»; buida si l'emissora no la diu), titol (TÍTOL PROPI, no el de l'emissora), convidats (llista de {nom, rol}; el rol tal com el presenta el programa, en català), resum (RESUM PROPI de 30-80 paraules a partir de la descripció oficial: no copiïs la de l'emissora i no t'inventis què s'hi diu), tema (un dels de «temes»), url (la pàgina oficial de l'àudio) i reproductor ({tipus, id}). Tipus de reproductor (els mateixos a radio.php, radio.js i scripts/valida-radio.mjs): «3cat» (id numèric; https://www.3cat.cat/3cat/audio/<id>/embed/), «rtve» (id numèric; https://www.rtve.es/drmn/embed/audio/<id>), «omny» (RAC1 i altres que publiquen a Omny; id «<programa>/<clip>», el que dona l'EmbedUrl de l'API d'Omny), «soundcloud» (id numèric de la pista), «youtube» (id de 11 caràcters; es carrega des de youtube-nocookie.com) i «enllac» (l'emissora no ofereix reproductor incrustable: la fitxa només enllaça la seva web). Per afegir-ne un, comprova abans que l'emissora el dona com a codi d'inserció oficial. «emissores»: nom → {web, icona}. «icona» és l'adreça de la icona oficial; el workflow radio-icones.yml (automation/scripts/icones-radio.mjs) la baixa UNA vegada a public/assets/radio/ i actualitza public/data/radio-icones.json: el lector mai no fa cap petició a l'emissora. Per renovar-la, esborra el fitxer. 🛑 Mai no es baixa ni s'allotja l'àudio ni la foto de l'emissora: només el seu reproductor, i només quan el lector hi fa clic. Valida amb: node scripts/valida-radio.mjs",
   "temes": {
     "societat": "Societat, ètica i desinformació",
@@ -51,6 +51,28 @@
     }
   },
   "intervencions": [
+    {
+      "id": "3cat-1294759",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-10-20",
+      "durada": "11 min",
+      "titol": "Pot una fotografia de la cara ajudar a calcular el risc de mort d'un malalt de càncer?",
+      "convidats": [
+        {
+          "nom": "Oriol Estrada",
+          "rol": "metge internista i director d'estratègia assistencial i innovació de l'Hospital Germans Trias i Pujol - Can Ruti"
+        }
+      ],
+      "resum": "Catalunya nit comenta una recerca nord-americana, amb resultats encara preliminars publicats a The Lancet Digital Health, segons la qual una foto del rostre i una eina d'IA podrien avaluar el risc de mort en pacients amb càncer. Ho analitza Oriol Estrada, internista de Can Ruti, entrevistat al programa.",
+      "tema": "ciencia",
+      "url": "https://www.3cat.cat/3cat/la-ia-pot-avaluar-el-risc-de-mort-en-pacients-amb-cancer/audio/1294759/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1294759"
+      }
+    },
     {
       "id": "capital-429595",
       "emissora": "Ràdio Capital de l'Empordà",
