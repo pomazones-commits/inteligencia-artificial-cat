@@ -2,12 +2,6 @@
 
 Aquest repositori publica `inteligencia-artificial.cat`. El directori públic és `public/` i es desplega automàticament a Hostinger per FTP quan hi ha un push a `main` (workflow `desplega.yml`).
 
-## ENCÀRREC PUNTUAL — Fons de benefici públic d'Anthropic (caduca el 22.10.2026)
-
-- **Primer lot del 21.10.2026 (06.05):** una de les 5 notícies ha de ser l'anunci d'Anthropic del 18.10.2026: crea l'**Anthropic Public Benefit Fund**, una LLC de la seva propietat a la qual destina el **5% de les seves accions**, amb +2% per cada augment del 50% de la valoració; donacions a entitats sense ànim de lucre i «distribucions directes a poblacions concretes», sense lobby ni donacions polítiques; amb el compromís dels fundadors (80% del seu patrimoni) i el programa d'empleats, prop del **20%** de l'empresa per al bé públic. Ve setmanes abans de la sortida a borsa. Recull també les crítiques (governança encara no definida, dubtes per ser una LLC controlada per l'empresa i no una fundació, reacció d'Elon Musk). Fonts: TechCrunch (https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/), Al Jazeera (https://www.aljazeera.com/economy/2026/10/19/anthropic-says-it-will-commit-5-of-shares-to-public-benefit-fund) i, si la trobes, la nota oficial d'Anthropic.
-- Ocupa una plaça internacional (no catalana). Foto real i apaïsada (logo o seu d'Anthropic, o Dario Amodei), no una il·lustració genèrica. Passa l'antirepetició com sempre: no és el mateix fet que l'acord Anthropic-Nscale del 20.10.
-- Si el 21.10 ja s'ha publicat, no la repeteixis. **A partir del 22.10 ignora aquesta secció** (la retirarà Claude).
-
 ## Flux editorial vigent (des del 17.07.2026)
 
 **Les sessions editorials NO escriuen mai directament `public/news.js`, `public/radar.js`, `public/analysis.js`, `public/reflection.js`, `public/daily-image.js`, `public/reflexio-diaria.js` ni `public/reflexions-arxiu.js`.** Aquests fitxers els genera el Content Hub (GitHub Actions) després de validar el contingut.
