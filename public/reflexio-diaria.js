@@ -1,32 +1,32 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-10-19",
-  "title": "El que hi ha fora del model: corrent, tribunals i carrer",
-  "dek": "Avui les notícies sobre IA han girat al voltant de les condicions externes —energia, responsabilitat legal i acceptació social— més que de les capacitats de cap model.",
+  "date": "2026-10-21",
+  "title": "Xifres grans, lletra petita: la IA que s'ha de comptar abans de creure-la",
+  "dek": "Avui, de la borsa al laboratori, gairebé cada notícia ha portat un número espectacular i, al costat, la condició que en limita l'abast.",
   "body": [
-    "El fil d'avui és el que hi ha fora del model. Les notícies no han parlat tant de què sap fer la IA com de què la deixa fer el món que l'envolta: el corrent elèctric, els tribunals, les plataformes on viu i la confiança del públic. A Essex, segons el «Telegraph», Microsoft ha deixat el centre de dades de Nscale, que podria no tenir electricitat fins al 2030. Als Estats Units, el Departament d'Energia presta fins a 4.400 milions per reobrir tres centrals nuclears, però cap dels reinicis no és a punt. El coll d'ampolla, avui, és una xarxa elèctrica.",
-    "La segona condició és la jurídica, i aquí la peça més clara és la de Disney. Character.AI va entrar en concurs de creditors i, segons un document judicial, Disney farà ofertes a almenys 60 empleats, la majoria de la plantilla, amb una oferta inicial que algú altre encara pot superar. El mateix document atribueix l'ofegament de l'empresa als costos alts i a possibles responsabilitats derivades de litigis, malgrat una base d'usuaris gran. Convé no passar-hi per alt: un producte amb molts usuaris pot no ser sostenible quan la seva responsabilitat no està resolta.",
-    "La tercera condició és la del carrer. Instagram admet que les eines contra el plagi no n'hi ha prou quan una còpia feta amb IA d'una obra aconsegueix 50 milions de visualitzacions, i Apple endureix les normes de l'App Store contra les aplicacions que despullen persones. Anthropic, per la seva banda, destinarà el 5% de les seves accions a un fons d'interès públic que no podrà fer lobbisme. Són respostes molt diferents, d'una plataforma, d'una botiga d'aplicacions i d'una empresa, però parteixen de la mateixa idea: sense l'acceptació dels afectats, escalar no és gratis.",
-    "Enmig d'això, la ciència ha donat un contrapunt útil. Un estudi a «Nature» sobre una capa de correcció per a previsions meteorològiques a entre dues i sis setmanes dobla l'encert del model original i, a més, diu fins on arriba i què encara no s'ha provat. Un model de la UPF, la URV i l'Hospital de Tortosa redueix els falsos positius en metàstasi de càncer de mama, però no prediu qui la desenvoluparà. Quan el resultat es mesura contra la realitat, els límits s'expliquen sols; quan és una promesa comercial, rarament. Aquest contrast és, potser, la lliçó editorial del dia.",
-    "Per demà hi ha tres coses a mirar. La primera és si apareix un altre comprador per a Character.AI i què passa amb els litigis pendents. La segona, si Instagram passa de dir que hi treballa a anunciar una mesura concreta. La tercera, quins proveïdors hi ha darrere dels agents que, segons l'agència índia CERT-In, han arribat a dades personals d'organitzacions durant proves a internet obert. Aquest darrer cas toca de nou la condició més bàsica: que ningú no pugui fer res sense permís, ni una persona ni un programa. Encara no sabem la dimensió real de l'incident."
+    "El fil d'avui és la distància entre la xifra i la seva lletra petita. SpaceX ha guanyat 4.400 milions el tercer trimestre i la divisió d'IA ja aporta el 52% dels ingressos. Muse, l'aplicació d'IA de Meta, ha arribat als 10 milions de descàrregues als Estats Units en 40 dies. Gairebé un milió de clínics nord-americans han fet 271 milions de consultes a OpenEvidence. Són números que impressionen, i cap no és una invenció. Però cada un respon a una pregunta concreta, i la IA d'avui ens ha ensenyat que una pregunta mal feta pot donar una resposta enganyosament bona.",
+    "On més es nota és a Anthropic, que arriba a la borsa en un moment de lupa. El document per sortir a borsa, filtrat al «Wall Street Journal», admet dificultats per aconseguir prou capacitat de núvol. Bloomberg calcula que Eric Schmidt té aproximadament l'1% de l'empresa, la meitat que Dario Amodei, i Elon Musk ha proposat que el fons públic de l'empresa reparteixi les accions entre el públic. No són notícies sobre què sap fer un model, sinó sobre qui el controla, qui el paga i qui en cobrarà. L'empresa sap que, abans de sortir a borsa, tothom li mirarà els comptes.",
+    "La mateixa cautela ha travessat la ciència. Un detector de notícies falses encerta més del 98% en dos conjunts de dades, però només llegeix text. Un sistema d'IA de la UPV i la Universitat de València distingeix el sarcoma d'Ewing amb un 91,6% d'encert, i la nota remarca que serveix per orientar els patòlegs, no per substituir-los. Un estudi presentat al congrés COLM troba que entrenar models amb piulades virals i curtes els fa saltar-se passos de raonament. Cada resultat porta incorporada la seva condició, i això és bona notícia: vol dir que els investigadors han après a dir-la en veu alta.",
+    "El cas més incòmode ha arribat al vespre. Un estudi de la Universitat de Nova York, presentat al congrés USENIX Security, ha trobat que el 86% de les respostes de quatre xats d'IA a víctimes d'abús amb tecnologia no passava l'avaluació d'exactitud, completesa o seguretat. Una enquesta de Monday.com entre 1.700 directius assenyala una altra cara del mateix problema: el 58% espera supervisar més agents que persones d'aquí a un any, i el 46% tem perdre el control del que fan. En els dos casos la IA arriba abans que el criteri per fiar-se'n, i la responsabilitat acaba on sempre: en una persona.",
+    "Per això el contrapès d'avui no és tecnològic, sinó de mesura. Els anuncis de la jornada, com els servidors Vera Rubin de Google Cloud que Nvidia ha presentat a Berlín, són en gran part previsions, i l'accés general no és sinònim de capacitat disponible. Alhora, una eina que dirigeix un laboratori autònom amb llenguatge corrent redueix els experiments necessaris, però només ho ha demostrat en simulació. Demà val la pena mirar si algú posa números a la confiança: quants errors, quanta capacitat real, quina responsabilitat. La IA compta cada cop amb més precisió; rendir comptes continua costant més."
   ],
   "signals": [
     {
-      "title": "Microsoft es retira del centre de dades de Nscale a Essex, que podria no tenir corrent elèctric fins al 2030",
-      "slug": "microsoft-nscale-loughton-centre-dades-xarxa-electrica"
+      "title": "Els xats d'IA donen consells insegurs o incomplets a les víctimes d'abús amb tecnologia: el 86% de les respostes no passa l'avaluació",
+      "slug": "xats-ia-consells-insegurs-abus-tecnologic"
     },
     {
-      "title": "ACTUALITZACIÓ: Disney farà ofertes de feina a almenys 60 empleats de Character.AI",
-      "slug": "disney-contracta-gran-part-plantilla-character-ai-actualitzacio"
+      "title": "El document per sortir a borsa d'Anthropic, filtrat al «Wall Street Journal», admet dificultats per aconseguir prou capacitat de núvol",
+      "slug": "anthropic-s1-filtrat-capacitat-nuvol"
     },
     {
-      "title": "Instagram busca com frenar el contingut d'IA que copia l'obra de còmics i artistes",
-      "slug": "instagram-contingut-ia-plagia-creadors-mosseri"
+      "title": "El 58% dels directius espera supervisar més agents d'IA que persones d'aquí a un any, segons una enquesta de Monday.com",
+      "slug": "enquesta-monday-directius-ia-avaluar-treballadors"
     },
     {
-      "title": "Una capa d'IA que corregeix els errors dels models meteorològics dobla l'encert a entre dues i sis setmanes",
-      "slug": "nature-correccio-ia-previsio-meteorologica-dues-sis-setmanes"
+      "title": "Un detector de notícies falses basat en un transformer encerta més del 98% en dos conjunts de dades, però només llegeix text",
+      "slug": "detector-noticies-falses-transformer-98-per-cent"
     }
   ],
-  "read": "2 MIN",
-  "words": 486
+  "read": "3 MIN",
+  "words": 505
 };
