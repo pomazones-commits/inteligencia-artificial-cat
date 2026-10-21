@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-21T16:13:17.517Z",
+ "actualitzat": "2026-10-21T16:28:13.737Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "5639c51f6fb5",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Gemini llegirà el teu Gmail i el teu calendari al cotxe... però a Espanya haurà d'esperar",
+   "url": "https://www.elnacional.cat/ca/tecnologia/gemini-llegira-teu-gmail-teu-calendari-cotxe-pero-espanya-haura-esperar_1712995_102.html",
+   "publicat": "2026-10-21T16:15:00.000Z"
+  },
   {
    "id": "efb6052ae3a9",
    "mitja": "Información",
@@ -34,7 +45,9 @@
    "ambit": "catala",
    "titol": "La IA arriba al món casteller: així és el joc creat per Pau Garcia-Milà",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/ia-arriba-mon-casteller-aixi-es-joc-creat-emprenedor-catala_1713016_102.html",
-   "publicat": "2026-10-21T15:18:00.000Z"
+   "publicat": "2026-10-21T15:18:00.000Z",
+   "noticia": "quina-colla-joc-castells-pau-garcia-mila-claude",
+   "noticiaTitol": "Pau Garcia-Milà crea amb Claude «Quina colla!», un joc gratuït per descobrir els castells"
   },
   {
    "id": "131001a13bbb",
@@ -2476,17 +2489,6 @@
    "titol": "Google comença a desplegar Gemini 4 Argon: aquestes són les novetats del seu nou model d'IA",
    "url": "https://www.elnacional.cat/ca/tecnologia/google-comenca-desplegar-gemini-4-argon-aquestes-son-novetats-seu-nou-model-ia_1709722_102.html",
    "publicat": "2026-10-14T16:30:00.000Z"
-  },
-  {
-   "id": "0779485eb1a8",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "José Luis Bonet (Cámara de Comercio de España): “Es imprescindible un plan de despliegue de inteligencia artificial para pymes”",
-   "url": "https://cincodias.elpais.com/economia/foro-creo-creando-oportunidades/2026-10-14/jose-luis-bonet-camara-de-espana-es-imprescindible-un-plan-de-despliegue-de-inteligencia-artificial-para-pymes.html",
-   "publicat": "2026-10-14T16:21:19.000Z"
   }
  ]
 }
