@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-21T04:13:24.136Z",
+ "actualitzat": "2026-10-21T08:12:55.798Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "8n-SXxRIrm8",
+   "titol": "Build a Better Shopping Experience with OpenAI | Shopping Agent Demo",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-10-20T22:57:52.000Z",
+   "descripcio": "See how an AI shopping agent can turn a room photo into a personalized shopping experience—from finding the right products to updating an order. In this demo for fictional home goods retailer Vesper & Alder, a shopper uses voice and images to create a cozy reading nook. The agent recommends products",
+   "miniatura": "/assets/videos/8n-SXxRIrm8.jpg"
+  },
   {
    "id": "DQHtmW9ZlIs",
    "titol": "Cooking with Codex: Ep. 1",
@@ -26,6 +38,30 @@
    "publicat": "2026-10-19T15:07:35.000Z",
    "descripcio": "Bringing legal expertise and frontier AI together starts with trust. For Thomson Reuters’ Camillo Speroni, that means output lawyers can verify, cite and put their name on. Camillo discusses Thomson Reuters’ work with OpenAI to bring HighQ and Thomson Reuters CoCounsel Legal into ChatGPT Enterprise,",
    "miniatura": "/assets/videos/ExVDpMeaWp0.jpg"
+  },
+  {
+   "id": "PvFjbPYEOZI",
+   "titol": "NVIDIA GTC Berlin 2026 Keynote With CEO Jensen Huang",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-10-19T08:23:53.000Z",
+   "descripcio": "Join NVIDIA founder and CEO Jensen Huang live from Berlin for the latest in AI and accelerated computing. Discover how Europe is building its own intelligence—with the control, knowledge, and tools to put AI to work.",
+   "miniatura": "/assets/videos/PvFjbPYEOZI.jpg"
+  },
+  {
+   "id": "PrA_ayyy22E",
+   "titol": "NVIDIA GTC Berlin 2026 | Live Keynote Pregame",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-10-19T08:18:31.000Z",
+   "descripcio": "Join Deirdre Bosa and Gavin Baker live from Berlin’s Tempodrom ahead of Jensen Huang’s keynote. Hear from Europe’s leading founders, investors and industry leaders on how Europe is building its AI future.",
+   "miniatura": "/assets/videos/PrA_ayyy22E.jpg"
   },
   {
    "id": "mEulEkuxCnM",
