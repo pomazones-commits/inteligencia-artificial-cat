@@ -1,8 +1,95 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-21T08:12:55.798Z",
+ "actualitzat": "2026-10-21T12:19:39.009Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "S2rX2NHzwOs",
+   "titol": "RFD4-Proteina: How IPD Researchers and NVIDIA Design New Proteins with AI",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "ciencia",
+   "idioma": "en",
+   "publicat": "2026-10-21T11:30:10.000Z",
+   "descripcio": "UW’s Medicine Institute for Protein Design, founded and led by Nobel Laureate David Baker, and NVIDIA Research show how they move AI-generated designs from computer models into lab testing, including work on enzymes that break down pesticides. The team combines protein design research and computatio",
+   "miniatura": "/assets/videos/S2rX2NHzwOs.jpg"
+  },
+  {
+   "id": "VvJai6HGfyE",
+   "titol": "From Prompt to Walking Robot With NVIDIA RTX Spark",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "robotica",
+   "idioma": "en",
+   "publicat": "2026-10-21T11:22:03.000Z",
+   "descripcio": "AI agents on NVIDIA RTX Spark help developers turn ideas into real-world robots. Astra connects FreeCAD, Blender, and SimReady Foundation to create assets and build training environments in NVIDIA Isaac Sim. NVIDIA Omniverse RTX and Newton bring perception and physics together, while reinforcement l",
+   "miniatura": "/assets/videos/VvJai6HGfyE.jpg"
+  },
+  {
+   "id": "JegVE_xMY_w",
+   "titol": "NVIDIA Foundational Technology Montage | GTC Berlin 2026 Edition",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "robotica",
+   "idioma": "en",
+   "publicat": "2026-10-21T11:21:20.000Z",
+   "descripcio": "Explore the technologies powering the next wave of physical AI. NVIDIA accelerated computing and CUDA-X libraries bring together simulation, robotics, and autonomous systems, helping developers turn breakthroughs in science and engineering into real-world applications. 🔗 Learn more → https://www.nv",
+   "miniatura": "/assets/videos/JegVE_xMY_w.jpg"
+  },
+  {
+   "id": "IqhDPbRrsh4",
+   "titol": "Super AI Agents for Science, Manufacturing and Engineering | GTC Berlin 2026 Edition",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "ciencia",
+   "idioma": "en",
+   "publicat": "2026-10-21T11:20:04.000Z",
+   "descripcio": "Turn company expertise into action with super AI agents. See how Lila Sciences, Siemens, and Dassault Systèmes use agents to design potential therapies, plan factory production and refine vehicle designs. Powered by NVIDIA Agent Toolkit, these agents bring together models, knowledge and tools to sim",
+   "miniatura": "/assets/videos/IqhDPbRrsh4.jpg"
+  },
+  {
+   "id": "qDF7ARVxbWU",
+   "titol": "AI Factories That Use Less Power and Water, Built in Days | NVIDIA DSX",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "maquinari",
+   "idioma": "en",
+   "publicat": "2026-10-21T11:19:53.000Z",
+   "descripcio": "Efficient infrastructure is the foundation for scaling AI. NVIDIA DSX is a full-stack AI factory reference architecture, co-designed across compute, networking, storage, power, and cooling. Validated in a digital twin before construction begins. DSX Max LPS uses 30% less power for the same output. C",
+   "miniatura": "/assets/videos/qDF7ARVxbWU.jpg"
+  },
+  {
+   "id": "VsZpy3aFLeY",
+   "titol": "Official Keynote Opening Video | NVIDIA GTC Berlin 2026",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-10-21T11:19:08.000Z",
+   "descripcio": "Discover how tokens, the building blocks of AI, turn data into knowledge. The opening video from NVIDIA CEO Jensen Huang’s GTC Berlin keynote explores how AI and accelerated computing can help uncover new cures, keep cities moving, support precision care, and take on dangerous work. See how these in",
+   "miniatura": "/assets/videos/VsZpy3aFLeY.jpg"
+  },
+  {
+   "id": "PvFjbPYEOZI",
+   "titol": "NVIDIA GTC Berlin 2026 Keynote With CEO Jensen Huang",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-10-21T11:17:38.000Z",
+   "descripcio": "Join NVIDIA founder and CEO Jensen Huang live from Berlin for the latest in AI and accelerated computing. Discover how Europe is building its own intelligence—with the control, knowledge, and tools to put AI to work.",
+   "miniatura": "/assets/videos/PvFjbPYEOZI.jpg",
+   "noticia": "jensen-huang-berlin-industria-alemanya-ia-fisica",
+   "noticiaTitol": "Jensen Huang demana a la indústria alemanya que adopti la IA: «Els electrons mai no substituiran els àtoms»",
+   "resum": "Discurs inaugural del GTC Berlín 2026, en què el director general de NVIDIA, Jensen Huang, s'adreça a la indústria europea. És la intervenció que dona context a la notícia; el vídeo és en anglès."
+  },
   {
    "id": "8n-SXxRIrm8",
    "titol": "Build a Better Shopping Experience with OpenAI | Shopping Agent Demo",
@@ -38,18 +125,6 @@
    "publicat": "2026-10-19T15:07:35.000Z",
    "descripcio": "Bringing legal expertise and frontier AI together starts with trust. For Thomson Reuters’ Camillo Speroni, that means output lawyers can verify, cite and put their name on. Camillo discusses Thomson Reuters’ work with OpenAI to bring HighQ and Thomson Reuters CoCounsel Legal into ChatGPT Enterprise,",
    "miniatura": "/assets/videos/ExVDpMeaWp0.jpg"
-  },
-  {
-   "id": "PvFjbPYEOZI",
-   "titol": "NVIDIA GTC Berlin 2026 Keynote With CEO Jensen Huang",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "altres",
-   "idioma": "en",
-   "publicat": "2026-10-19T08:23:53.000Z",
-   "descripcio": "Join NVIDIA founder and CEO Jensen Huang live from Berlin for the latest in AI and accelerated computing. Discover how Europe is building its own intelligence—with the control, knowledge, and tools to put AI to work.",
-   "miniatura": "/assets/videos/PvFjbPYEOZI.jpg"
   },
   {
    "id": "PrA_ayyy22E",
