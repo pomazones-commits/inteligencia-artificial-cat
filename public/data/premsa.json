@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-21T16:28:13.737Z",
+ "actualitzat": "2026-10-21T17:20:11.278Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "4106c6d43178",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Dos vulnerabilidades críticas detectadas con IA provocan fallos múltiples en miles de páginas web",
+   "url": "https://elpais.com/tecnologia/2026-10-21/dos-vulnerabilidades-criticas-detectadas-con-ia-provocan-fallos-multiples-en-miles-de-paginas-web.html",
+   "publicat": "2026-10-21T17:03:25.000Z"
+  },
+  {
+   "id": "dadc2ceb3af3",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Dos brechas de ciberseguridad detectadas con IA exponen hasta un 70% de las páginas de Internet",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261021/errores-informaticos-detectados-ia-exponen-ciberseguridad-internet-webs-gobiernos-trafico-135596052",
+   "publicat": "2026-10-21T16:35:36.000Z"
+  },
   {
    "id": "5639c51f6fb5",
    "mitja": "El Nacional",
@@ -2445,50 +2467,6 @@
    "titol": "La IA y las cinco claves para invertir",
    "url": "https://www.elperiodico.com/es/opinion/20261014/ia-cinco-claves-invertir-135342408",
    "publicat": "2026-10-14T18:20:00.000Z"
-  },
-  {
-   "id": "dbd505daf1c5",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Miguel Ángel Turrado (HP SCDS): “No va a haber burbuja en la inteligencia artificial”",
-   "url": "https://cincodias.elpais.com/economia/foro-creo-creando-oportunidades/2026-10-14/miguel-angel-turrado-hp-scds-no-va-a-haber-burbuja-en-la-inteligencia-artificial.html",
-   "publicat": "2026-10-14T17:05:58.000Z"
-  },
-  {
-   "id": "e1475fed67b1",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Dels 2.700 milions de Google a la fallida: Character.AI reobre el debat sobre la bombolla de la IA",
-   "url": "https://www.elnacional.cat/ca/tecnologia/2700-milions-google-fallida-characterai-reobre-debat-sobre-bombolla-ia_1709737_102.html",
-   "publicat": "2026-10-14T17:00:00.000Z"
-  },
-  {
-   "id": "36ef0c18bda8",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Más de 1.000 columnas de humo detectadas con inteligencia artificial en el área metropolitana de Barcelona",
-   "url": "https://www.lavanguardia.com/local/baix-llobregat/20261014/11659058/mas-1-000-columnas-humo-detectadas-inteligencia-artificial-area-metropolitana-barcelona.html",
-   "publicat": "2026-10-14T16:40:39.000Z"
-  },
-  {
-   "id": "4b11a6f1532e",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Google comença a desplegar Gemini 4 Argon: aquestes són les novetats del seu nou model d'IA",
-   "url": "https://www.elnacional.cat/ca/tecnologia/google-comenca-desplegar-gemini-4-argon-aquestes-son-novetats-seu-nou-model-ia_1709722_102.html",
-   "publicat": "2026-10-14T16:30:00.000Z"
   }
  ]
 }
