@@ -11,6 +11,7 @@
 // Format de la cua:
 //
 //   [{ "seccio": "veus-de-civicai",           // o "veus-de-civicai-estudi",
+//                                              //   "veus-de-l-administracio(-estudi)",
 //                                              //   "empresa", "tribuna", "estudi"
 //      "publica": "2026-10-21",               // dia de publicació (hora de Madrid)
 //      "peca": { …camps de CLAUDE.md… } }]    // "date" el posa l'script
@@ -18,6 +19,8 @@
 // Què fa amb cada entrada que ja toca (publica <= avui, a Madrid):
 //   - veus-de-civicai        → al lloc per data de public/tribuna-arxiu.js (cal "serie")
 //   - veus-de-civicai-estudi → al lloc per data de public/estudis-arxiu.js (cal "serie")
+//   - veus-de-l-administracio        → com veus-de-civicai (cal "serie": "veus-de-l-administracio")
+//   - veus-de-l-administracio-estudi → com veus-de-civicai-estudi (ídem)
 //   - empresa                → al davant de public/empresa.js
 //   - tribuna                → public/tribuna.js; la vigent passa a tribuna-arxiu.js
 //   - estudi                 → public/estudis.js; el vigent passa a estudis-arxiu.js
@@ -41,8 +44,12 @@ import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 export const SECCIONS = {
-  'veus-de-civicai': { fitxer: 'tribuna-arxiu.js', variable: 'IA_TRIBUNA_ARXIU', tipus: 'arxiu', serie: true },
-  'veus-de-civicai-estudi': { fitxer: 'estudis-arxiu.js', variable: 'IA_ESTUDIS_ARXIU', tipus: 'arxiu', serie: true },
+  'veus-de-civicai': { fitxer: 'tribuna-arxiu.js', variable: 'IA_TRIBUNA_ARXIU', tipus: 'arxiu', serie: 'veus-de-civicai' },
+  'veus-de-civicai-estudi': { fitxer: 'estudis-arxiu.js', variable: 'IA_ESTUDIS_ARXIU', tipus: 'arxiu', serie: 'veus-de-civicai' },
+  // 22.10.2026 (decisió d'en Rafael): «Veus de l'administració» passa a ser una secció com
+  // Veus de CIVICAi: banda pròpia a la portada i les peces ja no ocupen la tribuna ni l'estudi vigents.
+  'veus-de-l-administracio': { fitxer: 'tribuna-arxiu.js', variable: 'IA_TRIBUNA_ARXIU', tipus: 'arxiu', serie: 'veus-de-l-administracio' },
+  'veus-de-l-administracio-estudi': { fitxer: 'estudis-arxiu.js', variable: 'IA_ESTUDIS_ARXIU', tipus: 'arxiu', serie: 'veus-de-l-administracio' },
   empresa: { fitxer: 'empresa.js', variable: 'IA_EMPRESA', tipus: 'arxiu' },
   tribuna: { fitxer: 'tribuna.js', variable: 'IA_TRIBUNA', tipus: 'vigent', arxiu: 'tribuna-arxiu.js', variableArxiu: 'IA_TRIBUNA_ARXIU' },
   estudi: { fitxer: 'estudis.js', variable: 'IA_ESTUDI', tipus: 'vigent', arxiu: 'estudis-arxiu.js', variableArxiu: 'IA_ESTUDIS_ARXIU' }
@@ -56,6 +63,9 @@ export const HTML_DE = {
   'estudis-arxiu.js': ['estudi.html', 'arxiu-estudis.html'],
   'empresa.js': ['empresa.html']
 };
+
+// Sèries que tenen secció pròpia a la cua: les seves peces no poden anar a tribuna, estudi ni empresa.
+const SERIES_AMB_SECCIO = ['veus-de-civicai', 'veus-de-l-administracio'];
 
 const OBLIGATORIS = ['category', 'read', 'author', 'role', 'title', 'excerpt', 'body'];
 
@@ -93,8 +103,9 @@ export function validaEntrada(e) {
   const p = e.peca;
   if (!p || typeof p !== 'object') return 'falta l\'objecte "peca"';
   for (const camp of OBLIGATORIS) if (!p[camp] || typeof p[camp] !== 'string') return `a la peça li falta «${camp}»`;
-  if (s.serie && p.serie !== 'veus-de-civicai') return 'una veu de CIVICAi ha de portar "serie": "veus-de-civicai"';
-  if (!s.serie && p.serie === 'veus-de-civicai') return `una peça amb "serie": "veus-de-civicai" no pot anar a «${e.seccio}»`;
+  if (s.serie === 'veus-de-civicai' && p.serie !== s.serie) return 'una veu de CIVICAi ha de portar "serie": "veus-de-civicai"';
+  if (s.serie && p.serie !== s.serie) return `una peça de «${e.seccio}» ha de portar "serie": "${s.serie}"`;
+  if (p.serie && SERIES_AMB_SECCIO.includes(p.serie) && s.serie !== p.serie) return `una peça amb "serie": "${p.serie}" no pot anar a «${e.seccio}»`;
   if (p.photo && !/^\.\/assets\/[A-Za-z0-9._-]+$/.test(p.photo)) return 'el camp "photo" ha de ser ./assets/<fitxer> o ""';
   return null;
 }

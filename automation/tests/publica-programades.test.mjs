@@ -36,6 +36,11 @@ test('valida les seccions i la sèrie de CIVICAi', () => {
   assert.equal(validaEntrada({ seccio: 'empresa', publica: '2026-10-20', peca: peca() }), null);
   assert.match(validaEntrada({ seccio: 'veus-de-civicai', publica: '2026-10-21', peca: peca() }), /serie/);
   assert.match(validaEntrada({ seccio: 'tribuna', publica: '2026-10-21', peca: peca({ serie: 'veus-de-civicai' }) }), /no pot anar/);
+  // 22.10.2026: «Veus de l'administració» és una secció com CIVICAi.
+  assert.equal(validaEntrada({ seccio: 'veus-de-l-administracio', publica: '2026-10-27', peca: peca({ serie: 'veus-de-l-administracio' }) }), null);
+  assert.equal(validaEntrada({ seccio: 'veus-de-l-administracio-estudi', publica: '2026-10-27', peca: peca({ serie: 'veus-de-l-administracio' }) }), null);
+  assert.match(validaEntrada({ seccio: 'veus-de-l-administracio', publica: '2026-10-27', peca: peca() }), /serie/);
+  assert.match(validaEntrada({ seccio: 'tribuna', publica: '2026-10-27', peca: peca({ serie: 'veus-de-l-administracio' }) }), /no pot anar/);
   assert.match(validaEntrada({ seccio: 'res', publica: '2026-10-21', peca: peca() }), /desconeguda/);
   assert.match(validaEntrada({ seccio: 'empresa', publica: '21.10.2026', peca: peca() }), /AAAA-MM-DD/);
 });

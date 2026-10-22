@@ -105,6 +105,6 @@ window.IA_SERIES = {
     "cami": "/veus-de-l-administracio",
     "entitat": "Administracions públiques",
     "logo": "/assets/series/veus-de-l-administracio.svg",
-    "descripcio": "La sèrie on escriuen les persones que porten la intel·ligència artificial a les administracions públiques de Catalunya, la Comunitat Valenciana, les Illes Balears i Andorra: què fan, com ho fan i amb quines garanties per a la ciutadania."
+    "descripcio": "La secció on escriuen les persones que porten la intel·ligència artificial a les administracions públiques de Catalunya, la Comunitat Valenciana, les Illes Balears i Andorra: què fan, com ho fan i amb quines garanties per a la ciutadania."
   }
 };

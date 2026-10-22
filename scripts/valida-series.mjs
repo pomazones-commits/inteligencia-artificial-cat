@@ -64,12 +64,23 @@ for (const p of peces) {
   if (!series || !series[p.serie]) errors.push(`«${p.title}»: la sèrie «${p.serie}» no existeix a series.js`);
 }
 
+const clauDataV = (d) => String(d || '').split('.').reverse().join('');
 // 5. Des del 14.10.2026 (decisió d'en Rafael), les veus de CIVICAi no ocupen mai la
 //    tribuna ni l'estudi vigents: es publiquen directament a tribuna-arxiu.js (o
 //    estudis-arxiu.js) i surten a la banda #veus-civicai i a /veus-de-civicai.
 for (const [nom, p] of [['tribuna.js', w.IA_TRIBUNA], ['estudis.js', w.IA_ESTUDI]]) {
   if (p && p.serie === 'veus-de-civicai') {
     errors.push(`${nom}: «${p.title}» és de «Veus de CIVICAi» i no pot ser la peça vigent; va a l'arxiu (al davant, per data)`);
+  }
+}
+
+// 5b. Des del 22.10.2026 (decisió d'en Rafael), «Veus de l'administració» és una secció
+//     com Veus de CIVICAi: les peces noves van a l'arxiu (seccio «veus-de-l-administracio» de
+//     la cua) i surten a la banda #veus-administracio. Només l'estudi de Josep Maria Flores
+//     (07.10.2026, anterior a la decisió) pot ser encara el vigent.
+for (const [nom, p] of [['tribuna.js', w.IA_TRIBUNA], ['estudis.js', w.IA_ESTUDI]]) {
+  if (p && p.serie === 'veus-de-l-administracio' && clauDataV(p.date) >= '20261022') {
+    errors.push(`${nom}: «${p.title}» és de «Veus de l'administració» i no pot ser la peça vigent; va a l'arxiu (al davant, per data)`);
   }
 }
 

@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026102201';
+  const VERSIO_MANUAL = '2026102202';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './estudis-arxiu.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -396,7 +396,10 @@
     };
     // 20.10.2026: la banda #tribuna es manté a la portada (decisió d'en Rafael); la
     // mateixa peça surt també a «Les seccions» (seccions-portada.php).
-    if (window.IA_TRIBUNA && window.IA_TRIBUNA.title && document.querySelector('#tribuna')) {
+    // 22.10.2026: una peça de «Veus de l'administració» no ocupa mai la banda de la tribuna
+    // ni la de l'estudi: surt a la seva banda (#veus-administracio).
+    const esAdministracio = (p) => p && p.serie === 'veus-de-l-administracio';
+    if (window.IA_TRIBUNA && window.IA_TRIBUNA.title && !esAdministracio(window.IA_TRIBUNA) && document.querySelector('#tribuna')) {
       const tribuna = window.IA_TRIBUNA;
       const band = document.querySelector('#tribuna');
       document.querySelector('#tribuna-title').textContent = tribuna.title;
@@ -613,8 +616,80 @@
       banda.hidden = false;
     });
 
+    // ——— Veus de l'administració (22.10.2026, decisió d'en Rafael) ———
+    // Secció equiparable a Veus de CIVICAi i Veus d'empresa: la peça més recent amb
+    // "serie": "veus-de-l-administracio" (de tribuna-arxiu.js, estudis-arxiu.js o, per a
+    // les peces d'abans del 22.10, la vigent), si té menys d'ADMIN_DIES_MAX dies.
+    const ADMIN_DIES_MAX = 30;
+    Promise.all([loadScript('./tribuna-arxiu.js'), loadScript('./estudis-arxiu.js'), loadScript('./peces.js')]).then(() => {
+      const llistaT = [window.IA_TRIBUNA].concat(window.IA_TRIBUNA_ARXIU || []);
+      const llistaE = [window.IA_ESTUDI].concat(window.IA_ESTUDIS_ARXIU || []);
+      const origen = new Map();
+      llistaT.forEach((t) => { if (t) origen.set(t, { tipus: 'tribuna', llista: llistaT }); });
+      llistaE.forEach((t) => { if (t) origen.set(t, { tipus: 'estudis', llista: llistaE }); });
+      const clauData = (d) => String(d || '').split('.').reverse().join('');
+      const peca = [...origen.keys()]
+        .filter((t) => t && t.title && esAdministracio(t))
+        .sort((a, b) => clauData(b.date).localeCompare(clauData(a.date)))[0];
+      const banda = document.querySelector('#veus-administracio');
+      const graella = document.querySelector('#administracio-peces');
+      if (!peca || !banda || !graella) return;
+      const [dd, mm, aa] = String(peca.date || '').split('.').map(Number);
+      if (!dd || !mm || !aa || (Date.now() - new Date(aa, mm - 1, dd).getTime()) / 864e5 > ADMIN_DIES_MAX) return;
+      const el = (tag, classe, text) => {
+        const n = document.createElement(tag);
+        if (classe) n.className = classe;
+        if (text) n.textContent = text;
+        return n;
+      };
+      const lloc = origen.get(peca);
+      const cami = (window.IAPeces && window.IAPeces.cami(lloc.tipus, peca, lloc.llista)) || './veus-de-l-administracio';
+      const targeta = el('article', 'veus-peca');
+      if (peca.photo) {
+        const figura = el('figure', 'veus-photo');
+        const img = el('img');
+        img.src = peca.photo;
+        img.alt = peca.photoAlt || `Retrat de ${peca.author || ''}`.trim();
+        img.loading = 'lazy';
+        figura.appendChild(img);
+        targeta.appendChild(figura);
+      } else {
+        targeta.classList.add('veus-peca--sense-foto');
+      }
+      const text = el('div', 'veus-copy');
+      const tipus = lloc.tipus === 'estudis' ? 'Estudi a fons' : (peca.category === 'ENTREVISTA' ? 'Entrevista' : 'Opinió');
+      text.appendChild(el('p', 'eyebrow', `${tipus}${peca.read ? ' · ' + peca.read.toLowerCase() : ''}${peca.date ? ' · ' + peca.date : ''}`));
+      const titol = el('h2');
+      titol.id = 'administracio-titol';
+      const enllac = el('a', '', peca.title);
+      enllac.href = cami;
+      titol.appendChild(enllac);
+      text.appendChild(titol);
+      const entradeta = peca.excerpt || peca.abstract;
+      if (entradeta) text.appendChild(el('p', 'veus-entradeta', entradeta));
+      const qui = el('p', 'veus-byline', peca.author || '');
+      if (peca.role) {
+        if (peca.author) qui.appendChild(document.createTextNode(' · '));
+        const rol = el('span');
+        if (window.IAPeces && window.IAPeces.rolAmbEnllac) window.IAPeces.rolAmbEnllac(rol, peca);
+        else rol.textContent = peca.role;
+        qui.appendChild(rol);
+      }
+      text.appendChild(qui);
+      const accions = el('p', 'veus-accions');
+      const boto = el('a', 'veus-boto', peca.category === 'ENTREVISTA' ? 'Llegir l’entrevista ' : 'Llegir la peça ');
+      boto.href = cami;
+      boto.appendChild(el('span', '', '↗'));
+      accions.appendChild(boto);
+      text.appendChild(accions);
+      targeta.appendChild(text);
+      graella.textContent = '';
+      graella.appendChild(targeta);
+      banda.hidden = false;
+    });
+
     // ——— Estudis (article de fons signat, fitxer manual estudis.js) ———
-    if (window.IA_ESTUDI && window.IA_ESTUDI.title) {
+    if (window.IA_ESTUDI && window.IA_ESTUDI.title && !esAdministracio(window.IA_ESTUDI)) {
       const estudi = window.IA_ESTUDI;
       const band = document.querySelector('#estudis');
       document.querySelector('#estudis-title').textContent = estudi.title;

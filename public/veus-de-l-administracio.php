@@ -7,10 +7,11 @@ declare(strict_types=1);
 //
 // Funciona com «Veus de CIVICAi»: no té dades pròpies. La definició és a
 // series.js i les peces surten soles de tribuna*.js i estudis*.js (les que
-// porten "serie": "veus-de-l-administracio"). A diferència de CIVICAi, les
-// peces SÍ que poden ser la tribuna o l'estudi vigents: la sèrie és només un
-// distintiu i una pàgina que les aplega. La primera és l'estudi de Josep Maria
-// Flores (caTgirem, Generalitat de Catalunya, 07.10.2026).
+// porten "serie": "veus-de-l-administracio"). Des del 22.10.2026 (decisió d'en
+// Rafael) és una SECCIÓ equiparable a Veus de CIVICAi i Veus d'empresa: té banda
+// pròpia a la portada (#veus-administracio) i les peces noves ja no ocupen la
+// tribuna ni l'estudi vigents (van directament a l'arxiu). La primera és l'estudi
+// de Josep Maria Flores (caTgirem, Generalitat de Catalunya, 07.10.2026).
 // ---------------------------------------------------------------------------
 require __DIR__ . '/inc/plantilla.php';
 
@@ -79,7 +80,7 @@ $fitxa = static function (array $p): string {
       </div>
       <aside>
         <span class="serie-hero__logo"><img src="<?= iacat_e((string) $serie['logo']) ?>" alt=""></span>
-        <strong>Sobre la sèrie</strong>
+        <strong>Sobre la secció</strong>
         Cada peça la signa una persona que treballa a l’administració, amb el seu nom i el seu càrrec. Les opinions són de qui signa; la selecció i l’edició, de la redacció d’inteligencia-artificial.cat. Cap text no es publica sense el vistiplau de l’autor a la versió final. Totes les peces tenen versió en àudio.
       </aside>
     </section>
@@ -90,7 +91,7 @@ $fitxa = static function (array $p): string {
       <p class="seccio-intro"><?= count($peces) === 1 ? 'Una peça publicada fins ara. Les properes setmanes n’hi haurà més.' : iacat_e(count($peces) . ' peces publicades fins ara, de la més recent a la més antiga.') ?></p>
       <ul class="seccio-grid seccio-grid--2"><?php foreach ($peces as $p) { echo $fitxa($p); } ?></ul>
       <?php else: ?>
-      <p class="serie-buit">Les primeres veus de la sèrie es publicaran les properes setmanes.</p>
+      <p class="serie-buit">Les primeres veus de la secció es publicaran les properes setmanes.</p>
       <?php endif; ?>
     </section>
 
