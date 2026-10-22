@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-22T04:16:54.876Z",
+ "actualitzat": "2026-10-22T08:12:35.494Z",
  "canals": 19,
  "videos": [
   {
@@ -14,6 +14,30 @@
    "publicat": "2026-10-21T22:05:10.000Z",
    "descripcio": "V7 Go organizes company files into a Context Graph that agents can query to screen investment deals and support insurance underwriting. On V7’s hardest graph-query tests across thousands of documents, GPT-6 Astra reached 89% accuracy. Read the full story: https://openai.com/index/v7/",
    "miniatura": "/assets/videos/20IRGgQwPkc.jpg"
+  },
+  {
+   "id": "sAYti12cStU",
+   "titol": "How NHS ambulance teams are using Microsoft Copilot to rethink patient pathways",
+   "canal": "Microsoft",
+   "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
+   "grup": "empreses",
+   "categoria": "salut",
+   "idioma": "en",
+   "publicat": "2026-10-21T20:00:00.000Z",
+   "descripcio": "Yorkshire Ambulance Service, part of England's National Health Service (NHS) is using Microsoft Copilot to bring together data from multiple systems, helping teams understand patterns and identify opportunities across patient pathways. In Rotherham, the proportion of ambulance journeys ending at an ",
+   "miniatura": "/assets/videos/sAYti12cStU.jpg"
+  },
+  {
+   "id": "SOF3_evPje8",
+   "titol": "Design and replicate voices with Gemini 3.8 Flash TTS",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-21T19:00:23.000Z",
+   "descripcio": "See how Gemini 3.8 Flash TTS lets you design custom voices from a text prompt and replicate your own voice in Google AI Studio. Google DeepMind’s Thor Schaeff walks through: *Voice design *Voice replication *Multi-speaker dialogue generation *Building with the Gemini API across 100+ languages *Partn",
+   "miniatura": "/assets/videos/SOF3_evPje8.jpg"
   },
   {
    "id": "4idQxzAyPDo",
