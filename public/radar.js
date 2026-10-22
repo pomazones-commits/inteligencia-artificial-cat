@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "22.10.2026",
+    "title": "CaixaBank posa la seva aplicació dins de ChatGPT perquè els clients puguin consultar productes financers i comparar-los",
+    "summary": "L'entitat diu que és un canal d'informació addicional, pensat per a consultes senzilles, i que els casos complexos continuaran passant per un gestor.",
+    "detail": "Els bancs comencen a provar un canal nou: arribar als clients allà on ja fan preguntes, que cada cop és més sovint un assistent d'IA. ChatGPT permet que empreses de fora hi integrin les seves pròpies aplicacions, i CaixaBank hi ha entrat aquest dijous.\n\nSegons El Nacional, l'entitat ha integrat la seva aplicació a l'espai d'aplicacions de ChatGPT, i ja funciona. Des de la conversa, l'usuari pot preguntar pels productes financers de manera conversacional, comparar alternatives i accedir als continguts del banc. L'aplicació es recolza en els agents d'IA que CaixaBank ja fa servir als seus canals digitals, que acompanyen el client pas a pas en una contractació, i, quan cal un assessorament especialitzat, deriva la persona cap a un professional del banc.\n\nL'entitat insisteix que no substitueix ni les oficines ni els canals tradicionals: és, diu, un canal addicional d'informació, més adequat per a consultes ràpides, comparacions de característiques i dubtes de tràmit. Afegeix que treballa en IA des del 2014 i que té quatre objectius amb la generativa: agilitat comercial, nous serveis, eficiència operativa i resiliència i seguretat de la plataforma.\n\nLa informació surt d'un sol mitjà, sense declaracions de directius ni enllaç a un comunicat de CaixaBank o d'OpenAI. No consten ni els països on és disponible, ni la data exacta d'obertura, ni xifres d'ús. Tampoc no s'explica quines garanties dona sobre les dades dels clients, un punt clau quan es parla de diners dins d'una plataforma externa.",
+    "source": "El Nacional (OnEconomia)",
+    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/caixabank-integra-seva-aplicacio-marketplace-chatgpt_1713334_102.html",
+    "image": "./assets/caixabank-aplicacio-chatgpt-productes-financers-20261022.jpg",
+    "slug": "caixabank-aplicacio-chatgpt-productes-financers"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "21.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://alicanteplaza.es/alicanteplaza/marinabaixa/altea-da-voz-a-su-guerrero-de-la-estela-iberica-con-inteligencia-artificial-y-presenta-el-proyecto-en-italia",
     "image": "./assets/altea-guerrer-estela-iberica-avatar-ia-erasmus-20261018.jpg",
     "slug": "altea-guerrer-estela-iberica-avatar-ia-erasmus"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "18.10.2026",
-    "title": "El secretari de Telecomunicacions Albert Tort vol que la IA «aprengui en català» i no només tradueixi, amb el BSC i el projecte AINA",
-    "summary": "En una entrevista a ON-IA, el responsable digital de la Generalitat defensa l'Estratègia IA 2030 i demana més dades obertes perquè un model general respongui igual de bé en català que en anglès.",
-    "detail": "Que un assistent d'intel·ligència artificial entengui el català és una cosa; que hi funcioni igual de bé que en anglès, una altra. Aquest és el repte que Albert Tort, secretari de Telecomunicacions i Transformació Digital de la Generalitat de Catalunya, posa al centre de l'entrevista que ha publicat aquest diumenge El Nacional dins la secció ON-IA.\n\nTort explica que l'objectiu del Govern és que els models aprenguin la llengua i no només facin processos de traducció. Vol que un model d'ús general doni respostes de qualitat equivalent en català i en anglès, cosa que, diu, exigeix més dades obertes i més coneixement disponible. Hi situa la col·laboració amb el Barcelona Supercomputing Center i el projecte AINA, que qualifica de «vital» per construir recursos d'IA en català. Pel que fa a l'administració, descriu l'Estratègia IA 2030, que ha de fixar un marc comú per a l'administració i el país, impulsar-ne l'adopció i protegir la ciutadania, i diu que el web de la Generalitat ja té un camp de text amb IA on la persona explica què necessita i rep els enllaços als tràmits corresponents.\n\nL'entrevistat també distingeix dos terrenys: la IA de productivitat general, que veu com una eina de feina quotidiana, i els models experimentals de frontera, que al seu parer requereixen una governança i uns controls més estrictes.\n\nL'entrevista és una declaració d'intencions, no un balanç: no inclou xifres de pressupost, de volum de dades ni de calendari, i no es poden comprovar encara els resultats de l'estratègia. És, en tot cas, una indicació de les prioritats de l'administració en un moment en què el català competeix per ser una llengua amb presència real en els models comercials.",
-    "source": "El Nacional (ON-IA)",
-    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/albert-tort-lobjectiu-es-ia-sigui-capac-aprendre-en-catala_1708360_102.html",
-    "image": "./assets/tort-ia-catala-aprendre-estrategia-ia-2030-20261018.jpg",
-    "slug": "tort-ia-catala-aprendre-estrategia-ia-2030"
   }
 ];
