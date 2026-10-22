@@ -69,7 +69,7 @@ iacat_capcalera([
 $fitxa = static function (array $p, bool $ambAutor): string {
     $item = $p['item'];
     $html = '<li class="fitxa">';
-    $meta = [$p['tipus'] === 'estudis' ? 'Estudis' : 'La tribuna'];
+    $meta = [$p['tipus'] === 'estudis' ? 'Estudi a fons' : 'La tribuna'];
     if ($p['dataIso'] !== '') { $meta[] = iacat_data_llarga($p['dataIso']); }
     $html .= '<span class="fitxa__meta">' . iacat_e(implode(' · ', $meta)) . '</span>';
     $html .= '<h3><a href="' . iacat_e($p['url']) . '">' . iacat_e($p['titol']) . '</a></h3>';

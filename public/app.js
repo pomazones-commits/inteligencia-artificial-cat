@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026102102';
+  const VERSIO_MANUAL = '2026102201';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './estudis-arxiu.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -619,7 +619,7 @@
       const band = document.querySelector('#estudis');
       document.querySelector('#estudis-title').textContent = estudi.title;
       document.querySelector('#estudis-excerpt').textContent = estudi.excerpt || '';
-      document.querySelector('#estudis-eyebrow').textContent = estudi.read ? `Estudis · ${estudi.read.toLowerCase()}` : 'Estudis';
+      document.querySelector('#estudis-eyebrow').textContent = estudi.read ? `Estudi a fons · ${estudi.read.toLowerCase()}` : 'Estudi a fons';
       marcaSerie(estudi, document.querySelector('#estudis-eyebrow'));
       document.querySelector('#estudis-byline').textContent = [estudi.author, estudi.role].filter(Boolean).join(' · ');
       if (estudi.quote) {

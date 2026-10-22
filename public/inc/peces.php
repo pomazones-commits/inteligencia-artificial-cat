@@ -32,7 +32,7 @@ function iacat_seccions(): array
             'resum' => ['excerpt'], 'audio' => 'tribuna-', 'clau' => 'titol',
         ],
         'estudis' => [
-            'nom' => 'Estudis', 'cami' => 'estudis', 'html' => 'estudi.html', 'arxiuHtml' => 'arxiu-estudis.html',
+            'nom' => 'Estudis a fons', 'cami' => 'estudis', 'html' => 'estudi.html', 'arxiuHtml' => 'arxiu-estudis.html',
             'vigent' => ['estudis.js', 'IA_ESTUDI'], 'arxiu' => ['estudis-arxiu.js', 'IA_ESTUDIS_ARXIU'],
             'resum' => ['excerpt', 'abstract'], 'audio' => 'estudi-', 'clau' => 'titol',
         ],
