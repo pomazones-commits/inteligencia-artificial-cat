@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-22T12:18:28.811Z",
+ "actualitzat": "2026-10-22T15:41:49.644Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "92775da87359",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Meta abre la vía a ampliar capital para financiar la inversión en la IA en pleno desplome de su caja",
+   "url": "https://cincodias.elpais.com/companias/2026-10-22/meta-abre-la-via-a-ampliar-capital-para-financiar-la-inversion-en-la-ia-en-pleno-desplome-de-su-caja.html",
+   "publicat": "2026-10-22T15:25:11.000Z"
+  },
+  {
+   "id": "8acce6b9085b",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Vanguardia celebra en Barcelona el Summit de Inteligencia Artificial",
+   "url": "https://www.lavanguardia.com/vida/20261022/11665555/vanguardia-celebra-barcelona-summit-inteligencia-artificial.html",
+   "publicat": "2026-10-22T15:07:30.000Z"
+  },
+  {
+   "id": "96acfc77fe71",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Alumnes de l'IES de Llançà es manifesten: \"Aquest curs ni el ChatGPT l'arregla, volem excursions\"",
+   "url": "https://www.elperiodico.cat/societat/20261022/alumnes-lies-llanca-manifesten-aquest-135636582",
+   "publicat": "2026-10-22T14:53:20.000Z"
+  },
+  {
+   "id": "9e893b65348b",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "VINALOPÓ | La UNED de Elda supera los 500 alumnos con el estreno de los grados de Psicología e Inteligencia Artificial",
+   "url": "https://alicanteplaza.es/alicanteplaza/elda-vinalopo-mitja/la-uned-de-elda-supera-los-500-alumnos-con-el-estreno-de-los-grados-de-psicologia-e-inteligencia-artificial",
+   "publicat": "2026-10-22T14:47:05.000Z"
+  },
+  {
+   "id": "98e3e6b06b9c",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Andorra Telecom posarà a prova els visitants de la Fira per detectar imatges creades amb IA",
+   "url": "https://www.diariandorra.ad/nacional/261022/andorra-telecom-posara-prova-els-visitants-fira-per-detectar-imatges-creades-amb-ia_207088.html",
+   "publicat": "2026-10-22T14:30:16.000Z"
+  },
+  {
+   "id": "4d8206ea1c98",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "García-Margallo advierte en València del nuevo orden mundial que impondrá la inteligencia artificial: \"Estamos ante un cambio de era\"",
+   "url": "https://www.levante-emv.com/economia/2026/10/22/garcia-margallo-valencia-advierte-inteligencia-artificial-mentes-digitales-135628643.html",
+   "publicat": "2026-10-22T12:50:00.000Z"
+  },
+  {
+   "id": "eddad3aeb289",
+   "mitja": "El Punt Avui",
+   "font": "elpuntavui-societat",
+   "icona": "/assets/premsa/el-punt-avui.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Polèmic muntatge del PP amb IA: líders del PSOE reivindiquen amb orgull els seus delictes",
+   "url": "https://www.elpuntavui.cat/societat/article/5-societat/2684413-polemic-muntatge-del-pp-amb-ia-liders-del-psoe-reivindiquen-amb-orgull-els-seus-delictes.html",
+   "publicat": "2026-10-22T12:38:00.000Z"
+  },
   {
    "id": "81a058b0464b",
    "mitja": "La Vanguardia",
@@ -54,7 +131,7 @@
    "icona": "/assets/premsa/el-pais.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Millones de intentos de ataque en pocas horas tras destapar la IA fallos graves en miles de webs",
+   "titol": "Millones de ciberataques en pocas horas, tras descubrir la IA un fallo en el corazón del 70% de las webs",
    "url": "https://elpais.com/tecnologia/2026-10-22/millones-de-intentos-de-ataque-en-pocas-horas-tras-destaparse-fallos-graves-en-miles-de-webs.html",
    "publicat": "2026-10-22T11:40:42.000Z"
   },
@@ -98,7 +175,7 @@
    "icona": "/assets/premsa/diario-de-mallorca.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Jordi Giner, directivo de Telefónica: \"La IA es como la electricidad, que en su momento también transformó el mundo\"",
+   "titol": "Jordi Giné, directivo de Telefónica: \"La IA es como la electricidad, que en su momento también transformó el mundo\"",
    "url": "https://www.diariodemallorca.es/mallorca/2026/10/22/jordi-giner-directivo-telefonica-ia-135623085.html",
    "publicat": "2026-10-22T11:09:05.000Z"
   },
@@ -136,14 +213,25 @@
    "publicat": "2026-10-22T10:28:53.000Z"
   },
   {
-   "id": "b889499a765b",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
+   "id": "f8f52489f8aa",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
    "llengua": "es",
    "ambit": "catala",
    "titol": "El PP usa la IA contra Sánchez y su \"orgullo zurdo\" con un vídeo de Begoña Gómez",
-   "url": "https://www.elperiodico.com/es/politica/20261022/pp-ia-sanchez-orgullo-zurdo-135620481",
+   "url": "https://www.levante-emv.com/espana/2026/10/22/pp-ia-sanchez-orgullo-zurdo-135620606.html",
+   "publicat": "2026-10-22T10:18:47.000Z"
+  },
+  {
+   "id": "d879b81d3c07",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El PP fa servir la IA contra Sánchez i el seu «orgull esquerrà» amb un vídeo de Begoña Gómez",
+   "url": "https://www.elperiodico.cat/politica/20261022/pp-ia-sanchez-orgull-esquerra-135620481",
    "publicat": "2026-10-22T10:15:38.000Z"
   },
   {
@@ -181,7 +269,7 @@
    "ambit": "catala",
    "titol": "El PP recurre a la IA para lanzar un vídeo de socialistas admitiendo delitos",
    "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/22/2734073/recurre-para-lanzar-video-socialistas-admitiendo-delitos.html",
-   "publicat": "2026-10-22T09:23:46.000Z"
+   "publicat": "2026-10-22T09:23:00.000Z"
   },
   {
    "id": "c6f705a7aa1e",
@@ -2414,118 +2502,6 @@
    "titol": "La IA gana terreno en las finanzas: casi nueve de cada diez españoles valora que le ayude a comparar opciones",
    "url": "https://www.elperiodico.com/es/economia/20261015/inteligencia-artificial-chatgpt-gemini-claude-decisiones-financieras-nueve-cada-diez-espanoles-135369950",
    "publicat": "2026-10-15T16:00:07.000Z"
-  },
-  {
-   "id": "0b76e56ec9de",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cristian Canton: “Europa debe crear su propia soberanía tecnológica frente a la dependencia de los gigantes de la IA”",
-   "url": "https://www.lavanguardia.com/economia/innovacion/20261015/11659894/cristian-canton-europa-debe-crear-propia-soberania-tecnologica-frente-dependencia-gigantes-ia-brl.html",
-   "publicat": "2026-10-15T15:00:00.000Z"
-  },
-  {
-   "id": "fcc471e593dd",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Microsoft crea Xbox Labs para investigar el uso de la IA en el desarrollo de videojuegos",
-   "url": "https://www.informacion.es/vida-y-estilo/tecnologia/2026/10/15/microsoft-crea-xbox-labs-investigar-135378137.html",
-   "publicat": "2026-10-15T14:55:57.000Z"
-  },
-  {
-   "id": "5ebedcc8cc76",
-   "mitja": "À Punt",
-   "font": "apunt",
-   "icona": "/assets/premsa/a-punt.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "15.10.2026 | LLUM, intel·ligència artificial per estalviar en electricitat",
-   "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/15-10-2026-llum-intel-ligencia-artificial-estalviar-electricitat_135_1901997.html",
-   "publicat": "2026-10-15T14:55:00.000Z"
-  },
-  {
-   "id": "67201439d068",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Substrate AI, cotizada en BME Growth y con participación pública, se marca un objetivo de ingresos de 100 millones en 2030",
-   "url": "https://cincodias.elpais.com/companias/2026-10-15/substrate-ai-cotizada-en-bme-growth-y-con-participacion-publica-preve-elevar-su-facturacion-de-71-a-100-millones-entre-2027-y-2030.html",
-   "publicat": "2026-10-15T14:44:12.000Z"
-  },
-  {
-   "id": "c36b0596f5e5",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Apple confirma que Siri AI no serà compatible amb el HomePod mini original",
-   "url": "https://www.elnacional.cat/ca/tecnologia/apple-confirma-siri-ai-no-sera-compatible-homepod-mini-original_1710181_102.html",
-   "publicat": "2026-10-15T14:30:00.000Z"
-  },
-  {
-   "id": "f5a7db661f34",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "BSC AI Factory llança el seu primer programa d'acceleració per a 100 start-ups",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/bsc-ai-factory-llanca-primer-programa-acceleracio-100-start-ups_1710175_102.html",
-   "publicat": "2026-10-15T14:27:41.000Z",
-   "noticia": "bsc-ai-factory-acceleracio-100-startups",
-   "noticiaTitol": "El BSC AI Factory obre un programa d'acceleració de 14 setmanes per a 100 empreses emergents d'IA"
-  },
-  {
-   "id": "9a1e5108752c",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial y la conectividad redefinen el futuro de los concesionarios",
-   "url": "https://www.elperiodico.com/es/motor/20261015/inteligencia-artificial-conectividad-redefinen-futuro-concesionarios-135330931",
-   "publicat": "2026-10-15T14:21:00.000Z"
-  },
-  {
-   "id": "5616f2ba63d9",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Apple amenaza el liderazgo bursátil de Nvidia, que pierde casi un billón de dólares de valor en una semana",
-   "url": "https://cincodias.elpais.com/companias/2026-10-15/apple-amenaza-el-liderazgo-bursatil-de-nvidia-que-pierde-casi-un-billon-de-dolares-de-valor-en-una-semana.html",
-   "publicat": "2026-10-15T14:18:10.000Z"
-  },
-  {
-   "id": "e6d0ab5b229d",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "AndUp reuneix les vuit scaleups per definir reptes en vendes i intel·ligència artificial",
-   "url": "https://www.diariandorra.ad/nacional/261015/andup-reuneix-les-vuit-scaleups-per-definir-reptes-vendes-i-intel-ligencia-artificial_206564.html",
-   "publicat": "2026-10-15T13:05:06.000Z"
-  },
-  {
-   "id": "b45c8fee704e",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Escola d’Hoteleria prepara un máster para formar a los hoteleros en inteligencia artificial",
-   "url": "https://www.ultimahora.es/noticias/local/2026/10/15/2729455/escola-hoteleria-prepara-master-para-formar-hoteleros-inteligencia-artificial.html",
-   "publicat": "2026-10-15T12:20:00.000Z"
   }
  ]
 }
