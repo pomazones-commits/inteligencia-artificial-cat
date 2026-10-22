@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-21T04:12:48.771Z",
+  "generat": "2026-10-22T12:18:28.759Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -24,7 +24,7 @@
       "programa": "El matí de Catalunya Ràdio",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 0
     },
     {
       "font": "3cat",
@@ -126,7 +126,7 @@
       "font": "apunt",
       "emissora": "À Punt Ràdio",
       "programa": "",
-      "resultats": 6,
+      "resultats": 5,
       "estat": "ok",
       "audios": 0,
       "sobre_ia": 0
@@ -136,8 +136,8 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 33,
-      "sobre_ia": 0
+      "audios": 34,
+      "sobre_ia": 1
     },
     {
       "font": "wordpress",
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 20,
+      "audios": 22,
       "sobre_ia": 4
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 13,
+      "audios": 12,
       "sobre_ia": 1
     },
     {
@@ -177,5 +177,26 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "rab-21549",
+      "emissora": "RAB Ràdio",
+      "programa": "Món Digital",
+      "programa_url": "https://rab.cat/",
+      "data": "2026-10-22",
+      "durada": "",
+      "titol_original": "Estafes digitals, IA i reconeixement facial: els riscos que ja conviuen amb els usuaris",
+      "descripcio_original": "Estafes digitals per una adreça web gairebé idèntica a l’original, un anunci que simula una alerta del sistema o un programa de reconeixement facial que identifica la persona equivocada. Les estafes digitals són una amenaça real.Una lletra diferent pot portar a una web fraudulentaEl problema de confiar en allò que sembla legítimAgents d’intel·ligència artificial i …",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://rab.cat/2026/10/22/estafes-digitals-ia-reconeixement-facial/",
+      "reproductor": {
+        "tipus": "youtube",
+        "id": "7WcxqcnVMsw"
+      },
+      "etiquetes_web": [
+        "TECNOLOGIA"
+      ]
+    }
+  ]
 }
