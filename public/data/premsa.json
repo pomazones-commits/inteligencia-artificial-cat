@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-22T15:41:49.644Z",
+ "actualitzat": "2026-10-22T16:14:07.891Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "af67f46f7411",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "«Anuari de l’Educació 2026»: educació 360 i intel·ligència artificial, eixos del debat educatiu",
+   "url": "https://www.diariodemallorca.es/cronica-uib/2026/10/22/anuari-l-educacio-2026-educacio-135639536.html",
+   "publicat": "2026-10-22T16:12:57.000Z"
+  },
+  {
+   "id": "d37176142cf2",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "NTT DATA celebra 30 años en Catalunya con la inteligencia artificial como uno de sus ejes de crecimiento",
+   "url": "https://www.informacion.es/economia/2026/10/22/ntt-data-celebra-30-anos-135638947.html",
+   "publicat": "2026-10-22T15:50:03.000Z"
+  },
   {
    "id": "92775da87359",
    "mitja": "Cinco Días",
@@ -291,7 +313,9 @@
    "ambit": "catala",
    "titol": "Comarca y empresa | Alboraya impulsa un \"sistema pionero\" de vigilancia en acequias basado en inteligencia artificial",
    "url": "https://valenciaplaza.com/valenciaplaza/comarca-y-empresa/alboraya-impulsa-un-sistema-pionero-de-vigilancia-ambiental-en-acequias-basado-en-inteligencia-artificial",
-   "publicat": "2026-10-22T08:21:33.000Z"
+   "publicat": "2026-10-22T08:21:33.000Z",
+   "noticia": "alboraia-vigilancia-vessaments-sequies-ia-cameres-multiespectrals",
+   "noticiaTitol": "Alboraia vigila amb IA i càmeres multiespectrals les séquies de l'Horta per detectar abocaments abans que es propaguin"
   },
   {
    "id": "37c098c886c6",
@@ -2491,17 +2515,6 @@
    "titol": "Ensenyat defensa a Roma una IA que no deixi ningú enrere",
    "url": "https://www.diariandorra.ad/nacional/261015/ensenyat-defensa-roma-ia-deixi-ningu-enrere_206573.html",
    "publicat": "2026-10-15T16:17:08.000Z"
-  },
-  {
-   "id": "eaf59f6d8752",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA gana terreno en las finanzas: casi nueve de cada diez españoles valora que le ayude a comparar opciones",
-   "url": "https://www.elperiodico.com/es/economia/20261015/inteligencia-artificial-chatgpt-gemini-claude-decisiones-financieras-nueve-cada-diez-espanoles-135369950",
-   "publicat": "2026-10-15T16:00:07.000Z"
   }
  ]
 }
