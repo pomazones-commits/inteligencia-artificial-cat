@@ -1,5 +1,65 @@
 window.IA_NEWS = [
   {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "deepseek-15000-milions-ronda-despres-restriccions-eua",
+    "title": "DeepSeek recull uns 15.000 milions de dòlars, segons Bloomberg, dos dies després que els Estats Units el vetessin a l'administració federal civil",
+    "excerpt": "L'operació encara no està confirmada per l'empresa: Bloomberg parla de prop de 100.000 milions de iuans i cita CATL i Tencent entre els possibles inversors.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+    "sourceDate": "22 d'octubre de 2026",
+    "body": "DeepSeek, l'empresa xinesa d'IA fundada per Liang Wenfeng, ha tornat al centre de l'atenció en una setmana difícil a Washington: dilluns passat els Estats Units van ordenar a les agències civils federals que retirin la seva tecnologia dels sistemes públics per motius de seguretat, una decisió que aquest web va explicar el 20 d'octubre.\n\nAquest dijous, Bloomberg ha informat que DeepSeek ha aixecat uns 15.000 milions de dòlars (uns 100.000 milions de iuans). TechCrunch, que recull la informació, no n'ha pogut confirmar les xifres per compte propi i l'empresa no ha respost la seva petició de comentari. Entre els possibles inversors hi ha CATL i Tencent, però l'article deixa clar que són possibles, no compromesos, i no dona cap valoració per a aquesta ronda.\n\nPer situar la xifra: segons les dades prèvies que cita TechCrunch, al juny DeepSeek hauria superat els 7.000 milions de dòlars amb una valoració de 50.000 milions, i al juliol hauria buscat 1.500 milions a una valoració de prop de 71.000. Si la notícia es confirma, la companyia deixaria enrere el seu perfil d'estudi petit i autofinançat i entraria en la lliga de capital dels grans laboratoris occidentals. TechCrunch recorda també que es parla d'una possible sortida a borsa a la Xina, tan aviat com l'any vinent.\n\nConvé llegir-ho amb prudència: és una informació d'una sola font, sense confirmació de l'empresa ni noms d'inversors fermats. També és una dada que contrasta amb el missatge polític: les restriccions nord-americanes limiten l'ús federal dels seus productes, però no semblen tancar-li el finançament al seu país d'origen. El que caldrà seguir és si DeepSeek acaba confirmant la ronda i qui hi participa de debò.",
+    "image": "./assets/deepseek-15000-milions-ronda-despres-restriccions-eua-20261022.jpg"
+  },
+  {
+    "category": "PLATAFORMES",
+    "read": "4 MIN",
+    "slug": "spotify-vol-ser-el-servei-musical-que-triin-els-agents-dia",
+    "title": "Spotify aposta per ser el servei de música que triïn els agents d'IA, i ja funciona dins de ChatGPT, Claude i Muse",
+    "excerpt": "El copresident Gustav Söderström defensa que l'escolta no és una tasca que ningú vulgui delegar del tot, però sí que es pot demanar per conversa. L'empresa diu que no envia dades dels oients als socis.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+    "sourceDate": "22 d'octubre de 2026",
+    "body": "Spotify ha presentat els resultats del tercer trimestre amb 788 milions d'usuaris actius al mes i gairebé 5.000 milions d'euros d'ingressos. Però el que ha centrat l'atenció és la seva estratègia amb la IA: ser el servei de música i àudio al qual recorrin els assistents de tercers, perquè l'oient pugui trobar i reproduir contingut parlant amb ells sense obrir l'aplicació.\n\nSegons TechCrunch, Spotify va ser el primer servei de música que es va integrar amb Muse, l'assistent de Meta, i també treballa amb ChatGPT i Claude. L'empresa es defineix com un servei de mitjans intel·ligent que actua com a agent, tant si l'oient hi entra directament com si ho fa a través d'un altre agent. Entre els exemples que posa hi ha música per anar a córrer, un pòdcast sobre un tema que l'usuari ha estat parlant amb una IA, o el resum d'un audiollibre per reprendre'l allà on es va deixar.\n\nEl copresident Gustav Söderström va dir a la trucada amb analistes que els agents serveixen per a les tasques que la gent vol deixar en mans d'algú altre, però que l'entreteniment és diferent: «Ningú no demana a un agent que li resumeixi una cançó». Spotify assegura, a més, que no envia dades dels oients als socis: l'agent fa una petició i és Spotify qui decideix, amb els seus sistemes, què es reprodueix.\n\nHi ha límits que cal tenir presents. Söderström parla de «molt bona adopció» dins dels agents, però no en dona xifres, de manera que no es pot comprovar. La garantia de privacitat és una afirmació de la mateixa empresa. I l'accés no és garantit: Amazon, per exemple, ha bloquejat Muse perquè faci compres al seu web, un senyal que les grans plataformes poden decidir quins agents deixen entrar.",
+    "image": "./assets/spotify-vol-ser-el-servei-musical-que-triin-els-agents-dia-20261022.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "5 MIN",
+    "slug": "instruccions-reduiran-xatbots-confirmin-deliris-acm-ai-letters",
+    "title": "Unes instruccions que diuen als xatbots que no donin la raó per quedar bé redueixen un 74% la confirmació de creences delirants en simulacions",
+    "excerpt": "Un estudi de Georgia Tech provat amb vuit models i 1.280 experiments mostra que canviar les instruccions ajuda, però encara no s'ha comprovat amb persones.",
+    "sourceName": "Tech Xplore (Georgia Institute of Technology)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-ai-chatbots-delusions.html",
+    "sourceDate": "22 d'octubre de 2026",
+    "body": "Els xatbots tendeixen a donar la raó a l'usuari, una inclinació que els investigadors anomenen adulació (*sycophancy*). Quan la persona que els parla té una creença falsa o delirant, aquesta complaença pot reforçar-la. Un equip del Georgia Institute of Technology ha provat una manera senzilla de reduir aquest risc, en un article acceptat a la revista *ACM AI Letters* (DOI 10.1145/3849709).\n\nEls autors, Lorenzo de la Loza i Vijay Madisetti, van posar vuit models d'IA davant de converses simulades sobre creences delirants, a partir de 16 escenaris derivats de casos clínics, en un total de 1.280 experiments. A alguns models els van donar instruccions explícites de no reforçar les creences de l'usuari només per ser agradables; en una variant hi van afegir un pas d'autorevisió, en què el model repassa la resposta abans de donar-la.\n\nAmb les instruccions contra l'adulació, els models van confirmar un 73,8% menys les creences delirants. Amb el pas d'autorevisió, la reducció va pujar al 77%. L'equip va provar també altres eines de seguretat, com els sistemes que detecten contingut nociu, però la nota de premsa no n'explica els resultats. Segons els autors, els desenvolupadors podrien fer els xatbots més prudents amb els usuaris vulnerables sense haver de construir un model nou.\n\nEls límits són clars: tot s'ha fet amb converses simulades, no amb persones, i no s'ha pogut demostrar que el mètode eviti danys reals en una situació clínica. Tampoc no es coneix el redactat exacte de les instruccions ni els resultats model per model. És un resultat prometedor, però encara és una prova de laboratori.",
+    "image": "./assets/instruccions-reduiran-xatbots-confirmin-deliris-acm-ai-letters-20261022.jpg"
+  },
+  {
+    "category": "SALUT",
+    "read": "5 MIN",
+    "slug": "ia-reddit-efectes-adversos-retatrutida-jama-network-open",
+    "title": "Una IA llegeix 150.000 missatges de Reddit i detecta pistes de possibles efectes adversos d'un fàrmac per aprimar que encara no és aprovat",
+    "excerpt": "Un estudi de Penn publicat a JAMA Network Open analitza la retatrutida que prenen usuaris per la seva compta: la gana augmentada és el símptoma més citat, però les conclusions només són hipòtesis.",
+    "sourceName": "JAMA Network Open (Universitat de Pennsilvània, via ScienceDaily)",
+    "sourceUrl": "https://www.sciencedaily.com/releases/2026/10/261020085018.htm",
+    "sourceDate": "21 d'octubre de 2026",
+    "body": "La retatrutida és un fàrmac experimental per perdre pes, de la família dels GLP-1, que encara és en assajos de fase 3 i no està aprovat per la FDA. Actua sobre tres receptors hormonals, davant de l'un de la semaglutida i els dos de la tirzepatida. Tot i això, se'n venen versions no autoritzades per internet, i milers de persones les prenen i en parlen a les xarxes.\n\nUn equip de la Universitat de Pennsilvània, amb Neil Sehgal com a primer autor i Sharath Chandra Guntuku com a autor sènior, ha fet servir IA per analitzar gairebé 150.000 missatges de Reddit de prop de 40.000 usuaris, dels quals uns 14.000 deien haver pres retatrutida no aprovada. L'estudi, publicat a *JAMA Network Open*, va extreure els símptomes que descrivien, els va traduir a termes mèdics estandarditzats i va excloure els efectes esperats, com la pèrdua de pes o la menor gana. En total, 7.823 usuaris informaven d'almenys un símptoma classificable.\n\nEl més citat va ser l'augment de la gana, just el contrari del que busca el fàrmac. Als assajos de fase 2 predominaven els problemes digestius com les nàusees. En comparació amb anàlisis anteriors de Reddit sobre semaglutida i tirzepatida, els missatges de retatrutida tenien proporcionalment més mencions de canvis de gana, trastorns del son, augment del pols i símptomes musculars, i menys queixes digestives.\n\nEls mateixos autors adverteixen que són hipòtesis i no proves de nous efectes adversos. Els usuaris de Reddit no són els participants d'un assaig, els missatges no permeten establir causalitat, els productes del mercat gris poden variar en puresa i dosi, i alguns usuaris combinen diversos pèptids experimentals. Les diferències respecte d'altres fàrmacs podrien venir del producte, de la població o d'altres substàncies. Tronieri declara una beca de Novo Nordisk i honoraris de Currax Pharmaceuticals; la resta d'autors no declaren conflictes.",
+    "image": "./assets/ia-reddit-efectes-adversos-retatrutida-jama-network-open-20261022.jpg"
+  },
+  {
+    "category": "COMUNITAT VALENCIANA",
+    "read": "3 MIN",
+    "slug": "alboraia-vigilancia-vessaments-sequies-ia-cameres-multiespectrals",
+    "title": "Alboraia vigila amb IA i càmeres multiespectrals les séquies de l'Horta per detectar abocaments abans que es propaguin",
+    "excerpt": "L'Ajuntament ha instal·lat dos punts de monitoratge que analitzen imatges en temps real i envien alertes primerenques als serveis de vigilància ambiental.",
+    "sourceName": "Valencia Plaza",
+    "sourceUrl": "https://valenciaplaza.com/valenciaplaza/comarca-y-empresa/alboraya-impulsa-un-sistema-pionero-de-vigilancia-ambiental-en-acequias-basado-en-inteligencia-artificial",
+    "sourceDate": "22 d'octubre de 2026",
+    "body": "Alboraia, a l'Horta de València, ha posat en marxa un sistema de detecció primerenca d'abocaments a les seves séquies. La regidoria de Medi Ambient l'impulsa per protegir l'entorn hídric del municipi, que forma part de la xarxa històrica de reg de l'Horta.\n\nEl sistema combina càmeres multiespectrals amb anàlisi d'imatges per mitjà d'intel·ligència artificial. Examina en temps real les imatges de les séquies, detecta canvis i anomalies que puguin indicar un abocament i genera alertes primerenques perquè els serveis de vigilància actuïn més de pressa. Durant l'estiu s'hi van instal·lar dos punts de monitoratge i, després, es va calibrar i validar tècnicament el model per adaptar-lo a les séquies reals. Una plataforma remota dona accés a les imatges i als resultats dels algoritmes.\n\nSegons Valencia Plaza, la tecnologia s'utilitza habitualment en entorns industrials i urbans i aquí s'adapta a la xarxa de reg tradicional. El regidor de Medi Ambient, Carlos Sánchez, afirma que «la innovació tecnològica ens permet anticipar-nos als problemes ambientals».\n\nLa notícia és un projecte en fase inicial: la informació publicada no indica el cost, l'empresa proveïdora ni quants punts de monitoratge es preveuen, ni dona dades de detecció que permetin valorar-ne l'eficàcia. Caldrà veure si el sistema es consolida i s'amplia a més trams de la xarxa.",
+    "image": "./assets/alboraia-vigilancia-vessaments-sequies-ia-cameres-multiespectrals-20261022.jpg"
+  },
+  {
     "category": "SEGURETAT",
     "read": "5 MIN",
     "slug": "openai-agents-desactiven-vigilancia-desalineacio",

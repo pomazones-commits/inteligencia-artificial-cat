@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "València",
+    "category": "IA I SOCIETAT",
+    "date": "22.10.2026",
+    "title": "Alboraia vigila amb IA i càmeres multiespectrals les séquies de l'Horta per detectar abocaments abans que es propaguin",
+    "summary": "L'Ajuntament ha instal·lat dos punts de monitoratge que analitzen imatges en temps real i envien alertes primerenques als serveis de vigilància ambiental.",
+    "detail": "Alboraia, a l'Horta de València, ha posat en marxa un sistema de detecció primerenca d'abocaments a les seves séquies. La regidoria de Medi Ambient l'impulsa per protegir l'entorn hídric del municipi, que forma part de la xarxa històrica de reg de l'Horta.\n\nEl sistema combina càmeres multiespectrals amb anàlisi d'imatges per mitjà d'intel·ligència artificial. Examina en temps real les imatges de les séquies, detecta canvis i anomalies que puguin indicar un abocament i genera alertes primerenques perquè els serveis de vigilància actuïn més de pressa. Durant l'estiu s'hi van instal·lar dos punts de monitoratge i, després, es va calibrar i validar tècnicament el model per adaptar-lo a les séquies reals. Una plataforma remota dona accés a les imatges i als resultats dels algoritmes.\n\nSegons Valencia Plaza, la tecnologia s'utilitza habitualment en entorns industrials i urbans i aquí s'adapta a la xarxa de reg tradicional. El regidor de Medi Ambient, Carlos Sánchez, afirma que «la innovació tecnològica ens permet anticipar-nos als problemes ambientals».\n\nLa notícia és un projecte en fase inicial: la informació publicada no indica el cost, l'empresa proveïdora ni quants punts de monitoratge es preveuen, ni dona dades de detecció que permetin valorar-ne l'eficàcia. Caldrà veure si el sistema es consolida i s'amplia a més trams de la xarxa.",
+    "source": "Valencia Plaza",
+    "url": "https://valenciaplaza.com/valenciaplaza/comarca-y-empresa/alboraya-impulsa-un-sistema-pionero-de-vigilancia-ambiental-en-acequias-basado-en-inteligencia-artificial",
+    "image": "./assets/alboraia-vigilancia-vessaments-sequies-ia-cameres-multiespectrals-20261022.jpg",
+    "slug": "alboraia-vigilancia-vessaments-sequies-ia-cameres-multiespectrals"
+  },
+  {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "22.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://eurecat.org/supervisio-humana-ia-seguretat-sobirania-tecnologica-i-sostenibilitat-claus-ai-congress/",
     "image": "./assets/ai-congress-barcelona-2026-dotzena-edicio-20261019.jpg",
     "slug": "ai-congress-barcelona-2026-dotzena-edicio"
-  },
-  {
-    "place": "Comunitat Valenciana",
-    "category": "IA I SOCIETAT",
-    "date": "18.10.2026",
-    "title": "Altea fa parlar amb IA el seu guerrer ibèric d'Altea la Vella i en presenta el projecte europeu a Molfetta",
-    "summary": "Un projecte Erasmus+ de divuit mesos ha convertit el Guerrer de l'Estela Ibèrica, a la Marina Baixa, en un personatge virtual que pot conversar amb els visitants. L'Ajuntament d'Altea en va presentar els resultats a Itàlia el 6 i 7 d'octubre.",
-    "detail": "A la Comunitat Valenciana, el patrimoni arqueològic comença a rebre ajuda de la intel·ligència artificial. L'Ajuntament d'Altea, a la Marina Baixa, ha participat en el projecte europeu «Living History: AI-powered Cultural Heritage», una associació de col·laboració a petita escala del programa Erasmus+ que ha durat divuit mesos. El coordina InCo Molfetta, d'Itàlia, i hi participen també l'oficina de projectes europeus de l'Ajuntament, EuroAltea; el grup educatiu grec E-School; l'IES Bellaguarda, d'Altea, i l'associació italiana Auserodv.\n\nEl resultat més visible a Altea és que el Guerrer de l'Estela Ibèrica d'Altea la Vella s'ha convertit en un personatge virtual capaç de conversar amb els visitants. L'objectiu és apropar la història local a públics de totes les edats. La font no explica quina tecnologia hi ha al darrere, quants avatars s'han fet ni quin ha estat el pressupost.\n\nEls resultats es van presentar el 6 i 7 d'octubre al Museu Diocesà de Molfetta. El primer dia, l'historiador Jaume Martínez García va exposar l'experiència d'Altea i la importància de l'estela; el segon, les sessions es van centrar en la innovació turística, amb rutes basades en els records de la gent gran de Molfetta i aplicacions de l'oficina d'informació local. Hi van participar estudiants de turisme de l'IES Bellaguarda, amb la professora Cristina Alemany, i alumnes de la Universitat de l'Experiència. Auserodv va organitzar una activitat d'inclusió digital entre persones grans i joves.\n\nAra l'Ajuntament vol portar el que ha après a les àrees de cultura, patrimoni, joventut i transformació digital, així com a les escoles, segons Paloma Verdú, tècnica de projectes europeus i responsable d'EuroAltea. El regidor de Projectes Europeus, Noves Tecnologies i Joventut, Germán Manjón, defensa que els projectes europeus són eines de política pública. El projecte es presentarà al públic al desembre a la Sala del Guerrer de la Casa de Cultura d'Altea; no s'ha concretat el dia.",
-    "source": "Alicante Plaza",
-    "url": "https://alicanteplaza.es/alicanteplaza/marinabaixa/altea-da-voz-a-su-guerrero-de-la-estela-iberica-con-inteligencia-artificial-y-presenta-el-proyecto-en-italia",
-    "image": "./assets/altea-guerrer-estela-iberica-avatar-ia-erasmus-20261018.jpg",
-    "slug": "altea-guerrer-estela-iberica-avatar-ia-erasmus"
   }
 ];
