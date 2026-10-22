@@ -1,8 +1,151 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-22T09:41:21.262Z",
+ "actualitzat": "2026-10-22T12:18:28.811Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "81a058b0464b",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Felipe González augura una crisis de empresas de IA que va a provocar un “batacazo” en los mercados",
+   "url": "https://www.lavanguardia.com/politica/20261022/11665523/felipe-gonzalez-augura-crisis-empresas-ia-provocar-batacazo-mercados.html",
+   "publicat": "2026-10-22T12:11:42.000Z"
+  },
+  {
+   "id": "736725d1119c",
+   "mitja": "Ara Balears",
+   "font": "arabalears",
+   "icona": "/assets/premsa/ara-balears.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Una xarxa 5G que es desplega en minuts i IA per detectar problemes: les novetats de Telefònica",
+   "url": "https://www.arabalears.cat/economia/xarxa-5g-desplega-minuts-ia-detectar-problemes-novetats-telefonica_1_5886981.html",
+   "publicat": "2026-10-22T11:56:15.000Z"
+  },
+  {
+   "id": "3b5a1f88a5d5",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La alianza del IES Joan Alcover de Palma con la IA: un caso de éxito para usarla en las aulas",
+   "url": "https://www.ultimahora.es/noticias/local/2026/10/22/2734215/alianza-del-ies-joan-alcover-palma-caso-exito-para-usarla-aulas.html",
+   "publicat": "2026-10-22T11:46:59.000Z"
+  },
+  {
+   "id": "85c9baf85bcc",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "[VÍDEO] El PP suplanta Begoña Gómez, Ábalos i Zapatero amb IA: “Anar de putes? Sóc d’esquerres”",
+   "url": "https://www.vilaweb.cat/noticies/video-pp-suplanta-begona-gomez-abalos-zapatero-putes",
+   "publicat": "2026-10-22T11:43:36.000Z"
+  },
+  {
+   "id": "54de74ac1e7b",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Millones de intentos de ataque en pocas horas tras destapar la IA fallos graves en miles de webs",
+   "url": "https://elpais.com/tecnologia/2026-10-22/millones-de-intentos-de-ataque-en-pocas-horas-tras-destaparse-fallos-graves-en-miles-de-webs.html",
+   "publicat": "2026-10-22T11:40:42.000Z"
+  },
+  {
+   "id": "2a1511df97a2",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las buenas prácticas con IA en los centros educativos fracasan sin control familiar en el hogar, según docentes",
+   "url": "https://www.ultimahora.es/noticias/local/2026/10/22/2734193/buenas-practicas-los-centros-educativos-fracasan-control-familiar-hogar-segun-docentes.html",
+   "publicat": "2026-10-22T11:38:00.000Z"
+  },
+  {
+   "id": "a148749f5337",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El PSOE estudia emprender acciones legales contra el PP por la suplantación de la identidad de Begoña Gómez en un vídeo generado por IA",
+   "url": "https://www.elperiodico.com/es/politica/20261022/psoe-estudia-acciones-legales-pp-135626137",
+   "publicat": "2026-10-22T11:37:42.000Z"
+  },
+  {
+   "id": "ec0f831ea90d",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "\"Si anar de putes és d'esquerrans, soc esquerrà\": el PP ataca el PSOE amb un vídeo fet amb IA",
+   "url": "https://www.ara.cat/politica/eleccions-generals/pp-contraataca-publica-videos-falsos-dirigents-psoe-admetent-delictes_25_5887021.html",
+   "publicat": "2026-10-22T11:25:52.000Z"
+  },
+  {
+   "id": "6e91e259a4eb",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Jordi Giner, directivo de Telefónica: \"La IA es como la electricidad, que en su momento también transformó el mundo\"",
+   "url": "https://www.diariodemallorca.es/mallorca/2026/10/22/jordi-giner-directivo-telefonica-ia-135623085.html",
+   "publicat": "2026-10-22T11:09:05.000Z"
+  },
+  {
+   "id": "b9417cceb733",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Gavino Balata reivindica el potencial de la intel·ligència artificial per preservar el català alguerès",
+   "url": "https://www.diariandorra.ad/nacional/261022/gavino-balata-reivindica-potencial-intel-ligencia-artificial-per-preservar-catala-algueres_207079.html",
+   "publicat": "2026-10-22T11:02:22.000Z"
+  },
+  {
+   "id": "111d105020df",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Barclays recortará 5.000 empleos, el 5% de su fuerza laboral, para reducir costes por la IA",
+   "url": "https://cincodias.elpais.com/companias/2026-10-22/barclays-recortara-5000-empleos-el-5-de-su-fuerza-laboral-para-reducir-costes-por-la-ia.html",
+   "publicat": "2026-10-22T10:29:14.000Z"
+  },
+  {
+   "id": "365c1f09a9e8",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los chips, la IA y la computación ganan a la salud como área principal de creación de 'spin offs' tecnológicas en España en 2025",
+   "url": "https://www.elperiodico.com/es/economia/20261022/chips-ia-computacion-ganan-salud-creacion-spin-off-deep-tech-espana-2025-135620099",
+   "publicat": "2026-10-22T10:28:53.000Z"
+  },
+  {
+   "id": "b889499a765b",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El PP usa la IA contra Sánchez y su \"orgullo zurdo\" con un vídeo de Begoña Gómez",
+   "url": "https://www.elperiodico.com/es/politica/20261022/pp-ia-sanchez-orgullo-zurdo-135620481",
+   "publicat": "2026-10-22T10:15:38.000Z"
+  },
   {
    "id": "71fca081f386",
    "mitja": "elDiario.es",
@@ -12,7 +155,9 @@
    "ambit": "estatal",
    "titol": "Barclays recortará 5.000 puestos de trabajo, el 5% de la plantilla, tras introducir la IA y disparar sus beneficios",
    "url": "https://www.eldiario.es/economia/barclays-recortara-5-000-puestos-trabajo-5-plantilla-introducir-ia_1_13605681.html",
-   "publicat": "2026-10-22T09:31:46.000Z"
+   "publicat": "2026-10-22T09:31:46.000Z",
+   "noticia": "barclays-retallara-5000-llocs-feina-ia-tecnologia",
+   "noticiaTitol": "Barclays retallarà 5.000 llocs de feina, el 5% de la plantilla, i el seu conseller delegat ho atribueix a anys d'inversió en tecnologia, també en IA"
   },
   {
    "id": "2d76ce63070a",
@@ -23,7 +168,9 @@
    "ambit": "catala",
    "titol": "CaixaBank integra la seva aplicació al 'marketplace' de ChatGPT",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/caixabank-integra-seva-aplicacio-marketplace-chatgpt_1713334_102.html",
-   "publicat": "2026-10-22T09:30:33.000Z"
+   "publicat": "2026-10-22T09:30:33.000Z",
+   "noticia": "caixabank-aplicacio-chatgpt-productes-financers",
+   "noticiaTitol": "CaixaBank posa la seva aplicació dins de ChatGPT perquè els clients puguin consultar productes financers i comparar-los"
   },
   {
    "id": "d3b1ce477e08",
@@ -2379,96 +2526,6 @@
    "titol": "La Escola d’Hoteleria prepara un máster para formar a los hoteleros en inteligencia artificial",
    "url": "https://www.ultimahora.es/noticias/local/2026/10/15/2729455/escola-hoteleria-prepara-master-para-formar-hoteleros-inteligencia-artificial.html",
    "publicat": "2026-10-15T12:20:00.000Z"
-  },
-  {
-   "id": "5b129bcc64a3",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El mercado del ‘smartphone’ sufre una caída histórica por el aumento del precio de los chips de memoria ante la demanda de la IA",
-   "url": "https://cincodias.elpais.com/companias/2026-10-15/el-mercado-del-smartphone-sufre-una-caida-historica-por-el-aumento-del-precio-de-los-chips-de-memoria-ante-la-demanda-de-la-ia.html",
-   "publicat": "2026-10-15T11:57:42.000Z"
-  },
-  {
-   "id": "f7595e080537",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial ha detectado este verano 1.036 columnas de humo en Collserola y ha confirmado 150 fuegos",
-   "url": "https://www.lavanguardia.com/elllobregat/sociedad/20261015/11659732/inteligencia-artificial-detectado-verano-1-036-columnas-humo-collserola-confirmado-150-fuegos.html",
-   "publicat": "2026-10-15T11:54:06.000Z"
-  },
-  {
-   "id": "85267202786c",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Banco de España arranca la transformación de la sede de Barcelona en un centro de IA",
-   "url": "https://www.lavanguardia.com/economia/20261015/11659679/banco-espana-arranca-transformacion-sede-barcelona-centro-ia.html",
-   "publicat": "2026-10-15T11:15:12.000Z"
-  },
-  {
-   "id": "fa59a7b32329",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Check Point descubre dos vulnerabilidades de alto riesgo en LiteLLM, una herramienta que conecta 'apps' con la IA",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/15/2729399/check-point-descubre-dos-vulnerabilidades-alto-riesgo-litellm-herramienta-conecta-apps-ia.html",
-   "publicat": "2026-10-15T10:51:55.000Z"
-  },
-  {
-   "id": "3aadf8b08c84",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Unizar lidera un proyecto pionero que usará IA para anticipar el comportamiento humano antes las epidemias",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/15/2729341/unizar-lidera-proyecto-pionero-usara-para-anticipar-comportamiento-humano-antes-epidemias.html",
-   "publicat": "2026-10-15T10:04:49.000Z"
-  },
-  {
-   "id": "6ae63ee460d2",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Demis Hassabis, cofundador de Google DeepMind, alerta sobre los recientes ataques con agentes de IA: “Son disparos de advertencia”",
-   "url": "https://www.lavanguardia.com/neo/ia/20261015/11659604/demis-hassabis-cofundador-google-deepmind-alerta-sobre-recientes-ataques-agentes-ia-son-disparos-advertencia.html",
-   "publicat": "2026-10-15T10:01:59.000Z"
-  },
-  {
-   "id": "696fd45a9ae6",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Banco Sabadell y T-Systems sellan un acuerdo para la adopción de IA agéntica a escala y con soberanía tecnológica",
-   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/10/15/2729545/banco-sabadell-systems-sellan-acuerdo-para-adopcion-agentica-escala-soberania-tecnologica.html",
-   "publicat": "2026-10-15T09:49:00.000Z",
-   "noticia": "banc-sabadell-t-systems-plataforma-agents-ia-sobirania",
-   "noticiaTitol": "Banc Sabadell farà servir la plataforma d'agents d'IA de T-Systems i diu que així no dependrà d'un sol proveïdor de models"
-  },
-  {
-   "id": "2b3c1c0c9e1a",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Altea convierte a su Guerrero íbero en un avatar con inteligencia artificial y presenta el proyecto en Italia",
-   "url": "https://www.informacion.es/benidorm/2026/10/15/altea-convierte-guerrero-ibero-avatar-135361808.html",
-   "publicat": "2026-10-15T09:48:03.000Z"
   }
  ]
 }
