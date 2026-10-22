@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-22T20:19:54.031Z",
+ "actualitzat": "2026-10-22T23:40:13.377Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e6dc2a0d387f",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Europa estudia els límits d’un futur amb nadons a la carta i ADN dissenyat per IA",
+   "url": "https://www.elperiodico.cat/societat/20261023/europa-estudia-els-limits-d-135652382",
+   "publicat": "2026-10-22T22:33:36.000Z"
+  },
+  {
+   "id": "9938a1e23b4b",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una startup vinculada a Mallorca gana un contrato en Alemania para evaluar empresas con inteligencia artificial",
+   "url": "https://www.ultimahora.es/noticias/local/2026/10/22/2734675/startup-vinculada-mallorca-gana-contrato-alemania-para-evaluar-empresas-inteligencia-artificial.html",
+   "publicat": "2026-10-22T20:36:40.000Z"
+  },
+  {
+   "id": "eea0109fb657",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Nasdaq se desploma un 3% ante las dudas sobre la rentabilidad de la inteligencia artificial, en su peor sesión desde junio",
+   "url": "https://www.informacion.es/economia/2026/10/22/nasdaq-desploma-3-dudas-rentabilidad-135652297.html",
+   "publicat": "2026-10-22T20:32:37.000Z"
+  },
   {
    "id": "bd34114d35ae",
    "mitja": "elDiario.es",
@@ -413,6 +446,17 @@
    "titol": "El PP suplanta amb IA la identitat de gent del PSOE perquè admeti delictes: \"Sí, soc 'zurdo'\"",
    "url": "https://www.elnacional.cat/ca/politica/pp-suplanta-ia-identitat-gent-psoe-perque-admeti-delictes-si-soc-zurdo_1713319_102.html",
    "publicat": "2026-10-22T09:18:03.000Z"
+  },
+  {
+   "id": "ad582d4bdda0",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alboraya vigilará los vertidos en las acequias con inteligencia artificial",
+   "url": "https://www.lasprovincias.es/horta/alboraya-vigilara-vertidos-acequias-inteligencia-artificial-20261022102141-nt.html",
+   "publicat": "2026-10-22T08:21:41.000Z"
   },
   {
    "id": "70b23e415287",
@@ -2502,17 +2546,6 @@
    "titol": "Europa declara la guerra a la creación de imágenes sexuales con IA sin consentimiento",
    "url": "https://www.lasprovincias.es/tecnologia/europa-declara-guerra-creacion-imagenes-sexuales-ia-20261016014334-nt.html",
    "publicat": "2026-10-15T23:43:34.000Z"
-  },
-  {
-   "id": "a15f239a6338",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Isabel Allende: “Una vez probé la IA y fue horrible; te sale con unas cursiladas que no te imaginas”",
-   "url": "https://www.lavanguardia.com/magazine/protagonistas/20261015/11659962/isabel-allende-vez-probe-ia-horrible-te-sale-cursiladas-te-imaginas.html",
-   "publicat": "2026-10-15T20:55:32.000Z"
   }
  ]
 }
