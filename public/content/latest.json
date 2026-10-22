@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-21T17:19:32.139Z",
+  "updatedAt": "2026-10-22T04:16:12.164Z",
   "items": [
     {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Els xats d'IA donen consells insegurs o incomplets a les víctimes d'abús amb tecnologia: el 86% de les respostes no passa l'avaluació",
-      "excerpt": "Un estudi de la Universitat de Nova York, presentat al congrés USENIX Security, va posar a prova quatre sistemes amb 193 preguntes reals i va trobar que el 60% de les respostes ometien advertiments de seguretat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un xat d'IA permet als químics guiar un laboratori automatitzat i redueix de 30 a menys de 10 els experiments per trobar la millor reacció, en proves virtuals",
-      "excerpt": "Investigadors coreans combinen un model de llenguatge amb optimització bayesiana perquè els consells dels experts s'incorporin al càlcul, però encara no ho han provat en un laboratori real."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Nvidia presenta a Berlín els ordinadors Vera Rubin a Google Cloud i eines per controlar els agents d'IA de les empreses",
-      "excerpt": "Al GTC Berlín, la companyia anuncia que els servidors A5X de Google ja estan disponibles, amb previsió d'arribar a 960.000 GPU Rubin, i una arquitectura per fer córrer models amb dades confidencials."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Pau Garcia-Milà crea amb Claude «Quina colla!», un joc gratuït per descobrir els castells",
-      "excerpt": "L'emprenedor català diu que va demanar a l'IA un joc abans d'anar a dormir i que a l'endemà el va trobar fet; el pots provar al navegador, sense registre."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "El 58% dels directius espera supervisar més agents d'IA que persones d'aquí a un any, segons una enquesta de Monday.com",
-      "excerpt": "L'estudi, encarregat per l'empresa i fet per Nielsen entre 1.700 directius de set països, apunta que la IA fa més difícil jutjar la feina dels empleats i que el 35% té por d'haver de respondre de decisions que ha pres una màquina."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un sistema d'IA de la UPV i la Universitat de València ajuda a distingir el sarcoma d'Ewing d'altres tumors amb un 91,6% d'encert",
-      "excerpt": "L'eina analitza imatges de teixit de 729 pacients de quatre hospitals d'Espanya i Itàlia i vol orientar els patòlegs quan la biòpsia és escassa; el treball s'ha publicat a una revista revisada per parells."
-    },
-    {
-      "category": "CIÈNCIA",
+      "category": "CIBERSEGURETAT",
       "read": "5 MIN",
-      "title": "Entrenar models de llenguatge amb piulades virals i curtes els fa saltar-se passos de raonament, segons un estudi presentat al congrés COLM",
-      "excerpt": "Investigadors de Texas A&M van entrenar quatre models amb un milió de publicacions de Twitter del 2010 i en van mesurar l'efecte: pitjor raonament, menys fre ètic i una recuperació incompleta."
+      "title": "Descobertes amb IA, dues falles crítiques de PHP permeten prendre el control de servidors sense contrasenya",
+      "excerpt": "Wiz i l'empresa Calif, amb models de Google i OpenAI, han trobat dos errors presents en gairebé totes les versions de PHP. El pegat és disponible des d'ahir i l'NSA recomana aplicar-lo o desconnectar el servidor."
     },
     {
-      "category": "SALUT",
+      "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Gairebé un milió de clínics dels Estats Units han fet 271 milions de consultes a OpenEvidence, sobretot sobre tractaments, segons un estudi a «JAMA»",
-      "excerpt": "L'anàlisi de Mass General Brigham descriu qui fa servir l'assistent clínic d'IA més estès del país, per a què i en quines especialitats; entre els autors hi ha un directiu de la mateixa plataforma."
+      "title": "OpenAI porta els seus models a Google Cloud, que ja ofereix també Gemini i Claude",
+      "excerpt": "Els clients de Google Cloud podran comprar els models de frontera i els fluxos de treball de Codex d'OpenAI al Model Garden. L'accés des d'Antigravity i de l'agent Gemini arribarà «aviat»."
     },
     {
       "category": "TECNOLOGIA",
       "read": "3 MIN",
-      "title": "Apple compra els actius de Samplab, una empresa suïssa d'IA que edita les notes d'una cançó ja gravada",
-      "excerpt": "La Comissió Europea ha fet públic l'acord, tancat el juny; la companyia va tancar al setembre i Apple no n'ha dit res ni el preu."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Eric Schmidt tindria aproximadament l'1% d'Anthropic, la meitat que Dario Amodei, segons Bloomberg",
-      "excerpt": "L'antic conseller delegat de Google va invertir desenes de milions de dòlars el 2021 i, si la sortida a borsa valora l'empresa en 2 bilions, el seu paquet podria valdre fins a 20.000 milions."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "5 MIN",
-      "title": "SpaceX guanya 4.400 milions el tercer trimestre i la seva divisió d'IA ja aporta el 52% dels ingressos",
-      "excerpt": "Segons el document que ha presentat a la SEC, l'empresa de Musk ingressa 14.600 milions de dòlars i preveu invertir entre 35.000 i 40.000 milions més en el darrer trimestre."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Muse, l'aplicació d'IA de Meta, arriba a 10 milions de descàrregues als Estats Units en 40 dies",
-      "excerpt": "Només onze aplicacions més havien assolit aquesta fita, segons Sensor Tower, però el resultat va lligat a una inversió publicitària molt forta."
+      "title": "Anthropic estrena Claude Duet, un agent personal que treballa en segon pla, per a una llista d'espera als Estats Units",
+      "excerpt": "L'aplicació, en vista prèvia de recerca, es basa en Opus 5.5 i s'executa en una màquina virtual pròpia: prepara una llista de prioritats al matí i avisa quan alguna cosa requereix atenció."
     },
     {
       "category": "TECNOLOGIA",
       "read": "3 MIN",
-      "title": "ChatGPT deixa bloquejar converses amb un PIN o amb la cara o l'empremta, però no les xifra",
-      "excerpt": "OpenAI comença a distribuir una funció per amagar xats delicats quan algú altre veu la pantalla; no canvia com es guarden les dades."
+      "title": "Google porta Gemini al cotxe amb accés a Gmail i al calendari, però a Espanya haurà d'esperar",
+      "excerpt": "Gemini amb Personal Intelligence arriba a Android Auto i, en pocs mesos, als cotxes amb Android Automotive. L'Espai Econòmic Europeu en queda fora per les normes de privadesa."
     },
     {
       "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Volvo i Nvidia amplien la col·laboració per portar conducció automatitzada als pròxims cotxes de la marca",
-      "excerpt": "La tecnologia s'estrenarà en un model de nova generació, però la marca no ha donat ni data, ni nom del cotxe, ni nivell d'autonomia."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un detector de notícies falses basat en un transformer encerta més del 98% en dos conjunts de dades, però només llegeix text",
-      "excerpt": "L'estudi, publicat a una revista d'Inderscience, combina un model de llenguatge amb un algorisme d'optimització; encara no s'ha provat amb contingut real de les xarxes."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Musk proposa que Anthropic reparteixi les accions del fons entre el públic, i altres veus en qüestionen l'estructura",
-      "excerpt": "L'anunci del fons d'interès públic, fet el 18 d'octubre, ha provocat una allau de reaccions: Musk demana repartir-ne les accions directament i diversos crítics dubten que una societat controlada per l'empresa serveixi el bé comú."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "El document per sortir a borsa d'Anthropic, filtrat al «Wall Street Journal», admet dificultats per aconseguir prou capacitat de núvol",
-      "excerpt": "Segons TechCrunch, que cita el diari, Amazon, Google i Microsoft veuen cada cop més Anthropic com un competidor, i l'empresa va perdre 80.700 milions de dòlars el primer semestre."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "OpenAI compra Orchestra Bio, una empresa emergent d'agents d'IA per a biotecnològiques, per reforçar el seu negoci de ciències de la vida",
-      "excerpt": "L'operació, de la qual no s'han fet públiques les condicions, incorpora l'equip i la tecnologia d'Orchestra a Rosalind, el model d'OpenAI per a la recerca biomèdica."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Google obre TorchTPU perquè les aplicacions de PyTorch passin als seus xips TPU sense reescriure el codi",
-      "excerpt": "Un dia després que Amazon fes el mateix amb els seus xips Trainium, Google es suma a l'ofensiva contra el domini de Nvidia amb les persones que desenvolupen aplicacions d'IA."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una xarxa neuronal que desactiva unitats a l'atzar mentre s'entrena reconeix millor imatges amb soroll, segons un estudi a «Patterns»",
-      "excerpt": "Investigadors de Tübingen, Roma i Londres s'han inspirat en la variabilitat del cervell: la retroalimentació només ajuda quan la xarxa ha après abans a conviure amb l'atzar."
+      "read": "3 MIN",
+      "title": "El físic Christopher Stubbs, antic degà de ciències de Harvard, s'incorpora al fideïcomís de govern d'Anthropic",
+      "excerpt": "Anthropic ha anunciat que Stubbs entra al Long-Term Benefit Trust, l'òrgan que pot nomenar la majoria del consell d'administració de l'empresa."
     }
   ]
 }
