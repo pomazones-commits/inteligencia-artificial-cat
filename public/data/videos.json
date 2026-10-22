@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-22T08:12:35.494Z",
+ "actualitzat": "2026-10-22T12:18:30.450Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "CEEP7RecnFM",
+   "titol": "How TK Elevator technicians use agentic AI to prepare for every job",
+   "canal": "Microsoft",
+   "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-10-22T12:02:58.000Z",
+   "descripcio": "TK Elevator is using agentic AI, created with Azure AI Foundry and Azure Databricks, to brief its service technicians before they reach the elevator and capture what they learn through a voice debriefing agent. Paired with insights from its Digital Operations Centers, the agents help technicians arr",
+   "miniatura": "/assets/videos/CEEP7RecnFM.jpg"
+  },
   {
    "id": "20IRGgQwPkc",
    "titol": "V7 cuts costs 78% while boosting accuracy with GPT‑5.6 Luna",
@@ -797,18 +809,6 @@
    "publicat": "2026-10-01T16:37:46.000Z",
    "descripcio": "How do you know if what you're seeing is real? Professor Hannah Fry sits down with Pushmeet Kohli (VP of Science) and Jeremy Ratcliffe (Research Scientist) to break down SynthID, the watermarking technology expanding from text, images, and video straight into biology. Learn how invisible, mathematic",
    "miniatura": "/assets/videos/HIUzrxQxTtw.jpg"
-  },
-  {
-   "id": "z1t-bp9UC3E",
-   "titol": "Meet The Startup: Probabl: by the Creators of Scikit-Learn",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "empreses",
-   "idioma": "en",
-   "publicat": "2026-10-01T11:31:39.000Z",
-   "descripcio": "The creators of scikit-learn are GPU-accelerating machine learning — and partnering with NVIDIA to do it. Yann Lechelle, co-founder of Probabl, sat down with us to share why the team behind the world's most downloaded ML framework is doubling down on statistical machine learning — not generative AI ",
-   "miniatura": "/assets/videos/z1t-bp9UC3E.jpg"
   }
  ]
 }
