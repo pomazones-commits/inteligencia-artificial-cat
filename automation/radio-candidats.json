@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-22T16:13:24.152Z",
+  "generat": "2026-10-22T22:37:45.760Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -16,7 +16,7 @@
       "programa": "Catalunya nit",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 4
+      "sobre_ia": 5
     },
     {
       "font": "3cat",
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 22,
+      "audios": 23,
       "sobre_ia": 4
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 11,
+      "audios": 10,
       "sobre_ia": 1
     },
     {
@@ -177,5 +177,23 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "3cat-1295056",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-10-22",
+      "durada": "16 min",
+      "titol_original": "El vídeo fet amb IA que pot acabar als tribunals",
+      "descripcio_original": "Tot s'hi val en política? Veus clonades, confessions falses... La intel·ligència artificial ja marca la precampanya electoral, però on són els límits legals? Els delimitem amb l'advocat penalista Xavier Muñoz.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.3cat.cat/3cat/el-video-fet-amb-ia-que-pot-acabar-als-tribunals/audio/1295056/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1295056"
+      }
+    }
+  ]
 }
