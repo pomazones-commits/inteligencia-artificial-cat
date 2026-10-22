@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-22T08:12:25.384Z",
+ "actualitzat": "2026-10-22T09:41:21.262Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "71fca081f386",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Barclays recortará 5.000 puestos de trabajo, el 5% de la plantilla, tras introducir la IA y disparar sus beneficios",
+   "url": "https://www.eldiario.es/economia/barclays-recortara-5-000-puestos-trabajo-5-plantilla-introducir-ia_1_13605681.html",
+   "publicat": "2026-10-22T09:31:46.000Z"
+  },
+  {
+   "id": "2d76ce63070a",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "CaixaBank integra la seva aplicació al 'marketplace' de ChatGPT",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/caixabank-integra-seva-aplicacio-marketplace-chatgpt_1713334_102.html",
+   "publicat": "2026-10-22T09:30:33.000Z"
+  },
+  {
+   "id": "d3b1ce477e08",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El PP recurre a la IA para lanzar un vídeo de socialistas admitiendo delitos",
+   "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/22/2734073/recurre-para-lanzar-video-socialistas-admitiendo-delitos.html",
+   "publicat": "2026-10-22T09:23:46.000Z"
+  },
+  {
+   "id": "c6f705a7aa1e",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El PP suplanta amb IA la identitat de gent del PSOE perquè admeti delictes: \"Sí, soc 'zurdo'\"",
+   "url": "https://www.elnacional.cat/ca/politica/pp-suplanta-ia-identitat-gent-psoe-perque-admeti-delictes-si-soc-zurdo_1713319_102.html",
+   "publicat": "2026-10-22T09:18:03.000Z"
+  },
+  {
+   "id": "70b23e415287",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Comarca y empresa | Alboraya impulsa un \"sistema pionero\" de vigilancia en acequias basado en inteligencia artificial",
+   "url": "https://valenciaplaza.com/valenciaplaza/comarca-y-empresa/alboraya-impulsa-un-sistema-pionero-de-vigilancia-ambiental-en-acequias-basado-en-inteligencia-artificial",
+   "publicat": "2026-10-22T08:21:33.000Z"
+  },
   {
    "id": "37c098c886c6",
    "mitja": "La Vanguardia",
@@ -2414,72 +2469,6 @@
    "titol": "Altea convierte a su Guerrero íbero en un avatar con inteligencia artificial y presenta el proyecto en Italia",
    "url": "https://www.informacion.es/benidorm/2026/10/15/altea-convierte-guerrero-ibero-avatar-135361808.html",
    "publicat": "2026-10-15T09:48:03.000Z"
-  },
-  {
-   "id": "8e6222f2a3ed",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "YouTube etiquetará las canciones creadas con inteligencia artificial: \"Nuestros oyentes nos han dicho que quieren transparencia\"",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261015/youtube-etiquetara-canciones-creadas-inteligencia-135361315",
-   "publicat": "2026-10-15T09:34:17.000Z"
-  },
-  {
-   "id": "0bd76cc85c06",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Inteligencia artificial para detectar el sexismo en publicaciones de TikTok",
-   "url": "https://www.levante-emv.com/comunitat-valenciana/2026/10/15/inteligencia-artificial-ayudara-detectar-sexismo-135360613.html",
-   "publicat": "2026-10-15T09:16:47.000Z"
-  },
-  {
-   "id": "0a05d262a202",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA pot comportar-se com un humà, però seguim sense creure que tingui consciència",
-   "url": "https://www.elnacional.cat/ca/tecnologia/ia-pot-comportar-se-com-huma-pero-seguim-sense-creure-tingui-consciencia_1709914_102.html",
-   "publicat": "2026-10-15T09:00:00.000Z"
-  },
-  {
-   "id": "484c4d4654b8",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Google anuncia mejoras en su protección contra mensajes fraudulentos en Android con la IA de Gemini",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/15/2729269/google-anuncia-mejoras-proteccion-contra-mensajes-fraudulentos-android-gemini.html",
-   "publicat": "2026-10-15T09:00:00.000Z"
-  },
-  {
-   "id": "b62f1bf64e9d",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las dudas de los inversores con los chips y la IA se contagian a las cotizadas europeas",
-   "url": "https://www.lavanguardia.com/economia/20261015/11659477/dudas-inversores-chips-ia-contagian-cotizadas-europeas.html",
-   "publicat": "2026-10-15T08:59:59.000Z"
-  },
-  {
-   "id": "febe9d4327ad",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "“La capacitat de la IA és sobrehumana”: Marcel Llopis, lleidatà a la NASA",
-   "url": "https://www.segre.com/ca/societat/261015/la-capacitat-de-la-ia-es-sobrehumana-marcel-llopis-lleidat-a-la-nasa_1364289.html",
-   "publicat": "2026-10-15T08:21:44.000Z"
   }
  ]
 }
