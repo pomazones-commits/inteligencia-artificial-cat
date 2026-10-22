@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-21T16:28:10.456Z",
+ "actualitzat": "2026-10-22T04:16:54.876Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "20IRGgQwPkc",
+   "titol": "V7 cuts costs 78% while boosting accuracy with GPT‑5.6 Luna",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-21T22:05:10.000Z",
+   "descripcio": "V7 Go organizes company files into a Context Graph that agents can query to screen investment deals and support insurance underwriting. On V7’s hardest graph-query tests across thousands of documents, GPT-6 Astra reached 89% accuracy. Read the full story: https://openai.com/index/v7/",
+   "miniatura": "/assets/videos/20IRGgQwPkc.jpg"
+  },
   {
    "id": "4idQxzAyPDo",
    "titol": "How AI Enables Better, More Connected Patient Care",
@@ -773,18 +785,6 @@
    "publicat": "2026-10-01T11:31:39.000Z",
    "descripcio": "The creators of scikit-learn are GPU-accelerating machine learning — and partnering with NVIDIA to do it. Yann Lechelle, co-founder of Probabl, sat down with us to share why the team behind the world's most downloaded ML framework is doubling down on statistical machine learning — not generative AI ",
    "miniatura": "/assets/videos/z1t-bp9UC3E.jpg"
-  },
-  {
-   "id": "vmAIpEHrCok",
-   "titol": "NVIDIA DOCA Skills vs No Skills: Building RDMA on NVIDIA BlueField-3 with Fewer Commands & Less Code",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-09-30T19:09:36.000Z",
-   "descripcio": "This demo is a side-by-side comparison of two AI coding agents tasked with building a Go-based RDMA application using NVIDIA DOCA on a BlueField-3 platform. Both agents are given the same goal: implement a working RDMA data path and verify that bytes successfully arrive on hardware. The key differen",
-   "miniatura": "/assets/videos/vmAIpEHrCok.jpg"
   }
  ]
 }
