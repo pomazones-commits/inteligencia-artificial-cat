@@ -399,12 +399,30 @@
     // 22.10.2026: una peça de «Veus de l'administració» no ocupa mai la banda de la tribuna
     // ni la de l'estudi: surt a la seva banda (#veus-administracio).
     const esAdministracio = (p) => p && p.serie === 'veus-de-l-administracio';
-    if (window.IA_TRIBUNA && window.IA_TRIBUNA.title && !esAdministracio(window.IA_TRIBUNA) && document.querySelector('#tribuna')) {
-      const tribuna = window.IA_TRIBUNA;
+    // 22.10.2026 (decisió d'en Rafael, 05.54 h): «La tribuna» ja no és un format sinó l'espai
+    // destacat de la portada que ocupen per torn, 2 dies cadascun, les peces noves dels
+    // convidats: articles d'opinió i entrevistes (tribuna.js) i estudis (estudis.js). Es mostra
+    // la més recent de les dues vigents. La banda «Estudi a fons» ha desaparegut.
+    // CIVICAi, empresa i administració tenen banda pròpia i no hi entren.
+    const clauDataPortada = (d) => String(d || '').split('.').reverse().join('');
+    const candidatesTribuna = [window.IA_TRIBUNA, window.IA_ESTUDI]
+      .filter((p) => p && p.title && !esAdministracio(p) && p.serie !== 'veus-de-civicai');
+    const destacada = candidatesTribuna.reduce((a, b) => (a && clauDataPortada(a.date) >= clauDataPortada(b.date) ? a : b), null);
+    if (destacada && document.querySelector('#tribuna')) {
+      const tribuna = destacada;
+      const esEstudi = tribuna === window.IA_ESTUDI;
       const band = document.querySelector('#tribuna');
       document.querySelector('#tribuna-title').textContent = tribuna.title;
       document.querySelector('#tribuna-excerpt').textContent = tribuna.excerpt || '';
-      document.querySelector('#tribuna-eyebrow').textContent = tribuna.read ? `La tribuna · ${tribuna.read.toLowerCase()}` : 'La tribuna';
+      const format = esEstudi ? 'estudi' : (tribuna.category === 'ENTREVISTA' ? 'entrevista' : '');
+      document.querySelector('#tribuna-eyebrow').textContent = ['La tribuna', format, tribuna.read ? tribuna.read.toLowerCase() : ''].filter(Boolean).join(' · ');
+      const enllacTribuna = document.querySelector('#tribuna-link');
+      if (enllacTribuna && esEstudi) {
+        enllacTribuna.href = './estudi.html';
+        enllacTribuna.firstChild.textContent = 'Llegir l’estudi ';
+      } else if (enllacTribuna && format === 'entrevista') {
+        enllacTribuna.firstChild.textContent = 'Llegir l’entrevista ';
+      }
       marcaSerie(tribuna, document.querySelector('#tribuna-eyebrow'));
       // Byline: autor · càrrec, amb l'entitat enllaçada si la peça porta org/orgUrl
       // (mateixa lògica que IAPeces.rolAmbEnllac, que la portada no carrega).
@@ -688,30 +706,8 @@
       banda.hidden = false;
     });
 
-    // ——— Estudis (article de fons signat, fitxer manual estudis.js) ———
-    if (window.IA_ESTUDI && window.IA_ESTUDI.title && !esAdministracio(window.IA_ESTUDI)) {
-      const estudi = window.IA_ESTUDI;
-      const band = document.querySelector('#estudis');
-      document.querySelector('#estudis-title').textContent = estudi.title;
-      document.querySelector('#estudis-excerpt').textContent = estudi.excerpt || '';
-      document.querySelector('#estudis-eyebrow').textContent = estudi.read ? `Estudi a fons · ${estudi.read.toLowerCase()}` : 'Estudi a fons';
-      marcaSerie(estudi, document.querySelector('#estudis-eyebrow'));
-      document.querySelector('#estudis-byline').textContent = [estudi.author, estudi.role].filter(Boolean).join(' · ');
-      if (estudi.quote) {
-        const quote = document.querySelector('#estudis-quote');
-        quote.textContent = `«${estudi.quote}»`;
-        quote.hidden = false;
-      }
-      if (estudi.photo) {
-        const img = document.querySelector('#estudis-img');
-        img.src = estudi.photo;
-        img.alt = estudi.photoAlt || `Retrat de ${estudi.author || ''}`.trim();
-        document.querySelector('#estudis-photo').hidden = false;
-      } else {
-        document.querySelector('.estudis-layout').classList.add('estudis-layout--solo');
-      }
-      band.hidden = false;
-    }
+    // ——— Estudis: des del 22.10.2026 l'estudi vigent entra a la rotació de «La tribuna» (a dalt);
+    // la banda «Estudi a fons» (#estudis) ja no existeix. ———
 
     // ——— Peces editorials ———
     if (window.IA_ANALYSIS) {
