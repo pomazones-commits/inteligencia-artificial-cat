@@ -1,22 +1,7 @@
 {
-  "actualitzat": "2026-10-20",
+  "actualitzat": "2026-10-22",
   "nota": "Imatges oficials dels actes, desades al nostre servidor. Les genera automation/scripts/recull-cartells.mjs: no s'edita a mà.",
   "cartells": {
-    "2026-10-19-col-loqui-de-transjus-artificial-intelligence-and-cross-bord": {
-      "error": "HTTP 403",
-      "provat": "2026-10-17",
-      "cartell_font": "https://web.ub.edu/documents/2710030/0/Artificial+Intelligence+ad+Cross-Border+Tort+Liability+copia.png/29830b46-d146-ee8d-031f-ffa8ef763541?t=1791287666089"
-    },
-    "2026-10-19-global-sustainability-barcelona-summit-2026": {
-      "imatge": "/assets/cartells/2026-10-19-global-sustainability-barcelona-summit-2026.jpg",
-      "amplada": 399,
-      "alcada": 204,
-      "font": "https://globalsustainabilitybarcelonasummit.com/wp-content/uploads/2026/03/Global-summit.png",
-      "pagina": "https://globalsustainabilitybarcelonasummit.com/",
-      "organitza": "Inspiring Events",
-      "logo": true,
-      "recollit": "2026-10-17"
-    },
     "2026-10-20-ai-congress-barcelona-2026": {
       "imatge": "/assets/cartells/2026-10-20-ai-congress-barcelona-2026.jpg",
       "amplada": 570,
@@ -233,6 +218,15 @@
     "2026-12-02-tech-spirit-barcelona-2026": {
       "error": "la web no declara cap imatge per compartir (og:image)",
       "provat": "2026-10-20"
+    },
+    "2026-12-21-deep-learning-barcelona-symposium-2026-dlbcn-2026": {
+      "imatge": "/assets/cartells/2026-12-21-deep-learning-barcelona-symposium-2026-dlbcn-2026.jpg",
+      "amplada": 1200,
+      "alcada": 1200,
+      "font": "https://sites.google.com/sitesv-images-rt/AMxu72tUxrdN_I-VBHRH0HSk5QlM6iaYyIcPnEKEzf94ZEFZG2nwaDimDUr3_ekhT4CE2I5Cgq72p8Ghbw6vUu5Cla_CInUPeMuLY99gXQDvigKk--WP28wa4RZ06wDTNYRJ1V0Nt2T9xNOdD6W-3ibgWppgoIYywVPi6SRAsmCDa6Vw5M1jSva9t7VdEjB9vRM=w16383",
+      "pagina": "https://sites.google.com/view/dlbcn2026/home",
+      "organitza": "Barcelona Supercomputing Center (BSC) i Centre de Visió per Computador (CVC-UAB)",
+      "recollit": "2026-10-22"
     }
   }
 }
