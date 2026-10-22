@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-22T04:16:53.693Z",
+ "actualitzat": "2026-10-22T08:12:25.384Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "37c098c886c6",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El PP usa con IA la imagen y la voz de socialistas o exsocialistas admitiendo delitos",
+   "url": "https://www.lavanguardia.com/politica/20261022/11665207/pp-ia-imagen-voz-socialistas-contraatacar-campana-zurdos.html",
+   "publicat": "2026-10-22T07:37:26.000Z"
+  },
+  {
+   "id": "d54c3496c6dd",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nokia dispara un 10% sus ventas impulsada por el auge de la IA",
+   "url": "https://cincodias.elpais.com/companias/2026-10-22/nokia-dispara-un-10-sus-ventas-impulsada-por-el-auge-de-la-ia.html",
+   "publicat": "2026-10-22T07:31:27.000Z"
+  },
+  {
+   "id": "bd05e31237a4",
+   "mitja": "El Periódico",
+   "font": "elperiodico-tec",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Alexander Seoane (LIN3S): \"I si poguessis saber si la teva publicitat funcionarà abans de gastar ni un sol euro?\"",
+   "url": "https://www.elperiodico.cat/tecnologia/20261022/alexander-seoane-lin3s-poguessis-teva-135609236",
+   "publicat": "2026-10-22T07:30:22.000Z"
+  },
+  {
+   "id": "7ee1cab93f21",
+   "mitja": "Nació Digital",
+   "font": "naciodigital-totes",
+   "icona": "/assets/premsa/nacio-digital.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Món Sant Benet reuneix més de 300 professionals quirúrgics per debatre sobre la IA",
+   "url": "https://naciodigital.cat/manresa/societat/mon-sant-benet-reuneix-mes-de-300-professionals-quirurgics-per-debatre-sobre-la-ia.html",
+   "publicat": "2026-10-22T06:37:56.000Z"
+  },
+  {
+   "id": "d693bcc64658",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La patentabilidad de la inteligencia artificial en Europa: una cuestión estratégica para el ‘deep tech’",
+   "url": "https://cincodias.elpais.com/legal/2026-10-22/la-patentabilidad-de-la-inteligencia-artificial-en-europa-una-cuestion-estrategica-para-el-deep-tech.html",
+   "publicat": "2026-10-22T06:30:00.000Z"
+  },
+  {
+   "id": "386a80b15fd2",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "René Nicolodi (Swisscanto): “No estamos ante una burbuja de la inteligencia artificial, tenemos una burbuja en la financiación”",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-22/rene-nicolodi-swisscanto-no-estamos-ante-una-burbuja-de-la-inteligencia-artificial-tenemos-una-burbuja-en-la-financiacion.html",
+   "publicat": "2026-10-22T06:07:39.000Z"
+  },
+  {
+   "id": "4af32f4ecbca",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El AI Act convierte la regulación de la inteligencia artificial en una oportunidad para innovar",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261022/11653261/ai-act-convierte-regulacion-inteligencia-artificial-oportunidad-innovar.html",
+   "publicat": "2026-10-22T05:00:00.000Z"
+  },
+  {
+   "id": "bb50ede91a91",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "\"Això també és IA?\"",
+   "url": "https://www.elperiodico.com/es/entre-todos/participacion/aixo-tambe-ia-carta-laia-alguero-135484443",
+   "publicat": "2026-10-22T04:30:57.000Z"
+  },
   {
    "id": "898cad3ffea9",
    "mitja": "Valencia Plaza",
@@ -28,7 +116,7 @@
   {
    "id": "62bc10f2d71c",
    "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
+   "font": "lavanguardia-tec",
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
@@ -115,9 +203,9 @@
   },
   {
    "id": "4106c6d43178",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
    "llengua": "es",
    "ambit": "estatal",
    "titol": "Dos vulnerabilidades críticas detectadas con IA provocan fallos múltiples en miles de páginas web",
@@ -158,6 +246,17 @@
    "titol": "La Universidad de Alicante lleva por primera vez a Torrevieja la formación en IA aplicada a la gestión sanitaria",
    "url": "https://www.informacion.es/vega-baja/2026/10/21/ua-primera-vez-ia-inteligencia-artificial-curso-sanitario-torrevieja-135593404.html",
    "publicat": "2026-10-21T15:59:20.000Z"
+  },
+  {
+   "id": "0fbe70d1d61c",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Inteligencia artificial y manipulación: nuevas claves para interpretar lo que vemos en internet",
+   "url": "https://elpais.com/tecnologia/branded/seguridad-dia-a-dia/2026-10-21/inteligencia-artificial-y-manipulacion-nuevas-claves-para-interpretar-lo-que-vemos-en-internet.html",
+   "publicat": "2026-10-21T15:53:30.000Z"
   },
   {
    "id": "775a32af7593",
@@ -2381,94 +2480,6 @@
    "titol": "“La capacitat de la IA és sobrehumana”: Marcel Llopis, lleidatà a la NASA",
    "url": "https://www.segre.com/ca/societat/261015/la-capacitat-de-la-ia-es-sobrehumana-marcel-llopis-lleidat-a-la-nasa_1364289.html",
    "publicat": "2026-10-15T08:21:44.000Z"
-  },
-  {
-   "id": "b287a290974d",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Crean un método de inteligencia artificial que genera «cerebros» motores para robots humanoides sin entrenarlos desde cero",
-   "url": "https://www.lasprovincias.es/tecnologia/crean-metodo-inteligencia-artificial-20261015081015-nt.html",
-   "publicat": "2026-10-15T08:09:00.000Z"
-  },
-  {
-   "id": "d543f3a1191d",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Móviles, televisores y electrodomésticos: Anthropic alerta del riesgo de los gusanos informáticos de IA",
-   "url": "https://www.informacion.es/tendencias21/2026/10/15/moviles-televisores-electrodomesticos-anthropic-alerta-135356335.html",
-   "publicat": "2026-10-15T07:40:41.000Z"
-  },
-  {
-   "id": "72f3e7c0e8bd",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Gobierno refuerza la CNMC con un economista jefe y una unidad de inteligencia artificial para detectar cárteles",
-   "url": "https://www.elperiodico.com/es/economia/20261015/gobierno-cambia-estructura-cnmc-economista-135355791",
-   "publicat": "2026-10-15T07:24:21.000Z"
-  },
-  {
-   "id": "bf053feb5865",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic calienta su histórica salida a Bolsa con un aumento trimestral de sus ingresos del 46%",
-   "url": "https://cincodias.elpais.com/companias/2026-10-15/anthropic-calienta-su-historica-salida-a-bolsa-con-un-aumento-trimestral-de-sus-ingresos-del-46.html",
-   "publicat": "2026-10-15T07:13:38.000Z"
-  },
-  {
-   "id": "e7e130909a4e",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "OpenAI, la impulsora de ChatGPT, demandada por ocho estados de EEUU por \"causar daños a niños\" e infringir la ley",
-   "url": "https://www.informacion.es/nacional/2026/10/15/openai-impulsora-chatgpt-demandada-ocho-135353105.html",
-   "publicat": "2026-10-15T06:32:17.000Z"
-  },
-  {
-   "id": "198fa635eb44",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Másteres de marketing en 2026: cómo integrar la IA y qué ofrece ESIC Barcelona",
-   "url": "https://www.lavanguardia.com/vida/formacion/20261005/11643665/masteres-marketing-reinventan-esic-barcelona-claro-ninguno-permitirse-ensenar-ia-mkt-esic.html",
-   "publicat": "2026-10-15T06:26:06.000Z"
-  },
-  {
-   "id": "30983d146446",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El 60% de l'atenció al client a Europa estarà en mans de la IA el 2027",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/60-atencio-client-europa-estara-en-mans-ia-2027_1709851_102.html",
-   "publicat": "2026-10-15T06:16:10.000Z"
-  },
-  {
-   "id": "11d99ed226cb",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Una dona va creure durant un any que sortia amb Jon Bon Jovi: així evoluciona la IA per estafar",
-   "url": "https://www.elnacional.cat/ca/tecnologia/dona-va-creure-durant-any-sortia-jon-bon-jovi-aixi-evoluciona-ia-estafar_1709815_102.html",
-   "publicat": "2026-10-15T05:00:00.000Z"
   }
  ]
 }
