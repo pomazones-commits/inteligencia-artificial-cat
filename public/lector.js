@@ -1,6 +1,6 @@
 /* Lector d'articles compartit (tribuna, anàlisi, quadern, imatge del dia).
    - Si existeix l'MP3 neural (assets/audio/...), mostra un reproductor d'àudio
-     amb selector de velocitat (per defecte 1,25×).
+     amb selector de velocitat (per defecte 1×, velocitat normal).
    - Si encara no hi és, mostra «Àudio en preparació.» — mai la veu del navegador.
      El workflow d'àudio (i la repesca horària) el pujarà i el missatge desapareixerà sol.
    Ús: IALector.init({ container: element, audioUrl: './assets/audio/x.mp3'|null, parts: [textos] })
@@ -35,7 +35,7 @@
       var option = document.createElement('option');
       option.value = s[0];
       option.textContent = s[1];
-      if (s[0] === '1.25') option.selected = true; // per defecte 1,25×
+      if (s[0] === '1') option.selected = true; // per defecte 1× (velocitat normal, des del 22.10.2026)
       select.appendChild(option);
     });
     label.appendChild(select);
