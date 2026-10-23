@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-23T20:07:24.034Z",
+ "actualitzat": "2026-10-23T23:34:27.141Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "cf7dfccdeb59",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA irrumpe en la precampaña",
+   "url": "https://www.lavanguardia.com/opinion/20261024/11666806/ia-irrumpe-precampana.html",
+   "publicat": "2026-10-23T22:30:00.000Z"
+  },
   {
    "id": "7f055e615950",
    "mitja": "Alicante Plaza",
