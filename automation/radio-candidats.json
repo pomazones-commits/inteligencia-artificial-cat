@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-23T12:21:27.315Z",
+  "generat": "2026-10-23T16:13:30.065Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -72,7 +72,7 @@
       "programa": "La tarda de Ràdio 4",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 5
+      "sobre_ia": 3
     },
     {
       "font": "rtve",
@@ -177,23 +177,5 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": [
-    {
-      "id": "3cat-1295105",
-      "emissora": "Catalunya Ràdio",
-      "programa": "El matí de Catalunya Ràdio",
-      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
-      "data": "2026-10-23",
-      "durada": "9 min",
-      "titol_original": "És lícit fer servir la intel·ligència artificial per als vídeos de la precampanya?",
-      "descripcio_original": "Analitzem el vídeo fet amb intel·ligència artificial pel PP en què Begoña Gómez i figures vinculades al PSOE admeten delictes. El PSOE ja ha dit que es planteja portar-lo a la justícia.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.3cat.cat/3cat/es-licit-fer-servir-la-intelligencia-artificial-per-als-videos-de-la-precampanya/audio/1295105/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1295105"
-      }
-    }
-  ]
+  "candidats": []
 }
