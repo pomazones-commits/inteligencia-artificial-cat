@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-23T15:29:55.320Z",
+ "actualitzat": "2026-10-23T16:14:25.326Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "0e35f7be5c97",
+   "mitja": "Diari de Terrassa",
+   "font": "diarideterrassa",
+   "icona": "/assets/premsa/diari-de-terrassa.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La Fundació Vallparadís posa el focus en la intel·ligència artificial i les cures",
+   "url": "https://www.diarideterrassa.com/terrassa/la-fundacio-vallparadis-posa-el-focus-en-la-intelligencia-artificial-i-les-cures.html",
+   "publicat": "2026-10-23T16:06:20.000Z"
+  },
+  {
+   "id": "40d8bacaffdc",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El petróleo y el temor a una burbuja de la IA dejan una semana de pérdidas en las Bolsas pese al rebote final",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-23/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-10-23T15:55:52.000Z"
+  },
   {
    "id": "580984f590f7",
    "mitja": "Regió7",
@@ -122,7 +144,9 @@
    "ambit": "catala",
    "titol": "Leire Díez es querella contra el PP pels vídeos de campanya fets amb IA",
    "url": "https://www.elnacional.cat/ca/politica/leire-diez-es-querella-contra-pp-videos-campanya-fets-ia_1714018_102.html",
-   "publicat": "2026-10-23T10:33:43.000Z"
+   "publicat": "2026-10-23T10:33:43.000Z",
+   "noticia": "leire-diez-querella-pp-video-ia-suplantacio",
+   "noticiaTitol": "Leire Díez es querella contra el PP pel vídeo fet amb IA en què se la veu admetre que va contractar un sicari"
   },
   {
    "id": "6c469a7801b9",
@@ -2584,39 +2608,6 @@
    "titol": "El impacto académico de la inteligencia artificial centra la inauguración del curso del CESAG",
    "url": "https://www.ultimahora.es/noticias/local/2026/10/16/2730515/impacto-academico-inteligencia-artificial-centra-inauguracion-del-curso-del-cesag.html",
    "publicat": "2026-10-16T17:01:00.000Z"
-  },
-  {
-   "id": "2dfeb69b0bbd",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Apple i Meta s'alien per sorpresa per executar Muse AI als Mac més potents",
-   "url": "https://www.elnacional.cat/ca/tecnologia/apple-meta-alien-sorpresa-executar-muse-ai-mac-mes-potents_1710808_102.html",
-   "publicat": "2026-10-16T16:00:00.000Z"
-  },
-  {
-   "id": "831b414324a1",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El CESAG inaugura su 52º curso académico con la inteligencia artificial como protagonista",
-   "url": "https://www.diariodemallorca.es/mallorca/2026/10/16/cesag-inaugura-52o-curso-academico-135424566.html",
-   "publicat": "2026-10-16T15:43:30.000Z"
-  },
-  {
-   "id": "23d229346073",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Se descontrola una nueva flota de agentes de IA: los pillan intentando extraer datos de la app de mapas china Amap",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/16/2730381/descontrola-nueva-flota-agentes-pillan-intentando-extraer-datos-app-mapas-china-amap.html",
-   "publicat": "2026-10-16T15:37:02.000Z"
   }
  ]
 }
