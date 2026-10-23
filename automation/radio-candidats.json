@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-22T22:37:45.760Z",
+  "generat": "2026-10-23T04:12:53.146Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -72,7 +72,7 @@
       "programa": "La tarda de Ràdio 4",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 7
+      "sobre_ia": 5
     },
     {
       "font": "rtve",
@@ -96,7 +96,7 @@
       "programa": "El pla B",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 2
     },
     {
       "font": "omny",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 34,
+      "audios": 33,
       "sobre_ia": 1
     },
     {
@@ -173,7 +173,7 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 400,
+      "audios": 300,
       "sobre_ia": 3
     }
   ],
@@ -193,6 +193,40 @@
       "reproductor": {
         "tipus": "3cat",
         "id": "1295056"
+      }
+    },
+    {
+      "id": "rtve-17279283",
+      "emissora": "Ràdio 4",
+      "programa": "El pla B",
+      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
+      "data": "2026-10-22",
+      "durada": "5 min",
+      "titol_original": "La intel·ligència artificial entra en la batalla política",
+      "descripcio_original": "Avui parlem de l’ús de la intel·ligència artificial en la confrontació política, després que el PP hagi publicat un vídeo amb imatges i veus generades artificialment de dirigents socialistes admetent delictes. Una iniciativa que imita el vídeo de precampanya que va fer ahir Pedro Sánchez i que obre el debat sobre els límits de la propaganda política, la desinformació i la legalitat d’aquestes pràctiques. En parlem amb Joan Botella, catedràtic de Ciència Política.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-intel-ligencia-artificial-entra-batalla-politica/17279283/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17279283"
+      }
+    },
+    {
+      "id": "rtve-17279440",
+      "emissora": "Ràdio 4",
+      "programa": "El pla B",
+      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
+      "data": "2026-10-22",
+      "durada": "1 h 30 min",
+      "titol_original": "El PP ataca al PSOE amb IA - Les ciberestafes - Tertúlia sobre el retorn de Lluís Puig al Parlament - El colofó de Toni Mata",
+      "descripcio_original": "Comencem el programa parlant amb Joan Botella, catedràtic de Ciència Política de la UAB, per comentar l’ús de la intel·ligència artificial per part del PP per suplantar dirigents socialistes a les xarxes socials. Seguidament, connectem amb David Virueiro, corresponsal de RNE a Brussel·les, i Bruno Pérez, pèrit judicial informàtic forense, per analitzar com la justícia europea intenta fer front a les ciberestafes. Després arriba la tertúlia amb Raimond Blasi, Pau Parellada, Joan Garcia, Assumpta Escarp i Núria González. I abans d’arribar a les nou del vespre posem el colofó a la tertúlia amb Toni Mata.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-pp-ataca-psoe-amb-ia-les-ciberestafes-tertulia-sobre-retorn-lluis-puig-parlament-colofo-toni-mata/17279440/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17279440"
       }
     }
   ]
