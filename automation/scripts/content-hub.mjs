@@ -724,7 +724,17 @@ async function ingestNews(options) {
     .map(({ seccio, ...story }) => ({ ...story, editionDate: date }));
   const feedIncoming = incoming.filter(story => story.seccio !== 'radar');
   for (const story of feedIncoming) delete story.seccio;
-  const items = mergeNews(feedIncoming, previous, target);
+  // Cap notícia sense imatge (decisió d'en Rafael del 23.10.2026). Les que
+  // arriben sense `image` i sense fitxer a public/assets no es publiquen: es
+  // retenen a .content-state/sense-imatge.json i es tornen a provar a cada lot
+  // del mateix dia (la xarxa de seguretat de sota les enllaça soles si mentrestant
+  // s'ha desat <slug>-AAAAMMDD.jpg). Van al final perquè només ocupin lloc lliure.
+  const heldPath = join(stateDir, 'sense-imatge.json');
+  const heldState = await readJson(heldPath, { editionDate: date, items: [] });
+  const heldBefore = heldState?.editionDate === date && Array.isArray(heldState.items) && heldState.items.length
+    ? validateNews(heldState.items).filter(story => !esRetirada(story, retirades))
+    : [];
+  const items = mergeNews(feedIncoming, [...previous, ...heldBefore], target);
 
   // Xarxa de seguretat d'imatges: si una notícia no porta el camp `image` però el
   // fitxer generat ja existeix a public/assets/<slug>-AAAAMMDD.(jpg|webp|png),
@@ -752,6 +762,19 @@ async function ingestNews(options) {
       }
     }
     delete signal._slug;
+  }
+
+  const held = [];
+  for (let index = items.length - 1; index >= 0; index -= 1) {
+    if (items[index].image) continue;
+    held.unshift(items[index]);
+    items.splice(index, 1);
+  }
+  for (const story of held) {
+    process.stdout.write(`AVÍS: «${story.title}» (${story.slug}) no té imatge; es reté i no es publica fins que en tingui (public/assets/${story.slug}-${compactDate}.jpg).\n`);
+  }
+  if (held.length || heldBefore.length) {
+    await atomicWrite(heldPath, `${JSON.stringify({ editionDate: date, items: held }, null, 2)}\n`);
   }
 
   const now = new Date().toISOString();

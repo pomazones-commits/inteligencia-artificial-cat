@@ -284,7 +284,7 @@ test('en canviar de dia arxiva l’edició anterior a data/arxiu.json', async ()
   assert.equal(arxiu2.editions.filter(e => e.date === '17.07.2026').length, 1);
 });
 
-test('una notícia sense imatge és vàlida i actualitza articles.json i latest.json', async () => {
+test('un lot amb una notícia sense imatge és vàlid, però aquesta no es publica (23.10.2026)', async () => {
   const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
   const input = join(root, 'batch.json');
   const senseImatge = story(1);
@@ -293,8 +293,8 @@ test('una notícia sense imatge és vàlida i actualitza articles.json i latest.
   const result = run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-07-17'], root);
   assert.equal(result.status, 0, result.stderr);
   const articles = JSON.parse(await readFile(join(root, 'data', 'articles.json'), 'utf8'));
-  assert.equal(articles.items.length, 2);
-  assert.equal(articles.items[0].image, undefined);
+  assert.equal(articles.items.length, 1);
+  assert.equal(articles.items[0].image, './assets/noticia-2.jpg');
   const latest = JSON.parse(await readFile(join(root, 'content', 'latest.json'), 'utf8'));
   assert.deepEqual(Object.keys(latest.items[0]).sort(), ['category', 'excerpt', 'read', 'title']);
 });
@@ -1773,4 +1773,34 @@ test('recategoritza corregeix l\'edició publicada i l\'hemeroteca sense lot nou
   assert.equal(JSON.parse(await readFile(join(stateDir, 'archive.json'), 'utf8')).items[0].category, 'COMUNITAT VALENCIANA');
   // Segona passada: res a fer.
   assert.match(run(['recategoritza', ...base], root).stdout, /Recategoritzades: 0/);
+});
+
+test('cap notícia sense imatge: es reté i surt quan apareix el fitxer (23.10.2026)', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const stateDir = join(root, 'state');
+  const first = join(root, 'first.json');
+  const sense = { ...story(3) };
+  delete sense.image;
+  await writeFile(first, JSON.stringify([story(1), story(2), sense, story(4), story(5)]), 'utf8');
+  const result = run(['ingest-news', '--input', first, '--public-dir', root, '--state-dir', stateDir, '--date', '2026-10-23'], root);
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stdout, /noticia-de-prova-3\) no té imatge/);
+  let published = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.equal(published.length, 4);
+  assert.ok(published.every(item => item.image));
+  const held = JSON.parse(await readFile(join(stateDir, 'sense-imatge.json'), 'utf8'));
+  assert.deepEqual(held.items.map(item => item.slug), ['noticia-de-prova-3']);
+
+  // La sessió desa la imatge que faltava: al lot següent la notícia entra sola.
+  await mkdir(join(root, 'assets'), { recursive: true });
+  await writeFile(join(root, 'assets', 'noticia-de-prova-3-20261023.jpg'), 'jpg', 'utf8');
+  const second = join(root, 'second.json');
+  await writeFile(second, JSON.stringify([story(6), story(7), story(8), story(9), story(10)]), 'utf8');
+  assert.equal(run(['ingest-news', '--input', second, '--public-dir', root, '--state-dir', stateDir, '--date', '2026-10-23'], root).status, 0);
+  published = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.equal(published.length, 10);
+  assert.equal(published.find(item => item.slug === 'noticia-de-prova-3').image, './assets/noticia-de-prova-3-20261023.jpg');
+  assert.ok(published.every(item => item.image));
+  const heldAfter = JSON.parse(await readFile(join(stateDir, 'sense-imatge.json'), 'utf8'));
+  assert.equal(heldAfter.items.length, 0);
 });

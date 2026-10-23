@@ -96,6 +96,20 @@ Abans del commit, executa `python3 automation/scripts/fotos-llicencia.py --input
 
 La pàgina de l'article mostra sola el peu «Foto: …» per a les fotos reals i «Il·lustració generada amb IA» per a la resta.
 
+### Quantes vegades es genera una il·lustració (des del 23.10.2026)
+
+Cada imatge que es genera i es llença es paga igual que la que es publica. A l'octubre del 2026 se'n generaven unes 37 al dia per publicar-ne 21. Per això:
+
+1. **Primer intent** amb el prompt normal. Revisa la imatge **una vegada**.
+2. **Un sol reintent** NOMÉS si incompleix una regla 🛑 d'aquest apartat (persona real reconeixible, producte concret inventat, logotip, marca o text llegible) o si no mostra el subjecte de la notícia. Corregeix el prompt allà on ha fallat.
+3. **Tercer i últim intent**, només si el segon també incompleix una regla 🛑: un prompt de **context mínim i segur**, sense cap persona de cara, cap pantalla, cap rètol i cap aparell concret (per exemple: un auditori buit amb un faristol, unes mans sobre un teclat desenfocat, un passadís de centre de dades, un laboratori desenfocat, una sala de reunions amb finestrals), triat segons el tema de la notícia.
+4. **No es reintenta per qüestions de gust**: una composició millorable o una imatge poc espectacular es publiquen. Màxim **tres generacions per notícia**.
+5. **Errors tècnics de l'API** (temps d'espera, error 5xx, quota momentània) no compten com a intents: torna-ho a provar després de 10, 30 i 60 segons.
+
+🛑 **Cap notícia no es publica sense imatge** (decisió d'en Rafael del 23.10.2026). Totes les notícies del lot han de portar `image` amb el fitxer desat a `public/assets/<slug>-AAAAMMDD.jpg`. Si, tot i així, una notícia es queda sense imatge, el Content Hub **no la publica**: la reté a `.content-state/sense-imatge.json` i la torna a provar a cada lot del mateix dia, de manera que entra sola en quant hi hagi el fitxer `<slug>-AAAAMMDD.jpg` (amb la data de l'edició). Al lot següent, mira aquell fitxer i, si hi ha alguna notícia retinguda, genera-li la imatge amb aquell nom.
+
+**Al missatge del commit del lot**, afegeix una línia amb el recompte: `Imatges: N generades per M notícies` (si és el lot de les 06.05, compta-hi també la fotografia del dia). Serveix per vigilar la despesa de Gemini.
+
 ## Camp opcional `video` (prova pilot del 06.10 al 20.10.2026)
 
 Una notícia pot portar un vídeo de YouTube que expliqui **el mateix fet**. La pàgina de l'article el mostra sota el text, amb una miniatura que només carrega el reproductor quan el lector hi fa clic. Els vídeos que no s'hagin lligat a cap notícia surten igualment a la secció **/videos**.
