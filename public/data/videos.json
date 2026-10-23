@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-23T08:12:24.936Z",
+ "actualitzat": "2026-10-23T12:22:07.766Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "v-NGxyPjcrE",
+   "titol": "NVIDIA GTC Berlin 2026 Keynote With CEO Jensen Huang",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-10-23T08:43:07.000Z",
+   "descripcio": "Join NVIDIA founder and CEO Jensen Huang live from Berlin for the latest in AI and accelerated computing. Discover how Europe is building its own intelligence—with the control, knowledge, and tools to put AI to work.",
+   "miniatura": "/assets/videos/v-NGxyPjcrE.jpg"
+  },
   {
    "id": "DY-zlezSbdk",
    "titol": "Polèmica per la IA: el vídeo del PP amb dirigents del PSOE admetent corrupció | Mésnit",
@@ -37,7 +49,10 @@
    "idioma": "en",
    "publicat": "2026-10-22T18:00:13.000Z",
    "descripcio": "Following a 1,000-person pilot, Uber is bringing ChatGPT Work to more than 30,000 employees worldwide in its first company-wide deployment of an agentic platform for knowledge work. Uber CTO Praveen Neppalli Naga and OpenAI co-founder and President Greg Brockman discuss expanding AI beyond engineeri",
-   "miniatura": "/assets/videos/l16Gw7oVLNQ.jpg"
+   "miniatura": "/assets/videos/l16Gw7oVLNQ.jpg",
+   "noticia": "uber-chatgpt-work-30000-empleats",
+   "noticiaTitol": "Uber posa els seus 30.000 empleats a ChatGPT Work després d'una prova pilot amb 1.000 persones",
+   "resum": "Vídeo oficial d'OpenAI, en anglès, sobre l'arribada de ChatGPT Work als més de 30.000 empleats d'Uber, el fet que explica aquesta notícia. El resum es basa en el títol del vídeo i en la notícia."
   },
   {
    "id": "CEEP7RecnFM",
