@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Illes Balears",
+    "category": "IA I SOCIETAT",
+    "date": "23.10.2026",
+    "title": "BOIBOT, un assistent d'IA gratuït, resumeix cada matí el BOIB i avisa de les ajudes i les oposicions de les Illes Balears",
+    "summary": "L'ha creat en dos dies un enginyer informàtic de Banca March i, segons ell, ja el fan servir més de 4.000 persones al mes.",
+    "detail": "Llegir el Butlletí Oficial de les Illes Balears (BOIB) per saber quines ajudes o quines places públiques s'han convocat és una feina pesada. Un projecte gratuït, BOIBOT, vol estalviar-la als ciutadans: cada matí repassa el butlletí, tria les convocatòries que poden interessar i les resumeix.\n\nL'ha creat Antoni Artigues, enginyer informàtic que treballa a Banca March i que va passar cinc anys al Barcelona Supercomputing Center en projectes de dades massives i IA. La idea li va venir quan la seva dona buscava places de professora de piano a l'escola pública i havia de mirar el BOIB tota l'estona. Segons ell, va construir la versió bàsica en dos dies amb eines d'IA, sense escriure el codi a mà, amb un mètode que anomena Spec Driven Development.\n\nEl web, boibot.es, recull ajudes de lloguer i d'habitatge, beques, cursos, borses de treball i ofertes d'ocupació pública. De cada convocatòria en dona els requisits, els imports, el sou previst quan n'hi ha i els passos per inscriure-s'hi. Un qüestionari generat amb IA a partir de les bases oficials indica si l'usuari les compleix, i per als opositors hi ha calendaris d'estudi setmanals, el seguiment de les fases de cada procés i materials oficials. També s'hi poden activar avisos gratuïts per correu o Telegram, filtrats per illa, municipi i categoria.\n\nLes xifres d'ús (més de 4.000 persones al mes) les dona el mateix autor, i el web no substitueix la lectura de les bases oficials, que són les que tenen valor legal. La Fundació Universitat-Empresa de les Illes Balears el recull entre els seus recursos d'orientació laboral.",
+    "source": "Última Hora",
+    "url": "https://www.ultimahora.es/noticias/local/2026/10/23/2734541/crean-herramienta-para-encontrar-ayudas-empleo-publico-baleares-todos-sabemos-dificil-resulta-leer-boib.html",
+    "image": "./assets/boibot-ajudes-ocupacio-publica-balears-20261023.jpg",
+    "slug": "boibot-ajudes-ocupacio-publica-balears"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "23.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://doi.org/10.1186/s13058-026-02294-9",
     "image": "./assets/cancer-mama-ia-immunitat-ganglis-catalunya-20261019.jpg",
     "slug": "ia-metastasi-ganglis-cancer-mama-upf-urv-tortosa"
-  },
-  {
-    "place": "València",
-    "category": "IA I SOCIETAT",
-    "date": "19.10.2026",
-    "title": "València acull dimecres i dijous el VDS 2026, amb un programa d'IA el dia 21 sobre agents autònoms",
-    "summary": "L'esdeveniment tecnològic, organitzat per Startup Valencia a la Ciutat de les Arts i les Ciències, dedica una jornada a l'impacte de la IA generativa i dels agents.",
-    "detail": "València serà aquesta setmana el punt de trobada d'un dels esdeveniments tecnològics més grans de la Comunitat Valenciana. El VDS 2026, que arriba a la novena edició, se celebra el 21 i 22 d'octubre a la Ciutat de les Arts i les Ciències, organitzat per Startup Valencia, i hi dedica una jornada a la IA.\n\nSegons Valencia Plaza, el programa VDS AI és el dimecres 21 a l'escenari Future Stage i reuneix líders d'empreses tecnològiques per parlar del pas de la IA generativa als agents autònoms i del seu impacte global. Hi intervenen, entre altres, David Villalón i Manuel Romero, cofundadors de Maisa AI, una empresa que va tancar una ronda de 25 milions de dòlars el 2025; Linda Hong Cheng, d'Abstract Atomic; Marcos Valera, d'ElevenLabs; Javier Cortés, de Gamma; i Giedrius Zakaitis, conseller delegat de Hostinger. Adam Hruska, cofundador de l'AI Summit Barcelona, hi farà de moderador. Nacho Mas, conseller delegat de Startup Valencia, assegura que la IA està canviant la competitivitat de pràcticament tots els sectors.\n\nL'edició compta amb el Banco Santander com a patrocinador principal, amb València Innovation Capital, de l'Ajuntament de València, com a institució amfitriona, i amb la Generalitat Valenciana, la Universitat de València i la Universitat Politècnica de València entre els col·laboradors. Per al teixit empresarial valencià és una ocasió de veure de prop com les empreses emergents plantegen els agents d'IA.\n\nÉs una peça de previsió d'un acte, escrita a partir d'una crònica de premsa: el contingut real de les ponències es coneixerà quan se celebrin i aquí no es pot avançar què s'hi dirà. Cal comprovar el programa definitiu a la web de l'organització abans d'assistir-hi.",
-    "source": "Valencia Plaza",
-    "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/de-la-ia-generativa-a-los-agentes-autonomos-lideres-tecnologicos-analizaran-en-valencia-su-impacto-global",
-    "image": "./assets/vds-2026-valencia-programa-ia-20261019.jpg",
-    "slug": "vds-2026-valencia-programa-ia"
   }
 ];

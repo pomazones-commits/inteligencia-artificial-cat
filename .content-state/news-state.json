@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-10-23",
-  "updatedAt": "2026-10-23T04:12:15.118Z",
-  "batches": 1,
+  "updatedAt": "2026-10-23T08:11:44.667Z",
+  "batches": 2,
   "target": 20,
   "items": [
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "slug": "microsoft-mai-dxo-science-diagnostic-metges",
+      "title": "Un sistema d'IA de Microsoft encerta el 83% de diagnòstics difícils en una simulació, davant del 36% de metges de capçalera",
+      "excerpt": "L'estudi, publicat a «Science», fa servir casos del «New England Journal of Medicine» i no compara el sistema amb especialistes ni amb pacients reals.",
+      "sourceName": "TechCrunch (citant l'estudi de «Science»)",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "sourceDate": "22 d'octubre de 2026",
+      "body": "Microsoft porta mesos defensant que la IA pot ajudar a resoldre els casos clínics que costen més de diagnosticar. Aquesta setmana n'ha publicat els resultats a la revista Science, i Mustafa Suleyman, el cap d'IA de l'empresa, ho presenta com un pas cap a la «superintel·ligència mèdica».\n\nEl treball descriu MAI-DxO, un sistema que coordina diversos agents d'IA que actuen com un petit equip de metges: pregunten al pacient, demanen proves i discuteixen el diagnòstic. En una simulació amb casos complexos del New England Journal of Medicine, va encertar el 83% de les vegades. Els metges de capçalera i els internistes generals, que treballaven sols i amb material de consulta, en van encertar el 36%.\n\nEls propis resultats maten una mica el titular. Segons TechCrunch, la major part de la millora ve dels models de llenguatge de base i no pas de l'orquestració: GPT-5 sol arribava al 78,9% en els casos complexos, i amb MAI-DxO pujava uns quatre punts i el cost baixava uns 3.000 dòlars per cas. A urgències, la millora gairebé no es nota, i amb un model més feble com Gemini 2.5 Flash l'avantatge de l'orquestració és més petit que la distància amb els models forts.\n\nEls límits són clars: és una simulació amb casos publicats, no una prova amb pacients, i el grup de comparació no inclou els especialistes ni els equips que atenen aquests casos a la pràctica. Microsoft prepara un estudi real amb el Beth Israel Deaconess Medical Center, a Boston, que compararà les recomanacions del sistema amb les dels metges amb pacients que hi donin el consentiment.",
+      "image": "./assets/microsoft-mai-dxo-science-diagnostic-metges-20261023.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "openai-decisions-api-model-decisio-100-ms",
+      "title": "OpenAI obre a tothom la seva API de decisions, un model que tria entre opcions en 100-180 mil·lisegons",
+      "excerpt": "Competeix amb Jev, que domina aquest nou segment, i els rànquings independents el situen darrere del rival.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "sourceDate": "22 d'octubre de 2026",
+      "body": "Els models de decisió són una categoria nova: no redacten textos, sinó que trien ràpidament entre diverses opcions i diuen amb quina confiança ho fan. Fins ara, el més consultat era Jev, de l'empresa TypeSafe. Aquest dijous OpenAI ha posat la seva resposta a disposició de tots els clients.\n\nLa Decisions API es va anunciar el 29 de setembre, a la jornada per a desenvolupadors d'OpenAI. Per aconseguir-la, l'empresa no ha creat un model calibrat de zero: ha reconfigurat el seu model ChatGPT Luna perquè pensi més de pressa i costi menys. La versió pública afegeix veu i imatge, i permet triar la regió on es processa la petició per reduir l'espera.\n\nSegons el responsable de producte, el temps de resposta ha passat d'un a tres segons a entre 100 i 180 mil·lisegons. Box, Datadog, Ramp i Speak l'han provat; el director tècnic de Speak diu que el temps entre accions va baixar d'1,4 segons a 0,13. L'article no en dona el preu, només que aquests models solen ser més barats que els de llenguatge.\n\nEls rànquings independents no li són tan favorables. A l'Artificial Analysis Decision Index, el model d'OpenAI és el 14è i Jev el 3r; a l'AIM System One Index, el 8è i el 7è. TypeSafe, valorada en 7.600 milions de dòlars segons TechCrunch, manté el lideratge d'ús a OpenRouter. Convé llegir aquestes xifres amb prudència: són índexs recents i els resultats depenen de la prova que s'hi faci servir.",
+      "image": "./assets/openai-decisions-api-model-decisio-100-ms-20261023.jpg"
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "canva-craft-primer-model-imatges",
+      "title": "Canva estrena Craft, el seu primer model d'imatges, entrenat amb plantilles de disseny i no amb fotografies",
+      "excerpt": "Genera fins a 2K, amb text llegible, i es podrà fer servir des de ChatGPT i Gemini; l'empresa redueix així la dependència de models de tercers.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "sourceDate": "22 d'octubre de 2026",
+      "body": "Canva ha presentat Craft, el primer model de generació d'imatges desenvolupat pel seu propi equip de recerca. Fins ara l'empresa de disseny en línia recorria a models de tercers, i ara competeix amb els de Google, OpenAI, ByteDance i Meta.\n\nEl funcionament és en dues fases. Primer, el model interpreta la instrucció i planifica la composició: les relacions d'espai, les proporcions, la jerarquia visual i el text. Després genera la imatge, fins a una resolució de 2K i en una trentena de formats. Canva assegura que els detalls dels objectes són fidels, que el text es llegeix bé i que permet editar un element sense tocar la resta.\n\nEl que el distingeix és l'entrenament: no s'ha fet amb fotografies, sinó amb la biblioteca de plantilles que han dissenyat persones, com ara cartells, publicacions per a xarxes, presentacions, menús i infografies. Les imatges es poden convertir en dissenys per capes amb Canva Magic. Tots els usuaris hi tenen accés des de la pestanya Dream Lab i també per API, i Canva vol que es pugui fer servir des de xatbots com ChatGPT i Gemini. Dues versions més barates, Craftfast i Craft-ultrafast, arribaran aviat.\n\nCal tenir present que Canva no ha publicat proves comparatives independents, de manera que la qualitat que anuncia queda per verificar. Segons TechCrunch, l'empresa ingressava uns 4.000 milions de dòlars l'any passat però ha rebaixat la previsió de creixement del 2026: un model propi li hauria de rebaixar els costos.",
+      "image": "./assets/canva-craft-primer-model-imatges-20261023.jpg"
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "slug": "1password-agents-login-sense-contrasenya",
+      "title": "1Password deixa que els agents d'IA iniciïn sessió en nom teu sense veure mai la contrasenya",
+      "excerpt": "L'usuari aprova cada accés des del mòbil i el gestor és qui omple les credencials; Claude Duet i ChatGPT Work ja hi són compatibles.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "sourceDate": "22 d'octubre de 2026",
+      "body": "A mesura que els agents d'IA fan gestions per compte de les persones, creix un problema: com deixar-los entrar als comptes sense donar-los la contrasenya. 1Password ha llançat aquest dijous 1Password for Agents, que promet resoldre-ho sense que l'agent vegi mai les credencials.\n\nEl procés té tres passos. Quan l'agent vol iniciar sessió, envia a 1Password una clau digital única que demostra qui és. L'usuari rep un avís de l'intent i pot aprovar-lo o rebutjar-lo. Si l'aprova, és 1Password qui introdueix les credencials i obre la sessió; l'agent només hi arriba ja dins.\n\nLa companyia diu que ja funciona amb Claude Duet, d'Anthropic, amb ChatGPT Work i amb Dots, d'OpenAI, amb Muse, de Meta, amb Grok Bot i amb agents de la startup Town, i que treballa amb més empreses. L'article no precisa preus, plans ni calendari d'extensió més enllà del llançament d'avui.\n\nEl moment no és casual. Segons un reportatge d'Axios, els bancs dels Estats Units ja detecten activitat d'agents als comptes dels clients i, en la majoria de casos, no poden saber si respon a una ordre de l'usuari. Un portaveu de Chase recomana no compartir mai el nom d'usuari ni la contrasenya amb ningú. El sistema reduirà aquest risc, però només protegeix el cas en què l'usuari decideix aprovar l'accés.",
+      "image": "./assets/1password-agents-login-sense-contrasenya-20261023.jpg"
+    },
+    {
+      "category": "ILLES BALEARS",
+      "read": "4 MIN",
+      "slug": "boibot-ajudes-ocupacio-publica-balears",
+      "title": "BOIBOT, un assistent d'IA gratuït, resumeix cada matí el BOIB i avisa de les ajudes i les oposicions de les Illes Balears",
+      "excerpt": "L'ha creat en dos dies un enginyer informàtic de Banca March i, segons ell, ja el fan servir més de 4.000 persones al mes.",
+      "sourceName": "Última Hora",
+      "sourceUrl": "https://www.ultimahora.es/noticias/local/2026/10/23/2734541/crean-herramienta-para-encontrar-ayudas-empleo-publico-baleares-todos-sabemos-dificil-resulta-leer-boib.html",
+      "sourceDate": "23 d'octubre de 2026",
+      "body": "Llegir el Butlletí Oficial de les Illes Balears (BOIB) per saber quines ajudes o quines places públiques s'han convocat és una feina pesada. Un projecte gratuït, BOIBOT, vol estalviar-la als ciutadans: cada matí repassa el butlletí, tria les convocatòries que poden interessar i les resumeix.\n\nL'ha creat Antoni Artigues, enginyer informàtic que treballa a Banca March i que va passar cinc anys al Barcelona Supercomputing Center en projectes de dades massives i IA. La idea li va venir quan la seva dona buscava places de professora de piano a l'escola pública i havia de mirar el BOIB tota l'estona. Segons ell, va construir la versió bàsica en dos dies amb eines d'IA, sense escriure el codi a mà, amb un mètode que anomena Spec Driven Development.\n\nEl web, boibot.es, recull ajudes de lloguer i d'habitatge, beques, cursos, borses de treball i ofertes d'ocupació pública. De cada convocatòria en dona els requisits, els imports, el sou previst quan n'hi ha i els passos per inscriure-s'hi. Un qüestionari generat amb IA a partir de les bases oficials indica si l'usuari les compleix, i per als opositors hi ha calendaris d'estudi setmanals, el seguiment de les fases de cada procés i materials oficials. També s'hi poden activar avisos gratuïts per correu o Telegram, filtrats per illa, municipi i categoria.\n\nLes xifres d'ús (més de 4.000 persones al mes) les dona el mateix autor, i el web no substitueix la lectura de les bases oficials, que són les que tenen valor legal. La Fundació Universitat-Empresa de les Illes Balears el recull entre els seus recursos d'orientació laboral.",
+      "image": "./assets/boibot-ajudes-ocupacio-publica-balears-20261023.jpg"
+    },
     {
       "category": "EMPRESES",
       "read": "4 MIN",

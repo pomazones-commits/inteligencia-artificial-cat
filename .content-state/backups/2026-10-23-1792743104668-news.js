@@ -1,0 +1,65 @@
+window.IA_NEWS = [
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "openai-30000-milions-valoracio-1-25-bilions",
+    "title": "OpenAI negocia una nova ronda de fins a 30.000 milions de dòlars que valoraria l'empresa en 1,25 bilions, segons CNBC",
+    "excerpt": "Les condicions encara es negocien i OpenAI no ho ha comentat: la ronda, liderada per Coatue amb inversors dels Emirats, es faria sense esperar la sortida a borsa.",
+    "sourceName": "TechCrunch (citant CNBC)",
+    "sourceUrl": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+    "sourceDate": "22 d'octubre de 2026",
+    "body": "OpenAI és, des de fa mesos, una de les empreses privades més valorades del món, i el seu finançament marca el ritme de tota la cursa de la IA. L'última ronda coneguda, al març, la va valorar en 852.000 milions de dòlars després de la inversió. Al juny, l'empresa va presentar de manera confidencial els papers per sortir a borsa.\n\nSegons CNBC, que cita fonts properes a l'operació i que TechCrunch recull, OpenAI treballa en una nova ronda de fins a 30.000 milions de dòlars amb una valoració d'1,25 bilions de dòlars abans de comptar-hi els diners nous. La lideraria Coatue, amb inversors dels Emirats Àrabs Units, i el finançament dels Emirats podria anar lligat a un acord perquè OpenAI disposi de més capacitat de càlcul. Bloomberg ja havia explicat fa un mes una operació semblant, però amb una valoració d'1,4 bilions.\n\nSi es tanca, seria la ronda privada més gran de la història i convertiria OpenAI en l'empresa privada de més valor mai registrada. Segons CNBC, l'empresa semblaria decantar-se per aquesta via en comptes de córrer cap a la sortida a borsa, tot i que no hi ha cap data per al debut. El moviment també es llegeix com una resposta a Anthropic, que al maig va aixecar 65.000 milions amb una valoració de 965.000 milions i, segons la mateixa cadena, busca entre 1,5 i 2 bilions per a la seva sortida a borsa.\n\nConvé llegir-ho amb cautela: no és una operació tancada, les condicions poden canviar i OpenAI ha declinat fer comentaris. La xifra d'1,25 bilions és anterior a la injecció, i per això no es pot comparar directament amb els 852.000 milions del març, que ja incloïen els diners aportats. Tampoc no hi ha confirmació oficial de qui hi participaria ni de l'acord de capacitat de càlcul.",
+    "image": "./assets/openai-30000-milions-valoracio-1-25-bilions-20261023.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "4 MIN",
+    "slug": "be-my-ai-estudi-cec-descripcions-llargues",
+    "title": "Un estudi amb onze persones cegues mostra que Be My AI sovint respon amb descripcions massa llargues en lloc de contestar la pregunta",
+    "excerpt": "La recerca, presentada al congrés CHI 2026, va analitzar 418 converses i conclou que els usuaris han d'aprendre trucs per obtenir respostes útils.",
+    "sourceName": "Tech Xplore (Universitat de Maryland; CHI 2026)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-app-ai-eyes-users-fall.html",
+    "sourceDate": "22 d'octubre de 2026",
+    "body": "Be My Eyes connecta des del 2015 persones cegues o amb baixa visió amb voluntaris que els descriuen el que veuen. El 2023 hi va afegir Be My AI, una funció que respon a l'instant preguntes sobre una fotografia sense cap voluntari al darrere. Una recerca de la Universitat de Maryland ha estudiat com la fa servir la gent en el dia a dia.\n\nEl treball, titulat «Say It My Way: Exploring Control in Conversational Visual Question Answering with Blind Users» (DOI 10.1145/3772318.3791834), s'ha publicat a les actes del congrés ACM CHI 2026, una via amb revisió per parells. Onze participants cecs van practicar al laboratori i després van fer servir l'aplicació durant deu dies; l'equip, amb Hernisa Kacorri i Hal Daumé III entre els autors, va analitzar 418 interaccions i va entrevistar els participants. Les preguntes solien tenir entre 10 i 20 paraules, mentre que les respostes eren més de deu vegades més llargues, i algunes converses van arribar als 21 intercanvis.\n\nEl problema principal és que l'aplicació comença cada conversa amb una descripció completa de la imatge en lloc de respondre el que s'ha preguntat, i la dada útil queda enterrada. Més de la meitat dels participants van considerar-ho un problema greu. Per sortir-se'n, els usuaris deien primer quin era el seu objectiu i partien les tasques grans en preguntes petites i successives. Els autors defensen que no haurien de necessitar habilitats especials per fer preguntes a una IA perquè els serveixi.\n\nEls límits són clars: només onze participants, una sola aplicació i cap mesura d'encert ni anàlisi estadística. L'afirmació dels autors que és el primer estudi que documenta sistemàticament aquestes estratègies en l'ús assistiu tampoc no s'ha verificat de manera independent. Serveix com a avís de disseny més que com a prova definitiva.",
+    "image": "./assets/be-my-ai-estudi-cec-descripcions-llargues-20261023.jpg"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "uber-chatgpt-work-30000-empleats",
+    "title": "Uber posa els seus 30.000 empleats a ChatGPT Work després d'una prova pilot amb 1.000 persones",
+    "excerpt": "L'empresa no revela el cost i diu que seguirà l'ús i la productivitat abans d'ampliar el desplegament; el 80% dels primers usuaris no eren enginyers.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+    "sourceDate": "22 d'octubre de 2026",
+    "body": "ChatGPT Work és la versió d'OpenAI pensada per a empreses: un agent que els equips poden adaptar a fluxos de feina concrets. Es va presentar al juliol, i OpenAI hi juga part de la seva competència amb Anthropic pels clients corporatius.\n\nUber ha anunciat aquest dijous que tota la seva plantilla mundial, uns 30.000 treballadors, passarà a fer-lo servir, dins d'una ampliació de la col·laboració amb OpenAI. Abans, aquest any, l'havia provat amb 1.000 persones de departaments com finances, operacions i producte. Segons Sumanth Sukumar, vicepresident d'enginyeria d'Uber, al voltant del 80% dels primers usuaris no eren enginyers.\n\nEntre els usos de la prova hi ha l'anàlisi de dades d'operacions per detectar tendències i fer recomanacions, l'adaptació de materials de formació a diferents mercats i llengües, i la creació de quadres de comandament interactius personalitzats. L'empresa també havia emparellat 30 enginyers d'IA amb equips de tota la companyia durant dues setmanes cadascun per automatitzar-ne tasques clau.\n\nEls resultats encara no es coneixen. Uber no ha revelat quant costa el desplegament i no ha fixat com han d'usar l'eina els empleats: la idea és donar-hi accés i deixar marge perquè cada equip experimenti. Seguirà l'ús, els fluxos de treball i els resultats de productivitat per decidir com ampliar-ho, però no n'ha publicat cap dada.",
+    "image": "./assets/uber-chatgpt-work-30000-empleats-20261023.jpg"
+  },
+  {
+    "category": "INFRAESTRUCTURA",
+    "read": "4 MIN",
+    "slug": "nextdc-centre-dades-melbourne-accions-cauen-40",
+    "title": "NextDC s'enfonsa un 40% a la borsa australiana després d'avisar que els retards d'un centre de dades de Melbourne faran caure els ingressos",
+    "excerpt": "L'empresa atribueix els retards a l'oposició veïnal a l'ampliació M3; una anàlisi de The Conversation situa el cas dins els dubtes d'inversors sobre el negoci dels centres de dades.",
+    "sourceName": "Tech Xplore (The Conversation)",
+    "sourceUrl": "https://techxplore.com/news/2026-10-center-company-investors-faith-ai.html",
+    "sourceDate": "22 d'octubre de 2026",
+    "body": "NextDC és una de les grans constructores de centres de dades d'Austràlia i cotitza a la borsa del país. Els seus projectes són una de les peces de la infraestructura que necessita la IA, i per això els seus resultats es miren com a termòmetre del sector.\n\nSegons una anàlisi d'Andrew Cullen publicada a The Conversation i represa per Tech Xplore, les accions de l'empresa van caure al voltant d'un 40% dimecres, després que NextDC advertís que els retards al seu centre principal de Melbourne farien que els ingressos quedessin per sota de les previsions. Els retards arriben després de les queixes veïnals contra l'ampliació M3: la distribuïdora elèctrica Jemena va aturar la col·locació de pals de formigó de 22 metres a Footscray quan els ajuntaments de la zona van plantejar objeccions pel seu impacte en barris residencials.\n\nL'article situa el cas en un clima de dubte entre els inversors. Cita que la inversió mundial en centres de dades podria arribar a uns 10 bilions de dòlars el 2032, i que, segons analistes, OpenAI i Anthropic haurien de fer créixer els ingressos un 80% cada any durant sis anys per respondre a les expectatives. També recorda que CoreWeave va perdre un 15% en un sol dia la setmana passada, que Firmus ha cancel·lat la sortida a la borsa australiana i que Nscale té dificultats per trobar compradors a Wall Street. A Victòria, AusNet revisa sol·licituds de connexió de centres de dades de més de 10 gigawatts.\n\nCal tenir present que és un text d'anàlisi, no una informació d'agència, i que es basa en un sol cas concret. La caiguda de NextDC té una causa pròpia —els retards d'una obra amb oposició veïnal— i no demostra per si sola que el negoci dels centres de dades s'estigui desinflant, encara que s'afegeixi als senyals de prudència d'altres operacions.",
+    "image": "./assets/nextdc-centre-dades-melbourne-accions-cauen-20261023.jpg",
+    "etiquetes": [
+      "centres-de-dades"
+    ]
+  },
+  {
+    "category": "CATALUNYA",
+    "read": "4 MIN",
+    "slug": "catalunya-spin-offs-tecnologia-profunda-informe-mwc",
+    "title": "Catalunya té 290 de les 1.014 empreses derivades de recerca de tecnologia profunda d'Espanya, i el 40% de les noves treballen amb xips, càlcul i IA",
+    "excerpt": "L'informe de Mobile World Capital, que Ara resumeix, situa Catalunya per tercer cop al capdavant de l'Estat, amb 2.885 llocs de feina molt especialitzats.",
+    "sourceName": "Ara",
+    "sourceUrl": "https://www.ara.cat/economia/tecnologia/catalunya-consolida-lideratge-spin-off-tecnologia-profunda-l_1_5886807.html",
+    "sourceDate": "22 d'octubre de 2026",
+    "body": "Les empreses derivades de la recerca universitària (spin-off) de tecnologia profunda són companyies que neixen d'un resultat científic i triguen anys a vendre. Mobile World Capital Barcelona en publica un informe sobre l'ecosistema espanyol, que enguany ha arribat a la tercera edició i s'ha presentat aquest dijous.\n\nSegons l'informe, tal com el resumeix Ara, a final del 2025 hi havia a Espanya 1.014 d'aquestes empreses actives, un 4,6% més que un any abans. Catalunya en concentra 290, el 28,5% del total, amb 2.885 llocs de feina molt especialitzats, i ha encapçalat les tres edicions. Madrid té una mica més del 20% i la Comunitat Valenciana, una mica més del 10%. Entre les catalanes, la biotecnologia i les ciències de la salut en suposen més del 47% i la informàtica i la IA, al voltant del 35%.\n\nLaia Corbella, de Mobile World Capital, va destacar que el 40% de les noves empreses de tecnologia profunda catalanes treballen amb xips, càlcul i IA, un canvi que va qualificar d'alineat amb les prioritats estratègiques del país. En total s'estima que van facturar 1.132 milions d'euros el 2025 a tot l'Estat; més de 400 han rebut inversió i s'han detectat més de 2.880 milions de finançament, un 45% de capital públic i un 35% de privat. Albert Mascarell va recordar que no són companyies que facturin de seguida: poden trigar set o vuit anys.\n\nAquesta peça es basa només en el resum d'Ara, un article de pagament que hem pogut llegir en part; no hem consultat l'informe original. A més, l'informe el promou una fundació que treballa per l'ecosistema digital, i les xifres són de recompte propi. El percentatge d'IA en recull només una part: cal esperar el document sencer per saber quantes de les 290 treballen realment amb IA.",
+    "image": "./assets/catalunya-spin-offs-tecnologia-profunda-informe-20261023.jpg"
+  }
+];
