@@ -1,8 +1,10 @@
-name: Prova de veus (Matxa o Gemini)
+name: Prova de veus (Matxa, Gemini o Edge)
 
 # Només a mà (12.10.2026). Llegeix una notícia amb diverses veus catalanes de
 # Matxa (BSC / Projecte Aina) o de Gemini (Google; cal el secret GEMINI_API_KEY)
 # i puja els MP3 a assets/audio/prova-veu-*.mp3
+# Edge (23.10.2026): prova si la Joana i l'Enric de Microsoft (edge-tts) tornen
+# a funcionar després del 403 del 12.10.2026 (rany2/edge-tts#490).
 # perquè es puguin escoltar i triar. No toca res del web ni dels MP3 de l'edició.
 on:
   workflow_dispatch:
@@ -10,14 +12,14 @@ on:
       motor:
         description: "Motor de veu"
         type: choice
-        options: [matxa, gemini]
+        options: [matxa, gemini, edge]
         default: matxa
       slug:
         description: "Slug de la notícia a llegir (buit = la primera de l'edició d'avui)"
         required: false
         default: ""
       veus:
-        description: "Veus veu:variant (Matxa) o veu:model (Gemini), separades per comes. Buit = les de prova"
+        description: "Veus veu:variant (Matxa), veu:model (Gemini) o nom de veu (Edge), separades per comes. Buit = les de prova"
         required: false
         default: ""
 
@@ -37,7 +39,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Engega el servei de veu de Matxa
-        if: github.event.inputs.motor != 'gemini'
+        if: github.event.inputs.motor == 'matxa'
         run: |
           docker run -d --name matxa -p 8000:8000 projecteaina/tts-api:latest
           for i in $(seq 1 60); do
@@ -58,6 +60,10 @@ jobs:
       - name: Instal·la el codificador MP3
         run: pip install lameenc
 
+      - name: Instal·la edge-tts (darrera versió)
+        if: github.event.inputs.motor == 'edge'
+        run: pip install --upgrade edge-tts && pip show edge-tts | head -2
+
       - name: Llegeix la notícia amb cada veu i puja els MP3
         env:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
@@ -74,5 +80,5 @@ jobs:
         run: python automation/scripts/prova_veus.py
 
       - name: Registre del servei (si alguna cosa ha fallat)
-        if: failure() && github.event.inputs.motor != 'gemini'
+        if: failure() && github.event.inputs.motor == 'matxa'
         run: docker logs --tail 80 matxa || true

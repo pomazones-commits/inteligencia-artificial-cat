@@ -109,9 +109,30 @@ def sintetitza_gemini(text: str, veu: str, model: str, desti: Path) -> None:
     sintetitza_gemini_wav(text, desti, veu=veu, model=model)
 
 
+# --- Edge (Microsoft, via edge-tts) ------------------------------------------
+# 23.10.2026: per comprovar si la Joana torna a funcionar després del 403 que va
+# deixar l'edició sense àudio el 12.10.2026. edge-tts ja dona l'MP3 fet.
+EDGE_VEUS_DEFECTE = "ca-ES-JoanaNeural,ca-ES-EnricNeural"
+
+
+def sintetitza_edge(text: str, veu: str, desti_mp3: Path) -> None:
+    import asyncio
+    import edge_tts  # només s'instal·la al workflow quan el motor és «edge»
+
+    async def fes():
+        await edge_tts.Communicate(text, veu).save(str(desti_mp3))
+
+    asyncio.run(fes())
+    if not desti_mp3.exists() or desti_mp3.stat().st_size < 1024:
+        raise RuntimeError("edge-tts no ha retornat àudio")
+
+
 def main() -> int:
     sys.stdout.reconfigure(line_buffering=True)
     motor = os.environ.get("MOTOR", "matxa").strip().lower() or "matxa"
+    if motor == "edge":
+        import edge_tts
+        print("edge-tts", getattr(edge_tts, "__version__", "?"))
     if motor == "matxa":
         with urllib.request.urlopen(f"{API}/api/available-voices", timeout=30) as r:
             print("Veus disponibles al servei:", r.read().decode()[:400])
@@ -125,7 +146,7 @@ def main() -> int:
         return 1
 
     errors = 0
-    defecte = GEMINI_VEUS_DEFECTE if motor == "gemini" else VEUS_DEFECTE
+    defecte = {"gemini": GEMINI_VEUS_DEFECTE, "edge": EDGE_VEUS_DEFECTE}.get(motor, VEUS_DEFECTE)
     for parell in (os.environ.get("VEUS", "").strip() or defecte).split(","):
         veu, _, variant = parell.strip().partition(":")
         variant = variant or ("gemini-3.8-flash-lite-tts" if motor == "gemini" else "ca-es")
@@ -134,17 +155,22 @@ def main() -> int:
             mp3 = Path(td) / "veu.mp3"
             inici = time.time()
             try:
-                if motor == "gemini":
+                if motor == "edge":
+                    sintetitza_edge(text, veu, mp3)
+                elif motor == "gemini":
                     sintetitza_gemini(text, veu, variant, wav)
+                    wav_a_mp3(wav, mp3)
                 else:
                     sintetitza(text, veu, variant, wav)
-                wav_a_mp3(wav, mp3)
+                    wav_a_mp3(wav, mp3)
             except Exception as exc:
                 print(f"ERROR amb {veu} ({variant}): {exc}")
                 errors += 1
                 continue
             segons = time.time() - inici
-            if motor == "gemini":
+            if motor == "edge":
+                nom = f"prova-veu-edge-{veu.split('-')[2].replace('Neural', '').lower()}"
+            elif motor == "gemini":
                 gamma = "lite" if "lite" in variant else "flash"
                 nom = f"prova-veu-gemini-{veu.lower()}-{gamma}"
             else:
