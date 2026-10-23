@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-22T12:18:30.450Z",
+ "actualitzat": "2026-10-23T04:12:55.879Z",
  "canals": 19,
  "videos": [
   {
@@ -785,30 +785,6 @@
    "publicat": "2026-10-02T16:00:20.000Z",
    "descripcio": "Simplismart eliminates ML Ops complexity with a no-code platform that lets enterprises design, train, and deploy custom AI models without managing infrastructure. Powered by NVIDIA GPUs, Triton™ Inference Server, TensorRT-LLM, and NVIDIA NIM™ microservices, Simplismart delivers ultra-low latency, au",
    "miniatura": "/assets/videos/UxOQ2qyY6Qo.jpg"
-  },
-  {
-   "id": "Rnz9mOyxk0k",
-   "titol": "How to transform audio into physical prints using Gemini and Google AI Studio",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-10-01T19:00:13.000Z",
-   "descripcio": "Using Nano Banana and Gemini through Antigravity and Google AI Studio, Gayatri found a way to transform spoken words and everyday thoughts into lasting visual artifacts. Watch to explore the build and see how memories become physical prints. Try building today → https://goo.gle/3VfKNQR Subscribe to ",
-   "miniatura": "/assets/videos/Rnz9mOyxk0k.jpg"
-  },
-  {
-   "id": "HIUzrxQxTtw",
-   "titol": "From deepfakes to DNA: the science of watermarking AI",
-   "canal": "Google DeepMind",
-   "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
-   "grup": "empreses",
-   "categoria": "societat",
-   "idioma": "en",
-   "publicat": "2026-10-01T16:37:46.000Z",
-   "descripcio": "How do you know if what you're seeing is real? Professor Hannah Fry sits down with Pushmeet Kohli (VP of Science) and Jeremy Ratcliffe (Research Scientist) to break down SynthID, the watermarking technology expanding from text, images, and video straight into biology. Learn how invisible, mathematic",
-   "miniatura": "/assets/videos/HIUzrxQxTtw.jpg"
   }
  ]
 }
