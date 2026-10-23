@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-23T08:11:47.342Z",
+  "generat": "2026-10-23T12:21:27.315Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -24,7 +24,7 @@
       "programa": "El matí de Catalunya Ràdio",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 0
+      "sobre_ia": 1
     },
     {
       "font": "3cat",
@@ -126,7 +126,7 @@
       "font": "apunt",
       "emissora": "À Punt Ràdio",
       "programa": "",
-      "resultats": 5,
+      "resultats": 4,
       "estat": "ok",
       "audios": 0,
       "sobre_ia": 0
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 24,
+      "audios": 23,
       "sobre_ia": 4
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 10,
+      "audios": 8,
       "sobre_ia": 1
     },
     {
@@ -173,26 +173,26 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 300,
+      "audios": 400,
       "sobre_ia": 3
     }
   ],
   "candidats": [
     {
-      "id": "3cat-1295060",
+      "id": "3cat-1295105",
       "emissora": "Catalunya Ràdio",
-      "programa": "Catalunya nit",
-      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
-      "data": "2026-10-22",
-      "durada": "1 h 0 min",
-      "titol_original": "Catalunya nit, de 22 a 23 h - 22/10/2026",
-      "descripcio_original": "És delicte que els partits polítics recorrin a la intel·ligència artificial per atacar els seus rivals? I a la sessió golfa, Àlex Gorina s'inspira en França.",
+      "programa": "El matí de Catalunya Ràdio",
+      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
+      "data": "2026-10-23",
+      "durada": "9 min",
+      "titol_original": "És lícit fer servir la intel·ligència artificial per als vídeos de la precampanya?",
+      "descripcio_original": "Analitzem el vídeo fet amb intel·ligència artificial pel PP en què Begoña Gómez i figures vinculades al PSOE admeten delictes. El PSOE ja ha dit que es planteja portar-lo a la justícia.",
       "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/catalunya-nit-de-22-a-23-h-22102026/audio/1295060/",
+      "ia_al_titol": true,
+      "url": "https://www.3cat.cat/3cat/es-licit-fer-servir-la-intelligencia-artificial-per-als-videos-de-la-precampanya/audio/1295105/",
       "reproductor": {
         "tipus": "3cat",
-        "id": "1295060"
+        "id": "1295105"
       }
     }
   ]
