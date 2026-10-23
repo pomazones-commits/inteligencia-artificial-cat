@@ -1,8 +1,107 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-23T09:38:05.246Z",
+ "actualitzat": "2026-10-23T12:22:06.953Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "1370c8eff5d3",
+   "mitja": "Diari de Terrassa",
+   "font": "diarideterrassa",
+   "icona": "/assets/premsa/diari-de-terrassa.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Aprenent a gestionar les ressenyes amb IA",
+   "url": "https://www.diarideterrassa.com/economia/aprenent-a-gestionar-les-ressenyes-amb-ia.html",
+   "publicat": "2026-10-23T12:21:14.000Z"
+  },
+  {
+   "id": "fddbd007bfc9",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Expertos de toda España abordan en Alicante cómo afecta la IA a la información científica sanitaria",
+   "url": "https://www.informacion.es/alicante/2026/10/23/expertos-espana-alicante-inteligencia-artificial-informacion-cientifica-sanidad-135670769.html",
+   "publicat": "2026-10-23T11:52:08.000Z"
+  },
+  {
+   "id": "5d0d5af21cbe",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Deportes | La inteligencia artificial también juega en el deporte: La Nucía debate su impacto en el turismo y la gestión deportiva",
+   "url": "https://alicanteplaza.es/alicanteplaza/deportesalicante/la-inteligencia-artificial-tambien-juega-en-el-deporte-la-nucia-debate-su-impacto-en-el-turismo-y-la-gestion-deportiva",
+   "publicat": "2026-10-23T11:41:51.000Z"
+  },
+  {
+   "id": "1e0dfa921602",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La retirada por embarazo de una de las Babyqueen, un grupo de K-Pop generado por IA, abre un nuevo debate en China",
+   "url": "https://www.lavanguardia.com/gente/20261023/11666383/retirada-embarazo-babyqueen-grupo-k-pop-generado-ia-abre-nuevo-debate-china.html",
+   "publicat": "2026-10-23T10:45:44.000Z"
+  },
+  {
+   "id": "06cfdb18427f",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Leire Díez es querella contra el PP pel vídeo fet amb IA en què li suplanten la identitat",
+   "url": "https://www.ara.cat/politica/leire-diez-querella-pp-pel-video-fet-ia-li-suplanten-identitat_1_5888092.html",
+   "publicat": "2026-10-23T10:43:38.000Z"
+  },
+  {
+   "id": "e223d7ada450",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Leire Díez se querella contra el PP por el vídeo con IA que le atribuye contratar matones",
+   "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/23/2734903/leire-diez-querella-contra-por-video-que-atribuye-contratar-matones.html",
+   "publicat": "2026-10-23T10:36:00.000Z"
+  },
+  {
+   "id": "f3d3ad2fd20f",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Leire Díez es querella contra el PP pels vídeos de campanya fets amb IA",
+   "url": "https://www.elnacional.cat/ca/politica/leire-diez-es-querella-contra-pp-videos-campanya-fets-ia_1714018_102.html",
+   "publicat": "2026-10-23T10:33:43.000Z"
+  },
+  {
+   "id": "6c469a7801b9",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Detectan que agentes de IA no autorizados acceden a cuentas bancarias de clientes en bancos de Estados Unidos",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/23/2734899/detectan-agentes-autorizados-acceden-cuentas-bancarias-clientes-bancos-estados-unidos.html",
+   "publicat": "2026-10-23T10:26:00.000Z"
+  },
+  {
+   "id": "e3b519a630cb",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Leire Díez se querella contra el PP por el vídeo con IA que le atribuye “haber contratado a matones” para “quitar” a una juez",
+   "url": "https://www.lavanguardia.com/politica/20261023/11666329/leire-diez-querella-pp-video-ia-le-atribuye-haber-contratado-matones-quitar-juez.html",
+   "publicat": "2026-10-23T09:46:27.000Z"
+  },
   {
    "id": "4fb8ca8119d2",
    "mitja": "El Periódico",
@@ -2540,54 +2639,6 @@
    "titol": "Anthropic permite que evaluadores externos analicen sus modelos de IA como cualquier empleado: “Queremos rendir cuentas públicamente por nuestras decisiones”",
    "url": "https://www.lavanguardia.com/neo/ia/20261016/11660551/anthropic-permite-evaluadores-externos-analicen-modelos-ia-empleado-queremos-rendir-cuentas-publicamente-decisiones.html",
    "publicat": "2026-10-16T12:49:11.000Z"
-  },
-  {
-   "id": "9728a0ced954",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L'FMI, en alerta per la IA: \"Sense salvaguardes, el risc pot superar les oportunitats\"",
-   "url": "https://www.ara.cat/economia/tecnologia/l-fmi-alerta-ia-salvaguardes-risc-pot-superar-oportunitats_1_5880840.html",
-   "publicat": "2026-10-16T11:42:30.000Z",
-   "noticia": "fmi-georgieva-ia-salvaguardes-riscos-jack-clark-anthropic",
-   "noticiaTitol": "La directora de l'FMI avisa que, sense salvaguardes, els riscos de la IA poden superar-ne els beneficis"
-  },
-  {
-   "id": "40e7cd6768c0",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un nuevo asistente con IA ayudará a los catalanes a detectar estafas virtuales",
-   "url": "https://www.elperiodico.com/es/sociedad/20261016/catalunya-tendra-asistente-ia-permitira-detectar-estafas-135410925",
-   "publicat": "2026-10-16T11:19:06.000Z"
-  },
-  {
-   "id": "2da534c1ac9c",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un investigador de la UIB obté el segon lloc en un repte de l'ESA sobre intel·ligència artificial i observació de la Terra",
-   "url": "https://www.diariodemallorca.es/cronica-uib/2026/10/16/investigador-uib-segon-lloc-esa-ia-observacio-terra-135407003.html",
-   "publicat": "2026-10-16T10:29:54.000Z"
-  },
-  {
-   "id": "566931d6f4a4",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | Inescop investiga el uso de la inteligencia artificial para acelerar el diseño y desarrollo de calzado",
-   "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/inescop-investiga-el-uso-de-la-inteligencia-artificial-para-acelerar-el-diseno-y-desarrollo-de-calzado",
-   "publicat": "2026-10-16T10:02:19.000Z",
-   "noticia": "prodia-calcat-envasos-ia-comunitat-valenciana",
-   "noticiaTitol": "Un projecte valencià liderat per l'ITI vol que la IA ajudi a dissenyar calçat i envasos i a provar-ne el mercat abans de fabricar-los"
   }
  ]
 }
