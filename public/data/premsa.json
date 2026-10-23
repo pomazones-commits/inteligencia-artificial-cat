@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-23T16:14:25.326Z",
+ "actualitzat": "2026-10-23T20:07:24.034Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "7f055e615950",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Elche | El III Congreso Internacional de Diseño reivindica en Elche la protección de la creatividad frente a los retos de la inteligencia artificial",
+   "url": "https://alicanteplaza.es/alicanteplaza/elcheplaza/el-iii-congreso-internacional-de-diseno-reivindica-en-elche-la-proteccion-de-la-creatividad-frente-a-los-retos-de-la-inteligencia-artificial",
+   "publicat": "2026-10-23T20:05:40.000Z"
+  },
+  {
+   "id": "1f786850047d",
+   "mitja": "Diari La Veu",
+   "font": "diarilaveu",
+   "icona": "/assets/premsa/diari-la-veu.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Trump rebateja la IA com a “Superintel·ligència”: El somni del capitalisme ultralibreral",
+   "url": "https://www.diarilaveu.cat/societat/trump-rebateja-la-ia-com-a-superintelligencia-el-somni-del-capitalisme-ultralibreral-654622",
+   "publicat": "2026-10-23T19:30:00.000Z"
+  },
+  {
+   "id": "eb4f6b47d4c8",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El 6.º Festival 42 insiste en la IA y en los mecanismos del miedo en nuestra sociedad",
+   "url": "https://www.lavanguardia.com/cultura/20261023/11666746/6-o-festival-42-insiste-ia-mecanismos-miedo-nuestra-sociedad.html",
+   "publicat": "2026-10-23T18:07:28.000Z"
+  },
   {
    "id": "0e35f7be5c97",
    "mitja": "Diari de Terrassa",
@@ -21,7 +54,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "El petróleo y el temor a una burbuja de la IA dejan una semana de pérdidas en las Bolsas pese al rebote final",
+   "titol": "El petróleo y el temor a una burbuja de la IA dejan una semana de pérdidas en las Bolsas",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-23/la-bolsa-y-el-ibex-35.html",
    "publicat": "2026-10-23T15:55:52.000Z"
   },
@@ -2553,61 +2586,6 @@
    "titol": "Microsoft vuelve a los cuatro billones en Bolsa y recupera su papel como uno de los actores principales en la IA",
    "url": "https://elpais.com/economia/2026-10-17/microsoft-vuelve-a-los-cuatro-billones-en-bolsa-y-recupera-su-papel-como-uno-de-los-actores-principales-en-la-ia.html",
    "publicat": "2026-10-17T03:15:00.000Z"
-  },
-  {
-   "id": "1b615cbe0f82",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Amazon lanza dos accesorios de Bee con IA para recordar conversaciones y tareas del día a día",
-   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-10-16/bee-frontier-bee-eclipse-amazon.html",
-   "publicat": "2026-10-16T19:30:00.000Z"
-  },
-  {
-   "id": "b7f46664e1f9",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Benidorm se convierte en banco de pruebas para la aplicación de la IA en la medición de la huella hídrica",
-   "url": "https://www.informacion.es/economia/2026/10/16/benidorm-convierte-banco-pruebas-huella-hidrica-hoteles-135370003.html",
-   "publicat": "2026-10-16T18:46:10.000Z"
-  },
-  {
-   "id": "4236dc996a2b",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Amazon presenta dos curiosos dispositius d'IA per utilitzar en el dia a dia",
-   "url": "https://www.elnacional.cat/ca/tecnologia/amazon-presenta-dos-curiosos-dispositius-ia-utilitzar-en-dia-dia_1710868_102.html",
-   "publicat": "2026-10-16T18:00:00.000Z"
-  },
-  {
-   "id": "0e0b82a74f7e",
-   "mitja": "Diari de Terrassa",
-   "font": "diarideterrassa",
-   "icona": "/assets/premsa/diari-de-terrassa.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Has incorporat ChatGPT a la teva empresa, però ha canviat realment res?",
-   "url": "https://www.diarideterrassa.com/opinio/has-incorporat-chatgpt-a-la-teva-empresa-pero-ha-canviat-realment-res.html",
-   "publicat": "2026-10-16T17:36:57.000Z"
-  },
-  {
-   "id": "43c724d7778f",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El impacto académico de la inteligencia artificial centra la inauguración del curso del CESAG",
-   "url": "https://www.ultimahora.es/noticias/local/2026/10/16/2730515/impacto-academico-inteligencia-artificial-centra-inauguracion-del-curso-del-cesag.html",
-   "publicat": "2026-10-16T17:01:00.000Z"
   }
  ]
 }
