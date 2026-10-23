@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Genera un MP3 per notícia amb la veu neuronal catalana i el puja al servidor.
 
-S'executa dins de GitHub Actions. Veu principal (des del 12.10.2026): Gemini,
-veu «Kore», model gemini-3.8-flash-lite-tts. Si Gemini falla, fa servir la veu
-catalana local de Piper (ca_ES-upc_ona-medium), que corre al mateix runner.
-Fins al 12.10.2026 era la Joana d'edge-tts, fins que Microsoft la va tallar.
+S'executa dins de GitHub Actions. Veus, per ordre (decisió d'en Rafael del
+23.10.2026): 1) la Joana de Microsoft (edge-tts, ca-ES-JoanaNeural), gratuïta;
+2) si Microsoft falla, Gemini «Kore» (gemini-3.8-flash-lite-tts), de pagament;
+3) si també falla Gemini, la veu catalana local de Piper (ca_ES-upc_ona-medium).
+Història: Joana fins al 12.10.2026 (Microsoft la va tallar amb un 403), Kore
+del 12 al 23.10.2026, i Joana un altre cop quan es va comprovar que tornava.
 Els MP3 NO es guarden al repositori: es pugen directament al servidor,
 a assets/audio/<slug>.mp3. Si una síntesi falla, la notícia conserva el lector
 de veu del navegador com a xarxa de seguretat (article.php ho gestiona sol).
@@ -35,23 +37,29 @@ import tempfile
 import time
 from pathlib import Path
 
-# Veu principal (12.10.2026, triada per Rafael d'oïda entre Matxa, Gemini i
-# Piper): Gemini «Kore» amb el model econòmic, a ritme normal. La clau arriba
-# NOMÉS pel secret GEMINI_API_KEY de GitHub. Abans era la Joana d'edge-tts,
-# que Microsoft va tallar el 12.10.2026 (rany2/edge-tts#490).
+# Veu principal (23.10.2026): la Joana d'edge-tts, gratuïta i sense clau. Va
+# caure del 12 al 23.10.2026 (rany2/edge-tts#490); si torna a caure, cada peça
+# passa sola a la Kore. SENSE_EDGE=1 se la salta a mà.
+EDGE_VEU = os.environ.get("EDGE_TTS_VEU", "ca-ES-JoanaNeural")
+_EDGE_KO = os.environ.get("SENSE_EDGE", "") == "1"
+# Primer recanvi (des del 23.10.2026; veu principal del 12 al 23.10.2026,
+# triada per Rafael d'oïda): Gemini «Kore» amb el model econòmic, a ritme
+# normal. La clau arriba NOMÉS pel secret GEMINI_API_KEY de GitHub.
 GEMINI_URL = os.environ.get("GEMINI_URL", "https://generativelanguage.googleapis.com/v1beta/interactions")
 GEMINI_MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-3.8-flash-lite-tts")
 GEMINI_VEU = os.environ.get("GEMINI_TTS_VEU", "Kore")
 GEMINI_ESTIL = ("Locució de notícies en català central, to informatiu i serè, "
                 "ritme normal i natural, pronúncia catalana genuïna.")
 GEMINI_MAX_CARACTERS = 3500  # per petició; els textos llargs es parteixen per paràgrafs
-# Veu de recanvi (12.10.2026): Piper, local i sense claus. El workflow la baixa
-# a PIPER_DIR abans de començar. Es fa servir quan Gemini falla.
+# Segon recanvi (12.10.2026): Piper, local i sense claus. El workflow la baixa
+# a PIPER_DIR abans de començar. Es fa servir quan fallen la Joana i la Kore.
 PIPER_VOICE = "ca_ES-upc_ona-medium"
 PIPER_DIR = Path(os.environ.get("PIPER_DIR", str(Path.home() / "piper-veus")))
 # Si Gemini falla de manera persistent (sense clau, quota, servei caigut), no
 # ho tornem a provar a cada peça de la passada. NOMES_PIPER=1 ho força a mà.
 _GEMINI_KO = os.environ.get("NOMES_PIPER", "") == "1"
+if _GEMINI_KO:
+    _EDGE_KO = True
 FTP_HOST = "srv1589.hstgr.io"
 FTP_USER = "u901078817.claude"
 SSH_PATH_DEFECTE = "domains/inteligencia-artificial.cat/public_html"
@@ -523,8 +531,41 @@ def sintetitza_gemini_wav(text: str, desti: Path, veu: str = GEMINI_VEU,
             w.writeframes(f)
 
 
+def _sintetitza_edge(fitxer_text: Path, mp3: Path, slug: str) -> bool:
+    """Veu principal (la Joana, edge-tts). True si ha deixat un MP3 vàlid a `mp3`."""
+    global _EDGE_KO
+    for intent in range(3):
+        if intent:
+            time.sleep(10)  # pausa entre reintents: el throttling d'edge-tts es recupera sol
+        try:
+            # timeout per intent: sense això, una síntesi penjada bloqueja la run
+            # sencera fins al límit del workflow (va passar el 24.07.2026).
+            resultat = subprocess.run(
+                ["edge-tts", "--voice", EDGE_VEU, "-f", str(fitxer_text), "--write-media", str(mp3)],
+                timeout=120, capture_output=True, text=True,
+            )
+        except FileNotFoundError:
+            print("AVÍS: edge-tts no està instal·lat; la passada es fa amb la Kore.")
+            _EDGE_KO = True
+            return False
+        except subprocess.TimeoutExpired:
+            print(f"AVÍS: edge-tts penjat amb {slug} (intent {intent + 1}/3); es reintenta.")
+            continue
+        if resultat.returncode == 0 and mp3.is_file() and mp3.stat().st_size > MIDA_MINIMA:
+            return True
+        darrera = (resultat.stderr or "").strip().splitlines()[-1:] or ["sense missatge"]
+        print(f"AVÍS: edge-tts ha fallat amb {slug} (intent {intent + 1}/3): {darrera[0][:160]}")
+        # 403 = Microsoft rebutja la connexió (com del 12 al 23.10.2026). Reintentar
+        # no serveix: la resta de la passada va directament a la Kore.
+        if "403" in (resultat.stderr or ""):
+            print("AVÍS: Microsoft rebutja la Joana (403); la resta d'aquesta passada es farà amb la Kore.")
+            _EDGE_KO = True
+            return False
+    return False
+
+
 def _sintetitza_gemini(fitxer_text: Path, mp3: Path, slug: str) -> bool:
-    """Veu principal (Gemini Kore). True si ha deixat un MP3 vàlid a `mp3`."""
+    """Primer recanvi (Gemini Kore). True si ha deixat un MP3 vàlid a `mp3`."""
     global _GEMINI_KO
     wav = mp3.with_suffix(".gemini.wav")
     try:
@@ -601,17 +642,22 @@ def wav_a_mp3(wav: Path, mp3: Path, kbps: int = 64) -> None:
 def sintetitza_i_puja(slug: str, text: str, transport) -> bool:
     """Sintetitza `text` i el puja a assets/audio/<slug>.mp3. True si tot ha anat bé.
 
-    Primer la veu principal (Gemini Kore). Si falla — sense clau, sense quota o
-    amb el servei caigut —, la veu catalana local de Piper, que corre dins del
-    mateix runner i no depèn de cap servei extern ni de cap clau.
+    Primer la veu principal (la Joana, edge-tts). Si Microsoft falla, Gemini
+    Kore. Si també falla — sense clau, sense quota o amb el servei caigut —, la
+    veu catalana local de Piper, que corre dins del mateix runner i no depèn de
+    cap servei extern ni de cap clau.
     """
     with tempfile.TemporaryDirectory() as td:
         fitxer_text = Path(td) / "text.txt"
         mp3 = Path(td) / "audio.mp3"
         fitxer_text.write_text(text, encoding="utf-8")
         correcte = False
-        veu = "Gemini Kore"
-        if not _GEMINI_KO:
+        veu = "Joana"
+        if not _EDGE_KO:
+            correcte = _sintetitza_edge(fitxer_text, mp3, slug)
+        if not correcte and not _GEMINI_KO:
+            mp3.unlink(missing_ok=True)
+            veu = "Gemini Kore"
             correcte = _sintetitza_gemini(fitxer_text, mp3, slug)
         if not correcte:
             mp3.unlink(missing_ok=True)

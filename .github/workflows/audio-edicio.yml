@@ -111,13 +111,13 @@ jobs:
         with:
           python-version: '3.12'
 
-      # Veus (12.10.2026). Principal: Gemini «Kore» (crida HTTP des del script,
-      # no cal instal·lar res; clau al secret GEMINI_API_KEY). Fins avui era la
-      # Joana d'edge-tts, que Microsoft va tallar (rany2/edge-tts#490).
-      # Recanvi: Piper, veu catalana neuronal LOCAL (corre al runner, sense
-      # claus ni serveis externs). Només s'usa si Gemini falla.
-      - name: Instal·la la veu de recanvi (Piper)
-        run: pip install piper-tts lameenc
+      # Veus (decisió d'en Rafael del 23.10.2026), per ordre:
+      # 1) la Joana d'edge-tts (gratuïta; va caure del 12 al 23.10.2026,
+      #    rany2/edge-tts#490); 2) si Microsoft falla, Gemini «Kore» (crida HTTP
+      #    des del script; clau al secret GEMINI_API_KEY); 3) si també falla,
+      #    Piper, veu catalana neuronal LOCAL (corre al runner, sense claus).
+      - name: Instal·la les veus (Joana i Piper)
+        run: pip install --upgrade edge-tts && pip install piper-tts lameenc
 
       - name: Recupera la veu de recanvi de la memòria cau
         id: cache-piper
