@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "23.10.2026",
+    "title": "Catalunya té 290 de les 1.014 empreses derivades de recerca de tecnologia profunda d'Espanya, i el 40% de les noves treballen amb xips, càlcul i IA",
+    "summary": "L'informe de Mobile World Capital, que Ara resumeix, situa Catalunya per tercer cop al capdavant de l'Estat, amb 2.885 llocs de feina molt especialitzats.",
+    "detail": "Les empreses derivades de la recerca universitària (spin-off) de tecnologia profunda són companyies que neixen d'un resultat científic i triguen anys a vendre. Mobile World Capital Barcelona en publica un informe sobre l'ecosistema espanyol, que enguany ha arribat a la tercera edició i s'ha presentat aquest dijous.\n\nSegons l'informe, tal com el resumeix Ara, a final del 2025 hi havia a Espanya 1.014 d'aquestes empreses actives, un 4,6% més que un any abans. Catalunya en concentra 290, el 28,5% del total, amb 2.885 llocs de feina molt especialitzats, i ha encapçalat les tres edicions. Madrid té una mica més del 20% i la Comunitat Valenciana, una mica més del 10%. Entre les catalanes, la biotecnologia i les ciències de la salut en suposen més del 47% i la informàtica i la IA, al voltant del 35%.\n\nLaia Corbella, de Mobile World Capital, va destacar que el 40% de les noves empreses de tecnologia profunda catalanes treballen amb xips, càlcul i IA, un canvi que va qualificar d'alineat amb les prioritats estratègiques del país. En total s'estima que van facturar 1.132 milions d'euros el 2025 a tot l'Estat; més de 400 han rebut inversió i s'han detectat més de 2.880 milions de finançament, un 45% de capital públic i un 35% de privat. Albert Mascarell va recordar que no són companyies que facturin de seguida: poden trigar set o vuit anys.\n\nAquesta peça es basa només en el resum d'Ara, un article de pagament que hem pogut llegir en part; no hem consultat l'informe original. A més, l'informe el promou una fundació que treballa per l'ecosistema digital, i les xifres són de recompte propi. El percentatge d'IA en recull només una part: cal esperar el document sencer per saber quantes de les 290 treballen realment amb IA.",
+    "source": "Ara",
+    "url": "https://www.ara.cat/economia/tecnologia/catalunya-consolida-lideratge-spin-off-tecnologia-profunda-l_1_5886807.html",
+    "image": "./assets/catalunya-spin-offs-tecnologia-profunda-informe-20261023.jpg",
+    "slug": "catalunya-spin-offs-tecnologia-profunda-informe-mwc"
+  },
+  {
     "place": "València",
     "category": "IA I SOCIETAT",
     "date": "22.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/de-la-ia-generativa-a-los-agentes-autonomos-lideres-tecnologicos-analizaran-en-valencia-su-impacto-global",
     "image": "./assets/vds-2026-valencia-programa-ia-20261019.jpg",
     "slug": "vds-2026-valencia-programa-ia"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "19.10.2026",
-    "title": "L'AI Congress arrenca dimarts a Barcelona amb una cinquantena de ponents i la IA agèntica com a tema central",
-    "summary": "La dotzena edició, organitzada per Eurecat, s'allarga a tres dies, del 20 al 22 d'octubre, i prioritza projectes i casos reals per sobre de les presentacions teòriques.",
-    "detail": "L'AI Congress de Barcelona arriba aquest any a la dotzena edició i, per primera vegada, s'allarga a tres dies: del 20 al 22 d'octubre de 2026, a l'Auditori de L'illa. L'organitza Eurecat a través del seu centre CIDAI, dins de l'estratègia Catalonia.AI 2030 que impulsa el Govern, i hi col·laboren l'Ajuntament de Barcelona, el Barcelona Supercomputing Center, el Centre de Visió per Computador, la Fundació i2CAT i el centre IDEAI de la UPC.\n\nEl programa reuneix una cinquantena de veus expertes escollides entre més d'un centenar de propostes. Segons Joan Mas, director del congrés i director científic de l'àrea digital d'Eurecat, aquesta edició ha volgut «donar un protagonisme especial als projectes i casos reals». Entre els ponents hi ha Ariadna Font, cofundadora i consellera delegada d'ALINIA AI; Jezabel R. García, directora científica d'IA de Multiverse Computing; Pooja Munshi, fins fa poc responsable de la plataforma de dades del Programa de les Nacions Unides per al Medi Ambient; i Meritxell Borràs, directora de l'Autoritat Catalana de Protecció de Dades.\n\nEl primer dia és d'estratègia i tendències: la implantació de la IA generativa a les empreses, la IA agèntica i una sessió sobre espais de dades de mobilitat urbana basada en el projecte DeployEMDS, que s'assaja a Barcelona amb l'ATM, l'AMB, i2CAT i Eurecat. El segon se centra en tecnologia i desenvolupament: sistemes d'agents i multiagent, com governar-ne la proliferació sense frenar la innovació, i l'avaluació ètica i jurídica dels sistemes. El tercer és de casos d'aplicació, entre ells la gestió de l'aigua, els continguts audiovisuals, el desenvolupament de programari i les dades sintètiques per a salut i mobilitat.\n\nLa informació prové del programa i de la nota de premsa d'Eurecat, que és de setembre; el contingut real de les ponències es coneixerà quan el congrés es faci. Els patrocinadors, entre ells CaixaBank Tech, Orange, Conversia i Laboral Kutxa, hi tenen interès comercial, i el programa és l'oferta de l'organitzador, no una avaluació independent de cap projecte.",
-    "source": "Eurecat",
-    "url": "https://eurecat.org/supervisio-humana-ia-seguretat-sobirania-tecnologica-i-sostenibilitat-claus-ai-congress/",
-    "image": "./assets/ai-congress-barcelona-2026-dotzena-edicio-20261019.jpg",
-    "slug": "ai-congress-barcelona-2026-dotzena-edicio"
   }
 ];

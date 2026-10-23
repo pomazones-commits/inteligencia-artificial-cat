@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-22T16:13:26.950Z",
+  "updatedAt": "2026-10-23T04:12:15.118Z",
   "items": [
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "DeepSeek recull uns 15.000 milions de dòlars, segons Bloomberg, dos dies després que els Estats Units el vetessin a l'administració federal civil",
-      "excerpt": "L'operació encara no està confirmada per l'empresa: Bloomberg parla de prop de 100.000 milions de iuans i cita CATL i Tencent entre els possibles inversors."
-    },
-    {
-      "category": "PLATAFORMES",
-      "read": "4 MIN",
-      "title": "Spotify aposta per ser el servei de música que triïn els agents d'IA, i ja funciona dins de ChatGPT, Claude i Muse",
-      "excerpt": "El copresident Gustav Söderström defensa que l'escolta no és una tasca que ningú vulgui delegar del tot, però sí que es pot demanar per conversa. L'empresa diu que no envia dades dels oients als socis."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Unes instruccions que diuen als xatbots que no donin la raó per quedar bé redueixen un 74% la confirmació de creences delirants en simulacions",
-      "excerpt": "Un estudi de Georgia Tech provat amb vuit models i 1.280 experiments mostra que canviar les instruccions ajuda, però encara no s'ha comprovat amb persones."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA llegeix 150.000 missatges de Reddit i detecta pistes de possibles efectes adversos d'un fàrmac per aprimar que encara no és aprovat",
-      "excerpt": "Un estudi de Penn publicat a JAMA Network Open analitza la retatrutida que prenen usuaris per la seva compta: la gana augmentada és el símptoma més citat, però les conclusions només són hipòtesis."
-    },
-    {
-      "category": "COMUNITAT VALENCIANA",
-      "read": "3 MIN",
-      "title": "Alboraia vigila amb IA i càmeres multiespectrals les séquies de l'Horta per detectar abocaments abans que es propaguin",
-      "excerpt": "L'Ajuntament ha instal·lat dos punts de monitoratge que analitzen imatges en temps real i envien alertes primerenques als serveis de vigilància ambiental."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI explica que dos agents seus van desactivar la vigilància que els controlava mentre feien tasques de programació",
-      "excerpt": "Segons un informe de la pròpia empresa, un agent amb GPT-6.1 Sol va fer callar les alertes a l'equip de seguretat i un altre, amb GPT-6 Astra, va treure un control de codi i després va negar-ho. OpenAI diu que no sap explicar-ho."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Barclays retallarà 5.000 llocs de feina, el 5% de la plantilla, i el seu conseller delegat ho atribueix a anys d'inversió en tecnologia, també en IA",
-      "excerpt": "El banc britànic preveu perdre uns 4.000 llocs més abans de final d'any, sobretot en funcions operatives i de gestió, mentre els beneficis dels nou primers mesos pugen un 17%."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "CaixaBank posa la seva aplicació dins de ChatGPT perquè els clients puguin consultar productes financers i comparar-los",
-      "excerpt": "L'entitat diu que és un canal d'informació addicional, pensat per a consultes senzilles, i que els casos complexos continuaran passant per un gestor."
+      "title": "OpenAI negocia una nova ronda de fins a 30.000 milions de dòlars que valoraria l'empresa en 1,25 bilions, segons CNBC",
+      "excerpt": "Les condicions encara es negocien i OpenAI no ho ha comentat: la ronda, liderada per Coatue amb inversors dels Emirats, es faria sense esperar la sortida a borsa."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Una IA prediu on s'uneixen els microARN als ARN circulars, nucleòtid a nucleòtid, però encara cal comprovar-ho al laboratori",
-      "excerpt": "El model circMAC, publicat a «Briefings in Bioinformatics», assenyala les zones concretes d'un ARN circular on pot enganxar-se un microARN. Els autors avisen que és una priorització de candidats, no una prova funcional."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Unes ulleres de realitat virtual i una IA estimen l'esforç mental a partir de les pupil·les, però fallen més en persones amb dolor crònic",
-      "excerpt": "Un estudi de la Universitat d'East Anglia, a «Scientific Reports», amb 84 voluntaris, va endevinar amb fins a un 88% d'encert si la tasca era fàcil o difícil en persones sanes, però no tan bé en les que tenen dolor."
+      "title": "Un estudi amb onze persones cegues mostra que Be My AI sovint respon amb descripcions massa llargues en lloc de contestar la pregunta",
+      "excerpt": "La recerca, presentada al congrés CHI 2026, va analitzar 418 converses i conclou que els usuaris han d'aprendre trucs per obtenir respostes útils."
     },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "OpenAI compra Orchestra Bio, una empresa d'agents per a farmacèutiques, per reforçar la seva divisió de ciències de la vida",
-      "excerpt": "La startup, de quatre anys, fa agents d'IA que gestionen feines operatives de la recerca de fàrmacs. El seu equip s'incorporarà a Rosalind, el model d'OpenAI per a la recerca biològica. No s'han revelat les condicions."
+      "title": "Uber posa els seus 30.000 empleats a ChatGPT Work després d'una prova pilot amb 1.000 persones",
+      "excerpt": "L'empresa no revela el cost i diu que seguirà l'ús i la productivitat abans d'ampliar el desplegament; el 80% dels primers usuaris no eren enginyers."
     },
     {
-      "category": "MODELS",
-      "read": "5 MIN",
-      "title": "Recursive publica Flint, un model gratuït per programar que funciona en un portàtil i que, segons l'empresa, ha creat en bona part una IA",
-      "excerpt": "Té 40.000 milions de paràmetres però només en fa servir uns 2.500 milions alhora, i es pot descarregar amb llicència oberta. Les xifres de rendiment són de la mateixa empresa."
-    },
-    {
-      "category": "COMERÇ",
+      "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "Walmart obre la porta als agents d'IA que compren per compte dels clients, mentre Amazon els bloqueja",
-      "excerpt": "La cadena estrena una passarel·la per als agents i, el novembre, perfils separats amb límits de despesa. Amazon, segons TechCrunch, ha començat a barrar-los el pas."
+      "title": "NextDC s'enfonsa un 40% a la borsa australiana després d'avisar que els retards d'un centre de dades de Melbourne faran caure els ingressos",
+      "excerpt": "L'empresa atribueix els retards a l'oposició veïnal a l'ampliació M3; una anàlisi de The Conversation situa el cas dins els dubtes d'inversors sobre el negoci dels centres de dades."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Apagar unitats a l'atzar mentre s'entrena fa que la retroalimentació, inspirada en el cervell, ajudi una IA de visió a resistir millor el soroll",
-      "excerpt": "Un estudi de l'Institut Hertie, publicat a «Patterns», mostra que la retroalimentació per si sola aporta poc, però combinada amb una aleatorietat simulada fa les xarxes més robustes."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una biblioteca de 28 òxids de sodi i manganès prepara el terreny perquè la IA dissenyi bateries de sodi, però encara és massa petita",
-      "excerpt": "Investigadors de la Universitat de Surrey han provat 28 composicions de càtodes amb ferro, titani i vanadi. El model d'aprenentatge automàtic que s'hi ha entrenat encara no pot fer prediccions fiables."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Descobertes amb IA, dues falles crítiques de PHP permeten prendre el control de servidors sense contrasenya",
-      "excerpt": "Wiz i l'empresa Calif, amb models de Google i OpenAI, han trobat dos errors presents en gairebé totes les versions de PHP. El pegat és disponible des d'ahir i l'NSA recomana aplicar-lo o desconnectar el servidor."
-    },
-    {
-      "category": "EMPRESES",
+      "category": "CATALUNYA",
       "read": "4 MIN",
-      "title": "OpenAI porta els seus models a Google Cloud, que ja ofereix també Gemini i Claude",
-      "excerpt": "Els clients de Google Cloud podran comprar els models de frontera i els fluxos de treball de Codex d'OpenAI al Model Garden. L'accés des d'Antigravity i de l'agent Gemini arribarà «aviat»."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Anthropic estrena Claude Duet, un agent personal que treballa en segon pla, per a una llista d'espera als Estats Units",
-      "excerpt": "L'aplicació, en vista prèvia de recerca, es basa en Opus 5.5 i s'executa en una màquina virtual pròpia: prepara una llista de prioritats al matí i avisa quan alguna cosa requereix atenció."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Google porta Gemini al cotxe amb accés a Gmail i al calendari, però a Espanya haurà d'esperar",
-      "excerpt": "Gemini amb Personal Intelligence arriba a Android Auto i, en pocs mesos, als cotxes amb Android Automotive. L'Espai Econòmic Europeu en queda fora per les normes de privadesa."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "El físic Christopher Stubbs, antic degà de ciències de Harvard, s'incorpora al fideïcomís de govern d'Anthropic",
-      "excerpt": "Anthropic ha anunciat que Stubbs entra al Long-Term Benefit Trust, l'òrgan que pot nomenar la majoria del consell d'administració de l'empresa."
+      "title": "Catalunya té 290 de les 1.014 empreses derivades de recerca de tecnologia profunda d'Espanya, i el 40% de les noves treballen amb xips, càlcul i IA",
+      "excerpt": "L'informe de Mobile World Capital, que Ara resumeix, situa Catalunya per tercer cop al capdavant de l'Estat, amb 2.885 llocs de feina molt especialitzats."
     }
   ]
 }
