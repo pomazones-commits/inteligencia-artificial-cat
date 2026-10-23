@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-23T16:13:30.065Z",
+  "generat": "2026-10-23T22:30:51.871Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 33,
+      "audios": 34,
       "sobre_ia": 1
     },
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 23,
+      "audios": 24,
       "sobre_ia": 4
     },
     {
@@ -172,9 +172,8 @@
       "font": "rtva",
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
-      "estat": "ok",
-      "audios": 400,
-      "sobre_ia": 3
+      "estat": "error",
+      "error": "HTTP 403"
     }
   ],
   "candidats": []
