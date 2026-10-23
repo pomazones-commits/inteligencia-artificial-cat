@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-23T12:22:06.953Z",
+ "actualitzat": "2026-10-23T15:29:55.320Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "580984f590f7",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Una jornada a Manresa exposa les fortaleses i sobretot els riscos de la IA",
+   "url": "https://www.regio7.cat/economia/2026/10/23/jornada-manresa-exposa-les-fortaleses-135659037.html",
+   "publicat": "2026-10-23T15:03:54.000Z"
+  },
+  {
+   "id": "db757a1290a4",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nou escàndol al món literari: un llibre escrit amb IA ha guanyat un premi literari de 20.000 euros",
+   "url": "https://llegim.ara.cat/actualitat/escandol-mon-literari-llibre-escrit-ia-premi-literari-20-000_1_5888360.html",
+   "publicat": "2026-10-23T14:27:41.000Z"
+  },
+  {
+   "id": "1af3b9f6a4a6",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La IA impulsa a los ‘solopreneurs’, que ya representan el 25,6% del ecosistema español de ‘start-ups’",
+   "url": "https://cincodias.elpais.com/companias/2026-10-23/la-ia-impulsa-a-los-solopreneurs-que-ya-representan-el-256-del-ecosistema-de-start-ups-espanolas.html",
+   "publicat": "2026-10-23T13:42:33.000Z"
+  },
+  {
+   "id": "28c65f354b15",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Circo de los Horrores encierra al público en una prisión gobernada por la IA en su nuevo espectáculo en Alicante",
+   "url": "https://www.informacion.es/cultura/2026/10/23/circo-horrores-encierra-publico-prision-alicante-135673723.html",
+   "publicat": "2026-10-23T12:38:11.000Z"
+  },
   {
    "id": "1370c8eff5d3",
    "mitja": "Diari de Terrassa",
@@ -2573,72 +2617,6 @@
    "titol": "Se descontrola una nueva flota de agentes de IA: los pillan intentando extraer datos de la app de mapas china Amap",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/16/2730381/descontrola-nueva-flota-agentes-pillan-intentando-extraer-datos-app-mapas-china-amap.html",
    "publicat": "2026-10-16T15:37:02.000Z"
-  },
-  {
-   "id": "2fa20aefe4cd",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic, con el rating de ‘bono basura’ más alto a las puertas de la salida a Bolsa",
-   "url": "https://cincodias.elpais.com/companias/2026-10-16/anthropic-con-el-rating-de-bono-basura-mas-alto-a-las-puertas-de-la-salida-a-bolsa.html",
-   "publicat": "2026-10-16T14:56:00.000Z"
-  },
-  {
-   "id": "b7ecad4eb1bd",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "OpenAI actualiza la extensión de ChatGPT en Chrome para que pueda ver las pestañas abiertas y realizar tareas en ellas",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/16/2730291/openai-actualiza-extension-chatgpt-chrome-para-pueda-ver-pestanas-abiertas-realizar-tareas-ellas.html",
-   "publicat": "2026-10-16T13:56:53.000Z"
-  },
-  {
-   "id": "ebf3ca6ff7d7",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "ASUS presenta el ProArt GR1X, un Mini PC diseñado para ejecutar IA local y tareas profesionales con Nvidia RTX Spark",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/16/2730245/asus-presenta-proart-gr1x-mini-disenado-para-ejecutar-local-tareas-profesionales-nvidia-rtx-spark.html",
-   "publicat": "2026-10-16T13:00:50.000Z"
-  },
-  {
-   "id": "1c2efb976687",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "ASUS amplía la gama ProArt con los nuevos P14 y P16: potencia de Nvidia RTX Spark, pantallas OLED y batería de 100 Wh",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/16/2730247/asus-amplia-gama-proart-los-nuevos-p14-p16-potencia-nvidia-rtx-spark-pantallas-oled-bateria-100-wh.html",
-   "publicat": "2026-10-16T12:59:56.000Z"
-  },
-  {
-   "id": "1f046a4aefca",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "\"Ens hem embarcat en un suïcidi anunciat\": els centres de dades d'IA ja deixen poblacions sense aigua",
-   "url": "https://www.ara.cat/internacional/hem-embarcat-suicidi-anunciat-centres-dades-d-ia-ja-deixen-poblacions-aigua_1_5878952.html",
-   "publicat": "2026-10-16T12:52:37.000Z"
-  },
-  {
-   "id": "857148d55a13",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic permite que evaluadores externos analicen sus modelos de IA como cualquier empleado: “Queremos rendir cuentas públicamente por nuestras decisiones”",
-   "url": "https://www.lavanguardia.com/neo/ia/20261016/11660551/anthropic-permite-evaluadores-externos-analicen-modelos-ia-empleado-queremos-rendir-cuentas-publicamente-decisiones.html",
-   "publicat": "2026-10-16T12:49:11.000Z"
   }
  ]
 }
