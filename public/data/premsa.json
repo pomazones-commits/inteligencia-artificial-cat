@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-24T12:13:33.753Z",
+ "actualitzat": "2026-10-24T17:39:22.282Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "12aabe2b0763",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Els inversors es llancen a protegir-se per si esclata la bombolla de la IA",
+   "url": "https://www.ara.cat/economia/tecnologia/inversors-llancen-protegir-esclata-bombolla-ia_1_5886043.html",
+   "publicat": "2026-10-24T17:00:05.000Z"
+  },
   {
    "id": "bdc094eb63da",
    "mitja": "Diari de Tarragona",
