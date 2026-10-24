@@ -1,8 +1,92 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-23T16:14:24.367Z",
+ "actualitzat": "2026-10-24T08:12:27.712Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "6f7ojkd4_Wc",
+   "titol": "Hunt bugs with your dot",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-10-23T22:05:37.000Z",
+   "descripcio": "We’re using dots to build better dots. Rennie Song, an engineer at OpenAI, uses her dot to gather feedback from social media and user reports, update a live tracker in ChatGPT Space, and investigate and fix bugs with Codex. Get started with dots today: https://learn.chatgpt.com/docs/dots",
+   "miniatura": "/assets/videos/6f7ojkd4_Wc.jpg"
+  },
+  {
+   "id": "roUZ7_Rsf5c",
+   "titol": "Accelerating Robot Development With AI Agents and NVIDIA Isaac",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "robotica",
+   "idioma": "en",
+   "publicat": "2026-10-23T20:44:08.000Z",
+   "descripcio": "From prompts and data to real-world robot skills, frontier AI agents build training worlds, replay real-world motion, and tune physics using NVIDIA open libraries and models. Skills are trained with NVIDIA Isaac Lab and Newton and evaluated with NVIDIA Isaac Lab-Arena, locally on NVIDIA DGX Station.",
+   "miniatura": "/assets/videos/roUZ7_Rsf5c.jpg"
+  },
+  {
+   "id": "hgX1hgyWD4g",
+   "titol": "How Realpage. builds AI training with ChatGPT Work",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-10-23T18:39:14.000Z",
+   "descripcio": "At Realpage., Austin Braham creates AI training for different teams, roles and skill levels. He uses ChatGPT Work to turn ideas, notes and source materials into complete enablement packages tailored to each audience. The result is more relevant, consistent education that helps colleagues put AI to w",
+   "miniatura": "/assets/videos/hgX1hgyWD4g.jpg"
+  },
+  {
+   "id": "m6MlxaFMmPI",
+   "titol": "How Shield uses OpenAI’s Astra to support IT teams",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-10-23T18:34:39.000Z",
+   "descripcio": "When someone can’t log in or get online, their IT team often has to put other work on hold. Shield is building Forge to help IT services teams get their customers back to work faster. Its AI agents use Astra to work directly in business software and resolve problems that previously needed a technici",
+   "miniatura": "/assets/videos/m6MlxaFMmPI.jpg"
+  },
+  {
+   "id": "V39_L7uh66M",
+   "titol": "How AT&T is building AI-powered legal workflows with OpenAI",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-10-23T18:32:03.000Z",
+   "descripcio": "AT&T’s David McAtee and Bill Ryan describe how AI is changing their legal team’s work—and what they plan to build with OpenAI next. One initiative is a natural-language intake system that would classify and prioritize legal matters, then connect them with relevant knowledge. The aim is to put better",
+   "miniatura": "/assets/videos/V39_L7uh66M.jpg"
+  },
+  {
+   "id": "CTkDi1THc_g",
+   "titol": "How Benefit Street Partners is building financial analysis tools with Codex",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-10-23T18:20:02.000Z",
+   "descripcio": "“I’ve gone from being just an analyst and a portfolio manager to being a developer as well now. I can build things.” Benefit Street Partners’ Anant Kumar wanted to compare how firms valued the same loans. The information was spread across SEC filings. He built a tool to collect it automatically and ",
+   "miniatura": "/assets/videos/CTkDi1THc_g.jpg"
+  },
+  {
+   "id": "W3fUEVcaXwg",
+   "titol": "How Nokia and NVIDIA Are Accelerating the Future of AI-Native Networks",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-10-23T17:00:03.000Z",
+   "descripcio": "Nokia and NVIDIA are advancing AI-RAN commercialization around the globe, helping telecom operators build 5G networks today that are software-programmable to 6G. Explore the momentum behind AI-native networks and learn how running AI and RAN workloads on shared infrastructure opens new service oppor",
+   "miniatura": "/assets/videos/W3fUEVcaXwg.jpg"
+  },
   {
    "id": "2CdKJKi2P3w",
    "titol": "La IA i els processos de selecció per trobar feina",
