@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-24T08:12:27.712Z",
+ "actualitzat": "2026-10-24T12:13:32.212Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "rySnll4sgu4",
+   "titol": "NVIDIA GTC Berlin 2026 | Live Keynote Pregame",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-10-24T10:42:33.000Z",
+   "descripcio": "Join Deirdre Bosa and Gavin Baker live from Berlin’s Tempodrom ahead of Jensen Huang’s keynote. Hear from Europe’s leading founders, investors and industry leaders on how Europe is building its AI future.",
+   "miniatura": "/assets/videos/rySnll4sgu4.jpg"
+  },
   {
    "id": "6f7ojkd4_Wc",
    "titol": "Hunt bugs with your dot",
