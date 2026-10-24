@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-24T04:12:59.363Z",
+  "generat": "2026-10-24T12:12:43.193Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -177,23 +177,5 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": [
-    {
-      "id": "3cat-1294993",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-10-24",
-      "durada": "9 min",
-      "titol_original": "Carol Lorenzo: \"La tecnologia ja és la millor aliada per trobar feina\"",
-      "descripcio_original": "Parlem de com la tecnologia està transformant els processos de selecció de personal i la manera de buscar feina, i també de les oportunitats i els riscos d'utilitzar aquestes eines sense criteri. Xantal Llavina conversa amb Carol Lorenzo, directora d'Orientació Professional de Barcelona Activa, i Xavier Rodríguez de la Rubia, cofundador i CTO de BlindStairs, una plataforma que utilitza la IA per ajudar a avaluar candidatures, per descobrir com aquesta tecnologia està canviant el mercat laboral.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/carol-lorenzo-la-tecnologia-ja-es-la-millor-aliada-per-trobar-feina/audio/1294993/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1294993"
-      }
-    }
-  ]
+  "candidats": []
 }
