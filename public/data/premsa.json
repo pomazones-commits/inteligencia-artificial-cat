@@ -1,8 +1,129 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-23T23:34:27.141Z",
+ "actualitzat": "2026-10-24T04:13:00.037Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "ca811988c9c5",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Bienvenidos a la 'tamagotchización' de la IA: Silicon Valley apuesta su futuro a los agentes para automatizar tu vida",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261024/ia-agentes-tamagotchi-meta-muse-openai-dots-anthropic-claude-duet-ciberseguridad-135613161",
+   "publicat": "2026-10-24T04:01:21.000Z"
+  },
+  {
+   "id": "1e519a4752ba",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Víctor Gómez, ingeniero industrial: “Solo un empresario mediocre ve la Ley de Inteligencia Artificial de Europa como algo malo”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261024/11664921/victor-gomez-ingeniero-industrial-empresario-mediocre-ve-ley-inteligencia-artificial-europa-malo.html",
+   "publicat": "2026-10-24T04:00:00.000Z"
+  },
+  {
+   "id": "76f26b8a75a0",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los bancos ultiman sus planes ante el BCE frente a la amenaza de la IA",
+   "url": "https://www.lavanguardia.com/economia/20261024/11666716/bancos-ultiman-planes-bce-frente-amenaza-ia.html",
+   "publicat": "2026-10-24T04:00:00.000Z"
+  },
+  {
+   "id": "3ee4da14ce5d",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El professional sènior usa millor la IA que els joves sense habilitats d'informació",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/professional-senior-usa-millor-ia-contra-joves-sense-habilitats-informacio_1714201_102.html",
+   "publicat": "2026-10-24T03:30:00.000Z"
+  },
+  {
+   "id": "fcebfeba4540",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "¿Y si ‘Bola de Dragón’ lo hubiera hecho un robot?: la animación japonesa se echa en brazos de la IA por la escasez de dibujantes",
+   "url": "https://elpais.com/economia/negocios/2026-10-24/y-si-bola-de-dragon-lo-hubiera-hecho-un-robot-la-animacion-japonesa-se-echa-en-brazos-de-la-ia-por-la-escasez-de-dibujantes.html",
+   "publicat": "2026-10-24T03:30:00.000Z"
+  },
+  {
+   "id": "071ffa5142e5",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los gigantes tecnológicos preparan el asalto a la industria de los viajes a través de la IA",
+   "url": "https://elpais.com/economia/2026-10-24/los-gigantes-tecnologicos-preparan-el-asalto-a-la-industria-de-los-viajes-a-traves-de-la-ia.html",
+   "publicat": "2026-10-24T03:15:00.000Z"
+  },
+  {
+   "id": "2f91610daa62",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La IA y el ‘deeptech’ impulsan una ola de nuevos fondos para ‘start-ups’ en España por cerca de 900 millones",
+   "url": "https://cincodias.elpais.com/companias/2026-10-24/la-ia-y-el-deeptech-impulsan-una-ola-de-nuevos-fondos-para-start-ups-en-espana-por-cerca-de-900-millones.html",
+   "publicat": "2026-10-24T03:15:00.000Z"
+  },
+  {
+   "id": "80375052950d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El 78% de las compañías bancarias priorizan la inversión en ciberseguridad ante la amenaza de la IA",
+   "url": "https://cincodias.elpais.com/companias/2026-10-24/el-78-de-las-companias-bancarias-priorizan-la-inversion-en-ciberseguridad-ante-la-amenaza-de-la-ia.html",
+   "publicat": "2026-10-24T03:15:00.000Z"
+  },
+  {
+   "id": "db550fe4b0dc",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Telefónica refuerza su inversión en IA en Brasil",
+   "url": "https://cincodias.elpais.com/companias/2026-10-24/telefonica-refuerza-su-inversion-en-ia-en-brasil.html",
+   "publicat": "2026-10-24T03:15:00.000Z"
+  },
+  {
+   "id": "4f95275e6885",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Pedro Olalla: «Lo único que nos diferenciará de la IA cuando nos supere en todo es la voluntad»",
+   "url": "https://www.ultimahora.es/noticias/cultura/2026/10/24/2734939/pedro-olalla-unico-nos-diferenciara-cuando-nos-supere-todo-voluntad.html",
+   "publicat": "2026-10-24T02:48:02.000Z"
+  },
+  {
+   "id": "bc7e447fb247",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nous Jardins d’altri en un llibre, IA i Apple, Nàpols i l’amor",
+   "url": "https://www.ultimahora.es/opinion/tribuna/2026/10/24/2735211/nous-jardins-altri-llibre-apple-napols-amor.html",
+   "publicat": "2026-10-24T02:48:02.000Z"
+  },
   {
    "id": "cf7dfccdeb59",
    "mitja": "La Vanguardia",
@@ -89,7 +210,9 @@
    "ambit": "catala",
    "titol": "Nou escàndol al món literari: un llibre escrit amb IA ha guanyat un premi literari de 20.000 euros",
    "url": "https://llegim.ara.cat/actualitat/escandol-mon-literari-llibre-escrit-ia-premi-literari-20-000_1_5888360.html",
-   "publicat": "2026-10-23T14:27:41.000Z"
+   "publicat": "2026-10-23T14:27:41.000Z",
+   "noticia": "premi-literari-novella-escrita-ia-presentacio-cancellada",
+   "noticiaTitol": "Un detector atribueix a la IA el 99% de la novel·la que ha guanyat un premi de 20.000 euros, i l'editorial cancel·la la presentació"
   },
   {
    "id": "1af3b9f6a4a6",
@@ -2575,28 +2698,6 @@
    "titol": "El funcionario del futuro trabajará con IA, no contra ella",
    "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261017/11653193/funcionario-futuro-trabajara-ia.html",
    "publicat": "2026-10-17T05:26:23.000Z"
-  },
-  {
-   "id": "8bbd900230f1",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Miguel Ángel Jenner, actor de doblaje: “La IA es un monstruo de cien cabezas; no le venderé mi alma al diablo y me llevaré mi voz a la tumba”",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261017/11656074/miguel-angel-jenner-actor-doblaje-ia-monstruo-cien-cabezas-le-vendere-mi-alma-diablo-me-llevare-mi-voz-tumba.html",
-   "publicat": "2026-10-17T04:00:00.000Z"
-  },
-  {
-   "id": "dab5b0f2c9e1",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Microsoft vuelve a los cuatro billones en Bolsa y recupera su papel como uno de los actores principales en la IA",
-   "url": "https://elpais.com/economia/2026-10-17/microsoft-vuelve-a-los-cuatro-billones-en-bolsa-y-recupera-su-papel-como-uno-de-los-actores-principales-en-la-ia.html",
-   "publicat": "2026-10-17T03:15:00.000Z"
   }
  ]
 }
