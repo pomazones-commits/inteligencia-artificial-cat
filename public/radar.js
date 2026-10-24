@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Terrassa",
+    "category": "IA I SOCIETAT",
+    "date": "24.10.2026",
+    "title": "La Fundació Vallparadís de Terrassa dedica la jornada científica d'enguany a la IA i les cures",
+    "summary": "La 17a edició, el 27 d'octubre, compta amb Genís Roca i presenta el projecte «IA-Cura», que explora la IA com a eina de suport per als professionals.",
+    "detail": "La Fundació Vallparadís MútuaTerrassa celebrarà dimarts 27 d'octubre, a l'Edifici Docent de Terrassa, la 17a edició de la seva jornada científica. L'acte vol compartir bones pràctiques i presentar projectes de millora i experiències d'atenció social i sanitària, i combina el debat sobre els reptes tecnològics amb iniciatives assistencials i de recerca.\n\nLa jornada s'obrirà a les 9.15 h amb unes paraules del director gerent de la fundació, Ramon Ramells. El ponent principal és Genís Roca, expert en transformació d'empreses, innovació i cultura digital, que parlarà sota el títol «Què està passant i què passarà. Cap a on ens porta la IA?». Després s'hi presentaran nou estudis i experiències d'atenció social i sanitària, com ara les emocions dels professionals davant de conductes difícils de persones amb discapacitat o els factors que prediuen la recuperació de l'esquizofrènia.\n\nPer a la IA, el més concret és a la tarda, quan es presentaran els dos guanyadors de l'edició anterior. Un és un programa d'educació per a la salut per a persones ingressades a l'Ametlla del Vallès; l'altre, «IA-Cura», explora la IA com a eina de suport per als professionals. També hi haurà una activitat participativa, «Restaurant Estigma 0.0», sobre mites i estigmes de la salut mental.\n\nDe moment només se'n coneix el programa: la notícia no diu què fa exactament «IA-Cura» ni quins resultats ha obtingut, i caldrà esperar a la jornada per saber-ho.",
+    "source": "Diari de Terrassa",
+    "url": "https://www.diarideterrassa.com/terrassa/la-fundacio-vallparadis-posa-el-focus-en-la-intelligencia-artificial-i-les-cures.html",
+    "image": "./assets/vallparadis-terrassa-jornada-cientifica-ia-cures-20261024.jpg",
+    "slug": "vallparadis-terrassa-jornada-cientifica-ia-cures"
+  },
+  {
     "place": "Illes Balears",
     "category": "IA I SOCIETAT",
     "date": "23.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://llegim.ara.cat/actualitat/premi-anagrama-crit-d-alerta-privatitzacio-trampa-ia_1_5884593.html",
     "image": "./assets/xavier-nueno-premi-anagrama-assaig-revuelta-copistas-ia-20261020.jpg",
     "slug": "xavier-nueno-premi-anagrama-assaig-revuelta-copistas-ia"
-  },
-  {
-    "place": "Tarragona",
-    "category": "IA I SOCIETAT",
-    "date": "19.10.2026",
-    "title": "Investigadors de la UPF, la URV i l'Hospital de Tortosa combinen dades clíniques i immunitàries en un model d'IA per detectar metàstasi als ganglis en el càncer de mama",
-    "summary": "L'estudi, publicat a «Breast Cancer Research», redueix els falsos positius respecte d'un model amb dades clíniques només i proposa un possible biomarcador, però no prediu qui desenvoluparà metàstasi.",
-    "detail": "Quan el càncer de mama arriba als ganglis limfàtics de l'aixella, la mortalitat augmenta de manera clara; per això és important saber com més aviat millor si s'hi ha estès. Segons l'Organització Mundial de la Salut, el 2024 es van diagnosticar més de 2,4 milions de casos de càncer de mama al món i en van morir uns 694.000 dones.\n\nUn equip format per la Unitat BCN MedTech de la Universitat Pompeu Fabra (Alba Fischer Carles, Gemma Piella i Jérôme Noailly), l'Hospital Universitari de Tortosa Verge de la Cinta, l'Institut de Recerca Biomèdica Catalunya Sud i la Universitat Rovira i Virgili, amb l'Hospital Joan XXIII de Tarragona, ha publicat a la revista «Breast Cancer Research» (volum 28, article 121) un model d'aprenentatge automàtic que, per primera vegada en un estudi així, afegeix a les dades clíniques i anatomopatològiques les de la resposta immunitària de la pacient. El model final es va entrenar amb 83 dones amb càncer de mama luminal, diagnosticades entre el 1995 i el 2008; set de les nou variables immunitàries provenen de ganglis de l'aixella sense metàstasi. Es van comparar amb un model que només feia servir dades clíniques i que s'havia entrenat amb una sèrie més àmplia de 344 pacients.\n\nEl resultat és que el model amb dades immunitàries redueix els falsos positius de metàstasi respecte del que només té dades clíniques. L'estudi proposa també un possible biomarcador, el CD21 dins del tumor, que correspon a cèl·lules dendrítiques fol·liculars, i suggereix que els ganglis sense metàstasi també donen informació útil sobre com evoluciona la malaltia. Segons els autors, la resposta immunitària no s'avalua de manera rutinària en la pràctica clínica, i el model podria reforçar els mètodes diagnòstics actuals.\n\nEls autors adverteixen que l'eina no serveix per predir si una pacient desenvoluparà metàstasi, sinó per establir quines variables, sobretot immunitàries, s'associen al fet de tenir-ne a l'aixella. La mostra és petita, d'una sola zona i d'un sol tipus de tumor, i el biomarcador s'ha de confirmar en sèries més àmplies i en pacients d'altres centres abans de poder arribar a la consulta.",
-    "source": "Breast Cancer Research (nota de la URV)",
-    "url": "https://doi.org/10.1186/s13058-026-02294-9",
-    "image": "./assets/cancer-mama-ia-immunitat-ganglis-catalunya-20261019.jpg",
-    "slug": "ia-metastasi-ganglis-cancer-mama-upf-urv-tortosa"
   }
 ];

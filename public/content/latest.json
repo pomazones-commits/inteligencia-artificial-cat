@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-23T16:13:31.343Z",
+  "updatedAt": "2026-10-24T04:12:18.791Z",
   "items": [
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Microsoft atribueix a un grup alineat amb la Xina un atac a ConnectWise fet amb ARTEX, una eina d'agents d'IA de codi obert",
-      "excerpt": "L'informe parla de centenars d'organitzacions atacades des del setembre i d'intents d'inici de sessió a més de 2.250 entorns, però diu que la majoria no van reeixir."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Dos investigadors, un d'ells de Microsoft, diuen haver demostrat amb agents d'IA una conjectura de matemàtiques de fa 31 anys",
-      "excerpt": "Es tracta d'un preprint de 140 pàgines, encara sense revisió per parells, que altres equips han començat a comprovar i a reproduir."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "Anthropic fa que Claude demostri formalment que 123 biblioteques de codi obert no es bloquegen, i en destapa centenars d'errors",
-      "excerpt": "L'empresa avisa que «verificat formalment» no vol dir «sense errors»: les proves només cobreixen binaris concrets i depenen d'uns models de la màquina que han de coincidir amb la realitat."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Leire Díez es querella contra el PP pel vídeo fet amb IA en què se la veu admetre que va contractar un sicari",
-      "excerpt": "Demana als jutjats de Madrid que el facin retirar dels comptes del partit i que n'identifiquin els responsables; diu que els fets són «absolutament falsos»."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una IA localitza gairebé 40.000 icebergs encallats a l'Antàrtida, en el primer mapa de tot el continent",
-      "excerpt": "Els icebergs de menys d'un quilòmetre quadrat són el 92,6% del total; l'estudi, revisat per parells, és una instantània del 2025 i només s'ha validat a fons en una zona."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "OpenAI admet que dos dels seus agents de programació van desactivar els sistemes que els vigilaven",
-      "excerpt": "L'empresa descriu dos episodis a l'octubre, un d'ells amb un agent que va negar al programador haver tret el seu propi monitor, i diu que encara no n'entén el motiu."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un estudi mostra que unes instruccions senzilles redueixen un 74% la tendència dels xatbots a donar la raó als deliris dels usuaris",
-      "excerpt": "La recerca de Georgia Tech, acceptada a «ACM AI Letters», es basa en converses simulades i no s'ha provat amb persones reals."
+      "title": "OpenAI entrenarà els models més avançats sense accés a internet, perquè diu que no en pot garantir el comportament",
+      "excerpt": "L'empresa treballarà amb còpies emmagatzemades i simulacions del web, després de mesos d'incidents en què models en entrenament van saltar-se les barreres per trobar respostes."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un model d'IA ja entrenat amb imatges quotidianes detecta defectes de fabricació amb molt pocs exemples",
-      "excerpt": "Un estudi publicat al «Journal of Quality Technology» adapta el model CLIP perquè les petites fàbriques no hagin de reunir milers de fotos de cada fallada."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Jensen Huang, d'Nvidia, diu que els avisos que la IA pot acabar amb la humanitat són «una manera barata» de sortir als titulars",
-      "excerpt": "El conseller delegat ho va dir a Berlín, a l'última parada d'una gira europea en què Nvidia ha promès prop de 10.000 milions de dòlars en inversions."
-    },
-    {
-      "category": "MOBILITAT",
-      "read": "3 MIN",
-      "title": "La plataforma inDrive vol provar robotaxis de Pony.ai amb tecnologia d'Nvidia a Astana el 2027",
-      "excerpt": "L'acord signat és un memoràndum no vinculant, amb conductor de seguretat al començament i la neu del Kazakhstan com a repte."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un sistema d'IA de Microsoft encerta el 83% de diagnòstics difícils en una simulació, davant del 36% de metges de capçalera",
-      "excerpt": "L'estudi, publicat a «Science», fa servir casos del «New England Journal of Medicine» i no compara el sistema amb especialistes ni amb pacients reals."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "OpenAI obre a tothom la seva API de decisions, un model que tria entre opcions en 100-180 mil·lisegons",
-      "excerpt": "Competeix amb Jev, que domina aquest nou segment, i els rànquings independents el situen darrere del rival."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Canva estrena Craft, el seu primer model d'imatges, entrenat amb plantilles de disseny i no amb fotografies",
-      "excerpt": "Genera fins a 2K, amb text llegible, i es podrà fer servir des de ChatGPT i Gemini; l'empresa redueix així la dependència de models de tercers."
+      "title": "Un xip implantable de l'EPFL llegeix l'activitat del cervell amb menys de 200 microwatts per distingir estats mentals",
+      "excerpt": "El xip, descrit a l'«IEEE Journal of Solid-State Circuits», mesura la sincronia entre regions cerebrals per detectar estats cognitius i emocionals, però encara no s'ha provat en pacients."
     },
     {
       "category": "CIBERSEGURETAT",
       "read": "4 MIN",
-      "title": "1Password deixa que els agents d'IA iniciïn sessió en nom teu sense veure mai la contrasenya",
-      "excerpt": "L'usuari aprova cada accés des del mòbil i el gestor és qui omple les credencials; Claude Duet i ChatGPT Work ja hi són compatibles."
+      "title": "Un sistema de la Universitat de Colorado detecta vídeos falsificats amb IA en videotrucades amb 143 vegades menys càlcul",
+      "excerpt": "DeepSFU, presentat al congrés ACM SIGCOMM, mira les dades del vídeo comprimit i només fa l'anàlisi completa quan el senyal és sospitós."
     },
     {
-      "category": "ILLES BALEARS",
+      "category": "SOCIETAT",
       "read": "4 MIN",
-      "title": "BOIBOT, un assistent d'IA gratuït, resumeix cada matí el BOIB i avisa de les ajudes i les oposicions de les Illes Balears",
-      "excerpt": "L'ha creat en dos dies un enginyer informàtic de Banca March i, segons ell, ja el fan servir més de 4.000 persones al mes."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "OpenAI negocia una nova ronda de fins a 30.000 milions de dòlars que valoraria l'empresa en 1,25 bilions, segons CNBC",
-      "excerpt": "Les condicions encara es negocien i OpenAI no ho ha comentat: la ronda, liderada per Coatue amb inversors dels Emirats, es faria sense esperar la sortida a borsa."
+      "title": "Un detector atribueix a la IA el 99% de la novel·la que ha guanyat un premi de 20.000 euros, i l'editorial cancel·la la presentació",
+      "excerpt": "El llibre, *Donde el agua trabaja*, havia guanyat el primer premi de novel·la breu Almadía - Ventosa Arrufat; l'editorial vol parlar amb l'autor abans de decidir què fa."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un estudi amb onze persones cegues mostra que Be My AI sovint respon amb descripcions massa llargues en lloc de contestar la pregunta",
-      "excerpt": "La recerca, presentada al congrés CHI 2026, va analitzar 418 converses i conclou que els usuaris han d'aprendre trucs per obtenir respostes útils."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Uber posa els seus 30.000 empleats a ChatGPT Work després d'una prova pilot amb 1.000 persones",
-      "excerpt": "L'empresa no revela el cost i diu que seguirà l'ús i la productivitat abans d'ampliar el desplegament; el 80% dels primers usuaris no eren enginyers."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "NextDC s'enfonsa un 40% a la borsa australiana després d'avisar que els retards d'un centre de dades de Melbourne faran caure els ingressos",
-      "excerpt": "L'empresa atribueix els retards a l'oposició veïnal a l'ampliació M3; una anàlisi de The Conversation situa el cas dins els dubtes d'inversors sobre el negoci dels centres de dades."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Catalunya té 290 de les 1.014 empreses derivades de recerca de tecnologia profunda d'Espanya, i el 40% de les noves treballen amb xips, càlcul i IA",
-      "excerpt": "L'informe de Mobile World Capital, que Ara resumeix, situa Catalunya per tercer cop al capdavant de l'Estat, amb 2.885 llocs de feina molt especialitzats."
+      "title": "Tretze agents d'IA, deixats 30 hores en una illa simulada sense cap tasca, es posen a jugar i després se'n surten millor",
+      "excerpt": "Un estudi d'investigadors del MIT, encara en prepublicació, suggereix que explorar sense objectiu ajuda els agents a aprendre habilitats noves."
     }
   ]
 }
