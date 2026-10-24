@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-24T17:39:22.282Z",
+ "actualitzat": "2026-10-24T21:13:47.247Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "ce92a388088d",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "«La IA acelera la búsqueda de soluciones, pero los humanos guían y dirigen el proceso»",
+   "url": "https://www.informacion.es/economia/2026/10/24/ia-acelera-busqueda-soluciones-humanos-135678525.html",
+   "publicat": "2026-10-24T20:30:32.000Z"
+  },
+  {
+   "id": "19b60a285377",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "IA: del algoritmo al hormigón",
+   "url": "https://www.lavanguardia.com/economia/20261024/11667345/ia-algoritmo-hormigon.html",
+   "publicat": "2026-10-24T19:09:57.000Z"
+  },
+  {
+   "id": "76ec58fbcca7",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cuando la IA se pone de pie",
+   "url": "https://www.lavanguardia.com/economia/20261024/11667335/ia-pone-pie.html",
+   "publicat": "2026-10-24T19:09:27.000Z"
+  },
   {
    "id": "12aabe2b0763",
    "mitja": "Ara",
@@ -2711,28 +2744,6 @@
    "titol": "Pasos para adoptar la IA",
    "url": "https://www.lavanguardia.com/dinero/20261018/11660750/pasos-adoptar-ia.html",
    "publicat": "2026-10-17T22:05:00.000Z"
-  },
-  {
-   "id": "8847e994a026",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Gestores Administrativos: del papel a la Inteligencia Artificial",
-   "url": "https://www.informacion.es/empresas-en-alicante/2026/10/17/gestores-administrativos-papel-inteligencia-artificial-bc-135425846.html",
-   "publicat": "2026-10-17T20:30:37.000Z"
-  },
-  {
-   "id": "cf820639012e",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "“Puede colapsar las defensas”: dentro de la primera línea de Policía y CNI ante los ataques con IA",
-   "url": "https://www.eldiario.es/tecnologia/colapsar-defensas-primera-linea-policia-cni-ataques-ia_1_13584501.html",
-   "publicat": "2026-10-17T20:11:43.000Z"
   }
  ]
 }
