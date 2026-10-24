@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "24.10.2026",
+    "title": "Bon Preu prepara un assistent d'IA a la seva aplicació per planificar la compra amb text, notes de veu o imatges",
+    "summary": "El grup el desenvolupa amb la start-up catalana Shoptimus i el provarà primer amb el personal; abans de Nadal l'estrenaran uns milers d'usuaris.",
+    "detail": "Els supermercats britànics i neerlandesos fa temps que proven assistents d'IA dins de les seves aplicacions, i ara una cadena catalana s'hi afegeix. Bon Preu treballa en una eina que ha de ser un pas més enllà de l'app actual, que només mostra informació.\n\nSegons Ara, l'assistent permetrà fer consultes per text, per nota de veu o per imatge per planificar la compra. S'està desenvolupant amb la start-up catalana Shoptimus, i el diari el presenta com un assistent pioner a Espanya. En les properes setmanes el provarà el personal intern, i abans de la campanya de Nadal s'espera que hi tinguin accés uns milers d'usuaris de l'app, amb funcions que s'hi aniran afegint a poc a poc. L'objectiu és que arribi a tots els usuaris, però no hi ha data. Berta Martínez, responsable de fidelització, va dir que «no ens podíem quedar estancats en una app que només mostra informació, havíem de fer un pas més enllà». L'app suma un milió de descàrregues des del 2016 i el 60% de qui la té instal·lada l'utilitza amb regularitat.\n\nLa notícia és interessant perquè mostra l'adopció de la IA en el comerç alimentari amb una start-up local i una empresa que el 2025 va facturar 2.611,5 milions d'euros, un 7,9% més, i va invertir 150 milions. Ara ja ofereix reptes personalitzats amb descomptes en fresc i canvis d'articles de la cistella per alternatives més barates o saludables.\n\nConvé recordar que l'assistent encara no és disponible per al públic: ni Ara ni l'empresa no detallen quin model hi ha al darrere ni com mesuraran que realment ajuda a comprar millor.",
+    "source": "Ara",
+    "url": "https://www.ara.cat/economia/comerc/bon-preu-ultima-assistent-d-ia-millorar-planificacio-compra-traves-l-aplicacio_1_5888498.html",
+    "image": "./assets/bon-preu-assistent-ia-app-compra-shoptimus-20261024.jpg",
+    "slug": "bon-preu-assistent-ia-app-compra-shoptimus"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "24.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/ia-arriba-mon-casteller-aixi-es-joc-creat-emprenedor-catala_1713016_102.html",
     "image": "./assets/quina-colla-joc-castells-pau-garcia-mila-claude-20261021.jpg",
     "slug": "quina-colla-joc-castells-pau-garcia-mila-claude"
-  },
-  {
-    "place": "València",
-    "category": "IA I SOCIETAT",
-    "date": "21.10.2026",
-    "title": "Un sistema d'IA de la UPV i la Universitat de València ajuda a distingir el sarcoma d'Ewing d'altres tumors amb un 91,6% d'encert",
-    "summary": "L'eina analitza imatges de teixit de 729 pacients de quatre hospitals d'Espanya i Itàlia i vol orientar els patòlegs quan la biòpsia és escassa; el treball s'ha publicat a una revista revisada per parells.",
-    "detail": "El sarcoma d'Ewing és un tumor ossi i de parts toves que es confon fàcilment amb altres tumors de cèl·lules petites i rodones. Distingir-lo bé és decisiu perquè el tractament depèn del diagnòstic, però sovint els patòlegs només tenen una mostra minúscula obtinguda amb una agulla, i això limita les proves que poden fer.\n\nUn equip de la Universitat Politècnica de València, de la Universitat de València i de l'Institut d'Investigació Sanitària INCLIVA ha entrenat un sistema d'aprenentatge profund que reconeix els patrons microscòpics de cada tumor i classifica la mostra. Segons la nota de la UPV, que recull News-Medical, el model es va entrenar i avaluar amb 1.926 mostres histològiques digitalitzades de 729 pacients de quatre hospitals d'Espanya i Itàlia. L'encert global és del 91,6%, la sensibilitat per al sarcoma d'Ewing arriba al 97,1% i l'error entre aquest tumor i el rabdomiosarcoma és de l'1,96%. L'article, signat per Francisco Giner i col·legues, s'ha publicat a l'«International Journal of Molecular Sciences» i compta amb el finançament europeu NextGenerationEU.\n\nL'objectiu no és substituir el patòleg, sinó orientar-lo: quan hi ha poc teixit, saber quines proves complementàries val més demanar primer. Hi han col·laborat també l'hospital La Fe, l'Institut Valencià d'Oncologia, el Centre d'Investigació Príncipe Felipe i l'Institut Ortopèdic Rizzoli de Bolonya, i un dels autors és alhora cap tècnic d'Artikode Intelligence, una empresa derivada de la UPV.\n\nLa nota de premsa no detalla com es van repartir les dades entre entrenament i prova, si hi ha hagut validació amb hospitals aliens als quatre ni si l'eina ja es pot fer servir a la clínica. Tampoc dona intervals de confiança ni resultats per a cada tipus de tumor. Cal llegir l'article complet per saber fins on arriba el 91,6% abans de parlar d'una eina llesta per a la pràctica diària.",
-    "source": "News-Medical (nota de la UPV)",
-    "url": "https://www.news-medical.net/news/20261013/New-AI-tool-distinguishes-Ewing-sarcoma-with-high-accuracy.aspx",
-    "image": "./assets/sarcoma-ewing-ia-upv-uv-20261021.jpg",
-    "slug": "sarcoma-ewing-ia-upv-uv"
   }
 ];
