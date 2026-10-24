@@ -30,6 +30,24 @@ const BUTLLETI_REDACCIO_ALIES = ['pomazona@gmail.com', 'pomazon@hotmail.es'];
 const BUTLLETI_REMITENT = 'no-reply@inteligencia-artificial.cat';
 const BUTLLETI_NOM_REMITENT = "La setmana d'IA · inteligencia-artificial.cat";
 const BUTLLETI_MAX_PER_PASSADA = 150;
+// Límit d'enviament del servidor (24.10.2026). Al núm. 13, el primer enviat des
+// del web, Hostinger va acceptar 10 correus i va rebutjar els 38 següents de cop:
+// mail() torna false quan el servidor frena els enviaments. Per això:
+//  - pausa d'1 s entre correus (abans, 0,2 s);
+//  - dues fallades seguides = el servidor ha frenat: s'atura la passada i les
+//    adreces que han fallat NO compten per als 3 intents (compten a part, a
+//    "limit", amb un sostre molt més alt), i la passada següent continua;
+//  - una fallada aïllada (el correu següent sí que surt) és un error de l'adreça
+//    i compta per als 3 intents, com abans;
+//  - l'estat es desa cada 10 correus, perquè un tall a mitges no faci repetir.
+const BUTLLETI_PAUSA_US = 1000000;
+const BUTLLETI_FALLADES_SEGUIDES = 2;
+const BUTLLETI_MAX_INTENTS = 3;
+const BUTLLETI_MAX_PASSADES_LIMIT = 16;
+const BUTLLETI_DESA_CADA = 10;
+// Recordatori (encàrrec d'en Rafael del 24.10.2026): quan s'acostin als 100
+// subscriptors, passar a SMTP autenticat o a un servei de butlletins.
+const BUTLLETI_AVIS_SUBSCRIPTORS = 90;
 
 function butlleti_dir(): string
 {
@@ -224,6 +242,14 @@ function butlleti_envia_correu(string $a, string $assumpte, string $html, string
         . chunk_split(base64_encode($html))
         . "--$limit--\r\n";
     if (butlleti_simula()) {
+        // Proves: BUTLLETI_SIMULA_ACCEPTA=N fa que el «servidor» accepti només N correus per
+        // procés (com el límit d'Hostinger); BUTLLETI_SIMULA_FALLA=a@b,c@d fa fallar sempre aquestes adreces.
+        static $acceptats = 0;
+        $falla = array_filter(explode(',', (string) getenv('BUTLLETI_SIMULA_FALLA')));
+        if (in_array($a, $falla, true)) { return false; }
+        $maxim = getenv('BUTLLETI_SIMULA_ACCEPTA');
+        if ($maxim !== false && $maxim !== '' && $acceptats >= (int) $maxim) { return false; }
+        $acceptats++;
         $dir = butlleti_dir() . '/butlleti-simulats';
         if (!is_dir($dir)) { @mkdir($dir, 0755, true); }
         file_put_contents($dir . '/' . date('YmdHis') . '-' . bin2hex(random_bytes(3)) . '.eml',
@@ -359,13 +385,57 @@ function butlleti_processa(): array
 
             // Destinataris: la prova, només a la redacció; l'edició real, a tots els confirmats + la redacció.
             $dest = !empty($ed['prova']) ? [BUTLLETI_REDACCIO] : array_merge([BUTLLETI_REDACCIO], butlleti_destinataris($estat));
+            // Registres d'abans del 24.10.2026 (sense "limit"): totes les fallades venien del
+            // límit del servidor (núm. 13: 10 enviats i 38 fallits de cop), no de les adreces.
+            if ($reg && !array_key_exists('limit', $reg) && !empty($reg['errors'])) {
+                $reg['limit'] = $reg['errors'];
+                $reg['errors'] = [];
+            }
             $fets = array_flip($reg['enviats'] ?? []);
-            $errors = $reg['errors'] ?? [];
+            $errors = $reg['errors'] ?? [];       // fallades aïllades: errors de l'adreça (sostre 3)
+            $limit = $reg['limit'] ?? [];         // fallades en ratxa: el servidor ha frenat (sostre 16)
+            $abandonats = $reg['abandonats'] ?? [];
             $comptador = 0;
+            $ratxa = [];                           // adreces que han fallat seguides en aquesta passada
+            $frenat = false;
+
+            // Desa el registre de l'edició (també a mitja passada, perquè un tall no faci repetir enviaments).
+            $desa = static function (bool $tancat) use ($clau, $ed, $reg, $dest, &$fets, &$errors, &$limit, &$abandonats): int {
+                $pendents = count(array_filter($dest, static fn($c) => !isset($fets[substr(sha1($c), 0, 16)])));
+                $nouReg = [
+                    'num' => (int) $ed['num'], 'assumpte' => (string) $ed['assumpte'], 'prova' => !empty($ed['prova']),
+                    'inici' => $reg['inici'] ?? date('c'), 'total' => count($dest),
+                    'enviats' => array_keys($fets), 'errors' => $errors, 'limit' => $limit,
+                    'abandonats' => array_values(array_unique($abandonats)),
+                    'fi' => ($tancat && $pendents === 0) ? date('c') : null,
+                ];
+                butlleti_modifica_estat(static function (array $e, &$res) use ($clau, $nouReg): array {
+                    $e['enviaments'][$clau] = $nouReg; $res = true; return $e;
+                });
+                return $pendents;
+            };
+            // Les adreces de la ratxa: si després ha sortit un correu, eren errors de l'adreça;
+            // si la passada s'atura per la ratxa, era el servidor que frenava.
+            $tanca_ratxa = static function (bool $eraLimit) use (&$ratxa, &$errors, &$limit, &$fets, &$abandonats): void {
+                foreach ($ratxa as $h) {
+                    // Una adreça que ja havia fallat sola (amb altres correus sortint bé) és
+                    // sospitosa: la seva fallada compta com a error encara que tanqui la passada.
+                    if ($eraLimit && empty($errors[$h])) {
+                        $limit[$h] = ($limit[$h] ?? 0) + 1;
+                        if ($limit[$h] >= BUTLLETI_MAX_PASSADES_LIMIT) { $fets[$h] = true; $abandonats[] = $h; }
+                    } else {
+                        $errors[$h] = ($errors[$h] ?? 0) + 1;
+                        if ($errors[$h] >= BUTLLETI_MAX_INTENTS) { $fets[$h] = true; $abandonats[] = $h; }
+                    }
+                }
+                $ratxa = [];
+            };
+
             foreach ($dest as $correu) {
                 $h = substr(sha1($correu), 0, 16);
                 if (isset($fets[$h])) { continue; }
                 if ($comptador >= BUTLLETI_MAX_PER_PASSADA) { break; }
+                if ($comptador > 0 && !butlleti_simula()) { usleep(BUTLLETI_PAUSA_US); }
                 $baixa = butlleti_enllac('butlleti-baixa.php', 'baixa', $correu);
                 $ok = butlleti_envia_correu($correu, (string) $ed['assumpte'],
                     butlleti_personalitza((string) $ed['html'], $correu),
@@ -373,28 +443,40 @@ function butlleti_processa(): array
                     ['List-Unsubscribe: <' . $baixa . '>, <mailto:' . BUTLLETI_REDACCIO . '?subject=baixa>',
                      'List-Unsubscribe-Post: List-Unsubscribe=One-Click']);
                 $comptador++;
-                if ($ok) { $fets[$h] = true; } else { $errors[$h] = ($errors[$h] ?? 0) + 1; if ($errors[$h] >= 3) { $fets[$h] = true; } }
-                usleep(200000);
+                if ($ok) {
+                    $tanca_ratxa(false);
+                    $fets[$h] = true;
+                } else {
+                    $ratxa[] = $h;
+                    if (count($ratxa) >= BUTLLETI_FALLADES_SEGUIDES) { $frenat = true; break; }
+                }
+                if ($comptador % BUTLLETI_DESA_CADA === 0) { $desa(false); }
             }
-            $pendents = count(array_filter($dest, static fn($c) => !isset($fets[substr(sha1($c), 0, 16)])));
-            $nouReg = [
-                'num' => (int) $ed['num'], 'assumpte' => (string) $ed['assumpte'], 'prova' => !empty($ed['prova']),
-                'inici' => $reg['inici'] ?? date('c'), 'total' => count($dest),
-                'enviats' => array_keys($fets), 'errors' => $errors, 'fi' => $pendents === 0 ? date('c') : null,
-            ];
-            butlleti_modifica_estat(static function (array $e, &$res) use ($clau, $nouReg): array {
-                $e['enviaments'][$clau] = $nouReg; $res = true; return $e;
-            });
-            $fallits = count(array_filter($errors, static fn($n) => $n >= 3));
-            butlleti_log("edicio $clau: enviats " . (count($fets) - $fallits) . '/' . count($dest) . ", fallits $fallits, pendents $pendents");
-            $resum[$clau] = ['total' => count($dest), 'fets' => count($fets) - $fallits, 'fallits' => $fallits, 'pendents' => $pendents];
+            // Una ratxa que queda oberta al final (amb fallades seguides o sense cap correu
+            // després) es tracta com a límit del servidor: no gasta els 3 intents de l'adreça.
+            $tanca_ratxa(true);
+            $pendents = $desa(true);
+            $abandonats = array_values(array_unique($abandonats));
+            $fallits = count($abandonats);
+            $ambLimit = count(array_filter($limit, static fn($n) => $n > 0));
+            butlleti_log("edicio $clau: enviats " . (count($fets) - $fallits) . '/' . count($dest) . ", fallits $fallits, pendents $pendents"
+                . ($frenat ? ', passada aturada: el servidor ha frenat els enviaments' : ''));
+            $resum[$clau] = ['total' => count($dest), 'fets' => count($fets) - $fallits, 'fallits' => $fallits, 'pendents' => $pendents, 'frenat' => $frenat];
 
             if ($pendents === 0 && empty($ed['prova'])) {
-                butlleti_correu_simple(BUTLLETI_REDACCIO, 'IA.cat: butlletí núm. ' . (int) $ed['num'] . ' enviat', [
+                $actius = count($dest) - 1;
+                $paragrafs = [
                     'El butlletí núm. ' . (int) $ed['num'] . ' («' . $ed['assumpte'] . '») s\'ha enviat des del web.',
-                    'Destinataris: ' . (count($dest) - 1) . ' subscriptors confirmats, més aquesta bústia. Correus acceptats pel servidor: ' . (count($fets) - $fallits) . ' de ' . count($dest) . '. Fallits (3 intents): ' . $fallits . '.',
-                    'Subscriptors actius: ' . (count($dest) - 1) . '. Baixes acumulades: ' . count(array_filter($estat['adreces'], static fn($a) => ($a['estat'] ?? '') === 'baixa')) . '.',
-                ]);
+                    'Destinataris: ' . $actius . ' subscriptors confirmats, més aquesta bústia. Correus acceptats pel servidor: ' . (count($fets) - $fallits) . ' de ' . count($dest) . '. Fallits: ' . $fallits . '.',
+                    'Subscriptors actius: ' . $actius . '. Baixes acumulades: ' . count(array_filter($estat['adreces'], static fn($a) => ($a['estat'] ?? '') === 'baixa')) . '.',
+                ];
+                if ($ambLimit > 0) {
+                    $paragrafs[] = 'El servidor va frenar els enviaments, i el butlletí ha sortit en diverses passades (aproximadament cada 30 minuts).';
+                }
+                if ($actius >= BUTLLETI_AVIS_SUBSCRIPTORS) {
+                    $paragrafs[] = '⚠️ Recordatori: ja sou ' . $actius . ' subscriptors i us acosteu als 100. És el moment de passar l\'enviament a l\'SMTP autenticat d\'Hostinger o a un servei de butlletins (Brevo, MailerLite), com es va acordar el 24.10.2026.';
+                }
+                butlleti_correu_simple(BUTLLETI_REDACCIO, 'IA.cat: butlletí núm. ' . (int) $ed['num'] . ' enviat', $paragrafs);
             }
         }
     } finally {

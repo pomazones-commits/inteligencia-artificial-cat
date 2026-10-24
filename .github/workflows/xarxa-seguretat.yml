@@ -200,3 +200,14 @@ jobs:
           main().catch((e) => { console.error(e); process.exit(1); });
           SCRIPT
           node "$RUNNER_TEMP/safety-net.mjs"
+
+      # Butlletí (24.10.2026): el servidor d'Hostinger frena els enviaments (el
+      # núm. 13 va sortir només a 10 de 48 a la primera passada) i el que queda
+      # es reprèn a la passada següent. Els crons :08/:38 de desplega.yml no
+      # sempre corren, així que la xarxa de seguretat també ho demana. És
+      # idempotent i sense clau: si no hi ha res pendent, respon de seguida.
+      - name: Reprèn el butlletí pendent (si n'hi ha)
+        if: always()
+        run: |
+          curl -sS --max-time 280 -A "IA.cat xarxa" "https://inteligencia-artificial.cat/butlleti-envia.php" || echo "::warning::No s'ha pogut cridar butlleti-envia.php."
+          echo
