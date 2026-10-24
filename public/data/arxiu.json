@@ -184,7 +184,13 @@
           "sourceUrl": "https://www.ultimahora.es/noticias/local/2026/10/23/2734541/crean-herramienta-para-encontrar-ayudas-empleo-publico-baleares-todos-sabemos-dificil-resulta-leer-boib.html",
           "sourceDate": "23 d'octubre de 2026",
           "body": "Llegir el Butlletí Oficial de les Illes Balears (BOIB) per saber quines ajudes o quines places públiques s'han convocat és una feina pesada. Un projecte gratuït, BOIBOT, vol estalviar-la als ciutadans: cada matí repassa el butlletí, tria les convocatòries que poden interessar i les resumeix.\n\nL'ha creat Antoni Artigues, enginyer informàtic que treballa a Banca March i que va passar cinc anys al Barcelona Supercomputing Center en projectes de dades massives i IA. La idea li va venir quan la seva dona buscava places de professora de piano a l'escola pública i havia de mirar el BOIB tota l'estona. Segons ell, va construir la versió bàsica en dos dies amb eines d'IA, sense escriure el codi a mà, amb un mètode que anomena Spec Driven Development.\n\nEl web, boibot.es, recull ajudes de lloguer i d'habitatge, beques, cursos, borses de treball i ofertes d'ocupació pública. De cada convocatòria en dona els requisits, els imports, el sou previst quan n'hi ha i els passos per inscriure-s'hi. Un qüestionari generat amb IA a partir de les bases oficials indica si l'usuari les compleix, i per als opositors hi ha calendaris d'estudi setmanals, el seguiment de les fases de cada procés i materials oficials. També s'hi poden activar avisos gratuïts per correu o Telegram, filtrats per illa, municipi i categoria.\n\nLes xifres d'ús (més de 4.000 persones al mes) les dona el mateix autor, i el web no substitueix la lectura de les bases oficials, que són les que tenen valor legal. La Fundació Universitat-Empresa de les Illes Balears el recull entre els seus recursos d'orientació laboral.",
-          "image": "./assets/boibot-ajudes-ocupacio-publica-balears-20261023.jpg"
+          "image": "./assets/boibot-ajudes-ocupacio-publica-balears-20261023.jpg",
+          "enllacos": [
+            {
+              "text": "boibot.es",
+              "url": "https://www.boibot.es/"
+            }
+          ]
         },
         {
           "category": "EMPRESES",

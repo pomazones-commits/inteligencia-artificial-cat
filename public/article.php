@@ -97,6 +97,33 @@ $audioFile = __DIR__ . '/assets/audio/' . $slug . '.mp3';
 $audioUrl = ($slug !== '' && is_file($audioFile)) ? './assets/audio/' . $slug . '.mp3?v=' . (string) filemtime($audioFile) : '';
 $category = utf8_upper((string) ($article['category'] ?? 'ACTUALITAT'));
 
+// Enllaços del projecte (24.10.2026, primer cas: BOIBOT). Camp opcional
+// "enllacos": [{"text": "boibot.es", "url": "https://www.boibot.es/"}]. Només
+// adreces https. La primera aparició del text dins del cos es converteix en
+// enllaç i, a més, surten a la targeta lateral «Web del projecte».
+$enllacos = [];
+foreach ((array) ($article['enllacos'] ?? []) as $enllac) {
+    if (!is_array($enllac)) { continue; }
+    $enllacText = trim((string) ($enllac['text'] ?? ''));
+    $enllacUrl = trim((string) ($enllac['url'] ?? ''));
+    if ($enllacText === '' || !preg_match('#^https://[^\s"<>]+$#i', $enllacUrl)) { continue; }
+    $enllacos[] = ['text' => $enllacText, 'url' => $enllacUrl, 'fet' => false];
+}
+function iacat_paragraf_amb_enllacos(string $paragraph, array &$enllacos): string {
+    $html = e($paragraph);
+    foreach ($enllacos as &$enllac) {
+        if ($enllac['fet']) { continue; }
+        $needle = e($enllac['text']);
+        $pos = strpos($html, $needle);
+        if ($pos === false) { continue; }
+        $a = '<a href="' . e($enllac['url']) . '" target="_blank" rel="noopener noreferrer">' . $needle . '</a>';
+        $html = substr_replace($html, $a, $pos, strlen($needle));
+        $enllac['fet'] = true;
+    }
+    unset($enllac);
+    return $html;
+}
+
 $publishedLabel = '';
 if ($publishedIso !== '' && preg_match('/^(\d{4})-(\d{2})-(\d{2})$/', $publishedIso, $dateParts)) {
     $months = [1 => 'gener', 2 => 'febrer', 3 => 'març', 4 => 'abril', 5 => 'maig', 6 => 'juny', 7 => 'juliol', 8 => 'agost', 9 => 'setembre', 10 => 'octubre', 11 => 'novembre', 12 => 'desembre'];
@@ -245,10 +272,11 @@ $shareText = rawurlencode((string) $article['title']);
     <div class="article-layout">
       <article>
         <?php if ($audioUrl): ?><div class="tts-player"><strong>Escolta:</strong><audio id="tts-audio" controls preload="none" src="<?= e($audioUrl) ?>">El teu navegador no pot reproduir l’àudio.</audio><label class="tts-speed">Velocitat <select id="tts-speed" aria-label="Velocitat de reproducció"><option value="1" selected>1×</option><option value="1.25">1,25×</option><option value="1.5">1,5×</option><option value="1.75">1,75×</option><option value="2">2×</option></select></label></div><?php else: ?><div class="tts-player"><strong>Escolta:</strong><span class="tts-note">Àudio en preparació.</span></div><?php endif; ?>
-        <div class="article-body-clean"><?php foreach (preg_split('/\n\n+/', (string) ($article['body'] ?? '')) as $paragraph): ?><p><?= e($paragraph) ?></p><?php endforeach; ?></div>
+        <div class="article-body-clean"><?php foreach (preg_split('/\n\n+/', (string) ($article['body'] ?? '')) as $paragraph): ?><p><?= iacat_paragraf_amb_enllacos((string) $paragraph, $enllacos) ?></p><?php endforeach; ?></div>
         <?php if ($videoId !== ''): ?><section class="iac-video" aria-labelledby="video-title"><h2 id="video-title">El vídeo</h2><div class="iac-video__frame"><button type="button" class="iac-video__play" data-video-id="<?= e($videoId) ?>" data-video-lang="<?= e($videoIdioma) ?>" data-video-title="<?= e($videoTitol !== '' ? $videoTitol : 'Vídeo de YouTube') ?>" aria-label="Reprodueix el vídeo<?= $videoTitol !== '' ? ': ' . e($videoTitol) : '' ?>"><img src="<?= e($videoMiniatura) ?>" alt="" loading="lazy" width="480" height="360"><span class="iac-video__icon" aria-hidden="true"></span></button></div><p class="iac-video__meta"><?php if ($videoTitol !== ''): ?><strong><?= e($videoTitol) ?></strong> · <?php endif; ?><?php if ($videoCanal !== ''): ?><?php if ($videoCanalUrl !== ''): ?><a href="<?= e($videoCanalUrl) ?>" target="_blank" rel="noopener noreferrer"><?= e($videoCanal) ?></a><?php else: ?><?= e($videoCanal) ?><?php endif; ?> · <?php endif; ?><a href="https://www.youtube.com/watch?v=<?= e($videoId) ?>" target="_blank" rel="noopener noreferrer">YouTube ↗</a></p><?php if ($videoResum !== ''): ?><p class="iac-video__resum"><?= e($videoResum) ?></p><?php endif; ?><p class="iac-video__nota"><?php if ($videoIdioma !== 'ca'): ?><?= $videoIdiomaNom !== '' ? 'Vídeo en ' . e($videoIdiomaNom) . '.' : 'Vídeo en una altra llengua.' ?> Els subtítols en català són la traducció automàtica de YouTube i poden trigar uns segons a sortir; si no hi surten: ⚙ Configuració › Subtítols › Traducció automàtica › Català. <?php endif; ?>El reproductor de YouTube només es carrega quan hi fas clic.</p></section><?php endif; ?>
       </article>
       <aside class="article-sidebar">
+        <?php if ($enllacos): ?><section class="article-sidecard"><h2>Web del projecte</h2><p><?php foreach ($enllacos as $i => $enllac): ?><?= $i > 0 ? '<br>' : '' ?><a href="<?= e($enllac['url']) ?>" target="_blank" rel="noopener noreferrer"><?= e($enllac['text']) ?> ↗</a><?php endforeach; ?></p></section><?php endif; ?>
         <?php if ($sourceUrl !== ''): ?><section class="article-sidecard"><h2>Font original</h2><p>Consulta la informació de partida i contrasta’n els detalls.</p><p style="margin-top:12px"><a href="<?= e($sourceUrl) ?>" target="_blank" rel="noreferrer"><?= e($sourceName) ?> ↗</a><?php if (!empty($article['sourceDate'])): ?><br><?= e((string) $article['sourceDate']) ?><?php endif; ?></p></section><?php endif; ?>
         <?php if ($esCentresDades): ?><section class="article-sidecard"><h2>Centres de dades</h2><p>Tots els projectes dels territoris de parla catalana: on són, en quin estat, qui els promou i què se’n discuteix.</p><p style="margin-top:12px"><a href="/centres-de-dades">Mapa i fitxes →</a></p></section><?php endif; ?>
         <section class="article-sidecard"><h2>Comparteix</h2><div class="article-share-clean"><a href="https://www.linkedin.com/sharing/share-offsite/?url=<?= $shareUrl ?>" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://wa.me/?text=<?= $shareText ?>%20<?= $shareUrl ?>" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="mailto:?subject=<?= $shareText ?>&amp;body=<?= $shareUrl ?>">Correu</a><button type="button" data-copy-url="<?= e($canonical) ?>">Copia</button></div></section>
