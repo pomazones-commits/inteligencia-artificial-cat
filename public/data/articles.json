@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-24T04:12:18.791Z",
+  "updatedAt": "2026-10-24T08:11:48.305Z",
   "items": [
+    {
+      "category": "REGULACIÓ",
+      "read": "4 MIN",
+      "slug": "editors-canadencs-demanden-anthropic-claude",
+      "title": "Els principals diaris del Canadà demanden Anthropic per haver entrenat Claude amb les seves notícies sense llicència",
+      "excerpt": "Postmedia, Torstar, The Globe and Mail i The Canadian Press acusen l'empresa de copiar els seus webs saltant-se les proteccions tècniques.",
+      "sourceName": "The Canadian Press (CP24)",
+      "sourceUrl": "https://www.cp24.com/local/toronto/2026/10/19/news-publishers-launch-copyright-suit-against-ai-company-anthropic-in-ontario/",
+      "sourceDate": "19 d'octubre de 2026",
+      "body": "Els editors de premsa porten anys discutint amb les empreses d'IA sobre l'ús dels seus articles per entrenar models. Al Canadà, els mateixos grups que el 2024 van demandar OpenAI, juntament amb la CBC/Radio-Canada, tenen encara aquell cas sense resoldre.\n\nAra quatre empreses informatives, Postmedia, Torstar, The Globe and Mail i The Canadian Press, han demandat Anthropic davant un tribunal d'Ontario. Segons la Canadian Press, la demanda es va presentar el 6 d'octubre i la va donar a conèixer primer el mitjà Cartt.ca. Els editors sostenen que Anthropic va fer servir els seus continguts per desenvolupar Claude sense llicència, que va incomplir les condicions d'ús dels seus webs i que va esquivar les mesures tècniques que limiten la còpia. També l'acusen d'haver extret text dels seus llocs web, fins i tot ara, quan Claude respon les consultes dels usuaris, i d'haver-se enriquit «substancialment i injustament» a costa seva.\n\nEl cas és rellevant perquè és una de les primeres demandes d'editors de premsa contra Anthropic, després de tantes contra OpenAI, i perquè el Canadà encara no ha fixat cap posició oficial sobre l'ús de material protegit per entrenar IA: els editors han demanat al Govern federal que se'n pronunciï, després que l'estratègia nacional d'IA no toqués el tema.\n\nTot i això, són acusacions i no s'han demostrat als tribunals. L'article de la Canadian Press no precisa quina indemnització es reclama, i Anthropic no havia respost a la petició de comentari quan es va publicar.",
+      "image": "./assets/editors-canadencs-demanden-anthropic-claude-20261024.jpg"
+    },
+    {
+      "category": "INVERSIÓ",
+      "read": "4 MIN",
+      "slug": "daytona-60-milions-entorns-agents-ia",
+      "title": "Daytona aixeca 60 milions de dòlars, amb una valoració de 1.000 milions, per llogar entorns segurs als agents d'IA",
+      "excerpt": "L'empresa diu que els seus ingressos recurrents s'han multiplicat per 25 entre gener i setembre; entre els clients hi ha Anthropic, OpenAI i Nvidia.",
+      "sourceName": "Tech.eu",
+      "sourceUrl": "https://tech.eu/2026/10/20/daytona-hits-1b-valuation-with-60m-series-b-for-ai-agent-cloud//",
+      "sourceDate": "20 d'octubre de 2026",
+      "body": "Els agents d'IA que escriuen codi, naveguen per la xarxa o fan servir programes necessiten un lloc on equivocar-se sense fer mal. Aquest espai aïllat, que en el sector s'anomena *sandbox*, s'ha convertit en una peça d'infraestructura pròpia.\n\nDaytona, una empresa que n'ofereix com a servei, ha tancat una ronda de sèrie B de 60 milions de dòlars amb una valoració d'1.000 milions, segons Tech.eu. La lidera FirstMark i hi participen, entre d'altres, Patrick Collison (Stripe), Tobi Lütke (Shopify), Aravind Srinivas (Perplexity) i Eric Yuan (Zoom). Amb aquesta ronda, el finançament total arriba als 91 milions. La plataforma permet crear amb una sola API entorns de Linux, Windows o macOS, i que l'agent els pausi, els represi o hi provi camins diferents sense perdre el progrés.\n\nL'empresa assegura que els ingressos recurrents anuals han crescut 25 vegades entre gener i setembre. Entre els usuaris de la infraestructura esmenta Anthropic, OpenAI, Nvidia, Cursor i Cognition. «Les empreses gestionaran milers d'empleats digitals i cadascun necessita un lloc segur on fallar», diu el cofundador i conseller delegat, Ivan Burazin. Els diners serviran per ampliar el producte, créixer en capacitat de càlcul i contractar a San Francisco, Croàcia i Singapur.\n\nCal llegir les xifres amb cautela: el creixement i la llista de clients els dona l'empresa mateixa, i una valoració de 1.000 milions és una aposta pel creixement futur més que per l'escala actual.",
+      "image": "./assets/daytona-60-milions-entorns-agents-ia-20261024.jpg"
+    },
+    {
+      "category": "ROBÒTICA",
+      "read": "3 MIN",
+      "slug": "microduck-hugging-face-20000-reserves-nvidia-berlin",
+      "title": "Els Microducks, uns robots amb forma d'ànec de Hugging Face, passen de les 20.000 reserves després de sortir a la keynote de Nvidia a Berlín",
+      "excerpt": "Un vídeo de Jensen Huang jugant-hi durant la conferència GTC s'ha fet viral, i el director de Hugging Face creu que podrien ser el robot més venut de l'any.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "sourceDate": "23 d'octubre de 2026",
+      "body": "La robòtica de consum s'ha fet moltes vegades a base de prometre més del que es lliurava. Aquesta setmana, el que ha tirat la demanda ha estat un moment simpàtic en un escenari.\n\nSegons TechCrunch, durant la keynote de la conferència GTC de Nvidia a Berlín, el president de la companyia, Jensen Huang, va jugar amb els Microducks, uns robots de codi obert que caminen balancejant-se, fan xiulets a l'estil d'R2-D2, s'asseuen, cauen per fer la becaina i fan tombarelles amb ordres de veu. El vídeo es va fer viral i, l'endemà, les reserves superaven les 20.000 unitats, segons Clem Delangue, director de Hugging Face. L'entrega està prevista per a Nadal.\n\nEls Microducks són el segon robot de Hugging Face, després del Reachy Mini, i els fabrica Pollen Robotics, que l'empresa va comprar el 2025. TechCrunch afegeix que Nvidia va comprar Hugging Face al setembre, i que la seva tecnologia s'ha fet servir per ensenyar els robots a caminar, seure i aixecar-se en simulació. Els propietaris poden ensenyar-los trucs nous i compartir-los amb la comunitat. Delangue creu que també els compraran adults, no només nens.\n\nLes reserves no són vendes, i l'article no diu el preu ni quan es lliurarà la primera remesa. Que un robot sigui el més venut de l'any és, de moment, una previsió del seu impulsor.",
+      "image": "./assets/microduck-hugging-face-20000-reserves-nvidia-berlin-20261024.jpg"
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "4 MIN",
+      "slug": "ai-congress-barcelona-clor-aigues-vic-simulacio",
+      "title": "L'AI Congress de Barcelona mostra una IA que ajuda a dosificar el clor a la xarxa d'aigua de Vic, encara només en simulació",
+      "excerpt": "Entre els casos presentats, un sistema d'HP assigna incidències de programari amb un 77% d'encert i Gestmusic desenvolupa un cercador per al material audiovisual.",
+      "sourceName": "CatalunyaPress",
+      "sourceUrl": "https://www.catalunyapress.cat/article/intelligncia-artificial/2026-10-22/6061715-ia-comenca-resoldre-problemes-reals-catalunya",
+      "sourceDate": "22 d'octubre de 2026",
+      "body": "L'AI Congress de Barcelona, organitzat per CIDAI i Eurecat, ha dedicat una sessió a projectes en què la IA resol una tasca concreta i no pretén substituir ningú. Segons CatalunyaPress, en tots tres casos la decisió final continua en mans d'un professional.\n\nEl més tangible és IAQUA, desenvolupat per Aventec, BGEO, Aigües de Vic i Eurecat amb finançament del programa RETECH de la Generalitat. Per no dependre d'un model físic lent, l'equip n'ha entrenat un de substitut basat en xarxes neuronals de grafs, i un agent d'aprenentatge per reforç proposa pujar, abaixar o mantenir la dosi de clor. Segons Andreu Giménez, d'Aventec, el sistema millora un 35% la recompensa de l'agent respecte al sistema de referència. Però aquesta és una mesura d'entrenament, no un estalvi de clor ni una millora mesurada de la qualitat de l'aigua, i encara no controla cap dosificació real.\n\nGestmusic hi va presentar KAI, una plataforma conversacional per trobar imatges i sons entre centenars d'hores de rodatge, encara en desenvolupament i sense resultats quantitatius. HP, per la seva banda, va explicar que un sistema entrenat amb l'historial d'incidències assigna cada cas a l'equip adequat amb un 77% d'encert, davant d'un 60-70% de l'assignació manual anterior, i que redueix al voltant d'un 30% el temps de resolució.\n\nLes xifres d'HP són les de la companyia i no han passat per cap avaluació independent. Les dues comparacions, a més, potser no es van fer sobre els mateixos casos.",
+      "image": "./assets/ai-congress-barcelona-clor-aigues-vic-simulacio-20261024.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "nyu-eina-comprova-cites-hallucinationnerd",
+      "title": "Un equip de la Universitat de Nova York crea una eina d'IA que comprova si les cites d'un text diuen el que se'ls atribueix",
+      "excerpt": "HallucinationNerd i ProtocolNerd, publicades a la revista «Information», ajuden a detectar referències inventades i a trobar protocols de laboratori.",
+      "sourceName": "Tech Xplore",
+      "sourceUrl": "https://techxplore.com/news/2026-10-scientists-tech-tools-citation-hallucinations.html",
+      "sourceDate": "23 d'octubre de 2026",
+      "body": "Els models de llenguatge tenen un hàbit conegut: inventar referències bibliogràfiques que semblen reals. Quan un text científic en conté, comprovar-les a mà costa temps, i per això n'apareixen cada cop més en articles i informes.\n\nUn equip de la Universitat de Nova York dirigit pel professor Dennis Shasha, de l'Institut Courant, ha publicat a la revista *Information* (MDPI) dues eines web. HallucinationNerd comprova si cada afirmació d'un document està recolzada per l'obra que cita, i etiqueta cada parell afirmació-cita com a «recolzada», «parcialment recolzada», «no recolzada», «contradita», «l'article citat no existeix» o «no s'ha pogut accedir-hi». ProtocolNerd ajuda els científics de laboratori a trobar protocols experimentals: els fa preguntes, en suggereix diversos i explica per què cadascun podria encaixar o no.\n\nPer validar-les, els autors van fer servir arXiv per a la primera, i PubMed i Europe PMC per a la segona, amb proves que, segons Shasha, imiten els assaigs aleatoritzats per reduir biaixos. Els treballs porten els DOI 10.3390/info17111053 i 10.3390/info17111057.\n\nL'article de Tech Xplore no dona xifres d'encert, així que no es pot verificar quant milloren les eines existents. ProtocolNerd només cobreix biologia molecular i química, i estendre-la a altres camps, com la psicologia o l'economia, requeriria un expert de cada àrea.",
+      "image": "./assets/nyu-eina-comprova-cites-hallucinationnerd-20261024.jpg"
+    },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",

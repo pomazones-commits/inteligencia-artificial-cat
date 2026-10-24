@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "24.10.2026",
+    "title": "L'AI Congress de Barcelona mostra una IA que ajuda a dosificar el clor a la xarxa d'aigua de Vic, encara només en simulació",
+    "summary": "Entre els casos presentats, un sistema d'HP assigna incidències de programari amb un 77% d'encert i Gestmusic desenvolupa un cercador per al material audiovisual.",
+    "detail": "L'AI Congress de Barcelona, organitzat per CIDAI i Eurecat, ha dedicat una sessió a projectes en què la IA resol una tasca concreta i no pretén substituir ningú. Segons CatalunyaPress, en tots tres casos la decisió final continua en mans d'un professional.\n\nEl més tangible és IAQUA, desenvolupat per Aventec, BGEO, Aigües de Vic i Eurecat amb finançament del programa RETECH de la Generalitat. Per no dependre d'un model físic lent, l'equip n'ha entrenat un de substitut basat en xarxes neuronals de grafs, i un agent d'aprenentatge per reforç proposa pujar, abaixar o mantenir la dosi de clor. Segons Andreu Giménez, d'Aventec, el sistema millora un 35% la recompensa de l'agent respecte al sistema de referència. Però aquesta és una mesura d'entrenament, no un estalvi de clor ni una millora mesurada de la qualitat de l'aigua, i encara no controla cap dosificació real.\n\nGestmusic hi va presentar KAI, una plataforma conversacional per trobar imatges i sons entre centenars d'hores de rodatge, encara en desenvolupament i sense resultats quantitatius. HP, per la seva banda, va explicar que un sistema entrenat amb l'historial d'incidències assigna cada cas a l'equip adequat amb un 77% d'encert, davant d'un 60-70% de l'assignació manual anterior, i que redueix al voltant d'un 30% el temps de resolució.\n\nLes xifres d'HP són les de la companyia i no han passat per cap avaluació independent. Les dues comparacions, a més, potser no es van fer sobre els mateixos casos.",
+    "source": "CatalunyaPress",
+    "url": "https://www.catalunyapress.cat/article/intelligncia-artificial/2026-10-22/6061715-ia-comenca-resoldre-problemes-reals-catalunya",
+    "image": "./assets/ai-congress-barcelona-clor-aigues-vic-simulacio-20261024.jpg",
+    "slug": "ai-congress-barcelona-clor-aigues-vic-simulacio"
+  },
+  {
     "place": "Terrassa",
     "category": "IA I SOCIETAT",
     "date": "24.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.news-medical.net/news/20261013/New-AI-tool-distinguishes-Ewing-sarcoma-with-high-accuracy.aspx",
     "image": "./assets/sarcoma-ewing-ia-upv-uv-20261021.jpg",
     "slug": "sarcoma-ewing-ia-upv-uv"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "20.10.2026",
-    "title": "El barceloní Xavier Nueno guanya el Premi Anagrama d'Assaig amb un llibre sobre com la IA s'apropia del saber",
-    "summary": "«La revuelta de los copistas» examina com les tecnològiques han privatitzat el patrimoni de les biblioteques i el revenen en subscripcions. El jurat el qualifica de «crit d'alerta».",
-    "detail": "L'escriptor i investigador barceloní Xavier Nueno (1990) ha guanyat el Premi Anagrama d'Assaig, dotat amb 10.000 euros, amb «La revuelta de los copistas», segons informa l'Ara. Nueno és doctor en Estudis Fílmics i Visuals per Harvard i el seu primer assaig va ser «El arte del saber ligero» (Siruela, 2023). El llibre surt a la venda el 21 d'octubre.\n\nL'assaig defensa que el coneixement s'ha privatitzat i convertit en mercaderia. Segons el diari, sosté que les empreses tecnològiques s'han quedat el patrimoni intel·lectual que custodiaven les biblioteques i ara el tornen a vendre per subscripció. Posa el focus en els qui han classificat la informació al llarg dels segles, dels copistes als programadors, i presenta la IA com un «simulacre» de coneixement. També qüestiona què valen els algoritmes i les dades massives com a formes de saber, i evita les prediccions apocalíptiques.\n\nEl jurat, de sis membres, va valorar el llibre com a una advertència. Pau Luque diu que el seu valor és ser un «crit d'alerta», i Jordi Gracia, que el bum de la IA és una «estafa gegantina», almenys per a les humanitats. Són opinions del jurat, no pas conclusions demostrades del llibre.\n\nLa notícia no és tecnològica, sinó cultural: mostra que el debat sobre qui s'enriqueix amb els textos que alimenten els models ha arribat als premis literaris de referència. Cal tenir en compte que només hem pogut llegir la ressenya de l'Ara; no hem tingut accés al llibre, que encara no és a les llibreries, i per tant no en podem valorar els arguments de primera mà.",
-    "source": "Ara",
-    "url": "https://llegim.ara.cat/actualitat/premi-anagrama-crit-d-alerta-privatitzacio-trampa-ia_1_5884593.html",
-    "image": "./assets/xavier-nueno-premi-anagrama-assaig-revuelta-copistas-ia-20261020.jpg",
-    "slug": "xavier-nueno-premi-anagrama-assaig-revuelta-copistas-ia"
   }
 ];
