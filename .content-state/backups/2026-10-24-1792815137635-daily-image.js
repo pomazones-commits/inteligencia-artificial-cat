@@ -1,0 +1,13 @@
+window.IA_DAILY_IMAGE = {
+  "date": "2026-10-23",
+  "image": "./assets/daily-reflection-2026-10-23.jpg",
+  "alt": "Una operadora d'una sala de coordinació d'emergències, de nit, amb auriculars i un llapis a la mà sobre una llibreta, escolta atentament una trucada; al fons, un mapa gran penjat a la paret i llums de taula.",
+  "kicker": "IA × Societat",
+  "title": "Qui decideix quina trucada s'atén primer",
+  "caption": "Una sala d'emergències pot tenir programari que ordeni avisos, però qui escolta la veu, jutja el to i decideix l'ordre continua sent una persona.",
+  "credit": "Imatge editorial generada amb IA",
+  "tema": "seguretat-i-emergencies",
+  "escenari": "sala de coordinació del 112",
+  "subjecte": "operadora del 112",
+  "body": "De nit, en una sala de coordinació d'emergències, una operadora amb auriculars escolta una trucada i anota alguna cosa amb un llapis. La pregunta que la IA planteja a llocs com aquest no és si pot transcriure o classificar una veu, sinó qui decideix quina trucada s'atén primer quan en entren moltes alhora.\n\nA Catalunya, les trucades al 112 passen per dos centres, un a la Zona Franca de Barcelona i un altre a Reus. Segons el resum anual del servei del 2023, el 112 Catalunya (CAT112) va rebre aquell any 2.319.974 trucades operatives, un 3,8% més que el 2022, i el juliol va ser el mes de més càrrega. Són xifres de tot el servei, no d'una sola sala, però donen una idea de la pressió que hi ha els dies punta.\n\nEls sistemes de suport als centres d'emergències solen prometre dues coses: transcriure la conversa en temps real i ordenar els avisos per urgència. No hem pogut verificar que el 112 Catalunya faci servir cap eina d'aquest tipus, i per això no ho afirmem; el que sí que es pot dir és que, si hi arribés, el límit de la IA seria el mateix que tenen els humans: una veu entretallada, un accent, un silenci o un to de pànic poden voler dir més del que diu la frase.\n\nPer això la fotografia no mostra cap pantalla amb algorismes. Qui atén la trucada fa una feina de judici: pregunta, repregunta, nota que l'interlocutor no pot parlar, calcula quina ambulància o quina dotació és a prop. Una eina pot avisar que hi ha dues trucades que parlen del mateix accident; ningú no pot demanar-li que decideixi, sola, quina vida va primer.\n\nEl debat de fons és de responsabilitat més que de tecnologia: si una IA proposa una prioritat i es fa un error, qui el respon? La resposta que sembla més sensata és que l'última paraula ha de seguir sent d'una persona formada i identificable, amb temps per corregir la màquina i amb dret a desobeir-la."
+};
