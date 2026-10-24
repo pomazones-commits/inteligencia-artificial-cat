@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-24T04:13:00.037Z",
+ "actualitzat": "2026-10-24T08:12:27.740Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "6ff9e628baf5",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El 93% de los madrileños valora que las fotos reflejen la realidad y solo un 8% acepta que la IA modifique rasgos",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/24/2735567/madrilenos-valora-las-fotos-reflejen-realidad-solo-acepta-modifique-rasgos.html",
+   "publicat": "2026-10-24T07:29:48.000Z"
+  },
+  {
+   "id": "7d9eb1a0f8b0",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Bon Preu ultima un assistent d'IA per millorar la planificació de compra a través de l'aplicació",
+   "url": "https://www.ara.cat/economia/comerc/bon-preu-ultima-assistent-d-ia-millorar-planificacio-compra-traves-l-aplicacio_1_5888498.html",
+   "publicat": "2026-10-24T06:00:12.000Z"
+  },
+  {
+   "id": "29f3339d770a",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Shamonda dispara las consultas esotéricas a la inteligencia artificial",
+   "url": "https://www.elperiodico.com/es/gente/20261024/shamonda-dispara-consultas-esotericas-inteligencia-artificial-135700671",
+   "publicat": "2026-10-24T06:00:09.000Z"
+  },
+  {
+   "id": "9dacb2b511dc",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Una novel·la premiada amb 20.000 €, sospitosa d'haver-se escrit amb IA en un 99% de probabilitats",
+   "url": "https://www.3cat.cat/3catinfo/una-novella-premiada-amb-20000-sospitosa-dhaver-se-escrit-amb-ia-en-un-99-de-probabilitats/noticia/3435879",
+   "publicat": "2026-10-24T05:41:33.000Z"
+  },
   {
    "id": "ca811988c9c5",
    "mitja": "El Periódico",
@@ -1118,11 +1162,11 @@
   {
    "id": "4af32f4ecbca",
    "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
+   "font": "lavanguardia",
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "El AI Act convierte la regulación de la inteligencia artificial en una oportunidad para innovar",
+   "titol": "El AI Act convierte la regulación de la IA en una oportunidad para innovar",
    "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261022/11653261/ai-act-convierte-regulacion-inteligencia-artificial-oportunidad-innovar.html",
    "publicat": "2026-10-22T05:00:00.000Z"
   },
@@ -2654,50 +2698,6 @@
    "titol": "“Puede colapsar las defensas”: dentro de la primera línea de Policía y CNI ante los ataques con IA",
    "url": "https://www.eldiario.es/tecnologia/colapsar-defensas-primera-linea-policia-cni-ataques-ia_1_13584501.html",
    "publicat": "2026-10-17T20:11:43.000Z"
-  },
-  {
-   "id": "062283e763bc",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic plantea una ley sobre IA que otorga a un juez potestad de bloquear un modelo peligroso",
-   "url": "https://www.elperiodico.com/es/internacional/20261017/anthropic-plantea-ley-ia-otorga-juez-potestad-bloquear-modelo-peligroso-135439195",
-   "publicat": "2026-10-17T07:55:47.000Z"
-  },
-  {
-   "id": "b92e9c2546ce",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Corea del Norte prueba un nuevo sistema de torpedos guiados por IA en medio de nuevas tensiones con Seúl",
-   "url": "https://www.diariodemallorca.es/internacional/2026/10/17/corea-norte-prueba-nuevo-sistema-torpedos-guiado-ia-135439149.html",
-   "publicat": "2026-10-17T07:42:07.000Z"
-  },
-  {
-   "id": "91cc0b2778dd",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Meta permite que su IA practique ‘sexting’ con los usuarios: “Muse no bloquea los comportamientos legales propios de adultos”",
-   "url": "https://www.lavanguardia.com/neo/ia/20261017/11660620/meta-permite-ia-practique-sexting-usuarios-muse-bloquea-comportamientos-legales-propios-adultos.html",
-   "publicat": "2026-10-17T06:00:00.000Z"
-  },
-  {
-   "id": "227523151ee6",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El funcionario del futuro trabajará con IA, no contra ella",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261017/11653193/funcionario-futuro-trabajara-ia.html",
-   "publicat": "2026-10-17T05:26:23.000Z"
   }
  ]
 }
