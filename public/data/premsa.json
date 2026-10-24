@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-24T08:12:27.740Z",
+ "actualitzat": "2026-10-24T09:10:19.356Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "dea699fc61f6",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Almadía hará una “revisión detallada” de su novela premiada, acusada de estar escrita con IA",
+   "url": "https://www.lavanguardia.com/cultura/20261024/11667083/almadia-revision-detallada-novela-david-silva-rojas-ia.html",
+   "publicat": "2026-10-24T08:24:48.000Z"
+  },
   {
    "id": "6ff9e628baf5",
    "mitja": "Última Hora",
