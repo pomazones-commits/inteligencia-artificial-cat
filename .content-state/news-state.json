@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-10-25",
-  "updatedAt": "2026-10-25T04:11:31.801Z",
-  "batches": 1,
+  "updatedAt": "2026-10-25T08:10:56.223Z",
+  "batches": 2,
   "target": 20,
   "items": [
+    {
+      "category": "INVERSIÓ",
+      "read": "4 MIN",
+      "slug": "spacex-tesla-fusio-comites-xai",
+      "title": "SpaceX, que ja inclou xAI, i Tesla estudien fusionar-se en una operació d'uns 3,5 bilions de dòlars",
+      "excerpt": "Musk diu que les dues empreses han creat comitès especials per valorar-ho. L'operació necessitaria el vistiplau de la majoria de les accions de Tesla, que ell mateix qualifica d'«un obstacle força alt».",
+      "sourceName": "Tech Xplore (AFP)",
+      "sourceUrl": "https://techxplore.com/news/2026-10-musk-merge-spacex-tesla.html",
+      "sourceDate": "23 d'octubre de 2026",
+      "body": "Elon Musk va confirmar aquesta setmana que SpaceX i Tesla han format cadascuna un comitè especial per estudiar una fusió. Durant la trucada amb analistes de dimarts va dir que li semblava «una bona idea», però també que no és segura. L'agència AFP en calcula el valor conjunt en uns 3,5 bilions de dòlars, la qual cosa la convertiria en la major operació empresarial de la història.\n\nSpaceX val uns 2 bilions de dòlars després de sortir a borsa aquest any, i Tesla, uns 1,5 bilions. Musk controla al voltant del 82% dels vots de SpaceX i el 20% de Tesla. La relació amb la IA hi és directa: el febrer, SpaceX va absorbir xAI, la seva empresa d'IA, la del xatbot Grok, i bona part del creixement recent de SpaceX ve de llogar capacitat de càlcul de centres de dades a altres companyies d'IA.\n\nPer tirar endavant, la fusió necessitaria el suport de la majoria del total de les accions de Tesla, un llindar que el mateix Musk va descriure com a «força alt». Els inversors minoristes en tenen entre el 25% i el 27%, de manera que n'hi hauria prou que una part reduïda dels fons institucionals hi donés suport. Les dues empreses han traslladat la seu legal de Delaware a Texas, cosa que, segons l'analista Ann Lipton, redueix els obstacles jurídics. Dan Ives, de Yorkville Ives, dona un 90% de probabilitats que hi hagi acord abans de principis del 2027; Garrett Nelson, de CFRA, creu que les sinergies serien petites i que l'operació va sobretot de control.\n\nEls riscos més grans, segons els analistes, són polítics i de seguretat nacional: SpaceX depèn molt dels contractes amb la NASA i el Pentàgon, i la gran base industrial de Tesla a la Xina podria despertar la desconfiança de les autoritats. Per ara no hi ha cap oferta formal ni calendari, només l'estudi intern dels comitès, i totes les xifres de valor són estimacions de mercat que poden canviar.",
+      "image": "./assets/spacex-tesla-fusio-comites-xai-20261025.jpg"
+    },
+    {
+      "category": "MODELS",
+      "read": "4 MIN",
+      "slug": "minimax-m3-1-flash-agents-programacio",
+      "title": "MiniMax presenta M3.1 Flash, un model que diu que fa els agents gairebé tres cops més ràpids i un 70% més barats",
+      "excerpt": "L'empresa xinesa afirma que supera altres models xinesos en dues proves d'agents i d'ús de l'ordinador. Encara no ha publicat els paràmetres ni la llicència, i diu que els pesos arribaran «més endavant».",
+      "sourceName": "MiniMax",
+      "sourceUrl": "https://www.minimax.io/blog/minimax-m31f",
+      "sourceDate": "19 d'octubre de 2026",
+      "body": "MiniMax, una de les empreses d'IA xineses que competeixen amb OpenAI i Anthropic, va presentar el 19 d'octubre M3.1 Flash, la versió «Flash» de la seva nova generació de models. Els models d'aquesta mena es fan perquè siguin ràpids i barats, i serveixen sobretot per alimentar agents, és a dir, programes d'IA que encadenen tasques com ara escriure codi o fer clic i teclejar en un ordinador.\n\nSegons l'empresa, M3.1 Flash millora la feina d'agents, de programació, d'ús de l'ordinador i de ciberseguretat, i fa la inferència en línia gairebé tres cops més ràpida: més de 200 tokens per segon en l'ús habitual i una mediana de més de 170. MiniMax xifra en un 70% el que s'estalvien en tasques d'agents respecte al model anterior i fixa els preus en 0,15 dòlars per milió de tokens d'entrada i 0,60 per milió de sortida. El model ja es pot fer servir per l'API de l'empresa i a través del seu pla M Plan i de MiniMax Code.\n\nAls bancs de proves que publica l'empresa, el model treu un 73,7% a DeepSWE v1.1, una prova de programació, un 61,7 a OSWorld V2, que mesura com es mou un agent per un ordinador, i un 29,6 a Agents' Last Exam, i en aquestes dues últimes diu que és el primer entre els models xinesos. També esmenta un 82% a CyberGym i un 76,2 a BankerToolBench.\n\nConvé llegir-ho amb prudència: tots els resultats són de l'empresa, sense que cap tercer els hagi repetit. El comunicat no diu quants paràmetres té el model ni amb quina llicència es publicarà; només que els pesos s'alliberaran «més endavant», sense data. Fins que això passi, no es poden comprovar de manera independent ni la velocitat ni les puntuacions.",
+      "image": "./assets/minimax-m3-1-flash-agents-programacio-20261025.jpg"
+    },
+    {
+      "category": "PRODUCTES",
+      "read": "4 MIN",
+      "slug": "mistral-voxtral-3-veu-agents-telefon",
+      "title": "Mistral llança Voxtral 3, models de veu en més de 50 llengües i una eina per fer agents que parlen per telèfon",
+      "excerpt": "La família inclou transcripció en temps real amb menys de mig segon de retard, síntesi de veu i un SDK per muntar agents de veu. S'ofereix amb una API allotjada a la UE.",
+      "sourceName": "Mistral AI",
+      "sourceUrl": "https://mistral.ai/news/voxtral-3",
+      "sourceDate": "20 d'octubre de 2026",
+      "body": "Mistral AI, l'empresa francesa d'IA, va presentar el 20 d'octubre Voxtral 3, un conjunt de models de veu per convertir parla en text i text en parla, juntament amb un paquet de desenvolupament (SDK) per construir agents de veu: programes que escolten una persona, raonen, consulten dades i responen parlant.\n\nLa família inclou Voxtral Small Transcribe 3, que identifica qui parla en cada moment, Voxtral Mini Transcribe 3, un model de 4.000 milions de paràmetres per transcriure en lot, una versió en temps real i Voxtral Mini TTS 3, per a la síntesi de veu. La transcripció admet més de 50 llengües, entre les quals les 24 oficials de la Unió Europea, i la versió en temps real en cobreix més de 35 amb un retard inferior a 500 mil·lisegons. La síntesi parla en més de 35 llengües i 50 dialectes.\n\nL'SDK, construït sobre LiveKit, combina aquests models amb un model de raonament com Mistral Small 4 i es connecta a la telefonia (SIP) i al navegador (WebRTC). L'empresa vol que cada torn de conversa duri menys d'un segon i que l'agent calli quan la persona l'interromp. Els preus van des de 0,0035 dòlars el minut per a la transcripció en lot fins a 0,04 el minut per a l'agent complet amb Mistral Small 4, i 0,08 amb un model més gran. La síntesi costa 13 dòlars per milió de caràcters.\n\nLes xifres de latència i d'idiomes són les de Mistral i no les ha comprovat cap tercer; fins i tot la pàgina de l'empresa dona dues xifres diferents per als idiomes del temps real (35 i 40). Tampoc no diu si els models són de pesos oberts: parla d'API allotjada a la UE i d'instal·lació pròpia, però aquesta darrera opció s'ha de negociar amb l'empresa. El català no apareix en cap llista de la pàgina que hem pogut llegir.",
+      "image": "./assets/mistral-voxtral-3-veu-agents-telefon-20261025.jpg"
+    },
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "slug": "cds-deute-ia-inversors-asseguren-impagament",
+      "title": "Els inversors s'asseguren contra l'impagament de les empreses d'IA: el mercat d'aquestes assegurances passa de 2.000 a més de 9.000 milions de dòlars des del juliol",
+      "excerpt": "Segons «Ara», les assegurances lligades al deute de CoreWeave, Oracle o SpaceX s'encareixen mentre el deute total relacionat amb la IA s'acosta als 850.000 milions de dòlars.",
+      "sourceName": "Ara",
+      "sourceUrl": "https://www.ara.cat/economia/tecnologia/inversors-llancen-protegir-esclata-bombolla-ia_1_5886043.html",
+      "sourceDate": "24 d'octubre de 2026",
+      "body": "Cada cop més inversors compren una assegurança contra la possibilitat que les grans empreses d'IA no puguin pagar el deute. Són els permutes de risc de crèdit (CDS, en anglès), uns contractes que paguen si l'emissor d'un bonus deixa de pagar. Segons el diari «Ara», el mercat dels CDS lligats a deute d'empreses vinculades a la IA ha passat d'uns 2.000 milions de dòlars al juliol a més de 9.000 milions.\n\nL'article, signat per Agustí Sala, posa xifres a les empreses més exposades. Els CDS a cinc anys de CoreWeave, el proveïdor de núvol per a IA, superen els 1.100 punts bàsics, i els seus bonus paguen un 15%; assegurar-ne 10 milions costa més d'un milió l'any. Els d'Oracle han passat de 140 a més de 320 punts des de l'inici de l'any, amb 169.000 milions en préstecs i 25.000 milions en bonus emesos. Els de SpaceX, de Musk, s'han doblat des del juny, fins a més de 230, després d'emetre 65.000 milions de deute. Segons el diari, per sobre dels 1.000 punts el mercat descompta entre un 50% i un 60% de probabilitats d'impagament en cinc anys.\n\nEl deute vinculat a la IA s'acosta als 850.000 milions de dòlars, uns quatre cops el de 2023, sempre segons el diari: 214.000 milions en préstecs dels grans proveïdors de núvol (Alphabet, Amazon, Microsoft i Meta), 79.000 milions en societats creades per als centres de dades i 84.000 milions en crèdit a fabricants de xips com Nvidia. A l'article, Jaume Puig, de GVC Gaesco, matisa que no es qüestionen ni la IA ni els centres de dades, sinó la rendibilitat de la inversió, i situa el punt àlgid de la inversió cap al 2028.\n\nAquestes dades són les que dona el diari, sense que n'hagi citat la font de mercat, i un CDS car és un senyal de cautela, no una predicció d'impagament. Les pujades de tipus d'interès, lligades al conflicte del golf Pèrsic, i la competència del deute públic encareixen el finançament, i el Nasdaq, l'índex borsari amb més pes tecnològic, també s'ha ressentit.",
+      "image": "./assets/cds-deute-ia-inversors-asseguren-impagament-20261025.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "pequin-brac-robotic-flexible-prediccio-hibrid",
+      "title": "Un equip de la Universitat de Pequín combina dos models d'IA per predir com es mourà un braç robòtic flexible i redueix l'error més d'un 25% en simulació",
+      "excerpt": "El treball, publicat a les actes del congrés Robotics: Science and Systems, afegeix una «àncora» que torna cada predicció cap a la forma de repòs del braç. Només s'ha provat en un braç simulat i en una cua hidràulica.",
+      "sourceName": "Tech Xplore (Universitat de Pequín)",
+      "sourceUrl": "https://techxplore.com/news/2026-10-flexible-robot-arms.html",
+      "sourceDate": "23 d'octubre de 2026",
+      "body": "Els braços robòtics flexibles, que es doblegen de manera contínua com una trompa i no tenen articulacions rígides, serveixen per treballar en espais estrets i amb objectes fràgils. El problema és que el seu moviment és difícil de predir: els models d'IA que avancen pas a pas acumulen errors i, en previsions llargues, de 200 passos, s'acaben desviant.\n\nUn equip de l'Escola de Fabricació Avançada i Robòtica de la Universitat de Pequín, amb Ahsan Tanveer com a primer autor i els professors Xie Guangming i Zhang Feitian, proposa combinar-ne dos. Un model «àncora» aprèn la forma on es queda el braç quan les ordres es mantenen constants i hi atrau cada predicció; un segon model lleuger, de «correcció», aprèn a partir de dades de moviment les oscil·lacions i les corbes. El treball, titulat «Stabilizing 3D Continuum-Arm Rollouts via Equilibrium Anchoring and Feature-Lifted Residual Learning», es va presentar al congrés Robotics: Science and Systems (RSS 2026), a Sydney, el juliol.\n\nEn simulació, amb un braç tridimensional accionat per cables i previsions de 200 passos (uns sis segons) fora de l'abast de les dades d'entrenament, el model híbrid va reduir l'error en més d'un 25% respecte de només l'àncora, va superar el model de correcció sol i va aguantar les 19 proves. En una cua hidràulica flexible, de forma de peix, l'error va ser la meitat o menys que amb l'àncora sola i una quarta part o menys que amb la correcció sola. L'objectiu és que un controlador pugui provar moviments en simulació i triar el més segur abans de moure el braç real.\n\nCal llegir-ho amb mesura. La nota de premsa no dona errors absoluts, només comparacions relatives; no diu amb quin altre mètode es compara ni amb quines proves, i només s'han provat un braç simulat i una plataforma física. El cost de càlcul es descriu com a «lleuger», sense xifres, i per verificar els detalls caldria llegir l'article complet de les actes del congrés (DOI 10.15607/rss.2026.xxii.106).",
+      "image": "./assets/pequin-brac-robotic-flexible-prediccio-hibrid-20261025.jpg"
+    },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
