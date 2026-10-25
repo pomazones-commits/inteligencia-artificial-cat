@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-25T12:12:30.494Z",
+  "generat": "2026-10-25T16:14:03.333Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -177,23 +177,5 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": [
-    {
-      "id": "3cat-1295305",
-      "emissora": "Catalunya Ràdio",
-      "programa": "El suplement",
-      "programa_url": "https://www.3cat.cat/3cat/el-suplement/",
-      "data": "2026-10-25",
-      "durada": "27 min",
-      "titol_original": "Steven Moffat: \"La IA mai escriurà millor que un humà un capítol de 'Doctor Who'\"",
-      "descripcio_original": "Aquesta setmana Steven Moffat, el creador de \"Sherlock\" i guionista en cap de \"Doctor Who\", ha passat pel festival Serielizados, i la Marta Ferrer ha pogut parlar amb ell. A més, amb la Rosa Rodon recomanem restaurants per tenir una cita romàntica arran de l'obra \"Després de nosaltres\" a l'Espai Texas.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.3cat.cat/3cat/steven-moffat-la-ia-mai-escriura-millor-que-un-huma-un-capitol-de-doctor-who/audio/1295305/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1295305"
-      }
-    }
-  ]
+  "candidats": []
 }
