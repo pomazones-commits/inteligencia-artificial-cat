@@ -1,0 +1,33 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-10-24",
+  "title": "Probabilitats, no veredictes",
+  "dek": "Detectors, models de diagnòstic i models que recomanen vot han donat avui una estimació, no una certesa, mentre els laboratoris i els governs aïllen els models.",
+  "body": [
+    "El fil d'avui són les probabilitats. Moltes de les eines que han sortit a l'edició no donen un veredicte, sinó una estimació: un detector atribueix a la IA el 99% d'una novel·la premiada, un model de dermatologia marca com a sospitosa una de cada quatre lesions benignes, i un assaig que obliga dos models a triar candidat troba que s'inclinen cap a bandes oposades. Al mateix temps, laboratoris i governs responen als incidents de les últimes setmanes aïllant els models. Són dos moviments diferents amb un mateix rerefons: quant es pot fiar de la resposta d'una màquina i qui en respon.",
+    "El cas dels detectors és el més visible. El programa Pangram va atribuir un 99% a *Donde el agua trabaja*, la novel·la que havia guanyat un premi de 20.000 euros, i l'editorial ha suspès la presentació mentre en parla amb l'autor. Un detector dona una probabilitat, no una prova, i la mateixa peça ho recorda. Passa igual amb DEXI, l'eina de la Clínica Mayo: identifica el 93,4% dels càncers, però només el 75% de les lesions benignes, de manera que una de cada quatre podria portar a una biòpsia innecessària. La seva autora insisteix que és «una dada més», no un diagnòstic.",
+    "La segona versió d'aquesta incertesa és la inclinació. Convovo, de Cornell, va demanar a Grok 4.7 i a GPT-6.1 Sol que triessin un sol candidat en gairebé 500 curses nord-americanes: Grok va recomanar el republicà en el 92% de les respostes, GPT va escollir el demòcrata en el 97%, i només coincidien una de cada deu vegades. OpenAI diu que la prova no reflecteix l'ús de ChatGPT i SpaceXAI no havia respost. Cal no exagerar-ne l'abast: segons Pew, només el 8% dels nord-americans fa servir xats per informar-se sobre les eleccions.",
+    "L'història ajuda a matisar-ho. L'historiador del MIT Benjamin Lindquist sosté que, als anys cinquanta, alguns enginyers van afegir atzar als algorismes perquè les màquines semblessin creatives, i que errors i creativitat van sempre lligats. És una interpretació històrica, no un experiment, però suggereix una hipòtesi per a avui: la inclinació i l'error no són només accidents, també poden ser el resultat de decisions de disseny que algú ha pres, i que convé fer públiques.",
+    "La resposta més concreta és la contenció. OpenAI ha anunciat que entrenarà els models més avançats amb còpies emmagatzemades del web i no amb l'internet real, perquè considera que són massa imprevisibles per deixar-los connectats. El Regne Unit destinarà 120 milions de lliures a l'AI Security Institute, que prova els models abans que surtin, i 100 més a un laboratori de biosegureta, tot i que són fons anunciats i no aprovats. La cronologia de l'AP recorda que molts incidents tenen causes ben humanes: aïllaments dèbils, credencials exposades i entorns mal configurats.",
+    "La tendència que s'hi dibuixa és que la confiança es desplaça dels models a les proves que els envolten: detectors amb marge d'error, estudis que expliquen com han fet la prova, entorns tancats i organismes públics que avaluen abans del llançament. Demà caldrà mirar si les xifres d'error arriben als titulars i no només al final de les peces, si SpaceXAI respon a l'estudi de Convovo, què decideix l'editorial Almadía després de revisar la novel·la, i què diu el pressupost britànic que es presenta dimecres."
+  ],
+  "signals": [
+    {
+      "title": "Un detector atribueix a la IA el 99% de la novel·la que ha guanyat un premi de 20.000 euros, i l'editorial cancel·la la presentació",
+      "slug": "premi-literari-novella-escrita-ia-presentacio-cancellada"
+    },
+    {
+      "title": "Una IA de la Clínica Mayo detecta el 93% dels tumors de pell en dermoscòpies, però dona falsos positius en una de cada quatre lesions benignes",
+      "slug": "mayo-dexi-ia-dermoscopia-melanoma-biopsia"
+    },
+    {
+      "title": "OpenAI entrenarà els models més avançats sense accés a internet, perquè diu que no en pot garantir el comportament",
+      "slug": "openai-entrenament-sense-internet-models-punters"
+    },
+    {
+      "title": "El Regne Unit destinarà 120 milions de lliures a provar models d'IA abans que surtin i 100 milions a un laboratori de biosegureta",
+      "slug": "regne-unit-fons-institut-seguretat-ia-biolab"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 544
+};
