@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-25T17:53:48.618Z",
+ "actualitzat": "2026-10-25T21:16:37.879Z",
  "fonts": 44,
  "articles": [
   {
@@ -24,6 +24,17 @@
    "titol": "Seny, la IA catalana que vigila els agents",
    "url": "https://empreses.ara.cat/innovacio/seny-ia-catalana-vigila-agents_1_5888174.html",
    "publicat": "2026-10-25T15:12:25.000Z"
+  },
+  {
+   "id": "3428e6999c6c",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Junta reúne al ecosistema europeo de la inteligencia artificial la última semana de octubre en Granada",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/25/2736321/junta-reune-ecosistema-europeo-inteligencia-artificial-ultima-semana-octubre-granada.html",
+   "publicat": "2026-10-25T11:59:37.000Z"
   },
   {
    "id": "5dd9767f5873",
@@ -2742,19 +2753,6 @@
    "titol": "Claude, la IA d'Anthropic, ha enviat una pista falsa d'assassinat a la Policia de Filadèlfia",
    "url": "https://www.elnacional.cat/ca/tecnologia/claude-ia-anthropic-ha-enviat-pista-falsa-assassinat-policia-filadelfia_1711354_102.html",
    "publicat": "2026-10-19T00:00:00.000Z"
-  },
-  {
-   "id": "94dadde0572e",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "IA, robots de quatre potes i drons amb esprai pebre: el Japó es trenca el cap per contenir els atacs d’óssos",
-   "url": "https://www.vilaweb.cat/noticies/atacs-ossos-japo-tecnologia-ia-robots",
-   "publicat": "2026-10-18T19:30:04.000Z",
-   "noticia": "japo-ia-drons-atacs-ossos",
-   "noticiaTitol": "El Japó prova mapes de risc amb IA, càmeres i drons per contenir els óssos, després d'un any amb 13 morts"
   }
  ]
 }
