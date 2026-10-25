@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-25T12:12:30.867Z",
+  "updatedAt": "2026-10-25T16:14:02.638Z",
   "items": [
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "slug": "rutgers-joves-ia-informacio-drogues-alcohol",
+      "title": "Un de cada tres joves dels Estats Units fa servir la IA per informar-se sobre drogues i alcohol, segons una enquesta de Rutgers",
+      "excerpt": "L'estudi, publicat a «JMIR Formative Research», pregunta a gairebé 1.000 persones d'entre 18 i 29 anys i troba que la majoria d'usuaris confia en les respostes. Els autors avisen del risc de desinformació.",
+      "sourceName": "Rutgers University (EurekAlert) · JMIR Formative Research",
+      "sourceUrl": "https://www.eurekalert.org/news-releases/1149061",
+      "sourceDate": "24 d'octubre de 2026",
+      "body": "Cada cop més persones pregunten als xatbots coses que abans consultaven a un metge, a un farmacèutic o a un cercador, també sobre salut. Entre els joves, que són el grup més exposat als danys del consum de drogues i alcohol, saber què els diuen aquestes eines és una qüestió de salut pública. La nota de Rutgers cita una enquesta del centre Pew, aliena a aquest estudi, segons la qual el 66% dels adults joves ja fan servir la IA per buscar informació i consells mèdics.\n\nL'equip del Centre de Farmacoepidemiologia i Ciència del Tractament de Rutgers va fer una enquesta transversal a gairebé 1.000 joves dels Estats Units d'entre 18 i 29 anys. Més del 32% va dir que havia fet servir IA generativa, com ChatGPT i altres xatbots, per obtenir informació sobre substàncies, sobretot sobre els riscos i les conseqüències del consum. Prop de la meitat d'aquests usuaris ho fa almenys un cop al mes. Ho van fer més els homes i les persones negres, i en general els participants van puntuar bé aquestes eines en confiança, fiabilitat i utilitat.\n\nMireia Triguero Roura, primera autora de l'estudi, adverteix que fiar-se d'aquestes respostes pot dur a conductes de consum «desinformades o arriscades». Els autors apunten que les diferències per raça i gènere podrien reflectir desigualtats d'accés a l'atenció sanitària, l'estigma o la confiança en els canals habituals, i recorden que els xatbots poden reproduir errors. Demanen més recerca sobre com interpreten els joves el que els diuen els xatbots sobre drogues i alcohol.\n\nL'estudi, signat també per Pia M. Mauro i publicat el 19 d'octubre a «JMIR Formative Research» (DOI 10.2196/100667), és una fotografia d'un moment i no pot dir si la IA canvia el comportament de ningú. Es basa en respostes declarades pels mateixos participants, i la nota de premsa no explica com es va triar la mostra ni fins a quin punt és representativa, ni quantifica la qualitat de les respostes dels xatbots: només que els joves les valoren bé.",
+      "image": "./assets/rutgers-joves-ia-informacio-drogues-alcohol-20261025.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "tohoku-dighyd-hidrogen-base-dades-ia",
+      "title": "Una base de dades feta amb IA a partir de 4.000 articles sobre hidrogen relaciona la capacitat d'emmagatzematge amb la pressió d'alliberament",
+      "excerpt": "Un equip de la Universitat de Tohoku reuneix més de 30.000 entrades i hi aplica una regressió simbòlica que dona equacions llegibles, no una caixa negra. Les prediccions encara no s'han provat al laboratori.",
+      "sourceName": "Tech Xplore (Universitat de Tohoku) · Applied Physics A",
+      "sourceUrl": "https://techxplore.com/news/2026-10-curated-hydrogen-database-reveals-links.html",
+      "sourceDate": "23 d'octubre de 2026",
+      "body": "Guardar hidrogen dins de metalls, en forma d'hidrurs, és una de les vies per emmagatzemar-lo sense dipòsits a alta pressió. El problema és que les dades sobre quants hidrogen guarda cada material, i a quina pressió l'allibera, són escampades en milers d'articles amb criteris diferents, i això dificulta comparar-les i trobar patrons.\n\nUn equip de l'Institut Avançat de Recerca de Materials (WPI-AIMR) de la Universitat de Tohoku, amb la Universitat de Tòquio, ha creat la plataforma Digital Hydrogen Platform (DigHyd). Hi han fet servir IA per rastrejar la literatura, amb validació humana contra les publicacions originals, i han acabat amb més de 30.000 entrades de més de 4.000 articles experimentals. Només per als hidrurs metàl·lics han revisat a mà 4.643 mesures de capacitat d'emmagatzematge i 652 parells d'entalpia i entropia.\n\nSobre aquestes dades han aplicat GoodRegressor, un mètode de regressió simbòlica que expressa les relacions com a equacions que una persona pot llegir. En una validació creuada de cinc blocs, diuen que rendeix de manera comparable a models de caixa negra de referència. Els resultats apunten que els àtoms lleugers de l'hoste afavoreixen una capacitat més gran, mentre que les xarxes cristal·lines més rígides poden desestabilitzar l'hidrur i fer pujar la pressió d'equilibri: per això, diuen, cal mirar capacitat i pressió alhora.\n\nL'estudi, publicat a «Applied Physics A» (DOI 10.1007/s00339-026-09903-6), descriu correlacions entre els metalls analitzats, i alguns vincles es presenten com a suggeriments, no com a proves. Les propietats previstes encara no s'han comprovat amb experiments: l'equip té previst sintetitzar candidats i provar-los. La nota tampoc no detalla les mètriques de precisió ni la llista completa de materials, i la base de dades continua ampliant-se.",
+      "image": "./assets/tohoku-dighyd-hidrogen-base-dades-ia-20261025.jpg"
+    },
+    {
+      "category": "ROBÒTICA",
+      "read": "4 MIN",
+      "slug": "nvidia-flora-etiquetar-video-robots-obert",
+      "title": "NVIDIA publica Flora, uns models oberts que etiqueten vídeos de robots per 0,72 dòlars l'hora, uns 125 cops menys que GPT-6 Astra, segons l'empresa",
+      "excerpt": "El sistema descriu les accions, puntua els passos i jutja si la tasca ha sortit bé, i ja s'usa per entrenar els models GR00T. Les xifres són de NVIDIA i el cost és una projecció.",
+      "sourceName": "The Decoder (NVIDIA)",
+      "sourceUrl": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+      "sourceDate": "25 d'octubre de 2026",
+      "body": "Per ensenyar un robot a fer una tasca calen milers d'hores de vídeo amb algú que expliqui què hi passa: quina acció es fa, com va cada pas i si al final la feina ha sortit bé. Fer-ho a mà no s'escala, i fer-ho amb els models comercials més potents costa molt, perquè es paga per cada hora de vídeo analitzada.\n\nNVIDIA ha publicat Flora, un conjunt de models oberts del seu laboratori GEAR que afegeix tres tipus d'etiquetes als vídeos de robots: descripcions de cada acció, puntuacions del progrés pas a pas i un veredicte d'èxit o fracàs de la tasca. Són tres models afinats a partir de Qwen3.5, un de 9.000 milions de paràmetres que talla el vídeo en segments i dos de 27.000 milions que el descriuen i el puntuen. Segons l'empresa, pot etiquetar fins a 200.000 hores de vídeo al dia amb 512 targetes GB300 i ja s'utilitza per entrenar els models GR00T.\n\nLa xifra que destaca és el preu: unes 0,72 dòlars per hora de vídeo, davant dels uns 88,50 de GPT-6 Astra, és a dir, uns 125 cops menys. En una prova de 50 vídeos, la qualitat de les anotacions va ser del 57,1% per a Flora i del 53,7% per a Astra, i Flora va detectar el 53,3% dels passos fallits, mentre que cap rival no va passar d'un 11,7%. Els models són a Hugging Face i hi ha un article tècnic.\n\nSón resultats de la mateixa NVIDIA, sense verificació independent, i la comparació de cost és una projecció que suposa un lloguer de 10 dòlars per targeta i hora. La prova de qualitat és petita, i GPT-6 Astra, que feia de jutge, era també un dels models avaluats. Flora no guanya en tot: perd davant d'Astra en algunes proves de precisió, marca com a error un 11% de passos normals i de vegades parteix una acció llarga en massa passos. La font no diu quina llicència tenen els models.",
+      "image": "./assets/nvidia-flora-etiquetar-video-robots-obert-20261025.jpg"
+    },
+    {
+      "category": "GEOPOLÍTICA",
+      "read": "4 MIN",
+      "slug": "schmidt-ferguson-openai-anthropic-companyies-colonials",
+      "title": "Eric Schmidt compara OpenAI i Anthropic amb les antigues companyies colonials de comerç en un assaig a «Foreign Affairs»",
+      "excerpt": "L'exdirectiu de Google signa amb l'historiador Niall Ferguson i la investigadora Lisa Klaassen un text on diuen que els Estats Units i la Xina construeixen «imperis» d'IA.",
+      "sourceName": "The Decoder (Foreign Affairs)",
+      "sourceUrl": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
+      "sourceDate": "25 d'octubre de 2026",
+      "body": "Que els governs competeixen per la IA no és nou, però aquest assaig li posa una metàfora històrica. Eric Schmidt, antic conseller delegat de Google, l'historiador Niall Ferguson i la investigadora Lisa Klaassen sostenen a «Foreign Affairs» que els Estats Units i la Xina estan construint imperis d'IA, i que l'accés als models més avançats depèn de l'energia, els minerals, els xips i el capital, de manera que el programari torna a ser un recurs geopolític.\n\nSegons The Decoder, que en fa ressò, els autors comparen OpenAI i Anthropic amb les companyies de les Índies Orientals: empreses amb una carta de privilegis del govern que acaben tenint exèrcits propis i governant territoris. Les dues negocien amb les administracions, però continuen lligades curtes. Els autors parlen de «l'economia de plantació de l'era dels xatbots» i contraposen la via nord-americana, de tecnologia tancada, cara i lligada a l'aliança política, a la xinesa, que distribueix models de pesos oberts.\n\nEl text també parla de diners: diu que les tecnològiques nord-americanes preveuen invertir més de 600.000 milions de dòlars aquest 2026, sobretot amb deute, i cita un pla xinès que, segons Bloomberg, sumaria 295.000 milions en cinc anys. Posa Taiwan i TSMC com a major amenaça per a la cadena de subministrament, adverteix d'un «trilema imperial» entre defensa, lideratge tecnològic i estat del benestar, i proposa una distensió a l'estil de la Guerra Freda, amb límits a certes capacitats.\n\nÉs una opinió d'autors amb una tesi forta, no un informe amb dades noves, i la comparació amb les companyies colonials és una analogia, no una descripció literal de com funcionen aquestes empreses. Aquí només es resumeix el que en explica The Decoder: l'assaig original no s'ha llegit sencer. El debat que obre, en tot cas, és si els laboratoris d'IA són empreses privades normals o peces d'una estratègia d'estat.",
+      "image": "./assets/schmidt-ferguson-openai-anthropic-companyies-colonials-20261025.jpg"
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "slug": "symantec-agent-segresta-models-llmjacking-skynet",
+      "title": "Symantec descobreix un agent d'atac que segresta models de llenguatge sense protecció per fer ciberatacs a compte d'un altre",
+      "excerpt": "Un parany en forma de servei d'IA fals va captar les instruccions d'un agent que podia fer fins a 100.000 passos sense supervisió. L'informe descriu el que l'eina pretén fer, no atacs comprovats.",
+      "sourceName": "The Decoder (Symantec)",
+      "sourceUrl": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+      "sourceDate": "22 d'octubre de 2026",
+      "body": "Molts models de llenguatge s'exposen a internet sense contrasenya: instal·lacions pròpies, passarel·les d'IA i servidors MCP que algú ha deixat oberts. Qui en troba un pot fer servir la potència de càlcul sense pagar-la, i el propietari es queda la factura. Symantec en diu «LLMjacking», el segrest d'un model aliè.\n\nEls investigadors de Symantec van muntar un parany que simulava un servei d'IA desprotegit i, a l'estiu del 2026, hi van captar les instruccions completes d'un agent ofensiu. Segons l'informe, que The Decoder resumeix, el text feia passar l'agent per un personatge de ficció, presentava el robatori de credencials com a feina de programador i prohibia mots com «il·legal» o «ètic». La cinquena capa duia 74 mòduls d'atac, i una directiva anomenada «mode Skynet» l'autoritzava a fer fins a 100.000 passos sense permís humà, en un cicle d'escanejar, infectar, instal·lar un miner i reinfectar.\n\nEl parany va registrar més de 127.000 peticions des de desenes de milers d'adreces. Un segon atac, l'endemà, va fer servir un script ofuscat per instal·lar el miner de criptomonedes XMRig en servidors de càmeres i esborrar els registres d'accés. Per a qui gestiona models propis, el missatge és pràctic: un servei obert ja no només regala càlcul, també pot convertir-se en la base d'una operació automatitzada.\n\nL'abast real és desconegut: el parany no va executar les eines ni el segon script, així que no se sap quins danys han causat, i la sessió interceptada va acabar amb una resposta genèrica. L'anàlisi no estableix si el truc per esquivar els límits funciona amb els models comercials actuals, i la tasca afegida era un exercici de programació inofensiu, cosa que fa pensar que els operadors estaven provant l'eina. L'informe documenta l'arquitectura i les intencions, no una cadena d'atacs confirmada.",
+      "image": "./assets/symantec-agent-segresta-models-llmjacking-skynet-20261025.jpg"
+    },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
