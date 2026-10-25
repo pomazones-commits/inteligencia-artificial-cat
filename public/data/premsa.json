@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-25T08:11:37.213Z",
+ "actualitzat": "2026-10-25T09:27:06.193Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "948f6a20e4d9",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los recursos a multas de tráfico se disparan en Barcelona coincidiendo con el auge de la IA y las webs ‘quitamultas’",
+   "url": "https://www.elperiodico.com/es/barcelona/20261025/recursos-multas-trafico-barcelona-ia-webs-juicios-135688790",
+   "publicat": "2026-10-25T09:00:32.000Z"
+  },
   {
    "id": "446438976762",
    "mitja": "La Vanguardia",
