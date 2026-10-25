@@ -191,8 +191,8 @@
       // Reinicia la barra de temps de la notícia activa perquè vagi sincronitzada amb el canvi.
       const activeButton = progress.children[activeIndex];
       if (activeButton) { activeButton.classList.remove('active'); void activeButton.offsetWidth; activeButton.classList.add('active'); }
-      // 9 s per notícia (13.10.2026). Ha de coincidir amb l'animació carrusel-temps de portada.css.
-      if (!reduceMotion) carouselTimer = window.setInterval(() => nextStory(1), 9000);
+      // 11 s per notícia (25.10.2026; abans 9 s). Ha de coincidir amb l'animació carrusel-temps de portada.css.
+      if (!reduceMotion) carouselTimer = window.setInterval(() => nextStory(1), 11000);
     }
     document.querySelector('#carousel-prev').addEventListener('click', () => { nextStory(-1); restartCarousel(); });
     document.querySelector('#carousel-next').addEventListener('click', () => { nextStory(1); restartCarousel(); });

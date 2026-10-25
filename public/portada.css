@@ -123,7 +123,7 @@ button { color: inherit; }
 .carousel-progress button { position: relative; flex: 1; max-width: 74px; height: 18px; padding: 0; border: 0; background: transparent; cursor: pointer; }
 .carousel-progress button::before { content: ""; position: absolute; inset: 8px 0 auto; height: 3px; border-radius: 3px; background: #d7dce7; }
 .carousel-progress button::after { content: ""; position: absolute; inset: 8px 0 auto; height: 3px; border-radius: 3px; background: var(--blue); transform: scaleX(0); transform-origin: left; }
-.carousel-progress button.active::after { transform: scaleX(1); animation: carrusel-temps 9s linear forwards; }
+.carousel-progress button.active::after { transform: scaleX(1); animation: carrusel-temps 11s linear forwards; }
 .daily-carousel:hover .carousel-progress button.active::after { animation-play-state: paused; }
 @keyframes carrusel-temps { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 .carousel-actions { display: flex; align-items: center; gap: 10px; }
