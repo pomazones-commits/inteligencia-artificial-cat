@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-25T12:13:07.115Z",
+ "actualitzat": "2026-10-25T16:14:52.100Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "31d34170a523",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Seny, la IA catalana que vigila els agents",
+   "url": "https://empreses.ara.cat/innovacio/seny-ia-catalana-vigila-agents_1_5888174.html",
+   "publicat": "2026-10-25T15:12:25.000Z"
+  },
   {
    "id": "5dd9767f5873",
    "mitja": "Nació Digital",
