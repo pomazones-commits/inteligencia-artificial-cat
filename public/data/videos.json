@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-25T08:11:36.774Z",
+ "actualitzat": "2026-10-25T18:33:33.415Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "rF1EsryCAwc",
+   "titol": "Jensen Huang’s Keynote Highlights at NVIDIA GTC Berlin 2026",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "maquinari",
+   "idioma": "en",
+   "publicat": "2026-10-25T17:10:16.000Z",
+   "descripcio": "Europe is building its AI economy. NVIDIA founder and CEO Jensen Huang explains how AI factories are evolving to run agents and why physical AI is the next frontier. Catch the highlights from his NVIDIA GTC Berlin keynote, including announcements across AI infrastructure, safe agents, open models, e",
+   "miniatura": "/assets/videos/rF1EsryCAwc.jpg"
+  },
   {
    "id": "rySnll4sgu4",
    "titol": "NVIDIA GTC Berlin 2026 | Live Keynote Pregame",
