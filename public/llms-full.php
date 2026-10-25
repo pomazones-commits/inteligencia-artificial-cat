@@ -37,7 +37,10 @@ function lf_cos(string $text): string
 {
     $paragrafs = preg_split('/\n\s*\n/u', str_replace("\r", '', $text)) ?: [];
     $nets = [];
-    foreach ($paragrafs as $p) { $p = lf_linia($p); if ($p !== '') { $nets[] = $p; } }
+    foreach ($paragrafs as $p) {
+        if ($figura = iacat_figura($p)) { $p = $figura[1] !== '' ? '[Figura: ' . $figura[1] . ']' : ''; }
+        $p = lf_linia($p); if ($p !== '') { $nets[] = $p; }
+    }
     return implode("\n\n", $nets);
 }
 

@@ -220,6 +220,16 @@ function iacat_cos_text($cos): string
     return is_string($cos) ? $cos : '';
 }
 
+// Figura dins del cos d'un estudi (25.10.2026): un bloc «![peu](./assets/<fitxer>)».
+// Torna [src, peu] o null.
+function iacat_figura(string $bloc): ?array
+{
+    if (preg_match('/^!\[([^\]]*)\]\((\.\/assets\/[A-Za-z0-9._-]+)\)$/u', trim($bloc), $m)) {
+        return [$m[2], $m[1]];
+    }
+    return null;
+}
+
 function iacat_e(string $valor): string
 {
     return htmlspecialchars($valor, ENT_QUOTES, 'UTF-8');

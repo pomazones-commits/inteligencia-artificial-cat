@@ -119,6 +119,11 @@ $extra .= '<script>window.IA_PECA=' . json_encode(['tipus' => $tipus, 'id' => $p
 // El JS de la pàgina el torna a pintar igual (buida #cos abans d'escriure-hi).
 $paragrafs = [];
 foreach (preg_split('/\n\s*\n/', iacat_cos_text($item['body'] ?? '')) ?: [] as $bloc) {
+    if ($figura = iacat_figura((string) $bloc)) {
+        $paragrafs[] = '<figure class="estudi-figura"><img src="' . $e($figura[0]) . '" alt="' . $e($figura[1]) . '" loading="lazy">'
+            . ($figura[1] !== '' ? '<figcaption>' . $e($figura[1]) . '</figcaption>' : '') . '</figure>';
+        continue;
+    }
     $bloc = trim((string) preg_replace('/^\s*(#{1,6}|[-*•]|\d+[.)])\s+/m', '', $bloc));
     if ($bloc !== '') { $paragrafs[] = '<p>' . nl2br($e($bloc), false) . '</p>'; }
 }

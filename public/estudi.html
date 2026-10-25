@@ -30,6 +30,10 @@
     .article-body-clean h2.estudi-seccio { margin: 38px 0 14px; font-family: Newsreader, serif; font-size: 27px; line-height: 1.2; letter-spacing: -.02em; color: #101426; }
     .article-body-clean ul.estudi-pics { margin: 0 0 18px; padding-left: 22px; }
     .article-body-clean ul.estudi-pics li { margin: 0 0 8px; line-height: 1.65; }
+    /* Figures dins del cos (25.10.2026): bloc «![peu](./assets/<fitxer>.jpg)». */
+    .article-body-clean figure.estudi-figura { margin: 30px 0 32px; }
+    .article-body-clean figure.estudi-figura img { display: block; width: 100%; height: auto; border: 1px solid #e3e7ef; background: #fff; }
+    .article-body-clean figure.estudi-figura figcaption { margin-top: 10px; font-size: 13.5px; line-height: 1.55; color: #5d6472; }
     .estudi-bibliografia { margin: 44px 0 0; padding-top: 26px; border-top: 1px solid #e3e7ef; }
     .estudi-bibliografia h2 { margin: 0 0 16px; font-family: Newsreader, serif; font-size: 24px; }
     .estudi-bibliografia ol { margin: 0; padding-left: 20px; }
@@ -201,7 +205,8 @@
         origen.hidden = false;
       }
 
-      // Cos: «## » = títol de secció, «• » = llista de pics, la resta paràgrafs.
+      // Cos: «## » = títol de secció, «• » = llista de pics,
+      // «![peu](./assets/<fitxer>)» = figura (25.10.2026), la resta paràgrafs.
       var blocs = String(e.body || '').split(/\n\n+/).filter(Boolean);
       var cos = document.getElementById('cos');
       cos.textContent = ''; // peca.php ja hi deixa el text escrit al servidor (18.10.2026)
@@ -213,6 +218,25 @@
           h2.textContent = bloc.slice(3).trim();
           cos.appendChild(h2);
           perAlLector.push(h2.textContent);
+          return;
+        }
+        var figura = /^!\[([^\]]*)\]\((\.\/assets\/[A-Za-z0-9._-]+)\)$/.exec(bloc.trim());
+        if (figura) {
+          var fig = document.createElement('figure');
+          fig.className = 'estudi-figura';
+          var img = document.createElement('img');
+          img.src = figura[2];
+          img.alt = figura[1];
+          img.loading = 'lazy';
+          img.decoding = 'async';
+          fig.appendChild(img);
+          if (figura[1]) {
+            var peu = document.createElement('figcaption');
+            peu.textContent = figura[1];
+            fig.appendChild(peu);
+            perAlLector.push(figura[1]);
+          }
+          cos.appendChild(fig);
           return;
         }
         if (bloc.indexOf('•') === 0) {

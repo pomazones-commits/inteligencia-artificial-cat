@@ -80,6 +80,8 @@ PECES_EXTRES = [
 # Marques de format del cos dels estudis que la veu no ha de llegir:
 # «## » encapçala un títol de secció i «• » un pic d'una llista.
 MARQUES = re.compile(r"(?m)^[ \t]*(?:#{1,6}|•)[ \t]*")
+# Figura dins del cos (25.10.2026): «![peu](./assets/…)» → només el peu.
+FIGURA = re.compile(r"!\[([^\]]*)\]\([^)\s]*\)")
 
 
 def camp_com_a_text(valor) -> str:
@@ -88,6 +90,7 @@ def camp_com_a_text(valor) -> str:
         text = "\n\n".join(str(part).strip() for part in valor if str(part).strip())
     else:
         text = str(valor or "").strip()
+    text = FIGURA.sub(lambda m: m.group(1), text)
     return MARQUES.sub("", text).strip()
 
 
