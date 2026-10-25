@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-25T09:27:06.193Z",
+ "actualitzat": "2026-10-25T12:13:07.115Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "5dd9767f5873",
+   "mitja": "Nació Digital",
+   "font": "naciodigital-totes",
+   "icona": "/assets/premsa/nacio-digital.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Com ensenyarem català a la intel·ligència artificial?",
+   "url": "https://naciodigital.cat/societat/com-ensenyarem-catala-a-la-intelligencia-artificial.html",
+   "publicat": "2026-10-25T10:14:00.000Z"
+  },
   {
    "id": "948f6a20e4d9",
    "mitja": "El Periódico",
@@ -134,6 +145,17 @@
    "titol": "La UdL impulsa un model ètic d’IA per garantir un ús responsable i segur",
    "url": "https://www.segre.com/ca/lleida/261025/udl-impulsa-model-etic-d-ia-per-garantir-us-responsable-i-segur_1375613.html",
    "publicat": "2026-10-25T04:20:45.000Z"
+  },
+  {
+   "id": "be92ce7800e0",
+   "mitja": "El Periódico",
+   "font": "elperiodico-tec",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Daniel Álvarez, sense visió des dels 15 anys: \"Gràcies a les ulleres intel·ligents distingeixo un súper d'una perruqueria\"",
+   "url": "https://www.elperiodico.cat/societat/20261025/ulleres-intelligents-super-perruqueria-implant-coclear-tecnologia-discapacitat-testimonis-135362980",
+   "publicat": "2026-10-25T04:00:27.000Z"
   },
   {
    "id": "0e32c6dd1796",
