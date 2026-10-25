@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-25T16:14:52.100Z",
+ "actualitzat": "2026-10-25T17:53:48.618Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "476f73060311",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Els participants de la Fira encerten el 53% de les imatges generades amb IA",
+   "url": "https://www.diariandorra.ad/nacional/261025/els-participants-fira-encerten-53-les-imatges-generades-amb-ia_207299.html",
+   "publicat": "2026-10-25T17:33:13.000Z"
+  },
   {
    "id": "31d34170a523",
    "mitja": "Ara",
@@ -164,7 +175,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Daniel Álvarez, sense visió des dels 15 anys: \"Gràcies a les ulleres intel·ligents distingeixo un súper d'una perruqueria\"",
+   "titol": "Daniel Álvarez, sense visió des dels 15 anys: \"Gràcies a les ulleres intel·ligents distingeixo un súper d’una perruqueria\"",
    "url": "https://www.elperiodico.cat/societat/20261025/ulleres-intelligents-super-perruqueria-implant-coclear-tecnologia-discapacitat-testimonis-135362980",
    "publicat": "2026-10-25T04:00:27.000Z"
   },
@@ -2744,28 +2755,6 @@
    "publicat": "2026-10-18T19:30:04.000Z",
    "noticia": "japo-ia-drons-atacs-ossos",
    "noticiaTitol": "El Japó prova mapes de risc amb IA, càmeres i drons per contenir els óssos, després d'un any amb 13 morts"
-  },
-  {
-   "id": "f793da0aab80",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Europa debat el seu futur en la cursa dels gegants de la IA",
-   "url": "https://www.ara.cat/economia/tecnologia/europa-debat-futur-cursa-dels-gegants-ia_1_5881113.html",
-   "publicat": "2026-10-18T17:00:03.000Z"
-  },
-  {
-   "id": "d1233190cf0c",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Alberto Caballero clama contra una parodia viral de 'La que se avecina' hecha con IA: \"Lo detesto\"",
-   "url": "https://www.elperiodico.com/es/tele/yotele/20261018/alberto-caballero-clama-parodia-viral-la-que-se-avecina-ia-135474156",
-   "publicat": "2026-10-18T16:48:57.000Z"
   }
  ]
 }
