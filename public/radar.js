@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Tarragona",
+    "category": "IA I SOCIETAT",
+    "date": "25.10.2026",
+    "title": "Tarragona reuneix més de 3.000 professionals de 65 països per parlar de com la IA canvia les empreses i la ciberseguretat",
+    "summary": "El congrés MSP Global va ocupar dos dies el PortAventura Convention Centre amb més de 120 ponents, entre ells experts en cibercrim i comportament humà a la xarxa.",
+    "detail": "Tarragona ha acollit aquesta setmana una de les trobades professionals més concorregudes del sector de la ciberseguretat. L'MSP Global 2026 va tenir lloc el 21 i el 22 d'octubre al PortAventura Convention Centre, a Tarragona, i, segons el Diari de Tarragona, va reunir més de 3.000 professionals de més de seixanta-cinc països, més de 120 ponents i un centenar d'empreses col·laboradores.\n\nEl programa girava al voltant de com la intel·ligència artificial transforma les empreses i dels nous riscos per a la seguretat digital. Es va parlar també de l'evolució del cibercrim i de les vulnerabilitats dels sistemes informàtics, i d'estratègia al núvol, regulació, creixement empresarial i fusions i adquisicions, amb sessions sobre l'aplicació pràctica de la IA, la seguretat de les infraestructures, el compliment normatiu i els canvis en els models de negoci.\n\nEntre els ponents destacats hi havia Ralph Echemendia, conegut com el «hacker de Hollywood», que va presentar la sessió «The Real Cyber» i va assessorar la pel·lícula *Snowden*, que es va projectar al final; Mary Aiken, experta en comportament humà al ciberespai; Salvatore Russo, general de divisió de la Guardia di Finanza italiana especialitzat en crim organitzat i delictes financers, i Steffi Frey, investigadora en ciberseguretat i hacker ètica.\n\nL'article és una crònica de l'acte i no n'esmenta els organitzadors ni recull conclusions o acords concrets; les xifres d'assistència són les que dona el diari. Serveix, doncs, per mesurar el pes que té Tarragona com a seu de congressos del sector, més que no pas per conèixer què es va decidir.",
+    "source": "Diari de Tarragona",
+    "url": "https://www.diaridetarragona.com/sociedad/273888/tarragona-reune-3-000-expertos-internacionales-ciberseguridad-e-inteligencia-artificial.html",
+    "image": "./assets/msp-global-tarragona-3000-professionals-ia-ciberseguretat-20261025.jpg",
+    "slug": "msp-global-tarragona-3000-professionals-ia-ciberseguretat"
+  },
+  {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "24.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/caixabank-integra-seva-aplicacio-marketplace-chatgpt_1713334_102.html",
     "image": "./assets/caixabank-aplicacio-chatgpt-productes-financers-20261022.jpg",
     "slug": "caixabank-aplicacio-chatgpt-productes-financers"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "21.10.2026",
-    "title": "Pau Garcia-Milà crea amb Claude «Quina colla!», un joc gratuït per descobrir els castells",
-    "summary": "L'emprenedor català diu que va demanar a l'IA un joc abans d'anar a dormir i que a l'endemà el va trobar fet; el pots provar al navegador, sense registre.",
-    "detail": "Els castells són una de les tradicions més reconeixibles de Catalunya, i ara tenen el seu propi joc fet amb IA. Es diu «Quina colla!», és gratuït, funciona al navegador a quinacolla.cat i vol presentar la cultura castellera d'una manera lúdica.\n\nL'impulsor és Pau Garcia-Milà, emprenedor vinculat a Founderz, que el va presentar en un vídeo a les xarxes. Segons explica ell mateix en una piulada del 19 d'octubre que recull El Nacional, va demanar a Claude, el model d'Anthropic, un joc que el sorprengués quan es despertés, i a l'endemà en va trobar un de complet. Ho anomena fer-lo «d'una tacada» (*one-shot*), és a dir, a partir d'una sola instrucció oberta.\n\nSegons el diari, el joc té escenes ambientades en llocs reconeixibles, com la plaça de Sant Jaume de Barcelona, permet triar la colla, el tipus de castell i la plaça, i fa referència als castells que ha aconseguit cada colla. L'objectiu és explicar els castells d'una manera divertida i respectant la realitat de les colles i de la seva activitat.\n\nConvé matisar-ho: tot el que se sap del procés prové de la versió de l'autor, que no ha detallat quanta feina humana hi va haver després, i no consta que les colles hi hagin participat. Tot i així, és un exemple pràctic de com un projecte cultural local pot néixer d'una sola instrucció a un assistent d'IA.",
-    "source": "El Nacional",
-    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/ia-arriba-mon-casteller-aixi-es-joc-creat-emprenedor-catala_1713016_102.html",
-    "image": "./assets/quina-colla-joc-castells-pau-garcia-mila-claude-20261021.jpg",
-    "slug": "quina-colla-joc-castells-pau-garcia-mila-claude"
   }
 ];

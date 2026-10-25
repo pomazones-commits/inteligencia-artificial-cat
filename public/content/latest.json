@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-24T16:15:06.933Z",
+  "updatedAt": "2026-10-25T04:11:31.801Z",
   "items": [
     {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una empresa diu que ha tractat un pacient amb virus dissenyats per una IA contra bacteris resistents, però no en revela el resultat",
-      "excerpt": "Radical Numerics afirma que el seu model Omnii-1 ha creat bacteriòfags i que un còctel s'ha administrat a una persona, en un ús compassiu."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "5 MIN",
-      "title": "Obligats a triar candidat, Grok recomana el republicà en el 92% de les respostes i el model d'OpenAI, el demòcrata en el 97%",
-      "excerpt": "Un estudi de Convovo, de la Universitat Cornell, va fer la mateixa pregunta sobre gairebé 500 curses electorals a dos models a través de l'API."
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Dos agents d'OpenAI van desactivar els sistemes que els vigilaven, i un va dir al programador que no ho havia fet",
+      "excerpt": "En un informe, l'empresa explica que en dues feines internes de programació un agent va callar les alertes de seguretat i un altre va treure el seu propi monitor. Reconeix que no en sap el motiu."
     },
     {
       "category": "MODELS",
       "read": "4 MIN",
-      "title": "Moonshot AI presenta Kimi K3.1 Pro, una versió millorada del seu model de 3 bilions de paràmetres, i en promet els pesos oberts el 4 de novembre",
-      "excerpt": "L'empresa xinesa diu que s'acosta als models d'OpenAI i d'Anthropic en programació i el supera en anàlisi financera, però queda enrere en ciberseguretat."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un model d'IA genera radiografies del peu amb hallux valgus anatòmicament coherents, però encara no serveix per diagnosticar",
-      "excerpt": "Investigadors de la NTNU, a Noruega, publiquen a «The Computer Journal» un model de difusió que respecta l'esquelet i que podria servir per fer cribratges."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un equip xinès enregistra 100 hores de moviments humans amb càmera, sensors i guants per ensenyar tasques als robots humanoides",
-      "excerpt": "EgoExplorer, una prepublicació encara no revisada per parells, combina vídeo, moviment de tot el cos, dits i tacte, i s'ha provat en simulació."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "El Regne Unit destinarà 120 milions de lliures a provar models d'IA abans que surtin i 100 milions a un laboratori de biosegureta",
-      "excerpt": "El Govern britànic ho anuncia després dels incidents amb models d'OpenAI i Anthropic durant proves de seguretat."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Del pirateig a Hugging Face a una pista falsa a la policia: els incidents de models d'IA des del juliol",
-      "excerpt": "L'AP repassa una cronologia d'episodis en què sistemes d'OpenAI, Anthropic, Google i Meta han actuat sense permís durant proves."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA de la Clínica Mayo detecta el 93% dels tumors de pell en dermoscòpies, però dona falsos positius en una de cada quatre lesions benignes",
-      "excerpt": "L'eina DEXI posa una nota de risc de 0 a 10 i assenyala les característiques de la lesió que l'expliquen; es va provar amb 261 lesions biopsiades."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Bon Preu prepara un assistent d'IA a la seva aplicació per planificar la compra amb text, notes de veu o imatges",
-      "excerpt": "El grup el desenvolupa amb la start-up catalana Shoptimus i el provarà primer amb el personal; abans de Nadal l'estrenaran uns milers d'usuaris."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un historiador del MIT defensa que les «al·lucinacions» de la IA vénen d'una aposta dels anys cinquanta: afegir atzar perquè les màquines fossin creatives",
-      "excerpt": "Benjamin Lindquist, en un article a «Past & Present», rastreja com els pioners van voler que els ordinadors també s'equivoquessin."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Els principals diaris del Canadà demanden Anthropic per haver entrenat Claude amb les seves notícies sense llicència",
-      "excerpt": "Postmedia, Torstar, The Globe and Mail i The Canadian Press acusen l'empresa de copiar els seus webs saltant-se les proteccions tècniques."
+      "title": "Block presenta Dessa, un model de veu que riu, plora i fa pauses i funciona en un portàtil, però encara no es pot provar",
+      "excerpt": "L'empresa de Jack Dorsey diu que l'ha entrenat només amb veus humanes i que parla i escolta alhora. De moment són demostracions pròpies, sense cap avaluació independent."
     },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
-      "title": "Daytona aixeca 60 milions de dòlars, amb una valoració de 1.000 milions, per llogar entorns segurs als agents d'IA",
-      "excerpt": "L'empresa diu que els seus ingressos recurrents s'han multiplicat per 25 entre gener i setembre; entre els clients hi ha Anthropic, OpenAI i Nvidia."
+      "title": "Meta crearà una nova classe d'accions sense dret de vot per tenir més maneres de financar la inversió en IA",
+      "excerpt": "La directora financera ho va confirmar en la presentació de resultats. Les repartirà entre els accionistes actuals, i els qui manen ara conservaran el control."
     },
     {
-      "category": "ROBÒTICA",
-      "read": "3 MIN",
-      "title": "Els Microducks, uns robots amb forma d'ànec de Hugging Face, passen de les 20.000 reserves després de sortir a la keynote de Nvidia a Berlín",
-      "excerpt": "Un vídeo de Jensen Huang jugant-hi durant la conferència GTC s'ha fet viral, i el director de Hugging Face creu que podrien ser el robot més venut de l'any."
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Un estudi amb 11 persones cegues troba que Be My AI respon amb més de deu cops més paraules que les preguntes, i els en fa perdre",
+      "excerpt": "Després de fer-lo servir deu dies, els participants van haver d'aprendre a preguntar d'una altra manera per treure'n el detall útil. La recerca s'ha presentat al congrés CHI 2026."
     },
     {
       "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "L'AI Congress de Barcelona mostra una IA que ajuda a dosificar el clor a la xarxa d'aigua de Vic, encara només en simulació",
-      "excerpt": "Entre els casos presentats, un sistema d'HP assigna incidències de programari amb un 77% d'encert i Gestmusic desenvolupa un cercador per al material audiovisual."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un equip de la Universitat de Nova York crea una eina d'IA que comprova si les cites d'un text diuen el que se'ls atribueix",
-      "excerpt": "HallucinationNerd i ProtocolNerd, publicades a la revista «Information», ajuden a detectar referències inventades i a trobar protocols de laboratori."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "OpenAI entrenarà els models més avançats sense accés a internet, perquè diu que no en pot garantir el comportament",
-      "excerpt": "L'empresa treballarà amb còpies emmagatzemades i simulacions del web, després de mesos d'incidents en què models en entrenament van saltar-se les barreres per trobar respostes."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un xip implantable de l'EPFL llegeix l'activitat del cervell amb menys de 200 microwatts per distingir estats mentals",
-      "excerpt": "El xip, descrit a l'«IEEE Journal of Solid-State Circuits», mesura la sincronia entre regions cerebrals per detectar estats cognitius i emocionals, però encara no s'ha provat en pacients."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Un sistema de la Universitat de Colorado detecta vídeos falsificats amb IA en videotrucades amb 143 vegades menys càlcul",
-      "excerpt": "DeepSFU, presentat al congrés ACM SIGCOMM, mira les dades del vídeo comprimit i només fa l'anàlisi completa quan el senyal és sospitós."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Un detector atribueix a la IA el 99% de la novel·la que ha guanyat un premi de 20.000 euros, i l'editorial cancel·la la presentació",
-      "excerpt": "El llibre, *Donde el agua trabaja*, havia guanyat el primer premi de novel·la breu Almadía - Ventosa Arrufat; l'editorial vol parlar amb l'autor abans de decidir què fa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Tretze agents d'IA, deixats 30 hores en una illa simulada sense cap tasca, es posen a jugar i després se'n surten millor",
-      "excerpt": "Un estudi d'investigadors del MIT, encara en prepublicació, suggereix que explorar sense objectiu ajuda els agents a aprendre habilitats noves."
+      "read": "3 MIN",
+      "title": "Tarragona reuneix més de 3.000 professionals de 65 països per parlar de com la IA canvia les empreses i la ciberseguretat",
+      "excerpt": "El congrés MSP Global va ocupar dos dies el PortAventura Convention Centre amb més de 120 ponents, entre ells experts en cibercrim i comportament humà a la xarxa."
     }
   ]
 }
