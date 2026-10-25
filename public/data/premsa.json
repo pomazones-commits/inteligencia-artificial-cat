@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-24T21:13:47.247Z",
+ "actualitzat": "2026-10-25T04:12:17.617Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "0e32c6dd1796",
+   "mitja": "El Punt Avui",
+   "font": "elpuntavui-societat",
+   "icona": "/assets/premsa/el-punt-avui.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Cotxes que volen i IA fora de control",
+   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2684396-cotxes-que-volen-i-ia-fora-de-control.html",
+   "publicat": "2026-10-25T01:00:00.000Z"
+  },
+  {
+   "id": "1f25344c41c8",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'impacte de la IA en el Barcelona Cybersecurity Congress",
+   "url": "https://www.ara.cat/especials/l-impacte-ia-barcelona-cybersecurity-congress_1_5884889.html",
+   "publicat": "2026-10-24T21:59:37.000Z"
+  },
   {
    "id": "ce92a388088d",
    "mitja": "Información",
@@ -13,6 +35,17 @@
    "titol": "«La IA acelera la búsqueda de soluciones, pero los humanos guían y dirigen el proceso»",
    "url": "https://www.informacion.es/economia/2026/10/24/ia-acelera-busqueda-soluciones-humanos-135678525.html",
    "publicat": "2026-10-24T20:30:32.000Z"
+  },
+  {
+   "id": "1951f15500ee",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La possible fusió de Tesla i SpaceX, fàbriques xineses de cotxes elèctrics a Europa i els advertiments de Microsoft sobre la IA",
+   "url": "https://www.vilaweb.cat/noticies/possible-fusio-tesla-spacex-fabriques-xineses-cotxes-electrics-europa-advertiments-microsoft-ia",
+   "publicat": "2026-10-24T19:40:48.000Z"
   },
   {
    "id": "19b60a285377",
@@ -56,7 +89,9 @@
    "ambit": "catala",
    "titol": "Tarragona reúne a más de 3.000 expertos internacionales en ciberseguridad e inteligencia artificial",
    "url": "https://www.diaridetarragona.com/sociedad/273888/tarragona-reune-3-000-expertos-internacionales-ciberseguridad-e-inteligencia-artificial.html",
-   "publicat": "2026-10-24T10:34:02.000Z"
+   "publicat": "2026-10-24T10:34:02.000Z",
+   "noticia": "msp-global-tarragona-3000-professionals-ia-ciberseguretat",
+   "noticiaTitol": "Tarragona reuneix més de 3.000 professionals de 65 països per parlar de com la IA canvia les empreses i la ciberseguretat"
   },
   {
    "id": "dea699fc61f6",
@@ -2630,120 +2665,6 @@
    "titol": "De automatizar facturas a responder consultas en cualquier idioma: así ayuda la IA a las pymes a ahorrar tiempo, reducir errores y captar clientes",
    "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261018/11653591/automatizar-facturas-responder-consultas-idioma-asi-ayuda-ia-pymes-ahorrar-reducir-errores-captar-clientes.html",
    "publicat": "2026-10-18T04:47:23.000Z"
-  },
-  {
-   "id": "cda77dedeb8d",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Elena Ibáñez, orientadora vocacional: “La educación en España está poniendo los noes a la IA, pero no los síes”",
-   "url": "https://elpais.com/economia/2026-10-18/elena-ibanez-orientadora-vocacional-la-educacion-en-espana-esta-poniendo-noes-a-la-ia-pero-no-sies.html",
-   "publicat": "2026-10-18T04:07:00.000Z"
-  },
-  {
-   "id": "ab4159de0205",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "De la plaza a la pantalla y de las redes a la IA: la inquietud por los nuevos formatos que deciden las elecciones",
-   "url": "https://www.levante-emv.com/comunitat-valenciana/2026/10/18/plaza-pantalla-redes-ia-inquietud-135405175.html",
-   "publicat": "2026-10-18T04:02:42.000Z"
-  },
-  {
-   "id": "ab6a786c6705",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "marinabaixa | Altea da voz a su Guerrero de la Estela Ibérica con inteligencia artificial y presenta el proyecto en Italia",
-   "url": "https://alicanteplaza.es/alicanteplaza/marinabaixa/altea-da-voz-a-su-guerrero-de-la-estela-iberica-con-inteligencia-artificial-y-presenta-el-proyecto-en-italia",
-   "publicat": "2026-10-18T04:00:05.000Z",
-   "noticia": "altea-guerrer-estela-iberica-avatar-ia-erasmus",
-   "noticiaTitol": "Altea fa parlar amb IA el seu guerrer ibèric d'Altea la Vella i en presenta el projecte europeu a Molfetta"
-  },
-  {
-   "id": "860d3f3daf51",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Robert Blumofe, vicepresidente y jefe tecnológico de Akamai: “Es sencillo: no hay que otorgar a un agente de IA más autoridad de la necesaria”",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261018/11658914/robert-blumofe-vicepresidente-jefe-tecnologico-akamai-sencillo-hay-otorgar-agente-ia-mas-autoridad-necesaria.html",
-   "publicat": "2026-10-18T04:00:00.000Z"
-  },
-  {
-   "id": "cc4c44d4ad0c",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La educación literaria en tiempos de TikTok y ChatGPT",
-   "url": "https://www.lavanguardia.com/vida/20261018/11661525/educacion-literaria-tiempos-tiktok-chatgpt.html",
-   "publicat": "2026-10-18T04:00:00.000Z"
-  },
-  {
-   "id": "075aab5500fb",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Luis Pérez de Ayala (Cuatrecasas): “No podemos dejar que los abogados jóvenes aprendan de la IA”",
-   "url": "https://elpais.com/economia/negocios/2026-10-18/luis-perez-de-ayala-cuatrecasas-no-podemos-dejar-que-los-abogados-jovenes-aprendan-de-la-ia.html",
-   "publicat": "2026-10-18T03:30:00.000Z"
-  },
-  {
-   "id": "b85d2b498955",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Albert Tort: \"L'objectiu és que la IA sigui capaç d'aprendre en català\"",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/albert-tort-lobjectiu-es-ia-sigui-capac-aprendre-en-catala_1708360_102.html",
-   "publicat": "2026-10-18T03:30:00.000Z",
-   "noticia": "tort-ia-catala-aprendre-estrategia-ia-2030",
-   "noticiaTitol": "El secretari de Telecomunicacions Albert Tort vol que la IA «aprengui en català» i no només tradueixi, amb el BSC i el projecte AINA"
-  },
-  {
-   "id": "4dfea555c358",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El presidente naranja, las tablets y la burbuja de la IA: la economía según Xavier Sala i Martín",
-   "url": "https://www.diaridetarragona.com/economia/273297/presidente-naranja-tablets-burbuja-ia-economia-xavier-sala-i-martin.html",
-   "publicat": "2026-10-18T03:00:00.000Z"
-  },
-  {
-   "id": "4ac9bae41029",
-   "mitja": "El Punt Avui",
-   "font": "elpuntavui-societat",
-   "icona": "/assets/premsa/el-punt-avui.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "IA per governar millor",
-   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2683075-ia-per-governar-millor.html",
-   "publicat": "2026-10-18T00:00:00.000Z"
-  },
-  {
-   "id": "d3244e7f6bb4",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Pasos para adoptar la IA",
-   "url": "https://www.lavanguardia.com/dinero/20261018/11660750/pasos-adoptar-ia.html",
-   "publicat": "2026-10-17T22:05:00.000Z"
   }
  ]
 }
