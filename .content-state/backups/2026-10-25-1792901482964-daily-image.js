@@ -1,0 +1,13 @@
+window.IA_DAILY_IMAGE = {
+  "date": "2026-10-24",
+  "image": "./assets/daily-reflection-2026-10-24.jpg",
+  "alt": "Una àrbitra d'handbol amb samarreta groga, xiulet penjat del coll i una llibreta a la mà, escolta dos jugadors, una amb samarreta blava i un amb samarreta vermella, enmig de la pista de fusta d'un pavelló municipal, amb grades de públic desenfocades al darrere.",
+  "kicker": "IA × Societat",
+  "title": "Qui decideix si allò ha estat falta",
+  "caption": "La tecnologia pot ajudar a mirar la jugada un altre cop, però explicar una decisió a qui l'ha de poder acceptar continua sent feina d'una persona.",
+  "credit": "Imatge editorial generada amb IA",
+  "tema": "esport",
+  "escenari": "pavelló municipal d'handbol",
+  "subjecte": "àrbitra i jugadors",
+  "body": "En un pavelló municipal, enmig de la pista, una àrbitra escolta dos jugadors que no estan d'acord amb una decisió. Té la llibreta a la mà i no mira cap pantalla: la conversa és de tu a tu, a un pam de distància, davant d'unes grades plenes de gent que també té opinió. Qualsevol esport amb àrbitres és, en bona part, això: algú ha de decidir ràpid i explicar-ho a qui no n'està content.\n\nLa tecnologia fa temps que entra en aquesta conversa. La ja coneguda revisió amb vídeo ha estat un primer pas, i ara hi arriba la IA. Segons una informació de Soccerway, el col·lectiu arbitral de la Federació Espanyola de Futbol incorporarà la IA a l'arbitratge a partir de la temporada 2026-27, amb un assessor de tecnologia i IA. I la NBA, segons recull un mitjà mexicà, estudia sistemes assistits amb IA per resoldre jugades objectives, amb la intenció, diuen, que els àrbitres es puguin concentrar en les decisions que demanen més criteri.\n\nCal dir que aquests exemples són del futbol i del bàsquet professionals. No hem trobat cap indici verificable que la Federació Catalana d'Handbol o les d'altres esports de base facin servir IA per arbitrar, i per això no ho afirmem. El que sí que es pot afirmar és la distinció que apunten els mateixos impulsors: una màquina pot ser útil per a allò que es pot mesurar, com si la pilota ha creuat una línia, però no per a allò que és interpretació, com si un contacte és falta o no.\n\nA l'esport base aquesta diferència es nota més: hi ha menys càmeres i, sovint, menys marge per repetir una jugada. Una eina que alleugerís la feina de l'àrbitre seria benvinguda; una que li fes perdre l'autoritat, no.\n\nPerquè una decisió esportiva no és només un resultat: és una explicació que es dona a algú perquè la pugui acceptar. Si la IA acaba formant part de l'arbitratge, la pregunta pendent no és si encerta més, sinó qui la pot respondre davant dels jugadors, de l'entrenador i de la grada quan algú pregunta per què."
+};
