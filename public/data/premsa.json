@@ -1,8 +1,129 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-25T04:12:17.617Z",
+ "actualitzat": "2026-10-25T08:11:37.213Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "446438976762",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De 0 a 25.000 usuarios en ocho meses: Prudencia.ai, la empresa española que lidera el ranking de fiabilidad de IA jurídica",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261025/11658927/0-25-000-usuarios-ocho-meses-prudencia-ai-empresa-espanola-lidera-ranking-fiabilidad-ia-juridica.html",
+   "publicat": "2026-10-25T07:00:00.000Z"
+  },
+  {
+   "id": "e468982ea7c4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "China desarrolla una medusa robótica casi invisible capaz de identificar objetivos bajo el agua gracias a la IA",
+   "url": "https://www.lavanguardia.com/neo/gadgets/20261025/11666178/china-desarrolla-medusa-robotica-invisible-capaz-identificar-objetivos-agua-gracias-ia.html",
+   "publicat": "2026-10-25T06:50:00.000Z"
+  },
+  {
+   "id": "5cfdeaa52464",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "\"La IA sabe más de usted que su madre\"",
+   "url": "https://www.elperiodico.com/es/entre-todos/participacion/ia-madre-carta-sergio-gomez-135559151",
+   "publicat": "2026-10-25T05:15:13.000Z"
+  },
+  {
+   "id": "596289bd5ce2",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Aprender historia sin inteligencia artificial: un cómic \"made in Alicante\" plantea uno de los grandes retos del futuro",
+   "url": "https://www.informacion.es/cultura/2026/10/25/aprender-historia-inteligencia-artificial-comic-alicante-grandes-retos-futuro-ia-135272685.html",
+   "publicat": "2026-10-25T05:00:29.000Z"
+  },
+  {
+   "id": "dd36524e9b3a",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA como aliada de la investigación en Alicante: de detectar el TDAH a \"curar\" la presbicia",
+   "url": "https://www.informacion.es/alicante/2026/10/25/ia-aliada-investigacion-alicante-detectar-135641894.html",
+   "publicat": "2026-10-25T05:00:17.000Z"
+  },
+  {
+   "id": "083b88ec4d0b",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Geoffrey Hinton: “El problema de la IA es más urgente que el cambio climático”",
+   "url": "https://www.lavanguardia.com/vida/20261025/11667444/geoffrey-hinton-problema-ia-mas-urgente-cambio-climatico.html",
+   "publicat": "2026-10-25T05:00:00.000Z"
+  },
+  {
+   "id": "149e436b841f",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Sigo siendo útil con la aparición de la IA? Así afecta el FOBO, el miedo a quedarse obsoleto profesionalmente después de los 50 años",
+   "url": "https://www.lavanguardia.com/vivo/longevity/20261025/11665384/sigo-siendo-util-aparicion-ia-asi-afecta-fobo-miedo-quedarse-obsoleto-profesionalmente-50-anos.html",
+   "publicat": "2026-10-25T05:00:00.000Z"
+  },
+  {
+   "id": "7710a0ed9bef",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La empresa familiar y la IA",
+   "url": "https://www.lavanguardia.com/economia/20261025/11667285/empresa-familiar-ia.html",
+   "publicat": "2026-10-25T05:00:00.000Z"
+  },
+  {
+   "id": "ca5ccad46d4d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Del dron a la inteligencia artificial: Expo AgriTech 2026 reúne las innovaciones que están transformando el campo",
+   "url": "https://www.lavanguardia.com/economia/20261025/11665701/dron-inteligencia-artificial-expo-agritech-2026-reune-innovaciones-transformando-campo-brl.html",
+   "publicat": "2026-10-25T04:55:00.000Z"
+  },
+  {
+   "id": "f004fe47f404",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las tecnológicas pinchan en Bolsa y reabren el debate sobre la factura de la IA",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-25/las-tecnologicas-pinchan-en-bolsa-y-reabren-el-debate-sobre-la-factura-de-la-ia.html",
+   "publicat": "2026-10-25T04:30:00.000Z"
+  },
+  {
+   "id": "793a380e32a8",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La UdL impulsa un model ètic d’IA per garantir un ús responsable i segur",
+   "url": "https://www.segre.com/ca/lleida/261025/udl-impulsa-model-etic-d-ia-per-garantir-us-responsable-i-segur_1375613.html",
+   "publicat": "2026-10-25T04:20:45.000Z"
+  },
   {
    "id": "0e32c6dd1796",
    "mitja": "El Punt Avui",
@@ -78,7 +199,9 @@
    "ambit": "catala",
    "titol": "Els inversors es llancen a protegir-se per si esclata la bombolla de la IA",
    "url": "https://www.ara.cat/economia/tecnologia/inversors-llancen-protegir-esclata-bombolla-ia_1_5886043.html",
-   "publicat": "2026-10-24T17:00:05.000Z"
+   "publicat": "2026-10-24T17:00:05.000Z",
+   "noticia": "cds-deute-ia-inversors-asseguren-impagament",
+   "noticiaTitol": "Els inversors s'asseguren contra l'impagament de les empreses d'IA: el mercat d'aquestes assegurances passa de 2.000 a més de 9.000 milions de dòlars des del juliol"
   },
   {
    "id": "bdc094eb63da",
@@ -2599,72 +2722,6 @@
    "titol": "Alberto Caballero clama contra una parodia viral de 'La que se avecina' hecha con IA: \"Lo detesto\"",
    "url": "https://www.elperiodico.com/es/tele/yotele/20261018/alberto-caballero-clama-parodia-viral-la-que-se-avecina-ia-135474156",
    "publicat": "2026-10-18T16:48:57.000Z"
-  },
-  {
-   "id": "6b5b2dd2a2ec",
-   "mitja": "Nació Digital",
-   "font": "naciodigital-totes",
-   "icona": "/assets/premsa/nacio-digital.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "«Manresa Futur» debatrà a la Torre Busquet el repte de la indústria, el talent i la IA",
-   "url": "https://naciodigital.cat/manresa/economia-i-empresa/manresa-futur-debatra-a-la-torre-busquet-el-repte-de-la-industria-el-talent-i-la-ia.html",
-   "publicat": "2026-10-18T07:22:22.000Z"
-  },
-  {
-   "id": "734fa7bfab7d",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA en el mundo de la empresa: ¿solución o amenaza?",
-   "url": "https://www.diariodemallorca.es/economia/2026/10/18/ia-mundo-empresa-solucion-o-135456499.html",
-   "publicat": "2026-10-18T06:00:42.000Z"
-  },
-  {
-   "id": "e5c24f6a4804",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Seis formas de utilizar la IA para estudiar en la ESO: \"No le pidas que resuelva los problemas de Matemáticas, sino que te ayude a entenderlos\"",
-   "url": "https://www.elperiodico.com/es/sociedad/20261018/como-utilizar-bien-la-inteligencia-artificial-para-estudiar-aprender-mejor-135414515",
-   "publicat": "2026-10-18T06:00:35.000Z"
-  },
-  {
-   "id": "be3b2bdadb1f",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La intel·ligència artificial canviarà els impostos",
-   "url": "https://empreses.ara.cat/opinio/intel-ligencia-artificial-canviara-impostos_129_5879216.html",
-   "publicat": "2026-10-18T05:55:11.000Z"
-  },
-  {
-   "id": "e05141d375b9",
-   "mitja": "Diari de Terrassa",
-   "font": "diarideterrassa",
-   "icona": "/assets/premsa/diari-de-terrassa.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA impulsa les borses",
-   "url": "https://www.diarideterrassa.com/economia/la-ia-impulsa-les-borses.html",
-   "publicat": "2026-10-18T05:00:02.000Z"
-  },
-  {
-   "id": "a6425ae5d737",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "De automatizar facturas a responder consultas en cualquier idioma: así ayuda la IA a las pymes a ahorrar tiempo, reducir errores y captar clientes",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261018/11653591/automatizar-facturas-responder-consultas-idioma-asi-ayuda-ia-pymes-ahorrar-reducir-errores-captar-clientes.html",
-   "publicat": "2026-10-18T04:47:23.000Z"
   }
  ]
 }
