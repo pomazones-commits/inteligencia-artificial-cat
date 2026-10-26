@@ -1,6 +1,69 @@
 {
-  "updatedAt": "2026-10-26T04:15:02.228Z",
+  "updatedAt": "2026-10-26T08:15:59.389Z",
   "items": [
+    {
+      "category": "INVERSIÓ",
+      "read": "4 MIN",
+      "slug": "spacex-tanca-40000-milions-deute-gpu",
+      "title": "SpaceX diu que ha tancat 40.000 milions de dòlars de deute per comprar GPU",
+      "excerpt": "Musk ho va anunciar a X: els xips arribaran el primer semestre del 2027 i, segons ell, les més de 200 empreses que lloguen càlcul d'IA acabaran concentrades en molt poques.",
+      "sourceName": "Fox Business",
+      "sourceUrl": "https://www.foxbusiness.com/technology/spacex-secures-40b-financing-gpus-elon-musk-warns-ai-cloud-industry-consolidation",
+      "sourceDate": "26 d'octubre de 2026",
+      "body": "SpaceX, que ja inclou la divisió d'IA xAI, buscava finançament per comprar xips d'Nvidia des de començaments d'octubre. Segons la premsa econòmica, s'hi parlava d'un préstec de 40.000 milions de dòlars amb bancs i gestores d'actius. Fins ara, tot això eren converses sense confirmar.\n\nAquest diumenge, Elon Musk va escriure a X: «SpaceX ha tancat 40.000 milions de deute per a GPU, però tenim grau d'inversió i ingressos de Starlink i dels llançaments». En un segon missatge va dir que els processadors gràfics arribaran el primer semestre del 2027, que el finançament «no és un factor important aquest trimestre» i que el deute és sobretot de tipus «callable», és a dir, que el prestador pot reclamar-lo abans d'hora. Fox Business assenyala que no queda clar si els inversors han acceptat els preus ni qui són els prestadors.\n\nMusk també va afirmar que els mercats de deute gairebé han deixat de prestar a empreses sense ingressos importants fora dels centres de dades d'IA, i va pronosticar que les més de 200 empreses que lloguen potència de càlcul d'IA (els anomenats *neoclouds*) viuran una consolidació forta: «Algunes sobreviuran, però no gaires». Segons Reuters, el tercer trimestre de SpaceX va tancar amb uns ingressos de 14.580 milions de dòlars, un 161% més que un any enrere, i el director financer, Bret Johnsen, espera uns 35.000-40.000 milions en inversions només el quart trimestre. Musk també va dir que una fusió amb Tesla «seria una bona idea», tot i que cap acord no és segur.\n\nCal llegir-ho amb cautela. Tot el que se sap de les condicions ve de les publicacions del mateix Musk: no s'ha publicat cap contracte ni hi ha cap prestador confirmat, i la predicció sobre els *neoclouds* és una opinió d'algú que competeix en aquest mercat, no un fet. El que sí que mostra l'operació és que el cost de comprar xips ja condiciona qui pot créixer en IA.",
+      "image": "./assets/spacex-tanca-40000-milions-deute-gpu-20261026.jpg"
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "slug": "nejm-ai-24-sistemes-ia-mes-cost-que-metges",
+      "title": "Vint-i-quatre sistemes d'IA recomanen una atenció tres vegades més cara que la dels metges en 200 visites, segons un estudi a «NEJM AI»",
+      "excerpt": "Pressupostada amb tarifes de Medicare, l'atenció que proposaven els models era de 314 dòlars de mitjana per visita, davant dels 97 dels metges, sobretot per proves i derivacions de més.",
+      "sourceName": "Digital Health Wire (sobre un article de NEJM AI)",
+      "sourceUrl": "https://digitalhealthwire.com/llms-recommend-far-more-care-than-doctors/",
+      "sourceDate": "26 d'octubre de 2026",
+      "body": "Quan un metge atén un pacient sense cap problema greu, sovint la decisió més difícil és no demanar res més. Un article publicat a la revista *NEJM AI* (DOI 10.1056/AIoa2600537), que ha resumit Digital Health Wire, mira si els models de llenguatge saben fer-ho o si tendeixen a recomanar més atenció de la necessària.\n\nL'estudi va provar 24 sistemes d'IA, 20 de generals i 4 d'específics per a medicina. Cada un va rebre la part prèvia a l'avaluació de 200 notes anonimitzades de consultes ambulatòries i d'urgències i va escriure un pla d'atenció. Tot el que demanaven es va valorar amb tarifes de Medicare del 2026, i el pla documentat pel metge va fer de referència. L'atenció proposada per la IA va costar de mitjana 314 dòlars per visita, contra 97 dels metges, unes 3,2 vegades més. Els 216 dòlars de diferència es repartien gairebé a parts iguals entre proves addicionals (105) i derivacions a especialistes (111). Els models també recomanaven fàrmacs nous gairebé el doble de sovint (1,14 per visita, contra 0,59).\n\nEl resultat més revelador és el de les visites en què el metge no va demanar cap prova diagnòstica, un 66% dels casos: en tots, tots els sistemes en van demanar alguna, normalment un perfil estàndard d'anàlisis. Els sistemes específics per a medicina van costar entre 2,7 i 3,5 vegades més que els metges, així que especialitzar-los no va frenar l'excés. Quan els models s'ajustaven en demanar-los una atenció «parsimoniosa però segura», la diferència va baixar a 1,4 vegades, i amb una instrucció que tenia en compte el cost, a 2,5. D'allò que els models demanaven de més, només un 20% era coherent amb les guies clíniques.\n\nEls límits importen. És una simulació sobre notes escrites, no una prova amb pacients, i no mesura si les proves extres haurien evitat algun mal ni si els metges en demanaven de menys. Els medicaments es van comptar, però no es van posar preu. Digital Health Wire no n'indica els autors ni la data de publicació, i no hem pogut consultar el text complet de l'article. El que apunta l'estudi és que una IA clínica amb la configuració per defecte pot encarir l'atenció, i que cal decidir expressament quan és «prou».",
+      "image": "./assets/nejm-ai-24-sistemes-ia-mes-cost-que-metges-20261026.jpg"
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "5 MIN",
+      "slug": "centres-dades-6329-mw-red-electrica-catalunya-26-projectes",
+      "title": "Cap dels 6.329 MW d'accés a la xarxa concedits a centres de dades a Espanya funciona encara, i Catalunya en té 26 en projecte",
+      "excerpt": "El mapa de Red Eléctrica no registra cap d'aquests permisos com a posat en servei, mentre els projectes catalans, d'uns 2.000 MW en conjunt, competeixen per la mateixa xarxa que la indústria, el ferrocarril o l'hidrogen.",
+      "sourceName": "CatalunyaPress",
+      "sourceUrl": "https://www.catalunyapress.cat/article/economia/2026-10-24/6063740-intelligncia-artificial-senfronta-limit-catalunya",
+      "sourceDate": "24 d'octubre de 2026",
+      "body": "Els centres de dades són la peça física de la IA, i necessiten molta electricitat. Un reportatge de CatalunyaPress repassa què diu el mapa de capacitat d'accés que Red Eléctrica va publicar l'1 d'octubre i què implica per als projectes catalans.\n\nSegons aquest mapa, a Espanya hi ha 6.329 MW d'accés a la xarxa concedits a centres de dades, el 34,2% dels 18,52 GW de demanda concedida, i cap no consta com a posat en servei. És la categoria més gran, per davant de la indústria (5.838 MW). El diari matisa que això no vol dir que no hi hagi centres de dades en funcionament, sinó que els permisos d'aquest tipus no consten com a materialitzats. A Catalunya, la Generalitat va presentar el 14 d'abril 26 projectes privats a la Taula Institucional d'Impuls dels Centres de Dades: sumarien uns 2.000 MW, i uns deu, els més madurs, podrien arribar a 300-500 MW entre el 2030 i el 2035. Els agrupa en set pols: Parc de l'Alba, Sant Adrià del Besòs-Barcelonès, Metropolità Sud, Tarragona, Lleida, Anoia i les Terres de l'Ebre.\n\nEntre els casos concrets hi ha el projecte de Panattoni al Parc de l'Alba, a Cerdanyola del Vallès, de fins a 88 MW en dues fases i 300 milions d'euros la primera; el d'Ark Data Centres, de fins a 45 MW prop de La Maquinista, a Barcelona; el de Serosense a Alcarràs, amb 10 MW previstos ampliables a 30; i el de Submer a Flix, sense cap xifra de potència verificable. L'únic que ja funciona és el de Templus, a la Zona Franca i l'Hospitalet, amb 10 MW. Alhora, el Ministeri per a la Transició Ecològica va proposar el 24 de setembre servir 3,8 GW de demanda addicional abans del 2030 des de la xarxa de transport, el 53% per a indústria i la resta per a habitatge, ferrocarril, ports i hidrogen, amb més de 17.000 milions d'euros d'inversió.\n\nL'autora reconeix els límits del mapa: no inclou totes les sol·licituds a les xarxes de distribució ni lliga cada projecte a un punt de connexió, així que no permet dir que cap instal·lació catalana estigui bloquejada sense revisar-ne l'expedient. Les potències dels projectes són previsions dels promotors, no permisos acreditats, i falten dades d'ocupació, d'aigua per refrigerar i d'impacte territorial. El que queda en evidència és que la mesura de l'aposta catalana per la IA serà quants d'aquests projectes acabin consumint electricitat de debò.",
+      "image": "./assets/centres-dades-6329-mw-red-electrica-catalunya-26-projectes-20261026.jpg",
+      "etiquetes": [
+        "centres-de-dades"
+      ]
+    },
+    {
+      "category": "TECNOLOGIA",
+      "read": "4 MIN",
+      "slug": "torvalds-ia-programadors-competents-linux-pedacos",
+      "title": "Torvalds defensa que els programadors competents facin servir IA al nucli de Linux, però rebutja els pedaços enviats sense entendre el codi",
+      "excerpt": "Els mantenidors del nucli han decidit, a Praga, deixar d'exigir que es declari l'ús d'IA a les contribucions, segons una columna de «The Register»: el codi ha de complir els mateixos criteris de qualitat.",
+      "sourceName": "The Register",
+      "sourceUrl": "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
+      "sourceDate": "23 d'octubre de 2026",
+      "body": "Linus Torvalds, creador del nucli Linux, ha començat a fer servir IA per escriure codi del nucli, cosa que ha fet que alguns comentaristes el critiquin. Una columna de Steven J. Vaughan-Nichols a *The Register*, que és una peça d'opinió, el defensa i recull què ha dit Torvalds sobre la qüestió.\n\nEn una nota al columnista, Torvalds va dir que els arguments contra l'ús d'IA per redactar missatges de comissió (*commit messages*) són ben intencionats però equivocats, i que vol que la gent competent la faci servir com a eina. El problema, va afegir, és un altre: els qui no entenen el codi que envien. Va distingir entre els novells que volen aprendre i els qui presenten «pedaços de pas» només per sentir que han contribuït. A l'Open Source Summit Europe, segons la columna, va qualificar la programació a cop d'intuïció amb IA (*vibe coding*) de «manera meravellosa de trobar alegria programant».\n\nLa columna també explica que, fa una setmana, a la cimera de mantenidors del nucli a Praga, Sasha Levin va anunciar que s'ha decidit retirar l'etiqueta «Assisted-by»: els contribuents ja no han d'indicar que han fet servir IA, però el codi generat ha de complir els mateixos criteris de qualitat. Torvalds veu dos problemes separats: l'IA troba errors reals en una base de codi enorme, cosa que dona més feina a uns mantenidors sobrecarregats, i hi ha qui genera pedaços sense comprendre'ls. Segons ell, l'IA no els causa, només els deixa a la vista.\n\nConvé recordar que molt del que s'hi explica són declaracions comunicades al columnista i fets de la cimera que *The Register* atribueix a Levin; la peça no dona xifres sobre quant codi del nucli té ajuda d'IA ni sobre quants pedaços arriben sense revisar. La seva predicció que programar a mà serà tan rar com teixir a mà cap al 2030 és una opinió del columnista.",
+      "image": "./assets/torvalds-ia-programadors-competents-linux-pedacos-20261026.jpg"
+    },
+    {
+      "category": "CULTURA",
+      "read": "3 MIN",
+      "slug": "grok-odissea-set-minuts-wonder-studios",
+      "title": "Grok Imagine estrena set minuts d'una «Odissea» feta amb IA, tres mesos després que Musk en prometés una versió «fidel» a la història",
+      "excerpt": "El primer episodi, fet amb Wonder Studios i el director Dev Walker, es publica mentre la pel·lícula de Christopher Nolan és un èxit de taquilla; el crític de TechCrunch hi troba poca ànima.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "sourceDate": "25 d'octubre de 2026",
+      "body": "Fa uns tres mesos, Elon Musk va dir que Grok llançaria una pel·lícula completa de l'*Odissea* d'Homer, «fidel» a la història. Havia criticat la versió d'acció real de Christopher Nolan, estrenada el juliol del 2026, per haver escollit actors no blancs i transgènere. Ara el seu equip n'ha publicat el primer tast.\n\nEl compte de Grok Imagine va penjar a X, el 23 d'octubre, els primers set minuts, presentats com l'«Episodi 1 de la nostra sèrie *Odissea*». Està fet amb Wonder Studios i el director Dev Walker. Segons *TechCrunch*, la pel·lícula de Nolan, rodada en sis països amb centenars de persones, ha estat un gran èxit de taquilla i és una candidata probable als Oscar.\n\nEl redactor de *TechCrunch*, Anthony Ha, diu que les imatges són millors del que esperava i superen els vídeos anteriors de Musk, amb alguns plans que podrien passar per reals. Hi troba, en canvi, poca invenció artística i interès humà: la veu en off de la introducció és llarga, els diàlegs són rígids, la narradora té accent britànic, els personatges no parlen grec antic i els seus tons de pell s'ajusten al que Musk prefereix. Diu que va perdre l'interès abans de la meitat.\n\nNomés es coneixen aquests set minuts, i la valoració és la d'un sol crític, subjectiva. No consta cap data per a la resta de la sèrie ni per a una versió de llargmetratge, així que encara no es pot jutjar si la promesa de Musk es complirà. Sí que mostra fins a quin punt el vídeo generat per IA ja és prou bo per competir en realisme, no necessàriament en narració.",
+      "image": "./assets/grok-odissea-set-minuts-wonder-studios-20261026.jpg"
+    },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
