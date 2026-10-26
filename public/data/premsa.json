@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-26T16:19:56.296Z",
+ "actualitzat": "2026-10-26T16:34:19.111Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "c94da28aef7a",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic admite que los sistemas de IA podrían plantear riesgos “catastróficos o existenciales para la humanidad”",
+   "url": "https://elpais.com/economia/2026-10-26/anthropic-admite-que-los-sistemas-de-ia-podrian-plantear-riesgos-catastroficos-o-existenciales-para-la-humanidad.html",
+   "publicat": "2026-10-26T16:29:34.000Z"
+  },
+  {
+   "id": "8cbbe55fb4ac",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "‘IA drama’: las telenovelas de TikTok que amplifican las narrativas de los candidatos electorales",
+   "url": "https://www.lavanguardia.com/vida/verificacion/20261026/11668643/ia-drama-telenovelas-tiktok-amplifican-narrativas-candidatos-electorales.html",
+   "publicat": "2026-10-26T16:23:51.000Z"
+  },
   {
    "id": "43898f9d927c",
    "mitja": "3CatInfo",
@@ -254,7 +276,9 @@
    "ambit": "catala",
    "titol": "Telefónica Espanya adquireix el 10% de la firma d'intel·ligència artificial OGA",
    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/telefonica-espana-adquireix-10-firma-intelligencia-artificial-oga_1715032_102.html",
-   "publicat": "2026-10-26T10:50:11.000Z"
+   "publicat": "2026-10-26T10:50:11.000Z",
+   "noticia": "telefonica-espana-compra-10-oga-ia-defensa-industria",
+   "noticiaTitol": "Telefónica España compra el 10% d'OGA, una empresa sevillana d'IA, i n'afegirà les solucions al seu catàleg per a empreses i administracions"
   },
   {
    "id": "a75ee5d3cd30",
