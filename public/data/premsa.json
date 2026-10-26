@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-26T10:34:31.051Z",
+ "actualitzat": "2026-10-26T12:14:22.618Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f7b373f968ec",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Telefónica formaliza la compra del 10% de OGA para potenciar sus servicios IA",
+   "url": "https://cincodias.elpais.com/companias/2026-10-26/telefonica-formaliza-la-compra-del-10-de-oga-para-potenciar-sus-servicios-ia.html",
+   "publicat": "2026-10-26T11:47:57.000Z"
+  },
+  {
+   "id": "81dc46a28bff",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Google aclara que puede usar la información de Gmail y Drive compartida con Gemini para mostrar anuncios personalizados",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/26/2736687/google-aclara-puede-usar-informacion-gmail-drive-compartida-gemini-para-mostrar-anuncios-personalizados.html",
+   "publicat": "2026-10-26T11:21:00.000Z"
+  },
+  {
+   "id": "96eef2478d3b",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Illa, Moreno, Pradales y Clavijo demandan una IA “para el bien común y con supervisión humana”",
+   "url": "https://www.lavanguardia.com/economia/20261026/11668214/illa-moreno-pradales-clavijo-demandan-ia-comun-supervision-humana.html",
+   "publicat": "2026-10-26T10:57:49.000Z"
+  },
+  {
+   "id": "20386d352e13",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Telefónica Espanya adquireix el 10% de la firma d'intel·ligència artificial OGA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/telefonica-espana-adquireix-10-firma-intelligencia-artificial-oga_1715032_102.html",
+   "publicat": "2026-10-26T10:50:11.000Z"
+  },
   {
    "id": "a75ee5d3cd30",
    "mitja": "Información",
