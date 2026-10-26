@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-26T16:34:19.111Z",
+ "actualitzat": "2026-10-26T17:01:43.693Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "374d5f29e4f4",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Un grup d’experts insta a utilitzar la IA per renovar l’estructura de la UE",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/grup-experts-insta-utilitzar-ia-renovar-estructura-ue_1715914_102.html",
+   "publicat": "2026-10-26T16:37:53.000Z"
+  },
   {
    "id": "c94da28aef7a",
    "mitja": "Cinco Días",
@@ -2773,17 +2784,6 @@
    "titol": "Torres (BBVA) destaca el potencial de la inteligencia artificial para impulsar la transformación de las empresas y la economía",
    "url": "https://www.informacion.es/economia/2026/10/19/torres-bbva-destaca-potencial-inteligencia-135517624.html",
    "publicat": "2026-10-19T18:21:02.000Z"
-  },
-  {
-   "id": "d3a55144d20f",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Apple posa fi al truc de les apps que 'despullen' amb IA: prohibides encara que es disfressin d'apps normals",
-   "url": "https://www.elnacional.cat/ca/tecnologia/apple-posa-fi-truc-apps-despullen-ia-prohibides-encara-es-disfressin-apps-normals_1711864_102.html",
-   "publicat": "2026-10-19T17:00:00.000Z"
   }
  ]
 }
