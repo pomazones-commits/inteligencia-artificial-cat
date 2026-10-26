@@ -1,0 +1,13 @@
+window.IA_DAILY_IMAGE = {
+  "date": "2026-10-25",
+  "image": "./assets/daily-reflection-2026-10-25.jpg",
+  "alt": "Una dona gran de cabells grisos, amb un folre polar blau marí, escalfa amb les mans una copa de tast blava i petita i en sent l'olor amb els ulls tancats, mentre un pagès amb jaqueta de lona espera dret al seu costat, al racó de tast d'una cooperativa oleícola amb dipòsits d'acer inoxidable i caixes d'olives al fons.",
+  "kicker": "IA × Societat",
+  "title": "Qui decideix si aquest oli ja pot dur el nom de la casa",
+  "caption": "Les dades poden ajudar a collir i a conservar, però l'última paraula sobre un oli continua tenint-la un nas entrenat.",
+  "credit": "Imatge editorial generada amb IA",
+  "tema": "camp-i-mar",
+  "escenari": "cooperativa oleícola",
+  "subjecte": "tastadora d'oli i pagès",
+  "body": "Al racó de tast d'una cooperativa oleícola, una dona escalfa amb les mans una copa blava, petita i fosca, i hi acosta el nas. La copa és blava perquè qui tasta no ha de jutjar l'oli pel color: el que compta és l'olor i el gust. Al seu costat, un pagès espera la sentència sobre unes olives que ha collit ell mateix.\n\nAquesta escena té una base normativa. Segons la regulació europea, perquè un oli es pugui vendre com a verge extra no n'hi ha prou amb l'anàlisi de laboratori: també l'ha d'avaluar un panell de tast format per persones entrenades que hi detecten defectes i atributs positius. Les denominacions d'origen, com la DOP Les Garrigues, fan d'aquest criteri una part de la seva garantia de qualitat.\n\nLa intel·ligència artificial entra en aquest món per les vores. Una part de la recerca s'ocupa de la producció i la conservació de l'oli: a la Universitat de Jaén, per exemple, el grup Simidat treballa en un projecte que fa servir IA per millorar la qualitat i la sostenibilitat del procés. Són eines que ajuden a decidir quan collir, com emmagatzemar o què controlar al laboratori.\n\nPerò el moment decisiu continua sent humà. Una màquina pot mesurar acidesa o compostos químics i detectar patrons, però qui diu si un oli fa olor de fruita fresca o d'humitat, i si aquell lot arriba al mercat amb el seu nom, és una persona amb el nas entrenat. Aquesta responsabilitat no és només tècnica: de la paraula d'un tastador en depèn el preu, i amb el preu, l'any d'una família.\n\nPer això aquesta fotografia no mostra cap pantalla. A les cooperatives de les comarques oliveres, la pregunta sobre la IA no és si substituirà el tast, sinó qui té l'última paraula quan les dades i el nas no coincideixen. Mentre aquesta decisió continuï essent una conversa entre dues persones al voltant d'una copa, la tecnologia haurà de saber fer-se enrere."
+};
