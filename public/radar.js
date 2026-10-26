@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "26.10.2026",
+    "title": "Alinia AI, amb oficines a Barcelona i València, presenta Seny, un model de 4.000 milions de paràmetres per vigilar que els agents d'IA compleixin la llei",
+    "summary": "El model s'ha entrenat al MareNostrum 5 del BSC amb el programa EuroHPC AI Factory. L'empresa assegura que és de 5 a 17 vegades més ràpid que models comparables, però les xifres són seves.",
+    "detail": "Els bancs, les asseguradores i les operadores telefòniques volen posar agents d'IA a atendre clients, però cap no sap bé com demostrar a un regulador que l'agent respecta la normativa mentre treballa. Alinia AI, una empresa emergent amb seu a Nova York i oficines a Barcelona i València, fundada per Ariadna Font i Carlos Muñoz, vol cobrir aquest buit amb Seny, un model base català pensat per «mantenir els agents dins la llei», segons el reportatge d'Ara del 25 d'octubre.\n\nSeny és un model de llenguatge de 4.000 milions de paràmetres, construït sobre Gemma, el model obert de Google DeepMind. Es va entrenar en dues fases, primer amb dades generals de compliment normatiu i després amb afinació per a normatives concretes, en el supercomputador MareNostrum 5 del Barcelona Supercomputing Center, amb el suport del programa europeu EuroHPC AI Factory. Sobre Seny, Alinia construeix «jutges» més petits, cadascun especialitzat en una normativa, que poden actuar en temps real com a auditors o filtres d'un agent. Segons l'empresa, que el va presentar l'1 d'octubre, la latència mitjana és de 151 mil·lisegons, i pot baixar a uns 50 dins del núvol privat del client. Els primers sectors a què s'adreça són la banca, les asseguradores i la sanitat.\n\nL'empresa diu que Seny iguala models punters com GPT-6 Astra o Claude Opus 5 en molts àmbits habituals de compliment, i que els seus jutges de risc de crèdit superen en eficàcia i velocitat els productes d'OpenAI i Anthropic. Ha publicat resultats en nou llengües, entre les quals el català, en sis àmbits normatius. Per a una empresa d'aquí, l'interès és doble: és un model entrenat amb infraestructura pública europea i amb el català entre les llengües avaluades.\n\nAra gairebé no dona detalls de client, finançament ni preu, i totes les comparacions de rendiment provenen de la mateixa empresa, sense proves independents. A més, cada jutge només cobreix la normativa amb què s'ha entrenat; no és un revisor legal general.",
+    "source": "Ara",
+    "url": "https://empreses.ara.cat/innovacio/seny-ia-catalana-vigila-agents_1_5888174.html",
+    "image": "./assets/alinia-ai-seny-model-catala-vigila-agents-llei-20261026.jpg",
+    "slug": "alinia-ai-seny-model-catala-vigila-agents-llei"
+  },
+  {
     "place": "Tarragona",
     "category": "IA I SOCIETAT",
     "date": "25.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://valenciaplaza.com/valenciaplaza/comarca-y-empresa/alboraya-impulsa-un-sistema-pionero-de-vigilancia-ambiental-en-acequias-basado-en-inteligencia-artificial",
     "image": "./assets/alboraia-vigilancia-vessaments-sequies-ia-cameres-multiespectrals-20261022.jpg",
     "slug": "alboraia-vigilancia-vessaments-sequies-ia-cameres-multiespectrals"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "22.10.2026",
-    "title": "CaixaBank posa la seva aplicació dins de ChatGPT perquè els clients puguin consultar productes financers i comparar-los",
-    "summary": "L'entitat diu que és un canal d'informació addicional, pensat per a consultes senzilles, i que els casos complexos continuaran passant per un gestor.",
-    "detail": "Els bancs comencen a provar un canal nou: arribar als clients allà on ja fan preguntes, que cada cop és més sovint un assistent d'IA. ChatGPT permet que empreses de fora hi integrin les seves pròpies aplicacions, i CaixaBank hi ha entrat aquest dijous.\n\nSegons El Nacional, l'entitat ha integrat la seva aplicació a l'espai d'aplicacions de ChatGPT, i ja funciona. Des de la conversa, l'usuari pot preguntar pels productes financers de manera conversacional, comparar alternatives i accedir als continguts del banc. L'aplicació es recolza en els agents d'IA que CaixaBank ja fa servir als seus canals digitals, que acompanyen el client pas a pas en una contractació, i, quan cal un assessorament especialitzat, deriva la persona cap a un professional del banc.\n\nL'entitat insisteix que no substitueix ni les oficines ni els canals tradicionals: és, diu, un canal addicional d'informació, més adequat per a consultes ràpides, comparacions de característiques i dubtes de tràmit. Afegeix que treballa en IA des del 2014 i que té quatre objectius amb la generativa: agilitat comercial, nous serveis, eficiència operativa i resiliència i seguretat de la plataforma.\n\nLa informació surt d'un sol mitjà, sense declaracions de directius ni enllaç a un comunicat de CaixaBank o d'OpenAI. No consten ni els països on és disponible, ni la data exacta d'obertura, ni xifres d'ús. Tampoc no s'explica quines garanties dona sobre les dades dels clients, un punt clau quan es parla de diners dins d'una plataforma externa.",
-    "source": "El Nacional (OnEconomia)",
-    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/caixabank-integra-seva-aplicacio-marketplace-chatgpt_1713334_102.html",
-    "image": "./assets/caixabank-aplicacio-chatgpt-productes-financers-20261022.jpg",
-    "slug": "caixabank-aplicacio-chatgpt-productes-financers"
   }
 ];

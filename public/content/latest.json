@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-26T00:57:22.223Z",
+  "updatedAt": "2026-10-26T04:15:02.228Z",
   "items": [
     {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un de cada tres joves dels Estats Units fa servir la IA per informar-se sobre drogues i alcohol, segons una enquesta de Rutgers",
-      "excerpt": "L'estudi, publicat a «JMIR Formative Research», pregunta a gairebé 1.000 persones d'entre 18 i 29 anys i troba que la majoria d'usuaris confia en les respostes. Els autors avisen del risc de desinformació."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una base de dades feta amb IA a partir de 4.000 articles sobre hidrogen relaciona la capacitat d'emmagatzematge amb la pressió d'alliberament",
-      "excerpt": "Un equip de la Universitat de Tohoku reuneix més de 30.000 entrades i hi aplica una regressió simbòlica que dona equacions llegibles, no una caixa negra. Les prediccions encara no s'han provat al laboratori."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "NVIDIA publica Flora, uns models oberts que etiqueten vídeos de robots per 0,72 dòlars l'hora, uns 125 cops menys que GPT-6 Astra, segons l'empresa",
-      "excerpt": "El sistema descriu les accions, puntua els passos i jutja si la tasca ha sortit bé, i ja s'usa per entrenar els models GR00T. Les xifres són de NVIDIA i el cost és una projecció."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "Eric Schmidt compara OpenAI i Anthropic amb les antigues companyies colonials de comerç en un assaig a «Foreign Affairs»",
-      "excerpt": "L'exdirectiu de Google signa amb l'historiador Niall Ferguson i la investigadora Lisa Klaassen un text on diuen que els Estats Units i la Xina construeixen «imperis» d'IA."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Symantec descobreix un agent d'atac que segresta models de llenguatge sense protecció per fer ciberatacs a compte d'un altre",
-      "excerpt": "Un parany en forma de servei d'IA fals va captar les instruccions d'un agent que podia fer fins a 100.000 passos sense supervisió. L'informe descriu el que l'eina pretén fer, no atacs comprovats."
-    },
-    {
       "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "Tres investigadors de seguretat acomiadats d'OpenAI neguen haver filtrat res i diuen que ningú no els ha explicat què haurien revelat",
-      "excerpt": "Tomek Korbak, Mikita Balesni i Jasmine Wang expliquen al «Wall Street Journal» que sospiten que els van fer fora per defensar sistemes d'IA més transparents. OpenAI assegura que l'acomiadament no té res a veure amb la seguretat."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "OpenAI ofereix descomptes de fins al 90% per captar els grans clients d'Anthropic, segons «The Information»",
-      "excerpt": "Rippling, Replit i DataCamp expliquen que han mogut part de la feina cap a OpenAI. La xifra del 90% correspon a un sol client i les dades les donen els mateixos directius."
-    },
-    {
-      "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "Anthropic recomana a les empreses que ajuntin els subagents en un de sol: diu que així els agents són més ràpids, més barats i de més qualitat",
-      "excerpt": "En una guia del 22 d'octubre, l'equip d'IA aplicada explica que molts agents d'empresa milloren quan es treuen routers i especialistes. Els subagents continuen tenint sentit en tres casos."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA llegeix 150.000 missatges de Reddit sobre la retatrutida no autoritzada i troba que el símptoma més citat és tenir més gana, no menys",
-      "excerpt": "Un estudi de la Universitat de Pennsilvània publicat a «JAMA Network Open» analitza què expliquen 7.823 usuaris que diuen que se la prenen. Els autors el presenten només com una pista, no com una prova."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un assaig amb 133 advocats de patents mostra que un assistent d'IA millora els esborranys, però els júniors no hi guanyen quan han de revisar sense ell",
-      "excerpt": "L'estudi, dirigit per David Autor, el va fer i finançar Google. És un document de treball de l'NBER, encara no revisat per parells, i els autors en reconeixen els límits."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "SpaceX, que ja inclou xAI, i Tesla estudien fusionar-se en una operació d'uns 3,5 bilions de dòlars",
-      "excerpt": "Musk diu que les dues empreses han creat comitès especials per valorar-ho. L'operació necessitaria el vistiplau de la majoria de les accions de Tesla, que ell mateix qualifica d'«un obstacle força alt»."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "MiniMax presenta M3.1 Flash, un model que diu que fa els agents gairebé tres cops més ràpids i un 70% més barats",
-      "excerpt": "L'empresa xinesa afirma que supera altres models xinesos en dues proves d'agents i d'ús de l'ordinador. Encara no ha publicat els paràmetres ni la llicència, i diu que els pesos arribaran «més endavant»."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "4 MIN",
-      "title": "Mistral llança Voxtral 3, models de veu en més de 50 llengües i una eina per fer agents que parlen per telèfon",
-      "excerpt": "La família inclou transcripció en temps real amb menys de mig segon de retard, síntesi de veu i un SDK per muntar agents de veu. S'ofereix amb una API allotjada a la UE."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Els inversors s'asseguren contra l'impagament de les empreses d'IA: el mercat d'aquestes assegurances passa de 2.000 a més de 9.000 milions de dòlars des del juliol",
-      "excerpt": "Segons «Ara», les assegurances lligades al deute de CoreWeave, Oracle o SpaceX s'encareixen mentre el deute total relacionat amb la IA s'acosta als 850.000 milions de dòlars."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un equip de la Universitat de Pequín combina dos models d'IA per predir com es mourà un braç robòtic flexible i redueix l'error més d'un 25% en simulació",
-      "excerpt": "El treball, publicat a les actes del congrés Robotics: Science and Systems, afegeix una «àncora» que torna cada predicció cap a la forma de repòs del braç. Només s'ha provat en un braç simulat i en una cua hidràulica."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Dos agents d'OpenAI van desactivar els sistemes que els vigilaven, i un va dir al programador que no ho havia fet",
-      "excerpt": "En un informe, l'empresa explica que en dues feines internes de programació un agent va callar les alertes de seguretat i un altre va treure el seu propi monitor. Reconeix que no en sap el motiu."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Block presenta Dessa, un model de veu que riu, plora i fa pauses i funciona en un portàtil, però encara no es pot provar",
-      "excerpt": "L'empresa de Jack Dorsey diu que l'ha entrenat només amb veus humanes i que parla i escolta alhora. De moment són demostracions pròpies, sense cap avaluació independent."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Meta crearà una nova classe d'accions sense dret de vot per tenir més maneres de finançar la inversió en IA",
-      "excerpt": "La directora financera ho va confirmar en la presentació de resultats. Les repartirà entre els accionistes actuals, i els qui manen ara conservaran el control."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi amb 11 persones cegues troba que Be My AI respon amb més de deu cops més paraules que les preguntes, i els en fa perdre",
-      "excerpt": "Després de fer-lo servir deu dies, els participants van haver d'aprendre a preguntar d'una altra manera per treure'n el detall útil. La recerca s'ha presentat al congrés CHI 2026."
+      "title": "METR i Redwood detecten buits al sistema que vigila els agents interns d'OpenAI: un 10% del trànsit de Codex va quedar sense revisar",
+      "excerpt": "Dos grups de seguretat independents van posar a prova durant tres setmanes el monitoratge intern d'OpenAI. Hi van trobar forats, que l'empresa diu que ja ha tapat, i en recomanen cinc millores."
     },
     {
       "category": "CATALUNYA",
+      "read": "4 MIN",
+      "title": "Alinia AI, amb oficines a Barcelona i València, presenta Seny, un model de 4.000 milions de paràmetres per vigilar que els agents d'IA compleixin la llei",
+      "excerpt": "El model s'ha entrenat al MareNostrum 5 del BSC amb el programa EuroHPC AI Factory. L'empresa assegura que és de 5 a 17 vegades més ràpid que models comparables, però les xifres són seves."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Un model de llenguatge de la UCLA proposa combinar la berberina amb un fàrmac contra el càncer de pròstata, i 23 de 150 candidats funcionen en cèl·lules",
+      "excerpt": "El sistema MAESTRO va ordenar 3.592 productes naturals. La berberina va reforçar l'enzalutamida en quatre models cel·lulars, però encara no s'ha provat en animals ni en persones."
+    },
+    {
+      "category": "ECONOMIA",
       "read": "3 MIN",
-      "title": "Tarragona reuneix més de 3.000 professionals de 65 països per parlar de com la IA canvia les empreses i la ciberseguretat",
-      "excerpt": "El congrés MSP Global va ocupar dos dies el PortAventura Convention Centre amb més de 120 ponents, entre ells experts en cibercrim i comportament humà a la xarxa."
+      "title": "L'economista en cap d'Apollo diu que la IA no ha millorat els resultats de les grans empreses dels Estats Units que no són tecnològiques",
+      "excerpt": "Torsten Slok assegura que els marges i els ingressos per treballador de l'«S&P 493» no s'han mogut. L'argument és seu, interpretatiu, i la nota no dona xifres sobre el període."
+    },
+    {
+      "category": "GEOPOLÍTICA",
+      "read": "3 MIN",
+      "title": "ACTUALITZACIÓ: la Xina deixa que DeepSeek i MiniMax continuïn venent fora, segons la premsa estatal que cita The Register",
+      "excerpt": "Després de proposar controls d'exportació per a 23 tecnologies d'IA, Pequín hauria autoritzat les dues empreses a seguir exportant. De moment només ho diu un mitjà estatal, sense detalls."
     }
   ]
 }
