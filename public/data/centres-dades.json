@@ -1,5 +1,5 @@
 {
- "actualitzat": "2026-10-19",
+ "actualitzat": "2026-10-26",
  "propera_revisio": "2026-11-15",
  "nota": "Centres de dades i supercomputació als territoris de parla catalana. Manual: revisió setmanal a la tasca «Edicions» (vegeu CLAUDE.md). Pàgina: /centres-de-dades (public/centres-de-dades.php). Estats: en funcionament | en construcció | en tramitació | aturat | descartat. origen de cada xifra: promotor (ho diu l’empresa) | administració (ho anuncia un govern o un ajuntament) | oficial (consta en un tràmit o document públic: Miteco, DOGC, DOGV, BOIB, BOPA, BOE, llicència, contracte) | premsa (xifra publicada sense font primària). llocs = [[lat, lon], …] aproximades. polemica: sempre amb la resposta de l’empresa o de l’administració, o una nota que digui que no n’hem trobat. Contractacions: només amb document públic o comunicat de totes dues parts. Cap camp inventat.",
  "xifres": [
@@ -80,7 +80,7 @@
   },
   {
    "titol": "Electricitat i xarxa",
-   "text": "Si es fessin els 26 projectes catalans, el consum seria d’uns 12.000 GWh l’any, segons les entitats que demanen la moratòria: el doble del que consumeix la ciutat de Barcelona. A tot l’Estat, els centres de dades ja tenen 6.329 MW d’accés concedit a la xarxa de transport, segons Red Eléctrica, i cap no és encara en servei. El Govern espanyol prepara un reial decret per cribar-los: hauran de cobrir almenys el 80% del consum de cada hora amb renovables noves. El ministre Óscar López el vol aprovar abans de les eleccions del 29 de novembre; la CNMC demana flexibilitzar aquesta exigència, i el sector avisa que fins al 90% dels projectes podrien quedar fora. La Generalitat respon que la nova planificació elèctrica, amb 3.800 MW més per a Catalunya fins al 2030, ha de permetre encabir els projectes estratègics. Al Parc de l’Alba, el Consorci admet que el consum serà «especialment elevat» i diu que el reforç de la xarxa el paguen els promotors.",
+   "text": "Si es fessin els 26 projectes catalans, el consum seria d’uns 12.000 GWh l’any, segons les entitats que demanen la moratòria: el doble del que consumeix la ciutat de Barcelona. A tot l’Estat, els centres de dades ja tenen 6.329 MW d’accés concedit a la xarxa de transport, segons Red Eléctrica, i cap no és encara en servei. El Govern espanyol prepara un reial decret per cribar-los: hauran de cobrir almenys el 80% del consum de cada hora amb renovables noves. El 22 d’octubre el ministre Óscar López no en va voler fixar la data; segons la premsa, el Govern el vol portar al Consell de Ministres entre finals d’octubre i principis de novembre, abans de les eleccions del 29 de novembre, i només hi falta el dictamen del Consell d’Estat; la CNMC demana flexibilitzar aquesta exigència, i el sector avisa que fins al 90% dels projectes podrien quedar fora. La Generalitat respon que la nova planificació elèctrica, amb 3.800 MW més per a Catalunya fins al 2030, ha de permetre encabir els projectes estratègics. Al Parc de l’Alba, el Consorci admet que el consum serà «especialment elevat» i diu que el reforç de la xarxa el paguen els promotors.",
    "fonts": [
     {
      "nom": "No als megacentres de dades",
@@ -109,6 +109,10 @@
     {
      "nom": "elDiario.es (CNMC)",
      "url": "https://www.eldiario.es/economia/cnmc-pide-flexibilizar-obligacion-centros-datos-cubrir-80-consumo-renovables_1_13574342.html"
+    },
+    {
+     "nom": "El Periódico de la Energía (22.10.2026)",
+     "url": "https://elperiodicodelaenergia.com/lopez-no-fija-fecha-para-real-decreto-de-centros-de-datos-y-garantiza-que-la-norma-asegurara-inversiones"
     }
    ]
   },
@@ -208,7 +212,7 @@
     "Edged",
     "CoreWeave"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "digital-realty-bcn1",
@@ -276,7 +280,7 @@
    "paraules": [
     "Digital Realty"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "oxigen",
@@ -349,7 +353,7 @@
    "paraules": [
     "Oxigen"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "oxigen-sant-fruitos",
@@ -408,7 +412,7 @@
     "Oxigen",
     "Sant Fruitós de Bages"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "edgeconnex-viladecans",
@@ -472,7 +476,7 @@
     "EdgeConneX",
     "Viladecans"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "atlasedge-acer",
@@ -551,7 +555,7 @@
     "AtlasEdge",
     "Templus"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "estacio-cable-barcelona",
@@ -611,7 +615,7 @@
     "Medusa",
     "AFR-IX"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "marenostrum-5",
@@ -682,7 +686,7 @@
     "MareNostrum",
     "Barcelona Supercomputing Center"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "csuc-pirineus",
@@ -746,7 +750,7 @@
     "CSUC",
     "Pirineus"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "panattoni-parc-alba",
@@ -858,6 +862,11 @@
      "data": "2026-10-16",
      "fet": "El TSJC avala gairebé tot el pla urbanístic del Parc de l'Alba (sentència del 30.09.2026): només anul·la tres parcel·les d'equipaments i un vial a tocar de la riera de Sant Cugat, per risc d'inundació. Les cròniques no esmenten les parcel·les dels centres de dades. No és ferma: Refem i ADENC tenen 30 dies per recórrer en cassació al Suprem, i el Consorci diu que continuarà executant el pla",
      "font": "https://www.vilaweb.cat/noticies/tsjc-avala-projecte-urbanistic-parc-alba-5000-habitatges/"
+    },
+    {
+     "data": "2026-10-21",
+     "fet": "Refem i ADENC continuaran la via judicial i estudien amb els advocats com recórrer la sentència. El Consorci diu que no és ferma, que n'ha demanat un aclariment i que els seus serveis jurídics n'estudien l'abast; la crònica no esmenta les parcel·les dels centres de dades",
+     "font": "https://www.bellaterradiari.cat/noticia/160515/el-tsjc-avala-el-parc-de-lalba-pero-refem-i-ladenc-continuaran-la-via-judicial"
     }
    ],
    "fonts": [
@@ -877,7 +886,7 @@
     "Parc de l'Alba",
     "Cerdanyola"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "aq-compute-bcn1",
@@ -946,6 +955,11 @@
      "data": "2026-10-16",
      "fet": "El TSJC avala gairebé tot el pla urbanístic del Parc de l'Alba (sentència del 30.09.2026): només anul·la tres parcel·les d'equipaments i un vial a tocar de la riera de Sant Cugat, per risc d'inundació. Les cròniques no esmenten les parcel·les dels centres de dades. No és ferma: Refem i ADENC tenen 30 dies per recórrer en cassació al Suprem, i el Consorci diu que continuarà executant el pla",
      "font": "https://www.vilaweb.cat/noticies/tsjc-avala-projecte-urbanistic-parc-alba-5000-habitatges/"
+    },
+    {
+     "data": "2026-10-21",
+     "fet": "Refem i ADENC continuaran la via judicial i estudien amb els advocats com recórrer la sentència. El Consorci diu que no és ferma, que n'ha demanat un aclariment i que els seus serveis jurídics n'estudien l'abast; la crònica no esmenta les parcel·les dels centres de dades",
+     "font": "https://www.bellaterradiari.cat/noticia/160515/el-tsjc-avala-el-parc-de-lalba-pero-refem-i-ladenc-continuaran-la-via-judicial"
     }
    ],
    "fonts": [
@@ -960,7 +974,7 @@
     "AQ Compute",
     "Parc de l'Alba"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "quetta-molins",
@@ -1064,7 +1078,7 @@
     "Quetta",
     "Molins de Rei"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "adam-parc-alba",
@@ -1120,6 +1134,11 @@
      "data": "2026-10-16",
      "fet": "El TSJC avala gairebé tot el pla urbanístic del Parc de l'Alba (sentència del 30.09.2026): només anul·la tres parcel·les d'equipaments i un vial a tocar de la riera de Sant Cugat, per risc d'inundació. Les cròniques no esmenten les parcel·les dels centres de dades. No és ferma: Refem i ADENC tenen 30 dies per recórrer en cassació al Suprem, i el Consorci diu que continuarà executant el pla",
      "font": "https://www.vilaweb.cat/noticies/tsjc-avala-projecte-urbanistic-parc-alba-5000-habitatges/"
+    },
+    {
+     "data": "2026-10-21",
+     "fet": "Refem i ADENC continuaran la via judicial i estudien amb els advocats com recórrer la sentència. El Consorci diu que no és ferma, que n'ha demanat un aclariment i que els seus serveis jurídics n'estudien l'abast; la crònica no esmenta les parcel·les dels centres de dades",
+     "font": "https://www.bellaterradiari.cat/noticia/160515/el-tsjc-avala-el-parc-de-lalba-pero-refem-i-ladenc-continuaran-la-via-judicial"
     }
    ],
    "fonts": [
@@ -1132,7 +1151,7 @@
    "paraules": [
     "Parc de l'Alba"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "ai-factory-bsc",
@@ -1213,7 +1232,7 @@
    "paraules": [
     "MareNostrum"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "adequa-santa-barbara",
@@ -1285,7 +1304,7 @@
     "Santa Bàrbara",
     "Adequa"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "adequa-odena",
@@ -1385,7 +1404,7 @@
     "Can Morera",
     "Adequa"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "gigafactoria-mora-la-nova",
@@ -1534,7 +1553,7 @@
    "paraules": [
     "Móra la Nova"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "submer-flix",
@@ -1634,7 +1653,7 @@
     "Flix",
     "Submer"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "ark-maquinista",
@@ -1700,7 +1719,7 @@
     "Ark Data Centres",
     "Maquinista"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "gtr-parc-alba",
@@ -1756,6 +1775,11 @@
      "data": "2026-10-16",
      "fet": "El TSJC avala gairebé tot el pla urbanístic del Parc de l'Alba (sentència del 30.09.2026): només anul·la tres parcel·les d'equipaments i un vial a tocar de la riera de Sant Cugat, per risc d'inundació. Les cròniques no esmenten les parcel·les dels centres de dades. No és ferma: Refem i ADENC tenen 30 dies per recórrer en cassació al Suprem, i el Consorci diu que continuarà executant el pla",
      "font": "https://www.vilaweb.cat/noticies/tsjc-avala-projecte-urbanistic-parc-alba-5000-habitatges/"
+    },
+    {
+     "data": "2026-10-21",
+     "fet": "Refem i ADENC continuaran la via judicial i estudien amb els advocats com recórrer la sentència. El Consorci diu que no és ferma, que n'ha demanat un aclariment i que els seus serveis jurídics n'estudien l'abast; la crònica no esmenta les parcel·les dels centres de dades",
+     "font": "https://www.bellaterradiari.cat/noticia/160515/el-tsjc-avala-el-parc-de-lalba-pero-refem-i-ladenc-continuaran-la-via-judicial"
     }
    ],
    "fonts": [
@@ -1769,7 +1793,7 @@
     "Global Technical Realty",
     "Parc de l'Alba"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "serosense-alcarras",
@@ -1840,7 +1864,7 @@
     "Alcarràs",
     "Serosense"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "atlasedge-barcelona-2",
@@ -1893,7 +1917,7 @@
    "paraules": [
     "AtlasEdge"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "mediterra-montmelo",
@@ -1989,7 +2013,7 @@
     "Mediterra",
     "Montmeló"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "ponentia",
@@ -2101,7 +2125,7 @@
     "Montblanc",
     "Espluga de Francolí"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "tirant-uv",
@@ -2154,7 +2178,7 @@
     "Tirant",
     "Universitat de València"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "nxn-vara-de-quart",
@@ -2257,7 +2281,7 @@
     "NxN",
     "Vara de Quart"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "digital-valley-picassent",
@@ -2392,7 +2416,7 @@
     "Digital Valley",
     "Picassent"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "vdpc-sagunt",
@@ -2464,7 +2488,7 @@
     "Sagunt",
     "Valencia Digital Port Connect"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "valfortec-monforte",
@@ -2538,7 +2562,7 @@
     "Valfortec",
     "Monforte del Cid"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "catadau",
@@ -2604,7 +2628,7 @@
    "paraules": [
     "Catadau"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "talaia-uib",
@@ -2670,7 +2694,7 @@
    "paraules": [
     "Talaia"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "cpd-govern-balear",
@@ -2723,7 +2747,7 @@
    "paraules": [
     "Govern balear"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   },
   {
    "id": "andorra-telecom",
@@ -2782,7 +2806,7 @@
    "paraules": [
     "Andorra Telecom"
    ],
-   "verificat": "2026-10-19"
+   "verificat": "2026-10-26"
   }
  ],
  "versio": 2,
