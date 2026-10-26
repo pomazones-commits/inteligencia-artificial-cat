@@ -1804,3 +1804,56 @@ test('cap notícia sense imatge: es reté i surt quan apareix el fitxer (23.10.2
   const heldAfter = JSON.parse(await readFile(join(stateDir, 'sense-imatge.json'), 'utf8'));
   assert.equal(heldAfter.items.length, 0);
 });
+
+test('la ç perduda es corregeix sola al titular, però no a l\'slug ni a les URL (26.10.2026)', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'lot.json');
+  const items = Array.from({ length: 5 }, (_, index) => story(index + 1));
+  Object.assign(items[0], {
+    slug: 'meta-accions-sense-vot-financar-ia',
+    title: 'Meta crearà una nova classe d\'accions sense dret de vot per tenir més maneres de financar la inversió en IA',
+    excerpt: 'COMENCAR ara: el llancament és capac de tot.',
+    body: 'Comencar és fàcil. Els bancs financen el projecte i la forca, la placa i la peca no canvien. Font: https://example.com/financar-ia?q=comencar'
+  });
+  await writeFile(input, JSON.stringify(items), 'utf8');
+  const result = run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-10-25'], root);
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stdout, /ortografia corregida a «meta-accions-sense-vot-financar-ia»: financar → finançar/);
+  const meta = parseAssignment(await readFile(join(root, 'news.js'), 'utf8')).find(item => item.slug === 'meta-accions-sense-vot-financar-ia');
+  assert.ok(meta, 'l\'slug no canvia');
+  assert.match(meta.title, /maneres de finançar la inversió/);
+  assert.equal(meta.excerpt, 'COMENÇAR ara: el llançament és capaç de tot.');
+  assert.equal(meta.body, 'Començar és fàcil. Els bancs financen el projecte i la forca, la placa i la peca no canvien. Font: https://example.com/financar-ia?q=comencar');
+  const latest = JSON.parse(await readFile(join(root, 'content', 'latest.json'), 'utf8'));
+  assert.ok(!latest.items.some(item => /financar/.test(item.title)));
+});
+
+test('corregeix arregla la ç a l\'edició publicada, a l\'hemeroteca i al radar sense lot nou (26.10.2026)', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-orto-'));
+  const stateDir = join(root, 'state');
+  const items = Array.from({ length: 5 }, (_, index) => story(index + 1));
+  Object.assign(items[0], { slug: 'meta-financar-ia', title: 'Meta busca maneres de financar la IA' });
+  await mkdir(join(root, 'data'), { recursive: true });
+  await mkdir(stateDir, { recursive: true });
+  await writeFile(join(stateDir, 'news-state.json'), JSON.stringify({ editionDate: '2026-10-25', batches: 4, items }), 'utf8');
+  await writeFile(join(stateDir, 'archive.json'), JSON.stringify({ items }), 'utf8');
+  await writeFile(join(root, 'data', 'archive.json'), JSON.stringify(items), 'utf8');
+  await writeFile(join(root, 'data', 'arxiu.json'), JSON.stringify({ editions: [{ date: '25.10.2026', items }] }), 'utf8');
+  await writeFile(join(root, 'news.js'), `window.IA_NEWS = ${JSON.stringify(items)};\n`, 'utf8');
+  await writeFile(join(root, 'radar.js'), `window.IA_RADAR = ${JSON.stringify([{ place: 'Barcelona', category: 'EMPRESA', date: '25.10.2026', title: 'Una startup de Barcelona vol comencar a financar robots', summary: 'Resum.', detail: 'Detall.', source: 'Font', url: 'https://example.com/r' }])};\n`, 'utf8');
+  const base = ['--public-dir', root, '--state-dir', stateDir];
+  const result = run(['corregeix', ...base], root);
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stdout, /Ortografia: 2\./);
+  const news = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.equal(news[0].title, 'Meta busca maneres de finançar la IA');
+  assert.equal(news[0].slug, 'meta-financar-ia');
+  assert.equal(JSON.parse(await readFile(join(root, 'data', 'archive.json'), 'utf8'))[0].title, 'Meta busca maneres de finançar la IA');
+  assert.equal(JSON.parse(await readFile(join(root, 'data', 'arxiu.json'), 'utf8')).editions[0].items[0].title, 'Meta busca maneres de finançar la IA');
+  assert.equal(JSON.parse(await readFile(join(stateDir, 'news-state.json'), 'utf8')).items[0].title, 'Meta busca maneres de finançar la IA');
+  const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.equal(radar[0].title, 'Una startup de Barcelona vol començar a finançar robots');
+  assert.equal(radar[0].category, 'EMPRESA');
+  // Segona passada: res a fer.
+  assert.match(run(['corregeix', ...base], root).stdout, /Recategoritzades: 0\. Ortografia: 0\./);
+});

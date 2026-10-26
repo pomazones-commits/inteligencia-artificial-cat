@@ -112,6 +112,75 @@ function normalizeText(value) {
   return typeof value === 'string' ? value.trim() : '';
 }
 
+// Ortografia: la ç que es perd (26.10.2026). El lot del 25.10.2026 va publicar
+// «…tenir més maneres de financar la inversió en IA»: l'slug va sense ç
+// (`…-financar-ia`) i el mot es va copiar així al titular. Aquí es corregeixen
+// soles les formes sense ç que NO són cap mot català (financar, comencar,
+// llancament, capac…). Les que sí que en són («forca», «placa», «peca», «traca»,
+// «avenc», «trencar») no hi han de ser mai: el corrector no ha d'inventar errors.
+// La ç només va davant de a, o, u; davant de e, i és c («financen», «capaces»).
+const ORTOGRAFIA_CEDILLA = (() => {
+  const mapa = new Map();
+  const arrels = ['finan', 'comen', 'recomen', 'avan', 'llan', 'refor', 'esfor', 'amena', 'adre'];
+  const terminacions = ['ar', 'at', 'ats', 'ada', 'ades', 'ant', 'ament', 'aments', 'ava', 'aven',
+    'aré', 'aràs', 'arà', 'arem', 'areu', 'aran', 'aria', 'arien', 'à', 'aren', 'a', 'o'];
+  for (const arrel of arrels) {
+    for (const t of terminacions) mapa.set(`${arrel}c${t}`, `${arrel}ç${t}`);
+  }
+  for (const [sense, amb] of [
+    ['capac', 'capaç'], ['capacos', 'capaços'], ['incapac', 'incapaç'], ['incapacos', 'incapaços'],
+    ['eficac', 'eficaç'], ['eficacos', 'eficaços'], ['ineficac', 'ineficaç'], ['ineficacos', 'ineficaços'],
+    ['veloc', 'veloç'], ['velocos', 'veloços'], ['esforc', 'esforç'], ['esforcos', 'esforços'],
+    ['comerc', 'comerç']
+  ]) mapa.set(sense, amb);
+  return mapa;
+})();
+// Mot sencer: ni enganxat a lletres, xifres, punt volat o apòstrof, ni dins d'un
+// slug, una ruta o un paràmetre (les URL es deixen intactes més avall).
+const ORTOGRAFIA_RE = new RegExp(
+  `(?<![\\p{L}\\p{N}_·/\\-=?&#.])(${[...ORTOGRAFIA_CEDILLA.keys()].sort((a, b) => b.length - a.length).join('|')})(?![\\p{L}\\p{N}_·/\\-])`,
+  'giu'
+);
+
+function ambMajuscules(original, correccio) {
+  if (original === original.toLocaleUpperCase('ca') && original !== original.toLocaleLowerCase('ca')) {
+    return correccio.toLocaleUpperCase('ca');
+  }
+  if (original[0] !== original[0].toLocaleLowerCase('ca')) {
+    return correccio[0].toLocaleUpperCase('ca') + correccio.slice(1);
+  }
+  return correccio;
+}
+
+// Retorna el text corregit i la llista de canvis («financar → finançar»).
+function corregeixOrtografia(text) {
+  const canvis = [];
+  if (typeof text !== 'string' || !text) return { text, canvis };
+  const corregit = text.split(/(https?:\/\/\S+)/).map((tros, index) => index % 2 ? tros : tros.replace(ORTOGRAFIA_RE, mot => {
+    const correccio = ambMajuscules(mot, ORTOGRAFIA_CEDILLA.get(mot.toLocaleLowerCase('ca')));
+    canvis.push(`${mot} → ${correccio}`);
+    return correccio;
+  })).join('');
+  return { text: corregit, canvis };
+}
+
+const ORTOGRAFIA_CAMPS = ['title', 'excerpt', 'body', 'summary', 'detail'];
+
+// Aplica la correcció als camps de text d'una notícia (o d'un senyal del radar).
+function corregeixOrtografiaPeca(story) {
+  const canvis = [];
+  if (!story || typeof story !== 'object') return canvis;
+  for (const camp of ORTOGRAFIA_CAMPS) {
+    if (typeof story[camp] !== 'string') continue;
+    const resultat = corregeixOrtografia(story[camp]);
+    if (resultat.canvis.length) {
+      story[camp] = resultat.text;
+      canvis.push(...resultat.canvis);
+    }
+  }
+  return canvis;
+}
+
 // Clau comparable per als eixos de la fotografia del dia: sense accents, en
 // minúscules i amb guions. «Gent gran i cures» i «gent-gran-i-cures» són el mateix.
 function claveu(value) {
@@ -172,6 +241,13 @@ function validateNews(payload) {
     for (const field of REQUIRED_NEWS_FIELDS) {
       item[field] = normalizeText(raw?.[field]);
       if (!item[field]) throw new Error(`Notícia ${index + 1}: falta el camp ${field}.`);
+    }
+    // La ç perduda (26.10.2026): es corregeix sola i se n'avisa al registre.
+    // Com que validateNews també repassa les notícies acumulades del dia, un
+    // lot nou arregla les dels lots anteriors. L'slug no es toca mai.
+    const ortografia = corregeixOrtografiaPeca(item);
+    if (ortografia.length) {
+      process.stdout.write(`AVÍS: ortografia corregida a «${item.slug}»: ${[...new Set(ortografia)].join(', ')}.\n`);
     }
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug)) {
       throw new Error(`Notícia ${index + 1}: l’slug només pot contenir minúscules, xifres i guions.`);
@@ -1241,11 +1317,20 @@ async function recategoritza(options) {
   const date = editionDate();
   const now = new Date().toISOString();
   const canvis = [];
+  const ortografies = [];
   const tocats = [];
   const corregeix = list => {
     let canviat = false;
     for (const story of Array.isArray(list) ? list : []) {
-      if (!story || typeof story !== 'object' || typeof story.category !== 'string') continue;
+      if (!story || typeof story !== 'object') continue;
+      // 26.10.2026: la mateixa passada arregla la ç perduda als titulars i cossos
+      // ja publicats (edició del dia, hemeroteca, arxius i radar).
+      const ortografia = corregeixOrtografiaPeca(story);
+      if (ortografia.length) {
+        ortografies.push(`ortografia (${[...new Set(ortografia)].join(', ')}): «${story.title}»`);
+        canviat = true;
+      }
+      if (typeof story.category !== 'string' || story.place) continue;
       const nova = categoriaTerritorial(story);
       if (nova !== story.category) {
         canvis.push(`${story.category} → ${nova}: «${story.title}»`);
@@ -1309,9 +1394,18 @@ async function recategoritza(options) {
     await atomicWrite(radarArxiuPath, `${JSON.stringify(radarArxiu, null, 2)}\n`);
     tocats.push('data/radar-arxiu.json');
   }
+  // Radar (26.10.2026): només l'ortografia; la categoria del radar és una altra
+  // classificació i corregeix() se la salta (els senyals porten `place`).
+  const radarPath = join(publicDir, 'radar.js');
+  const radarActual = await readAssignment(radarPath, '[', ']', null);
+  if (Array.isArray(radarActual) && corregeix(radarActual)) {
+    await backupFile(radarPath, join(stateDir, 'backups'), date);
+    await atomicWrite(radarPath, serializeAssignment(ASSIGNMENTS.radar.variable, radarActual));
+    tocats.push('radar.js');
+  }
 
-  for (const linia of [...new Set(canvis)]) process.stdout.write(`${linia}\n`);
-  process.stdout.write(`Recategoritzades: ${new Set(canvis).size}. Fitxers: ${tocats.join(', ') || 'cap'}.\n`);
+  for (const linia of [...new Set([...canvis, ...ortografies])]) process.stdout.write(`${linia}\n`);
+  process.stdout.write(`Recategoritzades: ${new Set(canvis).size}. Ortografia: ${new Set(ortografies).size}. Fitxers: ${tocats.join(', ') || 'cap'}.\n`);
 }
 
 async function validateCommand(options) {
@@ -1332,7 +1426,7 @@ function usage() {
   node content-hub.mjs ingest-daily-reflection --input daily-reflection.json --public-dir .
   node content-hub.mjs validate --type news|analysis|reflection|daily-reflection --input fitxer.json
   node content-hub.mjs pending --what news|daily-reflection --input fitxer.json --public-dir . --state-dir .content-state
-  node content-hub.mjs imatges-recents --state-dir .content-state [--dies 30] [--json]\n  node content-hub.mjs retira --slug <slug> [--motiu "…"] --public-dir public --state-dir .content-state\n  node content-hub.mjs recategoritza --public-dir public --state-dir .content-state\n`;
+  node content-hub.mjs imatges-recents --state-dir .content-state [--dies 30] [--json]\n  node content-hub.mjs retira --slug <slug> [--motiu "…"] --public-dir public --state-dir .content-state\n  node content-hub.mjs recategoritza --public-dir public --state-dir .content-state\n  node content-hub.mjs corregeix --public-dir public --state-dir .content-state   (el mateix: categoria i ortografia)\n`;
 }
 
 try {
@@ -1345,7 +1439,7 @@ try {
   else if (command === 'pending') await pendingWork(options);
   else if (command === 'imatges-recents') await imatgesRecents(options);
   else if (command === 'retira') await retiraNoticia(options);
-  else if (command === 'recategoritza') await recategoritza(options);
+  else if (command === 'recategoritza' || command === 'corregeix') await recategoritza(options);
   else {
     process.stdout.write(usage());
     process.exitCode = command ? 1 : 0;

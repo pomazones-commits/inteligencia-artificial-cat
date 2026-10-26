@@ -47,6 +47,7 @@ Escriu en un català normatiu i genuí. No inventis mai mots calcats de l'anglè
 - **Termes tècnics traduïts literalment al titular** («direcció del dolor», de l'anglès *pain direction*) → digues què és: «un senyal intern associat al dolor». Si el terme cal, va al cos i explicat.
 - **Impersonal amb «se» + pronom** («quan se l'amplifica») → «quan l'amplifiquen» o amb subjecte explícit.
 - **gemell** digital (*digital twin*) → «**bessó** digital». «Gemell» és el castellà *gemelo*; en català és «bessó» (terme del TERMCAT).
+- **La ç no es perd mai** (26.10.2026). L'slug va sense ç (`…-financar-ia`), però el titular, l'entradeta i el cos **sí** que la porten: «finan**ç**ar», «comen**ç**ar», «llan**ç**ament», «capa**ç**». No copiïs mai un mot de l'slug al text. Error real: «…maneres de *financar* la inversió en IA» → «…de **finançar**…». Davant de *e*, *i* va **c**: «financen», «capaces». (`content-hub.mjs` ja corregeix sol les formes més habituals, però no les coneix totes.)
 
 **No n'hi ha prou amb la llista: escriu com un periodista català, no com un traductor.** Les fonts solen ser en anglès; tradueix el sentit, no la construcció. Rellegeix el titular i l'entradeta com si s'haguessin de dir per la ràdio: si sonen a traducció, reescriu-los. Verb concret, veu activa, termes tècnics explicats amb paraules planeres. Exemple real (28.09.2026): «podia **buidar en silenci** les dades» → «podia **sostreure d'amagat** les dades»; «exposava el **testimoni d'autenticació**» → «deixava a la vista la **credencial d'accés**».
 
