@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-26T04:15:46.064Z",
+ "actualitzat": "2026-10-26T08:16:35.586Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "c236c9a60677",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA modifica tu barrio: un algoritmo de supermercado decide dónde habrá caramelos de los buenos este Halloween",
+   "url": "https://www.lavanguardia.com/neo/ia/20261026/11666544/ia-modifica-barrio-algoritmo-supermercado-decide-donde-habra-caramelos-buenos-halloween.html",
+   "publicat": "2026-10-26T07:19:21.000Z"
+  },
+  {
+   "id": "a7b5d607ba5b",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Primer pas per limitar la intel·ligència artificial als menors catalans",
+   "url": "https://www.ara.cat/societat/salut/pas-limitar-intel-ligencia-artificial-als-menors-catalans_1_5888514.html",
+   "publicat": "2026-10-26T06:00:37.000Z"
+  },
+  {
+   "id": "707d6fbf65b8",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El cap de Nvidia llança un missatge als multimilionaris: \"Em fa por ser pobre, no pagar impostos\"",
+   "url": "https://www.elnacional.cat/ca/tecnologia/cap-nvidia-llanca-missatge-multimilionaris-fa-por-ser-pobre-no-pagar-impostos_1714810_102.html",
+   "publicat": "2026-10-26T06:00:00.000Z"
+  },
+  {
+   "id": "87a98630da6f",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De Rosalía y Taylor Swift a parlamentarias europeas: ninguna mujer está a salvo del mal uso de la IA",
+   "url": "https://www.lavanguardia.com/gente/20261026/11667776/rosalia-scarlett-johansson-laura-escanes-eurodiputdas-ia.html",
+   "publicat": "2026-10-26T05:00:00.000Z"
+  },
+  {
+   "id": "995eea390701",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA ya empieza a afectar al empleo en las actividades más expuestas",
+   "url": "https://www.lavanguardia.com/economia/20261026/11667750/ia-empieza-afectar-empleo-actividades-mas-expuestas.html",
+   "publicat": "2026-10-26T05:00:00.000Z"
+  },
+  {
+   "id": "e4a7713dcfde",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Sabadell crea un nuevo consejo “territorial” en Catalunya // Chips avanzados de Nvidia para la gigafactoría de Móra",
+   "url": "https://www.lavanguardia.com/economia/20261026/11667741/sabadell-nuevo-consejo-territorial-catalunya-chips-avanzados-nvidia-gigafactoria-mora.html",
+   "publicat": "2026-10-26T05:00:00.000Z"
+  },
+  {
+   "id": "ad3885198f54",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial plantea nuevos retos a la ciberseguridad",
+   "url": "https://www.lavanguardia.com/economia/20261026/11666236/inteligencia-artificial-plantea-nuevos-retos-ciberseguridad-brl.html",
+   "publicat": "2026-10-26T04:50:00.000Z"
+  },
+  {
+   "id": "4a2d4edb9ae9",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Els recursos a multes de trànsit s’enfilen amb el boom de la IA",
+   "url": "https://www.elperiodico.cat/barcelona/20261026/els-recursos-multes-transit-s-135752090",
+   "publicat": "2026-10-26T04:01:23.000Z"
+  },
   {
    "id": "4f6be3119527",
    "mitja": "Última Hora",
@@ -2542,140 +2630,6 @@
    "titol": "Anthropic plantea destinar el 5% de sus acciones a un fondo de beneficio público",
    "url": "https://www.lavanguardia.com/dinero/20261019/11662425/anthropic-plantea-destinar-5-acciones-fondo-beneficio-publico.html",
    "publicat": "2026-10-19T08:48:14.000Z"
-  },
-  {
-   "id": "0f0e112c9c0e",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nova eina d'IA per detectar la metàstasi del càncer de mama",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nova-eina-ia-detectar-metastasi-cancer-mama_1711381_102.html",
-   "publicat": "2026-10-19T06:55:18.000Z"
-  },
-  {
-   "id": "0d6a1697698a",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic transferirá el 5% de sus acciones a un fondo para donaciones con el que busca mitigar el impacto laboral de la IA",
-   "url": "https://cincodias.elpais.com/companias/2026-10-19/anthropic-transferira-el-5-de-sus-acciones-a-un-fondo-para-donaciones-con-el-que-busca-mitigar-el-impacto-laboral-de-la-ia.html",
-   "publicat": "2026-10-19T06:49:56.000Z"
-  },
-  {
-   "id": "10dd0f35ef29",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Santander se alía con Nvidia para el despliegue de la IA en el banco",
-   "url": "https://www.lavanguardia.com/dinero/20261019/11662369/santander-alia-nvidia-despliegue-ia-banco.html",
-   "publicat": "2026-10-19T06:39:07.000Z"
-  },
-  {
-   "id": "6ccbe3fdbb50",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La inteligencia artificial entra en la notaría",
-   "url": "https://cincodias.elpais.com/legal/2026-10-16/la-inteligencia-artificial-entra-en-la-notaria.html",
-   "publicat": "2026-10-19T06:30:00.000Z"
-  },
-  {
-   "id": "41017cf897a7",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una IA con sello tarraconense mejora la detección de metástasis del cáncer de mama",
-   "url": "https://www.diaridetarragona.com/tarragona/273430/ia-sello-tarraconense-mejora-deteccion-metastasis-cancer-mama.html",
-   "publicat": "2026-10-19T06:28:37.000Z"
-  },
-  {
-   "id": "4dfc31644e34",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El Santander i Nvidia reforcen la seva aliança en intel·ligència artificial",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/santander-nvidia-reforcen-seva-alianca-en-intelligencia-artificial_1711369_102.html",
-   "publicat": "2026-10-19T06:25:39.000Z"
-  },
-  {
-   "id": "2ba7077bad90",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un nuevo método de inteligencia artificial supera el cuello de botella visual en la generación directa de imágenes",
-   "url": "https://www.lasprovincias.es/tecnologia/nuevo-metodo-inteligencia-artificial-rlt_arx-20261019061029-nt.html",
-   "publicat": "2026-10-19T06:25:29.000Z"
-  },
-  {
-   "id": "db03c6de44b6",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Creen un model d'IA per detectar la metàstasi del càncer de mama en zones properes al pit",
-   "url": "https://www.regio7.cat/societat/2026/10/19/creen-model-dia-per-detectar-135482466.html",
-   "publicat": "2026-10-19T06:19:50.000Z"
-  },
-  {
-   "id": "8a7f9f1e74d2",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Santander y Nvidia firman una alianza de tres años para desarrollar IA bancaria",
-   "url": "https://www.elperiodico.com/es/economia/20261019/santander-nvidia-firman-alianza-tres-135483860",
-   "publicat": "2026-10-19T05:58:00.000Z"
-  },
-  {
-   "id": "76607b56a0c2",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Toyota Sora: el autobús de hidrógeno que supera los 300 kilómetros de autonomía",
-   "url": "https://www.elperiodico.com/es/motor/20261019/toyota-sora-autobus-hidrogeno-supera-135364878",
-   "publicat": "2026-10-19T05:00:54.000Z"
-  },
-  {
-   "id": "a10bc9b51c7a",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El Santander se alía con Nvidia para desplegar la IA en todo el banco",
-   "url": "https://cincodias.elpais.com/companias/2026-10-19/el-santander-se-alia-con-nvidia-para-desplegar-la-ia-en-todo-el-banco.html",
-   "publicat": "2026-10-19T05:00:00.000Z",
-   "noticia": "santander-nvidia-acord-tres-anys-ia-tot-el-banc",
-   "noticiaTitol": "El Santander i Nvidia pacten tres anys de col·laboració per portar l'IA dels pilots a tot el banc"
-  },
-  {
-   "id": "e61adc3402d0",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La intel·ligència artificial exigeix noves infraestructures",
-   "url": "https://www.diariandorra.ad/nacional/261019/intel-ligencia-artificial-exigeix-noves-infraestructures_206813.html",
-   "publicat": "2026-10-19T04:25:39.000Z"
   }
  ]
 }
