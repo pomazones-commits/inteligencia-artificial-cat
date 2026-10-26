@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-25T21:16:37.879Z",
+ "actualitzat": "2026-10-26T04:15:46.064Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "4f6be3119527",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las empresas de Baleares se quedan rezagadas en el uso de la inteligencia artificial",
+   "url": "https://www.ultimahora.es/noticias/local/2026/10/26/2725785/empresas-baleares-quedan-rezagadas-uso-inteligencia-artificial.html",
+   "publicat": "2026-10-26T02:59:01.000Z"
+  },
+  {
+   "id": "bbbf03c03d79",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Gamberradas de IA",
+   "url": "https://www.lasprovincias.es/opinion/ramon-palomar-gamberradas-ia-20261026234914-nt.html",
+   "publicat": "2026-10-25T22:49:14.000Z"
+  },
   {
    "id": "476f73060311",
    "mitja": "Diari d'Andorra",
@@ -23,7 +45,9 @@
    "ambit": "catala",
    "titol": "Seny, la IA catalana que vigila els agents",
    "url": "https://empreses.ara.cat/innovacio/seny-ia-catalana-vigila-agents_1_5888174.html",
-   "publicat": "2026-10-25T15:12:25.000Z"
+   "publicat": "2026-10-25T15:12:25.000Z",
+   "noticia": "alinia-ai-seny-model-catala-vigila-agents-llei",
+   "noticiaTitol": "Alinia AI, amb oficines a Barcelona i València, presenta Seny, un model de 4.000 milions de paràmetres per vigilar que els agents d'IA compleixin la llei"
   },
   {
    "id": "3428e6999c6c",
@@ -2652,107 +2676,6 @@
    "titol": "La intel·ligència artificial exigeix noves infraestructures",
    "url": "https://www.diariandorra.ad/nacional/261019/intel-ligencia-artificial-exigeix-noves-infraestructures_206813.html",
    "publicat": "2026-10-19T04:25:39.000Z"
-  },
-  {
-   "id": "e854509c9297",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | De la IA generativa a los agentes autónomos: líderes tecnológicos analizarán en Valencia su impacto global",
-   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/de-la-ia-generativa-a-los-agentes-autonomos-lideres-tecnologicos-analizaran-en-valencia-su-impacto-global",
-   "publicat": "2026-10-19T04:00:04.000Z",
-   "noticia": "vds-2026-valencia-programa-ia",
-   "noticiaTitol": "València acull dimecres i dijous el VDS 2026, amb un programa d'IA el dia 21 sobre agents autònoms"
-  },
-  {
-   "id": "a2dca2bab00d",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Laia Corbella: “Barcelona volverá a ser un laboratorio urbano con la IA”",
-   "url": "https://www.lavanguardia.com/local/barcelona/20261019/11662048/laia-corbella-barcelona-volvera-laboratorio-urbano-ia.html",
-   "publicat": "2026-10-19T04:00:00.000Z"
-  },
-  {
-   "id": "ff028efdf181",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Getty tiembla ante la amenaza de la IA",
-   "url": "https://www.lavanguardia.com/dinero/20261019/11662078/getty-tiembla-amenaza-ia.html",
-   "publicat": "2026-10-19T04:00:00.000Z"
-  },
-  {
-   "id": "0157c008ae98",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La nueva carrera de las marcas por seducir a la IA",
-   "url": "https://cincodias.elpais.com/economia/2026-10-19/la-nueva-carrera-de-las-marcas-por-seducir-a-la-ia.html",
-   "publicat": "2026-10-19T03:30:01.000Z"
-  },
-  {
-   "id": "9a9f83e83293",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los grandes destinos turísticos tratan de combatir la saturación con nuevas tasas y herramientas de IA",
-   "url": "https://elpais.com/economia/2026-10-19/los-grandes-destinos-turisticos-tratan-de-combatir-la-saturacion-con-nuevas-tasas-y-herramientas-de-ia.html",
-   "publicat": "2026-10-19T03:30:01.000Z"
-  },
-  {
-   "id": "e47d52d089c4",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Víctor López (Rastreator): “Si pudiera delegaría en la IA la gestión de los grupos de WhatsApp de los colegios”",
-   "url": "https://elpais.com/economia/negocios/2026-10-19/victor-lopez-rastreator-si-pudiera-delegaria-en-la-ia-la-gestion-de-los-grupos-de-whatsapp-de-los-colegios.html",
-   "publicat": "2026-10-19T03:30:00.000Z"
-  },
-  {
-   "id": "100cd0d7d367",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La asignatura pendiente de la Inteligencia Artificial",
-   "url": "https://www.ultimahora.es/opinion/editorial/2026/10/19/2731421/asignatura-pendiente-inteligencia-artificial.html",
-   "publicat": "2026-10-19T02:48:01.000Z"
-  },
-  {
-   "id": "e1b7fc81ac39",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Sis maneres d’utilitzar bé la IA per estudiar a l’ESO",
-   "url": "https://www.elperiodico.cat/societat/20261019/sis-maneres-d-utilitzar-be-135479211",
-   "publicat": "2026-10-19T00:07:23.000Z"
-  },
-  {
-   "id": "b894532ab676",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Claude, la IA d'Anthropic, ha enviat una pista falsa d'assassinat a la Policia de Filadèlfia",
-   "url": "https://www.elnacional.cat/ca/tecnologia/claude-ia-anthropic-ha-enviat-pista-falsa-assassinat-policia-filadelfia_1711354_102.html",
-   "publicat": "2026-10-19T00:00:00.000Z"
   }
  ]
 }
