@@ -1,8 +1,206 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-26T12:14:22.618Z",
+ "actualitzat": "2026-10-26T16:19:56.296Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "43898f9d927c",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Demanden Anthropic per fer servir les cançons d'Elvis Presley per entrenar la IA",
+   "url": "https://www.3cat.cat/3catinfo/demanden-anthropic-per-fer-servir-les-cancons-delvis-presley-per-entrenar-la-ia/noticia/3436150",
+   "publicat": "2026-10-26T16:02:07.000Z"
+  },
+  {
+   "id": "083b02c200ad",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'empresa de la IA Claude sol·licita eixir a borsa i cotitzar en el Nasdaq",
+   "url": "https://www.apuntmedia.es/noticies/economia/l-empresa-ia-claude-sol-licita-eixir-borsa-cotitzar-nasdaq_1_1904430.html",
+   "publicat": "2026-10-26T15:54:32.000Z"
+  },
+  {
+   "id": "00fd9b3ac225",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Telefónica España compra el 10% de OGA para impulsar soluciones de IA y defensa",
+   "url": "https://www.lavanguardia.com/dinero/20261026/11668600/telefonica-espana-compra-10-oga-impulsar-soluciones-ia-defensa.html",
+   "publicat": "2026-10-26T15:43:56.000Z"
+  },
+  {
+   "id": "014d95c8760b",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Illa, Moreno, Clavijo y Pradales apuestan por una IA controlada al servicio del ciudadano",
+   "url": "https://www.elperiodico.com/es/politica/20261026/inteligencia-artificial-illa-pradales-clavijo-moreno-future-governtment-135775026",
+   "publicat": "2026-10-26T15:32:23.000Z"
+  },
+  {
+   "id": "68974294b89c",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic oficialitza la sol·licitud per sortir a borsa",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/anthropic-oficialitza-sollicitud-sortir-borsa_1715860_102.html",
+   "publicat": "2026-10-26T15:30:04.000Z"
+  },
+  {
+   "id": "a1d7f40a1cd7",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA als Recursos Humans: pràctica, seguretat i criteri humà",
+   "url": "https://www.segre.com/ca/vint-dos/261026/ia-als-recursos-humans-practica-seguretat-i-criteri-huma_1377036.html",
+   "publicat": "2026-10-26T15:20:28.000Z"
+  },
+  {
+   "id": "b74f5ebffae9",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Meta busca obtener hasta 95.000 millones de dólares para seguir financiando la carrera por la IA",
+   "url": "https://elpais.com/economia/2026-10-26/meta-busca-obtener-hasta-95000-millones-de-dolares-para-seguir-financiando-la-carrera-por-la-ia.html",
+   "publicat": "2026-10-26T15:02:51.000Z"
+  },
+  {
+   "id": "df91b54862d7",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic se adelanta a OpenAI y presenta el folleto para una esperada salida a bolsa de 1,5 billones de dólares",
+   "url": "https://www.elperiodico.com/es/economia/20261026/anthropic-adelanta-openai-presenta-folleto-135773490",
+   "publicat": "2026-10-26T14:16:34.000Z"
+  },
+  {
+   "id": "b339af5dead4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic presenta la documentación para una de las salidas a bolsa más esperadas",
+   "url": "https://www.lavanguardia.com/dinero/20261026/11668505/anthropic-bolsa-documentacion-folleto-resultados.html",
+   "publicat": "2026-10-26T13:51:31.000Z"
+  },
+  {
+   "id": "26749ae99917",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic registra oficialmente su solicitud para protagonizar uno de los mayores debuts en Bolsa de la historia",
+   "url": "https://www.eldiario.es/tecnologia/anthropic-registra-oficialmente-solicitud-protagonizar-mayores-debuts-bolsa-historia_1_13615888.html",
+   "publicat": "2026-10-26T13:51:25.000Z"
+  },
+  {
+   "id": "b16268fe0523",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La supercomputación y la IA se preparan para llegar a la Luna en 2026",
+   "url": "https://www.levante-emv.com/tendencias21/2026/10/26/supercomputacion-ia-preparan-llegar-luna-135772481.html",
+   "publicat": "2026-10-26T13:48:34.000Z"
+  },
+  {
+   "id": "20ed00fbe8a6",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Davant, la startup gironina que vol ajudar a gestionar els diners amb IA, guanya la Mostra d'Emprenedoria",
+   "url": "https://www.diaridegirona.cat/economia/2026/10/26/davant-startup-gironina-vol-ajudar-135771275.html",
+   "publicat": "2026-10-26T13:40:30.000Z"
+  },
+  {
+   "id": "7ec9fed40e0d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cómo crear una tienda online con IA sin saber programar y llegar a tiempo al Black Friday",
+   "url": "https://www.lavanguardia.com/comprar/tecnologia/20261013/11642856/como-crear-tienda-online-ia-black-friday-2026-mkt-host.html",
+   "publicat": "2026-10-26T13:37:44.000Z"
+  },
+  {
+   "id": "79d4e3f177c2",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic registra el folleto para protagonizar una de las mayores salidas a Bolsa de la historia",
+   "url": "https://elpais.com/economia/2026-10-26/anthropic-registra-el-folleto-para-protagonizar-una-de-las-mayores-salidas-a-bolsa-de-la-historia.html",
+   "publicat": "2026-10-26T13:27:35.000Z"
+  },
+  {
+   "id": "701e9ba5fe9b",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Pradales reivindica el \"autogobierno digital\" y advierte de las mejoras de IA pero también de su poder de \"manipulación\"",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/26/2736803/pradales-reivindica-autogobierno-digital-advierte-mejoras-pero-tambien-poder-manipulacion.html",
+   "publicat": "2026-10-26T13:10:59.000Z"
+  },
+  {
+   "id": "c0bd7f8f0f3c",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Telefónica compra un 10% del grupo OGA para reforzarse en el uso de la IA en el negocio de defensa",
+   "url": "https://www.elperiodico.com/es/economia/20261026/telefonica-defensa-compra-10-grupo-oga-135769290",
+   "publicat": "2026-10-26T12:51:46.000Z"
+  },
+  {
+   "id": "8a04cd2b1fd7",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El aprendizaje automático con datos sanitarios comunes ayuda a saber quién tiene más riesgo de desarrollar cáncer",
+   "url": "https://www.diariodemallorca.es/sociedad/2026/10/26/aprendizaje-automatico-datos-sanitarios-comunes-saber-riesgo-cancer-135768625.html",
+   "publicat": "2026-10-26T12:39:01.000Z"
+  },
+  {
+   "id": "20e33b803122",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "OpenAI corta el acceso a internet en el entrenamiento de sus modelos de IA de frontera",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/26/2736765/openai-corta-acceso-internet-entrenamiento-modelos-frontera.html",
+   "publicat": "2026-10-26T12:20:00.000Z"
+  },
   {
    "id": "f7b373f968ec",
    "mitja": "Cinco Días",
@@ -13,6 +211,17 @@
    "titol": "Telefónica formaliza la compra del 10% de OGA para potenciar sus servicios IA",
    "url": "https://cincodias.elpais.com/companias/2026-10-26/telefonica-formaliza-la-compra-del-10-de-oga-para-potenciar-sus-servicios-ia.html",
    "publicat": "2026-10-26T11:47:57.000Z"
+  },
+  {
+   "id": "3e199a13c4a1",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L’aprenentatge automàtic amb dades sanitàries comunes ajuda a saber qui té més risc de desenvolupar càncer",
+   "url": "https://www.elperiodico.cat/sanitat/20261026/aprenentatge-automatic-dades-sanitaries-comunes-saber-risc-cancer-135759293",
+   "publicat": "2026-10-26T11:25:13.000Z"
   },
   {
    "id": "81dc46a28bff",
@@ -2551,94 +2760,6 @@
    "titol": "Apple posa fi al truc de les apps que 'despullen' amb IA: prohibides encara que es disfressin d'apps normals",
    "url": "https://www.elnacional.cat/ca/tecnologia/apple-posa-fi-truc-apps-despullen-ia-prohibides-encara-es-disfressin-apps-normals_1711864_102.html",
    "publicat": "2026-10-19T17:00:00.000Z"
-  },
-  {
-   "id": "205f94999547",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El projecte Emma impulsa noves línies de recerca amb IA per millorar el pronòstic del càncer de mama",
-   "url": "https://www.diaridetarragona.com/ebre/273489/projecte-emma-impulsa-noves-linies-recerca-amb-ia-per-millorar-pronostic-cancer-mama.html",
-   "publicat": "2026-10-19T15:55:51.000Z"
-  },
-  {
-   "id": "659a542e9c47",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Sergi González defensa l'ús de l'IA per millorar la gestió d'Andorra la Vella",
-   "url": "https://www.diariandorra.ad/parroquies/261019/sergi-gonzalez-defensa-l-us-l-ia-per-millorar-gestio-d-andorra-vella_206854.html",
-   "publicat": "2026-10-19T15:18:25.000Z"
-  },
-  {
-   "id": "0d4ca09fefc9",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Policia i Interpol informen del perill de les noves estafes amb IA",
-   "url": "https://www.elnacional.cat/ca/tecnologia/policia-interpol-informen-perill-noves-estafes-ia_1711756_102.html",
-   "publicat": "2026-10-19T15:00:00.000Z"
-  },
-  {
-   "id": "b316d28c8fb2",
-   "mitja": "Nació Digital",
-   "font": "naciodigital-totes",
-   "icona": "/assets/premsa/nacio-digital.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La Catosfera tanca una nova edició amb una reflexió sobre la comunicació en l’era de la IA",
-   "url": "https://naciodigital.cat/next/tecnologia/la-catosfera-tanca-una-nova-edicio-reflexionant-sobre-el-futur-de-la-comunicacio-en-lera-de-la-ia.html",
-   "publicat": "2026-10-19T14:43:00.000Z"
-  },
-  {
-   "id": "c2f88f081cd5",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Alcoy - El Comtat | Focus Pyme ofrece en Alcoy claves para cerrar ventas y herramientas de IA para aumentar la facturación",
-   "url": "https://alicanteplaza.es/alicanteplaza/alcoy-el-comtat/focus-pyme-ofrece-en-alcoy-claves-para-cerrar-ventas-y-herramientas-de-ia-para-aumentar-la-facturacion",
-   "publicat": "2026-10-19T14:00:05.000Z"
-  },
-  {
-   "id": "c2eb23f75cbb",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una canción puede convertirse en una orden secreta para los asistentes de IA",
-   "url": "https://www.levante-emv.com/tendencias21/2026/10/19/cancion-convertirse-orden-secreta-asistentes-135503609.html",
-   "publicat": "2026-10-19T13:24:49.000Z"
-  },
-  {
-   "id": "11b14072407c",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "BBVA reúne a empresarios de toda España para analizar las perspectivas económicas y el impacto de la inteligencia artificial",
-   "url": "https://www.informacion.es/economia/2026/10/19/bbva-reune-empresarios-espana-analizar-135501141.html",
-   "publicat": "2026-10-19T13:08:44.000Z"
-  },
-  {
-   "id": "dea1a03559ed",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Sanidad incorpora la inteligencia artificial como apoyo en la lectura de las mamografías",
-   "url": "https://www.informacion.es/alicante/2026/10/19/sanidad-incorpora-inteligencia-artificial-apoyo-lectura-mamografias-alicante-135499141.html",
-   "publicat": "2026-10-19T12:33:46.000Z"
   }
  ]
 }
