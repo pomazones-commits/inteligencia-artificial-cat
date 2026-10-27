@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-27T05:18:16.036Z",
+ "actualitzat": "2026-10-27T09:17:43.905Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e77f4c9db611",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Últimas plazas para el curso “IA en Dispositivos Móviles para uso profesional”",
+   "url": "https://www.informacion.es/benidorm/2026/10/27/ultimas-plazas-curso-ia-dispositivos-135794513.html",
+   "publicat": "2026-10-27T09:14:57.000Z"
+  },
+  {
+   "id": "417a20ccd46a",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Tono negativo en las Bolsas europeas pese al renovado apetito por la IA",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-27/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-10-27T09:10:54.000Z"
+  },
+  {
+   "id": "e7f1f358a9aa",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Podemos saber si un texto lo ha escrito una IA? Estrategias de detección y maniobras de camuflaje",
+   "url": "https://www.levante-emv.com/sociedad/2026/10/27/texto-escrito-ia-estrategias-deteccion-135794169.html",
+   "publicat": "2026-10-27T08:43:31.000Z"
+  },
+  {
+   "id": "674492f7d7e8",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "thePower se incorpora a la CEOE para impulsar la adopción de la inteligencia artificial en las empresas",
+   "url": "https://www.elperiodico.com/es/economia/20261027/thepower-incorpora-ceoe-impulsar-adopcion-135793542",
+   "publicat": "2026-10-27T08:23:09.000Z"
+  },
+  {
+   "id": "8c915a9f99c0",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El fundador de TikTok bat rècord de riquesa a la Xina impulsat per IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/fundador-tiktok-bat-record-riquesa-xina-impulsat-ia_1716070_102.html",
+   "publicat": "2026-10-27T07:42:35.000Z"
+  },
+  {
+   "id": "d58714fd6d41",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Quién es Nathan Chen, el prodigio chino de 17 años que ha ayudado a desarrollar una de las IAs más avanzadas del mundo",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261027/11668178/nathan-chen-prodigio-chino-17-anos-ayudado-desarrollar-ia-mas-avanzadas-mundo.html",
+   "publicat": "2026-10-27T06:10:00.000Z"
+  },
   {
    "id": "5aa8ad9a916c",
    "mitja": "Valencia Plaza",
@@ -79,6 +145,17 @@
    "titol": "El Govern aplana les exigències a la gigafactoria d’IA de Tarragona",
    "url": "https://www.elperiodico.cat/economia/20261027/govern-aplana-les-exigencies-gigafactoria-135789669",
    "publicat": "2026-10-27T04:02:15.000Z"
+  },
+  {
+   "id": "d8677466fd43",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Encuesta: ¿Hay que prohibir los vídeos políticos falsos creados con IA?",
+   "url": "https://www.lavanguardia.com/participacion/debates/20261027/11666121/encuesta-hay-prohibir-videos-politicos-falsos-creados-ia.html",
+   "publicat": "2026-10-27T04:00:00.000Z"
   },
   {
    "id": "02b3852e8a72",
@@ -2709,83 +2786,6 @@
    "titol": "La imagen de dos ancianos en ropa interior atracados por manifestantes en París que ha compartido Abascal está hecha con IA",
    "url": "https://www.lavanguardia.com/politica/20261020/11663884/imagen-dos-ancianos-ropa-interior-atracados-manifestantes-paris-compartido-abascal-esta-hecha-ia.html",
    "publicat": "2026-10-20T16:00:00.000Z"
-  },
-  {
-   "id": "d72171fa689a",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Spotify modifica su algoritmo para sacar de las recomendaciones la música basura y el spam creados con IA",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/20/2732999/spotify-modifica-algoritmo-para-sacar-recomendaciones-musica-basura-spam-creados-ia.html",
-   "publicat": "2026-10-20T15:45:00.000Z"
-  },
-  {
-   "id": "0aae48db23f3",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La secuela de ‘Dirty Dancing’ rendirá homenaje a Patrick Swayze sin recurrir a la inteligencia artificial",
-   "url": "https://www.lavanguardia.com/gente/20261020/11663845/secuela-dirty-dancing-rendira-homenaje-patrick-swayze-recurrir-inteligencia-artificial.html",
-   "publicat": "2026-10-20T15:11:49.000Z"
-  },
-  {
-   "id": "aa68f88d60b2",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Xavier Nueno guanya l'Anagrama d'assaig amb una crítica a l'apropiació del saber per la IA",
-   "url": "https://www.elnacional.cat/ca/cultura/xavier-nueno-guanya-anagrama-assaig-critica-apropiacio-saber-ia_1712407_102.html",
-   "publicat": "2026-10-20T15:06:56.000Z"
-  },
-  {
-   "id": "729468bd797f",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Diseño e ilustración | Pixel Attack vuelve para \"abrir preguntas\" sobre la inteligencia artificial",
-   "url": "https://valenciaplaza.com/diseno-ilustracion-valencia-comunitat-valenciana/pixel-attack-vuelve-para-abrir-preguntas-sobre-la-inteligencia-artificial",
-   "publicat": "2026-10-20T14:36:38.000Z"
-  },
-  {
-   "id": "efb72c1cbfed",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un nuevo modelo de IA predice el riesgo de muerte de pacientes con cáncer a partir de una fotografía del rostro",
-   "url": "https://www.lavanguardia.com/vida/20261020/11663560/nuevo-modelo-ia-predice-riesgo-muerte-pacientes-cancer-partir-fotografia-rostro.html",
-   "publicat": "2026-10-20T11:34:29.000Z"
-  },
-  {
-   "id": "6cc2e5e36ce6",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La actividad de las ETT en España crece un 12,8% de enero a julio con la IA como palanca para agilizar la selección de personal",
-   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/10/20/2732955/actividad-ett-espana-crece-enero-julio-como-palanca-para-agilizar-seleccion-personal.html",
-   "publicat": "2026-10-20T11:25:00.000Z"
-  },
-  {
-   "id": "5b553451abd3",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Aprobado el plan catalán contra las ciberestafas, con un nuevo asistente de IA para la ciudadanía",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/20/2732757/aprobado-plan-catalan-contra-ciberestafas-nuevo-asistente-para-ciudadania.html",
-   "publicat": "2026-10-20T10:53:11.000Z"
   }
  ]
 }
