@@ -1,9 +1,81 @@
 {
   "editionDate": "2026-10-27",
-  "updatedAt": "2026-10-27T13:22:26.415Z",
-  "batches": 3,
+  "updatedAt": "2026-10-27T17:19:08.764Z",
+  "batches": 4,
   "target": 20,
   "items": [
+    {
+      "category": "MODELS",
+      "read": "5 MIN",
+      "slug": "google-deepmind-genie-4-mons-interactius-so-temps-real",
+      "title": "Google DeepMind presenta Genie 4, un model que crea mons interactius amb so i que es poden canviar mentre s'hi juga",
+      "excerpt": "El nou model de simulació genera imatge, so i diàlegs alhora i manté l'escena coherent fins a dos minuts. De moment només el poden provar uns quants usuaris convidats.",
+      "sourceName": "Google DeepMind · TechCrunch",
+      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "sourceDate": "27 d'octubre de 2026",
+      "body": "Els anomenats «models de món» són sistemes d'IA que no generen un text ni un vídeo tancat, sinó un entorn per on l'usuari es mou i que respon a les seves accions, com un videojoc que s'inventa fotograma a fotograma. Google DeepMind va presentar Genie 3 com a prova de recerca fa poc més d'un any, i el sector s'ha mogut de pressa: segons TechCrunch, AMD està comprant World Labs, l'empresa de Fei-Fei Li, i Runway va treure GWM Worlds 2 fa un parell de mesos.\n\nAquest dimarts, 27 d'octubre, DeepMind ha presentat Genie 4. Segons el blog de l'empresa, és el primer model de món en temps real que genera el so de manera nativa: música, so ambiental i diàlegs, a més de la imatge. L'usuari s'hi desplaça amb el teclat i pot canviar l'escena amb instruccions escrites —el temps que fa, l'angle de la càmera, afegir-hi persones o objectes—, i un model Gemini adapta aquestes ordres a l'escena i la fa avançar entre una instrucció i l'altra. Segons TechCrunch, manté una escena coherent fins a dos minuts, el doble que la versió anterior.\n\nGoogle no ho presenta només com una eina creativa. En un exemple del blog, Gemini 4 Argon i Genie 4 simulen un robot humanoide Apollo, d'Apptronik, que juga a dames: Gemini divideix l'objectiu en passos, Genie en genera les imatges i Gemini revisa els fotogrames per comprovar si la tasca avança. La idea és que robots i agents d'IA puguin assajar situacions en un món simulat abans de trobar-les al món real. Els primers provadors, segons l'empresa, l'han fet servir per previsualitzar escenes de cinema, convertir fotos d'arxiu en simulacions o fer prototips de jocs.\n\nDe moment és una versió de recerca per a provadors de confiança. Google diu que arribarà «aviat» als subscriptors d'AI Ultra a través de Project Genie i a alguns socis de l'API de Gemini, sense dates ni països. L'empresa admet que els detalls i els objectes es desfiguren com més dura la sessió, sobretot després de diverses edicions, i que encara treballa en la precisió del so, el text llegible i la coherència a llarg termini. Totes les imatges i l'àudio porten SynthID, la marca d'aigua invisible de Google. No n'ha fet pública ni la resolució ni la velocitat de fotogrames.",
+      "image": "./assets/google-deepmind-genie-4-mons-interactius-so-temps-real-20261027.jpg",
+      "video": {
+        "id": "sFfPkUJd_Jk",
+        "verificat": "2026-10-27",
+        "titol": "Genie 4: A new generation of world simulation",
+        "canal": "Google DeepMind",
+        "canalUrl": "https://www.youtube.com/@googledeepmind",
+        "idioma": "en",
+        "resum": "Vídeo oficial de Google DeepMind, publicat el 27 d'octubre, amb què l'empresa presenta Genie 4 com una nova generació de simulació de mons. És la peça de llançament del model; no detalla preus ni dates de disponibilitat."
+      }
+    },
+    {
+      "category": "POLÍTICA",
+      "read": "4 MIN",
+      "slug": "suecia-govern-bloqueja-chatgpt-claude-funcionaris-copilot",
+      "title": "El Govern suec bloqueja ChatGPT i Claude als ordinadors dels seus funcionaris i els deriva a Copilot",
+      "excerpt": "La mesura, en vigor des de dilluns a les oficines del Govern, es justifica per la seguretat de la informació: Copilot ha passat una revisió interna i els altres dos serveis, no.",
+      "sourceName": "Decrypt · Sveriges Radio · elDiario.es (EFE)",
+      "sourceUrl": "https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude",
+      "sourceDate": "24 d'octubre de 2026",
+      "body": "Els serveis d'IA de consum, com les versions web de ChatGPT o de Claude, envien el que hi escriu l'usuari als servidors de l'empresa. Quan qui escriu és un funcionari, la pregunta és què passa amb la informació delicada que hi pugui posar. El Parlament Europeu ja va desactivar al febrer les funcions d'IA dels seus dispositius de feina, i les administracions busquen una manera d'ordenar-ne l'ús.\n\nDes de dilluns 26 d'octubre, les Oficines del Govern de Suècia (Regeringskansliet, l'estructura que dona suport al primer ministre i als ministeris) bloquegen l'accés a ChatGPT i Claude des dels ordinadors de feina, segons va avançar la ràdio pública Sveriges Radio. El director de digitalització, Mikael Wettercrantz, va explicar a la intranet que fer servir serveis d'IA sense contracte pot tenir «conseqüències per a la seguretat de la nostra informació» i que s'han vist «diversos exemples d'ús problemàtic» d'aquests serveis. L'eina autoritzada és Copilot, de Microsoft, després d'una revisió de seguretat i d'haver-ne endurit la configuració. Una part del personal podrà continuar fent servir els dos models bloquejats a través d'una plataforma interna.\n\nSuècia no és un cas aïllat. Segons Decrypt, l'Agència Tributària sueca i l'organisme estatal que gestiona els centres de tractament i de menors ja havien restringit eines semblants, l'autoritat de cobrament de deutes en prepara una decisió i una auditoria interna de l'Administració de Transports hi va trobar una desena de serveis d'IA en un ús «estès i arriscat». La tendència és substituir el que cada treballador fa pel seu compte per eines contractades i revisades per l'administració.\n\nL'oficina de premsa no ha dit quantes persones podran fer servir la plataforma interna ni amb quines condicions, i no ha explicat la decisió més enllà del missatge intern. Tampoc no ha aclarit si la seva versió de Copilot té activats els models de Claude, que Microsoft hi va incorporar a principis d'any i que a la Unió Europea s'han d'activar expressament: la frontera entre l'eina prohibida i l'autoritzada podria ser més prima del que sembla. Les informacions publicades parlen només dels ordinadors de feina.",
+      "image": "./assets/suecia-govern-bloqueja-chatgpt-claude-funcionaris-copilot-20261027.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "models-ia-no-distingeixen-humans-ia-test-turing-invers",
+      "title": "Set models d'IA intenten endevinar si parlen amb una persona o amb una altra IA, i gairebé mai no l'encerten",
+      "excerpt": "En un test de Turing al revés d'un equip de la Universitat Paris Cité, els models només van detectar la màquina en 3 de 49 proves, i en cap quan la IA imitava les respostes curtes d'una persona.",
+      "sourceName": "Tech Xplore · Computers in Human Behavior Reports",
+      "sourceUrl": "https://techxplore.com/news/2026-10-ais-reliably-reverse-turing.html",
+      "sourceDate": "27 d'octubre de 2026",
+      "body": "El test de Turing clàssic posa una persona a conversar amb un interlocutor amagat per veure si sap dir si és humà o màquina. Amb els xats d'IA, la pregunta s'ha girat: moltes plataformes confien en sistemes automàtics per detectar comptes, missatges o candidats que en realitat són bots. Un equip de la unitat d'intel·ligència artificial PITOR de la Universitat Paris Cité, encapçalat per Marc Raynaud, ha comprovat si els mateixos models de llenguatge poden fer aquesta feina de filtre.\n\nL'estudi, publicat a la revista revisada per parells «Computers in Human Behavior Reports», va posar set models a fer d'interrogador: ChatGPT 4.5, Claude 3.7 Sonnet, Gemini 2.5 Pro, Mistral Large 2.1, Grok 3, DeepSeek V3 i Llama 4 Maverick. Cada un podia fer fins a deu preguntes a un interlocutor amagat —una de 20 persones voluntàries o una IA— i després havia de dir si era humà o màquina. En 238 proves i 1.714 preguntes, les IA amb instruccions mínimes només van ser descobertes en 3 de 49 proves, i les que tenien instruccions per semblar humanes (respostes breus, alguna falta, to col·loquial), en cap. Les persones van ser identificades correctament en 123 de 140 proves, el 88%.\n\nEl resultat té una lectura incòmoda: de mitjana, els avaluadors van donar a les IA més probabilitat de ser humanes (88%) que a les persones de debò (78%). La pista més evident era la llargada: les IA sense instruccions responien amb uns 170 mots, mentre que amb instruccions baixaven a 39, gairebé com les persones (38). Els autors conclouen que la detecció feta per IA a través de la conversa és «insuficient per garantir l'autenticitat» d'un diàleg, una conclusió que afecta qualsevol servei que vulgui fer servir un xat per filtrar bots.\n\nEls límits són clars. Hi van participar només 20 persones, el comportament de les IA depèn molt de les instruccions que se'ls van donar i el sostre de deu preguntes no reprodueix un interrogatori llarg o més hostil. A més, els models avaluats ja tenen versions més noves, de manera que el resultat descriu una generació concreta de sistemes. L'article de divulgació no detalla les proves estadístiques.",
+      "image": "./assets/models-ia-no-distingeixen-humans-ia-test-turing-invers-20261027.jpg"
+    },
+    {
+      "category": "REGULACIÓ",
+      "read": "4 MIN",
+      "slug": "decret-centres-dades-regim-especial-gigafactories-mora-la-nova",
+      "title": "El decret estatal dels centres de dades afluixa les exigències d'aigua i energia per a gigafactories d'IA com la de Móra la Nova",
+      "excerpt": "El text que prepara el Govern espanyol dona un calendari gradual a les infraestructures públiques de càlcul, mentre la patronal i les grans tecnològiques s'hi oposen.",
+      "sourceName": "Ara · El Periódico",
+      "sourceUrl": "https://www.ara.cat/economia/decret-dels-centres-dades-dilueix-exigencies-gigafactories-d-ia-mora-nova_1_5891770.html",
+      "sourceDate": "27 d'octubre de 2026",
+      "body": "Els centres de dades s'han convertit en una de les grans qüestions de la IA: consumeixen molta electricitat, alguns fan servir aigua per refrigerar-se i s'hi anuncien inversions milionàries. El Govern espanyol prepara un reial decret que fixa requisits de sostenibilitat per a aquestes instal·lacions —energia, medi ambient, resiliència i sobirania digital—, després d'una consulta pública amb més de 600 aportacions i d'un informe de la CNMC que considerava massa estrictes els requisits inicials d'energia i renovables.\n\nSegons el diari Ara, el text final manté les exigències però dona més marge per complir-les: per exemple, cinc anys per demostrar que el consum prové d'energia renovable. També crea un règim especial per a les gigafactories i fàbriques d'IA, els supercomputadors i els projectes presentats a convocatòries europees. No queden exempts de les obligacions, però les poden complir de manera gradual, amb un calendari progressiu d'eficiència energètica i hídrica, més temps per acreditar generació renovable addicional i una via pròpia per demostrar el control europeu de la infraestructura. Les gigafactories de Móra la Nova (Ribera d'Ebre) i de San Fernando de Henares (Madrid), que tenen el suport del Govern central, podrien acollir-se a límits d'eficiència d'aigua més flexibles que la resta.\n\nL'argument oficial és la «sobirania estratègica»: afavorir infraestructures sota control europeu, mentre que les iniciatives purament privades es queden al règim general. La patronal del sector i empreses com Amazon, Microsoft, Google i ACS s'hi han oposat, i El Periódico informa que els grans operadors preparen la batalla legal per tombar el decret i critiquen el tracte especial a la gigafactoria catalana.\n\nEl text és encara al Consell d'Estat per la via d'urgència. El Govern el vol aprovar abans de les eleccions generals del 29 de novembre i, si no hi arriba, ho faria en funcions: com que és un reial decret i no un decret llei, no l'ha de convalidar el Congrés, que és dissolt. Falta conèixer el redactat definitiu i els límits concrets d'aigua i energia, que no s'han fet públics, i la flexibilitat per a les gigafactories no serà indefinida.",
+      "image": "./assets/decret-centres-dades-regim-especial-gigafactories-mora-la-nova-20261027.jpg",
+      "etiquetes": [
+        "centres-de-dades"
+      ]
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "agents-ia-demanen-ajuda-nomes-quan-dubten-neurips-sag",
+      "title": "Un agent d'IA que només consulta un altre model quan dubta triplica l'èxit en tasques llargues sense gastar més",
+      "excerpt": "Un equip de la Universitat Sungkyunkwan presentarà a NeurIPS 2026 un mètode que decideix a cada pas si val la pena demanar una revisió. Amb el temps, l'agent n'aprèn i la necessita menys.",
+      "sourceName": "NeurIPS 2026 (arXiv) · Universitat Sungkyunkwan (Tech Xplore)",
+      "sourceUrl": "https://arxiv.org/abs/2610.07335",
+      "sourceDate": "26 d'octubre de 2026",
+      "body": "Els agents d'IA que han de fer tasques llargues, de molts passos, solen fallar per un error petit al principi que després s'arrossega fins al final. Una solució habitual és posar-los al costat un altre model que en revisi cada decisió, però això multiplica el cost de càlcul i alenteix l'agent. Un equip de la Universitat Sungkyunkwan (Corea del Sud), dirigit per Minhae Kwon, proposa una via intermèdia en un article acceptat al congrés NeurIPS 2026, un dels principals de l'aprenentatge automàtic, que hi ha passat la revisió per parells.\n\nEl mètode, anomenat SAG, tracta la revisió com una decisió que l'agent pren a cada pas. Abans de triar una acció, mesura fins a quin punt dubta entre les opcions —si totes semblen igual de bones o si les dues millors estan gairebé empatades— i només consulta el model revisor quan el benefici esperat compensa el cost. A més, guarda el que aprèn d'aquestes consultes, de manera que amb el temps en fa menys. A ALFWorld, un entorn virtual de tasques domèstiques que es fa servir per avaluar agents, la taxa d'èxit va passar del 24,6% al 78,4% amb un consum de text processat semblant al d'un agent estàndard.\n\nSegons els autors, un agent petit, de 7.000 milions de paràmetres, acompanyat d'un revisor de 3.000 milions, iguala un agent de 14.000 milions que treballa sol. Si es confirma en altres escenaris, vol dir que bona part de la fiabilitat que aporta un revisor es pot obtenir pagant-ne només una fracció, una qüestió clau ara que les empreses despleguen agents i en vigilen la factura. La nota de la universitat xifra l'estalvi en uns dos terços del càlcul respecte als mètodes que consulten el revisor a cada pas.\n\nEls resultats són en entorns simulats i amb tres bancs de proves, no en tasques reals d'empresa, i el cost es mesura en volum de text processat. El treball encara s'ha de presentar al congrés i no l'han reproduït altres grups. El mateix equip hi porta un segon article, VAN-Flow, sobre com fer que els robots aprenguin tasques llargues a partir de dades ja recollides sense copiar les accions arriscades que van sortir bé per casualitat.",
+      "image": "./assets/agents-ia-demanen-ajuda-nomes-quan-dubten-neurips-sag-20261027.jpg"
+    },
     {
       "category": "TECNOLOGIA",
       "read": "5 MIN",
