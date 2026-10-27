@@ -1,8 +1,80 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-27T13:23:10.605Z",
+ "actualitzat": "2026-10-27T16:52:56.454Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "LOP8ul3KqQI",
+   "titol": "Introducing Genie 4",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-27T16:18:01.000Z",
+   "descripcio": "Raia Hadsell, Diego Rivas, and Hang Qi from Google DeepMind join host Logan Kilpatrick to introduce Genie 4, the latest world model from Google DeepMind. Their conversation covers: *What world models are *The arc from Genie 1 to Genie 4 *Live demos showcasing the model’s biggest leaps forward *The r",
+   "miniatura": "/assets/videos/LOP8ul3KqQI.jpg"
+  },
+  {
+   "id": "sFfPkUJd_Jk",
+   "titol": "Genie 4: A new generation of world simulation",
+   "canal": "Google DeepMind",
+   "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-27T16:00:41.000Z",
+   "descripcio": "Meet Genie 4, Google DeepMind’s most realistic and interactive world model yet. Built on our Gemini models, Genie 4 lets you step inside dynamic worlds in real time, steer scenes on the fly with natural language, and watch what happens next: how the world responds, how it sounds, and how the people ",
+   "miniatura": "/assets/videos/sFfPkUJd_Jk.jpg"
+  },
+  {
+   "id": "lPZQrVFcz3c",
+   "titol": "Getting a Head Start with Codex | Mitchell Hashimoto",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-10-27T15:04:57.000Z",
+   "descripcio": "“The whole point is I want to hit the ground running.” HashiCorp co-founder Mitchell Hashimoto wraps up his day by putting Codex agents to work. They research the competition, compare tools and prototype features he’s still working out—giving him a head start on the next day’s work. Building with Co",
+   "miniatura": "/assets/videos/lPZQrVFcz3c.jpg"
+  },
+  {
+   "id": "cflbzHRvGvg",
+   "titol": "From Ideas to Prototypes with Codex | Shopify’s Mikhail Parakhin",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-10-27T15:03:41.000Z",
+   "descripcio": "“If you have an idea, bring a prototype right away.” For Shopify CTO Mikhail Parakhin, Codex is changing what his team brings to the meeting. From delegating tasks to exploring architectural options, he’s using Codex to take on work he couldn’t before. Meet Mikhail, one of the builders in Codex Orig",
+   "miniatura": "/assets/videos/cflbzHRvGvg.jpg"
+  },
+  {
+   "id": "C2vdw5GSTQo",
+   "titol": "How Sotira Gives Unsold Inventory a Second Life with Codex",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-10-27T15:02:46.000Z",
+   "descripcio": "“Not being technical is not a reason to not build.” At Sotira, Amrita Bhasin uses Codex to connect unsold products with people who need them, helping keep millions of pounds of inventory out of landfills. Meet Amrita, one of the builders in Codex Originals. Building with Codex? Share your story: htt",
+   "miniatura": "/assets/videos/C2vdw5GSTQo.jpg"
+  },
+  {
+   "id": "ilG7LPrngkI",
+   "titol": "AI for Detection and Response | Cloudflare’s Mark Anderson",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-10-27T14:54:56.000Z",
+   "descripcio": "Security teams face a constant stream of vulnerabilities and alerts. Cloudflare’s Mark Anderson describes using AI to automate detection and response so experts can focus on threats that need their judgment. He sees automation from companies like OpenAI as a way to take on routine security work and ",
+   "miniatura": "/assets/videos/ilG7LPrngkI.jpg"
+  },
   {
    "id": "XWYMvOFMacA",
    "titol": "AI in the UK: Drug Discovery, Robotics and AI Factories | NVIDIA",
@@ -1061,30 +1133,6 @@
    "publicat": "2026-10-06T19:01:19.000Z",
    "descripcio": "Bring your ideas to life on NVIDIA RTX Spark. From faster video edits to smoother 3D rendering and generative AI, RTX acceleration gives creators more ways to craft, refine, and share their work. Learn more about RTX Spark: https://www.nvidia.com/en-us/products/rtx-spark/",
    "miniatura": "/assets/videos/4XZzjY4X13A.jpg"
-  },
-  {
-   "id": "4mjXPWPkWo8",
-   "titol": "How this data scientist is using AI to help 130,000 AT&T employees",
-   "canal": "Microsoft",
-   "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
-   "grup": "empreses",
-   "categoria": "empreses",
-   "idioma": "en",
-   "publicat": "2026-10-06T16:30:18.000Z",
-   "descripcio": "@ATT data scientist Natalie Gilbert found a way to turn her drive to help people into work that can reach thousands. See how @GitHub Copilot helps her review code and catch errors, giving her more time to focus on understanding the people she’s building for. Learn more: https://msft.it/6000aWttq ***",
-   "miniatura": "/assets/videos/4mjXPWPkWo8.jpg"
-  },
-  {
-   "id": "anPsS6huQk0",
-   "titol": "Introducing EmbeddingGemma 2: An open model for natively multimodal embeddings",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-06T16:10:20.000Z",
-   "descripcio": "Sebastian Russo, Ivan Llanos, and Sahil Dua from Google DeepMind introduce EmbeddingGemma 2, a lightweight open model that maps text, images, video, and audio into a single unified embedding space. At just 740 million parameters, EmbeddingGemma 2 is engineered for on-device use cases. Watch this vid",
-   "miniatura": "/assets/videos/anPsS6huQk0.jpg"
   }
  ]
 }
