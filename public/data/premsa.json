@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-27T09:17:43.905Z",
+ "actualitzat": "2026-10-27T10:04:41.967Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e0d9a0919181",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "May-Britt Moser, Nobel de Medicina, habla sobre como afecta el uso de la IA al cerebro",
+   "url": "https://www.diariodemallorca.es/videos/sociedad/2026/10/27/may-britt-moser-nobel-medicina-135796643.html",
+   "publicat": "2026-10-27T09:56:19.000Z"
+  },
   {
    "id": "e77f4c9db611",
    "mitja": "Información",
@@ -10,7 +21,7 @@
    "icona": "/assets/premsa/informacion.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Últimas plazas para el curso “IA en Dispositivos Móviles para uso profesional”",
+   "titol": "Últimas plazas para el curso “IA en Dispositivos Móviles para uso profesional” en La Nucía",
    "url": "https://www.informacion.es/benidorm/2026/10/27/ultimas-plazas-curso-ia-dispositivos-135794513.html",
    "publicat": "2026-10-27T09:14:57.000Z"
   },
@@ -2775,17 +2786,6 @@
    "titol": "José Elías, el multimilionari que dirigeix 200 empreses: \"He externalitzat el meu cervell a una IA\"",
    "url": "https://www.elnacional.cat/ca/tecnologia/jose-elias-multimilionari-dirigeix-200-empreses-he-externalitzat-meu-cervell-ia_1712488_102.html",
    "publicat": "2026-10-20T17:00:00.000Z"
-  },
-  {
-   "id": "fcfc0cb9eb62",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La imagen de dos ancianos en ropa interior atracados por manifestantes en París que ha compartido Abascal está hecha con IA",
-   "url": "https://www.lavanguardia.com/politica/20261020/11663884/imagen-dos-ancianos-ropa-interior-atracados-manifestantes-paris-compartido-abascal-esta-hecha-ia.html",
-   "publicat": "2026-10-20T16:00:00.000Z"
   }
  ]
 }
