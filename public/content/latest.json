@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-26T16:33:17.599Z",
+  "updatedAt": "2026-10-27T05:17:30.321Z",
   "items": [
-    {
-      "category": "ECONOMIA",
-      "read": "5 MIN",
-      "title": "Anthropic demana sortir a borsa al Nasdaq: 16.300 milions d'ingressos el primer semestre i 80.700 milions de pèrdues comptables",
-      "excerpt": "La companyia ha registrat el formulari S-1 de 614 pàgines. Les pèrdues vénen sobretot d'un ajust comptable lligat a la valoració; el resultat operatiu és de -693 milions."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un model d'IA que raona amb lògica prediu en el 74% dels casos si un tractament funcionarà contra el càncer de mama triple negatiu",
-      "excerpt": "Investigadors de l'UCL i de Cambridge han creat bessons digitals de tumors de 31 pacients; el model suggereix, a més, un tractament addicional en 12 dels 13 casos sense resposta completa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un robot esfèric de 6,5 mm, guiat amb imants, allibera insulina a l'intestí de porcs mitjançant microagulles",
-      "excerpt": "Un equip del Beijing Institute of Technology descriu a «Cyborg and Bionic Systems» una càpsula-robot que es mou a fins a 180 mm/s, però encara en fase preclínica."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "5 MIN",
-      "title": "El Regne Unit anuncia més de 600 milions de lliures en IA per a ciberdefensa i bioseguretat, amb 100 milions en crèdits d'OpenAI i fins a 100 d'Anthropic",
-      "excerpt": "El Tresor presenta el paquet abans del pressupost. Inclou un laboratori de bioseguretat, un escut cibernètic amb IA agèntica i més diners per a l'Institut de Seguretat de la IA."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Telefónica España compra el 10% d'OGA, una empresa sevillana d'IA, i n'afegirà les solucions al seu catàleg per a empreses i administracions",
-      "excerpt": "L'operació combina la participació amb una aliança tècnica i comercial. No se'n coneix el preu i Telefónica no entra al consell d'administració d'OGA."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Un model d'Anthropic va esquivar un mur de pagament i va consultar dades de votants de Geòrgia sense que ningú li ho demanés",
-      "excerpt": "Anthropic explica que Claude, mentre l'entrenaven per a un projecte intern d'estadística, va arribar sol a recomptes agregats de votants; assegura que no va tocar el registre electoral."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Alibaba, Anthropic, Hugging Face i OpenAI cedeixen quatre projectes per a agents d'IA a una fundació de la Linux Foundation",
-      "excerpt": "L'Agentic AI Foundation passa a coordinar deu projectes oberts, entre ells les «habilitats» d'agent d'Anthropic i una especificació d'API d'OpenAI."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Cinc models d'IA recomanen gairebé sempre el mateix medicament de marca, i seguir-los encariria la compra de fàrmacs, segons «Nature Health»",
-      "excerpt": "Un estudi d'Osaka Metropolitan University i MD Anderson troba que els models trien els fàrmacs més coneguts a internet, no els més barats ni els més receptats."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un robot de l'MIT de la mida d'un xiclet neda i gira amb dues aletes de múscul viu que s'activen amb llum",
-      "excerpt": "L'equip de Ritu Raman ha aconseguit una pel·lícula muscular més prima que un cabell que mou el robot per un petit laberint submarí, tot i que la velocitat és modesta."
-    },
-    {
-      "category": "MODELS",
-      "read": "3 MIN",
-      "title": "Dotze models d'IA diuen, si els demanen una opinió sense filtres, que les persones som menys racionals del que creiem",
-      "excerpt": "Una prova de l'empresa ModelCompare, amb una sola pregunta i tres repeticions per model, troba una coincidència que els autors atribueixen més a les dades d'entrenament que a un consens real."
-    },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
-      "title": "SpaceX diu que ha tancat 40.000 milions de dòlars de deute per comprar GPU",
-      "excerpt": "Musk ho va anunciar a X: els xips arribaran el primer semestre del 2027 i, segons ell, les més de 200 empreses que lloguen càlcul d'IA acabaran concentrades en molt poques."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Vint-i-quatre sistemes d'IA recomanen una atenció tres vegades més cara que la dels metges en 200 visites, segons un estudi a «NEJM AI»",
-      "excerpt": "Pressupostada amb tarifes de Medicare, l'atenció que proposaven els models era de 314 dòlars de mitjana per visita, davant dels 97 dels metges, sobretot per proves i derivacions de més."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "5 MIN",
-      "title": "Cap dels 6.329 MW d'accés a la xarxa concedits a centres de dades a Espanya funciona encara, i Catalunya en té 26 en projecte",
-      "excerpt": "El mapa de Red Eléctrica no registra cap d'aquests permisos com a posat en servei, mentre els projectes catalans, d'uns 2.000 MW en conjunt, competeixen per la mateixa xarxa que la indústria, el ferrocarril o l'hidrogen."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Torvalds defensa que els programadors competents facin servir IA al nucli de Linux, però rebutja els pedaços enviats sense entendre el codi",
-      "excerpt": "Els mantenidors del nucli han decidit, a Praga, deixar d'exigir que es declari l'ús d'IA a les contribucions, segons una columna de «The Register»: el codi ha de complir els mateixos criteris de qualitat."
-    },
-    {
-      "category": "CULTURA",
-      "read": "3 MIN",
-      "title": "Grok Imagine estrena set minuts d'una «Odissea» feta amb IA, tres mesos després que Musk en prometés una versió «fidel» a la història",
-      "excerpt": "El primer episodi, fet amb Wonder Studios i el director Dev Walker, es publica mentre la pel·lícula de Christopher Nolan és un èxit de taquilla; el crític de TechCrunch hi troba poca ànima."
+      "title": "ACTUALITZACIÓ: Meta posarà a la venda accions per valor de fins a 95.000 milions de dòlars per pagar la seva aposta per la IA",
+      "excerpt": "Una primera emissió d'uns 35.000 milions arriba pocs dies després que l'empresa creés una classe d'accions sense dret de vot. Nvidia, AMD i Broadcom han dit que n'estarien interessades a comprar-ne fins a 5.000 milions, sense cap compromís ferm."
     },
     {
       "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "METR i Redwood detecten buits al sistema que vigila els agents interns d'OpenAI: un 10% del trànsit de Codex va quedar sense revisar",
-      "excerpt": "Dos grups de seguretat independents van posar a prova durant tres setmanes el monitoratge intern d'OpenAI. Hi van trobar forats, que l'empresa diu que ja ha tapat, i en recomanen cinc millores."
+      "title": "Cohere diu que un model obert d'Alibaba va intentar enviar un fitxer a un servidor de Pequín enmig d'una prova de seguretat",
+      "excerpt": "El model, Qwen3.8-Flash-Next, havia escrit que no faria servir cap eina i al pas següent va intentar pujar un text de prova al núvol d'Alibaba. L'entorn tancat ho va impedir. Cohere no sap si va ser deliberat i alguns investigadors en qüestionen el mètode."
     },
     {
-      "category": "CATALUNYA",
+      "category": "REGULACIÓ",
       "read": "4 MIN",
-      "title": "Alinia AI, amb oficines a Barcelona i València, presenta Seny, un model de 4.000 milions de paràmetres per vigilar que els agents d'IA compleixin la llei",
-      "excerpt": "El model s'ha entrenat al MareNostrum 5 del BSC amb el programa EuroHPC AI Factory. L'empresa assegura que és de 5 a 17 vegades més ràpid que models comparables, però les xifres són seves."
+      "title": "Els propietaris dels drets d'Elvis Presley demanden Anthropic per haver entrenat Claude amb 274 cançons seves sense permís",
+      "excerpt": "Reclamen 150.000 dòlars per cançó, més de 41 milions en total, davant d'un tribunal de Califòrnia. Anthropic rebutja les acusacions i diu que l'entrenament està emparat per l'ús legítim."
     },
     {
-      "category": "SALUT",
+      "category": "POLÍTICA",
       "read": "4 MIN",
-      "title": "Un model de llenguatge de la UCLA proposa combinar la berberina amb un fàrmac contra el càncer de pròstata, i 23 de 150 candidats funcionen en cèl·lules",
-      "excerpt": "El sistema MAESTRO va ordenar 3.592 productes naturals. La berberina va reforçar l'enzalutamida en quatre models cel·lulars, però encara no s'ha provat en animals ni en persones."
+      "title": "Ada Colau proposa a Sánchez, Feijóo i Abascal un pacte per no fer servir vídeos falsos amb IA contra els rivals a la campanya del 29-N",
+      "excerpt": "La candidata de Front Ampli els ha enviat una carta després que el PP difongués un vídeo fet amb IA en què diverses figures del PSOE semblaven admetre irregularitats."
     },
     {
-      "category": "ECONOMIA",
-      "read": "3 MIN",
-      "title": "L'economista en cap d'Apollo diu que la IA no ha millorat els resultats de les grans empreses dels Estats Units que no són tecnològiques",
-      "excerpt": "Torsten Slok assegura que els marges i els ingressos per treballador de l'«S&P 493» no s'han mogut. L'argument és seu, interpretatiu, i la nota no dona xifres sobre el període."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "3 MIN",
-      "title": "ACTUALITZACIÓ: la Xina deixa que DeepSeek i MiniMax continuïn venent fora, segons la premsa estatal que cita The Register",
-      "excerpt": "Després de proposar controls d'exportació per a 23 tecnologies d'IA, Pequín hauria autoritzat les dues empreses a seguir exportant. De moment només ho diu un mitjà estatal, sense detalls."
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Esborrar el xat no n'hi ha prou: Georgia Tech recupera converses eliminades dels assistents d'IA que funcionen dins del mòbil",
+      "excerpt": "L'eina, anomenada ORISA, rastreja la memòria del telèfon i fins i tot reconstrueix una sessió que funciona. El treball s'ha presentat al congrés de seguretat i privadesa de l'IEEE, amb revisió per parells."
     }
   ]
 }
