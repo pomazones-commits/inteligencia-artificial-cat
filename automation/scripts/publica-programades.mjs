@@ -33,9 +33,13 @@
 // fotos-drive.yml no l'ha baixada), l'entrada s'espera a la passada següent. Si ja
 // hi ha publicada una peça amb el mateix títol, l'entrada es treu de la cua sense
 // tornar-la a publicar. Una entrada mal formada queda a la cua amb el camp "error".
+// Una entrada amb el text malmès (parèntesis buits, dos espais seguits, cursiva
+// sense tancar: revisaText) queda a la cua amb el camp "revisa" i no es publica
+// fins que s'arregla; no fa fallar la passada (27.10.2026). Abans de pujar la cua:
+//   node automation/scripts/publica-programades.mjs --revisa
 //
 // Ús: node automation/scripts/publica-programades.mjs [--public public]
-//       [--cua incoming/peces-programades.json] [--avui AAAA-MM-DD]
+//       [--cua incoming/peces-programades.json] [--avui AAAA-MM-DD] [--revisa]
 // Escriu a stdout una línia «PUBLICADA: …» per peça; acaba amb codi 1 si hi ha
 // entrades amb error.
 
@@ -110,6 +114,35 @@ export function validaEntrada(e) {
   return null;
 }
 
+// Revisió del text (27.10.2026). La passada de la cua del 26.10.2026 va programar
+// dues entrevistes (Artigues, Navas) amb els termes en cursiva esborrats: quedaven
+// «extracció automàtica ()», «estalviar  i respondre»… Només es miren casos
+// inequívocs: parèntesis buits, dos espais seguits dins d'una línia i un asterisc
+// de cursiva sense parella dins d'un paràgraf (els "**" i les vinyetes "* " no compten).
+const CAMPS_TEXT = ['title', 'excerpt', 'quote', 'role', 'body'];
+const tros = (t, i) => t.slice(Math.max(0, i - 30), i + 30).replace(/\n/g, ' ');
+
+export function revisaText(p) {
+  if (!p || typeof p !== 'object') return [];
+  const problemes = [];
+  for (const camp of CAMPS_TEXT) {
+    const t = p[camp];
+    if (typeof t !== 'string' || !t) continue;
+    let m = /\(\s*\)/.exec(t);
+    if (m) problemes.push(`parèntesis buits a «${camp}»: «…${tros(t, m.index)}…»`);
+    m = /\S[ \t]{2,}\S/.exec(t);
+    if (m) problemes.push(`dos espais seguits a «${camp}» (hi falta una paraula?): «…${tros(t, m.index)}…»`);
+    for (const par of t.split(/\n{2,}/)) {
+      const net = par.replace(/^[ \t]*[*-][ \t]+/gm, '').replace(/\*\*/g, '');
+      if ((net.match(/\*/g) || []).length % 2) {
+        problemes.push(`cursiva sense tancar a «${camp}»: «${par.slice(0, 60).replace(/\n/g, ' ')}…»`);
+        break;
+      }
+    }
+  }
+  return problemes;
+}
+
 /** Llegeix un fitxer de dades: retorna { capcalera, dades } (la capçalera és tot el que hi ha abans de l'assignació). */
 export function llegeixDades(text, variable) {
   const re = new RegExp(`^window\\.${variable}\\s*=\\s*`, 'gm');
@@ -168,9 +201,15 @@ export async function processa({ arrel, cua, avui, hora, fs = { readFile, writeF
   const descartades = [];
 
   const ordenada = [...cua].sort((a, b) => String(a.publica).localeCompare(String(b.publica)));
-  for (const e of ordenada) {
-    const problema = validaEntrada(e);
+  for (const e0 of ordenada) {
+    // "revisa" es recalcula a cada passada: si el text ja s'ha arreglat, desapareix.
+    const { revisa: _vella, ...e } = e0 || {};
+    const problema = validaEntrada(e0);
     if (problema) { pendents.push({ ...e, error: problema }); continue; }
+    // Text amb buits: la peça es queda a la cua (també les de dies vinents, perquè
+    // l'editor ho vegi amb marge) però no fa fallar la passada de les altres.
+    const avisos = revisaText(e.peca);
+    if (avisos.length) { pendents.push({ ...e, revisa: avisos.join(' · ') }); continue; }
     if (e.publica > avui) { pendents.push(e); continue; }
     const { error, ...net } = e;
     const s = SECCIONS[e.seccio];
@@ -261,6 +300,18 @@ async function main() {
 
   let cua = [];
   try { cua = JSON.parse(await readFile(rutaCua, 'utf8')); } catch { cua = []; }
+
+  // --revisa: només comprova el text de totes les entrades, sense publicar ni
+  // escriure res. L'editor automàtic ho fa abans de cada commit de la cua.
+  if (args.includes('--revisa')) {
+    let n = 0;
+    for (const e of Array.isArray(cua) ? cua : []) {
+      for (const av of revisaText(e && e.peca)) { n++; console.log(`✗ ${e.publica} · ${e.peca.author}: ${av}`); }
+    }
+    console.log(n ? `${n} problema(es) de text a la cua: arregla'ls abans del commit.` : 'Text de la cua: cap problema.');
+    if (n) process.exitCode = 1;
+    return;
+  }
   if (!Array.isArray(cua) || !cua.length) { console.log('Cua buida: cap peça programada.'); return; }
 
   const { publicades, pendents, descartades } = await processa({ arrel, cua, avui, hora });
@@ -268,6 +319,7 @@ async function main() {
   for (const d of descartades) console.log(`== Fora de la cua (${d.motiu}): ${d.seccio} — ${d.title}`);
   for (const p of pendents) {
     if (p.error) console.log(`::error::${p.seccio || '?'} ${p.publica || '?'}: ${p.error}`);
+    else if (p.revisa) console.log(`::error::${p.seccio} ${p.publica} (${p.peca.author}): NO ES PUBLICARÀ fins que s'arregli el text: ${p.revisa}`);
     else if (p.espera) console.log(`::warning::${p.seccio} ${p.publica} (${p.peca.author}): ${p.espera}; es torna a provar a la passada següent.`);
     else console.log(`.. Programada: ${p.seccio} · ${p.publica} · ${p.peca.author}`);
   }

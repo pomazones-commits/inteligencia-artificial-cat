@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  validaEntrada, insereixPerData, nouSegellHtml, nouSegellXifres, llegeixDades, escriuDades, processa, dataPeca
+  validaEntrada, revisaText, insereixPerData, nouSegellHtml, nouSegellXifres, llegeixDades, escriuDades, processa, dataPeca
 } from '../scripts/publica-programades.mjs';
 
 const peca = (extra = {}) => ({
@@ -122,4 +122,29 @@ test('no torna a publicar una peça que ja hi és', async () => {
   assert.equal(r.descartades.length, 1);
   assert.equal(r.pendents.length, 0);
   assert.deepEqual(escrits, {});
+});
+
+// 27.10.2026: termes en cursiva esborrats a la cua (Artigues, Navas).
+test('revisaText detecta parèntesis buits, dos espais i cursiva sense tancar', () => {
+  assert.deepEqual(revisaText(peca({ body: 'Una instrucció (*prompt*) i un *token*.\n\n* vinyeta\n* altra **negreta**' })), []);
+  assert.match(revisaText(peca({ body: 'una extracció automàtica () de l’edició' }))[0], /parèntesis buits a «body»/);
+  assert.match(revisaText(peca({ body: 'aconseguim estalviar  i respondre' }))[0], /dos espais seguits/);
+  assert.match(revisaText(peca({ excerpt: 'un terme *sense tancar' }))[0], /cursiva sense tancar a «excerpt»/);
+  assert.deepEqual(revisaText(peca({ body: 'Paràgraf u.\n\nParàgraf dos.' })), []);
+});
+
+test('una peça amb el text malmès es queda a la cua amb "revisa" i no atura les altres', async () => {
+  const { fs } = fsFals(BASE);
+  const cua = [
+    { seccio: 'tribuna', publica: '2026-10-20', peca: peca({ title: 'Malmesa', body: 'estalviar  i respondre' }) },
+    { seccio: 'empresa', publica: '2026-10-20', peca: peca({ title: 'Bona' }) },
+    { seccio: 'tribuna', publica: '2026-11-20', peca: peca({ title: 'Futura', body: 'instrucció ()' }) }
+  ];
+  const r = await processa({ arrel: '/x/public', cua, avui: '2026-10-20', hora: 7, fs });
+  assert.deepEqual(r.publicades.map((p) => p.title), ['Bona']);
+  assert.equal(r.pendents.length, 2);
+  assert.ok(r.pendents.every((p) => p.revisa && !p.error));
+  // un cop arreglada, el camp desapareix
+  const r2 = await processa({ arrel: '/x/public', cua: [{ ...r.pendents[1], peca: peca({ title: 'Futura' }) }], avui: '2026-10-20', hora: 7, fs: fsFals(BASE).fs });
+  assert.equal(r2.pendents[0].revisa, undefined);
 });
