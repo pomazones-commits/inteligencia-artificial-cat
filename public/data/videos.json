@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-27T16:52:56.454Z",
+ "actualitzat": "2026-10-27T17:20:14.476Z",
  "canals": 19,
  "videos": [
   {
@@ -25,7 +25,10 @@
    "idioma": "en",
    "publicat": "2026-10-27T16:00:41.000Z",
    "descripcio": "Meet Genie 4, Google DeepMind’s most realistic and interactive world model yet. Built on our Gemini models, Genie 4 lets you step inside dynamic worlds in real time, steer scenes on the fly with natural language, and watch what happens next: how the world responds, how it sounds, and how the people ",
-   "miniatura": "/assets/videos/sFfPkUJd_Jk.jpg"
+   "miniatura": "/assets/videos/sFfPkUJd_Jk.jpg",
+   "noticia": "google-deepmind-genie-4-mons-interactius-so-temps-real",
+   "noticiaTitol": "Google DeepMind presenta Genie 4, un model que crea mons interactius amb so i que es poden canviar mentre s'hi juga",
+   "resum": "Vídeo oficial de Google DeepMind, publicat el 27 d'octubre, amb què l'empresa presenta Genie 4 com una nova generació de simulació de mons. És la peça de llançament del model; no detalla preus ni dates de disponibilitat."
   },
   {
    "id": "lPZQrVFcz3c",
