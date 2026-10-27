@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-27T13:23:19.224Z",
+ "actualitzat": "2026-10-27T16:03:59.614Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "ba53814ff107",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Apple Creator Studio incorpora potents funcions d'IA amb models d'OpenAI",
+   "url": "https://www.elnacional.cat/ca/tecnologia/apple-creator-studio-incorpora-potents-funcions-ia-models-openai_1716478_102.html",
+   "publicat": "2026-10-27T16:00:00.000Z"
+  },
+  {
+   "id": "da15e99f024c",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "iFlytek Ainote 2: escribir a mano vuelve a tener sentido en la era de la IA",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261027/iflytek-ainote-2-escribir-precio-135813420",
+   "publicat": "2026-10-27T15:42:46.000Z"
+  },
+  {
+   "id": "97c2b4d7c561",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Impress recibe 40 millones del Banco Europeo de Inversiones para seguir creciendo y sofisticando su inteligencia artificial",
+   "url": "https://www.elperiodico.com/es/economia/20261027/impress-recibe-40-millones-banco-135782448",
+   "publicat": "2026-10-27T14:00:31.000Z"
+  },
+  {
+   "id": "254e830f5fba",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La nueva edición del Diploma de Bioética de la Escuela de Salud Pública analiza los retos de la IA",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/27/2737663/nueva-edicion-del-diploma-bioetica-escuela-salud-publica-analiza-retos-ia.html",
+   "publicat": "2026-10-27T13:48:02.000Z"
+  },
+  {
+   "id": "9444908c3fff",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Moreno destaca la apuesta por la adaptación profesional a la IA y los avances para agilizar los trámites ciudadanos",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/27/2737665/moreno-destaca-apuesta-por-adaptacion-profesional-avances-para-agilizar-tramites-ciudadanos.html",
+   "publicat": "2026-10-27T13:41:41.000Z"
+  },
+  {
+   "id": "e1542c358a75",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "May-Britt Moser, Nobel de Medicina: \"Si dejamos de usar el cerebro por la IA, podría reducir su tamaño\"",
+   "url": "https://www.diariodemallorca.es/sociedad/2026/10/27/may-britt-moser-nobel-medicina-135809122.html",
+   "publicat": "2026-10-27T13:31:05.000Z"
+  },
   {
    "id": "763e9b95d362",
    "mitja": "Ara",
@@ -211,6 +277,17 @@
    "titol": "thePower se incorpora a la CEOE para impulsar la adopción de la inteligencia artificial en las empresas",
    "url": "https://www.elperiodico.com/es/economia/20261027/thepower-incorpora-ceoe-impulsar-adopcion-135793542",
    "publicat": "2026-10-27T08:23:09.000Z"
+  },
+  {
+   "id": "d0875a19ae50",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "thePower se incorpora a CEOE como un socio clave para acelerar la adopción de la IA en las empresas",
+   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/10/27/2737637/thepower-incorpora-ceoe-como-socio-clave-para-acelerar-adopcion-empresas.html",
+   "publicat": "2026-10-27T08:15:00.000Z"
   },
   {
    "id": "8c915a9f99c0",
@@ -2707,83 +2784,6 @@
    "titol": "Terrassa Cooperativa presenta “Hackers Socials Davant la IA”",
    "url": "https://www.diarideterrassa.com/terrassa/terrassa-cooperativa-presenta-hackers-socials-davant-la-ia.html",
    "publicat": "2026-10-21T11:22:08.000Z"
-  },
-  {
-   "id": "85e78aec4af1",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial entra en las redacciones: jornada sobre nuevas herramientas para una nueva forma de hacer periodismo",
-   "url": "https://www.elperiodico.com/es/sociedad/20261021/inteligencia-artificial-entra-redacciones-jornada-135578855",
-   "publicat": "2026-10-21T11:02:13.000Z"
-  },
-  {
-   "id": "bdc570bf2360",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "OpenAI revela nous casos d'IA rebel: un d'ells va accedir a carteres cripto sense permís",
-   "url": "https://www.elnacional.cat/ca/tecnologia/openai-revela-nous-casos-ia-rebel-ells-va-accedir-carteres-cripto-sense-permis_1711945_102.html",
-   "publicat": "2026-10-21T11:00:00.000Z"
-  },
-  {
-   "id": "6e7216e49ce7",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | La FEBF aborda el futuro del Sector Financiero en la Era de la IA Predictiva en su V Jornada Fintech",
-   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/la-febf-aborda-el-futuro-del-sector-financiero-en-la-era-de-la-ia-predictiva-en-su-v-jornada-fintech",
-   "publicat": "2026-10-21T10:48:14.000Z"
-  },
-  {
-   "id": "60029279974e",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic perdió más de 80.000 millones de dólares en la primera mitad de 2026",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261021/anthropic-perdidas-millones-negocio-ia-claude-inteligencia-artificial-chatgpt-135574365",
-   "publicat": "2026-10-21T10:39:57.000Z"
-  },
-  {
-   "id": "172aef9bc47b",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El CEO de Hugging Face no quiere que veas el documental de Netflix sobre el ataque de OpenAI: “Muy decepcionante”",
-   "url": "https://www.lavanguardia.com/neo/ia/20261021/11664473/ceo-hugging-face-quiere-veas-documental-netflix-sobre-ataque-openai-decepcionante.html",
-   "publicat": "2026-10-21T10:16:44.000Z"
-  },
-  {
-   "id": "74d4445f7580",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Musk vislumbra el billón en ingresos de SpaceX y presume de la rentabilidad de su IA frente a las pérdidas de Anthropic",
-   "url": "https://elpais.com/economia/2026-10-21/musk-vislumbra-el-billon-en-ingresos-de-spacex-y-presume-de-la-rentabilidad-de-su-ia-frente-a-las-perdidas-de-anthropic.html",
-   "publicat": "2026-10-21T10:06:00.000Z"
-  },
-  {
-   "id": "e7c736e0822a",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La agricultura inteligente, que utiliza robots, drones o herramientas de IA, ya es rentable en el 42% de las tierras cultivables del mundo",
-   "url": "https://www.diariodemallorca.es/tendencias21/2026/10/21/agricultura-inteligente-utiliza-robots-drones-135573685.html",
-   "publicat": "2026-10-21T09:17:40.000Z"
   }
  ]
 }
