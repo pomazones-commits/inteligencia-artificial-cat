@@ -1,8 +1,162 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-27T10:04:41.967Z",
+ "actualitzat": "2026-10-27T13:23:19.224Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "763e9b95d362",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El decret dels centres de dades dilueix les exigències per a gigafactories d'IA com la de Móra la Nova",
+   "url": "https://www.ara.cat/economia/decret-dels-centres-dades-dilueix-exigencies-gigafactories-d-ia-mora-nova_1_5891770.html",
+   "publicat": "2026-10-27T13:15:39.000Z"
+  },
+  {
+   "id": "7d5a8287e692",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Vera Health levanta 25,5 millones para su IA clínica, que es usada por uno de cada cuatro médicos en España",
+   "url": "https://cincodias.elpais.com/companias/2026-10-27/vera-health-levanta-255-millones-para-su-ia-clinica-que-es-usada-por-uno-de-cada-cuatro-medicos-en-espana.html",
+   "publicat": "2026-10-27T13:08:01.000Z"
+  },
+  {
+   "id": "e5bbc46a25de",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El gobierno sueco bloquea el acceso de sus empleados a ChatGPT y Claude",
+   "url": "https://www.lavanguardia.com/internacional/20261027/11669386/gobierno-sueco-bloquea-acceso-empleados-chatgpt-claude.html",
+   "publicat": "2026-10-27T13:05:49.000Z"
+  },
+  {
+   "id": "09dc379c092a",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La mateixa Google situa Gemini 4 Argon molt per darrere de Claude i GPT-6",
+   "url": "https://www.elnacional.cat/ca/tecnologia/mateixa-google-situa-gemini-4-argon-molt-darrere-claude-gpt-6_1716403_102.html",
+   "publicat": "2026-10-27T13:05:00.000Z"
+  },
+  {
+   "id": "b4aada0b6ea7",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Solaria es dispara en borsa més del 8% per l'optimisme sobre la IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/mercats/solaria-es-dispara-borsa-mes-8-optimisme-sobre-ia_1716385_102.html",
+   "publicat": "2026-10-27T12:48:50.000Z"
+  },
+  {
+   "id": "5b8571924424",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Genética, gestión del agua, energías renovables e IA centran la Semana de la Ciencia del Campus de Alcoy de la Politécnica",
+   "url": "https://www.informacion.es/alcoy/2026/10/27/genetica-gestion-agua-energias-renovables-135801168.html",
+   "publicat": "2026-10-27T12:32:55.000Z"
+  },
+  {
+   "id": "47f2e8af6d81",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los gigantes de centros de datos preparan la batalla legal para tumbar el nuevo decreto y critican el trato especial a la gigafactoría catalana de IA",
+   "url": "https://www.elperiodico.com/es/economia/20261027/gigantes-centros-datos-muestran-rechazo-135803699",
+   "publicat": "2026-10-27T12:15:25.000Z"
+  },
+  {
+   "id": "609a53023bf0",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Suecia bloquea a sus funcionarios el acceso a ChatGPT y Claude para evitar filtraciones de datos",
+   "url": "https://www.eldiario.es/tecnologia/suecia-bloquea-funcionarios-acceso-chatgpt-claude-evitar-filtraciones-datos_1_13618468.html",
+   "publicat": "2026-10-27T12:13:09.000Z"
+  },
+  {
+   "id": "591356579dc4",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El laboratorio de IA aplicada a la innovación para pymes desembarca en el ParcBit",
+   "url": "https://www.ultimahora.es/noticias/local/2026/10/27/2737451/laboratorio-aplicada-innovacion-para-pymes-desembarca-parcbit.html",
+   "publicat": "2026-10-27T11:54:00.000Z"
+  },
+  {
+   "id": "4543750eb2dd",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Este emprendedor multimillonario asegura que si tuviera 25 años perseguiría dos áreas clave en el mundo de la IA",
+   "url": "https://www.elperiodico.com/es/economia/20261027/emprendedor-multimillonario-asegura-tuviera-25-anos-perseguiria-dos-areas-clave-mundo-ia-dv-135798389",
+   "publicat": "2026-10-27T11:31:33.000Z"
+  },
+  {
+   "id": "ce213685bd80",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Mercados | La cotizada valenciana Substrate AI nombra a Iván Otero como nuevo director comercial global",
+   "url": "https://valenciaplaza.com/valenciaplaza/bolsas/la-cotizada-valenciana-substrate-ai-nombra-a-ivan-otero-como-nuevo-director-comercial-global",
+   "publicat": "2026-10-27T11:20:40.000Z"
+  },
+  {
+   "id": "446620deefea",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "OpenAI revela tres avenços de la seva IA que poden canviar les matemàtiques, la informàtica i la física",
+   "url": "https://www.elnacional.cat/ca/tecnologia/openai-revela-tres-avencos-cientifics-seva-ia-poden-canviar-matematiques-informatica-fisica_1716235_102.html",
+   "publicat": "2026-10-27T11:00:00.000Z"
+  },
+  {
+   "id": "a4110a5e3c2b",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic y sus rivales en la IA desatan la mayor avalancha financiera de la historia",
+   "url": "https://elpais.com/economia/2026-10-27/anthropic-y-sus-rivales-en-la-ia-desatan-la-mayor-avalancha-financiera-de-la-historia.html",
+   "publicat": "2026-10-27T10:59:53.000Z"
+  },
+  {
+   "id": "71afeb98ecc2",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Andorra acollirà una conferència europea sobre els reptes de la intel·ligència artificial",
+   "url": "https://www.diariandorra.ad/nacional/261027/andorra-acollira-conferencia-europea-sobre-els-reptes-intel-ligencia-artificial_207433.html",
+   "publicat": "2026-10-27T10:40:37.000Z"
+  },
   {
    "id": "e0d9a0919181",
    "mitja": "Diario de Mallorca",
@@ -2630,162 +2784,6 @@
    "titol": "La agricultura inteligente, que utiliza robots, drones o herramientas de IA, ya es rentable en el 42% de las tierras cultivables del mundo",
    "url": "https://www.diariodemallorca.es/tendencias21/2026/10/21/agricultura-inteligente-utiliza-robots-drones-135573685.html",
    "publicat": "2026-10-21T09:17:40.000Z"
-  },
-  {
-   "id": "c4da094c554d",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El pozo sin fondo de la IA: Anthropic prepara su salida a bolsa con 80.000 millones en pérdidas",
-   "url": "https://www.eldiario.es/tecnologia/pozo-fondo-ia-anthropic-prepara-salida-bolsa-80-000-millones-perdidas_1_13602325.html",
-   "publicat": "2026-10-21T09:12:06.000Z"
-  },
-  {
-   "id": "fb446e6e3367",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA guanya protagonisme en recursos humans, però els experts demanen prudència",
-   "url": "https://www.diaridegirona.cat/economia/2026/10/21/ia-guanya-protagonisme-recursos-humans-135572980.html",
-   "publicat": "2026-10-21T09:09:22.000Z"
-  },
-  {
-   "id": "84ec1347fefb",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Amazon apuesta por la energía nuclear para alimentar su IA: “Conectar nuestros centros de datos a la red es un beneficio para todos”",
-   "url": "https://www.lavanguardia.com/neo/ia/20261021/11664383/amazon-apuesta-energia-nuclear-alimentar-ia-conectar-centros-datos-red-beneficio-todos.html",
-   "publicat": "2026-10-21T09:04:07.000Z"
-  },
-  {
-   "id": "f14a651cf790",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "PNV llama a estar \"ojo avizor\" con los grupos disidentes de la IA tras la detención de dos personas por terrorismo",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/21/2733319/pnv-llama-estar-ojo-avizor-los-grupos-disidentes-tras-detencion-dos-personas-por-terrorismo.html",
-   "publicat": "2026-10-21T08:27:12.000Z"
-  },
-  {
-   "id": "3838186ac18c",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Dr. Francisco Anaya explica en la InformaciónTV las mejoras que aporta la IA en medicina reproductiva",
-   "url": "https://www.informacion.es/videos/informaciontv/2026/10/21/dr-francisco-anaya-explica-informaciontv-135534406.html",
-   "publicat": "2026-10-21T08:00:31.000Z"
-  },
-  {
-   "id": "e089c96d4a5b",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El IBEX 35 sube un 1,21 % apoyada en la IA frente a la deuda francesa y al precio del petróleo",
-   "url": "https://www.diariodemallorca.es/economia/2026/10/21/ibex-35-baja-0-1-135570337.html",
-   "publicat": "2026-10-21T07:45:35.000Z"
-  },
-  {
-   "id": "ccef927c61cd",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic perd 80.700 milions de dòlars fins al juny per finançar Claude",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/anthropic-perd-80700-milions-dolars-fins-juny-ajustos-comptables_1712611_102.html",
-   "publicat": "2026-10-21T06:58:32.000Z"
-  },
-  {
-   "id": "80f0baf9cc63",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La ventaja competitiva en el sector jurídico está en saber dónde y cómo usar la IA",
-   "url": "https://cincodias.elpais.com/legal/2026-10-21/la-ventaja-competitiva-en-el-sector-juridico-esta-en-saber-donde-y-como-usar-la-ia.html",
-   "publicat": "2026-10-21T06:30:00.000Z"
-  },
-  {
-   "id": "26b812ecae0b",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Apple compra Samplab, la IA que permet canviar les notes d'una cançó ja enregistrada",
-   "url": "https://www.elnacional.cat/ca/tecnologia/apple-compra-samplab-ia-permet-canviar-notes-canco-ja-enregistrada_1712584_102.html",
-   "publicat": "2026-10-21T04:50:00.000Z"
-  },
-  {
-   "id": "7c980f7704d2",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "“Todos hablan de ChatGPT, pero ¿de verdad lo necesitas? Si tu cliente no está ahí, ¿tienes que hacerlo solo porque está de moda?”",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261021/11663487/todos-hablan-chatgpt-verdad-necesitas-cliente-esta-tienes-hacerlo-esta-moda.html",
-   "publicat": "2026-10-21T04:04:42.000Z"
-  },
-  {
-   "id": "5cb62e6ea2e6",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Motor | Volvo Cars y NVIDIA amplían su colaboración para impulsar la conducción automatizada segura",
-   "url": "https://valenciaplaza.com/valenciaplaza/plazamotor/volvo-cars-y-nvidia-amplian-su-colaboracion-para-impulsar-la-conduccion-automatizada-segura",
-   "publicat": "2026-10-21T04:00:05.000Z",
-   "noticia": "volvo-nvidia-conduccio-automatitzada-segura",
-   "noticiaTitol": "Volvo i Nvidia amplien la col·laboració per portar conducció automatitzada als pròxims cotxes de la marca"
-  },
-  {
-   "id": "e2396e1ebe39",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Geoffrey Hinton, el padrino de la IA: “No soy catastrofista. Creo que hay un 1% de posibilidades de que nos destruya”",
-   "url": "https://elpais.com/ciencia/2026-10-21/geoffrey-hinton-el-padrino-de-la-ia-no-soy-catastrofista-creo-que-hay-un-1-de-posibilidades-de-que-nos-destruya.html",
-   "publicat": "2026-10-21T03:30:01.000Z"
-  },
-  {
-   "id": "f0790742f9d4",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic registra unas pérdidas históricas de 80.000 millones de dólares antes de su salida a Bolsa",
-   "url": "https://elpais.com/economia/2026-10-20/anthropic-registra-unas-perdidas-historicas-de-80000-millones-de-dolares-antes-de-su-salida-a-bolsa.html",
-   "publicat": "2026-10-20T22:23:27.000Z"
-  },
-  {
-   "id": "a11c36dd40e6",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "José Elías, el multimilionari que dirigeix 200 empreses: \"He externalitzat el meu cervell a una IA\"",
-   "url": "https://www.elnacional.cat/ca/tecnologia/jose-elias-multimilionari-dirigeix-200-empreses-he-externalitzat-meu-cervell-ia_1712488_102.html",
-   "publicat": "2026-10-20T17:00:00.000Z"
   }
  ]
 }
