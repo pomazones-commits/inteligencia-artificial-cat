@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-27T17:22:04.447Z",
+ "actualitzat": "2026-10-27T17:35:11.953Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "50183305ca87",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La UMH de Elche diseña una IA que afina los destellos que percibe una persona ciega",
+   "url": "https://www.informacion.es/elche/2026/10/27/umh-ia-implante-cerebral-ceguera-investigacion-135817613.html",
+   "publicat": "2026-10-27T17:30:34.000Z"
+  },
+  {
+   "id": "b3c1a4b33010",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un nuevo decreto del Gobierno prioriza las gigafactorias de IA europeas como la de Móra la Nova",
+   "url": "https://www.diaridetarragona.com/economia/274171/nuevo-decreto-gobierno-prioriza-gigafactorias-ia-europeas-mora-nova.html",
+   "publicat": "2026-10-27T17:10:34.000Z"
+  },
   {
    "id": "4c8411ad8e99",
    "mitja": "El Nacional",
@@ -2764,28 +2786,6 @@
    "titol": "Més de 300 professionals quirúrgics convocats per Althaia debaten sobre IA, cirurgia robòtica i cures avançades",
    "url": "https://www.regio7.cat/manresa/2026/10/21/mes-300-professionals-quirurgics-convocats-135589520.html",
    "publicat": "2026-10-21T14:28:13.000Z"
-  },
-  {
-   "id": "c65fb8c3a288",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La basura de Internet puede hacer que la inteligencia artificial cometa errores de razonamiento",
-   "url": "https://www.levante-emv.com/tendencias21/2026/10/21/basura-internet-inteligencia-artificial-cometa-135589501.html",
-   "publicat": "2026-10-21T14:14:26.000Z"
-  },
-  {
-   "id": "073ebce3b69e",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Habla el 'padrino de la IA' y Nobel de Física: \"Va a ser más lista que los humanos, debemos apagarla o hacer que no quiera matarnos\"",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261021/habla-padrino-ia-nobel-fisica-135585204",
-   "publicat": "2026-10-21T13:01:23.000Z"
   }
  ]
 }
