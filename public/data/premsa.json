@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-27T16:03:59.614Z",
+ "actualitzat": "2026-10-27T17:22:04.447Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "4c8411ad8e99",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Móra la Nova guanya marge regulador per al seu projecte de gigafactoria d’IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/economia/mora-nova-guanya-marge-regulador-projecte-gigafactoria-ia_1716538_102.html",
+   "publicat": "2026-10-27T17:02:15.000Z"
+  },
+  {
+   "id": "7264b08b97e5",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La bombolla de la IA esclata a la Xina: 480.000 milions de dòlars evaporats i una caiguda del 40%",
+   "url": "https://www.elnacional.cat/ca/tecnologia/bombolla-ia-esclata-xina-480000-milions-dolars-evaporats-caiguda-40_1716523_102.html",
+   "publicat": "2026-10-27T17:00:00.000Z"
+  },
+  {
+   "id": "25361e265b73",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El 42% de les grans empreses gironines preveuen canvis a la plantilla per la IA",
+   "url": "https://www.diaridegirona.cat/economia/2026/10/27/42-les-grans-empreses-gironines-canvis-plantilla-per-ia-135812869.html",
+   "publicat": "2026-10-27T16:30:27.000Z"
+  },
+  {
+   "id": "862eeadfc19d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La retención de talento y la IA, entre los retos pendientes del tejido empresarial de Girona",
+   "url": "https://www.lavanguardia.com/local/girona/20261027/11668591/retencion-talento-ia-retos-pendientes-tejido-empresarial-girona.html",
+   "publicat": "2026-10-27T16:30:00.000Z"
+  },
   {
    "id": "ba53814ff107",
    "mitja": "El Nacional",
@@ -48,6 +92,17 @@
    "publicat": "2026-10-27T13:48:02.000Z"
   },
   {
+   "id": "4b4a9fd5559f",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Enrique Vila-Matas, Premio Nacional de las Letras 2026: \"A la IA le hago preguntas muy difíciles y la vuelvo completamente loca\"",
+   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261027/enrique-vila-matas-gana-premio-135807546",
+   "publicat": "2026-10-27T13:43:30.000Z"
+  },
+  {
    "id": "9444908c3fff",
    "mitja": "Última Hora",
    "font": "ultimahora-totes",
@@ -78,7 +133,9 @@
    "ambit": "catala",
    "titol": "El decret dels centres de dades dilueix les exigències per a gigafactories d'IA com la de Móra la Nova",
    "url": "https://www.ara.cat/economia/decret-dels-centres-dades-dilueix-exigencies-gigafactories-d-ia-mora-nova_1_5891770.html",
-   "publicat": "2026-10-27T13:15:39.000Z"
+   "publicat": "2026-10-27T13:15:39.000Z",
+   "noticia": "decret-centres-dades-regim-especial-gigafactories-mora-la-nova",
+   "noticiaTitol": "El decret estatal dels centres de dades afluixa les exigències d'aigua i energia per a gigafactories d'IA com la de Móra la Nova"
   },
   {
    "id": "7d5a8287e692",
@@ -2729,61 +2786,6 @@
    "titol": "Habla el 'padrino de la IA' y Nobel de Física: \"Va a ser más lista que los humanos, debemos apagarla o hacer que no quiera matarnos\"",
    "url": "https://www.elperiodico.com/es/tecnologia/20261021/habla-padrino-ia-nobel-fisica-135585204",
    "publicat": "2026-10-21T13:01:23.000Z"
-  },
-  {
-   "id": "e496236489c4",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "\"La IA tendrá su propio idioma\": el Nobel de Física de 2024 predice el devenir tecnológico de la humanidad",
-   "url": "https://www.levante-emv.com/videos/tecnologia/2026/10/21/ia-tendra-propio-idioma-nobel-135585208.html",
-   "publicat": "2026-10-21T12:32:01.000Z"
-  },
-  {
-   "id": "68d0c3ae84e2",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "OpenAI entra en la indústria farmacèutica: compra Orchestra Bio per desenvolupar fàrmacs amb IA",
-   "url": "https://www.elnacional.cat/ca/tecnologia/openai-entra-en-industria-farmaceutica-compra-orchestra-bio-desenvolupar-farmacs-ia_1712908_102.html",
-   "publicat": "2026-10-21T12:30:00.000Z"
-  },
-  {
-   "id": "ada302832325",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Alhambra lleva su innovación al debate europeo sobre inteligencia artificial y patrimonio",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/21/2733701/alhambra-lleva-innovacion-debate-europeo-sobre-inteligencia-artificial-patrimonio.html",
-   "publicat": "2026-10-21T12:04:35.000Z"
-  },
-  {
-   "id": "935d88b8d7e5",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Bolt iniciará en Madrid en 2027 su plan europeo del vehículo autónomo con el respaldo de Nvidia",
-   "url": "https://cincodias.elpais.com/companias/2026-10-21/bolt-iniciara-en-madrid-en-2027-su-plan-europeo-del-vehiculo-autonomo-con-el-respaldo-de-nvidia.html",
-   "publicat": "2026-10-21T11:50:47.000Z"
-  },
-  {
-   "id": "bd2a16ca93d7",
-   "mitja": "Diari de Terrassa",
-   "font": "diarideterrassa",
-   "icona": "/assets/premsa/diari-de-terrassa.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Terrassa Cooperativa presenta “Hackers Socials Davant la IA”",
-   "url": "https://www.diarideterrassa.com/terrassa/terrassa-cooperativa-presenta-hackers-socials-davant-la-ia.html",
-   "publicat": "2026-10-21T11:22:08.000Z"
   }
  ]
 }
