@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-10-27T05:17:30.321Z",
+  "updatedAt": "2026-10-27T09:17:06.203Z",
   "items": [
+    {
+      "category": "MODELS",
+      "read": "4 MIN",
+      "title": "OpenAI llança GPT-6.1 Terra, un model de gamma mitjana que costa la meitat que l'anterior i s'acosta als seus models grans",
+      "excerpt": "El nou model cobra 1 dòlar per milió de paraules d'entrada i 5 de sortida, i segons OpenAI iguala GPT-6 Astra en una prova d'agents per una desena part del preu."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "L'atac a LiteLLM va començar amb una clau mestra que va quedar publicada a GitHub cinc mesos abans i que ningú no va anul·lar",
+      "excerpt": "L'informe de l'empresa explica com l'atacant va passar onze dies dins dels seus sistemes i va publicar una versió infectada d'aquesta eina d'IA, baixada unes 49.000 vegades en menys de dues hores."
+    },
+    {
+      "category": "EMPRESA",
+      "read": "4 MIN",
+      "title": "IBM prepara Z Atlas, una eina d'agents d'IA per entendre i modernitzar els grans ordinadors centrals de bancs i asseguradores",
+      "excerpt": "L'empresa diu que la causa principal de les aturades inesperades d'aquests sistemes són els canvis que no s'han provat prou, i promet que la IA en mapejarà les dependències abans de tocar res."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Una IA localitza funció per funció els errors dels contractes intel·ligents i n'explica la causa i la solució, segons un estudi japonès",
+      "excerpt": "Un equip del JAIST combina una xarxa neuronal de grafs amb models de llenguatge compactes que donen informes gairebé tan bons com els dels grans models comercials, en un estudi a «ACM Transactions on Software Engineering and Methodology»."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Per què costa tant llegir els textos de la IA: un estudi hi troba més noms encadenats, frases enrevessades i objectes que «actuen»",
+      "excerpt": "Investigadors de la Universitat de Nova York i de la Universitat de Texas a Austin atribueixen el problema a l'entrenament dels models en matemàtiques i programació, en una prepublicació encara no revisada per parells."
+    },
     {
       "category": "INVERSIÓ",
       "read": "4 MIN",
