@@ -1,8 +1,107 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-26T22:54:05.775Z",
+ "actualitzat": "2026-10-27T05:18:16.036Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "5aa8ad9a916c",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Opinión | La batalla por el valor de la IA también se libra en la Comunitat Valenciana",
+   "url": "https://valenciaplaza.com/valenciaplaza/opinion/la-batalla-por-el-valor-de-la-ia-tambien-se-libra-en-la-comunitat-valenciana",
+   "publicat": "2026-10-27T05:00:05.000Z"
+  },
+  {
+   "id": "61467ac0774d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "'AI shame': la vergüenza de usar inteligencia artificial",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261027/11666285/ai-shame-vergueenza-inteligencia-artificial.html",
+   "publicat": "2026-10-27T05:00:00.000Z"
+  },
+  {
+   "id": "8e9ff28889d7",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Ana García Robles, responsable del Laboratorio de Gobernanza de la IA para la Humanidad de la ONU: “Debemos poner a las personas en el centro”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261027/11661550/ana-garcia-robles-responsable-laboratorio-gobernanza-ia-humanidad-onu-debemos-poner-personas-centro.html",
+   "publicat": "2026-10-27T05:00:00.000Z"
+  },
+  {
+   "id": "918e24239376",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Defensa Jurídica busca su salto de crecimiento entre IA, pymes y la protección al ciudadano",
+   "url": "https://www.lavanguardia.com/seguros/20261027/11668457/defensa-juridica-busca-salto-crecimiento-ia-pymes-proteccion-ciudadano.html",
+   "publicat": "2026-10-27T05:00:00.000Z"
+  },
+  {
+   "id": "83f00ad03913",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los pequeños inversores europeos podrán comprar acciones de Anthropic en la OPV",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-27/los-pequenos-inversores-europeos-podran-comprar-acciones-de-anthropic-en-la-opv.html",
+   "publicat": "2026-10-27T04:25:00.000Z"
+  },
+  {
+   "id": "e8bd61dcf165",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Milei, la IA i “Broncano” en campanya",
+   "url": "https://www.segre.com/ca/opinio/col-laboracio/261027/milei-ia-i-broncano-campanya_1377517.html",
+   "publicat": "2026-10-27T04:22:00.000Z"
+  },
+  {
+   "id": "5667d08ba6c7",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El Govern aplana les exigències a la gigafactoria d’IA de Tarragona",
+   "url": "https://www.elperiodico.cat/economia/20261027/govern-aplana-les-exigencies-gigafactoria-135789669",
+   "publicat": "2026-10-27T04:02:15.000Z"
+  },
+  {
+   "id": "02b3852e8a72",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Almadía y el topetazo con la IA",
+   "url": "https://www.lavanguardia.com/cultura/20261027/11668950/almadia-topetazo-ia.html",
+   "publicat": "2026-10-27T00:21:20.000Z"
+  },
+  {
+   "id": "8ac458cc6129",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Educación pregunta a los alumnos por la calidad de sus profesores y por el uso de Inteligencia Artificial",
+   "url": "https://www.lasprovincias.es/comunitat/educacion-pregunta-alumnos-calidad-profesores-uso-inteligencia-20261026004126-nt.html",
+   "publicat": "2026-10-26T23:41:26.000Z"
+  },
   {
    "id": "98f671d0634d",
    "mitja": "Información",
@@ -56,7 +155,9 @@
    "ambit": "catala",
    "titol": "Colau demana a Sánchez, Feijóo i Abascal no utilitzar la IA \"amb ús vexatori\" durant la campanya",
    "url": "https://www.elnacional.cat/ca/politica/colau-demana-sanchez-feijoo-abascal-no-utilitzar-ia-us-vexatori-durant-campanya_1716019_102.html",
-   "publicat": "2026-10-26T19:18:34.000Z"
+   "publicat": "2026-10-26T19:18:34.000Z",
+   "noticia": "colau-carta-ia-vexatoria-campanya-29n",
+   "noticiaTitol": "Ada Colau proposa a Sánchez, Feijóo i Abascal un pacte per no fer servir vídeos falsos amb IA contra els rivals a la campanya del 29-N"
   },
   {
    "id": "a475758d8400",
@@ -144,7 +245,9 @@
    "ambit": "catala",
    "titol": "Meta anuncia un pla de vendes d'accions per valor de 95.000 milions de dòlars per a finançar la IA",
    "url": "https://www.apuntmedia.es/noticies/economia/meta-anuncia-un-pla-vendes-d-accions-valor-95-000-milions-dolars-financar-ia_1_1904447.html",
-   "publicat": "2026-10-26T17:17:45.000Z"
+   "publicat": "2026-10-26T17:17:45.000Z",
+   "noticia": "meta-vendes-accions-95000-milions-ia",
+   "noticiaTitol": "ACTUALITZACIÓ: Meta posarà a la venda accions per valor de fins a 95.000 milions de dòlars per pagar la seva aposta per la IA"
   },
   {
    "id": "3d5b12fe2271",
@@ -199,7 +302,9 @@
    "ambit": "catala",
    "titol": "Demanden Anthropic per fer servir les cançons d'Elvis Presley per entrenar la IA",
    "url": "https://www.3cat.cat/3catinfo/demanden-anthropic-per-fer-servir-les-cancons-delvis-presley-per-entrenar-la-ia/noticia/3436150",
-   "publicat": "2026-10-26T16:02:07.000Z"
+   "publicat": "2026-10-26T16:02:07.000Z",
+   "noticia": "propietaris-elvis-presley-demanden-anthropic",
+   "noticiaTitol": "Els propietaris dels drets d'Elvis Presley demanden Anthropic per haver entrenat Claude amb 274 cançons seves sense permís"
   },
   {
    "id": "083b02c200ad",
@@ -2681,109 +2786,6 @@
    "titol": "Aprobado el plan catalán contra las ciberestafas, con un nuevo asistente de IA para la ciudadanía",
    "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/20/2732757/aprobado-plan-catalan-contra-ciberestafas-nuevo-asistente-para-ciudadania.html",
    "publicat": "2026-10-20T10:53:11.000Z"
-  },
-  {
-   "id": "3b35583bd5b7",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una investigación sobre el saqueo masivo de conocimiento para alimentar la IA gana el Premio Anagrama de Ensayo",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261020/premio-anagrama-ensayo-xavier-nueno-ia-robo-135528734",
-   "publicat": "2026-10-20T10:50:29.000Z"
-  },
-  {
-   "id": "b35710a517a6",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una investigación sobre cómo la IA se apropia de la memoria colectiva gana el Anagrama de Ensayo",
-   "url": "https://www.lavanguardia.com/cultura/20261020/11663535/xavier-nueno-gana-anagrama-ensayo-inteligencia-artidicial-apropia-memoria-colectiva.html",
-   "publicat": "2026-10-20T10:29:52.000Z"
-  },
-  {
-   "id": "0b719961b8c5",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El exCEO de Google aflora un 1% de Anthropic y refuerza la presencia en el capital de los gigantes tecnológicos",
-   "url": "https://cincodias.elpais.com/companias/2026-10-20/el-exceo-de-google-aflora-un-1-de-anthropic-y-refuerza-la-presencia-en-el-capital-de-los-gigantes-tecnologicos.html",
-   "publicat": "2026-10-20T10:21:38.000Z"
-  },
-  {
-   "id": "68c92bae446a",
-   "mitja": "Ara Balears",
-   "font": "arabalears",
-   "icona": "/assets/premsa/ara-balears.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Premi Anagrama per a un crit d'alerta sobre la privatització del saber i la trampa de la IA",
-   "url": "https://llegim.ara.cat/actualitat/premi-anagrama-crit-d-alerta-privatitzacio-trampa-ia_1_5884593.html",
-   "publicat": "2026-10-20T10:18:14.000Z",
-   "noticia": "xavier-nueno-premi-anagrama-assaig-revuelta-copistas-ia",
-   "noticiaTitol": "El barceloní Xavier Nueno guanya el Premi Anagrama d'Assaig amb un llibre sobre com la IA s'apropia del saber"
-  },
-  {
-   "id": "299bb9ac730c",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Mercados | Aviso a navegantes en IA: la surcoreana Elice Group se desploma un 32% en su estreno bursátil",
-   "url": "https://valenciaplaza.com/valenciaplaza/bolsas/aviso-a-navegantes-en-ia-la-surcoreana-elice-group-se-desploma-un-32-en-su-estreno-bursatil",
-   "publicat": "2026-10-20T09:30:44.000Z"
-  },
-  {
-   "id": "8fd224719c37",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "EEUU expulsa a la IA china DeepSeek del sector público y recrudece la guerra fría tecnológica",
-   "url": "https://www.eldiario.es/tecnologia/eeuu-expulsa-ia-china-deepseek-sector-publico-recrudece-guerra-fria-tecnologica_1_13599234.html",
-   "publicat": "2026-10-20T09:19:47.000Z"
-  },
-  {
-   "id": "cb8bd368e97e",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las IA inventan su propio lenguaje sin un diccionario común: así consiguen entenderse",
-   "url": "https://www.levante-emv.com/tendencias21/2026/10/20/ia-inventan-propio-lenguaje-diccionario-135531150.html",
-   "publicat": "2026-10-20T09:17:42.000Z"
-  },
-  {
-   "id": "e8fdcb910001",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "OpenAI acelera su ronda antes de la salida a Bolsa de Anthropic y en plena crisis financiera de la IA",
-   "url": "https://cincodias.elpais.com/companias/2026-10-20/openai-acelera-su-ronda-antes-de-la-salida-a-bolsa-de-anthropic-y-en-plena-crisis-financiera-de-la-ia.html",
-   "publicat": "2026-10-20T09:13:12.000Z"
-  },
-  {
-   "id": "d3434a5ff7df",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA podria calcular el risc de mort de pacients amb càncer amb una anàlisi de la cara",
-   "url": "https://www.elnacional.cat/ca/salut/ia-podria-calcular-risc-mort-pacients-cancer-analisi-cara_1712053_102.html",
-   "publicat": "2026-10-20T09:03:09.000Z",
-   "noticia": "ia-cara-risc-mort-pacients-cancer-lancet-digital-health",
-   "noticiaTitol": "Una IA calcula el risc de mort de pacients amb càncer a partir d'una fotografia de la cara, però encara és lluny de la clínica"
   }
  ]
 }
