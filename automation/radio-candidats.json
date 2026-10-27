@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-25T16:14:03.333Z",
+  "generat": "2026-10-27T23:03:57.923Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -8,7 +8,7 @@
       "programa": "Revolució 4.0",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 13
+      "sobre_ia": 11
     },
     {
       "font": "3cat",
@@ -16,7 +16,7 @@
       "programa": "Catalunya nit",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 6
+      "sobre_ia": 7
     },
     {
       "font": "3cat",
@@ -72,7 +72,7 @@
       "programa": "La tarda de Ràdio 4",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 1
     },
     {
       "font": "rtve",
@@ -126,7 +126,7 @@
       "font": "apunt",
       "emissora": "À Punt Ràdio",
       "programa": "",
-      "resultats": 4,
+      "resultats": 3,
       "estat": "ok",
       "audios": 0,
       "sobre_ia": 0
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 24,
+      "audios": 20,
       "sobre_ia": 4
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 8,
+      "audios": 12,
       "sobre_ia": 1
     },
     {
@@ -173,9 +173,27 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 300,
-      "sobre_ia": 3
+      "audios": 400,
+      "sobre_ia": 2
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "3cat-1295602",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-10-27",
+      "durada": "10 min",
+      "titol_original": "Román Orús: \"Si una novel·la està escrita amb IA i ens emociona, té menys valor?\"",
+      "descripcio_original": "Cada 15 dies al \"Catalunya nit\" parlem amb Román Orús, l'únic català i espanyol que és membre del Panel Científic Internacional sobre Intel·ligència Artificial de les Nacions Unides. Aquesta setmana valorem la notícia de la novel·la \"Donde el agua trabaja\", una obra que havia estat guardonada amb el primer premi Internacional de novel·la breu Almadía Ventosa-Arrufat, però que es va descobrir que estava escrita en un 99% amb IA.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.3cat.cat/3cat/roman-orus-si-una-novella-esta-escrita-amb-ia-i-ens-emociona-te-menys-valor/audio/1295602/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1295602"
+      }
+    }
+  ]
 }
