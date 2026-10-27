@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-27T17:35:11.953Z",
+ "actualitzat": "2026-10-27T21:00:15.761Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "07563c7cb8f0",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Audi y NVIDIA desplegarán robots humanoides capaces de clasificar un millón de piezas al día",
+   "url": "https://www.elperiodico.com/es/motor/20261027/audi-nvidia-desplegaran-robots-humanoides-135763361",
+   "publicat": "2026-10-27T20:30:24.000Z"
+  },
+  {
+   "id": "6d122905de4d",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA torna a ficar-se en problemes: els hereus d'Elvis Presley reclamen 36 milions d'euros a Anthropic",
+   "url": "https://www.elnacional.cat/ca/tecnologia/ia-torna-ficar-se-en-problemes-hereus-elvis-presley-reclamen-36-milions-euros-anthropic_1716562_102.html",
+   "publicat": "2026-10-27T19:00:00.000Z"
+  },
+  {
+   "id": "767392cfb343",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "OpenAI asegura haber resuelto parte de un Problema del Milenio gracias a la inteligencia artificial",
+   "url": "https://www.elmundo.es/tecnologia/2026/10/27/6ae0efe921efa071288b45a3.html",
+   "publicat": "2026-10-27T18:39:44.000Z"
+  },
   {
    "id": "50183305ca87",
    "mitja": "Información",
@@ -34,7 +67,7 @@
    "ambit": "catala",
    "titol": "Móra la Nova guanya marge regulador per al seu projecte de gigafactoria d’IA",
    "url": "https://www.elnacional.cat/oneconomia/ca/economia/mora-nova-guanya-marge-regulador-projecte-gigafactoria-ia_1716538_102.html",
-   "publicat": "2026-10-27T17:02:15.000Z"
+   "publicat": "2026-10-27T17:02:00.000Z"
   },
   {
    "id": "7264b08b97e5",
@@ -114,17 +147,6 @@
    "publicat": "2026-10-27T13:48:02.000Z"
   },
   {
-   "id": "4b4a9fd5559f",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Enrique Vila-Matas, Premio Nacional de las Letras 2026: \"A la IA le hago preguntas muy difíciles y la vuelvo completamente loca\"",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261027/enrique-vila-matas-gana-premio-135807546",
-   "publicat": "2026-10-27T13:43:30.000Z"
-  },
-  {
    "id": "9444908c3fff",
    "mitja": "Última Hora",
    "font": "ultimahora-totes",
@@ -191,6 +213,17 @@
    "titol": "La mateixa Google situa Gemini 4 Argon molt per darrere de Claude i GPT-6",
    "url": "https://www.elnacional.cat/ca/tecnologia/mateixa-google-situa-gemini-4-argon-molt-darrere-claude-gpt-6_1716403_102.html",
    "publicat": "2026-10-27T13:05:00.000Z"
+  },
+  {
+   "id": "bc2e6b1d31e8",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Enrique Vila-Matas, Premio Nacional de las Letras 2026: \"A la IA le hago preguntas muy difíciles y la vuelvo completamente loca\"",
+   "url": "https://www.diariodemallorca.es/cultura/2026/10/27/enrique-vila-matas-premio-nacional-135807599.html",
+   "publicat": "2026-10-27T13:04:47.000Z"
   },
   {
    "id": "b4aada0b6ea7",
@@ -378,6 +411,17 @@
    "titol": "El fundador de TikTok bat rècord de riquesa a la Xina impulsat per IA",
    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/fundador-tiktok-bat-record-riquesa-xina-impulsat-ia_1716070_102.html",
    "publicat": "2026-10-27T07:42:35.000Z"
+  },
+  {
+   "id": "394a0ecaa579",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Australia alerta de una amenaza cibernética sin precedentes por el avance de la IA",
+   "url": "https://www.elmundo.es/tecnologia/2026/10/27/6ae0464afc6c830c518b45a4.html",
+   "publicat": "2026-10-27T06:51:55.000Z"
   },
   {
    "id": "d58714fd6d41",
@@ -2740,52 +2784,6 @@
    "titol": "Inteligencia artificial y manipulación: nuevas claves para interpretar lo que vemos en internet",
    "url": "https://elpais.com/tecnologia/branded/seguridad-dia-a-dia/2026-10-21/inteligencia-artificial-y-manipulacion-nuevas-claves-para-interpretar-lo-que-vemos-en-internet.html",
    "publicat": "2026-10-21T15:53:30.000Z"
-  },
-  {
-   "id": "775a32af7593",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Dos agentes de OpenAI desactivan la monitorización de desalineación durante pruebas rutinarias de programación",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/21/2733721/dos-agentes-openai-desactivan-monitorizacion-desalineacion-durante-pruebas-rutinarias-programacion.html",
-   "publicat": "2026-10-21T15:44:00.000Z"
-  },
-  {
-   "id": "e3c372a330bd",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA arriba al món casteller: així és el joc creat per Pau Garcia-Milà",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/ia-arriba-mon-casteller-aixi-es-joc-creat-emprenedor-catala_1713016_102.html",
-   "publicat": "2026-10-21T15:18:00.000Z",
-   "noticia": "quina-colla-joc-castells-pau-garcia-mila-claude",
-   "noticiaTitol": "Pau Garcia-Milà crea amb Claude «Quina colla!», un joc gratuït per descobrir els castells"
-  },
-  {
-   "id": "131001a13bbb",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Els experts llancen una advertència sobre la IA: podem acabar sent simples closques buides",
-   "url": "https://www.elnacional.cat/ca/tecnologia/experts-llancen-advertencia-sobre-ia-podem-acabar-sent-simples-closques-buides_1713007_102.html",
-   "publicat": "2026-10-21T15:00:00.000Z"
-  },
-  {
-   "id": "0ac904856434",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Més de 300 professionals quirúrgics convocats per Althaia debaten sobre IA, cirurgia robòtica i cures avançades",
-   "url": "https://www.regio7.cat/manresa/2026/10/21/mes-300-professionals-quirurgics-convocats-135589520.html",
-   "publicat": "2026-10-21T14:28:13.000Z"
   }
  ]
 }
