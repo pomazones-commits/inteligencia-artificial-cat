@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-28T10:02:01.045Z",
+ "actualitzat": "2026-10-28T13:33:29.963Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "6ep8Vvm4Bdw",
+   "titol": "Why Merge CEO Shensi Ding stays hands-on with Codex",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-10-28T11:50:26.000Z",
+   "descripcio": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. Using Codex, she asked it to help redesign a feature using the product’s existing design system. She describes it working",
+   "miniatura": "/assets/videos/6ep8Vvm4Bdw.jpg"
+  },
   {
    "id": "M2Oa42hF67E",
    "titol": "From legal bottleneck to business partner | Legora’s Emma Kadri Bergström",
