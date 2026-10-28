@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-28T13:33:29.963Z",
+ "actualitzat": "2026-10-28T17:22:07.484Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "pQ_Dnr9Q4k8",
+   "titol": "Functional smart devices using Gemini 4 Argon and Google Antigravity",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-28T15:08:11.000Z",
+   "descripcio": "What happens when you have a wild hardware idea and zero clue how to build it? Watch to see how these makers used Gemini 4 Argon and Google Antigravity to take a custom \"Surf Clock\" from a rough sketch to a working prototype. The models explored: *Initial concepts to lock in a retro 60s design *Ran ",
+   "miniatura": "/assets/videos/pQ_Dnr9Q4k8.jpg"
+  },
   {
    "id": "6ep8Vvm4Bdw",
    "titol": "Why Merge CEO Shensi Ding stays hands-on with Codex",
@@ -12,7 +24,7 @@
    "categoria": "programacio",
    "idioma": "en",
    "publicat": "2026-10-28T11:50:26.000Z",
-   "descripcio": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. Using Codex, she asked it to help redesign a feature using the product’s existing design system. She describes it working",
+   "descripcio": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. With Codex, she asked for help redesigning a feature without prescribing the solution. It drew on Merge’s existing design",
    "miniatura": "/assets/videos/6ep8Vvm4Bdw.jpg"
   },
   {
@@ -1172,18 +1184,6 @@
    "publicat": "2026-10-07T21:10:48.000Z",
    "descripcio": "Explore how Higgsfield agents choose models and provision their own compute. Learn when to use dedicated GPUs or hosted models, how to deliver predictable throughput, and where the approach can fail.",
    "miniatura": "/assets/videos/8804JYm81cc.jpg"
-  },
-  {
-   "id": "pijSNA-hWkg",
-   "titol": "Turning code into fabric with Gemini",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-07T16:00:07.000Z",
-   "descripcio": "Look what you can do! Explore the intersection of binary coding and fabric-making with Computational Knitting. Built with Gemini, Carrie's project transforms algorithmic processes into unique textile designs knit on a computerized knitting machine. Watch as she brings these digital designs to life s",
-   "miniatura": "/assets/videos/pijSNA-hWkg.jpg"
   }
  ]
 }
