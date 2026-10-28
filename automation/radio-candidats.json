@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-28T05:14:30.314Z",
+  "generat": "2026-10-28T09:17:59.269Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -16,7 +16,7 @@
       "programa": "Catalunya nit",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 7
+      "sobre_ia": 8
     },
     {
       "font": "3cat",
@@ -24,7 +24,7 @@
       "programa": "El matí de Catalunya Ràdio",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 0
     },
     {
       "font": "3cat",
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 19,
+      "audios": 20,
       "sobre_ia": 3
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 12,
+      "audios": 11,
       "sobre_ia": 1
     },
     {
@@ -179,20 +179,20 @@
   ],
   "candidats": [
     {
-      "id": "rtve-17286319",
-      "emissora": "Ràdio 4",
-      "programa": "El pla B",
-      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
+      "id": "3cat-1295605",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
       "data": "2026-10-27",
-      "durada": "15 min",
-      "titol_original": "Eleccions sota la influència dels algoritmes",
-      "descripcio_original": "Avui parlem amb l’expert en comunicació política Xavier Tomàs sobre com les xarxes socials i la intel·ligència artificial han transformat les campanyes electorals. Des de la difusió de notícies falses fins als vídeos manipulats i els comptes falsos, analitzem com aquestes eines poden condicionar el vot, alimentar la polarització i posar en risc la confiança ciutadana, amb exemples recents de països com Israel, Brasil i Espanya. Encetem també la tertúlia amb Anna Grau, Xavier Tomàs, Miguel Ángel Ochoa, Sabrin Araibi i David Langa.",
+      "durada": "1 h 0 min",
+      "titol_original": "Catalunya nit, de 22 a 23 h - 27/10/2026",
+      "descripcio_original": "Recordem Amy Winehouse quan fa 20 anys de la publicació del disc \"Back to black\". I amb l'expert Román Orús ens preguntem fins a quin punt la IA és 100% fiable.",
       "descripcio_curta": false,
       "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-eleccions-sota-influencia-dels-algoritmes/17286319/",
+      "url": "https://www.3cat.cat/3cat/catalunya-nit-de-22-a-23-h-27102026/audio/1295605/",
       "reproductor": {
-        "tipus": "rtve",
-        "id": "17286319"
+        "tipus": "3cat",
+        "id": "1295605"
       }
     }
   ]

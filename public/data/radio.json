@@ -52,6 +52,28 @@
   },
   "intervencions": [
     {
+      "id": "rtve-17286319",
+      "emissora": "Ràdio 4",
+      "programa": "El pla B",
+      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
+      "data": "2026-10-27",
+      "durada": "15 min",
+      "titol": "Com la IA i les xarxes poden condicionar el vot en una campanya electoral",
+      "convidats": [
+        {
+          "nom": "Xavier Tomàs",
+          "rol": "expert en comunicació política"
+        }
+      ],
+      "resum": "L'expert en comunicació política Xavier Tomàs analitza a «El pla B» com les xarxes socials i la intel·ligència artificial han canviat les campanyes electorals: de les notícies falses als vídeos manipulats i els comptes falsos. El programa repassa com poden influir en el vot, alimentar la polarització i erosionar la confiança ciutadana, amb exemples d'Israel, el Brasil i l'Estat espanyol.",
+      "tema": "poder",
+      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-eleccions-sota-influencia-dels-algoritmes/17286319/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17286319"
+      }
+    },
+    {
       "id": "3cat-1295602",
       "emissora": "Catalunya Ràdio",
       "programa": "Catalunya nit",
