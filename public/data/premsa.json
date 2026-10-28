@@ -1,8 +1,129 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-28T05:15:07.257Z",
+ "actualitzat": "2026-10-28T09:18:30.773Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "2b9aadfa9f9f",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Begoña Gómez denuncia al PP por suplantación de identidad por el vídeo hecho con IA",
+   "url": "https://www.lavanguardia.com/politica/20261028/11669924/begona-gomez-denuncia-pp-suplantacion-identidad-video-hecho-ia.html",
+   "publicat": "2026-10-28T07:55:35.000Z"
+  },
+  {
+   "id": "992c152d0420",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia injecta 3.000 milions a Meta per impulsar Muse",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nvidia-injecta-3000-milions-meta-impulsar-muse_1716670_102.html",
+   "publicat": "2026-10-28T07:52:06.000Z"
+  },
+  {
+   "id": "43e79aae3ae9",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Begoña Gómez ha presentado una denuncia por suplantación de imagen por el vídeo de IA del PP",
+   "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/28/2737937/begona-gomez-presentado-denuncia-por-suplantacion-imagen-por-video-del-pp.html",
+   "publicat": "2026-10-28T07:52:00.000Z"
+  },
+  {
+   "id": "c84416299731",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Begoña Gómez denuncia el PP pel vídeo fet amb IA que li suplantava la imatge",
+   "url": "https://www.elnacional.cat/ca/politica/begona-gomez-denuncia-pp-video-fet-ia-suplantava-imatge_1716664_102.html",
+   "publicat": "2026-10-28T07:49:00.000Z"
+  },
+  {
+   "id": "f3a1c0337529",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Begoña Gómez denuncia el PP per haver suplantat la seva identitat en un vídeo fet amb intel·ligència artificial",
+   "url": "https://www.vilaweb.cat/noticies/begona-gomez-denuncia-pp-suplantat-identitat-video",
+   "publicat": "2026-10-28T07:41:21.000Z"
+  },
+  {
+   "id": "d8bcf2e1c728",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Sánchez desvela una demanda de Begoña Gómez contra el PP por un vídeo con 'deepfake'",
+   "url": "https://www.elperiodico.com/es/politica/20261028/sanchez-demanda-begona-gomez-pp-video-135830761",
+   "publicat": "2026-10-28T07:39:37.000Z"
+  },
+  {
+   "id": "48cc4ba7145d",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Constructors d'agents d'IA. Nivell 2",
+   "url": "https://www.diariandorra.ad/entreteniment/261028/constructors-d-agents-d-ia-nivell-2_207506.html",
+   "publicat": "2026-10-28T06:25:09.000Z"
+  },
+  {
+   "id": "559edf4e888c",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Andorra serà seu de la pròxima conferència europea sobre els reptes de la IA",
+   "url": "https://www.diariandorra.ad/nacional/261028/andorra-sera-seu-proxima-conferencia-europea-sobre-els-reptes-ia_207497.html",
+   "publicat": "2026-10-28T06:01:01.000Z"
+  },
+  {
+   "id": "7234e4f20d45",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Akaen, el socio tecnológico que lleva la inteligencia artificial al día a día de las empresas",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261028/11665421/akaen-socio-tecnologico-lleva-inteligencia-artificial-dia-dia-empresas.html",
+   "publicat": "2026-10-28T06:00:00.000Z"
+  },
+  {
+   "id": "7f0cc1ac21d3",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Podría la superinteligencia artificial dominar el mundo? 5 escenarios 'realistas' que contemplan los expertos",
+   "url": "https://www.lavanguardia.com/neo/ia/20261028/11669105/superinteligencia-artificial-dominar-mundo-5-escenarios-realistas-contemplan-expertos.html",
+   "publicat": "2026-10-28T06:00:00.000Z"
+  },
+  {
+   "id": "87591a7e07f1",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Bibiana Candia, escritora: “Las empresas de inteligencia artificial no solo amenazan con quitar los trabajos a las personas, sino con cambiar la humanidad”",
+   "url": "https://www.lavanguardia.com/historiayvida/historia-contemporanea/20261028/11664376/bibiana-candia-escritora-empresas-inteligencia-artificial-amenazan-quitar-trabajos-personas-cambiar-humanidad.html",
+   "publicat": "2026-10-28T05:30:00.000Z"
+  },
   {
    "id": "f5fa0b21000c",
    "mitja": "El Periódico",
@@ -2661,127 +2782,6 @@
    "titol": "Alexander Seoane (LIN3S): \"I si poguessis saber si la teva publicitat funcionarà abans de gastar ni un sol euro?\"",
    "url": "https://www.elperiodico.cat/tecnologia/20261022/alexander-seoane-lin3s-poguessis-teva-135609236",
    "publicat": "2026-10-22T07:30:22.000Z"
-  },
-  {
-   "id": "7ee1cab93f21",
-   "mitja": "Nació Digital",
-   "font": "naciodigital-totes",
-   "icona": "/assets/premsa/nacio-digital.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Món Sant Benet reuneix més de 300 professionals quirúrgics per debatre sobre la IA",
-   "url": "https://naciodigital.cat/manresa/societat/mon-sant-benet-reuneix-mes-de-300-professionals-quirurgics-per-debatre-sobre-la-ia.html",
-   "publicat": "2026-10-22T06:37:56.000Z"
-  },
-  {
-   "id": "d693bcc64658",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La patentabilidad de la inteligencia artificial en Europa: una cuestión estratégica para el ‘deep tech’",
-   "url": "https://cincodias.elpais.com/legal/2026-10-22/la-patentabilidad-de-la-inteligencia-artificial-en-europa-una-cuestion-estrategica-para-el-deep-tech.html",
-   "publicat": "2026-10-22T06:30:00.000Z"
-  },
-  {
-   "id": "386a80b15fd2",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "René Nicolodi (Swisscanto): “No estamos ante una burbuja de la inteligencia artificial, tenemos una burbuja en la financiación”",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-22/rene-nicolodi-swisscanto-no-estamos-ante-una-burbuja-de-la-inteligencia-artificial-tenemos-una-burbuja-en-la-financiacion.html",
-   "publicat": "2026-10-22T06:07:39.000Z"
-  },
-  {
-   "id": "4af32f4ecbca",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El AI Act convierte la regulación de la IA en una oportunidad para innovar",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261022/11653261/ai-act-convierte-regulacion-inteligencia-artificial-oportunidad-innovar.html",
-   "publicat": "2026-10-22T05:00:00.000Z"
-  },
-  {
-   "id": "bb50ede91a91",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "\"Això també és IA?\"",
-   "url": "https://www.elperiodico.com/es/entre-todos/participacion/aixo-tambe-ia-carta-laia-alguero-135484443",
-   "publicat": "2026-10-22T04:30:57.000Z"
-  },
-  {
-   "id": "898cad3ffea9",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | El 51% de los compradores online españoles ya utiliza IA: las marcas empiezan a competir por la recomendación, no solo por el clic",
-   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/el-51-de-los-compradores-online-espanoles-ya-utiliza-ia-las-marcas-empiezan-a-competir-por-la-recomendacion-no-solo-por-el-clic",
-   "publicat": "2026-10-22T04:00:05.000Z"
-  },
-  {
-   "id": "e60d5f453607",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | Las dos vías de entrada de la inteligencia artificial en la empresa",
-   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/las-dos-vias-de-entrada-de-la-inteligencia-artificial-en-la-empresa",
-   "publicat": "2026-10-22T04:00:05.000Z"
-  },
-  {
-   "id": "62bc10f2d71c",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-tec",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las enormes deudas de la industria de la IA ponen nerviosos a los inversores",
-   "url": "https://www.lavanguardia.com/tecnologia/20261022/11663839/ia-inteligencia-artificial-endeudamiento-burbuja.html",
-   "publicat": "2026-10-22T04:00:00.000Z"
-  },
-  {
-   "id": "db2f00321292",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El CTO de Zoom, Xuedong Huang, explica su nueva apuesta por la IA: “Antes de terminar esta reunión, tu artículo ya estará escrito”",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261022/11660815/cto-zoom-xuedong-huang-explica-nueva-apuesta-ia-terminar-reunion-articulo-estara-escrito.html",
-   "publicat": "2026-10-22T04:00:00.000Z"
-  },
-  {
-   "id": "f1090a5fc152",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El VDS de Valencia, la fiesta emprendedora donde la invitada estrella es la IA",
-   "url": "https://www.lavanguardia.com/local/valencia/20261022/11664718/vds-valencia-fiesta-emprendedora-invitada-estrella-ia.html",
-   "publicat": "2026-10-22T03:45:00.000Z"
-  },
-  {
-   "id": "f763562f24de",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA ens podria fer rics a tots?",
-   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/ia-ens-podria-fer-rics-tots-esteve-almirall_1712293_102.html",
-   "publicat": "2026-10-22T03:30:00.000Z"
   }
  ]
 }
