@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-28T09:18:30.773Z",
+ "actualitzat": "2026-10-28T10:51:44.963Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "dce04010f5ec",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La «carrera de la Reina Roja»: por qué la IA puede encontrar fallos de seguridad antes de que dé tiempo a corregirlos",
+   "url": "https://www.levante-emv.com/tendencias21/2026/10/28/carrera-reina-roja-ia-encontrar-135836829.html",
+   "publicat": "2026-10-28T10:17:16.000Z"
+  },
+  {
+   "id": "857b990cae0d",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Agentes de IA de una 'startup' acceden a Anthropic aprovechando fallos de software empresarial de terceros",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/28/2738021/agentes-startup-acceden-anthropic-aprovechando-fallos-software-empresarial-terceros.html",
+   "publicat": "2026-10-28T09:37:00.000Z"
+  },
+  {
+   "id": "8fee001a43d7",
+   "mitja": "Nació Digital",
+   "font": "naciodigital-totes",
+   "icona": "/assets/premsa/nacio-digital.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Begoña Gómez denuncia el PP per suplantació pel vídeo fet amb IA en què li fan admetre delictes",
+   "url": "https://naciodigital.cat/politica/begona-gomez-denuncia-el-pp-per-suplantacio-pel-video-en-que-li-fan-admetre-delictes-amb-intelligencia-artificial.html",
+   "publicat": "2026-10-28T09:19:33.000Z"
+  },
   {
    "id": "2b9aadfa9f9f",
    "mitja": "La Vanguardia",
@@ -120,7 +153,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Bibiana Candia, escritora: “Las empresas de inteligencia artificial no solo amenazan con quitar los trabajos a las personas, sino con cambiar la humanidad”",
+   "titol": "Bibiana Candia, escritora: “La inteligencia artificial amenaza el trabajo y la humanidad”",
    "url": "https://www.lavanguardia.com/historiayvida/historia-contemporanea/20261028/11664376/bibiana-candia-escritora-empresas-inteligencia-artificial-amenazan-quitar-trabajos-personas-cambiar-humanidad.html",
    "publicat": "2026-10-28T05:30:00.000Z"
   },
@@ -2749,39 +2782,6 @@
    "publicat": "2026-10-22T08:21:33.000Z",
    "noticia": "alboraia-vigilancia-vessaments-sequies-ia-cameres-multiespectrals",
    "noticiaTitol": "Alboraia vigila amb IA i càmeres multiespectrals les séquies de l'Horta per detectar abocaments abans que es propaguin"
-  },
-  {
-   "id": "37c098c886c6",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El PP usa con IA la imagen y la voz de socialistas o exsocialistas admitiendo delitos",
-   "url": "https://www.lavanguardia.com/politica/20261022/11665207/pp-ia-imagen-voz-socialistas-contraatacar-campana-zurdos.html",
-   "publicat": "2026-10-22T07:37:26.000Z"
-  },
-  {
-   "id": "d54c3496c6dd",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nokia dispara un 10% sus ventas impulsada por el auge de la IA",
-   "url": "https://cincodias.elpais.com/companias/2026-10-22/nokia-dispara-un-10-sus-ventas-impulsada-por-el-auge-de-la-ia.html",
-   "publicat": "2026-10-22T07:31:27.000Z"
-  },
-  {
-   "id": "bd05e31237a4",
-   "mitja": "El Periódico",
-   "font": "elperiodico-tec",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Alexander Seoane (LIN3S): \"I si poguessis saber si la teva publicitat funcionarà abans de gastar ni un sol euro?\"",
-   "url": "https://www.elperiodico.cat/tecnologia/20261022/alexander-seoane-lin3s-poguessis-teva-135609236",
-   "publicat": "2026-10-22T07:30:22.000Z"
   }
  ]
 }
