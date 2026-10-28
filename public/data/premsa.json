@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-27T21:00:15.761Z",
+ "actualitzat": "2026-10-28T05:15:07.257Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f5fa0b21000c",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nabiha Syed y Zeina Abi Assy: \"Si la IA solo va a hacerte más fácil escribir correos electrónicos, no merece la pena gastar esa energía\"",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261028/nabiha-syed-mozilla-mozfest-barcelona-ia-tecnologia-135757570",
+   "publicat": "2026-10-28T05:01:17.000Z"
+  },
+  {
+   "id": "4f64d5ba9de0",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "“Pronto podremos pedirle al móvil que nos organice y pague las vacaciones”: así será la batalla por controlar las compras que hará la IA",
+   "url": "https://www.lavanguardia.com/neo/ia/20261028/11667353/pronto-podremos-pedirle-movil-organice-pague-vacaciones-asi-sera-batalla-controlar-compras-hara-ia.html",
+   "publicat": "2026-10-28T05:00:00.000Z"
+  },
+  {
+   "id": "4d9871d83203",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Barcelona Cybersecurity Congress tractarà l’impacte de la IA en la ciberseguretat",
+   "url": "https://www.elnacional.cat/oneconomia/ca/economia/barcelona-cybersecurity-congress-tractara-impacte-ia-ciberseguretat_1715995_102.html",
+   "publicat": "2026-10-28T04:30:00.000Z"
+  },
+  {
+   "id": "543bd983035c",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Cuando ser visto se confunde con existir: redes sociales, identidad, intimidad e inteligencia artificial",
+   "url": "https://elpais.com/estilo-de-vida/2026-10-28/cuando-ser-visto-se-confunde-con-existir-redes-sociales-identidad-intimidad-e-inteligencia-artificial.html",
+   "publicat": "2026-10-28T04:30:00.000Z"
+  },
+  {
+   "id": "5808bf409724",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La moda de los dispositivos sin pantalla y por qué cada vez hay más",
+   "url": "https://elpais.com/tecnologia/2026-10-28/la-moda-de-los-dispositivos-sin-pantalla-y-por-que-cada-vez-hay-mas.html",
+   "publicat": "2026-10-28T04:30:00.000Z"
+  },
+  {
+   "id": "39f982c9b567",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Artiso, creada por exdirectivos de Mango, cierra una ronda con Criteria para su IA de equipos de moda",
+   "url": "https://cincodias.elpais.com/companias/2026-10-28/artiso-creada-por-exdirectivos-de-mango-cierra-una-ronda-con-criteria-para-su-ia-de-equipos-de-moda.html",
+   "publicat": "2026-10-28T04:15:00.000Z"
+  },
+  {
+   "id": "7f935f39e3c9",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los cofundadores de Anthropic, ante una fortuna conjunta de 200.000 millones de dólares tras la salida a Bolsa",
+   "url": "https://elpais.com/economia/2026-10-28/los-cofundadores-de-anthropic-ante-una-fortuna-conjunta-de-200000-millones-de-dolares-tras-la-salida-a-bolsa.html",
+   "publicat": "2026-10-28T04:15:00.000Z"
+  },
+  {
+   "id": "d6f67be76428",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Gonzalo Bernardos avisa sobre los sectores profesionales más afectados por la IA: «Ya puedes estar buscando otro trabajo»",
+   "url": "https://www.lasprovincias.es/economia/gonzalo-bernardos-avisa-sobre-sectores-profesionales-afectados-20261019011430-nt.html",
+   "publicat": "2026-10-28T00:14:31.000Z"
+  },
   {
    "id": "07563c7cb8f0",
    "mitja": "El Periódico",
@@ -13,6 +101,17 @@
    "titol": "Audi y NVIDIA desplegarán robots humanoides capaces de clasificar un millón de piezas al día",
    "url": "https://www.elperiodico.com/es/motor/20261027/audi-nvidia-desplegaran-robots-humanoides-135763361",
    "publicat": "2026-10-27T20:30:24.000Z"
+  },
+  {
+   "id": "79df51bcf308",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic demana un acte de fe als inversors per sortir a borsa",
+   "url": "https://www.3cat.cat/3catinfo/anthropic-demana-un-acte-de-fe-als-inversors-per-sortir-a-borsa/noticia/3436243",
+   "publicat": "2026-10-27T20:21:02.000Z"
   },
   {
    "id": "6d122905de4d",
@@ -2683,107 +2782,6 @@
    "titol": "La IA ens podria fer rics a tots?",
    "url": "https://www.elnacional.cat/oneconomia/ca/opinio/ia-ens-podria-fer-rics-tots-esteve-almirall_1712293_102.html",
    "publicat": "2026-10-22T03:30:00.000Z"
-  },
-  {
-   "id": "7ce5624df762",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nuevos OPPO Enco X4, unos auriculares con IA, sonido Dynaudio y cancelación de ruido a precio comedido",
-   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-10-21/nuevos-oppo-enco-x4-unos-auriculares-con-ia-sonido-dynaudio-y-cancelacion-de-ruido-a-precio-comedido.html",
-   "publicat": "2026-10-21T19:00:00.000Z"
-  },
-  {
-   "id": "a8d13f41b79d",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Veinte países iberoamericanos refuerzan en Alicante la cooperación en inteligencia artificial y exploración espacial",
-   "url": "https://www.informacion.es/alicante/2026/10/21/cumbre-iberoamericana-ministros-tecnologia-ciencia-135599602.html",
-   "publicat": "2026-10-21T17:55:19.000Z"
-  },
-  {
-   "id": "2a24f11533c3",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Un fallo crítico en el lenguaje PHP pone en riesgo webs de todo el mundo",
-   "url": "https://www.eldiario.es/tecnologia/estados-unidos-advierte-vulnerabilidades-lenguaje-php-ponen-riesgo-servidores-web_1_13604663.html",
-   "publicat": "2026-10-21T17:23:52.000Z"
-  },
-  {
-   "id": "3ebd6ab0d1b1",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Una greu fallada de seguretat descoberta amb IA amenaça milions de webs",
-   "url": "https://www.vilaweb.cat/noticies/greu-fallada-seguretat-descoberta-ia-amenaca-webs",
-   "publicat": "2026-10-21T17:22:58.000Z"
-  },
-  {
-   "id": "4106c6d43178",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Dos vulnerabilidades críticas detectadas con IA provocan fallos múltiples en miles de páginas web",
-   "url": "https://elpais.com/tecnologia/2026-10-21/dos-vulnerabilidades-criticas-detectadas-con-ia-provocan-fallos-multiples-en-miles-de-paginas-web.html",
-   "publicat": "2026-10-21T17:03:25.000Z"
-  },
-  {
-   "id": "dadc2ceb3af3",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Dos brechas de ciberseguridad detectadas con IA exponen hasta un 70% de las páginas de Internet",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261021/errores-informaticos-detectados-ia-exponen-ciberseguridad-internet-webs-gobiernos-trafico-135596052",
-   "publicat": "2026-10-21T16:35:36.000Z"
-  },
-  {
-   "id": "5639c51f6fb5",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Gemini llegirà el teu Gmail i el teu calendari al cotxe... però a Espanya haurà d'esperar",
-   "url": "https://www.elnacional.cat/ca/tecnologia/gemini-llegira-teu-gmail-teu-calendari-cotxe-pero-espanya-haura-esperar_1712995_102.html",
-   "publicat": "2026-10-21T16:15:00.000Z",
-   "noticia": "gemini-personal-intelligence-android-auto-espanya",
-   "noticiaTitol": "Google porta Gemini al cotxe amb accés a Gmail i al calendari, però a Espanya haurà d'esperar"
-  },
-  {
-   "id": "efb6052ae3a9",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Universidad de Alicante lleva por primera vez a Torrevieja la formación en IA aplicada a la gestión sanitaria",
-   "url": "https://www.informacion.es/vega-baja/2026/10/21/ua-primera-vez-ia-inteligencia-artificial-curso-sanitario-torrevieja-135593404.html",
-   "publicat": "2026-10-21T15:59:20.000Z"
-  },
-  {
-   "id": "0fbe70d1d61c",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Inteligencia artificial y manipulación: nuevas claves para interpretar lo que vemos en internet",
-   "url": "https://elpais.com/tecnologia/branded/seguridad-dia-a-dia/2026-10-21/inteligencia-artificial-y-manipulacion-nuevas-claves-para-interpretar-lo-que-vemos-en-internet.html",
-   "publicat": "2026-10-21T15:53:30.000Z"
   }
  ]
 }
