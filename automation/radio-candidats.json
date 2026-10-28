@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-27T23:03:57.923Z",
+  "generat": "2026-10-28T05:14:30.314Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -96,7 +96,7 @@
       "programa": "El pla B",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 3
     },
     {
       "font": "omny",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 30,
+      "audios": 27,
       "sobre_ia": 1
     },
     {
@@ -155,8 +155,8 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 20,
-      "sobre_ia": 4
+      "audios": 19,
+      "sobre_ia": 3
     },
     {
       "font": "wordpress",
@@ -179,20 +179,20 @@
   ],
   "candidats": [
     {
-      "id": "3cat-1295602",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Catalunya nit",
-      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "id": "rtve-17286319",
+      "emissora": "Ràdio 4",
+      "programa": "El pla B",
+      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
       "data": "2026-10-27",
-      "durada": "10 min",
-      "titol_original": "Román Orús: \"Si una novel·la està escrita amb IA i ens emociona, té menys valor?\"",
-      "descripcio_original": "Cada 15 dies al \"Catalunya nit\" parlem amb Román Orús, l'únic català i espanyol que és membre del Panel Científic Internacional sobre Intel·ligència Artificial de les Nacions Unides. Aquesta setmana valorem la notícia de la novel·la \"Donde el agua trabaja\", una obra que havia estat guardonada amb el primer premi Internacional de novel·la breu Almadía Ventosa-Arrufat, però que es va descobrir que estava escrita en un 99% amb IA.",
+      "durada": "15 min",
+      "titol_original": "Eleccions sota la influència dels algoritmes",
+      "descripcio_original": "Avui parlem amb l’expert en comunicació política Xavier Tomàs sobre com les xarxes socials i la intel·ligència artificial han transformat les campanyes electorals. Des de la difusió de notícies falses fins als vídeos manipulats i els comptes falsos, analitzem com aquestes eines poden condicionar el vot, alimentar la polarització i posar en risc la confiança ciutadana, amb exemples recents de països com Israel, Brasil i Espanya. Encetem també la tertúlia amb Anna Grau, Xavier Tomàs, Miguel Ángel Ochoa, Sabrin Araibi i David Langa.",
       "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.3cat.cat/3cat/roman-orus-si-una-novella-esta-escrita-amb-ia-i-ens-emociona-te-menys-valor/audio/1295602/",
+      "ia_al_titol": false,
+      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-eleccions-sota-influencia-dels-algoritmes/17286319/",
       "reproductor": {
-        "tipus": "3cat",
-        "id": "1295602"
+        "tipus": "rtve",
+        "id": "17286319"
       }
     }
   ]
