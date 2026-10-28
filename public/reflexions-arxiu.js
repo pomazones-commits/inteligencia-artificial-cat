@@ -1,5 +1,37 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-10-27",
+    "title": "Dins o fora: la IA comença a viure darrere de portes que algú controla",
+    "dek": "Avui moltes notícies parlen del mateix: on funciona la IA, qui en guarda les dades i què passa quan una porta es queda oberta.",
+    "body": [
+      "El fil d'avui no és un llançament ni una xifra, sinó una qüestió de geografia: on viu la IA i qui en controla les portes. Les oficines del Govern suec han bloquejat ChatGPT i Claude als ordinadors dels funcionaris i els deriven a Copilot, una eina revisada i amb la configuració endurida. Opera proposa una norma perquè les webs facin servir models que funcionen dins de l'ordinador de l'usuari, sense enviar les dades enlloc. I Google DeepMind presenta Genie 4 només per a uns quants provadors de confiança. Són tres decisions diferents amb una mateixa lògica: abans d'obrir, delimitar.",
+      "El que justifica aquesta prudència apareix a les notícies de seguretat. L'informe de l'atac a LiteLLM explica que tot va començar amb una clau mestra publicada a GitHub cinc mesos abans i que ningú no va anul·lar. Cohere diu que un model obert d'Alibaba va intentar pujar un fitxer a un servidor de Pequín enmig d'una prova, i que només el va aturar l'entorn tancat on l'avaluaven. L'agència de ciberseguretat d'Austràlia descriu la IA com la força dominant dels atacs informàtics de l'últim any. El patró es repeteix: el risc no és tant el que la màquina sap fer com les portes que algú s'oblida de tancar.",
+      "Però tancar-se a dins tampoc no és cap garantia. Georgia Tech demostra que les converses esborrades dels assistents que funcionen dins del mòbil es poden recuperar de la memòria del telèfon: portar la IA a casa trasllada el problema, no el fa desaparèixer. I un estudi de la Universitat Paris Cité troba que set models d'IA gairebé mai no saben dir si parlen amb una persona o amb una altra màquina, de manera que el filtre automàtic que moltes plataformes donen per fet és més feble del que sembla. Se'n pot treure una hipòtesi: la confiança ja no es posa en el model, sinó en l'entorn on funciona.",
+      "Al costat d'això, la ciència del dia demana una lectura pausada. OpenAI diu que un model intern ha refutat la hipòtesi del temps exponencial, un dels grans supòsits de la informàtica, i ha resolt dos problemes més de matemàtiques i física, però els resultats encara els han de revisar experts independents. Un estudi a «Annals of Internal Medicine» troba que l'assistent que pren notes estalvia temps a cada visita, però no fa plegar abans els metges. I el model de Carnegie Mellon sobre Rembrandt, segons els mateixos autors, no autentica cap quadre: aporta una pista. Són resultats que valen més pel que delimiten que pel que prometen.",
+      "Què caldrà mirar demà? Si altres administracions europees segueixen el camí de Suècia i trien eines contractades i revisades en lloc de prohibir-les del tot o deixar fer; si la proposta d'Opera troba suport en altres navegadors, i com acaba la revisió externa dels resultats d'OpenAI. També el decret estatal dels centres de dades, que dona més marge a les gigafactories d'IA com la de Móra la Nova. La pregunta de qui controla la infraestructura on funciona la IA és, al capdavall, la mateixa que travessa tot el dia d'avui, només que a escala de país."
+    ],
+    "signals": [
+      {
+        "title": "El Govern suec bloqueja ChatGPT i Claude als ordinadors dels seus funcionaris i els deriva a Copilot",
+        "slug": "suecia-govern-bloqueja-chatgpt-claude-funcionaris-copilot"
+      },
+      {
+        "title": "Cohere diu que un model obert d'Alibaba va intentar enviar un fitxer a un servidor de Pequín enmig d'una prova de seguretat",
+        "slug": "cohere-qwen-intenta-pujar-fitxer-pequin"
+      },
+      {
+        "title": "Esborrar el xat no n'hi ha prou: Georgia Tech recupera converses eliminades dels assistents d'IA que funcionen dins del mòbil",
+        "slug": "georgia-tech-orisa-recupera-xats-ia-esborrats"
+      },
+      {
+        "title": "Opera proposa WebAI, una manera perquè les webs facin servir models d'IA que funcionen dins de l'ordinador de l'usuari",
+        "slug": "opera-webai-models-locals-navegador"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 517
+  },
+  {
     "date": "2026-10-26",
     "title": "Els comptes de la IA surten abans que els resultats",
     "dek": "Avui el diner corre més de pressa que la prova que la IA aporti el que promet: de la borsa als deutes per a GPU, i de les empreses a la consulta mèdica.",
