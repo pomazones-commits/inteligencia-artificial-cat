@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-28T16:51:37.163Z",
+ "actualitzat": "2026-10-28T17:22:13.750Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "6d1f950d8c34",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El Davos de las infraestructuras arranca en Madrid con el foco puesto en los desafíos climáticos y de la IA",
+   "url": "https://cincodias.elpais.com/companias/2026-10-28/el-davos-de-las-infraestructuras-arranca-en-madrid-con-el-foco-puesto-en-los-desafios-climaticos-y-de-la-ia.html",
+   "publicat": "2026-10-28T17:08:56.000Z"
+  },
+  {
+   "id": "629d890dfae2",
+   "mitja": "Diari La Veu",
+   "font": "diarilaveu",
+   "icona": "/assets/premsa/diari-la-veu.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L’AVL resol el dubte: com s’apostrofa la sigla IA?",
+   "url": "https://www.diarilaveu.cat/llengua/lavl-resol-el-dubte-com-sapostrofa-la-sigla-ia-655248",
+   "publicat": "2026-10-28T17:02:50.000Z"
+  },
   {
    "id": "584328f133a6",
    "mitja": "Levante-EMV",
@@ -2754,28 +2776,6 @@
    "titol": "Millones de ciberataques en pocas horas, tras descubrir la IA un fallo en el corazón del 70% de las webs",
    "url": "https://elpais.com/tecnologia/2026-10-22/millones-de-intentos-de-ataque-en-pocas-horas-tras-destaparse-fallos-graves-en-miles-de-webs.html",
    "publicat": "2026-10-22T11:40:42.000Z"
-  },
-  {
-   "id": "2a1511df97a2",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las buenas prácticas con IA en los centros educativos fracasan sin control familiar en el hogar, según docentes",
-   "url": "https://www.ultimahora.es/noticias/local/2026/10/22/2734193/buenas-practicas-los-centros-educativos-fracasan-control-familiar-hogar-segun-docentes.html",
-   "publicat": "2026-10-22T11:38:00.000Z"
-  },
-  {
-   "id": "a148749f5337",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El PSOE estudia emprender acciones legales contra el PP por la suplantación de la identidad de Begoña Gómez en un vídeo generado por IA",
-   "url": "https://www.elperiodico.com/es/politica/20261022/psoe-estudia-acciones-legales-pp-135626137",
-   "publicat": "2026-10-22T11:37:42.000Z"
   }
  ]
 }
