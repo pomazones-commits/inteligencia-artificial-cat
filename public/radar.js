@@ -1,5 +1,29 @@
 window.IA_RADAR = [
   {
+    "place": "Elx",
+    "category": "RECERCA",
+    "date": "28.10.2026",
+    "title": "Una IA de la Universitat Miguel Hernández d'Elx calcula com estimular el cervell d'una persona cega perquè vegi punts de llum",
+    "summary": "Un estudi publicat a «Neuron» fa servir una xarxa neuronal per decidir quins elèctrodes d'un implant s'activen i amb quina intensitat. Amb menys corrent, reprodueix millor la resposta del cervell, però és una prova amb un sol voluntari.",
+    "detail": "El grup de neuroenginyeria biomèdica de la Universitat Miguel Hernández (UMH) d'Elx, que dirigeix Eduardo Fernández Jover, fa anys que treballa en pròtesis visuals que no passen per l'ull: un implant d'elèctrodes a l'escorça visual del cervell envia petites descàrregues que la persona percep com a punts de llum, anomenats fosfens. És una via per a qui ha perdut la vista per una lesió de l'ull o del nervi òptic, però no per a qui és cec de naixement. El problema és que la relació entre el corrent aplicat i el que la persona veu és molt més complicada del que s'esperava: el mateix elèctrode pot donar percepcions diferents d'un dia a l'altre.\n\nL'estudi, publicat a la revista «Neuron» amb el títol «Deep learning-based control of electrically evoked activity in human visual cortex» i presentat aquesta setmana per la UMH, s'ha fet amb la Universitat de Califòrnia a Santa Bàrbara i l'ETH de Zúric. Hi va participar un home de 27 anys que es va quedar cec per un traumatisme cranial i que el 2024, a l'Hospital IMED Elx, va dur durant sis mesos un implant temporal de 96 canals que podia alhora estimular i registrar l'activitat de les neurones. Els investigadors van entrenar una xarxa neuronal profunda per predir quina activitat cerebral provoca cada combinació d'elèctrodes i de corrents, tenint en compte també l'estat del cervell just abans de cada estímul. Després la van fer servir a l'inrevés: per buscar la combinació més adequada per obtenir la resposta que volien.\n\nSegons els autors, els patrons dissenyats per la xarxa reproduïen l'activitat buscada amb més precisió que els mètodes habituals i amb menys corrent elèctric, cosa que dona més marge de seguretat. A més, l'activitat registrada al cervell predeia millor el que el voluntari deia que veia (la forma, la mida, la brillantor o el color del punt de llum) que no pas els paràmetres de l'estímul. És un pas cap a pròtesis que s'ajustin a cada persona i a cada moment, en lloc de fer servir una recepta fixa.\n\nEls mateixos investigadors avisen que és una prova de concepte: hi ha un sol participant, l'implant era temporal i el treball no demostra que aquesta estratègia torni una visió útil per a la vida diària. Caldrà validar-ho amb més voluntaris i entendre millor com es relaciona l'activitat de les neurones amb la percepció abans de pensar en cap ús clínic. L'article es va publicar en línia a l'agost; l'assaig, registrat amb el codi NCT02983370, continua buscant voluntaris cecs.",
+    "source": "Neuron · Universitat Miguel Hernández",
+    "url": "https://doi.org/10.1016/j.neuron.2026.07.006",
+    "image": "./assets/umh-elx-xarxa-neuronal-protesi-visual-cortex-persona-cega-20261028.jpg",
+    "slug": "umh-elx-xarxa-neuronal-protesi-visual-cortex-persona-cega"
+  },
+  {
+    "place": "Girona",
+    "category": "IA I SOCIETAT",
+    "date": "28.10.2026",
+    "title": "El 42% de les grans empreses gironines preveu que la IA li canviarà la plantilla, però només un 19% té una estratègia",
+    "summary": "L'informe Girona 100 de KPMG i la Universitat de Girona pregunta per primera vegada per la intel·ligència artificial: dues de cada tres empreses ja proven eines generatives, sobretot a finances i a vendes.",
+    "detail": "L'informe Girona 100, que elaboren cada any KPMG i la Càtedra Cambra de l'Empresa Familiar de la Universitat de Girona, analitza les cent empreses més grans de la demarcació, 81 de les quals són familiars. Arriba a la setzena edició i, per primera vegada, inclou un apartat sobre com aquestes companyies incorporen la intel·ligència artificial.\n\nSegons les dades difoses dimarts, només el 19% de les grans empreses gironines té una estratègia del tot definida per adoptar la IA; el 47% encara l'estudia i el 33% no en té cap. Tot i això, el 67% ja prova o comença a implantar eines d'IA generativa, per davant d'altres usos com l'anàlisi de dades. Les àrees on més s'utilitza són finances i comptabilitat (79%) i màrqueting, comercial i vendes (71%). Pel que fa als pròxims tres anys, el 58% espera guanyar eficiència i reduir costos, el 42% preveu canvis en l'estructura de la plantilla i el 39% diu que encara és difícil calcular-ne l'impacte. Quan se'ls pregunta què demanen a l'administració, el 40% respon ajudes per a la transformació digital i l'adopció de la IA.\n\nLa fotografia és rellevant perquè aquestes empreses, amb una facturació conjunta de prop de 16.000 milions d'euros el 2024 i més de 47.000 treballadors, són el teixit industrial i agroalimentari de les comarques gironines, molt lluny dels grans grups tecnològics. Mostra una adopció que avança per la base, provant eines, abans de tenir un pla, i una preocupació creixent pel talent: atraure'l i retenir-lo és el primer maldecap per al 47% de les empreses.\n\nCal tenir present que les dades de la IA surten d'una enquesta qualitativa als directius, no d'una mesura de l'ús real, i que el 42% és una previsió, no un canvi que ja s'hagi produït. L'informe no detalla si els canvis de plantilla volen dir menys llocs de feina o tasques diferents: de fet, el mateix estudi diu que només el 3% de les empreses preveu fer acomiadaments aquest any.",
+    "source": "El Gerió · ACN",
+    "url": "https://www.gerio.cat/noticia/1762148/les-grans-empreses-gironines-creixen-en-facturacio-pero-perden-optimisme-economic",
+    "image": "./assets/girona-100-grans-empreses-gironines-ia-plantilla-20261028.jpg",
+    "slug": "girona-100-grans-empreses-gironines-ia-plantilla"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "26.10.2026",
@@ -70,29 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.diarideterrassa.com/terrassa/la-fundacio-vallparadis-posa-el-focus-en-la-intelligencia-artificial-i-les-cures.html",
     "image": "./assets/vallparadis-terrassa-jornada-cientifica-ia-cures-20261024.jpg",
     "slug": "vallparadis-terrassa-jornada-cientifica-ia-cures"
-  },
-  {
-    "place": "Illes Balears",
-    "category": "IA I SOCIETAT",
-    "date": "23.10.2026",
-    "title": "BOIBOT, un assistent d'IA gratuït, resumeix cada matí el BOIB i avisa de les ajudes i les oposicions de les Illes Balears",
-    "summary": "L'ha creat en dos dies un enginyer informàtic de Banca March i, segons ell, ja el fan servir més de 4.000 persones al mes.",
-    "detail": "Llegir el Butlletí Oficial de les Illes Balears (BOIB) per saber quines ajudes o quines places públiques s'han convocat és una feina pesada. Un projecte gratuït, BOIBOT, vol estalviar-la als ciutadans: cada matí repassa el butlletí, tria les convocatòries que poden interessar i les resumeix.\n\nL'ha creat Antoni Artigues, enginyer informàtic que treballa a Banca March i que va passar cinc anys al Barcelona Supercomputing Center en projectes de dades massives i IA. La idea li va venir quan la seva dona buscava places de professora de piano a l'escola pública i havia de mirar el BOIB tota l'estona. Segons ell, va construir la versió bàsica en dos dies amb eines d'IA, sense escriure el codi a mà, amb un mètode que anomena Spec Driven Development.\n\nEl web, boibot.es, recull ajudes de lloguer i d'habitatge, beques, cursos, borses de treball i ofertes d'ocupació pública. De cada convocatòria en dona els requisits, els imports, el sou previst quan n'hi ha i els passos per inscriure-s'hi. Un qüestionari generat amb IA a partir de les bases oficials indica si l'usuari les compleix, i per als opositors hi ha calendaris d'estudi setmanals, el seguiment de les fases de cada procés i materials oficials. També s'hi poden activar avisos gratuïts per correu o Telegram, filtrats per illa, municipi i categoria.\n\nLes xifres d'ús (més de 4.000 persones al mes) les dona el mateix autor, i el web no substitueix la lectura de les bases oficials, que són les que tenen valor legal. La Fundació Universitat-Empresa de les Illes Balears el recull entre els seus recursos d'orientació laboral.",
-    "source": "Última Hora",
-    "url": "https://www.ultimahora.es/noticias/local/2026/10/23/2734541/crean-herramienta-para-encontrar-ayudas-empleo-publico-baleares-todos-sabemos-dificil-resulta-leer-boib.html",
-    "image": "./assets/boibot-ajudes-ocupacio-publica-balears-20261023.jpg",
-    "slug": "boibot-ajudes-ocupacio-publica-balears"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "23.10.2026",
-    "title": "Catalunya té 290 de les 1.014 empreses derivades de recerca de tecnologia profunda d'Espanya, i el 40% de les noves treballen amb xips, càlcul i IA",
-    "summary": "L'informe de Mobile World Capital, que Ara resumeix, situa Catalunya per tercer cop al capdavant de l'Estat, amb 2.885 llocs de feina molt especialitzats.",
-    "detail": "Les empreses derivades de la recerca universitària (spin-off) de tecnologia profunda són companyies que neixen d'un resultat científic i triguen anys a vendre. Mobile World Capital Barcelona en publica un informe sobre l'ecosistema espanyol, que enguany ha arribat a la tercera edició i s'ha presentat aquest dijous.\n\nSegons l'informe, tal com el resumeix Ara, a final del 2025 hi havia a Espanya 1.014 d'aquestes empreses actives, un 4,6% més que un any abans. Catalunya en concentra 290, el 28,5% del total, amb 2.885 llocs de feina molt especialitzats, i ha encapçalat les tres edicions. Madrid té una mica més del 20% i la Comunitat Valenciana, una mica més del 10%. Entre les catalanes, la biotecnologia i les ciències de la salut en suposen més del 47% i la informàtica i la IA, al voltant del 35%.\n\nLaia Corbella, de Mobile World Capital, va destacar que el 40% de les noves empreses de tecnologia profunda catalanes treballen amb xips, càlcul i IA, un canvi que va qualificar d'alineat amb les prioritats estratègiques del país. En total s'estima que van facturar 1.132 milions d'euros el 2025 a tot l'Estat; més de 400 han rebut inversió i s'han detectat més de 2.880 milions de finançament, un 45% de capital públic i un 35% de privat. Albert Mascarell va recordar que no són companyies que facturin de seguida: poden trigar set o vuit anys.\n\nAquesta peça es basa només en el resum d'Ara, un article de pagament que hem pogut llegir en part; no hem consultat l'informe original. A més, l'informe el promou una fundació que treballa per l'ecosistema digital, i les xifres són de recompte propi. El percentatge d'IA en recull només una part: cal esperar el document sencer per saber quantes de les 290 treballen realment amb IA.",
-    "source": "Ara",
-    "url": "https://www.ara.cat/economia/tecnologia/catalunya-consolida-lideratge-spin-off-tecnologia-profunda-l_1_5886807.html",
-    "image": "./assets/catalunya-spin-offs-tecnologia-profunda-informe-20261023.jpg",
-    "slug": "catalunya-spin-offs-tecnologia-profunda-informe-mwc"
   }
 ];

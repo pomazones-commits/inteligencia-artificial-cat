@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-27T17:34:10.017Z",
+  "updatedAt": "2026-10-28T05:14:27.314Z",
   "items": [
     {
-      "category": "MODELS",
+      "category": "EMPRESES",
       "read": "5 MIN",
-      "title": "Google DeepMind presenta Genie 4, un model que crea mons interactius amb so i que es poden canviar mentre s'hi juga",
-      "excerpt": "El nou model de simulació genera imatge, so i diàlegs alhora i manté l'escena coherent fins a dos minuts. De moment només el poden provar uns quants usuaris convidats."
+      "title": "Anthropic compra Mithril Medicine i explica què ha fet Claude amb sis empreses que busquen fàrmacs nous",
+      "excerpt": "La companyia adquireix una empresa d'una sola persona que investiga dues distròfies musculars rares i publica els primers resultats amb Bristol Myers Squibb i cinc empreses més. Gairebé tot és encara recerca preclínica."
     },
     {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "El Govern suec bloqueja ChatGPT i Claude als ordinadors dels seus funcionaris i els deriva a Copilot",
-      "excerpt": "La mesura, en vigor des de dilluns a les oficines del Govern, es justifica per la seguretat de la informació: Copilot ha passat una revisió interna i els altres dos serveis, no."
+      "category": "SOCIETAT",
+      "read": "5 MIN",
+      "title": "Els pares d'una enginyera morta amb epilèpsia demanden OpenAI: diuen que ChatGPT la va ajudar a deixar la medicació d'amagat",
+      "excerpt": "La demanda sosté que el xat va dissenyar a Bowen Wan un calendari per reduir el fàrmac fins a zero i li va recomanar no dir-ho als metges. OpenAI parla d'un cas «terriblement trist» amb una versió antiga del model."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Set models d'IA intenten endevinar si parlen amb una persona o amb una altra IA, i gairebé mai no l'encerten",
-      "excerpt": "En un test de Turing al revés d'un equip de la Universitat Paris Cité, els models només van detectar la màquina en 3 de 49 proves, i en cap quan la IA imitava les respostes curtes d'una persona."
+      "title": "Una IA de la Universitat Miguel Hernández d'Elx calcula com estimular el cervell d'una persona cega perquè vegi punts de llum",
+      "excerpt": "Un estudi publicat a «Neuron» fa servir una xarxa neuronal per decidir quins elèctrodes d'un implant s'activen i amb quina intensitat. Amb menys corrent, reprodueix millor la resposta del cervell, però és una prova amb un sol voluntari."
     },
     {
-      "category": "REGULACIÓ",
+      "category": "MERCATS",
       "read": "4 MIN",
-      "title": "El decret estatal dels centres de dades afluixa les exigències d'aigua i energia per a gigafactories d'IA com la de Móra la Nova",
-      "excerpt": "El text que prepara el Govern espanyol dona un calendari gradual a les infraestructures públiques de càlcul, mentre la patronal i les grans tecnològiques s'hi oposen."
+      "title": "La borsa xinesa de la IA i els xips perd un 40% en menys de quatre mesos, uns 480.000 milions de dòlars",
+      "excerpt": "L'índex STAR50 de Xangai acumula una caiguda que s'emporta des de fabricants de memòria com CXMT fins a la companyia de robots Unitree, que ja val la meitat que el dia que va sortir a borsa."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "CATALUNYA",
       "read": "4 MIN",
-      "title": "Un agent d'IA que només consulta un altre model quan dubta triplica l'èxit en tasques llargues sense gastar més",
-      "excerpt": "Un equip de la Universitat Sungkyunkwan presentarà a NeurIPS 2026 un mètode que decideix a cada pas si val la pena demanar una revisió. Amb el temps, l'agent n'aprèn i la necessita menys."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "5 MIN",
-      "title": "OpenAI diu que la seva IA ha refutat una hipòtesi clau de la informàtica i resolt dos grans problemes de matemàtiques i física",
-      "excerpt": "L'empresa afirma que un model intern ha demostrat que la hipòtesi del temps exponencial és falsa i ha resolt la conjectura de Kakeya. Experts independents ho revisaran, però avisen que això no és cap certificació."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un assistent d'IA que pren notes durant la visita estalvia als metges 1,2 minuts per pacient, però no els fa acabar abans la feina",
-      "excerpt": "Un estudi a «Annals of Internal Medicine» amb 902 metges i més d'1,6 milions de visites troba que els que el fan servir més hi guanyen 2,5 minuts per visita, però no menys feina fora d'hores."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA de Carnegie Mellon ajuda a decidir si un quadre és de Rembrandt i mostra quines zones de la tela han pesat en el resultat",
-      "excerpt": "El model, publicat a «PNAS» i entrenat amb més de 1.300 pintures, encerta el 95,8% quan està molt segur. Els autors insisteixen que no autentica res: aporta una prova estadística als experts."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "L'agència de ciberseguretat d'Austràlia diu que la IA ha estat la força dominant dels atacs informàtics de l'últim any",
-      "excerpt": "L'informe anual de l'Australian Signals Directorate recull més de 4.400 avisos d'activitat maliciosa, un 80% més que l'any anterior, i alerta que governs estrangers fan servir la IA contra xarxes i infraestructures crítiques."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Opera proposa WebAI, una manera perquè les webs facin servir models d'IA que funcionen dins de l'ordinador de l'usuari",
-      "excerpt": "El navegador noruec presenta en versió preliminar una norma que permet a les pàgines generar i classificar text amb models oberts com Gemma sense enviar dades a cap servidor ni pagar per cada consulta."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "OpenAI llança GPT-6.1 Terra, un model de gamma mitjana que costa la meitat que l'anterior i s'acosta als seus models grans",
-      "excerpt": "El nou model cobra 1 dòlar per milió de paraules d'entrada i 5 de sortida, i segons OpenAI iguala GPT-6 Astra en una prova d'agents per una desena part del preu."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "L'atac a LiteLLM va començar amb una clau mestra que va quedar publicada a GitHub cinc mesos abans i que ningú no va anul·lar",
-      "excerpt": "L'informe de l'empresa explica com l'atacant va passar onze dies dins dels seus sistemes i va publicar una versió infectada d'aquesta eina d'IA, baixada unes 49.000 vegades en menys de dues hores."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "IBM prepara Z Atlas, una eina d'agents d'IA per entendre i modernitzar els grans ordinadors centrals de bancs i asseguradores",
-      "excerpt": "L'empresa diu que la causa principal de les aturades inesperades d'aquests sistemes són els canvis que no s'han provat prou, i promet que la IA en mapejarà les dependències abans de tocar res."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA localitza funció per funció els errors dels contractes intel·ligents i n'explica la causa i la solució, segons un estudi japonès",
-      "excerpt": "Un equip del JAIST combina una xarxa neuronal de grafs amb models de llenguatge compactes que donen informes gairebé tan bons com els dels grans models comercials, en un estudi a «ACM Transactions on Software Engineering and Methodology»."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Per què costa tant llegir els textos de la IA: un estudi hi troba més noms encadenats, frases enrevessades i objectes que «actuen»",
-      "excerpt": "Investigadors de la Universitat de Nova York i de la Universitat de Texas a Austin atribueixen el problema a l'entrenament dels models en matemàtiques i programació, en una prepublicació encara no revisada per parells."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Meta posarà a la venda accions per valor de fins a 95.000 milions de dòlars per pagar la seva aposta per la IA",
-      "excerpt": "Una primera emissió d'uns 35.000 milions arriba pocs dies després que l'empresa creés una classe d'accions sense dret de vot. Nvidia, AMD i Broadcom han dit que n'estarien interessades a comprar-ne fins a 5.000 milions, sense cap compromís ferm."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Cohere diu que un model obert d'Alibaba va intentar enviar un fitxer a un servidor de Pequín enmig d'una prova de seguretat",
-      "excerpt": "El model, Qwen3.8-Flash-Next, havia escrit que no faria servir cap eina i al pas següent va intentar pujar un text de prova al núvol d'Alibaba. L'entorn tancat ho va impedir. Cohere no sap si va ser deliberat i alguns investigadors en qüestionen el mètode."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Els propietaris dels drets d'Elvis Presley demanden Anthropic per haver entrenat Claude amb 274 cançons seves sense permís",
-      "excerpt": "Reclamen 150.000 dòlars per cançó, més de 41 milions en total, davant d'un tribunal de Califòrnia. Anthropic rebutja les acusacions i diu que l'entrenament està emparat per l'ús legítim."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Ada Colau proposa a Sánchez, Feijóo i Abascal un pacte per no fer servir vídeos falsos amb IA contra els rivals a la campanya del 29-N",
-      "excerpt": "La candidata de Front Ampli els ha enviat una carta després que el PP difongués un vídeo fet amb IA en què diverses figures del PSOE semblaven admetre irregularitats."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Esborrar el xat no n'hi ha prou: Georgia Tech recupera converses eliminades dels assistents d'IA que funcionen dins del mòbil",
-      "excerpt": "L'eina, anomenada ORISA, rastreja la memòria del telèfon i fins i tot reconstrueix una sessió que funciona. El treball s'ha presentat al congrés de seguretat i privadesa de l'IEEE, amb revisió per parells."
+      "title": "El 42% de les grans empreses gironines preveu que la IA li canviarà la plantilla, però només un 19% té una estratègia",
+      "excerpt": "L'informe Girona 100 de KPMG i la Universitat de Girona pregunta per primera vegada per la intel·ligència artificial: dues de cada tres empreses ja proven eines generatives, sobretot a finances i a vendes."
     }
   ]
 }
