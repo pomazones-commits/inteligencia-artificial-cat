@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-28T10:51:44.963Z",
+ "actualitzat": "2026-10-28T13:33:33.250Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "226fb96d0928",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA i d’IA, les formes correctes d’apostrofació per a l'AVL",
+   "url": "https://www.levante-emv.com/cultura/2026/10/28/ia-normes-academia-valenciana-llengua-135846312.html",
+   "publicat": "2026-10-28T13:15:27.000Z"
+  },
+  {
+   "id": "2bb3edf84bb9",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Una família demanda OpenAI: acusa ChatGPT d'animar la seva filla a deixar la medicació abans de morir",
+   "url": "https://www.elnacional.cat/ca/tecnologia/familia-demanda-openai-acusa-chatgpt-animar-seva-filla-deixar-medicacio-abans-morir_1717006_102.html",
+   "publicat": "2026-10-28T13:15:00.000Z"
+  },
+  {
+   "id": "6b5af9c29426",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA llega ya al 70% de las grandes empresas, el doble que a las pymes",
+   "url": "https://www.lavanguardia.com/economia/20261028/11670271/ia-llega-70-grandes-empresas-doble-pymes.html",
+   "publicat": "2026-10-28T13:03:43.000Z"
+  },
+  {
+   "id": "1960d7ac387d",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El Banc Sabadell i T-Systems fan créixer la IA d'agents al banc",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/banc-sabadell-t-systems-fan-creixer-ia-agents-banc_1716988_102.html",
+   "publicat": "2026-10-28T12:49:01.000Z"
+  },
+  {
+   "id": "00861679d79a",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una campaña de malware usa falsos instaladores de ChatGPT y Claude para infectar los equipos de los usuarios de IA",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/28/2738209/campana-malware-usa-falsos-instaladores-chatgpt-claude-para-infectar-equipos-usuarios-ia.html",
+   "publicat": "2026-10-28T12:09:42.000Z"
+  },
+  {
+   "id": "a306de1f03c2",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Elche | Elche reúne a emprendedores y empresarios en Pymelche con la inteligencia artificial y el crecimiento empresarial como protagonistas",
+   "url": "https://alicanteplaza.es/alicanteplaza/elcheplaza/elche-reune-a-emprendedores-y-empresarios-en-pymelche-con-la-inteligencia-artificial-y-el-crecimiento-empresarial-como-protagonistas",
+   "publicat": "2026-10-28T11:45:11.000Z"
+  },
+  {
+   "id": "d654187359c8",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia dispara su valor de marca en un ranking que vuelve a coronar a Apple",
+   "url": "https://www.lavanguardia.com/economia/20261028/11670075/nvidia-apple-valor-de-marca-interbrand-ranking.html",
+   "publicat": "2026-10-28T11:36:08.000Z"
+  },
+  {
+   "id": "f4131c3a1f20",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Begoña Gómez denuncia el PP per utilitzar una imatge seva feta amb IA en un vídeo electoral",
+   "url": "https://www.3cat.cat/3catinfo/begona-gomez-denuncia-el-pp-per-utilitzar-una-imatge-seva-feta-amb-ia-en-un-video-electoral/noticia/3436524",
+   "publicat": "2026-10-28T11:09:01.000Z"
+  },
   {
    "id": "dce04010f5ec",
    "mitja": "Levante-EMV",
@@ -101,6 +189,17 @@
    "titol": "Sánchez desvela una demanda de Begoña Gómez contra el PP por un vídeo con 'deepfake'",
    "url": "https://www.elperiodico.com/es/politica/20261028/sanchez-demanda-begona-gomez-pp-video-135830761",
    "publicat": "2026-10-28T07:39:37.000Z"
+  },
+  {
+   "id": "3cdb2e68f70e",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Investigadores diseñan un mosaico hexagonal de inteligencia artificial que duplica la velocidad para recrear mundos en 3D",
+   "url": "https://www.lasprovincias.es/tecnologia/investigadores-disenan-mosaico-hexagonal-rlt_arx-20261028071032-nt.html",
+   "publicat": "2026-10-28T07:25:32.000Z"
   },
   {
    "id": "48cc4ba7145d",
@@ -2677,111 +2776,6 @@
    "titol": "Barclays recortará 5.000 empleos, el 5% de su fuerza laboral, para reducir costes por la IA",
    "url": "https://cincodias.elpais.com/companias/2026-10-22/barclays-recortara-5000-empleos-el-5-de-su-fuerza-laboral-para-reducir-costes-por-la-ia.html",
    "publicat": "2026-10-22T10:29:14.000Z"
-  },
-  {
-   "id": "365c1f09a9e8",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los chips, la IA y la computación ganan a la salud como área principal de creación de 'spin offs' tecnológicas en España en 2025",
-   "url": "https://www.elperiodico.com/es/economia/20261022/chips-ia-computacion-ganan-salud-creacion-spin-off-deep-tech-espana-2025-135620099",
-   "publicat": "2026-10-22T10:28:53.000Z"
-  },
-  {
-   "id": "f8f52489f8aa",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El PP usa la IA contra Sánchez y su \"orgullo zurdo\" con un vídeo de Begoña Gómez",
-   "url": "https://www.levante-emv.com/espana/2026/10/22/pp-ia-sanchez-orgullo-zurdo-135620606.html",
-   "publicat": "2026-10-22T10:18:47.000Z"
-  },
-  {
-   "id": "d879b81d3c07",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El PP fa servir la IA contra Sánchez i el seu «orgull esquerrà» amb un vídeo de Begoña Gómez",
-   "url": "https://www.elperiodico.cat/politica/20261022/pp-ia-sanchez-orgull-esquerra-135620481",
-   "publicat": "2026-10-22T10:15:38.000Z"
-  },
-  {
-   "id": "71fca081f386",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Barclays recortará 5.000 puestos de trabajo, el 5% de la plantilla, tras introducir la IA y disparar sus beneficios",
-   "url": "https://www.eldiario.es/economia/barclays-recortara-5-000-puestos-trabajo-5-plantilla-introducir-ia_1_13605681.html",
-   "publicat": "2026-10-22T09:31:46.000Z",
-   "noticia": "barclays-retallara-5000-llocs-feina-ia-tecnologia",
-   "noticiaTitol": "Barclays retallarà 5.000 llocs de feina, el 5% de la plantilla, i el seu conseller delegat ho atribueix a anys d'inversió en tecnologia, també en IA"
-  },
-  {
-   "id": "2d76ce63070a",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "CaixaBank integra la seva aplicació al 'marketplace' de ChatGPT",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/caixabank-integra-seva-aplicacio-marketplace-chatgpt_1713334_102.html",
-   "publicat": "2026-10-22T09:30:33.000Z",
-   "noticia": "caixabank-aplicacio-chatgpt-productes-financers",
-   "noticiaTitol": "CaixaBank posa la seva aplicació dins de ChatGPT perquè els clients puguin consultar productes financers i comparar-los"
-  },
-  {
-   "id": "d3b1ce477e08",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El PP recurre a la IA para lanzar un vídeo de socialistas admitiendo delitos",
-   "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/22/2734073/recurre-para-lanzar-video-socialistas-admitiendo-delitos.html",
-   "publicat": "2026-10-22T09:23:00.000Z"
-  },
-  {
-   "id": "c6f705a7aa1e",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El PP suplanta amb IA la identitat de gent del PSOE perquè admeti delictes: \"Sí, soc 'zurdo'\"",
-   "url": "https://www.elnacional.cat/ca/politica/pp-suplanta-ia-identitat-gent-psoe-perque-admeti-delictes-si-soc-zurdo_1713319_102.html",
-   "publicat": "2026-10-22T09:18:03.000Z"
-  },
-  {
-   "id": "ad582d4bdda0",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Alboraya vigilará los vertidos en las acequias con inteligencia artificial",
-   "url": "https://www.lasprovincias.es/horta/alboraya-vigilara-vertidos-acequias-inteligencia-artificial-20261022102141-nt.html",
-   "publicat": "2026-10-22T08:21:41.000Z"
-  },
-  {
-   "id": "70b23e415287",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Comarca y empresa | Alboraya impulsa un \"sistema pionero\" de vigilancia en acequias basado en inteligencia artificial",
-   "url": "https://valenciaplaza.com/valenciaplaza/comarca-y-empresa/alboraya-impulsa-un-sistema-pionero-de-vigilancia-ambiental-en-acequias-basado-en-inteligencia-artificial",
-   "publicat": "2026-10-22T08:21:33.000Z",
-   "noticia": "alboraia-vigilancia-vessaments-sequies-ia-cameres-multiespectrals",
-   "noticiaTitol": "Alboraia vigila amb IA i càmeres multiespectrals les séquies de l'Horta per detectar abocaments abans que es propaguin"
   }
  ]
 }
