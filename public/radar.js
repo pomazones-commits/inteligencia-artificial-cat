@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "28.10.2026",
+    "title": "Impress, la cadena d'ortodòncia invisible de Barcelona, rep 40 milions del Banc Europeu d'Inversions per reforçar la seva plataforma d'IA",
+    "summary": "És un préstec de deute de risc que també servirà per créixer al centre i al nord d'Europa. L'empresa, fundada el 2019, té 110 clíniques i va facturar 103 milions d'euros el 2025.",
+    "detail": "Impress és una cadena de clíniques d'ortodòncia amb fèrules transparents fundada a Barcelona el 2019 per Vladimir Lupenko, Diliara Lupenko i Khaled Kasem. Ha crescut amb un model molt digitalitzat, en què bona part del seguiment del tractament es fa a distància, i des que va néixer ha captat uns 280 milions d'euros de més de vint inversors.\n\nAra ha signat amb el Banc Europeu d'Inversions (BEI) un préstec de 40 milions d'euros en forma de deute de risc (*venture debt*), segons van publicar el 27 i el 28 d'octubre diversos mitjans econòmics. És una fórmula pensada per a empreses en creixement: combina els interessos habituals d'un préstec amb una remuneració lligada a l'augment de valor de la companyia. És el primer finançament important d'Impress des de l'última ronda de capital, fa més de dos anys. Els diners es destinaran a reforçar la seva plataforma d'IA pròpia, que acompanya el pacient de l'inici al final del tractament, i a accelerar l'expansió al centre i al nord d'Europa.\n\nL'empresa té 110 clíniques, 22 de les quals a l'Estat espanyol, va facturar 103 milions d'euros el 2025 i preveu créixer un 40% aquest any, fins als 145 milions. Segons declaracions del conseller delegat recollides per la premsa econòmica, el seu sistema d'IA, entrenat amb les dades d'uns 500.000 pacients, permet reduir un 80% les visites presencials. És un exemple del criteri que el BEI aplica cada cop més: finançar empreses europees que fan servir la IA en un negoci real, no només laboratoris de models.\n\nLes xifres de facturació, de pacients i de reducció de visites són de l'empresa i no s'han pogut contrastar de manera independent. Tampoc no s'han fet públics el termini ni el cost del préstec. En un sector com la salut bucodental, on el seguiment a distància ha generat debat entre els professionals, caldrà veure com es concreta l'ús de la IA en les decisions clíniques.",
+    "source": "Startups Españolas",
+    "url": "https://startups-espanolas.es/impress-obtiene-un-venture-debt-de-40-millones-del-bei-para-su-plataforma-de-ia/",
+    "image": "./assets/impress-barcelona-40-milions-bei-ortodoncia-ia-20261028.jpg",
+    "slug": "impress-barcelona-40-milions-bei-ortodoncia-ia"
+  },
+  {
     "place": "Elx",
     "category": "RECERCA",
     "date": "28.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.catalunyapress.cat/article/intelligncia-artificial/2026-10-22/6061715-ia-comenca-resoldre-problemes-reals-catalunya",
     "image": "./assets/ai-congress-barcelona-clor-aigues-vic-simulacio-20261024.jpg",
     "slug": "ai-congress-barcelona-clor-aigues-vic-simulacio"
-  },
-  {
-    "place": "Terrassa",
-    "category": "IA I SOCIETAT",
-    "date": "24.10.2026",
-    "title": "La Fundació Vallparadís de Terrassa dedica la jornada científica d'enguany a la IA i les cures",
-    "summary": "La 17a edició, el 27 d'octubre, compta amb Genís Roca i presenta el projecte «IA-Cura», que explora la IA com a eina de suport per als professionals.",
-    "detail": "La Fundació Vallparadís MútuaTerrassa celebrarà dimarts 27 d'octubre, a l'Edifici Docent de Terrassa, la 17a edició de la seva jornada científica. L'acte vol compartir bones pràctiques i presentar projectes de millora i experiències d'atenció social i sanitària, i combina el debat sobre els reptes tecnològics amb iniciatives assistencials i de recerca.\n\nLa jornada s'obrirà a les 9.15 h amb unes paraules del director gerent de la fundació, Ramon Ramells. El ponent principal és Genís Roca, expert en transformació d'empreses, innovació i cultura digital, que parlarà sota el títol «Què està passant i què passarà. Cap a on ens porta la IA?». Després s'hi presentaran nou estudis i experiències d'atenció social i sanitària, com ara les emocions dels professionals davant de conductes difícils de persones amb discapacitat o els factors que prediuen la recuperació de l'esquizofrènia.\n\nPer a la IA, el més concret és a la tarda, quan es presentaran els dos guanyadors de l'edició anterior. Un és un programa d'educació per a la salut per a persones ingressades a l'Ametlla del Vallès; l'altre, «IA-Cura», explora la IA com a eina de suport per als professionals. També hi haurà una activitat participativa, «Restaurant Estigma 0.0», sobre mites i estigmes de la salut mental.\n\nDe moment només se'n coneix el programa: la notícia no diu què fa exactament «IA-Cura» ni quins resultats ha obtingut, i caldrà esperar a la jornada per saber-ho.",
-    "source": "Diari de Terrassa",
-    "url": "https://www.diarideterrassa.com/terrassa/la-fundacio-vallparadis-posa-el-focus-en-la-intelligencia-artificial-i-les-cures.html",
-    "image": "./assets/vallparadis-terrassa-jornada-cientifica-ia-cures-20261024.jpg",
-    "slug": "vallparadis-terrassa-jornada-cientifica-ia-cures"
   }
 ];
