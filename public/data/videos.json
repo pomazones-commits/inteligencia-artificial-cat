@@ -1,8 +1,56 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-28T05:15:04.194Z",
+ "actualitzat": "2026-10-28T10:02:01.045Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "M2Oa42hF67E",
+   "titol": "From legal bottleneck to business partner | Legora’s Emma Kadri Bergström",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-10-28T09:45:24.000Z",
+   "descripcio": "NDA reviews once took up around 20% of Legora’s legal team’s capacity. Today, that figure is under 1%. General Counsel Emma Kadri Bergström shares how AI is helping her team reclaim time, support a rapidly growing business and take on more complex work, while keeping lawyers responsible for the deci",
+   "miniatura": "/assets/videos/M2Oa42hF67E.jpg"
+  },
+  {
+   "id": "UOfmD1fY-i8",
+   "titol": "Building the future of legal work with AI | Legora CEO Max Junestrand",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-10-28T09:45:18.000Z",
+   "descripcio": "Legora co-founder and CEO Max Junestrand wants to make legal expertise available wherever it’s needed. He shares how OpenAI helped turn that ambition into a platform, why staying AI-native matters as the company grows, and what becomes possible when lawyers can take on work that time and capacity on",
+   "miniatura": "/assets/videos/UOfmD1fY-i8.jpg"
+  },
+  {
+   "id": "z-WZMjNsg-k",
+   "titol": "Faster contract review. Broader legal analysis. | Legora’s Alex Fortescue-Webb",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-28T09:45:16.000Z",
+   "descripcio": "When deadlines limit how many contracts lawyers can examine, important risks can go unseen. Alex Fortescue-Webb, Global Head of Legal Engineering at Legora, explains how AI powered by OpenAI models helps teams analyse thousands of contracts across multiple questions in minutes, expanding the scope o",
+   "miniatura": "/assets/videos/z-WZMjNsg-k.jpg"
+  },
+  {
+   "id": "yJxZef1Ylok",
+   "titol": "How Legora is transforming legal work with OpenAI",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-10-28T09:45:14.000Z",
+   "descripcio": "What can lawyers achieve when time is no longer the limit? Discover how Legora uses OpenAI models, ChatGPT and Codex to help legal teams review contracts faster, broaden their analysis and make more room for work that needs human judgment. Part of Intelligence at Work, a series exploring how busines",
+   "miniatura": "/assets/videos/yJxZef1Ylok.jpg"
+  },
   {
    "id": "QqeKRvAkIc8",
    "titol": "How AI Is Advancing Human Health",
