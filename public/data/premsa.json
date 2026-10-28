@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-28T17:22:13.750Z",
+ "actualitzat": "2026-10-28T21:26:42.885Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "198fc047a0aa",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Microsoft dispara su beneficio un 32% apoyada en la buena marcha de su negocio relacionado con la IA",
+   "url": "https://elpais.com/economia/2026-10-28/microsoft-dispara-su-beneficio-un-32-apoyada-en-la-buena-marcha-de-su-negocio-relacionado-con-la-ia.html",
+   "publicat": "2026-10-28T20:52:18.000Z"
+  },
+  {
+   "id": "43e004d33fe7",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Meta llança el seu propi Tamagotchi amb IA: així és Waddle World",
+   "url": "https://www.elnacional.cat/ca/tecnologia/meta-llanca-seu-propi-tamagotchi-ia-aixi-es-waddle-world_1717177_102.html",
+   "publicat": "2026-10-28T19:00:00.000Z"
+  },
+  {
+   "id": "3ff869e05845",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El aspirante a ‘unicornio’ Impress recibe un préstamo del BEI de 40 millones para su IA clínica",
+   "url": "https://cincodias.elpais.com/companias/2026-10-28/el-aspirante-a-unicornio-impress-recibe-un-prestamo-del-bei-de-40-millones-para-su-ia-clinica.html",
+   "publicat": "2026-10-28T17:20:10.000Z"
+  },
   {
    "id": "6d1f950d8c34",
    "mitja": "Cinco Días",
@@ -2743,39 +2776,6 @@
    "titol": "Una xarxa 5G que es desplega en minuts i IA per detectar problemes: les novetats de Telefònica",
    "url": "https://www.arabalears.cat/economia/xarxa-5g-desplega-minuts-ia-detectar-problemes-novetats-telefonica_1_5886981.html",
    "publicat": "2026-10-22T11:56:15.000Z"
-  },
-  {
-   "id": "3b5a1f88a5d5",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La alianza del IES Joan Alcover de Palma con la IA: un caso de éxito para usarla en las aulas",
-   "url": "https://www.ultimahora.es/noticias/local/2026/10/22/2734215/alianza-del-ies-joan-alcover-palma-caso-exito-para-usarla-aulas.html",
-   "publicat": "2026-10-22T11:46:59.000Z"
-  },
-  {
-   "id": "85c9baf85bcc",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "[VÍDEO] El PP suplanta Begoña Gómez, Ábalos i Zapatero amb IA: “Anar de putes? Sóc d’esquerres”",
-   "url": "https://www.vilaweb.cat/noticies/video-pp-suplanta-begona-gomez-abalos-zapatero-putes",
-   "publicat": "2026-10-22T11:43:36.000Z"
-  },
-  {
-   "id": "54de74ac1e7b",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Millones de ciberataques en pocas horas, tras descubrir la IA un fallo en el corazón del 70% de las webs",
-   "url": "https://elpais.com/tecnologia/2026-10-22/millones-de-intentos-de-ataque-en-pocas-horas-tras-destaparse-fallos-graves-en-miles-de-webs.html",
-   "publicat": "2026-10-22T11:40:42.000Z"
   }
  ]
 }
