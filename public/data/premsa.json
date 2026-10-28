@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-28T13:33:33.250Z",
+ "actualitzat": "2026-10-28T16:51:37.163Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "584328f133a6",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Expertos en software advierten de que el avance de la IA exige reforzar el control humano y las garantías de calidad",
+   "url": "https://www.levante-emv.com/valencia/2026/10/28/expertos-software-advierten-avance-ia-bc-135854946.html",
+   "publicat": "2026-10-28T16:14:42.000Z"
+  },
+  {
+   "id": "f7c89474145a",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La propaganda y la desinformación con IA inundan las elecciones de medio mandato en Estados Unidos",
+   "url": "https://www.diariodemallorca.es/internacional/2026/10/28/propaganda-desinformacion-ia-inundan-elecciones-midterms-estados-unidos-trump-bulos-135854292.html",
+   "publicat": "2026-10-28T15:52:05.000Z"
+  },
+  {
+   "id": "8e457a680cce",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Posen sis IAs a reclamar un bitllet de tren fora de termini i acaben mentint i filtrant dades mèdiques",
+   "url": "https://www.elnacional.cat/ca/tecnologia/posen-sis-ias-reclamar-bitllet-tren-fora-termini-acaben-mentint-filtrant-dades-mediques_1717048_102.html",
+   "publicat": "2026-10-28T15:30:00.000Z"
+  },
+  {
+   "id": "9db8f76cff52",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Google negocia la venta de chips de IA a OpenAI y eleva la presión sobre Nvidia",
+   "url": "https://cincodias.elpais.com/companias/2026-10-28/google-negocia-la-venta-de-chips-de-ia-a-openai-y-eleva-la-presion-sobre-nvidia.html",
+   "publicat": "2026-10-28T13:54:06.000Z"
+  },
   {
    "id": "226fb96d0928",
    "mitja": "Levante-EMV",
@@ -32,7 +76,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "La IA llega ya al 70% de las grandes empresas, el doble que a las pymes",
+   "titol": "La IA apenas llega al 35% de las pymes, la mitad que a las grandes empresas",
    "url": "https://www.lavanguardia.com/economia/20261028/11670271/ia-llega-70-grandes-empresas-doble-pymes.html",
    "publicat": "2026-10-28T13:03:43.000Z"
   },
@@ -2732,50 +2776,6 @@
    "titol": "El PSOE estudia emprender acciones legales contra el PP por la suplantación de la identidad de Begoña Gómez en un vídeo generado por IA",
    "url": "https://www.elperiodico.com/es/politica/20261022/psoe-estudia-acciones-legales-pp-135626137",
    "publicat": "2026-10-22T11:37:42.000Z"
-  },
-  {
-   "id": "ec0f831ea90d",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "\"Si anar de putes és d'esquerrans, soc esquerrà\": el PP ataca el PSOE amb un vídeo fet amb IA",
-   "url": "https://www.ara.cat/politica/eleccions-generals/pp-contraataca-publica-videos-falsos-dirigents-psoe-admetent-delictes_25_5887021.html",
-   "publicat": "2026-10-22T11:25:52.000Z"
-  },
-  {
-   "id": "6e91e259a4eb",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Jordi Giné, directivo de Telefónica: \"La IA es como la electricidad, que en su momento también transformó el mundo\"",
-   "url": "https://www.diariodemallorca.es/mallorca/2026/10/22/jordi-giner-directivo-telefonica-ia-135623085.html",
-   "publicat": "2026-10-22T11:09:05.000Z"
-  },
-  {
-   "id": "b9417cceb733",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Gavino Balata reivindica el potencial de la intel·ligència artificial per preservar el català alguerès",
-   "url": "https://www.diariandorra.ad/nacional/261022/gavino-balata-reivindica-potencial-intel-ligencia-artificial-per-preservar-catala-algueres_207079.html",
-   "publicat": "2026-10-22T11:02:22.000Z"
-  },
-  {
-   "id": "111d105020df",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Barclays recortará 5.000 empleos, el 5% de su fuerza laboral, para reducir costes por la IA",
-   "url": "https://cincodias.elpais.com/companias/2026-10-22/barclays-recortara-5000-empleos-el-5-de-su-fuerza-laboral-para-reducir-costes-por-la-ia.html",
-   "publicat": "2026-10-22T10:29:14.000Z"
   }
  ]
 }
