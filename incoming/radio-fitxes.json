@@ -1,14 +1,27 @@
-{"fitxes": [{
- "id": "3cat-1295602",
- "emissora": "Catalunya Ràdio",
- "programa": "Catalunya nit",
- "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
- "data": "2026-10-27",
- "durada": "10 min",
- "titol": "Té menys valor una novel·la escrita amb IA si ens emociona? Román Orús hi respon",
- "convidats": [{"nom": "Román Orús", "rol": "membre del Panel Científic Internacional sobre Intel·ligència Artificial de les Nacions Unides"}],
- "resum": "En la seva conversa quinzenal al «Catalunya nit», Román Orús, l'únic català membre del panel científic de l'ONU sobre intel·ligència artificial, comenta el cas de «Donde el agua trabaja», la novel·la que va guanyar el premi internacional de novel·la breu Almadía Ventosa-Arrufat i que, segons es va descobrir, estava escrita en un 99% amb IA. La pregunta de fons és si l'origen d'un text en canvia el valor.",
- "tema": "cultura",
- "url": "https://www.3cat.cat/3cat/roman-orus-si-una-novella-esta-escrita-amb-ia-i-ens-emociona-te-menys-valor/audio/1295602/",
- "reproductor": {"tipus": "3cat", "id": "1295602"}
-}], "descartats": []}
+{
+  "fitxes": [
+    {
+      "id": "rtve-17286319",
+      "emissora": "Ràdio 4",
+      "programa": "El pla B",
+      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
+      "data": "2026-10-27",
+      "durada": "15 min",
+      "titol": "Com la IA i les xarxes poden condicionar el vot en una campanya electoral",
+      "convidats": [
+        {
+          "nom": "Xavier Tomàs",
+          "rol": "expert en comunicació política"
+        }
+      ],
+      "resum": "L'expert en comunicació política Xavier Tomàs analitza a «El pla B» com les xarxes socials i la intel·ligència artificial han canviat les campanyes electorals: de les notícies falses als vídeos manipulats i els comptes falsos. El programa repassa com poden influir en el vot, alimentar la polarització i erosionar la confiança ciutadana, amb exemples d'Israel, el Brasil i l'Estat espanyol.",
+      "tema": "poder",
+      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-eleccions-sota-influencia-dels-algoritmes/17286319/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17286319"
+      }
+    }
+  ],
+  "descartats": []
+}
