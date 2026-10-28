@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-27T17:20:14.476Z",
+ "actualitzat": "2026-10-28T05:15:04.194Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "QqeKRvAkIc8",
+   "titol": "How AI Is Advancing Human Health",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "salut",
+   "idioma": "en",
+   "publicat": "2026-10-28T00:45:39.000Z",
+   "descripcio": "In her special address at NVIDIA GTC Berlin, Kimberly Powell, Vice President of Healthcare and Life Sciences at NVIDIA, explored how digital health agents are reaching national scale, how AI factories are speeding up drug discovery from research to clinic, and how robotic systems are expanding acces",
+   "miniatura": "/assets/videos/QqeKRvAkIc8.jpg"
+  },
   {
    "id": "LOP8ul3KqQI",
    "titol": "Introducing Genie 4",
@@ -1112,30 +1124,6 @@
    "publicat": "2026-10-07T16:00:07.000Z",
    "descripcio": "Look what you can do! Explore the intersection of binary coding and fabric-making with Computational Knitting. Built with Gemini, Carrie's project transforms algorithmic processes into unique textile designs knit on a computerized knitting machine. Watch as she brings these digital designs to life s",
    "miniatura": "/assets/videos/pijSNA-hWkg.jpg"
-  },
-  {
-   "id": "lTQHImoeuEY",
-   "titol": "Top 3 new model launches at Gemini Audio at Night",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-10-06T23:00:23.000Z",
-   "descripcio": "Catch up on the highlights from Gemini Audio at Night in San Francisco! Google DeepMind’s Paige Bailey breaks down the top 3 developer takeaways from the event and shows how these new audio models come to life through hands-on demos. Discover how you can build with: *Gemini 3.8 TTS models: Text-to-s",
-   "miniatura": "/assets/videos/lTQHImoeuEY.jpg"
-  },
-  {
-   "id": "4XZzjY4X13A",
-   "titol": "NVIDIA RTX Spark | Made to Create",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-10-06T19:01:19.000Z",
-   "descripcio": "Bring your ideas to life on NVIDIA RTX Spark. From faster video edits to smoother 3D rendering and generative AI, RTX acceleration gives creators more ways to craft, refine, and share their work. Learn more about RTX Spark: https://www.nvidia.com/en-us/products/rtx-spark/",
-   "miniatura": "/assets/videos/4XZzjY4X13A.jpg"
   }
  ]
 }
