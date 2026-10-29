@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-29T05:17:47.441Z",
+ "actualitzat": "2026-10-29T09:17:42.267Z",
  "canals": 19,
  "videos": [
   {
@@ -14,6 +14,18 @@
    "publicat": "2026-10-28T23:45:26.000Z",
    "descripcio": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. Credit amounts depend on the plan. Pro plans get $100, $200 or $500 per month by tier. Business plans get $20 per paid Standard seat or $100 per paid Premium seat, po",
    "miniatura": "/assets/videos/ujmyzWSj8IU.jpg"
+  },
+  {
+   "id": "ID6vEy94j7c",
+   "titol": "Building real-time vision & edge navigation with Gemini Live",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-10-28T21:00:32.000Z",
+   "descripcio": "Meet Sprout, a semi-autonomous plant robot powered by Gemini. Watch as it navigates the office in search of sunlight, pings for help, and uses Gemini Live and Robotics ER 2.0 for vision to care for fellow office plants. Try building today → https://goo.gle/4BmThG6 Subscribe to Google for Developers ",
+   "miniatura": "/assets/videos/ID6vEy94j7c.jpg"
   },
   {
    "id": "pQ_Dnr9Q4k8",
