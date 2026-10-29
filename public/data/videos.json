@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-29T09:17:42.267Z",
+ "actualitzat": "2026-10-29T17:19:41.191Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "L6pzlo1QvoM",
+   "titol": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-10-29T16:23:43.000Z",
+   "descripcio": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their dat",
+   "miniatura": "/assets/videos/L6pzlo1QvoM.jpg"
+  },
   {
    "id": "ujmyzWSj8IU",
    "titol": "API credits, now in ChatGPT Pro and Business plans",
