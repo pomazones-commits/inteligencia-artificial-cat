@@ -1,5 +1,29 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "29.10.2026",
+    "title": "Nvidia publica un model obert que transcriu àudio en 40 llengües, però el català no hi és",
+    "summary": "Nemotron 3.5 Transcribe té 30.000 milions de paràmetres, distingeix fins a vuit veus en gravacions d'una hora i també tradueix. Es pot baixar gratuïtament de Hugging Face.",
+    "detail": "Els models que converteixen la veu en text són la base de moltes aplicacions d'IA que ja fan servir empreses i hospitals: les que prenen notes de les reunions, les que transcriuen les visites mèdiques o les dels centres d'atenció telefònica. Nvidia, que sobretot ven els xips on funcionen aquests models, també en publica de propis amb els pesos oberts, és a dir, perquè qualsevol els pugui baixar i fer funcionar als seus ordinadors.\n\nAquest dimecres ha presentat Nemotron 3.5 Transcribe, un model de 30.000 milions de paràmetres que, segons l'empresa, transcriu àudio en fins a 40 llengües i tradueix 31 llengües cap a l'anglès i des de l'anglès. Pot treballar amb gravacions de fins a una hora, distingeix fins a vuit persones que parlen i funciona en un sol xip, des dels equips petits Jetson i DGX Spark fins als dels centres de dades. Nvidia diu que supera els rivals en diverses proves, entre les quals la classificació oberta de reconeixement de veu de Hugging Face, però TechCrunch no en dona les puntuacions. Juntament amb el model, ha publicat la segona versió de Granary, un conjunt de dades de veu obert perquè els desenvolupadors l'adaptin al vocabulari del seu sector.\n\nEl llançament arriba en un moment en què la veu és un dels camps més disputats de la IA: fa pocs dies Mistral va presentar models de veu en més de 50 llengües. Per al lector d'aquí, el detall rellevant és un altre: a la fitxa del model a Hugging Face hi ha les etiquetes de les 40 llengües, que inclouen el castellà, el francès, l'italià, el maltès o el letó, però no el català. Qui vulgui transcriure català amb aquesta eina haurà d'adaptar-la amb dades pròpies, una feina que projectes com Aina ja fan amb altres models.\n\nEl model només treballa amb àudio gravat, no amb emissions en directe. Es distribueix amb una llicència pròpia d'Nvidia, no amb una de les llicències habituals de codi obert, i els resultats de les proves són els que dona l'empresa: caldrà veure com es comporta en avaluacions independents i en condicions reals, amb soroll de fons o accents.",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+    "image": "./assets/nvidia-nemotron-transcribe-model-obert-veu-20261029.jpg",
+    "slug": "nvidia-nemotron-transcribe-model-obert-veu"
+  },
+  {
+    "place": "Comunitat Valenciana",
+    "category": "IA I SOCIETAT",
+    "date": "29.10.2026",
+    "title": "L'Acadèmia Valenciana de la Llengua resol com s'apostrofa la sigla IA: «d'IA», però «la IA»",
+    "summary": "El ple de l'AVL ha aprovat un dictamen que explica que la sigla es llegeix lletra per lletra i que l'accent recau en la segona, per això l'article femení no s'apostrofa i la preposició sí.",
+    "detail": "La sigla IA, d'intel·ligència artificial, s'ha fet tan habitual als mitjans, a les aules i a les converses que ha obert un dubte que surt cada dia en qualsevol redacció: si cal escriure «l'IA» o «la IA», i si cal dir «d'IA» o «de IA». L'Acadèmia Valenciana de la Llengua (AVL), la institució que fixa la normativa a la Comunitat Valenciana, ha volgut donar-hi una resposta clara.\n\nEl ple de l'AVL va aprovar el 23 d'octubre un dictamen elaborat per les seccions de Lexicografia i de Gramàtica i Terminologia, amb l'assessorament de la Unitat de Recursos Lingüisticotècnics, segons ha informat aquest dimecres el Diari La Veu. El text explica que IA es llegeix lletra per lletra i que cada lletra conserva el seu so dins de la sigla: la i inicial forma una síl·laba pròpia, separada de la a. Per això s'hi apliquen les regles generals de l'apostrofació. Davant de la preposició «de», que s'apostrofa davant de vocal, la forma correcta és «d'IA». Davant de l'article femení «la», en canvi, com que l'accent principal recau en la segona lletra, no s'apostrofa i s'escriu «la IA». L'AVL ho compara amb altres sigles com UA o UGT.\n\nEl dictamen respon, segons l'Acadèmia, a l'ús creixent de la sigla i a la necessitat de tenir un criteri normatiu clar. Té conseqüències pràctiques per a mitjans, administracions, escoles i traductors, que fins ara trobaven totes dues formes en circulació. La resolució es podrà consultar a les obres normatives de l'AVL i al Portal Terminològic Valencià.\n\nL'acord resol l'apostrofació de la sigla, no altres dubtes que també genera, com ara si convé escriure-la sempre amb majúscules o desplegar-la la primera vegada que surt en un text. A més, el criteri que fixa l'AVL és el de la seva normativa: cada mitjà i cada institució el pot contrastar amb el dels seus llibres d'estil.",
+    "source": "Diari La Veu",
+    "url": "https://www.diarilaveu.cat/llengua/lavl-resol-el-dubte-com-sapostrofa-la-sigla-ia-655248",
+    "image": "./assets/avl-apostrofacio-sigla-ia-20261029.jpg",
+    "slug": "avl-apostrofacio-sigla-ia"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "28.10.2026",
@@ -70,29 +94,5 @@ window.IA_RADAR = [
     "url": "https://empreses.ara.cat/innovacio/seny-ia-catalana-vigila-agents_1_5888174.html",
     "image": "./assets/alinia-ai-seny-model-catala-vigila-agents-llei-20261026.jpg",
     "slug": "alinia-ai-seny-model-catala-vigila-agents-llei"
-  },
-  {
-    "place": "Tarragona",
-    "category": "IA I SOCIETAT",
-    "date": "25.10.2026",
-    "title": "Tarragona reuneix més de 3.000 professionals de 65 països per parlar de com la IA canvia les empreses i la ciberseguretat",
-    "summary": "El congrés MSP Global va ocupar dos dies el PortAventura Convention Centre amb més de 120 ponents, entre ells experts en cibercrim i comportament humà a la xarxa.",
-    "detail": "Tarragona ha acollit aquesta setmana una de les trobades professionals més concorregudes del sector de la ciberseguretat. L'MSP Global 2026 va tenir lloc el 21 i el 22 d'octubre al PortAventura Convention Centre, a Tarragona, i, segons el Diari de Tarragona, va reunir més de 3.000 professionals de més de seixanta-cinc països, més de 120 ponents i un centenar d'empreses col·laboradores.\n\nEl programa girava al voltant de com la intel·ligència artificial transforma les empreses i dels nous riscos per a la seguretat digital. Es va parlar també de l'evolució del cibercrim i de les vulnerabilitats dels sistemes informàtics, i d'estratègia al núvol, regulació, creixement empresarial i fusions i adquisicions, amb sessions sobre l'aplicació pràctica de la IA, la seguretat de les infraestructures, el compliment normatiu i els canvis en els models de negoci.\n\nEntre els ponents destacats hi havia Ralph Echemendia, conegut com el «hacker de Hollywood», que va presentar la sessió «The Real Cyber» i va assessorar la pel·lícula *Snowden*, que es va projectar al final; Mary Aiken, experta en comportament humà al ciberespai; Salvatore Russo, general de divisió de la Guardia di Finanza italiana especialitzat en crim organitzat i delictes financers, i Steffi Frey, investigadora en ciberseguretat i hacker ètica.\n\nL'article és una crònica de l'acte i no n'esmenta els organitzadors ni recull conclusions o acords concrets; les xifres d'assistència són les que dona el diari. Serveix, doncs, per mesurar el pes que té Tarragona com a seu de congressos del sector, més que no pas per conèixer què es va decidir.",
-    "source": "Diari de Tarragona",
-    "url": "https://www.diaridetarragona.com/sociedad/273888/tarragona-reune-3-000-expertos-internacionales-ciberseguridad-e-inteligencia-artificial.html",
-    "image": "./assets/msp-global-tarragona-3000-professionals-ia-ciberseguretat-20261025.jpg",
-    "slug": "msp-global-tarragona-3000-professionals-ia-ciberseguretat"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "24.10.2026",
-    "title": "Bon Preu prepara un assistent d'IA a la seva aplicació per planificar la compra amb text, notes de veu o imatges",
-    "summary": "El grup el desenvolupa amb la start-up catalana Shoptimus i el provarà primer amb el personal; abans de Nadal l'estrenaran uns milers d'usuaris.",
-    "detail": "Els supermercats britànics i neerlandesos fa temps que proven assistents d'IA dins de les seves aplicacions, i ara una cadena catalana s'hi afegeix. Bon Preu treballa en una eina que ha de ser un pas més enllà de l'app actual, que només mostra informació.\n\nSegons Ara, l'assistent permetrà fer consultes per text, per nota de veu o per imatge per planificar la compra. S'està desenvolupant amb la start-up catalana Shoptimus, i el diari el presenta com un assistent pioner a Espanya. En les properes setmanes el provarà el personal intern, i abans de la campanya de Nadal s'espera que hi tinguin accés uns milers d'usuaris de l'app, amb funcions que s'hi aniran afegint a poc a poc. L'objectiu és que arribi a tots els usuaris, però no hi ha data. Berta Martínez, responsable de fidelització, va dir que «no ens podíem quedar estancats en una app que només mostra informació, havíem de fer un pas més enllà». L'app suma un milió de descàrregues des del 2016 i el 60% de qui la té instal·lada l'utilitza amb regularitat.\n\nLa notícia és interessant perquè mostra l'adopció de la IA en el comerç alimentari amb una start-up local i una empresa que el 2025 va facturar 2.611,5 milions d'euros, un 7,9% més, i va invertir 150 milions. Ara ja ofereix reptes personalitzats amb descomptes en fresc i canvis d'articles de la cistella per alternatives més barates o saludables.\n\nConvé recordar que l'assistent encara no és disponible per al públic: ni Ara ni l'empresa no detallen quin model hi ha al darrere ni com mesuraran que realment ajuda a comprar millor.",
-    "source": "Ara",
-    "url": "https://www.ara.cat/economia/comerc/bon-preu-ultima-assistent-d-ia-millorar-planificacio-compra-traves-l-aplicacio_1_5888498.html",
-    "image": "./assets/bon-preu-assistent-ia-app-compra-shoptimus-20261024.jpg",
-    "slug": "bon-preu-assistent-ia-app-compra-shoptimus"
   }
 ];

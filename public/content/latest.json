@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-28T17:21:16.368Z",
+  "updatedAt": "2026-10-29T05:17:01.303Z",
   "items": [
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "SK hynix multiplica per set el benefici gràcies a la memòria per a IA i diu que ja té venuda la producció fins al 2029",
-      "excerpt": "El fabricant sud-coreà, proveïdor clau de Nvidia, supera per primer cop els 100 bilions de wons de facturació en un trimestre i assegura que els clients li demanen més del doble del que pot fabricar."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un estudi a «JAMA Psychiatry» troba 28 pacients amb psicosi que van empitjorar parlant amb xatbots, sobretot en el primer episodi",
-      "excerpt": "Investigadors de Vanderbilt han revisat els historials de 215.000 pacients de salut mental: el cas més habitual és el d'un xatbot que dona la raó a idees delirants. L'estudi no demostra que la IA causi la psicosi."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Treballar amb una altra persona dona idees més creatives que fer-ho amb ChatGPT, segons un experiment amb 208 participants",
-      "excerpt": "Les parelles humanes van produir idees més originals i variades, i l'avantatge creixia a mesura que avançava la col·laboració. Amb el xatbot, les respostes eren més llargues però s'assemblaven més entre elles."
+      "title": "Microsoft ingressa 10.000 milions de dòlars d'OpenAI en un trimestre i el seu núvol, Azure, creix un 48%",
+      "excerpt": "És la primera vegada que l'empresa diu quant factura Azure: 33.200 milions. El mateix dia, Alphabet ha presentat un Google Cloud que gairebé dobla les vendes, però ha caigut un 8% a la borsa."
     },
     {
       "category": "TECNOLOGIA",
-      "read": "3 MIN",
-      "title": "Chrome ja pot buscar al Gmail les dades per omplir formularis, com el número d'una reserva de vol o d'una comanda",
-      "excerpt": "Google comença a oferir als Estats Units un emplenament automàtic amb Gemini que consulta el correu de l'usuari, si l'ha activat. Més endavant també podrà llegir les imatges de Google Fotos."
-    },
-    {
-      "category": "PRIVADESA",
       "read": "4 MIN",
-      "title": "Noyb denuncia Scale AI a quatre països europeus per vigilar els treballadors que entrenen models d'IA a la plataforma Outlier",
-      "excerpt": "L'entitat de Max Schrems acusa l'empresa de posar rastrejadors de TikTok, LinkedIn i Facebook als aparells de més de 900.000 col·laboradors i d'exigir-los verificacions de cara repetides."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "OpenAI es prepara per comprar xips d'IA a Google, i no només llogar-los, segons «The Information»",
-      "excerpt": "L'empresa de ChatGPT, un dels grans clients de Nvidia, ja feia servir des del 2025 els processadors TPU de Google a través del núvol. Cap de les dues companyies no ha confirmat l'operació ni se'n coneixen les condicions."
-    },
-    {
-      "category": "TREBALL",
-      "read": "4 MIN",
-      "title": "El Govern dels Països Baixos vol suprimir uns 25.000 llocs a l'administració central i confia en la IA, però avisa que no se n'exagerin els efectes",
-      "excerpt": "El pla, enviat al Parlament el 26 d'octubre, preveu reduir una sisena part de la plantilla en nou anys i estalviar 3.500 milions anuals el 2035. El mateix document admet que les digitalitzacions anteriors no van estalviar el que prometien."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Tres de cada quatre respostes a la consulta britànica sobre els vapejadors d'un sol ús eren de bots, segons un estudi a «Tobacco Control»",
-      "excerpt": "Gairebé totes les respostes automàtiques s'oposaven a restringir-ne la venda. Un cop descartades, el 77% dels participants vàlids hi donava suport. Els autors parlen del primer cas documentat d'interferència automatitzada massiva en una consulta de salut pública."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Simulacions amb IA d'Oxford mostren àtom per àtom per què un plàstic escalfat es converteix en carboni dur per a bateries de sodi",
-      "excerpt": "L'estudi, publicat a «Chemical Science», segueix com el clorur de polivinilidè perd hidrogen i clor i forma anells de cinc i set àtoms que impedeixen que el carboni s'ordeni com el grafit. Encara no relaciona aquesta estructura amb el rendiment de les bateries."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Artiso, la plataforma d'IA per a la moda de tres exdirectius de Mango, capta més de 3 milions en una ronda liderada per Criteria",
-      "excerpt": "L'empresa barcelonina, creada a final del 2024 per l'antic equip d'IA de Mango, diu que el seu sistema fa en uns quatre minuts una fitxa tècnica que abans costava de dues a sis hores. Hi inverteixen també Swanlaab, Bynd i el fundador de Ganni."
-    },
-    {
-      "category": "TREBALL",
-      "read": "4 MIN",
-      "title": "Microsoft ofereix la baixa voluntària a uns 60.000 empleats, una quarta part de la plantilla, mentre dispara la inversió en IA",
-      "excerpt": "L'oferta arriba a treballadors dels Estats Units, el Canadà, el Regne Unit i l'Índia, fins al nivell de vicepresident. L'empresa preveu gastar 175.000 milions de dòlars en infraestructura d'IA aquest any."
+      "title": "Nvidia publica un model obert que transcriu àudio en 40 llengües, però el català no hi és",
+      "excerpt": "Nemotron 3.5 Transcribe té 30.000 milions de paràmetres, distingeix fins a vuit veus en gravacions d'una hora i també tradueix. Es pot baixar gratuïtament de Hugging Face."
     },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Anthropic rebaixa un 40% el preu de Claude per a totes les administracions dels Estats Units, de les federals a les locals",
-      "excerpt": "L'acord amb l'agència de compres del Govern federal no obliga a cap despesa mínima. L'empresa calcula que estalviarà 1.000 milions de dòlars a l'administració i diu que ja la fan servir uns 500 organismes públics."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un model d'IA detecta a urgències dos de cada tres pacients que tindran una conducta suïcida, però dona moltes falses alarmes",
-      "excerpt": "L'estudi, publicat a «Scientific Reports», s'ha entrenat amb 41.202 pacients d'un hospital dels Estats Units. Per cada 1.000 visites, n'assenyala 121 per revisar-les i encerta 23 dels 36 casos reals."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Un error de Cloudflare va fer que un model d'IA respongués amb dades d'altres clients durant dues setmanes",
-      "excerpt": "Va passar amb el model GLM-5.3 del seu servei Workers AI entre el 27 d'agost i el 9 de setembre i va afectar 155 respostes. L'empresa diu que no hi ha indicis que ningú ho aprofités."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Impress, la cadena d'ortodòncia invisible de Barcelona, rep 40 milions del Banc Europeu d'Inversions per reforçar la seva plataforma d'IA",
-      "excerpt": "És un préstec de deute de risc que també servirà per créixer al centre i al nord d'Europa. L'empresa, fundada el 2019, té 110 clíniques i va facturar 103 milions d'euros el 2025."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "5 MIN",
-      "title": "Anthropic compra Mithril Medicine i explica què ha fet Claude amb sis empreses que busquen fàrmacs nous",
-      "excerpt": "La companyia adquireix una empresa d'una sola persona que investiga dues distròfies musculars rares i publica els primers resultats amb Bristol Myers Squibb i cinc empreses més. Gairebé tot és encara recerca preclínica."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "5 MIN",
-      "title": "Els pares d'una enginyera morta amb epilèpsia demanden OpenAI: diuen que ChatGPT la va ajudar a deixar la medicació d'amagat",
-      "excerpt": "La demanda sosté que el xat va dissenyar a Bowen Wan un calendari per reduir el fàrmac fins a zero i li va recomanar no dir-ho als metges. OpenAI parla d'un cas «terriblement trist» amb una versió antiga del model."
+      "title": "Anthropic ofereix a les empreses informes que expliquen què fan els equips amb Claude i quant els costa",
+      "excerpt": "Els «informes intel·ligents» analitzen una mostra de les converses d'un equip, n'agrupen la feina i en calculen la despesa. També hi ha enquestes dins de l'aplicació i pressupostos compartits per grup."
     },
     {
       "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una IA de la Universitat Miguel Hernández d'Elx calcula com estimular el cervell d'una persona cega perquè vegi punts de llum",
-      "excerpt": "Un estudi publicat a «Neuron» fa servir una xarxa neuronal per decidir quins elèctrodes d'un implant s'activen i amb quina intensitat. Amb menys corrent, reprodueix millor la resposta del cervell, però és una prova amb un sol voluntari."
+      "read": "4 MIN",
+      "title": "Un estudi amb 475.000 decisions d'un fabricant de camions automatitza el 84% i deixa a les persones les que de debò milloren",
+      "excerpt": "Investigadors de tres universitats proposen predir en quins casos la correcció d'un treballador millora la recomanació de l'algorisme i automatitzar només la resta, perquè el sistema continuï aprenent."
     },
     {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "La borsa xinesa de la IA i els xips perd un 40% en menys de quatre mesos, uns 480.000 milions de dòlars",
-      "excerpt": "L'índex STAR50 de Xangai acumula una caiguda que s'emporta des de fabricants de memòria com CXMT fins a la companyia de robots Unitree, que ja val la meitat que el dia que va sortir a borsa."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "El 42% de les grans empreses gironines preveu que la IA li canviarà la plantilla, però només un 19% té una estratègia",
-      "excerpt": "L'informe Girona 100 de KPMG i la Universitat de Girona pregunta per primera vegada per la intel·ligència artificial: dues de cada tres empreses ja proven eines generatives, sobretot a finances i a vendes."
+      "category": "COMUNITAT VALENCIANA",
+      "read": "3 MIN",
+      "title": "L'Acadèmia Valenciana de la Llengua resol com s'apostrofa la sigla IA: «d'IA», però «la IA»",
+      "excerpt": "El ple de l'AVL ha aprovat un dictamen que explica que la sigla es llegeix lletra per lletra i que l'accent recau en la segona, per això l'article femení no s'apostrofa i la preposició sí."
     }
   ]
 }
