@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-28T21:26:42.885Z",
+ "actualitzat": "2026-10-29T05:18:00.313Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "197b458c5d53",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "INNOVACIÓN | Terciario Avanzado y los diez retos de innovación en el Puerto: IA, automatización, descarbonización...",
+   "url": "https://alicanteplaza.es/alicanteplaza/innovacion-alicante/terciario-avanzado-y-los-diez-retos-de-innovacion-en-el-puerto-ia-automatizacion-descarbonizacion",
+   "publicat": "2026-10-29T05:00:05.000Z"
+  },
+  {
+   "id": "5338765cdda3",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Motor | El nuevo Mazda CX-5, ahora con Google Gemini",
+   "url": "https://valenciaplaza.com/valenciaplaza/plazamotor/el-nuevo-mazda-cx-5-ahora-con-google-gemini",
+   "publicat": "2026-10-29T05:00:05.000Z"
+  },
+  {
+   "id": "6dcccc13bcdf",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Bots de IA inundaron una consulta pública para intentar impedir un veto al vapeo",
+   "url": "https://www.lavanguardia.com/vida/20261029/11670544/bots-ia-inundaron-consulta-publica-intentar-impedir-veto-vapeo.html",
+   "publicat": "2026-10-29T05:00:00.000Z"
+  },
+  {
+   "id": "3920ea1e59ae",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los hackers norcoreanos del grupo Lazarus se blindan con IA y cifrado poscuántico",
+   "url": "https://elpais.com/tecnologia/2026-10-29/los-hackers-norcoreanos-del-grupo-lazarus-se-blindan-con-ia-y-cifrado-poscuantico.html",
+   "publicat": "2026-10-29T04:30:01.000Z"
+  },
+  {
+   "id": "6d14aac676eb",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic reconoce una intensa competencia en la IA y abre la puerta a nuevas adquisiciones",
+   "url": "https://cincodias.elpais.com/companias/2026-10-29/anthropic-reconoce-una-intensa-competencia-en-la-ia-y-abre-la-puerta-a-nuevas-adquisiciones.html",
+   "publicat": "2026-10-29T04:11:00.000Z"
+  },
+  {
+   "id": "f522faf17900",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los científicos son cada vez más proclives a usar la IA, y eso podría convertirse en un problema",
+   "url": "https://www.lavanguardia.com/neo/ia/20261029/11662863/cientificos-son-vez-mas-proclives-ia-convertirse-problema.html",
+   "publicat": "2026-10-29T04:00:00.000Z"
+  },
+  {
+   "id": "c63f80dae2e4",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Desnudos e IAs",
+   "url": "https://www.ultimahora.es/opinion/tribuna/2026/10/29/2738487/desnudos-ias.html",
+   "publicat": "2026-10-29T03:48:01.000Z"
+  },
+  {
+   "id": "d941040bf8b8",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "«La inteligencia artificial nos está ayudando a comprender por qué unas zonas quemadas se regeneran más rápido que otras»",
+   "url": "https://www.informacion.es/economia/2026/10/28/inteligencia-artificial-incendio-regenerar-135797847.html",
+   "publicat": "2026-10-28T21:30:45.000Z"
+  },
   {
    "id": "198fc047a0aa",
    "mitja": "Cinco Días",
@@ -56,7 +144,9 @@
    "ambit": "catala",
    "titol": "L’AVL resol el dubte: com s’apostrofa la sigla IA?",
    "url": "https://www.diarilaveu.cat/llengua/lavl-resol-el-dubte-com-sapostrofa-la-sigla-ia-655248",
-   "publicat": "2026-10-28T17:02:50.000Z"
+   "publicat": "2026-10-28T17:02:50.000Z",
+   "noticia": "avl-apostrofacio-sigla-ia",
+   "noticiaTitol": "L'Acadèmia Valenciana de la Llengua resol com s'apostrofa la sigla IA: «d'IA», però «la IA»"
   },
   {
    "id": "584328f133a6",
@@ -2657,6 +2747,17 @@
    "publicat": "2026-10-22T16:51:50.000Z"
   },
   {
+   "id": "54de74ac1e7b",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Millones de ciberataques en pocas horas, tras descubrir la IA un fallo en el corazón del 70% de las webs",
+   "url": "https://elpais.com/tecnologia/2026-10-22/millones-de-intentos-de-ataque-en-pocas-horas-tras-destaparse-fallos-graves-en-miles-de-webs.html",
+   "publicat": "2026-10-22T16:40:23.000Z"
+  },
+  {
    "id": "af67f46f7411",
    "mitja": "Diario de Mallorca",
    "font": "diariodemallorca-totes",
@@ -2677,105 +2778,6 @@
    "titol": "NTT DATA celebra 30 años en Catalunya con la inteligencia artificial como uno de sus ejes de crecimiento",
    "url": "https://www.informacion.es/economia/2026/10/22/ntt-data-celebra-30-anos-135638947.html",
    "publicat": "2026-10-22T15:50:03.000Z"
-  },
-  {
-   "id": "92775da87359",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Meta abre la vía a ampliar capital para financiar la inversión en la IA en pleno desplome de su caja",
-   "url": "https://cincodias.elpais.com/companias/2026-10-22/meta-abre-la-via-a-ampliar-capital-para-financiar-la-inversion-en-la-ia-en-pleno-desplome-de-su-caja.html",
-   "publicat": "2026-10-22T15:25:11.000Z"
-  },
-  {
-   "id": "8acce6b9085b",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Vanguardia celebra en Barcelona el Summit de Inteligencia Artificial",
-   "url": "https://www.lavanguardia.com/vida/20261022/11665555/vanguardia-celebra-barcelona-summit-inteligencia-artificial.html",
-   "publicat": "2026-10-22T15:07:30.000Z"
-  },
-  {
-   "id": "96acfc77fe71",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Alumnes de l'IES de Llançà es manifesten: \"Aquest curs ni el ChatGPT l'arregla, volem excursions\"",
-   "url": "https://www.elperiodico.cat/societat/20261022/alumnes-lies-llanca-manifesten-aquest-135636582",
-   "publicat": "2026-10-22T14:53:20.000Z"
-  },
-  {
-   "id": "9e893b65348b",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "VINALOPÓ | La UNED de Elda supera los 500 alumnos con el estreno de los grados de Psicología e Inteligencia Artificial",
-   "url": "https://alicanteplaza.es/alicanteplaza/elda-vinalopo-mitja/la-uned-de-elda-supera-los-500-alumnos-con-el-estreno-de-los-grados-de-psicologia-e-inteligencia-artificial",
-   "publicat": "2026-10-22T14:47:05.000Z"
-  },
-  {
-   "id": "98e3e6b06b9c",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Andorra Telecom posarà a prova els visitants de la Fira per detectar imatges creades amb IA",
-   "url": "https://www.diariandorra.ad/nacional/261022/andorra-telecom-posara-prova-els-visitants-fira-per-detectar-imatges-creades-amb-ia_207088.html",
-   "publicat": "2026-10-22T14:30:16.000Z"
-  },
-  {
-   "id": "4d8206ea1c98",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "García-Margallo advierte en València del nuevo orden mundial que impondrá la inteligencia artificial: \"Estamos ante un cambio de era\"",
-   "url": "https://www.levante-emv.com/economia/2026/10/22/garcia-margallo-valencia-advierte-inteligencia-artificial-mentes-digitales-135628643.html",
-   "publicat": "2026-10-22T12:50:00.000Z"
-  },
-  {
-   "id": "eddad3aeb289",
-   "mitja": "El Punt Avui",
-   "font": "elpuntavui-societat",
-   "icona": "/assets/premsa/el-punt-avui.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Polèmic muntatge del PP amb IA: líders del PSOE reivindiquen amb orgull els seus delictes",
-   "url": "https://www.elpuntavui.cat/societat/article/5-societat/2684413-polemic-muntatge-del-pp-amb-ia-liders-del-psoe-reivindiquen-amb-orgull-els-seus-delictes.html",
-   "publicat": "2026-10-22T12:38:00.000Z"
-  },
-  {
-   "id": "81a058b0464b",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Felipe González augura una crisis de empresas de IA que va a provocar un “batacazo” en los mercados",
-   "url": "https://www.lavanguardia.com/politica/20261022/11665523/felipe-gonzalez-augura-crisis-empresas-ia-provocar-batacazo-mercados.html",
-   "publicat": "2026-10-22T12:11:42.000Z"
-  },
-  {
-   "id": "736725d1119c",
-   "mitja": "Ara Balears",
-   "font": "arabalears",
-   "icona": "/assets/premsa/ara-balears.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Una xarxa 5G que es desplega en minuts i IA per detectar problemes: les novetats de Telefònica",
-   "url": "https://www.arabalears.cat/economia/xarxa-5g-desplega-minuts-ia-detectar-problemes-novetats-telefonica_1_5886981.html",
-   "publicat": "2026-10-22T11:56:15.000Z"
   }
  ]
 }
