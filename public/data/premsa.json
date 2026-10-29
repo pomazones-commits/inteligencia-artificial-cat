@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-29T18:40:46.389Z",
+ "actualitzat": "2026-10-29T23:00:38.496Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "ba665da60912",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Mercados | Cara y cruz de Substrate AI: pierde 5,7 millones hasta junio, pero eleva un 5,2% sus ingresos",
+   "url": "https://valenciaplaza.com/valenciaplaza/bolsas/cara-y-cruz-de-substrate-ai-pierde-57-millones-hasta-junio-pero-eleva-un-52-sus-ingresos",
+   "publicat": "2026-10-29T20:25:54.000Z"
+  },
   {
    "id": "7150001250d5",
    "mitja": "Diari d'Andorra",
@@ -101,6 +112,17 @@
    "titol": "El Davos de las infraestructuras debate cómo afrontar fallos de IA en el sistema: “La resiliencia no se construye en una crisis”",
    "url": "https://cincodias.elpais.com/companias/2026-10-29/el-davos-de-las-infraestructuras-debate-como-afrontar-fallos-de-ia-en-el-sistema-la-resiliencia-no-se-construye-en-una-crisis.html",
    "publicat": "2026-10-29T15:18:57.000Z"
+  },
+  {
+   "id": "dd3bc5717bae",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Microsoft se une la avalancha financiera de la IA con una emisión de deuda de 25.000 millones",
+   "url": "https://cincodias.elpais.com/companias/2026-10-29/microsoft-se-une-la-avalancha-financiera-de-la-ia-con-una-emision-de-deuda-de-25000-millones.html",
+   "publicat": "2026-10-29T15:15:48.000Z"
   },
   {
    "id": "a61d80f01c50",
@@ -2756,28 +2778,6 @@
    "titol": "La IA descubre casi 40.000 icebergs encallados en la Antártida",
    "url": "https://www.lavanguardia.com/lugaresdeaventura/20261023/11665381/ia-descubre-40-000-icebergs-encallados-antartida.html",
    "publicat": "2026-10-23T04:30:00.000Z"
-  },
-  {
-   "id": "976ea5b2c366",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un instituto de Mallorca diseña una IA socrática para que los alumnos aprendan a escribir sin que la máquina haga los deberes",
-   "url": "https://www.diariodemallorca.es/mallorca/2026/10/23/instituto-mallorca-disena-ia-socratica-135635646.html",
-   "publicat": "2026-10-23T04:00:33.000Z"
-  },
-  {
-   "id": "de15067d192a",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Europa estudia los límites de un futuro con bebés a la carta y ADN humano diseñado por inteligencia artificial",
-   "url": "https://www.elperiodico.com/es/sociedad/20261023/bebes-a-la-carta-huerfanos-geneticos-adn-creado-por-algoritmos-ia-europa-estudia-limites-edicion-genetica-135424053",
-   "publicat": "2026-10-23T04:00:15.000Z"
   }
  ]
 }
