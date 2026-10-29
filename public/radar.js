@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "29.10.2026",
+    "title": "El Barcelona Cybersecurity Congress posarà la IA al centre amb els incidents a Catalunya gairebé doblats en un any",
+    "summary": "El congrés de Fira de Barcelona i l'Agència de Ciberseguretat de Catalunya es farà del 3 al 5 de novembre amb més de 150 ponents. L'Agència va comptar 6.544 incidents el 2025, davant dels 3.372 de l'any anterior.",
+    "detail": "La setena edició del Barcelona Cybersecurity Congress (BCC) se celebrarà del 3 al 5 de novembre al pavelló 2 del recinte de Gran Via de Fira de Barcelona, que l'organitza amb l'Agència de Ciberseguretat de Catalunya i amb el suport del Departament de la Presidència de la Generalitat. Coincidirà amb l'Smart City Expo World Congress i amb el Barcelona Deep Tech Summit, entre altres trobades, i té com a lema «Connectant l'ecosistema europeu de la ciberseguretat».\n\nEl programa té tres eixos, i un és específicament la IA, la identitat i la confiança en l'entorn digital. Els organitzadors citen la intel·ligència artificial com una de les grans amenaces d'uns ciberatacs cada vegada més complexos. Hi intervindran més de 150 ponents internacionals, entre els quals Sounil Yu, cofundador i responsable de seguretat de la IA de Knostic; Holger Spohn, enginyer principal de l'OTAN; Pekka Jokinen, del centre nacional de ciberseguretat de Finlàndia, i Tim Brown, antic responsable de seguretat de SolarWinds. Hi haurà 111 empreses expositores i es lliuraran els premis CISO Leadership Awards, amb 28 finalistes.\n\nLes xifres de context expliquen per què el tema guanya pes. L'Agència de Ciberseguretat de Catalunya va registrar 6.544 incidents únics el 2025, gairebé el doble que els 3.372 de l'any anterior, i va detectar més de 9.100 milions d'intents d'atac, dels quals més de 7.000 milions es van bloquejar automàticament. A tot l'Estat, l'INCIBE va gestionar 122.223 incidents, un 26% més que el 2024. Flavia Santoro, directora del congrés, defensa que l'augment de la ciberdelinqüència fa necessaris espais on la ciberseguretat passi de la teoria a la pràctica.\n\nÉs un congrés, no un resultat: el que s'hi dirà sobre la IA encara està per veure, i les dades d'incidents no distingeixen quants atacs s'han fet amb eines d'intel·ligència artificial. L'augment del recompte també pot reflectir una millor detecció, i no només més atacs. Els organitzadors no han donat previsions d'assistència.",
+    "source": "El Nacional",
+    "url": "https://www.elnacional.cat/oneconomia/ca/economia/barcelona-cybersecurity-congress-tractara-impacte-ia-ciberseguretat_1715995_102.html",
+    "image": "./assets/barcelona-cybersecurity-congress-ia-2026-20261029.jpg",
+    "slug": "barcelona-cybersecurity-congress-ia-2026"
+  },
+  {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "29.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.catalunyapress.cat/article/economia/2026-10-24/6063740-intelligncia-artificial-senfronta-limit-catalunya",
     "image": "./assets/centres-dades-6329-mw-red-electrica-catalunya-26-projectes-20261026.jpg",
     "slug": "centres-dades-6329-mw-red-electrica-catalunya-26-projectes"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "26.10.2026",
-    "title": "Alinia AI, amb oficines a Barcelona i València, presenta Seny, un model de 4.000 milions de paràmetres per vigilar que els agents d'IA compleixin la llei",
-    "summary": "El model s'ha entrenat al MareNostrum 5 del BSC amb el programa EuroHPC AI Factory. L'empresa assegura que és de 5 a 17 vegades més ràpid que models comparables, però les xifres són seves.",
-    "detail": "Els bancs, les asseguradores i les operadores telefòniques volen posar agents d'IA a atendre clients, però cap no sap bé com demostrar a un regulador que l'agent respecta la normativa mentre treballa. Alinia AI, una empresa emergent amb seu a Nova York i oficines a Barcelona i València, fundada per Ariadna Font i Carlos Muñoz, vol cobrir aquest buit amb Seny, un model base català pensat per «mantenir els agents dins la llei», segons el reportatge d'Ara del 25 d'octubre.\n\nSeny és un model de llenguatge de 4.000 milions de paràmetres, construït sobre Gemma, el model obert de Google DeepMind. Es va entrenar en dues fases, primer amb dades generals de compliment normatiu i després amb afinació per a normatives concretes, en el supercomputador MareNostrum 5 del Barcelona Supercomputing Center, amb el suport del programa europeu EuroHPC AI Factory. Sobre Seny, Alinia construeix «jutges» més petits, cadascun especialitzat en una normativa, que poden actuar en temps real com a auditors o filtres d'un agent. Segons l'empresa, que el va presentar l'1 d'octubre, la latència mitjana és de 151 mil·lisegons, i pot baixar a uns 50 dins del núvol privat del client. Els primers sectors a què s'adreça són la banca, les asseguradores i la sanitat.\n\nL'empresa diu que Seny iguala models punters com GPT-6 Astra o Claude Opus 5 en molts àmbits habituals de compliment, i que els seus jutges de risc de crèdit superen en eficàcia i velocitat els productes d'OpenAI i Anthropic. Ha publicat resultats en nou llengües, entre les quals el català, en sis àmbits normatius. Per a una empresa d'aquí, l'interès és doble: és un model entrenat amb infraestructura pública europea i amb el català entre les llengües avaluades.\n\nAra gairebé no dona detalls de client, finançament ni preu, i totes les comparacions de rendiment provenen de la mateixa empresa, sense proves independents. A més, cada jutge només cobreix la normativa amb què s'ha entrenat; no és un revisor legal general.",
-    "source": "Ara",
-    "url": "https://empreses.ara.cat/innovacio/seny-ia-catalana-vigila-agents_1_5888174.html",
-    "image": "./assets/alinia-ai-seny-model-catala-vigila-agents-llei-20261026.jpg",
-    "slug": "alinia-ai-seny-model-catala-vigila-agents-llei"
   }
 ];
