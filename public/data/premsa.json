@@ -1,8 +1,129 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-29T13:45:10.731Z",
+ "actualitzat": "2026-10-29T17:19:38.224Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "7150001250d5",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El Hackathon IA + Finances de MoraBanc esgota les 80 places disponibles",
+   "url": "https://www.diariandorra.ad/nacional/261029/hackathon-ia-finances-morabanc-esgota-les-80-places-disponibles_207619.html",
+   "publicat": "2026-10-29T17:01:12.000Z"
+  },
+  {
+   "id": "7479f4d9b7a3",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El máximo ejecutivo de Nvidia habría sido espiado por una empresaria china",
+   "url": "https://www.lavanguardia.com/economia/20261029/11671390/maximo-ejecutivo-nvidia-habria-sido-espiado-empresaria-china.html",
+   "publicat": "2026-10-29T16:58:54.000Z"
+  },
+  {
+   "id": "d815af3eacb7",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Matthew Libatique, director de fotografía de Aronofsky: «El cine no va a desaparecer por la IA, pero Marvel igual sí»",
+   "url": "https://www.ultimahora.es/noticias/cultura/2026/10/29/2739253/matthew-libatique-director-fotografia-aronofsky-cine-desaparecer-por-pero-marvel-igual.html",
+   "publicat": "2026-10-29T16:42:22.000Z"
+  },
+  {
+   "id": "9dbbb042aad5",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El sector turístic defensa integrar la IA als negocis sense renunciar al contacte humà",
+   "url": "https://www.diaridegirona.cat/economia/2026/10/29/sector-turistic-defensa-integrar-ia-135895887.html",
+   "publicat": "2026-10-29T16:40:36.000Z"
+  },
+  {
+   "id": "88ea279aba0a",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Google pierde un récord de 500.000 millones en bolsa perjudicado por la IA",
+   "url": "https://www.lavanguardia.com/dinero/20261029/11671369/google-pierde-record-500-000-millones-bolsa-perjudicado-ia.html",
+   "publicat": "2026-10-29T16:33:11.000Z"
+  },
+  {
+   "id": "7d0bda4714f6",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Matthew Libatique, director de fotografía de 'Cisne negro': \"La IA no va a reemplazar al cine\"",
+   "url": "https://www.diariodemallorca.es/cultura/2026/10/29/matthew-libatique-director-fotografia-cisne-135894225.html",
+   "publicat": "2026-10-29T16:24:35.000Z"
+  },
+  {
+   "id": "21ca428399f5",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El dueño de Google pulveriza 500.000 millones en Bolsa y reaviva el miedo a una burbuja de la IA",
+   "url": "https://www.elperiodico.com/es/economia/20261029/dueno-google-pulveriza-500-000-135895164",
+   "publicat": "2026-10-29T16:10:50.000Z"
+  },
+  {
+   "id": "3cd7853d8728",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El Davos de las infraestructuras debate cómo afrontar fallos de IA en el sistema: “La resiliencia no se construye en una crisis”",
+   "url": "https://cincodias.elpais.com/companias/2026-10-29/el-davos-de-las-infraestructuras-debate-como-afrontar-fallos-de-ia-en-el-sistema-la-resiliencia-no-se-construye-en-una-crisis.html",
+   "publicat": "2026-10-29T15:18:57.000Z"
+  },
+  {
+   "id": "a61d80f01c50",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Una espia xinesa s'ha infiltrat en la vida del director de Nvidia, líder mundial en fabricació de xips",
+   "url": "https://www.ara.cat/economia/tecnologia/espia-xinesa-nvidia-ia-infiltrada_1_5893933.html",
+   "publicat": "2026-10-29T14:21:41.000Z"
+  },
+  {
+   "id": "200f710f73df",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Circulan en redes imágenes y vídeos del accidente de tren en Toledo generados con IA que contienen errores e inexactitudes",
+   "url": "https://www.lavanguardia.com/vida/verificacion/20261029/11671252/circulan-redes-imagenes-videos-accidente-tren-toledo-generados-ia-contienen-errores-e-inexactitudes.html",
+   "publicat": "2026-10-29T14:01:20.000Z"
+  },
+  {
+   "id": "546cc0d94327",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Impulsen una eina per avaluar els riscos de la IA i la protecció de dades",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/impulsen-eina-avaluar-riscos-ia-proteccio-dades_1717660_102.html",
+   "publicat": "2026-10-29T13:50:17.000Z"
+  },
   {
    "id": "3e2fbc2fc212",
    "mitja": "El Nacional",
@@ -2657,129 +2778,6 @@
    "titol": "Tierra de empresas | La Cámara 'celebra' los 70 años de la Inteligencia Artificial con una jornada sobre sus aplicaciones",
    "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/la-camara-celebra-los-70-anos-de-la-inteligencia-artificial-con-una-jornada-sobre-sus-aplicaciones",
    "publicat": "2026-10-23T04:00:05.000Z"
-  },
-  {
-   "id": "beb148c5611f",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Campañas o 'deepfakes'?",
-   "url": "https://www.lavanguardia.com/politica/20261023/11665829/campanas-deepfakes.html",
-   "publicat": "2026-10-23T04:00:00.000Z"
-  },
-  {
-   "id": "ce2dc24c0249",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Millones de ciberataques tras los fallos hallados por la IA en PHP",
-   "url": "https://www.lavanguardia.com/vida/20261023/11665863/millones-ciberataques-fallos-hallados-ia-php.html",
-   "publicat": "2026-10-23T04:00:00.000Z"
-  },
-  {
-   "id": "e5b4d766b497",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La nueva era de los asistentes personales de IA podría revolucionar la economía digital",
-   "url": "https://www.lavanguardia.com/vida/20261023/11665395/nueva-asistentes-personales-ia-revolucionar-economia-digital.html",
-   "publicat": "2026-10-23T04:00:00.000Z"
-  },
-  {
-   "id": "af86abce3a1f",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Centros de datos y fotónica en la era de la IA",
-   "url": "https://www.lavanguardia.com/participacion/red-lectores/20261023/11663556/centros-datos-fotonica-ia.html",
-   "publicat": "2026-10-23T03:50:00.000Z"
-  },
-  {
-   "id": "017f2370487f",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El fabricante de Ray-Ban, ‘fashion victim’ de la IA",
-   "url": "https://cincodias.elpais.com/opinion/2026-10-23/el-fabricante-de-ray-ban-fashion-victim-de-la-ia.html",
-   "publicat": "2026-10-23T03:40:00.000Z"
-  },
-  {
-   "id": "c12eba2a34d2",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La intel·ligència artificial millora cada any i a gairebé ningú li canvia res",
-   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/intelligencia-artificial-millora-cada-any-ningu-canvia-res-mookie-tenembaum_1712878_102.html",
-   "publicat": "2026-10-23T03:30:00.000Z"
-  },
-  {
-   "id": "dbefd9f49844",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Orange entra en el negocio de la inteligencia artificial con el lanzamiento de MentorIA",
-   "url": "https://cincodias.elpais.com/companias/2026-10-23/orange-entra-en-el-negocio-de-la-inteligencia-artificial-con-el-lanzamiento-de-mentoria.html",
-   "publicat": "2026-10-23T03:15:00.000Z"
-  },
-  {
-   "id": "6f07c1b9aae9",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El mejor hacker ya es la Inteligencia Artificial",
-   "url": "https://www.diaridetarragona.com/opinion/prismatics/273739/mejor-hacker-inteligencia-artificial.html",
-   "publicat": "2026-10-23T03:00:00.000Z"
-  },
-  {
-   "id": "c1f25fc87cad",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "L'ús espuri de la IA",
-   "url": "https://www.diaridetarragona.com/opinion/el-voraviu/273762/l-us-espuri-ia.html",
-   "publicat": "2026-10-23T03:00:00.000Z"
-  },
-  {
-   "id": "4869b73d07e8",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Crean una herramienta de IA para encontrar ayudas y empleo público en Baleares: «Todos sabemos lo difícil que resulta leer el BOIB»",
-   "url": "https://www.ultimahora.es/noticias/local/2026/10/23/2734541/crean-herramienta-para-encontrar-ayudas-empleo-publico-baleares-todos-sabemos-dificil-resulta-leer-boib.html",
-   "publicat": "2026-10-23T01:59:01.000Z",
-   "noticia": "boibot-ajudes-ocupacio-publica-balears",
-   "noticiaTitol": "BOIBOT, un assistent d'IA gratuït, resumeix cada matí el BOIB i avisa de les ajudes i les oposicions de les Illes Balears"
-  },
-  {
-   "id": "55f8b7312e2d",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El PP i el PSOE porten a la intel·ligència artificial la seva baralla política",
-   "url": "https://www.regio7.cat/arreu-catalunya-espanya-mon/2026/10/23/pp-psoe-porten-intelligencia-artificial-135655046.html",
-   "publicat": "2026-10-23T00:58:39.000Z"
   }
  ]
 }
