@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-28T17:22:07.484Z",
+ "actualitzat": "2026-10-29T05:17:47.441Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "ujmyzWSj8IU",
+   "titol": "API credits, now in ChatGPT Pro and Business plans",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-10-28T23:45:26.000Z",
+   "descripcio": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. Credit amounts depend on the plan. Pro plans get $100, $200 or $500 per month by tier. Business plans get $20 per paid Standard seat or $100 per paid Premium seat, po",
+   "miniatura": "/assets/videos/ujmyzWSj8IU.jpg"
+  },
   {
    "id": "pQ_Dnr9Q4k8",
    "titol": "Functional smart devices using Gemini 4 Argon and Google Antigravity",
@@ -1136,54 +1148,6 @@
    "noticia": "openai-gpt-6-intelligent-ui-chatgpt-botons-grafics",
    "noticiaTitol": "OpenAI estrena GPT-6 a ChatGPT amb respostes que porten botons, gràfics i calculadores integrades",
    "resum": "Presentació oficial que OpenAI va publicar el 7 d'octubre sobre GPT-6 a ChatGPT i la nova «Intelligent UI», que permet respostes amb interfícies interactives i més visuals. El vídeo és en anglès."
-  },
-  {
-   "id": "LiNhqbetrbU",
-   "titol": "Build Plugins for ChatGPT",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-07T21:34:02.000Z",
-   "descripcio": "Explore plugin extensions through Meetings and OpenAI Developers. See how a custom interface can live beside a conversation and bring selected context into your work with ChatGPT.",
-   "miniatura": "/assets/videos/LiNhqbetrbU.jpg"
-  },
-  {
-   "id": "_nmlHbSB8kM",
-   "titol": "Stop Overpaying for Intelligence | DevDay 2026",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-07T21:10:51.000Z",
-   "descripcio": "Cut AI costs while preserving quality. Learn to measure cost per completed task, choose models and reasoning effort, and use prompt caching, Programmatic Tool Calling, and the Batch API.",
-   "miniatura": "/assets/videos/_nmlHbSB8kM.jpg"
-  },
-  {
-   "id": "3glzJZ-_qB8",
-   "titol": "Stack Overflow - From Idea to Product | DevDay 2026",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-07T21:10:48.000Z",
-   "descripcio": "See how small teams at Stack Overflow used Codex to build Stack Overflow for Agents and reimagine Stack Internal. Take away lessons for accelerating R&D and bringing new products to market.",
-   "miniatura": "/assets/videos/3glzJZ-_qB8.jpg"
-  },
-  {
-   "id": "8804JYm81cc",
-   "titol": "Higgsfield - Building Agents That Provision Their Own Compute | DevDay 2026",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-07T21:10:48.000Z",
-   "descripcio": "Explore how Higgsfield agents choose models and provision their own compute. Learn when to use dedicated GPUs or hosted models, how to deliver predictable throughput, and where the approach can fail.",
-   "miniatura": "/assets/videos/8804JYm81cc.jpg"
   }
  ]
 }
