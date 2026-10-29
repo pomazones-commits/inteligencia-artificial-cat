@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-10-29T09:17:03.199Z",
+  "updatedAt": "2026-10-29T13:44:27.130Z",
   "items": [
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "5 MIN",
+      "title": "Un model intern d'Anthropic construeix atacs complets contra Chrome, Safari, Android, Windows i Linux, i només a Chrome ha fet corregir 62 errors",
+      "excerpt": "L'equip que posa a prova els models d'Anthropic explica que una versió de Claude encara no publicada va encadenar errors fins a obtenir atacs que funcionen en cinc dels programes més utilitzats del món. Totes les falles ja s'han corregit."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Més de 1.900 persones intenten distingir textos i descripcions d'imatges fetes per humans o per IA, i gairebé només ho encerten per atzar",
+      "excerpt": "Un estudi publicat a «Nature Human Behaviour» compara respostes de 636 persones i 37 models d'IA en sis tipus de tasques. Els jutges encerten l'autor entre el 53% i el 57% de les vegades, però fer preguntes de seguiment en una conversa en directe ajuda a desemmascarar la màquina."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un xatbot que parla amb fluïdesa però s'inventa dades resulta tan creïble com un de sec que no s'equivoca, i el 80% dels participants no veu els errors",
+      "excerpt": "Un experiment de la Universitat Radboud, publicat a «Computers in Human Behavior: Artificial Humans», mostra que el llenguatge natural i proper d'un assistent d'IA pesa tant com l'exactitud de les respostes a l'hora de jutjar-lo."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Meta dona accés als seus models Muse a cinc universitats dels Estats Units per a projectes de medicina i ciència, i diu que no veurà les dades dels pacients",
+      "excerpt": "Caltech, Ohio State, la Universitat Estatal de Louisiana, la Universitat d'Indiana i UTHealth Houston faran servir els models de Meta en projectes que van de la insuficiència cardíaca a la cura de la demència. Les universitats controlen la recerca i les dades clíniques."
+    },
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "title": "Deepgram compra Daily, l'empresa de Pipecat, una de les eines obertes més usades per fer agents d'IA que parlen",
+      "excerpt": "L'empresa de reconeixement de veu adquireix la companyia que manté Pipecat, que seguirà sent de codi obert, i presenta un protocol obert per passar context en temps real als agents de veu. No s'ha fet públic el preu."
+    },
     {
       "category": "MODELS",
       "read": "5 MIN",
