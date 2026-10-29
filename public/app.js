@@ -394,8 +394,9 @@
       a.append(img, nom);
       etiqueta.parentNode.insertBefore(a, etiqueta);
     };
-    // 20.10.2026: la banda #tribuna es manté a la portada (decisió d'en Rafael); la
-    // mateixa peça surt també a «Les seccions» (seccions-portada.php).
+    // 20.10.2026: la banda #tribuna es manté a la portada (decisió d'en Rafael).
+    // 29.10.2026: la peça d'aquesta banda (i les de les bandes de Veus) ja NO surt també a
+    // «Les seccions»: seccions-portada.php reprodueix aquesta regla per excloure-les.
     // 22.10.2026: una peça de «Veus de l'administració» no ocupa mai la banda de la tribuna
     // ni la de l'estudi: surt a la seva banda (#veus-administracio).
     const esAdministracio = (p) => p && p.serie === 'veus-de-l-administracio';
