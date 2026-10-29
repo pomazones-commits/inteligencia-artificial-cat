@@ -1,0 +1,32 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-10-28",
+  "title": "Les persones, la variable d'ajust de la IA",
+  "dek": "Avui els diners corren cap als xips mentre les plantilles s'aprimen, i les notícies de salut i de ciència recorden que el factor humà no és un cost que es pugui retallar sense conseqüències.",
+  "body": [
+    "Si avui s'haguessin de posar les notícies en dues columnes, en una hi hauria els diners i en l'altra les persones. A la primera, SK hynix ha multiplicat per set el benefici gràcies a la memòria per a IA i diu que ja té venuda la producció fins al 2029, mentre OpenAI es prepara per comprar xips a Google, i no només llogar-los, segons «The Information». A la segona, Microsoft ofereix la baixa voluntària a uns 60.000 empleats, una quarta part de la plantilla, i el Govern dels Països Baixos vol suprimir uns 25.000 llocs a l'administració central confiant en la IA. Les dues columnes estan connectades: una alimenta l'altra.",
+    "Que les empreses retallin plantilla mentre inverteixen en IA no és nou; el que hi ha de nou és l'escala i la franquesa. Microsoft ho fa mentre preveu gastar 175.000 milions de dòlars en infraestructura aquest any. El Govern neerlandès, en canvi, és més prudent del que sembla: el seu pla admet que les digitalitzacions anteriors no van estalviar el que prometien i demana no exagerar els efectes de la IA. Aquí mateix, l'informe Girona 100 diu que el 42% de les grans empreses gironines preveu que la IA li canviarà la plantilla, però només un 19% té una estratègia. L'expectativa va més de pressa que el pla.",
+    "L'altra cara del dia són les persones que la IA toca de prop. Un estudi a «JAMA Psychiatry» ha trobat 28 pacients amb psicosi que van empitjorar parlant amb xatbots, la majoria en el primer episodi, i uns pares han demandat OpenAI perquè diuen que ChatGPT va ajudar la seva filla, amb epilèpsia, a deixar la medicació d'amagat. Al Regne Unit, tres de cada quatre respostes a una consulta pública sobre els vapejadors eren de bots. I noyb denuncia Scale AI per vigilar els més de 900.000 col·laboradors que entrenen models a Outlier: la mà d'obra invisible de la IA també té dades i drets.",
+    "La ciència del dia apunta en la mateixa direcció, des d'un altre angle. Un experiment amb 208 participants troba que treballar amb una altra persona dona idees més creatives que fer-ho amb ChatGPT, i que l'avantatge creix com més avança la conversa. A Elx, una xarxa neuronal ajuda a decidir com estimular el cervell d'una persona cega, i a urgències un model detecta dos de cada tres pacients amb risc de conducta suïcida, però amb moltes falses alarmes. En tots tres casos, la màquina és útil quan ajuda una persona, no quan la substitueix.",
+    "La tendència que es dibuixa és una paradoxa: com més capital s'aboca a la IA, més pressió hi ha perquè la factura la paguin les plantilles, i més evident es fa que el valor real depèn del criteri humà que hi ha al voltant. Que la borsa xinesa de la IA i els xips hagi perdut un 40% en quatre mesos recorda que els diners també poden girar. Demà caldrà mirar si alguna de les empreses que retallen plantilla presenta per fi una xifra que lligui la despesa en IA amb uns ingressos que justifiquin les retallades, i si els que fan servir xatbots cada dia comencen a rebre la mateixa atenció que els que en compren els xips."
+  ],
+  "signals": [
+    {
+      "title": "SK hynix multiplica per set el benefici gràcies a la memòria per a IA i diu que ja té venuda la producció fins al 2029",
+      "slug": "sk-hynix-resultats-record-hbm-exhaurida-2029"
+    },
+    {
+      "title": "Microsoft ofereix la baixa voluntària a uns 60.000 empleats, una quarta part de la plantilla, mentre dispara la inversió en IA",
+      "slug": "microsoft-baixes-voluntaries-60000-empleats"
+    },
+    {
+      "title": "Un estudi a «JAMA Psychiatry» troba 28 pacients amb psicosi que van empitjorar parlant amb xatbots, sobretot en el primer episodi",
+      "slug": "jama-psychiatry-psicosi-xatbots-primer-episodi-vanderbilt"
+    },
+    {
+      "title": "Treballar amb una altra persona dona idees més creatives que fer-ho amb ChatGPT, segons un experiment amb 208 participants",
+      "slug": "creativitat-parelles-humanes-millors-idees-que-chatgpt"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 536
+};
