@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-29T17:19:38.224Z",
+ "actualitzat": "2026-10-29T18:40:46.389Z",
  "fonts": 44,
  "articles": [
   {
@@ -79,6 +79,17 @@
    "titol": "El dueño de Google pulveriza 500.000 millones en Bolsa y reaviva el miedo a una burbuja de la IA",
    "url": "https://www.elperiodico.com/es/economia/20261029/dueno-google-pulveriza-500-000-135895164",
    "publicat": "2026-10-29T16:10:50.000Z"
+  },
+  {
+   "id": "5d31510eb995",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA en la literatura: els autors alerten que no són ells els que s'han de defensar",
+   "url": "https://www.3cat.cat/3catinfo/la-ia-en-la-literatura-els-autors-alterten-que-no-son-ells-els-que-shan-de-defensar/noticia/3436654",
+   "publicat": "2026-10-29T15:21:24.000Z"
   },
   {
    "id": "3cd7853d8728",
@@ -252,7 +263,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Alphabet se desploma en Bolsa y Microsoft rebota: los impactos desiguales de la IA",
+   "titol": "Alphabet se desploma en Bolsa y Microsoft resiste: los impactos desiguales de la IA",
    "url": "https://cincodias.elpais.com/companias/2026-10-29/alphabet-se-desploma-en-bolsa-y-microsoft-rebota-los-impactos-desiguales-de-la-ia.html",
    "publicat": "2026-10-29T08:22:36.000Z"
   },
@@ -2767,17 +2778,6 @@
    "titol": "Europa estudia los límites de un futuro con bebés a la carta y ADN humano diseñado por inteligencia artificial",
    "url": "https://www.elperiodico.com/es/sociedad/20261023/bebes-a-la-carta-huerfanos-geneticos-adn-creado-por-algoritmos-ia-europa-estudia-limites-edicion-genetica-135424053",
    "publicat": "2026-10-23T04:00:15.000Z"
-  },
-  {
-   "id": "ec490fcac62c",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | La Cámara 'celebra' los 70 años de la Inteligencia Artificial con una jornada sobre sus aplicaciones",
-   "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/la-camara-celebra-los-70-anos-de-la-inteligencia-artificial-con-una-jornada-sobre-sus-aplicaciones",
-   "publicat": "2026-10-23T04:00:05.000Z"
   }
  ]
 }
