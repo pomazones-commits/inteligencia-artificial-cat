@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-29T09:17:42.753Z",
+ "actualitzat": "2026-10-29T11:08:33.196Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "3728b0a121f9",
+   "mitja": "El 9 Nou",
+   "font": "el9nou",
+   "icona": "/assets/premsa/el-9-nou.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Bon Preu incorpora la IA per fer comandes a la peixateria per WhatsApp",
+   "url": "https://el9nou.cat/osona-ripolles/actualitat/bon-preu-incorpora-ia-comandes-peixateria-whatsapp",
+   "publicat": "2026-10-29T11:02:12.000Z"
+  },
+  {
+   "id": "f4a3a064f455",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una IA china aprende a ejecutar ciberataques complejos y a hacer trampas para saltarse sus propios límites de seguridad",
+   "url": "https://www.lavanguardia.com/neo/ia/20261029/11670957/ia-china-aprende-ejecutar-ciberataques-complejos-trampas-saltarse-propios-limites-seguridad.html",
+   "publicat": "2026-10-29T10:32:59.000Z"
+  },
+  {
+   "id": "b9bbabcd386c",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Una IA educativa creada a l'Empordà estalvia hores de feina als mestres",
+   "url": "https://www.diaridegirona.cat/educacio/2026/10/29/eductia-ia-educativa-estalvia-feina-docents-135875297.html",
+   "publicat": "2026-10-29T09:34:27.000Z"
+  },
   {
    "id": "c773b7b9cdeb",
    "mitja": "Diario de Mallorca",
@@ -2747,39 +2780,6 @@
    "titol": "PP y PSOE llevan la trifulca política a la inteligencia artificial",
    "url": "https://www.elperiodico.com/es/politica/20261022/pp-psoe-llevan-trifulca-politica-inteligencia-artificial-135650226",
    "publicat": "2026-10-22T19:03:44.000Z"
-  },
-  {
-   "id": "e2f842d800c3",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una IA entrenada para manejar un robot puede transformarlo en un arma mortal con un par de instrucciones erróneas",
-   "url": "https://www.levante-emv.com/tendencias21/2026/10/22/ia-entrenada-manejar-robot-transformarlo-135646230.html",
-   "publicat": "2026-10-22T18:06:11.000Z"
-  },
-  {
-   "id": "93b69d205e0d",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Així usarà IKEA la intel·ligència artificial segons el seu CEO: \"El nostre objectiu no és substituir persones\"",
-   "url": "https://www.elnacional.cat/ca/tecnologia/aixi-usara-ikea-intelligencia-artificial-segons-seu-ceo-nostre-objectiu-no-es-substituir-persones_1713697_102.html",
-   "publicat": "2026-10-22T18:00:00.000Z"
-  },
-  {
-   "id": "380e15216f0a",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Milions de ciberatacs pel forat de seguretat descobert per la IA",
-   "url": "https://www.ara.cat/economia/tecnologia/milions-ciberatacs-pel-forat-seguretat-descobert-ia_1_5887081.html",
-   "publicat": "2026-10-22T17:49:21.000Z"
   }
  ]
 }
