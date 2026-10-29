@@ -1,9 +1,75 @@
 {
   "editionDate": "2026-10-29",
-  "updatedAt": "2026-10-29T13:44:27.130Z",
-  "batches": 3,
+  "updatedAt": "2026-10-29T17:18:47.220Z",
+  "batches": 4,
   "target": 20,
   "items": [
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "slug": "alphabet-trimestre-flux-caixa-negatiu-google-cloud",
+      "title": "Alphabet tanca el trimestre amb més diners gastats que ingressats per la inversió en IA, tot i que Google Cloud dobla les vendes",
+      "excerpt": "La matriu de Google va invertir 51.400 milions de dòlars en tres mesos, sobretot en centres de dades, i va tancar el trimestre amb un flux de caixa lliure negatiu de 9.100 milions, mentre el seu núvol creixia un 103%.",
+      "sourceName": "Alphabet (resultats a la SEC)",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+      "sourceDate": "28 d'octubre de 2026",
+      "body": "Les grans tecnològiques fa mesos que expliquen als inversors que la despesa en centres de dades i xips per a la IA es pagarà sola amb el temps. La setmana de resultats de les grans empreses dels Estats Units ho posa a prova: dimecres, el mateix dia que Microsoft, Alphabet, la matriu de Google, va presentar els comptes del tercer trimestre del 2026.\n\nSegons el document que l'empresa ha entregat a la SEC, el regulador borsari nord-americà, Alphabet va ingressar 127.600 milions de dòlars, un 25% més que un any abans, i va guanyar 26.500 milions. Google Cloud, la divisió de núvol, va facturar 30.700 milions, un 103% més, en part per la venda de sistemes amb els seus xips TPU. Però les compres d'immobilitzat, és a dir, sobretot centres de dades i maquinari, van arribar als 51.400 milions en tres mesos, i el flux de caixa lliure del trimestre va ser negatiu: 9.100 milions de dòlars. En els últims dotze mesos encara és positiu, de 19.700 milions. El conseller delegat, Sundar Pichai, diu que l'aplicació Gemini ja té mil milions d'usuaris i que les seves interfícies de programació processen gairebé 32.000 milions de tòquens per minut, més del quàdruple que fa un any.\n\nLa xifra rellevant no és el benefici, que continua sent molt alt, sinó el diner que queda a la caixa després d'invertir. Que una de les empreses més rendibles del món tanqui un trimestre amb més sortides que entrades mostra fins a quin punt la carrera de la IA s'ha tornat cara, i ajuda a entendre per què empreses com Meta busquen maneres noves de finançar-la. Alhora, el creixement del núvol indica que una part d'aquesta despesa ja es converteix en vendes.\n\nEl comunicat de resultats no inclou cap previsió d'inversió per als pròxims trimestres, i un trimestre amb el flux de caixa negatiu no vol dir que l'empresa tingui problemes de liquiditat. Les xifres d'usuaris de Gemini i de tòquens les dona la mateixa empresa i no s'han pogut verificar de manera independent. Caldrà veure si els trimestres vinents recuperen el saldo positiu o si la inversió continua creixent més de pressa que els ingressos.",
+      "image": "./assets/alphabet-trimestre-flux-caixa-negatiu-google-cloud-20261029.jpg",
+      "etiquetes": [
+        "centres-de-dades"
+      ]
+    },
+    {
+      "category": "REGULACIÓ",
+      "read": "4 MIN",
+      "slug": "nova-york-llei-xatbots-menors-verificacio-edat",
+      "title": "Nova York prohibeix que els xatbots facin veure als menors que són persones o que en són la parella, i obliga a comprovar l'edat",
+      "excerpt": "La llei, signada per la governadora Kathy Hochul, també veta que animin a l'autolesió o als trastorns alimentaris, i preveu multes de fins a 25.000 dòlars per infracció. Entrarà en vigor d'aquí a sis mesos.",
+      "sourceName": "Engadget",
+      "sourceUrl": "https://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law/",
+      "sourceDate": "28 d'octubre de 2026",
+      "body": "Els xats d'IA que fan de company o d'amic s'han convertit en una preocupació per a pares i legisladors, sobretot després de diversos casos d'adolescents que hi havien establert relacions intenses. L'estat de Nova York ja obligava des del 2025 a avisar que s'està parlant amb una màquina; ara fa un pas més amb una llei específica per als menors.\n\nLa governadora Kathy Hochul ha signat la llei A10379, impulsada per la senadora Kristen Gonzalez i el diputat Alex Bores. Segons Engadget, les empreses d'IA hauran de comprovar l'edat dels usuaris, oferir com a mínim un mètode que no depengui només d'un document oficial i esborrar després les dades d'edat. Amb menors o amb usuaris no verificats, els xatbots no podran dir que són reals, que estan vius o que tenen emocions, ni presentar-se com a parella, amic, professional o figura d'autoritat. Tampoc no podran fer preguntes emocionals per iniciativa pròpia, recuperar informació personal o de salut d'altres converses, animar al suïcidi, a l'autolesió, als trastorns alimentaris o al consum de drogues, ni empènyer el menor a amagar coses als pares.\n\nÉs una de les regulacions més detallades sobre com s'han de comportar els xats d'IA amb els menors, i no prohibeix que en facin servir, sinó que en limita les funcions que s'han considerat més arriscades. Les infraccions es podran denunciar a la fiscalia general de l'estat i comportaran multes civils de fins a 25.000 dòlars cadascuna, a més d'indemnitzacions. Un jutge podrà ordenar també que s'esborrin les dades recollides il·legalment i els models entrenats amb aquestes dades.\n\nLa llei entrarà en vigor sis mesos després de la signatura, i encara caldrà veure com l'apliquen les empreses: la verificació de l'edat planteja dubtes de privadesa i és fàcil d'esquivar. Tampoc no està clar com es comprovarà a la pràctica que un xat no fa preguntes emocionals «per iniciativa pròpia». Hochul ha signat el mateix dia una altra llei que obliga els vigilabebès connectats a internet a protegir-se contra els intrusos.",
+      "image": "./assets/nova-york-llei-xatbots-menors-verificacio-edat-20261029.jpg"
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "slug": "gut-redmod-cancer-pancrees-tac-anys-abans",
+      "title": "Una IA troba senyals de càncer de pàncrees en TAC que els radiòlegs havien donat per normals, de mitjana 475 dies abans del diagnòstic",
+      "excerpt": "El sistema, de la Clínica Mayo i publicat a la revista «Gut», va detectar el 73% dels casos en exploracions fetes mesos o anys abans, davant del 39% dels radiòlegs, però encara s'ha de provar en pacients reals abans d'usar-lo.",
+      "sourceName": "Gut (via ScienceDaily)",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
+      "sourceDate": "26 d'octubre de 2026",
+      "body": "El càncer de pàncrees és un dels més mortals perquè sovint es detecta quan ja s'ha estès. Els investigadors calculen que, si la proporció de tumors trobats quan encara són localitzats passés del 10% al 50%, la supervivència es podria més que doblar. El problema és que en les primeres fases el tumor no es veu a la tomografia computada (TAC), ni tan sols per a un radiòleg expert.\n\nUn equip encapçalat per Sovanlal Mukherjee i Ajit Goenka, de la Clínica Mayo, ha publicat a la revista «Gut» (DOI 10.1136/gutjnl-2025-337266) els resultats de REDMOD, un sistema que analitza la textura fina del teixit del pàncrees en TAC abdominals i que delimita sol l'òrgan. L'han provat amb 219 pacients de diversos hospitals als quals els radiòlegs no havien vist res, però que van rebre el diagnòstic d'adenocarcinoma de pàncrees entre tres mesos i uns tres anys després, i amb 1.243 persones que no van tenir càncer. REDMOD va detectar senyals en el 73% dels casos, davant del 39% de radiòlegs experimentats, i de mitjana 475 dies abans del diagnòstic. En les exploracions de més de dos anys abans, l'encert va ser del 68% davant del 23%. En un grup independent de 539 pacients sense càncer, va classificar bé poc més del 81%.\n\nEl resultat és rellevant perquè no requereix cap prova nova: treballa sobre TAC que molts pacients ja es fan per altres motius. En exploracions repetides de les mateixes persones fetes amb mesos de diferència, el sistema va donar el mateix resultat entre el 90% i el 92% de les vegades, una estabilitat necessària si mai s'ha de fer servir per fer seguiment.\n\nEl treball és retrospectiu, és a dir, s'ha fet amb imatges antigues de pacients de qui ja se sabia el desenllaç. Els autors reconeixen que la població estudiada té poca diversitat ètnica i que cal una validació prospectiva, sobretot en persones d'alt risc, com les que perden pes sense explicació o tenen una diabetis acabada de diagnosticar. Amb una especificitat del 81%, aplicat a gent sana donaria moltes falses alarmes. Encara no està preparat per a la pràctica clínica.",
+      "image": "./assets/gut-redmod-cancer-pancrees-tac-anys-abans-20261029.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "nature-communications-models-fundacionals-patologia-prostata-energia",
+      "title": "Els grans models d'IA de patologia no superen els específics en el diagnòstic del càncer de pròstata i gasten fins a 35 vegades més energia",
+      "excerpt": "Un estudi del Karolinska publicat a «Nature Communications», amb més de 100.000 biòpsies de 6.268 pacients de 15 centres, mostra que els models generalistes només tenen avantatge quan hi ha poques dades per entrenar.",
+      "sourceName": "Nature Communications",
+      "sourceUrl": "https://www.nature.com/articles/s41467-026-78996-7",
+      "sourceDate": "26 d'octubre de 2026",
+      "body": "En patologia digital s'ha estès la idea que els models fundacionals, grans sistemes d'IA preentrenats amb milions d'imatges de teixit sense etiquetar, són la solució universal: un sol model que, amb pocs ajustos, serveix per a qualsevol tasca. L'alternativa és entrenar un model específic per a una sola tasca, com diagnosticar i graduar el càncer de pròstata, amb moltes imatges etiquetades pels patòlegs.\n\nUn equip de l'Institut Karolinska de Suècia, amb Nita Mulliqi, Anders Blilie i Kimmo Kartasalo, ha comparat totes dues estratègies en un article publicat el 26 d'octubre a «Nature Communications». Han fet servir més de 100.000 biòpsies de pròstata de 6.268 pacients de 15 centres i han comparat un model específic amb dos models fundacionals coneguts, UNI i Virchow2. Amb poques dades d'entrenament, els fundacionals rendeixen millor; però quan hi ha prou biòpsies etiquetades, el model específic els iguala i en alguns casos els supera. La concordança amb la gradació dels patòlegs arriba a un índex kappa de 0,91 en tots els models amb les dades internes, i en centres externs és de 0,87 per al model específic, 0,86 per a UNI i 0,85 per a Virchow2.\n\nSegons els autors, l'entrenament específic redueix clarament els errors de gradació, els diagnòstics equivocats de les morfologies difícils i la variabilitat causada per l'escàner o al laboratori. I els models fundacionals consumeixen fins a 35 vegades més energia. En un moment en què els hospitals han de decidir quina IA adopten, la conclusió és que el model més gran no és necessàriament el més adequat, i que el cost energètic també compta.\n\nL'estudi se centra en una sola malaltia i en dos models fundacionals concrets, de manera que no es pot generalitzar a totes les tasques de patologia. Els autors no descarten els grans models: proposen combinar-los amb l'entrenament específic segons les dades disponibles. Una primera versió del treball es va publicar com a prepublicació el 2025; l'article actual ja ha passat la revisió per parells.",
+      "image": "./assets/nature-communications-models-fundacionals-patologia-prostata-energia-20261029.jpg"
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "3 MIN",
+      "slug": "bsc-astrazeneca-acord-ia-supercomputacio-salut",
+      "title": "El Barcelona Supercomputing Center i AstraZeneca s'alien per fer servir la IA i el supercomputador en recerca de cor, pulmó, càncer i malalties minoritàries",
+      "excerpt": "L'equip del centre global d'AstraZeneca a Barcelona treballarà amb investigadors del BSC i en farà servir les instal·lacions, en un acord sense xifres signat dins del programa BSC Connects.",
+      "sourceName": "Infosalus (Europa Press)",
+      "sourceUrl": "https://www.infosalus.com/farmacia/noticia-empresas-bsc-astrazeneca-acuerdan-impulsar-uso-ia-supercomputacion-salud-20261029125628.html",
+      "sourceDate": "29 d'octubre de 2026",
+      "body": "La farmacèutica AstraZeneca té a Barcelona un dels seus centres globals, amb equips que treballen en recerca, dades i assajos clínics per a tota la companyia. El Barcelona Supercomputing Center (BSC-CNS), que gestiona el MareNostrum 5, fa temps que busca acords amb empreses a través del programa BSC Connects, i AstraZeneca ja hi havia participat en una taula rodona al Mobile World Congress del març.\n\nSegons el comunicat del BSC recollit per Europa Press, el director del centre, Mateo Valero, i César Velasco, director d'innovació empresarial d'AstraZeneca a Madrid i Barcelona, han signat aquest dijous a Barcelona un acord per accelerar l'ús de la IA, la supercomputació i l'anàlisi avançada de dades en la recerca biomèdica, el desenvolupament de teràpies i els assajos clínics. L'equip del centre global d'AstraZeneca a Barcelona treballarà directament amb investigadors del BSC i farà servir la infraestructura del centre. Les dues parts preveuen línies de recerca conjuntes en salut cardiovascular, malalties respiratòries, oncologia i malalties minoritàries.\n\nL'acord inclou l'anàlisi de dades molt complexes i simulacions avançades, i també l'aplicació de l'aprenentatge automàtic, inclosos enfocaments basats en tecnologies quàntiques, per modelitzar processos biològics i fer prediccions en malalties minoritàries. Per al BSC és una manera més d'obrir el supercomputador a la indústria; per a AstraZeneca, una manera d'aprofitar capacitat de càlcul i talent científic que té al costat.\n\nEl comunicat no dona cap xifra econòmica ni la durada de l'acord, ni concreta quins projectes començaran primer o amb quines dades de pacients es treballarà. És, de moment, un marc de col·laboració: caldrà veure quins resultats concrets en surten i en quin termini.",
+      "image": "./assets/bsc-astrazeneca-acord-ia-supercomputacio-salut-20261029.jpg",
+      "etiquetes": [
+        "centres-de-dades"
+      ]
+    },
     {
       "category": "CIBERSEGURETAT",
       "read": "5 MIN",
