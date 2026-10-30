@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-30T05:16:17.877Z",
+ "actualitzat": "2026-10-30T09:16:46.703Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "b25f65567b71",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "APHA y el CENID acercan la inteligencia artificial al sector hotelero a través de tres casos prácticos",
+   "url": "https://www.informacion.es/economia/2026/10/30/apha-cenid-acercan-inteligencia-artificial-135912611.html",
+   "publicat": "2026-10-30T08:30:14.000Z"
+  },
+  {
+   "id": "77e42c0a5ce4",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "¿La intel·ligència artificial pot fer-nos millors escriptors?",
+   "url": "https://llegim.ara.cat/reportatges/intel-ligencia-artificial-millors-escriptors_130_5893126.html",
+   "publicat": "2026-10-30T06:10:56.000Z"
+  },
+  {
+   "id": "69e9d6035515",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El Hackathon IA esgota les 80 places disponibles",
+   "url": "https://www.diariandorra.ad/nacional/261030/hackathon-ia-esgota-les-80-places-disponibles_207663.html",
+   "publicat": "2026-10-30T06:07:51.000Z"
+  },
+  {
+   "id": "6bfebea3189b",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial no debería ser un privilegio de las grandes administraciones",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261030/11669089/inteligencia-artificial-deberia-privilegio-grandes-administraciones.html",
+   "publicat": "2026-10-30T05:31:35.000Z"
+  },
   {
    "id": "557488d88193",
    "mitja": "La Vanguardia",
@@ -32,7 +76,7 @@
    "icona": "/assets/premsa/levante-emv.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "La Canal de Navarrés apuesta por la inteligencia artificial para reforzar la implantación de la recogida puerta a puerta",
+   "titol": "La Canal de Navarrés recurre a la inteligencia artificial para facilitar la implantación de la recogida puerta a puerta",
    "url": "https://www.levante-emv.com/costera/2026/10/30/canal-navarres-apuesta-inteligencia-artificial-135885417.html",
    "publicat": "2026-10-30T04:31:03.000Z"
   },
@@ -155,7 +199,9 @@
    "ambit": "catala",
    "titol": "La IA en la literatura: els autors alerten que no són ells els que s'han de defensar",
    "url": "https://www.3cat.cat/3catinfo/la-ia-en-la-literatura-els-autors-alterten-que-no-son-ells-els-que-shan-de-defensar/noticia/3436654",
-   "publicat": "2026-10-29T15:21:24.000Z"
+   "publicat": "2026-10-29T15:21:24.000Z",
+   "noticia": "escriptors-catalans-detectors-ia-novella-premiada",
+   "noticiaTitol": "ACTUALITZACIÓ: l'autor de la novel·la premiada atribuïda a la IA ho nega, i l'Associació d'Escriptors en Llengua Catalana demana que siguin les tecnològiques les que marquin els textos"
   },
   {
    "id": "3cd7853d8728",
@@ -2736,50 +2782,6 @@
    "titol": "Detectan que agentes de IA no autorizados acceden a cuentas bancarias de clientes en bancos de Estados Unidos",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/23/2734899/detectan-agentes-autorizados-acceden-cuentas-bancarias-clientes-bancos-estados-unidos.html",
    "publicat": "2026-10-23T10:26:00.000Z"
-  },
-  {
-   "id": "e3b519a630cb",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Leire Díez se querella contra el PP por el vídeo con IA que le atribuye “haber contratado a matones” para “quitar” a una juez",
-   "url": "https://www.lavanguardia.com/politica/20261023/11666329/leire-diez-querella-pp-video-ia-le-atribuye-haber-contratado-matones-quitar-juez.html",
-   "publicat": "2026-10-23T09:46:27.000Z"
-  },
-  {
-   "id": "4fb8ca8119d2",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Leire Díez se querella contra el PP por el vídeo con IA en el que dice que contrató \"matones\" contra la jueza Biedma",
-   "url": "https://www.elperiodico.com/es/politica/20261023/leire-diez-querella-pp-video-ia-contratar-matones-biedma-135663264",
-   "publicat": "2026-10-23T09:29:18.000Z"
-  },
-  {
-   "id": "ce0b0f45dbab",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Así es Mobo, el robot humanoide con inteligencia artificial creado por AiMOGA y el grupo Chery",
-   "url": "https://www.elperiodico.com/es/motor/20261023/grupo-chery-presenta-mobo-robot-humanoide-135624444",
-   "publicat": "2026-10-23T06:00:39.000Z"
-  },
-  {
-   "id": "662ccd6a9210",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial se desploma en bolsa",
-   "url": "https://www.ultimahora.es/noticias/economico/2026/10/23/2734033/inteligencia-artificial-desploma-bolsa.html",
-   "publicat": "2026-10-23T05:20:34.000Z"
   }
  ]
 }
