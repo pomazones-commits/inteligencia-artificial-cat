@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-10-30T09:30:07.711Z",
+  "updatedAt": "2026-10-30T13:16:26.302Z",
   "items": [
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "title": "Una versió manipulada de l'extensió de Claude Code, distribuïda com a actualització a Cursor, va obrir un accés remot a fins a 5.000 ordinadors",
+      "excerpt": "Durant unes onze hores del 29 d'octubre, la botiga d'extensions de l'editor Cursor va servir una versió amb codi maliciós de l'eina de programació d'Anthropic. Instal·lava una clau d'accés per SSH i enviava dades de la màquina a un servidor extern."
+    },
+    {
+      "category": "REGULACIÓ",
+      "read": "4 MIN",
+      "title": "L'autoritat britànica de la competència investiga Meta per unes condicions que li permetrien fer servir el contingut de les webs per a la seva IA",
+      "excerpt": "La CMA examinarà si Meta abusa d'una posició dominant en imposar a mitjans i anunciants uns termes que li deixarien recollir el contingut dels seus webs sense que puguin decidir-ne l'ús. Meta diu que no hi ha motius per investigar-la."
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "Una IA de fractures provada tres mesos a unes urgències de Singapur detecta menys que els tècnics de radiologia, però els ajuda a esmenar deu errors",
+      "excerpt": "En 2.496 radiografies llegides en condicions reals, el sistema comercial sol trobava el 75,6% de les fractures i els tècnics, el 91,6%. Amb l'ajuda de la IA, els professionals van corregir 11 errors i en van cometre un de nou, segons un estudi a «npj Digital Medicine»."
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "Una IA llegeix les ecografies de l'abdomen superior, busca 16 diagnòstics i escriu informes que els radiòlegs no distingeixen dels seus un cop revisats",
+      "excerpt": "El sistema, de la Universitat de Colorado i publicat a «Nature Communications», s'ha entrenat amb més de 9.000 casos i s'ha provat en dos hospitals més. Encara s'ha d'avaluar a urgències reals abans de fer-lo servir."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "title": "Runware vol fabricar en cadena centres de dades per a IA i promet tenir-los en marxa 48 hores després d'arribar al lloc",
+      "excerpt": "L'empresa obre una fàbrica a Romania per produir mòduls prefabricats amb refrigeració líquida en circuit tancat. Diu que té 1.000 milions de dòlars d'interès compromès, però el pla encara no està provat."
+    },
     {
       "category": "GEOPOLÍTICA",
       "read": "4 MIN",
