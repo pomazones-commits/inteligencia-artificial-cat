@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-30T09:30:56.337Z",
+  "generat": "2026-10-30T23:06:34.159Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -16,7 +16,7 @@
       "programa": "Catalunya nit",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 6
+      "sobre_ia": 7
     },
     {
       "font": "3cat",
@@ -126,17 +126,17 @@
       "font": "apunt",
       "emissora": "À Punt Ràdio",
       "programa": "",
-      "resultats": 3,
+      "resultats": 4,
       "estat": "ok",
-      "audios": 0,
-      "sobre_ia": 0
+      "audios": 1,
+      "sobre_ia": 1
     },
     {
       "font": "wordpress",
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 26,
+      "audios": 27,
       "sobre_ia": 1
     },
     {
@@ -173,9 +173,43 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 300,
+      "audios": 400,
       "sobre_ia": 2
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "3cat-1296014",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-10-30",
+      "durada": "17 min",
+      "titol_original": "Xavier Nueno: \"Han privatitzat el coneixement i ara ens el volen llogar a través de subscripcions\"",
+      "descripcio_original": "La intel·ligència artificial s'ha construït amb milions de llibres, articles i documents que formen part del coneixement col·lectiu de la humanitat. Qui és el propietari d'aquest saber i què passa quan el convertim en un negoci privat? En parlem amb Xavier Nueno, guanyador del Premi Anagrama d'Assaig 2026 amb \"La revuelta de los copistas\", un llibre que convida a reflexionar sobre el futur del coneixement, les biblioteques i la nostra capacitat de pensar en plena revolució digital.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/xavier-nueno-han-privatitzat-el-coneixement-i-ara-ens-el-volen-llogar-a-traves-d/audio/1296014/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1296014"
+      }
+    },
+    {
+      "id": "apunt-1905583",
+      "emissora": "À Punt Ràdio",
+      "programa": "Cadena de valor",
+      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
+      "data": "2026-10-30",
+      "durada": "",
+      "titol_original": "Satèl·lits, drons i intel·ligència artificial per anticipar-se als desastres naturals",
+      "descripcio_original": "L’enginyer Tobías Romero presenta el projecte de teledetecció de Vielca Medi Ambient per millorar la prevenció i la gestió dels riscos d’inundació i d’incendis forestals.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/30-10-2026-satel-lits-drons-intel-ligencia-artificial-anticipar-als-desastres-naturals_135_1905583.html",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    }
+  ]
 }
