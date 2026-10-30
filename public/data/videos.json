@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-30T09:16:47.830Z",
+ "actualitzat": "2026-10-30T17:12:50.141Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "Oi9DHk57KeQ",
+   "titol": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-10-30T15:22:47.000Z",
+   "descripcio": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time zone",
+   "miniatura": "/assets/videos/Oi9DHk57KeQ.jpg"
+  },
   {
    "id": "JXEMFLQwi4A",
    "titol": "GTC Berlin 2026: Power Demand, Increasing Grid Reliability and Resiliency",
@@ -1097,30 +1109,6 @@
    "publicat": "2026-10-09T19:13:03.000Z",
    "descripcio": "You can now create a dot from the ChatGPT mobile app. Set up your dot, edit the name, customize the avatar, and set your dot to be the first conversation you see when you open the ChatGPT app. Learn more about dots here: https://learn.chatgpt.com/docs/dots",
    "miniatura": "/assets/videos/p5KxBTUncoE.jpg"
-  },
-  {
-   "id": "enPbh_A5F7E",
-   "titol": "Building the Codex community",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-09T17:00:34.000Z",
-   "descripcio": "See how the Codex community brings people together to build, learn, and share. Pauline Narvas and VB talk about growing the Codex Ambassador program, their favorite moments from local meetups and Build Week, and what it means to build with heart.",
-   "miniatura": "/assets/videos/enPbh_A5F7E.jpg"
-  },
-  {
-   "id": "7sKHiuE7J-Y",
-   "titol": "Building low-latency remote robotics with Gemini",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "robotica",
-   "idioma": "en",
-   "publicat": "2026-10-09T16:00:10.000Z",
-   "descripcio": "Working 1,700 miles apart, Matías and David used Google Antigravity, Google AI Studio, and Gemini to construct a remote robotics framework powered by custom 3D web controllers. Watch to discover how they implemented low-latency hardware controls to operate physical machinery across thousands of mile",
-   "miniatura": "/assets/videos/7sKHiuE7J-Y.jpg"
   },
   {
    "id": "IsL4dVezs18",
