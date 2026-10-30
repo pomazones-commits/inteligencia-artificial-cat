@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-30T11:03:24.934Z",
+ "actualitzat": "2026-10-30T13:17:18.867Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f0fc8a2a7335",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Savana, premiada como «Scale Up Europea del Año» por el V Forum Europeo de Inteligencia Artificial",
+   "url": "https://www.informacion.es/economia/2026/10/30/savana-premiada-scale-up-europea-bc-135926785.html",
+   "publicat": "2026-10-30T13:16:54.000Z"
+  },
+  {
+   "id": "3f94ff619a4b",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Gortázar (CaixaBank) descarta que el uso de la IA conlleve reducciones de plantilla en el banco",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/30/2739827/gortazar-caixabank-descarta-uso-conlleve-reducciones-plantilla-banco.html",
+   "publicat": "2026-10-30T12:21:54.000Z"
+  },
+  {
+   "id": "f8dbf4a1025f",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La sorprendente imagen del cementerio de Alfafar en vísperas de Todos los Santos: parece hecha con IA, pero no lo es",
+   "url": "https://www.levante-emv.com/horta/2026/10/30/sorprendente-imagen-cementerio-alfafar-visperas-135923542.html",
+   "publicat": "2026-10-30T12:05:39.000Z"
+  },
+  {
+   "id": "2ebefa886c1f",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tierra de empresas | AJEVolution sitúa a las personas en el centro de la revolución de la IA",
+   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/ajevolution-situa-a-las-personas-en-el-centro-de-la-revolucion-de-la-ia",
+   "publicat": "2026-10-30T11:34:42.000Z"
+  },
+  {
+   "id": "b752669dd21c",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La amistad de Jensen Huang, jefe de Nvidia, con una presunta agente china dispara las alarmas sobre el espionaje en el mundo de la IA",
+   "url": "https://elpais.com/tecnologia/2026-10-30/la-amistad-de-jensen-huang-jefe-de-nvidia-con-una-presunta-agente-china-dispara-las-alarmas-sobre-el-espionaje-en-el-mundo-de-la-ia.html",
+   "publicat": "2026-10-30T11:31:16.000Z"
+  },
+  {
+   "id": "a42f67693d1c",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El Modo IA de Google empieza a mostrar más anuncios: ¿cuándo llegarán a España?",
+   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-10-30/el-modo-ia-de-google-empieza-a-mostrar-mas-anuncios-cuando-llegaran-a-espana.html",
+   "publicat": "2026-10-30T11:30:00.000Z"
+  },
+  {
+   "id": "ca2205cd38ee",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Adam Mosseri, director de Instagram, ante el rechazo masivo a la automatización: “Vemos mes a mes cómo aumenta la ansiedad, frustración e ira sobre la IA”",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261030/11671984/adam-mosseri-director-instagram-rechazo-masivo-automatizacion-vemos-mes-mes-como-aumenta-ansiedad-frustracion-e-ira-sobre-ia.html",
+   "publicat": "2026-10-30T11:19:18.000Z"
+  },
+  {
+   "id": "9587f33c4732",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Por qué se rompe el iPhone Duo? El desperfecto del nuevo plegable de Apple fue diseñado con IA",
+   "url": "https://www.lavanguardia.com/neo/gadgets/20261030/11671878/rompe-iphone-duo-desperfecto-nuevo-plegable-apple-disenado-ia.html",
+   "publicat": "2026-10-30T11:18:15.000Z"
+  },
   {
    "id": "2d5a4fc1d0a4",
    "mitja": "La Vanguardia",
@@ -2690,74 +2778,6 @@
    "titol": "Una jornada a Manresa exposa les fortaleses i sobretot els riscos de la IA",
    "url": "https://www.regio7.cat/economia/2026/10/23/jornada-manresa-exposa-les-fortaleses-135659037.html",
    "publicat": "2026-10-23T15:03:54.000Z"
-  },
-  {
-   "id": "db757a1290a4",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nou escàndol al món literari: un llibre escrit amb IA ha guanyat un premi literari de 20.000 euros",
-   "url": "https://llegim.ara.cat/actualitat/escandol-mon-literari-llibre-escrit-ia-premi-literari-20-000_1_5888360.html",
-   "publicat": "2026-10-23T14:27:41.000Z",
-   "noticia": "premi-literari-novella-escrita-ia-presentacio-cancellada",
-   "noticiaTitol": "Un detector atribueix a la IA el 99% de la novel·la que ha guanyat un premi de 20.000 euros, i l'editorial cancel·la la presentació"
-  },
-  {
-   "id": "1af3b9f6a4a6",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La IA impulsa a los ‘solopreneurs’, que ya representan el 25,6% del ecosistema español de ‘start-ups’",
-   "url": "https://cincodias.elpais.com/companias/2026-10-23/la-ia-impulsa-a-los-solopreneurs-que-ya-representan-el-256-del-ecosistema-de-start-ups-espanolas.html",
-   "publicat": "2026-10-23T13:42:33.000Z"
-  },
-  {
-   "id": "28c65f354b15",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Circo de los Horrores encierra al público en una prisión gobernada por la IA en su nuevo espectáculo en Alicante",
-   "url": "https://www.informacion.es/cultura/2026/10/23/circo-horrores-encierra-publico-prision-alicante-135673723.html",
-   "publicat": "2026-10-23T12:38:11.000Z"
-  },
-  {
-   "id": "1370c8eff5d3",
-   "mitja": "Diari de Terrassa",
-   "font": "diarideterrassa",
-   "icona": "/assets/premsa/diari-de-terrassa.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Aprenent a gestionar les ressenyes amb IA",
-   "url": "https://www.diarideterrassa.com/economia/aprenent-a-gestionar-les-ressenyes-amb-ia.html",
-   "publicat": "2026-10-23T12:21:14.000Z"
-  },
-  {
-   "id": "fddbd007bfc9",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Expertos de toda España abordan en Alicante cómo afecta la IA a la información científica sanitaria",
-   "url": "https://www.informacion.es/alicante/2026/10/23/expertos-espana-alicante-inteligencia-artificial-informacion-cientifica-sanidad-135670769.html",
-   "publicat": "2026-10-23T11:52:08.000Z"
-  },
-  {
-   "id": "5d0d5af21cbe",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Deportes | La inteligencia artificial también juega en el deporte: La Nucía debate su impacto en el turismo y la gestión deportiva",
-   "url": "https://alicanteplaza.es/alicanteplaza/deportesalicante/la-inteligencia-artificial-tambien-juega-en-el-deporte-la-nucia-debate-su-impacto-en-el-turismo-y-la-gestion-deportiva",
-   "publicat": "2026-10-23T11:41:51.000Z"
   }
  ]
 }
