@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-30T05:16:29.797Z",
+ "actualitzat": "2026-10-30T09:16:47.830Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "JXEMFLQwi4A",
+   "titol": "GTC Berlin 2026: Power Demand, Increasing Grid Reliability and Resiliency",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-10-29T21:36:29.000Z",
+   "descripcio": "Hear leaders from Siemens Energy, Bayernwerk, and TenneT discuss how AI and accelerated computing are helping modernize grid operations, integrate distributed energy resources, and keep power reliable as demand rises. #GTCBerlin #EnergyforAI #AIforEnergy",
+   "miniatura": "/assets/videos/JXEMFLQwi4A.jpg"
+  },
   {
    "id": "L6pzlo1QvoM",
    "titol": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
@@ -1109,18 +1121,6 @@
    "publicat": "2026-10-09T16:00:10.000Z",
    "descripcio": "Working 1,700 miles apart, Matías and David used Google Antigravity, Google AI Studio, and Gemini to construct a remote robotics framework powered by custom 3D web controllers. Watch to discover how they implemented low-latency hardware controls to operate physical machinery across thousands of mile",
    "miniatura": "/assets/videos/7sKHiuE7J-Y.jpg"
-  },
-  {
-   "id": "MUHjyljBPHI",
-   "titol": "How Sophos cuts threat response time by 96% with OpenAI Daybreak",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "empreses",
-   "idioma": "en",
-   "publicat": "2026-10-09T08:37:55.000Z",
-   "descripcio": "Sophos CTO John Peterson shares how agents built through OpenAI Daybreak combine AI with Sophos’s cybersecurity expertise to reduce average response time from 38 minutes to 89 seconds for cases using those agents. Hear how Sophos is helping its MDR team investigate threats faster, protect customers ",
-   "miniatura": "/assets/videos/MUHjyljBPHI.jpg"
   },
   {
    "id": "IsL4dVezs18",
