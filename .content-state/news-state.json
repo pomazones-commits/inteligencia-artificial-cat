@@ -1,9 +1,69 @@
 {
   "editionDate": "2026-10-30",
-  "updatedAt": "2026-10-30T13:16:26.302Z",
-  "batches": 4,
+  "updatedAt": "2026-10-30T17:15:09.013Z",
+  "batches": 5,
   "target": 20,
   "items": [
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "slug": "google-suncatcher-satellit-tpu-en-orbita",
+      "title": "El primer satèl·lit de Google per fer càlculs d'IA a l'espai ja funciona, i la primera prova va ser demanar-li un haiku",
+      "excerpt": "El prototip del projecte Suncatcher porta un sol xip TPU de Google i només el pot fer anar uns vint minuts seguits. Ha de servir per comprovar si la radiació i la calor de l'òrbita permeten fer funcionar models d'IA fora de la Terra.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "sourceDate": "30 d'octubre de 2026",
+      "body": "Suncatcher és el projecte de llarg termini amb què Google vol estudiar si té sentit portar part del càlcul de la intel·ligència artificial a l'òrbita, on els panells solars reben llum gairebé constant. La idea és que, en el futur, una xarxa de satèl·lits que volin molt a prop els uns dels altres faci feines d'inferència, és a dir, posar a treballar models ja entrenats. Google mateix el presenta com una infraestructura pensada per ser rendible a la dècada del 2030, no ara.\n\nSegons TechCrunch, el primer prototip, construït per Planet Labs, es va llançar aquest mes d'octubre en un coet Falcon 9 de SpaceX juntament amb més d'un centenar d'altres naus, i ja es comunica amb terra. Porta un únic xip TPU de Google i genera fins a 1 quilowatt d'electricitat. Després d'unes tres setmanes de proves dels sistemes, els enginyers van demanar a Gemma 4, el model obert de Google DeepMind que porta carregat, un haiku sobre estar a l'espai; també li van fer escriure quintets humorístics i informar de les condicions orbitals. Un portaveu diu que el satèl·lit funciona amb normalitat.\n\nLa prova serveix per mesurar dos problemes que ningú no ha resolt encara a escala: la radiació, que pot canviar bits de la memòria i corrompre dades sense que les eines de vigilància habituals ho detectin, i l'estrès tèrmic. Els assajos a terra apuntaven que la radiació afectaria poc la inferència però més l'entrenament de models, i la campanya en òrbita ho ha de confirmar. Google preveu llançar el 2027 dos satèl·lits més amb TPU avançades, més potència i enllaços òptics entre ells per repartir-se la feina.\n\nEl prototip és molt modest: per la despesa elèctrica del xip, només pot treballar uns vint minuts seguits, cosa que també complica la comunicació amb terra. La viabilitat econòmica dels centres de dades espacials depèn, a més, que els llançaments s'abarateixin molt, i en particular que el coet Starship de SpaceX, encara en desenvolupament, es pugui reutilitzar de manera completa i ràpida. Alphabet, l'empresa matriu de Google, té una participació important a SpaceX.",
+      "image": "./assets/google-suncatcher-satellit-tpu-en-orbita-20261030.jpg"
+    },
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "slug": "doordash-pocs-centenars-comandes-agents-ia",
+      "title": "DoorDash admet que els agents d'IA només li han fet uns quants centenars de comandes, quan en reparteix uns tres milions al dia",
+      "excerpt": "El conseller delegat, Tony Xu, ho va explicar en la presentació de resultats i va demanar no ser «il·lusos» sobre el punt on són els agents. La gran majoria de clients continuen comprant des de l'aplicació de l'empresa.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "sourceDate": "30 d'octubre de 2026",
+      "body": "Les tecnològiques fa mesos que prometen que els agents d'IA compraran per compte de les persones: demanar el sopar, reservar un viatge o omplir la cistella. Botigues i plataformes han hagut de decidir si els deixen entrar o no. Amazon bloqueja els agents personals de tercers, mentre que Walmart els ha obert la porta per guanyar clients a la competència.\n\nDoorDash, la gran plataforma nord-americana de repartiment de menjar, ha posat xifres a aquesta promesa. En la conferència amb analistes dels resultats del tercer trimestre, el seu conseller delegat, Tony Xu, va dir que l'empresa ha rebut «potser uns quants centenars de comandes en total» d'agents de tercers, com Muse, Instinct o Fo. Segons l'últim informe anual de l'empresa, DoorDash fa de mitjana uns tres milions d'entregues al dia. Xu va descriure el camp com «molt dinàmic», però va advertir que les empreses no han de ser «il·luses» sobre on són avui els agents.\n\nLa xifra és rellevant perquè posa a prova un dels grans arguments comercials del sector: que els agents seran una nova porta d'entrada al comerç. DoorDash, de moment, hi aposta per aprendre i per fer-se amb aliats: ha llançat un xat per demanar amb text i fotos, una eina per a la línia d'ordres, un agent per fer comandes per missatge de text i un connector perquè altres xats puguin comprar-hi, pensat sobretot per a comandes d'empreses. Xu també va apuntar que, en el futur, DoorDash podria fer publicitat dins dels agents.\n\nCal llegir la dada amb prudència: només inclou les comandes d'agents d'altres empreses, no les que es fan amb les eines pròpies de DoorDash, i l'empresa no n'ha donat el detall per agent ni per mes. És, en tot cas, un indicador que el comerç fet per agents d'IA és encara anecdòtic en una plataforma de consum massiu, per molt que en parlin els anuncis.",
+      "image": "./assets/doordash-pocs-centenars-comandes-agents-ia-20261030.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "penn-f3-cameres-esdeveniments-percepcio-robots",
+      "title": "Un mètode de la Universitat de Pennsilvània permet als robots aprofitar les càmeres que només capten el moviment, i és de 2 a 5 vegades més ràpid",
+      "excerpt": "La representació F³, publicada a «Science Robotics», aprèn a predir els canvis de l'escena i calcula només allà on passa alguna cosa. Iguala o supera els millors resultats en reconeixement d'objectes, càlcul de distàncies i seguiment del moviment.",
+      "sourceName": "Science Robotics · Tech Xplore (Penn Engineering)",
+      "sourceUrl": "https://doi.org/10.1126/scirobotics.aec8218",
+      "sourceDate": "30 d'octubre de 2026",
+      "body": "Les càmeres d'esdeveniments no fan fotografies a intervals regulars com una càmera normal: cada píxel avisa només quan detecta un canvi de llum. Això les fa molt ràpides i útils de nit o amb moviments bruscos, i per això interessen tant per als cotxes, els drons i els robots. El problema és que les dades que produeixen són estranyes per als sistemes d'IA habituals, i cada tasca acabava necessitant un mètode fet a mida.\n\nUn equip de la Universitat de Pennsilvània, encapçalat pel doctorand Richeek Das i pels professors Pratik Chaudhari i Kostas Daniilidis, proposa una solució general a la revista «Science Robotics». La seva representació, anomenada Fast Feature Field (F³), és una xarxa neuronal entrenada per predir els esdeveniments que vindran. Per encertar-ho ha d'aprendre alhora l'estructura de l'escena i com es mou, sense que ningú li digui per a quina tasca servirà. Com que al voltant del 95% de les posicions possibles no tenen cap esdeveniment, el sistema només calcula on n'hi ha, i això el fa prou ràpid per funcionar en temps real.\n\nSegons els autors, els mètodes construïts sobre F³ assoleixen els millors resultats actuals en diverses tasques de percepció, com reconèixer objectes, estimar distàncies i seguir el moviment, i són de 2 a 5 vegades més ràpids que els anteriors. Processa dades d'alta definició 120 vegades per segon i, a resolució més baixa, 440. L'han provat amb dades de cotxes, robots de quatre potes i drons, en escenaris que van de carrers urbans de nit a interiors plens de gent.\n\nEl resultat està revisat per parells, però les xifres de rendiment són les que dona l'equip amb els seus conjunts de proves. Encara no és una peça de maquinari: els investigadors volen integrar F³ als circuits de la càmera perquè funcioni com un controlador, i la feina amb drons és en curs. Les càmeres d'esdeveniments, a més, continuen sent força menys habituals i més cares que les convencionals.",
+      "image": "./assets/penn-f3-cameres-esdeveniments-percepcio-robots-20261030.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "adlens-anuncis-enganyosos-google-models-petits",
+      "title": "Un estudi amb models d'IA petits troba milers d'anuncis enganyosos de programari a Google que van sumar més de 100 milions d'impressions a Europa",
+      "excerpt": "Investigadors de la Universitat de Nova York i de la Universitat Radboud han analitzat unes 189.000 versions d'anuncis amb l'eina AdLens, que presentaran al congrés de seguretat informàtica ACM CCS. Hi ha falsos avisos de virus i promeses impossibles.",
+      "sourceName": "ACM CCS 2026 · Tech Xplore (NYU Tandon)",
+      "sourceUrl": "https://techxplore.com/news/2026-10-thousands-deceptive-ads-evade-google.html",
+      "sourceDate": "30 d'octubre de 2026",
+      "body": "Les grans plataformes de publicitat asseguren que revisen els anuncis abans de publicar-los, però els investigadors externs tenen poques maneres de comprovar-ho a gran escala. Google ofereix des de fa uns anys un repositori públic, l'Ads Transparency Center, on es poden consultar els anuncis que s'emeten a la Unió Europea.\n\nUn equip de l'Escola d'Enginyeria Tandon de la Universitat de Nova York, amb el doctorand Ritik Roongta i la professora Rachel Greenstadt, i el professor Gunes Acar, de la Universitat Radboud dels Països Baixos, hi ha aplicat AdLens, una eina que fa servir models de llenguatge petits i públics. Primer filtra els anuncis amb un llenguatge semblant al de trucs enganyosos coneguts i després n'analitza el text i les imatges. Sobre unes 189.000 versions d'anuncis de programari, han trobat 238 falsos avisos de virus o de pirateig, amb més de 16 milions d'impressions; 3.346 anuncis amb promeses enganyoses, com recuperar fotos esborrades fa anys, amb gairebé 90 milions; i 258 que amagaven qui anunciava o què es venia. Un anunci que prometia localitzar qualsevol mòbil pel número va sumar 14,5 milions d'impressions en més de dos anys.\n\nEl treball s'ha acceptat al congrés ACM CCS, un dels principals de seguretat informàtica, que es fa a la Haia el 18 de novembre. A més de les xifres, mostra forats en la retirada d'anuncis: de 147 aplicacions promocionades amb anuncis enganyosos, 34 ja no eren a les botigues però els anuncis continuaven actius, i en un cas Google va retirar un anunci lligat a una operació de programari maliciós i en va deixar 41 més que portaven al mateix web. Els autors han publicat l'eina perquè reguladors i associacions de consumidors puguin fer les seves pròpies revisions.\n\nLes impressions mesuren quanta gent va veure els anuncis, no quantes persones van perdre diners o van instal·lar programari maliciós. La mostra és només una petita part dels més de dos mil milions d'anuncis de la plataforma, així que les xifres són un mínim, no un recompte complet. L'estudi se centra en Google, tot i que els autors diuen que el mètode es pot adaptar a Meta i TikTok.",
+      "image": "./assets/adlens-anuncis-enganyosos-google-models-petits-20261030.jpg"
+    },
+    {
+      "category": "MOBILITAT",
+      "read": "3 MIN",
+      "slug": "rivian-volkswagen-llicencia-assistent-veu-ia",
+      "title": "Rivian cedirà a Volkswagen el seu assistent de veu amb IA dins de l'empresa conjunta que ja els uneix",
+      "excerpt": "El fabricant nord-americà de cotxes elèctrics ho anuncia en la presentació de resultats, sense dir quant cobrarà ni en quins models arribarà. El primer candidat és el petit ID. EVERY1 de Volkswagen.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "sourceDate": "29 d'octubre de 2026",
+      "body": "Volkswagen i Rivian van crear el 2024 una empresa conjunta perquè el grup alemany aprofités el programari i l'arquitectura electrònica del fabricant nord-americà de cotxes elèctrics. El compromís de Volkswagen va arribar a 5.800 milions de dòlars fins al 2027. Per al grup alemany, que ha tingut dificultats per fer cotxes governats pel programari com els de Tesla, l'acord és una drecera.\n\nAra l'aliança s'amplia a la intel·ligència artificial. Segons la presentació per als inversors del tercer trimestre, Rivian cedirà sota llicència a Volkswagen parts del seu assistent de veu amb IA. L'empresa no ha revelat quant cobrarà, en quines condicions ni en quins vehicles s'instal·larà. El candidat més probable és l'ID. EVERY1, el cotxe elèctric petit i barat de Volkswagen, que ha de ser el primer del grup amb el programari de Rivian.\n\nRivian va dedicar uns dos anys a desenvolupar l'assistent, el va mostrar el 2025, el va posar als seus models R1S i R1T al maig i a l'R2 aquest mes d'octubre. El fundador i conseller delegat, RJ Scaringe, ha explicat que funciona amb un sistema d'agents propi que interpreta què vol el conductor i passa l'ordre a la part del programari del cotxe que toca, i que en el futur podria acollir agents d'altres empreses, com Anthropic. Rivian presenta l'acord com la prova que la plataforma que ha fet a casa es pot aprofitar fora.\n\nDe moment és un anunci sense xifres ni calendari, i no se sap si farà créixer el valor de l'empresa conjunta. Tampoc no hi ha dades independents sobre com funciona l'assistent a la carretera, ni sobre quines dades del conductor recull i on es processen, una qüestió que serà rellevant si arriba als cotxes que es venen a Europa.",
+      "image": "./assets/rivian-volkswagen-llicencia-assistent-veu-ia-20261030.jpg"
+    },
     {
       "category": "CIBERSEGURETAT",
       "read": "4 MIN",
