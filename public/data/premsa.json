@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-30T13:17:18.867Z",
+ "actualitzat": "2026-10-30T17:16:12.217Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "4f23da51b178",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las tecnológicas se desploman en Bolsa por las dudas sobre el gasto en la IA",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-30/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-10-30T17:07:24.000Z"
+  },
+  {
+   "id": "0c23f030cfc8",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Mazda CX-5 ya entiende lo que le dices gracias a Gemini",
+   "url": "https://www.elperiodico.com/es/motor/20261030/mazda-cx-5-gemini-inteligencia-artificial-asistente-voz-natural-135926571",
+   "publicat": "2026-10-30T15:34:44.000Z"
+  },
+  {
+   "id": "82a1c3c71e51",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El histórico desplome de Google e Intel asesta un nuevo golpe a la burbuja de la IA",
+   "url": "https://www.eldiario.es/tecnologia/historico-desplome-google-e-intel-asesta-nuevo-golpe-burbuja-ia_1_13627374.html",
+   "publicat": "2026-10-30T15:15:06.000Z"
+  },
+  {
+   "id": "278b12d303cb",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los demócratas piden que se preserven las conversaciones de Trump con Grok",
+   "url": "https://www.lavanguardia.com/internacional/20261030/11672247/democratas-piden-preserven-conversaciones-trump-grok.html",
+   "publicat": "2026-10-30T14:08:08.000Z"
+  },
+  {
+   "id": "2b0b27492029",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los mayores miedos de los jóvenes ante la IA: privacidad, dependencia y futuro profesional",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/30/2739899/mayores-miedos-jovenes-ante-privacidad-dependencia-futuro-profesional.html",
+   "publicat": "2026-10-30T14:06:24.000Z"
+  },
   {
    "id": "f0fc8a2a7335",
    "mitja": "Información",
@@ -2723,61 +2778,6 @@
    "titol": "Elche | El III Congreso Internacional de Diseño reivindica en Elche la protección de la creatividad frente a los retos de la inteligencia artificial",
    "url": "https://alicanteplaza.es/alicanteplaza/elcheplaza/el-iii-congreso-internacional-de-diseno-reivindica-en-elche-la-proteccion-de-la-creatividad-frente-a-los-retos-de-la-inteligencia-artificial",
    "publicat": "2026-10-23T20:05:40.000Z"
-  },
-  {
-   "id": "1f786850047d",
-   "mitja": "Diari La Veu",
-   "font": "diarilaveu",
-   "icona": "/assets/premsa/diari-la-veu.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Trump rebateja la IA com a “Superintel·ligència”: El somni del capitalisme ultralibreral",
-   "url": "https://www.diarilaveu.cat/societat/trump-rebateja-la-ia-com-a-superintelligencia-el-somni-del-capitalisme-ultralibreral-654622",
-   "publicat": "2026-10-23T19:30:00.000Z"
-  },
-  {
-   "id": "eb4f6b47d4c8",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El 6.º Festival 42 insiste en la IA y en los mecanismos del miedo en nuestra sociedad",
-   "url": "https://www.lavanguardia.com/cultura/20261023/11666746/6-o-festival-42-insiste-ia-mecanismos-miedo-nuestra-sociedad.html",
-   "publicat": "2026-10-23T18:07:28.000Z"
-  },
-  {
-   "id": "0e35f7be5c97",
-   "mitja": "Diari de Terrassa",
-   "font": "diarideterrassa",
-   "icona": "/assets/premsa/diari-de-terrassa.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La Fundació Vallparadís posa el focus en la intel·ligència artificial i les cures",
-   "url": "https://www.diarideterrassa.com/terrassa/la-fundacio-vallparadis-posa-el-focus-en-la-intelligencia-artificial-i-les-cures.html",
-   "publicat": "2026-10-23T16:06:20.000Z"
-  },
-  {
-   "id": "40d8bacaffdc",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El petróleo y el temor a una burbuja de la IA dejan una semana de pérdidas en las Bolsas",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-23/la-bolsa-y-el-ibex-35.html",
-   "publicat": "2026-10-23T15:55:52.000Z"
-  },
-  {
-   "id": "580984f590f7",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Una jornada a Manresa exposa les fortaleses i sobretot els riscos de la IA",
-   "url": "https://www.regio7.cat/economia/2026/10/23/jornada-manresa-exposa-les-fortaleses-135659037.html",
-   "publicat": "2026-10-23T15:03:54.000Z"
   }
  ]
 }
