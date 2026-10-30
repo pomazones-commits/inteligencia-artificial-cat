@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-29T17:29:53.651Z",
+  "generat": "2026-10-30T05:15:34.537Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -48,7 +48,7 @@
       "programa": "La tàctica",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 0
     },
     {
       "font": "rtve",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 26,
+      "audios": 25,
       "sobre_ia": 1
     },
     {
@@ -145,7 +145,7 @@
       "programa": "Actualitat",
       "nom_web": "Ràdio Sant Andreu",
       "estat": "ok",
-      "audios": 2,
+      "audios": 3,
       "sobre_ia": 0
     },
     {
@@ -155,8 +155,8 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 23,
-      "sobre_ia": 3
+      "audios": 22,
+      "sobre_ia": 2
     },
     {
       "font": "wordpress",
@@ -165,35 +165,17 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 10,
-      "sobre_ia": 1
+      "audios": 9,
+      "sobre_ia": 0
     },
     {
       "font": "rtva",
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 400,
+      "audios": 300,
       "sobre_ia": 2
     }
   ],
-  "candidats": [
-    {
-      "id": "rtve-17289081",
-      "emissora": "Ràdio 4",
-      "programa": "Lletra lligada",
-      "programa_url": "https://www.rtve.es/play/audios/lletra-lligada/",
-      "data": "2026-10-10",
-      "durada": "12 min",
-      "titol_original": "Una altra mirada: De ser espectadors passius a convertir-nos en creadors",
-      "descripcio_original": "Què és la IA? Com pot augmentar l’autonomia d'infants i adolescents? És fàcil aprendre a moure's en aquest entorn nou? La Claudia Tecglen ens dona la seva mirada sobre aquesta qüestió i ens parla d' una iniciativa gratuïta que ha posat en marxa amb la seva fundació perquè tothom hi pugui tenir accés.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/lletra-lligada/lletra-lligada-altra-mirada-ser-espectadors-passius-convertir-creadors/17289081/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17289081"
-      }
-    }
-  ]
+  "candidats": []
 }

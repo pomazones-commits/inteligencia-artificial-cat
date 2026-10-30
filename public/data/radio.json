@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-28",
+  "actualitzat": "2026-10-30",
   "nota": "La IA a la ràdio (11.10.2026). Des del 17.10.2026 les fitxes noves les escriu la sessió editorial a incoming/radio-fitxes.json a partir dels candidats d'automation/radio-candidats.json, i el workflow radio.yml (automation/scripts/recull-radio.mjs) les valida i les afegeix aquí; també s'hi poden afegir a mà. Quines emissores i programes entren a la recollida (APIs de 3Cat, RTVE i Omny, el cercador d'À Punt i les webs WordPress de RAB i de les ràdios locals) ho diu automation/radio-sources.json. Cap automatització no canvia ni esborra les fitxes que ja hi són. Cada intervenció és una fitxa amb: id (únic, minúscules i guions; per a 3Cat, «3cat-<id de l'àudio>»), emissora (el nom ha de ser una clau d'«emissores»), programa, programa_url (web oficial del programa), data (AAAA-MM-DD, la de l'àudio a la web de l'emissora), durada («53 min», «1 h 2 min»; buida si l'emissora no la diu), titol (TÍTOL PROPI, no el de l'emissora), convidats (llista de {nom, rol}; el rol tal com el presenta el programa, en català), resum (RESUM PROPI de 30-80 paraules a partir de la descripció oficial: no copiïs la de l'emissora i no t'inventis què s'hi diu), tema (un dels de «temes»), url (la pàgina oficial de l'àudio) i reproductor ({tipus, id}). Tipus de reproductor (els mateixos a radio.php, radio.js i scripts/valida-radio.mjs): «3cat» (id numèric; https://www.3cat.cat/3cat/audio/<id>/embed/), «rtve» (id numèric; https://www.rtve.es/drmn/embed/audio/<id>), «omny» (RAC1 i altres que publiquen a Omny; id «<programa>/<clip>», el que dona l'EmbedUrl de l'API d'Omny), «soundcloud» (id numèric de la pista), «youtube» (id de 11 caràcters; es carrega des de youtube-nocookie.com) i «enllac» (l'emissora no ofereix reproductor incrustable: la fitxa només enllaça la seva web). Per afegir-ne un, comprova abans que l'emissora el dona com a codi d'inserció oficial. «emissores»: nom → {web, icona}. «icona» és l'adreça de la icona oficial; el workflow radio-icones.yml (automation/scripts/icones-radio.mjs) la baixa UNA vegada a public/assets/radio/ i actualitza public/data/radio-icones.json: el lector mai no fa cap petició a l'emissora. Per renovar-la, esborra el fitxer. 🛑 Mai no es baixa ni s'allotja l'àudio ni la foto de l'emissora: només el seu reproductor, i només quan el lector hi fa clic. Valida amb: node scripts/valida-radio.mjs",
   "temes": {
     "societat": "Societat, ètica i desinformació",
@@ -498,6 +498,28 @@
       "reproductor": {
         "tipus": "3cat",
         "id": "1293457"
+      }
+    },
+    {
+      "id": "rtve-17289081",
+      "emissora": "Ràdio 4",
+      "programa": "Lletra lligada",
+      "programa_url": "https://www.rtve.es/play/audios/lletra-lligada/",
+      "data": "2026-10-10",
+      "durada": "12 min",
+      "titol": "Com la IA pot donar més autonomia als infants i adolescents",
+      "convidats": [
+        {
+          "nom": "Claudia Tecglen",
+          "rol": "impulsora d'una iniciativa gratuïta amb la seva fundació"
+        }
+      ],
+      "resum": "A la secció «Una altra mirada» de «Lletra lligada», Claudia Tecglen reflexiona sobre què és la intel·ligència artificial i com pot ajudar infants i adolescents a guanyar autonomia, i si és fàcil aprendre a fer-la servir. També presenta una iniciativa gratuïta que ha engegat amb la seva fundació perquè tothom hi pugui tenir accés, amb la idea de passar de consumir tecnologia a crear-ne.",
+      "tema": "educacio",
+      "url": "https://www.rtve.es/play/audios/lletra-lligada/lletra-lligada-altra-mirada-ser-espectadors-passius-convertir-creadors/17289081/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17289081"
       }
     },
     {
