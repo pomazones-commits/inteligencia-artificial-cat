@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-30T05:15:34.537Z",
+  "generat": "2026-10-30T09:17:09.197Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 25,
+      "audios": 26,
       "sobre_ia": 1
     },
     {
@@ -145,7 +145,7 @@
       "programa": "Actualitat",
       "nom_web": "Ràdio Sant Andreu",
       "estat": "ok",
-      "audios": 3,
+      "audios": 1,
       "sobre_ia": 0
     },
     {
@@ -172,9 +172,8 @@
       "font": "rtva",
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
-      "estat": "ok",
-      "audios": 300,
-      "sobre_ia": 2
+      "estat": "error",
+      "error": "HTTP 403"
     }
   ],
   "candidats": []
