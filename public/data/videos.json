@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-29T17:19:41.191Z",
+ "actualitzat": "2026-10-30T05:16:29.797Z",
  "canals": 19,
  "videos": [
   {
@@ -1121,42 +1121,6 @@
    "publicat": "2026-10-09T08:37:55.000Z",
    "descripcio": "Sophos CTO John Peterson shares how agents built through OpenAI Daybreak combine AI with Sophos’s cybersecurity expertise to reduce average response time from 38 minutes to 89 seconds for cases using those agents. Hear how Sophos is helping its MDR team investigate threats faster, protect customers ",
    "miniatura": "/assets/videos/MUHjyljBPHI.jpg"
-  },
-  {
-   "id": "fL9OBJO3Gu8",
-   "titol": "Building with Gemma 4",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-08T23:00:09.000Z",
-   "descripcio": "Gemma 4 is the most capable model family you can run on your hardware. They complement our Gemini models, giving our developer community the industry's most powerful combination of both open and proprietary tools. Watch for inspiration for your next Gemma build, or even just to get to know Reachy th",
-   "miniatura": "/assets/videos/fL9OBJO3Gu8.jpg"
-  },
-  {
-   "id": "RQfg-zo4R-g",
-   "titol": "Production Monitoring with Codex: Grafana, Kubernetes, & Security",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-08T21:35:18.000Z",
-   "descripcio": "It’s 3 a.m. and checkout errors are climbing. What do you check first? Join cohosts Tony Loehr and Anke Hao for three practical production-monitoring demos with Codex. Follow a checkout failure in Grafana, investigate a Kubernetes rollout that causes out-of-memory restarts, and explore how a Codex S",
-   "miniatura": "/assets/videos/RQfg-zo4R-g.jpg"
-  },
-  {
-   "id": "Mm3EsJL73tM",
-   "titol": "How Oracle Uses ChatGPT Work to Transform Recruitment",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "empreses",
-   "idioma": "en",
-   "publicat": "2026-10-08T17:38:00.000Z",
-   "descripcio": "“We’ve gone from zero to 100, not zero to 60.” Jan Ackerman shares how Oracle built a talent market intelligence tool with ChatGPT Work to transform hiring preparation. Starting with a job description, it researches comparable roles, benchmarks compensation, and assesses talent pools across location",
-   "miniatura": "/assets/videos/Mm3EsJL73tM.jpg"
   },
   {
    "id": "IsL4dVezs18",
