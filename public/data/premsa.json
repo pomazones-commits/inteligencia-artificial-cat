@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-30T18:17:01.699Z",
+ "actualitzat": "2026-10-30T22:40:50.474Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "b6588f146414",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Bankinter analiza cómo la inteligencia artificial redefine el futuro de las empresas",
+   "url": "https://www.informacion.es/economia/2026/10/30/bankinter-analiza-inteligencia-artificial-redefine-bc-135914237.html",
+   "publicat": "2026-10-30T21:31:04.000Z"
+  },
+  {
+   "id": "7590ccbce034",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Gemini da un salto de gigante y ya puedes crear y editar documentos, PDF y presentaciones sin salir de la IA",
+   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-10-30/gemini-da-un-salto-de-gigante-y-ya-puedes-crear-y-editar-documentos-pdf-y-presentaciones-sin-salir-de-la-ia.html",
+   "publicat": "2026-10-30T19:30:00.000Z"
+  },
   {
    "id": "2b4dfedcfce9",
    "mitja": "La Vanguardia",
@@ -26,6 +48,17 @@
    "publicat": "2026-10-30T17:07:24.000Z"
   },
   {
+   "id": "110209b23c08",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "30.10.2026 | Satèl·lits, drons i intel·ligència artificial per anticipar-se als desastres naturals",
+   "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/30-10-2026-satel-lits-drons-intel-ligencia-artificial-anticipar-als-desastres-naturals_135_1905583.html",
+   "publicat": "2026-10-30T15:55:00.000Z"
+  },
+  {
    "id": "0c23f030cfc8",
    "mitja": "El Periódico",
    "font": "elperiodico-totes",
@@ -46,6 +79,17 @@
    "titol": "El histórico desplome de Google e Intel asesta un nuevo golpe a la burbuja de la IA",
    "url": "https://www.eldiario.es/tecnologia/historico-desplome-google-e-intel-asesta-nuevo-golpe-burbuja-ia_1_13627374.html",
    "publicat": "2026-10-30T15:15:06.000Z"
+  },
+  {
+   "id": "ae532c0cf153",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El mercado bursátil castiga el gasto millonario de las tecnológicas en la Inteligencia Artificial",
+   "url": "https://www.lavanguardia.com/economia/20261030/11672278/intel-desploma-30-peor-caida-1974-malos-resultados.html",
+   "publicat": "2026-10-30T15:11:18.000Z"
   },
   {
    "id": "278b12d303cb",
@@ -2734,50 +2778,6 @@
    "titol": "El 78% de las compañías bancarias priorizan la inversión en ciberseguridad ante la amenaza de la IA",
    "url": "https://cincodias.elpais.com/companias/2026-10-24/el-78-de-las-companias-bancarias-priorizan-la-inversion-en-ciberseguridad-ante-la-amenaza-de-la-ia.html",
    "publicat": "2026-10-24T03:15:00.000Z"
-  },
-  {
-   "id": "db550fe4b0dc",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Telefónica refuerza su inversión en IA en Brasil",
-   "url": "https://cincodias.elpais.com/companias/2026-10-24/telefonica-refuerza-su-inversion-en-ia-en-brasil.html",
-   "publicat": "2026-10-24T03:15:00.000Z"
-  },
-  {
-   "id": "4f95275e6885",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Pedro Olalla: «Lo único que nos diferenciará de la IA cuando nos supere en todo es la voluntad»",
-   "url": "https://www.ultimahora.es/noticias/cultura/2026/10/24/2734939/pedro-olalla-unico-nos-diferenciara-cuando-nos-supere-todo-voluntad.html",
-   "publicat": "2026-10-24T02:48:02.000Z"
-  },
-  {
-   "id": "bc7e447fb247",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nous Jardins d’altri en un llibre, IA i Apple, Nàpols i l’amor",
-   "url": "https://www.ultimahora.es/opinion/tribuna/2026/10/24/2735211/nous-jardins-altri-llibre-apple-napols-amor.html",
-   "publicat": "2026-10-24T02:48:02.000Z"
-  },
-  {
-   "id": "cf7dfccdeb59",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA irrumpe en la precampaña",
-   "url": "https://www.lavanguardia.com/opinion/20261024/11666806/ia-irrumpe-precampana.html",
-   "publicat": "2026-10-23T22:30:00.000Z"
   }
  ]
 }
