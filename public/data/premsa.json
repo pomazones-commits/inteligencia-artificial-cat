@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-30T17:16:12.217Z",
+ "actualitzat": "2026-10-30T18:17:01.699Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "2b4dfedcfce9",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Marta Luisa de Noruega, víctima de un montaje con IA que anuncia su embarazo a los 55 años",
+   "url": "https://www.lavanguardia.com/gente/20261030/11672373/marta-luisa-noruega-victima-montaje-ia-anuncia-embarazo-55-anos.html",
+   "publicat": "2026-10-30T17:52:45.000Z"
+  },
   {
    "id": "4f23da51b178",
    "mitja": "Cinco Días",
@@ -2767,17 +2778,6 @@
    "titol": "La IA irrumpe en la precampaña",
    "url": "https://www.lavanguardia.com/opinion/20261024/11666806/ia-irrumpe-precampana.html",
    "publicat": "2026-10-23T22:30:00.000Z"
-  },
-  {
-   "id": "7f055e615950",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Elche | El III Congreso Internacional de Diseño reivindica en Elche la protección de la creatividad frente a los retos de la inteligencia artificial",
-   "url": "https://alicanteplaza.es/alicanteplaza/elcheplaza/el-iii-congreso-internacional-de-diseno-reivindica-en-elche-la-proteccion-de-la-creatividad-frente-a-los-retos-de-la-inteligencia-artificial",
-   "publicat": "2026-10-23T20:05:40.000Z"
   }
  ]
 }
