@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-30T09:16:46.703Z",
+ "actualitzat": "2026-10-30T11:03:24.934Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "2d5a4fc1d0a4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Pymes y talento: la nueva ecuación entre autenticidad e IA",
+   "url": "https://www.lavanguardia.com/economia/innovacion/20261030/11671406/pymes-talento-nueva-ecuacion-autenticidad-e-ia.html",
+   "publicat": "2026-10-30T10:29:46.000Z"
+  },
+  {
+   "id": "fa7302d846eb",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Primer contacto con Honor Robot Phone, el móvil con cámara robótica e IA que te sigue a todas partes",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/30/2739685/primer-contacto-honor-robot-phone-movil-camara-robotica-sigue-todas-partes.html",
+   "publicat": "2026-10-30T10:23:00.000Z"
+  },
+  {
+   "id": "baa59b9a477b",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El CEO de Reddit constata la caída del tráfico web, que vincula con AI Overviews y el modo de búsqueda con IA de Google",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/30/2739649/ceo-reddit-constata-caida-del-trafico-web-vincula-overviews-modo-busqueda-google.html",
+   "publicat": "2026-10-30T10:06:00.000Z"
+  },
   {
    "id": "b25f65567b71",
    "mitja": "Información",
@@ -2725,63 +2758,6 @@
    "titol": "Deportes | La inteligencia artificial también juega en el deporte: La Nucía debate su impacto en el turismo y la gestión deportiva",
    "url": "https://alicanteplaza.es/alicanteplaza/deportesalicante/la-inteligencia-artificial-tambien-juega-en-el-deporte-la-nucia-debate-su-impacto-en-el-turismo-y-la-gestion-deportiva",
    "publicat": "2026-10-23T11:41:51.000Z"
-  },
-  {
-   "id": "1e0dfa921602",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La retirada por embarazo de una de las Babyqueen, un grupo de K-Pop generado por IA, abre un nuevo debate en China",
-   "url": "https://www.lavanguardia.com/gente/20261023/11666383/retirada-embarazo-babyqueen-grupo-k-pop-generado-ia-abre-nuevo-debate-china.html",
-   "publicat": "2026-10-23T10:45:44.000Z"
-  },
-  {
-   "id": "06cfdb18427f",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Leire Díez es querella contra el PP pel vídeo fet amb IA en què li suplanten la identitat",
-   "url": "https://www.ara.cat/politica/leire-diez-querella-pp-pel-video-fet-ia-li-suplanten-identitat_1_5888092.html",
-   "publicat": "2026-10-23T10:43:38.000Z"
-  },
-  {
-   "id": "e223d7ada450",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Leire Díez se querella contra el PP por el vídeo con IA que le atribuye contratar matones",
-   "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/23/2734903/leire-diez-querella-contra-por-video-que-atribuye-contratar-matones.html",
-   "publicat": "2026-10-23T10:36:00.000Z"
-  },
-  {
-   "id": "f3d3ad2fd20f",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Leire Díez es querella contra el PP pels vídeos de campanya fets amb IA",
-   "url": "https://www.elnacional.cat/ca/politica/leire-diez-es-querella-contra-pp-videos-campanya-fets-ia_1714018_102.html",
-   "publicat": "2026-10-23T10:33:43.000Z",
-   "noticia": "leire-diez-querella-pp-video-ia-suplantacio",
-   "noticiaTitol": "Leire Díez es querella contra el PP pel vídeo fet amb IA en què se la veu admetre que va contractar un sicari"
-  },
-  {
-   "id": "6c469a7801b9",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Detectan que agentes de IA no autorizados acceden a cuentas bancarias de clientes en bancos de Estados Unidos",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/23/2734899/detectan-agentes-autorizados-acceden-cuentas-bancarias-clientes-bancos-estados-unidos.html",
-   "publicat": "2026-10-23T10:26:00.000Z"
   }
  ]
 }
