@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-29T17:18:47.220Z",
+  "updatedAt": "2026-10-30T05:15:36.351Z",
   "items": [
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Alphabet tanca el trimestre amb més diners gastats que ingressats per la inversió en IA, tot i que Google Cloud dobla les vendes",
-      "excerpt": "La matriu de Google va invertir 51.400 milions de dòlars en tres mesos, sobretot en centres de dades, i va tancar el trimestre amb un flux de caixa lliure negatiu de 9.100 milions, mentre el seu núvol creixia un 103%."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Nova York prohibeix que els xatbots facin veure als menors que són persones o que en són la parella, i obliga a comprovar l'edat",
-      "excerpt": "La llei, signada per la governadora Kathy Hochul, també veta que animin a l'autolesió o als trastorns alimentaris, i preveu multes de fins a 25.000 dòlars per infracció. Entrarà en vigor d'aquí a sis mesos."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA troba senyals de càncer de pàncrees en TAC que els radiòlegs havien donat per normals, de mitjana 475 dies abans del diagnòstic",
-      "excerpt": "El sistema, de la Clínica Mayo i publicat a la revista «Gut», va detectar el 73% dels casos en exploracions fetes mesos o anys abans, davant del 39% dels radiòlegs, però encara s'ha de provar en pacients reals abans d'usar-lo."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Els grans models d'IA de patologia no superen els específics en el diagnòstic del càncer de pròstata i gasten fins a 35 vegades més energia",
-      "excerpt": "Un estudi del Karolinska publicat a «Nature Communications», amb més de 100.000 biòpsies de 6.268 pacients de 15 centres, mostra que els models generalistes només tenen avantatge quan hi ha poques dades per entrenar."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "El Barcelona Supercomputing Center i AstraZeneca s'alien per fer servir la IA i el supercomputador en recerca de cor, pulmó, càncer i malalties minoritàries",
-      "excerpt": "L'equip del centre global d'AstraZeneca a Barcelona treballarà amb investigadors del BSC i en farà servir les instal·lacions, en un acord sense xifres signat dins del programa BSC Connects."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Un model intern d'Anthropic construeix atacs complets contra Chrome, Safari, Android, Windows i Linux, i només a Chrome ha fet corregir 62 errors",
-      "excerpt": "L'equip que posa a prova els models d'Anthropic explica que una versió de Claude encara no publicada va encadenar errors fins a obtenir atacs que funcionen en cinc dels programes més utilitzats del món. Totes les falles ja s'han corregit."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Més de 1.900 persones intenten distingir textos i descripcions d'imatges fetes per humans o per IA, i gairebé només ho encerten per atzar",
-      "excerpt": "Un estudi publicat a «Nature Human Behaviour» compara respostes de 636 persones i 37 models d'IA en sis tipus de tasques. Els jutges encerten l'autor entre el 53% i el 57% de les vegades, però fer preguntes de seguiment en una conversa en directe ajuda a desemmascarar la màquina."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un xatbot que parla amb fluïdesa però s'inventa dades resulta tan creïble com un de sec que no s'equivoca, i el 80% dels participants no veu els errors",
-      "excerpt": "Un experiment de la Universitat Radboud, publicat a «Computers in Human Behavior: Artificial Humans», mostra que el llenguatge natural i proper d'un assistent d'IA pesa tant com l'exactitud de les respostes a l'hora de jutjar-lo."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Meta dona accés als seus models Muse a cinc universitats dels Estats Units per a projectes de medicina i ciència, i diu que no veurà les dades dels pacients",
-      "excerpt": "Caltech, Ohio State, la Universitat Estatal de Louisiana, la Universitat d'Indiana i UTHealth Houston faran servir els models de Meta en projectes que van de la insuficiència cardíaca a la cura de la demència. Les universitats controlen la recerca i les dades clíniques."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Deepgram compra Daily, l'empresa de Pipecat, una de les eines obertes més usades per fer agents d'IA que parlen",
-      "excerpt": "L'empresa de reconeixement de veu adquireix la companyia que manté Pipecat, que seguirà sent de codi obert, i presenta un protocol obert per passar context en temps real als agents de veu. No s'ha fet públic el preu."
+      "title": "Amazon Web Services creix un 39%, el ritme més alt en gairebé cinc anys, i Amazon gastarà uns 220.000 milions de dòlars en inversions aquest any",
+      "excerpt": "El núvol d'Amazon factura 46.000 milions en un trimestre. Andy Jassy preveu que creixerà més d'un 40% el 2027 i el 2028, però la borsa castiga la despesa: l'acció va caure prop d'un 6% després del tancament."
     },
     {
       "category": "MODELS",
-      "read": "5 MIN",
-      "title": "Google presenta Gemini 4 Carbon, un model especialitzat a trobar i corregir errors de seguretat que de moment només poden fer servir defensors seleccionats",
-      "excerpt": "Google DeepMind diu que és el seu model més potent i que troba el 88,2% de les vulnerabilitats d'una prova de referència. No arriba encara ni als desenvolupadors ni al públic: primer el tindran equips de ciberseguretat triats per l'empresa."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Uns agents d'IA d'una empresa emergent entren en sistemes interns d'Anthropic en menys de dotze hores a través de programari d'altres proveïdors",
-      "excerpt": "Cathedral, fundada per antics membres del DOGE, diu que va arribar a transcripcions de reunions i dades salarials. Anthropic admet l'accés a una part dels sistemes de vendes, recursos humans i informàtica, però nega que s'hi veiessin converses de clients, codi o models."
-    },
-    {
-      "category": "PROGRAMACIÓ",
       "read": "4 MIN",
-      "title": "Més del 40% de les sol·licituds de canvis de codi a GitHub ja les comença un agent d'IA, i al març eren el 17%",
-      "excerpt": "Ho diu l'informe anual Octoverse, presentat a la conferència Universe. GitHub hi estrena Copilot Fusion, un sistema que tria quin model d'IA fa cada pas d'una tasca de programació per gastar menys."
+      "title": "ACTUALITZACIÓ: Mistral publica en obert el seu model d'un bilió de paràmetres i el presenta com una eina per als defensors informàtics",
+      "excerpt": "L'empresa francesa allibera Mistral Large 4 després de tres setmanes més d'entrenament. Diu que és el millor model obert per programar amb agents i que rebutja el 96,6% de les peticions d'atac, però admet que pot ajudar els atacants."
     },
     {
       "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi rastreja d'on aprèn una IA a entendre les persones: més de les converses i el diàleg que dels manuals",
-      "excerpt": "Investigadors de Georgia Tech i EleutherAI han analitzat quines parts dels textos d'entrenament d'un model obert sostenen el raonament social i quines el de ciències. El treball s'ha presentat al congrés COLM 2026."
+      "read": "4 MIN",
+      "title": "Un agent d'IA del Berkeley Lab permet manejar un dels microscopis electrònics més avançats del món demanant-li els experiments amb paraules",
+      "excerpt": "TEM Agent, publicat a «npj Computational Materials», tradueix les instruccions en passos concrets del microscopi, però només pot fer servir accions programades prèviament i al principi confonia inclinar la mostra amb moure el feix."
+    },
+    {
+      "category": "INTERNET",
+      "read": "4 MIN",
+      "title": "Reddit començarà a demanar que s'iniciï sessió per llegir-lo, mentre perd visites de Google per culpa de les respostes amb IA",
+      "excerpt": "La plataforma ho provarà en alguns països fora dels Estats Units abans d'acabar l'any. Vol protegir les seves converses dels robots que entrenen models d'IA i vendre-les millor, però les visites que li arriben dels cercadors cauen més d'un milió per setmana."
     },
     {
       "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "El Barcelona Cybersecurity Congress posarà la IA al centre amb els incidents a Catalunya gairebé doblats en un any",
-      "excerpt": "El congrés de Fira de Barcelona i l'Agència de Ciberseguretat de Catalunya es farà del 3 al 5 de novembre amb més de 150 ponents. L'Agència va comptar 6.544 incidents el 2025, davant dels 3.372 de l'any anterior."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Microsoft ingressa 10.000 milions de dòlars d'OpenAI en un trimestre i el seu núvol, Azure, creix un 48%",
-      "excerpt": "És la primera vegada que l'empresa diu quant factura Azure: 33.200 milions. El mateix dia, Alphabet ha presentat un Google Cloud que gairebé dobla les vendes, però ha caigut un 8% a la borsa."
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "title": "Nvidia publica un model obert que transcriu àudio en 40 llengües, però el català no hi és",
-      "excerpt": "Nemotron 3.5 Transcribe té 30.000 milions de paràmetres, distingeix fins a vuit veus en gravacions d'una hora i també tradueix. Es pot baixar gratuïtament de Hugging Face."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Anthropic ofereix a les empreses informes que expliquen què fan els equips amb Claude i quant els costa",
-      "excerpt": "Els «informes intel·ligents» analitzen una mostra de les converses d'un equip, n'agrupen la feina i en calculen la despesa. També hi ha enquestes dins de l'aplicació i pressupostos compartits per grup."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi amb 475.000 decisions d'un fabricant de camions automatitza el 84% i deixa a les persones les que de debò milloren",
-      "excerpt": "Investigadors de tres universitats proposen predir en quins casos la correcció d'un treballador millora la recomanació de l'algorisme i automatitzar només la resta, perquè el sistema continuï aprenent."
-    },
-    {
-      "category": "COMUNITAT VALENCIANA",
       "read": "3 MIN",
-      "title": "L'Acadèmia Valenciana de la Llengua resol com s'apostrofa la sigla IA: «d'IA», però «la IA»",
-      "excerpt": "El ple de l'AVL ha aprovat un dictamen que explica que la sigla es llegeix lletra per lletra i que l'accent recau en la segona, per això l'article femení no s'apostrofa i la preposició sí."
+      "title": "L'Autoritat Catalana de Protecció de Dades presenta un model que reuneix en una sola avaluació els riscos de la IA per a les dades i per als drets fonamentals",
+      "excerpt": "El model DPIA-FRIA, fet amb delegats de protecció de dades i el jurista Alessandro Mantelero, evita que les organitzacions hagin de fer dues anàlisis paral·leles per complir el reglament de dades i el reglament europeu d'IA."
     }
   ]
 }

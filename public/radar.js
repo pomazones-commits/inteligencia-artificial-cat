@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "30.10.2026",
+    "title": "L'Autoritat Catalana de Protecció de Dades presenta un model que reuneix en una sola avaluació els riscos de la IA per a les dades i per als drets fonamentals",
+    "summary": "El model DPIA-FRIA, fet amb delegats de protecció de dades i el jurista Alessandro Mantelero, evita que les organitzacions hagin de fer dues anàlisis paral·leles per complir el reglament de dades i el reglament europeu d'IA.",
+    "detail": "Una organització que vol fer servir un sistema d'intel·ligència artificial amb dades personals pot haver de fer dues avaluacions diferents abans de posar-lo en marxa. El Reglament general de protecció de dades exigeix una avaluació d'impacte en la protecció de dades (DPIA, per les sigles en anglès) quan el tractament comporta un risc alt, i el Reglament europeu d'intel·ligència artificial n'afegeix una altra, l'avaluació d'impacte en els drets fonamentals (FRIA), per a determinats sistemes d'alt risc. Fins ara, cadascuna tenia les seves plantilles.\n\nL'Autoritat Catalana de Protecció de Dades (APDCAT) va presentar dijous el model DPIA-FRIA, que combina totes dues en un sol instrument. S'ha fet dins del grup de treball FRIA-PIA de «DPD en xarxa», el fòrum de delegats de protecció de dades de Catalunya, amb el suport d'Alessandro Mantelero, professor de dret civil del Politècnic de Torí. Es va presentar als delegats en la tercera trobada d'aquest fòrum. A més de la protecció de dades, l'avaluació inclou altres drets fonamentals, com la llibertat d'expressió o el dret a no ser discriminat.\n\nL'APDCAT el defineix com un model pioner a Europa. La utilitat és pràctica: les dues avaluacions se solapen en bona part, i fer-les per separat obliga a repetir anàlisis i a coordinar equips diferents. Integrar-les hauria de facilitar que ajuntaments, hospitals, universitats o empreses que incorporen sistemes d'IA es plantegin com poden afectar els drets de les persones abans de fer-los servir, i no quan ja hi ha un problema. És la continuació del model FRIA català que l'autoritat ja havia publicat amb el mateix grup de treball.\n\nEl model és una eina orientativa: no substitueix les obligacions legals ni garanteix per si sol que una avaluació estigui ben feta. La notícia no dona dades sobre quantes organitzacions el faran servir, i el seu impacte dependrà de l'adopció real, en un moment en què les obligacions del reglament europeu d'IA per als sistemes d'alt risc encara s'estan desplegant.",
+    "source": "APDCAT · El Nacional (ON Economia)",
+    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/impulsen-eina-avaluar-riscos-ia-proteccio-dades_1717660_102.html",
+    "image": "./assets/apdcat-model-dpia-fria-ia-proteccio-dades-20261030.jpg",
+    "slug": "apdcat-model-dpia-fria-ia-proteccio-dades"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "29.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://doi.org/10.1016/j.neuron.2026.07.006",
     "image": "./assets/umh-elx-xarxa-neuronal-protesi-visual-cortex-persona-cega-20261028.jpg",
     "slug": "umh-elx-xarxa-neuronal-protesi-visual-cortex-persona-cega"
-  },
-  {
-    "place": "Girona",
-    "category": "IA I SOCIETAT",
-    "date": "28.10.2026",
-    "title": "El 42% de les grans empreses gironines preveu que la IA li canviarà la plantilla, però només un 19% té una estratègia",
-    "summary": "L'informe Girona 100 de KPMG i la Universitat de Girona pregunta per primera vegada per la intel·ligència artificial: dues de cada tres empreses ja proven eines generatives, sobretot a finances i a vendes.",
-    "detail": "L'informe Girona 100, que elaboren cada any KPMG i la Càtedra Cambra de l'Empresa Familiar de la Universitat de Girona, analitza les cent empreses més grans de la demarcació, 81 de les quals són familiars. Arriba a la setzena edició i, per primera vegada, inclou un apartat sobre com aquestes companyies incorporen la intel·ligència artificial.\n\nSegons les dades difoses dimarts, només el 19% de les grans empreses gironines té una estratègia del tot definida per adoptar la IA; el 47% encara l'estudia i el 33% no en té cap. Tot i això, el 67% ja prova o comença a implantar eines d'IA generativa, per davant d'altres usos com l'anàlisi de dades. Les àrees on més s'utilitza són finances i comptabilitat (79%) i màrqueting, comercial i vendes (71%). Pel que fa als pròxims tres anys, el 58% espera guanyar eficiència i reduir costos, el 42% preveu canvis en l'estructura de la plantilla i el 39% diu que encara és difícil calcular-ne l'impacte. Quan se'ls pregunta què demanen a l'administració, el 40% respon ajudes per a la transformació digital i l'adopció de la IA.\n\nLa fotografia és rellevant perquè aquestes empreses, amb una facturació conjunta de prop de 16.000 milions d'euros el 2024 i més de 47.000 treballadors, són el teixit industrial i agroalimentari de les comarques gironines, molt lluny dels grans grups tecnològics. Mostra una adopció que avança per la base, provant eines, abans de tenir un pla, i una preocupació creixent pel talent: atraure'l i retenir-lo és el primer maldecap per al 47% de les empreses.\n\nCal tenir present que les dades de la IA surten d'una enquesta qualitativa als directius, no d'una mesura de l'ús real, i que el 42% és una previsió, no un canvi que ja s'hagi produït. L'informe no detalla si els canvis de plantilla volen dir menys llocs de feina o tasques diferents: de fet, el mateix estudi diu que només el 3% de les empreses preveu fer acomiadaments aquest any.",
-    "source": "El Gerió · ACN",
-    "url": "https://www.gerio.cat/noticia/1762148/les-grans-empreses-gironines-creixen-en-facturacio-pero-perden-optimisme-economic",
-    "image": "./assets/girona-100-grans-empreses-gironines-ia-plantilla-20261028.jpg",
-    "slug": "girona-100-grans-empreses-gironines-ia-plantilla"
   }
 ];
