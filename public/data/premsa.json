@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-29T23:00:38.496Z",
+ "actualitzat": "2026-10-30T05:16:17.877Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "557488d88193",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Terror, IA y otros mundos en el Festival 42 de Géneros Fantásticos de Barcelona",
+   "url": "https://www.lavanguardia.com/qf/planes/20261030/11671020/terror-ia-otros-mundos-festival-42-generos-fantasticos-barcelona.html",
+   "publicat": "2026-10-30T05:00:00.000Z"
+  },
+  {
+   "id": "f0a69a926ed2",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La amplia brecha entre la IA china y la de EE UU",
+   "url": "https://cincodias.elpais.com/opinion/2026-10-30/la-amplia-brecha-entre-la-ia-china-y-la-de-ee-uu.html",
+   "publicat": "2026-10-30T04:40:00.000Z"
+  },
+  {
+   "id": "ac93a2b10604",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Canal de Navarrés apuesta por la inteligencia artificial para reforzar la implantación de la recogida puerta a puerta",
+   "url": "https://www.levante-emv.com/costera/2026/10/30/canal-navarres-apuesta-inteligencia-artificial-135885417.html",
+   "publicat": "2026-10-30T04:31:03.000Z"
+  },
+  {
+   "id": "b007f8ec7966",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El mundo editorial busca cómo marcar las líneas rojas en el uso de la IA",
+   "url": "https://elpais.com/cultura/2026-10-30/el-mundo-editorial-busca-como-marcar-las-lineas-rojas-en-el-uso-de-la-ia.html",
+   "publicat": "2026-10-30T04:30:01.000Z"
+  },
+  {
+   "id": "e5cd8a15a3d4",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Per què els progressistes odien la IA?",
+   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/progressistes-odien-ia-mookie-tenembaum_1716646_102.html",
+   "publicat": "2026-10-30T04:30:00.000Z"
+  },
   {
    "id": "ba665da60912",
    "mitja": "Valencia Plaza",
@@ -155,7 +210,9 @@
    "ambit": "catala",
    "titol": "Impulsen una eina per avaluar els riscos de la IA i la protecció de dades",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/impulsen-eina-avaluar-riscos-ia-proteccio-dades_1717660_102.html",
-   "publicat": "2026-10-29T13:50:17.000Z"
+   "publicat": "2026-10-29T13:50:17.000Z",
+   "noticia": "apdcat-model-dpia-fria-ia-proteccio-dades",
+   "noticiaTitol": "L'Autoritat Catalana de Protecció de Dades presenta un model que reuneix en una sola avaluació els riscos de la IA per a les dades i per als drets fonamentals"
   },
   {
    "id": "3e2fbc2fc212",
@@ -2723,61 +2780,6 @@
    "titol": "La inteligencia artificial se desploma en bolsa",
    "url": "https://www.ultimahora.es/noticias/economico/2026/10/23/2734033/inteligencia-artificial-desploma-bolsa.html",
    "publicat": "2026-10-23T05:20:34.000Z"
-  },
-  {
-   "id": "4a8cdded19ac",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA también elige al influencer",
-   "url": "https://www.ultimahora.es/noticias/economico/2026/10/23/2734035/tambien-elige-influencer.html",
-   "publicat": "2026-10-23T05:20:22.000Z"
-  },
-  {
-   "id": "41aface2c67f",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial se hace pasar por víctimas para engañar a estafadores: 350.000 bots programados para marear a ciberdelincuentes",
-   "url": "https://www.lavanguardia.com/neo/ia/20261023/11662612/inteligencia-artificial-pasar-victimas-enganar-estafadores-350-000-bots-programados-marear-ciberdelincuentes.html",
-   "publicat": "2026-10-23T05:15:00.000Z"
-  },
-  {
-   "id": "6f7fdb78da53",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un hacker vulneró más de 100 empresas internacionales delegando el trabajo en agentes de IA: “Si se utiliza para realizar ataques dañinos, no es mi intención”",
-   "url": "https://www.lavanguardia.com/neo/seguridad/20261023/11662662/hacker-vulnero-mas-100-empresas-internacionales-delegando-trabajo-agentes-ia-utiliza-realizar-ataques-daninos-mi-intencion.html",
-   "publicat": "2026-10-23T05:05:00.000Z"
-  },
-  {
-   "id": "5da9a97327d9",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Francesc Torralba, filósofo: «La diferencia entre tú y una IA es que tú sabes que vas a morir»",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261023/francesc-torralba-filosofo-diferencia-ia-tu-sabes-que-vas-a-morir-135546394",
-   "publicat": "2026-10-23T05:00:56.000Z"
-  },
-  {
-   "id": "f1ceb521818a",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA descubre casi 40.000 icebergs encallados en la Antártida",
-   "url": "https://www.lavanguardia.com/lugaresdeaventura/20261023/11665381/ia-descubre-40-000-icebergs-encallados-antartida.html",
-   "publicat": "2026-10-23T04:30:00.000Z"
   }
  ]
 }
