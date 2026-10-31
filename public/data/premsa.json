@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-31T13:13:52.445Z",
+ "actualitzat": "2026-10-31T17:16:48.236Z",
  "fonts": 44,
  "articles": [
   {
@@ -2686,19 +2686,6 @@
    "titol": "Cuando la IA se pone de pie",
    "url": "https://www.lavanguardia.com/economia/20261024/11667335/ia-pone-pie.html",
    "publicat": "2026-10-24T19:09:27.000Z"
-  },
-  {
-   "id": "12aabe2b0763",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Els inversors es llancen a protegir-se per si esclata la bombolla de la IA",
-   "url": "https://www.ara.cat/economia/tecnologia/inversors-llancen-protegir-esclata-bombolla-ia_1_5886043.html",
-   "publicat": "2026-10-24T17:00:05.000Z",
-   "noticia": "cds-deute-ia-inversors-asseguren-impagament",
-   "noticiaTitol": "Els inversors s'asseguren contra l'impagament de les empreses d'IA: el mercat d'aquestes assegurances passa de 2.000 a més de 9.000 milions de dòlars des del juliol"
   }
  ]
 }
