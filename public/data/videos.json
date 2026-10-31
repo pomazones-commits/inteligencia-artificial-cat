@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-30T17:12:50.141Z",
+ "actualitzat": "2026-10-31T05:17:10.738Z",
  "canals": 19,
  "videos": [
   {
@@ -1097,18 +1097,6 @@
    "publicat": "2026-10-10T21:40:25.000Z",
    "descripcio": "Richard Lam, Group Vice President at Oracle Applications Lab, shares how his team uses Codex to help business users get answers from company data. By describing the outcome they want, users can get an analysis, a report, or an application, with Codex gathering the information from internal systems. ",
    "miniatura": "/assets/videos/Ju-JyxDgV7g.jpg"
-  },
-  {
-   "id": "p5KxBTUncoE",
-   "titol": "Set up your dot in the ChatGPT mobile app",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-10-09T19:13:03.000Z",
-   "descripcio": "You can now create a dot from the ChatGPT mobile app. Set up your dot, edit the name, customize the avatar, and set your dot to be the first conversation you see when you open the ChatGPT app. Learn more about dots here: https://learn.chatgpt.com/docs/dots",
-   "miniatura": "/assets/videos/p5KxBTUncoE.jpg"
   },
   {
    "id": "IsL4dVezs18",
