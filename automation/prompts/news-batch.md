@@ -108,20 +108,24 @@ node automation/scripts/content-hub.mjs enquadraments --input incoming/news-batc
 
 Per a cada notícia et dirà una de tres coses, i el prompt de la il·lustració l'ha de seguir:
 
-- **DE CARA** → si hi surten persones, la principal **mira a càmera o de tres quarts, amb la cara ben visible i nítida**, en una escena que expliqui la notícia (una metgessa que revisa una imatge mèdica, un operari al costat d'un braç robòtic, una mestra amb els alumnes). Gent **corrent i inventada**, de totes les edats i orígens, mai amb l'aspecte d'algú conegut. Escriu-ho explícitament al prompt («facing the camera», «three-quarter view, face clearly visible»): si no, el model tendeix a girar-les. Si el subjecte de la notícia no té persones (un satèl·lit, un xip, un centre de dades buit), no les forcis: compta igualment com a feta.
+- **DE CARA** → si hi surten persones, la principal **mira a càmera o de tres quarts, amb la cara ben visible i nítida**, en una escena que expliqui la notícia (una metgessa que revisa una imatge mèdica, un operari al costat d'un braç robòtic, una mestra amb els alumnes). Gent **corrent i inventada**, de totes les edats i orígens, mai amb l'aspecte d'algú conegut. Com que **no es reintenta** si surt d'esquena (vegeu més avall), el prompt ho ha d'aconseguir a la primera. El model gira la gent sola, per això cal ser molt explícit:
+  - **Comença el prompt per la persona**, no per l'escenari: «A portrait-style photo of a nurse facing the camera, three-quarter view, face clearly visible and in focus, looking toward the viewer…», i després el context.
+  - Posa-hi sempre **«facing the camera»** i **«face clearly visible»**, i afegeix al final **«not seen from behind, no back view, no silhouette»**.
+  - Fes que la persona **faci alguna cosa de cara a nosaltres** (parla, explica, ensenya un objecte, mira la pantalla que té al costat), no que miri cap a una pantalla o un escenari del fons: és el que la fa girar.
+  - Pla **mitjà o curt** (de cintura en amunt), no pla general: en un pla general les persones surten petites i d'esquena. Si el subjecte de la notícia no té persones (un satèl·lit, un xip, un centre de dades buit), no les forcis: compta igualment com a feta.
 - **LLIURE** → l'enquadrament que millor expliqui la notícia: perfil, esquena, mans, grup, o sense persones.
 - **RETRAT** → el títol esmenta una persona del banc de retrats: l'script hi posarà sol la seva **foto real amb llicència lliure**. La il·lustració de recanvi, **sense cap cara**.
 
 ⚠️ **La comanda no detecta totes les persones famoses**: només les del banc. Si la notícia tracta d'una persona real amb nom que no hi és (un investigador, una consellera), el resultat DE CARA **no s'aplica**: busca-li una foto amb llicència (`imageFetch`, apartat anterior) i, si no n'hi ha, il·lustració de context sense cap cara.
 
-Una il·lustració amb la persona d'esquena quan la comanda deia DE CARA **compta com a error** i justifica el reintent de l'apartat següent.
+Si, tot i així, la persona surt d'esquena, la imatge **es publica tal com és** (decisió d'en Rafael del 31.10.2026: no es paga cap generació de més per l'enquadrament). Millora el prompt a la notícia següent, no a la mateixa.
 
 ### Quantes vegades es genera una il·lustració (des del 23.10.2026)
 
 Cada imatge que es genera i es llença es paga igual que la que es publica. A l'octubre del 2026 se'n generaven unes 37 al dia per publicar-ne 21. Per això:
 
 1. **Primer intent** amb el prompt normal. Revisa la imatge **una vegada**.
-2. **Un sol reintent** NOMÉS si incompleix una regla 🛑 d'aquest apartat (persona real reconeixible, producte concret inventat, logotip, marca o text llegible), si no mostra el subjecte de la notícia, o si la comanda `enquadraments` deia DE CARA i la persona principal surt d'esquena. Corregeix el prompt allà on ha fallat.
+2. **Un sol reintent** NOMÉS si incompleix una regla 🛑 d'aquest apartat (persona real reconeixible, producte concret inventat, logotip, marca o text llegible), si no mostra el subjecte de la notícia. L'enquadrament (persona d'esquena quan tocava DE CARA) **no** és motiu de reintent. Corregeix el prompt allà on ha fallat.
 3. **Tercer i últim intent**, només si el segon també incompleix una regla 🛑: un prompt de **context mínim i segur**, sense cap persona de cara, cap pantalla, cap rètol i cap aparell concret (per exemple: un auditori buit amb un faristol, unes mans sobre un teclat desenfocat, un passadís de centre de dades, un laboratori desenfocat, una sala de reunions amb finestrals), triat segons el tema de la notícia.
 4. **No es reintenta per qüestions de gust**: una composició millorable o una imatge poc espectacular es publiquen. Màxim **tres generacions per notícia**.
 5. **Errors tècnics de l'API** (temps d'espera, error 5xx, quota momentània) no compten com a intents: torna-ho a provar després de 10, 30 i 60 segons.
