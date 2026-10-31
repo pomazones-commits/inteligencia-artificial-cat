@@ -80,7 +80,8 @@ body.editorial-body{margin:0;background:var(--ed-bg);color:var(--ed-ink);font-fa
 .article-header .editorial-lede{max-width:780px;margin:0}
 .article-byline-clean{padding-left:22px;border-left:3px solid var(--ed-accent)}
 .article-byline-clean p{margin:0 0 5px;font-size:14px}.article-byline-clean strong{font-weight:800}
-.article-byline-clean img{display:block;width:54px;height:54px;margin-bottom:12px;border-radius:50%;object-fit:cover}
+/* 31.10.2026: retrat de l'autor més gran (abans 54 px). */
+.article-byline-clean img{display:block;width:128px;height:128px;margin-bottom:16px;border-radius:50%;object-fit:cover;object-position:center 20%}
 .article-byline-clean span,.article-byline-clean time,.article-byline-clean a{display:block;color:var(--ed-muted);font-size:11px;line-height:1.55}
 .article-byline-clean a{margin-top:7px;color:var(--ed-blue);text-decoration:none}
 .article-byline-clean span a.rol-org{display:inline;margin:0;color:inherit;font-size:inherit;text-decoration:underline;text-underline-offset:2px}.article-byline-clean span a.rol-org:hover{color:var(--ed-blue)}
@@ -166,6 +167,7 @@ body.editorial-body{margin:0;background:var(--ed-bg);color:var(--ed-ink);font-fa
   .editorial-nav{display:none}
   .topic-intro,.article-header,.guides-hero,.about-hero,.topic-resources,.about-disclosure{grid-template-columns:1fr;gap:30px}
   .topic-intro__aside,.article-byline-clean{padding:20px 0 0;border-left:0;border-top:3px solid var(--ed-accent)}
+  .article-byline-clean img{width:112px;height:112px}
   .topic-feature{grid-template-columns:1fr}.topic-feature__image{min-height:300px}.topic-feature__copy{padding:30px}
   .topic-grid,.article-related__grid{grid-template-columns:repeat(2,1fr)}
   .article-layout{grid-template-columns:1fr;gap:42px}.article-sidebar{position:static;grid-template-columns:repeat(2,1fr)}

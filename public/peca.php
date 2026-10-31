@@ -34,7 +34,7 @@ if (!$seccio || !$peca) {
     $desti = $seccio ? '/' . $seccio['arxiuHtml'] : '/';
     echo '<!doctype html><html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
         . '<meta name="robots" content="noindex"><title>Peça no trobada · intel·ligència artificial.cat</title>'
-        . '<link rel="stylesheet" href="/fonts.css?v=2026080701"><link rel="stylesheet" href="/editorial.css?v=2026072401"></head>'
+        . '<link rel="stylesheet" href="/fonts.css?v=2026080701"><link rel="stylesheet" href="/editorial.css?v=2026103101"></head>'
         . '<body class="editorial-body"><main class="editorial-shell editorial-main"><p class="editorial-kicker">ERROR 404</p>'
         . '<h1>Aquesta peça no hi és.</h1><p class="editorial-lede">Potser s’ha retirat o l’adreça no és correcta. '
         . 'Pots buscar-la a <a href="' . iacat_e($desti) . '">' . iacat_e($destiNom) . '</a>.</p></main></body></html>';

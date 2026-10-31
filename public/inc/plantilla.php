@@ -40,7 +40,7 @@ function iacat_capcalera(array $meta): void
   <meta name="twitter:card" content="summary_large_image">
   <link rel="alternate" type="application/rss+xml" title="intel·ligènciaartificial.cat — notícies" href="/feed.xml">
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
-  <link rel="stylesheet" href="/editorial.css?v=2026072401">
+  <link rel="stylesheet" href="/editorial.css?v=2026103101">
   <link rel="stylesheet" href="/seccions.css?v=2026100301">
   <script defer src="/shared.js?v=2026101701"></script>
   <?php foreach ((array) ($meta['css'] ?? []) as $full): ?><link rel="stylesheet" href="<?= iacat_e((string) $full) ?>">

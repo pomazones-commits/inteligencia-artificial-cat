@@ -248,7 +248,7 @@ $shareText = rawurlencode((string) $article['title']);
   <script type="application/ld+json"><?= json_encode($jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
-  <link rel="stylesheet" href="./editorial.css?v=2026072301"><link rel="stylesheet" href="./eixos.css?v=2026102001"><script defer src="./shared.js?v=2026101701"></script>
+  <link rel="stylesheet" href="./editorial.css?v=2026103101"><link rel="stylesheet" href="./eixos.css?v=2026102001"><script defer src="./shared.js?v=2026101701"></script>
   <?php if ($videoId !== ''): ?><link rel="stylesheet" href="./video.css?v=2026100601a"><script defer src="./video.js?v=2026100601a"></script><?php endif; ?>
   <style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.tts-player button,.tts-speed select{font-family:inherit}.tts-player button{padding:9px 13px;border:1px solid #dfe3eb;background:#fff;color:#233a82;cursor:pointer}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:430px}.tts-note,.tts-speed{font-size:11px;color:#5d6472}.article-hero-figure{margin:0}.article-hero-caption{margin:8px 0 0;font-size:12px;line-height:1.4;color:#5d6472;text-align:right}.article-hero-caption a{color:inherit;text-decoration:underline;text-underline-offset:2px}</style>
 </head>
@@ -260,7 +260,7 @@ $shareText = rawurlencode((string) $article['title']);
     <header class="article-header">
       <div><?php if ($eixEtiqueta['url'] !== ''): ?><a class="eix-etiqueta" href=".<?= e($eixEtiqueta['url']) ?>">Secció · <?= e($eixEtiqueta['nom']) ?></a><?php endif; ?><p class="editorial-kicker"><?= e($category) ?> · <?= e((string) ($article['read'] ?? '5 MIN')) ?></p><h1><?= e((string) $article['title']) ?></h1><p class="editorial-lede"><?= e((string) $article['excerpt']) ?></p></div>
       <div class="article-byline-clean">
-        <?php if ($authorImage !== ''): ?><img src="<?= e($authorImage) ?>" width="54" height="54" alt="Fotografia de <?= e($authorName) ?>"><?php endif; ?>
+        <?php if ($authorImage !== ''): ?><img src="<?= e($authorImage) ?>" width="128" height="128" alt="Fotografia de <?= e($authorName) ?>"><?php endif; ?>
         <p>Per <strong><?= e($authorName) ?></strong></p><span><?= e($authorRole) ?></span>
         <?php if ($publishedLabel !== ''): ?><time datetime="<?= e($publishedIso) ?>"><?= e($publishedLabel) ?></time><?php endif; ?>
         <?php if ($authorUrl !== ''): ?><a rel="author" href="<?= e($authorUrl) ?>"><?= $isHumanAuthor ? 'Perfil de l’autoria' : 'Com treballem' ?> →</a><?php endif; ?>

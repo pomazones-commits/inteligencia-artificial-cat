@@ -41,7 +41,7 @@ $descripcio = 'Les seccions temàtiques d’inteligencia-artificial.cat: poder i
   <meta property="og:url" content="<?= $base ?>/seccions">
   <meta property="og:image" content="https://inteligencia-artificial.cat/assets/og-portada.jpg">
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
-  <link rel="stylesheet" href="/editorial.css?v=2026072301">
+  <link rel="stylesheet" href="/editorial.css?v=2026103101">
   <link rel="stylesheet" href="/eixos.css?v=2026102001">
   <style>
     .eixos-llista{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;margin:46px 0 60px}

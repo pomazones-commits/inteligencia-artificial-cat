@@ -67,7 +67,7 @@ $paragraphs = array_values(array_filter(array_map('trim', preg_split('/\n\n+/', 
 <meta name="twitter:card" content="summary">
 <?php endif; ?>
 <link rel="stylesheet" href="/fonts.css?v=2026080701">
-<link rel="stylesheet" href="./editorial.css?v=2026072401">
+<link rel="stylesheet" href="./editorial.css?v=2026103101">
 <script defer src="./shared.js?v=2026101701"></script>
 </head>
 <body class="editorial-body">
