@@ -1,37 +1,40 @@
 {
   "fitxes": [
     {
-      "id": "3cat-1296014",
+      "id": "3cat-1295825",
       "emissora": "Catalunya Ràdio",
-      "programa": "Catalunya nit",
-      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
-      "data": "2026-10-30",
-      "durada": "17 min",
-      "titol": "Xavier Nueno: de qui és el coneixement amb què s'ha entrenat la IA",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-31",
+      "durada": "15 min",
+      "titol": "Pekata: una cinquantena d'agents d'IA per reinventar els lots de Nadal",
       "convidats": [
-        { "nom": "Xavier Nueno", "rol": "guanyador del Premi Anagrama d'Assaig 2026 amb «La revuelta de los copistas»" }
+        { "nom": "Roger Rafel", "rol": "cofundador de Pekata" },
+        { "nom": "Esteban Humet", "rol": "cofundador de Pekata" }
       ],
-      "resum": "A «Catalunya nit», l'assagista Xavier Nueno parla de la propietat del saber amb què s'han construït els sistemes d'intel·ligència artificial: milions de llibres, articles i documents que formen part del coneixement col·lectiu. A partir del seu llibre, premiat amb l'Anagrama d'Assaig, l'entrevista planteja què passa quan aquest coneixement es converteix en un negoci privat i quin paper hi tenen les biblioteques i la nostra capacitat de pensar.",
-      "tema": "cultura",
-      "url": "https://www.3cat.cat/3cat/xavier-nueno-han-privatitzat-el-coneixement-i-ara-ens-el-volen-llogar-a-traves-d/audio/1296014/",
-      "reproductor": { "tipus": "3cat", "id": "1296014" }
+      "resum": "Els cofundadors de Pekata, una empresa emergent de Barcelona, expliquen a «Revolució 4.0» la seva plataforma digital perquè els treballadors triïn ells mateixos els regals d'empresa en lloc del lot de Nadal de sempre. La conversa també tracta de com fan servir agents d'intel·ligència artificial per automatitzar processos i fer créixer el negoci.",
+      "tema": "feina",
+      "url": "https://www.3cat.cat/3cat/lempresa-que-revoluciona-els-lots-de-nadal-amb-50-agents-dintelligencia-artifici/audio/1295825/",
+      "reproductor": { "tipus": "3cat", "id": "1295825" }
     },
     {
-      "id": "apunt-1905583",
-      "emissora": "À Punt Ràdio",
-      "programa": "Cadena de valor",
-      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
+      "id": "rtve-17294363",
+      "emissora": "Ràdio 4",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
       "data": "2026-10-30",
-      "durada": "",
-      "titol": "Satèl·lits, drons i IA per preveure inundacions i incendis forestals",
+      "durada": "27 min",
+      "titol": "Arnau Font repassa la setmana: menjar generat amb IA, cotxes autònoms i veus clonades",
       "convidats": [
-        { "nom": "Tobías Romero", "rol": "enginyer de Vielca Medi Ambient" }
+        { "nom": "Arnau Font", "rol": "expert en intel·ligència artificial" }
       ],
-      "resum": "L'enginyer Tobías Romero explica a «Cadena de valor» el projecte de teledetecció de l'empresa Vielca Medi Ambient, que combina imatges de satèl·lit, drons i intel·ligència artificial. L'objectiu és anticipar-se als desastres naturals i millorar tant la prevenció com la gestió dels riscos d'inundació i dels incendis forestals.",
-      "tema": "ciencia",
-      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/30-10-2026-satel-lits-drons-intel-ligencia-artificial-anticipar-als-desastres-naturals_135_1905583.html",
-      "reproductor": { "tipus": "enllac" }
+      "resum": "A «La tarda de Ràdio 4», Arnau Font comenta novetats tecnològiques de la setmana: plats de menjar creats amb IA, l'arribada prevista dels cotxes autònoms de Waymo a Madrid el 2027 i la conducció assistida de Tesla. L'espai acaba amb els vídeos fets amb IA de les xarxes i una demostració de com la tecnologia pot imitar la veu del mateix convidat.",
+      "tema": "eines",
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-plats-menjar-generats-amb-ia-cotxes-autonoms-veus-clonades-amb-arnau-font/17294363/",
+      "reproductor": { "tipus": "rtve", "id": "17294363" }
     }
   ],
-  "descartats": []
+  "descartats": [
+    { "id": "3cat-1295821", "motiu": "Entrevista sobre el lideratge femení al sector tecnològic: la intel·ligència artificial només hi surt de passada." }
+  ]
 }
