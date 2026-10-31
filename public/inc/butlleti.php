@@ -49,6 +49,115 @@ const BUTLLETI_DESA_CADA = 10;
 // subscriptors, passar a SMTP autenticat o a un servei de butlletins.
 const BUTLLETI_AVIS_SUBSCRIPTORS = 90;
 
+// ---------------------------------------------------------------------------
+// SMTP autenticat (31.10.2026, ordre d'en Rafael: «mira a Hostinger per què no
+// surten els correus del butlletí»). Des del 29.10.2026, els correus que mail()
+// d'Hostinger acceptava («mail()=OK», «fets 11» al núm. 14) no arribaven a Gmail
+// ni a la carpeta de correu brossa, i no en queda rastre a hPanel. Els de l'Àgora,
+// que surten per SMTP autenticat (smtp.hostinger.com:465, bústia agora@), consten
+// com a «Entregado» als registres d'entrega d'hPanel. El domini té el pla de
+// correu d'Hostinger amb SPF, DKIM i DMARC; no-reply@ no és cap bústia.
+// Per això el butlletí (i els avisos d'alta) surten ara per la mateixa bústia
+// que l'Àgora. Les dades d'accés són a public_html/agora/config.php, NOMÉS al
+// servidor: 🛑 mai al repositori (és públic). Si no hi són, es torna a mail().
+// Límit del pla: 100 correus cada 24 h per bústia, compartits amb l'Àgora.
+// ---------------------------------------------------------------------------
+
+/** Dades SMTP de l'Àgora (o null si no n'hi ha). */
+function butlleti_smtp_cfg(): ?array
+{
+    static $cfg = false;
+    if ($cfg !== false) { return $cfg; }
+    $cfg = null;
+    if (getenv('BUTLLETI_SENSE_SMTP') === '1' || butlleti_simula()) { return null; }
+    $ruta = dirname(__DIR__) . '/agora/config.php';
+    if (!is_file($ruta)) { return null; }
+    if (!defined('AGORA')) { define('AGORA', true); } // el config de l'Àgora s'atura sense aquesta constant
+    $c = @include $ruta;
+    if (is_array($c) && !empty($c['smtp_host']) && !empty($c['smtp_user']) && !empty($c['smtp_pass'])) {
+        $cfg = [
+            'host' => (string) $c['smtp_host'],
+            'port' => (int) ($c['smtp_port'] ?? 465),
+            'secure' => strtolower((string) ($c['smtp_secure'] ?? 'ssl')),
+            'user' => (string) $c['smtp_user'],
+            'pass' => (string) $c['smtp_pass'],
+            'from' => (string) (($c['smtp_from'] ?? '') ?: $c['smtp_user']),
+        ];
+    }
+    return $cfg;
+}
+
+/** Envia una ordre SMTP (o només llegeix, si $ordre és null) i comprova el codi de resposta. */
+function butlleti_smtp_ordre($s, ?string $ordre, array $codis): bool
+{
+    if ($ordre !== null && @fwrite($s, $ordre . "\r\n") === false) {
+        $GLOBALS['butlleti_smtp_error'] = 'sense resposta';
+        return false;
+    }
+    $resp = '';
+    while (($l = fgets($s, 1024)) !== false) {
+        $resp .= $l;
+        if (strlen($l) < 4 || $l[3] !== '-') { break; }
+    }
+    if (!in_array((int) substr($resp, 0, 3), $codis, true)) {
+        $GLOBALS['butlleti_smtp_error'] = trim((string) preg_replace('/\s+/', ' ', $resp)) ?: 'sense resposta';
+        return false;
+    }
+    return true;
+}
+
+/** Connexió SMTP oberta i autenticada (es reaprofita dins del mateix procés). $tanca la tanca. */
+function butlleti_smtp_connexio(?array $cfg, bool $tanca = false)
+{
+    static $s = null;
+    if ($tanca || !$cfg) {
+        if ($s) { @fwrite($s, "QUIT\r\n"); @fclose($s); }
+        $s = null;
+        return null;
+    }
+    if ($s && !feof($s)) { return $s; }
+    $s = null;
+    $ctx = stream_context_create(['ssl' => ['verify_peer' => true, 'verify_peer_name' => true, 'SNI_enabled' => true]]);
+    $c = @stream_socket_client(($cfg['secure'] === 'ssl' ? 'ssl://' : 'tcp://') . $cfg['host'] . ':' . $cfg['port'],
+        $errno, $errstr, 20, STREAM_CLIENT_CONNECT, $ctx);
+    if (!$c) { $GLOBALS['butlleti_smtp_error'] = 'connexió: ' . $errstr; return null; }
+    stream_set_timeout($c, 30);
+    $ok = butlleti_smtp_ordre($c, null, [220]) && butlleti_smtp_ordre($c, 'EHLO inteligencia-artificial.cat', [250]);
+    if ($ok && $cfg['secure'] === 'tls') {
+        $ok = butlleti_smtp_ordre($c, 'STARTTLS', [220])
+            && @stream_socket_enable_crypto($c, true, STREAM_CRYPTO_METHOD_TLS_CLIENT)
+            && butlleti_smtp_ordre($c, 'EHLO inteligencia-artificial.cat', [250]);
+    }
+    $ok = $ok && butlleti_smtp_ordre($c, 'AUTH LOGIN', [334])
+        && butlleti_smtp_ordre($c, base64_encode($cfg['user']), [334])
+        && butlleti_smtp_ordre($c, base64_encode($cfg['pass']), [235]);
+    if (!$ok) { @fclose($c); return null; }
+    return $s = $c;
+}
+
+/** Envia un missatge ja muntat (capçaleres + cos, amb \r\n). */
+function butlleti_smtp_envia(array $cfg, string $a, string $missatge): bool
+{
+    $dades = (string) preg_replace('/^\./m', '..', $missatge); // «dot-stuffing»
+    for ($intent = 0; $intent < 2; $intent++) {
+        $s = butlleti_smtp_connexio($cfg);
+        if (!$s) { return false; }
+        $ok = butlleti_smtp_ordre($s, 'MAIL FROM:<' . $cfg['from'] . '>', [250])
+            && butlleti_smtp_ordre($s, 'RCPT TO:<' . $a . '>', [250, 251])
+            && butlleti_smtp_ordre($s, 'DATA', [354])
+            && butlleti_smtp_ordre($s, rtrim($dades, "\r\n") . "\r\n.", [250]);
+        if ($ok) { return true; }
+        // Connexió caiguda (el servidor tanca les sessions llargues): es torna a obrir un cop.
+        if (($GLOBALS['butlleti_smtp_error'] ?? '') === 'sense resposta' && $intent === 0) {
+            butlleti_smtp_connexio($cfg, true);
+            continue;
+        }
+        if (!butlleti_smtp_ordre($s, 'RSET', [250])) { butlleti_smtp_connexio($cfg, true); }
+        return false;
+    }
+    return false;
+}
+
 function butlleti_dir(): string
 {
     return dirname(__DIR__) . '/data';
@@ -230,8 +339,11 @@ function butlleti_capcalera_utf8(string $text): string
 function butlleti_envia_correu(string $a, string $assumpte, string $html, string $text, array $extra = []): bool
 {
     $limit = 'b' . bin2hex(random_bytes(12));
+    $smtp = butlleti_smtp_cfg();
+    // Amb SMTP, el remitent ha de ser la bústia autenticada (Hostinger no deixa signar amb una altra).
+    $remitent = $smtp ? $smtp['from'] : BUTLLETI_REMITENT;
     $capceleres = array_merge([
-        'From: ' . butlleti_capcalera_utf8(BUTLLETI_NOM_REMITENT) . ' <' . BUTLLETI_REMITENT . '>',
+        'From: ' . butlleti_capcalera_utf8(BUTLLETI_NOM_REMITENT) . ' <' . $remitent . '>',
         'Reply-To: ' . BUTLLETI_REDACCIO,
         'MIME-Version: 1.0',
         'Content-Type: multipart/alternative; boundary="' . $limit . '"',
@@ -255,6 +367,19 @@ function butlleti_envia_correu(string $a, string $assumpte, string $html, string
         file_put_contents($dir . '/' . date('YmdHis') . '-' . bin2hex(random_bytes(3)) . '.eml',
             'To: ' . $a . "\r\nSubject: " . butlleti_capcalera_utf8($assumpte) . "\r\n" . implode("\r\n", $capceleres) . "\r\n\r\n" . $cos);
         return true;
+    }
+    if ($smtp) {
+        $missatge = implode("\r\n", array_merge([
+            'Date: ' . date('r'),
+            'Message-ID: <' . bin2hex(random_bytes(10)) . '.' . time() . '@inteligencia-artificial.cat>',
+            'To: <' . $a . '>',
+            'Subject: ' . butlleti_capcalera_utf8($assumpte),
+        ], $capceleres)) . "\r\n\r\n" . $cos;
+        $ok = butlleti_smtp_envia($smtp, $a, $missatge);
+        if (!$ok) {
+            butlleti_log('smtp error ' . substr(sha1($a), 0, 10) . ': ' . mb_substr((string) ($GLOBALS['butlleti_smtp_error'] ?? '?'), 0, 200));
+        }
+        return $ok;
     }
     return @mail($a, butlleti_capcalera_utf8($assumpte), $cos, implode("\r\n", $capceleres), '-f ' . BUTLLETI_REMITENT);
 }
@@ -342,6 +467,12 @@ function butlleti_edicions(): array
         if (!is_array($e) || !isset($e['num'], $e['assumpte'], $e['html'], $e['text'])) { continue; }
         // Una edició real s'envia un sol cop per número; una prova, un cop per cada versió de l'HTML.
         $e['clau'] = empty($e['prova']) ? 'num-' . (int) $e['num'] : 'prova-' . (int) $e['num'] . '-' . substr(sha1((string) $e['html']), 0, 8);
+        // Reenviament sencer d'una edició (31.10.2026): amb "reenviament": "<etiqueta>" l'edició
+        // té una clau nova i s'envia de zero a tothom, també a qui ja constava com a enviat
+        // (núm. 14: 11 correus «acceptats» per mail() que no van arribar mai).
+        if (!empty($e['reenviament'])) {
+            $e['clau'] .= '-' . preg_replace('/[^a-z0-9-]/', '', strtolower((string) $e['reenviament']));
+        }
         $sortida[] = $e;
     }
     usort($sortida, static fn($a, $b) => (int) $a['num'] <=> (int) $b['num']);
@@ -474,12 +605,13 @@ function butlleti_processa(): array
                     $paragrafs[] = 'El servidor va frenar els enviaments, i el butlletí ha sortit en diverses passades (aproximadament cada 30 minuts).';
                 }
                 if ($actius >= BUTLLETI_AVIS_SUBSCRIPTORS) {
-                    $paragrafs[] = '⚠️ Recordatori: ja sou ' . $actius . ' subscriptors i us acosteu als 100. És el moment de passar l\'enviament a l\'SMTP autenticat d\'Hostinger o a un servei de butlletins (Brevo, MailerLite), com es va acordar el 24.10.2026.';
+                    $paragrafs[] = '⚠️ Recordatori: ja sou ' . $actius . ' subscriptors i us acosteu als 100. La bústia que l\'envia (SMTP d\'Hostinger) només admet 100 correus cada 24 hores, compartits amb l\'Àgora: és el moment de passar a un servei de butlletins (Brevo, MailerLite) o d\'ampliar el pla de correu, com es va acordar el 24.10.2026.';
                 }
                 butlleti_correu_simple(BUTLLETI_REDACCIO, 'IA.cat: butlletí núm. ' . (int) $ed['num'] . ' enviat', $paragrafs);
             }
         }
     } finally {
+        butlleti_smtp_connexio(null, true);
         flock($pany, LOCK_UN);
         fclose($pany);
     }
