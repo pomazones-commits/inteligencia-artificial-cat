@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-31T17:16:48.236Z",
+ "actualitzat": "2026-10-31T20:19:52.523Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "5e9ac98a1617",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cómo adoptar la IA con éxito",
+   "url": "https://www.lavanguardia.com/economia/20261031/11672996/como-adoptar-ia-exito.html",
+   "publicat": "2026-10-31T20:11:29.000Z"
+  },
+  {
+   "id": "51559b691ea7",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Les tecnològiques s'estimben a la borsa pels dubtes sobre la rendibilitat de la IA",
+   "url": "https://www.3cat.cat/3catinfo/les-tecnologiques-sestimben-a-la-borsa-pels-dubtes-sobre-la-rendibilitat-de-la-ia/noticia/3437156",
+   "publicat": "2026-10-31T19:12:35.000Z"
+  },
   {
    "id": "199a2cf3fe59",
    "mitja": "La Vanguardia",
@@ -2653,39 +2675,6 @@
    "titol": "«La IA acelera la búsqueda de soluciones, pero los humanos guían y dirigen el proceso»",
    "url": "https://www.informacion.es/economia/2026/10/24/ia-acelera-busqueda-soluciones-humanos-135678525.html",
    "publicat": "2026-10-24T20:30:32.000Z"
-  },
-  {
-   "id": "1951f15500ee",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La possible fusió de Tesla i SpaceX, fàbriques xineses de cotxes elèctrics a Europa i els advertiments de Microsoft sobre la IA",
-   "url": "https://www.vilaweb.cat/noticies/possible-fusio-tesla-spacex-fabriques-xineses-cotxes-electrics-europa-advertiments-microsoft-ia",
-   "publicat": "2026-10-24T19:40:48.000Z"
-  },
-  {
-   "id": "19b60a285377",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "IA: del algoritmo al hormigón",
-   "url": "https://www.lavanguardia.com/economia/20261024/11667345/ia-algoritmo-hormigon.html",
-   "publicat": "2026-10-24T19:09:57.000Z"
-  },
-  {
-   "id": "76ec58fbcca7",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cuando la IA se pone de pie",
-   "url": "https://www.lavanguardia.com/economia/20261024/11667335/ia-pone-pie.html",
-   "publicat": "2026-10-24T19:09:27.000Z"
   }
  ]
 }
