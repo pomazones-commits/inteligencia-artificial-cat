@@ -2,6 +2,18 @@ window.IA_RADAR = [
   {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
+    "date": "31.10.2026",
+    "title": "Les Borges Blanques rellança la IAIA, un assistent d'IA per WhatsApp, i Junts en qüestiona el contracte",
+    "summary": "L'ajuntament reactiva dilluns l'eina que va estrenar a la Fira de l'Oli del 2025, ara per informar de tràmits i horaris i recollir avisos d'incidències. Es va adjudicar per 11.253 euros a empreses d'un alcalde del mateix partit que governa el municipi.",
+    "detail": "Cada vegada més ajuntaments petits proven assistents d'intel·ligència artificial per respondre les preguntes dels veïns fora de l'horari d'oficina. Les Borges Blanques, capital de les Garrigues, va estrenar el seu, la IAIA, el gener del 2025 amb motiu de la Fira de l'Oli. L'equip de govern de Borges per la República-Per Tu i ERC el va presentar com una eina d'atenció als visitants de la fira que després quedaria «com a suport per a la ciutadania».\n\nUn any i deu mesos després, segons explica el diari Segre, l'ajuntament el rellançarà aquest dilluns. L'assistent respondrà en català les 24 hores del dia a través de WhatsApp i, segons el consistori, «ajudarà a consultar activitats del municipi, horaris d'equipaments, tràmits municipals o telèfons d'interès». També servirà per «comunicar incidències, com fanals que no funcionen». Els últims dies ja funcionava, tot i que el web municipal avisava que era «en fase de proves».\n\nLa contractació és el que ha portat polèmica. La IAIA es va adjudicar per 11.253 euros amb un contracte menor, i segons el consistori la van desenvolupar les empreses Audivio Labs i Eternik, totes dues de Víctor Masip, alcalde de l'Albagés per la formació Per Tu, de la qual també forma part Borges per la República. El grup municipal de Junts, a l'oposició, fa més d'un any que qüestiona el contracte: al setembre va registrar preguntes sobre la finalitat de l'eina i el seu cost de creació i posada en servei, i en demana els contractes i les factures. Junts diu que fa més d'un mes que espera la resposta formal.\n\nLa informació de Segre no detalla quin model d'IA fa servir l'assistent, com es tracten les dades de les converses de WhatsApp ni quant costarà mantenir-lo. Tampoc no hi consta cap resposta de l'equip de govern a les crítiques sobre l'adjudicació. Un contracte menor és un procediment legal per a imports petits, però no obliga a fer concurs, i per això l'oposició en reclama la documentació.",
+    "source": "Segre",
+    "url": "https://www.segre.com/ca/comarques/261031/les-borges-rellanca-ia-municipal-i-l-oposicio-questiona-contracte_1382891.html",
+    "image": "./assets/borges-blanques-rellanca-iaia-assistent-ia-whatsapp-junts-questiona-contracte-20261031.jpg",
+    "slug": "borges-blanques-rellanca-iaia-assistent-ia-whatsapp-junts-questiona-contracte"
+  },
+  {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
     "date": "30.10.2026",
     "title": "ACTUALITZACIÓ: l'autor de la novel·la premiada atribuïda a la IA ho nega, i l'Associació d'Escriptors en Llengua Catalana demana que siguin les tecnològiques les que marquin els textos",
     "summary": "David Silva Rojas ofereix els esborranys per demostrar que va escriure el llibre. Des de Catalunya, escriptors i experts en ètica de la IA alerten que els detectors donen molts falsos positius.",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.elnacional.cat/oneconomia/es/empresas/criteria-encabeza-ronda-tres-millones-euros-en-firma-moda-artiso_1716796_102.html",
     "image": "./assets/artiso-ronda-criteria-ia-moda-exdirectius-mango-20261028.jpg",
     "slug": "artiso-ronda-criteria-ia-moda-exdirectius-mango"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "28.10.2026",
-    "title": "Impress, la cadena d'ortodòncia invisible de Barcelona, rep 40 milions del Banc Europeu d'Inversions per reforçar la seva plataforma d'IA",
-    "summary": "És un préstec de deute de risc que també servirà per créixer al centre i al nord d'Europa. L'empresa, fundada el 2019, té 110 clíniques i va facturar 103 milions d'euros el 2025.",
-    "detail": "Impress és una cadena de clíniques d'ortodòncia amb fèrules transparents fundada a Barcelona el 2019 per Vladimir Lupenko, Diliara Lupenko i Khaled Kasem. Ha crescut amb un model molt digitalitzat, en què bona part del seguiment del tractament es fa a distància, i des que va néixer ha captat uns 280 milions d'euros de més de vint inversors.\n\nAra ha signat amb el Banc Europeu d'Inversions (BEI) un préstec de 40 milions d'euros en forma de deute de risc (*venture debt*), segons van publicar el 27 i el 28 d'octubre diversos mitjans econòmics. És una fórmula pensada per a empreses en creixement: combina els interessos habituals d'un préstec amb una remuneració lligada a l'augment de valor de la companyia. És el primer finançament important d'Impress des de l'última ronda de capital, fa més de dos anys. Els diners es destinaran a reforçar la seva plataforma d'IA pròpia, que acompanya el pacient de l'inici al final del tractament, i a accelerar l'expansió al centre i al nord d'Europa.\n\nL'empresa té 110 clíniques, 22 de les quals a l'Estat espanyol, va facturar 103 milions d'euros el 2025 i preveu créixer un 40% aquest any, fins als 145 milions. Segons declaracions del conseller delegat recollides per la premsa econòmica, el seu sistema d'IA, entrenat amb les dades d'uns 500.000 pacients, permet reduir un 80% les visites presencials. És un exemple del criteri que el BEI aplica cada cop més: finançar empreses europees que fan servir la IA en un negoci real, no només laboratoris de models.\n\nLes xifres de facturació, de pacients i de reducció de visites són de l'empresa i no s'han pogut contrastar de manera independent. Tampoc no s'han fet públics el termini ni el cost del préstec. En un sector com la salut bucodental, on el seguiment a distància ha generat debat entre els professionals, caldrà veure com es concreta l'ús de la IA en les decisions clíniques.",
-    "source": "Startups Españolas",
-    "url": "https://startups-espanolas.es/impress-obtiene-un-venture-debt-de-40-millones-del-bei-para-su-plataforma-de-ia/",
-    "image": "./assets/impress-barcelona-40-milions-bei-ortodoncia-ia-20261028.jpg",
-    "slug": "impress-barcelona-40-milions-bei-ortodoncia-ia"
   }
 ];
