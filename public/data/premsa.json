@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-31T10:38:03.728Z",
+ "actualitzat": "2026-10-31T13:13:52.445Z",
  "fonts": 44,
  "articles": [
   {
@@ -78,7 +78,9 @@
    "ambit": "catala",
    "titol": "Les Borges rellança la IA municipal i l’oposició qüestiona el contracte",
    "url": "https://www.segre.com/ca/comarques/261031/les-borges-rellanca-ia-municipal-i-l-oposicio-questiona-contracte_1382891.html",
-   "publicat": "2026-10-31T04:20:20.000Z"
+   "publicat": "2026-10-31T04:20:20.000Z",
+   "noticia": "borges-blanques-rellanca-iaia-assistent-ia-whatsapp-junts-questiona-contracte",
+   "noticiaTitol": "Les Borges Blanques rellança la IAIA, un assistent d'IA per WhatsApp, i Junts en qüestiona el contracte"
   },
   {
    "id": "b6588f146414",
