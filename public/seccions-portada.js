@@ -49,8 +49,8 @@
         img.src = p.foto;
         img.alt = p.fotoAlt || ('Retrat de ' + p.autor);
         img.loading = 'lazy';
-        img.width = 64;
-        img.height = 64;
+        img.width = 128;
+        img.height = 128;
         cos.appendChild(img);
       }
       var text = el('div', 'seccio-targeta__text');
