@@ -1857,3 +1857,55 @@ test('corregeix arregla la ç a l\'edició publicada, a l\'hemeroteca i al radar
   // Segona passada: res a fer.
   assert.match(run(['corregeix', ...base], root).stdout, /Recategoritzades: 0\. Ortografia: 0\./);
 });
+
+// ── Enquadrament de les il·lustracions (31.10.2026): 70% de cara ────────────
+function enquadra(items, cwd, retrats) {
+  const input = join(cwd, `lot-${Math.random().toString(36).slice(2)}.json`);
+  const args = ['enquadraments', '--input', input, '--json'];
+  if (retrats) args.push('--retrats', retrats);
+  return writeFile(input, JSON.stringify(items), 'utf8').then(() => {
+    const result = run(args, cwd);
+    assert.equal(result.status, 0, result.stderr);
+    return JSON.parse(result.stdout);
+  });
+}
+
+test('enquadraments: les notícies amb una persona del banc de retrats porten RETRAT i no compten per al 70%', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const retrats = join(root, 'retrats.json');
+  await writeFile(retrats, JSON.stringify({ persones: [
+    { nom: 'Dario Amodei', alies: ['Amodei'], wikidata: 'Q1', noSi: ['Daniela Amodei'] },
+    { nom: 'Salvador Illa', alies: ['Illa'], wikidata: 'Q2' }
+  ] }), 'utf8');
+  const lot = [
+    { slug: 'a', title: 'Amodei avisa dels riscos dels agents' },
+    { slug: 'b', title: 'Daniela Amodei parla a Lisboa' },
+    { slug: 'c', title: 'Una illa de Mallorca prova sensors amb IA' },
+    { slug: 'd', title: 'El president Illa inaugura un centre' },
+    { slug: 'e', title: 'Un hospital fa servir IA per a les urgències' }
+  ];
+  const resultat = await enquadra(lot, root, retrats);
+  const per = Object.fromEntries(resultat.map(item => [item.slug, item.enquadrament]));
+  assert.equal(per.a, 'retrat');
+  assert.equal(per.d, 'retrat');
+  assert.notEqual(per.b, 'retrat', '«Daniela Amodei» no és el Dario');
+  assert.notEqual(per.c, 'retrat', '«illa» en minúscula no és el president');
+  assert.equal(resultat.find(item => item.slug === 'a').persona, 'Dario Amodei');
+});
+
+test('enquadraments: és determinista i a la llarga surt de cara el 70% de les il·lustracions', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const lot = n => Array.from({ length: 5 }, (_, i) => ({ slug: `noticia-${n}-${i}`, title: `Notícia ${n}-${i}` }));
+  const primer = await enquadra(lot(1), root);
+  assert.deepEqual(await enquadra(lot(1), root), primer, 'el mateix lot dona sempre el mateix repartiment');
+  let cara = 0;
+  let total = 0;
+  for (let n = 0; n < 200; n += 1) {
+    const resultat = await enquadra(lot(n), root);
+    const deCara = resultat.filter(item => item.enquadrament === 'de-cara').length;
+    assert.ok(deCara === 3 || deCara === 4, `un lot de 5 en porta 3 o 4 de cara, no ${deCara}`);
+    cara += deCara;
+    total += resultat.length;
+  }
+  assert.ok(Math.abs(cara / total - 0.7) < 0.05, `proporció de cara: ${(cara / total).toFixed(3)}`);
+});

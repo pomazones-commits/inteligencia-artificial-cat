@@ -89,19 +89,39 @@ Abans del commit, executa `python3 automation/scripts/fotos-llicencia.py --input
 
 **Si no hi ha cap foto amb llicència** (el cas més habitual per a un producte que s'acaba de presentar), la il·lustració ha de mostrar el **context**, no el subjecte:
 
-- 🛑 **cap persona real reconeixible**: res de cares de polítics, directius o científics amb nom. Sí: un faristol amb micròfons en un auditori, el públic d'esquena, una silueta a contrallum, unes mans.
+- 🛑 **cap persona real reconeixible**: res de cares de polítics, directius o científics amb nom, ni ningú que s'hi assembli. Si la notícia gira al voltant d'una persona real amb nom i no n'has trobat cap foto amb llicència, la il·lustració no mostra la cara de NINGÚ (el lector la prendria per aquella persona): faristol, escenari, mans, silueta a contrallum.
 - 🛑 **cap producte concret inventat**: si la notícia és justament la presentació d'unes ulleres, un mòbil o un xip nous, no els dibuixis. Sí: l'escenari de la presentació, una pantalla gran sense text, una mà que sosté un objecte desenfocat.
 - 🛑 **cap logotip, marca ni text** llegible.
 - Els objectes **genèrics** sí que es poden mostrar tal com diu la notícia: un robot humanoide, un braç robòtic, un centre de dades (vegeu més amunt). El que no es pot fer és fer-los passar pel model concret d'una empresa.
 
 La pàgina de l'article mostra sola el peu «Foto: …» per a les fotos reals i «Il·lustració generada amb IA» per a la resta.
 
+### Persones de cara, no d'esquena (des del 31.10.2026)
+
+En Rafael: a «El senyal d'avui» sortien massa il·lustracions amb la gent d'esquena. La regla anterior («públic d'esquena, silueta») era per no inventar la cara d'una persona real, però **una persona anònima i inventada sí que pot sortir de cara**. Ara, **el 70% de les il·lustracions amb persones les mostren de cara**.
+
+Com que a ull no es pot comptar un 70% en lots de 5, el repartiment el fa una comanda. **Un cop escrit `incoming/news-batch.json` i ABANS de generar cap imatge**, executa:
+
+```
+node automation/scripts/content-hub.mjs enquadraments --input incoming/news-batch.json
+```
+
+Per a cada notícia et dirà una de tres coses, i el prompt de la il·lustració l'ha de seguir:
+
+- **DE CARA** → si hi surten persones, la principal **mira a càmera o de tres quarts, amb la cara ben visible i nítida**, en una escena que expliqui la notícia (una metgessa que revisa una imatge mèdica, un operari al costat d'un braç robòtic, una mestra amb els alumnes). Gent **corrent i inventada**, de totes les edats i orígens, mai amb l'aspecte d'algú conegut. Escriu-ho explícitament al prompt («facing the camera», «three-quarter view, face clearly visible»): si no, el model tendeix a girar-les. Si el subjecte de la notícia no té persones (un satèl·lit, un xip, un centre de dades buit), no les forcis: compta igualment com a feta.
+- **LLIURE** → l'enquadrament que millor expliqui la notícia: perfil, esquena, mans, grup, o sense persones.
+- **RETRAT** → el títol esmenta una persona del banc de retrats: l'script hi posarà sol la seva **foto real amb llicència lliure**. La il·lustració de recanvi, **sense cap cara**.
+
+⚠️ **La comanda no detecta totes les persones famoses**: només les del banc. Si la notícia tracta d'una persona real amb nom que no hi és (un investigador, una consellera), el resultat DE CARA **no s'aplica**: busca-li una foto amb llicència (`imageFetch`, apartat anterior) i, si no n'hi ha, il·lustració de context sense cap cara.
+
+Una il·lustració amb la persona d'esquena quan la comanda deia DE CARA **compta com a error** i justifica el reintent de l'apartat següent.
+
 ### Quantes vegades es genera una il·lustració (des del 23.10.2026)
 
 Cada imatge que es genera i es llença es paga igual que la que es publica. A l'octubre del 2026 se'n generaven unes 37 al dia per publicar-ne 21. Per això:
 
 1. **Primer intent** amb el prompt normal. Revisa la imatge **una vegada**.
-2. **Un sol reintent** NOMÉS si incompleix una regla 🛑 d'aquest apartat (persona real reconeixible, producte concret inventat, logotip, marca o text llegible) o si no mostra el subjecte de la notícia. Corregeix el prompt allà on ha fallat.
+2. **Un sol reintent** NOMÉS si incompleix una regla 🛑 d'aquest apartat (persona real reconeixible, producte concret inventat, logotip, marca o text llegible), si no mostra el subjecte de la notícia, o si la comanda `enquadraments` deia DE CARA i la persona principal surt d'esquena. Corregeix el prompt allà on ha fallat.
 3. **Tercer i últim intent**, només si el segon també incompleix una regla 🛑: un prompt de **context mínim i segur**, sense cap persona de cara, cap pantalla, cap rètol i cap aparell concret (per exemple: un auditori buit amb un faristol, unes mans sobre un teclat desenfocat, un passadís de centre de dades, un laboratori desenfocat, una sala de reunions amb finestrals), triat segons el tema de la notícia.
 4. **No es reintenta per qüestions de gust**: una composició millorable o una imatge poc espectacular es publiquen. Màxim **tres generacions per notícia**.
 5. **Errors tècnics de l'API** (temps d'espera, error 5xx, quota momentània) no compten com a intents: torna-ho a provar després de 10, 30 i 60 segons.

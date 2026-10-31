@@ -1408,6 +1408,81 @@ async function recategoritza(options) {
   process.stdout.write(`Recategoritzades: ${new Set(canvis).size}. Ortografia: ${new Set(ortografies).size}. Fitxers: ${tocats.join(', ') || 'cap'}.\n`);
 }
 
+// ── Enquadrament de les il·lustracions (31.10.2026) ─────────────────────────
+// En Rafael: «surten moltes fotos amb gent d'esquena; que surtin de cara en un
+// 70% de les ocasions, sempre que la notícia no parli de persones famoses».
+// La sessió editorial no pot comptar bé un 70% a ull, i cada lot és de 5: per
+// això el repartiment és DETERMINISTA. Les notícies que el títol lliga al banc
+// de retrats (automation/retrats.json, el mateix criteri que fotos-llicencia.py)
+// porten foto real i no compten; de la resta, un 70% surt «de cara».
+const ENQUADRAMENT_QUOTA_CARA = 0.7;
+
+function hashFnv(text) {
+  let hash = 0x811c9dc5;
+  for (const char of String(text)) {
+    hash ^= char.codePointAt(0);
+    hash = Math.imul(hash, 0x01000193) >>> 0;
+  }
+  return hash >>> 0;
+}
+
+function trobaRetrat(titol, persones) {
+  let millor = null;
+  for (const persona of persones) {
+    if ((persona.noSi || []).some(text => titol.includes(text))) continue;
+    for (const nom of [persona.nom, ...(persona.alies || [])]) {
+      if (!nom) continue;
+      const escapat = nom.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const match = new RegExp(`(?<![\\p{L}\\p{N}_·])${escapat}(?![\\p{L}\\p{N}_·])`, 'u').exec(titol);
+      if (match && (!millor || match.index < millor.index)) millor = { index: match.index, persona };
+    }
+  }
+  return millor ? millor.persona : null;
+}
+
+function enquadramentsLot(items, persones = [], quota = ENQUADRAMENT_QUOTA_CARA) {
+  const resultat = items.map(item => {
+    const persona = trobaRetrat(String(item?.title || ''), persones);
+    return persona
+      ? { slug: item.slug, enquadrament: 'retrat', persona: persona.nom }
+      : { slug: item.slug, enquadrament: null };
+  });
+  const elegibles = resultat.filter(item => !item.enquadrament);
+  if (elegibles.length) {
+    // Quantes «de cara»: 0,7 × n, i la fracció s'arrodoneix amunt o avall segons
+    // els slugs del lot, de manera que a la llarga surt exactament el 70%.
+    const sorteig = (hashFnv(elegibles.map(item => item.slug).join('|')) % 1000) / 1000;
+    const nCara = Math.min(elegibles.length, Math.floor(elegibles.length * quota + sorteig));
+    const ordre = [...elegibles].sort((a, b) => hashFnv(a.slug) - hashFnv(b.slug) || String(a.slug).localeCompare(String(b.slug)));
+    ordre.forEach((item, index) => { item.enquadrament = index < nCara ? 'de-cara' : 'lliure'; });
+  }
+  return resultat;
+}
+
+async function enquadraments(options) {
+  if (!options.input) throw new Error('Falta --input (incoming/news-batch.json).');
+  // No es fa servir validateNews: la comanda s'executa ABANS de generar les
+  // imatges, i el lot encara no porta `image`.
+  const lot = parsePayload(await readFile(resolve(options.input), 'utf8'), 'news');
+  const items = (Array.isArray(lot) ? lot : []).filter(item => item && typeof item === 'object' && item.slug);
+  if (!items.length) throw new Error('El lot no porta cap notícia amb slug.');
+  const banc = await readJson(resolve(options.retrats || 'automation/retrats.json'), { persones: [] });
+  const resultat = enquadramentsLot(items, Array.isArray(banc.persones) ? banc.persones : []);
+
+  if (options.json) {
+    process.stdout.write(`${JSON.stringify(resultat, null, 2)}\n`);
+    return;
+  }
+  const text = {
+    'retrat': persona => `RETRAT (${persona}): foto real automàtica; la il·lustració de recanvi, SENSE cap cara`,
+    'de-cara': () => 'DE CARA: si hi surten persones, la principal mira a càmera o de tres quarts, amb la cara ben visible',
+    'lliure': () => 'LLIURE: perfil, esquena, mans, grup o sense persones, el que millor expliqui la notícia'
+  };
+  for (const item of resultat) process.stdout.write(`${item.slug}: ${text[item.enquadrament](item.persona)}\n`);
+  const elegibles = resultat.filter(item => item.enquadrament !== 'retrat');
+  process.stdout.write(`De cara: ${elegibles.filter(item => item.enquadrament === 'de-cara').length} de ${elegibles.length} il·lustracions (objectiu: 70%).\n`);
+}
+
 async function validateCommand(options) {
   if (!options.input || !options.type) throw new Error('Falten --input i --type.');
   const text = await readFile(resolve(options.input), 'utf8');
@@ -1426,7 +1501,7 @@ function usage() {
   node content-hub.mjs ingest-daily-reflection --input daily-reflection.json --public-dir .
   node content-hub.mjs validate --type news|analysis|reflection|daily-reflection --input fitxer.json
   node content-hub.mjs pending --what news|daily-reflection --input fitxer.json --public-dir . --state-dir .content-state
-  node content-hub.mjs imatges-recents --state-dir .content-state [--dies 30] [--json]\n  node content-hub.mjs retira --slug <slug> [--motiu "…"] --public-dir public --state-dir .content-state\n  node content-hub.mjs recategoritza --public-dir public --state-dir .content-state\n  node content-hub.mjs corregeix --public-dir public --state-dir .content-state   (el mateix: categoria i ortografia)\n`;
+  node content-hub.mjs imatges-recents --state-dir .content-state [--dies 30] [--json]\n  node content-hub.mjs enquadraments --input incoming/news-batch.json [--retrats automation/retrats.json] [--json]\n  node content-hub.mjs retira --slug <slug> [--motiu "…"] --public-dir public --state-dir .content-state\n  node content-hub.mjs recategoritza --public-dir public --state-dir .content-state\n  node content-hub.mjs corregeix --public-dir public --state-dir .content-state   (el mateix: categoria i ortografia)\n`;
 }
 
 try {
@@ -1438,6 +1513,7 @@ try {
   else if (command === 'validate') await validateCommand(options);
   else if (command === 'pending') await pendingWork(options);
   else if (command === 'imatges-recents') await imatgesRecents(options);
+  else if (command === 'enquadraments') await enquadraments(options);
   else if (command === 'retira') await retiraNoticia(options);
   else if (command === 'recategoritza' || command === 'corregeix') await recategoritza(options);
   else {
