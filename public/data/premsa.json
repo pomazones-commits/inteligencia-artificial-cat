@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-31T20:19:52.523Z",
+ "actualitzat": "2026-10-31T23:48:41.199Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "5820ef82f1c5",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Tiene alma lo que escribe la IA?",
+   "url": "https://www.lavanguardia.com/cultura/20261101/11673173/alma-escribe-ia.html",
+   "publicat": "2026-10-31T23:33:31.000Z"
+  },
+  {
+   "id": "352338881894",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La lluita mundial pel domini de la IA",
+   "url": "https://www.regio7.cat/opinio/2026/10/31/lluita-mundial-pel-domini-ia-135935693.html",
+   "publicat": "2026-10-31T22:59:09.000Z"
+  },
   {
    "id": "5e9ac98a1617",
    "mitja": "La Vanguardia",
@@ -2653,28 +2675,6 @@
    "titol": "Cotxes que volen i IA fora de control",
    "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2684396-cotxes-que-volen-i-ia-fora-de-control.html",
    "publicat": "2026-10-25T01:00:00.000Z"
-  },
-  {
-   "id": "1f25344c41c8",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L'impacte de la IA en el Barcelona Cybersecurity Congress",
-   "url": "https://www.ara.cat/especials/l-impacte-ia-barcelona-cybersecurity-congress_1_5884889.html",
-   "publicat": "2026-10-24T21:59:37.000Z"
-  },
-  {
-   "id": "ce92a388088d",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "«La IA acelera la búsqueda de soluciones, pero los humanos guían y dirigen el proceso»",
-   "url": "https://www.informacion.es/economia/2026/10/24/ia-acelera-busqueda-soluciones-humanos-135678525.html",
-   "publicat": "2026-10-24T20:30:32.000Z"
   }
  ]
 }
