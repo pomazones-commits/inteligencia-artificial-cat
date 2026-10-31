@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-30T23:06:34.159Z",
+  "generat": "2026-10-31T05:16:16.006Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -8,7 +8,7 @@
       "programa": "Revolució 4.0",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 11
+      "sobre_ia": 13
     },
     {
       "font": "3cat",
@@ -56,7 +56,7 @@
       "programa": "L'altra ràdio",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 0
     },
     {
       "font": "rtve",
@@ -128,15 +128,15 @@
       "programa": "",
       "resultats": 4,
       "estat": "ok",
-      "audios": 1,
-      "sobre_ia": 1
+      "audios": 0,
+      "sobre_ia": 0
     },
     {
       "font": "wordpress",
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 27,
+      "audios": 25,
       "sobre_ia": 1
     },
     {
@@ -173,42 +173,60 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 400,
+      "audios": 300,
       "sobre_ia": 2
     }
   ],
   "candidats": [
     {
-      "id": "3cat-1296014",
+      "id": "3cat-1295821",
       "emissora": "Catalunya Ràdio",
-      "programa": "Catalunya nit",
-      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
-      "data": "2026-10-30",
-      "durada": "17 min",
-      "titol_original": "Xavier Nueno: \"Han privatitzat el coneixement i ara ens el volen llogar a través de subscripcions\"",
-      "descripcio_original": "La intel·ligència artificial s'ha construït amb milions de llibres, articles i documents que formen part del coneixement col·lectiu de la humanitat. Qui és el propietari d'aquest saber i què passa quan el convertim en un negoci privat? En parlem amb Xavier Nueno, guanyador del Premi Anagrama d'Assaig 2026 amb \"La revuelta de los copistas\", un llibre que convida a reflexionar sobre el futur del coneixement, les biblioteques i la nostra capacitat de pensar en plena revolució digital.",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-31",
+      "durada": "12 min",
+      "titol_original": "El talent femení trenca barreres per arribar a la direcció del sector tecnològic",
+      "descripcio_original": "Parlem de la situació del talent femení en el sector tecnològic a Catalunya, de les dificultats que encara tenen les dones per accedir a càrrecs directius i de la importància de donar visibilitat a les professionals que lideren projectes d'innovació, intel·ligència artificial i ciberseguretat. Xantal Llavina conversa amb Laia Arcones, fundadora de l'Instituto Más Mujeres, que presenta la nova llista de les 100 dones referents TIC de Catalunya i explica com impulsar el lideratge femení i aconseguir una igualtat real d'oportunitats en el sector.",
       "descripcio_curta": false,
       "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/xavier-nueno-han-privatitzat-el-coneixement-i-ara-ens-el-volen-llogar-a-traves-d/audio/1296014/",
+      "url": "https://www.3cat.cat/3cat/el-talent-femeni-trenca-barreres-per-arribar-a-la-direccio-del-sector-tecnologic/audio/1295821/",
       "reproductor": {
         "tipus": "3cat",
-        "id": "1296014"
+        "id": "1295821"
       }
     },
     {
-      "id": "apunt-1905583",
-      "emissora": "À Punt Ràdio",
-      "programa": "Cadena de valor",
-      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
-      "data": "2026-10-30",
-      "durada": "",
-      "titol_original": "Satèl·lits, drons i intel·ligència artificial per anticipar-se als desastres naturals",
-      "descripcio_original": "L’enginyer Tobías Romero presenta el projecte de teledetecció de Vielca Medi Ambient per millorar la prevenció i la gestió dels riscos d’inundació i d’incendis forestals.",
+      "id": "3cat-1295825",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-10-31",
+      "durada": "15 min",
+      "titol_original": "L'empresa que revoluciona els lots de Nadal amb 50 agents d'intel·ligència artificial",
+      "descripcio_original": "Parlem de com la tecnologia està revolucionant els tradicionals lots de Nadal, que permet als treballadors escollir els seus propis regals, i de com els agents d'IA ajuden les empreses a automatitzar processos i fer créixer els seus negocis. Xantal Llavina conversa amb Roger Rafel i Esteban Humet, cofundadors de Pekata, una empresa emergent de Barcelona que ha creat una plataforma digital per personalitzar els regals d'empresa i que aposta per la intel·ligència artificial per transformar el sector.",
       "descripcio_curta": false,
       "ia_al_titol": true,
-      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/30-10-2026-satel-lits-drons-intel-ligencia-artificial-anticipar-als-desastres-naturals_135_1905583.html",
+      "url": "https://www.3cat.cat/3cat/lempresa-que-revoluciona-els-lots-de-nadal-amb-50-agents-dintelligencia-artifici/audio/1295825/",
       "reproductor": {
-        "tipus": "enllac"
+        "tipus": "3cat",
+        "id": "1295825"
+      }
+    },
+    {
+      "id": "rtve-17294363",
+      "emissora": "Ràdio 4",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
+      "data": "2026-10-30",
+      "durada": "27 min",
+      "titol_original": "Plats de menjar generats amb IA, cotxes autònoms i veus clonades amb Arnau Font",
+      "descripcio_original": "Amb Arnau Fon t, expert en Intel·ligència Artificial, repassem algunes de les novetats tecnològiques de la setmana. Des de plats generat amb IA que o s’assemblen gairebé el que podem demanar, fins a l’arribada dels cotxes autònoms de Waymo a Madrid el 2027 i els sistemes de conducció assistida de Tesla. A més, recuperem unes declaracions de Steve Jobs del 2010 arran de la presentació del primer MacBook Pro tàctil d’Apple. I acabem mirant cap a les xarxes: vídeos de curiositats creats amb IA i veus clonades, amb una demostració de fins a quin punt la tecnologia pot arribar a imitar la veu del mateix Arnau.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-plats-menjar-generats-amb-ia-cotxes-autonoms-veus-clonades-amb-arnau-font/17294363/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17294363"
       }
     }
   ]
