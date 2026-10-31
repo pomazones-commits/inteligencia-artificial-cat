@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-30T22:40:50.474Z",
+ "actualitzat": "2026-10-31T05:17:10.207Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "29748ff47ff9",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Mejorar o empeorar con la inteligencia artificial",
+   "url": "https://www.elperiodico.com/es/economia/20261031/mejorar-o-empeorar-inteligencia-artificial-135945529",
+   "publicat": "2026-10-31T05:01:44.000Z"
+  },
+  {
+   "id": "ee837b328d74",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA se tambalea: ¿Cuánto dinero ingresan y cuánto pierden los gigantes del sector?",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261031/ia-tambalea-dinero-ingresos-perdidas-google-openai-amazon-bolsa-acciones-burbuja-135924644",
+   "publicat": "2026-10-31T05:01:04.000Z"
+  },
+  {
+   "id": "77e0ba08c213",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Otra sacudida tecnológica a las puertas de recibir a Anthropic",
+   "url": "https://cincodias.elpais.com/opinion/2026-10-31/otra-sacudida-tecnologica-a-las-puertas-de-recibir-a-anthropic.html",
+   "publicat": "2026-10-31T04:40:00.000Z"
+  },
+  {
+   "id": "6bd30744abb9",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Les Borges rellança la IA municipal i l’oposició qüestiona el contracte",
+   "url": "https://www.segre.com/ca/comarques/261031/les-borges-rellanca-ia-municipal-i-l-oposicio-questiona-contracte_1382891.html",
+   "publicat": "2026-10-31T04:20:20.000Z"
+  },
   {
    "id": "b6588f146414",
    "mitja": "Información",
@@ -2690,94 +2734,6 @@
    "titol": "Una novel·la premiada amb 20.000 €, sospitosa d'haver-se escrit amb IA en un 99% de probabilitats",
    "url": "https://www.3cat.cat/3catinfo/una-novella-premiada-amb-20000-sospitosa-dhaver-se-escrit-amb-ia-en-un-99-de-probabilitats/noticia/3435879",
    "publicat": "2026-10-24T05:41:33.000Z"
-  },
-  {
-   "id": "ca811988c9c5",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Bienvenidos a la 'tamagotchización' de la IA: Silicon Valley apuesta su futuro a los agentes para automatizar tu vida",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261024/ia-agentes-tamagotchi-meta-muse-openai-dots-anthropic-claude-duet-ciberseguridad-135613161",
-   "publicat": "2026-10-24T04:01:21.000Z"
-  },
-  {
-   "id": "1e519a4752ba",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Víctor Gómez, ingeniero industrial: “Solo un empresario mediocre ve la Ley de Inteligencia Artificial de Europa como algo malo”",
-   "url": "https://www.lavanguardia.com/neo/ia/20261024/11664921/victor-gomez-ingeniero-industrial-empresario-mediocre-ve-ley-inteligencia-artificial-europa-malo.html",
-   "publicat": "2026-10-24T04:00:00.000Z"
-  },
-  {
-   "id": "76f26b8a75a0",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los bancos ultiman sus planes ante el BCE frente a la amenaza de la IA",
-   "url": "https://www.lavanguardia.com/economia/20261024/11666716/bancos-ultiman-planes-bce-frente-amenaza-ia.html",
-   "publicat": "2026-10-24T04:00:00.000Z"
-  },
-  {
-   "id": "3ee4da14ce5d",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El professional sènior usa millor la IA que els joves sense habilitats d'informació",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/professional-senior-usa-millor-ia-contra-joves-sense-habilitats-informacio_1714201_102.html",
-   "publicat": "2026-10-24T03:30:00.000Z"
-  },
-  {
-   "id": "fcebfeba4540",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "¿Y si ‘Bola de Dragón’ lo hubiera hecho un robot?: la animación japonesa se echa en brazos de la IA por la escasez de dibujantes",
-   "url": "https://elpais.com/economia/negocios/2026-10-24/y-si-bola-de-dragon-lo-hubiera-hecho-un-robot-la-animacion-japonesa-se-echa-en-brazos-de-la-ia-por-la-escasez-de-dibujantes.html",
-   "publicat": "2026-10-24T03:30:00.000Z"
-  },
-  {
-   "id": "071ffa5142e5",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los gigantes tecnológicos preparan el asalto a la industria de los viajes a través de la IA",
-   "url": "https://elpais.com/economia/2026-10-24/los-gigantes-tecnologicos-preparan-el-asalto-a-la-industria-de-los-viajes-a-traves-de-la-ia.html",
-   "publicat": "2026-10-24T03:15:00.000Z"
-  },
-  {
-   "id": "2f91610daa62",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La IA y el ‘deeptech’ impulsan una ola de nuevos fondos para ‘start-ups’ en España por cerca de 900 millones",
-   "url": "https://cincodias.elpais.com/companias/2026-10-24/la-ia-y-el-deeptech-impulsan-una-ola-de-nuevos-fondos-para-start-ups-en-espana-por-cerca-de-900-millones.html",
-   "publicat": "2026-10-24T03:15:00.000Z"
-  },
-  {
-   "id": "80375052950d",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El 78% de las compañías bancarias priorizan la inversión en ciberseguridad ante la amenaza de la IA",
-   "url": "https://cincodias.elpais.com/companias/2026-10-24/el-78-de-las-companias-bancarias-priorizan-la-inversion-en-ciberseguridad-ante-la-amenaza-de-la-ia.html",
-   "publicat": "2026-10-24T03:15:00.000Z"
   }
  ]
 }
