@@ -1,1 +1,37 @@
-{"fitxes": [], "descartats": []}
+{
+  "fitxes": [
+    {
+      "id": "3cat-1296014",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-10-30",
+      "durada": "17 min",
+      "titol": "Xavier Nueno: de qui és el coneixement amb què s'ha entrenat la IA",
+      "convidats": [
+        { "nom": "Xavier Nueno", "rol": "guanyador del Premi Anagrama d'Assaig 2026 amb «La revuelta de los copistas»" }
+      ],
+      "resum": "A «Catalunya nit», l'assagista Xavier Nueno parla de la propietat del saber amb què s'han construït els sistemes d'intel·ligència artificial: milions de llibres, articles i documents que formen part del coneixement col·lectiu. A partir del seu llibre, premiat amb l'Anagrama d'Assaig, l'entrevista planteja què passa quan aquest coneixement es converteix en un negoci privat i quin paper hi tenen les biblioteques i la nostra capacitat de pensar.",
+      "tema": "cultura",
+      "url": "https://www.3cat.cat/3cat/xavier-nueno-han-privatitzat-el-coneixement-i-ara-ens-el-volen-llogar-a-traves-d/audio/1296014/",
+      "reproductor": { "tipus": "3cat", "id": "1296014" }
+    },
+    {
+      "id": "apunt-1905583",
+      "emissora": "À Punt Ràdio",
+      "programa": "Cadena de valor",
+      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
+      "data": "2026-10-30",
+      "durada": "",
+      "titol": "Satèl·lits, drons i IA per preveure inundacions i incendis forestals",
+      "convidats": [
+        { "nom": "Tobías Romero", "rol": "enginyer de Vielca Medi Ambient" }
+      ],
+      "resum": "L'enginyer Tobías Romero explica a «Cadena de valor» el projecte de teledetecció de l'empresa Vielca Medi Ambient, que combina imatges de satèl·lit, drons i intel·ligència artificial. L'objectiu és anticipar-se als desastres naturals i millorar tant la prevenció com la gestió dels riscos d'inundació i dels incendis forestals.",
+      "tema": "ciencia",
+      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/30-10-2026-satel-lits-drons-intel-ligencia-artificial-anticipar-als-desastres-naturals_135_1905583.html",
+      "reproductor": { "tipus": "enllac" }
+    }
+  ],
+  "descartats": []
+}
