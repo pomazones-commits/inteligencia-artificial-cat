@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-31T05:17:10.207Z",
+ "actualitzat": "2026-10-31T09:13:35.640Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "199a2cf3fe59",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-tec",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La revolución silenciosa de la IA: todos podemos crear ya aplicaciones a medida",
+   "url": "https://www.lavanguardia.com/tecnologia/aplicaciones/20261031/11671523/vibe-coding.html",
+   "publicat": "2026-10-31T06:35:00.000Z"
+  },
   {
    "id": "29748ff47ff9",
    "mitja": "El Periódico",
@@ -35,6 +46,28 @@
    "titol": "Otra sacudida tecnológica a las puertas de recibir a Anthropic",
    "url": "https://cincodias.elpais.com/opinion/2026-10-31/otra-sacudida-tecnologica-a-las-puertas-de-recibir-a-anthropic.html",
    "publicat": "2026-10-31T04:40:00.000Z"
+  },
+  {
+   "id": "24ee6b9b2ba4",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "¿La IA es herramienta o creador?",
+   "url": "https://elpais.com/babelia/2026-10-31/la-ia-es-herramienta-o-creador.html",
+   "publicat": "2026-10-31T04:30:01.000Z"
+  },
+  {
+   "id": "682dd4d9d1f5",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic llega para revolucionar la inversión en IA, aunque en plena sacudida bursátil del sector",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-31/anthropic-llega-para-revolucionar-la-inversion-en-ia-aunque-en-plena-sacudida-bursatil-del-sector.html",
+   "publicat": "2026-10-31T04:30:01.000Z"
   },
   {
    "id": "6bd30744abb9",
@@ -2677,63 +2710,6 @@
    "publicat": "2026-10-24T10:34:02.000Z",
    "noticia": "msp-global-tarragona-3000-professionals-ia-ciberseguretat",
    "noticiaTitol": "Tarragona reuneix més de 3.000 professionals de 65 països per parlar de com la IA canvia les empreses i la ciberseguretat"
-  },
-  {
-   "id": "dea699fc61f6",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Almadía hará una “revisión detallada” de su novela premiada, acusada de estar escrita con IA",
-   "url": "https://www.lavanguardia.com/cultura/20261024/11667083/almadia-revision-detallada-novela-david-silva-rojas-ia.html",
-   "publicat": "2026-10-24T08:24:48.000Z"
-  },
-  {
-   "id": "6ff9e628baf5",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El 93% de los madrileños valora que las fotos reflejen la realidad y solo un 8% acepta que la IA modifique rasgos",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/24/2735567/madrilenos-valora-las-fotos-reflejen-realidad-solo-acepta-modifique-rasgos.html",
-   "publicat": "2026-10-24T07:29:48.000Z"
-  },
-  {
-   "id": "7d9eb1a0f8b0",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Bon Preu ultima un assistent d'IA per millorar la planificació de compra a través de l'aplicació",
-   "url": "https://www.ara.cat/economia/comerc/bon-preu-ultima-assistent-d-ia-millorar-planificacio-compra-traves-l-aplicacio_1_5888498.html",
-   "publicat": "2026-10-24T06:00:12.000Z",
-   "noticia": "bon-preu-assistent-ia-app-compra-shoptimus",
-   "noticiaTitol": "Bon Preu prepara un assistent d'IA a la seva aplicació per planificar la compra amb text, notes de veu o imatges"
-  },
-  {
-   "id": "29f3339d770a",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Shamonda dispara las consultas esotéricas a la inteligencia artificial",
-   "url": "https://www.elperiodico.com/es/gente/20261024/shamonda-dispara-consultas-esotericas-inteligencia-artificial-135700671",
-   "publicat": "2026-10-24T06:00:09.000Z"
-  },
-  {
-   "id": "9dacb2b511dc",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Una novel·la premiada amb 20.000 €, sospitosa d'haver-se escrit amb IA en un 99% de probabilitats",
-   "url": "https://www.3cat.cat/3catinfo/una-novella-premiada-amb-20000-sospitosa-dhaver-se-escrit-amb-ia-en-un-99-de-probabilitats/noticia/3435879",
-   "publicat": "2026-10-24T05:41:33.000Z"
   }
  ]
 }
