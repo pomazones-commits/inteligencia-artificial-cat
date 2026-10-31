@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-30T17:15:09.013Z",
+  "updatedAt": "2026-10-31T05:16:17.440Z",
   "items": [
     {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "El primer satèl·lit de Google per fer càlculs d'IA a l'espai ja funciona, i la primera prova va ser demanar-li un haiku",
-      "excerpt": "El prototip del projecte Suncatcher porta un sol xip TPU de Google i només el pot fer anar uns vint minuts seguits. Ha de servir per comprovar si la radiació i la calor de l'òrbita permeten fer funcionar models d'IA fora de la Terra."
+      "category": "MERCATS",
+      "read": "5 MIN",
+      "title": "Les tecnològiques s'enfonsen a la borsa pels dubtes sobre la despesa en IA: Intel cau prop d'un 30% i Google perd 500.000 milions en un dia",
+      "excerpt": "Els inversors comencen a castigar el que fins ara premiaven. Alphabet, Amazon, Meta i Microsoft preveuen gastar aquest any més de 740.000 milions de dòlars en inversions, i tres d'elles ja gasten més diners dels que generen."
     },
     {
-      "category": "EMPRESES",
+      "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "DoorDash admet que els agents d'IA només li han fet uns quants centenars de comandes, quan en reparteix uns tres milions al dia",
-      "excerpt": "El conseller delegat, Tony Xu, ho va explicar en la presentació de resultats i va demanar no ser «il·lusos» sobre el punt on són els agents. La gran majoria de clients continuen comprant des de l'aplicació de l'empresa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode de la Universitat de Pennsilvània permet als robots aprofitar les càmeres que només capten el moviment, i és de 2 a 5 vegades més ràpid",
-      "excerpt": "La representació F³, publicada a «Science Robotics», aprèn a predir els canvis de l'escena i calcula només allà on passa alguna cosa. Iguala o supera els millors resultats en reconeixement d'objectes, càlcul de distàncies i seguiment del moviment."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi amb models d'IA petits troba milers d'anuncis enganyosos de programari a Google que van sumar més de 100 milions d'impressions a Europa",
-      "excerpt": "Investigadors de la Universitat de Nova York i de la Universitat Radboud han analitzat unes 189.000 versions d'anuncis amb l'eina AdLens, que presentaran al congrés de seguretat informàtica ACM CCS. Hi ha falsos avisos de virus i promeses impossibles."
-    },
-    {
-      "category": "MOBILITAT",
-      "read": "3 MIN",
-      "title": "Rivian cedirà a Volkswagen el seu assistent de veu amb IA dins de l'empresa conjunta que ja els uneix",
-      "excerpt": "El fabricant nord-americà de cotxes elèctrics ho anuncia en la presentació de resultats, sense dir quant cobrarà ni en quins models arribarà. El primer candidat és el petit ID. EVERY1 de Volkswagen."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Una versió manipulada de l'extensió de Claude Code, distribuïda com a actualització a Cursor, va obrir un accés remot a fins a 5.000 ordinadors",
-      "excerpt": "Durant unes onze hores del 29 d'octubre, la botiga d'extensions de l'editor Cursor va servir una versió amb codi maliciós de l'eina de programació d'Anthropic. Instal·lava una clau d'accés per SSH i enviava dades de la màquina a un servidor extern."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "L'autoritat britànica de la competència investiga Meta per unes condicions que li permetrien fer servir el contingut de les webs per a la seva IA",
-      "excerpt": "La CMA examinarà si Meta abusa d'una posició dominant en imposar a mitjans i anunciants uns termes que li deixarien recollir el contingut dels seus webs sense que puguin decidir-ne l'ús. Meta diu que no hi ha motius per investigar-la."
+      "title": "OpenAI limitarà la informació sobre armes als menors i farà que ChatGPT talli les converses de qui sembli obsessionat amb la violència",
+      "excerpt": "L'empresa diu que durant el tercer trimestre va avisar la policia més de 200 vegades per possibles amenaces violentes, i promet publicar cada sis mesos un informe sobre com evita que el seu xatbot ajudi a fer mal."
     },
     {
       "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA de fractures provada tres mesos a unes urgències de Singapur detecta menys que els tècnics de radiologia, però els ajuda a esmenar deu errors",
-      "excerpt": "En 2.496 radiografies llegides en condicions reals, el sistema comercial sol trobava el 75,6% de les fractures i els tècnics, el 91,6%. Amb l'ajuda de la IA, els professionals van corregir 11 errors i en van cometre un de nou, segons un estudi a «npj Digital Medicine»."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA llegeix les ecografies de l'abdomen superior, busca 16 diagnòstics i escriu informes que els radiòlegs no distingeixen dels seus un cop revisats",
-      "excerpt": "El sistema, de la Universitat de Colorado i publicat a «Nature Communications», s'ha entrenat amb més de 9.000 casos i s'ha provat en dos hospitals més. Encara s'ha d'avaluar a urgències reals abans de fer-lo servir."
+      "read": "4 MIN",
+      "title": "Gairebé la meitat dels usuaris d'IA amb un malestar psicològic greu hi busquen suport emocional, segons una enquesta a Israel",
+      "excerpt": "Un estudi de la Universitat Tel-Hai amb 584 adults troba que tres de cada deu persones que fan servir xatbots com ChatGPT els han demanat consell o consol, i que el malestar és el que més hi pesa."
     },
     {
       "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "Runware vol fabricar en cadena centres de dades per a IA i promet tenir-los en marxa 48 hores després d'arribar al lloc",
-      "excerpt": "L'empresa obre una fàbrica a Romania per produir mòduls prefabricats amb refrigeració líquida en circuit tancat. Diu que té 1.000 milions de dòlars d'interès compromès, però el pla encara no està provat."
+      "title": "Nvidia negocia avalar el deute de Nscale perquè construeixi el centre de dades d'Anthropic a Virgínia de l'Oest",
+      "excerpt": "Si Nscale no pogués pagar les obres, Nvidia es quedaria temporalment la instal·lació i buscaria un comprador o un altre inquilí. És la primera vegada que el fabricant de xips es compromet amb la construcció i no només amb el lloguer o la compra de xips."
     },
     {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "Els serveis d'intel·ligència dels Estats Units van vigilar una directiva que s'havia acostat a Jensen Huang, d'Nvidia, per si era una espia xinesa",
-      "excerpt": "Segons «The New York Times», Alice Huang, directiva de Megaspeed, una empresa de Singapur acusada de revendre xips d'Nvidia a la Xina, va ser vigilada durant un any. Nvidia diu que el tracte amb ella era el de qualsevol client."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Thrive Holdings, el grup que vol renovar empreses amb IA i que té OpenAI com a soci, compra ADT per 15.300 milions de dòlars",
-      "excerpt": "L'operació, pagada en efectiu a 10 dòlars per acció, treu de borsa la coneguda empresa nord-americana d'alarmes per a la llar. El grup en vol fer la base d'un negoci de seguretat domèstica intel·ligent."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un model de Rochester i Nvidia genera imatges treballant directament amb els píxels i iguala gairebé els millors sistemes actuals",
-      "excerpt": "PixelDiT2, acceptat al congrés NeurIPS, evita el pas de comprimir la imatge que fan servir la majoria de generadors, cosa que permet retocar zones concretes sense refer-la tota."
-    },
-    {
-      "category": "TREBALL",
-      "read": "4 MIN",
-      "title": "Un treballador humanista de la Universitat de Kentucky aconsegueix una exempció per motius de consciència per no haver de fer servir la IA a la feina",
-      "excerpt": "David Durman, que no creu en cap déu, ha obtingut una adaptació del lloc de treball emparada en la protecció de les creences religioses. Abans ho havia aconseguit una programadora unitarista."
-    },
-    {
-      "category": "CULTURA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: l'autor de la novel·la premiada atribuïda a la IA ho nega, i l'Associació d'Escriptors en Llengua Catalana demana que siguin les tecnològiques les que marquin els textos",
-      "excerpt": "David Silva Rojas ofereix els esborranys per demostrar que va escriure el llibre. Des de Catalunya, escriptors i experts en ètica de la IA alerten que els detectors donen molts falsos positius."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Amazon Web Services creix un 39%, el ritme més alt en gairebé cinc anys, i Amazon gastarà uns 220.000 milions de dòlars en inversions aquest any",
-      "excerpt": "El núvol d'Amazon factura 46.000 milions en un trimestre. Andy Jassy preveu que creixerà més d'un 40% el 2027 i el 2028, però la borsa castiga la despesa: l'acció va caure prop d'un 6% després del tancament."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Mistral publica en obert el seu model d'un bilió de paràmetres i el presenta com una eina per als defensors informàtics",
-      "excerpt": "L'empresa francesa allibera Mistral Large 4 després de tres setmanes més d'entrenament. Diu que és el millor model obert per programar amb agents i que rebutja el 96,6% de les peticions d'atac, però admet que pot ajudar els atacants."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un agent d'IA del Berkeley Lab permet manejar un dels microscopis electrònics més avançats del món demanant-li els experiments amb paraules",
-      "excerpt": "TEM Agent, publicat a «npj Computational Materials», tradueix les instruccions en passos concrets del microscopi, però només pot fer servir accions programades prèviament i al principi confonia inclinar la mostra amb moure el feix."
-    },
-    {
-      "category": "INTERNET",
-      "read": "4 MIN",
-      "title": "Reddit començarà a demanar que s'iniciï sessió per llegir-lo, mentre perd visites de Google per culpa de les respostes amb IA",
-      "excerpt": "La plataforma ho provarà en alguns països fora dels Estats Units abans d'acabar l'any. Vol protegir les seves converses dels robots que entrenen models d'IA i vendre-les millor, però les visites que li arriben dels cercadors cauen més d'un milió per setmana."
-    },
-    {
-      "category": "CATALUNYA",
+      "category": "EMPRESA",
       "read": "3 MIN",
-      "title": "L'Autoritat Catalana de Protecció de Dades presenta un model que reuneix en una sola avaluació els riscos de la IA per a les dades i per als drets fonamentals",
-      "excerpt": "El model DPIA-FRIA, fet amb delegats de protecció de dades i el jurista Alessandro Mantelero, evita que les organitzacions hagin de fer dues anàlisis paral·leles per complir el reglament de dades i el reglament europeu d'IA."
+      "title": "Tanca Ollie, un assistent d'IA per a famílies que s'havia fet un nom per la privacitat, i culpa la competència de Muse",
+      "excerpt": "L'empresa, que el setembre havia captat 7,5 milions de dòlars amb Khosla Ventures al capdavant, deixarà de funcionar el 6 de novembre. El seu fundador diu que «s'hi va acostar», però que no ha pogut seguir el ritme del sector."
     }
   ]
 }
