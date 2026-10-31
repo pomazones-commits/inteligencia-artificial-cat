@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-10-31T09:13:35.640Z",
+ "actualitzat": "2026-10-31T10:38:03.728Z",
  "fonts": 44,
  "articles": [
   {
@@ -2697,19 +2697,6 @@
    "publicat": "2026-10-24T17:00:05.000Z",
    "noticia": "cds-deute-ia-inversors-asseguren-impagament",
    "noticiaTitol": "Els inversors s'asseguren contra l'impagament de les empreses d'IA: el mercat d'aquestes assegurances passa de 2.000 a més de 9.000 milions de dòlars des del juliol"
-  },
-  {
-   "id": "bdc094eb63da",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tarragona reúne a más de 3.000 expertos internacionales en ciberseguridad e inteligencia artificial",
-   "url": "https://www.diaridetarragona.com/sociedad/273888/tarragona-reune-3-000-expertos-internacionales-ciberseguridad-e-inteligencia-artificial.html",
-   "publicat": "2026-10-24T10:34:02.000Z",
-   "noticia": "msp-global-tarragona-3000-professionals-ia-ciberseguretat",
-   "noticiaTitol": "Tarragona reuneix més de 3.000 professionals de 65 països per parlar de com la IA canvia les empreses i la ciberseguretat"
   }
  ]
 }
