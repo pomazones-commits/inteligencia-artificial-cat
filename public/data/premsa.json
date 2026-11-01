@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-01T18:09:19.593Z",
+ "actualitzat": "2026-11-01T22:28:01.546Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "bf74616d3559",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Gonçalo M. Tavares: “La IA va a convertirnos en unos tetrapléjicos intelectuales”",
+   "url": "https://www.lavanguardia.com/cultura/20261101/11673515/goncalo-m-tavares-ia-convertirnos-tetraplejicos-intelectuales.html",
+   "publicat": "2026-11-01T18:54:59.000Z"
+  },
   {
    "id": "f6b57f433e36",
    "mitja": "Ara",
