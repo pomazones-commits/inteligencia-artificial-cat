@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-01T11:31:59.704Z",
+ "actualitzat": "2026-11-01T13:20:28.990Z",
  "fonts": 44,
  "articles": [
   {
@@ -2642,17 +2642,6 @@
    "publicat": "2026-10-25T15:12:25.000Z",
    "noticia": "alinia-ai-seny-model-catala-vigila-agents-llei",
    "noticiaTitol": "Alinia AI, amb oficines a Barcelona i València, presenta Seny, un model de 4.000 milions de paràmetres per vigilar que els agents d'IA compleixin la llei"
-  },
-  {
-   "id": "3428e6999c6c",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Junta reúne al ecosistema europeo de la inteligencia artificial la última semana de octubre en Granada",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/25/2736321/junta-reune-ecosistema-europeo-inteligencia-artificial-ultima-semana-octubre-granada.html",
-   "publicat": "2026-10-25T11:59:37.000Z"
   }
  ]
 }
