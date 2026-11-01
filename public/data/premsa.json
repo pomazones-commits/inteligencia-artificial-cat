@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-01T13:20:28.990Z",
+ "actualitzat": "2026-11-01T17:19:04.720Z",
  "fonts": 44,
  "articles": [
   {
@@ -2629,19 +2629,6 @@
    "titol": "Els participants de la Fira encerten el 53% de les imatges generades amb IA",
    "url": "https://www.diariandorra.ad/nacional/261025/els-participants-fira-encerten-53-les-imatges-generades-amb-ia_207299.html",
    "publicat": "2026-10-25T17:33:13.000Z"
-  },
-  {
-   "id": "31d34170a523",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Seny, la IA catalana que vigila els agents",
-   "url": "https://empreses.ara.cat/innovacio/seny-ia-catalana-vigila-agents_1_5888174.html",
-   "publicat": "2026-10-25T15:12:25.000Z",
-   "noticia": "alinia-ai-seny-model-catala-vigila-agents-llei",
-   "noticiaTitol": "Alinia AI, amb oficines a Barcelona i València, presenta Seny, un model de 4.000 milions de paràmetres per vigilar que els agents d'IA compleixin la llei"
   }
  ]
 }
