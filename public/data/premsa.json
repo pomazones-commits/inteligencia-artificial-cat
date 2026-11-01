@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-01T17:19:04.720Z",
+ "actualitzat": "2026-11-01T18:09:19.593Z",
  "fonts": 44,
  "articles": [
   {
@@ -2618,17 +2618,6 @@
    "titol": "Gamberradas de IA",
    "url": "https://www.lasprovincias.es/opinion/ramon-palomar-gamberradas-ia-20261026234914-nt.html",
    "publicat": "2026-10-25T22:49:14.000Z"
-  },
-  {
-   "id": "476f73060311",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Els participants de la Fira encerten el 53% de les imatges generades amb IA",
-   "url": "https://www.diariandorra.ad/nacional/261025/els-participants-fira-encerten-53-les-imatges-generades-amb-ia_207299.html",
-   "publicat": "2026-10-25T17:33:13.000Z"
   }
  ]
 }
