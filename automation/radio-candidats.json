@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-01T17:18:14.170Z",
+  "generat": "2026-11-01T22:57:29.204Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -8,7 +8,7 @@
       "programa": "Revolució 4.0",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 12
+      "sobre_ia": 13
     },
     {
       "font": "3cat",
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 9,
+      "audios": 8,
       "sobre_ia": 0
     },
     {
@@ -173,9 +173,27 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 300,
+      "audios": 400,
       "sobre_ia": 2
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "3cat-1295828",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-11-01",
+      "durada": "53 min",
+      "titol_original": "Sensors, robots i emprenedors: com la tecnologia revoluciona l'agricultura i la ramaderia a Lleida",
+      "descripcio_original": "El \"Revolució 4.0\", presentat i dirigit per Xantal Llavina, fa un programa especial des de la fira Agrobiotech Innovation Forum de Lleida per descobrir com la tecnologia i la intel·ligència artificial transformen el sector agroalimentari. Conversem amb Carina Termens, d'AgroBank; Albert Roselló, de SAF Sampling, i Andreu Salvadó, de Tech4Agro, per analitzar els reptes de la digitalització del camp i les oportunitats per fer-lo més eficient i sostenible. També coneixem quatre start-ups innovadores: Quota Vita, Agrin'pulse, EuroPistachios i Agrodevices. Finalment, parlem amb José Antonio Bonet, d'Agrotecnio; Orson Acosta, d'Azolla Projects, i Sònia Hurtado, de Poseidona, sobre com transformar la recerca científica en projectes empresarials viables.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/sensors-robots-i-emprenedors-com-la-tecnologia-revoluciona-lagricultura-i-la-ram/audio/1295828/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1295828"
+      }
+    }
+  ]
 }
