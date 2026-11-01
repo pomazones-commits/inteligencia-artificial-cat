@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-01T05:18:51.753Z",
+ "actualitzat": "2026-11-01T09:14:28.997Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f6b57f433e36",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA distorsiona els resultats de les grans tecnològiques",
+   "url": "https://empreses.ara.cat/innovacio/ia-distorsiona-resultats-grans-tecnologiques_1_5894844.html",
+   "publicat": "2026-11-01T06:57:40.000Z"
+  },
+  {
+   "id": "150432f9dd78",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "“És una mala època per celebrar un referèndum i debatre en general amb la manipulació i la IA”",
+   "url": "https://www.diariandorra.ad/la-perla/261101/mala-epoca-per-celebrar-referendum-i-debatre-general-amb-manipulacio-i-ia_207781.html",
+   "publicat": "2026-11-01T05:38:53.000Z"
+  },
   {
    "id": "0e222d644e06",
    "mitja": "El Periódico",
@@ -2642,39 +2664,6 @@
    "titol": "Com ensenyarem català a la intel·ligència artificial?",
    "url": "https://naciodigital.cat/societat/com-ensenyarem-catala-a-la-intelligencia-artificial.html",
    "publicat": "2026-10-25T10:14:00.000Z"
-  },
-  {
-   "id": "948f6a20e4d9",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los recursos a multas de tráfico se disparan en Barcelona coincidiendo con el auge de la IA y las webs ‘quitamultas’",
-   "url": "https://www.elperiodico.com/es/barcelona/20261025/recursos-multas-trafico-barcelona-ia-webs-juicios-135688790",
-   "publicat": "2026-10-25T09:00:32.000Z"
-  },
-  {
-   "id": "446438976762",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "De 0 a 25.000 usuarios en ocho meses: Prudencia.ai, la empresa española que lidera el ranking de fiabilidad de IA jurídica",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261025/11658927/0-25-000-usuarios-ocho-meses-prudencia-ai-empresa-espanola-lidera-ranking-fiabilidad-ia-juridica.html",
-   "publicat": "2026-10-25T07:00:00.000Z"
-  },
-  {
-   "id": "e468982ea7c4",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "China desarrolla una medusa robótica casi invisible capaz de identificar objetivos bajo el agua gracias a la IA",
-   "url": "https://www.lavanguardia.com/neo/gadgets/20261025/11666178/china-desarrolla-medusa-robotica-invisible-capaz-identificar-objetivos-agua-gracias-ia.html",
-   "publicat": "2026-10-25T06:50:00.000Z"
   }
  ]
 }
