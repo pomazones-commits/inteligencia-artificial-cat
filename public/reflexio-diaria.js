@@ -1,33 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-10-31",
-  "title": "El dia que els diners de la IA van començar a demanar comptes",
-  "dek": "La borsa, les agències de qualificació i els inversors d'OpenAI han coincidit a fer la mateixa pregunta: qui paga tot això, i quan es recupera?",
+  "date": "2026-11-01",
+  "title": "Quan l'accés a la IA es converteix en botí",
+  "dek": "Claus robades revenudes per fer servir Claude, agents que ajuden a triar víctimes i models que només obren la porta a qui ha estat aprovat: avui el fil és qui pot fer servir la IA, i a quin preu.",
   "body": [
-    "Ahir dèiem que hi ha molta distància entre el que s'anuncia en IA i el que de debò funciona. Avui, dissabte, la notícia és que qui posa els diners també ho ha començat a notar. Les grans tecnològiques han caigut a la borsa pels dubtes sobre la despesa en IA: Intel ha perdut prop d'un 30% i Google, uns 500.000 milions de valor en un sol dia. Alphabet, Amazon, Meta i Microsoft preveuen gastar aquest any més de 740.000 milions de dòlars en inversions, i tres d'elles ja gasten més del que generen. Els inversors castiguen el que fins fa poc premiaven.",
-    "La pressió no es queda a la borsa. Blackstone ha avisat que Anthropic rebrà una qualificació de deute especulatiu, la «doble B», quan surti a borsa, després d'haver previst una nota d'inversió segura. OpenAI, segons el «Financial Times» i el «Wall Street Journal», ha rebaixat de 30.000 a 20.000 milions la ronda que buscava i de moment n'ha assegurat 11.000, amb una resposta tèbia d'alguns grans inversors. I Nvidia negocia avalar el deute de Nscale perquè pugui construir el centre de dades d'Anthropic a Virgínia de l'Oest: el venedor de xips es fa garant de l'obra perquè la cadena no s'aturi.",
-    "Cal posar-ho en proporció. Cap d'aquestes notícies no diu que la IA s'hagi acabat ni que les grans empreses estiguin en perill: una ronda d'11.000 milions continua sent enorme, i les xifres d'OpenAI vénen de fonts que l'empresa no ha confirmat. El que sí que canvia és el to. Fins ara el capital acceptava gairebé qualsevol promesa; avui demana garanties, rebaixa notes i redueix imports. Fins i tot entre les empreses petites es veu: Ollie, un assistent familiar que havia captat 7,5 milions al setembre, tanca el 6 de novembre perquè no pot seguir el ritme del sector.",
-    "Mentre els diners es tornen prudents, la capacitat tècnica no s'atura, i això és el que fa més interessant el dia. L'institut Epoch AI ha demostrat que un model obert, GLM 5.3, converteix els pegats de seguretat de Firefox en atacs que funcionen abans que arribin als usuaris, per uns 1.000 dòlars cada versió. Anthropic ha fet que Claude fabriqui dades d'aparença innocent que ensenyen un altre model a sabotejar la vigilància. I un estudi a «Nature Communications» troba que els models que «raonen» encerten més diagnòstics, però en donen un 34% més de falsos.",
-    "Les regles, en canvi, arriben a poc a poc i de manera voluntària. OpenAI, Google, Microsoft i Anthropic respectaran un senyal comú perquè les webs diguin que no volen alimentar la IA, però alguns no l'aplicaran fins l'any que ve. OpenAI limitarà la informació sobre armes als menors i tallarà les converses de qui sembli obsessionat amb la violència. Són passos reals, però els decideixen les mateixes empreses i al ritme que elles volen. La tendència del dia és aquesta: el mercat ja posa condicions a la IA abans que ho facin les lleis.",
-    "Què caldrà mirar? Primer, si la ronda d'OpenAI es tanca i a quin preu, i quina nota rep finalment Anthropic quan surti a borsa: seran el termòmetre de la confiança dels inversors. Segon, si el model Kimi K3.1 Pro, que segons Epoch AI podria superar GLM 5.3 en atacs informàtics, publica els pesos a principis de novembre com està previst. I tercer, si la prudència dels inversors s'escampa a les empreses emergents: avui Wabi i Dream encara han trobat milions, però Ollie ja ha hagut de plegar. El dia que les rondes petites també s'aturin, la pregunta ja no serà qui paga, sinó qui queda."
+    "Si ahir el fil del dia eren els diners que la IA ha començat a demanar comptes, avui el protagonista és més prosaic i més inquietant: l'accés. Diverses notícies d'aquest diumenge 1 de novembre, de la ciberseguretat a la ciència i el negoci, que no tenen res a veure entre elles a primera vista, apunten al mateix lloc. Poder fer servir un model potent s'ha convertit en un bé que es compra, es raciona, es vigila i, cada vegada més, es roba. I els lladres no són només persones: sovint són agents d'IA que treballen per a algú altre.",
+    "La peça més clara és l'informe de Wiz sobre l'«octubre negre»: nou plataformes per a programadors d'IA han patit intrusions aquest mes, l'última Northflank, i els atacants hi buscaven sobretot les claus que donen accés als models. En dos casos, aquestes claus van servir per fer centenars de milers de crides a Claude i gastar més de 100.000 dòlars a compte d'una altra empresa. Al costat, Chainalysis explica que uns intrusos amb agents d'IA li han robat dades de clients, i Cisco Talos descriu un programa per robar dades que demana a Claude, Kimi o Gemini quant val cada víctima.",
+    "El contrast amb una altra notícia del dia és revelador. Darkbloom, la xarxa on particulars cedien el seu Mac per fer funcionar models, admet que els guanys han quedat en cèntims perquè el preu de processar text amb IA ha caigut en picat: l'índex de Ramp situa el cost mitjà dels models d'Anthropic en una quarta part del que era al maig. És a dir, la IA legal és cada vegada més barata i, alhora, hi ha prou demanda d'accés encara més barat perquè sorgeixi un mercat de claus robades. No és una contradicció: és el senyal que aquest accés ja és una mercaderia corrent.",
+    "Les empreses responen tancant portes. OpenAI presenta GPT-Rosalind-6, un model per a biologia que només podran fer servir laboratoris aprovats, i alhora anuncia que entrenarà els seus models amb les sessions de ciberseguretat del programa Daybreak Blue, que fins ara en quedaven fora. Anthropic estén la marca d'aigua invisible als models antics de Claude, però en dos es pot esquivar canviant un paràmetre. I ChatGPT es prepara per ajuntar els modes Chat i Work amb un únic límit d'ús compartit. Racionar, marcar i decidir qui entra s'ha convertit en una part del producte tan important com el model mateix.",
+    "La ciència del dia mostra l'altra cara d'aquest accés. Equips de Linköping, de Jerusalem i de Vanderbilt han fet servir l'aprenentatge automàtic per trobar materials amagats en bases de dades, classificar ADN del sòl o millorar enzims, i un agent basat en Claude ha triat una teràpia gènica i ha dirigit una injecció al cervell d'un ratolí, amb un veterinari al costat. Són resultats que depenen de tenir models a l'abast. La tendència que es dibuixa és la d'un món on el mateix accés que accelera un laboratori és el que un atacant vol robar, i on cada empresa decideix sola on posa la tanca.",
+    "Demà caldrà mirar si les plataformes afectades expliquen com hi van entrar i si els proveïdors de models, Anthropic i Amazon entre ells, prenen mesures contra la reventa de claus robades. També si la nota negativa de S&P sobre Meta, que avui allarga el debat d'ahir sobre qui paga la despesa en IA, té continuació en altres agències. I, sobretot, si el racionament de l'accés als models més potents, que avui ha fet un pas més amb OpenAI, es converteix en la norma del sector o es queda en excepció per a les àrees més delicades."
   ],
   "signals": [
     {
-      "title": "Les tecnològiques s'enfonsen a la borsa pels dubtes sobre la despesa en IA: Intel cau prop d'un 30% i Google perd 500.000 milions en un dia",
-      "slug": "tecnologiques-borsa-dubtes-despesa-ia-google-intel"
+      "title": "Nou plataformes per a programadors d'IA han patit intrusions a l'octubre, i amb dues claus robades s'han gastat més de 100.000 dòlars en Claude",
+      "slug": "wiz-octubre-negre-plataformes-ia-northflank-claus-robades"
     },
     {
-      "title": "Anthropic rebrà una qualificació de deute especulatiu després de sortir a borsa, segons el «Financial Times»",
-      "slug": "anthropic-qualificacio-deute-especulatiu-blackstone"
+      "title": "Un programa per robar dades demana a Claude, Kimi o Gemini que calculin quant val cada víctima, segons Cisco Talos",
+      "slug": "volta-programari-espia-ia-valora-victimes"
     },
     {
-      "title": "ACTUALITZACIÓ: OpenAI rebaixa a 20.000 milions la ronda que volia tancar i de moment només n'ha assegurat 11.000",
-      "slug": "actualitzacio-openai-rebaixa-ronda-20000-milions-11000-assegurats"
+      "title": "OpenAI presenta GPT-Rosalind-6, un model per a biologia i fàrmacs que només podran fer servir laboratoris aprovats",
+      "slug": "openai-gpt-rosalind-6-biologia-acces-restringit"
     },
     {
-      "title": "Un model d'IA obert converteix els pegats de seguretat de Firefox en atacs que funcionen abans que els usuaris rebin l'actualització",
-      "slug": "epoch-ai-glm-5-3-explota-correccions-firefox-abans-actualitzacio"
+      "title": "Llogar el Mac per fer funcionar models d'IA ja gairebé no dona diners: Darkbloom admet que la caiguda de preus ha deixat els guanys en cèntims",
+      "slug": "darkbloom-macs-inferencia-ia-guanys-baixos-preu-tokens"
     }
   ],
   "read": "3 MIN",
-  "words": 595
+  "words": 604
 };

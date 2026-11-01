@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-10-31",
+    "title": "El dia que els diners de la IA van començar a demanar comptes",
+    "dek": "La borsa, les agències de qualificació i els inversors d'OpenAI han coincidit a fer la mateixa pregunta: qui paga tot això, i quan es recupera?",
+    "body": [
+      "Ahir dèiem que hi ha molta distància entre el que s'anuncia en IA i el que de debò funciona. Avui, dissabte, la notícia és que qui posa els diners també ho ha començat a notar. Les grans tecnològiques han caigut a la borsa pels dubtes sobre la despesa en IA: Intel ha perdut prop d'un 30% i Google, uns 500.000 milions de valor en un sol dia. Alphabet, Amazon, Meta i Microsoft preveuen gastar aquest any més de 740.000 milions de dòlars en inversions, i tres d'elles ja gasten més del que generen. Els inversors castiguen el que fins fa poc premiaven.",
+      "La pressió no es queda a la borsa. Blackstone ha avisat que Anthropic rebrà una qualificació de deute especulatiu, la «doble B», quan surti a borsa, després d'haver previst una nota d'inversió segura. OpenAI, segons el «Financial Times» i el «Wall Street Journal», ha rebaixat de 30.000 a 20.000 milions la ronda que buscava i de moment n'ha assegurat 11.000, amb una resposta tèbia d'alguns grans inversors. I Nvidia negocia avalar el deute de Nscale perquè pugui construir el centre de dades d'Anthropic a Virgínia de l'Oest: el venedor de xips es fa garant de l'obra perquè la cadena no s'aturi.",
+      "Cal posar-ho en proporció. Cap d'aquestes notícies no diu que la IA s'hagi acabat ni que les grans empreses estiguin en perill: una ronda d'11.000 milions continua sent enorme, i les xifres d'OpenAI vénen de fonts que l'empresa no ha confirmat. El que sí que canvia és el to. Fins ara el capital acceptava gairebé qualsevol promesa; avui demana garanties, rebaixa notes i redueix imports. Fins i tot entre les empreses petites es veu: Ollie, un assistent familiar que havia captat 7,5 milions al setembre, tanca el 6 de novembre perquè no pot seguir el ritme del sector.",
+      "Mentre els diners es tornen prudents, la capacitat tècnica no s'atura, i això és el que fa més interessant el dia. L'institut Epoch AI ha demostrat que un model obert, GLM 5.3, converteix els pegats de seguretat de Firefox en atacs que funcionen abans que arribin als usuaris, per uns 1.000 dòlars cada versió. Anthropic ha fet que Claude fabriqui dades d'aparença innocent que ensenyen un altre model a sabotejar la vigilància. I un estudi a «Nature Communications» troba que els models que «raonen» encerten més diagnòstics, però en donen un 34% més de falsos.",
+      "Les regles, en canvi, arriben a poc a poc i de manera voluntària. OpenAI, Google, Microsoft i Anthropic respectaran un senyal comú perquè les webs diguin que no volen alimentar la IA, però alguns no l'aplicaran fins l'any que ve. OpenAI limitarà la informació sobre armes als menors i tallarà les converses de qui sembli obsessionat amb la violència. Són passos reals, però els decideixen les mateixes empreses i al ritme que elles volen. La tendència del dia és aquesta: el mercat ja posa condicions a la IA abans que ho facin les lleis.",
+      "Què caldrà mirar? Primer, si la ronda d'OpenAI es tanca i a quin preu, i quina nota rep finalment Anthropic quan surti a borsa: seran el termòmetre de la confiança dels inversors. Segon, si el model Kimi K3.1 Pro, que segons Epoch AI podria superar GLM 5.3 en atacs informàtics, publica els pesos a principis de novembre com està previst. I tercer, si la prudència dels inversors s'escampa a les empreses emergents: avui Wabi i Dream encara han trobat milions, però Ollie ja ha hagut de plegar. El dia que les rondes petites també s'aturin, la pregunta ja no serà qui paga, sinó qui queda."
+    ],
+    "signals": [
+      {
+        "title": "Les tecnològiques s'enfonsen a la borsa pels dubtes sobre la despesa en IA: Intel cau prop d'un 30% i Google perd 500.000 milions en un dia",
+        "slug": "tecnologiques-borsa-dubtes-despesa-ia-google-intel"
+      },
+      {
+        "title": "Anthropic rebrà una qualificació de deute especulatiu després de sortir a borsa, segons el «Financial Times»",
+        "slug": "anthropic-qualificacio-deute-especulatiu-blackstone"
+      },
+      {
+        "title": "ACTUALITZACIÓ: OpenAI rebaixa a 20.000 milions la ronda que volia tancar i de moment només n'ha assegurat 11.000",
+        "slug": "actualitzacio-openai-rebaixa-ronda-20000-milions-11000-assegurats"
+      },
+      {
+        "title": "Un model d'IA obert converteix els pegats de seguretat de Firefox en atacs que funcionen abans que els usuaris rebin l'actualització",
+        "slug": "epoch-ai-glm-5-3-explota-correccions-firefox-abans-actualitzacio"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 595
+  },
+  {
     "date": "2026-10-30",
     "title": "La distància entre l'anunci i el que funciona",
     "dek": "Avui la IA ha arribat a l'òrbita, a les urgències i a la porta dels restaurants, però gairebé cada notícia porta al costat una xifra que rebaixa la promesa.",
