@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-01T09:14:28.997Z",
+ "actualitzat": "2026-11-01T11:31:59.704Z",
  "fonts": 44,
  "articles": [
   {
@@ -2653,17 +2653,6 @@
    "titol": "La Junta reúne al ecosistema europeo de la inteligencia artificial la última semana de octubre en Granada",
    "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/25/2736321/junta-reune-ecosistema-europeo-inteligencia-artificial-ultima-semana-octubre-granada.html",
    "publicat": "2026-10-25T11:59:37.000Z"
-  },
-  {
-   "id": "5dd9767f5873",
-   "mitja": "Nació Digital",
-   "font": "naciodigital-totes",
-   "icona": "/assets/premsa/nacio-digital.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Com ensenyarem català a la intel·ligència artificial?",
-   "url": "https://naciodigital.cat/societat/com-ensenyarem-catala-a-la-intelligencia-artificial.html",
-   "publicat": "2026-10-25T10:14:00.000Z"
   }
  ]
 }
