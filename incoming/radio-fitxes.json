@@ -1,1 +1,35 @@
-{"fitxes": [], "descartats": []}
+{
+  "fitxes": [
+    {
+      "id": "3cat-1296104",
+      "emissora": "Catalunya Ràdio",
+      "programa": "El suplement",
+      "programa_url": "https://www.3cat.cat/3cat/el-suplement/",
+      "data": "2026-11-01",
+      "durada": "30 min",
+      "titol": "Un filòsof, un tecnòleg i una investigadora debaten a «El suplement» el lloc de la IA a la nostra època",
+      "convidats": [
+        {
+          "nom": "Francesc Torralba",
+          "rol": "filòsof"
+        },
+        {
+          "nom": "Pau Garcia-Milà",
+          "rol": "tecnòleg"
+        },
+        {
+          "nom": "Ariadna Tohà Dalmau",
+          "rol": "doctoranda en IA"
+        }
+      ],
+      "resum": "«El suplement» de Catalunya Ràdio dedica una conversa de mitja hora a la intel·ligència artificial, que el programa presenta com el gran tema de la nostra època. Hi participen el filòsof Francesc Torralba, el tecnòleg Pau Garcia-Milà i la doctoranda en IA Ariadna Tohà Dalmau. Segons el títol de l'emissora, Garcia-Milà hi defensa que els joves són els que ho tenen més difícil per trobar feina amb la IA.",
+      "tema": "societat",
+      "url": "https://www.3cat.cat/3cat/pau-garcia-mila-qui-ho-te-mes-fotut-per-aconseguir-feina-amb-la-ia-son-els-joves/audio/1296104/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1296104"
+      }
+    }
+  ],
+  "descartats": []
+}
