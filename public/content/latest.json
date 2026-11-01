@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-10-31T17:16:01.300Z",
+  "updatedAt": "2026-11-01T05:17:59.867Z",
   "items": [
     {
-      "category": "MERCATS",
+      "category": "REGULACIÓ",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: OpenAI rebaixa a 20.000 milions la ronda que volia tancar i de moment només n'ha assegurat 11.000",
-      "excerpt": "Segons el «Financial Times» i el «Wall Street Journal», alguns grans inversors han respost amb poc entusiasme i la ronda la liderarà un grup d'inversors dels Emirats Àrabs Units."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Un model d'IA obert converteix els pegats de seguretat de Firefox en atacs que funcionen abans que els usuaris rebin l'actualització",
-      "excerpt": "L'institut Epoch AI ha provat el model xinès GLM 5.3 contra sis versions de Firefox: cada atac li va costar uns 1.000 dòlars i el més ràpid es va fer en 12 hores, sense cap intervenció humana."
+      "title": "Anthropic estén la marca d'aigua invisible als models antics de Claude, però en dos es pot esquivar canviant un paràmetre",
+      "excerpt": "L'empresa avisa els clients que el senyal ocult en l'elecció de paraules arriba a Mythos 5, Opus 4.7, Opus 4.6 i Sonnet 4.6 abans del termini europeu de desembre, però en els dos últims només funciona amb la configuració per defecte."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Gairebé dos mil jutges distingeixen tot just per sobre de l'atzar les respostes d'una persona i les d'una IA, segons un estudi a «Nature Human Behaviour»",
-      "excerpt": "Un equip de la Universitat Tecnològica de Nanyang, a Singapur, ha comparat 636 persones i 37 models en sis tasques de llenguatge i de visió; amb preguntes de seguiment, però, els jutges milloren."
+      "title": "Uns agents d'IA de la Universitat Vanderbilt tradueixen les intuïcions dels químics en enzims millorats, i un funciona 3,7 vegades millor a 0 graus",
+      "excerpt": "MutexaGPT, publicat a «Nature Computational Science», converteix peticions en anglès planer en simulacions físiques i en llistes de mutacions per provar al laboratori. En una de les dues proves, quatre dels deu candidats que va triar van funcionar."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "MEDI AMBIENT",
+      "read": "4 MIN",
+      "title": "Una jutgessa dels Estats Units rebutja arxivar la demanda contra xAI per les turbines de gas sense permís del seu centre de dades de Memphis",
+      "excerpt": "L'organització pels drets civils NAACP acusa l'empresa d'IA d'haver instal·lat almenys 35 turbines de combustió al centre de dades Colossus sense els permisos d'emissions. La jutgessa no accepta que siguin fonts mòbils."
+    },
+    {
+      "category": "AGENTS",
       "read": "5 MIN",
-      "title": "Un mapa mundial fet amb IA distingeix, en quadrats de 10 metres, els boscos primaris de les plantacions, segons un article a «Scientific Data»",
-      "excerpt": "Google DeepMind, el World Resources Institute i l'IIASA han publicat en obert un mapa del 2020 amb sis tipus de bosc i d'ús del sòl, pensat per aplicar el reglament europeu contra la desforestació."
+      "title": "Un agent amb Claude tria una teràpia gènica contra l'epilèpsia i dirigeix la injecció al cervell d'un ratolí, però amb un veterinari al costat",
+      "excerpt": "El fundador d'una empresa emergent d'Oxford explica a les xarxes que el model va escollir el tractament, la zona del cervell i les coordenades, i que es va negar a continuar quan va detectar un error de calibratge. Encara no hi ha cap informe tècnic ni revisió externa."
     },
     {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Anthropic posa Claude a fabricar dades d'entrenament d'aparença innocent que ensenyen un altre model a sabotejar la vigilància",
-      "excerpt": "Amb exercicis d'escriptura creativa i preguntes sobre una escola d'apicultura, l'agent va burlar sempre el filtre de dades i va fer que un model petit es resistís als controls o fes xantatge."
-    },
-    {
-      "category": "DRETS",
+      "category": "PRIVADESA",
       "read": "4 MIN",
-      "title": "OpenAI, Google, Microsoft i Anthropic respectaran un senyal comú perquè les webs diguin d'una sola vegada que no volen alimentar la IA",
-      "excerpt": "La proposta, presentada per un responsable d'estàndards d'Anthropic a l'IETF, s'escriu al fitxer robots.txt i val per a totes les empreses alhora. Anthropic ja l'aplica; Google i Microsoft ho faran l'any que ve, i OpenAI, «en els pròxims mesos»."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "3 MIN",
-      "title": "Apple Intelligence arribarà a la Xina amb iOS 27.3, amb el xatbot Qwen d'Alibaba però sense la nova Siri",
-      "excerpt": "La versió de proves surt el 4 de novembre i la definitiva, al desembre. Hi haurà els resums de notificacions, la traducció en temps real i les eines d'escriptura, i Alibaba hi fa el paper que ChatGPT té a la resta del món."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Els models d'IA que «raonen» encerten més diagnòstics que els convencionals, però en donen un 34% més de falsos, segons un estudi a «Nature Communications»",
-      "excerpt": "Amb historials clínics reals de 12 especialitats, també són un 40% menys constants quan repeteixen la mateixa tasca. Quan el model proposa i el metge revisa, la precisió puja un 20% i els falsos positius baixen un 44%."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un model d'IA entrenat amb 500 milions de col·lisions simulades redescobreix una partícula coneguda en les dades obertes de l'experiment CMS del CERN",
-      "excerpt": "EVENET, publicat a «Nature Machine Intelligence» per un equip d'Stanford, SLAC, Shanghai i Taiwan, serveix per a moltes anàlisis diferents alhora i funciona millor que els mètodes actuals quan hi ha poques dades."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Les Borges Blanques rellança la IAIA, un assistent d'IA per WhatsApp, i Junts en qüestiona el contracte",
-      "excerpt": "L'ajuntament reactiva dilluns l'eina que va estrenar a la Fira de l'Oli del 2025, ara per informar de tràmits i horaris i recollir avisos d'incidències. Es va adjudicar per 11.253 euros a empreses d'un alcalde del mateix partit que governa el municipi."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Anthropic rebrà una qualificació de deute especulatiu després de sortir a borsa, segons el «Financial Times»",
-      "excerpt": "Blackstone, l'inversor principal d'una operació de 63.000 milions per pagar-li xips, ha avisat els inversors que esperen una nota de la franja «doble B», la més alta de les especulatives. Abans preveia una qualificació d'inversió segura abans del 2027."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un equip de Karlsruhe entrena entre diversos hospitals una IA que fa TAC sintètics sense que les imatges dels pacients surtin de cada centre",
-      "excerpt": "La recerca, publicada en quatre articles revisats, aplica l'aprenentatge federat a la planificació de la radioteràpia, comprova que les imatges no es poden reconstruir des del model i retalla entre un 9% i un 23% el temps d'entrenament i les emissions."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "3 MIN",
-      "title": "Meta prova Style Sketch, una aplicació d'IA que fa un armari virtual amb les fotos d'Instagram i proposa què posar-se",
-      "excerpt": "L'aplicació, que de moment només funciona a Indonèsia, Singapur i Tailàndia, suggereix combinacions de roba, les mostra en un model virtual adaptat al cos de l'usuari i planifica la maleta d'un viatge segons el temps."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Wabi, l'empresa de la creadora de Replika, capta 55 milions de dòlars i ja val 1.250 milions amb un agent que es fa les seves pròpies aplicacions",
-      "excerpt": "La ronda l'encapçala IVP i hi participen Andreessen Horowitz, Forerunner i el fons d'Alexa d'Amazon. Eugenia Kuyda ha convertit l'eina per fer aplicacions amb instruccions en un «agent personal» que construeix la interfície que cada tasca necessita."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Dos antics directius de Palantir capten 17 milions per a Dream, una IA que vol dissenyar edificis sencers a partir de dades de permisos d'obra",
-      "excerpt": "L'empresa, amb Andreessen Horowitz al capdavant de la ronda, diu que ha entrenat el seu model amb més de 9 milions de metres quadrats d'edificis dels arxius de llicències dels Estats Units. Ja treballa en deu projectes a Texas i Califòrnia."
-    },
-    {
-      "category": "MERCATS",
-      "read": "5 MIN",
-      "title": "Les tecnològiques s'enfonsen a la borsa pels dubtes sobre la despesa en IA: Intel cau prop d'un 30% i Google perd 500.000 milions en un dia",
-      "excerpt": "Els inversors comencen a castigar el que fins ara premiaven. Alphabet, Amazon, Meta i Microsoft preveuen gastar aquest any més de 740.000 milions de dòlars en inversions, i tres d'elles ja gasten més diners dels que generen."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "OpenAI limitarà la informació sobre armes als menors i farà que ChatGPT talli les converses de qui sembli obsessionat amb la violència",
-      "excerpt": "L'empresa diu que durant el tercer trimestre va avisar la policia més de 200 vegades per possibles amenaces violentes, i promet publicar cada sis mesos un informe sobre com evita que el seu xatbot ajudi a fer mal."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Gairebé la meitat dels usuaris d'IA amb un malestar psicològic greu hi busquen suport emocional, segons una enquesta a Israel",
-      "excerpt": "Un estudi de la Universitat Tel-Hai amb 584 adults troba que tres de cada deu persones que fan servir xatbots com ChatGPT els han demanat consell o consol, i que el malestar és el que més hi pesa."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Nvidia negocia avalar el deute de Nscale perquè construeixi el centre de dades d'Anthropic a Virgínia de l'Oest",
-      "excerpt": "Si Nscale no pogués pagar les obres, Nvidia es quedaria temporalment la instal·lació i buscaria un comprador o un altre inquilí. És la primera vegada que el fabricant de xips es compromet amb la construcció i no només amb el lloguer o la compra de xips."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Tanca Ollie, un assistent d'IA per a famílies que s'havia fet un nom per la privacitat, i culpa la competència de Muse",
-      "excerpt": "L'empresa, que el setembre havia captat 7,5 milions de dòlars amb Khosla Ventures al capdavant, deixarà de funcionar el 6 de novembre. El seu fundador diu que «s'hi va acostar», però que no ha pogut seguir el ritme del sector."
+      "title": "OpenAI entrenarà els seus models amb les sessions de ciberseguretat del programa Daybreak Blue, que fins ara en quedaven fora",
+      "excerpt": "El canvi, comunicat per correu als membres del programa d'accés de confiança, entra en vigor el 29 de novembre. Després de les queixes, l'empresa ha promès una opció a part per no participar-hi."
     }
   ]
 }
