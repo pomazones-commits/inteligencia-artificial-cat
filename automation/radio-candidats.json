@@ -1,5 +1,5 @@
 {
-  "generat": "2026-10-31T09:12:42.305Z",
+  "generat": "2026-11-01T13:19:38.515Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -8,7 +8,7 @@
       "programa": "Revolució 4.0",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 13
+      "sobre_ia": 12
     },
     {
       "font": "3cat",
@@ -32,7 +32,7 @@
       "programa": "El suplement",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 2
     },
     {
       "font": "3cat",
@@ -80,7 +80,7 @@
       "programa": "Lletra lligada",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 0
     },
     {
       "font": "rtve",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 25,
+      "audios": 27,
       "sobre_ia": 1
     },
     {
@@ -177,5 +177,23 @@
       "sobre_ia": 2
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "3cat-1296104",
+      "emissora": "Catalunya Ràdio",
+      "programa": "El suplement",
+      "programa_url": "https://www.3cat.cat/3cat/el-suplement/",
+      "data": "2026-11-01",
+      "durada": "30 min",
+      "titol_original": "Pau Garcia-Milà: \"Qui ho té més fotut per aconseguir feina amb la IA són els joves\"",
+      "descripcio_original": "Si hi ha un tema que cada vegada ocupa més espai a la nostra conversa, aquest és la intel·ligència artificial. Reunim el filòsof Francesc Torralba, el tecnòleg Pau Garcia-Milà i la doctoranda en IA Ariadna Tohà Dalmau per debatre sobre el gran protagonista de la nostra època.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.3cat.cat/3cat/pau-garcia-mila-qui-ho-te-mes-fotut-per-aconseguir-feina-amb-la-ia-son-els-joves/audio/1296104/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1296104"
+      }
+    }
+  ]
 }
