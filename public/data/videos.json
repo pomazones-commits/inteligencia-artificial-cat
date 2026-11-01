@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-10-31T09:13:36.492Z",
+ "actualitzat": "2026-11-01T05:18:50.337Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "rqZpgKq2Ocw",
+   "titol": "Les accions de les tecnològiques cauen fort pels dubtes sobre els projectes d'IA",
+   "canal": "3CatInfo",
+   "canalId": "UCKseJ43xWvnywQzl6kYbf0g",
+   "grup": "catala",
+   "categoria": "altres",
+   "idioma": "ca",
+   "publicat": "2026-10-31T23:12:31.000Z",
+   "descripcio": "Nasdaq tanca l'octubre amb la pitjor caiguda des de fa un any i mig. Subscriu-te al canal oficial de 3CatInfo a YouTube i no et perdis l'actualitat de Catalunya i el món: 👉https://www.youtube.com/@3catinfo?sub_confirmation=1 Vols rebre cada setmana el butlletí gratuït \"Mirada global\"? Descobreix le",
+   "miniatura": "/assets/videos/rqZpgKq2Ocw.jpg"
+  },
   {
    "id": "LRSJXRsKmLQ",
    "titol": "NVIDIA GTC Berlin 2026 Event Highlights: AI in Action Across Europe",
@@ -1108,18 +1120,6 @@
    "publicat": "2026-10-12T13:01:56.000Z",
    "descripcio": "#eunews #europeancommission #soteu From strengthening Europe's partnership with Canada and boosting competitiveness to embracing AI, tackling climate change, reinforcing Europe's security and protecting children online, President Ursula von der Leyen outlines the EU's priorities in her 2026 State of",
    "miniatura": "/assets/videos/BruxDak0xnM.jpg"
-  },
-  {
-   "id": "Ju-JyxDgV7g",
-   "titol": "How Oracle Uses Codex to Help Business Users Get Answers",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "empreses",
-   "idioma": "en",
-   "publicat": "2026-10-10T21:40:25.000Z",
-   "descripcio": "Richard Lam, Group Vice President at Oracle Applications Lab, shares how his team uses Codex to help business users get answers from company data. By describing the outcome they want, users can get an analysis, a report, or an application, with Codex gathering the information from internal systems. ",
-   "miniatura": "/assets/videos/Ju-JyxDgV7g.jpg"
   },
   {
    "id": "IsL4dVezs18",
