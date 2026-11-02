@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-02T17:28:24.899Z",
+ "actualitzat": "2026-11-02T22:54:48.316Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "4d7aa65f5a22",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Meta planea una emisión de bonos de 20.000 millones y reabre nuevas dudas sobre los costes de la IA",
+   "url": "https://cincodias.elpais.com/companias/2026-11-02/meta-planea-una-emision-de-bonos-de-20000-millones-y-reabre-nuevas-dudas-sobre-los-costes-de-la-ia.html",
+   "publicat": "2026-11-02T21:06:50.000Z"
+  },
+  {
+   "id": "021c023f6a0b",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Oracle vuelve a asustar al mercado al colocar 20.000 millones de dólares entre deuda y capital para financiar su inversión en IA",
+   "url": "https://cincodias.elpais.com/companias/2026-11-02/oracle-vuelve-a-asustar-al-mercado-al-colocar-20000-millones-de-dolares-entre-deuda-y-capital-para-financiar-su-inversion-en-ia.html",
+   "publicat": "2026-11-02T21:05:48.000Z"
+  },
   {
    "id": "00607cee6769",
    "mitja": "Cinco Días",
@@ -2306,140 +2328,6 @@
    "titol": "Educación pregunta a los alumnos por la calidad de sus profesores y por el uso de Inteligencia Artificial",
    "url": "https://www.lasprovincias.es/comunitat/educacion-pregunta-alumnos-calidad-profesores-uso-inteligencia-20261026004126-nt.html",
    "publicat": "2026-10-26T23:41:26.000Z"
-  },
-  {
-   "id": "98f671d0634d",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Moncloa da un trato especial a la gigafactoría de IA y la salva de cumplir obligaciones que impone al resto de centros de datos",
-   "url": "https://www.informacion.es/economia/2026/10/26/centros-de-datos-moncloa-trato-especial-gigafactoria-ia-tarragona-135788199.html",
-   "publicat": "2026-10-26T22:03:35.000Z"
-  },
-  {
-   "id": "9fa4a5b2c26a",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Moncloa da un trato especial a la gigafactoría de IA de Tarragona y la salva de cumplir obligaciones que impone al resto de centros de datos",
-   "url": "https://www.elperiodico.com/es/economia/20261026/centros-de-datos-moncloa-trato-especial-gigafactoria-ia-tarragona-135788146",
-   "publicat": "2026-10-26T22:00:22.000Z"
-  },
-  {
-   "id": "efca1ca43f35",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La UA participa en un proyecto europeo para adaptar libros de texto con inteligencia artificial",
-   "url": "https://www.informacion.es/universidad/2026/10/26/ua-participa-proyecto-europeo-adaptar-bc-135772860.html",
-   "publicat": "2026-10-26T21:30:38.000Z"
-  },
-  {
-   "id": "9bfd2ef85a60",
-   "mitja": "Diari La Veu",
-   "font": "diarilaveu",
-   "icona": "/assets/premsa/diari-la-veu.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La revolució de la veu i la IA: reflexions d’un entrenador de models des de l’AI Congress",
-   "url": "https://www.diarilaveu.cat/societat/la-revolucio-de-la-veu-i-la-ia-reflexions-dun-entrenador-de-models-des-de-lai-congress-654958",
-   "publicat": "2026-10-26T20:30:00.000Z"
-  },
-  {
-   "id": "0a43b9cee178",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Colau demana a Sánchez, Feijóo i Abascal no utilitzar la IA \"amb ús vexatori\" durant la campanya",
-   "url": "https://www.elnacional.cat/ca/politica/colau-demana-sanchez-feijoo-abascal-no-utilitzar-ia-us-vexatori-durant-campanya_1716019_102.html",
-   "publicat": "2026-10-26T19:18:34.000Z",
-   "noticia": "colau-carta-ia-vexatoria-campanya-29n",
-   "noticiaTitol": "Ada Colau proposa a Sánchez, Feijóo i Abascal un pacte per no fer servir vídeos falsos amb IA contra els rivals a la campanya del 29-N"
-  },
-  {
-   "id": "a475758d8400",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic anuncia la imminent sortida a borsa mentre alerta del \"risc catastròfic\" de la IA",
-   "url": "https://www.ara.cat/economia/tecnologia/anthropic-anuncia-imminent-sortida-borsa-alerta-risc-catastrofic-ia_1_5891104.html",
-   "publicat": "2026-10-26T19:04:14.000Z"
-  },
-  {
-   "id": "1679fa295c17",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Demanden la companyia d'IA Anthropic per utilitzar les cançons d'Elvis Presley sense permís",
-   "url": "https://www.ara.cat/cultura/musica/ia-anthropic-utilitzar-cancons-elvis-presley-permis_1_5891080.html",
-   "publicat": "2026-10-26T19:00:17.000Z"
-  },
-  {
-   "id": "d6d36b1377e2",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "És un dels meus gamma alta preferits: càmeres impressionants, la millor IA, molta bateria i descompte a Amazon",
-   "url": "https://www.elnacional.cat/ca/tecnologia/es-meus-gamma-alta-preferits-cameres-impressionants-millor-ia-molta-bateria-descompte-amazon_1715956_102.html",
-   "publicat": "2026-10-26T18:30:00.000Z"
-  },
-  {
-   "id": "3b9a22207a55",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Grok, la IA d'Elon Musk, recrea \"L'Odissea\" i presumeix de fidelitat històrica en el seu primer episodi",
-   "url": "https://www.elnacional.cat/ca/tecnologia/grok-ia-elon-musk-recrea-lodissea-presumeix-fidelitat-historica-en-seu-primer-episodi_1715971_102.html",
-   "publicat": "2026-10-26T18:00:00.000Z"
-  },
-  {
-   "id": "6e9061abeae0",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Colau propone al resto de candidatos no hacer un \"uso vejatorio de la IA\" durante la campaña",
-   "url": "https://www.elperiodico.com/es/politica/20261026/colau-propone-candidatos-no-usar-ia-elecciones-135781841",
-   "publicat": "2026-10-26T17:58:31.000Z"
-  },
-  {
-   "id": "f67fdc4970a0",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una tecnología permite enviar aromas por Internet con inteligencia artificial",
-   "url": "https://www.levante-emv.com/tendencias21/2026/10/26/tecnologia-permite-enviar-aromas-internet-135781658.html",
-   "publicat": "2026-10-26T17:54:33.000Z"
-  },
-  {
-   "id": "e459867c9801",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Colau pide a Sánchez, Feijóo y Abascal un pacto para desterrar la IA vejatoria de la campaña",
-   "url": "https://www.lavanguardia.com/politica/20261026/11668700/colau-pide-sanchez-feijoo-abascal-compromiso-desterrar-ia-vejatoria-campana-elecciones-29n.html",
-   "publicat": "2026-10-26T17:52:04.000Z"
   }
  ]
 }
