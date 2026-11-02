@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "València",
+    "category": "IA I SOCIETAT",
+    "date": "02.11.2026",
+    "title": "La Universitat Politècnica de València presenta un bessó digital del barranc del Poyo que preveu amb IA on s'inundarà durant una dana",
+    "summary": "La plataforma PGTEC, de l'institut VRAIN, l'IIAMA i ValgrAI, simula en un o dos minuts l'evolució de les rieres en les 48 hores següents a partir de la pluja en temps real. Els investigadors diuen que ara la sostenen amb els pocs recursos que tenen.",
+    "detail": "Dos anys després de la dana del 29 d'octubre del 2024, que va desbordar el barranc del Poyo i va causar més de dos-cents morts a la província de València, una de les preguntes que continuen obertes és com avisar abans i amb més precisió la població de les zones que s'inundaran. La Universitat Politècnica de València (UPV) hi treballa des del setembre del 2025 amb un projecte finançat pel Ministeri per a la Transformació Digital a través del Centre de Referència d'Economia de les Dades.\n\nAquest dilluns, la UPV ha presentat el resultat: PGTEC, una plataforma de bessons digitals hidrològics, hidràulics i meteorològics connectats, aplicada a la conca del Poyo, desenvolupada per l'institut d'intel·ligència artificial VRAIN, l'Institut d'Enginyeria de l'Aigua i Medi Ambient (IIAMA) i ValgrAI. Amb dades de pluja en temps real, el model hidrològic TETIS pinta els trams de riera amb més risc i en mostra l'evolució en les 48 hores següents, amb simulacions d'un o dos minuts; es pot moure una tempesta, fer-la més intensa o reproduir episodis històrics, com la mateixa dana. Un segon model, HIDRIS, calcula com s'escamparia l'aigua si es desbordés, amb quina profunditat i velocitat, i quins edificis i infraestructures afectaria. La tercera eina, WATER4CAST, fa servir la IA per millorar les previsions meteorològiques i anticipar sequeres i condicions favorables als incendis. El projecte també inclou bessons digitals de les conques de l'Horta Sud i del Carraixet.\n\nLa plataforma permet, a més, veure com canviaria el risc si es fes una obra hidràulica, una pregunta central en el debat sobre les actuacions pendents al Poyo. Segons Vicent Botti, director de VRAIN i director general de ValgrAI, la idea és passar de reaccionar a l'emergència a prendre decisions abans que arribi, i el sistema es podria aplicar a qualsevol altra conca.\n\nL'eina, però, s'ha fet en uns nou mesos i només se n'han pogut explorar algunes funcions. La informació publicada no dona cap mesura de la precisió de les prediccions ni cap validació independent, i l'escenari del Carraixet és una tempesta hipotètica. Els investigadors recorden que «el risc zero no existeix» i Botti admet que ara mateix sostenen el projecte «amb els pocs recursos» que tenen, mentre parlen amb les administracions per continuar-lo.",
+    "source": "Europa Press (Última Hora)",
+    "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/02/2741379/upv-presenta-gemelo-digital-del-barranco-del-poyo-mapa-predice-inundacion-dejara-dana.html",
+    "image": "./assets/upv-besso-digital-barranc-poyo-inundacions-dana-20261102.jpg",
+    "slug": "upv-besso-digital-barranc-poyo-inundacions-dana"
+  },
+  {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "31.10.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.diarilaveu.cat/llengua/lavl-resol-el-dubte-com-sapostrofa-la-sigla-ia-655248",
     "image": "./assets/avl-apostrofacio-sigla-ia-20261029.jpg",
     "slug": "avl-apostrofacio-sigla-ia"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "28.10.2026",
-    "title": "Artiso, la plataforma d'IA per a la moda de tres exdirectius de Mango, capta més de 3 milions en una ronda liderada per Criteria",
-    "summary": "L'empresa barcelonina, creada a final del 2024 per l'antic equip d'IA de Mango, diu que el seu sistema fa en uns quatre minuts una fitxa tècnica que abans costava de dues a sis hores. Hi inverteixen també Swanlaab, Bynd i el fundador de Ganni.",
-    "detail": "La moda és un dels sectors on la IA generativa ha entrat amb més força: les grans marques la fan servir per dissenyar, fer fotografies de catàleg amb models virtuals i preparar campanyes. Mango va ser una de les pioneres a Catalunya, i el 2024 va fer la seva primera campanya amb imatges generades amb IA. Tres dels responsables d'aquell equip, Sarah Iglesias Hiller, Matthias Brenninkmeijer i Lucas Pastur, van fundar a final del 2024 Artiso, una empresa amb seu a Barcelona.\n\nAquest dimecres, 28 d'octubre, Artiso ha anunciat que ha tancat una ronda presembra de més de 3 milions d'euros, tota en capital, liderada per Criteria Venture Tech, el fons de capital risc de CriteriaCaixa. Hi participen també els fons Swanlaab Venture Factory i Bynd Venture Capital i els inversors particulars David Tomás, cofundador de Cyberclick, i Nicolaj Reffstrup, fundador i antic conseller delegat de la marca danesa Ganni. Els diners serviran per desenvolupar la plataforma, ampliar l'equip amb perfils de moda i de tecnologia i acompanyar els clients a desplegar-la, amb els Estats Units com a mercat clau.\n\nArtiso es presenta com un sistema operatiu d'IA per als equips de moda. Fa servir agents d'IA per acompanyar el procés d'una col·lecció, des dels murals d'inspiració i el disseny fins a les fitxes tècniques, la preproducció, les imatges de producte i el contingut de campanya, sense mostres físiques. Per adaptar els resultats a cada marca, construeix una memòria a partir del seu arxiu, dels productes més venuts i dels seus codis visuals. Segons l'empresa, una fitxa tècnica completa li costa uns quatre minuts, davant de les dues a sis hores habituals, i treballa amb marques mitjanes, grans grups i cases de luxe d'Europa, Amèrica del Nord i Àsia.\n\nLes xifres d'estalvi de temps les dona la mateixa empresa i no s'han comprovat de manera independent, i Artiso no ha fet públics ni els ingressos ni el nombre de clients. Una ronda presembra és la primera fase de finançament d'una empresa jove: l'empresa encara ha de demostrar que la seva plataforma s'implanta a gran escala dins dels equips de disseny de les marques.",
-    "source": "ON Economia",
-    "url": "https://www.elnacional.cat/oneconomia/es/empresas/criteria-encabeza-ronda-tres-millones-euros-en-firma-moda-artiso_1716796_102.html",
-    "image": "./assets/artiso-ronda-criteria-ia-moda-exdirectius-mango-20261028.jpg",
-    "slug": "artiso-ronda-criteria-ia-moda-exdirectius-mango"
   }
 ];
