@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-02T13:22:34.267Z",
+ "actualitzat": "2026-11-02T17:28:25.108Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "Amm9ySSET4c",
+   "titol": "Coinbase on OpenAI Private Intelligence",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-02T16:59:21.000Z",
+   "descripcio": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Int",
+   "miniatura": "/assets/videos/Amm9ySSET4c.jpg"
+  },
   {
    "id": "rqZpgKq2Ocw",
    "titol": "Les accions de les tecnològiques cauen fort pels dubtes sobre els projectes d'IA",
@@ -1099,18 +1111,6 @@
    "noticia": "meta-muse-wonder-models-gamma-alta",
    "noticiaTitol": "Meta estrena Muse Wonder, els seus primers models de gamma alta, i diu que planten cara a GPT-6 Astra i Claude Opus 5.5",
    "resum": "Presentació oficial que el canal AI at Meta ha publicat dels models Muse Wonder i Muse Wonder Full, descrits com a models de gamma alta per a tasques d'agents personals i professionals. Està en anglès."
-  },
-  {
-   "id": "IZXv6a78NDw",
-   "titol": "Code review is no longer the bottleneck",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-12T16:00:08.000Z",
-   "descripcio": "Code review is the new bottleneck. Codex brings pull requests, review feedback, and private conversations about your code into one place. See how to find reviews across repositories, understand changes and risks, apply your team’s review guidelines, and draft comments without switching tools. GitHub",
-   "miniatura": "/assets/videos/IZXv6a78NDw.jpg"
   },
   {
    "id": "IsL4dVezs18",
