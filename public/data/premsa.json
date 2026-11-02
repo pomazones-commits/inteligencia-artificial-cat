@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-02T13:22:23.966Z",
+ "actualitzat": "2026-11-02T17:28:24.899Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "00607cee6769",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "José Luis Escrivá rechaza equiparar las inversiones en IA con otras que acabaron en burbuja",
+   "url": "https://elpais.com/internacional/2026-11-02/jose-luis-escriva-rechaza-equiparar-las-inversiones-en-ia-con-otras-que-acabaron-en-burbuja.html",
+   "publicat": "2026-11-02T17:11:57.000Z"
+  },
+  {
+   "id": "a1a0c0ad5a8e",
+   "mitja": "Diari La Veu",
+   "font": "diarilaveu",
+   "icona": "/assets/premsa/diari-la-veu.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "DANA | La UPV crea un barranc de Poio virtual que prediu inundacions amb IA",
+   "url": "https://www.diarilaveu.cat/medi-ambient/dana-la-upv-crea-un-barranc-de-poio-virtual-que-prediu-inundacions-amb-ia-655844",
+   "publicat": "2026-11-02T16:29:31.000Z"
+  },
+  {
+   "id": "fcc5269c6f93",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los editores europeos en Formentor: “Todos usaremos la IA, la cuestión será con qué fin”",
+   "url": "https://www.lavanguardia.com/cultura/20261102/11674317/editores-europeos-reunen-formentor-debate-inteligencia-artificial.html",
+   "publicat": "2026-11-02T15:50:28.000Z"
+  },
+  {
+   "id": "7677deaef151",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "OpenAI quiere una señal compartida para los proveedores de IA que limite el entrenamiento con contenido de webs",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/02/2741581/openai-quiere-senal-compartida-para-proveedores-limite-entrenamiento-contenido-webs.html",
+   "publicat": "2026-11-02T15:33:00.000Z"
+  },
+  {
+   "id": "9e4f1c14feba",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic reduce las pérdidas y mejora los ingresos antes de la salida a Bolsa",
+   "url": "https://elpais.com/economia/2026-11-02/anthropic-reduce-las-perdidas-y-mejora-los-ingresos-antes-de-la-salida-a-bolsa.html",
+   "publicat": "2026-11-02T15:30:12.000Z"
+  },
+  {
+   "id": "111cc7ef8955",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La sala se reivindica en el Gastronòmic Fòrum Barcelona: \"La inteligencia artificial no nos afecta porque lo nuestro es alma\"",
+   "url": "https://www.elperiodico.com/es/gastronomia/restaurantes/20261102/importancia-servicio-sala-restaurantes-gastronomic-forum-barcelona-2026-135998848",
+   "publicat": "2026-11-02T15:08:35.000Z"
+  },
+  {
+   "id": "37f861206d7b",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Corea del Sud duplicarà la inversió en IA el 2027 fins als 14.100 milions d'euros",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/corea-sud-duplicara-inversio-en-ia-2027-fins-14100-milions-euros_1719304_102.html",
+   "publicat": "2026-11-02T14:26:34.000Z"
+  },
+  {
+   "id": "fe04bcb79bb8",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Creand Fundació impulsa activitats sobre intel·ligència artificial, salut i cultura per a majors de 60 anys",
+   "url": "https://www.diariandorra.ad/nacional/261102/creand-fundacio-impulsa-activitats-sobre-intel-ligencia-artificial-salut-i-cultura-per-majors-60-anys_207877.html",
+   "publicat": "2026-11-02T13:10:06.000Z"
+  },
   {
    "id": "7ff5066076cd",
    "mitja": "Ara",
@@ -2352,219 +2440,6 @@
    "titol": "Colau pide a Sánchez, Feijóo y Abascal un pacto para desterrar la IA vejatoria de la campaña",
    "url": "https://www.lavanguardia.com/politica/20261026/11668700/colau-pide-sanchez-feijoo-abascal-compromiso-desterrar-ia-vejatoria-campana-elecciones-29n.html",
    "publicat": "2026-10-26T17:52:04.000Z"
-  },
-  {
-   "id": "dab9db0cf4e0",
-   "mitja": "À Punt",
-   "font": "apunt",
-   "icona": "/assets/premsa/a-punt.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Meta anuncia un pla de vendes d'accions per valor de 95.000 milions de dòlars per a finançar la IA",
-   "url": "https://www.apuntmedia.es/noticies/economia/meta-anuncia-un-pla-vendes-d-accions-valor-95-000-milions-dolars-financar-ia_1_1904447.html",
-   "publicat": "2026-10-26T17:17:45.000Z",
-   "noticia": "meta-vendes-accions-95000-milions-ia",
-   "noticiaTitol": "ACTUALITZACIÓ: Meta posarà a la venda accions per valor de fins a 95.000 milions de dòlars per pagar la seva aposta per la IA"
-  },
-  {
-   "id": "3d5b12fe2271",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Microsoft propone un plan de salidas voluntarias para 60.000 empleados, un cuarto de su plantilla",
-   "url": "https://www.eldiario.es/tecnologia/microsoft-propone-plan-salidas-voluntarias-60-000-empleados-cuarta-parte-plantilla_1_13616521.html",
-   "publicat": "2026-10-26T17:02:06.000Z"
-  },
-  {
-   "id": "374d5f29e4f4",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Un grup d’experts insta a utilitzar la IA per renovar l’estructura de la UE",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/grup-experts-insta-utilitzar-ia-renovar-estructura-ue_1715914_102.html",
-   "publicat": "2026-10-26T16:37:53.000Z"
-  },
-  {
-   "id": "c94da28aef7a",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic admite que los sistemas de IA podrían plantear riesgos “catastróficos o existenciales para la humanidad”",
-   "url": "https://elpais.com/economia/2026-10-26/anthropic-admite-que-los-sistemas-de-ia-podrian-plantear-riesgos-catastroficos-o-existenciales-para-la-humanidad.html",
-   "publicat": "2026-10-26T16:29:34.000Z"
-  },
-  {
-   "id": "8cbbe55fb4ac",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "‘IA drama’: las telenovelas de TikTok que amplifican las narrativas de los candidatos electorales",
-   "url": "https://www.lavanguardia.com/vida/verificacion/20261026/11668643/ia-drama-telenovelas-tiktok-amplifican-narrativas-candidatos-electorales.html",
-   "publicat": "2026-10-26T16:23:51.000Z"
-  },
-  {
-   "id": "43898f9d927c",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Demanden Anthropic per fer servir les cançons d'Elvis Presley per entrenar la IA",
-   "url": "https://www.3cat.cat/3catinfo/demanden-anthropic-per-fer-servir-les-cancons-delvis-presley-per-entrenar-la-ia/noticia/3436150",
-   "publicat": "2026-10-26T16:02:07.000Z",
-   "noticia": "propietaris-elvis-presley-demanden-anthropic",
-   "noticiaTitol": "Els propietaris dels drets d'Elvis Presley demanden Anthropic per haver entrenat Claude amb 274 cançons seves sense permís"
-  },
-  {
-   "id": "083b02c200ad",
-   "mitja": "À Punt",
-   "font": "apunt",
-   "icona": "/assets/premsa/a-punt.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L'empresa de la IA Claude sol·licita eixir a borsa i cotitzar en el Nasdaq",
-   "url": "https://www.apuntmedia.es/noticies/economia/l-empresa-ia-claude-sol-licita-eixir-borsa-cotitzar-nasdaq_1_1904430.html",
-   "publicat": "2026-10-26T15:54:32.000Z"
-  },
-  {
-   "id": "00fd9b3ac225",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Telefónica España compra el 10% de OGA para impulsar soluciones de IA y defensa",
-   "url": "https://www.lavanguardia.com/dinero/20261026/11668600/telefonica-espana-compra-10-oga-impulsar-soluciones-ia-defensa.html",
-   "publicat": "2026-10-26T15:43:56.000Z"
-  },
-  {
-   "id": "014d95c8760b",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Illa, Moreno, Clavijo y Pradales apuestan por una IA controlada al servicio del ciudadano",
-   "url": "https://www.elperiodico.com/es/politica/20261026/inteligencia-artificial-illa-pradales-clavijo-moreno-future-governtment-135775026",
-   "publicat": "2026-10-26T15:32:23.000Z"
-  },
-  {
-   "id": "68974294b89c",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic oficialitza la sol·licitud per sortir a borsa",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/anthropic-oficialitza-sollicitud-sortir-borsa_1715860_102.html",
-   "publicat": "2026-10-26T15:30:04.000Z"
-  },
-  {
-   "id": "a1d7f40a1cd7",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA als Recursos Humans: pràctica, seguretat i criteri humà",
-   "url": "https://www.segre.com/ca/vint-dos/261026/ia-als-recursos-humans-practica-seguretat-i-criteri-huma_1377036.html",
-   "publicat": "2026-10-26T15:20:28.000Z"
-  },
-  {
-   "id": "b74f5ebffae9",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Meta busca obtener hasta 95.000 millones de dólares para seguir financiando la carrera por la IA",
-   "url": "https://elpais.com/economia/2026-10-26/meta-busca-obtener-hasta-95000-millones-de-dolares-para-seguir-financiando-la-carrera-por-la-ia.html",
-   "publicat": "2026-10-26T15:02:51.000Z"
-  },
-  {
-   "id": "df91b54862d7",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic se adelanta a OpenAI y presenta el folleto para una esperada salida a bolsa de 1,5 billones de dólares",
-   "url": "https://www.elperiodico.com/es/economia/20261026/anthropic-adelanta-openai-presenta-folleto-135773490",
-   "publicat": "2026-10-26T14:16:34.000Z"
-  },
-  {
-   "id": "b339af5dead4",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic presenta la documentación para una de las salidas a bolsa más esperadas",
-   "url": "https://www.lavanguardia.com/dinero/20261026/11668505/anthropic-bolsa-documentacion-folleto-resultados.html",
-   "publicat": "2026-10-26T13:51:31.000Z"
-  },
-  {
-   "id": "26749ae99917",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic registra oficialmente su solicitud para protagonizar uno de los mayores debuts en Bolsa de la historia",
-   "url": "https://www.eldiario.es/tecnologia/anthropic-registra-oficialmente-solicitud-protagonizar-mayores-debuts-bolsa-historia_1_13615888.html",
-   "publicat": "2026-10-26T13:51:25.000Z"
-  },
-  {
-   "id": "b16268fe0523",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La supercomputación y la IA se preparan para llegar a la Luna en 2026",
-   "url": "https://www.levante-emv.com/tendencias21/2026/10/26/supercomputacion-ia-preparan-llegar-luna-135772481.html",
-   "publicat": "2026-10-26T13:48:34.000Z"
-  },
-  {
-   "id": "20ed00fbe8a6",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Davant, la startup gironina que vol ajudar a gestionar els diners amb IA, guanya la Mostra d'Emprenedoria",
-   "url": "https://www.diaridegirona.cat/economia/2026/10/26/davant-startup-gironina-vol-ajudar-135771275.html",
-   "publicat": "2026-10-26T13:40:30.000Z"
-  },
-  {
-   "id": "7ec9fed40e0d",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cómo crear una tienda online con IA sin saber programar",
-   "url": "https://www.lavanguardia.com/comprar/tecnologia/20261013/11642856/como-crear-tienda-online-ia-black-friday-2026-mkt-host.html",
-   "publicat": "2026-10-26T13:37:44.000Z"
-  },
-  {
-   "id": "79d4e3f177c2",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic registra el folleto para protagonizar una de las mayores salidas a Bolsa de la historia",
-   "url": "https://elpais.com/economia/2026-10-26/anthropic-registra-el-folleto-para-protagonizar-una-de-las-mayores-salidas-a-bolsa-de-la-historia.html",
-   "publicat": "2026-10-26T13:27:35.000Z"
   }
  ]
 }
