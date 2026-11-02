@@ -227,6 +227,26 @@
     }
   },
   {
+    "seccio": "empresa",
+    "publica": "2026-11-13",
+    "peca": {
+      "category": "ENTREVISTA",
+      "read": "4 MIN",
+      "author": "Alex Quintans",
+      "role": "CEO i cofundador d’Ovianta",
+      "org": "Ovianta",
+      "orgUrl": "https://ovianta.com/",
+      "eix": "ciencia-salut-i-robotica",
+      "title": "Alex Quintans (Ovianta): què pot decidir un agent de veu a la recepció d’una clínica, i què no",
+      "excerpt": "Entrevista per escrit al cofundador d’Ovianta, l’empresa catalana que posa agents d’IA a atendre les trucades i els WhatsApps de clíniques privades. Explica què fa l’agent amb l’agenda real del centre, què no se li deixa decidir mai, com tracta les dades de salut i què passa quan detecta una urgència.",
+      "quote": "El que no se li deixa decidir mai és donar consell mèdic, interpretar símptomes ni inventar-se informació que no sigui als sistemes de la clínica.",
+      "photo": "./assets/empresa-alex-quintans-20261113.jpg",
+      "photoAlt": "Retrat d’Alex Quintans, CEO i cofundador d’Ovianta",
+      "origin": "Entrevista per escrit. Respostes originals en català.",
+      "body": "## 1. Què fa exactament Ovianta i quin problema dels centres mèdics volíeu resoldre?\n\nOvianta posa agents d'IA a la recepció (el *front-office*) de clíniques privades. Els agents atenen les trucades i els WhatsApps dels pacients: donen, canvien i cancel·len cites, confirmen l'assistència, omplen els forats que queden lliures amb la llista d'espera i fan recordatoris i seguiments.\n\nEl problema és el de sempre en moltes clíniques: en hores punta el telèfon es queda sense contestar i el personal de recepció passa el dia en tasques repetitives en lloc d'atendre el pacient que té davant. L'agent treballa connectat amb el programari de gestió de la clínica, així que proposa i reserva sobre l'agenda real, no sobre un calendari a part.\n\nLa nostra missió és millorar l'accés a la sanitat.\n\n## 2. Què passa per dins quan un pacient truca i li respon un agent de veu? Què decideix el model i què no se li deixa decidir mai?\n\nQuan un pacient truca, l'agent l'atén per veu, entén el que necessita i actua sobre l'agenda real de la clínica a través de la integració amb el seu sistema de gestió: consulta forats, proposa alternatives, reserva, canvia o cancel·la.\n\nEl model conversa, però es mou dins d'un conjunt d'accions definides prèviament; no improvisa fora d'aquest perímetre. El que no se li deixa decidir mai és donar consell mèdic, interpretar símptomes ni inventar-se informació que no sigui als sistemes de la clínica. Aquestes decisions són de les persones del centre.\n\n## 3. El pacient sap que parla amb una IA? Com ho feu i què n'heu observat?\n\nSí, sempre. L'agent es presenta com una IA des de l'inici de la conversa amb el pacient. L'acceptació que observem és superior al 94%.\n\nI qui prefereix parlar amb una persona pot fer-ho: la plataforma transfereix la trucada a una persona real del centre, que rep un breu resum de la conversa abans de parlar amb el pacient.\n\n## 4. Com es tracten les dades de salut que surten en una trucada: consentiment, on es desen i qui hi té accés?\n\nDes del primer moment, el pacient sap que està parlant amb un agent d'IA. Cada clínica decideix si les seves trucades es graven i quant temps es conserven.\n\nPel que fa a la seguretat, les dades es guarden xifrades d'extrem a extrem i emmagatzemades a la Unió Europea. Cada clínica pot accedir a les seves dades, mentre que Ovianta les veu anonimitzades. L'empresa compta, a més, amb un delegat de protecció de dades (DPO).\n\n## 5. Què fa l'agent quan no entén el pacient o quan detecta una possible urgència?\n\nEl principi de disseny és que l'agent no improvisa fora de les accions definides per a ell. Si no entén el pacient, ho torna a intentar una vegada; si continua sense entendre'l, deixa una nota per a l'equip de la clínica en els seus monitors de seguiment. I si detecta una possible urgència, transfereix la trucada al personal que cada clínica ha designat per a aquests casos.\n\nI sempre que una trucada passa a una persona, el personal rep un breu resum de la conversa abans de parlar amb el pacient.\n\n## 6. Com es comporta amb el català, amb els canvis de llengua i amb persones grans o amb dificultats per parlar?\n\nL'agent atén en més de 12 idiomes, entre els quals el català, el gallec i l'èuscar: detecta l'idioma del pacient i pot canviar d'idioma dins de la mateixa trucada, sense que el pacient ho hagi de demanar.\n\nTambé oferim canals alternatius a la veu, com WhatsApp, per a les persones amb dificultats per parlar.\n\n## 7. Què canvia per al personal de recepció i d'admissió dels centres?\n\nLa idea no és substituir la recepció, sinó treure-li la càrrega repetitiva: trucades de cites, confirmacions, recordatoris i forats per cancel·lacions. El personal es queda amb el que necessita una persona: el pacient que té davant i els casos que requereixen criteri humà.\n\nA més, l'equip de recepció hi guanya en satisfacció: es dedica a tasques de més valor i a l'atenció presencial, que és el que diferencia l'experiència del pacient."
+    }
+  },
+  {
     "seccio": "tribuna",
     "publica": "2026-11-15",
     "peca": {
