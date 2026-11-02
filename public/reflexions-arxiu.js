@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-11-01",
+    "title": "Quan l'accés a la IA es converteix en botí",
+    "dek": "Claus robades revenudes per fer servir Claude, agents que ajuden a triar víctimes i models que només obren la porta a qui ha estat aprovat: avui el fil és qui pot fer servir la IA, i a quin preu.",
+    "body": [
+      "Si ahir el fil del dia eren els diners que la IA ha començat a demanar comptes, avui el protagonista és més prosaic i més inquietant: l'accés. Diverses notícies d'aquest diumenge 1 de novembre, de la ciberseguretat a la ciència i el negoci, que no tenen res a veure entre elles a primera vista, apunten al mateix lloc. Poder fer servir un model potent s'ha convertit en un bé que es compra, es raciona, es vigila i, cada vegada més, es roba. I els lladres no són només persones: sovint són agents d'IA que treballen per a algú altre.",
+      "La peça més clara és l'informe de Wiz sobre l'«octubre negre»: nou plataformes per a programadors d'IA han patit intrusions aquest mes, l'última Northflank, i els atacants hi buscaven sobretot les claus que donen accés als models. En dos casos, aquestes claus van servir per fer centenars de milers de crides a Claude i gastar més de 100.000 dòlars a compte d'una altra empresa. Al costat, Chainalysis explica que uns intrusos amb agents d'IA li han robat dades de clients, i Cisco Talos descriu un programa per robar dades que demana a Claude, Kimi o Gemini quant val cada víctima.",
+      "El contrast amb una altra notícia del dia és revelador. Darkbloom, la xarxa on particulars cedien el seu Mac per fer funcionar models, admet que els guanys han quedat en cèntims perquè el preu de processar text amb IA ha caigut en picat: l'índex de Ramp situa el cost mitjà dels models d'Anthropic en una quarta part del que era al maig. És a dir, la IA legal és cada vegada més barata i, alhora, hi ha prou demanda d'accés encara més barat perquè sorgeixi un mercat de claus robades. No és una contradicció: és el senyal que aquest accés ja és una mercaderia corrent.",
+      "Les empreses responen tancant portes. OpenAI presenta GPT-Rosalind-6, un model per a biologia que només podran fer servir laboratoris aprovats, i alhora anuncia que entrenarà els seus models amb les sessions de ciberseguretat del programa Daybreak Blue, que fins ara en quedaven fora. Anthropic estén la marca d'aigua invisible als models antics de Claude, però en dos es pot esquivar canviant un paràmetre. I ChatGPT es prepara per ajuntar els modes Chat i Work amb un únic límit d'ús compartit. Racionar, marcar i decidir qui entra s'ha convertit en una part del producte tan important com el model mateix.",
+      "La ciència del dia mostra l'altra cara d'aquest accés. Equips de Linköping, de Jerusalem i de Vanderbilt han fet servir l'aprenentatge automàtic per trobar materials amagats en bases de dades, classificar ADN del sòl o millorar enzims, i un agent basat en Claude ha triat una teràpia gènica i ha dirigit una injecció al cervell d'un ratolí, amb un veterinari al costat. Són resultats que depenen de tenir models a l'abast. La tendència que es dibuixa és la d'un món on el mateix accés que accelera un laboratori és el que un atacant vol robar, i on cada empresa decideix sola on posa la tanca.",
+      "Demà caldrà mirar si les plataformes afectades expliquen com hi van entrar i si els proveïdors de models, Anthropic i Amazon entre ells, prenen mesures contra la reventa de claus robades. També si la nota negativa de S&P sobre Meta, que avui allarga el debat d'ahir sobre qui paga la despesa en IA, té continuació en altres agències. I, sobretot, si el racionament de l'accés als models més potents, que avui ha fet un pas més amb OpenAI, es converteix en la norma del sector o es queda en excepció per a les àrees més delicades."
+    ],
+    "signals": [
+      {
+        "title": "Nou plataformes per a programadors d'IA han patit intrusions a l'octubre, i amb dues claus robades s'han gastat més de 100.000 dòlars en Claude",
+        "slug": "wiz-octubre-negre-plataformes-ia-northflank-claus-robades"
+      },
+      {
+        "title": "Un programa per robar dades demana a Claude, Kimi o Gemini que calculin quant val cada víctima, segons Cisco Talos",
+        "slug": "volta-programari-espia-ia-valora-victimes"
+      },
+      {
+        "title": "OpenAI presenta GPT-Rosalind-6, un model per a biologia i fàrmacs que només podran fer servir laboratoris aprovats",
+        "slug": "openai-gpt-rosalind-6-biologia-acces-restringit"
+      },
+      {
+        "title": "Llogar el Mac per fer funcionar models d'IA ja gairebé no dona diners: Darkbloom admet que la caiguda de preus ha deixat els guanys en cèntims",
+        "slug": "darkbloom-macs-inferencia-ia-guanys-baixos-preu-tokens"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 604
+  },
+  {
     "date": "2026-10-31",
     "title": "El dia que els diners de la IA van començar a demanar comptes",
     "dek": "La borsa, les agències de qualificació i els inversors d'OpenAI han coincidit a fer la mateixa pregunta: qui paga tot això, i quan es recupera?",
