@@ -98,9 +98,9 @@ La pàgina de l'article mostra sola el peu «Foto: …» per a les fotos reals i
 
 ### Persones de cara, no d'esquena (des del 31.10.2026)
 
-En Rafael: a «El senyal d'avui» sortien massa il·lustracions amb la gent d'esquena. La regla anterior («públic d'esquena, silueta») era per no inventar la cara d'una persona real, però **una persona anònima i inventada sí que pot sortir de cara**. Ara, **el 70% de les il·lustracions amb persones les mostren de cara**.
+En Rafael: a «El senyal d'avui» sortien massa il·lustracions amb la gent d'esquena. La regla anterior («públic d'esquena, silueta») era per no inventar la cara d'una persona real, però **una persona anònima i inventada sí que pot sortir de cara**. Ara, **la meitat (50%) de les il·lustracions amb persones les mostren de cara** (era el 70% del 31.10 al 02.11.2026; en Rafael va trobar que eren massa).
 
-Com que a ull no es pot comptar un 70% en lots de 5, el repartiment el fa una comanda. **Un cop escrit `incoming/news-batch.json` i ABANS de generar cap imatge**, executa:
+Com que a ull no es pot comptar un percentatge en lots de 5, el repartiment el fa una comanda. **Un cop escrit `incoming/news-batch.json` i ABANS de generar cap imatge**, executa:
 
 ```
 node automation/scripts/content-hub.mjs enquadraments --input incoming/news-batch.json

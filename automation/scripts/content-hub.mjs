@@ -1411,11 +1411,12 @@ async function recategoritza(options) {
 // ── Enquadrament de les il·lustracions (31.10.2026) ─────────────────────────
 // En Rafael: «surten moltes fotos amb gent d'esquena; que surtin de cara en un
 // 70% de les ocasions, sempre que la notícia no parli de persones famoses».
-// La sessió editorial no pot comptar bé un 70% a ull, i cada lot és de 5: per
+// 02.11.2026: «massa fotos mirant de cara, deixem-ho en un 50%».
+// La sessió editorial no pot comptar bé un percentatge a ull, i cada lot és de 5: per
 // això el repartiment és DETERMINISTA. Les notícies que el títol lliga al banc
 // de retrats (automation/retrats.json, el mateix criteri que fotos-llicencia.py)
-// porten foto real i no compten; de la resta, un 70% surt «de cara».
-const ENQUADRAMENT_QUOTA_CARA = 0.7;
+// porten foto real i no compten; de la resta, un 50% surt «de cara».
+const ENQUADRAMENT_QUOTA_CARA = 0.5;
 
 function hashFnv(text) {
   let hash = 0x811c9dc5;
@@ -1449,8 +1450,8 @@ function enquadramentsLot(items, persones = [], quota = ENQUADRAMENT_QUOTA_CARA)
   });
   const elegibles = resultat.filter(item => !item.enquadrament);
   if (elegibles.length) {
-    // Quantes «de cara»: 0,7 × n, i la fracció s'arrodoneix amunt o avall segons
-    // els slugs del lot, de manera que a la llarga surt exactament el 70%.
+    // Quantes «de cara»: 0,5 × n, i la fracció s'arrodoneix amunt o avall segons
+    // els slugs del lot, de manera que a la llarga surt exactament el 50%.
     const sorteig = (hashFnv(elegibles.map(item => item.slug).join('|')) % 1000) / 1000;
     const nCara = Math.min(elegibles.length, Math.floor(elegibles.length * quota + sorteig));
     const ordre = [...elegibles].sort((a, b) => hashFnv(a.slug) - hashFnv(b.slug) || String(a.slug).localeCompare(String(b.slug)));
@@ -1480,7 +1481,7 @@ async function enquadraments(options) {
   };
   for (const item of resultat) process.stdout.write(`${item.slug}: ${text[item.enquadrament](item.persona)}\n`);
   const elegibles = resultat.filter(item => item.enquadrament !== 'retrat');
-  process.stdout.write(`De cara: ${elegibles.filter(item => item.enquadrament === 'de-cara').length} de ${elegibles.length} il·lustracions (objectiu: 70%).\n`);
+  process.stdout.write(`De cara: ${elegibles.filter(item => item.enquadrament === 'de-cara').length} de ${elegibles.length} il·lustracions (objectiu: 50%).\n`);
 }
 
 async function validateCommand(options) {

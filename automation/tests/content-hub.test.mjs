@@ -1858,7 +1858,7 @@ test('corregeix arregla la ç a l\'edició publicada, a l\'hemeroteca i al radar
   assert.match(run(['corregeix', ...base], root).stdout, /Recategoritzades: 0\. Ortografia: 0\./);
 });
 
-// ── Enquadrament de les il·lustracions (31.10.2026): 70% de cara ────────────
+// ── Enquadrament de les il·lustracions (31.10.2026; 50% des del 02.11.2026): meitat de cara ────────────
 function enquadra(items, cwd, retrats) {
   const input = join(cwd, `lot-${Math.random().toString(36).slice(2)}.json`);
   const args = ['enquadraments', '--input', input, '--json'];
@@ -1870,7 +1870,7 @@ function enquadra(items, cwd, retrats) {
   });
 }
 
-test('enquadraments: les notícies amb una persona del banc de retrats porten RETRAT i no compten per al 70%', async () => {
+test('enquadraments: les notícies amb una persona del banc de retrats porten RETRAT i no compten per a la quota', async () => {
   const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
   const retrats = join(root, 'retrats.json');
   await writeFile(retrats, JSON.stringify({ persones: [
@@ -1893,7 +1893,7 @@ test('enquadraments: les notícies amb una persona del banc de retrats porten RE
   assert.equal(resultat.find(item => item.slug === 'a').persona, 'Dario Amodei');
 });
 
-test('enquadraments: és determinista i a la llarga surt de cara el 70% de les il·lustracions', async () => {
+test('enquadraments: és determinista i a la llarga surt de cara el 50% de les il·lustracions', async () => {
   const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
   const lot = n => Array.from({ length: 5 }, (_, i) => ({ slug: `noticia-${n}-${i}`, title: `Notícia ${n}-${i}` }));
   const primer = await enquadra(lot(1), root);
@@ -1903,9 +1903,9 @@ test('enquadraments: és determinista i a la llarga surt de cara el 70% de les i
   for (let n = 0; n < 200; n += 1) {
     const resultat = await enquadra(lot(n), root);
     const deCara = resultat.filter(item => item.enquadrament === 'de-cara').length;
-    assert.ok(deCara === 3 || deCara === 4, `un lot de 5 en porta 3 o 4 de cara, no ${deCara}`);
+    assert.ok(deCara === 2 || deCara === 3, `un lot de 5 en porta 2 o 3 de cara, no ${deCara}`);
     cara += deCara;
     total += resultat.length;
   }
-  assert.ok(Math.abs(cara / total - 0.7) < 0.05, `proporció de cara: ${(cara / total).toFixed(3)}`);
+  assert.ok(Math.abs(cara / total - 0.5) < 0.05, `proporció de cara: ${(cara / total).toFixed(3)}`);
 });
