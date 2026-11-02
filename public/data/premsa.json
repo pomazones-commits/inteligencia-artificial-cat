@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-02T12:54:41.996Z",
+ "actualitzat": "2026-11-02T13:22:23.966Z",
  "fonts": 44,
  "articles": [
   {
@@ -34,7 +34,9 @@
    "ambit": "catala",
    "titol": "La UPV presenta un gemelo digital del barranco del Poyo: un mapa que predice con IA la inundación que dejará una dana",
    "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/02/2741379/upv-presenta-gemelo-digital-del-barranco-del-poyo-mapa-predice-inundacion-dejara-dana.html",
-   "publicat": "2026-11-02T11:34:47.000Z"
+   "publicat": "2026-11-02T11:34:47.000Z",
+   "noticia": "upv-besso-digital-barranc-poyo-inundacions-dana",
+   "noticiaTitol": "La Universitat Politècnica de València presenta un bessó digital del barranc del Poyo que preveu amb IA on s'inundarà durant una dana"
   },
   {
    "id": "9bc408a6c869",
@@ -67,7 +69,9 @@
    "ambit": "catala",
    "titol": "Spotify añadirá una herramienta para crear contenido personalizado con IA a principios de 2027",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/02/2741297/spotify-anadira-herramienta-para-crear-contenido-personalizado-principios-2027.html",
-   "publicat": "2026-11-02T10:05:00.000Z"
+   "publicat": "2026-11-02T10:05:00.000Z",
+   "noticia": "spotify-remixos-ia-complement-pagament-2027",
+   "noticiaTitol": "Spotify prepara per a principis del 2027 una eina de pagament perquè els usuaris facin les seves pròpies versions de cançons amb IA"
   },
   {
    "id": "1aa2d4ce0c61",
@@ -2561,17 +2565,6 @@
    "titol": "Anthropic registra el folleto para protagonizar una de las mayores salidas a Bolsa de la historia",
    "url": "https://elpais.com/economia/2026-10-26/anthropic-registra-el-folleto-para-protagonizar-una-de-las-mayores-salidas-a-bolsa-de-la-historia.html",
    "publicat": "2026-10-26T13:27:35.000Z"
-  },
-  {
-   "id": "701e9ba5fe9b",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Pradales reivindica el \"autogobierno digital\" y advierte de las mejoras de IA pero también de su poder de \"manipulación\"",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/26/2736803/pradales-reivindica-autogobierno-digital-advierte-mejoras-pero-tambien-poder-manipulacion.html",
-   "publicat": "2026-10-26T13:10:59.000Z"
   }
  ]
 }
