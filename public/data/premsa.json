@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-02T09:19:49.484Z",
+ "actualitzat": "2026-11-02T09:34:08.070Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "60de52171418",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic actualiza Claude para que no recree videojuegos originales",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/02/2741235/anthropic-actualiza-claude-para-recree-videojuegos-originales.html",
+   "publicat": "2026-11-02T09:26:50.000Z"
+  },
   {
    "id": "7870c5723e3e",
    "mitja": "Las Provincias",
@@ -54,7 +65,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Fraudes médicos y suplantación digital: cuando la IA convierte la bata blanca en un reclamo para hacer negocio",
+   "titol": "El falso médico: cuando la IA convierte la bata blanca en un reclamo para hacer negocio",
    "url": "https://www.lavanguardia.com/comer/tendencias/20261102/11671008/fraudes-medicos-suplantacion-digital-ia-convierte-bata-blanca-reclamo-negocio.html",
    "publicat": "2026-11-02T05:00:00.000Z"
   },
