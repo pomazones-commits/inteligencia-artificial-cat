@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-01T22:28:01.546Z",
+ "actualitzat": "2026-11-02T05:19:11.745Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "ae35cd73fbac",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Opinión | La IA opina sobre las viviendas del Plan General de Alicante",
+   "url": "https://alicanteplaza.es/alicanteplaza/opinionalicante/la-ia-opina-sobre-las-viviendas-del-plan-general-de-alicante",
+   "publicat": "2026-11-02T05:00:06.000Z"
+  },
+  {
+   "id": "5f6553ba4ee2",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Fraudes médicos y suplantación digital: cuando la IA convierte la bata blanca en un reclamo para hacer negocio",
+   "url": "https://www.lavanguardia.com/comer/tendencias/20261102/11671008/fraudes-medicos-suplantacion-digital-ia-convierte-bata-blanca-reclamo-negocio.html",
+   "publicat": "2026-11-02T05:00:00.000Z"
+  },
+  {
+   "id": "fcad66ff51c2",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Vamos sobrados de nombres de internet, lo que faltan son direcciones IP: por qué la IA ha disparado el negocio de un protocolo de los 80",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261102/11669182/sobrados-nombres-internet-faltan-son-direcciones-ip-ia-disparado-negocio-protocolo-80.html",
+   "publicat": "2026-11-02T05:00:00.000Z"
+  },
   {
    "id": "bf74616d3559",
    "mitja": "La Vanguardia",
@@ -2552,83 +2585,6 @@
    "titol": "El cap de Nvidia llança un missatge als multimilionaris: \"Em fa por ser pobre, no pagar impostos\"",
    "url": "https://www.elnacional.cat/ca/tecnologia/cap-nvidia-llanca-missatge-multimilionaris-fa-por-ser-pobre-no-pagar-impostos_1714810_102.html",
    "publicat": "2026-10-26T06:00:00.000Z"
-  },
-  {
-   "id": "87a98630da6f",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "De Rosalía y Taylor Swift a parlamentarias europeas: ninguna mujer está a salvo del mal uso de la IA",
-   "url": "https://www.lavanguardia.com/gente/20261026/11667776/rosalia-scarlett-johansson-laura-escanes-eurodiputdas-ia.html",
-   "publicat": "2026-10-26T05:00:00.000Z"
-  },
-  {
-   "id": "995eea390701",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA ya empieza a afectar al empleo en las actividades más expuestas",
-   "url": "https://www.lavanguardia.com/economia/20261026/11667750/ia-empieza-afectar-empleo-actividades-mas-expuestas.html",
-   "publicat": "2026-10-26T05:00:00.000Z"
-  },
-  {
-   "id": "e4a7713dcfde",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Sabadell crea un nuevo consejo “territorial” en Catalunya // Chips avanzados de Nvidia para la gigafactoría de Móra",
-   "url": "https://www.lavanguardia.com/economia/20261026/11667741/sabadell-nuevo-consejo-territorial-catalunya-chips-avanzados-nvidia-gigafactoria-mora.html",
-   "publicat": "2026-10-26T05:00:00.000Z"
-  },
-  {
-   "id": "ad3885198f54",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial plantea nuevos retos a la ciberseguridad",
-   "url": "https://www.lavanguardia.com/economia/20261026/11666236/inteligencia-artificial-plantea-nuevos-retos-ciberseguridad-brl.html",
-   "publicat": "2026-10-26T04:50:00.000Z"
-  },
-  {
-   "id": "4a2d4edb9ae9",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Els recursos a multes de trànsit s’enfilen amb el boom de la IA",
-   "url": "https://www.elperiodico.cat/barcelona/20261026/els-recursos-multes-transit-s-135752090",
-   "publicat": "2026-10-26T04:01:23.000Z"
-  },
-  {
-   "id": "4f6be3119527",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las empresas de Baleares se quedan rezagadas en el uso de la inteligencia artificial",
-   "url": "https://www.ultimahora.es/noticias/local/2026/10/26/2725785/empresas-baleares-quedan-rezagadas-uso-inteligencia-artificial.html",
-   "publicat": "2026-10-26T02:59:01.000Z"
-  },
-  {
-   "id": "bbbf03c03d79",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Gamberradas de IA",
-   "url": "https://www.lasprovincias.es/opinion/ramon-palomar-gamberradas-ia-20261026234914-nt.html",
-   "publicat": "2026-10-25T22:49:14.000Z"
   }
  ]
 }
