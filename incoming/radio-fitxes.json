@@ -1,33 +1,45 @@
 {
   "fitxes": [
     {
-      "id": "3cat-1296104",
+      "id": "3cat-1295828",
       "emissora": "Catalunya Ràdio",
-      "programa": "El suplement",
-      "programa_url": "https://www.3cat.cat/3cat/el-suplement/",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
       "data": "2026-11-01",
-      "durada": "30 min",
-      "titol": "Un filòsof, un tecnòleg i una investigadora debaten a «El suplement» el lloc de la IA a la nostra època",
+      "durada": "53 min",
+      "titol": "«Revolució 4.0» viatja a l'Agrobiotech de Lleida per veure com la IA i els sensors entren al camp i a les granges",
       "convidats": [
         {
-          "nom": "Francesc Torralba",
-          "rol": "filòsof"
+          "nom": "Carina Termens",
+          "rol": "AgroBank"
         },
         {
-          "nom": "Pau Garcia-Milà",
-          "rol": "tecnòleg"
+          "nom": "Albert Roselló",
+          "rol": "SAF Sampling"
         },
         {
-          "nom": "Ariadna Tohà Dalmau",
-          "rol": "doctoranda en IA"
+          "nom": "Andreu Salvadó",
+          "rol": "Tech4Agro"
+        },
+        {
+          "nom": "José Antonio Bonet",
+          "rol": "Agrotecnio"
+        },
+        {
+          "nom": "Orson Acosta",
+          "rol": "Azolla Projects"
+        },
+        {
+          "nom": "Sònia Hurtado",
+          "rol": "Poseidona"
         }
       ],
-      "resum": "«El suplement» de Catalunya Ràdio dedica una conversa de mitja hora a la intel·ligència artificial, que el programa presenta com el gran tema de la nostra època. Hi participen el filòsof Francesc Torralba, el tecnòleg Pau Garcia-Milà i la doctoranda en IA Ariadna Tohà Dalmau. Segons el títol de l'emissora, Garcia-Milà hi defensa que els joves són els que ho tenen més difícil per trobar feina amb la IA.",
-      "tema": "societat",
-      "url": "https://www.3cat.cat/3cat/pau-garcia-mila-qui-ho-te-mes-fotut-per-aconseguir-feina-amb-la-ia-son-els-joves/audio/1296104/",
+      "resum": "Programa especial de Xantal Llavina des de la fira Agrobiotech Innovation Forum de Lleida sobre com la tecnologia i la intel·ligència artificial transformen l'agricultura i la ramaderia. Representants d'AgroBank, SAF Sampling i Tech4Agro hi parlen dels reptes de digitalitzar el camp; s'hi presenten quatre empreses emergents del sector, i investigadors i emprenedors d'Agrotecnio, Azolla Projects i Poseidona hi expliquen com convertir la recerca en negoci.",
+      "tema": "eines",
+      "url": "https://www.3cat.cat/3cat/sensors-robots-i-emprenedors-com-la-tecnologia-revoluciona-lagricultura-i-la-ram/audio/1295828/",
       "reproductor": {
         "tipus": "3cat",
-        "id": "1296104"
+        "id": "1295828"
       }
     }
   ],
