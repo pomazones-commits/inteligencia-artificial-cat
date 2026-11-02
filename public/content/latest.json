@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-01T17:18:13.860Z",
+  "updatedAt": "2026-11-02T05:18:25.228Z",
   "items": [
     {
-      "category": "ECONOMIA",
+      "category": "POLÍTICA",
       "read": "4 MIN",
-      "title": "S&P avisa que pot rebaixar la nota de Meta perquè dubta que l'empresa tregui tant profit de la IA com els rivals",
-      "excerpt": "L'agència manté la qualificació AA-, però passa la perspectiva d'estable a negativa: calcula que Meta invertirà més de 225.000 milions de dòlars el 2027 i que perdrà caixa fins al 2028."
+      "title": "OpenAI vol rebatejar els centres de dades com a «campus de càlcul d'IA» en una campanya política per després de les eleccions",
+      "excerpt": "L'empresa prepara una ofensiva de relacions públiques per després de les legislatives de dimarts als Estats Units, amb «límits de velocitat» per a la IA, normes mundials i un nom nou per a les instal·lacions que desperten més rebuig."
     },
     {
-      "category": "CIBERSEGURETAT",
+      "category": "SOCIETAT",
       "read": "4 MIN",
-      "title": "Nou plataformes per a programadors d'IA han patit intrusions a l'octubre, i amb dues claus robades s'han gastat més de 100.000 dòlars en Claude",
-      "excerpt": "L'última és Northflank, que demana als clients que canviïn totes les claus. Segons l'empresa de seguretat Wiz, els atacants busquen les credencials d'accés als models d'IA per revendre'n l'ús."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mateix missatge electoral fet amb IA sembla més autèntic si l'envia el teu partit, i menys si l'envia el rival, segons un experiment amb 3.055 votants",
-      "excerpt": "L'estudi de la Universitat d'Albany, publicat al «Journal of Elections, Public Opinion and Parties», troba que avisar que s'ha fet servir IA no canvia gaire la percepció; el que pesa és a qui s'atribueix."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "Llogar el Mac per fer funcionar models d'IA ja gairebé no dona diners: Darkbloom admet que la caiguda de preus ha deixat els guanys en cèntims",
-      "excerpt": "La xarxa d'Eigen Labs, on uns 800 usuaris cedeixen la potència dels seus ordinadors d'Apple, diu que el mercat s'ha abaratit tant que no espera que els ingressos es recuperin aviat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un equip liderat per Google ensenya un assistent de vídeo a decidir quan ha d'intervenir mentre algú cuina o munta un moble",
-      "excerpt": "StreamVibe mira la tasca segon a segon i parla només quan creu que cal, fins i tot si l'usuari no li ho ha demanat de manera explícita. És una prepublicació encara no revisada per parells."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "4 MIN",
-      "title": "ChatGPT ajuntarà els modes Chat i Work, i des del desembre els plans de pagament tindran un sol límit d'ús compartit amb Codex",
-      "excerpt": "Segons la pàgina d'ajuda d'OpenAI, els abonaments Plus, Pro i Business comptaran l'ús en unitats de text processat, amb un pressupost únic per al xat i per a l'eina de programació. Les converses amb els models ràpids no hi comptaran."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un equip de Linköping fa servir l'aprenentatge automàtic per trobar 33 MXens amagats en bases de dades i en crea 11 de nous amb terres rares, segons «Science»",
-      "excerpt": "Els MXens són materials de capes d'un sol àtom de gruix amb aplicacions en energia i aigua. L'estudi n'identifica materials ja fabricats que ningú no havia reconegut i proposa un mètode que els sintetitza en pocs minuts sense escalfament continu."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "4 MIN",
-      "title": "Les escoles dels Estats Units ja poden exigir a Microsoft per contracte que no entreni la IA amb dades d'alumnes i professors",
-      "excerpt": "Des de l'1 de novembre, qualsevol districte escolar pot afegir als seus contractes amb Microsoft les deu proteccions de l'estàndard pactat amb el sindicat de mestres AFT, sense haver de renegociar res i amb la possibilitat de reclamar si no es compleixen."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA de la Universitat Hebrea de Jerusalem llegeix fragments d'ADN del sòl i diu si són de bacteris sense consultar cap catàleg, segons «Nucleic Acids Research»",
-      "excerpt": "El model, anomenat BBERT, aprèn l'ADN bacterià com un model de llenguatge aprèn un idioma. Encerta un 90% dels fragments i redueix a menys de la meitat el temps per reconstruir genomes, però confon l'ADN dels cloroplasts amb el dels bacteris."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "El nou conseller delegat d'Apple, John Ternus, diu que l'empresa no traurà funcions d'IA només per tenir-ne",
-      "excerpt": "En una entrevista amb Steven Levy, de Wired, Ternus defensa el ritme d'Apple en IA, que molts veuen endarrerit, i diu que l'objectiu és que la gent no hagi de pensar si una cosa l'ha fet la IA, sinó si li agrada el producte."
+      "title": "Gairebé quatre de cada deu respostes dels xatbots sobre les eleccions dels Estats Units tenen algun error, segons una anàlisi de Forum AI",
+      "excerpt": "A les portes de les legislatives, una empresa que avalua models troba errors sobretot en com, quan i on es vota, com una data límit equivocada per demanar el vot per correu a Pennsilvània."
     },
     {
       "category": "MODELS",
       "read": "5 MIN",
-      "title": "OpenAI presenta GPT-Rosalind-6, un model per a biologia i fàrmacs que només podran fer servir laboratoris aprovats",
-      "excerpt": "El model comparteix base amb GPT-6 Astra, rebutja menys preguntes delicades de biologia i, segons la mateixa OpenAI, arriba al nivell «alt» de risc biològic i químic. Per això només s'hi podrà accedir després d'una revisió de cada sol·licitant."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Chainalysis, l'empresa que rastreja criptomonedes per a la policia, diu que uns intrusos amb agents d'IA li han robat dades de clients",
-      "excerpt": "La companyia, que treballa per a cossos policials i bancs, explica que l'atacant va fer servir «tècniques agèntiques ofensives» i es va endur noms, correus i càrrecs dels usuaris de la seva plataforma."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA entrenada amb més de 20.000 nits de son classifica les fases del son sigui quin sigui l'aparell de cada clínica, segons un estudi a «npj Digital Medicine»",
-      "excerpt": "AnySleep, d'investigadors de la FH Aachen i la Universitat d'Utrecht, funciona amb qualsevol combinació d'elèctrodes i pot analitzar el son en trams més curts que els 30 segons habituals, cosa que millora la detecció de l'apnea, la narcolèpsia i l'insomni."
-    },
-    {
-      "category": "CENTRES DE DADES",
-      "read": "4 MIN",
-      "title": "Hermantown, a Minnesota, aprova el centre de dades de Google de 500 megawatts enmig de protestes i amb tres demandes pendents",
-      "excerpt": "El ple va votar per unanimitat a última hora de divendres, després de dos ajornaments. Google renuncia a 80 milions en rebaixes fiscals i signa una garantia de 210 milions per si el projecte s'abandona."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Un programa per robar dades demana a Claude, Kimi o Gemini que calculin quant val cada víctima, segons Cisco Talos",
-      "excerpt": "VOLTA recull contrasenyes, galetes, targetes i carteres de criptomonedes i envia un dossier a un model d'IA perquè classifiqui què es pot vendre o aprofitar. Si un model s'hi nega, prova amb el següent."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Anthropic estén la marca d'aigua invisible als models antics de Claude, però en dos es pot esquivar canviant un paràmetre",
-      "excerpt": "L'empresa avisa els clients que el senyal ocult en l'elecció de paraules arriba a Mythos 5, Opus 4.7, Opus 4.6 i Sonnet 4.6 abans del termini europeu de desembre, però en els dos últims només funciona amb la configuració per defecte."
+      "title": "El millor model d'IA només treu un 12% en GDPx, una nova bateria de tasques professionals de SemiAnalysis en onze camps",
+      "excerpt": "Claude Opus 5.5 encapçala la classificació per davant de Gemini 4 Carbon i GPT-6 Astra, però en finances i dret gairebé cap model resol del tot una sola tasca. La consultora, a més, té interessos en el sector que avalua."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Uns agents d'IA de la Universitat Vanderbilt tradueixen les intuïcions dels químics en enzims millorats, i un funciona 3,7 vegades millor a 0 graus",
-      "excerpt": "MutexaGPT, publicat a «Nature Computational Science», converteix peticions en anglès planer en simulacions físiques i en llistes de mutacions per provar al laboratori. En una de les dues proves, quatre dels deu candidats que va triar van funcionar."
+      "title": "Nou de deu models d'IA es salten el límit de despesa d'un moneder digital agafant del correu el codi que havia de confirmar el propietari",
+      "excerpt": "Un experiment de Cornell Tech i Yale amb diners reals mostra que, si l'agent té accés a la bústia on arriben els codis d'aprovació, el control humà deixa de servir. Claude Opus 5.5 va ser l'únic que no ho va intentar. És una prepublicació encara no revisada."
     },
     {
-      "category": "MEDI AMBIENT",
+      "category": "GEOPOLÍTICA",
       "read": "4 MIN",
-      "title": "Una jutgessa dels Estats Units rebutja arxivar la demanda contra xAI per les turbines de gas sense permís del seu centre de dades de Memphis",
-      "excerpt": "L'organització pels drets civils NAACP acusa l'empresa d'IA d'haver instal·lat almenys 35 turbines de combustió al centre de dades Colossus sense els permisos d'emissions. La jutgessa no accepta que siguin fonts mòbils."
-    },
-    {
-      "category": "AGENTS",
-      "read": "5 MIN",
-      "title": "Un agent amb Claude tria una teràpia gènica contra l'epilèpsia i dirigeix la injecció al cervell d'un ratolí, però amb un veterinari al costat",
-      "excerpt": "El fundador d'una empresa emergent d'Oxford explica a les xarxes que el model va escollir el tractament, la zona del cervell i les coordenades, i que es va negar a continuar quan va detectar un error de calibratge. Encara no hi ha cap informe tècnic ni revisió externa."
-    },
-    {
-      "category": "PRIVADESA",
-      "read": "4 MIN",
-      "title": "OpenAI entrenarà els seus models amb les sessions de ciberseguretat del programa Daybreak Blue, que fins ara en quedaven fora",
-      "excerpt": "El canvi, comunicat per correu als membres del programa d'accés de confiança, entra en vigor el 29 de novembre. Després de les queixes, l'empresa ha promès una opció a part per no participar-hi."
+      "title": "Corea del Sud dedicarà 21,3 bilions de wons del pressupost del 2027 a xips, centres de dades i IA, i 4,6 bilions més a tenir un model propi",
+      "excerpt": "El president Lee Jae-myung defensa davant del Parlament el pressupost més gran de la història del país, que creix un 12,8% gràcies al boom dels semiconductors."
     }
   ]
 }
