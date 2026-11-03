@@ -210,7 +210,9 @@ foreach ($totes as $peca) {
 unset($sortides);
 $candidates = [];
 foreach ($totes as $peca) {
-    if ($peca['tipus'] === 'reflexio' || isset($jaVistes[seccions_clau($peca)])) { continue; }
+    // 03.11.2026 (decisió d'en Rafael): Veus d'empresa només surt a la seva banda (una peça
+    // cada 5 dies), mai a les targetes de «Les seccions».
+    if (in_array($peca['tipus'], ['reflexio', 'empresa'], true) || isset($jaVistes[seccions_clau($peca)])) { continue; }
     $candidates[iacat_eix($peca['item'], seccions_clau($peca))][] = $peca;
 }
 foreach ($candidates as &$llista) {

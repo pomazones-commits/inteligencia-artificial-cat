@@ -17,3 +17,9 @@
 .eix-veu p{margin:0;color:var(--ed-muted,#5d6472);font-size:13px;line-height:1.55}
 .eix-veu__autor{margin-top:10px!important;font-weight:600;color:var(--ed-ink,#111827)!important}
 .eix-buida{margin:30px 0;padding:22px;border:1px dashed var(--ed-line,#dfe3eb);background:var(--ed-paper,#fff);color:var(--ed-muted,#5d6472);font-size:14px;line-height:1.6}
+/* 03.11.2026: «Veus d'empresa» en un bloc a part a /tema/<eix>, sota les veus signades. */
+.eix-veus--empresa{margin-top:-14px;padding:22px 22px 4px;background:var(--ed-paper,#fff);border:1px solid var(--ed-line,#dfe3eb)}
+.eix-veus--empresa .eix-veus__cap h2{font-size:24px}
+.eix-veus__nota{margin:4px 0 8px;color:var(--ed-muted,#5d6472);font-size:13px;line-height:1.55}
+.eix-veus--empresa .eix-veu:last-child{border-bottom:0}
+@media (max-width:640px){.eix-veus--empresa{padding:18px 16px 2px}}

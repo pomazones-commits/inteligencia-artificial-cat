@@ -148,7 +148,7 @@ if ($tipus !== 'reflexio') {
     if ($eix['url'] !== '') {
         $etiqueta = '<a class="eix-etiqueta" href="' . $e($eix['url']) . '">Secció · ' . $e($eix['nom']) . '</a>';
         $html = (string) preg_replace_callback('/<h1 id="titol">/', static fn() => $etiqueta . '<h1 id="titol">', $html, 1);
-        $extra .= '<link rel="stylesheet" href="/eixos.css?v=2026102001">';
+        $extra .= '<link rel="stylesheet" href="/eixos.css?v=2026110301">';
     }
 }
 

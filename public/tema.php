@@ -30,6 +30,7 @@ $pertany = static function (array $item) use ($slug, $topic, $esTerritori): bool
     return iacat_eix($item) === $slug;
 };
 $peces = ($found && !$esTerritori) ? iacat_peces_eix($slug, 12) : [];
+$pecesEmpresa = ($found && !$esTerritori) ? iacat_peces_eix($slug, 6, true) : [];
 
 function topic_e(string $value): string { return htmlspecialchars($value, ENT_QUOTES, 'UTF-8'); }
 function topic_upper(string $value): string { return function_exists('mb_strtoupper') ? mb_strtoupper($value, 'UTF-8') : strtoupper($value); }
@@ -73,7 +74,7 @@ if (count($items) < 30) {
     }
 }
 
-if ($found && !$items && !$peces) { http_response_code(404); }
+if ($found && !$items && !$peces && !$pecesEmpresa) { http_response_code(404); }
 $canonical = $base . '/tema/' . $slug;
 $jsonld = [
     '@context' => 'https://schema.org',
@@ -106,7 +107,7 @@ $rest = array_slice($items, 1);
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f6f7fb">
   <title><?= topic_e((string) $topic['title']) ?> — intel·ligènciaartificial.cat</title>
-  <?php if ($found && ($items || $peces)): ?>
+  <?php if ($found && ($items || $peces || $pecesEmpresa)): ?>
   <meta name="description" content="<?= topic_e((string) $topic['description']) ?>">
   <link rel="canonical" href="<?= topic_e($canonical) ?>">
   <meta property="og:type" content="website">
@@ -122,7 +123,7 @@ $rest = array_slice($items, 1);
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
   <link rel="stylesheet" href="/editorial.css?v=2026103101">
-  <link rel="stylesheet" href="/eixos.css?v=2026102001">
+  <link rel="stylesheet" href="/eixos.css?v=2026110301">
   <script defer src="/shared.js?v=2026101701"></script>
 </head>
 <body class="editorial-body">
@@ -161,6 +162,22 @@ $rest = array_slice($items, 1);
       <p class="eix-buida">Aquesta secció s’estrena aquest mes de novembre amb peces signades de veus dels territoris de parla catalana. Mentrestant, aquí sota hi ha les notícies del tema.</p>
       <?php endif; ?>
     </section>
+    <?php if ($pecesEmpresa): ?>
+    <section class="eix-veus eix-veus--empresa" aria-labelledby="eix-empresa-title">
+      <header class="eix-veus__cap"><div><p class="editorial-kicker">Articles i entrevistes des de l’empresa</p><h2 id="eix-empresa-title">Veus d’empresa</h2></div><a href="/veus-d-empresa">Totes les veus d’empresa →</a></header>
+      <p class="eix-veus__nota">Persones que treballen en empreses expliquen projectes i experiències de la seva pròpia empresa.</p>
+      <div class="eix-veus__graella">
+        <?php foreach ($pecesEmpresa as $peca): $autor = trim((string) ($peca['item']['author'] ?? '')); $empresaNom = trim((string) ($peca['item']['org'] ?? '')); ?>
+        <article class="eix-veu">
+          <p class="topic-meta">Veus d’empresa<?php if ($peca['dataIso'] !== ''): ?> · <?= topic_e(date('d.m.Y', strtotime($peca['dataIso']))) ?><?php endif; ?></p>
+          <h3><a href="<?= topic_e((string) $peca['url']) ?>"><?= topic_e((string) $peca['titol']) ?></a></h3>
+          <?php if (trim((string) $peca['resum']) !== ''): ?><p><?= topic_e(function_exists('mb_strimwidth') ? mb_strimwidth(trim((string) $peca['resum']), 0, 220, '…', 'UTF-8') : (string) $peca['resum']) ?></p><?php endif; ?>
+          <p class="eix-veu__autor"><?= topic_e($autor !== '' ? $autor : 'Redacció IA.cat') ?><?= $empresaNom !== '' ? ' · ' . topic_e($empresaNom) : '' ?></p>
+        </article>
+        <?php endforeach; ?>
+      </div>
+    </section>
+    <?php endif; ?>
     <?php endif; ?>
 
     <?php if ($lead): ?>

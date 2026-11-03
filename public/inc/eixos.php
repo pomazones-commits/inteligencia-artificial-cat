@@ -110,15 +110,18 @@ function iacat_eix_etiqueta(string $clau): array
 }
 
 /** Peces signades d'una secció: primer les de persones, després les de la Redacció. */
-function iacat_peces_eix(string $clau, int $maxim = 12): array
+function iacat_peces_eix(string $clau, int $maxim = 12, bool $empresa = false): array
 {
     require_once __DIR__ . '/peces.php';
     // Primer les peces signades per persones i després les de la Redacció (anàlisi i
     // Quadern IA); dins de cada grup, de la més recent a la més antiga.
+    // 03.11.2026 (decisió d'en Rafael): les de Veus d'empresa no es barregen amb les veus
+    // signades; $empresa = true torna NOMÉS les d'empresa (bloc a part a /tema/<clau>).
     $persones = [];
     $redaccio = [];
     foreach (iacat_totes_les_peces() as $peca) {
         if ($peca['tipus'] === 'reflexio') { continue; }
+        if (($peca['tipus'] === 'empresa') !== $empresa) { continue; }
         if (iacat_eix($peca['item'], $peca['tipus'] . '/' . $peca['id']) !== $clau) { continue; }
         if (in_array($peca['tipus'], ['analisi', 'quadern'], true)) { $redaccio[] = $peca; } else { $persones[] = $peca; }
     }
