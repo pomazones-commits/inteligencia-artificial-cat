@@ -1,8 +1,173 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-03T09:13:07.912Z",
+ "actualitzat": "2026-11-03T12:25:29.613Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "90744ca46a14",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Adiós a la clonación de videojuegos con Claude: Anthropic pone límites a su IA para defender los derechos de autor",
+   "url": "https://www.lavanguardia.com/neo/videojuegos/20261103/11674948/adios-clonacion-videojuegos-claude-anthropic-pone-limites-ia-defender-derechos-autor.html",
+   "publicat": "2026-11-03T12:20:39.000Z"
+  },
+  {
+   "id": "3009de2a7969",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Puente recorre al doble control humà i la intel·ligència artificial per millorar la seguretat als trens",
+   "url": "https://www.elnacional.cat/ca/politica/puente-recorre-intelligencia-artificial-doble-control-huma-millorar-seguretat-trens_1719831_102.html",
+   "publicat": "2026-11-03T12:07:00.000Z"
+  },
+  {
+   "id": "ff05dba53c0c",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Comunitat Valenciana | El PPCV usará la IA y las redes sociales en campaña para llegar a cada móvil y cada rincón",
+   "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/el-ppcv-usara-la-ia-y-las-redes-sociales-en-campana-para-llegar-a-cada-movil-y-cada-rincon",
+   "publicat": "2026-11-03T11:56:33.000Z"
+  },
+  {
+   "id": "e23cf1c8fc8a",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Miyamoto (Nintendo) defiende que siempre habrá un papel para los desarrolladores por mucho que evolucione la IA",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/03/2742145/miyamoto-nintendo-defiende-siempre-habra-papel-para-desarrolladores-por-mucho-evolucione-ia.html",
+   "publicat": "2026-11-03T11:48:09.000Z"
+  },
+  {
+   "id": "dd147639b753",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Imma Tor reclama una IA al servei de les persones i respectuosa amb els drets humans",
+   "url": "https://www.diariandorra.ad/nacional/261103/imma-tor-reclama-ia-servei-les-persones-i-respectuosa-amb-els-drets-humans_207952.html",
+   "publicat": "2026-11-03T11:20:38.000Z"
+  },
+  {
+   "id": "1e0c07224b06",
+   "mitja": "Nació Digital",
+   "font": "naciodigital-totes",
+   "icona": "/assets/premsa/nacio-digital.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El poble a tocar de Barcelona que la intel·ligència artificial recomana per viure-hi",
+   "url": "https://naciodigital.cat/viure-be/escapades/el-poble-a-tocar-de-barcelona-que-la-intelligencia-artificial-recomana-per-viure-hi.html",
+   "publicat": "2026-11-03T11:18:19.000Z"
+  },
+  {
+   "id": "bb1df15c6406",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L’FMI alerta que la IA afectarà el 40% de l’ocupació mundial i apunta riscos de crisi",
+   "url": "https://www.elnacional.cat/oneconomia/ca/economia/fmi-alerta-ia-afectara-40-llocs-feina-mon-ja-parla-crisi_1719792_102.html",
+   "publicat": "2026-11-03T11:15:20.000Z"
+  },
+  {
+   "id": "a0fc26bc05f2",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los pequeños inversores españoles podrán acudir a la salida a Bolsa de Anthropic",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-03/los-pequenos-inversores-espanoles-podran-acudir-a-la-salida-a-bolsa-de-anthropic.html",
+   "publicat": "2026-11-03T11:04:03.000Z"
+  },
+  {
+   "id": "69d1587d2027",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tabernero (CaixaResearch Institute): La IA \"bien aplicada\" facilitará mucho las cosas en medicina",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/03/2742007/tabernero-caixaresearch-institute-bien-aplicada-facilitara-mucho-cosas-medicina.html",
+   "publicat": "2026-11-03T10:19:29.000Z"
+  },
+  {
+   "id": "a24a8c55cedd",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Doble control humà, un nou software i IA: les mesures de l'Estat per millorar la seguretat a l'alta velocitat",
+   "url": "https://www.ara.cat/societat/baixen-26-victimes-ingressades-hospitals-l-accident-ferroviari-toledo_1_5898396.html",
+   "publicat": "2026-11-03T10:08:35.000Z"
+  },
+  {
+   "id": "27f813e29920",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "OpenAI promete salvar tu factura de la luz: sus centros de datos de IA consumirán menos energía en momentos de máxima demanda",
+   "url": "https://www.lavanguardia.com/neo/ia/20261103/11674822/openai-promete-salvar-factura-luz-centros-datos-ia-consumiran-energia-momentos-maxima-demanda.html",
+   "publicat": "2026-11-03T09:55:23.000Z"
+  },
+  {
+   "id": "8aa23118ffe6",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Botín (Santander) reclama més inversió en defensa, energia, habitatge i IA per impulsar Europa",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/botin-santander-reclama-inversio-defensa-energia-habitatge-ia-europa_1719666_102.html",
+   "publicat": "2026-11-03T09:40:49.000Z"
+  },
+  {
+   "id": "3604f44131a2",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Barcelona probará la inteligencia artificial para regular los semáforos en 2027",
+   "url": "https://www.elperiodico.com/es/barcelona/20261103/barcelona-inteligencia-artificial-regular-semaforos-2027-135993146",
+   "publicat": "2026-11-03T09:31:57.000Z"
+  },
+  {
+   "id": "ee5292975cda",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Carles Ferrer, paciente de cáncer de próstata: \"Gracias a la IA, me detectaron un tumor ínfimo y he podido curarme\"",
+   "url": "https://www.elperiodico.com/es/sociedad/20261103/cancer-prostata-ia-resonancia-diagnostico-135777569",
+   "publicat": "2026-11-03T09:26:07.000Z"
+  },
+  {
+   "id": "811b932ed20e",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Oracle vendrà accions i deute per 17.800 milions d'euros per finançar la IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/oracle-vendra-accions-deute-17800-milions-euros-financar-ia_1719624_102.html",
+   "publicat": "2026-11-03T09:18:59.000Z"
+  },
   {
    "id": "d881b6a9820a",
    "mitja": "La Vanguardia",
@@ -2075,116 +2240,6 @@
    "titol": "Genética, gestión del agua, energías renovables e IA centran la Semana de la Ciencia del Campus de Alcoy de la Politécnica",
    "url": "https://www.informacion.es/alcoy/2026/10/27/genetica-gestion-agua-energias-renovables-135801168.html",
    "publicat": "2026-10-27T12:32:55.000Z"
-  },
-  {
-   "id": "47f2e8af6d81",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los gigantes de centros de datos preparan la batalla legal para tumbar el nuevo decreto y critican el trato especial a la gigafactoría catalana de IA",
-   "url": "https://www.elperiodico.com/es/economia/20261027/gigantes-centros-datos-muestran-rechazo-135803699",
-   "publicat": "2026-10-27T12:15:25.000Z"
-  },
-  {
-   "id": "609a53023bf0",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Suecia bloquea a sus funcionarios el acceso a ChatGPT y Claude para evitar filtraciones de datos",
-   "url": "https://www.eldiario.es/tecnologia/suecia-bloquea-funcionarios-acceso-chatgpt-claude-evitar-filtraciones-datos_1_13618468.html",
-   "publicat": "2026-10-27T12:13:09.000Z"
-  },
-  {
-   "id": "591356579dc4",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El laboratorio de IA aplicada a la innovación para pymes desembarca en el ParcBit",
-   "url": "https://www.ultimahora.es/noticias/local/2026/10/27/2737451/laboratorio-aplicada-innovacion-para-pymes-desembarca-parcbit.html",
-   "publicat": "2026-10-27T11:54:00.000Z"
-  },
-  {
-   "id": "4543750eb2dd",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Este emprendedor multimillonario asegura que si tuviera 25 años perseguiría dos áreas clave en el mundo de la IA",
-   "url": "https://www.elperiodico.com/es/economia/20261027/emprendedor-multimillonario-asegura-tuviera-25-anos-perseguiria-dos-areas-clave-mundo-ia-dv-135798389",
-   "publicat": "2026-10-27T11:31:33.000Z"
-  },
-  {
-   "id": "ce213685bd80",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Mercados | La cotizada valenciana Substrate AI nombra a Iván Otero como nuevo director comercial global",
-   "url": "https://valenciaplaza.com/valenciaplaza/bolsas/la-cotizada-valenciana-substrate-ai-nombra-a-ivan-otero-como-nuevo-director-comercial-global",
-   "publicat": "2026-10-27T11:20:40.000Z"
-  },
-  {
-   "id": "446620deefea",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "OpenAI revela tres avenços de la seva IA que poden canviar les matemàtiques, la informàtica i la física",
-   "url": "https://www.elnacional.cat/ca/tecnologia/openai-revela-tres-avencos-cientifics-seva-ia-poden-canviar-matematiques-informatica-fisica_1716235_102.html",
-   "publicat": "2026-10-27T11:00:00.000Z"
-  },
-  {
-   "id": "a4110a5e3c2b",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic y sus rivales en la IA desatan la mayor avalancha financiera de la historia",
-   "url": "https://elpais.com/economia/2026-10-27/anthropic-y-sus-rivales-en-la-ia-desatan-la-mayor-avalancha-financiera-de-la-historia.html",
-   "publicat": "2026-10-27T10:59:53.000Z"
-  },
-  {
-   "id": "71afeb98ecc2",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Andorra acollirà una conferència europea sobre els reptes de la intel·ligència artificial",
-   "url": "https://www.diariandorra.ad/nacional/261027/andorra-acollira-conferencia-europea-sobre-els-reptes-intel-ligencia-artificial_207433.html",
-   "publicat": "2026-10-27T10:40:37.000Z"
-  },
-  {
-   "id": "e0d9a0919181",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "May-Britt Moser, Nobel de Medicina, habla sobre como afecta el uso de la IA al cerebro",
-   "url": "https://www.diariodemallorca.es/videos/sociedad/2026/10/27/may-britt-moser-nobel-medicina-135796643.html",
-   "publicat": "2026-10-27T09:56:19.000Z"
-  },
-  {
-   "id": "e77f4c9db611",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Últimas plazas para el curso “IA en Dispositivos Móviles para uso profesional” en La Nucía",
-   "url": "https://www.informacion.es/benidorm/2026/10/27/ultimas-plazas-curso-ia-dispositivos-135794513.html",
-   "publicat": "2026-10-27T09:14:57.000Z"
   }
  ]
 }
