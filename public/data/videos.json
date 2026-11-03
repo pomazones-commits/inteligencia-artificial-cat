@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-03T09:13:07.063Z",
+ "actualitzat": "2026-11-03T13:16:56.868Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "yLMjEpMio2w",
+   "titol": "From AI Infrastructure to the 6G Future",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "maquinari",
+   "idioma": "en",
+   "publicat": "2026-11-03T13:00:13.000Z",
+   "descripcio": "In this Telecom Special Address from NVIDIA GTC Berlin, Ronnie Vasishta, SVP of Telecom at NVIDIA, explores how AI-RAN, accelerated computing, and AI inference at the edge are shaping the path to 6G. Key Highlights: - Understand how AI factories, distributed inference, AI-RAN, and 6G fit into one st",
+   "miniatura": "/assets/videos/yLMjEpMio2w.jpg"
+  },
   {
    "id": "Amm9ySSET4c",
    "titol": "Coinbase on OpenAI Private Intelligence",
