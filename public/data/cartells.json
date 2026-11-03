@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-11-02",
+  "actualitzat": "2026-11-03",
   "nota": "Imatges oficials dels actes, desades al nostre servidor. Les genera automation/scripts/recull-cartells.mjs: no s'edita a mà.",
   "cartells": {
     "2026-11-02-forum-sobre-la-ia-en-l-advocacia": {
@@ -60,8 +60,13 @@
       "provat": "2026-11-01"
     },
     "2026-11-11-congreso-internacional-riesgo-responsabilidad-y-confianza-en": {
-      "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-11-01"
+      "imatge": "/assets/cartells/2026-11-11-congreso-internacional-riesgo-responsabilidad-y-confianza-en.jpg",
+      "amplada": 1140,
+      "alcada": 550,
+      "font": "https://www.uv.es/esdeveniment/2026/Congreso%20Sociedad%20Digital/congreso-sociedad-digital-2026-vl.jpg",
+      "pagina": "https://www.uv.es/patrimonium/novetat/2026/07-21-congreso/triptico_congreso_sociedad_digital_v5-1.pdf",
+      "organitza": "Institut de Dret Patrimonial (Universitat de València) i Universidade da Coruña",
+      "recollit": "2026-11-03"
     },
     "2026-11-14-datathon-fme-2026": {
       "imatge": "/assets/cartells/2026-11-14-datathon-fme-2026.jpg",
@@ -95,12 +100,22 @@
       "recollit": "2026-10-11"
     },
     "2026-11-19-v-forum-europeo-de-inteligencia-artificial": {
-      "error": "no és una imatge JPEG, PNG ni WebP",
-      "provat": "2026-11-01"
+      "imatge": "/assets/cartells/2026-11-19-v-forum-europeo-de-inteligencia-artificial.jpg",
+      "amplada": 717,
+      "alcada": 440,
+      "font": "https://fls-a04777c4-6f09-4d12-9511-62fb777c7808.laravel.cloud/images/apuntate_master/sQxYke1jmbdkUrt1Rq0QeV0YsA7ELPwvy2tce9uu.jpg",
+      "pagina": "https://www.encuentrosnow.es/",
+      "organitza": "Encuentros NOW",
+      "recollit": "2026-11-03"
     },
     "2026-11-19-valenciantech-26": {
-      "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-11-01"
+      "imatge": "/assets/cartells/2026-11-19-valenciantech-26.jpg",
+      "amplada": 1200,
+      "alcada": 480,
+      "font": "https://valgrai.eu/wp-content/uploads/2026/09/Banner-noticia-web-1.jpg",
+      "pagina": "https://valgrai.eu/events/valenciantech26/",
+      "organitza": "Grup ICSO Meta (CIGIP-UPV) i ValgrAI",
+      "recollit": "2026-11-03"
     },
     "2026-11-20-4t-simposi-del-centre-de-ciencies-omiques": {
       "imatge": "/assets/cartells/2026-11-20-4t-simposi-del-centre-de-ciencies-omiques.jpg",
@@ -112,8 +127,13 @@
       "recollit": "2026-10-11"
     },
     "2026-11-21-codex-chatgpt-hackaton-barcelona-devday-exchange-community-b": {
-      "error": "no és una imatge JPEG, PNG ni WebP",
-      "provat": "2026-11-01"
+      "imatge": "/assets/cartells/2026-11-21-codex-chatgpt-hackaton-barcelona-devday-exchange-community-b.jpg",
+      "amplada": 1200,
+      "alcada": 1200,
+      "font": "https://images.lumacdn.com/cdn-cgi/image/format=jpeg,fit=cover,dpr=2,background=white,quality=85,width=600,height=600/uploads/7f/2f652a75-61c3-44cb-86e5-0b2c8d168366.png",
+      "pagina": "https://luma.com/0ly6gnti",
+      "organitza": "Codex Community Events i Itnig",
+      "recollit": "2026-11-03"
     },
     "2026-11-21-devfest-girona-2026": {
       "imatge": "/assets/cartells/2026-11-21-devfest-girona-2026.jpg",
@@ -125,16 +145,26 @@
       "recollit": "2026-10-11"
     },
     "2026-11-26-ai-day-bcombinator-from-pilots-to-operations": {
-      "error": "imatge gairebé buida (d'un sol color)",
-      "provat": "2026-11-01"
+      "imatge": "/assets/cartells/2026-11-26-ai-day-bcombinator-from-pilots-to-operations.jpg",
+      "amplada": 540,
+      "alcada": 400,
+      "font": "https://bcombinator.com/wp-content/uploads/2026/09/AI_DAY_cover-web-eventos.jpg",
+      "pagina": "https://bcombinator.com/en/ai-day_bcombinator/",
+      "organitza": "Bcombinator",
+      "recollit": "2026-11-03"
     },
     "2026-11-26-ii-congres-internacional-sobre-comunicacio-tecnologia-i-llen": {
       "error": "proporció estranya (1077×308)",
       "provat": "2026-11-01"
     },
     "2026-12-02-tech-spirit-barcelona-2026": {
-      "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-11-01"
+      "imatge": "/assets/cartells/2026-12-02-tech-spirit-barcelona-2026.jpg",
+      "amplada": 1200,
+      "alcada": 630,
+      "font": "https://images.lumacdn.com/cdn-cgi/image/format=jpeg,fit=cover,dpr=1,anim=false,background=white,quality=85,width=1200,height=630/event-social/wg/1780c69e-2a32-4398-9964-bc48a79bfc88.png",
+      "pagina": "https://techspirit.barcelona/",
+      "organitza": "Tech Barcelona",
+      "recollit": "2026-11-03"
     },
     "2026-12-21-deep-learning-barcelona-symposium-2026-dlbcn-2026": {
       "imatge": "/assets/cartells/2026-12-21-deep-learning-barcelona-symposium-2026-dlbcn-2026.jpg",
