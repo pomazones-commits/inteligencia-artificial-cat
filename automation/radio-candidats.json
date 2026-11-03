@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-02T05:18:26.608Z",
+  "generat": "2026-11-03T11:13:19.853Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -24,7 +24,7 @@
       "programa": "El matí de Catalunya Ràdio",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 0
+      "sobre_ia": 1
     },
     {
       "font": "3cat",
@@ -128,8 +128,8 @@
       "programa": "",
       "resultats": 4,
       "estat": "ok",
-      "audios": 0,
-      "sobre_ia": 0
+      "audios": 1,
+      "sobre_ia": 1
     },
     {
       "font": "wordpress",
@@ -145,7 +145,7 @@
       "programa": "Actualitat",
       "nom_web": "Ràdio Sant Andreu",
       "estat": "ok",
-      "audios": 1,
+      "audios": 0,
       "sobre_ia": 0
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 8,
+      "audios": 10,
       "sobre_ia": 0
     },
     {
@@ -173,9 +173,43 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 300,
+      "audios": 400,
       "sobre_ia": 2
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "3cat-1296302",
+      "emissora": "Catalunya Ràdio",
+      "programa": "El matí de Catalunya Ràdio",
+      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
+      "data": "2026-11-03",
+      "durada": "1 h 0 min",
+      "titol_original": "El matí, de 10 a 11 h (Magazín) - 03/11/2026",
+      "descripcio_original": "Parlem amb Pere Estupinyà, divulgador científic, sobre com ha afectat la IA en les beques d'investigació. També comentem el seu nou llibre, \"Qué quieres ser de mayor?\", que presenta avui a Barcelona.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/el-mati-de-10-a-11-h-magazin-03112026/audio/1296302/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1296302"
+      }
+    },
+    {
+      "id": "apunt-1906216",
+      "emissora": "À Punt Ràdio",
+      "programa": "L'hora de la cultura",
+      "programa_url": "https://www.apuntmedia.es/programes/l-hora-de-la-cultura/",
+      "data": "2026-11-02",
+      "durada": "",
+      "titol_original": "Intel·ligència artificial: estem construint una utopia o una distopia?",
+      "descripcio_original": "Recorrem la història i els dilemes de la intel·ligència artificial a través de la música, el cinema i la literatura per preguntar-nos qui controlarà realment el futur.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.apuntmedia.es/programes/l-hora-de-la-cultura/recorregut-musical-el-pretext/02-11-2026-intel-ligencia-artificial-construint-una-utopia-una-distopia_135_1906216.html",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    }
+  ]
 }
