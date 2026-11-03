@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-03T17:17:16.805Z",
+ "actualitzat": "2026-11-03T18:40:38.051Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "yC72iQx6rM0",
+   "titol": "Qodo brings company context into Codex code review",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-03T18:11:23.000Z",
+   "descripcio": "Qodo’s Codex plugin brings company context, codebase standards, and independent review into the development workflow. It helps developers catch bugs across repositories, where a change can look right in one codebase and break a service in another. In Behind the Build, co-founder Itamar Friedman and ",
+   "miniatura": "/assets/videos/yC72iQx6rM0.jpg"
+  },
+  {
+   "id": "63pcV4z0DwI",
+   "titol": "ChatGPT Voice is now in Finances",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-03T18:04:51.000Z",
+   "descripcio": "ChatGPT Voice 🤝 Finances. Securely connect your accounts through Finances, then talk through your finances on topics like what subscriptions you're paying for, discuss which you’d like to keep and what you could save by cancelling. Try it: chatgpt.com/finances",
+   "miniatura": "/assets/videos/63pcV4z0DwI.jpg"
+  },
   {
    "id": "2h16j4K_NbA",
    "titol": "Glean on privacy and OpenAI Private Intelligence",
@@ -1060,18 +1084,6 @@
    "publicat": "2026-10-13T19:00:11.000Z",
    "descripcio": "Watch how an autonomous AI agent takes a flat 2D concept image and reconstructs a photorealistic 3D cathedral in Blender from scratch. Tiago Aragona demonstrates how to connect Antigravity directly to Blender via the Model Context Protocol (MCP), leveraging Gemini 4 Argon across 45 iterative agentic",
    "miniatura": "/assets/videos/OYp5j2RihPE.jpg"
-  },
-  {
-   "id": "N6K_pxaAh0w",
-   "titol": "Block on Finding and Fixing Security Risks with OpenAI",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "societat",
-   "idioma": "en",
-   "publicat": "2026-10-13T17:59:33.000Z",
-   "descripcio": "“Now you know and now you can take action before someone else knows.” A weakness in your code can be part of a much bigger attack. Seeing how those weaknesses connect gives defenders a clearer picture of where to act. Block’s Chief Information Security Officer, James Nettesheim, shares how OpenAI’s ",
-   "miniatura": "/assets/videos/N6K_pxaAh0w.jpg"
   },
   {
    "id": "4ZwVP0-ylZU",
