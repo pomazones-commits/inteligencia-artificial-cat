@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-03T13:17:06.920Z",
+ "actualitzat": "2026-11-03T17:16:40.892Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "66114df9c82a",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La plataforma de videojuegos indie itch.io elimina 2TB de contenidos \"basura\" generado con IA",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/03/2742371/plataforma-videojuegos-indie-itch-elimina-2tb-contenidos-basura-generado-ia.html",
+   "publicat": "2026-11-03T16:40:00.000Z"
+  },
+  {
+   "id": "75e012840e75",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alcoy - El Comtat | CEEI Alcoi-Valencia reúne a Durplastics y Patatas Lázaro: analizan cómo la IA transforma las decisiones empresariales",
+   "url": "https://alicanteplaza.es/alicanteplaza/alcoy-el-comtat/ceei-alcoi-valencia-reune-a-durplastics-y-patatas-lazaro-analizan-como-la-ia-transforma-las-decisiones-empresariales",
+   "publicat": "2026-11-03T16:37:20.000Z"
+  },
+  {
+   "id": "7183d7836a1a",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Deutsche Bank no ve una “eliminación generalizada de empleos” por la IA, pero advierte de un cambio en la demanda laboral",
+   "url": "https://www.elperiodico.com/es/economia/20261103/deutsche-bank-descarta-eliminacion-empleo-ia-136042243",
+   "publicat": "2026-11-03T16:00:39.000Z"
+  },
+  {
+   "id": "18856ceeae46",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Menos frecuencias, más control e IA: medidas para reforzar la seguridad ferroviaria",
+   "url": "https://www.diaridetarragona.com/espana/274769/frecuencias-control-e-ia-medidas-reforzar-seguridad-ferroviaria.html",
+   "publicat": "2026-11-03T15:00:26.000Z"
+  },
+  {
+   "id": "02c9122fd492",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De Cos avisa de los riesgos de la IA y su dificultad para los bancos centrales",
+   "url": "https://www.lavanguardia.com/economia/20261103/11675091/cos-avisa-riesgos-ia-dificultad-bancos-centrales.html",
+   "publicat": "2026-11-03T14:08:31.000Z"
+  },
+  {
+   "id": "e96e17e02933",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Así es el plan del Gobierno para utilizar la inteligencia artificial y reforzar la seguridad de los trenes tras el accidente de Toledo",
+   "url": "https://www.elperiodico.com/es/economia/20261103/accidente-tren-toledo-plan-gobierno-inteligencia-artificial-detectar-fallos-136037293",
+   "publicat": "2026-11-03T13:46:44.000Z"
+  },
+  {
+   "id": "a9e877e36b8d",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "OpenAI y Meta se preparan en silencio para la victoria demócrata en las elecciones legislativas de Estados Unidos",
+   "url": "https://www.elperiodico.com/es/internacional/20261103/openai-meta-preparan-victoria-democratas-elecciones-medio-mandato-eeuu-midterms-ia-trump-136004080",
+   "publicat": "2026-11-03T13:22:46.000Z"
+  },
   {
    "id": "90744ca46a14",
    "mitja": "La Vanguardia",
@@ -2042,127 +2119,6 @@
    "titol": "La UMH de Elche diseña una IA que afina los destellos que percibe una persona ciega",
    "url": "https://www.informacion.es/elche/2026/10/27/umh-ia-implante-cerebral-ceguera-investigacion-135817613.html",
    "publicat": "2026-10-27T17:30:34.000Z"
-  },
-  {
-   "id": "b3c1a4b33010",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un nuevo decreto del Gobierno prioriza las gigafactorias de IA europeas como la de Móra la Nova",
-   "url": "https://www.diaridetarragona.com/economia/274171/nuevo-decreto-gobierno-prioriza-gigafactorias-ia-europeas-mora-nova.html",
-   "publicat": "2026-10-27T17:10:34.000Z"
-  },
-  {
-   "id": "4c8411ad8e99",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Móra la Nova guanya marge regulador per al seu projecte de gigafactoria d’IA",
-   "url": "https://www.elnacional.cat/oneconomia/ca/economia/mora-nova-guanya-marge-regulador-projecte-gigafactoria-ia_1716538_102.html",
-   "publicat": "2026-10-27T17:02:00.000Z"
-  },
-  {
-   "id": "7264b08b97e5",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La bombolla de la IA esclata a la Xina: 480.000 milions de dòlars evaporats i una caiguda del 40%",
-   "url": "https://www.elnacional.cat/ca/tecnologia/bombolla-ia-esclata-xina-480000-milions-dolars-evaporats-caiguda-40_1716523_102.html",
-   "publicat": "2026-10-27T17:00:00.000Z"
-  },
-  {
-   "id": "25361e265b73",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El 42% de les grans empreses gironines preveuen canvis a la plantilla per la IA",
-   "url": "https://www.diaridegirona.cat/economia/2026/10/27/42-les-grans-empreses-gironines-canvis-plantilla-per-ia-135812869.html",
-   "publicat": "2026-10-27T16:30:27.000Z"
-  },
-  {
-   "id": "862eeadfc19d",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La retención de talento y la IA, entre los retos pendientes del tejido empresarial de Girona",
-   "url": "https://www.lavanguardia.com/local/girona/20261027/11668591/retencion-talento-ia-retos-pendientes-tejido-empresarial-girona.html",
-   "publicat": "2026-10-27T16:30:00.000Z"
-  },
-  {
-   "id": "ba53814ff107",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Apple Creator Studio incorpora potents funcions d'IA amb models d'OpenAI",
-   "url": "https://www.elnacional.cat/ca/tecnologia/apple-creator-studio-incorpora-potents-funcions-ia-models-openai_1716478_102.html",
-   "publicat": "2026-10-27T16:00:00.000Z"
-  },
-  {
-   "id": "da15e99f024c",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "iFlytek Ainote 2: escribir a mano vuelve a tener sentido en la era de la IA",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261027/iflytek-ainote-2-escribir-precio-135813420",
-   "publicat": "2026-10-27T15:42:46.000Z"
-  },
-  {
-   "id": "97c2b4d7c561",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Impress recibe 40 millones del Banco Europeo de Inversiones para seguir creciendo y sofisticando su inteligencia artificial",
-   "url": "https://www.elperiodico.com/es/economia/20261027/impress-recibe-40-millones-banco-135782448",
-   "publicat": "2026-10-27T14:00:31.000Z"
-  },
-  {
-   "id": "254e830f5fba",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La nueva edición del Diploma de Bioética de la Escuela de Salud Pública analiza los retos de la IA",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/27/2737663/nueva-edicion-del-diploma-bioetica-escuela-salud-publica-analiza-retos-ia.html",
-   "publicat": "2026-10-27T13:48:02.000Z"
-  },
-  {
-   "id": "9444908c3fff",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Moreno destaca la apuesta por la adaptación profesional a la IA y los avances para agilizar los trámites ciudadanos",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/27/2737665/moreno-destaca-apuesta-por-adaptacion-profesional-avances-para-agilizar-tramites-ciudadanos.html",
-   "publicat": "2026-10-27T13:41:41.000Z"
-  },
-  {
-   "id": "e1542c358a75",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "May-Britt Moser, Nobel de Medicina: \"Si dejamos de usar el cerebro por la IA, podría reducir su tamaño\"",
-   "url": "https://www.diariodemallorca.es/sociedad/2026/10/27/may-britt-moser-nobel-medicina-135809122.html",
-   "publicat": "2026-10-27T13:31:05.000Z"
   }
  ]
 }
