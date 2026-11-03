@@ -73,9 +73,23 @@ function seccions_fixades(): array
     return $fixades;
 }
 
+// 03.11.2026 (decisió d'en Rafael): quan una peça surt de la banda de «La tribuna», de
+// Veus de CIVICAi o de Veus de l'administració, passa uns 4 dies (el dia que en surt i
+// els 3 següents) al davant de la targeta de la seva secció. No hi passa si l'autor ja
+// surt en una altra banda (p. ex. la columna anterior d'en Sanromà quan ja hi ha la nova).
+// Veus d'empresa no hi entra. La llista la omple seccions_marca_sortides().
+const SECCIONS_DIES_SORTIDA = 4;
+
+function &seccions_sortides(): array
+{
+    static $sortides = [];
+    return $sortides;
+}
+
 function seccions_grup(array $peca): int
 {
-    if (isset(seccions_fixades()[seccions_clau($peca)])) { return -1; }
+    if (isset(seccions_fixades()[seccions_clau($peca)])) { return -2; }
+    if (isset(seccions_sortides()[seccions_clau($peca)])) { return -1; }
     if (in_array($peca['tipus'], ['analisi', 'quadern'], true)) { return 2; }
     return seccions_es_convidat($peca) && seccions_dies($peca) <= SECCIONS_CONVIDATS_DIES ? 0 : 1;
 }
@@ -133,11 +147,67 @@ function seccions_a_la_portada(array $totes): array
     return $vistes;
 }
 
+// Dia en què cada peça va sortir (o sortirà) de la seva banda de la portada, amb la
+// mateixa regla de seccions_a_la_portada(): la de «La tribuna» en surt quan es publica la
+// peça següent de la rotació (tribuna o estudi sense sèrie); la columna d'en Sanromà,
+// amb la columna següent; l'altra veu de CIVICAi i la de l'administració, amb la peça
+// següent de la seva banda o, si no n'hi ha, quan fa SECCIONS_DIES_BANDA dies.
+function seccions_dates_sortida(array $totes): array
+{
+    $serie = static fn(array $p): string => (string) ($p['item']['serie'] ?? '');
+    $signada = static fn(array $p): bool => in_array($p['tipus'], ['tribuna', 'estudis'], true);
+    $esSanroma = static fn(array $p): bool => (bool) preg_match('/sanrom/i', (string) ($p['item']['author'] ?? ''));
+    $bandes = [
+        'tribuna' => [static fn(array $p): bool => $signada($p) && !in_array($serie($p), ['veus-de-civicai', 'veus-de-l-administracio'], true), false],
+        'columna' => [static fn(array $p): bool => $signada($p) && $serie($p) === 'veus-de-civicai' && $esSanroma($p), false],
+        'civicai' => [static fn(array $p): bool => $signada($p) && $serie($p) === 'veus-de-civicai' && !$esSanroma($p), true],
+        'admin' => [static fn(array $p): bool => $signada($p) && $serie($p) === 'veus-de-l-administracio', true],
+    ];
+    $sortida = [];
+    foreach ($bandes as [$filtre, $caduca]) {
+        $llista = array_values(array_filter($totes, $filtre));
+        usort($llista, static fn(array $a, array $b): int => strcmp((string) $a['dataIso'], (string) $b['dataIso']));
+        foreach ($llista as $i => $p) {
+            $dia = substr((string) $p['dataIso'], 0, 10);
+            if ($dia === '') { continue; }
+            $fi = null;
+            for ($j = $i + 1; $j < count($llista); $j++) {
+                $seg = substr((string) $llista[$j]['dataIso'], 0, 10);
+                if ($seg >= $dia) { $fi = $seg; break; }
+            }
+            if ($caduca) {
+                $limit = (new DateTimeImmutable($dia, new DateTimeZone('Europe/Madrid')))
+                    ->modify('+' . (SECCIONS_DIES_BANDA + 1) . ' days')->format('Y-m-d');
+                if ($fi === null || $limit < $fi) { $fi = $limit; }
+            }
+            if ($fi !== null) { $sortida[seccions_clau($p)] = $fi; }
+        }
+    }
+    return $sortida;
+}
+
 // Candidates de cada secció: primer les dels convidats (de menys de 30 dies), després
 // la resta de signades per persones i, al final, les de la Redacció; dins de cada grup,
 // de la més recent a la més antiga. Fora les que ja surten en una altra banda.
 $totes = iacat_totes_les_peces();
 $jaVistes = seccions_a_la_portada($totes);
+$autorsBandes = [];
+foreach ($jaVistes as $peca) {
+    $autor = trim((string) ($peca['item']['author'] ?? ''));
+    if ($autor !== '') { $autorsBandes[$autor] = true; }
+}
+$avuiIso = (new DateTimeImmutable('today', new DateTimeZone('Europe/Madrid')))->format('Y-m-d');
+$sortides = &seccions_sortides();
+foreach (seccions_dates_sortida($totes) as $clau => $fi) {
+    $dies = (strtotime($avuiIso) - strtotime($fi)) / 86400;
+    if ($dies >= 0 && $dies < SECCIONS_DIES_SORTIDA) { $sortides[$clau] = $fi; }
+}
+foreach ($totes as $peca) {
+    if (isset($sortides[seccions_clau($peca)]) && isset($autorsBandes[trim((string) ($peca['item']['author'] ?? ''))])) {
+        unset($sortides[seccions_clau($peca)]);
+    }
+}
+unset($sortides);
 $candidates = [];
 foreach ($totes as $peca) {
     if ($peca['tipus'] === 'reflexio' || isset($jaVistes[seccions_clau($peca)])) { continue; }
