@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-03T13:16:05.089Z",
+  "generat": "2026-11-03T17:20:07.789Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -48,7 +48,7 @@
       "programa": "La tàctica",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 0
+      "sobre_ia": 1
     },
     {
       "font": "rtve",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 25,
+      "audios": 26,
       "sobre_ia": 1
     },
     {
@@ -177,5 +177,23 @@
       "sobre_ia": 2
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "rtve-17297853",
+      "emissora": "Ràdio 4",
+      "programa": "La tàctica",
+      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
+      "data": "2026-11-03",
+      "durada": "55 min",
+      "titol_original": "Ramon López de Mántaras: “Parlar del benestar de la IA és una ximpleria”",
+      "descripcio_original": "Consultori sobre intel·ligència artificial amb el doctor Ramon López de Mántaras, investigador del CSIC i fundador de l’Institut en intel·ligència artificial. Amb ell també repassem les últimes declaracions de Geoffrey Hinton i Dario AModei d’Anthropic Claude.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-ramon-lopez-mantaras-parlar-del-benestar-ia-ximpleria/17297853/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17297853"
+      }
+    }
+  ]
 }
