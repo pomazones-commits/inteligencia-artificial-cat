@@ -1927,3 +1927,19 @@ test('club de lectura: el calendari del llibre del mes és vàlid (03.11.2026)',
   }
   assert.ok(ids.has(club.llibre_del_mes.id), 'llibre_del_mes (recurs) apunta a un llibre que no hi és');
 });
+
+test('club de lectura: llibre_del_mes es posa sol al dia segons el calendari (03.11.2026)', async () => {
+  const { sincronitza, triaDelMes } = await import(resolve(import.meta.dirname, '..', 'scripts', 'club-llibre-del-mes.mjs'));
+  const text = readFileSync(resolve(import.meta.dirname, '..', '..', 'public', 'data', 'club-lectura.json'), 'utf8');
+  const club = JSON.parse(text);
+  const primer = club.calendari_llibre_del_mes[0];
+  assert.equal(triaDelMes(club, primer.mes).id, primer.id);
+  assert.equal(triaDelMes(club, '2000-01'), null, 'abans del calendari no ha de triar res');
+  const segon = club.calendari_llibre_del_mes[1];
+  const nou = sincronitza(text, segon.mes);
+  assert.ok(nou, 'en canviar de mes hi ha d\'haver canvi');
+  const d = JSON.parse(nou);
+  assert.deepEqual(d.llibre_del_mes, { id: segon.id, mes: segon.mes, motiu: segon.motiu });
+  assert.deepEqual({ ...d, llibre_del_mes: null }, { ...club, llibre_del_mes: null }, 'no ha de tocar res més');
+  assert.equal(sincronitza(nou, segon.mes), null, 'ha de ser idempotent');
+});

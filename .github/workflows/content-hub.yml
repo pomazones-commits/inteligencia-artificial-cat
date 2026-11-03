@@ -119,6 +119,15 @@ jobs:
           --state-dir .content-state
           --target 20
 
+      # 03.11.2026 — CLUB DE LECTURA: posa «llibre_del_mes» segons
+      # «calendari_llibre_del_mes» (canvia sol el dia 1 de cada mes). La pàgina
+      # ja ho tria sola; això el manté al dia per al butlletí. MAI no atura el lot.
+      - name: Posar al dia el llibre del mes del club
+        if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
+        continue-on-error: true
+        timeout-minutes: 1
+        run: node automation/scripts/club-llibre-del-mes.mjs --public-dir public
+
       - name: Executar proves de seguretat
         if: github.event_name != 'schedule' || steps.pendent.outputs.pending == 'yes'
         run: node --test automation/tests/content-hub.test.mjs
