@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-03T12:25:29.613Z",
+ "actualitzat": "2026-11-03T13:17:06.920Z",
  "fonts": 44,
  "articles": [
   {
@@ -45,7 +45,7 @@
    "ambit": "catala",
    "titol": "Miyamoto (Nintendo) defiende que siempre habrá un papel para los desarrolladores por mucho que evolucione la IA",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/03/2742145/miyamoto-nintendo-defiende-siempre-habra-papel-para-desarrolladores-por-mucho-evolucione-ia.html",
-   "publicat": "2026-11-03T11:48:09.000Z"
+   "publicat": "2026-11-03T11:48:00.000Z"
   },
   {
    "id": "dd147639b753",
@@ -78,7 +78,7 @@
    "ambit": "catala",
    "titol": "L’FMI alerta que la IA afectarà el 40% de l’ocupació mundial i apunta riscos de crisi",
    "url": "https://www.elnacional.cat/oneconomia/ca/economia/fmi-alerta-ia-afectara-40-llocs-feina-mon-ja-parla-crisi_1719792_102.html",
-   "publicat": "2026-11-03T11:15:20.000Z"
+   "publicat": "2026-11-03T11:15:00.000Z"
   },
   {
    "id": "a0fc26bc05f2",
@@ -144,7 +144,9 @@
    "ambit": "catala",
    "titol": "Barcelona probará la inteligencia artificial para regular los semáforos en 2027",
    "url": "https://www.elperiodico.com/es/barcelona/20261103/barcelona-inteligencia-artificial-regular-semaforos-2027-135993146",
-   "publicat": "2026-11-03T09:31:57.000Z"
+   "publicat": "2026-11-03T09:31:57.000Z",
+   "noticia": "barcelona-provara-ia-semafors-kapsch-acisa",
+   "noticiaTitol": "Barcelona provarà dos sistemes d'IA per regular els semàfors, amb l'objectiu de tenir-los funcionant al carrer a finals del 2027"
   },
   {
    "id": "ee5292975cda",
@@ -2161,85 +2163,6 @@
    "titol": "May-Britt Moser, Nobel de Medicina: \"Si dejamos de usar el cerebro por la IA, podría reducir su tamaño\"",
    "url": "https://www.diariodemallorca.es/sociedad/2026/10/27/may-britt-moser-nobel-medicina-135809122.html",
    "publicat": "2026-10-27T13:31:05.000Z"
-  },
-  {
-   "id": "763e9b95d362",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El decret dels centres de dades dilueix les exigències per a gigafactories d'IA com la de Móra la Nova",
-   "url": "https://www.ara.cat/economia/decret-dels-centres-dades-dilueix-exigencies-gigafactories-d-ia-mora-nova_1_5891770.html",
-   "publicat": "2026-10-27T13:15:39.000Z",
-   "noticia": "decret-centres-dades-regim-especial-gigafactories-mora-la-nova",
-   "noticiaTitol": "El decret estatal dels centres de dades afluixa les exigències d'aigua i energia per a gigafactories d'IA com la de Móra la Nova"
-  },
-  {
-   "id": "7d5a8287e692",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Vera Health levanta 25,5 millones para su IA clínica, que es usada por uno de cada cuatro médicos en España",
-   "url": "https://cincodias.elpais.com/companias/2026-10-27/vera-health-levanta-255-millones-para-su-ia-clinica-que-es-usada-por-uno-de-cada-cuatro-medicos-en-espana.html",
-   "publicat": "2026-10-27T13:08:01.000Z"
-  },
-  {
-   "id": "e5bbc46a25de",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El gobierno sueco bloquea el acceso de sus empleados a ChatGPT y Claude",
-   "url": "https://www.lavanguardia.com/internacional/20261027/11669386/gobierno-sueco-bloquea-acceso-empleados-chatgpt-claude.html",
-   "publicat": "2026-10-27T13:05:49.000Z"
-  },
-  {
-   "id": "09dc379c092a",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La mateixa Google situa Gemini 4 Argon molt per darrere de Claude i GPT-6",
-   "url": "https://www.elnacional.cat/ca/tecnologia/mateixa-google-situa-gemini-4-argon-molt-darrere-claude-gpt-6_1716403_102.html",
-   "publicat": "2026-10-27T13:05:00.000Z"
-  },
-  {
-   "id": "bc2e6b1d31e8",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Enrique Vila-Matas, Premio Nacional de las Letras 2026: \"A la IA le hago preguntas muy difíciles y la vuelvo completamente loca\"",
-   "url": "https://www.diariodemallorca.es/cultura/2026/10/27/enrique-vila-matas-premio-nacional-135807599.html",
-   "publicat": "2026-10-27T13:04:47.000Z"
-  },
-  {
-   "id": "b4aada0b6ea7",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Solaria es dispara en borsa més del 8% per l'optimisme sobre la IA",
-   "url": "https://www.elnacional.cat/oneconomia/ca/mercats/solaria-es-dispara-borsa-mes-8-optimisme-sobre-ia_1716385_102.html",
-   "publicat": "2026-10-27T12:48:50.000Z"
-  },
-  {
-   "id": "5b8571924424",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Genética, gestión del agua, energías renovables e IA centran la Semana de la Ciencia del Campus de Alcoy de la Politécnica",
-   "url": "https://www.informacion.es/alcoy/2026/10/27/genetica-gestion-agua-energias-renovables-135801168.html",
-   "publicat": "2026-10-27T12:32:55.000Z"
   }
  ]
 }
