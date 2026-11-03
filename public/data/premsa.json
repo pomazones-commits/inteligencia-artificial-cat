@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-02T22:54:48.316Z",
+ "actualitzat": "2026-11-03T05:17:19.796Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d881b6a9820a",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Está la IA volviéndonos menos inteligentes? Diferencias entre atención, memoria y cociente intelectual",
+   "url": "https://www.lavanguardia.com/vivo/psicologia-salud-mental/20261103/11673929/esta-ia-volviendonos-inteligentes-diferencias-atencion-memoria-cociente-intelectual.html",
+   "publicat": "2026-11-03T05:00:00.000Z"
+  },
+  {
+   "id": "49a7a5e897a4",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La Justícia estudia incorporar l’ús de la intel·ligència artificial",
+   "url": "https://www.diariandorra.ad/nacional/261103/justicia-estudia-incorporar-l-us-intel-ligencia-artificial_207926.html",
+   "publicat": "2026-11-03T04:45:12.000Z"
+  },
+  {
+   "id": "97bcbd6c495f",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Wall Street afronta las ‘midterms’: más riesgo regulatorio para la IA y alivio pasajero para la deuda",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-03/wall-street-afronta-las-midterms-mas-riesgo-regulatorio-para-la-ia-y-alivio-pasajero-para-la-deuda.html",
+   "publicat": "2026-11-03T04:30:01.000Z"
+  },
+  {
+   "id": "2a99074f5176",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La intel·ligència artificial va arribar tard al robatori a Binance",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/intelligencia-artificial-va-arribar-tard-robatori-binance_1719274_102.html",
+   "publicat": "2026-11-03T04:30:00.000Z"
+  },
   {
    "id": "4d7aa65f5a22",
    "mitja": "Cinco Días",
@@ -2218,116 +2262,6 @@
    "titol": "Quién es Nathan Chen, el prodigio chino de 17 años que ha ayudado a desarrollar una de las IAs más avanzadas del mundo",
    "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261027/11668178/nathan-chen-prodigio-chino-17-anos-ayudado-desarrollar-ia-mas-avanzadas-mundo.html",
    "publicat": "2026-10-27T06:10:00.000Z"
-  },
-  {
-   "id": "5aa8ad9a916c",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Opinión | La batalla por el valor de la IA también se libra en la Comunitat Valenciana",
-   "url": "https://valenciaplaza.com/valenciaplaza/opinion/la-batalla-por-el-valor-de-la-ia-tambien-se-libra-en-la-comunitat-valenciana",
-   "publicat": "2026-10-27T05:00:05.000Z"
-  },
-  {
-   "id": "61467ac0774d",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "'AI shame': la vergüenza de usar inteligencia artificial",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261027/11666285/ai-shame-vergueenza-inteligencia-artificial.html",
-   "publicat": "2026-10-27T05:00:00.000Z"
-  },
-  {
-   "id": "8e9ff28889d7",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Ana García Robles, responsable del Laboratorio de Gobernanza de la IA para la Humanidad de la ONU: “Debemos poner a las personas en el centro”",
-   "url": "https://www.lavanguardia.com/neo/ia/20261027/11661550/ana-garcia-robles-responsable-laboratorio-gobernanza-ia-humanidad-onu-debemos-poner-personas-centro.html",
-   "publicat": "2026-10-27T05:00:00.000Z"
-  },
-  {
-   "id": "918e24239376",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Defensa Jurídica busca su salto de crecimiento entre IA, pymes y la protección al ciudadano",
-   "url": "https://www.lavanguardia.com/seguros/20261027/11668457/defensa-juridica-busca-salto-crecimiento-ia-pymes-proteccion-ciudadano.html",
-   "publicat": "2026-10-27T05:00:00.000Z"
-  },
-  {
-   "id": "83f00ad03913",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los pequeños inversores europeos podrán comprar acciones de Anthropic en la OPV",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-10-27/los-pequenos-inversores-europeos-podran-comprar-acciones-de-anthropic-en-la-opv.html",
-   "publicat": "2026-10-27T04:25:00.000Z"
-  },
-  {
-   "id": "e8bd61dcf165",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Milei, la IA i “Broncano” en campanya",
-   "url": "https://www.segre.com/ca/opinio/col-laboracio/261027/milei-ia-i-broncano-campanya_1377517.html",
-   "publicat": "2026-10-27T04:22:00.000Z"
-  },
-  {
-   "id": "5667d08ba6c7",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El Govern aplana les exigències a la gigafactoria d’IA de Tarragona",
-   "url": "https://www.elperiodico.cat/economia/20261027/govern-aplana-les-exigencies-gigafactoria-135789669",
-   "publicat": "2026-10-27T04:02:15.000Z"
-  },
-  {
-   "id": "d8677466fd43",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Encuesta: ¿Hay que prohibir los vídeos políticos falsos creados con IA?",
-   "url": "https://www.lavanguardia.com/participacion/debates/20261027/11666121/encuesta-hay-prohibir-videos-politicos-falsos-creados-ia.html",
-   "publicat": "2026-10-27T04:00:00.000Z"
-  },
-  {
-   "id": "02b3852e8a72",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Almadía y el topetazo con la IA",
-   "url": "https://www.lavanguardia.com/cultura/20261027/11668950/almadia-topetazo-ia.html",
-   "publicat": "2026-10-27T00:21:20.000Z"
-  },
-  {
-   "id": "8ac458cc6129",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Educación pregunta a los alumnos por la calidad de sus profesores y por el uso de Inteligencia Artificial",
-   "url": "https://www.lasprovincias.es/comunitat/educacion-pregunta-alumnos-calidad-profesores-uso-inteligencia-20261026004126-nt.html",
-   "publicat": "2026-10-26T23:41:26.000Z"
   }
  ]
 }
