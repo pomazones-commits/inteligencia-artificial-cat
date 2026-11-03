@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "03.11.2026",
+    "title": "Barcelona provarà dos sistemes d'IA per regular els semàfors, amb l'objectiu de tenir-los funcionant al carrer a finals del 2027",
+    "summary": "Les empreses Kapsch i Acisa, triades entre 26 candidatures, assajaran semàfors que s'adapten al trànsit i un bessó digital de la xarxa viària dins del Barcelona Innova Lab Mobility, que ha incorporat TMB i l'ATM com a socis.",
+    "detail": "L'Ajuntament de Barcelona i la UPC han dissenyat un full de ruta per introduir a poc a poc la intel·ligència artificial en la regulació dels semàfors de la ciutat. El primer pas és una prova pilot impulsada pel Barcelona Innova Lab Mobility (BILM), una iniciativa de l'Ajuntament i Fira de Barcelona amb la Fundació Mobile World Capital, que s'ha presentat aquest dimarts a la jornada Tomorrow Mobility, dins del Smart City Expo World Congress.\n\nS'han triat dues propostes entre 26 candidatures, 19 d'internacionals. La de l'empresa austríaca Kapsch, Matcab, adapta els temps de cada semàfor al trànsit que hi ha en cada moment i permet prioritzar vianants, transport públic o vehicles d'emergència; l'empresa preveu reduir fins a un 5% l'espera de qui va a peu o en bicicleta, un 3% el temps de viatge en transport públic i un 10% la congestió. Té un pressupost de 358.185 euros, dels quals l'Ajuntament n'aporta 100.000. La de l'empresa espanyola Acisa, MOB-IA, crea un bessó digital de la xarxa viària que rep dades en temps real de sensors i vehicles connectats, preveu què passarà i coordina els semàfors d'un mateix eix; promet entre un 10% i un 20% menys de temps en el trànsit habitual. Costa 177.865 euros, amb 100.000 més de l'Ajuntament. A la mateixa jornada, TMB i l'Autoritat del Transport Metropolità s'han afegit com a socis del BILM.\n\nEl projecte arribarà en un moment delicat per a la mobilitat de la ciutat: segons el calendari previst, les proves començaran a finals d'aquest any i els sistemes es posaran a prova en un entorn real de Barcelona a finals del 2027, coincidint amb les obres per connectar el tramvia per la Diagonal, que obligaran a reorganitzar el trànsit en un dels eixos més carregats.\n\nLes reduccions de temps i de congestió són previsions de les empreses, no resultats mesurats. La prova és una primera fase experimental, de quatre mesos segons el diari, per veure si aquestes tecnologies funcionen en condicions reals i què se n'aprèn abans de plantejar una implantació més gran. Encara no s'han fet públiques les cruïlles on s'instal·laran.",
+    "source": "El Periódico",
+    "url": "https://www.elperiodico.com/es/barcelona/20261103/barcelona-inteligencia-artificial-regular-semaforos-2027-135993146",
+    "image": "./assets/barcelona-provara-ia-semafors-kapsch-acisa-20261103.jpg",
+    "slug": "barcelona-provara-ia-semafors-kapsch-acisa"
+  },
+  {
     "place": "Andorra",
     "category": "IA I SOCIETAT",
     "date": "03.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.elnacional.cat/oneconomia/ca/economia/barcelona-cybersecurity-congress-tractara-impacte-ia-ciberseguretat_1715995_102.html",
     "image": "./assets/barcelona-cybersecurity-congress-ia-2026-20261029.jpg",
     "slug": "barcelona-cybersecurity-congress-ia-2026"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "29.10.2026",
-    "title": "Nvidia publica un model obert que transcriu àudio en 40 llengües, però el català no hi és",
-    "summary": "Nemotron 3.5 Transcribe té 30.000 milions de paràmetres, distingeix fins a vuit veus en gravacions d'una hora i també tradueix. Es pot baixar gratuïtament de Hugging Face.",
-    "detail": "Els models que converteixen la veu en text són la base de moltes aplicacions d'IA que ja fan servir empreses i hospitals: les que prenen notes de les reunions, les que transcriuen les visites mèdiques o les dels centres d'atenció telefònica. Nvidia, que sobretot ven els xips on funcionen aquests models, també en publica de propis amb els pesos oberts, és a dir, perquè qualsevol els pugui baixar i fer funcionar als seus ordinadors.\n\nAquest dimecres ha presentat Nemotron 3.5 Transcribe, un model de 30.000 milions de paràmetres que, segons l'empresa, transcriu àudio en fins a 40 llengües i tradueix 31 llengües cap a l'anglès i des de l'anglès. Pot treballar amb gravacions de fins a una hora, distingeix fins a vuit persones que parlen i funciona en un sol xip, des dels equips petits Jetson i DGX Spark fins als dels centres de dades. Nvidia diu que supera els rivals en diverses proves, entre les quals la classificació oberta de reconeixement de veu de Hugging Face, però TechCrunch no en dona les puntuacions. Juntament amb el model, ha publicat la segona versió de Granary, un conjunt de dades de veu obert perquè els desenvolupadors l'adaptin al vocabulari del seu sector.\n\nEl llançament arriba en un moment en què la veu és un dels camps més disputats de la IA: fa pocs dies Mistral va presentar models de veu en més de 50 llengües. Per al lector d'aquí, el detall rellevant és un altre: a la fitxa del model a Hugging Face hi ha les etiquetes de les 40 llengües, que inclouen el castellà, el francès, l'italià, el maltès o el letó, però no el català. Qui vulgui transcriure català amb aquesta eina haurà d'adaptar-la amb dades pròpies, una feina que projectes com Aina ja fan amb altres models.\n\nEl model només treballa amb àudio gravat, no amb emissions en directe. Es distribueix amb una llicència pròpia d'Nvidia, no amb una de les llicències habituals de codi obert, i els resultats de les proves són els que dona l'empresa: caldrà veure com es comporta en avaluacions independents i en condicions reals, amb soroll de fons o accents.",
-    "source": "TechCrunch",
-    "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
-    "image": "./assets/nvidia-nemotron-transcribe-model-obert-veu-20261029.jpg",
-    "slug": "nvidia-nemotron-transcribe-model-obert-veu"
   }
 ];
