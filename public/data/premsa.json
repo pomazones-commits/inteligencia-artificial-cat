@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-03T17:16:40.892Z",
+ "actualitzat": "2026-11-03T19:53:02.071Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f49ed766f2dd",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "De la IA a la política energética: las nuevas fronteras de la seguridad en Europa",
+   "url": "https://elpais.com/internacional/2026-11-03/de-la-ia-a-la-politica-energetica-las-nuevas-fronteras-de-la-seguridad-en-europa.html",
+   "publicat": "2026-11-03T19:37:51.000Z"
+  },
+  {
+   "id": "77b5c06eee49",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Hernández de Cos advierte de un desplome bursátil por la IA y señala que los niveles de cotización de las tecnológicas son \"muy elevados\"",
+   "url": "https://www.elperiodico.com/es/economia/20261103/hernandez-cos-advierte-riesgos-ia-136051503",
+   "publicat": "2026-11-03T18:00:23.000Z"
+  },
+  {
+   "id": "a81112c1778f",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Hernández de Cos advierte de los riesgos de la IA y su dificultad en los bancos centrales",
+   "url": "https://www.levante-emv.com/economia/2026/11/03/hernandez-cos-advierte-riesgos-ia-136051498.html",
+   "publicat": "2026-11-03T18:00:23.000Z"
+  },
   {
    "id": "66114df9c82a",
    "mitja": "Última Hora",
@@ -2086,39 +2119,6 @@
    "titol": "Anthropic demana un acte de fe als inversors per sortir a borsa",
    "url": "https://www.3cat.cat/3catinfo/anthropic-demana-un-acte-de-fe-als-inversors-per-sortir-a-borsa/noticia/3436243",
    "publicat": "2026-10-27T20:21:02.000Z"
-  },
-  {
-   "id": "6d122905de4d",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA torna a ficar-se en problemes: els hereus d'Elvis Presley reclamen 36 milions d'euros a Anthropic",
-   "url": "https://www.elnacional.cat/ca/tecnologia/ia-torna-ficar-se-en-problemes-hereus-elvis-presley-reclamen-36-milions-euros-anthropic_1716562_102.html",
-   "publicat": "2026-10-27T19:00:00.000Z"
-  },
-  {
-   "id": "767392cfb343",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "OpenAI asegura haber resuelto parte de un Problema del Milenio gracias a la inteligencia artificial",
-   "url": "https://www.elmundo.es/tecnologia/2026/10/27/6ae0efe921efa071288b45a3.html",
-   "publicat": "2026-10-27T18:39:44.000Z"
-  },
-  {
-   "id": "50183305ca87",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La UMH de Elche diseña una IA que afina los destellos que percibe una persona ciega",
-   "url": "https://www.informacion.es/elche/2026/10/27/umh-ia-implante-cerebral-ceguera-investigacion-135817613.html",
-   "publicat": "2026-10-27T17:30:34.000Z"
   }
  ]
 }
