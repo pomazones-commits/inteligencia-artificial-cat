@@ -1,5 +1,5 @@
 {
- "nota": "Club de lectura sobre IA (08.10.2026). Dades MANUALS. Les opinions dels lectors NO són aquí: viuen només al servidor (data/club-opinions.json, bloquejat per HTTP) i les gestiona api.php. «portada» és l'identificador d'imatge d'Amazon: la pàgina baixa la coberta una sola vegada a assets/club/<id>.jpg. «ressenya» és la d'en Rafael (traduïda al català si llengua_ressenya és 'es'). «origen_ressenya» (opcional): 'club' si la ressenya s'ha escrit per al club i no prové d'Amazon (des del 09.10.2026).",
+ "nota": "Club de lectura sobre IA (08.10.2026). Dades MANUALS. Les opinions dels lectors NO són aquí: viuen només al servidor (data/club-opinions.json, bloquejat per HTTP) i les gestiona api.php. «portada» és l'identificador d'imatge d'Amazon: la pàgina baixa la coberta una sola vegada a assets/club/<id>.jpg. «ressenya» és la d'en Rafael (traduïda al català si llengua_ressenya és 'es'). «origen_ressenya» (opcional): 'club' si la ressenya s'ha escrit per al club i no prové d'Amazon (des del 09.10.2026). «calendari_llibre_del_mes» (03.11.2026): el llibre del mes canvia SOL el dia 1 de cada mes; la pàgina tria l'entrada del mes en curs (hora de Madrid) i, si no n'hi ha, la darrera passada; «llibre_del_mes» només és el recurs si el calendari falla. Per canviar el llibre d'un mes, edita'n l'entrada al calendari. El butlletí també ha de fer servir l'entrada del mes en curs.",
  "actualitzat": "2026-11-03",
  "ressenyador": {
   "nom": "Rafael Julivert",
@@ -11,6 +11,68 @@
   "mes": "2026-11",
   "motiu": "El llibre que ha reobert el debat sobre la superintel·ligència: una tesi radical que es nega a tranquil·litzar el lector i que val la pena discutir."
  },
+ "calendari_llibre_del_mes": [
+  {
+   "mes": "2026-11",
+   "id": "si-alguien-la-crea-todos-moriremos",
+   "motiu": "El llibre que ha reobert el debat sobre la superintel·ligència: una tesi radical que es nega a tranquil·litzar el lector i que val la pena discutir."
+  },
+  {
+   "mes": "2026-12",
+   "id": "el-imperio-de-la-ia",
+   "motiu": "Per acabar l’any mirant per dins l’empresa que va obrir l’era de ChatGPT: com un projecte sense ànim de lucre va acabar actuant com un imperi."
+  },
+  {
+   "mes": "2027-01",
+   "id": "atlas-de-ia",
+   "motiu": "Per començar l’any mirant el costat material de la IA: les mines, l’aigua, l’energia i la feina que hi ha darrere de cada algorisme."
+  },
+  {
+   "mes": "2027-02",
+   "id": "pensar-la-tecnologia",
+   "motiu": "Un mes per a les preguntes de fons: la tecnologia és neutral? Una màquina pot ser moralment responsable?"
+  },
+  {
+   "mes": "2027-03",
+   "id": "el-sueno-de-la-inteligencia-artificial",
+   "motiu": "Una porta d’entrada per a tothom: la història de la IA, de la mitologia a ChatGPT, explicada sense espantar ningú."
+  },
+  {
+   "mes": "2027-04",
+   "id": "la-era-del-capitalismo-de-la-vigilancia",
+   "motiu": "El clàssic que explica com les plataformes no només ens observen, sinó que modelen el nostre comportament."
+  },
+  {
+   "mes": "2027-05",
+   "id": "la-singularidad-fenollosa",
+   "motiu": "Una tesi que fa discutir: la IA que fem servir cada dia ja pensa?"
+  },
+  {
+   "mes": "2027-06",
+   "id": "la-ola-que-viene",
+   "motiu": "El toc d’atenció d’un dels fundadors de DeepMind: arriba una onada tecnològica que ho canviarà tot i no hi estem preparats."
+  },
+  {
+   "mes": "2027-07",
+   "id": "etica-o-ideologia-de-la-inteligencia-artificial",
+   "motiu": "Per a l’estiu, una mirada ètica a la IA i al transhumanisme, i un debat obert sobre la IA a les aules."
+  },
+  {
+   "mes": "2027-08",
+   "id": "inteligencia-artificial-kaplan",
+   "motiu": "Un llibre del 2016 que s’ha fet gran: què va encertar i què no sobre la IA, la feina i la desigualtat."
+  },
+  {
+   "mes": "2027-09",
+   "id": "civilizacion-artificial",
+   "motiu": "Per a la tornada: el model europeu d’IA, entre el mercat dels Estats Units i el control de la Xina."
+  },
+  {
+   "mes": "2027-10",
+   "id": "vida-3-0",
+   "motiu": "Un any després d’obrir el club, els futurs possibles de la IA, de la utopia a la distopia."
+  }
+ ],
  "temes": [
   {
    "id": "per-comencar",

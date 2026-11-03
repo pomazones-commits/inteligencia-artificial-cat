@@ -38,6 +38,31 @@ function club_dades(): array
     return $dades;
 }
 
+/**
+ * Llibre del mes (03.11.2026). Tria l'entrada de «calendari_llibre_del_mes» del
+ * mes en curs (hora de Madrid); si no n'hi ha, la darrera ja començada; i si el
+ * calendari falta o no encaixa, «llibre_del_mes». Retorna ['id', 'mes', 'motiu']
+ * o [] si no hi ha cap llibre vàlid. $ara ('AAAA-MM') només serveix per a proves.
+ */
+function club_llibre_del_mes(array $dades, ?string $ara = null): array
+{
+    if ($ara === null) {
+        $ara = (new DateTimeImmutable('now', new DateTimeZone('Europe/Madrid')))->format('Y-m');
+    }
+    $tria = [];
+    foreach ((array) ($dades['calendari_llibre_del_mes'] ?? []) as $e) {
+        if (!is_array($e)) { continue; }
+        $mes = (string) ($e['mes'] ?? '');
+        if (!preg_match('/^\d{4}-\d{2}$/', $mes) || $mes > $ara || !club_llibre((string) ($e['id'] ?? ''))) { continue; }
+        if (!$tria || $mes > (string) $tria['mes']) { $tria = $e; }
+    }
+    if (!$tria) {
+        $e = (array) ($dades['llibre_del_mes'] ?? []);
+        if (club_llibre((string) ($e['id'] ?? ''))) { $tria = $e; }
+    }
+    return $tria;
+}
+
 /** Llibre per identificador, o null. */
 function club_llibre(string $id): ?array
 {

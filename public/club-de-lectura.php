@@ -38,7 +38,7 @@ exit;
 
 function club_index(array $dades, array $llibres, array $temes, array $css): void
 {
-    $mes = (array) ($dades['llibre_del_mes'] ?? []);
+    $mes = club_llibre_del_mes($dades); // canvia sol cada mes (03.11.2026)
     $delMes = club_llibre((string) ($mes['id'] ?? ''));
     $perTema = [];
     foreach ($llibres as $b) { $perTema[(string) ($b['tema'] ?? '')][] = $b; }

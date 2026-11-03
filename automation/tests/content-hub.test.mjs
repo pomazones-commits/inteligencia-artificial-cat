@@ -1909,3 +1909,21 @@ test('enquadraments: és determinista i a la llarga surt de cara el 50% de les i
   }
   assert.ok(Math.abs(cara / total - 0.5) < 0.05, `proporció de cara: ${(cara / total).toFixed(3)}`);
 });
+
+test('club de lectura: el calendari del llibre del mes és vàlid (03.11.2026)', () => {
+  const club = JSON.parse(readFileSync(resolve(import.meta.dirname, '..', '..', 'public', 'data', 'club-lectura.json'), 'utf8'));
+  const ids = new Set(club.llibres.map((b) => b.id));
+  const calendari = club.calendari_llibre_del_mes;
+  assert.ok(Array.isArray(calendari) && calendari.length > 0, 'falta calendari_llibre_del_mes');
+  const mesos = calendari.map((e) => e.mes);
+  assert.deepEqual([...mesos].sort(), mesos, 'el calendari ha d\'anar per ordre de mes');
+  assert.equal(new Set(mesos).size, mesos.length, 'hi ha mesos repetits');
+  for (const e of calendari) {
+    assert.match(e.mes, /^\d{4}-(0[1-9]|1[0-2])$/, `mes mal escrit: ${e.mes}`);
+    assert.ok(ids.has(e.id), `el llibre ${e.id} (${e.mes}) no és al club`);
+    assert.ok(e.motiu && e.motiu.length > 20, `falta el motiu de ${e.mes}`);
+    const llibre = club.llibres.find((b) => b.id === e.id);
+    assert.ok(llibre.pregunta, `el llibre ${e.id} no té pregunta per al debat`);
+  }
+  assert.ok(ids.has(club.llibre_del_mes.id), 'llibre_del_mes (recurs) apunta a un llibre que no hi és');
+});
