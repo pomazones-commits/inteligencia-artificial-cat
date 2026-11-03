@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Andorra",
+    "category": "IA I SOCIETAT",
+    "date": "03.11.2026",
+    "title": "La justícia andorrana estudia fer servir la IA per agilitzar la tramitació dels procediments judicials",
+    "summary": "El Consell Superior de la Justícia d'Andorra explora eines d'intel·ligència artificial amb atenció especial a la protecció de dades, i al desembre actualitzarà el seu programari de gestió i estrenarà un portal per als professionals.",
+    "detail": "Com moltes administracions de justícia europees, la d'Andorra busca maneres de reduir la càrrega de feina burocràtica dels jutjats. La intel·ligència artificial s'hi presenta com una possible ajuda, però en l'àmbit judicial planteja preguntes delicades sobre la confidencialitat dels expedients i les garanties de les persones afectades.\n\nSegons el Diari d'Andorra, el Consell Superior de la Justícia (CSJ) desplegarà al desembre un conjunt de millores tecnològiques per agilitzar la tramitació dels procediments i facilitar la feina dels professionals. La principal és la implantació de la versió 6.4 d'Avantius, el programari de gestió processal, i un nou portal de serveis professionals, adaptat a diferents dispositius, per millorar les comunicacions electròniques entre l'administració de justícia, els advocats, els procuradors i altres professionals, que conviurà un temps amb l'actual. Una altra línia de treball és l'estudi d'eines basades en intel·ligència artificial per donar suport a la tramitació judicial, amb atenció especial a la protecció de dades, la confidencialitat i les garanties jurídiques.\n\nLa notícia situa Andorra entre els sistemes judicials que es plantegen incorporar la IA a la feina de tràmit, no pas a les decisions dels jutges. Que el CSJ hi posi d'entrada les condicions de protecció de dades i de garanties jurídiques indica que vol avançar amb prudència en un terreny on la normativa europea considera d'alt risc els sistemes que ajuden a administrar justícia.\n\nDe moment és només un estudi: segons el CSJ, els projectes es troben en diferents fases d'estudi i desenvolupament i s'implantaran progressivament, sense calendari concret. No s'ha explicat quines tasques es volen automatitzar, quines eines es valoren ni qui les proporcionaria.",
+    "source": "Diari d'Andorra",
+    "url": "https://www.diariandorra.ad/nacional/261103/justicia-estudia-incorporar-l-us-intel-ligencia-artificial_207926.html",
+    "image": "./assets/andorra-justicia-estudia-eines-ia-tramitacio-judicial-20261103.jpg",
+    "slug": "andorra-justicia-estudia-eines-ia-tramitacio-judicial"
+  },
+  {
     "place": "València",
     "category": "IA I SOCIETAT",
     "date": "02.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
     "image": "./assets/nvidia-nemotron-transcribe-model-obert-veu-20261029.jpg",
     "slug": "nvidia-nemotron-transcribe-model-obert-veu"
-  },
-  {
-    "place": "Comunitat Valenciana",
-    "category": "IA I SOCIETAT",
-    "date": "29.10.2026",
-    "title": "L'Acadèmia Valenciana de la Llengua resol com s'apostrofa la sigla IA: «d'IA», però «la IA»",
-    "summary": "El ple de l'AVL ha aprovat un dictamen que explica que la sigla es llegeix lletra per lletra i que l'accent recau en la segona, per això l'article femení no s'apostrofa i la preposició sí.",
-    "detail": "La sigla IA, d'intel·ligència artificial, s'ha fet tan habitual als mitjans, a les aules i a les converses que ha obert un dubte que surt cada dia en qualsevol redacció: si cal escriure «l'IA» o «la IA», i si cal dir «d'IA» o «de IA». L'Acadèmia Valenciana de la Llengua (AVL), la institució que fixa la normativa a la Comunitat Valenciana, ha volgut donar-hi una resposta clara.\n\nEl ple de l'AVL va aprovar el 23 d'octubre un dictamen elaborat per les seccions de Lexicografia i de Gramàtica i Terminologia, amb l'assessorament de la Unitat de Recursos Lingüisticotècnics, segons ha informat aquest dimecres el Diari La Veu. El text explica que IA es llegeix lletra per lletra i que cada lletra conserva el seu so dins de la sigla: la i inicial forma una síl·laba pròpia, separada de la a. Per això s'hi apliquen les regles generals de l'apostrofació. Davant de la preposició «de», que s'apostrofa davant de vocal, la forma correcta és «d'IA». Davant de l'article femení «la», en canvi, com que l'accent principal recau en la segona lletra, no s'apostrofa i s'escriu «la IA». L'AVL ho compara amb altres sigles com UA o UGT.\n\nEl dictamen respon, segons l'Acadèmia, a l'ús creixent de la sigla i a la necessitat de tenir un criteri normatiu clar. Té conseqüències pràctiques per a mitjans, administracions, escoles i traductors, que fins ara trobaven totes dues formes en circulació. La resolució es podrà consultar a les obres normatives de l'AVL i al Portal Terminològic Valencià.\n\nL'acord resol l'apostrofació de la sigla, no altres dubtes que també genera, com ara si convé escriure-la sempre amb majúscules o desplegar-la la primera vegada que surt en un text. A més, el criteri que fixa l'AVL és el de la seva normativa: cada mitjà i cada institució el pot contrastar amb el dels seus llibres d'estil.",
-    "source": "Diari La Veu",
-    "url": "https://www.diarilaveu.cat/llengua/lavl-resol-el-dubte-com-sapostrofa-la-sigla-ia-655248",
-    "image": "./assets/avl-apostrofacio-sigla-ia-20261029.jpg",
-    "slug": "avl-apostrofacio-sigla-ia"
   }
 ];
