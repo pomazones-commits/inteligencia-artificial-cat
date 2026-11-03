@@ -54,8 +54,28 @@ function seccions_es_convidat(array $peca): bool
         && (string) ($peca['item']['serie'] ?? '') === '';
 }
 
+// 03.11.2026 (decisió d'en Rafael): una peça es pot FIXAR a la targeta de la seva
+// secció fins a una data (inclosa) amb data/portada-fixades.json. Una peça fixada passa
+// al davant de tot (fins i tot dels convidats), però si ja surt en una altra banda de
+// la portada continua sense repetir-se aquí. En passar la data, torna la regla normal.
+function seccions_fixades(): array
+{
+    static $fixades = null;
+    if ($fixades !== null) { return $fixades; }
+    $fixades = [];
+    $dades = json_decode((string) @file_get_contents(__DIR__ . '/data/portada-fixades.json'), true);
+    $avui = (new DateTimeImmutable('today', new DateTimeZone('Europe/Madrid')))->format('Y-m-d');
+    foreach ((array) ($dades['fixades'] ?? []) as $f) {
+        $fins = (string) ($f['fins'] ?? '');
+        if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $fins) || $fins < $avui) { continue; }
+        $fixades[(string) ($f['tipus'] ?? '') . '/' . (string) ($f['id'] ?? '')] = true;
+    }
+    return $fixades;
+}
+
 function seccions_grup(array $peca): int
 {
+    if (isset(seccions_fixades()[seccions_clau($peca)])) { return -1; }
     if (in_array($peca['tipus'], ['analisi', 'quadern'], true)) { return 2; }
     return seccions_es_convidat($peca) && seccions_dies($peca) <= SECCIONS_CONVIDATS_DIES ? 0 : 1;
 }
