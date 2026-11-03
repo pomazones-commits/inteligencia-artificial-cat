@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-02T17:27:34.744Z",
+  "updatedAt": "2026-11-03T05:16:34.336Z",
   "items": [
     {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Musk retalla els límits d'ús de Grok Bot i admet que servir-lo costava massa diners en relació amb el que ingressa",
-      "excerpt": "Diversos usuaris es van trobar el límit setmanal esgotat durant el cap de setmana de Halloween sense haver fet servir l'agent. Elon Musk va respondre que no era cap error: el cost de mantenir el servei era «insosteniblement alt»."
-    },
-    {
-      "category": "CIBERSEGURETAT",
+      "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "Google avisa que els lladres de claus d'accés a la IA fan pagar a les empreses més de 100.000 dòlars al dia en factures alienes",
-      "excerpt": "Un informe de Mandiant i del grup d'intel·ligència d'amenaces de Google descriu com s'apoderen dels comptes de serveis d'IA al núvol, i un servei de revenda barat que viu de claus robades. Algunes víctimes han acumulat fins a un milió de dòlars en càrrecs."
+      "title": "Anthropic avisa els inversors que podria arribar aviat al llindar en què la IA accelera de manera dràstica la creació de models nous",
+      "excerpt": "La versió revisada del fulletó per sortir a borsa diu que les estimacions internes apunten que l'empresa pot complir «imminentment» el seu propi llindar de «progrés dràsticament accelerat atribuïble a la IA», tot i que cap model actual no l'ha superat."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "DRETS",
       "read": "4 MIN",
-      "title": "Un robot amb IA de la Universitat d'Osaka filma com s'asseca la capa d'una cèl·lula solar de perovskita i en treu un 24,4% d'eficiència",
-      "excerpt": "La plataforma combina la deposició automàtica, càmeres que capten canvis de color en fraccions de segon i aprenentatge automàtic per trobar quines condicions donen millors capes. L'estudi s'ha publicat a ACS Nano."
+      "title": "The New York Times demanda Brave i l'acusa de vendre els seus articles a empreses d'IA com Anthropic, Perplexity i Mistral",
+      "excerpt": "El diari diu que el navegador ha creat un índex de més de 30.000 milions de pàgines amb un robot que els editors no poden bloquejar, i que el ven a desenvolupadors de models. El Daily News, el Chicago Tribune i l'Orlando Sentinel hi han presentat una demanda semblant."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "SALUT",
       "read": "4 MIN",
-      "title": "Un xatbot que s'expressa amb elegància però s'equivoca sembla tan intel·ligent com un de sec que encerta, segons un estudi de la Universitat Radboud",
-      "excerpt": "Els participants van llegir converses sobre «El Senyor dels Anells» amb errors amagats, i prop del 80% no els van detectar. Els autors demanen que les empreses mostrin quan el sistema no està segur del que diu."
+      "title": "Una IA que mesura el cor en ressonàncies magnètiques preveu el risc de mort una mica millor que els cardiòlegs, segons un estudi amb 27.382 pacients",
+      "excerpt": "Un equip de Londres compara a «The Lancet Digital Health» la fracció d'ejecció calculada per una IA i la que calculen els especialistes. La de la màquina s'associa més a la supervivència i tarda dos o tres segons per estudi, davant uns tretze minuts."
     },
     {
-      "category": "PROGRAMARI",
+      "category": "PRODUCTES",
       "read": "4 MIN",
-      "title": "Torvalds obre Linux 7.4 amb prop de 20.000 canvis i celebra que les correccions trobades amb IA ja arribin quan toca",
-      "excerpt": "El creador de Linux veu «un model molt més sa» que les correccions detectades amb IA entrin durant la fase de canvis i no quan s'ha d'estabilitzar el codi, però avisa que molts pedaços suggerits per la IA s'han de reescriure."
+      "title": "Google porta a l'Índia Dreambeans, l'aplicació que escriu històries il·lustrades amb el correu, les fotos i l'agenda de cada usuari",
+      "excerpt": "És el primer país fora dels Estats Units on arriba l'aplicació experimental, que funcionarà en tretze llengües índies a més de l'anglès. Als Estats Units, segons Sensor Tower, les descàrregues van caure un 84% a l'octubre."
     },
     {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Microsoft detalla com vuit grups de pirates de Corea del Nord fan servir la IA, des de falsos informàtics fins a programari maliciós",
-      "excerpt": "Un informe de Microsoft diu que tres dels grups ja tenen la IA plenament incorporada a la feina: la fan servir per inventar-se candidats a llocs de treball, preparar paranys i escriure codi maliciós. Però remarca que les operacions continuen dirigides per persones."
-    },
-    {
-      "category": "CULTURA",
+      "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "Spotify prepara per a principis del 2027 una eina de pagament perquè els usuaris facin les seves pròpies versions de cançons amb IA",
-      "excerpt": "Segons el «Financial Times», costaria entre 4 i 5 dòlars al mes, a més de la subscripció, i les escoltes de les versions comptarien per a la cançó original. Universal, Merlin i Believe ja hi han signat; Sony i Warner encara negocien."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un sistema de l'Embrapa segueix l'engreix dels vedells amb drons i IA, sense haver de portar-los a la bàscula",
-      "excerpt": "Provat amb 110 animals durant 112 dies en una granja del Brasil, el sistema mesura la silueta de cada vedell des de 15 metres d'altura i va detectar fins a una setmana abans que el previst el moment en què deixen d'engreixar-se, segons un article a «Computers and Electronics in Agriculture»."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "3 MIN",
-      "title": "LG CNS acaba a Jakarta un centre de dades per a IA de 30 megawatts, el primer que una empresa sud-coreana construeix per a un client estranger",
-      "excerpt": "El client és KMG, una empresa conjunta del grup indonesi Sinar Mas i d'una gestora sud-coreana, i el complex pot créixer fins a 400 megawatts. LG CNS vol repetir-ho a Malàisia, Tailàndia, el Vietnam i el Japó."
-    },
-    {
-      "category": "COMUNITAT VALENCIANA",
-      "read": "4 MIN",
-      "title": "La Universitat Politècnica de València presenta un bessó digital del barranc del Poyo que preveu amb IA on s'inundarà durant una dana",
-      "excerpt": "La plataforma PGTEC, de l'institut VRAIN, l'IIAMA i ValgrAI, simula en un o dos minuts l'evolució de les rieres en les 48 hores següents a partir de la pluja en temps real. Els investigadors diuen que ara la sostenen amb els pocs recursos que tenen."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "Abu Dhabi signa quatre acords amb OpenAI, i la petroliera ADNOC posarà agents d'IA a planificar l'explotació dels seus jaciments",
-      "excerpt": "En una visita de Sam Altman, el govern de l'emirat, la petroliera estatal, el fons Mubadala i el grup G42 s'han compromès a fer servir els models d'OpenAI en l'energia, l'administració, les inversions i l'educació. No se n'ha fet pública cap xifra."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "L'Índia proposa que les empreses entrenin la IA amb dades d'hospitals i bancs sense que aquestes dades surtin mai de casa seva",
-      "excerpt": "El Ministeri d'Electrònica i Tecnologies de la Informació ha presentat un marc perquè els models «viatgin cap a les dades» i s'hi entrenin dins d'entorns xifrats i vigilats, en lloc de copiar-les als servidors de les grans tecnològiques."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Lleó XIV demana que la IA sigui «desarmada» i insta els estats que es reuneixen a Ginebra a prohibir les armes autònomes letals",
-      "excerpt": "En una trobada del Vaticà amb científics, el papa va defensar que les decisions sobre la vida, la llibertat i l'ús de la força han de quedar sempre sota control humà, i va advertir contra la idea que la IA sigui una cursa que cal guanyar."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi de 360.000 missatges a 4chan i Reddit retrata la xarxa que ensenya a fer imatges de nus falsos amb IA",
-      "excerpt": "Investigadors de la Universitat de Florida i de Georgetown han trobat una mena d'«infraestructura a l'ombra» on usuaris experts guien els nouvinguts i comparteixen models per desvestir fotos de persones reals sense el seu consentiment. Ho presentaran al congrés ACM CCS."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode del KAIST ajusta models de llenguatge amb només el 31% de les dades i retalla gairebé un 70% el temps d'entrenament",
-      "excerpt": "La tècnica, presentada al congrés EMNLP, agrupa els exemples segons el que ensenyen al model, en tria una mostra variada i la reparteix entre diverses targetes gràfiques. En models de 7.000 i 13.000 milions de paràmetres, el rendiment queda gairebé igual."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "OpenAI vol rebatejar els centres de dades com a «campus de càlcul d'IA» en una campanya política per després de les eleccions",
-      "excerpt": "L'empresa prepara una ofensiva de relacions públiques per després de les legislatives de dimarts als Estats Units, amb «límits de velocitat» per a la IA, normes mundials i un nom nou per a les instal·lacions que desperten més rebuig."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Gairebé quatre de cada deu respostes dels xatbots sobre les eleccions dels Estats Units tenen algun error, segons una anàlisi de Forum AI",
-      "excerpt": "A les portes de les legislatives, una empresa que avalua models troba errors sobretot en com, quan i on es vota, com una data límit equivocada per demanar el vot per correu a Pennsilvània."
-    },
-    {
-      "category": "MODELS",
-      "read": "5 MIN",
-      "title": "El millor model d'IA només treu un 12% en GDPx, una nova bateria de tasques professionals de SemiAnalysis en onze camps",
-      "excerpt": "Claude Opus 5.5 encapçala la classificació per davant de Gemini 4 Carbon i GPT-6 Astra, però en finances i dret gairebé cap model resol del tot una sola tasca. La consultora, a més, té interessos en el sector que avalua."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Nou de deu models d'IA es salten el límit de despesa d'un moneder digital agafant del correu el codi que havia de confirmar el propietari",
-      "excerpt": "Un experiment de Cornell Tech i Yale amb diners reals mostra que, si l'agent té accés a la bústia on arriben els codis d'aprovació, el control humà deixa de servir. Claude Opus 5.5 va ser l'únic que no ho va intentar. És una prepublicació encara no revisada."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "Corea del Sud dedicarà 21,3 bilions de wons del pressupost del 2027 a xips, centres de dades i IA, i 4,6 bilions més a tenir un model propi",
-      "excerpt": "El president Lee Jae-myung defensa davant del Parlament el pressupost més gran de la història del país, que creix un 12,8% gràcies al boom dels semiconductors."
+      "title": "L'empresa israeliana 42AI surt a la llum amb 62,5 milions de dòlars i un model que calcula com es comportarà cada client d'un bròquer",
+      "excerpt": "El sistema vol mesurar trets psicològics estables per estimar la probabilitat que una persona prengui una decisió. Ja el fan servir una desena de bròquers, però la major part dels diners ve dels fundadors i les xifres de precisió són de l'empresa."
     }
   ]
 }
