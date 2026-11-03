@@ -1,15 +1,15 @@
 {
  "nota": "Club de lectura sobre IA (08.10.2026). Dades MANUALS. Les opinions dels lectors NO són aquí: viuen només al servidor (data/club-opinions.json, bloquejat per HTTP) i les gestiona api.php. «portada» és l'identificador d'imatge d'Amazon: la pàgina baixa la coberta una sola vegada a assets/club/<id>.jpg. «ressenya» és la d'en Rafael (traduïda al català si llengua_ressenya és 'es'). «origen_ressenya» (opcional): 'club' si la ressenya s'ha escrit per al club i no prové d'Amazon (des del 09.10.2026).",
- "actualitzat": "2026-10-09",
+ "actualitzat": "2026-11-03",
  "ressenyador": {
   "nom": "Rafael Julivert",
   "rol": "editor d’IA.cat",
   "autor": "rafael-julivert"
  },
  "llibre_del_mes": {
-  "id": "nexus",
-  "mes": "2026-10",
-  "motiu": "Per obrir el club: el llibre que més ha fet parlar de la IA i el poder aquest darrer any."
+  "id": "si-alguien-la-crea-todos-moriremos",
+  "mes": "2026-11",
+  "motiu": "El llibre que ha reobert el debat sobre la superintel·ligència: una tesi radical que es nega a tranquil·litzar el lector i que val la pena discutir."
  },
  "temes": [
   {
