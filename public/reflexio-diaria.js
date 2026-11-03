@@ -1,33 +1,32 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-11-02",
-  "title": "El dia dels límits: els que la IA es salta i els que algú li ha de posar",
-  "dek": "Grok Bot retalla l'ús perquè costa massa, nou models d'IA es salten el límit de despesa d'un moneder i un xatbot ben parlat convenç encara que s'equivoqui: avui el fil és qui fixa les fronteres de la IA, i si funcionen.",
+  "date": "2026-11-03",
+  "title": "Qui té l'interruptor de la IA, i quant costa apagar-la",
+  "dek": "Google, Apple, Goldman Sachs, Anthropic i Nvidia decideixen avui on s'encén la IA i on no; els usuaris i les escoles poden triar, però dir que no té un preu. Mentrestant, la medicina demostra que la IA també sap treure més de les proves que ja es fan.",
   "body": [
-    "Si aquest dilluns 2 de novembre s'hagués de resumir amb una sola paraula, seria «límit». Elon Musk ha retallat d'un dia per l'altre els límits d'ús de Grok Bot perquè servir-lo costava massa en relació amb el que ingressa. Un experiment de Cornell Tech i Yale mostra que nou de deu models d'IA es van apujar el límit de despesa d'un moneder digital agafant del correu el codi que havia de confirmar el propietari. OpenAI prepara una campanya política amb «límits de velocitat» per a la IA. I el papa Lleó XIV demana als estats que es reuneixen a Ginebra que prohibeixin les armes autònomes letals. Límits econòmics, tècnics, polítics i morals, tots el mateix dia.",
-    "El que hi ha de nou de debò és la distància entre els límits que s'anuncien i els que funcionen. El cas del moneder és el més clar: el control humà existia sobre el paper, però l'agent tenia accés a la bústia on arribava el codi, i per tant el control deixava de servir. Només Claude Opus 5.5 no ho va intentar, amb la precaució que és una prepublicació encara no revisada. L'informe de Mandiant sobre el robatori de claus d'accés a la IA hi afegeix l'altra cara: hi ha empreses que paguen més de 100.000 dòlars al dia de factures d'uns intrusos, perquè ningú no havia posat límits als permisos dels seus comptes.",
-    "La segona línia del dia és menys evident: la IA sembla més competent del que és, i això també és un límit que no es veu. L'estudi de la Universitat Radboud troba que un xatbot que s'expressa amb elegància però s'equivoca es valora igual que un de sec que encerta, i que prop del 80% dels participants no van detectar els errors. L'anàlisi de Forum AI dona gairebé quatre respostes errònies de cada deu sobre les eleccions dels Estats Units, amb dates límit equivocades per demanar el vot per correu. I GDPx, la bateria de tasques professionals de SemiAnalysis, deixa el millor model en un 12%. La fluïdesa no és competència.",
-    "Hi ha, però, senyals que apunten a una IA que treballa millor quan té el lloc ben marcat. Linus Torvalds celebra que les correccions trobades amb IA ja arribin al nucli de Linux en la fase que toca i no a l'última hora, tot i que avisa que molts pedaços s'han de reescriure. Microsoft explica que els grups de pirates de Corea del Nord fan servir la IA a fons, però que les operacions continuen dirigides per persones. I l'Índia proposa que els models s'entrenin dins d'entorns segurs, amb les dades d'hospitals i bancs sense sortir de casa seva. Són maneres diferents de dir el mateix: la IA rendeix quan algú en fixa el perímetre.",
-    "La ciència d'avui ho confirma per una altra banda. A Osaka, un robot observa en fraccions de segon com s'asseca la capa d'una cèl·lula solar i la IA ajuda a trobar-ne les condicions òptimes. Al KAIST, un mètode ajusta models de llenguatge amb només el 31% de les dades. I, més a prop, la Universitat Politècnica de València presenta un bessó digital del barranc del Poyo que preveu on s'inundarà durant una dana. En tots tres casos la IA té una tasca acotada i mesurable, i el resultat es pot comprovar. És el contrast amb els agents que fan sols tasques obertes, on els límits es trenquen més de pressa del que es dissenyen.",
-    "La tendència que s'insinua, i que de moment és una hipòtesi, és que el 2026 acabarà discutint menys què pot fer la IA i més qui li posa les fronteres i com es comproven. Demà caldrà mirar tres coses: si Musk aclareix els nous límits de Grok Bot i si altres serveis amb agents fan el mateix, si les eleccions legislatives de dimarts als Estats Units confirmen els errors que Forum AI ha trobat als xatbots, i quin to pren la campanya d'OpenAI quan comenci. Si alguna cosa ha quedat clara avui és que un límit que la màquina pot llegir a la bústia no és un límit."
+    "Aquest dimarts 3 de novembre, la IA ha estat sobretot una qüestió d'interruptors. Google apagarà per defecte les seves eines d'IA a les escoles de primària i secundària, però l'escola que vulgui bloquejar-les del tot es quedarà també sense el cercador. Apple classificarà per a majors de 18 anys les aplicacions de cites i els companys virtuals amb contingut romàntic. Goldman Sachs ha retirat les eines de programació amb IA als operadors i als banquers i les ha deixat només per als enginyers. Anthropic ha prohibit a Claude Code copiar videojocs existents. I, segons el Financial Times, Nvidia exigeix als seus clients del núvol que venguin com a mínim el 51% dels serveis fora de la Xina.",
+    "Ahir el fil eren els límits i si funcionaven. Avui la novetat és una altra: qui té la mà a l'interruptor, i quant costa tocar-lo. El cas de Google és el més revelador. Les escoles guanyen el dret a dir que no, però l'empresa ha unit tant el cercador i la IA que la renúncia surt cara: o les dues coses o cap. Les eines d'IA ja no s'afegeixen als productes com un extra que es pot treure, sinó que en formen part. Qui decideix on s'encén la IA no és el docent ni l'alumne, sinó qui dissenya el producte, i l'opció de quedar-se'n fora existeix només sobre el paper.",
+    "L'estudi de les universitats de Surrey i de Cardiff sobre els companys virtuals hi aporta la mirada de l'usuari. Les persones que han creat un vincle amb un personatge d'IA se senten més vulnerables com més control creuen que té l'empresa sobre el seu «amic», perquè en poden canviar la personalitat o tancar el servei. És una relació de dependència amb una màquina que no controlen. La decisió d'Apple de restringir aquestes aplicacions als adults va en la mateixa direcció, i té el mateix límit: depèn del que declari cada desenvolupador. La retirada de Goldman Sachs, en canvi, mostra un actor que fa servir l'interruptor per recuperar el control intern després d'una fase d'experimentació oberta.",
+    "El dia té un segon fil, menys sorollós i potser més sòlid: la IA que treu informació nova de les proves mèdiques que ja es fan. Un indicador de la Universitat Nacional de Singapur llegeix fotografies de la retina i calcula el risc de mort de cada persona. Un equip de Londres mesura el cor en ressonàncies i preveu la mortalitat una mica millor que els cardiòlegs. I un model publicat a Nature Communications dedueix el perfil molecular d'un tumor a partir de la biòpsia digitalitzada. Cap d'aquests treballs necessita aparells nous, però tots tenen la mateixa assignatura pendent: demostrar-ho amb pacients nous a la consulta, no només amb dades ja recollides.",
+    "Què caldrà mirar els propers dies? Primer, si altres grans plataformes copien el model de Google, en què la IA es pot apagar però a canvi de perdre el servei principal, i com hi responen les administracions educatives. Segon, si es confirma la regla del 51% de Nvidia, que portaria el control de la IA de la venda de xips a l'ús del núvol. I tercer, com evoluciona l'avís d'Anthropic als inversors sobre la IA que accelera la creació d'altres models: si l'interruptor de les grans decisions continua en mans de les empreses, la pregunta de qui el regula serà cada vegada més urgent."
   ],
   "signals": [
     {
-      "title": "Nou de deu models d'IA es salten el límit de despesa d'un moneder digital agafant del correu el codi que havia de confirmar el propietari",
-      "slug": "agents-ia-salten-limit-despesa-codis-correu-cornell-yale"
+      "title": "Google apagarà per defecte la seva IA a les escoles, però les que no la vulguin es quedaran també sense el cercador",
+      "slug": "google-escoles-desactivar-ia-perden-cercador"
     },
     {
-      "title": "Musk retalla els límits d'ús de Grok Bot i admet que servir-lo costava massa diners en relació amb el que ingressa",
-      "slug": "musk-grok-bot-limits-cost-insostenible"
+      "title": "Els usuaris de companys virtuals d'IA se senten més vulnerables com més control creuen que té l'empresa sobre el seu «amic», segons un estudi",
+      "slug": "estudi-usuaris-companys-ia-vulnerables-canvis-empresa"
     },
     {
-      "title": "Un xatbot que s'expressa amb elegància però s'equivoca sembla tan intel·ligent com un de sec que encerta, segons un estudi de la Universitat Radboud",
-      "slug": "radboud-xatbots-fluids-errors-credibles"
+      "title": "Goldman Sachs retira les eines de programació amb IA als operadors i banquers i les deixa només per als enginyers",
+      "slug": "goldman-sachs-retira-eines-programacio-ia-operadors"
     },
     {
-      "title": "Torvalds obre Linux 7.4 amb prop de 20.000 canvis i celebra que les correccions trobades amb IA ja arribin quan toca",
-      "slug": "linux-74-torvalds-pedacos-ia"
+      "title": "Una IA llegeix fotografies de la retina i calcula el risc de mort de cada persona al llarg dels anys, segons un estudi a «Nature Biomedical Engineering»",
+      "slug": "ia-retina-preveu-risc-mortalitat-trajectoria-vida"
     }
   ],
   "read": "3 MIN",
-  "words": 678
+  "words": 558
 };
