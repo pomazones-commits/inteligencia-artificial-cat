@@ -1,15 +1,7 @@
 {
- "actualitzat": "2026-09-24",
+ "actualitzat": "2026-11-04",
  "font": "https://www.termcat.cat/ca/diccionaris-en-linia/347",
  "termes": [
-  {
-   "terme": "agent",
-   "en": "AI agent",
-   "altres": "agent d’IA; IA agentiva (agentic AI)",
-   "definicio": "Sistema d’IA que, a partir d’un objectiu, planifica i executa accions pel seu compte —buscar informació, fer servir programes, enviar missatges— i en revisa el resultat, amb poca intervenció humana a cada pas.",
-   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg5MjMxNQ%3D%3D",
-   "nota": ""
-  },
   {
    "terme": "afinament",
    "en": "fine-tuning",
@@ -19,11 +11,19 @@
    "nota": ""
   },
   {
-   "terme": "al·lucinació",
-   "en": "hallucination",
-   "altres": "confabulació",
-   "definicio": "Contingut incorrecte o inventat que un sistema d’IA generativa presenta com si fos cert: una dada falsa, una cita que ningú no ha dit, una referència bibliogràfica que no existeix. Per això cal verificar sempre les respostes.",
-   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjE1Mw%3D%3D",
+   "terme": "agent",
+   "en": "AI agent",
+   "altres": "agent d’IA; IA agentiva (agentic AI)",
+   "definicio": "Sistema d’IA que, a partir d’un objectiu, planifica i executa accions pel seu compte —buscar informació, fer servir programes, enviar missatges— i en revisa el resultat, amb poca intervenció humana a cada pas.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg5MjMxNQ%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "agent corporeïtzat",
+   "en": "embodied agent",
+   "altres": "",
+   "definicio": "Agent d’IA que té un cos, físic o simulat —un robot, un personatge en un entorn virtual—, i que percep l’entorn i hi actua.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NTA4NTkxOA%3D%3D",
    "nota": ""
   },
   {
@@ -43,11 +43,35 @@
    "nota": "El TERMCAT no recull aquest sentit; és la forma de la Viquipèdia en català."
   },
   {
+   "terme": "al·lucinació",
+   "en": "hallucination",
+   "altres": "confabulació",
+   "definicio": "Contingut incorrecte o inventat que un sistema d’IA generativa presenta com si fos cert: una dada falsa, una cita que ningú no ha dit, una referència bibliogràfica que no existeix. Per això cal verificar sempre les respostes.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjE1Mw%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "anotació de dades",
+   "en": "data annotation",
+   "altres": "",
+   "definicio": "Feina d’afegir etiquetes o informació a les dades —què hi ha en una imatge, de què parla un text, qui parla en un àudio— perquè un model en pugui aprendre. Sovint la fan persones.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NTA4NTkyMg%3D%3D",
+   "nota": ""
+  },
+  {
    "terme": "aprenentatge automàtic",
    "en": "machine learning",
    "altres": "",
    "definicio": "Branca de la IA en què els sistemes aprenen a fer una tasca a partir d’exemples i dades, en lloc de seguir regles escrites a mà.",
    "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NDg3MjI0Mw%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "aprenentatge federat",
+   "en": "federated learning",
+   "altres": "",
+   "definicio": "Manera d’entrenar un model entre molts dispositius o institucions (hospitals, mòbils) sense que les dades surtin d’on són: cadascú entrena amb les seves i només es comparteixen les actualitzacions del model.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NTA4NTkyNA%3D%3D",
    "nota": ""
   },
   {
@@ -99,6 +123,14 @@
    "nota": "Per a assistents com ChatGPT, Claude o Gemini, el TERMCAT recull també «assistent d’intel·ligència artificial generativa»."
   },
   {
+   "terme": "càlcul per reservori",
+   "en": "reservoir computing",
+   "altres": "",
+   "definicio": "Tècnica d’aprenentatge automàtic que fa passar les dades per un sistema dinàmic fix (el reservori, sovint una xarxa recurrent amb connexions a l’atzar) i només n’entrena la capa de sortida, cosa que la fa molt barata d’entrenar.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NTA4NTkzNA%3D%3D",
+   "nota": ""
+  },
+  {
    "terme": "conjunt de dades",
    "en": "dataset",
    "altres": "",
@@ -131,12 +163,28 @@
    "nota": ""
   },
   {
-   "terme": "destil·lació del coneixement",
+   "terme": "decalatge de dades",
+   "en": "data drift",
+   "altres": "",
+   "definicio": "Canvi, amb el temps, de les dades que rep un model en funcionament respecte de les dades amb què es va entrenar. Si no es detecta, el model s’equivoca cada vegada més.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NTA4NTkzOA%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "destil·lació de coneixements",
    "en": "knowledge distillation",
-   "altres": "destil·lació de models",
+   "altres": "destil·lació del coneixement; destil·lació de models",
    "definicio": "Tècnica per entrenar un model petit (l’alumne) perquè imiti les respostes d’un model gran (el mestre), de manera que en conservi bona part de la capacitat amb un cost molt més baix.",
-   "fitxa": "",
-   "nota": "El TERMCAT no recull aquest sentit; és la forma de la Viquipèdia en català."
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NTA4NTkzOQ%3D%3D",
+   "nota": ""
+  },
+  {
+   "terme": "enginyeria d’agents d’IA",
+   "en": "",
+   "altres": "",
+   "definicio": "Disciplina que dissenya, construeix i avalua agents d’IA: com planifiquen, quines eines poden fer servir, com se’n controla el comportament i com es comprova que fan bé la feina.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NTA4NTk0MQ%3D%3D",
+   "nota": ""
   },
   {
    "terme": "enginyeria d’indicacions",
@@ -235,6 +283,14 @@
    "nota": ""
   },
   {
+   "terme": "llenguatge de marcatge",
+   "en": "markup language",
+   "altres": "",
+   "definicio": "Llenguatge que afegeix etiquetes a un text per indicar-ne l’estructura o el format, com l’HTML de les pàgines web o l’XML.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NTA4NTk1Ng%3D%3D",
+   "nota": ""
+  },
+  {
    "terme": "marca d’aigua",
    "en": "watermark",
    "altres": "",
@@ -265,6 +321,14 @@
    "definicio": "Model d’IA que es pot descarregar i fer funcionar lliurement. Cal anar amb compte: publicar els pesos (els paràmetres entrenats) no vol dir publicar també el codi ni les dades d’entrenament.",
    "fitxa": "",
    "nota": "El TERMCAT no recull aquest terme."
+  },
+  {
+   "terme": "model espars",
+   "en": "sparse model",
+   "altres": "",
+   "definicio": "Model en què, per a cada entrada, només s’activa una part dels paràmetres. És el cas dels models de «mescla d’experts», que així gasten menys càlcul per resposta.",
+   "fitxa": "https://www.termcat.cat/ca/diccionaris-en-linia/347/fitxa/NTA4NTk1OA%3D%3D",
+   "nota": ""
   },
   {
    "terme": "model fonamental",
