@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-04T09:14:30.782Z",
+ "actualitzat": "2026-11-04T12:37:06.008Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "cc8061c2a787",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "CrowdStrike amplía Project QuiltWorks por toda Europa para impulsar la respuesta ante los riesgos de la IA de frontera",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/04/2742989/crowdstrike-amplia-project-quiltworks-por-toda-europa-para-impulsar-respuesta-ante-riesgos-frontera.html",
+   "publicat": "2026-11-04T12:27:49.000Z"
+  },
+  {
+   "id": "70b006e18de7",
+   "mitja": "El Punt Avui",
+   "font": "elpuntavui-societat",
+   "icona": "/assets/premsa/el-punt-avui.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Toc d’alerta per l’ús que la intel·ligència artificial fa dels articles periodístics",
+   "url": "https://www.elpuntavui.cat/societat/article/5-societat/2687894-toc-d-alerta-per-l-us-que-la-intel-ligencia-artificial-fa-dels-articles-periodistics.html",
+   "publicat": "2026-11-04T12:24:24.000Z"
+  },
+  {
+   "id": "18c2db4dab07",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La intel·ligència artificial i el futur de la cardiologia, protagonistes d’una conferència a Cardona",
+   "url": "https://www.regio7.cat/bages/2026/11/04/intelligencia-artificial-futur-cardiologia-protagonistes-136075549.html",
+   "publicat": "2026-11-04T11:59:59.000Z"
+  },
+  {
+   "id": "e651dc40c6a7",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Netflix tiene una nueva herramienta de recomendación que usa la IA para acotar la búsqueda en base a temas",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/04/2742879/netflix-tiene-nueva-herramienta-recomendacion-usa-para-acotar-busqueda-base-temas.html",
+   "publicat": "2026-11-04T11:24:52.000Z"
+  },
+  {
+   "id": "4ac2bdeb5cfb",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La ola azul pone en cuarentena el auge de la IA en los mercados y añade volatilidad",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-04/la-ola-azul-pone-en-cuarentena-el-auge-de-la-ia-en-los-mercados-y-anade-volatilidad.html",
+   "publicat": "2026-11-04T11:21:48.000Z"
+  },
+  {
+   "id": "76ffd9122789",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Google desactivará su experiencia de búsqueda para las escuelas que decidan no utilizar sus funciones de IA de Gemini",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/04/2742757/google-desactivara-experiencia-busqueda-para-escuelas-decidan-utilizar-funciones-gemini.html",
+   "publicat": "2026-11-04T09:24:00.000Z"
+  },
   {
    "id": "df6e2de2ecc8",
    "mitja": "La Vanguardia",
@@ -2031,83 +2097,6 @@
    "titol": "El Banc Sabadell i T-Systems fan créixer la IA d'agents al banc",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/banc-sabadell-t-systems-fan-creixer-ia-agents-banc_1716988_102.html",
    "publicat": "2026-10-28T12:49:01.000Z"
-  },
-  {
-   "id": "00861679d79a",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una campaña de malware usa falsos instaladores de ChatGPT y Claude para infectar los equipos de los usuarios de IA",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/28/2738209/campana-malware-usa-falsos-instaladores-chatgpt-claude-para-infectar-equipos-usuarios-ia.html",
-   "publicat": "2026-10-28T12:09:42.000Z"
-  },
-  {
-   "id": "a306de1f03c2",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Elche | Elche reúne a emprendedores y empresarios en Pymelche con la inteligencia artificial y el crecimiento empresarial como protagonistas",
-   "url": "https://alicanteplaza.es/alicanteplaza/elcheplaza/elche-reune-a-emprendedores-y-empresarios-en-pymelche-con-la-inteligencia-artificial-y-el-crecimiento-empresarial-como-protagonistas",
-   "publicat": "2026-10-28T11:45:11.000Z"
-  },
-  {
-   "id": "d654187359c8",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nvidia dispara su valor de marca en un ranking que vuelve a coronar a Apple",
-   "url": "https://www.lavanguardia.com/economia/20261028/11670075/nvidia-apple-valor-de-marca-interbrand-ranking.html",
-   "publicat": "2026-10-28T11:36:08.000Z"
-  },
-  {
-   "id": "f4131c3a1f20",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Begoña Gómez denuncia el PP per utilitzar una imatge seva feta amb IA en un vídeo electoral",
-   "url": "https://www.3cat.cat/3catinfo/begona-gomez-denuncia-el-pp-per-utilitzar-una-imatge-seva-feta-amb-ia-en-un-video-electoral/noticia/3436524",
-   "publicat": "2026-10-28T11:09:01.000Z"
-  },
-  {
-   "id": "dce04010f5ec",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La «carrera de la Reina Roja»: por qué la IA puede encontrar fallos de seguridad antes de que dé tiempo a corregirlos",
-   "url": "https://www.levante-emv.com/tendencias21/2026/10/28/carrera-reina-roja-ia-encontrar-135836829.html",
-   "publicat": "2026-10-28T10:17:16.000Z"
-  },
-  {
-   "id": "857b990cae0d",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Agentes de IA de una 'startup' acceden a Anthropic aprovechando fallos de software empresarial de terceros",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/28/2738021/agentes-startup-acceden-anthropic-aprovechando-fallos-software-empresarial-terceros.html",
-   "publicat": "2026-10-28T09:37:00.000Z"
-  },
-  {
-   "id": "8fee001a43d7",
-   "mitja": "Nació Digital",
-   "font": "naciodigital-totes",
-   "icona": "/assets/premsa/nacio-digital.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Begoña Gómez denuncia el PP per suplantació pel vídeo fet amb IA en què li fan admetre delictes",
-   "url": "https://naciodigital.cat/politica/begona-gomez-denuncia-el-pp-per-suplantacio-pel-video-en-que-li-fan-admetre-delictes-amb-intelligencia-artificial.html",
-   "publicat": "2026-10-28T09:19:33.000Z"
   }
  ]
 }
