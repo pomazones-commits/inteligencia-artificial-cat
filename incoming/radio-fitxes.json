@@ -1,1 +1,54 @@
-{"fitxes": [], "descartats": []}
+{
+  "fitxes": [
+    {
+      "id": "3cat-1296383",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-11-03",
+      "durada": "6 min",
+      "titol": "Alba Jené explica a «Catalunya nit» què hi ha de real a «Lia», la nova sèrie de 3Cat sobre ciència i IA",
+      "convidats": [
+        {
+          "nom": "Alba Jené",
+          "rol": "assessora científica de la sèrie «Lia»"
+        }
+      ],
+      "resum": "Amb motiu de l'estrena de «Lia», una ficció de 3Cat protagonitzada per quatre joves científiques en un centre tecnològic, «Catalunya nit» conversa amb Alba Jené, que n'ha fet l'assessorament científic. L'entrevista repassa què hi ha de realitat en la sèrie, fins on pot arribar la intel·ligència artificial i per què cal que l'audiovisual mostri noies referents en la tecnologia.",
+      "tema": "cultura",
+      "url": "https://www.3cat.cat/3cat/alba-jene-es-necessari-que-a-laudiovisual-hi-hagi-noies-referents-en-diversos-am/audio/1296383/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1296383"
+      }
+    },
+    {
+      "id": "rtve-17297853",
+      "emissora": "Ràdio 4",
+      "programa": "La tàctica",
+      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
+      "data": "2026-11-03",
+      "durada": "55 min",
+      "titol": "Ramon López de Mántaras respon dubtes sobre IA a «La tàctica» i qüestiona el debat sobre el benestar de les màquines",
+      "convidats": [
+        {
+          "nom": "Ramon López de Mántaras",
+          "rol": "investigador del CSIC i fundador de l'Institut d'Investigació en Intel·ligència Artificial"
+        }
+      ],
+      "resum": "«La tàctica», de Ràdio 4, dedica un consultori a la intel·ligència artificial amb Ramon López de Mántaras, investigador del CSIC. El programa repassa amb ell les darreres declaracions de Geoffrey Hinton i de Dario Amodei, el conseller delegat d'Anthropic, i, segons el títol de l'emissora, el convidat considera una ximpleria parlar del benestar de la IA.",
+      "tema": "societat",
+      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-ramon-lopez-mantaras-parlar-del-benestar-ia-ximpleria/17297853/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17297853"
+      }
+    }
+  ],
+  "descartats": [
+    {
+      "id": "apunt-1906441",
+      "motiu": "Descripció massa curta: només diu que hi ha una conversa amb Pablo Sala sobre IA aplicada a la gestió esportiva, sense prou detall per escriure un resum sense inventar."
+    }
+  ]
+}
