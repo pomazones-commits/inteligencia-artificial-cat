@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-04T13:18:02.806Z",
+ "actualitzat": "2026-11-04T15:08:25.286Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "422aceca3212",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "ChatGPT comença a plantar cara a Google: ja assoleix el 20% de les seves cerques",
+   "url": "https://www.elnacional.cat/ca/tecnologia/chatgpt-comenca-plantar-cara-google-ja-assoleix-20-seves-cerques_1720560_102.html",
+   "publicat": "2026-11-04T15:00:00.000Z"
+  },
+  {
+   "id": "85a9748da976",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Juan Francisco Jimeno: “Tenemos que olvidarnos de que la IA nos vaya a pagar la pensión”",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-04/juan-francisco-jimeno-tenemos-que-olvidarnos-de-que-la-ia-nos-vaya-a-pagar-la-pension.html",
+   "publicat": "2026-11-04T14:42:36.000Z"
+  },
+  {
+   "id": "dadf07efae04",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La intel·ligència artificial contraataca: \"La guerra dels clons\"",
+   "url": "https://www.elnacional.cat/ca/tecnologia/intelligencia-artificial-contraataca-guerra-clons_1720554_102.html",
+   "publicat": "2026-11-04T14:30:00.000Z"
+  },
   {
    "id": "641211c78642",
    "mitja": "La Vanguardia",
@@ -76,7 +109,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "La ola azul pone en cuarentena el auge de la IA en los mercados y añade volatilidad",
+   "titol": "La ola azul pone en cuarentena el auge de la IA en los mercados",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-04/la-ola-azul-pone-en-cuarentena-el-auge-de-la-ia-en-los-mercados-y-anade-volatilidad.html",
    "publicat": "2026-11-04T11:21:48.000Z"
   },
@@ -2064,17 +2097,6 @@
    "titol": "Posen sis IA a reclamar un bitllet de tren fora de termini i acaben mentint i filtrant dades mèdiques",
    "url": "https://www.elnacional.cat/ca/tecnologia/posen-sis-ias-reclamar-bitllet-tren-fora-termini-acaben-mentint-filtrant-dades-mediques_1717048_102.html",
    "publicat": "2026-10-28T15:30:00.000Z"
-  },
-  {
-   "id": "9db8f76cff52",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Google negocia la venta de chips de IA a OpenAI y eleva la presión sobre Nvidia",
-   "url": "https://cincodias.elpais.com/companias/2026-10-28/google-negocia-la-venta-de-chips-de-ia-a-openai-y-eleva-la-presion-sobre-nvidia.html",
-   "publicat": "2026-10-28T13:54:06.000Z"
   }
  ]
 }
