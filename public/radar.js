@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Comunitat Valenciana",
+    "category": "IA I SOCIETAT",
+    "date": "04.11.2026",
+    "title": "Les entitats de la discapacitat de la Comunitat Valenciana demanen més control sobre els 22 algorismes que fa servir la Generalitat",
+    "summary": "El CERMI-CV ha analitzat el registre ConfIA de la Generalitat Valenciana: 16 dels 22 sistemes diuen que no plantegen cap repte i 20 limiten la supervisió humana a la revisió dels resultats. També reclama que es reuneixi l'Observatori valencià de la IA.",
+    "detail": "La Generalitat Valenciana publica des de fa un temps un registre, anomenat ConfIA, amb els sistemes algorítmics que fan servir els seus departaments: què fan, a qui afecten i com se supervisen. És una eina de transparència que encara tenen poques administracions. El CERMI-CV, el comitè que agrupa les entitats de persones amb discapacitat de la Comunitat Valenciana, ha estudiat aquest registre i n'ha presentat les conclusions en la conferència DiscapacIA, que es va fer dimarts a València, a la sala d'actes de l'ONCE.\n\nSegons l'anàlisi del CERMI-CV, a 31 d'octubre el registre incloïa 22 sistemes. Només 6 declaren que fan servir intel·ligència artificial, i 3 estan classificats d'alt risc, tots de l'àmbit de la salut, com BoneView, una eina que ajuda a llegir radiografies. Cinc reconeixen que afecten persones amb discapacitat. En 16 dels 22 casos, l'apartat de reptes diu «cap repte», i en 20 la supervisió humana es limita al fet que el personal públic revisa els resultats. L'entitat demana que el registre expliqui com es pot presentar una queixa, que reforci la supervisió humana, que informi de l'accessibilitat i dels possibles biaixos contra les persones amb discapacitat, i que es pugui consultar en lectura fàcil. També reclama que es convoqui el ple de l'Observatori valencià de la IA, creat per un decret del 2023 i del qual forma part, perquè diu que encara no s'ha reunit mai.\n\nLa qüestió és rellevant perquè les administracions ja fan servir algorismes en decisions que afecten directament les persones, i les que tenen una discapacitat són de les que més poden quedar fora si un sistema no és accessible o aprèn biaixos. A la conferència, el CERMI-CV també va presentar un informe amb set línies d'actuació per al 2026-2030 i un decàleg de deu principis per comprar, fer servir i supervisar la IA des dels drets humans. Per part del Govern valencià, el secretari autonòmic d'Innovació, Eduardo Pascual, va defensar que la IA pot donar més autonomia a aquestes persones, però va advertir que una eina avançada que crea barreres noves no és cap progrés.\n\nLes xifres surten de la lectura que fa l'entitat del registre, no d'una auditoria dels sistemes: no diuen si aquests algorismes discriminen ningú, sinó que el registre no ho explica prou. La secretària autonòmica de Transparència, Carmen Uriol, va defensar que la Generalitat ha avançat en transparència algorítmica en publicar els sistemes sencers. El Govern valencià no ha dit, de moment, quan convocarà l'Observatori.",
+    "source": "CERMI-CV",
+    "url": "https://cermicv.es/2026/11/cermi-cv-exigeix-una-intel-star-ligencia-artificial-sense-discriminacio-i-exigeix-als-algorismes-generalitats-mes-grans-sobre-el-public/?lang=ca",
+    "image": "./assets/cermi-cv-registre-algorismes-generalitat-valenciana-20261104.jpg",
+    "slug": "cermi-cv-registre-algorismes-generalitat-valenciana"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "04.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.segre.com/ca/comarques/261031/les-borges-rellanca-ia-municipal-i-l-oposicio-questiona-contracte_1382891.html",
     "image": "./assets/borges-blanques-rellanca-iaia-assistent-ia-whatsapp-junts-questiona-contracte-20261031.jpg",
     "slug": "borges-blanques-rellanca-iaia-assistent-ia-whatsapp-junts-questiona-contracte"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "30.10.2026",
-    "title": "ACTUALITZACIÓ: l'autor de la novel·la premiada atribuïda a la IA ho nega, i l'Associació d'Escriptors en Llengua Catalana demana que siguin les tecnològiques les que marquin els textos",
-    "summary": "David Silva Rojas ofereix els esborranys per demostrar que va escriure el llibre. Des de Catalunya, escriptors i experts en ètica de la IA alerten que els detectors donen molts falsos positius.",
-    "detail": "La setmana passada, el detector Pangram, que el diari «El País» va fer servir per analitzar el text, va atribuir a la intel·ligència artificial el 99% de «Donde el agua trabaja», la primera novel·la de l'escriptor peruà David Silva Rojas, que al juliol havia guanyat el Premi Internacional de Novel·la Breu Almadía-Ventosa Arrufat, dotat amb 20.000 euros. L'editorial Almadía va suspendre les presentacions del llibre a Espanya, tot i advertir que el resultat del detector no era una prova concloent.\n\nLa novetat és que, després de dies de silenci, Silva Rojas ha negat públicament que fes servir eines d'IA generativa i ha ofert els esborranys i el material de recerca per demostrar-ho, segons explica 3CatInfo. El cas ha encès el debat al món de les lletres. Sebastià Portell, president de l'Associació d'Escriptors en Llengua Catalana (AELC), demana transparència a les empreses tecnològiques, per exemple que els textos fets amb IA portin metadades que en permetin seguir el rastre. Albert Sabater-Coll, director de la Càtedra d'Ètica en Intel·ligència Artificial de Catalunya, adverteix que eines com Pangram donen molts falsos positius, i Román Orús, membre del panel científic de les Nacions Unides sobre IA, recorda que els detectors han arribat a marcar com a fets amb IA «Cien años de soledad», el Gènesi o la Constitució dels Estats Units, per la senzillesa i la previsibilitat del text. La novel·lista Dolores Redondo, que ha creat el segell «Sine Machina» per certificar que els seus llibres no tenen contingut generat amb IA, també desconfia de fer servir la IA per detectar la IA.\n\nEl fons de la qüestió és qui ha de demostrar què. Els escriptors consultats rebutgen que es presentin com a originals textos fets amb IA, però també que siguin ells els que hagin de provar la seva innocència davant d'unes eines poc fiables. Per al sector editorial, que tot just comença a fixar les seves línies vermelles, és un precedent: casos com aquest es poden repetir en altres premis.\n\nDe moment no hi ha cap prova concloent en cap dels dos sentits: ni el detector demostra que la novel·la sigui obra d'una IA ni s'ha fet pública cap anàlisi independent dels esborranys que ofereix l'autor. Tampoc no consta que el premi s'hagi retirat. Les propostes de marcar els textos amb metadades depenen de la voluntat de les empreses tecnològiques i, avui, no són obligatòries.",
-    "source": "3CatInfo",
-    "url": "https://www.3cat.cat/3catinfo/la-ia-en-la-literatura-els-autors-alterten-que-no-son-ells-els-que-shan-de-defensar/noticia/3436654",
-    "image": "./assets/escriptors-catalans-detectors-ia-novella-premiada-20261030.jpg",
-    "slug": "escriptors-catalans-detectors-ia-novella-premiada"
   }
 ];
