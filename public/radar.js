@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "04.11.2026",
+    "title": "El TERMCAT amplia el diccionari català de la intel·ligència artificial i ja passa dels 200 termes",
+    "summary": "La «Terminologia de la intel·ligència artificial» incorpora més de 60 conceptes nous, com «aprenentatge federat», «decalatge de dades» o «agent corporeïtzat», pensats perquè qualsevol usuari entengui les eines d’IA en català.",
+    "detail": "El TERMCAT, el centre de terminologia de la llengua catalana, amb seu a Barcelona, ha ampliat la «Terminologia de la intel·ligència artificial», el diccionari en línia que va publicar ara fa un any amb 140 termes. Amb l’actualització, presentada aquest dimecres, l’obra passa a tenir més de 200 conceptes: segons el centre, la nova tanda afegeix més de 60 termes d’aprenentatge automàtic, xarxes neuronals artificials, informàtica general i sistemes multiagent.\n\nEntre les incorporacions hi ha «aprenentatge federat», la manera d’entrenar un model entre molts dispositius o institucions sense que les dades surtin d’on són; «decalatge de dades», el canvi de les dades que rep un model respecte de les que va fer servir per aprendre; «destil·lació de coneixements», «model espars», «anotació de dades», «càlcul per reservori», «agent corporeïtzat» i «enginyeria d’agents d’IA».\n\nEl diccionari té un enfocament divulgatiu: és per a usuaris no especialistes, sobretot per a qui fa servir la IA generativa a la vida de cada dia. Cada fitxa dona la forma catalana, els sinònims quan n’hi ha, els equivalents en castellà, francès i anglès, una definició i, si cal, notes explicatives. L’obra és fruit de la col·laboració del TERMCAT amb la Secretaria de Polítiques Digitals de la Generalitat, la Secretaria de Telecomunicacions i Transformació Digital, el Centre d’Innovació en Dades i Intel·ligència Artificial (CIDAI) i l’Institut d’Investigació en Intel·ligència Artificial (IIIA-CSIC), i forma part de la col·lecció Diccionaris en Línia, que ja passa dels 185 títols.\n\nEl diccionari es pot consultar al web del TERMCAT. El glossari d’inteligencia-artificial.cat, que en fa servir les formes, ja n’ha incorporat les primeres novetats.",
+    "source": "TERMCAT",
+    "url": "https://www.termcat.cat/ca/actualitat/noticies/termcat-amplia-la-terminologia-la-intelligencia-artificial",
+    "image": "./assets/termcat-amplia-terminologia-ia-202-termes-20261104.jpg",
+    "slug": "termcat-amplia-terminologia-ia-202-termes"
+  },
+  {
     "place": "Palma",
     "category": "IA I SOCIETAT",
     "date": "04.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.3cat.cat/3catinfo/la-ia-en-la-literatura-els-autors-alterten-que-no-son-ells-els-que-shan-de-defensar/noticia/3436654",
     "image": "./assets/escriptors-catalans-detectors-ia-novella-premiada-20261030.jpg",
     "slug": "escriptors-catalans-detectors-ia-novella-premiada"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "30.10.2026",
-    "title": "L'Autoritat Catalana de Protecció de Dades presenta un model que reuneix en una sola avaluació els riscos de la IA per a les dades i per als drets fonamentals",
-    "summary": "El model DPIA-FRIA, fet amb delegats de protecció de dades i el jurista Alessandro Mantelero, evita que les organitzacions hagin de fer dues anàlisis paral·leles per complir el reglament de dades i el reglament europeu d'IA.",
-    "detail": "Una organització que vol fer servir un sistema d'intel·ligència artificial amb dades personals pot haver de fer dues avaluacions diferents abans de posar-lo en marxa. El Reglament general de protecció de dades exigeix una avaluació d'impacte en la protecció de dades (DPIA, per les sigles en anglès) quan el tractament comporta un risc alt, i el Reglament europeu d'intel·ligència artificial n'afegeix una altra, l'avaluació d'impacte en els drets fonamentals (FRIA), per a determinats sistemes d'alt risc. Fins ara, cadascuna tenia les seves plantilles.\n\nL'Autoritat Catalana de Protecció de Dades (APDCAT) va presentar dijous el model DPIA-FRIA, que combina totes dues en un sol instrument. S'ha fet dins del grup de treball FRIA-PIA de «DPD en xarxa», el fòrum de delegats de protecció de dades de Catalunya, amb el suport d'Alessandro Mantelero, professor de dret civil del Politècnic de Torí. Es va presentar als delegats en la tercera trobada d'aquest fòrum. A més de la protecció de dades, l'avaluació inclou altres drets fonamentals, com la llibertat d'expressió o el dret a no ser discriminat.\n\nL'APDCAT el defineix com un model pioner a Europa. La utilitat és pràctica: les dues avaluacions se solapen en bona part, i fer-les per separat obliga a repetir anàlisis i a coordinar equips diferents. Integrar-les hauria de facilitar que ajuntaments, hospitals, universitats o empreses que incorporen sistemes d'IA es plantegin com poden afectar els drets de les persones abans de fer-los servir, i no quan ja hi ha un problema. És la continuació del model FRIA català que l'autoritat ja havia publicat amb el mateix grup de treball.\n\nEl model és una eina orientativa: no substitueix les obligacions legals ni garanteix per si sol que una avaluació estigui ben feta. La notícia no dona dades sobre quantes organitzacions el faran servir, i el seu impacte dependrà de l'adopció real, en un moment en què les obligacions del reglament europeu d'IA per als sistemes d'alt risc encara s'estan desplegant.",
-    "source": "APDCAT · El Nacional (ON Economia)",
-    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/impulsen-eina-avaluar-riscos-ia-proteccio-dades_1717660_102.html",
-    "image": "./assets/apdcat-model-dpia-fria-ia-proteccio-dades-20261030.jpg",
-    "slug": "apdcat-model-dpia-fria-ia-proteccio-dades"
   }
 ];
