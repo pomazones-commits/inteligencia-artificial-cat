@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-04T05:19:07.194Z",
+ "actualitzat": "2026-11-04T09:14:30.782Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "df6e2de2ecc8",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Y si la IA te hiciera la mitad del trabajo pesado? Una masterclass para empezar sin complejos",
+   "url": "https://www.lavanguardia.com/vida/20261104/11674848/ia-te-hiciera-mitad-trabajo-pesado-masterclass-empezar-complejos.html",
+   "publicat": "2026-11-04T08:45:42.000Z"
+  },
+  {
+   "id": "e4285673af86",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tus publicaciones en redes sociales pueden convertirse en el arma perfecta para las estafas de la IA",
+   "url": "https://www.levante-emv.com/tendencias21/2026/11/04/publicaciones-redes-sociales-convertirse-arma-136066208.html",
+   "publicat": "2026-11-04T08:40:34.000Z"
+  },
+  {
+   "id": "e17086d25dc0",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Aquest és el poble a només una hora de Manresa que la intel·ligència artificial recomana per viure-hi",
+   "url": "https://www.regio7.cat/vida-i-estil/2026/11/04/aquest-poble-nomes-hora-manresa-ia-136044085.html",
+   "publicat": "2026-11-04T08:37:21.000Z"
+  },
+  {
+   "id": "e209506717be",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La guerra de Anthropic contra los clones de videojuegos deja víctimas colaterales",
+   "url": "https://www.informacion.es/vida-y-estilo/tecnologia/2026/11/04/guerra-anthropic-clones-videojuegos-deja-136065842.html",
+   "publicat": "2026-11-04T08:29:11.000Z"
+  },
+  {
+   "id": "96c0e46972eb",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Clientes GPT: la inteligencia artificial alimenta la tensión en las consultas con los abogados",
+   "url": "https://cincodias.elpais.com/legal/2026-11-04/clientes-gpt-la-inteligencia-artificial-alimenta-la-tension-en-las-consultas-con-los-abogados.html",
+   "publicat": "2026-11-04T07:30:00.000Z"
+  },
+  {
+   "id": "48740dc2e15b",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La científica que abrió el camino a ChatGPT y Gemini y que casi nadie conoce: el hallazgo de Fei-Fei Li que revolucionó la IA",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261104/11673941/cientifica-abrio-camino-chatgpt-gemini-nadie-conoce-hallazgo-fei-fei-li-revoluciono-ia.html",
+   "publicat": "2026-11-04T06:20:00.000Z"
+  },
   {
    "id": "07e1695028a0",
    "mitja": "Levante-EMV",
@@ -2042,138 +2108,6 @@
    "titol": "Begoña Gómez denuncia el PP per suplantació pel vídeo fet amb IA en què li fan admetre delictes",
    "url": "https://naciodigital.cat/politica/begona-gomez-denuncia-el-pp-per-suplantacio-pel-video-en-que-li-fan-admetre-delictes-amb-intelligencia-artificial.html",
    "publicat": "2026-10-28T09:19:33.000Z"
-  },
-  {
-   "id": "2b9aadfa9f9f",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Begoña Gómez denuncia al PP por suplantación de identidad por el vídeo hecho con IA",
-   "url": "https://www.lavanguardia.com/politica/20261028/11669924/begona-gomez-denuncia-pp-suplantacion-identidad-video-hecho-ia.html",
-   "publicat": "2026-10-28T07:55:35.000Z"
-  },
-  {
-   "id": "992c152d0420",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia injecta 3.000 milions a Meta per impulsar Muse",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nvidia-injecta-3000-milions-meta-impulsar-muse_1716670_102.html",
-   "publicat": "2026-10-28T07:52:06.000Z"
-  },
-  {
-   "id": "43e79aae3ae9",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Begoña Gómez ha presentado una denuncia por suplantación de imagen por el vídeo de IA del PP",
-   "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/10/28/2737937/begona-gomez-presentado-denuncia-por-suplantacion-imagen-por-video-del-pp.html",
-   "publicat": "2026-10-28T07:52:00.000Z"
-  },
-  {
-   "id": "c84416299731",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Begoña Gómez denuncia el PP pel vídeo fet amb IA que li suplantava la imatge",
-   "url": "https://www.elnacional.cat/ca/politica/begona-gomez-denuncia-pp-video-fet-ia-suplantava-imatge_1716664_102.html",
-   "publicat": "2026-10-28T07:49:00.000Z"
-  },
-  {
-   "id": "f3a1c0337529",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Begoña Gómez denuncia el PP per haver suplantat la seva identitat en un vídeo fet amb intel·ligència artificial",
-   "url": "https://www.vilaweb.cat/noticies/begona-gomez-denuncia-pp-suplantat-identitat-video",
-   "publicat": "2026-10-28T07:41:21.000Z"
-  },
-  {
-   "id": "d8bcf2e1c728",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Sánchez desvela una demanda de Begoña Gómez contra el PP por un vídeo con 'deepfake'",
-   "url": "https://www.elperiodico.com/es/politica/20261028/sanchez-demanda-begona-gomez-pp-video-135830761",
-   "publicat": "2026-10-28T07:39:37.000Z"
-  },
-  {
-   "id": "3cdb2e68f70e",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Investigadores diseñan un mosaico hexagonal de inteligencia artificial que duplica la velocidad para recrear mundos en 3D",
-   "url": "https://www.lasprovincias.es/tecnologia/investigadores-disenan-mosaico-hexagonal-rlt_arx-20261028071032-nt.html",
-   "publicat": "2026-10-28T07:25:32.000Z"
-  },
-  {
-   "id": "48cc4ba7145d",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Constructors d'agents d'IA. Nivell 2",
-   "url": "https://www.diariandorra.ad/entreteniment/261028/constructors-d-agents-d-ia-nivell-2_207506.html",
-   "publicat": "2026-10-28T06:25:09.000Z"
-  },
-  {
-   "id": "559edf4e888c",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Andorra serà seu de la pròxima conferència europea sobre els reptes de la IA",
-   "url": "https://www.diariandorra.ad/nacional/261028/andorra-sera-seu-proxima-conferencia-europea-sobre-els-reptes-ia_207497.html",
-   "publicat": "2026-10-28T06:01:01.000Z"
-  },
-  {
-   "id": "7234e4f20d45",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Akaen, el socio tecnológico que lleva la inteligencia artificial al día a día de las empresas",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261028/11665421/akaen-socio-tecnologico-lleva-inteligencia-artificial-dia-dia-empresas.html",
-   "publicat": "2026-10-28T06:00:00.000Z"
-  },
-  {
-   "id": "7f0cc1ac21d3",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Podría la superinteligencia artificial dominar el mundo? 5 escenarios 'realistas' que contemplan los expertos",
-   "url": "https://www.lavanguardia.com/neo/ia/20261028/11669105/superinteligencia-artificial-dominar-mundo-5-escenarios-realistas-contemplan-expertos.html",
-   "publicat": "2026-10-28T06:00:00.000Z"
-  },
-  {
-   "id": "87591a7e07f1",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Bibiana Candia, escritora: “La inteligencia artificial amenaza el trabajo y la humanidad”",
-   "url": "https://www.lavanguardia.com/historiayvida/historia-contemporanea/20261028/11664376/bibiana-candia-escritora-empresas-inteligencia-artificial-amenazan-quitar-trabajos-personas-cambiar-humanidad.html",
-   "publicat": "2026-10-28T05:30:00.000Z"
   }
  ]
 }
