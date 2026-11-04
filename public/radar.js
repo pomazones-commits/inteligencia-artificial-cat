@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Palma",
+    "category": "IA I SOCIETAT",
+    "date": "04.11.2026",
+    "title": "Un jove de Palma de 19 anys automatitza amb IA tasques repetitives de 17 empreses de Mallorca",
+    "summary": "Marc Hurtado va crear KAIRO AI amb 16 anys i ara fa eines per a hotels, assessories, indústries i comerços de l'illa.",
+    "detail": "Moltes petites i mitjanes empreses de les Illes Balears volen aprofitar la intel·ligència artificial, però no tenen equips tècnics propis per fer-ho. Aquest buit l'omplen sovint empreses molt petites del mateix territori, com la que ha muntat a Palma Marc Hurtado, segons explica el diari «Última Hora».\n\nHurtado, que ara té 19 anys, va començar amb 16, encara menor d'edat i amb el suport del seu pare, després d'explorar ChatGPT. La seva empresa, KAIRO AI, automatitza tasques repetitives, i segons el diari 17 empreses de Mallorca de l'hostaleria, les assessories, la indústria i el comerç ja en fan servir els sistemes cada dia, i n'hi ha tres més en camí. Un dels casos és una aplicació per a l'empresa Elegant Glass que controla l'estoc i registra els informes de feina des de qualsevol aparell.\n\nLes xifres d'estalvi que dona són concretes: uns 6.000 euros l'any a Elegant Glass, més de 25 hores setmanals en una assessoria laboral i més de 20 hores al mes en la confecció dels torns del personal d'un hotel de Palma. És un exemple de com l'adopció de la IA a les empreses de les Illes passa sovint per encàrrecs petits i molt pràctics més que per grans projectes.\n\nLes dades d'estalvi són càlculs de la mateixa empresa recollits pel diari, sense cap verificació independent, i la peça no detalla quines eines o models fa servir KAIRO AI ni quant cobra als clients.",
+    "source": "Última Hora",
+    "url": "https://www.ultimahora.es/noticias/local/2026/11/04/2742087/empezar-anos-ahorrar-miles-euros-empresas-mallorca-gracias-ia.html",
+    "image": "./assets/kairo-ai-palma-automatitzacio-empreses-mallorca-20261104.jpg",
+    "slug": "kairo-ai-palma-automatitzacio-empreses-mallorca"
+  },
+  {
     "place": "Andorra",
     "category": "IA I SOCIETAT",
     "date": "04.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/impulsen-eina-avaluar-riscos-ia-proteccio-dades_1717660_102.html",
     "image": "./assets/apdcat-model-dpia-fria-ia-proteccio-dades-20261030.jpg",
     "slug": "apdcat-model-dpia-fria-ia-proteccio-dades"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "29.10.2026",
-    "title": "El Barcelona Supercomputing Center i AstraZeneca s'alien per fer servir la IA i el supercomputador en recerca de cor, pulmó, càncer i malalties minoritàries",
-    "summary": "L'equip del centre global d'AstraZeneca a Barcelona treballarà amb investigadors del BSC i en farà servir les instal·lacions, en un acord sense xifres signat dins del programa BSC Connects.",
-    "detail": "La farmacèutica AstraZeneca té a Barcelona un dels seus centres globals, amb equips que treballen en recerca, dades i assajos clínics per a tota la companyia. El Barcelona Supercomputing Center (BSC-CNS), que gestiona el MareNostrum 5, fa temps que busca acords amb empreses a través del programa BSC Connects, i AstraZeneca ja hi havia participat en una taula rodona al Mobile World Congress del març.\n\nSegons el comunicat del BSC recollit per Europa Press, el director del centre, Mateo Valero, i César Velasco, director d'innovació empresarial d'AstraZeneca a Madrid i Barcelona, han signat aquest dijous a Barcelona un acord per accelerar l'ús de la IA, la supercomputació i l'anàlisi avançada de dades en la recerca biomèdica, el desenvolupament de teràpies i els assajos clínics. L'equip del centre global d'AstraZeneca a Barcelona treballarà directament amb investigadors del BSC i farà servir la infraestructura del centre. Les dues parts preveuen línies de recerca conjuntes en salut cardiovascular, malalties respiratòries, oncologia i malalties minoritàries.\n\nL'acord inclou l'anàlisi de dades molt complexes i simulacions avançades, i també l'aplicació de l'aprenentatge automàtic, inclosos enfocaments basats en tecnologies quàntiques, per modelitzar processos biològics i fer prediccions en malalties minoritàries. Per al BSC és una manera més d'obrir el supercomputador a la indústria; per a AstraZeneca, una manera d'aprofitar capacitat de càlcul i talent científic que té al costat.\n\nEl comunicat no dona cap xifra econòmica ni la durada de l'acord, ni concreta quins projectes començaran primer o amb quines dades de pacients es treballarà. És, de moment, un marc de col·laboració: caldrà veure quins resultats concrets en surten i en quin termini.",
-    "source": "Infosalus (Europa Press)",
-    "url": "https://www.infosalus.com/farmacia/noticia-empresas-bsc-astrazeneca-acuerdan-impulsar-uso-ia-supercomputacion-salud-20261029125628.html",
-    "image": "./assets/bsc-astrazeneca-acord-ia-supercomputacio-salut-20261029.jpg",
-    "slug": "bsc-astrazeneca-acord-ia-supercomputacio-salut"
   }
 ];
