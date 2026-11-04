@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-03T17:15:04.437Z",
+  "updatedAt": "2026-11-04T05:18:31.395Z",
   "items": [
     {
-      "category": "GEOPOLÍTICA",
+      "category": "MODELS",
       "read": "4 MIN",
-      "title": "Nvidia exigeix als seus clients del núvol que venguin com a mínim el 51% dels serveis a empreses que no siguin xineses",
-      "excerpt": "Segons el Financial Times, la condició val per als contractes nous de les empreses que lloguen capacitat de càlcul amb els xips de Nvidia. La companyia no ho confirma ni ho desmenteix, i Pequín demana un tracte «no discriminatori»."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "4 MIN",
-      "title": "Google apagarà per defecte la seva IA a les escoles, però les que no la vulguin es quedaran també sense el cercador",
-      "excerpt": "A partir de l'any que ve, Gemini, NotebookLM i les funcions d'IA de Classroom i del cercador estaran desactivades per als alumnes de primària i secundària si l'escola no les activa. Com que el cercador i la IA no es poden separar, l'escola que la bloquegi del tot es quedarà també sense Google Search."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA dedueix el perfil molecular d'un tumor a partir de la mostra de teixit que ja es fa a l'hospital, segons un estudi a «Nature Communications»",
-      "excerpt": "El sistema PathLUPI aprèn amb dades d'expressió gènica, però després només necessita la imatge digital de la biòpsia. Provat amb 11.361 casos de 20 cohorts, arriba a una àrea sota la corba de 0,80 o més en 18 tasques de biomarcadors i subtipus."
+      "title": "OpenAI diu que GPT-6 Astra va dissenyar en menys d'una setmana un aparell per parlar amb Codex, de la carcassa al programari",
+      "excerpt": "Segons l'empresa, el model va fer la caixa, la placa de circuits, el microprogramari i la interfície d'un dispositiu de veu per al seu agent de programació, tot i que el projecte va necessitar diverses rondes de correccions per adaptar-lo a la fàbrica."
     },
     {
       "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Els usuaris de companys virtuals d'IA se senten més vulnerables com més control creuen que té l'empresa sobre el seu «amic», segons un estudi",
-      "excerpt": "Investigadores de les universitats de Surrey i de Cardiff han analitzat 1.131 missatges d'un fòrum de Replika i han enquestat 610 usuaris dels Estats Units. La por que l'empresa canviï la personalitat del company o tanqui el servei s'associa a un benestar més baix."
+      "read": "5 MIN",
+      "title": "Les IA que puntuen entrevistes i exàmens orals valoren pitjor els accents xinès i nigerià, encara que entenguin el que es diu",
+      "excerpt": "Un estudi de la Universitat de Washington presentat al congrés EMNLP prova quatre models d'àudio de Google, OpenAI i Alibaba amb el mateix text llegit amb cinc accents d'anglès, i troba una jerarquia que perjudica els parlants de fora dels Estats Units i el Regne Unit."
     },
     {
-      "category": "PLATAFORMES",
-      "read": "3 MIN",
-      "title": "Apple classificarà per a majors de 18 anys les aplicacions de cites i els companys d'IA amb contingut sexual o romàntic",
-      "excerpt": "A partir del 16 de novembre, els desenvolupadors hauran de declarar a l'App Store si la seva aplicació permet relacions sentimentals amb persones o amb un company virtual. Les que ho facin tindran una qualificació mínima de 18 anys."
-    },
-    {
-      "category": "DRETS",
-      "read": "4 MIN",
-      "title": "Anthropic impedeix que Claude Code faci còpies de videojocs existents, però deixa crear-ne d'originals",
-      "excerpt": "L'empresa ha afegit dues frases a les instruccions internes de la seva eina de programació perquè no reprodueixi jocs concrets d'altres, en plena allau de versions de clàssics retro refetes amb IA."
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "Anthropic presenta FlashProve, un sistema obert per demostrar amb criptografia quin model d'IA ha escrit una resposta",
+      "excerpt": "El prototip permet comprovar que una resposta surt d'un model concret sense haver de veure'n els paràmetres, cosa que evitaria que un proveïdor canviés el model per un de més barat d'amagat. De moment, però, multiplica per més de setanta el cost de càlcul."
     },
     {
       "category": "ENERGIA",
       "read": "4 MIN",
-      "title": "OpenAI promet que el seu centre de dades de Geòrgia cedirà fins a 1.000 megawatts a la xarxa quan hi hagi onades de calor o emergències",
-      "excerpt": "El programa Grid Protectors començarà al comtat d'Effingham i vol presentar les centrals elèctriques dels centres de dades com un recurs per als veïns, ara que l'oposició a aquestes instal·lacions creix als Estats Units."
+      "title": "Els centres de dades d'IA recorren a motors d'avió reciclats per tenir electricitat sense esperar anys la connexió a la xarxa",
+      "excerpt": "Empreses com xAI i Crusoe instal·len antics motors de reacció adaptats per cremar gas natural, una solució ràpida però menys eficient i més contaminant que les centrals convencionals, segons «The New York Times»."
     },
     {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA llegeix fotografies de la retina i calcula el risc de mort de cada persona al llarg dels anys, segons un estudi a «Nature Biomedical Engineering»",
-      "excerpt": "Un equip de la Universitat Nacional de Singapur ha creat RetiME, un indicador que, a partir d'una foto barata i no invasiva del fons de l'ull, reconstrueix la trajectòria de risc de cada persona i l'ha validat en tres poblacions de tres continents."
-    },
-    {
-      "category": "CIÈNCIA",
+      "category": "ANDORRA",
       "read": "4 MIN",
-      "title": "Una IA busca entre les proteïnes del cos humà les que poden transportar ARN missatger, i 12 de les 15 provades funcionen, segons «Nature Communications»",
-      "excerpt": "La plataforma DeepDelivery, d'un equip de l'Acadèmia Xinesa de Ciències, vol substituir els vectors amb components no humans, que poden despertar el sistema immunitari, per vehicles fets amb proteïnes del mateix pacient."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Barcelona provarà dos sistemes d'IA per regular els semàfors, amb l'objectiu de tenir-los funcionant al carrer a finals del 2027",
-      "excerpt": "Les empreses Kapsch i Acisa, triades entre 26 candidatures, assajaran semàfors que s'adapten al trànsit i un bessó digital de la xarxa viària dins del Barcelona Innova Lab Mobility, que ha incorporat TMB i l'ATM com a socis."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Una xarxa de més de 400 aplicacions i webs d'aparença innocent amagava eines per fer imatges sexuals falses amb IA",
-      "excerpt": "Una investigació de WIRED amb investigadors d'AI Forensics i Infoblox descobreix que apps de retrats de mascotes o de classes d'idiomes carregaven d'amagat un generador de vídeos i imatges sexuals a partir de fotos de persones reals."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "El cap de la ciberseguretat britànica preveu que el Regne Unit patirà atacs amb IA contra infraestructures crítiques abans del 2028",
-      "excerpt": "Richard Horne, director del Centre Nacional de Ciberseguretat, diu que la IA permetrà trobar i aprofitar a una escala inimaginable vulnerabilitats que fa anys que es toleren, i avisa les empreses que han estalviat en tecnologia."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Goldman Sachs retira les eines de programació amb IA als operadors i banquers i les deixa només per als enginyers",
-      "excerpt": "El banc dona per acabada la fase d'experimentació amb eines com Claude Code, que feia mesos que també feien servir treballadors sense formació tècnica, i al·lega motius de productivitat i de gestió del risc."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un robot humanoide aprèn a encadenar caminar i agafar objectes amb un sistema que reparteix la feina entre models especialitzats",
-      "excerpt": "Un equip de la Universitat Nacional de Seül presentarà al congrés IROS 2026 un mètode que fa passar l'èxit d'un robot real en tasques de diverses etapes del 30% al 50%, sense haver-li ensenyat mai la seqüència sencera."
-    },
-    {
-      "category": "MODELS",
-      "read": "3 MIN",
-      "title": "Meituan presenta LongCat-2.5, un model d'IA d'1,6 bilions de paràmetres pensat perquè els agents programin durant molta estona",
-      "excerpt": "El gegant xinès del repartiment a domicili afegeix visió i més capacitat de programació al seu model, que ja es pot fer servir per xat i per API i que promet publicar a GitHub i Hugging Face."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Anthropic avisa els inversors que podria arribar aviat al llindar en què la IA accelera de manera dràstica la creació de models nous",
-      "excerpt": "La versió revisada del fulletó per sortir a borsa diu que les estimacions internes apunten que l'empresa pot complir «imminentment» el seu propi llindar de «progrés dràsticament accelerat atribuïble a la IA», tot i que cap model actual no l'ha superat."
-    },
-    {
-      "category": "DRETS",
-      "read": "4 MIN",
-      "title": "The New York Times demanda Brave i l'acusa de vendre els seus articles a empreses d'IA com Anthropic, Perplexity i Mistral",
-      "excerpt": "El diari diu que el navegador ha creat un índex de més de 30.000 milions de pàgines amb un robot que els editors no poden bloquejar, i que el ven a desenvolupadors de models. El Daily News, el Chicago Tribune i l'Orlando Sentinel hi han presentat una demanda semblant."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA que mesura el cor en ressonàncies magnètiques preveu el risc de mort una mica millor que els cardiòlegs, segons un estudi amb 27.382 pacients",
-      "excerpt": "Un equip de Londres compara a «The Lancet Digital Health» la fracció d'ejecció calculada per una IA i la que calculen els especialistes. La de la màquina s'associa més a la supervivència i tarda dos o tres segons per estudi, davant uns tretze minuts."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "4 MIN",
-      "title": "Google porta a l'Índia Dreambeans, l'aplicació que escriu històries il·lustrades amb el correu, les fotos i l'agenda de cada usuari",
-      "excerpt": "És el primer país fora dels Estats Units on arriba l'aplicació experimental, que funcionarà en tretze llengües índies a més de l'anglès. Als Estats Units, segons Sensor Tower, les descàrregues van caure un 84% a l'octubre."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "L'empresa israeliana 42AI surt a la llum amb 62,5 milions de dòlars i un model que calcula com es comportarà cada client d'un bròquer",
-      "excerpt": "El sistema vol mesurar trets psicològics estables per estimar la probabilitat que una persona prengui una decisió. Ja el fan servir una desena de bròquers, però la major part dels diners ve dels fundadors i les xifres de precisió són de l'empresa."
+      "title": "Andorra acull una conferència del Consell d'Europa sobre educació i IA inclusiva, i la ministra Imma Tor demana que respecti els drets humans",
+      "excerpt": "La trobada, al Centre de Congressos d'Andorra la Vella fins dimecres, reuneix representants i experts d'Europa, l'Àfrica i l'Orient Mitjà per parlar de diàleg intercultural, polítiques públiques i societats digitals inclusives."
     }
   ]
 }

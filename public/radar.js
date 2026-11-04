@@ -1,5 +1,29 @@
 window.IA_RADAR = [
   {
+    "place": "Andorra",
+    "category": "IA I SOCIETAT",
+    "date": "04.11.2026",
+    "title": "Andorra acull una conferència del Consell d'Europa sobre educació i IA inclusiva, i la ministra Imma Tor demana que respecti els drets humans",
+    "summary": "La trobada, al Centre de Congressos d'Andorra la Vella fins dimecres, reuneix representants i experts d'Europa, l'Àfrica i l'Orient Mitjà per parlar de diàleg intercultural, polítiques públiques i societats digitals inclusives.",
+    "detail": "Andorra la Vella acull dimarts i dimecres la Conferència del Consell d'Europa sobre el diàleg intercultural, l'educació i una intel·ligència artificial inclusiva, que se celebra al Centre de Congressos de la capital. La trobada reuneix durant dues jornades representants i experts d'Europa, l'Àfrica i l'Orient Mitjà.\n\nLa ministra d'Afers Exteriors, Imma Tor, va inaugurar la conferència defensant que la intel·ligència artificial s'ha de desenvolupar respectant els drets humans i els valors democràtics, segons va explicar el Govern en un comunicat. Tor va reconèixer les oportunitats que obre en l'educació, la salut, l'economia i la diplomàcia, però va advertir dels riscos de desinformació, manipulació i discriminació, i va reivindicar el paper de l'educació per fomentar-ne un ús crític i responsable. També va recordar el compromís d'Andorra amb el Centre Nord-Sud del Consell d'Europa, que el Principat presideix des del maig a través de l'ambaixador Andreu Jordi. El director de Cooperació de Programes del Consell d'Europa, Claus Neukirch, va alertar, per la seva banda, de les desigualtats entre països a l'hora d'accedir a aquesta tecnologia. Durant les dues jornades es parlarà del paper de l'educació, de les polítiques públiques i de les iniciatives juvenils en la construcció de societats digitals inclusives.\n\nLa cita situa Andorra en un dels debats que el Consell d'Europa ha fet seus: l'organització d'Estrasburg va aprovar el 2024 el primer tractat internacional vinculant sobre intel·ligència artificial, drets humans, democràcia i estat de dret. Per a un país petit, acollir aquest tipus de trobades és una manera de guanyar presència en la conversa internacional sobre com s'ha de governar la IA, i coincideix amb altres moviments interns: el Consell Superior de la Justícia, per exemple, estudia eines d'IA per agilitzar la tramitació judicial.\n\nDe moment, la conferència és un espai de debat i de declaracions, no d'acords concrets. Les informacions publicades no detallen cap compromís, programa ni pressupost que en surti, ni quines conclusions es presentaran en acabar la trobada aquest dimecres.",
+    "source": "Diari d'Andorra",
+    "url": "https://www.diariandorra.ad/nacional/261103/imma-tor-reclama-ia-servei-les-persones-i-respectuosa-amb-els-drets-humans_207952.html",
+    "image": "./assets/andorra-conferencia-consell-europa-ia-inclusiva-educacio-20261104.jpg",
+    "slug": "andorra-conferencia-consell-europa-ia-inclusiva-educacio"
+  },
+  {
+    "place": "Andorra",
+    "category": "IA I SOCIETAT",
+    "date": "04.11.2026",
+    "title": "El Consell Superior de la Justícia d'Andorra estudia eines d'IA per agilitzar els procediments judicials",
+    "summary": "Al desembre posarà en marxa una nova versió del programa de gestió processal Avantius i un portal per als advocats i procuradors, mentre analitza com fer servir la IA amb garanties de protecció de dades.",
+    "detail": "El Consell Superior de la Justícia (CSJ) d'Andorra prepara un paquet de millores tecnològiques per agilitzar la tramitació dels procediments judicials i facilitar la feina dels professionals, segons ha publicat el Diari d'Andorra.\n\nAl desembre, el CSJ implantarà la versió 6.4 d'Avantius, el programa de gestió processal, i un nou portal de serveis professionals, adaptat a diferents dispositius, per millorar les comunicacions electròniques entre l'administració de justícia i els advocats, els procuradors i altres professionals. El portal nou conviurà un temps amb l'actual. Una altra línia de treball és l'estudi d'eines basades en intel·ligència artificial per donar suport a la tramitació judicial, amb una atenció especial a la protecció de dades, la confidencialitat i les garanties jurídiques.\n\nL'ús de la IA a la justícia és un dels àmbits més delicats de la regulació europea: el Reglament europeu d'IA classifica com d'alt risc els sistemes que ajuden a interpretar fets i lleis, tot i que Andorra no forma part de la Unió Europea.\n\nDe moment, és només un estudi. El CSJ no ha concretat quines eines analitza, per a quines tasques ni amb quin calendari: els projectes són en fases diferents d'estudi i desenvolupament i s'aniran implantant progressivament.",
+    "source": "Diari d'Andorra",
+    "url": "https://www.diariandorra.ad/nacional/261103/justicia-estudia-incorporar-l-us-intel-ligencia-artificial_207926.html",
+    "image": "./assets/andorra-justicia-estudia-ia-tramitacio-judicial-20261104.jpg",
+    "slug": "andorra-justicia-estudia-ia-tramitacio-judicial"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "03.11.2026",
@@ -10,18 +34,6 @@ window.IA_RADAR = [
     "url": "https://www.elperiodico.com/es/barcelona/20261103/barcelona-inteligencia-artificial-regular-semaforos-2027-135993146",
     "image": "./assets/barcelona-provara-ia-semafors-kapsch-acisa-20261103.jpg",
     "slug": "barcelona-provara-ia-semafors-kapsch-acisa"
-  },
-  {
-    "place": "Andorra",
-    "category": "IA I SOCIETAT",
-    "date": "03.11.2026",
-    "title": "La justícia andorrana estudia fer servir la IA per agilitzar la tramitació dels procediments judicials",
-    "summary": "El Consell Superior de la Justícia d'Andorra explora eines d'intel·ligència artificial amb atenció especial a la protecció de dades, i al desembre actualitzarà el seu programari de gestió i estrenarà un portal per als professionals.",
-    "detail": "Com moltes administracions de justícia europees, la d'Andorra busca maneres de reduir la càrrega de feina burocràtica dels jutjats. La intel·ligència artificial s'hi presenta com una possible ajuda, però en l'àmbit judicial planteja preguntes delicades sobre la confidencialitat dels expedients i les garanties de les persones afectades.\n\nSegons el Diari d'Andorra, el Consell Superior de la Justícia (CSJ) desplegarà al desembre un conjunt de millores tecnològiques per agilitzar la tramitació dels procediments i facilitar la feina dels professionals. La principal és la implantació de la versió 6.4 d'Avantius, el programari de gestió processal, i un nou portal de serveis professionals, adaptat a diferents dispositius, per millorar les comunicacions electròniques entre l'administració de justícia, els advocats, els procuradors i altres professionals, que conviurà un temps amb l'actual. Una altra línia de treball és l'estudi d'eines basades en intel·ligència artificial per donar suport a la tramitació judicial, amb atenció especial a la protecció de dades, la confidencialitat i les garanties jurídiques.\n\nLa notícia situa Andorra entre els sistemes judicials que es plantegen incorporar la IA a la feina de tràmit, no pas a les decisions dels jutges. Que el CSJ hi posi d'entrada les condicions de protecció de dades i de garanties jurídiques indica que vol avançar amb prudència en un terreny on la normativa europea considera d'alt risc els sistemes que ajuden a administrar justícia.\n\nDe moment és només un estudi: segons el CSJ, els projectes es troben en diferents fases d'estudi i desenvolupament i s'implantaran progressivament, sense calendari concret. No s'ha explicat quines tasques es volen automatitzar, quines eines es valoren ni qui les proporcionaria.",
-    "source": "Diari d'Andorra",
-    "url": "https://www.diariandorra.ad/nacional/261103/justicia-estudia-incorporar-l-us-intel-ligencia-artificial_207926.html",
-    "image": "./assets/andorra-justicia-estudia-eines-ia-tramitacio-judicial-20261103.jpg",
-    "slug": "andorra-justicia-estudia-eines-ia-tramitacio-judicial"
   },
   {
     "place": "València",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.infosalus.com/farmacia/noticia-empresas-bsc-astrazeneca-acuerdan-impulsar-uso-ia-supercomputacion-salud-20261029125628.html",
     "image": "./assets/bsc-astrazeneca-acord-ia-supercomputacio-salut-20261029.jpg",
     "slug": "bsc-astrazeneca-acord-ia-supercomputacio-salut"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "29.10.2026",
-    "title": "El Barcelona Cybersecurity Congress posarà la IA al centre amb els incidents a Catalunya gairebé doblats en un any",
-    "summary": "El congrés de Fira de Barcelona i l'Agència de Ciberseguretat de Catalunya es farà del 3 al 5 de novembre amb més de 150 ponents. L'Agència va comptar 6.544 incidents el 2025, davant dels 3.372 de l'any anterior.",
-    "detail": "La setena edició del Barcelona Cybersecurity Congress (BCC) se celebrarà del 3 al 5 de novembre al pavelló 2 del recinte de Gran Via de Fira de Barcelona, que l'organitza amb l'Agència de Ciberseguretat de Catalunya i amb el suport del Departament de la Presidència de la Generalitat. Coincidirà amb l'Smart City Expo World Congress i amb el Barcelona Deep Tech Summit, entre altres trobades, i té com a lema «Connectant l'ecosistema europeu de la ciberseguretat».\n\nEl programa té tres eixos, i un és específicament la IA, la identitat i la confiança en l'entorn digital. Els organitzadors citen la intel·ligència artificial com una de les grans amenaces d'uns ciberatacs cada vegada més complexos. Hi intervindran més de 150 ponents internacionals, entre els quals Sounil Yu, cofundador i responsable de seguretat de la IA de Knostic; Holger Spohn, enginyer principal de l'OTAN; Pekka Jokinen, del centre nacional de ciberseguretat de Finlàndia, i Tim Brown, antic responsable de seguretat de SolarWinds. Hi haurà 111 empreses expositores i es lliuraran els premis CISO Leadership Awards, amb 28 finalistes.\n\nLes xifres de context expliquen per què el tema guanya pes. L'Agència de Ciberseguretat de Catalunya va registrar 6.544 incidents únics el 2025, gairebé el doble que els 3.372 de l'any anterior, i va detectar més de 9.100 milions d'intents d'atac, dels quals més de 7.000 milions es van bloquejar automàticament. A tot l'Estat, l'INCIBE va gestionar 122.223 incidents, un 26% més que el 2024. Flavia Santoro, directora del congrés, defensa que l'augment de la ciberdelinqüència fa necessaris espais on la ciberseguretat passi de la teoria a la pràctica.\n\nÉs un congrés, no un resultat: el que s'hi dirà sobre la IA encara està per veure, i les dades d'incidents no distingeixen quants atacs s'han fet amb eines d'intel·ligència artificial. L'augment del recompte també pot reflectir una millor detecció, i no només més atacs. Els organitzadors no han donat previsions d'assistència.",
-    "source": "El Nacional",
-    "url": "https://www.elnacional.cat/oneconomia/ca/economia/barcelona-cybersecurity-congress-tractara-impacte-ia-ciberseguretat_1715995_102.html",
-    "image": "./assets/barcelona-cybersecurity-congress-ia-2026-20261029.jpg",
-    "slug": "barcelona-cybersecurity-congress-ia-2026"
   }
 ];
