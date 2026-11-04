@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-04T17:18:23.637Z",
+ "actualitzat": "2026-11-04T18:52:26.586Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "44GBqQGc-v0",
+   "titol": "How Figma Is Building Self-Serve Analytics with OpenAI",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-11-04T17:27:07.000Z",
+   "descripcio": "Marketers shouldn’t have to wait for a new dashboard to understand how a campaign is performing. In an early pilot with OpenAI, Figma is building shared context that helps marketers ask how campaigns are landing and whether they’re converting customers. Teams can get useful insights sooner, without ",
+   "miniatura": "/assets/videos/44GBqQGc-v0.jpg"
+  },
   {
    "id": "NCxD-qsQcN0",
    "titol": "TamaGPT",
@@ -1033,18 +1045,6 @@
    "publicat": "2026-10-14T19:01:02.000Z",
    "descripcio": "Decades of NVIDIA innovation have led to RTX Spark: https://www.nvidia.com/en-us/products/rtx-spark/ See how we got here—and what comes next for gaming, creating, and building AI locally. Hear from industry leaders at NVIDIA and Microsoft, creators at Corridor Crew, and game developers from CD PROJE",
    "miniatura": "/assets/videos/vJvFta7e76E.jpg"
-  },
-  {
-   "id": "zGdwmsR9dVs",
-   "titol": "Accelerating Scientific Research in Health Data Science With Muse Models",
-   "canal": "AI at Meta",
-   "canalId": "UC5qxlwEKM7-5YZudb24l0bg",
-   "grup": "empreses",
-   "categoria": "salut",
-   "idioma": "en",
-   "publicat": "2026-10-14T18:45:36.000Z",
-   "descripcio": "We’re exploring how AI can accelerate health science research. While AI has made significant breakthroughs in formal sciences like mathematics, health data science depends on imperfect real-world data and consequential choices about cohorts, variables, and causal assumptions. To explore how AI can a",
-   "miniatura": "/assets/videos/zGdwmsR9dVs.jpg"
   },
   {
    "id": "Jh6mgf9M06M",
