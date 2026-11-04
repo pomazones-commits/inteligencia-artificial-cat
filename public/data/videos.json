@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-04T05:19:07.931Z",
+ "actualitzat": "2026-11-04T09:14:30.448Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "NCxD-qsQcN0",
+   "titol": "TamaGPT",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "maquinari",
+   "idioma": "en",
+   "publicat": "2026-11-03T18:30:30.000Z",
+   "descripcio": "You don't need to be an engineer to make hardware. Want to make something physical? Let GPT-6 Astra help you bring it to life.",
+   "miniatura": "/assets/videos/NCxD-qsQcN0.jpg"
+  },
   {
    "id": "yC72iQx6rM0",
    "titol": "Qodo brings company context into Codex code review",
