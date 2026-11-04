@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-04T09:14:30.448Z",
+ "actualitzat": "2026-11-04T17:18:23.637Z",
  "canals": 19,
  "videos": [
   {
@@ -1060,18 +1060,6 @@
    "noticia": "gemini-4-argon-obertura-desenvolupadors-empreses",
    "noticiaTitol": "ACTUALITZACIÓ: Google obre Gemini 4 Argon als desenvolupadors i al públic de pagament, amb un preu d'estrena que es doblarà el 30 de novembre",
    "resum": "Vídeo de Google for Developers titulat «Gemini 4 Argon: What's new and what's next», publicat el 14 d'octubre de 2026, que repassa les novetats del model i el que preveu fer la companyia a continuació. Resum fet a partir del títol i de la descripció; no s'ha vist el vídeo."
-  },
-  {
-   "id": "rBN0PDfJWIc",
-   "titol": "How NVIDIA AI Is Transforming Chip Design and Manufacturing",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-10-14T16:46:00.000Z",
-   "descripcio": "Demand for advanced chips is accelerating, bringing greater complexity to semiconductor design and manufacturing. See how NVIDIA accelerated computing and AI are helping the industry build the AI-defined fab. Explore how NVIDIA CUDA-X libraries, AI physics models, digital twins, AI agents, and robot",
-   "miniatura": "/assets/videos/rBN0PDfJWIc.jpg"
   },
   {
    "id": "4ZwVP0-ylZU",
