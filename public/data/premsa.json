@@ -1,8 +1,140 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-04T00:55:56.826Z",
+ "actualitzat": "2026-11-04T05:19:07.194Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "07e1695028a0",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El exministro Joan Subirats: \"La universidad no puede rendirse ante la IA ni convertirse en su policía\"",
+   "url": "https://www.levante-emv.com/comunitat-valenciana/2026/11/04/exministro-joan-subirats-universidad-rendirse-136049347.html",
+   "publicat": "2026-11-04T05:01:11.000Z"
+  },
+  {
+   "id": "559e6c23b58d",
+   "mitja": "Levante-EMV",
+   "font": "levante",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La universidad no puede rendirse ante la IA ni convertirse en su vigilante",
+   "url": "https://www.levante-emv.com/videos/comunitat-valenciana/2026/11/04/universidad-rendirse-ia-convertirse-vigilante-136049405.html",
+   "publicat": "2026-11-04T05:01:10.000Z"
+  },
+  {
+   "id": "12d129a65db8",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA reordena el talento directivo en España",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261104/11669340/ia-reordena-talento-directivo-espana.html",
+   "publicat": "2026-11-04T05:00:00.000Z"
+  },
+  {
+   "id": "9ff7def9f55c",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una gran avenida de Barcelona probará la IA aplicada a los semáforos",
+   "url": "https://www.lavanguardia.com/local/barcelona/20261104/11675365/gran-avenida-barcelona-probara-ia-aplicada-semaforos.html",
+   "publicat": "2026-11-04T05:00:00.000Z"
+  },
+  {
+   "id": "a5e8dcbf4c08",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial también se aprovecha de quienes buscan a sus perros desaparecidos",
+   "url": "https://www.lavanguardia.com/neo/ia/20261104/11669986/inteligencia-artificial-aprovecha-quienes-buscan-perros-desaparecidos.html",
+   "publicat": "2026-11-04T05:00:00.000Z"
+  },
+  {
+   "id": "ce09743b6e8e",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los hackers campan a sus anchas con la IA, sus creadores quieren sacar tajada",
+   "url": "https://www.lavanguardia.com/internacional/20261104/11674995/ia-inteligencia-artificial-ciberataques-hackers.html",
+   "publicat": "2026-11-04T05:00:00.000Z"
+  },
+  {
+   "id": "e44d70205be0",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El delicado corazón de la IA",
+   "url": "https://www.lavanguardia.com/vida/20261104/11675289/delicado-corazon-ia.html",
+   "publicat": "2026-11-04T05:00:00.000Z"
+  },
+  {
+   "id": "d1b4194af0e0",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La inteligencia artificial llega a su momento Napster",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-04/la-inteligencia-artificial-llega-a-su-momento-napster.html",
+   "publicat": "2026-11-04T04:40:00.000Z"
+  },
+  {
+   "id": "351cb998cb48",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Scope avisa de que un frenazo del crédito de la IA dañará a las empresas europeas sin vínculos con el sector",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-04/scope-avisa-de-que-un-frenazo-del-credito-de-la-ia-danara-a-las-empresas-europeas-sin-vinculos-con-el-sector.html",
+   "publicat": "2026-11-04T04:30:01.000Z"
+  },
+  {
+   "id": "3929ce26158e",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La factura de la IA arriba a Wall Street",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/factura-ia-arriba-wall-street_1719385_102.html",
+   "publicat": "2026-11-04T04:30:00.000Z"
+  },
+  {
+   "id": "494cd3bb92e0",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las ‘big tech’ hacen acopio de liquidez con una inundación histórica de deuda y acciones ante la presión de la IA",
+   "url": "https://cincodias.elpais.com/companias/2026-11-04/las-big-tech-hacen-acopio-de-liquidez-con-una-inundacion-historica-de-deuda-y-acciones-ante-la-presion-de-la-ia.html",
+   "publicat": "2026-11-04T04:15:00.000Z"
+  },
+  {
+   "id": "7e4aa1de56d6",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De empezar con 16 años a ahorrar miles de euros a empresas de Mallorca gracias a la IA",
+   "url": "https://www.ultimahora.es/noticias/local/2026/11/04/2742087/empezar-anos-ahorrar-miles-euros-empresas-mallorca-gracias-ia.html",
+   "publicat": "2026-11-04T03:48:01.000Z"
+  },
   {
    "id": "c3c05daa1c6f",
    "mitja": "El Nacional",
@@ -188,7 +320,9 @@
    "ambit": "catala",
    "titol": "Imma Tor reclama una IA al servei de les persones i respectuosa amb els drets humans",
    "url": "https://www.diariandorra.ad/nacional/261103/imma-tor-reclama-ia-servei-les-persones-i-respectuosa-amb-els-drets-humans_207952.html",
-   "publicat": "2026-11-03T11:20:38.000Z"
+   "publicat": "2026-11-03T11:20:38.000Z",
+   "noticia": "andorra-conferencia-consell-europa-ia-inclusiva-educacio",
+   "noticiaTitol": "Andorra acull una conferència del Consell d'Europa sobre educació i IA inclusiva, i la ministra Imma Tor demana que respecti els drets humans"
   },
   {
    "id": "1e0c07224b06",
@@ -211,6 +345,17 @@
    "titol": "L’FMI alerta que la IA afectarà el 40% de l’ocupació mundial i apunta riscos de crisi",
    "url": "https://www.elnacional.cat/oneconomia/ca/economia/fmi-alerta-ia-afectara-40-llocs-feina-mon-ja-parla-crisi_1719792_102.html",
    "publicat": "2026-11-03T11:15:00.000Z"
+  },
+  {
+   "id": "b48832e2eca6",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El impacto de la inteligencia artificial sobre el sistema de pensiones",
+   "url": "https://cincodias.elpais.com/fondos-y-planes/2026-11-03/el-impacto-de-la-inteligencia-artificial-sobre-el-sistema-de-pensiones.html",
+   "publicat": "2026-11-03T11:08:55.000Z"
   },
   {
    "id": "a0fc26bc05f2",
@@ -2029,85 +2174,6 @@
    "titol": "Bibiana Candia, escritora: “La inteligencia artificial amenaza el trabajo y la humanidad”",
    "url": "https://www.lavanguardia.com/historiayvida/historia-contemporanea/20261028/11664376/bibiana-candia-escritora-empresas-inteligencia-artificial-amenazan-quitar-trabajos-personas-cambiar-humanidad.html",
    "publicat": "2026-10-28T05:30:00.000Z"
-  },
-  {
-   "id": "f5fa0b21000c",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nabiha Syed y Zeina Abi Assy: \"Si la IA solo va a hacerte más fácil escribir correos electrónicos, no merece la pena gastar esa energía\"",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261028/nabiha-syed-mozilla-mozfest-barcelona-ia-tecnologia-135757570",
-   "publicat": "2026-10-28T05:01:17.000Z"
-  },
-  {
-   "id": "4f64d5ba9de0",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "“Pronto podremos pedirle al móvil que nos organice y pague las vacaciones”: así será la batalla por controlar las compras que hará la IA",
-   "url": "https://www.lavanguardia.com/neo/ia/20261028/11667353/pronto-podremos-pedirle-movil-organice-pague-vacaciones-asi-sera-batalla-controlar-compras-hara-ia.html",
-   "publicat": "2026-10-28T05:00:00.000Z"
-  },
-  {
-   "id": "4d9871d83203",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Barcelona Cybersecurity Congress tractarà l’impacte de la IA en la ciberseguretat",
-   "url": "https://www.elnacional.cat/oneconomia/ca/economia/barcelona-cybersecurity-congress-tractara-impacte-ia-ciberseguretat_1715995_102.html",
-   "publicat": "2026-10-28T04:30:00.000Z",
-   "noticia": "barcelona-cybersecurity-congress-ia-2026",
-   "noticiaTitol": "El Barcelona Cybersecurity Congress posarà la IA al centre amb els incidents a Catalunya gairebé doblats en un any"
-  },
-  {
-   "id": "543bd983035c",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Cuando ser visto se confunde con existir: redes sociales, identidad, intimidad e inteligencia artificial",
-   "url": "https://elpais.com/estilo-de-vida/2026-10-28/cuando-ser-visto-se-confunde-con-existir-redes-sociales-identidad-intimidad-e-inteligencia-artificial.html",
-   "publicat": "2026-10-28T04:30:00.000Z"
-  },
-  {
-   "id": "5808bf409724",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La moda de los dispositivos sin pantalla y por qué cada vez hay más",
-   "url": "https://elpais.com/tecnologia/2026-10-28/la-moda-de-los-dispositivos-sin-pantalla-y-por-que-cada-vez-hay-mas.html",
-   "publicat": "2026-10-28T04:30:00.000Z"
-  },
-  {
-   "id": "39f982c9b567",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Artiso, creada por exdirectivos de Mango, cierra una ronda con Criteria para su IA de equipos de moda",
-   "url": "https://cincodias.elpais.com/companias/2026-10-28/artiso-creada-por-exdirectivos-de-mango-cierra-una-ronda-con-criteria-para-su-ia-de-equipos-de-moda.html",
-   "publicat": "2026-10-28T04:15:00.000Z"
-  },
-  {
-   "id": "7f935f39e3c9",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los cofundadores de Anthropic, ante una fortuna conjunta de 200.000 millones de dólares tras la salida a Bolsa",
-   "url": "https://elpais.com/economia/2026-10-28/los-cofundadores-de-anthropic-ante-una-fortuna-conjunta-de-200000-millones-de-dolares-tras-la-salida-a-bolsa.html",
-   "publicat": "2026-10-28T04:15:00.000Z"
   }
  ]
 }
