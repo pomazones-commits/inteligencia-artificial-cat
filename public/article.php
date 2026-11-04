@@ -245,6 +245,7 @@ $shareText = rawurlencode((string) $article['title']);
   <meta property="article:author" content="<?= e($authorName) ?>"><meta property="article:section" content="<?= e($category) ?>">
   <?php if ($publishedIso !== ''): ?><meta property="article:published_time" content="<?= e($publishedIso) ?>"><?php endif; ?>
   <?php if ($imgAbs !== ''): ?><meta property="og:image" content="<?= e($imgAbs) ?>"><meta property="og:image:alt" content="<?= e($imgAlt) ?>"><meta name="twitter:card" content="summary_large_image"><?php else: ?><meta property="og:image" content="https://inteligencia-artificial.cat/assets/og-portada.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="intel·ligènciaartificial.cat — el briefing diari de la intel·ligència artificial en català"><meta name="twitter:card" content="summary_large_image"><?php endif; ?>
+  <meta name="robots" content="max-image-preview:large">
   <script type="application/ld+json"><?= json_encode($jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">

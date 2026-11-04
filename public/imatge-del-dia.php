@@ -50,7 +50,7 @@ $paragraphs = array_values(array_filter(array_map('trim', preg_split('/\n\n+/', 
 <!doctype html>
 <html lang="ca">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f7fb">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="max-image-preview:large"><meta name="theme-color" content="#f6f7fb">
 <title><?= e($title) ?> — La imatge del dia · intel·ligència artificial.cat</title>
 <meta name="description" content="<?= e($desc) ?>">
 <link rel="canonical" href="<?= e($canonical) ?>">

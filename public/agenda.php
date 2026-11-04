@@ -147,7 +147,7 @@ foreach ($actes as $a) {
 }
 
 iacat_capcalera([
-    'titol' => 'Agenda de la IA a Catalunya i als territoris de parla catalana',
+    'titol' => 'Agenda d’IA a Catalunya: congressos, jornades i hackatons',
     'descripcio' => 'Tots els actes sobre intel·ligència artificial a Catalunya, la Comunitat Valenciana, les Illes Balears, Andorra i la Catalunya Nord: congressos, jornades, hackatons, trobades, cursos i convocatòries, revisats cada setmana.',
     'cami' => '/agenda',
     'molla' => 'Agenda',

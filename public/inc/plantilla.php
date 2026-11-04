@@ -27,7 +27,7 @@ function iacat_capcalera(array $meta): void
   <title><?= iacat_e($titol) ?> · intel·ligència artificial.cat</title>
   <meta name="description" content="<?= iacat_e($desc) ?>">
   <?php if (!empty($meta['robots'])): ?><meta name="robots" content="<?= iacat_e((string) $meta['robots']) ?>">
-  <?php else: ?><link rel="canonical" href="<?= iacat_e($url) ?>">
+  <?php else: ?><link rel="canonical" href="<?= iacat_e($url) ?>"><meta name="robots" content="max-image-preview:large">
   <?php endif; ?>
   <meta property="og:type" content="<?= iacat_e((string) ($meta['tipusOg'] ?? 'website')) ?>"><meta property="og:locale" content="ca_ES"><meta property="og:site_name" content="intel·ligènciaartificial.cat">
   <meta property="og:title" content="<?= iacat_e($titol) ?>">

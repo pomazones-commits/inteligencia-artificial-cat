@@ -28,7 +28,7 @@ $descripcio = 'Les seccions temàtiques d’inteligencia-artificial.cat: poder i
 <html lang="ca">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="max-image-preview:large">
   <meta name="theme-color" content="#f6f7fb">
   <title>Seccions — intel·ligènciaartificial.cat</title>
   <meta name="description" content="<?= eixos_e($descripcio) ?>">
