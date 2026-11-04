@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-03T17:20:07.789Z",
+  "generat": "2026-11-04T00:06:40.101Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -126,17 +126,17 @@
       "font": "apunt",
       "emissora": "À Punt Ràdio",
       "programa": "",
-      "resultats": 4,
+      "resultats": 6,
       "estat": "ok",
-      "audios": 0,
-      "sobre_ia": 0
+      "audios": 2,
+      "sobre_ia": 1
     },
     {
       "font": "wordpress",
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 26,
+      "audios": 28,
       "sobre_ia": 1
     },
     {
@@ -155,8 +155,8 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 20,
-      "sobre_ia": 2
+      "audios": 19,
+      "sobre_ia": 1
     },
     {
       "font": "wordpress",
@@ -173,11 +173,44 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 400,
+      "audios": 300,
       "sobre_ia": 2
     }
   ],
   "candidats": [
+    {
+      "id": "3cat-1296383",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-11-03",
+      "durada": "6 min",
+      "titol_original": "Alba Jené: \"És necessari que a l'audiovisual hi hagi noies referents en diversos àmbits tecnològics\"",
+      "descripcio_original": "Quatre joves científiques, un centre tecnològic d'avantguarda i un debat cada vegada més present: fins on pot arribar la intel·ligència artificial? 3Cat estrena \"Lia\", una sèrie que combina ciència, tecnologia i qüestions socials. En parlem amb Alba Jené, assessora científica de la ficció, per descobrir què hi ha de realitat darrere la pantalla.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/alba-jene-es-necessari-que-a-laudiovisual-hi-hagi-noies-referents-en-diversos-am/audio/1296383/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1296383"
+      }
+    },
+    {
+      "id": "apunt-1906441",
+      "emissora": "À Punt Ràdio",
+      "programa": "Esportbase",
+      "programa_url": "https://www.apuntmedia.es/programes/esportbase/",
+      "data": "2026-11-03",
+      "durada": "",
+      "titol_original": "Notícies de la setmana i IA aplicada a la gestió esportiva amb Pablo Sala",
+      "descripcio_original": "Notícies i novetats de l'esport base esta setmana. A més, xarrada amb Pablo Sala, especialista en IA aplicada a la gestió esportiva.",
+      "descripcio_curta": true,
+      "ia_al_titol": true,
+      "url": "https://www.apuntmedia.es/programes/esportbase/entrevista/03-11-2026-noticies-setmana-ia-aplicada-gestio-esportiva-pablo-sala_135_1906441.html",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    },
     {
       "id": "rtve-17297853",
       "emissora": "Ràdio 4",
