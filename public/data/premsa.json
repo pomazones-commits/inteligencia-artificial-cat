@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-04T17:18:28.630Z",
+ "actualitzat": "2026-11-04T20:05:12.005Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "a6b37fe6ea5a",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Prohens destaca la investigación y la IA para atraer a nuevas empresas",
+   "url": "https://www.ultimahora.es/noticias/local/2026/11/04/2743255/prohens-destaca-investigacion-para-atraer-nuevas-empresas.html",
+   "publicat": "2026-11-04T19:10:14.000Z"
+  },
+  {
+   "id": "1cfad77f92e3",
+   "mitja": "Diari de Terrassa",
+   "font": "diarideterrassa",
+   "icona": "/assets/premsa/diari-de-terrassa.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Pot ajudar la IA a recuperar patrimoni?",
+   "url": "https://www.diarideterrassa.com/cultura-i-espectacles/pot-ajudar-la-ia-a-recuperar-patrimoni.html",
+   "publicat": "2026-11-04T18:58:41.000Z"
+  },
+  {
+   "id": "f3bc2ca721db",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El turismo de Elche reivindica licencias temporales de taxi y el sector se rearma con la IA para reducir las esperas",
+   "url": "https://www.informacion.es/elche/2026/11/04/turismo-licencias-taxis-transporte-publico-aete-hoteles-136086191.html",
+   "publicat": "2026-11-04T17:36:03.000Z"
+  },
   {
    "id": "a3d0d9644fa4",
    "mitja": "Última Hora",
@@ -2084,28 +2117,6 @@
    "titol": "Microsoft dispara su beneficio un 32% apoyada en la buena marcha de su negocio relacionado con la IA",
    "url": "https://elpais.com/economia/2026-10-28/microsoft-dispara-su-beneficio-un-32-apoyada-en-la-buena-marcha-de-su-negocio-relacionado-con-la-ia.html",
    "publicat": "2026-10-28T20:52:18.000Z"
-  },
-  {
-   "id": "43e004d33fe7",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Meta llança el seu propi Tamagotchi amb IA: així és Waddle World",
-   "url": "https://www.elnacional.cat/ca/tecnologia/meta-llanca-seu-propi-tamagotchi-ia-aixi-es-waddle-world_1717177_102.html",
-   "publicat": "2026-10-28T19:00:00.000Z"
-  },
-  {
-   "id": "3ff869e05845",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El aspirante a ‘unicornio’ Impress recibe un préstamo del BEI de 40 millones para su IA clínica",
-   "url": "https://cincodias.elpais.com/companias/2026-10-28/el-aspirante-a-unicornio-impress-recibe-un-prestamo-del-bei-de-40-millones-para-su-ia-clinica.html",
-   "publicat": "2026-10-28T17:20:10.000Z"
   }
  ]
 }
