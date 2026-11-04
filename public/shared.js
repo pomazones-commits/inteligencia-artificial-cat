@@ -128,7 +128,7 @@
     const nav = document.querySelector('footer nav');
     if (!nav || nav.querySelector('.peu-seccions')) return;
     [['/autors', 'Qui hi escriu'], ['/escriu.html', 'Escriu a IA.cat'], ['/agenda', 'Agenda'],
-     ['/glossari', 'Glossari'], ['/llengua', 'La IA i el català'], ['/ecosistema', 'Ecosistema'], ['/formacio', 'Formació'], ['/club-de-lectura', 'Club de lectura'], ['/centres-de-dades', 'Centres de dades'],
+     ['/glossari', 'Glossari'], ['/ia-i-educacio', 'La IA a l’escola'], ['/llengua', 'La IA i el català'], ['/ecosistema', 'Ecosistema'], ['/formacio', 'Formació'], ['/club-de-lectura', 'Club de lectura'], ['/centres-de-dades', 'Centres de dades'],
      ['/podcast.html', 'Pòdcast'], ['/correccions', 'Correccions']].forEach(([href, text], i) => {
       if (nav.querySelector('a[href="' + href + '"], a[href=".' + href + '"]')) return;
       const a = document.createElement('a');
@@ -147,7 +147,7 @@
     if (document.querySelector('#newsletter-form, .js-subscribe-form')) return;
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = '/subscriu.css?v=2026080702';
+    css.href = '/subscriu.css?v=2026110401';
     document.head.appendChild(css);
     const banda = document.createElement('section');
     banda.className = 'subscriu-banda';
@@ -166,8 +166,15 @@
       '  <p class="subscriu-peu">Sense soroll: un correu per setmana, i prou. El correu només es fa servir per enviar-te’l i te’n pots donar de baixa quan vulguis: <a href="/avis-legal.html#privacitat">com tractem les dades</a>.</p>',
       '</div>'
     ].join('\n');
+    // 04.11.2026: a les notícies i a les peces signades, just en acabar el text
+    // (on el lector decideix si torna), no al final de tot de la pàgina.
+    const cos = document.querySelector('.article-body-clean');
+    const article = cos ? cos.closest('article') : null;
     const footer = document.querySelector('footer');
-    if (footer && footer.parentNode) footer.parentNode.insertBefore(banda, footer);
+    if (article && article.parentNode) {
+      banda.classList.add('subscriu-banda--article');
+      article.appendChild(banda);
+    } else if (footer && footer.parentNode) footer.parentNode.insertBefore(banda, footer);
     else document.body.appendChild(banda);
   })();
 

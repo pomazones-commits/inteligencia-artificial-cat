@@ -50,7 +50,7 @@ $recursos = [
 ];
 
 iacat_capcalera([
-    'titol' => 'La IA i la llengua catalana',
+    'titol' => 'IA en català: eines, models i on fer servir la intel·ligència artificial en català',
     'descripcio' => 'Com és present el català a la intel·ligència artificial: el Projecte Aina, els models oberts, les eines de Softcatalà, les dades de veu i on fer servir la IA en català.',
     'cami' => '/llengua',
     'molla' => 'La IA i el català',

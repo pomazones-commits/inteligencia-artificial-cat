@@ -134,7 +134,7 @@ RewriteRule ^ia-i-politica/?$ https://inteligencia-artificial.cat/tema/poder-i-g
 RewriteRule ^ia-i-innovacio/?$ https://inteligencia-artificial.cat/tema/novetats-models-i-productes [R=301,L]
 RewriteRule ^ia-i-societat/?$ https://inteligencia-artificial.cat/tema/societat-cultura-i-educacio [R=301,L]
 RewriteRule ^ia-i-filosofia/?$ https://inteligencia-artificial.cat/tema/ment-etica-i-humanisme [R=301,L]
-RewriteRule ^ia-i-educacio/?$ https://inteligencia-artificial.cat/dossiers.html [R=301,L]
+RewriteRule ^ia-i-educacio/?$ ia-i-educacio.php [L,QSA]
 RewriteRule ^ia-i-medi-ambient/?$ https://inteligencia-artificial.cat/tema/economia-i-treball [R=301,L]
 RewriteRule ^salutia/?$ https://inteligencia-artificial.cat/tema/ciencia-salut-i-robotica [R=301,L]
 RewriteRule ^tv3/?$ https://inteligencia-artificial.cat/tema/catalunya [R=301,L]

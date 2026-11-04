@@ -26,3 +26,8 @@
 }
 .subscriu-peu a { color: #b9b4c4; }
 .subscriu-peu a:hover { color: #fff; }
+
+/* 04.11.2026: variant just després del text d'una notícia o d'una peça signada. */
+.subscriu-banda--article { margin: 36px 0 8px; padding: 0; max-width: none; }
+.subscriu-banda--article .subscriu-inner { padding: 30px 32px 26px; }
+@media (max-width: 640px) { .subscriu-banda--article .subscriu-inner { padding: 26px 22px 24px; } }
