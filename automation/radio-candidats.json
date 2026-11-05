@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-05T11:22:46.144Z",
+  "generat": "2026-11-05T13:16:37.617Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 21,
+      "audios": 22,
       "sobre_ia": 1
     },
     {
@@ -177,22 +177,5 @@
       "sobre_ia": 2
     }
   ],
-  "candidats": [
-    {
-      "id": "rna-1936274",
-      "emissora": "Ràdio Nacional d'Andorra",
-      "programa": "Avui serà un bon dia",
-      "programa_url": "https://www.rtva.ad/programes/avui-sera-un-bon-dia",
-      "data": "2026-11-05",
-      "durada": "",
-      "titol_original": "Eric Risco - Avui serà un bon dia - 05/11/2026",
-      "descripcio_original": "La tecnologia i la IA, i el Risco. Tot junt.",
-      "descripcio_curta": true,
-      "ia_al_titol": false,
-      "url": "https://www.rtva.ad/programes/eric-risco-avui-sera-un-bon-dia-05-11-2026",
-      "reproductor": {
-        "tipus": "enllac"
-      }
-    }
-  ]
+  "candidats": []
 }
