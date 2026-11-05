@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-04T17:17:34.748Z",
+  "updatedAt": "2026-11-05T05:17:06.410Z",
   "items": [
     {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "OpenAI diu que ChatGPT ja rep gairebé una cinquena part de les cerques que fa Google",
-      "excerpt": "Adam Fry, responsable de producte de ChatGPT, ho va explicar en un sopar amb periodistes a Nova York, on també va dir que el servei ja té 1.200 milions d'usuaris setmanals. L'empresa no aclareix d'on treu la xifra de Google."
-    },
-    {
-      "category": "MODELS",
-      "read": "5 MIN",
-      "title": "Uns investigadors del MIT fan que GPT-6 Astra reescrigui a mà els paràmetres d'un altre model d'IA, i en multiplica per sis els encerts en matemàtiques",
-      "excerpt": "L'equip de l'MIT CSAIL anomena «programació de l'espai de pesos» el mètode, en què un model llegeix els nombres d'una xarxa neuronal i els modifica sense tornar-la a entrenar. Alguns experts diuen que el resultat principal és enginyeria coneguda."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un xatbot d'IA per a embarassades i mares recents no els redueix l'ansietat ni la depressió en un any, segons un assaig clínic a «JAMA Network Open»",
-      "excerpt": "La Universitat de Maryland va repartir a l'atzar 400 dones entre l'assistent Rosie i un club de lectura infantil. Al cap de dotze mesos, els dos grups estaven igual, i els autors proposen fer servir aquests xatbots com a complement, no com a substitut de l'atenció."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Els metges prefereixen els informes d'alta redactats per una IA en 95 de cada 100 hospitalitzacions llargues, segons un estudi de Stony Brook",
-      "excerpt": "Un model de llenguatge va redactar en pocs minuts els informes de 60 ingressos complexos a l'hospital de la Universitat de Stony Brook, a Nova York. Tant els de la IA com els dels metges tenien errors, i els autors insisteixen que cal revisar-los sempre."
-    },
-    {
-      "category": "COMUNITAT VALENCIANA",
-      "read": "4 MIN",
-      "title": "Les entitats de la discapacitat de la Comunitat Valenciana demanen més control sobre els 22 algorismes que fa servir la Generalitat",
-      "excerpt": "El CERMI-CV ha analitzat el registre ConfIA de la Generalitat Valenciana: 16 dels 22 sistemes diuen que no plantegen cap repte i 20 limiten la supervisió humana a la revisió dels resultats. També reclama que es reuneixi l'Observatori valencià de la IA."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "5 MIN",
-      "title": "Els demòcrates guanyen a Texas, Geòrgia i Ohio i posen en dubte l'expansió dels centres de dades d'IA",
-      "excerpt": "Els nous governadors de tres estats clau per a la construcció de centres de dades han promès moratòries, menys exempcions fiscals i normes més dures, i les accions lligades a la IA han caigut."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una IA de la Universitat de Westlake dissenya proteïnes a partir d'una descripció escrita del que han de fer, segons «Nature»",
-      "excerpt": "El sistema, anomenat Pinal, va aconseguir una proteïna que fa 1,7 vegades més feina que la natural en una via de captura de carboni, però en altres proves gairebé tots els dissenys van fallar."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA compara els càlculs i els plànols d'estructura d'un edifici i hi troba 253 incoherències, segons un estudi de Seül",
-      "excerpt": "Un equip de la Universitat Nacional de Ciència i Tecnologia de Seül llegeix automàticament els dos tipus de document i n'assenyala les diferències, però de moment només l'ha provat en un projecte d'habitatges."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "Fal, l'empresa que fa funcionar models d'IA de vídeo, imatge i so per a altres, dobla el seu valor fins als 16.000 milions de dòlars",
-      "excerpt": "L'empresa de San Francisco ha captat 1.300 milions en una nova ronda liderada per Bessemer, amb Nvidia entre els inversors, i a l'abril valia la meitat."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Palantir dobla les vendes amb la IA, però les empreses li signen contractes més curts",
-      "excerpt": "La companyia ha ingressat 2.310 milions de dòlars al tercer trimestre i el negoci amb empreses dels Estats Units ja supera el del govern, però el valor dels contractes nous ha baixat."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Anthropic ingressa 17.000 milions de dòlars en un trimestre, però la computació ja se n'emporta el 58%",
-      "excerpt": "La versió revisada del fulletó de sortida a borsa afegeix les xifres de juliol a setembre: els ingressos creixen a gran velocitat, però la factura dels centres de dades creix encara més de pressa."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA suggereix que més de la meitat dels infants amb un meduloblastoma de risc mitjà podrien rebre menys radiació, segons «Nature Genetics»",
-      "excerpt": "El model MANTIS, d'un equip internacional encapçalat pel Dana-Farber, calcula la supervivència de cada pacient a partir d'una prova que ja es fa per diagnosticar el tumor."
-    },
-    {
       "category": "POLÍTICA",
       "read": "4 MIN",
-      "title": "OpenAI fitxa l'antic secretari de l'Exèrcit dels Estats Units Dan Driscoll com a assessor de seguretat nacional",
-      "excerpt": "Driscoll, que va deixar el càrrec al setembre després de mesos de tensions amb el secretari de Defensa, ocuparà un lloc creat expressament per a ell."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Huawei no té prou memòria per als seus xips d'IA i demana a alguns clients que se la busquin ells, segons «The Information»",
-      "excerpt": "Els fabricants xinesos no donen l'abast i les sancions impedeixen comprar-la a Samsung o SK hynix: el resultat és un mercat de contraban on el preu s'ha multiplicat."
+      "title": "Els comitès de despesa electoral de la indústria de la IA perden bona part de les apostes a les eleccions dels Estats Units",
+      "excerpt": "Leading the Future, el grup que financen Greg Brockman, d'OpenAI, i Andreessen Horowitz, va gastar milions en candidats republicans que no van guanyar. Els grups que demanen més control de la IA, alguns amb diners d'Anthropic, van tenir més sort amb els demòcrates."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Uns agents d'IA ja manegen les antenes d'un radiotelescopi de Califòrnia que busca senyals de vida extraterrestre",
-      "excerpt": "A l'Allen Telescope Array, l'Institut SETI i Breakthrough Listen fan servir agents que apunten, calibren i analitzen en directe a partir d'una sola ordre escrita."
+      "title": "Un mètode de l'MIT fa que un robot sàpiga quan no està segur del que ha vist i torni a mirar abans de recordar-ho",
+      "excerpt": "El sistema mesura fins a quin punt es pot fiar de la descripció que un model de visió fa de cada objecte i, si en dubta, en busca més vistes. Resol l'ambigüitat en un 92% dels objectes i es presentarà al congrés NeurIPS."
     },
     {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "OpenAI diu que GPT-6 Astra va dissenyar en menys d'una setmana un aparell per parlar amb Codex, de la carcassa al programari",
-      "excerpt": "Segons l'empresa, el model va fer la caixa, la placa de circuits, el microprogramari i la interfície d'un dispositiu de veu per al seu agent de programació, tot i que el projecte va necessitar diverses rondes de correccions per adaptar-lo a la fàbrica."
+      "category": "EMPRESA",
+      "read": "3 MIN",
+      "title": "Meta compra Conductor, una empresa emergent que fa treballar diversos agents de programació alhora",
+      "excerpt": "La companyia de Mark Zuckerberg no ha dit quant ha pagat. Conductor permet repartir un projecte de programari entre agents d'IA que treballen en paral·lel, i tancarà el seu servei al núvol el 20 de novembre."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Les IA que puntuen entrevistes i exàmens orals valoren pitjor els accents xinès i nigerià, encara que entenguin el que es diu",
-      "excerpt": "Un estudi de la Universitat de Washington presentat al congrés EMNLP prova quatre models d'àudio de Google, OpenAI i Alibaba amb el mateix text llegit amb cinc accents d'anglès, i troba una jerarquia que perjudica els parlants de fora dels Estats Units i el Regne Unit."
+      "category": "EMPRESA",
+      "read": "3 MIN",
+      "title": "Apple retalla el que els seus enginyers poden gastar cada dia en eines d'IA, segons Bloomberg",
+      "excerpt": "El límit diari per als equips d'enginyeria va baixar a l'octubre de 300 a 200 dòlars i en alguns casos podria quedar en 100. Fora d'enginyeria, l'empresa estudia un sostre de 25 dòlars al dia."
     },
     {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Anthropic presenta FlashProve, un sistema obert per demostrar amb criptografia quin model d'IA ha escrit una resposta",
-      "excerpt": "El prototip permet comprovar que una resposta surt d'un model concret sense haver de veure'n els paràmetres, cosa que evitaria que un proveïdor canviés el model per un de més barat d'amagat. De moment, però, multiplica per més de setanta el cost de càlcul."
-    },
-    {
-      "category": "ENERGIA",
-      "read": "4 MIN",
-      "title": "Els centres de dades d'IA recorren a motors d'avió reciclats per tenir electricitat sense esperar anys la connexió a la xarxa",
-      "excerpt": "Empreses com xAI i Crusoe instal·len antics motors de reacció adaptats per cremar gas natural, una solució ràpida però menys eficient i més contaminant que les centrals convencionals, segons «The New York Times»."
-    },
-    {
-      "category": "ANDORRA",
-      "read": "4 MIN",
-      "title": "Andorra acull una conferència del Consell d'Europa sobre educació i IA inclusiva, i la ministra Imma Tor demana que respecti els drets humans",
-      "excerpt": "La trobada, al Centre de Congressos d'Andorra la Vella fins dimecres, reuneix representants i experts d'Europa, l'Àfrica i l'Orient Mitjà per parlar de diàleg intercultural, polítiques públiques i societats digitals inclusives."
+      "category": "CATALUNYA",
+      "read": "3 MIN",
+      "title": "Els autobusos de TMB ja compten amb IA quants passatgers porta cada vehicle en temps real",
+      "excerpt": "Transports Metropolitans de Barcelona analitza amb intel·ligència artificial les imatges de més de 4.500 càmeres de videovigilància de tota la flota. El sistema, fet pel seu equip tècnic, també detecta les càmeres que no funcionen o estan mal orientades."
     }
   ]
 }
