@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-05T13:17:31.402Z",
+ "actualitzat": "2026-11-05T17:17:24.209Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "C-APNKnK48c",
+   "titol": "SORS: REDEFINE: Software-Defined Dynamic Dataflow at the Convergence of HPC and Agentic AI",
+   "canal": "BSC-CNS",
+   "canalId": "UC-jQw5yIjnUTRAg4DwOY4aA",
+   "grup": "ciencia",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-05T13:36:44.000Z",
+   "descripcio": "Speakers: Dr. S. K. Nandy, Deepak Shapeti, Dr. Ranjani Narayan & Dr. Nils Voss. ---------- Abstract: GPUs were built for dense-tensor throughput, but the fastest-growing work in both HPC and AI — sparse solvers, mixture-of-experts inference, long-context and agentic workloads — is irregular and boun",
+   "miniatura": "/assets/videos/C-APNKnK48c.jpg"
+  },
+  {
+   "id": "SuOD7X4KqaI",
+   "titol": "SORS: Integration of Multi-Agent Reinforcement Learning with the HP2C-DT & COLMENA frameworks",
+   "canal": "BSC-CNS",
+   "canalId": "UC-jQw5yIjnUTRAg4DwOY4aA",
+   "grup": "ciencia",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-05T13:34:21.000Z",
+   "descripcio": "Speaker: Isabela Fons, PhD researcher in Process Systems Engineering at the University of Alicante ---------- Abstract: This research project aims to explore the application of the HP2C-DT and COLMENA frameworks to distributed artificial intelligence solutions for decentralized energy management in ",
+   "miniatura": "/assets/videos/SuOD7X4KqaI.jpg"
+  },
   {
    "id": "bJldMYfRvMQ",
    "titol": "Introducing ChatGPT Images 2.6",
@@ -56,7 +80,7 @@
   },
   {
    "id": "NCxD-qsQcN0",
-   "titol": "TamaGPT",
+   "titol": "Design hardware with Astra",
    "canal": "OpenAI",
    "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
    "grup": "empreses",
@@ -1048,30 +1072,6 @@
    "publicat": "2026-10-15T18:24:44.000Z",
    "descripcio": "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.",
    "miniatura": "/assets/videos/GyO8Ao7yKJc.jpg"
-  },
-  {
-   "id": "nSwmcs37Jd4",
-   "titol": "Gemini 4 Argon in Antigravity",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-10-15T16:00:02.000Z",
-   "descripcio": "Gemini 4 Argon is live in Google Antigravity, our agent-first software development platform. You may have tried Antigravity before, but with our frontier model it’s more fun to build in than ever. Watch as we build a 3D pagoda model, a racing game, a handheld game-console, and a 3D world running on ",
-   "miniatura": "/assets/videos/nSwmcs37Jd4.jpg"
-  },
-  {
-   "id": "BOTAeAU5ExQ",
-   "titol": "Weeks to Hours: SentinelOne on Cybersecurity Research with OpenAI",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "societat",
-   "idioma": "en",
-   "publicat": "2026-10-15T14:12:09.000Z",
-   "descripcio": "Cybersecurity research, moving from weeks to hours. SentinelOne’s Gregor Stewart describes OpenAI’s cyber capabilities reaching human-level output in about eight hours on reverse-engineering work that would take a top researcher four to six weeks. That lets security teams investigate more malware, c",
-   "miniatura": "/assets/videos/BOTAeAU5ExQ.jpg"
   },
   {
    "id": "Jh6mgf9M06M",
