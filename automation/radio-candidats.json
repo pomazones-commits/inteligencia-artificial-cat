@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-05T17:17:45.076Z",
+  "generat": "2026-11-05T18:54:01.647Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,8 +136,8 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 29,
-      "sobre_ia": 1
+      "audios": 30,
+      "sobre_ia": 2
     },
     {
       "font": "wordpress",
@@ -178,6 +178,26 @@
     }
   ],
   "candidats": [
+    {
+      "id": "rab-22370",
+      "emissora": "RAB Ràdio",
+      "programa": "Món Digital",
+      "programa_url": "https://rab.cat/",
+      "data": "2026-11-05",
+      "durada": "",
+      "titol_original": "Gmail, WhatsApp i PayPal: els riscos digitals que poden comprometre dades i diners",
+      "descripcio_original": "Les estafes que permeten robar comptes de WhatsApp, els cobraments recurrents no desitjats i l’ús de dades personals per part de les grans tecnològiques centren una nova edició de Món Digital, en què Carles Mateo també aborda l’automatització laboral i les possibilitats de reparar dispositius amb intel·ligència artificial. Les estafes digitals a Gmail, WhatsApp i …",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://rab.cat/2026/11/05/estafes-digitals-gmail-whatsapp-i-paypal/",
+      "reproductor": {
+        "tipus": "youtube",
+        "id": "jC-moSnK6UU"
+      },
+      "etiquetes_web": [
+        "TECNOLOGIA"
+      ]
+    },
     {
       "id": "rtve-17301421",
       "emissora": "Ràdio 4",
