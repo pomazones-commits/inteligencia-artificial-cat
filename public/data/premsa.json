@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-04T20:05:12.005Z",
+ "actualitzat": "2026-11-05T01:06:18.207Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "3f2d7c8579a6",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El V Fórum Europeo de Inteligencia Artificial analizará en Alicante los grandes desafíos de esta revolución",
+   "url": "https://www.informacion.es/economia/2026/11/04/v-forum-europeo-inteligencia-artificial-bc-136081968.html",
+   "publicat": "2026-11-04T21:30:55.000Z"
+  },
+  {
+   "id": "ec7556028094",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Què passarà amb l'economia dels EUA amb el gir demòcrata? De les renovables al petroli i la IA",
+   "url": "https://www.3cat.cat/3catinfo/que-passara-amb-leconomia-dels-eua-amb-el-gir-democrata-de-les-renovables-al-petroli-i-la-ia/noticia/3437925",
+   "publicat": "2026-11-04T21:30:04.000Z"
+  },
+  {
+   "id": "8557c3649a0d",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los autobuses de TMB ya cuentan los pasajeros de cada vehículo en tiempo real con la ayuda de la IA",
+   "url": "https://www.elperiodico.com/es/barcelona/20261104/tmb-autobuses-inteligencia-artificial-pasajeros-tiempo-real-136090808",
+   "publicat": "2026-11-04T21:25:54.000Z"
+  },
   {
    "id": "a6b37fe6ea5a",
    "mitja": "Última Hora",
@@ -2095,28 +2128,6 @@
    "titol": "Desnudos e IAs",
    "url": "https://www.ultimahora.es/opinion/tribuna/2026/10/29/2738487/desnudos-ias.html",
    "publicat": "2026-10-29T03:48:01.000Z"
-  },
-  {
-   "id": "d941040bf8b8",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "«La inteligencia artificial nos está ayudando a comprender por qué unas zonas quemadas se regeneran más rápido que otras»",
-   "url": "https://www.informacion.es/economia/2026/10/28/inteligencia-artificial-incendio-regenerar-135797847.html",
-   "publicat": "2026-10-28T21:30:45.000Z"
-  },
-  {
-   "id": "198fc047a0aa",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Microsoft dispara su beneficio un 32% apoyada en la buena marcha de su negocio relacionado con la IA",
-   "url": "https://elpais.com/economia/2026-10-28/microsoft-dispara-su-beneficio-un-32-apoyada-en-la-buena-marcha-de-su-negocio-relacionado-con-la-ia.html",
-   "publicat": "2026-10-28T20:52:18.000Z"
   }
  ]
 }
