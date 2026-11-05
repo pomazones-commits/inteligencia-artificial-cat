@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-11-04",
+    "title": "Les xifres que dona la indústria i les que donen les proves",
+    "dek": "OpenAI i Anthropic presenten avui resultats que només poden comprovar elles mateixes, mentre els assajos i els estudis independents tornen una imatge més modesta de què fa de debò la IA.",
+    "body": [
+      "Aquest dimecres 4 de novembre, bona part de les notícies d'IA han arribat en forma de xifra. OpenAI diu que ChatGPT ja rep gairebé una cinquena part de les cerques que fa Google i que té 1.200 milions d'usuaris setmanals. Anthropic ha ingressat 17.000 milions de dòlars en un trimestre, tot i que el càlcul ja se n'emporta el 58%. Fal dobla el seu valor fins als 16.000 milions i Palantir dobla les vendes. Són dades que expliquen un negoci que creix de pressa, però gairebé totes tenen una cosa en comú: les dona l'empresa interessada, sovint en plena preparació d'una sortida a borsa.",
+      "El mateix passa amb les capacitats. OpenAI explica que GPT-6 Astra va dissenyar en menys d'una setmana un aparell sencer per parlar amb Codex, de la carcassa al programari, i uns investigadors de l'MIT el fan servir per reescriure directament els paràmetres d'un altre model i multiplicar-ne per sis els encerts en matemàtiques. Són resultats cridaners, però el primer no l'ha comprovat ningú de fora i el segon és una entrada de blog que ja té crítics que hi veuen tècniques conegudes. La distància entre l'anunci i la prova no és nova, però avui s'ha fet especialment visible.",
+      "Perquè l'altra meitat del dia l'han ocupat justament les proves. Un assaig clínic a «JAMA Network Open» amb 400 embarassades i mares recents conclou que el xatbot Rosie no els va reduir l'ansietat ni la depressió en un any, malgrat que el van fer servir molt. A Stony Brook, els metges prefereixen els informes d'alta redactats per una IA, però tant aquests com els dels humans tenen errors. Un estudi de la Universitat de Washington troba que els models que puntuen exàmens orals castiguen els accents xinès i nigerià. I a «Nature», el sistema Pinal de Westlake dissenya proteïnes a partir d'una descripció escrita, amb un èxit notable en un cas i molt més discret en d'altres.",
+      "La tendència que s'hi dibuixa és la d'una IA que ja no es pot jutjar només pel que en diuen els seus fabricants. Fins i tot la indústria ho reconeix a la seva manera: Anthropic presenta FlashProve, un sistema per demostrar amb criptografia quin model ha escrit una resposta, perquè ningú no hagi de creure's de paraula que un proveïdor no ha canviat el model. Que calgui una eina així diu molt de la confiança del moment. I fora dels laboratoris, la política també demana comptes: les victòries demòcrates a Texas, Geòrgia i Ohio posen en dubte l'expansió dels centres de dades, que ja recorren a motors d'avió reciclats per no esperar la xarxa.",
+      "Als territoris de parla catalana, el debat ha anat per la mateixa via, la de qui supervisa els sistemes. A València, les entitats de la discapacitat han analitzat el registre d'algorismes de la Generalitat Valenciana i hi troben massa casos en què la supervisió humana es redueix a revisar resultats. A Andorra, la ministra Imma Tor ha demanat, en una conferència del Consell d'Europa, que la IA a l'educació respecti els drets humans. I el TERMCAT ha ampliat el diccionari català de la IA per sobre dels 200 termes: també és una manera de fer que la ciutadania pugui entendre, i per tant vigilar, aquestes eines.",
+      "Demà caldrà mirar si les xifres d'avui resisteixen l'escrutini. Sobretot la de les cerques de ChatGPT, que OpenAI no ha explicat d'on treu, i els resultats de GPT-6 Astra, que ara podran comprovar altres equips amb els registres publicats. També convindrà seguir els assajos clínics: el de Rosie és dels pocs que s'han fet amb tot el rigor i ha sortit negatiu, i això, més que una mala notícia, és la informació que la medicina necessita per decidir on val la pena fer servir la IA i on no."
+    ],
+    "signals": [
+      {
+        "title": "OpenAI diu que ChatGPT ja rep gairebé una cinquena part de les cerques que fa Google",
+        "slug": "chatgpt-cerques-cinquena-part-google"
+      },
+      {
+        "title": "Un xatbot d'IA per a embarassades i mares recents no els redueix l'ansietat ni la depressió en un any, segons un assaig clínic a «JAMA Network Open»",
+        "slug": "xatbot-rosie-embarassades-assaig-jama"
+      },
+      {
+        "title": "Anthropic presenta FlashProve, un sistema obert per demostrar amb criptografia quin model d'IA ha escrit una resposta",
+        "slug": "anthropic-flashprove-demostrar-quin-model-ha-respost"
+      },
+      {
+        "title": "Les entitats de la discapacitat de la Comunitat Valenciana demanen més control sobre els 22 algorismes que fa servir la Generalitat",
+        "slug": "cermi-cv-registre-algorismes-generalitat-valenciana"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 628
+  },
+  {
     "date": "2026-11-03",
     "title": "Qui té l'interruptor de la IA, i quant costa apagar-la",
     "dek": "Google, Apple, Goldman Sachs, Anthropic i Nvidia decideixen avui on s'encén la IA i on no; els usuaris i les escoles poden triar, però dir que no té un preu. Mentrestant, la medicina demostra que la IA també sap treure més de les proves que ja es fan.",
