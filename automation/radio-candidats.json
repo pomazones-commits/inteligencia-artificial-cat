@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-05T13:16:37.617Z",
+  "generat": "2026-11-05T17:17:45.076Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -48,7 +48,7 @@
       "programa": "La tàctica",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 3
     },
     {
       "font": "rtve",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 28,
+      "audios": 29,
       "sobre_ia": 1
     },
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 22,
+      "audios": 23,
       "sobre_ia": 1
     },
     {
@@ -173,9 +173,44 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 300,
+      "audios": 400,
       "sobre_ia": 2
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "rtve-17301421",
+      "emissora": "Ràdio 4",
+      "programa": "La tàctica",
+      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
+      "data": "2026-11-05",
+      "durada": "14 min",
+      "titol_original": "La IA que analitza el contingut dels informatius",
+      "descripcio_original": "Una plataforma analitza la cobertura de l’actualitat política a les principals televisions estatals a través d’intel·ligència artificial i amb un objectiu concret: fomentar el pensament crític. És un projecte que han impulsat investigadors de la Universitat Rovira i Virgili i de la Universitat de Barcelona. L’eina es diu SPANISH MEDIA MONITOR. En parlem amb Manuel Lleonart, un dels investigadors del departament d’Economia de la Rovira i Virgili, que ha liderat el projecte.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-ia-analitza-contingut-dels-informatius/17301421/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17301421"
+      }
+    },
+    {
+      "id": "rtve-17301466",
+      "emissora": "Ràdio 4",
+      "programa": "La tàctica",
+      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
+      "data": "2026-11-05",
+      "durada": "54 min",
+      "titol_original": "Descobrim Atenea, un assistent d’intel·ligència artificial emocional",
+      "descripcio_original": "Ahir es va presentar al congrés Smart City Expo el projecte d’intel·ligència artificial emocional d’Atenea. Es tracta d'un assistent virtual d’atenció domiciliària capaç de llegir silencis, preveure la tristesa i connectar en temps real metges, treballadors socials i cuidadors familiars. Ens n'explica tots els detalls Albert Isern, CEO de Momentum Analytics. Tot seguit, felicitem la responsable de ciberseguretat d’Abertis Olga Forné, ha estat reconeguda com la millor cap de seguretat de la informació de l’any durant el Barcelona Cibersecutiry Congress.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-descobrim-atenea-assistent-intel-ligencia-artificial-emocional/17301466/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17301466"
+      }
+    }
+  ]
 }
