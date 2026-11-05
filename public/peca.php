@@ -125,7 +125,8 @@ foreach (preg_split('/\n\s*\n/', iacat_cos_text($item['body'] ?? '')) ?: [] as $
         continue;
     }
     $bloc = trim((string) preg_replace('/^\s*(#{1,6}|[-*•]|\d+[.)])\s+/m', '', $bloc));
-    if ($bloc !== '') { $paragrafs[] = '<p>' . nl2br($e($bloc), false) . '</p>'; }
+    // *cursiva* → <em> (05.11.2026), sobre el text ja escapat (l'escapament no toca els asteriscs).
+    if ($bloc !== '') { $paragrafs[] = '<p>' . nl2br((string) preg_replace('/\*(?=\S)([^*\n]*?\S)\*/u', '<em>$1</em>', $e($bloc)), false) . '</p>'; }
 }
 $preEscrit = [
     '/<h1 id="titol"><\/h1>/' => '<h1 id="titol">' . $e($peca['titol']) . '</h1>',

@@ -143,9 +143,10 @@
         node.appendChild(document.createTextNode(text.slice(ultim)));
       }
 
-      // *cursiva* amb asteriscos (només a la bibliografia), també amb el DOM.
+      // *cursiva* amb asteriscs, també amb el DOM: a la bibliografia i, des del
+      // 05.11.2026, també al cos (paràgrafs i pics).
       function afegeixAmbCursiva(node, text) {
-        var parts = String(text).split(/\*([^*]+)\*/);
+        var parts = String(text).split(/\*(?=\S)([^*\n]*?\S)\*/);
         parts.forEach(function (part, i) {
           if (!part) return;
           if (i % 2 === 1) {
@@ -156,6 +157,9 @@
             afegeixTextAmbEnllacos(node, part);
           }
         });
+      }
+      function senseAsteriscs(text) {
+        return String(text).replace(/\*(?=\S)([^*\n]*?\S)\*/g, '$1');
       }
 
       // Resum
@@ -247,17 +251,17 @@
             var text = linia.replace(/^•\s*/, '').trim();
             if (!text) return;
             var li = document.createElement('li');
-            afegeixTextAmbEnllacos(li, text);
+            afegeixAmbCursiva(li, text);
             ul.appendChild(li);
-            perAlLector.push(text);
+            perAlLector.push(senseAsteriscs(text));
           });
           cos.appendChild(ul);
           return;
         }
         var p = document.createElement('p');
-        afegeixTextAmbEnllacos(p, bloc);
+        afegeixAmbCursiva(p, bloc);
         cos.appendChild(p);
-        perAlLector.push(bloc);
+        perAlLector.push(senseAsteriscs(bloc));
       });
 
       // Bibliografia

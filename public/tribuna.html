@@ -121,6 +121,24 @@
         }
         el.appendChild(document.createTextNode(text.slice(ultim)));
       }
+      // *cursiva* (05.11.2026): els termes en cursiva viatgen amb asteriscs dins del text
+      // (vegeu CLAUDE.md, «Text malmès»); es pinten com a <em>, també amb el DOM.
+      // L'asterisc d'obertura no pot anar seguit d'espai ni el de tancament precedit d'espai.
+      function ambCursiva(el, text) {
+        String(text).split(/\*(?=\S)([^*\n]*?\S)\*/).forEach(function (part, i) {
+          if (!part) return;
+          if (i % 2 === 1) {
+            var em = document.createElement('em');
+            ambEnllacos(em, part);
+            el.appendChild(em);
+          } else {
+            ambEnllacos(el, part);
+          }
+        });
+      }
+      function senseAsteriscs(text) {
+        return String(text).replace(/\*(?=\S)([^*\n]*?\S)\*/g, '$1');
+      }
       // Mateixes marques que «Estudis» (12.10.2026): «## » = subtítol, «• » = llista
       // de pics; la resta, paràgrafs. genera_audio.py ja les treu de l'àudio.
       var perAlLector = [];
@@ -140,17 +158,17 @@
             var item = linia.replace(/^•\s*/, '').trim();
             if (!item) return;
             var li = document.createElement('li');
-            ambEnllacos(li, item);
+            ambCursiva(li, item);
             ul.appendChild(li);
-            perAlLector.push(item);
+            perAlLector.push(senseAsteriscs(item));
           });
           cos.appendChild(ul);
           return;
         }
         var p = document.createElement('p');
-        ambEnllacos(p, text);
+        ambCursiva(p, text);
         cos.appendChild(p);
-        perAlLector.push(text);
+        perAlLector.push(senseAsteriscs(text));
       });
       // Procedència (camp opcional «origin»): si el text també s'ha publicat en un altre lloc.
       if (t.origin) {

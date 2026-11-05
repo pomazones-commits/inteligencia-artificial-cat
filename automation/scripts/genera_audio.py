@@ -82,6 +82,8 @@ PECES_EXTRES = [
 MARQUES = re.compile(r"(?m)^[ \t]*(?:#{1,6}|•)[ \t]*")
 # Figura dins del cos (25.10.2026): «![peu](./assets/…)» → només el peu.
 FIGURA = re.compile(r"!\[([^\]]*)\]\([^)\s]*\)")
+# Cursiva amb asteriscs (05.11.2026): «*Mind*» → «Mind», que la veu no llegeixi l'asterisc.
+CURSIVA = re.compile(r"\*(?=\S)([^*\n]*?\S)\*")
 
 
 def camp_com_a_text(valor) -> str:
@@ -91,6 +93,7 @@ def camp_com_a_text(valor) -> str:
     else:
         text = str(valor or "").strip()
     text = FIGURA.sub(lambda m: m.group(1), text)
+    text = CURSIVA.sub(lambda m: m.group(1), text)
     return MARQUES.sub("", text).strip()
 
 
