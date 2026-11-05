@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-05T09:13:54.794Z",
+ "actualitzat": "2026-11-05T13:17:31.402Z",
  "canals": 19,
  "videos": [
   {
@@ -13,7 +13,10 @@
    "idioma": "en",
    "publicat": "2026-11-05T02:32:21.000Z",
    "descripcio": "Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation. Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% f",
-   "miniatura": "/assets/videos/bJldMYfRvMQ.jpg"
+   "miniatura": "/assets/videos/bJldMYfRvMQ.jpg",
+   "noticia": "chatgpt-gif-animats-images-2-6",
+   "noticiaTitol": "ChatGPT ja fa GIF animats a partir d'una frase o d'una foto, amb el nou model Images 2.6 d'OpenAI",
+   "resum": "Vídeo de presentació oficial d'OpenAI de ChatGPT Images 2.6. Segons la descripció del canal, el nou model permet crear GIF animats i fer servir imatges de referència, i l'empresa anuncia dos models nous per a la seva API que generen imatges un 50% més de pressa."
   },
   {
    "id": "9ZxCOHkfn_8",
