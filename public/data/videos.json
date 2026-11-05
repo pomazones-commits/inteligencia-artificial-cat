@@ -1,8 +1,44 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-05T05:17:54.808Z",
+ "actualitzat": "2026-11-05T09:13:54.794Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "bJldMYfRvMQ",
+   "titol": "Introducing ChatGPT Images 2.6",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-05T02:32:21.000Z",
+   "descripcio": "Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation. Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% f",
+   "miniatura": "/assets/videos/bJldMYfRvMQ.jpg"
+  },
+  {
+   "id": "9ZxCOHkfn_8",
+   "titol": "GPT-Image-2.6: Faster image generation with Flare and Sunburst",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-04T23:42:40.000Z",
+   "descripcio": "We’re bringing GPT-Image-2.6 to Codex and the API. In the API, the 2.6 versions of Flare and Sunburst generate images 50% faster than before. Use Flare for a quick first pass on a poster or product shot. At low image quality, it can generate an image in as little as six seconds. When you need detail",
+   "miniatura": "/assets/videos/9ZxCOHkfn_8.jpg"
+  },
+  {
+   "id": "kXjCicvY_ik",
+   "titol": "Els mercats financers aplaudeixen la victòria demòcrata",
+   "canal": "3CatInfo",
+   "canalId": "UCKseJ43xWvnywQzl6kYbf0g",
+   "grup": "catala",
+   "categoria": "altres",
+   "idioma": "ca",
+   "publicat": "2026-11-04T21:50:00.000Z",
+   "descripcio": "Pujades per a les renovables i caigudes per a les tecnològiques i la IA. Subscriu-te al canal oficial de 3CatInfo a YouTube i no et perdis l'actualitat de Catalunya i el món: 👉https://www.youtube.com/@3catinfo?sub_confirmation=1 Vols rebre cada setmana el butlletí gratuït \"Mirada global\"? Descobrei",
+   "miniatura": "/assets/videos/kXjCicvY_ik.jpg"
+  },
   {
    "id": "44GBqQGc-v0",
    "titol": "How Figma Is Building Self-Serve Analytics with OpenAI",
