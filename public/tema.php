@@ -126,6 +126,7 @@ $rest = array_slice($items, 1);
   <link rel="stylesheet" href="/editorial.css?v=2026110401">
   <link rel="stylesheet" href="/eixos.css?v=2026110301">
   <script defer src="/shared.js?v=2026110401"></script>
+  <script defer src="/comptador.js?v=2026110501"></script>
 </head>
 <body class="editorial-body">
   <header class="editorial-topbar">

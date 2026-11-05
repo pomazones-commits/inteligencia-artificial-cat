@@ -43,6 +43,7 @@ function iacat_capcalera(array $meta): void
   <link rel="stylesheet" href="/editorial.css?v=2026110401">
   <link rel="stylesheet" href="/seccions.css?v=2026100301">
   <script defer src="/shared.js?v=2026110401"></script>
+  <script defer src="/comptador.js?v=2026110501"></script>
   <?php foreach ((array) ($meta['css'] ?? []) as $full): ?><link rel="stylesheet" href="<?= iacat_e((string) $full) ?>">
   <?php endforeach; ?>
   <?php if (!empty($meta['jsonld'])): ?><script type="application/ld+json"><?= json_encode($meta['jsonld'], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) ?></script>

@@ -255,3 +255,7 @@ Només els **dilluns**, al lot de les **10:05**, un cop escrit el lot. La pàgin
 - Si les instruccions d'una tasca programada antiga contradiuen aquest document (per exemple, demanant reescriure `news.js` directament), té preferència aquest document.
 
 Documentació completa: `docs/AUTOMATITZACIO_EDITORIAL.md`.
+
+## 📊 Recompte de visites sense galetes (des del 05.11.2026, decisió d'en Rafael)
+
+`public/comptador.js` envia una sola petició per pàgina al compte **privat** de GoatCounter d'en Rafael (`https://pomazona.goatcounter.com`, només ell hi entra) amb el camí, el títol i el web d'origen. **No** fa servir galetes, `localStorage` ni `sessionStorage`, **no** envia la mida de pantalla, no compta amb DNT/GPC actius ni fora del domini públic, i **no** carrega el `count.js` oficial (que llegeix `localStorage`). A la web no es mostra cap xifra. S'inclou a `inc/plantilla.php` i a la capçalera de cada pàgina amb `</head>` propi (no a `xarxes.html` ni `club-modera.php`, que són internes). **Una pàgina nova amb capçalera pròpia ha de portar** `<script defer src="/comptador.js?v=…"></script>`. 🛑 L'§5.e i l'§6 d'`avis-legal.html` ho expliquen: si el comptador canvia (dades noves, una altra eina, qualsevol cosa que guardi o llegeixi res del dispositiu), **aquell text s'ha d'actualitzar el mateix dia**, i si guardés res al dispositiu caldria un banner de consentiment real.

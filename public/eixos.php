@@ -55,6 +55,7 @@ $descripcio = 'Les seccions temàtiques d’inteligencia-artificial.cat: poder i
     .eixos-fitxa__peu{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:10px;font:600 10px var(--ed-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ed-muted)}
     .eixos-fitxa__peu a{color:var(--ed-blue);text-decoration:none}
   </style>
+  <script defer src="/comptador.js?v=2026110501"></script>
 </head>
 <body class="editorial-body">
   <header class="editorial-topbar">
