@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-05T17:17:24.209Z",
+ "actualitzat": "2026-11-05T18:58:42.404Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "pXRZyOxbDL4",
+   "titol": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-05T17:14:11.000Z",
+   "descripcio": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engin",
+   "miniatura": "/assets/videos/pXRZyOxbDL4.jpg"
+  },
   {
    "id": "C-APNKnK48c",
    "titol": "SORS: REDEFINE: Software-Defined Dynamic Dataflow at the Convergence of HPC and Agentic AI",
@@ -1060,18 +1072,6 @@
    "publicat": "2026-10-15T19:00:22.000Z",
    "descripcio": "Using Google AI Studio, Google Antigravity, and Gemini, this creator tapped into raw accelerometer hardware APIs to convert physical motion into browser-based audio. Watch how every tilt, shake, and gesture translates into live musical output without any extra equipment. Try building today → https:/",
    "miniatura": "/assets/videos/i3X7Fv0Z3Uc.jpg"
-  },
-  {
-   "id": "GyO8Ao7yKJc",
-   "titol": "GPT-Live-1.1 has new voices and better accents.",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-10-15T18:24:44.000Z",
-   "descripcio": "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.",
-   "miniatura": "/assets/videos/GyO8Ao7yKJc.jpg"
   },
   {
    "id": "Jh6mgf9M06M",
