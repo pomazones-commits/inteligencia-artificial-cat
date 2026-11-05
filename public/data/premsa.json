@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-05T13:17:30.335Z",
+ "actualitzat": "2026-11-05T17:17:15.019Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "eb628eacf450",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nothing prepara un misteriós dispositiu amb IA que arribarà al desembre: no tindrà pantalla",
+   "url": "https://www.elnacional.cat/ca/tecnologia/nothing-prepara-misterios-dispositiu-ia-arribara-desembre-no-tindra-pantalla_1721165_102.html",
+   "publicat": "2026-11-05T16:30:00.000Z"
+  },
+  {
+   "id": "bec2be9c261d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Jueves negro para la IA: el Nasdaq se hunde ante el miedo a que se agudice el frenazo de la IA",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-05/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-11-05T16:18:07.000Z"
+  },
+  {
+   "id": "d9d56cd2d9d2",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las 'midterms' en Estados Unidos asestan un duro golpe contra la industria de la inteligencia artificial",
+   "url": "https://www.elperiodico.com/es/internacional/20261105/midterms-eeuu-asestan-duro-golpe-industria-ia-centros-datos-inteligencia-artificial-136128415",
+   "publicat": "2026-11-05T16:11:20.000Z"
+  },
+  {
+   "id": "29a4f92fcd72",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "CaixaBank reforça la seva protecció per les amenaces de la IA avançada",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/caixabank-reforca-seva-proteccio-amenaces-ia-avancada_1721144_102.html",
+   "publicat": "2026-11-05T13:48:39.000Z"
+  },
+  {
+   "id": "20b7e94c7be8",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La Setmana de la Recerca oferirà 16 activitats sobre riscos naturals, intel·ligència artificial i salut",
+   "url": "https://www.diariandorra.ad/nacional/261105/setmana-recerca-oferira-16-activitats-sobre-riscos-naturals-intel-ligencia-artificial-i-salut_208118.html",
+   "publicat": "2026-11-05T13:17:04.000Z"
+  },
   {
    "id": "b561386b41c7",
    "mitja": "Cinco Días",
@@ -90,6 +145,17 @@
    "titol": "La IA representarà el 44% del tràfic de dades l'any 2035",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/ia-representara-44-trafic-dades-any-2035_1720856_102.html",
    "publicat": "2026-11-05T09:20:29.000Z"
+  },
+  {
+   "id": "35c77190fa6b",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las dudas con el despliegue de la IA vuelven a castigar a Wall Street",
+   "url": "https://www.lavanguardia.com/economia/20261105/11676624/bolsa-mercados-donald-trump-elecciones-midterm-ibex-35.html",
+   "publicat": "2026-11-05T08:35:39.000Z"
   },
   {
    "id": "81c98a0cc21a",
@@ -1959,153 +2025,6 @@
    "titol": "Mercados | Cara y cruz de Substrate AI: pierde 5,7 millones hasta junio, pero eleva un 5,2% sus ingresos",
    "url": "https://valenciaplaza.com/valenciaplaza/bolsas/cara-y-cruz-de-substrate-ai-pierde-57-millones-hasta-junio-pero-eleva-un-52-sus-ingresos",
    "publicat": "2026-10-29T20:25:54.000Z"
-  },
-  {
-   "id": "7150001250d5",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El Hackathon IA + Finances de MoraBanc esgota les 80 places disponibles",
-   "url": "https://www.diariandorra.ad/nacional/261029/hackathon-ia-finances-morabanc-esgota-les-80-places-disponibles_207619.html",
-   "publicat": "2026-10-29T17:01:12.000Z"
-  },
-  {
-   "id": "7479f4d9b7a3",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El máximo ejecutivo de Nvidia habría sido espiado por una empresaria china",
-   "url": "https://www.lavanguardia.com/economia/20261029/11671390/maximo-ejecutivo-nvidia-habria-sido-espiado-empresaria-china.html",
-   "publicat": "2026-10-29T16:58:54.000Z"
-  },
-  {
-   "id": "d815af3eacb7",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Matthew Libatique, director de fotografía de Aronofsky: «El cine no va a desaparecer por la IA, pero Marvel igual sí»",
-   "url": "https://www.ultimahora.es/noticias/cultura/2026/10/29/2739253/matthew-libatique-director-fotografia-aronofsky-cine-desaparecer-por-pero-marvel-igual.html",
-   "publicat": "2026-10-29T16:42:22.000Z"
-  },
-  {
-   "id": "9dbbb042aad5",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El sector turístic defensa integrar la IA als negocis sense renunciar al contacte humà",
-   "url": "https://www.diaridegirona.cat/economia/2026/10/29/sector-turistic-defensa-integrar-ia-135895887.html",
-   "publicat": "2026-10-29T16:40:36.000Z"
-  },
-  {
-   "id": "88ea279aba0a",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Google pierde un récord de 500.000 millones en bolsa perjudicado por la IA",
-   "url": "https://www.lavanguardia.com/dinero/20261029/11671369/google-pierde-record-500-000-millones-bolsa-perjudicado-ia.html",
-   "publicat": "2026-10-29T16:33:11.000Z"
-  },
-  {
-   "id": "7d0bda4714f6",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Matthew Libatique, director de fotografía de 'Cisne negro': \"La IA no va a reemplazar al cine\"",
-   "url": "https://www.diariodemallorca.es/cultura/2026/10/29/matthew-libatique-director-fotografia-cisne-135894225.html",
-   "publicat": "2026-10-29T16:24:35.000Z"
-  },
-  {
-   "id": "21ca428399f5",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El dueño de Google pulveriza 500.000 millones en Bolsa y reaviva el miedo a una burbuja de la IA",
-   "url": "https://www.elperiodico.com/es/economia/20261029/dueno-google-pulveriza-500-000-135895164",
-   "publicat": "2026-10-29T16:10:50.000Z"
-  },
-  {
-   "id": "5d31510eb995",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA en la literatura: els autors alerten que no són ells els que s'han de defensar",
-   "url": "https://www.3cat.cat/3catinfo/la-ia-en-la-literatura-els-autors-alterten-que-no-son-ells-els-que-shan-de-defensar/noticia/3436654",
-   "publicat": "2026-10-29T15:21:24.000Z",
-   "noticia": "escriptors-catalans-detectors-ia-novella-premiada",
-   "noticiaTitol": "ACTUALITZACIÓ: l'autor de la novel·la premiada atribuïda a la IA ho nega, i l'Associació d'Escriptors en Llengua Catalana demana que siguin les tecnològiques les que marquin els textos"
-  },
-  {
-   "id": "3cd7853d8728",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El Davos de las infraestructuras debate cómo afrontar fallos de IA en el sistema: “La resiliencia no se construye en una crisis”",
-   "url": "https://cincodias.elpais.com/companias/2026-10-29/el-davos-de-las-infraestructuras-debate-como-afrontar-fallos-de-ia-en-el-sistema-la-resiliencia-no-se-construye-en-una-crisis.html",
-   "publicat": "2026-10-29T15:18:57.000Z"
-  },
-  {
-   "id": "dd3bc5717bae",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Microsoft se une la avalancha financiera de la IA con una emisión de deuda de 25.000 millones",
-   "url": "https://cincodias.elpais.com/companias/2026-10-29/microsoft-se-une-la-avalancha-financiera-de-la-ia-con-una-emision-de-deuda-de-25000-millones.html",
-   "publicat": "2026-10-29T15:15:48.000Z"
-  },
-  {
-   "id": "a61d80f01c50",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Una espia xinesa s'ha infiltrat en la vida del director de Nvidia, líder mundial en fabricació de xips",
-   "url": "https://www.ara.cat/economia/tecnologia/espia-xinesa-nvidia-ia-infiltrada_1_5893933.html",
-   "publicat": "2026-10-29T14:21:41.000Z"
-  },
-  {
-   "id": "200f710f73df",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Circulan en redes imágenes y vídeos del accidente de tren en Toledo generados con IA que contienen errores e inexactitudes",
-   "url": "https://www.lavanguardia.com/vida/verificacion/20261029/11671252/circulan-redes-imagenes-videos-accidente-tren-toledo-generados-ia-contienen-errores-e-inexactitudes.html",
-   "publicat": "2026-10-29T14:01:20.000Z"
-  },
-  {
-   "id": "546cc0d94327",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Impulsen una eina per avaluar els riscos de la IA i la protecció de dades",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/impulsen-eina-avaluar-riscos-ia-proteccio-dades_1717660_102.html",
-   "publicat": "2026-10-29T13:50:17.000Z",
-   "noticia": "apdcat-model-dpia-fria-ia-proteccio-dades",
-   "noticiaTitol": "L'Autoritat Catalana de Protecció de Dades presenta un model que reuneix en una sola avaluació els riscos de la IA per a les dades i per als drets fonamentals"
   }
  ]
 }
