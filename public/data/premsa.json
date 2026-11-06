@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-05T20:19:05.799Z",
+ "actualitzat": "2026-11-06T01:09:48.297Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "2086998070a7",
+   "mitja": "El Punt Avui",
+   "font": "elpuntavui-societat",
+   "icona": "/assets/premsa/el-punt-avui.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Projecte Pigall: serveis socials millorats amb la IA",
+   "url": "https://www.elpuntavui.cat/societat/article/5-societat/2687872-projecte-pigall-serveis-socials-millorats-amb-la-ia.html",
+   "publicat": "2026-11-06T01:00:00.000Z"
+  },
+  {
+   "id": "b2b4f565195e",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La gestión de los espacios naturales mira a los datos y la IA",
+   "url": "https://www.lasprovincias.es/sociedad/gestion-espacios-naturales-mira-datos-ia-20261105004902-nt.html",
+   "publicat": "2026-11-05T23:49:02.000Z"
+  },
+  {
+   "id": "93bcddef837c",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "España lidera la primera movilización europea contra los centros de datos: “Las promesas de la IA son falsas”",
+   "url": "https://www.eldiario.es/tecnologia/espana-lidera-primera-movilizacion-europea-centros-datos-promesas-ia-son-falsas_1_13639661.html",
+   "publicat": "2026-11-05T22:43:36.000Z"
+  },
   {
    "id": "6533f474eadc",
    "mitja": "Cinco Días",
@@ -32,7 +65,7 @@
    "icona": "/assets/premsa/el-nacional.webp",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Wall Street s'enfonsa pels dubtes al futur de la IA després de la victòria demòcrata",
+   "titol": "Daltabaix de la borsa dels EUA: el Nasdaq perd un 5,5% pels dubtes sobre el futur de la IA",
    "url": "https://www.elnacional.cat/oneconomia/ca/mercats/wall-street-enfonsa-dubtes-futur-ia-despres-victoria-democrata_1721402_102.html",
    "publicat": "2026-11-05T19:38:00.000Z"
   },
@@ -98,7 +131,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Jueves negro para la Bolsa: el Nasdaq se hunde ante el miedo a que se agudice el frenazo de la IA",
+   "titol": "Jueves negro para la Bolsa: el Nasdaq sufre un batacazo por el miedo al frenazo de la IA",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-05/la-bolsa-y-el-ibex-35.html",
    "publicat": "2026-11-05T16:18:07.000Z"
   },
@@ -2091,17 +2124,6 @@
    "titol": "Per què els progressistes odien la IA?",
    "url": "https://www.elnacional.cat/oneconomia/ca/opinio/progressistes-odien-ia-mookie-tenembaum_1716646_102.html",
    "publicat": "2026-10-30T04:30:00.000Z"
-  },
-  {
-   "id": "ba665da60912",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Mercados | Cara y cruz de Substrate AI: pierde 5,7 millones hasta junio, pero eleva un 5,2% sus ingresos",
-   "url": "https://valenciaplaza.com/valenciaplaza/bolsas/cara-y-cruz-de-substrate-ai-pierde-57-millones-hasta-junio-pero-eleva-un-52-sus-ingresos",
-   "publicat": "2026-10-29T20:25:54.000Z"
   }
  ]
 }
