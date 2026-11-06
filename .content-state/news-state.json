@@ -1,9 +1,81 @@
 {
   "editionDate": "2026-11-06",
-  "updatedAt": "2026-11-06T09:14:58.124Z",
-  "batches": 2,
+  "updatedAt": "2026-11-06T13:16:22.672Z",
+  "batches": 3,
   "target": 20,
   "items": [
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "5 MIN",
+      "slug": "openai-gpt-6-cyber-firefox-linux",
+      "title": "OpenAI presenta GPT-6 Cyber, un model per a experts en seguretat que ha trobat 81 errors greus a Firefox",
+      "excerpt": "L'empresa mateixa en qualifica el risc de «crític», el nivell més alt, i de moment només el deixa fer servir a uns quants clients aprovats. Diu que ha aconseguit atacs funcionals contra 948 errors del nucli de Linux i anuncia 1.000 milions de dòlars per als qui protegeixen serveis essencials.",
+      "sourceName": "Security Affairs (a partir de l'anunci d'OpenAI)",
+      "sourceUrl": "https://securityaffairs.com/202546/ai/openai-rates-gpt-6-cyber-critical-after-major-vulnerability-discoveries.html",
+      "sourceDate": "6 de novembre de 2026",
+      "body": "OpenAI té des del mes d'agost un programa, Daybreak, que dona als professionals de la ciberseguretat accés a versions dels seus models amb menys restriccions per buscar i corregir errors de programari. El nivell més alt, Daybreak Red, és per als investigadors que s'endinsen en la part ofensiva: trobar vulnerabilitats i demostrar que es poden aprofitar. Fins ara hi feien servir GPT-5.6 Cyber.\n\nAquest dijous l'empresa hi ha afegit GPT-6 Cyber, que de moment només arriba, per mitjà de l'API i de Codex, a un grup reduït de clients aprovats; l'accés a la resta del programa, diu, vindrà més endavant. Segons les dades d'OpenAI, el model ha reproduït 1.724 errors coneguts del nucli de Linux i n'ha convertit 948 en atacs que funcionen, més de cinc vegades els 166 del model anterior amb el mateix mètode; n'ha comunicat 304 de crítics als responsables del nucli, amb propostes de correcció. També ha documentat 81 vulnerabilitats noves que Mozilla ha classificat com a greus a Firefox, i la fundació ja n'ha començat a publicar els pedaços. OpenAI diu que el model s'ha quedat dins dels límits autoritzats en el 99,93% de les proves. A més, ha creat una branca del programa per a infraestructures crítiques (centrals elèctriques, depuradores i sistemes de control industrial) i un fons de 1.000 milions de dòlars, Daybreak for Frontline Defenders, per pagar l'accés a administracions i serveis essencials amb pocs recursos.\n\nEl detall que més crida l'atenció és que OpenAI ha pujat el risc del model en ciberseguretat de «alt» a «crític», el nivell més alt del seu marc de seguretat: reconeix que l'eina és prou potent per fer mal en males mans, i per això en limita l'accés, demana verificar la identitat i controla les adreces des d'on es fa servir. L'argument de l'empresa és que els defensors han d'arribar abans que els atacants als errors que la IA ja és capaç de trobar.\n\nTotes aquestes xifres són d'OpenAI i encara no les ha comprovat ningú de fora. Una part del sector, a més, retreu a les grans empreses que restringeixin els models més capaços als defensors mentre els atacants poden recórrer a models oberts sense frens, i a TechCrunch un investigador que fa servir Daybreak avisava que en els pròxims mesos cal esperar que es trobin i s'aprofitin errors «molt bojos». La finestra per corregir el programari crític pot ser curta.",
+      "image": "./assets/openai-gpt-6-cyber-firefox-linux-20261106.jpg",
+      "video": {
+        "id": "pXRZyOxbDL4",
+        "verificat": "2026-11-06",
+        "titol": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+        "canal": "OpenAI",
+        "canalUrl": "https://www.youtube.com/@OpenAI",
+        "idioma": "en",
+        "resum": "Vídeo d'OpenAI en què Mozilla explica com ha fet servir GPT-6 Cyber per descobrir vulnerabilitats greus de Firefox que no es coneixien i com n'ha distribuït les correccions als usuaris. Hi parla Brian Grinstead, enginyer de Mozilla."
+      }
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "slug": "xatbots-salut-enllacos-negocis-cel-lules-mare",
+      "title": "Quan es pregunta als xatbots per l'Alzheimer o l'autisme, gairebé un de cada quatre enllaços que donen és d'un negoci que ven tractaments, segons un estudi a «BMJ»",
+      "excerpt": "Un equip de la Universitat Simon Fraser va fer 540 consultes a sis xatbots sobre teràpies amb cèl·lules mare. Llama, de Meta, és el que més remet a empreses privades; Claude i Grok, els que menys.",
+      "sourceName": "BMJ Connections Digital Health & AI / Universitat Simon Fraser",
+      "sourceUrl": "https://medicalxpress.com/news/2026-11-dangers-ai-chatbots-health-advice.html",
+      "sourceDate": "5 de novembre de 2026",
+      "body": "Cada vegada més gent pregunta als xatbots dubtes de salut, i les respostes solen venir acompanyades d'enllaços que fan de garantia. Però qui hi ha darrere d'aquests enllaços? Un equip de la Universitat Simon Fraser, al Canadà, encapçalat pel professor de ciències de la salut Jeremy Snyder, ho ha estudiat en un terreny especialment delicat: les teràpies amb cèl·lules mare, que moltes clíniques privades venen per a malalties per a les quals no s'ha demostrat que funcionin.\n\nEls investigadors van fer 540 consultes habituals sobre la malaltia d'Alzheimer, l'autisme i la paràlisi cerebral a sis xatbots, entre els quals ChatGPT, Claude, Gemini i Llama, des de cinc ciutats (Londres, Mont-real, Nova York, París i Toronto). Les respostes contenien 5.025 enllaços: el 49,1% portaven a centres de recerca, l'11,9% a mitjans de comunicació i el 23,4% a empreses que venen tractaments directament al públic. Les diferències entre xatbots són grans: Llama, de Meta, hi remet en el 53% dels casos; Gemini, en el 28%; ChatGPT, en el 24%; DeepSeek, en el 8%; Claude, en el 4%, i Grok, en el 0,8%. L'estudi s'ha publicat a la revista «BMJ Connections Digital Health & AI».\n\nEl problema, segons els autors, és que els xatbots presenten la informació com si fos un fet establert i l'avalen amb fonts que semblen serioses, cosa que pot donar credibilitat a promeses sense base i fer que algunes famílies, sovint pares d'infants autistes, passin per alt el consell dels metges. Un 17,3% dels enllaços comercials portaven a clíniques d'anàlisi aplicada de la conducta, una teràpia per a l'autisme que no tenia res a veure amb la pregunta; els autors sospiten que aquestes clíniques han creat pàgines sobre cèl·lules mare per sortir als cercadors, però és una hipòtesi que no han demostrat.\n\nEl mateix equip el presenta com un estudi exploratori: només tracta tres malalties i sis xatbots en un moment concret, i mesura d'on surten els enllaços, no si el consell que donaven era encertat o equivocat. Snyder insisteix que la recerca amb cèl·lules mare és un camp legítim, però que encara cal molta feina abans de poder afirmar que serveix per a aquestes malalties.",
+      "image": "./assets/xatbots-salut-enllacos-negocis-cel-lules-mare-20261106.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "ia-generativa-omple-buits-mapes-cervell-ressonancia",
+      "title": "Una IA de la Universitat del Sud de Califòrnia reconstrueix els trams de les connexions del cervell que la ressonància no aconsegueix captar, segons «Medical Image Analysis»",
+      "excerpt": "Les distorsions de l'escàner esborren part del senyal al tronc de l'encèfal i sobre els ulls. El model, entrenat amb gairebé 2.000 persones, omple els buits amb un error angular d'1,4 graus, tres vegades menys que els mètodes que hi havia.",
+      "sourceName": "Medical Image Analysis / Keck School of Medicine (USC)",
+      "sourceUrl": "https://medicalxpress.com/news/2026-11-generative-ai-gaps-brain-wiring.html",
+      "sourceDate": "4 de novembre de 2026",
+      "body": "La ressonància magnètica de difusió permet dibuixar els grans feixos de fibres nervioses que connecten les regions del cervell, seguint com es mou l'aigua dins dels teixits. Té un punt feble conegut: les distorsions del camp magnètic de l'escàner esborren el senyal en algunes zones, sobretot al tronc de l'encèfal i a la regió que hi ha just a sobre dels ulls. En el tronc, per on passa la gran via motora que baixa del cervell a la medul·la, aquests forats poden tallar el traçat de les fibres, i les eines de correcció habituals no ho arreglen del tot.\n\nUn equip de l'Institut Stevens de Neuroimatge de la Universitat del Sud de Califòrnia, dirigit pel professor Yonggang Shi, ha desenvolupat FOD-Diffusion, un model generatiu de la mateixa família que els que fan imatges a partir de text. En lloc d'imatges, omple les 45 capes d'informació sobre l'orientació de les fibres que té cada exploració, una per una, fent servir les altres capes i el teixit intacte del voltant perquè el conjunt sigui coherent. L'han entrenat i provat amb exploracions de 1.315 participants del UK Biobank i de 679 de l'estudi HCP-Aging, majoritàriament gent gran. En una prova en què tapaven a propòsit una part del tronc de 43 persones, l'error mitjà de l'orientació reconstruïda va ser d'uns 1,4 graus, quan el millor dels sis mètodes d'IA comparats es quedava en uns 4,5. El treball s'ha publicat a la revista «Medical Image Analysis».\n\nEn 1.172 participants del UK Biobank, les dades corregides amb els mètodes habituals tenien una informació de les fibres clarament més pobra que la de les persones amb poca pèrdua de senyal; després de la reconstrucció, la diferència deixava de ser significativa, i el mateix passava a la zona de sobre els ulls. La utilitat més immediata és per a la recerca: molts grans estudis de població només fan l'exploració en una direcció per estalviar temps, i el model en podria aprofitar millor les dades.\n\nEls mateixos autors avisen que el que dona el model són «estimacions informades, no mesures recuperades». La comparació s'ha fet amb persones amb poca pèrdua de senyal, no amb una referència perfecta, que no existeix; no s'ha provat amb altres escàners ni amb pacients, i per tant no està llest per a l'ús clínic. El codi és públic i el següent pas és aplicar-lo a bases de dades sobre la malaltia d'Alzheimer.",
+      "image": "./assets/ia-generativa-omple-buits-mapes-cervell-ressonancia-20261106.jpg"
+    },
+    {
+      "category": "MATEMÀTIQUES",
+      "read": "4 MIN",
+      "slug": "axiom-math-verifica-stacks-project-lean",
+      "title": "Els agents d'IA d'Axiom Math converteixen en codi verificable per ordinador una obra de referència de geometria algebraica de més de 7.600 pàgines",
+      "excerpt": "L'empresa diu que els seus agents han traduït tot el Stacks Project, iniciat el 2005 per un matemàtic de Columbia, a uns 16 milions de línies de Lean, el llenguatge en què un programa comprova cada pas d'una demostració.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "sourceDate": "5 de novembre de 2026",
+      "body": "Les demostracions matemàtiques es comproven tradicionalment llegint-les, i els errors de vegades passen anys sense que ningú els vegi. Una alternativa és la verificació formal: reescriure cada demostració en un llenguatge de programació com Lean, de manera que un programa, l'assistent de demostració, en revisi la lògica línia per línia. És una feina lenta i pesada, i hi ha camps sencers, com la geometria algebraica, on gairebé no hi havia material verificat.\n\nL'empresa emergent nord-americana Axiom Math, valorada en 1.600 milions de dòlars, va anunciar dimecres que una flota d'agents d'IA ha verificat formalment el Stacks Project, una obra de consulta oberta de geometria algebraica que el matemàtic Johan de Jong, de la Universitat de Colúmbia, va començar el 2005. Segons l'empresa, els agents han traduït unes 7.654 pàgines a uns 16 milions de línies de codi Lean comprovades per l'ordinador, i han mantingut la coherència entre els milers de teoremes i definicions que depenen els uns dels altres. Els agents treballaven en paral·lel i triaven ells mateixos les tasques, amb models especialitzats en matemàtiques entrenats per l'empresa i, al principi, la guia d'un expert en Lean de la casa.\n\nL'interès va més enllà d'aquesta obra: cada resultat verificat es pot reutilitzar com a peça per construir-ne d'altres, i la mateixa tècnica serveix per comprovar programari, ara que els agents d'IA escriuen cada vegada més codi. El matemàtic Terence Tao, medalla Fields, ho resumeix a TechCrunch: «Com més demostracions formalitzades tens, més demostracions formalitzades pots fer». La directora executiva de l'empresa, Carina Hong, ha desafiat les altres empreses de programació a treballar a aquesta escala.\n\nÉs un anunci d'una empresa, no un treball revisat per altres matemàtics, i el resultat es pot consultar en una web de demostració. Una verificació formal garanteix que les demostracions són correctes tal com s'han escrit en Lean, però no que la traducció reprodueixi fidelment el que deien els enunciats originals, i fins i tot les comprovacions per ordinador poden deixar escapar errors, com recorda el mateix article.",
+      "image": "./assets/axiom-math-verifica-stacks-project-lean-20261106.jpg"
+    },
+    {
+      "category": "SOCIETAT",
+      "read": "4 MIN",
+      "slug": "grans-tecnologiques-ecologistes-normes-centres-dades",
+      "title": "Google, Meta, Microsoft, Amazon, Nvidia i Anthropic negocien amb tres grans grups ecologistes unes normes per als centres de dades als Estats Units",
+      "excerpt": "Les converses, que van començar al setembre i han de durar fins al febrer, inclouen l'energia, l'aigua i la relació amb els veïns. Arriben dies després que desenes de ciutats nord-americanes votessin restringir o prohibir aquestes instal·lacions.",
+      "sourceName": "Tech Xplore / AFP",
+      "sourceUrl": "https://techxplore.com/news/2026-11-big-tech-green-groups-center.html",
+      "sourceDate": "5 de novembre de 2026",
+      "body": "Els centres de dades són la peça física de l'expansió de la IA i, als Estats Units, s'han convertit en un motiu de conflicte. Els veïns es queixen que les noves centrals encareixen la llum, que fan soroll i que els sistemes de refrigeració gasten molta aigua del municipi; per no tocar les factures locals, molts centres nous es fabriquen la seva pròpia electricitat, sovint amb centrals de gas sorolloses i contaminants. A les eleccions de mig mandat d'aquest dimarts, els votants de desenes de ciutats van aprovar restriccions o prohibicions.\n\nSegons un document al qual ha tingut accés l'agència AFP, i que va avançar el diari The Hill, Google, Meta, Microsoft, Oracle, Amazon, Nvidia i Anthropic negocien des del setembre amb el Natural Resources Defense Council, el WWF i el Sierra Club un marc comú per als centres de dades de tot el país, dins d'una iniciativa anomenada Responsible Data Center Collaborative. La impulsen la Fundació Rockefeller i una entitat vinculada, Invest in Our Future, i les reunions estan previstes fins al febrer del 2027. Els temes que han de tractar són sis: energia i infraestructura, aigua i recursos naturals, relació amb les comunitats, valor econòmic per al territori, transparència i rendició de comptes, i aplicació.\n\nÉs poc habitual que les grans tecnològiques i algunes de les organitzacions ecologistes més influents del país s'asseguin a la mateixa taula. Per a les empreses, unes normes pactades podrien ajudar-les a recuperar l'acceptació social que els està fallant i, de retruc, a obtenir permisos; per als ecologistes, és una manera d'influir en com es construeixen unes instal·lacions que s'estan multiplicant. El document fixa fins i tot les normes de conducta: les converses són sota la regla de Chatham House, que permet fer servir el que s'hi diu però sense atribuir-ho a ningú.\n\nDe moment no se sap què exigirien aquestes normes ni si serien obligatòries per als qui les signin: el document només en descriu els temes i el calendari. Tampoc no és clar com encaixarien amb les lleis estatals i municipals, que són les que decideixen on es pot construir un centre de dades, ni si convenceran els moviments veïnals, que en molts llocs ja no demanen condicions sinó que directament no se'n facin.",
+      "image": "./assets/grans-tecnologiques-ecologistes-normes-centres-dades-20261106.jpg",
+      "etiquetes": [
+        "centres-de-dades"
+      ]
+    },
     {
       "category": "MERCATS",
       "read": "4 MIN",
