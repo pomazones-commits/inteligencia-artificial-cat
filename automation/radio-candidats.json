@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-06T13:16:07.586Z",
+  "generat": "2026-11-06T17:14:53.816Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 29,
+      "audios": 30,
       "sobre_ia": 2
     },
     {
@@ -165,16 +165,15 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 9,
+      "audios": 8,
       "sobre_ia": 0
     },
     {
       "font": "rtva",
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
-      "estat": "ok",
-      "audios": 400,
-      "sobre_ia": 3
+      "estat": "error",
+      "error": "HTTP 403"
     }
   ],
   "candidats": []
