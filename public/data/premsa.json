@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-06T05:18:10.110Z",
+ "actualitzat": "2026-11-06T09:15:45.048Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "a895c11e11a8",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La incertesa sobre la IA impacta en les borses després de les midterm dels EUA",
+   "url": "https://www.3cat.cat/3catinfo/la-incertesa-sobre-la-ia-impacta-en-les-borses-despres-de-les-midterm-dels-eua/noticia/3438248",
+   "publicat": "2026-11-06T08:55:26.000Z"
+  },
+  {
+   "id": "18d6b24205ac",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Títeres, memoria histórica e inteligencia artificial: Así será el congreso que llega este fin de semana a Sagunt",
+   "url": "https://www.levante-emv.com/morvedre/2026/11/06/titeres-memoria-historica-inteligencia-artificial-136094029.html",
+   "publicat": "2026-11-06T08:30:03.000Z"
+  },
+  {
+   "id": "c20acf4e0ebf",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nueva jornada de fuertes caídas en las bolsas arrastradas por el terremoto en la IA",
+   "url": "https://www.lavanguardia.com/economia/20261106/11677641/nueva-jornada-fuertes-caidas-bolsas-arrastradas-ia.html",
+   "publicat": "2026-11-06T08:05:23.000Z"
+  },
+  {
+   "id": "3c979e4972ab",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "IAG gana un 16% menos y se dejará 8.900 millones por el coste del combustible",
+   "url": "https://www.lavanguardia.com/dinero/20261106/11677642/iag-gana-16-dejara-8-900-millones-coste-combustible.html",
+   "publicat": "2026-11-06T07:56:12.000Z"
+  },
+  {
+   "id": "cea79008ab25",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "IAG guanya un 16% menys fins al setembre pel combustible: 2.264 milions",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/iag-guanya-16-menys-setembre-combustible-2-264-milions_1721492_102.html",
+   "publicat": "2026-11-06T07:50:00.000Z"
+  },
+  {
+   "id": "fa17dd3beeb4",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "IAG reduce un 16,2% su beneficio hasta septiembre por el encarecimiento del combustible y prevé recortar capacidad en 2026",
+   "url": "https://www.levante-emv.com/economia/2026/11/06/iag-reduce-16-2-beneficio-136147623.html",
+   "publicat": "2026-11-06T07:48:18.000Z"
+  },
+  {
+   "id": "230ddec22963",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "IAG redujo un 16,2% su beneficio hasta septiembre por el alza del combustible",
+   "url": "https://cincodias.elpais.com/companias/2026-11-06/iag-redujo-un-162-su-beneficio-hasta-septiembre-por-el-alza-del-combustible.html",
+   "publicat": "2026-11-06T07:47:43.000Z"
+  },
+  {
+   "id": "16749177c62a",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial llama a la puerta de las pymes de Balears",
+   "url": "https://www.diariodemallorca.es/economia/2026/11/06/inteligencia-artificial-llama-puerta-pymes-bc-136118336.html",
+   "publicat": "2026-11-06T05:30:00.000Z"
+  },
   {
    "id": "024fbf4594fd",
    "mitja": "El Periódico",
@@ -24,6 +112,17 @@
    "titol": "Tierra de empresas | La inteligencia artificial pone a prueba la carrera profesional",
    "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/la-inteligencia-artificial-pone-a-prueba-la-carrera-profesional",
    "publicat": "2026-11-06T05:00:05.000Z"
+  },
+  {
+   "id": "711713784144",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cómo tratar la IA para hacerla más segura",
+   "url": "https://www.lavanguardia.com/participacion/red-lectores/20261106/11675780/como-tratar-ia-hacerla-mas-segura.html",
+   "publicat": "2026-11-06T05:00:00.000Z"
   },
   {
    "id": "b05b7af13211",
@@ -2128,50 +2227,6 @@
    "titol": "El CEO de Reddit constata la caída del tráfico web, que vincula con AI Overviews y el modo de búsqueda con IA de Google",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/30/2739649/ceo-reddit-constata-caida-del-trafico-web-vincula-overviews-modo-busqueda-google.html",
    "publicat": "2026-10-30T10:06:00.000Z"
-  },
-  {
-   "id": "b25f65567b71",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "APHA y el CENID acercan la inteligencia artificial al sector hotelero a través de tres casos prácticos",
-   "url": "https://www.informacion.es/economia/2026/10/30/apha-cenid-acercan-inteligencia-artificial-135912611.html",
-   "publicat": "2026-10-30T08:30:14.000Z"
-  },
-  {
-   "id": "77e42c0a5ce4",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "¿La intel·ligència artificial pot fer-nos millors escriptors?",
-   "url": "https://llegim.ara.cat/reportatges/intel-ligencia-artificial-millors-escriptors_130_5893126.html",
-   "publicat": "2026-10-30T06:10:56.000Z"
-  },
-  {
-   "id": "69e9d6035515",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El Hackathon IA esgota les 80 places disponibles",
-   "url": "https://www.diariandorra.ad/nacional/261030/hackathon-ia-esgota-les-80-places-disponibles_207663.html",
-   "publicat": "2026-10-30T06:07:51.000Z"
-  },
-  {
-   "id": "6bfebea3189b",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial no debería ser un privilegio de las grandes administraciones",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261030/11669089/inteligencia-artificial-deberia-privilegio-grandes-administraciones.html",
-   "publicat": "2026-10-30T05:31:35.000Z"
   }
  ]
 }
