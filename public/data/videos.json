@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-06T05:18:10.251Z",
+ "actualitzat": "2026-11-06T09:15:48.766Z",
  "canals": 19,
  "videos": [
   {
@@ -100,7 +100,10 @@
    "idioma": "en",
    "publicat": "2026-11-03T18:30:30.000Z",
    "descripcio": "You don't need to be an engineer to make hardware. Want to make something physical? Let GPT-6 Astra help you bring it to life.",
-   "miniatura": "/assets/videos/NCxD-qsQcN0.jpg"
+   "miniatura": "/assets/videos/NCxD-qsQcN0.jpg",
+   "noticia": "openai-gpt-6-astra-dissenya-aparell-codex",
+   "noticiaTitol": "OpenAI diu que GPT-6 Astra va dissenyar en menys d'una setmana un aparell per parlar amb Codex, de la carcassa al programari",
+   "resum": "Vídeo promocional d'OpenAI que presenta GPT-6 Astra com una eina per ajudar a dissenyar maquinari, també per a qui no és enginyer. És la presentació de l'empresa, no una demostració independent del projecte de l'aparell per parlar amb Codex."
   },
   {
    "id": "yC72iQx6rM0",
@@ -1036,18 +1039,6 @@
    "publicat": "2026-10-16T11:59:06.000Z",
    "descripcio": "Your first PC opened up new worlds. Now, bring your creative ideas to life, build AI locally, and play your favorite games—all on one powerful PC. NVIDIA RTX Spark is here. A new beginning for @Windows PCs. Shop RTX Spark systems: https://marketplace.nvidia.com/en-us/products/rtx-spark/ Learn more a",
    "miniatura": "/assets/videos/_tsiWjmWEZ8.jpg"
-  },
-  {
-   "id": "OpOFdro6NzM",
-   "titol": "Uribe-Etxebarria, expert en IA: \"No veig cap raó perquè una màquina no pugui tenir consciència\"",
-   "canal": "3CatInfo",
-   "canalId": "UCKseJ43xWvnywQzl6kYbf0g",
-   "grup": "catala",
-   "categoria": "ciencia",
-   "idioma": "ca",
-   "publicat": "2026-10-16T08:49:57.000Z",
-   "descripcio": "El fundador de Sherpa.ai afegeix que tampoc veu motius perquè la consciència no es pugui replicar amb l'evidència actual. Subscriu-te al canal oficial de 3CatInfo a YouTube i no et perdis l’actualitat de Catalunya i el món: 👉https://www.youtube.com/@3CatInfo?sub_confirmation=1 Vols rebre cada setma",
-   "miniatura": "/assets/videos/OpOFdro6NzM.jpg"
   },
   {
    "id": "Jh6mgf9M06M",
