@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-06T09:15:48.766Z",
+ "actualitzat": "2026-11-06T13:17:14.919Z",
  "canals": 19,
  "videos": [
   {
@@ -13,7 +13,10 @@
    "idioma": "en",
    "publicat": "2026-11-05T17:14:11.000Z",
    "descripcio": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engin",
-   "miniatura": "/assets/videos/pXRZyOxbDL4.jpg"
+   "miniatura": "/assets/videos/pXRZyOxbDL4.jpg",
+   "noticia": "openai-gpt-6-cyber-firefox-linux",
+   "noticiaTitol": "OpenAI presenta GPT-6 Cyber, un model per a experts en seguretat que ha trobat 81 errors greus a Firefox",
+   "resum": "Vídeo d'OpenAI en què Mozilla explica com ha fet servir GPT-6 Cyber per descobrir vulnerabilitats greus de Firefox que no es coneixien i com n'ha distribuït les correccions als usuaris. Hi parla Brian Grinstead, enginyer de Mozilla."
   },
   {
    "id": "C-APNKnK48c",
@@ -1027,18 +1030,6 @@
    "publicat": "2026-10-16T18:00:49.000Z",
    "descripcio": "Set up recurring work your team can manage together with team tasks in ChatGPT. Follow a legal team's daily intake workflow—from reviewing incoming requests and checking deadlines to refining shared instructions for the next run. Tasks run in the cloud, so teammates can review results, improve the w",
    "miniatura": "/assets/videos/OMxEUdIgsQc.jpg"
-  },
-  {
-   "id": "_tsiWjmWEZ8",
-   "titol": "NVIDIA RTX Spark | A New Beginning for Windows PCs",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-10-16T11:59:06.000Z",
-   "descripcio": "Your first PC opened up new worlds. Now, bring your creative ideas to life, build AI locally, and play your favorite games—all on one powerful PC. NVIDIA RTX Spark is here. A new beginning for @Windows PCs. Shop RTX Spark systems: https://marketplace.nvidia.com/en-us/products/rtx-spark/ Learn more a",
-   "miniatura": "/assets/videos/_tsiWjmWEZ8.jpg"
   },
   {
    "id": "Jh6mgf9M06M",
