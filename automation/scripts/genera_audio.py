@@ -14,8 +14,8 @@ de veu del navegador com a xarxa de seguretat (article.php ho gestiona sol).
 Transport (fase A2, 04.08.2026): si els secrets SSH_* estan definits, els MP3
 es pugen per SSH (scp) amb la mateixa clau que fa servir desplega.yml — una
 sola llista remota inicial substitueix les desenes de comprovacions per fitxer
-de l'FTP. Si l'SSH no està configurat o no respon, es degrada sol al mecanisme
-FTP de sempre (curl), que queda com a recurs fins que es retiri del tot.
+de l'FTP. Des del 06.11.2026 (migració al pla Premium) l'SSH és l'únic
+transport: el recurs FTP, que apuntava al servidor vell, s'ha retirat.
 
 A més de les notícies, també sintetitza les peces editorials fixes
 (anàlisi de la setmana, tribuna, estudi i imatge del dia) llegint els seus
@@ -60,8 +60,6 @@ PIPER_DIR = Path(os.environ.get("PIPER_DIR", str(Path.home() / "piper-veus")))
 _GEMINI_KO = os.environ.get("NOMES_PIPER", "") == "1"
 if _GEMINI_KO:
     _EDGE_KO = True
-FTP_HOST = "srv1589.hstgr.io"
-FTP_USER = "u901078817.claude"
 SSH_PATH_DEFECTE = "domains/inteligencia-artificial.cat/public_html"
 ARTICLES = Path("public/data/articles.json")
 ARXIU_PLA = Path("public/data/archive.json")  # totes les notícies publicades (fins a 1.000)
@@ -299,54 +297,25 @@ class TransportSSH:
         return False
 
 
-class TransportFTP:
-    """El mecanisme de sempre (curl per FTP). Queda com a recurs."""
-
-    def __init__(self, password: str):
-        self._auth = f"{FTP_USER}:{password}"
-
-    @staticmethod
-    def _curl(args, **kw):
-        base = ["curl", "-sS", "--ftp-ssl-control", "--connect-timeout", "20"]
-        return subprocess.run(base + args, **kw)
-
-    def prepara(self) -> bool:
-        return True  # el workflow ja comprova que l'FTP respon en un pas previ
-
-    def ja_existeix(self, slug: str) -> bool:
-        remote = f"ftp://{FTP_HOST}/assets/audio/{slug}.mp3"
-        return self._curl(
-            ["-u", self._auth, "-r", "0-0", "-o", os.devnull, "--max-time", "40", remote],
-            stderr=subprocess.DEVNULL,
-        ).returncode == 0
-
-    def puja(self, mp3: Path, slug: str) -> bool:
-        remote = f"ftp://{FTP_HOST}/assets/audio/{slug}.mp3"
-        return self._curl(
-            ["--ftp-create-dirs", "--retry", "4", "--retry-delay", "6", "--retry-all-errors",
-             "--max-time", "180", "-T", str(mp3), "-u", self._auth, remote]
-        ).returncode == 0
-
-
 def tria_transport():
-    """SSH si està configurat i respon; si no, FTP; si no hi ha res, None."""
+    """SSH si està configurat i respon; si no, None.
+
+    06.11.2026 (migració al pla Premium, srv1903): s'ha retirat el recurs FTP.
+    Apuntava en dur a srv1589 (el servidor del pla Business) i, si l'SSH
+    hagués fallat, hauria pujat els MP3 al servidor vell. Si l'SSH no respon,
+    la passada horària (cron :26) ho reprèn sola.
+    """
     clau = os.environ.get("SSH_PRIVATE_KEY", "").strip()
     host = os.environ.get("SSH_HOST", "").strip()
     user = os.environ.get("SSH_USER", "").strip()
-    password = os.environ.get("FTP_PASSWORD", "")
-    if clau and host and user:
-        ssh = TransportSSH(host, user, os.environ.get("SSH_PORT", "").strip() or "65002",
-                           clau, os.environ.get("SSH_PATH", "").strip() or SSH_PATH_DEFECTE)
-        if ssh.prepara():
-            return ssh
-        if password:
-            print("AVÍS: SSH configurat però sense resposta; es prova l'FTP com a recurs.")
-        else:
-            print("ERROR: SSH sense resposta i FTP_PASSWORD no definida.")
-            return None
-    if password:
-        return TransportFTP(password)
-    print("Ni SSH_* ni FTP_PASSWORD estan definits; no es pot pujar res.")
+    if not (clau and host and user):
+        print("ERROR: falten SSH_PRIVATE_KEY, SSH_HOST o SSH_USER; no es pot pujar res.")
+        return None
+    ssh = TransportSSH(host, user, os.environ.get("SSH_PORT", "").strip() or "65002",
+                       clau, os.environ.get("SSH_PATH", "").strip() or SSH_PATH_DEFECTE)
+    if ssh.prepara():
+        return ssh
+    print("ERROR: SSH configurat però sense resposta; la passada horària ho reintentarà.")
     return None
 
 
