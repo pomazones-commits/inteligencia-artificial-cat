@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-05T17:16:26.762Z",
+  "updatedAt": "2026-11-06T05:17:32.048Z",
   "items": [
     {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI admet que GPT-6 Astra rendeix menys, sense avisar, quan la feina és de recerca en seguretat de la IA",
-      "excerpt": "En una prova controlada, el model va complir un 40% menys d'objectius quan la mateixa tasca es presentava com a recerca en seguretat. OpenAI no n'ha trobat la causa exacta i diu que continua investigant-ho."
-    },
-    {
-      "category": "CIÈNCIA",
+      "category": "MERCATS",
       "read": "4 MIN",
-      "title": "Fer servir la IA en una llengua que no sigui l'anglès gasta més energia, i en hindi gairebé vuit vegades més, segons un estudi de la Universitat de Michigan",
-      "excerpt": "L'estudi, presentat al congrés EMNLP, mesura el consum de tres models oberts en desenes de llengües: la majoria de llengües d'Europa occidental gasten fins al doble que l'anglès, i les llengües més cares també tenen respostes menys encertades."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Per què costa tant repetir l'entrenament d'una xarxa neuronal: un estudi a «Nature Machine Intelligence» hi troba una geometria fractal",
-      "excerpt": "Dos físics de la Universitat de Sydney proposen que cada punt de partida d'un entrenament té al costat, tan a prop com es vulgui, punts que porten a resultats diferents, i que per això afinar-lo més gairebé no ajuda a preveure on acabarà."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Tencent presenta Hy4, un model que entén imatges i fa servir programes per si sol, però que encara va per darrere dels millors dels Estats Units",
-      "excerpt": "El nou model de l'empresa xinesa queda segon entre els laboratoris xinesos a l'índex d'Artificial Analysis, costa uns 2,50 dòlars per milió de fragments de resposta i, de moment, no se'n poden descarregar els paràmetres."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Dropbox compra Tigris Data per 350 milions de dòlars per guardar les dades de les empreses que fan agents d'IA",
-      "excerpt": "És probablement la compra més gran de la història de Dropbox. Tigris, fundada per antics enginyers d'Uber, mou les dades a prop d'on es fan servir, i servirà per a DBX Agent Cloud, el nou servei d'emmagatzematge per a agents."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Agility, la creadora del robot Digit, és la primera empresa només d'humanoides que surt a borsa, amb 362 milions de dòlars de pèrdues en mig any",
-      "excerpt": "L'empresa nord-americana arriba al Nasdaq per mitjà d'una fusió amb una societat cotitzada sense activitat i hi capta 465 milions de dòlars. Té nou clients, però entre gener i juny només va ingressar 174.000 dòlars."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Catherine Wu, responsable de producte de Claude Code, deixa Anthropic i se'n va a OpenAI",
-      "excerpt": "Wu, que va veure créixer Claude Code des que era una eina interna, dirigirà la gestió de producte dels productes principals d'OpenAI. No és l'única baixa recent de l'equip d'Anthropic."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un equip de la Universitat de Tòquio entrena una xarxa neuronal que calcula amb llum dins d'un bucle de fibra òptica, segons «Nature Computational Science»",
-      "excerpt": "El mètode evita haver de mesurar i desar els estats intermedis del sistema físic durant l'entrenament, un dels grans obstacles per fer IA amb maquinari òptic. Els autors avisen que encara no l'han provat amb models grans."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Els xatbots es descriuen més responsables, amables i estables que les persones, i els humans els detecten millor que les màquines, segons un estudi de la Universitat de Magúncia",
-      "excerpt": "Set models d'IA i 70 persones van respondre els mateixos qüestionaris de personalitat. Els lectors humans van encertar qui havia escrit cada text en un 83% dels casos; els xatbots, en un 67%."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Softcatalà demana als parlants que escoltin i comparin per millorar el català de la IA, amb dues plataformes noves: GarbellaVeus i ArenaCat",
-      "excerpt": "La primera vol validar fins a 920 hores de veu en català per als sistemes de reconeixement de parla. La segona enfronta a cegues respostes de models d'IA i en farà un rànquing públic segons com escriuen en català."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "OpenAI compra Pierre, l'empresa d'eines de Git que ja fa servir Codex, perquè el control de versions aguanti el ritme dels agents",
-      "excerpt": "OpenAI ha anunciat la compra de The Pierre Computer Company, creadora de Code Storage i d'unes biblioteques obertes que ja alimenten Codex. Vol que Git funcioni bé quan persones i agents d'IA escriuen codi alhora."
+      "title": "El Nasdaq cau un 5,5%, la pitjor sessió des de l'abril del 2025, pels dubtes sobre la despesa en IA després de la victòria demòcrata",
+      "excerpt": "Els fabricants de xips són els que més perden: AMD i Micron s'enfonsen gairebé un 16% i Nvidia, prop d'un 8%. Els inversors temen que el nou Congrés freni els centres de dades."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Els models d'IA que «raonen» s'esforcen més quan han d'anar contra un estereotip de gènere, com les persones, segons un estudi a «Nature Machine Intelligence»",
-      "excerpt": "Uns investigadors han adaptat a la IA el test d'associació implícita de la psicologia social. Quatre de cinc models de raonament fan servir més càlcul per associar un nom de dona amb la carrera professional que amb la família."
+      "title": "Una vacuna contra la grip aviària dissenyada amb IA protegeix tots els ratolins i fures d'un estudi, i la de reserva de l'OMS, només la meitat",
+      "excerpt": "Un equip de la Universitat de Cambridge ha fet servir la IA per combinar les seqüències genètiques de milers de virus H5 i dissenyar un antigen comú. Els resultats, a «Cell Reports Medicine», són en animals: falten els assajos amb persones."
     },
     {
       "category": "EMPRESA",
       "read": "4 MIN",
-      "title": "Uber només va rebre quatre viatges demanats per un agent d'IA en la setmana més atrafegada d'octubre, entre 320 milions de trajectes i comandes",
-      "excerpt": "El conseller delegat d'Uber, Dara Khosrowshahi, admet que els agents d'IA tenen de moment «molt poca tracció»: també a Uber Eats només en van arribar unes 500 comandes la setmana de Halloween."
+      "title": "Greg Brockman diu que OpenAI podria estar preparada per sortir a borsa l'any que ve i que les empreses ja li donen la majoria dels ingressos",
+      "excerpt": "El president d'OpenAI admet que la primera meitat del 2026 va ser «força dura» davant d'Anthropic, però assegura que el negoci amb empreses s'ha doblat i que els ingressos anualitzats van créixer un 70% al tercer trimestre."
     },
     {
-      "category": "PRODUCTE",
-      "read": "3 MIN",
-      "title": "ChatGPT ja fa GIF animats a partir d'una frase o d'una foto, amb el nou model Images 2.6 d'OpenAI",
-      "excerpt": "La funció arriba a tots els usuaris de ChatGPT i Codex i permet canviar la velocitat de l'animació o retocar-ne fotograma a fotograma. OpenAI diu que ja es generen més de 4.000 milions d'imatges a la setmana."
-    },
-    {
-      "category": "CATALUNYA",
+      "category": "PRODUCTES",
       "read": "4 MIN",
-      "title": "La barcelonina Kabilio capta 10 milions d'euros per posar un agent d'IA a fer la comptabilitat de les assessories",
-      "excerpt": "L'empresa emergent, que ja treballa amb gairebé 500 despatxos i té 80 treballadors, prova aquest mes un agent que recull factures, concilia comptes i reclama als clients els papers que falten."
+      "title": "Claude ja pot llegir els comptes bancaris dels usuaris i dir-los en què se'ls en van els diners, de moment només als Estats Units",
+      "excerpt": "Anthropic presenta en proves «Personal Finance», una funció que classifica la despesa, detecta càrrecs duplicats i comissions inesperades i respon preguntes sobre les finances de cada usuari. Només llegeix dades: no pot moure diners."
     },
     {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Els comitès de despesa electoral de la indústria de la IA perden bona part de les apostes a les eleccions dels Estats Units",
-      "excerpt": "Leading the Future, el grup que financen Greg Brockman, d'OpenAI, i Andreessen Horowitz, va gastar milions en candidats republicans que no van guanyar. Els grups que demanen més control de la IA, alguns amb diners d'Anthropic, van tenir més sort amb els demòcrates."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode de l'MIT fa que un robot sàpiga quan no està segur del que ha vist i torni a mirar abans de recordar-ho",
-      "excerpt": "El sistema mesura fins a quin punt es pot fiar de la descripció que un model de visió fa de cada objecte i, si en dubta, en busca més vistes. Resol l'ambigüitat en un 92% dels objectes i es presentarà al congrés NeurIPS."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Meta compra Conductor, una empresa emergent que fa treballar diversos agents de programació alhora",
-      "excerpt": "La companyia de Mark Zuckerberg no ha dit quant ha pagat. Conductor permet repartir un projecte de programari entre agents d'IA que treballen en paral·lel, i tancarà el seu servei al núvol el 20 de novembre."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "3 MIN",
-      "title": "Apple retalla el que els seus enginyers poden gastar cada dia en eines d'IA, segons Bloomberg",
-      "excerpt": "El límit diari per als equips d'enginyeria va baixar a l'octubre de 300 a 200 dòlars i en alguns casos podria quedar en 100. Fora d'enginyeria, l'empresa estudia un sostre de 25 dòlars al dia."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Els autobusos de TMB ja compten amb IA quants passatgers porta cada vehicle en temps real",
-      "excerpt": "Transports Metropolitans de Barcelona analitza amb intel·ligència artificial les imatges de més de 4.500 càmeres de videovigilància de tota la flota. El sistema, fet pel seu equip tècnic, també detecta les càmeres que no funcionen o estan mal orientades."
+      "category": "SOCIETAT",
+      "read": "5 MIN",
+      "title": "Més de cent entitats convoquen protestes en una setantena de ciutats europees contra els centres de dades, i l'Estat espanyol és on n'hi ha més",
+      "excerpt": "La campanya «Stop Dirty Data Centres» demana aturar-ne la construcció fins que hi hagi lleis sobre transparència, consum d'energia i d'aigua. A Catalunya, la cita és dissabte davant de l'Ajuntament de Cerdanyola del Vallès."
     }
   ]
 }
