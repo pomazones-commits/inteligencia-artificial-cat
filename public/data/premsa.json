@@ -1,8 +1,107 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-06T01:09:48.297Z",
+ "actualitzat": "2026-11-06T05:18:10.110Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "024fbf4594fd",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Prada, Dior y Loewe dan la espalda a la IA en sus campañas navideñas y convierten el dibujo a mano en el nuevo símbolo de exclusividad",
+   "url": "https://www.elperiodico.com/es/gente/20261106/prada-dior-loewe-ia-animacion-mano-campanas-navidad-2026-136111552",
+   "publicat": "2026-11-06T05:00:21.000Z"
+  },
+  {
+   "id": "189ae9bfcbe3",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tierra de empresas | La inteligencia artificial pone a prueba la carrera profesional",
+   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/la-inteligencia-artificial-pone-a-prueba-la-carrera-profesional",
+   "publicat": "2026-11-06T05:00:05.000Z"
+  },
+  {
+   "id": "b05b7af13211",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Amphora Logistics apuesta por la IA para anticipar incidencias mientras amplía su presencia internacional",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261106/11674744/amphora-logistics-apuesta-ia-anticipar-incidencias-amplia-presencia-internacional.html",
+   "publicat": "2026-11-06T05:00:00.000Z"
+  },
+  {
+   "id": "ecea1ec2b758",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los jóvenes son los que más usan la IA, pero también los que más la temen: a más de la mitad les preocupa cómo cambiará el futuro",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261106/11672249/jovenes-son-mas-ia-mas-temen-mas-mitad-teme-como-cambiara-futuro.html",
+   "publicat": "2026-11-06T05:00:00.000Z"
+  },
+  {
+   "id": "f721e2374497",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA que no destruye empleos, los transforma",
+   "url": "https://www.lavanguardia.com/dinero/20261106/11674836/ia-destruye-empleos-transforma-talento-retos-brl.html",
+   "publicat": "2026-11-06T04:55:00.000Z"
+  },
+  {
+   "id": "bd2560a2b90e",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial redefine las decisiones que marcarán el futuro de las empresas",
+   "url": "https://www.lavanguardia.com/economia/20261106/11674784/inteligencia-artificial-redefine-decisiones-marcaran-futuro-empresas-brl.html",
+   "publicat": "2026-11-06T04:50:00.000Z"
+  },
+  {
+   "id": "48e494042737",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "IA soberana: la apuesta de las grandes empresas para ocultar sus datos a los tecnoligarcas estadounidenses",
+   "url": "https://elpais.com/tecnologia/2026-11-06/ia-soberana-la-apuesta-de-las-grandes-empresas-para-ocultar-sus-datos-a-los-tecnoligarcas-estadounidenses.html",
+   "publicat": "2026-11-06T04:30:01.000Z"
+  },
+  {
+   "id": "f3e4c53dc3b0",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El mes que hizo temblar a la IA",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-06/el-mes-que-hizo-temblar-a-la-ia.html",
+   "publicat": "2026-11-06T04:30:01.000Z"
+  },
+  {
+   "id": "679f5362d3cc",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Universidad de Alicante plantea las claves para limitar la brecha generacional de la IA",
+   "url": "https://www.lavanguardia.com/local/valencia/20261106/11677095/universidad-alicante-plantea-claves-limitar-brecha-generacional-ia.html",
+   "publicat": "2026-11-06T04:00:00.000Z"
+  },
   {
    "id": "2086998070a7",
    "mitja": "El Punt Avui",
@@ -34,7 +133,9 @@
    "ambit": "estatal",
    "titol": "España lidera la primera movilización europea contra los centros de datos: “Las promesas de la IA son falsas”",
    "url": "https://www.eldiario.es/tecnologia/espana-lidera-primera-movilizacion-europea-centros-datos-promesas-ia-son-falsas_1_13639661.html",
-   "publicat": "2026-11-05T22:43:36.000Z"
+   "publicat": "2026-11-05T22:43:36.000Z",
+   "noticia": "protesta-europea-centres-dades-moratoria",
+   "noticiaTitol": "Més de cent entitats convoquen protestes en una setantena de ciutats europees contra els centres de dades, i l'Estat espanyol és on n'hi ha més"
   },
   {
    "id": "6533f474eadc",
@@ -67,7 +168,9 @@
    "ambit": "catala",
    "titol": "Daltabaix de la borsa dels EUA: el Nasdaq perd un 5,5% pels dubtes sobre el futur de la IA",
    "url": "https://www.elnacional.cat/oneconomia/ca/mercats/wall-street-enfonsa-dubtes-futur-ia-despres-victoria-democrata_1721402_102.html",
-   "publicat": "2026-11-05T19:38:00.000Z"
+   "publicat": "2026-11-05T19:38:00.000Z",
+   "noticia": "nasdaq-cau-dubtes-ia-victoria-democrata",
+   "noticiaTitol": "El Nasdaq cau un 5,5%, la pitjor sessió des de l'abril del 2025, pels dubtes sobre la despesa en IA després de la victòria demòcrata"
   },
   {
    "id": "e91e0f397162",
@@ -2069,61 +2172,6 @@
    "titol": "La inteligencia artificial no debería ser un privilegio de las grandes administraciones",
    "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261030/11669089/inteligencia-artificial-deberia-privilegio-grandes-administraciones.html",
    "publicat": "2026-10-30T05:31:35.000Z"
-  },
-  {
-   "id": "557488d88193",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Terror, IA y otros mundos en el Festival 42 de Géneros Fantásticos de Barcelona",
-   "url": "https://www.lavanguardia.com/qf/planes/20261030/11671020/terror-ia-otros-mundos-festival-42-generos-fantasticos-barcelona.html",
-   "publicat": "2026-10-30T05:00:00.000Z"
-  },
-  {
-   "id": "f0a69a926ed2",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La amplia brecha entre la IA china y la de EE UU",
-   "url": "https://cincodias.elpais.com/opinion/2026-10-30/la-amplia-brecha-entre-la-ia-china-y-la-de-ee-uu.html",
-   "publicat": "2026-10-30T04:40:00.000Z"
-  },
-  {
-   "id": "ac93a2b10604",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Canal de Navarrés recurre a la inteligencia artificial para facilitar la implantación de la recogida puerta a puerta",
-   "url": "https://www.levante-emv.com/costera/2026/10/30/canal-navarres-apuesta-inteligencia-artificial-135885417.html",
-   "publicat": "2026-10-30T04:31:03.000Z"
-  },
-  {
-   "id": "b007f8ec7966",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El mundo editorial busca cómo marcar las líneas rojas en el uso de la IA",
-   "url": "https://elpais.com/cultura/2026-10-30/el-mundo-editorial-busca-como-marcar-las-lineas-rojas-en-el-uso-de-la-ia.html",
-   "publicat": "2026-10-30T04:30:01.000Z"
-  },
-  {
-   "id": "e5cd8a15a3d4",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Per què els progressistes odien la IA?",
-   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/progressistes-odien-ia-mookie-tenembaum_1716646_102.html",
-   "publicat": "2026-10-30T04:30:00.000Z"
   }
  ]
 }
