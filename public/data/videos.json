@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-05T18:58:42.404Z",
+ "actualitzat": "2026-11-06T05:18:10.251Z",
  "canals": 19,
  "videos": [
   {
@@ -1048,30 +1048,6 @@
    "publicat": "2026-10-16T08:49:57.000Z",
    "descripcio": "El fundador de Sherpa.ai afegeix que tampoc veu motius perquè la consciència no es pugui replicar amb l'evidència actual. Subscriu-te al canal oficial de 3CatInfo a YouTube i no et perdis l’actualitat de Catalunya i el món: 👉https://www.youtube.com/@3CatInfo?sub_confirmation=1 Vols rebre cada setma",
    "miniatura": "/assets/videos/OpOFdro6NzM.jpg"
-  },
-  {
-   "id": "KJ_7KPKlO_Q",
-   "titol": "Build more personal sites with Codex",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-15T20:48:59.000Z",
-   "descripcio": "Keep your team's Sites up to date and make them personal to each visitor. Connect scheduled tasks to refresh site data automatically and let your users connect their plugins for a personalized view of your site. To try it out, just ask Codex.",
-   "miniatura": "/assets/videos/KJ_7KPKlO_Q.jpg"
-  },
-  {
-   "id": "i3X7Fv0Z3Uc",
-   "titol": "Turning raw hardware sensor data into music with Gemini",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-10-15T19:00:22.000Z",
-   "descripcio": "Using Google AI Studio, Google Antigravity, and Gemini, this creator tapped into raw accelerometer hardware APIs to convert physical motion into browser-based audio. Watch how every tilt, shake, and gesture translates into live musical output without any extra equipment. Try building today → https:/",
-   "miniatura": "/assets/videos/i3X7Fv0Z3Uc.jpg"
   },
   {
    "id": "Jh6mgf9M06M",
