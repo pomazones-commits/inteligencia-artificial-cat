@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-11-05",
+  "actualitzat": "2026-11-06",
   "nota": "Imatges oficials dels actes, desades al nostre servidor. Les genera automation/scripts/recull-cartells.mjs: no s'edita a mà.",
   "cartells": {
     "2026-11-03-barcelona-deep-tech-summit-2026": {
@@ -11,10 +11,6 @@
       "organitza": "Barcelona Activa, amb UB, UAB, UPC, UPF i UOC",
       "recollit": "2026-10-11"
     },
-    "2026-11-03-capacitacio-en-intel-ligencia-artificial-per-a-empreses-indu": {
-      "error": "massa petita (201×201), segurament un logo",
-      "provat": "2026-11-01"
-    },
     "2026-11-03-smart-city-expo-world-congress-2026": {
       "imatge": "/assets/cartells/2026-11-03-smart-city-expo-world-congress-2026.jpg",
       "amplada": 600,
@@ -22,15 +18,6 @@
       "font": "https://prd-webrepository.firabarcelona.com/wp-content/uploads/sites/42/2024/11/11125053/img_share_scewc_25.jpg",
       "pagina": "https://www.smartcityexpo.com/",
       "organitza": "Fira de Barcelona",
-      "recollit": "2026-10-11"
-    },
-    "2026-11-03-vii-jornada-icab-ascom-2026-governar-el-risc-acompanyar-la-i": {
-      "imatge": "/assets/cartells/2026-11-03-vii-jornada-icab-ascom-2026-governar-el-risc-acompanyar-la-i.jpg",
-      "amplada": 800,
-      "alcada": 481,
-      "font": "https://www.icab.cat/export/sites/icab/.galleries/imatges-formacio/Jornada-ICAB-ASCOM-2026.jpg",
-      "pagina": "https://www.icab.es/ca/formacio/cursos/VII-Jornada-ICAB-ASCOM-2026/",
-      "organitza": "Il·lustre Col·legi de l'Advocacia de Barcelona (ICAB) i Asociación Española de Compliance (ASCOM)",
       "recollit": "2026-10-11"
     },
     "2026-11-07-uab-the-hack-2026": {
