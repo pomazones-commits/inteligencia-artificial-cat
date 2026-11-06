@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-06T11:21:02.382Z",
+  "generat": "2026-11-06T13:16:07.586Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -177,56 +177,5 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": [
-    {
-      "id": "3cat-1296698",
-      "emissora": "Catalunya Ràdio",
-      "programa": "El matí de Catalunya Ràdio",
-      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
-      "data": "2026-11-06",
-      "durada": "1 h 0 min",
-      "titol_original": "El matí, de 6 a 7 h (Hora informativa) - 06/11/2026",
-      "descripcio_original": "La incertesa sobre la IA després de la victòria demòcrata a les eleccions de mig mandat dels Estats Units enfonsa les borses.",
-      "descripcio_curta": true,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/el-mati-de-6-a-7-h-hora-informativa-06112026/audio/1296698/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1296698"
-      }
-    },
-    {
-      "id": "3cat-1296719",
-      "emissora": "Catalunya Ràdio",
-      "programa": "El matí de Catalunya Ràdio",
-      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
-      "data": "2026-11-06",
-      "durada": "37 min",
-      "titol_original": "Wall Street castiga les tecnològiques després de la desfeta electoral de Trump",
-      "descripcio_original": "Les set empreses tecnològiques principals han perdut, en conjunt, un bilió de dòlars. Els dubtes sobre l'impacte del triomf demòcrata en l'evolució de la IA també ensorren les borses a l'Àsia, i els índexs de Taiwan, el Japó i Corea del Sud cauen entre un 6% i un 9%. Això l'endemà que una trentena d'avions comercials van haver d'alterar les seves rutes per culpa de falses amenaces de bomba. El Diari Oficial de la Generalitat publica avui els serveis mínims per a la vaga general de l'11N. Per exemple, 25% al transport en hora punta, també 25% de la plantilla a l'atenció primària i, a l'educació, un docent cada sis classes a infantil i primària.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/wall-street-castiga-les-tecnologiques-despres-de-la-desfeta-electoral-de-trump/audio/1296719/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1296719"
-      }
-    },
-    {
-      "id": "rna-1937354",
-      "emissora": "Ràdio Nacional d'Andorra",
-      "programa": "Avui serà un bon dia",
-      "programa_url": "https://www.rtva.ad/programes/avui-sera-un-bon-dia",
-      "data": "2026-11-06",
-      "durada": "",
-      "titol_original": "L'Andorra de fa 100 anys - Avui serà un bon dia - 06/11/2026",
-      "descripcio_original": "En Joan Junyent és un pou de sabiesa i és l'autor del llibre 'Andorra cent anys entre mirades'. Si l'hi afegim en Claude Benet, la secció és una delícia.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.rtva.ad/programes/l-andorra-de-fa-100-anys-avui-sera-un-bon-dia-06-11-2026",
-      "reproductor": {
-        "tipus": "enllac"
-      }
-    }
-  ]
+  "candidats": []
 }
