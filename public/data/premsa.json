@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-06T17:15:46.610Z",
+ "actualitzat": "2026-11-06T19:43:37.273Z",
  "fonts": 44,
  "articles": [
   {
@@ -167,6 +167,17 @@
    "titol": "La científica de Alicante Aurelia Bustos diseña con IA anticuerpos para combatir el alzhéimer",
    "url": "https://www.informacion.es/alicante/2026/11/06/cientifica-alicante-aurelia-bustos-disena-inteligencia-artificial-anticuerpos-alzheimer-sanidad-136153220.html",
    "publicat": "2026-11-06T11:06:30.000Z"
+  },
+  {
+   "id": "d9c3f24f81ea",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un sistema de inteligencia artificial de la Universidad de Alicante analiza la entonación y la dicción de la voz para detectar alzhéimer",
+   "url": "https://www.informacion.es/alicante/2026/11/06/investigadores-ua-descubren-cambios-voz-alertan-alzheimer-enfermedades-alicante-136153552.html",
+   "publicat": "2026-11-06T10:38:06.000Z"
   },
   {
    "id": "7c03668991e0",
@@ -2194,28 +2205,6 @@
    "titol": "Bankinter analiza cómo la inteligencia artificial redefine el futuro de las empresas",
    "url": "https://www.informacion.es/economia/2026/10/30/bankinter-analiza-inteligencia-artificial-redefine-bc-135914237.html",
    "publicat": "2026-10-30T21:31:04.000Z"
-  },
-  {
-   "id": "7590ccbce034",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Gemini da un salto de gigante y ya puedes crear y editar documentos, PDF y presentaciones sin salir de la IA",
-   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-10-30/gemini-da-un-salto-de-gigante-y-ya-puedes-crear-y-editar-documentos-pdf-y-presentaciones-sin-salir-de-la-ia.html",
-   "publicat": "2026-10-30T19:30:00.000Z"
-  },
-  {
-   "id": "2b4dfedcfce9",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Marta Luisa de Noruega, víctima de un montaje con IA que anuncia su embarazo a los 55 años",
-   "url": "https://www.lavanguardia.com/gente/20261030/11672373/marta-luisa-noruega-victima-montaje-ia-anuncia-embarazo-55-anos.html",
-   "publicat": "2026-10-30T17:52:45.000Z"
   }
  ]
 }
