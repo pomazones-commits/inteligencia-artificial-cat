@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-06T09:15:45.048Z",
+ "actualitzat": "2026-11-06T12:31:44.584Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d3ae79109119",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia invierte 1.000 millones de dólares en la surcoreana Naver y se convierte en tercer accionista",
+   "url": "https://cincodias.elpais.com/companias/2026-11-06/nvidia-invierte-1000-millones-de-dolares-en-la-surcoreana-naver-y-se-convierte-en-tercer-accionista.html",
+   "publicat": "2026-11-06T12:20:57.000Z"
+  },
+  {
+   "id": "b4fd0ce0d7b6",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las enfermedades neurodegenerativas e IA a debate en la Universidad de Alicante",
+   "url": "https://www.informacion.es/videos/alicante/2026/11/06/enfermedades-neurodegenerativas-ia-debate-universidad-136159925.html",
+   "publicat": "2026-11-06T12:08:56.000Z"
+  },
+  {
+   "id": "cf9c08fe8cb1",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La científica de Alicante Aurelia Bustos diseña con IA anticuerpos para combatir el alzhéimer",
+   "url": "https://www.informacion.es/alicante/2026/11/06/cientifica-alicante-aurelia-bustos-disena-inteligencia-artificial-anticuerpos-alzheimer-sanidad-136153220.html",
+   "publicat": "2026-11-06T11:06:30.000Z"
+  },
+  {
+   "id": "7c03668991e0",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Caída masiva global en la burbuja de la IA ante el posible freno a los centros de datos tras las 'midterms'",
+   "url": "https://www.eldiario.es/tecnologia/caida-masiva-global-burbuja-ia-posible-freno-centros-datos-midterms_1_13642992.html",
+   "publicat": "2026-11-06T10:10:25.000Z"
+  },
+  {
+   "id": "608b8023e961",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nuevos Motorola Moto Buds Ultra 27: auriculares con sonido Bose y traducción con IA",
+   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-11-06/motorola-moto-buds-ultra-27-nuevos-caracteristicas-precio.html",
+   "publicat": "2026-11-06T10:00:00.000Z"
+  },
   {
    "id": "a895c11e11a8",
    "mitja": "3CatInfo",
@@ -2117,116 +2172,6 @@
    "titol": "Savana, premiada como «Scale Up Europea del Año» por el V Forum Europeo de Inteligencia Artificial",
    "url": "https://www.informacion.es/economia/2026/10/30/savana-premiada-scale-up-europea-bc-135926785.html",
    "publicat": "2026-10-30T13:16:54.000Z"
-  },
-  {
-   "id": "3f94ff619a4b",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Gortázar (CaixaBank) descarta que el uso de la IA conlleve reducciones de plantilla en el banco",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/10/30/2739827/gortazar-caixabank-descarta-uso-conlleve-reducciones-plantilla-banco.html",
-   "publicat": "2026-10-30T12:21:54.000Z"
-  },
-  {
-   "id": "f8dbf4a1025f",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La sorprendente imagen del cementerio de Alfafar en vísperas de Todos los Santos: parece hecha con IA, pero no lo es",
-   "url": "https://www.levante-emv.com/horta/2026/10/30/sorprendente-imagen-cementerio-alfafar-visperas-135923542.html",
-   "publicat": "2026-10-30T12:05:39.000Z"
-  },
-  {
-   "id": "2ebefa886c1f",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | AJEVolution sitúa a las personas en el centro de la revolución de la IA",
-   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/ajevolution-situa-a-las-personas-en-el-centro-de-la-revolucion-de-la-ia",
-   "publicat": "2026-10-30T11:34:42.000Z"
-  },
-  {
-   "id": "b752669dd21c",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La amistad de Jensen Huang, jefe de Nvidia, con una presunta agente china dispara las alarmas sobre el espionaje en el mundo de la IA",
-   "url": "https://elpais.com/tecnologia/2026-10-30/la-amistad-de-jensen-huang-jefe-de-nvidia-con-una-presunta-agente-china-dispara-las-alarmas-sobre-el-espionaje-en-el-mundo-de-la-ia.html",
-   "publicat": "2026-10-30T11:31:16.000Z"
-  },
-  {
-   "id": "a42f67693d1c",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El Modo IA de Google empieza a mostrar más anuncios: ¿cuándo llegarán a España?",
-   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-10-30/el-modo-ia-de-google-empieza-a-mostrar-mas-anuncios-cuando-llegaran-a-espana.html",
-   "publicat": "2026-10-30T11:30:00.000Z"
-  },
-  {
-   "id": "ca2205cd38ee",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Adam Mosseri, director de Instagram, ante el rechazo masivo a la automatización: “Vemos mes a mes cómo aumenta la ansiedad, frustración e ira sobre la IA”",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261030/11671984/adam-mosseri-director-instagram-rechazo-masivo-automatizacion-vemos-mes-mes-como-aumenta-ansiedad-frustracion-e-ira-sobre-ia.html",
-   "publicat": "2026-10-30T11:19:18.000Z"
-  },
-  {
-   "id": "9587f33c4732",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Por qué se rompe el iPhone Duo? El desperfecto del nuevo plegable de Apple fue diseñado con IA",
-   "url": "https://www.lavanguardia.com/neo/gadgets/20261030/11671878/rompe-iphone-duo-desperfecto-nuevo-plegable-apple-disenado-ia.html",
-   "publicat": "2026-10-30T11:18:15.000Z"
-  },
-  {
-   "id": "2d5a4fc1d0a4",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Pymes y talento: la nueva ecuación entre autenticidad e IA",
-   "url": "https://www.lavanguardia.com/economia/innovacion/20261030/11671406/pymes-talento-nueva-ecuacion-autenticidad-e-ia.html",
-   "publicat": "2026-10-30T10:29:46.000Z"
-  },
-  {
-   "id": "fa7302d846eb",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Primer contacto con Honor Robot Phone, el móvil con cámara robótica e IA que te sigue a todas partes",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/30/2739685/primer-contacto-honor-robot-phone-movil-camara-robotica-sigue-todas-partes.html",
-   "publicat": "2026-10-30T10:23:00.000Z"
-  },
-  {
-   "id": "baa59b9a477b",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El CEO de Reddit constata la caída del tráfico web, que vincula con AI Overviews y el modo de búsqueda con IA de Google",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/30/2739649/ceo-reddit-constata-caida-del-trafico-web-vincula-overviews-modo-busqueda-google.html",
-   "publicat": "2026-10-30T10:06:00.000Z"
   }
  ]
 }
