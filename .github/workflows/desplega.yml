@@ -19,7 +19,7 @@ on:
     types: [completed]
   # Xarxa de seguretat (25.07.2026): desplegament incremental cada hora.
   # Si tot es al dia, acaba en ~1 min sense pujar res; si un desplegament
-  # anterior havia fallat (FTP de Hostinger caigut), aquesta passada ho
+  # anterior havia fallat (servidor de Hostinger caigut), aquesta passada ho
   # repesca sola i la web mai queda endarrerida mes d'una hora.
   # 30.07.2026: dues passades per hora i en minuts no rodons. GitHub deixa
   # caure moltes execucions programades, sobretot als minuts mes congestionats
@@ -54,8 +54,10 @@ jobs:
       # subscribers.csv, mail.log i data/archive.json nomes viuen al servidor.
       # El marcador deploy-sha.txt es conserva NOMES com a diagnostic (el fan
       # servir el vigilant i la xarxa de seguretat), no per decidir res.
-      # Mentre els secrets SSH_* no estiguin configurats (o si l'SSH falla),
-      # el pas seguent continua fent el desplegament per FTP com fins ara.
+      # 06.11.2026 (migracio al pla Premium, srv1903): s'ha RETIRAT el recurs
+      # FTP. Apuntava en dur a srv1589 (el servidor del pla Business) i, si
+      # l'SSH hagues fallat, hauria "desplegat" al servidor vell. Ara, si
+      # l'SSH falla 3 cops, el run falla i les passades :08/:38 ho reprenen.
       - name: Desplega per rsync/SSH
         id: ssh
         env:
@@ -67,8 +69,8 @@ jobs:
         run: |
           set -u
           if [ -z "${SSH_KEY:-}" ] || [ -z "${SSH_HOST:-}" ] || [ -z "${SSH_USER:-}" ]; then
-            echo "Secrets SSH no configurats; el desplegament es fara per FTP."
-            exit 0
+            echo "::error::Falten els secrets SSH_PRIVATE_KEY, SSH_HOST o SSH_USER: no es pot desplegar."
+            exit 1
           fi
           mkdir -p "$HOME/.ssh" && chmod 700 "$HOME/.ssh"
           printf '%s\n' "$SSH_KEY" > "$HOME/.ssh/deploy_key" && chmod 600 "$HOME/.ssh/deploy_key"
@@ -90,169 +92,7 @@ jobs:
               sleep 30
             fi
           done
-          echo "::warning::rsync/SSH ha fallat 3 cops; es prova el desplegament per FTP com a recurs."
-
-      - name: Prepara lftp i restaura les dates dels fitxers
-        if: steps.ssh.outputs.deployed != 'true'
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq lftp git-restore-mtime || sudo apt-get install -y -qq lftp
-          # Les dates reals nomes fan falta al mode "mirall complet" (vegeu el
-          # pas seguent): permeten que el mirall lftp salti el que no ha canviat.
-          git restore-mtime || echo "restore-mtime no disponible: el mirall complet ho pujaria tot"
-
-      - name: Puja public/ per FTP (incremental per git-diff, mirall com a recurs)
-        if: steps.ssh.outputs.deployed != 'true'
-        env:
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        run: |
-          # Reescriptura de l'01.08.2026. Motiu: el desplegament del lot de les
-          # 06.05 va degenerar en una pujada del public/ sencer (104 MB, 400+
-          # fitxers) i va trigar mes de 25 min. El mirall lftp "incremental"
-          # depenia de comparar dates i mides per FTP (git-restore-mtime +
-          # timestamps del servidor): si qualsevol pota falla, degrada en
-          # silenci a pujar-ho TOT.
-          #
-          # Esquema nou, deterministic:
-          #  1. Al servidor hi viu /deploy-sha.txt amb el commit desplegat.
-          #  2. Cada desplegament el llegeix i puja NOMES els fitxers de
-          #     `git diff <sha-desplegat>..HEAD -- public/` (segons, no minuts).
-          #  3. El marcador es puja l'ULTIM, nomes si tots els fitxers han
-          #     pujat be: si un intent mor a mitges, el seguent repeteix el
-          #     mateix diff (idempotent).
-          #  4. El mirall complet queda nomes com a recurs: marcador absent,
-          #     sha desconegut (force push) o corrupte. Despres d'un mirall bo
-          #     tambe es puja el marcador, i es torna al mode rapid.
-          #  5. 14.08.2026: el marcador es llegeix per DUES vies independents,
-          #     primer FTP i, si falla, HTTPS (pas 1-alt). Abans, un FTP mut
-          #     condemnava l'intent al mirall complet encara que el canvi
-          #     fossin dos fitxers, i amb el cancel-in-progress dels crons
-          #     aixo degenerava en un bucle de runs cancel·lats.
-          #
-          # Es conserva de l'enduriment del 25-30.07.2026: TLS nomes al canal
-          # de control, sense --delete (els MP3 d'assets/audio nomes viuen al
-          # servidor), --parallel=2 (limit de connexions FTP del compte, que
-          # l'audio tambe fa servir), 6 intents amb pausa creixent, i timeouts
-          # curts perque un servidor mut falli rapid.
-          #
-          # El mode es decideix DINS de cada intent: si el marcador no s'ha
-          # pogut llegir per una fallada passatgera de l'FTP, l'intent seguent
-          # ho torna a provar i no queda condemnat al mirall complet.
-          set -u
-          HOST="ftp://srv1589.hstgr.io"
-          CRED="u901078817.claude,$FTP_PASSWORD"
-          OPTS="set ftp:ssl-force yes; set ftp:ssl-protect-data no; set net:max-retries 2; set net:timeout 30; set net:reconnect-interval-base 5; set net:reconnect-interval-max 20;"
-          HEAD_SHA=$(git rev-parse HEAD)
-          printf '%s\n' "$HEAD_SHA" > /tmp/deploy-sha.txt
-
-          intents=6
-          pausa=60
-          for i in $(seq 1 "$intents"); do
-            echo "== Intent $i de $intents =="
-
-            # 1) Llegeix el marcador del servidor (si existeix)
-            base=""
-            rm -f /tmp/base-sha.txt
-            if lftp -u "$CRED" -e "$OPTS get /deploy-sha.txt -o /tmp/base-sha.txt; bye" "$HOST" 2>/dev/null; then
-              base=$(tr -cd 'a-f0-9' < /tmp/base-sha.txt | head -c 40)
-            fi
-
-            # 1-alt) Segona via per llegir el marcador (14.08.2026). El mateix
-            # fitxer que l'lftp acaba de no poder llegir el serveix el servidor
-            # web per HTTPS, que es un canal INDEPENDENT de l'FTP i de l'SSH.
-            # Sense aixo, un FTP mut condemnava l'intent al mirall complet
-            # (104 MB, >30 min) encara que el canvi real fossin dos fitxers; i
-            # com que els crons :08 i :38 desbanquen el run en curs
-            # (cancel-in-progress), cap mirall no arribava mai al final i el
-            # desplegament entrava en bucle. Va passar el 14.08.2026 amb les
-            # peces setmanals: quatre runs seguits (37, 11, 31 i 12 min) morts
-            # sense publicar res. Llegint el marcador per HTTPS, aquell cas
-            # hauria estat una pujada incremental de 2 fitxers.
-            # El marcador nomes s'escriu despres d'un desplegament correcte, o
-            # sigui que com a molt va endarrerit: aixo fa pujar algun fitxer de
-            # mes, mai de menys. Les comprovacions del pas 2 (ancestre de HEAD)
-            # continuen decidint si es pot fer servir.
-            if [ ${#base} -ne 40 ]; then
-              rm -f /tmp/base-sha-http.txt
-              if curl -fsS --max-time 20 -H 'Cache-Control: no-cache' \
-                   "https://inteligencia-artificial.cat/deploy-sha.txt?nc=${GITHUB_RUN_ID:-0}-$i" \
-                   -o /tmp/base-sha-http.txt 2>/dev/null; then
-                base=$(tr -cd 'a-f0-9' < /tmp/base-sha-http.txt | head -c 40)
-                if [ ${#base} -eq 40 ]; then
-                  echo "Marcador llegit per HTTPS: ${base:0:7} (l'FTP no l'ha pogut llegir)."
-                fi
-              fi
-            fi
-
-            # 1-bis) Guarda (01.08.2026): si el servidor ja serveix un commit
-            # MES NOU que el d'aquesta run i que ja conte HEAD, no cal fer res.
-            # Passa amb runs encadenades que arrenquen tard o reexecutades:
-            # abans queien al mirall complet i re-pujaven un arbre antic.
-            if [ ${#base} -eq 40 ] && [ "$base" != "$HEAD_SHA" ] \
-               && git cat-file -e "$base^{commit}" 2>/dev/null \
-               && git merge-base --is-ancestor HEAD "$base" 2>/dev/null; then
-              echo "El servidor ja serveix ${base:0:7}, posterior a $HEAD_SHA. Aquesta run no ha de fer res."
-              exit 0
-            fi
-
-            # 2) Decideix el mode
-            mode="mirall"
-            motiu="marcador absent o illegible ni per FTP ni per HTTPS (primer desplegament, o servidor mut del tot)"
-            if [ ${#base} -eq 40 ] && git cat-file -e "$base^{commit}" 2>/dev/null && git merge-base --is-ancestor "$base" HEAD 2>/dev/null; then
-              if [ "$base" = "$HEAD_SHA" ]; then
-                echo "El servidor ja te $HEAD_SHA desplegat. Res a fer."
-                exit 0
-              fi
-              git diff --name-only --no-renames --diff-filter=d "$base" HEAD -- public/ > /tmp/canvis.txt
-              n=$(wc -l < /tmp/canvis.txt)
-              if [ "$n" -eq 0 ]; then
-                echo "Cap fitxer de public/ ha canviat des de ${base:0:7}; nomes s'actualitza el marcador."
-                if lftp -u "$CRED" -e "$OPTS put /tmp/deploy-sha.txt -o /deploy-sha.txt; bye" "$HOST"; then
-                  exit 0
-                fi
-                mode=""
-              else
-                mode="diff"
-                echo "Mode incremental: $n fitxer(s) canviats des de ${base:0:7}:"
-                sed 's/^/   - /' /tmp/canvis.txt
-              fi
-            else
-              if [ ${#base} -eq 40 ]; then motiu="el sha del servidor ($base) no es cap avantpassat de HEAD"; fi
-            fi
-
-            # 3) Construeix i executa el pla de l'intent
-            if [ "$mode" = "diff" ]; then
-              {
-                printf '%s\n' "$OPTS"
-                echo "set cmd:fail-exit no"
-                sed 's|^public/||' /tmp/canvis.txt | xargs -r -n1 dirname | sort -u | grep -v '^\.$' | \
-                  while IFS= read -r d; do printf 'mkdir -p "/%s"\n' "$d"; done
-                echo "set cmd:fail-exit yes"
-                while IFS= read -r f; do
-                  printf 'put "%s" -o "/%s"\n' "$f" "${f#public/}"
-                done < /tmp/canvis.txt
-                echo 'put /tmp/deploy-sha.txt -o /deploy-sha.txt'
-                echo "bye"
-              } > /tmp/pla.lftp
-              if lftp -u "$CRED" -e "source /tmp/pla.lftp" "$HOST"; then
-                echo "Desplegament incremental acabat (intent $i)."
-                exit 0
-              fi
-            elif [ "$mode" = "mirall" ]; then
-              echo "Mode mirall complet ($motiu)."
-              if lftp -u "$CRED" -e "$OPTS mirror -R --parallel=2 --verbose public/ /; put /tmp/deploy-sha.txt -o /deploy-sha.txt; bye" "$HOST"; then
-                echo "Mirall complet acabat (intent $i)."
-                exit 0
-              fi
-            fi
-
-            if [ "$i" -lt "$intents" ]; then
-              echo "L'FTP ha fallat; nou intent d'aqui a $pausa s..."
-              sleep "$pausa"
-              pausa=$((pausa + 60))
-            fi
-          done
-          echo "::error::El desplegament FTP ha fallat despres de $intents intents. Les passades de repesca (:08 i :38) i la xarxa de seguretat ho reintentaran."
+          echo "::error::rsync/SSH ha fallat 3 cops. Les passades de repesca (:08 i :38) ho reintentaran."
           exit 1
 
       # Butlletí enviat des del web (17.10.2026): després de cada desplegament,
