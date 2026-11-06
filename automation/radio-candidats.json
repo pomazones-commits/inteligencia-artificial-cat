@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-06T09:14:50.052Z",
+  "generat": "2026-11-06T11:21:02.382Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 21,
+      "audios": 20,
       "sobre_ia": 1
     },
     {
@@ -173,8 +173,8 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 300,
-      "sobre_ia": 2
+      "audios": 400,
+      "sobre_ia": 3
     }
   ],
   "candidats": [
@@ -186,7 +186,7 @@
       "data": "2026-11-06",
       "durada": "1 h 0 min",
       "titol_original": "El matí, de 6 a 7 h (Hora informativa) - 06/11/2026",
-      "descripcio_original": "Els dubtes sobre la IA després de la victòria demòcrata als Estats Units,enfonsa les borses.",
+      "descripcio_original": "La incertesa sobre la IA després de la victòria demòcrata a les eleccions de mig mandat dels Estats Units enfonsa les borses.",
       "descripcio_curta": true,
       "ia_al_titol": false,
       "url": "https://www.3cat.cat/3cat/el-mati-de-6-a-7-h-hora-informativa-06112026/audio/1296698/",
@@ -210,6 +210,22 @@
       "reproductor": {
         "tipus": "3cat",
         "id": "1296719"
+      }
+    },
+    {
+      "id": "rna-1937354",
+      "emissora": "Ràdio Nacional d'Andorra",
+      "programa": "Avui serà un bon dia",
+      "programa_url": "https://www.rtva.ad/programes/avui-sera-un-bon-dia",
+      "data": "2026-11-06",
+      "durada": "",
+      "titol_original": "L'Andorra de fa 100 anys - Avui serà un bon dia - 06/11/2026",
+      "descripcio_original": "En Joan Junyent és un pou de sabiesa i és l'autor del llibre 'Andorra cent anys entre mirades'. Si l'hi afegim en Claude Benet, la secció és una delícia.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.rtva.ad/programes/l-andorra-de-fa-100-anys-avui-sera-un-bon-dia-06-11-2026",
+      "reproductor": {
+        "tipus": "enllac"
       }
     }
   ]
