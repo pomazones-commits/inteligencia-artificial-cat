@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-06T12:31:44.584Z",
+ "actualitzat": "2026-11-06T13:17:11.436Z",
  "fonts": 44,
  "articles": [
   {
@@ -10,7 +10,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Nvidia invierte 1.000 millones de dólares en la surcoreana Naver y se convierte en tercer accionista",
+   "titol": "Nvidia invierte 1.000 millones de dólares en Naver como alianza estratégica para crear centros de datos a gran escala",
    "url": "https://cincodias.elpais.com/companias/2026-11-06/nvidia-invierte-1000-millones-de-dolares-en-la-surcoreana-naver-y-se-convierte-en-tercer-accionista.html",
    "publicat": "2026-11-06T12:20:57.000Z"
   },
@@ -131,7 +131,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "IAG redujo un 16,2% su beneficio hasta septiembre por el alza del combustible",
+   "titol": "IAG reduce un 16,2% su beneficio hasta septiembre y prevé cerrar 2026 con un margen operativo del 12%",
    "url": "https://cincodias.elpais.com/companias/2026-11-06/iag-redujo-un-162-su-beneficio-hasta-septiembre-por-el-alza-del-combustible.html",
    "publicat": "2026-11-06T07:47:43.000Z"
   },
@@ -2161,17 +2161,6 @@
    "titol": "Los mayores miedos de los jóvenes ante la IA: privacidad, dependencia y futuro profesional",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/10/30/2739899/mayores-miedos-jovenes-ante-privacidad-dependencia-futuro-profesional.html",
    "publicat": "2026-10-30T14:06:24.000Z"
-  },
-  {
-   "id": "f0fc8a2a7335",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Savana, premiada como «Scale Up Europea del Año» por el V Forum Europeo de Inteligencia Artificial",
-   "url": "https://www.informacion.es/economia/2026/10/30/savana-premiada-scale-up-europea-bc-135926785.html",
-   "publicat": "2026-10-30T13:16:54.000Z"
   }
  ]
 }
