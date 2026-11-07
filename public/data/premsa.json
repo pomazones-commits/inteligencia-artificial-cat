@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-07T11:22:00.325Z",
+ "actualitzat": "2026-11-07T13:15:10.239Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "6127e88c90c8",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La UPV crea un espectáculo pionero con la IA del cocreador de Audacity",
+   "url": "https://www.lasprovincias.es/alicante/upv-crea-espectaculo-pionero-ia-audacity-20261107122623-nt.html",
+   "publicat": "2026-11-07T11:27:28.000Z"
+  },
   {
    "id": "738a50b5f58b",
    "mitja": "El Nacional",
@@ -13,6 +24,17 @@
    "titol": "Enrique Dans demana intervenir OpenAI: \"No pot seguir decidint si els seus sistemes són segurs\"",
    "url": "https://www.elnacional.cat/ca/tecnologia/enrique-dans-demana-intervenir-openai-no-pot-seguir-decidint-si-seus-sistemes-son-segurs_1721435_102.html",
    "publicat": "2026-11-07T11:00:00.000Z"
+  },
+  {
+   "id": "94b156f605c9",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El III Congreso de la Ingeniería Agrícola reunirá en Córdoba a expertos de toda España y tendrá la IA como eje principal",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/07/2745109/iii-congreso-ingenieria-agricola-reunira-cordoba-expertos-toda-espana-tendra-como-eje-principal.html",
+   "publicat": "2026-11-07T09:44:51.000Z"
   },
   {
    "id": "dbbbe5bf3aa8",
@@ -397,7 +419,9 @@
    "ambit": "catala",
    "titol": "Un sistema de inteligencia artificial de la Universidad de Alicante analiza la entonación y la dicción de la voz para detectar alzhéimer",
    "url": "https://www.informacion.es/alicante/2026/11/06/investigadores-ua-descubren-cambios-voz-alertan-alzheimer-enfermedades-alicante-136153552.html",
-   "publicat": "2026-11-06T10:38:06.000Z"
+   "publicat": "2026-11-06T10:38:06.000Z",
+   "noticia": "universitat-alacant-ia-veu-alzheimer",
+   "noticiaTitol": "Un equip de la Universitat d'Alacant ensenya una IA a detectar senyals d'Alzheimer en la manera de parlar, amb un 98% d'encerts en una primera prova"
   },
   {
    "id": "7c03668991e0",
