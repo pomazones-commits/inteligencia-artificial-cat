@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-06T17:15:59.611Z",
+  "generat": "2026-11-07T05:16:40.192Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -8,7 +8,7 @@
       "programa": "Revolució 4.0",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 11
+      "sobre_ia": 14
     },
     {
       "font": "3cat",
@@ -16,7 +16,7 @@
       "programa": "Catalunya nit",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 5
+      "sobre_ia": 4
     },
     {
       "font": "3cat",
@@ -72,7 +72,7 @@
       "programa": "La tarda de Ràdio 4",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 2
     },
     {
       "font": "rtve",
@@ -96,7 +96,7 @@
       "programa": "El pla B",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 3
     },
     {
       "font": "omny",
@@ -126,7 +126,7 @@
       "font": "apunt",
       "emissora": "À Punt Ràdio",
       "programa": "",
-      "resultats": 6,
+      "resultats": 5,
       "estat": "ok",
       "audios": 1,
       "sobre_ia": 0
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 30,
+      "audios": 29,
       "sobre_ia": 2
     },
     {
@@ -173,9 +173,112 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 400,
+      "audios": 300,
       "sobre_ia": 3
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "3cat-1296638",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-11-07",
+      "durada": "10 min",
+      "titol_original": "Quins nous aprenentatges necessiten ara els enginyers?",
+      "descripcio_original": "Parlem de com l'enginyeria ha transformat les nostres vides en els últims 60 anys, des de l'arribada d'internet fins a la revolució de la intel·ligència artificial, i de les habilitats que necessitaran els professionals del futur. Xantal Llavina conversa amb la doctora Guiomar Corral, directora de l'Escola Tècnica Superior d'Enginyeria La Salle, que celebra sis dècades d'història i reflexiona sobre l'impacte de la IA en la professió i la importància del pensament crític, l'empatia i el treball en equip.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/quins-nous-aprenentatges-necessiten-ara-els-enginyers/audio/1296638/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1296638"
+      }
+    },
+    {
+      "id": "3cat-1296639",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-11-07",
+      "durada": "10 min",
+      "titol_original": "Alex Carballo: \"Els mòbils amb agents treballaran per tu mentre dorms\"",
+      "descripcio_original": "Parlem de com els agents d'intel·ligència artificial estan revolucionant els telèfons mòbils, passant de respondre preguntes a gestionar tasques i prendre decisions de manera autònoma, des de reservar viatges fins a fer compres. Xantal Llavina conversa amb Alex Carballo, director de Vodafone a Catalunya i Aragó, que explica com Apple, Google i Samsung competeixen per liderar aquesta nova revolució tecnològica i reflexiona sobre els reptes de privacitat i l'impacte de la IA en la nostra vida quotidiana.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/alex-carballo-els-mobils-amb-agents-treballaran-per-tu-mentre-dorms/audio/1296639/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1296639"
+      }
+    },
+    {
+      "id": "3cat-1296640",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-11-07",
+      "durada": "53 min",
+      "titol_original": "Mateo Valero: \"La IA farà més intel·ligents els intel·ligents i sense xips no hi ha paradís\"",
+      "descripcio_original": "El \"Revolució 4.0\", presentat i dirigit per Xantal Llavina, arrenca amb Mateo Valero, fundador i director del Barcelona Supercomputing Center, amb qui parlem de com la intel·ligència artificial i els superordinadors estan revolucionant la medicina, de la lluita contra el canvi climàtic i dels reptes d'Europa per competir amb les grans potències tecnològiques. També comptem amb Elisenda Bonet i la doctora Elisenda Eixarch, de FetaLife, que desenvolupen una incubadora líquida que podria salvar nadons prematurs; Alex Carballo, de Vodafone, amb qui descobrim els agents d'IA que podran gestionar tasques i prendre decisions per nosaltres, i la doctora Guiomar Corral, de La Salle, amb qui repassem 60 anys de revolucions tecnològiques i reflexionem sobre el futur de l'enginyeria i les habilitats humanes que seran essencials en l'era de la IA.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.3cat.cat/3cat/mateo-valero-la-ia-fara-mes-intelligents-els-intelligents-i-sense-xips-no-hi-ha/audio/1296640/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1296640"
+      }
+    },
+    {
+      "id": "rtve-17304137",
+      "emissora": "Ràdio 4",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
+      "data": "2026-11-06",
+      "durada": "32 min",
+      "titol_original": "Tecnologies que transformen la ciutat amb Arnau Font",
+      "descripcio_original": "Arnau Font, col·laborador del programa de la intel·ligència artificial, obra el meló de com la tecnologia està transformant les ciutats: semàfors que s’adapten al trànsit amb intel·ligència artificial, sistemes per detectar vehicles massa sorollosos i mapes de calor per saber quins carrers necessiten més ombra. També descobrirem noves eines per detectar estafes digitals i projectes de Softcatalà perquè la intel·ligència artificial entengui i parli millor el català. I ens fixarem en l’alerta de Brussel·les sobre TikTok i el possible impacte dels seus algoritmes en el benestar emocional dels usuaris més joves.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-tecnologies-transformen-ciutat-amb-arnau-font/17304137/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17304137"
+      }
+    },
+    {
+      "id": "rtve-17304203",
+      "emissora": "Ràdio 4",
+      "programa": "El pla B",
+      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
+      "data": "2026-11-06",
+      "durada": "14 min",
+      "titol_original": "Les borses mundials reculen per la incertesa sobre la regulació de la IA",
+      "descripcio_original": "Les borses europees han tancat la setmana amb pèrdues, arrossegades per la caiguda dels valors tecnològics i el temor que la victòria demòcrata als Estats Units comporti una regulació més estricta de la intel·ligència artificial. Les caigudes han estat especialment fortes a les borses asiàtiques i al Nasdaq, en una setmana marcada per la volatilitat dels mercats. Connectem amb Robert Casajuana, analista financer.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-les-borses-mundials-reculen-per-incertesa-sobre-regulacio-ia/17304203/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17304203"
+      }
+    },
+    {
+      "id": "rtve-17304289",
+      "emissora": "Ràdio 4",
+      "programa": "El pla B",
+      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
+      "data": "2026-11-06",
+      "durada": "1 h 30 min",
+      "titol_original": "Netanyahu contra les cordes - Incertesa a la borsa - Tertúlia sobre el cas Koldo - El colofó de Toni Mata",
+      "descripcio_original": "Amb Santi Echevarría, corresponsal de RNE a Israel, i Ricardo Mir de Francia analitzem la situació de Netanyahu després de no aconseguir la majoria al parlament israelià i que Trump hagi perdut les midterms. Seguidament, posem el focus a la borsa, que ha registrat caigudes degut a la incertesa entorn la intel·ligència artificial. Ho analitzem amb Robert Casajuana, analista financer. Després arriba la tertúlia amb David Andrés, Quim Bosch, Emiliano Bermúdez, Enric Bàrcena i Albert València. I abans d’arribar a les nou del vespre posem el colofó a la tertúlia amb Toni Mata.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-netanyahu-contra-les-cordes-incertesa-borsa-tertulia-sobre-cas-koldo-colofo-toni-mata/17304289/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17304289"
+      }
+    }
+  ]
 }
