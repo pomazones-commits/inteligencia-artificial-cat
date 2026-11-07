@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-07T05:16:40.703Z",
+ "actualitzat": "2026-11-07T09:15:40.586Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "784YQBiZArk",
+   "titol": "How Siemens Plans Production in Minutes With NVIDIA AI",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-06T23:10:49.000Z",
+   "descripcio": "See how Siemens uses the NVIDIA Factory Operations Blueprint to plan production in minutes and NVIDIA Cosmos to generate a virtual prototype and synthetic data for training optical inspection models before production starts. Discover how Siemens is integrating AI agents and digital twins to accelera",
+   "miniatura": "/assets/videos/784YQBiZArk.jpg"
+  },
+  {
+   "id": "hJOwOkLHRN0",
+   "titol": "LifeVal: Measuring AI progress on the tasks that matter in everyday life.",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-06T21:11:34.000Z",
+   "descripcio": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government se",
+   "miniatura": "/assets/videos/hJOwOkLHRN0.jpg"
+  },
   {
    "id": "pXRZyOxbDL4",
    "titol": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
