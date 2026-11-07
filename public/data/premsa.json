@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-07T13:15:10.239Z",
+ "actualitzat": "2026-11-07T17:15:54.886Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "786716a0534d",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'editorial Almadía manté el premi a David Silva Rojas, l'autor acusat d'escriure una novel·la amb IA",
+   "url": "https://www.3cat.cat/3catinfo/leditorial-almadia-mante-el-premi-a-lautor-acusat-descriure-una-novella-amb-ia/noticia/3438468",
+   "publicat": "2026-11-07T14:57:09.000Z"
+  },
   {
    "id": "6127e88c90c8",
    "mitja": "Las Provincias",
@@ -70,17 +81,6 @@
    "publicat": "2026-11-07T08:00:55.000Z"
   },
   {
-   "id": "0ff9ec720fa4",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "'Deepfakes' de Sánchez, Feijóo o Abascal: ¿Puede la IA influir en el voto del 29N?",
-   "url": "https://www.elperiodico.com/es/politica/20261107/deepfakes-sanchez-feijoo-abascal-elecciones-generales-29n-136172210",
-   "publicat": "2026-11-07T07:01:00.000Z"
-  },
-  {
    "id": "d3f0a703ba9f",
    "mitja": "3CatInfo",
    "font": "3catinfo",
@@ -123,6 +123,17 @@
    "titol": "La IA canvia els ciberatacs: de les grans neveres de supermercats fins a l'smart TV de casa",
    "url": "https://www.3cat.cat/3catinfo/la-ia-canvia-els-ciberatacs-de-les-grans-neveres-de-supermercats-fins-a-la-smart-tv-de-casa/noticia/3438437",
    "publicat": "2026-11-07T06:09:51.000Z"
+  },
+  {
+   "id": "9b6c7a88a003",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "'Deepfakes' de Sánchez, Feijóo o Abascal: ¿Pot la IA influir en el vot del 29N?",
+   "url": "https://www.elperiodico.cat/politica/20261107/deepfakes-sanchez-feijoo-abascal-eleccions-generals-29n-136172210",
+   "publicat": "2026-11-07T06:01:00.000Z"
   },
   {
    "id": "77e1868b14a2",
