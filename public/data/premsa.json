@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-07T17:52:39.600Z",
+ "actualitzat": "2026-11-07T22:22:01.366Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "52432f53639f",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA no vol dir-me a qui he de votar, però...",
+   "url": "https://www.ara.cat/media/ia-no-vol-dir-he-votar_129_5903477.html",
+   "publicat": "2026-11-07T18:42:06.000Z"
+  },
   {
    "id": "532f969fc8ab",
    "mitja": "elDiario.es",
@@ -2348,39 +2359,6 @@
    "titol": "La lluita mundial pel domini de la IA",
    "url": "https://www.regio7.cat/opinio/2026/10/31/lluita-mundial-pel-domini-ia-135935693.html",
    "publicat": "2026-10-31T22:59:09.000Z"
-  },
-  {
-   "id": "95495c1cdfe9",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Ucraïna ha fet miques la “IA sobirana” que somnia Putin",
-   "url": "https://www.vilaweb.cat/noticies/ia-sobirana-russia-ucraina-guerra-atacs",
-   "publicat": "2026-10-31T20:40:44.000Z"
-  },
-  {
-   "id": "5e9ac98a1617",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cómo adoptar la IA con éxito",
-   "url": "https://www.lavanguardia.com/economia/20261031/11672996/como-adoptar-ia-exito.html",
-   "publicat": "2026-10-31T20:11:29.000Z"
-  },
-  {
-   "id": "51559b691ea7",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Les tecnològiques s'estimben a la borsa pels dubtes sobre la rendibilitat de la IA",
-   "url": "https://www.3cat.cat/3catinfo/les-tecnologiques-sestimben-a-la-borsa-pels-dubtes-sobre-la-rendibilitat-de-la-ia/noticia/3437156",
-   "publicat": "2026-10-31T19:12:35.000Z"
   }
  ]
 }
