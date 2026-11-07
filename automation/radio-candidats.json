@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-07T09:14:48.986Z",
+  "generat": "2026-11-07T13:14:15.507Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -152,8 +152,6 @@
       "font": "wordpress",
       "emissora": "Ràdio Capital de l'Empordà",
       "programa": "Supermatí",
-      "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
-      "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
       "audios": 21,
       "sobre_ia": 1
@@ -177,57 +175,5 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": [
-    {
-      "id": "rtve-17304137",
-      "emissora": "Ràdio 4",
-      "programa": "La tarda de Ràdio 4",
-      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
-      "data": "2026-11-06",
-      "durada": "32 min",
-      "titol_original": "Tecnologies que transformen la ciutat amb Arnau Font",
-      "descripcio_original": "Arnau Font, col·laborador del programa de la intel·ligència artificial, obra el meló de com la tecnologia està transformant les ciutats: semàfors que s’adapten al trànsit amb intel·ligència artificial, sistemes per detectar vehicles massa sorollosos i mapes de calor per saber quins carrers necessiten més ombra. També descobrirem noves eines per detectar estafes digitals i projectes de Softcatalà perquè la intel·ligència artificial entengui i parli millor el català. I ens fixarem en l’alerta de Brussel·les sobre TikTok i el possible impacte dels seus algoritmes en el benestar emocional dels usuaris més joves.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-tecnologies-transformen-ciutat-amb-arnau-font/17304137/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17304137"
-      }
-    },
-    {
-      "id": "rtve-17304203",
-      "emissora": "Ràdio 4",
-      "programa": "El pla B",
-      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
-      "data": "2026-11-06",
-      "durada": "14 min",
-      "titol_original": "Les borses mundials reculen per la incertesa sobre la regulació de la IA",
-      "descripcio_original": "Les borses europees han tancat la setmana amb pèrdues, arrossegades per la caiguda dels valors tecnològics i el temor que la victòria demòcrata als Estats Units comporti una regulació més estricta de la intel·ligència artificial. Les caigudes han estat especialment fortes a les borses asiàtiques i al Nasdaq, en una setmana marcada per la volatilitat dels mercats. Connectem amb Robert Casajuana, analista financer.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-les-borses-mundials-reculen-per-incertesa-sobre-regulacio-ia/17304203/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17304203"
-      }
-    },
-    {
-      "id": "rtve-17304289",
-      "emissora": "Ràdio 4",
-      "programa": "El pla B",
-      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
-      "data": "2026-11-06",
-      "durada": "1 h 30 min",
-      "titol_original": "Netanyahu contra les cordes - Incertesa a la borsa - Tertúlia sobre el cas Koldo - El colofó de Toni Mata",
-      "descripcio_original": "Amb Santi Echevarría, corresponsal de RNE a Israel, i Ricardo Mir de Francia analitzem la situació de Netanyahu després de no aconseguir la majoria al parlament israelià i que Trump hagi perdut les midterms. Seguidament, posem el focus a la borsa, que ha registrat caigudes degut a la incertesa entorn la intel·ligència artificial. Ho analitzem amb Robert Casajuana, analista financer. Després arriba la tertúlia amb David Andrés, Quim Bosch, Emiliano Bermúdez, Enric Bàrcena i Albert València. I abans d’arribar a les nou del vespre posem el colofó a la tertúlia amb Toni Mata.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-netanyahu-contra-les-cordes-incertesa-borsa-tertulia-sobre-cas-koldo-colofo-toni-mata/17304289/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17304289"
-      }
-    }
-  ]
+  "candidats": []
 }
