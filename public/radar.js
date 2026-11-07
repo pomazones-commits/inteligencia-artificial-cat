@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Alacant",
+    "category": "IA I SOCIETAT",
+    "date": "07.11.2026",
+    "title": "Un equip de la Universitat d'Alacant ensenya una IA a detectar senyals d'Alzheimer en la manera de parlar, amb un 98% d'encerts en una primera prova",
+    "summary": "El sistema escolta la pronunciació, la dicció i l'entonació, i també analitza la coherència del que es diu. Els investigadors adverteixen que és una prova de concepte amb 223 persones i que no serveix encara per diagnosticar.",
+    "detail": "La manera de parlar pot donar pistes sobre el deteriorament de la memòria: no només el que diu una persona, sinó com pronuncia les paraules, com construeix les frases o quina entonació fa servir. El grup de recerca Lucentia de la Universitat d'Alacant hi treballa amb l'Institut d'Investigació Sanitària i Biomèdica d'Alacant (Isabial) i el neuròleg Ángel Pérez Sempere, i n'ha presentat els primers resultats al congrés sobre malalties neurodegeneratives, IA i dades massives que se celebra aquests dies a la mateixa universitat.\n\nEls participants responen, en una aplicació mòbil, preguntes senzilles sobre la memòria i l'orientació (on deixen els objectes de cada dia, dir paraules, dates i fets personals) mentre se'ls grava la veu. Els investigadors analitzen les gravacions de dues maneres: una converteix la veu en text i comprova si la persona manté la coherència i troba les paraules adequades; l'altra estudia directament la pronunciació, la dicció i l'entonació. Aquesta segona via és la que dona el resultat més cridaner, un 98% d'exactitud en un dels models a l'hora de classificar les mostres; la combinació de les dues supera el 90%. Les proves es van fer amb gravacions de 184 persones sense diagnòstic i 39 de diagnosticades, i amb mostres diferents per entrenar el sistema i per comprovar-lo.\n\nL'equip treballa ara perquè la IA expliqui quines paraules o quins trets de la pronunciació han pesat en cada resultat, de manera que els neuròlegs ho puguin comprovar. Una eina així, barata i que es pot fer servir des del mòbil, podria ajudar a detectar senyals d'alerta abans i a decidir qui necessita una avaluació a fons. Les gravacions es processen en servidors del mateix grup, anonimitzades i xifrades.\n\nEls mateixos investigadors avisen que és una primera prova de concepte, feta en uns sis mesos, i que el 98% correspon als assajos i no vol dir que l'eina pugui diagnosticar l'Alzheimer amb aquesta fiabilitat en una consulta. La mostra és petita, sobretot la de pacients, i el treball no s'ha publicat encara en cap revista revisada. El pas següent és ampliar el nombre de participants i fer estudis clínics més grans; en cap cas no ha de substituir les proves ni el diagnòstic del neuròleg.",
+    "source": "Información",
+    "url": "https://www.informacion.es/alicante/2026/11/06/investigadores-ua-descubren-cambios-voz-alertan-alzheimer-enfermedades-alicante-136153552.html",
+    "image": "./assets/universitat-alacant-ia-veu-alzheimer-20261107.jpg",
+    "slug": "universitat-alacant-ia-veu-alzheimer"
+  },
+  {
     "place": "València",
     "category": "IA I SOCIETAT",
     "date": "07.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.ultimahora.es/noticias/local/2026/11/04/2742087/empezar-anos-ahorrar-miles-euros-empresas-mallorca-gracias-ia.html",
     "image": "./assets/kairo-ai-palma-automatitzacio-empreses-mallorca-20261104.jpg",
     "slug": "kairo-ai-palma-automatitzacio-empreses-mallorca"
-  },
-  {
-    "place": "Andorra",
-    "category": "IA I SOCIETAT",
-    "date": "04.11.2026",
-    "title": "Andorra acull una conferència del Consell d'Europa sobre educació i IA inclusiva, i la ministra Imma Tor demana que respecti els drets humans",
-    "summary": "La trobada, al Centre de Congressos d'Andorra la Vella fins dimecres, reuneix representants i experts d'Europa, l'Àfrica i l'Orient Mitjà per parlar de diàleg intercultural, polítiques públiques i societats digitals inclusives.",
-    "detail": "Andorra la Vella acull dimarts i dimecres la Conferència del Consell d'Europa sobre el diàleg intercultural, l'educació i una intel·ligència artificial inclusiva, que se celebra al Centre de Congressos de la capital. La trobada reuneix durant dues jornades representants i experts d'Europa, l'Àfrica i l'Orient Mitjà.\n\nLa ministra d'Afers Exteriors, Imma Tor, va inaugurar la conferència defensant que la intel·ligència artificial s'ha de desenvolupar respectant els drets humans i els valors democràtics, segons va explicar el Govern en un comunicat. Tor va reconèixer les oportunitats que obre en l'educació, la salut, l'economia i la diplomàcia, però va advertir dels riscos de desinformació, manipulació i discriminació, i va reivindicar el paper de l'educació per fomentar-ne un ús crític i responsable. També va recordar el compromís d'Andorra amb el Centre Nord-Sud del Consell d'Europa, que el Principat presideix des del maig a través de l'ambaixador Andreu Jordi. El director de Cooperació de Programes del Consell d'Europa, Claus Neukirch, va alertar, per la seva banda, de les desigualtats entre països a l'hora d'accedir a aquesta tecnologia. Durant les dues jornades es parlarà del paper de l'educació, de les polítiques públiques i de les iniciatives juvenils en la construcció de societats digitals inclusives.\n\nLa cita situa Andorra en un dels debats que el Consell d'Europa ha fet seus: l'organització d'Estrasburg va aprovar el 2024 el primer tractat internacional vinculant sobre intel·ligència artificial, drets humans, democràcia i estat de dret. Per a un país petit, acollir aquest tipus de trobades és una manera de guanyar presència en la conversa internacional sobre com s'ha de governar la IA, i coincideix amb altres moviments interns: el Consell Superior de la Justícia, per exemple, estudia eines d'IA per agilitzar la tramitació judicial.\n\nDe moment, la conferència és un espai de debat i de declaracions, no d'acords concrets. Les informacions publicades no detallen cap compromís, programa ni pressupost que en surti, ni quines conclusions es presentaran en acabar la trobada aquest dimecres.",
-    "source": "Diari d'Andorra",
-    "url": "https://www.diariandorra.ad/nacional/261103/imma-tor-reclama-ia-servei-les-persones-i-respectuosa-amb-els-drets-humans_207952.html",
-    "image": "./assets/andorra-conferencia-consell-europa-ia-inclusiva-educacio-20261104.jpg",
-    "slug": "andorra-conferencia-consell-europa-ia-inclusiva-educacio"
   }
 ];
