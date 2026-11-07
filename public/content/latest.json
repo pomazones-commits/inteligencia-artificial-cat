@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-06T17:14:57.791Z",
+  "updatedAt": "2026-11-07T05:15:52.692Z",
   "items": [
     {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Un avaluador independent conclou que Anthropic millora els seus models el doble de ràpid que fa un any, i que la mateixa IA n'és la causa principal",
-      "excerpt": "METR, una entitat sense ànim de lucre que avalua models per als grans laboratoris, ha revisat dades internes de l'empresa i entrevistat el seu personal. Diu que l'informe públic d'Anthropic de l'agost «subestima» l'acceleració, una setmana abans que l'empresa surti a borsa."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Un rellotge intel·ligent amb IA detecta la hipertensió tan bé com la presa de pressió a la consulta, segons un estudi a «Nature»",
-      "excerpt": "El sistema llegeix els sensors de llum i de moviment d'un rellotge de Google, sense manegot. En una prova amb 196 persones va encertar el 65,8% dels casos d'hipertensió, davant del 55,3% de la mesura a la consulta, una diferència que no és estadísticament significativa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Vuit de cada tretze agents d'IA recomanen opcions més cares a qui sembla tenir més diners, encara que la petició sigui idèntica, segons un estudi de Carnegie Mellon i Cisco",
-      "excerpt": "Els investigadors van fer 325.000 proves amb usuaris ficticis que demanaven vols, assegurances de salut i màsters. Amb el perfil complet, la diferència de preu arribava a 284 dòlars al mes en una assegurança. És una prepublicació que encara no ha passat la revisió per parells."
-    },
-    {
-      "category": "PRODUCTES",
+      "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "Amazon ja deixa comprar amb Alexa per missatge de text, després d'haver tancat la porta a l'agent de Meta",
-      "excerpt": "L'assistent busca productes, els posa a la cistella i els compra a partir d'una petició escrita o d'una foto. De moment arriba només a alguns clients dels Estats Units, que reben una invitació, i a les portes de la campanya de Nadal."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "La despesa de les empreses en IA s'estanca: les dades de Ramp mostren que van usar més IA però hi van gastar gairebé el mateix",
-      "excerpt": "Segons l'índex de l'empresa de targetes corporatives, el que les empreses van pagar per fer servir models d'IA només va créixer un 1,5% entre l'agost i el setembre, malgrat que en feien servir més. L'economista de Ramp ho atribueix a les rebaixes de preus."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "OpenAI presenta GPT-6 Cyber, un model per a experts en seguretat que ha trobat 81 errors greus a Firefox",
-      "excerpt": "L'empresa mateixa en qualifica el risc de «crític», el nivell més alt, i de moment només el deixa fer servir a uns quants clients aprovats. Diu que ha aconseguit atacs funcionals contra 948 errors del nucli de Linux i anuncia 1.000 milions de dòlars per als qui protegeixen serveis essencials."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Quan es pregunta als xatbots per l'Alzheimer o l'autisme, gairebé un de cada quatre enllaços que donen és d'un negoci que ven tractaments, segons un estudi a «BMJ»",
-      "excerpt": "Un equip de la Universitat Simon Fraser va fer 540 consultes a sis xatbots sobre teràpies amb cèl·lules mare. Llama, de Meta, és el que més remet a empreses privades; Claude i Grok, els que menys."
+      "title": "Crusoe ven a Google el gran centre de dades que construïa a Wyoming, i Google hi invertirà 17.000 milions de dòlars",
+      "excerpt": "La constructora de centres de dades de Denver no havia aconseguit Google com a client del projecte, que havia de créixer fins a 10 gigawatts. Ara Google se'l queda i el desenvoluparà pel seu compte, després d'haver-ne qüestionat el cost i els terminis."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Una IA de la Universitat del Sud de Califòrnia reconstrueix els trams de les connexions del cervell que la ressonància no aconsegueix captar, segons «Medical Image Analysis»",
-      "excerpt": "Les distorsions de l'escàner esborren part del senyal al tronc de l'encèfal i sobre els ulls. El model, entrenat amb gairebé 2.000 persones, omple els buits amb un error angular d'1,4 graus, tres vegades menys que els mètodes que hi havia."
-    },
-    {
-      "category": "MATEMÀTIQUES",
-      "read": "4 MIN",
-      "title": "Els agents d'IA d'Axiom Math converteixen en codi verificable per ordinador una obra de referència de geometria algebraica de més de 7.600 pàgines",
-      "excerpt": "L'empresa diu que els seus agents han traduït tot el Stacks Project, iniciat el 2005 per un matemàtic de Columbia, a uns 16 milions de línies de Lean, el llenguatge en què un programa comprova cada pas d'una demostració."
+      "title": "Un model obert del MIT prediu com es comportarà una molècula amb molt poques dades, i ja el fan servir farmacèutiques",
+      "excerpt": "CheMeleon s'ha entrenat amb un milió de molècules a calcular-ne 1.600 característiques i després s'adapta a cada problema amb pocs exemples. L'article, publicat al «Journal of Chemical Information and Modeling», diu que supera altres models en 58 proves."
     },
     {
       "category": "SOCIETAT",
       "read": "4 MIN",
-      "title": "Google, Meta, Microsoft, Amazon, Nvidia i Anthropic negocien amb tres grans grups ecologistes unes normes per als centres de dades als Estats Units",
-      "excerpt": "Les converses, que van començar al setembre i han de durar fins al febrer, inclouen l'energia, l'aigua i la relació amb els veïns. Arriben dies després que desenes de ciutats nord-americanes votessin restringir o prohibir aquestes instal·lacions."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Anthropic podria haver de rebaixar el valor amb què vol sortir a borsa després de l'enfonsament de les tecnològiques",
-      "excerpt": "Tres grans inversors diuen al «Wall Street Journal» que la valoració de 1,5 bilions de dòlars que buscava l'empresa de Claude s'haurà d'abaixar, potser fins a prop d'un bilió. La sortida era prevista per a la setmana del 16 de novembre."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Els músculs de l'orella s'activen quan una cosa ens emociona, i un equip alemany hi veu una via perquè les màquines llegeixin les emocions",
-      "excerpt": "Un estudi de la Universitat del Sarre a «IEEE Transactions on Affective Computing» troba que l'activitat d'aquests músculs, que ja no fan moure l'orella, creix en fraccions de segon segons la intensitat de l'emoció. Els autors avisen del risc de crear màquines manipuladores."
+      "title": "ACTUALITZACIÓ: Activistes ocupen a Amsterdam l'obra d'un centre de dades que es construeix per a Microsoft",
+      "excerpt": "Hi van entrar divendres al matí, van penjar banderes palestines i alguns es van enfilar a les grues. La policia va acabar desallotjant el solar d'un campus de 78 megawatts que, segons els crítics, esquiva la prohibició neerlandesa dels centres de dades gegants."
     },
     {
       "category": "CIBERSEGURETAT",
-      "read": "3 MIN",
-      "title": "Palo Alto Networks negocia comprar per 500 milions de dòlars Clutch, una empresa que vigila a què poden accedir els agents d'IA",
-      "excerpt": "La startup, de tres anys, protegeix els accessos dels agents d'IA als sistemes de les empreses i ingressa prop de 10 milions l'any. Seria la setena compra del gegant de la ciberseguretat aquest 2026."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Airbnb llançarà el seu propi agent d'IA per planificar viatges durant la primera meitat del 2027",
-      "excerpt": "El conseller delegat, Brian Chesky, diu que els agents generalistes serveixen per reservar un restaurant però no per preparar un viatge, i que el d'Airbnb muntarà mapes, calendaris i comparacions per a cada consulta."
+      "read": "4 MIN",
+      "title": "ACTUALITZACIÓ: Més de 800 còpies d'Artex, l'eina d'atac amb agents d'IA dels pirateigs a Corea del Sud, són accessibles a internet sense contrasenya",
+      "excerpt": "L'empresa Censys les ha trobat obertes a tothom. Algunes són de professionals que fan proves autoritzades, però una de les exposades, oberta durant mesos, contenia dades de bancs, empreses de pagaments i de jocs."
     },
     {
       "category": "PRODUCTES",
       "read": "3 MIN",
-      "title": "Meta ja deixa fer videotrucades amb Muse, el seu agent d'IA, que respon amb un avatar animat que fa gestos",
-      "excerpt": "La funció arriba a tots els usuaris dels Estats Units al mòbil, al web i al Mac. Alguns experts adverteixen que els personatges simpàtics fan abaixar la guàrdia davant d'un agent que té accés a missatges, compres i reserves."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "El Nasdaq cau un 5,5%, la pitjor sessió des de l'abril del 2025, pels dubtes sobre la despesa en IA després de la victòria demòcrata",
-      "excerpt": "Els fabricants de xips són els que més perden: AMD i Micron s'enfonsen gairebé un 16% i Nvidia, prop d'un 8%. Els inversors temen que el nou Congrés freni els centres de dades."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una vacuna contra la grip aviària dissenyada amb IA protegeix tots els ratolins i fures d'un estudi, i la de reserva de l'OMS, només la meitat",
-      "excerpt": "Un equip de la Universitat de Cambridge ha fet servir la IA per combinar les seqüències genètiques de milers de virus H5 i dissenyar un antigen comú. Els resultats, a «Cell Reports Medicine», són en animals: falten els assajos amb persones."
-    },
-    {
-      "category": "EMPRESA",
-      "read": "4 MIN",
-      "title": "Greg Brockman diu que OpenAI podria estar preparada per sortir a borsa l'any que ve i que les empreses ja li donen la majoria dels ingressos",
-      "excerpt": "El president d'OpenAI admet que la primera meitat del 2026 va ser «força dura» davant d'Anthropic, però assegura que el negoci amb empreses s'ha doblat i que els ingressos anualitzats van créixer un 70% al tercer trimestre."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "4 MIN",
-      "title": "Claude ja pot llegir els comptes bancaris dels usuaris i dir-los en què se'ls en van els diners, de moment només als Estats Units",
-      "excerpt": "Anthropic presenta en proves «Personal Finance», una funció que classifica la despesa, detecta càrrecs duplicats i comissions inesperades i respon preguntes sobre les finances de cada usuari. Només llegeix dades: no pot moure diners."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "5 MIN",
-      "title": "Més de cent entitats convoquen protestes en una setantena de ciutats europees contra els centres de dades, i l'Estat espanyol és on n'hi ha més",
-      "excerpt": "La campanya «Stop Dirty Data Centres» demana aturar-ne la construcció fins que hi hagi lleis sobre transparència, consum d'energia i d'aigua. A Catalunya, la cita és dissabte davant de l'Ajuntament de Cerdanyola del Vallès."
+      "title": "Meta afegeix a Muse uns espais on el seu agent d'IA munta i manté al dia planificadors, llistes i taulers de projectes",
+      "excerpt": "Es diuen Spaces: n'hi ha prou de descriure la idea al xat perquè Muse construeixi, per exemple, l'organització d'unes vacances o una llista de regals, que s'actualitza sola si es connecten altres aplicacions."
     }
   ]
 }

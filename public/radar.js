@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "València",
+    "category": "IA I SOCIETAT",
+    "date": "07.11.2026",
+    "title": "La valenciana Substrate AI comença a cotitzar també a Cboe Europe, després de perdre gairebé la meitat del valor aquest any",
+    "summary": "L'empresa de València, que cotitza a BME Growth des del 2022, no emet accions noves. Vol deixar d'intermediar capacitat de càlcul i vendre models d'IA propis.",
+    "detail": "Substrate AI és una empresa d'intel·ligència artificial amb seu a València, fundada per Lorenzo Serratosa, que n'és el conseller delegat, i José Iván García. Cotitza des del maig del 2022 a BME Growth, l'antic Mercat Alternatiu Borsari, on aplega empreses petites i mitjanes.\n\nEl 6 de novembre va comunicar al regulador del mercat que les seves accions de classe A s'han admès a negociació a Cboe Europe, la borsa europea amb més volum de negociació, segons Valencia Plaza. No hi ha cap emissió d'accions noves ni els accionistes han de fer res: és una plaça més on es poden comprar i vendre els títols, que continuen a BME Growth. L'empresa diu que així facilita l'accés als inversors europeus i internacionals. Les accions acumulaven una caiguda del 48,87% en l'any, la més gran d'aquell mercat, i tancaven a 0,0361 euros, amb una capitalització d'uns 11,95 milions; després de l'anunci van pujar un 7,48%.\n\nLa companyia vol canviar de model: deixar de fer d'intermediària de capacitat de càlcul amb processadors gràfics i passar a desenvolupar tecnologia pròpia, incloent-hi generar i vendre l'ús de models en la seva infraestructura, amb uns models anomenats Orion basats en models de pesos oberts. Per a la inversió en maquinari compta amb un finançament de 39,2 milions anunciat a principis d'any, i aspira a superar els 100 milions de facturació el 2030.\n\nLes xifres de l'empresa conviden a la prudència: el primer semestre del 2026 va perdre 5,7 milions d'euros, tot i que els ingressos van créixer un 5,2%, i el resultat d'explotació va ser negatiu. L'objectiu de facturació és una previsió de la mateixa empresa, i cotitzar en un segon mercat no canvia per si sol la seva situació financera.",
+    "source": "Valencia Plaza",
+    "url": "https://valenciaplaza.com/valenciaplaza/bolsas/la-cotizada-valenciana-substrate-ai-es-admtida-a-cotizacion-en-el-cboe-europe",
+    "image": "./assets/substrate-ai-valencia-cboe-europe-20261107.jpg",
+    "slug": "substrate-ai-valencia-cboe-europe"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "05.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.diariandorra.ad/nacional/261103/imma-tor-reclama-ia-servei-les-persones-i-respectuosa-amb-els-drets-humans_207952.html",
     "image": "./assets/andorra-conferencia-consell-europa-ia-inclusiva-educacio-20261104.jpg",
     "slug": "andorra-conferencia-consell-europa-ia-inclusiva-educacio"
-  },
-  {
-    "place": "Andorra",
-    "category": "IA I SOCIETAT",
-    "date": "04.11.2026",
-    "title": "El Consell Superior de la Justícia d'Andorra estudia eines d'IA per agilitzar els procediments judicials",
-    "summary": "Al desembre posarà en marxa una nova versió del programa de gestió processal Avantius i un portal per als advocats i procuradors, mentre analitza com fer servir la IA amb garanties de protecció de dades.",
-    "detail": "El Consell Superior de la Justícia (CSJ) d'Andorra prepara un paquet de millores tecnològiques per agilitzar la tramitació dels procediments judicials i facilitar la feina dels professionals, segons ha publicat el Diari d'Andorra.\n\nAl desembre, el CSJ implantarà la versió 6.4 d'Avantius, el programa de gestió processal, i un nou portal de serveis professionals, adaptat a diferents dispositius, per millorar les comunicacions electròniques entre l'administració de justícia i els advocats, els procuradors i altres professionals. El portal nou conviurà un temps amb l'actual. Una altra línia de treball és l'estudi d'eines basades en intel·ligència artificial per donar suport a la tramitació judicial, amb una atenció especial a la protecció de dades, la confidencialitat i les garanties jurídiques.\n\nL'ús de la IA a la justícia és un dels àmbits més delicats de la regulació europea: el Reglament europeu d'IA classifica com d'alt risc els sistemes que ajuden a interpretar fets i lleis, tot i que Andorra no forma part de la Unió Europea.\n\nDe moment, és només un estudi. El CSJ no ha concretat quines eines analitza, per a quines tasques ni amb quin calendari: els projectes són en fases diferents d'estudi i desenvolupament i s'aniran implantant progressivament.",
-    "source": "Diari d'Andorra",
-    "url": "https://www.diariandorra.ad/nacional/261103/justicia-estudia-incorporar-l-us-intel-ligencia-artificial_207926.html",
-    "image": "./assets/andorra-justicia-estudia-ia-tramitacio-judicial-20261104.jpg",
-    "slug": "andorra-justicia-estudia-ia-tramitacio-judicial"
   }
 ];
