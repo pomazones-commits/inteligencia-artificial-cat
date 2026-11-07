@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-07T05:16:40.192Z",
+  "generat": "2026-11-07T09:14:48.986Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 20,
+      "audios": 21,
       "sobre_ia": 1
     },
     {
@@ -178,57 +178,6 @@
     }
   ],
   "candidats": [
-    {
-      "id": "3cat-1296638",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-11-07",
-      "durada": "10 min",
-      "titol_original": "Quins nous aprenentatges necessiten ara els enginyers?",
-      "descripcio_original": "Parlem de com l'enginyeria ha transformat les nostres vides en els últims 60 anys, des de l'arribada d'internet fins a la revolució de la intel·ligència artificial, i de les habilitats que necessitaran els professionals del futur. Xantal Llavina conversa amb la doctora Guiomar Corral, directora de l'Escola Tècnica Superior d'Enginyeria La Salle, que celebra sis dècades d'història i reflexiona sobre l'impacte de la IA en la professió i la importància del pensament crític, l'empatia i el treball en equip.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/quins-nous-aprenentatges-necessiten-ara-els-enginyers/audio/1296638/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1296638"
-      }
-    },
-    {
-      "id": "3cat-1296639",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-11-07",
-      "durada": "10 min",
-      "titol_original": "Alex Carballo: \"Els mòbils amb agents treballaran per tu mentre dorms\"",
-      "descripcio_original": "Parlem de com els agents d'intel·ligència artificial estan revolucionant els telèfons mòbils, passant de respondre preguntes a gestionar tasques i prendre decisions de manera autònoma, des de reservar viatges fins a fer compres. Xantal Llavina conversa amb Alex Carballo, director de Vodafone a Catalunya i Aragó, que explica com Apple, Google i Samsung competeixen per liderar aquesta nova revolució tecnològica i reflexiona sobre els reptes de privacitat i l'impacte de la IA en la nostra vida quotidiana.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/alex-carballo-els-mobils-amb-agents-treballaran-per-tu-mentre-dorms/audio/1296639/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1296639"
-      }
-    },
-    {
-      "id": "3cat-1296640",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-11-07",
-      "durada": "53 min",
-      "titol_original": "Mateo Valero: \"La IA farà més intel·ligents els intel·ligents i sense xips no hi ha paradís\"",
-      "descripcio_original": "El \"Revolució 4.0\", presentat i dirigit per Xantal Llavina, arrenca amb Mateo Valero, fundador i director del Barcelona Supercomputing Center, amb qui parlem de com la intel·ligència artificial i els superordinadors estan revolucionant la medicina, de la lluita contra el canvi climàtic i dels reptes d'Europa per competir amb les grans potències tecnològiques. També comptem amb Elisenda Bonet i la doctora Elisenda Eixarch, de FetaLife, que desenvolupen una incubadora líquida que podria salvar nadons prematurs; Alex Carballo, de Vodafone, amb qui descobrim els agents d'IA que podran gestionar tasques i prendre decisions per nosaltres, i la doctora Guiomar Corral, de La Salle, amb qui repassem 60 anys de revolucions tecnològiques i reflexionem sobre el futur de l'enginyeria i les habilitats humanes que seran essencials en l'era de la IA.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.3cat.cat/3cat/mateo-valero-la-ia-fara-mes-intelligents-els-intelligents-i-sense-xips-no-hi-ha/audio/1296640/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1296640"
-      }
-    },
     {
       "id": "rtve-17304137",
       "emissora": "Ràdio 4",
