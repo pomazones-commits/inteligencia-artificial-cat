@@ -1,28 +1,54 @@
 {
   "fitxes": [
     {
-      "id": "3cat-1296640",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-11-07",
-      "durada": "53 min",
-      "titol": "Mateo Valero obre el «Revolució 4.0» parlant de supercomputació, medicina i el paper d'Europa en la cursa de la IA",
+      "id": "rtve-17304137",
+      "emissora": "Ràdio 4",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
+      "data": "2026-11-06",
+      "durada": "32 min",
+      "titol": "Arnau Font repassa a «La tarda de Ràdio 4» com la IA canvia les ciutats, dels semàfors intel·ligents als mapes d'ombra",
       "convidats": [
-        {"nom": "Mateo Valero", "rol": "fundador i director del Barcelona Supercomputing Center"},
-        {"nom": "Elisenda Bonet", "rol": "FetaLife"},
-        {"nom": "Elisenda Eixarch", "rol": "doctora, FetaLife"},
-        {"nom": "Alex Carballo", "rol": "director de Vodafone a Catalunya i Aragó"},
-        {"nom": "Guiomar Corral", "rol": "directora de l'Escola Tècnica Superior d'Enginyeria La Salle"}
+        {
+          "nom": "Arnau Font",
+          "rol": "col·laborador del programa sobre intel·ligència artificial"
+        }
       ],
-      "resum": "Xantal Llavina conversa amb Mateo Valero, del Barcelona Supercomputing Center, sobre com la IA i els superordinadors canvien la medicina i la lluita contra el canvi climàtic, i sobre què ha de fer Europa per no quedar enrere. El programa també presenta la incubadora líquida per a nadons prematurs de FetaLife, els agents d'IA als mòbils, amb Alex Carballo, i els seixanta anys de l'enginyeria de La Salle, amb Guiomar Corral.",
-      "tema": "poder",
-      "url": "https://www.3cat.cat/3cat/mateo-valero-la-ia-fara-mes-intelligents-els-intelligents-i-sense-xips-no-hi-ha/audio/1296640/",
-      "reproductor": {"tipus": "3cat", "id": "1296640"}
+      "resum": "Arnau Font explica com la tecnologia transforma les ciutats: semàfors que s'adapten al trànsit amb intel·ligència artificial, sistemes per detectar vehicles massa sorollosos i mapes de calor per saber quins carrers necessiten més ombra. L'espai també parla d'eines noves per detectar estafes digitals, dels projectes de Softcatalà perquè la IA entengui i parli millor el català i de l'avís de Brussel·les sobre els algorismes de TikTok i els joves.",
+      "tema": "societat",
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-tecnologies-transformen-ciutat-amb-arnau-font/17304137/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17304137"
+      }
+    },
+    {
+      "id": "rtve-17304203",
+      "emissora": "Ràdio 4",
+      "programa": "El pla B",
+      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
+      "data": "2026-11-06",
+      "durada": "14 min",
+      "titol": "L'analista Robert Casajuana analitza a «El pla B» per què les borses cauen pels dubtes sobre la regulació de la IA",
+      "convidats": [
+        {
+          "nom": "Robert Casajuana",
+          "rol": "analista financer"
+        }
+      ],
+      "resum": "Les borses europees han tancat la setmana amb pèrdues, arrossegades pels valors tecnològics i pel temor que la victòria demòcrata a les eleccions de mig mandat dels Estats Units porti una regulació més estricta de la intel·ligència artificial. «El pla B» en parla amb l'analista financer Robert Casajuana, en una setmana de caigudes fortes al Nasdaq i a les borses asiàtiques.",
+      "tema": "feina",
+      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-les-borses-mundials-reculen-per-incertesa-sobre-regulacio-ia/17304203/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17304203"
+      }
     }
   ],
   "descartats": [
-    {"id": "3cat-1296639", "motiu": "Fragment del programa complet 3cat-1296640 (Revolució 4.0 del 07.11.2026), ja fitxat amb Alex Carballo com a convidat."},
-    {"id": "3cat-1296638", "motiu": "Fragment del programa complet 3cat-1296640 (Revolució 4.0 del 07.11.2026), ja fitxat amb Guiomar Corral com a convidada."}
+    {
+      "id": "rtve-17304289",
+      "motiu": "Programa complet d'«El pla B» del 06.11.2026 sobre Israel, la borsa i el cas Koldo: la IA només hi surt de passada i el tram sobre la borsa ja és fitxat a rtve-17304203."
+    }
   ]
 }
