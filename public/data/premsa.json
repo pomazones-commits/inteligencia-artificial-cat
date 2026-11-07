@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-06T19:43:37.273Z",
+ "actualitzat": "2026-11-07T00:25:58.047Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "6013596cdfe4",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Els gegants de la IA perden 2 bilions en una jornada negra a la borsa",
+   "url": "https://www.elperiodico.cat/internacional/20261107/els-gegants-ia-perden-2-136187125",
+   "publicat": "2026-11-06T23:05:16.000Z"
+  },
+  {
+   "id": "99fbd70b32be",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "\"La mort serà una elecció\": OpenAI creu que la intel·ligència artificial està a punt de canviar-ho tot",
+   "url": "https://www.elnacional.cat/ca/tecnologia/mort-sera-eleccio-openai-creu-intelligencia-artificial-esta-punt-canviar-ho-tot_1722044_102.html",
+   "publicat": "2026-11-06T21:00:00.000Z"
+  },
   {
    "id": "c3a39de3914f",
    "mitja": "Cinco Días",
@@ -2194,17 +2216,6 @@
    "publicat": "2026-10-31T04:20:20.000Z",
    "noticia": "borges-blanques-rellanca-iaia-assistent-ia-whatsapp-junts-questiona-contracte",
    "noticiaTitol": "Les Borges Blanques rellança la IAIA, un assistent d'IA per WhatsApp, i Junts en qüestiona el contracte"
-  },
-  {
-   "id": "b6588f146414",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Bankinter analiza cómo la inteligencia artificial redefine el futuro de las empresas",
-   "url": "https://www.informacion.es/economia/2026/10/30/bankinter-analiza-inteligencia-artificial-redefine-bc-135914237.html",
-   "publicat": "2026-10-30T21:31:04.000Z"
   }
  ]
 }
