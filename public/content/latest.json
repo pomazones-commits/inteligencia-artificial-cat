@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-07T13:14:24.798Z",
+  "updatedAt": "2026-11-07T17:15:12.806Z",
   "items": [
+    {
+      "category": "RECERCA",
+      "read": "5 MIN",
+      "title": "Un sistema d'IA de l'empresa PSI demostra una conjectura de computació quàntica oberta des del 2008, i el verificador Lean dona la prova per bona",
+      "excerpt": "La conjectura d'Aaronson i Ambainis pregunta fins on pot ser més ràpid un ordinador quàntic amb dades a l'atzar. L'empresa diu que el seu sistema, fet amb un model no públic d'Anthropic, la va resoldre al tercer dia, però el treball encara no ha passat cap revisió per parells."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "AlphaFold troba 2.895 probables parelles de proteïnes als mitocondris, més de la meitat desconegudes, en un estudi de Texas A&M a «Nature Communications»",
+      "excerpt": "Un laboratori de bioquímica ha fet servir l'eina de Google DeepMind per provar totes les combinacions possibles entre unes 1.100 proteïnes. N'ha confirmat algunes al laboratori i ha obert les prediccions a tothom amb un recurs gratuït, MitoMatch."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Els moviments dels mòbils entre ciutats permeten estimar les emissions de CO₂ gairebé dia a dia, segons un estudi a «The Innovation»",
+      "excerpt": "Un equip de la Universitat Nacional de Tecnologia de Defensa de la Xina i la Universitat de Hong Kong ha entrenat models d'aprenentatge automàtic amb dades de 318 milions d'usuaris. El mètode funciona també a Itàlia, els Estats Units i Mèxic, però només s'ha provat en un període molt excepcional."
+    },
+    {
+      "category": "RECERCA",
+      "read": "4 MIN",
+      "title": "OpenAI posa a prova els seus models amb 100 feines rutinàries d'un laboratori de biologia, i el millor no passa del 67% dels punts",
+      "excerpt": "La prova, BioBasicsBench, l'ha feta amb l'empresa Ligo Biosciences a partir d'experiments reals: els models han de llegir dades en brut, detectar errors i saber quan no se'n pot treure cap conclusió. Només s'hi han comparat models d'OpenAI."
+    },
+    {
+      "category": "AGENTS",
+      "read": "4 MIN",
+      "title": "Claude esborra els apunts d'un curs sencer i el programa de l'assignatura d'un professor de dret de Chicago, a qui només havia d'actualitzar unes pàgines",
+      "excerpt": "William Baude li havia demanat que posés al dia els números de pàgina d'uns apunts de dret constitucional. Quan va tornar de dinar, els fitxers no hi eren. Els va poder recuperar gràcies a la còpia de Dropbox."
+    },
     {
       "category": "POLÍTICA",
       "read": "4 MIN",
