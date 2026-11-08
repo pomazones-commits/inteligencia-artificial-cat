@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-08T17:20:46.057Z",
+ "actualitzat": "2026-11-08T22:31:17.604Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "5f88edb7dbed",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Bankinter desvela las claves de la IA en las empresas",
+   "url": "https://www.informacion.es/economia/2026/11/08/bankinter-claves-ia-empresas-136158366.html",
+   "publicat": "2026-11-08T21:30:11.000Z"
+  },
+  {
+   "id": "2284826fdc91",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "IA en la Edad Media: la artesanía convive con las nuevas tecnologías en el Mercado Medieval de Elche",
+   "url": "https://www.informacion.es/elche/2026/11/08/ia-media-artesania-mercado-medieval-elche-impresora-3d-nuevas-tecnologias-136232231.html",
+   "publicat": "2026-11-08T21:23:43.000Z"
+  },
+  {
+   "id": "398ee3afdcd0",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia investigarà al seu director per l''affaire' amb una espia xinesa",
+   "url": "https://www.ara.cat/economia/tecnologia/nvidia-investigara-director-l-affaire-espia-xinesa_25_5904644.html",
+   "publicat": "2026-11-08T21:12:19.000Z"
+  },
+  {
+   "id": "41412d6634eb",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Aprendiendo a domar el fuego de la IA desde la Universidad",
+   "url": "https://www.informacion.es/opinion/2026/11/08/aprendiendo-domar-fuego-ia-universidad-136181097.html",
+   "publicat": "2026-11-08T21:00:08.000Z"
+  },
+  {
+   "id": "d34394076d6e",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia abre una investigación a su director ejecutivo por una relación con una espía china",
+   "url": "https://www.lavanguardia.com/economia/20261108/11679382/nvidia-abre-investigacion-director-ejecutivo-relacion-espia-china.html",
+   "publicat": "2026-11-08T20:58:36.000Z"
+  },
+  {
+   "id": "170d84017a45",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia abre una investigación sobre la relación de su CEO, Jensen Huang, con una espía china",
+   "url": "https://www.eldiario.es/tecnologia/nvidia-abre-investigacion-relacion-ceo-jensen-huang-espia-china_1_13648276.html",
+   "publicat": "2026-11-08T20:30:37.000Z"
+  },
   {
    "id": "e00609cac25d",
    "mitja": "Ara Balears",
@@ -2506,17 +2572,6 @@
    "titol": "Indra pondrá su división de inteligencia artificial en el centro del nuevo plan estratégico",
    "url": "https://cincodias.elpais.com/companias/2026-11-02/indra-pondra-su-division-de-inteligencia-artificial-en-el-centro-del-nuevo-plan-estrategico.html",
    "publicat": "2026-11-02T04:15:00.000Z"
-  },
-  {
-   "id": "bf74616d3559",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Gonçalo M. Tavares: “La IA va a convertirnos en unos tetrapléjicos intelectuales”",
-   "url": "https://www.lavanguardia.com/cultura/20261101/11673515/goncalo-m-tavares-ia-convertirnos-tetraplejicos-intelectuales.html",
-   "publicat": "2026-11-01T18:54:59.000Z"
   }
  ]
 }
