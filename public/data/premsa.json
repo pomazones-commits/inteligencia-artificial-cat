@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-08T09:15:56.788Z",
+ "actualitzat": "2026-11-08T11:33:48.492Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "dd69f2f3e2de",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Usar una IA per predir quins presos podrien ser violents comença a assemblar-se a Minority Report",
+   "url": "https://www.elnacional.cat/ca/tecnologia/usar-ia-predir-quins-presos-podrien-ser-violents-comenca-assemblar-se-minority-report_1721438_102.html",
+   "publicat": "2026-11-08T11:00:00.000Z"
+  },
   {
    "id": "78cd3187ee7f",
    "mitja": "Las Provincias",
