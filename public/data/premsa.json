@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-08T05:32:41.708Z",
+ "actualitzat": "2026-11-08T09:15:56.788Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "78cd3187ee7f",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "«Si no sabes IA te van a sustituir y, si sabes, van a recalibrar tu trabajo, seguro»",
+   "url": "https://www.lasprovincias.es/tecnologia/gonzalo-alonso-inteligencia-artificial-20261108082807-nt.html",
+   "publicat": "2026-11-08T08:32:50.000Z"
+  },
+  {
+   "id": "90439ed938d3",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "De l’aparador local a Google mundial: les empreses del Solsonès s’apunten a la IA",
+   "url": "https://www.regio7.cat/solsones/2026/11/08/l-aparador-local-google-mundial-136215797.html",
+   "publicat": "2026-11-08T08:22:20.000Z"
+  },
+  {
+   "id": "9ea8f32c3fca",
+   "mitja": "Diari de Terrassa",
+   "font": "diarideterrassa",
+   "icona": "/assets/premsa/diari-de-terrassa.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Les eleccions als EUA frenen l’expansió de la IA",
+   "url": "https://www.diarideterrassa.com/economia/les-eleccions-als-eua-frenen-lexpansio-de-la-ia.html",
+   "publicat": "2026-11-08T06:22:02.000Z"
+  },
+  {
+   "id": "6240fec9864b",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La doctora IA no és cap metge: quan pot ser útil i quin perill té fer-hi consultes sobre salut",
+   "url": "https://www.3cat.cat/3catinfo/la-doctora-ia-no-es-cap-metge-quan-pot-ser-util-i-quin-perill-te-fer-hi-consultes-sobre-salut/noticia/3421096",
+   "publicat": "2026-11-08T06:11:49.000Z"
+  },
+  {
+   "id": "3fbe9678e623",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA ya no es un asunto tecnológico: por qué poner reglas a su uso es una decisión de dirección",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/canal-practico/20261108/11669512/ia-asunto-tecnologico-poner-reglas-decision-direccion.html",
+   "publicat": "2026-11-08T05:50:00.000Z"
+  },
   {
    "id": "22a14256910a",
    "mitja": "Información",
@@ -34,7 +89,9 @@
    "ambit": "catala",
    "titol": "Comunitat Valenciana | Sanidad licita un contrato de 1,45 millones para detectar posibles casos de cáncer de piel con IA",
    "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/sanidad-licita-un-contrato-de-145-millones-para-detectar-posibles-casos-de-cancer-de-piel-con-ia",
-   "publicat": "2026-11-08T05:00:05.000Z"
+   "publicat": "2026-11-08T05:00:05.000Z",
+   "noticia": "sanitat-valenciana-licita-ia-cancer-pell",
+   "noticiaTitol": "La Conselleria de Sanitat valenciana licita per 1,45 milions una IA que ajudi els metges de família a detectar el càncer de pell"
   },
   {
    "id": "75bca3403465",
@@ -122,7 +179,9 @@
    "ambit": "catala",
    "titol": "La Urbana de Lleida preveu incorporar IA a càmeres de vigilància al desembre",
    "url": "https://www.segre.com/ca/lleida/261108/urbana-lleida-preveu-incorporar-ia-cameres-vigilancia-desembre_1390859.html",
-   "publicat": "2026-11-08T04:23:15.000Z"
+   "publicat": "2026-11-08T04:23:15.000Z",
+   "noticia": "guardia-urbana-lleida-ia-cameres-desembre",
+   "noticiaTitol": "La Guàrdia Urbana de Lleida començarà a provar al desembre la IA en 70 càmeres de vigilància, la majoria al Centre Històric"
   },
   {
    "id": "a3b844a5c10a",
@@ -131,7 +190,7 @@
    "icona": "/assets/premsa/segre.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "«La IA donarà suport al policia, no el substituirà»",
+   "titol": "Àlex Surroca, expert en IA: «La IA donarà suport al policia, no el substituirà»",
    "url": "https://www.segre.com/ca/lleida/261108/ia-donara-suport-policia-substituira_1390843.html",
    "publicat": "2026-11-08T04:21:11.000Z"
   },
@@ -2403,28 +2462,6 @@
    "titol": "Gonçalo M. Tavares: “La IA va a convertirnos en unos tetrapléjicos intelectuales”",
    "url": "https://www.lavanguardia.com/cultura/20261101/11673515/goncalo-m-tavares-ia-convertirnos-tetraplejicos-intelectuales.html",
    "publicat": "2026-11-01T18:54:59.000Z"
-  },
-  {
-   "id": "f6b57f433e36",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA distorsiona els resultats de les grans tecnològiques",
-   "url": "https://empreses.ara.cat/innovacio/ia-distorsiona-resultats-grans-tecnologiques_1_5894844.html",
-   "publicat": "2026-11-01T06:57:40.000Z"
-  },
-  {
-   "id": "150432f9dd78",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "“És una mala època per celebrar un referèndum i debatre en general amb la manipulació i la IA”",
-   "url": "https://www.diariandorra.ad/la-perla/261101/mala-epoca-per-celebrar-referendum-i-debatre-general-amb-manipulacio-i-ia_207781.html",
-   "publicat": "2026-11-01T05:38:53.000Z"
   }
  ]
 }
