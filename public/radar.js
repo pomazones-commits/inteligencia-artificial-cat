@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Tarragona",
+    "category": "IA I SOCIETAT",
+    "date": "08.11.2026",
+    "title": "Estudiants de la URV creen dues eines d'IA que mesuren el paper de les dones a les converses i a les notícies",
+    "summary": "Una analitza qui parla més i qui interromp en una conversa gravada; l'altra classifica el rol de les dones en articles de premsa, i només en un 23% dels casos les troba com a líders o expertes.",
+    "detail": "El repte «Mujeres por la IA abierta», impulsat per la Secretaria d'Estat de Digitalització i Intel·ligència Artificial, demanava a dones joves d'estudis científics i tècnics eines de codi obert que analitzessin vídeo, àudio o text. Hi han col·laborat OVHcloud, la Universitat Politècnica de Catalunya i el seu centre de recerca en ciència de dades i IA, i el Col·legi Oficial d'Enginyeria en Informàtica de Catalunya.\n\nDos equips d'estudiants de la Universitat Rovira i Virgili, a Tarragona, hi han presentat eines. EQUITalk, de l'equip Hive, format per Sonia Oros i Gema Pérez, del doble grau d'Enginyeria Biomèdica i Enginyeria Informàtica de l'Escola Tècnica Superior d'Enginyeria de la URV, i María Mira, de la Universitat de Santiago de Compostel·la, analitza converses gravades i mesura el temps que parla cada persona, qui porta el control i les interrupcions; ha quedat segona. L'altra, de l'equip «Las 3 neuronas», amb Sofia Boyko, Sofia Mirza i Laura Lope, del grau d'Enginyeria Biomèdica, fa servir models d'IA per classificar el paper de les dones en articles de premsa en quatre categories: líders o expertes, papers secundaris, acompanyants i víctimes.\n\nSegons la URV, els àudios analitzats amb EQUITalk mostren desequilibris en contra de les dones, i l'eina de premsa només les ha trobat com a líders o expertes en un 23% dels casos. El segon premi dona a l'equip Hive una plaça a la II Trobada de Dones i Tecnologia, a Madrid, el 18 de novembre.\n\nSón prototips d'estudiants fets en el marc d'un repte, i la informació publicada no detalla quants àudios ni quants articles s'han analitzat ni amb quina precisió classifiquen els models; les xifres s'han de llegir com un primer resultat, no com un estudi.",
+    "source": "Modernet Digital (a partir de la Universitat Rovira i Virgili)",
+    "url": "https://www.modernetdigital.cat/educacio/dues-eines-urv-mesuren-biaix-dones-amb-ia/20261107115022062036.html",
+    "image": "./assets/urv-estudiants-eines-ia-biaix-dones-20261108.jpg",
+    "slug": "urv-estudiants-eines-ia-biaix-dones"
+  },
+  {
     "place": "Alacant",
     "category": "IA I SOCIETAT",
     "date": "07.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.termcat.cat/ca/actualitat/noticies/termcat-amplia-la-terminologia-la-intelligencia-artificial",
     "image": "./assets/termcat-amplia-terminologia-ia-202-termes-20261104.jpg",
     "slug": "termcat-amplia-terminologia-ia-202-termes"
-  },
-  {
-    "place": "Palma",
-    "category": "IA I SOCIETAT",
-    "date": "04.11.2026",
-    "title": "Un jove de Palma de 19 anys automatitza amb IA tasques repetitives de 17 empreses de Mallorca",
-    "summary": "Marc Hurtado va crear KAIRO AI amb 16 anys i ara fa eines per a hotels, assessories, indústries i comerços de l'illa.",
-    "detail": "Moltes petites i mitjanes empreses de les Illes Balears volen aprofitar la intel·ligència artificial, però no tenen equips tècnics propis per fer-ho. Aquest buit l'omplen sovint empreses molt petites del mateix territori, com la que ha muntat a Palma Marc Hurtado, segons explica el diari «Última Hora».\n\nHurtado, que ara té 19 anys, va començar amb 16, encara menor d'edat i amb el suport del seu pare, després d'explorar ChatGPT. La seva empresa, KAIRO AI, automatitza tasques repetitives, i segons el diari 17 empreses de Mallorca de l'hostaleria, les assessories, la indústria i el comerç ja en fan servir els sistemes cada dia, i n'hi ha tres més en camí. Un dels casos és una aplicació per a l'empresa Elegant Glass que controla l'estoc i registra els informes de feina des de qualsevol aparell.\n\nLes xifres d'estalvi que dona són concretes: uns 6.000 euros l'any a Elegant Glass, més de 25 hores setmanals en una assessoria laboral i més de 20 hores al mes en la confecció dels torns del personal d'un hotel de Palma. És un exemple de com l'adopció de la IA a les empreses de les Illes passa sovint per encàrrecs petits i molt pràctics més que per grans projectes.\n\nLes dades d'estalvi són càlculs de la mateixa empresa recollits pel diari, sense cap verificació independent, i la peça no detalla quines eines o models fa servir KAIRO AI ni quant cobra als clients.",
-    "source": "Última Hora",
-    "url": "https://www.ultimahora.es/noticias/local/2026/11/04/2742087/empezar-anos-ahorrar-miles-euros-empresas-mallorca-gracias-ia.html",
-    "image": "./assets/kairo-ai-palma-automatitzacio-empreses-mallorca-20261104.jpg",
-    "slug": "kairo-ai-palma-automatitzacio-empreses-mallorca"
   }
 ];

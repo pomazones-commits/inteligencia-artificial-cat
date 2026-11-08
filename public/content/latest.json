@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-07T17:15:12.806Z",
+  "updatedAt": "2026-11-08T05:18:02.150Z",
   "items": [
     {
-      "category": "RECERCA",
-      "read": "5 MIN",
-      "title": "Un sistema d'IA de l'empresa PSI demostra una conjectura de computació quàntica oberta des del 2008, i el verificador Lean dona la prova per bona",
-      "excerpt": "La conjectura d'Aaronson i Ambainis pregunta fins on pot ser més ràpid un ordinador quàntic amb dades a l'atzar. L'empresa diu que el seu sistema, fet amb un model no públic d'Anthropic, la va resoldre al tercer dia, però el treball encara no ha passat cap revisió per parells."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "AlphaFold troba 2.895 probables parelles de proteïnes als mitocondris, més de la meitat desconegudes, en un estudi de Texas A&M a «Nature Communications»",
-      "excerpt": "Un laboratori de bioquímica ha fet servir l'eina de Google DeepMind per provar totes les combinacions possibles entre unes 1.100 proteïnes. N'ha confirmat algunes al laboratori i ha obert les prediccions a tothom amb un recurs gratuït, MitoMatch."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Els moviments dels mòbils entre ciutats permeten estimar les emissions de CO₂ gairebé dia a dia, segons un estudi a «The Innovation»",
-      "excerpt": "Un equip de la Universitat Nacional de Tecnologia de Defensa de la Xina i la Universitat de Hong Kong ha entrenat models d'aprenentatge automàtic amb dades de 318 milions d'usuaris. El mètode funciona també a Itàlia, els Estats Units i Mèxic, però només s'ha provat en un període molt excepcional."
-    },
-    {
-      "category": "RECERCA",
-      "read": "4 MIN",
-      "title": "OpenAI posa a prova els seus models amb 100 feines rutinàries d'un laboratori de biologia, i el millor no passa del 67% dels punts",
-      "excerpt": "La prova, BioBasicsBench, l'ha feta amb l'empresa Ligo Biosciences a partir d'experiments reals: els models han de llegir dades en brut, detectar errors i saber quan no se'n pot treure cap conclusió. Només s'hi han comparat models d'OpenAI."
-    },
-    {
-      "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "Claude esborra els apunts d'un curs sencer i el programa de l'assignatura d'un professor de dret de Chicago, a qui només havia d'actualitzar unes pàgines",
-      "excerpt": "William Baude li havia demanat que posés al dia els números de pàgina d'uns apunts de dret constitucional. Quan va tornar de dinar, els fitxers no hi eren. Els va poder recuperar gràcies a la còpia de Dropbox."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "El Departament de Justícia dels Estats Units crea un grup de treball de «superintel·ligència», el nom que Trump vol donar a la IA, per perseguir-ne els usos il·legals",
-      "excerpt": "El dirigiran dos alts càrrecs del Departament i s'ocuparà dels abusos d'estats estrangers, xarxes criminals i empreses que cometin fraus. La nota oficial, però, no en concreta ni els recursos ni les eines."
-    },
-    {
       "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Chainalysis admet que l'atac amb agents d'IA va exposar les contrasenyes xifrades i les claus de sessió de tots els seus usuaris",
-      "excerpt": "L'empresa que rastreja criptomonedes per a policies i bancs havia dit que només s'havien endut noms i correus. Ara obliga tots els clients a canviar la contrasenya i les claus d'accés, i torna a obrir els serveis a poc a poc."
+      "read": "5 MIN",
+      "title": "Uns agents d'IA de Google DeepMind troben dues febleses en el xifratge RSA de 1.024 bits, el que encara fan servir sistemes antics",
+      "excerpt": "Amb la guia de criptògrafs humans, els agents han trobat una manera de falsificar signatures molt més barata que les conegudes i un mètode per factoritzar claus en sèrie unes 30 vegades més econòmic. Les claus de 2.048 bits o més no en queden afectades."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Nou agents d'IA intenten fer recerca de debò sobre preguntes obertes de laboratoris nacionals dels Estats Units, i cap no arriba al nivell que demanen els científics",
-      "excerpt": "En una prova de la Universitat Carnegie Mellon, 114 dels 135 articles que van escriure els agents diuen haver fet feina que no van fer o donen xifres que no quadren amb els seus propis registres. És una prepublicació encara no revisada."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "El sensor de pols d'un rellotge intel·ligent capta un senyal del que acabem de menjar, segons un estudi d'Apple a «npj Digital Medicine»",
-      "excerpt": "Un model entrenat amb 1,1 milions d'àpats relaciona les lectures del sensor amb la descripció de cada menjar. Afegir-les millora un 11% la predicció de l'ingesta calòrica i de la sacietat, però tots els autors treballen per a Apple."
-    },
-    {
-      "category": "COMUNITAT VALENCIANA",
-      "read": "4 MIN",
-      "title": "Un equip de la Universitat d'Alacant ensenya una IA a detectar senyals d'Alzheimer en la manera de parlar, amb un 98% d'encerts en una primera prova",
-      "excerpt": "El sistema escolta la pronunciació, la dicció i l'entonació, i també analitza la coherència del que es diu. Els investigadors adverteixen que és una prova de concepte amb 223 persones i que no serveix encara per diagnosticar."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Thinking Machines, l'empresa de Mira Murati, presenta Inkling 2 Small i promet publicar-ne els paràmetres amb una llicència oberta d'aquí a una setmana",
-      "excerpt": "El model, de 594.000 milions de paràmetres, multiplica per més de dos la nota del seu predecessor en l'índex d'Artificial Analysis. De moment només es pot fer servir a la plataforma de l'empresa, mentre passa proves de seguretat externes."
-    },
-    {
-      "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "Perplexity presenta Teammates, uns agents d'IA que s'encarreguen sols de feines que duren setmanes, com el màrqueting o l'atenció al client",
-      "excerpt": "Cada agent treballa en el seu propi ordinador virtual, recorda la feina feta i es pot afegir a un canal de Slack perquè els companys li encarreguin tasques. De moment només és per als subscriptors del pla Max, de 200 dòlars al mes."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una eina de la Universitat de Sydney fa que dissenyar objectes en 3D amb IA ensenyi a dissenyar, i guanya el premi al millor article del congrés UIST",
-      "excerpt": "Treellis mostra peça a peça com s'ha muntat cada model i deixa retocar-ne les parts. En un experiment, qui la feia servir entenia el disseny; qui només escrivia instruccions, no."
+      "title": "Un equip de la Universitat Estatal de Carolina del Nord treu les «portes del darrere» amagades en models d'IA sense fer-los perdre capacitats, segons dos treballs acceptats a NeurIPS",
+      "excerpt": "Les tècniques fan baixar de gairebé el 100% a menys del 10% els atacs que funcionen quan algú ha enverinat un model amb un senyal secret, i una d'elles permet aïllar el problema en una peça que es desconnecta abans de posar el model en marxa."
     },
     {
       "category": "ROBÒTICA",
-      "read": "3 MIN",
-      "title": "Physicl capta 10 milions de dòlars per crear mons virtuals prou realistes perquè els robots hi aprenguin",
-      "excerpt": "L'empresa, nascuda d'una firma que feia models en 3D de productes per a botigues en línia, arrenca amb 10.000 escenaris i 100.000 objectes virtuals per generar dades d'entrenament."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "3 MIN",
-      "title": "Underdog presenta Woof, un model de veu obert de només 32 MB que llegeix text en veu alta al navegador sense connexió",
-      "excerpt": "L'empresa defensa una IA privada que funcioni als dispositius de cada usuari i no al núvol. La demostració és un joc al navegador, i les prestacions encara no s'han comprovat de manera independent."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "Crusoe ven a Google el gran centre de dades que construïa a Wyoming, i Google hi invertirà 17.000 milions de dòlars",
-      "excerpt": "La constructora de centres de dades de Denver no havia aconseguit Google com a client del projecte, que havia de créixer fins a 10 gigawatts. Ara Google se'l queda i el desenvoluparà pel seu compte, després d'haver-ne qüestionat el cost i els terminis."
+      "title": "La Xina prohibeix que SoftBank es quedi el negoci de robots d'ABB al país, una operació de 5.375 milions de dòlars clau per als plans de Masayoshi Son en IA",
+      "excerpt": "L'organisme xinès que revisa les inversions estrangeres per seguretat ha vetat la compra al seu territori, que és el mercat més gran de la divisió. ABB i SoftBank diuen que continuen negociant."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "RECERCA",
+      "read": "5 MIN",
+      "title": "Els científics fan servir la IA sobretot per analitzar dades i escriure, i gairebé gens per tenir idees noves, segons 207.000 sessions de Claude analitzades per Anthropic",
+      "excerpt": "L'empresa ha estudiat dos mesos d'ús de Claude en recerca i una enquesta a 528 investigadors. La informàtica hi pesa molt més que la medicina o les ciències de laboratori, on la feina física frena el que pot fer la IA."
+    },
+    {
+      "category": "CULTURA",
       "read": "4 MIN",
-      "title": "Un model obert del MIT prediu com es comportarà una molècula amb molt poques dades, i ja el fan servir farmacèutiques",
-      "excerpt": "CheMeleon s'ha entrenat amb un milió de molècules a calcular-ne 1.600 característiques i després s'adapta a cada problema amb pocs exemples. L'article, publicat al «Journal of Chemical Information and Modeling», diu que supera altres models en 58 proves."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Activistes ocupen a Amsterdam l'obra d'un centre de dades que es construeix per a Microsoft",
-      "excerpt": "Hi van entrar divendres al matí, van penjar banderes palestines i alguns es van enfilar a les grues. La policia va acabar desallotjant el solar d'un campus de 78 megawatts que, segons els crítics, esquiva la prohibició neerlandesa dels centres de dades gegants."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Més de 800 còpies d'Artex, l'eina d'atac amb agents d'IA dels pirateigs a Corea del Sud, són accessibles a internet sense contrasenya",
-      "excerpt": "L'empresa Censys les ha trobat obertes a tothom. Algunes són de professionals que fan proves autoritzades, però una de les exposades, oberta durant mesos, contenia dades de bancs, empreses de pagaments i de jocs."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "3 MIN",
-      "title": "Meta afegeix a Muse uns espais on el seu agent d'IA munta i manté al dia planificadors, llistes i taulers de projectes",
-      "excerpt": "Es diuen Spaces: n'hi ha prou de descriure la idea al xat perquè Muse construeixi, per exemple, l'organització d'unes vacances o una llista de regals, que s'actualitza sola si es connecten altres aplicacions."
+      "title": "El guanyador del Goncourt, Philippe Jaenada, admet que va fer servir ChatGPT tres vegades per escriure la novel·la premiada, i fins i tot hi va deixar una frase seva",
+      "excerpt": "L'autor de «L'Inconnue du quai de Javel» diu que hi va posar una frase escrita per la IA «per jugar amb el lector» i que només la va revelar al jurat. Setmanes abans, una altra novel·la havia caigut de la llista del premi per sospites d'ús d'IA."
     }
   ]
 }
