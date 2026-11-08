@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "València",
+    "category": "IA I SOCIETAT",
+    "date": "08.11.2026",
+    "title": "La Universitat Politècnica de València estrena a Alacant un espectacle de dansa i música generada amb IA amb models de Roger Dannenberg, cocreador d'Audacity",
+    "summary": "La peça, que tanca un congrés internacional d'investigació en dansa a l'Espai Sèneca, combina sensors al cos dels ballarins, música creada per IA entrenada amb jazz, videomapatge i instruments com la viola medieval.",
+    "detail": "Alacant acull aquests dies el IX Congrés Nacional i VI Internacional La Investigació en Dansa, i la Universitat Politècnica de València (UPV) hi ha portat una proposta que barreja art i tecnologia: «Interacció humà-IA. Diàleg transdisciplinari entre música, dansa, videomapatge i IA generativa», programada per a aquest diumenge 8 de novembre a les 12.00 a l'Espai Sèneca.\n\nSegons el comunicat de la UPV que recull Las Provincias, els moviments dels ballarins i els senyals captats amb sensors interactuen en temps real amb sistemes de generació musical, processament electrònic del so i projeccions. L'espectacle fa servir models d'IA desenvolupats per Roger Dannenberg, pioner de la música per ordinador i cocreador del programa d'edició d'àudio Audacity, entrenats amb transcripcions de jazz del Weimar Jazz Dataset. L'obra és de Nuria Lloret, Juan José Tagle, Roger Dannenberg i Jorge Sastre; el sistema de sensors l'ha dissenyat Stefano Scarani, i hi toquen Joan Soriano Morales (percussió) i Julia Chiner Santapau (viola medieval). Abans, la investigadora Nuria Lloret, directora de l'Observatori de Diversitat i Intel·ligència Artificial d'INECO i la UPV, fa la conferència de cloenda del congrés.\n\nLa peça s'emmarca en un projecte de recerca finançat per la Generalitat Valenciana, codirigit per Jorge Sastre i Nuria Lloret, que desenvolupa mètodes numèrics per calcular més de pressa i amb més precisió les anomenades funcions de matrius, una eina matemàtica que fan servir molts models d'aprenentatge automàtic.\n\nLa informació prové de la institució organitzadora i descriu l'espectacle abans de la representació: no se'n coneix encara la recepció del públic ni de la crítica, ni s'hi detalla quina part de la música es genera en directe i quina s'ha preparat abans.",
+    "source": "Las Provincias (a partir del comunicat de la UPV)",
+    "url": "https://www.lasprovincias.es/alicante/upv-crea-espectaculo-pionero-ia-audacity-20261107122623-nt.html",
+    "image": "./assets/upv-espectacle-dansa-ia-dannenberg-alacant-20261108.jpg",
+    "slug": "upv-espectacle-dansa-ia-dannenberg-alacant"
+  },
+  {
     "place": "Lleida",
     "category": "IA I SOCIETAT",
     "date": "08.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://thenextweb.com/news/kabilio-raises-e10m-to-bring-ai-agents-to-accounting-firms",
     "image": "./assets/kabilio-capta-10-milions-agent-ia-assessories-comptables-20261105.jpg",
     "slug": "kabilio-capta-10-milions-agent-ia-assessories-comptables"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "05.11.2026",
-    "title": "Els autobusos de TMB ja compten amb IA quants passatgers porta cada vehicle en temps real",
-    "summary": "Transports Metropolitans de Barcelona analitza amb intel·ligència artificial les imatges de més de 4.500 càmeres de videovigilància de tota la flota. El sistema, fet pel seu equip tècnic, també detecta les càmeres que no funcionen o estan mal orientades.",
-    "detail": "Saber quanta gent va dins de cada autobús és una dada bàsica per a una empresa de transport: permet reforçar les línies que van plenes, ajustar freqüències i avisar els usuaris si el pròxim vehicle arriba atapeït. Fins ara, Transports Metropolitans de Barcelona (TMB) feia aquestes estimacions a partir de les validacions dels bitllets, d'enquestes i d'altres fonts que no donaven la xifra exacta de cada vehicle en cada moment.\n\nTMB va explicar dimecres, durant el congrés Tomorrow Mobility World Congress de Barcelona, que els seus autobusos ja compten en temps real els passatgers de cada vehicle. El sistema analitza amb intel·ligència artificial les imatges de les més de 4.500 càmeres de videovigilància instal·lades a tota la flota i combina el resultat amb les dades que l'autobús ja recollia: les validacions, les enquestes, les alarmes de pujada i el recompte per vídeo. L'ha desenvolupat l'equip de tecnologia de bus de TMB amb el suport de proveïdors d'IA que la nota no identifica, i l'empresa diu que entrena els models, n'audita els resultats i els torna a entrenar contínuament per mantenir la qualitat de les dades. El mateix sistema vigila l'estat de les càmeres i detecta les que no funcionen o estan mal enfocades, de manera que se'n pot accelerar la reparació.\n\nTMB presenta el projecte com un pas cap a l'«autobús intel·ligent»: les dades han de servir per regular millor el servei i informar els viatgers de com va cada vehicle. L'empresa té en marxa altres proves amb IA i càmeres, com un pilot per detectar els vehicles que envaeixen el carril bus, i al metro ja havia provat, a les línies L1 i L5, el recompte de viatgers amb càmeres.\n\nLa nota de TMB no dona cap xifra de precisió del recompte ni explica com es tracten les imatges des del punt de vista de la protecció de dades, una qüestió delicada quan es tracta de càmeres que enregistren els passatgers. Tampoc no concreta quan arribarà als usuaris la informació sobre l'ocupació de cada autobús ni per quins canals.",
-    "source": "TMB",
-    "url": "https://noticies.tmb.cat/sala-de-premsa/busos-de-tmb-compten-passatge-de-cada-vehicle-temps-real-millorar-servei",
-    "image": "./assets/tmb-autobusos-ia-compten-passatgers-20261105.jpg",
-    "slug": "tmb-autobusos-ia-compten-passatgers"
   }
 ];

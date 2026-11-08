@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-08T09:15:10.361Z",
+  "updatedAt": "2026-11-08T13:15:48.288Z",
   "items": [
+    {
+      "category": "POLÍTICA",
+      "read": "4 MIN",
+      "title": "Els Estats Units deixen comprar xips d'Nvidia a una empresa xinesa amb l'oficina buida i lligada a una firma vetada, segons el «New York Times»",
+      "excerpt": "New Matrix figura a la llista d'empreses xineses autoritzades per rebre els xips H200 d'Nvidia, però a la seva adreça no hi ha ningú. Els seus propietaris tenen vincles amb un fons xinès que Washington té a la llista negra des del 2024."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Un model d'IA obert aprèn com es plega l'ARN a partir de 21 milions d'exemples i en prediu la forma en 3D gairebé com AlphaFold 3, segons «Nature»",
+      "excerpt": "Un equip de la Universitat de Ciència i Tecnologia de la Xina presenta structRFM, un model que llegeix alhora la seqüència i l'estructura de l'ARN. Les dades, el model i el codi són públics."
+    },
+    {
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "La manera de caminar diu molt de la salut de tot el cos: un model d'IA de l'Institut Weizmann en treu indicis de 18 sistemes, segons «Nature Medicine»",
+      "excerpt": "Amb una sola càmera de profunditat i cinc exercicis senzills, el model va predir prop de 1.900 característiques de salut de 3.328 adults, de la força de la mà a la qualitat del son."
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "title": "Un model obert de DeepSeek gairebé iguala el millor d'OpenAI a l'hora d'entrar sol en xarxes d'empresa simulades, i per menys de 3 dòlars per intent",
+      "excerpt": "La prova CyberOffense de Vals AI posa set models d'IA a atacar sense ajuda dues xarxes corporatives fictícies. GPT-6 Sol Daybreak treu un 81% dels objectius; DeepSeek V4.1 Flash, que és de lliure descàrrega, un 72,7%."
+    },
+    {
+      "category": "AGENTS",
+      "read": "4 MIN",
+      "title": "Els millors agents de programació només deixen ben acabada una de cada quatre feines tretes d'encàrrecs reals, segons una prova d'Alibaba i diverses universitats",
+      "excerpt": "Co-Design Bench recull 273 tasques de sessions reals d'usuaris. El millor dels deu models provats, GPT-6 Astra, compleix de mitjana el 70% dels requisits de cada encàrrec, però només el 26,4% de les feines queden del tot bé."
+    },
     {
       "category": "MERCATS",
       "read": "4 MIN",
