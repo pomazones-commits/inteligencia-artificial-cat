@@ -54,6 +54,8 @@ Cada dia canvia com a mínim **dos** d'aquests eixos respecte del dia anterior:
 - Format vertical 4:5, amb espai visual a la part inferior per al peu editorial.
 - Desa la imatge com `public/assets/daily-reflection-AAAA-MM-DD.jpg` (JPEG de debò, ≤1200 px de costat, <350 KB) i **no reutilitzis mai la fotografia d'un altre dia**.
 
+🛑 **Genera-la NOMÉS amb l'script del repositori (des del 08.11.2026):** `GEMINI_KEY=… node automation/scripts/genera-imatge.mjs --slug daily-reflection --fitxer daily-reflection-AAAA-MM-DD.jpg --aspecte 4:5 --prompt "<prompt>"`. Una crida = una generació; si la conversió falla, no tornis a generar: recupera l'original amb `--converteix <fitxer>` (l'script t'ho indica). Vegeu `CLAUDE.md`, «Regles».
+
 ## 5. El JSON
 
 Retorna exclusivament aquest JSON a `incoming/daily-image.json`:
