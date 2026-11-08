@@ -1,8 +1,162 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-07T22:22:01.366Z",
+ "actualitzat": "2026-11-08T05:18:42.558Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "22a14256910a",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alicante analiza quién responde por los errores de la IA en el diagnóstico de alzhéimer y párkinson",
+   "url": "https://www.informacion.es/alicante/2026/11/08/alicante-analiza-responsabilidad-inteligencia-artificial-diagnostico-alzheimer-parkinson-enfermedades-136163085.html",
+   "publicat": "2026-11-08T05:00:53.000Z"
+  },
+  {
+   "id": "1ed2273714a9",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Comunitat Valenciana | De atacar al adversario a diseñar la estrategia de los partidos: la IA irrumpe en la campaña del 29N",
+   "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/de-atacar-al-adversario-a-disenar-la-estrategia-de-los-partidos-la-ia-irrumpe-en-la-campana-del-29n",
+   "publicat": "2026-11-08T05:00:05.000Z"
+  },
+  {
+   "id": "32feda9dd256",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Comunitat Valenciana | Sanidad licita un contrato de 1,45 millones para detectar posibles casos de cáncer de piel con IA",
+   "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/sanidad-licita-un-contrato-de-145-millones-para-detectar-posibles-casos-de-cancer-de-piel-con-ia",
+   "publicat": "2026-11-08T05:00:05.000Z"
+  },
+  {
+   "id": "38a8c4d57ca8",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Peio Belausteguigoitia: \"La intel·ligència artificial democratitza el coneixement i ens fa replantejar a tots com ens relacionem\"",
+   "url": "https://www.diaridegirona.cat/economia/2026/11/08/peio-belausteguigoitia-intelligencia-artificial-democratitza-136212552.html",
+   "publicat": "2026-11-08T04:30:58.000Z"
+  },
+  {
+   "id": "d8a21841826d",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Peio Belausteguigoitia: \"La inteligencia artificial democratiza el conocimiento y nos hace replantear a todos cómo nos relacionamos\"",
+   "url": "https://www.elperiodico.com/es/economia/20261108/inteligencia-artificial-jornadas-bbva-bc-136098172",
+   "publicat": "2026-11-08T04:30:58.000Z"
+  },
+  {
+   "id": "6cab959faba1",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "De la nevera al agua del grifo o la luz: los ciberataques ya impactan en la vida cotidiana",
+   "url": "https://elpais.com/tecnologia/2026-11-08/de-la-nevera-al-agua-del-grifo-o-la-luz-los-ciberataques-ya-impactan-en-la-vida-cotidiana.html",
+   "publicat": "2026-11-08T04:30:01.000Z"
+  },
+  {
+   "id": "8c681f76345b",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Política, IA i les 'midterm'",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/politica-ia-midterm_1721477_102.html",
+   "publicat": "2026-11-08T04:30:00.000Z"
+  },
+  {
+   "id": "a3b844a5c10a",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "«La IA donarà suport al policia, no el substituirà»",
+   "url": "https://www.segre.com/ca/lleida/261108/ia-donara-suport-policia-substituira_1390843.html",
+   "publicat": "2026-11-08T04:21:11.000Z"
+  },
+  {
+   "id": "a2de928e50fb",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Estimar la IA",
+   "url": "https://www.diaridetarragona.com/opinion/tribuna/275152/estimar-ia.html",
+   "publicat": "2026-11-08T04:00:00.000Z"
+  },
+  {
+   "id": "f4b41f90e4fa",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA arriba per quedar-se",
+   "url": "https://www.diaridetarragona.com/opinion/el-voraviu/275153/ia-per-quedar.html",
+   "publicat": "2026-11-08T04:00:00.000Z"
+  },
+  {
+   "id": "ff002b514144",
+   "mitja": "El Punt Avui",
+   "font": "elpuntavui-societat",
+   "icona": "/assets/premsa/el-punt-avui.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA ens farà més llestos o més dependents?",
+   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2688005-la-ia-ens-fara-mes-llestos-o-mes-dependents.html",
+   "publicat": "2026-11-08T01:00:00.000Z"
+  },
+  {
+   "id": "5ff386d17616",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El rechazo demócrata a los centros de datos amenaza el crecimiento de la IA",
+   "url": "https://www.lavanguardia.com/economia/20261108/11678811/rechazo-democrata-centros-datos-amenaza-crecimiento-ia.html",
+   "publicat": "2026-11-07T23:05:00.000Z"
+  },
+  {
+   "id": "71883b521565",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El mundo se descubre cibervulnerable a causa de la inteligencia artificial",
+   "url": "https://www.lavanguardia.com/dinero/20261108/11678242/mundo-descubre-cibervulnerable-causa-inteligencia-artificial.html",
+   "publicat": "2026-11-07T23:05:00.000Z"
+  },
+  {
+   "id": "da481c182393",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tormenta política y bursátil sobre la IA",
+   "url": "https://www.lavanguardia.com/opinion/20261108/11678817/tormenta-politica-bursatil-sobre-ia.html",
+   "publicat": "2026-11-07T23:05:00.000Z"
+  },
   {
    "id": "52432f53639f",
    "mitja": "Ara",
@@ -2227,138 +2381,6 @@
    "titol": "“És una mala època per celebrar un referèndum i debatre en general amb la manipulació i la IA”",
    "url": "https://www.diariandorra.ad/la-perla/261101/mala-epoca-per-celebrar-referendum-i-debatre-general-amb-manipulacio-i-ia_207781.html",
    "publicat": "2026-11-01T05:38:53.000Z"
-  },
-  {
-   "id": "0e222d644e06",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Hombre, máquina o novelista? La IA irrumpe como nuevo VAR de la literatura",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261101/hombre-maquina-o-novelista-ia-135880759",
-   "publicat": "2026-11-01T05:02:41.000Z"
-  },
-  {
-   "id": "1400d6286ed1",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cómo usan los partidos la inteligencia artificial en las elecciones: entre la persuasión y el engaño",
-   "url": "https://www.informacion.es/politica/2026/11/01/partidos-inteligencia-artificial-elecciones-135907410.html",
-   "publicat": "2026-11-01T05:01:16.000Z"
-  },
-  {
-   "id": "3f997cc4a1dd",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial llega a las grandes editoriales internacionales... mientras ellas lo niegan en público",
-   "url": "https://www.lavanguardia.com/neo/ia/20261101/11669437/inteligencia-artificial-llega-grandes-editoriales-internacionales-niegan-publico.html",
-   "publicat": "2026-11-01T05:00:00.000Z"
-  },
-  {
-   "id": "4ddada056496",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Escrito con IA: el nuevo delirio editorial",
-   "url": "https://www.lavanguardia.com/cultura/20261101/11672707/escrito-inteligencia-artificial-nuevo-delirio-editorial-detectores-pangram-almadia.html",
-   "publicat": "2026-11-01T05:00:00.000Z"
-  },
-  {
-   "id": "a8d5f5eb7ca1",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Halloween en tu bolsillo: hipotecas e IA para no dormir",
-   "url": "https://www.lavanguardia.com/dinero/bolsillo/20261101/11673269/halloween-bolsillo-newsletter-inflacion-pca.html",
-   "publicat": "2026-11-01T05:00:00.000Z"
-  },
-  {
-   "id": "00de9d8e2cd0",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Un solo hombre frente a los ciberataques que tumbaron miles de webs: “Hace falta querer hacer algo por los demás”",
-   "url": "https://elpais.com/tecnologia/2026-11-01/un-solo-hombre-frente-a-los-ciberataques-que-tumbaron-miles-de-webs-hace-falta-querer-hacer-algo-por-los-demas.html",
-   "publicat": "2026-11-01T04:30:00.000Z"
-  },
-  {
-   "id": "3fecd7e55cca",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Ni Nvidia ni Apple: la sorprenent inversió que es dispara un 430% en tres mesos i desafia la borsa",
-   "url": "https://www.elnacional.cat/oneconomia/ca/economia/ni-nvidia-ni-apple-sorprenent-inversio-es-dispara-430-en-tres-mesos-desafia-la_1718143_102.html",
-   "publicat": "2026-11-01T04:30:00.000Z"
-  },
-  {
-   "id": "fdb1162398b8",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Google torna: Gemini 4 Carbon i Claude Code",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/google-torna-gemini-4-carbon-claude-code_1717972_102.html",
-   "publicat": "2026-11-01T04:30:00.000Z"
-  },
-  {
-   "id": "158615499f96",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La multimillonaria quema de caja por la inversión en IA castiga a los gigantes de internet",
-   "url": "https://elpais.com/economia/2026-11-01/la-multimillonaria-quema-de-caja-por-la-inversion-en-ia-castiga-a-los-gigantes-de-internet.html",
-   "publicat": "2026-11-01T04:15:00.000Z"
-  },
-  {
-   "id": "5f490206456b",
-   "mitja": "El Punt Avui",
-   "font": "elpuntavui-societat",
-   "icona": "/assets/premsa/el-punt-avui.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA guanya poder i es fica en problemes",
-   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2686785-la-ia-guanya-poder-i-es-fica-en-problemes.html",
-   "publicat": "2026-11-01T01:00:00.000Z"
-  },
-  {
-   "id": "5820ef82f1c5",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Tiene alma lo que escribe la IA?",
-   "url": "https://www.lavanguardia.com/cultura/20261101/11673173/alma-escribe-ia.html",
-   "publicat": "2026-10-31T23:33:31.000Z"
-  },
-  {
-   "id": "352338881894",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La lluita mundial pel domini de la IA",
-   "url": "https://www.regio7.cat/opinio/2026/10/31/lluita-mundial-pel-domini-ia-135935693.html",
-   "publicat": "2026-10-31T22:59:09.000Z"
   }
  ]
 }
