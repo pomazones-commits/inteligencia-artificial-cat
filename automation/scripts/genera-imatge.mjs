@@ -28,6 +28,12 @@
 // La clau només es llegeix de la variable d'entorn GEMINI_KEY: no l'escriguis
 // mai en cap fitxer del repositori.
 //
+// Codis de sortida (SORTIDA): 2 = Gemini no disponible, l'ÚNIC cas en què es
+// pot passar a Pollinations; 3 = conversió fallida (recupera amb --converteix);
+// 4 = prompt rebutjat (reescriu-lo); 5 = sostre de 3 generacions (publica la
+// millor). Els missatges dels casos 3, 4 i 5 diuen «NO és motiu per passar a
+// Pollinations».
+//
 // Conversió: amb `sharp` si està instal·lat; si no, amb ImageMagick (`convert`)
 // i el format d'entrada sempre explícit (png:, jpeg:, webp:). Sortida: JPEG
 // progressiu, 1.200 px de costat com a màxim, per sota de 350 KB.
@@ -44,6 +50,19 @@ export const MAX_COSTAT = 1200;
 export const MAX_BYTES = 350 * 1024;
 export const MIN_BYTES = 30 * 1024;
 const MODEL = 'gemini-2.5-flash-image';
+// Codis de sortida: diuen a la sessió què pot fer després.
+export const SORTIDA = {
+  GEMINI_NO_DISPONIBLE: 2, // quota, servei caigut, xarxa o clau: AQUÍ SÍ es pot passar a Pollinations
+  CONVERSIO: 3,            // la imatge ja és pagada: recupera-la amb --converteix
+  PROMPT_REBUTJAT: 4,      // Gemini respon però no dona imatge: reescriu el prompt
+  SOSTRE: 5                // ja hi ha 3 generacions: publica la millor
+};
+const NO_POLLINATIONS = 'Això NO és motiu per passar a Pollinations';
+
+export class ErrorGemini extends Error {
+  constructor(missatge, codi) { super(missatge); this.codi = codi; }
+}
+
 const ARREL = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 
 export function formatDeBytes(buf) {
@@ -134,15 +153,16 @@ export async function demanaImatge({ prompt, aspecte = '4:3', clau, fetchFn = gl
     } catch (e) { darrerError = new Error(`error de xarxa: ${e.message}`); continue; }
     if (resp.status === 429 || resp.status >= 500) { darrerError = new Error(`HTTP ${resp.status} (error tècnic, es reintenta)`); continue; }
     const text = await resp.text();
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${text.slice(0, 300)}`);
+    if (resp.status === 401 || resp.status === 403) throw new ErrorGemini(`HTTP ${resp.status}: la clau no és vàlida o no té permís. ${text.slice(0, 200)}`, SORTIDA.GEMINI_NO_DISPONIBLE);
+    if (!resp.ok) throw new ErrorGemini(`HTTP ${resp.status}: Gemini rebutja la petició (sovint, el prompt). ${NO_POLLINATIONS}: reescriu el prompt i torna-ho a provar. ${text.slice(0, 300)}`, SORTIDA.PROMPT_REBUTJAT);
     let dades;
     try { dades = JSON.parse(text); } catch { throw new Error(`resposta que no és JSON: ${text.slice(0, 200)}`); }
     const parts = dades?.candidates?.[0]?.content?.parts ?? [];
     const imatge = parts.find((p) => p?.inlineData?.data);
-    if (!imatge) throw new Error(`Gemini no ha tornat cap imatge (no es reintenta sol): ${text.slice(0, 300)}`);
+    if (!imatge) throw new ErrorGemini(`Gemini ha respost però sense cap imatge (prompt bloquejat o rebutjat; no es reintenta sol). ${NO_POLLINATIONS}: reescriu el prompt (treu-ne persones reals, marques o res que pugui semblar sensible) i torna-ho a provar. ${text.slice(0, 300)}`, SORTIDA.PROMPT_REBUTJAT);
     return Buffer.from(imatge.inlineData.data, 'base64');
   }
-  throw darrerError ?? new Error('error desconegut');
+  throw new ErrorGemini(`GEMINI NO DISPONIBLE després de ${esperes.length} reintents (${darrerError?.message ?? 'error desconegut'}). Aquí sí que pots fer servir el recanvi de Pollinations per a aquesta imatge.`, SORTIDA.GEMINI_NO_DISPONIBLE);
 }
 
 function arguments_(argv) {
@@ -178,10 +198,10 @@ async function main() {
 
   if (!a.prompt) throw new Error('cal --prompt');
   const clau = process.env.GEMINI_KEY;
-  if (!clau) throw new Error('falta la variable d\'entorn GEMINI_KEY');
+  if (!clau) throw new ErrorGemini('falta la variable d\'entorn GEMINI_KEY', SORTIDA.GEMINI_NO_DISPONIBLE);
   const fetes = generacionsFetes(llegeixRegistre(), data, a.slug);
   if (fetes >= MAX_GENERACIONS) {
-    throw new Error(`${a.slug} ja té ${fetes} generacions avui: és el màxim (${MAX_GENERACIONS}). No es torna a cridar Gemini. Si hi ha una imatge desada a ${dirTemporal()}, recupera-la amb --converteix.`);
+    throw new ErrorGemini(`${a.slug} ja té ${fetes} generacions avui: és el màxim (${MAX_GENERACIONS}). No es torna a cridar Gemini. ${NO_POLLINATIONS}: publica la millor de les generades (són a ${dirTemporal()}, recupera-la amb --converteix si cal).`, SORTIDA.SOSTRE);
   }
 
   const buf = await demanaImatge({ prompt: a.prompt, aspecte: a.aspecte ?? '4:3', clau });
@@ -197,10 +217,11 @@ async function main() {
     console.error(`ERROR DE CONVERSIÓ: ${e.message}`);
     console.error(`La imatge JA ESTÀ PAGADA i desada a ${original}. NO la tornis a generar: arregla la conversió i fes`);
     console.error(`  node automation/scripts/genera-imatge.mjs --converteix ${original} --slug ${a.slug} --data ${data}`);
-    process.exit(3);
+    console.error(NO_POLLINATIONS + '.');
+    process.exit(SORTIDA.CONVERSIO);
   }
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  main().catch((e) => { console.error(`ERROR: ${e.message}`); process.exit(1); });
+  main().catch((e) => { console.error(`ERROR: ${e.message}`); process.exit(e.codi ?? 1); });
 }

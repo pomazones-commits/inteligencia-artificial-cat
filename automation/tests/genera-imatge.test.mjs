@@ -10,7 +10,7 @@ import { execFileSync, spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import {
   formatDeBytes, converteix, demanaImatge, generacionsFetes, apuntaGeneracio, llegeixRegistre,
-  validaSlug, MAX_GENERACIONS, MAX_BYTES, MIN_BYTES
+  validaSlug, MAX_GENERACIONS, MAX_BYTES, MIN_BYTES, SORTIDA
 } from '../scripts/genera-imatge.mjs';
 
 const SCRIPT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../scripts/genera-imatge.mjs');
@@ -73,14 +73,16 @@ test('demanaImatge reintenta els errors tècnics i torna la imatge', async () =>
 test('demanaImatge NO reintenta una resposta sense imatge', async () => {
   let crides = 0;
   const fetchFn = async () => { crides++; return new Response(JSON.stringify({ candidates: [{ content: { parts: [{ text: 'no' }] } }] }), { status: 200 }); };
-  await assert.rejects(demanaImatge({ prompt: 'x', clau: 'k', fetchFn, dormir: async () => {} }), /no ha tornat cap imatge/);
+  await assert.rejects(demanaImatge({ prompt: 'x', clau: 'k', fetchFn, dormir: async () => {} }),
+    (e) => e.codi === SORTIDA.PROMPT_REBUTJAT && /NO és motiu per passar a Pollinations/.test(e.message));
   assert.equal(crides, 1);
 });
 
 test('demanaImatge es rendeix després de 3 reintents tècnics', async () => {
   let crides = 0;
   const fetchFn = async () => { crides++; return new Response('', { status: 500 }); };
-  await assert.rejects(demanaImatge({ prompt: 'x', clau: 'k', fetchFn, dormir: async () => {} }), /HTTP 500/);
+  await assert.rejects(demanaImatge({ prompt: 'x', clau: 'k', fetchFn, dormir: async () => {} }),
+    (e) => e.codi === SORTIDA.GEMINI_NO_DISPONIBLE && /HTTP 500/.test(e.message) && /sí que pots fer servir el recanvi de Pollinations/.test(e.message));
   assert.equal(crides, 4);
 });
 
@@ -102,6 +104,13 @@ test('la línia d\'ordres es nega a passar del sostre sense cridar l\'API', () =
     env: { ...process.env, TMPDIR: tmpdir, GEMINI_KEY: 'clau-falsa-que-no-s-ha-de-fer-servir', HTTPS_PROXY: 'http://127.0.0.1:9' },
     encoding: 'utf8'
   });
-  assert.equal(r.status, 1);
+  assert.equal(r.status, SORTIDA.SOSTRE);
   assert.match(r.stderr, /és el màxim/);
+  assert.match(r.stderr, /NO és motiu per passar a Pollinations/);
+});
+
+test('un 400 és prompt rebutjat (no Pollinations) i un 403 és clau dolenta (sí Pollinations)', async () => {
+  const amb = (status) => async () => new Response('{}', { status });
+  await assert.rejects(demanaImatge({ prompt: 'x', clau: 'k', fetchFn: amb(400), dormir: async () => {} }), (e) => e.codi === SORTIDA.PROMPT_REBUTJAT);
+  await assert.rejects(demanaImatge({ prompt: 'x', clau: 'k', fetchFn: amb(403), dormir: async () => {} }), (e) => e.codi === SORTIDA.GEMINI_NO_DISPONIBLE);
 });
