@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-08T05:18:42.558Z",
+ "actualitzat": "2026-11-08T05:32:41.708Z",
  "fonts": 44,
  "articles": [
   {
@@ -35,6 +35,28 @@
    "titol": "Comunitat Valenciana | Sanidad licita un contrato de 1,45 millones para detectar posibles casos de cáncer de piel con IA",
    "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/sanidad-licita-un-contrato-de-145-millones-para-detectar-posibles-casos-de-cancer-de-piel-con-ia",
    "publicat": "2026-11-08T05:00:05.000Z"
+  },
+  {
+   "id": "75bca3403465",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Preveure en temps d’IA",
+   "url": "https://www.diariandorra.ad/opinio/les-set-claus/261108/preveure-temps-d-ia_208298.html",
+   "publicat": "2026-11-08T04:53:39.000Z"
+  },
+  {
+   "id": "58114a89d9f4",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA entra a les maletes",
+   "url": "https://www.diariandorra.ad/nacional/261108/ia-entra-les-maletes_208291.html",
+   "publicat": "2026-11-08T04:37:32.000Z"
   },
   {
    "id": "38a8c4d57ca8",
@@ -79,6 +101,28 @@
    "titol": "Política, IA i les 'midterm'",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/politica-ia-midterm_1721477_102.html",
    "publicat": "2026-11-08T04:30:00.000Z"
+  },
+  {
+   "id": "8ffb2fcbeaa0",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA no és un perill si la persona decideix",
+   "url": "https://www.segre.com/ca/opinio/lideratge/261108/ia-perill-persona-decideix_1390867.html",
+   "publicat": "2026-11-08T04:23:24.000Z"
+  },
+  {
+   "id": "7ecc8548068e",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La Urbana de Lleida preveu incorporar IA a càmeres de vigilància al desembre",
+   "url": "https://www.segre.com/ca/lleida/261108/urbana-lleida-preveu-incorporar-ia-cameres-vigilancia-desembre_1390859.html",
+   "publicat": "2026-11-08T04:23:15.000Z"
   },
   {
    "id": "a3b844a5c10a",
