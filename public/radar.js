@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Andorra",
+    "category": "IA I SOCIETAT",
+    "date": "08.11.2026",
+    "title": "Les agències de viatges d'Andorra reben clients amb itineraris fets amb ChatGPT, i hi troben errors en les connexions de vols",
+    "summary": "La vicepresidenta de l'Associació d'Agències de Viatges d'Andorra, Maica Terrones, diu que les reserves no han baixat, però que els clients joves arriben amb programes fets amb IA que cal revisar, sobretot en viatges llargs.",
+    "detail": "Els xatbots com ChatGPT, Gemini o Claude s'han convertit també en planificadors de vacances, sobretot entre la gent jove, que els demana itineraris sencers abans de reservar res. Les agències de viatges d'Andorra comencen a notar-ho a la seva clientela, segons recull el Diari d'Andorra.\n\nMaica Terrones, de l'agència Viatges Emocions i vicepresidenta de l'Associació d'Agències de Viatges, explica al diari que no han vist cap baixada de reserves, però que sí que hi ha «un canvi» en la informació amb què arriben alguns clients, especialment els més joves: porten programes ja fets amb IA, que l'agència ha de comprovar. Segons Terrones, en alguns casos hi han trobat moltes incoherències, sobretot en les connexions de transport, com les escales dels vols, i a la IA encara li costa tenir en compte retards o cancel·lacions quan es tracta de viatges llargs i no d'una escapada de cap de setmana.\n\nEl sector també la fa servir: segons les mateixes fonts, les agències l'utilitzen per preparar informació per als clients, respondre més de pressa o fer consultes. Terrones distingeix entre fer una proposta amb IA, que pot tenir errors, i tancar un viatge, i creu que la IA no les substituirà, perquè el seu valor és conèixer les destinacions i els gustos de cada client.\n\nÉs el testimoni del sector, no un estudi: no hi ha xifres de quants clients arriben amb itineraris fets amb IA ni de quants errors s'hi troben, i qui parla té interès a defensar la feina de les agències. Tot i això, coincideix amb una advertència habitual sobre aquestes eines: poden donar horaris o enllaços que no existeixen, i convé comprovar-los abans de pagar.",
+    "source": "Diari d'Andorra",
+    "url": "https://www.diariandorra.ad/nacional/261108/ia-entra-les-maletes_208291.html",
+    "image": "./assets/andorra-agencies-viatges-clients-programes-chatgpt-20261108.jpg",
+    "slug": "andorra-agencies-viatges-clients-programes-chatgpt"
+  },
+  {
     "place": "València",
     "category": "IA I SOCIETAT",
     "date": "08.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.softcatala.org/noticies/la-vostra-veu-la-del-catala-a-la-intelligencia-artificial-garbellaveus-i-arenacat/",
     "image": "./assets/softcatala-garbellaveus-arenacat-catala-ia-20261105.jpg",
     "slug": "softcatala-garbellaveus-arenacat-catala-ia"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "05.11.2026",
-    "title": "La barcelonina Kabilio capta 10 milions d'euros per posar un agent d'IA a fer la comptabilitat de les assessories",
-    "summary": "L'empresa emergent, que ja treballa amb gairebé 500 despatxos i té 80 treballadors, prova aquest mes un agent que recull factures, concilia comptes i reclama als clients els papers que falten.",
-    "detail": "Les assessories i gestories fan cada mes una feina repetitiva i poc agraïda: recollir factures dels clients, entrar-les a la comptabilitat, quadrar-les amb els moviments del banc i reclamar els papers que falten. És un dels camps on la IA té més recorregut en l'economia real, perquè es tracta de documents estructurats i de regles conegudes, i on moltes petites empreses depenen del seu assessor.\n\nKabilio, empresa emergent de Barcelona fundada el 2024 per Jose Ojeda i Álex Valls, ha tancat una ronda de 10 milions d'euros liderada pels fons Picus Capital i Visionaries, que ja van encapçalar la ronda de 4 milions de fa un any, amb la participació del CDTI, l'agència pública espanyola d'innovació. En total ha captat 14 milions. El seu programari llegeix factures, proposa els assentaments, encreua els moviments bancaris i marca anomalies, i els comptables ho revisen i ho aproven; l'empresa diu que estalvia al voltant d'un 60% del temps de comptabilitat i conciliació. En un any ha passat d'uns 100 despatxos clients a gairebé 500, i la plantilla ja és de 80 persones.\n\nUna part dels diners anirà a acabar un agent d'IA que entra aquest mes en proves amb diversos despatxos. Podrà recollir factures i extractes, conciliar comptes, revisar assentaments, reclamar el que falta i escriure als clients per correu o per WhatsApp; el comptable li dona les instruccions en llenguatge corrent i decideix fins on pot actuar sol amb cada client. Kabilio també va estrenar al setembre Kabilio Empresas, perquè els clients de l'assessoria facin factures i segueixin la tresoreria al mateix sistema, i vol que l'agent acabi enviant factures, recordant pagaments pendents i responent preguntes fiscals senzilles de les petites empreses.\n\nLes xifres d'estalvi i de creixement són de l'empresa i no s'han verificat de manera independent, i no s'ha fet públic el repartiment de la ronda entre els inversors ni l'aportació concreta del CDTI. L'agent tot just entra en proves, i deixar que un sistema automàtic escrigui als clients i reclami documentació en nom d'una assessoria planteja preguntes sobre errors i responsabilitat que caldrà veure com es resolen a la pràctica.",
-    "source": "The Next Web",
-    "url": "https://thenextweb.com/news/kabilio-raises-e10m-to-bring-ai-agents-to-accounting-firms",
-    "image": "./assets/kabilio-capta-10-milions-agent-ia-assessories-comptables-20261105.jpg",
-    "slug": "kabilio-capta-10-milions-agent-ia-assessories-comptables"
   }
 ];
