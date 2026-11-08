@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-08T11:33:48.492Z",
+ "actualitzat": "2026-11-08T17:20:46.057Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e00609cac25d",
+   "mitja": "Ara Balears",
+   "font": "arabalears",
+   "icona": "/assets/premsa/ara-balears.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "M’estimava més quan mon pare era el meu ChatGPT",
+   "url": "https://www.arabalears.cat/societat/m-estimava-mes-mon-pare-chatgpt_1_5902055.html",
+   "publicat": "2026-11-08T16:24:15.000Z"
+  },
+  {
+   "id": "387b84b1724e",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Qué es la función mapas de ChatGPT y cómo sacarle partido a esta herramienta",
+   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-08/que-es-la-funcion-mapas-de-chatgpt-y-como-sacarle-partido-a-esta-herramienta.html",
+   "publicat": "2026-11-08T15:32:06.000Z"
+  },
+  {
+   "id": "274e4ac35fb6",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Calvià se proyecta en Londres como plató de cine con inteligencia artificial",
+   "url": "https://www.ultimahora.es/noticias/part-forana/2026/11/08/2745663/calvia-proyecta-londres-como-plato-cine-inteligencia-artificial.html",
+   "publicat": "2026-11-08T15:01:08.000Z"
+  },
+  {
+   "id": "aad13dd8595d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Bellvitge aprueba su hoja de ruta hasta 2028 con la IA y la medicina de precisión entre sus prioridades",
+   "url": "https://www.lavanguardia.com/elllobregat/sociedad/20261108/11679287/bellvitge-aprueba-hoja-ruta-2028-ia-medicina-precision-prioridades.html",
+   "publicat": "2026-11-08T15:00:48.000Z"
+  },
   {
    "id": "dd69f2f3e2de",
    "mitja": "El Nacional",
