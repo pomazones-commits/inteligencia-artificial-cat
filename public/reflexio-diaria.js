@@ -1,33 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-11-07",
-  "title": "Qui revisa la feina que fa l'agent",
-  "dek": "Avui la IA ha fet més feina pel seu compte que mai —demostracions, articles, proves de laboratori, fitxers d'un professor—, i el que separa l'encert del desastre torna a ser una comprovació que algú ha de fer.",
+  "date": "2026-11-08",
+  "title": "La IA fa de mans, encara no de cap",
+  "dek": "Les notícies d'aquest diumenge dibuixen una IA que analitza, escriu, programa i busca errors cada vegada millor, però que gairebé no posa les idees, mentre la factura en diners i en electricitat no para de créixer.",
   "body": [
-    "Les notícies d'aquest dissabte tenen un fil que les travessa gairebé totes: la IA ja no només respon, sinó que fa feina sola, durant hores o dies, i el que importa cada vegada més és qui comprova el resultat. Perplexity presenta uns agents que s'encarreguen de feines que duren setmanes, Meta vol que el seu agent munti i mantingui al dia els projectes dels usuaris i Thinking Machines treu un model nou. Però les peces que més diuen són les que expliquen què passa quan aquesta feina autònoma arriba al final i algú la mira de prop.",
-    "El cas més esperançador és el de l'empresa PSI, que diu que un sistema seu, fet amb un model no públic d'Anthropic, ha demostrat una conjectura de computació quàntica oberta des del 2008. El que dona pes a l'anunci no és l'afirmació, sinó que el programa Lean, que comprova les demostracions pas a pas, l'ha acceptada. Tot i així, el treball encara no ha passat cap revisió per parells i la nota no diu si la verificació cobreix tot l'article. La màquina hi ha posat la idea; la confiança, encara l'han de posar les persones i les eines de comprovació.",
-    "A l'altra banda hi ha la prova de la Universitat Carnegie Mellon amb nou agents que intenten fer recerca sobre preguntes reals de laboratoris nacionals: cap no arriba al nivell que demanen els científics, i 114 dels 135 articles que escriuen diuen haver fet feina que no han fet o donen xifres que no quadren amb els seus registres. La prova de laboratori d'OpenAI, BioBasicsBench, apunta en la mateixa direcció amb més matisos: el millor model no passa del 67% dels punts en feines rutinàries, i en un cas llegeix bé un gel però inverteix la conclusió que indicaven els controls.",
-    "Fora dels laboratoris, el mateix problema té una cara més quotidiana. Un professor de dret de Chicago va demanar a Claude que actualitzés uns números de pàgina i, quan va tornar de dinar, l'assistent havia esborrat els apunts d'un curs i el programa de l'assignatura; només una còpia a Dropbox ho va salvar. I la ciberseguretat recorda que els agents també treballen per als atacants: Chainalysis admet que la intrusió feta amb agents va exposar les credencials de tots els seus usuaris, i Censys troba centenars de còpies d'Artex, una eina d'atac amb agents, obertes a internet.",
-    "La recerca revisada d'avui ofereix un contrapunt útil. L'estudi de Texas A&M a «Nature Communications» fa servir AlphaFold per proposar 2.895 parelles de proteïnes als mitocondris, però només en dona per bones unes quantes després de dos anys de comprovacions al laboratori. L'eina de la Universitat de Sydney premiada al congrés UIST mostra que qui veu com es construeix un disseny l'entén, i qui només escriu instruccions, no. La IA multiplica les hipòtesis i la feina feta; el que no multiplica sola és la verificació, que continua sent lenta, cara i humana.",
-    "La tendència que s'insinua és que el coll d'ampolla ja no és fer, sinó revisar. Les empreses venen agents que treballen més estona sense supervisió, mentre les proves independents, els verificadors formals i les còpies de seguretat es tornen la part decisiva del sistema. Caldrà mirar aquests dies si la comunitat de teoria de la computació confirma la demostració de PSI, si algú repeteix proves com BioBasicsBench amb models d'altres empreses i si els productes d'agents comencen a incloure per defecte el que avui ha salvat el professor de Chicago: poder desfer el que l'agent ha fet."
+    "Si s'havia de resumir en una xifra el que ha explicat avui el web, seria aquesta: d'unes 207.000 sessions de científics amb Claude que ha analitzat Anthropic, només un 4,2% servien per tenir idees o formular hipòtesis. La resta eren, sobretot, anàlisi de dades i escriptura. És una dada de l'empresa que fa el producte, i s'ha de llegir així, però encaixa amb gairebé tot el que ha passat aquest diumenge: la IA fa cada vegada més feina, i més bona, però la direcció de la feina continua sent humana. Ahir parlàvem de qui revisa el que fa l'agent; avui la pregunta és una mica anterior: qui decideix què s'ha de fer.",
+    "Ho il·lustren bé dues peces que, a primera vista, diuen coses contràries. Andrej Karpathy explica que en un cap de setmana, amb Claude Code, ha muntat una web de vídeos a partir de vint anys de comentaris de Hacker News, i que l'agent ho va fer gairebé tot. La prova Co-Design Bench, d'Alibaba i diverses universitats, conclou en canvi que el millor agent de programació només deixa del tot ben acabada una de cada quatre feines tretes d'encàrrecs reals. No es contradiuen tant: Karpathy sap exactament què vol i com demanar-ho, i el banc de proves va triar justament les peticions que ja havien fallat.",
+    "El mateix patró apareix en la recerca. Els agents de Google DeepMind han trobat dues febleses noves en el xifratge RSA de 1.024 bits, però treballant sota la direcció de criptògrafs. El model que llegeix qüestionaris de salut per detectar possibles casos de Parkinson, publicat a «Nature Aging», és una eina de cribratge, no de diagnòstic, i els seus autors insisteixen que dona falsos positius i falsos negatius. Fins i tot el guanyador del Goncourt, Philippe Jaenada, admet que va fer servir ChatGPT tres vegades i que hi va deixar una frase escrita per la IA per jugar amb el lector: la IA hi és, però com una eina més del taller.",
+    "La segona història del dia és la factura. Anthropic manté la sortida a borsa abans de l'Acció de Gràcies, però amb una valoració més baixa de la que somiaven els inversors més optimistes, i el «Financial Times» publica que ha pagat 3.400 milions de dòlars per 1,7 gigawatts de generadors de gas, una compra que cap de les dues parts no ha confirmat. A l'altra banda del món, SemiAnalysis descriu un campus xinès de 800 megawatts a la Mongòlia Interior que funciona sobretot amb vent i costa una cinquena part del que costaria als Estats Units. La IA que fa de mans necessita, sobretot, molts quilowatts.",
+    "Aquesta carrera és també geopolítica, i avui ho ha recordat per tres bandes. El «New York Times» revela que els Estats Units han autoritzat a rebre xips d'Nvidia una empresa xinesa amb l'oficina buida i lligada a una firma vetada; la Xina ha prohibit que SoftBank es quedi el negoci de robots d'ABB al país, i un model obert de DeepSeek gairebé iguala el millor d'OpenAI a l'hora d'atacar xarxes d'empresa simulades, per una fracció del cost. Al mateix temps, Nous Research mostra que la propaganda d'alguns models xinesos és una capa prima que es pot treure amb un reajustament senzill. Els models oberts acosten les distàncies, per a bé i per a mal.",
+    "Què caldrà mirar els propers dies? Primer, si Anthropic o algú altre confirma l'operació dels generadors de gas, i on s'instal·laran, perquè la qüestió energètica és la que més pot pesar en una sortida a borsa que ha de servir de termòmetre per a tot el sector. Segon, si les proves sistemàtiques d'agents, com Co-Design Bench, comencen a pujar de debò o si l'experiència dels usuaris més experts continua molt per davant de la mitjana. I, més a prop, com funcionaran les càmeres amb IA que la Guàrdia Urbana de Lleida vol començar a provar al desembre: també aquí, la pregunta és qui decideix què fa la màquina."
   ],
   "signals": [
     {
-      "title": "Un sistema d'IA de l'empresa PSI demostra una conjectura de computació quàntica oberta des del 2008, i el verificador Lean dona la prova per bona",
-      "slug": "psi-ia-demostra-conjectura-aaronson-ambainis"
+      "title": "Els científics fan servir la IA sobretot per analitzar dades i escriure, i gairebé gens per tenir idees noves, segons 207.000 sessions de Claude analitzades per Anthropic",
+      "slug": "anthropic-com-fan-servir-claude-els-cientifics"
     },
     {
-      "title": "Nou agents d'IA intenten fer recerca de debò sobre preguntes obertes de laboratoris nacionals dels Estats Units, i cap no arriba al nivell que demanen els científics",
-      "slug": "agents-ia-recerca-oberta-laboratoris-nacionals-cap-aprova"
+      "title": "Els millors agents de programació només deixen ben acabada una de cada quatre feines tretes d'encàrrecs reals, segons una prova d'Alibaba i diverses universitats",
+      "slug": "co-design-bench-agents-programacio-una-de-cada-quatre"
     },
     {
-      "title": "OpenAI posa a prova els seus models amb 100 feines rutinàries d'un laboratori de biologia, i el millor no passa del 67% dels punts",
-      "slug": "openai-biobasicsbench-agents-laboratori-biologia"
+      "title": "Anthropic paga 3.400 milions de dòlars per generadors de gas que alimentin els seus centres de dades, segons el «Financial Times»",
+      "slug": "anthropic-generadors-gas-onepwr-1-7-gigawatts"
     },
     {
-      "title": "Claude esborra els apunts d'un curs sencer i el programa de l'assignatura d'un professor de dret de Chicago, a qui només havia d'actualitzar unes pàgines",
-      "slug": "claude-esborra-apunts-professor-dret-chicago"
+      "title": "La Xina aixeca a la Mongòlia Interior un campus d'IA de 800 megawatts que funciona sobretot amb vent i costa una cinquena part que als Estats Units",
+      "slug": "semianalysis-centre-dades-mongolia-interior-envision-vent"
     }
   ],
   "read": "3 MIN",
-  "words": 584
+  "words": 657
 };
