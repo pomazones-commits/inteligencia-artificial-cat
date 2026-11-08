@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-08T05:18:40.460Z",
+  "generat": "2026-11-08T09:15:04.554Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 29,
+      "audios": 30,
       "sobre_ia": 2
     },
     {
@@ -177,23 +177,5 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": [
-    {
-      "id": "3cat-1296643",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Revolució 4.0",
-      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
-      "data": "2026-11-08",
-      "durada": "11 min",
-      "titol_original": "Com seran les fàbriques catalanes del futur? La revolució tecnològica que ja està en marxa",
-      "descripcio_original": "Parlem de com la intel·ligència artificial, la robòtica i les noves tecnologies estan transformant les fàbriques en indústries més intel·ligents i eficients, i de l'impacte d'aquesta revolució en els llocs de treball. Xantal Llavina conversa amb Sandra Pérez, líder de l'equip d'Indústria 4.0 d'Acció, que analitza l'evolució del sector a Catalunya, i amb Pere Cornellà, director general de Cafès Cornellà, que explica com han incorporat aquestes tecnologies a la seva empresa.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/com-seran-les-fabriques-catalanes-del-futur-la-revolucio-tecnologica-que-ja-esta/audio/1296643/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1296643"
-      }
-    }
-  ]
+  "candidats": []
 }
