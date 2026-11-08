@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-07T13:14:15.507Z",
+  "generat": "2026-11-08T05:18:40.460Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -8,7 +8,7 @@
       "programa": "Revolució 4.0",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 14
+      "sobre_ia": 12
     },
     {
       "font": "3cat",
@@ -88,7 +88,7 @@
       "programa": "Sentit de viure",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 0
     },
     {
       "font": "rtve",
@@ -152,8 +152,10 @@
       "font": "wordpress",
       "emissora": "Ràdio Capital de l'Empordà",
       "programa": "Supermatí",
+      "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
+      "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 21,
+      "audios": 22,
       "sobre_ia": 1
     },
     {
@@ -175,5 +177,23 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "3cat-1296643",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Revolució 4.0",
+      "programa_url": "https://www.3cat.cat/3cat/revolucio/",
+      "data": "2026-11-08",
+      "durada": "11 min",
+      "titol_original": "Com seran les fàbriques catalanes del futur? La revolució tecnològica que ja està en marxa",
+      "descripcio_original": "Parlem de com la intel·ligència artificial, la robòtica i les noves tecnologies estan transformant les fàbriques en indústries més intel·ligents i eficients, i de l'impacte d'aquesta revolució en els llocs de treball. Xantal Llavina conversa amb Sandra Pérez, líder de l'equip d'Indústria 4.0 d'Acció, que analitza l'evolució del sector a Catalunya, i amb Pere Cornellà, director general de Cafès Cornellà, que explica com han incorporat aquestes tecnologies a la seva empresa.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/com-seran-les-fabriques-catalanes-del-futur-la-revolucio-tecnologica-que-ja-esta/audio/1296643/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1296643"
+      }
+    }
+  ]
 }
