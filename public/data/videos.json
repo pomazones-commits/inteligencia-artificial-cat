@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-09T16:45:18.671Z",
+ "actualitzat": "2026-11-09T23:51:47.569Z",
  "canals": 19,
  "videos": [
   {
@@ -969,18 +969,6 @@
    "publicat": "2026-10-20T22:57:52.000Z",
    "descripcio": "See how an AI shopping agent can turn a room photo into a personalized shopping experience—from finding the right products to updating an order. In this demo for fictional home goods retailer Vesper & Alder, a shopper uses voice and images to create a cozy reading nook. The agent recommends products",
    "miniatura": "/assets/videos/8n-SXxRIrm8.jpg"
-  },
-  {
-   "id": "DQHtmW9ZlIs",
-   "titol": "Cooking with Codex: Ep. 1",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-19T22:55:26.000Z",
-   "descripcio": "In this episode of Cooking with Codex, an OpenAI dot helps plan a ramen recipe and organize prep in ChatGPT Space, with GPT-Live guiding the cooking process. Also covered: Codex cloud environments, which keep tasks running after a laptop is closed, and new Codex CLI features including voice input, a",
-   "miniatura": "/assets/videos/DQHtmW9ZlIs.jpg"
   },
   {
    "id": "Jh6mgf9M06M",
