@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-08T22:31:17.604Z",
+ "actualitzat": "2026-11-09T05:17:11.708Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "264e3425ac8c",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Empresas | La presión de la IA empuja a las empresas a confesar a la CNMC pactos de precios",
+   "url": "https://valenciaplaza.com/valenciaplaza/empresas1/la-presion-de-la-ia-empuja-a-las-empresas-a-confesar-a-la-cnmc-pactos-de-precios",
+   "publicat": "2026-11-09T05:00:05.000Z"
+  },
+  {
+   "id": "1ab6601fd7ea",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-tec",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El medicamento tiene un aliado en la IA, si se gobierna bien",
+   "url": "https://www.lavanguardia.com/dinero/20261109/11677883/medicamento-aliado-ia-gobierna-brl.html",
+   "publicat": "2026-11-09T05:00:00.000Z"
+  },
+  {
+   "id": "710eaa6deae2",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los videojuegos quieren implementar la inteligencia artificial a toda costa: para los jugadores, es signo de dejadez",
+   "url": "https://www.lavanguardia.com/neo/videojuegos/20261109/11678120/videojuegos-quieren-implementar-inteligencia-artificial-toda-costa-jugadores-signo-dejadez.html",
+   "publicat": "2026-11-09T05:00:00.000Z"
+  },
+  {
+   "id": "80efe5445884",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El avance de la IA para organizar procesos completos toma fuerza en el sector asegurador",
+   "url": "https://www.lavanguardia.com/seguros/20261109/11679350/avance-ia-organizar-procesos-completos-toma-fuerza-sector-asegurador.html",
+   "publicat": "2026-11-09T05:00:00.000Z"
+  },
+  {
+   "id": "3e7982db81aa",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA destapa casi el doble de empleos en negro en Tarragona: el fraude laboral se dispara",
+   "url": "https://www.diaridetarragona.com/economia/274977/ia-destapa-doble-empleos-negro-tarragona-fraude-laboral-dispara.html",
+   "publicat": "2026-11-09T04:00:00.000Z"
+  },
+  {
+   "id": "2d7d1af08a6b",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De tiralíneas a la IA, pasando por el autocad: los arquitectos seniors reivindican su papel en la sociedad valenciana",
+   "url": "https://www.lasprovincias.es/sociedad/canal-mayores/tiralineas-ia-pasando-autocad-arquitectos-seniors-reivindican-20261027101958-nt.html",
+   "publicat": "2026-11-09T00:17:32.000Z"
+  },
+  {
+   "id": "2e00d2d49ae2",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Txetxu Ausín, investigador del CSIC: «Con la IA aceptamos todo lo que nos viene y no hacemos ninguna crítica»",
+   "url": "https://www.lasprovincias.es/sociedad/txetxu-ausin-investigador-csic-ia-20261107175440-nt.html",
+   "publicat": "2026-11-09T00:07:05.000Z"
+  },
+  {
+   "id": "dc7082a51b8f",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un día sin IA",
+   "url": "https://www.lasprovincias.es/opinion/ma-jose-pou-amerigo-dia-ia-20261109001244-nt.html",
+   "publicat": "2026-11-08T23:12:44.000Z"
+  },
   {
    "id": "5f88edb7dbed",
    "mitja": "Información",
@@ -2517,61 +2605,6 @@
    "titol": "\"Una nueva sabidur(IA)\"",
    "url": "https://www.elperiodico.com/es/entre-todos/participacion/nueva-sabidur-ia-inteligencia-artificial-carta-lector-javier-gonzalez-135783976",
    "publicat": "2026-11-02T05:30:32.000Z"
-  },
-  {
-   "id": "ae35cd73fbac",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Opinión | La IA opina sobre las viviendas del Plan General de Alicante",
-   "url": "https://alicanteplaza.es/alicanteplaza/opinionalicante/la-ia-opina-sobre-las-viviendas-del-plan-general-de-alicante",
-   "publicat": "2026-11-02T05:00:06.000Z"
-  },
-  {
-   "id": "5f6553ba4ee2",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El falso médico: cuando la IA convierte la bata blanca en un reclamo para hacer negocio",
-   "url": "https://www.lavanguardia.com/comer/tendencias/20261102/11671008/fraudes-medicos-suplantacion-digital-ia-convierte-bata-blanca-reclamo-negocio.html",
-   "publicat": "2026-11-02T05:00:00.000Z"
-  },
-  {
-   "id": "fcad66ff51c2",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Vamos sobrados de nombres de internet, lo que faltan son direcciones IP: por qué la IA ha disparado el negocio de un protocolo de los 80",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261102/11669182/sobrados-nombres-internet-faltan-son-direcciones-ip-ia-disparado-negocio-protocolo-80.html",
-   "publicat": "2026-11-02T05:00:00.000Z"
-  },
-  {
-   "id": "a29e017741b7",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La IA quiere el dinero de los inversores, pero no sus opiniones",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-02/la-ia-declara-la-guerra-al-capitalismo-popular.html",
-   "publicat": "2026-11-02T04:30:00.000Z"
-  },
-  {
-   "id": "bf8f4b6d3f78",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Indra pondrá su división de inteligencia artificial en el centro del nuevo plan estratégico",
-   "url": "https://cincodias.elpais.com/companias/2026-11-02/indra-pondra-su-division-de-inteligencia-artificial-en-el-centro-del-nuevo-plan-estrategico.html",
-   "publicat": "2026-11-02T04:15:00.000Z"
   }
  ]
 }
