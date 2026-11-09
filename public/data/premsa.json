@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-09T16:45:31.997Z",
+ "actualitzat": "2026-11-09T16:55:57.436Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "1f389b4524d1",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La Vall d’Aran reunirà experts internacionals per a debatre el futur de les llengües minoritzades i la IA",
+   "url": "https://www.vilaweb.cat/noticies/congres-vall-aran-llengues-minoritzades-intelligencia-artificial",
+   "publicat": "2026-11-09T16:47:29.000Z"
+  },
+  {
+   "id": "a542680ac4f4",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Esther Algarra, catedrática de Derecho Civil de la UA: \"La ley debe adaptarse a retos como la implicación de la IA en el derecho al honor\"",
+   "url": "https://www.informacion.es/videos/alicante/2026/11/09/esther-algarra-catedratica-derecho-civil-136258936.html",
+   "publicat": "2026-11-09T16:45:39.000Z"
+  },
   {
    "id": "4bf2d7bf1fe0",
    "mitja": "Información",
@@ -2744,28 +2766,6 @@
    "titol": "Tabernero (CaixaResearch Institute): La IA \"bien aplicada\" facilitará mucho las cosas en medicina",
    "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/03/2742007/tabernero-caixaresearch-institute-bien-aplicada-facilitara-mucho-cosas-medicina.html",
    "publicat": "2026-11-03T10:19:29.000Z"
-  },
-  {
-   "id": "a24a8c55cedd",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Doble control humà, un nou software i IA: les mesures de l'Estat per millorar la seguretat a l'alta velocitat",
-   "url": "https://www.ara.cat/societat/baixen-26-victimes-ingressades-hospitals-l-accident-ferroviari-toledo_1_5898396.html",
-   "publicat": "2026-11-03T10:08:35.000Z"
-  },
-  {
-   "id": "27f813e29920",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "OpenAI promete salvar tu factura de la luz: sus centros de datos de IA consumirán menos energía en momentos de máxima demanda",
-   "url": "https://www.lavanguardia.com/neo/ia/20261103/11674822/openai-promete-salvar-factura-luz-centros-datos-ia-consumiran-energia-momentos-maxima-demanda.html",
-   "publicat": "2026-11-03T09:55:23.000Z"
   }
  ]
 }
