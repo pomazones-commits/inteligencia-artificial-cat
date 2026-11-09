@@ -1,18 +1,95 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-09T17:17:35.924Z",
+ "actualitzat": "2026-11-09T23:36:37.170Z",
  "fonts": 44,
  "articles": [
   {
-   "id": "b42e38a0397a",
+   "id": "2e977c748a64",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia cau en Borsa per la relació del seu CEO amb una presumpta espia xinesa",
+   "url": "https://www.regio7.cat/arreu-catalunya-espanya-mon/2026/11/10/nvidia-cau-borsa-per-relacio-136268462.html",
+   "publicat": "2026-11-09T23:22:44.000Z"
+  },
+  {
+   "id": "8b167522416f",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "“Los estudiantes ya usan la IA hasta para buscarse excusas”",
+   "url": "https://www.lavanguardia.com/lacontra/20261110/11680248/cesar-bona-estudiantes-ia-buscarse-excusas.html",
+   "publicat": "2026-11-09T23:05:00.000Z"
+  },
+  {
+   "id": "8578580503f0",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic lanza nuevas versiones de sus modelos más potentes Mythos y Fable en su camino hacia la salida a Bolsa",
+   "url": "https://cincodias.elpais.com/companias/2026-11-09/anthropic-lanza-nuevas-versiones-de-sus-modelos-mas-potentes-mythos-y-fable-en-su-camino-hacia-la-salida-a-bolsa.html",
+   "publicat": "2026-11-09T22:59:12.000Z"
+  },
+  {
+   "id": "ceed564bd779",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L’afer extramatrimonial fa saltar les alarmes en el món de la IA",
+   "url": "https://www.elperiodico.cat/internacional/20261110/l-afer-extramatrimonial-fa-saltar-136268143",
+   "publicat": "2026-11-09T22:22:44.000Z"
+  },
+  {
+   "id": "cfbb08e40085",
    "mitja": "Información",
    "font": "informacion-totes",
    "icona": "/assets/premsa/informacion.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Esther Algarra, catedrática de la UA: \"La ley debe adaptarse a retos como la implicación de la IA en el derecho al honor\"",
-   "url": "https://www.informacion.es/alicante/2026/11/09/esther-algarra-catedratica-derecho-civil-alicante-136244313.html",
-   "publicat": "2026-11-09T16:56:42.000Z"
+   "titol": "«La IA sustituirá algunos trabajos y abrirá oportunidades para desarrollar nuevas capacidades y profesiones»",
+   "url": "https://www.informacion.es/economia/2026/11/09/ia-sustituira-trabajos-abrira-oportunidades-bc-136253435.html",
+   "publicat": "2026-11-09T21:30:24.000Z"
+  },
+  {
+   "id": "f828734ccaa6",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De ídolo de masas a reconocer su ‘affair’ con una presunta espía china: auge y caída del CEO de Nvidia",
+   "url": "https://www.diariodemallorca.es/internacional/2026/11/09/escandalo-nvidia-idolo-masas-reconocer-affair-presunta-espia-china-136265668.html",
+   "publicat": "2026-11-09T20:11:54.000Z"
+  },
+  {
+   "id": "232cb153b0fb",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Elena Lucas, orientadora laboral: “En un currículum evita poner columnas, celdas y gráficos porque la IA no lo va a poder leer y eso te va a penalizar”",
+   "url": "https://www.lavanguardia.com/clic/20261109/11679977/elena-lucas-orientadora-laboral-curriculum-evita-poner-columnas-celdas-graficos-ia-leer-te-penalizar-gvm2.html",
+   "publicat": "2026-11-09T19:00:00.000Z"
+  },
+  {
+   "id": "bdd426a411bc",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Diego Córdoba, uno de los científicos que inspiró a Open AI para resolver el 'problema del milenio', en Elche: \"La solución a la falta de matemáticos es pagar más a los profesores\"",
+   "url": "https://www.informacion.es/elche/2026/11/09/matematicos-cientificos-open-ai-chat-gpt-diego-cordoba-136258488.html",
+   "publicat": "2026-11-09T18:07:19.000Z"
   },
   {
    "id": "332ccf914542",
@@ -23,7 +100,7 @@
    "ambit": "catala",
    "titol": "TSMC estudia fabricar chips de memoria avanzada DRAM 3D impulsado por Nvidia",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/09/2746485/tsmc-estudia-fabricar-chips-memoria-avanzada-dram-impulsado-por-nvidia.html",
-   "publicat": "2026-11-09T16:56:09.000Z"
+   "publicat": "2026-11-09T16:56:00.000Z"
   },
   {
    "id": "fedd28bf8c43",
@@ -43,7 +120,7 @@
    "icona": "/assets/premsa/vilaweb.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "La Vall d’Aran reunirà experts internacionals per a debatre el futur de les llengües minoritzades i la IA",
+   "titol": "La Vall d’Aran reunirà experts internacionals per debatre el futur de les llengües minoritzades i la IA",
    "url": "https://www.vilaweb.cat/noticies/congres-vall-aran-llengues-minoritzades-intelligencia-artificial",
    "publicat": "2026-11-09T16:47:29.000Z",
    "noticia": "vielha-congres-llengues-minoritzades-ia",
@@ -259,6 +336,17 @@
    "publicat": "2026-11-09T10:40:59.000Z"
   },
   {
+   "id": "477682c7eb15",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L''affaire' del conseller delegat de Nvidia sacseja la seguretat nacional als EUA",
+   "url": "https://www.ara.cat/economia/tecnologia/nvidia-s-enfonsa-borsa-l-escandol-d-espionatge-conseller-delegat_1_5904882.html",
+   "publicat": "2026-11-09T10:34:34.000Z"
+  },
+  {
    "id": "c9aa8ca2301f",
    "mitja": "Ara",
    "font": "ara",
@@ -375,7 +463,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Nvidia sufre en Bolsa tras iniciar una investigación por una relación extramatrimonial de su CEO",
+   "titol": "Nvidia sufre en Bolsa tras iniciar una investigación por la relación de su consejero delegado con una supuesta espía",
    "url": "https://elpais.com/economia/2026-11-09/nvidia-se-desploma-en-bolsa-tras-confirmar-una-investigacion-sobre-la-relacion-extramatrimonial-de-su-ceo-con-una-presunta-espia-china.html",
    "publicat": "2026-11-09T09:03:22.000Z"
   },
@@ -391,6 +479,17 @@
    "publicat": "2026-11-09T08:46:18.000Z",
    "noticia": "uoc-assistents-ia-recomanen-partit-29n",
    "noticiaTitol": "Els assistents d'IA recomanen menys partits que al gener abans de les eleccions del 29-N, però Grok ho fa en quatre de cada deu preguntes, segons un estudi de la UOC"
+  },
+  {
+   "id": "faa51c9fd9be",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La caída de Nvidia por la investigación a Jensen Huang no frena al Ibex 35, que sube un 1,99% impulsado por la banca y la energía",
+   "url": "https://www.informacion.es/economia/2026/11/09/ibex-35-abre-plano-mantiene-136237801.html",
+   "publicat": "2026-11-09T08:37:04.000Z"
   },
   {
    "id": "21cd4849f705",
@@ -2667,107 +2766,6 @@
    "titol": "De Cos avisa de los riesgos de la IA y su dificultad para los bancos centrales",
    "url": "https://www.lavanguardia.com/economia/20261103/11675091/cos-avisa-riesgos-ia-dificultad-bancos-centrales.html",
    "publicat": "2026-11-03T14:08:31.000Z"
-  },
-  {
-   "id": "e96e17e02933",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Así es el plan del Gobierno para utilizar la inteligencia artificial y reforzar la seguridad de los trenes tras el accidente de Toledo",
-   "url": "https://www.elperiodico.com/es/economia/20261103/accidente-tren-toledo-plan-gobierno-inteligencia-artificial-detectar-fallos-136037293",
-   "publicat": "2026-11-03T13:46:44.000Z"
-  },
-  {
-   "id": "a9e877e36b8d",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "OpenAI y Meta se preparan en silencio para la victoria demócrata en las elecciones legislativas de Estados Unidos",
-   "url": "https://www.elperiodico.com/es/internacional/20261103/openai-meta-preparan-victoria-democratas-elecciones-medio-mandato-eeuu-midterms-ia-trump-136004080",
-   "publicat": "2026-11-03T13:22:46.000Z"
-  },
-  {
-   "id": "90744ca46a14",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Adiós a la clonación de videojuegos con Claude: Anthropic pone límites a su IA para defender los derechos de autor",
-   "url": "https://www.lavanguardia.com/neo/videojuegos/20261103/11674948/adios-clonacion-videojuegos-claude-anthropic-pone-limites-ia-defender-derechos-autor.html",
-   "publicat": "2026-11-03T12:20:39.000Z"
-  },
-  {
-   "id": "3009de2a7969",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Puente recorre al doble control humà i la intel·ligència artificial per millorar la seguretat als trens",
-   "url": "https://www.elnacional.cat/ca/politica/puente-recorre-intelligencia-artificial-doble-control-huma-millorar-seguretat-trens_1719831_102.html",
-   "publicat": "2026-11-03T12:07:00.000Z"
-  },
-  {
-   "id": "ff05dba53c0c",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Comunitat Valenciana | El PPCV usará la IA y las redes sociales en campaña para llegar a cada móvil y cada rincón",
-   "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/el-ppcv-usara-la-ia-y-las-redes-sociales-en-campana-para-llegar-a-cada-movil-y-cada-rincon",
-   "publicat": "2026-11-03T11:56:33.000Z"
-  },
-  {
-   "id": "e23cf1c8fc8a",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Miyamoto (Nintendo) defiende que siempre habrá un papel para los desarrolladores por mucho que evolucione la IA",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/03/2742145/miyamoto-nintendo-defiende-siempre-habra-papel-para-desarrolladores-por-mucho-evolucione-ia.html",
-   "publicat": "2026-11-03T11:48:00.000Z"
-  },
-  {
-   "id": "dd147639b753",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Imma Tor reclama una IA al servei de les persones i respectuosa amb els drets humans",
-   "url": "https://www.diariandorra.ad/nacional/261103/imma-tor-reclama-ia-servei-les-persones-i-respectuosa-amb-els-drets-humans_207952.html",
-   "publicat": "2026-11-03T11:20:38.000Z",
-   "noticia": "andorra-conferencia-consell-europa-ia-inclusiva-educacio",
-   "noticiaTitol": "Andorra acull una conferència del Consell d'Europa sobre educació i IA inclusiva, i la ministra Imma Tor demana que respecti els drets humans"
-  },
-  {
-   "id": "1e0c07224b06",
-   "mitja": "Nació Digital",
-   "font": "naciodigital-totes",
-   "icona": "/assets/premsa/nacio-digital.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El poble a tocar de Barcelona que la intel·ligència artificial recomana per viure-hi",
-   "url": "https://naciodigital.cat/viure-be/escapades/el-poble-a-tocar-de-barcelona-que-la-intelligencia-artificial-recomana-per-viure-hi.html",
-   "publicat": "2026-11-03T11:18:19.000Z"
-  },
-  {
-   "id": "bb1df15c6406",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L’FMI alerta que la IA afectarà el 40% de l’ocupació mundial i apunta riscos de crisi",
-   "url": "https://www.elnacional.cat/oneconomia/ca/economia/fmi-alerta-ia-afectara-40-llocs-feina-mon-ja-parla-crisi_1719792_102.html",
-   "publicat": "2026-11-03T11:15:00.000Z"
   }
  ]
 }
