@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-09T05:17:11.708Z",
+ "actualitzat": "2026-11-09T05:31:27.746Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "360ccf7988bd",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "«Tot i la irrupció de la IA, el factor humà continuarà existint»",
+   "url": "https://www.diaridegirona.cat/societat/2026/11/09/tot-irrupcio-ia-factor-huma-136220655.html",
+   "publicat": "2026-11-09T05:30:05.000Z"
+  },
   {
    "id": "264e3425ac8c",
    "mitja": "Valencia Plaza",
@@ -2594,17 +2605,6 @@
    "titol": "Cuidado al pedir consejo a la IA: los chatbots priorizan las marcas más caras al recomendar medicamentos",
    "url": "https://www.lavanguardia.com/neo/ia/20261102/11672060/cuidado-pedir-consejo-ia-chatbots-priorizan-marcas-mas-caras-recomendar-medicamentos.html",
    "publicat": "2026-11-02T06:03:59.000Z"
-  },
-  {
-   "id": "ba70bb7df817",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "\"Una nueva sabidur(IA)\"",
-   "url": "https://www.elperiodico.com/es/entre-todos/participacion/nueva-sabidur-ia-inteligencia-artificial-carta-lector-javier-gonzalez-135783976",
-   "publicat": "2026-11-02T05:30:32.000Z"
   }
  ]
 }
