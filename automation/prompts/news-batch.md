@@ -118,6 +118,8 @@ Per a cada notícia et dirà una de tres coses, i el prompt de la il·lustració
 
 ⚠️ **La comanda no detecta totes les persones famoses**: només les del banc. Si la notícia tracta d'una persona real amb nom que no hi és (un investigador, una consellera), el resultat DE CARA **no s'aplica**: busca-li una foto amb llicència (`imageFetch`, apartat anterior) i, si no n'hi ha, il·lustració de context sense cap cara.
 
+🛑 **Menors: tria una escena que no obligui a amagar-los la cara (ordre d'en Rafael del 09.11.2026).** Si la notícia parla d'infants o adolescents, **no demanis mai** que la cara quedi tapada, «il·luminada per la pantalla», «no identificable», desenfocada o pixelada: el model ho fa al peu de la lletra i hi enganxa rectangles de llum o taques. Error real del 09.11.2026: «Meta fa servir a tot el món la IA que endevina l'edat dels usuaris d'Instagram» va sortir amb dos nois en un banc i dos rectangles blancs que brillaven al lloc de la cara. Tria d'entrada un enquadrament en què la cara no surti: **mans** que sostenen el mòbil (pla curt), una **motxilla** i un mòbil sobre un pupitre, un passadís d'institut desenfocat, uns peus amb vambes al costat d'un banc, una silueta llunyana. En aquests casos, **DE CARA no s'aplica** (compta com a feta). I si la notícia és d'una empresa amb sala de premsa a `image-sources.json` (Meta), primer la **foto oficial** amb `imageFetch`.
+
 Si, tot i així, la persona surt d'esquena, la imatge **es publica tal com és** (decisió d'en Rafael del 31.10.2026: no es paga cap generació de més per l'enquadrament). Millora el prompt a la notícia següent, no a la mateixa.
 
 ### Quantes vegades es genera una il·lustració (des del 23.10.2026)
