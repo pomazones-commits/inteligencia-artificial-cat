@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Lleida",
+    "category": "IA I SOCIETAT",
+    "date": "09.11.2026",
+    "title": "Vielha reunirà a final de mes mitjans públics, universitats i empreses d'Europa per parlar de què pot fer la IA per l'aranès i les altres llengües petites",
+    "summary": "La segona edició del congrés internacional sobre comunicació, tecnologia i llengües minoritàries, el 26 i el 27 de novembre, presentarà una càtedra de RTVE i la Universitat de Lleida sobre llengües minoritàries i IA.",
+    "detail": "Les llengües amb pocs parlants tenen un problema afegit amb la IA: els models aprenen dels textos i les gravacions que hi ha a internet, i d'aquestes llengües n'hi ha poques. Per això traductors automàtics, assistents de veu i subtítols automàtics les fan servir pitjor o no les fan servir gens. La Vall d'Aran, on es parla l'aranès, la varietat de l'occità pròpia de la vall, ja va acollir una primera trobada sobre aquesta qüestió, i els organitzadors en van anunciar de seguida una segona edició.\n\nSegons VilaWeb, el Consell General d'Aran, la Universitat Pompeu Fabra, la Universitat de Lleida i RTVE organitzen el 26 i el 27 de novembre a Vielha el segon Congrés Internacional sobre Comunicació, Tecnologia i Llengües Minoritàries, amb el lema «El futur de les llengües minoritàries a través de la comunicació». Hi seran mitjans públics com 3Cat, la ràdio sueca, BBC ALBA, EITB o France 3 Corse ViaStella, la Unió Europea de Radiodifusió i la Public Media Alliance, a més de Microsoft, ElevenLabs i el Barcelona Supercomputing Center. S'hi presentarà la càtedra RTVE-UdL de Llengües Minoritàries, Comunicació i IA.\n\nEl programa toca les qüestions pràctiques: com crear continguts digitals en llengües minoritzades, quin paper hi tenen els mitjans, la traducció automàtica, els corpus lingüístics i els recursos per a llengües amb pocs parlants, i la iniciativa LINGUATEC-IA, que desenvolupa eines perquè aquestes llengües es puguin fer servir en entorns digitals. Per al Consell General d'Aran, l'objectiu és que la vall es consolidi com a referència internacional en la protecció i la modernització d'aquestes llengües i donar a conèixer les polítiques públiques que hi ha per fer present l'aranès al món digital.\n\nDe moment, és l'anunci d'un congrés, no un resultat: la informació publicada no diu encara qui hi parlarà ni quins projectes concrets s'hi presentaran, ni quins recursos tindrà la nova càtedra. Caldrà veure si de la trobada en surten eines que es puguin fer servir de debò, com un traductor, un reconeixedor de veu o un corpus obert en aranès, o si es queda en una declaració d'intencions.",
+    "source": "VilaWeb",
+    "url": "https://www.vilaweb.cat/noticies/congres-vall-aran-llengues-minoritzades-intelligencia-artificial",
+    "image": "./assets/vielha-congres-llengues-minoritzades-ia-20261109.jpg",
+    "slug": "vielha-congres-llengues-minoritzades-ia"
+  },
+  {
     "place": "Catalunya",
     "category": "POLÍTIQUES",
     "date": "09.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.informacion.es/alicante/2026/11/06/investigadores-ua-descubren-cambios-voz-alertan-alzheimer-enfermedades-alicante-136153552.html",
     "image": "./assets/universitat-alacant-ia-veu-alzheimer-20261107.jpg",
     "slug": "universitat-alacant-ia-veu-alzheimer"
-  },
-  {
-    "place": "València",
-    "category": "IA I SOCIETAT",
-    "date": "07.11.2026",
-    "title": "La valenciana Substrate AI comença a cotitzar també a Cboe Europe, després de perdre gairebé la meitat del valor aquest any",
-    "summary": "L'empresa de València, que cotitza a BME Growth des del 2022, no emet accions noves. Vol deixar d'intermediar capacitat de càlcul i vendre models d'IA propis.",
-    "detail": "Substrate AI és una empresa d'intel·ligència artificial amb seu a València, fundada per Lorenzo Serratosa, que n'és el conseller delegat, i José Iván García. Cotitza des del maig del 2022 a BME Growth, l'antic Mercat Alternatiu Borsari, on aplega empreses petites i mitjanes.\n\nEl 6 de novembre va comunicar al regulador del mercat que les seves accions de classe A s'han admès a negociació a Cboe Europe, la borsa europea amb més volum de negociació, segons Valencia Plaza. No hi ha cap emissió d'accions noves ni els accionistes han de fer res: és una plaça més on es poden comprar i vendre els títols, que continuen a BME Growth. L'empresa diu que així facilita l'accés als inversors europeus i internacionals. Les accions acumulaven una caiguda del 48,87% en l'any, la més gran d'aquell mercat, i tancaven a 0,0361 euros, amb una capitalització d'uns 11,95 milions; després de l'anunci van pujar un 7,48%.\n\nLa companyia vol canviar de model: deixar de fer d'intermediària de capacitat de càlcul amb processadors gràfics i passar a desenvolupar tecnologia pròpia, incloent-hi generar i vendre l'ús de models en la seva infraestructura, amb uns models anomenats Orion basats en models de pesos oberts. Per a la inversió en maquinari compta amb un finançament de 39,2 milions anunciat a principis d'any, i aspira a superar els 100 milions de facturació el 2030.\n\nLes xifres de l'empresa conviden a la prudència: el primer semestre del 2026 va perdre 5,7 milions d'euros, tot i que els ingressos van créixer un 5,2%, i el resultat d'explotació va ser negatiu. L'objectiu de facturació és una previsió de la mateixa empresa, i cotitzar en un segon mercat no canvia per si sol la seva situació financera.",
-    "source": "Valencia Plaza",
-    "url": "https://valenciaplaza.com/valenciaplaza/bolsas/la-cotizada-valenciana-substrate-ai-es-admtida-a-cotizacion-en-el-cboe-europe",
-    "image": "./assets/substrate-ai-valencia-cboe-europe-20261107.jpg",
-    "slug": "substrate-ai-valencia-cboe-europe"
   }
 ];
