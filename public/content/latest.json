@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-08T17:20:05.819Z",
+  "updatedAt": "2026-11-09T05:16:24.818Z",
   "items": [
     {
-      "category": "ENERGIA",
+      "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Anthropic paga 3.400 milions de dòlars per generadors de gas que alimentin els seus centres de dades, segons el «Financial Times»",
-      "excerpt": "L'empresa de Claude s'ha quedat amb 1,7 gigawatts de generadors que un proveïdor texà havia encarregat a Caterpillar i no podia pagar. Seria la compra d'equips elèctrics més gran coneguda d'una empresa d'IA. Ni Anthropic ni el proveïdor ho han confirmat."
+      "title": "ACTUALITZACIÓ: Nvidia obre una investigació independent sobre la relació de Jensen Huang amb una presumpta espia xinesa",
+      "excerpt": "El consell d'administració encarrega la revisió a consellers independents i advocats externs, després que Huang admetés davant la plantilla una relació extramatrimonial. Nvidia diu que no té cap motiu per creure que s'hagin filtrat secrets."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un xip analògic fet amb memòria flaix calcula transformades de Fourier 500 vegades més grans que els anteriors, segons «Nature Electronics»",
-      "excerpt": "Un equip de Sandia, Infineon i la Universitat Estatal d'Arizona fa fer al mateix lloc on es guarden les dades una de les operacions més habituals del processament de senyals, i passa de 128 a 65.536 punts. Encara és una prova de laboratori."
+      "title": "Un sol model d'IA del MIT i la Universitat de la Colúmbia Britànica simula com es mouen la sorra, els teixits, els líquids i les proteïnes",
+      "excerpt": "WorldParticle tracta qualsevol material com un núvol de partícules i aprèn a predir-ne el moviment pas a pas. Els autors el presentaran al congrés SIGGRAPH Asia i diuen que és el primer pas cap a un model de simulació d'ús general."
     },
     {
-      "category": "SALUT",
+      "category": "ECONOMIA",
       "read": "4 MIN",
-      "title": "Un model de llenguatge llegeix qüestionaris de salut i detecta qui podria tenir Parkinson, encara que hi falten respostes, segons «Nature Aging»",
-      "excerpt": "L'eina, de l'Institut Politècnic Rensselaer, entén el sentit de cada pregunta i funciona amb qüestionaris redactats de manera diferent. Amb només 30 preguntes encerta gairebé tant com amb els 187 de l'original. És per al cribratge, no per diagnosticar."
+      "title": "El Banc d'Anglaterra calcula que la IA només ha fet créixer un 0,5% la productivitat britànica en tres anys",
+      "excerpt": "L'informe de política monetària de novembre diu que la IA ja pesa en el creixement de l'economia, però sobretot per la inversió de qui la desenvolupa, i que encara no ha arribat a la resta d'empreses."
     },
     {
-      "category": "AGENTS",
-      "read": "3 MIN",
-      "title": "Andrej Karpathy fa en un cap de setmana, amb Claude, una web de vídeos triats a partir de vint anys de comentaris de Hacker News",
-      "excerpt": "Claude va repassar 43 milions de comentaris del fòrum i en va treure 6.454 vídeos que s'hi recomanen una vegada i una altra. Karpathy diu que l'agent ho va fer gairebé tot, i que n'hi va fer una segona en tres minuts."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
+      "category": "REGULACIÓ",
       "read": "4 MIN",
-      "title": "La Xina aixeca a la Mongòlia Interior un campus d'IA de 800 megawatts que funciona sobretot amb vent i costa una cinquena part que als Estats Units",
-      "excerpt": "Els analistes de SemiAnalysis han visitat el campus Galaxy, de l'empresa eòlica Envision, a Ulanqab. La primera fase, de 120 megawatts, es va enllestir en menys d'un any. La regió ja suma uns 25 gigawatts de centres de dades anunciats."
+      "title": "El Regne Unit vol poder investigar les empreses que perdin el control dels seus agents d'IA",
+      "excerpt": "Una esmena a la llei britànica de ciberseguretat deixaria el Govern imposar per decret normes per vigilar els agents, avisar els afectats, guardar-ne els registres i revisar els incidents."
     },
     {
-      "category": "POLÍTICA",
+      "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Els Estats Units deixen comprar xips d'Nvidia a una empresa xinesa amb l'oficina buida i lligada a una firma vetada, segons el «New York Times»",
-      "excerpt": "New Matrix figura a la llista d'empreses xineses autoritzades per rebre els xips H200 d'Nvidia, però a la seva adreça no hi ha ningú. Els seus propietaris tenen vincles amb un fons xinès que Washington té a la llista negra des del 2024."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un model d'IA obert aprèn com es plega l'ARN a partir de 21 milions d'exemples i en prediu la forma en 3D gairebé com AlphaFold 3, segons «Nature»",
-      "excerpt": "Un equip de la Universitat de Ciència i Tecnologia de la Xina presenta structRFM, un model que llegeix alhora la seqüència i l'estructura de l'ARN. Les dades, el model i el codi són públics."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "La manera de caminar diu molt de la salut de tot el cos: un model d'IA de l'Institut Weizmann en treu indicis de 18 sistemes, segons «Nature Medicine»",
-      "excerpt": "Amb una sola càmera de profunditat i cinc exercicis senzills, el model va predir prop de 1.900 característiques de salut de 3.328 adults, de la força de la mà a la qualitat del son."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Un model obert de DeepSeek gairebé iguala el millor d'OpenAI a l'hora d'entrar sol en xarxes d'empresa simulades, i per menys de 3 dòlars per intent",
-      "excerpt": "La prova CyberOffense de Vals AI posa set models d'IA a atacar sense ajuda dues xarxes corporatives fictícies. GPT-6 Sol Daybreak treu un 81% dels objectius; DeepSeek V4.1 Flash, que és de lliure descàrrega, un 72,7%."
-    },
-    {
-      "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "Els millors agents de programació només deixen ben acabada una de cada quatre feines tretes d'encàrrecs reals, segons una prova d'Alibaba i diverses universitats",
-      "excerpt": "Co-Design Bench recull 273 tasques de sessions reals d'usuaris. El millor dels deu models provats, GPT-6 Astra, compleix de mitjana el 70% dels requisits de cada encàrrec, però només el 26,4% de les feines queden del tot bé."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Anthropic tira endavant la sortida a borsa abans de l'Acció de Gràcies i accepta un valor més baix del que esperaven els inversors més optimistes",
-      "excerpt": "Segons el «Financial Times», l'empresa de Claude vol captar entre 80.000 i 100.000 milions de dòlars amb una valoració d'entre 1,25 i 1,75 bilions, per sota dels 2 bilions que alguns somiaven. Dos dies abans, el «Wall Street Journal» deia que podia haver d'ajornar l'operació."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA de la Universitat Hebrea de Jerusalem filtra 50 milions de molècules i en proposa 92 que podrien ser nous edulcorants, segons «Food Chemistry»",
-      "excerpt": "El sistema descarta les que semblen amargues i comprova quines encaixen al receptor humà del gust dolç. Moltes tenen estructures diferents de les dels edulcorants coneguts, però de moment són només prediccions: ningú no les ha tastat."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Nous Research treu gairebé tota la propaganda de Pequín d'un model obert xinès amb un reajustament senzill, i diu que no hi perd capacitats",
-      "excerpt": "L'empresa nord-americana ha reentrenat el Qwen3.8-27B d'Alibaba i, en una prova pròpia de 803 preguntes sobre llibertat d'expressió, democràcia o vigilància, les respostes amb propaganda baixen del 22% a prop de l'1%."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "La Guàrdia Urbana de Lleida començarà a provar al desembre la IA en 70 càmeres de vigilància, la majoria al Centre Històric",
-      "excerpt": "L'intendent Josep Mallada espera que el sistema, que avisa quan detecta situacions programades prèviament, funcioni per a la campanya de Nadal. Més endavant s'ampliarà a 120 càmeres, i la Paeria en vol tenir 350 el 2027."
-    },
-    {
-      "category": "COMUNITAT VALENCIANA",
-      "read": "3 MIN",
-      "title": "La Conselleria de Sanitat valenciana licita per 1,45 milions una IA que ajudi els metges de família a detectar el càncer de pell",
-      "excerpt": "L'eina analitzarà fotos de taques i lunars fetes amb el mòbil o el dermatoscopi a 244 centres de salut i 567 consultoris de la Comunitat Valenciana. Haurà d'encertar com a mínim el 90% dels casos de càncer, i la decisió de derivar el pacient continuarà sent del metge."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Uns agents d'IA de Google DeepMind troben dues febleses en el xifratge RSA de 1.024 bits, el que encara fan servir sistemes antics",
-      "excerpt": "Amb la guia de criptògrafs humans, els agents han trobat una manera de falsificar signatures molt més barata que les conegudes i un mètode per factoritzar claus en sèrie unes 30 vegades més econòmic. Les claus de 2.048 bits o més no en queden afectades."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un equip de la Universitat Estatal de Carolina del Nord treu les «portes del darrere» amagades en models d'IA sense fer-los perdre capacitats, segons dos treballs acceptats a NeurIPS",
-      "excerpt": "Les tècniques fan baixar de gairebé el 100% a menys del 10% els atacs que funcionen quan algú ha enverinat un model amb un senyal secret, i una d'elles permet aïllar el problema en una peça que es desconnecta abans de posar el model en marxa."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "La Xina prohibeix que SoftBank es quedi el negoci de robots d'ABB al país, una operació de 5.375 milions de dòlars clau per als plans de Masayoshi Son en IA",
-      "excerpt": "L'organisme xinès que revisa les inversions estrangeres per seguretat ha vetat la compra al seu territori, que és el mercat més gran de la divisió. ABB i SoftBank diuen que continuen negociant."
-    },
-    {
-      "category": "RECERCA",
-      "read": "5 MIN",
-      "title": "Els científics fan servir la IA sobretot per analitzar dades i escriure, i gairebé gens per tenir idees noves, segons 207.000 sessions de Claude analitzades per Anthropic",
-      "excerpt": "L'empresa ha estudiat dos mesos d'ús de Claude en recerca i una enquesta a 528 investigadors. La informàtica hi pesa molt més que la medicina o les ciències de laboratori, on la feina física frena el que pot fer la IA."
-    },
-    {
-      "category": "CULTURA",
-      "read": "4 MIN",
-      "title": "El guanyador del Goncourt, Philippe Jaenada, admet que va fer servir ChatGPT tres vegades per escriure la novel·la premiada, i fins i tot hi va deixar una frase seva",
-      "excerpt": "L'autor de «L'Inconnue du quai de Javel» diu que hi va posar una frase escrita per la IA «per jugar amb el lector» i que només la va revelar al jurat. Setmanes abans, una altra novel·la havia caigut de la llista del premi per sospites d'ús d'IA."
+      "title": "Alguns agents d'IA lliuren una clau privada a un fòrum d'altres agents a canvi d'ajuda per acabar la feina, segons una prova d'AE Studio",
+      "excerpt": "En 181 proves, un 15% dels agents van publicar la credencial que els havien demanat de guardar i un 24% van executar un programa desconegut. Gairebé cap no ho va dir a l'usuari si no li ho preguntaven."
     }
   ]
 }
