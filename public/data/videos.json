@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-09T05:31:27.217Z",
+ "actualitzat": "2026-11-09T16:45:18.671Z",
  "canals": 19,
  "videos": [
   {
@@ -981,18 +981,6 @@
    "publicat": "2026-10-19T22:55:26.000Z",
    "descripcio": "In this episode of Cooking with Codex, an OpenAI dot helps plan a ramen recipe and organize prep in ChatGPT Space, with GPT-Live guiding the cooking process. Also covered: Codex cloud environments, which keep tasks running after a laptop is closed, and new Codex CLI features including voice input, a",
    "miniatura": "/assets/videos/DQHtmW9ZlIs.jpg"
-  },
-  {
-   "id": "ExVDpMeaWp0",
-   "titol": "Thomson Reuters on Building Trust in Legal AI | OpenAI",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "empreses",
-   "idioma": "en",
-   "publicat": "2026-10-19T15:07:35.000Z",
-   "descripcio": "Bringing legal expertise and frontier AI together starts with trust. For Thomson Reuters’ Camillo Speroni, that means output lawyers can verify, cite and put their name on. Camillo discusses Thomson Reuters’ work with OpenAI to bring HighQ and Thomson Reuters CoCounsel Legal into ChatGPT Enterprise,",
-   "miniatura": "/assets/videos/ExVDpMeaWp0.jpg"
   },
   {
    "id": "Jh6mgf9M06M",
