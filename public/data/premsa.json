@@ -1,8 +1,184 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-09T09:15:29.971Z",
+ "actualitzat": "2026-11-09T13:21:31.208Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e441a8d7d39a",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Qui és Alice Huang, l'empresària xinesa que ha posat en escac el CEO de Nvidia?",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/qui-es-alice-huang-empresaria-xinesa-escac-ceo-nvidia_1722836_102.html",
+   "publicat": "2026-11-09T12:42:17.000Z"
+  },
+  {
+   "id": "d90fab6838c6",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA «no se moja» de cara al 29-N: los chatbots evitan recomendar un partido",
+   "url": "https://www.diaridetarragona.com/espana/275260/ia-moja-cara-29-n-chatbots-evitan-recomendar-partido.html",
+   "publicat": "2026-11-09T12:31:03.000Z"
+  },
+  {
+   "id": "d4bbdbb42576",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alice Huang: quién es la mujer que ha puesto en jaque al jefe de Nvidia con su presunto espionaje sexual",
+   "url": "https://www.diariodemallorca.es/internacional/2026/11/09/alice-huang-quien-es-espia-china-amante-ceo-nvidia-sexo-136247388.html",
+   "publicat": "2026-11-09T12:05:21.000Z"
+  },
+  {
+   "id": "fe59761a9ff4",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "\"Fui infiel a mi esposa\": el lío extramatrimonial del presidente de Nvidia con una espía china dispara las alarmas en el mundo de la IA",
+   "url": "https://www.levante-emv.com/internacional/2026/11/09/nvidia-investiga-director-ejecutivo-espionaje-china-chatgpt-jensen-huang-espia-arabia-saudi-openai-136246889.html",
+   "publicat": "2026-11-09T11:54:13.000Z"
+  },
+  {
+   "id": "2cc165fd7927",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Claude podrá entrar en tu cuenta bancaria: la IA de Anthropic analiza y detecta en qué gastas tu dinero",
+   "url": "https://www.lavanguardia.com/neo/ia/20261109/11679821/claude-entrar-cuenta-bancaria-ia-anthropic-analiza-detecta-gastas-dinero.html",
+   "publicat": "2026-11-09T11:39:49.000Z"
+  },
+  {
+   "id": "7ba0e5c0ea75",
+   "mitja": "El Periódico",
+   "font": "elperiodico-tec",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "«Vaig ser infidel a la meva esposa»: l’embolic extramatrimonial del president de Nvidia amb una espia xinesa fa saltar les alarmes en el món de la IA",
+   "url": "https://www.elperiodico.cat/internacional/20261109/nvidia-investiga-director-executiu-espionatge-xina-chatgpt-jensen-huang-espia-arabia-saudita-openai-136237414",
+   "publicat": "2026-11-09T10:42:21.000Z"
+  },
+  {
+   "id": "0a59a1d21957",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las \"estrellas Michelin\" de la agricultura premian a un vecino del Genovés por utilizar la Inteligencia Artificial para revolucionar el campo",
+   "url": "https://www.levante-emv.com/costera/2026/11/09/estrellas-michelin-agricultura-premian-vecino-136242832.html",
+   "publicat": "2026-11-09T10:40:59.000Z"
+  },
+  {
+   "id": "c9aa8ca2301f",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia s'enfonsa a la borsa per l'escàndol d'espionatge al conseller delegat",
+   "url": "https://www.ara.cat/economia/mercats/nvidia-s-enfonsa-borsa-l-escandol-d-espionatge-conseller-delegat_1_5904882.html",
+   "publicat": "2026-11-09T10:34:34.000Z"
+  },
+  {
+   "id": "621d2979efd6",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Espionatge xinès a Nvidia? Jensen Huang, al centre d'una investigació que sacseja Silicon Valley",
+   "url": "https://www.elnacional.cat/ca/internacional/espionatge-xines-nvidia-jensen-huang-centre-investigacio-sacseja-silicon-valley_1722737_102.html",
+   "publicat": "2026-11-09T10:22:00.000Z"
+  },
+  {
+   "id": "0ebf352f0820",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nace el “ChatGPT cerebral”: entrenan grandes modelos de IA con ondas neuronales en vez de texto",
+   "url": "https://www.levante-emv.com/tendencias21/2026/11/09/nace-chatgpt-cerebral-entrenan-grandes-136242442.html",
+   "publicat": "2026-11-09T10:17:24.000Z"
+  },
+  {
+   "id": "36503e6752f9",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia investigará a su propio director ejecutivo por su amorío con una espía china",
+   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/09/2746047/nvidia-investigara-propio-director-ejecutivo-por-amorio-una-espia-china.html",
+   "publicat": "2026-11-09T10:11:00.000Z"
+  },
+  {
+   "id": "94fa54068815",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Un estudi sobre com Wallapop, Cabify o DMA – Digital Media han redissenyat el seu màrqueting amb IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/iebs-presenta-estudi-sobre-com-wallapop-cabify-dma-digital-media-han-redissenyat-seu-mark_1722731_102.html",
+   "publicat": "2026-11-09T10:10:24.000Z"
+  },
+  {
+   "id": "6d2d0a4620aa",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Roban un cargamento de chips de la tecnológica Nvidia valorado en 11,4 millones de dólares",
+   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/09/2746045/roban-cargamento-chips-tecnologica-nvidia-valorado-millones-dolares.html",
+   "publicat": "2026-11-09T10:06:00.000Z"
+  },
+  {
+   "id": "4bded0980a71",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Jensen Huang, CEO de Nvidia, investigat després d'admetre una infidelitat amb una presumpta espia xinesa",
+   "url": "https://www.elnacional.cat/ca/tecnologia/jensen-huang-ceo-nvidia-sota-investigacio-despres-admetre-infidelitat-presumpta-espia-xinesa_1722677_102.html",
+   "publicat": "2026-11-09T09:50:00.000Z"
+  },
+  {
+   "id": "2037d319ae74",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia cae en bolsa tras investigar a su director ejecutivo por una infidelidad con una espía china",
+   "url": "https://www.diaridetarragona.com/economia/275235/nvidia-cae-bolsa-investigar-director-ejecutivo-infidelidad-espia-china.html",
+   "publicat": "2026-11-09T09:39:13.000Z"
+  },
+  {
+   "id": "690ddde39e5a",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Qué sabemos hasta ahora del caso Nvidia y la sospechosa espía china?",
+   "url": "https://www.lavanguardia.com/economia/20261109/11679693/que-caso-nvidia-sospechosa-espia-china.html",
+   "publicat": "2026-11-09T09:20:38.000Z"
+  },
   {
    "id": "4ae7f8968d05",
    "mitja": "elDiario.es",
@@ -34,7 +210,9 @@
    "ambit": "catala",
    "titol": "Aquest és el partit que la IA més recomana votar pel 29-N",
    "url": "https://naciodigital.cat/politica/aquest-es-el-partit-que-la-ia-mes-recomana-votar-pel-29-n.html",
-   "publicat": "2026-11-09T08:46:18.000Z"
+   "publicat": "2026-11-09T08:46:18.000Z",
+   "noticia": "uoc-assistents-ia-recomanen-partit-29n",
+   "noticiaTitol": "Els assistents d'IA recomanen menys partits que al gener abans de les eleccions del 29-N, però Grok ho fa en quatre de cada deu preguntes, segons un estudi de la UOC"
   },
   {
    "id": "21cd4849f705",
@@ -70,14 +248,14 @@
    "publicat": "2026-11-09T08:28:02.000Z"
   },
   {
-   "id": "dc1924fd8f02",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
+   "id": "8fdbcf27fb80",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Nvidia se desploma en Bolsa por la investigación sobre la vida personal de su CEO",
-   "url": "https://www.elperiodico.com/es/economia/20261109/nvidia-desploma-bolsa-investigacion-vida-136237316",
+   "titol": "Nvidia se desploma en Bolsa tras la investigación a su CEO por la relación con una presunta espía china",
+   "url": "https://www.informacion.es/economia/2026/11/09/nvidia-desploma-bolsa-investigacion-vida-136237410.html",
    "publicat": "2026-11-09T08:26:20.000Z"
   },
   {
@@ -101,6 +279,17 @@
    "titol": "Les accions de Nvidia s’enfonsen arran d’un escàndol d’espionatge xinès que esquitxa el seu fundador",
    "url": "https://www.vilaweb.cat/noticies/accions-nvidia-enfonsen-escandol-espionatge-xines-jensen-huang",
    "publicat": "2026-11-09T07:59:44.000Z"
+  },
+  {
+   "id": "e32b7f4c469f",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia s’enfonsa a la borsa després de la investigació al seu CEO per la relació amb una presumpta espia xinesa",
+   "url": "https://www.elperiodico.cat/economia/20261109/nvidia-enfonsa-borsa-investigacio-vida-136237316",
+   "publicat": "2026-11-09T07:26:20.000Z"
   },
   {
    "id": "be8d9745dc40",
@@ -222,6 +411,17 @@
    "titol": "La IA destapa casi el doble de empleos en negro en Tarragona: el fraude laboral se dispara",
    "url": "https://www.diaridetarragona.com/economia/274977/ia-destapa-doble-empleos-negro-tarragona-fraude-laboral-dispara.html",
    "publicat": "2026-11-09T04:00:00.000Z"
+  },
+  {
+   "id": "a26b5ceac79a",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia abre una investigación a su consejero delegado sobre su relación con una presunta espía china",
+   "url": "https://elpais.com/us/2026-11-08/nvidia-abre-una-investigacion-a-su-ceo-sobre-posible-espionaje.html",
+   "publicat": "2026-11-09T02:37:21.000Z"
   },
   {
    "id": "2d7d1af08a6b",
@@ -2568,186 +2768,6 @@
    "titol": "José Luis Escrivá rechaza equiparar las inversiones en IA con otras que acabaron en burbuja",
    "url": "https://elpais.com/internacional/2026-11-02/jose-luis-escriva-rechaza-equiparar-las-inversiones-en-ia-con-otras-que-acabaron-en-burbuja.html",
    "publicat": "2026-11-02T17:11:57.000Z"
-  },
-  {
-   "id": "a1a0c0ad5a8e",
-   "mitja": "Diari La Veu",
-   "font": "diarilaveu",
-   "icona": "/assets/premsa/diari-la-veu.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "DANA | La UPV crea un barranc de Poio virtual que prediu inundacions amb IA",
-   "url": "https://www.diarilaveu.cat/medi-ambient/dana-la-upv-crea-un-barranc-de-poio-virtual-que-prediu-inundacions-amb-ia-655844",
-   "publicat": "2026-11-02T16:29:31.000Z"
-  },
-  {
-   "id": "fcc5269c6f93",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los editores europeos en Formentor: “Todos usaremos la IA, la cuestión será con qué fin”",
-   "url": "https://www.lavanguardia.com/cultura/20261102/11674317/editores-europeos-reunen-formentor-debate-inteligencia-artificial.html",
-   "publicat": "2026-11-02T15:50:28.000Z"
-  },
-  {
-   "id": "7677deaef151",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "OpenAI quiere una señal compartida para los proveedores de IA que limite el entrenamiento con contenido de webs",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/02/2741581/openai-quiere-senal-compartida-para-proveedores-limite-entrenamiento-contenido-webs.html",
-   "publicat": "2026-11-02T15:33:00.000Z"
-  },
-  {
-   "id": "9e4f1c14feba",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic reduce las pérdidas y mejora los ingresos antes de la salida a Bolsa",
-   "url": "https://elpais.com/economia/2026-11-02/anthropic-reduce-las-perdidas-y-mejora-los-ingresos-antes-de-la-salida-a-bolsa.html",
-   "publicat": "2026-11-02T15:30:12.000Z"
-  },
-  {
-   "id": "111cc7ef8955",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La sala se reivindica en el Gastronòmic Fòrum Barcelona: \"La inteligencia artificial no nos afecta porque lo nuestro es alma\"",
-   "url": "https://www.elperiodico.com/es/gastronomia/restaurantes/20261102/importancia-servicio-sala-restaurantes-gastronomic-forum-barcelona-2026-135998848",
-   "publicat": "2026-11-02T15:08:35.000Z"
-  },
-  {
-   "id": "37f861206d7b",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Corea del Sud duplicarà la inversió en IA el 2027 fins als 14.100 milions d'euros",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/corea-sud-duplicara-inversio-en-ia-2027-fins-14100-milions-euros_1719304_102.html",
-   "publicat": "2026-11-02T14:26:34.000Z"
-  },
-  {
-   "id": "fe04bcb79bb8",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Creand Fundació impulsa activitats sobre intel·ligència artificial, salut i cultura per a majors de 60 anys",
-   "url": "https://www.diariandorra.ad/nacional/261102/creand-fundacio-impulsa-activitats-sobre-intel-ligencia-artificial-salut-i-cultura-per-majors-60-anys_207877.html",
-   "publicat": "2026-11-02T13:10:06.000Z"
-  },
-  {
-   "id": "7ff5066076cd",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Emma Vilarasau, especialista en IA a la nova sèrie de 3Cat",
-   "url": "https://www.ara.cat/media/series/emma-vilarasau-especialista-ia-nova-serie-3cat_1_5897592.html",
-   "publicat": "2026-11-02T12:52:29.000Z"
-  },
-  {
-   "id": "1e7593d7a202",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Sam Altman, CEO de OpenAI: “No hemos explicado bien a la gente por qué el impacto negativo potencial de la IA vale la pena”",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261102/11674007/sam-altman-ceo-openai-hemos-explicado-gente-impacto-negativo-potencial-ia-vale-pena.html",
-   "publicat": "2026-11-02T12:16:12.000Z"
-  },
-  {
-   "id": "b9b80a9aad20",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La UPV presenta un gemelo digital del barranco del Poyo: un mapa que predice con IA la inundación que dejará una dana",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/02/2741379/upv-presenta-gemelo-digital-del-barranco-del-poyo-mapa-predice-inundacion-dejara-dana.html",
-   "publicat": "2026-11-02T11:34:47.000Z",
-   "noticia": "upv-besso-digital-barranc-poyo-inundacions-dana",
-   "noticiaTitol": "La Universitat Politècnica de València presenta un bessó digital del barranc del Poyo que preveu amb IA on s'inundarà durant una dana"
-  },
-  {
-   "id": "9bc408a6c869",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La Justícia renovarà els sistemes informàtics i estudia incorporar intel·ligència artificial",
-   "url": "https://www.diariandorra.ad/nacional/261102/justicia-renovara-els-sistemes-informatics-i-estudia-incorporar-intel-ligencia-artificial_207875.html",
-   "publicat": "2026-11-02T11:25:04.000Z"
-  },
-  {
-   "id": "828342a8054e",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "John Ternus, CEO de Apple: “No queremos lanzar inteligencia artificial por el mero hecho de lanzarla”",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261102/11673815/john-ternus-ceo-apple-queremos-lanzar-inteligencia-artificial-mero-hecho-lanzarla.html",
-   "publicat": "2026-11-02T10:06:25.000Z"
-  },
-  {
-   "id": "b4f8d630c1a3",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Spotify añadirá una herramienta para crear contenido personalizado con IA a principios de 2027",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/02/2741297/spotify-anadira-herramienta-para-crear-contenido-personalizado-principios-2027.html",
-   "publicat": "2026-11-02T10:05:00.000Z",
-   "noticia": "spotify-remixos-ia-complement-pagament-2027",
-   "noticiaTitol": "Spotify prepara per a principis del 2027 una eina de pagament perquè els usuaris facin les seves pròpies versions de cançons amb IA"
-  },
-  {
-   "id": "1aa2d4ce0c61",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Sam Altman, CEO d'OpenAI, sobre ChatGPT: \"És més poderós que qualsevol ésser humà que hagi existit\"",
-   "url": "https://www.elnacional.cat/ca/tecnologia/sam-altman-ceo-openai-sobre-chatgpt-es-mes-poderos-qualsevol-esser-huma-hagi-existit_1719040_102.html",
-   "publicat": "2026-11-02T10:00:00.000Z"
-  },
-  {
-   "id": "fad53b6172e8",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Gobierno impulsa una IA iberoamericana para contrarrestar el dominio de las grandes plataformas americanas",
-   "url": "https://www.lavanguardia.com/economia/20261102/11673880/gobierno-impulsa-ia-iberoamericana-contrarrestar-dominio-grandes-plataformas-americanas.html",
-   "publicat": "2026-11-02T09:54:15.000Z"
-  },
-  {
-   "id": "60de52171418",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic actualiza Claude para que no recree videojuegos originales",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/02/2741235/anthropic-actualiza-claude-para-recree-videojuegos-originales.html",
-   "publicat": "2026-11-02T09:26:00.000Z"
   }
  ]
 }
