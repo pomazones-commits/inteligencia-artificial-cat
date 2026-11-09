@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-09T16:55:57.436Z",
+ "actualitzat": "2026-11-09T17:17:35.924Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "b42e38a0397a",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Esther Algarra, catedrática de la UA: \"La ley debe adaptarse a retos como la implicación de la IA en el derecho al honor\"",
+   "url": "https://www.informacion.es/alicante/2026/11/09/esther-algarra-catedratica-derecho-civil-alicante-136244313.html",
+   "publicat": "2026-11-09T16:56:42.000Z"
+  },
+  {
+   "id": "332ccf914542",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "TSMC estudia fabricar chips de memoria avanzada DRAM 3D impulsado por Nvidia",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/09/2746485/tsmc-estudia-fabricar-chips-memoria-avanzada-dram-impulsado-por-nvidia.html",
+   "publicat": "2026-11-09T16:56:09.000Z"
+  },
+  {
+   "id": "fedd28bf8c43",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-tec",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El medicament té un aliat en la IA, si es governa bé",
+   "url": "https://www.lavanguardia.com/encatala/20261109/11679210/medicament-te-aliat-ia-governa-be-ctx.html",
+   "publicat": "2026-11-09T16:50:31.000Z"
+  },
   {
    "id": "1f389b4524d1",
    "mitja": "VilaWeb",
@@ -12,7 +45,9 @@
    "ambit": "catala",
    "titol": "La Vall d’Aran reunirà experts internacionals per a debatre el futur de les llengües minoritzades i la IA",
    "url": "https://www.vilaweb.cat/noticies/congres-vall-aran-llengues-minoritzades-intelligencia-artificial",
-   "publicat": "2026-11-09T16:47:29.000Z"
+   "publicat": "2026-11-09T16:47:29.000Z",
+   "noticia": "vielha-congres-llengues-minoritzades-ia",
+   "noticiaTitol": "Vielha reunirà a final de mes mitjans públics, universitats i empreses d'Europa per parlar de què pot fer la IA per l'aranès i les altres llengües petites"
   },
   {
    "id": "a542680ac4f4",
@@ -2733,39 +2768,6 @@
    "titol": "L’FMI alerta que la IA afectarà el 40% de l’ocupació mundial i apunta riscos de crisi",
    "url": "https://www.elnacional.cat/oneconomia/ca/economia/fmi-alerta-ia-afectara-40-llocs-feina-mon-ja-parla-crisi_1719792_102.html",
    "publicat": "2026-11-03T11:15:00.000Z"
-  },
-  {
-   "id": "b48832e2eca6",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El impacto de la inteligencia artificial sobre el sistema de pensiones",
-   "url": "https://cincodias.elpais.com/fondos-y-planes/2026-11-03/el-impacto-de-la-inteligencia-artificial-sobre-el-sistema-de-pensiones.html",
-   "publicat": "2026-11-03T11:08:55.000Z"
-  },
-  {
-   "id": "a0fc26bc05f2",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los pequeños inversores españoles podrán acudir a la salida a Bolsa de Anthropic",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-03/los-pequenos-inversores-espanoles-podran-acudir-a-la-salida-a-bolsa-de-anthropic.html",
-   "publicat": "2026-11-03T11:04:03.000Z"
-  },
-  {
-   "id": "69d1587d2027",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tabernero (CaixaResearch Institute): La IA \"bien aplicada\" facilitará mucho las cosas en medicina",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/03/2742007/tabernero-caixaresearch-institute-bien-aplicada-facilitara-mucho-cosas-medicina.html",
-   "publicat": "2026-11-03T10:19:29.000Z"
   }
  ]
 }
