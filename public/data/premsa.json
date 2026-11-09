@@ -1,8 +1,129 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-09T05:31:27.746Z",
+ "actualitzat": "2026-11-09T09:15:29.971Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "4ae7f8968d05",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Quién es Alice Huang, la presunta espía china que ha puesto contra las cuerdas al CEO de Nvidia",
+   "url": "https://www.eldiario.es/tecnologia/alice-huang-presunta-espia-china-puesto-cuerdas-ceo-nvidia_1_13648764.html",
+   "publicat": "2026-11-09T09:10:12.000Z"
+  },
+  {
+   "id": "3348ed945556",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia se hunde en Bolsa tras iniciar una investigación por una relación extramatrimonial de su CEO",
+   "url": "https://elpais.com/economia/2026-11-09/nvidia-se-desploma-en-bolsa-tras-confirmar-una-investigacion-sobre-la-relacion-extramatrimonial-de-su-ceo-con-una-presunta-espia-china.html",
+   "publicat": "2026-11-09T09:03:22.000Z"
+  },
+  {
+   "id": "eb4b10a6cc97",
+   "mitja": "Nació Digital",
+   "font": "naciodigital-totes",
+   "icona": "/assets/premsa/nacio-digital.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Aquest és el partit que la IA més recomana votar pel 29-N",
+   "url": "https://naciodigital.cat/politica/aquest-es-el-partit-que-la-ia-mes-recomana-votar-pel-29-n.html",
+   "publicat": "2026-11-09T08:46:18.000Z"
+  },
+  {
+   "id": "21cd4849f705",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las acciones de Nvidia caen en las plataformas tras la investigación a Huang por una relación con una espía china",
+   "url": "https://www.lavanguardia.com/economia/20261109/11679643/acciones-nvidia-caen-plataformas-investigacion-huang-supuesta-relacion-espia-china.html",
+   "publicat": "2026-11-09T08:30:34.000Z"
+  },
+  {
+   "id": "9f7a05973d09",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia segella acords amb firmes sud-coreanes en ple escàndol d'espionatge al seu CEO",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nvidia-segella-acords-firmes-sud-coreanes-escandol-espionatge-ceo_1722563_102.html",
+   "publicat": "2026-11-09T08:30:00.000Z"
+  },
+  {
+   "id": "74db04c97e55",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Lleida incorporarà càmeres de vigilància amb IA a partir del desembre: identificaran patrons, elements i faran seguiments",
+   "url": "https://www.segre.com/ca/lleida/261109/lleida-incorporar-cmeres-de-vigilncia-amb-ia-a-partir-del-desembre-identificaran-patrons-elements-i-faran-seguiments_1390859.html",
+   "publicat": "2026-11-09T08:28:02.000Z"
+  },
+  {
+   "id": "dc1924fd8f02",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia se desploma en Bolsa por la investigación sobre la vida personal de su CEO",
+   "url": "https://www.elperiodico.com/es/economia/20261109/nvidia-desploma-bolsa-investigacion-vida-136237316",
+   "publicat": "2026-11-09T08:26:20.000Z"
+  },
+  {
+   "id": "efb137fd07b8",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Ramon Arnó, advocat especialista en l’entorn digital: «La instal·lació de càmeres amb IA ha d’estar justificada i respondre a una finalitat concreta»",
+   "url": "https://www.segre.com/ca/lleida/261109/ramon-arno-advocat-especialista-en-lentorn-digital-la-installacio-de-cmeres-amb-ia-ha-destar-justificada-i-respondre-a-una-finalitat-concreta_1390815.html",
+   "publicat": "2026-11-09T08:18:33.000Z"
+  },
+  {
+   "id": "2e7e2b0c3eb5",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Les accions de Nvidia s’enfonsen arran d’un escàndol d’espionatge xinès que esquitxa el seu fundador",
+   "url": "https://www.vilaweb.cat/noticies/accions-nvidia-enfonsen-escandol-espionatge-xines-jensen-huang",
+   "publicat": "2026-11-09T07:59:44.000Z"
+  },
+  {
+   "id": "be8d9745dc40",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Culebró a Nvidia, líder en xips per a IA: investiguen el CEO per un afer amb una espia xinesa",
+   "url": "https://www.3cat.cat/3catinfo/culebrot-a-nvidia-lider-en-xips-per-a-ia-investiguen-el-ceo-per-una-aventura-amb-una-espia-xinesa/noticia/3438622",
+   "publicat": "2026-11-09T06:25:40.000Z"
+  },
+  {
+   "id": "7854680a86c7",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Andorra pot trobar en l’esport i les llengües el seu espai en la IA",
+   "url": "https://www.diariandorra.ad/nacional/261109/andorra-pot-trobar-l-esport-i-les-llengues-seu-espai-ia_208371.html",
+   "publicat": "2026-11-09T06:23:32.000Z"
+  },
   {
    "id": "360ccf7988bd",
    "mitja": "Diari de Girona",
@@ -59,6 +180,39 @@
    "publicat": "2026-11-09T05:00:00.000Z"
   },
   {
+   "id": "56a0b15e54de",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El tropiezo de la IA que comenzó en China se extiende a Estados Unidos",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-09/la-burbuja-bursatil-de-la-ia-pincho-primero-en-china-el-star-50-pierde-casi-la-mitad-de-su-valor.html",
+   "publicat": "2026-11-09T04:45:01.000Z"
+  },
+  {
+   "id": "b927bc99ca1b",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los directivos ante la IA: entre la preocupación por las limitaciones del sistema y la ampliación de sus funciones",
+   "url": "https://cincodias.elpais.com/companias/2026-11-09/los-directivos-ante-la-ia-entre-la-preocupacion-por-las-limitaciones-del-sistema-y-la-ampliacion-de-sus-funciones.html",
+   "publicat": "2026-11-09T04:15:00.000Z"
+  },
+  {
+   "id": "1153b59d8257",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Encuesta: ¿El rechazo social a la IA irá en aumento?",
+   "url": "https://www.lavanguardia.com/participacion/debates/20261109/11676560/encuesta-rechazo-social-ia-ira-aumento.html",
+   "publicat": "2026-11-09T04:00:00.000Z"
+  },
+  {
    "id": "3e7982db81aa",
    "mitja": "Diari de Tarragona",
    "font": "diaridetarragona",
@@ -76,7 +230,7 @@
    "icona": "/assets/premsa/las-provincias.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "De tiralíneas a la IA, pasando por el autocad: los arquitectos seniors reivindican su papel en la sociedad valenciana",
+   "titol": "Del tiralíneas a la IA, pasando por el autocad: los arquitectos seniors reivindican su papel en la sociedad valenciana",
    "url": "https://www.lasprovincias.es/sociedad/canal-mayores/tiralineas-ia-pasando-autocad-arquitectos-seniors-reivindican-20261027101958-nt.html",
    "publicat": "2026-11-09T00:17:32.000Z"
   },
@@ -131,7 +285,7 @@
    "icona": "/assets/premsa/ara.svg",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Nvidia investigarà al seu director per l''affaire' amb una espia xinesa",
+   "titol": "Nvidia investigarà el seu director per l'afer amb una espia xinesa",
    "url": "https://www.ara.cat/economia/tecnologia/nvidia-investigara-director-l-affaire-espia-xinesa_25_5904644.html",
    "publicat": "2026-11-08T21:12:19.000Z"
   },
@@ -167,6 +321,17 @@
    "titol": "Nvidia abre una investigación sobre la relación de su CEO, Jensen Huang, con una espía china",
    "url": "https://www.eldiario.es/tecnologia/nvidia-abre-investigacion-relacion-ceo-jensen-huang-espia-china_1_13648276.html",
    "publicat": "2026-11-08T20:30:37.000Z"
+  },
+  {
+   "id": "d0da4ad4d55e",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial aún se resiste en Extremadura: solo una de cada cuatro empresas la utiliza",
+   "url": "https://www.informacion.es/economia/2026/11/08/inteligencia-artificial-resiste-extremadura-cuatro-136237333.html",
+   "publicat": "2026-11-08T19:00:56.000Z"
   },
   {
    "id": "e00609cac25d",
@@ -2583,28 +2748,6 @@
    "titol": "Anthropic actualiza Claude para que no recree videojuegos originales",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/02/2741235/anthropic-actualiza-claude-para-recree-videojuegos-originales.html",
    "publicat": "2026-11-02T09:26:00.000Z"
-  },
-  {
-   "id": "7870c5723e3e",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Investigadores logran que la inteligencia artificial razone de forma visual para generar imágenes con mayor precisión",
-   "url": "https://www.lasprovincias.es/tecnologia/investigadores-logran-inteligencia-artificial-rlt_arx-20261102071130-nt.html",
-   "publicat": "2026-11-02T07:25:30.000Z"
-  },
-  {
-   "id": "35ec78a2a597",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cuidado al pedir consejo a la IA: los chatbots priorizan las marcas más caras al recomendar medicamentos",
-   "url": "https://www.lavanguardia.com/neo/ia/20261102/11672060/cuidado-pedir-consejo-ia-chatbots-priorizan-marcas-mas-caras-recomendar-medicamentos.html",
-   "publicat": "2026-11-02T06:03:59.000Z"
   }
  ]
 }
