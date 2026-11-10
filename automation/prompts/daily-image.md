@@ -98,6 +98,7 @@ Escriu en un català normatiu i genuí. No inventis mai mots calcats de l'anglè
 
 - **pacar / paci / pacat** (calc de l'anglès *to pace*) → «moderar el ritme», «acompassar», «alentir», «frenar».
 - **zancada** (castellanisme) → «gambada» o «passa».
+- **jerga** (castellanisme) → «argot» (masculí: «un argot propi»).
 - **en silenci** (*silently*) → «d'amagat», «sense fer soroll», «sense que ningú se n'adoni», «imperceptiblement».
 - **testimoni d'autenticació / de sessió** (*token*) → «credencial d'accés», «clau de sessió» (si cal, *token* en cursiva entre parèntesis la primera vegada).
 - **adreçar** un problema → «resoldre», «afrontar»; **escalar** → «ampliar», «fer créixer»; **suportar** una funció → «admetre», «ser compatible amb»; **habilitar** → «activar», «permetre».
