@@ -1,8 +1,118 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-10T13:03:36.345Z",
+ "actualitzat": "2026-11-10T17:15:09.058Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d65a7ca739be",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic no frena i presenta Claude Fable 5.2 i Mythos 5.2",
+   "url": "https://www.elnacional.cat/ca/tecnologia/anthropic-no-frena-presenta-claude-fable-52-mythos-52_1723577_102.html",
+   "publicat": "2026-11-10T17:00:00.000Z"
+  },
+  {
+   "id": "64667ad4c3b2",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Summit de IA de La Vanguardia: 2027 será el año en que las empresas tendrán que demostrar que la inteligencia artificial les sale a cuenta",
+   "url": "https://www.lavanguardia.com/neo/ia/20261110/11680900/summit-ia-vanguardia-2027-sera-ano-empresas-tendran-demostrar-inteligencia-artificial-les-sale-cuenta.html",
+   "publicat": "2026-11-10T16:24:22.000Z"
+  },
+  {
+   "id": "5ee26bc91767",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Expertos apuestan por invertir en IA para la defensa del ciberespacio aunque advierten de que el riesgo cero no existe",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/10/2747183/expertos-apuestan-por-invertir-para-defensa-del-ciberespacio-aunque-advierten-riesgo-cero-existe.html",
+   "publicat": "2026-11-10T16:21:07.000Z"
+  },
+  {
+   "id": "1d3e88805a6f",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Adobe mejora la creatividad: impulsa sus agentes y herramientas IA para generar contenido",
+   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-10/adobe-mejoras-creatividad-agentes-herramientas.html",
+   "publicat": "2026-11-10T16:00:00.000Z"
+  },
+  {
+   "id": "a59fc220d7fc",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La IA llega a la búsqueda de fondos: “ChatGPT, dime la mejor forma de invertir en EE UU”",
+   "url": "https://cincodias.elpais.com/fondos-y-planes/2026-11-10/la-ia-llega-a-la-busqueda-de-fondos-chatgpt-dime-la-mejor-forma-de-invertir-en-ee-uu.html",
+   "publicat": "2026-11-10T15:45:30.000Z"
+  },
+  {
+   "id": "0ca828d62b6b",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Samsung oferirà una versió de Galaxy AI de pagament",
+   "url": "https://www.elnacional.cat/ca/tecnologia/samsung-oferira-versio-galaxy-ai-pagament_1723505_102.html",
+   "publicat": "2026-11-10T15:30:00.000Z"
+  },
+  {
+   "id": "de427ebbc363",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Retrato robot de los agitadores de Blocus detenidos en España: menores sin ideología, con IA gratuita y animados por los saqueos de Barcelona",
+   "url": "https://www.diariodemallorca.es/sociedad/2026/11/10/retrato-robot-blocus-espana-menores-policia-ia-sin-ideologia-saqueos-barcelona-136295772.html",
+   "publicat": "2026-11-10T15:26:52.000Z"
+  },
+  {
+   "id": "92ea2226d8e3",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Debería Rockstar darse prisa con la versión de GTA 6 para PC antes de que la IA se le adelante?",
+   "url": "https://www.informacion.es/tecnologia/2026/11/10/deberia-rockstar-darse-prisa-version-136293126.html",
+   "publicat": "2026-11-10T14:43:31.000Z"
+  },
+  {
+   "id": "0a06ec70c3a2",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Retrat robot dels agitadors de Blocus detinguts a Espanya: menors sense ideologia, amb IA gratuïta i esperonats pels saquejos de Barcelona",
+   "url": "https://www.elperiodico.cat/societat/20261110/retrat-robot-blocus-espanya-menors-policia-ia-sense-ideologia-saquejos-barcelona-136293087",
+   "publicat": "2026-11-10T13:44:17.000Z"
+  },
+  {
+   "id": "c7d2a9f0cec6",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los cuernos que han desatado una crisis nacional: cronología del escándalo sexual y político que azota al director de Nvidia",
+   "url": "https://www.informacion.es/internacional/2026/11/10/cuernos-crisis-eeuu-jensen-huang-espia-nvidia-china-espionaje-ia-trump-136289795.html",
+   "publicat": "2026-11-10T13:32:16.000Z"
+  },
   {
    "id": "e7c55f2419e5",
    "mitja": "elDiario.es",
@@ -48,6 +158,17 @@
    "publicat": "2026-11-10T12:47:56.000Z"
   },
   {
+   "id": "5a80b8ccd23d",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic reduce a 1,3 billones la valoración que buscará en su salida a bolsa",
+   "url": "https://www.informacion.es/tecnologia/2026/11/10/anthropic-fija-rango-70-78-136287196.html",
+   "publicat": "2026-11-10T12:45:50.000Z"
+  },
+  {
    "id": "983d4196e4e6",
    "mitja": "Diario de Mallorca",
    "font": "diariodemallorca-totes",
@@ -57,6 +178,17 @@
    "titol": "Anthropic fija en un rango de entre 70 y 78 dólares el precio de sus acciones para salir a Bolsa",
    "url": "https://www.diariodemallorca.es/sociedad/2026/11/10/anthropic-fija-rango-70-78-136287186.html",
    "publicat": "2026-11-10T12:45:50.000Z"
+  },
+  {
+   "id": "f5cef1a174f7",
+   "mitja": "El Periódico",
+   "font": "elperiodico-tec",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Les banyes que han desfermat una crisi nacional: cronologia de l’escàndol sexual i polític que sacseja el director de Nvidia",
+   "url": "https://www.elperiodico.cat/internacional/20261110/banyes-crisi-eua-jensen-huang-espia-nvidia-xina-espionatge-ia-trump-136289704",
+   "publicat": "2026-11-10T12:32:16.000Z"
   },
   {
    "id": "febd7d571c5f",
@@ -134,6 +266,28 @@
    "titol": "El uso de la IA en los ciberataques está reduciendo el tiempo de respuesta casi a cero",
    "url": "https://www.lavanguardia.com/vida/20261110/11680712/ia-ciberataques-esta-reduciendo-respuesta-cero.html",
    "publicat": "2026-11-10T11:05:32.000Z"
+  },
+  {
+   "id": "f173d50c36cc",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Fundación Jiménez Díaz apuesta por la prevención, datos e IA para generar más valor para el paciente y mejorar su atención",
+   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/11/10/2747091/fundacion-jimenez-diaz-apuesta-por-prevencion-datos-para-generar-mas-valor-para-paciente-mejorar-atencion.html",
+   "publicat": "2026-11-10T10:47:00.000Z"
+  },
+  {
+   "id": "29bde11fa3f5",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Docenteo cuestiona el modelo empresarial que relega a los juniors a tareas que hoy puede hacer la IA",
+   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/11/10/2747095/docenteo-cuestiona-modelo-empresarial-relega-juniors-tareas-hoy-puede-hacer-ia.html",
+   "publicat": "2026-11-10T10:43:00.000Z"
   },
   {
    "id": "72f7056832e1",
@@ -2612,160 +2766,6 @@
    "titol": "El turismo de Elche reivindica licencias temporales de taxi y el sector se rearma con la IA para reducir las esperas",
    "url": "https://www.informacion.es/elche/2026/11/04/turismo-licencias-taxis-transporte-publico-aete-hoteles-136086191.html",
    "publicat": "2026-11-04T17:36:03.000Z"
-  },
-  {
-   "id": "a3d0d9644fa4",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Carl Pei (Nothing) defiende cerrar la brecha del contexto para alcanzar el momento iPhone en los dispositivos de IA",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/04/2743221/carl-pei-nothing-defiende-cerrar-brecha-del-contexto-para-alcanzar-momento-iphone-dispositivos-ia.html",
-   "publicat": "2026-11-04T16:41:00.000Z"
-  },
-  {
-   "id": "198565bc2b16",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA descobreix un possible \"Ozempic natural\" que redueix la gana sense els seus efectes secundaris habituals",
-   "url": "https://www.elnacional.cat/ca/tecnologia/ia-descobreix-possible-ozempic-natural-redueix-gana-sense-seus-efectes-secundaris-habituals_1720581_102.html",
-   "publicat": "2026-11-04T16:00:00.000Z"
-  },
-  {
-   "id": "1311fd6f0b2b",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "'Prompt Adware', la nueva amenaza de seguridad empresarial que manipula de forma oculta a los agentes de IA",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/04/2743177/prompt-adware-nueva-amenaza-seguridad-empresarial-manipula-forma-oculta-agentes-ia.html",
-   "publicat": "2026-11-04T15:57:00.000Z"
-  },
-  {
-   "id": "91efa44b482c",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Sánchez ve más necesaria que nunca la voz de Iberoamérica ante retos como la IA y el clima",
-   "url": "https://www.elperiodico.com/es/politica/20261104/sanchez-ve-necesaria-voz-iberoamerica-136086893",
-   "publicat": "2026-11-04T15:52:43.000Z"
-  },
-  {
-   "id": "b159771a411f",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Educación | Investigadores de la UA diseñan un sistema de cultivo con IA que aumenta la productividad en un 30 %",
-   "url": "https://alicanteplaza.es/alicanteplaza/educacion1/investigadores-de-la-ua-disenan-un-sistema-de-cultivo-con-ia-que-aumenta-la-productividad-en-un-30",
-   "publicat": "2026-11-04T15:33:37.000Z"
-  },
-  {
-   "id": "1cbbf9a8a5e2",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una nueva IA rastrea la trayectoria clínica para detectar enfermedades renales hereditarias que pueden tardar años en diagnosticarse",
-   "url": "https://www.elperiodico.com/es/sanidad/20261104/nueva-ia-rastrea-trayectoria-clinica-detectar-enfermedades-renales-hereditarias-136078488",
-   "publicat": "2026-11-04T15:11:45.000Z"
-  },
-  {
-   "id": "422aceca3212",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "ChatGPT comença a plantar cara a Google: ja assoleix el 20% de les seves cerques",
-   "url": "https://www.elnacional.cat/ca/tecnologia/chatgpt-comenca-plantar-cara-google-ja-assoleix-20-seves-cerques_1720560_102.html",
-   "publicat": "2026-11-04T15:00:00.000Z"
-  },
-  {
-   "id": "85a9748da976",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Juan Francisco Jimeno: “Tenemos que olvidarnos de que la IA nos vaya a pagar la pensión”",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-04/juan-francisco-jimeno-tenemos-que-olvidarnos-de-que-la-ia-nos-vaya-a-pagar-la-pension.html",
-   "publicat": "2026-11-04T14:42:36.000Z"
-  },
-  {
-   "id": "dadf07efae04",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La intel·ligència artificial contraataca: \"La guerra dels clons\"",
-   "url": "https://www.elnacional.cat/ca/tecnologia/intelligencia-artificial-contraataca-guerra-clons_1720554_102.html",
-   "publicat": "2026-11-04T14:30:00.000Z"
-  },
-  {
-   "id": "641211c78642",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las búsquedas por ChatGPT ya equivalen al 20% de las de Google, según OpenAI",
-   "url": "https://www.lavanguardia.com/vida/20261104/11675991/busquedas-chatgpt-equivalen-20-google-openai.html",
-   "publicat": "2026-11-04T13:16:52.000Z"
-  },
-  {
-   "id": "02566a766f02",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Bankinter analiza el impacto de la IA en las empresas",
-   "url": "https://www.informacion.es/fotos/alicante/2026/11/04/bankinter-analiza-impacto-ia-empresas-136079211.html",
-   "publicat": "2026-11-04T13:01:58.000Z"
-  },
-  {
-   "id": "cc8061c2a787",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "CrowdStrike amplía Project QuiltWorks por toda Europa para impulsar la respuesta ante los riesgos de la IA de frontera",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/04/2742989/crowdstrike-amplia-project-quiltworks-por-toda-europa-para-impulsar-respuesta-ante-riesgos-frontera.html",
-   "publicat": "2026-11-04T12:27:49.000Z"
-  },
-  {
-   "id": "70b006e18de7",
-   "mitja": "El Punt Avui",
-   "font": "elpuntavui-societat",
-   "icona": "/assets/premsa/el-punt-avui.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Toc d’alerta per l’ús que la intel·ligència artificial fa dels articles periodístics",
-   "url": "https://www.elpuntavui.cat/societat/article/5-societat/2687894-toc-d-alerta-per-l-us-que-la-intel-ligencia-artificial-fa-dels-articles-periodistics.html",
-   "publicat": "2026-11-04T12:24:24.000Z"
-  },
-  {
-   "id": "18c2db4dab07",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La intel·ligència artificial i el futur de la cardiologia, protagonistes d’una conferència a Cardona",
-   "url": "https://www.regio7.cat/bages/2026/11/04/intelligencia-artificial-futur-cardiologia-protagonistes-136075549.html",
-   "publicat": "2026-11-04T11:59:59.000Z"
   }
  ]
 }
