@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-10T05:15:09.466Z",
+ "actualitzat": "2026-11-10T09:15:25.587Z",
  "canals": 19,
  "videos": [
   {
@@ -14,6 +14,18 @@
    "publicat": "2026-11-10T02:41:23.000Z",
    "descripcio": "Kuken Industries is using the OpenAI API to help engineers search 70 years of drawings in minutes. Built with Recursive, a Japanese AI startup and an official OpenAI partner, the system gives teams more time to mentor younger engineers and take on more demanding work. ➡️ Read how Kuken Industries is",
    "miniatura": "/assets/videos/FNTz0CdqL6g.jpg"
+  },
+  {
+   "id": "cnJUlm-ktKA",
+   "titol": "Prosper Global connects tech innovation to humanitarian impact with Microsoft Elevate",
+   "canal": "Microsoft",
+   "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-09T20:03:24.000Z",
+   "descripcio": "How can promising AI ideas make a bigger difference in humanitarian work? Through Microsoft Elevate for Changemakers, Prosper Global is building AI skills and a responsible path from pilots to broader adoption—giving teams more time to support communities. https://Aka.ms/MicrosoftElevateforChangemak",
+   "miniatura": "/assets/videos/cnJUlm-ktKA.jpg"
   },
   {
    "id": "F2iZ1xKmCTQ",
