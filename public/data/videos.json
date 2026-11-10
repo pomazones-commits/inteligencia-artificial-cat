@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-10T17:15:09.063Z",
+ "actualitzat": "2026-11-10T21:25:57.763Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "Z9k5oI3Paoc",
+   "titol": "Introducing Businesses in ChatGPT in beta",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-11-10T18:07:12.000Z",
+   "descripcio": "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. With Business Hub, verified businesses can update their details and add product feeds with current pricing and availability. They can also see aggregated insights on ment",
+   "miniatura": "/assets/videos/Z9k5oI3Paoc.jpg"
+  },
   {
    "id": "vdEGZYIvFiI",
    "titol": "Greg Brockman on how OpenAI uses frontier models for cyber defense",
