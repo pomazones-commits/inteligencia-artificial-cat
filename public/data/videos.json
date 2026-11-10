@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-09T23:51:47.569Z",
+ "actualitzat": "2026-11-10T05:15:09.466Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "FNTz0CdqL6g",
+   "titol": "Kuken Industries searches 70 years of drawings in minutes",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-11-10T02:41:23.000Z",
+   "descripcio": "Kuken Industries is using the OpenAI API to help engineers search 70 years of drawings in minutes. Built with Recursive, a Japanese AI startup and an official OpenAI partner, the system gives teams more time to mentor younger engineers and take on more demanding work. ➡️ Read how Kuken Industries is",
+   "miniatura": "/assets/videos/FNTz0CdqL6g.jpg"
+  },
   {
    "id": "F2iZ1xKmCTQ",
    "titol": "La IA canvia els ciberatacs: de les grans neveres de supermercats fins a l'smart TV de casa",
