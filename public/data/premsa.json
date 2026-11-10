@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-10T05:15:09.790Z",
+ "actualitzat": "2026-11-10T09:15:27.273Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d6fe9d567383",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic siembra dudas: anuncia que busca 70.000 millones con su salida a Bolsa, pero después se arrepiente",
+   "url": "https://cincodias.elpais.com/companias/2026-11-10/anthropic-siembra-dudas-anuncia-que-busca-70000-millones-con-su-salida-a-bolsa-pero-despues-se-arrepiente.html",
+   "publicat": "2026-11-10T08:44:21.000Z"
+  },
+  {
+   "id": "936f4b2695fd",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "China presenta los primeros robots humanoides que dan las noticias: la IA ya tiene cuerpo en el periodismo",
+   "url": "https://www.informacion.es/tendencias21/2026/11/10/china-presenta-primeros-robots-humanoides-136273929.html",
+   "publicat": "2026-11-10T08:40:28.000Z"
+  },
+  {
+   "id": "cb04dbc84a59",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Trump defiende al director de Nvidia en caso de una presunta espía china y promete indagar",
+   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/10/2746701/trump-defiende-director-nvidia-caso-presunta-espia-china-promete-indagar.html",
+   "publicat": "2026-11-10T08:10:00.000Z"
+  },
+  {
+   "id": "2a3316b6419d",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Trump defensa el director de Nvidia per la presumpta espia xinesa i promet indagar",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/trump-defensa-director-nvidia-presumpta-espia-xinesa-promet-indagar_1723109_102.html",
+   "publicat": "2026-11-10T07:22:16.000Z"
+  },
+  {
+   "id": "26df388ea0a1",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Mustafa Suleyman, CEO de Microsoft IA: “Desarrollar IA con conciencia sería una imprudencia, y no deberíamos crearlas”",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261110/11680007/mustafa-suleyman-suleyman-ceo-microsoft-ia-microsoft-ia-microsoft-ia-inteligancia-artificial-conciencia.html",
+   "publicat": "2026-11-10T06:35:00.000Z"
+  },
   {
    "id": "7461afa1bbbc",
    "mitja": "Cinco Días",
@@ -2711,61 +2766,6 @@
    "titol": "La inteligencia artificial llega a su momento Napster",
    "url": "https://cincodias.elpais.com/opinion/2026-11-04/la-inteligencia-artificial-llega-a-su-momento-napster.html",
    "publicat": "2026-11-04T04:40:00.000Z"
-  },
-  {
-   "id": "351cb998cb48",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Scope avisa de que un frenazo del crédito de la IA dañará a las empresas europeas sin vínculos con el sector",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-04/scope-avisa-de-que-un-frenazo-del-credito-de-la-ia-danara-a-las-empresas-europeas-sin-vinculos-con-el-sector.html",
-   "publicat": "2026-11-04T04:30:01.000Z"
-  },
-  {
-   "id": "3929ce26158e",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La factura de la IA arriba a Wall Street",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/factura-ia-arriba-wall-street_1719385_102.html",
-   "publicat": "2026-11-04T04:30:00.000Z"
-  },
-  {
-   "id": "494cd3bb92e0",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Las ‘big tech’ hacen acopio de liquidez con una inundación histórica de deuda y acciones ante la presión de la IA",
-   "url": "https://cincodias.elpais.com/companias/2026-11-04/las-big-tech-hacen-acopio-de-liquidez-con-una-inundacion-historica-de-deuda-y-acciones-ante-la-presion-de-la-ia.html",
-   "publicat": "2026-11-04T04:15:00.000Z"
-  },
-  {
-   "id": "7e4aa1de56d6",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "De empezar con 16 años a ahorrar miles de euros a empresas de Mallorca gracias a la IA",
-   "url": "https://www.ultimahora.es/noticias/local/2026/11/04/2742087/empezar-anos-ahorrar-miles-euros-empresas-mallorca-gracias-ia.html",
-   "publicat": "2026-11-04T03:48:01.000Z"
-  },
-  {
-   "id": "c3c05daa1c6f",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic avisa abans de sortir a borsa: llançarà una IA que es construeix a si mateixa",
-   "url": "https://www.elnacional.cat/ca/tecnologia/anthropic-avisa-abans-seva-sortida-borsa-podria-llancar-imminentment-ia-es-construeix-si-mateixa_1720137_102.html",
-   "publicat": "2026-11-03T20:50:00.000Z"
   }
  ]
 }
