@@ -1,8 +1,151 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-10T17:15:09.058Z",
+ "actualitzat": "2026-11-10T21:02:30.393Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "dc7617f4480f",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Gemini tiene una función oculta que te ahorrará mucho tiempo: así puedes enseñarle cómo quieres que responda",
+   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-10/gemini-tiene-una-funcion-oculta-que-te-ahorrara-mucho-tiempo-asi-puedes-ensenarle-como-quieres-que-responda.html",
+   "publicat": "2026-11-10T20:30:00.000Z"
+  },
+  {
+   "id": "7f145f80003a",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia empitjora la seva situació amb una caiguda d’un 6% a Wall Street",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nvidia-empitjora-seva-situacio-caiguda-6-wall-street_1723670_102.html",
+   "publicat": "2026-11-10T19:50:20.000Z"
+  },
+  {
+   "id": "74c7770634a6",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Google desenvolupa una nova previsió meteorològica potenciada amb la IA que promet ser \"la més avançada i precisa fins ara\"",
+   "url": "https://www.apuntmedia.es/oratge/meteosaps/google-desenvolupa-una-nova-previsio-meteorologica-potenciada-ia-promet-avancada-precisa-ara_1_1908005.html",
+   "publicat": "2026-11-10T18:49:35.000Z"
+  },
+  {
+   "id": "5153645f66d3",
+   "mitja": "Ara Balears",
+   "font": "arabalears",
+   "icona": "/assets/premsa/ara-balears.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Demanden Nvidia i el seu conseller delegat per \"enganyar\" els seus accionistes sobre el cas d'espionatge",
+   "url": "https://www.ara.cat/economia/tecnologia/demanden-nvidia-conseller-delegat-enganyar-accionistes-cas-d-espionatge_1_5906545.html",
+   "publicat": "2026-11-10T18:39:36.000Z"
+  },
+  {
+   "id": "8755cfb24e95",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Del mòbil a la gestió costanera: el SOCIB i l'IAIB creen una eina d’intel·ligència artificial que identifica la línia de costa en segons",
+   "url": "https://www.diariodemallorca.es/cronica-uib/2026/11/10/mobil-gestio-costanera-socib-liaib-136304052.html",
+   "publicat": "2026-11-10T18:22:15.000Z"
+  },
+  {
+   "id": "e04790cd3cc6",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La relació del CEO de Nvidia amb una espia hauria permès vendes milmilionàries de xips a la Xina",
+   "url": "https://www.3cat.cat/3catinfo/la-relacio-del-ceo-de-nvidia-amb-una-espia-hauria-permes-vendes-milmilionaries-de-xips-a-la-xina/noticia/3438989",
+   "publicat": "2026-11-10T18:04:06.000Z"
+  },
+  {
+   "id": "62d6892a39e6",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Els Premis E-Tech 2026 reconeixen projectes d'IA, energia solar i turisme",
+   "url": "https://www.diaridegirona.cat/economia/2026/11/10/els-premis-tech-2026-reconeixen-136284709.html",
+   "publicat": "2026-11-10T18:00:46.000Z"
+  },
+  {
+   "id": "0a87589c3b03",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Google abre la caja negra de Gemini: ya puedes ver y borrar lo que recuerda de ti gracias a Memory",
+   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-10/gemini-memory-ver-borrar-sabe-inteligencia-artificial-de-ti.html",
+   "publicat": "2026-11-10T18:00:00.000Z"
+  },
+  {
+   "id": "5ec37b1dda1d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Microsoft supera en capitalización a Nvidia, que pierde 1,8 billones en valor de mercado con el escándalo Huang",
+   "url": "https://cincodias.elpais.com/companias/2026-11-10/microsoft-supera-en-capitalizacion-a-nvidia-que-pierde-18-billones-en-valor-de-mercado-con-el-escandalo-huang.html",
+   "publicat": "2026-11-10T17:47:04.000Z"
+  },
+  {
+   "id": "aa9961eef3e2",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic saldrá a bolsa por 1,4 billones dopada por sus propios proveedores",
+   "url": "https://www.eldiario.es/tecnologia/anthropic-saldra-bolsa-1-4-billones-dopada-propios-proveedores_1_13653487.html",
+   "publicat": "2026-11-10T17:32:11.000Z"
+  },
+  {
+   "id": "cd0f644ad0e1",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Daniel Innerarity, sobre la IA: “No s'ha de plantejar com una guerra entre màquines i humans”",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/daniel-innerarity-ia-no-plantejar-guerra-maquines-humans_1723595_102.html",
+   "publicat": "2026-11-10T17:28:36.000Z"
+  },
+  {
+   "id": "b97098cb832f",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Brussel·les vol limitar les funcions addictives de les xarxes socials i els xatbots que simulen vincles personals",
+   "url": "https://www.vilaweb.cat/noticies/brusselles-funcions-addictives-xarxes-socials-xatbots-vincles-personals",
+   "publicat": "2026-11-10T17:26:24.000Z"
+  },
+  {
+   "id": "be52595888f0",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Raúl García hace historia en el cine de animación español con 'La violinista': \"El estilo Disney ha sido clonado por la IA y hay que buscar soluciones nuevas\"",
+   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261110/raul-garcia-la-violinista-estreno-animacion-oscar-136300346",
+   "publicat": "2026-11-10T17:23:11.000Z"
+  },
   {
    "id": "d65a7ca739be",
    "mitja": "El Nacional",
@@ -2623,149 +2766,6 @@
    "titol": "Rabia contra la IA en EE.UU.",
    "url": "https://www.lavanguardia.com/internacional/20261105/11676212/rabia-ia-ee-uu.html",
    "publicat": "2026-11-05T05:00:00.000Z"
-  },
-  {
-   "id": "bf7d8063b871",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Cuántos asistentes de IA usas a la vez? A partir del tercero trabajas peor",
-   "url": "https://www.lavanguardia.com/economia/20261105/11676051/asistentes-de-ia-pablo-foncillas-pf-video-seo-lv.html",
-   "publicat": "2026-11-05T05:00:00.000Z"
-  },
-  {
-   "id": "b935e3349748",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Las restricciones gobiernan la IA",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-05/las-restricciones-gobiernan-la-ia.html",
-   "publicat": "2026-11-05T04:40:00.000Z"
-  },
-  {
-   "id": "e6ff24adbf8c",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La escuela se reúne en Madrid para abordar el reto de la IA",
-   "url": "https://cincodias.elpais.com/extras/2026-11-05/la-escuela-se-reune-en-madrid-para-abordar-el-reto-de-la-ia.html",
-   "publicat": "2026-11-05T04:30:01.000Z"
-  },
-  {
-   "id": "09b5d3d7c11b",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Guanya diners la IA?",
-   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/guanya-diners-ia-esteve-almirall_1720239_102.html",
-   "publicat": "2026-11-05T04:30:00.000Z"
-  },
-  {
-   "id": "814a7ca5ff97",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Europa vol sobirania digital, però finança la IA americana",
-   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/europa-vol-sobirania-digital-pero-financa-ia-americana-cristina-montanola_1720599_102.html",
-   "publicat": "2026-11-05T04:30:00.000Z"
-  },
-  {
-   "id": "efe384614dd3",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La española Kabilio levanta 10 millones con Picus Capital, Visionaries y el CDTI para su IA para asesorías",
-   "url": "https://cincodias.elpais.com/companias/2026-11-05/la-espanola-kabilio-levanta-10-millones-con-picus-capital-visionaries-y-el-cdti-para-su-ia-para-asesorias.html",
-   "publicat": "2026-11-05T04:15:00.000Z"
-  },
-  {
-   "id": "3f2d7c8579a6",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El V Fórum Europeo de Inteligencia Artificial analizará en Alicante los grandes desafíos de esta revolución",
-   "url": "https://www.informacion.es/economia/2026/11/04/v-forum-europeo-inteligencia-artificial-bc-136081968.html",
-   "publicat": "2026-11-04T21:30:55.000Z"
-  },
-  {
-   "id": "ec7556028094",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Què passarà amb l'economia dels EUA amb el gir demòcrata? De les renovables al petroli i la IA",
-   "url": "https://www.3cat.cat/3catinfo/que-passara-amb-leconomia-dels-eua-amb-el-gir-democrata-de-les-renovables-al-petroli-i-la-ia/noticia/3437925",
-   "publicat": "2026-11-04T21:30:04.000Z"
-  },
-  {
-   "id": "8557c3649a0d",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los autobuses de TMB ya cuentan los pasajeros de cada vehículo en tiempo real con la ayuda de la IA",
-   "url": "https://www.elperiodico.com/es/barcelona/20261104/tmb-autobuses-inteligencia-artificial-pasajeros-tiempo-real-136090808",
-   "publicat": "2026-11-04T21:25:54.000Z"
-  },
-  {
-   "id": "4cac4b399612",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "En la F1, la inteligencia tiene techo",
-   "url": "https://www.elmundo.es/tecnologia/2026/11/04/6aeb9c2521efa05d408b4578.html",
-   "publicat": "2026-11-04T20:57:22.000Z"
-  },
-  {
-   "id": "a6b37fe6ea5a",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Prohens destaca la investigación y la IA para atraer a nuevas empresas",
-   "url": "https://www.ultimahora.es/noticias/local/2026/11/04/2743255/prohens-destaca-investigacion-para-atraer-nuevas-empresas.html",
-   "publicat": "2026-11-04T19:10:14.000Z"
-  },
-  {
-   "id": "1cfad77f92e3",
-   "mitja": "Diari de Terrassa",
-   "font": "diarideterrassa",
-   "icona": "/assets/premsa/diari-de-terrassa.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Pot ajudar la IA a recuperar patrimoni?",
-   "url": "https://www.diarideterrassa.com/cultura-i-espectacles/pot-ajudar-la-ia-a-recuperar-patrimoni.html",
-   "publicat": "2026-11-04T18:58:41.000Z"
-  },
-  {
-   "id": "f3bc2ca721db",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El turismo de Elche reivindica licencias temporales de taxi y el sector se rearma con la IA para reducir las esperas",
-   "url": "https://www.informacion.es/elche/2026/11/04/turismo-licencias-taxis-transporte-publico-aete-hoteles-136086191.html",
-   "publicat": "2026-11-04T17:36:03.000Z"
   }
  ]
 }
