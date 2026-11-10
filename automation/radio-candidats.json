@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-08T09:15:04.554Z",
+  "generat": "2026-11-10T17:15:10.350Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -8,7 +8,7 @@
       "programa": "Revolució 4.0",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 12
+      "sobre_ia": 8
     },
     {
       "font": "3cat",
@@ -24,7 +24,7 @@
       "programa": "El matí de Catalunya Ràdio",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 0
     },
     {
       "font": "3cat",
@@ -32,7 +32,7 @@
       "programa": "El suplement",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 1
     },
     {
       "font": "3cat",
@@ -96,7 +96,7 @@
       "programa": "El pla B",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 3
+      "sobre_ia": 2
     },
     {
       "font": "omny",
@@ -128,15 +128,15 @@
       "programa": "",
       "resultats": 5,
       "estat": "ok",
-      "audios": 1,
-      "sobre_ia": 0
+      "audios": 2,
+      "sobre_ia": 1
     },
     {
       "font": "wordpress",
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 30,
+      "audios": 35,
       "sobre_ia": 2
     },
     {
@@ -155,8 +155,8 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 22,
-      "sobre_ia": 1
+      "audios": 18,
+      "sobre_ia": 0
     },
     {
       "font": "wordpress",
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 8,
+      "audios": 7,
       "sobre_ia": 0
     },
     {
@@ -173,9 +173,26 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 300,
-      "sobre_ia": 3
+      "audios": 400,
+      "sobre_ia": 2
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "apunt-1907987",
+      "emissora": "À Punt Ràdio",
+      "programa": "Cadena de valor",
+      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
+      "data": "2026-11-10",
+      "durada": "",
+      "titol_original": "Tecnologia, geopolítica i empresa: les noves regles del joc",
+      "descripcio_original": "Entrevistem Nuria Lloret, presidenta d’AECTA, amb motiu del Congrés de Tecnologies Emergents i WAI Valencia Talk. Analitzem com la intel·ligència artificial, la ciberseguretat, la sobirania digital i el nou escenari geopolític condicionen la competitivitat de les empreses valencianes, així com la importància del lideratge femení en esta transformació.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/10-11-2026-tecnologia-geopolitica-empresa-noves-regles-joc_135_1907987.html",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    }
+  ]
 }
