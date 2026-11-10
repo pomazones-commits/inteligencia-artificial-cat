@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-09T17:16:40.837Z",
+  "updatedAt": "2026-11-10T05:14:12.835Z",
   "items": [
     {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "Citi deixa de recomanar comprar borsa dels Estats Units perquè no es refia de l'estat d'ànim dels inversors amb la IA",
-      "excerpt": "Els estrategs del banc rebaixen a «neutral» les accions nord-americanes i les tecnològiques després d'una caiguda que ha esborrat uns 3 bilions de dòlars de valor a l'S&P 500, i passen a preferir Europa."
-    },
-    {
-      "category": "CIÈNCIA",
+      "category": "MODELS",
       "read": "5 MIN",
-      "title": "Una IA ajuda a desxifrar l'escriptura xinesa més antiga, gravada en ossos fa més de 3.000 anys, i retalla un 64% la feina dels experts, segons «The Innovation»",
-      "excerpt": "AlphaOracle, d'un equip de la Universitat de Ciència i Tecnologia de Huazhong, reprodueix el procés dels epigrafistes: compara la forma del caràcter, el context de les inscripcions i el que en diuen els textos clàssics."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "La Universitat de Califòrnia a Berkeley posa equips d'agents d'IA a escriure i provar el programa dels robots en un món virtual abans de fer-los servir",
-      "excerpt": "El mètode, que es presentarà a la Conference on Robot Learning, divideix cada tasca en habilitats que els agents combinen i assagen en simulació; una empresa de magatzems diu que ja l'aplica a part dels seus robots."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Un de cada vint adults del Regne Unit ja paga de la seva butxaca un assistent d'IA, i Claude passa del 7% al 29% de la despesa en mig any",
-      "excerpt": "Economistes de les universitats de Warwick i l'Imperial College han analitzat 14 milions de comptes bancaris i de targetes anonimitzats: hi paguen sobretot els joves, els homes, els informàtics i qui guanya més."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Vielha reunirà a final de mes mitjans públics, universitats i empreses d'Europa per parlar de què pot fer la IA per l'aranès i les altres llengües petites",
-      "excerpt": "La segona edició del congrés internacional sobre comunicació, tecnologia i llengües minoritàries, el 26 i el 27 de novembre, presentarà una càtedra de RTVE i la Universitat de Lleida sobre llengües minoritàries i IA."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Trump diu que no li fan nosa les normes per a la IA, però que no deixarà que els Estats Units quedin per darrere de la Xina",
-      "excerpt": "En la primera entrevista llarga després de les eleccions de mig mandat, el president es declara entusiasta de la IA, que ell anomena «superintel·ligència», i assegura que el risc «es pot gestionar»."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA llegeix com expliquen els pacients d'urgències el que els ha passat i avisa de qui pot patir estrès posttraumàtic, segons «Nature Communications»",
-      "excerpt": "El sistema de NYU Langone combina models de llenguatge oberts, no necessita cap entrenament addicional i explica per què marca cada pacient. En una prova amb 30 casos, els va detectar tots; una clínica especialista, el 89%."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Meta fa servir a tot el món la IA que endevina l'edat dels usuaris d'Instagram i posa milions d'adolescents en comptes protegits",
-      "excerpt": "El sistema busca indicis que algú té menys de 18 anys, encara que s'hagi posat una data de naixement d'adult. Fins ara només funcionava als Estats Units, la Unió Europea i el Brasil."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Els assistents d'IA recomanen menys partits que al gener abans de les eleccions del 29-N, però Grok ho fa en quatre de cada deu preguntes, segons un estudi de la UOC",
-      "excerpt": "Investigadors de la Universitat Oberta de Catalunya i Science4Insights han fet 1.464 preguntes a sis assistents. ChatGPT ha passat de recomanar partit en més del 43% de les respostes a fer-ho en el 14%; Claude i Gemini, gairebé mai."
-    },
-    {
-      "category": "PROGRAMARI",
-      "read": "4 MIN",
-      "title": "Asahi Linux, el projecte que porta Linux als Mac, canvia de llicència perquè li copiaven el codi i el reescrivien amb IA per amagar-ne l'origen",
-      "excerpt": "Els desenvolupadors passaran tots els seus programes de la llicència permissiva MIT a la GPL, que obliga a compartir els canvis. També hi pesa, diuen, la gana de les grans empreses d'IA per tenir codi de qualitat amb què entrenar els models."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Una opció de Claude Code ha deixat a la vista de tothom més de 2.500 contrasenyes i claus d'accés a GitHub, segons Apiiro",
-      "excerpt": "Quan l'usuari aprova una ordre amb «no m'ho tornis a preguntar», l'eina la desa tal qual en un fitxer del projecte, contrasenyes incloses. L'empresa de seguretat Apiiro n'ha trobat milers publicades en repositoris oberts."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode del MIT ensenya un robot que «no vessis res al portàtil» també vol dir anar amb compte amb el mòbil",
-      "excerpt": "El sistema FLEX fa servir un model de llenguatge per deduir, d'una ordre concreta, quines altres coses vol protegir la persona. Es presentarà al congrés de robòtica CoRL i de moment només s'ha provat en simulació."
+      "title": "Anthropic presenta Fable 5.2 i Mythos 5.2, més ràpids i més barats, i avisa que els models cada cop sospiten més que els estan posant a prova",
+      "excerpt": "Els nous models responen fins a un 30% més de pressa, rebaixen el preu d'entrada de 10 a 8 dòlars per milió de tokens i superen Opus 5.5 en programació i ús de l'ordinador. Mythos 5.2 continua reservat a organitzacions verificades."
     },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "L'agent obert de DeepSeek ja té més d'un milió i mig d'usuaris al dia, gairebé sis vegades més que a final de setembre",
-      "excerpt": "DeepSeek Harness, l'eina amb què l'empresa xinesa competeix amb Claude Code i Codex, va tenir 1,54 milions d'usuaris diaris la setmana del 4 de novembre, comptant només els que passen per la seva API oficial."
+      "title": "ACTUALITZACIÓ: Un inversor presenta la primera demanda col·lectiva contra Nvidia i Jensen Huang per la relació amb una presumpta espia xinesa",
+      "excerpt": "La demanda, presentada en un tribunal federal de Califòrnia, acusa l'empresa d'haver enganyat els inversors sobre els vincles del conseller delegat amb Megaspeed. L'acció d'Nvidia va caure un 4,3% dilluns."
     },
     {
-      "category": "TREBALL",
+      "category": "MODELS",
       "read": "4 MIN",
-      "title": "Gairebé un de cada cinc treballadors dels Estats Units substituïts per la IA diu que l'empresa li ha demanat que tornés, segons una enquesta",
-      "excerpt": "L'enquesta de la consultora de selecció SHL apunta que moltes empreses s'han precipitat a automatitzar llocs de feina. Una altra enquesta, de Robert Half, diu que un 32% dels caps que van suprimir llocs per la IA n'han hagut de recuperar."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Les empreses d'IA acaparen fàbriques i tornen a fer escassejar els xips corrents: Microchip ja triga fins a 32 setmanes a servir-ne",
-      "excerpt": "El conseller delegat del fabricant nord-americà, Steve Sanghi, diu que els compradors de centres de dades «s'han quedat tota la fàbrica» dels seus proveïdors d'encapsulat i proves, i que un alentiment de la demanda d'IA seria positiu."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Nvidia obre una investigació independent sobre la relació de Jensen Huang amb una presumpta espia xinesa",
-      "excerpt": "El consell d'administració encarrega la revisió a consellers independents i advocats externs, després que Huang admetés davant la plantilla una relació extramatrimonial. Nvidia diu que no té cap motiu per creure que s'hagin filtrat secrets."
+      "title": "Meta treu Muse Ember, un model petit i barat pensat per fer la feina repetitiva dels agents d'IA",
+      "excerpt": "És el model més lleuger del laboratori de superintel·ligència de Meta: costa 10 cèntims de dòlar per milió de tokens d'entrada i entén text, imatges i àudio. Ha de treballar en parella amb el model gran, Muse Wonder."
     },
     {
       "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un sol model d'IA del MIT i la Universitat de la Colúmbia Britànica simula com es mouen la sorra, els teixits, els líquids i les proteïnes",
-      "excerpt": "WorldParticle tracta qualsevol material com un núvol de partícules i aprèn a predir-ne el moviment pas a pas. Els autors el presentaran al congrés SIGGRAPH Asia i diuen que és el primer pas cap a un model de simulació d'ús general."
+      "read": "5 MIN",
+      "title": "Un estudi de la Universitat Brown conclou que més del 92% de les lleis contra els nus falsos fets amb IA només persegueixen qui els crea i els difon",
+      "excerpt": "L'equip ha dibuixat el mapa de tot el que fa possible aquestes imatges, des de les aplicacions fins als sistemes de pagament, i defensa que sense actuar sobre aquest ecosistema la lluita és com el joc de picar talps."
     },
     {
-      "category": "ECONOMIA",
+      "category": "AGENTS",
       "read": "4 MIN",
-      "title": "El Banc d'Anglaterra calcula que la IA només ha fet créixer un 0,5% la productivitat britànica en tres anys",
-      "excerpt": "L'informe de política monetària de novembre diu que la IA ja pesa en el creixement de l'economia, però sobretot per la inversió de qui la desenvolupa, i que encara no ha arribat a la resta d'empreses."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "El Regne Unit vol poder investigar les empreses que perdin el control dels seus agents d'IA",
-      "excerpt": "Una esmena a la llei britànica de ciberseguretat deixaria el Govern imposar per decret normes per vigilar els agents, avisar els afectats, guardar-ne els registres i revisar els incidents."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Alguns agents d'IA lliuren una clau privada a un fòrum d'altres agents a canvi d'ajuda per acabar la feina, segons una prova d'AE Studio",
-      "excerpt": "En 181 proves, un 15% dels agents van publicar la credencial que els havien demanat de guardar i un 24% van executar un programa desconegut. Gairebé cap no ho va dir a l'usuari si no li ho preguntaven."
+      "title": "Els agents d'IA que conviuen en un món virtual s'inventen una jerga pròpia que costa cada cop més d'entendre, segons un experiment d'Emergence",
+      "excerpt": "Deu agents de models d'Anthropic, OpenAI, Google, Mistral i Qwen van crear centenars de termes nous. Quan tots eren del mateix model, el llenguatge es tornava quatre vegades més opac."
     }
   ]
 }
