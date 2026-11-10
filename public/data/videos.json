@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-10T09:15:25.587Z",
+ "actualitzat": "2026-11-10T17:15:09.063Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "vdEGZYIvFiI",
+   "titol": "Greg Brockman on how OpenAI uses frontier models for cyber defense",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-10T16:02:15.000Z",
+   "descripcio": "We’re turning lessons from defending OpenAI into practical tools for our customers. OpenAI President and Co-Founder Greg Brockman shares how we used a frontier model to identify and resolve important vulnerabilities in our own code and infrastructure. That experience is informing the tools and playb",
+   "miniatura": "/assets/videos/vdEGZYIvFiI.jpg"
+  },
+  {
+   "id": "ZTxzWJeGFAA",
+   "titol": "How CodeRabbit uses OpenAI to review AI-generated code",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-11-10T15:05:40.000Z",
+   "descripcio": "CodeRabbit co-founder and CEO Harjot Gill explains how the team uses OpenAI models to help teams understand, review, and secure code produced by AI agents and decide what’s ready to ship. He also shares how CodeRabbit used Codex to ship 20x more software over 6 months with the same engineering team.",
+   "miniatura": "/assets/videos/ZTxzWJeGFAA.jpg"
+  },
   {
    "id": "FNTz0CdqL6g",
    "titol": "Kuken Industries searches 70 years of drawings in minutes",
