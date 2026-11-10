@@ -1,18 +1,84 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-09T23:36:37.170Z",
+ "actualitzat": "2026-11-10T05:15:09.790Z",
  "fonts": 44,
  "articles": [
   {
-   "id": "2e977c748a64",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
+   "id": "7461afa1bbbc",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Crisis de gobernanza para uno de los líderes de la IA",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-10/crisis-de-gobernanza-para-uno-de-los-lideres-de-la-ia.html",
+   "publicat": "2026-11-10T04:40:00.000Z"
+  },
+  {
+   "id": "3e14e0ea6ce3",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Así logró China engañar al empresario más poderoso de la IA con una operación de seducción",
+   "url": "https://elpais.com/tecnologia/2026-11-10/asi-logro-china-enganar-al-empresario-mas-poderoso-de-la-ia-con-una-operacion-de-seduccion.html",
+   "publicat": "2026-11-10T04:30:01.000Z"
+  },
+  {
+   "id": "c9bddf0237d0",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Nvidia cau en Borsa per la relació del seu CEO amb una presumpta espia xinesa",
-   "url": "https://www.regio7.cat/arreu-catalunya-espanya-mon/2026/11/10/nvidia-cau-borsa-per-relacio-136268462.html",
-   "publicat": "2026-11-09T23:22:44.000Z"
+   "titol": "El motor que ningú pot apagar: per què Silicon Valley lluita per la IA xinesa",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/motor-ningu-pot-apagar-silicon-valley-lluita-ia-xinesa_1722365_102.html",
+   "publicat": "2026-11-10T04:30:00.000Z"
+  },
+  {
+   "id": "308f07ee25ff",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los analistas advierten del riesgo para Nvidia por el caso Huang: “Él es la compañía, mueve personalmente los hilos”",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-10/los-analistas-advierten-del-riesgo-para-nvidia-por-el-caso-huang-el-es-la-compania-mueve-personalmente-los-hilos.html",
+   "publicat": "2026-11-10T04:25:00.000Z"
+  },
+  {
+   "id": "b1516865ef1a",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic lanza Claude Fable 5.2 cinco meses después de pedir una \"pausa en la frontera de la IA\"",
+   "url": "https://www.elmundo.es/tecnologia/creadores/2026/11/10/6af26c6afc6c834a288b4595.html",
+   "publicat": "2026-11-10T01:01:12.000Z"
+  },
+  {
+   "id": "2198116c3e54",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Maria Salamero: «La IA no sustituirá a la ingeniería, sino que potenciará aún más la buena ingeniería»",
+   "url": "https://www.elperiodico.com/es/sociedad/20261110/maria-salamero-ia-sustituira-ingenieria-bc-135997057",
+   "publicat": "2026-11-10T00:59:06.000Z"
+  },
+  {
+   "id": "7cafee615ac6",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Condenan a un menor por desnudar con IA a catorce compañeras y difundirlo por redes sociales",
+   "url": "https://www.lasprovincias.es/sucesos/condenan-menor-desnudar-ia-catorce-companeras-difundirlo-20261109011454-nt.html",
+   "publicat": "2026-11-10T00:14:54.000Z"
   },
   {
    "id": "8b167522416f",
@@ -45,6 +111,17 @@
    "ambit": "catala",
    "titol": "L’afer extramatrimonial fa saltar les alarmes en el món de la IA",
    "url": "https://www.elperiodico.cat/internacional/20261110/l-afer-extramatrimonial-fa-saltar-136268143",
+   "publicat": "2026-11-09T22:22:44.000Z"
+  },
+  {
+   "id": "de36f73d78df",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia cau en Borsa per la relació del seu CEO amb una presumpta espia xinesa",
+   "url": "https://www.elperiodico.cat/internacional/20261110/nvidia-cau-borsa-per-relacio-136268141",
    "publicat": "2026-11-09T22:22:44.000Z"
   },
   {
@@ -1675,6 +1752,17 @@
    "publicat": "2026-11-06T07:47:43.000Z"
   },
   {
+   "id": "a2130887ab92",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Demandan a Google en EEUU por permitir que su IA ayudara a una niña de 13 años a planear su suicidio y su funeral",
+   "url": "https://www.elmundo.es/tecnologia/2026/11/06/6aed78bbfdddff761f8b4583.html",
+   "publicat": "2026-11-06T06:50:38.000Z"
+  },
+  {
    "id": "16749177c62a",
    "mitja": "Diario de Mallorca",
    "font": "diariodemallorca-totes",
@@ -2240,6 +2328,17 @@
    "publicat": "2026-11-04T21:25:54.000Z"
   },
   {
+   "id": "4cac4b399612",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "En la F1, la inteligencia tiene techo",
+   "url": "https://www.elmundo.es/tecnologia/2026/11/04/6aeb9c2521efa05d408b4578.html",
+   "publicat": "2026-11-04T20:57:22.000Z"
+  },
+  {
    "id": "a6b37fe6ea5a",
    "mitja": "Última Hora",
    "font": "ultimahora-totes",
@@ -2667,105 +2766,6 @@
    "titol": "Anthropic avisa abans de sortir a borsa: llançarà una IA que es construeix a si mateixa",
    "url": "https://www.elnacional.cat/ca/tecnologia/anthropic-avisa-abans-seva-sortida-borsa-podria-llancar-imminentment-ia-es-construeix-si-mateixa_1720137_102.html",
    "publicat": "2026-11-03T20:50:00.000Z"
-  },
-  {
-   "id": "0571f96db2ef",
-   "mitja": "À Punt",
-   "font": "apunt",
-   "icona": "/assets/premsa/a-punt.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "03.11.2026 | Notícies de la setmana i IA aplicada a la gestió esportiva amb Pablo Sala",
-   "url": "https://www.apuntmedia.es/programes/esportbase/entrevista/03-11-2026-noticies-setmana-ia-aplicada-gestio-esportiva-pablo-sala_135_1906441.html",
-   "publicat": "2026-11-03T20:00:00.000Z"
-  },
-  {
-   "id": "f49ed766f2dd",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "De la IA a la política energética: las nuevas fronteras de la seguridad en Europa",
-   "url": "https://elpais.com/internacional/2026-11-03/de-la-ia-a-la-politica-energetica-las-nuevas-fronteras-de-la-seguridad-en-europa.html",
-   "publicat": "2026-11-03T19:37:51.000Z"
-  },
-  {
-   "id": "77b5c06eee49",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Hernández de Cos advierte de un desplome bursátil por la IA y señala que los niveles de cotización de las tecnológicas son \"muy elevados\"",
-   "url": "https://www.elperiodico.com/es/economia/20261103/hernandez-cos-advierte-riesgos-ia-136051503",
-   "publicat": "2026-11-03T18:00:23.000Z"
-  },
-  {
-   "id": "a81112c1778f",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Hernández de Cos advierte de los riesgos de la IA y su dificultad en los bancos centrales",
-   "url": "https://www.levante-emv.com/economia/2026/11/03/hernandez-cos-advierte-riesgos-ia-136051498.html",
-   "publicat": "2026-11-03T18:00:23.000Z"
-  },
-  {
-   "id": "66114df9c82a",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La plataforma de videojuegos indie itch.io elimina 2TB de contenidos \"basura\" generado con IA",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/03/2742371/plataforma-videojuegos-indie-itch-elimina-2tb-contenidos-basura-generado-ia.html",
-   "publicat": "2026-11-03T16:40:00.000Z"
-  },
-  {
-   "id": "75e012840e75",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Alcoy - El Comtat | CEEI Alcoi-Valencia reúne a Durplastics y Patatas Lázaro: analizan cómo la IA transforma las decisiones empresariales",
-   "url": "https://alicanteplaza.es/alicanteplaza/alcoy-el-comtat/ceei-alcoi-valencia-reune-a-durplastics-y-patatas-lazaro-analizan-como-la-ia-transforma-las-decisiones-empresariales",
-   "publicat": "2026-11-03T16:37:20.000Z"
-  },
-  {
-   "id": "7183d7836a1a",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Deutsche Bank no ve una “eliminación generalizada de empleos” por la IA, pero advierte de un cambio en la demanda laboral",
-   "url": "https://www.elperiodico.com/es/economia/20261103/deutsche-bank-descarta-eliminacion-empleo-ia-136042243",
-   "publicat": "2026-11-03T16:00:39.000Z"
-  },
-  {
-   "id": "18856ceeae46",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Menos frecuencias, más control e IA: medidas para reforzar la seguridad ferroviaria",
-   "url": "https://www.diaridetarragona.com/espana/274769/frecuencias-control-e-ia-medidas-reforzar-seguridad-ferroviaria.html",
-   "publicat": "2026-11-03T15:00:26.000Z"
-  },
-  {
-   "id": "02c9122fd492",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "De Cos avisa de los riesgos de la IA y su dificultad para los bancos centrales",
-   "url": "https://www.lavanguardia.com/economia/20261103/11675091/cos-avisa-riesgos-ia-dificultad-bancos-centrales.html",
-   "publicat": "2026-11-03T14:08:31.000Z"
   }
  ]
 }
