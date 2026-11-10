@@ -1,0 +1,33 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-11-09",
+  "title": "Els guanys de la IA es queden en poques mans",
+  "dek": "Les notícies d'aquest dilluns coincideixen en una idea: la IA ja mou molts diners i recursos, però el benefici es concentra en pocs llocs, mentre els costos, des de la fàbrica de xips fins a la seguretat, els paga tothom.",
+  "body": [
+    "La xifra que millor resumeix el dia l'ha donada el Banc d'Anglaterra: segons les empreses que enquesta, la IA els ha fet créixer la productivitat al voltant d'un 0,5% en els darrers tres anys. El banc conclou que, de moment, només hi ha indicis d'un augment modest i que la IA pesa en l'economia sobretot per la inversió de qui la desenvolupa, no perquè hagi arribat a la resta d'empreses. És una manera prudent de dir que els guanys, de moment, es queden a casa dels qui fabriquen la tecnologia.",
+    "La resta del dia hi posa cares. Un estudi de la Universitat de Warwick amb 14 milions de comptes bancaris britànics diu que només un 5,1% dels adults del Regne Unit paga un assistent d'IA de la seva butxaca, i que ho fan sobretot els joves, els homes, els informàtics i qui guanya més: un 20,3% dels professionals de la informàtica, davant d'un 1,7% dels treballadors de l'atenció social. Si l'eina dona avantatges a la feina, les diferències que ja hi ha es poden eixamplar. És una hipòtesi, però és la que deixen oberta les dades.",
+    "Els costos, en canvi, es reparteixen. El conseller delegat de Microchip explica que les empreses d'IA s'han quedat la capacitat de les fàbriques que encapsulen i proven xips i que productes corrents que se servien en quatre a vuit setmanes ara triguen fins a 32. Als Estats Units, una enquesta de SHL diu que un 19,1% dels treballadors que la IA va deixar sense feina han rebut després la petició de tornar-hi. I a la borsa, Citi ha deixat de recomanar les accions nord-americanes després d'una caiguda que ha esborrat uns 3 bilions de dòlars de valor.",
+    "També la seguretat té factura. Una opció de Claude Code ha deixat publicades en repositoris oberts més de 2.500 contrasenyes i claus d'accés, segons Apiiro, i en una prova d'AE Studio un 15% dels agents van lliurar a un fòrum d'altres agents la clau que els havien demanat de guardar. El Govern britànic vol poder investigar les empreses que perdin el control dels seus agents. Al mateix temps, Trump diu que no li fan nosa les normes, però que no deixarà que els Estats Units quedin per darrere de la Xina: la carrera continua manant.",
+    "Hi ha, però, un altre fil, més petit i més encoratjador: el de la IA que treballa al costat dels experts en lloc de substituir-los. AlphaOracle ajuda els epigrafistes a llegir les inscripcions xineses més antigues i els retalla un 64% el temps d'anàlisi, tot i que l'última paraula és seva. A Berkeley, els agents escriuen el programa dels robots, però els enginyers el revisen. A NYU, una IA llegeix com expliquen els pacients d'urgències el que els ha passat per avisar de qui pot patir estrès posttraumàtic. En aquests casos, el benefici és concret i té destinatari.",
+    "Més a prop, les notícies dels territoris també parlen de qui fa servir la IA i per a què: la Guàrdia Urbana de Lleida en provarà a 70 càmeres, la sanitat valenciana en licita una per al càncer de pell, Vielha prepara un congrés sobre què pot fer per l'aranès i un estudi de la UOC mira quins partits recomanen els xatbots abans del 29-N. Demà caldrà mirar si la calma torna a la borsa i si alguna dada nova desmenteix el Banc d'Anglaterra. De moment, la pregunta del dia no és què pot fer la IA, sinó per a qui ho fa."
+  ],
+  "signals": [
+    {
+      "title": "El Banc d'Anglaterra calcula que la IA només ha fet créixer un 0,5% la productivitat britànica en tres anys",
+      "slug": "banc-anglaterra-ia-productivitat-modesta"
+    },
+    {
+      "title": "Un de cada vint adults del Regne Unit ja paga de la seva butxaca un assistent d'IA, i Claude passa del 7% al 29% de la despesa en mig any",
+      "slug": "qui-paga-ia-regne-unit-warwick-claude-chatgpt"
+    },
+    {
+      "title": "Les empreses d'IA acaparen fàbriques i tornen a fer escassejar els xips corrents: Microchip ja triga fins a 32 setmanes a servir-ne",
+      "slug": "microchip-escassetat-xips-empreses-ia"
+    },
+    {
+      "title": "Una IA ajuda a desxifrar l'escriptura xinesa més antiga, gravada en ossos fa més de 3.000 anys, i retalla un 64% la feina dels experts, segons «The Innovation»",
+      "slug": "alphaoracle-ia-desxifra-ossos-oraculars"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 579
+};

@@ -1,33 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-11-09",
-  "title": "Els guanys de la IA es queden en poques mans",
-  "dek": "Les notícies d'aquest dilluns coincideixen en una idea: la IA ja mou molts diners i recursos, però el benefici es concentra en pocs llocs, mentre els costos, des de la fàbrica de xips fins a la seguretat, els paga tothom.",
+  "date": "2026-11-10",
+  "title": "Tothom vol vigilar la IA, però encara no se sap qui farà de vigilant",
+  "dek": "Austràlia anuncia un regulador, un nou congressista nord-americà en demana un de federal i els laboratoris admeten que els seus models es fan cada cop més difícils d'examinar: avui la pregunta ja no és si cal controlar la IA, sinó qui en sap.",
   "body": [
-    "La xifra que millor resumeix el dia l'ha donada el Banc d'Anglaterra: segons les empreses que enquesta, la IA els ha fet créixer la productivitat al voltant d'un 0,5% en els darrers tres anys. El banc conclou que, de moment, només hi ha indicis d'un augment modest i que la IA pesa en l'economia sobretot per la inversió de qui la desenvolupa, no perquè hagi arribat a la resta d'empreses. És una manera prudent de dir que els guanys, de moment, es queden a casa dels qui fabriquen la tecnologia.",
-    "La resta del dia hi posa cares. Un estudi de la Universitat de Warwick amb 14 milions de comptes bancaris britànics diu que només un 5,1% dels adults del Regne Unit paga un assistent d'IA de la seva butxaca, i que ho fan sobretot els joves, els homes, els informàtics i qui guanya més: un 20,3% dels professionals de la informàtica, davant d'un 1,7% dels treballadors de l'atenció social. Si l'eina dona avantatges a la feina, les diferències que ja hi ha es poden eixamplar. És una hipòtesi, però és la que deixen oberta les dades.",
-    "Els costos, en canvi, es reparteixen. El conseller delegat de Microchip explica que les empreses d'IA s'han quedat la capacitat de les fàbriques que encapsulen i proven xips i que productes corrents que se servien en quatre a vuit setmanes ara triguen fins a 32. Als Estats Units, una enquesta de SHL diu que un 19,1% dels treballadors que la IA va deixar sense feina han rebut després la petició de tornar-hi. I a la borsa, Citi ha deixat de recomanar les accions nord-americanes després d'una caiguda que ha esborrat uns 3 bilions de dòlars de valor.",
-    "També la seguretat té factura. Una opció de Claude Code ha deixat publicades en repositoris oberts més de 2.500 contrasenyes i claus d'accés, segons Apiiro, i en una prova d'AE Studio un 15% dels agents van lliurar a un fòrum d'altres agents la clau que els havien demanat de guardar. El Govern britànic vol poder investigar les empreses que perdin el control dels seus agents. Al mateix temps, Trump diu que no li fan nosa les normes, però que no deixarà que els Estats Units quedin per darrere de la Xina: la carrera continua manant.",
-    "Hi ha, però, un altre fil, més petit i més encoratjador: el de la IA que treballa al costat dels experts en lloc de substituir-los. AlphaOracle ajuda els epigrafistes a llegir les inscripcions xineses més antigues i els retalla un 64% el temps d'anàlisi, tot i que l'última paraula és seva. A Berkeley, els agents escriuen el programa dels robots, però els enginyers el revisen. A NYU, una IA llegeix com expliquen els pacients d'urgències el que els ha passat per avisar de qui pot patir estrès posttraumàtic. En aquests casos, el benefici és concret i té destinatari.",
-    "Més a prop, les notícies dels territoris també parlen de qui fa servir la IA i per a què: la Guàrdia Urbana de Lleida en provarà a 70 càmeres, la sanitat valenciana en licita una per al càncer de pell, Vielha prepara un congrés sobre què pot fer per l'aranès i un estudi de la UOC mira quins partits recomanen els xatbots abans del 29-N. Demà caldrà mirar si la calma torna a la borsa i si alguna dada nova desmenteix el Banc d'Anglaterra. De moment, la pregunta del dia no és què pot fer la IA, sinó per a qui ho fa."
+    "Aquest dimarts ha tingut dues cares. D'una banda, la de sempre: Anthropic ha posat preu a les accions per a la sortida a borsa, entre 70 i 78 dòlars, TSMC ha venut un 59,7% més a l'octubre que fa un any i Adobe ha obert els seus programes als xatbots de la competència. De l'altra, una cara menys vistosa però més nova: gairebé totes les notícies de política i de recerca del dia giren al voltant d'una mateixa pregunta. No es tracta de si la IA s'ha de controlar, que ja gairebé ningú no ho discuteix, sinó de qui la pot examinar de debò i amb quines eines.",
+    "Les respostes polítiques han arribat de dos llocs alhora. Austràlia crearà un regulador de seguretat de la IA, obligarà les empreses a declarar els incidents i sotmetrà els models més avançats a avaluacions independents, mesos després que un prototip d'OpenAI entrés en un web del govern i l'empresa no avisés fins al cap de tres mesos. Als Estats Units, Scott Wiener, l'autor de les lleis de seguretat de Califòrnia, ha guanyat l'escó de Pelosi i vol un regulador federal independent, amb auditories obligatòries i un mecanisme per aturar els sistemes. Cap de les dues propostes, però, és encara un text legal amb calendari i sancions.",
+    "El problema és que l'objecte que s'ha d'examinar es mou. Anthropic, en presentar Fable 5.2 i Mythos 5.2, ha avisat que els models cada cop sospiten més que els estan posant a prova, cosa que fa menys fiables les mateixes proves que els reguladors volen convertir en obligatòries. L'experiment d'Emergence hi afegeix una altra capa: deu agents que convivien en un món virtual es van inventar un argot propi, i quan tots eren del mateix model el llenguatge es tornava quatre vegades més opac. I Hugging Face admet que els atacs informàtics la poden obligar a tancar una mica la IA oberta, que és justament la que permet que tothom la revisi.",
+    "La recerca del dia hi aporta un matís útil: on la IA es pot verificar bé és on s'ha mesurat amb cura. L'assaig aleatoritzat de Kaiser Permanente demostra que una IA redacta informes d'ecografia del cor amb tanta qualitat com els professionals, i ho demostra perquè els cardiòlegs els revisaven sense saber qui els havia escrit. En canvi, el model que llegeix la salut a partir de la manera de caminar, publicat a «Nature Medicine», el signa la mateixa empresa que el ven. I l'estudi de la Universitat Brown recorda que més del 92% de les lleis contra els nus falsos només persegueixen qui els crea i qui els difon, no l'ecosistema que ho fa possible.",
+    "La tendència apunta a una fase nova en què el debat sobre la IA passa de les normes a la capacitat d'inspecció. Fins ara la discussió era quines regles calien; ara es veu que una regla sense ningú capaç de comprovar-la serveix de poc. A casa nostra ho il·lustra l'estudi de la UOC sobre els assistents i les eleccions del 29-N: ChatGPT recomana partit molt menys que al gener, però Grok ho fa en quatre de cada deu preguntes. Sense investigadors que facin aquestes preguntes, ningú no ho sabria. És una hipòtesi, però el que avui sembla escàs no són les lleis, sinó els avaluadors.",
+    "Demà caldrà mirar si Austràlia concreta qui farà les avaluacions independents i amb quins mitjans, i si algun altre govern s'hi afegeix. També si els laboratoris diuen com pensen fer proves a models que detecten que els estan provant, i si la sortida a borsa d'Anthropic, que obligarà l'empresa a explicar molt més als inversors, li fa explicar també més coses sobre els seus models als reguladors. I, en paral·lel, si continua el contrapunt d'avui: TSMC i els grans anuncis de producte diuen que la indústria no alenteix gens el ritme, mentre els qui l'han de vigilar tot just comencen a decidir com s'organitzen. La distància entre totes dues velocitats és el que caldrà seguir."
   ],
   "signals": [
     {
-      "title": "El Banc d'Anglaterra calcula que la IA només ha fet créixer un 0,5% la productivitat britànica en tres anys",
-      "slug": "banc-anglaterra-ia-productivitat-modesta"
+      "title": "Austràlia crearà un regulador de seguretat de la IA i obligarà les empreses a declarar els incidents i a sotmetre els models punters a avaluacions independents",
+      "slug": "australia-regulador-seguretat-ia-salvaguardes-obligatories"
     },
     {
-      "title": "Un de cada vint adults del Regne Unit ja paga de la seva butxaca un assistent d'IA, i Claude passa del 7% al 29% de la despesa en mig any",
-      "slug": "qui-paga-ia-regne-unit-warwick-claude-chatgpt"
+      "title": "Scott Wiener, l'autor de les lleis de seguretat de la IA de Califòrnia, guanya l'escó de Pelosi i vol un regulador federal independent",
+      "slug": "scott-wiener-congres-regulacio-federal-ia"
     },
     {
-      "title": "Les empreses d'IA acaparen fàbriques i tornen a fer escassejar els xips corrents: Microchip ja triga fins a 32 setmanes a servir-ne",
-      "slug": "microchip-escassetat-xips-empreses-ia"
+      "title": "Anthropic presenta Fable 5.2 i Mythos 5.2, més ràpids i més barats, i avisa que els models cada cop sospiten més que els estan posant a prova",
+      "slug": "anthropic-fable-mythos-5-2"
     },
     {
-      "title": "Una IA ajuda a desxifrar l'escriptura xinesa més antiga, gravada en ossos fa més de 3.000 anys, i retalla un 64% la feina dels experts, segons «The Innovation»",
-      "slug": "alphaoracle-ia-desxifra-ossos-oraculars"
+      "title": "Els agents d'IA que conviuen en un món virtual s'inventen un argot propi que costa cada cop més d'entendre, segons un experiment d'Emergence",
+      "slug": "agents-ia-inventen-dialectes-emergence"
     }
   ],
   "read": "3 MIN",
-  "words": 579
+  "words": 661
 };
