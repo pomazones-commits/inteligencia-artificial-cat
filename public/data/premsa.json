@@ -1,8 +1,195 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-10T09:15:27.273Z",
+ "actualitzat": "2026-11-10T13:03:36.345Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e7c55f2419e5",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La factura de la IA abre un agujero de 4.330 millones en el gigante SoftBank",
+   "url": "https://www.eldiario.es/tecnologia/factura-ia-abre-agujero-4-330-millones-gigante-softbank_1_13652362.html",
+   "publicat": "2026-11-10T12:58:06.000Z"
+  },
+  {
+   "id": "390261dd5b94",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic busca recaudar hasta 90.400 millones de dólares en su histórica salida a Bolsa",
+   "url": "https://cincodias.elpais.com/companias/2026-11-10/anthropic-busca-recaudar-hasta-90400-millones-de-dolares-en-su-historica-salida-a-bolsa.html",
+   "publicat": "2026-11-10T12:57:43.000Z"
+  },
+  {
+   "id": "477e64306893",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic aspira a una valoración de 1,4 billones en su salida a bolsa",
+   "url": "https://www.lavanguardia.com/dinero/20261110/11680835/anthropic-salida-bolsa-opv-ipo-acciones.html",
+   "publicat": "2026-11-10T12:48:36.000Z"
+  },
+  {
+   "id": "56e5d49b1433",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Habla uno de los científicos que inspiró a Open AI para resolver el 'problema del milenio': \"La solución a la falta de matemáticos es pagar más a los profesores\"",
+   "url": "https://www.elperiodico.com/es/sociedad/20261110/habla-cientificos-inspiro-open-ai-136274359",
+   "publicat": "2026-11-10T12:47:56.000Z"
+  },
+  {
+   "id": "983d4196e4e6",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic fija en un rango de entre 70 y 78 dólares el precio de sus acciones para salir a Bolsa",
+   "url": "https://www.diariodemallorca.es/sociedad/2026/11/10/anthropic-fija-rango-70-78-136287186.html",
+   "publicat": "2026-11-10T12:45:50.000Z"
+  },
+  {
+   "id": "febd7d571c5f",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Els xatbots no recomanen cap partit en el 90% de consultes del 29N",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/xatbots-no-recomanen-cap-partit-en-90-consultes-29n_1723400_102.html",
+   "publicat": "2026-11-10T12:30:23.000Z"
+  },
+  {
+   "id": "be6069a62087",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una IA permite detectar enfermedades renales hereditarias que tardan hasta siete años en diagnosticarse",
+   "url": "https://www.elperiodico.com/es/salud/20261110/inteligencia-artificial-permite-detectar-enfermedades-renales-siete-anos-diagnostico-136284717",
+   "publicat": "2026-11-10T12:21:16.000Z"
+  },
+  {
+   "id": "53d08cb23b0d",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cómo la relación del CEO de Nvidia con una presunta espía se saltó las restricciones y facilitó envíos de chips a China",
+   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/10/2746915/como-relacion-del-ceo-nvidia-una-presunta-espia-salto-restricciones-facilito-envios-chips-china.html",
+   "publicat": "2026-11-10T11:42:00.000Z"
+  },
+  {
+   "id": "7ce41889c7e4",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Trump diu que l’FBI investiga el cas d’espionatge de l’amant del fundador de Nvidia",
+   "url": "https://www.vilaweb.cat/noticies/trump-diu-que-lfbi-investiga-el-cas-despionatge-de-lamant-del-fundador-de-nvidia",
+   "publicat": "2026-11-10T11:41:51.000Z"
+  },
+  {
+   "id": "ec8b2b1f5d11",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Apple comença a cobrar per funcions ampliades d'IA: un \"paquet d'ús intel·ligent\" per 49,99 dòlars",
+   "url": "https://www.elnacional.cat/ca/tecnologia/apple-comenca-cobrar-funcions-ampliades-ia-paquet-us-intelligent-4999-dolars_1723349_102.html",
+   "publicat": "2026-11-10T11:40:00.000Z"
+  },
+  {
+   "id": "ccbea323d7fb",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Charles Stross, escritor: \"En el sector de la IA hay gente muy tóxica que ha llegado muy alto\"",
+   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261110/ia-gente-toxica-expedientes-lavanderia-james-bond-lovecraft-charles-stross-136214631",
+   "publicat": "2026-11-10T11:11:55.000Z"
+  },
+  {
+   "id": "b413efed7d33",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El uso de la IA en los ciberataques está reduciendo el tiempo de respuesta casi a cero",
+   "url": "https://www.lavanguardia.com/vida/20261110/11680712/ia-ciberataques-esta-reduciendo-respuesta-cero.html",
+   "publicat": "2026-11-10T11:05:32.000Z"
+  },
+  {
+   "id": "72f7056832e1",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un hombre destripa a su sobrino de 5 años para vender sus órganos, al dictado de la IA",
+   "url": "https://www.lavanguardia.com/vida/20261110/11680514/hombre-destripa-sobrino-5-anos-vender-organos-dictado-ia.html",
+   "publicat": "2026-11-10T10:30:08.000Z"
+  },
+  {
+   "id": "2610c655c76c",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Instagram Edits presenta Effect Builder, su nueva función para generar filtros personalizados para historias con IA",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/10/2746809/instagram-edits-presenta-effect-builder-nueva-funcion-para-generar-filtros-personalizados-para-historias-ia.html",
+   "publicat": "2026-11-10T09:57:00.000Z"
+  },
+  {
+   "id": "61dc540fa207",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Angels, la sociedad de inversión de Juan Roig, lidera una ronda de Ploot, especializada en IA comercial",
+   "url": "https://cincodias.elpais.com/companias/2026-11-10/angels-la-sociedad-de-inversion-de-juan-roig-lidera-una-ronda-de-ploot-especializada-en-ia-comercial.html",
+   "publicat": "2026-11-10T09:51:40.000Z"
+  },
+  {
+   "id": "3c144c53935c",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "China logra ya un superávit comercial de un billón con la IA como protagonista",
+   "url": "https://www.lavanguardia.com/economia/20261110/11680609/china-logra-superavit-comercial-billon-ia-protagonista.html",
+   "publicat": "2026-11-10T09:40:11.000Z"
+  },
+  {
+   "id": "c243fa559e50",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Les vendes de TSMC van créixer un 60% a l'octubre per la forta demanda de xips d'IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/vendes-tsmc-van-creixer-60-octubre-forta-demanda-xips-ia_1723184_102.html",
+   "publicat": "2026-11-10T09:25:11.000Z"
+  },
   {
    "id": "d6fe9d567383",
    "mitja": "Cinco Días",
@@ -45,7 +232,7 @@
    "ambit": "catala",
    "titol": "Trump defensa el director de Nvidia per la presumpta espia xinesa i promet indagar",
    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/trump-defensa-director-nvidia-presumpta-espia-xinesa-promet-indagar_1723109_102.html",
-   "publicat": "2026-11-10T07:22:16.000Z"
+   "publicat": "2026-11-10T07:22:00.000Z"
   },
   {
    "id": "26df388ea0a1",
@@ -98,7 +285,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Los analistas advierten del riesgo para Nvidia por el caso Huang: “Él es la compañía, mueve personalmente los hilos”",
+   "titol": "Los analistas advierten del riesgo para Nvidia por el ‘caso Huang’: “Él es la compañía, mueve personalmente los hilos”",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-10/los-analistas-advierten-del-riesgo-para-nvidia-por-el-caso-huang-el-es-la-compania-mueve-personalmente-los-hilos.html",
    "publicat": "2026-11-10T04:25:00.000Z"
   },
@@ -2579,193 +2766,6 @@
    "titol": "La intel·ligència artificial i el futur de la cardiologia, protagonistes d’una conferència a Cardona",
    "url": "https://www.regio7.cat/bages/2026/11/04/intelligencia-artificial-futur-cardiologia-protagonistes-136075549.html",
    "publicat": "2026-11-04T11:59:59.000Z"
-  },
-  {
-   "id": "e651dc40c6a7",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Netflix tiene una nueva herramienta de recomendación que usa la IA para acotar la búsqueda en base a temas",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/04/2742879/netflix-tiene-nueva-herramienta-recomendacion-usa-para-acotar-busqueda-base-temas.html",
-   "publicat": "2026-11-04T11:24:00.000Z"
-  },
-  {
-   "id": "4ac2bdeb5cfb",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La ola azul pone en cuarentena el auge de la IA en los mercados",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-04/la-ola-azul-pone-en-cuarentena-el-auge-de-la-ia-en-los-mercados-y-anade-volatilidad.html",
-   "publicat": "2026-11-04T11:21:48.000Z"
-  },
-  {
-   "id": "76ffd9122789",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Google desactivará su experiencia de búsqueda para las escuelas que decidan no utilizar sus funciones de IA de Gemini",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/04/2742757/google-desactivara-experiencia-busqueda-para-escuelas-decidan-utilizar-funciones-gemini.html",
-   "publicat": "2026-11-04T09:24:00.000Z"
-  },
-  {
-   "id": "df6e2de2ecc8",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Y si la IA te hiciera la mitad del trabajo pesado? Una masterclass para empezar sin complejos",
-   "url": "https://www.lavanguardia.com/vida/20261104/11674848/ia-te-hiciera-mitad-trabajo-pesado-masterclass-empezar-complejos.html",
-   "publicat": "2026-11-04T08:45:42.000Z"
-  },
-  {
-   "id": "e4285673af86",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tus publicaciones en redes sociales pueden convertirse en el arma perfecta para las estafas de la IA",
-   "url": "https://www.levante-emv.com/tendencias21/2026/11/04/publicaciones-redes-sociales-convertirse-arma-136066208.html",
-   "publicat": "2026-11-04T08:40:34.000Z"
-  },
-  {
-   "id": "e17086d25dc0",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Aquest és el poble a només una hora de Manresa que la intel·ligència artificial recomana per viure-hi",
-   "url": "https://www.regio7.cat/vida-i-estil/2026/11/04/aquest-poble-nomes-hora-manresa-ia-136044085.html",
-   "publicat": "2026-11-04T08:37:21.000Z"
-  },
-  {
-   "id": "e209506717be",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La guerra de Anthropic contra los clones de videojuegos deja víctimas colaterales",
-   "url": "https://www.informacion.es/vida-y-estilo/tecnologia/2026/11/04/guerra-anthropic-clones-videojuegos-deja-136065842.html",
-   "publicat": "2026-11-04T08:29:11.000Z"
-  },
-  {
-   "id": "96c0e46972eb",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Clientes GPT: la inteligencia artificial alimenta la tensión en las consultas con los abogados",
-   "url": "https://cincodias.elpais.com/legal/2026-11-04/clientes-gpt-la-inteligencia-artificial-alimenta-la-tension-en-las-consultas-con-los-abogados.html",
-   "publicat": "2026-11-04T07:30:00.000Z"
-  },
-  {
-   "id": "48740dc2e15b",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La científica que abrió el camino a ChatGPT y Gemini y que casi nadie conoce: el hallazgo de Fei-Fei Li que revolucionó la IA",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261104/11673941/cientifica-abrio-camino-chatgpt-gemini-nadie-conoce-hallazgo-fei-fei-li-revoluciono-ia.html",
-   "publicat": "2026-11-04T06:20:00.000Z"
-  },
-  {
-   "id": "07e1695028a0",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El exministro Joan Subirats: \"La universidad no puede rendirse ante la IA ni convertirse en su policía\"",
-   "url": "https://www.levante-emv.com/comunitat-valenciana/2026/11/04/exministro-joan-subirats-universidad-rendirse-136049347.html",
-   "publicat": "2026-11-04T05:01:11.000Z"
-  },
-  {
-   "id": "559e6c23b58d",
-   "mitja": "Levante-EMV",
-   "font": "levante",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La universidad no puede rendirse ante la IA ni convertirse en su vigilante",
-   "url": "https://www.levante-emv.com/videos/comunitat-valenciana/2026/11/04/universidad-rendirse-ia-convertirse-vigilante-136049405.html",
-   "publicat": "2026-11-04T05:01:10.000Z"
-  },
-  {
-   "id": "12d129a65db8",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA reordena el talento directivo en España",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261104/11669340/ia-reordena-talento-directivo-espana.html",
-   "publicat": "2026-11-04T05:00:00.000Z"
-  },
-  {
-   "id": "9ff7def9f55c",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una gran avenida de Barcelona probará la IA aplicada a los semáforos",
-   "url": "https://www.lavanguardia.com/local/barcelona/20261104/11675365/gran-avenida-barcelona-probara-ia-aplicada-semaforos.html",
-   "publicat": "2026-11-04T05:00:00.000Z"
-  },
-  {
-   "id": "a5e8dcbf4c08",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial también se aprovecha de quienes buscan a sus perros desaparecidos",
-   "url": "https://www.lavanguardia.com/neo/ia/20261104/11669986/inteligencia-artificial-aprovecha-quienes-buscan-perros-desaparecidos.html",
-   "publicat": "2026-11-04T05:00:00.000Z"
-  },
-  {
-   "id": "ce09743b6e8e",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los hackers campan a sus anchas con la IA, sus creadores quieren sacar tajada",
-   "url": "https://www.lavanguardia.com/internacional/20261104/11674995/ia-inteligencia-artificial-ciberataques-hackers.html",
-   "publicat": "2026-11-04T05:00:00.000Z"
-  },
-  {
-   "id": "e44d70205be0",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El delicado corazón de la IA",
-   "url": "https://www.lavanguardia.com/vida/20261104/11675289/delicado-corazon-ia.html",
-   "publicat": "2026-11-04T05:00:00.000Z"
-  },
-  {
-   "id": "d1b4194af0e0",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La inteligencia artificial llega a su momento Napster",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-04/la-inteligencia-artificial-llega-a-su-momento-napster.html",
-   "publicat": "2026-11-04T04:40:00.000Z"
   }
  ]
 }
