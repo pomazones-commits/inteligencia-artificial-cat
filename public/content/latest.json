@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-10T17:14:07.844Z",
+  "updatedAt": "2026-11-11T05:13:24.242Z",
   "items": [
     {
-      "category": "POLÍTICA",
+      "category": "REGULACIÓ",
+      "read": "5 MIN",
+      "title": "Brussel·les vol que es puguin desactivar els xatbots que simulen una relació personal i el desplaçament infinit de les xarxes",
+      "excerpt": "La Comissió Europea presenta avui la llei d'equitat digital, que obligaria les plataformes a deixar apagar les funcions que enganxen i les IA que fingeixen vincles per retenir l'usuari, amb multes de fins al 6% de la facturació mundial."
+    },
+    {
+      "category": "REGULACIÓ",
       "read": "4 MIN",
-      "title": "Austràlia crearà un regulador de seguretat de la IA i obligarà les empreses a declarar els incidents i a sotmetre els models punters a avaluacions independents",
-      "excerpt": "El primer ministre, Anthony Albanese, anuncia salvaguardes «obligatòries» per a les empreses d'IA que treballin al país, mesos després que un prototip d'OpenAI entrés sense permís en un web del govern."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un model d'IA que analitza com caminem en tres dimensions s'associa amb 1.887 indicadors de salut, segons un estudi a «Nature Medicine»",
-      "excerpt": "L'estudi, fet amb 3.328 adults, troba que el moviment ajuda a predir des de la rigidesa del fetge fins a la depressió i la diabetis. La signa l'empresa que ha desenvolupat el sistema i encara cal validar-lo en estudis clínics."
-    },
-    {
-      "category": "XIPS",
-      "read": "3 MIN",
-      "title": "TSMC, el fabricant dels xips d'Nvidia i Apple, ven un 59,7% més a l'octubre i bat el seu rècord mensual",
-      "excerpt": "La foneria taiwanesa va facturar 586.890 milions de dòlars taiwanesos, uns 17.860 milions de dòlars, i en els deu primers mesos de l'any acumula un creixement del 43,3%."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "4 MIN",
-      "title": "Adobe obre Photoshop, Premiere i Illustrator als xatbots d'altres empreses i fa que el seu agent d'IA s'avanci a l'usuari",
-      "excerpt": "A la conferència Adobe MAX, l'empresa presenta un servidor que deixa que ChatGPT, Claude o Gemini facin servir funcions de Creative Cloud, i una eina en proves per fer prototips que competeix amb Figma."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "3 MIN",
-      "title": "Unes gotes de refrigerant embolcallades en oli abaixen 17 graus un punt calent d'un xip en 15 segons, en un sistema pensat per als centres de dades d'IA",
-      "excerpt": "Investigadors de la Universitat de Waterloo combinen la immersió en aigua desionitzada amb gotes d'un líquid que bull a baixa temperatura i van directes a les zones més calentes. De moment només s'ha provat al laboratori."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Anthropic surt a buscar inversors per a la sortida a borsa i posa les accions entre 70 i 78 dòlars",
-      "excerpt": "L'empresa de Claude vol vendre 825 milions d'accions al Nasdaq amb el símbol ANT. Al preu més alt captaria uns 64.000 milions de dòlars i, segons Reuters, quedaria valorada en poc més d'un bilió."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA redacta els informes d'ecografia del cor tan bé com els tècnics i els cardiòlegs, i els metges hi dediquen gairebé la meitat de temps",
-      "excerpt": "És el primer assaig aleatoritzat que posa a prova una IA que escriu l'informe sencer d'un ecocardiograma. Els cardiòlegs van haver de corregir a fons els seus esborranys tan sovint com els fets per persones."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "L'aprenentatge automàtic troba en una enquesta de 23.726 brasilers que la riquesa i l'amuntegament de la llar són el que més prediu les càries",
-      "excerpt": "Un estudi a «Caries Research» aplica diversos algorismes a l'enquesta nacional de salut bucodental del Brasil. Als 12 anys, el 62,5% dels nens sense aigua fluorada tenien càries, davant del 35,5% dels que en tenien."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "4 MIN",
-      "title": "SoftBank perd 1,1 bilions de iens en un trimestre per haver encarregat de més generadors per als centres de dades d'IA als Estats Units",
-      "excerpt": "El principal inversor d'OpenAI apunta unes pèrdues de 597.200 milions de iens, uns 3.700 milions de dòlars, per haver hagut de refer les comandes d'equips elèctrics, i encara hi té 6.600 milions de dòlars en bestretes."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Hugging Face avisa que els atacs informàtics poden obligar a tancar una mica la IA oberta",
-      "excerpt": "La responsable de polítiques de la plataforma, Irene Solaiman, explica que l'obertura que fa valuosa la comunitat també la converteix en un objectiu, i que ja renoven molt més sovint les claus d'administrador."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Google afegeix dos xips d'IA a la seva família TPU: un per treballar amb dades confidencials i un altre de doble per als agents que necessiten molta memòria",
-      "excerpt": "El TPU 8tx aïlla les dades i els models dins del maquinari per a governs i sectors regulats, i el TPU 8i Max ajunta dos xips en un sol paquet. Google diu que el negoci dels TPU ja té gairebé cent clients."
+      "title": "Nova York obre el registre dels grans laboratoris d'IA i els obligarà a declarar els incidents greus en 72 hores",
+      "excerpt": "OpenAI, Anthropic i les altres empreses que facturen més de 500 milions de dòlars l'any s'hi han d'inscriure abans de l'1 de gener, quan entra en vigor la llei RAISE, amb multes de fins a 3 milions per infracció."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Les llars paguen el 62% de la xarxa elèctrica que necessiten els centres de dades als Estats Units, i les més pobres hi poden deixar fins al 28% dels ingressos, segons «Nature Energy»",
-      "excerpt": "Un estudi de la Universitat Cornell sobre quatre grans xarxes elèctriques calcula que el 2025 els residents van assumir 5.130 milions de dòlars de les obres lligades als centres de dades, i que les famílies rurals en surten més perjudicades."
+      "title": "Els contes escrits amb IA són millors quan la idea la posa la persona, i pitjors quan ella només els dona el vistiplau, segons un estudi a «PNAS Nexus»",
+      "excerpt": "Un experiment amb 285 estudiants de la Universitat de Pennsilvània i la de Geòrgia mostra que la IA retalla un 36% el temps d'escriptura, però que deixar-li tot el procés fa baixar la qualitat, la satisfacció i la varietat de les històries."
     },
     {
-      "category": "POLÍTICA",
+      "category": "PRODUCTE",
       "read": "4 MIN",
-      "title": "Scott Wiener, l'autor de les lleis de seguretat de la IA de Califòrnia, guanya l'escó de Pelosi i vol un regulador federal independent",
-      "excerpt": "El nou congressista per San Francisco defensa proves i auditories obligatòries, un botó d'aturada i protecció per als treballadors que denunciïn, i s'oposa que Washington anul·li les lleis dels estats."
+      "title": "Anthropic posa Claude a les videotrucades de feina perquè vagi fent el pla mentre la gent parla",
+      "excerpt": "Claude Meetings entra a les reunions de Google Meet com un participant més, redacta el pla que es discuteix i en deixa les notes i les tasques; l'empresa estrena també unes pissarres i uns fulls de càlcul compartits."
     },
     {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Disney s'alia amb Adobe per tenir models d'IA propis entrenats amb els seus personatges, després d'haver deixat l'acord amb OpenAI",
-      "excerpt": "Adobe farà amb Firefly Foundry models a mida per a les marques de Disney, que els vol fer servir als parcs, als creuers, als estudis i a l'ESPN. No s'han fet públiques les condicions econòmiques."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "3 MIN",
-      "title": "Apple comença a cobrar per la IA: un paquet de 49,99 dòlars per a qui esgoti el límit mensual a Logic Pro",
-      "excerpt": "Els «paquets d'ús d'Intelligence» només es gasten quan s'acaba la quota gratuïta del mes i caduquen al cap d'un any. Fins ara totes les funcions d'Apple Intelligence eren gratuïtes."
-    },
-    {
-      "category": "MODELS",
+      "category": "SOCIETAT",
       "read": "5 MIN",
-      "title": "Anthropic presenta Fable 5.2 i Mythos 5.2, més ràpids i més barats, i avisa que els models cada cop sospiten més que els estan posant a prova",
-      "excerpt": "Els nous models responen fins a un 30% més de pressa, rebaixen el preu d'entrada de 10 a 8 dòlars per milió de tokens i superen Opus 5.5 en programació i ús de l'ordinador. Mythos 5.2 continua reservat a organitzacions verificades."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Un inversor presenta la primera demanda col·lectiva contra Nvidia i Jensen Huang per la relació amb una presumpta espia xinesa",
-      "excerpt": "La demanda, presentada en un tribunal federal de Califòrnia, acusa l'empresa d'haver enganyat els inversors sobre els vincles del conseller delegat amb Megaspeed. L'acció d'Nvidia va caure un 4,3% dilluns."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Meta treu Muse Ember, un model petit i barat pensat per fer la feina repetitiva dels agents d'IA",
-      "excerpt": "És el model més lleuger del laboratori de superintel·ligència de Meta: costa 10 cèntims de dòlar per milió de tokens d'entrada i entén text, imatges i àudio. Ha de treballar en parella amb el model gran, Muse Wonder."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi de la Universitat Brown conclou que més del 92% de les lleis contra els nus falsos fets amb IA només persegueixen qui els crea i els difon",
-      "excerpt": "L'equip ha dibuixat el mapa de tot el que fa possible aquestes imatges, des de les aplicacions fins als sistemes de pagament, i defensa que sense actuar sobre aquest ecosistema la lluita és com el joc de picar talps."
-    },
-    {
-      "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "Els agents d'IA que conviuen en un món virtual s'inventen un argot propi que costa cada cop més d'entendre, segons un experiment d'Emergence",
-      "excerpt": "Deu agents de models d'Anthropic, OpenAI, Google, Mistral i Qwen van crear centenars de termes nous. Quan tots eren del mateix model, el llenguatge es tornava quatre vegades més opac."
+      "title": "L'informe AI100 de Stanford, que es fa cada cinc anys, conclou que la IA ja és d'ús massiu però que encara no es paga ella sola",
+      "excerpt": "Dotze experts, entre ells Peter Norvig i Michael Wooldridge, constaten que la recerca s'accelera, que els riscos que semblaven ciència-ficció comencen a aparèixer i que la ciutadania amb prou feines hi ha tingut veu."
     }
   ]
 }
