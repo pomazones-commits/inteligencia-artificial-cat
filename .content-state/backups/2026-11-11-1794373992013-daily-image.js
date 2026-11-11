@@ -1,0 +1,13 @@
+window.IA_DAILY_IMAGE = {
+  "date": "2026-11-10",
+  "image": "./assets/daily-reflection-2026-11-10.jpg",
+  "alt": "Una pista d'atletisme municipal de nit, sota la llum dels focus: una entrenadora gran amb jaqueta grisa i un cronòmetre penjat al coll fa un estirament de bessó al mig d'un cercle d'una desena de corredors veterans amb jaquetes de colors, damunt el tartan vermell i moll, amb les grades buides i les llums d'un poble al fons.",
+  "kicker": "IA × Societat",
+  "title": "Qui et diu que avui toca anar més a poc a poc",
+  "caption": "Els rellotges ja calculen ritmes i plans d'entrenament, però a la pista del poble encara hi ha algú que mira com arribes i decideix si avui cal frenar.",
+  "credit": "Imatge editorial generada amb IA",
+  "tema": "esport",
+  "escenari": "pista d'atletisme municipal",
+  "subjecte": "entrenadora i corredors veterans",
+  "body": "Al vespre, a moltes pistes d'atletisme municipals, s'hi apleguen grups de corredors populars que fa anys que no competeixen per guanyar res. Escalfen junts, estiren junts i es miren de reüll per saber com ha anat la setmana. La fotografia d'avui és la d'un d'aquests grups, i la de l'entrenadora que els fa estirar els bessons abans de la sèrie.\n\nGairebé tots porten al canell un aparell que mesura el ritme, la freqüència cardíaca i les hores de son, i cada vegada més aplicacions hi afegeixen una capa d'intel·ligència artificial. Strava, per exemple, va estrenar l'octubre del 2024 Athlete Intelligence, una funció que resumeix cada entrenament en frases i suggereix on es pot millorar, i la va treure de la fase de proves el febrer del 2025. Les opinions dels corredors van ser diverses: n'hi va haver que la van trobar útil i n'hi va haver que la van considerar soroll.\n\nEl que una màquina fa bé és comptar. El que costa més és saber per què algú ha corregut avui més lent: si ha dormit malament perquè té un fill malalt, si arrossega una molèstia que no ha dit a ningú o si simplement no té el dia. Aquesta lectura la fa qui veu el grup cada setmana, i sovint es resol amb una frase: «avui, suau».\n\nL'esport popular també és una qüestió de companyia. Moltes persones continuen corrent als cinquanta o als seixanta anys perquè hi ha un grup que les espera a la mateixa hora, i no pas perquè un gràfic els digui que han millorat. La tecnologia pot ajudar a dosificar l'esforç i a evitar lesions, però el compromís de tornar la setmana següent continua sent humà.\n\nPotser la pregunta no és si els plans d'entrenament fets amb IA substituiran les entrenadores de pista, sinó qui decideix quan cal fer cas omís del que diu el rellotge. A la imatge, aquesta persona porta un cronòmetre de botó penjat al coll i es fixa en com arriba cadascú."
+};
