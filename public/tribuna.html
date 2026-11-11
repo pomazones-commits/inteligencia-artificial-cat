@@ -201,7 +201,10 @@
       var iso = m ? m[3] + '-' + m[2] + '-' + m[1] : '';
       var nomAudio = (t.serie === 'veus-de-civicai' && iso >= '2026-10-18' && window.IAPeces)
         ? 'civicai-' + iso + '-' + window.IAPeces.slug(t.author || '')
-        : 'tribuna-' + iso;
+        // «Veus de l'administració» des del 22.10.2026 (11.11.2026): admin-AAAA-MM-DD-<autor>.mp3.
+        : (t.serie === 'veus-de-l-administracio' && iso >= '2026-10-22' && window.IAPeces)
+          ? 'admin-' + iso + '-' + window.IAPeces.slug(t.author || '')
+          : 'tribuna-' + iso;
       var audioUrl = m ? './assets/audio/' + nomAudio + '.mp3' : null;
       window.IALector.init({
         container: document.getElementById('lector'),

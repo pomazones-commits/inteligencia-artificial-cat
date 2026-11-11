@@ -6,7 +6,7 @@ declare(strict_types=1);
 // RSS amb les etiquetes d'Apple Podcasts i Spotify. NO genera cap àudio: fa
 // servir els MP3 que el workflow «Àudio de l'edició» ja puja cada dia a
 // assets/audio/ (reflexio-, analisi-, quadern-, tribuna-, estudi-, empresa-,
-// civicai- i civicai-estudi-AAAA-MM-DD-<autor>).
+// civicai-, civicai-estudi-, admin- i admin-estudi-AAAA-MM-DD-<autor>).
 // Només hi surten els episodis que tenen el fitxer al servidor: quan la neteja
 // setmanal retira un MP3 de més de 90 dies, l'episodi desapareix sol del canal.
 // Per donar-lo d'alta a Spotify o Apple Podcasts n'hi ha prou amb aquesta adreça.
@@ -27,6 +27,10 @@ foreach (iacat_totes_les_peces() as $peca) {
     // (genera_audio.py, nom_audio_civicai).
     if (($peca['item']['serie'] ?? '') === 'veus-de-civicai' && $peca['dataIso'] >= '2026-10-18') {
         $nom = ($peca['tipus'] === 'estudis' ? 'civicai-estudi-' : 'civicai-') . $peca['dataIso']
+            . '-' . iacat_slug((string) ($peca['item']['author'] ?? '')) . '.mp3';
+    } elseif (($peca['item']['serie'] ?? '') === 'veus-de-l-administracio' && $peca['dataIso'] >= '2026-10-22') {
+        // «Veus de l'administració» des del 22.10.2026 (11.11.2026): mateixa regla, prefix admin.
+        $nom = ($peca['tipus'] === 'estudis' ? 'admin-estudi-' : 'admin-') . $peca['dataIso']
             . '-' . iacat_slug((string) ($peca['item']['author'] ?? '')) . '.mp3';
     }
     if (!is_file($dirAudio . $nom)) { continue; }

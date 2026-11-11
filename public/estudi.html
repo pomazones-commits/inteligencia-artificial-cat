@@ -309,7 +309,10 @@
       var isoEstudi = d ? d[3] + '-' + d[2] + '-' + d[1] : '';
       var nomEstudi = (e.serie === 'veus-de-civicai' && isoEstudi >= '2026-10-18' && window.IAPeces)
         ? 'civicai-estudi-' + isoEstudi + '-' + window.IAPeces.slug(e.author || '')
-        : 'estudi-' + isoEstudi;
+        // «Veus de l'administració» des del 22.10.2026 (11.11.2026): admin-estudi-AAAA-MM-DD-<autor>.mp3.
+        : (e.serie === 'veus-de-l-administracio' && isoEstudi >= '2026-10-22' && window.IAPeces)
+          ? 'admin-estudi-' + isoEstudi + '-' + window.IAPeces.slug(e.author || '')
+          : 'estudi-' + isoEstudi;
       window.IALector.init({
         container: document.getElementById('lector'),
         audioUrl: d ? './assets/audio/' + nomEstudi + '.mp3' : null,

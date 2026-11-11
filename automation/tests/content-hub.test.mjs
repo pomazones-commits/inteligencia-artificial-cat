@@ -1651,6 +1651,37 @@ test('Veus de CIVICAi: un MP3 per peça amb l\'autor al nom des del 18.10.2026 (
   assert.match(podcast, /iacat_slug\(\(string\) \(\$peca\['item'\]\['author'\]/);
 });
 
+test('Veus de l\'administració: un MP3 per peça amb l\'autor al nom des del 22.10.2026 (11.11.2026)', async () => {
+  const arrel = resolve(import.meta.dirname, '..', '..');
+  const py = spawnSync('python3', ['-c', [
+    'import importlib.util',
+    `spec = importlib.util.spec_from_file_location("g", ${JSON.stringify(join(arrel, 'automation', 'scripts', 'genera_audio.py'))})`,
+    'g = importlib.util.module_from_spec(spec); spec.loader.exec_module(g)',
+    'print(g.nom_audio_serie({"date": "10.11.2026", "author": "Iolanda M. Aguilar Juncosa"}, True, "veus-de-l-administracio"))',
+    'print(g.nom_audio_serie({"date": "22.10.2026", "author": "Anna Pla"}, False, "veus-de-l-administracio"))',
+    'print(g.nom_audio_serie({"date": "07.10.2026", "author": "Josep Maria Flores Juanpere"}, True, "veus-de-l-administracio"))',
+    'import re; print(bool(re.fullmatch(g.PATRO_AUDIO_PECA, "admin-estudi-2026-11-10-iolanda-m-aguilar-juncosa")))',
+    // L'arxiu real d'estudis: la peça d'Aguilar ha d'entrar a la passada d'àudio.
+    `print(len(g.peces_serie(g.Path(${JSON.stringify(join(arrel, 'public', 'estudis-arxiu.js'))}), "IA_ESTUDIS_ARXIU", "veus-de-l-administracio")) > 0)`,
+  ].join('\n')], { encoding: 'utf8' });
+  assert.equal(py.status, 0, py.stderr);
+  assert.deepEqual(py.stdout.trim().split('\n'), [
+    'admin-estudi-2026-11-10-iolanda-m-aguilar-juncosa',
+    'admin-2026-10-22-anna-pla',
+    'estudi-2026-10-07',
+    'True',
+    'True',
+  ]);
+  // Les pàgines i el pòdcast fan servir la mateixa regla i la mateixa data de tall.
+  const tribuna = readFileSync(join(arrel, 'public', 'tribuna.html'), 'utf8');
+  assert.match(tribuna, /t\.serie === 'veus-de-l-administracio' && iso >= '2026-10-22' && window\.IAPeces\)\s*\? 'admin-' \+ iso \+ '-' \+ window\.IAPeces\.slug\(t\.author/);
+  const estudi = readFileSync(join(arrel, 'public', 'estudi.html'), 'utf8');
+  assert.match(estudi, /e\.serie === 'veus-de-l-administracio' && isoEstudi >= '2026-10-22' && window\.IAPeces\)\s*\? 'admin-estudi-' \+ isoEstudi \+ '-' \+ window\.IAPeces\.slug\(e\.author/);
+  const podcast = readFileSync(join(arrel, 'public', 'podcast.php'), 'utf8');
+  assert.match(podcast, /=== 'veus-de-l-administracio' && \$peca\['dataIso'\] >= '2026-10-22'/);
+  assert.match(podcast, /'admin-estudi-' : 'admin-'/);
+});
+
 test('cartell: si el dia més proper té dos actes grans, surten tots dos en carrusel (17.10.2026)', async () => {
   const vm = await import('node:vm');
   const src = await readFile(resolve(import.meta.dirname, '..', '..', 'public', 'cartell.js'), 'utf8');

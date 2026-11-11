@@ -183,17 +183,48 @@ def slug_text(text: str) -> str:
 
 def nom_audio_civicai(peca: dict, estudi: bool) -> str:
     """Nom del MP3 (sense .mp3) d'una peça de «Veus de CIVICAi»."""
+    return nom_audio_serie(peca, estudi, "veus-de-civicai")
+
+
+# «Veus de l'administració» (11.11.2026). Des del 22.10.2026 les seves peces
+# van directament a tribuna-arxiu.js o estudis-arxiu.js (mai a la tribuna ni a
+# l'estudi vigents), però l'àudio només recollia les de CIVICAi: l'estudi de
+# Iolanda M. Aguilar (10.11.2026) es va quedar amb «Àudio en preparació.».
+# Ara tenen el mateix tracte que les veus de CIVICAi, amb prefix propi:
+#   admin-AAAA-MM-DD-<autor>.mp3          (tribuna-arxiu.js)
+#   admin-estudi-AAAA-MM-DD-<autor>.mp3   (estudis-arxiu.js)
+# Les anteriors al 22.10.2026 (Flores, 07.10) van passar per l'estudi vigent i
+# conserven el nom antic. La mateixa regla és a tribuna.html, estudi.html i
+# podcast.php.
+ADMIN_DES_DE = "2026-10-22"
+SERIES_AMB_AUDIO_PROPI = {
+    # serie: (prefix, data de tall, només els darrers CIVICAI_DIES dies?)
+    "veus-de-civicai": ("civicai", CIVICAI_DES_DE, True),
+    # Poques peces: es fan totes les que faltin des del tall (inclosa la
+    # tribuna del 22.10.2026, que tampoc no en tenia).
+    "veus-de-l-administracio": ("admin", ADMIN_DES_DE, False),
+}
+
+
+def nom_audio_serie(peca: dict, estudi: bool, serie: str) -> str:
+    """Nom del MP3 (sense .mp3) d'una peça d'una sèrie amb àudio propi."""
     iso = data_iso(str(peca.get("date", "")))
     if not iso:
         return ""
-    if iso >= CIVICAI_DES_DE:
+    prefix, des_de, _ = SERIES_AMB_AUDIO_PROPI[serie]
+    if iso >= des_de:
         autor = slug_text(peca.get("author", ""))
-        return f"{'civicai-estudi' if estudi else 'civicai'}-{iso}-{autor}"
+        return f"{prefix + '-estudi' if estudi else prefix}-{iso}-{autor}"
     return f"{'estudi' if estudi else 'tribuna'}-{iso}"
 
 
 def veus_civicai(path: Path, variable: str) -> list:
     """Totes les peces de «Veus de CIVICAi» d'un arxiu."""
+    return peces_serie(path, variable, "veus-de-civicai")
+
+
+def peces_serie(path: Path, variable: str, serie: str) -> list:
+    """Totes les peces d'una sèrie d'un arxiu."""
     if not path.is_file():
         return []
     raw = path.read_text(encoding="utf-8")
@@ -205,7 +236,7 @@ def veus_civicai(path: Path, variable: str) -> list:
     except json.JSONDecodeError:
         return []
     return [p for p in (llista if isinstance(llista, list) else [])
-            if isinstance(p, dict) and p.get("serie") == "veus-de-civicai"]
+            if isinstance(p, dict) and p.get("serie") == serie]
 
 
 def darrera_veu_empresa(path: Path = Path("public/empresa.js")) -> dict:
@@ -337,7 +368,7 @@ def cerca_noticia(slug: str):
 # Noms dels MP3 de les peces signades i de la Redacció (20.10.2026): també es poden
 # refer amb l'entrada «regenera» del workflow, p. ex. «empresa-2026-10-20» quan
 # es corregeix el text d'una peça ja publicada.
-PATRO_AUDIO_PECA = r"(?:empresa|tribuna|estudi|analisi|quadern|reflexio|civicai|civicai-estudi)-\d{4}-\d{2}-\d{2}(?:-[a-z0-9-]+)?"
+PATRO_AUDIO_PECA = r"(?:empresa|tribuna|estudi|analisi|quadern|reflexio|civicai|civicai-estudi|admin|admin-estudi)-\d{4}-\d{2}-\d{2}(?:-[a-z0-9-]+)?"
 
 
 def peces_forcades() -> set:
@@ -712,10 +743,11 @@ def main() -> int:
         (Path("public/tribuna-arxiu.js"), "IA_TRIBUNA_ARXIU", ("title", "excerpt", "body"), False, Path("public/tribuna.js")),
         (Path("public/estudis-arxiu.js"), "IA_ESTUDIS_ARXIU", ("title", "abstract", "body"), True, Path("public/estudis.js")),
     ):
-        for peca in veus_civicai(fitxer, variable):
-            iso = data_iso(str(peca.get("date", "")))
-            if iso >= CIVICAI_DES_DE and iso >= limit:
-                peces.append((fitxer, "", camps, peca, nom_audio_civicai(peca, estudi)))
+        for serie, (_, des_de, nomes_recents) in SERIES_AMB_AUDIO_PROPI.items():
+            for peca in peces_serie(fitxer, variable, serie):
+                iso = data_iso(str(peca.get("date", "")))
+                if iso >= des_de and (iso >= limit or not nomes_recents):
+                    peces.append((fitxer, "", camps, peca, nom_audio_serie(peca, estudi, serie)))
         darrera = darrera_veu_civicai(fitxer, variable)
         iso = data_iso(str(darrera.get("date", "")))
         if darrera and iso and iso < CIVICAI_DES_DE:
