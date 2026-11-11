@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-11T05:13:13.891Z",
+  "generat": "2026-11-11T18:49:54.154Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 31,
+      "audios": 34,
       "sobre_ia": 2
     },
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 19,
+      "audios": 18,
       "sobre_ia": 0
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 7,
+      "audios": 6,
       "sobre_ia": 0
     },
     {
@@ -173,9 +173,26 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 300,
-      "sobre_ia": 2
+      "audios": 400,
+      "sobre_ia": 3
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "rna-1939334",
+      "emissora": "Ràdio Nacional d'Andorra",
+      "programa": "La Companyia",
+      "programa_url": "https://www.rtva.ad/programes/la-companyia",
+      "data": "2026-11-11",
+      "durada": "",
+      "titol_original": "Impacte de les Eleccions de Mig Mandat als EUA, les 4 Línies de Mercat i la sortida a Borsa d'Anthropic – La Companyia 11/11/2026",
+      "descripcio_original": "Atès que els demòcrates acaben de guanyar el control del Congrés (Senat i Cambra de Representants) en les eleccions de mig mandat del 3 de novembre de 2026, i que Anthropic acaba de presentar els seus resultats financers del tercer trimestre de 2026 de cara a una sortida imminent a borsa al Nasdak, Enric Galí, Assessor Financer Independent a AlfaQuest - Saboya Assessors, ens ajuda a entendre que pot succeir a partir d’ara i a més ens parla sobre les 4 línies de mercat.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtva.ad/programes/impacte-de-les-eleccions-de-mig-mandat-als-eua-les-4-linies-de-mercat-i-la-sortida-a-borsa-d-anthropic-la-companyia-11-11-2026",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    }
+  ]
 }
