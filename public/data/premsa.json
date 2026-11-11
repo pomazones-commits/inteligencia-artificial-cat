@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-11T09:13:22.111Z",
+ "actualitzat": "2026-11-11T12:13:44.548Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "9706b9bd7359",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Adobe abre Photoshop y Premiere a los agentes de inteligencia artificial de otras compañías",
+   "url": "https://www.elmundo.es/tecnologia/innovacion/2026/11/11/6af4596521efa0de228b457e.html",
+   "publicat": "2026-11-11T12:02:47.000Z"
+  },
+  {
+   "id": "5ef4de4be736",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Sostenibilidad | FCC Medio Ambiente, presente en Ecofira con el aval de la Inteligencia Artificial",
+   "url": "https://alicanteplaza.es/alicanteplaza/sostenibilidad2/fcc-medio-ambiente-presente-en-ecofira-con-el-aval-de-la-inteligencia-artificial",
+   "publicat": "2026-11-11T11:59:26.000Z"
+  },
+  {
+   "id": "cea4ed0edcd5",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La imatge dels silurs, IA o no IA? Pensa malament... i no ho encertaràs",
+   "url": "https://www.segre.com/ca/opinio/261111/la-imatge-dels-silurs-ia-o-no-ia-pensa-malament-i-no-ho-encertars_1394183.html",
+   "publicat": "2026-11-11T10:01:52.000Z"
+  },
+  {
+   "id": "35c1de7cddb4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Científicos crean un laboratorio de biología gestionado por agentes de IA donde los humanos solo entran para retirar la basura",
+   "url": "https://www.lavanguardia.com/neo/ciencia-neo/20261111/11681499/cientificos-crean-laboratorio-biologia-gestionado-agentes-ia-humanos-entran-retirar-basura.html",
+   "publicat": "2026-11-11T10:00:35.000Z"
+  },
+  {
+   "id": "d08bf0b71060",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los desatinos de la IA: dos modelos que aprenden lo mismo pueden ver el mundo de diferente manera",
+   "url": "https://www.levante-emv.com/tendencias21/2026/11/11/desatinos-ia-modelos-aprenden-ver-136320473.html",
+   "publicat": "2026-11-11T09:59:45.000Z"
+  },
   {
    "id": "d3888ed89815",
    "mitja": "Información",
@@ -2713,61 +2768,6 @@
    "titol": "ChatGPT ja és capaç de crear GIFs animats",
    "url": "https://www.elnacional.cat/ca/tecnologia/chatgpt-ja-es-capac-crear-gifs-animats_1721351_102.html",
    "publicat": "2026-11-05T18:30:00.000Z"
-  },
-  {
-   "id": "feca065214cd",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Empresas | La IA y su impacto en el mercado laboral, objeto de debate del Focus Pyme L'Alacantí 2026 celebrado en Alicante",
-   "url": "https://alicanteplaza.es/alicanteplaza/empresas/la-ia-y-su-impacto-en-el-mercado-laboral-objeto-de-debate-del-focus-pyme-lalacanti-2026-celebrado-en-alicante",
-   "publicat": "2026-11-05T17:18:18.000Z"
-  },
-  {
-   "id": "eb628eacf450",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nothing prepara un misteriós dispositiu amb IA que arribarà al desembre: no tindrà pantalla",
-   "url": "https://www.elnacional.cat/ca/tecnologia/nothing-prepara-misterios-dispositiu-ia-arribara-desembre-no-tindra-pantalla_1721165_102.html",
-   "publicat": "2026-11-05T16:30:00.000Z"
-  },
-  {
-   "id": "bec2be9c261d",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Jueves negro para la Bolsa: el Nasdaq sufre un batacazo por el miedo al frenazo de la IA",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-05/la-bolsa-y-el-ibex-35.html",
-   "publicat": "2026-11-05T16:18:07.000Z"
-  },
-  {
-   "id": "d9d56cd2d9d2",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las 'midterms' en Estados Unidos asestan un duro golpe contra la industria de la inteligencia artificial",
-   "url": "https://www.elperiodico.com/es/internacional/20261105/midterms-eeuu-asestan-duro-golpe-industria-ia-centros-datos-inteligencia-artificial-136128415",
-   "publicat": "2026-11-05T16:11:20.000Z"
-  },
-  {
-   "id": "29a4f92fcd72",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "CaixaBank reforça la seva protecció per les amenaces de la IA avançada",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/caixabank-reforca-seva-proteccio-amenaces-ia-avancada_1721144_102.html",
-   "publicat": "2026-11-05T13:48:39.000Z"
   }
  ]
 }
