@@ -1,8 +1,104 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-11T05:14:06.989Z",
+ "actualitzat": "2026-11-11T09:13:27.077Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "jDxKzlGLCas",
+   "titol": "Building with GPT-Live and Image Generation | DevDay 2026",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-11T01:24:08.000Z",
+   "descripcio": "See GPT-Live brainstorm, play games, and create images while coordinating work in the background. Learn to add voice to agents and design for delegation, latency, interruptions, and changing requests.",
+   "miniatura": "/assets/videos/jDxKzlGLCas.jpg"
+  },
+  {
+   "id": "pIW_8VyvCuQ",
+   "titol": "Build What’s Next on the ChatGPT Platform with Plugins | DevDay 2026",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-11T01:24:08.000Z",
+   "descripcio": "Bring your tools, knowledge, and interfaces into ChatGPT and Codex with plugin extensions. Through live demos, learn how to turn an idea into a useful experience, share it, and reach new users.",
+   "miniatura": "/assets/videos/pIW_8VyvCuQ.jpg"
+  },
+  {
+   "id": "QRm7VNMnurA",
+   "titol": "Sites and the Next Generation of Web Apps | DevDay 2026",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-11T01:24:07.000Z",
+   "descripcio": "Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.",
+   "miniatura": "/assets/videos/QRm7VNMnurA.jpg"
+  },
+  {
+   "id": "U1IVZy9FhVQ",
+   "titol": "What Will You Build With Coding Agents That Don’t Quit? | DevDay 2026",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-11T01:24:07.000Z",
+   "descripcio": "Learn from a Codex run that spent over 1,000 hours keeping builds and tests passing. Explore how to choose recurring tasks, improve feedback, manage token budgets, and decide when engineers should step in.",
+   "miniatura": "/assets/videos/U1IVZy9FhVQ.jpg"
+  },
+  {
+   "id": "b7l_Dhe1h8M",
+   "titol": "Harness-as-a-Service: Building with the Agents API | DevDay 2026",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-11T01:24:07.000Z",
+   "descripcio": "Build with the Codex harness through the Agents API. Learn how to run agents in your environment, keep long-running tasks going, and understand which infrastructure OpenAI manages.",
+   "miniatura": "/assets/videos/b7l_Dhe1h8M.jpg"
+  },
+  {
+   "id": "gUQN7juxvVI",
+   "titol": "Codex Security: From Vulnerability to Verified Fix | DevDay 2026",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-11T01:24:07.000Z",
+   "descripcio": "Find and fix vulnerabilities with OpenAI’s cyber models and open-source CLI and SDK. Learn to scan large codebases, catch issues in pull requests, and verify fixes, drawing on OpenAI’s own security work.",
+   "miniatura": "/assets/videos/gUQN7juxvVI.jpg"
+  },
+  {
+   "id": "nAubbmlhPfI",
+   "titol": "What Comes After Loops?: Deep Dive Into Agentic Architecture | DevDay 2026",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-11T01:24:07.000Z",
+   "descripcio": "Trace the evolution from simple agent loops to collaborating agents. Explore the design choices and model advances behind that shift, and take a closer look at what comes next.",
+   "miniatura": "/assets/videos/nAubbmlhPfI.jpg"
+  },
+  {
+   "id": "5YXlrzC_RYE",
+   "titol": "Answering your questions about GPT-Live",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-10T21:10:08.000Z",
+   "descripcio": "We’re answering the internet’s questions about GPT-Live, starting with how it’s different from earlier voice models and what developers are using it for. Already building with GPT-Live? We’ll share practical tips for customizing your agent’s voice and improving delegation. What else would you like t",
+   "miniatura": "/assets/videos/5YXlrzC_RYE.jpg"
+  },
   {
    "id": "Z9k5oI3Paoc",
    "titol": "Introducing Businesses in ChatGPT in beta",
@@ -13,7 +109,10 @@
    "idioma": "en",
    "publicat": "2026-11-10T18:07:12.000Z",
    "descripcio": "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. With Business Hub, verified businesses can update their details and add product feeds with current pricing and availability. They can also see aggregated insights on ment",
-   "miniatura": "/assets/videos/Z9k5oI3Paoc.jpg"
+   "miniatura": "/assets/videos/Z9k5oI3Paoc.jpg",
+   "noticia": "openai-chatgpt-perfils-empreses-agents-business-hub",
+   "noticiaTitol": "OpenAI deixa que les empreses tinguin una fitxa pròpia a ChatGPT i hi posin un agent d'IA que respongui els clients",
+   "resum": "Vídeo de presentació d'OpenAI de Businesses in ChatGPT, en proves. Segons la descripció oficial, explica com un negoci pot reclamar la seva fitxa, gestionar-ne la informació i els catàlegs amb el Business Hub i veure com hi interactua la gent."
   },
   {
    "id": "vdEGZYIvFiI",
