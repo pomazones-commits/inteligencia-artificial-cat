@@ -76,7 +76,7 @@ window.IA_TRIBUNA_ARXIU = [
     "category": "TRIBUNA",
     "read": "6 MIN",
     "author": "Àurea Rodríguez",
-    "role": "Consellera independent, experta en estratègia i innovació i autora, i membre de CIVICAi",
+    "role": "Gerent de la FCV i membre de CIVICAi",
     "org": "CIVICAi",
     "orgUrl": "https://civicai.cat/",
     "serie": "veus-de-civicai",
