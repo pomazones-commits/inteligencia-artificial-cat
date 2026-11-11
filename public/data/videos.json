@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-11T17:15:24.877Z",
+ "actualitzat": "2026-11-11T18:52:55.123Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "uND6iY2qp_c",
+   "titol": "AlphaGenome 2: Teaching AI to read the entire human genome",
+   "canal": "Google DeepMind",
+   "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "grup": "empreses",
+   "categoria": "salut",
+   "idioma": "en",
+   "publicat": "2026-11-11T18:00:31.000Z",
+   "descripcio": "98% of human DNA doesn't build proteins—it controls how our cells work, and holds vital clues to why diseases happen and why 90% of new drugs fail in clinical trials. Understanding the genome at the molecular level is the key to deciphering the blueprint of human life. In this episode, Professor Han",
+   "miniatura": "/assets/videos/uND6iY2qp_c.jpg"
+  },
   {
    "id": "jDxKzlGLCas",
    "titol": "Building with GPT-Live and Image Generation | DevDay 2026",
