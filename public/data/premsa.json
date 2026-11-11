@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-11T12:13:44.548Z",
+ "actualitzat": "2026-11-11T13:14:40.940Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "3269d8aec9a0",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Sam Altman, CEO de OpenAI: “Es mejor que haya múltiples proyectos de IA, con enfoques diferentes, que compitan entre sí”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261111/11681660/sam-altman-ceo-openai-proyectos-ia-enfoques-diferentes-compitan.html",
+   "publicat": "2026-11-11T13:02:13.000Z"
+  },
   {
    "id": "9706b9bd7359",
    "mitja": "El Mundo",
@@ -2757,17 +2768,6 @@
    "titol": "De Leonardo da Vinci a la IA: 10 robots del passat i futur",
    "url": "https://www.diarideterrassa.com/terrassa/de-leonardo-da-vinci-a-la-ia-10-robots-del-passat-i-futur.html",
    "publicat": "2026-11-05T18:30:11.000Z"
-  },
-  {
-   "id": "224cdfab42b7",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "ChatGPT ja és capaç de crear GIFs animats",
-   "url": "https://www.elnacional.cat/ca/tecnologia/chatgpt-ja-es-capac-crear-gifs-animats_1721351_102.html",
-   "publicat": "2026-11-05T18:30:00.000Z"
   }
  ]
 }
