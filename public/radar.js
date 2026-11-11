@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Mallorca",
+    "category": "RECERCA",
+    "date": "11.11.2026",
+    "title": "El SOCIB i la Universitat de les Illes Balears creen una IA que traça la línia de costa a partir de les fotos que fan els banyistes amb el mòbil",
+    "summary": "L'eina, publicada a la revista «Environmental Modelling & Software», redueix un 70% l'error dels mètodes automàtics habituals i analitza cada imatge en sis segons. Servirà per seguir l'erosió de les platges de Mallorca, Menorca i Eivissa.",
+    "detail": "Des del 2022, a les platges de s'Amarador (Santanyí) i s'Arenal d'en Tem (Campos) hi ha uns suports fixos on qualsevol persona pot recolzar el mòbil i fer una foto de la platja, sempre des del mateix punt. És el sistema internacional CoastSnap, que el Sistema d'Observació Costanera de les Illes Balears (SOCIB) fa servir per seguir com avança o retrocedeix la sorra. Fins ara, però, marcar la línia de costa a cada foto era una feina manual i lenta.\n\nUn equip del SOCIB i de l'Institut d'Investigació en Intel·ligència Artificial de la Universitat de les Illes Balears (IAIB-UIB), encapçalat pel científic de dades Josep Oliver-Sansó, ha automatitzat aquesta tasca. L'equip va entrenar i comparar quatre models d'aprenentatge profund amb 1.717 imatges de cinc platges atlàntiques i mediterrànies. El millor, DeepLabV3, mira el context de tota la imatge i no només els canvis de color, i per això funciona encara que hi hagi reflexos del sol, ombres, sorra mullada, restes de posidònia o zones inundades. Redueix un 70% l'error respecte dels mètodes automàtics convencionals, i la diferència amb el traçat que fan a mà els especialistes és de 2,6 metres de mitjana a s'Arenal d'en Tem i de 3,4 a s'Amarador. Cada foto es processa en uns sis segons amb un ordinador corrent i en menys d'un segon amb una targeta gràfica. El treball s'ha publicat a la revista revisada «Environmental Modelling & Software».\n\nL'interès és pràctic. Les fotos dels ciutadans donen molta més resolució que les imatges de satèl·lit i permeten veure com reacciona una platja després d'un temporal i com es recupera, una informació clau per gestionar la costa en unes illes que depenen de les platges. El programa, anomenat SOCIB Shoreline Extraction, és de codi obert i també es pot fer servir des de les plataformes europees de ciència oberta iMagine i AI4EOSC. Està previst instal·lar deu estacions CoastSnap més als pròxims anys, amb una subvenció del Govern: unes tres a Menorca, quatre a Eivissa i tres a Mallorca.\n\nEl sistema té límits. Les proves s'han fet en cinc platges i amb fotos preses des de punts fixos, de manera que no està demostrat que funcioni igual amb qualsevol fotografia, i una diferència de tres metres, acceptable per seguir tendències, pot ser massa gran per mesurar canvis petits. A més, la qualitat de les dades depèn que la gent continuï fent fotos als suports.",
+    "source": "Environmental Modelling & Software (SOCIB i IAIB-UIB)",
+    "url": "https://doi.org/10.1016/j.envsoft.2026.107078",
+    "image": "./assets/socib-uib-ia-linia-de-costa-fotos-ciutadans-platges-20261111.jpg",
+    "slug": "socib-uib-ia-linia-de-costa-fotos-ciutadans-platges"
+  },
+  {
     "place": "Lleida",
     "category": "IA I SOCIETAT",
     "date": "09.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.modernetdigital.cat/educacio/dues-eines-urv-mesuren-biaix-dones-amb-ia/20261107115022062036.html",
     "image": "./assets/urv-estudiants-eines-ia-biaix-dones-20261108.jpg",
     "slug": "urv-estudiants-eines-ia-biaix-dones"
-  },
-  {
-    "place": "Alacant",
-    "category": "IA I SOCIETAT",
-    "date": "07.11.2026",
-    "title": "Un equip de la Universitat d'Alacant ensenya una IA a detectar senyals d'Alzheimer en la manera de parlar, amb un 98% d'encerts en una primera prova",
-    "summary": "El sistema escolta la pronunciació, la dicció i l'entonació, i també analitza la coherència del que es diu. Els investigadors adverteixen que és una prova de concepte amb 223 persones i que no serveix encara per diagnosticar.",
-    "detail": "La manera de parlar pot donar pistes sobre el deteriorament de la memòria: no només el que diu una persona, sinó com pronuncia les paraules, com construeix les frases o quina entonació fa servir. El grup de recerca Lucentia de la Universitat d'Alacant hi treballa amb l'Institut d'Investigació Sanitària i Biomèdica d'Alacant (Isabial) i el neuròleg Ángel Pérez Sempere, i n'ha presentat els primers resultats al congrés sobre malalties neurodegeneratives, IA i dades massives que se celebra aquests dies a la mateixa universitat.\n\nEls participants responen, en una aplicació mòbil, preguntes senzilles sobre la memòria i l'orientació (on deixen els objectes de cada dia, dir paraules, dates i fets personals) mentre se'ls grava la veu. Els investigadors analitzen les gravacions de dues maneres: una converteix la veu en text i comprova si la persona manté la coherència i troba les paraules adequades; l'altra estudia directament la pronunciació, la dicció i l'entonació. Aquesta segona via és la que dona el resultat més cridaner, un 98% d'exactitud en un dels models a l'hora de classificar les mostres; la combinació de les dues supera el 90%. Les proves es van fer amb gravacions de 184 persones sense diagnòstic i 39 de diagnosticades, i amb mostres diferents per entrenar el sistema i per comprovar-lo.\n\nL'equip treballa ara perquè la IA expliqui quines paraules o quins trets de la pronunciació han pesat en cada resultat, de manera que els neuròlegs ho puguin comprovar. Una eina així, barata i que es pot fer servir des del mòbil, podria ajudar a detectar senyals d'alerta abans i a decidir qui necessita una avaluació a fons. Les gravacions es processen en servidors del mateix grup, anonimitzades i xifrades.\n\nEls mateixos investigadors avisen que és una primera prova de concepte, feta en uns sis mesos, i que el 98% correspon als assajos i no vol dir que l'eina pugui diagnosticar l'Alzheimer amb aquesta fiabilitat en una consulta. La mostra és petita, sobretot la de pacients, i el treball no s'ha publicat encara en cap revista revisada. El pas següent és ampliar el nombre de participants i fer estudis clínics més grans; en cap cas no ha de substituir les proves ni el diagnòstic del neuròleg.",
-    "source": "Información",
-    "url": "https://www.informacion.es/alicante/2026/11/06/investigadores-ua-descubren-cambios-voz-alertan-alzheimer-enfermedades-alicante-136153552.html",
-    "image": "./assets/universitat-alacant-ia-veu-alzheimer-20261107.jpg",
-    "slug": "universitat-alacant-ia-veu-alzheimer"
   }
 ];
