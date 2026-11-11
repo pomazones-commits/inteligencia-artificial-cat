@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-11T00:11:19.137Z",
+  "generat": "2026-11-11T05:13:13.891Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -128,8 +128,8 @@
       "programa": "",
       "resultats": 5,
       "estat": "ok",
-      "audios": 2,
-      "sobre_ia": 1
+      "audios": 1,
+      "sobre_ia": 0
     },
     {
       "font": "wordpress",
@@ -177,39 +177,5 @@
       "sobre_ia": 2
     }
   ],
-  "candidats": [
-    {
-      "id": "3cat-1297192",
-      "emissora": "Catalunya Ràdio",
-      "programa": "Catalunya nit",
-      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
-      "data": "2026-11-10",
-      "durada": "12 min",
-      "titol_original": "Román Orús: \"Em sorprèn que TikTok no doni ordres a l'algoritme perquè es comporti adequadament\"",
-      "descripcio_original": "La IA torna a estar al centre de la polèmica: des del paper dels algoritmes en la difusió de continguts d'abusos a menors fins a l'obsessió d'Elon Musk per reinventar el cinema amb IA. Què està passant al sector i qui en paga les conseqüències? Ho analitzem amb Román Orús, membre del Panel Científic Internacional sobre Intel·ligència Artificial de l'ONU.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/roman-orus-em-sorpren-que-tiktok-no-doni-ordres-a-lalgoritme-perque-es-comporti/audio/1297192/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1297192"
-      }
-    },
-    {
-      "id": "apunt-1907987",
-      "emissora": "À Punt Ràdio",
-      "programa": "Cadena de valor",
-      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
-      "data": "2026-11-10",
-      "durada": "",
-      "titol_original": "Tecnologia, geopolítica i empresa: les noves regles del joc",
-      "descripcio_original": "Entrevistem Nuria Lloret, presidenta d’AECTA, amb motiu del Congrés de Tecnologies Emergents i WAI Valencia Talk. Analitzem com la intel·ligència artificial, la ciberseguretat, la sobirania digital i el nou escenari geopolític condicionen la competitivitat de les empreses valencianes, així com la importància del lideratge femení en esta transformació.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/10-11-2026-tecnologia-geopolitica-empresa-noves-regles-joc_135_1907987.html",
-      "reproductor": {
-        "tipus": "enllac"
-      }
-    }
-  ]
+  "candidats": []
 }
