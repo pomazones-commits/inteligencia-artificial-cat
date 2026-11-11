@@ -1,8 +1,118 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-10T21:02:30.393Z",
+ "actualitzat": "2026-11-11T05:14:21.367Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "db1491c0abf8",
+   "mitja": "Levante-EMV",
+   "font": "levante",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "FCC Medio Ambiente lleva a Ecofira la Inteligencia Artificial para mejorar la limpieza urbana",
+   "url": "https://www.levante-emv.com/economia/2026/11/11/fcc-medio-ambiente-lleva-ecofira-136303725.html",
+   "publicat": "2026-11-11T05:01:10.000Z"
+  },
+  {
+   "id": "432bf84eadf6",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tierra de empresas | Sumamoos impulsa la transformación de empresas con Microsoft Fabric y prepara sus datos para la IA",
+   "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/sumamoos-impulsa-la-transformacion-de-empresas-con-microsoft-fabric-y-prepara-sus-datos-para-la-ia",
+   "publicat": "2026-11-11T05:00:05.000Z"
+  },
+  {
+   "id": "e1919395f6c7",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La investigación a Nvidia se centra en el envío a China de chips por 6.700 millones",
+   "url": "https://www.lavanguardia.com/economia/20261111/11681146/investigacion-nvidia-centra-envio-china-chips-6-700-millones.html",
+   "publicat": "2026-11-11T05:00:00.000Z"
+  },
+  {
+   "id": "12368f86d005",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El escándalo de Nvidia magnifica las graves deficiencias de su consejo",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-11/el-escandalo-de-nvidia-magnifica-las-graves-deficiencias-de-su-consejo.html",
+   "publicat": "2026-11-11T04:40:00.000Z"
+  },
+  {
+   "id": "5d95b80ab0ff",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "José Luis Pontón, ingeniero informático: “Una IA que entiende el movimiento humano puede aprender a imitar a una persona y suplantarla”",
+   "url": "https://elpais.com/tecnologia/2026-11-11/jose-luis-ponton-ingeniero-informatico-una-ia-que-entiende-el-movimiento-humano-puede-aprender-a-imitar-a-una-persona-y-suplantarla.html",
+   "publicat": "2026-11-11T04:30:01.000Z"
+  },
+  {
+   "id": "f35b2f3e2327",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Les habilitats relacionades amb IA que poden fer pujar el teu sou",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/habilitats-relacionades-ia-poden-fer-pujar-teu-sou_1722470_102.html",
+   "publicat": "2026-11-11T04:30:00.000Z"
+  },
+  {
+   "id": "51dce178515a",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La crisis de Nvidia ensombrece el epicentro de la IA: cuatro gráficos para entender la relevancia del gigante tecnológico",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-11/la-crisis-de-nvidia-ensombrece-el-epicentro-de-la-ia-cuatro-graficos-para-entender-la-relevancia-del-gigante-tecnologico.html",
+   "publicat": "2026-11-11T04:25:00.000Z"
+  },
+  {
+   "id": "680c9bfd6a0a",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Invertir en la salida a bolsa de Anthropic: ¿una montaña rusa asegurada?",
+   "url": "https://www.lavanguardia.com/dinero/bolsillo/20261111/11678889/anthropic-bolsa-salida-debut-invertir-comprar-acciones-pca.html",
+   "publicat": "2026-11-11T04:00:00.000Z"
+  },
+  {
+   "id": "8d66ada4f0d2",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "José Capmany: «Sin la fotónica no será posible sustentar la IA a gran escala»",
+   "url": "https://www.informacion.es/economia/2026/11/10/jose-capmany-fotonica-foro-ia-bc-136289412.html",
+   "publicat": "2026-11-10T21:30:26.000Z"
+  },
+  {
+   "id": "ab507a5d1695",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Javier Ideami: «La sorpresa de este año será sobre mis experimentos multiagentes de IA»",
+   "url": "https://www.informacion.es/economia/2026/11/10/sorpresa-experimentos-multiagentes-bc-136289821.html",
+   "publicat": "2026-11-10T21:30:26.000Z"
+  },
   {
    "id": "dc7617f4480f",
    "mitja": "Cinco Días",
@@ -133,7 +243,9 @@
    "ambit": "catala",
    "titol": "Brussel·les vol limitar les funcions addictives de les xarxes socials i els xatbots que simulen vincles personals",
    "url": "https://www.vilaweb.cat/noticies/brusselles-funcions-addictives-xarxes-socials-xatbots-vincles-personals",
-   "publicat": "2026-11-10T17:26:24.000Z"
+   "publicat": "2026-11-10T17:26:24.000Z",
+   "noticia": "brusselles-llei-equitat-digital-xatbots-vincles-addictius",
+   "noticiaTitol": "Brussel·les vol que es puguin desactivar els xatbots que simulen una relació personal i el desplaçament infinit de les xarxes"
   },
   {
    "id": "be52595888f0",
@@ -551,6 +663,17 @@
    "ambit": "estatal",
    "titol": "Crisis de gobernanza para uno de los líderes de la IA",
    "url": "https://cincodias.elpais.com/opinion/2026-11-10/crisis-de-gobernanza-para-uno-de-los-lideres-de-la-ia.html",
+   "publicat": "2026-11-10T04:40:00.000Z"
+  },
+  {
+   "id": "74d2a3e38b7e",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La crisis de Nvidia puede perjudicar a China más de lo que la beneficia",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-10/la-crisis-de-nvidia-puede-perjudicar-a-china-mas-de-lo-que-la-beneficia.html",
    "publicat": "2026-11-10T04:40:00.000Z"
   },
   {
@@ -2645,127 +2768,6 @@
    "titol": "El buscador DuckDuckGo se postula en las escuelas como la alternativa que no obliga a usar la IA frente a Google",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/05/2743613/buscador-duckduckgo-postula-escuelas-como-alternativa-obliga-usar-frente-google.html",
    "publicat": "2026-11-05T11:00:00.000Z"
-  },
-  {
-   "id": "bf478da29c60",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic reajusta las directrices de Claude y permitirá basarse en videojuegos para desarrollar títulos originales",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/05/2743559/anthropic-reajusta-directrices-claude-permitira-basarse-videojuegos-para-desarrollar-titulos-originales.html",
-   "publicat": "2026-11-05T10:09:00.000Z"
-  },
-  {
-   "id": "c6b472f123ea",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Banco de Buenas Prácticas reconoce tres proyectos de Viladecans sobre IA, planificación y zonas verdes",
-   "url": "https://www.lavanguardia.com/elllobregat/sociedad/20261105/11676676/banco-buenas-practicas-reconoce-tres-proyectos-viladecans-sobre-ia-planificacion-zonas-verdes.html",
-   "publicat": "2026-11-05T09:35:48.000Z"
-  },
-  {
-   "id": "885684f9c976",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA representarà el 44% del tràfic de dades l'any 2035",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/ia-representara-44-trafic-dades-any-2035_1720856_102.html",
-   "publicat": "2026-11-05T09:20:29.000Z"
-  },
-  {
-   "id": "35c77190fa6b",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las dudas con el despliegue de la IA vuelven a castigar a Wall Street",
-   "url": "https://www.lavanguardia.com/economia/20261105/11676624/bolsa-mercados-donald-trump-elecciones-midterm-ibex-35.html",
-   "publicat": "2026-11-05T08:35:39.000Z"
-  },
-  {
-   "id": "81c98a0cc21a",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El miedo a la IA limita el progreso y la soberanía geopolítica de Europa",
-   "url": "https://www.lavanguardia.com/vida/20261105/11674903/miedo-ia-limita-progreso-soberania-geopolitica-europa.html",
-   "publicat": "2026-11-05T07:00:00.000Z"
-  },
-  {
-   "id": "e934bae7fd6f",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Microsoft patenta una perturbadora IA para que escuches lo que quieras: modifica las palabras y la boca de personas en vídeos en directo",
-   "url": "https://www.lavanguardia.com/neo/ia/20261105/11675834/microsoft-patenta-perturbadora-ia-escuches-quieras-modifica-palabras-boca-personas-videos-directo.html",
-   "publicat": "2026-11-05T06:35:00.000Z"
-  },
-  {
-   "id": "e3203b2e5dd8",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Ejército alista a la IA para la \"guerra algorítmica\"",
-   "url": "https://www.levante-emv.com/espana/2026/11/05/ejercito-alista-inteigencia-artificial-ia-guerra-algoritmica-136102321.html",
-   "publicat": "2026-11-05T06:15:10.000Z"
-  },
-  {
-   "id": "49981b426a42",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Ejército recluta a la IA para la \"guerra algorítmica\"",
-   "url": "https://www.elperiodico.com/es/politica/20261105/ejercito-alista-inteigencia-artificial-ia-guerra-algoritmica-136099680",
-   "publicat": "2026-11-05T05:01:43.000Z"
-  },
-  {
-   "id": "79652e9f5c89",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La historia de Fran Vivó, el valenciano con ELA que recuperó la voz gracias a la IA, aspira a repetirse",
-   "url": "https://www.levante-emv.com/comunitat-valenciana/2026/11/05/historia-fran-vivo-valenciano-ela-recupero-voz-ia-aspira-repetirse-136072018.html",
-   "publicat": "2026-11-05T05:01:26.000Z"
-  },
-  {
-   "id": "556f717b97c1",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Kabilio capta 10 millones con su IA para asesorías contables",
-   "url": "https://www.lavanguardia.com/dinero/20261105/11676226/kabilio-capta-10-millones-ia-asesorias-contables.html",
-   "publicat": "2026-11-05T05:00:00.000Z"
-  },
-  {
-   "id": "94871fe2e6a3",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Rabia contra la IA en EE.UU.",
-   "url": "https://www.lavanguardia.com/internacional/20261105/11676212/rabia-ia-ee-uu.html",
-   "publicat": "2026-11-05T05:00:00.000Z"
   }
  ]
 }
