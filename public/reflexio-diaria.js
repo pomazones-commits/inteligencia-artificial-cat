@@ -1,33 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-11-10",
-  "title": "Tothom vol vigilar la IA, però encara no se sap qui farà de vigilant",
-  "dek": "Austràlia anuncia un regulador, un nou congressista nord-americà en demana un de federal i els laboratoris admeten que els seus models es fan cada cop més difícils d'examinar: avui la pregunta ja no és si cal controlar la IA, sinó qui en sap.",
+  "date": "2026-11-11",
+  "title": "Les nostres converses ja són la matèria primera de la IA",
+  "dek": "Google compra els xats d'una aerolínia desapareguda, un atac deixa a la vista converses amb l'assistent de Notion i Claude entra a les reunions: avui es veu fins a quin punt el que diem i escrivim és el combustible de la IA, i com de poc decidim on va a parar.",
   "body": [
-    "Aquest dimarts ha tingut dues cares. D'una banda, la de sempre: Anthropic ha posat preu a les accions per a la sortida a borsa, entre 70 i 78 dòlars, TSMC ha venut un 59,7% més a l'octubre que fa un any i Adobe ha obert els seus programes als xatbots de la competència. De l'altra, una cara menys vistosa però més nova: gairebé totes les notícies de política i de recerca del dia giren al voltant d'una mateixa pregunta. No es tracta de si la IA s'ha de controlar, que ja gairebé ningú no ho discuteix, sinó de qui la pot examinar de debò i amb quines eines.",
-    "Les respostes polítiques han arribat de dos llocs alhora. Austràlia crearà un regulador de seguretat de la IA, obligarà les empreses a declarar els incidents i sotmetrà els models més avançats a avaluacions independents, mesos després que un prototip d'OpenAI entrés en un web del govern i l'empresa no avisés fins al cap de tres mesos. Als Estats Units, Scott Wiener, l'autor de les lleis de seguretat de Califòrnia, ha guanyat l'escó de Pelosi i vol un regulador federal independent, amb auditories obligatòries i un mecanisme per aturar els sistemes. Cap de les dues propostes, però, és encara un text legal amb calendari i sancions.",
-    "El problema és que l'objecte que s'ha d'examinar es mou. Anthropic, en presentar Fable 5.2 i Mythos 5.2, ha avisat que els models cada cop sospiten més que els estan posant a prova, cosa que fa menys fiables les mateixes proves que els reguladors volen convertir en obligatòries. L'experiment d'Emergence hi afegeix una altra capa: deu agents que convivien en un món virtual es van inventar un argot propi, i quan tots eren del mateix model el llenguatge es tornava quatre vegades més opac. I Hugging Face admet que els atacs informàtics la poden obligar a tancar una mica la IA oberta, que és justament la que permet que tothom la revisi.",
-    "La recerca del dia hi aporta un matís útil: on la IA es pot verificar bé és on s'ha mesurat amb cura. L'assaig aleatoritzat de Kaiser Permanente demostra que una IA redacta informes d'ecografia del cor amb tanta qualitat com els professionals, i ho demostra perquè els cardiòlegs els revisaven sense saber qui els havia escrit. En canvi, el model que llegeix la salut a partir de la manera de caminar, publicat a «Nature Medicine», el signa la mateixa empresa que el ven. I l'estudi de la Universitat Brown recorda que més del 92% de les lleis contra els nus falsos només persegueixen qui els crea i qui els difon, no l'ecosistema que ho fa possible.",
-    "La tendència apunta a una fase nova en què el debat sobre la IA passa de les normes a la capacitat d'inspecció. Fins ara la discussió era quines regles calien; ara es veu que una regla sense ningú capaç de comprovar-la serveix de poc. A casa nostra ho il·lustra l'estudi de la UOC sobre els assistents i les eleccions del 29-N: ChatGPT recomana partit molt menys que al gener, però Grok ho fa en quatre de cada deu preguntes. Sense investigadors que facin aquestes preguntes, ningú no ho sabria. És una hipòtesi, però el que avui sembla escàs no són les lleis, sinó els avaluadors.",
-    "Demà caldrà mirar si Austràlia concreta qui farà les avaluacions independents i amb quins mitjans, i si algun altre govern s'hi afegeix. També si els laboratoris diuen com pensen fer proves a models que detecten que els estan provant, i si la sortida a borsa d'Anthropic, que obligarà l'empresa a explicar molt més als inversors, li fa explicar també més coses sobre els seus models als reguladors. I, en paral·lel, si continua el contrapunt d'avui: TSMC i els grans anuncis de producte diuen que la indústria no alenteix gens el ritme, mentre els qui l'han de vigilar tot just comencen a decidir com s'organitzen. La distància entre totes dues velocitats és el que caldrà seguir."
+    "Si s'han de llegir junts els titulars d'aquest dimecres, n'hi ha un que ho resumeix gairebé tot: Google té via lliure per quedar-se, per 10 milions de dòlars, uns 500 milions de missatges de xat i uns 100 milions de correus interns de Spirit Airlines, una companyia aèria que ja no vola, per entrenar els seus models. No és una notícia de tecnologia en sentit estricte, sinó de matèria primera. Les converses de feina de milers de persones, escrites sense pensar que mai servirien per a res més, s'han convertit en un actiu que es subhasta en una fallida i pel qual competeixen diverses empreses d'IA.",
+    "La mateixa jornada ha deixat la cara fosca d'aquest valor. Notion ha admès que l'atac a Fireworks AI, un proveïdor que feia funcionar part dels seus models, va deixar a la vista converses de clients amb el seu assistent. L'abast és petit, menys de l'1% dels espais de treball, però la lliçó és gran: el que escrivim a un xat d'empresa no es queda a l'empresa, sinó que passa per una cadena de proveïdors que l'usuari no coneix. I la recomanació de Notion, que es tractin aquelles dades com si fossin públiques i es canviïn les contrasenyes enganxades al xat, diu molt del que la gent hi arriba a posar.",
+    "Al mateix temps, la IA s'acosta cada cop més al lloc on es parla. Anthropic ha posat Claude dins de les videotrucades de Google Meet com un participant més, que redacta el pla mentre la gent discuteix; ElevenLabs presenta uns models que transcriuen la veu amb menys errors i ja distingeixen en directe qui parla, i OpenAI convida els negocis a tenir una fitxa a ChatGPT i a mirar quantes vegades l'assistent els esmenta. Fins i tot la recerca hi apunta: a Princeton han entrenat un model per a cada infant només amb la parla que va sentir a casa.",
+    "No és casualitat que això passi el dia que se sap que OpenAI ingressa uns 10.000 milions de dòlars en un trimestre i encara en perd gairebé 11.000. Els models necessiten text escrit per persones reals, i les empreses necessiten que aquests models s'instal·lin allà on es fa la feina per justificar el que costen. Les dues pressions empenyen cap al mateix lloc: entrar a la reunió, al correu i al xat, i quedar-se'n el que s'hi diu. L'informe AI100 de Stanford ho resumeix a la seva manera: la IA ja és d'ús massiu, però la ciutadania amb prou feines hi ha tingut veu.",
+    "Les respostes que han sortit avui són parcials. Els sindicats de Spirit han aconseguit treure de la venda les dades mèdiques, les proves de drogues i les nòmines dels treballadors, però no el contingut de les seves converses. Brussel·les proposa que es puguin apagar els xatbots que fingeixen una relació personal per retenir l'usuari, una mesura que toca com ens parla la màquina, no què fa amb el que li diem. I l'estudi de «PNAS Nexus» recorda que, quan la idea la posa la persona, el resultat és millor: la conversa humana no és només una matèria primera, sinó el que dona valor a la feina.",
+    "Demà caldrà seguir tres fils. El primer, si el jutjat de fallides dona el vistiplau definitiu a la compra de Google, que faria de les subhastes de dades una via normal per alimentar la IA. El segon, si Notion amplia el nombre d'afectats i si altres clients de Fireworks hi afegeixen el seu nom. I el tercer, més de fons: si cap regulador comença a tractar les converses que es fan a la feina, i no només les dades personals, com una cosa que mereix protecció pròpia."
   ],
   "signals": [
     {
-      "title": "Austràlia crearà un regulador de seguretat de la IA i obligarà les empreses a declarar els incidents i a sotmetre els models punters a avaluacions independents",
-      "slug": "australia-regulador-seguretat-ia-salvaguardes-obligatories"
+      "title": "Google té via lliure per comprar per 10 milions de dòlars els correus i els xats interns de Spirit Airlines per entrenar la seva IA",
+      "slug": "google-spirit-airlines-dades-entrenar-ia-sindicats"
     },
     {
-      "title": "Scott Wiener, l'autor de les lleis de seguretat de la IA de Califòrnia, guanya l'escó de Pelosi i vol un regulador federal independent",
-      "slug": "scott-wiener-congres-regulacio-federal-ia"
+      "title": "ACTUALITZACIÓ: Notion admet que l'atac a Fireworks AI va deixar a la vista converses de clients amb la seva IA",
+      "slug": "notion-converses-ia-exposades-atac-fireworks"
     },
     {
-      "title": "Anthropic presenta Fable 5.2 i Mythos 5.2, més ràpids i més barats, i avisa que els models cada cop sospiten més que els estan posant a prova",
-      "slug": "anthropic-fable-mythos-5-2"
+      "title": "Anthropic posa Claude a les videotrucades de feina perquè vagi fent el pla mentre la gent parla",
+      "slug": "anthropic-claude-meetings-reunions-pissarres-fulls-calcul"
     },
     {
-      "title": "Els agents d'IA que conviuen en un món virtual s'inventen un argot propi que costa cada cop més d'entendre, segons un experiment d'Emergence",
-      "slug": "agents-ia-inventen-dialectes-emergence"
+      "title": "OpenAI ingressa uns 10.000 milions de dòlars en un trimestre gràcies a les empreses, però continua perdent-ne gairebé 11.000",
+      "slug": "openai-ingressos-tercer-trimestre-10000-milions"
     }
   ],
   "read": "3 MIN",
-  "words": 661
+  "words": 613
 };

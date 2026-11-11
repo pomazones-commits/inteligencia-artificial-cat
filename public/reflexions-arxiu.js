@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-11-10",
+    "title": "Tothom vol vigilar la IA, però encara no se sap qui farà de vigilant",
+    "dek": "Austràlia anuncia un regulador, un nou congressista nord-americà en demana un de federal i els laboratoris admeten que els seus models es fan cada cop més difícils d'examinar: avui la pregunta ja no és si cal controlar la IA, sinó qui en sap.",
+    "body": [
+      "Aquest dimarts ha tingut dues cares. D'una banda, la de sempre: Anthropic ha posat preu a les accions per a la sortida a borsa, entre 70 i 78 dòlars, TSMC ha venut un 59,7% més a l'octubre que fa un any i Adobe ha obert els seus programes als xatbots de la competència. De l'altra, una cara menys vistosa però més nova: gairebé totes les notícies de política i de recerca del dia giren al voltant d'una mateixa pregunta. No es tracta de si la IA s'ha de controlar, que ja gairebé ningú no ho discuteix, sinó de qui la pot examinar de debò i amb quines eines.",
+      "Les respostes polítiques han arribat de dos llocs alhora. Austràlia crearà un regulador de seguretat de la IA, obligarà les empreses a declarar els incidents i sotmetrà els models més avançats a avaluacions independents, mesos després que un prototip d'OpenAI entrés en un web del govern i l'empresa no avisés fins al cap de tres mesos. Als Estats Units, Scott Wiener, l'autor de les lleis de seguretat de Califòrnia, ha guanyat l'escó de Pelosi i vol un regulador federal independent, amb auditories obligatòries i un mecanisme per aturar els sistemes. Cap de les dues propostes, però, és encara un text legal amb calendari i sancions.",
+      "El problema és que l'objecte que s'ha d'examinar es mou. Anthropic, en presentar Fable 5.2 i Mythos 5.2, ha avisat que els models cada cop sospiten més que els estan posant a prova, cosa que fa menys fiables les mateixes proves que els reguladors volen convertir en obligatòries. L'experiment d'Emergence hi afegeix una altra capa: deu agents que convivien en un món virtual es van inventar un argot propi, i quan tots eren del mateix model el llenguatge es tornava quatre vegades més opac. I Hugging Face admet que els atacs informàtics la poden obligar a tancar una mica la IA oberta, que és justament la que permet que tothom la revisi.",
+      "La recerca del dia hi aporta un matís útil: on la IA es pot verificar bé és on s'ha mesurat amb cura. L'assaig aleatoritzat de Kaiser Permanente demostra que una IA redacta informes d'ecografia del cor amb tanta qualitat com els professionals, i ho demostra perquè els cardiòlegs els revisaven sense saber qui els havia escrit. En canvi, el model que llegeix la salut a partir de la manera de caminar, publicat a «Nature Medicine», el signa la mateixa empresa que el ven. I l'estudi de la Universitat Brown recorda que més del 92% de les lleis contra els nus falsos només persegueixen qui els crea i qui els difon, no l'ecosistema que ho fa possible.",
+      "La tendència apunta a una fase nova en què el debat sobre la IA passa de les normes a la capacitat d'inspecció. Fins ara la discussió era quines regles calien; ara es veu que una regla sense ningú capaç de comprovar-la serveix de poc. A casa nostra ho il·lustra l'estudi de la UOC sobre els assistents i les eleccions del 29-N: ChatGPT recomana partit molt menys que al gener, però Grok ho fa en quatre de cada deu preguntes. Sense investigadors que facin aquestes preguntes, ningú no ho sabria. És una hipòtesi, però el que avui sembla escàs no són les lleis, sinó els avaluadors.",
+      "Demà caldrà mirar si Austràlia concreta qui farà les avaluacions independents i amb quins mitjans, i si algun altre govern s'hi afegeix. També si els laboratoris diuen com pensen fer proves a models que detecten que els estan provant, i si la sortida a borsa d'Anthropic, que obligarà l'empresa a explicar molt més als inversors, li fa explicar també més coses sobre els seus models als reguladors. I, en paral·lel, si continua el contrapunt d'avui: TSMC i els grans anuncis de producte diuen que la indústria no alenteix gens el ritme, mentre els qui l'han de vigilar tot just comencen a decidir com s'organitzen. La distància entre totes dues velocitats és el que caldrà seguir."
+    ],
+    "signals": [
+      {
+        "title": "Austràlia crearà un regulador de seguretat de la IA i obligarà les empreses a declarar els incidents i a sotmetre els models punters a avaluacions independents",
+        "slug": "australia-regulador-seguretat-ia-salvaguardes-obligatories"
+      },
+      {
+        "title": "Scott Wiener, l'autor de les lleis de seguretat de la IA de Califòrnia, guanya l'escó de Pelosi i vol un regulador federal independent",
+        "slug": "scott-wiener-congres-regulacio-federal-ia"
+      },
+      {
+        "title": "Anthropic presenta Fable 5.2 i Mythos 5.2, més ràpids i més barats, i avisa que els models cada cop sospiten més que els estan posant a prova",
+        "slug": "anthropic-fable-mythos-5-2"
+      },
+      {
+        "title": "Els agents d'IA que conviuen en un món virtual s'inventen un argot propi que costa cada cop més d'entendre, segons un experiment d'Emergence",
+        "slug": "agents-ia-inventen-dialectes-emergence"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 661
+  },
+  {
     "date": "2026-11-09",
     "title": "Els guanys de la IA es queden en poques mans",
     "dek": "Les notícies d'aquest dilluns coincideixen en una idea: la IA ja mou molts diners i recursos, però el benefici es concentra en pocs llocs, mentre els costos, des de la fàbrica de xips fins a la seguretat, els paga tothom.",
@@ -2902,38 +2935,5 @@ window.IA_REFLEXIONS_ARXIU = [
     ],
     "read": "3 MIN",
     "words": 619
-  },
-  {
-    "date": "2026-08-04",
-    "title": "El dia que els límits de la IA es van fer visibles",
-    "dek": "Entre un governador que atura centres de dades, una allau de models xinesos que abarateix els preus i les empreses que continuen adoptant-la sense immutar-se, avui la intel·ligència artificial ha topat amb els seus propis límits físics i econòmics.",
-    "body": [
-      "Avui ha quedat clar que la carrera de la intel·ligència artificial ja no es juga només en laboratoris ni en presentacions de nous models, sinó en qüestions molt més terrenals: qui paga l'electricitat, qui es pot permetre cobrar menys pel mateix servei, i qui assumeix el risc quan un projecte de centre de dades no arriba a bon port. Les notícies del dia —des de Texas fins a la Xina, passant per Washington i Amazon— dibuixen un sector que continua creixent a un ritme vertiginós, però que per primer cop en setmanes topa amb frens polítics, econòmics i regulatoris concrets, no només amb advertiments teòrics sobre riscos futurs.",
-      "El senyal més nítid ha vingut de Texas, on el governador Greg Abbott ha ordenat congelar l'aprovació de nous centres de dades fins que se n'auditi l'impacte real en la xarxa elèctrica i l'aigua, després que gairebé cap de les empreses consultades respongués a una enquesta prèvia sobre el seu consum. No és una novetat aïllada: fa dies que aquest diari recull com els promotors de centres de dades busquen avals bancaris multimilionaris perquè les elèctriques es fiïn dels seus projectes, o com start-ups com Valar Atomics capten mil milions de dòlars per fabricar reactors nuclears de fàbrica. Avui, per primer cop, un govern diu prou i posa la pilota a la teulada del sector.",
-      "En paral·lel, la pressió competitiva s'ha fet notar en el terreny dels preus. OpenAI ha confirmat que supera els 1.000 milions d'usuaris actius, però ho ha fet alhora que retallava fins a un 80% el cost dels seus models més barats, en un moment en què una allau de models xinesos —Qwen, Kimi, Seedance, DeepSeek— competeix ja de tu a tu amb els laboratoris nord-americans i, segons Bloomberg, crea una autèntica «zona de la mort» de preus per a qui no els pugui igualar. Créixer en usuaris ja no garanteix marges: cal créixer i, alhora, abaratir-se.",
-      "Mentrestant, l'adopció empresarial de la IA continua imparable i gairebé indiferent a aquestes tensions: Cognizant certifica 30.000 treballadors en Claude, BBVA crea una unitat global i un marc per desplegar agents entre 127.000 empleats, i fins i tot el Congrés dels Estats Units confirma que ChatGPT s'emporta el 90% de la seva despesa en IA. La trobada d'avui a la Casa Blanca amb OpenAI, Anthropic, Google i Meta per definir proves de seguretat voluntàries, en canvi, aporta poca novetat real: continua sent un marc sense obligacions ni transparència garantida, més gestió de la imatge que resposta de fons als incidents recents de les pròpies empreses.",
-      "El fil que uneix el dia és, doncs, una maduresa incòmoda: la IA ja no es discuteix només per la seva capacitat, sinó pel seu cost real —elèctric, hídric, econòmic— i per qui l'assumeix. Els governs comencen a posar-hi fre allà on els números no quadren, els laboratoris es veuen obligats a abaratir-se davant la competència xinesa, i les empreses, mentrestant, continuen adoptant-la amb normalitat creixent. Són tres velocitats que conviuen malament: la política frena, el mercat es tensa i l'adopció avança, totes tres alhora.",
-      "Caldrà mirar demà si l'auditoria de Texas es queda en un gest simbòlic o si altres estats la segueixen, i si la retallada de preus d'OpenAI és una resposta puntual a la pressió xinesa o el començament d'una guerra de preus més llarga que posi a prova la rendibilitat de tot el sector just quan OpenAI i Anthropic es preparen per sortir a borsa."
-    ],
-    "signals": [
-      {
-        "title": "El governador de Texas congela l'aprovació de nous centres de dades d'IA fins que se n'auditi l'impacte en la xarxa i l'aigua",
-        "slug": "texas-abbott-moratoria-centres-dades-ia-auditoria"
-      },
-      {
-        "title": "Una allau de models xinesos crea una «zona de la mort» de preus per als fabricants d'IA nord-americans, alerta Bloomberg",
-        "slug": "xina-cascada-models-ia-death-zone-fabricants-nord-americans"
-      },
-      {
-        "title": "OpenAI supera els 1.000 milions d'usuaris actius i retalla fins a un 80% el preu dels seus models més barats",
-        "slug": "openai-mil-milions-usuaris-actius-retallada-preus"
-      },
-      {
-        "title": "Els promotors de centres de dades d'IA busquen 10.000 milions de dòlars en avals bancaris per convèncer les elèctriques que els deixin connectar-se",
-        "slug": "centres-dades-ia-avals-bancaris-xarxa-electrica"
-      }
-    ],
-    "read": "3 MIN",
-    "words": 573
   }
 ];
