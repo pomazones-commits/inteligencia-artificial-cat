@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-11T05:14:21.367Z",
+ "actualitzat": "2026-11-11T09:13:22.111Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d3888ed89815",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Ibex 35 busca nuevos máximos al calor del optimismo por la IA",
+   "url": "https://www.informacion.es/economia/2026/11/11/ibex-35-busca-nuevos-maximos-136315876.html",
+   "publicat": "2026-11-11T08:03:34.000Z"
+  },
+  {
+   "id": "32f2c4e26b88",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Harvard dice que la IA no aumenta la productividad",
+   "url": "https://www.lavanguardia.com/neo/ia/20261111/11679847/harvard-dice-ia-aumenta-productividad.html",
+   "publicat": "2026-11-11T07:30:52.000Z"
+  },
+  {
+   "id": "b123108bf18b",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Así es Lori Huang, la discreta ingeniera esposa del CEO de Nvidia y madre de sus dos hijos",
+   "url": "https://www.elperiodico.com/es/gente/20261111/lori-huang-discreta-ingeniera-esposa-136296098",
+   "publicat": "2026-11-11T06:00:54.000Z"
+  },
+  {
+   "id": "caa77c506ebf",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "\"Coincidenc(IA)s\"",
+   "url": "https://www.elperiodico.com/es/entre-todos/participacion/ia-inteligencia-artificial-google-nvidia-jensen-huang-carta-lector-javier-gonzalez-136260388",
+   "publicat": "2026-11-11T06:00:51.000Z"
+  },
   {
    "id": "db1491c0abf8",
    "mitja": "Levante-EMV",
@@ -70,6 +114,17 @@
    "publicat": "2026-11-11T04:30:00.000Z"
   },
   {
+   "id": "fdcf67cb634c",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El cerebro humano frente a la IA",
+   "url": "https://www.lavanguardia.com/participacion/red-lectores/20261111/11679901/cerebro-humano-frente-ia.html",
+   "publicat": "2026-11-11T04:30:00.000Z"
+  },
+  {
    "id": "51dce178515a",
    "mitja": "Cinco Días",
    "font": "cincodias",
@@ -79,6 +134,17 @@
    "titol": "La crisis de Nvidia ensombrece el epicentro de la IA: cuatro gráficos para entender la relevancia del gigante tecnológico",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-11/la-crisis-de-nvidia-ensombrece-el-epicentro-de-la-ia-cuatro-graficos-para-entender-la-relevancia-del-gigante-tecnologico.html",
    "publicat": "2026-11-11T04:25:00.000Z"
+  },
+  {
+   "id": "a12666a62b18",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "eCityclick estrena oficina a Agrobiotech i treballa en una IA per a tràmits locals",
+   "url": "https://www.segre.com/ca/lleida/261111/ecityclick-estrena-oficina-agrobiotech-i-treballa-ia-per-tramits-locals_1393829.html",
+   "publicat": "2026-11-11T04:17:15.000Z"
   },
   {
    "id": "680c9bfd6a0a",
@@ -289,7 +355,7 @@
    "ambit": "catala",
    "titol": "Expertos apuestan por invertir en IA para la defensa del ciberespacio aunque advierten de que el riesgo cero no existe",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/10/2747183/expertos-apuestan-por-invertir-para-defensa-del-ciberespacio-aunque-advierten-riesgo-cero-existe.html",
-   "publicat": "2026-11-10T16:21:07.000Z"
+   "publicat": "2026-11-10T16:21:00.000Z"
   },
   {
    "id": "1d3e88805a6f",
@@ -2702,72 +2768,6 @@
    "titol": "CaixaBank reforça la seva protecció per les amenaces de la IA avançada",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/caixabank-reforca-seva-proteccio-amenaces-ia-avancada_1721144_102.html",
    "publicat": "2026-11-05T13:48:39.000Z"
-  },
-  {
-   "id": "20b7e94c7be8",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La Setmana de la Recerca oferirà 16 activitats sobre riscos naturals, intel·ligència artificial i salut",
-   "url": "https://www.diariandorra.ad/nacional/261105/setmana-recerca-oferira-16-activitats-sobre-riscos-naturals-intel-ligencia-artificial-i-salut_208118.html",
-   "publicat": "2026-11-05T13:17:04.000Z"
-  },
-  {
-   "id": "b561386b41c7",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Motorola signature 27 llega este gama alta con IA de nueva generación y gran pantalla",
-   "url": "https://cincodias.elpais.com/smartlife/smartphones/2026-11-05/motorola-signature-27-caracteristicas-precio.html",
-   "publicat": "2026-11-05T13:05:00.000Z"
-  },
-  {
-   "id": "2b2697e4dd32",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los neobancos le ganan a la banca tradicional la venta de acciones de Anthropic en España",
-   "url": "https://www.lavanguardia.com/dinero/20261105/11676842/neobancos-le-ganan-banca-tradicional-venta-acciones-anthropic-espana.html",
-   "publicat": "2026-11-05T12:01:34.000Z"
-  },
-  {
-   "id": "a9e4a540d06a",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Apple vol que els seus empleats facin servir menys IA: redueix el pressupost per a eines com ChatGPT",
-   "url": "https://www.elnacional.cat/ca/tecnologia/apple-vol-seus-empleats-facin-servir-menys-ia-redueix-pressupost-eines-com-chatgpt_1721057_102.html",
-   "publicat": "2026-11-05T12:00:00.000Z"
-  },
-  {
-   "id": "476d840628f2",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "VEGA BAJA | Torrevieja traslada al 19 de noviembre el IV Encuentro de Asociaciones, que abordará el uso de la inteligencia artificial",
-   "url": "https://alicanteplaza.es/alicanteplaza/orihuela1/torrevieja-traslada-al-19-de-noviembre-el-iv-encuentro-de-asociaciones-que-abordara-el-uso-de-la-inteligencia-artificial",
-   "publicat": "2026-11-05T11:36:09.000Z"
-  },
-  {
-   "id": "5918989faf12",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El buscador DuckDuckGo se postula en las escuelas como la alternativa que no obliga a usar la IA frente a Google",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/05/2743613/buscador-duckduckgo-postula-escuelas-como-alternativa-obliga-usar-frente-google.html",
-   "publicat": "2026-11-05T11:00:00.000Z"
   }
  ]
 }
