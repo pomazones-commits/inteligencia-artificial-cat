@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-11T17:15:23.063Z",
+ "actualitzat": "2026-11-11T19:53:25.953Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "eecab56ddfbf",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Adobe y Google amplían su alianza: más intercambio de herramientas y modelos IA",
+   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-11/adobe-google-amplian-alianza.html",
+   "publicat": "2026-11-11T19:00:00.000Z"
+  },
+  {
+   "id": "1a0210c9c87b",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El PP fa befa dels sindicalistes amb una imatge, feta per IA, on apareixen menjant marisc i el PSOE es regira",
+   "url": "https://www.elnacional.cat/ca/politica/pp-fa-befa-sindicalistes-imatge-feta-ia-on-apareixen-menjant-marisc-psoe-es-regira_1724126_102.html",
+   "publicat": "2026-11-11T18:24:11.000Z"
+  },
+  {
+   "id": "8398e8a00d28",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Gemini Intelligence arriba als Pixel 10 amb l'actualització Pixel Drop de novembre",
+   "url": "https://www.elnacional.cat/ca/tecnologia/gemini-intelligence-arriba-pixel-10-actualitzacio-pixel-drop-novembre_1724111_102.html",
+   "publicat": "2026-11-11T18:00:00.000Z"
+  },
+  {
+   "id": "b70eacf49329",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Taiwán revoca el permiso de entrada de Alice Huang, la presunta espía en el centro del escándalo de Nvidia",
+   "url": "https://elpais.com/internacional/2026-11-11/taiwan-revoca-el-permiso-de-entrada-de-alice-huang-la-presunta-espia-en-el-centro-del-escandalo-de-nvidia.html",
+   "publicat": "2026-11-11T17:53:15.000Z"
+  },
+  {
+   "id": "7a3f093e5586",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La relació del conseller delegat de Nvidia amb una suposada espia va facilitar l'enviament de xips a la Xina per valor de 7.500 milions de dòlars",
+   "url": "https://www.ara.cat/economia/tecnologia/relacio-conseller-delegat-nvidia-suposada-espia-facilitar-l-enviament-xips-xina-7-500-milions-dolars_1_5907377.html",
+   "publicat": "2026-11-11T17:11:35.000Z"
+  },
   {
    "id": "bbad414bcc95",
    "mitja": "El Nacional",
@@ -2709,61 +2764,6 @@
    "titol": "La inteligencia artificial redefine las decisiones que marcarán el futuro de las empresas",
    "url": "https://www.lavanguardia.com/economia/20261106/11674784/inteligencia-artificial-redefine-decisiones-marcaran-futuro-empresas-brl.html",
    "publicat": "2026-11-06T04:50:00.000Z"
-  },
-  {
-   "id": "48e494042737",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "IA soberana: la apuesta de las grandes empresas para ocultar sus datos a los tecnoligarcas estadounidenses",
-   "url": "https://elpais.com/tecnologia/2026-11-06/ia-soberana-la-apuesta-de-las-grandes-empresas-para-ocultar-sus-datos-a-los-tecnoligarcas-estadounidenses.html",
-   "publicat": "2026-11-06T04:30:01.000Z"
-  },
-  {
-   "id": "f3e4c53dc3b0",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El mes que hizo temblar a la IA",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-06/el-mes-que-hizo-temblar-a-la-ia.html",
-   "publicat": "2026-11-06T04:30:01.000Z"
-  },
-  {
-   "id": "679f5362d3cc",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Universidad de Alicante plantea las claves para limitar la brecha generacional de la IA",
-   "url": "https://www.lavanguardia.com/local/valencia/20261106/11677095/universidad-alicante-plantea-claves-limitar-brecha-generacional-ia.html",
-   "publicat": "2026-11-06T04:00:00.000Z"
-  },
-  {
-   "id": "2086998070a7",
-   "mitja": "El Punt Avui",
-   "font": "elpuntavui-societat",
-   "icona": "/assets/premsa/el-punt-avui.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Projecte Pigall: serveis socials millorats amb la IA",
-   "url": "https://www.elpuntavui.cat/societat/article/5-societat/2687872-projecte-pigall-serveis-socials-millorats-amb-la-ia.html",
-   "publicat": "2026-11-06T01:00:00.000Z"
-  },
-  {
-   "id": "b2b4f565195e",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La gestión de los espacios naturales mira a los datos y la IA",
-   "url": "https://www.lasprovincias.es/sociedad/gestion-espacios-naturales-mira-datos-ia-20261105004902-nt.html",
-   "publicat": "2026-11-05T23:49:02.000Z"
   }
  ]
 }
