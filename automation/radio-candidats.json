@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-10T17:15:10.350Z",
+  "generat": "2026-11-11T00:11:19.137Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -72,7 +72,7 @@
       "programa": "La tarda de Ràdio 4",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 1
     },
     {
       "font": "rtve",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 35,
+      "audios": 31,
       "sobre_ia": 2
     },
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 18,
+      "audios": 19,
       "sobre_ia": 0
     },
     {
@@ -173,11 +173,28 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 400,
+      "audios": 300,
       "sobre_ia": 2
     }
   ],
   "candidats": [
+    {
+      "id": "3cat-1297192",
+      "emissora": "Catalunya Ràdio",
+      "programa": "Catalunya nit",
+      "programa_url": "https://www.3cat.cat/3cat/catalunya-nit/",
+      "data": "2026-11-10",
+      "durada": "12 min",
+      "titol_original": "Román Orús: \"Em sorprèn que TikTok no doni ordres a l'algoritme perquè es comporti adequadament\"",
+      "descripcio_original": "La IA torna a estar al centre de la polèmica: des del paper dels algoritmes en la difusió de continguts d'abusos a menors fins a l'obsessió d'Elon Musk per reinventar el cinema amb IA. Què està passant al sector i qui en paga les conseqüències? Ho analitzem amb Román Orús, membre del Panel Científic Internacional sobre Intel·ligència Artificial de l'ONU.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/roman-orus-em-sorpren-que-tiktok-no-doni-ordres-a-lalgoritme-perque-es-comporti/audio/1297192/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1297192"
+      }
+    },
     {
       "id": "apunt-1907987",
       "emissora": "À Punt Ràdio",
