@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-10T21:25:57.763Z",
+ "actualitzat": "2026-11-11T05:14:06.989Z",
  "canals": 19,
  "videos": [
   {
@@ -1017,18 +1017,6 @@
    "noticia": "jensen-huang-berlin-industria-alemanya-ia-fisica",
    "noticiaTitol": "Jensen Huang demana a la indústria alemanya que adopti la IA: «Els electrons mai no substituiran els àtoms»",
    "resum": "Discurs inaugural del GTC Berlín 2026, en què el director general de NVIDIA, Jensen Huang, s'adreça a la indústria europea. És la intervenció que dona context a la notícia; el vídeo és en anglès."
-  },
-  {
-   "id": "8n-SXxRIrm8",
-   "titol": "Build a Better Shopping Experience with OpenAI | Shopping Agent Demo",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-20T22:57:52.000Z",
-   "descripcio": "See how an AI shopping agent can turn a room photo into a personalized shopping experience—from finding the right products to updating an order. In this demo for fictional home goods retailer Vesper & Alder, a shopper uses voice and images to create a cozy reading nook. The agent recommends products",
-   "miniatura": "/assets/videos/8n-SXxRIrm8.jpg"
   },
   {
    "id": "Jh6mgf9M06M",
