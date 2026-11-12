@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-12T09:14:47.241Z",
+ "actualitzat": "2026-11-12T11:51:46.085Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "vu3YlUMkvyg",
+   "titol": "What Codex Unlocks for Holiday Extras",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-12T09:45:17.000Z",
+   "descripcio": "What happens when the people who understand your customers can build the software to help them? At Holiday Extras, Codex is helping turn that ambition into reality—from rebuilding its main app in two weeks to responding faster to customer feedback. Hear how CEO Matthew Pack, David Lee and Liam Thomp",
+   "miniatura": "/assets/videos/vu3YlUMkvyg.jpg"
+  },
   {
    "id": "NS220dAaRMo",
    "titol": "How to request and enable Daybreak Blue",
