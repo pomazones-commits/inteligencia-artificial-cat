@@ -1,8 +1,305 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-12T13:13:29.740Z",
+ "actualitzat": "2026-11-12T17:15:01.868Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "c6ceea0fa19b",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Caso Nvidia: un divorcio de 74.000 millones de euros",
+   "url": "https://www.diariodemallorca.es/economia/2026/11/12/caso-nvidia-divorcio-74-000-136381545.html",
+   "publicat": "2026-11-12T17:14:23.000Z"
+  },
+  {
+   "id": "23359384c12a",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Trump vol que Tim Cook, ex CEO d'Apple, dirigeixi NVIDIA després de la sortida de Jensen Huang",
+   "url": "https://www.elnacional.cat/ca/tecnologia/trump-vol-tim-cook-exceo-apple-sigui-director-executiu-nvidia-despres-sortida-jensen-huang_1724723_102.html",
+   "publicat": "2026-11-12T16:52:00.000Z"
+  },
+  {
+   "id": "3479a02eabc7",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-tec",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Google lanza nuevas gafas inteligentes y blinda la privacidad para esquivar las “gafas de pervertido”",
+   "url": "https://www.lavanguardia.com/tecnologia/20261112/11682738/google-lanza-nuevas-gafas-inteligentes-blinda-privacidad-esquivar-gafas-pervertido.html",
+   "publicat": "2026-11-12T16:41:09.000Z"
+  },
+  {
+   "id": "10bd257fb6eb",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Digital-IA llega a Callosa de Segura para acercar la inteligencia artificial a la ciudadanía y al tejido profesional",
+   "url": "https://www.informacion.es/economia/2026/11/12/digital-ia-llega-callosa-segura-bc-136378778.html",
+   "publicat": "2026-11-12T16:35:51.000Z"
+  },
+  {
+   "id": "52fd3c60b043",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anna Castillo protagoniza la campaña de Igualdad por el 25-N, que denuncia los 'deepfakes' sexuales",
+   "url": "https://www.elperiodico.com/es/sociedad/20261112/campana-igualdad-25n-violencia-digital-136378069",
+   "publicat": "2026-11-12T16:29:11.000Z"
+  },
+  {
+   "id": "735f2fd2e22b",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Quién será el ganador o ganadora de 'Supervivientes All Stars' según la IA",
+   "url": "https://www.lasprovincias.es/culturas/tv/supervivientes-all-stars-ganador-llevara-victoria-hoy-20261112171416-nt.html",
+   "publicat": "2026-11-12T16:20:50.000Z"
+  },
+  {
+   "id": "3ae0aa7e7e26",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Huawei lanza LUTERRA S2, su sistema energético para el hogar con inversor híbrido, batería y gestión energética con IA",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/12/2748613/huawei-lanza-luterra-sistema-energetico-para-hogar-inversor-hibrido-bateria-gestion-energetica-ia.html",
+   "publicat": "2026-11-12T16:12:00.000Z"
+  },
+  {
+   "id": "57f06bb25656",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia se desploma hasta un 14% y pone en riesgo 600.000 millones tras la dimisión de Huang por el escándalo de espionaje",
+   "url": "https://www.elperiodico.com/es/economia/20261112/nvidia-desploma-14-pone-riesgo-136377487",
+   "publicat": "2026-11-12T15:57:52.000Z"
+  },
+  {
+   "id": "54d134a8a364",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia sufre en Bolsa tras anunciar el adiós de su CEO",
+   "url": "https://elpais.com/economia/2026-11-12/nvidia-se-hunde-en-bolsa-tras-anunciar-el-adios-de-su-ceo.html",
+   "publicat": "2026-11-12T15:50:11.000Z"
+  },
+  {
+   "id": "ff6a06cb4656",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Quién es Colette Kress, la ejecutiva que releva a Jensen Huang al frente de Nvidia",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261112/colette-kress-releva-jensen-huang-nvidia-dimision-bolsa-espia-escandalo-136373291",
+   "publicat": "2026-11-12T15:41:54.000Z"
+  },
+  {
+   "id": "50101bac9c7b",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Gemini, la IA de Google, arriba a Apple CarPlay",
+   "url": "https://www.elnacional.cat/ca/tecnologia/gemini-ia-google-arriba-apple-carplay_1724603_102.html",
+   "publicat": "2026-11-12T15:30:00.000Z"
+  },
+  {
+   "id": "8c9d408b5fa2",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alice Huang, la presunta espía que ha tumbado al CEO de Nvidia, regresa a Pekín",
+   "url": "https://www.elperiodico.com/es/internacional/20261112/alice-huang-presunta-espia-nvidia-136375970",
+   "publicat": "2026-11-12T15:24:13.000Z"
+  },
+  {
+   "id": "321499de66f9",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Quién es Colette Kress, la nueva consejera delegada de Nvidia tras la polémica renuncia de Jensen Huang",
+   "url": "https://www.lavanguardia.com/economia/20261112/11682658/colette-kress-consejera-delegada-nvidia-jensen-huang.html",
+   "publicat": "2026-11-12T15:03:48.000Z"
+  },
+  {
+   "id": "d57e351cb85b",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Dimite el CEO de Nvidia tras una relación extramatrimonial con una presunta espía china",
+   "url": "https://www.diaridetarragona.com/economia/275555/dimite-efecto-inmediato-ceo-nvidia-jensen-huang-escandalo-infidelidad-supuesto-espionaje.html",
+   "publicat": "2026-11-12T14:56:27.000Z"
+  },
+  {
+   "id": "db6f3c9ab68a",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Qui és Alice Huang, l'empresària xinesa que ha trasbalsat Nvidia",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/qui-es-alice-huang-empresaria-xinesa-que-ha-trasbalsat-nvidia_1722836_102.html",
+   "publicat": "2026-11-12T14:55:00.000Z"
+  },
+  {
+   "id": "1d92d19f1624",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Dimite Jensen Huang como CEO de Nvidia tras los escándalos sobre sus infidelidades",
+   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/12/2748561/dimite-jensen-huang-como-ceo-nvidia-tras-escandalos-sobre-infidelidades-1.html",
+   "publicat": "2026-11-12T14:51:00.000Z"
+  },
+  {
+   "id": "d3eacfde5f6e",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Jensen Huang renuncia com a CEO de Nvidia i un directiu d'Apple figura entre els possibles substituts",
+   "url": "https://www.elnacional.cat/ca/tecnologia/jensen-huang-renuncia-com-ceo-nvidia-directiu-apple-figura-entre-possibles-substituts_1724573_102.html",
+   "publicat": "2026-11-12T14:42:00.000Z"
+  },
+  {
+   "id": "becf6f9ea082",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Jensen Huang, la estrella de la IA que se apaga entre escándalos sexuales",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261112/jensen-huang-ia-nvidia-escandalo-amante-espia-chips-china-136359539",
+   "publicat": "2026-11-12T14:28:16.000Z"
+  },
+  {
+   "id": "4d84326c7bfe",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El CEO de Nvidia dimitix arrossegat per l'escàndol de les infidelitats amb una presumpta espia xinesa i una subordinada",
+   "url": "https://www.apuntmedia.es/noticies/mon/ceo-nvidia-dimitix-arrossegat-l-escandol-infidelitats-una-presumpta-espia-xinesa-una-subordinada_1_1908461.html",
+   "publicat": "2026-11-12T14:23:51.000Z"
+  },
+  {
+   "id": "84eb9e05a76a",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Sanitat destina 1,4 milions a implantar intel·ligència artificial per a detectar el càncer de pell en els centres de salut",
+   "url": "https://www.informacion.es/en-valencia/2026/11/12/sanitat-destina-1-4-milions-136373119.html",
+   "publicat": "2026-11-12T14:20:22.000Z"
+  },
+  {
+   "id": "1d32f6b4a31e",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Jensen Huang dimiteix com a CEO de Nvidia per l'escàndol amb la presumpta espia xinesa i les infidelitats",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/jensen-huang-dimiteix-com-ceo-nvidia-escandol-presumpta-espia-xinesa-infidelitats_1724549_102.html",
+   "publicat": "2026-11-12T14:10:00.000Z"
+  },
+  {
+   "id": "c7c431b74ff6",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Jensen Huang dimiteix com a conseller delegat de Nvidia arran dels escàndols extramatrimonials",
+   "url": "https://www.vilaweb.cat/noticies/jensen-huang-dimiteix-conseller-delegat-nvidia-escandol-extramatrimonials",
+   "publicat": "2026-11-12T14:06:07.000Z"
+  },
+  {
+   "id": "7cc713ce5861",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA acaba dándote la razón si insistes, aunque defiendas un disparate",
+   "url": "https://www.levante-emv.com/tendencias21/ia-acaba-dandote-razon-insistes-136372783.html",
+   "publicat": "2026-11-12T14:03:37.000Z"
+  },
+  {
+   "id": "7e2b8a30b57e",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Jensen Huang dimite como jefe de Nvidia tras sus infidelidades con una espía china y una compañera",
+   "url": "https://www.lavanguardia.com/economia/20261112/11682618/ceo-nvidia-jensen-huang-dimite-escandalos-relacion-espia-china-companera-trabajo.html",
+   "publicat": "2026-11-12T14:00:06.000Z"
+  },
+  {
+   "id": "96420e4638d0",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Jensen Huang renuncia como consejero delegado de Nvidia forzado por el escándalo sobre sus infidelidades y el caso de espionaje",
+   "url": "https://elpais.com/us/2026-11-12/jensen-huang-dimite-como-consejero-delegado-de-nvidia-tras-destaparse-el-escandalo-sobre-sus-infidelidades-y-el-caso-de-espionaje.html",
+   "publicat": "2026-11-12T13:59:47.000Z"
+  },
+  {
+   "id": "36521ece6e7a",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Jensen Huang, CEO de Nvidia, dimite tras el escándalo de su relación con una espía china y con otra ejecutiva de su empresa",
+   "url": "https://www.eldiario.es/tecnologia/jensen-huang-ceo-nvidia-dimite-escandalo-relacion-espia-ejecutiva-empresa_1_13658787.html",
+   "publicat": "2026-11-12T13:56:44.000Z"
+  },
+  {
+   "id": "8766af2e52d3",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El ascenso de los hijos de Huang en Nvidia aviva las dudas por la gobernanza: de chef y barman a ejecutivos de la mayor compañía del mundo",
+   "url": "https://elpais.com/us/2026-11-12/el-ascenso-de-los-hijos-de-huang-en-nvidia-aviva-las-dudas-por-la-gobernanza-de-chef-y-barman-a-ejecutivos-de-la-mayor-compania-del-mundo.html",
+   "publicat": "2026-11-12T12:50:39.000Z"
+  },
   {
    "id": "c1fdd733f046",
    "mitja": "Cinco Días",
@@ -45,7 +342,7 @@
    "ambit": "catala",
    "titol": "Un fallo en los enlaces de aplicaciones generados por Grok Build deja expuestas más de 35.000 'apps' con datos privados",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/12/2748439/fallo-enlaces-aplicaciones-generados-por-grok-build-deja-expuestas-mas-35000-apps-datos-privados.html",
-   "publicat": "2026-11-12T12:09:19.000Z"
+   "publicat": "2026-11-12T12:09:00.000Z"
   },
   {
    "id": "4d81cdbf5038",
@@ -54,7 +351,7 @@
    "icona": "/assets/premsa/vilaweb.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Elon Musk ofereix feina a Jensen Huang si és destituït de Nvidia",
+   "titol": "Elon Musk ofereix feina a Jensen Huang després d’haver estat destituït de Nvidia",
    "url": "https://www.vilaweb.cat/noticies/elon-musk-ofereix-feina-a-jensen-huang-si-es-destituit-de-nvidia",
    "publicat": "2026-11-12T11:57:42.000Z"
   },
@@ -98,7 +395,7 @@
    "icona": "/assets/premsa/3catinfo.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "El CEO de Nvidia, a la corda fluixa pel suposat espionatge: patacada al valor de l'empresa",
+   "titol": "Dimiteix el CEO de Nvidia després del suposat espionatge i la patacada del valor de l'empresa",
    "url": "https://www.3cat.cat/3catinfo/el-ceo-de-nvidia-a-la-corda-fluixa-pel-suposat-espionatge-patacada-del-valor-de-lempresa/noticia/3439305",
    "publicat": "2026-11-12T10:24:18.000Z"
   },
@@ -175,7 +472,7 @@
    "icona": "/assets/premsa/ara.svg",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Nvidia explora destituir el conseller delegat arran de l’escàndol de l’amant espia",
+   "titol": "Jensen Huang, conseller delegat de Nvidia, dimiteix pels escàndols amorosos",
    "url": "https://www.ara.cat/economia/tecnologia/accions-nvidia-cauen-possible-destitucio-huang-arran-l-escandol-l-amant-espia_1_5907885.html",
    "publicat": "2026-11-12T09:23:57.000Z"
   },
@@ -191,13 +488,24 @@
    "publicat": "2026-11-12T09:19:00.000Z"
   },
   {
+   "id": "d6fdaaa4541e",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El IBEX pierde los 20.000 puntos y cede un 0,31 % por el efecto Nvidia y los resultados",
+   "url": "https://www.informacion.es/economia/2026/11/12/ibex-35-mantiene-20-000-puntos-resultados-empresariales-136356446.html",
+   "publicat": "2026-11-12T08:47:01.000Z"
+  },
+  {
    "id": "e03dbd33939f",
    "mitja": "Cinco Días",
    "font": "cincodias",
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "¿Quién sustituirá a Jensen Huang como CEO de Nvidia? Un ingeniero y la directora financiera, entre los candidatos favoritos",
+   "titol": "¿Quién puede sustituir a Jensen Huang como consejero delegado de Nvidia? Un ingeniero y la directora financiera, entre los candidatos favoritos",
    "url": "https://elpais.com/economia/2026-11-12/quien-sustituira-a-jensen-huang-como-ceo-de-nvidia-un-ingeniero-y-la-directora-financiera-entre-los-candidatos-favoritos.html",
    "publicat": "2026-11-12T08:44:17.000Z"
   },
@@ -252,7 +560,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Elon Musk asegura que “sería un honor” contratar a Jensen Huang, en la rampa de salida de Nvidia",
+   "titol": "Elon Musk asegura que “sería un honor” contratar al Jensen Huang tras su salida de Nvidia",
    "url": "https://www.lavanguardia.com/economia/20261112/11682184/elon-musk-asegura-seria-honor-contratar-jensen-huang-rampa-salida-nvidia.html",
    "publicat": "2026-11-12T07:29:02.000Z"
   },
@@ -274,7 +582,7 @@
    "icona": "/assets/premsa/informacion.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Nvidia prepara la destitución de su consejero delegado tras destaparse otra relación extramatrimonial con una empleada",
+   "titol": "Jensen Huang dimite como director ejecutivo de Nvidia tras el escándalo por sus relaciones con una presunta espía y una empleada",
    "url": "https://www.informacion.es/internacional/2026/11/12/nvidia-estudia-cesar-consejero-delegado-jensen-huang-relacion-presunta-espia-china-136352926.html",
    "publicat": "2026-11-12T06:21:29.000Z"
   },
@@ -307,9 +615,20 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Desplome de casi un 8% de las acciones de Nvidia ante las dudas sobre el futuro de Jensen Huang",
+   "titol": "Las acciones de Nvidia se desploman casi un 8% tras la dimisión de su CEO Jensen Huang",
    "url": "https://www.lavanguardia.com/economia/20261112/11682166/desplome-8-acciones-nvidia-dudas-sobre-futuro-jensen-huang.html",
    "publicat": "2026-11-12T05:22:58.000Z"
+  },
+  {
+   "id": "812b6b7856ea",
+   "mitja": "El Periódico",
+   "font": "elperiodico-tec",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Jensen Huang dimiteix com a CEO de Nvidia després de l’escàndol per les seves relacions amb una presumpta espia i una empleada",
+   "url": "https://www.elperiodico.cat/internacional/20261112/nvidia-estudia-cessar-conseller-delegat-jensen-huang-relacio-presumpta-espia-xinesa-136352946",
+   "publicat": "2026-11-12T05:21:29.000Z"
   },
   {
    "id": "48879f6ee091",
@@ -708,6 +1027,17 @@
    "publicat": "2026-11-11T05:01:10.000Z"
   },
   {
+   "id": "f2c27f238496",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Fundación Jóvenes y Deporte sitúa la inteligencia artificial y sus aplicaciones prácticas en el centro del debate",
+   "url": "https://www.elperiodico.com/es/economia/20261111/fundacion-jovenes-deporte-situa-inteligencia-136376563",
+   "publicat": "2026-11-11T05:00:52.000Z"
+  },
+  {
    "id": "432bf84eadf6",
    "mitja": "Alicante Plaza",
    "font": "alicanteplaza",
@@ -1079,7 +1409,7 @@
    "icona": "/assets/premsa/informacion.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "La infidelidad que ha desatado una crisis nacional: cronología del escándalo sexual y político que azota al director de Nvidia",
+   "titol": "La infidelidad que ha desatado una crisis nacional: cronología del escándalo sexual y político que ha tumbado al director de Nvidia",
    "url": "https://www.informacion.es/internacional/2026/11/10/cuernos-crisis-eeuu-jensen-huang-espia-nvidia-china-espionaje-ia-trump-136289795.html",
    "publicat": "2026-11-10T13:32:16.000Z"
   },
@@ -2430,338 +2760,6 @@
    "titol": "La IA entra a les maletes",
    "url": "https://www.diariandorra.ad/nacional/261108/ia-entra-les-maletes_208291.html",
    "publicat": "2026-11-08T04:37:32.000Z"
-  },
-  {
-   "id": "38a8c4d57ca8",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Peio Belausteguigoitia: \"La intel·ligència artificial democratitza el coneixement i ens fa replantejar a tots com ens relacionem\"",
-   "url": "https://www.diaridegirona.cat/economia/2026/11/08/peio-belausteguigoitia-intelligencia-artificial-democratitza-136212552.html",
-   "publicat": "2026-11-08T04:30:58.000Z"
-  },
-  {
-   "id": "d8a21841826d",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Peio Belausteguigoitia: \"La inteligencia artificial democratiza el conocimiento y nos hace replantear a todos cómo nos relacionamos\"",
-   "url": "https://www.elperiodico.com/es/economia/20261108/inteligencia-artificial-jornadas-bbva-bc-136098172",
-   "publicat": "2026-11-08T04:30:58.000Z"
-  },
-  {
-   "id": "6cab959faba1",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "De la nevera al agua del grifo o la luz: los ciberataques ya impactan en la vida cotidiana",
-   "url": "https://elpais.com/tecnologia/2026-11-08/de-la-nevera-al-agua-del-grifo-o-la-luz-los-ciberataques-ya-impactan-en-la-vida-cotidiana.html",
-   "publicat": "2026-11-08T04:30:01.000Z"
-  },
-  {
-   "id": "8c681f76345b",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Política, IA i les 'midterm'",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/politica-ia-midterm_1721477_102.html",
-   "publicat": "2026-11-08T04:30:00.000Z"
-  },
-  {
-   "id": "8ffb2fcbeaa0",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA no és un perill si la persona decideix",
-   "url": "https://www.segre.com/ca/opinio/lideratge/261108/ia-perill-persona-decideix_1390867.html",
-   "publicat": "2026-11-08T04:23:24.000Z"
-  },
-  {
-   "id": "7ecc8548068e",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La Urbana de Lleida preveu incorporar IA a càmeres de vigilància al desembre",
-   "url": "https://www.segre.com/ca/lleida/261108/urbana-lleida-preveu-incorporar-ia-cameres-vigilancia-desembre_1390859.html",
-   "publicat": "2026-11-08T04:23:15.000Z",
-   "noticia": "guardia-urbana-lleida-ia-cameres-desembre",
-   "noticiaTitol": "La Guàrdia Urbana de Lleida començarà a provar al desembre la IA en 70 càmeres de vigilància, la majoria al Centre Històric"
-  },
-  {
-   "id": "a3b844a5c10a",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Àlex Surroca, expert en IA: «La IA donarà suport al policia, no el substituirà»",
-   "url": "https://www.segre.com/ca/lleida/261108/ia-donara-suport-policia-substituira_1390843.html",
-   "publicat": "2026-11-08T04:21:11.000Z"
-  },
-  {
-   "id": "a2de928e50fb",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Estimar la IA",
-   "url": "https://www.diaridetarragona.com/opinion/tribuna/275152/estimar-ia.html",
-   "publicat": "2026-11-08T04:00:00.000Z"
-  },
-  {
-   "id": "f4b41f90e4fa",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA arriba per quedar-se",
-   "url": "https://www.diaridetarragona.com/opinion/el-voraviu/275153/ia-per-quedar.html",
-   "publicat": "2026-11-08T04:00:00.000Z"
-  },
-  {
-   "id": "ff002b514144",
-   "mitja": "El Punt Avui",
-   "font": "elpuntavui-societat",
-   "icona": "/assets/premsa/el-punt-avui.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA ens farà més llestos o més dependents?",
-   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2688005-la-ia-ens-fara-mes-llestos-o-mes-dependents.html",
-   "publicat": "2026-11-08T01:00:00.000Z"
-  },
-  {
-   "id": "5ff386d17616",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El rechazo demócrata a los centros de datos amenaza el crecimiento de la IA",
-   "url": "https://www.lavanguardia.com/economia/20261108/11678811/rechazo-democrata-centros-datos-amenaza-crecimiento-ia.html",
-   "publicat": "2026-11-07T23:05:00.000Z"
-  },
-  {
-   "id": "71883b521565",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El mundo se descubre cibervulnerable a causa de la inteligencia artificial",
-   "url": "https://www.lavanguardia.com/dinero/20261108/11678242/mundo-descubre-cibervulnerable-causa-inteligencia-artificial.html",
-   "publicat": "2026-11-07T23:05:00.000Z"
-  },
-  {
-   "id": "da481c182393",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tormenta política y bursátil sobre la IA",
-   "url": "https://www.lavanguardia.com/opinion/20261108/11678817/tormenta-politica-bursatil-sobre-ia.html",
-   "publicat": "2026-11-07T23:05:00.000Z"
-  },
-  {
-   "id": "52432f53639f",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA no vol dir-me a qui he de votar, però...",
-   "url": "https://www.ara.cat/media/ia-no-vol-dir-he-votar_129_5903477.html",
-   "publicat": "2026-11-07T18:42:06.000Z"
-  },
-  {
-   "id": "532f969fc8ab",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "¿Ha empezado ya el estallido de la burbuja de la IA? Esto es lo que nos dice el desplome de las bolsas",
-   "url": "https://www.eldiario.es/tecnologia/empezado-estallido-burbuja-ia-dice-desplome-bolsas_1_13646581.html",
-   "publicat": "2026-11-07T17:48:24.000Z"
-  },
-  {
-   "id": "786716a0534d",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L'editorial Almadía manté el premi a David Silva Rojas, l'autor acusat d'escriure una novel·la amb IA",
-   "url": "https://www.3cat.cat/3catinfo/leditorial-almadia-mante-el-premi-a-lautor-acusat-descriure-una-novella-amb-ia/noticia/3438468",
-   "publicat": "2026-11-07T14:57:09.000Z"
-  },
-  {
-   "id": "6127e88c90c8",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La UPV crea un espectáculo pionero con la IA del cocreador de Audacity",
-   "url": "https://www.lasprovincias.es/alicante/upv-crea-espectaculo-pionero-ia-audacity-20261107122623-nt.html",
-   "publicat": "2026-11-07T11:27:28.000Z"
-  },
-  {
-   "id": "738a50b5f58b",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Enrique Dans demana intervenir OpenAI: \"No pot seguir decidint si els seus sistemes són segurs\"",
-   "url": "https://www.elnacional.cat/ca/tecnologia/enrique-dans-demana-intervenir-openai-no-pot-seguir-decidint-si-seus-sistemes-son-segurs_1721435_102.html",
-   "publicat": "2026-11-07T11:00:00.000Z"
-  },
-  {
-   "id": "94b156f605c9",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El III Congreso de la Ingeniería Agrícola reunirá en Córdoba a expertos de toda España y tendrá la IA como eje principal",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/07/2745109/iii-congreso-ingenieria-agricola-reunira-cordoba-expertos-toda-espana-tendra-como-eje-principal.html",
-   "publicat": "2026-11-07T09:44:51.000Z"
-  },
-  {
-   "id": "dbbbe5bf3aa8",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿En qué lugares de Barcelona se rodó 'LIA', la serie de 3Cat sobre inteligencia artificial y mujeres científicas?",
-   "url": "https://www.elperiodico.com/es/que-hacer/planes/20261107/localizaciones-serie-lia-barcelona-3cat-136070171",
-   "publicat": "2026-11-07T09:00:22.000Z"
-  },
-  {
-   "id": "e9b22719ba2c",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Carme Artigas: \"Quien gane la supremacía de la IA va a conseguir la supremacía económica y militar\"",
-   "url": "https://www.diariodemallorca.es/sociedad/2026/11/07/carme-artigas-gane-supremacia-ia-136190866.html",
-   "publicat": "2026-11-07T08:06:32.000Z"
-  },
-  {
-   "id": "d056d9e792ce",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Intel·ligència artificial, saviesa humana",
-   "url": "https://www.diaridegirona.cat/opinio/2026/11/07/intelligencia-artificial-saviesa-humana-136161560.html",
-   "publicat": "2026-11-07T08:00:55.000Z"
-  },
-  {
-   "id": "d3f0a703ba9f",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Publicitat feta amb IA: entre el rebuig, l'homogeneïtzació i la democratització del disseny",
-   "url": "https://www.3cat.cat/3catinfo/publicitat-feta-amb-ia-entre-el-rebuig-lhomogeneitzacio-i-la-democratitzacio-del-disseny/noticia/3438315",
-   "publicat": "2026-11-07T06:18:56.000Z"
-  },
-  {
-   "id": "365f8c1f27a1",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un hombre quiere que la IA europea compita de tú a tú con Estados Unidos y China, y su nombre es Arthur Mensch",
-   "url": "https://www.lavanguardia.com/neo/ia/20261107/11675885/hombre-quiere-ia-europea-compita-estados-unidos-china-nombre-arthur-mensch.html",
-   "publicat": "2026-11-07T06:15:00.000Z"
-  },
-  {
-   "id": "aae36aae1057",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Revés sense precedents als centres de dades als Estats Units: un avís a la bombolla de la IA?",
-   "url": "https://www.3cat.cat/3catinfo/reves-sense-precedents-als-centres-de-dades-als-estats-units-un-avis-a-la-bombolla-de-la-ia/noticia/3438313",
-   "publicat": "2026-11-07T06:10:50.000Z"
-  },
-  {
-   "id": "b64dfb3a17db",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA canvia els ciberatacs: de les grans neveres de supermercats fins a l'smart TV de casa",
-   "url": "https://www.3cat.cat/3catinfo/la-ia-canvia-els-ciberatacs-de-les-grans-neveres-de-supermercats-fins-a-la-smart-tv-de-casa/noticia/3438437",
-   "publicat": "2026-11-07T06:09:51.000Z"
-  },
-  {
-   "id": "9b6c7a88a003",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "'Deepfakes' de Sánchez, Feijóo o Abascal: ¿Pot la IA influir en el vot del 29N?",
-   "url": "https://www.elperiodico.cat/politica/20261107/deepfakes-sanchez-feijoo-abascal-eleccions-generals-29n-136172210",
-   "publicat": "2026-11-07T06:01:00.000Z"
-  },
-  {
-   "id": "77e1868b14a2",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA abre mercados inexplorados para las pymes",
-   "url": "https://www.elperiodico.com/es/economia/20261107/ia-abre-mercados-inexplorados-pymes-136188148",
-   "publicat": "2026-11-07T05:01:17.000Z"
-  },
-  {
-   "id": "b4991ea459a3",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cuando la IA entra en las aplicaciones de segunda mano: ¿cómo saber si lo que compras es real?",
-   "url": "https://www.lavanguardia.com/neo/ia/20261107/11673817/ia-entra-aplicaciones-segunda-mano-como-compras-real.html",
-   "publicat": "2026-11-07T05:00:00.000Z"
-  },
-  {
-   "id": "02d04cce0c68",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Fulgor, desplomes y ruinas en la IA",
-   "url": "https://elpais.com/economia/2026-11-07/fulgor-desplomes-y-ruinas-en-la-ia.html",
-   "publicat": "2026-11-07T04:45:01.000Z"
   }
  ]
 }
