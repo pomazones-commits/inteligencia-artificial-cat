@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-11T17:14:42.478Z",
+  "updatedAt": "2026-11-12T05:14:34.315Z",
   "items": [
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Uns agents d'IA porten sols un laboratori de biologia a Xangai, i les persones només hi entren per reposar material i buidar la paperera, segons «Nature»",
-      "excerpt": "El sistema AutoDNA, de la Universitat Jiao Tong de Xangai, fa funcionar més de vint tipus d'aparells i encadena més d'11.000 passos per sintetitzar, copiar i seqüenciar ADN a partir d'una sola instrucció. Iguala els rendiments dels experts, però encara no treballa amb cèl·lules vives."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "Google té via lliure per comprar per 10 milions de dòlars els correus i els xats interns de Spirit Airlines per entrenar la seva IA",
-      "excerpt": "Els sindicats de la companyia aèria, que va tancar al maig, han retirat les objeccions després que Google acceptés deixar fora les dades mèdiques, les proves de drogues i les nòmines dels treballadors. La compra encara necessita el vistiplau del jutjat de fallides."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Notion admet que l'atac a Fireworks AI va deixar a la vista converses de clients amb la seva IA",
-      "excerpt": "L'empresa del popular programa de notes diu que menys de l'1% dels espais de treball s'han vist afectats, ha desconnectat el proveïdor i ha desactivat una funció, i demana als clients afectats que canviïn les contrasenyes i les claus que haguessin enganxat al xat."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "ElevenLabs presenta Scribe v3, uns models que transcriuen la veu amb menys errors i ja distingeixen qui parla en directe",
-      "excerpt": "L'empresa diu que el nou model fa un 27% menys d'errors que l'anterior en 102 llengües i que la versió en temps real en fa un 43% menys dels que canvien el sentit de la frase. Les xifres surten de proves de la mateixa empresa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una eina d'aprenentatge automàtic de la Universitat Tècnica de Graz fa fins a 10.000 vegades més ràpides les simulacions de reactors industrials",
-      "excerpt": "El programa, que es diu CLARA i serà de codi obert, agrupa milions de punts d'una simulació detallada en unes poques zones connectades, i manté efectes com les zones mal barrejades. L'estudi s'ha publicat a «Chemical Engineering Science»."
-    },
     {
       "category": "NEGOCI",
       "read": "5 MIN",
-      "title": "OpenAI ingressa uns 10.000 milions de dòlars en un trimestre gràcies a les empreses, però continua perdent-ne gairebé 11.000",
-      "excerpt": "Els ingressos de l'empresa de ChatGPT van créixer un 50% entre juliol i setembre, i el negoci amb empreses ja n'és la major part, segons el «Wall Street Journal» i «The Information». Tot i així, encara factura menys que Anthropic i perd molts més diners."
-    },
-    {
-      "category": "MODELS",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Google obre Gemini 4 Carbon a tots els desenvolupadors i abonats, a un preu d'estrena que es doblarà el 30 de novembre",
-      "excerpt": "El model que fins ara només podien fer servir defensors de ciberseguretat seleccionats ja és a l'API i a l'aplicació Gemini per als abonats a AI Ultra. Google diu que és el primer en tres proves de programació i agents, però les xifres són seves."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "4 MIN",
-      "title": "El regulador de les universitats angleses avisa que podrà multar les que no garanteixin exàmens que no es puguin fer amb IA",
-      "excerpt": "L'Office for Students conclou, amb Advance HE, que alguns treballs a casa es poden fer en pocs minuts amb IA i treure la mateixa nota. Demana més proves sense IA, com exàmens a llibre tancat i presentacions, i amenaça amb sancions."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un model d'IA aprèn a reconèixer sons i paraules a partir del que ha sentit cada nen a casa durant els seus primers 1.000 dies, segons un estudi a «Science»",
-      "excerpt": "Un equip de Princeton ha entrenat un model diferent per a cadascun de vuit infants, només amb la parla que van sentir a casa i en l'ordre en què la van sentir. Cada model va seguir el ritme d'aprenentatge del seu nen, però només amb gravacions diàries molt denses."
+      "title": "ACTUALITZACIÓ: El consell d'administració de Nvidia es prepara per destituir Jensen Huang, i les accions cauen més d'un 8%",
+      "excerpt": "Segons The Wall Street Journal, els consellers podrien decidir aviat el futur del cofundador, que ha dirigit l'empresa 33 anys. A l'afer de la presumpta espia xinesa s'hi suma ara una altra relació, amb una directiva que depèn d'ell."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Els models d'IA oberts s'inventen més de la meitat de les normes ambientals que se'ls pregunten, i els comercials, entre un 7% i un 15%, segons un estudi",
-      "excerpt": "Un equip de la Universitat Estatal d'Arizona ha posat a prova set models amb 505 dades sobre normes d'aigua, aire i residus dels Estats Units, la Xina, la Unió Europea i l'OMS. Els errors són més freqüents fora dels Estats Units i si es pregunta en xinès."
+      "title": "Un mètode del MIT entrena amb escenaris fets a mida les IA que imiten els models del clima, i n'hi ha prou amb una sola simulació completa, segons «PNAS»",
+      "excerpt": "Els emuladors climàtics, uns models d'IA ràpids que substitueixen els superordinadors, solen fallar davant d'escenaris que no han vist mai. Un equip del MIT els entrena amb dades sintètiques i encerten casos on els convencionals s'equivoquen."
     },
     {
-      "category": "REGULACIÓ",
-      "read": "5 MIN",
-      "title": "OpenAI, Anthropic i Microsoft es comprometen a París a poder aturar els seus models d'IA, però ni els Estats Units ni Google hi signen",
-      "excerpt": "La «Crida de París per a la seguretat de la IA», impulsada per Emmanuel Macron, aplega setze governs i deu empreses al voltant d'avaluacions comunes, avisos d'incidents greus i mecanismes per apagar un model. És un compromís polític, sense terminis ni sancions."
-    },
-    {
-      "category": "ROBÒTICA",
+      "category": "XIPS",
       "read": "4 MIN",
-      "title": "Un robot humanoide amb el nou model de Google DeepMind classifica peces a les fàbriques de Mercedes-Benz amb un 96% d'encerts",
-      "excerpt": "Gemini Robotics 2.5 ha governat el robot Apollo 2, d'Apptronik, en una prova a les cadenes de muntatge d'Hongria i d'Alemanya, on ordenava suports metàl·lics segons el cotxe que els necessitava. Les xifres són de Google i dels seus socis."
+      "title": "La britànica Fractile capta 720 milions de dòlars, amb el suport del fons sobirà del Regne Unit, per fabricar xips que abarateixin fer funcionar la IA",
+      "excerpt": "L'empresa vol començar a vendre els seus primers xips i sistemes l'any que ve. El govern britànic la valora en més de 5.000 milions de lliures i hi veu una manera de no dependre del tot dels fabricants estrangers."
     },
     {
-      "category": "CIBERSEGURETAT",
+      "category": "NEGOCI",
       "read": "4 MIN",
-      "title": "Google DeepMind demostra amb agents d'IA que el codi del xifratge de Signal fa el que ha de fer, amb sis milions de línies de proves matemàtiques",
-      "excerpt": "AlphaProof Code ha comprovat formalment el programa que protegeix els missatges de Signal i de Google Messages. Els agents van necessitar quatre setmanes i només van deixar un 1% del codi per revisar a mà."
+      "title": "CoreWeave fa pagar per avançat els clients per finançar els seus centres de dades d'IA, perquè endeutar-se li surt massa car",
+      "excerpt": "L'empresa que lloga potència de càlcul a OpenAI i a altres grans clients ingressa un 168% més, però perd 709 milions en un trimestre i paga 846 milions d'interessos. Ara espera cobrar uns 9.000 milions en pagaments anticipats."
     },
     {
-      "category": "PRODUCTE",
+      "category": "SALUT",
       "read": "4 MIN",
-      "title": "OpenAI deixa que les empreses tinguin una fitxa pròpia a ChatGPT i hi posin un agent d'IA que respongui els clients",
-      "excerpt": "Amb Businesses in ChatGPT, encara en proves, els negocis poden verificar i actualitzar la seva informació, carregar catàlegs amb preus i veure quantes vegades els esmenta l'assistent, una fórmula que recorda les fitxes d'empresa de Google."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "El SOCIB i la Universitat de les Illes Balears creen una IA que traça la línia de costa a partir de les fotos que fan els banyistes amb el mòbil",
-      "excerpt": "L'eina, publicada a la revista «Environmental Modelling & Software», redueix un 70% l'error dels mètodes automàtics habituals i analitza cada imatge en sis segons. Servirà per seguir l'erosió de les platges de Mallorca, Menorca i Eivissa."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "5 MIN",
-      "title": "Brussel·les vol que es puguin desactivar els xatbots que simulen una relació personal i el scroll infinit de les xarxes",
-      "excerpt": "La Comissió Europea presenta avui la llei d'equitat digital, que obligaria les plataformes a deixar apagar les funcions que enganxen i les IA que fingeixen vincles per retenir l'usuari, amb multes de fins al 6% de la facturació mundial."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Nova York obre el registre dels grans laboratoris d'IA i els obligarà a declarar els incidents greus en 72 hores",
-      "excerpt": "OpenAI, Anthropic i les altres empreses que facturen més de 500 milions de dòlars l'any s'hi han d'inscriure abans de l'1 de gener, quan entra en vigor la llei RAISE, amb multes de fins a 3 milions per infracció."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Els contes escrits amb IA són millors quan la idea la posa la persona, i pitjors quan ella només els dona el vistiplau, segons un estudi a «PNAS Nexus»",
-      "excerpt": "Un experiment amb 285 estudiants de la Universitat de Pennsilvània i la de Geòrgia mostra que la IA retalla un 36% el temps d'escriptura, però que deixar-li tot el procés fa baixar la qualitat, la satisfacció i la varietat de les històries."
-    },
-    {
-      "category": "PRODUCTE",
-      "read": "4 MIN",
-      "title": "Anthropic posa Claude a les videotrucades de feina perquè vagi fent el pla mentre la gent parla",
-      "excerpt": "Claude Meetings entra a les reunions de Google Meet com un participant més, redacta el pla que es discuteix i en deixa les notes i les tasques; l'empresa estrena també unes pissarres i uns fulls de càlcul compartits."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "5 MIN",
-      "title": "L'informe AI100 de Stanford, que es fa cada cinc anys, conclou que la IA ja és d'ús massiu però que encara no es paga ella sola",
-      "excerpt": "Dotze experts, entre ells Peter Norvig i Michael Wooldridge, constaten que la recerca s'accelera, que els riscos que semblaven ciència-ficció comencen a aparèixer i que la ciutadania amb prou feines hi ha tingut veu."
+      "title": "Oura, la de l'anell intel·ligent, compra per 625 milions de dòlars Counsel Health, que combina un xatbot mèdic amb metges de debò",
+      "excerpt": "L'empresa finlandesa vol que els usuaris de l'anell, que ja en fan servir el servei des del juny, puguin resoldre dins de l'aplicació des de dubtes ràpids fins a receptes, analítiques i el seguiment de malalties cròniques."
     }
   ]
 }
