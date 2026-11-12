@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "12.11.2026",
+    "title": "Models d'IA oberts fan més entenedors els informes mèdics, però a vegades s'inventen dades clíniques, segons un estudi de la Carlos III",
+    "summary": "L'equip de la UC3M ha comparat sis models, entre els quals el Salamandra del Barcelona Supercomputing Center, amb 50 informes reals adaptats per experts a lectura fàcil, i conclou que cal sempre una revisió humana.",
+    "detail": "Entendre un informe mèdic no és fàcil: segons les autores de l'estudi, gairebé la meitat dels ciutadans europeus (un 46%) tenen dificultats per comprendre els documents sanitaris. A partir del 2 de gener del 2027, a més, el Reial decret 707/2026, publicat al BOE el 3 de setembre, obligarà les administracions, també la sanitat pública, a fer més comprensibles documents i tràmits. Un equip del departament d'Informàtica de la Universitat Carlos III de Madrid, encapçalat per Paloma Martínez i Lourdes Moreno, ha estudiat si la IA hi pot ajudar. El treball s'ha publicat a la revista revisada «Scientific Reports» (DOI 10.1038/s41598-026-65740-w).\n\nLes investigadores van ajustar i comparar sis models de llenguatge oberts i de mida petita o mitjana: Llama 3.2 (en versions d'1.000 i 3.000 milions de paràmetres), Salamandra (el model del Barcelona Supercomputing Center, en versions de 2.000 i 7.000 milions), RigoChat-v2 i Medical-mT5. Els van posar a prova amb 50 informes de casos clínics reals cedits per la Societat Andalusa de Medicina Familiar i Comunitària, cadascun amb tres adaptacions fetes per experts segons la norma ISO 24495-1 de llenguatge clar. En van mesurar el grau de simplificació, la fidelitat al text original, la coherència amb els fets, la llegibilitat i el consum energètic. Cap model no va guanyar en tot: Llama-3.2-3B va ser el més equilibrat entre eficiència, robustesa i rendiment, i RigoChat-v2 va donar els textos de més qualitat i més fàcils de llegir.\n\nL'estudi és útil perquè compara models que un hospital pot fer funcionar als seus propis servidors, sense enviar dades de pacients a fora, i perquè els avalua amb informes en castellà reals i no amb exemples d'anglès. Que hi surti el Salamandra, desenvolupat a Barcelona, també dona una mesura de com es comporten els models públics fets aquí en una tasca sanitària concreta. Les autores han publicat els seus models en obert.\n\nEl resultat també marca els límits. Tots els models van cometre tres tipus d'errors: simplificar massa i deixar fora detalls clínics importants, inventar o alterar dades clíniques i escriure textos incoherents. «És precisament per aquests errors que la supervisió humana continua sent imprescindible», diu Martínez. La mostra, cinquanta informes d'una sola especialitat, és limitada, i la nota de la universitat no detalla amb quina freqüència es produeixen aquests errors.",
+    "source": "Scientific Reports (via Medical Xpress / Universitat Carlos III de Madrid)",
+    "url": "https://medicalxpress.com/news/2026-11-ai-tools-medical-human-oversight.html",
+    "image": "./assets/uc3m-models-ia-simplificar-informes-medics-20261112.jpg",
+    "slug": "uc3m-models-ia-simplificar-informes-medics"
+  },
+  {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "12.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.lasprovincias.es/alicante/upv-crea-espectaculo-pionero-ia-audacity-20261107122623-nt.html",
     "image": "./assets/upv-espectacle-dansa-ia-dannenberg-alacant-20261108.jpg",
     "slug": "upv-espectacle-dansa-ia-dannenberg-alacant"
-  },
-  {
-    "place": "Lleida",
-    "category": "IA I SOCIETAT",
-    "date": "08.11.2026",
-    "title": "La Guàrdia Urbana de Lleida començarà a provar al desembre la IA en 70 càmeres de vigilància, la majoria al Centre Històric",
-    "summary": "L'intendent Josep Mallada espera que el sistema, que avisa quan detecta situacions programades prèviament, funcioni per a la campanya de Nadal. Més endavant s'ampliarà a 120 càmeres, i la Paeria en vol tenir 350 el 2027.",
-    "detail": "La Paeria va anunciar al maig que incorporaria la intel·ligència artificial a les càmeres de vigilància i de trànsit de la Guàrdia Urbana de Lleida. Ara el projecte té calendari. L'intendent del cos, Josep Mallada, ha explicat al diari Segre que la primera prova es farà al desembre: «Espero que per a la campanya comercial de Nadal ja estigui en funcionament». Segons Mallada, el sistema ja l'han vist funcionar i ara només falta resoldre la part informàtica i de servidors.\n\nLa IA s'aplicarà primer a 70 càmeres que ja estan instal·lades, la majoria al Centre Històric i la resta repartides per la ciutat, també per fer una anàlisi predictiva del trànsit. En una segona fase arribarà a 120 càmeres. El funcionament és el d'un sistema d'alertes: es programen uns patrons o elements determinats i, quan les càmeres els detecten, avisen els agents perquè hi actuïn de seguida. Lleida té ara 270 càmeres, 212 a la via pública i 58 en espais municipals, i la Paeria vol arribar a les 350 el 2027.\n\nL'argument de la policia local és el volum d'imatges. «És impossible gestionar les imatges que ens donen aquests centenars de càmeres. Estan 24 hores al dia gravant», diu l'intendent. Fonts municipals calculen que el sistema podria retallar fins a un 25% el temps de resposta als incidents a la via pública i fins a un 40% el temps d'investigació. Lleida serà el primer municipi de les comarques lleidatanes que farà servir la IA per a aquesta finalitat.\n\nQueden preguntes obertes. Ni el diari ni l'Ajuntament detallen quins patrons buscarà el sistema, quina empresa el subministra en aquesta fase ni quines garanties de protecció de dades tindrà. L'Agència Espanyola de Protecció de Dades va advertir a l'octubre els ajuntaments que la videovigilància amb IA, i sobretot qualsevol funció que classifiqui persones o faci cerques biomètriques, exigeix justificar-ne la necessitat i la proporcionalitat funció per funció. Les xifres de millora, a més, són estimacions municipals, no resultats mesurats.",
-    "source": "Segre",
-    "url": "https://www.segre.com/ca/lleida/261108/urbana-lleida-preveu-incorporar-ia-cameres-vigilancia-desembre_1390859.html",
-    "image": "./assets/guardia-urbana-lleida-ia-cameres-desembre-20261108.jpg",
-    "slug": "guardia-urbana-lleida-ia-cameres-desembre"
   }
 ];
