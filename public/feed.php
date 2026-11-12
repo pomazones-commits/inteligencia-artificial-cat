@@ -26,7 +26,7 @@ foreach (($edition['items'] ?? []) as $item) {
     echo '    <title>' . x((string) ($item['title'] ?? '')) . "</title>\n";
     echo '    <link>' . x($link) . "</link>\n";
     echo '    <guid isPermaLink="true">' . x($link) . "</guid>\n";
-    echo '    <description>' . x((string) ($item['excerpt'] ?? '')) . "</description>\n";
+    echo '    <description>' . x((string) preg_replace('/\*(?=\S)([^*\n]*?\S)\*/u', '$1', (string) ($item['excerpt'] ?? ''))) . "</description>\n";
     if (!empty($item['category'])) { echo '    <category>' . x((string) $item['category']) . "</category>\n"; }
     if ($updatedAt !== '') { echo '    <pubDate>' . x(date(DATE_RSS, strtotime($updatedAt))) . "</pubDate>\n"; }
     echo "  </item>\n";

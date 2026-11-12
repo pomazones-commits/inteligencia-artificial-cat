@@ -56,7 +56,7 @@ iacat_capcalera([
           <p class="avui-peca__meta"><?= iacat_e((string) ($i['category'] ?? '')) ?><?= !empty($i['read']) ? ' · ' . iacat_e((string) $i['read']) : '' ?></p>
           <h2 class="avui-peca__titol"><a href="<?= iacat_e($href) ?>"><?= iacat_e((string) $i['title']) ?></a></h2>
 <?php if (!empty($i['excerpt'])): ?>
-          <p class="avui-peca__entradeta"><?= iacat_e((string) $i['excerpt']) ?></p>
+          <p class="avui-peca__entradeta"><?= (string) preg_replace('/\*(?=\S)([^*\n]*?\S)\*/u', '<em>$1</em>', iacat_e((string) $i['excerpt'])) ?></p>
 <?php endif; ?>
 <?php if (!empty($i['sourceName']) && preg_match('#^https://[^\s"\'<>]+$#', (string) ($i['sourceUrl'] ?? ''))): ?>
           <p class="avui-peca__font">Font: <a href="<?= iacat_e((string) $i['sourceUrl']) ?>" target="_blank" rel="noopener"><?= iacat_e((string) $i['sourceName']) ?> <span aria-hidden="true">↗</span></a></p>

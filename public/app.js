@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026111201';
+  const VERSIO_MANUAL = '2026111202';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './estudis-arxiu.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -42,6 +42,10 @@
     .catch(() => null);
 
   const escapeHTML = (value = '') => String(value).replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[c]);
+  // *cursiva* (12.11.2026): les entradetes de les notícies poden portar termes en cursiva
+  // amb asteriscs (convenció de CLAUDE.md, «Text malmès»); es pinten com a <em> sobre el
+  // text ja escapat, amb la mateixa regla que peca.php i tribuna.html.
+  const ambCursiva = (value = '') => escapeHTML(value).replace(/\*(?=\S)([^*\n]*?\S)\*/g, '<em>$1</em>');
   const storyHref = story => story.slug ? `./article.php?slug=${encodeURIComponent(story.slug)}` : (story.url || '#');
   // Crèdit d'una fotografia real amb llicència (27.09.2026): les llicències
   // demanen citar l'autor allà on es mostra la foto. Estils en línia per no
@@ -165,7 +169,7 @@
             <div>
               <p class="story-meta"><i></i>${escapeHTML(story.category)} · ${escapeHTML(story.read || '5 MIN')}</p>
               <h2><a href="${escapeHTML(storyHref(story))}">${escapeHTML(story.title)}</a></h2>
-              <p class="hero-story__dek">${escapeHTML(story.excerpt || '')}</p>
+              <p class="hero-story__dek">${ambCursiva(story.excerpt || '')}</p>
             </div>
             <a class="story-cta" href="${escapeHTML(storyHref(story))}">Llegir la notícia <span>↗</span></a>
           </div>
@@ -267,7 +271,7 @@
             ${story.image ? `<div class="news-card__image"${story.imageCredit ? ' style="position:relative"' : ''}><img src="${escapeHTML(story.image)}" alt="" loading="lazy">${photoCredit(story)}</div>` : ''}
             <p class="story-meta"><i></i>${escapeHTML(story.category)} · ${escapeHTML(story.read || '5 MIN')}</p>
             <h3>${escapeHTML(story.title)}</h3>
-            <p>${escapeHTML(story.excerpt || '')}</p>
+            <p>${ambCursiva(story.excerpt || '')}</p>
           </a>
         </article>`).join('');
     }

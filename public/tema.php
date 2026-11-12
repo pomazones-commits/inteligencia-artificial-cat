@@ -33,6 +33,8 @@ $peces = ($found && !$esTerritori) ? iacat_peces_eix($slug, 12) : [];
 $pecesEmpresa = ($found && !$esTerritori) ? iacat_peces_eix($slug, 6, true) : [];
 
 function topic_e(string $value): string { return htmlspecialchars($value, ENT_QUOTES, 'UTF-8'); }
+// *cursiva* → <em> a les entradetes (12.11.2026), mateixa regla que peca.php.
+function topic_cursiva(string $value): string { return (string) preg_replace('/\*(?=\S)([^*\n]*?\S)\*/u', '<em>$1</em>', topic_e($value)); }
 function topic_upper(string $value): string { return function_exists('mb_strtoupper') ? mb_strtoupper($value, 'UTF-8') : strtoupper($value); }
 function topic_image(string $path): string { return '/' . ltrim((string) preg_replace('#^\./#', '', $path), '/'); }
 
@@ -186,7 +188,7 @@ $rest = array_slice($items, 1);
     <article class="topic-feature">
       <?php if (!empty($lead['image'])): ?><a class="topic-feature__image" href="/article.php?slug=<?= rawurlencode((string) $lead['slug']) ?>" tabindex="-1" aria-hidden="true"><img src="<?= topic_e(topic_image((string) $lead['image'])) ?>" alt="" fetchpriority="high"></a><?php endif; ?>
       <div class="topic-feature__copy">
-        <div><p class="topic-meta"><?= topic_e((string) ($lead['category'] ?? 'ACTUALITAT')) ?> · <?= topic_e((string) ($lead['read'] ?? '4 MIN')) ?></p><h2><a href="/article.php?slug=<?= rawurlencode((string) $lead['slug']) ?>"><?= topic_e((string) $lead['title']) ?></a></h2><p><?= topic_e((string) ($lead['excerpt'] ?? '')) ?></p></div>
+        <div><p class="topic-meta"><?= topic_e((string) ($lead['category'] ?? 'ACTUALITAT')) ?> · <?= topic_e((string) ($lead['read'] ?? '4 MIN')) ?></p><h2><a href="/article.php?slug=<?= rawurlencode((string) $lead['slug']) ?>"><?= topic_e((string) $lead['title']) ?></a></h2><p><?= topic_cursiva((string) ($lead['excerpt'] ?? '')) ?></p></div>
         <a class="topic-read" href="/article.php?slug=<?= rawurlencode((string) $lead['slug']) ?>">Llegir l’article <span>↗</span></a>
       </div>
     </article>
@@ -198,7 +200,7 @@ $rest = array_slice($items, 1);
       <article class="topic-card">
         <?php if (!empty($item['image']) && $index < 8): ?><a href="/article.php?slug=<?= rawurlencode((string) $item['slug']) ?>" tabindex="-1" aria-hidden="true"><img src="<?= topic_e(topic_image((string) $item['image'])) ?>" alt="" loading="lazy"></a><?php endif; ?>
         <div><p class="topic-meta"><?= topic_e((string) ($item['category'] ?? 'ACTUALITAT')) ?> · <?= topic_e((string) ($item['read'] ?? '4 MIN')) ?></p><h2><a href="/article.php?slug=<?= rawurlencode((string) $item['slug']) ?>"><?= topic_e((string) $item['title']) ?></a></h2></div>
-        <p><?= topic_e((string) ($item['excerpt'] ?? '')) ?></p>
+        <p><?= topic_cursiva((string) ($item['excerpt'] ?? '')) ?></p>
       </article>
       <?php endforeach; ?>
     </section>

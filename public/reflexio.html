@@ -125,7 +125,18 @@
       cos.textContent = ''; // peca.php ja hi deixa el text escrit al servidor (18.10.2026)
       paragrafs.forEach(function (text) {
         var p = document.createElement('p');
-        p.textContent = text;
+        // *cursiva* → <em> (12.11.2026): peca.php ja la pintava al servidor, però aquest
+        // repintat amb textContent hi tornava a deixar els asteriscs. Amb el DOM.
+        String(text).split(/\*(?=\S)([^*\n]*?\S)\*/).forEach(function (part, i) {
+          if (!part) return;
+          if (i % 2 === 1) {
+            var em = document.createElement('em');
+            em.textContent = part;
+            p.appendChild(em);
+          } else {
+            p.appendChild(document.createTextNode(part));
+          }
+        });
         cos.appendChild(p);
       });
 

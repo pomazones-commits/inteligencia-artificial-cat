@@ -3,6 +3,12 @@ declare(strict_types=1);
 
 $base = 'https://inteligencia-artificial.cat';
 function e(string $value): string { return htmlspecialchars($value, ENT_QUOTES, 'UTF-8'); }
+// *cursiva* (12.11.2026): el redactor marca els estrangerismes i els títols d'obres amb
+// asteriscs («unitats de text (*tokens*)», «*Nature*»), igual que a les peces de peca.php.
+// Fins avui la pàgina de notícia els mostrava tal qual. Sobre HTML ja escapat → <em>;
+// on no hi pot haver HTML (meta, JSON-LD) es treuen. Mateixa regla que peca.php.
+function art_cursiva(string $html): string { return (string) preg_replace('/\*(?=\S)([^*\n]*?\S)\*/u', '<em>$1</em>', $html); }
+function art_sense_asteriscs(string $text): string { return (string) preg_replace('/\*(?=\S)([^*\n]*?\S)\*/u', '$1', $text); }
 function absolute_asset(string $path, string $base): string {
     if ($path === '') { return ''; }
     if (preg_match('#^https?://#i', $path)) { return $path; }
@@ -82,7 +88,7 @@ if (!$article) {
 }
 
 $canonical = $base . '/article.php?slug=' . rawurlencode($slug);
-$desc = trim((string) ($article['excerpt'] ?? ''));
+$desc = art_sense_asteriscs(trim((string) ($article['excerpt'] ?? '')));
 $imgAbs = absolute_asset((string) ($article['image'] ?? ''), $base);
 // Fotografia real amb llicència o il·lustració generada amb IA (27.09.2026).
 // El crèdit només el posa automation/scripts/fotos-llicencia.py; tota la resta
@@ -260,7 +266,7 @@ $shareText = rawurlencode((string) $article['title']);
   <main class="editorial-shell editorial-main">
     <nav class="editorial-breadcrumb" aria-label="Fil d’Ariadna"><a href="./">Portada</a><?php if ($topicSlug !== ''): ?><span>/</span><a href="./tema/<?= e($topicSlug) ?>"><?= e($topicName) ?></a><?php endif; ?></nav>
     <header class="article-header">
-      <div><?php if ($eixEtiqueta['url'] !== ''): ?><a class="eix-etiqueta" href=".<?= e($eixEtiqueta['url']) ?>">Secció · <?= e($eixEtiqueta['nom']) ?></a><?php endif; ?><p class="editorial-kicker"><?= e($category) ?> · <?= e((string) ($article['read'] ?? '5 MIN')) ?></p><h1><?= e((string) $article['title']) ?></h1><p class="editorial-lede"><?= e((string) $article['excerpt']) ?></p></div>
+      <div><?php if ($eixEtiqueta['url'] !== ''): ?><a class="eix-etiqueta" href=".<?= e($eixEtiqueta['url']) ?>">Secció · <?= e($eixEtiqueta['nom']) ?></a><?php endif; ?><p class="editorial-kicker"><?= e($category) ?> · <?= e((string) ($article['read'] ?? '5 MIN')) ?></p><h1><?= e((string) $article['title']) ?></h1><p class="editorial-lede"><?= art_cursiva(e((string) $article['excerpt'])) ?></p></div>
       <div class="article-byline-clean">
         <?php if ($authorImage !== ''): ?><img src="<?= e($authorImage) ?>" width="128" height="128" alt="Fotografia de <?= e($authorName) ?>"><?php endif; ?>
         <p>Per <strong><?= e($authorName) ?></strong></p><span><?= e($authorRole) ?></span>
@@ -274,7 +280,7 @@ $shareText = rawurlencode((string) $article['title']);
     <div class="article-layout">
       <article>
         <?php if ($audioUrl): ?><div class="tts-player"><strong>Escolta:</strong><audio id="tts-audio" controls preload="none" src="<?= e($audioUrl) ?>">El teu navegador no pot reproduir l’àudio.</audio><label class="tts-speed">Velocitat <select id="tts-speed" aria-label="Velocitat de reproducció"><option value="1" selected>1×</option><option value="1.25">1,25×</option><option value="1.5">1,5×</option><option value="1.75">1,75×</option><option value="2">2×</option></select></label></div><?php else: ?><div class="tts-player"><strong>Escolta:</strong><span class="tts-note">Àudio en preparació.</span></div><?php endif; ?>
-        <div class="article-body-clean"><?php foreach (preg_split('/\n\n+/', (string) ($article['body'] ?? '')) as $paragraph): ?><p><?= iacat_paragraf_amb_enllacos((string) $paragraph, $enllacos) ?></p><?php endforeach; ?></div>
+        <div class="article-body-clean"><?php foreach (preg_split('/\n\n+/', (string) ($article['body'] ?? '')) as $paragraph): ?><p><?= art_cursiva(iacat_paragraf_amb_enllacos((string) $paragraph, $enllacos)) ?></p><?php endforeach; ?></div>
         <?php if ($videoId !== ''): ?><section class="iac-video" aria-labelledby="video-title"><h2 id="video-title">El vídeo</h2><div class="iac-video__frame"><button type="button" class="iac-video__play" data-video-id="<?= e($videoId) ?>" data-video-lang="<?= e($videoIdioma) ?>" data-video-title="<?= e($videoTitol !== '' ? $videoTitol : 'Vídeo de YouTube') ?>" aria-label="Reprodueix el vídeo<?= $videoTitol !== '' ? ': ' . e($videoTitol) : '' ?>"><img src="<?= e($videoMiniatura) ?>" alt="" loading="lazy" width="480" height="360"><span class="iac-video__icon" aria-hidden="true"></span></button></div><p class="iac-video__meta"><?php if ($videoTitol !== ''): ?><strong><?= e($videoTitol) ?></strong> · <?php endif; ?><?php if ($videoCanal !== ''): ?><?php if ($videoCanalUrl !== ''): ?><a href="<?= e($videoCanalUrl) ?>" target="_blank" rel="noopener noreferrer"><?= e($videoCanal) ?></a><?php else: ?><?= e($videoCanal) ?><?php endif; ?> · <?php endif; ?><a href="https://www.youtube.com/watch?v=<?= e($videoId) ?>" target="_blank" rel="noopener noreferrer">YouTube ↗</a></p><?php if ($videoResum !== ''): ?><p class="iac-video__resum"><?= e($videoResum) ?></p><?php endif; ?><p class="iac-video__nota"><?php if ($videoIdioma !== 'ca'): ?><?= $videoIdiomaNom !== '' ? 'Vídeo en ' . e($videoIdiomaNom) . '.' : 'Vídeo en una altra llengua.' ?> Els subtítols en català són la traducció automàtica de YouTube i poden trigar uns segons a sortir; si no hi surten: ⚙ Configuració › Subtítols › Traducció automàtica › Català. <?php endif; ?>El reproductor de YouTube només es carrega quan hi fas clic.</p></section><?php endif; ?>
         <!-- 04.11.2026: el butlletí just en acabar el text, no al final de la pàgina. -->
     <section class="subscribe-panel" aria-labelledby="article-newsletter-title"><div><p class="editorial-kicker">Butlletí de dissabte</p><h2 id="article-newsletter-title">La setmana d’IA, en cinc minuts.</h2></div><form class="js-subscribe-form" action="./api.php?action=subscribe" method="post"><label class="sr-only" for="article-email">El teu correu electrònic</label><input id="article-email" name="email" type="email" placeholder="el.teu@correu.cat" required><button type="submit">Vull rebre’l →</button><p class="js-form-message" role="status"></p></form></section>
@@ -288,7 +294,7 @@ $shareText = rawurlencode((string) $article['title']);
       </aside>
     </div>
 
-    <?php if ($related): ?><section class="article-related" aria-labelledby="related-title"><header class="article-related__head"><div><p class="editorial-kicker">Mateixa secció</p><h2 id="related-title">Més context</h2></div><?php if ($topicSlug !== ''): ?><a href="./tema/<?= e($topicSlug) ?>">Veure tota la secció →</a><?php endif; ?></header><div class="article-related__grid"><?php foreach ($related as $item): ?><article><p class="topic-meta"><?= e((string) ($item['category'] ?? 'ACTUALITAT')) ?> · <?= e((string) ($item['read'] ?? '4 MIN')) ?></p><h3><a href="./article.php?slug=<?= rawurlencode((string) $item['slug']) ?>"><?= e((string) $item['title']) ?></a></h3><p><?= e((string) ($item['excerpt'] ?? '')) ?></p></article><?php endforeach; ?></div></section><?php endif; ?>
+    <?php if ($related): ?><section class="article-related" aria-labelledby="related-title"><header class="article-related__head"><div><p class="editorial-kicker">Mateixa secció</p><h2 id="related-title">Més context</h2></div><?php if ($topicSlug !== ''): ?><a href="./tema/<?= e($topicSlug) ?>">Veure tota la secció →</a><?php endif; ?></header><div class="article-related__grid"><?php foreach ($related as $item): ?><article><p class="topic-meta"><?= e((string) ($item['category'] ?? 'ACTUALITAT')) ?> · <?= e((string) ($item['read'] ?? '4 MIN')) ?></p><h3><a href="./article.php?slug=<?= rawurlencode((string) $item['slug']) ?>"><?= e((string) $item['title']) ?></a></h3><p><?= art_cursiva(e((string) ($item['excerpt'] ?? ''))) ?></p></article><?php endforeach; ?></div></section><?php endif; ?>
 
   </main>
 
