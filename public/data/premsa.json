@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-11T19:53:25.953Z",
+ "actualitzat": "2026-11-12T02:01:52.606Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "c7c16fb67160",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia prepara el despido de Jensen Huang al descubrirse que tenía otra amante, además de la espía",
+   "url": "https://www.lavanguardia.com/economia/20261112/11682155/nvidia-prepara-despido-jensen-huang-descubrirse-tenia-amante-espia.html",
+   "publicat": "2026-11-12T00:04:43.000Z"
+  },
+  {
+   "id": "a8deadc9eb6b",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia ultima la sustitución de su consejero delegado tras la revelación de una nueva relación extramarital",
+   "url": "https://elpais.com/us/2026-11-11/la-revelacion-de-una-nueva-relacion-extramarital-del-consejero-delegado-de-nvidia-compromete-su-futuro-en-la-compania.html",
+   "publicat": "2026-11-11T22:55:33.000Z"
+  },
+  {
+   "id": "eb0df3e982b2",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tres de las voces más influyentes del mundo en inteligencia artificial participan en el Foro IA",
+   "url": "https://www.informacion.es/economia/2026/11/11/voces-influyentes-inteligencia-artificial-bc-136329677.html",
+   "publicat": "2026-11-11T21:30:00.000Z"
+  },
+  {
+   "id": "f565cfb0c687",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "OpenAI ha fet un curiós moviment comprant Odessia, una startup de viatges que podrà integrar-se a ChatGPT",
+   "url": "https://www.elnacional.cat/ca/tecnologia/openai-ha-fet-curios-moviment-comprant-odessia-startup-viatges-podra-integrar-se-chatgpt_1724168_102.html",
+   "publicat": "2026-11-11T21:15:00.000Z"
+  },
+  {
+   "id": "071846243051",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Cómo crear un GIF con ChatGPT paso a paso",
+   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-11/como-crear-un-gif-con-chatgpt-paso-a-paso.html",
+   "publicat": "2026-11-11T20:28:33.000Z"
+  },
+  {
+   "id": "5a5ba97aa77a",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'exèrcit rus està usant la IA per crear vídeos de suposats avenços a Ucraïna",
+   "url": "https://www.elnacional.cat/ca/tecnologia/exercit-rus-esta-usant-ia-crear-videos-suposats-avencos-ucraina_1724150_102.html",
+   "publicat": "2026-11-11T20:00:00.000Z"
+  },
   {
    "id": "eecab56ddfbf",
    "mitja": "Cinco Días",
@@ -2698,72 +2764,6 @@
    "titol": "Prada, Dior y Loewe dan la espalda a la IA en sus campañas navideñas y convierten el dibujo a mano en el nuevo símbolo de exclusividad",
    "url": "https://www.elperiodico.com/es/gente/20261106/prada-dior-loewe-ia-animacion-mano-campanas-navidad-2026-136111552",
    "publicat": "2026-11-06T05:00:21.000Z"
-  },
-  {
-   "id": "189ae9bfcbe3",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | La inteligencia artificial pone a prueba la carrera profesional",
-   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/la-inteligencia-artificial-pone-a-prueba-la-carrera-profesional",
-   "publicat": "2026-11-06T05:00:05.000Z"
-  },
-  {
-   "id": "711713784144",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cómo tratar la IA para hacerla más segura",
-   "url": "https://www.lavanguardia.com/participacion/red-lectores/20261106/11675780/como-tratar-ia-hacerla-mas-segura.html",
-   "publicat": "2026-11-06T05:00:00.000Z"
-  },
-  {
-   "id": "b05b7af13211",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Amphora Logistics apuesta por la IA para anticipar incidencias mientras amplía su presencia internacional",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261106/11674744/amphora-logistics-apuesta-ia-anticipar-incidencias-amplia-presencia-internacional.html",
-   "publicat": "2026-11-06T05:00:00.000Z"
-  },
-  {
-   "id": "ecea1ec2b758",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los jóvenes son los que más usan la IA, pero también los que más la temen: a más de la mitad les preocupa cómo cambiará el futuro",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261106/11672249/jovenes-son-mas-ia-mas-temen-mas-mitad-teme-como-cambiara-futuro.html",
-   "publicat": "2026-11-06T05:00:00.000Z"
-  },
-  {
-   "id": "f721e2374497",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA que no destruye empleos, los transforma",
-   "url": "https://www.lavanguardia.com/dinero/20261106/11674836/ia-destruye-empleos-transforma-talento-retos-brl.html",
-   "publicat": "2026-11-06T04:55:00.000Z"
-  },
-  {
-   "id": "bd2560a2b90e",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial redefine las decisiones que marcarán el futuro de las empresas",
-   "url": "https://www.lavanguardia.com/economia/20261106/11674784/inteligencia-artificial-redefine-decisiones-marcaran-futuro-empresas-brl.html",
-   "publicat": "2026-11-06T04:50:00.000Z"
   }
  ]
 }
