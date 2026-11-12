@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-12T17:14:57.733Z",
+ "actualitzat": "2026-11-12T17:26:17.727Z",
  "canals": 19,
  "videos": [
   {
@@ -89,6 +89,18 @@
    "noticia": "deepmind-alphagenome-2-regulacio-genetica-tipus-cellular",
    "noticiaTitol": "Google DeepMind presenta AlphaGenome 2, que prediu com una variant de l'ADN canvia l'activitat dels gens en cada tipus de cèl·lula",
    "resum": "Episodi del canal de Google DeepMind dedicat a AlphaGenome 2. Parteix d'una dada: el 98% de l'ADN humà no fabrica proteïnes, sinó que controla com funcionen les cèl·lules, i entendre aquesta part és clau per saber per què apareixen les malalties i per què fallen tants fàrmacs nous."
+  },
+  {
+   "id": "YsnS2PpTr1w",
+   "titol": "Cyber at the Frontier",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-11T04:51:51.000Z",
+   "descripcio": "A live keynote featuring OpenAI's latest cyber announcements.",
+   "miniatura": "/assets/videos/YsnS2PpTr1w.jpg"
   },
   {
    "id": "jDxKzlGLCas",
