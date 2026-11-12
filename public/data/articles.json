@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-11-12T05:28:47.637Z",
+  "updatedAt": "2026-11-12T09:14:05.542Z",
   "items": [
+    {
+      "category": "GEOPOLÍTICA",
+      "read": "5 MIN",
+      "slug": "empreses-eua-venen-entorns-entrenament-ia-laboratoris-xinesos",
+      "title": "Empreses dels Estats Units venen a laboratoris xinesos d'IA els mateixos entorns d'entrenament que fan servir OpenAI i Anthropic, segons ChinaTalk",
+      "excerpt": "Una investigació identifica almenys nou proveïdors, com Mercor, Surge AI i Turing, que haurien venut a Alibaba, Tencent o ByteDance els exercicis simulats amb què s'afinen els models. Cap norma d'exportació no ho prohibeix.",
+      "sourceName": "ChinaTalk",
+      "sourceUrl": "https://www.chinatalk.media/p/the-us-is-selling-rl-environments",
+      "sourceDate": "11 de novembre de 2026",
+      "body": "Els grans models d'IA ja no milloren només llegint més text. Una part decisiva de l'entrenament es fa amb l'anomenat aprenentatge per reforç: el model practica en entorns simulats (una base de codi amb errors, un full de càlcul financer, una tasca d'oficina) i un sistema de puntuació li diu si ho ha fet bé. Fabricar aquests entorns i les rúbriques per avaluar-los és car i lent, i als Estats Units ha nascut tot un sector d'empreses que els venen als laboratoris.\n\nUna investigació d'Aqib Zakaria i Quinn Ennis publicada dimecres al butlletí ChinaTalk conclou que almenys nou d'aquestes empreses venen o han venut aquest material a laboratoris xinesos. En nomenen, entre d'altres, Mercor, que hauria venut entorns de programació a Alibaba; Surge AI, que hauria treballat per a Tencent, Z.ai i Moonshot AI; Turing, i proveïdors més petits com Abundant, DeccanAI o Eaglepoint, aquest darrer controlat per una empresa de Pequín. Citant Forbes, xifren les vendes de dades a la Xina en uns 500 milions de dòlars. Les proves són sobretot fonts anònimes, ofertes de feina i noms de clients que subcontractistes havien deixat penjats a LinkedIn.\n\nL'interès és evident: els laboratoris xinesos poden comprar entorns que ja han funcionat amb OpenAI o Anthropic i estalviar-se proves i càlcul, un recurs que els escasseja per les restriccions als xips. Els autors avisen que els entorns de programació poden millorar la capacitat d'atac informàtic dels models i els de biologia, la de dissenyar seqüències genètiques. Per això demanen al Departament de Comerç que apliqui les regles d'exportació que ja existeixen per a la ciberseguretat o la biologia, i que el Pentàgon vete els contractistes que venguin a laboratoris xinesos sensibles.\n\nLa peça té límits que els mateixos autors reconeixen: gran part de les fonts són anònimes, la xifra de 500 milions és de segona mà i no han pogut verificar les vendes d'algunes empreses, com AfterQuery. Les companyies esmentades no hi han respost. Els autors també rebaixen l'alarma: els laboratoris xinesos continuen uns mesos per darrere, els entorns més delicats els fan ara dins de casa les grans empreses nord-americanes i, segons ells, qualsevol restricció hauria de ser estreta per no ofegar un mercat que també serveix per a la recerca en seguretat.",
+      "image": "./assets/empreses-eua-venen-entorns-entrenament-ia-laboratoris-xinesos-20261112.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "slug": "deepmind-alphagenome-2-regulacio-genetica-tipus-cellular",
+      "title": "Google DeepMind presenta AlphaGenome 2, que prediu com una variant de l'ADN canvia l'activitat dels gens en cada tipus de cèl·lula",
+      "excerpt": "Entrenat amb més de 100 milions de perfils de cèl·lules individuals de 68 teixits, el nou model troba gairebé el doble de variants que alteren l'expressió dels gens que l'eina més avançada fins ara. L'article encara no ha passat la revisió per parells.",
+      "sourceName": "Google DeepMind",
+      "sourceUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "sourceDate": "11 de novembre de 2026",
+      "body": "La majoria de variants genètiques associades a malalties no són dins dels gens, sinó a les regions de l'ADN que en regulen l'activitat: quan s'encenen, quan s'apaguen i amb quina intensitat. Aquesta regulació canvia d'una cèl·lula a una altra, i per això una mateixa variant pot ser inofensiva al fetge i fer mal en una cèl·lula immunitària. El primer AlphaGenome, publicat a «Nature» el gener del 2026, ja llegia trams d'un milió de lletres d'ADN, però feia les prediccions per a tots els teixits alhora.\n\nAlphaGenome 2, presentat dimecres per Google DeepMind, rep el tram d'ADN i, a més, el tipus de cèl·lula o el teixit que interessa, i fa la predicció per a aquella condició concreta. S'ha entrenat amb més de 100 milions de perfils de cèl·lules individuals de 68 teixits i afegeix la metilació de l'ADN, una de les marques químiques que regulen els gens. Pot treballar també amb dades unicel·lulars que aporti el mateix investigador i deduir mesures que falten. Segons DeepMind, troba gairebé el doble de variants que alteren l'expressió dels gens que el millor model anterior. En un conjunt de dades de 28 tipus de cèl·lules immunitàries, va identificar la variant causal en un 30% dels casos, davant del 16% del primer AlphaGenome adaptat i d'altres eines especialitzades.\n\nSi els resultats es confirmen, l'eina pot ajudar a passar de les llistes de variants sospitoses que donen els estudis genètics a hipòtesis concretes sobre quina variant actua i en quina cèl·lula, cosa que estalvia experiments de laboratori. DeepMind col·labora amb el Wellcome Sanger Institute per ampliar el nombre de tipus cel·lulars, i el model ja es pot fer servir per a recerca no comercial a través de la seva API.\n\nCal llegir-ho amb prudència. L'article tècnic s'ha publicat al web de DeepMind i és una prepublicació encara no revisada per parells; les xifres, per tant, són les de l'empresa. DeepMind avisa que el model no està validat per a cap ús clínic ni diagnòstic, i que encara prediu malament els tipus de cèl·lula que no ha vist durant l'entrenament.",
+      "image": "./assets/deepmind-alphagenome-2-regulacio-genetica-tipus-cellular-20261112.jpg",
+      "video": {
+        "id": "uND6iY2qp_c",
+        "verificat": "2026-11-12",
+        "titol": "AlphaGenome 2: Teaching AI to read the entire human genome",
+        "canal": "Google DeepMind",
+        "canalUrl": "https://www.youtube.com/@googledeepmind",
+        "idioma": "en",
+        "resum": "Episodi del canal de Google DeepMind dedicat a AlphaGenome 2. Parteix d'una dada: el 98% de l'ADN humà no fabrica proteïnes, sinó que controla com funcionen les cèl·lules, i entendre aquesta part és clau per saber per què apareixen les malalties i per què fallen tants fàrmacs nous."
+      }
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "slug": "apps-grok-build-obertes-dades-pacients-contrasenyes",
+      "title": "Gairebé el 95% de les aplicacions fetes amb Grok Build són obertes a qualsevol, i algunes deixaven a la vista dades de pacients i contrasenyes",
+      "excerpt": "L'empresa de seguretat Claroc ha revisat més de 37.000 aplicacions creades amb l'eina de SpaceXSI i calcula que entre 650 i 800 contenien dades privades. Entre elles, 24 de treballadors de la mateixa SpaceXSI i de X.",
+      "sourceName": "Claroc",
+      "sourceUrl": "https://blog.claroc.io/ghostshares-grok-build-apps/",
+      "sourceDate": "10 de novembre de 2026",
+      "body": "Grok Build és el mode de l'assistent de SpaceXSI (l'antiga xAI) que permet crear una aplicació només descrivint-la en una conversa: Grok n'escriu el codi i, en publicar-la, li dona una adreça pròpia a grok.me. És una de les eines amb què la gent sense coneixements de programació fa aplicacions per a la feina, i és aquí on hi ha el risc: qui la fa no sempre sap qui hi podrà entrar.\n\nL'empresa de ciberseguretat Claroc va localitzar més de 43.000 adreces d'aplicacions de Grok, de les quals 37.571 encara funcionaven. D'aquestes, 35.578 (el 94,7%) s'obrien sense demanar cap inici de sessió. La majoria eren jocs, calculadores o pàgines de presentació, però Claroc calcula que entre 650 i 800 contenien dades privades. Entre els casos confirmats hi ha un informe d'una unitat de cures intensives amb les analítiques d'un pacient, la llista de més de 3.500 treballadors d'un grup hospitalari, els torns d'un cos de bombers i una aplicació amb 18 comptes i les contrasenyes sense xifrar. També hi havia 24 aplicacions obertes de treballadors de SpaceXSI i de X, amb un mapa comercial de 594 clients estratègics i propostes publicitàries confidencials.\n\nSegons Claroc, el problema és de disseny: en el compte de pagament que va fer servir, l'opció «Qualsevol persona amb l'enllaç» venia marcada per defecte en el moment de publicar, i les adreces es podien trobar en bases de dades públiques de noms de domini. A més, en una aplicació de prova, el codi que va escriure Grok deixava que qualsevol compte de Google llegís, modifiqués i esborrés registres. SpaceXSI respon que les aplicacions són privades fins que el creador les comparteix i ha retirat les dels seus treballadors, però no les de la resta d'usuaris.\n\nCal tenir en compte que Claroc ven productes de seguretat per a aplicacions fetes amb IA, i que la xifra de 650 a 800 aplicacions amb dades privades és una estimació. L'empresa no ha fet públics els noms de les 30 organitzacions afectades, sis de les quals són de la llista Fortune 500, i diu que les està avisant directament.",
+      "image": "./assets/apps-grok-build-obertes-dades-pacients-contrasenyes-20261112.jpg"
+    },
+    {
+      "category": "EMPRESES",
+      "read": "3 MIN",
+      "slug": "meta-santosh-janardhan-deixa-direccio-infraestructura",
+      "title": "Santosh Janardhan, el responsable de la infraestructura de Meta des de fa anys, deixa el càrrec en plena cursa per construir centres de dades d'IA",
+      "excerpt": "El directiu, que va entrar a l'empresa el 2009 i dirigia Meta Compute, passarà a fer d'assessor fins que marxi l'any que ve. El substitueix Dave Brown, que va arribar aquest any després de 19 anys a Amazon.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "sourceDate": "11 de novembre de 2026",
+      "body": "Meta és una de les empreses que més diners destina a centres de dades per a la IA, i l'home que en coordinava la construcció era Santosh Janardhan, cap d'infraestructura i codirector d'enginyeria. Aquest mateix any la companyia l'havia posat al capdavant de Meta Compute, la iniciativa per ampliar la seva capacitat de càlcul i l'estratègia de centres de dades.\n\nMeta va confirmar dimecres a TechCrunch que Janardhan, a l'empresa des del 2009, deixa el càrrec. Es quedarà un temps per fer el traspàs, passarà a fer d'assessor de Meta Compute i, segons l'empresa, marxarà l'any que ve. El substitueix Dave Brown, que va entrar a Meta aquest any com a vicepresident d'infraestructura després de 19 anys a Amazon, on s'havia dedicat al càlcul, el núvol i la IA. La notícia la va avançar Bloomberg a partir d'un memoràndum intern.\n\nEl relleu arriba en un moment delicat. Meta ha disparat la inversió en infraestructura per competir amb OpenAI, Google i Anthropic, ha signat contractes de capacitat de càlcul amb tercers i fins i tot prepara un negoci per vendre el càlcul que li sobra. Que el responsable de tot això el substitueixi un veterà d'Amazon Web Services, el principal negoci de núvol del món, apunta en aquesta direcció.\n\nMeta no ha explicat per què marxa Janardhan. Segons la CNBC, el memoràndum intern parla de «passar el relleu», sense més detalls, i no hi ha cap indici que el canvi alteri els plans d'inversió de l'empresa.",
+      "image": "./assets/meta-santosh-janardhan-deixa-direccio-infraestructura-20261112.jpg",
+      "etiquetes": [
+        "centres-de-dades"
+      ]
+    },
+    {
+      "category": "PRODUCTES",
+      "read": "3 MIN",
+      "slug": "deepl-aure-traduccio-veu-to-emocio",
+      "title": "DeepL presenta Aure, una veu artificial que tradueix en directe i manté el to, l'èmfasi i el ritme de qui parla",
+      "excerpt": "L'empresa alemanya diu que el nou model capta els canvis d'humor i fins i tot el sarcasme en reunions i converses. Funciona en vuit llengües, entre les quals no hi ha el català.",
+      "sourceName": "DeepL",
+      "sourceUrl": "https://www.deepl.com/en/press-release/aure-voice-ai-model",
+      "sourceDate": "11 de novembre de 2026",
+      "body": "La traducció automàtica de la veu ha avançat molt, però sovint sona plana: el missatge arriba, l'entonació es perd. DeepL, l'empresa de Colònia coneguda pel seu traductor de text, ja havia fet que el seu servei DeepL Voice conservés el timbre de qui parla, però partia d'una mostra de veu fixa enregistrada a l'inici de la conversa i no seguia els canvis de to.\n\nAure, el model que l'empresa va presentar dimecres, analitza contínuament l'àudio original i el text traduït per traslladar a l'altra llengua el to, l'emoció, l'èmfasi i la velocitat de qui parla. Segons DeepL, separa la identitat de la veu, la melodia de la frase i el contingut perquè cadascun es pugui transferir per separat, i filtra el soroll de fons i l'eco. S'aplica sol, sense configurar res, a les reunions en línia, a les converses presencials i a la interfície per a programadors de DeepL Voice. De moment funciona en anglès, alemany, castellà, francès, italià, japonès, portuguès i coreà.\n\nSi funciona com diu l'empresa, la traducció simultània automàtica s'acosta una mica més a la d'un intèrpret humà, que no només tradueix paraules sinó també la intenció. És un mercat on competeixen Google, Microsoft i diverses empreses emergents, i on DeepL, una de les poques empreses europees d'IA amb un producte d'abast mundial, vol fer-se lloc. «Durant massa temps, comunicar-se entre llengües ha volgut dir renunciar a la manera com ens expressem», diu el seu fundador i conseller delegat, Jarek Kutylowski.\n\nTotes les afirmacions sobre la qualitat són de DeepL: l'empresa no ha publicat cap avaluació independent sobre com capta el sarcasme o els canvis d'humor, ni dades de latència o d'encerts. El català no és entre les llengües d'Aure; DeepL diu que n'afegirà més, i que la resta continuaran funcionant amb els models de veu que ja tenia.",
+      "image": "./assets/deepl-aure-traduccio-veu-to-emocio-20261112.jpg"
+    },
     {
       "category": "NEGOCI",
       "read": "5 MIN",

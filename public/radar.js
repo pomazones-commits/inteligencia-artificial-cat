@@ -1,5 +1,29 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "12.11.2026",
+    "title": "DeepL presenta Aure, una veu artificial que tradueix en directe i manté el to, l'èmfasi i el ritme de qui parla",
+    "summary": "L'empresa alemanya diu que el nou model capta els canvis d'humor i fins i tot el sarcasme en reunions i converses. Funciona en vuit llengües, entre les quals no hi ha el català.",
+    "detail": "La traducció automàtica de la veu ha avançat molt, però sovint sona plana: el missatge arriba, l'entonació es perd. DeepL, l'empresa de Colònia coneguda pel seu traductor de text, ja havia fet que el seu servei DeepL Voice conservés el timbre de qui parla, però partia d'una mostra de veu fixa enregistrada a l'inici de la conversa i no seguia els canvis de to.\n\nAure, el model que l'empresa va presentar dimecres, analitza contínuament l'àudio original i el text traduït per traslladar a l'altra llengua el to, l'emoció, l'èmfasi i la velocitat de qui parla. Segons DeepL, separa la identitat de la veu, la melodia de la frase i el contingut perquè cadascun es pugui transferir per separat, i filtra el soroll de fons i l'eco. S'aplica sol, sense configurar res, a les reunions en línia, a les converses presencials i a la interfície per a programadors de DeepL Voice. De moment funciona en anglès, alemany, castellà, francès, italià, japonès, portuguès i coreà.\n\nSi funciona com diu l'empresa, la traducció simultània automàtica s'acosta una mica més a la d'un intèrpret humà, que no només tradueix paraules sinó també la intenció. És un mercat on competeixen Google, Microsoft i diverses empreses emergents, i on DeepL, una de les poques empreses europees d'IA amb un producte d'abast mundial, vol fer-se lloc. «Durant massa temps, comunicar-se entre llengües ha volgut dir renunciar a la manera com ens expressem», diu el seu fundador i conseller delegat, Jarek Kutylowski.\n\nTotes les afirmacions sobre la qualitat són de DeepL: l'empresa no ha publicat cap avaluació independent sobre com capta el sarcasme o els canvis d'humor, ni dades de latència o d'encerts. El català no és entre les llengües d'Aure; DeepL diu que n'afegirà més, i que la resta continuaran funcionant amb els models de veu que ja tenia.",
+    "source": "DeepL",
+    "url": "https://www.deepl.com/en/press-release/aure-voice-ai-model",
+    "image": "./assets/deepl-aure-traduccio-veu-to-emocio-20261112.jpg",
+    "slug": "deepl-aure-traduccio-veu-to-emocio"
+  },
+  {
+    "place": "Andorra",
+    "category": "IA I SOCIETAT",
+    "date": "12.11.2026",
+    "title": "Dos projectes d'IA, Minervaly i Staybell, guanyen els Actinn Awards del clúster tecnològic d'Andorra",
+    "summary": "Minervaly, una plataforma que llegeix i contrasta documents per a bancs i asseguradores, s'emporta el primer premi, de 5.000 euros. Staybell, un conserge digital per a allotjaments turístics que respon pel WhatsApp, queda segon.",
+    "detail": "Actinn, el clúster de tecnologia i innovació d'Andorra, convoca cada any uns premis per reconèixer els projectes empresarials més innovadors del país. La setena edició, amb set candidatures, s'ha decidit amb dos projectes d'intel·ligència artificial al capdavant.\n\nEl primer premi, de 5.000 euros, ha estat per a Minervaly, de Minerva Data Solutions, que presenta el seu fundador i conseller delegat, Pol Guasch. És una plataforma que automatitza la gestió de documents: els llegeix, en creua la informació i assenyala les incoherències o les excepcions perquè les revisi una persona, amb resultats que es poden comprovar i seguir. L'empresa la pensa per a la banca, les assegurances i els serveis professionals. El segon premi, de 2.000 euros, ha estat per a Staybell, de Staybell Technologies, representada per Niki Francesca: un conserge digital per a allotjaments turístics petits i mitjans que respon els clients pel WhatsApp a qualsevol hora i en diverses llengües.\n\nEls dos projectes miren cap als dos sectors forts de l'economia andorrana, les finances i el turisme, i entre els finalistes hi havia altres eines amb IA, com una per implantar polítiques d'ús de la IA a les organitzacions o un qüestionari intel·ligent per preparar la declaració de l'IRPF andorrà. Actinn diu que els premis volen afavorir l'emprenedoria i la diversificació de l'economia del país.\n\nEl jurat ha valorat el potencial de mercat i la viabilitat dels projectes, però els premis no diuen res sobre els resultats reals de les eines, que són a les primeres fases. El lliurament oficial es farà el maig del 2027, durant la conferència INNTEC.",
+    "source": "Diari d'Andorra",
+    "url": "https://www.diariandorra.ad/nacional/261111/minervaly-guanya-7a-edicio-dels-actinn-awards_208547.html",
+    "image": "./assets/andorra-actinn-awards-minervaly-staybell-ia-20261112.jpg",
+    "slug": "andorra-actinn-awards-minervaly-staybell-ia"
+  },
+  {
     "place": "Mallorca",
     "category": "RECERCA",
     "date": "11.11.2026",
@@ -70,29 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.segre.com/ca/lleida/261108/urbana-lleida-preveu-incorporar-ia-cameres-vigilancia-desembre_1390859.html",
     "image": "./assets/guardia-urbana-lleida-ia-cameres-desembre-20261108.jpg",
     "slug": "guardia-urbana-lleida-ia-cameres-desembre"
-  },
-  {
-    "place": "Comunitat Valenciana",
-    "category": "IA I SOCIETAT",
-    "date": "08.11.2026",
-    "title": "La Conselleria de Sanitat valenciana licita per 1,45 milions una IA que ajudi els metges de família a detectar el càncer de pell",
-    "summary": "L'eina analitzarà fotos de taques i lunars fetes amb el mòbil o el dermatoscopi a 244 centres de salut i 567 consultoris de la Comunitat Valenciana. Haurà d'encertar com a mínim el 90% dels casos de càncer, i la decisió de derivar el pacient continuarà sent del metge.",
-    "detail": "Detectar a temps un melanoma pot canviar el pronòstic d'un pacient, però la primera mirada a una taca o a un lunar sospitós la fa sovint el metge de família, que no és dermatòleg. La Conselleria de Sanitat de la Generalitat Valenciana ja té una aplicació de teledermatologia: els metges d'atenció primària envien fotografies i dades clíniques als dermatòlegs, que poden resoldre el cas a distància, donar pautes o demanar una visita presencial. Ara hi vol afegir una eina d'intel·ligència artificial.\n\nSegons Valencia Plaza, que ha consultat la memòria i el plec tècnic, la Conselleria ha tret a licitació per 1,45 milions d'euros, IVA inclòs, un programa que analitza imatges de lesions de la pell i n'estima el risc que siguin malignes, és a dir, si presenten signes compatibles amb un melanoma o amb un carcinoma basocel·lular o escatós. El contracte dura 25 mesos, un de preparació i 24 d'ús, i es pot allargar un any més per 726.000 euros. L'eina s'oferirà sense límit d'usuaris ni de pacients als 244 centres de salut, els 567 consultoris auxiliars i els serveis de dermatologia dels 24 departaments de salut. El metge farà la foto amb el mòbil o amb un dermatoscopi i decidirà ell, amb el seu criteri clínic, si deriva el pacient i amb quina prioritat. El diagnòstic definitiu continuarà depenent de la biòpsia.\n\nEl plec posa llistons concrets. La IA ha d'estar ja desenvolupada i tenir el marcatge CE com a producte sanitari de classe IIb o superior, perquè pot influir en decisions clíniques. Ha de detectar com a mínim el 90% dels càncers (sensibilitat) i descartar correctament com a mínim el 70% de les lesions benignes (especificitat). En l'adjudicació, el rendiment diagnòstic pesa 55 punts de 100, més que el preu (20), i la resta es reparteix entre l'evidència científica, el nivell de certificació i la capacitat de detectar altres lesions. Sanitat calcula que a la Comunitat Valenciana es podrien diagnosticar uns 800 melanomes cutanis l'any.\n\nÉs una licitació, no un sistema en funcionament: encara no se sap quina empresa la guanyarà ni quan arribarà als centres de salut, i la connexió amb l'aplicació de teledermatologia queda fora d'aquest contracte. Una especificitat del 70% també vol dir que una part de les lesions benignes es marcaran com a sospitoses, cosa que pot generar derivacions de més si el metge no hi posa el seu criteri. La notícia no recull declaracions de la Conselleria ni dades sobre les llistes d'espera de dermatologia.",
-    "source": "Valencia Plaza",
-    "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/sanidad-licita-un-contrato-de-145-millones-para-detectar-posibles-casos-de-cancer-de-piel-con-ia",
-    "image": "./assets/sanitat-valenciana-licita-ia-cancer-pell-20261108.jpg",
-    "slug": "sanitat-valenciana-licita-ia-cancer-pell"
-  },
-  {
-    "place": "Tarragona",
-    "category": "IA I SOCIETAT",
-    "date": "08.11.2026",
-    "title": "Estudiants de la URV creen dues eines d'IA que mesuren el paper de les dones a les converses i a les notícies",
-    "summary": "Una analitza qui parla més i qui interromp en una conversa gravada; l'altra classifica el rol de les dones en articles de premsa, i només en un 23% dels casos les troba com a líders o expertes.",
-    "detail": "El repte «Mujeres por la IA abierta», impulsat per la Secretaria d'Estat de Digitalització i Intel·ligència Artificial, demanava a dones joves d'estudis científics i tècnics eines de codi obert que analitzessin vídeo, àudio o text. Hi han col·laborat OVHcloud, la Universitat Politècnica de Catalunya i el seu centre de recerca en ciència de dades i IA, i el Col·legi Oficial d'Enginyeria en Informàtica de Catalunya.\n\nDos equips d'estudiants de la Universitat Rovira i Virgili, a Tarragona, hi han presentat eines. EQUITalk, de l'equip Hive, format per Sonia Oros i Gema Pérez, del doble grau d'Enginyeria Biomèdica i Enginyeria Informàtica de l'Escola Tècnica Superior d'Enginyeria de la URV, i María Mira, de la Universitat de Santiago de Compostel·la, analitza converses gravades i mesura el temps que parla cada persona, qui porta el control i les interrupcions; ha quedat segona. L'altra, de l'equip «Las 3 neuronas», amb Sofia Boyko, Sofia Mirza i Laura Lope, del grau d'Enginyeria Biomèdica, fa servir models d'IA per classificar el paper de les dones en articles de premsa en quatre categories: líders o expertes, papers secundaris, acompanyants i víctimes.\n\nSegons la URV, els àudios analitzats amb EQUITalk mostren desequilibris en contra de les dones, i l'eina de premsa només les ha trobat com a líders o expertes en un 23% dels casos. El segon premi dona a l'equip Hive una plaça a la II Trobada de Dones i Tecnologia, a Madrid, el 18 de novembre.\n\nSón prototips d'estudiants fets en el marc d'un repte, i la informació publicada no detalla quants àudios ni quants articles s'han analitzat ni amb quina precisió classifiquen els models; les xifres s'han de llegir com un primer resultat, no com un estudi.",
-    "source": "Modernet Digital (a partir de la Universitat Rovira i Virgili)",
-    "url": "https://www.modernetdigital.cat/educacio/dues-eines-urv-mesuren-biaix-dones-amb-ia/20261107115022062036.html",
-    "image": "./assets/urv-estudiants-eines-ia-biaix-dones-20261108.jpg",
-    "slug": "urv-estudiants-eines-ia-biaix-dones"
   }
 ];
