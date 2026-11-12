@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-12T17:25:53.732Z",
+ "actualitzat": "2026-11-12T21:37:30.230Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "596157bc0294",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Jensen Huang habría mantenido una tercera relación extramatrimonial antes de su salida de Nvidia",
+   "url": "https://www.elperiodico.com/es/economia/20261112/jensen-huang-tercera-relacion-extramatrimonial-empleada-nvidia-136388342",
+   "publicat": "2026-11-12T20:35:34.000Z"
+  },
+  {
+   "id": "d0a7ed783de0",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Jensen Huang mantuvo una tercera relación extramarital con otra empleada de Nvidia",
+   "url": "https://elpais.com/us/2026-11-12/jensen-huang-mantuvo-una-tercera-relacion-extramarital-con-una-empleada-de-nvidia.html",
+   "publicat": "2026-11-12T20:14:12.000Z"
+  },
+  {
+   "id": "91f420609f4d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "IAG busca ingresos publicitarios con la nueva IAG Media para combatir el alza de costes operativos",
+   "url": "https://cincodias.elpais.com/companias/2026-11-12/iag-busca-ingresos-publicitarios-con-la-nueva-iag-media-para-combatir-el-alza-de-costes-operativos.html",
+   "publicat": "2026-11-12T19:30:00.000Z"
+  },
+  {
+   "id": "47e516cfb7e0",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Trump proposa que Tim Cook substitueixi Huang al capdavant de Nvidia",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/trump-proposa-tim-cook-substitueixi-huang-capdavant-nvidia_1724789_102.html",
+   "publicat": "2026-11-12T19:13:00.000Z"
+  },
+  {
+   "id": "a8defad36679",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Intel·ligència artificial, làsers i un objectiu: protegir el salmó",
+   "url": "https://www.elnacional.cat/ca/tecnologia/intelligencia-artificial-lasers-objectiu-protegir-salmo_1724756_102.html",
+   "publicat": "2026-11-12T19:00:00.000Z"
+  },
+  {
+   "id": "dd32fe389522",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'Ibex-35 cau un 0,31% i s'allunya dels 20.000 punts per Nvidia i les dades empresarials",
+   "url": "https://www.elnacional.cat/oneconomia/ca/mercats/ibex-35-cau-031-allunya-20000-punts-nvidia-dades-empresarials_1724774_102.html",
+   "publicat": "2026-11-12T18:26:39.000Z"
+  },
+  {
+   "id": "375ff34b5aa9",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia perd 250.000 milions de dòlars en borsa després de la sortida de Jensen Huang",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/nvidia-perd-250000-milions-dolars-en-borsa-despres-sortida-jensen-huang_1724765_102.html",
+   "publicat": "2026-11-12T17:52:56.000Z"
+  },
+  {
+   "id": "44d9755ea500",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Les ulleres amb Gemini de Google i Samsung obren reserves: des de 395 dòlars i funcionen amb iPhone",
+   "url": "https://www.elnacional.cat/ca/tecnologia/ulleres-gemini-google-samsung-obren-reserves-395-dolars-funcionen-iphone_1724681_102.html",
+   "publicat": "2026-11-12T17:30:00.000Z"
+  },
   {
    "id": "c6ceea0fa19b",
    "mitja": "Diario de Mallorca",
@@ -285,7 +373,7 @@
    "icona": "/assets/premsa/eldiario-es.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Jensen Huang, CEO de Nvidia, dimite tras el escándalo de su relación con una espía china y con otra ejecutiva de su empresa",
+   "titol": "Jensen Huang, CEO de Nvidia, dimite tras el escándalo de su relación con una espía china y con otras dos empleadas de su empresa",
    "url": "https://www.eldiario.es/tecnologia/jensen-huang-ceo-nvidia-dimite-escandalo-relacion-espia-ejecutiva-empresa_1_13658787.html",
    "publicat": "2026-11-12T13:56:44.000Z"
   },
@@ -397,7 +485,7 @@
    "icona": "/assets/premsa/3catinfo.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Dimiteix el CEO de Nvidia després del suposat espionatge i la patacada del valor de l'empresa",
+   "titol": "El CEO de Nvidia declararà al Congrés dels EUA sobre els riscos per a la seguretat nacional",
    "url": "https://www.3cat.cat/3catinfo/el-ceo-de-nvidia-a-la-corda-fluixa-pel-suposat-espionatge-patacada-del-valor-de-lempresa/noticia/3439305",
    "publicat": "2026-11-12T10:24:18.000Z"
   },
@@ -584,7 +672,7 @@
    "icona": "/assets/premsa/informacion.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Jensen Huang dimite como director ejecutivo de Nvidia tras el escándalo por sus relaciones con una presunta espía y una empleada",
+   "titol": "Jensen Huang dimite como director ejecutivo de Nvidia tras el escándalo por sus relaciones con una presunta espía y dos empleadas",
    "url": "https://www.informacion.es/internacional/2026/11/12/nvidia-estudia-cesar-consejero-delegado-jensen-huang-relacion-presunta-espia-china-136352926.html",
    "publicat": "2026-11-12T06:21:29.000Z"
   },
@@ -2672,96 +2760,6 @@
    "titol": "De l’aparador local a Google mundial: les empreses del Solsonès s’apunten a la IA",
    "url": "https://www.regio7.cat/solsones/2026/11/08/l-aparador-local-google-mundial-136215797.html",
    "publicat": "2026-11-08T08:22:20.000Z"
-  },
-  {
-   "id": "9ea8f32c3fca",
-   "mitja": "Diari de Terrassa",
-   "font": "diarideterrassa",
-   "icona": "/assets/premsa/diari-de-terrassa.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Les eleccions als EUA frenen l’expansió de la IA",
-   "url": "https://www.diarideterrassa.com/economia/les-eleccions-als-eua-frenen-lexpansio-de-la-ia.html",
-   "publicat": "2026-11-08T06:22:02.000Z"
-  },
-  {
-   "id": "6240fec9864b",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La doctora IA no és cap metge: quan pot ser útil i quin perill té fer-hi consultes sobre salut",
-   "url": "https://www.3cat.cat/3catinfo/la-doctora-ia-no-es-cap-metge-quan-pot-ser-util-i-quin-perill-te-fer-hi-consultes-sobre-salut/noticia/3421096",
-   "publicat": "2026-11-08T06:11:49.000Z"
-  },
-  {
-   "id": "3fbe9678e623",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA ya no es un asunto tecnológico: por qué poner reglas a su uso es una decisión de dirección",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/canal-practico/20261108/11669512/ia-asunto-tecnologico-poner-reglas-decision-direccion.html",
-   "publicat": "2026-11-08T05:50:00.000Z"
-  },
-  {
-   "id": "22a14256910a",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Alicante analiza quién responde por los errores de la IA en el diagnóstico de alzhéimer y párkinson",
-   "url": "https://www.informacion.es/alicante/2026/11/08/alicante-analiza-responsabilidad-inteligencia-artificial-diagnostico-alzheimer-parkinson-enfermedades-136163085.html",
-   "publicat": "2026-11-08T05:00:53.000Z"
-  },
-  {
-   "id": "1ed2273714a9",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Comunitat Valenciana | De atacar al adversario a diseñar la estrategia de los partidos: la IA irrumpe en la campaña del 29N",
-   "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/de-atacar-al-adversario-a-disenar-la-estrategia-de-los-partidos-la-ia-irrumpe-en-la-campana-del-29n",
-   "publicat": "2026-11-08T05:00:05.000Z"
-  },
-  {
-   "id": "32feda9dd256",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Comunitat Valenciana | Sanidad licita un contrato de 1,45 millones para detectar posibles casos de cáncer de piel con IA",
-   "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/sanidad-licita-un-contrato-de-145-millones-para-detectar-posibles-casos-de-cancer-de-piel-con-ia",
-   "publicat": "2026-11-08T05:00:05.000Z",
-   "noticia": "sanitat-valenciana-licita-ia-cancer-pell",
-   "noticiaTitol": "La Conselleria de Sanitat valenciana licita per 1,45 milions una IA que ajudi els metges de família a detectar el càncer de pell"
-  },
-  {
-   "id": "75bca3403465",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Preveure en temps d’IA",
-   "url": "https://www.diariandorra.ad/opinio/les-set-claus/261108/preveure-temps-d-ia_208298.html",
-   "publicat": "2026-11-08T04:53:39.000Z"
-  },
-  {
-   "id": "58114a89d9f4",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA entra a les maletes",
-   "url": "https://www.diariandorra.ad/nacional/261108/ia-entra-les-maletes_208291.html",
-   "publicat": "2026-11-08T04:37:32.000Z"
   }
  ]
 }
