@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-12T11:51:46.085Z",
+ "actualitzat": "2026-11-12T13:13:35.901Z",
  "canals": 19,
  "videos": [
   {
@@ -1005,18 +1005,6 @@
    "noticia": "uber-chatgpt-work-30000-empleats",
    "noticiaTitol": "Uber posa els seus 30.000 empleats a ChatGPT Work després d'una prova pilot amb 1.000 persones",
    "resum": "Vídeo oficial d'OpenAI, en anglès, sobre l'arribada de ChatGPT Work als més de 30.000 empleats d'Uber, el fet que explica aquesta notícia. El resum es basa en el títol del vídeo i en la notícia."
-  },
-  {
-   "id": "CEEP7RecnFM",
-   "titol": "How TK Elevator technicians use agentic AI to prepare for every job",
-   "canal": "Microsoft",
-   "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-22T12:02:58.000Z",
-   "descripcio": "TK Elevator is using agentic AI, created with Azure AI Foundry and Azure Databricks, to brief its service technicians before they reach the elevator and capture what they learn through a voice debriefing agent. Paired with insights from its Digital Operations Centers, the agents help technicians arr",
-   "miniatura": "/assets/videos/CEEP7RecnFM.jpg"
   },
   {
    "id": "xaHdyqGtG1M",
