@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-12T13:13:35.901Z",
+ "actualitzat": "2026-11-12T17:14:57.733Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "vLAegkGGWrM",
+   "titol": "Building with Gemini in Google Antigravity",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-12T17:00:11.000Z",
+   "descripcio": "See what you can build using our latest Gemini models in Google Antigravity. From in-browser animation and multimodal prototyping to autonomous codebase modernization, explore how you can ship complex architectures straight from a prompt. What are you building with Gemini in Google Antigravity? Shar",
+   "miniatura": "/assets/videos/vLAegkGGWrM.jpg"
+  },
   {
    "id": "vu3YlUMkvyg",
    "titol": "What Codex Unlocks for Holiday Extras",
