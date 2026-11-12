@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-12T02:01:52.606Z",
+ "actualitzat": "2026-11-12T05:15:26.430Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "48879f6ee091",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA i la crisi en l’ensenyament universitari",
+   "url": "https://www.diariodemallorca.es/bellver/2026/11/12/ia-crisi-l-ensenyament-universitari-136342851.html",
+   "publicat": "2026-11-12T05:01:27.000Z"
+  },
+  {
+   "id": "418b5c1beec2",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia se desploma en Bolsa tras un nuevo escándalo de su CEO y la acción pierde un 35% en un mes",
+   "url": "https://elpais.com/economia/2026-11-12/nvidia-sufre-una-tormenta-de-crisis-encadenadas-y-pierde-el-30-de-su-valor-bursatil-en-un-mes.html",
+   "publicat": "2026-11-12T04:45:00.000Z"
+  },
+  {
+   "id": "6e843f6543d7",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia pone al centro de chips de Singapur en el punto de mira",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-12/nvidia-pone-al-centro-de-chips-de-singapur-en-el-punto-de-mira.html",
+   "publicat": "2026-11-12T04:45:00.000Z"
+  },
+  {
+   "id": "34f2cbed3ec9",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La IA tras las ‘midterms’: el Congreso y los Estados recuperan la voz",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-12/la-ia-tras-las-midterms-el-congreso-y-los-estados-recuperan-la-voz.html",
+   "publicat": "2026-11-12T04:40:00.000Z"
+  },
+  {
+   "id": "7969b2de9694",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Frenetic, la ‘start-up’ española que se hace fuerte en los transformadores eléctricos en la era de la IA",
+   "url": "https://elpais.com/economia/negocios/2026-11-12/la-espanola-frenetic-se-hace-fuerte-en-los-transformadores-electricos-en-la-era-de-la-ia.html",
+   "publicat": "2026-11-12T04:30:00.000Z"
+  },
+  {
+   "id": "f5bf9ad8ddde",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Amazon y Google amasan una fortuna de casi 400.000 millones de dólares en Anthropic",
+   "url": "https://elpais.com/economia/2026-11-12/amazon-y-google-amasan-una-fortuna-de-casi-400000-millones-de-dolares-en-anthropic.html",
+   "publicat": "2026-11-12T04:15:00.000Z"
+  },
   {
    "id": "c7c16fb67160",
    "mitja": "La Vanguardia",
@@ -2698,72 +2764,6 @@
    "titol": "IAG gana un 16% menos y se dejará 8.900 millones por el coste del combustible",
    "url": "https://www.lavanguardia.com/dinero/20261106/11677642/iag-gana-16-dejara-8-900-millones-coste-combustible.html",
    "publicat": "2026-11-06T07:56:12.000Z"
-  },
-  {
-   "id": "cea79008ab25",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "IAG guanya un 16% menys fins al setembre pel combustible: 2.264 milions",
-   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/iag-guanya-16-menys-setembre-combustible-2-264-milions_1721492_102.html",
-   "publicat": "2026-11-06T07:50:00.000Z"
-  },
-  {
-   "id": "fa17dd3beeb4",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "IAG reduce un 16,2% su beneficio hasta septiembre por el encarecimiento del combustible y prevé recortar capacidad en 2026",
-   "url": "https://www.levante-emv.com/economia/2026/11/06/iag-reduce-16-2-beneficio-136147623.html",
-   "publicat": "2026-11-06T07:48:18.000Z"
-  },
-  {
-   "id": "230ddec22963",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "IAG reduce un 16,2% su beneficio hasta septiembre y prevé cerrar 2026 con un margen operativo del 12%",
-   "url": "https://cincodias.elpais.com/companias/2026-11-06/iag-redujo-un-162-su-beneficio-hasta-septiembre-por-el-alza-del-combustible.html",
-   "publicat": "2026-11-06T07:47:43.000Z"
-  },
-  {
-   "id": "a2130887ab92",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Demandan a Google en EEUU por permitir que su IA ayudara a una niña de 13 años a planear su suicidio y su funeral",
-   "url": "https://www.elmundo.es/tecnologia/2026/11/06/6aed78bbfdddff761f8b4583.html",
-   "publicat": "2026-11-06T06:50:38.000Z"
-  },
-  {
-   "id": "16749177c62a",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial llama a la puerta de las pymes de Balears",
-   "url": "https://www.diariodemallorca.es/economia/2026/11/06/inteligencia-artificial-llama-puerta-pymes-bc-136118336.html",
-   "publicat": "2026-11-06T05:30:00.000Z"
-  },
-  {
-   "id": "024fbf4594fd",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Prada, Dior y Loewe dan la espalda a la IA en sus campañas navideñas y convierten el dibujo a mano en el nuevo símbolo de exclusividad",
-   "url": "https://www.elperiodico.com/es/gente/20261106/prada-dior-loewe-ia-animacion-mano-campanas-navidad-2026-136111552",
-   "publicat": "2026-11-06T05:00:21.000Z"
   }
  ]
 }
