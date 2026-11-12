@@ -1,8 +1,118 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-12T05:29:32.008Z",
+ "actualitzat": "2026-11-12T09:14:56.125Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e03dbd33939f",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "¿Quién sustituirá a Jensen Huang como CEO de Nvidia? Un ingeniero y la directora financiera, entre los candidatos favoritos",
+   "url": "https://elpais.com/economia/2026-11-12/quien-sustituira-a-jensen-huang-como-ceo-de-nvidia-un-ingeniero-y-la-directora-financiera-entre-los-candidatos-favoritos.html",
+   "publicat": "2026-11-12T08:44:17.000Z"
+  },
+  {
+   "id": "e968cde6d615",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia avalua la destitució del CEO, de qui s'ha revelat una segona infidelitat amb una subordinada",
+   "url": "https://www.apuntmedia.es/noticies/mon/nvidia-avalua-destitucio-ceo-s-revelat-una-segona-infidelitat-una-subordinada_1_1908345.html",
+   "publicat": "2026-11-12T08:29:49.000Z"
+  },
+  {
+   "id": "0a0c9f9e9349",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las Bolsas cotizan en positivo y obvian la caída de Nvidia",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-12/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-11-12T08:12:09.000Z"
+  },
+  {
+   "id": "acb637251d7f",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia prepara l'acomiadament de Jensen Huang pel cas de la presumpta espia",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nvidia-prepara-acomiadament-jensen-huang-cas-presumpta-espia_1724225_102.html",
+   "publicat": "2026-11-12T07:41:21.000Z"
+  },
+  {
+   "id": "4dc6302319c3",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Elon Musk tercia en el escándalo del CEO de Nvidia: “Sería un honor contratar a Jensen Huang”",
+   "url": "https://elpais.com/economia/2026-11-12/elon-musk-tercia-en-el-escandalo-del-ceo-de-nvidia-seria-un-honor-contratar-a-jensen-huang.html",
+   "publicat": "2026-11-12T07:29:12.000Z"
+  },
+  {
+   "id": "662a4a49c3ec",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Elon Musk asegura que “sería un honor” contratar a Jensen Huang, en la rampa de salida de Nvidia",
+   "url": "https://www.lavanguardia.com/economia/20261112/11682184/elon-musk-asegura-seria-honor-contratar-jensen-huang-rampa-salida-nvidia.html",
+   "publicat": "2026-11-12T07:29:02.000Z"
+  },
+  {
+   "id": "8571d1925f3a",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia valora d’acomiadar el conseller delegat arran dels escàndols extramatrimonials",
+   "url": "https://www.vilaweb.cat/noticies/nvidia-valora-dacomiadar-el-conseller-delegat-arran-dels-escandols-extramatrimonials",
+   "publicat": "2026-11-12T07:27:27.000Z"
+  },
+  {
+   "id": "df2444c167f7",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia prepara el relevo de su consejero delegado tras destaparse relaciones extramatrimoniales con una presunta espía y empleada",
+   "url": "https://www.informacion.es/internacional/2026/11/12/nvidia-estudia-cesar-consejero-delegado-jensen-huang-relacion-presunta-espia-china-136352926.html",
+   "publicat": "2026-11-12T06:21:29.000Z"
+  },
+  {
+   "id": "eaa008244577",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia se plantea el despido de Jensen Huang por su relación con una espía china y con otra ejecutiva de la empresa",
+   "url": "https://www.eldiario.es/tecnologia/nvidia-plantea-despido-jensen-huang-relacion-espia-china-ejecutiva-empresa_1_13656864.html",
+   "publicat": "2026-11-12T06:02:33.000Z"
+  },
+  {
+   "id": "a57b63195417",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Hannah Arendt, la intel·ligència artificial, i la necessitat de ser crítics",
+   "url": "https://www.diaridegirona.cat/cultura/2026/11/12/hannah-arendt-intelligencia-artificial-necessitat-136303779.html",
+   "publicat": "2026-11-12T05:30:15.000Z"
+  },
   {
    "id": "81e37347d0b7",
    "mitja": "La Vanguardia",
@@ -153,7 +263,7 @@
    "icona": "/assets/premsa/el-nacional.webp",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "L'exèrcit rus està usant la IA per crear vídeos de suposats avenços a Ucraïna",
+   "titol": "L'exèrcit rus usa la IA per crear vídeos de suposats avenços a Ucraïna",
    "url": "https://www.elnacional.cat/ca/tecnologia/exercit-rus-esta-usant-ia-crear-videos-suposats-avencos-ucraina_1724150_102.html",
    "publicat": "2026-11-11T20:00:00.000Z"
   },
@@ -782,7 +892,7 @@
    "icona": "/assets/premsa/informacion.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Los cuernos que han desatado una crisis nacional: cronología del escándalo sexual y político que azota al director de Nvidia",
+   "titol": "La infidelidad que ha desatado una crisis nacional: cronología del escándalo sexual y político que azota al director de Nvidia",
    "url": "https://www.informacion.es/internacional/2026/11/10/cuernos-crisis-eeuu-jensen-huang-espia-nvidia-china-espionaje-ia-trump-136289795.html",
    "publicat": "2026-11-10T13:32:16.000Z"
   },
@@ -2652,118 +2762,6 @@
    "titol": "RTVE Play te lleva a los primeros platós de TVE con inteligencia artificial y tu móvil como mando",
    "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-06/rtve-play-te-lleva-a-los-primeros-platos-de-tve-con-inteligencia-artificial-y-tu-movil-como-mando.html",
    "publicat": "2026-11-06T15:24:17.000Z"
-  },
-  {
-   "id": "fa7a90be84c7",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El mercado castiga a las cotizadas cripto, atrapadas entre las dudas sobre la IA y la debilidad de bitcoin",
-   "url": "https://cincodias.elpais.com/criptoactivos/2026-11-06/el-mercado-castiga-a-las-cotizadas-cripto-atrapadas-entre-las-dudas-sobre-la-ia-y-la-debilidad-de-bitcoin.html",
-   "publicat": "2026-11-06T14:54:06.000Z"
-  },
-  {
-   "id": "ed608ec41c22",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los gigantes de la IA queman casi 2 billones de dólares en una jornada negra en la bolsa",
-   "url": "https://www.levante-emv.com/vida-y-estilo/tecnologia/2026/11/06/empresas-ia-caida-bolsa-millones-nasdaq-acciones-eeuu-trump-elecciones-midterms-136170442.html",
-   "publicat": "2026-11-06T14:46:29.000Z"
-  },
-  {
-   "id": "03966473997b",
-   "mitja": "El Periódico",
-   "font": "elperiodico-tec",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Els gegants de la IA cremen gairebé 2 bilions de dòlars en una jornada negra a la borsa",
-   "url": "https://www.elperiodico.cat/tecnologia/20261106/empreses-ia-caiguda-borsa-milions-nasdaq-accions-eua-trump-eleccions-midterms-136152014",
-   "publicat": "2026-11-06T13:30:52.000Z"
-  },
-  {
-   "id": "d3ae79109119",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nvidia invierte 1.000 millones de dólares en Naver como alianza estratégica para crear centros de datos a gran escala",
-   "url": "https://cincodias.elpais.com/companias/2026-11-06/nvidia-invierte-1000-millones-de-dolares-en-la-surcoreana-naver-y-se-convierte-en-tercer-accionista.html",
-   "publicat": "2026-11-06T12:20:57.000Z"
-  },
-  {
-   "id": "b4fd0ce0d7b6",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las enfermedades neurodegenerativas e IA a debate en la Universidad de Alicante",
-   "url": "https://www.informacion.es/videos/alicante/2026/11/06/enfermedades-neurodegenerativas-ia-debate-universidad-136159925.html",
-   "publicat": "2026-11-06T12:08:56.000Z"
-  },
-  {
-   "id": "cf9c08fe8cb1",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La científica de Alicante Aurelia Bustos diseña con IA anticuerpos para combatir el alzhéimer",
-   "url": "https://www.informacion.es/alicante/2026/11/06/cientifica-alicante-aurelia-bustos-disena-inteligencia-artificial-anticuerpos-alzheimer-sanidad-136153220.html",
-   "publicat": "2026-11-06T11:06:30.000Z"
-  },
-  {
-   "id": "d9c3f24f81ea",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un sistema de inteligencia artificial de la Universidad de Alicante analiza la entonación y la dicción de la voz para detectar alzhéimer",
-   "url": "https://www.informacion.es/alicante/2026/11/06/investigadores-ua-descubren-cambios-voz-alertan-alzheimer-enfermedades-alicante-136153552.html",
-   "publicat": "2026-11-06T10:38:06.000Z",
-   "noticia": "universitat-alacant-ia-veu-alzheimer",
-   "noticiaTitol": "Un equip de la Universitat d'Alacant ensenya una IA a detectar senyals d'Alzheimer en la manera de parlar, amb un 98% d'encerts en una primera prova"
-  },
-  {
-   "id": "7c03668991e0",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Caída masiva global en la burbuja de la IA ante el posible freno a los centros de datos tras las 'midterms'",
-   "url": "https://www.eldiario.es/tecnologia/caida-masiva-global-burbuja-ia-posible-freno-centros-datos-midterms_1_13642992.html",
-   "publicat": "2026-11-06T10:10:25.000Z"
-  },
-  {
-   "id": "608b8023e961",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nuevos Motorola Moto Buds Ultra 27: auriculares con sonido Bose y traducción con IA",
-   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-11-06/motorola-moto-buds-ultra-27-nuevos-caracteristicas-precio.html",
-   "publicat": "2026-11-06T10:00:00.000Z"
-  },
-  {
-   "id": "a895c11e11a8",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La incertesa sobre la IA impacta en les borses després de les midterm dels EUA",
-   "url": "https://www.3cat.cat/3catinfo/la-incertesa-sobre-la-ia-impacta-en-les-borses-despres-de-les-midterm-dels-eua/noticia/3438248",
-   "publicat": "2026-11-06T08:55:26.000Z"
   }
  ]
 }
