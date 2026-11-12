@@ -1,8 +1,162 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-12T09:28:59.987Z",
+ "actualitzat": "2026-11-12T13:13:29.740Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "c1fdd733f046",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Culper Research, el fondo bajista que abrió la caja de los truenos de Nvidia",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-12/culper-research-el-fondo-bajista-que-abrio-la-caja-de-los-truenos-de-nvidia.html",
+   "publicat": "2026-11-12T12:43:33.000Z"
+  },
+  {
+   "id": "d0b46978c497",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El escándalo Nvidia, vulnerabilidad 2.0",
+   "url": "https://www.elperiodico.com/es/opinion/20261112/escandalo-nvidia-vulnerabilidad-2-0-136367065",
+   "publicat": "2026-11-12T12:40:17.000Z"
+  },
+  {
+   "id": "c39a4ae3aae9",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Sanidad destina 1,4 millones a implantar inteligencia artificial para detectar el cáncer de piel en los centros de salud",
+   "url": "https://www.informacion.es/alicante/2026/11/12/sanidad-implantara-inteligencia-artificial-detectar-cancer-de-piel-atencion-primaria-alicante-136367368.html",
+   "publicat": "2026-11-12T12:36:46.000Z"
+  },
+  {
+   "id": "dfc6cf3f5222",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un fallo en los enlaces de aplicaciones generados por Grok Build deja expuestas más de 35.000 'apps' con datos privados",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/12/2748439/fallo-enlaces-aplicaciones-generados-por-grok-build-deja-expuestas-mas-35000-apps-datos-privados.html",
+   "publicat": "2026-11-12T12:09:19.000Z"
+  },
+  {
+   "id": "4d81cdbf5038",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Elon Musk ofereix feina a Jensen Huang si és destituït de Nvidia",
+   "url": "https://www.vilaweb.cat/noticies/elon-musk-ofereix-feina-a-jensen-huang-si-es-destituit-de-nvidia",
+   "publicat": "2026-11-12T11:57:42.000Z"
+  },
+  {
+   "id": "456357521a51",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Empresas | La mitad de menores de 11 y 12 años ya utiliza la IA para estudiar, según la nueva Guía Aiju",
+   "url": "https://alicanteplaza.es/alicanteplaza/empresas/la-mitad-de-menores-de-11-y-12-anos-ya-utiliza-la-ia-para-estudiar-segun-la-nueva-guia-aiju",
+   "publicat": "2026-11-12T11:43:02.000Z"
+  },
+  {
+   "id": "810b1f019901",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Xavier Sala i Martín, economista, sentencia sobre el caso Nvidia: “Estamos en medio de una película de espías, de James Bond y vendrá un giro inesperado”",
+   "url": "https://www.lavanguardia.com/neo/20261112/11682262/sala-i-martin-sobre-caso-nvidia-medio-pelicula-espias-james-bond-vendra-giro-inesperado-epm.html",
+   "publicat": "2026-11-12T11:00:41.000Z"
+  },
+  {
+   "id": "f816dcf34239",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA coloniza el aprendizaje: un 15% de niños ya la usa a los seis años",
+   "url": "https://www.lavanguardia.com/vida/20261112/11681640/ia-coloniza-aprendizaje-15-ninos-seis-anos.html",
+   "publicat": "2026-11-12T10:30:00.000Z"
+  },
+  {
+   "id": "b3b8ea60724a",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El CEO de Nvidia, a la corda fluixa pel suposat espionatge: patacada al valor de l'empresa",
+   "url": "https://www.3cat.cat/3catinfo/el-ceo-de-nvidia-a-la-corda-fluixa-pel-suposat-espionatge-patacada-del-valor-de-lempresa/noticia/3439305",
+   "publicat": "2026-11-12T10:24:18.000Z"
+  },
+  {
+   "id": "65fe72a121d8",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Quién es Kimberly Powell, la ejecutiva de Nvidia señalada como la segunda amante de Jensen Huang",
+   "url": "https://www.lavanguardia.com/internacional/20261112/11682334/kimberly-powell-ejecutiva-nvidia-mantendria-relacion-jensen-huang.html",
+   "publicat": "2026-11-12T10:20:19.000Z"
+  },
+  {
+   "id": "d9c771cd9403",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "No le mientas a Instagram sobre tu edad: Meta pone en marcha la IA que analiza tu cara y fotos en todo el mundo",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261112/11682310/le-mientas-instagram-sobre-edad-meta-pone-marcha-ia-analiza-cara-fotos-mundo.html",
+   "publicat": "2026-11-12T10:04:27.000Z"
+  },
+  {
+   "id": "1108d7192dc6",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Investigadores de la UPV desarrollan una IA que contrasta si los políticos cumplen lo que prometen en campaña",
+   "url": "https://www.levante-emv.com/comunitat-valenciana/2026/11/12/investigadores-upv-desarrollan-ia-contrasta-136359228.html",
+   "publicat": "2026-11-12T09:59:26.000Z"
+  },
+  {
+   "id": "3d2cbeaa59a1",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Alice Huang, la presunta espía china en el centro del caso Nvidia, ha regresado a Pekín",
+   "url": "https://elpais.com/economia/2026-11-12/alice-huang-la-presunta-espia-china-en-el-centro-del-caso-nvidia-ha-regresado-a-pekin.html",
+   "publicat": "2026-11-12T09:34:59.000Z"
+  },
+  {
+   "id": "f7e28f247387",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "A propósito del caso Nvidia: qué nos enseña la historia del espionaje sobre la seguridad tecnológica actual",
+   "url": "https://www.diariodemallorca.es/vida-y-estilo/tecnologia/2026/11/12/proposito-caso-nvidia-ensena-historia-espionaje-seguridad-tecnologica-actual-136358340.html",
+   "publicat": "2026-11-12T09:32:25.000Z"
+  },
   {
    "id": "9e9375d00062",
    "mitja": "La Vanguardia",
@@ -13,6 +167,17 @@
    "titol": "¿Quiénes son los candidatos a suceder a Jensen Huang al frente de Nvidia? Desde un ejecutivo interno a uno de sus hijos",
    "url": "https://www.lavanguardia.com/economia/20261112/11682267/quienes-son-candidatos-suceder-jensen-huang-frente-nvidia-ejecutivo-interno-hijos.html",
    "publicat": "2026-11-12T09:26:29.000Z"
+  },
+  {
+   "id": "19529fb59aa6",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia explora destituir el conseller delegat arran de l’escàndol de l’amant espia",
+   "url": "https://www.ara.cat/economia/tecnologia/accions-nvidia-cauen-possible-destitucio-huang-arran-l-escandol-l-amant-espia_1_5907885.html",
+   "publicat": "2026-11-12T09:23:57.000Z"
   },
   {
    "id": "7cdc408a7e92",
@@ -109,7 +274,7 @@
    "icona": "/assets/premsa/informacion.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Nvidia prepara el relevo de su consejero delegado tras destaparse relaciones extramatrimoniales con una presunta espía y empleada",
+   "titol": "Nvidia prepara la destitución de su consejero delegado tras destaparse otra relación extramatrimonial con una empleada",
    "url": "https://www.informacion.es/internacional/2026/11/12/nvidia-estudia-cesar-consejero-delegado-jensen-huang-relacion-presunta-espia-china-136352926.html",
    "publicat": "2026-11-12T06:21:29.000Z"
   },
@@ -175,7 +340,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Nvidia se desploma en Bolsa tras un nuevo escándalo de su CEO y la acción pierde un 35% en un mes",
+   "titol": "Nvidia se desploma en Bolsa tras un nuevo escándalo de su consejero delegado y la acción pierde un 35% en un mes",
    "url": "https://elpais.com/economia/2026-11-12/nvidia-sufre-una-tormenta-de-crisis-encadenadas-y-pierde-el-30-de-su-valor-bursatil-en-un-mes.html",
    "publicat": "2026-11-12T04:45:00.000Z"
   },
@@ -241,7 +406,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Nvidia ultima la sustitución de su consejero delegado tras la revelación de una nueva relación extramarital",
+   "titol": "Nvidia ultima la destitución de su consejero delegado tras la revelación de una relación con una ejecutiva de la compañía",
    "url": "https://elpais.com/us/2026-11-11/la-revelacion-de-una-nueva-relacion-extramarital-del-consejero-delegado-de-nvidia-compromete-su-futuro-en-la-compania.html",
    "publicat": "2026-11-11T22:55:33.000Z"
   },
@@ -2597,171 +2762,6 @@
    "titol": "Fulgor, desplomes y ruinas en la IA",
    "url": "https://elpais.com/economia/2026-11-07/fulgor-desplomes-y-ruinas-en-la-ia.html",
    "publicat": "2026-11-07T04:45:01.000Z"
-  },
-  {
-   "id": "04da4f318b00",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los votantes de EE UU dieron un palo a la IA. La Bolsa tardó en entenderlo",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-07/los-votantes-de-ee-uu-dieron-un-palo-a-la-ia-la-bolsa-tardo-en-entenderlo.html",
-   "publicat": "2026-11-07T04:40:00.000Z"
-  },
-  {
-   "id": "4296fc438074",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Francia, Brasil y la IA: cómo los algoritmos y la especulación amplifican las caídas del mercado",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-07/francia-brasil-y-la-ia-como-los-algoritmos-y-la-especulacion-amplifican-las-caidas-del-mercado.html",
-   "publicat": "2026-11-07T04:30:01.000Z"
-  },
-  {
-   "id": "92b0abe65220",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Las nuevas ‘start-ups’ de IA se quedan en España: “Hace unos años tenías que irte fuera. Hoy, los fondos de Silicon Valley invierten aquí”",
-   "url": "https://cincodias.elpais.com/extras/pymes/2026-11-07/las-nuevas-start-ups-de-ia-se-quedan-en-espana-hace-unos-anos-tenias-que-irte-fuera-hoy-los-fondos-de-silicon-valley-invierten-aqui.html",
-   "publicat": "2026-11-07T04:30:01.000Z"
-  },
-  {
-   "id": "59929a76ab2d",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Por qué la IA quiere mudarse al espacio?",
-   "url": "https://www.lavanguardia.com/vida/20261107/11675880/ia-quiere-mudarse-espacio.html",
-   "publicat": "2026-11-07T04:30:00.000Z"
-  },
-  {
-   "id": "0b569bce0246",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La amenaza de burbuja en la IA sorprende a los gigantes tecnológicos con la inversión en máximos históricos",
-   "url": "https://cincodias.elpais.com/companias/2026-11-07/la-amenaza-de-burbuja-en-la-ia-sorprende-a-los-gigantes-tecnologicos-con-la-inversion-en-maximos-historicos.html",
-   "publicat": "2026-11-07T04:15:00.000Z"
-  },
-  {
-   "id": "14a8c46bc56f",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA detiene a la IA, y los editores miran",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/libros/20261107/ia-detiene-ia-editores-miran-136072725",
-   "publicat": "2026-11-07T03:51:01.000Z"
-  },
-  {
-   "id": "6013596cdfe4",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Els gegants de la IA perden 2 bilions en una jornada negra a la borsa",
-   "url": "https://www.elperiodico.cat/internacional/20261107/els-gegants-ia-perden-2-136187125",
-   "publicat": "2026-11-06T23:05:16.000Z"
-  },
-  {
-   "id": "99fbd70b32be",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "\"La mort serà una elecció\": OpenAI creu que la intel·ligència artificial està a punt de canviar-ho tot",
-   "url": "https://www.elnacional.cat/ca/tecnologia/mort-sera-eleccio-openai-creu-intelligencia-artificial-esta-punt-canviar-ho-tot_1722044_102.html",
-   "publicat": "2026-11-06T21:00:00.000Z"
-  },
-  {
-   "id": "c3a39de3914f",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El BCE pide a los bancos que cambien su modelo de gobernanza para adaptarse a la IA",
-   "url": "https://cincodias.elpais.com/companias/2026-11-06/el-bce-pide-a-los-bancos-que-cambien-su-modelo-de-gobernanza-para-adaptarse-a-la-ia.html",
-   "publicat": "2026-11-06T17:01:13.000Z"
-  },
-  {
-   "id": "dcaa9f505ed2",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La corrección del Nasdaq presiona a la baja la valoración de Anthropic ante su salida a Bolsa",
-   "url": "https://cincodias.elpais.com/companias/2026-11-06/la-correccion-del-nasdaq-presiona-a-la-baja-la-valoracion-de-anthropic-ante-su-salida-a-bolsa.html",
-   "publicat": "2026-11-06T16:46:27.000Z"
-  },
-  {
-   "id": "e04d5288f75b",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El malestar contra la IA estalla en Europa: un centenar de manifestantes asalta un centro de datos de Microsoft en Ámsterdam",
-   "url": "https://www.levante-emv.com/internacional/2026/11/06/malestar-ia-estalla-europa-centenar-asalto-centro-datos-microsoft-amsterdam-136174538.html",
-   "publicat": "2026-11-06T16:27:17.000Z"
-  },
-  {
-   "id": "c04b8f5335bf",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Varapalo bursátil a la IA, SPV y economía circular",
-   "url": "https://www.elperiodico.com/es/opinion/20261106/varapalo-bursatil-ia-spv-economia-136173614",
-   "publicat": "2026-11-06T16:26:39.000Z"
-  },
-  {
-   "id": "8c204b496755",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Enamorar-se d'una IA i la sodomia il·legal",
-   "url": "https://www.ara.cat/podcasts/embolicades/enamorar-d-ia-sodomia-il-legal_1_5902298.html",
-   "publicat": "2026-11-06T16:15:58.000Z"
-  },
-  {
-   "id": "5f844947b319",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Jorge Volpi, Agustín Fernández Mallo y Genís Roca debaten sobre la IA como \"nueva religión\": \"Simula bastante bien la parte eléctrica del cerebro, pero no sabe cómo imitar la parte química\"",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261106/ia-ciencia-ficcion-ficcion-festival-42-136136272",
-   "publicat": "2026-11-06T16:00:38.000Z"
-  },
-  {
-   "id": "3bba0ebf5eef",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Google millora la seva IA de vídeo: Gemini Omni 1.2 Flash crea clips més llargs i permet editar-los parlant",
-   "url": "https://www.elnacional.cat/ca/tecnologia/google-millora-seva-ia-video-gemini-omni-12-flash-crea-clips-mes-llargs-permet-editar-los-parlant_1721897_102.html",
-   "publicat": "2026-11-06T16:00:00.000Z"
   }
  ]
 }
