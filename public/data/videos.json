@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-12T05:15:24.427Z",
+ "actualitzat": "2026-11-12T09:14:47.241Z",
  "canals": 19,
  "videos": [
   {
@@ -61,7 +61,10 @@
    "idioma": "en",
    "publicat": "2026-11-11T18:00:31.000Z",
    "descripcio": "98% of human DNA doesn't build proteins—it controls how our cells work, and holds vital clues to why diseases happen and why 90% of new drugs fail in clinical trials. Understanding the genome at the molecular level is the key to deciphering the blueprint of human life. In this episode, Professor Han",
-   "miniatura": "/assets/videos/uND6iY2qp_c.jpg"
+   "miniatura": "/assets/videos/uND6iY2qp_c.jpg",
+   "noticia": "deepmind-alphagenome-2-regulacio-genetica-tipus-cellular",
+   "noticiaTitol": "Google DeepMind presenta AlphaGenome 2, que prediu com una variant de l'ADN canvia l'activitat dels gens en cada tipus de cèl·lula",
+   "resum": "Episodi del canal de Google DeepMind dedicat a AlphaGenome 2. Parteix d'una dada: el 98% de l'ADN humà no fabrica proteïnes, sinó que controla com funcionen les cèl·lules, i entendre aquesta part és clau per saber per què apareixen les malalties i per què fallen tants fàrmacs nous."
   },
   {
    "id": "jDxKzlGLCas",
