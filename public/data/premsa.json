@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-12T05:15:26.430Z",
+ "actualitzat": "2026-11-12T05:29:32.008Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "81e37347d0b7",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Desplome de casi un 8% de las acciones de Nvidia ante las dudas sobre el futuro de Jensen Huang",
+   "url": "https://www.lavanguardia.com/economia/20261112/11682166/desplome-8-acciones-nvidia-dudas-sobre-futuro-jensen-huang.html",
+   "publicat": "2026-11-12T05:22:58.000Z"
+  },
   {
    "id": "48879f6ee091",
    "mitja": "Diario de Mallorca",
@@ -13,6 +24,17 @@
    "titol": "La IA i la crisi en l’ensenyament universitari",
    "url": "https://www.diariodemallorca.es/bellver/2026/11/12/ia-crisi-l-ensenyament-universitari-136342851.html",
    "publicat": "2026-11-12T05:01:27.000Z"
+  },
+  {
+   "id": "ed151bbc97fa",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Minervaly i Staybell guanyen els Actinn Awards amb dos projectes d’IA",
+   "url": "https://www.diariandorra.ad/nacional/261112/minervaly-i-staybell-guanyen-els-actinn-awards-amb-dos-projectes-d-ia_208602.html",
+   "publicat": "2026-11-12T04:53:54.000Z"
   },
   {
    "id": "418b5c1beec2",
@@ -200,6 +222,17 @@
    "titol": "Google presenta Gemini Robotics 2.5, la IA que ensenya els robots a fer tasques humanes",
    "url": "https://www.elnacional.cat/ca/tecnologia/google-presenta-gemini-robotics-25-ia-ensenya-robots-fer-tasques-humanes_1724096_102.html",
    "publicat": "2026-11-11T17:00:00.000Z"
+  },
+  {
+   "id": "e69c5bb29baf",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial redefine las decisiones que marcarán el futuro de las empresas",
+   "url": "https://www.lavanguardia.com/economia/20261111/11681841/inteligencia-artificial-redefine-decisiones-marcaran-futuro-empresas-brl.html",
+   "publicat": "2026-11-11T16:58:26.000Z"
   },
   {
    "id": "e710dfdc8cd4",
@@ -2731,39 +2764,6 @@
    "titol": "La incertesa sobre la IA impacta en les borses després de les midterm dels EUA",
    "url": "https://www.3cat.cat/3catinfo/la-incertesa-sobre-la-ia-impacta-en-les-borses-despres-de-les-midterm-dels-eua/noticia/3438248",
    "publicat": "2026-11-06T08:55:26.000Z"
-  },
-  {
-   "id": "18d6b24205ac",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Títeres, memoria histórica e inteligencia artificial: Así será el congreso que llega este fin de semana a Sagunt",
-   "url": "https://www.levante-emv.com/morvedre/2026/11/06/titeres-memoria-historica-inteligencia-artificial-136094029.html",
-   "publicat": "2026-11-06T08:30:03.000Z"
-  },
-  {
-   "id": "c20acf4e0ebf",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nueva jornada de fuertes caídas en las bolsas arrastradas por el terremoto en la IA",
-   "url": "https://www.lavanguardia.com/economia/20261106/11677641/nueva-jornada-fuertes-caidas-bolsas-arrastradas-ia.html",
-   "publicat": "2026-11-06T08:05:23.000Z"
-  },
-  {
-   "id": "3c979e4972ab",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "IAG gana un 16% menos y se dejará 8.900 millones por el coste del combustible",
-   "url": "https://www.lavanguardia.com/dinero/20261106/11677642/iag-gana-16-dejara-8-900-millones-coste-combustible.html",
-   "publicat": "2026-11-06T07:56:12.000Z"
   }
  ]
 }
