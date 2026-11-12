@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-12T17:15:01.868Z",
+ "actualitzat": "2026-11-12T17:25:53.732Z",
  "fonts": 44,
  "articles": [
   {
@@ -364,7 +364,9 @@
    "ambit": "catala",
    "titol": "Empresas | La mitad de menores de 11 y 12 años ya utiliza la IA para estudiar, según la nueva Guía Aiju",
    "url": "https://alicanteplaza.es/alicanteplaza/empresas/la-mitad-de-menores-de-11-y-12-anos-ya-utiliza-la-ia-para-estudiar-segun-la-nueva-guia-aiju",
-   "publicat": "2026-11-12T11:43:02.000Z"
+   "publicat": "2026-11-12T11:43:02.000Z",
+   "noticia": "aiju-guia-infants-adolescents-ia-estudiar-ibi",
+   "noticiaTitol": "Més de la meitat dels nens d'11 i 12 anys ja fan servir la IA per estudiar, segons l'institut tecnològic Aiju, d'Ibi"
   },
   {
    "id": "810b1f019901",
