@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Comunitat Valenciana",
+    "category": "EDUCACIÓ",
+    "date": "12.11.2026",
+    "title": "Més de la meitat dels nens d'11 i 12 anys ja fan servir la IA per estudiar, segons l'institut tecnològic Aiju, d'Ibi",
+    "summary": "L'estudi «La IA ya está aquí», amb 819 adolescents, famílies i docents de tot l'Estat, troba que el 86% dels adolescents la fan servir per als deures i que el 72% dels mestres diuen que la seva escola no té cap norma sobre la IA.",
+    "detail": "Aiju, l'Institut Tecnològic de Producte Infantil i d'Oci, té la seu a Ibi (l'Alcoià), al cor de la indústria valenciana de la joguina, i cada any publica una guia que valora jocs i joguines per edats. L'edició 2026-2027, la 36a, presentada aquesta setmana a Ibi i finançada per l'Ivace+i de la Generalitat Valenciana, ha posat el focus en com conviuen el joc i les experiències digitals, i inclou un estudi propi sobre l'ús de la intel·ligència artificial entre els infants, els adolescents i els docents, titulat «La IA ya está aquí».\n\nL'estudi recull les respostes de 819 persones de tot l'Estat: adolescents de 12 a 18 anys, famílies amb fills de 6 a 12 anys i mestres. Segons les famílies, fan servir la IA per estudiar el 15% dels nens de 6 a 8 anys, el 26% dels de 9 i 10 i el 54% dels d'11 i 12. Entre els adolescents, el 86% la fan servir per estudiar, fer els deures o resoldre dubtes, i a partir dels 16 anys la xifra arriba al 94%. El 64% saben que la IA es pot equivocar, però el 62% es refien del que els diu, i més de la meitat creuen que els fa esforçar-se menys. El 92% dels docents la fan servir a la feina, però el 72% diuen que la seva escola no té cap norma ni orientació sobre la IA, i nou de cada deu demanen més formació.\n\nLes dades confirmen el que molts mestres ja veuen a l'aula: la IA ha entrat als deures abans que les escoles hagin decidit què en volen fer. «No tot aprenentatge consisteix a trobar una resposta», diu Pablo Busó, coordinador de recerca d'Aiju, que defensa que el repte no és triar entre tecnologia i joc, sinó combinar-los. El 76% dels enquestats creuen que barrejar jocs, recursos pràctics i IA pot millorar l'aprenentatge, mentre que el 74% dels docents temen que redueixi el contacte cara a cara i el 73% que creï dependència.\n\nCal llegir les xifres amb prudència. És una enquesta d'un institut tecnològic lligat al sector de la joguina, no un estudi publicat en una revista científica, i la informació que se n'ha fet pública no explica com es va triar la mostra ni com es va fer. Les dades dels nens més petits surten del que diuen les famílies, no d'una observació directa, i el treball no mesura si la IA ajuda o perjudica l'aprenentatge, sinó com la fan servir i què en pensen.",
+    "source": "Alicante Plaza",
+    "url": "https://alicanteplaza.es/alicanteplaza/empresas/la-mitad-de-menores-de-11-y-12-anos-ya-utiliza-la-ia-para-estudiar-segun-la-nueva-guia-aiju",
+    "image": "./assets/aiju-guia-infants-adolescents-ia-estudiar-ibi-20261112.jpg",
+    "slug": "aiju-guia-infants-adolescents-ia-estudiar-ibi"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "12.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.diariandorra.ad/nacional/261108/ia-entra-les-maletes_208291.html",
     "image": "./assets/andorra-agencies-viatges-clients-programes-chatgpt-20261108.jpg",
     "slug": "andorra-agencies-viatges-clients-programes-chatgpt"
-  },
-  {
-    "place": "València",
-    "category": "IA I SOCIETAT",
-    "date": "08.11.2026",
-    "title": "La Universitat Politècnica de València estrena a Alacant un espectacle de dansa i música generada amb IA amb models de Roger Dannenberg, cocreador d'Audacity",
-    "summary": "La peça, que tanca un congrés internacional d'investigació en dansa a l'Espai Sèneca, combina sensors al cos dels ballarins, música creada per IA entrenada amb jazz, videomapatge i instruments com la viola medieval.",
-    "detail": "Alacant acull aquests dies el IX Congrés Nacional i VI Internacional La Investigació en Dansa, i la Universitat Politècnica de València (UPV) hi ha portat una proposta que barreja art i tecnologia: «Interacció humà-IA. Diàleg transdisciplinari entre música, dansa, videomapatge i IA generativa», programada per a aquest diumenge 8 de novembre a les 12.00 a l'Espai Sèneca.\n\nSegons el comunicat de la UPV que recull Las Provincias, els moviments dels ballarins i els senyals captats amb sensors interactuen en temps real amb sistemes de generació musical, processament electrònic del so i projeccions. L'espectacle fa servir models d'IA desenvolupats per Roger Dannenberg, pioner de la música per ordinador i cocreador del programa d'edició d'àudio Audacity, entrenats amb transcripcions de jazz del Weimar Jazz Dataset. L'obra és de Nuria Lloret, Juan José Tagle, Roger Dannenberg i Jorge Sastre; el sistema de sensors l'ha dissenyat Stefano Scarani, i hi toquen Joan Soriano Morales (percussió) i Julia Chiner Santapau (viola medieval). Abans, la investigadora Nuria Lloret, directora de l'Observatori de Diversitat i Intel·ligència Artificial d'INECO i la UPV, fa la conferència de cloenda del congrés.\n\nLa peça s'emmarca en un projecte de recerca finançat per la Generalitat Valenciana, codirigit per Jorge Sastre i Nuria Lloret, que desenvolupa mètodes numèrics per calcular més de pressa i amb més precisió les anomenades funcions de matrius, una eina matemàtica que fan servir molts models d'aprenentatge automàtic.\n\nLa informació prové de la institució organitzadora i descriu l'espectacle abans de la representació: no se'n coneix encara la recepció del públic ni de la crítica, ni s'hi detalla quina part de la música es genera en directe i quina s'ha preparat abans.",
-    "source": "Las Provincias (a partir del comunicat de la UPV)",
-    "url": "https://www.lasprovincias.es/alicante/upv-crea-espectaculo-pionero-ia-audacity-20261107122623-nt.html",
-    "image": "./assets/upv-espectacle-dansa-ia-dannenberg-alacant-20261108.jpg",
-    "slug": "upv-espectacle-dansa-ia-dannenberg-alacant"
   }
 ];
