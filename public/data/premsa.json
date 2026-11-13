@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-13T13:45:52.655Z",
+ "actualitzat": "2026-11-13T17:13:18.327Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "169a82c49b71",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La UE se encomienda a dos gurús tecnológicos para entrar en la carrera global de la IA",
+   "url": "https://www.lavanguardia.com/economia/20261113/11683629/ue-encomienda-dos-gurus-tecnologicos-entrar-carrera-global-ia.html",
+   "publicat": "2026-11-13T17:07:30.000Z"
+  },
+  {
+   "id": "f2403f082034",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Google comença a substituir \"Hey Google\" per \"Hey Gemini\", tot i que encara no podràs usar-lo al teu mòbil",
+   "url": "https://www.elnacional.cat/ca/tecnologia/google-comenca-substituir-hey-google-hey-gemini-tot-encara-no-podras-usar-lo-teu-mobil_1725299_102.html",
+   "publicat": "2026-11-13T17:00:00.000Z"
+  },
+  {
+   "id": "4ce81d120c55",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El escándalo de Nvidia hiere a la administración Trump, impulsa la regulación y amenaza con torpedear el desenfreno de la IA",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261113/huang-dimision-nvidia-eeuu-trump-136408691",
+   "publicat": "2026-11-13T16:43:12.000Z"
+  },
+  {
+   "id": "f9ddb40aaf20",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las últimas horas de Jensen Huang en Nvidia: “Soy un pedazo de mierda”",
+   "url": "https://elpais.com/us/2026-11-13/las-ultimas-horas-de-jensen-huang-en-nvidia-soy-un-pedazo-de-mierda.html",
+   "publicat": "2026-11-13T16:43:06.000Z"
+  },
+  {
+   "id": "934aac312a85",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nscale, respaldada por Nvidia, dispara las dudas sobre la IA al reconocer que necesitará nuevos fondos",
+   "url": "https://cincodias.elpais.com/companias/2026-11-13/nscale-respaldada-por-nvidia-dispara-las-dudas-sobre-la-ia-al-reconocer-que-necesitara-nuevos-fondos.html",
+   "publicat": "2026-11-13T16:42:30.000Z"
+  },
+  {
+   "id": "bec6e23ec80b",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La auditoría se refuerza con la IA, pero pone en valor su criterio profesional ante los riesgos de su uso",
+   "url": "https://cincodias.elpais.com/companias/2026-11-13/la-auditoria-se-refuerza-con-la-ia-pero-pone-en-valor-su-criterio-profesional-ante-los-riesgos-de-su-uso.html",
+   "publicat": "2026-11-13T16:39:04.000Z"
+  },
+  {
+   "id": "78315572f082",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las fotografías de la misión Gemini XII que cambiaron para siempre la observación de la Tierra",
+   "url": "https://www.lasprovincias.es/ciencia/fotografias-mision-gemini-cambiaron-rlt_esp-20261113041125-nt.html",
+   "publicat": "2026-11-13T16:30:25.000Z"
+  },
+  {
+   "id": "f916e1c5ab5c",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Gemini presenta 4 Hydrogen: la IA de Google para ejecutar tareas más rápido",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261113/gemini-presenta-4-hydrogen-ia-136412074",
+   "publicat": "2026-11-13T13:59:39.000Z"
+  },
   {
    "id": "f7826766ebd0",
    "mitja": "3CatInfo",
@@ -23,7 +111,7 @@
    "ambit": "catala",
    "titol": "Google asegura que las gafas inteligentes con Gemini cuidan la privacidad de quien las lleva y de quien está cerca",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/13/2749259/google-asegura-las-gafas-inteligentes-gemini-cuidan-privacidad-quien-lleva-quien-esta-cerca.html",
-   "publicat": "2026-11-13T12:53:04.000Z"
+   "publicat": "2026-11-13T12:53:00.000Z"
   },
   {
    "id": "1707af6ab92f",
@@ -98,7 +186,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Las Bolsas se esfuerzan por mantenerse al alza en plena resaca de Nvidia y el Ibex queda al filo de los 20.000",
+   "titol": "El Ibex consolida los 20.000 puntos pese al caso Nvidia y al renovado temor a una Fed más agresiva",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-13/la-bolsa-y-el-ibex-35.html",
    "publicat": "2026-11-13T10:16:15.000Z"
   },
@@ -219,7 +307,7 @@
    "icona": "/assets/premsa/el-pais.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Los servicios de Microsoft empiezan a funcionar con normalidad tras una caída global de más de 18 horas",
+   "titol": "Los servicios de Microsoft retoman la normalidad tras una caída global de más de 18 horas",
    "url": "https://elpais.com/tecnologia/2026-11-13/microsoft-no-logra-recuperar-sus-servicios-tras-una-caida-global-de-mas-de-12-horas.html",
    "publicat": "2026-11-13T08:06:10.000Z"
   },
@@ -230,7 +318,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "El Ibex 35 apunta a la baja y pierde los 20.000 puntos con los tipos y la crisis de Nvidia en el foco",
+   "titol": "El Ibex 35 salva los 20.000 puntos tras subir un 3,36% en una semana marcada por Nvidia y los resultados",
    "url": "https://www.elperiodico.com/es/economia/20261113/ibex-35-apunta-baja-pierde-136396820",
    "publicat": "2026-11-13T08:05:20.000Z"
   },
@@ -2670,94 +2758,6 @@
    "titol": "Alice Huang, la espía china de pasado misterioso que llegó hasta el consejero delegado de Nvidia",
    "url": "https://elpais.com/internacional/2026-11-09/alice-huang-la-espia-china-de-pasado-misterioso-que-llego-hasta-el-consejero-delegado-de-nvidia.html",
    "publicat": "2026-11-09T13:38:13.000Z"
-  },
-  {
-   "id": "e441a8d7d39a",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Qui és Alice Huang, l'empresària xinesa que ha posat en escac el CEO de Nvidia?",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/qui-es-alice-huang-empresaria-xinesa-escac-ceo-nvidia_1722836_102.html",
-   "publicat": "2026-11-09T12:42:17.000Z"
-  },
-  {
-   "id": "d90fab6838c6",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA «no se moja» de cara al 29-N: los chatbots evitan recomendar un partido",
-   "url": "https://www.diaridetarragona.com/espana/275260/ia-moja-cara-29-n-chatbots-evitan-recomendar-partido.html",
-   "publicat": "2026-11-09T12:31:03.000Z"
-  },
-  {
-   "id": "d4bbdbb42576",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Alice Huang: quién es la mujer que ha puesto en jaque al jefe de Nvidia con su presunto espionaje sexual",
-   "url": "https://www.diariodemallorca.es/internacional/2026/11/09/alice-huang-quien-es-espia-china-amante-ceo-nvidia-sexo-136247388.html",
-   "publicat": "2026-11-09T12:05:21.000Z"
-  },
-  {
-   "id": "fe59761a9ff4",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "\"Fui infiel a mi esposa\": el lío extramatrimonial del presidente de Nvidia con una espía china dispara las alarmas en el mundo de la IA",
-   "url": "https://www.levante-emv.com/internacional/2026/11/09/nvidia-investiga-director-ejecutivo-espionaje-china-chatgpt-jensen-huang-espia-arabia-saudi-openai-136246889.html",
-   "publicat": "2026-11-09T11:54:13.000Z"
-  },
-  {
-   "id": "2cc165fd7927",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Claude podrá entrar en tu cuenta bancaria: la IA de Anthropic analiza y detecta en qué gastas tu dinero",
-   "url": "https://www.lavanguardia.com/neo/ia/20261109/11679821/claude-entrar-cuenta-bancaria-ia-anthropic-analiza-detecta-gastas-dinero.html",
-   "publicat": "2026-11-09T11:39:49.000Z"
-  },
-  {
-   "id": "7ba0e5c0ea75",
-   "mitja": "El Periódico",
-   "font": "elperiodico-tec",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "«Vaig ser infidel a la meva esposa»: l’embolic extramatrimonial del president de Nvidia amb una espia xinesa fa saltar les alarmes en el món de la IA",
-   "url": "https://www.elperiodico.cat/internacional/20261109/nvidia-investiga-director-executiu-espionatge-xina-chatgpt-jensen-huang-espia-arabia-saudita-openai-136237414",
-   "publicat": "2026-11-09T10:42:21.000Z"
-  },
-  {
-   "id": "0a59a1d21957",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las \"estrellas Michelin\" de la agricultura premian a un vecino del Genovés por utilizar la Inteligencia Artificial para revolucionar el campo",
-   "url": "https://www.levante-emv.com/costera/2026/11/09/estrellas-michelin-agricultura-premian-vecino-136242832.html",
-   "publicat": "2026-11-09T10:40:59.000Z"
-  },
-  {
-   "id": "477682c7eb15",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L''affaire' del conseller delegat de Nvidia sacseja la seguretat nacional als EUA",
-   "url": "https://www.ara.cat/economia/tecnologia/nvidia-s-enfonsa-borsa-l-escandol-d-espionatge-conseller-delegat_1_5904882.html",
-   "publicat": "2026-11-09T10:34:34.000Z"
   }
  ]
 }
