@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-13T17:13:17.165Z",
+ "actualitzat": "2026-11-13T18:47:03.944Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "iC6H8KOQTFU",
+   "titol": "Meet the Startup: Prima Mente, an AI Biology Company",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-11-13T18:14:03.000Z",
+   "descripcio": "Meet Prima Mente — an AI biology company building general-purpose biological foundation models, starting with the brain. Their first model family, Pleiades, is trained on human epigenomics data and is already showing clinical promise in Alzheimer’s disease research. Backed by the UK Sovereign AI Fun",
+   "miniatura": "/assets/videos/iC6H8KOQTFU.jpg"
+  },
+  {
+   "id": "PkAmyub12K8",
+   "titol": "How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-11-13T16:56:45.000Z",
+   "descripcio": "Mozilla is combining decades of security engineering with AI agents to strengthen Firefox’s defenses. Brian Grinstead joins OpenAI’s Clint Gibler to discuss how the team prioritizes investigations, tests and verifies vulnerabilities, finds related bug patterns, and helps engineers develop fixes. The",
+   "miniatura": "/assets/videos/PkAmyub12K8.jpg"
+  },
   {
    "id": "_ESlXHZ1Cs4",
    "titol": "Primera cimera europea sobre intel·ligència artificial",
@@ -954,54 +978,6 @@
    "publicat": "2026-10-23T20:44:08.000Z",
    "descripcio": "From prompts and data to real-world robot skills, frontier AI agents build training worlds, replay real-world motion, and tune physics using NVIDIA open libraries and models. Skills are trained with NVIDIA Isaac Lab and Newton and evaluated with NVIDIA Isaac Lab-Arena, locally on NVIDIA DGX Station.",
    "miniatura": "/assets/videos/roUZ7_Rsf5c.jpg"
-  },
-  {
-   "id": "hgX1hgyWD4g",
-   "titol": "How Realpage. builds AI training with ChatGPT Work",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "empreses",
-   "idioma": "en",
-   "publicat": "2026-10-23T18:39:14.000Z",
-   "descripcio": "At Realpage., Austin Braham creates AI training for different teams, roles and skill levels. He uses ChatGPT Work to turn ideas, notes and source materials into complete enablement packages tailored to each audience. The result is more relevant, consistent education that helps colleagues put AI to w",
-   "miniatura": "/assets/videos/hgX1hgyWD4g.jpg"
-  },
-  {
-   "id": "m6MlxaFMmPI",
-   "titol": "How Shield uses OpenAI’s Astra to support IT teams",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "empreses",
-   "idioma": "en",
-   "publicat": "2026-10-23T18:34:39.000Z",
-   "descripcio": "When someone can’t log in or get online, their IT team often has to put other work on hold. Shield is building Forge to help IT services teams get their customers back to work faster. Its AI agents use Astra to work directly in business software and resolve problems that previously needed a technici",
-   "miniatura": "/assets/videos/m6MlxaFMmPI.jpg"
-  },
-  {
-   "id": "V39_L7uh66M",
-   "titol": "How AT&T is building AI-powered legal workflows with OpenAI",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-23T18:32:03.000Z",
-   "descripcio": "AT&T’s David McAtee and Bill Ryan describe how AI is changing their legal team’s work—and what they plan to build with OpenAI next. One initiative is a natural-language intake system that would classify and prioritize legal matters, then connect them with relevant knowledge. The aim is to put better",
-   "miniatura": "/assets/videos/V39_L7uh66M.jpg"
-  },
-  {
-   "id": "CTkDi1THc_g",
-   "titol": "How Benefit Street Partners is building financial analysis tools with Codex",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-23T18:20:02.000Z",
-   "descripcio": "“I’ve gone from being just an analyst and a portfolio manager to being a developer as well now. I can build things.” Benefit Street Partners’ Anant Kumar wanted to compare how firms valued the same loans. The information was spread across SEC filings. He built a tool to collect it automatically and ",
-   "miniatura": "/assets/videos/CTkDi1THc_g.jpg"
   },
   {
    "id": "83dhcuHt6Ao",
