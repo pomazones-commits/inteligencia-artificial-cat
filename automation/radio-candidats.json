@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-12T21:53:22.586Z",
+  "generat": "2026-11-13T05:15:17.415Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,8 +136,8 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 35,
-      "sobre_ia": 2
+      "audios": 34,
+      "sobre_ia": 1
     },
     {
       "font": "wordpress",
@@ -177,22 +177,5 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": [
-    {
-      "id": "rna-1940000",
-      "emissora": "Ràdio Nacional d'Andorra",
-      "programa": "Les coses grans",
-      "programa_url": "https://www.rtva.ad/programes/les-coses-grans",
-      "data": "2026-11-12",
-      "durada": "",
-      "titol_original": "Quines consultes mèdiques podem derivar a Chat GPT i quines no? - Les coses grans - 12/10/2026",
-      "descripcio_original": "Mabel Ruiz i Tomàs Garcia, periodistes de la casa, ens porten un desastre i una meravella que configuren l'actualitat.",
-      "descripcio_curta": true,
-      "ia_al_titol": true,
-      "url": "https://www.rtva.ad/programes/quines-consultes-mediques-podem-derivar-a-chat-gpt-i-quines-no-les-coses-grans-12-10-2026",
-      "reproductor": {
-        "tipus": "enllac"
-      }
-    }
-  ]
+  "candidats": []
 }
