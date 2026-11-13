@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-13T17:13:18.327Z",
+ "actualitzat": "2026-11-13T20:06:06.164Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "bc2ad3faeceb",
+   "mitja": "Diari de Terrassa",
+   "font": "diarideterrassa",
+   "icona": "/assets/premsa/diari-de-terrassa.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Joan Carles Peris, periodista terrassenc: \"No soc optimista: la professió tindrà dificultats per resistir-se a la IA\"",
+   "url": "https://www.diarideterrassa.com/terrassa/joan-carles-peris-periodista-terrassenc-no-soc-optimista-a-la-professio-li-costara-resistir-se-a-la-ia.html",
+   "publicat": "2026-11-13T18:43:31.000Z"
+  },
+  {
+   "id": "195b22652942",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Dos gurus de la IA il·luminen el camí als líders europeus",
+   "url": "https://www.ara.cat/economia/tecnologia/gurus-ia-il-luminen-cami-als-liders-europeus_1_5909335.html",
+   "publicat": "2026-11-13T18:07:19.000Z"
+  },
+  {
+   "id": "337b8a1f8ce0",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "RTVE presenta Contexta, una IA que resuelve dudas de actualidad a partir del trabajo de sus periodistas",
+   "url": "https://www.lavanguardia.com/television/20261113/11683722/rtve-presenta-contexta-ia-resuelve-dudas-actualidad-partir-trabajo-periodistas.html",
+   "publicat": "2026-11-13T17:19:51.000Z"
+  },
   {
    "id": "169a82c49b71",
    "mitja": "La Vanguardia",
@@ -2725,39 +2758,6 @@
    "titol": "El espionaje chino, movilizado para ganar la carrera de la inteligencia artificial",
    "url": "https://www.lavanguardia.com/economia/20261109/11679784/espionaje-chino-movilizado-ganar-carrera-inteligencia-artificial.html",
    "publicat": "2026-11-09T14:38:15.000Z"
-  },
-  {
-   "id": "f6f3f31b0f4b",
-   "mitja": "À Punt",
-   "font": "apunt",
-   "icona": "/assets/premsa/a-punt.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia es desploma en borsa després d'una investigació al CEO per l'aventura amorosa amb una possible espia de la Xina",
-   "url": "https://www.apuntmedia.es/noticies/mon/nvidia-desploma-borsa-despres-d-una-investigacio-ceo-l-aventura-amorosa-una-possible-espia-xina_1_1907594.html",
-   "publicat": "2026-11-09T13:58:23.000Z"
-  },
-  {
-   "id": "2972e265e0d2",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Motorola presenta el signature 27: cámaras, IA y una pantalla de 12.000 nits",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261109/motorola-presenta-signature-27-precio-136252062",
-   "publicat": "2026-11-09T13:50:42.000Z"
-  },
-  {
-   "id": "63f372717dd6",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Alice Huang, la espía china de pasado misterioso que llegó hasta el consejero delegado de Nvidia",
-   "url": "https://elpais.com/internacional/2026-11-09/alice-huang-la-espia-china-de-pasado-misterioso-que-llego-hasta-el-consejero-delegado-de-nvidia.html",
-   "publicat": "2026-11-09T13:38:13.000Z"
   }
  ]
 }
