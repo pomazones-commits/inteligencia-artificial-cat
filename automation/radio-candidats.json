@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-13T05:15:17.415Z",
+  "generat": "2026-11-13T09:15:02.987Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -14,9 +14,8 @@
       "font": "3cat",
       "emissora": "Catalunya Ràdio",
       "programa": "Catalunya nit",
-      "estat": "ok",
-      "audios": 60,
-      "sobre_ia": 3
+      "estat": "error",
+      "error": "This operation was aborted"
     },
     {
       "font": "3cat",
