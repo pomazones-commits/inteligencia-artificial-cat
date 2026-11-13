@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-13T09:15:33.759Z",
+ "actualitzat": "2026-11-13T13:45:45.384Z",
  "canals": 19,
  "videos": [
   {
@@ -13,7 +13,10 @@
    "idioma": "ca",
    "publicat": "2026-11-12T22:57:11.000Z",
    "descripcio": "L'economista Marcos Vergés analitza les repercussions de l'embolic de faldilles, amb espies xineses pel mig, que ha provocat la dimissió de Jensen Huang, el CEO i fundador de Nvidia, una de les empreses nord-americanes més importants del món en Intel·ligència Artificial. Subscriu-te al canal oficial",
-   "miniatura": "/assets/videos/_15tXMBB4wI.jpg"
+   "miniatura": "/assets/videos/_15tXMBB4wI.jpg",
+   "noticia": "nvidia-jensen-huang-dimiteix-colette-kress-interina",
+   "noticiaTitol": "ACTUALITZACIÓ: Jensen Huang deixa Nvidia després de 33 anys i la directora financera, Colette Kress, passa a dirigir-la de manera interina",
+   "resum": "El programa Mésnit de 3Cat analitza l'escàndol d'espionatge que ha sacsejat el sector de la intel·ligència artificial i que ha acabat amb la sortida de Jensen Huang de la direcció d'Nvidia."
   },
   {
    "id": "YmxpxJZvm4M",
