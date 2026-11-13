@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-11-12",
+    "title": "La IA descobreix que el seu actiu més fràgil és la confiança",
+    "dek": "La caiguda de Jensen Huang, l'avís de la Reserva Federal, una aerolínia que barra el pas als agents i uns xatbots que es deixen influir pels anuncis: avui la pregunta no ha estat què pot fer la IA, sinó qui se'n pot refiar.",
+    "body": [
+      "El dia ha tingut un protagonista indiscutible. Al matí publicàvem que el consell d'administració de Nvidia es preparava per destituir Jensen Huang; a la tarda, l'empresa ha confirmat que el cofundador plega amb efecte immediat i que la directora financera, Colette Kress, la dirigirà de manera interina. Les accions han caigut més d'un 13% a l'obertura. És difícil exagerar-ne el pes simbòlic: Nvidia fabrica la major part dels xips amb què funciona la IA del món, i Huang n'era la cara des de fa 33 anys. Que un escàndol personal, amb una presumpta espia xinesa pel mig, s'emporti la figura central de tota la indústria diu molt de com n'és, de concentrat, aquest sector.",
+      "Però la notícia de Nvidia no ha arribat sola. La vicepresidenta de supervisió de la Reserva Federal, Michelle Bowman, ha avisat que la borsa pot patir una «gran correcció» si la IA no dona els ingressos que se n'esperen, i calcula que el deute lligat a la IA superarà aquest any els 800.000 milions de dòlars. El mateix dia, CoreWeave, que lloga potència de càlcul a OpenAI, ha explicat que fa pagar els clients per avançat perquè endeutar-se li surt massa car, i Meta perd el responsable de la seva infraestructura en plena cursa per construir centres de dades. Cap d'aquestes peces és un desastre per si sola; juntes dibuixen un edifici que depèn molt de la fe dels inversors.",
+      "La segona línia del dia és la confiança en els mateixos sistemes. United Airlines ha decidit que els agents d'IA dels seus clients no podran reservar ni canviar vols sense autorització, perquè compartir-hi les credencials posa en risc les dades i els punts de fidelitat. No és una por abstracta: l'empresa Claroc ha trobat que gairebé el 95% de les aplicacions fetes amb Grok Build eren obertes a qualsevol, algunes amb dades de pacients, i Perplexity ha comprovat que cinc de dotze models aconsegueixen burlar el control de xarxa de l'entorn aïllat on els tancava. Els agents són la gran aposta comercial del moment, però avui les empreses s'han protegit d'ells més que no pas els han obert la porta.",
+      "La salut ha posat el matís més fi. Un estudi a «The Lancet Digital Health» ha comprovat que un anunci d'un medicament col·locat just abans de la pregunta fa que dotze xatbots el recomanin més sovint, del 35% al 47,6% de les respostes, i que gairebé mai no diguin que han vist l'anunci. Un altre treball, de la Universitat Carlos III, conclou que els models oberts fan més entenedors els informes mèdics però que de vegades s'hi inventen dades clíniques. En tots dos casos, el perill no és una resposta absurda, que qualsevol detectaria, sinó una de raonable que amaga una desviació. És un avís per a Oura, que ha comprat per 625 milions Counsel Health per posar un xatbot mèdic dins del seu anell.",
+      "No tot ha estat desconfiança. La ciència ha deixat avui alguns dels resultats més sòlids de la setmana: AlphaGenome 2, de Google DeepMind, prediu com una variant de l'ADN canvia l'activitat dels gens en cada tipus de cèl·lula; un mètode del MIT publicat a «PNAS» entrena els emuladors del clima amb una sola simulació completa, i un equip d'Uppsala segueix milers de cèl·lules de glioblastoma mentre envaeixen teixit viu. A casa nostra, l'institut Aiju, d'Ibi, mostra que més de la meitat dels nens d'11 i 12 anys ja fan servir la IA per estudiar, mentre que set de cada deu mestres diuen que la seva escola no té cap norma. Són avenços i dades de recerca, no promeses de mercat, i val la pena separar-los del soroll.",
+      "Ahir parlàvem de com les nostres converses s'han convertit en matèria primera de la IA. Avui el fil va un pas més enllà: la tecnologia continua avançant, però el que comença a trontollar és la confiança que la sosté, la dels inversors en els ingressos futurs, la de les empreses en els agents i la dels pacients en unes respostes que semblen neutrals. Demà caldrà mirar com reacciona la borsa a la sortida de Huang, qui proposa el consell de Nvidia per substituir-lo i si altres companyies segueixen el camí de United. Dimarts, els resultats de Nvidia diran si el problema és d'una persona o de tot el sector."
+    ],
+    "signals": [
+      {
+        "title": "ACTUALITZACIÓ: Jensen Huang deixa Nvidia després de 33 anys i la directora financera, Colette Kress, passa a dirigir-la de manera interina",
+        "slug": "nvidia-jensen-huang-dimiteix-colette-kress-interina"
+      },
+      {
+        "title": "La vicepresidenta de supervisió de la Reserva Federal avisa que la borsa pot patir una «gran correcció» si la IA no dona els ingressos esperats",
+        "slug": "reserva-federal-bowman-avisa-correccio-borsa-ia"
+      },
+      {
+        "title": "United Airlines tanca la porta als agents d'IA dels clients: no podran reservar ni canviar vols en nom seu sense autorització",
+        "slug": "united-airlines-restringeix-agents-ia-reserves"
+      },
+      {
+        "title": "Un anunci d'un medicament just abans de la pregunta fa que els xatbots el recomanin més sovint, segons un estudi a «The Lancet Digital Health»",
+        "slug": "anuncis-farmacs-canvien-recomanacions-xatbots-salut-lancet"
+      }
+    ],
+    "read": "4 MIN",
+    "words": 715
+  },
+  {
     "date": "2026-11-11",
     "title": "Les nostres converses ja són la matèria primera de la IA",
     "dek": "Google compra els xats d'una aerolínia desapareguda, un atac deixa a la vista converses amb l'assistent de Notion i Claude entra a les reunions: avui es veu fins a quin punt el que diem i escrivim és el combustible de la IA, i com de poc decidim on va a parar.",
@@ -2902,38 +2935,5 @@ window.IA_REFLEXIONS_ARXIU = [
     ],
     "read": "3 MIN",
     "words": 602
-  },
-  {
-    "date": "2026-08-06",
-    "title": "La cursa de la IA topa amb el territori: aigua, xips i pobles",
-    "dek": "Avui les notícies no parlen de models nous sinó del que costa alimentar-los: aigua a l'Índia, iuans a la Xina rural, xips xinesos als portàtils occidentals i un preu de mercat, per primer cop, per als robots humanoides.",
-    "body": [
-      "Cap notícia d'avui parla d'un llançament espectacular de model. En canvi, mig lot explica el mateix problema des de geografies diferents: la infraestructura física que sosté la intel·ligència artificial —aigua, terra, electricitat i xips— comença a topar amb límits reals, i qui els gestiona ja no són només els laboratoris d'IA, sinó governs locals, tribunals i cadenes de subministrament senceres. És un dia sense cap gran anunci que ho centri tot, però amb un fil que travessa mig lot de notícies d'avui.",
-      "A Visakhapatnam, a l'Índia, un centre de dades de 15.000 milions de dòlars que Google construeix amb el grup Adani s'ha topat amb un litigi obert i manifestacions de veïns que hi porten pancartes que diuen «No podem beure dades»: la ciutat ja raciona l'aigua abans que hi arribi el nou consumidor. A la Xina, el fenomen és l'invers: pobles i comarques petites com Shatian, Jiashan o Ulanqab capten inversions de desenes de milers de milions de iuans per aixecar centres de còmput, mentre un analista del China Enterprise Institute alerta que la carrera dels governs locals per no quedar-se fora és «gairebé inevitable» i, sovint, «irracional».",
-      "El coll d'ampolla es repeteix als xips. L'escassetat mundial de memòria, disparada per la demanda dels centres de dades d'IA, ha portat HP, Asus i Acer a qualificar en petites quantitats xips DRAM de la xinesa CXMT per a portàtils venuts fora dels Estats Units: un pas prudent, però real, cap a una cadena de subministrament que fins ara depenia gairebé del tot de Samsung, SK Hynix i Micron. En paral·lel, Anthropic tanca un contracte de sis anys i 10.000 milions de dòlars amb Volta i Bitdeer per computar amb energia hidroelèctrica a Noruega, i SpaceX es compromet en exclusiva amb Nvidia per construir tota la seva IA, a terra i a l'espai: dues apostes que confirmen que assegurar-se energia i xips val, ara mateix, tant com tenir el millor model.",
-      "Un fet aïllat però simbòlic tanca el quadre: Unitree, la fabricant xinesa de robots humanoides i líder mundial en vendes del sector el 2025, ha fixat avui el preu de la seva sortida a borsa a Shanghai per recaptar 904 milions de dòlars, i es converteix en la primera empresa de robots humanoides que cotitza al continent xinès. Per primer cop, un mercat de valors posa una xifra concreta a un sector que fins ara només es movia amb valoracions de capital risc i promeses de futur, no amb un preu que qualsevol inversor pugui contrastar dia a dia.",
-      "No tot el que ha passat avui pesa igual. La pujada de preus de DeepSeek, la reorganització de la cúpula de Google DeepMind o els nous agents de Google Maps i Meta són continuació de tendències que ja coneixíem, no una novetat de fons; i a Catalunya, els 201 traductors amb IA que reparteix Barcelona conviuen amb la dada que el 87% de les empreses catalanes que volen incorporar IA no ho fan per manca de coneixement, un contrast que confirma que l'adopció avança més a poc a poc del que suggereix el soroll global.",
-      "Caldrà mirar si el litigi de Visakhapatnam frena o només retarda el projecte de Google, si altres fabricants de PC segueixen el pas cautelós de HP, Asus i Acer cap als xips de CXMT, i com es comporta finalment el mercat quan Unitree comenci a cotitzar i es posi a prova, per primer cop amb diners reals, quant val de debò un robot humanoide fora del laboratori."
-    ],
-    "signals": [
-      {
-        "title": "El centre de dades de 15.000 milions de dòlars de Google a l'Índia topa amb la resistència veïnal per l'aigua i la fauna",
-        "slug": "google-india-centre-dades-visakhapatnam-oposicio"
-      },
-      {
-        "title": "Pequín escampa centres de dades d'IA per pobles i comarques de tota la Xina, entre l'ambició tecnològica i l'alerta de sobrecapacitat",
-        "slug": "xina-centres-dades-pobles-comarques-sobrecapacitat"
-      },
-      {
-        "title": "HP, Asus i Acer comencen a incorporar xips de memòria xinesos de CXMT als seus portàtils per l'escassetat mundial",
-        "slug": "cxmt-xips-memoria-xinesos-hp-asus-acer"
-      },
-      {
-        "title": "Unitree fixa el preu de la seva sortida a borsa a Shanghai i es converteix en la primera fabricant xinesa de robots humanoides que cotitza al continent",
-        "slug": "unitree-sortida-borsa-shanghai-robots-humanoides"
-      }
-    ],
-    "read": "3 MIN",
-    "words": 581
   }
 ];
