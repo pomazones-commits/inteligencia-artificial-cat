@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "València",
+    "category": "IA I SOCIETAT",
+    "date": "13.11.2026",
+    "title": "Una IA de la Politècnica de València compara el que fan els diputats al Congrés amb el que van prometre als programes electorals",
+    "summary": "L'eina de l'institut VRAIN busca als programes del 2023 el compromís que correspon a cada iniciativa parlamentària i en cita el passatge exacte. En una primera anàlisi, troba coherència en quatre de cada cinc casos.",
+    "detail": "Saber si un partit fa el que va prometre és una de les feines més pesades del periodisme i de la ciència política: els programes electorals són llargs, sovint vagues, i l'activitat d'un parlament genera milers d'iniciatives. Un equip de l'Institut Valencià de Recerca en Intel·ligència Artificial (VRAIN), de la Universitat Politècnica de València, ha provat d'automatitzar-ne la part més mecànica.\n\nEl treball, liderat per Amalia Pons i Antoni Mestre amb Vicente Botti, Manoli Albert i Vicente Pelechano, es titula «Following the Promise: Retrieval-Augmented Analysis of Parliamentary Action». En lloc de respondre amb el que ha après durant l'entrenament, el sistema consulta directament els programes electorals del 2023, hi busca els compromisos relacionats amb cada iniciativa del Congrés dels Diputats i la classifica com a coherent, parcialment coherent, contradictòria o sense prou proves per decidir-ho, amb la cita del passatge en què es basa. En una primera anàlisi, el PSOE i Vox surten amb una coherència d'un 80% i el PP i Sumar, d'un 65%.\n\nL'interès és sobretot de mètode: un dels grans problemes dels models de llenguatge és que s'inventen dades, i aquesta eina està pensada perquè cada judici es pugui comprovar a la font. Els autors diuen que la coherència no sembla dependre de la ideologia i ho atribueixen al paper de cada partit, com la doble posició del PP, a l'oposició al Congrés i al govern en diverses comunitats. «No es tracta que una intel·ligència artificial decideixi si un polític compleix o incompleix les seves promeses», diu Pons: l'objectiu és ajudar periodistes, investigadors i ciutadans.\n\nEls resultats són preliminars i la universitat no diu on s'ha publicat el treball, quantes iniciatives s'hi han analitzat ni en quin període, ni ha donat xifres de quantes vegades s'equivoca el sistema. Molts compromisos són vagues, condicionals o a llarg termini, i l'eina avisa quan no hi ha prou proves. Les xifres per partit s'han de llegir amb precaució: mesuren la relació entre programa i iniciatives, no si les promeses s'han complert.",
+    "source": "UPV-VRAIN",
+    "url": "https://vrain.upv.es/cumplen-los-politicos-lo-que-prometen/",
+    "image": "./assets/upv-vrain-ia-promeses-electorals-congres-20261113.jpg",
+    "slug": "upv-vrain-ia-promeses-electorals-congres"
+  },
+  {
     "place": "Comunitat Valenciana",
     "category": "EDUCACIÓ",
     "date": "12.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://naciodigital.cat/politica/aquest-es-el-partit-que-la-ia-mes-recomana-votar-pel-29-n.html",
     "image": "./assets/uoc-assistents-ia-recomanen-partit-29n-20261109.jpg",
     "slug": "uoc-assistents-ia-recomanen-partit-29n"
-  },
-  {
-    "place": "Andorra",
-    "category": "IA I SOCIETAT",
-    "date": "08.11.2026",
-    "title": "Les agències de viatges d'Andorra reben clients amb itineraris fets amb ChatGPT, i hi troben errors en les connexions de vols",
-    "summary": "La vicepresidenta de l'Associació d'Agències de Viatges d'Andorra, Maica Terrones, diu que les reserves no han baixat, però que els clients joves arriben amb programes fets amb IA que cal revisar, sobretot en viatges llargs.",
-    "detail": "Els xatbots com ChatGPT, Gemini o Claude s'han convertit també en planificadors de vacances, sobretot entre la gent jove, que els demana itineraris sencers abans de reservar res. Les agències de viatges d'Andorra comencen a notar-ho a la seva clientela, segons recull el Diari d'Andorra.\n\nMaica Terrones, de l'agència Viatges Emocions i vicepresidenta de l'Associació d'Agències de Viatges, explica al diari que no han vist cap baixada de reserves, però que sí que hi ha «un canvi» en la informació amb què arriben alguns clients, especialment els més joves: porten programes ja fets amb IA, que l'agència ha de comprovar. Segons Terrones, en alguns casos hi han trobat moltes incoherències, sobretot en les connexions de transport, com les escales dels vols, i a la IA encara li costa tenir en compte retards o cancel·lacions quan es tracta de viatges llargs i no d'una escapada de cap de setmana.\n\nEl sector també la fa servir: segons les mateixes fonts, les agències l'utilitzen per preparar informació per als clients, respondre més de pressa o fer consultes. Terrones distingeix entre fer una proposta amb IA, que pot tenir errors, i tancar un viatge, i creu que la IA no les substituirà, perquè el seu valor és conèixer les destinacions i els gustos de cada client.\n\nÉs el testimoni del sector, no un estudi: no hi ha xifres de quants clients arriben amb itineraris fets amb IA ni de quants errors s'hi troben, i qui parla té interès a defensar la feina de les agències. Tot i això, coincideix amb una advertència habitual sobre aquestes eines: poden donar horaris o enllaços que no existeixen, i convé comprovar-los abans de pagar.",
-    "source": "Diari d'Andorra",
-    "url": "https://www.diariandorra.ad/nacional/261108/ia-entra-les-maletes_208291.html",
-    "image": "./assets/andorra-agencies-viatges-clients-programes-chatgpt-20261108.jpg",
-    "slug": "andorra-agencies-viatges-clients-programes-chatgpt"
   }
 ];
