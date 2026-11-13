@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-13T12:40:19.629Z",
+ "actualitzat": "2026-11-13T13:45:52.655Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f7826766ebd0",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Un informe publicat fa mig any advertia que Nvidia venia xips a la Xina indirectament",
+   "url": "https://www.3cat.cat/3catinfo/un-informe-publicat-fa-mig-any-advertia-que-nvidia-venia-xips-a-la-xina-indirectament/noticia/3439553",
+   "publicat": "2026-11-13T12:57:20.000Z"
+  },
+  {
+   "id": "60f2d324bd8a",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Google asegura que las gafas inteligentes con Gemini cuidan la privacidad de quien las lleva y de quien está cerca",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/13/2749259/google-asegura-las-gafas-inteligentes-gemini-cuidan-privacidad-quien-lleva-quien-esta-cerca.html",
+   "publicat": "2026-11-13T12:53:04.000Z"
+  },
+  {
+   "id": "1707af6ab92f",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Adriana y Nàhia, cofundadoras de YOUZ Talent: “La IA puede servirnos para el primer contacto, pero después tenemos que encontrarnos y hablar”",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261113/11683495/adriana-nahia-cofundadoras-youz-talent-ia-servirnos-primer-contacto-encontrarnos-hablar.html",
+   "publicat": "2026-11-13T12:40:50.000Z"
+  },
   {
    "id": "fd562d767e60",
    "mitja": "La Vanguardia",
@@ -70,6 +103,17 @@
    "publicat": "2026-11-13T10:16:15.000Z"
   },
   {
+   "id": "8a9dac33ce2b",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Expertos señalan la capacidad de la inteligencia artificial para clonar voces con solo tres segundos de audio",
+   "url": "https://www.informacion.es/alicante/2026/11/13/nuria-oliver-alerta-clonar-voz-vulnerabilidad-discapacidad-alicante-136399654.html",
+   "publicat": "2026-11-13T10:10:33.000Z"
+  },
+  {
    "id": "bb18a7081270",
    "mitja": "Cinco Días",
    "font": "cincodias",
@@ -131,7 +175,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Microsoft sufre una caída mundial: Outlook, Teams y Copilot, sin servicio: última hora en directo",
+   "titol": "Microsoft recupera el servicio tras sufrir una caída mundial: última hora sobre el funcionamiento de Outlook, Teams y Copilot",
    "url": "https://www.lavanguardia.com/vida/20261113/11683265/caida-mundial-outlook-teams-copilot-microsoft-ultima-hora-hoy-en-directo.html",
    "publicat": "2026-11-13T09:11:19.000Z"
   },
@@ -175,7 +219,7 @@
    "icona": "/assets/premsa/el-pais.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Microsoft no logra recuperar la normalidad de sus servicios tras una caída global de más de 12 horas",
+   "titol": "Los servicios de Microsoft empiezan a funcionar con normalidad tras una caída global de más de 18 horas",
    "url": "https://elpais.com/tecnologia/2026-11-13/microsoft-no-logra-recuperar-sus-servicios-tras-una-caida-global-de-mas-de-12-horas.html",
    "publicat": "2026-11-13T08:06:10.000Z"
   },
@@ -486,6 +530,17 @@
    "titol": "Jensen Huang mantuvo una tercera relación extramarital con otra empleada de Nvidia",
    "url": "https://elpais.com/us/2026-11-12/jensen-huang-mantuvo-una-tercera-relacion-extramarital-con-una-empleada-de-nvidia.html",
    "publicat": "2026-11-12T20:14:12.000Z"
+  },
+  {
+   "id": "d2d194cdabef",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia: hi ha empreses massa grans per caure?",
+   "url": "https://www.ara.cat/editorial/nvidia-hi-empreses-massa-grans-caure_129_5908391.html",
+   "publicat": "2026-11-12T19:30:03.000Z"
   },
   {
    "id": "91f420609f4d",
@@ -2703,61 +2758,6 @@
    "titol": "L''affaire' del conseller delegat de Nvidia sacseja la seguretat nacional als EUA",
    "url": "https://www.ara.cat/economia/tecnologia/nvidia-s-enfonsa-borsa-l-escandol-d-espionatge-conseller-delegat_1_5904882.html",
    "publicat": "2026-11-09T10:34:34.000Z"
-  },
-  {
-   "id": "c9aa8ca2301f",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia s'enfonsa a la borsa per l'escàndol de l'amant del conseller delegat que presumptament l'espiava",
-   "url": "https://www.ara.cat/economia/mercats/nvidia-s-enfonsa-borsa-l-escandol-d-espionatge-conseller-delegat_1_5904882.html",
-   "publicat": "2026-11-09T10:34:34.000Z"
-  },
-  {
-   "id": "621d2979efd6",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Espionatge xinès a Nvidia? Jensen Huang, al centre d'una investigació que sacseja Silicon Valley",
-   "url": "https://www.elnacional.cat/ca/internacional/espionatge-xines-nvidia-jensen-huang-centre-investigacio-sacseja-silicon-valley_1722737_102.html",
-   "publicat": "2026-11-09T10:22:00.000Z"
-  },
-  {
-   "id": "0ebf352f0820",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nace el “ChatGPT cerebral”: entrenan grandes modelos de IA con ondas neuronales en vez de texto",
-   "url": "https://www.levante-emv.com/tendencias21/2026/11/09/nace-chatgpt-cerebral-entrenan-grandes-136242442.html",
-   "publicat": "2026-11-09T10:17:24.000Z"
-  },
-  {
-   "id": "36503e6752f9",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nvidia investigará a su propio director ejecutivo por su amorío con una espía china",
-   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/09/2746047/nvidia-investigara-propio-director-ejecutivo-por-amorio-una-espia-china.html",
-   "publicat": "2026-11-09T10:11:00.000Z"
-  },
-  {
-   "id": "94fa54068815",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Un estudi sobre com Wallapop, Cabify o DMA – Digital Media han redissenyat el seu màrqueting amb IA",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/iebs-presenta-estudi-sobre-com-wallapop-cabify-dma-digital-media-han-redissenyat-seu-mark_1722731_102.html",
-   "publicat": "2026-11-09T10:10:24.000Z"
   }
  ]
 }
