@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-12T21:55:33.586Z",
+ "actualitzat": "2026-11-13T09:15:33.759Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "_15tXMBB4wI",
+   "titol": "Nvidia, l'escàndol d'espionatge que ha sacsejat el sector de la IA | Mésnit",
+   "canal": "3CatInfo",
+   "canalId": "UCKseJ43xWvnywQzl6kYbf0g",
+   "grup": "catala",
+   "categoria": "empreses",
+   "idioma": "ca",
+   "publicat": "2026-11-12T22:57:11.000Z",
+   "descripcio": "L'economista Marcos Vergés analitza les repercussions de l'embolic de faldilles, amb espies xineses pel mig, que ha provocat la dimissió de Jensen Huang, el CEO i fundador de Nvidia, una de les empreses nord-americanes més importants del món en Intel·ligència Artificial. Subscriu-te al canal oficial",
+   "miniatura": "/assets/videos/_15tXMBB4wI.jpg"
+  },
+  {
+   "id": "YmxpxJZvm4M",
+   "titol": "Cyber at the Frontier",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-12T22:37:14.000Z",
+   "descripcio": "A live keynote featuring OpenAI's latest cyber announcements.",
+   "miniatura": "/assets/videos/YmxpxJZvm4M.jpg"
+  },
   {
    "id": "vLAegkGGWrM",
    "titol": "Building with Gemini in Google Antigravity",
@@ -975,18 +999,6 @@
    "publicat": "2026-10-23T14:07:03.000Z",
    "descripcio": "La intel·ligència artificial tocarà de ple les noves generacions que s'incorporen al mercat de treball. Canviarà moltes feines, però també influirà en la porta d'entrada, en els processos de selecció. Subscriu-te al canal oficial de 3CatInfo a YouTube i no et perdis l'actualitat de Catalunya i el mó",
    "miniatura": "/assets/videos/2CdKJKi2P3w.jpg"
-  },
-  {
-   "id": "v-NGxyPjcrE",
-   "titol": "NVIDIA GTC Berlin 2026 Keynote With CEO Jensen Huang",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "altres",
-   "idioma": "en",
-   "publicat": "2026-10-23T08:43:07.000Z",
-   "descripcio": "Join NVIDIA founder and CEO Jensen Huang live from Berlin for the latest in AI and accelerated computing. Discover how Europe is building its own intelligence—with the control, knowledge, and tools to put AI to work.",
-   "miniatura": "/assets/videos/v-NGxyPjcrE.jpg"
   },
   {
    "id": "83dhcuHt6Ao",
