@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-12T17:25:07.179Z",
+  "updatedAt": "2026-11-13T05:15:13.695Z",
   "items": [
     {
       "category": "EMPRESES",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Jensen Huang deixa Nvidia després de 33 anys i la directora financera, Colette Kress, passa a dirigir-la de manera interina",
-      "excerpt": "El consell d'administració anuncia que el cofundador renuncia, amb efecte immediat, a la presidència executiva, a la direcció i al seu lloc al consell. Les accions cauen més d'un 13% a l'obertura i Huang ha acceptat declarar davant del Congrés."
+      "read": "4 MIN",
+      "title": "ACTUALITZACIÓ: Els demòcrates Wyden i Neal comencen a investigar l'acord que deixava vendre xips de Nvidia a la Xina a canvi d'un aranzel del 25%",
+      "excerpt": "Els dos principals demòcrates de les comissions fiscals del Congrés demanen al secretari de Comerç, Howard Lutnick, que conservi tots els documents sobre les llicències d'exportació de Nvidia i les comunicacions amb Jensen Huang, l'endemà que el cofundador deixés l'empresa."
     },
     {
-      "category": "SALUT",
+      "category": "MODELS",
       "read": "4 MIN",
-      "title": "Un anunci d'un medicament just abans de la pregunta fa que els xatbots el recomanin més sovint, segons un estudi a «The Lancet Digital Health»",
-      "excerpt": "Investigadors de l'hospital Mount Sinai de Nova York han analitzat més de 258.000 respostes de dotze models d'IA: amb l'anunci davant, el fàrmac anunciat passa del 35% al 47,6% de les recomanacions, i els models gairebé mai no diuen que l'han vist."
+      "title": "Google posa Gemini 4 Hydrogen, el seu nou model ràpid, al cercador i diu que és la millora més gran que hi ha fet mai",
+      "excerpt": "El mode IA del cercador entén millor les preguntes llargues, amb diverses parts o amb faltes, i mostra més taules i imatges. El model, pensat per als agents i la programació del dia a dia, és dues vegades i mitja més ràpid que l'anterior."
     },
     {
       "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Un estudi d'OpenAI conclou que els models d'IA són cada cop més difícils de vigilar pel que escriuen mentre raonen, i n'assenyala les causes",
+      "excerpt": "L'equip de seguretat analitza els seus models des de GPT-5 fins a GPT-6 Astra i troba que un preentrenament millor, algunes arquitectures, l'aprenentatge per reforç i l'entrenament amb dades d'altres models els fan resoldre més coses sense escriure-les o controlar més el que escriuen."
+    },
+    {
+      "category": "INFRAESTRUCTURA",
       "read": "4 MIN",
-      "title": "Una eina d'IA de la Universitat d'Uppsala segueix milers de cèl·lules d'un càncer cerebral mentre envaeixen teixit viu, segons «Nature Communications»",
-      "excerpt": "GlioTrace combina microscòpia i aprenentatge automàtic per veure com es mouen, una a una, les cèl·lules del glioblastoma durant cinc dies. L'estudi, fet amb tumors de sis pacients crescuts en ratolins, és encara una eina de recerca."
+      "title": "Nebius preveu gastar 40.000 milions de dòlars en centres de dades d'IA el 2027, però els retards li fan rebaixar els ingressos d'enguany i les accions cauen un 17%",
+      "excerpt": "L'empresa, que lloga potència de càlcul a Microsoft i Meta, ha multiplicat per més de sis la facturació en un any, però una obra endarrerida a Nova Jersey li fa retallar 200 milions de la previsió del 2026."
     },
     {
       "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "United Airlines tanca la porta als agents d'IA dels clients: no podran reservar ni canviar vols en nom seu sense autorització",
-      "excerpt": "La companyia aèria nord-americana diu que compartir les credencials amb un assistent d'IA posa en risc les dades i pot provocar compres o despeses de punts no volgudes. El seu conseller delegat, Scott Kirby, admet que tampoc no vol un altre intermediari."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "4 MIN",
-      "title": "Més de la meitat dels nens d'11 i 12 anys ja fan servir la IA per estudiar, segons l'institut tecnològic Aiju, d'Ibi",
-      "excerpt": "L'estudi «La IA ya está aquí», amb 819 adolescents, famílies i docents de tot l'Estat, troba que el 86% dels adolescents la fan servir per als deures i que el 72% dels mestres diuen que la seva escola no té cap norma sobre la IA."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "La vicepresidenta de supervisió de la Reserva Federal avisa que la borsa pot patir una «gran correcció» si la IA no dona els ingressos esperats",
-      "excerpt": "Michelle Bowman calcula que el deute lligat a la IA superarà aquest any els 800.000 milions de dòlars i que els compromisos fora de balanç el tripliquen, i alerta que una decepció frenaria l'economia dels Estats Units."
-    },
-    {
-      "category": "DEFENSA",
-      "read": "4 MIN",
-      "title": "L'alemanya Helsing presenta una plataforma d'agents d'IA que prepara objectius militars i diu que cada decisió durà el nom d'una persona",
-      "excerpt": "Clarity uneix dades de sensors, informes i fonts obertes per identificar forces i instal·lacions enemigues i passar-les a un sistema d'armes, sempre amb l'autorització d'un militar, segons l'empresa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un rellotge intel·ligent normal reconstrueix la postura de tot el cos amb ultrasons i IA, sense càmeres, segons un estudi de Cornell",
-      "excerpt": "El sistema EchoMotion fa servir l'altaveu i el micròfon del rellotge com un sonar i calcula la posició de dotze articulacions amb un error mitjà de menys de deu centímetres."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Models d'IA oberts fan més entenedors els informes mèdics, però a vegades s'inventen dades clíniques, segons un estudi de la Carlos III",
-      "excerpt": "L'equip de la UC3M ha comparat sis models, entre els quals el Salamandra del Barcelona Supercomputing Center, amb 50 informes reals adaptats per experts a lectura fàcil, i conclou que cal sempre una revisió humana."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Perplexity posa dotze models d'IA a intentar escapar del seu entorn aïllat: cap no en surt, però cinc burlen el control de xarxa",
-      "excerpt": "La prova va destapar dues escletxes al filtre de connexions, que l'empresa ja ha tapat, i va trobar que els models especialitzats en ciberseguretat no sempre ho fan millor que els generalistes."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "5 MIN",
-      "title": "Empreses dels Estats Units venen a laboratoris xinesos d'IA els mateixos entorns d'entrenament que fan servir OpenAI i Anthropic, segons ChinaTalk",
-      "excerpt": "Una investigació identifica almenys nou proveïdors, com Mercor, Surge AI i Turing, que haurien venut a Alibaba, Tencent o ByteDance els exercicis simulats amb què s'afinen els models. Cap norma d'exportació no ho prohibeix."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Google DeepMind presenta AlphaGenome 2, que prediu com una variant de l'ADN canvia l'activitat dels gens en cada tipus de cèl·lula",
-      "excerpt": "Entrenat amb més de 100 milions de perfils de cèl·lules individuals de 68 teixits, el nou model troba gairebé el doble de variants que alteren l'expressió dels gens que l'eina més avançada fins ara. L'article encara no ha passat la revisió per parells."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Gairebé el 95% de les aplicacions fetes amb Grok Build són obertes a qualsevol, i algunes deixaven a la vista dades de pacients i contrasenyes",
-      "excerpt": "L'empresa de seguretat Claroc ha revisat més de 37.000 aplicacions creades amb l'eina de SpaceXSI i calcula que entre 650 i 800 contenien dades privades. Entre elles, 24 de treballadors de la mateixa SpaceXSI i de X."
-    },
-    {
-      "category": "EMPRESES",
       "read": "3 MIN",
-      "title": "Santosh Janardhan, el responsable de la infraestructura de Meta des de fa anys, deixa el càrrec en plena cursa per construir centres de dades d'IA",
-      "excerpt": "El directiu, que va entrar a l'empresa el 2009 i dirigia Meta Compute, passarà a fer d'assessor fins que marxi l'any que ve. El substitueix Dave Brown, que va arribar aquest any després de 19 anys a Amazon."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "3 MIN",
-      "title": "DeepL presenta Aure, una veu artificial que tradueix en directe i manté el to, l'èmfasi i el ritme de qui parla",
-      "excerpt": "L'empresa alemanya diu que el nou model capta els canvis d'humor i fins i tot el sarcasme en reunions i converses. Funciona en vuit llengües, entre les quals no hi ha el català."
-    },
-    {
-      "category": "NEGOCI",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: El consell d'administració de Nvidia es prepara per destituir Jensen Huang, i les accions cauen més d'un 8%",
-      "excerpt": "Segons The Wall Street Journal, els consellers podrien decidir aviat el futur del cofundador, que ha dirigit l'empresa 33 anys. A l'afer de la presumpta espia xinesa s'hi suma ara una altra relació, amb una directiva que depèn d'ell."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode del MIT entrena amb escenaris fets a mida les IA que imiten els models del clima, i n'hi ha prou amb una sola simulació completa, segons «PNAS»",
-      "excerpt": "Els emuladors climàtics, uns models d'IA ràpids que substitueixen els superordinadors, solen fallar davant d'escenaris que no han vist mai. Un equip del MIT els entrena amb dades sintètiques i encerten casos on els convencionals s'equivoquen."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "La britànica Fractile capta 720 milions de dòlars, amb el suport del fons sobirà del Regne Unit, per fabricar xips que abarateixin fer funcionar la IA",
-      "excerpt": "L'empresa vol començar a vendre els seus primers xips i sistemes l'any que ve. El govern britànic la valora en més de 5.000 milions de lliures i hi veu una manera de no dependre del tot dels fabricants estrangers."
-    },
-    {
-      "category": "NEGOCI",
-      "read": "4 MIN",
-      "title": "CoreWeave fa pagar per avançat els clients per finançar els seus centres de dades d'IA, perquè endeutar-se li surt massa car",
-      "excerpt": "L'empresa que lloga potència de càlcul a OpenAI i a altres grans clients ingressa un 168% més, però perd 709 milions en un trimestre i paga 846 milions d'interessos. Ara espera cobrar uns 9.000 milions en pagaments anticipats."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Oura, la de l'anell intel·ligent, compra per 625 milions de dòlars Counsel Health, que combina un xatbot mèdic amb metges de debò",
-      "excerpt": "L'empresa finlandesa vol que els usuaris de l'anell, que ja en fan servir el servei des del juny, puguin resoldre dins de l'aplicació des de dubtes ràpids fins a receptes, analítiques i el seguiment de malalties cròniques."
+      "title": "Muse, l'agent d'IA de Meta, ja pot trucar per telèfon a empreses dels Estats Units en nom dels usuaris que paguen la subscripció",
+      "excerpt": "Alexandr Wang proposa deixar-li les trucades que ningú no vol fer, com les de la companyia del cable o les dels restaurants sense reserva en línia. La funció, que Meta provava des del setembre, només és per als abonats dels Estats Units."
     }
   ]
 }
