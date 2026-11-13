@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-13T13:45:45.384Z",
+ "actualitzat": "2026-11-13T17:13:17.165Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "_ESlXHZ1Cs4",
+   "titol": "Primera cimera europea sobre intel·ligència artificial",
+   "canal": "3CatInfo",
+   "canalId": "UCKseJ43xWvnywQzl6kYbf0g",
+   "grup": "catala",
+   "categoria": "altres",
+   "idioma": "ca",
+   "publicat": "2026-11-13T15:24:21.000Z",
+   "descripcio": "L'objectiu és debatre com pot retallar distàncies respecte dels Estats Units i la Xina. Subscriu-te al canal oficial de 3CatInfo a YouTube i no et perdis l'actualitat de Catalunya i el món: 👉https://www.youtube.com/@3catinfo?sub_confirmation=1 Vols rebre cada setmana el butlletí gratuït \"Mirada glo",
+   "miniatura": "/assets/videos/_ESlXHZ1Cs4.jpg"
+  },
   {
    "id": "_15tXMBB4wI",
    "titol": "Nvidia, l'escàndol d'espionatge que ha sacsejat el sector de la IA | Mésnit",
@@ -41,6 +53,18 @@
    "publicat": "2026-11-12T17:00:11.000Z",
    "descripcio": "See what you can build using our latest Gemini models in Google Antigravity. From in-browser animation and multimodal prototyping to autonomous codebase modernization, explore how you can ship complex architectures straight from a prompt. What are you building with Gemini in Google Antigravity? Shar",
    "miniatura": "/assets/videos/vLAegkGGWrM.jpg"
+  },
+  {
+   "id": "9AozqhRJPWw",
+   "titol": "Peace Talks in Abu Dhabi: Protecting Europe's Security - Commission President von der Leyen",
+   "canal": "Comissió Europea",
+   "canalId": "UCMPaviJxybo1RTdzvYcU91A",
+   "grup": "ciencia",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-12T11:09:56.000Z",
+   "descripcio": "#eunews #europeancommission #peacetalksAbuDhabi Today’s discussion focuses on artificial intelligence, industrial AI made in Europe, the risks and opportunities of AI, peace talks, support for Ukraine, and upcoming European Commission proposals. In this discussion, the focus is on AI, including both",
+   "miniatura": "/assets/videos/9AozqhRJPWw.jpg"
   },
   {
    "id": "vu3YlUMkvyg",
@@ -978,30 +1002,6 @@
    "publicat": "2026-10-23T18:20:02.000Z",
    "descripcio": "“I’ve gone from being just an analyst and a portfolio manager to being a developer as well now. I can build things.” Benefit Street Partners’ Anant Kumar wanted to compare how firms valued the same loans. The information was spread across SEC filings. He built a tool to collect it automatically and ",
    "miniatura": "/assets/videos/CTkDi1THc_g.jpg"
-  },
-  {
-   "id": "W3fUEVcaXwg",
-   "titol": "How Nokia and NVIDIA Are Accelerating the Future of AI-Native Networks",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "altres",
-   "idioma": "en",
-   "publicat": "2026-10-23T17:00:03.000Z",
-   "descripcio": "Nokia and NVIDIA are advancing AI-RAN commercialization around the globe, helping telecom operators build 5G networks today that are software-programmable to 6G. Explore the momentum behind AI-native networks and learn how running AI and RAN workloads on shared infrastructure opens new service oppor",
-   "miniatura": "/assets/videos/W3fUEVcaXwg.jpg"
-  },
-  {
-   "id": "2CdKJKi2P3w",
-   "titol": "La IA i els processos de selecció per trobar feina",
-   "canal": "3CatInfo",
-   "canalId": "UCKseJ43xWvnywQzl6kYbf0g",
-   "grup": "catala",
-   "categoria": "societat",
-   "idioma": "ca",
-   "publicat": "2026-10-23T14:07:03.000Z",
-   "descripcio": "La intel·ligència artificial tocarà de ple les noves generacions que s'incorporen al mercat de treball. Canviarà moltes feines, però també influirà en la porta d'entrada, en els processos de selecció. Subscriu-te al canal oficial de 3CatInfo a YouTube i no et perdis l'actualitat de Catalunya i el mó",
-   "miniatura": "/assets/videos/2CdKJKi2P3w.jpg"
   },
   {
    "id": "83dhcuHt6Ao",
