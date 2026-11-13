@@ -1,8 +1,140 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-13T05:16:01.215Z",
+ "actualitzat": "2026-11-13T09:15:46.099Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "ae50315c05f8",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Caída mundial de Microsoft, en directo: Outlook, Teams y Copilot: última hora de la recuperación",
+   "url": "https://www.lavanguardia.com/vida/20261113/11683265/caida-mundial-outlook-teams-copilot-microsoft-ultima-hora-hoy-en-directo.html",
+   "publicat": "2026-11-13T09:11:19.000Z"
+  },
+  {
+   "id": "2b9a1824b5bf",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Yuval Noah Harari, historiador: “La inteligencia artificial creará un nuevo mundo que no entenderemos, seremos como gallinas o vacas”",
+   "url": "https://www.lavanguardia.com/neo/20261113/11683240/yuval-noah-harari-historiador-inteligencia-artificial-creara-nuevo-mundo-entenderemos-seremos-gallinas-vacas-epm.html",
+   "publicat": "2026-11-13T09:05:43.000Z"
+  },
+  {
+   "id": "fff1a6300ca0",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Comprueba las incidencias en Outlook, Teams y Copilot en tiempo real: así está ahora mismo la caída de Microsoft",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261113/comprueba-incidencias-microsoft-outlook-teams-copilot-dv-136397239",
+   "publicat": "2026-11-13T08:45:23.000Z"
+  },
+  {
+   "id": "bd58e23c182c",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Microsoft no logra recuperar la normalidad de sus servicios tras una caída global de más de 12 horas",
+   "url": "https://elpais.com/tecnologia/2026-11-13/microsoft-no-logra-recuperar-sus-servicios-tras-una-caida-global-de-mas-de-12-horas.html",
+   "publicat": "2026-11-13T08:06:10.000Z"
+  },
+  {
+   "id": "d12a45298b99",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Ibex 35 apunta a la baja y pierde los 20.000 puntos con los tipos y la crisis de Nvidia en el foco",
+   "url": "https://www.elperiodico.com/es/economia/20261113/ibex-35-apunta-baja-pierde-136396820",
+   "publicat": "2026-11-13T08:05:20.000Z"
+  },
+  {
+   "id": "c3170b0262e3",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Microsoft continua sense solucionar la seva caiguda global: Teams, Outlook i Copilot encara no funcionen aquest divendres",
+   "url": "https://www.diaridegirona.cat/tecnologia/2026/11/13/microsoft-continua-sense-solucionar-seva-136396607.html",
+   "publicat": "2026-11-13T07:54:51.000Z"
+  },
+  {
+   "id": "5dcb39247028",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Investigadores rediseñan la visión en la IA multimodal para acelerar sus respuestas sin perder precisión",
+   "url": "https://www.lasprovincias.es/tecnologia/investigadores-redisenan-vision-multimodal-rlt_arx-20261113071128-nt.html",
+   "publicat": "2026-11-13T07:25:28.000Z"
+  },
+  {
+   "id": "08cb8bb15bfa",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "TikTok quiere plantar cara a ChatGPT y Muse: ByteDance prepara su primer agente de inteligencia artificial",
+   "url": "https://www.lavanguardia.com/neo/ia/20261113/11682486/tiktok-quiere-plantar-cara-chatgpt-muse-bytedance-prepara-primer-agente-inteligencia-artificial.html",
+   "publicat": "2026-11-13T07:20:00.000Z"
+  },
+  {
+   "id": "35948b965247",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Caiguda mundial de Microsoft 365 que afecta Outlook, Teams i Copilot",
+   "url": "https://www.elnacional.cat/ca/societat/caiguda-mundial-microsoft-365-afecta-outlook-teams-copilot_1724855_102.html",
+   "publicat": "2026-11-13T07:20:00.000Z"
+  },
+  {
+   "id": "389e13840740",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA que nadie controla",
+   "url": "https://www.ultimahora.es/noticias/economico/2026/11/13/2747635/nadie-controla.html",
+   "publicat": "2026-11-13T07:10:00.000Z"
+  },
+  {
+   "id": "69c21af489a5",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Microsoft no aconsegueix solucionar la caiguda global de Teams, Outlook i Copilot",
+   "url": "https://www.ara.cat/economia/tecnologia/microsoft-no-aconsegueix-solucionar-s-esperava-caiguda-global-dels-serveis_1_5909013.html",
+   "publicat": "2026-11-13T06:40:56.000Z"
+  },
+  {
+   "id": "b1907d82321d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Microsoft sigue sin resolver la caída mundial de Outlook, Teams y Copilot",
+   "url": "https://www.lavanguardia.com/vida/20261113/11683225/microsoft-dificultades-reparar-caida-mundial-outlook.html",
+   "publicat": "2026-11-13T06:08:00.000Z"
+  },
   {
    "id": "ba50ac196301",
    "mitja": "Levante-EMV",
@@ -120,7 +252,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Tijeretazo generalizado en la valoración de Nvidia: La salida de Huang “podría cambiar la tesis de inversión”",
+   "titol": "Tijeretazo generalizado en la valoración de Nvidia: la salida de Huang “podría cambiar la tesis de inversión”",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-13/tijeretazo-generalizado-en-la-valoracion-de-nvidia-la-salida-de-huang-podria-cambiar-la-tesis-de-inversion.html",
    "publicat": "2026-11-13T04:30:01.000Z"
   },
@@ -257,6 +389,17 @@
    "publicat": "2026-11-12T19:00:00.000Z"
   },
   {
+   "id": "82eee8198726",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Caiguda general a tot el món de programes de Microsoft com Outlook, Teams o Copilot",
+   "url": "https://www.3cat.cat/3catinfo/milers-dusuaris-afectats-per-la-caiguda-del-servei-doutlook/noticia/3439526",
+   "publicat": "2026-11-12T18:53:34.000Z"
+  },
+  {
    "id": "dd32fe389522",
    "mitja": "El Nacional",
    "font": "elnacional-oneconomia",
@@ -268,15 +411,26 @@
    "publicat": "2026-11-12T18:26:39.000Z"
   },
   {
+   "id": "cc5ada4b156f",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Microsoft sigue sin solucionar su caída global: Teams, Outlook y Copilot aún no funcionan este viernes",
+   "url": "https://www.elperiodico.com/es/economia/20261112/microsoft-outlook-registra-caida-afecta-136384630",
+   "publicat": "2026-11-12T18:20:24.000Z"
+  },
+  {
    "id": "375ff34b5aa9",
    "mitja": "El Nacional",
    "font": "elnacional-oneconomia",
    "icona": "/assets/premsa/el-nacional.webp",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Nvidia perd 250.000 milions de dòlars en borsa després de la sortida de Jensen Huang",
+   "titol": "Nvidia perd 180.000 milions de dòlars en borsa després de la sortida de Jensen Huang",
    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/nvidia-perd-250000-milions-dolars-en-borsa-despres-sortida-jensen-huang_1724765_102.html",
-   "publicat": "2026-11-12T17:52:56.000Z"
+   "publicat": "2026-11-12T17:52:00.000Z"
   },
   {
    "id": "44d9755ea500",
@@ -2606,160 +2760,6 @@
    "titol": "Nvidia se desploma en Bolsa tras la investigación a su CEO por la relación con una presunta espía china",
    "url": "https://www.informacion.es/economia/2026/11/09/nvidia-desploma-bolsa-investigacion-vida-136237410.html",
    "publicat": "2026-11-09T08:26:20.000Z"
-  },
-  {
-   "id": "efb137fd07b8",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Ramon Arnó, advocat especialista en l’entorn digital: «La instal·lació de càmeres amb IA ha d’estar justificada i respondre a una finalitat concreta»",
-   "url": "https://www.segre.com/ca/lleida/261109/ramon-arno-advocat-especialista-en-lentorn-digital-la-installacio-de-cmeres-amb-ia-ha-destar-justificada-i-respondre-a-una-finalitat-concreta_1390815.html",
-   "publicat": "2026-11-09T08:18:33.000Z"
-  },
-  {
-   "id": "2e7e2b0c3eb5",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Les accions de Nvidia s’enfonsen arran d’un escàndol d’espionatge xinès que esquitxa el seu fundador",
-   "url": "https://www.vilaweb.cat/noticies/accions-nvidia-enfonsen-escandol-espionatge-xines-jensen-huang",
-   "publicat": "2026-11-09T07:59:44.000Z"
-  },
-  {
-   "id": "e32b7f4c469f",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia s’enfonsa a la borsa després de la investigació al seu CEO per la relació amb una presumpta espia xinesa",
-   "url": "https://www.elperiodico.cat/economia/20261109/nvidia-enfonsa-borsa-investigacio-vida-136237316",
-   "publicat": "2026-11-09T07:26:20.000Z"
-  },
-  {
-   "id": "be8d9745dc40",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Culebró a Nvidia, líder en xips per a IA: investiguen el CEO per un afer amb una espia xinesa",
-   "url": "https://www.3cat.cat/3catinfo/culebrot-a-nvidia-lider-en-xips-per-a-ia-investiguen-el-ceo-per-una-aventura-amb-una-espia-xinesa/noticia/3438622",
-   "publicat": "2026-11-09T06:25:40.000Z"
-  },
-  {
-   "id": "7854680a86c7",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Andorra pot trobar en l’esport i les llengües el seu espai en la IA",
-   "url": "https://www.diariandorra.ad/nacional/261109/andorra-pot-trobar-l-esport-i-les-llengues-seu-espai-ia_208371.html",
-   "publicat": "2026-11-09T06:23:32.000Z"
-  },
-  {
-   "id": "360ccf7988bd",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "«Tot i la irrupció de la IA, el factor humà continuarà existint»",
-   "url": "https://www.diaridegirona.cat/societat/2026/11/09/tot-irrupcio-ia-factor-huma-136220655.html",
-   "publicat": "2026-11-09T05:30:05.000Z"
-  },
-  {
-   "id": "264e3425ac8c",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Empresas | La presión de la IA empuja a las empresas a confesar a la CNMC pactos de precios",
-   "url": "https://valenciaplaza.com/valenciaplaza/empresas1/la-presion-de-la-ia-empuja-a-las-empresas-a-confesar-a-la-cnmc-pactos-de-precios",
-   "publicat": "2026-11-09T05:00:05.000Z"
-  },
-  {
-   "id": "1ab6601fd7ea",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-tec",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El medicamento tiene un aliado en la IA, si se gobierna bien",
-   "url": "https://www.lavanguardia.com/dinero/20261109/11677883/medicamento-aliado-ia-gobierna-brl.html",
-   "publicat": "2026-11-09T05:00:00.000Z"
-  },
-  {
-   "id": "710eaa6deae2",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los videojuegos quieren implementar la inteligencia artificial a toda costa: para los jugadores, es signo de dejadez",
-   "url": "https://www.lavanguardia.com/neo/videojuegos/20261109/11678120/videojuegos-quieren-implementar-inteligencia-artificial-toda-costa-jugadores-signo-dejadez.html",
-   "publicat": "2026-11-09T05:00:00.000Z"
-  },
-  {
-   "id": "80efe5445884",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El avance de la IA para organizar procesos completos toma fuerza en el sector asegurador",
-   "url": "https://www.lavanguardia.com/seguros/20261109/11679350/avance-ia-organizar-procesos-completos-toma-fuerza-sector-asegurador.html",
-   "publicat": "2026-11-09T05:00:00.000Z"
-  },
-  {
-   "id": "56a0b15e54de",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El tropiezo de la IA que comenzó en China se extiende a Estados Unidos",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-09/la-burbuja-bursatil-de-la-ia-pincho-primero-en-china-el-star-50-pierde-casi-la-mitad-de-su-valor.html",
-   "publicat": "2026-11-09T04:45:01.000Z"
-  },
-  {
-   "id": "b927bc99ca1b",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los directivos ante la IA: entre la preocupación por las limitaciones del sistema y la ampliación de sus funciones",
-   "url": "https://cincodias.elpais.com/companias/2026-11-09/los-directivos-ante-la-ia-entre-la-preocupacion-por-las-limitaciones-del-sistema-y-la-ampliacion-de-sus-funciones.html",
-   "publicat": "2026-11-09T04:15:00.000Z"
-  },
-  {
-   "id": "1153b59d8257",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Encuesta: ¿El rechazo social a la IA irá en aumento?",
-   "url": "https://www.lavanguardia.com/participacion/debates/20261109/11676560/encuesta-rechazo-social-ia-ira-aumento.html",
-   "publicat": "2026-11-09T04:00:00.000Z"
-  },
-  {
-   "id": "3e7982db81aa",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA destapa casi el doble de empleos en negro en Tarragona: el fraude laboral se dispara",
-   "url": "https://www.diaridetarragona.com/economia/274977/ia-destapa-doble-empleos-negro-tarragona-fraude-laboral-dispara.html",
-   "publicat": "2026-11-09T04:00:00.000Z"
   }
  ]
 }
