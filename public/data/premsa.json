@@ -1,8 +1,129 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-13T09:15:46.099Z",
+ "actualitzat": "2026-11-13T12:40:19.629Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "fd562d767e60",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Copilot, SharePoint, Planner y el resto de servicios de Microsoft afectados por la caída",
+   "url": "https://www.lavanguardia.com/vida/20261113/11683414/copilot-sharepoint-planner-resto-servicios-microsoft-afectados-caida.html",
+   "publicat": "2026-11-13T12:12:01.000Z"
+  },
+  {
+   "id": "81f6a7625c2d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Bien por Google: Gemini 4 Hydrogen llega a todos con más velocidad y un precio que invita a probarlo",
+   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-13/gemini-4-hydrogen-llegada-precio-atractivo.html",
+   "publicat": "2026-11-13T12:00:00.000Z"
+  },
+  {
+   "id": "956545d31a32",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Grupo Tirant refuerza su apuesta tecnológica con la adquisición de la startup chilena de IA elDigesto",
+   "url": "https://www.levante-emv.com/economia/2026/11/13/grupo-tirant-refuerza-apuesta-tecnologica-136404610.html",
+   "publicat": "2026-11-13T11:50:08.000Z"
+  },
+  {
+   "id": "4b2f98318067",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los mejores memes sobre la caída global de Microsoft que afecta también a Outlook, Teams y Copilot",
+   "url": "https://www.elperiodico.com/es/vida-y-estilo/20261113/caida-global-microsoft-mejores-memes-dv-136402550",
+   "publicat": "2026-11-13T11:03:37.000Z"
+  },
+  {
+   "id": "bdc8b756dcba",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La suposada espia del cas Nvidia va comprar xips prohibits que van acabar a la Xina",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/suposada-espia-nvidia-va-comprar-xips-prohibits-van-acabar-xina_1725050_102.html",
+   "publicat": "2026-11-13T10:41:05.000Z"
+  },
+  {
+   "id": "03f8040b3ac4",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las Bolsas se esfuerzan por mantenerse al alza en plena resaca de Nvidia y el Ibex queda al filo de los 20.000",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-13/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-11-13T10:16:15.000Z"
+  },
+  {
+   "id": "bb18a7081270",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La OPV de Anthropic recibe una demanda seis veces superior a la oferta",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-13/la-opv-de-anthropic-recibe-una-demanda-seis-veces-superior-a-la-oferta.html",
+   "publicat": "2026-11-13T10:02:00.000Z"
+  },
+  {
+   "id": "ede04866c8da",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Gemini 4 Hydrogen aterriza en el buscador de Google para descifrar consultas complejas y mal escritas",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/13/2749067/gemini-hydrogen-aterriza-buscador-google-para-descifrar-consultas-complejas-mal-escritas.html",
+   "publicat": "2026-11-13T09:55:00.000Z"
+  },
+  {
+   "id": "d8bb3d201126",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Gemini 4 Hydrogen: la nova IA de Google ja és al cercador i promet agents més ràpids",
+   "url": "https://www.elnacional.cat/ca/tecnologia/gemini-4-hydrogen-nova-ia-google-ja-es-cercador-promet-agents-mes-rapids_1724987_102.html",
+   "publicat": "2026-11-13T09:52:00.000Z"
+  },
+  {
+   "id": "03b70d1d8a26",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Abogados laboralistas alertan de un pico de conflictividad en Europa vitaminado por la IA y el teletrabajo",
+   "url": "https://cincodias.elpais.com/legal/2026-11-13/abogados-laboralistas-alertan-de-un-pico-de-conflictividad-en-europa-vitaminado-por-la-ia-y-el-teletrabajo.html",
+   "publicat": "2026-11-13T09:49:25.000Z"
+  },
+  {
+   "id": "c862c5bcf5d0",
+   "mitja": "El Periódico",
+   "font": "elperiodico-tec",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "¿Què passa amb Outlook? ¿Quan tornarà a funcionar el meu correu? Claus de la caiguda global de Microsoft",
+   "url": "https://www.elperiodico.cat/tecnologia/20261113/que-passa-microsoft-claus-caiguda-global-teams-copilot-outlook-connexio-solucio-136399021",
+   "publicat": "2026-11-13T09:12:00.000Z"
+  },
   {
    "id": "ae50315c05f8",
    "mitja": "La Vanguardia",
@@ -10,7 +131,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Caída mundial de Microsoft, en directo: Outlook, Teams y Copilot: última hora de la recuperación",
+   "titol": "Microsoft sufre una caída mundial: Outlook, Teams y Copilot, sin servicio: última hora en directo",
    "url": "https://www.lavanguardia.com/vida/20261113/11683265/caida-mundial-outlook-teams-copilot-microsoft-ultima-hora-hoy-en-directo.html",
    "publicat": "2026-11-13T09:11:19.000Z"
   },
@@ -24,6 +145,17 @@
    "titol": "Yuval Noah Harari, historiador: “La inteligencia artificial creará un nuevo mundo que no entenderemos, seremos como gallinas o vacas”",
    "url": "https://www.lavanguardia.com/neo/20261113/11683240/yuval-noah-harari-historiador-inteligencia-artificial-creara-nuevo-mundo-entenderemos-seremos-gallinas-vacas-epm.html",
    "publicat": "2026-11-13T09:05:43.000Z"
+  },
+  {
+   "id": "4c4f8cc9091c",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "'Bloomberg': la supuesta espía del caso Nvidia compró chips prohibidos que acabaron en China",
+   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/13/2748999/bloomberg-supuesta-espia-del-caso-nvidia-compro-chips-prohibidos-acabaron-china.html",
+   "publicat": "2026-11-13T09:03:00.000Z"
   },
   {
    "id": "fff1a6300ca0",
@@ -115,9 +247,9 @@
   },
   {
    "id": "69c21af489a5",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
+   "mitja": "Ara Balears",
+   "font": "arabalears",
+   "icona": "/assets/premsa/ara-balears.svg",
    "llengua": "ca",
    "ambit": "catala",
    "titol": "Microsoft no aconsegueix solucionar la caiguda global de Teams, Outlook i Copilot",
@@ -2626,140 +2758,6 @@
    "titol": "Un estudi sobre com Wallapop, Cabify o DMA – Digital Media han redissenyat el seu màrqueting amb IA",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/iebs-presenta-estudi-sobre-com-wallapop-cabify-dma-digital-media-han-redissenyat-seu-mark_1722731_102.html",
    "publicat": "2026-11-09T10:10:24.000Z"
-  },
-  {
-   "id": "6d2d0a4620aa",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Roban un cargamento de chips de la tecnológica Nvidia valorado en 11,4 millones de dólares",
-   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/09/2746045/roban-cargamento-chips-tecnologica-nvidia-valorado-millones-dolares.html",
-   "publicat": "2026-11-09T10:06:00.000Z"
-  },
-  {
-   "id": "4bded0980a71",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Jensen Huang, CEO de Nvidia, investigat després d'admetre una infidelitat amb una presumpta espia xinesa",
-   "url": "https://www.elnacional.cat/ca/tecnologia/jensen-huang-ceo-nvidia-sota-investigacio-despres-admetre-infidelitat-presumpta-espia-xinesa_1722677_102.html",
-   "publicat": "2026-11-09T09:50:00.000Z"
-  },
-  {
-   "id": "2037d319ae74",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nvidia cae en bolsa tras investigar a su director ejecutivo por una infidelidad con una espía china",
-   "url": "https://www.diaridetarragona.com/economia/275235/nvidia-cae-bolsa-investigar-director-ejecutivo-infidelidad-espia-china.html",
-   "publicat": "2026-11-09T09:39:13.000Z"
-  },
-  {
-   "id": "690ddde39e5a",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Qué sabemos hasta ahora del caso Nvidia y la sospechosa espía china?",
-   "url": "https://www.lavanguardia.com/economia/20261109/11679693/que-caso-nvidia-sospechosa-espia-china.html",
-   "publicat": "2026-11-09T09:20:38.000Z"
-  },
-  {
-   "id": "4ae7f8968d05",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Quién es Alice Huang, la presunta espía china que ha puesto contra las cuerdas al CEO de Nvidia",
-   "url": "https://www.eldiario.es/tecnologia/alice-huang-presunta-espia-china-puesto-cuerdas-ceo-nvidia_1_13648764.html",
-   "publicat": "2026-11-09T09:10:12.000Z"
-  },
-  {
-   "id": "3348ed945556",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nvidia sufre en Bolsa tras iniciar una investigación por la relación de su consejero delegado con una supuesta espía",
-   "url": "https://elpais.com/economia/2026-11-09/nvidia-se-desploma-en-bolsa-tras-confirmar-una-investigacion-sobre-la-relacion-extramatrimonial-de-su-ceo-con-una-presunta-espia-china.html",
-   "publicat": "2026-11-09T09:03:22.000Z"
-  },
-  {
-   "id": "eb4b10a6cc97",
-   "mitja": "Nació Digital",
-   "font": "naciodigital-totes",
-   "icona": "/assets/premsa/nacio-digital.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Aquest és el partit que la IA més recomana votar pel 29-N",
-   "url": "https://naciodigital.cat/politica/aquest-es-el-partit-que-la-ia-mes-recomana-votar-pel-29-n.html",
-   "publicat": "2026-11-09T08:46:18.000Z",
-   "noticia": "uoc-assistents-ia-recomanen-partit-29n",
-   "noticiaTitol": "Els assistents d'IA recomanen menys partits que al gener abans de les eleccions del 29-N, però Grok ho fa en quatre de cada deu preguntes, segons un estudi de la UOC"
-  },
-  {
-   "id": "faa51c9fd9be",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La caída de Nvidia por la investigación a Jensen Huang no frena al Ibex 35, que sube un 1,99% impulsado por la banca y la energía",
-   "url": "https://www.informacion.es/economia/2026/11/09/ibex-35-abre-plano-mantiene-136237801.html",
-   "publicat": "2026-11-09T08:37:04.000Z"
-  },
-  {
-   "id": "21cd4849f705",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las acciones de Nvidia caen con fuerza tras la investigación a Huang por una relación con una espía china",
-   "url": "https://www.lavanguardia.com/economia/20261109/11679643/acciones-nvidia-caen-plataformas-investigacion-huang-supuesta-relacion-espia-china.html",
-   "publicat": "2026-11-09T08:30:34.000Z"
-  },
-  {
-   "id": "9f7a05973d09",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia segella acords amb firmes sud-coreanes en ple escàndol d'espionatge al seu CEO",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nvidia-segella-acords-firmes-sud-coreanes-escandol-espionatge-ceo_1722563_102.html",
-   "publicat": "2026-11-09T08:30:00.000Z"
-  },
-  {
-   "id": "74db04c97e55",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Lleida incorporarà càmeres de vigilància amb IA a partir del desembre: identificaran patrons, elements i faran seguiments",
-   "url": "https://www.segre.com/ca/lleida/261109/lleida-incorporar-cmeres-de-vigilncia-amb-ia-a-partir-del-desembre-identificaran-patrons-elements-i-faran-seguiments_1390859.html",
-   "publicat": "2026-11-09T08:28:02.000Z"
-  },
-  {
-   "id": "8fdbcf27fb80",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nvidia se desploma en Bolsa tras la investigación a su CEO por la relación con una presunta espía china",
-   "url": "https://www.informacion.es/economia/2026/11/09/nvidia-desploma-bolsa-investigacion-vida-136237410.html",
-   "publicat": "2026-11-09T08:26:20.000Z"
   }
  ]
 }
