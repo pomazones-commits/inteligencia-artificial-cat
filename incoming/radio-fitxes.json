@@ -1,4 +1,24 @@
 {
-  "fitxes": [],
-  "descartats": []
+  "fitxes": [
+    {
+      "id": "rtve-17313546",
+      "emissora": "Ràdio 4",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
+      "data": "2026-11-13",
+      "durada": "25 min",
+      "titol": "Arnau Font repassa els robots que vigilen la casa i els que fan companyia a gent gran sola a Barcelona",
+      "convidats": [
+        { "nom": "Arnau Font", "rol": "col·laborador expert en intel·ligència artificial" }
+      ],
+      "resum": "A la seva secció tecnològica, Arnau Font parla de robots: les noves càmeres de vigilància mòbils de Ring, que volen o es mouen per terra, i els robots ARI, que ja donen suport i companyia a persones grans que viuen soles a Barcelona. També comenta què pot passar amb Nvidia després de l'escàndol que l'ha sacsejat, i acaba amb l'arribada de GTA VI i la Diada del Videojoc en Català.",
+      "tema": "eines",
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-safareig-tecnologic-amb-arnau-font/17313546/",
+      "reproductor": { "tipus": "rtve", "id": "17313546" }
+    }
+  ],
+  "descartats": [
+    { "id": "rtve-17313496", "motiu": "Magazín d'actualitat general: la IA només hi surt de passada (la caiguda de Microsoft) i la descripció no esmenta cap convidat amb nom." },
+    { "id": "rtve-17313542", "motiu": "Tertúlia d'actualitat general on la tecnologia només és un dels temes (caiguda de Microsoft) i no surt cap persona amb nom." }
+  ]
 }
