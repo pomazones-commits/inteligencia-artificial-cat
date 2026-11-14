@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-14T10:56:39.399Z",
+ "actualitzat": "2026-11-14T13:16:04.383Z",
  "canals": 19,
  "videos": [
   {
@@ -67,7 +67,10 @@
    "idioma": "en",
    "publicat": "2026-11-12T22:37:14.000Z",
    "descripcio": "Greg Brockman, Nancy Wang, Fouad Matin, Clint Gibler, Alexander Thiemann, and Matt Boyle took the stage at Cyber at the Frontier, where OpenAI introduced two cybersecurity products under one unified Codex plugin called Daybreak: Daybreak Defense Factory: builds on Codex Security Cloud to help teams ",
-   "miniatura": "/assets/videos/YmxpxJZvm4M.jpg"
+   "miniatura": "/assets/videos/YmxpxJZvm4M.jpg",
+   "noticia": "openai-daybreak-red-team-defense-factory-agents",
+   "noticiaTitol": "OpenAI comença a vendre agents d'IA que ataquen les aplicacions de les empreses per trobar-hi forats i en preparen els pegats",
+   "resum": "Gravació de la presentació «Cyber at the Frontier», en què Greg Brockman i altres responsables d'OpenAI van presentar Daybreak Red Team i Daybreak Defense Factory, els dos productes de ciberseguretat per a empreses que recull aquesta notícia. És en anglès."
   },
   {
    "id": "vLAegkGGWrM",
