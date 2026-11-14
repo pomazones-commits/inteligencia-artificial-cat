@@ -219,6 +219,7 @@ Només els **dilluns**, al lot de les **10:05**, un cop escrit el lot. La pàgin
   | pacar, paci, pacat | moderar el ritme, acompassar, alentir, frenar | calc de l'anglès *to pace* (21.09.2026) |
   | zancada | gambada, passa | castellanisme (fotografia editorial del 26.09.2026) |
   | jerga | argot (masculí: «un argot propi») | castellanisme (notícia d'Emergence del 10.11.2026) |
+  | lunar, lunars (a la pell) | piga, pigues | castellanisme (*lunar*); en català «lunar» només és l'adjectiu de la Lluna. Butlletí núm. 16 i notícies del 24.10 i el 08.11.2026 |
   | buidar/copiar/publicar **en silenci** (*silently*) | d'amagat, sense fer soroll, sense que ningú se n'adoni, imperceptiblement, sense avisar | calc de l'anglès (notícies del 28.09.2026) |
   | **testimoni** d'autenticació / de sessió (*token*) | credencial d'accés, clau de sessió, credencials d'inici de sessió; si cal, *token* en cursiva entre parèntesis la primera vegada | terme tècnic opac per al lector general (notícies del 28.09.2026) |
   | adreçar un problema (*to address*) | resoldre, afrontar, encarar, ocupar-se de | calc de l'anglès |
