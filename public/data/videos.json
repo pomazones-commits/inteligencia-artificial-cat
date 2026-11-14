@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-14T05:13:26.100Z",
+ "actualitzat": "2026-11-14T09:14:45.096Z",
  "canals": 19,
  "videos": [
   {
@@ -37,7 +37,10 @@
    "idioma": "ca",
    "publicat": "2026-11-13T15:24:21.000Z",
    "descripcio": "L'objectiu és debatre com pot retallar distàncies respecte dels Estats Units i la Xina. Subscriu-te al canal oficial de 3CatInfo a YouTube i no et perdis l'actualitat de Catalunya i el món: 👉https://www.youtube.com/@3catinfo?sub_confirmation=1 Vols rebre cada setmana el butlletí gratuït \"Mirada glo",
-   "miniatura": "/assets/videos/_ESlXHZ1Cs4.jpg"
+   "miniatura": "/assets/videos/_ESlXHZ1Cs4.jpg",
+   "noticia": "ue-primera-cimera-ia-dublin-sobirania",
+   "noticiaTitol": "La Unió Europea celebra a Dublín la seva primera cimera dedicada a la intel·ligència artificial per recuperar terreny davant els EUA i la Xina",
+   "resum": "Peça de 3CatInfo sobre la primera cimera europea dedicada a la intel·ligència artificial, a Dublín, on els líders de la UE debaten com poden retallar distàncies respecte dels Estats Units i la Xina."
   },
   {
    "id": "_15tXMBB4wI",
@@ -56,14 +59,14 @@
   },
   {
    "id": "YmxpxJZvm4M",
-   "titol": "Cyber at the Frontier",
+   "titol": "Cyber at the Frontier: Introducing Daybreak Red Team & Daybreak Defense Factory",
    "canal": "OpenAI",
    "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
    "grup": "empreses",
    "categoria": "societat",
    "idioma": "en",
    "publicat": "2026-11-12T22:37:14.000Z",
-   "descripcio": "A live keynote featuring OpenAI's latest cyber announcements.",
+   "descripcio": "Greg Brockman, Nancy Wang, Fouad Matin, Clint Gibler, Alexander Thiemann, and Matt Boyle took the stage at Cyber at the Frontier, where OpenAI introduced two cybersecurity products under one unified Codex plugin called Daybreak: Daybreak Defense Factory: builds on Codex Security Cloud to help teams ",
    "miniatura": "/assets/videos/YmxpxJZvm4M.jpg"
   },
   {
