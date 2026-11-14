@@ -61,29 +61,49 @@ const BUTLLETI_AVIS_SUBSCRIPTORS = 90;
 // que l'Àgora. Les dades d'accés són a public_html/agora/config.php, NOMÉS al
 // servidor: 🛑 mai al repositori (és públic). Si no hi són, es torna a mail().
 // Límit del pla: 100 correus cada 24 h per bústia, compartits amb l'Àgora.
+//
+// BREVO (14.11.2026, decisió d'en Rafael): la matinada del 14.11 el filtre de
+// sortida d'Hostinger (MailChannels) va bloquejar el núm. 16 com a brossa
+// («550 5.7.1 [CS] Message blocked») i va suspendre l'enviament d'agora@.
+// Perquè un butlletí no pugui tornar a deixar l'Àgora sense correu, el butlletí
+// i els seus avisos surten pel relé SMTP gratuït de Brevo (300 correus al dia,
+// smtp-relay.brevo.com:587 amb STARTTLS) si existeix el fitxer
+// domains/inteligencia-artificial.cat/butlleti-smtp.php (FORA de public_html:
+// no es desplega ni es pot descarregar). 🛑 La clau SMTP de Brevo només hi és
+// allà, mai al repositori. Format: <?php return ['smtp_host' => …, 'smtp_port'
+// => 587, 'smtp_secure' => 'tls', 'smtp_user' => …, 'smtp_pass' => …,
+// 'smtp_from' => 'agora@inteligencia-artificial.cat'];  Si no hi és, o li falta
+// algun camp, es continua amb la bústia de l'Àgora com abans.
 // ---------------------------------------------------------------------------
 
-/** Dades SMTP de l'Àgora (o null si no n'hi ha). */
+/** Llegeix un fitxer de configuració SMTP i en torna les dades (o null). */
+function butlleti_smtp_llegeix(string $ruta, string $proveidor): ?array
+{
+    if (!is_file($ruta)) { return null; }
+    $c = @include $ruta;
+    if (!is_array($c) || empty($c['smtp_host']) || empty($c['smtp_user']) || empty($c['smtp_pass'])) { return null; }
+    return [
+        'host' => (string) $c['smtp_host'],
+        'port' => (int) ($c['smtp_port'] ?? 465),
+        'secure' => strtolower((string) ($c['smtp_secure'] ?? 'ssl')),
+        'user' => (string) $c['smtp_user'],
+        'pass' => (string) $c['smtp_pass'],
+        'from' => (string) (($c['smtp_from'] ?? '') ?: $c['smtp_user']),
+        'proveidor' => $proveidor,
+    ];
+}
+
+/** Dades SMTP del butlletí: primer Brevo, si no, la bústia de l'Àgora (o null). */
 function butlleti_smtp_cfg(): ?array
 {
     static $cfg = false;
     if ($cfg !== false) { return $cfg; }
     $cfg = null;
     if (getenv('BUTLLETI_SENSE_SMTP') === '1' || butlleti_simula()) { return null; }
-    $ruta = dirname(__DIR__) . '/agora/config.php';
-    if (!is_file($ruta)) { return null; }
+    $cfg = butlleti_smtp_llegeix(dirname(__DIR__, 2) . '/butlleti-smtp.php', 'brevo');
+    if ($cfg) { return $cfg; }
     if (!defined('AGORA')) { define('AGORA', true); } // el config de l'Àgora s'atura sense aquesta constant
-    $c = @include $ruta;
-    if (is_array($c) && !empty($c['smtp_host']) && !empty($c['smtp_user']) && !empty($c['smtp_pass'])) {
-        $cfg = [
-            'host' => (string) $c['smtp_host'],
-            'port' => (int) ($c['smtp_port'] ?? 465),
-            'secure' => strtolower((string) ($c['smtp_secure'] ?? 'ssl')),
-            'user' => (string) $c['smtp_user'],
-            'pass' => (string) $c['smtp_pass'],
-            'from' => (string) (($c['smtp_from'] ?? '') ?: $c['smtp_user']),
-        ];
-    }
+    $cfg = butlleti_smtp_llegeix(dirname(__DIR__) . '/agora/config.php', 'agora');
     return $cfg;
 }
 
@@ -377,7 +397,7 @@ function butlleti_envia_correu(string $a, string $assumpte, string $html, string
         ], $capceleres)) . "\r\n\r\n" . $cos;
         $ok = butlleti_smtp_envia($smtp, $a, $missatge);
         if (!$ok) {
-            butlleti_log('smtp error ' . substr(sha1($a), 0, 10) . ': ' . mb_substr((string) ($GLOBALS['butlleti_smtp_error'] ?? '?'), 0, 200));
+            butlleti_log('smtp error (' . ($smtp['proveidor'] ?? '?') . ') ' . substr(sha1($a), 0, 10) . ': ' . mb_substr((string) ($GLOBALS['butlleti_smtp_error'] ?? '?'), 0, 200));
         }
         return $ok;
     }
