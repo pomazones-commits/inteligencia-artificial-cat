@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-13T17:12:37.467Z",
+  "updatedAt": "2026-11-14T05:12:32.612Z",
   "items": [
-    {
-      "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "OpenAI estrena ChatGPT Wallet perquè els seus agents d'IA puguin comprar i pagar en nom dels usuaris",
-      "excerpt": "La cartera desa la targeta una sola vegada i deixa que els agents de ChatGPT, els anomenats «dots», triïn productes i tanquin la compra. De moment només la poden provar alguns subscriptors Pro dels Estats Units, i cada pagament s'ha d'aprovar amb l'empremta o el reconeixement facial."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Una caiguda mundial de Microsoft 365 deixa durant més d'un dia sense correu, Teams ni l'assistent Copilot empreses, governs i tribunals",
-      "excerpt": "L'avaria va començar dijous i divendres encara no s'havia resolt del tot. Microsoft diu que no hi ha indicis d'atac i que es recupera de mica en mica; mentrestant, OpenAI i Anthropic també van tenir problemes per connectar-se a les eines de l'empresa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un ull artificial de Hong Kong veu en color i detecta el moviment amb 367.500 píxels, segons un estudi a «Nature Materials»",
-      "excerpt": "La retina artificial, corbada com la d'un ull de veritat, té tres mil vegades més píxels que el prototip del mateix equip del 2020. Reconeix moviments amb un 98,6% d'encert i, com que només envia el que canvia, gasta molt menys ample de banda que una càmera convencional."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un detector de cares falses de la Universitat de Keele les identifica fins a un 99% de vegades estudiant com varia la brillantor de la imatge",
-      "excerpt": "El sistema, publicat a «Frontiers in Imaging», combina les característiques habituals de color amb tres mesures inspirades en la dinàmica de fluids. Funciona molt bé dins de cada col·lecció de proves, però els mateixos autors admeten que encara falla més amb imatges que no ha vist mai."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA del Japó i Hong Kong fa que els personatges digitals moguin el cos, les mans i la cara amb més naturalitat mentre parlen",
-      "excerpt": "El sistema, anomenat DynaConTalk i publicat a «ACM Transactions on Graphics», separa els moviments lents dels ràpids i els genera alhora a partir de la veu. En una prova amb 30 persones va obtenir les millors valoracions, però encara no sap fer caminar el personatge."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Tres entitats sense ànim de lucre demanden OpenAI, Anthropic, Google, Meta i xAI per aturar el desenvolupament de la IA més avançada",
-      "excerpt": "La demanda, presentada en un tribunal de San Francisco, demana a la justícia que prohibeixi a les cinc empreses continuar entrenant els seus models punters. S'empara en la llei de competència deslleial de Califòrnia i en la figura de la molèstia pública, i cita els avisos dels mateixos directius sobre el risc per a la humanitat."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "La Unió Europea celebra a Dublín la seva primera cimera dedicada a la intel·ligència artificial per recuperar terreny davant els EUA i la Xina",
-      "excerpt": "Els líders europeus es reuneixen per primera vegada en una trobada centrada en la IA, amb la capacitat de càlcul, el finançament i la reducció de burocràcia sobre la taula. La cimera, de caràcter informal, arriba amb el pla de set gigafàbriques encallat i el Chips Act lluny dels seus objectius."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "Universitats i centres xinesos continuen comprant xips d'Nvidia prohibits malgrat el veto dels EUA, segons una revisió de Reuters",
-      "excerpt": "Una anàlisi de 26 registres de compra mostra institucions amb vincles militars que adquireixen o lloguen accés als processadors restringits a través de proveïdors locals. La Universitat Politècnica del Nord-oest, vetada des de fa anys, va comprar dos xips H200 el mes passat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA de l'MIT fa de copilot dels enginyers i assenyala on retocar el disseny automàtic de ponts i edificis",
-      "excerpt": "El sistema deixa que la persona corregeixi les zones que l'optimització automàtica proposa, sense frenar el procés: millora la resistència al vinclament i la facilitat de fabricació un 39% i només hi afegeix uns quinze segons. Es publica a «Communications Engineering»."
-    },
-    {
-      "category": "INVERSIÓ",
-      "read": "3 MIN",
-      "title": "Norwest aixeca el seu fons més gran, 4.000 milions de dòlars, per invertir sobretot en intel·ligència artificial",
-      "excerpt": "La firma d'inversió, que té darrere Wells Fargo, destina el seu divuitè fons a empreses d'IA en fases inicials als Estats Units, l'Índia i Israel: aplicacions i infraestructura, IA física i de veu, models especialitzats i ciberseguretat amb agents."
-    },
-    {
-      "category": "DISPOSITIUS",
-      "read": "4 MIN",
-      "title": "Google obre les reserves de les seves primeres ulleres amb Gemini, des de 395 dòlars i sense pantalla",
-      "excerpt": "Les ulleres, fetes amb Samsung, Warby Parker i Gentle Monster, es venen a partir del 10 de desembre només als Estats Units i a Corea del Sud. Gemini veu el que té davant l'usuari a través d'una càmera i li respon a cau d'orella."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una anàlisi de sang amb IA detecta el càncer de mama en fase inicial i avisa de qui pot recaure, segons un estudi a «Nature»",
-      "excerpt": "Un equip de la Universitat Hebrea de Jerusalem i l'Institut Weizmann llegeix les marques epigenètiques de l'ADN que els tumors deixen a la sang. Amb models d'IA, distingeix el 95% dels tumors petits i encerta el 81% de les recaigudes, en un estudi encara experimental."
-    },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "TSMC, el gran fabricant de xips del món, invertirà fins a 1.000 milions de dòlars en Anthropic i OpenAI, dos dels seus grans clients indirectes",
-      "excerpt": "El consell d'administració de la taiwanesa va aprovar 500 milions per comprar accions d'Anthropic al preu de la sortida a borsa i 500 milions més en accions preferents d'OpenAI, sense dret a vot."
+      "title": "ACTUALITZACIÓ: Anthropic rep sis vegades més peticions d'accions de les que ofereix, i els bancs deixen fora els inversors xinesos",
+      "excerpt": "Segons Bloomberg, la demanda per entrar a la sortida a borsa de l'empresa de Claude multiplica per sis l'oferta. El preu es fixarà el 18 de novembre, i les entitats que la dirigeixen rebutgen comandes de la Xina continental i Hong Kong."
+    },
+    {
+      "category": "XIPS",
+      "read": "5 MIN",
+      "title": "Un antic investigador d'OpenAI diu haver trobat l'empremta dels xips Blackwell de Nvidia, vetats a la Xina, en sis models xinesos",
+      "excerpt": "Will DePue analitza els paràmetres publicats de models oberts i hi troba un rastre del xip que els va inicialitzar. Segons ell, DeepSeek V4, Kimi K3 i MiniMax M3 es van començar a entrenar amb Blackwell, encara que no pot dir on eren ni de qui."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Una IA de la Clínica Mayo endevina de què és feta una pedra al ronyó a partir d'una anàlisi d'orina, i encerta en el 73% dels pacients",
+      "excerpt": "L'estudi, publicat a «Mayo Clinic Proceedings», combina l'edat, el sexe i l'anàlisi d'orina de 24 hores. El càlcul que es fa servir avui només encerta en un de cada tres casos."
     },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Uns atacants fan servir AntiFox, una eina oberta d'agents d'IA derivada d'ARTEX, per entrar en servidors i arribar a secrets de producció al núvol",
-      "excerpt": "Arctic Wolf Labs ha seguit una campanya que va d'un servidor web vulnerat fins als serveis d'Amazon d'una empresa, on els agents van provar desenes de serveis i van aconseguir llegir una clau de producció."
+      "title": "OpenAI comença a vendre agents d'IA que ataquen les aplicacions de les empreses per trobar-hi forats i en preparen els pegats",
+      "excerpt": "Daybreak Red Team busca vulnerabilitats en aplicacions web i Daybreak Defense Factory revisa el codi i proposa correccions que un programador ha d'aprovar. Totes dues funcionen amb GPT-6 Cyber."
     },
     {
-      "category": "COMUNITAT VALENCIANA",
+      "category": "CATALUNYA",
       "read": "4 MIN",
-      "title": "Una IA de la Politècnica de València compara el que fan els diputats al Congrés amb el que van prometre als programes electorals",
-      "excerpt": "L'eina de l'institut VRAIN busca als programes del 2023 el compromís que correspon a cada iniciativa parlamentària i en cita el passatge exacte. En una primera anàlisi, troba coherència en quatre de cada cinc casos."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Els demòcrates Wyden i Neal comencen a investigar l'acord que deixava vendre xips de Nvidia a la Xina a canvi d'un aranzel del 25%",
-      "excerpt": "Els dos principals demòcrates de les comissions fiscals del Congrés demanen al secretari de Comerç, Howard Lutnick, que conservi tots els documents sobre les llicències d'exportació de Nvidia i les comunicacions amb Jensen Huang, l'endemà que el cofundador deixés l'empresa."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Google posa Gemini 4 Hydrogen, el seu nou model ràpid, al cercador i diu que és la millora més gran que hi ha fet mai",
-      "excerpt": "El mode IA del cercador entén millor les preguntes llargues, amb diverses parts o amb faltes, i mostra més taules i imatges. El model, pensat per als agents i la programació del dia a dia, és dues vegades i mitja més ràpid que l'anterior."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un estudi d'OpenAI conclou que els models d'IA són cada cop més difícils de vigilar pel que escriuen mentre raonen, i n'assenyala les causes",
-      "excerpt": "L'equip de seguretat analitza els seus models des de GPT-5 fins a GPT-6 Astra i troba que un preentrenament millor, algunes arquitectures, l'aprenentatge per reforç i l'entrenament amb dades d'altres models els fan resoldre més coses sense escriure-les o controlar més el que escriuen."
-    },
-    {
-      "category": "INFRAESTRUCTURA",
-      "read": "4 MIN",
-      "title": "Nebius preveu gastar 40.000 milions de dòlars en centres de dades d'IA el 2027, però els retards li fan rebaixar els ingressos d'enguany i les accions cauen un 17%",
-      "excerpt": "L'empresa, que lloga potència de càlcul a Microsoft i Meta, ha multiplicat per més de sis la facturació en un any, però una obra endarrerida a Nova Jersey li fa retallar 200 milions de la previsió del 2026."
-    },
-    {
-      "category": "AGENTS",
-      "read": "3 MIN",
-      "title": "Muse, l'agent d'IA de Meta, ja pot trucar per telèfon a empreses dels Estats Units en nom dels usuaris que paguen la subscripció",
-      "excerpt": "Alexandr Wang proposa deixar-li les trucades que ningú no vol fer, com les de la companyia del cable o les dels restaurants sense reserva en línia. La funció, que Meta provava des del setembre, només és per als abonats dels Estats Units."
+      "title": "L'Hospital Vall d'Hebron farà bessons digitals dels òrgans dels pacients per provar els tractaments abans d'aplicar-los",
+      "excerpt": "El projecte té 11,7 milions d'euros de fons europeus i deu línies de treball, de la cardiologia a la migranya. Els primers models no estaran a punt per validar-los a la consulta fins a final del 2029."
     }
   ]
 }

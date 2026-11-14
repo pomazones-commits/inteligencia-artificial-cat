@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "14.11.2026",
+    "title": "L'Hospital Vall d'Hebron farà bessons digitals dels òrgans dels pacients per provar els tractaments abans d'aplicar-los",
+    "summary": "El projecte té 11,7 milions d'euros de fons europeus i deu línies de treball, de la cardiologia a la migranya. Els primers models no estaran a punt per validar-los a la consulta fins a final del 2029.",
+    "detail": "Un bessó digital és una còpia virtual d'un objecte real que es comporta com l'original i permet fer-hi proves sense tocar-lo. A la indústria fa anys que se'n fan de fàbriques i de motors; a la medicina, la idea és fer-ne d'òrgans i de processos del cos d'un pacient concret, a partir de les seves imatges mèdiques, la seva història clínica i les seves dades genètiques, i fer servir la intel·ligència artificial per preveure com evolucionarà.\n\nL'Hospital Universitari Vall d'Hebron, de Barcelona, ha posat en marxa un projecte per fer-ho a escala, amb 11,7 milions d'euros del Fons Europeu de Desenvolupament Regional, dins de la Plataforma de Tecnologies Estratègiques per a Europa (STEP). Té deu línies de treball en àrees mèdiques diferents, de la cardiologia a la migranya, i l'hospital hi farà acords amb empreses tecnològiques que hi col·laboraran. A diferència dels models en 3D que ja es fan servir per preparar operacions, aquests bessons han de poder simular com avança una malaltia i què passaria amb un tractament o una intervenció abans de fer-los. Manel Escobar, director clínic de Radiodiagnòstic i Medicina Nuclear, parla d'aconseguir «un avatar digital» de cada pacient, i posa l'exemple de deu pacients amb migranya que evolucionen i responen als fàrmacs de manera diferent.\n\nSi funciona, la promesa és una medicina més personalitzada: escollir el tractament segons com respondria el cos d'aquell pacient i no segons la mitjana. «És una manera de fer proves al meu cor sense que sigui el meu cor», explica Isidre Barrachina, un pacient de 63 anys amb arrítmies, a Catalan News. Escobar remarca que són eines de suport a la decisió clínica i que no la substitueixen.\n\nEl projecte es va presentar a principi de novembre i és a l'inici: l'hospital preveu tenir els primers models a punt per validar-los clínicament a final del 2029, i no ha dit amb quines empreses hi treballarà. Que un model simuli bé un òrgan en el laboratori no vol dir que encerti en cada pacient real; caldrà veure'n els resultats de la validació abans de saber fins on arriba.",
+    "source": "Catalan News",
+    "url": "https://www.catalannews.com/tech-science/item/barcelona-hospital-to-create-virtual-patient-replicas-to-predict-disease-progression-and-personalize-treatments",
+    "image": "./assets/vall-hebron-bessons-digitals-organs-pacients-20261114.jpg",
+    "slug": "vall-hebron-bessons-digitals-organs-pacients"
+  },
+  {
     "place": "València",
     "category": "IA I SOCIETAT",
     "date": "13.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.vilaweb.cat/noticies/congres-vall-aran-llengues-minoritzades-intelligencia-artificial",
     "image": "./assets/vielha-congres-llengues-minoritzades-ia-20261109.jpg",
     "slug": "vielha-congres-llengues-minoritzades-ia"
-  },
-  {
-    "place": "Catalunya",
-    "category": "POLÍTIQUES",
-    "date": "09.11.2026",
-    "title": "Els assistents d'IA recomanen menys partits que al gener abans de les eleccions del 29-N, però Grok ho fa en quatre de cada deu preguntes, segons un estudi de la UOC",
-    "summary": "Investigadors de la Universitat Oberta de Catalunya i Science4Insights han fet 1.464 preguntes a sis assistents. ChatGPT ha passat de recomanar partit en més del 43% de les respostes a fer-ho en el 14%; Claude i Gemini, gairebé mai.",
-    "detail": "Cada vegada més gent pregunta a un xatbot coses que abans buscava a la premsa o als programes electorals, i la campanya de les eleccions generals espanyoles del 29 de novembre no és cap excepció. Al gener, els investigadors Ferran Lalueza i Cristina Aced, de la Universitat Oberta de Catalunya (UOC), i Víctor Gil, de l'empresa d'anàlisi Science4Insights, ja havien estudiat què responen els assistents d'IA quan algú els demana a qui votar, i hi havien trobat un clar biaix progressista. Ara han repetit l'experiment un cop convocades les eleccions.\n\nAquesta vegada han fet 1.464 consultes en castellà, català, gallec i basc a sis assistents —ChatGPT, Gemini, Grok, Claude, el mode IA de Google i els resums d'IA del cercador— amb 61 preguntes basades en les preocupacions que recull el CIS, com ara quin partit gestiona millor la immigració o quin té el millor pla d'habitatge. El 82,2% de les respostes no recomanen cap partit, el 10,2% en recomanen un directament i el 7,7% en donen una llista ordenada segons les prioritats de l'usuari. Grok, l'assistent de l'empresa d'Elon Musk, és el que més es mulla: recomana partit en el 40,6% de les preguntes, uns cinc punts més que al gener. ChatGPT ha fet el camí contrari i ha passat de més del 43% al 14,3%, mentre que Claude i Gemini ho fan en menys de l'1% dels casos (Claude, a més, es nega a respondre gairebé la meitat de les preguntes electorals). Les eines de Google no arriben al 3%.\n\nDe les 280 recomanacions comptades, el PSOE és el partit més citat (23,6%), seguit de Sumar (16,1%), el PP (15,7%), Vox (10,4%) i Podem (7,5%). ChatGPT recomana el PSOE en gairebé la meitat de les preguntes en què es decanta, mentre que Grok reparteix més i dona al PSOE i al PP al voltant d'un 20% cadascun. Respecte de gener, el PP i Vox hi guanyen pes. «Els filtres s'han intensificat», resumeix Lalueza per explicar per què ara les màquines es mullen molt menys. Els autors també han mirat d'on treuen la informació: ChatGPT tira sobretot de webs dels partits i de fonts institucionals, i Grok, de mitjans de comunicació. Segons Gil, això indica que les diferències no responen tant a un biaix deliberat com al contingut que cada partit publica a internet.\n\nL'estudi és una fotografia d'unes setmanes concretes: les respostes dels assistents canvien amb cada actualització dels models i segons com es formula la pregunta, i una mateixa consulta pot rebre respostes diferents. La informació disponible no diu si el treball s'ha publicat en una revista amb revisió externa. Tampoc no mesura si aquestes recomanacions influeixen de debò en el vot, una qüestió que els mateixos autors consideren preocupant però que caldria estudiar a part. Sí que mostra que, sense cap norma que ho reguli, cada empresa decideix pel seu compte fins on s'implica el seu xatbot en una campanya.",
-    "source": "Nació Digital (a partir de l'ACN i l'estudi de la UOC i Science4Insights)",
-    "url": "https://naciodigital.cat/politica/aquest-es-el-partit-que-la-ia-mes-recomana-votar-pel-29-n.html",
-    "image": "./assets/uoc-assistents-ia-recomanen-partit-29n-20261109.jpg",
-    "slug": "uoc-assistents-ia-recomanen-partit-29n"
   }
 ];
