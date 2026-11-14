@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-14T09:14:03.459Z",
+  "updatedAt": "2026-11-14T13:15:21.946Z",
   "items": [
+    {
+      "category": "ROBÒTICA",
+      "read": "4 MIN",
+      "title": "OpenAI dissol el seu equip de robòtica perquè creu que els seus models generals ja poden fer funcionar els robots",
+      "excerpt": "Els investigadors passen a l'equip central de recerca i els d'enginyeria, a l'àrea de producte. L'empresa diu que no abandona la robòtica, però l'estand que tenia reservat al principal congrés del sector era buit."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un estudi amb més de mil neurones humanes mostra com el cervell aprèn de cop a reconèixer una imatge confusa, segons «Nature Neuroscience»",
+      "excerpt": "Un equip de Harvard i l'MIT ha fet servir l'aprenentatge automàtic per seguir què codifiquen les neurones de tretze pacients amb epilèpsia. Els autors volen copiar el mecanisme en sistemes d'IA que aprenguin més de pressa."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Un cor que la IA veu més vell que el seu propietari s'associa a més risc de morir per malaltia cardiovascular o demència, segons la Clínica Mayo",
+      "excerpt": "Un model que calcula l'edat biològica del cor a partir d'una ecografia s'ha aplicat a 568 adults seguits durant vint anys. Cada cinc anys de diferència s'associen a un 46% més de mortalitat, però el treball encara no s'ha publicat en cap revista."
+    },
+    {
+      "category": "MODELS",
+      "read": "3 MIN",
+      "title": "ACTUALITZACIÓ: Thinking Machines, l'empresa de Mira Murati, compleix la promesa i publica els paràmetres d'Inkling 2 Small perquè qualsevol el pugui descarregar",
+      "excerpt": "El model, de 594.000 milions de paràmetres, ja es pot baixar de Hugging Face amb una llicència oberta. Es queda a prop dels millors models oberts xinesos, però cal una màquina amb més de 500 GB de memòria gràfica per fer-lo funcionar."
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "3 MIN",
+      "title": "Quatre CAP de Barcelona i Tarragona ja fan servir una IA que llegeix les fotos de l'ull dels diabètics, i Salut vol formar-hi tota l'atenció primària el 2027",
+      "excerpt": "L'eina analitza les retinografies per detectar la retinopatia diabètica i classifica els pacients segons el risc. Des del juliol n'ha revisat 549, de 543 pacients, i dona el resultat en uns 11 minuts."
+    },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",

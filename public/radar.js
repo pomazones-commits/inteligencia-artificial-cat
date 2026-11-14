@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "14.11.2026",
+    "title": "Quatre CAP de Barcelona i Tarragona ja fan servir una IA que llegeix les fotos de l'ull dels diabètics, i Salut vol formar-hi tota l'atenció primària el 2027",
+    "summary": "L'eina analitza les retinografies per detectar la retinopatia diabètica i classifica els pacients segons el risc. Des del juliol n'ha revisat 549, de 543 pacients, i dona el resultat en uns 11 minuts.",
+    "detail": "La retinopatia diabètica és una de les complicacions més habituals de la diabetis: l'excés de sucre a la sang malmet els vasos de la retina i, si no es detecta a temps, pot fer perdre la vista. Per això les persones diabètiques es fan periòdicament una retinografia, una fotografia del fons de l'ull. A Catalunya, ara la primera valoració la fan els professionals d'atenció primària, que deriven a oftalmologia els casos amb indicis, i allà un especialista decideix si cal una visita presencial.\n\nEl Departament de Salut ha explicat que, des del juliol, quatre centres d'atenció primària de Barcelona i de Tarragona proven una eina d'intel·ligència artificial que analitza automàticament les retinografies i ajuda a classificar els pacients segons el risc de patir la malaltia. En aquests mesos ha revisat 549 retinografies de 543 pacients i dona el resultat en una mitjana d'11 minuts des que es fa la fotografia. En les últimes quatre setmanes n'ha analitzat 300, un 78% més que en les quatre anteriors, que són un terç de totes les que han fet aquests quatre equips en aquell període.\n\nEl projecte forma part del Programa Salut/IA i el lidera l'Agència de Qualitat i Avaluació Sanitàries de Catalunya (AQuAS), amb el Servei Català de la Salut, l'Institut de Diagnòstic per la Imatge, la Fundació TIC Salut Social i els equips participants. Va sortir d'una licitació pública que l'AQuAS va convocar el 2024 per trobar una solució aplicable a tots els centres d'atenció primària, i Salut preveu que a final del 2027 tots els equips d'atenció primària de Catalunya s'hagin format per fer-la servir. Detectar abans la retinopatia pot millorar molt el pronòstic dels pacients i treure feina a les consultes d'oftalmologia.\n\nLa informació que s'ha fet pública no diu quina empresa ha desenvolupat l'eina ni amb quina precisió encerta, comparada amb la valoració dels metges, i aquestes són les dades que permetrien saber si funciona prou bé. Que la IA llegeixi un terç de les retinografies dels quatre centres pilot vol dir que encara conviu amb el circuit habitual, i la decisió final sobre cada pacient continua sent dels professionals.",
+    "source": "Departament de Salut",
+    "url": "https://govern.cat/salapremsa/notes-premsa/891484/l-atencio-primaria-incorpora-la-ia-per-millorar-el-cribratge-de-la-retinopatia-diabetica",
+    "image": "./assets/atencio-primaria-catalunya-ia-cribratge-retinopatia-diabetica-20261114.jpg",
+    "slug": "atencio-primaria-catalunya-ia-cribratge-retinopatia-diabetica"
+  },
+  {
     "place": "Tarragona",
     "category": "IA I SOCIETAT",
     "date": "14.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.diariandorra.ad/nacional/261111/minervaly-guanya-7a-edicio-dels-actinn-awards_208547.html",
     "image": "./assets/andorra-actinn-awards-minervaly-staybell-ia-20261112.jpg",
     "slug": "andorra-actinn-awards-minervaly-staybell-ia"
-  },
-  {
-    "place": "Mallorca",
-    "category": "RECERCA",
-    "date": "11.11.2026",
-    "title": "El SOCIB i la Universitat de les Illes Balears creen una IA que traça la línia de costa a partir de les fotos que fan els banyistes amb el mòbil",
-    "summary": "L'eina, publicada a la revista «Environmental Modelling & Software», redueix un 70% l'error dels mètodes automàtics habituals i analitza cada imatge en sis segons. Servirà per seguir l'erosió de les platges de Mallorca, Menorca i Eivissa.",
-    "detail": "Des del 2022, a les platges de s'Amarador (Santanyí) i s'Arenal d'en Tem (Campos) hi ha uns suports fixos on qualsevol persona pot recolzar el mòbil i fer una foto de la platja, sempre des del mateix punt. És el sistema internacional CoastSnap, que el Sistema d'Observació Costanera de les Illes Balears (SOCIB) fa servir per seguir com avança o retrocedeix la sorra. Fins ara, però, marcar la línia de costa a cada foto era una feina manual i lenta.\n\nUn equip del SOCIB i de l'Institut d'Investigació en Intel·ligència Artificial de la Universitat de les Illes Balears (IAIB-UIB), encapçalat pel científic de dades Josep Oliver-Sansó, ha automatitzat aquesta tasca. L'equip va entrenar i comparar quatre models d'aprenentatge profund amb 1.717 imatges de cinc platges atlàntiques i mediterrànies. El millor, DeepLabV3, mira el context de tota la imatge i no només els canvis de color, i per això funciona encara que hi hagi reflexos del sol, ombres, sorra mullada, restes de posidònia o zones inundades. Redueix un 70% l'error respecte dels mètodes automàtics convencionals, i la diferència amb el traçat que fan a mà els especialistes és de 2,6 metres de mitjana a s'Arenal d'en Tem i de 3,4 a s'Amarador. Cada foto es processa en uns sis segons amb un ordinador corrent i en menys d'un segon amb una targeta gràfica. El treball s'ha publicat a la revista revisada «Environmental Modelling & Software».\n\nL'interès és pràctic. Les fotos dels ciutadans donen molta més resolució que les imatges de satèl·lit i permeten veure com reacciona una platja després d'un temporal i com es recupera, una informació clau per gestionar la costa en unes illes que depenen de les platges. El programa, anomenat SOCIB Shoreline Extraction, és de codi obert i també es pot fer servir des de les plataformes europees de ciència oberta iMagine i AI4EOSC. Està previst instal·lar deu estacions CoastSnap més als pròxims anys, amb una subvenció del Govern: unes tres a Menorca, quatre a Eivissa i tres a Mallorca.\n\nEl sistema té límits. Les proves s'han fet en cinc platges i amb fotos preses des de punts fixos, de manera que no està demostrat que funcioni igual amb qualsevol fotografia, i una diferència de tres metres, acceptable per seguir tendències, pot ser massa gran per mesurar canvis petits. A més, la qualitat de les dades depèn que la gent continuï fent fotos als suports.",
-    "source": "Environmental Modelling & Software (SOCIB i IAIB-UIB)",
-    "url": "https://doi.org/10.1016/j.envsoft.2026.107078",
-    "image": "./assets/socib-uib-ia-linia-de-costa-fotos-ciutadans-platges-20261111.jpg",
-    "slug": "socib-uib-ia-linia-de-costa-fotos-ciutadans-platges"
   }
 ];
