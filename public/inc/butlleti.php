@@ -86,6 +86,8 @@ function butlleti_smtp_llegeix(string $ruta, string $proveidor): ?array
     if (!is_file($ruta)) { return null; }
     $c = @include $ruta;
     if (!is_array($c) || empty($c['smtp_host']) || empty($c['smtp_user']) || empty($c['smtp_pass'])) { return null; }
+    // Fitxer encara amb els textos de mostra («ENGANXA-AQUI-…»): com si no hi fos.
+    if (stripos($c['smtp_user'] . $c['smtp_pass'], 'ENGANXA') !== false) { return null; }
     return [
         'host' => (string) $c['smtp_host'],
         'port' => (int) ($c['smtp_port'] ?? 465),
