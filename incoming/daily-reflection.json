@@ -1,31 +1,31 @@
 {
-  "date": "2026-11-13",
-  "title": "Deixem que la IA actuï per nosaltres just quan costa més vigilar-la",
-  "dek": "Agents que truquen i paguen, un estudi que avisa que els models amaguen més el que pensen i una caiguda de Microsoft que ho atura tot: avui la IA ha guanyat autonomia i ha mostrat de qui depèn.",
+  "date": "2026-11-14",
+  "title": "Els models generals volen fer tots els oficis, però la medicina avança pas a pas",
+  "dek": "OpenAI desfà el seu equip de robòtica i Runway mou robots amb un model de vídeo, mentre a la consulta la IA entra amb quatre centres, centenars de pacients i calendaris que arriben al 2029.",
   "body": [
-    "Si ahir la pregunta era qui es pot refiar de la IA, avui la notícia ha estat què li deixem fer. Meta ha obert a Muse, el seu agent, la possibilitat de trucar a empreses dels Estats Units en nom dels qui paguen la subscripció, i Alexandr Wang la presenta com la manera de no haver de fer les trucades que ningú no vol fer. Unes hores després, OpenAI ha estrenat ChatGPT Wallet, una cartera perquè els seus agents triïn productes i tanquin compres amb la targeta de l'usuari. En un sol dia, dos dels grans laboratoris han fet que els seus assistents parlin i paguin per nosaltres.",
-    "Totes dues empreses envolten el pas de garanties. OpenAI demana aprovar cada pagament amb l'empremta o la cara, amaga el número real de la targeta a l'agent i a la botiga, i limita la prova a alguns subscriptors Pro dels Estats Units. Muse també és, de moment, només per als abonats nord-americans. Però el mateix full de ruta d'OpenAI deixa clar cap on va: límits de despesa, regles per categories i compres aprovades per endavant, és a dir, menys intervenció humana a cada operació. I el comerç no hi és tot: Amazon continua vetant els agents de fora i vol que els clients facin servir Alexa.",
-    "El contrapunt l'ha posat la mateixa OpenAI. El seu equip de seguretat ha analitzat els models des de GPT-5 fins a GPT-6 Astra i conclou que cada vegada és més difícil vigilar-los pel que escriuen mentre raonen: un preentrenament millor, l'aprenentatge per reforç o l'entrenament amb dades d'altres models els fan resoldre més coses sense escriure-les. És a dir, l'eina que fins ara permetia llegir per sobre l'espatlla d'un model perd visibilitat al mateix temps que aquests models reben permís per moure diners i parlar amb tercers. No és una contradicció de l'empresa, però sí una tensió que caldrà seguir de prop.",
-    "La demanda presentada a San Francisco per tres entitats sense ànim de lucre contra OpenAI, Anthropic, Google, Meta i xAI porta aquesta inquietud a l'extrem: demana a un jutge que prohibeixi entrenar els models més avançats, i ho fa citant els avisos dels mateixos directius. És difícil que prosperi tal com està plantejada, però mostra que la discussió sobre el control ja no es queda en els laboratoris. A Arctic Wolf hi han vist l'altra cara: uns atacants han fet servir AntiFox, una eina oberta d'agents, per arribar des d'un servidor vulnerat fins a una clau de producció al núvol d'una empresa.",
-    "La caiguda mundial de Microsoft 365, que dijous i divendres va deixar sense correu, Teams ni Copilot empreses, governs i tribunals d'Europa i d'Àsia, recorda una dependència menys visible. Quan el proveïdor falla, l'assistent intel·ligent cau amb tota la resta, i fins i tot OpenAI i Anthropic van tenir problemes per connectar-se a les eines de Microsoft. La mateixa concentració apareix en els diners: TSMC, que fabrica els xips de tot el sector, invertirà fins a 1.000 milions en Anthropic i OpenAI, i Nebius preveu gastar 40.000 milions en centres de dades el 2027 mentre una obra endarrerida li retalla la previsió d'ingressos.",
-    "Per a demà, tres coses. Si ChatGPT Wallet i Muse surten dels Estats Units o s'obren a més usuaris, i amb quins límits. Si Microsoft explica la causa exacta de la caiguda, que de moment només compara amb la de CrowdStrike del 2024. I si la recerca d'avui —de l'ull artificial de Hong Kong als detectors de cares falses de Keele, que encara fallen amb imatges noves— té continuïtat en el debat sobre com es comprova el que fa la IA. La tendència és clara: més autonomia per als agents; la pregunta oberta és qui en veu el raonament."
+    "La notícia que millor resumeix el dia és una absència: l'estand que OpenAI tenia reservat al principal congrés de robòtica era buit. L'empresa ha desfet el seu equip de robòtica perquè creu que els seus models generals ja poden governar robots sense una IA feta a mida. Gairebé alhora, Runway, que es va fer coneguda generant vídeo, ha alliberat Praxis-1, un model obert que fa servir el que ha après mirant vídeos per moure braços robòtics, i diu que les imatges corrents d'internet serveixen tant per entrenar-lo com els vídeos de robots manejats a distància, molt més cars de gravar.",
+    "No és un fet aïllat. Anthropic ha connectat Claude al programari de les fàbriques perquè prepari pressupostos, informes de qualitat i comandes, i OpenAI ha començat a vendre agents que ataquen les aplicacions de les empreses per trobar-hi forats i en preparen els pegats. La idea de fons és la mateixa en tots els casos: no cal un sistema especialitzat per a cada ofici, n'hi ha prou amb un model general prou potent i unes quantes eines al voltant. El que encara no sabem és si aquesta promesa resistirà la feina de debò. Les xifres de Runway són de proves seves, i tant Claude com els agents de seguretat d'OpenAI demanen que una persona aprovi abans els passos delicats.",
+    "La medicina ha mostrat avui un ritme molt diferent. Quatre centres d'atenció primària de Barcelona i Tarragona fan servir des del juliol una IA que llegeix les fotos de l'ull dels diabètics, i n'ha revisat 549; Salut vol formar-hi tota l'atenció primària el 2027. El Vall d'Hebron farà bessons digitals dels òrgans dels pacients, però els primers models no es podran validar a la consulta fins a final del 2029. A la Clínica Mayo, un model encerta la composició de les pedres al ronyó en el 73% dels pacients, i un altre que calcula l'edat del cor encara no s'ha publicat en cap revista. Són eines especialitzades, petites i lentes de provar, i això, en salut, és una virtut.",
+    "Hi ha una tercera línia que matisa la cursa pel model més gran. Un equip de Princeton ha publicat a Science que una IA que només escolta el que senten vuit criatures a casa aprèn milers de paraules si cada nit repassa el que ha sentit, i un estudi amb neurones humanes de Harvard i l'MIT explica com el cervell aprèn de cop a reconèixer una imatge confusa. Tots dos apunten que l'eficiència no ve només de la quantitat de dades, sinó de com s'organitza l'aprenentatge. És una pista que la indústria, ara obsessionada amb la mida, faria bé de no deixar de banda.",
+    "El diner continua seguint els generalistes. Anthropic rep sis vegades més peticions d'accions de les que ofereix, LangChain dobla el seu valor fins als 3.000 milions venent eines per controlar agents, i la sortida de Jensen Huang de Nvidia obliga els governs asiàtics a assegurar-se els xips. Però dues notícies recorden que la tecnologia no actua sola: el TSJC ha rebutjat per tercera vegada els recursos d'un advocat de Tarragona inflats amb IA sense revisar, i el govern dels Estats Units atribueix la gran aturada de vols de divendres a uns equips de telecomunicacions antics, no a la nova eina d'IA de l'aviació, de la qual tothom havia sospitat.",
+    "Demà caldrà mirar si els models generals entren de debò a les fàbriques i als robots o si la promesa es queda, com tantes, en una demostració. I a la consulta, si aquestes eines petites i pacients arriben a demostrar que ajuden els pacients, que és l'única prova que hi compta."
   ],
   "signals": [
     {
-      "title": "OpenAI estrena ChatGPT Wallet perquè els seus agents d'IA puguin comprar i pagar en nom dels usuaris",
-      "slug": "chatgpt-wallet-agents-compren-pagament"
+      "title": "OpenAI dissol el seu equip de robòtica perquè creu que els seus models generals ja poden fer funcionar els robots",
+      "slug": "openai-dissol-equip-robotica-models-generals"
     },
     {
-      "title": "Muse, l'agent d'IA de Meta, ja pot trucar per telèfon a empreses dels Estats Units en nom dels usuaris que paguen la subscripció",
-      "slug": "meta-muse-trucades-empreses-subscriptors"
+      "title": "Runway, l'empresa de vídeo amb IA, allibera Praxis-1, un model que fa servir el que ha après dels vídeos per moure robots",
+      "slug": "runway-praxis-1-model-obert-control-robots-video"
     },
     {
-      "title": "Un estudi d'OpenAI conclou que els models d'IA són cada cop més difícils de vigilar pel que escriuen mentre raonen, i n'assenyala les causes",
-      "slug": "openai-cadena-raonament-models-mes-dificils-vigilar"
+      "title": "Quatre CAP de Barcelona i Tarragona ja fan servir una IA que llegeix les fotos de l'ull dels diabètics, i Salut vol formar-hi tota l'atenció primària el 2027",
+      "slug": "atencio-primaria-catalunya-ia-cribratge-retinopatia-diabetica"
     },
     {
-      "title": "Una caiguda mundial de Microsoft 365 deixa durant més d'un dia sense correu, Teams ni l'assistent Copilot empreses, governs i tribunals",
-      "slug": "microsoft-365-caiguda-global-copilot"
+      "title": "Una IA que només escolta el que senten vuit criatures a casa aprèn milers de paraules si cada nit repassa el dia, segons «Science»",
+      "slug": "princeton-model-ia-aprenentatge-llenguatge-infants-science"
     }
   ]
 }
