@@ -62,18 +62,22 @@ const BUTLLETI_AVIS_SUBSCRIPTORS = 90;
 // servidor: 🛑 mai al repositori (és públic). Si no hi són, es torna a mail().
 // Límit del pla: 100 correus cada 24 h per bústia, compartits amb l'Àgora.
 //
-// BREVO (14.11.2026, decisió d'en Rafael): la matinada del 14.11 el filtre de
+// MAILJET (14.11.2026, decisió d'en Rafael): la matinada del 14.11 el filtre de
 // sortida d'Hostinger (MailChannels) va bloquejar el núm. 16 com a brossa
 // («550 5.7.1 [CS] Message blocked») i va suspendre l'enviament d'agora@.
 // Perquè un butlletí no pugui tornar a deixar l'Àgora sense correu, el butlletí
-// i els seus avisos surten pel relé SMTP gratuït de Brevo (300 correus al dia,
-// smtp-relay.brevo.com:587 amb STARTTLS) si existeix el fitxer
+// i els seus avisos surten per un relé SMTP extern si existeix el fitxer
 // domains/inteligencia-artificial.cat/butlleti-smtp.php (FORA de public_html:
-// no es desplega ni es pot descarregar). 🛑 La clau SMTP de Brevo només hi és
-// allà, mai al repositori. Format: <?php return ['smtp_host' => …, 'smtp_port'
-// => 587, 'smtp_secure' => 'tls', 'smtp_user' => …, 'smtp_pass' => …,
-// 'smtp_from' => 'agora@inteligencia-artificial.cat'];  Si no hi és, o li falta
+// no es desplega ni es pot descarregar). 🛑 Les claus només hi són allà, mai al
+// repositori. Format: <?php return ['proveidor' => 'mailjet', 'smtp_host' =>
+// 'in-v3.mailjet.com', 'smtp_port' => 587, 'smtp_secure' => 'tls', 'smtp_user'
+// => <API key>, 'smtp_pass' => <secret key>, 'smtp_from' =>
+// 'setmana@butlleti.inteligencia-artificial.cat'];  Si no hi és, o li falta
 // algun camp, es continua amb la bústia de l'Àgora com abans.
+// Es va triar Mailjet (gratuït, 200 correus/dia, 6.000/mes) i no Brevo perquè
+// Brevo no deixa apagar el píxel ni la redirecció d'enllaços als correus SMTP:
+// amb seguiment caldria el consentiment dels subscriptors (AEPD, píxels en
+// correus). Cada correu porta X-Mailjet-TrackOpen: 0 i X-Mailjet-TrackClick: 0.
 // ---------------------------------------------------------------------------
 
 /** Llegeix un fitxer de configuració SMTP i en torna les dades (o null). */
@@ -89,18 +93,18 @@ function butlleti_smtp_llegeix(string $ruta, string $proveidor): ?array
         'user' => (string) $c['smtp_user'],
         'pass' => (string) $c['smtp_pass'],
         'from' => (string) (($c['smtp_from'] ?? '') ?: $c['smtp_user']),
-        'proveidor' => $proveidor,
+        'proveidor' => (string) (($c['proveidor'] ?? '') ?: $proveidor),
     ];
 }
 
-/** Dades SMTP del butlletí: primer Brevo, si no, la bústia de l'Àgora (o null). */
+/** Dades SMTP del butlletí: primer el relé extern (Mailjet), si no, la bústia de l'Àgora (o null). */
 function butlleti_smtp_cfg(): ?array
 {
     static $cfg = false;
     if ($cfg !== false) { return $cfg; }
     $cfg = null;
     if (getenv('BUTLLETI_SENSE_SMTP') === '1' || butlleti_simula()) { return null; }
-    $cfg = butlleti_smtp_llegeix(dirname(__DIR__, 2) . '/butlleti-smtp.php', 'brevo');
+    $cfg = butlleti_smtp_llegeix(dirname(__DIR__, 2) . '/butlleti-smtp.php', 'extern');
     if ($cfg) { return $cfg; }
     if (!defined('AGORA')) { define('AGORA', true); } // el config de l'Àgora s'atura sense aquesta constant
     $cfg = butlleti_smtp_llegeix(dirname(__DIR__) . '/agora/config.php', 'agora');
@@ -367,7 +371,10 @@ function butlleti_envia_correu(string $a, string $assumpte, string $html, string
         'Reply-To: ' . BUTLLETI_REDACCIO,
         'MIME-Version: 1.0',
         'Content-Type: multipart/alternative; boundary="' . $limit . '"',
-    ], $extra);
+    ], ($smtp && ($smtp['proveidor'] ?? '') !== 'agora')
+        // Relé extern: cap píxel ni redirecció d'enllaços (sense seguiment no cal consentiment).
+        ? ['X-Mailjet-TrackOpen: 0', 'X-Mailjet-TrackClick: 0']
+        : [], $extra);
     $cos = "--$limit\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n"
         . chunk_split(base64_encode($text))
         . "--$limit\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n"
@@ -625,7 +632,7 @@ function butlleti_processa(): array
                     $paragrafs[] = 'El servidor va frenar els enviaments, i el butlletí ha sortit en diverses passades (aproximadament cada 30 minuts).';
                 }
                 if ($actius >= BUTLLETI_AVIS_SUBSCRIPTORS) {
-                    $paragrafs[] = '⚠️ Recordatori: ja sou ' . $actius . ' subscriptors i us acosteu als 100. La bústia que l\'envia (SMTP d\'Hostinger) només admet 100 correus cada 24 hores, compartits amb l\'Àgora: és el moment de passar a un servei de butlletins (Brevo, MailerLite) o d\'ampliar el pla de correu, com es va acordar el 24.10.2026.';
+                    $paragrafs[] = '⚠️ Recordatori: ja sou ' . $actius . ' subscriptors i us acosteu als 100. Des del 14.11.2026 el butlletí surt per Mailjet (pla gratuït: 200 correus al dia i 6.000 al mes, sumant els avisos d\'alta): quan us acosteu als 200 subscriptors, caldrà repartir l\'enviament en dos dies o passar a un pla superior.';
                 }
                 butlleti_correu_simple(BUTLLETI_REDACCIO, 'IA.cat: butlletí núm. ' . (int) $ed['num'] . ' enviat', $paragrafs);
             }
