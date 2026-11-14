@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Tarragona",
+    "category": "IA I SOCIETAT",
+    "date": "14.11.2026",
+    "title": "El TSJC rebutja per tercera vegada els recursos d'un advocat de Tarragona, inflats amb IA, i diu que la seva actuació frega la mala fe",
+    "summary": "El Tribunal Superior de Justícia de Catalunya ha desestimat tres recursos del mateix lletrat, de 90, de més de 50 i de 38 pàgines, perquè eren repetitius i confusos, i ho atribueix a fer servir IA generativa sense revisar-ne el resultat.",
+    "detail": "Els tribunals de tot el món s'han trobat aquests dos últims anys amb escrits redactats amb IA que citen sentències inexistents o s'allarguen sense sentit. A Catalunya, el Tribunal Superior de Justícia (TSJC) ja té un cas reincident: un advocat de la demarcació de Tarragona, de qui no s'ha fet públic el nom, a qui ha rebutjat tres recursos seguits per la mateixa raó.\n\nSegons el Diari de Tarragona, el primer, al juliol, era un recurs de 90 pàgines que el tribunal va desestimar perquè la seva extensió i la manera dispersa d'exposar els arguments semblaven fruit de l'ús de la IA. El segon, a l'octubre, en tenia més de 50, i la sala va escriure que la IA generativa sense supervisió no pot produir «una artificial e innecesaria retahíla de argumentos». El tercer, a final d'octubre i a la Sala Social, feia 38 pàgines i va ser rebutjat per incomplir les normes processals mínimes i per ser «innecesariamente extenso». El tribunal hi diu que aquesta conducta s'acosta a la mala fe processal i que li manca rigor.\n\nEl cas és diferent dels que han fet més soroll en altres països: aquí el problema no són jurisprudència ni cites inventades, sinó escrits llargs, repetitius i confusos que fan perdre temps al tribunal i no ajuden el client. Mostra que el risc de la IA a la feina d'advocat no és només l'error flagrant, sinó també la feina feta sense revisar. Els col·legis d'advocats de Tarragona i de Reus ja ofereixen formació i guies de bones pràctiques sobre l'ús d'aquestes eines.\n\nLa notícia es basa en la informació del diari sobre les tres resolucions, que no identifica ni l'advocat ni els magistrats. No consta que el TSJC li hagi imposat cap sanció ni que hagi comunicat el cas al col·legi professional, i el tribunal relaciona els escrits amb la IA per la seva forma, sense que el lletrat ho hagi admès públicament.",
+    "source": "Diari de Tarragona",
+    "url": "https://www.diaridetarragona.com/tarragona/275367/tercera-bronca-juez-abogado-tarragona-abusar-ia-mala-fe-procesal.html",
+    "image": "./assets/tsjc-advocat-tarragona-recursos-ia-mala-fe-20261114.jpg",
+    "slug": "tsjc-advocat-tarragona-recursos-ia-mala-fe"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "14.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://doi.org/10.1016/j.envsoft.2026.107078",
     "image": "./assets/socib-uib-ia-linia-de-costa-fotos-ciutadans-platges-20261111.jpg",
     "slug": "socib-uib-ia-linia-de-costa-fotos-ciutadans-platges"
-  },
-  {
-    "place": "Lleida",
-    "category": "IA I SOCIETAT",
-    "date": "09.11.2026",
-    "title": "Vielha reunirà a final de mes mitjans públics, universitats i empreses d'Europa per parlar de què pot fer la IA per l'aranès i les altres llengües petites",
-    "summary": "La segona edició del congrés internacional sobre comunicació, tecnologia i llengües minoritàries, el 26 i el 27 de novembre, presentarà una càtedra de RTVE i la Universitat de Lleida sobre llengües minoritàries i IA.",
-    "detail": "Les llengües amb pocs parlants tenen un problema afegit amb la IA: els models aprenen dels textos i les gravacions que hi ha a internet, i d'aquestes llengües n'hi ha poques. Per això traductors automàtics, assistents de veu i subtítols automàtics les fan servir pitjor o no les fan servir gens. La Vall d'Aran, on es parla l'aranès, la varietat de l'occità pròpia de la vall, ja va acollir una primera trobada sobre aquesta qüestió, i els organitzadors en van anunciar de seguida una segona edició.\n\nSegons VilaWeb, el Consell General d'Aran, la Universitat Pompeu Fabra, la Universitat de Lleida i RTVE organitzen el 26 i el 27 de novembre a Vielha el segon Congrés Internacional sobre Comunicació, Tecnologia i Llengües Minoritàries, amb el lema «El futur de les llengües minoritàries a través de la comunicació». Hi seran mitjans públics com 3Cat, la ràdio sueca, BBC ALBA, EITB o France 3 Corse ViaStella, la Unió Europea de Radiodifusió i la Public Media Alliance, a més de Microsoft, ElevenLabs i el Barcelona Supercomputing Center. S'hi presentarà la càtedra RTVE-UdL de Llengües Minoritàries, Comunicació i IA.\n\nEl programa toca les qüestions pràctiques: com crear continguts digitals en llengües minoritzades, quin paper hi tenen els mitjans, la traducció automàtica, els corpus lingüístics i els recursos per a llengües amb pocs parlants, i la iniciativa LINGUATEC-IA, que desenvolupa eines perquè aquestes llengües es puguin fer servir en entorns digitals. Per al Consell General d'Aran, l'objectiu és que la vall es consolidi com a referència internacional en la protecció i la modernització d'aquestes llengües i donar a conèixer les polítiques públiques que hi ha per fer present l'aranès al món digital.\n\nDe moment, és l'anunci d'un congrés, no un resultat: la informació publicada no diu encara qui hi parlarà ni quins projectes concrets s'hi presentaran, ni quins recursos tindrà la nova càtedra. Caldrà veure si de la trobada en surten eines que es puguin fer servir de debò, com un traductor, un reconeixedor de veu o un corpus obert en aranès, o si es queda en una declaració d'intencions.",
-    "source": "VilaWeb",
-    "url": "https://www.vilaweb.cat/noticies/congres-vall-aran-llengues-minoritzades-intelligencia-artificial",
-    "image": "./assets/vielha-congres-llengues-minoritzades-ia-20261109.jpg",
-    "slug": "vielha-congres-llengues-minoritzades-ia"
   }
 ];
