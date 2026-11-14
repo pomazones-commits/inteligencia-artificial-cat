@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-13T20:06:06.164Z",
+ "actualitzat": "2026-11-14T01:05:24.655Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "84b5440eeec3",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Primer xoc intern a la Casa Blanca per l’escàndol d’espionatge de Nvidia",
+   "url": "https://www.ara.cat/economia/tecnologia/xoc-intern-casa-blanca-l-escandol-d-espionatge-nvidia_1_5909907.html",
+   "publicat": "2026-11-13T21:35:56.000Z"
+  },
+  {
+   "id": "8b3ae546cbc5",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El V Forum Europeo de Inteligencia Artificial conquista Alicante con un lleno absoluto",
+   "url": "https://www.informacion.es/economia/2026/11/13/v-forum-europeo-inteligencia-artificial-136401139.html",
+   "publicat": "2026-11-13T21:30:42.000Z"
+  },
   {
    "id": "bc2ad3faeceb",
    "mitja": "Diari de Terrassa",
@@ -2736,28 +2758,6 @@
    "titol": "La relación del CEO de Nvidia con una presunta espía china lastra casi un 6% sus acciones en Bolsa",
    "url": "https://www.eldiario.es/economia/relacion-ceo-nvidia-presunta-espia-china-lastra-6-acciones-bolsa_1_13650152.html",
    "publicat": "2026-11-09T15:05:38.000Z"
-  },
-  {
-   "id": "090eb84f8892",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Apple vol convertir Siri en un agent d'intel·ligència artificial molt més autònom a iOS 28",
-   "url": "https://www.elnacional.cat/ca/tecnologia/apple-vol-convertir-siri-en-agent-intelligencia-artificial-molt-mes-autonom-ios-28_1722905_102.html",
-   "publicat": "2026-11-09T15:00:00.000Z"
-  },
-  {
-   "id": "c723469f1643",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El espionaje chino, movilizado para ganar la carrera de la inteligencia artificial",
-   "url": "https://www.lavanguardia.com/economia/20261109/11679784/espionaje-chino-movilizado-ganar-carrera-inteligencia-artificial.html",
-   "publicat": "2026-11-09T14:38:15.000Z"
   }
  ]
 }
