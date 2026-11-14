@@ -1,8 +1,118 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-14T01:05:24.655Z",
+ "actualitzat": "2026-11-14T05:13:21.457Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "75ea9d3bd817",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Jorge Dezcallar: \"Las amenazas de bombas en aviones son muy difícil de prevenir con los 'fake' de la IA\"",
+   "url": "https://www.diariodemallorca.es/mallorca/2026/11/14/jorge-dezcallar-amenazas-bombas-aviones-136428224.html",
+   "publicat": "2026-11-14T05:01:50.000Z"
+  },
+  {
+   "id": "eb73e31a6b9b",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "IA i literatura",
+   "url": "https://www.levante-emv.com/postdata/2026/11/14/ia-literatura-136423848.html",
+   "publicat": "2026-11-14T05:01:38.000Z"
+  },
+  {
+   "id": "fef8edca5bfb",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Puede el ‘caso Nvidia’ resquebrajar la hegemonía de la IA en Bolsa?",
+   "url": "https://www.elperiodico.com/es/economia/20261114/caso-nvidia-resquebrajar-hegemonia-ia-136429862",
+   "publicat": "2026-11-14T05:01:08.000Z"
+  },
+  {
+   "id": "6efa39f387e4",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Música y ópera | ‘Lola Carmesí’, la 'cantante' hecha con IA desde València que sigue la estela de ‘Nyla Stone’",
+   "url": "https://valenciaplaza.com/musica-opera-valencia-comunitat-valenciana/lola-carmesi-la-cantante-hecha-con-ia-desde-valencia-que-sigue-la-estela-de-nyla-stone",
+   "publicat": "2026-11-14T05:00:05.000Z"
+  },
+  {
+   "id": "7a2e3e1e82c6",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Juego de culpas en la Casa Blanca ante el caso de espionaje en Nvidia",
+   "url": "https://www.lavanguardia.com/economia/20261114/11684109/juego-culpas-casa-blanca-caso-espionaje-nvidia.html",
+   "publicat": "2026-11-14T05:00:00.000Z"
+  },
+  {
+   "id": "7be772ee604f",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La perfección de Jensen Huang y Nvidia se evaporó en 40 días",
+   "url": "https://elpais.com/economia/2026-11-14/la-perfeccion-de-jensen-huang-y-nvidia-se-evaporo-en-40-dias.html",
+   "publicat": "2026-11-14T04:45:00.000Z"
+  },
+  {
+   "id": "0e8a0a35fc7d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Solaria, presa de la volatilidad y las dudas sobre la IA y los centros de datos",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-14/solaria-presa-de-la-volatilidad-y-las-dudas-sobre-la-ia-y-los-centros-de-datos.html",
+   "publicat": "2026-11-14T04:30:01.000Z"
+  },
+  {
+   "id": "c59c18b7bbdf",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El fulgor de Nvidia se oscurece sin su rey Midas: así es el tortuoso camino que le espera a la empresa clave para la IA",
+   "url": "https://elpais.com/economia/negocios/2026-11-14/el-fulgor-de-nvidia-se-oscurece-sin-su-rey-midas.html",
+   "publicat": "2026-11-14T04:30:00.000Z"
+  },
+  {
+   "id": "f6c18d5877ff",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Sobre la intel·ligència de la “intel·ligència artificial”",
+   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/sobre-intelligencia-intelligencia-artificial-pau-hortal_1724624_102.html",
+   "publicat": "2026-11-14T04:30:00.000Z"
+  },
+  {
+   "id": "f516af39592a",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un juez abronca por tercera vez a un mismo abogado de Tarragona por abusar de la IA: \"Es mala fe\"",
+   "url": "https://www.diaridetarragona.com/tarragona/275367/tercera-bronca-juez-abogado-tarragona-abusar-ia-mala-fe-procesal.html",
+   "publicat": "2026-11-14T04:00:00.000Z"
+  },
   {
    "id": "84b5440eeec3",
    "mitja": "Ara",
@@ -2646,118 +2756,6 @@
    "titol": "Diego Córdoba, uno de los científicos que inspiró a Open AI para resolver el 'problema del milenio', en Elche: \"La solución a la falta de matemáticos es pagar más a los profesores\"",
    "url": "https://www.informacion.es/elche/2026/11/09/matematicos-cientificos-open-ai-chat-gpt-diego-cordoba-136258488.html",
    "publicat": "2026-11-09T18:07:19.000Z"
-  },
-  {
-   "id": "332ccf914542",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "TSMC estudia fabricar chips de memoria avanzada DRAM 3D impulsado por Nvidia",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/09/2746485/tsmc-estudia-fabricar-chips-memoria-avanzada-dram-impulsado-por-nvidia.html",
-   "publicat": "2026-11-09T16:56:00.000Z"
-  },
-  {
-   "id": "fedd28bf8c43",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-tec",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El medicament té un aliat en la IA, si es governa bé",
-   "url": "https://www.lavanguardia.com/encatala/20261109/11679210/medicament-te-aliat-ia-governa-be-ctx.html",
-   "publicat": "2026-11-09T16:50:31.000Z"
-  },
-  {
-   "id": "1f389b4524d1",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La Vall d’Aran reunirà experts internacionals per debatre el futur de les llengües minoritzades i la IA",
-   "url": "https://www.vilaweb.cat/noticies/congres-vall-aran-llengues-minoritzades-intelligencia-artificial",
-   "publicat": "2026-11-09T16:47:29.000Z",
-   "noticia": "vielha-congres-llengues-minoritzades-ia",
-   "noticiaTitol": "Vielha reunirà a final de mes mitjans públics, universitats i empreses d'Europa per parlar de què pot fer la IA per l'aranès i les altres llengües petites"
-  },
-  {
-   "id": "a542680ac4f4",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Esther Algarra, catedrática de Derecho Civil de la UA: \"La ley debe adaptarse a retos como la implicación de la IA en el derecho al honor\"",
-   "url": "https://www.informacion.es/videos/alicante/2026/11/09/esther-algarra-catedratica-derecho-civil-136258936.html",
-   "publicat": "2026-11-09T16:45:39.000Z"
-  },
-  {
-   "id": "4bf2d7bf1fe0",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El matemático Diego Córdoba explica en una conferencia en la UMH de Elche como su trabajo sirvió a OpenAI a resolver el problema del milenio",
-   "url": "https://www.informacion.es/videos/elche/2026/11/09/matematico-diego-cordoba-problema-milenio-umh-136257948.html",
-   "publicat": "2026-11-09T16:18:15.000Z"
-  },
-  {
-   "id": "60efe8115093",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic destina 3.400 milions de dòlars per alimentar els seus centres de dades d'intel·ligència artificial",
-   "url": "https://www.elnacional.cat/ca/tecnologia/anthropic-destina-3400-milions-dolars-alimentar-seus-centres-dades-intelligencia-artificial_1722941_102.html",
-   "publicat": "2026-11-09T16:00:00.000Z"
-  },
-  {
-   "id": "9f339b499982",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Citi rebaja a neutral su recomendación para la Bolsa estadounidense por la inquietud entorno a la IA",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-09/citi-rebaja-a-neutral-su-recomendacion-para-la-bolsa-estadounidense-por-la-inquietud-entorno-a-la-ia.html",
-   "publicat": "2026-11-09T15:19:11.000Z"
-  },
-  {
-   "id": "d80354ab0d1c",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Mercados | Nvidia se desploma un 6,6% en el parqué neoyorquino tras el 'affaire Jensen Huang'",
-   "url": "https://valenciaplaza.com/valenciaplaza/bolsas/nvidia-se-desploma-un-66-en-el-parque-neoyorquino-tras-el-affaire-jensen-huang",
-   "publicat": "2026-11-09T15:10:58.000Z"
-  },
-  {
-   "id": "fbfa3d465d6e",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Meta expande su tecnología de estimación de edad con IA a nivel mundial, que también llegará a Threads",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/09/2746415/meta-expande-tecnologia-estimacion-edad-nivel-mundial-tambien-llegara-threads.html",
-   "publicat": "2026-11-09T15:06:00.000Z"
-  },
-  {
-   "id": "cbf9ffb3366f",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La relación del CEO de Nvidia con una presunta espía china lastra casi un 6% sus acciones en Bolsa",
-   "url": "https://www.eldiario.es/economia/relacion-ceo-nvidia-presunta-espia-china-lastra-6-acciones-bolsa_1_13650152.html",
-   "publicat": "2026-11-09T15:05:38.000Z"
   }
  ]
 }
