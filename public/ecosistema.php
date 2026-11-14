@@ -85,6 +85,6 @@ iacat_capcalera([
       </ul>
     </section>
 <?php endforeach; ?>
-    <p class="seccio-nota">Vols seguir què fan? A <a href="/tema/catalunya">IA a Catalunya</a> hi ha totes les notícies del país, i a <a href="/agenda">l’agenda</a>, els pròxims actes. Si formes part d’una d’aquestes entitats i vols escriure al web, mira <a href="/escriu.html">com fer-ho</a>.</p>
+    <p class="seccio-nota">Vols seguir què fan? A <a href="/tema/catalunya">IA als territoris de parla catalana</a> hi ha totes les notícies, i a <a href="/agenda">l’agenda</a>, els pròxims actes. Si formes part d’una d’aquestes entitats i vols escriure al web, mira <a href="/escriu.html">com fer-ho</a>.</p>
 <?php
 iacat_peu();

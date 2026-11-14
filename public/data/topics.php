@@ -101,7 +101,7 @@ return [
     'catalunya' => [
         'tipus' => 'territori',
         'title' => 'Intel·ligència artificial als territoris de parla catalana',
-        'short' => 'IA a Catalunya',
+        'short' => 'IA als territoris de parla catalana',
         'description' => 'Projectes, empreses, recerca, institucions i impacte territorial de la intel·ligència artificial a Catalunya, la Comunitat Valenciana, les Illes Balears i Andorra.',
         'temes' => [],
         'categories' => ['CATALUNYA', 'COMUNITAT VALENCIANA', 'ILLES BALEARS', 'ANDORRA', 'CATALUNYA NORD'],
