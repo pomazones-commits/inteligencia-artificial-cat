@@ -1,17 +1,28 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-14T09:14:45.328Z",
+ "actualitzat": "2026-11-14T13:16:07.075Z",
  "fonts": 44,
  "articles": [
   {
-   "id": "e319b0ba50f8",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
+   "id": "fd4280595906",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Microsoft restablece por completo Outlook, Teams y Copilot tras una caída mundial que afectó a más de 70 países",
+   "url": "https://www.eldiario.es/tecnologia/microsoft-restablece-completo-outlook-teams-copilot-caida-mundial-afecto-70-paises_1_13663982.html",
+   "publicat": "2026-11-14T12:00:22.000Z"
+  },
+  {
+   "id": "ac906b5eb3ce",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
    "llengua": "es",
    "ambit": "catala",
    "titol": "La salida de Huang abre un periodo de incertidumbre en Nvidia, la IA y las relaciones EEUU-China",
-   "url": "https://www.elperiodico.com/es/internacional/20261114/jensen-huang-dimision-nvidia-consecuencias-estados-unidos-china-136433118",
+   "url": "https://www.diariodemallorca.es/internacional/2026/11/14/jensen-huang-dimision-nvidia-consecuencias-estados-unidos-china-136433119.html",
    "publicat": "2026-11-14T09:00:36.000Z"
   },
   {
@@ -35,6 +46,17 @@
    "titol": "Trump y Xi llegarán a la APEC con tregua comercial vigente y el caso Nvidia sobre la mesa",
    "url": "https://www.ultimahora.es/noticias/internacional/2026/11/14/2749729/trump-llegaran-apec-tregua-comercial-vigente-caso-nvidia-sobre-mesa.html",
    "publicat": "2026-11-14T08:43:32.000Z"
+  },
+  {
+   "id": "68ff0486c1bd",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La sortida de Huang obre un període d’incertesa per a Nvidia, la IA i les relacions entre els EUA i la Xina",
+   "url": "https://www.elperiodico.cat/internacional/20261114/jensen-huang-dimissio-nvidia-consequencies-estats-units-xina-136433118",
+   "publicat": "2026-11-14T08:00:36.000Z"
   },
   {
    "id": "0b0a4d2ced0a",
@@ -2736,28 +2758,6 @@
    "titol": "Maria Salamero: «La IA no sustituirá a la ingeniería, sino que potenciará aún más la buena ingeniería»",
    "url": "https://www.elperiodico.com/es/sociedad/20261110/maria-salamero-ia-sustituira-ingenieria-bc-135997057",
    "publicat": "2026-11-10T00:59:06.000Z"
-  },
-  {
-   "id": "7cafee615ac6",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Condenan a un menor por desnudar con IA a catorce compañeras y difundirlo por redes sociales",
-   "url": "https://www.lasprovincias.es/sucesos/condenan-menor-desnudar-ia-catorce-companeras-difundirlo-20261109011454-nt.html",
-   "publicat": "2026-11-10T00:14:54.000Z"
-  },
-  {
-   "id": "8b167522416f",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "“Los estudiantes ya usan la IA hasta para buscarse excusas”",
-   "url": "https://www.lavanguardia.com/lacontra/20261110/11680248/cesar-bona-estudiantes-ia-buscarse-excusas.html",
-   "publicat": "2026-11-09T23:05:00.000Z"
   }
  ]
 }
