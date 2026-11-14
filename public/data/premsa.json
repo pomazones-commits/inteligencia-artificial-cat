@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-14T05:13:21.457Z",
+ "actualitzat": "2026-11-14T09:14:45.328Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e319b0ba50f8",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La salida de Huang abre un periodo de incertidumbre en Nvidia, la IA y las relaciones EEUU-China",
+   "url": "https://www.elperiodico.com/es/internacional/20261114/jensen-huang-dimision-nvidia-consecuencias-estados-unidos-china-136433118",
+   "publicat": "2026-11-14T09:00:36.000Z"
+  },
+  {
+   "id": "a67ee47520ba",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Quina és la millor IA? Comparativa entre ChatGPT, Gemini, Grok i Claude",
+   "url": "https://www.elnacional.cat/ca/tecnologia/quina-es-millor-ia-comparativa-entre-chatgpt-gemini-grok-claude_1724192_102.html",
+   "publicat": "2026-11-14T09:00:00.000Z"
+  },
+  {
+   "id": "1c73d75b15f7",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Trump y Xi llegarán a la APEC con tregua comercial vigente y el caso Nvidia sobre la mesa",
+   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/14/2749729/trump-llegaran-apec-tregua-comercial-vigente-caso-nvidia-sobre-mesa.html",
+   "publicat": "2026-11-14T08:43:32.000Z"
+  },
+  {
+   "id": "0b0a4d2ced0a",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La atención primaria de Catalunya incorpora IA para detectar la retinopatía diabética",
+   "url": "https://www.elperiodico.com/es/sociedad/20261114/atencion-primaria-catalunya-incorpora-ia-retinopatia-diabetica-136431981",
+   "publicat": "2026-11-14T07:50:30.000Z"
+  },
+  {
+   "id": "68206a9ddb16",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Cobrar per passejar gossos robot i altres maneres d'entrenar la IA al món físic",
+   "url": "https://www.3cat.cat/3catinfo/cobrar-per-passejar-gossos-robot-i-altres-maneres-dentrenar-la-ia-al-mon-fisic/noticia/3439154",
+   "publicat": "2026-11-14T06:48:09.000Z"
+  },
+  {
+   "id": "fd41fad17210",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La empresa que utiliza inteligencia artificial para hacer más transparentes y accesibles las licitaciones públicas",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261114/11680622/empresa-utiliza-inteligencia-artificial-mas-transparentes-accesibles-licitaciones-publicas.html",
+   "publicat": "2026-11-14T05:48:49.000Z"
+  },
+  {
+   "id": "1ed9c21a3b41",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La cara oculta de la intel·ligència artificial",
+   "url": "https://www.regio7.cat/societat/2026/11/13/cara-oculta-intelligencia-artificial-136421360.html",
+   "publicat": "2026-11-14T05:25:44.000Z"
+  },
   {
    "id": "75ea9d3bd817",
    "mitja": "Diario de Mallorca",
@@ -111,7 +188,9 @@
    "ambit": "catala",
    "titol": "Un juez abronca por tercera vez a un mismo abogado de Tarragona por abusar de la IA: \"Es mala fe\"",
    "url": "https://www.diaridetarragona.com/tarragona/275367/tercera-bronca-juez-abogado-tarragona-abusar-ia-mala-fe-procesal.html",
-   "publicat": "2026-11-14T04:00:00.000Z"
+   "publicat": "2026-11-14T04:00:00.000Z",
+   "noticia": "tsjc-advocat-tarragona-recursos-ia-mala-fe",
+   "noticiaTitol": "El TSJC rebutja per tercera vegada els recursos d'un advocat de Tarragona, inflats amb IA, i diu que la seva actuació frega la mala fe"
   },
   {
    "id": "84b5440eeec3",
@@ -2679,83 +2758,6 @@
    "titol": "“Los estudiantes ya usan la IA hasta para buscarse excusas”",
    "url": "https://www.lavanguardia.com/lacontra/20261110/11680248/cesar-bona-estudiantes-ia-buscarse-excusas.html",
    "publicat": "2026-11-09T23:05:00.000Z"
-  },
-  {
-   "id": "8578580503f0",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic lanza nuevas versiones de sus modelos más potentes Mythos y Fable en su camino hacia la salida a Bolsa",
-   "url": "https://cincodias.elpais.com/companias/2026-11-09/anthropic-lanza-nuevas-versiones-de-sus-modelos-mas-potentes-mythos-y-fable-en-su-camino-hacia-la-salida-a-bolsa.html",
-   "publicat": "2026-11-09T22:59:12.000Z"
-  },
-  {
-   "id": "ceed564bd779",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L’afer extramatrimonial fa saltar les alarmes en el món de la IA",
-   "url": "https://www.elperiodico.cat/internacional/20261110/l-afer-extramatrimonial-fa-saltar-136268143",
-   "publicat": "2026-11-09T22:22:44.000Z"
-  },
-  {
-   "id": "de36f73d78df",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia cau en Borsa per la relació del seu CEO amb una presumpta espia xinesa",
-   "url": "https://www.elperiodico.cat/internacional/20261110/nvidia-cau-borsa-per-relacio-136268141",
-   "publicat": "2026-11-09T22:22:44.000Z"
-  },
-  {
-   "id": "cfbb08e40085",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "«La IA sustituirá algunos trabajos y abrirá oportunidades para desarrollar nuevas capacidades y profesiones»",
-   "url": "https://www.informacion.es/economia/2026/11/09/ia-sustituira-trabajos-abrira-oportunidades-bc-136253435.html",
-   "publicat": "2026-11-09T21:30:24.000Z"
-  },
-  {
-   "id": "f828734ccaa6",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "De ídolo de masas a reconocer su ‘affair’ con una presunta espía china: auge y caída del CEO de Nvidia",
-   "url": "https://www.diariodemallorca.es/internacional/2026/11/09/escandalo-nvidia-idolo-masas-reconocer-affair-presunta-espia-china-136265668.html",
-   "publicat": "2026-11-09T20:11:54.000Z"
-  },
-  {
-   "id": "232cb153b0fb",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Elena Lucas, orientadora laboral: “En un currículum evita poner columnas, celdas y gráficos porque la IA no lo va a poder leer y eso te va a penalizar”",
-   "url": "https://www.lavanguardia.com/clic/20261109/11679977/elena-lucas-orientadora-laboral-curriculum-evita-poner-columnas-celdas-graficos-ia-leer-te-penalizar-gvm2.html",
-   "publicat": "2026-11-09T19:00:00.000Z"
-  },
-  {
-   "id": "bdd426a411bc",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Diego Córdoba, uno de los científicos que inspiró a Open AI para resolver el 'problema del milenio', en Elche: \"La solución a la falta de matemáticos es pagar más a los profesores\"",
-   "url": "https://www.informacion.es/elche/2026/11/09/matematicos-cientificos-open-ai-chat-gpt-diego-cordoba-136258488.html",
-   "publicat": "2026-11-09T18:07:19.000Z"
   }
  ]
 }
