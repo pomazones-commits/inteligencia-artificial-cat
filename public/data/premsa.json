@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-14T18:31:55.116Z",
+ "actualitzat": "2026-11-14T22:46:39.190Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d077dfd0f8c0",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Del debate a la práctica: así forma el CEU a los profesionales que convivirán con la inteligencia artificial",
+   "url": "https://www.informacion.es/economia/2026/11/14/debate-practica-forma-ceu-profesionales-bc-136384924.html",
+   "publicat": "2026-11-14T21:30:46.000Z"
+  },
+  {
+   "id": "4a6132004a67",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las ‘midterms’ y el escándalo Nvidia desvelan la lucha sin cuartel de EEUU y China por la disputa del trono de la IA",
+   "url": "https://www.eldiario.es/economia/midterms-escandalo-nvidia-desvelan-lucha-cuartel-eeuu-china-disputa-trono-ia_129_13661296.html",
+   "publicat": "2026-11-14T20:41:50.000Z"
+  },
   {
    "id": "830ce420b8f1",
    "mitja": "Alicante Plaza",
@@ -2736,28 +2758,6 @@
    "titol": "El motor que ningú pot apagar: per què Silicon Valley lluita per la IA xinesa",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/motor-ningu-pot-apagar-silicon-valley-lluita-ia-xinesa_1722365_102.html",
    "publicat": "2026-11-10T04:30:00.000Z"
-  },
-  {
-   "id": "308f07ee25ff",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los analistas advierten del riesgo para Nvidia por el ‘caso Huang’: “Él es la compañía, mueve personalmente los hilos”",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-10/los-analistas-advierten-del-riesgo-para-nvidia-por-el-caso-huang-el-es-la-compania-mueve-personalmente-los-hilos.html",
-   "publicat": "2026-11-10T04:25:00.000Z"
-  },
-  {
-   "id": "b1516865ef1a",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic lanza Claude Fable 5.2 cinco meses después de pedir una \"pausa en la frontera de la IA\"",
-   "url": "https://www.elmundo.es/tecnologia/creadores/2026/11/10/6af26c6afc6c834a288b4595.html",
-   "publicat": "2026-11-10T01:01:12.000Z"
   }
  ]
 }
