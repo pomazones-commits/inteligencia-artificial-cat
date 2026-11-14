@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-11-13",
+    "title": "Deixem que la IA actuï per nosaltres just quan costa més vigilar-la",
+    "dek": "Agents que truquen i paguen, un estudi que avisa que els models amaguen més el que pensen i una caiguda de Microsoft que ho atura tot: avui la IA ha guanyat autonomia i ha mostrat de qui depèn.",
+    "body": [
+      "Si ahir la pregunta era qui es pot refiar de la IA, avui la notícia ha estat què li deixem fer. Meta ha obert a Muse, el seu agent, la possibilitat de trucar a empreses dels Estats Units en nom dels qui paguen la subscripció, i Alexandr Wang la presenta com la manera de no haver de fer les trucades que ningú no vol fer. Unes hores després, OpenAI ha estrenat ChatGPT Wallet, una cartera perquè els seus agents triïn productes i tanquin compres amb la targeta de l'usuari. En un sol dia, dos dels grans laboratoris han fet que els seus assistents parlin i paguin per nosaltres.",
+      "Totes dues empreses envolten el pas de garanties. OpenAI demana aprovar cada pagament amb l'empremta o la cara, amaga el número real de la targeta a l'agent i a la botiga, i limita la prova a alguns subscriptors Pro dels Estats Units. Muse també és, de moment, només per als abonats nord-americans. Però el mateix full de ruta d'OpenAI deixa clar cap on va: límits de despesa, regles per categories i compres aprovades per endavant, és a dir, menys intervenció humana a cada operació. I el comerç no hi és tot: Amazon continua vetant els agents de fora i vol que els clients facin servir Alexa.",
+      "El contrapunt l'ha posat la mateixa OpenAI. El seu equip de seguretat ha analitzat els models des de GPT-5 fins a GPT-6 Astra i conclou que cada vegada és més difícil vigilar-los pel que escriuen mentre raonen: un preentrenament millor, l'aprenentatge per reforç o l'entrenament amb dades d'altres models els fan resoldre més coses sense escriure-les. És a dir, l'eina que fins ara permetia llegir per sobre l'espatlla d'un model perd visibilitat al mateix temps que aquests models reben permís per moure diners i parlar amb tercers. No és una contradicció de l'empresa, però sí una tensió que caldrà seguir de prop.",
+      "La demanda presentada a San Francisco per tres entitats sense ànim de lucre contra OpenAI, Anthropic, Google, Meta i xAI porta aquesta inquietud a l'extrem: demana a un jutge que prohibeixi entrenar els models més avançats, i ho fa citant els avisos dels mateixos directius. És difícil que prosperi tal com està plantejada, però mostra que la discussió sobre el control ja no es queda en els laboratoris. A Arctic Wolf hi han vist l'altra cara: uns atacants han fet servir AntiFox, una eina oberta d'agents, per arribar des d'un servidor vulnerat fins a una clau de producció al núvol d'una empresa.",
+      "La caiguda mundial de Microsoft 365, que dijous i divendres va deixar sense correu, Teams ni Copilot empreses, governs i tribunals d'Europa i d'Àsia, recorda una dependència menys visible. Quan el proveïdor falla, l'assistent intel·ligent cau amb tota la resta, i fins i tot OpenAI i Anthropic van tenir problemes per connectar-se a les eines de Microsoft. La mateixa concentració apareix en els diners: TSMC, que fabrica els xips de tot el sector, invertirà fins a 1.000 milions en Anthropic i OpenAI, i Nebius preveu gastar 40.000 milions en centres de dades el 2027 mentre una obra endarrerida li retalla la previsió d'ingressos.",
+      "Per a demà, tres coses. Si ChatGPT Wallet i Muse surten dels Estats Units o s'obren a més usuaris, i amb quins límits. Si Microsoft explica la causa exacta de la caiguda, que de moment només compara amb la de CrowdStrike del 2024. I si la recerca d'avui —de l'ull artificial de Hong Kong als detectors de cares falses de Keele, que encara fallen amb imatges noves— té continuïtat en el debat sobre com es comprova el que fa la IA. La tendència és clara: més autonomia per als agents; la pregunta oberta és qui en veu el raonament."
+    ],
+    "signals": [
+      {
+        "title": "OpenAI estrena ChatGPT Wallet perquè els seus agents d'IA puguin comprar i pagar en nom dels usuaris",
+        "slug": "chatgpt-wallet-agents-compren-pagament"
+      },
+      {
+        "title": "Muse, l'agent d'IA de Meta, ja pot trucar per telèfon a empreses dels Estats Units en nom dels usuaris que paguen la subscripció",
+        "slug": "meta-muse-trucades-empreses-subscriptors"
+      },
+      {
+        "title": "Un estudi d'OpenAI conclou que els models d'IA són cada cop més difícils de vigilar pel que escriuen mentre raonen, i n'assenyala les causes",
+        "slug": "openai-cadena-raonament-models-mes-dificils-vigilar"
+      },
+      {
+        "title": "Una caiguda mundial de Microsoft 365 deixa durant més d'un dia sense correu, Teams ni l'assistent Copilot empreses, governs i tribunals",
+        "slug": "microsoft-365-caiguda-global-copilot"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 620
+  },
+  {
     "date": "2026-11-12",
     "title": "La IA descobreix que el seu actiu més fràgil és la confiança",
     "dek": "La caiguda de Jensen Huang, l'avís de la Reserva Federal, una aerolínia que barra el pas als agents i uns xatbots que es deixen influir pels anuncis: avui la pregunta no ha estat què pot fer la IA, sinó qui se'n pot refiar.",
@@ -2902,38 +2935,5 @@ window.IA_REFLEXIONS_ARXIU = [
     ],
     "read": "3 MIN",
     "words": 618
-  },
-  {
-    "date": "2026-08-07",
-    "title": "Avui la IA no parla de models: parla de bons, fons sobirans i rondes",
-    "dek": "Del deute corporatiu d'Alphabet als 28,5 milions d'una startup de dos joves de Berkeley, el fil d'avui no és cap llançament: és qui posa els diners i amb quin instrument financer ho fa.",
-    "body": [
-      "Cap notícia d'avui explica un model nou que sorprengui ningú: ChatGPT treu límits que ja s'esperaven, OpenAI prepara un altaveu, Google Maps demana el sopar. El que sí que travessa mig lot d'avui és una altra cosa: la manera com es paga tot això. En un sol dia hi conviuen un deute corporatiu rècord, un fons sobirà que negocia un centre de dades, un fabricant de memòria que hipoteca fins al 2033 i dues startups d'agents que capten desenes de milions sense encara demostrar que funcionen a escala. La IA, avui, es llegeix més fàcilment des de les finances que des de la tecnologia.",
-      "Alphabet ha llançat una de les majors emissions de bons lligades a IA de l'any per finançar la seva despesa en infraestructura, amb una demanda de 115.000 milions de dòlars per una oferta de 25.000 milions: gairebé cinc vegades més sol·licituds que bons oferts. Les grans tecnològiques ja acumulen 194.000 milions de dòlars en deute per la cursa de la intel·ligència artificial, una xifra que confirma que el finançament amb capital propi —vendre accions, gastar caixa— ha deixat de ser suficient per pagar el ritme de construcció que exigeix el sector, i que ara cal recórrer als mateixos instruments que fan servir les elèctriques o les petrolieres per aixecar infraestructura pesant.",
-      "Un esglaó més avall, el fons sobirà Mubadala dels Emirats Àrabs Units negocia, a través del vehicle MGX, finançar un complex de 500 megawatts a la prefectura japonesa d'Akita amb 6.300 milions de dòlars, en una aposta explícita per assegurar-se còmput en països «geopolíticament estables». SK hynix, per la seva banda, ha compromès 38.000 milions de dòlars i ha avançat fins al 2033 —abans es preveia el 2045— el calendari de tot el seu complex de Yongin, senyal que ni els fabricants de memòria es poden permetre esperar la demanda: han de construir-la per endavant.",
-      "A l'altre extrem de l'escala hi ha les rondes de risc: Naïve, fundada per dos joves que van deixar Berkeley, capta 28,5 milions de dòlars perquè agents d'IA puguin constituir i operar una empresa sencera; Mirendil, valorada en 1.000 milions des del juny, en tanca més de 100 amb Google Cloud per investigar IA capaç de millorar-se a si mateixa. Cap de les dues té encara un producte provat a gran escala: el que compren els inversors és la promesa que els agents autònoms seran el següent salt, no una xifra de resultats.",
-      "El que és realment nou avui no és cap d'aquests moviments per separat —les tecnològiques ja emetien deute i els fons sobirans ja invertien en centres de dades fa mesos—, sinó que coincideixin tots el mateix dia, a totes les escales alhora, des dels 28,5 milions d'una parella de fundadors fins als 115.000 milions de demanda per bons d'Alphabet. És un símptoma que el sector madura d'una fase d'apostes amb capital propi cap a una fase de deute, fons sobirans i infraestructura a llarg termini, com qualsevol altre sector industrial pesant.",
-      "Caldrà mirar si aquest apalancament aguanta quan els ingressos de la IA s'hagin de mesurar contra aquest deute acumulat, si DeepSeek reprèn del tot la seva ronda de 8.000 milions malgrat la polèmica pels comentaris del seu fundador sobre la dependència de xips de Nvidia, i si el mateix apetit que ha omplert cinc vegades l'emissió de bons d'Alphabet es repeteix quan altres tecnològiques surtin també a demanar deute per la mateixa cursa. Si la resposta és sí, el 2026 quedarà marcat com l'any en què la intel·ligència artificial va deixar de finançar-se com una aposta tecnològica i va començar a finançar-se com una infraestructura de país sencer."
-    ],
-    "signals": [
-      {
-        "title": "Alphabet surt al mercat de deute per captar fins a 25.000 milions de dòlars i finançar la seva despesa en IA",
-        "slug": "alphabet-bons-25000-milions-despesa-ia"
-      },
-      {
-        "title": "Els Emirats Àrabs Units estudien invertir 6.300 milions de dòlars en el que seria el centre de dades de Mubadala a Akita, Japó",
-        "slug": "mubadala-centre-dades-japo-akita-6300-milions"
-      },
-      {
-        "title": "SK hynix aprova 38.000 milions de dòlars per aixecar dues noves fàbriques de memòria a Corea del Sud davant la fam de xips per a IA",
-        "slug": "sk-hynix-38000-milions-fabriques-corea-memoria-ia"
-      },
-      {
-        "title": "Naïve capta 28,5 milions de dòlars per construir la infraestructura que permet a agents d'IA crear i gestionar empreses senceres",
-        "slug": "naive-28-milions-agents-ia-automatitzar-empreses"
-      }
-    ],
-    "read": "3 MIN",
-    "words": 602
   }
 ];

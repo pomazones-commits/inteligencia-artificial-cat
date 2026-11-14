@@ -1,0 +1,33 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-11-13",
+  "title": "Deixem que la IA actuï per nosaltres just quan costa més vigilar-la",
+  "dek": "Agents que truquen i paguen, un estudi que avisa que els models amaguen més el que pensen i una caiguda de Microsoft que ho atura tot: avui la IA ha guanyat autonomia i ha mostrat de qui depèn.",
+  "body": [
+    "Si ahir la pregunta era qui es pot refiar de la IA, avui la notícia ha estat què li deixem fer. Meta ha obert a Muse, el seu agent, la possibilitat de trucar a empreses dels Estats Units en nom dels qui paguen la subscripció, i Alexandr Wang la presenta com la manera de no haver de fer les trucades que ningú no vol fer. Unes hores després, OpenAI ha estrenat ChatGPT Wallet, una cartera perquè els seus agents triïn productes i tanquin compres amb la targeta de l'usuari. En un sol dia, dos dels grans laboratoris han fet que els seus assistents parlin i paguin per nosaltres.",
+    "Totes dues empreses envolten el pas de garanties. OpenAI demana aprovar cada pagament amb l'empremta o la cara, amaga el número real de la targeta a l'agent i a la botiga, i limita la prova a alguns subscriptors Pro dels Estats Units. Muse també és, de moment, només per als abonats nord-americans. Però el mateix full de ruta d'OpenAI deixa clar cap on va: límits de despesa, regles per categories i compres aprovades per endavant, és a dir, menys intervenció humana a cada operació. I el comerç no hi és tot: Amazon continua vetant els agents de fora i vol que els clients facin servir Alexa.",
+    "El contrapunt l'ha posat la mateixa OpenAI. El seu equip de seguretat ha analitzat els models des de GPT-5 fins a GPT-6 Astra i conclou que cada vegada és més difícil vigilar-los pel que escriuen mentre raonen: un preentrenament millor, l'aprenentatge per reforç o l'entrenament amb dades d'altres models els fan resoldre més coses sense escriure-les. És a dir, l'eina que fins ara permetia llegir per sobre l'espatlla d'un model perd visibilitat al mateix temps que aquests models reben permís per moure diners i parlar amb tercers. No és una contradicció de l'empresa, però sí una tensió que caldrà seguir de prop.",
+    "La demanda presentada a San Francisco per tres entitats sense ànim de lucre contra OpenAI, Anthropic, Google, Meta i xAI porta aquesta inquietud a l'extrem: demana a un jutge que prohibeixi entrenar els models més avançats, i ho fa citant els avisos dels mateixos directius. És difícil que prosperi tal com està plantejada, però mostra que la discussió sobre el control ja no es queda en els laboratoris. A Arctic Wolf hi han vist l'altra cara: uns atacants han fet servir AntiFox, una eina oberta d'agents, per arribar des d'un servidor vulnerat fins a una clau de producció al núvol d'una empresa.",
+    "La caiguda mundial de Microsoft 365, que dijous i divendres va deixar sense correu, Teams ni Copilot empreses, governs i tribunals d'Europa i d'Àsia, recorda una dependència menys visible. Quan el proveïdor falla, l'assistent intel·ligent cau amb tota la resta, i fins i tot OpenAI i Anthropic van tenir problemes per connectar-se a les eines de Microsoft. La mateixa concentració apareix en els diners: TSMC, que fabrica els xips de tot el sector, invertirà fins a 1.000 milions en Anthropic i OpenAI, i Nebius preveu gastar 40.000 milions en centres de dades el 2027 mentre una obra endarrerida li retalla la previsió d'ingressos.",
+    "Per a demà, tres coses. Si ChatGPT Wallet i Muse surten dels Estats Units o s'obren a més usuaris, i amb quins límits. Si Microsoft explica la causa exacta de la caiguda, que de moment només compara amb la de CrowdStrike del 2024. I si la recerca d'avui —de l'ull artificial de Hong Kong als detectors de cares falses de Keele, que encara fallen amb imatges noves— té continuïtat en el debat sobre com es comprova el que fa la IA. La tendència és clara: més autonomia per als agents; la pregunta oberta és qui en veu el raonament."
+  ],
+  "signals": [
+    {
+      "title": "OpenAI estrena ChatGPT Wallet perquè els seus agents d'IA puguin comprar i pagar en nom dels usuaris",
+      "slug": "chatgpt-wallet-agents-compren-pagament"
+    },
+    {
+      "title": "Muse, l'agent d'IA de Meta, ja pot trucar per telèfon a empreses dels Estats Units en nom dels usuaris que paguen la subscripció",
+      "slug": "meta-muse-trucades-empreses-subscriptors"
+    },
+    {
+      "title": "Un estudi d'OpenAI conclou que els models d'IA són cada cop més difícils de vigilar pel que escriuen mentre raonen, i n'assenyala les causes",
+      "slug": "openai-cadena-raonament-models-mes-dificils-vigilar"
+    },
+    {
+      "title": "Una caiguda mundial de Microsoft 365 deixa durant més d'un dia sense correu, Teams ni l'assistent Copilot empreses, governs i tribunals",
+      "slug": "microsoft-365-caiguda-global-copilot"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 620
+};
