@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-14T13:16:07.075Z",
+ "actualitzat": "2026-11-14T18:31:55.116Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "830ce420b8f1",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cultura | El MACA acoge el lunes el Laboratorio 'Los museos y la igualdad: retos de la inteligencia artificial",
+   "url": "https://alicanteplaza.es/alicanteplaza/cultura/el-maca-acoge-el-lunes-el-laboratorio-los-museos-y-la-igualdad-retos-de-la-inteligencia-artificial",
+   "publicat": "2026-11-14T17:51:02.000Z"
+  },
   {
    "id": "fd4280595906",
    "mitja": "elDiario.es",
@@ -2747,17 +2758,6 @@
    "titol": "Anthropic lanza Claude Fable 5.2 cinco meses después de pedir una \"pausa en la frontera de la IA\"",
    "url": "https://www.elmundo.es/tecnologia/creadores/2026/11/10/6af26c6afc6c834a288b4595.html",
    "publicat": "2026-11-10T01:01:12.000Z"
-  },
-  {
-   "id": "2198116c3e54",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Maria Salamero: «La IA no sustituirá a la ingeniería, sino que potenciará aún más la buena ingeniería»",
-   "url": "https://www.elperiodico.com/es/sociedad/20261110/maria-salamero-ia-sustituira-ingenieria-bc-135997057",
-   "publicat": "2026-11-10T00:59:06.000Z"
   }
  ]
 }
