@@ -1,8 +1,173 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-14T22:46:39.190Z",
+ "actualitzat": "2026-11-15T05:13:52.471Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "bf4d86ce158b",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "IA para erradicar la fatiga y los riesgos en la fábrica",
+   "url": "https://www.levante-emv.com/economia/2026/11/15/ia-erradicar-fatiga-riesgos-fabrica-reduccion-riesgos-laborales-136422223.html",
+   "publicat": "2026-11-15T05:00:44.000Z"
+  },
+  {
+   "id": "a01ab58af81f",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Dario y Daniela Amodei, en sus manos estamos",
+   "url": "https://www.elperiodico.com/es/economia/20261115/dario-daniela-amodei-manos-136456651",
+   "publicat": "2026-11-15T05:00:36.000Z"
+  },
+  {
+   "id": "ec7f57c171ae",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nacho Vegas: \"No creo que el arte tenga que darnos la razón; para eso ya tenemos a la IA, que, además, lo hace bastante peor\"",
+   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261115/nacho-vegas-creo-arte-tenga-entrevista-cartagena-jazz-136456571",
+   "publicat": "2026-11-15T05:00:31.000Z"
+  },
+  {
+   "id": "fbaeb84c7447",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿El fin de la burbuja? Así están las cifras de las grandes empresas de la IA",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261115/burbuja-ia-cifras-grandes-empresas-nvidia-openai-anthropic-bolsa-136356616",
+   "publicat": "2026-11-15T05:00:31.000Z"
+  },
+  {
+   "id": "5e6c66b47529",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Lilian Pintea, biólogo del Instituto Jane Goodall: “Los satélites y la IA nos ayudan a salvar a los chimpancés africanos”",
+   "url": "https://www.lavanguardia.com/natural/20261115/11680697/lilian-pintea-biologo-instituto-jane-goodall-satelites-ia-ayudan-salvar-chimpances-africanos.html",
+   "publicat": "2026-11-15T05:00:00.000Z"
+  },
+  {
+   "id": "66f96b59f653",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA tiende gastar sin freno",
+   "url": "https://www.lavanguardia.com/vida/20261115/11678683/ia-tiende-gastar-freno.html",
+   "publicat": "2026-11-15T05:00:00.000Z"
+  },
+  {
+   "id": "6964433f28b0",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El ‘Jexit’ hace temblar a la IA",
+   "url": "https://www.lavanguardia.com/economia/20261115/11684389/jexit-temblar-ia.html",
+   "publicat": "2026-11-15T05:00:00.000Z"
+  },
+  {
+   "id": "9543e568c76e",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "“Os deseo sufrimiento”: gloria y caída de Jensen Huang, rey de Nvidia, verso salvaje de la IA",
+   "url": "https://elpais.com/economia/2026-11-15/os-deseo-sufrimiento-gloria-y-caida-de-jensen-huang-rey-de-nvidia-verso-salvaje-de-la-ia.html",
+   "publicat": "2026-11-15T04:45:01.000Z"
+  },
+  {
+   "id": "88577752d869",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia tiró de la salida a Bolsa de Anthropic con una inyección de 10.000 millones en la última operación de Huang",
+   "url": "https://elpais.com/economia/2026-11-15/nvidia-tiro-de-la-salida-a-bolsa-de-anthropic-con-una-inyeccion-de-10000-millones-en-la-ultima-operacion-de-huang.html",
+   "publicat": "2026-11-15T04:45:00.000Z"
+  },
+  {
+   "id": "6eee2f187c14",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Terratrèmol a la IA: Jensen Huang plega",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/terratremol-ia-jensen-huang-plega_1725194_102.html",
+   "publicat": "2026-11-15T04:30:00.000Z"
+  },
+  {
+   "id": "7ec61b63fbb3",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "De la generació Z als 'boomers': el paper de les xarxes a l'hora de votar en temps de la IA",
+   "url": "https://www.elnacional.cat/ca/politica/generacio-boomers-paper-xarxes-hora-votar-en-temps-ia_1725302_102.html",
+   "publicat": "2026-11-15T04:30:00.000Z"
+  },
+  {
+   "id": "b30b3378545b",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Rocío Alcocer: \"La IA no s'ha d'utilitzar per a tot\"",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/rocio-alcocer-ia-no-utilitzar-tot_1716505_102.html",
+   "publicat": "2026-11-15T04:30:00.000Z"
+  },
+  {
+   "id": "c8fe7270a002",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA escriu un conte",
+   "url": "https://www.segre.com/ca/opinio/he-mirat-aquesta-terra/261115/ia-escriu-conte_1398532.html",
+   "publicat": "2026-11-15T04:24:14.000Z"
+  },
+  {
+   "id": "58edc36f370d",
+   "mitja": "El Punt Avui",
+   "font": "elpuntavui-societat",
+   "icona": "/assets/premsa/el-punt-avui.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia després de Huang",
+   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2690575-nvidia-despres-de-huang.html",
+   "publicat": "2026-11-15T01:00:00.000Z"
+  },
+  {
+   "id": "542cc76b54ae",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Washington i Pequín noten el cop de la crisi de Nvidia",
+   "url": "https://www.elperiodico.cat/internacional/20261115/washington-pequin-noten-cop-crisi-136451437",
+   "publicat": "2026-11-14T22:37:36.000Z"
+  },
   {
    "id": "d077dfd0f8c0",
    "mitja": "Información",
@@ -2593,171 +2758,6 @@
    "titol": "La Fundación Jiménez Díaz apuesta por la prevención, datos e IA para generar más valor para el paciente y mejorar su atención",
    "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/11/10/2747091/fundacion-jimenez-diaz-apuesta-por-prevencion-datos-para-generar-mas-valor-para-paciente-mejorar-atencion.html",
    "publicat": "2026-11-10T10:47:00.000Z"
-  },
-  {
-   "id": "29bde11fa3f5",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Docenteo cuestiona el modelo empresarial que relega a los juniors a tareas que hoy puede hacer la IA",
-   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/11/10/2747095/docenteo-cuestiona-modelo-empresarial-relega-juniors-tareas-hoy-puede-hacer-ia.html",
-   "publicat": "2026-11-10T10:43:00.000Z"
-  },
-  {
-   "id": "72f7056832e1",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un hombre destripa a su sobrino de 5 años para vender sus órganos, al dictado de la IA",
-   "url": "https://www.lavanguardia.com/vida/20261110/11680514/hombre-destripa-sobrino-5-anos-vender-organos-dictado-ia.html",
-   "publicat": "2026-11-10T10:30:08.000Z"
-  },
-  {
-   "id": "2610c655c76c",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Instagram Edits presenta Effect Builder, su nueva función para generar filtros personalizados para historias con IA",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/10/2746809/instagram-edits-presenta-effect-builder-nueva-funcion-para-generar-filtros-personalizados-para-historias-ia.html",
-   "publicat": "2026-11-10T09:57:00.000Z"
-  },
-  {
-   "id": "61dc540fa207",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Angels, la sociedad de inversión de Juan Roig, lidera una ronda de Ploot, especializada en IA comercial",
-   "url": "https://cincodias.elpais.com/companias/2026-11-10/angels-la-sociedad-de-inversion-de-juan-roig-lidera-una-ronda-de-ploot-especializada-en-ia-comercial.html",
-   "publicat": "2026-11-10T09:51:40.000Z"
-  },
-  {
-   "id": "3c144c53935c",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "China logra ya un superávit comercial de un billón con la IA como protagonista",
-   "url": "https://www.lavanguardia.com/economia/20261110/11680609/china-logra-superavit-comercial-billon-ia-protagonista.html",
-   "publicat": "2026-11-10T09:40:11.000Z"
-  },
-  {
-   "id": "c243fa559e50",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Les vendes de TSMC van créixer un 60% a l'octubre per la forta demanda de xips d'IA",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/vendes-tsmc-van-creixer-60-octubre-forta-demanda-xips-ia_1723184_102.html",
-   "publicat": "2026-11-10T09:25:11.000Z"
-  },
-  {
-   "id": "d6fe9d567383",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic siembra dudas: anuncia que busca 70.000 millones con su salida a Bolsa, pero después se arrepiente",
-   "url": "https://cincodias.elpais.com/companias/2026-11-10/anthropic-siembra-dudas-anuncia-que-busca-70000-millones-con-su-salida-a-bolsa-pero-despues-se-arrepiente.html",
-   "publicat": "2026-11-10T08:44:21.000Z"
-  },
-  {
-   "id": "936f4b2695fd",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "China presenta los primeros robots humanoides que dan las noticias: la IA ya tiene cuerpo en el periodismo",
-   "url": "https://www.informacion.es/tendencias21/2026/11/10/china-presenta-primeros-robots-humanoides-136273929.html",
-   "publicat": "2026-11-10T08:40:28.000Z"
-  },
-  {
-   "id": "cb04dbc84a59",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Trump defiende al director de Nvidia en caso de una presunta espía china y promete indagar",
-   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/10/2746701/trump-defiende-director-nvidia-caso-presunta-espia-china-promete-indagar.html",
-   "publicat": "2026-11-10T08:10:00.000Z"
-  },
-  {
-   "id": "2a3316b6419d",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Trump defensa el director de Nvidia per la presumpta espia xinesa i promet indagar",
-   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/trump-defensa-director-nvidia-presumpta-espia-xinesa-promet-indagar_1723109_102.html",
-   "publicat": "2026-11-10T07:22:00.000Z"
-  },
-  {
-   "id": "26df388ea0a1",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Mustafa Suleyman, CEO de Microsoft IA: “Desarrollar IA con conciencia sería una imprudencia, y no deberíamos crearlas”",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261110/11680007/mustafa-suleyman-suleyman-ceo-microsoft-ia-microsoft-ia-microsoft-ia-inteligancia-artificial-conciencia.html",
-   "publicat": "2026-11-10T06:35:00.000Z"
-  },
-  {
-   "id": "7461afa1bbbc",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Crisis de gobernanza para uno de los líderes de la IA",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-10/crisis-de-gobernanza-para-uno-de-los-lideres-de-la-ia.html",
-   "publicat": "2026-11-10T04:40:00.000Z"
-  },
-  {
-   "id": "74d2a3e38b7e",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La crisis de Nvidia puede perjudicar a China más de lo que la beneficia",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-10/la-crisis-de-nvidia-puede-perjudicar-a-china-mas-de-lo-que-la-beneficia.html",
-   "publicat": "2026-11-10T04:40:00.000Z"
-  },
-  {
-   "id": "3e14e0ea6ce3",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Así logró China engañar al empresario más poderoso de la IA con una operación de seducción",
-   "url": "https://elpais.com/tecnologia/2026-11-10/asi-logro-china-enganar-al-empresario-mas-poderoso-de-la-ia-con-una-operacion-de-seduccion.html",
-   "publicat": "2026-11-10T04:30:01.000Z"
-  },
-  {
-   "id": "c9bddf0237d0",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El motor que ningú pot apagar: per què Silicon Valley lluita per la IA xinesa",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/motor-ningu-pot-apagar-silicon-valley-lluita-ia-xinesa_1722365_102.html",
-   "publicat": "2026-11-10T04:30:00.000Z"
   }
  ]
 }
