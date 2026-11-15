@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-15T13:14:38.955Z",
+ "actualitzat": "2026-11-15T17:17:18.898Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "fed37f9ea257",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "No hi ha IA que valgui: una tasca que exigeix paciència i sentit de l’humor",
+   "url": "https://diumenge.ara.cat/diumenge/no-hi-ia-valgui-tasca-exigeix-paciencia-sentit-l-humor_129_5907916.html",
+   "publicat": "2026-11-15T16:00:44.000Z"
+  },
+  {
+   "id": "0dd54e58c532",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Científicos de Europa y EE.UU. analizan en Madrid el uso de la IA para detectar tumores, diseñar fármacos y crear gemelos digitales",
+   "url": "https://www.lavanguardia.com/local/madrid/20261115/11684839/cientificos-europa-eeuu-analizan-madrid-ia-detectar-tumores-disenar-farmacos-crear-gemelos-digitales-servimedia20261115.html",
+   "publicat": "2026-11-15T15:58:24.000Z"
+  },
+  {
+   "id": "089feee4e33a",
+   "mitja": "Nació Digital",
+   "font": "naciodigital-totes",
+   "icona": "/assets/premsa/nacio-digital.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El gran examen de Softcatalà per trobar la millor IA en català",
+   "url": "https://naciodigital.cat/societat/el-gran-examen-de-sofcatala-per-trobar-la-millor-ia-en-catala.html",
+   "publicat": "2026-11-15T14:18:17.000Z"
+  },
   {
    "id": "faa8a7fd08f7",
    "mitja": "Regió7",
@@ -10,7 +43,7 @@
    "icona": "/assets/premsa/regio7.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "La IA salta de l'humor viral sobre polítics a les xarxes als programes electorals",
+   "titol": "La intel·ligència artificial irromp en la campanya: dels programes electorals als atacs contra els rivals",
    "url": "https://www.regio7.cat/arreu-catalunya-espanya-mon/2026/11/15/ia-salta-lhumor-viral-politics-136465821.html",
    "publicat": "2026-11-15T13:09:47.000Z"
   },
@@ -2727,39 +2760,6 @@
    "titol": "La IA llega a la búsqueda de fondos: “ChatGPT, dime la mejor forma de invertir en EE UU”",
    "url": "https://cincodias.elpais.com/fondos-y-planes/2026-11-10/la-ia-llega-a-la-busqueda-de-fondos-chatgpt-dime-la-mejor-forma-de-invertir-en-ee-uu.html",
    "publicat": "2026-11-10T15:45:30.000Z"
-  },
-  {
-   "id": "0ca828d62b6b",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Samsung oferirà una versió de Galaxy AI de pagament",
-   "url": "https://www.elnacional.cat/ca/tecnologia/samsung-oferira-versio-galaxy-ai-pagament_1723505_102.html",
-   "publicat": "2026-11-10T15:30:00.000Z"
-  },
-  {
-   "id": "de427ebbc363",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Retrato robot de los agitadores de Blocus detenidos en España: menores sin ideología, con IA gratuita y animados por los saqueos de Barcelona",
-   "url": "https://www.diariodemallorca.es/sociedad/2026/11/10/retrato-robot-blocus-espana-menores-policia-ia-sin-ideologia-saqueos-barcelona-136295772.html",
-   "publicat": "2026-11-10T15:26:52.000Z"
-  },
-  {
-   "id": "92ea2226d8e3",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Debería Rockstar darse prisa con la versión de GTA 6 para PC antes de que la IA se le adelante?",
-   "url": "https://www.informacion.es/tecnologia/2026/11/10/deberia-rockstar-darse-prisa-version-136293126.html",
-   "publicat": "2026-11-10T14:43:31.000Z"
   }
  ]
 }
