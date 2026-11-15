@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-14T13:16:04.383Z",
+ "actualitzat": "2026-11-15T09:15:31.228Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "ha-gDrDm8Es",
+   "titol": "From AI Factories to Intelligent Cities",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "maquinari",
+   "idioma": "en",
+   "publicat": "2026-11-14T17:48:26.000Z",
+   "descripcio": "AI factories, physical AI, and agents, built with local partners are helping cities improve planning, operations, and public services. Learn how shared infrastructure and city-led governance support safer streets, more responsive operations, and stronger local AI innovation. #SCEWC26 #SmartCities #a",
+   "miniatura": "/assets/videos/ha-gDrDm8Es.jpg"
+  },
   {
    "id": "iC6H8KOQTFU",
    "titol": "Meet the Startup: Prima Mente, an AI Biology Company",
