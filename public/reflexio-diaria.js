@@ -1,33 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-11-14",
-  "title": "Els models generals volen fer tots els oficis, però la medicina avança pas a pas",
-  "dek": "OpenAI desfà el seu equip de robòtica i Runway mou robots amb un model de vídeo, mentre a la consulta la IA entra amb quatre centres, centenars de pacients i calendaris que arriben al 2029.",
+  "date": "2026-11-15",
+  "title": "La IA aporta proves a la ciència i promeses a l'economia",
+  "dek": "Un diumenge en què la IA ha servit per confirmar una demostració, una imatge astronòmica i els quaderns de Gödel, mentre les empreses que la venen continuen sense poder ensenyar gaires resultats verificats.",
   "body": [
-    "La notícia que millor resumeix el dia és una absència: l'estand que OpenAI tenia reservat al principal congrés de robòtica era buit. L'empresa ha desfet el seu equip de robòtica perquè creu que els seus models generals ja poden governar robots sense una IA feta a mida. Gairebé alhora, Runway, que es va fer coneguda generant vídeo, ha alliberat Praxis-1, un model obert que fa servir el que ha après mirant vídeos per moure braços robòtics, i diu que les imatges corrents d'internet serveixen tant per entrenar-lo com els vídeos de robots manejats a distància, molt més cars de gravar.",
-    "No és un fet aïllat. Anthropic ha connectat Claude al programari de les fàbriques perquè prepari pressupostos, informes de qualitat i comandes, i OpenAI ha començat a vendre agents que ataquen les aplicacions de les empreses per trobar-hi forats i en preparen els pegats. La idea de fons és la mateixa en tots els casos: no cal un sistema especialitzat per a cada ofici, n'hi ha prou amb un model general prou potent i unes quantes eines al voltant. El que encara no sabem és si aquesta promesa resistirà la feina de debò. Les xifres de Runway són de proves seves, i tant Claude com els agents de seguretat d'OpenAI demanen que una persona aprovi abans els passos delicats.",
-    "La medicina ha mostrat avui un ritme molt diferent. Quatre centres d'atenció primària de Barcelona i Tarragona fan servir des del juliol una IA que llegeix les fotos de l'ull dels diabètics, i n'ha revisat 549; Salut vol formar-hi tota l'atenció primària el 2027. El Vall d'Hebron farà bessons digitals dels òrgans dels pacients, però els primers models no es podran validar a la consulta fins a final del 2029. A la Clínica Mayo, un model encerta la composició de les pedres al ronyó en el 73% dels pacients, i un altre que calcula l'edat del cor encara no s'ha publicat en cap revista. Són eines especialitzades, petites i lentes de provar, i això, en salut, és una virtut.",
-    "Hi ha una tercera línia que matisa la cursa pel model més gran. Un equip de Princeton ha publicat a Science que una IA que només escolta el que senten vuit criatures a casa aprèn milers de paraules si cada nit repassa el que ha sentit, i un estudi amb neurones humanes de Harvard i l'MIT explica com el cervell aprèn de cop a reconèixer una imatge confusa. Tots dos apunten que l'eficiència no ve només de la quantitat de dades, sinó de com s'organitza l'aprenentatge. És una pista que la indústria, ara obsessionada amb la mida, faria bé de no deixar de banda.",
-    "El diner continua seguint els generalistes. Anthropic rep sis vegades més peticions d'accions de les que ofereix, LangChain dobla el seu valor fins als 3.000 milions venent eines per controlar agents, i la sortida de Jensen Huang de Nvidia obliga els governs asiàtics a assegurar-se els xips. Però dues notícies recorden que la tecnologia no actua sola: el TSJC ha rebutjat per tercera vegada els recursos d'un advocat de Tarragona inflats amb IA sense revisar, i el govern dels Estats Units atribueix la gran aturada de vols de divendres a uns equips de telecomunicacions antics, no a la nova eina d'IA de l'aviació, de la qual tothom havia sospitat.",
-    "Demà caldrà mirar si els models generals entren de debò a les fàbriques i als robots o si la promesa es queda, com tantes, en una demostració. I a la consulta, si aquestes eines petites i pacients arriben a demostrar que ajuden els pacients, que és l'única prova que hi compta."
+    "El dia ha deixat una diferència curiosa entre dues maneres d'explicar què fa la intel·ligència artificial. A la ciència, s'ha fet servir sobretot per comprovar. Uns agents de Google han demostrat una conjectura de teoria de la informació oberta des del 2013, i la prova, de prop de 50 milions de línies, l'ha comprovada un programa verificador, Lean. A Austràlia, quatre astrònoms de la CSIRO han tornat a processar les dades del telescopi Event Horizon amb un mètode d'aprenentatge automàtic que no sabia com és un forat negre, i n'ha sortit el mateix anell de la imatge de M87 del 2019.",
+    "En els dos casos, el valor no és que la màquina descobreixi una cosa nova sinó que la confirmi per un camí independent. El cas de Kurt Gödel va en la mateixa direcció. Amb Claude, el lògic Jan von Plato ha obtingut en un parell de dies una explicació dels 1.009 fulls de taquigrafia que fins ara llegia a raó d'una pàgina per setmana, i un catàleg de 663 teoremes. Però no els ha acceptat pel que deia el model: els ha passat per un altre verificador, Coq, que n'ha donat uns 400 per bons, n'ha hagut de precisar uns 200 i n'ha trobat uns 50 de falsos. La IA hi fa de lectora incansable, no de jutge.",
+    "La resta del dia científic demana el mateix tipus de cautela. Un estudi a «PLOS Digital Health» avisa que una eina pot encertar de mitjana i deixar passar senyals clars d'un problema de salut mental, i proposa provar-les abans de fer-les servir a la consulta. El model de Stanford i la Universitat d'Iowa que classifica els infants amb TDAH o ansietat en tres perfils cerebrals és prometedor, però que serveixi per triar el tractament encara és una hipòtesi que han de confirmar assajos clínics. Fins i tot la demostració de Google, verificada per l'ordinador, encara és en prepublicació.",
+    "A l'economia, en canvi, la IA arriba sobretot en forma de promesa. AT&T diu que ja té gairebé 500 tasques en mans d'agents i que en vol el triple, però les xifres de rendiment les dona ella mateixa. Mirendil ha captat 1.000 milions de dòlars i afirma que un sol investigador ajudat per agents va entrenar un model en tres mesos i mig. IBM i Microsoft venen més de 6.000 agents preparats per a bancs i asseguradores sense ensenyar cap resultat mesurat. I Dario Amodei ha admès, a pocs dies de la sortida a borsa d'Anthropic, que no sap què passarà l'any que ve ni quanta capacitat de càlcul ha de comprar.",
+    "Les dades independents que han arribat avui sobre l'impacte real són modestes. El banc central d'Austràlia no troba proves que la IA hagi alterat el mercat laboral del país, però sí senyals febles entre els joves de les feines més exposades, que fan menys hores que el 2022. És un resultat que encaixa amb el que s'havia vist als Estats Units i que no demostra cap causa. Mentrestant, la classificació de MathArena recorda que el model que guanya, Gemini 4 Carbon, ho fa a un cost quinze vegades més alt que el d'OpenAI. Tenir la millor nota no vol dir sortir a compte.",
+    "La tendència que apunta el dia és que la IA ja és més fiable allà on hi ha una manera externa de comprovar-la, un verificador matemàtic o unes dades astronòmiques, que no pas allà on qui la mesura és qui la ven. Caldrà mirar si aquesta exigència de proves s'estén als mercats: la setmana vinent arriba la sortida a borsa d'Anthropic, i serà la primera vegada que una gran empresa de models haurà de rendir comptes públicament, trimestre a trimestre, davant d'inversors que podran posar números a les seves promeses."
   ],
   "signals": [
     {
-      "title": "OpenAI dissol el seu equip de robòtica perquè creu que els seus models generals ja poden fer funcionar els robots",
-      "slug": "openai-dissol-equip-robotica-models-generals"
+      "title": "Uns equips d'agents de Google demostren una conjectura de teoria de la informació oberta des del 2013, i el verificador Lean dona la prova per bona",
+      "slug": "google-agents-gemini-demostren-conjectura-courtade-kumar"
     },
     {
-      "title": "Runway, l'empresa de vídeo amb IA, allibera Praxis-1, un model que fa servir el que ha après dels vídeos per moure robots",
-      "slug": "runway-praxis-1-model-obert-control-robots-video"
+      "title": "Una anàlisi nova amb aprenentatge automàtic confirma la primera imatge d'un forat negre, la del centre de la galàxia M87, segons «Nature»",
+      "slug": "csiro-aprenentatge-automatic-confirma-ombra-forat-negre-m87"
     },
     {
-      "title": "Quatre CAP de Barcelona i Tarragona ja fan servir una IA que llegeix les fotos de l'ull dels diabètics, i Salut vol formar-hi tota l'atenció primària el 2027",
-      "slug": "atencio-primaria-catalunya-ia-cribratge-retinopatia-diabetica"
+      "title": "ACTUALITZACIÓ: Dario Amodei admet davant dels inversors que no sap què passarà l'any que ve i que el seu gran dilema és quanta capacitat de càlcul ha de comprar",
+      "slug": "amodei-incertesa-comput-sortida-borsa-anthropic"
     },
     {
-      "title": "Una IA que només escolta el que senten vuit criatures a casa aprèn milers de paraules si cada nit repassa el dia, segons «Science»",
-      "slug": "princeton-model-ia-aprenentatge-llenguatge-infants-science"
+      "title": "El banc central d'Austràlia troba els primers senyals que la IA perjudica la feina dels joves, sobretot en programació i atenció al client",
+      "slug": "banc-reserva-australia-ia-joves-feina"
     }
   ],
   "read": "3 MIN",
-  "words": 602
+  "words": 622
 };
