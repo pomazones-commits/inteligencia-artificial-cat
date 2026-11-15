@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-15T17:17:18.898Z",
+ "actualitzat": "2026-11-15T19:09:15.067Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "eb49f8d0da45",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La nueva Siri con inteligencia artificial llega a los Apple TV antiguos, pero España tendrá que esperar",
+   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-11-15/la-nueva-siri-con-inteligencia-artificial-llega-a-los-apple-tv-antiguos-pero-espana-tendra-que-esperar.html",
+   "publicat": "2026-11-15T18:30:00.000Z"
+  },
   {
    "id": "fed37f9ea257",
    "mitja": "Ara",
@@ -2749,17 +2760,6 @@
    "titol": "Adobe mejora la creatividad: impulsa sus agentes y herramientas IA para generar contenido",
    "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-10/adobe-mejoras-creatividad-agentes-herramientas.html",
    "publicat": "2026-11-10T16:00:00.000Z"
-  },
-  {
-   "id": "a59fc220d7fc",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La IA llega a la búsqueda de fondos: “ChatGPT, dime la mejor forma de invertir en EE UU”",
-   "url": "https://cincodias.elpais.com/fondos-y-planes/2026-11-10/la-ia-llega-a-la-busqueda-de-fondos-chatgpt-dime-la-mejor-forma-de-invertir-en-ee-uu.html",
-   "publicat": "2026-11-10T15:45:30.000Z"
   }
  ]
 }
