@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-15T09:15:31.228Z",
+ "actualitzat": "2026-11-15T17:17:21.487Z",
  "canals": 19,
  "videos": [
   {
@@ -948,18 +948,6 @@
    "noticia": "openai-gpt-6-1-terra-model-mitja-meitat-preu",
    "noticiaTitol": "OpenAI llança GPT-6.1 Terra, un model de gamma mitjana que costa la meitat que l'anterior i s'acosta als seus models grans",
    "resum": "Vídeo oficial d'OpenAI, publicat el 26 d'octubre, que presenta GPT-6.1 Terra. Segons la descripció del canal, destaca que el model entén el que hi ha a la pantalla, actua entre aplicacions i fa servir l'ordinador de manera ràpida i a un preu més baix."
-  },
-  {
-   "id": "rF1EsryCAwc",
-   "titol": "Jensen Huang’s Keynote Highlights at NVIDIA GTC Berlin 2026",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-10-25T17:10:16.000Z",
-   "descripcio": "Europe is building its AI economy. NVIDIA founder and CEO Jensen Huang explains how AI factories are evolving to run agents and why physical AI is the next frontier. Catch the highlights from his NVIDIA GTC Berlin keynote, including announcements across AI infrastructure, safe agents, open models, e",
-   "miniatura": "/assets/videos/rF1EsryCAwc.jpg"
   },
   {
    "id": "83dhcuHt6Ao",
