@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Girona",
+    "category": "IA I SOCIETAT",
+    "date": "15.11.2026",
+    "title": "La Universitat de Girona i l'IDIBGI creen Evimatic Healthtech, una empresa amb una IA que resumeix en segons què diu la recerca sobre els tractaments del TDAH",
+    "summary": "L'eina, provada amb pacients de la xarxa de salut mental de Girona i Blanes, analitza els assajos clínics publicats i no fa servir un model de llenguatge com ChatGPT, perquè els seus impulsors volen que es pugui veure com arriba a cada resposta.",
+    "detail": "Triar el millor tractament per a una persona amb trastorn per dèficit d'atenció i hiperactivitat (TDAH) obliga a tenir en compte molts assajos clínics sobre medicaments, psicoteràpies i intervencions neurofisiològiques, i posar-los al dia és una feina feixuga. Un equip de la Universitat de Girona (UdG) i de l'Institut d'Investigació Biomèdica de Girona (IDIBGI) fa anys que treballa en una eina d'IA per ajudar-hi. Ara n'ha nascut una empresa derivada de la recerca, Evimatic Healthtech, constituïda aquest divendres.\n\nL'eina analitza els resultats dels assajos clínics publicats i en fa un resum per al professional que hi consulta. Segons el seu principal impulsor, Xavier Castells, respon en segons una pregunta que, d'una altra manera, podria demanar mesos o anys de feina d'un equip multidisciplinari. No fa servir cap model de llenguatge com ChatGPT o Gemini, sinó un model determinista: han preferit «la transparència» a la potència, perquè l'usuari pugui veure com s'ha generat la informació. El prototip s'ha validat en tres estudis, un amb dades simulades i dos amb pacients diagnosticats de TDAH atesos a la xarxa de salut mental de les comarques gironines, sobretot a Girona i Blanes.\n\nÉs un exemple de recerca catalana que fa el pas cap al mercat. La directora de l'IDIBGI, Marga Nadal, ho ha qualificat de dia molt especial per a l'institut, i la vicerectora de Recerca i Transferència de la UdG, Dolors Berga, també ha participat en la presentació. Els impulsors volen estendre l'eina a l'autisme, la dislèxia i la discalcúlia, després a la depressió i l'esquizofrènia i, a llarg termini, a la medicina interna i l'atenció primària.\n\nL'empresa tot just comença: encara ha de definir el client principal, el preu i els canals de venda, i no s'ha informat de cap finançament. Castells subratlla que l'eina dona suport al criteri mèdic i no el substitueix, i admet que alguns clínics la poden veure com una cosa «estrambòtica». Els resultats dels estudis de validació no s'han detallat a la presentació.",
+    "source": "El Gerió Digital",
+    "url": "https://www.gerio.cat/noticia/1766031/la-udg-i-l-idibgi-impulsen-una-empresa-d-intel-ligencia-artificial-per-tractar-el-tdah",
+    "image": "./assets/udg-idibgi-evimatic-healthtech-ia-tdah-20261115.jpg",
+    "slug": "udg-idibgi-evimatic-healthtech-ia-tdah"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "14.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.deepl.com/en/press-release/aure-voice-ai-model",
     "image": "./assets/deepl-aure-traduccio-veu-to-emocio-20261112.jpg",
     "slug": "deepl-aure-traduccio-veu-to-emocio"
-  },
-  {
-    "place": "Andorra",
-    "category": "IA I SOCIETAT",
-    "date": "12.11.2026",
-    "title": "Dos projectes d'IA, Minervaly i Staybell, guanyen els Actinn Awards del clúster tecnològic d'Andorra",
-    "summary": "Minervaly, una plataforma que llegeix i contrasta documents per a bancs i asseguradores, s'emporta el primer premi, de 5.000 euros. Staybell, un conserge digital per a allotjaments turístics que respon pel WhatsApp, queda segon.",
-    "detail": "Actinn, el clúster de tecnologia i innovació d'Andorra, convoca cada any uns premis per reconèixer els projectes empresarials més innovadors del país. La setena edició, amb set candidatures, s'ha decidit amb dos projectes d'intel·ligència artificial al capdavant.\n\nEl primer premi, de 5.000 euros, ha estat per a Minervaly, de Minerva Data Solutions, que presenta el seu fundador i conseller delegat, Pol Guasch. És una plataforma que automatitza la gestió de documents: els llegeix, en creua la informació i assenyala les incoherències o les excepcions perquè les revisi una persona, amb resultats que es poden comprovar i seguir. L'empresa la pensa per a la banca, les assegurances i els serveis professionals. El segon premi, de 2.000 euros, ha estat per a Staybell, de Staybell Technologies, representada per Niki Francesca: un conserge digital per a allotjaments turístics petits i mitjans que respon els clients pel WhatsApp a qualsevol hora i en diverses llengües.\n\nEls dos projectes miren cap als dos sectors forts de l'economia andorrana, les finances i el turisme, i entre els finalistes hi havia altres eines amb IA, com una per implantar polítiques d'ús de la IA a les organitzacions o un qüestionari intel·ligent per preparar la declaració de l'IRPF andorrà. Actinn diu que els premis volen afavorir l'emprenedoria i la diversificació de l'economia del país.\n\nEl jurat ha valorat el potencial de mercat i la viabilitat dels projectes, però els premis no diuen res sobre els resultats reals de les eines, que són a les primeres fases. El lliurament oficial es farà el maig del 2027, durant la conferència INNTEC.",
-    "source": "Diari d'Andorra",
-    "url": "https://www.diariandorra.ad/nacional/261111/minervaly-guanya-7a-edicio-dels-actinn-awards_208547.html",
-    "image": "./assets/andorra-actinn-awards-minervaly-staybell-ia-20261112.jpg",
-    "slug": "andorra-actinn-awards-minervaly-staybell-ia"
   }
 ];
