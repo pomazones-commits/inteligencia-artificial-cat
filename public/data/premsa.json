@@ -1,8 +1,107 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-15T05:13:52.471Z",
+ "actualitzat": "2026-11-15T09:15:29.829Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "929fef4a064d",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La policía de Corea del Sur investiga al candidato con mejor nota en una oposición tras confesar que utilizó IA para realizar el examen",
+   "url": "https://www.elmundo.es/tecnologia/2026/11/15/6af95236e4d4d8937f8b456e.html",
+   "publicat": "2026-11-15T08:28:29.000Z"
+  },
+  {
+   "id": "bf6005f4db58",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Estamos más cerca de vencer al cáncer? La ciencia, la inteligencia artificial y los pacientes protagonizan La Crónica",
+   "url": "https://www.levante-emv.com/videos/levante-tv/2026/11/15/cerca-vencer-cancer-ciencia-inteligencia-136401385.html",
+   "publicat": "2026-11-15T08:00:32.000Z"
+  },
+  {
+   "id": "edaebe01e736",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Musk i accionistes i treballadors de Nvidia impulsen una petició per a restituir Jensen Huang",
+   "url": "https://www.vilaweb.cat/noticies/musk-i-accionistes-i-treballadors-de-nvidia-impulsen-una-peticio-per-a-restituir-jensen-huang",
+   "publicat": "2026-11-15T07:41:42.000Z"
+  },
+  {
+   "id": "c7e59170fe64",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La UdG i l'IDIBGI creen una empresa que utilitzarà la intel·ligència artificial per ajudar a tractar el TDAH",
+   "url": "https://www.diaridegirona.cat/girona/2026/11/15/udg-lidibgi-creen-empresa-utilitzara-ia-tractament-tdah-136458532.html",
+   "publicat": "2026-11-15T07:29:09.000Z"
+  },
+  {
+   "id": "9b66101c85d8",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Investigan al candidato con la mejor nota en un examen de Corea del Sur tras confesar que usó la IA",
+   "url": "https://www.elperiodico.com/es/sociedad/20261115/investigan-candidato-mejor-nota-examen-corea-sur-ia-136458519",
+   "publicat": "2026-11-15T07:27:01.000Z"
+  },
+  {
+   "id": "12fda49b9ad1",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Elon Musk, accionistas y empleados de Nvidia impulsan una petición para restituir a Huang",
+   "url": "https://www.elperiodico.com/es/internacional/20261115/elon-musk-peticion-restituir-huang-accionistas-empleados-nvidia-136458501",
+   "publicat": "2026-11-15T07:22:13.000Z"
+  },
+  {
+   "id": "2b22d29b5395",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Carlos Colell, CEO de Softeng: “Las empresas deberán aprender a dirigir agentes de IA”",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261115/11676155/carlos-colell-ceo-softeng-empresas-deberan-aprender-dirigir-agentes-ia.html",
+   "publicat": "2026-11-15T05:52:31.000Z"
+  },
+  {
+   "id": "3c32588ba534",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Más de 120.000 firmas encabezadas por Musk piden a Nvidia que devuelva a Huang al mando",
+   "url": "https://www.lavanguardia.com/economia/20261115/11684688/mas-120-000-firmas-encabezadas-musk-piden-nvidia-devuelva-huang-mando.html",
+   "publicat": "2026-11-15T05:50:46.000Z"
+  },
+  {
+   "id": "d80f612026f0",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "«Els acudits de la IA no foten cap gràcia»: tres humoristes gràfics del Bages reivindiquen el valor del dibuix fet a mà a l’Oló de Lletres",
+   "url": "https://www.regio7.cat/cultures/2026/11/15/els-acudits-ia-foten-cap-136447270.html",
+   "publicat": "2026-11-15T05:25:16.000Z"
+  },
   {
    "id": "bf4d86ce158b",
    "mitja": "Levante-EMV",
@@ -48,6 +147,17 @@
    "publicat": "2026-11-15T05:00:31.000Z"
   },
   {
+   "id": "5209d79a56e5",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Hola IA, ¿a quién voto?",
+   "url": "https://www.lavanguardia.com/politica/20261115/11683658/hola-ia-voto.html",
+   "publicat": "2026-11-15T05:00:00.000Z"
+  },
+  {
    "id": "5e6c66b47529",
    "mitja": "La Vanguardia",
    "font": "lavanguardia-totes",
@@ -65,7 +175,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "La IA tiende gastar sin freno",
+   "titol": "La IA tiende a gastar sin freno",
    "url": "https://www.lavanguardia.com/vida/20261115/11678683/ia-tiende-gastar-freno.html",
    "publicat": "2026-11-15T05:00:00.000Z"
   },
@@ -200,6 +310,17 @@
    "titol": "Cultura | El MACA acoge el lunes el Laboratorio 'Los museos y la igualdad: retos de la inteligencia artificial",
    "url": "https://alicanteplaza.es/alicanteplaza/cultura/el-maca-acoge-el-lunes-el-laboratorio-los-museos-y-la-igualdad-retos-de-la-inteligencia-artificial",
    "publicat": "2026-11-14T17:51:02.000Z"
+  },
+  {
+   "id": "db8a8823dc88",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic: la madre de todas las salidas a Bolsa (que puede poner en riesgo a la humanidad con su IA) donde hay más en juego que mucho dinero",
+   "url": "https://elpais.com/economia/negocios/2026-11-14/anthropic-la-madre-de-todas-las-salidas-a-bolsa-que-puede-poner-en-riesgo-a-la-humanidad-con-sus-modelos-de-ia-donde-hay-mas-en-juego-que-muchisimo-dinero.html",
+   "publicat": "2026-11-14T16:45:00.000Z"
   },
   {
    "id": "fd4280595906",
@@ -2637,127 +2758,6 @@
    "titol": "Habla uno de los científicos que inspiró a Open AI para resolver el 'problema del milenio': \"La solución a la falta de matemáticos es pagar más a los profesores\"",
    "url": "https://www.elperiodico.com/es/sociedad/20261110/habla-cientificos-inspiro-open-ai-136274359",
    "publicat": "2026-11-10T12:47:56.000Z"
-  },
-  {
-   "id": "5a80b8ccd23d",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic reduce a 1,3 billones la valoración que buscará en su salida a bolsa",
-   "url": "https://www.informacion.es/tecnologia/2026/11/10/anthropic-fija-rango-70-78-136287196.html",
-   "publicat": "2026-11-10T12:45:50.000Z"
-  },
-  {
-   "id": "983d4196e4e6",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic fija en un rango de entre 70 y 78 dólares el precio de sus acciones para salir a Bolsa",
-   "url": "https://www.diariodemallorca.es/sociedad/2026/11/10/anthropic-fija-rango-70-78-136287186.html",
-   "publicat": "2026-11-10T12:45:50.000Z"
-  },
-  {
-   "id": "f5cef1a174f7",
-   "mitja": "El Periódico",
-   "font": "elperiodico-tec",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Les banyes que han desfermat una crisi nacional: cronologia de l’escàndol sexual i polític que sacseja el director de Nvidia",
-   "url": "https://www.elperiodico.cat/internacional/20261110/banyes-crisi-eua-jensen-huang-espia-nvidia-xina-espionatge-ia-trump-136289704",
-   "publicat": "2026-11-10T12:32:16.000Z"
-  },
-  {
-   "id": "febd7d571c5f",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Els xatbots no recomanen cap partit en el 90% de consultes del 29N",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/xatbots-no-recomanen-cap-partit-en-90-consultes-29n_1723400_102.html",
-   "publicat": "2026-11-10T12:30:23.000Z"
-  },
-  {
-   "id": "be6069a62087",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una IA permite detectar enfermedades renales hereditarias que tardan hasta siete años en diagnosticarse",
-   "url": "https://www.elperiodico.com/es/salud/20261110/inteligencia-artificial-permite-detectar-enfermedades-renales-siete-anos-diagnostico-136284717",
-   "publicat": "2026-11-10T12:21:16.000Z"
-  },
-  {
-   "id": "53d08cb23b0d",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cómo la relación del CEO de Nvidia con una presunta espía se saltó las restricciones y facilitó envíos de chips a China",
-   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/10/2746915/como-relacion-del-ceo-nvidia-una-presunta-espia-salto-restricciones-facilito-envios-chips-china.html",
-   "publicat": "2026-11-10T11:42:00.000Z"
-  },
-  {
-   "id": "7ce41889c7e4",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Trump diu que l’FBI investiga el cas d’espionatge de l’amant del fundador de Nvidia",
-   "url": "https://www.vilaweb.cat/noticies/trump-diu-que-lfbi-investiga-el-cas-despionatge-de-lamant-del-fundador-de-nvidia",
-   "publicat": "2026-11-10T11:41:51.000Z"
-  },
-  {
-   "id": "ec8b2b1f5d11",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Apple comença a cobrar per funcions ampliades d'IA: un \"paquet d'ús intel·ligent\" per 49,99 dòlars",
-   "url": "https://www.elnacional.cat/ca/tecnologia/apple-comenca-cobrar-funcions-ampliades-ia-paquet-us-intelligent-4999-dolars_1723349_102.html",
-   "publicat": "2026-11-10T11:40:00.000Z"
-  },
-  {
-   "id": "ccbea323d7fb",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Charles Stross, escritor: \"En el sector de la IA hay gente muy tóxica que ha llegado muy alto\"",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261110/ia-gente-toxica-expedientes-lavanderia-james-bond-lovecraft-charles-stross-136214631",
-   "publicat": "2026-11-10T11:11:55.000Z"
-  },
-  {
-   "id": "b413efed7d33",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El uso de la IA en los ciberataques está reduciendo el tiempo de respuesta casi a cero",
-   "url": "https://www.lavanguardia.com/vida/20261110/11680712/ia-ciberataques-esta-reduciendo-respuesta-cero.html",
-   "publicat": "2026-11-10T11:05:32.000Z"
-  },
-  {
-   "id": "f173d50c36cc",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Fundación Jiménez Díaz apuesta por la prevención, datos e IA para generar más valor para el paciente y mejorar su atención",
-   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/11/10/2747091/fundacion-jimenez-diaz-apuesta-por-prevencion-datos-para-generar-mas-valor-para-paciente-mejorar-atencion.html",
-   "publicat": "2026-11-10T10:47:00.000Z"
   }
  ]
 }
