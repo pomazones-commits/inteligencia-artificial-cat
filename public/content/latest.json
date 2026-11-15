@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-14T17:14:08.310Z",
+  "updatedAt": "2026-11-15T05:13:08.952Z",
   "items": [
     {
-      "category": "XIPS",
+      "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Singapur revela que va retenir el passaport de la dona lligada a Jensen Huang, i Corea del Sud convoca d'urgència el seu consell d'IA",
-      "excerpt": "Els governs asiàtics reaccionen a la sortida del fundador de Nvidia. Corea diu que l'empresa li manté la promesa de 260.000 xips, Taiwan no preveu canvis grans i el Japó vigilarà el subministrament."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Runway, l'empresa de vídeo amb IA, allibera Praxis-1, un model que fa servir el que ha après dels vídeos per moure robots",
-      "excerpt": "El model, de 27.000 milions de paràmetres, es pot descarregar i fer servir comercialment. Segons les proves de la mateixa empresa, encerta el 46,2% de les tasques d'un banc de proves de Nvidia."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una IA que només escolta el que senten vuit criatures a casa aprèn milers de paraules si cada nit repassa el dia, segons «Science»",
-      "excerpt": "Un equip de Princeton ha entrenat un model per a cada infant amb les gravacions de casa seva dels primers anys. Sense aquest repàs nocturn no aprenia res; amb el repàs, descobria els sons de l'anglès i milers de mots."
+      "title": "ACTUALITZACIÓ: Més de 115.000 persones demanen que Jensen Huang torni a dirigir Nvidia, entre elles Elon Musk i gairebé 6.000 empleats de l'empresa",
+      "excerpt": "Una petició en línia reclama al consell d'administració de Nvidia que restitueixi el seu fundador mentre una investigació independent aclareix els fets, i acusa l'empresa d'haver-lo fet fora sense garanties."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un sistema del MIT deixa que l'enginyer corregeixi sobre la marxa les estructures que dissenya un algorisme, i millora el resultat un 39%",
-      "excerpt": "Una IA assenyala les zones del disseny que la persona probablement voldria canviar i n'hi demana l'opinió mentre l'algorisme treballa. Només afegeix uns 15 segons al procés, segons «Communications Engineering»."
+      "title": "Un eixam de robots petits endevina la forma de l'espai on és només passant-se missatges, sense càmeres ni mapes, segons «Science Robotics»",
+      "excerpt": "Un equip de la Universitat de la Sorbona i la Universitat de Tòquio fa que cada robot comparteixi un número amb els veïns, com si fos calor que s'escampa, i a partir de com s'iguala el grup reconeixen si són en un disc o en un anell."
     },
     {
-      "category": "MOBILITAT",
+      "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Tesla comença a vendre a alguns clients el Cybercab, el seu cotxe autònom sense volant ni pedals, per uns 30.000 dòlars",
-      "excerpt": "L'empresa d'Elon Musk diu que l'entregarà al desembre, amb una subscripció obligatòria de 299 dòlars al mes. Els reguladors dels Estats Units investiguen encara si un vehicle així compleix les normes de seguretat."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "OpenAI dissol el seu equip de robòtica perquè creu que els seus models generals ja poden fer funcionar els robots",
-      "excerpt": "Els investigadors passen a l'equip central de recerca i els d'enginyeria, a l'àrea de producte. L'empresa diu que no abandona la robòtica, però l'estand que tenia reservat al principal congrés del sector era buit."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un estudi amb més de mil neurones humanes mostra com el cervell aprèn de cop a reconèixer una imatge confusa, segons «Nature Neuroscience»",
-      "excerpt": "Un equip de Harvard i l'MIT ha fet servir l'aprenentatge automàtic per seguir què codifiquen les neurones de tretze pacients amb epilèpsia. Els autors volen copiar el mecanisme en sistemes d'IA que aprenguin més de pressa."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Un cor que la IA veu més vell que el seu propietari s'associa a més risc de morir per malaltia cardiovascular o demència, segons la Clínica Mayo",
-      "excerpt": "Un model que calcula l'edat biològica del cor a partir d'una ecografia s'ha aplicat a 568 adults seguits durant vint anys. Cada cinc anys de diferència s'associen a un 46% més de mortalitat, però el treball encara no s'ha publicat en cap revista."
+      "title": "ACTUALITZACIÓ: Dario Amodei admet davant dels inversors que no sap què passarà l'any que ve i que el seu gran dilema és quanta capacitat de càlcul ha de comprar",
+      "excerpt": "A cinc dies de la sortida a borsa d'Anthropic, prevista per al 19 de novembre, el seu conseller delegat explica que ha de pagar els xips amb un o dos anys d'antelació sense saber si els ingressos ho cobriran."
     },
     {
       "category": "MODELS",
       "read": "3 MIN",
-      "title": "ACTUALITZACIÓ: Thinking Machines, l'empresa de Mira Murati, compleix la promesa i publica els paràmetres d'Inkling 2 Small perquè qualsevol el pugui descarregar",
-      "excerpt": "El model, de 594.000 milions de paràmetres, ja es pot baixar de Hugging Face amb una llicència oberta. Es queda a prop dels millors models oberts xinesos, però cal una màquina amb més de 500 GB de memòria gràfica per fer-lo funcionar."
+      "title": "Gemini 4 Carbon passa al davant en la prova de matemàtiques MathArena, però cada exercici costa quinze vegades més que amb GPT-6.1 Sol",
+      "excerpt": "El nou model de Google obté un 85,4% de rendiment esperat i desplaça el d'OpenAI, que es queda tercer per darrere de Claude Fable 5.2 però continua sent de molt el més barat."
     },
     {
-      "category": "CATALUNYA",
+      "category": "PRODUCTES",
       "read": "3 MIN",
-      "title": "Quatre CAP de Barcelona i Tarragona ja fan servir una IA que llegeix les fotos de l'ull dels diabètics, i Salut vol formar-hi tota l'atenció primària el 2027",
-      "excerpt": "L'eina analitza les retinografies per detectar la retinopatia diabètica i classifica els pacients segons el risc. Des del juliol n'ha revisat 549, de 543 pacients, i dona el resultat en uns 11 minuts."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Els Estats Units aturen tots els vols durant cinc hores per una avaria de comunicacions, i el govern diu que res no apunta a la nova IA de la FAA",
-      "excerpt": "L'aturada de divendres va deixar milers de vols cancel·lats. Les sospites van recaure en SMART, l'eina d'IA que l'Administració Federal d'Aviació acabava d'estendre a tot el país, però el govern ho atribueix a uns equips de telecomunicacions antics que no van aguantar l'actualització."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA del laboratori de Brookhaven aprèn sola a separar els rastres de partícules del soroll en les col·lisions d'ions pesants, segons «Scientific Reports»",
-      "excerpt": "El model generatiu no necessita exemples etiquetats: aprèn del soroll de fons i de simulacions ideals, i en dades simulades del detector sPHENIX reconstrueix els dolls de partícules millor que els mètodes habituals."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Anthropic connecta Claude al programari de les fàbriques perquè prepari pressupostos, informes de qualitat i comandes, sense tocar encara les màquines",
-      "excerpt": "Claude for Manufacturing s'enllaça amb Autodesk Fusion, Oracle NetSuite, Microsoft 365 i Infor, porta 17 habilitats ja preparades i demana l'aprovació d'una persona abans de reprogramar la producció o comprar a un altre proveïdor."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "LangChain capta 300 milions de dòlars i dobla el seu valor fins als 3.000 milions amb un negoci nou: controlar els agents d'IA de les empreses",
-      "excerpt": "La ronda l'encapçala CapitalG, el fons d'Alphabet. L'empresa, que va néixer el 2022 com a projecte de codi obert, ara viu de LangSmith, una plataforma per crear i vigilar agents que diu tenir 7.000 clients."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "El TSJC rebutja per tercera vegada els recursos d'un advocat de Tarragona, inflats amb IA, i diu que la seva actuació frega la mala fe",
-      "excerpt": "El Tribunal Superior de Justícia de Catalunya ha desestimat tres recursos del mateix lletrat, de 90, de més de 50 i de 38 pàgines, perquè eren repetitius i confusos, i ho atribueix a fer servir IA generativa sense revisar-ne el resultat."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Anthropic rep sis vegades més peticions d'accions de les que ofereix, i els bancs deixen fora els inversors xinesos",
-      "excerpt": "Segons Bloomberg, la demanda per entrar a la sortida a borsa de l'empresa de Claude multiplica per sis l'oferta. El preu es fixarà el 18 de novembre, i les entitats que la dirigeixen rebutgen comandes de la Xina continental i Hong Kong."
-    },
-    {
-      "category": "XIPS",
-      "read": "5 MIN",
-      "title": "Un antic investigador d'OpenAI diu haver trobat l'empremta dels xips Blackwell de Nvidia, vetats a la Xina, en sis models xinesos",
-      "excerpt": "Will DePue analitza els paràmetres publicats de models oberts i hi troba un rastre del xip que els va inicialitzar. Segons ell, DeepSeek V4, Kimi K3 i MiniMax M3 es van començar a entrenar amb Blackwell, encara que no pot dir on eren ni de qui."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA de la Clínica Mayo endevina de què és feta una pedra al ronyó a partir d'una anàlisi d'orina, i encerta en el 73% dels pacients",
-      "excerpt": "L'estudi, publicat a «Mayo Clinic Proceedings», combina l'edat, el sexe i l'anàlisi d'orina de 24 hores. El càlcul que es fa servir avui només encerta en un de cada tres casos."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "OpenAI comença a vendre agents d'IA que ataquen les aplicacions de les empreses per trobar-hi forats i en preparen els pegats",
-      "excerpt": "Daybreak Red Team busca vulnerabilitats en aplicacions web i Daybreak Defense Factory revisa el codi i proposa correccions que un programador ha d'aprovar. Totes dues funcionen amb GPT-6 Cyber."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "L'Hospital Vall d'Hebron farà bessons digitals dels òrgans dels pacients per provar els tractaments abans d'aplicar-los",
-      "excerpt": "El projecte té 11,7 milions d'euros de fons europeus i deu línies de treball, de la cardiologia a la migranya. Els primers models no estaran a punt per validar-los a la consulta fins a final del 2029."
+      "title": "ElevenLabs prova ElevenAI, una aplicació per a equips que pren notes a les reunions i converteix la veu en text a qualsevol programa",
+      "excerpt": "L'empresa de veu artificial, valorada en 22.000 milions de dòlars, entra en un mercat on ja competeixen Granola, Fireflies i Wispr Flow, i hi suma un agent que pot fer feina a partir del que s'ha dit."
     }
   ]
 }
