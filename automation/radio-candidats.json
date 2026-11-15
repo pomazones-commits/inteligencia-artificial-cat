@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-14T05:12:26.802Z",
+  "generat": "2026-11-15T23:28:22.256Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -8,7 +8,7 @@
       "programa": "Revolució 4.0",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 8
+      "sobre_ia": 7
     },
     {
       "font": "3cat",
@@ -32,7 +32,7 @@
       "programa": "El suplement",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 0
     },
     {
       "font": "3cat",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 34,
+      "audios": 37,
       "sobre_ia": 1
     },
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 14,
+      "audios": 11,
       "sobre_ia": 0
     },
     {
@@ -165,16 +165,15 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 5,
+      "audios": 7,
       "sobre_ia": 0
     },
     {
       "font": "rtva",
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
-      "estat": "ok",
-      "audios": 400,
-      "sobre_ia": 4
+      "estat": "error",
+      "error": "HTTP 403"
     }
   ],
   "candidats": []
