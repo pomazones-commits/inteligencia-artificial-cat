@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-15T12:19:18.394Z",
+ "actualitzat": "2026-11-15T13:14:38.955Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "faa8a7fd08f7",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA salta de l'humor viral sobre polítics a les xarxes als programes electorals",
+   "url": "https://www.regio7.cat/arreu-catalunya-espanya-mon/2026/11/15/ia-salta-lhumor-viral-politics-136465821.html",
+   "publicat": "2026-11-15T13:09:47.000Z"
+  },
+  {
+   "id": "95d9b841aefb",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Aquestes són les xifres de les grans empreses de la IA",
+   "url": "https://www.diaridegirona.cat/economia/2026/11/15/xifres-grans-empreses-ia-openai-anthropic-nvidia-borsa-136464546.html",
+   "publicat": "2026-11-15T12:25:54.000Z"
+  },
   {
    "id": "f35874525a99",
    "mitja": "Ara",
@@ -23,7 +45,9 @@
    "ambit": "catala",
    "titol": "Trump, Putin i Xi preparen una cimera nuclear amb el control de la intel·ligència artificial sobre la taula",
    "url": "https://www.elnacional.cat/ca/internacional/trump-putin-xi-preparen-cimera-nuclear-control-intelligencia-artificial-sobre-taula_1725794_102.html",
-   "publicat": "2026-11-15T11:38:30.000Z"
+   "publicat": "2026-11-15T11:38:30.000Z",
+   "noticia": "trump-xi-putin-cimera-ia-control-armes-nuclears",
+   "noticiaTitol": "Trump, Xi i Putin podrien parlar a Shenzhen de deixar fora la IA de les decisions sobre armes nuclears"
   },
   {
    "id": "d0210f7414b9",
@@ -46,6 +70,17 @@
    "titol": "La policía de Corea del Sur investiga al candidato con mejor nota en una oposición tras confesar que utilizó IA para realizar el examen",
    "url": "https://www.elmundo.es/tecnologia/2026/11/15/6af95236e4d4d8937f8b456e.html",
    "publicat": "2026-11-15T08:28:29.000Z"
+  },
+  {
+   "id": "2e4c4774193f",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿El fin de la burbuja? Así están las cifras de las grandes empresas de la IA",
+   "url": "https://www.diariodemallorca.es/economia/2026/11/15/burbuja-ia-cifras-grandes-empresas-nvidia-openai-anthropic-bolsa-136459270.html",
+   "publicat": "2026-11-15T08:23:28.000Z"
   },
   {
    "id": "bf6005f4db58",
@@ -169,17 +204,6 @@
    "publicat": "2026-11-15T05:00:31.000Z"
   },
   {
-   "id": "fbaeb84c7447",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿El fin de la burbuja? Así están las cifras de las grandes empresas de la IA",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261115/burbuja-ia-cifras-grandes-empresas-nvidia-openai-anthropic-bolsa-136356616",
-   "publicat": "2026-11-15T05:00:31.000Z"
-  },
-  {
    "id": "5209d79a56e5",
    "mitja": "La Vanguardia",
    "font": "lavanguardia",
@@ -288,6 +312,17 @@
    "titol": "La IA escriu un conte",
    "url": "https://www.segre.com/ca/opinio/he-mirat-aquesta-terra/261115/ia-escriu-conte_1398532.html",
    "publicat": "2026-11-15T04:24:14.000Z"
+  },
+  {
+   "id": "d0cf37dfae94",
+   "mitja": "El Periódico",
+   "font": "elperiodico-tec",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "¿La fi de la bombolla? Aquestes són les xifres de les grans empreses de la IA",
+   "url": "https://www.elperiodico.cat/tecnologia/20261115/bombolla-ia-xifres-grans-empreses-nvidia-openai-anthropic-borsa-136356616",
+   "publicat": "2026-11-15T04:00:31.000Z"
   },
   {
    "id": "58edc36f370d",
@@ -2725,39 +2760,6 @@
    "titol": "¿Debería Rockstar darse prisa con la versión de GTA 6 para PC antes de que la IA se le adelante?",
    "url": "https://www.informacion.es/tecnologia/2026/11/10/deberia-rockstar-darse-prisa-version-136293126.html",
    "publicat": "2026-11-10T14:43:31.000Z"
-  },
-  {
-   "id": "0a06ec70c3a2",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Retrat robot dels agitadors de Blocus detinguts a Espanya: menors sense ideologia, amb IA gratuïta i esperonats pels saquejos de Barcelona",
-   "url": "https://www.elperiodico.cat/societat/20261110/retrat-robot-blocus-espanya-menors-policia-ia-sense-ideologia-saquejos-barcelona-136293087",
-   "publicat": "2026-11-10T13:44:17.000Z"
-  },
-  {
-   "id": "c7d2a9f0cec6",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La infidelidad que ha desatado una crisis nacional: cronología del escándalo sexual y político que ha tumbado al director de Nvidia",
-   "url": "https://www.informacion.es/internacional/2026/11/10/cuernos-crisis-eeuu-jensen-huang-espia-nvidia-china-espionaje-ia-trump-136289795.html",
-   "publicat": "2026-11-10T13:32:16.000Z"
-  },
-  {
-   "id": "e7c55f2419e5",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La factura de la IA abre un agujero de 4.330 millones en el gigante SoftBank",
-   "url": "https://www.eldiario.es/tecnologia/factura-ia-abre-agujero-4-330-millones-gigante-softbank_1_13652362.html",
-   "publicat": "2026-11-10T12:58:06.000Z"
   }
  ]
 }
