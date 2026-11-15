@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-15T09:15:29.829Z",
+ "actualitzat": "2026-11-15T12:19:18.394Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f35874525a99",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic posa a prova la IA amb una sortida a la borsa desinflada",
+   "url": "https://www.ara.cat/economia/tecnologia/anthropic-posa-prova-ia-sortida-borsa-desinflada_1_5909669.html",
+   "publicat": "2026-11-15T12:01:57.000Z"
+  },
+  {
+   "id": "eb41d7b867ab",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Trump, Putin i Xi preparen una cimera nuclear amb el control de la intel·ligència artificial sobre la taula",
+   "url": "https://www.elnacional.cat/ca/internacional/trump-putin-xi-preparen-cimera-nuclear-control-intelligencia-artificial-sobre-taula_1725794_102.html",
+   "publicat": "2026-11-15T11:38:30.000Z"
+  },
+  {
+   "id": "d0210f7414b9",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "IA i ideologia: pot la intel·ligència artificial condicionar el nostre vot en les eleccions del 29N?",
+   "url": "https://www.apuntmedia.es/noticies/politica/video-ia-ideologia-intel-ligencia-artificial-condicionar-nostre-vot-eleccions-29n_1_1909045.html",
+   "publicat": "2026-11-15T10:19:59.000Z"
+  },
   {
    "id": "929fef4a064d",
    "mitja": "El Mundo",
@@ -2725,39 +2758,6 @@
    "titol": "La factura de la IA abre un agujero de 4.330 millones en el gigante SoftBank",
    "url": "https://www.eldiario.es/tecnologia/factura-ia-abre-agujero-4-330-millones-gigante-softbank_1_13652362.html",
    "publicat": "2026-11-10T12:58:06.000Z"
-  },
-  {
-   "id": "390261dd5b94",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic busca recaudar hasta 90.400 millones de dólares en su histórica salida a Bolsa",
-   "url": "https://cincodias.elpais.com/companias/2026-11-10/anthropic-busca-recaudar-hasta-90400-millones-de-dolares-en-su-historica-salida-a-bolsa.html",
-   "publicat": "2026-11-10T12:57:43.000Z"
-  },
-  {
-   "id": "477e64306893",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic aspira a una valoración de 1,4 billones en su salida a bolsa",
-   "url": "https://www.lavanguardia.com/dinero/20261110/11680835/anthropic-salida-bolsa-opv-ipo-acciones.html",
-   "publicat": "2026-11-10T12:48:36.000Z"
-  },
-  {
-   "id": "56e5d49b1433",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Habla uno de los científicos que inspiró a Open AI para resolver el 'problema del milenio': \"La solución a la falta de matemáticos es pagar más a los profesores\"",
-   "url": "https://www.elperiodico.com/es/sociedad/20261110/habla-cientificos-inspiro-open-ai-136274359",
-   "publicat": "2026-11-10T12:47:56.000Z"
   }
  ]
 }
