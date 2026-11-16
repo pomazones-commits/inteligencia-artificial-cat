@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-16T05:17:55.014Z",
+ "actualitzat": "2026-11-16T09:17:38.255Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "c92325754457",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Jensen Huang analitza, amb aliats com Elon Musk, el seu possible retorn a la direcció de Nvidia",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/jensen-huang-analitza-aliats-com-elon-musk-seu-possible-retorn-direccio-nvidia_1725998_102.html",
+   "publicat": "2026-11-16T08:55:00.000Z"
+  },
+  {
+   "id": "96b0146ae461",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El entorno de Jensen Huang presiona a Nvidia para que vuelva como consejero delegado",
+   "url": "https://www.lavanguardia.com/dinero/20261116/11685170/presiones-regreso-jensen-huang-consejero-delegado-nvidia.html",
+   "publicat": "2026-11-16T08:49:49.000Z"
+  },
+  {
+   "id": "d91182e7085f",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Ibex 35 recupera los 20.000 puntos en una semana marcada por Nvidia y la Fed",
+   "url": "https://www.informacion.es/economia/2026/11/16/ibex-35-recupera-20-000-136484810.html",
+   "publicat": "2026-11-16T08:29:40.000Z"
+  },
+  {
+   "id": "20e4fc174be3",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Alibaba presenta Qwen4-Max, su nuevo modelo de IA marcado por estrictas salvaguardas de ciberseguridad",
+   "url": "https://www.elmundo.es/tecnologia/innovacion/2026/11/16/6afaa92421efa0e4508b457a.html",
+   "publicat": "2026-11-16T06:56:39.000Z"
+  },
+  {
+   "id": "52b78375c524",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "En defensa dels cartells municipals sense IA: Tarragona, Arbúcies i Alcarràs ja els han prohibit",
+   "url": "https://www.3cat.cat/3catinfo/en-defensa-dels-cartells-municipals-sense-ia-tarragona-arbucies-i-alcarras-ja-els-han-prohibit/noticia/3438913",
+   "publicat": "2026-11-16T06:23:27.000Z"
+  },
+  {
+   "id": "39a83f96bec1",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia nomena una nova consellera delegada interina en ple escàndol",
+   "url": "https://empreses.ara.cat/directius/nvidia-nomena-nova-consellera-delegada-interina-ple-escandol_1_5909652.html",
+   "publicat": "2026-11-16T06:00:22.000Z"
+  },
   {
    "id": "01173c6a3ff9",
    "mitja": "La Vanguardia",
@@ -15,14 +81,36 @@
    "publicat": "2026-11-16T05:00:00.000Z"
   },
   {
-   "id": "40fcf25b0305",
+   "id": "7beaa5d3b8c4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cómo se puede plantar cara a las superpotencias de la IA",
+   "url": "https://www.lavanguardia.com/internacional/20261116/11684837/infraestructura.html",
+   "publicat": "2026-11-16T05:00:00.000Z"
+  },
+  {
+   "id": "8048fac9cbed",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Soy la IA: dime quién eres y te diré a quién votar",
+   "url": "https://www.lavanguardia.com/politica/20261116/11684928/ia-dime-te-dire-votar.html",
+   "publicat": "2026-11-16T05:00:00.000Z"
+  },
+  {
+   "id": "a53fdf36bf9d",
    "mitja": "La Vanguardia",
    "font": "lavanguardia-totes",
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
    "titol": "EuroCop impulsa una seguridad pública más preventiva, conectada y eficaz con inteligencia artificial",
-   "url": "https://www.lavanguardia.com/economia/20261116/11682783/eurocop-impulsa-seguridad-publica-mas-preventiva-conectada-eficaz-inteligencia-artificial-brl.html",
+   "url": "https://www.lavanguardia.com/vida/20261116/11682783/eurocop-impulsa-seguridad-publica-mas-preventiva-conectada-eficaz-inteligencia-artificial-brl.html",
    "publicat": "2026-11-16T05:00:00.000Z"
   },
   {
@@ -386,7 +474,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Carlos Colell, CEO de Softeng: “Las empresas deberán aprender a dirigir agentes de IA”",
+   "titol": "“Las empresas deberán aprender a dirigir agentes de IA”",
    "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261115/11676155/carlos-colell-ceo-softeng-empresas-deberan-aprender-dirigir-agentes-ia.html",
    "publicat": "2026-11-15T05:52:31.000Z"
   },
@@ -2670,94 +2758,6 @@
    "titol": "La investigación a Nvidia se centra en el envío a China de chips por 6.700 millones",
    "url": "https://www.lavanguardia.com/economia/20261111/11681146/investigacion-nvidia-centra-envio-china-chips-6-700-millones.html",
    "publicat": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "12368f86d005",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El escándalo de Nvidia magnifica las graves deficiencias de su consejo",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-11/el-escandalo-de-nvidia-magnifica-las-graves-deficiencias-de-su-consejo.html",
-   "publicat": "2026-11-11T04:40:00.000Z"
-  },
-  {
-   "id": "5d95b80ab0ff",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "José Luis Pontón, ingeniero informático: “Una IA que entiende el movimiento humano puede aprender a imitar a una persona y suplantarla”",
-   "url": "https://elpais.com/tecnologia/2026-11-11/jose-luis-ponton-ingeniero-informatico-una-ia-que-entiende-el-movimiento-humano-puede-aprender-a-imitar-a-una-persona-y-suplantarla.html",
-   "publicat": "2026-11-11T04:30:01.000Z"
-  },
-  {
-   "id": "f35b2f3e2327",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Les habilitats relacionades amb IA que poden fer pujar el teu sou",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/habilitats-relacionades-ia-poden-fer-pujar-teu-sou_1722470_102.html",
-   "publicat": "2026-11-11T04:30:00.000Z"
-  },
-  {
-   "id": "fdcf67cb634c",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El cerebro humano frente a la IA",
-   "url": "https://www.lavanguardia.com/participacion/red-lectores/20261111/11679901/cerebro-humano-frente-ia.html",
-   "publicat": "2026-11-11T04:30:00.000Z"
-  },
-  {
-   "id": "51dce178515a",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La crisis de Nvidia ensombrece el epicentro de la IA: cuatro gráficos para entender la relevancia del gigante tecnológico",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-11/la-crisis-de-nvidia-ensombrece-el-epicentro-de-la-ia-cuatro-graficos-para-entender-la-relevancia-del-gigante-tecnologico.html",
-   "publicat": "2026-11-11T04:25:00.000Z"
-  },
-  {
-   "id": "a12666a62b18",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "eCityclick estrena oficina a Agrobiotech i treballa en una IA per a tràmits locals",
-   "url": "https://www.segre.com/ca/lleida/261111/ecityclick-estrena-oficina-agrobiotech-i-treballa-ia-per-tramits-locals_1393829.html",
-   "publicat": "2026-11-11T04:17:15.000Z"
-  },
-  {
-   "id": "680c9bfd6a0a",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Invertir en la salida a bolsa de Anthropic: ¿una montaña rusa asegurada?",
-   "url": "https://www.lavanguardia.com/dinero/bolsillo/20261111/11678889/anthropic-bolsa-salida-debut-invertir-comprar-acciones-pca.html",
-   "publicat": "2026-11-11T04:00:00.000Z"
-  },
-  {
-   "id": "8d66ada4f0d2",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "José Capmany: «Sin la fotónica no será posible sustentar la IA a gran escala»",
-   "url": "https://www.informacion.es/economia/2026/11/10/jose-capmany-fotonica-foro-ia-bc-136289412.html",
-   "publicat": "2026-11-10T21:30:26.000Z"
   }
  ]
 }
