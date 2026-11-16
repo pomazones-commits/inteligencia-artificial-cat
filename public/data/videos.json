@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-15T17:59:12.518Z",
+ "actualitzat": "2026-11-16T09:17:38.192Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "soNLXvgUqNY",
+   "titol": "La Cousinade",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-16T05:00:26.000Z",
+   "descripcio": "Une cousinade avec 63 cousins. Un site créé avec ChatGPT.",
+   "miniatura": "/assets/videos/soNLXvgUqNY.jpg"
+  },
   {
    "id": "ha-gDrDm8Es",
    "titol": "From AI Factories to Intelligent Cities",
@@ -117,7 +129,7 @@
    "categoria": "societat",
    "idioma": "en",
    "publicat": "2026-11-12T11:09:56.000Z",
-   "descripcio": "#eunews #europeancommission #peacetalksAbuDhabi Today’s discussion focuses on artificial intelligence, industrial AI made in Europe, the risks and opportunities of AI, peace talks, support for Ukraine, and upcoming European Commission proposals. In this discussion, the focus is on AI, including both",
+   "descripcio": "#eunews #europeancommission #peacetalksAbuDhabi Today’s discussion at the European Political Community Meeting in Dublin focuses on artificial intelligence, industrial AI made in Europe, the risks and opportunities of AI, peace talks, support for Ukraine, and upcoming European Commission proposals. ",
    "miniatura": "/assets/videos/9AozqhRJPWw.jpg"
   },
   {
