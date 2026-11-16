@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-16T05:17:54.718Z",
+  "generat": "2026-11-16T11:54:24.608Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -24,7 +24,7 @@
       "programa": "El matí de Catalunya Ràdio",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 0
+      "sobre_ia": 1
     },
     {
       "font": "3cat",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 36,
+      "audios": 37,
       "sobre_ia": 1
     },
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 11,
+      "audios": 10,
       "sobre_ia": 0
     },
     {
@@ -177,5 +177,23 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "3cat-1297721",
+      "emissora": "Catalunya Ràdio",
+      "programa": "El matí de Catalunya Ràdio",
+      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
+      "data": "2026-11-16",
+      "durada": "1 h 54 min",
+      "titol_original": "Les claus de la campanya i si la IA ens pot aconsellar a qui votar",
+      "descripcio_original": "Analitzem l'arrencada de la campanya i les claus que poden marcar la cursa fins a les eleccions. També quina influència pot tenir la intel·ligència artificial en la decisió del vot. Tot plegat amb Afra Blanco, Marc Bataller, Toni Bolaño, Pau Llonch i Aitor Arriaga.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.3cat.cat/3cat/les-claus-de-la-campanya-i-si-la-ia-ens-pot-aconsellar-a-qui-votar/audio/1297721/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1297721"
+      }
+    }
+  ]
 }
