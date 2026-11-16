@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "16.11.2026",
+    "title": "Tarragona, Arbúcies i Alcarràs prohibeixen la IA als cartells municipals, mentre pobles petits com Ordis la defensen per falta de mitjans",
+    "summary": "Cada cop més ajuntaments limiten l'ús de la intel·ligència artificial en els cartells de festa major i les campanyes públiques per protegir la feina dels il·lustradors. Barcelona i Girona hi posen condicions, i l'Associació de Disseny Gràfic demana normes clares en lloc de vetos.",
+    "detail": "Els cartells de festa major, de fires i de campanyes informatives són un dels encàrrecs habituals que els ajuntaments fan a il·lustradors i dissenyadors, sovint del mateix poble o de la comarca. L'arribada dels generadors d'imatges amb IA hi ha obert un debat a Catalunya: hi ha consistoris que ja els prohibeixen per respecte a la creativitat dels artistes i n'hi ha d'altres, sobretot els més petits, que els fan servir perquè no tenen ni temps ni pressupost per a un professional, segons un reportatge de 3CatInfo.\n\nA Tarragona, el ple municipal va regular la qüestió després de la polèmica pel cartell del festival Sona Flamenc de l'any passat: l'ajuntament s'ha compromès a encarregar els cartells a artistes i dissenyadors, sobretot locals, i només admet la IA com a eina complementària. Alcarràs, al Segrià, va ser fa dos anys un dels primers municipis a posar una clàusula contra la IA en el cartell de la festa major, i ara s'hi ha afegit Arbúcies, a la Selva. «No acceptarem ni publicarem a les xarxes municipals cap cartell amb IA, encara que l'hagin fet entitats o algú del poble», diu l'alcalde, Pere Garriga. Al contrari, a Ordis, a l'Alt Empordà, aquest estiu van fer amb IA el cartell de la festa major, una versió animada i una cançó. «Prohibir-ho encara em sembla menys correcte. Als ajuntaments petits ens ajuda», defensa l'alcaldessa, Anna Torrentà.\n\nEntre els dos extrems hi ha les ciutats grans. Barcelona no té cap prohibició general, però aquest any ha posat en marxa una guia de bones pràctiques que limita l'ús de la IA generativa en les campanyes de comunicació municipals. Girona encarrega des de fa anys el cartell de Temps de Flors als alumnes de batxillerat artístic de l'Institut Santiago Sobrequés i, per a la resta, estableix que el cartell no pot ser una creació feta únicament amb IA, segons el tècnic municipal Roger Colom. L'il·lustrador gironí Juanjo Valeros admet la IA per a les tasques tècniques, però alerta que hi ha concursos públics guanyats amb cartells fets del tot amb IA que no es van detectar fins més tard, cosa que qualifica de «competència deslleial».\n\nL'Associació de Disseny Gràfic i Comunicació Visual (ADG), vinculada al FAD, rebutja les prohibicions: la seva vicepresidenta, Ingrid Toran, demana criteris clars i bases de concurs que expliquin com s'ha fet servir l'eina, «com a eina i no com a resultat final». El debat no té una resposta comuna: cada ajuntament decideix pel seu compte, i distingir un cartell fet amb IA d'un de fet a mà, quan s'amaga, no sempre és fàcil.",
+    "source": "3CatInfo",
+    "url": "https://www.3cat.cat/3catinfo/en-defensa-dels-cartells-municipals-sense-ia-tarragona-arbucies-i-alcarras-ja-els-han-prohibit/noticia/3438913/",
+    "image": "./assets/cartells-municipals-sense-ia-tarragona-arbucies-alcarras-20261116.jpg",
+    "slug": "cartells-municipals-sense-ia-tarragona-arbucies-alcarras"
+  },
+  {
     "place": "Girona",
     "category": "IA I SOCIETAT",
     "date": "15.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://medicalxpress.com/news/2026-11-ai-tools-medical-human-oversight.html",
     "image": "./assets/uc3m-models-ia-simplificar-informes-medics-20261112.jpg",
     "slug": "uc3m-models-ia-simplificar-informes-medics"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "12.11.2026",
-    "title": "DeepL presenta Aure, una veu artificial que tradueix en directe i manté el to, l'èmfasi i el ritme de qui parla",
-    "summary": "L'empresa alemanya diu que el nou model capta els canvis d'humor i fins i tot el sarcasme en reunions i converses. Funciona en vuit llengües, entre les quals no hi ha el català.",
-    "detail": "La traducció automàtica de la veu ha avançat molt, però sovint sona plana: el missatge arriba, l'entonació es perd. DeepL, l'empresa de Colònia coneguda pel seu traductor de text, ja havia fet que el seu servei DeepL Voice conservés el timbre de qui parla, però partia d'una mostra de veu fixa enregistrada a l'inici de la conversa i no seguia els canvis de to.\n\nAure, el model que l'empresa va presentar dimecres, analitza contínuament l'àudio original i el text traduït per traslladar a l'altra llengua el to, l'emoció, l'èmfasi i la velocitat de qui parla. Segons DeepL, separa la identitat de la veu, la melodia de la frase i el contingut perquè cadascun es pugui transferir per separat, i filtra el soroll de fons i l'eco. S'aplica sol, sense configurar res, a les reunions en línia, a les converses presencials i a la interfície per a programadors de DeepL Voice. De moment funciona en anglès, alemany, castellà, francès, italià, japonès, portuguès i coreà.\n\nSi funciona com diu l'empresa, la traducció simultània automàtica s'acosta una mica més a la d'un intèrpret humà, que no només tradueix paraules sinó també la intenció. És un mercat on competeixen Google, Microsoft i diverses empreses emergents, i on DeepL, una de les poques empreses europees d'IA amb un producte d'abast mundial, vol fer-se lloc. «Durant massa temps, comunicar-se entre llengües ha volgut dir renunciar a la manera com ens expressem», diu el seu fundador i conseller delegat, Jarek Kutylowski.\n\nTotes les afirmacions sobre la qualitat són de DeepL: l'empresa no ha publicat cap avaluació independent sobre com capta el sarcasme o els canvis d'humor, ni dades de latència o d'encerts. El català no és entre les llengües d'Aure; DeepL diu que n'afegirà més, i que la resta continuaran funcionant amb els models de veu que ja tenia.",
-    "source": "DeepL",
-    "url": "https://www.deepl.com/en/press-release/aure-voice-ai-model",
-    "image": "./assets/deepl-aure-traduccio-veu-to-emocio-20261112.jpg",
-    "slug": "deepl-aure-traduccio-veu-to-emocio"
   }
 ];
