@@ -1,8 +1,184 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-16T09:17:38.255Z",
+ "actualitzat": "2026-11-16T13:11:13.970Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "25133a4ae875",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Les ulleres intel·ligents d'Apple es llançaran l'any que ve amb IA i molt més",
+   "url": "https://www.elnacional.cat/ca/tecnologia/ulleres-intelligents-apple-es-llancaran-any-ve-ia-molt-mes_1726244_102.html",
+   "publicat": "2026-11-16T13:00:00.000Z"
+  },
+  {
+   "id": "35d577afd876",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Alts directius de Silicon Valley pressionen per restituir Huang al capdavant de Nvidia",
+   "url": "https://www.ara.cat/economia/tecnologia/alts-directius-silicon-valley-pressionen-restituir-huang-capdavant-nvidia_1_5912075.html",
+   "publicat": "2026-11-16T12:38:58.000Z"
+  },
+  {
+   "id": "48988598d4fa",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Espionaje de seducción: de Sansón y Dalila al escándalo NVIDIA",
+   "url": "https://www.lavanguardia.com/historiayvida/historia-contemporanea/20261116/11685417/espionaje-seduccion-sanson-dalila-escandalo-nvidia.html",
+   "publicat": "2026-11-16T12:28:07.000Z"
+  },
+  {
+   "id": "e3b6b4f1727a",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un conocido chatbot recomendó una tienda falsa de Vero Moda: una red de 10.000 webs clonadas apunta a los compradores españoles y las IAs las dan por buenas",
+   "url": "https://www.lavanguardia.com/neo/ia/20261116/11685120/conocido-chatbot-recomendo-tienda-falsa-vero-moda-red-10-000-webs-clonadas-apunta-compradores-espanoles-ias-dan-buenas.html",
+   "publicat": "2026-11-16T12:15:00.000Z"
+  },
+  {
+   "id": "9edd19c69f62",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Samsung ya tiene listas sus gafas inteligentes con Gemini: fecha de lanzamiento, precio y características",
+   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-11-16/samsung-ya-tiene-listas-sus-gafas-inteligentes-con-gemini-fecha-de-lanzamiento-precio-y-caracteristicas.html",
+   "publicat": "2026-11-16T11:57:42.000Z"
+  },
+  {
+   "id": "06a63654336f",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las nuevas gafas inteligentes de Samsung y Google quieren jubilar al móvil con IA y traducción en tiempo real",
+   "url": "https://www.lavanguardia.com/neo/gadgets/20261116/11685393/nuevas-gafas-inteligentes-samsung-google-ia-traduccion.html",
+   "publicat": "2026-11-16T11:54:45.000Z"
+  },
+  {
+   "id": "8cc82f3a8da9",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La CNMC convertirá su sede de Barcelona en el ‘hub’ digital del regulador para impulsar la IA y la red 6G",
+   "url": "https://www.elperiodico.com/es/economia/20261116/cnmc-convertira-sede-barcelona-hub-136492756",
+   "publicat": "2026-11-16T11:42:01.000Z"
+  },
+  {
+   "id": "a5b1f0a595f0",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic recibe una demanda de acciones casi siete veces mayor a su oferta para salir a Bolsa",
+   "url": "https://elpais.com/economia/2026-11-16/anthropic-recibe-una-demanda-de-acciones-casi-siete-veces-mayor-a-su-oferta-para-salir-a-bolsa.html",
+   "publicat": "2026-11-16T11:39:16.000Z"
+  },
+  {
+   "id": "558d1f786080",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Digital-IA llega a Albal para acercar la inteligencia artificial a la ciudadanía y al tejido profesional",
+   "url": "https://www.levante-emv.com/lhorta/lhorta-sud/2026/11/16/digital-ia-llega-albal-acercar-bc-136493429.html",
+   "publicat": "2026-11-16T11:36:31.000Z"
+  },
+  {
+   "id": "61308fdb841a",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Gobierno surcoreano se reúne de urgencia para evitar que los estudiantes usen IA durante la selectividad",
+   "url": "https://www.lavanguardia.com/vida/20261116/11685375/gobierno-surcoreano-reune-urgencia-evitar-estudiantes-usen-ia-selectividad.html",
+   "publicat": "2026-11-16T11:30:31.000Z"
+  },
+  {
+   "id": "9abe318f9c1f",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Mundo Today | Que el CEO de Nvidia invirtiera millones en ratafía apunta a que también salió con una espía catalana",
+   "url": "https://www.elperiodico.com/es/que-hacer/20261116/mundo-today-barcelona-ceo-nvidia-millones-ratafia-espia-catalana-136492237",
+   "publicat": "2026-11-16T11:26:00.000Z"
+  },
+  {
+   "id": "eb39b81206df",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El gran fracaso en taquilla de la primera película generada por IA en China: su estreno deja las salas de cine vacías",
+   "url": "https://www.lavanguardia.com/neo/ia/20261116/11685311/fracaso-taquilla-primera-pelicula-generada-ia-china-estreno-salas-cine.html",
+   "publicat": "2026-11-16T10:41:22.000Z"
+  },
+  {
+   "id": "a47a240b7ef2",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las gafas inteligentes de Apple, previstas para la WWDC 2027, usarán Siri AI para acceder a las apps del iPhone por voz",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/16/2750885/gafas-inteligentes-apple-previstas-para-wwdc-2027-usaran-siri-para-acceder-apps-del-iphone-por-voz.html",
+   "publicat": "2026-11-16T10:40:52.000Z"
+  },
+  {
+   "id": "95dd5961dbff",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La caída global de Microsoft se debió a un fallo introducido por la compañía hace meses y que tumbó el 80% de sus servidores",
+   "url": "https://elpais.com/tecnologia/2026-11-16/la-caida-global-de-microsoft-se-debio-a-un-fallo-introducido-por-la-compania-hace-meses-y-que-tumbo-el-80-de-sus-servidores.html",
+   "publicat": "2026-11-16T09:59:24.000Z"
+  },
+  {
+   "id": "a9c368bf4b4d",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Jensen Huang planea su regreso como director ejecutivo de Nvidia",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261116/jensen-huang-planea-regreso-director-nvidia-dimision-escandalo-relacion-espia-china-chips-ia-136485469",
+   "publicat": "2026-11-16T09:37:55.000Z"
+  },
+  {
+   "id": "dbf6d7e7d6fc",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Indecisión en las Bolsas europeas por la incertidumbre sobre Nvidia y Anthropic",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-16/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-11-16T09:25:03.000Z"
+  },
   {
    "id": "c92325754457",
    "mitja": "El Nacional",
@@ -37,6 +213,17 @@
    "publicat": "2026-11-16T08:29:40.000Z"
   },
   {
+   "id": "7dac7c04da54",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Inteligencia artificial para localizar buques fantasma: logran cruzar señales de satélite con el tráfico marítimo",
+   "url": "https://www.lasprovincias.es/tecnologia/inteligencia-artificial-para-localizar-rlt_arx-20261116071131-nt.html",
+   "publicat": "2026-11-16T07:25:31.000Z"
+  },
+  {
    "id": "20e4fc174be3",
    "mitja": "El Mundo",
    "font": "elmundo-tec",
@@ -68,6 +255,17 @@
    "titol": "Nvidia nomena una nova consellera delegada interina en ple escàndol",
    "url": "https://empreses.ara.cat/directius/nvidia-nomena-nova-consellera-delegada-interina-ple-escandol_1_5909652.html",
    "publicat": "2026-11-16T06:00:22.000Z"
+  },
+  {
+   "id": "9fcd4921e2e6",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "“Componer con IA es como tener un hijo por inseminación, te pierdes lo divertido”",
+   "url": "https://www.lavanguardia.com/gente/20261116/11684730/carlos-segarra-me-he-hecho-tanto-dano-pensaba.html",
+   "publicat": "2026-11-16T05:53:30.000Z"
   },
   {
    "id": "01173c6a3ff9",
@@ -2560,204 +2758,6 @@
    "titol": "Anthropic da el pistoletazo de salida a su OPV para minoristas en España",
    "url": "https://elpais.com/economia/2026-11-11/anthropic-da-el-pistoletazo-de-salida-a-su-opv-para-minoristas-en-espana.html",
    "publicat": "2026-11-11T16:51:59.000Z"
-  },
-  {
-   "id": "b6a4459b7e46",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Escriben instrucciones invisibles para engañar a la IA de un tribunal y acaban multadas con más de 14.000 euros",
-   "url": "https://www.levante-emv.com/tendencias21/2026/11/11/escriben-instrucciones-invisibles-enganar-ia-136340102.html",
-   "publicat": "2026-11-11T16:30:36.000Z"
-  },
-  {
-   "id": "9a72f6cb1fe1",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El pronòstic que fa tremolar el Bernabéu: la IA corona el Barça de Flick com a tricampió de Lliga",
-   "url": "https://www.elnacional.cat/ca/esports/pronostic-fa-tremolar-bernabeu-ia-corona-barca-flick-com-tricampio-lliga_1724057_102.html",
-   "publicat": "2026-11-11T15:37:33.000Z"
-  },
-  {
-   "id": "052af7b18ae0",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un acusado admite haber creado con IA imágenes sexuales de menores: “No me puedo controlar”",
-   "url": "https://www.lavanguardia.com/local/madrid/20261111/11681727/acusado-admite-haber-creado-ia-imagenes-sexuales-menores-me-controlar.html",
-   "publicat": "2026-11-11T14:28:19.000Z"
-  },
-  {
-   "id": "149d52c927bc",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Minervaly i Staybell guanyen els ACTINN Awards 2026 amb dos projectes d'intel·ligència artificial",
-   "url": "https://www.diariandorra.ad/nacional/261111/minervaly-guanya-7a-edicio-dels-actinn-awards_208547.html",
-   "publicat": "2026-11-11T13:51:40.000Z"
-  },
-  {
-   "id": "3269d8aec9a0",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Sam Altman, CEO de OpenAI: “Es mejor que haya múltiples proyectos de IA, con enfoques diferentes, que compitan entre sí”",
-   "url": "https://www.lavanguardia.com/neo/ia/20261111/11681660/sam-altman-ceo-openai-proyectos-ia-enfoques-diferentes-compitan.html",
-   "publicat": "2026-11-11T13:02:13.000Z"
-  },
-  {
-   "id": "9706b9bd7359",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Adobe abre Photoshop y Premiere a los agentes de inteligencia artificial de otras compañías",
-   "url": "https://www.elmundo.es/tecnologia/innovacion/2026/11/11/6af4596521efa0de228b457e.html",
-   "publicat": "2026-11-11T12:02:47.000Z"
-  },
-  {
-   "id": "5ef4de4be736",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Sostenibilidad | FCC Medio Ambiente, presente en Ecofira con el aval de la Inteligencia Artificial",
-   "url": "https://alicanteplaza.es/alicanteplaza/sostenibilidad2/fcc-medio-ambiente-presente-en-ecofira-con-el-aval-de-la-inteligencia-artificial",
-   "publicat": "2026-11-11T11:59:26.000Z"
-  },
-  {
-   "id": "cea4ed0edcd5",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La imatge dels silurs, IA o no IA? Pensa malament... i no ho encertaràs",
-   "url": "https://www.segre.com/ca/opinio/261111/la-imatge-dels-silurs-ia-o-no-ia-pensa-malament-i-no-ho-encertars_1394183.html",
-   "publicat": "2026-11-11T10:01:52.000Z"
-  },
-  {
-   "id": "35c1de7cddb4",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Científicos crean un laboratorio de biología gestionado por agentes de IA donde los humanos solo entran para retirar la basura",
-   "url": "https://www.lavanguardia.com/neo/ciencia-neo/20261111/11681499/cientificos-crean-laboratorio-biologia-gestionado-agentes-ia-humanos-entran-retirar-basura.html",
-   "publicat": "2026-11-11T10:00:35.000Z"
-  },
-  {
-   "id": "d08bf0b71060",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los desatinos de la IA: dos modelos que aprenden lo mismo pueden ver el mundo de diferente manera",
-   "url": "https://www.levante-emv.com/tendencias21/2026/11/11/desatinos-ia-modelos-aprenden-ver-136320473.html",
-   "publicat": "2026-11-11T09:59:45.000Z"
-  },
-  {
-   "id": "d3888ed89815",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Ibex 35 busca nuevos máximos al calor del optimismo por la IA",
-   "url": "https://www.informacion.es/economia/2026/11/11/ibex-35-busca-nuevos-maximos-136315876.html",
-   "publicat": "2026-11-11T08:03:34.000Z"
-  },
-  {
-   "id": "32f2c4e26b88",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Harvard dice que la IA no aumenta la productividad",
-   "url": "https://www.lavanguardia.com/neo/ia/20261111/11679847/harvard-dice-ia-aumenta-productividad.html",
-   "publicat": "2026-11-11T07:30:52.000Z"
-  },
-  {
-   "id": "b123108bf18b",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Así es Lori Huang, la discreta ingeniera esposa del CEO de Nvidia y madre de sus dos hijos",
-   "url": "https://www.elperiodico.com/es/gente/20261111/lori-huang-discreta-ingeniera-esposa-136296098",
-   "publicat": "2026-11-11T06:00:54.000Z"
-  },
-  {
-   "id": "caa77c506ebf",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "\"Coincidenc(IA)s\"",
-   "url": "https://www.elperiodico.com/es/entre-todos/participacion/ia-inteligencia-artificial-google-nvidia-jensen-huang-carta-lector-javier-gonzalez-136260388",
-   "publicat": "2026-11-11T06:00:51.000Z"
-  },
-  {
-   "id": "db1491c0abf8",
-   "mitja": "Levante-EMV",
-   "font": "levante",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "FCC Medio Ambiente lleva a Ecofira la Inteligencia Artificial para mejorar la limpieza urbana",
-   "url": "https://www.levante-emv.com/economia/2026/11/11/fcc-medio-ambiente-lleva-ecofira-136303725.html",
-   "publicat": "2026-11-11T05:01:10.000Z"
-  },
-  {
-   "id": "f2c27f238496",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Fundación Jóvenes y Deporte sitúa la inteligencia artificial y sus aplicaciones prácticas en el centro del debate",
-   "url": "https://www.elperiodico.com/es/economia/20261111/fundacion-jovenes-deporte-situa-inteligencia-136376563",
-   "publicat": "2026-11-11T05:00:52.000Z"
-  },
-  {
-   "id": "432bf84eadf6",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | Sumamoos impulsa la transformación de empresas con Microsoft Fabric y prepara sus datos para la IA",
-   "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/sumamoos-impulsa-la-transformacion-de-empresas-con-microsoft-fabric-y-prepara-sus-datos-para-la-ia",
-   "publicat": "2026-11-11T05:00:05.000Z"
-  },
-  {
-   "id": "e1919395f6c7",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La investigación a Nvidia se centra en el envío a China de chips por 6.700 millones",
-   "url": "https://www.lavanguardia.com/economia/20261111/11681146/investigacion-nvidia-centra-envio-china-chips-6-700-millones.html",
-   "publicat": "2026-11-11T05:00:00.000Z"
   }
  ]
 }
