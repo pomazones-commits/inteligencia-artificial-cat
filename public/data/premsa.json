@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-16T13:11:13.970Z",
+ "actualitzat": "2026-11-16T13:18:49.479Z",
  "fonts": 44,
  "articles": [
   {
@@ -243,7 +243,9 @@
    "ambit": "catala",
    "titol": "En defensa dels cartells municipals sense IA: Tarragona, Arbúcies i Alcarràs ja els han prohibit",
    "url": "https://www.3cat.cat/3catinfo/en-defensa-dels-cartells-municipals-sense-ia-tarragona-arbucies-i-alcarras-ja-els-han-prohibit/noticia/3438913",
-   "publicat": "2026-11-16T06:23:27.000Z"
+   "publicat": "2026-11-16T06:23:27.000Z",
+   "noticia": "cartells-municipals-sense-ia-tarragona-arbucies-alcarras",
+   "noticiaTitol": "Tarragona, Arbúcies i Alcarràs prohibeixen la IA als cartells municipals, mentre pobles petits com Ordis la defensen per falta de mitjans"
   },
   {
    "id": "39a83f96bec1",
