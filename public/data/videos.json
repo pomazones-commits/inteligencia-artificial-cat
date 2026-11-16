@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-16T17:15:54.130Z",
+ "actualitzat": "2026-11-16T23:51:11.739Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "uGZO6I-CJtM",
+   "titol": "Real-Time Discovery Starts With NVIDIA DAQIRI",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-11-16T18:30:41.000Z",
+   "descripcio": "Every discovery begins with a signal. NVIDIA DAQIRI connects high-bandwidth instrument data to accelerated computing, so AI can process live sensor streams while an experiment or industrial process is still underway. Instead of capturing data, writing it to disk, and analyzing it later, workflows ca",
+   "miniatura": "/assets/videos/uGZO6I-CJtM.jpg"
+  },
+  {
+   "id": "v2I4vqz87fk",
+   "titol": "20 Years of CUDA: Honoring the Architects of Progress",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "maquinari",
+   "idioma": "en",
+   "publicat": "2026-11-16T18:09:00.000Z",
+   "descripcio": "For 20 years, pioneers, researchers, developers, and creators have changed the world with CUDA. NVIDIA announced CUDA in 2006 as a different way to compute - giving developers direct access to the parallel power of the GPU. Two decades later, the CUDA platform is enabling work in scientific computin",
+   "miniatura": "/assets/videos/v2I4vqz87fk.jpg"
+  },
   {
    "id": "vVVdxMwPBuA",
    "titol": "How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity",
@@ -872,54 +896,6 @@
    "miniatura": "/assets/videos/0qb0FQo3M5c.jpg"
   },
   {
-   "id": "dmbT2IHpOKU",
-   "titol": "AI in France: From NVIDIA’s First Chip to AI Factories | NVIDIA",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-10-26T23:43:23.000Z",
-   "descripcio": "France helped bring NVIDIA’s first chip to life. More than 30 years later, its developers, researchers, and companies are using NVIDIA accelerated computing to advance industrial design, healthcare, and open AI models—and building AI factories to support what comes next. 🔗 European Cities Deploy NV",
-   "miniatura": "/assets/videos/dmbT2IHpOKU.jpg"
-  },
-  {
-   "id": "zUybw-9ejZ4",
-   "titol": "Amp puts AI agents to work beyond code with OpenAI models",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-26T22:03:54.000Z",
-   "descripcio": "Amp is building an AI agent that helps developers turn ideas into working software, from deciding what to build to writing code to onboarding customers. Sign in with ChatGPT gives Amp users access to more tokens for larger tasks, while Amp's conversational assistant, Puck, uses GPT‑Live‑1 to help us",
-   "miniatura": "/assets/videos/zUybw-9ejZ4.jpg"
-  },
-  {
-   "id": "8fp-G14hvUk",
-   "titol": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-26T22:03:40.000Z",
-   "descripcio": "Stack Overflow is building a knowledge intelligence platform that turns information scattered across workplace tools into verified knowledge for people and AI agents. The company's latest product, Stack Overflow for Agents, was built from the ground up by two engineers in just a few weeks using Code",
-   "miniatura": "/assets/videos/8fp-G14hvUk.jpg"
-  },
-  {
-   "id": "inrYeej3Big",
-   "titol": "Higgsfield takes AI video from 1 minute to over 10",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-10-26T22:03:06.000Z",
-   "descripcio": "Higgsfield is building an AI video and image creation platform that helps creators and small teams produce everything from instructional videos to fashion campaigns. With GPT‑6 Astra, the company has gone from creating videos around one minute long to videos over 10 minutes. GPT‑Image‑2.5 helps busi",
-   "miniatura": "/assets/videos/inrYeej3Big.jpg"
-  },
-  {
    "id": "JFXOgDMirZk",
    "titol": "Anthropic, el creador de Claude, presenta el prospecte per sortir a borsa",
    "canal": "3CatInfo",
@@ -933,42 +909,6 @@
    "noticia": "anthropic-s1-borsa-nasdaq-ingressos-perdues",
    "noticiaTitol": "Anthropic demana sortir a borsa al Nasdaq: 16.300 milions d'ingressos el primer semestre i 80.700 milions de pèrdues comptables",
    "resum": "Peça de 3CatInfo sobre el prospecte que Anthropic, l'empresa creadora de Claude, ha presentat per sortir a borsa, una operació amb què, segons la cadena, podria recaptar uns 100.000 milions de dòlars."
-  },
-  {
-   "id": "crEHJon4iD4",
-   "titol": "How Sullivan & Cromwell builds legal tools with Codex | OpenAI",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-26T20:06:50.000Z",
-   "descripcio": "At Sullivan & Cromwell LLP, John Savva uses Codex to build tools around the firm’s legal expertise. Agreement Analyzer brings together a draft agreement, selected precedents, and playbooks reflecting the firm’s and client’s positions. It identifies potential issues and returns a memo and proposed tr",
-   "miniatura": "/assets/videos/crEHJon4iD4.jpg"
-  },
-  {
-   "id": "aNMZjoPGPOg",
-   "titol": "Hebbia on Astra: Better research, better presentations | OpenAI",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "ciencia",
-   "idioma": "en",
-   "publicat": "2026-10-26T19:58:02.000Z",
-   "descripcio": "“We see Astra actually show over double digit gains over any other model we've tested on two fronts.” Hebbia’s Kavita Anand names the two: selecting the right sources and generating PowerPoint presentations. For a banker or investor working through a data room with thousands of documents, both matte",
-   "miniatura": "/assets/videos/aNMZjoPGPOg.jpg"
-  },
-  {
-   "id": "ouNWfNvqlDg",
-   "titol": "How Audi is Reimagining Production With Digital Twins and Physical AI",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "altres",
-   "idioma": "en",
-   "publicat": "2026-10-26T19:49:36.000Z",
-   "descripcio": "Audi teams are reimaginging production with digital twins and physical AI. See how production teams will build digital twins in DELMIA using LEO, a Dassault Systemes’ virtual companion and foundational knowledge from the 3DEXPERIENCE platform. With NVIDIA Omniverse libraries enabling perception and ",
-   "miniatura": "/assets/videos/ouNWfNvqlDg.jpg"
   },
   {
    "id": "tTuk4pGnT0A",
