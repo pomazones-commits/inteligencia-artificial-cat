@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-15T23:28:22.256Z",
+  "generat": "2026-11-16T05:17:54.718Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 37,
+      "audios": 36,
       "sobre_ia": 1
     },
     {
@@ -172,8 +172,9 @@
       "font": "rtva",
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
-      "estat": "error",
-      "error": "HTTP 403"
+      "estat": "ok",
+      "audios": 400,
+      "sobre_ia": 4
     }
   ],
   "candidats": []
