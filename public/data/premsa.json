@@ -1,8 +1,140 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-16T13:18:49.479Z",
+ "actualitzat": "2026-11-16T17:15:54.969Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "6f76af3a11ba",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Estados Unidos endurece sus controles de exportación tecnológicos a raíz del ‘caso Nvidia’",
+   "url": "https://elpais.com/economia/2026-11-16/estados-unidos-endurece-sus-controles-de-exportacion-tecnologicos-a-raiz-del-caso-nvidia.html",
+   "publicat": "2026-11-16T17:12:56.000Z"
+  },
+  {
+   "id": "ae9f2a90bd4f",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Apple llança tvOS 27.2.1 portant Siri AI a models d'Apple TV més antics",
+   "url": "https://www.elnacional.cat/ca/tecnologia/apple-llanca-tvos-2721-portant-siri-ai-models-apple-tv-mes-antics_1726394_102.html",
+   "publicat": "2026-11-16T17:00:00.000Z"
+  },
+  {
+   "id": "f86ca15f24d6",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Samsung apuesta por unas gafas con IA que “entienden” el mundo",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261116/samsung-apuesta-gafas-ia-entienden-136509704",
+   "publicat": "2026-11-16T16:56:44.000Z"
+  },
+  {
+   "id": "376895225e40",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Trump dice que “no le importaría” si Jensen Huang vuelve a Nvidia",
+   "url": "https://elpais.com/us/economia/2026-11-16/trump-dice-que-no-le-importaria-si-jensen-huang-vuelve-a-nvidia.html",
+   "publicat": "2026-11-16T16:47:37.000Z"
+  },
+  {
+   "id": "7ea4cdf700ac",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "GAC estrenará en España un innovador 'sistema nervioso' con inteligencia artificial para sus coches",
+   "url": "https://www.elperiodico.com/es/motor/20261116/innovador-sistema-nervioso-inteligencia-artificial-gac-espana-136363904",
+   "publicat": "2026-11-16T16:22:04.000Z"
+  },
+  {
+   "id": "3cfa0de60f61",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Museos, igualdad e inteligencia artificial, a debate en el MACA de Alicante",
+   "url": "https://www.informacion.es/cultura/2026/11/16/museos-igualdad-inteligencia-artificial-debate-maca-alicante-136506911.html",
+   "publicat": "2026-11-16T16:19:56.000Z"
+  },
+  {
+   "id": "dc2c7f5e5430",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Elche | Innovación colabora en los cursos sobre IA e impresión 3D en el calzado en la Learning Factory de Elche",
+   "url": "https://alicanteplaza.es/alicanteplaza/elcheplaza/innovacion-colabora-en-los-cursos-sobre-ia-e-impresion-3d-en-el-calzado-en-la-learning-factory-escuela-municipal-de-calzado-de-elche",
+   "publicat": "2026-11-16T15:58:59.000Z"
+  },
+  {
+   "id": "e2878b7f7700",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Trump avala que Huang vuelva al mando de Nvidia, pese a su relación con una espía china",
+   "url": "https://www.lavanguardia.com/economia/20261116/11685735/trump-avala-huang-vuelva-mando-nvidia-pese-relacion-espia-china.html",
+   "publicat": "2026-11-16T15:57:31.000Z"
+  },
+  {
+   "id": "7eb73d798967",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Govern da el paso definitivo para implantar la gigafactoría de IA en Móra la Nova",
+   "url": "https://www.diaridetarragona.com/economia/275864/govern-da-paso-definitivo-implantar-gigafactoria-ia-mora-nova.html",
+   "publicat": "2026-11-16T15:04:08.000Z"
+  },
+  {
+   "id": "91828de8156a",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un móvil podría detectar las gafas inteligentes con IA que se utilizan para hacer trampas en los exámenes",
+   "url": "https://www.levante-emv.com/tendencias21/2026/11/16/movil-detectar-gafas-inteligentes-ia-136502363.html",
+   "publicat": "2026-11-16T14:09:54.000Z"
+  },
+  {
+   "id": "e4cf25e78e6d",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "OpenAI fa un pas més: ChatGPT ja pot comprar per tu sense conèixer les dades de la teva targeta",
+   "url": "https://www.elnacional.cat/ca/tecnologia/openai-fa-pas-mes-chatgpt-ja-pot-comprar-tu-sense-coneixer-dades-teva-targeta_1726223_102.html",
+   "publicat": "2026-11-16T14:00:00.000Z"
+  },
+  {
+   "id": "4cf81d089b57",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Competencia planea reforzar su sede en Barcelona para convertirla en el regulador de la IA y de plataformas como TikTok",
+   "url": "https://elpais.com/espana/catalunya/2026-11-16/la-cnmc-planea-reforzar-su-sede-en-barcelona-para-convertirla-en-el-regulador-de-la-ia-y-de-plataformas-como-tiktok.html",
+   "publicat": "2026-11-16T13:50:03.000Z"
+  },
   {
    "id": "25133a4ae875",
    "mitja": "El Nacional",
@@ -78,7 +210,9 @@
    "ambit": "catala",
    "titol": "La CNMC convertirá su sede de Barcelona en el ‘hub’ digital del regulador para impulsar la IA y la red 6G",
    "url": "https://www.elperiodico.com/es/economia/20261116/cnmc-convertira-sede-barcelona-hub-136492756",
-   "publicat": "2026-11-16T11:42:01.000Z"
+   "publicat": "2026-11-16T11:42:01.000Z",
+   "noticia": "cnmc-seu-barcelona-hub-digital-ia-6g",
+   "noticiaTitol": "La CNMC farà de la seva seu de Barcelona el centre de la nova feina del regulador en IA, 6G i audiovisual"
   },
   {
    "id": "a5b1f0a595f0",
@@ -111,7 +245,9 @@
    "ambit": "catala",
    "titol": "El Gobierno surcoreano se reúne de urgencia para evitar que los estudiantes usen IA durante la selectividad",
    "url": "https://www.lavanguardia.com/vida/20261116/11685375/gobierno-surcoreano-reune-urgencia-evitar-estudiantes-usen-ia-selectividad.html",
-   "publicat": "2026-11-16T11:30:31.000Z"
+   "publicat": "2026-11-16T11:30:31.000Z",
+   "noticia": "corea-del-sud-selectivitat-ia-equip-emergencia",
+   "noticiaTitol": "Corea del Sud crea un equip d'emergència contra les trampes amb IA a tres dies de la selectivitat de mig milió d'estudiants"
   },
   {
    "id": "9abe318f9c1f",
@@ -144,7 +280,7 @@
    "ambit": "catala",
    "titol": "Las gafas inteligentes de Apple, previstas para la WWDC 2027, usarán Siri AI para acceder a las apps del iPhone por voz",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/16/2750885/gafas-inteligentes-apple-previstas-para-wwdc-2027-usaran-siri-para-acceder-apps-del-iphone-por-voz.html",
-   "publicat": "2026-11-16T10:40:52.000Z"
+   "publicat": "2026-11-16T10:40:00.000Z"
   },
   {
    "id": "95dd5961dbff",
@@ -2628,138 +2764,6 @@
    "titol": "Nvidia ultima la destitución de su consejero delegado tras la revelación de una relación con una ejecutiva de la compañía",
    "url": "https://elpais.com/us/2026-11-11/la-revelacion-de-una-nueva-relacion-extramarital-del-consejero-delegado-de-nvidia-compromete-su-futuro-en-la-compania.html",
    "publicat": "2026-11-11T22:55:33.000Z"
-  },
-  {
-   "id": "eb0df3e982b2",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tres de las voces más influyentes del mundo en inteligencia artificial participan en el Foro IA",
-   "url": "https://www.informacion.es/economia/2026/11/11/voces-influyentes-inteligencia-artificial-bc-136329677.html",
-   "publicat": "2026-11-11T21:30:00.000Z"
-  },
-  {
-   "id": "f565cfb0c687",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "OpenAI ha fet un curiós moviment comprant Odessia, una startup de viatges que podrà integrar-se a ChatGPT",
-   "url": "https://www.elnacional.cat/ca/tecnologia/openai-ha-fet-curios-moviment-comprant-odessia-startup-viatges-podra-integrar-se-chatgpt_1724168_102.html",
-   "publicat": "2026-11-11T21:15:00.000Z"
-  },
-  {
-   "id": "071846243051",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Cómo crear un GIF con ChatGPT paso a paso",
-   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-11/como-crear-un-gif-con-chatgpt-paso-a-paso.html",
-   "publicat": "2026-11-11T20:28:33.000Z"
-  },
-  {
-   "id": "5a5ba97aa77a",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L'exèrcit rus usa la IA per crear vídeos de suposats avenços a Ucraïna",
-   "url": "https://www.elnacional.cat/ca/tecnologia/exercit-rus-esta-usant-ia-crear-videos-suposats-avencos-ucraina_1724150_102.html",
-   "publicat": "2026-11-11T20:00:00.000Z"
-  },
-  {
-   "id": "eecab56ddfbf",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Adobe y Google amplían su alianza: más intercambio de herramientas y modelos IA",
-   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-11/adobe-google-amplian-alianza.html",
-   "publicat": "2026-11-11T19:00:00.000Z"
-  },
-  {
-   "id": "1a0210c9c87b",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El PP fa befa dels sindicalistes amb una imatge, feta per IA, on apareixen menjant marisc i el PSOE es regira",
-   "url": "https://www.elnacional.cat/ca/politica/pp-fa-befa-sindicalistes-imatge-feta-ia-on-apareixen-menjant-marisc-psoe-es-regira_1724126_102.html",
-   "publicat": "2026-11-11T18:24:11.000Z"
-  },
-  {
-   "id": "8398e8a00d28",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Gemini Intelligence arriba als Pixel 10 amb l'actualització Pixel Drop de novembre",
-   "url": "https://www.elnacional.cat/ca/tecnologia/gemini-intelligence-arriba-pixel-10-actualitzacio-pixel-drop-novembre_1724111_102.html",
-   "publicat": "2026-11-11T18:00:00.000Z"
-  },
-  {
-   "id": "b70eacf49329",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Taiwán revoca el permiso de entrada de Alice Huang, la presunta espía en el centro del escándalo de Nvidia",
-   "url": "https://elpais.com/internacional/2026-11-11/taiwan-revoca-el-permiso-de-entrada-de-alice-huang-la-presunta-espia-en-el-centro-del-escandalo-de-nvidia.html",
-   "publicat": "2026-11-11T17:53:15.000Z"
-  },
-  {
-   "id": "7a3f093e5586",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La relació del conseller delegat de Nvidia amb una suposada espia va facilitar l'enviament de xips a la Xina per valor de 7.500 milions de dòlars",
-   "url": "https://www.ara.cat/economia/tecnologia/relacio-conseller-delegat-nvidia-suposada-espia-facilitar-l-enviament-xips-xina-7-500-milions-dolars_1_5907377.html",
-   "publicat": "2026-11-11T17:11:35.000Z"
-  },
-  {
-   "id": "bbad414bcc95",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Google presenta Gemini Robotics 2.5, la IA que ensenya els robots a fer tasques humanes",
-   "url": "https://www.elnacional.cat/ca/tecnologia/google-presenta-gemini-robotics-25-ia-ensenya-robots-fer-tasques-humanes_1724096_102.html",
-   "publicat": "2026-11-11T17:00:00.000Z"
-  },
-  {
-   "id": "e69c5bb29baf",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial redefine las decisiones que marcarán el futuro de las empresas",
-   "url": "https://www.lavanguardia.com/economia/20261111/11681841/inteligencia-artificial-redefine-decisiones-marcaran-futuro-empresas-brl.html",
-   "publicat": "2026-11-11T16:58:26.000Z"
-  },
-  {
-   "id": "e710dfdc8cd4",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic da el pistoletazo de salida a su OPV para minoristas en España",
-   "url": "https://elpais.com/economia/2026-11-11/anthropic-da-el-pistoletazo-de-salida-a-su-opv-para-minoristas-en-espana.html",
-   "publicat": "2026-11-11T16:51:59.000Z"
   }
  ]
 }
