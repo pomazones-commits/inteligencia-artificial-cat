@@ -1,5 +1,5 @@
 {
- "actualitzat": "2026-11-09",
+ "actualitzat": "2026-11-16",
  "propera_revisio": "2026-11-15",
  "nota": "Centres de dades i supercomputació als territoris de parla catalana. Manual: revisió setmanal a la tasca «Edicions» (vegeu CLAUDE.md). Pàgina: /centres-de-dades (public/centres-de-dades.php). Estats: en funcionament | en construcció | en tramitació | aturat | descartat. origen de cada xifra: promotor (ho diu l’empresa) | administració (ho anuncia un govern o un ajuntament) | oficial (consta en un tràmit o document públic: Miteco, DOGC, DOGV, BOIB, BOPA, BOE, llicència, contracte) | premsa (xifra publicada sense font primària). llocs = [[lat, lon], …] aproximades. polemica: sempre amb la resposta de l’empresa o de l’administració, o una nota que digui que no n’hem trobat. Contractacions: només amb document públic o comunicat de totes dues parts. Cap camp inventat.",
  "xifres": [
@@ -1576,6 +1576,11 @@
      "data": "2026-10-27",
      "fet": "El Govern espanyol envia al Consell d'Estat, per la via d'urgència, el reial decret de centres de dades. Segons l'Ara, preveu un règim especial per a les gigafactories d'IA com la de Móra la Nova: no en queden exemptes, però poden complir de manera gradual les exigències d'eficiència d'aigua i energia i tenen fins a cinc anys per acreditar energia renovable. La patronal i grans operadors s'hi oposen i critiquen aquest tracte. El text encara no està aprovat ni se'n coneixen els límits concrets",
      "font": "https://www.ara.cat/economia/decret-dels-centres-dades-dilueix-exigencies-gigafactories-d-ia-mora-nova_1_5891770.html"
+    },
+    {
+     "data": "2026-11-15",
+     "fet": "Més d'un miler de persones es manifesten entre Móra d'Ebre i Móra la Nova contra els macroprojectes al món rural, amb la gigafactoria com un dels motius principals. La plataforma Pobles Vius, amb el suport de fins a 250 entitats, demana que no s'impulsin nous centres de dades sense estudis previs sobre el consum d'aigua i d'energia, i avisa que continuarà les protestes si el Govern no s'hi reuneix",
+     "font": "https://www.3cat.cat/3catinfo/mes-dun-miler-de-persones-es-mobilitzen-a-mora-debre-contra-els-macroprojectes-al-mon-rural/noticia/3439935/"
     }
    ],
    "fonts": [
@@ -1593,7 +1598,7 @@
    "paraules": [
     "Móra la Nova"
    ],
-   "verificat": "2026-11-02"
+   "verificat": "2026-11-16"
   },
   {
    "id": "submer-flix",
@@ -2456,7 +2461,7 @@
     "Digital Valley",
     "Picassent"
    ],
-   "verificat": "2026-11-02"
+   "verificat": "2026-11-16"
   },
   {
    "id": "vdpc-sagunt",
@@ -2891,6 +2896,11 @@
    "data": "2026-11-07",
    "id": "panattoni-parc-alba",
    "fet": "Primera concentració a Catalunya contra els centres de dades, davant de l'Ajuntament de Cerdanyola, contra els projectes del Parc de l'Alba (Panattoni, hscale i Adam)"
+  },
+  {
+   "data": "2026-11-16",
+   "id": "gigafactoria-mora-la-nova",
+   "fet": "Manifestació de més d'un miler de persones (15.11.2026) entre Móra d'Ebre i Móra la Nova contra els macroprojectes rurals, amb la gigafactoria com un dels motius principals"
   }
  ]
 }
