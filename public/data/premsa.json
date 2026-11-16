@@ -1,8 +1,107 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-15T19:09:15.067Z",
+ "actualitzat": "2026-11-16T00:25:36.233Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "6f52f23d2c97",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El valenciano que usa la inteligencia artificial para que la memoria de una vida no se pierda en el tiempo",
+   "url": "https://www.lasprovincias.es/sociedad/canal-mayores/valenciano-usa-inteligencia-artificial-memoria-vida-pierda-20261114003538-nt.html",
+   "publicat": "2026-11-15T23:35:39.000Z"
+  },
+  {
+   "id": "d13c544635b6",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "“La IA es el demonio... y solo un estadista le planta cara: ¡el Papa!”",
+   "url": "https://www.lavanguardia.com/lacontra/20261116/11684846/basilio-baltasar-ia-demonio-estadista-le-planta-cara-papa.html",
+   "publicat": "2026-11-15T23:05:00.000Z"
+  },
+  {
+   "id": "b8ad3b1e3ac7",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Mireia Triguero Roura: \"La IA pot fomentar comportaments de consum de substàncies arriscats\"",
+   "url": "https://www.elnacional.cat/ca/tecnologia/mireia-triguero-roura-ia-pot-fomentar-comportaments-consum-substancies-arriscats_1725938_102.html",
+   "publicat": "2026-11-15T22:50:00.000Z"
+  },
+  {
+   "id": "6b335877db31",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El perla de Nvidia",
+   "url": "https://www.lasprovincias.es/opinion/ma-jose-pou-amerigo-perla-nvidia-20261116234116-nt.html",
+   "publicat": "2026-11-15T22:41:16.000Z"
+  },
+  {
+   "id": "fb77aa8f2a04",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El MIT ensenya fins on pot arribar la IA: un robot entén ordres que mai ha rebut",
+   "url": "https://www.elnacional.cat/ca/tecnologia/mit-ensenya-fins-on-pot-arribar-ia-robot-enten-ordres-mai-ha-rebut_1725935_102.html",
+   "publicat": "2026-11-15T22:35:00.000Z"
+  },
+  {
+   "id": "a4086df9843c",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Del sistema al equipo: cómo hacer que la IA funcione en el día a día",
+   "url": "https://www.informacion.es/economia/2026/11/15/sistema-equipo-ia-funcione-dia-136400800.html",
+   "publicat": "2026-11-15T21:30:43.000Z"
+  },
+  {
+   "id": "c7f1fe2b898b",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Aquesta autora de 370 llibres defensa l'ús de ChatGPT: \"Puc redactar tot el llibre en una sola seqüència\"",
+   "url": "https://www.elnacional.cat/ca/tecnologia/aquesta-autora-370-llibres-defensa-us-chatgpt-puc-redactar-tot-llibre-en-sola-sequencia_1725923_102.html",
+   "publicat": "2026-11-15T21:15:00.000Z"
+  },
+  {
+   "id": "d3201b080fda",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Jensen Huang estudia tornar a Nvidia després de dimitir per les informacions sobre una infidelitat",
+   "url": "https://www.elnacional.cat/ca/internacional/jensen-huang-estudia-tornar-nvidia-despres-dimitir-informacions-sobre-infidelitat_1725917_102.html",
+   "publicat": "2026-11-15T20:15:18.000Z"
+  },
+  {
+   "id": "69f3f0364734",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "IA, hem d’aprendre a escriure si ja ho fas tu?",
+   "url": "https://www.diaridegirona.cat/opinio/2026/11/15/ia-hem-d-aprendre-escriure-136471184.html",
+   "publicat": "2026-11-15T20:02:08.000Z"
+  },
   {
    "id": "eb49f8d0da45",
    "mitja": "Cinco Días",
@@ -2659,107 +2758,6 @@
    "titol": "Google abre la caja negra de Gemini: ya puedes ver y borrar lo que recuerda de ti gracias a Memory",
    "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-10/gemini-memory-ver-borrar-sabe-inteligencia-artificial-de-ti.html",
    "publicat": "2026-11-10T18:00:00.000Z"
-  },
-  {
-   "id": "5ec37b1dda1d",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Microsoft supera en capitalización a Nvidia, que pierde 1,8 billones en valor de mercado con el escándalo Huang",
-   "url": "https://cincodias.elpais.com/companias/2026-11-10/microsoft-supera-en-capitalizacion-a-nvidia-que-pierde-18-billones-en-valor-de-mercado-con-el-escandalo-huang.html",
-   "publicat": "2026-11-10T17:47:04.000Z"
-  },
-  {
-   "id": "aa9961eef3e2",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic saldrá a bolsa por 1,4 billones dopada por sus propios proveedores",
-   "url": "https://www.eldiario.es/tecnologia/anthropic-saldra-bolsa-1-4-billones-dopada-propios-proveedores_1_13653487.html",
-   "publicat": "2026-11-10T17:32:11.000Z"
-  },
-  {
-   "id": "cd0f644ad0e1",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Daniel Innerarity, sobre la IA: “No s'ha de plantejar com una guerra entre màquines i humans”",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/daniel-innerarity-ia-no-plantejar-guerra-maquines-humans_1723595_102.html",
-   "publicat": "2026-11-10T17:28:36.000Z"
-  },
-  {
-   "id": "b97098cb832f",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Brussel·les vol limitar les funcions addictives de les xarxes socials i els xatbots que simulen vincles personals",
-   "url": "https://www.vilaweb.cat/noticies/brusselles-funcions-addictives-xarxes-socials-xatbots-vincles-personals",
-   "publicat": "2026-11-10T17:26:24.000Z",
-   "noticia": "brusselles-llei-equitat-digital-xatbots-vincles-addictius",
-   "noticiaTitol": "Brussel·les vol que es puguin desactivar els xatbots que simulen una relació personal i el scroll infinit de les xarxes"
-  },
-  {
-   "id": "be52595888f0",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Raúl García hace historia en el cine de animación español con 'La violinista': \"El estilo Disney ha sido clonado por la IA y hay que buscar soluciones nuevas\"",
-   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261110/raul-garcia-la-violinista-estreno-animacion-oscar-136300346",
-   "publicat": "2026-11-10T17:23:11.000Z"
-  },
-  {
-   "id": "d65a7ca739be",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic no frena i presenta Claude Fable 5.2 i Mythos 5.2",
-   "url": "https://www.elnacional.cat/ca/tecnologia/anthropic-no-frena-presenta-claude-fable-52-mythos-52_1723577_102.html",
-   "publicat": "2026-11-10T17:00:00.000Z"
-  },
-  {
-   "id": "64667ad4c3b2",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Summit de IA de La Vanguardia: 2027 será el año en que las empresas tendrán que demostrar que la inteligencia artificial les sale a cuenta",
-   "url": "https://www.lavanguardia.com/neo/ia/20261110/11680900/summit-ia-vanguardia-2027-sera-ano-empresas-tendran-demostrar-inteligencia-artificial-les-sale-cuenta.html",
-   "publicat": "2026-11-10T16:24:22.000Z"
-  },
-  {
-   "id": "5ee26bc91767",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Expertos apuestan por invertir en IA para la defensa del ciberespacio aunque advierten de que el riesgo cero no existe",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/10/2747183/expertos-apuestan-por-invertir-para-defensa-del-ciberespacio-aunque-advierten-riesgo-cero-existe.html",
-   "publicat": "2026-11-10T16:21:00.000Z"
-  },
-  {
-   "id": "1d3e88805a6f",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Adobe mejora la creatividad: impulsa sus agentes y herramientas IA para generar contenido",
-   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-10/adobe-mejoras-creatividad-agentes-herramientas.html",
-   "publicat": "2026-11-10T16:00:00.000Z"
   }
  ]
 }
