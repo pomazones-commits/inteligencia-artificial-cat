@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-15T17:16:34.919Z",
+  "updatedAt": "2026-11-16T05:17:16.307Z",
   "items": [
     {
-      "category": "TREBALL",
+      "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "El banc central d'Austràlia troba els primers senyals que la IA perjudica la feina dels joves, sobretot en programació i atenció al client",
-      "excerpt": "Un estudi del Banc de la Reserva d'Austràlia conclou que la IA encara no ha capgirat el mercat laboral del país, però que els treballadors de 15 a 24 anys de les feines més exposades fan menys hores i tenen més atur que abans del 2022."
+      "title": "ACTUALITZACIÓ: Jensen Huang sospesa tornar a dirigir Nvidia tres dies després de plegar, i un aliat organitza el suport dels directius de Silicon Valley",
+      "excerpt": "Segons el «Financial Times», l'antic conseller delegat ho ha parlat amb gent de confiança, mentre el consell d'administració, que manté oberta la investigació interna, ja havia tantejat el primer executiu d'Arm per substituir-lo."
     },
     {
       "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una anàlisi nova amb aprenentatge automàtic confirma la primera imatge d'un forat negre, la del centre de la galàxia M87, segons «Nature»",
-      "excerpt": "Quatre astrònoms de l'agència científica australiana CSIRO han tornat a processar les dades del telescopi Event Horizon amb un mètode que no sap com és un forat negre, i n'han obtingut un anell gairebé idèntic al de la imatge del 2019."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA troba tres perfils cerebrals que travessen els diagnòstics de TDAH i d'ansietat en infants, segons un estudi de Stanford i la Universitat d'Iowa",
-      "excerpt": "L'estudi, publicat a «Nature Mental Health», analitza les ressonàncies de milers de nens del gran estudi ABCD dels Estats Units i proposa classificar-los segons el funcionament del cervell, no només pels símptomes."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "IBM i Microsoft s'alien per vendre a bancs, asseguradores i comerços agents d'IA preparats per a la feina de cada sector",
-      "excerpt": "La plataforma, que es diu Imagine Enterprise, combina més de 6.000 agents i eines de la consultora d'IBM amb el núvol, les dades i la seguretat de Microsoft, i comença pels serveis financers, les assegurances i el comerç."
-    },
-    {
-      "category": "PROGRAMARI",
-      "read": "3 MIN",
-      "title": "Llama.cpp, el programa obert que fa funcionar models d'IA a l'ordinador de casa, arriba a la versió 1.0 després de tres anys i mig",
-      "excerpt": "L'equip de ggml, que forma part de Hugging Face, es compromet a avisar amb un canvi de número cada vegada que una actualització obligui a refer les aplicacions que en depenen."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "Trump, Xi i Putin podrien parlar a Shenzhen de deixar fora la IA de les decisions sobre armes nuclears",
-      "excerpt": "Els Estats Units, la Xina i Rússia negocien des de fa setmanes l'agenda d'una possible trobada al marge de la cimera de l'APEC, i un dels punts és garantir que cap llançament nuclear depengui d'una màquina. Pequín, però, rebutja una negociació a tres sobre l'arsenal."
-    },
-    {
-      "category": "MATEMÀTIQUES",
-      "read": "4 MIN",
-      "title": "Uns equips d'agents de Google demostren una conjectura de teoria de la informació oberta des del 2013, i el verificador Lean dona la prova per bona",
-      "excerpt": "Google Research explica que els seus agents, amb investigadors de la Universitat Xinesa de Hong Kong, han resolt la conjectura de Courtade i Kumar. La prova, de prop de 50 milions de línies verificades per ordinador, encara és en prepublicació."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA pot encertar de mitjana i deixar passar senyals clars d'un problema de salut mental, avisa un estudi de Harvard, l'MIT i el Child Mind Institute",
-      "excerpt": "Els autors han analitzat milers de converses d'una línia d'atenció en crisi i proposen una sèrie de proves per comprovar que les eines de llenguatge reconeixen totes les maneres d'expressar un símptoma abans de fer-les servir en recerca o a la consulta."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "AT&T ja té gairebé 500 tasques en mans d'agents d'IA, de preparar connexions de fibra a buscar clients, i vol triplicar-les l'any que ve",
-      "excerpt": "La companyia de telecomunicacions processa uns 45.000 milions de tokens al dia. Diu que ha reduït a la meitat el temps per donar d'alta una línia d'internet dedicada, però les xifres de rendiment les dona ella mateixa."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "La Universitat de Girona i l'IDIBGI creen Evimatic Healthtech, una empresa amb una IA que resumeix en segons què diu la recerca sobre els tractaments del TDAH",
-      "excerpt": "L'eina, provada amb pacients de la xarxa de salut mental de Girona i Blanes, analitza els assajos clínics publicats i no fa servir un model de llenguatge com ChatGPT, perquè els seus impulsors volen que es pugui veure com arriba a cada resposta."
-    },
-    {
-      "category": "MATEMÀTIQUES",
       "read": "5 MIN",
-      "title": "Un lògic finlandès fa servir Claude per entendre els quaderns inèdits de Kurt Gödel, i hi apareixen 663 teoremes que ningú no coneixia",
-      "excerpt": "Jan von Plato, de la Universitat de Hèlsinki, avançava una pàgina per setmana en els 1.009 fulls que Gödel va escriure en una taquigrafia oblidada. Amb la IA d'Anthropic, en pocs dies va tenir un resum de tot el material i un catàleg de resultats, que ara cal revisar."
+      "title": "Un físic de la Universitat de Califòrnia proposa, amb l'ajuda de GPT-6 Astra, una manera de definir el Model Estàndard sencer en una graella",
+      "excerpt": "Nathaniel Craig diu que va posar l'estratègia i que el model d'OpenAI va portar el pes de la demostració. És una prepublicació encara no revisada per parells, i l'autor la presenta com una resposta «en principi», no com una solució definitiva."
     },
     {
-      "category": "PRODUCTES",
+      "category": "ECONOMIA",
       "read": "4 MIN",
-      "title": "Apple posa a la venda HomeView, una pantalla per a casa pensada per a la nova Siri, però no la ven a la Unió Europea",
-      "excerpt": "L'aparell, de 299 dòlars, reconeix fins a sis persones per la cara i mostra a cadascuna els seus missatges i el seu calendari. Apple diu que no el pot vendre a la UE perquè la nova Siri encara no hi és disponible."
+      "title": "La IA passa a ser el risc per a l'estabilitat financera que més citen els grans operadors del mercat, segons la Reserva Federal",
+      "excerpt": "L'informe semestral del banc central dels Estats Units recull que la IA encapçala la llista de preocupacions, per les valoracions de borsa, els ciberatacs i el finançament complex dels centres de dades, que ja suma més de 680.000 milions de dòlars en deute aquest any."
     },
     {
-      "category": "EMPRESES",
+      "category": "SALUT",
       "read": "4 MIN",
-      "title": "Mirendil, l'empresa d'antics investigadors d'Anthropic, capta 1.000 milions de dòlars per posar la recerca en IA avançada a l'abast de més equips",
-      "excerpt": "La ronda, encapçalada per Kleiner Perkins i Clearlake Capital, arriba només cinc mesos després de la primera. L'empresa diu que un sol investigador ajudat per agents va entrenar des de zero un model de programació en tres mesos i mig, amb menys de 10 milions en càlcul."
+      "title": "Apple estrena als Estats Units una aplicació per estudiar com fa servir la gent la IA per resoldre dubtes de salut",
+      "excerpt": "L'estudi, fet amb l'empresa OpenEvidence, vol reunir fins a 200.000 voluntaris durant més d'un any, que podran fer preguntes de salut, puntuar les respostes i, si volen, compartir-hi dades del seu iPhone."
     },
     {
-      "category": "CIÈNCIA",
+      "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Una IA de KAIST llegeix els llavis començant per les paraules que veu més clares, i s'equivoca menys que els sistemes anteriors",
-      "excerpt": "L'equip de l'institut coreà fa servir un model que no escriu la frase d'esquerra a dreta, sinó que omple primer els buits que té segurs i dedueix la resta pel context. El treball s'ha acceptat al congrés EMNLP 2026."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "4 MIN",
-      "title": "La prova d'Alpha School, l'escola que fa les matèries amb IA en dues hores al dia, s'encalla en un institut públic de Massachusetts",
-      "excerpt": "Famílies i mestres de Springfield es van assabentar del pla a l'últim moment i l'acord no deia si es gravarien la pantalla, la càmera o el micròfon dels alumnes. Un atac informàtic va acabar d'aturar-lo, i l'empresa diu que no té plans a l'estat."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Més de 115.000 persones demanen que Jensen Huang torni a dirigir Nvidia, entre elles Elon Musk i gairebé 6.000 empleats de l'empresa",
-      "excerpt": "Una petició en línia reclama al consell d'administració de Nvidia que restitueixi el seu fundador mentre una investigació independent aclareix els fets, i acusa l'empresa d'haver-lo fet fora sense garanties."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un eixam de robots petits endevina la forma de l'espai on és només passant-se missatges, sense càmeres ni mapes, segons «Science Robotics»",
-      "excerpt": "Un equip de la Universitat de la Sorbona i la Universitat de Tòquio fa que cada robot comparteixi un número amb els veïns, com si fos calor que s'escampa, i a partir de com s'iguala el grup reconeixen si són en un disc o en un anell."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Dario Amodei admet davant dels inversors que no sap què passarà l'any que ve i que el seu gran dilema és quanta capacitat de càlcul ha de comprar",
-      "excerpt": "A cinc dies de la sortida a borsa d'Anthropic, prevista per al 19 de novembre, el seu conseller delegat explica que ha de pagar els xips amb un o dos anys d'antelació sense saber si els ingressos ho cobriran."
-    },
-    {
-      "category": "MODELS",
-      "read": "3 MIN",
-      "title": "Gemini 4 Carbon passa al davant en la prova de matemàtiques MathArena, però cada exercici costa quinze vegades més que amb GPT-6.1 Sol",
-      "excerpt": "El nou model de Google obté un 85,4% de rendiment esperat i desplaça el d'OpenAI, que es queda tercer per darrere de Claude Fable 5.2 però continua sent de molt el més barat."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "3 MIN",
-      "title": "ElevenLabs prova ElevenAI, una aplicació per a equips que pren notes a les reunions i converteix la veu en text a qualsevol programa",
-      "excerpt": "L'empresa de veu artificial, valorada en 22.000 milions de dòlars, entra en un mercat on ja competeixen Granola, Fireflies i Wispr Flow, i hi suma un agent que pot fer feina a partir del que s'ha dit."
+      "title": "Les empreses d'IA s'omplen d'experts en contraespionatge: Anthropic n'ha contractat 33 aquest any, més del doble que el 2025",
+      "excerpt": "Les dades de Revelio Labs recollides per Reuters mostren que OpenAI, Anthropic i Nvidia busquen antics agents d'intel·ligència per protegir els seus secrets, amb sous de fins a mig milió de dòlars, mentre el cas de Jensen Huang posa el tema al centre."
     }
   ]
 }
