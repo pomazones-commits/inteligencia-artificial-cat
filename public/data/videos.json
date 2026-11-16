@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-16T12:03:42.918Z",
+ "actualitzat": "2026-11-16T17:15:54.130Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "vVVdxMwPBuA",
+   "titol": "How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-16T16:55:56.000Z",
+   "descripcio": "Check Point CTO Jonathan Zanger explains how his team uses OpenAI Daybreak to analyze vulnerabilities and turn findings into protections for customers. A vulnerability research workflow that once took hours can now be completed in minutes, according to Zanger. Read the full customer story: https://o",
+   "miniatura": "/assets/videos/vVVdxMwPBuA.jpg"
+  },
   {
    "id": "soNLXvgUqNY",
    "titol": "La Cousinade",
