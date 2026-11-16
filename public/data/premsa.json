@@ -1,8 +1,140 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-16T17:15:54.969Z",
+ "actualitzat": "2026-11-16T23:33:23.456Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f405f0769256",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Trump muestra su apoyo al regreso de Jensen Huang a la directiva de Nvidia",
+   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/17/2751427/trump-muestra-apoyo-regreso-jensen-huang-directiva-nvidia.html",
+   "publicat": "2026-11-16T23:05:00.000Z"
+  },
+  {
+   "id": "a74ef810fe23",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anna Macià Armengol: “La IA ens pot ajudar a predir l’evolució dels pacients amb melanoma”",
+   "url": "https://www.segre.com/ca/lectura/261116/anna-macia-armengol-ia-ens-pot-ajudar-predir-l-evolucio-dels-pacients-amb-melanoma_1400376.html",
+   "publicat": "2026-11-16T21:01:03.000Z"
+  },
+  {
+   "id": "d231ba3fadcd",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los líderes del Tesoro y Comercio chocan por las ventas de chips de Nvidia y dejan al descubierto las tensiones en la Administración Trump",
+   "url": "https://www.levante-emv.com/internacional/2026/11/16/escandalo-nvidia-136517209.html",
+   "publicat": "2026-11-16T20:24:48.000Z"
+  },
+  {
+   "id": "538a61e77d10",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La junta directiva de Nvidia no estudia restituir Huang després de la seva dimissió com a CEO",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/junta-directiva-nvidia-no-estudia-restituir-huang-dimissio-ceo_1726532_102.html",
+   "publicat": "2026-11-16T20:12:42.000Z"
+  },
+  {
+   "id": "9089d148caed",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La junta directiva de Nvidia no contempla restituir a Jensen Huang como CEO del gigante de los chips",
+   "url": "https://www.elperiodico.com/es/economia/20261116/junta-directiva-nvidia-contempla-restituir-136516097",
+   "publicat": "2026-11-16T19:34:07.000Z"
+  },
+  {
+   "id": "3930a3f5c220",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic pone a prueba el negocio de la IA con la mayor salida a bolsa de la historia",
+   "url": "https://www.lavanguardia.com/videos/claves-del-dia/20261116/11685867/anthropic-pone-prueba-negocio-ia-mayor-salida-bolsa-historia.html",
+   "publicat": "2026-11-16T18:54:45.000Z"
+  },
+  {
+   "id": "67b1c815af4b",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El mercat mundial de la IA es multiplicarà per 24 i fregarà els 5 bilions d'euros el 2040",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/mercat-mundial-ia-es-multiplicara-24-fregara-5-bilions-euros-2040_1726487_102.html",
+   "publicat": "2026-11-16T18:39:31.000Z"
+  },
+  {
+   "id": "bfb67a9b92fe",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Elche | La campaña electoral también embarra en Elche: de insultos y salidas de tono a memes y uso de IA",
+   "url": "https://alicanteplaza.es/alicanteplaza/elcheplaza/la-campana-electoral-tambien-embarra-en-elche-de-insultos-y-salidas-de-tono-a-memes-y-uso-de-ia",
+   "publicat": "2026-11-16T18:20:41.000Z"
+  },
+  {
+   "id": "2a6b8d37dc79",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Google detecta el primer ciberatac del tot automatitzat amb intel·ligència artificial",
+   "url": "https://www.vilaweb.cat/noticies/google-primer-ciberatac-automatitzat-intelligencia-artificial",
+   "publicat": "2026-11-16T18:13:16.000Z"
+  },
+  {
+   "id": "f0f189eb4584",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Liderazgo responsable para impulsar las organizaciones con IA",
+   "url": "https://www.lavanguardia.com/vida/20261116/11685760/smr.html",
+   "publicat": "2026-11-16T17:35:09.000Z"
+  },
+  {
+   "id": "14e2360e5297",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'Ibex-35 perd els 20.000 punts amb el mercat pendent d'Anthropic i Nvidia",
+   "url": "https://www.elnacional.cat/oneconomia/ca/economia/ibex-35-perd-20000-punts-mercat-pendent-anthropic-nvidia_1726463_102.html",
+   "publicat": "2026-11-16T17:30:33.000Z"
+  },
+  {
+   "id": "d8ef5d329459",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic sale a bolsa en Wall Street: así será la histórica oferta pública de acciones para los inversores",
+   "url": "https://www.lasprovincias.es/economia/empresas/anthropic-bolsa-wall-street-acciones-20261116152900-nt.html",
+   "publicat": "2026-11-16T17:20:00.000Z"
+  },
   {
    "id": "6f76af3a11ba",
    "mitja": "Cinco Días",
@@ -43,7 +175,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Trump dice que “no le importaría” si Jensen Huang vuelve a Nvidia",
+   "titol": "Trump afirma que “no tendría problema” en que Jensen Huang regrese a Nvidia",
    "url": "https://elpais.com/us/economia/2026-11-16/trump-dice-que-no-le-importaria-si-jensen-huang-vuelve-a-nvidia.html",
    "publicat": "2026-11-16T16:47:37.000Z"
   },
@@ -153,7 +285,7 @@
    "icona": "/assets/premsa/ara.svg",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Alts directius de Silicon Valley pressionen per restituir Huang al capdavant de Nvidia",
+   "titol": "Trump vol que Huang torni a Nvidia però el consell s’hi oposa",
    "url": "https://www.ara.cat/economia/tecnologia/alts-directius-silicon-valley-pressionen-restituir-huang-capdavant-nvidia_1_5912075.html",
    "publicat": "2026-11-16T12:38:58.000Z"
   },
@@ -2632,138 +2764,6 @@
    "titol": "Nvidia se plantea el despido de Jensen Huang por su relación con una espía china y con otra ejecutiva de la empresa",
    "url": "https://www.eldiario.es/tecnologia/nvidia-plantea-despido-jensen-huang-relacion-espia-china-ejecutiva-empresa_1_13656864.html",
    "publicat": "2026-11-12T06:02:33.000Z"
-  },
-  {
-   "id": "a57b63195417",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Hannah Arendt, la intel·ligència artificial, i la necessitat de ser crítics",
-   "url": "https://www.diaridegirona.cat/cultura/2026/11/12/hannah-arendt-intelligencia-artificial-necessitat-136303779.html",
-   "publicat": "2026-11-12T05:30:15.000Z"
-  },
-  {
-   "id": "81e37347d0b7",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las acciones de Nvidia se desploman casi un 8% tras la dimisión de su CEO Jensen Huang",
-   "url": "https://www.lavanguardia.com/economia/20261112/11682166/desplome-8-acciones-nvidia-dudas-sobre-futuro-jensen-huang.html",
-   "publicat": "2026-11-12T05:22:58.000Z"
-  },
-  {
-   "id": "812b6b7856ea",
-   "mitja": "El Periódico",
-   "font": "elperiodico-tec",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Jensen Huang dimiteix com a CEO de Nvidia després de l’escàndol per les seves relacions amb una presumpta espia i una empleada",
-   "url": "https://www.elperiodico.cat/internacional/20261112/nvidia-estudia-cessar-conseller-delegat-jensen-huang-relacio-presumpta-espia-xinesa-136352946",
-   "publicat": "2026-11-12T05:21:29.000Z"
-  },
-  {
-   "id": "48879f6ee091",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA i la crisi en l’ensenyament universitari",
-   "url": "https://www.diariodemallorca.es/bellver/2026/11/12/ia-crisi-l-ensenyament-universitari-136342851.html",
-   "publicat": "2026-11-12T05:01:27.000Z"
-  },
-  {
-   "id": "ed151bbc97fa",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Minervaly i Staybell guanyen els Actinn Awards amb dos projectes d’IA",
-   "url": "https://www.diariandorra.ad/nacional/261112/minervaly-i-staybell-guanyen-els-actinn-awards-amb-dos-projectes-d-ia_208602.html",
-   "publicat": "2026-11-12T04:53:54.000Z"
-  },
-  {
-   "id": "418b5c1beec2",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nvidia se desploma en Bolsa tras un nuevo escándalo de su consejero delegado y la acción pierde un 35% en un mes",
-   "url": "https://elpais.com/economia/2026-11-12/nvidia-sufre-una-tormenta-de-crisis-encadenadas-y-pierde-el-30-de-su-valor-bursatil-en-un-mes.html",
-   "publicat": "2026-11-12T04:45:00.000Z"
-  },
-  {
-   "id": "6e843f6543d7",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nvidia pone al centro de chips de Singapur en el punto de mira",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-12/nvidia-pone-al-centro-de-chips-de-singapur-en-el-punto-de-mira.html",
-   "publicat": "2026-11-12T04:45:00.000Z"
-  },
-  {
-   "id": "34f2cbed3ec9",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La IA tras las ‘midterms’: el Congreso y los Estados recuperan la voz",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-12/la-ia-tras-las-midterms-el-congreso-y-los-estados-recuperan-la-voz.html",
-   "publicat": "2026-11-12T04:40:00.000Z"
-  },
-  {
-   "id": "7969b2de9694",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Frenetic, la ‘start-up’ española que se hace fuerte en los transformadores eléctricos en la era de la IA",
-   "url": "https://elpais.com/economia/negocios/2026-11-12/la-espanola-frenetic-se-hace-fuerte-en-los-transformadores-electricos-en-la-era-de-la-ia.html",
-   "publicat": "2026-11-12T04:30:00.000Z"
-  },
-  {
-   "id": "f5bf9ad8ddde",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Amazon y Google amasan una fortuna de casi 400.000 millones de dólares en Anthropic",
-   "url": "https://elpais.com/economia/2026-11-12/amazon-y-google-amasan-una-fortuna-de-casi-400000-millones-de-dolares-en-anthropic.html",
-   "publicat": "2026-11-12T04:15:00.000Z"
-  },
-  {
-   "id": "c7c16fb67160",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nvidia prepara el despido de Jensen Huang al descubrirse que tenía otra amante, además de la espía",
-   "url": "https://www.lavanguardia.com/economia/20261112/11682155/nvidia-prepara-despido-jensen-huang-descubrirse-tenia-amante-espia.html",
-   "publicat": "2026-11-12T00:04:43.000Z"
-  },
-  {
-   "id": "a8deadc9eb6b",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nvidia ultima la destitución de su consejero delegado tras la revelación de una relación con una ejecutiva de la compañía",
-   "url": "https://elpais.com/us/2026-11-11/la-revelacion-de-una-nueva-relacion-extramarital-del-consejero-delegado-de-nvidia-compromete-su-futuro-en-la-compania.html",
-   "publicat": "2026-11-11T22:55:33.000Z"
   }
  ]
 }
