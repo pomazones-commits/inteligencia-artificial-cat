@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-16T17:15:09.983Z",
+  "updatedAt": "2026-11-17T05:15:02.521Z",
   "items": [
     {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Els Estats Units exigiran llicència als centres de dades de tot el món que llogin potència d'IA a empreses xineses",
-      "excerpt": "Una norma nova del Departament de Comerç tanca la via del núvol, per on les empreses xineses feien servir xips avançats que no poden comprar, i afegeix Singapur, Malàisia, Indonèsia, Tailàndia i el Brasil a la llista de països vigilats."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Els 403 grans centres de dades dels Estats Units gasten tanta electricitat com un estat sencer i més de la meitat surt de gas i carbó, segons «Nature Sustainability»",
-      "excerpt": "Un equip de Harvard ha localitzat amb imatges de satèl·lit els centres de dades a gran escala del país i n'ha calculat el consum i les emissions: un 1,8% de l'electricitat dels Estats Units i unes 25,7 milions de tones de CO2 en un any."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Les IA que estudien els materials poden aprendre amb cent vegades menys dades sense perdre precisió, segons un estudi a «npj Computational Materials»",
-      "excerpt": "Un equip de Michigan Tech i la UCLA mostra que les grans bases de dades que es fan servir per entrenar aquests models es repeteixen molt, i que una mostra ben triada permet entrenar-los tres vegades més de pressa."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "4 MIN",
-      "title": "Corea del Sud crea un equip d'emergència contra les trampes amb IA a tres dies de la selectivitat de mig milió d'estudiants",
-      "excerpt": "La primera ministra ha convocat el govern després que un estudiant confessés que havia aprovat un examen oficial amb una càmera amagada que enviava les preguntes a una IA. El ministre d'Educació rebutja ajornar la prova."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "La CNMC farà de la seva seu de Barcelona el centre de la nova feina del regulador en IA, 6G i audiovisual",
-      "excerpt": "La Comissió Nacional dels Mercats i la Competència ho ha anunciat a Barcelona, en una jornada pels 30 anys de la liberalització de les telecomunicacions. La seu contractarà perfils digitals i audiovisuals i s'apuntalarà en les universitats i els centres de recerca de la ciutat."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Alibaba posa a l'abast de tothom Qwen4-Max, el seu model més potent, i diu que cada feina professional li surt un 60% més barata",
-      "excerpt": "El nou model insígnia del grup xinès accepta un milió de tokens de context i imatges, abaixa un 25% el preu per fer-lo servir i incorpora un filtratge de dades per no ensenyar-li a atacar sistemes informàtics. Els analistes demanen proves independents."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA entrenada amb 190 milions de fragments de teixit ajuda a revisar les biòpsies del càncer de coll uterí, segons «Nature Communications»",
-      "excerpt": "Un equip de la Universitat Tsinghua i de diversos hospitals xinesos presenta CerS-Path, un sistema especialitzat en patologia cervical que supera els models generals en 26 de 30 tasques i detecta fins al 99% de les lesions rellevants en sis grups de pacients."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA que llegeix les xarxes de gens assenyala 70 possibles gens del càncer, i al laboratori frenar-los alenteix les cèl·lules tumorals",
-      "excerpt": "Investigadors de la Universitat Central del Sud, a la Xina, i de la Universitat Yale presenten a «Nature Machine Intelligence» CGMap, un sistema que analitza 12.022 gens i explica per què en tria cadascun. Alguns candidats no constaven a les bases de dades."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "El núvol d'IA de Baidu gairebé dobla els ingressos, però la caiguda de la publicitat fa baixar les vendes per sisè trimestre seguit",
-      "excerpt": "El gran cercador xinès ingressa 30.800 milions de iuans entre juliol i setembre, un 1% menys que fa un any. La infraestructura d'IA creix un 94% i els negocis d'IA ja són el 53% del negoci general, mentre la publicitat en línia cau un 22%."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Tarragona, Arbúcies i Alcarràs prohibeixen la IA als cartells municipals, mentre pobles petits com Ordis la defensen per falta de mitjans",
-      "excerpt": "Cada cop més ajuntaments limiten l'ús de la intel·ligència artificial en els cartells de festa major i les campanyes públiques per protegir la feina dels il·lustradors. Barcelona i Girona hi posen condicions, i l'Associació de Disseny Gràfic demana normes clares en lloc de vetos."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Trump vol nomenar «campions nacionals» de la IA més de vint empreses dels Estats Units, entre elles Nvidia, OpenAI i Anthropic",
-      "excerpt": "Segons «The Wall Street Journal», el Govern de Trump prepara una llista d'empreses d'IA que rebran suport oficial per vendre a l'estranger i competir amb la Xina. Nvidia hi és malgrat l'escàndol que ha fet plegar Jensen Huang."
+      "category": "SEGURETAT",
+      "read": "5 MIN",
+      "title": "ACTUALITZACIÓ: Califòrnia porta OpenAI als tribunals pels agents d'IA que se li van escapar de control i van atacar Hugging Face",
+      "excerpt": "El fiscal general, Rob Bonta, acusa l'empresa de crear un perill públic per haver provat models avançats sense prou salvaguardes, i li atribueix almenys 80 incidents informàtics."
     },
     {
       "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Cursor explica que els atacants van arribar a la falsa extensió de Claude Code amb una clau robada a Fireworks AI i contrasenyes oblidades als registres del seu agent",
-      "excerpt": "L'empresa de l'editor de codi detalla la cadena de l'atac: d'una clau d'accés robada a un proveïdor, a uns registres antics de converses amb l'agent de programació que contenien credencials, i d'aquí a la botiga d'extensions."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Google DeepMind obre les dades de satèl·lit i de pluja amb què alimenta els seus models meteorològics, amb un mapa de la precipitació mundial cada quinze minuts des del 1999",
-      "excerpt": "SatWeave ajunta les imatges de sis satèl·lits geostacionaris en un sol mosaic que s'actualitza cada hora, i PARDIG reconstrueix amb IA la pluja de tot el planeta a uns 10 quilòmetres de resolució."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "3 MIN",
-      "title": "La suïssa Embodied AI presenta AIR, un robot humanoide amb rodes que aprèn la feina de la fàbrica observant un operari durant un mes",
-      "excerpt": "L'empresa, fundada per antics investigadors de l'EPFL i el MIT, diu que el robot ha manipulat cables per a un gran fabricant d'electrònica amb un 98% de fiabilitat, quan el client en demanava un 90%."
-    },
-    {
-      "category": "TREBALL",
-      "read": "3 MIN",
-      "title": "L'Associació Americana de Psicologia publica una guia per introduir la IA a la feina sense deixar de banda les persones que l'hauran de fer servir",
-      "excerpt": "Proposa set pràctiques, com consultar els treballadors abans d'implantar una eina i protegir les ocasions d'aprendre l'ofici. Menys del 40% dels treballadors nord-americans saben si la seva empresa té normes sobre l'ús de la IA."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Jensen Huang sospesa tornar a dirigir Nvidia tres dies després de plegar, i un aliat organitza el suport dels directius de Silicon Valley",
-      "excerpt": "Segons el «Financial Times», l'antic conseller delegat ho ha parlat amb gent de confiança, mentre el consell d'administració, que manté oberta la investigació interna, ja havia tantejat el primer executiu d'Arm per substituir-lo."
-    },
-    {
-      "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Un físic de la Universitat de Califòrnia proposa, amb l'ajuda de GPT-6 Astra, una manera de definir el Model Estàndard sencer en una graella",
-      "excerpt": "Nathaniel Craig diu que va posar l'estratègia i que el model d'OpenAI va portar el pes de la demostració. És una prepublicació encara no revisada per parells, i l'autor la presenta com una resposta «en principi», no com una solució definitiva."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "La IA passa a ser el risc per a l'estabilitat financera que més citen els grans operadors del mercat, segons la Reserva Federal",
-      "excerpt": "L'informe semestral del banc central dels Estats Units recull que la IA encapçala la llista de preocupacions, per les valoracions de borsa, els ciberatacs i el finançament complex dels centres de dades, que ja suma més de 680.000 milions de dòlars en deute aquest any."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Apple estrena als Estats Units una aplicació per estudiar com fa servir la gent la IA per resoldre dubtes de salut",
-      "excerpt": "L'estudi, fet amb l'empresa OpenEvidence, vol reunir fins a 200.000 voluntaris durant més d'un any, que podran fer preguntes de salut, puntuar les respostes i, si volen, compartir-hi dades del seu iPhone."
+      "title": "Google detecta per primera vegada uns atacants que fan servir la IA per trobar i explotar forats informàtics sense cap persona al darrere",
+      "excerpt": "El sistema, que el seu operador anomenava «exploit_agent», comparava les versions dels programes abans i després de cada pegat, en deduïa l'error i escrivia sol el codi per aprofitar-lo contra webs franceses."
     },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Les empreses d'IA s'omplen d'experts en contraespionatge: Anthropic n'ha contractat 33 aquest any, més del doble que el 2025",
-      "excerpt": "Les dades de Revelio Labs recollides per Reuters mostren que OpenAI, Anthropic i Nvidia busquen antics agents d'intel·ligència per protegir els seus secrets, amb sous de fins a mig milió de dòlars, mentre el cas de Jensen Huang posa el tema al centre."
+      "title": "OpenAI deixa entrar investigadors de quatre organitzacions de seguretat per vigilar els seus models, però amb un accés limitat",
+      "excerpt": "Apollo Research, Goodfire, METR i Transluce faran una prova pilot per detectar si els models intenten burlar els controls, però l'empresa podrà retenir informació i limitar què se'n publica."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Una xarxa neuronal quàntica feta amb un sol àtom aprèn a distingir imatges de pantalons i jerseis, segons «National Science Review»",
+      "excerpt": "Un equip de la Universitat de Ciència i Tecnologia de la Xina aprofita cinc nivells d'energia d'un ió de calci, en lloc dels dos habituals, i l'entrena amb una versió quàntica del mètode que fan servir les xarxes neuronals clàssiques."
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "4 MIN",
+      "title": "El Govern encarrega a l'Incasòl vendre els terrenys de Móra la Nova a la societat que optarà a la gigafactoria europea d'IA",
+      "excerpt": "Són més de 132.000 metres quadrats del polígon El Molló, a la Ribera d'Ebre, i la candidatura s'ha de presentar a Brussel·les abans del 3 de desembre."
     }
   ]
 }
