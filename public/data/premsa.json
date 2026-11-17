@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-17T05:15:46.414Z",
+ "actualitzat": "2026-11-17T09:14:33.663Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "5ea5382cfee6",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "JP Morgan calcula que la IA podría sustituir 24 millones de empleos en el mundo en cinco años, sin implicar despidos masivos",
+   "url": "https://www.elperiodico.com/es/economia/20261117/jp-morgan-calcula-ia-sustituir-136526805",
+   "publicat": "2026-11-17T09:00:30.000Z"
+  },
+  {
+   "id": "c004f9048e98",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Xbox Project Helix ejecutará juegos de PC y utilizará inteligencia artificial para mejorar los gráficos",
+   "url": "https://www.diariodemallorca.es/vida-y-estilo/tecnologia/2026/11/17/xbox-project-helix-ejecutara-juegos-136526546.html",
+   "publicat": "2026-11-17T08:49:51.000Z"
+  },
+  {
+   "id": "56d5dd4bf7da",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Google Maps lanza en España Ask Maps, su chatbot con IA, que ya permite crear itinerarios personalizados",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/17/2751477/google-maps-lanza-espana-ask-maps-chatbot-permite-crear-itinerarios-personalizados.html",
+   "publicat": "2026-11-17T08:34:58.000Z"
+  },
+  {
+   "id": "24b12f9ba7b0",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Govern prepara el terreno para establecer la gigafactoría europea de IA en Móra la Nova",
+   "url": "https://www.lavanguardia.com/local/tarragona/20261117/11686189/govern-prepara-terreno-establecer-gigafactoria-europea-ia-mora-nova.html",
+   "publicat": "2026-11-17T08:23:54.000Z"
+  },
+  {
+   "id": "bf0881512a45",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nerviosismo en las Bolsas por las trabas tecnológicas de EE UU a China y con el foco en Nvidia",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-17/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-11-17T08:02:46.000Z"
+  },
+  {
+   "id": "cc146f550102",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Corea del Sud actua contra l'ús de la IA a la selectivitat després del frau en unes oposicions",
+   "url": "https://www.3cat.cat/3catinfo/corea-del-sud-actua-contra-lus-de-la-ia-a-la-selectivitat-despres-del-frau-en-unes-oposicions/noticia/3440187",
+   "publicat": "2026-11-17T06:18:01.000Z"
+  },
   {
    "id": "b8fc23101fcb",
    "mitja": "El Periódico",
@@ -2700,72 +2766,6 @@
    "titol": "Alice Huang, la presunta espía china en el centro del caso Nvidia, ha regresado a Pekín",
    "url": "https://elpais.com/economia/2026-11-12/alice-huang-la-presunta-espia-china-en-el-centro-del-caso-nvidia-ha-regresado-a-pekin.html",
    "publicat": "2026-11-12T09:34:59.000Z"
-  },
-  {
-   "id": "f7e28f247387",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "A propósito del caso Nvidia: qué nos enseña la historia del espionaje sobre la seguridad tecnológica actual",
-   "url": "https://www.diariodemallorca.es/vida-y-estilo/tecnologia/2026/11/12/proposito-caso-nvidia-ensena-historia-espionaje-seguridad-tecnologica-actual-136358340.html",
-   "publicat": "2026-11-12T09:32:25.000Z"
-  },
-  {
-   "id": "9e9375d00062",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Quiénes son los candidatos a suceder a Jensen Huang al frente de Nvidia? Desde un ejecutivo interno a uno de sus hijos",
-   "url": "https://www.lavanguardia.com/economia/20261112/11682267/quienes-son-candidatos-suceder-jensen-huang-frente-nvidia-ejecutivo-interno-hijos.html",
-   "publicat": "2026-11-12T09:26:29.000Z"
-  },
-  {
-   "id": "19529fb59aa6",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Jensen Huang, conseller delegat de Nvidia, dimiteix pels escàndols amorosos",
-   "url": "https://www.ara.cat/economia/tecnologia/accions-nvidia-cauen-possible-destitucio-huang-arran-l-escandol-l-amant-espia_1_5907885.html",
-   "publicat": "2026-11-12T09:23:57.000Z"
-  },
-  {
-   "id": "7cdc408a7e92",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nvidia decidir si destituye a su CEO Jensen Huang tras confirmar otra relación extramatrimonial",
-   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/12/2748199/nvidia-decidir-destituye-ceo-jensen-huang-tras-confirmar-otra-relacion-extramatrimonial.html",
-   "publicat": "2026-11-12T09:19:00.000Z"
-  },
-  {
-   "id": "d6fdaaa4541e",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El IBEX pierde los 20.000 puntos y cede un 0,31 % por el efecto Nvidia y los resultados",
-   "url": "https://www.informacion.es/economia/2026/11/12/ibex-35-mantiene-20-000-puntos-resultados-empresariales-136356446.html",
-   "publicat": "2026-11-12T08:47:01.000Z"
-  },
-  {
-   "id": "e03dbd33939f",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "¿Quién puede sustituir a Jensen Huang como consejero delegado de Nvidia? Un ingeniero y la directora financiera, entre los candidatos favoritos",
-   "url": "https://elpais.com/economia/2026-11-12/quien-sustituira-a-jensen-huang-como-ceo-de-nvidia-un-ingeniero-y-la-directora-financiera-entre-los-candidatos-favoritos.html",
-   "publicat": "2026-11-12T08:44:17.000Z"
   }
  ]
 }
