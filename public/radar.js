@@ -1,5 +1,29 @@
 window.IA_RADAR = [
   {
+    "place": "Andorra",
+    "category": "IA I SOCIETAT",
+    "date": "17.11.2026",
+    "title": "Andorra Recerca + Innovació i el BSC obren un programa de tres anys perquè les empreses andorranes facin servir la supercomputació i la IA",
+    "summary": "El programa costarà 400.000 euros, el paga el Govern d'Andorra i és gratuït per a les empreses. Començarà el 9 de desembre amb una jornada de presentació, i fins a deu empreses rebran assessorament a mida.",
+    "detail": "Andorra vol fer servir la seva mida i el seu entorn de muntanya com a banc de proves de tecnologia. En aquest marc, Andorra Recerca + Innovació (ARI) i el Barcelona Supercomputing Center (BSC) van signar el 31 d'octubre del 2025 una declaració d'intencions per col·laborar, que ara es concreta en un acord perquè les empreses del país puguin fer servir la supercomputació, la intel·ligència artificial i l'anàlisi de dades, segons informa el Diari d'Andorra.\n\nEl programa tindrà dues línies. La primera és de formació i seguiment de la innovació, amb sessions en línia i presencials impartides per personal de l'ARI i del BSC i obertes a empreses de tots els sectors. La segona és un pla de transferència de tecnologia que començarà identificant quines de les més de 600 tecnologies del BSC encaixen millor amb Andorra. Després, fins a deu empreses rebran un assessorament personalitzat per incorporar-les als seus projectes. Els àmbits prioritaris són la salut, l'esport, la natura, el transport i la construcció sostenible.\n\nEl programa durarà tres anys i té un pressupost de 400.000 euros, subvencionat pel Govern, de manera que no costarà res a les empreses participants. El primer pas serà una jornada el 9 de desembre per presentar la supercomputació i les seves aplicacions empresarials, amb una sessió perquè el BSC i les empreses locals es coneguin. Les accions principals es faran durant el 2027.\n\nÉs una iniciativa de difusió i acompanyament, no un projecte amb resultats encara. El pressupost és modest per a tres anys i l'assessorament a fons es limita a deu empreses, en un teixit empresarial on predominen les petites empreses de comerç i turisme. Caldrà veure quantes s'hi apunten i si alguna arriba a fer servir de debò la capacitat de càlcul del BSC en un projecte propi.",
+    "source": "Diari d'Andorra",
+    "url": "https://www.diariandorra.ad/nacional/261117/l-ari-i-barcelona-supercomputing-center-impulsen-programa-per-acostar-supercomputacio-i-ia-les-empreses_208979.html",
+    "image": "./assets/ari-bsc-programa-supercomputacio-ia-empreses-andorra-20261117.jpg",
+    "slug": "ari-bsc-programa-supercomputacio-ia-empreses-andorra"
+  },
+  {
+    "place": "Illes Balears",
+    "category": "IA I SOCIETAT",
+    "date": "17.11.2026",
+    "title": "Un equip de la UIB i de Son Espases proposa una manera nova de mesurar si els sanitaris confien massa, o massa poc, en la IA",
+    "summary": "La mètrica de la Universitat de les Illes Balears creua l'encert de les prediccions del sistema amb la decisió de l'usuari de fiar-se o no de les explicacions que rep, i s'ha provat amb radiografies de tòrax.",
+    "detail": "Els sistemes d'IA que ajuden a diagnosticar sovint expliquen per què arriben a una conclusió, perquè el metge decideixi si se'n fia. Però mesurar aquesta confiança és complicat: un professional pot fiar-se d'una predicció errònia o rebutjar-ne una de correcta, i les mesures habituals no sempre ho distingeixen.\n\nUn equip de la Universitat de les Illes Balears (UIB), amb investigadors de la Unitat de Gràfics i Visió per Ordinador (UGiVIA), del Laboratori d'Aplicacions d'IA (Laia@UIB) i de l'Idisba, juntament amb professionals de l'Hospital Universitari Son Espases i un investigador de la Universitat de Normandia, proposa una mètrica nova. Creua l'encert de les prediccions del sistema amb la decisió de l'usuari de confiar o no en les explicacions, de manera que detecta tant l'excés de confiança com la falta de confiança. L'han validat amb diversos casos, entre ells el diagnòstic assistit de pneumònia associada a la covid a partir de radiografies de tòrax.\n\nSegons els autors, el mètode dona una visió més completa i objectiva de la relació entre les persones i la IA que les mesures fetes servir fins ara. També conclouen que la confiança dels sanitaris en aquests sistemes és fràgil i depèn de la qualitat de les explicacions i de la precisió dels models.\n\nLa informació publicada no detalla quants professionals hi van participar ni on s'ha publicat el treball, i la proposta és una eina de mesura, no un sistema clínic en funcionament. La seva utilitat dependrà que altres equips l'adoptin per comparar sistemes diferents.",
+    "source": "Última Hora (Europa Press)",
+    "url": "https://www.ultimahora.es/noticias/local/2026/11/17/2751789/estudio-uib-propone-nueva-metodologia-para-medir-confianza-profesionales-sanitarios-ia.html",
+    "image": "./assets/uib-metode-mesurar-confianca-sanitaris-ia-20261117.jpg",
+    "slug": "uib-metode-mesurar-confianca-sanitaris-ia"
+  },
+  {
     "place": "Tarragona",
     "category": "IA I SOCIETAT",
     "date": "17.11.2026",
@@ -70,29 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.diaridetarragona.com/tarragona/275367/tercera-bronca-juez-abogado-tarragona-abusar-ia-mala-fe-procesal.html",
     "image": "./assets/tsjc-advocat-tarragona-recursos-ia-mala-fe-20261114.jpg",
     "slug": "tsjc-advocat-tarragona-recursos-ia-mala-fe"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "14.11.2026",
-    "title": "L'Hospital Vall d'Hebron farà bessons digitals dels òrgans dels pacients per provar els tractaments abans d'aplicar-los",
-    "summary": "El projecte té 11,7 milions d'euros de fons europeus i deu línies de treball, de la cardiologia a la migranya. Els primers models no estaran a punt per validar-los a la consulta fins a final del 2029.",
-    "detail": "Un bessó digital és una còpia virtual d'un objecte real que es comporta com l'original i permet fer-hi proves sense tocar-lo. A la indústria fa anys que se'n fan de fàbriques i de motors; a la medicina, la idea és fer-ne d'òrgans i de processos del cos d'un pacient concret, a partir de les seves imatges mèdiques, la seva història clínica i les seves dades genètiques, i fer servir la intel·ligència artificial per preveure com evolucionarà.\n\nL'Hospital Universitari Vall d'Hebron, de Barcelona, ha posat en marxa un projecte per fer-ho a escala, amb 11,7 milions d'euros del Fons Europeu de Desenvolupament Regional, dins de la Plataforma de Tecnologies Estratègiques per a Europa (STEP). Té deu línies de treball en àrees mèdiques diferents, de la cardiologia a la migranya, i l'hospital hi farà acords amb empreses tecnològiques que hi col·laboraran. A diferència dels models en 3D que ja es fan servir per preparar operacions, aquests bessons han de poder simular com avança una malaltia i què passaria amb un tractament o una intervenció abans de fer-los. Manel Escobar, director clínic de Radiodiagnòstic i Medicina Nuclear, parla d'aconseguir «un avatar digital» de cada pacient, i posa l'exemple de deu pacients amb migranya que evolucionen i responen als fàrmacs de manera diferent.\n\nSi funciona, la promesa és una medicina més personalitzada: escollir el tractament segons com respondria el cos d'aquell pacient i no segons la mitjana. «És una manera de fer proves al meu cor sense que sigui el meu cor», explica Isidre Barrachina, un pacient de 63 anys amb arrítmies, a Catalan News. Escobar remarca que són eines de suport a la decisió clínica i que no la substitueixen.\n\nEl projecte es va presentar a principi de novembre i és a l'inici: l'hospital preveu tenir els primers models a punt per validar-los clínicament a final del 2029, i no ha dit amb quines empreses hi treballarà. Que un model simuli bé un òrgan en el laboratori no vol dir que encerti en cada pacient real; caldrà veure'n els resultats de la validació abans de saber fins on arriba.",
-    "source": "Catalan News",
-    "url": "https://www.catalannews.com/tech-science/item/barcelona-hospital-to-create-virtual-patient-replicas-to-predict-disease-progression-and-personalize-treatments",
-    "image": "./assets/vall-hebron-bessons-digitals-organs-pacients-20261114.jpg",
-    "slug": "vall-hebron-bessons-digitals-organs-pacients"
-  },
-  {
-    "place": "València",
-    "category": "IA I SOCIETAT",
-    "date": "13.11.2026",
-    "title": "Una IA de la Politècnica de València compara el que fan els diputats al Congrés amb el que van prometre als programes electorals",
-    "summary": "L'eina de l'institut VRAIN busca als programes del 2023 el compromís que correspon a cada iniciativa parlamentària i en cita el passatge exacte. En una primera anàlisi, troba coherència en quatre de cada cinc casos.",
-    "detail": "Saber si un partit fa el que va prometre és una de les feines més pesades del periodisme i de la ciència política: els programes electorals són llargs, sovint vagues, i l'activitat d'un parlament genera milers d'iniciatives. Un equip de l'Institut Valencià de Recerca en Intel·ligència Artificial (VRAIN), de la Universitat Politècnica de València, ha provat d'automatitzar-ne la part més mecànica.\n\nEl treball, liderat per Amalia Pons i Antoni Mestre amb Vicente Botti, Manoli Albert i Vicente Pelechano, es titula «Following the Promise: Retrieval-Augmented Analysis of Parliamentary Action». En lloc de respondre amb el que ha après durant l'entrenament, el sistema consulta directament els programes electorals del 2023, hi busca els compromisos relacionats amb cada iniciativa del Congrés dels Diputats i la classifica com a coherent, parcialment coherent, contradictòria o sense prou proves per decidir-ho, amb la cita del passatge en què es basa. En una primera anàlisi, el PSOE i Vox surten amb una coherència d'un 80% i el PP i Sumar, d'un 65%.\n\nL'interès és sobretot de mètode: un dels grans problemes dels models de llenguatge és que s'inventen dades, i aquesta eina està pensada perquè cada judici es pugui comprovar a la font. Els autors diuen que la coherència no sembla dependre de la ideologia i ho atribueixen al paper de cada partit, com la doble posició del PP, a l'oposició al Congrés i al govern en diverses comunitats. «No es tracta que una intel·ligència artificial decideixi si un polític compleix o incompleix les seves promeses», diu Pons: l'objectiu és ajudar periodistes, investigadors i ciutadans.\n\nEls resultats són preliminars i la universitat no diu on s'ha publicat el treball, quantes iniciatives s'hi han analitzat ni en quin període, ni ha donat xifres de quantes vegades s'equivoca el sistema. Molts compromisos són vagues, condicionals o a llarg termini, i l'eina avisa quan no hi ha prou proves. Les xifres per partit s'han de llegir amb precaució: mesuren la relació entre programa i iniciatives, no si les promeses s'han complert.",
-    "source": "UPV-VRAIN",
-    "url": "https://vrain.upv.es/cumplen-los-politicos-lo-que-prometen/",
-    "image": "./assets/upv-vrain-ia-promeses-electorals-congres-20261113.jpg",
-    "slug": "upv-vrain-ia-promeses-electorals-congres"
   }
 ];
