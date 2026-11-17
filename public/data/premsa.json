@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-16T23:33:23.456Z",
+ "actualitzat": "2026-11-17T05:15:46.414Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "b8fc23101fcb",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Espías, una dimisión y dudas sobre el relato de la IA: Nvidia afronta su examen más incómodo tras la salida de Huang",
+   "url": "https://www.elperiodico.com/es/economia/20261117/espias-dimision-dudas-relato-ia-136521248",
+   "publicat": "2026-11-17T05:01:30.000Z"
+  },
+  {
+   "id": "6256808ba4ea",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Por qué se espera un crac de la IA",
+   "url": "https://www.lavanguardia.com/economia/20261117/11685349/espera-crac-ia.html",
+   "publicat": "2026-11-17T05:00:00.000Z"
+  },
+  {
+   "id": "2c816a205058",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic permite acudir a su OPV en España con varias entidades y optar a más acciones",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-17/anthropic-permite-acudir-a-su-opv-en-espana-con-varias-entidades-y-optar-a-mas-acciones.html",
+   "publicat": "2026-11-17T04:30:01.000Z"
+  },
+  {
+   "id": "492178ff6242",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El turbofondo sobre Anthropic que llega a la Bolsa y promete multiplicar por tres sus movimientos",
+   "url": "https://cincodias.elpais.com/fondos-y-planes/2026-11-17/el-turbofondo-sobre-anthropic-que-llega-a-la-bolsa-y-promete-multiplicar-por-tres-sus-movimientos.html",
+   "publicat": "2026-11-17T04:30:01.000Z"
+  },
+  {
+   "id": "4e5726d57956",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Si es lujo es sin IA: cómo la moda se desmarca y apuesta por la Navidad más artesanal",
+   "url": "https://elpais.com/smoda/2026-11-17/si-es-lujo-es-sin-ia-como-la-moda-se-desmarca-y-apuesta-por-la-navidad-mas-artesanal.html",
+   "publicat": "2026-11-17T04:30:01.000Z"
+  },
+  {
+   "id": "83f0215f5465",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El divorci que pagaran els accionistes de Nvidia",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/divorci-pagaran-accionistes-nvidia_1725992_102.html",
+   "publicat": "2026-11-17T04:30:00.000Z"
+  },
+  {
+   "id": "b96fa35a9571",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "China, demanda a largo plazo y liderazgo: claves para no perderse en los resultados de Nvidia",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-17/china-demanda-a-largo-plazo-y-liderazgo-claves-para-no-perderse-en-los-resultados-de-nvidia.html",
+   "publicat": "2026-11-17T04:25:00.000Z"
+  },
+  {
+   "id": "1b70649fbb27",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El BCE plantea una oleada de inspecciones a los bancos por la inteligencia artificial y el fraude",
+   "url": "https://cincodias.elpais.com/companias/2026-11-17/el-bce-plantea-una-oleada-de-inspecciones-a-los-bancos-por-la-inteligencia-artificial-y-el-fraude.html",
+   "publicat": "2026-11-17T04:15:00.000Z"
+  },
   {
    "id": "f405f0769256",
    "mitja": "Última Hora",
@@ -232,7 +320,9 @@
    "ambit": "catala",
    "titol": "El Govern da el paso definitivo para implantar la gigafactoría de IA en Móra la Nova",
    "url": "https://www.diaridetarragona.com/economia/275864/govern-da-paso-definitivo-implantar-gigafactoria-ia-mora-nova.html",
-   "publicat": "2026-11-16T15:04:08.000Z"
+   "publicat": "2026-11-16T15:04:08.000Z",
+   "noticia": "mora-la-nova-gigafactoria-ia-terrenys-incasol",
+   "noticiaTitol": "El Govern encarrega a l'Incasòl vendre els terrenys de Móra la Nova a la societat que optarà a la gigafactoria europea d'IA"
   },
   {
    "id": "91828de8156a",
@@ -2676,94 +2766,6 @@
    "titol": "¿Quién puede sustituir a Jensen Huang como consejero delegado de Nvidia? Un ingeniero y la directora financiera, entre los candidatos favoritos",
    "url": "https://elpais.com/economia/2026-11-12/quien-sustituira-a-jensen-huang-como-ceo-de-nvidia-un-ingeniero-y-la-directora-financiera-entre-los-candidatos-favoritos.html",
    "publicat": "2026-11-12T08:44:17.000Z"
-  },
-  {
-   "id": "e968cde6d615",
-   "mitja": "À Punt",
-   "font": "apunt",
-   "icona": "/assets/premsa/a-punt.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia avalua la destitució del CEO, de qui s'ha revelat una segona infidelitat amb una subordinada",
-   "url": "https://www.apuntmedia.es/noticies/mon/nvidia-avalua-destitucio-ceo-s-revelat-una-segona-infidelitat-una-subordinada_1_1908345.html",
-   "publicat": "2026-11-12T08:29:49.000Z"
-  },
-  {
-   "id": "0a0c9f9e9349",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Las Bolsas cotizan en positivo y obvian la caída de Nvidia",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-12/la-bolsa-y-el-ibex-35.html",
-   "publicat": "2026-11-12T08:12:09.000Z"
-  },
-  {
-   "id": "acb637251d7f",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia prepara l'acomiadament de Jensen Huang pel cas de la presumpta espia",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nvidia-prepara-acomiadament-jensen-huang-cas-presumpta-espia_1724225_102.html",
-   "publicat": "2026-11-12T07:41:21.000Z"
-  },
-  {
-   "id": "4dc6302319c3",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Elon Musk tercia en el escándalo del CEO de Nvidia: “Sería un honor contratar a Jensen Huang”",
-   "url": "https://elpais.com/economia/2026-11-12/elon-musk-tercia-en-el-escandalo-del-ceo-de-nvidia-seria-un-honor-contratar-a-jensen-huang.html",
-   "publicat": "2026-11-12T07:29:12.000Z"
-  },
-  {
-   "id": "662a4a49c3ec",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Elon Musk asegura que “sería un honor” contratar al Jensen Huang tras su salida de Nvidia",
-   "url": "https://www.lavanguardia.com/economia/20261112/11682184/elon-musk-asegura-seria-honor-contratar-jensen-huang-rampa-salida-nvidia.html",
-   "publicat": "2026-11-12T07:29:02.000Z"
-  },
-  {
-   "id": "8571d1925f3a",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia valora d’acomiadar el conseller delegat arran dels escàndols extramatrimonials",
-   "url": "https://www.vilaweb.cat/noticies/nvidia-valora-dacomiadar-el-conseller-delegat-arran-dels-escandols-extramatrimonials",
-   "publicat": "2026-11-12T07:27:27.000Z"
-  },
-  {
-   "id": "df2444c167f7",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Jensen Huang dimite como director ejecutivo de Nvidia tras el escándalo por sus relaciones con una presunta espía y dos empleadas",
-   "url": "https://www.informacion.es/internacional/2026/11/12/nvidia-estudia-cesar-consejero-delegado-jensen-huang-relacion-presunta-espia-china-136352926.html",
-   "publicat": "2026-11-12T06:21:29.000Z"
-  },
-  {
-   "id": "eaa008244577",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nvidia se plantea el despido de Jensen Huang por su relación con una espía china y con otra ejecutiva de la empresa",
-   "url": "https://www.eldiario.es/tecnologia/nvidia-plantea-despido-jensen-huang-relacion-espia-china-ejecutiva-empresa_1_13656864.html",
-   "publicat": "2026-11-12T06:02:33.000Z"
   }
  ]
 }
