@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-16T13:17:54.852Z",
+  "generat": "2026-11-17T05:15:47.904Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -96,7 +96,7 @@
       "programa": "El pla B",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 3
     },
     {
       "font": "omny",
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 10,
+      "audios": 9,
       "sobre_ia": 0
     },
     {
@@ -177,5 +177,23 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "rtve-17317162",
+      "emissora": "Ràdio 4",
+      "programa": "El pla B",
+      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
+      "data": "2026-11-16",
+      "durada": "29 min",
+      "titol_original": "Open data i IA",
+      "descripcio_original": "Acabem el programa amb la secció de Carmen Domingo, que avui parla d’open data i intel·ligència artificial. Ho analitzem també amb Lourdes Muñoz, enginyera de dades.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-open-data-ia/17317162/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17317162"
+      }
+    }
+  ]
 }
