@@ -1,8 +1,184 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-17T09:14:33.663Z",
+ "actualitzat": "2026-11-17T13:15:07.861Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "c7a88905b5b1",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Govern ordena vender los terrenos para poder acoger la gigafactoría europea de IA en Móra la Nova",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261117/generalitat-aprueba-venta-terrenos-gigafactoria-ia-mora-nova-tarragona-govern-catalunya-136538022",
+   "publicat": "2026-11-17T13:09:40.000Z"
+  },
+  {
+   "id": "501d5ca3c496",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La 'startup' de diseño de moda con IA Fermat capta 8 millones y se expande hacia Nueva York",
+   "url": "https://www.elperiodico.com/es/economia/20261117/startup-diseno-moda-ia-fermat-136534717",
+   "publicat": "2026-11-17T12:33:28.000Z"
+  },
+  {
+   "id": "2b32ced4d33d",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El escritor Jorge Carrión habla en Alicante del museo del futuro, el arte expandido y la IA",
+   "url": "https://www.informacion.es/cultura/2026/11/17/jorge-carrion-habla-alicante-museo-futuro-136535750.html",
+   "publicat": "2026-11-17T12:31:33.000Z"
+  },
+  {
+   "id": "6a99c9f607cf",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El cartel del Carnaval de Vilanova 2027 desata la polémica por la presencia de Franco y el uso de la IA",
+   "url": "https://www.elperiodico.com/es/barcelona/20261117/cartel-carnaval-vilanova-2027-desata-polemica-presencia-francisco-franco-uso-de-la-ia-136534989",
+   "publicat": "2026-11-17T12:29:34.000Z"
+  },
+  {
+   "id": "7e8718bf5597",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La OTAN utiliza la IA de una empresa acusada en EEUU de falta de seguridad y de poner a la población en peligro",
+   "url": "https://www.elperiodico.com/es/internacional/20261117/otan-utiliza-ia-empresa-acusada-ciberseguridad-openai-militar-chatgpt-denuncia-136535074",
+   "publicat": "2026-11-17T12:25:44.000Z"
+  },
+  {
+   "id": "cfa91e79232d",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia busca apaivagar el mercat amb els primers resultats sense Huang",
+   "url": "https://www.ara.cat/economia/tecnologia/nvidia-busca-apaivagar-mercat-primers-resultats-huang_1_5913077.html",
+   "publicat": "2026-11-17T12:21:00.000Z"
+  },
+  {
+   "id": "be3cd35356f8",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L’ARI i el Barcelona Supercomputing Center impulsen un programa per acostar la supercomputació i la IA a les empreses",
+   "url": "https://www.diariandorra.ad/nacional/261117/l-ari-i-barcelona-supercomputing-center-impulsen-programa-per-acostar-supercomputacio-i-ia-les-empreses_208979.html",
+   "publicat": "2026-11-17T12:12:38.000Z"
+  },
+  {
+   "id": "9faa8d35be58",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Graupera ‘ressuscita’ Xirinacs amb la IA entre una pluja de crítiques",
+   "url": "https://www.ara.cat/politica/graupera-ressuscita-xirinacs-ia-pluja-critiques_1_5913074.html",
+   "publicat": "2026-11-17T11:55:12.000Z"
+  },
+  {
+   "id": "55bf7de015d6",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Apple añade nuevos controles al acceso total al disco en macOS ante los riesgos de los agentes de IA",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/17/2751689/apple-anade-nuevos-controles-acceso-total-disco-macos-ante-riesgos-agentes-ia.html",
+   "publicat": "2026-11-17T11:50:00.000Z"
+  },
+  {
+   "id": "b64f42b9443e",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "OpenAI lanza una herramienta para detectar material de abuso infantil creado con IA y endurece la prevención en ChatGPT",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/17/2751631/openai-lanza-herramienta-para-detectar-material-abuso-infantil-creado-endurece-prevencion-chatgpt.html",
+   "publicat": "2026-11-17T11:04:00.000Z"
+  },
+  {
+   "id": "dafbfde51ee3",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia descarta restituir a Jensen Huang, acorralado por la justicia por la venta de chips a su amante",
+   "url": "https://www.eldiario.es/tecnologia/nvidia-descarta-restituir-jensen-huang-acorralado-justicia-venta-chips-amante_1_13670019.html",
+   "publicat": "2026-11-17T11:00:58.000Z"
+  },
+  {
+   "id": "fa16aad89d85",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Idoia Salazar, experta en inteligencia artificial, alerta del riesgo de pedir consejo a la IA antes de pensar por nosotros mismos",
+   "url": "https://www.levante-emv.com/tendencias21/2026/11/17/idoia-salazar-experta-inteligencia-artificial-136529985.html",
+   "publicat": "2026-11-17T10:17:23.000Z"
+  },
+  {
+   "id": "7428be612ad8",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Arte digital sin IA para decorar estas Navidades la plaza Sant Jaume de Barcelona",
+   "url": "https://www.lavanguardia.com/local/barcelona/20261117/11686285/arte-digital-ia-decorar-navidades-plaza-sant-jaume-barcelona.html",
+   "publicat": "2026-11-17T10:11:32.000Z"
+  },
+  {
+   "id": "5bfb0fa851d4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El experimento de China en las aulas: enseñan a los alumnos a crear aplicaciones con IA para ganar la carrera a EE. UU.",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261117/11686223/china-aulas-ensenan-alumnos-crear-aplicaciones-ia-ganar-eeuu.html",
+   "publicat": "2026-11-17T10:01:26.000Z"
+  },
+  {
+   "id": "e2879b3d0fc5",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Gemini Notebook añade una nueva función: convierte tus notas en webs interactivas",
+   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-17/gemini-notebook-convierte-notas-webs-interactivas.html",
+   "publicat": "2026-11-17T10:00:00.000Z"
+  },
+  {
+   "id": "4e0170a2457b",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Tinkle es converteix en la primera consultora de comunicació amb l'ISO 42001 de gestió de la IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/tinkle-es-converteix-en-primera-consultora-comunicacio-iso-42001-gestio-ia_1726652_102.html",
+   "publicat": "2026-11-17T09:24:29.000Z"
+  },
   {
    "id": "5ea5382cfee6",
    "mitja": "El Periódico",
@@ -34,7 +210,7 @@
    "ambit": "catala",
    "titol": "Google Maps lanza en España Ask Maps, su chatbot con IA, que ya permite crear itinerarios personalizados",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/17/2751477/google-maps-lanza-espana-ask-maps-chatbot-permite-crear-itinerarios-personalizados.html",
-   "publicat": "2026-11-17T08:34:58.000Z"
+   "publicat": "2026-11-17T08:34:00.000Z"
   },
   {
    "id": "24b12f9ba7b0",
@@ -54,7 +230,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Nerviosismo en las Bolsas por las trabas tecnológicas de EE UU a China y con el foco en Nvidia",
+   "titol": "Las Bolsas europeas aceleran los recortes con las tecnológicas y Nvidia de telón de fondo",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-17/la-bolsa-y-el-ibex-35.html",
    "publicat": "2026-11-17T08:02:46.000Z"
   },
@@ -2588,184 +2764,6 @@
    "titol": "Jensen Huang dimite como jefe de Nvidia tras sus infidelidades con una espía china y una compañera",
    "url": "https://www.lavanguardia.com/economia/20261112/11682618/ceo-nvidia-jensen-huang-dimite-escandalos-relacion-espia-china-companera-trabajo.html",
    "publicat": "2026-11-12T14:00:06.000Z"
-  },
-  {
-   "id": "96420e4638d0",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Jensen Huang renuncia como consejero delegado de Nvidia forzado por el escándalo sobre sus infidelidades y el caso de espionaje",
-   "url": "https://elpais.com/us/2026-11-12/jensen-huang-dimite-como-consejero-delegado-de-nvidia-tras-destaparse-el-escandalo-sobre-sus-infidelidades-y-el-caso-de-espionaje.html",
-   "publicat": "2026-11-12T13:59:47.000Z"
-  },
-  {
-   "id": "36521ece6e7a",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Jensen Huang, CEO de Nvidia, dimite tras el escándalo de su relación con una espía china y con otras dos empleadas de su empresa",
-   "url": "https://www.eldiario.es/tecnologia/jensen-huang-ceo-nvidia-dimite-escandalo-relacion-espia-ejecutiva-empresa_1_13658787.html",
-   "publicat": "2026-11-12T13:56:44.000Z"
-  },
-  {
-   "id": "8766af2e52d3",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El ascenso de los hijos de Huang en Nvidia aviva las dudas por la gobernanza: de chef y barman a ejecutivos de la mayor compañía del mundo",
-   "url": "https://elpais.com/us/2026-11-12/el-ascenso-de-los-hijos-de-huang-en-nvidia-aviva-las-dudas-por-la-gobernanza-de-chef-y-barman-a-ejecutivos-de-la-mayor-compania-del-mundo.html",
-   "publicat": "2026-11-12T12:50:39.000Z"
-  },
-  {
-   "id": "c1fdd733f046",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Culper Research, el fondo bajista que abrió la caja de los truenos de Nvidia",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-12/culper-research-el-fondo-bajista-que-abrio-la-caja-de-los-truenos-de-nvidia.html",
-   "publicat": "2026-11-12T12:43:33.000Z"
-  },
-  {
-   "id": "d0b46978c497",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El escándalo Nvidia, vulnerabilidad 2.0",
-   "url": "https://www.elperiodico.com/es/opinion/20261112/escandalo-nvidia-vulnerabilidad-2-0-136367065",
-   "publicat": "2026-11-12T12:40:17.000Z"
-  },
-  {
-   "id": "c39a4ae3aae9",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Sanidad destina 1,4 millones a implantar inteligencia artificial para detectar el cáncer de piel en los centros de salud",
-   "url": "https://www.informacion.es/alicante/2026/11/12/sanidad-implantara-inteligencia-artificial-detectar-cancer-de-piel-atencion-primaria-alicante-136367368.html",
-   "publicat": "2026-11-12T12:36:46.000Z"
-  },
-  {
-   "id": "dfc6cf3f5222",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un fallo en los enlaces de aplicaciones generados por Grok Build deja expuestas más de 35.000 'apps' con datos privados",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/12/2748439/fallo-enlaces-aplicaciones-generados-por-grok-build-deja-expuestas-mas-35000-apps-datos-privados.html",
-   "publicat": "2026-11-12T12:09:00.000Z"
-  },
-  {
-   "id": "4d81cdbf5038",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Elon Musk ofereix feina a Jensen Huang després d’haver estat destituït de Nvidia",
-   "url": "https://www.vilaweb.cat/noticies/elon-musk-ofereix-feina-a-jensen-huang-si-es-destituit-de-nvidia",
-   "publicat": "2026-11-12T11:57:42.000Z"
-  },
-  {
-   "id": "456357521a51",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Empresas | La mitad de menores de 11 y 12 años ya utiliza la IA para estudiar, según la nueva Guía Aiju",
-   "url": "https://alicanteplaza.es/alicanteplaza/empresas/la-mitad-de-menores-de-11-y-12-anos-ya-utiliza-la-ia-para-estudiar-segun-la-nueva-guia-aiju",
-   "publicat": "2026-11-12T11:43:02.000Z",
-   "noticia": "aiju-guia-infants-adolescents-ia-estudiar-ibi",
-   "noticiaTitol": "Més de la meitat dels nens d'11 i 12 anys ja fan servir la IA per estudiar, segons l'institut tecnològic Aiju, d'Ibi"
-  },
-  {
-   "id": "810b1f019901",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Xavier Sala i Martín, economista, sentencia sobre el caso Nvidia: “Estamos en medio de una película de espías, de James Bond y vendrá un giro inesperado”",
-   "url": "https://www.lavanguardia.com/neo/20261112/11682262/sala-i-martin-sobre-caso-nvidia-medio-pelicula-espias-james-bond-vendra-giro-inesperado-epm.html",
-   "publicat": "2026-11-12T11:00:41.000Z"
-  },
-  {
-   "id": "f816dcf34239",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA coloniza el aprendizaje: un 15% de niños ya la usa a los seis años",
-   "url": "https://www.lavanguardia.com/vida/20261112/11681640/ia-coloniza-aprendizaje-15-ninos-seis-anos.html",
-   "publicat": "2026-11-12T10:30:00.000Z"
-  },
-  {
-   "id": "b3b8ea60724a",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El CEO de Nvidia declararà al Congrés dels EUA sobre els riscos per a la seguretat nacional",
-   "url": "https://www.3cat.cat/3catinfo/el-ceo-de-nvidia-a-la-corda-fluixa-pel-suposat-espionatge-patacada-del-valor-de-lempresa/noticia/3439305",
-   "publicat": "2026-11-12T10:24:18.000Z"
-  },
-  {
-   "id": "65fe72a121d8",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Quién es Kimberly Powell, la ejecutiva de Nvidia señalada como la segunda amante de Jensen Huang",
-   "url": "https://www.lavanguardia.com/internacional/20261112/11682334/kimberly-powell-ejecutiva-nvidia-mantendria-relacion-jensen-huang.html",
-   "publicat": "2026-11-12T10:20:19.000Z"
-  },
-  {
-   "id": "d9c771cd9403",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "No le mientas a Instagram sobre tu edad: Meta pone en marcha la IA que analiza tu cara y fotos en todo el mundo",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261112/11682310/le-mientas-instagram-sobre-edad-meta-pone-marcha-ia-analiza-cara-fotos-mundo.html",
-   "publicat": "2026-11-12T10:04:27.000Z"
-  },
-  {
-   "id": "1108d7192dc6",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Investigadores de la UPV desarrollan una IA que contrasta si los políticos cumplen lo que prometen en campaña",
-   "url": "https://www.levante-emv.com/comunitat-valenciana/2026/11/12/investigadores-upv-desarrollan-ia-contrasta-136359228.html",
-   "publicat": "2026-11-12T09:59:26.000Z"
-  },
-  {
-   "id": "3d2cbeaa59a1",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Alice Huang, la presunta espía china en el centro del caso Nvidia, ha regresado a Pekín",
-   "url": "https://elpais.com/economia/2026-11-12/alice-huang-la-presunta-espia-china-en-el-centro-del-caso-nvidia-ha-regresado-a-pekin.html",
-   "publicat": "2026-11-12T09:34:59.000Z"
   }
  ]
 }
