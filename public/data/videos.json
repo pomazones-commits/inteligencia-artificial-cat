@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-17T12:29:17.505Z",
+ "actualitzat": "2026-11-17T13:15:01.436Z",
  "canals": 19,
  "videos": [
   {
@@ -930,30 +930,6 @@
    "publicat": "2026-10-27T14:54:56.000Z",
    "descripcio": "Security teams face a constant stream of vulnerabilities and alerts. Cloudflare’s Mark Anderson describes using AI to automate detection and response so experts can focus on threats that need their judgment. He sees automation from companies like OpenAI as a way to take on routine security work and ",
    "miniatura": "/assets/videos/ilG7LPrngkI.jpg"
-  },
-  {
-   "id": "XWYMvOFMacA",
-   "titol": "AI in the UK: Drug Discovery, Robotics and AI Factories | NVIDIA",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "robotica",
-   "idioma": "en",
-   "publicat": "2026-10-27T13:00:19.000Z",
-   "descripcio": "From drug discovery to robotics, voice, and video, the UK’s developers, researchers, and companies are advancing AI with NVIDIA accelerated computing. We celebrate their work—and the new AI factories being built to power what comes next. 🔗 NVIDIA Commits $250 Million to Advance UK Agentic Safety an",
-   "miniatura": "/assets/videos/XWYMvOFMacA.jpg"
-  },
-  {
-   "id": "0qb0FQo3M5c",
-   "titol": "Why Cybersecurity Needs AI | Cisco’s Jeetu Patel",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "societat",
-   "idioma": "en",
-   "publicat": "2026-10-27T12:45:06.000Z",
-   "descripcio": "“It is a prerequisite for staying safe that you must use AI.” Attackers can move at machine speed. Defenders need security controls that can adapt just as quickly. Jeetu Patel, President of Cisco, explains why OpenAI is becoming a core foundation for that work. With capabilities like Daybreak and As",
-   "miniatura": "/assets/videos/0qb0FQo3M5c.jpg"
   },
   {
    "id": "JFXOgDMirZk",
