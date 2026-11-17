@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-17T05:15:47.904Z",
+  "generat": "2026-11-17T09:13:49.515Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 37,
+      "audios": 38,
       "sobre_ia": 1
     },
     {
@@ -177,23 +177,5 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": [
-    {
-      "id": "rtve-17317162",
-      "emissora": "Ràdio 4",
-      "programa": "El pla B",
-      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
-      "data": "2026-11-16",
-      "durada": "29 min",
-      "titol_original": "Open data i IA",
-      "descripcio_original": "Acabem el programa amb la secció de Carmen Domingo, que avui parla d’open data i intel·ligència artificial. Ho analitzem també amb Lourdes Muñoz, enginyera de dades.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-open-data-ia/17317162/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17317162"
-      }
-    }
-  ]
+  "candidats": []
 }
