@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-17T13:15:01.436Z",
+ "actualitzat": "2026-11-17T17:12:51.024Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "aRIFzzr_Mi0",
+   "titol": "EmbeddingGemma 2: How natively multimodal embeddings work",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-17T17:00:29.000Z",
+   "descripcio": "Learn how EmbeddingGemma 2, Google's open, lightweight multimodal embedding model, maps text, code, images, video, and audio into a single, unified embedding space. The video covers: * How modality-specific encoders and a bidirectional transformer turn multimodal data into a single representation. *",
+   "miniatura": "/assets/videos/aRIFzzr_Mi0.jpg"
+  },
   {
    "id": "ZIpm-0RczCk",
    "titol": "How Revolut’s lean teams take on bigger challenges with OpenAI",
@@ -857,18 +869,6 @@
    "miniatura": "/assets/videos/QqeKRvAkIc8.jpg"
   },
   {
-   "id": "LOP8ul3KqQI",
-   "titol": "Introducing Genie 4",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-10-27T16:18:01.000Z",
-   "descripcio": "Raia Hadsell, Diego Rivas, and Hang Qi from Google DeepMind join host Logan Kilpatrick to introduce Genie 4, the latest world model from Google DeepMind. Their conversation covers: *What world models are *The arc from Genie 1 to Genie 4 *Live demos showcasing the model’s biggest leaps forward *The r",
-   "miniatura": "/assets/videos/LOP8ul3KqQI.jpg"
-  },
-  {
    "id": "sFfPkUJd_Jk",
    "titol": "Genie 4: A new generation of world simulation",
    "canal": "Google DeepMind",
@@ -882,54 +882,6 @@
    "noticia": "google-deepmind-genie-4-mons-interactius-so-temps-real",
    "noticiaTitol": "Google DeepMind presenta Genie 4, un model que crea mons interactius amb so i que es poden canviar mentre s'hi juga",
    "resum": "Vídeo oficial de Google DeepMind, publicat el 27 d'octubre, amb què l'empresa presenta Genie 4 com una nova generació de simulació de mons. És la peça de llançament del model; no detalla preus ni dates de disponibilitat."
-  },
-  {
-   "id": "lPZQrVFcz3c",
-   "titol": "Getting a Head Start with Codex | Mitchell Hashimoto",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-27T15:04:57.000Z",
-   "descripcio": "“The whole point is I want to hit the ground running.” HashiCorp co-founder Mitchell Hashimoto wraps up his day by putting Codex agents to work. They research the competition, compare tools and prototype features he’s still working out—giving him a head start on the next day’s work. Building with Co",
-   "miniatura": "/assets/videos/lPZQrVFcz3c.jpg"
-  },
-  {
-   "id": "cflbzHRvGvg",
-   "titol": "From Ideas to Prototypes with Codex | Shopify’s Mikhail Parakhin",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-27T15:03:41.000Z",
-   "descripcio": "“If you have an idea, bring a prototype right away.” For Shopify CTO Mikhail Parakhin, Codex is changing what his team brings to the meeting. From delegating tasks to exploring architectural options, he’s using Codex to take on work he couldn’t before. Meet Mikhail, one of the builders in Codex Orig",
-   "miniatura": "/assets/videos/cflbzHRvGvg.jpg"
-  },
-  {
-   "id": "C2vdw5GSTQo",
-   "titol": "How Sotira Gives Unsold Inventory a Second Life with Codex",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-10-27T15:02:46.000Z",
-   "descripcio": "“Not being technical is not a reason to not build.” At Sotira, Amrita Bhasin uses Codex to connect unsold products with people who need them, helping keep millions of pounds of inventory out of landfills. Meet Amrita, one of the builders in Codex Originals. Building with Codex? Share your story: htt",
-   "miniatura": "/assets/videos/C2vdw5GSTQo.jpg"
-  },
-  {
-   "id": "ilG7LPrngkI",
-   "titol": "AI for Detection and Response | Cloudflare’s Mark Anderson",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "societat",
-   "idioma": "en",
-   "publicat": "2026-10-27T14:54:56.000Z",
-   "descripcio": "Security teams face a constant stream of vulnerabilities and alerts. Cloudflare’s Mark Anderson describes using AI to automate detection and response so experts can focus on threats that need their judgment. He sees automation from companies like OpenAI as a way to take on routine security work and ",
-   "miniatura": "/assets/videos/ilG7LPrngkI.jpg"
   },
   {
    "id": "JFXOgDMirZk",
