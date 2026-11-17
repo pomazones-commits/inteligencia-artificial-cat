@@ -1,8 +1,56 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-17T17:12:51.024Z",
+ "actualitzat": "2026-11-17T23:09:58.035Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "tKoDPOrLMX0",
+   "titol": "Building 3D video sets with GPT-6.2 Astra",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-17T18:41:32.000Z",
+   "descripcio": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more efficient tool use. Recreate a room from just two video frames with GPT-6.2 Astra in Codex. See how it builds the set in Blender, changes the decor and lighting, an",
+   "miniatura": "/assets/videos/tKoDPOrLMX0.jpg"
+  },
+  {
+   "id": "Jwp2aZDSVss",
+   "titol": "Introducing Copilot Workspaces | Microsoft Ignite 2026",
+   "canal": "Microsoft",
+   "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-17T18:18:58.000Z",
+   "descripcio": "Copilot is now multiplayer. From shared projects in Copilot Workspaces to working alongside your Autopilot in Microsoft Teams, Copilot is now built for people and agents. At Ignite 2026, Satya Nadella announced Copilot Workspaces. Watch the full keynote: https://www.youtube.com/watch?v=ZR4v1c4CClc M",
+   "miniatura": "/assets/videos/Jwp2aZDSVss.jpg"
+  },
+  {
+   "id": "I7ovGye-ACc",
+   "titol": "A moment unlike any other | Microsoft Ignite 2026",
+   "canal": "Microsoft",
+   "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-11-17T18:06:58.000Z",
+   "descripcio": "This moment is about ensuring the benefits of AI reach us all. That's why Microsoft is building a frontier ecosystem - where technology amplifies human ambition and turns into real-world impact. The open video for Microsoft Ignite 2026. Watch the full keynote: https://www.youtube.com/watch?v=ZR4v1c4",
+   "miniatura": "/assets/videos/I7ovGye-ACc.jpg"
+  },
+  {
+   "id": "C1zYX5jwqq4",
+   "titol": "GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-17T17:55:40.000Z",
+   "descripcio": "We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits. For businesses and ",
+   "miniatura": "/assets/videos/C1zYX5jwqq4.jpg"
+  },
   {
    "id": "aRIFzzr_Mi0",
    "titol": "EmbeddingGemma 2: How natively multimodal embeddings work",
