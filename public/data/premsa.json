@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-17T13:15:07.861Z",
+ "actualitzat": "2026-11-17T13:54:22.922Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "b098e192b5d5",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un estudio de la UIB propone una nueva metodología para medir la confianza de los profesionales sanitarios en la IA",
+   "url": "https://www.ultimahora.es/noticias/local/2026/11/17/2751789/estudio-uib-propone-nueva-metodologia-para-medir-confianza-profesionales-sanitarios-ia.html",
+   "publicat": "2026-11-17T13:26:00.000Z"
+  },
   {
    "id": "c7a88905b5b1",
    "mitja": "El Periódico",
@@ -2753,17 +2764,6 @@
    "titol": "La IA acaba dándote la razón si insistes, aunque defiendas un disparate",
    "url": "https://www.levante-emv.com/tendencias21/ia-acaba-dandote-razon-insistes-136372783.html",
    "publicat": "2026-11-12T14:03:37.000Z"
-  },
-  {
-   "id": "7e2b8a30b57e",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Jensen Huang dimite como jefe de Nvidia tras sus infidelidades con una espía china y una compañera",
-   "url": "https://www.lavanguardia.com/economia/20261112/11682618/ceo-nvidia-jensen-huang-dimite-escandalos-relacion-espia-china-companera-trabajo.html",
-   "publicat": "2026-11-12T14:00:06.000Z"
   }
  ]
 }
