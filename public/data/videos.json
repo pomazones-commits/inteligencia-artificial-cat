@@ -1,8 +1,68 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-16T23:51:11.739Z",
+ "actualitzat": "2026-11-17T12:29:17.505Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "ZIpm-0RczCk",
+   "titol": "How Revolut’s lean teams take on bigger challenges with OpenAI",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-17T09:45:35.000Z",
+   "descripcio": "What can one engineer build when a project looks like it needs a whole team? At Revolut, an engineer used Codex to build an internal code review service himself. Its designers used Codex to turn seven years of design documentation into a format AI could read in a single day. OpenAI also helps Revolu",
+   "miniatura": "/assets/videos/ZIpm-0RczCk.jpg"
+  },
+  {
+   "id": "R_sl8zEp9ng",
+   "titol": "How one engineer built a code review service with Codex | Revolut’s Dmitry Pitik",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-17T09:45:34.000Z",
+   "descripcio": "Dmitry Pitik thought he’d need a team of developers to build Revolut’s internal code review service. In this film, the Senior Platform Engineer explains how he broke the design into tasks, assigned them to Codex agents working in parallel and reviewed the code himself. That gave him more time for th",
+   "miniatura": "/assets/videos/R_sl8zEp9ng.jpg"
+  },
+  {
+   "id": "xkeXefmxArU",
+   "titol": "Making marketing feel local across 40 markets | Revolut’s Kim Maniovich",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-11-17T09:45:31.000Z",
+   "descripcio": "A campaign that works in one market can need a different approach in the next. Kim Maniovich, Global Head of Business Marketing at Revolut, shares how her team uses AI to understand local differences and tailor campaigns faster. She also explains why she asks her team to challenge an answer even whe",
+   "miniatura": "/assets/videos/xkeXefmxArU.jpg"
+  },
+  {
+   "id": "-O0tMcyH4Wo",
+   "titol": "Faster fraud response for safer shopping | Revolut’s David Abitbol",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-17T09:45:26.000Z",
+   "descripcio": "OpenAI helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. David Abitbol, AI Lead at Revolut, explains how his team tests AI systems before putting them to work. He also shares how Codex gives engineers more time to weigh up different designs ",
+   "miniatura": "/assets/videos/-O0tMcyH4Wo.jpg"
+  },
+  {
+   "id": "hAASMPKkaXA",
+   "titol": "Making seven years of design documentation AI-readable in a day | Revolut’s Dmytro Pavlov",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-17T09:45:10.000Z",
+   "descripcio": "Revolut’s designers had spent seven years documenting how their design system works. Senior Designer Dmytro Pavlov shares how his team used Codex to turn that material into a format AI could read in a single day. Along the way, they spotted gaps in their templates and made the guidance clearer for t",
+   "miniatura": "/assets/videos/hAASMPKkaXA.jpg"
+  },
   {
    "id": "uGZO6I-CJtM",
    "titol": "Real-Time Discovery Starts With NVIDIA DAQIRI",
