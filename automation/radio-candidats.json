@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-17T09:13:49.515Z",
+  "generat": "2026-11-18T17:13:59.376Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -16,7 +16,7 @@
       "programa": "Catalunya nit",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 1
     },
     {
       "font": "3cat",
@@ -24,7 +24,7 @@
       "programa": "El matí de Catalunya Ràdio",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 0
     },
     {
       "font": "3cat",
@@ -135,9 +135,8 @@
       "font": "wordpress",
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
-      "estat": "ok",
-      "audios": 38,
-      "sobre_ia": 1
+      "estat": "error",
+      "error": "HTTP 429"
     },
     {
       "font": "wordpress",
@@ -155,7 +154,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 9,
+      "audios": 10,
       "sobre_ia": 0
     },
     {
@@ -165,7 +164,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 7,
+      "audios": 8,
       "sobre_ia": 0
     },
     {
