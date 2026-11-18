@@ -1,8 +1,56 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-17T23:09:58.035Z",
+ "actualitzat": "2026-11-18T05:14:16.722Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "8Wtr78o1wnI",
+   "titol": "Satya Nadella Keynote Open in under 5 minutes | Microsoft Ignite 2026",
+   "canal": "Microsoft",
+   "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-11-18T03:03:23.000Z",
+   "descripcio": "At Microsoft Ignite 2026, Satya Nadella discussed building the frontier ecosystem and turning fast-growing AI capability into real outcomes. Catch up on the top moments and announcements from Satya's open to the Microsoft Ignite 2026 opening keynote. Watch full keynote: https://youtube.com/live/ZR4v",
+   "miniatura": "/assets/videos/8Wtr78o1wnI.jpg"
+  },
+  {
+   "id": "Nv8-Km25Qj4",
+   "titol": "Satya Nadella Microsoft Ignite 2026 Keynote Open",
+   "canal": "Microsoft",
+   "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-18T03:03:07.000Z",
+   "descripcio": "Get a closer look at Satya Nadella's opening keynote at Microsoft Ignite 2026. See how Microsoft is building the frontier ecosystem, from Copilot and Foundry to Azure and Fabric, plus the major announcements from the stage. Watch full keynote: https://youtube.com/live/ZR4v1c4CClc",
+   "miniatura": "/assets/videos/Nv8-Km25Qj4.jpg"
+  },
+  {
+   "id": "pmOJIq7Ah00",
+   "titol": "Introducing ChatGPT for Sales",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-17T23:24:04.000Z",
+   "descripcio": "Spend less time on busywork and more time selling with ChatGPT for Sales. The new Sales plugin and 30+ new and expanded partner plugins bring your customer context and sales tools together in ChatGPT. Prepare for calls, tailor proposals, and follow up faster with insights from the tools your team al",
+   "miniatura": "/assets/videos/pmOJIq7Ah00.jpg"
+  },
+  {
+   "id": "ZR4v1c4CClc",
+   "titol": "Microsoft Ignite: Opening Keynote 2026",
+   "canal": "Microsoft",
+   "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-17T20:38:29.000Z",
+   "descripcio": "Catch Microsoft Chairman and CEO Satya Nadella live from Microsoft Ignite 2026 as he shares the latest innovations and a look at what's next. Chapters: 0:00 Opening video: A moment unlike any other 1:18 Opening keynote | Satya Nadella 7:00 Copilot: The new operating system for work 11:20 Introducing",
+   "miniatura": "/assets/videos/ZR4v1c4CClc.jpg"
+  },
   {
    "id": "tKoDPOrLMX0",
    "titol": "Building 3D video sets with GPT-6.2 Astra",
@@ -49,7 +97,10 @@
    "idioma": "en",
    "publicat": "2026-11-17T17:55:40.000Z",
    "descripcio": "We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits. For businesses and ",
-   "miniatura": "/assets/videos/C1zYX5jwqq4.jpg"
+   "miniatura": "/assets/videos/C1zYX5jwqq4.jpg",
+   "noticia": "openai-gpt-6-2-astra-sol",
+   "noticiaTitol": "OpenAI presenta GPT-6.2 Astra i Sol, i admet per primera vegada que un model seu pot accelerar de manera notable la recerca en IA",
+   "resum": "Vídeo oficial d'OpenAI, en anglès, amb què l'empresa presenta GPT-6.2 Astra i GPT-6.2 Sol com a models pensats per a la feina real. Va sortir el 17 de novembre, el mateix dia del llançament."
   },
   {
    "id": "aRIFzzr_Mi0",
@@ -903,18 +954,6 @@
    "publicat": "2026-10-28T09:45:14.000Z",
    "descripcio": "What can lawyers achieve when time is no longer the limit? Discover how Legora uses OpenAI models, ChatGPT and Codex to help legal teams review contracts faster, broaden their analysis and make more room for work that needs human judgment. Part of Intelligence at Work, a series exploring how busines",
    "miniatura": "/assets/videos/yJxZef1Ylok.jpg"
-  },
-  {
-   "id": "QqeKRvAkIc8",
-   "titol": "How AI Is Advancing Human Health",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "salut",
-   "idioma": "en",
-   "publicat": "2026-10-28T00:45:39.000Z",
-   "descripcio": "In her special address at NVIDIA GTC Berlin, Kimberly Powell, Vice President of Healthcare and Life Sciences at NVIDIA, explored how digital health agents are reaching national scale, how AI factories are speeding up drug discovery from research to clinic, and how robotic systems are expanding acces",
-   "miniatura": "/assets/videos/QqeKRvAkIc8.jpg"
   },
   {
    "id": "sFfPkUJd_Jk",
