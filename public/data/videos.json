@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-18T12:16:29.410Z",
+ "actualitzat": "2026-11-18T17:13:56.949Z",
  "canals": 19,
  "videos": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "id": "8Wtr78o1wnI",
-   "titol": "Satya Nadella Keynote Open in under 5 minutes | Microsoft Ignite 2026",
+   "titol": "Satya Nadella's Ignite Keynote in under 5 minutes | Microsoft Ignite 2026",
    "canal": "Microsoft",
    "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "grup": "empreses",
@@ -29,7 +29,7 @@
   },
   {
    "id": "Nv8-Km25Qj4",
-   "titol": "Satya Nadella Microsoft Ignite 2026 Keynote Open",
+   "titol": "Satya Nadella opens Microsoft Ignite 2026",
    "canal": "Microsoft",
    "canalId": "UCFtEEv80fQVKkD4h1PF-Xqw",
    "grup": "empreses",
@@ -897,18 +897,6 @@
    "publicat": "2026-10-28T21:00:32.000Z",
    "descripcio": "Meet Sprout, a semi-autonomous plant robot powered by Gemini. Watch as it navigates the office in search of sunlight, pings for help, and uses Gemini Live and Robotics ER 2.0 for vision to care for fellow office plants. Try building today → https://goo.gle/4BmThG6 Subscribe to Google for Developers ",
    "miniatura": "/assets/videos/ID6vEy94j7c.jpg"
-  },
-  {
-   "id": "pQ_Dnr9Q4k8",
-   "titol": "Functional smart devices using Gemini 4 Argon and Google Antigravity",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-10-28T15:08:11.000Z",
-   "descripcio": "What happens when you have a wild hardware idea and zero clue how to build it? Watch to see how these makers used Gemini 4 Argon and Google Antigravity to take a custom \"Surf Clock\" from a rough sketch to a working prototype. The models explored: *Initial concepts to lock in a retro 60s design *Ran ",
-   "miniatura": "/assets/videos/pQ_Dnr9Q4k8.jpg"
   },
   {
    "id": "sFfPkUJd_Jk",
