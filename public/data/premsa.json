@@ -1,8 +1,118 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-17T22:41:36.752Z",
+ "actualitzat": "2026-11-18T05:14:18.186Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "666acec575a3",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Esade apuesta por las humanidades para liderar la era de la IA y crecer un 19% hasta 2029",
+   "url": "https://www.elperiodico.com/es/economia/20261118/esade-apuesta-humanidades-liderar-ia-136556321",
+   "publicat": "2026-11-18T05:01:18.000Z"
+  },
+  {
+   "id": "415955934de3",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El 96% de los inversores reconoce que se está sobrevalorando a las empresas de IA",
+   "url": "https://www.elperiodico.com/es/economia/20261118/96-inversores-cree-sobrevalorando-empresas-burbuja-inteligencia-artificial-ia-136546701",
+   "publicat": "2026-11-18T05:00:51.000Z"
+  },
+  {
+   "id": "141686fc1dba",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Parados sin trabajo y empresas sin candidatos, IA y salarios: los retos del empleo en España y cómo afrontarlos",
+   "url": "https://www.elperiodico.com/es/economia/20261118/parados-trabajo-empresas-candidatos-ia-136512768",
+   "publicat": "2026-11-18T05:00:34.000Z"
+  },
+  {
+   "id": "7b6208826a52",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cómo engañar a la IA (y que ella te mienta)",
+   "url": "https://www.lavanguardia.com/vida/20261118/11686799/como-enganar-ia-te-mienta.html",
+   "publicat": "2026-11-18T05:00:00.000Z"
+  },
+  {
+   "id": "ac3efb09c1b8",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Mons. Andrea Ciucci: “La IA és una oportunitat per definir el futur que volem”",
+   "url": "https://www.diariandorra.ad/la-contra/261118/mons-andrea-ciucci-ia-oportunitat-per-definir-futur-volem_209026.html",
+   "publicat": "2026-11-18T04:44:01.000Z"
+  },
+  {
+   "id": "511080dfbb24",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La fiebre por Anthropic ya sube en los derivados: los mercados paralelos anticipan subidas en su debut",
+   "url": "https://cincodias.elpais.com/criptoactivos/2026-11-18/la-fiebre-por-anthropic-ya-sube-en-los-derivados-los-mercados-paralelos-anticipan-subidas-en-su-debut.html",
+   "publicat": "2026-11-18T04:30:01.000Z"
+  },
+  {
+   "id": "b653f2664723",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Vicens Vives: retrocés de la lectura i irrupció de la IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/vicens-vives-retroces-lectura-irrupcio-ia-antoni-olive_1726622_102.html",
+   "publicat": "2026-11-18T04:30:00.000Z"
+  },
+  {
+   "id": "8e017badf2fe",
+   "mitja": "El Punt Avui",
+   "font": "elpuntavui-societat",
+   "icona": "/assets/premsa/el-punt-avui.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Més infraestructura, més dades: el repte de connectar les ciutats en l’era de la intel·ligència artificial",
+   "url": "https://www.elpuntavui.cat/societat/article/5-societat/2689737-mes-infraestructura-mes-dades-el-repte-de-connectar-les-ciutats-en-l-era-de-la-intel-ligencia-artificial.html",
+   "publicat": "2026-11-18T01:00:00.000Z"
+  },
+  {
+   "id": "f11ac9a8d721",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA detecta un fallo crítico en Java, usado por el 90% de las grandes empresas de EE.UU.",
+   "url": "https://www.elperiodico.com/es/economia/20261118/ia-detecta-fallo-critico-java-136560999",
+   "publicat": "2026-11-17T23:41:21.000Z"
+  },
+  {
+   "id": "cee408ef2585",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La junta directiva de Nvidia confirma que no pretende restituir a Huang y busca sustituto",
+   "url": "https://www.elperiodico.com/es/economia/20261117/junta-directiva-nvidia-confirma-pretende-136560621",
+   "publicat": "2026-11-17T22:56:12.000Z"
+  },
   {
    "id": "0360998aa071",
    "mitja": "La Vanguardia",
@@ -241,7 +351,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Jensen Huang rompe su silencio tras el escándalo y dice que está dispuesto a regresar de consejero delegado a Nvidia",
+   "titol": "El presidente del consejo de Nvidia asegura que la junta no tiene intención de restituir a Jensen Huang como CEO",
    "url": "https://elpais.com/us/economia/2026-11-17/jensen-huang-dice-que-esta-dispuesto-a-regresar-como-consejero-delegado-de-nvidia.html",
    "publicat": "2026-11-17T16:12:06.000Z"
   },
@@ -2656,116 +2766,6 @@
    "titol": "El perill de pujar factures, contractes o nòmines a ChatGPT: quina informació no hauries de compartir",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/perill-pujar-factures-contractes-nomines-chatgpt-quina-informacio-no-hauries-compartir_1722485_102.html",
    "publicat": "2026-11-13T04:30:00.000Z"
-  },
-  {
-   "id": "8765e7918c87",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Jensen Huang dimiteix com a CEO de Nvidia després de les seves infidelitats",
-   "url": "https://www.elperiodico.cat/economia/20261113/jensen-huang-dimiteix-com-ceo-136390034",
-   "publicat": "2026-11-13T04:00:58.000Z"
-  },
-  {
-   "id": "6fa59d3f1153",
-   "mitja": "El Punt Avui",
-   "font": "elpuntavui-societat",
-   "icona": "/assets/premsa/el-punt-avui.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El CEO, l’espia i els xips de la IA",
-   "url": "https://www.elpuntavui.cat/societat/article/5-societat/2690134-el-ceo-l-espia-i-els-xips-de-la-ia.html",
-   "publicat": "2026-11-13T01:00:00.000Z"
-  },
-  {
-   "id": "799f22bdae09",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El aula que la IA no puede dar",
-   "url": "https://www.lavanguardia.com/vida/20261112/11683045/aula-ia-dar.html",
-   "publicat": "2026-11-12T22:33:13.000Z"
-  },
-  {
-   "id": "17665867b7d3",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Espías, contrabando e infidelidades: las cloacas de la IA tumban a Jensen Huang, creador del imperio Nvidia",
-   "url": "https://www.eldiario.es/tecnologia/espias-contrabando-e-infidelidades-cloacas-ia-tumban-jensen-huang-creador-imperio-nvidia_1_13658846.html",
-   "publicat": "2026-11-12T21:57:44.000Z"
-  },
-  {
-   "id": "be06d6cc94c8",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Jensen Huang dimite, ¿y ahora qué?",
-   "url": "https://www.eldiario.es/economia/jensen-huang-dimite-ahora_1_13659930.html",
-   "publicat": "2026-11-12T21:57:44.000Z"
-  },
-  {
-   "id": "596157bc0294",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Jensen Huang habría mantenido una tercera relación extramatrimonial antes de su salida de Nvidia",
-   "url": "https://www.elperiodico.com/es/economia/20261112/jensen-huang-tercera-relacion-extramatrimonial-empleada-nvidia-136388342",
-   "publicat": "2026-11-12T20:35:34.000Z"
-  },
-  {
-   "id": "d0a7ed783de0",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Jensen Huang mantuvo una tercera relación extramarital con otra empleada de Nvidia",
-   "url": "https://elpais.com/us/2026-11-12/jensen-huang-mantuvo-una-tercera-relacion-extramarital-con-una-empleada-de-nvidia.html",
-   "publicat": "2026-11-12T20:14:12.000Z"
-  },
-  {
-   "id": "d2d194cdabef",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia: hi ha empreses massa grans per caure?",
-   "url": "https://www.ara.cat/editorial/nvidia-hi-empreses-massa-grans-caure_129_5908391.html",
-   "publicat": "2026-11-12T19:30:03.000Z"
-  },
-  {
-   "id": "91f420609f4d",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "IAG busca ingresos publicitarios con la nueva IAG Media para combatir el alza de costes operativos",
-   "url": "https://cincodias.elpais.com/companias/2026-11-12/iag-busca-ingresos-publicitarios-con-la-nueva-iag-media-para-combatir-el-alza-de-costes-operativos.html",
-   "publicat": "2026-11-12T19:30:00.000Z"
-  },
-  {
-   "id": "47e516cfb7e0",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Trump proposa que Tim Cook substitueixi Huang al capdavant de Nvidia",
-   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/trump-proposa-tim-cook-substitueixi-huang-capdavant-nvidia_1724789_102.html",
-   "publicat": "2026-11-12T19:13:00.000Z"
   }
  ]
 }
