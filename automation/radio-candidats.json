@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-18T17:13:59.376Z",
+  "generat": "2026-11-18T17:28:42.717Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -135,8 +135,9 @@
       "font": "wordpress",
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
-      "estat": "error",
-      "error": "HTTP 429"
+      "estat": "ok",
+      "audios": 40,
+      "sobre_ia": 1
     },
     {
       "font": "wordpress",
