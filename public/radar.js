@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Tarragona",
+    "category": "IA I SOCIETAT",
+    "date": "18.11.2026",
+    "title": "La URV permet que el professorat demani als estudiants que defensin de paraula un treball si sospita que l'ha fet la IA",
+    "summary": "La Universitat Rovira i Virgili estrena una guia de bon ús de la IA a la docència, amb tres maneres d'ús i un model de declaració. Presentar com a propi un text fet amb IA sense permís es considera frau acadèmic.",
+    "detail": "Les universitats busquen com tractar la IA a les aules entre dos extrems: prohibir-la, cosa que és difícil de controlar, o deixar-la fer servir sense cap norma. La Universitat Rovira i Virgili (URV), amb seu a Tarragona i Reus, ha triat un camí intermedi i ho ha posat per escrit en una guia per a estudiants i professorat.\n\nDes d'aquest curs, la normativa acadèmica de grau i de màster de la URV permet que el professorat demani a l'estudiant que verifiqui l'autoria d'un treball, o que el defensi o l'expliqui de paraula, sempre que hi hagi indicis d'un mal ús de la IA. Ho pot fer amb una entrevista, amb preguntes sobre el raonament del treball o comparant-lo amb el nivell habitual de l'estudiant. La universitat defensa que així s'eviten els falsos positius i negatius dels programes que diuen detectar textos fets amb IA. La guia distingeix tres usos: no permès, quan el treball ha de ser completament autònom; permès amb condicions, que el professorat fixa a cada activitat; i integrat, quan aprendre a fer servir la IA és part de l'objectiu. Hi ha també un model de declaració d'ús responsable perquè l'estudiant expliqui quines eines ha fet servir i com.\n\nLa guia deixa clar que fer servir la IA sense el consentiment del professorat per presentar com a propi un material que l'estudiant no ha fet és frau acadèmic. El docent pot rebaixar la nota i demanar que s'obri un expedient disciplinari. En els treballs de fi de grau, de màster i de doctorat pot ser una falta molt greu, castigada amb una expulsió de dos mesos a tres anys o amb la pèrdua de drets de matrícula; una falta greu pot comportar fins a un mes d'expulsió o perdre la convocatòria de l'assignatura.\n\nLa norma depèn molt del criteri de cada docent, que és qui ha de decidir quin ús permet i quan hi ha «indicis» de frau, i caldrà veure com s'aplica a la pràctica. Per acompanyar-la, la URV ofereix als estudiants materials d'alfabetització en IA al Campus Virtual, i al professorat, formació a través de l'Institut de Ciències de l'Educació (ICE), que també impulsa una xarxa de 37 docents que assagen l'ús de la IA a les classes.",
+    "source": "Diari Digital de la URV",
+    "url": "https://diaridigital.urv.cat/professorat-podra-verificar-autoria-treballs-examens-us-fraudulent-ia/",
+    "image": "./assets/urv-guia-ia-docencia-verificar-autoria-20261118.jpg",
+    "slug": "urv-guia-ia-docencia-verificar-autoria"
+  },
+  {
     "place": "Andorra",
     "category": "IA I SOCIETAT",
     "date": "17.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://govern.cat/salapremsa/notes-premsa/891484/l-atencio-primaria-incorpora-la-ia-per-millorar-el-cribratge-de-la-retinopatia-diabetica",
     "image": "./assets/atencio-primaria-catalunya-ia-cribratge-retinopatia-diabetica-20261114.jpg",
     "slug": "atencio-primaria-catalunya-ia-cribratge-retinopatia-diabetica"
-  },
-  {
-    "place": "Tarragona",
-    "category": "IA I SOCIETAT",
-    "date": "14.11.2026",
-    "title": "El TSJC rebutja per tercera vegada els recursos d'un advocat de Tarragona, inflats amb IA, i diu que la seva actuació frega la mala fe",
-    "summary": "El Tribunal Superior de Justícia de Catalunya ha desestimat tres recursos del mateix lletrat, de 90, de més de 50 i de 38 pàgines, perquè eren repetitius i confusos, i ho atribueix a fer servir IA generativa sense revisar-ne el resultat.",
-    "detail": "Els tribunals de tot el món s'han trobat aquests dos últims anys amb escrits redactats amb IA que citen sentències inexistents o s'allarguen sense sentit. A Catalunya, el Tribunal Superior de Justícia (TSJC) ja té un cas reincident: un advocat de la demarcació de Tarragona, de qui no s'ha fet públic el nom, a qui ha rebutjat tres recursos seguits per la mateixa raó.\n\nSegons el Diari de Tarragona, el primer, al juliol, era un recurs de 90 pàgines que el tribunal va desestimar perquè la seva extensió i la manera dispersa d'exposar els arguments semblaven fruit de l'ús de la IA. El segon, a l'octubre, en tenia més de 50, i la sala va escriure que la IA generativa sense supervisió no pot produir «una artificial e innecesaria retahíla de argumentos». El tercer, a final d'octubre i a la Sala Social, feia 38 pàgines i va ser rebutjat per incomplir les normes processals mínimes i per ser «innecesariamente extenso». El tribunal hi diu que aquesta conducta s'acosta a la mala fe processal i que li manca rigor.\n\nEl cas és diferent dels que han fet més soroll en altres països: aquí el problema no són jurisprudència ni cites inventades, sinó escrits llargs, repetitius i confusos que fan perdre temps al tribunal i no ajuden el client. Mostra que el risc de la IA a la feina d'advocat no és només l'error flagrant, sinó també la feina feta sense revisar. Els col·legis d'advocats de Tarragona i de Reus ja ofereixen formació i guies de bones pràctiques sobre l'ús d'aquestes eines.\n\nLa notícia es basa en la informació del diari sobre les tres resolucions, que no identifica ni l'advocat ni els magistrats. No consta que el TSJC li hagi imposat cap sanció ni que hagi comunicat el cas al col·legi professional, i el tribunal relaciona els escrits amb la IA per la seva forma, sense que el lletrat ho hagi admès públicament.",
-    "source": "Diari de Tarragona",
-    "url": "https://www.diaridetarragona.com/tarragona/275367/tercera-bronca-juez-abogado-tarragona-abusar-ia-mala-fe-procesal.html",
-    "image": "./assets/tsjc-advocat-tarragona-recursos-ia-mala-fe-20261114.jpg",
-    "slug": "tsjc-advocat-tarragona-recursos-ia-mala-fe"
   }
 ];
