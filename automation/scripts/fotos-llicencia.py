@@ -266,7 +266,7 @@ def retrat_wikidata(qid, fonts, desti, baixa_fn):
             info = info_commons(titol, baixa_fn)
             url = info.get('fitxer') or ''
             if not font_del_host(fonts, url):
-                raise Rebutjada('fitxer fora de la llista de servidors')
+                raise Rebutjada(f'fitxer fora de la llista de servidors ({url[:120] or "sense URL"})')
             on_acaba, dades = baixa_fn(url)
             if not font_del_host(fonts, on_acaba):
                 raise Rebutjada('redirecció fora de la llista de servidors')

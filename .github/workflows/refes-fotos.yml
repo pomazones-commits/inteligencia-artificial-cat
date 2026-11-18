@@ -77,7 +77,12 @@ jobs:
             echo "canvis=no" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git commit -m "[imatges] foto refeta de notícies publicades"
+          if git diff --cached --quiet -- public; then
+            git commit -m "[imatges] refes-fotos: cap foto nova (motius a la cua)"
+          else
+            git commit -m "[imatges] foto refeta de notícies publicades"
+            echo "desplega=si" >> "$GITHUB_OUTPUT"
+          fi
           for intent in 1 2 3; do
             if git pull --rebase origin main && git push origin main; then
               echo "canvis=si" >> "$GITHUB_OUTPUT"
@@ -91,7 +96,7 @@ jobs:
       # Un push fet amb el GITHUB_TOKEN no dispara el desplegament. Un
       # workflow_dispatch, sí.
       - name: Desplegar
-        if: steps.publica.outputs.canvis == 'si'
+        if: steps.publica.outputs.canvis == 'si' && steps.publica.outputs.desplega == 'si'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
