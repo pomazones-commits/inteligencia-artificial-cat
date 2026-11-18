@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "EDUCACIÓ",
+    "date": "18.11.2026",
+    "title": "Esade posa la filosofia, la literatura i la història a tots els estudis i crea una oficina d'IA per ensenyar a fer-la servir amb criteri",
+    "summary": "El pla estratègic 2026-2029 de l'escola de negocis barcelonina canvia els exàmens perquè els estudiants aprenguin a comprovar el que diu la IA i a justificar els seus raonaments. Preveu ingressar 167 milions d'euros el curs 2028-2029, gairebé un 20% més que ara.",
+    "detail": "Les universitats i les escoles de negocis busquen com encaixar la IA generativa a les aules sense que els treballs i els exàmens perdin sentit. Esade, l'escola de negocis i dret de la Universitat Ramon Llull amb seu a Barcelona, ha respost amb el seu pla estratègic per als cursos 2026-2029, presentat aquest dimarts pel director general, Daniel Traça.\n\nEl pla incorpora de manera transversal la filosofia, la literatura, la història, l'art i l'ètica a tots els programes. «Les humanitats proporcionen el criteri», va defensar el degà d'Esade Law School, Jorge Catiñeira, que les va presentar com el contrapès necessari en un moment de canvi tecnològic ràpid. Esade també crearà una oficina d'IA que coordinarà l'ús d'aquestes eines des del punt de vista acadèmic, tecnològic, legal i ètic, i continuarà revisant les activitats i els sistemes d'avaluació, una feina que ja fa més d'un any que dura: l'objectiu no és prohibir la IA, sinó que els estudiants aprenguin a fer-la servir, a comprovar-ne els resultats i a justificar els seus raonaments.\n\nEn xifres, l'escola vol passar de 140 a 167 milions d'euros d'ingressos el curs 2028-2029, gairebé un 20% més, amb un 15% més d'alumnes de grau (fins a 3.700) i un 34% més de màster (fins a 865). Hi haurà cinc màsters nous i un grau conjunt amb una universitat estrangera, i obrirà dues línies prioritàries, la tecnologia empresarial i la governança global, amb un màster de geopolítica per al curs 2028-2029. El pla inclou també 4,9 milions en beques el curs 2026-2027 per a 245 alumnes.\n\nEl pla diu poc, de moment, sobre com es mesurarà si la barreja d'humanitats i IA funciona: l'escola ha anunciat un programa per seguir l'evolució de les competències de cada estudiant, però no n'ha concretat els indicadors. Les xifres econòmiques són objectius de l'escola i diferents mitjans n'han publicat versions lleugerament diferents; aquí es recullen les que dona ON Economia.",
+    "source": "ON Economia (El Nacional)",
+    "url": "https://www.elnacional.cat/oneconomia/es/empresas/esade-potenciara-grados-masteres-facturar-154-millones-en-2029-10-mas_1727081_102.html",
+    "image": "./assets/esade-pla-estrategic-humanitats-oficina-ia-20261118.jpg",
+    "slug": "esade-pla-estrategic-humanitats-oficina-ia"
+  },
+  {
     "place": "Tarragona",
     "category": "IA I SOCIETAT",
     "date": "18.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.gerio.cat/noticia/1766031/la-udg-i-l-idibgi-impulsen-una-empresa-d-intel-ligencia-artificial-per-tractar-el-tdah",
     "image": "./assets/udg-idibgi-evimatic-healthtech-ia-tdah-20261115.jpg",
     "slug": "udg-idibgi-evimatic-healthtech-ia-tdah"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "14.11.2026",
-    "title": "Quatre CAP de Barcelona i Tarragona ja fan servir una IA que llegeix les fotos de l'ull dels diabètics, i Salut vol formar-hi tota l'atenció primària el 2027",
-    "summary": "L'eina analitza les retinografies per detectar la retinopatia diabètica i classifica els pacients segons el risc. Des del juliol n'ha revisat 549, de 543 pacients, i dona el resultat en uns 11 minuts.",
-    "detail": "La retinopatia diabètica és una de les complicacions més habituals de la diabetis: l'excés de sucre a la sang malmet els vasos de la retina i, si no es detecta a temps, pot fer perdre la vista. Per això les persones diabètiques es fan periòdicament una retinografia, una fotografia del fons de l'ull. A Catalunya, ara la primera valoració la fan els professionals d'atenció primària, que deriven a oftalmologia els casos amb indicis, i allà un especialista decideix si cal una visita presencial.\n\nEl Departament de Salut ha explicat que, des del juliol, quatre centres d'atenció primària de Barcelona i de Tarragona proven una eina d'intel·ligència artificial que analitza automàticament les retinografies i ajuda a classificar els pacients segons el risc de patir la malaltia. En aquests mesos ha revisat 549 retinografies de 543 pacients i dona el resultat en una mitjana d'11 minuts des que es fa la fotografia. En les últimes quatre setmanes n'ha analitzat 300, un 78% més que en les quatre anteriors, que són un terç de totes les que han fet aquests quatre equips en aquell període.\n\nEl projecte forma part del Programa Salut/IA i el lidera l'Agència de Qualitat i Avaluació Sanitàries de Catalunya (AQuAS), amb el Servei Català de la Salut, l'Institut de Diagnòstic per la Imatge, la Fundació TIC Salut Social i els equips participants. Va sortir d'una licitació pública que l'AQuAS va convocar el 2024 per trobar una solució aplicable a tots els centres d'atenció primària, i Salut preveu que a final del 2027 tots els equips d'atenció primària de Catalunya s'hagin format per fer-la servir. Detectar abans la retinopatia pot millorar molt el pronòstic dels pacients i treure feina a les consultes d'oftalmologia.\n\nLa informació que s'ha fet pública no diu quina empresa ha desenvolupat l'eina ni amb quina precisió encerta, comparada amb la valoració dels metges, i aquestes són les dades que permetrien saber si funciona prou bé. Que la IA llegeixi un terç de les retinografies dels quatre centres pilot vol dir que encara conviu amb el circuit habitual, i la decisió final sobre cada pacient continua sent dels professionals.",
-    "source": "Departament de Salut",
-    "url": "https://govern.cat/salapremsa/notes-premsa/891484/l-atencio-primaria-incorpora-la-ia-per-millorar-el-cribratge-de-la-retinopatia-diabetica",
-    "image": "./assets/atencio-primaria-catalunya-ia-cribratge-retinopatia-diabetica-20261114.jpg",
-    "slug": "atencio-primaria-catalunya-ia-cribratge-retinopatia-diabetica"
   }
 ];
