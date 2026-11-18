@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-18T05:14:16.722Z",
+ "actualitzat": "2026-11-18T09:14:13.766Z",
  "canals": 19,
  "videos": [
   {
@@ -49,7 +49,10 @@
    "idioma": "en",
    "publicat": "2026-11-17T20:38:29.000Z",
    "descripcio": "Catch Microsoft Chairman and CEO Satya Nadella live from Microsoft Ignite 2026 as he shares the latest innovations and a look at what's next. Chapters: 0:00 Opening video: A moment unlike any other 1:18 Opening keynote | Satya Nadella 7:00 Copilot: The new operating system for work 11:20 Introducing",
-   "miniatura": "/assets/videos/ZR4v1c4CClc.jpg"
+   "miniatura": "/assets/videos/ZR4v1c4CClc.jpg",
+   "noticia": "microsoft-ignite-autopilot-copilot-agent-autonom",
+   "noticiaTitol": "Microsoft presenta Autopilot, un agent d'IA que treballa sol i sense parar dins de Teams i Outlook, i diu que Copilot és el nou sistema operatiu de la feina",
+   "resum": "Discurs inaugural de Microsoft Ignite 2026, publicat al canal oficial de Microsoft, en què Satya Nadella presenta les novetats de Copilot per a les empreses. Segons els capítols de la descripció, hi ha un apartat sobre Copilot com a «nou sistema operatiu de la feina». És en anglès."
   },
   {
    "id": "tKoDPOrLMX0",
