@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-18T05:14:18.186Z",
+ "actualitzat": "2026-11-18T09:14:13.246Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "9457631a5f64",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia no necesita a Jensen Huang: “Queremos nombrar al nuevo CEO lo antes posible, pero queremos a la persona idónea”",
+   "url": "https://elpais.com/economia/2026-11-18/nvidia-no-necesita-a-jensen-huang-queremos-nombrar-al-nuevo-ceo-lo-antes-posible-pero-queremos-a-la-persona-idonea.html",
+   "publicat": "2026-11-18T08:52:28.000Z"
+  },
+  {
+   "id": "5e6f6321af61",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las Bolsas europeas caen tras los resultados de Nvidia",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-18/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-11-18T08:13:50.000Z"
+  },
+  {
+   "id": "ac8aeb6de652",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Ibex 35 continúa su corrección a pesar de los sólidos resultados de Nvidia y el alivio a la IA",
+   "url": "https://www.levante-emv.com/economia/2026/11/18/ibex-35-continua-correccion-pesar-136564201.html",
+   "publicat": "2026-11-18T08:09:21.000Z"
+  },
+  {
+   "id": "112602bad446",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una empresa de ciberseguridad detecta con IA un fallo crítico en Java",
+   "url": "https://www.lavanguardia.com/vida/20261118/11686942/empresa-ciberseguridad-detecta-ia-fallo-critico-java.html",
+   "publicat": "2026-11-18T08:03:33.000Z"
+  },
+  {
+   "id": "b60d5ced54c2",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia guanya, amb la gestió de Jensen Huang, gairebé 60.000 milions en el tercer trimestre",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nvidia-guanya-gestio-jensen-huang-60000-milions-en-tercer-trimestre_1727234_102.html",
+   "publicat": "2026-11-18T07:49:20.000Z"
+  },
+  {
+   "id": "c2bf42e51c33",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La increíble historia de Anthropic: de la rebelión contra OpenAI a conquistar los mercados con su salida a bolsa",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261118/cronologia-anthropic-empresa-ia-potente-claude-bolsa-accion-valor-chatgpt-136491326",
+   "publicat": "2026-11-18T07:00:25.000Z"
+  },
+  {
+   "id": "39084583300b",
+   "mitja": "Ara Balears",
+   "font": "arabalears",
+   "icona": "/assets/premsa/ara-balears.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Quan les glàndules prehistòriques entren en la batalla per la IA",
+   "url": "https://www.arabalears.cat/opinio/trampes-mel-melcior-comes_129_5908568.html",
+   "publicat": "2026-11-18T06:30:06.000Z"
+  },
   {
    "id": "666acec575a3",
    "mitja": "El Periódico",
@@ -26,14 +103,14 @@
    "publicat": "2026-11-18T05:00:51.000Z"
   },
   {
-   "id": "141686fc1dba",
+   "id": "188a9fe8df7b",
    "mitja": "El Periódico",
    "font": "elperiodico-totes",
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
    "titol": "Parados sin trabajo y empresas sin candidatos, IA y salarios: los retos del empleo en España y cómo afrontarlos",
-   "url": "https://www.elperiodico.com/es/economia/20261118/parados-trabajo-empresas-candidatos-ia-136512768",
+   "url": "https://www.elperiodico.com/es/economia/20261118/elecciones-generales-29-noviembre-empleo-retos-nuevo-gobierno-136512768",
    "publicat": "2026-11-18T05:00:34.000Z"
   },
   {
@@ -79,6 +156,17 @@
    "titol": "Vicens Vives: retrocés de la lectura i irrupció de la IA",
    "url": "https://www.elnacional.cat/oneconomia/ca/opinio/vicens-vives-retroces-lectura-irrupcio-ia-antoni-olive_1726622_102.html",
    "publicat": "2026-11-18T04:30:00.000Z"
+  },
+  {
+   "id": "1e2cc072afca",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Aprovada la venda del sòl per a la gigafactoria d’IA de Móra la Nova",
+   "url": "https://www.segre.com/ca/nacional-internacional/261118/aprovada-venda-sol-per-gigafactoria-d-ia-mora-nova_1402105.html",
+   "publicat": "2026-11-18T04:22:05.000Z"
   },
   {
    "id": "8e017badf2fe",
@@ -2678,94 +2766,6 @@
    "titol": "La IA ya automatiza tareas en las gestorías, pero las decisiones fiscales siguen necesitando un asesor",
    "url": "https://www.lavanguardia.com/empresas-de-vanguardia/legal/20261113/11679998/ia-automatiza-tareas-gestorias-decisiones-fiscales-siguen-necesitando-asesor.html",
    "publicat": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "da48a7d5fc95",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿ChatGPT recomienda tu empresa? Así puedes mejorar su posicionamiento en las respuestas de la IA",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/canal-practico/20261113/11681783/chatgpt-recomienda-empresa-asi-puedes-mejorar-posicionamiento-respuestas-ia.html",
-   "publicat": "2026-11-13T04:55:00.000Z"
-  },
-  {
-   "id": "27e2b2882359",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Una gran crisis en Nvidia, una empresa clave para la seguridad mundial",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-13/una-gran-crisis-en-nvidia-una-empresa-clave-para-la-seguridad-mundial.html",
-   "publicat": "2026-11-13T04:40:00.000Z"
-  },
-  {
-   "id": "7cfd244b3079",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Las turbulencias de la IA refuerzan la ventaja de la India en centros de datos",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-13/las-turbulencias-de-la-ia-refuerzan-la-ventaja-de-la-india-en-centros-de-datos.html",
-   "publicat": "2026-11-13T04:40:00.000Z"
-  },
-  {
-   "id": "6a30ce6b66bb",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "De la ‘Kiss Cam’ al CEO de Nvidia: la lista de altos ejecutivos que perdieron el cargo por un amor prohibido",
-   "url": "https://elpais.com/economia/2026-11-13/de-la-kiss-cam-al-ceo-de-nvidia-la-lista-de-altos-ejecutivos-que-perdieron-el-cargo-por-un-amor-prohibido.html",
-   "publicat": "2026-11-13T04:30:01.000Z"
-  },
-  {
-   "id": "8875f8a7f4bd",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Cardumen Capital, vivero de empresas de IA para las ‘big tech’",
-   "url": "https://cincodias.elpais.com/companias/2026-11-13/cardumen-capital-vivero-de-empresas-de-ia-para-las-big-tech.html",
-   "publicat": "2026-11-13T04:30:01.000Z"
-  },
-  {
-   "id": "d59a0d77d605",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Tijeretazo generalizado en la valoración de Nvidia: la salida de Huang “podría cambiar la tesis de inversión”",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-13/tijeretazo-generalizado-en-la-valoracion-de-nvidia-la-salida-de-huang-podria-cambiar-la-tesis-de-inversion.html",
-   "publicat": "2026-11-13T04:30:01.000Z"
-  },
-  {
-   "id": "0656c034a3d4",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "OpenAI confessa sis pecats: a qui li convé?",
-   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/openai-confessa-sis-pecats-qui-conve-mookie-tenembaum_1724198_102.html",
-   "publicat": "2026-11-13T04:30:00.000Z"
-  },
-  {
-   "id": "8169ba666404",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El perill de pujar factures, contractes o nòmines a ChatGPT: quina informació no hauries de compartir",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/perill-pujar-factures-contractes-nomines-chatgpt-quina-informacio-no-hauries-compartir_1722485_102.html",
-   "publicat": "2026-11-13T04:30:00.000Z"
   }
  ]
 }
