@@ -66,7 +66,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 MAX_BYTES = 15 * 1024 * 1024
 MAX_COSTAT = 1200
 MIN_AMPLADA = 1000          # 18.11.2026: abans 600; una foto de 909 px es veia desenfocada
-MAX_CANDIDATS = 10          # retrats del banc: fotos que es proven com a molt
+MAX_CANDIDATS = 14          # retrats del banc: fotos que es proven com a molt
 MAX_PES = 350 * 1024
 PROPORCIO = 1184 / 864      # la de les il·lustracions del web
 CAMPS_CREDIT = ('imageCredit', 'imageLicense', 'imageSourceUrl')
@@ -251,9 +251,40 @@ def candidats_wikidata(qid, baixa_fn):
             if ii.get('mime') == 'image/jpeg' and ii.get('width', 0) >= MIN_AMPLADA and ii.get('height', 0) >= MIN_AMPLADA * 0.6:
                 extra.append((ii['width'] * ii['height'], pagina.get('title', '')))
         titols += [t for _, t in sorted(extra, reverse=True) if t and t not in titols]
+    # I, si cal, fotos lliures de Flickr i altres fonts d'Openverse que portin el
+    # nom de la persona al títol (Commons sovint només en té retalls petits).
+    titols += candidats_openverse(nom_wikidata(qid, baixa_fn), baixa_fn)
     if not titols:
         raise Rebutjada(f'{qid} no té imatge a Wikidata')
     return titols
+
+
+def nom_wikidata(qid, baixa_fn):
+    query = urllib.parse.urlencode({'action': 'wbgetentities', 'ids': qid, 'props': 'labels',
+                                    'languages': 'en|ca', 'format': 'json'})
+    try:
+        etiquetes = baixa_json(f'{WIKIDATA_API}?{query}', baixa_fn).get('entities', {}).get(qid, {}).get('labels', {})
+    except Rebutjada:
+        return ''
+    return str((etiquetes.get('en') or etiquetes.get('ca') or {}).get('value', '')).strip()
+
+
+def candidats_openverse(nom, baixa_fn, maxim=6):
+    """Fotos d'Openverse amb llicència lliure, prou grans i amb el nom sencer de la
+    persona al títol (no n'hi ha prou amb les etiquetes: s'hi colen altres
+    ponents del mateix acte). Torna ['openverse:<id>', …]."""
+    if len(nom) < 5:
+        return []
+    query = urllib.parse.urlencode({'q': nom, 'license': 'by,by-sa,cc0,pdm', 'page_size': '40'})
+    try:
+        resultats = baixa_json(f'{OPENVERSE_API}?{query}', baixa_fn).get('results', [])
+    except Rebutjada:
+        return []
+    clau = nom.lower()
+    bons = [r for r in resultats if isinstance(r, dict) and clau in str(r.get('title', '')).lower()
+            and (r.get('width') or 0) >= MIN_AMPLADA and (r.get('height') or 0) >= MIN_AMPLADA * 0.6
+            and re.match(r'^[0-9a-f-]{36}$', str(r.get('id', '')))]
+    return [f'openverse:{r["id"]}' for r in bons[:maxim]]
 
 
 def retrat_wikidata(qid, fonts, desti, baixa_fn, estricte=False):
@@ -266,7 +297,10 @@ def retrat_wikidata(qid, fonts, desti, baixa_fn, estricte=False):
     motius, reserva = [], None
     for titol in candidats_wikidata(qid, baixa_fn)[:MAX_CANDIDATS]:
         try:
-            info = info_commons(titol, baixa_fn)
+            if titol.startswith('openverse:'):
+                info = info_openverse(titol.split(':', 1)[1], baixa_fn)
+            else:
+                info = info_commons(titol, baixa_fn)
             url = info.get('fitxer') or ''
             if not font_del_host(fonts, url):
                 raise Rebutjada(f'fitxer fora de la llista de servidors ({url[:120] or "sense URL"})')
