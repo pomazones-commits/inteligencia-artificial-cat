@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-18T17:13:56.059Z",
+ "actualitzat": "2026-11-18T17:28:21.687Z",
  "fonts": 44,
  "articles": [
   {
@@ -167,6 +167,17 @@
    "titol": "Expertas alertan en Alicante del impacto de la IA en la difusión de imágenes sexuales falsas",
    "url": "https://www.informacion.es/alicante/2026/11/18/expertas-alertan-alicante-impacto-inteligencia-artificial-imagenes-sexuales-falsas-136578318.html",
    "publicat": "2026-11-18T13:47:13.000Z"
+  },
+  {
+   "id": "734db5dde64a",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Generalitat aprueba el planeamiento urbanístico para construir la gigafactoría de IA en Móra la Nova",
+   "url": "https://www.elperiodico.com/es/tarragona/20261118/generalitat-aprueba-planeamiento-urbanistico-construir-gigafactoria-ia-mora-nova-136589161",
+   "publicat": "2026-11-18T13:40:00.000Z"
   },
   {
    "id": "e0fd8499f592",
@@ -2757,17 +2768,6 @@
    "titol": "La auditoría se refuerza con la IA, pero pone en valor su criterio profesional ante los riesgos de su uso",
    "url": "https://cincodias.elpais.com/companias/2026-11-13/la-auditoria-se-refuerza-con-la-ia-pero-pone-en-valor-su-criterio-profesional-ante-los-riesgos-de-su-uso.html",
    "publicat": "2026-11-13T16:39:04.000Z"
-  },
-  {
-   "id": "78315572f082",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las fotografías de la misión Gemini XII que cambiaron para siempre la observación de la Tierra",
-   "url": "https://www.lasprovincias.es/ciencia/fotografias-mision-gemini-cambiaron-rlt_esp-20261113041125-nt.html",
-   "publicat": "2026-11-13T16:30:25.000Z"
   }
  ]
 }
