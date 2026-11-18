@@ -1,8 +1,129 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-18T17:28:21.687Z",
+ "actualitzat": "2026-11-18T22:23:32.489Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "b6287dbd6381",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic sortirà a borsa a 83 dòlars l’acció, per sobre de les previsions inicials",
+   "url": "https://www.ara.cat/economia/tecnologia/anthropic-sortira-borsa-83-dolars-l-accio-previsions-inicials_1_5915299.html",
+   "publicat": "2026-11-18T22:02:28.000Z"
+  },
+  {
+   "id": "a7b70cf057c3",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic eleva el precio de la acción a 83 dólares por el fervor del mercado",
+   "url": "https://www.lavanguardia.com/economia/20261118/11687612/anthropic-eleva-precio-accion-83-dolares-fervor-mercado.html",
+   "publicat": "2026-11-18T21:54:13.000Z"
+  },
+  {
+   "id": "45d8abddf0bb",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic desbanca a SpaceX como la mayor salida a Bolsa de la historia y fija su valoración en 1,5 billones de dólares",
+   "url": "https://elpais.com/economia/2026-11-18/anthropic-desbanca-a-spacex-y-protagoniza-la-mayor-salida-a-bolsa-de-la-historia.html",
+   "publicat": "2026-11-18T21:41:11.000Z"
+  },
+  {
+   "id": "e0a5e3d4fd64",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El transatlántico Anthropic sale a bolsa entre avisos de iceberg: \"Todo en la IA es catastróficamente vulnerable\"",
+   "url": "https://www.eldiario.es/tecnologia/transatlantico-anthropic-sale-bolsa-avisos-iceberg-ia-catastroficamente-vulnerable_1_13668595.html",
+   "publicat": "2026-11-18T21:11:54.000Z"
+  },
+  {
+   "id": "3299c7e81f5d",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La CEO interina de Nvidia transmite \"tranquilidad\" a los empleados tras la dimisión de Jensen Huang",
+   "url": "https://www.elperiodico.com/es/economia/20261118/ceo-interina-nvidia-transmite-tranquilidad-136595274",
+   "publicat": "2026-11-18T19:39:18.000Z"
+  },
+  {
+   "id": "05c55e0b3099",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Amazon i Google tindran entre les dues gairebé el 30% d'Anthropic quan surti a borsa",
+   "url": "https://www.elnacional.cat/ca/tecnologia/amazon-google-tindran-entre-dues-30-anthropic-quan-surti-borsa_1727759_102.html",
+   "publicat": "2026-11-18T19:30:00.000Z"
+  },
+  {
+   "id": "b5c0b700a0e9",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "INNOVACIÓN | El Focus Pyme Vega Baja 2026 profundiza en el uso de la IA y el marketing digital para impulsar la comarca",
+   "url": "https://alicanteplaza.es/alicanteplaza/innovacion-alicante/el-focus-pyme-vega-baja-2026-profundiza-en-el-uso-de-la-ia-y-el-marketing-digital-para-impulsar-la-comarca",
+   "publicat": "2026-11-18T19:03:47.000Z"
+  },
+  {
+   "id": "860f7647f1cf",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Qué prometen el PP, el PSOE, Vox y Frente Amplio sobre inteligencia artificial para el 29N",
+   "url": "https://www.informacion.es/politica/2026/11/18/pp-psoe-vox-frente-inteligencia-artificial-136592048.html",
+   "publicat": "2026-11-18T18:36:09.000Z"
+  },
+  {
+   "id": "9c246e575ce8",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "OpenAI llança GPT-6.2 Astra i Sol: més feina professional amb menys tokens",
+   "url": "https://www.elnacional.cat/ca/tecnologia/openai-llanca-gpt-62-astra-sol-mes-feina-professional-menys-tokens_1727696_102.html",
+   "publicat": "2026-11-18T18:00:00.000Z"
+  },
+  {
+   "id": "55596845ee8c",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las claves de la salida a Bolsa de Anthropic: por qué los expertos la ven como el mejor termómetro del apetito por la IA",
+   "url": "https://www.elperiodico.com/es/economia/20261118/claves-salida-bolsa-anthropic-expertos-136591242",
+   "publicat": "2026-11-18T17:57:51.000Z"
+  },
+  {
+   "id": "5486297b5a9f",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Santalucía AM apuesta por aprovechar la caída de Nvidia y comprar deuda italiana",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-18/santalucia-am-apuesta-por-aprovechar-la-caida-de-nvidia-y-comprar-deuda-italiana.html",
+   "publicat": "2026-11-18T17:51:07.000Z"
+  },
   {
    "id": "02f4f8983651",
    "mitja": "El Nacional",
@@ -12,7 +133,7 @@
    "ambit": "catala",
    "titol": "La Diada de les TIC a Catalunya 2026 posa en el centre del debat els límits de la IA i la seva regulació",
    "url": "https://www.elnacional.cat/ca/societat/diada-tic-catalunya-2026-centre-debat-limits-ia-regulacio_1727558_102.html",
-   "publicat": "2026-11-18T16:37:10.000Z"
+   "publicat": "2026-11-18T16:37:00.000Z"
   },
   {
    "id": "2634401a8f23",
@@ -362,7 +483,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Nvidia no necesita a Jensen Huang: “Queremos nombrar al nuevo CEO lo antes posible, pero queremos a la persona idónea”",
+   "titol": "Nvidia no necesita a Jensen Huang: “Queremos nombrar al nuevo consejero delegado lo antes posible, pero queremos a la persona idónea”",
    "url": "https://elpais.com/economia/2026-11-18/nvidia-no-necesita-a-jensen-huang-queremos-nombrar-al-nuevo-ceo-lo-antes-posible-pero-queremos-a-la-persona-idonea.html",
    "publicat": "2026-11-18T08:52:28.000Z"
   },
@@ -384,7 +505,7 @@
    "icona": "/assets/premsa/levante-emv.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "El Ibex 35 continúa su corrección a pesar de los sólidos resultados de Nvidia y el alivio a la IA",
+   "titol": "El Ibex 35 continúa su corrección y pierde los 19.400 puntos ante la salida a Bolsa de Anthropic",
    "url": "https://www.levante-emv.com/economia/2026/11/18/ibex-35-continua-correccion-pesar-136564201.html",
    "publicat": "2026-11-18T08:09:21.000Z"
   },
@@ -406,7 +527,7 @@
    "icona": "/assets/premsa/el-nacional.webp",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Nvidia guanya, amb la gestió de Jensen Huang, gairebé 60.000 milions en el tercer trimestre",
+   "titol": "Nvidia guanya, amb la gestió de Jensen Huang, gairebé 60.000 milions el tercer trimestre",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nvidia-guanya-gestio-jensen-huang-60000-milions-en-tercer-trimestre_1727234_102.html",
    "publicat": "2026-11-18T07:49:20.000Z"
   },
@@ -2647,127 +2768,6 @@
    "titol": "Primer xoc intern a la Casa Blanca per l’escàndol d’espionatge de Nvidia",
    "url": "https://www.ara.cat/economia/tecnologia/xoc-intern-casa-blanca-l-escandol-d-espionatge-nvidia_1_5909907.html",
    "publicat": "2026-11-13T21:35:56.000Z"
-  },
-  {
-   "id": "8b3ae546cbc5",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El V Forum Europeo de Inteligencia Artificial conquista Alicante con un lleno absoluto",
-   "url": "https://www.informacion.es/economia/2026/11/13/v-forum-europeo-inteligencia-artificial-136401139.html",
-   "publicat": "2026-11-13T21:30:42.000Z"
-  },
-  {
-   "id": "bd58e23c182c",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los servicios de Microsoft retoman la normalidad tras una caída global de más de 18 horas",
-   "url": "https://elpais.com/tecnologia/2026-11-13/microsoft-no-logra-recuperar-sus-servicios-tras-una-caida-global-de-mas-de-12-horas.html",
-   "publicat": "2026-11-13T18:48:57.000Z"
-  },
-  {
-   "id": "bc2ad3faeceb",
-   "mitja": "Diari de Terrassa",
-   "font": "diarideterrassa",
-   "icona": "/assets/premsa/diari-de-terrassa.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Joan Carles Peris, periodista terrassenc: \"No soc optimista: la professió tindrà dificultats per resistir-se a la IA\"",
-   "url": "https://www.diarideterrassa.com/terrassa/joan-carles-peris-periodista-terrassenc-no-soc-optimista-a-la-professio-li-costara-resistir-se-a-la-ia.html",
-   "publicat": "2026-11-13T18:43:31.000Z"
-  },
-  {
-   "id": "195b22652942",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Dos gurus de la IA il·luminen el camí als líders europeus",
-   "url": "https://www.ara.cat/economia/tecnologia/gurus-ia-il-luminen-cami-als-liders-europeus_1_5909335.html",
-   "publicat": "2026-11-13T18:07:19.000Z"
-  },
-  {
-   "id": "337b8a1f8ce0",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "RTVE presenta Contexta, una IA que resuelve dudas de actualidad a partir del trabajo de sus periodistas",
-   "url": "https://www.lavanguardia.com/television/20261113/11683722/rtve-presenta-contexta-ia-resuelve-dudas-actualidad-partir-trabajo-periodistas.html",
-   "publicat": "2026-11-13T17:19:51.000Z"
-  },
-  {
-   "id": "169a82c49b71",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La UE se encomienda a dos gurús tecnológicos para entrar en la carrera global de la IA",
-   "url": "https://www.lavanguardia.com/economia/20261113/11683629/ue-encomienda-dos-gurus-tecnologicos-entrar-carrera-global-ia.html",
-   "publicat": "2026-11-13T17:07:30.000Z"
-  },
-  {
-   "id": "f2403f082034",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Google comença a substituir \"Hey Google\" per \"Hey Gemini\", tot i que encara no podràs usar-lo al teu mòbil",
-   "url": "https://www.elnacional.cat/ca/tecnologia/google-comenca-substituir-hey-google-hey-gemini-tot-encara-no-podras-usar-lo-teu-mobil_1725299_102.html",
-   "publicat": "2026-11-13T17:00:00.000Z"
-  },
-  {
-   "id": "4ce81d120c55",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El escándalo de Nvidia hiere a la administración Trump, impulsa la regulación y amenaza con torpedear el desenfreno de la IA",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261113/huang-dimision-nvidia-eeuu-trump-136408691",
-   "publicat": "2026-11-13T16:43:12.000Z"
-  },
-  {
-   "id": "f9ddb40aaf20",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Las últimas horas de Jensen Huang en Nvidia: “Soy un pedazo de mierda”",
-   "url": "https://elpais.com/us/2026-11-13/las-ultimas-horas-de-jensen-huang-en-nvidia-soy-un-pedazo-de-mierda.html",
-   "publicat": "2026-11-13T16:43:06.000Z"
-  },
-  {
-   "id": "934aac312a85",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nscale, respaldada por Nvidia, dispara las dudas sobre la IA al reconocer que necesitará nuevos fondos",
-   "url": "https://cincodias.elpais.com/companias/2026-11-13/nscale-respaldada-por-nvidia-dispara-las-dudas-sobre-la-ia-al-reconocer-que-necesitara-nuevos-fondos.html",
-   "publicat": "2026-11-13T16:42:30.000Z"
-  },
-  {
-   "id": "bec6e23ec80b",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La auditoría se refuerza con la IA, pero pone en valor su criterio profesional ante los riesgos de su uso",
-   "url": "https://cincodias.elpais.com/companias/2026-11-13/la-auditoria-se-refuerza-con-la-ia-pero-pone-en-valor-su-criterio-profesional-ante-los-riesgos-de-su-uso.html",
-   "publicat": "2026-11-13T16:39:04.000Z"
   }
  ]
 }
