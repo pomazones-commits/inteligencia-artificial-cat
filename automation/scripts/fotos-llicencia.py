@@ -66,7 +66,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 MAX_BYTES = 15 * 1024 * 1024
 MAX_COSTAT = 1200
 MIN_AMPLADA = 1000          # 18.11.2026: abans 600; una foto de 909 px es veia desenfocada
-MAX_CANDIDATS = 6           # retrats del banc: fotos que es proven com a molt
+MAX_CANDIDATS = 10          # retrats del banc: fotos que es proven com a molt
 MAX_PES = 350 * 1024
 PROPORCIO = 1184 / 864      # la de les il·lustracions del web
 CAMPS_CREDIT = ('imageCredit', 'imageLicense', 'imageSourceUrl')
@@ -256,10 +256,13 @@ def candidats_wikidata(qid, baixa_fn):
     return titols
 
 
-def retrat_wikidata(qid, fonts, desti, baixa_fn):
+def retrat_wikidata(qid, fonts, desti, baixa_fn, estricte=False):
     """Prova les fotos de candidats_wikidata() fins a trobar-ne una prou gran i amb
-    la cara ben enquadrada. Si cap no té la cara ben enquadrada (o OpenCV no la
-    detecta), es queda la primera prou gran. Torna (crèdit, llicència, pàgina, pes)."""
+    la cara ben enquadrada. Si cap no ho està, es queda la primera prou gran on
+    OpenCV hagi trobat una cara; MAI una foto sense cap cara (18.11.2026: la primera
+    prova va triar un cartell amb el nom de Fei-Fei Li). Sense OpenCV no es pot
+    comprovar res i es queda la primera prou gran, llevat que `estricte` (refer una
+    foto publicada), que llavors no en tria cap. Torna (crèdit, llicència, pàgina, pes)."""
     motius, reserva = [], None
     for titol in candidats_wikidata(qid, baixa_fn)[:MAX_CANDIDATS]:
         try:
@@ -270,15 +273,22 @@ def retrat_wikidata(qid, fonts, desti, baixa_fn):
             on_acaba, dades = baixa_fn(url)
             if not font_del_host(fonts, on_acaba):
                 raise Rebutjada('redirecció fora de la llista de servidors')
-            im, posada = prepara(dades)
+            im, posada, cares = prepara(dades)
         except Rebutjada as error:
             motius.append(f'{titol}: {error}')
             continue
-        if posada is not False:
+        if posada is True or (posada is None and not estricte):
+            for motiu in motius:
+                print(f'     descartada {motiu}')
             return info['credit'], info['llicencia'], info['pagina'], desa_jpeg(None, desti, im=im)
-        motius.append(f'{titol}: cara mal enquadrada')
-        reserva = reserva or (info, im)
-    if reserva:
+        if posada is None:
+            motius.append(f'{titol}: sense OpenCV no es pot comprovar la cara')
+        elif not cares:
+            motius.append(f'{titol}: no hi ha cap cara')
+        else:
+            motius.append(f'{titol}: cara mal enquadrada')
+            reserva = reserva or (info, im)
+    if reserva and not estricte:
         info, im = reserva
         return info['credit'], info['llicencia'], info['pagina'], desa_jpeg(None, desti, im=im)
     raise Rebutjada('cap foto bona: ' + '; '.join(motius))
@@ -401,9 +411,10 @@ def cara_ben_posada(cares, caixa):
 
 
 def prepara(dades, exigeix_cara=False):
-    """Obre, gira, retalla i redueix la foto. Torna (imatge, ben_posada), on
-    ben_posada és True/False segons cara_ben_posada() o None sense OpenCV. Amb
-    `exigeix_cara`, rebutja la foto si ben_posada és False."""
+    """Obre, gira, retalla i redueix la foto. Torna (imatge, ben_posada, cares),
+    on ben_posada és True/False segons cara_ben_posada() o None sense OpenCV, i
+    cares, les cares detectades (None sense OpenCV). Amb `exigeix_cara`, rebutja
+    la foto si ben_posada és False."""
     from PIL import Image, ImageOps
     try:
         im = Image.open(io.BytesIO(dades))
@@ -420,7 +431,7 @@ def prepara(dades, exigeix_cara=False):
     if exigeix_cara and posada is False:
         raise Rebutjada('no hi ha cap cara ben enquadrada')
     im.thumbnail((MAX_COSTAT, MAX_COSTAT))
-    return im, posada
+    return im, posada, cares
 
 
 def desa_jpeg(dades, desti, exigeix_cara=False, im=None):
@@ -477,7 +488,7 @@ def resol(peticio, item, fonts, baixa_fn):
     return info['fitxer'], info['credit'], info['llicencia'], info['pagina']
 
 
-def processa(item, fonts, public_dir, data, baixa_fn=baixa, final=True, sufix=''):
+def processa(item, fonts, public_dir, data, baixa_fn=baixa, final=True, sufix='', estricte=False):
     original = {camp: item[camp] for camp in ('imageFetch',) + CAMPS_CREDIT if camp in item}
     peticio = str(item.pop('imageFetch', '') or '').strip()
     if not peticio:
@@ -489,7 +500,8 @@ def processa(item, fonts, public_dir, data, baixa_fn=baixa, final=True, sufix=''
         nom = f'{slug}-{data.replace("-", "")}{sufix}-foto.jpg'
         desti = os.path.join(public_dir, 'assets', nom)
         if peticio.lower().startswith('wikidata:'):
-            credit, llicencia, pagina, pes = retrat_wikidata(peticio.split(':', 1)[1].strip(), fonts, desti, baixa_fn)
+            credit, llicencia, pagina, pes = retrat_wikidata(peticio.split(':', 1)[1].strip(), fonts, desti, baixa_fn,
+                                                             estricte=estricte)
         else:
             url, credit, llicencia, pagina = resol(peticio, item, fonts, baixa_fn)
             if not font_del_host(fonts, url):
@@ -604,7 +616,7 @@ def refes(args):
             n += 1
         item = {'slug': slug, 'title': publicada.get('title', ''), 'excerpt': publicada.get('excerpt', ''),
                 'image': publicada.get('image', ''), 'imageFetch': peticio}
-        linia = processa(item, fonts, args.public_dir, data, final=True, sufix=f'-{n}')
+        linia = processa(item, fonts, args.public_dir, data, final=True, sufix=f'-{n}', estricte=True)
         print(linia)
         if not linia.startswith('OK'):
             queden.append({**entrada, 'error': linia})
@@ -729,9 +741,15 @@ def self_test():
         h = {'slug': 'petita', 'imageFetch': 'https://cdn-govern.watchity.net/p.jpg', 'imageCredit': 'x', 'imageLicense': 'CC0'}
         assert processa(h, fonts, tmp, '2026-09-26', lambda u, l=MAX_BYTES: (u, petita.getvalue())).startswith('NO')
         # 9. Wikidata → P18 → Commons.
+        #    Amb OpenCV, la foto de prova (un color pla, sense cap cara) es rebutja:
+        #    mai un retrat sense cara (18.11.2026).
         i = {'slug': 'altman', 'imageFetch': 'wikidata:Q7407093'}
-        assert processa(i, fonts, tmp, '2026-09-26', xarxa).startswith('OK'), i
-        assert i['imageCredit'] == 'Joan Pi / Wikimedia Commons'
+        resultat = processa(i, fonts, tmp, '2026-09-26', xarxa)
+        if detecta_cares(Image.new('RGB', (64, 64))) is None:
+            assert resultat.startswith('OK'), i
+            assert i['imageCredit'] == 'Joan Pi / Wikimedia Commons'
+        else:
+            assert resultat.startswith('NO') and 'cap cara' in resultat, resultat
         # 10. Openverse (Flickr): llicència i autor de l'API; NC rebutjada.
         j = {'slug': 'openverse', 'imageFetch': 'openverse:20e482af-3fc3-4d5e-a07d-57a1ec28109c'}
         assert processa(j, fonts, tmp, '2026-09-26', xarxa).startswith('OK'), j
