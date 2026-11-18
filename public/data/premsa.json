@@ -1,8 +1,151 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-18T09:14:13.246Z",
+ "actualitzat": "2026-11-18T13:15:24.225Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "8998f756bb4a",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una nova metodologia per mesurar la confiança dels usuaris en els sistemes d’intel·ligència artificial explicable",
+   "url": "https://www.diariodemallorca.es/cronica-uib/2026/11/18/nova-metodologia-per-mesurar-confianca-usuaris-en-els-sistemes-d-intelligencia-artificial-explicable-136576114.html",
+   "publicat": "2026-11-18T13:11:42.000Z"
+  },
+  {
+   "id": "60f4688a15d3",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Corea del Sur reacciona ante el escándalo del uso de la IA en los exámenes: habrá más vigilantes y se revisarán hasta los botones",
+   "url": "https://www.lavanguardia.com/vida/20261118/11687270/corea-sur-reacciona-escandalo-ia-examenes-habra-mas-vigilantes-revisaran-botones.html",
+   "publicat": "2026-11-18T12:59:46.000Z"
+  },
+  {
+   "id": "195c9f11037c",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un cantante flamenco generado con IA dará su primer concierto en Madrid: “No es humano, es un concepto”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261118/11687231/cantante-flamenco-generado-ia-primer-concierto-humano-concepto.html",
+   "publicat": "2026-11-18T12:31:47.000Z"
+  },
+  {
+   "id": "ae8a5098db11",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Microsoft lanza Perception, su nueva plataforma de ciberseguridad con agentes de IA para detectar y corregir amenazas",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/18/2752489/microsoft-lanza-perception-nueva-plataforma-ciberseguridad-agentes-para-detectar-corregir-amenazas.html",
+   "publicat": "2026-11-18T11:47:33.000Z"
+  },
+  {
+   "id": "a30ddd4fc0e5",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Sam Altman, CEO de OpenAI, sobre Nvidia: “Es difícil imaginar la revolución de la IA sin Jensen Huang, pero estaremos bien”",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261118/11687147/sam-altman-ceo-openai-nvidia-dificil-revolucion-ia-jensen-huang.html",
+   "publicat": "2026-11-18T11:33:36.000Z"
+  },
+  {
+   "id": "8443eed9c493",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Avanade, controlada por Accenture y Microsoft, compra la española Plain Concepts para crecer en ingenierías basadas en IA",
+   "url": "https://cincodias.elpais.com/companias/2026-11-18/avanade-controlada-por-accenture-y-microsoft-compra-la-espanola-plain-concepts-para-crecer-en-ingenierias-basadas-en-ia.html",
+   "publicat": "2026-11-18T11:17:04.000Z"
+  },
+  {
+   "id": "40747f0a89b7",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Corea del Sud emetrà alertes per evitar trampes amb IA a la selectivitat",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/corea-sud-emetra-alertes-evitar-trampes-ia-selectivitat_1727435_102.html",
+   "publicat": "2026-11-18T10:52:54.000Z"
+  },
+  {
+   "id": "fcc85c9a2d40",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El BCE alerta del peligro de la elevada deuda pública y el auge de la inteligencia artificial para la estabilidad financiera",
+   "url": "https://www.elperiodico.com/es/economia/20261118/bce-alerta-peligro-elevada-deuda-136569988",
+   "publicat": "2026-11-18T10:52:44.000Z"
+  },
+  {
+   "id": "0d029d4d3bf9",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La IA jurídica se consolida en los despachos y redefine el día a día de la abogacía",
+   "url": "https://cincodias.elpais.com/extras/2026-11-18/la-ia-juridica-se-consolida-en-los-despachos-y-redefine-el-dia-a-dia-de-la-abogacia.html",
+   "publicat": "2026-11-18T10:35:12.000Z"
+  },
+  {
+   "id": "d091af5b0752",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Paris Hilton pide al Congreso de Estados Unidos una ley contra imágenes sexuales hechas con IA",
+   "url": "https://www.lavanguardia.com/gente/20261118/11687029/paris-hilton-pide-congreso-estados-unidos-ley-imagenes-sexuales-hechas-ia.html",
+   "publicat": "2026-11-18T10:24:46.000Z"
+  },
+  {
+   "id": "73de40537d18",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Del Black October a la febre per la IA: què hi ha darrere de les caigudes en cadena dels sistemes als EUA?",
+   "url": "https://www.elnacional.cat/ca/internacional/black-october-febre-ia-hi-ha-darrere-caigudes-en-cadena-sistemes-eua_1727327_102.html",
+   "publicat": "2026-11-18T10:15:16.000Z"
+  },
+  {
+   "id": "fc556c18196f",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Pep Martorell, doctor en informática: “No tiene ningún sentido pedir un trabajo a los estudiantes porque lo van a hacer con ChatGPT y yo lo voy a corregir con ChatGPT”",
+   "url": "https://www.lavanguardia.com/clic/20261118/11686889/pep-martorell-doctor-informatica-ningun-sentido-pedir-trabajo-estudiantes-chatgpt-corregir-chatgpt.html",
+   "publicat": "2026-11-18T09:49:07.000Z"
+  },
+  {
+   "id": "4b2f5f661499",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia afirma que Jensen Huang no volverá como CEO: “Aceptamos su dimisión y no tenemos intención de restituirle”",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261118/11686990/nvidia-afirma-jensen-huang-no-volvera-ceo-dimision-restituirle.html",
+   "publicat": "2026-11-18T09:33:49.000Z"
+  },
   {
    "id": "9457631a5f64",
    "mitja": "Cinco Días",
@@ -81,6 +224,17 @@
    "publicat": "2026-11-18T06:30:06.000Z"
   },
   {
+   "id": "8644b415430b",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Parados sin trabajo y empresas sin candidatos, IA y salarios: los retos del empleo en España y cómo afrontarlos",
+   "url": "https://www.diariodemallorca.es/economia/2026/11/18/elecciones-generales-29-noviembre-empleo-retos-nuevo-gobierno-136562769.html",
+   "publicat": "2026-11-18T06:15:05.000Z"
+  },
+  {
    "id": "666acec575a3",
    "mitja": "El Periódico",
    "font": "elperiodico-totes",
@@ -101,17 +255,6 @@
    "titol": "El 96% de los inversores reconoce que se está sobrevalorando a las empresas de IA",
    "url": "https://www.elperiodico.com/es/economia/20261118/96-inversores-cree-sobrevalorando-empresas-burbuja-inteligencia-artificial-ia-136546701",
    "publicat": "2026-11-18T05:00:51.000Z"
-  },
-  {
-   "id": "188a9fe8df7b",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Parados sin trabajo y empresas sin candidatos, IA y salarios: los retos del empleo en España y cómo afrontarlos",
-   "url": "https://www.elperiodico.com/es/economia/20261118/elecciones-generales-29-noviembre-empleo-retos-nuevo-gobierno-136512768",
-   "publicat": "2026-11-18T05:00:34.000Z"
   },
   {
    "id": "7b6208826a52",
@@ -167,6 +310,28 @@
    "titol": "Aprovada la venda del sòl per a la gigafactoria d’IA de Móra la Nova",
    "url": "https://www.segre.com/ca/nacional-internacional/261118/aprovada-venda-sol-per-gigafactoria-d-ia-mora-nova_1402105.html",
    "publicat": "2026-11-18T04:22:05.000Z"
+  },
+  {
+   "id": "a16ee29cb021",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Aturats sense feina i empreses sense candidats, IA i salaris: els reptes de l’ocupació a Espanya i com afrontar-los",
+   "url": "https://www.elperiodico.cat/economia/20261118/eleccions-generals-29-de-novembre-ocupacio-reptes-del-nou-govern-136512768",
+   "publicat": "2026-11-18T04:00:34.000Z"
+  },
+  {
+   "id": "cf95120dfb6e",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia bate las expectativas al duplicar ingresos y beneficios en plena crisis por la salida de Jensen Huang",
+   "url": "https://www.eldiario.es/economia/nvidia-duplica-ingresos-tercer-trimestre-plena-crisis-salida-jensen-huang_1_13672608.html",
+   "publicat": "2026-11-18T02:37:23.000Z"
   },
   {
    "id": "8e017badf2fe",
@@ -2601,171 +2766,6 @@
    "titol": "'Bloomberg': la supuesta espía del caso Nvidia compró chips prohibidos que acabaron en China",
    "url": "https://www.ultimahora.es/noticias/internacional/2026/11/13/2748999/bloomberg-supuesta-espia-del-caso-nvidia-compro-chips-prohibidos-acabaron-china.html",
    "publicat": "2026-11-13T09:03:00.000Z"
-  },
-  {
-   "id": "fff1a6300ca0",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Comprueba las incidencias en Outlook, Teams y Copilot en tiempo real: así está ahora mismo la caída de Microsoft",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261113/comprueba-incidencias-microsoft-outlook-teams-copilot-dv-136397239",
-   "publicat": "2026-11-13T08:45:23.000Z"
-  },
-  {
-   "id": "bd58e23c182c",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los servicios de Microsoft retoman la normalidad tras una caída global de más de 18 horas",
-   "url": "https://elpais.com/tecnologia/2026-11-13/microsoft-no-logra-recuperar-sus-servicios-tras-una-caida-global-de-mas-de-12-horas.html",
-   "publicat": "2026-11-13T08:06:10.000Z"
-  },
-  {
-   "id": "d12a45298b99",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Ibex 35 salva los 20.000 puntos tras subir un 3,36% en una semana marcada por Nvidia y los resultados",
-   "url": "https://www.elperiodico.com/es/economia/20261113/ibex-35-apunta-baja-pierde-136396820",
-   "publicat": "2026-11-13T08:05:20.000Z"
-  },
-  {
-   "id": "c3170b0262e3",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Microsoft continua sense solucionar la seva caiguda global: Teams, Outlook i Copilot encara no funcionen aquest divendres",
-   "url": "https://www.diaridegirona.cat/tecnologia/2026/11/13/microsoft-continua-sense-solucionar-seva-136396607.html",
-   "publicat": "2026-11-13T07:54:51.000Z"
-  },
-  {
-   "id": "5dcb39247028",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Investigadores rediseñan la visión en la IA multimodal para acelerar sus respuestas sin perder precisión",
-   "url": "https://www.lasprovincias.es/tecnologia/investigadores-redisenan-vision-multimodal-rlt_arx-20261113071128-nt.html",
-   "publicat": "2026-11-13T07:25:28.000Z"
-  },
-  {
-   "id": "08cb8bb15bfa",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "TikTok quiere plantar cara a ChatGPT y Muse: ByteDance prepara su primer agente de inteligencia artificial",
-   "url": "https://www.lavanguardia.com/neo/ia/20261113/11682486/tiktok-quiere-plantar-cara-chatgpt-muse-bytedance-prepara-primer-agente-inteligencia-artificial.html",
-   "publicat": "2026-11-13T07:20:00.000Z"
-  },
-  {
-   "id": "35948b965247",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Caiguda mundial de Microsoft 365 que afecta Outlook, Teams i Copilot",
-   "url": "https://www.elnacional.cat/ca/societat/caiguda-mundial-microsoft-365-afecta-outlook-teams-copilot_1724855_102.html",
-   "publicat": "2026-11-13T07:20:00.000Z"
-  },
-  {
-   "id": "389e13840740",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA que nadie controla",
-   "url": "https://www.ultimahora.es/noticias/economico/2026/11/13/2747635/nadie-controla.html",
-   "publicat": "2026-11-13T07:10:00.000Z"
-  },
-  {
-   "id": "69c21af489a5",
-   "mitja": "Ara Balears",
-   "font": "arabalears",
-   "icona": "/assets/premsa/ara-balears.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Microsoft no aconsegueix solucionar la caiguda global de Teams, Outlook i Copilot",
-   "url": "https://www.ara.cat/economia/tecnologia/microsoft-no-aconsegueix-solucionar-s-esperava-caiguda-global-dels-serveis_1_5909013.html",
-   "publicat": "2026-11-13T06:40:56.000Z"
-  },
-  {
-   "id": "b1907d82321d",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Microsoft sigue sin resolver la caída mundial de Outlook, Teams y Copilot",
-   "url": "https://www.lavanguardia.com/vida/20261113/11683225/microsoft-dificultades-reparar-caida-mundial-outlook.html",
-   "publicat": "2026-11-13T06:08:00.000Z"
-  },
-  {
-   "id": "ba50ac196301",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El presidente de los arquitectos europeos apuesta por la IA para reducir la burocracia en la construcción",
-   "url": "https://www.levante-emv.com/economia/2026/11/13/presidente-arquitectos-europeos-apuesta-ia-crisis-de-la-vivienda-136380680.html",
-   "publicat": "2026-11-13T05:00:43.000Z"
-  },
-  {
-   "id": "3679c0c7270e",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | Especial Plaza | Jornada IA Humanidad Aumentada",
-   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/especial-plaza-jornada-ia-humanidad-aumentada",
-   "publicat": "2026-11-13T05:00:04.000Z"
-  },
-  {
-   "id": "ab87240096a2",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Empresas | La justicia condena a Substrate AI a pagar a Summon Press los 500.000 euros pendientes por la venta de su negocio digital",
-   "url": "https://valenciaplaza.com/valenciaplaza/empresas1/la-justicia-condena-a-substrate-ai-a-pagar-a-summon-press-los-500000-euros-pendientes-por-la-venta-de-su-negocio-digital",
-   "publicat": "2026-11-13T05:00:04.000Z"
-  },
-  {
-   "id": "1e1f5ce2cc89",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Prudencia.ai, reconocida como Mejor Startup de Inteligencia Artificial Jurídica de España en 2026",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261113/11680909/prudencia-ai-reconocida-mejor-startup-inteligencia-artificial-juridica-espana-2026.html",
-   "publicat": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "e657cd06315e",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA ya automatiza tareas en las gestorías, pero las decisiones fiscales siguen necesitando un asesor",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/legal/20261113/11679998/ia-automatiza-tareas-gestorias-decisiones-fiscales-siguen-necesitando-asesor.html",
-   "publicat": "2026-11-13T05:00:00.000Z"
   }
  ]
 }
