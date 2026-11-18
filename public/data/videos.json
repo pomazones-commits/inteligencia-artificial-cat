@@ -1,8 +1,68 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-18T17:13:56.949Z",
+ "actualitzat": "2026-11-18T22:42:28.712Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "AhmCKHNqhB8",
+   "titol": "Introducing ChatGPT for Accounting",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-18T21:01:26.000Z",
+   "descripcio": "ChatGPT for Accounting helps take the busywork out of your month-end close. Watch how ChatGPT finds completed jobs in your email and drafts QuickBooks invoices for your review, flagging anything unclear along the way. The Accounting plugin also helps you reconcile transactions, process invoices and ",
+   "miniatura": "/assets/videos/AhmCKHNqhB8.jpg"
+  },
+  {
+   "id": "f2bpv9mFUeE",
+   "titol": "Google Antigravity and Gemini 4: Building a custom groovebox on a $40 macro pad",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-18T20:00:24.000Z",
+   "descripcio": "Watch music producer, DJ, and pianist Arlander Taylor transform a generic $40 16-key, 3-knob gaming macro pad into a custom groovebox and polyrhythmic synthesizer in a single shot using Gemini 4 Carbon and Antigravity. What custom hardware would you build with Gemini 4 Carbon or upcoming Gemini mode",
+   "miniatura": "/assets/videos/f2bpv9mFUeE.jpg"
+  },
+  {
+   "id": "uJG53ligJt4",
+   "titol": "NVIDIA SC26 Special Address",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "ciencia",
+   "idioma": "en",
+   "publicat": "2026-11-18T18:36:18.000Z",
+   "descripcio": "Scientific computing is entering the era of agentic AI. Bringing simulation, AI, and agents together gives researchers new ways to tackle complex problems and accelerate scientific discovery. Watch Ian Buck, VP of Hyperscale and HPC at NVIDIA, highlight the latest cutting-edge breakthroughs revoluti",
+   "miniatura": "/assets/videos/uJG53ligJt4.jpg"
+  },
+  {
+   "id": "pVc6KkjeCfU",
+   "titol": "Behind the scenes with Genie 4",
+   "canal": "Google DeepMind",
+   "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-18T18:12:24.000Z",
+   "descripcio": "Go behind the scenes of our recent Genie 4 film as we explore our most realistic and interactive world model yet. Instead of generating static video, Genie 4 simulates dynamic worlds in real time. Watch how our team used Genie 4 and Project Genie to turn text prompts into explorable environments in ",
+   "miniatura": "/assets/videos/pVc6KkjeCfU.jpg"
+  },
+  {
+   "id": "EDp4IoAUsXY",
+   "titol": "Introducing the new Project Genie, powered by Genie 4",
+   "canal": "Google DeepMind",
+   "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-18T18:12:21.000Z",
+   "descripcio": "Step inside your imagination with Project Genie, now powered by Google DeepMind’s most realistic and interactive world model yet, Genie 4. Project Genie brings our most advanced world and multimodal models together with Gemini so you can turn ideas into explorable, shareable worlds right in your bro",
+   "miniatura": "/assets/videos/EDp4IoAUsXY.jpg"
+  },
   {
    "id": "y9AALMeAeGI",
    "titol": "Can Open Source Make AI Agents Safer?",
@@ -885,18 +945,6 @@
    "publicat": "2026-10-28T23:45:26.000Z",
    "descripcio": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. Credit amounts depend on the plan. Pro plans get $100, $200 or $500 per month by tier. Business plans get $20 per paid Standard seat or $100 per paid Premium seat, po",
    "miniatura": "/assets/videos/ujmyzWSj8IU.jpg"
-  },
-  {
-   "id": "ID6vEy94j7c",
-   "titol": "Building real-time vision & edge navigation with Gemini Live",
-   "canal": "Google for Developers",
-   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-10-28T21:00:32.000Z",
-   "descripcio": "Meet Sprout, a semi-autonomous plant robot powered by Gemini. Watch as it navigates the office in search of sunlight, pings for help, and uses Gemini Live and Robotics ER 2.0 for vision to care for fellow office plants. Try building today → https://goo.gle/4BmThG6 Subscribe to Google for Developers ",
-   "miniatura": "/assets/videos/ID6vEy94j7c.jpg"
   },
   {
    "id": "sFfPkUJd_Jk",
