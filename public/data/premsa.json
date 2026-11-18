@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-18T13:15:24.225Z",
+ "actualitzat": "2026-11-18T13:29:52.233Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "715e25b63d18",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El BCE alerta de riscos “sistèmics” sobre l’estabilitat financera per una sobrevaloració de la IA",
+   "url": "https://www.ara.cat/economia/banca/bce-alerta-riscos-sistemics-l-estabilitat-financera-sobrevaloracio-ia_1_5914632.html",
+   "publicat": "2026-11-18T13:14:07.000Z"
+  },
   {
    "id": "8998f756bb4a",
    "mitja": "Diario de Mallorca",
@@ -164,7 +175,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Las Bolsas europeas caen tras los resultados de Nvidia",
+   "titol": "Las Bolsas europeas ignoran el balón de oxígeno de Nvidia y el Ibex pierde más de un 0,5%",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-18/la-bolsa-y-el-ibex-35.html",
    "publicat": "2026-11-18T08:13:50.000Z"
   },
@@ -2449,6 +2460,17 @@
    "publicat": "2026-11-13T21:30:42.000Z"
   },
   {
+   "id": "bd58e23c182c",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los servicios de Microsoft retoman la normalidad tras una caída global de más de 18 horas",
+   "url": "https://elpais.com/tecnologia/2026-11-13/microsoft-no-logra-recuperar-sus-servicios-tras-una-caida-global-de-mas-de-12-horas.html",
+   "publicat": "2026-11-13T18:48:57.000Z"
+  },
+  {
    "id": "bc2ad3faeceb",
    "mitja": "Diari de Terrassa",
    "font": "diarideterrassa",
@@ -2744,28 +2766,6 @@
    "titol": "Microsoft recupera el servicio tras sufrir una caída mundial: última hora sobre el funcionamiento de Outlook, Teams y Copilot",
    "url": "https://www.lavanguardia.com/vida/20261113/11683265/caida-mundial-outlook-teams-copilot-microsoft-ultima-hora-hoy-en-directo.html",
    "publicat": "2026-11-13T09:11:19.000Z"
-  },
-  {
-   "id": "2b9a1824b5bf",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Yuval Noah Harari, historiador: “La inteligencia artificial creará un nuevo mundo que no entenderemos, seremos como gallinas o vacas”",
-   "url": "https://www.lavanguardia.com/neo/20261113/11683240/yuval-noah-harari-historiador-inteligencia-artificial-creara-nuevo-mundo-entenderemos-seremos-gallinas-vacas-epm.html",
-   "publicat": "2026-11-13T09:05:43.000Z"
-  },
-  {
-   "id": "4c4f8cc9091c",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "'Bloomberg': la supuesta espía del caso Nvidia compró chips prohibidos que acabaron en China",
-   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/13/2748999/bloomberg-supuesta-espia-del-caso-nvidia-compro-chips-prohibidos-acabaron-china.html",
-   "publicat": "2026-11-13T09:03:00.000Z"
   }
  ]
 }
