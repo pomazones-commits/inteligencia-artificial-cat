@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "18.11.2026",
+    "title": "Alhora retira un vídeo fet amb IA que «ressuscitava» Lluís Maria Xirinacs, després d'una pluja de crítiques a les xarxes",
+    "summary": "El partit de Jordi Graupera, que es presenta a les eleccions espanyoles del 29 de novembre, no havia demanat permís a la família. És el segon ensurt de la campanya per l'ús de la IA.",
+    "detail": "La intel·ligència artificial s'ha colat a la campanya de les eleccions generals espanyoles del 29 de novembre, i ara també a la catalana. Alhora, el partit independentista que encapçala Jordi Graupera, va publicar un vídeo humorístic en què la IA tornava a la vida Lluís Maria Xirinacs, el pacifista i activista independentista mort el 2007. Al vídeo, Graupera tocava un teclat electrònic mentre un Xirinacs generat per ordinador feia sorolls, ballava i somreia.\n\nEl text que acompanyava el vídeo recordava el discurs de Xirinacs a la Diada del 2002 al Fossar de les Moreres, quan es va declarar «enemic de l'Estat espanyol» i «amic d'ETA», i deia que la part del teclat l'havia feta la IA. Les crítiques van arribar de seguida a les xarxes, de persones anònimes i no d'altres partits: el titllaven d'irrespectuós i ofensiu i demanaven que l'esborressin. Alhora el va retirar al cap de poques hores i ja no es pot veure enlloc.\n\nAbans de retirar-lo, Graupera va explicar a l'Ara que entenia les objeccions, que el vídeo es podia veure com una transgressió i que Xirinacs és per a ell un «mestre» que respecta molt. Va dir que escoltarien les crítiques i en farien una reflexió, i va admetre que no havien demanat permís a la família: de les tres germanes de Xirinacs, monges de clausura, només en viu una, de 96 anys. El partit ha publicat després un vídeo més llarg, sense aquest to, sobre el llegat de l'activista.\n\nEl cas no és aïllat. En aquesta campanya, el PP ja va difondre un vídeo en què Pedro Sánchez i altres dirigents socialistes confessaven, gràcies a la IA, delictes que no han comès. La diferència és que aquí no s'atribueixen fets falsos a ningú, però sí que es fa parlar i moure una persona morta sense el consentiment dels seus. Ni la família ni la Fundació Randa–Lluís M. Xirinacs no s'han pronunciat, segons l'Ara, i la legislació electoral no diu res específic sobre la recreació de persones mortes amb IA.",
+    "source": "Ara",
+    "url": "https://www.ara.cat/politica/graupera-ressuscita-xirinacs-ia-pluja-critiques_1_5913074.html",
+    "image": "./assets/alhora-graupera-video-ia-xirinacs-critiques-20261118.jpg",
+    "slug": "alhora-graupera-video-ia-xirinacs-critiques"
+  },
+  {
     "place": "Barcelona",
     "category": "EDUCACIÓ",
     "date": "18.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.3cat.cat/3catinfo/en-defensa-dels-cartells-municipals-sense-ia-tarragona-arbucies-i-alcarras-ja-els-han-prohibit/noticia/3438913/",
     "image": "./assets/cartells-municipals-sense-ia-tarragona-arbucies-alcarras-20261116.jpg",
     "slug": "cartells-municipals-sense-ia-tarragona-arbucies-alcarras"
-  },
-  {
-    "place": "Girona",
-    "category": "IA I SOCIETAT",
-    "date": "15.11.2026",
-    "title": "La Universitat de Girona i l'IDIBGI creen Evimatic Healthtech, una empresa amb una IA que resumeix en segons què diu la recerca sobre els tractaments del TDAH",
-    "summary": "L'eina, provada amb pacients de la xarxa de salut mental de Girona i Blanes, analitza els assajos clínics publicats i no fa servir un model de llenguatge com ChatGPT, perquè els seus impulsors volen que es pugui veure com arriba a cada resposta.",
-    "detail": "Triar el millor tractament per a una persona amb trastorn per dèficit d'atenció i hiperactivitat (TDAH) obliga a tenir en compte molts assajos clínics sobre medicaments, psicoteràpies i intervencions neurofisiològiques, i posar-los al dia és una feina feixuga. Un equip de la Universitat de Girona (UdG) i de l'Institut d'Investigació Biomèdica de Girona (IDIBGI) fa anys que treballa en una eina d'IA per ajudar-hi. Ara n'ha nascut una empresa derivada de la recerca, Evimatic Healthtech, constituïda aquest divendres.\n\nL'eina analitza els resultats dels assajos clínics publicats i en fa un resum per al professional que hi consulta. Segons el seu principal impulsor, Xavier Castells, respon en segons una pregunta que, d'una altra manera, podria demanar mesos o anys de feina d'un equip multidisciplinari. No fa servir cap model de llenguatge com ChatGPT o Gemini, sinó un model determinista: han preferit «la transparència» a la potència, perquè l'usuari pugui veure com s'ha generat la informació. El prototip s'ha validat en tres estudis, un amb dades simulades i dos amb pacients diagnosticats de TDAH atesos a la xarxa de salut mental de les comarques gironines, sobretot a Girona i Blanes.\n\nÉs un exemple de recerca catalana que fa el pas cap al mercat. La directora de l'IDIBGI, Marga Nadal, ho ha qualificat de dia molt especial per a l'institut, i la vicerectora de Recerca i Transferència de la UdG, Dolors Berga, també ha participat en la presentació. Els impulsors volen estendre l'eina a l'autisme, la dislèxia i la discalcúlia, després a la depressió i l'esquizofrènia i, a llarg termini, a la medicina interna i l'atenció primària.\n\nL'empresa tot just comença: encara ha de definir el client principal, el preu i els canals de venda, i no s'ha informat de cap finançament. Castells subratlla que l'eina dona suport al criteri mèdic i no el substitueix, i admet que alguns clínics la poden veure com una cosa «estrambòtica». Els resultats dels estudis de validació no s'han detallat a la presentació.",
-    "source": "El Gerió Digital",
-    "url": "https://www.gerio.cat/noticia/1766031/la-udg-i-l-idibgi-impulsen-una-empresa-d-intel-ligencia-artificial-per-tractar-el-tdah",
-    "image": "./assets/udg-idibgi-evimatic-healthtech-ia-tdah-20261115.jpg",
-    "slug": "udg-idibgi-evimatic-healthtech-ia-tdah"
   }
 ];
