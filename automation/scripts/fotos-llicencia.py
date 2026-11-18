@@ -43,6 +43,7 @@ Mai no fa fallar la publicació: en el pitjor dels casos, surt amb 0 i avisa.
   python3 automation/scripts/fotos-llicencia.py --input incoming/news-batch.json --public-dir public
   python3 automation/scripts/fotos-llicencia.py --final ...   (només al workflow)
   python3 automation/scripts/fotos-llicencia.py --self-test
+  python3 automation/scripts/fotos-llicencia.py --refes incoming/refes-fotos.json   (workflow refes-fotos.yml)
 """
 
 import argparse
@@ -64,7 +65,8 @@ OPENVERSE_API = 'https://api.openverse.org/v1/images/'
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MAX_BYTES = 15 * 1024 * 1024
 MAX_COSTAT = 1200
-MIN_AMPLADA = 600
+MIN_AMPLADA = 1000          # 18.11.2026: abans 600; una foto de 909 px es veia desenfocada
+MAX_CANDIDATS = 6           # retrats del banc: fotos que es proven com a molt
 MAX_PES = 350 * 1024
 PROPORCIO = 1184 / 864      # la de les il·lustracions del web
 CAMPS_CREDIT = ('imageCredit', 'imageLicense', 'imageSourceUrl')
@@ -223,6 +225,65 @@ def info_wikidata(qid, baixa_fn):
     return info_commons('File:' + fitxer, baixa_fn)
 
 
+def candidats_wikidata(qid, baixa_fn):
+    """Fotos possibles d'una persona del banc (18.11.2026): primer les imatges
+    principals (P18) de Wikidata, i després les fotos JPEG prou grans de la seva
+    categoria de Commons (P373), de la més gran a la més petita. Abans només es
+    provava la P18: si era petita o mal enquadrada (Fei-Fei Li, 17.11.2026), no
+    hi havia alternativa."""
+    if not re.match(r'^Q\d+$', qid):
+        raise Rebutjada(f'identificador de Wikidata no vàlid: {qid}')
+    query = urllib.parse.urlencode({'action': 'wbgetclaims', 'entity': qid, 'format': 'json'})
+    claims = baixa_json(f'{WIKIDATA_API}?{query}', baixa_fn).get('claims', {})
+    valor = lambda c: (c.get('mainsnak') or {}).get('datavalue', {}).get('value')  # noqa: E731
+    p18 = sorted(claims.get('P18', []), key=lambda c: c.get('rank') != 'preferred')
+    titols = [f'File:{valor(c)}' for c in p18 if valor(c)]
+    categoria = next((valor(c) for c in claims.get('P373', []) if valor(c)), None)
+    if categoria:
+        query = urllib.parse.urlencode({
+            'action': 'query', 'format': 'json', 'formatversion': '2', 'generator': 'categorymembers',
+            'gcmtitle': f'Category:{categoria}', 'gcmtype': 'file', 'gcmlimit': '50',
+            'prop': 'imageinfo', 'iiprop': 'size|mime',
+        })
+        extra = []
+        for pagina in baixa_json(f'{COMMONS_API}?{query}', baixa_fn).get('query', {}).get('pages', []):
+            ii = (pagina.get('imageinfo') or [{}])[0]
+            if ii.get('mime') == 'image/jpeg' and ii.get('width', 0) >= MIN_AMPLADA and ii.get('height', 0) >= MIN_AMPLADA * 0.6:
+                extra.append((ii['width'] * ii['height'], pagina.get('title', '')))
+        titols += [t for _, t in sorted(extra, reverse=True) if t and t not in titols]
+    if not titols:
+        raise Rebutjada(f'{qid} no té imatge a Wikidata')
+    return titols
+
+
+def retrat_wikidata(qid, fonts, desti, baixa_fn):
+    """Prova les fotos de candidats_wikidata() fins a trobar-ne una prou gran i amb
+    la cara ben enquadrada. Si cap no té la cara ben enquadrada (o OpenCV no la
+    detecta), es queda la primera prou gran. Torna (crèdit, llicència, pàgina, pes)."""
+    motius, reserva = [], None
+    for titol in candidats_wikidata(qid, baixa_fn)[:MAX_CANDIDATS]:
+        try:
+            info = info_commons(titol, baixa_fn)
+            url = info.get('fitxer') or ''
+            if not font_del_host(fonts, url):
+                raise Rebutjada('fitxer fora de la llista de servidors')
+            on_acaba, dades = baixa_fn(url)
+            if not font_del_host(fonts, on_acaba):
+                raise Rebutjada('redirecció fora de la llista de servidors')
+            im, posada = prepara(dades)
+        except Rebutjada as error:
+            motius.append(f'{titol}: {error}')
+            continue
+        if posada is not False:
+            return info['credit'], info['llicencia'], info['pagina'], desa_jpeg(None, desti, im=im)
+        motius.append(f'{titol}: cara mal enquadrada')
+        reserva = reserva or (info, im)
+    if reserva:
+        info, im = reserva
+        return info['credit'], info['llicencia'], info['pagina'], desa_jpeg(None, desti, im=im)
+    raise Rebutjada('cap foto bona: ' + '; '.join(motius))
+
+
 def info_openverse(ident, baixa_fn):
     if not re.match(r'^[0-9a-f-]{36}$', ident):
         raise Rebutjada(f'identificador d\'Openverse no vàlid: {ident}')
@@ -245,26 +306,104 @@ def info_openverse(ident, baixa_fn):
 
 # ── Imatge ────────────────────────────────────────────────────────────────────
 
-def retalla_horitzontal(im):
+def detecta_cares(im):
+    """Cares de cara (no de perfil) amb OpenCV, de la més gran a la més petita:
+    [(x, y, ample, alt), …]. None si OpenCV no hi és (sandbox de la sessió): llavors
+    el retall fa servir la regla antiga. El workflow l'instal·la
+    (opencv-python-headless)."""
+    try:
+        import cv2
+        import numpy
+    except Exception:  # noqa: BLE001
+        return None
+    gris = cv2.cvtColor(numpy.asarray(im.convert('RGB')), cv2.COLOR_RGB2GRAY)
+    escala = 1.0
+    if max(gris.shape) > 1600:
+        escala = 1600 / max(gris.shape)
+        gris = cv2.resize(gris, None, fx=escala, fy=escala, interpolation=cv2.INTER_AREA)
+    gris = cv2.equalizeHist(gris)
+    try:
+        model = cv2.CascadeClassifier(os.path.join(cv2.data.haarcascades, 'haarcascade_frontalface_default.xml'))
+    except Exception:  # noqa: BLE001 — una instal·lació d'OpenCV sense els models
+        return None
+    if model.empty():
+        return None
+    minim = max(24, int(min(gris.shape) * 0.06))
+    trobades = model.detectMultiScale(gris, scaleFactor=1.1, minNeighbors=5, minSize=(minim, minim))
+    cares = [tuple(int(round(v / escala)) for v in c) for c in trobades]
+    return sorted(cares, key=lambda c: c[2] * c[3], reverse=True)
+
+
+# Les fotos es mostren també en targetes 16:9 (portada, radar) amb object-fit:
+# cover i centrades: d'una imatge 1184×864 se'n veu només la franja del mig, del
+# 11,5% al 88,5% de l'alçada. El cap ha de quedar dins d'aquesta franja.
+FRANJA_16_9 = (1 - PROPORCIO / (16 / 9)) / 2
+
+
+def caixa_retall(amplada, alcada, cara=None):
+    """La caixa (esquerra, dalt, dreta, baix) del retall a la proporció del web."""
+    objectiu = PROPORCIO
+    if abs(amplada / alcada - objectiu) < 0.01:
+        return (0, 0, amplada, alcada)
+    if amplada / alcada < objectiu:
+        alt = round(amplada / objectiu)
+        if cara:
+            x, y, w, h = cara
+            dalt = y + h / 2 - 0.42 * alt                     # la cara, una mica per sobre del centre
+            dalt = min(dalt, y - 0.35 * h - (FRANJA_16_9 + 0.02) * alt)  # i els cabells, dins la franja 16:9
+            dalt = max(dalt, y + 0.45 * h - 0.75 * alt)       # però els ulls, mai a baix de tot (primers plans)
+        else:
+            dalt = alcada * 0.35 - alt / 2
+        dalt = int(max(0, min(round(dalt), alcada - alt)))
+        return (0, dalt, amplada, dalt + alt)
+    ample = round(alcada * objectiu)
+    centre = (cara[0] + cara[2] / 2) if cara else amplada / 2
+    esquerra = int(max(0, min(round(centre - ample / 2), amplada - ample)))
+    return (esquerra, 0, esquerra + ample, alcada)
+
+
+def retalla_horitzontal(im, cares=None):
     """Totes les imatges del web són apaïsades i amb la mateixa proporció que les
     il·lustracions (1184×864). Qualsevol foto es retalla exactament a aquesta
-    proporció:
-      - si és vertical o quadrada (els retrats), es talla per dalt i per baix,
-        amb el centre al 35% de l'alçada, on sol haver-hi la cara;
-      - si és més allargada (una panoràmica), es talla pels costats, centrada."""
-    objectiu = PROPORCIO
-    if abs(im.width / im.height - objectiu) < 0.01:
-        return im
-    if im.width / im.height < objectiu:
-        alt = round(im.width / objectiu)
-        dalt = max(0, min(round(im.height * 0.35 - alt / 2), im.height - alt))
-        return im.crop((0, dalt, im.width, dalt + alt))
-    ample = round(im.height * objectiu)
-    esquerra = (im.width - ample) // 2
-    return im.crop((esquerra, 0, esquerra + ample, im.height))
+    proporció.
+      - Amb una cara detectada (18.11.2026, arran de la foto de Fei-Fei Li amb el
+        cap tallat): el retall es fa al voltant de la cara més gran, amb el cap
+        sencer (cabells inclosos) dins de la franja que es veu a les targetes 16:9.
+      - Sense cara: si és vertical o quadrada (els retrats), es talla per dalt i
+        per baix, amb el centre al 35% de l'alçada; si és més allargada (una
+        panoràmica), es talla pels costats, centrada."""
+    caixa = caixa_retall(im.width, im.height, cares[0] if cares else None)
+    return im if caixa == (0, 0, im.width, im.height) else im.crop(caixa)
 
 
-def desa_jpeg(dades, desti):
+def cara_ben_posada(cares, caixa):
+    """Per als retrats del banc: amb les cares detectades a la foto original i la
+    caixa del retall, diu si al retall hi ha una sola cara principal, prou gran,
+    amb el front sencer i els ulls dins de la franja visible de les targetes 16:9.
+    None si no es pot saber (sense OpenCV)."""
+    if cares is None:
+        return None
+    esquerra, dalt, dreta, baix = caixa
+    alt = baix - dalt
+    dins = [(x - esquerra, y - dalt, w, h) for x, y, w, h in cares
+            if x + w / 2 > esquerra and x + w / 2 < dreta and y + h / 2 > dalt and y + h / 2 < baix]
+    if not dins:
+        return False
+    x, y, w, h = dins[0]
+    if h < 0.14 * alt:
+        return False                                   # massa petita: foto de grup o de lluny
+    if len(dins) > 1 and dins[1][2] * dins[1][3] > 0.6 * w * h:
+        return False                                   # dues persones igual de grans: no és un retrat
+    # El front no pot quedar tallat a la imatge, i els ulls (a un 40% de la
+    # caixa de la cara) han de quedar ben dins de la franja de les targetes 16:9.
+    return (y - 0.1 * h >= 0 and y + 0.3 * h >= FRANJA_16_9 * alt
+            and y + 0.45 * h <= (1 - FRANJA_16_9) * alt)
+
+
+def prepara(dades, exigeix_cara=False):
+    """Obre, gira, retalla i redueix la foto. Torna (imatge, ben_posada), on
+    ben_posada és True/False segons cara_ben_posada() o None sense OpenCV. Amb
+    `exigeix_cara`, rebutja la foto si ben_posada és False."""
     from PIL import Image, ImageOps
     try:
         im = Image.open(io.BytesIO(dades))
@@ -272,10 +411,20 @@ def desa_jpeg(dades, desti):
     except Exception as error:  # noqa: BLE001 — qualsevol cosa que no sigui una imatge
         raise Rebutjada(f'no és una imatge: {error}')
     im = ImageOps.exif_transpose(im).convert('RGB')
+    cares = detecta_cares(im)
+    caixa = caixa_retall(im.width, im.height, cares[0] if cares else None)
+    posada = cara_ben_posada(cares, caixa)
+    im = im.crop(caixa) if caixa != (0, 0, im.width, im.height) else im
     if im.width < MIN_AMPLADA:
-        raise Rebutjada(f'massa petita ({im.width} px d\'amplada)')
-    im = retalla_horitzontal(im)
+        raise Rebutjada(f'massa petita ({im.width} px d\'amplada un cop retallada; en calen {MIN_AMPLADA})')
+    if exigeix_cara and posada is False:
+        raise Rebutjada('no hi ha cap cara ben enquadrada')
     im.thumbnail((MAX_COSTAT, MAX_COSTAT))
+    return im, posada
+
+
+def desa_jpeg(dades, desti, exigeix_cara=False, im=None):
+    im = im or prepara(dades, exigeix_cara)[0]
     for qualitat in (86, 80, 74, 68):
         sortida = io.BytesIO()
         im.save(sortida, 'JPEG', quality=qualitat, optimize=True, progressive=True)
@@ -328,7 +477,7 @@ def resol(peticio, item, fonts, baixa_fn):
     return info['fitxer'], info['credit'], info['llicencia'], info['pagina']
 
 
-def processa(item, fonts, public_dir, data, baixa_fn=baixa, final=True):
+def processa(item, fonts, public_dir, data, baixa_fn=baixa, final=True, sufix=''):
     original = {camp: item[camp] for camp in ('imageFetch',) + CAMPS_CREDIT if camp in item}
     peticio = str(item.pop('imageFetch', '') or '').strip()
     if not peticio:
@@ -337,14 +486,18 @@ def processa(item, fonts, public_dir, data, baixa_fn=baixa, final=True):
         slug = item.get('slug', '')
         if not re.match(r'^[a-z0-9]+(?:-[a-z0-9]+)*$', slug):
             raise Rebutjada('slug no vàlid')
-        url, credit, llicencia, pagina = resol(peticio, item, fonts, baixa_fn)
-        if not font_del_host(fonts, url):
-            raise Rebutjada(f'el fitxer és a {urllib.parse.urlsplit(url).hostname}, fora de la llista')
-        on_acaba, dades = baixa_fn(url)
-        if not font_del_host(fonts, on_acaba):
-            raise Rebutjada(f'la descàrrega ha acabat a {urllib.parse.urlsplit(on_acaba).hostname}, fora de la llista')
-        nom = f'{slug}-{data.replace("-", "")}-foto.jpg'
-        pes = desa_jpeg(dades, os.path.join(public_dir, 'assets', nom))
+        nom = f'{slug}-{data.replace("-", "")}{sufix}-foto.jpg'
+        desti = os.path.join(public_dir, 'assets', nom)
+        if peticio.lower().startswith('wikidata:'):
+            credit, llicencia, pagina, pes = retrat_wikidata(peticio.split(':', 1)[1].strip(), fonts, desti, baixa_fn)
+        else:
+            url, credit, llicencia, pagina = resol(peticio, item, fonts, baixa_fn)
+            if not font_del_host(fonts, url):
+                raise Rebutjada(f'el fitxer és a {urllib.parse.urlsplit(url).hostname}, fora de la llista')
+            on_acaba, dades = baixa_fn(url)
+            if not font_del_host(fonts, on_acaba):
+                raise Rebutjada(f'la descàrrega ha acabat a {urllib.parse.urlsplit(on_acaba).hostname}, fora de la llista')
+            pes = desa_jpeg(dades, desti)
         item['image'] = f'./assets/{nom}'
         item['imageCredit'] = credit
         item['imageLicense'] = llicencia
@@ -394,6 +547,78 @@ def executa(args):
         json.dump(payload, f, ensure_ascii=False, indent=2)
         f.write('\n')
     return 0
+
+
+# ── Refer la foto d'una notícia ja publicada (18.11.2026) ─────────────────────
+# Cua incoming/refes-fotos.json: [{"slug": "<slug>", "imageFetch": "<opcional>",
+# "motiu": "<per què>"}]. Sense imageFetch, es torna a buscar el retrat del banc
+# per la persona del títol (amb el retall nou i les fotos alternatives). La foto
+# nova es desa amb un nom nou (<slug>-AAAAMMDD-N-foto.jpg) perquè la memòria cau
+# del navegador i del servidor no serveixi la vella, i content-hub.mjs
+# canvia-imatge hi posa la ruta i el crèdit a tot arreu. L'executa el workflow
+# refes-fotos.yml. Les entrades que fallen es queden a la cua amb el camp `error`.
+
+def troba_publicada(public_dir, slug):
+    for cami, clau in (('data/archive.json', None), ('data/articles.json', 'items')):
+        try:
+            with open(os.path.join(public_dir, cami), encoding='utf-8') as f:
+                dades = json.load(f)
+        except (OSError, ValueError):
+            continue
+        for item in (dades.get(clau, []) if clau else dades) or []:
+            if isinstance(item, dict) and item.get('slug') == slug:
+                return item
+    return None
+
+
+def refes(args):
+    import subprocess
+    with open(args.refes, encoding='utf-8') as f:
+        cua = json.load(f)
+    if not isinstance(cua, list) or not cua:
+        print('Cua de fotos per refer buida.')
+        return 0
+    fonts = carrega_json(args.sources, 'fonts')
+    retrats = carrega_json(args.retrats, 'persones')
+    queden = []
+    for entrada in cua:
+        slug = str((entrada or {}).get('slug', '')).strip()
+        publicada = troba_publicada(args.public_dir, slug) if slug else None
+        if not publicada:
+            queden.append({**entrada, 'error': 'no és cap notícia publicada'})
+            print(f'NO   {slug or "?"}: no és cap notícia publicada')
+            continue
+        peticio = str(entrada.get('imageFetch', '')).strip()
+        if not peticio:
+            persona = troba_retrat(str(publicada.get('title', '')), retrats)
+            peticio = (persona.get('fitxer') or f'wikidata:{persona["wikidata"]}') if persona else ''
+        if not peticio:
+            queden.append({**entrada, 'error': 'cap persona del banc al títol i cap imageFetch'})
+            print(f'NO   {slug}: cap persona del banc al títol i cap imageFetch')
+            continue
+        m = re.search(r'-(\d{4})(\d{2})(\d{2})(?:-\d+)?-foto\.|-(\d{4})(\d{2})(\d{2})\.', str(publicada.get('image', '')))
+        grups = [g for g in (m.groups() if m else ()) if g]
+        data = '-'.join(grups[:3]) if len(grups) >= 3 else avui_madrid()
+        n = 2
+        while os.path.exists(os.path.join(args.public_dir, 'assets', f'{slug}-{data.replace("-", "")}-{n}-foto.jpg')):
+            n += 1
+        item = {'slug': slug, 'title': publicada.get('title', ''), 'excerpt': publicada.get('excerpt', ''),
+                'image': publicada.get('image', ''), 'imageFetch': peticio}
+        linia = processa(item, fonts, args.public_dir, data, final=True, sufix=f'-{n}')
+        print(linia)
+        if not linia.startswith('OK'):
+            queden.append({**entrada, 'error': linia})
+            continue
+        ordre = ['node', os.path.join(AQUI, 'content-hub.mjs'), 'canvia-imatge', '--slug', slug,
+                 '--image', item['image'], '--credit', item['imageCredit'], '--llicencia', item['imageLicense'],
+                 '--public-dir', args.public_dir, '--state-dir', args.state_dir]
+        if item.get('imageSourceUrl'):
+            ordre += ['--font', item['imageSourceUrl']]
+        subprocess.run(ordre, check=True)
+    with open(args.refes, 'w', encoding='utf-8') as f:
+        json.dump(queden, f, ensure_ascii=False, indent=2)
+        f.write('\n')
+    return 1 if queden else 0
 
 
 # ── Proves sense xarxa ────────────────────────────────────────────────────────
@@ -534,7 +759,18 @@ def self_test():
         assert processa(m2, fonts, tmp, '2026-09-26', xarxa).startswith('NO'), m2
         pano = retalla_horitzontal(Image.new('RGB', (3000, 1000)))
         assert abs(pano.width / pano.height - PROPORCIO) < 0.01 and pano.height == 1000
-    print('fotos-llicencia: 16 proves OK')
+        # 14. Retall amb cara (18.11.2026): el cap sencer dins de la franja 16:9.
+        caixa = caixa_retall(1000, 2000, (400, 700, 200, 200))
+        alt = caixa[3] - caixa[1]
+        assert abs(1000 / alt - PROPORCIO) < 0.01
+        assert 700 - 0.35 * 200 - caixa[1] >= FRANJA_16_9 * alt, caixa
+        assert cara_ben_posada([(400, 700, 200, 200)], caixa) is True
+        # 15. Cara enganxada a dalt de tot (la foto de Fei-Fei Li del 17.11.2026),
+        # cara petita (foto de grup) i sense OpenCV.
+        assert cara_ben_posada([(450, 0, 207, 207)], (0, 0, 909, 663)) is False
+        assert cara_ben_posada([(450, 300, 40, 40)], (0, 0, 909, 663)) is False
+        assert cara_ben_posada(None, (0, 0, 909, 663)) is None
+    print('fotos-llicencia: 18 proves OK')
     return 0
 
 
@@ -548,9 +784,13 @@ def main():
     parser.add_argument('--final', action='store_true',
                         help='darrera oportunitat (workflow): si la xarxa falla, es treu la petició i es queda la il·lustració')
     parser.add_argument('--self-test', action='store_true')
+    parser.add_argument('--refes', metavar='CUA', help='refà la foto de notícies ja publicades (incoming/refes-fotos.json)')
+    parser.add_argument('--state-dir', default='.content-state')
     args = parser.parse_args()
     if args.self_test:
         return self_test()
+    if args.refes:
+        return refes(args)
     try:
         return executa(args)
     except Exception as error:  # noqa: BLE001

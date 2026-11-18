@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { appendFile, copyFile, mkdir, readFile, rename, stat, writeFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import { basename, dirname, join, resolve } from 'node:path';
 
 const ASSIGNMENTS = {
@@ -1306,41 +1307,13 @@ async function retiraNoticia(options) {
   process.stdout.write(`Retirada «${entrada.title}» (${slug}). Fitxers: ${tocats.join(', ') || 'cap'}.\n`);
 }
 
-// Recategoritza (18.10.2026): aplica categoriaTerritorial a tot el que ja s'ha
-// publicat —edició del dia, hemeroteca, arxiu per edicions i arxiu del radar—
-// sense esperar cap lot nou. Només canvia el camp `category` de les notícies amb
-// categoria territorial; no treu ni afegeix res. Es pot tornar a executar: si no
-// hi ha res a canviar, no escriu cap fitxer.
-async function recategoritza(options) {
-  const publicDir = resolve(options['public-dir'] || '.');
-  const stateDir = resolve(options['state-dir'] || '.content-state');
-  const date = editionDate();
-  const now = new Date().toISOString();
-  const canvis = [];
-  const ortografies = [];
+// Aplica `corregeix(llista)` a tot el que ja s'ha publicat —edició del dia
+// (news-state + news.js + articles.json + latest.json + butlletí), hemeroteca
+// interna i pública, arxiu per edicions, arxiu del radar i radar.js— i reescriu
+// només els fitxers on `corregeix` torna true. Torna la llista de fitxers tocats.
+// L'usen `recategoritza`/`corregeix` i `canvia-imatge` (18.11.2026).
+async function reescriuPublicat({ publicDir, stateDir, date, now }, corregeix) {
   const tocats = [];
-  const corregeix = list => {
-    let canviat = false;
-    for (const story of Array.isArray(list) ? list : []) {
-      if (!story || typeof story !== 'object') continue;
-      // 26.10.2026: la mateixa passada arregla la ç perduda als titulars i cossos
-      // ja publicats (edició del dia, hemeroteca, arxius i radar).
-      const ortografia = corregeixOrtografiaPeca(story);
-      if (ortografia.length) {
-        ortografies.push(`ortografia (${[...new Set(ortografia)].join(', ')}): «${story.title}»`);
-        canviat = true;
-      }
-      if (typeof story.category !== 'string' || story.place) continue;
-      const nova = categoriaTerritorial(story);
-      if (nova !== story.category) {
-        canvis.push(`${story.category} → ${nova}: «${story.title}»`);
-        story.category = nova;
-        canviat = true;
-      }
-    }
-    return canviat;
-  };
-
   // Edició del dia.
   const statePath = join(stateDir, 'news-state.json');
   const state = await readJson(statePath, null);
@@ -1403,9 +1376,92 @@ async function recategoritza(options) {
     await atomicWrite(radarPath, serializeAssignment(ASSIGNMENTS.radar.variable, radarActual));
     tocats.push('radar.js');
   }
+  return tocats;
+}
+
+// Recategoritza (18.10.2026): aplica categoriaTerritorial a tot el que ja s'ha
+// publicat —edició del dia, hemeroteca, arxiu per edicions i arxiu del radar—
+// sense esperar cap lot nou. Només canvia el camp `category` de les notícies amb
+// categoria territorial; no treu ni afegeix res. Es pot tornar a executar: si no
+// hi ha res a canviar, no escriu cap fitxer.
+async function recategoritza(options) {
+  const publicDir = resolve(options['public-dir'] || '.');
+  const stateDir = resolve(options['state-dir'] || '.content-state');
+  const date = editionDate();
+  const now = new Date().toISOString();
+  const canvis = [];
+  const ortografies = [];
+  const tocats = [];
+  const corregeix = list => {
+    let canviat = false;
+    for (const story of Array.isArray(list) ? list : []) {
+      if (!story || typeof story !== 'object') continue;
+      // 26.10.2026: la mateixa passada arregla la ç perduda als titulars i cossos
+      // ja publicats (edició del dia, hemeroteca, arxius i radar).
+      const ortografia = corregeixOrtografiaPeca(story);
+      if (ortografia.length) {
+        ortografies.push(`ortografia (${[...new Set(ortografia)].join(', ')}): «${story.title}»`);
+        canviat = true;
+      }
+      if (typeof story.category !== 'string' || story.place) continue;
+      const nova = categoriaTerritorial(story);
+      if (nova !== story.category) {
+        canvis.push(`${story.category} → ${nova}: «${story.title}»`);
+        story.category = nova;
+        canviat = true;
+      }
+    }
+    return canviat;
+  };
+
+  tocats.push(...await reescriuPublicat({ publicDir, stateDir, date, now }, corregeix));
 
   for (const linia of [...new Set([...canvis, ...ortografies])]) process.stdout.write(`${linia}\n`);
   process.stdout.write(`Recategoritzades: ${new Set(canvis).size}. Ortografia: ${new Set(ortografies).size}. Fitxers: ${tocats.join(', ') || 'cap'}.\n`);
+}
+
+// Canvia la imatge d'una notícia ja publicada (18.11.2026). En Rafael: «la
+// notícia de Fei-Fei Li surt desenfocada i amb la cara tallada; corregeix-ho i
+// que no torni a passar». La foto nova la baixa i la retalla el workflow
+// refes-fotos.yml (fotos-llicencia.py --refes); aquesta ordre només posa la
+// ruta i el crèdit nous a tot arreu on surt la notícia (edició del dia,
+// hemeroteca, arxius, butlletí). Sense --credit, treu el crèdit (il·lustració).
+async function canviaImatge(options) {
+  const slug = String(options.slug || '').trim();
+  const imatge = String(options.image || '').trim();
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) throw new Error('canvia-imatge: cal --slug');
+  if (!/^\.\/assets\/[a-z0-9._-]+\.(?:jpe?g|webp|png)$/.test(imatge)) throw new Error('canvia-imatge: cal --image ./assets/<fitxer>');
+  const publicDir = resolve(options['public-dir'] || '.');
+  if (!existsSync(join(publicDir, imatge.slice(2)))) throw new Error(`canvia-imatge: ${imatge} no existeix a ${publicDir}`);
+  const stateDir = resolve(options['state-dir'] || '.content-state');
+  const credit = String(options.credit || '').trim();
+  const llicencia = String(options.llicencia || '').trim();
+  const font = String(options.font || '').trim();
+  if (credit && !llicencia) throw new Error('canvia-imatge: amb --credit cal --llicencia');
+  let trobades = 0;
+  const corregeix = list => {
+    let canviat = false;
+    for (const story of Array.isArray(list) ? list : []) {
+      if (!story || typeof story !== 'object' || story.slug !== slug) continue;
+      trobades += 1;
+      story.image = imatge;
+      if (credit) {
+        story.imageCredit = credit;
+        story.imageLicense = llicencia;
+        if (/^https?:\/\//.test(font)) story.imageSourceUrl = font;
+        else delete story.imageSourceUrl;
+      } else {
+        delete story.imageCredit;
+        delete story.imageLicense;
+        delete story.imageSourceUrl;
+      }
+      canviat = true;
+    }
+    return canviat;
+  };
+  const tocats = await reescriuPublicat({ publicDir, stateDir, date: editionDate(), now: new Date().toISOString() }, corregeix);
+  if (!trobades) throw new Error(`canvia-imatge: no he trobat cap notícia publicada amb l'slug ${slug}`);
+  process.stdout.write(`Imatge de ${slug} → ${imatge}${credit ? ` (${credit}, ${llicencia})` : ''}. Fitxers: ${tocats.join(', ')}.\n`);
 }
 
 // ── Enquadrament de les il·lustracions (31.10.2026) ─────────────────────────
@@ -1502,7 +1558,7 @@ function usage() {
   node content-hub.mjs ingest-daily-reflection --input daily-reflection.json --public-dir .
   node content-hub.mjs validate --type news|analysis|reflection|daily-reflection --input fitxer.json
   node content-hub.mjs pending --what news|daily-reflection --input fitxer.json --public-dir . --state-dir .content-state
-  node content-hub.mjs imatges-recents --state-dir .content-state [--dies 30] [--json]\n  node content-hub.mjs enquadraments --input incoming/news-batch.json [--retrats automation/retrats.json] [--json]\n  node content-hub.mjs retira --slug <slug> [--motiu "…"] --public-dir public --state-dir .content-state\n  node content-hub.mjs recategoritza --public-dir public --state-dir .content-state\n  node content-hub.mjs corregeix --public-dir public --state-dir .content-state   (el mateix: categoria i ortografia)\n`;
+  node content-hub.mjs imatges-recents --state-dir .content-state [--dies 30] [--json]\n  node content-hub.mjs enquadraments --input incoming/news-batch.json [--retrats automation/retrats.json] [--json]\n  node content-hub.mjs retira --slug <slug> [--motiu "…"] --public-dir public --state-dir .content-state\n  node content-hub.mjs recategoritza --public-dir public --state-dir .content-state\n  node content-hub.mjs corregeix --public-dir public --state-dir .content-state   (el mateix: categoria i ortografia)\n  node content-hub.mjs canvia-imatge --slug <slug> --image ./assets/<fitxer> [--credit "…" --llicencia "…" --font <url>] --public-dir public --state-dir .content-state\n`;
 }
 
 try {
@@ -1517,6 +1573,7 @@ try {
   else if (command === 'enquadraments') await enquadraments(options);
   else if (command === 'retira') await retiraNoticia(options);
   else if (command === 'recategoritza' || command === 'corregeix') await recategoritza(options);
+  else if (command === 'canvia-imatge') await canviaImatge(options);
   else {
     process.stdout.write(usage());
     process.exitCode = command ? 1 : 0;

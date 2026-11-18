@@ -1,0 +1,105 @@
+name: Refer la foto d'una notícia publicada
+
+# 18.11.2026. En Rafael: «la notícia de Fei-Fei Li surt desenfocada i amb la cara
+# tallada; corregeix-ho i que no torni a passar». El sandbox de les sessions no
+# arriba a Wikimedia Commons; Actions, sí. Una sessió posa a la cua
+# `incoming/refes-fotos.json` les notícies ja publicades que necessiten una foto
+# nova:
+#   [{"slug": "<slug>", "imageFetch": "<opcional: File:…, wikidata:Q…>", "motiu": "…"}]
+# Sense imageFetch es torna a buscar el retrat del banc (automation/retrats.json)
+# per la persona del títol, amb el retall al voltant de la cara i, si la foto
+# principal de Wikidata és petita o mal enquadrada, amb les altres fotos de la
+# seva categoria de Commons. La foto es desa amb un nom nou i
+# `content-hub.mjs canvia-imatge` hi posa la ruta i el crèdit a tot arreu.
+# Detall: capçalera de «Refer la foto…» a automation/scripts/fotos-llicencia.py.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'incoming/refes-fotos.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+# El mateix grup que content-hub.yml: mai no toquen news.js alhora.
+concurrency:
+  group: content-hub-refs/heads/main
+  cancel-in-progress: false
+
+jobs:
+  refes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Recuperar el web
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Mirar si hi ha feina
+        id: cua
+        run: |
+          if [ -s incoming/refes-fotos.json ] && [ "$(node -e 'const c=JSON.parse(require("fs").readFileSync("incoming/refes-fotos.json","utf8"));console.log(Array.isArray(c)?c.filter(e=>e&&!e.error).length:0)')" != "0" ]; then
+            echo "feina=si" >> "$GITHUB_OUTPUT"
+          else
+            echo "Cua buida (o només amb entrades fallades): res a fer."
+            echo "feina=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Preparar Node
+        if: steps.cua.outputs.feina == 'si'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instal·lar Pillow i OpenCV
+        if: steps.cua.outputs.feina == 'si'
+        run: python3 -m pip install --quiet --disable-pip-version-check pillow 'opencv-python-headless<5'
+
+      - name: Refer les fotos
+        id: refes
+        if: steps.cua.outputs.feina == 'si'
+        continue-on-error: true
+        run: python3 automation/scripts/fotos-llicencia.py --refes incoming/refes-fotos.json --public-dir public --state-dir .content-state
+
+      - name: Publicar si hi ha canvis
+        id: publica
+        if: steps.cua.outputs.feina == 'si'
+        run: |
+          git config user.name "intel·ligènciaartificial.cat bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add incoming/refes-fotos.json public .content-state
+          if git diff --cached --quiet; then
+            echo "Cap canvi."
+            echo "canvis=no" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "[imatges] foto refeta de notícies publicades"
+          for intent in 1 2 3; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "canvis=si" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep $((intent * 10))
+          done
+          echo "::error::No he pogut pujar les fotos després de tres intents."
+          exit 1
+
+      # Un push fet amb el GITHUB_TOKEN no dispara el desplegament. Un
+      # workflow_dispatch, sí.
+      - name: Desplegar
+        if: steps.publica.outputs.canvis == 'si'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run desplega.yml --repo "$GITHUB_REPOSITORY" --ref main \
+            || echo "::warning::No he pogut disparar el desplegament; el cron o la xarxa de seguretat ho repescaran."
+
+      - name: Avisar de les fotos que han fallat
+        if: steps.refes.outcome == 'failure'
+        run: |
+          echo "::error::Alguna foto no s'ha pogut refer. Queda a incoming/refes-fotos.json amb el motiu (camp error)."
+          exit 1
