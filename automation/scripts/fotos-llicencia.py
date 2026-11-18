@@ -599,7 +599,7 @@ def executa(args):
 
 # ── Refer la foto d'una notícia ja publicada (18.11.2026) ─────────────────────
 # Cua incoming/refes-fotos.json: [{"slug": "<slug>", "imageFetch": "<opcional>",
-# "motiu": "<per què>"}]. Sense imageFetch, es torna a buscar el retrat del banc
+# "min_amplada": <opcional, ≥ 600>, "motiu": "<per què>"}]. Sense imageFetch, es torna a buscar el retrat del banc
 # per la persona del títol (amb el retall nou i les fotos alternatives). La foto
 # nova es desa amb un nom nou (<slug>-AAAAMMDD-N-foto.jpg) perquè la memòria cau
 # del navegador i del servidor no serveixi la vella, i content-hub.mjs
@@ -652,7 +652,15 @@ def refes(args):
             n += 1
         item = {'slug': slug, 'title': publicada.get('title', ''), 'excerpt': publicada.get('excerpt', ''),
                 'image': publicada.get('image', ''), 'imageFetch': peticio}
-        linia = processa(item, fonts, args.public_dir, data, final=True, sufix=f'-{n}', estricte=True)
+        # `min_amplada` (opcional, ≥ 600): quan no hi ha cap foto lliure prou gran i
+        # val més una foto una mica petita amb la cara sencera que la que hi ha.
+        global MIN_AMPLADA
+        minim_original = MIN_AMPLADA
+        try:
+            MIN_AMPLADA = max(600, int(entrada.get('min_amplada') or MIN_AMPLADA))
+            linia = processa(item, fonts, args.public_dir, data, final=True, sufix=f'-{n}', estricte=True)
+        finally:
+            MIN_AMPLADA = minim_original
         print(linia)
         if not linia.startswith('OK'):
             queden.append({**entrada, 'error': linia})
