@@ -275,10 +275,12 @@ def candidats_openverse(nom, baixa_fn, maxim=6):
     ponents del mateix acte). Torna ['openverse:<id>', …]."""
     if len(nom) < 5:
         return []
-    query = urllib.parse.urlencode({'q': nom, 'license': 'by,by-sa,cc0,pdm', 'page_size': '40'})
+    # Sense clau, Openverse només admet fins a 20 resultats per pàgina (amb 40, 401).
+    query = urllib.parse.urlencode({'q': nom, 'license': 'by,by-sa,cc0,pdm', 'page_size': '20'})
     try:
         resultats = baixa_json(f'{OPENVERSE_API}?{query}', baixa_fn).get('results', [])
-    except Rebutjada:
+    except Exception as error:  # noqa: BLE001 — sense Openverse, es continua amb el que hi hagi
+        print(f'     Openverse no respon ({error})')
         return []
     clau = nom.lower()
     bons = [r for r in resultats if isinstance(r, dict) and clau in str(r.get('title', '')).lower()
