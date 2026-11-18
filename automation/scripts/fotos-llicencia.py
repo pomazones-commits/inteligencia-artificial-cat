@@ -264,7 +264,7 @@ def nom_wikidata(qid, baixa_fn):
                                     'languages': 'en|ca', 'format': 'json'})
     try:
         etiquetes = baixa_json(f'{WIKIDATA_API}?{query}', baixa_fn).get('entities', {}).get(qid, {}).get('labels', {})
-    except Rebutjada:
+    except Exception:  # noqa: BLE001 — sense nom, simplement no es busca a Openverse
         return ''
     return str((etiquetes.get('en') or etiquetes.get('ca') or {}).get('value', '')).strip()
 
@@ -313,6 +313,10 @@ def retrat_wikidata(qid, fonts, desti, baixa_fn, estricte=False):
             im, posada, cares = prepara(dades)
         except Rebutjada as error:
             motius.append(f'{titol}: {error}')
+            continue
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError) as error:
+            # Un servidor que no respon (p. ex. Openverse, 504) no ha d'aturar les altres fotos.
+            motius.append(f'{titol}: {type(error).__name__}: {error}')
             continue
         if posada is True or (posada is None and not estricte):
             for motiu in motius:
