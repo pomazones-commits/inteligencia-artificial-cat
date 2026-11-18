@@ -291,8 +291,9 @@ def candidats_openverse(nom, baixa_fn, maxim=6):
 
 def retrat_wikidata(qid, fonts, desti, baixa_fn, estricte=False):
     """Prova les fotos de candidats_wikidata() fins a trobar-ne una prou gran i amb
-    la cara ben enquadrada. Si cap no ho està, es queda la primera prou gran on
-    OpenCV hagi trobat una cara; MAI una foto sense cap cara (18.11.2026: la primera
+    la cara ben enquadrada. Si cap no ho està, es queda la primera on la cara és
+    massa gran per a un retall apaïsat, posada sencera sobre un fons difuminat;
+    MAI una foto sense cap cara (18.11.2026: la primera
     prova va triar un cartell amb el nom de Fei-Fei Li). Sense OpenCV no es pot
     comprovar res i es queda la primera prou gran, llevat que `estricte` (refer una
     foto publicada), que llavors no en tria cap. Torna (crèdit, llicència, pàgina, pes)."""
@@ -321,10 +322,12 @@ def retrat_wikidata(qid, fonts, desti, baixa_fn, estricte=False):
             motius.append(f'{titol}: sense OpenCV no es pot comprovar la cara')
         elif not cares:
             motius.append(f'{titol}: no hi ha cap cara')
+        elif posada == 'compost':
+            motius.append(f'{titol}: primer pla, sobre fons difuminat (reserva)')
+            reserva = reserva or (info, im)
         else:
             motius.append(f'{titol}: cara mal enquadrada')
-            reserva = reserva or (info, im)
-    if reserva and not estricte:
+    if reserva:
         info, im = reserva
         return info['credit'], info['llicencia'], info['pagina'], desa_jpeg(None, desti, im=im)
     raise Rebutjada('cap foto bona: ' + '; '.join(motius))
@@ -442,8 +445,34 @@ def cara_ben_posada(cares, caixa):
         return False                                   # dues persones igual de grans: no és un retrat
     # El front no pot quedar tallat a la imatge, i els ulls (a un 40% de la
     # caixa de la cara) han de quedar ben dins de la franja de les targetes 16:9.
+    # 18.11.2026 (Jensen Huang, primer pla amb la boca tallada): també la cara
+    # sencera, fins a la barbeta, dins de la franja.
     return (y - 0.1 * h >= 0 and y + 0.3 * h >= FRANJA_16_9 * alt
-            and y + 0.45 * h <= (1 - FRANJA_16_9) * alt)
+            and y + 0.9 * h <= (1 - FRANJA_16_9) * alt)
+
+
+def compon_sobre_fons(im):
+    """La foto sencera, centrada i dins de la franja que es veu a les targetes 16:9,
+    sobre un fons apaïsat fet de la mateixa foto ampliada, difuminada i enfosquida
+    (18.11.2026: els primers plans no caben en cap retall apaïsat sense tallar la
+    cara)."""
+    from PIL import Image, ImageEnhance, ImageFilter
+    alt = im.height
+    ample = round(alt * PROPORCIO)
+    if ample < im.width:                       # foto més apaïsada que el web
+        ample = im.width
+        alt = round(ample / PROPORCIO)
+    escala = max(ample / im.width, alt / im.height)
+    fons = im.resize((round(im.width * escala), round(im.height * escala)))
+    esq, dalt = (fons.width - ample) // 2, (fons.height - alt) // 2
+    fons = fons.crop((esq, dalt, esq + ample, dalt + alt)).filter(ImageFilter.GaussianBlur(max(8, ample // 40)))
+    fons = ImageEnhance.Brightness(fons).enhance(0.72)
+    alt_davant = round(alt * (1 - 2 * FRANJA_16_9))
+    davant = im.resize((round(im.width * alt_davant / im.height), alt_davant), Image.LANCZOS)
+    if davant.width > ample:
+        davant = im.resize((ample, round(im.height * ample / im.width)), Image.LANCZOS)
+    fons.paste(davant, ((ample - davant.width) // 2, (alt - davant.height) // 2))
+    return fons
 
 
 def prepara(dades, exigeix_cara=False):
@@ -461,7 +490,13 @@ def prepara(dades, exigeix_cara=False):
     cares = detecta_cares(im)
     caixa = caixa_retall(im.width, im.height, cares[0] if cares else None)
     posada = cara_ben_posada(cares, caixa)
-    im = im.crop(caixa) if caixa != (0, 0, im.width, im.height) else im
+    if cares and posada is False and 1.5 * cares[0][3] > (1 - 2 * FRANJA_16_9) * (caixa[3] - caixa[1]):
+        # Un primer pla: el cap (cabells i barbeta, ~1,5 vegades la caixa de la
+        # cara) no cap a la franja 16:9 de cap retall apaïsat. La foto sencera
+        # sobre un fons difuminat d'ella mateixa, sense tallar res.
+        im, posada = compon_sobre_fons(im), 'compost'
+    else:
+        im = im.crop(caixa) if caixa != (0, 0, im.width, im.height) else im
     if im.width < MIN_AMPLADA:
         raise Rebutjada(f'massa petita ({im.width} px d\'amplada un cop retallada; en calen {MIN_AMPLADA})')
     if exigeix_cara and posada is False:
