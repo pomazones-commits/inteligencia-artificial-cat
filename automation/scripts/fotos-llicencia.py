@@ -384,7 +384,54 @@ def detecta_cares(im):
     minim = max(24, int(min(gris.shape) * 0.06))
     trobades = model.detectMultiScale(gris, scaleFactor=1.1, minNeighbors=5, minSize=(minim, minim))
     cares = [tuple(int(round(v / escala)) for v in c) for c in trobades]
+    # 19.11.2026 (Satya Nadella sense cap): el detector va prendre un tros de
+    # l'americana per una cara i el retall es va fer al voltant del pit. Ara
+    # cada «cara» s'ha de confirmar: to de pell a la foto en color, o ulls si
+    # la foto és en blanc i negre.
+    ulls = None
+    try:
+        ulls = cv2.CascadeClassifier(os.path.join(cv2.data.haarcascades, 'haarcascade_eye.xml'))
+        ulls = None if ulls.empty() else ulls
+    except Exception:  # noqa: BLE001
+        ulls = None
+    cares = [c for c in cares if es_cara_de_veritat(im, c, ulls, cv2, numpy)]
     return sorted(cares, key=lambda c: c[2] * c[3], reverse=True)
+
+
+def proporcio_pell(rgb):
+    """Fracció de píxels amb to de pell (qualsevol color de pell) d'una matriu
+    RGB de numpy, amb el criteri clàssic YCrCb (Cr 133-178, Cb 77-130) i sense
+    els píxels gairebé negres o cremats."""
+    import numpy
+    r, g, b = (rgb[..., i].astype(numpy.float32) for i in range(3))
+    y = 0.299 * r + 0.587 * g + 0.114 * b
+    cr = (r - y) * 0.713 + 128
+    cb = (b - y) * 0.564 + 128
+    pell = (cr >= 133) & (cr <= 178) & (cb >= 77) & (cb <= 130) & (y > 35) & (y < 250)
+    return float(pell.mean()) if pell.size else 0.0
+
+
+def es_color(rgb):
+    """Si la foto té color de debò (no és en blanc i negre ni virada)."""
+    import numpy
+    mostra = rgb[::8, ::8].astype(numpy.int16)
+    return float((mostra.max(axis=2) - mostra.min(axis=2)).mean()) > 12
+
+
+def es_cara_de_veritat(im, cara, ulls, cv2, numpy):
+    """Descarta els falsos positius del detector (teixits, botons, butxaques):
+    a la part central de la cara hi ha d'haver prou to de pell; en una foto en
+    blanc i negre, almenys un ull a la meitat de dalt."""
+    x, y, w, h = cara
+    rgb = numpy.asarray(im.convert('RGB'))
+    if es_color(rgb):
+        centre = rgb[y + h // 5:y + h * 4 // 5, x + w // 5:x + w * 4 // 5]
+        return proporcio_pell(centre) >= 0.3
+    if ulls is None:
+        return True
+    tros = cv2.cvtColor(rgb[y:y + h // 2 + h // 10, x:x + w], cv2.COLOR_RGB2GRAY)
+    minim = max(8, w // 10)
+    return len(ulls.detectMultiScale(tros, scaleFactor=1.1, minNeighbors=4, minSize=(minim, minim))) > 0
 
 
 # Les fotos es mostren també en targetes 16:9 (portada, radar) amb object-fit:
@@ -871,7 +918,17 @@ def self_test():
         assert cara_ben_posada([(450, 0, 207, 207)], (0, 0, 909, 663)) is False
         assert cara_ben_posada([(450, 300, 40, 40)], (0, 0, 909, 663)) is False
         assert cara_ben_posada(None, (0, 0, 909, 663)) is None
-    print('fotos-llicencia: 18 proves OK')
+    # 16. To de pell (19.11.2026, americana de Satya Nadella presa per una cara):
+    # pells clara i fosca, sí; teixit blau marí i gris, no.
+    try:
+        import numpy
+    except Exception:  # noqa: BLE001
+        numpy = None
+    if numpy is not None:
+        mostra = lambda c: numpy.full((40, 40, 3), c, dtype=numpy.uint8)  # noqa: E731
+        assert proporcio_pell(mostra((224, 172, 140))) > 0.9 and proporcio_pell(mostra((120, 75, 50))) > 0.9
+        assert proporcio_pell(mostra((45, 55, 80))) == 0 and proporcio_pell(mostra((110, 110, 112))) == 0
+    print('fotos-llicencia: 19 proves OK')
     return 0
 
 
