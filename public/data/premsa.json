@@ -1,8 +1,195 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-18T22:23:32.489Z",
+ "actualitzat": "2026-11-19T05:16:22.590Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "2b26ecc6f016",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic sale hoy a bolsa: quién gana y quién pierde con el gigante de la IA",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261119/anthropic-sale-hoy-bolsa-gana-pierde-acciones-ia-claude-136594437",
+   "publicat": "2026-11-19T05:01:15.000Z"
+  },
+  {
+   "id": "e9b40b1d1e64",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Barcelona gana peso en el futuro de la IA",
+   "url": "https://www.elperiodico.com/es/opinion/20261119/barcelona-cnmc-oficina-regulacion-ia-136594083",
+   "publicat": "2026-11-19T05:01:14.000Z"
+  },
+  {
+   "id": "259ac7fa686f",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Dario Amodei, el cerebro de Anthropic que quiere salvar al mundo de los riesgos de la IA",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261119/dario-amodei-anthropic-salida-bolsa-ia-riesgos-claude-136510101",
+   "publicat": "2026-11-19T05:01:06.000Z"
+  },
+  {
+   "id": "a8ba59a09ce3",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Del acné al melanoma: una IA española recibe el aval europeo para ayudar al médico a diagnosticar más de 300 enfermedades de la piel",
+   "url": "https://www.elperiodico.com/es/sanidad/20261119/acne-melanoma-ia-espanola-recibe-aval-europeo-ayudar-medico-enfermedades-piel-136527741",
+   "publicat": "2026-11-19T05:00:53.000Z"
+  },
+  {
+   "id": "10217df621a2",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial cambia las reglas del posicionamiento web: “Google está perdiendo protagonismo a pasos agigantados”",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261119/11685767/inteligencia-artificial-cambia-reglas-posicionamiento-web-google-esta-perdiendo-protagonismo-pasos-agigantados.html",
+   "publicat": "2026-11-19T05:00:00.000Z"
+  },
+  {
+   "id": "1c382aa82a78",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "‘La darrera invenció’, d’Aleix Valls, un manual sobre la IA",
+   "url": "https://www.lavanguardia.com/vida/20261119/11687564/darrera-invencio-d-aleix-valls-manual-sobre-ia.html",
+   "publicat": "2026-11-19T05:00:00.000Z"
+  },
+  {
+   "id": "3e57a21a25f1",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El peligro de crecer con una IA que lo responde todo: ¿están los jóvenes dejando de aprender?",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/formacion/20261119/11686581/peligro-crecer-ia-responde-jovenes-dejando-aprender.html",
+   "publicat": "2026-11-19T05:00:00.000Z"
+  },
+  {
+   "id": "7ba54b1a27b6",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA puede mejorar la rentabilidad de los depósitos bancarios, según el BCE",
+   "url": "https://www.lavanguardia.com/economia/20261119/11687805/ia-mejorar-rentabilidad-depositos-bancarios-bce.html",
+   "publicat": "2026-11-19T05:00:00.000Z"
+  },
+  {
+   "id": "80ce882fcec8",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Cómo y dónde están viendo oportunidades en la IA los fundadores de unicornios",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-19/como-y-donde-estan-viendo-oportunidades-en-la-ia-los-fundadores-de-unicornios.html",
+   "publicat": "2026-11-19T04:40:00.000Z"
+  },
+  {
+   "id": "bb2bc19cae1d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las claves: Nvidia se atreve a pensar en un futuro sin su gran líder",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-19/las-claves-nvidia-se-atreve-a-pensar-en-un-futuro-sin-su-gran-lider.html",
+   "publicat": "2026-11-19T04:40:00.000Z"
+  },
+  {
+   "id": "9365486adbc3",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El que no inclou la subscripció a la IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/no-inclou-subscripcio-ia-esteve-almirall_1726637_102.html",
+   "publicat": "2026-11-19T04:30:00.000Z"
+  },
+  {
+   "id": "6af2ddd0a125",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La filosofia a l’era de la IA",
+   "url": "https://www.segre.com/ca/opinio/col-laboracio/261119/la-filosofia-a-lera-de-la-ia_1403460.html",
+   "publicat": "2026-11-19T04:23:16.000Z"
+  },
+  {
+   "id": "63d5e2e23f0d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las dudas sobre el futuro CEO prolongan el castigo a Nvidia en Bolsa",
+   "url": "https://elpais.com/economia/2026-11-19/las-dudas-sobre-el-futuro-ceo-prolongan-el-castigo-a-nvidia-en-bolsa.html",
+   "publicat": "2026-11-19T04:15:00.000Z"
+  },
+  {
+   "id": "ffffb18140bb",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Wilco levanta 2,5 millones en una ronda liderada por Samaipata para su IA de seguimiento de tratamientos médicos",
+   "url": "https://cincodias.elpais.com/companias/2026-11-19/wilco-levanta-25-millones-en-una-ronda-liderada-por-samaipata-para-su-ia-de-seguimiento-de-tratamientos-medicos.html",
+   "publicat": "2026-11-19T04:15:00.000Z"
+  },
+  {
+   "id": "6c362f877a82",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "BCN guanya pes en el futur de la IA",
+   "url": "https://www.elperiodico.cat/opinio/20261119/bcn-guanya-pes-futur-ia-136598359",
+   "publicat": "2026-11-19T04:01:20.000Z"
+  },
+  {
+   "id": "573a20d8c803",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El gran casero de la IA en la Península",
+   "url": "https://www.lavanguardia.com/dinero/20261119/11684424/gran-casero-ia-peninsula.html",
+   "publicat": "2026-11-19T01:00:00.000Z"
+  },
+  {
+   "id": "27558378adaa",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "“Los mayores tenemos ventaja sobre los jóvenes al usar la IA”",
+   "url": "https://www.lavanguardia.com/lacontra/20261119/11687538/ethan-mollick-mayores-ventaja-sobre-jovenes-ia.html",
+   "publicat": "2026-11-18T23:05:00.000Z"
+  },
   {
    "id": "b6287dbd6381",
    "mitja": "Ara",
@@ -13,6 +200,17 @@
    "titol": "Anthropic sortirà a borsa a 83 dòlars l’acció, per sobre de les previsions inicials",
    "url": "https://www.ara.cat/economia/tecnologia/anthropic-sortira-borsa-83-dolars-l-accio-previsions-inicials_1_5915299.html",
    "publicat": "2026-11-18T22:02:28.000Z"
+  },
+  {
+   "id": "8a7957f9fc1b",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic protagonitza una de les sortides a borsa més grans de la història enmig del debat de la IA",
+   "url": "https://www.3cat.cat/3catinfo/anthropic-desbanca-spacex-i-fa-la-sortida-a-borsa-mes-gran-de-la-historia/noticia/3440689",
+   "publicat": "2026-11-18T21:59:22.000Z"
   },
   {
    "id": "a7b70cf057c3",
@@ -2568,206 +2766,6 @@
    "titol": "La salida de Huang abre un periodo de incertidumbre en Nvidia, la IA y las relaciones EEUU-China",
    "url": "https://www.diariodemallorca.es/internacional/2026/11/14/jensen-huang-dimision-nvidia-consecuencias-estados-unidos-china-136433119.html",
    "publicat": "2026-11-14T09:00:36.000Z"
-  },
-  {
-   "id": "a67ee47520ba",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Quina és la millor IA? Comparativa entre ChatGPT, Gemini, Grok i Claude",
-   "url": "https://www.elnacional.cat/ca/tecnologia/quina-es-millor-ia-comparativa-entre-chatgpt-gemini-grok-claude_1724192_102.html",
-   "publicat": "2026-11-14T09:00:00.000Z"
-  },
-  {
-   "id": "1c73d75b15f7",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Trump y Xi llegarán a la APEC con tregua comercial vigente y el caso Nvidia sobre la mesa",
-   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/14/2749729/trump-llegaran-apec-tregua-comercial-vigente-caso-nvidia-sobre-mesa.html",
-   "publicat": "2026-11-14T08:43:32.000Z"
-  },
-  {
-   "id": "68ff0486c1bd",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La sortida de Huang obre un període d’incertesa per a Nvidia, la IA i les relacions entre els EUA i la Xina",
-   "url": "https://www.elperiodico.cat/internacional/20261114/jensen-huang-dimissio-nvidia-consequencies-estats-units-xina-136433118",
-   "publicat": "2026-11-14T08:00:36.000Z"
-  },
-  {
-   "id": "0b0a4d2ced0a",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La atención primaria de Catalunya incorpora IA para detectar la retinopatía diabética",
-   "url": "https://www.elperiodico.com/es/sociedad/20261114/atencion-primaria-catalunya-incorpora-ia-retinopatia-diabetica-136431981",
-   "publicat": "2026-11-14T07:50:30.000Z"
-  },
-  {
-   "id": "68206a9ddb16",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Cobrar per passejar gossos robot i altres maneres d'entrenar la IA al món físic",
-   "url": "https://www.3cat.cat/3catinfo/cobrar-per-passejar-gossos-robot-i-altres-maneres-dentrenar-la-ia-al-mon-fisic/noticia/3439154",
-   "publicat": "2026-11-14T06:48:09.000Z"
-  },
-  {
-   "id": "fd41fad17210",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La empresa que utiliza inteligencia artificial para hacer más transparentes y accesibles las licitaciones públicas",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261114/11680622/empresa-utiliza-inteligencia-artificial-mas-transparentes-accesibles-licitaciones-publicas.html",
-   "publicat": "2026-11-14T05:48:49.000Z"
-  },
-  {
-   "id": "1ed9c21a3b41",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La cara oculta de la intel·ligència artificial",
-   "url": "https://www.regio7.cat/societat/2026/11/13/cara-oculta-intelligencia-artificial-136421360.html",
-   "publicat": "2026-11-14T05:25:44.000Z"
-  },
-  {
-   "id": "75ea9d3bd817",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Jorge Dezcallar: \"Las amenazas de bombas en aviones son muy difícil de prevenir con los 'fake' de la IA\"",
-   "url": "https://www.diariodemallorca.es/mallorca/2026/11/14/jorge-dezcallar-amenazas-bombas-aviones-136428224.html",
-   "publicat": "2026-11-14T05:01:50.000Z"
-  },
-  {
-   "id": "eb73e31a6b9b",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "IA i literatura",
-   "url": "https://www.levante-emv.com/postdata/2026/11/14/ia-literatura-136423848.html",
-   "publicat": "2026-11-14T05:01:38.000Z"
-  },
-  {
-   "id": "fef8edca5bfb",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Puede el ‘caso Nvidia’ resquebrajar la hegemonía de la IA en Bolsa?",
-   "url": "https://www.elperiodico.com/es/economia/20261114/caso-nvidia-resquebrajar-hegemonia-ia-136429862",
-   "publicat": "2026-11-14T05:01:08.000Z"
-  },
-  {
-   "id": "6efa39f387e4",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Música y ópera | ‘Lola Carmesí’, la 'cantante' hecha con IA desde València que sigue la estela de ‘Nyla Stone’",
-   "url": "https://valenciaplaza.com/musica-opera-valencia-comunitat-valenciana/lola-carmesi-la-cantante-hecha-con-ia-desde-valencia-que-sigue-la-estela-de-nyla-stone",
-   "publicat": "2026-11-14T05:00:05.000Z"
-  },
-  {
-   "id": "7a2e3e1e82c6",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Juego de culpas en la Casa Blanca ante el caso de espionaje en Nvidia",
-   "url": "https://www.lavanguardia.com/economia/20261114/11684109/juego-culpas-casa-blanca-caso-espionaje-nvidia.html",
-   "publicat": "2026-11-14T05:00:00.000Z"
-  },
-  {
-   "id": "7be772ee604f",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La perfección de Jensen Huang y Nvidia se evaporó en 40 días",
-   "url": "https://elpais.com/economia/2026-11-14/la-perfeccion-de-jensen-huang-y-nvidia-se-evaporo-en-40-dias.html",
-   "publicat": "2026-11-14T04:45:00.000Z"
-  },
-  {
-   "id": "0e8a0a35fc7d",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Solaria, presa de la volatilidad y las dudas sobre la IA y los centros de datos",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-14/solaria-presa-de-la-volatilidad-y-las-dudas-sobre-la-ia-y-los-centros-de-datos.html",
-   "publicat": "2026-11-14T04:30:01.000Z"
-  },
-  {
-   "id": "c59c18b7bbdf",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El fulgor de Nvidia se oscurece sin su rey Midas: así es el tortuoso camino que le espera a la empresa clave para la IA",
-   "url": "https://elpais.com/economia/negocios/2026-11-14/el-fulgor-de-nvidia-se-oscurece-sin-su-rey-midas.html",
-   "publicat": "2026-11-14T04:30:00.000Z"
-  },
-  {
-   "id": "f6c18d5877ff",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Sobre la intel·ligència de la “intel·ligència artificial”",
-   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/sobre-intelligencia-intelligencia-artificial-pau-hortal_1724624_102.html",
-   "publicat": "2026-11-14T04:30:00.000Z"
-  },
-  {
-   "id": "f516af39592a",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un juez abronca por tercera vez a un mismo abogado de Tarragona por abusar de la IA: \"Es mala fe\"",
-   "url": "https://www.diaridetarragona.com/tarragona/275367/tercera-bronca-juez-abogado-tarragona-abusar-ia-mala-fe-procesal.html",
-   "publicat": "2026-11-14T04:00:00.000Z",
-   "noticia": "tsjc-advocat-tarragona-recursos-ia-mala-fe",
-   "noticiaTitol": "El TSJC rebutja per tercera vegada els recursos d'un advocat de Tarragona, inflats amb IA, i diu que la seva actuació frega la mala fe"
-  },
-  {
-   "id": "84b5440eeec3",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Primer xoc intern a la Casa Blanca per l’escàndol d’espionatge de Nvidia",
-   "url": "https://www.ara.cat/economia/tecnologia/xoc-intern-casa-blanca-l-escandol-d-espionatge-nvidia_1_5909907.html",
-   "publicat": "2026-11-13T21:35:56.000Z"
   }
  ]
 }
