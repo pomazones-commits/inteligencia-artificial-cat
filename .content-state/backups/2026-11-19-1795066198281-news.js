@@ -1,0 +1,74 @@
+window.IA_NEWS = [
+  {
+    "category": "ECONOMIA",
+    "read": "4 MIN",
+    "slug": "anthropic-surt-a-borsa-83-dolars-accio",
+    "title": "ACTUALITZACIÓ: Anthropic fixa el preu de la sortida a borsa a 83 dòlars per acció i capta 81.300 milions, la xifra més alta de la història",
+    "excerpt": "L'empresa de Claude ven 980 milions d'accions, més de les previstes i per sobre de la forquilla de 70 a 78 dòlars, i comença a cotitzar avui al Nasdaq amb un valor d'uns 1,5 bilions de dòlars.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+    "sourceDate": "18 de novembre de 2026",
+    "body": "Anthropic, l'empresa que fa els models Claude, feia setmanes que preparava la sortida a borsa: al començament de novembre va presentar-se als inversors amb una forquilla de preus d'entre 70 i 78 dòlars per acció, i la setmana passada ja es va saber que rebia moltes més peticions d'accions de les que oferia. Dimecres al vespre va tancar el preu definitiu, el pas que fixa quant cobra l'empresa i a quin valor arrenca a cotitzar.\n\nEl preu ha quedat en 83 dòlars per acció, per sobre de la forquilla, i l'empresa ha venut 980 milions d'accions, en lloc dels 825 milions previstos. Segons TechCrunch, que es basa en l'anunci de l'empresa i en informacions de Bloomberg, l'operació aporta 81.300 milions de dòlars, més que els 75.000 milions de SpaceX, que tenia el rècord, i valora Anthropic en uns 1,5 bilions de dòlars comptant totes les accions. Al maig, en l'última ronda privada, valia 965.000 milions. Les accions comencen a cotitzar avui, dijous, al Nasdaq amb el codi ANT. Amazon en tindrà gairebé un 15% i Google gairebé un 14%, i cadascun dels set fundadors, entre ells el conseller delegat, Dario Amodei, ha venut prop de 3,4 milions d'accions, uns 282 milions de dòlars per cap, segons el folletó registrat davant del regulador.\n\nÉs la primera gran prova a borsa d'un laboratori d'IA de primera línia i arriba en una setmana nerviosa per al sector, després de la sortida de Jensen Huang de Nvidia i dels avisos del Banc Central Europeu sobre unes expectatives de benefici molt ambicioses. Que els inversors hagin pagat més del previst indica que la confiança en el negoci de la IA continua alta; com es comporti l'acció els primers dies dirà si aquesta confiança aguanta fora del cercle d'inversors que han comprat a l'inici.\n\nEl preu d'estrena no garanteix res: les sortides a borsa molt demandades poden pujar el primer dia i baixar després. La valoració d'1,5 bilions també queda per sota dels 2 bilions que, segons la premsa, l'empresa havia arribat a buscar, i Anthropic continua gastant molts diners en centres de dades i electricitat. Les xifres de l'operació són les que han publicat l'empresa i la premsa econòmica; el primer dia de cotització encara no ha començat.",
+    "image": "./assets/anthropic-surt-a-borsa-83-dolars-accio-20261119.jpg"
+  },
+  {
+    "category": "MODELS",
+    "read": "4 MIN",
+    "slug": "google-gemini-4-neon-model-mig",
+    "title": "Google presenta Gemini 4 Neon, un model a mig camí entre el ràpid i el més potent, que diu que fa la feina un 32% més barata",
+    "excerpt": "Google DeepMind el destina a la programació, la feina d'oficina complexa i la recerca, i afirma que lidera diverses proves d'agents i de ciberseguretat; costa 3 dòlars per milió de paraules d'entrada.",
+    "sourceName": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+    "sourceDate": "18 de novembre de 2026",
+    "body": "Google ha anat estrenant aquest mes la família Gemini 4 per graons: Carbon, el model més potent, pensat per als projectes més llargs i difícils, i Hydrogen, el model ràpid per a les feines de cada dia, que ja funciona al cercador. Faltava una peça entre tots dos, i és la que Google DeepMind va presentar dimecres.\n\nGemini 4 Neon, segons l'apunt que signa Koray Kavukcuoglu, l'arquitecte en cap d'IA de Google, està pensat per a la programació complexa, el raonament analític i les tasques llargues d'empresa, també per coordinar diversos agents que treballen en paral·lel. Llegeix fins a un milió d'unitats de text (*tokens*) d'una tirada, entre documents, fulls de càlcul, gràfics, àudio i vídeo, i té quatre nivells de raonament perquè cada equip triï quant vol gastar. Google afirma que, amb el nivell per defecte, fa cada feina un 32% més barata que Carbon, i que queda primer o segon en proves independents com les d'Artificial Analysis, Vals i Agent Arena, i primer en algunes de ciberseguretat, com trobar i corregir vulnerabilitats. Costa 3 dòlars per milió d'unitats d'entrada i 15 dòlars per milió de sortida, i ja és a l'API de Gemini, a l'eina de programació Antigravity i a l'aplicació Gemini per als abonats de pagament. Una versió especial per a ciberseguretat arribarà els pròxims dies a un grup tancat de defensors.\n\nEl model arriba la mateixa setmana que OpenAI ha estrenat GPT-6.2 Astra i Sol. La batalla ja no és només per tenir el model més intel·ligent, sinó per oferir el que fa la feina amb menys cost, perquè les empreses que posen agents a treballar hores seguides paguen per cada unitat de text que llegeixen i escriuen.\n\nLes xifres de rendiment són les que dona Google, i moltes proves les tria la mateixa empresa o són molt recents. La comparació de preus per tasca depèn de com es mesuri cada feina, i la versió de ciberseguretat, la que més pot preocupar si cau en males mans, encara no s'ha pogut avaluar fora de Google.",
+    "image": "./assets/google-gemini-4-neon-model-mig-20261119.jpg"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "4 MIN",
+    "slug": "ia-explica-on-es-perd-energia-imants-alta-frequencia",
+    "title": "Una IA de la Universitat de Ciència de Tòquio assenyala quines parts dels imants fan perdre energia als transformadors quan treballen més de pressa",
+    "excerpt": "L'equip combina simulacions al superordinador Fugaku amb un mètode matemàtic que mesura la forma de les fronteres magnètiques, i troba que l'energia es perd sobretot a les puntes d'aquestes fronteres. L'estudi surt a NPG Asia Materials.",
+    "sourceName": "Tech Xplore",
+    "sourceUrl": "https://techxplore.com/news/2026-11-ai-magnetic-high-frequency-energy.html",
+    "sourceDate": "18 de novembre de 2026",
+    "body": "Els transformadors i les bobines que hi ha dins dels carregadors, dels cotxes elèctrics o de les fonts d'alimentació dels centres de dades perden part de l'energia en forma de calor. Com més de pressa treballen, més en perden, i la tendència és fer-los treballar a freqüències cada cop més altes perquè siguin més petits. Els models que fan servir els enginyers calculen aquesta pèrdua total, però no diuen quina part del material en té la culpa.\n\nUn equip de la Universitat de Ciència de Tòquio, encapçalat per Masato Kotsugi, ho ha estudiat en un imant tou de ferro de gra molt fi, simulat al superordinador japonès Fugaku a 100 quilohertz, a 1 megahertz i a 10 megahertz. Dins d'un imant hi ha zones on el magnetisme apunta en una direcció, separades per fronteres (les parets de domini) que es mouen quan el material canvia de polaritat. Els investigadors han fet servir una eina matemàtica que descriu la forma i les connexions d'aquestes fronteres, n'han reduït la informació a dues dimensions i, amb aprenentatge automàtic, l'han lligada a l'energia que costa cada canvi. El resultat, publicat a la revista NPG Asia Materials (DOI 10.1038/s41427-026-00683-2), és que, com més alta és la freqüència, més es trossegen les zones i més costa el canvi, i que el cost es concentra a les puntes de les zones que avancen i en alguns trams fins de frontera, no repartit per tot l'imant.\n\nEl valor del treball és que no es limita a encertar una xifra: diu on passa el problema i per què, amb una explicació física que els enginyers poden fer servir. Kotsugi en resumeix l'objectiu com «fer servir la IA per veure l'invisible». Saber quines estructures frenen el canvi de polaritat podria orientar el disseny de materials que s'escalfin menys, i això té a veure amb l'eficiència dels vehicles elèctrics i amb el consum dels centres de dades.\n\nÉs un estudi fet amb un material ideal simulat, sense proves de laboratori, i l'energia que calcula és un cost estructural, no la calor que es dissipa de debò, com reconeixen els mateixos autors. Tampoc no proposa encara cap material nou: és un mètode d'anàlisi, i el camí cap a transformadors més eficients queda per recórrer.",
+    "etiquetes": [
+      "centres-de-dades"
+    ],
+    "image": "./assets/ia-explica-on-es-perd-energia-imants-alta-frequencia-20261119.jpg"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "bancs-eua-clients-responsables-agents-ia",
+    "title": "Citi i altres bancs dels Estats Units avisen que el client paga els danys si dona accés al compte a un agent d'IA, encara que l'agent sigui atacat",
+    "excerpt": "Citibank, PNC i Citizens han canviat les condicions aquesta setmana, després que JPMorgan i Bank of America ho fessin a l'octubre: qui deixa entrar una IA d'una altra empresa al seu compte respon de tot el que hi faci.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+    "sourceDate": "18 de novembre de 2026",
+    "body": "Les empreses d'IA prometen agents que gestionin la vida diària dels usuaris, també els diners: pagar factures, moure estalvis o buscar el compte que dona més interessos. Per fer-ho, l'usuari ha de donar a l'agent les claus del seu banc. Els bancs dels Estats Units han començat a dir clarament qui paga si alguna cosa surt malament.\n\nCitibank, el tercer banc comercial del país, ha actualitzat aquesta setmana el contracte de banca en línia: els clients que donin accés al compte a un agent d'IA d'una altra empresa són responsables de tot el que s'hi faci a través d'aquell agent, i també del que facin els atacants si l'eina deixa a la vista les credencials o la pirategen. Els agents que ofereix el mateix banc queden fora d'aquesta regla. Segons TechCrunch, PNC va canviar les condicions el 18 de novembre i Citizens ha enviat un correu als clients amb el mateix avís; JPMorgan i Bank of America, els dos bancs més grans, ja havien anunciat normes semblants a l'octubre. Un portaveu de Citi ho justifica com un aclariment dels riscos de compartir les credencials bancàries.\n\nEl canvi mostra un xoc que es repeteix en altres sectors: els laboratoris d'IA volen que els seus agents actuïn en nom de la gent, i les empreses que donen el servei (bancs, plataformes de transport o de menjar a domicili) hi posen fre. Els bancs hi tenen dues raons: els agents encara cometen errors i poden ser enganyats, i també poden ajudar els clients a fugir de comissions i de comptes poc rendibles. Algunes eines, com la que Anthropic va presentar al novembre per a les finances personals, només poden consultar els comptes, sense moure diners.\n\nLes condicions són les dels bancs dels Estats Units i no s'apliquen als clients d'aquí. L'article no esmenta cap regulador que s'hi hagi pronunciat, i encara no se sap com respondran els tribunals si un client hi perd diners per culpa d'un atac que no podia preveure.",
+    "image": "./assets/bancs-eua-clients-responsables-agents-ia-20261119.jpg"
+  },
+  {
+    "category": "PRODUCTES",
+    "read": "3 MIN",
+    "slug": "google-genie-4-project-genie-abonats",
+    "title": "ACTUALITZACIÓ: Google obre als abonats de pagament Genie 4, el model que crea mons per explorar en temps real a partir d'una frase",
+    "excerpt": "Els abonats a Google AI Ultra ja poden fer servir el model dins de Project Genie, on es pot canviar el temps o afegir personatges mentre es juga; els de Google AI Pro, de moment, només es poden apuntar a una llista d'espera.",
+    "sourceName": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+    "sourceDate": "18 de novembre de 2026",
+    "body": "Google DeepMind va presentar Genie 4 a finals d'octubre com una prova reservada a un grup de testadors de confiança. És un model que no fa vídeos tancats, sinó mons que l'usuari pot recórrer i que es van generant a mesura que s'hi mou, amb so propi i amb la possibilitat de canviar-los mentre s'hi juga.\n\nDimecres, Google va anunciar que comença a obrir-lo als abonats de Google AI Ultra, el pla més car, dins de Project Genie, el seu laboratori de mons generats. Els abonats de Google AI Pro es poden apuntar a una llista d'espera. Amb Genie 4 es pot demanar per escrit, en plena partida, que canviï el temps, que apareguin personatges o que l'acció vagi cap a un altre lloc, i és el primer model de la sèrie que fa el so en temps real, adaptat a l'escena. Project Genie també incorpora un agent que construeix el món a partir d'una conversa, una galeria per compartir-los i, per a qui continuï amb Genie 3, sessions de fins a tres minuts, quan abans eren d'un.\n\nEls models que simulen mons interessen més enllà del joc: Google els fa servir per entrenar agents i robots en entorns virtuals abans de portar-los al món real. Posar-los a les mans del públic és també una manera de veure com s'aguanten fora del laboratori.\n\nGoogle mateix diu que Genie 3 i Genie 4 continuen sent models de recerca i que encara ha de millorar la latència de la càmera, les interaccions físiques complexes, la precisió del so i que els escenaris es mantinguin iguals al llarg del temps. L'anunci no detalla en quins països s'obre ni quant dura cada sessió amb Genie 4. Tot el vídeo i l'àudio que genera porta la marca d'aigua invisible SynthID.",
+    "video": {
+      "id": "EDp4IoAUsXY",
+      "verificat": "2026-11-19",
+      "titol": "Introducing the new Project Genie, powered by Genie 4",
+      "canal": "Google DeepMind",
+      "canalUrl": "https://www.youtube.com/@googledeepmind",
+      "idioma": "en",
+      "resum": "Vídeo de presentació oficial de Google DeepMind del nou Project Genie, que ara funciona amb Genie 4. Segons la descripció del canal, mostra com es converteixen idees en mons per explorar i compartir directament des del navegador."
+    },
+    "image": "./assets/google-genie-4-project-genie-abonats-20261119.jpg"
+  }
+];
