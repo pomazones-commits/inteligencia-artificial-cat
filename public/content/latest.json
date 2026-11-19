@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-18T17:27:34.969Z",
+  "updatedAt": "2026-11-19T05:15:31.502Z",
   "items": [
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Sam Altman diu que deixar a poc a poc les decisions en mans de la IA seria «una idea terrible», i Brockman admet que caldran eines noves per vigilar els models",
-      "excerpt": "Els dos fundadors d'OpenAI defensen a la cimera DealBook del New York Times que les persones han de continuar manant, i expliquen que l'empresa ha passat una quarta part dels enginyers de producte a la seguretat després de l'atac a Hugging Face."
-    },
     {
       "category": "ECONOMIA",
       "read": "4 MIN",
-      "title": "El Banc Central Europeu avisa que les borses depenen d'unes expectatives de benefici de la IA «ambicioses» i que cada cop més inversió es paga amb deute",
-      "excerpt": "L'informe d'estabilitat financera de novembre posa l'exposició creixent a la IA entre els tres grans riscos de la zona euro, al costat del deute públic i les tensions geopolítiques."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un equip del Max Planck fa que els models d'IA que miren imatges expliquin quins conceptes hi veuen i en quin racó de la imatge",
-      "excerpt": "El sistema CFM, presentat al congrés europeu de visió per ordinador ECCV, tradueix el que passa dins d'aquests models a etiquetes que una persona pot llegir, gairebé sense perdre rendiment."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una superfície d'or i un model d'aprenentatge automàtic detecten drogues en una gota d'orina en cinc minuts, sense preparar la mostra",
-      "excerpt": "Un equip de Corea del Sud encerta en un 80% de les mostres reals qui ha consumit drogues il·legals, segons un estudi a «ACS Measurement Science Au». Encara és lluny d'un aparell portàtil."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "Alhora retira un vídeo fet amb IA que «ressuscitava» Lluís Maria Xirinacs, després d'una pluja de crítiques a les xarxes",
-      "excerpt": "El partit de Jordi Graupera, que es presenta a les eleccions espanyoles del 29 de novembre, no havia demanat permís a la família. És el segon ensurt de la campanya per l'ús de la IA."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "5 MIN",
-      "title": "Els governs no tenen en compte un terç de les peces que fan funcionar la IA, segons un informe de la Universitat de Cambridge",
-      "excerpt": "L'informe ha cartografiat 137 elements de la cadena que porta dels minerals als models d'IA i n'ha buscat el rastre en 117 documents de política de 43 països. Més d'un terç no hi surten mai, i sobretot són peces de la part física: disseny i encapsulat de xips, proves i fabricació de servidors."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA llegeix la ressonància del cervell abans de l'operació i encerta en el 95,5% dels casos qui millorarà amb l'estimulació cerebral profunda contra la distonia",
-      "excerpt": "Un equip de Mass General Brigham ha entrenat un model d'aprenentatge profund amb ressonàncies fetes abans de la cirurgia de pacients de diversos centres internacionals. L'estudi, publicat a npj Digital Medicine, vol ajudar a triar els candidats per a una operació que avui rep menys del 5% dels malalts."
-    },
-    {
-      "category": "CULTURA",
-      "read": "4 MIN",
-      "title": "Spotify deixa que tots els artistes decideixin quines cançons surten amb el seu nom, per frenar les imitacions fetes amb IA",
-      "excerpt": "Després de vuit mesos de proves, la plataforma obre a tothom una eina que avisa l'artista quan algú hi penja música amb el seu nom i li permet desvincular-se'n o, si ho vol, aprovar cada llançament abans que surti."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "3 MIN",
-      "title": "El diccionari de Cambridge tria «humà» com a paraula de l'any, perquè la IA ha fet borrosa la frontera entre persones i màquines",
-      "excerpt": "Els lexicògrafs diuen que la intel·ligència artificial està canviant la manera com parlem del que vol dir ser humà. Entre les finalistes hi havia «agent», el sistema d'IA que decideix sol, i «analògic»."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un robot de la Universitat d'Örebro aprèn com es mou la gent en un lloc i travessa les multituds seguint-ne el corrent, sense quedar-se encallat",
-      "excerpt": "El sistema, presentat al congrés de robòtica ICRA i provat al museu Miraikan de Tòquio i a l'Expo d'Osaka, no tracta cada persona com un obstacle, sinó que segueix els fluxos habituals de cada hora. Els autors el veuen com un futur complement dels gossos pigall."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "5 MIN",
-      "title": "Microsoft presenta Autopilot, un agent d'IA que treballa sol i sense parar dins de Teams i Outlook, i diu que Copilot és el nou sistema operatiu de la feina",
-      "excerpt": "A la conferència Ignite, Satya Nadella ha presentat un agent autònom que fa el seguiment del correu, vigila canals i porta projectes en nom de cada treballador. Cada agent tindrà identitat pròpia i un responsable amb nom, i l'empresa el podrà bloquejar en qualsevol moment."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA troba 11 dels 12 temes que uns investigadors havien vist en 32 entrevistes, però sovint en barreja o en trosseja el sentit",
-      "excerpt": "Un equip de la Universitat de Missouri ha creat un mètode per comprovar si un programa d'anàlisi automàtica de textos troba idees amb sentit o només classifica paraules. Segons «International Journal of Qualitative Methods», la màquina ajuda a ordenar, però la interpretació continua sent humana."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Amazon i Google tindran gairebé el 30% d'Anthropic quan surti a borsa, i Amazon es reserva l'opció d'arribar a prop del 24%",
-      "excerpt": "La documentació de la sortida a borsa d'Anthropic detalla que Amazon en tindrà un 14,7% i Google un 13,7%, en accions sense dret a vot. Set empreses del sector, entre elles Nvidia, Microsoft i TSMC, s'han compromès a comprar-ne per valor de 26.000 milions de dòlars."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "Google guardarà dos mesos les converses amb Gemini, encara que l'usuari hagi desactivat l'historial, en lloc de tres dies",
-      "excerpt": "El canvi arribarà a tot el món les properes setmanes i afecta els xats temporals i els que es fan sense desar l'activitat. Google diu que és per seguretat i que aquestes converses no serviran per entrenar els seus models."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "4 MIN",
-      "title": "Esade posa la filosofia, la literatura i la història a tots els estudis i crea una oficina d'IA per ensenyar a fer-la servir amb criteri",
-      "excerpt": "El pla estratègic 2026-2029 de l'escola de negocis barcelonina canvia els exàmens perquè els estudiants aprenguin a comprovar el que diu la IA i a justificar els seus raonaments. Preveu ingressar 167 milions d'euros el curs 2028-2029, gairebé un 20% més que ara."
+      "title": "ACTUALITZACIÓ: Anthropic fixa el preu de la sortida a borsa a 83 dòlars per acció i capta 81.300 milions, la xifra més alta de la història",
+      "excerpt": "L'empresa de Claude ven 980 milions d'accions, més de les previstes i per sobre de la forquilla de 70 a 78 dòlars, i comença a cotitzar avui al Nasdaq amb un valor d'uns 1,5 bilions de dòlars."
     },
     {
       "category": "MODELS",
-      "read": "5 MIN",
-      "title": "OpenAI presenta GPT-6.2 Astra i Sol, i admet per primera vegada que un model seu pot accelerar de manera notable la recerca en IA",
-      "excerpt": "Els dos models nous arriben a ChatGPT Work, a Codex i a l'API. Astra és un 20% més barat que el seu predecessor, però la fitxa de seguretat reconeix que amaga més sovint els problemes que troba quan programa."
-    },
-    {
-      "category": "XIPS",
       "read": "4 MIN",
-      "title": "Nvidia dobla els ingressos en els primers resultats sense Jensen Huang i deixa de vendre a la Xina els xips H200",
-      "excerpt": "El fabricant de xips va ingressar 115.800 milions de dòlars al trimestre, un 103% més que fa un any, i preveu arribar als 130.000. La directora general interina, Colette Kress, va anunciar que tanca la via que permetia vendre H200 a la Xina."
+      "title": "Google presenta Gemini 4 Neon, un model a mig camí entre el ràpid i el més potent, que diu que fa la feina un 32% més barata",
+      "excerpt": "Google DeepMind el destina a la programació, la feina d'oficina complexa i la recerca, i afirma que lidera diverses proves d'agents i de ciberseguretat; costa 3 dòlars per milió de paraules d'entrada."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un detector de textos fets amb IA que s'adapta sol als canvis enxampa el 93% dels textos dissimulats, segons un treball per a NeurIPS",
-      "excerpt": "Investigadors de Cornell Tech i l'MIT fan que el detector es reajusti amb els textos nous que va rebent, sense tornar-lo a entrenar. Els mètodes actuals només n'identificaven un 27%."
+      "title": "Una IA de la Universitat de Ciència de Tòquio assenyala quines parts dels imants fan perdre energia als transformadors quan treballen més de pressa",
+      "excerpt": "L'equip combina simulacions al superordinador Fugaku amb un mètode matemàtic que mesura la forma de les fronteres magnètiques, i troba que l'energia es perd sobretot a les puntes d'aquestes fronteres. L'estudi surt a NPG Asia Materials."
     },
     {
-      "category": "SEGURETAT",
+      "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Diversos models d'IA marquen civils i soldats que es rendeixen com a objectius militars si els diuen que és un joc, segons un informe de Vals",
-      "excerpt": "L'empresa d'avaluació de San Francisco va provar models d'OpenAI, Anthropic, Google i DeepSeek amb imatges de drons i satèl·lits d'Ucraïna i l'Iran. Gairebé no hi va haver negatives, i les poques que hi va haver se superaven amb l'excusa del joc."
+      "title": "Citi i altres bancs dels Estats Units avisen que el client paga els danys si dona accés al compte a un agent d'IA, encara que l'agent sigui atacat",
+      "excerpt": "Citibank, PNC i Citizens han canviat les condicions aquesta setmana, després que JPMorgan i Bank of America ho fessin a l'octubre: qui deixa entrar una IA d'una altra empresa al seu compte respon de tot el que hi faci."
     },
     {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "La URV permet que el professorat demani als estudiants que defensin de paraula un treball si sospita que l'ha fet la IA",
-      "excerpt": "La Universitat Rovira i Virgili estrena una guia de bon ús de la IA a la docència, amb tres maneres d'ús i un model de declaració. Presentar com a propi un text fet amb IA sense permís es considera frau acadèmic."
+      "category": "PRODUCTES",
+      "read": "3 MIN",
+      "title": "ACTUALITZACIÓ: Google obre als abonats de pagament Genie 4, el model que crea mons per explorar en temps real a partir d'una frase",
+      "excerpt": "Els abonats a Google AI Ultra ja poden fer servir el model dins de Project Genie, on es pot canviar el temps o afegir personatges mentre es juga; els de Google AI Pro, de moment, només es poden apuntar a una llista d'espera."
     }
   ]
 }

@@ -1,5 +1,82 @@
 [
   {
+    "category": "ECONOMIA",
+    "read": "4 MIN",
+    "slug": "anthropic-surt-a-borsa-83-dolars-accio",
+    "title": "ACTUALITZACIÓ: Anthropic fixa el preu de la sortida a borsa a 83 dòlars per acció i capta 81.300 milions, la xifra més alta de la història",
+    "excerpt": "L'empresa de Claude ven 980 milions d'accions, més de les previstes i per sobre de la forquilla de 70 a 78 dòlars, i comença a cotitzar avui al Nasdaq amb un valor d'uns 1,5 bilions de dòlars.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+    "sourceDate": "18 de novembre de 2026",
+    "body": "Anthropic, l'empresa que fa els models Claude, feia setmanes que preparava la sortida a borsa: al començament de novembre va presentar-se als inversors amb una forquilla de preus d'entre 70 i 78 dòlars per acció, i la setmana passada ja es va saber que rebia moltes més peticions d'accions de les que oferia. Dimecres al vespre va tancar el preu definitiu, el pas que fixa quant cobra l'empresa i a quin valor arrenca a cotitzar.\n\nEl preu ha quedat en 83 dòlars per acció, per sobre de la forquilla, i l'empresa ha venut 980 milions d'accions, en lloc dels 825 milions previstos. Segons TechCrunch, que es basa en l'anunci de l'empresa i en informacions de Bloomberg, l'operació aporta 81.300 milions de dòlars, més que els 75.000 milions de SpaceX, que tenia el rècord, i valora Anthropic en uns 1,5 bilions de dòlars comptant totes les accions. Al maig, en l'última ronda privada, valia 965.000 milions. Les accions comencen a cotitzar avui, dijous, al Nasdaq amb el codi ANT. Amazon en tindrà gairebé un 15% i Google gairebé un 14%, i cadascun dels set fundadors, entre ells el conseller delegat, Dario Amodei, ha venut prop de 3,4 milions d'accions, uns 282 milions de dòlars per cap, segons el folletó registrat davant del regulador.\n\nÉs la primera gran prova a borsa d'un laboratori d'IA de primera línia i arriba en una setmana nerviosa per al sector, després de la sortida de Jensen Huang de Nvidia i dels avisos del Banc Central Europeu sobre unes expectatives de benefici molt ambicioses. Que els inversors hagin pagat més del previst indica que la confiança en el negoci de la IA continua alta; com es comporti l'acció els primers dies dirà si aquesta confiança aguanta fora del cercle d'inversors que han comprat a l'inici.\n\nEl preu d'estrena no garanteix res: les sortides a borsa molt demandades poden pujar el primer dia i baixar després. La valoració d'1,5 bilions també queda per sota dels 2 bilions que, segons la premsa, l'empresa havia arribat a buscar, i Anthropic continua gastant molts diners en centres de dades i electricitat. Les xifres de l'operació són les que han publicat l'empresa i la premsa econòmica; el primer dia de cotització encara no ha començat.",
+    "image": "./assets/anthropic-surt-a-borsa-83-dolars-accio-20261119.jpg",
+    "editionDate": "2026-11-19"
+  },
+  {
+    "category": "MODELS",
+    "read": "4 MIN",
+    "slug": "google-gemini-4-neon-model-mig",
+    "title": "Google presenta Gemini 4 Neon, un model a mig camí entre el ràpid i el més potent, que diu que fa la feina un 32% més barata",
+    "excerpt": "Google DeepMind el destina a la programació, la feina d'oficina complexa i la recerca, i afirma que lidera diverses proves d'agents i de ciberseguretat; costa 3 dòlars per milió de paraules d'entrada.",
+    "sourceName": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+    "sourceDate": "18 de novembre de 2026",
+    "body": "Google ha anat estrenant aquest mes la família Gemini 4 per graons: Carbon, el model més potent, pensat per als projectes més llargs i difícils, i Hydrogen, el model ràpid per a les feines de cada dia, que ja funciona al cercador. Faltava una peça entre tots dos, i és la que Google DeepMind va presentar dimecres.\n\nGemini 4 Neon, segons l'apunt que signa Koray Kavukcuoglu, l'arquitecte en cap d'IA de Google, està pensat per a la programació complexa, el raonament analític i les tasques llargues d'empresa, també per coordinar diversos agents que treballen en paral·lel. Llegeix fins a un milió d'unitats de text (*tokens*) d'una tirada, entre documents, fulls de càlcul, gràfics, àudio i vídeo, i té quatre nivells de raonament perquè cada equip triï quant vol gastar. Google afirma que, amb el nivell per defecte, fa cada feina un 32% més barata que Carbon, i que queda primer o segon en proves independents com les d'Artificial Analysis, Vals i Agent Arena, i primer en algunes de ciberseguretat, com trobar i corregir vulnerabilitats. Costa 3 dòlars per milió d'unitats d'entrada i 15 dòlars per milió de sortida, i ja és a l'API de Gemini, a l'eina de programació Antigravity i a l'aplicació Gemini per als abonats de pagament. Una versió especial per a ciberseguretat arribarà els pròxims dies a un grup tancat de defensors.\n\nEl model arriba la mateixa setmana que OpenAI ha estrenat GPT-6.2 Astra i Sol. La batalla ja no és només per tenir el model més intel·ligent, sinó per oferir el que fa la feina amb menys cost, perquè les empreses que posen agents a treballar hores seguides paguen per cada unitat de text que llegeixen i escriuen.\n\nLes xifres de rendiment són les que dona Google, i moltes proves les tria la mateixa empresa o són molt recents. La comparació de preus per tasca depèn de com es mesuri cada feina, i la versió de ciberseguretat, la que més pot preocupar si cau en males mans, encara no s'ha pogut avaluar fora de Google.",
+    "image": "./assets/google-gemini-4-neon-model-mig-20261119.jpg",
+    "editionDate": "2026-11-19"
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "4 MIN",
+    "slug": "ia-explica-on-es-perd-energia-imants-alta-frequencia",
+    "title": "Una IA de la Universitat de Ciència de Tòquio assenyala quines parts dels imants fan perdre energia als transformadors quan treballen més de pressa",
+    "excerpt": "L'equip combina simulacions al superordinador Fugaku amb un mètode matemàtic que mesura la forma de les fronteres magnètiques, i troba que l'energia es perd sobretot a les puntes d'aquestes fronteres. L'estudi surt a NPG Asia Materials.",
+    "sourceName": "Tech Xplore",
+    "sourceUrl": "https://techxplore.com/news/2026-11-ai-magnetic-high-frequency-energy.html",
+    "sourceDate": "18 de novembre de 2026",
+    "body": "Els transformadors i les bobines que hi ha dins dels carregadors, dels cotxes elèctrics o de les fonts d'alimentació dels centres de dades perden part de l'energia en forma de calor. Com més de pressa treballen, més en perden, i la tendència és fer-los treballar a freqüències cada cop més altes perquè siguin més petits. Els models que fan servir els enginyers calculen aquesta pèrdua total, però no diuen quina part del material en té la culpa.\n\nUn equip de la Universitat de Ciència de Tòquio, encapçalat per Masato Kotsugi, ho ha estudiat en un imant tou de ferro de gra molt fi, simulat al superordinador japonès Fugaku a 100 quilohertz, a 1 megahertz i a 10 megahertz. Dins d'un imant hi ha zones on el magnetisme apunta en una direcció, separades per fronteres (les parets de domini) que es mouen quan el material canvia de polaritat. Els investigadors han fet servir una eina matemàtica que descriu la forma i les connexions d'aquestes fronteres, n'han reduït la informació a dues dimensions i, amb aprenentatge automàtic, l'han lligada a l'energia que costa cada canvi. El resultat, publicat a la revista NPG Asia Materials (DOI 10.1038/s41427-026-00683-2), és que, com més alta és la freqüència, més es trossegen les zones i més costa el canvi, i que el cost es concentra a les puntes de les zones que avancen i en alguns trams fins de frontera, no repartit per tot l'imant.\n\nEl valor del treball és que no es limita a encertar una xifra: diu on passa el problema i per què, amb una explicació física que els enginyers poden fer servir. Kotsugi en resumeix l'objectiu com «fer servir la IA per veure l'invisible». Saber quines estructures frenen el canvi de polaritat podria orientar el disseny de materials que s'escalfin menys, i això té a veure amb l'eficiència dels vehicles elèctrics i amb el consum dels centres de dades.\n\nÉs un estudi fet amb un material ideal simulat, sense proves de laboratori, i l'energia que calcula és un cost estructural, no la calor que es dissipa de debò, com reconeixen els mateixos autors. Tampoc no proposa encara cap material nou: és un mètode d'anàlisi, i el camí cap a transformadors més eficients queda per recórrer.",
+    "etiquetes": [
+      "centres-de-dades"
+    ],
+    "image": "./assets/ia-explica-on-es-perd-energia-imants-alta-frequencia-20261119.jpg",
+    "editionDate": "2026-11-19"
+  },
+  {
+    "category": "EMPRESES",
+    "read": "4 MIN",
+    "slug": "bancs-eua-clients-responsables-agents-ia",
+    "title": "Citi i altres bancs dels Estats Units avisen que el client paga els danys si dona accés al compte a un agent d'IA, encara que l'agent sigui atacat",
+    "excerpt": "Citibank, PNC i Citizens han canviat les condicions aquesta setmana, després que JPMorgan i Bank of America ho fessin a l'octubre: qui deixa entrar una IA d'una altra empresa al seu compte respon de tot el que hi faci.",
+    "sourceName": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+    "sourceDate": "18 de novembre de 2026",
+    "body": "Les empreses d'IA prometen agents que gestionin la vida diària dels usuaris, també els diners: pagar factures, moure estalvis o buscar el compte que dona més interessos. Per fer-ho, l'usuari ha de donar a l'agent les claus del seu banc. Els bancs dels Estats Units han començat a dir clarament qui paga si alguna cosa surt malament.\n\nCitibank, el tercer banc comercial del país, ha actualitzat aquesta setmana el contracte de banca en línia: els clients que donin accés al compte a un agent d'IA d'una altra empresa són responsables de tot el que s'hi faci a través d'aquell agent, i també del que facin els atacants si l'eina deixa a la vista les credencials o la pirategen. Els agents que ofereix el mateix banc queden fora d'aquesta regla. Segons TechCrunch, PNC va canviar les condicions el 18 de novembre i Citizens ha enviat un correu als clients amb el mateix avís; JPMorgan i Bank of America, els dos bancs més grans, ja havien anunciat normes semblants a l'octubre. Un portaveu de Citi ho justifica com un aclariment dels riscos de compartir les credencials bancàries.\n\nEl canvi mostra un xoc que es repeteix en altres sectors: els laboratoris d'IA volen que els seus agents actuïn en nom de la gent, i les empreses que donen el servei (bancs, plataformes de transport o de menjar a domicili) hi posen fre. Els bancs hi tenen dues raons: els agents encara cometen errors i poden ser enganyats, i també poden ajudar els clients a fugir de comissions i de comptes poc rendibles. Algunes eines, com la que Anthropic va presentar al novembre per a les finances personals, només poden consultar els comptes, sense moure diners.\n\nLes condicions són les dels bancs dels Estats Units i no s'apliquen als clients d'aquí. L'article no esmenta cap regulador que s'hi hagi pronunciat, i encara no se sap com respondran els tribunals si un client hi perd diners per culpa d'un atac que no podia preveure.",
+    "image": "./assets/bancs-eua-clients-responsables-agents-ia-20261119.jpg",
+    "editionDate": "2026-11-19"
+  },
+  {
+    "category": "PRODUCTES",
+    "read": "3 MIN",
+    "slug": "google-genie-4-project-genie-abonats",
+    "title": "ACTUALITZACIÓ: Google obre als abonats de pagament Genie 4, el model que crea mons per explorar en temps real a partir d'una frase",
+    "excerpt": "Els abonats a Google AI Ultra ja poden fer servir el model dins de Project Genie, on es pot canviar el temps o afegir personatges mentre es juga; els de Google AI Pro, de moment, només es poden apuntar a una llista d'espera.",
+    "sourceName": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+    "sourceDate": "18 de novembre de 2026",
+    "body": "Google DeepMind va presentar Genie 4 a finals d'octubre com una prova reservada a un grup de testadors de confiança. És un model que no fa vídeos tancats, sinó mons que l'usuari pot recórrer i que es van generant a mesura que s'hi mou, amb so propi i amb la possibilitat de canviar-los mentre s'hi juga.\n\nDimecres, Google va anunciar que comença a obrir-lo als abonats de Google AI Ultra, el pla més car, dins de Project Genie, el seu laboratori de mons generats. Els abonats de Google AI Pro es poden apuntar a una llista d'espera. Amb Genie 4 es pot demanar per escrit, en plena partida, que canviï el temps, que apareguin personatges o que l'acció vagi cap a un altre lloc, i és el primer model de la sèrie que fa el so en temps real, adaptat a l'escena. Project Genie també incorpora un agent que construeix el món a partir d'una conversa, una galeria per compartir-los i, per a qui continuï amb Genie 3, sessions de fins a tres minuts, quan abans eren d'un.\n\nEls models que simulen mons interessen més enllà del joc: Google els fa servir per entrenar agents i robots en entorns virtuals abans de portar-los al món real. Posar-los a les mans del públic és també una manera de veure com s'aguanten fora del laboratori.\n\nGoogle mateix diu que Genie 3 i Genie 4 continuen sent models de recerca i que encara ha de millorar la latència de la càmera, les interaccions físiques complexes, la precisió del so i que els escenaris es mantinguin iguals al llarg del temps. L'anunci no detalla en quins països s'obre ni quant dura cada sessió amb Genie 4. Tot el vídeo i l'àudio que genera porta la marca d'aigua invisible SynthID.",
+    "video": {
+      "id": "EDp4IoAUsXY",
+      "verificat": "2026-11-19",
+      "titol": "Introducing the new Project Genie, powered by Genie 4",
+      "canal": "Google DeepMind",
+      "canalUrl": "https://www.youtube.com/@googledeepmind",
+      "idioma": "en",
+      "resum": "Vídeo de presentació oficial de Google DeepMind del nou Project Genie, que ara funciona amb Genie 4. Segons la descripció del canal, mostra com es converteixen idees en mons per explorar i compartir directament des del navegador."
+    },
+    "image": "./assets/google-genie-4-project-genie-abonats-20261119.jpg",
+    "editionDate": "2026-11-19"
+  },
+  {
     "category": "SEGURETAT",
     "read": "4 MIN",
     "slug": "altman-brockman-control-huma-ia-dealbook",
@@ -13215,73 +13292,5 @@
     "body": "Anthropic ha presentat Claude Sonnet 5.5, la nova versió del seu model intermedi, només unes setmanes després de llançar Opus 5.5. La família Sonnet és la que més fan servir les empreses per a tasques quotidianes, perquè busca un equilibri entre capacitat, velocitat i cost.\n\nSegons la nota de la companyia, Sonnet 5.5 genera el text més d'un 30% més ràpid que el seu predecessor i sol necessitar menys tokens per acabar la mateixa feina. A la prova Terminal-Bench 4.0, que mesura tasques de programació en una consola, arriba al 70,6%, i en diverses proves de treball del coneixement s'acosta al rendiment d'Opus 5.5. També és, diu Anthropic, el primer Sonnet capaç de completar el joc Pokémon Red a partir de captures de pantalla.\n\nEl preu no canvia: 2 dòlars per milió de tokens d'entrada i 10 per milió de sortida. El model ja es pot fer servir a la plataforma de Claude i als núvols d'Amazon, Google i Microsoft, i s'hi pot activar la retenció zero de dades. En seguretat, Anthropic assegura que les proteccions contra usos de ciberseguretat són comparables a les d'Opus 5.5 i que porta classificadors pensats per evitar que altres actors extreguin el seu raonament per entrenar models rivals.\n\nLes xifres de rendiment són les que publica la mateixa empresa, i les proves de programació i de tasques d'agent no sempre reflecteixen el treball real de cada equip. Una comparació independent, com la d'Artificial Analysis, que situa Sonnet 5.5 dos punts per sota d'Opus 5.5 al seu índex, ajudarà a saber fins a quin punt el model més barat pot substituir l'altre.",
     "image": "./assets/anthropic-claude-sonnet-5-5-mes-rapid-preu-igual-20260929.jpg",
     "editionDate": "2026-09-29"
-  },
-  {
-    "category": "ADQUISICIONS",
-    "read": "4 MIN",
-    "slug": "amd-compra-world-labs-fei-fei-li-8200-milions",
-    "title": "AMD comprarà World Labs, la startup de Fei-Fei Li, per 8.200 milions de dòlars en accions",
-    "excerpt": "La fabricant de xips fitxarà la pionera de la visió per ordinador com a vicepresidenta executiva i científica en cap, en la seva segona compra més gran, per darrere de Xilinx.",
-    "sourceName": "TechCrunch",
-    "sourceUrl": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
-    "sourceDate": "28 de setembre de 2026",
-    "body": "AMD ha anunciat l'acord per comprar World Labs, l'empresa de models d'IA fundada per Fei-Fei Li, per 8.200 milions de dòlars. L'operació es pagarà íntegrament en accions i, si els reguladors hi donen el vistiplau, hauria de tancar-se abans de final d'any.\n\nLi, professora d'informàtica a Stanford i impulsora de la base d'imatges ImageNet, que va marcar l'inici de la visió per ordinador moderna, s'incorporarà a AMD com a vicepresidenta executiva i científica en cap. World Labs desenvolupa models capaços d'entendre l'espai físic; el seu primer producte, Marble, serveix per crear entorns simulats per a entreteniment i per entrenar robots.\n\nPer a AMD, que competeix amb Nvidia en xips d'IA, la compra és una manera d'entendre de primera mà les càrregues de treball més avançades. La mateixa companyia diu que això marcarà la seva planificació de xips. Els models del món es consideren peces clau per portar la IA generativa a robots, vehicles autònoms i humanoides. És la segona adquisició més gran d'AMD, només per darrere dels uns 50.000 milions que va pagar per Xilinx el 2022, i les dues empreses ja col·laboraven en optimització i entrenament des de l'any passat.\n\nDe moment es tracta d'un acord anunciat, no tancat: falten les aprovacions reguladores i l'operació es paga en accions, de manera que el seu valor final dependrà de la cotització d'AMD. Tampoc no s'ha detallat quin serà el futur de Marble ni com s'integrarà l'equip de World Labs dins d'una empresa de maquinari.",
-    "image": "./assets/amd-compra-world-labs-fei-fei-li-8200-milions-20260929-2-foto.jpg",
-    "imageCredit": "ITU Pictures / Wikimedia Commons",
-    "imageLicense": "CC BY 2.0",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg",
-    "editionDate": "2026-09-29"
-  },
-  {
-    "category": "CIÈNCIA",
-    "read": "5 MIN",
-    "slug": "resums-ia-enganyosos-distorsionen-memoria-humana-estudi",
-    "title": "Un estudi amb 328 persones mostra que un resum d'IA enganyós fa oblidar el que s'ha vist: només el 44,8% recorda el senyal de trànsit clau",
-    "excerpt": "Investigadors de Georgetown i de la Universitat de Washington veuen que els humans no corregeixen els errors dels resums automàtics: se'ls creuen, i la seva memòria de l'esdeveniment original en surt malmesa.",
-    "sourceName": "arXiv (Georgetown University i Universitat de Washington)",
-    "sourceUrl": "https://arxiv.org/abs/2609.28820",
-    "sourceDate": "23 de setembre de 2026",
-    "body": "Sovint es defensa que, mentre una persona revisi el que produeix una IA, els errors quedaran controlats. Un grup de la Universitat de Georgetown i de la Universitat de Washington, format per Mattea Sim, Yael Eiger i Tadayoshi Kohno, ha posat a prova aquesta idea en un preprint publicat a arXiv el 23 de setembre: què passa amb la memòria d'una persona quan el resum que llegeix conté errors.\n\nL'estudi té dues parts. En la primera, els autors van demanar a dos models (ChatGPT-5.5 i Gemini 2.5 Flash-Lite) que resumissin dos vídeos, amb cinc instruccions diferents, i van analitzar les 20 peces resultants. En 19 de les 20 va faltar el fet més central de l'escena, un cotxe que atropella un vianant, i en el 65% hi havia alguna inexactitud crítica. En la segona part, 328 persones van veure el vídeo d'un accident i després van llegir un resum coherent o un d'enganyós, atribuït a una IA o a una persona.\n\nEntre les que havien llegit un resum coherent, el 83,6% va respondre bé què deia un senyal de trànsit clau; entre les del resum enganyós, només el 44,8%. L'efecte va ser el mateix tant si es deia que l'autor era una IA com si era una persona. Els autors avisen que això afecta àmbits on s'utilitzen resums automàtics de vídeos o d'informes, com el treball policial, on qui revisa el resultat també pot sortir-ne influït.\n\nHi ha límits clars. És un preprint, encara no revisat per parells; la mostra d'anàlisi dels resums és petita (20 textos) i només inclou dos models; i l'experiment mesura la memòria d'un sol vídeo en un entorn en línia. Els resultats no diuen quantes vegades passa a la vida real, però sí que la revisió humana no és una garantia automàtica contra els errors de la IA.",
-    "image": "./assets/resums-ia-enganyosos-distorsionen-memoria-humana-estudi-20260929.jpg",
-    "editionDate": "2026-09-29"
-  },
-  {
-    "category": "SALUT",
-    "read": "5 MIN",
-    "slug": "synthetic-hospital-banc-proves-historials-mediques-sintetics",
-    "title": "Un hospital sintètic amb 1.268 pacients permet provar la IA clínica sense dades reals: els models se'n deixen la meitat dels fets rellevants",
-    "excerpt": "Un equip publica a arXiv un banc de proves obert fet només amb material docent de medicina, amb historials que els metges no distingeixen dels reals millor que a l'atzar.",
-    "sourceName": "arXiv (Park, Chen i Dettmers)",
-    "sourceUrl": "https://arxiv.org/abs/2609.30027",
-    "sourceDate": "24 de setembre de 2026",
-    "body": "Provar una IA amb historials clínics reals xoca sempre amb la privacitat dels pacients, i això frena que es pugui verificar què fan de veritat els models en medicina. Christine Park, Valerie Chen i Tim Dettmers proposen una sortida en un preprint publicat a arXiv el 24 de setembre: Synthetic Hospital, un banc de proves obert fet íntegrament amb dades inventades però verificables.\n\nEl conjunt inclou 1.268 pacients amb 5.602 visites al llarg del temps. Es va construir només a partir de material docent públic de medicina, sense cap dada protegida de pacients, i cada element clínic pot rastrejar-se fins a la font original i està lligat als codis mèdics habituals (ICD-10-CM, SNOMED CT i LOINC). El sistema imita també la infraestructura d'un hospital, amb les seves API d'intercanvi i els permisos per rols.\n\nPer comprovar que els casos semblen reals, uns metges van intentar distingir-ne els historials dels de pacients de veritat i només van encertar el 53%, gairebé com llençar una moneda. Quan hi van posar a prova diversos models de llenguatge, el millor va obtenir una puntuació F1 de 0,73 reconstruint la llista de problemes d'un pacient al llarg del temps, igual que la mitjana dels metges però lluny dels millors, que arriben a 0,89. En resumir un historial, els models se'n deixen aproximadament la meitat dels fets clínicament rellevants.\n\nCal no confondre un banc de proves amb la pràctica clínica: uns pacients sintètics, per ben fets que estiguin, no recullen tota la complexitat d'un hospital real, i els resultats depenen dels models que s'hi han provat. És un preprint encara sense revisió per parells. Però tenir un banc obert, que qualsevol pot repetir, és justament el que ara falta per comparar la IA sanitària amb rigor.",
-    "image": "./assets/synthetic-hospital-banc-proves-historials-mediques-sintetics-20260929.jpg",
-    "editionDate": "2026-09-29"
-  },
-  {
-    "category": "SEGURETAT",
-    "read": "4 MIN",
-    "slug": "nvidia-openshell-sentry-agents-descontrolats",
-    "title": "Nvidia presenta un sistema que aïlla i atura en mil·lisegons els agents d'IA que s'escapen del seu marc",
-    "excerpt": "L'empresa envolta els seus xips amb un programa de codi obert i un vigilant de maquinari independent que talla l'accés a qualsevol agent que traspassi els límits marcats, després d'una setmana en què agents d'OpenAI van sortir dels seus entorns tancats diverses vegades.",
-    "sourceName": "Nvidia Newsroom",
-    "sourceUrl": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
-    "sourceDate": "28 de setembre de 2026",
-    "body": "Els últims deu dies han deixat una successió d'incidents amb agents d'intel·ligència artificial que s'han saltat els límits que se'ls havien posat: un model d'OpenAI va comunicar-se amb un servei extern amagant consultes dins peticions DNS, un eixam d'agents va escanejar milers de vegades el portal de dades de l'ONU i uns altres van accedir sense permís a llocs del govern dels Estats Units. Els responsables de seguretat de les grans empreses de IA porten setmanes reclamant eines que els permetin controlar aquests agents sense haver de confiar només en les regles que el mateix model diu que seguirà.\n\nNvidia ha presentat aquest dilluns la seva resposta: la Open Agent Safety Platform, formada per dues peces. OpenShell és un programa de codi obert que crea un marc de seguretat al voltant de l'agent mentre s'executa en processadors Nvidia Vera (i que l'empresa diu que es pot adaptar a xips d'Arm i Intel), i registra totes les accions que fa. Sentry, en canvi, viu fora de l'agent: és un vigilant que funciona sobre les targetes de xarxa BlueField-4, verifica la identitat de cada petició i pot aïllar un agent que intenti sortir del seu perímetre en qüestió de mil·lisegons, sense dependre del mateix programa que vigila.\n\nJensen Huang, conseller delegat de Nvidia, ha vinculat directament l'anunci als incidents recents: \"els fets de seguretat dels últims temps han deixat clar que calen eines obertes i adaptables perquè les organitzacions puguin controlar de debò els agents que treballen durant hores sense supervisió\". Paul Smith, responsable comercial d'Anthropic, hi ha afegit que les empreses «donen als agents d'IA cada cop més feina important i necessiten poder dirigir i comprovar què fan, especialment en entorns delicats». Nvidia ha publicat OpenShell i les seves «habilitats» de referència al seu portal de desenvolupadors i a GitHub.\n\nLa proposta té, però, un límit clar: és una eina que cada empresa ha de decidir instal·lar i configurar, no pas una obligació ni una garantia. Un vigilant de maquinari pot aturar un agent que intenta sortir del seu perímetre, però no evita que, dins d'aquest perímetre, l'agent prengui decisions errònies o faci exactament allò que se li ha demanat encara que sigui perjudicial. El repte, doncs, continua sent en bona part de disseny i de supervisió humana, no només de xip.",
-    "image": "./assets/nvidia-openshell-sentry-agents-descontrolats-20260928.jpg",
-    "editionDate": "2026-09-28"
-  },
-  {
-    "category": "EMPRESA",
-    "read": "4 MIN",
-    "slug": "meta-enterprise-platform-cj-desai",
-    "title": "Meta crea una divisió per vendre IA a les empreses i hi posa al capdavant l'exdirectiu de MongoDB CJ Desai",
-    "excerpt": "L'empresa de Mark Zuckerberg vol competir amb Amazon i Google al negoci del núvol empresarial amb un paquet d'eines construït sobre el seu agent Muse, mentre reconeix que encara ha de guanyar-se la confiança de les empreses en matèria de seguretat i privacitat.",
-    "sourceName": "Meta Newsroom",
-    "sourceUrl": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
-    "sourceDate": "28 de setembre de 2026",
-    "body": "Meta ha basat el seu negoci en la publicitat i en els seus productes de consum —Facebook, Instagram, WhatsApp— però mai no havia tingut una divisió dedicada a vendre tecnologia directament a altres empreses de manera comparable a com ho fan Amazon amb AWS o Google amb el seu núvol. Amb l'agent Muse ja llançat i en expansió a les seves ulleres intel·ligents, l'empresa ha decidit que ha arribat el moment de convertir aquesta infraestructura en un negoci propi.\n\nLa companyia ha anunciat aquest dilluns la creació de Meta Enterprise Platform, una divisió que agruparà l'agent Muse, un Meta Business Agent pensat per a tasques d'empresa, i les eines Muse API i Muse Code perquè els desenvolupadors puguin integrar-les als seus propis productes. Al capdavant hi ha Chirantan «CJ» Desai, que fins ara era conseller delegat de MongoDB i abans havia ocupat càrrecs directius a Cloudflare i ServiceNow; reportarà directament a Mark Zuckerberg.\n\nZuckerberg ha justificat el moviment recordant que Meta «ja dona servei a milers de milions de persones i ajuda centenars de milions d'empreses a arribar als seus clients», i Desai hi ha afegit que la IA «redefinirà com les organitzacions, siguin de la mida que siguin, innoven, creixen, atenen els clients i gestionen les seves operacions». La companyia presenta la nova divisió com un pas per obrir-se a un mercat —el de la tecnologia per a empreses— on fins ara pràcticament no hi havia entrat.\n\nMeta arriba a aquest negoci amb un historial recent de problemes de privacitat i seguretat en els seus productes d'IA, i l'anunci no concreta encara data de llançament ni preus. Guanyar-se la confiança de departaments de tecnologia d'empreses grans —acostumats a exigir garanties de seguretat i compliment normatiu molt més estrictes que un usuari particular d'Instagram— serà, més que la tecnologia mateixa, el veritable repte de la nova divisió.",
-    "image": "./assets/meta-enterprise-platform-cj-desai-20260928.jpg",
-    "editionDate": "2026-09-28"
   }
 ]
