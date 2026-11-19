@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-19T13:15:00.595Z",
+  "generat": "2026-11-19T22:44:29.483Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -128,8 +128,8 @@
       "programa": "",
       "resultats": 4,
       "estat": "ok",
-      "audios": 1,
-      "sobre_ia": 0
+      "audios": 2,
+      "sobre_ia": 1
     },
     {
       "font": "wordpress",
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 9,
+      "audios": 10,
       "sobre_ia": 0
     },
     {
@@ -177,5 +177,22 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "apunt-1910280",
+      "emissora": "À Punt Ràdio",
+      "programa": "Cadena de valor",
+      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
+      "data": "2026-11-19",
+      "durada": "",
+      "titol_original": "VRDay26: la realitat estesa com a motor de l’economia valenciana",
+      "descripcio_original": "Javier Campos, president d’AVRE, analitza l’impacte de la realitat estesa, la intel·ligència artificial i la robòtica en les empreses, l’ocupació, l’educació i el desenvolupament tecnològic de la Comunitat Valenciana.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/19-11-2026-vrday26-realitat-estesa-motor-l-economia-valenciana_135_1910280.html",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    }
+  ]
 }
