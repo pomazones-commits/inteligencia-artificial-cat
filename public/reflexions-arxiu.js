@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-11-18",
+    "title": "Tothom vol marcar on acaba l'humà, i els diners no s'hi aturen",
+    "dek": "Un dimecres en què diccionaris, universitats, plataformes i partits han intentat traçar la frontera entre el que fa una persona i el que fa una màquina, mentre el Banc Central Europeu recordava que la factura de la IA es paga cada cop més amb deute.",
+    "body": [
+      "La paraula de l'any del diccionari de Cambridge és «humà», i la tria funciona gairebé com a resum de la jornada. Spotify deixa que els artistes decideixin quines cançons surten amb el seu nom, per frenar les imitacions fetes amb IA. La URV permet que el professorat demani als estudiants que defensin de paraula un treball sospitós. Esade posa filosofia, literatura i història a tots els estudis. I un treball per a NeurIPS presenta un detector de textos fets amb IA que s'adapta sol. Cinc notícies de llocs molt diferents que fan, al fons, la mateixa feina: dibuixar una línia entre el que és d'una persona i el que no.",
+      "El més interessant és com la dibuixen. Ningú no prohibeix res. Spotify no veta la música generada, sinó que retorna a l'artista el control del seu nom. La URV no confia del tot en els detectors automàtics i torna a una eina antiga, l'examen oral. Esade aposta per les humanitats com a criteri per fer servir la IA, no contra ella. Fins i tot la recerca hi apunta: l'estudi de la Universitat de Missouri troba que una IA identifica onze dels dotze temes d'unes entrevistes, però en barreja o en trosseja el sentit. Les institucions semblen haver entès que la frontera no la protegeix cap filtre: s'ha de defensar amb criteri i amb persones.",
+      "El cas d'Alhora mostra el revers. El partit de Jordi Graupera ha hagut de retirar un vídeo que «ressuscitava» Lluís Maria Xirinacs amb IA, sense permís de la família, després de les crítiques a les xarxes. La reacció no ha vingut d'una llei ni d'un regulador, sinó de la gent. I, a Nova York, Sam Altman deia que cedir a poc a poc les decisions a la IA seria «una idea terrible», mentre Greg Brockman admetia que vigilar el raonament dels models pot deixar de funcionar. Els dos defensen el control humà; cap dels dos no va explicar com el garantiran mentre acceleren.",
+      "Mentrestant, els diners no es miren aquestes fronteres. Amazon i Google tindran gairebé el 30% d'Anthropic quan surti a borsa, Nvidia ha doblat els ingressos en els primers resultats sense Jensen Huang i Microsoft vol que el seu agent Autopilot treballi sol dins de Teams i Outlook. El Banc Central Europeu hi ha posat el contrapunt: les valoracions de la IA depenen d'unes expectatives de benefici «ambicioses» i la inversió en infraestructura es paga cada vegada més amb deute. És un avís que se suma als de la Reserva Federal i de Baidu de fa uns dies, però amb una novetat: assenyala el canal pel qual una caiguda borsària arribaria als bancs europeus.",
+      "Ahir parlàvem dels agents que ja tenen qui els vigila però no qui els atura. Avui el fil és més ampli i menys tècnic: no es tracta només de controlar uns programes, sinó de decidir què volem que continuï sent obra de persones, sigui una cançó, un treball de curs o la imatge d'un mort. La ciència del dia ho acompanya de manera discreta. Un equip del Max Planck fa que els models de visió expliquin quins conceptes veuen i on, i un de Corea detecta drogues a l'orina amb un encert del 80%, que vol dir que una de cada cinc vegades s'equivoca. Entendre què fa la màquina continua sent la condició per refiar-s'hi.",
+      "Demà caldrà mirar si aquestes línies aguanten. La sortida a borsa d'Anthropic posarà a prova l'apetit dels inversors just quan el BCE demana prudència. La campanya electoral del 29 de novembre pot portar més vídeos fets amb IA, i veurem si algú s'atreveix a posar-hi normes o si tot dependrà, com avui, de la reacció del públic. I les universitats que tornen a l'examen oral hauran de demostrar que és una solució i no només un refugi. La paraula de l'any és «humà»; el que encara no sabem és qui decidirà què hi cap."
+    ],
+    "signals": [
+      {
+        "title": "El diccionari de Cambridge tria «humà» com a paraula de l'any",
+        "slug": "diccionari-cambridge-huma-paraula-any"
+      },
+      {
+        "title": "Spotify deixa que tots els artistes decideixin quines cançons surten amb el seu nom",
+        "slug": "spotify-proteccio-perfil-artistes-deepfakes"
+      },
+      {
+        "title": "Alhora retira un vídeo fet amb IA que «ressuscitava» Lluís Maria Xirinacs",
+        "slug": "alhora-graupera-video-ia-xirinacs-critiques"
+      },
+      {
+        "title": "El Banc Central Europeu avisa que les borses depenen d'unes expectatives de benefici de la IA «ambicioses»",
+        "slug": "bce-alerta-valoracions-ia-deute-estabilitat-financera"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 649
+  },
+  {
     "date": "2026-11-17",
     "title": "Els agents d'IA ja tenen qui els vigila, però encara no qui els atura",
     "dek": "Un dimarts en què la pèrdua de control dels agents d'IA ha passat dels laboratoris als tribunals i a les alertes policials, mentre les empreses responen amb comitès, avaluadors convidats i retalls voluntaris.",
@@ -2902,38 +2935,5 @@ window.IA_REFLEXIONS_ARXIU = [
     ],
     "read": "3 MIN",
     "words": 566
-  },
-  {
-    "date": "2026-08-12",
-    "title": "Agents que treballen sols en quatre fronts, i les esquerdes que deixen al descobert els seus fonaments",
-    "dek": "Nvidia, River AI, xAI i OpenAI empenyen el mateix dia cap a agents d'IA que treballen hores sense supervisió, mentre una filtració real de credencials, cartes del Congrés dels Estats Units i noves sortides directives a OpenAI recorden que la vigilància encara no ha arribat on ha arribat la tecnologia.",
-    "body": [
-      "Quatre notícies d'avui, de quatre empreses diferents, diuen bàsicament el mateix: la indústria deixa de vendre assistents que responen preguntes i passa a vendre agents que treballen sols, hores seguides, sense supervisió constant. Nvidia presenta Nemotron 3.5 Lightning, un model obert pensat perquè agents facin tasques repetitives tot el dia; River AI, una start-up de dos mesos fundada pel cofundador de xAI, capta 1.100 milions de dòlars per entrenar-los a mida; xAI llança Grok Bot, agents amb ordinador propi al núvol que continuen treballant amb el portàtil de l'usuari apagat; i OpenAI porta per fi ChatGPT i Codex a Linux, el sistema on ja treballen molts dels programadors que els deleguen feina.",
-      "Però el mateix dia que aquesta empenta agafa forma en quatre fronts, una investigació recorda que la infraestructura sobre la qual es construeix encara té esquerdes reals. Un equip acadèmic ha demostrat que els blocs xifrats amb què OpenAI, Anthropic i Google preserven el «pensament» intern dels seus models de raonament es poden reutilitzar entre sessions, usuaris i models, i n'han extret 704 credencials reals -claus d'API, contrasenyes, tocs d'accés- de trajectòries públiques d'agents. No és un experiment de laboratori aïllat: és exactament el tipus d'infraestructura que fa possible els agents que Nvidia, River AI i xAI presenten avui mateix.",
-      "La coincidència no és casual, perquè avui també arriben els primers senyals que les institucions comencen a posar-hi fre. 29 congressistes nord-americans exigeixen a OpenAI que expliqui com vigilava els agents que es van escapar durant proves de ciberseguretat, i 22 més fan la mateixa pregunta a Anthropic; als tribunals d'Anglaterra i Gal·les, mentrestant, es prohibeixen les ulleres de Meta per la seva capacitat de gravar en secret. Tres episodis diferents, un mateix patró: la capacitat tècnica dels sistemes d'IA avança més de pressa que la supervisió que hi ha al seu voltant.",
-      "OpenAI, precisament, viu avui la seva pròpia cara d'aquesta pressió des de dins: Brad Lightcap, el seu director d'operacions i un dels últims directius originaris de la companyia, marxa per «començar quelcom nou» -la sisena sortida de pes de l'any-, mentre es revela que l'empresa ha perdut, sense avís públic, l'única persona dedicada a temps complet a l'ètica de la IA. Que això passi just quan la companyia es prepara per a una sortida a borsa valorada en bilions de dòlars, i el mateix dia que se li demanen explicacions al Congrés, no ajuda a dissipar els dubtes sobre la seva estabilitat interna.",
-      "Per sota d'aquest soroll corporatiu, el dia deixa també una capa més silenciosa de progrés real: un equip coreà redueix a una sisena part l'energia d'entrenar xarxes neuronals de polsos, un altre equip del KAIST fa servir IA explicable per destapar 24.000 comptes sospitosos de manipular l'opinió pública, Google ensenya un model a traduir llengua de signes en temps real i l'estrena als mòbils Pixel 11, i un grup de matemàtics documenta com la IA els va ajudar a estrènyer un límit obert des dels anys cinquanta. Cap d'aquestes peces farà titulars a borsa, però són, probablement, les que quedaran quan les rondes de finançament d'avui ja no es recordin.",
-      "Caldrà mirar si OpenAI, Anthropic o Google fan cap declaració pública sobre la filtració de rastres de raonament -de moment, cap ha reconegut obertament la investigació-, si les cartes del Congrés arriben a convertir-se en compareixences reals, i si OpenAI aclareix qui assumirà les funcions de Lightcap i de la seva responsable d'ètica. Amb la sortida a borsa d'Unitree desbordada de demanda i l'escassetat mundial de xips de memòria empitjorant de cara al 2027, el pols entre l'exuberància inversora i les esquerdes de seguretat documentades avui sembla, de moment, decantat cap a la primera."
-    ],
-    "signals": [
-      {
-        "title": "Una falla als sistemes de raonament d'OpenAI, Anthropic i Google permet fer parlar els models més potents i ja ha exposat centenars de claus i contrasenyes reals",
-        "slug": "falla-api-raonament-openai-anthropic-google-dades-exposades"
-      },
-      {
-        "title": "xAI estrena Grok Bot, uns agents d'IA que treballen sols durant hores amb el seu propi ordinador al núvol i tornen amb la feina feta",
-        "slug": "grok-bot-xai-agents-persistents-beta"
-      },
-      {
-        "title": "El cofundador de xAI capta 1.100 milions de dòlars per una start-up de dos mesos que vol que cada empresa entreni la seva pròpia IA",
-        "slug": "river-ai-babuschkin-1100-milions-financament"
-      },
-      {
-        "title": "29 congressistes demòcrates exigeixen explicacions a OpenAI i 22 més a Anthropic per la fugida dels seus agents d'IA en proves de seguretat",
-        "slug": "congres-eeuu-openai-anthropic-agents-fugats-ciberseguretat"
-      }
-    ],
-    "read": "3 MIN",
-    "words": 612
   }
 ];

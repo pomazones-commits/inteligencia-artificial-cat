@@ -1,0 +1,33 @@
+window.IA_REFLEXIO_DIARIA = {
+  "date": "2026-11-18",
+  "title": "Tothom vol marcar on acaba l'humà, i els diners no s'hi aturen",
+  "dek": "Un dimecres en què diccionaris, universitats, plataformes i partits han intentat traçar la frontera entre el que fa una persona i el que fa una màquina, mentre el Banc Central Europeu recordava que la factura de la IA es paga cada cop més amb deute.",
+  "body": [
+    "La paraula de l'any del diccionari de Cambridge és «humà», i la tria funciona gairebé com a resum de la jornada. Spotify deixa que els artistes decideixin quines cançons surten amb el seu nom, per frenar les imitacions fetes amb IA. La URV permet que el professorat demani als estudiants que defensin de paraula un treball sospitós. Esade posa filosofia, literatura i història a tots els estudis. I un treball per a NeurIPS presenta un detector de textos fets amb IA que s'adapta sol. Cinc notícies de llocs molt diferents que fan, al fons, la mateixa feina: dibuixar una línia entre el que és d'una persona i el que no.",
+    "El més interessant és com la dibuixen. Ningú no prohibeix res. Spotify no veta la música generada, sinó que retorna a l'artista el control del seu nom. La URV no confia del tot en els detectors automàtics i torna a una eina antiga, l'examen oral. Esade aposta per les humanitats com a criteri per fer servir la IA, no contra ella. Fins i tot la recerca hi apunta: l'estudi de la Universitat de Missouri troba que una IA identifica onze dels dotze temes d'unes entrevistes, però en barreja o en trosseja el sentit. Les institucions semblen haver entès que la frontera no la protegeix cap filtre: s'ha de defensar amb criteri i amb persones.",
+    "El cas d'Alhora mostra el revers. El partit de Jordi Graupera ha hagut de retirar un vídeo que «ressuscitava» Lluís Maria Xirinacs amb IA, sense permís de la família, després de les crítiques a les xarxes. La reacció no ha vingut d'una llei ni d'un regulador, sinó de la gent. I, a Nova York, Sam Altman deia que cedir a poc a poc les decisions a la IA seria «una idea terrible», mentre Greg Brockman admetia que vigilar el raonament dels models pot deixar de funcionar. Els dos defensen el control humà; cap dels dos no va explicar com el garantiran mentre acceleren.",
+    "Mentrestant, els diners no es miren aquestes fronteres. Amazon i Google tindran gairebé el 30% d'Anthropic quan surti a borsa, Nvidia ha doblat els ingressos en els primers resultats sense Jensen Huang i Microsoft vol que el seu agent Autopilot treballi sol dins de Teams i Outlook. El Banc Central Europeu hi ha posat el contrapunt: les valoracions de la IA depenen d'unes expectatives de benefici «ambicioses» i la inversió en infraestructura es paga cada vegada més amb deute. És un avís que se suma als de la Reserva Federal i de Baidu de fa uns dies, però amb una novetat: assenyala el canal pel qual una caiguda borsària arribaria als bancs europeus.",
+    "Ahir parlàvem dels agents que ja tenen qui els vigila però no qui els atura. Avui el fil és més ampli i menys tècnic: no es tracta només de controlar uns programes, sinó de decidir què volem que continuï sent obra de persones, sigui una cançó, un treball de curs o la imatge d'un mort. La ciència del dia ho acompanya de manera discreta. Un equip del Max Planck fa que els models de visió expliquin quins conceptes veuen i on, i un de Corea detecta drogues a l'orina amb un encert del 80%, que vol dir que una de cada cinc vegades s'equivoca. Entendre què fa la màquina continua sent la condició per refiar-s'hi.",
+    "Demà caldrà mirar si aquestes línies aguanten. La sortida a borsa d'Anthropic posarà a prova l'apetit dels inversors just quan el BCE demana prudència. La campanya electoral del 29 de novembre pot portar més vídeos fets amb IA, i veurem si algú s'atreveix a posar-hi normes o si tot dependrà, com avui, de la reacció del públic. I les universitats que tornen a l'examen oral hauran de demostrar que és una solució i no només un refugi. La paraula de l'any és «humà»; el que encara no sabem és qui decidirà què hi cap."
+  ],
+  "signals": [
+    {
+      "title": "El diccionari de Cambridge tria «humà» com a paraula de l'any",
+      "slug": "diccionari-cambridge-huma-paraula-any"
+    },
+    {
+      "title": "Spotify deixa que tots els artistes decideixin quines cançons surten amb el seu nom",
+      "slug": "spotify-proteccio-perfil-artistes-deepfakes"
+    },
+    {
+      "title": "Alhora retira un vídeo fet amb IA que «ressuscitava» Lluís Maria Xirinacs",
+      "slug": "alhora-graupera-video-ia-xirinacs-critiques"
+    },
+    {
+      "title": "El Banc Central Europeu avisa que les borses depenen d'unes expectatives de benefici de la IA «ambicioses»",
+      "slug": "bce-alerta-valoracions-ia-deute-estabilitat-financera"
+    }
+  ],
+  "read": "3 MIN",
+  "words": 649
+};

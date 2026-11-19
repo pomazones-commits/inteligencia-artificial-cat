@@ -1,33 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-11-18",
-  "title": "Tothom vol marcar on acaba l'humà, i els diners no s'hi aturen",
-  "dek": "Un dimecres en què diccionaris, universitats, plataformes i partits han intentat traçar la frontera entre el que fa una persona i el que fa una màquina, mentre el Banc Central Europeu recordava que la factura de la IA es paga cada cop més amb deute.",
+  "date": "2026-11-19",
+  "title": "Molta potència en poques mans, i la factura dels errors, a les de tothom",
+  "dek": "Un dijous en què Anthropic ha estrenat a borsa la caixa més gran que ha tingut mai una empresa mentre bancs, governs i investigadors discutien qui paga quan una IA s'equivoca o l'ataquen.",
   "body": [
-    "La paraula de l'any del diccionari de Cambridge és «humà», i la tria funciona gairebé com a resum de la jornada. Spotify deixa que els artistes decideixin quines cançons surten amb el seu nom, per frenar les imitacions fetes amb IA. La URV permet que el professorat demani als estudiants que defensin de paraula un treball sospitós. Esade posa filosofia, literatura i història a tots els estudis. I un treball per a NeurIPS presenta un detector de textos fets amb IA que s'adapta sol. Cinc notícies de llocs molt diferents que fan, al fons, la mateixa feina: dibuixar una línia entre el que és d'una persona i el que no.",
-    "El més interessant és com la dibuixen. Ningú no prohibeix res. Spotify no veta la música generada, sinó que retorna a l'artista el control del seu nom. La URV no confia del tot en els detectors automàtics i torna a una eina antiga, l'examen oral. Esade aposta per les humanitats com a criteri per fer servir la IA, no contra ella. Fins i tot la recerca hi apunta: l'estudi de la Universitat de Missouri troba que una IA identifica onze dels dotze temes d'unes entrevistes, però en barreja o en trosseja el sentit. Les institucions semblen haver entès que la frontera no la protegeix cap filtre: s'ha de defensar amb criteri i amb persones.",
-    "El cas d'Alhora mostra el revers. El partit de Jordi Graupera ha hagut de retirar un vídeo que «ressuscitava» Lluís Maria Xirinacs amb IA, sense permís de la família, després de les crítiques a les xarxes. La reacció no ha vingut d'una llei ni d'un regulador, sinó de la gent. I, a Nova York, Sam Altman deia que cedir a poc a poc les decisions a la IA seria «una idea terrible», mentre Greg Brockman admetia que vigilar el raonament dels models pot deixar de funcionar. Els dos defensen el control humà; cap dels dos no va explicar com el garantiran mentre acceleren.",
-    "Mentrestant, els diners no es miren aquestes fronteres. Amazon i Google tindran gairebé el 30% d'Anthropic quan surti a borsa, Nvidia ha doblat els ingressos en els primers resultats sense Jensen Huang i Microsoft vol que el seu agent Autopilot treballi sol dins de Teams i Outlook. El Banc Central Europeu hi ha posat el contrapunt: les valoracions de la IA depenen d'unes expectatives de benefici «ambicioses» i la inversió en infraestructura es paga cada vegada més amb deute. És un avís que se suma als de la Reserva Federal i de Baidu de fa uns dies, però amb una novetat: assenyala el canal pel qual una caiguda borsària arribaria als bancs europeus.",
-    "Ahir parlàvem dels agents que ja tenen qui els vigila però no qui els atura. Avui el fil és més ampli i menys tècnic: no es tracta només de controlar uns programes, sinó de decidir què volem que continuï sent obra de persones, sigui una cançó, un treball de curs o la imatge d'un mort. La ciència del dia ho acompanya de manera discreta. Un equip del Max Planck fa que els models de visió expliquin quins conceptes veuen i on, i un de Corea detecta drogues a l'orina amb un encert del 80%, que vol dir que una de cada cinc vegades s'equivoca. Entendre què fa la màquina continua sent la condició per refiar-s'hi.",
-    "Demà caldrà mirar si aquestes línies aguanten. La sortida a borsa d'Anthropic posarà a prova l'apetit dels inversors just quan el BCE demana prudència. La campanya electoral del 29 de novembre pot portar més vídeos fets amb IA, i veurem si algú s'atreveix a posar-hi normes o si tot dependrà, com avui, de la reacció del públic. I les universitats que tornen a l'examen oral hauran de demostrar que és una solució i no només un refugi. La paraula de l'any és «humà»; el que encara no sabem és qui decidirà què hi cap."
+    "El fet del dia ha estat l'estrena d'Anthropic al Nasdaq. Les accions, que dimecres es van fixar a 83 dòlars, s'han pagat a 111,50 en els primers minuts, i l'empresa pot acabar amb uns 220.000 milions de dòlars de reserves. Abans del toc de campana, Dario Amodei ha promès que no cedirà a pressions i que anirà tan a poc a poc com calgui. A Ginebra, unes hores després, Volker Türk, el cap de drets humans de l'ONU, descrivia el mateix paisatge des de l'altre costat: cinc empreses tenen més del 70% de la capacitat de càlcul d'IA del món, i això, segons ell, és governar la tecnologia «de manera gairebé medieval».",
+    "La concentració no és només de diners. A Shenzhen, Trump, Xi i Putin han tancat la primera cimera a tres sense cap compromís sobre la IA, i Trump hi ha rebutjat qualsevol regulació «globalista». Google, per la seva banda, ha omplert el dia de productes: Gemini 4 Neon, el model intermedi que diu que abarateix la feina un 32%; les converses temporals del mode IA del cercador, i l'obertura de Genie 4 als abonats. Res d'això és insòlit per si sol, però junts dibuixen un mapa en què unes poques empreses decideixen el ritme i els estats no es posen d'acord ni tan sols per parlar-ne.",
+    "El fil més nou, però, és el de la responsabilitat. Citi i altres bancs dels Estats Units avisen que, si un client dona accés al compte a un agent d'IA i l'ataquen, els danys són seus. Un estudi a «PNAS» proposa una resposta jurídica: no donar personalitat a la màquina, sinó seguir el rastre de les decisions humanes que hi ha al darrere. I la Comissió Europea ha reconegut per primera vegada que un atac informàtic fet amb eines d'IA la va obligar a desconnectar aplicacions a l'octubre, sense saber encara qui l'ha fet.",
+    "Hi ha una ironia que convé no perdre de vista. La mateixa IA que ajuda a atacar és la que troba els forats: uns investigadors han localitzat amb Codex un error crític a Java en una hora i per menys de 200 dòlars. Washington descarta que la ratxa de caigudes informàtiques del país sigui un ciberatac, i tant un senador com Satya Nadella apunten a la pressa per tapar els forats que descobreixen aquestes eines. La seguretat ja no falla només per manca de pegats, sinó també per l'excés de pegats fets a corre-cuita.",
+    "La ciència del dia ha posat números a costos que no surten als balanços. Un treball del MIT calcula que l'electricitat dels centres de dades dels Estats Units va causar unes 650 morts prematures el 2023 per la contaminació de l'aire, sovint en estats on no n'hi ha cap. Aquí, Urbanisme ha aprovat el planejament que fa possible la gigafactoria d'IA de Móra la Nova i Tivissa. Dues notícies d'escala molt diferent, però que conviden a fer la mateixa pregunta: qui paga els efectes d'una infraestructura que es decideix lluny d'on es nota.",
+    "La tendència que s'insinua, i que de moment és només una hipòtesi, és que la riquesa i el control de la IA es concentren més de pressa que les regles que han de dir qui respon dels seus errors. Demà caldrà mirar com tanca la primera setmana d'Anthropic a borsa i si la promesa d'anar a poc a poc resisteix el primer trimestre, si Brussel·les explica què va fer exactament la IA en l'atac a la Comissió i si altres bancs se sumen a deixar el risc dels agents en mans dels clients."
   ],
   "signals": [
     {
-      "title": "El diccionari de Cambridge tria «humà» com a paraula de l'any",
-      "slug": "diccionari-cambridge-huma-paraula-any"
+      "title": "ACTUALITZACIÓ: Les accions d'Anthropic s'estrenen al Nasdaq un 33% per sobre del preu de sortida, i Dario Amodei promet anar tan a poc a poc com calgui",
+      "slug": "anthropic-debut-nasdaq-amodei-seguretat"
     },
     {
-      "title": "Spotify deixa que tots els artistes decideixin quines cançons surten amb el seu nom",
-      "slug": "spotify-proteccio-perfil-artistes-deepfakes"
+      "title": "El cap de drets humans de l'ONU diu que la IA es governa «de manera gairebé medieval», en mans d'uns pocs homes",
+      "slug": "onu-turk-ia-governada-manera-medieval"
     },
     {
-      "title": "Alhora retira un vídeo fet amb IA que «ressuscitava» Lluís Maria Xirinacs",
-      "slug": "alhora-graupera-video-ia-xirinacs-critiques"
+      "title": "Citi i altres bancs dels Estats Units avisen que el client paga els danys si dona accés al compte a un agent d'IA, encara que l'agent sigui atacat",
+      "slug": "bancs-eua-clients-responsables-agents-ia"
     },
     {
-      "title": "El Banc Central Europeu avisa que les borses depenen d'unes expectatives de benefici de la IA «ambicioses»",
-      "slug": "bce-alerta-valoracions-ia-deute-estabilitat-financera"
+      "title": "La Comissió Europea confirma que un atac informàtic fet amb eines d'IA la va obligar a desconnectar diverses aplicacions a l'octubre",
+      "slug": "comissio-europea-ciberatac-eines-ia"
     }
   ],
   "read": "3 MIN",
-  "words": 649
+  "words": 592
 };
