@@ -1,5 +1,29 @@
 window.IA_RADAR = [
   {
+    "place": "Tarragona",
+    "category": "IA I SOCIETAT",
+    "date": "19.11.2026",
+    "title": "ACTUALITZACIÓ: Urbanisme aprova el planejament que fa possible la gigafactoria d'IA de Móra la Nova i Tivissa, a dues setmanes de la candidatura definitiva",
+    "summary": "La Comissió Territorial d'Urbanisme de les Terres de l'Ebre agrupa en una sola gran parcel·la els terrenys del polígon del Molló, un dia després que el Govern ordenés a l'Incasòl vendre'ls al consorci promotor.",
+    "detail": "Catalunya opta a acollir una de les gigafactories d'intel·ligència artificial que finançarà la Unió Europea, i la candidatura s'ubica al sector d'activitat econòmica del Molló, entre Móra la Nova i Tivissa, a la Ribera d'Ebre. Dimarts, el Govern va encarregar a l'Institut Català del Sòl (Incasòl) que vengui directament més de 132.000 metres quadrats de terreny al consorci Gigafactoría Española de Inteligencia Artificial, que encapçala el projecte.\n\nDimecres, la Comissió Territorial d'Urbanisme de les Terres de l'Ebre va aprovar definitivament la modificació del pla parcial del Molló. El canvi agrupa en una sola parcel·la gran les diverses parcel·les industrials previstes, perquè s'hi pugui construir una infraestructura digital de gran capacitat. En queda fora la parcel·la del Consell Comarcal de la Ribera d'Ebre, amb una nau i un laboratori 5G, que es considera compatible amb la futura instal·lació. La consellera de Territori, Sílvia Paneque, va defensar que serà «la inversió més gran d'intel·ligència artificial a tot l'Estat» i que beneficiarà les Terres de l'Ebre i el Camp de Tarragona. Segons la Generalitat, s'hi han reforçat els criteris de sostenibilitat ambiental, integració paisatgística i eficiència energètica, amb renovables, sistemes de drenatge sostenible i un ús eficient de l'aigua.\n\nAmb aquests dos passos, la Generalitat deixa resolts el sòl i l'urbanisme abans de la data clau: els promotors han de presentar la candidatura definitiva abans del 3 de desembre. Tenir el terreny disponible i el planejament aprovat és un dels requisits que pesen en la tria europea.\n\nL'aprovació no garanteix la gigafactoria. És la Comissió Europea qui decidirà on s'instal·len, i ho anunciarà a principis de l'any vinent, després de comparar-la amb altres candidatures. Les mesures de sostenibilitat són, de moment, criteris i compromisos: el consum real d'aigua i d'energia dependrà del projecte constructiu, que encara no s'ha presentat.",
+    "source": "Ara",
+    "url": "https://www.ara.cat/economia/tecnologia/llum-verda-planejament-urbanistic-gigafactoria-mora-nova_1_5914707.html",
+    "image": "./assets/mora-la-nova-planejament-gigafactoria-ia-aprovat-20261119.jpg",
+    "slug": "mora-la-nova-planejament-gigafactoria-ia-aprovat"
+  },
+  {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "19.11.2026",
+    "title": "El Clúster Vitivinícola Català estrena VitiGPT, un assistent d'IA que respon dubtes tècnics de vinya i celler amb els seus documents",
+    "summary": "L'eina, desenvolupada per Terra Alta Consultoria TIC, contesta preguntes sobre plagues, reg o poda a partir del fons documental d'INNOVI i del Departament d'Agricultura, i diu quan no té prou informació.",
+    "detail": "El Clúster Vitivinícola Català (INNOVI) acumula des del 2009 informes, fitxes de projectes, guies, presentacions i vídeos sobre la vinya i el vi, però aquest coneixement estava escampat en molts formats i costava de trobar, segons la responsable de comunicació del clúster, Mariona Gonzalo.\n\nAra el clúster ha posat en marxa VitiGPT, un assistent d'IA al qual viticultors, tècnics i cellers poden fer preguntes tècniques en llenguatge corrent. Les respostes surten del fons documental d'INNOVI i de continguts públics del Departament d'Agricultura de la Generalitat, i l'eina remet als documents d'on treu la informació. Cobreix plagues i malalties, tractaments, reg en temps de sequera, poda, adobatge, fenologia, maquinària, qualitat del raïm i normativa. El desenvolupament tècnic l'ha fet Terra Alta Consultoria TIC, empresa sòcia del clúster.\n\nÉs un cas d'ús concret de la IA en un sector tradicional del país: no és un xat genèric, sinó un cercador que treballa amb documents verificats d'una entitat de referència i que, si les fonts no diuen prou, ho reconeix en comptes d'omplir el buit.\n\nL'article no explica quin model hi ha al darrere, quines condicions d'accés té ni quant ha costat, i encara no hi ha dades d'ús ni cap avaluació de la qualitat de les respostes.",
+    "source": "El Nacional (ON ECONOMIA)",
+    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/cluster-vitivinicola-catala-activa-assistent-intelligencia-artificial_1727843_102.html",
+    "image": "./assets/vitigpt-cluster-vitivinicola-catala-assistent-ia-20261119.jpg",
+    "slug": "vitigpt-cluster-vitivinicola-catala-assistent-ia"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "19.11.2026",
@@ -70,29 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.diariandorra.ad/nacional/261117/l-ari-i-barcelona-supercomputing-center-impulsen-programa-per-acostar-supercomputacio-i-ia-les-empreses_208979.html",
     "image": "./assets/ari-bsc-programa-supercomputacio-ia-empreses-andorra-20261117.jpg",
     "slug": "ari-bsc-programa-supercomputacio-ia-empreses-andorra"
-  },
-  {
-    "place": "Illes Balears",
-    "category": "IA I SOCIETAT",
-    "date": "17.11.2026",
-    "title": "Un equip de la UIB i de Son Espases proposa una manera nova de mesurar si els sanitaris confien massa, o massa poc, en la IA",
-    "summary": "La mètrica de la Universitat de les Illes Balears creua l'encert de les prediccions del sistema amb la decisió de l'usuari de fiar-se o no de les explicacions que rep, i s'ha provat amb radiografies de tòrax.",
-    "detail": "Els sistemes d'IA que ajuden a diagnosticar sovint expliquen per què arriben a una conclusió, perquè el metge decideixi si se'n fia. Però mesurar aquesta confiança és complicat: un professional pot fiar-se d'una predicció errònia o rebutjar-ne una de correcta, i les mesures habituals no sempre ho distingeixen.\n\nUn equip de la Universitat de les Illes Balears (UIB), amb investigadors de la Unitat de Gràfics i Visió per Ordinador (UGiVIA), del Laboratori d'Aplicacions d'IA (Laia@UIB) i de l'Idisba, juntament amb professionals de l'Hospital Universitari Son Espases i un investigador de la Universitat de Normandia, proposa una mètrica nova. Creua l'encert de les prediccions del sistema amb la decisió de l'usuari de confiar o no en les explicacions, de manera que detecta tant l'excés de confiança com la falta de confiança. L'han validat amb diversos casos, entre ells el diagnòstic assistit de pneumònia associada a la covid a partir de radiografies de tòrax.\n\nSegons els autors, el mètode dona una visió més completa i objectiva de la relació entre les persones i la IA que les mesures fetes servir fins ara. També conclouen que la confiança dels sanitaris en aquests sistemes és fràgil i depèn de la qualitat de les explicacions i de la precisió dels models.\n\nLa informació publicada no detalla quants professionals hi van participar ni on s'ha publicat el treball, i la proposta és una eina de mesura, no un sistema clínic en funcionament. La seva utilitat dependrà que altres equips l'adoptin per comparar sistemes diferents.",
-    "source": "Última Hora (Europa Press)",
-    "url": "https://www.ultimahora.es/noticias/local/2026/11/17/2751789/estudio-uib-propone-nueva-metodologia-para-medir-confianza-profesionales-sanitarios-ia.html",
-    "image": "./assets/uib-metode-mesurar-confianca-sanitaris-ia-20261117.jpg",
-    "slug": "uib-metode-mesurar-confianca-sanitaris-ia"
-  },
-  {
-    "place": "Tarragona",
-    "category": "IA I SOCIETAT",
-    "date": "17.11.2026",
-    "title": "El Govern encarrega a l'Incasòl vendre els terrenys de Móra la Nova a la societat que optarà a la gigafactoria europea d'IA",
-    "summary": "Són més de 132.000 metres quadrats del polígon El Molló, a la Ribera d'Ebre, i la candidatura s'ha de presentar a Brussel·les abans del 3 de desembre.",
-    "detail": "Móra la Nova, a la Ribera d'Ebre, és la ubicació que l'Estat proposa, amb el suport de Portugal, per a una de les gigafactories d'intel·ligència artificial que la Unió Europea vol finançar per entrenar models propis. El projecte el porta una societat publicoprivada amb seu al mateix municipi, la Gigafactoría Española de Inteligencia Artificial, i a l'octubre ja havia assegurat els 54 megawatts que necessita per a la primera fase, segons vam explicar llavors.\n\nEl Govern ha acordat ara que l'Institut Català del Sòl (Incasòl) vengui directament a aquesta societat més de 132.000 metres quadrats del sector El Molló, entre Móra la Nova i Tivissa, on s'ha d'aixecar l'edifici; d'entrada, només n'ocuparà una part. Segons informa el *Diari de Tarragona*, la Comissió Territorial d'Urbanisme de les Terres de l'Ebre té previst aprovar aquest dimarts una modificació puntual del pla parcial del polígon, que els dos ajuntaments ja van aprovar provisionalment el 8 i el 9 d'octubre. El Govern parla d'«un pas decisiu» per fer de les Terres de l'Ebre un dels grans pols tecnològics del sud d'Europa, i insisteix que la gigafactoria no és un centre de dades convencional.\n\nAmb el terreny i la qualificació urbanística resolts, la societat podrà presentar la candidatura a la convocatòria de l'empresa comuna europea de supercomputació, EuroHPC, que tanca el 3 de desembre. Per a una comarca petita i envellida, és un dels projectes industrials més grans que hi ha hagut mai sobre la taula, i el Govern l'inclou en la seva estratègia d'IA fins al 2030.\n\nRes no està decidit encara: Brussel·les ha de triar entre candidatures de diversos països, i la gigafactoria només es farà si Móra la Nova en surt escollida. La informació publicada no detalla el preu de venda dels terrenys, i les xifres d'inversió i de llocs de treball que s'han donat fins ara són les dels promotors.",
-    "source": "Diari de Tarragona",
-    "url": "https://www.diaridetarragona.com/economia/275864/govern-da-paso-definitivo-implantar-gigafactoria-ia-mora-nova.html",
-    "image": "./assets/mora-la-nova-gigafactoria-ia-terrenys-incasol-20261117.jpg",
-    "slug": "mora-la-nova-gigafactoria-ia-terrenys-incasol"
   }
 ];

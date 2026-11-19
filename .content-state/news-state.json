@@ -1,9 +1,78 @@
 {
   "editionDate": "2026-11-19",
-  "updatedAt": "2026-11-19T10:49:41.210Z",
-  "batches": 4,
+  "updatedAt": "2026-11-19T13:15:31.851Z",
+  "batches": 5,
   "target": 20,
   "items": [
+    {
+      "category": "GEOPOLÍTICA",
+      "read": "5 MIN",
+      "slug": "shenzhen-trump-xi-putin-cimera-sense-acord-ia",
+      "title": "ACTUALITZACIÓ: Trump, Xi i Putin tanquen a Shenzhen la primera cimera a tres sense cap acord sobre la IA, i Trump diu que els Estats Units «acaben d'inventar» la superintel·ligència",
+      "excerpt": "La declaració que han difós la Xina i Rússia parla de reduir el risc de guerra nuclear, però no s'hi ha informat de cap compromís sobre la IA. Trump, a l'APEC, rebutja qualsevol «regulació globalista» de la tecnologia.",
+      "sourceName": "NBC News",
+      "sourceUrl": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-china-apec-congress-2026-live-updates-rcna609888",
+      "sourceDate": "19 de novembre de 2026",
+      "body": "Donald Trump, Xi Jinping i Vladímir Putin s'han reunit aquest dijous a Shenzhen, al marge de la cimera de l'APEC, en la primera trobada a tres dels líders dels Estats Units, la Xina i Rússia. Diumenge passat, informacions de la premsa de Hong Kong apuntaven que la reunió podia servir per parlar de deixar la intel·ligència artificial fora de les decisions sobre armes nuclears. Les armes atòmiques i les guerres d'Ucraïna i l'Iran encapçalaven l'ordre del dia, i la IA era un dels temes que s'esperava que sortissin.\n\nSegons el seguiment en directe d'NBC News, la trobada s'ha acabat sense cap acord sobre la IA del qual s'hagi informat. L'únic text és una «Declaració sobre la pau» que la Xina i Rússia han difós amb redaccions idèntiques i que inclou, entre quatre punts, reduir el risc de guerra nuclear i mantenir l'estabilitat estratègica; quan NBC va actualitzar la cobertura, Washington encara no n'havia publicat cap versió. Xi va qualificar les armes nuclears d'«espasa de Dàmocles» sobre la humanitat i va demanar que es prohibeixin del tot. Hores abans, en el discurs a l'APEC, Trump va dir que els Estats Units «acaben d'inventar» la superintel·ligència, que és «gairebé del tot bona, però té alguns elements dolents», i que el seu govern s'oposa a «qualsevol forma de regulació globalista» que la vulgui controlar o frenar.\n\nEl contrast és significatiu. Dimecres, a la cimera empresarial de l'APEC, Xi va demanar a les economies de l'Àsia i el Pacífic que coordinin més les polítiques d'IA i d'economia digital, mentre que Trump defensa que cada país vagi pel seu compte i que el lideratge nord-americà no tingui lligams internacionals. Trump també va dir a Fox News que amb Xi no havien parlat de Jensen Huang, l'expresident executiu de Nvidia, i analistes citats per la premsa nord-americana recorden que la disputa pels xips i les terres rares continua sobre la taula.\n\nCal llegir aquests resultats amb prudència. La informació prové de la cobertura en directe del mateix dia, la Casa Blanca encara no havia publicat el seu text de la declaració i no se sap si la IA es va tractar a porta tancada. Que Trump parli d'haver «inventat» la superintel·ligència és una afirmació política, no un fet comprovat: cap laboratori nord-americà no ha presentat un sistema que respongui a aquesta definició.",
+      "image": "./assets/shenzhen-trump-xi-putin-cimera-sense-acord-ia-20261119-foto.jpg",
+      "imageCredit": "Rick Obst / Wikimedia Commons",
+      "imageLicense": "CC BY 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Haven%27t_We_Had_Enough_of_Donald_Trump_Yet.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "pnas-hilbert-responsabilitat-ia-intencio-humana",
+      "title": "Qui paga quan una IA fa mal? Un estudi a «PNAS» proposa seguir el rastre de les decisions humanes, sense donar personalitat jurídica a la màquina",
+      "excerpt": "Martin Hilbert, de la Universitat de Califòrnia a Davis, defensa que les lleis actuals ja permeten trobar responsables si es reconstrueix qui va decidir què en l'entrenament, l'ús i el control d'un model.",
+      "sourceName": "Phys.org (Universitat de Califòrnia a Davis), a partir de l'article a «PNAS»",
+      "sourceUrl": "https://phys.org/news/2026-11-blame-rogue-ai-legal-framework.html",
+      "sourceDate": "18 de novembre de 2026",
+      "body": "A mesura que els agents d'IA actuen sols, la pregunta de qui respon dels danys que causen es fa més urgent. Les dues respostes habituals tenen forats: la responsabilitat per producte defectuós apunta a qui ha fet el model, però oblida les dades i els milers d'usuaris que intervenen; i tractar l'agent com a responsable dels seus actes obliga a discutir si una màquina pot tenir personalitat jurídica.\n\nMartin Hilbert, professor de comunicació de la Universitat de Califòrnia a Davis, proposa una tercera via en un article publicat a «Proceedings of the National Academy of Sciences» (PNAS) amb el títol «Where intention goes, responsibility flows» (DOI 10.1073/pnas.2610670123). La idea és reconstruir la cadena de decisions humanes deliberades al llarg de l'entrenament, l'ús i el control d'un model, i fer responsables les persones concretes que sabien, o podien preveure raonablement, que se'n podia derivar un dany. Segons l'autor, no calen lleis noves. Per als buits que queden, n'adapta precedents: un fons com el Superfund ambiental per repartir costos quan hi intervenen moltes empreses, invertir la càrrega de la prova perquè sigui l'empresa qui demostri que va actuar amb diligència, obligar a vigilar el model després de posar-lo en marxa, perquè canvia amb el temps, i donar força obligatòria als estàndards de seguretat que avui són voluntaris.\n\nLa proposta arriba en plena discussió als tribunals i als parlaments sobre danys reals atribuïts a sistemes d'IA, i ofereix als jutges un criteri que encaixa en el dret que ja existeix. També descarta explícitament donar personalitat jurídica a la IA, una idea que ha tornat a sortir amb els agents autònoms.\n\nÉs un treball teòric i jurídic, no un estudi amb dades: proposa un marc, no en demostra l'eficàcia, i cap tribunal no l'ha aplicat. El criteri de previsibilitat («podia preveure raonablement») és precisament el que més es discuteix en els plets, i l'autor identifica quatre buits sense resoldre'ls del tot. Aquesta peça parteix de la nota de la universitat; el text complet de l'article no s'ha pogut consultar.",
+      "image": "./assets/pnas-hilbert-responsabilitat-ia-intencio-humana-20261119.jpg"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "sensor-vitamina-c-aprenentatge-automatic-skku",
+      "title": "Un algorisme troba la recepta d'un sensor de vitamina C provant només 25 de les 625 combinacions possibles, segons un estudi de la Universitat Sungkyunkwan",
+      "excerpt": "L'aprenentatge automàtic va proposar les condicions de fabricació d'un sensor que detecta quantitats ínfimes de vitamina C a la sang i l'orina, i que va seguir els canvis després de prendre'n un suplement.",
+      "sourceName": "Phys.org (Universitat Sungkyunkwan), a partir de l'article al «Chemical Engineering Journal»",
+      "sourceUrl": "https://phys.org/news/2026-11-ai-optimize-sensor-ultrasensitive-vitamin.html",
+      "sourceDate": "19 de novembre de 2026",
+      "body": "Els sensors químics fets amb polímers d'empremta molecular, uns materials que es «motllegen» al voltant d'una molècula perquè després la reconeguin, depenen de molts paràmetres de fabricació: concentracions, nombre de cicles de polimerització, acidesa de la solució. Trobar la combinació bona provant-les totes al laboratori pot costar mesos.\n\nUn equip de la Universitat Sungkyunkwan (Corea del Sud), dirigit pel professor Jinsung Park, ha publicat al «Chemical Engineering Journal» (DOI 10.1016/j.cej.2026.184042) com ho va resoldre amb aprenentatge automàtic per a un sensor electroquímic de vitamina C. Van estudiar quatre paràmetres amb cinc nivells cadascun, 625 combinacions en total. Només en van provar 25, un 4%, i amb aquests resultats van entrenar un model que va recomanar combinacions noves; després van fabricar els sensors amb aquestes condicions per comprovar-ho. El sensor resultant té un límit de detecció calculat de 778 picomolars, va detectar vitamina C en sèrum humà i en orina artificial i va seguir els canvis a l'orina després que algú en prengués, amb resultats que es corresponen amb els d'una prova de laboratori convencional (ELISA).\n\nL'interès va més enllà de la vitamina C. És un exemple de com l'aprenentatge automàtic pot reduir dràsticament els experiments necessaris per optimitzar un material quan hi ha molts paràmetres que interactuen, un problema habitual en química analítica i en el desenvolupament de proves diagnòstiques barates.\n\nLa nota de premsa no diu quin tipus de model es va fer servir ni dona les mètriques de validació, el nombre de mostres o de persones analitzades, ni com es comporta el sensor davant d'altres substàncies que podrien interferir o amb el pas del temps. El límit de detecció és calculat, no mesurat directament, i es tracta d'un prototip de laboratori, no d'una prova a punt per fer servir a la clínica.",
+      "image": "./assets/sensor-vitamina-c-aprenentatge-automatic-skku-20261119.jpg"
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "slug": "caigudes-estats-units-pressa-pedats-ia",
+      "title": "ACTUALITZACIÓ: Washington descarta cap ciberatac darrere la ratxa de caigudes informàtiques, i un senador i Nadella apunten a la pressa per tapar els forats que troba la IA",
+      "excerpt": "Rubio diu que no hi ha cap prova que les avaries estiguin relacionades, i el senador Mark Warner atribueix part del problema a la pressió per aplicar alhora tots els pedaços que descobreixen les eines d'IA.",
+      "sourceName": "AFP (via Tech Xplore) i TechCrunch",
+      "sourceUrl": "https://techxplore.com/news/2026-11-infrastructure-ai-driven-outages.html",
+      "sourceDate": "19 de novembre de 2026",
+      "body": "Els Estats Units encadenen des de fa dies una ratxa d'avaries: vols aturats a tot el país durant hores, caixers que no funcionaven, el correu d'Outlook de Microsoft i les fotos d'iCloud d'Apple inaccessibles per a part dels usuaris. A les xarxes s'havia escampat la sospita d'un ciberatac o d'una IA descontrolada.\n\nSegons l'AFP, el secretari d'Estat, Marco Rubio, va dir dimecres que no hi ha cap prova que els problemes estiguin relacionats ni cap indici d'atac, i el cap dels serveis d'intel·ligència, Jay Clayton, ho va corroborar. Gairebé totes les caigudes s'han atribuït a tasques de manteniment o a errors de programari. El senador demòcrata Mark Warner, de la comissió d'intel·ligència del Senat, va afegir un matís: les eines d'IA troben ara els punts febles dels sistemes més de pressa que mai, i això crea «una pressió enorme» per aplicar els pedaços «immediatament, sovint tots alhora», cosa que sotmet a «una tensió tremenda» sistemes que no estaven fets per a aquest ritme. Warner va remarcar, però, que les proves apunten a «esforços legítims per protegir els sistemes, no a activitat maliciosa». El mateix dia, a la cimera DealBook, el conseller delegat de Microsoft, Satya Nadella, va admetre que la caiguda d'Outlook la va provocar un error latent i va advertir, segons TechCrunch, que a les infraestructures crítiques hi ha molts equips connectats a internet que no es poden actualitzar, com els sistemes de climatització o el microprogramari del transport, i que haver d'aplicar els pedaços a l'instant «crearà inestabilitat».\n\nÉs la primera explicació oficial coherent d'una ratxa que havia disparat les alarmes. També assenyala un efecte secundari poc comentat de la IA en ciberseguretat: si els forats es descobreixen molt més de pressa, el coll d'ampolla passa a ser la capacitat d'arreglar-los sense trencar res. Experts citats per l'AFP hi afegeixen la poca inversió en infraestructures antigues i la concentració del núvol en poques empreses, que fa que un sol error afecti milions de persones.\n\nNo hi ha cap informe tècnic públic que vinculi una caiguda concreta amb un pedaç motivat per una eina d'IA: és una hipòtesi de Warner i del professor Kalle Lyytinen, que alerta que cada cop menys persones entenen el codi que mantenen. Les autoritats no han detallat la causa de cada avaria, i la falta de proves d'un atac no exclou que s'investigui més a fons.",
+      "image": "./assets/caigudes-estats-units-pressa-pedats-ia-20261119-foto.jpg",
+      "imageCredit": "Brian Smale and Microsoft / Wikimedia Commons",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:MS-Exec-Nadella-Satya-2017-08-31-8-2.jpg"
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "4 MIN",
+      "slug": "mora-la-nova-planejament-gigafactoria-ia-aprovat",
+      "title": "ACTUALITZACIÓ: Urbanisme aprova el planejament que fa possible la gigafactoria d'IA de Móra la Nova i Tivissa, a dues setmanes de la candidatura definitiva",
+      "excerpt": "La Comissió Territorial d'Urbanisme de les Terres de l'Ebre agrupa en una sola gran parcel·la els terrenys del polígon del Molló, un dia després que el Govern ordenés a l'Incasòl vendre'ls al consorci promotor.",
+      "sourceName": "Ara",
+      "sourceUrl": "https://www.ara.cat/economia/tecnologia/llum-verda-planejament-urbanistic-gigafactoria-mora-nova_1_5914707.html",
+      "sourceDate": "18 de novembre de 2026",
+      "body": "Catalunya opta a acollir una de les gigafactories d'intel·ligència artificial que finançarà la Unió Europea, i la candidatura s'ubica al sector d'activitat econòmica del Molló, entre Móra la Nova i Tivissa, a la Ribera d'Ebre. Dimarts, el Govern va encarregar a l'Institut Català del Sòl (Incasòl) que vengui directament més de 132.000 metres quadrats de terreny al consorci Gigafactoría Española de Inteligencia Artificial, que encapçala el projecte.\n\nDimecres, la Comissió Territorial d'Urbanisme de les Terres de l'Ebre va aprovar definitivament la modificació del pla parcial del Molló. El canvi agrupa en una sola parcel·la gran les diverses parcel·les industrials previstes, perquè s'hi pugui construir una infraestructura digital de gran capacitat. En queda fora la parcel·la del Consell Comarcal de la Ribera d'Ebre, amb una nau i un laboratori 5G, que es considera compatible amb la futura instal·lació. La consellera de Territori, Sílvia Paneque, va defensar que serà «la inversió més gran d'intel·ligència artificial a tot l'Estat» i que beneficiarà les Terres de l'Ebre i el Camp de Tarragona. Segons la Generalitat, s'hi han reforçat els criteris de sostenibilitat ambiental, integració paisatgística i eficiència energètica, amb renovables, sistemes de drenatge sostenible i un ús eficient de l'aigua.\n\nAmb aquests dos passos, la Generalitat deixa resolts el sòl i l'urbanisme abans de la data clau: els promotors han de presentar la candidatura definitiva abans del 3 de desembre. Tenir el terreny disponible i el planejament aprovat és un dels requisits que pesen en la tria europea.\n\nL'aprovació no garanteix la gigafactoria. És la Comissió Europea qui decidirà on s'instal·len, i ho anunciarà a principis de l'any vinent, després de comparar-la amb altres candidatures. Les mesures de sostenibilitat són, de moment, criteris i compromisos: el consum real d'aigua i d'energia dependrà del projecte constructiu, que encara no s'ha presentat.",
+      "image": "./assets/mora-la-nova-planejament-gigafactoria-ia-aprovat-20261119.jpg",
+      "etiquetes": [
+        "centres-de-dades"
+      ]
+    },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
