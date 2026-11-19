@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-19T05:16:22.590Z",
+ "actualitzat": "2026-11-19T09:13:41.125Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "939bc31e7a69",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'Ibex-35 arrenca la jornada amb un 0,3% a l'alça amb la mirada a Anthropic",
+   "url": "https://www.elnacional.cat/oneconomia/ca/economia/ibex-35-arrenca-jornada-03-alca-mirada-anthropic_1727903_102.html",
+   "publicat": "2026-11-19T09:01:01.000Z"
+  },
+  {
+   "id": "d1d69096c7f7",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las Bolsas europeas avanzan con la expectación en máximos ante el estreno de Anthropic",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-19/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-11-19T08:33:54.000Z"
+  },
+  {
+   "id": "b202ff898eb7",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Ibex 35 busca romper su racha bajista ante el debut de Anthropic en Wall Street",
+   "url": "https://www.informacion.es/economia/2026/11/19/ibex-35-busca-romper-racha-136603944.html",
+   "publicat": "2026-11-19T07:51:10.000Z"
+  },
+  {
+   "id": "e14a465894da",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El Clúster Vitivinícola Català activa un assistent d'intel·ligència artificial",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/cluster-vitivinicola-catala-activa-assistent-intelligencia-artificial_1727843_102.html",
+   "publicat": "2026-11-19T07:50:03.000Z"
+  },
+  {
+   "id": "a488f1a68a6a",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic sortirà a borsa a 83 dòlars l'acció en un debut històric",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/anthropic-sortira-borsa-83-dolars-accio-en-debut-historic_1727831_102.html",
+   "publicat": "2026-11-19T06:52:24.000Z"
+  },
+  {
+   "id": "3fea39a938d7",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Jensen Huang estaría montando una “sala de guerra” para volver a Nvidia",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261119/11686159/jensen-huang-estaria-montando-sala-guerra-volver-nvidia.html",
+   "publicat": "2026-11-19T06:30:00.000Z"
+  },
+  {
+   "id": "d170a4548bb6",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Así está el mercado laboral de tecnología: una de cada seis ofertas pide IA, solo uno de cada 60 programadores la pone en su currículum",
+   "url": "https://elpais.com/tecnologia/2026-11-19/asi-esta-el-mercado-laboral-de-tecnologia-una-de-cada-seis-ofertas-pide-ia-solo-uno-de-cada-60-programadores-la-pone-en-su-curriculum.html",
+   "publicat": "2026-11-19T06:00:00.000Z"
+  },
   {
    "id": "2b26ecc6f016",
    "mitja": "El Periódico",
@@ -208,7 +285,7 @@
    "icona": "/assets/premsa/3catinfo.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Anthropic protagonitza una de les sortides a borsa més grans de la història enmig del debat de la IA",
+   "titol": "Anthropic protagonitza la sortida a borsa més gran de la història enmig del debat de la IA",
    "url": "https://www.3cat.cat/3catinfo/anthropic-desbanca-spacex-i-fa-la-sortida-a-borsa-mes-gran-de-la-historia/noticia/3440689",
    "publicat": "2026-11-18T21:59:22.000Z"
   },
@@ -331,7 +408,9 @@
    "ambit": "catala",
    "titol": "La Diada de les TIC a Catalunya 2026 posa en el centre del debat els límits de la IA i la seva regulació",
    "url": "https://www.elnacional.cat/ca/societat/diada-tic-catalunya-2026-centre-debat-limits-ia-regulacio_1727558_102.html",
-   "publicat": "2026-11-18T16:37:00.000Z"
+   "publicat": "2026-11-18T16:37:00.000Z",
+   "noticia": "diada-tic-catalunya-2026-responsabilitat-digital-ia",
+   "noticiaTitol": "La Diada de les TIC a Catalunya demana una IA amb propòsit, i el Govern hi defensa que Europa controli els seus actius digitals"
   },
   {
    "id": "2634401a8f23",
@@ -2689,83 +2768,6 @@
    "titol": "Nvidia després de Huang",
    "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2690575-nvidia-despres-de-huang.html",
    "publicat": "2026-11-15T01:00:00.000Z"
-  },
-  {
-   "id": "542cc76b54ae",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Washington i Pequín noten el cop de la crisi de Nvidia",
-   "url": "https://www.elperiodico.cat/internacional/20261115/washington-pequin-noten-cop-crisi-136451437",
-   "publicat": "2026-11-14T22:37:36.000Z"
-  },
-  {
-   "id": "d077dfd0f8c0",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Del debate a la práctica: así forma el CEU a los profesionales que convivirán con la inteligencia artificial",
-   "url": "https://www.informacion.es/economia/2026/11/14/debate-practica-forma-ceu-profesionales-bc-136384924.html",
-   "publicat": "2026-11-14T21:30:46.000Z"
-  },
-  {
-   "id": "4a6132004a67",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Las ‘midterms’ y el escándalo Nvidia desvelan la lucha sin cuartel de EEUU y China por la disputa del trono de la IA",
-   "url": "https://www.eldiario.es/economia/midterms-escandalo-nvidia-desvelan-lucha-cuartel-eeuu-china-disputa-trono-ia_129_13661296.html",
-   "publicat": "2026-11-14T20:41:50.000Z"
-  },
-  {
-   "id": "830ce420b8f1",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cultura | El MACA acoge el lunes el Laboratorio 'Los museos y la igualdad: retos de la inteligencia artificial",
-   "url": "https://alicanteplaza.es/alicanteplaza/cultura/el-maca-acoge-el-lunes-el-laboratorio-los-museos-y-la-igualdad-retos-de-la-inteligencia-artificial",
-   "publicat": "2026-11-14T17:51:02.000Z"
-  },
-  {
-   "id": "db8a8823dc88",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic: la madre de todas las salidas a Bolsa (que puede poner en riesgo a la humanidad con su IA) donde hay más en juego que mucho dinero",
-   "url": "https://elpais.com/economia/negocios/2026-11-14/anthropic-la-madre-de-todas-las-salidas-a-bolsa-que-puede-poner-en-riesgo-a-la-humanidad-con-sus-modelos-de-ia-donde-hay-mas-en-juego-que-muchisimo-dinero.html",
-   "publicat": "2026-11-14T16:45:00.000Z"
-  },
-  {
-   "id": "fd4280595906",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Microsoft restablece por completo Outlook, Teams y Copilot tras una caída mundial que afectó a más de 70 países",
-   "url": "https://www.eldiario.es/tecnologia/microsoft-restablece-completo-outlook-teams-copilot-caida-mundial-afecto-70-paises_1_13663982.html",
-   "publicat": "2026-11-14T12:00:22.000Z"
-  },
-  {
-   "id": "ac906b5eb3ce",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La salida de Huang abre un periodo de incertidumbre en Nvidia, la IA y las relaciones EEUU-China",
-   "url": "https://www.diariodemallorca.es/internacional/2026/11/14/jensen-huang-dimision-nvidia-consecuencias-estados-unidos-china-136433119.html",
-   "publicat": "2026-11-14T09:00:36.000Z"
   }
  ]
 }
