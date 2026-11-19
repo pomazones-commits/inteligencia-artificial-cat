@@ -1,8 +1,44 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-19T17:14:04.373Z",
+ "actualitzat": "2026-11-19T22:45:52.711Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "sof3vW4mHTs",
+   "titol": "Why we built Anthropic",
+   "canal": "Anthropic",
+   "canalId": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-11-19T21:03:23.000Z",
+   "descripcio": "Anthropic’s co-founders on why they started the company, what they’ve learned, and the work still ahead. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah.",
+   "miniatura": "/assets/videos/sof3vW4mHTs.jpg"
+  },
+  {
+   "id": "N5YwZjN4_oI",
+   "titol": "Europe’s AI Future With Judith Dada | Pub Conversations",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-11-19T20:00:07.000Z",
+   "descripcio": "What does Europe need to get right about AI? Langdock Co-CEO Judith Dada joins NVIDIA’s Chris Alexiuk to talk about Europe’s AI future, from building computing infrastructure to bringing AI’s benefits to everyday life. They discuss her move from venture capital to Langdock, the scenario she co-wrote",
+   "miniatura": "/assets/videos/N5YwZjN4_oI.jpg"
+  },
+  {
+   "id": "FORdPIWOH5k",
+   "titol": "Gemini and the path to AGI with Koray Kavukcuoglu",
+   "canal": "Google DeepMind",
+   "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-19T19:58:06.000Z",
+   "descripcio": "Seven years after their last conversation at Google DeepMind’s London office, Professor Hannah Fry reunites with Koray Kavukcuoglu, SVP at Google DeepMind and Chief AI Architect at Google. Back then, DeepMind was focused on specialized breakthroughs; today, Koray is leading the charge toward general",
+   "miniatura": "/assets/videos/FORdPIWOH5k.jpg"
+  },
   {
    "id": "Di8ntBu1ouY",
    "titol": "Creativity is a team sport | Walter Isaacson & Kent Walker",
@@ -960,18 +996,6 @@
    "publicat": "2026-10-30T15:22:47.000Z",
    "descripcio": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time zone",
    "miniatura": "/assets/videos/Oi9DHk57KeQ.jpg"
-  },
-  {
-   "id": "JXEMFLQwi4A",
-   "titol": "Power Demand, Increasing Grid Reliability and Resiliency",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "altres",
-   "idioma": "en",
-   "publicat": "2026-10-29T21:36:29.000Z",
-   "descripcio": "Hear leaders from Siemens Energy, Bayernwerk, and TenneT discuss how AI and accelerated computing are helping modernize grid operations, integrate distributed energy resources, and keep power reliable as demand rises. #GTCBerlin #EnergyforAI #AIforEnergy",
-   "miniatura": "/assets/videos/JXEMFLQwi4A.jpg"
   },
   {
    "id": "sFfPkUJd_Jk",
