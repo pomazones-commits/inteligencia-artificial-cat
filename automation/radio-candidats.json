@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-19T11:59:34.162Z",
+  "generat": "2026-11-19T13:15:00.595Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -177,23 +177,5 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": [
-    {
-      "id": "3cat-1298109",
-      "emissora": "Catalunya Ràdio",
-      "programa": "El matí de Catalunya Ràdio",
-      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
-      "data": "2026-11-19",
-      "durada": "36 min",
-      "titol_original": "Puigdemont, a El Mundo; cimera amb Trump, Xi i Putin; i sortida a borsa d'Anthropic",
-      "descripcio_original": "Carles Puigdemont irromp a la campanya amb una entrevista a El Mundo, en la qual treu pit d'haver-se aprofitat de l'ambició sense mesura de Pedro Sánchez per derrotar Espanya. Això, hores abans del cara a cara entre el candidat del PSOE i el del PP. També estem pendents de la històrica cimera que reuneix, avui, a Shenzhen, els líders de la Xina, Rússia i els Estats Units. Sobre la taula, les guerres d'Ucraïna i l'Iran, els aranzels i la intel·ligència artificial. Fa poca estona, Xi Jinping i Donald Trump han fet una reunió prèvia abans de la trilateral amb Vladímir Putin. Tot plegat, el dia de la sortida a borsa del gegant de la IA Anthropic.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.3cat.cat/3cat/puigdemont-a-el-mundo-cimera-amb-trump-xi-i-putin-i-sortida-a-borsa-danthropic/audio/1298109/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1298109"
-      }
-    }
-  ]
+  "candidats": []
 }
