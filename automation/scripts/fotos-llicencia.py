@@ -738,6 +738,11 @@ def refes(args):
             n += 1
         item = {'slug': slug, 'title': publicada.get('title', ''), 'excerpt': publicada.get('excerpt', ''),
                 'image': publicada.get('image', ''), 'imageFetch': peticio}
+        # 19.11.2026: amb un URL d'una font directa, la cua pot portar el crèdit,
+        # la llicència i la pàgina d'origen (p. ex. la notícia del Kremlin).
+        for camp in CAMPS_CREDIT:
+            if str(entrada.get(camp, '')).strip():
+                item[camp] = str(entrada[camp]).strip()
         # `min_amplada` (opcional, ≥ 600): quan no hi ha cap foto lliure prou gran i
         # val més una foto una mica petita amb la cara sencera que la que hi ha.
         global MIN_AMPLADA
