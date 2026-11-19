@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-09-27",
+  "actualitzat": "2026-11-19",
   "nota": "Fonts de fotografies REALS que les notícies poden fer servir legalment. automation/scripts/fotos-llicencia.py no descarrega de cap altre servidor. Les fonts «directe» admeten un URL de fitxer al camp imageFetch, i el lot hi ha de posar el crèdit. Les altres només es fan servir a través de la seva API (File:…, wikidata:Q…, openverse:<id>), que és d'on es treuen l'autor i la llicència. Per afegir una font, cal haver llegit les condicions d'ús a la web oficial i anotar-hi la data i l'enllaç. MAI la foto del mitjà que dona la notícia (diaris, agències, blogs): té drets i no es pot reproduir.",
   "fonts": [
     {
@@ -85,6 +85,26 @@
       "condicions": "Galeria multimèdia (retrats de directius, oficines i centres de dades): «Restricciones de uso: las imágenes solo se pueden utilizar para ilustrar artículos sobre Meta.» Sala de premsa (about.fb.com/news): cada nota posa les imatges a disposició de la premsa («Download all images», «Press Resources»), sense condicions escrites a part; s'hi aplica la mateixa restricció. L'script rebutja la foto si el títol i el resum no parlen de Meta o d'un producte seu.",
       "avisLegal": "https://www.meta.com/media-gallery/ (text a la fitxa de cada directiu)",
       "verificat": "2026-09-27"
+    },
+    {
+      "id": "kremlin",
+      "nom": "Kremlin (kremlin.ru, web oficial de la Presidència de Rússia)",
+      "directe": true,
+      "hosts": [
+        "static.kremlin.ru",
+        "kremlin.ru",
+        "en.kremlin.ru"
+      ],
+      "llicencia": "CC BY 4.0",
+      "credit": "Kremlin.ru",
+      "nomesPerA": [
+        "Putin",
+        "Rússia",
+        "Kremlin"
+      ],
+      "condicions": "Peu de totes les pàgines de kremlin.ru: «Все материалы сайта доступны по лицензии: Creative Commons Attribution 4.0 International». Cal citar «Kremlin.ru». Només en notícies on surti Putin o el Kremlin (és la font de les fotos dels seus actes). Comprovat a la pàgina de la reunió a tres de Shenzhen (kremlin.ru/events/president/news/81303).",
+      "avisLegal": "http://kremlin.ru/about/copyrights",
+      "verificat": "2026-11-19"
     },
     {
       "id": "commons",
