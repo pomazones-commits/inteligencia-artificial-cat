@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-18T22:42:28.712Z",
+ "actualitzat": "2026-11-19T05:16:21.911Z",
  "canals": 19,
  "videos": [
   {
@@ -61,7 +61,10 @@
    "idioma": "en",
    "publicat": "2026-11-18T18:12:21.000Z",
    "descripcio": "Step inside your imagination with Project Genie, now powered by Google DeepMind’s most realistic and interactive world model yet, Genie 4. Project Genie brings our most advanced world and multimodal models together with Gemini so you can turn ideas into explorable, shareable worlds right in your bro",
-   "miniatura": "/assets/videos/EDp4IoAUsXY.jpg"
+   "miniatura": "/assets/videos/EDp4IoAUsXY.jpg",
+   "noticia": "google-genie-4-project-genie-abonats",
+   "noticiaTitol": "ACTUALITZACIÓ: Google obre als abonats de pagament Genie 4, el model que crea mons per explorar en temps real a partir d'una frase",
+   "resum": "Vídeo de presentació oficial de Google DeepMind del nou Project Genie, que ara funciona amb Genie 4. Segons la descripció del canal, mostra com es converteixen idees en mons per explorar i compartir directament des del navegador."
   },
   {
    "id": "y9AALMeAeGI",
@@ -933,18 +936,6 @@
    "publicat": "2026-10-29T16:23:43.000Z",
    "descripcio": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their dat",
    "miniatura": "/assets/videos/L6pzlo1QvoM.jpg"
-  },
-  {
-   "id": "ujmyzWSj8IU",
-   "titol": "API credits, now in ChatGPT Pro and Business plans",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "empreses",
-   "idioma": "en",
-   "publicat": "2026-10-28T23:45:26.000Z",
-   "descripcio": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. Credit amounts depend on the plan. Pro plans get $100, $200 or $500 per month by tier. Business plans get $20 per paid Standard seat or $100 per paid Premium seat, po",
-   "miniatura": "/assets/videos/ujmyzWSj8IU.jpg"
   },
   {
    "id": "sFfPkUJd_Jk",
