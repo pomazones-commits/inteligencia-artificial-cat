@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Terrassa",
+    "category": "IA I SOCIETAT",
+    "date": "19.11.2026",
+    "title": "La terrassenca Flexxible llança uns agents d'IA que resolen sols les incidències informàtiques més senzilles en uns set minuts de mitjana",
+    "summary": "L'eina, FlexxSolve, s'encarrega de problemes del correu, de les impressores o de l'espai del disc, i passa a un tècnic els casos que no pot resoldre o que necessiten autorització.",
+    "detail": "Flexxible és una empresa tecnològica de Terrassa especialitzada a gestionar i automatitzar els ordinadors i les eines de feina de les empreses. Fins ara la seva plataforma, FlexxClient, automatitzava tasques a partir de regles fixades d'entrada. Ara hi ha afegit FlexxSolve, un sistema d'agents d'intel·ligència artificial, segons ha publicat aquest dijous el Diari de Terrassa.\n\nEls agents reben les peticions per un xat o per la plataforma de gestió del servei informàtic, analitzen la incidència, en busquen les causes probables i apliquen la solució sense que calgui haver preparat abans un procediment per a cada problema: el correu que no funciona, una impressora o un disc ple. Abans d'actuar consulten les normes de l'empresa, i si el cas no és de la seva competència o necessita autorització el passen a un tècnic amb el diagnòstic i les comprovacions fetes. Segons l'empresa, els primers clients resolen les incidències en set minuts de mitjana.\n\nÉs un exemple del que el sector anomena informàtica autònoma, i de com les empreses d'aquí també porten els agents d'IA al dia a dia de les oficines. Cada empresa client decideix quines accions pot fer la IA, quines necessiten una validació prèvia i quant s'hi pot gastar, i totes les intervencions queden registrades perquè els responsables les puguin revisar. «FlexxSolve pot resoldre incidències habituals de forma autònoma», diu el conseller delegat, Sebastian Prat. L'eina ja la fan servir clients i socis tecnològics d'Europa i l'Amèrica del Nord, i es cobra per resultat, no per aparell.\n\nLes xifres són de la mateixa empresa: calcula que els agents poden resoldre sols fins a la meitat de les incidències de programari, configuració i suport, i fins al 60% en entorns financers amb una infraestructura menys diversa, però no se n'ha publicat cap avaluació independent. Els agents s'ocupen sobretot de les incidències de primer nivell, les més senzilles.",
+    "source": "Diari de Terrassa",
+    "url": "https://www.diarideterrassa.com/economia/agents-dia-que-resolen-incidencies-informatiques-en-set-minuts.html",
+    "image": "./assets/flexxible-terrassa-agents-ia-incidencies-informatiques-20261119.jpg",
+    "slug": "flexxible-terrassa-agents-ia-incidencies-informatiques"
+  },
+  {
     "place": "Tarragona",
     "category": "IA I SOCIETAT",
     "date": "19.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://diaridigital.urv.cat/professorat-podra-verificar-autoria-treballs-examens-us-fraudulent-ia/",
     "image": "./assets/urv-guia-ia-docencia-verificar-autoria-20261118.jpg",
     "slug": "urv-guia-ia-docencia-verificar-autoria"
-  },
-  {
-    "place": "Andorra",
-    "category": "IA I SOCIETAT",
-    "date": "17.11.2026",
-    "title": "Andorra Recerca + Innovació i el BSC obren un programa de tres anys perquè les empreses andorranes facin servir la supercomputació i la IA",
-    "summary": "El programa costarà 400.000 euros, el paga el Govern d'Andorra i és gratuït per a les empreses. Començarà el 9 de desembre amb una jornada de presentació, i fins a deu empreses rebran assessorament a mida.",
-    "detail": "Andorra vol fer servir la seva mida i el seu entorn de muntanya com a banc de proves de tecnologia. En aquest marc, Andorra Recerca + Innovació (ARI) i el Barcelona Supercomputing Center (BSC) van signar el 31 d'octubre del 2025 una declaració d'intencions per col·laborar, que ara es concreta en un acord perquè les empreses del país puguin fer servir la supercomputació, la intel·ligència artificial i l'anàlisi de dades, segons informa el Diari d'Andorra.\n\nEl programa tindrà dues línies. La primera és de formació i seguiment de la innovació, amb sessions en línia i presencials impartides per personal de l'ARI i del BSC i obertes a empreses de tots els sectors. La segona és un pla de transferència de tecnologia que començarà identificant quines de les més de 600 tecnologies del BSC encaixen millor amb Andorra. Després, fins a deu empreses rebran un assessorament personalitzat per incorporar-les als seus projectes. Els àmbits prioritaris són la salut, l'esport, la natura, el transport i la construcció sostenible.\n\nEl programa durarà tres anys i té un pressupost de 400.000 euros, subvencionat pel Govern, de manera que no costarà res a les empreses participants. El primer pas serà una jornada el 9 de desembre per presentar la supercomputació i les seves aplicacions empresarials, amb una sessió perquè el BSC i les empreses locals es coneguin. Les accions principals es faran durant el 2027.\n\nÉs una iniciativa de difusió i acompanyament, no un projecte amb resultats encara. El pressupost és modest per a tres anys i l'assessorament a fons es limita a deu empreses, en un teixit empresarial on predominen les petites empreses de comerç i turisme. Caldrà veure quantes s'hi apunten i si alguna arriba a fer servir de debò la capacitat de càlcul del BSC en un projecte propi.",
-    "source": "Diari d'Andorra",
-    "url": "https://www.diariandorra.ad/nacional/261117/l-ari-i-barcelona-supercomputing-center-impulsen-programa-per-acostar-supercomputacio-i-ia-les-empreses_208979.html",
-    "image": "./assets/ari-bsc-programa-supercomputacio-ia-empreses-andorra-20261117.jpg",
-    "slug": "ari-bsc-programa-supercomputacio-ia-empreses-andorra"
   }
 ];
