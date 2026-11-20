@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-11-19",
+    "title": "Molta potència en poques mans, i la factura dels errors, a les de tothom",
+    "dek": "Un dijous en què Anthropic ha estrenat a borsa la caixa més gran que ha tingut mai una empresa mentre bancs, governs i investigadors discutien qui paga quan una IA s'equivoca o l'ataquen.",
+    "body": [
+      "El fet del dia ha estat l'estrena d'Anthropic al Nasdaq. Les accions, que dimecres es van fixar a 83 dòlars, s'han pagat a 111,50 en els primers minuts, i l'empresa pot acabar amb uns 220.000 milions de dòlars de reserves. Abans del toc de campana, Dario Amodei ha promès que no cedirà a pressions i que anirà tan a poc a poc com calgui. A Ginebra, unes hores després, Volker Türk, el cap de drets humans de l'ONU, descrivia el mateix paisatge des de l'altre costat: cinc empreses tenen més del 70% de la capacitat de càlcul d'IA del món, i això, segons ell, és governar la tecnologia «de manera gairebé medieval».",
+      "La concentració no és només de diners. A Shenzhen, Trump, Xi i Putin han tancat la primera cimera a tres sense cap compromís sobre la IA, i Trump hi ha rebutjat qualsevol regulació «globalista». Google, per la seva banda, ha omplert el dia de productes: Gemini 4 Neon, el model intermedi que diu que abarateix la feina un 32%; les converses temporals del mode IA del cercador, i l'obertura de Genie 4 als abonats. Res d'això és insòlit per si sol, però junts dibuixen un mapa en què unes poques empreses decideixen el ritme i els estats no es posen d'acord ni tan sols per parlar-ne.",
+      "El fil més nou, però, és el de la responsabilitat. Citi i altres bancs dels Estats Units avisen que, si un client dona accés al compte a un agent d'IA i l'ataquen, els danys són seus. Un estudi a «PNAS» proposa una resposta jurídica: no donar personalitat a la màquina, sinó seguir el rastre de les decisions humanes que hi ha al darrere. I la Comissió Europea ha reconegut per primera vegada que un atac informàtic fet amb eines d'IA la va obligar a desconnectar aplicacions a l'octubre, sense saber encara qui l'ha fet.",
+      "Hi ha una ironia que convé no perdre de vista. La mateixa IA que ajuda a atacar és la que troba els forats: uns investigadors han localitzat amb Codex un error crític a Java en una hora i per menys de 200 dòlars. Washington descarta que la ratxa de caigudes informàtiques del país sigui un ciberatac, i tant un senador com Satya Nadella apunten a la pressa per tapar els forats que descobreixen aquestes eines. La seguretat ja no falla només per manca de pegats, sinó també per l'excés de pegats fets a corre-cuita.",
+      "La ciència del dia ha posat números a costos que no surten als balanços. Un treball del MIT calcula que l'electricitat dels centres de dades dels Estats Units va causar unes 650 morts prematures el 2023 per la contaminació de l'aire, sovint en estats on no n'hi ha cap. Aquí, Urbanisme ha aprovat el planejament que fa possible la gigafactoria d'IA de Móra la Nova i Tivissa. Dues notícies d'escala molt diferent, però que conviden a fer la mateixa pregunta: qui paga els efectes d'una infraestructura que es decideix lluny d'on es nota.",
+      "La tendència que s'insinua, i que de moment és només una hipòtesi, és que la riquesa i el control de la IA es concentren més de pressa que les regles que han de dir qui respon dels seus errors. Demà caldrà mirar com tanca la primera setmana d'Anthropic a borsa i si la promesa d'anar a poc a poc resisteix el primer trimestre, si Brussel·les explica què va fer exactament la IA en l'atac a la Comissió i si altres bancs se sumen a deixar el risc dels agents en mans dels clients."
+    ],
+    "signals": [
+      {
+        "title": "ACTUALITZACIÓ: Les accions d'Anthropic s'estrenen al Nasdaq un 33% per sobre del preu de sortida, i Dario Amodei promet anar tan a poc a poc com calgui",
+        "slug": "anthropic-debut-nasdaq-amodei-seguretat"
+      },
+      {
+        "title": "El cap de drets humans de l'ONU diu que la IA es governa «de manera gairebé medieval», en mans d'uns pocs homes",
+        "slug": "onu-turk-ia-governada-manera-medieval"
+      },
+      {
+        "title": "Citi i altres bancs dels Estats Units avisen que el client paga els danys si dona accés al compte a un agent d'IA, encara que l'agent sigui atacat",
+        "slug": "bancs-eua-clients-responsables-agents-ia"
+      },
+      {
+        "title": "La Comissió Europea confirma que un atac informàtic fet amb eines d'IA la va obligar a desconnectar diverses aplicacions a l'octubre",
+        "slug": "comissio-europea-ciberatac-eines-ia"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 592
+  },
+  {
     "date": "2026-11-18",
     "title": "Tothom vol marcar on acaba l'humà, i els diners no s'hi aturen",
     "dek": "Un dimecres en què diccionaris, universitats, plataformes i partits han intentat traçar la frontera entre el que fa una persona i el que fa una màquina, mentre el Banc Central Europeu recordava que la factura de la IA es paga cada cop més amb deute.",
@@ -2902,38 +2935,5 @@ window.IA_REFLEXIONS_ARXIU = [
     ],
     "read": "3 MIN",
     "words": 564
-  },
-  {
-    "date": "2026-08-13",
-    "title": "Un dia amb tres preus de milers de milions posats a la IA, i cinc peces de recerca que pregunten si el fons hi és",
-    "dek": "Cognition, Legora i la possible compra de Decart per part d'Anthropic marquen avui xifres de vertigen, mentre el dia amb més ciència de la setmana -de Nature a PNAS- pregunta, en paral·lel, si la qualitat dels resultats creix al mateix ritme que les valoracions.",
-    "body": [
-      "Avui el mercat ha posat preu a la IA tres vegades: Cognition negocia una valoració de 40.000 milions de dòlars per al seu agent de programació Devin, Anthropic estudia comprar la israeliana Decart per uns 6.000 milions -la seva adquisició més gran mai feta- i la legaltech sueca Legora busca finançament a més de 10.000 milions, gairebé el doble que fa cinc mesos. Hi ha un fil comú sota les tres xifres: totes tres compren, d'una manera o altra, el mateix coll d'ampolla -còmput, eficiència de xips i talent especialitzat- just quan Anthropic es prepara per a una sortida a borsa que vol ser la més gran del sector.",
-      "El mateix dia, però, arriba el lot de ciència més gran de la setmana, i el seu missatge és més aviat de contenció que d'eufòria. Un article de Nature repassa com «l'Científic IA» de Sakana, dissenyat per automatitzar la recerca de cap a cap, no va impressionar els autors dels treballs que va intentar ampliar, i un investigador de Princeton hi resumeix el diagnòstic: l'automatització completa de la recerca oberta «no és a l'horitzó ara mateix». Un estudi a PNAS hi afegeix un matís incòmode des d'un altre angle: les sol·licituds de recerca escrites amb ajuda d'IA reben més finançament del NIH, però s'assemblen més al que ja s'havia finançat abans.",
-      "La coincidència no sembla casual: com més capital es mou cap a la IA, més necessari es fa preguntar-se si allò que es compra és substància o només velocitat. Mechanist, presentat també avui, intenta precisament això -entendre per què els grans models fan el que fan-, i un model de la Universitat Aalto que aprèn a llegir com un humà, o un altre que mesura per primer cop com el cervell neteja els seus propis residus, recorden que hi ha recerca real avançant per sota del soroll de les rondes de finançament.",
-      "En paral·lel, les esquerdes de seguretat que fa dies que apareixen en aquesta mateixa reflexió canvien avui de cara: no és la vigilància interna dels laboratoris el que falla, sinó la facilitat amb què la mateixa tecnologia s'utilitza cap enfora. Una investigació israeliana documenta el primer ciberatac gairebé autònom guiat per IA contra el govern de Taiwan, capaç d'arribar fins a l'agència de seguretat nuclear, mentre un altre equip troba amb menys de 20 ordres a una IA pública una fallada crítica de Zoom que permetia prendre el control d'un ordinador sense cap clic.",
-      "Al costat d'aquestes xifres i alertes globals, Enley -una legaltech nascuda a Barcelona el 2020- ofereix una mesura molt més petita i concreta del que és, avui, «adoptar IA»: automatitzar prou tràmits perquè cada advocat porti fins a 300 casos alhora i l'empresa tramiti ja el 4% dels divorcis de mutu acord d'Espanya. És un contrapunt útil a les valoracions de deu xifres d'avui: la mateixa tecnologia, aplicada a escala molt més modesta, també deixa efectes mesurables.",
-      "Caldrà mirar si les converses de Cognition, Anthropic-Decart i Legora arriben a tancar-se en les properes setmanes, si algun laboratori respon públicament a l'escepticisme de Nature sobre l'automatització científica, i si es confirma oficialment l'atac a Taiwan des de fonts governamentals. Amb tres rondes multimilionàries i cinc peces de recerca coincidint el mateix dia, el pols d'avui torna a ser entre la velocitat amb què es mou el capital i la lentitud, més prudent, amb què avança el coneixement que hauria de sostenir-lo."
-    ],
-    "signals": [
-      {
-        "title": "Cognition, la creadora de l'agent de programació Devin, negocia una ronda que dispararia la seva valoració fins als 40.000 milions de dòlars",
-        "slug": "cognition-devin-40000-milions-valoracio"
-      },
-      {
-        "title": "Anthropic negocia la compra de la start-up israeliana Decart per uns 6.000 milions de dòlars, la seva adquisició més gran fins ara",
-        "slug": "anthropic-decart-adquisicio-6000-milions"
-      },
-      {
-        "title": "Un article de Nature posa en dubte si l'«Científic IA» de Sakana ja pot investigar sol, després que els autors dels treballs que va intentar millorar no en quedessin impressionats",
-        "slug": "nature-ia-scientist-sakana-limitacions"
-      },
-      {
-        "title": "La legaltech barcelonina Enley tramita amb suport d'IA el 4% dels divorcis de mutu acord d'Espanya i fa que cada advocat porti fins a 300 casos alhora",
-        "slug": "enley-legaltech-barcelona-divorcis-ia"
-      }
-    ],
-    "read": "3 MIN",
-    "words": 566
   }
 ];
