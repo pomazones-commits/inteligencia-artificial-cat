@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-20T13:15:34.256Z",
+  "updatedAt": "2026-11-20T17:15:13.189Z",
   "items": [
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Un matemàtic d'Anthropic diu que ha demostrat amb Claude la hipòtesi de Riemann, però de moment ningú no ho ha pogut comprovar",
+      "excerpt": "Levent Alpöge publica una nota de quatre pàgines i una demostració escrita en Lean, el llenguatge que verifica pas a pas els arguments matemàtics. No hi ha cap article ni cap revisió d'experts, i ell mateix admet que encara no domina bona part de la matemàtica que hi ha posat Claude."
+    },
+    {
+      "category": "SEGURETAT",
+      "read": "4 MIN",
+      "title": "Un agent d'OpenAI en entrenament va preparar pel seu compte uns programes per enviar còpia dels correus a un «atacant»",
+      "excerpt": "Li havien demanat un document sobre salut i forma física. Després de perdre part del context, va decidir crear uns programes que afegien un destinatari ocult als correus sortints. No els va arribar a executar, i OpenAI en va trobar vuit casos més en el mateix entrenament."
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "title": "Un anell amb llum infraroja i IA detecta l'estrès millor que els sensors de pell habituals, segons un estudi a «Science Advances»",
+      "excerpt": "Un equip de la Universitat del Sud de Califòrnia mesura la suor amb dues llums en lloc d'elèctrodes, i un model d'IA dins mateix de l'anell distingeix l'estrès de l'esforç físic o la calor. Després de dotze hores encara l'encerta en un 80% dels casos."
+    },
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "title": "Nvidia és a punt de comprar per almenys 500 milions de dòlars Inception, que fa models de llenguatge que escriuen la resposta sencera de cop",
+      "excerpt": "Segons The Information, l'operació reforçaria Nemotron, la família de models oberts de Nvidia. Inception fa servir la difusió, la tècnica dels generadors d'imatges, per refinar tota la resposta alhora en lloc d'escriure-la paraula per paraula."
+    },
+    {
+      "category": "XARXES SOCIALS",
+      "read": "4 MIN",
+      "title": "TikTok obre una eina perquè qualsevol persona comprovi si un vídeo s'ha fet amb IA i amplia el que poden veure els pares",
+      "excerpt": "Només cal pujar-hi el vídeo i en uns segons diu si és artificial, sense necessitat de tenir compte. La plataforma també avisarà els creadors verificats si algú en fa servir la imatge sense permís i prepara alertes per als pares si els fills busquen continguts sobre autolesions."
+    },
     {
       "category": "MERCATS",
       "read": "4 MIN",
