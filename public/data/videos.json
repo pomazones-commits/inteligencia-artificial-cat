@@ -1,8 +1,68 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-20T05:17:03.600Z",
+ "actualitzat": "2026-11-20T09:14:53.090Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "OSHSopaYjTw",
+   "titol": "Create and Share a Dashboard in ChatGPT",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-20T06:07:50.000Z",
+   "descripcio": "Turn your analysis into a dashboard your team can use. Building on the fictional Acme sales example, this walkthrough brings quarterly metrics and customer follow-ups into one view. See how to inspect the data behind a chart, edit its appearance, ask questions about the numbers, and refine the dashb",
+   "miniatura": "/assets/videos/OSHSopaYjTw.jpg"
+  },
+  {
+   "id": "JEgTn37Sk50",
+   "titol": "Ask Questions About Your Data in ChatGPT",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-20T06:05:59.000Z",
+   "descripcio": "Prepare for a sales meeting by asking ChatGPT what changed in your data and which customers need attention. Using sample data from the fictional company Acme, this walkthrough compares quarterly sales, visualizes the segments behind the change, and explores customer orders alongside account notes. S",
+   "miniatura": "/assets/videos/JEgTn37Sk50.jpg"
+  },
+  {
+   "id": "oJIuz3AFfEQ",
+   "titol": "Connect Your Team’s Data to ChatGPT",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-20T06:02:57.000Z",
+   "descripcio": "Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s m",
+   "miniatura": "/assets/videos/oJIuz3AFfEQ.jpg"
+  },
+  {
+   "id": "KrlfehIapEA",
+   "titol": "Meet the Data Agent in ChatGPT",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-20T05:35:32.000Z",
+   "descripcio": "Get started with the Data plugin in ChatGPT. Take a quick tour of how to ask questions about your data, create visualizations, build dashboards, and share reports with your team. See where to find Data in the plugin marketplace, how it works with your files and connected tools, and the skills availa",
+   "miniatura": "/assets/videos/KrlfehIapEA.jpg"
+  },
+  {
+   "id": "3_fayTbZrW8",
+   "titol": "Create and Share a Report in ChatGPT Space",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-20T05:32:52.000Z",
+   "descripcio": "Give your team a report they can read, discuss, and work on together. In this walkthrough, turn the fictional Acme sales analysis into a Page in Space, with the highlights, quarterly comparisons, and charts in one place. See how to choose who can access the report, copy a link for your meeting, edit",
+   "miniatura": "/assets/videos/3_fayTbZrW8.jpg"
+  },
   {
    "id": "sof3vW4mHTs",
    "titol": "The making of Anthropic",
