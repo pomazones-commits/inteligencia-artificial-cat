@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-20T09:14:53.090Z",
+ "actualitzat": "2026-11-20T17:15:59.347Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "WGvsk0LIveU",
+   "titol": "3 ChatGPT Tips to Save Money",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-20T16:00:17.000Z",
+   "descripcio": "ChatGPT can help you find ways to save, whether you’re shopping for a desk chair or wondering what you’re still paying for after a free trial ends. Learn three ways to save money with ChatGPT. Use a product screenshot to compare prices before you buy, spot subscriptions you no longer use, and build ",
+   "miniatura": "/assets/videos/WGvsk0LIveU.jpg"
+  },
   {
    "id": "OSHSopaYjTw",
    "titol": "Create and Share a Dashboard in ChatGPT",
@@ -135,7 +147,7 @@
    "categoria": "robotica",
    "idioma": "en",
    "publicat": "2026-11-19T15:02:49.000Z",
-   "descripcio": "What we* make of this moment, will make this moment. *a food bank in Texas, a PhD student in Tokyo with a floating cuttlefish robot, a first-time builder mapping 800 years of Indian history, a developer tracking potholes in Slovenia, and millions more.",
+   "descripcio": "What we* make of this moment, will make this moment. *a food bank in Texas, a PhD student in Tokyo with a floating fish robot, a first-time builder mapping 800 years of Indian history, a developer tracking potholes in Slovenia, and millions more.",
    "miniatura": "/assets/videos/JDsFHmq9hlA.jpg"
   },
   {
@@ -1047,18 +1059,6 @@
    "idioma": "en",
    "publicat": "2026-10-30T20:17:12.000Z",
    "miniatura": "/assets/videos/o4D1J1YWjhg.jpg"
-  },
-  {
-   "id": "Oi9DHk57KeQ",
-   "titol": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "empreses",
-   "idioma": "en",
-   "publicat": "2026-10-30T15:22:47.000Z",
-   "descripcio": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time zone",
-   "miniatura": "/assets/videos/Oi9DHk57KeQ.jpg"
   },
   {
    "id": "sFfPkUJd_Jk",
