@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-19T17:27:36.248Z",
+  "updatedAt": "2026-11-20T05:16:16.487Z",
   "items": [
     {
-      "category": "ECONOMIA",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Les accions d'Anthropic s'estrenen al Nasdaq un 33% per sobre del preu de sortida, i Dario Amodei promet anar tan a poc a poc com calgui",
-      "excerpt": "Els títols s'han pagat a 111,50 dòlars en els primers minuts, davant dels 83 fixats dimecres. Abans del toc de campana, el conseller delegat ha dit que l'empresa no cedirà a pressions comercials ni polítiques i que la IA ha de continuar «sota control humà»."
-    },
-    {
-      "category": "CIÈNCIA",
+      "category": "PRIVACITAT",
       "read": "4 MIN",
-      "title": "Uns neurocientífics «lesionen» models de llenguatge com si haguessin patit un ictus, i les errades s'assemblen a les dels pacients amb afàsia, segons «Patterns»",
-      "excerpt": "Un equip de la Universitat de Carolina del Sud espatlla a propòsit parts dels models i els passa els mateixos tests clínics que als pacients. Diu que el mètode pot ajudar a entendre què passa a dins d'aquests sistemes i a fer-los més petits."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "L'electricitat dels centres de dades dels Estats Units va causar unes 650 morts prematures el 2023 per la contaminació de l'aire, sovint lluny d'on són, segons el MIT",
-      "excerpt": "L'estudi, a «Environmental Research Letters», segueix quines centrals s'engeguen per alimentar-los i on va a parar el fum. Iowa, Nevada, Dakota del Sud i Kansas hi surten pitjor per habitant que Virgínia o Texas, on hi ha la majoria de centres."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "La Comissió Europea confirma que un atac informàtic fet amb eines d'IA la va obligar a desconnectar diverses aplicacions a l'octubre",
-      "excerpt": "És la primera vegada que la Unió Europea reconeix un ciberatac assistit per IA. Brussel·les diu que no ha trobat cap filtració general de dades del personal i que encara no sap qui hi ha al darrere."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "El cap de drets humans de l'ONU diu que la IA es governa «de manera gairebé medieval», en mans d'uns pocs homes",
-      "excerpt": "Volker Türk ha recordat a Ginebra que cinc empreses tecnològiques tenen més del 70% de la capacitat de càlcul d'IA del món i ha tornat a demanar unes normes que posin els drets humans al centre."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Trump, Xi i Putin tanquen a Shenzhen la primera cimera a tres sense cap acord sobre la IA, i Trump diu que els Estats Units «acaben d'inventar» la superintel·ligència",
-      "excerpt": "La declaració que han difós la Xina i Rússia parla de reduir el risc de guerra nuclear, però no s'hi ha informat de cap compromís sobre la IA. Trump, a l'APEC, rebutja qualsevol «regulació globalista» de la tecnologia."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Qui paga quan una IA fa mal? Un estudi a «PNAS» proposa seguir el rastre de les decisions humanes, sense donar personalitat jurídica a la màquina",
-      "excerpt": "Martin Hilbert, de la Universitat de Califòrnia a Davis, defensa que les lleis actuals ja permeten trobar responsables si es reconstrueix qui va decidir què en l'entrenament, l'ús i el control d'un model."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un algorisme troba la recepta d'un sensor de vitamina C provant només 25 de les 625 combinacions possibles, segons un estudi de la Universitat Sungkyunkwan",
-      "excerpt": "L'aprenentatge automàtic va proposar les condicions de fabricació d'un sensor que detecta quantitats ínfimes de vitamina C a la sang i l'orina, i que va seguir els canvis després de prendre'n un suplement."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Washington descarta cap ciberatac darrere la ratxa de caigudes informàtiques, i un senador i Nadella apunten a la pressa per tapar els forats que troba la IA",
-      "excerpt": "Rubio diu que no hi ha cap prova que les avaries estiguin relacionades, i el senador Mark Warner atribueix part del problema a la pressió per aplicar alhora tots els pedaços que descobreixen les eines d'IA."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Urbanisme aprova el planejament que fa possible la gigafactoria d'IA de Móra la Nova i Tivissa, a dues setmanes de la candidatura definitiva",
-      "excerpt": "La Comissió Territorial d'Urbanisme de les Terres de l'Ebre agrupa en una sola gran parcel·la els terrenys del polígon del Molló, un dia després que el Govern ordenés a l'Incasòl vendre'ls al consorci promotor."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Satya Nadella defensa que va oferir la baixa voluntària a 60.000 empleats de Microsoft perquè decidissin si volen treballar dirigint agents d'IA",
-      "excerpt": "El conseller delegat de Microsoft nega que la IA substitueixi els treballadors i assegura que tots els empleats acabaran fent de caps d'agents d'IA, però admet que alguns preferiran marxar."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Uns investigadors troben amb Codex un forat crític a Java en una hora i per menys de 200 dòlars, i deixen exposats servidors de Jira o Jenkins",
-      "excerpt": "La fallada, batejada Java4Shell, és al descodificador Base64 d'OpenJDK i permet prendre el control d'un servidor sense credencials. Oracle i OpenJDK ja han publicat el pegat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un robot volador del MIT més lleuger que un clip vola sense ajuda de càmeres externes amb els seus propis sensors i el seu propi ordinador, segons «Science Robotics»",
-      "excerpt": "El microrobot d'ales batents porta a sobre un paquet electrònic de 244 mil·ligrams que li permet saber on és i corregir el vol amb errors de pocs centímetres, tot i que encara depèn d'un cable per a l'energia."
+      "title": "Empleats de Meta alerten que Muse, el seu agent d'IA, els barreja converses d'altres comptes i els mostra saldos bancaris que no són seus",
+      "excerpt": "Segons una investigació de Reuters a partir de missatges interns, l'agent mostrava encàrrecs que ningú no havia fet i dades que semblaven d'altres usuaris. Meta respon que els empleats proven versions diferents de la del públic."
     },
     {
       "category": "PRODUCTES",
       "read": "3 MIN",
-      "title": "Google afegeix al mode IA del cercador unes converses temporals que no queden a l'historial ni serveixen per personalitzar els resultats",
-      "excerpt": "La funció, que arriba a tot el món i en totes les llengües, funciona com el xat temporal de Gemini i s'activa amb una icona sense haver de tocar la configuració."
+      "title": "Google ja deixa que Gemini faci feines pel seu compte al Mac, entre aplicacions, fitxers i webs",
+      "excerpt": "L'agent treballa en segon pla mentre l'usuari continua amb l'ordinador, i es pot aturar o haver d'esperar el vistiplau abans de cada pas. De moment només funciona en anglès, als Estats Units i per als abonats de pagament."
     },
     {
-      "category": "CATALUNYA",
-      "read": "3 MIN",
-      "title": "La Diada de les TIC a Catalunya demana una IA amb propòsit, i el Govern hi defensa que Europa controli els seus actius digitals",
-      "excerpt": "La trobada anual dels professionals de les TIC, al World Trade Center de Barcelona, debat els límits de la IA i la seva regulació amb el Govern, la CNMC, la CCMA i l'Ajuntament de Barcelona."
-    },
-    {
-      "category": "ECONOMIA",
+      "category": "DEFENSA",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Anthropic fixa el preu de la sortida a borsa a 83 dòlars per acció i capta 81.300 milions, la xifra més alta de la història",
-      "excerpt": "L'empresa de Claude ven 980 milions d'accions, més de les previstes i per sobre de la forquilla de 70 a 78 dòlars, i comença a cotitzar avui al Nasdaq amb un valor d'uns 1,5 bilions de dòlars."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Google presenta Gemini 4 Neon, un model a mig camí entre el ràpid i el més potent, que diu que fa la feina un 32% més barata",
-      "excerpt": "Google DeepMind el destina a la programació, la feina d'oficina complexa i la recerca, i afirma que lidera diverses proves d'agents i de ciberseguretat; costa 3 dòlars per milió de paraules d'entrada."
+      "title": "L'OTAN reconeix que la IA canvia la guerra més de pressa del que els exèrcits l'incorporen: «El temps ja no juga a favor nostre»",
+      "excerpt": "A la conferència NATO Edge, a Esmirna, els comandaments aliats i la indústria de defensa han debatut com accelerar l'adopció de la IA. Ucraïna avisa que un dron que no s'adapta en un o dos mesos queda obsolet."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Una IA de la Universitat de Ciència de Tòquio assenyala quines parts dels imants fan perdre energia als transformadors quan treballen més de pressa",
-      "excerpt": "L'equip combina simulacions al superordinador Fugaku amb un mètode matemàtic que mesura la forma de les fronteres magnètiques, i troba que l'energia es perd sobretot a les puntes d'aquestes fronteres. L'estudi surt a NPG Asia Materials."
+      "title": "Un neuròleg de la Clínica Mayo proposa que la memòria funciona com les IA que generen imatges, i que això pot ajudar a classificar les demències",
+      "excerpt": "Un article teòric a la revista «Brain» compara l'hipocamp amb els models de difusió: no arxivaria els records, sinó que n'aprendria els trets i els reconstruiria. És una hipòtesi que encara s'ha de posar a prova."
     },
     {
       "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Citi i altres bancs dels Estats Units avisen que el client paga els danys si dona accés al compte a un agent d'IA, encara que l'agent sigui atacat",
-      "excerpt": "Citibank, PNC i Citizens han canviat les condicions aquesta setmana, després que JPMorgan i Bank of America ho fessin a l'octubre: qui deixa entrar una IA d'una altra empresa al seu compte respon de tot el que hi faci."
-    },
-    {
-      "category": "PRODUCTES",
       "read": "3 MIN",
-      "title": "ACTUALITZACIÓ: Google obre als abonats de pagament Genie 4, el model que crea mons per explorar en temps real a partir d'una frase",
-      "excerpt": "Els abonats a Google AI Ultra ja poden fer servir el model dins de Project Genie, on es pot canviar el temps o afegir personatges mentre es juga; els de Google AI Pro, de moment, només es poden apuntar a una llista d'espera."
+      "title": "La terrassenca Flexxible llança un agent d'IA que resol sol les incidències informàtiques més habituals, en set minuts de mitjana",
+      "excerpt": "FlexxSolve s'ocupa de problemes com el correu, les impressores o el disc ple, i passa a un tècnic els casos que no pot resoldre. L'empresa de Terrassa cobra per incidència resolta i no per aparell."
     }
   ]
 }
