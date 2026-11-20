@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-20T05:16:04.562Z",
+  "generat": "2026-11-20T13:16:26.202Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 10,
+      "audios": 13,
       "sobre_ia": 0
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 10,
+      "audios": 8,
       "sobre_ia": 0
     },
     {
@@ -177,5 +177,23 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "rtve-17323044",
+      "emissora": "Ràdio 4",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
+      "data": "2026-11-19",
+      "durada": "53 min",
+      "titol_original": "Primera hora: Les 4 de la tarda | Reunió de Trump, Putin i Xi Jiping, Antrophic",
+      "descripcio_original": "A les 4 de la tarda comencem parlant de tres grans qüestions: qui mana al món, qui lidera la revolució tecnològica i qui aconseguirà convèncer els electors. Comencem amb una reunió històrica a la Xina: Trump, Putin i Xi Jinping seuen a la mateixa taula per abordar qüestions com la guerra d’Ucraïna, les armes nuclears i la competició tecnològica. Una trobada en què Europa no hi té cadira i que ens porta a preguntar-nos si el continent ha perdut pes internacional i s’ha quedat enrere davant dels Estats Units i la Xina. També mirem cap a Wall Street, on Anthropic, l’empresa creadora de Claude, ha protagonitzat una sortida a borsa rècord. És una mostra del poder econòmic de la intel·ligència artificial o estem davant d’una bombolla que pot acabar esclatant? En parlarem amb Esteve Almirall, expert en innovació i intel·ligència artificial i Miguel Anxo Bastos, doctor en ciència política per la universitat de Santiago de Compostela. I, en clau electoral, aquesta nit arriba l’únic cara a cara entre Pedro Sánchez i Alberto Núñez Feijóo: sense mòbils, amb àrbitres de bàsquet per controlar el temps i amb dos candidats que es juguen molt a les portes de les eleccions del 29 de novembre. En parlarem amb Manuel Campo Vidal, periodista i president emèrit de l’Acadèmia de la Televisió. I acabarem recordant que avui és l’últim dia per demanar el vot per correu.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-primera-hora-les-4-tarda-reunio-trump-putin-xi-jiping-antrophic/17323044/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17323044"
+      }
+    }
+  ]
 }
