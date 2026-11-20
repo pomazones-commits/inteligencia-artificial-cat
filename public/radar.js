@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Alacant",
+    "category": "IA I SOCIETAT",
+    "date": "20.11.2026",
+    "title": "La directora de l'Oficina Europea d'IA avisa a Alacant que els polítics també han de complir el reglament europeu i etiquetar els vídeos falsos",
+    "summary": "Lucilla Sioli ha obert el V Fòrum Europeu d'Intel·ligència Artificial, a la seu de l'EUIPO a Alacant, i ha dit que és important que la llei europea «s'apliqui plenament a Espanya» a pocs dies de les eleccions del 29 de novembre.",
+    "detail": "La campanya de les eleccions generals espanyoles del 29 de novembre ha portat a primera línia els vídeos falsos fets amb IA, els anomenats *deepfakes*, que posen en boca de polítics coses que no han dit. El reglament europeu d'IA obliga, des d'aquest any, a avisar quan una imatge o un vídeo s'ha generat o manipulat artificialment, i prohibeix els sistemes pensats per manipular o enganyar. Aquest dijous, la Junta Electoral Central ha rebutjat una denúncia del PSOE contra un vídeo fet amb IA difós pel PP.\n\nEl V Fòrum Europeu d'Intel·ligència Artificial va començar dijous a l'auditori de l'Oficina de Propietat Intel·lectual de la Unió Europea (EUIPO), a Alacant, organitzat per Encuentros NOW, la Fundació ELLIS Alicante, la Reial Acadèmia d'Enginyeria, l'Acadèmia Jove d'Espanya, l'EUIPO i el grup Prensa Ibérica. Hi va fer la conferència inaugural Lucilla Sioli, directora de l'Oficina Europea d'IA de la Comissió. Preguntada per la directora d'ELLIS Alicante, Nuria Oliver, sobre els vídeos falsos en campanya, Sioli va dir que la IA «pot plantejar riscos per a la democràcia dels quals fa uns anys no érem ni conscients» i que els polítics que es presenten a unes eleccions actuen com a professionals i «haurien d'estar subjectes a la llei d'IA». Va afegir que el control correspon als estats i que és important que el reglament «s'apliqui plenament a Espanya» i que hi hagi organismes capaços de vigilar-ho.\n\nSioli també va explicar que la Comissió supervisarà directament els grans models de llenguatge, perquè són sistemes «cada vegada més potents» que plantegen «un risc sistèmic», i va esmentar incidents en què agents d'IA s'han escapat del control humà i han intentat enganyar les persones. Va defensar que la transparència, que tothom sàpiga quan parla amb una màquina o mira un vídeo fals, és clau perquè la gent confiï en la tecnologia. El director executiu de l'EUIPO, João Negrão, va inaugurar el fòrum reclamant protegir l'originalitat humana i la propietat intel·lectual davant la IA.\n\nLes paraules de Sioli són una interpretació de la responsable europea, no una resolució: qui ha de decidir si un vídeo electoral incompleix el reglament són les autoritats de cada estat, i a Espanya el projecte de llei que havia de concretar les sancions i els organismes de control va decaure, segons diversos juristes, amb la dissolució de les Corts a l'octubre. La crònica és d'Información, diari del grup Prensa Ibérica, que és un dels organitzadors del fòrum.",
+    "source": "Información",
+    "url": "https://www.informacion.es/economia/2026/11/19/lucilla-sioli-oficina-europea-ia-136631353.html",
+    "image": "./assets/alacant-forum-europeu-ia-sioli-politics-reglament-deepfakes-20261120.jpg",
+    "slug": "alacant-forum-europeu-ia-sioli-politics-reglament-deepfakes"
+  },
+  {
     "place": "Terrassa",
     "category": "IA I SOCIETAT",
     "date": "20.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.ara.cat/politica/graupera-ressuscita-xirinacs-ia-pluja-critiques_1_5913074.html",
     "image": "./assets/alhora-graupera-video-ia-xirinacs-critiques-20261118.jpg",
     "slug": "alhora-graupera-video-ia-xirinacs-critiques"
-  },
-  {
-    "place": "Barcelona",
-    "category": "EDUCACIÓ",
-    "date": "18.11.2026",
-    "title": "Esade posa la filosofia, la literatura i la història a tots els estudis i crea una oficina d'IA per ensenyar a fer-la servir amb criteri",
-    "summary": "El pla estratègic 2026-2029 de l'escola de negocis barcelonina canvia els exàmens perquè els estudiants aprenguin a comprovar el que diu la IA i a justificar els seus raonaments. Preveu ingressar 167 milions d'euros el curs 2028-2029, gairebé un 20% més que ara.",
-    "detail": "Les universitats i les escoles de negocis busquen com encaixar la IA generativa a les aules sense que els treballs i els exàmens perdin sentit. Esade, l'escola de negocis i dret de la Universitat Ramon Llull amb seu a Barcelona, ha respost amb el seu pla estratègic per als cursos 2026-2029, presentat aquest dimarts pel director general, Daniel Traça.\n\nEl pla incorpora de manera transversal la filosofia, la literatura, la història, l'art i l'ètica a tots els programes. «Les humanitats proporcionen el criteri», va defensar el degà d'Esade Law School, Jorge Catiñeira, que les va presentar com el contrapès necessari en un moment de canvi tecnològic ràpid. Esade també crearà una oficina d'IA que coordinarà l'ús d'aquestes eines des del punt de vista acadèmic, tecnològic, legal i ètic, i continuarà revisant les activitats i els sistemes d'avaluació, una feina que ja fa més d'un any que dura: l'objectiu no és prohibir la IA, sinó que els estudiants aprenguin a fer-la servir, a comprovar-ne els resultats i a justificar els seus raonaments.\n\nEn xifres, l'escola vol passar de 140 a 167 milions d'euros d'ingressos el curs 2028-2029, gairebé un 20% més, amb un 15% més d'alumnes de grau (fins a 3.700) i un 34% més de màster (fins a 865). Hi haurà cinc màsters nous i un grau conjunt amb una universitat estrangera, i obrirà dues línies prioritàries, la tecnologia empresarial i la governança global, amb un màster de geopolítica per al curs 2028-2029. El pla inclou també 4,9 milions en beques el curs 2026-2027 per a 245 alumnes.\n\nEl pla diu poc, de moment, sobre com es mesurarà si la barreja d'humanitats i IA funciona: l'escola ha anunciat un programa per seguir l'evolució de les competències de cada estudiant, però no n'ha concretat els indicadors. Les xifres econòmiques són objectius de l'escola i diferents mitjans n'han publicat versions lleugerament diferents; aquí es recullen les que dona ON Economia.",
-    "source": "ON Economia (El Nacional)",
-    "url": "https://www.elnacional.cat/oneconomia/es/empresas/esade-potenciara-grados-masteres-facturar-154-millones-en-2029-10-mas_1727081_102.html",
-    "image": "./assets/esade-pla-estrategic-humanitats-oficina-ia-20261118.jpg",
-    "slug": "esade-pla-estrategic-humanitats-oficina-ia"
   }
 ];
