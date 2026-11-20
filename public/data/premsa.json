@@ -1,8 +1,118 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-20T17:15:58.710Z",
+ "actualitzat": "2026-11-20T21:59:31.481Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f9093f422633",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "MindDen defiende una IA europea más competitiva",
+   "url": "https://www.informacion.es/empresas-en-alicante/2026/11/20/mindden-defiende-ia-europea-competitiva-136666428.html",
+   "publicat": "2026-11-20T21:30:57.000Z"
+  },
+  {
+   "id": "7a5f34d7a916",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alicante agiliza con IA los procedimientos urbanísticos para acelerar su tramitación",
+   "url": "https://www.informacion.es/alicante/2026/11/20/alicante-agiliza-ia-procedimientos-urbanisticos-bc-136653047.html",
+   "publicat": "2026-11-20T21:30:56.000Z"
+  },
+  {
+   "id": "a519ca6cb604",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "«La diferencia no la marca la IA, sino un buen profesional que sepa utilizarla»",
+   "url": "https://www.informacion.es/economia/2026/11/20/diferencia-ia-buen-profesional-136654532.html",
+   "publicat": "2026-11-20T21:30:56.000Z"
+  },
+  {
+   "id": "ac2cdb50d70c",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Así convive con la IA una agencia de publicidad",
+   "url": "https://www.informacion.es/elche/2026/11/20/ia-agencia-publicidad-grupo-anton-bc-136654007.html",
+   "publicat": "2026-11-20T21:30:56.000Z"
+  },
+  {
+   "id": "8af21903f148",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Los \"millonarios de papel\" de la IA: Anthropic crea miles de ricos mientras blinda el poder de su cúpula",
+   "url": "https://www.eldiario.es/tecnologia/millonarios-papel-ia-anthropic-crea-miles-ricos-blinda-cupula_1_13677805.html",
+   "publicat": "2026-11-20T21:08:30.000Z"
+  },
+  {
+   "id": "4eecda09f78b",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "OpenAI lleva su asistente más avanzado a ChatGPT Plus: así funcionan los nuevos Dots",
+   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-20/openai-lleva-su-asistente-mas-avanzado-a-chatgpt-plus-asi-funcionan-los-nuevos-dots.html",
+   "publicat": "2026-11-20T20:36:12.000Z"
+  },
+  {
+   "id": "9b7e786c2b89",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un matemático afirma haber resuelto uno de los problemas más importantes del mundo con ayuda de la IA",
+   "url": "https://www.lavanguardia.com/vida/20261120/11689484/matematico-afirma-haber-resuelto-problemas-mas-importantes-mundo-ayuda-ia.html",
+   "publicat": "2026-11-20T19:04:51.000Z"
+  },
+  {
+   "id": "336e8ed67fb8",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Qüestionari ràpid a Jordi Hereu (PSC): \"No li pregunto res a la intel·ligència artificial\"",
+   "url": "https://www.3cat.cat/3catinfo/questionari-rapid-a-jordi-hereu-psc-no-li-pregunto-res-a-la-intelligencia-artificial/noticia/3441123",
+   "publicat": "2026-11-20T19:00:52.000Z"
+  },
+  {
+   "id": "63ecc502f2cd",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic baixa un 10% a la borsa l'endemà de la seva estrena històrica",
+   "url": "https://www.3cat.cat/3catinfo/anthropic-baixa-un-10-a-la-borsa-lendema-de-la-seva-estrena-historica/noticia/3441122",
+   "publicat": "2026-11-20T18:08:54.000Z"
+  },
+  {
+   "id": "cf087fe84cba",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Amenazas de muerte, insultos y humillaciones: el lado oscuro del liderazgo de Jensen Huang en Nvidia",
+   "url": "https://elpais.com/us/2026-11-20/amenazas-de-muerte-insultos-y-humillaciones-el-lado-oscuro-del-liderazgo-de-jensen-huang-en-nvidia.html",
+   "publicat": "2026-11-20T17:21:03.000Z"
+  },
   {
    "id": "e9ec8efe43b6",
    "mitja": "El Nacional",
@@ -87,7 +197,7 @@
    "icona": "/assets/premsa/diario-de-mallorca.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Anthropic pierde fuelle en bolsa y cae un 9% en su segunda sesión en el Nasdaq",
+   "titol": "El Nasdaq cierra la jornada con un descenso del 5,3% marcado por la caída de Anthropic",
    "url": "https://www.diariodemallorca.es/economia/2026/11/20/anthropic-pierde-fuelle-bolsa-cae-136671398.html",
    "publicat": "2026-11-20T15:00:18.000Z"
   },
@@ -142,7 +252,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Anthropic corrige con fuerza en su segunda jornada en Bolsa en pleno castigo a las empresas de IA",
+   "titol": "El desplome de la IA lleva al Nasdaq a su peor semana en año y medio con Anthropic hundiéndose un 8,5%",
    "url": "https://elpais.com/economia/2026-11-20/la-segunda-jornada-en-bolsa-de-anthropic.html",
    "publicat": "2026-11-20T13:01:44.000Z"
   },
@@ -342,7 +452,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Las dudas con la IA persisten y castigan a las bolsas pese al debut de Anthropic",
+   "titol": "El éxito bursátil de Anthropic se esfuma un día después de su estreno",
    "url": "https://www.lavanguardia.com/economia/20261120/11688899/mercados-bolsa-anthropic-ia.html",
    "publicat": "2026-11-20T08:43:24.000Z"
   },
@@ -2654,116 +2764,6 @@
    "titol": "Si es lujo es sin IA: cómo la moda se desmarca y apuesta por la Navidad más artesanal",
    "url": "https://elpais.com/smoda/2026-11-17/si-es-lujo-es-sin-ia-como-la-moda-se-desmarca-y-apuesta-por-la-navidad-mas-artesanal.html",
    "publicat": "2026-11-17T04:30:01.000Z"
-  },
-  {
-   "id": "83f0215f5465",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El divorci que pagaran els accionistes de Nvidia",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/divorci-pagaran-accionistes-nvidia_1725992_102.html",
-   "publicat": "2026-11-17T04:30:00.000Z"
-  },
-  {
-   "id": "b96fa35a9571",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "China, demanda a largo plazo y liderazgo: claves para no perderse en los resultados de Nvidia",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-17/china-demanda-a-largo-plazo-y-liderazgo-claves-para-no-perderse-en-los-resultados-de-nvidia.html",
-   "publicat": "2026-11-17T04:25:00.000Z"
-  },
-  {
-   "id": "1b70649fbb27",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El BCE plantea una oleada de inspecciones a los bancos por la inteligencia artificial y el fraude",
-   "url": "https://cincodias.elpais.com/companias/2026-11-17/el-bce-plantea-una-oleada-de-inspecciones-a-los-bancos-por-la-inteligencia-artificial-y-el-fraude.html",
-   "publicat": "2026-11-17T04:15:00.000Z"
-  },
-  {
-   "id": "f405f0769256",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Trump muestra su apoyo al regreso de Jensen Huang a la directiva de Nvidia",
-   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/17/2751427/trump-muestra-apoyo-regreso-jensen-huang-directiva-nvidia.html",
-   "publicat": "2026-11-16T23:05:00.000Z"
-  },
-  {
-   "id": "a74ef810fe23",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anna Macià Armengol: “La IA ens pot ajudar a predir l’evolució dels pacients amb melanoma”",
-   "url": "https://www.segre.com/ca/lectura/261116/anna-macia-armengol-ia-ens-pot-ajudar-predir-l-evolucio-dels-pacients-amb-melanoma_1400376.html",
-   "publicat": "2026-11-16T21:01:03.000Z"
-  },
-  {
-   "id": "d231ba3fadcd",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los líderes del Tesoro y Comercio chocan por las ventas de chips de Nvidia y dejan al descubierto las tensiones en la Administración Trump",
-   "url": "https://www.levante-emv.com/internacional/2026/11/16/escandalo-nvidia-136517209.html",
-   "publicat": "2026-11-16T20:24:48.000Z"
-  },
-  {
-   "id": "538a61e77d10",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La junta directiva de Nvidia no estudia restituir Huang després de la seva dimissió com a CEO",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/junta-directiva-nvidia-no-estudia-restituir-huang-dimissio-ceo_1726532_102.html",
-   "publicat": "2026-11-16T20:12:42.000Z"
-  },
-  {
-   "id": "9089d148caed",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La junta directiva de Nvidia no contempla restituir a Jensen Huang como CEO del gigante de los chips",
-   "url": "https://www.elperiodico.com/es/economia/20261116/junta-directiva-nvidia-contempla-restituir-136516097",
-   "publicat": "2026-11-16T19:34:07.000Z"
-  },
-  {
-   "id": "3930a3f5c220",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic pone a prueba el negocio de la IA con la mayor salida a bolsa de la historia",
-   "url": "https://www.lavanguardia.com/videos/claves-del-dia/20261116/11685867/anthropic-pone-prueba-negocio-ia-mayor-salida-bolsa-historia.html",
-   "publicat": "2026-11-16T18:54:45.000Z"
-  },
-  {
-   "id": "67b1c815af4b",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El mercat mundial de la IA es multiplicarà per 24 i fregarà els 5 bilions d'euros el 2040",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/mercat-mundial-ia-es-multiplicara-24-fregara-5-bilions-euros-2040_1726487_102.html",
-   "publicat": "2026-11-16T18:39:31.000Z"
   }
  ]
 }
