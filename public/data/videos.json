@@ -1,11 +1,11 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-19T22:45:52.711Z",
+ "actualitzat": "2026-11-20T05:17:03.600Z",
  "canals": 19,
  "videos": [
   {
    "id": "sof3vW4mHTs",
-   "titol": "Why we built Anthropic",
+   "titol": "The making of Anthropic",
    "canal": "Anthropic",
    "canalId": "UCrDwWp7EBBv4NwvScIpBDOA",
    "grup": "empreses",
@@ -61,7 +61,10 @@
    "idioma": "ca",
    "publicat": "2026-11-19T15:33:56.000Z",
    "descripcio": "Capta 81.000 milions de dòlars dels inversors, superant el que va fer SpaceX en el seu debut al juny. Subscriu-te al canal oficial de 3CatInfo a YouTube i no et perdis l'actualitat de Catalunya i el món: 👉https://www.youtube.com/@3catinfo?sub_confirmation=1 Vols rebre cada setmana el butlletí gratu",
-   "miniatura": "/assets/videos/06uhmzB7mAE.jpg"
+   "miniatura": "/assets/videos/06uhmzB7mAE.jpg",
+   "noticia": "anthropic-surt-a-borsa-83-dolars-accio",
+   "noticiaTitol": "ACTUALITZACIÓ: Anthropic fixa el preu de la sortida a borsa a 83 dòlars per acció i capta 81.300 milions, la xifra més alta de la història",
+   "resum": "Peça informativa de 3CatInfo sobre la sortida a borsa d'Anthropic, que va captar uns 81.000 milions de dòlars dels inversors, per sobre del que va aconseguir SpaceX en el seu debut del juny."
   },
   {
    "id": "JDsFHmq9hlA",
