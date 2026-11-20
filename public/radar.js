@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "20.11.2026",
+    "title": "Calp munta la seva pròpia IA en servidors municipals perquè les dades de l'Ajuntament no en surtin",
+    "summary": "L'Ajuntament hi ha invertit 12.396 euros en equips i fa servir només programari lliure. El sistema, en proves amb diversos models, és per al personal municipal, i en paral·lel prova un assistent virtual per a la centraleta que encara no és obert al públic.",
+    "detail": "Els ajuntaments que volen fer servir la intel·ligència artificial per redactar, resumir o analitzar documents topen amb un problema: quan ho fan amb els serveis de les grans empreses, la informació municipal surt cap a servidors de fora. L'Ajuntament de Calp, a la Marina Alta, va crear a principis del 2026 una delegació específica per a l'ús de la IA i ja havia contractat llicències d'eines professionals per a la redacció, l'anàlisi de documents i la consulta de normativa.\n\nAra hi suma una infraestructura pròpia, pensada només per al personal municipal. Segons la informació publicada aquest divendres, l'Ajuntament hi ha destinat 12.396 euros, només en equips: els models funcionen en servidors que són propietat del consistori i tot el programari és lliure, sense cost de llicències. El sistema pot treballar sense connexió i consultar fonts externes quan una feina ho demana, i ja incorpora eines per treballar amb fulls de càlcul i documents. Està en fase de proves amb diversos models. En paral·lel, el consistori prova un assistent virtual per a la centraleta que respon en llenguatge corrent preguntes bàsiques sobre tràmits, convocatòries i serveis a partir de la seu electrònica; de moment és experimental i no és obert al públic.\n\nLa idea és reservar la infraestructura pròpia per a les feines més delicades, on la informació no pot sortir de l'entorn municipal, i convertir una part de la despesa en un actiu que es queda a l'Ajuntament. L'Ajuntament insisteix que les eines són un suport i que no substitueixen el personal ni el seu criteri professional. És un model que pot interessar altres municipis mitjans dels territoris de parla catalana, que sovint no tenen prou volum per negociar condicions amb els grans proveïdors.\n\nLa informació no diu quins models es fan servir, quina capacitat tenen els servidors ni quantes persones de la plantilla hi tindran accés. Tampoc no explica qui manté el sistema ni quin cost tindrà a mitjà termini en electricitat, actualitzacions i personal tècnic, que és on sovint es complica la IA feta a casa. Els models oberts que poden funcionar en uns equips d'aquest preu són més modestos que els grans serveis comercials, i per això l'Ajuntament manté també les llicències contractades.",
+    "source": "El Periòdic",
+    "url": "https://www.elperiodic.com/calpe/ayuntamiento-calp-implanta-propia-inteligencia-artificial-para-proteger-datos-modernizar-gestion-municipal_1103735",
+    "image": "./assets/calp-ia-propia-servidors-municipals-dades-20261120.jpg",
+    "slug": "calp-ia-propia-servidors-municipals-dades"
+  },
+  {
     "place": "Alacant",
     "category": "IA I SOCIETAT",
     "date": "20.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://valenciaplaza.com/valenciaplaza/bolsas/la-valenciana-substrate-ai-compra-un-solar-en-talavera-de-la-reina-toledo-para-un-centro-de-datos",
     "image": "./assets/substrate-ai-valencia-solar-talavera-centre-dades-20261119.jpg",
     "slug": "substrate-ai-valencia-solar-talavera-centre-dades"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "18.11.2026",
-    "title": "Alhora retira un vídeo fet amb IA que «ressuscitava» Lluís Maria Xirinacs, després d'una pluja de crítiques a les xarxes",
-    "summary": "El partit de Jordi Graupera, que es presenta a les eleccions espanyoles del 29 de novembre, no havia demanat permís a la família. És el segon ensurt de la campanya per l'ús de la IA.",
-    "detail": "La intel·ligència artificial s'ha colat a la campanya de les eleccions generals espanyoles del 29 de novembre, i ara també a la catalana. Alhora, el partit independentista que encapçala Jordi Graupera, va publicar un vídeo humorístic en què la IA tornava a la vida Lluís Maria Xirinacs, el pacifista i activista independentista mort el 2007. Al vídeo, Graupera tocava un teclat electrònic mentre un Xirinacs generat per ordinador feia sorolls, ballava i somreia.\n\nEl text que acompanyava el vídeo recordava el discurs de Xirinacs a la Diada del 2002 al Fossar de les Moreres, quan es va declarar «enemic de l'Estat espanyol» i «amic d'ETA», i deia que la part del teclat l'havia feta la IA. Les crítiques van arribar de seguida a les xarxes, de persones anònimes i no d'altres partits: el titllaven d'irrespectuós i ofensiu i demanaven que l'esborressin. Alhora el va retirar al cap de poques hores i ja no es pot veure enlloc.\n\nAbans de retirar-lo, Graupera va explicar a l'Ara que entenia les objeccions, que el vídeo es podia veure com una transgressió i que Xirinacs és per a ell un «mestre» que respecta molt. Va dir que escoltarien les crítiques i en farien una reflexió, i va admetre que no havien demanat permís a la família: de les tres germanes de Xirinacs, monges de clausura, només en viu una, de 96 anys. El partit ha publicat després un vídeo més llarg, sense aquest to, sobre el llegat de l'activista.\n\nEl cas no és aïllat. En aquesta campanya, el PP ja va difondre un vídeo en què Pedro Sánchez i altres dirigents socialistes confessaven, gràcies a la IA, delictes que no han comès. La diferència és que aquí no s'atribueixen fets falsos a ningú, però sí que es fa parlar i moure una persona morta sense el consentiment dels seus. Ni la família ni la Fundació Randa–Lluís M. Xirinacs no s'han pronunciat, segons l'Ara, i la legislació electoral no diu res específic sobre la recreació de persones mortes amb IA.",
-    "source": "Ara",
-    "url": "https://www.ara.cat/politica/graupera-ressuscita-xirinacs-ia-pluja-critiques_1_5913074.html",
-    "image": "./assets/alhora-graupera-video-ia-xirinacs-critiques-20261118.jpg",
-    "slug": "alhora-graupera-video-ia-xirinacs-critiques"
   }
 ];
