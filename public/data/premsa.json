@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-19T22:28:53.099Z",
+ "actualitzat": "2026-11-20T05:17:02.724Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "55f1d583258f",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La euforia por la OPV de Anthropic tiene su lógica",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-20/la-euforia-por-la-opv-de-anthropic-tiene-su-logica.html",
+   "publicat": "2026-11-20T04:40:00.000Z"
+  },
+  {
+   "id": "641a4eae4c96",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La histórica OPV de Anthropic deja de lado a los inversores españoles: “Nunca nos llega nada de papel”",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-20/la-historica-opv-de-anthropic-deja-de-lado-a-los-inversores-espanoles-nunca-nos-llega-nada-de-papel.html",
+   "publicat": "2026-11-20T04:30:01.000Z"
+  },
+  {
+   "id": "d0b7a257753d",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Llamadas para comprar una bici, mangos o un tratamiento para la vagina: qué pasa si la IA distribuye tu número de teléfono",
+   "url": "https://elpais.com/tecnologia/2026-11-20/llamadas-para-comprar-una-bici-mangos-o-un-tratamiento-para-la-vagina-que-pasa-si-la-ia-distribuye-tu-numero-de-telefono.html",
+   "publicat": "2026-11-20T04:30:01.000Z"
+  },
+  {
+   "id": "13ab5bbe8d1f",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "No escribas por mí, ‘chatbot’: ¿la resistencia a la IA es un privilegio?",
+   "url": "https://elpais.com/smoda/placeres/2026-11-20/no-escribas-por-mi-chatbot-la-resistencia-a-la-ia-es-un-privilegio.html",
+   "publicat": "2026-11-20T04:30:00.000Z"
+  },
+  {
+   "id": "ea59a4a30705",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El Gobierno libra a las administraciones públicas de las multas millonarias por incumplir la ley europea de IA",
+   "url": "https://cincodias.elpais.com/companias/2026-11-20/el-gobierno-libra-a-las-administraciones-publicas-de-las-multas-millonarias-por-incumplir-la-ley-europea-de-ia.html",
+   "publicat": "2026-11-20T04:15:00.000Z"
+  },
+  {
+   "id": "a0deb45fab54",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic debuta amb una pujada del 17% en la sortida a borsa més gran de la història",
+   "url": "https://www.elperiodico.cat/economia/20261120/anthropic-debuta-amb-pujada-17-136646371",
+   "publicat": "2026-11-20T00:46:00.000Z"
+  },
   {
    "id": "9913477f617b",
    "mitja": "El Periódico",
@@ -419,7 +485,9 @@
    "ambit": "catala",
    "titol": "Agents d’IA que resolen incidències informàtiques en set minuts",
    "url": "https://www.diarideterrassa.com/economia/agents-dia-que-resolen-incidencies-informatiques-en-set-minuts.html",
-   "publicat": "2026-11-19T12:07:37.000Z"
+   "publicat": "2026-11-19T12:07:37.000Z",
+   "noticia": "flexxible-terrassa-flexxsolve-agent-ia-incidencies",
+   "noticiaTitol": "La terrassenca Flexxible llança un agent d'IA que resol sol les incidències informàtiques més habituals, en set minuts de mitjana"
   },
   {
    "id": "98c83fd232a4",
@@ -486,6 +554,17 @@
    "titol": "OPV de Anthropic: los analistas se preguntan si los inversores ya se han perdido lo mejor de la fiesta",
    "url": "https://www.lavanguardia.com/dinero/20261119/11688064/opv-anthropic-analistas-preguntan-inversores-han-perdido-mejor-fiesta.html",
    "publicat": "2026-11-19T10:55:32.000Z"
+  },
+  {
+   "id": "f004fa35b34a",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una recompensa de 75.000 dólares por denunciar a quién copie con IA en el examen más importante del año",
+   "url": "https://www.lasprovincias.es/sociedad/corea-sur-recompensa-20261119105627-nt.html",
+   "publicat": "2026-11-19T09:58:42.000Z"
   },
   {
    "id": "1dd0eb07edd4",
@@ -2689,83 +2768,6 @@
    "titol": "Nvidia nomena una nova consellera delegada interina en ple escàndol",
    "url": "https://empreses.ara.cat/directius/nvidia-nomena-nova-consellera-delegada-interina-ple-escandol_1_5909652.html",
    "publicat": "2026-11-16T06:00:22.000Z"
-  },
-  {
-   "id": "9fcd4921e2e6",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "“Componer con IA es como tener un hijo por inseminación, te pierdes lo divertido”",
-   "url": "https://www.lavanguardia.com/gente/20261116/11684730/carlos-segarra-me-he-hecho-tanto-dano-pensaba.html",
-   "publicat": "2026-11-16T05:53:30.000Z"
-  },
-  {
-   "id": "01173c6a3ff9",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Importa cómo tratas a la IA?",
-   "url": "https://www.lavanguardia.com/videos/20261116/11681088/importa-como-tratas-ia.html",
-   "publicat": "2026-11-16T05:00:00.000Z"
-  },
-  {
-   "id": "7beaa5d3b8c4",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cómo se puede plantar cara a las superpotencias de la IA",
-   "url": "https://www.lavanguardia.com/internacional/20261116/11684837/infraestructura.html",
-   "publicat": "2026-11-16T05:00:00.000Z"
-  },
-  {
-   "id": "8048fac9cbed",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Soy la IA: dime quién eres y te diré a quién votar",
-   "url": "https://www.lavanguardia.com/politica/20261116/11684928/ia-dime-te-dire-votar.html",
-   "publicat": "2026-11-16T05:00:00.000Z"
-  },
-  {
-   "id": "a53fdf36bf9d",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "EuroCop impulsa una seguridad pública más preventiva, conectada y eficaz con inteligencia artificial",
-   "url": "https://www.lavanguardia.com/vida/20261116/11682783/eurocop-impulsa-seguridad-publica-mas-preventiva-conectada-eficaz-inteligencia-artificial-brl.html",
-   "publicat": "2026-11-16T05:00:00.000Z"
-  },
-  {
-   "id": "33852eeb5a49",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "José Viña, experto en longevidad: “La inteligencia artificial nos va a ayudar mucho si se usa con sabiduría”",
-   "url": "https://www.lavanguardia.com/vivo/longevity/20261116/11676105/jose-vina-experto-longevidad-inteligencia-artificial-ayudar-sabiduria-brl.html",
-   "publicat": "2026-11-16T04:55:00.000Z"
-  },
-  {
-   "id": "1d68ba0486fa",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Guerra interna en Compromís de Torrent: Podem borra con IA a la concejal Herrada en la foto de la pegada de carteles electorales",
-   "url": "https://www.levante-emv.com/horta/2026/11/16/guerra-interna-compromis-torrent-borran-herrada-concejal-imagen-136474165.html",
-   "publicat": "2026-11-16T04:32:03.000Z"
   }
  ]
 }
