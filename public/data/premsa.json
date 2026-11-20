@@ -1,8 +1,173 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-20T09:14:50.410Z",
+ "actualitzat": "2026-11-20T13:16:24.074Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "83f20e69dee5",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La corrección del mercado presiona a Anthropic en su segunda jornada en la Bolsa",
+   "url": "https://elpais.com/economia/2026-11-20/la-segunda-jornada-en-bolsa-de-anthropic.html",
+   "publicat": "2026-11-20T13:01:44.000Z"
+  },
+  {
+   "id": "37cc66110691",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El nuevo Meta Muse Charm apunta a diciembre: una IA de bolsillo con pantalla y conexión 5G",
+   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-11-20/el-nuevo-meta-muse-charm-apunta-a-diciembre-una-ia-de-bolsillo-con-pantalla-y-conexion-5g.html",
+   "publicat": "2026-11-20T13:00:00.000Z"
+  },
+  {
+   "id": "bf6d7b851782",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tierra de empresas | La AESIA insta a las empresas a identificar sus sistemas de IA para anticiparse a las nuevas exigencias regulatorias",
+   "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/la-aesia-insta-a-las-empresas-a-identificar-sus-sistemas-de-ia-para-anticiparse-a-las-nuevas-exigencias-regulatorias",
+   "publicat": "2026-11-20T12:23:16.000Z"
+  },
+  {
+   "id": "d5159240de75",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Meta quiere que te olvides del móvil: su pequeño dispositivo de IA costará 300 dólares y llegará a tiempo para Navidad",
+   "url": "https://www.lavanguardia.com/neo/gadgets/20261120/11689126/meta-olvides-movil-pequeno-dispositivo-ia-300-dolares-navidad.html",
+   "publicat": "2026-11-20T12:06:54.000Z"
+  },
+  {
+   "id": "3b70fcee420b",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "L'Ibex 35 es deixa quasi un 0,9 % en l'obertura pels dubtes sobre l'auge de la IA",
+   "url": "https://www.levante-emv.com/en-valencia/2026/11/20/libex-35-deixa-quasi-0-136658870.html",
+   "publicat": "2026-11-20T11:48:42.000Z"
+  },
+  {
+   "id": "7dfcaff2d6d3",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El Ibex pierde los 19.000 puntos en plena huida de la inteligencia artificial",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-20/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-11-20T11:47:34.000Z"
+  },
+  {
+   "id": "1b938d20bba7",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Google construeix un internet aïllat per entrenar els seus agents d'IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/google-construeix-internet-aillat-entrenar-seus-agents-ia_1728599_102.html",
+   "publicat": "2026-11-20T10:43:15.000Z"
+  },
+  {
+   "id": "83386573d84a",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Ignacio Medrano, fundador de Savana: \"Tener una IA médica va a ser algo completamente normal en nuestras vidas\"",
+   "url": "https://www.informacion.es/economia/2026/11/20/ignacio-medrano-savana-136651544.html",
+   "publicat": "2026-11-20T10:27:01.000Z"
+  },
+  {
+   "id": "bf04c97e3756",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Michael Jordan, el gurú que advierte sobre el peligro de la superinteligencia: \"Los riesgos reales son el empleo y la desigualdad\"",
+   "url": "https://www.informacion.es/alicante/2026/11/20/michael-jordan-rompe-relato-dominante-inteligencia-artificial-forum-europeo-ia-136653966.html",
+   "publicat": "2026-11-20T10:24:21.000Z"
+  },
+  {
+   "id": "f3496e54cb80",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Detenidos en Barcelona, Guipúzcoa, Málaga y Melilla cuatro yihadistas que usaban la IA para la radicalización",
+   "url": "https://www.levante-emv.com/espana/2026/11/20/detenidos-barcelona-guipuzcoa-malaga-melilla-136655673.html",
+   "publicat": "2026-11-20T10:22:54.000Z"
+  },
+  {
+   "id": "9ac3e72238aa",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Google crea un Internet aislado para evaluar y entrenar a sus agentes de IA sin riesgos",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/20/2753907/google-crea-internet-aislado-para-evaluar-entrenar-agentes-riesgos.html",
+   "publicat": "2026-11-20T10:18:00.000Z"
+  },
+  {
+   "id": "2146310197d4",
+   "mitja": "El 9 Nou",
+   "font": "el9nou",
+   "icona": "/assets/premsa/el-9-nou.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El CAP del Remei és pioner a aplicar la IA per detectar complicacions de la diabetis",
+   "url": "https://el9nou.cat/osona-ripolles/actualitat/el-cap-del-remei-es-pioner-a-aplicar-la-ia-per-detectar-complicacions-de-la-diabetis",
+   "publicat": "2026-11-20T10:05:00.000Z"
+  },
+  {
+   "id": "8b434f7d839d",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "TikTok presenta una herramienta para verificar si un contenido está hecho con IA",
+   "url": "https://www.elmundo.es/tecnologia/2026/11/20/6b0017cce4d4d891798b45a7.html",
+   "publicat": "2026-11-20T10:03:09.000Z"
+  },
+  {
+   "id": "67651d0dfb3c",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "TikTok estrena una ferramenta per a detectar continguts fets amb IA i reforça el control parental",
+   "url": "https://www.apuntmedia.es/noticies/mon/tiktok-estrena-una-ferramenta-detectar-continguts-fets-ia-reforca-control-parental_1_1910349.html",
+   "publicat": "2026-11-20T09:55:36.000Z"
+  },
+  {
+   "id": "9ad574a8d058",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Apple prepara su propio agente de IA para competir contra OpenAI y Anthropic: podrá controlar tus dispositivos y aplicaciones",
+   "url": "https://www.lavanguardia.com/neo/ia/20261120/11688953/apple-agente-ia-competir-openai-anthropic-controlar-dispositivos-aplicaciones.html",
+   "publicat": "2026-11-20T09:44:28.000Z"
+  },
   {
    "id": "9401d9682f56",
    "mitja": "El Nacional",
@@ -21,7 +186,7 @@
    "icona": "/assets/premsa/informacion.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Luis Barcala: \"El ser humano debe tener el control sobre la inteligencia artificial\"",
+   "titol": "Luis Barcala, alcalde de Alicante: \"El ser humano debe tener el control sobre la inteligencia artificial\"",
    "url": "https://www.informacion.es/economia/2026/11/20/luis-barcala-alicante-ser-humano-debe-control-inteligencia-artificial-136651486.html",
    "publicat": "2026-11-20T09:06:06.000Z"
   },
@@ -76,7 +241,7 @@
    "icona": "/assets/premsa/ultima-hora.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "La Bolsa española abre con caídas del 0,87 % arrastrada por Wall Street, Asia y la IA",
+   "titol": "La Bolsa española abre con caídas del 0,87% arrastrada por Wall Street, Asia y la IA",
    "url": "https://www.ultimahora.es/noticias/nacional/2026/11/20/2753781/bolsa-espanola-abre-caidas-del-arrastrada-por-wall-street-asia-ia.html",
    "publicat": "2026-11-20T08:17:00.000Z"
   },
@@ -90,6 +255,17 @@
    "titol": "Ashton Kutcher da el pelotazo con Anthropic: su inversión de 395 millones ya vale más de 6.400 millones de euros",
    "url": "https://www.elperiodico.com/es/gente/20261120/ashton-kutcher-anthropic-inversion-millonaria-inteligencia-artificial-136649906",
    "publicat": "2026-11-20T08:08:15.000Z"
+  },
+  {
+   "id": "19402c279e2d",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Descubren cómo mejorar los generadores de imagen por inteligencia artificial con 65 veces menos memoria",
+   "url": "https://www.lasprovincias.es/tecnologia/descubren-como-mejorar-generadores-rlt_arx-20261120071130-nt.html",
+   "publicat": "2026-11-20T07:25:30.000Z"
   },
   {
    "id": "4b9ad34f6c42",
@@ -2586,188 +2762,6 @@
    "titol": "Trump avala que Huang vuelva al mando de Nvidia, pese a su relación con una espía china",
    "url": "https://www.lavanguardia.com/economia/20261116/11685735/trump-avala-huang-vuelva-mando-nvidia-pese-relacion-espia-china.html",
    "publicat": "2026-11-16T15:57:31.000Z"
-  },
-  {
-   "id": "7eb73d798967",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Govern da el paso definitivo para implantar la gigafactoría de IA en Móra la Nova",
-   "url": "https://www.diaridetarragona.com/economia/275864/govern-da-paso-definitivo-implantar-gigafactoria-ia-mora-nova.html",
-   "publicat": "2026-11-16T15:04:08.000Z",
-   "noticia": "mora-la-nova-gigafactoria-ia-terrenys-incasol",
-   "noticiaTitol": "El Govern encarrega a l'Incasòl vendre els terrenys de Móra la Nova a la societat que optarà a la gigafactoria europea d'IA"
-  },
-  {
-   "id": "91828de8156a",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un móvil podría detectar las gafas inteligentes con IA que se utilizan para hacer trampas en los exámenes",
-   "url": "https://www.levante-emv.com/tendencias21/2026/11/16/movil-detectar-gafas-inteligentes-ia-136502363.html",
-   "publicat": "2026-11-16T14:09:54.000Z"
-  },
-  {
-   "id": "e4cf25e78e6d",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "OpenAI fa un pas més: ChatGPT ja pot comprar per tu sense conèixer les dades de la teva targeta",
-   "url": "https://www.elnacional.cat/ca/tecnologia/openai-fa-pas-mes-chatgpt-ja-pot-comprar-tu-sense-coneixer-dades-teva-targeta_1726223_102.html",
-   "publicat": "2026-11-16T14:00:00.000Z"
-  },
-  {
-   "id": "4cf81d089b57",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Competencia planea reforzar su sede en Barcelona para convertirla en el regulador de la IA y de plataformas como TikTok",
-   "url": "https://elpais.com/espana/catalunya/2026-11-16/la-cnmc-planea-reforzar-su-sede-en-barcelona-para-convertirla-en-el-regulador-de-la-ia-y-de-plataformas-como-tiktok.html",
-   "publicat": "2026-11-16T13:50:03.000Z"
-  },
-  {
-   "id": "25133a4ae875",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Les ulleres intel·ligents d'Apple es llançaran l'any que ve amb IA i molt més",
-   "url": "https://www.elnacional.cat/ca/tecnologia/ulleres-intelligents-apple-es-llancaran-any-ve-ia-molt-mes_1726244_102.html",
-   "publicat": "2026-11-16T13:00:00.000Z"
-  },
-  {
-   "id": "35d577afd876",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Trump vol que Huang torni a Nvidia però el consell s’hi oposa",
-   "url": "https://www.ara.cat/economia/tecnologia/alts-directius-silicon-valley-pressionen-restituir-huang-capdavant-nvidia_1_5912075.html",
-   "publicat": "2026-11-16T12:38:58.000Z"
-  },
-  {
-   "id": "48988598d4fa",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Espionaje de seducción: de Sansón y Dalila al escándalo NVIDIA",
-   "url": "https://www.lavanguardia.com/historiayvida/historia-contemporanea/20261116/11685417/espionaje-seduccion-sanson-dalila-escandalo-nvidia.html",
-   "publicat": "2026-11-16T12:28:07.000Z"
-  },
-  {
-   "id": "e3b6b4f1727a",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un conocido chatbot recomendó una tienda falsa de Vero Moda: una red de 10.000 webs clonadas apunta a los compradores españoles y las IAs las dan por buenas",
-   "url": "https://www.lavanguardia.com/neo/ia/20261116/11685120/conocido-chatbot-recomendo-tienda-falsa-vero-moda-red-10-000-webs-clonadas-apunta-compradores-espanoles-ias-dan-buenas.html",
-   "publicat": "2026-11-16T12:15:00.000Z"
-  },
-  {
-   "id": "9edd19c69f62",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Samsung ya tiene listas sus gafas inteligentes con Gemini: fecha de lanzamiento, precio y características",
-   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-11-16/samsung-ya-tiene-listas-sus-gafas-inteligentes-con-gemini-fecha-de-lanzamiento-precio-y-caracteristicas.html",
-   "publicat": "2026-11-16T11:57:42.000Z"
-  },
-  {
-   "id": "06a63654336f",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las nuevas gafas inteligentes de Samsung y Google quieren jubilar al móvil con IA y traducción en tiempo real",
-   "url": "https://www.lavanguardia.com/neo/gadgets/20261116/11685393/nuevas-gafas-inteligentes-samsung-google-ia-traduccion.html",
-   "publicat": "2026-11-16T11:54:45.000Z"
-  },
-  {
-   "id": "8cc82f3a8da9",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La CNMC convertirá su sede de Barcelona en el ‘hub’ digital del regulador para impulsar la IA y la red 6G",
-   "url": "https://www.elperiodico.com/es/economia/20261116/cnmc-convertira-sede-barcelona-hub-136492756",
-   "publicat": "2026-11-16T11:42:01.000Z",
-   "noticia": "cnmc-seu-barcelona-hub-digital-ia-6g",
-   "noticiaTitol": "La CNMC farà de la seva seu de Barcelona el centre de la nova feina del regulador en IA, 6G i audiovisual"
-  },
-  {
-   "id": "a5b1f0a595f0",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic recibe una demanda de acciones casi siete veces mayor a su oferta para salir a Bolsa",
-   "url": "https://elpais.com/economia/2026-11-16/anthropic-recibe-una-demanda-de-acciones-casi-siete-veces-mayor-a-su-oferta-para-salir-a-bolsa.html",
-   "publicat": "2026-11-16T11:39:16.000Z"
-  },
-  {
-   "id": "558d1f786080",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Digital-IA llega a Albal para acercar la inteligencia artificial a la ciudadanía y al tejido profesional",
-   "url": "https://www.levante-emv.com/lhorta/lhorta-sud/2026/11/16/digital-ia-llega-albal-acercar-bc-136493429.html",
-   "publicat": "2026-11-16T11:36:31.000Z"
-  },
-  {
-   "id": "61308fdb841a",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Gobierno surcoreano se reúne de urgencia para evitar que los estudiantes usen IA durante la selectividad",
-   "url": "https://www.lavanguardia.com/vida/20261116/11685375/gobierno-surcoreano-reune-urgencia-evitar-estudiantes-usen-ia-selectividad.html",
-   "publicat": "2026-11-16T11:30:31.000Z",
-   "noticia": "corea-del-sud-selectivitat-ia-equip-emergencia",
-   "noticiaTitol": "Corea del Sud crea un equip d'emergència contra les trampes amb IA a tres dies de la selectivitat de mig milió d'estudiants"
-  },
-  {
-   "id": "9abe318f9c1f",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Mundo Today | Que el CEO de Nvidia invirtiera millones en ratafía apunta a que también salió con una espía catalana",
-   "url": "https://www.elperiodico.com/es/que-hacer/20261116/mundo-today-barcelona-ceo-nvidia-millones-ratafia-espia-catalana-136492237",
-   "publicat": "2026-11-16T11:26:00.000Z"
-  },
-  {
-   "id": "eb39b81206df",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El gran fracaso en taquilla de la primera película generada por IA en China: su estreno deja las salas de cine vacías",
-   "url": "https://www.lavanguardia.com/neo/ia/20261116/11685311/fracaso-taquilla-primera-pelicula-generada-ia-china-estreno-salas-cine.html",
-   "publicat": "2026-11-16T10:41:22.000Z"
   }
  ]
 }
