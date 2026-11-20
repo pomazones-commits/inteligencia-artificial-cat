@@ -1,8 +1,107 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-20T05:17:02.724Z",
+ "actualitzat": "2026-11-20T09:14:50.410Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "9401d9682f56",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "TikTok estrena una eina per detectar contingut generat per IA",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/tiktok-estrena-eina-detectar-contingut-generat-ia_1728512_102.html",
+   "publicat": "2026-11-20T09:07:27.000Z"
+  },
+  {
+   "id": "002ef95d943b",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Luis Barcala: \"El ser humano debe tener el control sobre la inteligencia artificial\"",
+   "url": "https://www.informacion.es/economia/2026/11/20/luis-barcala-alicante-ser-humano-debe-control-inteligencia-artificial-136651486.html",
+   "publicat": "2026-11-20T09:06:06.000Z"
+  },
+  {
+   "id": "629b0f1de9f6",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las dudas con la IA persisten y castigan a las bolsas pese al debut de Anthropic",
+   "url": "https://www.lavanguardia.com/economia/20261120/11688899/mercados-bolsa-anthropic-ia.html",
+   "publicat": "2026-11-20T08:43:24.000Z"
+  },
+  {
+   "id": "173e4db0c4a6",
+   "mitja": "Levante-EMV",
+   "font": "levante",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "EN DIRECTO | El ADDA acoge el V Forum Europeo de Inteligencia Artificial bajo el lema \"La nueva realidad para la humanidad\"",
+   "url": "https://www.levante-emv.com/videos/2026/11/20/directo-adda-acoge-v-forum-europeo-inteligencia-artificial-nueva-realidad-humanidad-136651949.html",
+   "publicat": "2026-11-20T08:41:22.000Z"
+  },
+  {
+   "id": "9942827b927e",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Ibex 35 se deja casi un 0,9% en la apertura ante las dudas sobre el auge de la IA",
+   "url": "https://www.informacion.es/economia/2026/11/20/ibex-35-deja-0-9-136651637.html",
+   "publicat": "2026-11-20T08:35:01.000Z"
+  },
+  {
+   "id": "4eb8c2aeabd5",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El ADDA acoge la segunda jornada del V Forum Europeo de Inteligencia Artificial",
+   "url": "https://www.informacion.es/fotos/alicante/2026/11/20/adda-acoge-segunda-jornada-v-forum-europeo-inteligencia-artificial-136651552.html",
+   "publicat": "2026-11-20T08:33:51.000Z"
+  },
+  {
+   "id": "6eae9af93a23",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Bolsa española abre con caídas del 0,87 % arrastrada por Wall Street, Asia y la IA",
+   "url": "https://www.ultimahora.es/noticias/nacional/2026/11/20/2753781/bolsa-espanola-abre-caidas-del-arrastrada-por-wall-street-asia-ia.html",
+   "publicat": "2026-11-20T08:17:00.000Z"
+  },
+  {
+   "id": "f940a20d1b9d",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Ashton Kutcher da el pelotazo con Anthropic: su inversión de 395 millones ya vale más de 6.400 millones de euros",
+   "url": "https://www.elperiodico.com/es/gente/20261120/ashton-kutcher-anthropic-inversion-millonaria-inteligencia-artificial-136649906",
+   "publicat": "2026-11-20T08:08:15.000Z"
+  },
+  {
+   "id": "4b9ad34f6c42",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los límites de la IA",
+   "url": "https://www.lavanguardia.com/participacion/red-lectores/20261120/11687059/limites-ia.html",
+   "publicat": "2026-11-20T05:00:00.000Z"
+  },
   {
    "id": "55f1d583258f",
    "mitja": "Cinco Días",
@@ -68,6 +167,28 @@
    "titol": "Anthropic debuta amb una pujada del 17% en la sortida a borsa més gran de la història",
    "url": "https://www.elperiodico.cat/economia/20261120/anthropic-debuta-amb-pujada-17-136646371",
    "publicat": "2026-11-20T00:46:00.000Z"
+  },
+  {
+   "id": "2442b1f5a5b5",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El científic que vol salvar el món dels riscos de la intel·ligència artificial",
+   "url": "https://www.elperiodico.cat/economia/20261120/cientific-vol-salvar-mon-dels-136646396",
+   "publicat": "2026-11-20T00:45:58.000Z"
+  },
+  {
+   "id": "ad893d6e7f99",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "California investiga a Nvidia por posibles transferencias de chips avanzados a China",
+   "url": "https://elpais.com/us/2026-11-19/california-investiga-a-nvidia-por-posibles-transferencias-de-chips-avanzados-a-china.html",
+   "publicat": "2026-11-19T23:36:56.000Z"
   },
   {
    "id": "9913477f617b",
@@ -164,9 +285,9 @@
    "icona": "/assets/premsa/el-nacional.webp",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Ashton Kutcher, els 7 fundadors i milers d'empleats fan el cop amb Anthropic",
+   "titol": "Ashton Kutcher, els 7 fundadors i milers d'empleats fan l'agost amb Anthropic",
    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/ashton-kutcher-7-fundadors-milers-empleats-fan-cop-anthropic_1728332_102.html",
-   "publicat": "2026-11-19T18:38:55.000Z"
+   "publicat": "2026-11-19T18:38:00.000Z"
   },
   {
    "id": "780293e89e83",
@@ -199,7 +320,9 @@
    "ambit": "catala",
    "titol": "Lucilla Sioli (Oficina Europea de IA), sobre los deepfakes y otras prácticas en campaña: \"Los políticos también están sujetos al reglamento europeo de IA\"",
    "url": "https://www.informacion.es/economia/2026/11/19/lucilla-sioli-oficina-europea-ia-136631353.html",
-   "publicat": "2026-11-19T17:34:48.000Z"
+   "publicat": "2026-11-19T17:34:48.000Z",
+   "noticia": "alacant-forum-europeu-ia-sioli-politics-reglament-deepfakes",
+   "noticiaTitol": "La directora de l'Oficina Europea d'IA avisa a Alacant que els polítics també han de complir el reglament europeu i etiquetar els vídeos falsos"
   },
   {
    "id": "f07590f4c754",
@@ -219,7 +342,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Las acciones de Anthropic suben a 111,50 dólares, un 34% más de su precio, al entrar en bolsa",
+   "titol": "Anthropic se dispara en una salida a bolsa récord tras las dudas en el sector",
    "url": "https://www.lavanguardia.com/economia/20261119/11688284/acciones-anthropic-suben-111-50-dolares-34-mas-precio-entrar-bolsa.html",
    "publicat": "2026-11-19T16:57:08.000Z"
   },
@@ -2645,129 +2768,6 @@
    "titol": "El gran fracaso en taquilla de la primera película generada por IA en China: su estreno deja las salas de cine vacías",
    "url": "https://www.lavanguardia.com/neo/ia/20261116/11685311/fracaso-taquilla-primera-pelicula-generada-ia-china-estreno-salas-cine.html",
    "publicat": "2026-11-16T10:41:22.000Z"
-  },
-  {
-   "id": "a47a240b7ef2",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las gafas inteligentes de Apple, previstas para la WWDC 2027, usarán Siri AI para acceder a las apps del iPhone por voz",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/16/2750885/gafas-inteligentes-apple-previstas-para-wwdc-2027-usaran-siri-para-acceder-apps-del-iphone-por-voz.html",
-   "publicat": "2026-11-16T10:40:00.000Z"
-  },
-  {
-   "id": "95dd5961dbff",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La caída global de Microsoft se debió a un fallo introducido por la compañía hace meses y que tumbó el 80% de sus servidores",
-   "url": "https://elpais.com/tecnologia/2026-11-16/la-caida-global-de-microsoft-se-debio-a-un-fallo-introducido-por-la-compania-hace-meses-y-que-tumbo-el-80-de-sus-servidores.html",
-   "publicat": "2026-11-16T09:59:24.000Z"
-  },
-  {
-   "id": "a9c368bf4b4d",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Jensen Huang planea su regreso como director ejecutivo de Nvidia",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261116/jensen-huang-planea-regreso-director-nvidia-dimision-escandalo-relacion-espia-china-chips-ia-136485469",
-   "publicat": "2026-11-16T09:37:55.000Z"
-  },
-  {
-   "id": "dbf6d7e7d6fc",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Indecisión en las Bolsas europeas por la incertidumbre sobre Nvidia y Anthropic",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-16/la-bolsa-y-el-ibex-35.html",
-   "publicat": "2026-11-16T09:25:03.000Z"
-  },
-  {
-   "id": "c92325754457",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Jensen Huang analitza, amb aliats com Elon Musk, el seu possible retorn a la direcció de Nvidia",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/jensen-huang-analitza-aliats-com-elon-musk-seu-possible-retorn-direccio-nvidia_1725998_102.html",
-   "publicat": "2026-11-16T08:55:00.000Z"
-  },
-  {
-   "id": "96b0146ae461",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El entorno de Jensen Huang presiona a Nvidia para que vuelva como consejero delegado",
-   "url": "https://www.lavanguardia.com/dinero/20261116/11685170/presiones-regreso-jensen-huang-consejero-delegado-nvidia.html",
-   "publicat": "2026-11-16T08:49:49.000Z"
-  },
-  {
-   "id": "d91182e7085f",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Ibex 35 recupera los 20.000 puntos en una semana marcada por Nvidia y la Fed",
-   "url": "https://www.informacion.es/economia/2026/11/16/ibex-35-recupera-20-000-136484810.html",
-   "publicat": "2026-11-16T08:29:40.000Z"
-  },
-  {
-   "id": "7dac7c04da54",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Inteligencia artificial para localizar buques fantasma: logran cruzar señales de satélite con el tráfico marítimo",
-   "url": "https://www.lasprovincias.es/tecnologia/inteligencia-artificial-para-localizar-rlt_arx-20261116071131-nt.html",
-   "publicat": "2026-11-16T07:25:31.000Z"
-  },
-  {
-   "id": "20e4fc174be3",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Alibaba presenta Qwen4-Max, su nuevo modelo de IA marcado por estrictas salvaguardas de ciberseguridad",
-   "url": "https://www.elmundo.es/tecnologia/innovacion/2026/11/16/6afaa92421efa0e4508b457a.html",
-   "publicat": "2026-11-16T06:56:39.000Z"
-  },
-  {
-   "id": "52b78375c524",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "En defensa dels cartells municipals sense IA: Tarragona, Arbúcies i Alcarràs ja els han prohibit",
-   "url": "https://www.3cat.cat/3catinfo/en-defensa-dels-cartells-municipals-sense-ia-tarragona-arbucies-i-alcarras-ja-els-han-prohibit/noticia/3438913",
-   "publicat": "2026-11-16T06:23:27.000Z",
-   "noticia": "cartells-municipals-sense-ia-tarragona-arbucies-alcarras",
-   "noticiaTitol": "Tarragona, Arbúcies i Alcarràs prohibeixen la IA als cartells municipals, mentre pobles petits com Ordis la defensen per falta de mitjans"
-  },
-  {
-   "id": "39a83f96bec1",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia nomena una nova consellera delegada interina en ple escàndol",
-   "url": "https://empreses.ara.cat/directius/nvidia-nomena-nova-consellera-delegada-interina-ple-escandol_1_5909652.html",
-   "publicat": "2026-11-16T06:00:22.000Z"
   }
  ]
 }
