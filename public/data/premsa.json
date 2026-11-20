@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-20T13:16:24.074Z",
+ "actualitzat": "2026-11-20T13:39:24.778Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "1803cee5f5a8",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Así ha sido la segunda jornada del V Fórum europeo de IA",
+   "url": "https://www.informacion.es/videos/informaciontv/2026/11/20/sido-segunda-jornada-v-forum-136666737.html",
+   "publicat": "2026-11-20T13:23:35.000Z"
+  },
   {
    "id": "83f20e69dee5",
    "mitja": "Cinco Días",
@@ -2751,17 +2762,6 @@
    "titol": "Elche | Innovación colabora en los cursos sobre IA e impresión 3D en el calzado en la Learning Factory de Elche",
    "url": "https://alicanteplaza.es/alicanteplaza/elcheplaza/innovacion-colabora-en-los-cursos-sobre-ia-e-impresion-3d-en-el-calzado-en-la-learning-factory-escuela-municipal-de-calzado-de-elche",
    "publicat": "2026-11-16T15:58:59.000Z"
-  },
-  {
-   "id": "e2878b7f7700",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Trump avala que Huang vuelva al mando de Nvidia, pese a su relación con una espía china",
-   "url": "https://www.lavanguardia.com/economia/20261116/11685735/trump-avala-huang-vuelva-mando-nvidia-pese-relacion-espia-china.html",
-   "publicat": "2026-11-16T15:57:31.000Z"
   }
  ]
 }
