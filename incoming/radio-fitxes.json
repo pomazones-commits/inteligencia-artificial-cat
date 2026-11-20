@@ -1,1 +1,22 @@
-{"fitxes": [], "descartats": []}
+{
+  "fitxes": [
+    {
+      "id": "rtve-17323044",
+      "emissora": "Ràdio 4",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
+      "data": "2026-11-19",
+      "durada": "53 min",
+      "titol": "Esteve Almirall i Miguel Anxo Bastos debaten a La tarda de Ràdio 4 si la sortida a borsa d'Anthropic mostra el poder de la IA o una bombolla",
+      "convidats": [
+        {"nom": "Esteve Almirall", "rol": "expert en innovació i intel·ligència artificial"},
+        {"nom": "Miguel Anxo Bastos", "rol": "doctor en ciència política per la Universitat de Santiago de Compostela"}
+      ],
+      "resum": "La primera hora del programa del 19 de novembre dedica un bloc a l'estrena rècord d'Anthropic, l'empresa que fa Claude, a Wall Street. Esteve Almirall i Miguel Anxo Bastos hi discuteixen si l'operació demostra la força econòmica de la intel·ligència artificial o si és el senyal d'una bombolla que pot esclatar. El mateix programa parla també de la cimera de Trump, Putin i Xi.",
+      "tema": "poder",
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-primera-hora-les-4-tarda-reunio-trump-putin-xi-jiping-antrophic/17323044/",
+      "reproductor": {"tipus": "rtve", "id": "17323044"}
+    }
+  ],
+  "descartats": []
+}
