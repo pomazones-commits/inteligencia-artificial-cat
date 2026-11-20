@@ -1,8 +1,44 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-20T17:15:59.347Z",
+ "actualitzat": "2026-11-20T22:21:25.778Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "mX7wHNnsghs",
+   "titol": "How to claim your business in ChatGPT with Shopify",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-11-20T20:48:27.000Z",
+   "descripcio": "Claim your business in ChatGPT by connecting your Shopify store. This demo shows how to start in Business Hub or the Shopify App Store, then connect your store directly to ChatGPT. After that, you can manage your business information to shape how you show up in ChatGPT. Claim your business in Busine",
+   "miniatura": "/assets/videos/mX7wHNnsghs.jpg"
+  },
+  {
+   "id": "WN-JK-hMAyg",
+   "titol": "Google Antigravity and Gemini 4: Creating an interactive MIDI mapped 3D world",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-20T20:00:04.000Z",
+   "descripcio": "Tune in to learn how creative technologist Tiago Aragona orchestrates modular 3D modeling, custom synthesizer design, and MIDI mapping into an interactive, real time audio-reactive Unity world using Antigravity and Gemini 4. Watch to explore the build! What will you create with Google Antigravity an",
+   "miniatura": "/assets/videos/WN-JK-hMAyg.jpg"
+  },
+  {
+   "id": "fWHEifj10H0",
+   "titol": "Jordi Hereu (PSC): \"No li pregunto res a la intel·ligència artificial\"",
+   "canal": "3CatInfo",
+   "canalId": "UCKseJ43xWvnywQzl6kYbf0g",
+   "grup": "catala",
+   "categoria": "societat",
+   "idioma": "ca",
+   "publicat": "2026-11-20T19:00:38.000Z",
+   "descripcio": "Assegura que ni fa servir la intel·ligència artificial ni compra res per internet. Es declara un apassionat del món antic. I l'indigna l'abús. Jordi Hereu Boher és el cap de llista del PSC per Barcelona a les eleccions generals del 29N i torna a afrontar una campanya electoral gairebé 20 anys despré",
+   "miniatura": "/assets/videos/fWHEifj10H0.jpg"
+  },
   {
    "id": "WGvsk0LIveU",
    "titol": "3 ChatGPT Tips to Save Money",
@@ -1036,29 +1072,6 @@
    "noticia": "tecnologiques-borsa-dubtes-despesa-ia-google-intel",
    "noticiaTitol": "Les tecnològiques s'enfonsen a la borsa pels dubtes sobre la despesa en IA: Intel cau prop d'un 30% i Google perd 500.000 milions en un dia",
    "resum": "Peça de 3CatInfo sobre la forta caiguda de les accions de les grans tecnològiques pels dubtes sobre la rendibilitat de les inversions en IA. Segons la descripció del canal, el Nasdaq va tancar l'octubre amb la pitjor caiguda en un any i mig."
-  },
-  {
-   "id": "LRSJXRsKmLQ",
-   "titol": "NVIDIA GTC Berlin 2026 Event Highlights: AI in Action Across Europe",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "empreses",
-   "idioma": "en",
-   "publicat": "2026-10-30T20:27:20.000Z",
-   "descripcio": "Relive NVIDIA GTC Berlin 2026, where developers, researchers, startups, partners, and industry leaders came together to explore the ideas and technology shaping AI across Europe and around the world. From NVIDIA CEO Jensen Huang’s keynote at Tempodrom and packed sessions at STATION-Berlin to hands-o",
-   "miniatura": "/assets/videos/LRSJXRsKmLQ.jpg"
-  },
-  {
-   "id": "o4D1J1YWjhg",
-   "titol": "There are many futures. Which do you want to build?",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "altres",
-   "idioma": "en",
-   "publicat": "2026-10-30T20:17:12.000Z",
-   "miniatura": "/assets/videos/o4D1J1YWjhg.jpg"
   },
   {
    "id": "sFfPkUJd_Jk",
