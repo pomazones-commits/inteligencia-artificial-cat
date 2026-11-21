@@ -1,5 +1,74 @@
 window.IA_NEWS = [
   {
+    "category": "MERCATS",
+    "read": "4 MIN",
+    "slug": "nasdaq-cau-5-3-nvidia-14-anthropic-segona-jornada",
+    "title": "ACTUALITZACIÓ: El Nasdaq s'enfonsa un 5,3% en un sol dia, Nvidia perd gairebé un 14% i Anthropic cau un 9% en la seva segona jornada a la borsa",
+    "excerpt": "La sessió de divendres a Wall Street va castigar sobretot els fabricants de xips i les empreses de càlcul més lligades a la velocitat d'implantació de la IA. Anthropic, que dijous s'havia estrenat amb una pujada del 17%, va tancar a uns 88 dòlars, encara per sobre del preu de sortida.",
+    "sourceName": "Ara",
+    "sourceUrl": "https://www.ara.cat/economia/tecnologia/anthropic-s-enfonsa-prop-d-8-segona-jornada-borsa_1_5917228.html",
+    "sourceDate": "20 de novembre de 2026",
+    "body": "Aquesta setmana havia de ser la de la gran prova de confiança en la intel·ligència artificial: Nvidia presentava resultats i Anthropic, l'empresa que fa Claude, sortia a la borsa amb l'operació més gran de la història. Però Wall Street ja venia de diverses sessions de caigudes pels dubtes sobre si les inversions milionàries en IA donaran prou ingressos, i dijous l'estrena d'Anthropic no va servir per aturar-les.\n\nDivendres la caiguda es va accelerar. Segons les dades de tancament que recull l'Ara, l'índex tecnològic Nasdaq va perdre un 5,3% en una sola sessió i Nvidia, el gran fabricant de xips per a IA, va baixar un 13,8%, fins a poc més de 125 dòlars per acció. Anthropic, que dijous havia tancat a uns 97 dòlars, un 17% per sobre del preu de sortida de 83 dòlars, va acabar la segona jornada a uns 88 dòlars, gairebé un 9% menys. SpaceX, que també cotitza des de fa poc, va caure més d'un 7% i es va quedar per sota del seu preu de sortida.\n\nLa venda massiva es va concentrar en les empreses més exposades al ritme amb què s'implanta la IA, sobretot els fabricants de xips i els proveïdors de capacitat de càlcul. És un senyal que els inversors comencen a separar l'entusiasme per la tecnologia de la paciència per esperar-ne els beneficis, una inquietud que ja havien expressat aquesta mateixa setmana el Banc Central Europeu i la Reserva Federal.\n\nCal llegir les xifres amb prudència. Les cotitzacions d'una sola sessió són molt volàtils i les dades de tancament que publiquen els mitjans a última hora poden variar lleugerament. Les cròniques consultades no atribueixen la caiguda a cap fet concret, i Anthropic, malgrat la baixada, encara cotitza per sobre del preu al qual va vendre les accions. Que sigui l'inici d'una correcció més llarga o una sacsejada passatgera, ho diran les properes setmanes.",
+    "image": "./assets/nasdaq-cau-5-3-nvidia-14-anthropic-segona-jornada-20261121.jpg"
+  },
+  {
+    "category": "POLÍTICA",
+    "read": "4 MIN",
+    "slug": "trump-amenaca-impost-centres-dades-ia-estranger",
+    "title": "Trump amenaça amb un impost «enorme» les empreses dels Estats Units que construeixin centres de dades d'IA a l'estranger",
+    "excerpt": "El president nord-americà ho va anunciar en una roda de premsa a la Casa Blanca i va admetre que ni el seu equip no ho sabia. No en va donar cap detall: ni la quantia, ni a quins països afectaria, ni com s'aplicaria.",
+    "sourceName": "CNBC",
+    "sourceUrl": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+    "sourceDate": "20 de novembre de 2026",
+    "body": "Les grans tecnològiques dels Estats Units, com Amazon, Alphabet, Microsoft, Meta i Oracle, fa anys que construeixen centres de dades arreu del món. Els serveis al núvol necessiten instal·lacions a prop dels clients, i en alguns països la normativa obliga a guardar-hi les dades. La febre de la IA ha multiplicat aquests projectes, i molts governs, també a Europa, competeixen per atreure'ls.\n\nDivendres, en una roda de premsa a la Casa Blanca, Donald Trump va dir que impediria que les empreses nord-americanes construïssin centres de dades en altres països. Després ho va matisar: «Poden fer-ho», però «hi posarem un impost enorme». «Lluitarem molt fort pels centres de dades», va afegir, i va reconèixer que la idea era nova fins i tot per al seu equip: «Encara no els ho havia dit. Però els ho dic ara, que són aquí». L'anunci va arribar l'endemà de la cimera de Shenzhen amb Xi Jinping i Vladímir Putin, que va acabar sense acords concrets.\n\nSi es fes realitat, la mesura podria alterar els plans d'inversió de les grans empreses del sector fora dels Estats Units, en un moment en què Europa intenta guanyar capacitat de càlcul pròpia. Al mateix temps, xoca amb la resistència que els centres de dades troben dins del país: segons una enquesta de la mateixa CNBC, el 64% dels votants registrats s'oposarien a tenir-ne un a menys de 16 quilòmetres de casa, i només el 13% hi estarien a favor.\n\nDe moment, però, és només una declaració. Trump no va explicar de quant seria l'impost, a quins països afectaria, com s'aplicaria ni si passaria per un decret o pel Congrés. Amazon, Google, Microsoft i Oracle no van respondre a les preguntes de la CNBC. Caldrà veure si l'anunci es converteix en una norma o es queda, com altres vegades, en una advertència sense concreció.",
+    "image": "./assets/trump-amenaca-impost-centres-dades-ia-estranger-20261121-foto.jpg",
+    "imageCredit": "Rick Obst / Wikimedia Commons",
+    "imageLicense": "CC BY 4.0",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Haven%27t_We_Had_Enough_of_Donald_Trump_Yet.jpg",
+    "etiquetes": [
+      "centres-de-dades"
+    ]
+  },
+  {
+    "category": "CIÈNCIA",
+    "read": "5 MIN",
+    "slug": "metr-actualitza-grafic-horitzo-temporal-tasques-obertes",
+    "title": "Els models d'IA més avançats encara no saben dissenyar proves útils per avaluar altres IA, segons la nova versió del gràfic de METR",
+    "excerpt": "L'organització d'avaluació METR ha afegit tasques més llargues i obertes a la seva mesura més citada. Les capacitats continuen creixent de pressa, però els models fallen quan cal criteri: cap de les avaluacions que van dissenyar no va servir als investigadors.",
+    "sourceName": "MIT Technology Review",
+    "sourceUrl": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+    "sourceDate": "20 de novembre de 2026",
+    "body": "METR és una organització sense ànim de lucre que mesura què poden fer els models d'IA. El seu gràfic més conegut classifica les tasques segons quant de temps hi dediquen les persones i comprova quines són les més llargues que un model aconsegueix completar. La versió original mostrava que la durada d'aquestes tasques es doblava cada quatre mesos, però tenia un punt feble: gairebé totes eren de programació i fàcils de corregir automàticament.\n\nLa nova actualització, que explica MIT Technology Review, hi afegeix tasques molt més llargues i més obertes, que no tenen una resposta única. En una, els models havien de dissenyar avaluacions noves que METR pogués fer servir en la seva recerca, i el personal de l'organització en puntuava el resultat. Cap no va ser prou bona per ser útil, tot i que els millors models ja superen gairebé qualsevol persona en enginyeria de programari. Els més recents, com Claude Opus 5.5, van quedar «just per sobre del llindar»; fa un any, tots en quedaven clarament per sota. En una altra prova, puntuar arguments filosòfics, els models també van quedar per darrere de les persones.\n\nEl resultat importa perquè el debat sobre si la IA podrà accelerar sola la recerca en IA depèn justament d'aquestes feines de criteri, no de les de programació. Les capacitats mesurables continuen creixent de manera exponencial, però el salt cap a la feina oberta és més lent. «Les avaluacions d'IA han de començar a ser més creatives», resumeix l'investigador Sayash Kapoor, que creu que el bon criteri en recerca serà un coll d'ampolla important.\n\nEls mateixos autors avisen dels límits. La majoria de durades de les tasques noves són estimacions, perquè pagar persones per fer feines de centenars d'hores és massa car. La prova filosòfica la va puntuar gairebé tota una sola persona, i dins de METR no hi ha acord sobre fins a quin punt és rellevant. «Per naturalesa, les tasques difícils de verificar són molt més difícils d'estudiar i sobretot de quantificar», admet Matt Putz, de METR. La investigadora Najoung Kim diu que encara no sap com s'han d'extrapolar aquestes tendències.",
+    "image": "./assets/metr-actualitza-grafic-horitzo-temporal-tasques-obertes-20261121.jpg"
+  },
+  {
+    "category": "GEOPOLÍTICA",
+    "read": "4 MIN",
+    "slug": "cursor-deixaria-models-xinesos-informe-cambra-representants",
+    "title": "Cursor, l'eina de programació amb IA de SpaceX, estudia deixar els models xinesos per risc geopolític, segons un informe de la Cambra de Representants",
+    "excerpt": "Dues comissions del Congrés dels Estats Units han investigat durant mesos per què les empreses nord-americanes fan servir models oberts xinesos. Conclouen que són barats i gairebé tan bons com els millors, i demanen un pla públic per crear-ne d'americans.",
+    "sourceName": "CNBC",
+    "sourceUrl": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
+    "sourceDate": "20 de novembre de 2026",
+    "body": "Els models d'IA oberts xinesos, que qualsevol pot descarregar i adaptar, s'han fet un lloc a les empreses dels Estats Units perquè són barats i rendeixen gairebé com els millors. Cursor, l'eina d'ajuda a la programació que SpaceX va comprar aquest estiu per un valor implícit de 60.000 milions de dòlars, n'és un cas: el seu model Composer 2 es va construir a partir de Kimi K2.5, de la xinesa Moonshot AI.\n\nSegons un informe de la Comissió de Seguretat Nacional i de la Comissió Especial sobre la Xina de la Cambra de Representants, que la CNBC ha pogut llegir abans de la publicació, Cursor va explicar als congressistes que vol «estudiar l'abandonament progressiu dels models oberts desenvolupats a la Xina per risc geopolític». Airbnb i DoorDash també van respondre a la investigació sobre el seu ús d'aquests models. L'informe adverteix que Pequín busca quota de mercat i una dependència a llarg termini, i reconeix que els Estats Units no tenen cap alternativa oberta que competeixi en preu i rendiment.\n\nPer omplir aquest buit, les comissions proposen una «iniciativa nacional americana de models oberts», amb capacitat de càlcul pública, eines d'avaluació compartides i accés legal als models punters del país per entrenar-ne de nous. També demanen ampliar el veto a DeepSeek, que des de l'octubre no es pot fer servir als sistemes de les agències federals civils, a tots els models d'IA desenvolupats a la Xina, tant als sistemes federals com en els contractes amb l'administració.\n\nL'informe recull intencions, no decisions: Cursor diu que s'ho planteja, no que ho hagi fet, i ni Cursor, ni SpaceX, ni DoorDash no van respondre a la CNBC. Les propostes són recomanacions que el Congrés encara hauria de convertir en lleis. El pas arriba la mateixa setmana que el Departament de Comerç ha aprovat una norma per impedir que empreses xineses facin servir a distància xips d'IA nord-americans.",
+    "image": "./assets/cursor-deixaria-models-xinesos-informe-cambra-representants-20261121.jpg"
+  },
+  {
+    "category": "ENERGIA",
+    "read": "4 MIN",
+    "slug": "senat-eeuu-llei-permisos-centres-dades-paguen-xarxa",
+    "title": "El Senat dels Estats Units aprova una llei que accelera els permisos energètics i obliga els grans centres de dades a pagar les millores de la xarxa elèctrica",
+    "excerpt": "La reforma, aprovada per 62 vots contra 33, vol desencallar la construcció de línies elèctriques i de noves centrals, que la IA necessita. Els ecologistes alerten que dona un xec en blanc a les petrolieres i als promotors de centres de dades.",
+    "sourceName": "CNBC",
+    "sourceUrl": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+    "sourceDate": "20 de novembre de 2026",
+    "body": "Els centres de dades d'IA necessiten quantitats enormes d'electricitat, i als Estats Units molts projectes, també de renovables, fan cua durant anys per connectar-se a una xarxa que no dona l'abast. Les empreses i una part de la classe política fa temps que demanen simplificar els permisos ambientals i la normativa del transport elèctric.\n\nDijous el Senat va aprovar per 62 vots contra 33 una reforma que fa justament això: suavitza els tràmits ambientals, canvia les regles de les línies de transport i obliga els grans operadors de centres de dades a pagar les millores de la xarxa que facin falta. També impedeix que el president Donald Trump cancel·li projectes eòlics i solars que ja tenen els permisos. Més d'una dotzena de demòcrates, entre ells el líder de la minoria, Chuck Schumer, hi van votar a favor, tot i que la majoria del seu grup s'hi va oposar. Ara la llei ha de passar per la Cambra de Representants.\n\nLa reforma toca de ple la IA: els centres de dades en seran grans beneficiaris, però hauran d'assumir una part del cost de la xarxa que fan créixer, una de les queixes dels consumidors, que temen pagar-ho a la factura. Segons estimacions del Rhodium Group que cita la CNBC, la llei podria permetre construir entre 17 i 249 gigawatts més d'energia neta fins al 2040. «Els treballadors no es poden permetre esperar uns quants anys més», va defensar el senador demòcrata Martin Heinrich, un dels autors.\n\nLes crítiques també són fortes. El Consell de Defensa dels Recursos Naturals diu que la llei dona a Trump «un xec en blanc per premiar les petrolieres i els promotors de centres de dades», i el senador Ron Wyden va intentar sense èxit que no s'hi poguessin construir centres de dades en terrenys públics. Els càlculs del Rhodium Group tenen marges molt amplis, i a la Cambra de Representants els demòcrates arriben dividits: alguns, com Jared Huffman, creuen que es pot aconseguir un acord millor.",
+    "image": "./assets/senat-eeuu-llei-permisos-centres-dades-paguen-xarxa-20261121.jpg",
+    "etiquetes": [
+      "centres-de-dades"
+    ]
+  },
+  {
     "category": "PRIVACITAT",
     "read": "4 MIN",
     "slug": "signal-bloqueja-captures-pantalla-agents-ia-siri-gemini",
