@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-21T05:14:01.942Z",
+  "generat": "2026-11-21T09:13:32.637Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -177,23 +177,5 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": [
-    {
-      "id": "rtve-17324294",
-      "emissora": "Ràdio 4",
-      "programa": "La tarda de Ràdio 4",
-      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
-      "data": "2026-11-20",
-      "durada": "21 min",
-      "titol_original": "Arnau Font: ulleres que ens espien, contrasenyes vulnerables i safaretjos tecnològics, una IA que triomfa als premis musicals",
-      "descripcio_original": "Arnau Font ens porta les últimes notícies sobre la tecnologia. Torna a posar-nos davant de preguntes incòmodes: sabríeu detectar si algú us està gravant amb unes ulleres intel·ligents? Els Països Baixos n’han analitzat diversos models i en desaconsellen la compra per problemes de privacitat i fins i tot errors de la intel·ligència artificial. També parlarem de seguretat digital, amb les contrasenyes més utilitzades i filtrades a Espanya, i de les estafes que es multipliquen amb les campanyes de compres. En l’univers de la IA, seguirem el segon capítol del cas Jensen Huang, descobrirem la pel·lícula que recrea el retorn de Sam Altman a OpenAI i repassarem l’estrena borsària d’Anthropic, l’empresa creadora de Claude, amb una oferta rècord. I acabarem amb música: Xania Monet, una artista virtual creada amb intel·ligència artificial que ja ha guanyat els primers AI Music Awards.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-arnau-font-ulleres-ens-espien-contrasenyes-vulnerables-safaretjos-tecnologics-ia-triomfa-als-premis-musicals/17324294/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17324294"
-      }
-    }
-  ]
+  "candidats": []
 }
