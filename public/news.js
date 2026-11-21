@@ -21,10 +21,10 @@ window.IA_NEWS = [
     "sourceUrl": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
     "sourceDate": "20 de novembre de 2026",
     "body": "Les grans tecnològiques dels Estats Units, com Amazon, Alphabet, Microsoft, Meta i Oracle, fa anys que construeixen centres de dades arreu del món. Els serveis al núvol necessiten instal·lacions a prop dels clients, i en alguns països la normativa obliga a guardar-hi les dades. La febre de la IA ha multiplicat aquests projectes, i molts governs, també a Europa, competeixen per atreure'ls.\n\nDivendres, en una roda de premsa a la Casa Blanca, Donald Trump va dir que impediria que les empreses nord-americanes construïssin centres de dades en altres països. Després ho va matisar: «Poden fer-ho», però «hi posarem un impost enorme». «Lluitarem molt fort pels centres de dades», va afegir, i va reconèixer que la idea era nova fins i tot per al seu equip: «Encara no els ho havia dit. Però els ho dic ara, que són aquí». L'anunci va arribar l'endemà de la cimera de Shenzhen amb Xi Jinping i Vladímir Putin, que va acabar sense acords concrets.\n\nSi es fes realitat, la mesura podria alterar els plans d'inversió de les grans empreses del sector fora dels Estats Units, en un moment en què Europa intenta guanyar capacitat de càlcul pròpia. Al mateix temps, xoca amb la resistència que els centres de dades troben dins del país: segons una enquesta de la mateixa CNBC, el 64% dels votants registrats s'oposarien a tenir-ne un a menys de 16 quilòmetres de casa, i només el 13% hi estarien a favor.\n\nDe moment, però, és només una declaració. Trump no va explicar de quant seria l'impost, a quins països afectaria, com s'aplicaria ni si passaria per un decret o pel Congrés. Amazon, Google, Microsoft i Oracle no van respondre a les preguntes de la CNBC. Caldrà veure si l'anunci es converteix en una norma o es queda, com altres vegades, en una advertència sense concreció.",
-    "image": "./assets/trump-amenaca-impost-centres-dades-ia-estranger-20261121-foto.jpg",
-    "imageCredit": "Rick Obst / Wikimedia Commons",
-    "imageLicense": "CC BY 4.0",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Haven%27t_We_Had_Enough_of_Donald_Trump_Yet.jpg",
+    "image": "./assets/trump-amenaca-impost-centres-dades-ia-estranger-20261121-2-foto.jpg",
+    "imageCredit": "Daniel Torok / Wikimedia Commons",
+    "imageLicense": "Domini públic",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025)_(3x4).jpg",
     "etiquetes": [
       "centres-de-dades"
     ]
