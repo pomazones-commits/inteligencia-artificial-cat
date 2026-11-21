@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-21T09:14:31.858Z",
+ "actualitzat": "2026-11-21T13:05:09.494Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e70774eb10ba",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La intel·ligència artificial podria destruir 400.000 llocs de treball nets en deu anys i posar en risc les cotitzacions",
+   "url": "https://www.apuntmedia.es/noticies/economia/video-intel-ligencia-artificial-destruir-400-000-llocs-treball-nets-deu-anys-posar-risc-cotitzacions_1_1910603.html",
+   "publicat": "2026-11-21T12:14:19.000Z"
+  },
   {
    "id": "f8c2eb10c2d0",
    "mitja": "VilaWeb",
@@ -10,7 +21,7 @@
    "icona": "/assets/premsa/vilaweb.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "El New York Times destapa dècades d’humiliacions i amenaces de Jensen Huang als treballadors de Nvidia",
+   "titol": "The New York Times destapa dècades d’humiliacions i amenaces de Jensen Huang als treballadors de Nvidia",
    "url": "https://www.vilaweb.cat/noticies/new-york-times-destapa-decades-maltractament-jensen-huang-nvidia",
    "publicat": "2026-11-21T08:41:42.000Z"
   },
@@ -24,6 +35,17 @@
    "titol": "La inteligencia artificial cambia el Black Friday: el 55% de los españoles la utilizará para encontrar descuentos",
    "url": "https://www.elperiodico.com/es/economia/20261121/black-friday-espanoles-utilizaran-inteligencia-encontrar-artificial-descuentos-136623319",
    "publicat": "2026-11-21T08:00:50.000Z"
+  },
+  {
+   "id": "f4097e87ab2f",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Comisión Europea investiga cómo defender los procesos electorales de la manipulación con IA",
+   "url": "https://www.informacion.es/internacional/2026/11/21/comision-europea-investiga-defender-procesos-electorales-manipulacion-ia-136688024.html",
+   "publicat": "2026-11-21T07:27:52.000Z"
   },
   {
    "id": "ecf678640d28",
@@ -46,17 +68,6 @@
    "titol": "La agencia de selección que creó su propia IA para democratizar la contratación de personal: “Contratar al candidato perfecto no debería ser un privilegio de las grandes empresas”",
    "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261121/11688213/agencia-seleccion-creo-propia-ia-democratizar-contratacion-personal-contratar-candidato-perfecto-deberia-privilegio-grandes-empresas.html",
    "publicat": "2026-11-21T05:09:19.000Z"
-  },
-  {
-   "id": "dc999771c528",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Comisión Europea investiga cómo defender los procesos electorales de la manipulación con IA",
-   "url": "https://www.elperiodico.com/es/internacional/20261121/comision-europea-investiga-defender-procesos-electorales-manipulacion-ia-136682750",
-   "publicat": "2026-11-21T05:01:52.000Z"
   },
   {
    "id": "6fa8c48f43e5",
@@ -123,6 +134,17 @@
    "titol": "El dilema que agrava la IA: aprovechar una Bolsa más barata o proteger la cartera antes de fin de año",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-21/el-dilema-que-agrava-la-ia-aprovechar-una-bolsa-mas-barata-o-proteger-la-cartera-antes-de-fin-de-ano.html",
    "publicat": "2026-11-21T04:30:01.000Z"
+  },
+  {
+   "id": "e69719e072b5",
+   "mitja": "El Periódico",
+   "font": "elperiodico",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La Comissió Europea investiga com defensar els processos electorals de la manipulació amb IA",
+   "url": "https://www.elperiodico.cat/internacional/20261121/comissio-europea-investiga-defensar-processos-electorals-manipulacio-ia-136682750",
+   "publicat": "2026-11-21T04:01:52.000Z"
   },
   {
    "id": "1dcc4ad36a4c",
@@ -252,7 +274,7 @@
    "icona": "/assets/premsa/3catinfo.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Anthropic baixa un 8,5% a la borsa l'endemà de la seva estrena històrica",
+   "titol": "La por de la bombolla de la IA fa enfonsar el Nasdaq, amb la caiguda de Nvidia i Anthropic",
    "url": "https://www.3cat.cat/3catinfo/anthropic-baixa-un-10-a-la-borsa-lendema-de-la-seva-estrena-historica/noticia/3441122",
    "publicat": "2026-11-20T18:08:54.000Z"
   },
@@ -2744,28 +2766,6 @@
    "titol": "Idoia Salazar, experta en inteligencia artificial, alerta del riesgo de pedir consejo a la IA antes de pensar por nosotros mismos",
    "url": "https://www.levante-emv.com/tendencias21/2026/11/17/idoia-salazar-experta-inteligencia-artificial-136529985.html",
    "publicat": "2026-11-17T10:17:23.000Z"
-  },
-  {
-   "id": "acd8254d4e1f",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El 64% de las firmas auditoras catalanas reconoce un uso bajo o muy bajo de la IA",
-   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/11/17/2751891/firmas-auditoras-catalanas-reconoce-uso-bajo-muy-bajo-ia.html",
-   "publicat": "2026-11-17T10:15:00.000Z"
-  },
-  {
-   "id": "7428be612ad8",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Arte digital sin IA para decorar estas Navidades la plaza Sant Jaume de Barcelona",
-   "url": "https://www.lavanguardia.com/local/barcelona/20261117/11686285/arte-digital-ia-decorar-navidades-plaza-sant-jaume-barcelona.html",
-   "publicat": "2026-11-17T10:11:32.000Z"
   }
  ]
 }
