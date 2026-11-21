@@ -1,6 +1,9 @@
 {
-  "actualitzat": "2026-09-27",
-  "nota": "Banc de retrats: quan el TÍTOL d'una notícia esmenta una d'aquestes persones (pel nom o per un dels àlies, amb majúscules i paraula sencera) i la notícia no porta cap altra foto, automation/scripts/fotos-llicencia.py hi posa el seu retrat. La foto és la que Wikidata té com a imatge principal de la persona (propietat P18, a Wikimedia Commons), o la de «fitxer» si s'hi indica (File:… o openverse:<id>). La llicència i l'autor es comproven cada vegada a Commons/Openverse. Si es repeteix el nom de dues persones, mana la que surt primer al títol. «noSi»: si el títol conté aquest text, aquesta entrada no s'aplica (p. ex. «Daniela Amodei» no ha de treure la foto del seu germà). Per afegir-hi algú: el seu identificador de Wikidata (Q…) i comprovar que té imatge (P18) d'almenys 600 px d'amplada.",
+  "actualitzat": "2026-11-21",
+  "nota": "Banc de retrats: quan el TÍTOL d'una notícia esmenta una d'aquestes persones (pel nom o per un dels àlies, amb majúscules i paraula sencera) i la notícia no porta cap altra foto, automation/scripts/fotos-llicencia.py hi posa el seu retrat. La foto és la que Wikidata té com a imatge principal de la persona (propietat P18, a Wikimedia Commons), o la de «fitxer» si s'hi indica (File:… o openverse:<id>). La llicència i l'autor es comproven cada vegada a Commons/Openverse. Si es repeteix el nom de dues persones, mana la que surt primer al títol. «noSi»: si el títol conté aquest text, aquesta entrada no s'aplica (p. ex. «Daniela Amodei» no ha de treure la foto del seu germà). Per afegir-hi algú: el seu identificador de Wikidata (Q…) i comprovar que té imatge (P18) d'almenys 600 px d'amplada. «nomesP18»: true (21.11.2026, Trump) fa servir només la imatge principal de Wikidata (el retrat oficial), sense provar la categoria de Commons ni Openverse. «fotosVetades»: fitxers de Commons («File:…») o d'Openverse («openverse:<id>») que no es poden fer servir MAI, per a ningú; a més, dels candidats de la categoria i d'Openverse es descarten sempre els que pel nom són cartells, pancartes, caricatures, protestes, fitxes policials, murals, etc.",
+  "fotosVetades": [
+    "File:Haven't We Had Enough of Donald Trump Yet.jpg"
+  ],
   "persones": [
     {
       "nom": "Sam Altman",
@@ -325,7 +328,8 @@
       "alies": [
         "Trump"
       ],
-      "wikidata": "Q22686"
+      "wikidata": "Q22686",
+      "nomesP18": true
     },
     {
       "nom": "JD Vance",

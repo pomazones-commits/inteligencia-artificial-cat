@@ -73,6 +73,50 @@ CAMPS_CREDIT = ('imageCredit', 'imageLicense', 'imageSourceUrl')
 LLICENCIES_OPENVERSE = {'by': 'CC BY', 'by-sa': 'CC BY-SA', 'cc0': 'CC0', 'pdm': 'Domini públic'}
 
 
+# 21.11.2026. En Rafael, per segona vegada: la foto de Trump triada del banc era
+# un cartell de protesta («GUILTY! … Haven't We Had Enough Yet?», Rick Obst) i no
+# un retrat. «No tornis a escollir aquesta foto.» Dues defenses:
+#   - `fotosVetades` a automation/retrats.json: fitxers de Commons o d'Openverse que
+#     no s'han de fer servir MAI, ni pel banc ni amb un imageFetch explícit;
+#   - als candidats de la categoria de Commons i d'Openverse (no a la P18), es
+#     descarten els fitxers que pel nom són cartells, pancartes, caricatures,
+#     protestes, fitxes policials, murals…: un retrat de notícia ha de ser la
+#     persona, no una imatge sobre la persona.
+# I `nomesP18: true` en una persona del banc: només la seva imatge principal de
+# Wikidata (el retrat oficial), sense provar la categoria ni Openverse.
+FOTOS_VETADES = set()
+NOMES_P18 = set()
+NO_ES_RETRAT = re.compile(
+    r'(?<![a-z])(signs?|poster|placard|banner|billboard|protest\w*|demonstrat\w*|caricature|cartoon|'
+    r'meme|mugshot|booking photo|mural|graffiti|effigy|pi[ñn]ata|mask|costume|impersonat\w*|parody|'
+    r'satir\w*|guilty|indict\w*|felon\w*|impeach\w*|haven.?t we had enough|sticker|t-shirt|'
+    r'figurine|wax|statue|doll|balloon|float)(?![a-z])', re.I)
+
+
+def normalitza_fitxer(valor):
+    """«File:Nom_del%20fitxer.jpg», l'URL de la pàgina o «openverse:<id>» → clau comparable."""
+    valor = str(valor or '').strip()
+    if valor.lower().startswith('openverse:'):
+        return valor.lower()
+    titol = titol_commons(valor) or valor
+    return urllib.parse.unquote(titol).replace('_', ' ').strip().lower()
+
+
+def configura_banc(cami):
+    """Llegeix `fotosVetades` i les persones amb `nomesP18` del banc de retrats."""
+    try:
+        with open(cami, encoding='utf-8') as f:
+            banc = json.load(f)
+    except (OSError, ValueError):
+        return
+    FOTOS_VETADES.update(normalitza_fitxer(v) for v in banc.get('fotosVetades', []) if v)
+    NOMES_P18.update(p['wikidata'] for p in banc.get('persones', []) if p.get('nomesP18') and p.get('wikidata'))
+
+
+def vetada(valor):
+    return normalitza_fitxer(valor) in FOTOS_VETADES
+
+
 class Rebutjada(Exception):
     """La foto no es pot fer servir; la notícia es queda amb la il·lustració."""
 
@@ -238,6 +282,11 @@ def candidats_wikidata(qid, baixa_fn):
     valor = lambda c: (c.get('mainsnak') or {}).get('datavalue', {}).get('value')  # noqa: E731
     p18 = sorted(claims.get('P18', []), key=lambda c: c.get('rank') != 'preferred')
     titols = [f'File:{valor(c)}' for c in p18 if valor(c)]
+    titols = [t for t in titols if not vetada(t)]
+    if qid in NOMES_P18:
+        if not titols:
+            raise Rebutjada(f'{qid} només admet la imatge principal de Wikidata i no en té cap de vàlida')
+        return titols
     categoria = next((valor(c) for c in claims.get('P373', []) if valor(c)), None)
     if categoria:
         query = urllib.parse.urlencode({
@@ -250,10 +299,11 @@ def candidats_wikidata(qid, baixa_fn):
             ii = (pagina.get('imageinfo') or [{}])[0]
             if ii.get('mime') == 'image/jpeg' and ii.get('width', 0) >= MIN_AMPLADA and ii.get('height', 0) >= MIN_AMPLADA * 0.6:
                 extra.append((ii['width'] * ii['height'], pagina.get('title', '')))
-        titols += [t for _, t in sorted(extra, reverse=True) if t and t not in titols]
+        titols += [t for _, t in sorted(extra, reverse=True)
+                   if t and t not in titols and not vetada(t) and not NO_ES_RETRAT.search(t)]
     # I, si cal, fotos lliures de Flickr i altres fonts d'Openverse que portin el
     # nom de la persona al títol (Commons sovint només en té retalls petits).
-    titols += candidats_openverse(nom_wikidata(qid, baixa_fn), baixa_fn)
+    titols += [t for t in candidats_openverse(nom_wikidata(qid, baixa_fn), baixa_fn) if not vetada(t)]
     if not titols:
         raise Rebutjada(f'{qid} no té imatge a Wikidata')
     return titols
@@ -284,6 +334,7 @@ def candidats_openverse(nom, baixa_fn, maxim=6):
         return []
     clau = nom.lower()
     bons = [r for r in resultats if isinstance(r, dict) and clau in str(r.get('title', '')).lower()
+            and not NO_ES_RETRAT.search(str(r.get('title', '')))
             and (r.get('width') or 0) >= MIN_AMPLADA and (r.get('height') or 0) >= MIN_AMPLADA * 0.6
             and re.match(r'^[0-9a-f-]{36}$', str(r.get('id', '')))]
     return [f'openverse:{r["id"]}' for r in bons[:maxim]]
@@ -619,6 +670,8 @@ def processa(item, fonts, public_dir, data, baixa_fn=baixa, final=True, sufix=''
         slug = item.get('slug', '')
         if not re.match(r'^[a-z0-9]+(?:-[a-z0-9]+)*$', slug):
             raise Rebutjada('slug no vàlid')
+        if vetada(peticio):
+            raise Rebutjada(f'{peticio} és a fotosVetades (automation/retrats.json)')
         nom = f'{slug}-{data.replace("-", "")}{sufix}-foto.jpg'
         desti = os.path.join(public_dir, 'assets', nom)
         if peticio.lower().startswith('wikidata:'):
@@ -665,6 +718,7 @@ def executa(args):
     with open(args.input, encoding='utf-8') as f:
         payload = json.load(f)
     items = payload if isinstance(payload, list) else payload.get('items', [])
+    configura_banc(args.retrats)
     for linia in assigna_retrats(items, carrega_json(args.retrats, 'persones')):
         print(linia)
     if not any(isinstance(i, dict) and i.get('imageFetch') for i in items):
@@ -714,6 +768,7 @@ def refes(args):
         return 0
     fonts = carrega_json(args.sources, 'fonts')
     retrats = carrega_json(args.retrats, 'persones')
+    configura_banc(args.retrats)
     queden = []
     for entrada in cua:
         slug = str((entrada or {}).get('slug', '')).strip()
@@ -933,7 +988,28 @@ def self_test():
         mostra = lambda c: numpy.full((40, 40, 3), c, dtype=numpy.uint8)  # noqa: E731
         assert proporcio_pell(mostra((224, 172, 140))) > 0.9 and proporcio_pell(mostra((120, 75, 50))) > 0.9
         assert proporcio_pell(mostra((45, 55, 80))) == 0 and proporcio_pell(mostra((110, 110, 112))) == 0
-    print('fotos-llicencia: 19 proves OK')
+    # 17. Fotos vetades i fitxers que no són retrats (21.11.2026, cartell de Trump).
+    FOTOS_VETADES.add(normalitza_fitxer("File:Haven't We Had Enough of Donald Trump Yet.jpg"))
+    assert vetada('https://commons.wikimedia.org/wiki/File:Haven%27t_We_Had_Enough_of_Donald_Trump_Yet.jpg')
+    assert vetada("File:Haven't_We_Had_Enough_of_Donald_Trump_Yet.jpg") and not vetada('File:Donald Trump 2025.jpg')
+    assert NO_ES_RETRAT.search('File:Anti-Trump protest sign.jpg') and NO_ES_RETRAT.search('File:Trump mugshot.jpg')
+    assert not NO_ES_RETRAT.search('File:Donald Trump speaks at the White House (2025).jpg')
+    assert not NO_ES_RETRAT.search('File:Official Presidential Portrait of President Donald J. Trump (2025).jpg')
+    with tempfile.TemporaryDirectory() as tmp:
+        v = {'slug': 'vetada', 'imageFetch': "File:Haven't We Had Enough of Donald Trump Yet.jpg"}
+        assert processa(v, {}, tmp, '2026-11-21', lambda u, l=MAX_BYTES: (_ for _ in ()).throw(AssertionError(u))).startswith('NO')
+        # nomesP18: ni categoria ni Openverse.
+        NOMES_P18.add('Q22686')
+        crides = []
+
+        def nomes_wikidata(url, limit=MAX_BYTES):
+            crides.append(url)
+            return url, json.dumps({'claims': {'P18': [{'rank': 'normal', 'mainsnak': {'datavalue': {'value': 'Oficial.jpg'}}}],
+                                               'P373': [{'mainsnak': {'datavalue': {'value': 'Donald Trump'}}}]}}).encode()
+        assert candidats_wikidata('Q22686', nomes_wikidata) == ['File:Oficial.jpg'] and len(crides) == 1
+        NOMES_P18.discard('Q22686')
+    FOTOS_VETADES.clear()
+    print('fotos-llicencia: 21 proves OK')
     return 0
 
 
