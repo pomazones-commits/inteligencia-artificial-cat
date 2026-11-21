@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-21T13:17:15.298Z",
+ "actualitzat": "2026-11-21T17:16:43.755Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d0fe79fadb11",
+   "mitja": "Levante-EMV",
+   "font": "levante",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Francesc Nogales, mejor docente de Primaria de España de 2021: \"Lo que necesita un niño no es aprender a usar la IA, sino tener una conciencia crítica\"",
+   "url": "https://www.levante-emv.com/videos/comunitat-valenciana/2026/11/21/francesc-nogales-mejor-docente-primaria-136666594.html",
+   "publicat": "2026-11-21T17:00:24.000Z"
+  },
+  {
+   "id": "d2baf4b3e414",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Comu Action Pro: el aliado de bolsillo que transcribe tus reuniones utilizando IA",
+   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-11-21/comu-action-pro-caracteristicas-precio.html",
+   "publicat": "2026-11-21T14:00:00.000Z"
+  },
   {
    "id": "1fb8582c5538",
    "mitja": "Diari de Girona",
@@ -2748,28 +2770,6 @@
    "titol": "Apple añade nuevos controles al acceso total al disco en macOS ante los riesgos de los agentes de IA",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/17/2751689/apple-anade-nuevos-controles-acceso-total-disco-macos-ante-riesgos-agentes-ia.html",
    "publicat": "2026-11-17T11:50:00.000Z"
-  },
-  {
-   "id": "b64f42b9443e",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "OpenAI lanza una herramienta para detectar material de abuso infantil creado con IA y endurece la prevención en ChatGPT",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/17/2751631/openai-lanza-herramienta-para-detectar-material-abuso-infantil-creado-endurece-prevencion-chatgpt.html",
-   "publicat": "2026-11-17T11:04:00.000Z"
-  },
-  {
-   "id": "dafbfde51ee3",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Jensen Huang rompe su silencio tras el escándalo con la presunta espía china: \"Sería un honor volver a Nvidia\"",
-   "url": "https://www.eldiario.es/tecnologia/nvidia-descarta-restituir-jensen-huang-acorralado-justicia-venta-chips-amante_1_13670019.html",
-   "publicat": "2026-11-17T11:00:58.000Z"
   }
  ]
 }
