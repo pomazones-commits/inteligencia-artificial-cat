@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-21T05:14:59.596Z",
+ "actualitzat": "2026-11-21T09:14:31.858Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f8c2eb10c2d0",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El New York Times destapa dècades d’humiliacions i amenaces de Jensen Huang als treballadors de Nvidia",
+   "url": "https://www.vilaweb.cat/noticies/new-york-times-destapa-decades-maltractament-jensen-huang-nvidia",
+   "publicat": "2026-11-21T08:41:42.000Z"
+  },
+  {
+   "id": "f6bdf99e0024",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial cambia el Black Friday: el 55% de los españoles la utilizará para encontrar descuentos",
+   "url": "https://www.elperiodico.com/es/economia/20261121/black-friday-espanoles-utilizaran-inteligencia-encontrar-artificial-descuentos-136623319",
+   "publicat": "2026-11-21T08:00:50.000Z"
+  },
+  {
+   "id": "ecf678640d28",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un matemático de Anthropic asegura haber resuelto con IA el problema más famoso de cálculo, la hipótesis de Riemann",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261121/matematico-anthropic-asegura-haber-resuelto-problema-matematicas-hipotesis-riemann-136687524",
+   "publicat": "2026-11-21T07:10:50.000Z"
+  },
   {
    "id": "d7954ab05f27",
    "mitja": "La Vanguardia",
@@ -32,7 +65,7 @@
    "icona": "/assets/premsa/valencia-plaza.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Más cultura | La historia de Fantasia, des del caliu de l’oralitat fins l'amenaça de la IA",
+   "titol": "Más cultura | La història de Fantasia, des del caliu de l’oralitat fins l'amenaça de la IA",
    "url": "https://valenciaplaza.com/noticas-cultura-valencia-comunitat-valenciana/la-historia-de-fantasia-des-del-caliu-de-loralitat-fins-lamenaca-de-la-ia",
    "publicat": "2026-11-21T05:00:04.000Z"
   },
@@ -48,6 +81,17 @@
    "publicat": "2026-11-21T05:00:00.000Z"
   },
   {
+   "id": "8a3828e113e9",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Qué aconseja la IA en vivienda? Vota al PSOE si alquilas y al PP si eres propietario",
+   "url": "https://www.lavanguardia.com/politica/20261121/11689391/que-aconseja-ia-vivienda-vota-psoe-alquilas-pp-propietario.html",
+   "publicat": "2026-11-21T05:00:00.000Z"
+  },
+  {
    "id": "7129f3347267",
    "mitja": "Cinco Días",
    "font": "cincodias",
@@ -57,6 +101,28 @@
    "titol": "Anthropic y las tecnológicas como signo de los tiempos",
    "url": "https://cincodias.elpais.com/opinion/2026-11-21/anthropic-y-las-tecnologicas-como-signo-de-los-tiempos.html",
    "publicat": "2026-11-21T04:40:00.000Z"
+  },
+  {
+   "id": "9c67a9cf5ab5",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El escándalo sexual en Nvidia desnuda los puntos flacos de toda la industria de la IA",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-21/vale-todo-en-la-industria-de-la-ia-los-amorios-de-huang-no-son-el-unico-problema-de-nvidia.html",
+   "publicat": "2026-11-21T04:40:00.000Z"
+  },
+  {
+   "id": "4e92847c6267",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El dilema que agrava la IA: aprovechar una Bolsa más barata o proteger la cartera antes de fin de año",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-21/el-dilema-que-agrava-la-ia-aprovechar-una-bolsa-mas-barata-o-proteger-la-cartera-antes-de-fin-de-ano.html",
+   "publicat": "2026-11-21T04:30:01.000Z"
   },
   {
    "id": "1dcc4ad36a4c",
@@ -309,7 +375,9 @@
    "ambit": "catala",
    "titol": "Anthropic fa tremolar el sector tecnològic en el seu segon dia a la borsa",
    "url": "https://www.ara.cat/economia/tecnologia/anthropic-s-enfonsa-prop-d-8-segona-jornada-borsa_1_5917228.html",
-   "publicat": "2026-11-20T14:46:54.000Z"
+   "publicat": "2026-11-20T14:46:54.000Z",
+   "noticia": "nasdaq-cau-5-3-nvidia-14-anthropic-segona-jornada",
+   "noticiaTitol": "ACTUALITZACIÓ: El Nasdaq s'enfonsa un 5,3% en un sol dia, Nvidia perd gairebé un 14% i Anthropic cau un 9% en la seva segona jornada a la borsa"
   },
   {
    "id": "a9b0f6344928",
@@ -2698,72 +2766,6 @@
    "titol": "Arte digital sin IA para decorar estas Navidades la plaza Sant Jaume de Barcelona",
    "url": "https://www.lavanguardia.com/local/barcelona/20261117/11686285/arte-digital-ia-decorar-navidades-plaza-sant-jaume-barcelona.html",
    "publicat": "2026-11-17T10:11:32.000Z"
-  },
-  {
-   "id": "5bfb0fa851d4",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El experimento de China en las aulas: enseñan a los alumnos a crear aplicaciones con IA para ganar la carrera a EE. UU.",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261117/11686223/china-aulas-ensenan-alumnos-crear-aplicaciones-ia-ganar-eeuu.html",
-   "publicat": "2026-11-17T10:01:26.000Z"
-  },
-  {
-   "id": "e2879b3d0fc5",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Gemini Notebook añade una nueva función: convierte tus notas en webs interactivas",
-   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-17/gemini-notebook-convierte-notas-webs-interactivas.html",
-   "publicat": "2026-11-17T10:00:00.000Z"
-  },
-  {
-   "id": "4e0170a2457b",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Tinkle es converteix en la primera consultora de comunicació amb l'ISO 42001 de gestió de la IA",
-   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/tinkle-es-converteix-en-primera-consultora-comunicacio-iso-42001-gestio-ia_1726652_102.html",
-   "publicat": "2026-11-17T09:24:29.000Z"
-  },
-  {
-   "id": "5ea5382cfee6",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "JP Morgan calcula que la IA podría sustituir 24 millones de empleos en el mundo en cinco años, sin implicar despidos masivos",
-   "url": "https://www.elperiodico.com/es/economia/20261117/jp-morgan-calcula-ia-sustituir-136526805",
-   "publicat": "2026-11-17T09:00:30.000Z"
-  },
-  {
-   "id": "c004f9048e98",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Xbox Project Helix ejecutará juegos de PC y utilizará inteligencia artificial para mejorar los gráficos",
-   "url": "https://www.diariodemallorca.es/vida-y-estilo/tecnologia/2026/11/17/xbox-project-helix-ejecutara-juegos-136526546.html",
-   "publicat": "2026-11-17T08:49:51.000Z"
-  },
-  {
-   "id": "56d5dd4bf7da",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Google Maps lanza en España Ask Maps, su chatbot con IA, que ya permite crear itinerarios personalizados",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/17/2751477/google-maps-lanza-espana-ask-maps-chatbot-permite-crear-itinerarios-personalizados.html",
-   "publicat": "2026-11-17T08:34:00.000Z"
   }
  ]
 }
