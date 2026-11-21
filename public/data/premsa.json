@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-21T13:05:09.494Z",
+ "actualitzat": "2026-11-21T13:17:15.298Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "1fb8582c5538",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Un de cada tres productors ja fa servir la IA: qui té els drets de la música que en surt?",
+   "url": "https://www.diaridegirona.cat/cultura/2026/11/21/tres-productors-ja-fa-servir-136696309.html",
+   "publicat": "2026-11-21T13:06:20.000Z"
+  },
   {
    "id": "e70774eb10ba",
    "mitja": "À Punt",
@@ -23,7 +34,9 @@
    "ambit": "catala",
    "titol": "The New York Times destapa dècades d’humiliacions i amenaces de Jensen Huang als treballadors de Nvidia",
    "url": "https://www.vilaweb.cat/noticies/new-york-times-destapa-decades-maltractament-jensen-huang-nvidia",
-   "publicat": "2026-11-21T08:41:42.000Z"
+   "publicat": "2026-11-21T08:41:42.000Z",
+   "noticia": "nyt-jensen-huang-cultura-por-nvidia",
+   "noticiaTitol": "ACTUALITZACIÓ: The New York Times descriu dues dècades d'humiliacions i amenaces de Jensen Huang als treballadors de Nvidia"
   },
   {
    "id": "f6bdf99e0024",
@@ -144,7 +157,9 @@
    "ambit": "catala",
    "titol": "La Comissió Europea investiga com defensar els processos electorals de la manipulació amb IA",
    "url": "https://www.elperiodico.cat/internacional/20261121/comissio-europea-investiga-defensar-processos-electorals-manipulacio-ia-136682750",
-   "publicat": "2026-11-21T04:01:52.000Z"
+   "publicat": "2026-11-21T04:01:52.000Z",
+   "noticia": "comissio-europea-directrius-electorals-ultrafalsificacions",
+   "noticiaTitol": "Brussel·les tanca dilluns la consulta sobre les noves normes per protegir les eleccions dels vídeos falsos fets amb IA"
   },
   {
    "id": "1dcc4ad36a4c",
@@ -2755,17 +2770,6 @@
    "titol": "Jensen Huang rompe su silencio tras el escándalo con la presunta espía china: \"Sería un honor volver a Nvidia\"",
    "url": "https://www.eldiario.es/tecnologia/nvidia-descarta-restituir-jensen-huang-acorralado-justicia-venta-chips-amante_1_13670019.html",
    "publicat": "2026-11-17T11:00:58.000Z"
-  },
-  {
-   "id": "fa16aad89d85",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Idoia Salazar, experta en inteligencia artificial, alerta del riesgo de pedir consejo a la IA antes de pensar por nosotros mismos",
-   "url": "https://www.levante-emv.com/tendencias21/2026/11/17/idoia-salazar-experta-inteligencia-artificial-136529985.html",
-   "publicat": "2026-11-17T10:17:23.000Z"
   }
  ]
 }
