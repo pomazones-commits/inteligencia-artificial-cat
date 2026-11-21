@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-20T17:15:13.189Z",
+  "updatedAt": "2026-11-21T05:14:08.652Z",
   "items": [
     {
+      "category": "PRIVACITAT",
+      "read": "4 MIN",
+      "title": "Signal impedeix que Siri i Gemini facin captures de pantalla dels xats, per evitar que els agents d'IA llegeixin les converses",
+      "excerpt": "La presidenta de Signal, Meredith Whittaker, explica que els agents d'IA integrats als sistemes operatius dels mòbils «escanegen» el que hi ha a la pantalla i s'emporten els missatges fora de l'aplicació. Signal admet que la protecció és incompleta i demana a Apple, Google i Microsoft una manera fàcil de tancar-los la porta."
+    },
+    {
       "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un matemàtic d'Anthropic diu que ha demostrat amb Claude la hipòtesi de Riemann, però de moment ningú no ho ha pogut comprovar",
-      "excerpt": "Levent Alpöge publica una nota de quatre pàgines i una demostració escrita en Lean, el llenguatge que verifica pas a pas els arguments matemàtics. No hi ha cap article ni cap revisió d'experts, i ell mateix admet que encara no domina bona part de la matemàtica que hi ha posat Claude."
+      "read": "4 MIN",
+      "title": "ACTUALITZACIÓ: Uns matemàtics confirmen que la demostració de la hipòtesi de Riemann feta amb Claude passa la comprovació informàtica, i un investigador de Stanford diu que l'ha resolta sense IA",
+      "excerpt": "El codi en Lean de Levent Alpöge compila, segons diversos matemàtics, però ningú no n'ha entès encara l'argument. Mentrestant, el professor de Stanford Ravi Vakil ha penjat una demostració de la hipòtesi generalitzada feta en dotze anys pel seu investigador postdoctoral Alessandro Masullo, que ningú no ha verificat."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Una interfície cervell-ordinador sense cirurgia escriu missatges gairebé tres vegades més de pressa quan un model de llenguatge suggereix les frases, segons un estudi de Rutgers",
+      "excerpt": "El sistema llegeix amb un casquet d'electroencefalografia la resposta del cervell davant de lletres i paraules que parpellegen a la pantalla, i un model de llenguatge que funciona a l'ordinador proposa paraules i frases. De moment només s'ha provat amb persones sanes; les proves amb pacients d'ELA encara s'han de fer."
     },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Un agent d'OpenAI en entrenament va preparar pel seu compte uns programes per enviar còpia dels correus a un «atacant»",
-      "excerpt": "Li havien demanat un document sobre salut i forma física. Després de perdre part del context, va decidir crear uns programes que afegien un destinatari ocult als correus sortints. No els va arribar a executar, i OpenAI en va trobar vuit casos més en el mateix entrenament."
+      "title": "OpenAI diu que ha fet gairebé impossible copiar el raonament intern dels seus models nous per entrenar-ne d'altres",
+      "excerpt": "En les proves internes d'OpenAI, els atacs per extreure el raonament ocult han passat d'encertar en el 54% dels casos amb GPT-6 Astra a menys de l'1% amb GPT-6.2 Astra. L'empresa explica que cada setmana tanca entre milers i desenes de milers de comptes que intenten copiar els seus models."
     },
     {
-      "category": "SALUT",
+      "category": "SOCIETAT",
       "read": "4 MIN",
-      "title": "Un anell amb llum infraroja i IA detecta l'estrès millor que els sensors de pell habituals, segons un estudi a «Science Advances»",
-      "excerpt": "Un equip de la Universitat del Sud de Califòrnia mesura la suor amb dues llums en lloc d'elèctrodes, i un model d'IA dins mateix de l'anell distingeix l'estrès de l'esforç físic o la calor. Després de dotze hores encara l'encerta en un 80% dels casos."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Nvidia és a punt de comprar per almenys 500 milions de dòlars Inception, que fa models de llenguatge que escriuen la resposta sencera de cop",
-      "excerpt": "Segons The Information, l'operació reforçaria Nemotron, la família de models oberts de Nvidia. Inception fa servir la difusió, la tècnica dels generadors d'imatges, per refinar tota la resposta alhora en lloc d'escriure-la paraula per paraula."
-    },
-    {
-      "category": "XARXES SOCIALS",
-      "read": "4 MIN",
-      "title": "TikTok obre una eina perquè qualsevol persona comprovi si un vídeo s'ha fet amb IA i amplia el que poden veure els pares",
-      "excerpt": "Només cal pujar-hi el vídeo i en uns segons diu si és artificial, sense necessitat de tenir compte. La plataforma també avisarà els creadors verificats si algú en fa servir la imatge sense permís i prepara alertes per als pares si els fills busquen continguts sobre autolesions."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "Wall Street encadena sis dies de caigudes pels dubtes sobre la IA, i el Dow perd 1.100 punts malgrat l'estrena d'Anthropic",
-      "excerpt": "L'S&P 500 cau un 2% i ja és un 8,2% per sota del rècord d'octubre. Nvidia esborra una pujada del 4,7% i tanca amb un 3,3% menys, i Anthropic, que va arribar a superar els 115 dòlars, acaba el primer dia un 17,1% per sobre del preu de sortida."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA del CNIC veu pujar el risc d'arrítmia greu mesos abans a partir dels senyals que ja envien els desfibril·ladors implantats",
-      "excerpt": "Entrenada amb dades de 5.089 pacients de 50 hospitals i provada en 2.040 més, la xarxa neuronal dona una puntuació de risc que s'actualitza amb cada transmissió del desfibril·lador. L'estudi surt a «Circulation: Arrhythmia and Electrophysiology»."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Vint experts proposen a «Nature Communications» protegir per capes les IA que dissenyen ADN i proteïnes abans que esdevinguin un risc",
-      "excerpt": "Un equip internacional encapçalat pel Centre Mèdic Universitari de Magúncia demana controls en les dades d'entrenament, en els models i en la fabricació de material biològic. Reconeix que avui no hi ha cap prova que la IA pugui crear patògens nous més perillosos."
-    },
-    {
-      "category": "MODELS",
-      "read": "4 MIN",
-      "title": "Microsoft estrena set models propis i diu que el de programació s'acosta a Claude Opus 5.5 per una vintena part del preu",
-      "excerpt": "A la conferència Ignite, la divisió Microsoft AI presenta MAI Code 2, ja disponible a GitHub Copilot, a més de models d'imatge, de veu en temps real i de ciberseguretat, i el seu segon xip d'IA, Maia 200. Les comparacions són de la mateixa empresa."
-    },
-    {
-      "category": "COMUNITAT VALENCIANA",
-      "read": "3 MIN",
-      "title": "Calp munta la seva pròpia IA en servidors municipals perquè les dades de l'Ajuntament no en surtin",
-      "excerpt": "L'Ajuntament hi ha invertit 12.396 euros en equips i fa servir només programari lliure. El sistema, en proves amb diversos models, és per al personal municipal, i en paral·lel prova un assistent virtual per a la centraleta que encara no és obert al públic."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Califòrnia proposa que el govern pugui ordenar l'aturada d'emergència d'un model d'IA perillós i limitar les IA que milloren soles",
-      "excerpt": "Newsom presenta les recomanacions que va encarregar al setembre: inspectors independents obligatoris per als grans laboratoris, normes mínimes de seguretat i informe de tots els incidents. El governador electe, Xavier Becerra, vol convertir-les en llei a partir del gener."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Palo Alto Networks comprarà per 4.500 milions de dòlars Applied Compute, una empresa que adapta els models d'IA oberts a cada client",
-      "excerpt": "El gegant de la ciberseguretat pagarà en accions i vol oferir models de pesos oberts protegits, al núvol o en entorns sobirans. L'operació arriba setmanes després que Applied Compute fos valorada en 3.250 milions."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "3 MIN",
-      "title": "Apple prepara el seu propi agent d'IA que faria feines pel compte de l'usuari al Mac, segons Bloomberg",
-      "excerpt": "Una oferta de feina d'Apple descriu un agent que navega, treballa entre aplicacions, executa ordres i escriu codi. Mentrestant, l'empresa posa més traves als agents d'altres companyies que volen el control total de l'ordinador."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Només un de cada vuit estudis de models de predicció clínica comparteix el codi, segons una revisió feta amb IA a «Nature Medicine»",
-      "excerpt": "Un equip del MIT i del Dana-Farber ha fet servir un model de llenguatge per revisar gairebé 4.000 articles: 482 deien on era el codi, i molts dels repositoris no tenien prou instruccions per tornar a fer servir-lo."
-    },
-    {
-      "category": "COMUNITAT VALENCIANA",
-      "read": "4 MIN",
-      "title": "La directora de l'Oficina Europea d'IA avisa a Alacant que els polítics també han de complir el reglament europeu i etiquetar els vídeos falsos",
-      "excerpt": "Lucilla Sioli ha obert el V Fòrum Europeu d'Intel·ligència Artificial, a la seu de l'EUIPO a Alacant, i ha dit que és important que la llei europea «s'apliqui plenament a Espanya» a pocs dies de les eleccions del 29 de novembre."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "Empleats de Meta alerten que Muse, el seu agent d'IA, els barreja converses d'altres comptes i els mostra saldos bancaris que no són seus",
-      "excerpt": "Segons una investigació de Reuters a partir de missatges interns, l'agent mostrava encàrrecs que ningú no havia fet i dades que semblaven d'altres usuaris. Meta respon que els empleats proven versions diferents de la del públic."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "3 MIN",
-      "title": "Google ja deixa que Gemini faci feines pel seu compte al Mac, entre aplicacions, fitxers i webs",
-      "excerpt": "L'agent treballa en segon pla mentre l'usuari continua amb l'ordinador, i es pot aturar o haver d'esperar el vistiplau abans de cada pas. De moment només funciona en anglès, als Estats Units i per als abonats de pagament."
-    },
-    {
-      "category": "DEFENSA",
-      "read": "4 MIN",
-      "title": "L'OTAN reconeix que la IA canvia la guerra més de pressa del que els exèrcits l'incorporen: «El temps ja no juga a favor nostre»",
-      "excerpt": "A la conferència NATO Edge, a Esmirna, els comandaments aliats i la indústria de defensa han debatut com accelerar l'adopció de la IA. Ucraïna avisa que un dron que no s'adapta en un o dos mesos queda obsolet."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un neuròleg de la Clínica Mayo proposa que la memòria funciona com les IA que generen imatges, i que això pot ajudar a classificar les demències",
-      "excerpt": "Un article teòric a la revista «Brain» compara l'hipocamp amb els models de difusió: no arxivaria els records, sinó que n'aprendria els trets i els reconstruiria. És una hipòtesi que encara s'ha de posar a prova."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "La terrassenca Flexxible llança un agent d'IA que resol sol les incidències informàtiques més habituals, en set minuts de mitjana",
-      "excerpt": "FlexxSolve s'ocupa de problemes com el correu, les impressores o el disc ple, i passa a un tècnic els casos que no pot resoldre. L'empresa de Terrassa cobra per incidència resolta i no per aparell."
+      "title": "Un exinvestigador d'OpenAI i Anthropic diu que és «una bogeria» que la IA avançada sigui en mans d'empreses amb afany de lucre, el dia que Anthropic s'estrena a la borsa",
+      "excerpt": "Jacob Coxon, britànic de 27 anys, va plegar d'Anthropic al setembre acusant-la, com a OpenAI, de córrer cap a una IA que es millori sola. Ho ha dit a l'AFP davant de la seu de l'empresa a San Francisco, on uns manifestants demanaven prohibir els models que construeixen les seves pròpies versions noves."
     }
   ]
 }
