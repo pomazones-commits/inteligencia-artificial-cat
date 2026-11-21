@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-20T21:59:31.481Z",
+ "actualitzat": "2026-11-21T05:14:59.596Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d7954ab05f27",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La agencia de selección que creó su propia IA para democratizar la contratación de personal: “Contratar al candidato perfecto no debería ser un privilegio de las grandes empresas”",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261121/11688213/agencia-seleccion-creo-propia-ia-democratizar-contratacion-personal-contratar-candidato-perfecto-deberia-privilegio-grandes-empresas.html",
+   "publicat": "2026-11-21T05:09:19.000Z"
+  },
+  {
+   "id": "dc999771c528",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Comisión Europea investiga cómo defender los procesos electorales de la manipulación con IA",
+   "url": "https://www.elperiodico.com/es/internacional/20261121/comision-europea-investiga-defender-procesos-electorales-manipulacion-ia-136682750",
+   "publicat": "2026-11-21T05:01:52.000Z"
+  },
+  {
+   "id": "6fa8c48f43e5",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Más cultura | La historia de Fantasia, des del caliu de l’oralitat fins l'amenaça de la IA",
+   "url": "https://valenciaplaza.com/noticas-cultura-valencia-comunitat-valenciana/la-historia-de-fantasia-des-del-caliu-de-loralitat-fins-lamenaca-de-la-ia",
+   "publicat": "2026-11-21T05:00:04.000Z"
+  },
+  {
+   "id": "4cf23d460553",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Ahorra tiempo la IA a los trabajadores? Los estudios dicen que no es tan sencillo",
+   "url": "https://www.lavanguardia.com/neo/ia/20261121/11687990/ahorra-ia-trabajadores-estudios-dicen-sencillo.html",
+   "publicat": "2026-11-21T05:00:00.000Z"
+  },
+  {
+   "id": "7129f3347267",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic y las tecnológicas como signo de los tiempos",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-21/anthropic-y-las-tecnologicas-como-signo-de-los-tiempos.html",
+   "publicat": "2026-11-21T04:40:00.000Z"
+  },
+  {
+   "id": "1dcc4ad36a4c",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La CE vol blindar les eleccions contra la manipulació feta amb IA",
+   "url": "https://www.regio7.cat/arreu-catalunya-espanya-mon/2026/11/21/ce-vol-blindar-les-eleccions-136686544.html",
+   "publicat": "2026-11-21T01:27:37.000Z"
+  },
+  {
+   "id": "4f9f483019aa",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El vértigo de la IA en Estados Unidos: dos lecciones para Catalunya",
+   "url": "https://www.lavanguardia.com/vida/20261121/11689445/vertigo-ia-estados-unidos-dos-lecciones-catalunya.html",
+   "publicat": "2026-11-20T23:30:00.000Z"
+  },
+  {
+   "id": "c75bac46f1b8",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia se desploma un 14% y pierde un 32,6% en las últimas dos semanas",
+   "url": "https://www.informacion.es/economia/2026/11/20/nvidia-desploma-14-pierde-32-136685325.html",
+   "publicat": "2026-11-20T22:17:14.000Z"
+  },
   {
    "id": "f9093f422633",
    "mitja": "Información",
@@ -98,7 +186,7 @@
    "icona": "/assets/premsa/3catinfo.png",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Anthropic baixa un 10% a la borsa l'endemà de la seva estrena històrica",
+   "titol": "Anthropic baixa un 8,5% a la borsa l'endemà de la seva estrena històrica",
    "url": "https://www.3cat.cat/3catinfo/anthropic-baixa-un-10-a-la-borsa-lendema-de-la-seva-estrena-historica/noticia/3441122",
    "publicat": "2026-11-20T18:08:54.000Z"
   },
@@ -120,9 +208,9 @@
    "icona": "/assets/premsa/el-nacional.webp",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Anthropic baixa un 10% a l'inici de la segona jornada com a empresa cotitzada",
+   "titol": "Anthropic baixa un 8,5% en la seva segona jornada com a empresa cotitzada",
    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/anthropic-baixa-10-segona-jornada-empresa-cotitzada_1728860_102.html",
-   "publicat": "2026-11-20T16:09:14.000Z"
+   "publicat": "2026-11-20T16:09:00.000Z"
   },
   {
    "id": "10adc094f59d",
@@ -2676,94 +2764,6 @@
    "titol": "Google Maps lanza en España Ask Maps, su chatbot con IA, que ya permite crear itinerarios personalizados",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/17/2751477/google-maps-lanza-espana-ask-maps-chatbot-permite-crear-itinerarios-personalizados.html",
    "publicat": "2026-11-17T08:34:00.000Z"
-  },
-  {
-   "id": "24b12f9ba7b0",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Govern prepara el terreno para establecer la gigafactoría europea de IA en Móra la Nova",
-   "url": "https://www.lavanguardia.com/local/tarragona/20261117/11686189/govern-prepara-terreno-establecer-gigafactoria-europea-ia-mora-nova.html",
-   "publicat": "2026-11-17T08:23:54.000Z"
-  },
-  {
-   "id": "bf0881512a45",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Las Bolsas caen mientras Nvidia pone a prueba la confianza del mercado en la IA",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-17/la-bolsa-y-el-ibex-35.html",
-   "publicat": "2026-11-17T08:02:46.000Z"
-  },
-  {
-   "id": "cc146f550102",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Corea del Sud actua contra l'ús de la IA a la selectivitat després del frau en unes oposicions",
-   "url": "https://www.3cat.cat/3catinfo/corea-del-sud-actua-contra-lus-de-la-ia-a-la-selectivitat-despres-del-frau-en-unes-oposicions/noticia/3440187",
-   "publicat": "2026-11-17T06:18:01.000Z"
-  },
-  {
-   "id": "b8fc23101fcb",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Espías, una dimisión y dudas sobre el relato de la IA: Nvidia afronta su examen más incómodo tras la salida de Huang",
-   "url": "https://www.elperiodico.com/es/economia/20261117/espias-dimision-dudas-relato-ia-136521248",
-   "publicat": "2026-11-17T05:01:30.000Z"
-  },
-  {
-   "id": "6256808ba4ea",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Por qué se espera un crac de la IA",
-   "url": "https://www.lavanguardia.com/economia/20261117/11685349/espera-crac-ia.html",
-   "publicat": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "2c816a205058",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic permite acudir a su OPV en España con varias entidades y optar a más acciones",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-17/anthropic-permite-acudir-a-su-opv-en-espana-con-varias-entidades-y-optar-a-mas-acciones.html",
-   "publicat": "2026-11-17T04:30:01.000Z"
-  },
-  {
-   "id": "492178ff6242",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El turbofondo sobre Anthropic que llega a la Bolsa y promete multiplicar por tres sus movimientos",
-   "url": "https://cincodias.elpais.com/fondos-y-planes/2026-11-17/el-turbofondo-sobre-anthropic-que-llega-a-la-bolsa-y-promete-multiplicar-por-tres-sus-movimientos.html",
-   "publicat": "2026-11-17T04:30:01.000Z"
-  },
-  {
-   "id": "4e5726d57956",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Si es lujo es sin IA: cómo la moda se desmarca y apuesta por la Navidad más artesanal",
-   "url": "https://elpais.com/smoda/2026-11-17/si-es-lujo-es-sin-ia-como-la-moda-se-desmarca-y-apuesta-por-la-navidad-mas-artesanal.html",
-   "publicat": "2026-11-17T04:30:01.000Z"
   }
  ]
 }
