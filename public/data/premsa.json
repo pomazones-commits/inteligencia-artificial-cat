@@ -1,8 +1,140 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-22T00:42:56.199Z",
+ "actualitzat": "2026-11-22T05:16:25.075Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "0db3116d9ae6",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La gigafactoría de IA de los 100.000 chips capaz de duplicar los trabajadores de Ribera d’Ebre",
+   "url": "https://www.elperiodico.com/es/economia/20261122/gigafactoria-ia-100-000-chips-136630716",
+   "publicat": "2026-11-22T05:01:26.000Z"
+  },
+  {
+   "id": "e5d0e9bce273",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA revoluciona las aplicaciones de citas: ¿nos volveremos más torpes a la hora de ligar?",
+   "url": "https://www.elperiodico.com/es/sociedad/20261122/ia-inteligencia-artificial-revoluciona-apps-citas-volvernos-torpes-ligar-136604337",
+   "publicat": "2026-11-22T05:01:26.000Z"
+  },
+  {
+   "id": "48e6c03c70d5",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Mi IA está ligando con la tuya: los 'bots' toman el relevo en las aplicaciones de citas",
+   "url": "https://www.elperiodico.com/es/sociedad/20261122/ia-inteligencia-artificial-ligando-bots-toman-relevo-aplicaciones-citas-apps-136515034",
+   "publicat": "2026-11-22T05:01:25.000Z"
+  },
+  {
+   "id": "ed709ee38166",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tierra de empresas | Cae el gasto en Black Friday, pero sube la apuesta tecnológica: las empresas recurren a la IA para salvar su rentabilidad",
+   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/cae-el-gasto-en-black-friday-pero-sube-la-apuesta-tecnologica-las-empresas-recurren-a-la-ia-para-salvar-su-rentabilidad",
+   "publicat": "2026-11-22T05:00:04.000Z"
+  },
+  {
+   "id": "1c131e7eceec",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia y la ‘honeytrap’",
+   "url": "https://www.lavanguardia.com/cultura/culturas/20261122/11685378/nvidia-honeytrap.html",
+   "publicat": "2026-11-22T05:00:00.000Z"
+  },
+  {
+   "id": "baad6ce239a4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Huang recurría a las humillaciones para motivar a los empleados de Nvidia",
+   "url": "https://www.lavanguardia.com/economia/20261122/11689992/huang-recurria-humillaciones-motivar-empleados-nvidia.html",
+   "publicat": "2026-11-22T05:00:00.000Z"
+  },
+  {
+   "id": "d3f7789cc949",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La OPV de 2 billones de Anthropic puede ser el último gran festejo",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-22/la-opv-de-2-billones-de-anthropic-puede-ser-el-ultimo-gran-festejo.html",
+   "publicat": "2026-11-22T04:40:00.000Z"
+  },
+  {
+   "id": "2b928b3b9c41",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "ASML, con armas para defender su dominio tecnológico en la vorágine de la IA",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-22/asml-con-armas-para-defender-su-dominio-tecnologico-en-la-voragine-de-la-ia.html",
+   "publicat": "2026-11-22T04:30:00.000Z"
+  },
+  {
+   "id": "8a639f65a3a1",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El gran dia d'Anthropic: OpenAI i Google contraataquen",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/gran-dia-anthropic-openai-google-contraataquen_1728821_102.html",
+   "publicat": "2026-11-22T04:30:00.000Z"
+  },
+  {
+   "id": "a8b32e0fd316",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "IA d’amagat",
+   "url": "https://www.segre.com/ca/opinio/lideratge/261122/ia-damagat_1406667.html",
+   "publicat": "2026-11-22T04:24:10.000Z"
+  },
+  {
+   "id": "53f0e269382e",
+   "mitja": "El Punt Avui",
+   "font": "elpuntavui-societat",
+   "icona": "/assets/premsa/el-punt-avui.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "“La IA pot pensar per nosaltres; aquest és el perill”",
+   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2690965-la-ia-pot-pensar-per-nosaltres-aquest-es-el-perill.html",
+   "publicat": "2026-11-22T01:00:00.000Z"
+  },
+  {
+   "id": "ff5e9abe7be0",
+   "mitja": "El Punt Avui",
+   "font": "elpuntavui-societat",
+   "icona": "/assets/premsa/el-punt-avui.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA ja fa feina: multes, advocats i cerques",
+   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2690972-la-ia-ja-fa-feina-multes-advocats-i-cerques.html",
+   "publicat": "2026-11-22T01:00:00.000Z"
+  },
   {
    "id": "ed2ca9576eb3",
    "mitja": "Información",
@@ -2634,142 +2766,6 @@
    "titol": "Xiaomi 18 Pro i 18 Pro Max: dues càmeres de 200 MP, pantalla posterior amb IA i preus a Espanya",
    "url": "https://www.elnacional.cat/ca/tecnologia/xiaomi-18-pro-18-pro-max-dues-cameres-200-mp-pantalla-posterior-ia-preus-espanya_1726994_102.html",
    "publicat": "2026-11-17T15:32:00.000Z"
-  },
-  {
-   "id": "38ee6c9d739d",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cultura | Jorge Carrión explorará en una charla en el MACA cómo la IA puede transformar el arte y los museos",
-   "url": "https://alicanteplaza.es/alicanteplaza/cultura/jorge-carrion-explorara-en-una-charla-en-el-maca-como-la-ia-puede-transformar-el-arte-y-los-museos",
-   "publicat": "2026-11-17T15:28:38.000Z"
-  },
-  {
-   "id": "4837f2aab19d",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Califòrnia demanda OpenAI: els seus agents d'IA es \"van descontrolar\" més de 80 vegades",
-   "url": "https://www.elnacional.cat/ca/tecnologia/california-demanda-openai-seus-agents-ia-es-van-descontrolar-mes-80-vegades_1726925_102.html",
-   "publicat": "2026-11-17T14:30:00.000Z"
-  },
-  {
-   "id": "8529adbc4c64",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Girona acull la 19a edició de les Jornades Imatge i Recerca centrades en la intel·ligència artificial",
-   "url": "https://www.diaridegirona.cat/girona/2026/11/17/girona-acull-19a-edicio-les-136542290.html",
-   "publicat": "2026-11-17T14:10:10.000Z"
-  },
-  {
-   "id": "b098e192b5d5",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un estudio de la UIB propone una nueva metodología para medir la confianza de los profesionales sanitarios en la IA",
-   "url": "https://www.ultimahora.es/noticias/local/2026/11/17/2751789/estudio-uib-propone-nueva-metodologia-para-medir-confianza-profesionales-sanitarios-ia.html",
-   "publicat": "2026-11-17T13:26:00.000Z"
-  },
-  {
-   "id": "c7a88905b5b1",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Govern ordena vender los terrenos para poder acoger la gigafactoría europea de IA en Móra la Nova",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261117/generalitat-aprueba-venta-terrenos-gigafactoria-ia-mora-nova-tarragona-govern-catalunya-136538022",
-   "publicat": "2026-11-17T13:09:40.000Z"
-  },
-  {
-   "id": "501d5ca3c496",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La 'startup' de diseño de moda con IA Fermat capta 8 millones y se expande hacia Nueva York",
-   "url": "https://www.elperiodico.com/es/economia/20261117/startup-diseno-moda-ia-fermat-136534717",
-   "publicat": "2026-11-17T12:33:28.000Z"
-  },
-  {
-   "id": "2b32ced4d33d",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El escritor Jorge Carrión habla en Alicante del museo del futuro, el arte expandido y la IA",
-   "url": "https://www.informacion.es/cultura/2026/11/17/jorge-carrion-habla-alicante-museo-futuro-136535750.html",
-   "publicat": "2026-11-17T12:31:33.000Z"
-  },
-  {
-   "id": "6a99c9f607cf",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El cartel del Carnaval de Vilanova 2027 desata la polémica por la presencia de Franco y el uso de la IA",
-   "url": "https://www.elperiodico.com/es/barcelona/20261117/cartel-carnaval-vilanova-2027-desata-polemica-presencia-francisco-franco-uso-de-la-ia-136534989",
-   "publicat": "2026-11-17T12:29:34.000Z"
-  },
-  {
-   "id": "7e8718bf5597",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La OTAN utiliza la IA de una empresa acusada en EEUU de falta de seguridad y de poner a la población en peligro",
-   "url": "https://www.elperiodico.com/es/internacional/20261117/otan-utiliza-ia-empresa-acusada-ciberseguridad-openai-militar-chatgpt-denuncia-136535074",
-   "publicat": "2026-11-17T12:25:44.000Z"
-  },
-  {
-   "id": "cfa91e79232d",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia busca apaivagar el mercat amb els primers resultats sense Huang",
-   "url": "https://www.ara.cat/economia/tecnologia/nvidia-busca-apaivagar-mercat-primers-resultats-huang_1_5913077.html",
-   "publicat": "2026-11-17T12:21:00.000Z"
-  },
-  {
-   "id": "be3cd35356f8",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L’ARI i el Barcelona Supercomputing Center impulsen un programa per acostar la supercomputació i la IA a les empreses",
-   "url": "https://www.diariandorra.ad/nacional/261117/l-ari-i-barcelona-supercomputing-center-impulsen-programa-per-acostar-supercomputacio-i-ia-les-empreses_208979.html",
-   "publicat": "2026-11-17T12:12:38.000Z",
-   "noticia": "ari-bsc-programa-supercomputacio-ia-empreses-andorra",
-   "noticiaTitol": "Andorra Recerca + Innovació i el BSC obren un programa de tres anys perquè les empreses andorranes facin servir la supercomputació i la IA"
-  },
-  {
-   "id": "9faa8d35be58",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Graupera ‘ressuscita’ Xirinacs amb la IA entre una pluja de crítiques",
-   "url": "https://www.ara.cat/politica/graupera-ressuscita-xirinacs-ia-pluja-critiques_1_5913074.html",
-   "publicat": "2026-11-17T11:55:12.000Z",
-   "noticia": "alhora-graupera-video-ia-xirinacs-critiques",
-   "noticiaTitol": "Alhora retira un vídeo fet amb IA que «ressuscitava» Lluís Maria Xirinacs, després d'una pluja de crítiques a les xarxes"
   }
  ]
 }
