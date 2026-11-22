@@ -1,33 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-11-21",
-  "title": "Qui decideix què entra i què surt de la IA",
-  "dek": "Un dissabte de borsa en caiguda en què Signal, Etsy, les escoles dels Estats Units, OpenAI i Washington han discutit, cadascú pel seu cantó, qui té dret a posar les condicions de la IA.",
+  "date": "2026-11-22",
+  "title": "Demostrar-ho o demanar que ens en refiem",
+  "dek": "Un diumenge en què la IA ha topat una vegada i una altra amb la mateixa pregunta: qui pot comprovar el que diu, i qui ens demana que ens en refiem sense comprovar-ho.",
   "body": [
-    "El dia ha començat amb el ressò de la sessió de divendres a Wall Street: el Nasdaq va perdre un 5,3%, Nvidia gairebé un 14% i Anthropic, en la seva segona jornada a la borsa, prop d'un 9%. Però, més enllà del soroll dels mercats, les notícies d'avui tenen un fil comú menys espectacular i més durador. Gairebé totes parlen de fronteres: qui pot llegir què, qui pot entrenar amb què, qui pot construir on i qui pot copiar qui. La IA ja no es discuteix només pel que sap fer, sinó per les condicions en què ho fa.",
-    "Les fronteres més properes al lector són les de les dades. Signal impedeix que Siri i Gemini facin captures de pantalla dels xats, perquè els agents integrats als mòbils s'emportaven les converses fora de l'aplicació, i admet que la protecció és incompleta. Etsy ha afegit a les condicions d'ús una clàusula que li permet entrenar sistemes d'IA amb el contingut dels venedors i, davant la marxa d'artesans, promet que no en farà models per copiar-los l'obra, però no canvia el text. I tres dels quatre districtes escolars més grans dels Estats Units planten cara a Google, que vol que acceptin els resums d'IA si volen continuar fent servir el cercador.",
-    "Les empreses també aixequen murs entre elles. OpenAI diu que ha fet gairebé impossible copiar el raonament intern dels seus models nous per entrenar-ne d'altres, i que cada setmana tanca milers de comptes que ho intenten. Cursor, l'eina de programació de SpaceX, estudia deixar els models oberts xinesos per risc geopolític, segons un informe del Congrés que alhora reconeix que són barats i gairebé tan bons com els millors. I Trump amenaça amb un impost «enorme» les empreses que construeixin centres de dades fora, sense concretar ni la quantia ni a qui afectaria. La frontera ja no és només comercial: és política.",
-    "Hi ha, però, notícies que van en la direcció contrària. Thinking Machines ha publicat Inkling 2 Mini, un model obert que cap en un portàtil i que, segons les seves proves i les d'Artificial Analysis, rendeix com altres de molt més grans en programació. Per a qui no vol enviar les dades a fora, un model que funciona a casa és la manera més directa de fixar les pròpies condicions. Ahir dèiem que la IA prometia molt i es podia comprovar poc; avui el codi en Lean de la demostració de la hipòtesi de Riemann compila, però ningú no n'ha entès encara l'argument. Verificar i comprendre continuen sent dues coses diferents.",
-    "La ciència del dia recorda per què val la pena que aquestes condicions estiguin ben posades. Una IA del CNIC llegeix els senyals que ja envien els desfibril·ladors implantats i avisa mesos abans del risc d'una arítmia greu; un model que llegeix imatges de satèl·lit calcula que, sense les mesures de control, l'Àfrica subsahariana tindria més del doble de casos de malària. Totes dues feines depenen de dades sensibles o col·lectives. En canvi, un estudi amb agents simulats mostra que les salvaguardes cedeixen quan algú les manipula, i METR constata que els models més avançats encara no saben dissenyar proves útils per avaluar altres IA.",
-    "Què caldrà mirar els propers dies? Primer, si Google ofereix a les escoles el cercador sense resums o si la topada acaba als tribunals per una qüestió de competència. Segon, si Etsy rectifica el text de les condicions o es limita a les explicacions. Tercer, si la caiguda de la borsa continua dilluns o queda en un mal divendres. I, de fons, com respondrà Brussel·les, que dilluns tanca la consulta sobre les normes per protegir les eleccions dels vídeos falsos: és una altra manera de decidir qui posa les condicions."
+    "El diumenge ha deixat un retrat curiós de la intel·ligència artificial: moltes de les notícies d'avui no parlaven del que la IA pot fer, sinó de si el que se'n diu es pot comprovar. Als Estats Units, la SEC investiga la comptabilitat de Nvidia, segons Reuters, i el Financial Times i The New York Times han dibuixat la xarxa d'empreses que hauria fet arribar xips de l'empresa a la Xina des de l'entorn d'Alice Huang. Totes dues informacions es basen en fonts anònimes o en anàlisis que ningú no ha pogut verificar del tot, i les empreses ho neguen.",
+    "La desconfiança també ha arribat a la fontaneria del sector. Un investigador de Dragos va amagar paranys dins de les peticions que enviava a serveis d'IA i va descobrir proveïdors que desaven les dades quan deien que no ho feien. OpenAI, per la seva banda, ha hagut d'explicar per què una feina de manteniment d'una base de dades va fer caure ChatGPT unes tres hores i mitja. I a Corea del Sud, les trampes amb IA a la selectivitat han acabat amb la dimissió del ministre d'Educació. En tots tres casos, el problema no és la tecnologia en si, sinó que algú hi havia confiat més del compte.",
+    "A l'altra banda de la balança, la ciència ha ofert avui el contrari d'una promesa: garanties. L'equip del MIT que publica a «PNAS» no presenta una IA que encerti més, sinó una que no pot donar prediccions físicament impossibles per llarg que sigui el termini. I la demostració de Navier-Stokes de Buckmaster i Alpöge, feta amb ajuda de la IA, arriba amb una condició clara: encara no l'ha revisada ningú. Fins i tot l'estudi d'«npj Digital Medicine» va en aquesta direcció: els pacients accepten que el metge faci servir la IA per a la paperassa, però no tant per diagnosticar, que és justament on menys poden comprovar què ha passat.",
+    "El mateix fil travessa la IA militar. A Ginebra, gairebé cent països volien negociar un tractat contra les armes que maten sense que ningú decideixi disparar, i en surten amb una promesa de seguir-ne parlant fins al 2028. A Berlín, la sala Kraftwerk ha demanat perdó per haver acollit la presentació de la plataforma d'objectius de Helsing, i a Nova York Dan Hendrycks ha demanat aturar indefinidament els grans entrenaments. Quan les normes no arriben, el que queda és la pressió social i les disculpes, que no comproven res.",
+    "La tendència que s'hi veu és que la confiança comença a cotitzar com un actiu escàs. Els mercats ja ho notaven aquesta setmana, i avui ho han notat els reguladors, els investigadors i el públic. Té sentit que les peces més sòlides del dia, i també la petita notícia andorrana de les audioguies de la Casa de la Vall, deixin oberta la mateixa pregunta: una IA que respon preguntes sobre la història, o sobre el clima, només és útil si algú pot comprovar que no s'inventa res.",
+    "Per a demà, caldrà mirar si la SEC o Nvidia confirmen res de la investigació, si l'acord d'Amazon amb Decart s'anuncia de debò i si algun grup independent comença a revisar la demostració de Navier-Stokes. També si les acusacions de Hendrycks a Anthropic reben resposta. Seran senyals de si aquesta setmana tanca amb més proves o només amb més promeses."
   ],
   "signals": [
     {
-      "title": "Signal impedeix que Siri i Gemini facin captures de pantalla dels xats, per evitar que els agents d'IA llegeixin les converses",
-      "slug": "signal-bloqueja-captures-pantalla-agents-ia-siri-gemini"
+      "title": "El regulador de la borsa dels Estats Units investiga la comptabilitat de Nvidia, segons Reuters",
+      "slug": "sec-investiga-comptabilitat-nvidia"
     },
     {
-      "title": "Etsy intenta calmar els artesans que marxen per la IA, però manté la clàusula que li permet entrenar-la amb el seu contingut",
-      "slug": "etsy-venedors-marxen-clausula-entrenament-ia"
+      "title": "Un investigador amaga dos milions de paranys en peticions a serveis d'IA i descobreix tres proveïdors atacats sense saber-ho",
+      "slug": "dragos-paranys-prompts-proveidors-ia"
     },
     {
-      "title": "OpenAI diu que ha fet gairebé impossible copiar el raonament intern dels seus models nous per entrenar-ne d'altres",
-      "slug": "openai-destillacio-raonament-protegit-gpt-6-2"
+      "title": "Una IA del MIT preveu sistemes caòtics, com l'oratge, sense disparar-se mai cap a resultats físicament impossibles, segons «PNAS»",
+      "slug": "mit-ia-sistemes-caotics-prediccions-fitades-pnas"
     },
     {
-      "title": "Thinking Machines publica Inkling 2 Mini, un model obert prou petit per funcionar en un ordinador portàtil",
-      "slug": "thinking-machines-inkling-2-mini-portatil"
+      "title": "Els pacients acceptarien abans un metge que fa servir la IA per a la paperassa que no pas un que la fa servir per diagnosticar o tractar",
+      "slug": "pacients-confien-menys-metge-ia-diagnostic"
     }
   ],
   "read": "3 MIN",
-  "words": 617
+  "words": 553
 };
