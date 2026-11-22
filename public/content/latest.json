@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-21T17:16:00.424Z",
+  "updatedAt": "2026-11-22T05:15:35.779Z",
   "items": [
     {
-      "category": "MODELS",
+      "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Thinking Machines publica Inkling 2 Mini, un model obert prou petit per funcionar en un ordinador portàtil",
-      "excerpt": "L'empresa de Mira Murati diu que el nou model, de 26.400 milions de paràmetres, rendeix com altres de molt més grans en programació perquè repeteix tres vegades les capes del mig. Ocupa uns 20 GB de memòria."
+      "title": "El regulador de la borsa dels Estats Units investiga la comptabilitat de Nvidia, segons Reuters",
+      "excerpt": "Els inspectors de la SEC examinen possibles irregularitats comptables del gran fabricant de xips per a IA. Un dels punts que es miren és el canvi en la manera de declarar d'on venen els ingressos, que va fer desaparèixer Singapur dels seus comptes."
     },
     {
-      "category": "SALUT",
+      "category": "CIBERSEGURETAT",
       "read": "5 MIN",
-      "title": "Una IA del CNIC llegeix els senyals que envien els desfibril·ladors implantats i avisa mesos abans del risc d'una arítmia greu",
-      "excerpt": "El model, entrenat amb dades de 5.089 pacients de 50 hospitals de l'Estat, dona una puntuació de risc de 0 a 100 que puja els mesos previs a una fibril·lació ventricular. L'estudi surt a «Circulation: Arrhythmia and Electrophysiology»."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Chicago, Nova York i Los Angeles planten cara a Google, que vol que les escoles acceptin els resums d'IA si volen el cercador",
-      "excerpt": "Tres dels quatre districtes escolars més grans dels Estats Units demanen poder fer servir el cercador sense els resums automàtics. L'alcalde de Nova York acusa Google d'abusar del seu monopoli."
-    },
-    {
-      "category": "CREADORS",
-      "read": "4 MIN",
-      "title": "Etsy intenta calmar els artesans que marxen per la IA, però manté la clàusula que li permet entrenar-la amb el seu contingut",
-      "excerpt": "Les noves condicions, que entren en vigor el 16 de desembre, diuen que Etsy i els seus socis poden fer servir el contingut dels venedors per entrenar sistemes d'IA. L'empresa assegura que no en farà models per copiar-los l'obra."
+      "title": "Un investigador amaga dos milions de paranys en peticions a serveis d'IA i descobreix tres proveïdors atacats sense saber-ho",
+      "excerpt": "HD Moore, de l'empresa de ciberseguretat Dragos, va posar contrasenyes i enllaços falsos dins de les preguntes que enviava als models i va vigilar on reapareixien. Revenedors que desaven les peticions i serveis que no respectaven l'opció de no guardar dades completen el diagnòstic."
     },
     {
       "category": "CIÈNCIA",
       "read": "4 MIN",
-      "title": "Un sol sensor òptic minúscul i una IA fan la feina de nou sensors de tacte, segons un estudi de la Universitat Washington a Saint Louis",
-      "excerpt": "La llum que circula per dins d'un microressonador canvia de manera diferent segons on i amb quina força el toquen, i un model d'aprenentatge automàtic n'interpreta els patrons. El treball surt a «Laser & Photonics Reviews»."
+      "title": "Els agents d'IA imiten millor com decidim en grup si se'ls explica com raonem les persones, segons «Nature Computational Science»",
+      "excerpt": "Un equip de la Universitat Northeastern ha posat agents de set models a jugar al «joc de la cervesa», una simulació clàssica de la cadena de subministrament. Sense aquesta preparació, alguns reaccionaven de manera exagerada; amb ella, s'acostaven al comportament humà mesurat en experiments anteriors."
     },
     {
-      "category": "EMPRESA",
+      "category": "PRODUCTES",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: The New York Times descriu dues dècades d'humiliacions i amenaces de Jensen Huang als treballadors de Nvidia",
-      "excerpt": "Una investigació del diari nord-americà, feta amb el testimoni de més d'una dotzena d'empleats i antics empleats i amb documents judicials, retrata una empresa on la por era una eina de gestió. Huang ho nega a través d'un portaveu i Nvidia no ha volgut fer comentaris."
+      "title": "OpenAI explica que un manteniment d'una base de dades va fer fallar fins a tres de cada quatre peticions a ChatGPT",
+      "excerpt": "La caiguda del 21 de novembre va durar unes tres hores i mitja i va afectar tant els usuaris de pagament com els gratuïts, i també l'API. L'empresa atura de moment aquest tipus de feines de manteniment i promet revisar tota la infraestructura."
     },
     {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Sense les mesures de control, l'Àfrica subsahariana tindria més del doble de casos de malària, segons una IA que llegeix imatges de satèl·lit",
-      "excerpt": "Un equip de Copenhaguen, l'Imperial College de Londres i altres centres calcula a «Nature Communications» que, si es retiressin les grans intervencions contra la malària, hi hauria uns 422 milions de casos l'any, un 131% més que les estimacions actuals."
-    },
-    {
-      "category": "ENERGIA",
+      "category": "CULTURA",
       "read": "4 MIN",
-      "title": "Meta revisa el seu objectiu d'emissions zero per al 2030 després que la IA les hagi fet pujar un 45% en un any",
-      "excerpt": "L'informe de sostenibilitat de l'empresa, publicat el 19 de novembre, admet que està reconsiderant el calendari i les fites intermèdies. Les emissions netes van arribar a 11,9 milions de tones de CO₂ equivalent el 2025 i el consum elèctric va créixer un 35% pels nous centres de dades."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Les salvaguardes dels agents d'IA cedeixen quan se'ls manipula: en converses simulades, un model ajustat assetja en el 96% dels casos",
-      "excerpt": "Un equip de la Universitat Estatal de Geòrgia, Georgia Tech i Berkeley ha posat un agent d'IA a fer d'assetjador i un altre de víctima durant deu torns. Amb una mica de manipulació, els models deixen de negar-se i els insults augmenten a mesura que avança la conversa."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Brussel·les tanca dilluns la consulta sobre les noves normes per protegir les eleccions dels vídeos falsos fets amb IA",
-      "excerpt": "L'esborrany de directrius de la Comissió Europea obligaria les grans plataformes a etiquetar de manera persistent els vídeos falsos, a detectar abans les campanyes coordinades amb bots i a presentar un informe 30 dies després de cada elecció."
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: El Nasdaq s'enfonsa un 5,3% en un sol dia, Nvidia perd gairebé un 14% i Anthropic cau un 9% en la seva segona jornada a la borsa",
-      "excerpt": "La sessió de divendres a Wall Street va castigar sobretot els fabricants de xips i les empreses de càlcul més lligades a la velocitat d'implantació de la IA. Anthropic, que dijous s'havia estrenat amb una pujada del 17%, va tancar a uns 88 dòlars, encara per sobre del preu de sortida."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Trump amenaça amb un impost «enorme» les empreses dels Estats Units que construeixin centres de dades d'IA a l'estranger",
-      "excerpt": "El president nord-americà ho va anunciar en una roda de premsa a la Casa Blanca i va admetre que ni el seu equip no ho sabia. No en va donar cap detall: ni la quantia, ni a quins països afectaria, ni com s'aplicaria."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Els models d'IA més avançats encara no saben dissenyar proves útils per avaluar altres IA, segons la nova versió del gràfic de METR",
-      "excerpt": "L'organització d'avaluació METR ha afegit tasques més llargues i obertes a la seva mesura més citada. Les capacitats continuen creixent de pressa, però els models fallen quan cal criteri: cap de les avaluacions que van dissenyar no va servir als investigadors."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "Cursor, l'eina de programació amb IA de SpaceX, estudia deixar els models xinesos per risc geopolític, segons un informe de la Cambra de Representants",
-      "excerpt": "Dues comissions del Congrés dels Estats Units han investigat durant mesos per què les empreses nord-americanes fan servir models oberts xinesos. Conclouen que són barats i gairebé tan bons com els millors, i demanen un pla públic per crear-ne d'americans."
-    },
-    {
-      "category": "ENERGIA",
-      "read": "4 MIN",
-      "title": "El Senat dels Estats Units aprova una llei que accelera els permisos energètics i obliga els grans centres de dades a pagar les millores de la xarxa elèctrica",
-      "excerpt": "La reforma, aprovada per 62 vots contra 33, vol desencallar la construcció de línies elèctriques i de noves centrals, que la IA necessita. Els ecologistes alerten que dona un xec en blanc a les petrolieres i als promotors de centres de dades."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "Signal impedeix que Siri i Gemini facin captures de pantalla dels xats, per evitar que els agents d'IA llegeixin les converses",
-      "excerpt": "La presidenta de Signal, Meredith Whittaker, explica que els agents d'IA integrats als sistemes operatius dels mòbils «escanegen» el que hi ha a la pantalla i s'emporten els missatges fora de l'aplicació. Signal admet que la protecció és incompleta i demana a Apple, Google i Microsoft una manera fàcil de tancar-los la porta."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Uns matemàtics confirmen que la demostració de la hipòtesi de Riemann feta amb Claude passa la comprovació informàtica, i un investigador de Stanford diu que l'ha resolta sense IA",
-      "excerpt": "El codi en Lean de Levent Alpöge compila, segons diversos matemàtics, però ningú no n'ha entès encara l'argument. Mentrestant, el professor de Stanford Ravi Vakil ha penjat una demostració de la hipòtesi generalitzada feta en dotze anys pel seu investigador postdoctoral Alessandro Masullo, que ningú no ha verificat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una interfície cervell-ordinador sense cirurgia escriu missatges gairebé tres vegades més de pressa quan un model de llenguatge suggereix les frases, segons un estudi de Rutgers",
-      "excerpt": "El sistema llegeix amb un casquet d'electroencefalografia la resposta del cervell davant de lletres i paraules que parpellegen a la pantalla, i un model de llenguatge que funciona a l'ordinador proposa paraules i frases. De moment només s'ha provat amb persones sanes; les proves amb pacients d'ELA encara s'han de fer."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "OpenAI diu que ha fet gairebé impossible copiar el raonament intern dels seus models nous per entrenar-ne d'altres",
-      "excerpt": "En les proves internes d'OpenAI, els atacs per extreure el raonament ocult han passat d'encertar en el 54% dels casos amb GPT-6 Astra a menys de l'1% amb GPT-6.2 Astra. L'empresa explica que cada setmana tanca entre milers i desenes de milers de comptes que intenten copiar els seus models."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "4 MIN",
-      "title": "Un exinvestigador d'OpenAI i Anthropic diu que és «una bogeria» que la IA avançada sigui en mans d'empreses amb afany de lucre, el dia que Anthropic s'estrena a la borsa",
-      "excerpt": "Jacob Coxon, britànic de 27 anys, va plegar d'Anthropic al setembre acusant-la, com a OpenAI, de córrer cap a una IA que es millori sola. Ho ha dit a l'AFP davant de la seu de l'empresa a San Francisco, on uns manifestants demanaven prohibir els models que construeixen les seves pròpies versions noves."
+      "title": "Una empresa de microsèries ofereix a qualsevol persona llogar la seva cara perquè la IA la faci actuar",
+      "excerpt": "Shortical, que fa sèries d'episodis de dos minuts, acaba d'estrenar una història feta tota amb IA en què l'actor israelià Aki Avni s'interpreta a si mateix. La companyia no diu quant paga per cada cara i de moment encara no ha signat cap contracte amb el públic."
     }
   ]
 }
