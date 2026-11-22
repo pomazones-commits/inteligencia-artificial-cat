@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-22T13:15:36.540Z",
+ "actualitzat": "2026-11-22T17:22:23.572Z",
  "fonts": 44,
  "articles": [
   {
@@ -24,6 +24,17 @@
    "titol": "Los consejeros delegados moderan su previsión de crecimiento y priorizan la inversión en IA",
    "url": "https://www.lavanguardia.com/economia/20261122/11690445/consejeros-delegados-moderan-prevision-crecimiento-priorizan-inversion-ia.html",
    "publicat": "2026-11-22T13:00:00.000Z"
+  },
+  {
+   "id": "2d6b03259ccc",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La banca de Wall Street fa l’agost amb les sortides a la borsa de SpaceX i Anthropic",
+   "url": "https://www.ara.cat/economia/mercats/banca-wall-street-l-agost-sortides-borsa-spacex-anthropic_25_5919275.html",
+   "publicat": "2026-11-22T12:30:06.000Z"
   },
   {
    "id": "e75bbfc9eeff",
@@ -89,7 +100,9 @@
    "ambit": "catala",
    "titol": "Casa de la Vall incorporarà visites immersives i audioguies amb IA",
    "url": "https://www.diariandorra.ad/nacional/261122/casa-vall-incorporara-visites-immersives-i-audioguies-amb-ia_209357.html",
-   "publicat": "2026-11-22T06:13:29.000Z"
+   "publicat": "2026-11-22T06:13:29.000Z",
+   "noticia": "andorra-casa-de-la-vall-audioguies-ia",
+   "noticiaTitol": "La Casa de la Vall d'Andorra tindrà audioguies amb IA a les quals els visitants podran fer preguntes durant la visita"
   },
   {
    "id": "227b32eeb97a",
@@ -2755,17 +2768,6 @@
    "titol": "Jensen Huang dice que sería un “honor” volver a Nvidia tras la “avalancha” de peticiones",
    "url": "https://www.lavanguardia.com/economia/20261117/11686754/jensen-huang-dice-seria-honor-volver-nvidia-avalancha-peticiones.html",
    "publicat": "2026-11-17T17:09:12.000Z"
-  },
-  {
-   "id": "f6d92ed96d08",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Jensen Huang está dispuesto a volver como CEO de Nvidia tras su dimisión",
-   "url": "https://www.diariodemallorca.es/economia/2026/11/17/jensen-huang-quiere-volver-nvidia-136549929.html",
-   "publicat": "2026-11-17T16:57:51.000Z"
   }
  ]
 }
