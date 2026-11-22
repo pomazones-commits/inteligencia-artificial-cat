@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Andorra",
+    "category": "IA I SOCIETAT",
+    "date": "22.11.2026",
+    "title": "La Casa de la Vall d'Andorra tindrà audioguies amb IA a les quals els visitants podran fer preguntes durant la visita",
+    "summary": "El Consell General ha adjudicat per 218.570 euros a l'empresa Semic una experiència immersiva que explicarà la història política de l'edifici i que s'estrenarà la primavera vinent, després de les obres.",
+    "detail": "La Casa de la Vall, a Andorra la Vella, és l'antiga seu del Consell General, el Parlament andorrà, i un dels edificis més simbòlics del país. Ara és en obres de rehabilitació, i el Consell General aprofita la reforma per canviar la manera de visitar-la: hi vol afegir una experiència immersiva i renovar les audioguies, que fins ara eren les clàssiques de recorregut tancat.\n\nSegons el Diari d'Andorra, el Consell General ha adjudicat el contracte a l'empresa Semic per 218.570 euros. El projecte explicarà la història política de l'edifici amb projeccions i recursos sonors, i obrirà al públic la torre del colomer, que fins ara no es podia visitar i que també acollirà projeccions. Les noves audioguies funcionaran sobretot amb el mòbil del visitant, a través de codis QR o de sistemes de localització, i incorporaran intel·ligència artificial perquè els visitants puguin fer preguntes durant el recorregut. Qui no tingui mòbil podrà fer servir aparells del mateix espai.\n\nÉs una de les aplicacions de la IA que s'estenen més de pressa als museus i als espais patrimonials: en lloc d'escoltar un text gravat, el visitant pot preguntar el que li interessa i rebre'n la resposta al moment. Per a un edifici com la Casa de la Vall, on es concentren segles d'història institucional andorrana, pot servir per adaptar la visita a públics molt diferents, des dels escolars fins als turistes estrangers.\n\nDe moment, però, el projecte és sobre el paper. El contingut final de l'experiència es definirà les pròximes setmanes, i el Consell General preveu estrenar el nou sistema de visites la primavera vinent, quan s'acabin les obres. L'article no detalla quin model d'IA s'hi farà servir, en quines llengües respondrà ni com es garantirà que les respostes sobre la història de l'edifici siguin rigoroses, una qüestió clau quan un sistema d'IA ha de parlar de fets històrics sense inventar-se'n cap.",
+    "source": "Diari d'Andorra",
+    "url": "https://www.diariandorra.ad/nacional/261122/casa-vall-incorporara-visites-immersives-i-audioguies-amb-ia_209357.html",
+    "image": "./assets/andorra-casa-de-la-vall-audioguies-ia-20261122.jpg",
+    "slug": "andorra-casa-de-la-vall-audioguies-ia"
+  },
+  {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "20.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.elnacional.cat/ca/societat/diada-tic-catalunya-2026-centre-debat-limits-ia-regulacio_1727558_102.html",
     "image": "./assets/diada-tic-catalunya-2026-responsabilitat-digital-ia-20261119.jpg",
     "slug": "diada-tic-catalunya-2026-responsabilitat-digital-ia"
-  },
-  {
-    "place": "València",
-    "category": "IA I SOCIETAT",
-    "date": "19.11.2026",
-    "title": "La valenciana Substrate AI compra un solar a Talavera de la Reina per construir-hi un centre de dades",
-    "summary": "L'empresa de València, que cotitza a BME Growth, paga 1,61 milions per gairebé 24.000 metres quadrats en un polígon industrial de Toledo, però encara no ha dit quina potència ni quina inversió tindrà el projecte.",
-    "detail": "Substrate AI, una empresa d'intel·ligència artificial de València que cotitza al mercat BME Growth, vol tenir infraestructura pròpia per a la IA. Ho fa a través de la seva filial AI European Infrastructure, que ha comunicat al mercat la compra d'un solar per construir-hi un centre de dades.\n\nEl terreny és al polígon industrial de Torrehierro, a Talavera de la Reina (Toledo), i fa 23.674 metres quadrats repartits en cinc parcel·les. L'empresa n'ha pagat 1,61 milions d'euros, sense impostos ni despeses, amb fons propis. L'operació es va tancar el 13 de novembre. El solar té una hipoteca a favor de l'entitat pública de sòl SEPES que ja està pagada però encara no s'ha cancel·lat al registre, i el venedor s'ha compromès a fer-ho.\n\nLa compra situa una empresa valenciana dins de la cursa per construir centres de dades a la península, amb el missatge, segons la companyia, de fer avançar una IA «més sobirana, segura i competitiva».\n\nDe moment és només la compra del terreny. Substrate AI no ha dit quina potència elèctrica tindrà el centre, quant hi invertirà ni quan el vol construir: depèn d'obtenir els permisos i les autoritzacions i de complir altres tràmits tècnics i administratius.",
-    "source": "Valencia Plaza",
-    "url": "https://valenciaplaza.com/valenciaplaza/bolsas/la-valenciana-substrate-ai-compra-un-solar-en-talavera-de-la-reina-toledo-para-un-centro-de-datos",
-    "image": "./assets/substrate-ai-valencia-solar-talavera-centre-dades-20261119.jpg",
-    "slug": "substrate-ai-valencia-solar-talavera-centre-dades"
   }
 ];
