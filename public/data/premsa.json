@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-22T12:53:52.998Z",
+ "actualitzat": "2026-11-22T13:15:36.540Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "3b2f17c4a7be",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Bill Gates demana una cosa que incomoda els més rics: més impostos per als multimilionaris per culpa de la IA",
+   "url": "https://www.elnacional.cat/ca/tecnologia/bill-gates-demana-cosa-incomoda-mes-rics-mes-impostos-multimilionaris-culpa-ia_1728350_102.html",
+   "publicat": "2026-11-22T13:00:00.000Z"
+  },
+  {
+   "id": "5120c3dbffb1",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los consejeros delegados moderan su previsión de crecimiento y priorizan la inversión en IA",
+   "url": "https://www.lavanguardia.com/economia/20261122/11690445/consejeros-delegados-moderan-prevision-crecimiento-priorizan-inversion-ia.html",
+   "publicat": "2026-11-22T13:00:00.000Z"
+  },
   {
    "id": "e75bbfc9eeff",
    "mitja": "Cinco Días",
@@ -2744,28 +2766,6 @@
    "titol": "Jensen Huang está dispuesto a volver como CEO de Nvidia tras su dimisión",
    "url": "https://www.diariodemallorca.es/economia/2026/11/17/jensen-huang-quiere-volver-nvidia-136549929.html",
    "publicat": "2026-11-17T16:57:51.000Z"
-  },
-  {
-   "id": "c90d6cc42ac6",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Corea del Sud es planta contra l'ús de la IA a la selectivitat: inspeccionarà fins i tot les ulleres",
-   "url": "https://www.elnacional.cat/ca/internacional/corea-sud-es-planta-contra-us-ia-selectivitat-inspeccionara-fins-tot-ulleres_1727069_102.html",
-   "publicat": "2026-11-17T16:56:37.000Z"
-  },
-  {
-   "id": "ec27d1833b8d",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un estudio alerta de que la IA miente sobre el cambio climático con tal de complacer a los usuarios: \"ChatGPT es una fábrica de negacionistas\"",
-   "url": "https://www.elperiodico.com/es/sociedad/20261117/chagpt-inteligencia-artificial-miente-cambio-climatico-complacer-usuario-estudio-unesco-136533801",
-   "publicat": "2026-11-17T16:55:47.000Z"
   }
  ]
 }
