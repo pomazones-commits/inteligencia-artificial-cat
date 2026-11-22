@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-21T17:16:43.755Z",
+ "actualitzat": "2026-11-22T00:42:56.199Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "ed2ca9576eb3",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alicante reúne a expertos del turismo para analizar el impacto de la IA",
+   "url": "https://www.informacion.es/economia/2026/11/21/alicante-reune-expertos-turismo-analizar-136669720.html",
+   "publicat": "2026-11-21T21:30:39.000Z"
+  },
   {
    "id": "d0fe79fadb11",
    "mitja": "Levante-EMV",
@@ -2759,17 +2770,6 @@
    "publicat": "2026-11-17T11:55:12.000Z",
    "noticia": "alhora-graupera-video-ia-xirinacs-critiques",
    "noticiaTitol": "Alhora retira un vídeo fet amb IA que «ressuscitava» Lluís Maria Xirinacs, després d'una pluja de crítiques a les xarxes"
-  },
-  {
-   "id": "55bf7de015d6",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Apple añade nuevos controles al acceso total al disco en macOS ante los riesgos de los agentes de IA",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/17/2751689/apple-anade-nuevos-controles-acceso-total-disco-macos-ante-riesgos-agentes-ia.html",
-   "publicat": "2026-11-17T11:50:00.000Z"
   }
  ]
 }
