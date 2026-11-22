@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026112201';
+  const VERSIO_MANUAL = '2026112202';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './estudis-arxiu.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -404,6 +404,9 @@
     // 22.10.2026: una peça de «Veus de l'administració» no ocupa mai la banda de la tribuna
     // ni la de l'estudi: surt a la seva banda (#veus-administracio).
     const esAdministracio = (p) => p && p.serie === 'veus-de-l-administracio';
+    // 22.11.2026 (decisió d'en Rafael): les entrevistes als convidats («Converses») tenen
+    // banda pròpia (#converses, just sota la tribuna) i no ocupen mai la de la tribuna.
+    const esConversa = (p) => p && p.serie === 'converses';
     // 22.10.2026 (decisió d'en Rafael, 05.54 h): «La tribuna» ja no és un format sinó l'espai
     // destacat de la portada que ocupen per torn, 2 dies cadascun, les peces noves dels
     // convidats: articles d'opinió i entrevistes (tribuna.js) i estudis (estudis.js). Es mostra
@@ -411,7 +414,7 @@
     // CIVICAi, empresa i administració tenen banda pròpia i no hi entren.
     const clauDataPortada = (d) => String(d || '').split('.').reverse().join('');
     const candidatesTribuna = [window.IA_TRIBUNA, window.IA_ESTUDI]
-      .filter((p) => p && p.title && !esAdministracio(p) && p.serie !== 'veus-de-civicai');
+      .filter((p) => p && p.title && !esAdministracio(p) && !esConversa(p) && p.serie !== 'veus-de-civicai');
     const destacada = candidatesTribuna.reduce((a, b) => (a && clauDataPortada(a.date) >= clauDataPortada(b.date) ? a : b), null);
     if (destacada && document.querySelector('#tribuna')) {
       const tribuna = destacada;
@@ -636,6 +639,58 @@
       targeta.appendChild(text);
       graella.textContent = '';
       graella.appendChild(targeta);
+      banda.hidden = false;
+    });
+
+    // ——— Converses (22.11.2026, decisió d'en Rafael) ———
+    // Les entrevistes als convidats tenen cua pròpia (una al dia, secció «conversa» de
+    // incoming/peces-programades.json) i banda pròpia just sota «La tribuna»: la més recent
+    // amb "serie": "converses" de tribuna-arxiu.js, si té menys de CONVERSES_DIES_MAX dies.
+    // Mateix esquema que la tribuna (retrat a l'esquerra), en clar (converses.css).
+    // seccions-portada.php reprodueix aquesta regla per no repetir-la a «Les seccions».
+    const CONVERSES_DIES_MAX = 30;
+    Promise.all([loadScript('./tribuna-arxiu.js'), loadScript('./peces.js')]).then(() => {
+      const llista = [window.IA_TRIBUNA].concat(window.IA_TRIBUNA_ARXIU || []);
+      const clauData = (d) => String(d || '').split('.').reverse().join('');
+      const peca = llista
+        .filter((t) => t && t.title && esConversa(t))
+        .sort((a, b) => clauData(b.date).localeCompare(clauData(a.date)))[0];
+      const banda = document.querySelector('#converses');
+      if (!peca || !banda) return;
+      const [dd, mm, aa] = String(peca.date || '').split('.').map(Number);
+      if (!dd || !mm || !aa || (Date.now() - new Date(aa, mm - 1, dd).getTime()) / 864e5 > CONVERSES_DIES_MAX) return;
+      const cami = (window.IAPeces && window.IAPeces.cami('tribuna', peca, llista)) || './converses';
+      const titol = banda.querySelector('#converses-titol');
+      const enllacTitol = document.createElement('a');
+      enllacTitol.href = cami;
+      enllacTitol.textContent = peca.title;
+      titol.textContent = '';
+      titol.appendChild(enllacTitol);
+      const cita = banda.querySelector('#converses-cita');
+      const frase = String(peca.quote || '').trim().replace(/^[«"“]+|[»"”]+$/g, '');
+      if (frase) cita.textContent = `«${frase}»`;
+      else cita.textContent = peca.excerpt || '';
+      cita.classList.toggle('conv-q--entradeta', !frase);
+      const qui = banda.querySelector('#converses-byline');
+      qui.textContent = peca.author || '';
+      if (peca.role) {
+        if (peca.author) qui.appendChild(document.createTextNode(' · '));
+        const rol = document.createElement('span');
+        if (window.IAPeces && window.IAPeces.rolAmbEnllac) window.IAPeces.rolAmbEnllac(rol, peca);
+        else rol.textContent = peca.role;
+        qui.appendChild(rol);
+      }
+      banda.querySelector('#converses-link').href = cami;
+      const eyebrow = banda.querySelector('#converses-eyebrow');
+      eyebrow.textContent = ['Converses', peca.read ? peca.read.toLowerCase() : ''].filter(Boolean).join(' · ');
+      if (peca.photo) {
+        const img = banda.querySelector('#converses-img');
+        img.src = peca.photo;
+        img.alt = peca.photoAlt || `Retrat de ${peca.author || ''}`.trim();
+        banda.querySelector('#converses-photo').hidden = false;
+      } else {
+        banda.querySelector('.conv-layout').classList.add('conv-layout--solo');
+      }
       banda.hidden = false;
     });
 

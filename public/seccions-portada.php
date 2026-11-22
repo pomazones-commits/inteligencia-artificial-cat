@@ -30,13 +30,14 @@ function seccions_format(array $peca): string
     $serie = (string) ($peca['item']['serie'] ?? '');
     if ($serie === 'veus-de-civicai') { return 'Veus de CIVICAi'; }
     if ($serie === 'veus-de-l-administracio') { return 'Veus de l’administració'; }
+    if ($serie === 'converses') { return 'Converses'; }
     return [
         'tribuna' => 'La tribuna', 'estudis' => 'Estudi', 'empresa' => 'Veus d’empresa',
         'analisi' => 'Anàlisi de la setmana', 'quadern' => 'Quadern IA',
     ][$peca['tipus']] ?? '';
 }
 
-const SECCIONS_DIES_BANDA = 30;   // VEUS_DIES_MAX, EMPRESA_DIES_MAX i ADMIN_DIES_MAX d'app.js
+const SECCIONS_DIES_BANDA = 30;   // VEUS_DIES_MAX, EMPRESA_DIES_MAX, ADMIN_DIES_MAX i CONVERSES_DIES_MAX d'app.js
 const SECCIONS_CONVIDATS_DIES = 30;
 
 function seccions_dies(array $peca): float
@@ -50,8 +51,9 @@ function seccions_dies(array $peca): float
 
 function seccions_es_convidat(array $peca): bool
 {
+    // 22.11.2026: les entrevistes de «Converses» també són peces dels convidats.
     return in_array($peca['tipus'], ['tribuna', 'estudis'], true)
-        && (string) ($peca['item']['serie'] ?? '') === '';
+        && in_array((string) ($peca['item']['serie'] ?? ''), ['', 'converses'], true);
 }
 
 // 03.11.2026 (decisió d'en Rafael): una peça es pot FIXAR a la targeta de la seva
@@ -111,7 +113,7 @@ function seccions_a_la_portada(array $totes): array
     foreach (['tribuna', 'estudis'] as $tipus) {
         foreach ($totes as $p) {
             if ($p['tipus'] === $tipus && (int) ($p['idx'] ?? 0) === -1
-                && !in_array($serie($p), ['veus-de-civicai', 'veus-de-l-administracio'], true)) { $vigents[] = $p; }
+                && !in_array($serie($p), ['veus-de-civicai', 'veus-de-l-administracio', 'converses'], true)) { $vigents[] = $p; }
         }
     }
     $destacada = null;
@@ -133,10 +135,11 @@ function seccions_a_la_portada(array $totes): array
     $marca($altra);
     if (!$columna && !$altra) { $marca($veus[0] ?? null); }
 
-    // Veus d'empresa i Veus de l'administració: la més recent, si té menys de 30 dies.
+    // Veus d'empresa, Veus de l'administració i Converses: la més recent, si té menys de 30 dies.
     foreach ([
         static fn(array $p): bool => $p['tipus'] === 'empresa',
         static fn(array $p): bool => in_array($p['tipus'], ['tribuna', 'estudis'], true) && $serie($p) === 'veus-de-l-administracio',
+        static fn(array $p): bool => $p['tipus'] === 'tribuna' && $serie($p) === 'converses',
     ] as $filtre) {
         foreach ($totes as $p) {
             if (!$filtre($p)) { continue; }
@@ -158,10 +161,11 @@ function seccions_dates_sortida(array $totes): array
     $signada = static fn(array $p): bool => in_array($p['tipus'], ['tribuna', 'estudis'], true);
     $esSanroma = static fn(array $p): bool => (bool) preg_match('/sanrom/i', (string) ($p['item']['author'] ?? ''));
     $bandes = [
-        'tribuna' => [static fn(array $p): bool => $signada($p) && !in_array($serie($p), ['veus-de-civicai', 'veus-de-l-administracio'], true), false],
+        'tribuna' => [static fn(array $p): bool => $signada($p) && !in_array($serie($p), ['veus-de-civicai', 'veus-de-l-administracio', 'converses'], true), false],
         'columna' => [static fn(array $p): bool => $signada($p) && $serie($p) === 'veus-de-civicai' && $esSanroma($p), false],
         'civicai' => [static fn(array $p): bool => $signada($p) && $serie($p) === 'veus-de-civicai' && !$esSanroma($p), true],
         'admin' => [static fn(array $p): bool => $signada($p) && $serie($p) === 'veus-de-l-administracio', true],
+        'converses' => [static fn(array $p): bool => $signada($p) && $serie($p) === 'converses', true],
     ];
     $sortida = [];
     foreach ($bandes as [$filtre, $caduca]) {

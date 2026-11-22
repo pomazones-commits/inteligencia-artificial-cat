@@ -32,6 +32,9 @@ foreach (iacat_totes_les_peces() as $peca) {
         // «Veus de l'administració» des del 22.10.2026 (11.11.2026): mateixa regla, prefix admin.
         $nom = ($peca['tipus'] === 'estudis' ? 'admin-estudi-' : 'admin-') . $peca['dataIso']
             . '-' . iacat_slug((string) ($peca['item']['author'] ?? '')) . '.mp3';
+    } elseif (($peca['item']['serie'] ?? '') === 'converses') {
+        // «Converses» (22.11.2026): un MP3 per entrevista, prefix conversa.
+        $nom = 'conversa-' . $peca['dataIso'] . '-' . iacat_slug((string) ($peca['item']['author'] ?? '')) . '.mp3';
     }
     if (!is_file($dirAudio . $nom)) { continue; }
     $peca['_mp3'] = $nom;

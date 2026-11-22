@@ -203,7 +203,10 @@
         // «Veus de l'administració» des del 22.10.2026 (11.11.2026): admin-AAAA-MM-DD-<autor>.mp3.
         : (t.serie === 'veus-de-l-administracio' && iso >= '2026-10-22' && window.IAPeces)
           ? 'admin-' + iso + '-' + window.IAPeces.slug(t.author || '')
-          : 'tribuna-' + iso;
+          // «Converses» (22.11.2026): conversa-AAAA-MM-DD-<autor>.mp3 (surten el mateix dia que una tribuna).
+          : (t.serie === 'converses' && window.IAPeces)
+            ? 'conversa-' + iso + '-' + window.IAPeces.slug(t.author || '')
+            : 'tribuna-' + iso;
       var audioUrl = m ? './assets/audio/' + nomAudio + '.mp3' : null;
       window.IALector.init({
         container: document.getElementById('lector'),

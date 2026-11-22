@@ -12,6 +12,7 @@
    l'assignació de window.IA_SERIES ha de ser l'ÚLTIMA instrucció del fitxer, a
    la columna 0, i en JSON pur (cometes dobles, sense comes finals ni comentaris).
    «web» i «crida» són opcionals (Veus de l'administració, 20.10.2026, no és cap entitat).
+   «Converses» (22.11.2026): les entrevistes de la tribuna, amb banda pròpia a la portada.
    Si hi toques res, passa `node scripts/valida-series.mjs`. */
 (function () {
   function troba(item) {
@@ -106,5 +107,12 @@ window.IA_SERIES = {
     "entitat": "Administracions públiques",
     "logo": "/assets/series/veus-de-l-administracio.svg",
     "descripcio": "La secció on escriuen les persones que porten la intel·ligència artificial a les administracions públiques de Catalunya, la Comunitat Valenciana, les Illes Balears i Andorra: què fan, com ho fan i amb quines garanties per a la ciutadania."
+  },
+  "converses": {
+    "nom": "Converses",
+    "cami": "/converses",
+    "entitat": "La tribuna",
+    "logo": "/assets/series/converses.svg",
+    "descripcio": "Les entrevistes de la tribuna: converses amb investigadores i investigadors, professionals i pensadors sobre què canvia la intel·ligència artificial, què hi està en joc i què en podem esperar."
   }
 };

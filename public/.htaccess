@@ -106,6 +106,8 @@ RewriteRule ^eixos/?$ https://inteligencia-artificial.cat/seccions [R=301,L]
 RewriteRule ^veus-de-civicai/?$ veus-de-civicai.php [L,QSA]
 # Sèrie «Veus de l'administració» (20.10.2026): mateix mecanisme que CIVICAi.
 RewriteRule ^veus-de-l-administracio/?$ veus-de-l-administracio.php [L,QSA]
+# Converses (22.11.2026): les entrevistes de la tribuna.
+RewriteRule ^converses/?$ converses.php [L,QSA]
 # «Veus d'empresa» (15.10.2026): llista de la secció; les peces, a /empresa/<id> (peca.php).
 RewriteRule ^veus-d-empresa/?$ veus-d-empresa.php [L,QSA]
 # Vídeos (09.10.2026): dades a data/videos.json, generades pel workflow videos.yml.

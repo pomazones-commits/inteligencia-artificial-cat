@@ -84,6 +84,18 @@ for (const [nom, p] of [['tribuna.js', w.IA_TRIBUNA], ['estudis.js', w.IA_ESTUDI
   }
 }
 
+// 5c. «Converses» (22.11.2026, decisió d'en Rafael): les entrevistes als convidats van
+//     directament a tribuna-arxiu.js (seccio «conversa» de la cua) i surten a la banda
+//     #converses. Mai no poden ser la tribuna ni l'estudi vigents, i són entrevistes.
+for (const [nom, p] of [['tribuna.js', w.IA_TRIBUNA], ['estudis.js', w.IA_ESTUDI]]) {
+  if (p && p.serie === 'converses') {
+    errors.push(`${nom}: «${p.title}» és de «Converses» i no pot ser la peça vigent; va a tribuna-arxiu.js (al davant, per data)`);
+  }
+}
+for (const p of w.IA_ESTUDIS_ARXIU || []) {
+  if (p && p.serie === 'converses') errors.push(`estudis-arxiu.js: «${p.title}» és de «Converses», que només té entrevistes (van a tribuna-arxiu.js)`);
+}
+
 // 6. L'arxiu de la tribuna ha d'anar per data, de la més recent a la més antiga
 //    (la banda de la portada i l'arxiu ho suposen).
 const clauData = (d) => String(d || '').split('.').reverse().join('');

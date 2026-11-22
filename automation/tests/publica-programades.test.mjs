@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  validaEntrada, revisaText, insereixPerData, nouSegellHtml, nouSegellXifres, llegeixDades, escriuDades, processa, dataPeca
+  SECCIONS, validaEntrada, revisaText, insereixPerData, nouSegellHtml, nouSegellXifres, llegeixDades, escriuDades, processa, dataPeca
 } from '../scripts/publica-programades.mjs';
 
 const peca = (extra = {}) => ({
@@ -41,6 +41,12 @@ test('valida les seccions i la sèrie de CIVICAi', () => {
   assert.equal(validaEntrada({ seccio: 'veus-de-l-administracio-estudi', publica: '2026-10-27', peca: peca({ serie: 'veus-de-l-administracio' }) }), null);
   assert.match(validaEntrada({ seccio: 'veus-de-l-administracio', publica: '2026-10-27', peca: peca() }), /serie/);
   assert.match(validaEntrada({ seccio: 'tribuna', publica: '2026-10-27', peca: peca({ serie: 'veus-de-l-administracio' }) }), /no pot anar/);
+  // 22.11.2026: «Converses», les entrevistes als convidats, amb cua i banda pròpies.
+  assert.equal(validaEntrada({ seccio: 'conversa', publica: '2026-11-24', peca: peca({ serie: 'converses', category: 'ENTREVISTA' }) }), null);
+  assert.match(validaEntrada({ seccio: 'conversa', publica: '2026-11-24', peca: peca({ category: 'ENTREVISTA' }) }), /serie/);
+  assert.match(validaEntrada({ seccio: 'conversa', publica: '2026-11-24', peca: peca({ serie: 'converses', category: 'TRIBUNA' }) }), /entrevista/);
+  assert.match(validaEntrada({ seccio: 'tribuna', publica: '2026-11-24', peca: peca({ serie: 'converses', category: 'ENTREVISTA' }) }), /no pot anar/);
+  assert.equal(SECCIONS.conversa.fitxer, 'tribuna-arxiu.js');
   assert.match(validaEntrada({ seccio: 'res', publica: '2026-10-21', peca: peca() }), /desconeguda/);
   assert.match(validaEntrada({ seccio: 'empresa', publica: '21.10.2026', peca: peca() }), /AAAA-MM-DD/);
 });

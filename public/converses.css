@@ -1,0 +1,111 @@
+/* ——— Converses (22.11.2026, decisió d'en Rafael) ———
+   Banda de la portada amb l'entrevista del dia als convidats, just sota «La tribuna».
+   Mateix esquema que la tribuna (retrat a l'esquerra, 230 px), però en clar perquè les
+   dues bandes no es confonguin. Fitxer independent per no tocar portada.css (CLAUDE.md).
+   La secció (#converses) està amagada per defecte i app.js només la mostra si hi ha una
+   peça amb "serie": "converses" de menys de 30 dies. */
+
+.conv-band {
+  width: var(--shell);
+  margin: 0 auto 26px;
+  overflow: hidden;
+  border-radius: 34px;
+  color: #12162a;
+  background:
+    radial-gradient(circle at 96% 8%, rgba(108, 92, 231, .12), transparent 40%),
+    linear-gradient(135deg, #f4f1ff, #e8eefc);
+  border: 1px solid #d9dcf0;
+  box-shadow: 0 22px 70px rgba(18, 22, 42, .12);
+}
+
+.conv-layout {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+  padding-block: 44px;
+}
+
+.conv-layout.conv-layout--solo { grid-template-columns: 1fr; }
+
+.conv-photo { margin: 0; position: relative; }
+.conv-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 26px;
+  box-shadow: 0 18px 55px rgba(18, 22, 42, .25);
+}
+.conv-photo figcaption {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  padding: 5px 9px;
+  border-radius: 999px;
+  color: #12162a;
+  background: #d6ff3c;
+  font: 700 9px var(--mono);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.conv-copy .eyebrow { color: #d6ff3c; background: #12162a; }
+
+.conv-copy h2 {
+  margin: 0;
+  max-width: 730px;
+  font: 500 38px/1.08 var(--serif);
+  letter-spacing: -.03em;
+}
+.conv-copy h2 a { color: inherit; text-decoration: none; }
+.conv-copy h2 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+.conv-q {
+  max-width: 640px;
+  margin: 18px 0 12px;
+  padding-left: 16px;
+  border-left: 4px solid #6c5ce7;
+  color: #2a2f4a;
+  font: italic 500 18px/1.45 var(--serif);
+}
+.conv-q.conv-q--entradeta { font: 400 14px/1.6 inherit; font-style: normal; }
+
+.conv-by {
+  margin: 0 0 22px;
+  color: #5a4bd1;
+  font: 600 10px var(--mono);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+.conv-by a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+.conv-accions { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; }
+.conv-accions a {
+  display: inline-flex;
+  gap: 12px;
+  padding: 11px 14px;
+  border-radius: 999px;
+  color: #fff;
+  background: #12162a;
+  font: 600 9px var(--mono);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.conv-accions a.conv-mes { color: #12162a; background: transparent; border: 1px solid #b9bde0; }
+
+@media (max-width: 880px) {
+  .conv-band { border-radius: 25px; }
+  .conv-layout { grid-template-columns: 1fr; gap: 22px; padding: 30px 24px; align-items: start; }
+  .conv-photo { max-width: 200px; }
+  .conv-copy h2 { font-size: 30px; }
+}
+
+@media (max-width: 760px) {
+  /* Etiquetes llegibles i zones de toc (mateix criteri que mobil.css). */
+  .conv-by, .conv-by a, .conv-accions a, .conv-photo figcaption { font-size: 11px; }
+  .conv-accions a { min-height: 44px; align-items: center; }
+  .conv-copy h2 { font-size: 28px; }
+  .conv-q { font-size: 17px; }
+}

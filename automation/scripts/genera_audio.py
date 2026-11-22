@@ -197,12 +197,17 @@ def nom_audio_civicai(peca: dict, estudi: bool) -> str:
 # conserven el nom antic. La mateixa regla és a tribuna.html, estudi.html i
 # podcast.php.
 ADMIN_DES_DE = "2026-10-22"
+CONVERSES_DES_DE = "2026-11-22"
 SERIES_AMB_AUDIO_PROPI = {
     # serie: (prefix, data de tall, només els darrers CIVICAI_DIES dies?)
     "veus-de-civicai": ("civicai", CIVICAI_DES_DE, True),
     # Poques peces: es fan totes les que faltin des del tall (inclosa la
     # tribuna del 22.10.2026, que tampoc no en tenia).
     "veus-de-l-administracio": ("admin", ADMIN_DES_DE, False),
+    # «Converses» (22.11.2026): les entrevistes de la tribuna, una al dia, a
+    # tribuna-arxiu.js (conversa-AAAA-MM-DD-<autor>.mp3). Moltes peces: només les
+    # dels darrers CIVICAI_DIES dies, com CIVICAi. tribuna.html i podcast.php, igual.
+    "converses": ("conversa", CONVERSES_DES_DE, True),
 }
 
 
@@ -368,7 +373,7 @@ def cerca_noticia(slug: str):
 # Noms dels MP3 de les peces signades i de la Redacció (20.10.2026): també es poden
 # refer amb l'entrada «regenera» del workflow, p. ex. «empresa-2026-10-20» quan
 # es corregeix el text d'una peça ja publicada.
-PATRO_AUDIO_PECA = r"(?:empresa|tribuna|estudi|analisi|quadern|reflexio|civicai|civicai-estudi|admin|admin-estudi)-\d{4}-\d{2}-\d{2}(?:-[a-z0-9-]+)?"
+PATRO_AUDIO_PECA = r"(?:empresa|tribuna|estudi|analisi|quadern|reflexio|civicai|civicai-estudi|admin|admin-estudi|conversa)-\d{4}-\d{2}-\d{2}(?:-[a-z0-9-]+)?"
 
 
 def peces_forcades() -> set:

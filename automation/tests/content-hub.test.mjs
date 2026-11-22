@@ -1682,6 +1682,39 @@ test('Veus de l\'administració: un MP3 per peça amb l\'autor al nom des del 22
   assert.match(podcast, /'admin-estudi-' : 'admin-'/);
 });
 
+test('Converses: banda pròpia sota la tribuna, àudio propi i fora de la tribuna vigent (22.11.2026)', async () => {
+  const arrel = resolve(import.meta.dirname, '..', '..');
+  const py = spawnSync('python3', ['-c', [
+    'import importlib.util, re',
+    `spec = importlib.util.spec_from_file_location("g", ${JSON.stringify(join(arrel, 'automation', 'scripts', 'genera_audio.py'))})`,
+    'g = importlib.util.module_from_spec(spec); spec.loader.exec_module(g)',
+    'print(g.nom_audio_serie({"date": "24.11.2026", "author": "Joan Mas Ferrà"}, False, "converses"))',
+    'print(bool(re.fullmatch(g.PATRO_AUDIO_PECA, "conversa-2026-11-24-joan-mas-ferra")))',
+  ].join('\n')], { encoding: 'utf8' });
+  assert.equal(py.status, 0, py.stderr);
+  assert.deepEqual(py.stdout.trim().split('\n'), ['conversa-2026-11-24-joan-mas-ferra', 'True']);
+  const llegeix = (...c) => readFileSync(join(arrel, 'public', ...c), 'utf8');
+  assert.match(llegeix('tribuna.html'), /t\.serie === 'converses' && window\.IAPeces\)\s*\? 'conversa-' \+ iso \+ '-' \+ window\.IAPeces\.slug\(t\.author/);
+  assert.match(llegeix('podcast.php'), /=== 'converses'\) \{[\s\S]*?\$nom = 'conversa-' \. \$peca\['dataIso'\]/);
+  // La banda: just després de #tribuna, amb el seu CSS, i la tribuna no hi agafa mai una conversa.
+  const index = llegeix('index.html');
+  assert.ok(index.indexOf('id="converses"') > index.indexOf('id="tribuna"'));
+  assert.ok(index.indexOf('id="converses"') < index.indexOf('id="seccions"'));
+  assert.match(index, /converses\.css\?v=/);
+  const app = llegeix('app.js');
+  assert.match(app, /!esAdministracio\(p\) && !esConversa\(p\)/);
+  assert.match(app, /const CONVERSES_DIES_MAX = 30;/);
+  // «Les seccions» aplica la mateixa regla (no la repeteix i la compta com a convidat).
+  const seccions = llegeix('seccions-portada.php');
+  assert.match(seccions, /\['veus-de-civicai', 'veus-de-l-administracio', 'converses'\]/);
+  assert.match(seccions, /'converses' => \[static fn/);
+  assert.match(seccions, /\['', 'converses'\]/);
+  // Sèrie, pàgina i ruta.
+  assert.match(llegeix('series.js'), /"converses": \{\s*"nom": "Converses",\s*"cami": "\/converses"/);
+  assert.match(llegeix('.htaccess'), /RewriteRule \^converses\/\?\$ converses\.php/);
+  assert.match(llegeix('converses.php'), /const SERIE_CLAU = 'converses';/);
+});
+
 test('cartell: si el dia més proper té dos actes grans, surten tots dos en carrusel (17.10.2026)', async () => {
   const vm = await import('node:vm');
   const src = await readFile(resolve(import.meta.dirname, '..', '..', 'public', 'cartell.js'), 'utf8');

@@ -23,6 +23,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsMediaOrganization","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","description":"Notícies, anàlisi i context sobre intel·ligència artificial, en català.","publishingPrinciples":"https://inteligencia-artificial.cat/redaccio.html"},{"@type":"WebSite","name":"intel·ligènciaartificial.cat","url":"https://inteligencia-artificial.cat/","inLanguage":"ca"}]}</script>
   <link rel="stylesheet" href="./portada.css?v=2026102501">
   <link rel="stylesheet" href="./tribuna.css?v=2026101302">
+  <link rel="stylesheet" href="./converses.css?v=2026112201">
   <link rel="stylesheet" href="./seccions-portada.css?v=2026103101">
   <link rel="stylesheet" href="./veus-portada.css?v=2026101502">
   <link rel="stylesheet" href="./estudis.css?v=2026101302">
@@ -34,7 +35,7 @@
   <link rel="stylesheet" href="./radio-portada.css?v=2026101101">
   <link rel="stylesheet" href="./agora-portada.css?v=2026101701">
   <link rel="stylesheet" href="./mobil.css?v=2026101802">
-  <script defer src="./app.js?v=2026112201"></script>
+  <script defer src="./app.js?v=2026112202"></script>
   <script defer src="./cartell.js?v=2026101703"></script>
   <script defer src="./premsa.js?v=2026101801"></script>
   <script defer src="./radio-portada.js?v=2026101101"></script>
@@ -197,6 +198,29 @@
           <p id="tribuna-excerpt"></p>
           <p class="tribuna-byline" id="tribuna-byline"></p>
           <a href="./tribuna.html" id="tribuna-link">Llegir la tribuna <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <!-- 22.11.2026 (decisió d'en Rafael): «Converses», l'entrevista del dia als convidats, amb
+         banda pròpia just sota la tribuna (cua pròpia, una al dia). Les entrevistes continuen
+         sent de «La tribuna» (tribuna-arxiu.js, arxiu i secció temàtica) amb "serie":
+         "converses". Retrat a l'esquerra com la tribuna, en clar (converses.css). La pinta app.js. -->
+    <section class="conv-band" id="converses" hidden aria-labelledby="converses-titol">
+      <div class="shell conv-layout">
+        <figure class="conv-photo" id="converses-photo" hidden>
+          <img id="converses-img" src="" alt="" loading="lazy">
+          <figcaption>Entrevista</figcaption>
+        </figure>
+        <article class="conv-copy">
+          <p class="eyebrow" id="converses-eyebrow">Converses</p>
+          <h2 id="converses-titol"></h2>
+          <p class="conv-q" id="converses-cita"></p>
+          <p class="conv-by" id="converses-byline"></p>
+          <p class="conv-accions">
+            <a href="./converses" id="converses-link">Llegir l’entrevista <span>↗</span></a>
+            <a class="conv-mes" href="./converses">Totes les converses →</a>
+          </p>
         </article>
       </div>
     </section>
@@ -373,7 +397,7 @@
       </div>
       <div>
         <strong>Explora</strong>
-        <a href="#ultima-hora">Última hora</a><a href="#catalunya">Radar català</a><a href="./tribuna.html">La tribuna</a><a href="./seccions">Seccions</a><a href="./veus-de-civicai">Veus de CIVICAi</a><a href="./veus-d-empresa">Veus d’empresa</a><a href="./veus-de-l-administracio">Veus de l’administració</a><a href="#analisi">Anàlisi</a><a href="./agenda">Agenda</a><a href="./podcast.html">Pòdcast</a><a href="./glossari">Glossari</a><a href="./llengua">La IA i el català</a><a href="./ecosistema">Ecosistema</a><a href="./formacio">Formació</a><a href="./club-de-lectura">Club de lectura</a><a href="./agora/">Àgora</a><a href="./centres-de-dades">Centres de dades</a><a href="./videos">Vídeos</a><a href="./radio">La IA a la ràdio</a><a href="./premsa">Ressò de premsa</a><a href="./arxiu.html">Arxiu</a>
+        <a href="#ultima-hora">Última hora</a><a href="#catalunya">Radar català</a><a href="./tribuna.html">La tribuna</a><a href="./converses">Converses</a><a href="./seccions">Seccions</a><a href="./veus-de-civicai">Veus de CIVICAi</a><a href="./veus-d-empresa">Veus d’empresa</a><a href="./veus-de-l-administracio">Veus de l’administració</a><a href="#analisi">Anàlisi</a><a href="./agenda">Agenda</a><a href="./podcast.html">Pòdcast</a><a href="./glossari">Glossari</a><a href="./llengua">La IA i el català</a><a href="./ecosistema">Ecosistema</a><a href="./formacio">Formació</a><a href="./club-de-lectura">Club de lectura</a><a href="./agora/">Àgora</a><a href="./centres-de-dades">Centres de dades</a><a href="./videos">Vídeos</a><a href="./radio">La IA a la ràdio</a><a href="./premsa">Ressò de premsa</a><a href="./arxiu.html">Arxiu</a>
       </div>
       <div>
         <strong>Projecte</strong>
