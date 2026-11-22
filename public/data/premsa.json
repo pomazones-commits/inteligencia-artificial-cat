@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-22T17:22:23.572Z",
+ "actualitzat": "2026-11-22T20:51:08.993Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "950761885e5e",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Miguel Benito, abogado laboralista, advierte sobre los despidos por inteligencia artificial: \"El mercado la ha sustituido y el despido es procedente\"",
+   "url": "https://www.informacion.es/finanzas-personales/2026/11/22/miguel-benito-abogado-despido-inteligencia-artificual-sentencia-procedente-dv-loc-136730346.html",
+   "publicat": "2026-11-22T20:08:05.000Z"
+  },
+  {
+   "id": "1789632e61b5",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Ciberataques, el boom de la IA y teorías de la conspiración: qué se esconde detrás del colapso de sistemas por todo el mundo",
+   "url": "https://www.eldiario.es/tecnologia/ciberataques-boom-ia-teorias-conspiracion-esconde-detras-colapso-sistemas-mundo_1_13684598.html",
+   "publicat": "2026-11-22T17:54:59.000Z"
+  },
   {
    "id": "3b2f17c4a7be",
    "mitja": "El Nacional",
@@ -2746,28 +2768,6 @@
    "titol": "¿Un mercado sin ‘traders’? Agentes de IA negocian la primera venta de bonos sin intervención humana",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-17/un-mercado-sin-traders-agentes-de-ia-cierran-por-la-primera-venta-de-bonos-sin-intervencion-humana.html",
    "publicat": "2026-11-17T17:45:40.000Z"
-  },
-  {
-   "id": "61c2e5cc9d02",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Jensen Huang trenca el silenci i obre la porta a recuperar el càrrec de CEO a Nvidia",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/jensen-huang-trenca-silenci-obre-porta-recuperar-carrec-ceo-nvidia_1727078_102.html",
-   "publicat": "2026-11-17T17:10:46.000Z"
-  },
-  {
-   "id": "fbe102729f66",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Jensen Huang dice que sería un “honor” volver a Nvidia tras la “avalancha” de peticiones",
-   "url": "https://www.lavanguardia.com/economia/20261117/11686754/jensen-huang-dice-seria-honor-volver-nvidia-avalancha-peticiones.html",
-   "publicat": "2026-11-17T17:09:12.000Z"
   }
  ]
 }
