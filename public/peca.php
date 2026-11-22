@@ -47,7 +47,7 @@ if ($html === '') { http_response_code(500); exit; }
 
 $item = $peca['item'];
 $titolPagina = $peca['titol'] . ' · intel·ligència artificial.cat';
-$descripcio = trim(preg_replace('/\s+/', ' ', $peca['resum']) ?? '');
+$descripcio = trim(preg_replace('/\s+/', ' ', (string) preg_replace('/\*(?=\S)([^*\n]*?\S)\*/u', '$1', (string) $peca['resum'])) ?? ''); // sense asteriscs de cursiva (22.11.2026)
 if ($descripcio === '') { $descripcio = $seccio['nom'] . ' a intel·ligènciaartificial.cat.'; }
 if (function_exists('mb_strlen') && mb_strlen($descripcio) > 300) { $descripcio = rtrim(mb_substr($descripcio, 0, 297)) . '…'; }
 $url = $peca['url'];

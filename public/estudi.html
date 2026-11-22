@@ -169,7 +169,7 @@
         var resum = document.getElementById('resum');
         abstract.forEach(function (text) {
           var p = document.createElement('p');
-          afegeixTextAmbEnllacos(p, text);
+          afegeixAmbCursiva(p, text); // 22.11.2026: *cursiva* també al resum
           resum.appendChild(p);
         });
         resum.hidden = false;
