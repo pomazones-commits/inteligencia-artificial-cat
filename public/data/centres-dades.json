@@ -1,6 +1,6 @@
 {
- "actualitzat": "2026-11-16",
- "propera_revisio": "2026-11-23",
+ "actualitzat": "2026-11-23",
+ "propera_revisio": "2026-11-30",
  "nota": "Centres de dades i supercomputació als territoris de parla catalana. Manual: revisió setmanal a la tasca «Edicions» (vegeu CLAUDE.md). Pàgina: /centres-de-dades (public/centres-de-dades.php). Estats: en funcionament | en construcció | en tramitació | aturat | descartat. origen de cada xifra: promotor (ho diu l’empresa) | administració (ho anuncia un govern o un ajuntament) | oficial (consta en un tràmit o document públic: Miteco, DOGC, DOGV, BOIB, BOPA, BOE, llicència, contracte) | premsa (xifra publicada sense font primària). llocs = [[lat, lon], …] aproximades. polemica: sempre amb la resposta de l’empresa o de l’administració, o una nota que digui que no n’hem trobat. Contractacions: només amb document públic o comunicat de totes dues parts. Cap camp inventat.",
  "xifres": [
   {
@@ -1581,6 +1581,17 @@
      "data": "2026-11-15",
      "fet": "Més d'un miler de persones es manifesten entre Móra d'Ebre i Móra la Nova contra els macroprojectes al món rural, amb la gigafactoria com un dels motius principals. La plataforma Pobles Vius, amb el suport de fins a 250 entitats, demana que no s'impulsin nous centres de dades sense estudis previs sobre el consum d'aigua i d'energia, i avisa que continuarà les protestes si el Govern no s'hi reuneix",
      "font": "https://www.3cat.cat/3catinfo/mes-dun-miler-de-persones-es-mobilitzen-a-mora-debre-contra-els-macroprojectes-al-mon-rural/noticia/3439935/"
+    },
+    {
+     "data": "2026-11-17",
+     "fet": "El Govern encarrega a l'Incasòl vendre a la societat promotora de la candidatura els més de 132.000 metres quadrats del polígon El Molló. La candidatura s'ha de presentar a Brussel·les abans del 3 de desembre",
+     "font": "https://www.diaridetarragona.com/economia/275864/govern-da-paso-definitivo-implantar-gigafactoria-ia-mora-nova.html"
+    },
+    {
+     "data": "2026-11-18",
+     "fet": "La Comissió Territorial d'Urbanisme de les Terres de l'Ebre aprova el planejament que agrupa en una sola parcel·la els terrenys del polígon del Molló",
+     "font": "https://www.ara.cat/economia/tecnologia/llum-verda-planejament-urbanistic-gigafactoria-mora-nova_1_5914707.html",
+     "via_premsa": true
     }
    ],
    "fonts": [
@@ -1598,7 +1609,7 @@
    "paraules": [
     "Móra la Nova"
    ],
-   "verificat": "2026-11-16"
+   "verificat": "2026-11-23"
   },
   {
    "id": "submer-flix",
@@ -2901,6 +2912,11 @@
    "data": "2026-11-16",
    "id": "gigafactoria-mora-la-nova",
    "fet": "Manifestació de més d'un miler de persones (15.11.2026) entre Móra d'Ebre i Móra la Nova contra els macroprojectes rurals, amb la gigafactoria com un dels motius principals"
+  },
+  {
+   "data": "2026-11-23",
+   "id": "gigafactoria-mora-la-nova",
+   "fet": "Venda dels terrenys del Molló encarregada a l'Incasòl (17.11) i aprovació del planejament urbanístic (18.11), abans de la candidatura europea, que s'ha de presentar abans del 3 de desembre"
   }
  ]
 }
