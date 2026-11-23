@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-23T15:26:10.099Z",
+ "actualitzat": "2026-11-23T17:15:07.952Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "da3423c8c9a4",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia restituïx Jensen Huang com a president i director executiu",
+   "url": "https://www.apuntmedia.es/noticies/economia/nvidia-restituix-jensen-huang-president-director-executiu_1_1911014.html",
+   "publicat": "2026-11-23T16:35:28.000Z"
+  },
+  {
+   "id": "0c2200876115",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Qui mana a Nvidia?",
+   "url": "https://www.ara.cat/economia/tecnologia/mana-nvidia_129_5920423.html",
+   "publicat": "2026-11-23T16:29:09.000Z"
+  },
+  {
+   "id": "fa7c06e014f8",
+   "mitja": "Información",
+   "font": "informacion",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El consejo de Nvidia restituye a Jensen Juang como CEO",
+   "url": "https://www.informacion.es/videos/economia/2026/11/23/consejo-nvidia-restituye-jensen-juang-136762504.html",
+   "publicat": "2026-11-23T16:08:20.000Z"
+  },
   {
    "id": "051823bab543",
    "mitja": "El Nacional",
@@ -65,7 +98,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "El Nasdaq se dispara un 5,5% tras el regreso de Jensen Huang como primer ejecutivo de Nvidia",
+   "titol": "El Nasdaq se dispara un 7% tras el regreso de Jensen Huang como primer ejecutivo de Nvidia",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-23/la-bolsa-y-el-ibex-35.html",
    "publicat": "2026-11-23T14:35:49.000Z"
   },
@@ -76,7 +109,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Carlos Cuerpo presenta en Olivenza Red Neurona, un proyecto nacional para llevar la inteligencia artificial a las empresas",
+   "titol": "Carlos Cuerpo presenta en Olivenza Red Neurona, un proyecto nacional para llevar la inteligencia artificial a las pymes",
    "url": "https://www.elperiodico.com/es/economia/20261123/carlos-cuerpo-presenta-olivenza-red-136758971",
    "publicat": "2026-11-23T14:23:22.000Z"
   },
@@ -109,7 +142,7 @@
    "icona": "/assets/premsa/la-vanguardia.webp",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Nvidia devuelve a Jensen Huang al mando y sus acciones se disparan más de un 25%",
+   "titol": "Trump presionó a la junta de Nvidia para el regreso de Jensen Huang: “Yo cerré el trato”",
    "url": "https://www.lavanguardia.com/economia/20261123/11691332/nvidia-devuelve-jensen-huang-mando-acciones-disparan-mas-25.html",
    "publicat": "2026-11-23T14:14:53.000Z"
   },
@@ -299,6 +332,17 @@
    "titol": "Sin tiempo que perder para regular «el empleo de armas autónomas, incluidas aquellas basadas en la IA»",
    "url": "https://www.ultimahora.es/noticias/internacional/2026/11/23/2755617/tiempo-perder-para-regular-empleo-armas-autonomas-incluidas-aquellas-basadas.html",
    "publicat": "2026-11-23T09:15:00.000Z"
+  },
+  {
+   "id": "e2e1df7aa168",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Ibex 35 remonta un 1,70% y enfila los 19.200 puntos tras el regreso de Huang a Nvidia",
+   "url": "https://www.elperiodico.com/es/economia/20261123/ibex-35-remonta-apertura-enfila-136738111",
+   "publicat": "2026-11-23T08:24:44.000Z"
   },
   {
    "id": "3dcbd2295661",
@@ -2730,50 +2774,6 @@
    "titol": "El BCE advierte de que el auge de la IA tiene “paralelismos históricos” con las ‘subprime’",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-18/el-bce-advierte-de-que-el-auge-de-la-ia-tiene-paralelismos-historicos-con-las-subprime.html",
    "publicat": "2026-11-18T13:30:23.000Z"
-  },
-  {
-   "id": "715e25b63d18",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El BCE alerta de riscos “sistèmics” sobre l’estabilitat financera per una sobrevaloració de la IA",
-   "url": "https://www.ara.cat/economia/banca/bce-alerta-riscos-sistemics-l-estabilitat-financera-sobrevaloracio-ia_1_5914632.html",
-   "publicat": "2026-11-18T13:14:07.000Z"
-  },
-  {
-   "id": "8998f756bb4a",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una nova metodologia per mesurar la confiança dels usuaris en els sistemes d’intel·ligència artificial explicable",
-   "url": "https://www.diariodemallorca.es/cronica-uib/2026/11/18/nova-metodologia-per-mesurar-confianca-usuaris-en-els-sistemes-d-intelligencia-artificial-explicable-136576114.html",
-   "publicat": "2026-11-18T13:11:42.000Z"
-  },
-  {
-   "id": "60f4688a15d3",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Corea del Sur reacciona ante el escándalo del uso de la IA en los exámenes: habrá más vigilantes y se revisarán hasta los botones de las camisas",
-   "url": "https://www.lavanguardia.com/vida/20261118/11687270/corea-sur-reacciona-escandalo-ia-examenes-habra-mas-vigilantes-revisaran-botones.html",
-   "publicat": "2026-11-18T12:59:46.000Z"
-  },
-  {
-   "id": "195c9f11037c",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un cantante flamenco generado con IA dará su primer concierto en Madrid: “No es humano, es un concepto”",
-   "url": "https://www.lavanguardia.com/neo/ia/20261118/11687231/cantante-flamenco-generado-ia-primer-concierto-humano-concepto.html",
-   "publicat": "2026-11-18T12:31:47.000Z"
   }
  ]
 }
