@@ -1,38 +1,7 @@
 {
-  "actualitzat": "2026-11-22",
+  "actualitzat": "2026-11-23",
   "nota": "Imatges oficials dels actes, desades al nostre servidor. Les genera automation/scripts/recull-cartells.mjs: no s'edita a mà.",
   "cartells": {
-    "2026-11-18-robot2026-novena-conferencia-iberica-de-robotica": {
-      "error": "la web no declara cap imatge per compartir (og:image)",
-      "provat": "2026-11-19"
-    },
-    "2026-11-19-v-forum-europeo-de-inteligencia-artificial": {
-      "imatge": "/assets/cartells/2026-11-19-v-forum-europeo-de-inteligencia-artificial.jpg",
-      "amplada": 717,
-      "alcada": 440,
-      "font": "https://fls-a04777c4-6f09-4d12-9511-62fb777c7808.laravel.cloud/images/apuntate_master/sQxYke1jmbdkUrt1Rq0QeV0YsA7ELPwvy2tce9uu.jpg",
-      "pagina": "https://www.encuentrosnow.es/",
-      "organitza": "Encuentros NOW",
-      "recollit": "2026-11-03"
-    },
-    "2026-11-19-valenciantech-26": {
-      "imatge": "/assets/cartells/2026-11-19-valenciantech-26.jpg",
-      "amplada": 1200,
-      "alcada": 480,
-      "font": "https://valgrai.eu/wp-content/uploads/2026/09/Banner-noticia-web-1.jpg",
-      "pagina": "https://valgrai.eu/events/valenciantech26/",
-      "organitza": "Grup ICSO Meta (CIGIP-UPV) i ValgrAI",
-      "recollit": "2026-11-03"
-    },
-    "2026-11-20-4t-simposi-del-centre-de-ciencies-omiques": {
-      "imatge": "/assets/cartells/2026-11-20-4t-simposi-del-centre-de-ciencies-omiques.jpg",
-      "amplada": 1200,
-      "alcada": 638,
-      "font": "https://eurecat-web.b-cdn.net/wp-content/uploads/2026/09/caratula-agendav2.jpg",
-      "pagina": "https://eurecat.org/calendari/4t-simposi-del-centre-de-ciencies-omiques/",
-      "organitza": "Eurecat (Centre de Ciències Òmiques)",
-      "recollit": "2026-10-11"
-    },
     "2026-11-21-codex-chatgpt-hackaton-barcelona-devday-exchange-community-b": {
       "imatge": "/assets/cartells/2026-11-21-codex-chatgpt-hackaton-barcelona-devday-exchange-community-b.jpg",
       "amplada": 1200,
