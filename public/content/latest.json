@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-22T17:21:36.439Z",
+  "updatedAt": "2026-11-23T05:15:07.777Z",
   "items": [
     {
-      "category": "XIPS",
+      "category": "SEGURETAT",
       "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: El Financial Times i The New York Times dibuixen la xarxa d'empreses que hauria fet arribar xips de Nvidia a la Xina des de l'entorn d'Alice Huang",
-      "excerpt": "Els dos diaris descriuen centenars de societats pantalla, un grup de videojocs convertit en inversor de centres de dades i uns 3.600 milions de dòlars de diner públic xinès. Nvidia diu que ha deixat d'enviar a la Xina els xips H200."
+      "title": "El científic en cap d'OpenAI proposa un límit comú que cap empresa d'IA no hauria de passar fins que no sàpiga vigilar els seus models",
+      "excerpt": "Jakub Pachocki planteja fer servir una mesura que totes les empreses poden calcular, la perplexitat, com a regle compartit per fixar fins on es pot avançar. OpenAI hi publica per primera vegada les seves dades internes, i Sam Altman diu que és el més important que ha publicat l'empresa en molt de temps."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA del MIT preveu sistemes caòtics, com l'oratge, sense disparar-se mai cap a resultats físicament impossibles, segons «PNAS»",
-      "excerpt": "El mètode obliga el model a respectar una mena de balanç d'energia, de manera que les prediccions es mantenen dins de límits realistes per llarg que sigui el termini. Els autors en publiquen el codi."
+      "category": "SALUT",
+      "read": "5 MIN",
+      "title": "Una IA troba en l'historial clínic senyals del càncer de bufeta fins a cinc anys abans del diagnòstic, segons un estudi de la Universitat de Plymouth",
+      "excerpt": "El model ha analitzat els registres de gairebé 70.000 pacients de Gal·les i ha detectat el 85% dels que tenien la malaltia, millor que els criteris actuals de derivació del sistema públic britànic. Els autors avisen que encara s'ha de validar en altres sistemes de salut abans de fer-lo servir a la consulta."
     },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "Dan Hendrycks demana aturar indefinidament l'entrenament dels models d'IA més grans, i la resta del debat del DealBook ho rebutja",
-      "excerpt": "El director del Center for AI Safety acusa Anthropic de no tenir cap pla de seguretat. Max Hodak, cofundador de Neuralink, li respon que fer complir una prohibició així exigiria vigilar tot internet."
+      "title": "ACTUALITZACIÓ: OpenRouter expulsa tres proveïdors d'IA i retira la garantia de no guardar dades a 125 serveis, després dels paranys que van destapar filtracions",
+      "excerpt": "La plataforma, que reparteix les peticions dels usuaris entre desenes d'empreses que fan funcionar models d'IA, reacciona a l'experiment de Dragos amb dos milions de peticions trampa. Together AI admet que un agent d'IA que programava per a l'empresa va deixar a la vista una credencial que va permetre baixar mostres de peticions de clients."
     },
     {
-      "category": "DEFENSA",
+      "category": "SEGURETAT",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: El Kraftwerk de Berlín demana perdó per haver acollit la presentació de la plataforma militar d'IA de Helsing",
-      "excerpt": "La sala, lligada a la música electrònica, admet que ningú no va revisar l'ètica del lloguer. El festival Berlin Atonal li reclama una clàusula que exclogui les empreses d'armament."
+      "title": "Uns agents d'IA van trobar i aprofitar en 11 minuts un forat desconegut en un programa d'imatge mèdica, segons Amazon",
+      "excerpt": "Els atacants, que Amazon vincula amb la Xina, van fer servir una eina de proves de seguretat amb diversos agents d'IA contra universitats de l'Àsia Oriental. Ho van deixar tot al descobert: el seu servidor de control no tenia contrasenya."
     },
     {
-      "category": "ANDORRA",
-      "read": "3 MIN",
-      "title": "La Casa de la Vall d'Andorra tindrà audioguies amb IA a les quals els visitants podran fer preguntes durant la visita",
-      "excerpt": "El Consell General ha adjudicat per 218.570 euros a l'empresa Semic una experiència immersiva que explicarà la història política de l'edifici i que s'estrenarà la primavera vinent, després de les obres."
-    },
-    {
-      "category": "DEFENSA",
+      "category": "ROBÒTICA",
       "read": "4 MIN",
-      "title": "Les converses de l'ONU sobre les armes autònomes acaben sense negociar-ne la prohibició, per l'oposició dels Estats Units",
-      "excerpt": "Gairebé cent països volien començar a negociar un tractat vinculant contra les armes que maten sense que una persona decideixi disparar. Ginebra només n'ha tret el compromís de seguir-ne parlant i fer recomanacions el 2028."
-    },
-    {
-      "category": "EDUCACIÓ",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Dimiteix el ministre d'Educació de Corea del Sud per l'escàndol de les trampes amb IA a les proves d'accés a la universitat",
-      "excerpt": "Choi Kyo-jin, de 72 anys, ha plegat després que la selectivitat acabés amb 111 casos d'irregularitats amb aparells electrònics. El president Lee Jae Myung n'ha acceptat la dimissió."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "Broadcom s'enfonsa un 11% en borsa després que un analista digui que Google retalla un 20% les comandes dels seus xips d'IA per al 2027",
-      "excerpt": "Ming-Chi Kuo assegura que Google demanarà un milió menys de xips TPU 8i, que dissenya Broadcom, i més dels TPU 8t, que dissenya MediaTek. Cap de les dues empreses no ho ha confirmat."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Les glaceres que acaben en un llac perden gel molt més de pressa que les altres, segons un mapa mundial fet amb IA a «Nature Climate Change»",
-      "excerpt": "Un equip internacional ha localitzat amb IA tots els llacs glacials del planeta en imatges de satèl·lit del 2000 i del 2020. Les glaceres que hi desemboquen perden de mitjana 66 centímetres d'aigua a l'any, davant dels 40 de les que acaben en terra ferma."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un sensor d'ultraviolat de Seül «oblida» la imatge anterior en dos mil·lisegons i ajuda una xarxa neuronal a reconèixer xifres seguides",
-      "excerpt": "Investigadors de la Universitat Nacional de Seül i de Texas A&M han fet una matriu de 576 píxels d'òxid de gal·li amb un botó de reinici elèctric que esborra el rastre de la llum anterior. L'estudi és a la revista «InfoMat»."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Amazon és a prop de comprar per uns 7.500 milions de dòlars Decart, que fa programari per canviar de xips d'IA sense refer la feina",
-      "excerpt": "Segons el «Financial Times», les converses són a la recta final i l'acord es podria anunciar la setmana vinent. Decart, valorada en 4.000 milions al maig, va ser de les primeres a fer servir els xips Trainium3 d'Amazon."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Dos matemàtics diuen que han resolt amb ajuda de la IA la versió «de debò» del problema de Navier-Stokes, dos mesos després de la d'OpenAI",
-      "excerpt": "Tristan Buckmaster, de la Universitat de Nova York, i Levent Alpöge, d'Anthropic, han penjat una demostració que, segons ells, tanca l'escletxa que deixava la solució d'OpenAI. Encara no l'ha revisada ningú."
-    },
-    {
-      "category": "MOBILITAT",
-      "read": "4 MIN",
-      "title": "Tesla estrena una versió de la seva conducció autònoma que mostra al conductor l'entorn com si fos un videojoc",
-      "excerpt": "L'FSD v15 afegeix una vista fotorealista del cotxe i del carrer des d'una càmera virtual, i Elon Musk diu que és «com el GTA». Tesla promet que resol 25 vegades millor les situacions crítiques, però els crítics hi veuen la llista dels seus punts febles."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Els pacients acceptarien abans un metge que fa servir la IA per a la paperassa que no pas un que la fa servir per diagnosticar o tractar",
-      "excerpt": "Un experiment amb 1.574 adults de la Xina, publicat a «npj Digital Medicine», troba que la confiança cau quan el metge diu que usa la IA en decisions clíniques, sobretot si la malaltia és greu."
-    },
-    {
-      "category": "VIDEOJOCS",
-      "read": "3 MIN",
-      "title": "Ubisoft crea Motherbrain, una filial dedicada a la IA generativa per als videojocs, en plena onada d'acomiadaments",
-      "excerpt": "L'editora francesa ha convertit en empresa pròpia l'equip que va fer Teammates, el seu experiment amb personatges que conversen amb el jugador, poc després de confirmar 166 acomiadaments al Canadà."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "El regulador de la borsa dels Estats Units investiga la comptabilitat de Nvidia, segons Reuters",
-      "excerpt": "Els inspectors de la SEC examinen possibles irregularitats comptables del gran fabricant de xips per a IA. Un dels punts que es miren és el canvi en la manera de declarar d'on venen els ingressos, que va fer desaparèixer Singapur dels seus comptes."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "5 MIN",
-      "title": "Un investigador amaga dos milions de paranys en peticions a serveis d'IA i descobreix tres proveïdors atacats sense saber-ho",
-      "excerpt": "HD Moore, de l'empresa de ciberseguretat Dragos, va posar contrasenyes i enllaços falsos dins de les preguntes que enviava als models i va vigilar on reapareixien. Revenedors que desaven les peticions i serveis que no respectaven l'opció de no guardar dades completen el diagnòstic."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Els agents d'IA imiten millor com decidim en grup si se'ls explica com raonem les persones, segons «Nature Computational Science»",
-      "excerpt": "Un equip de la Universitat Northeastern ha posat agents de set models a jugar al «joc de la cervesa», una simulació clàssica de la cadena de subministrament. Sense aquesta preparació, alguns reaccionaven de manera exagerada; amb ella, s'acostaven al comportament humà mesurat en experiments anteriors."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "4 MIN",
-      "title": "OpenAI explica que un manteniment d'una base de dades va fer fallar fins a tres de cada quatre peticions a ChatGPT",
-      "excerpt": "La caiguda del 21 de novembre va durar unes tres hores i mitja i va afectar tant els usuaris de pagament com els gratuïts, i també l'API. L'empresa atura de moment aquest tipus de feines de manteniment i promet revisar tota la infraestructura."
-    },
-    {
-      "category": "CULTURA",
-      "read": "4 MIN",
-      "title": "Una empresa de microsèries ofereix a qualsevol persona llogar la seva cara perquè la IA la faci actuar",
-      "excerpt": "Shortical, que fa sèries d'episodis de dos minuts, acaba d'estrenar una història feta tota amb IA en què l'actor israelià Aki Avni s'interpreta a si mateix. La companyia no diu quant paga per cada cara i de moment encara no ha signat cap contracte amb el públic."
+      "title": "Boston Dynamics posa rodes de patinet al seu robot humanoide Atlas per provar com aprèn a moure's tot sol",
+      "excerpt": "Els enginyers li han canviat els peus per unes llantes per forçar-ne els motors i comprovar si els moviments apresos en simulació funcionen al món real. «No és un producte, és un banc de proves», diu l'empresa."
     }
   ]
 }
