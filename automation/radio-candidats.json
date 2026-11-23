@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-21T09:13:32.637Z",
+  "generat": "2026-11-23T13:29:16.164Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -8,7 +8,7 @@
       "programa": "Revolució 4.0",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 7
+      "sobre_ia": 4
     },
     {
       "font": "3cat",
@@ -136,8 +136,8 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 37,
-      "sobre_ia": 1
+      "audios": 34,
+      "sobre_ia": 2
     },
     {
       "font": "wordpress",
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 14,
+      "audios": 15,
       "sobre_ia": 0
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 9,
+      "audios": 8,
       "sobre_ia": 0
     },
     {
@@ -177,5 +177,26 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "rab-22624",
+      "emissora": "RAB Ràdio",
+      "programa": "Món Digital",
+      "programa_url": "https://rab.cat/",
+      "data": "2026-11-23",
+      "durada": "",
+      "titol_original": "Com podem escoltar l’univers? Els neutrins obren una nova era de l’astronomia",
+      "descripcio_original": "El Premi Nobel de Física 2026 ha reconegut una manera revolucionària d’explorar el cosmos. El científic mexicà Alejandro Farah Simón explica a Pensaveus Compartides, de RAB Ràdio, com els neutrins, els grans telescopis i la intel·ligència artificial ens ajuden a descobrir els secrets de l’univers. El Premi Nobel de Física 2026 ha reconegut una manera …",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://rab.cat/2026/11/23/neutrins-astronomia-escoltar-univers/",
+      "reproductor": {
+        "tipus": "youtube",
+        "id": "QoMEEZ34mdg"
+      },
+      "etiquetes_web": [
+        "ENTREVISTES"
+      ]
+    }
+  ]
 }
