@@ -1,8 +1,118 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-23T09:29:52.970Z",
+ "actualitzat": "2026-11-23T13:13:19.631Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "330e7baa2ebe",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un investigador de Anthropic advierte sobre el rápido avance de la IA: “Los humanos serán permanentemente inempleables y dependerán del Estado para subsistir”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261123/11691078/investigador-anthropic-advierte-sobre-rapido-avance-ia-humanos-seran-permanentemente-inempleables-dependeran-subsistir.html",
+   "publicat": "2026-11-23T12:01:36.000Z"
+  },
+  {
+   "id": "3614b8b7519c",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Puede una IA sufrir? La obsesión de Anthropic con la consciencia de las máquinas inquieta a informáticos y religiosos",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261123/ia-sufrir-obsesion-anthropic-derecho-conciencia-moral-religion-bolsa-acciones-claude-135246652",
+   "publicat": "2026-11-23T11:41:46.000Z"
+  },
+  {
+   "id": "7eff18c92ca9",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA d'Anthropic ha ajudat a demostrar la hipòtesi de Riemann, un dels problemes del mil·lenni",
+   "url": "https://www.elnacional.cat/ca/tecnologia/ia-anthropic-ha-ajudat-demostrar-hipotesi-riemann-problemes-millenni_1729661_102.html",
+   "publicat": "2026-11-23T11:30:00.000Z"
+  },
+  {
+   "id": "d4deaa705478",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'amant de Huang (ex Nvidia) va mantenir contacte amb l'espionatge xinès durant un any",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/amant-huang-ex-nvidia-mantenir-contacte-espionatge-xines-any_1729742_102.html",
+   "publicat": "2026-11-23T11:22:33.000Z"
+  },
+  {
+   "id": "947dc4e1d861",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Google no garantiza el anonimato de las búsquedas de sus usuarios, según un estudio",
+   "url": "https://www.elmundo.es/tecnologia/2026/11/23/6b041f45e9cf4a1c7d8b4578.html",
+   "publicat": "2026-11-23T11:19:39.000Z"
+  },
+  {
+   "id": "b098d9c3d52a",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Capitole Lab se incorpora a DFactory Barcelona para desarrollar IA aplicada a la industria",
+   "url": "https://www.lavanguardia.com/elllobregat/sociedad/20261123/11691028/capitole-lab-incorpora-dfactory-barcelona-desarrollar-ia-aplicada-industria.html",
+   "publicat": "2026-11-23T10:55:21.000Z"
+  },
+  {
+   "id": "0f7bcbfdcaab",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De tocar en el metro a trabajar en Star Wars y Apple: este español impulsa la IA que no quiere acabar con los artistas",
+   "url": "https://www.elperiodico.com/es/sociedad/20261123/tocar-metro-trabajar-star-wars-136737543",
+   "publicat": "2026-11-23T10:45:01.000Z"
+  },
+  {
+   "id": "21f6f6eabb01",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Comunitat Valenciana | El Consell incorpora a su estructura una nueva competencia sobre gobierno del dato y la IA",
+   "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/el-consell-incorpora-a-su-estructura-una-nueva-competencia-sobre-gobierno-del-dato-y-la-ia",
+   "publicat": "2026-11-23T10:08:32.000Z"
+  },
+  {
+   "id": "e6cc593fca3a",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Gobierno de Aragón se alía con AWS y Kings Corner EdTech para impulsar hasta 5.000 becas en inglés técnico y de IA",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/23/2755677/gobierno-aragon-alia-aws-kings-corner-edtech-para-impulsar-hasta-5000-becas-ingles-tecnico-ia.html",
+   "publicat": "2026-11-23T09:48:48.000Z"
+  },
+  {
+   "id": "03ddc38988c2",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA, l'automatització i l''augmented retail' redissenyen les estratègies de marques",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/ia-automatitzacio-augmented-retail-redissenyen-estrategies-marques_1729598_102.html",
+   "publicat": "2026-11-23T09:45:26.000Z"
+  },
   {
    "id": "e54f303b6886",
    "mitja": "Última Hora",
@@ -26,6 +136,17 @@
    "publicat": "2026-11-23T07:46:42.000Z"
   },
   {
+   "id": "cc5e9b5ac1bd",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un nuevo método matemático permite a la inteligencia artificial aprender con precisión de datos con ruido extremo",
+   "url": "https://www.lasprovincias.es/tecnologia/nuevo-metodo-matematico-permite-rlt_arx-20261123071133-nt.html",
+   "publicat": "2026-11-23T07:25:33.000Z"
+  },
+  {
    "id": "e0402b729540",
    "mitja": "Diari d'Andorra",
    "font": "diariandorra",
@@ -45,7 +166,9 @@
    "ambit": "catala",
    "titol": "Argila.ai: una IA jurídica creada al Principat per als advocats andorrans",
    "url": "https://www.diariandorra.ad/nacional/261123/argila-ai-ia-juridica-creada-principat-per-als-advocats-andorrans_209419.html",
-   "publicat": "2026-11-23T05:56:11.000Z"
+   "publicat": "2026-11-23T05:56:11.000Z",
+   "noticia": "argila-ai-assistent-juridic-andorra",
+   "noticiaTitol": "Tres andorrans creen Argila.ai, un assistent d'IA que respon dubtes sobre les lleis d'Andorra amb el fragment literal de la norma que ho diu"
   },
   {
    "id": "77cfe7ad8f99",
@@ -2651,127 +2774,6 @@
    "titol": "Nvidia guanya, amb la gestió de Jensen Huang, gairebé 60.000 milions el tercer trimestre",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/nvidia-guanya-gestio-jensen-huang-60000-milions-en-tercer-trimestre_1727234_102.html",
    "publicat": "2026-11-18T07:49:20.000Z"
-  },
-  {
-   "id": "c2bf42e51c33",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La increíble historia de Anthropic: de la rebelión contra OpenAI a conquistar los mercados con su salida a bolsa",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261118/cronologia-anthropic-empresa-ia-potente-claude-bolsa-accion-valor-chatgpt-136491326",
-   "publicat": "2026-11-18T07:00:25.000Z"
-  },
-  {
-   "id": "39084583300b",
-   "mitja": "Ara Balears",
-   "font": "arabalears",
-   "icona": "/assets/premsa/ara-balears.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Quan les glàndules prehistòriques entren en la batalla per la IA",
-   "url": "https://www.arabalears.cat/opinio/trampes-mel-melcior-comes_129_5908568.html",
-   "publicat": "2026-11-18T06:30:06.000Z"
-  },
-  {
-   "id": "8644b415430b",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Parados sin trabajo y empresas sin candidatos, IA y salarios: los retos del empleo en España y cómo afrontarlos",
-   "url": "https://www.diariodemallorca.es/economia/2026/11/18/elecciones-generales-29-noviembre-empleo-retos-nuevo-gobierno-136562769.html",
-   "publicat": "2026-11-18T06:15:05.000Z"
-  },
-  {
-   "id": "666acec575a3",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Esade apuesta por las humanidades para liderar la era de la IA y crecer un 19% hasta 2029",
-   "url": "https://www.elperiodico.com/es/economia/20261118/esade-apuesta-humanidades-liderar-ia-136556321",
-   "publicat": "2026-11-18T05:01:18.000Z"
-  },
-  {
-   "id": "415955934de3",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El 96% de los inversores reconoce que se está sobrevalorando a las empresas de IA",
-   "url": "https://www.elperiodico.com/es/economia/20261118/96-inversores-cree-sobrevalorando-empresas-burbuja-inteligencia-artificial-ia-136546701",
-   "publicat": "2026-11-18T05:00:51.000Z"
-  },
-  {
-   "id": "7b6208826a52",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cómo engañar a la IA (y que ella te mienta)",
-   "url": "https://www.lavanguardia.com/vida/20261118/11686799/como-enganar-ia-te-mienta.html",
-   "publicat": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "ac3efb09c1b8",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Mons. Andrea Ciucci: “La IA és una oportunitat per definir el futur que volem”",
-   "url": "https://www.diariandorra.ad/la-contra/261118/mons-andrea-ciucci-ia-oportunitat-per-definir-futur-volem_209026.html",
-   "publicat": "2026-11-18T04:44:01.000Z"
-  },
-  {
-   "id": "511080dfbb24",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La fiebre por Anthropic ya sube en los derivados: los mercados paralelos anticipan subidas en su debut",
-   "url": "https://cincodias.elpais.com/criptoactivos/2026-11-18/la-fiebre-por-anthropic-ya-sube-en-los-derivados-los-mercados-paralelos-anticipan-subidas-en-su-debut.html",
-   "publicat": "2026-11-18T04:30:01.000Z"
-  },
-  {
-   "id": "b653f2664723",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Vicens Vives: retrocés de la lectura i irrupció de la IA",
-   "url": "https://www.elnacional.cat/oneconomia/ca/opinio/vicens-vives-retroces-lectura-irrupcio-ia-antoni-olive_1726622_102.html",
-   "publicat": "2026-11-18T04:30:00.000Z"
-  },
-  {
-   "id": "1e2cc072afca",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Aprovada la venda del sòl per a la gigafactoria d’IA de Móra la Nova",
-   "url": "https://www.segre.com/ca/nacional-internacional/261118/aprovada-venda-sol-per-gigafactoria-d-ia-mora-nova_1402105.html",
-   "publicat": "2026-11-18T04:22:05.000Z"
-  },
-  {
-   "id": "a16ee29cb021",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Aturats sense feina i empreses sense candidats, IA i salaris: els reptes de l’ocupació a Espanya i com afrontar-los",
-   "url": "https://www.elperiodico.cat/economia/20261118/eleccions-generals-29-de-novembre-ocupacio-reptes-del-nou-govern-136512768",
-   "publicat": "2026-11-18T04:00:34.000Z"
   }
  ]
 }
