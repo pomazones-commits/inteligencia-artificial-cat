@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-22T20:51:08.993Z",
+ "actualitzat": "2026-11-23T01:10:24.816Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "d1b4ab8968a1",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La intel·ligència artificial ja s'utilitza per atacar governs: la Comissió Europea confirma un ciberatac",
+   "url": "https://www.elnacional.cat/ca/tecnologia/intelligencia-artificial-ja-utilitza-atacar-governs-comissio-europea-confirma-ciberatac_1729460_102.html",
+   "publicat": "2026-11-22T21:07:00.000Z"
+  },
   {
    "id": "950761885e5e",
    "mitja": "Información",
@@ -21,7 +32,7 @@
    "icona": "/assets/premsa/eldiario-es.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Ciberataques, el boom de la IA y teorías de la conspiración: qué se esconde detrás del colapso de sistemas por todo el mundo",
+   "titol": "Ciberataques, IA y teorías de la conspiración: ¿qué está causando los colapsos informáticos?",
    "url": "https://www.eldiario.es/tecnologia/ciberataques-boom-ia-teorias-conspiracion-esconde-detras-colapso-sistemas-mundo_1_13684598.html",
    "publicat": "2026-11-22T17:54:59.000Z"
   },
@@ -2757,17 +2768,6 @@
    "titol": "Nvidia supera les previsions d’ingressos i guanys malgrat la crisi pels escàndols de Huang",
    "url": "https://www.ara.cat/economia/tecnologia/jensen-huang-obre-porta-tornar-direccio-nvidia-despres-l-escandol_1_5913608.html",
    "publicat": "2026-11-17T17:46:26.000Z"
-  },
-  {
-   "id": "c0d926e81c26",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "¿Un mercado sin ‘traders’? Agentes de IA negocian la primera venta de bonos sin intervención humana",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-17/un-mercado-sin-traders-agentes-de-ia-cierran-por-la-primera-venta-de-bonos-sin-intervencion-humana.html",
-   "publicat": "2026-11-17T17:45:40.000Z"
   }
  ]
 }
