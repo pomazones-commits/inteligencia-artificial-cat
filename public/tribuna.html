@@ -146,7 +146,8 @@
         if (text.indexOf('## ') === 0) {
           var h2 = document.createElement('h2');
           h2.className = 'tribuna-seccio';
-          h2.textContent = text.slice(3).trim();
+          // També la cursiva als subtítols (23.11.2026: «*AI-First*» sortia amb asteriscs).
+          ambCursiva(h2, text.slice(3).trim());
           cos.appendChild(h2);
           perAlLector.push(h2.textContent);
           return;
