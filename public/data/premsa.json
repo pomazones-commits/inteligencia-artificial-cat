@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-23T09:15:26.806Z",
+ "actualitzat": "2026-11-23T09:29:52.970Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "e54f303b6886",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Sin tiempo que perder para regular «el empleo de armas autónomas, incluidas aquellas basadas en la IA»",
+   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/23/2755617/tiempo-perder-para-regular-empleo-armas-autonomas-incluidas-aquellas-basadas.html",
+   "publicat": "2026-11-23T09:15:00.000Z"
+  },
   {
    "id": "3dcbd2295661",
    "mitja": "Segre",
@@ -2761,17 +2772,6 @@
    "titol": "Aturats sense feina i empreses sense candidats, IA i salaris: els reptes de l’ocupació a Espanya i com afrontar-los",
    "url": "https://www.elperiodico.cat/economia/20261118/eleccions-generals-29-de-novembre-ocupacio-reptes-del-nou-govern-136512768",
    "publicat": "2026-11-18T04:00:34.000Z"
-  },
-  {
-   "id": "cf95120dfb6e",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nvidia bate las expectativas al duplicar ingresos y beneficios en plena crisis por la salida de Jensen Huang",
-   "url": "https://www.eldiario.es/economia/nvidia-duplica-ingresos-tercer-trimestre-plena-crisis-salida-jensen-huang_1_13672608.html",
-   "publicat": "2026-11-18T02:37:23.000Z"
   }
  ]
 }
