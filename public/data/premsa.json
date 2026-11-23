@@ -1,8 +1,118 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-23T01:10:24.816Z",
+ "actualitzat": "2026-11-23T05:16:00.212Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "77cfe7ad8f99",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alice Huang estaba en contacto con el espionaje chino durante su relación con el CEO de Nvidia",
+   "url": "https://www.lavanguardia.com/economia/20261123/11690803/alice-jensen-huang-espia-china-nvidia.html",
+   "publicat": "2026-11-23T05:12:50.000Z"
+  },
+  {
+   "id": "37ec0068ac39",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los creadores de ‘El proyecto de la bruja de Blair’ reflexionan sobre el auge del terror en internet, la IA y la dificultad de asustar al público actual",
+   "url": "https://www.lavanguardia.com/neo/ciencia-ficcion/20261123/11687363/creadores-proyecto-bruja-blair-reflexionan-sobre-auge-terror-internet-ia-dificultad-asustar-publico-actual.html",
+   "publicat": "2026-11-23T05:00:00.000Z"
+  },
+  {
+   "id": "8a3f3692f1fd",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La empresa de transporte que utiliza la IA para reducir el papeleo sin renunciar al trato humano: “Queremos hacer la vida más fácil a nuestros clientes”",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261123/11685793/empresa-transporte-utiliza-ia-reducir-papeleo-renunciar-trato-humano-queremos-vida-mas-facil-clientes.html",
+   "publicat": "2026-11-23T05:00:00.000Z"
+  },
+  {
+   "id": "ad2572f4c72d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Fue víctima de un fraude, pero la IA de Google lo presenta como culpable: así se combate la desinformación",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261123/11688075/victima-fraude-ia-google-presenta-culpable-asi-combate-desinformacion.html",
+   "publicat": "2026-11-23T05:00:00.000Z"
+  },
+  {
+   "id": "e286d05e0a0d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El software que centraliza la gestión de las pymes y automatiza sus tareas diarias con IA: “Hemos reunido en una misma plataforma lo que funciona y lo que se puede automatizar en las empresas”",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261123/11677704/software-centraliza-gestion-pymes-automatiza-tareas-diarias-ia-hemos-reunido-plataforma-funciona-automatizar-empresas.html",
+   "publicat": "2026-11-23T05:00:00.000Z"
+  },
+  {
+   "id": "2f9c65df284d",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Luciano Floridi, filósofo: “La teoría del apocalipsis de la IA es la suma de desinformación, propaganda, intereses y codicia”",
+   "url": "https://elpais.com/tecnologia/2026-11-23/luciano-floridi-filosofo-la-teoria-del-apocalipsis-de-la-ia-es-la-suma-de-desinformacion-propaganda-intereses-y-codicia.html",
+   "publicat": "2026-11-23T04:30:01.000Z"
+  },
+  {
+   "id": "01685da405a4",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Els bancs neguen els ERO per la IA, però tots retallen plantilla el 2026",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/banca-nega-ero-ia-pero-tots-retallen-plantilla-2026_1728932_102.html",
+   "publicat": "2026-11-23T04:30:00.000Z"
+  },
+  {
+   "id": "abd7018e65da",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La catalana Inergy s'integra amb Linkener per impulsar la IA en la gestió energètica",
+   "url": "https://www.elnacional.cat/oneconomia/ca/economia/catalana-inergy-integra-linkener-impulsar-ia-en-gestio-energetica_1728695_102.html",
+   "publicat": "2026-11-23T04:30:00.000Z"
+  },
+  {
+   "id": "904281d58d07",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La Guàrdia Urbana estrenarà les càmeres de vigilància amb IA en la campanya de Nadal",
+   "url": "https://www.segre.com/ca/lleida/261123/guardia-urbana-estrenara-les-cameres-vigilancia-amb-ia-campanya-nadal_1407298.html",
+   "publicat": "2026-11-23T04:22:34.000Z"
+  },
+  {
+   "id": "df5576012a18",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Plaza Innovación | La valenciana Linkener compra Inergy para reforzar su negocio de gestión energética con inteligencia artificial",
+   "url": "https://valenciaplaza.com/valenciaplaza/plaza-innovacion/la-valenciana-linkener-compra-inergy-para-reforzar-su-negocio-de-gestion-energetica-con-inteligencia-artificial",
+   "publicat": "2026-11-23T04:00:04.000Z"
+  },
   {
    "id": "d1b4ab8968a1",
    "mitja": "El Nacional",
@@ -2658,116 +2768,6 @@
    "titol": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología",
    "url": "https://elpais.com/economia/2026-11-17/nvidia-bate-previsiones-al-disparar-sus-ingresos-un-103-y-defiende-el-poder-de-su-tecnologia-y-su-remuneracion-a-los-accionistas.html",
    "publicat": "2026-11-17T21:49:21.000Z"
-  },
-  {
-   "id": "6b529b8f3394",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nvidia gana 59.335 millones en su tercer trimestre, un 105% más, en las primeras cuentas desde el escándalo de Jensen Huang",
-   "url": "https://www.elperiodico.com/es/economia/20261117/nvidia-gana-59-335-millones-136559208",
-   "publicat": "2026-11-17T21:39:59.000Z"
-  },
-  {
-   "id": "d7cacdf5a50e",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Pensar lo humano en tiempos de inteligencia artificial, pantallas y respuestas inmediatas",
-   "url": "https://www.informacion.es/elche/2026/11/17/pensar-humano-tiempos-inteligencia-artificial-136540723.html",
-   "publicat": "2026-11-17T21:30:15.000Z"
-  },
-  {
-   "id": "ac83da17fb3b",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Google Maps canvia per sempre: estrena Ask Maps amb Gemini perquè trobi el que necessites",
-   "url": "https://www.elnacional.cat/ca/tecnologia/google-maps-canvia-sempre-estrena-ask-maps-gemini-perque-trobi-necessites_1727204_102.html",
-   "publicat": "2026-11-17T21:30:00.000Z"
-  },
-  {
-   "id": "cd1a4283864d",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Enamorar-te de ChatGPT et pot fer sentir més sol: un estudi amb 463 adults revela per què",
-   "url": "https://www.elnacional.cat/ca/tecnologia/enamorar-te-chatgpt-pot-fer-sentir-mes-sol-estudi-463-adults-revela_1727201_102.html",
-   "publicat": "2026-11-17T21:00:00.000Z"
-  },
-  {
-   "id": "d4dcde73f529",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia descarta restituir Jensen Huang tot i la seva disposició a tornar al càrrec",
-   "url": "https://www.3cat.cat/3catinfo/jensen-huang-vol-tornar-a-liderar-nvidia-i-diu-que-te-una-allau-de-peticions-per-fer-el-pas/noticia/3440445",
-   "publicat": "2026-11-17T20:45:02.000Z"
-  },
-  {
-   "id": "6225aabe3303",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Jensen Huang afirma que, si li ho demanen, pot \"tornar a ocupar el càrrec de director executiu\" de NVIDIA",
-   "url": "https://www.elnacional.cat/ca/tecnologia/jensen-huang-afirma-que-si-ho-demanen-pot-tornar-ocupar-carrec-director-executiu-nvidia_1727168_102.html",
-   "publicat": "2026-11-17T20:00:00.000Z"
-  },
-  {
-   "id": "258722bf66a3",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic planea superar el precio previsto de sus acciones a las puertas de su esperada salida a Bolsa",
-   "url": "https://www.elperiodico.com/es/economia/20261117/anthropic-planea-superar-precio-previsto-136556981",
-   "publicat": "2026-11-17T19:39:55.000Z"
-  },
-  {
-   "id": "1bc41b6a41b2",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "OpenAI presiona a Anthropic en plena salida a Bolsa con su nueva versión de Astra",
-   "url": "https://elpais.com/economia/2026-11-17/openai-presiona-a-anthropic-en-plena-salida-a-bolsa-con-su-nueva-version-de-astra.html",
-   "publicat": "2026-11-17T19:29:02.000Z"
-  },
-  {
-   "id": "d0f256c4f395",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Ataques automatizados y agentes de IA como insiders privilegiados en empresas: predicciones de ciberseguridad para 2027",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/17/2752037/ataques-automatizados-agentes-como-insiders-privilegiados-empresas-predicciones-ciberseguridad-para-2027.html",
-   "publicat": "2026-11-17T17:54:00.000Z"
-  },
-  {
-   "id": "4609beabf610",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Nvidia supera les previsions d’ingressos i guanys malgrat la crisi pels escàndols de Huang",
-   "url": "https://www.ara.cat/economia/tecnologia/jensen-huang-obre-porta-tornar-direccio-nvidia-despres-l-escandol_1_5913608.html",
-   "publicat": "2026-11-17T17:46:26.000Z"
   }
  ]
 }
