@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-23T09:15:26.694Z",
+ "actualitzat": "2026-11-23T17:14:54.948Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "PXKvR8ta22Q",
+   "titol": "How Franklin Templeton uses AI for investment research | OpenAI",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "empreses",
+   "idioma": "en",
+   "publicat": "2026-11-23T15:21:09.000Z",
+   "descripcio": "“Just delivering data is not enough.” Franklin Templeton’s Katrina Dudley explains how OpenAI is helping the firm connect information from compliance, risk and trading, then turn it into insights for portfolio managers. That gives analysts more time in the field, talking to private companies and dev",
+   "miniatura": "/assets/videos/PXKvR8ta22Q.jpg"
+  },
   {
    "id": "mX7wHNnsghs",
    "titol": "How to claim your business in ChatGPT with Shopify",
@@ -1048,18 +1060,6 @@
    "publicat": "2026-11-03T13:00:13.000Z",
    "descripcio": "In this Telecom Special Address from NVIDIA GTC Berlin, Ronnie Vasishta, SVP of Telecom at NVIDIA, explores how AI-RAN, accelerated computing, and AI inference at the edge are shaping the path to 6G. Key Highlights: - Understand how AI factories, distributed inference, AI-RAN, and 6G fit into one st",
    "miniatura": "/assets/videos/yLMjEpMio2w.jpg"
-  },
-  {
-   "id": "Amm9ySSET4c",
-   "titol": "Coinbase on OpenAI Private Intelligence",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "societat",
-   "idioma": "en",
-   "publicat": "2026-11-02T16:59:21.000Z",
-   "descripcio": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Int",
-   "miniatura": "/assets/videos/Amm9ySSET4c.jpg"
   },
   {
    "id": "rqZpgKq2Ocw",
