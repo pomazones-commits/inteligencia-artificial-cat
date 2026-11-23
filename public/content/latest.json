@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-23T09:29:07.039Z",
+  "updatedAt": "2026-11-23T13:12:26.659Z",
   "items": [
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "title": "La fiscal general d'Arizona demana ajornar el vot sobre el centre de dades d'IA de SpaceX, que consumiria gairebé dos terços del pic de la principal elèctrica de l'estat",
+      "excerpt": "SpaceX vol invertir més de 74.000 milions de dòlars en dos centres de càlcul per a IA a Arizona i Texas i diu que es pagaran sols. La fiscal general d'Arizona, veïns i ecologistes demanen saber qui pagarà la xarxa, l'aigua i la contaminació."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "Un model d'IA petit, que cap en un portàtil, dissenya circuits analògics gairebé tan bé com GPT-6 Astra, segons un treball del MIT per a NeurIPS",
+      "excerpt": "El sistema SLIC aprèn de proves i errors a ajustar els components d'un xip analògic, explica en paraules per què pren cada decisió i es pot entrenar amb les dades confidencials de l'empresa sense que surtin de casa."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "3 MIN",
+      "title": "Un mètode de SeoulTech fa que un model d'IA respongui fins a deu vegades més de pressa amb textos molt llargs sense haver-lo de tornar a entrenar, segons «Neurocomputing»",
+      "excerpt": "En lloc de llençar les parts menys importants del text que el model té a la memòria, SLAKE les guarda de manera aproximada. Amb Llama 3.1 de 8.000 milions de paràmetres, gasta un 30,8% menys de memòria i perd menys de quatre punts de precisió."
+    },
+    {
+      "category": "MODELS",
+      "read": "3 MIN",
+      "title": "OpenAI crea una prova de química de medicaments: els seus models reconstrueixen molècules gairebé sempre, però encerten la meitat quan han de triar quin compost val la pena",
+      "excerpt": "MedChemBench té 99 problemes extrets de 117 articles i patents. GPT-6.2 Astra obté el 84,5% dels punts, però la mateixa empresa avisa que això no demostra que els models puguin descobrir fàrmacs nous."
+    },
+    {
+      "category": "ANDORRA",
+      "read": "3 MIN",
+      "title": "Tres andorrans creen Argila.ai, un assistent d'IA que respon dubtes sobre les lleis d'Andorra amb el fragment literal de la norma que ho diu",
+      "excerpt": "L'eina, que ja té clients al Principat, consulta la legislació vigent, la jurisprudència des del 1994 i les consultes vinculants de Tributs. Es presentarà l'1 de desembre al Col·legi d'Advocats d'Andorra."
+    },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",

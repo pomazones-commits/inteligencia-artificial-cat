@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Andorra",
+    "category": "IA I SOCIETAT",
+    "date": "23.11.2026",
+    "title": "Tres andorrans creen Argila.ai, un assistent d'IA que respon dubtes sobre les lleis d'Andorra amb el fragment literal de la norma que ho diu",
+    "summary": "L'eina, que ja té clients al Principat, consulta la legislació vigent, la jurisprudència des del 1994 i les consultes vinculants de Tributs. Es presentarà l'1 de desembre al Col·legi d'Advocats d'Andorra.",
+    "detail": "Els assistents d'IA per a advocats s'han estès en els darrers anys, però sovint fallen en ordenaments petits com l'andorrà, amb poca presència a les dades amb què s'entrenen els grans models. A més, molts donen la referència d'una llei però obliguen l'usuari a buscar dins de textos llargs el passatge que justifica la resposta.\n\nSegons el Diari d'Andorra, l'assessor jurídic i fiscal Ladislau Baró Arana, el jurista i enginyer informàtic Ivan Payan i l'enginyer informàtic Eloi Hernández, especialista en seguretat i sistemes d'IA, van començar el projecte l'abril del 2025. Argila.ai respon preguntes sobre la legislació andorrana vigent, la jurisprudència des del 1994, les consultes vinculants del Departament de Tributs i de Fronteres i els convenis internacionals, i acompanya cada conclusió amb el fragment literal de la font oficial. També inclou el dret espanyol, i l'usuari ha de triar quin ordenament consulta. Més d'un centenar d'advocats, assessors fiscals i altres professionals van participar en la prova tancada que va començar el març del 2026, i els impulsors diuen que la plataforma ja es comercialitza i té clients al país. Hi ha una modalitat gratuïta de deu consultes al mes i plans professionals.\n\nÉs un exemple d'una tendència que també es veu a Catalunya i a la resta d'Europa: eines d'IA especialitzades en un àmbit petit, que en comptes de redactar respostes generals obliguen el model a recolzar-se en textos oficials concrets i verificables. Per a un país amb un ordenament propi i un col·lectiu professional reduït, pot estalviar hores de cerca. La presentació pública es farà l'1 de desembre, a les 17.30, al Col·legi d'Advocats d'Andorra.\n\nLes dades de clients, sincronització i seguretat són dels impulsors i no s'han verificat de manera independent. Les dades s'allotgen a Europa i es xifren, però la certificació de seguretat ISO 27001 encara està en tràmit, i la redacció assistida de documents i l'anàlisi d'arguments són funcions previstes, no disponibles. Com amb qualsevol eina d'aquest tipus, el professional ha de comprovar a la font oficial el que li diu l'assistent.",
+    "source": "Diari d'Andorra",
+    "url": "https://www.diariandorra.ad/nacional/261123/argila-ai-ia-juridica-creada-principat-per-als-advocats-andorrans_209419.html",
+    "image": "./assets/argila-ai-assistent-juridic-andorra-20261123.jpg",
+    "slug": "argila-ai-assistent-juridic-andorra"
+  },
+  {
     "place": "València",
     "category": "EMPRESA",
     "date": "23.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://alicanteplaza.es/alicanteplaza/empresas/aefa-terciario-avanzado-aepa-y-uepal-se-alian-para-impulsar-el-uso-de-la-ia-en-las-empresas-de-alicante",
     "image": "./assets/alacant-patronals-aefa-uepal-aepa-terciario-avanzado-ia-20261120.jpg",
     "slug": "alacant-patronals-aefa-uepal-aepa-terciario-avanzado-ia"
-  },
-  {
-    "place": "Tarragona",
-    "category": "IA I SOCIETAT",
-    "date": "19.11.2026",
-    "title": "ACTUALITZACIÓ: Urbanisme aprova el planejament que fa possible la gigafactoria d'IA de Móra la Nova i Tivissa, a dues setmanes de la candidatura definitiva",
-    "summary": "La Comissió Territorial d'Urbanisme de les Terres de l'Ebre agrupa en una sola gran parcel·la els terrenys del polígon del Molló, un dia després que el Govern ordenés a l'Incasòl vendre'ls al consorci promotor.",
-    "detail": "Catalunya opta a acollir una de les gigafactories d'intel·ligència artificial que finançarà la Unió Europea, i la candidatura s'ubica al sector d'activitat econòmica del Molló, entre Móra la Nova i Tivissa, a la Ribera d'Ebre. Dimarts, el Govern va encarregar a l'Institut Català del Sòl (Incasòl) que vengui directament més de 132.000 metres quadrats de terreny al consorci Gigafactoría Española de Inteligencia Artificial, que encapçala el projecte.\n\nDimecres, la Comissió Territorial d'Urbanisme de les Terres de l'Ebre va aprovar definitivament la modificació del pla parcial del Molló. El canvi agrupa en una sola parcel·la gran les diverses parcel·les industrials previstes, perquè s'hi pugui construir una infraestructura digital de gran capacitat. En queda fora la parcel·la del Consell Comarcal de la Ribera d'Ebre, amb una nau i un laboratori 5G, que es considera compatible amb la futura instal·lació. La consellera de Territori, Sílvia Paneque, va defensar que serà «la inversió més gran d'intel·ligència artificial a tot l'Estat» i que beneficiarà les Terres de l'Ebre i el Camp de Tarragona. Segons la Generalitat, s'hi han reforçat els criteris de sostenibilitat ambiental, integració paisatgística i eficiència energètica, amb renovables, sistemes de drenatge sostenible i un ús eficient de l'aigua.\n\nAmb aquests dos passos, la Generalitat deixa resolts el sòl i l'urbanisme abans de la data clau: els promotors han de presentar la candidatura definitiva abans del 3 de desembre. Tenir el terreny disponible i el planejament aprovat és un dels requisits que pesen en la tria europea.\n\nL'aprovació no garanteix la gigafactoria. És la Comissió Europea qui decidirà on s'instal·len, i ho anunciarà a principis de l'any vinent, després de comparar-la amb altres candidatures. Les mesures de sostenibilitat són, de moment, criteris i compromisos: el consum real d'aigua i d'energia dependrà del projecte constructiu, que encara no s'ha presentat.",
-    "source": "Ara",
-    "url": "https://www.ara.cat/economia/tecnologia/llum-verda-planejament-urbanistic-gigafactoria-mora-nova_1_5914707.html",
-    "image": "./assets/mora-la-nova-planejament-gigafactoria-ia-aprovat-20261119.jpg",
-    "slug": "mora-la-nova-planejament-gigafactoria-ia-aprovat"
   }
 ];

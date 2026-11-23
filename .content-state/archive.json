@@ -1,6 +1,74 @@
 {
-  "updatedAt": "2026-11-23T09:29:07.039Z",
+  "updatedAt": "2026-11-23T13:12:26.659Z",
   "items": [
+    {
+      "category": "INFRAESTRUCTURA",
+      "read": "4 MIN",
+      "slug": "spacex-centres-dades-arizona-texas-qui-paga",
+      "title": "La fiscal general d'Arizona demana ajornar el vot sobre el centre de dades d'IA de SpaceX, que consumiria gairebé dos terços del pic de la principal elèctrica de l'estat",
+      "excerpt": "SpaceX vol invertir més de 74.000 milions de dòlars en dos centres de càlcul per a IA a Arizona i Texas i diu que es pagaran sols. La fiscal general d'Arizona, veïns i ecologistes demanen saber qui pagarà la xarxa, l'aigua i la contaminació.",
+      "sourceName": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/11/22/spacex-74-billion-ai-data-centers-texas-arizona-who-pays/",
+      "sourceDate": "22 de novembre de 2026",
+      "body": "La resistència veïnal als grans centres de dades d'IA ha crescut als Estats Units aquest novembre: en 37 de les 38 consultes locals sobre aquestes instal·lacions amb el recompte complet, els votants s'hi han oposat. En aquest context, SpaceX va anunciar el 12 de novembre que invertirà més de 74.000 milions de dòlars en dos centres de supercomputació per a IA, i els presenta com a projectes que «es paguen sols».\n\nSegons Fortune, el projecte d'Arizona, uns 50.000 milions al comtat de Cochise, ocuparia 747 acres i, acabat, consumiria 6.000 megavats, gairebé dos terços del pic històric de demanda d'Arizona Public Service, la principal elèctrica de l'estat. La central d'Apache, al costat, passaria d'un gigavat a més de sis, i la sol·licitud de permís preveu 3.600 milions en millores de la xarxa. A Texas, a Starbase, SpaceX hi vol posar més de 24.000 milions en una central de gas i un centre de càlcul: el regulador ambiental de l'estat li va donar el 16 de novembre el permís per a 35 turbines de gas amb 750 megavats i fins a 248 tones anuals d'òxids de nitrogen. El 19 de novembre, la fiscal general d'Arizona, Kris Mayes, va demanar a la comissió d'urbanisme del comtat que ajorni la votació del 9 de desembre fins que la revisin les agències estatals i federals: «La gent del comtat de Cochise mereix respostes abans que s'aprovi un projecte d'aquesta magnitud».\n\nEl cas mostra on s'encalla ara la cursa per la potència de càlcul: ja no és només comprar xips, sinó trobar electricitat i aigua sense que la factura recaigui en els veïns. SpaceX promet refrigeració en sec a Arizona, energia pròpia a Texas, uns 1.000 llocs de treball fixos i una rebaixa del 20% de l'impost sobre la propietat, però els experts consultats per Fortune calculen que l'aigua que necessitaria la central elèctrica podria fer pujar entre un 60% i un 90% el consum d'aigua associat al centre, una xifra que la sol·licitud no estima. A Texas, el comtat de Cameron va votar 3 a 2 contra negociar-hi una exempció fiscal de deu anys.\n\nLes xifres de llocs de treball, d'impostos i d'estalvi a la factura són de l'empresa i encara no s'han contrastat. Res no està aprovat definitivament: a Arizona hi ha la votació del comtat i la decisió de la comissió que ha d'autoritzar una pujada del 14% al 16% de la tarifa domèstica, i a Texas la nova governadora, que pren possessió al gener, ha promès congelar les aprovacions de centres de dades fins que hi hagi noves proteccions.",
+      "image": "./assets/spacex-centres-dades-arizona-texas-qui-paga-20261123.jpg",
+      "etiquetes": [
+        "centres-de-dades"
+      ],
+      "editionDate": "2026-11-23"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "mit-slic-model-petit-disseny-xips-analogics",
+      "title": "Un model d'IA petit, que cap en un portàtil, dissenya circuits analògics gairebé tan bé com GPT-6 Astra, segons un treball del MIT per a NeurIPS",
+      "excerpt": "El sistema SLIC aprèn de proves i errors a ajustar els components d'un xip analògic, explica en paraules per què pren cada decisió i es pot entrenar amb les dades confidencials de l'empresa sense que surtin de casa.",
+      "sourceName": "MIT News",
+      "sourceUrl": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+      "sourceDate": "23 de novembre de 2026",
+      "body": "Els xips analògics, els que tracten senyals del món real com el so, la ràdio o l'energia, són cada vegada més demandats, però es continuen dissenyant en bona part a mà. Cada circuit té un nombre enorme de combinacions possibles i obliga a equilibrar objectius que es contradiuen. «La demanda de xips analògics creix, però la velocitat de disseny no l'ha seguit», resumeix Wenjie Lu, d'Analog Devices.\n\nUn equip del MIT, amb investigadors d'IBM Research i d'Analog Devices, presenta SLIC, un model de llenguatge de pocs milers de milions de paràmetres, milers de vegades més petit que els grans models comercials. Primer aprèn imitant exemples de disseny generats per un model gran; després practica amb problemes nous: proposa uns valors per als components, fa la simulació, en mira el resultat i el corregeix, i rep una recompensa quan el circuit compleix els objectius, un mètode d'aprenentatge per reforç. Segons el MIT, el model compleix els objectius més sovint que altres sistemes de referència i que els grans models oberts, s'acosta als resultats de GPT-6 Astra amb una fracció del càlcul i manté el rendiment amb tipus de circuit que no havia vist i amb processos de fabricació comercials reals. El treball es presentarà al congrés NeurIPS 2026.\n\nL'interès és doble. D'una banda, mostra que un model petit i especialitzat pot competir en una feina d'enginyeria amb els models més grans. De l'altra, com que funciona en un ordinador portàtil, les empreses el poden entrenar amb les seves dades confidencials sense enviar-les a cap servei extern. «Els enginyers poden entrenar un model petit, que es fa servir en local, amb les seves pròpies dades confidencials», diu el primer autor, Yan Xu. El model, a més, explica en llenguatge corrent per què pren cada decisió.\n\nLa nota del MIT no dona les xifres exactes de la comparació i parla d'un rendiment «proper» al de GPT-6 Astra, no igual. El treball s'ha publicat com a prepublicació a arXiv abans del congrés, i els autors reconeixen que no hi ha cap mètode universal per a tots els problemes de disseny: el pas següent és provar-lo amb més tipus de circuit, com els de radiofreqüència, i fer treballar junts diversos models petits.",
+      "image": "./assets/mit-slic-model-petit-disseny-xips-analogics-20261123.jpg",
+      "editionDate": "2026-11-23"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "3 MIN",
+      "slug": "seoultech-slake-memoria-models-textos-llargs",
+      "title": "Un mètode de SeoulTech fa que un model d'IA respongui fins a deu vegades més de pressa amb textos molt llargs sense haver-lo de tornar a entrenar, segons «Neurocomputing»",
+      "excerpt": "En lloc de llençar les parts menys importants del text que el model té a la memòria, SLAKE les guarda de manera aproximada. Amb Llama 3.1 de 8.000 milions de paràmetres, gasta un 30,8% menys de memòria i perd menys de quatre punts de precisió.",
+      "sourceName": "Neurocomputing (SeoulTech)",
+      "sourceUrl": "https://www.eurekalert.org/news-releases/1152832",
+      "sourceDate": "23 de novembre de 2026",
+      "body": "Quan un model de llenguatge treballa amb un text molt llarg, un contracte sencer o una conversa de centenars de pàgines, ha de guardar a la memòria una representació de cada fragment que ha llegit. Aquesta memòria creix amb la llargada del text i és un dels grans colls d'ampolla per fer funcionar la IA en aparells petits. La solució habitual és descartar els fragments que semblen menys importants, amb el risc de perdre-hi informació.\n\nUn equip de la Universitat Nacional de Ciència i Tecnologia de Seül (SeoulTech), dirigit pel professor Hyun Kim, proposa SLAKE, un mètode publicat a la revista «Neurocomputing». En comptes de llençar els fragments menys importants, en conserva una versió aproximada i més barata de calcular, i fa servir un sistema de puntuació que decideix què es guarda sencer segons quant contribueix cada fragment a la resposta. Funciona amb models ja entrenats, sense modificar-los. Amb Llama 3.1 de 8.000 milions de paràmetres, la generació de la resposta va fins a deu vegades més de pressa, el procés sencer unes 5,8 vegades, i el pic de memòria baixa un 30,8% amb textos de 128.000 fragments. En el conjunt de proves LongBench, la precisió mitjana es queda a menys de quatre punts de la del model amb tota la memòria.\n\nFer que els models llegeixin textos llargs amb menys memòria abarateix el seu funcionament als servidors i acosta la possibilitat de fer-los funcionar en mòbils o altres aparells, on les dades no haurien de sortir del dispositiu. Que no calgui tornar a entrenar el model facilita que altres equips el puguin aplicar.\n\nEls resultats que dona la universitat són d'un sol model, Llama 3.1, i no se sap com es comportaria amb d'altres. La pèrdua de fins a quatre punts de precisió no és menor en feines on cada detall compta, i la nota no detalla en quines proves es concentra. L'ús en mòbils i aparells de la llar és una possibilitat que encara no s'ha provat.",
+      "image": "./assets/seoultech-slake-memoria-models-textos-llargs-20261123.jpg",
+      "editionDate": "2026-11-23"
+    },
+    {
+      "category": "MODELS",
+      "read": "3 MIN",
+      "slug": "openai-medchembench-quimica-medicaments",
+      "title": "OpenAI crea una prova de química de medicaments: els seus models reconstrueixen molècules gairebé sempre, però encerten la meitat quan han de triar quin compost val la pena",
+      "excerpt": "MedChemBench té 99 problemes extrets de 117 articles i patents. GPT-6.2 Astra obté el 84,5% dels punts, però la mateixa empresa avisa que això no demostra que els models puguin descobrir fàrmacs nous.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/index/introducing-medchembench/",
+      "sourceDate": "20 de novembre de 2026",
+      "body": "La química mèdica és la feina de dissenyar i triar les molècules que poden acabar sent un medicament: llegir estructures, interpretar els resultats dels experiments i decidir quins compostos val la pena continuar provant. Les grans empreses d'IA miren de mostrar que els seus models poden ajudar en aquesta mena de recerca, i per mesurar-ho calen proves fetes amb problemes reals.\n\nOpenAI ha publicat MedChemBench, una prova de 99 problemes extrets de 117 articles científics i patents, amb 761 estructures moleculars diferents. Hi ha quatre tipus d'exercici: reconstruir l'estructura d'una molècula, raonar sobre resultats experimentals, ordenar i triar compostos i predir-ne propietats, com ara la potència o la rapidesa amb què el fetge els degrada. Amb el nivell de raonament més alt, GPT-6.2 Astra obté el 84,5% dels punts; GPT-6 Astra, el 83,3%; GPT-6.1 Sol, el 82%, i GPT-5.6 Sol, la generació anterior, el 58,2%. Astra reconstrueix bé el 95,4% de les estructures, però en triar compostos i predir propietats numèriques només n'aconsegueix aproximadament la meitat dels punts.\n\nLa distància entre les dues generacions de models és notable, i la prova assenyala on són ara els límits: els models expliquen bé el que ja s'ha mesurat, però costa més que encertin decisions que en un laboratori costen temps i diners, com quina molècula s'ha de fabricar a continuació.\n\nÉs una prova creada i avaluada per la mateixa empresa, només amb models seus, i sense revisió externa. OpenAI admet que no es pot descartar que els models ja haguessin vist durant l'entrenament els articles d'on surten els problemes, que cada resposta era un sol intent sense eines ni experiments nous i que, en paraules seves, els resultats «no demostren si els models poden descobrir fàrmacs nous o millorar les decisions del laboratori».",
+      "image": "./assets/openai-medchembench-quimica-medicaments-20261123.jpg",
+      "editionDate": "2026-11-23"
+    },
+    {
+      "category": "ANDORRA",
+      "read": "3 MIN",
+      "slug": "argila-ai-assistent-juridic-andorra",
+      "title": "Tres andorrans creen Argila.ai, un assistent d'IA que respon dubtes sobre les lleis d'Andorra amb el fragment literal de la norma que ho diu",
+      "excerpt": "L'eina, que ja té clients al Principat, consulta la legislació vigent, la jurisprudència des del 1994 i les consultes vinculants de Tributs. Es presentarà l'1 de desembre al Col·legi d'Advocats d'Andorra.",
+      "sourceName": "Diari d'Andorra",
+      "sourceUrl": "https://www.diariandorra.ad/nacional/261123/argila-ai-ia-juridica-creada-principat-per-als-advocats-andorrans_209419.html",
+      "sourceDate": "23 de novembre de 2026",
+      "body": "Els assistents d'IA per a advocats s'han estès en els darrers anys, però sovint fallen en ordenaments petits com l'andorrà, amb poca presència a les dades amb què s'entrenen els grans models. A més, molts donen la referència d'una llei però obliguen l'usuari a buscar dins de textos llargs el passatge que justifica la resposta.\n\nSegons el Diari d'Andorra, l'assessor jurídic i fiscal Ladislau Baró Arana, el jurista i enginyer informàtic Ivan Payan i l'enginyer informàtic Eloi Hernández, especialista en seguretat i sistemes d'IA, van començar el projecte l'abril del 2025. Argila.ai respon preguntes sobre la legislació andorrana vigent, la jurisprudència des del 1994, les consultes vinculants del Departament de Tributs i de Fronteres i els convenis internacionals, i acompanya cada conclusió amb el fragment literal de la font oficial. També inclou el dret espanyol, i l'usuari ha de triar quin ordenament consulta. Més d'un centenar d'advocats, assessors fiscals i altres professionals van participar en la prova tancada que va començar el març del 2026, i els impulsors diuen que la plataforma ja es comercialitza i té clients al país. Hi ha una modalitat gratuïta de deu consultes al mes i plans professionals.\n\nÉs un exemple d'una tendència que també es veu a Catalunya i a la resta d'Europa: eines d'IA especialitzades en un àmbit petit, que en comptes de redactar respostes generals obliguen el model a recolzar-se en textos oficials concrets i verificables. Per a un país amb un ordenament propi i un col·lectiu professional reduït, pot estalviar hores de cerca. La presentació pública es farà l'1 de desembre, a les 17.30, al Col·legi d'Advocats d'Andorra.\n\nLes dades de clients, sincronització i seguretat són dels impulsors i no s'han verificat de manera independent. Les dades s'allotgen a Europa i es xifren, però la certificació de seguretat ISO 27001 encara està en tràmit, i la redacció assistida de documents i l'anàlisi d'arguments són funcions previstes, no disponibles. Com amb qualsevol eina d'aquest tipus, el professional ha de comprovar a la font oficial el que li diu l'assistent.",
+      "image": "./assets/argila-ai-assistent-juridic-andorra-20261123.jpg",
+      "editionDate": "2026-11-23"
+    },
     {
       "category": "SEGURETAT",
       "read": "4 MIN",
@@ -13267,74 +13335,6 @@
       "etiquetes": [
         "centres-de-dades"
       ],
-      "editionDate": "2026-10-03"
-    },
-    {
-      "category": "ENERGIA",
-      "read": "4 MIN",
-      "slug": "oracle-openai-energia-nuclear-point-beach-wisconsin",
-      "title": "Oracle vol quedar-se entre el 10% i el 20% de l'electricitat de la central nuclear de Point Beach per al centre de dades d'OpenAI a Wisconsin",
-      "excerpt": "La companyia elèctrica We Energies ha demanat al regulador de Wisconsin que aprovi l'acord, que segons ella estalviaria uns 300 milions de dòlars en combustible als altres clients.",
-      "sourceName": "Wisconsin Watch",
-      "sourceUrl": "https://wisconsinwatch.org/2026/10/wisconsin-we-energies-deal-oracle-data-center-nuclear-energy-power-point-beach-plant",
-      "sourceDate": "2 d'octubre de 2026",
-      "body": "La demanda d'electricitat dels centres de dades d'intel·ligència artificial xoca cada cop més amb les xarxes elèctriques locals. A Wisconsin, el projecte que Oracle i OpenAI desenvolupen a Port Washington, al comtat d'Ozaukee, i que porta el nom de Project Lighthouse, busca ara una font d'energia estable: la central nuclear de Point Beach.\n\nEl 2 d'octubre de 2026, la companyia elèctrica We Energies va presentar a la Comissió de Serveis Públics de Wisconsin un acord pel qual Oracle es «subscriuria» a entre el 10% i el 20% de l'electricitat que genera la central de Point Beach, al comtat de Manitowoc. La propietària de la planta és NextEra Energy. Paral·lelament, la companyia ha sol·licitat construir una nova central de gas al Fox Energy Center, al comtat d'Outagamie.\n\nSegons We Energies, l'acord podria estalviar als altres clients de la companyia uns 300 milions de dòlars en costos de combustible durant els propers cinc anys, ja que Point Beach, de seixanta anys, és la central que més electricitat genera a Wisconsin però produeix energia cara pel preu del combustible nuclear. Aquesta xifra és una estimació de la mateixa empresa, no una dada verificada per un tercer. El contracte de compra vigent caduca el 2033, i We Energies s'ha compromès a comprar el 86% de l'electricitat de la planta durant vint anys més.\n\nTot depèn ara del regulador, que ha d'aprovar l'acord i que haurà de decidir si els beneficis anunciats arriben de debò als altres consumidors. La font no detalla l'abast concret de la potència ni el calendari de l'obra, de manera que convé esperar la resolució abans de donar el projecte per fet.",
-      "image": "./assets/oracle-openai-energia-nuclear-point-beach-wisconsin-20261003.jpg",
-      "etiquetes": [
-        "centres-de-dades"
-      ],
-      "editionDate": "2026-10-03"
-    },
-    {
-      "category": "TECNOLOGIA",
-      "read": "4 MIN",
-      "slug": "aleph-alpha-kolibri-model-sobira-alemany",
-      "title": "Aleph Alpha presenta Kolibri, un model d'IA que raona directament en alemany i s'executa a la infraestructura del client",
-      "excerpt": "L'empresa, fusionada amb Cohere, el dirigeix a administracions i sectors regulats, però no n'ha publicat ni la mida ni cap prova independent.",
-      "sourceName": "Startup Fortune",
-      "sourceUrl": "https://startupfortune.com/aleph-alpha-launches-kolibri-a-sovereign-german-ai-model-for-government-use/",
-      "sourceDate": "3 d'octubre de 2026",
-      "body": "Europa insisteix a tenir models d'intel·ligència artificial propis que no depenguin dels grans proveïdors nord-americans o xinesos. Aquest és el terreny on Aleph Alpha vol fer-se forta amb Kolibri, el model que ha presentat el 3 d'octubre de 2026.\n\nKolibri està pensat per a l'alemany: segons la informació publicada, raona directament en aquesta llengua en comptes de passar per l'anglès, cosa que, en teoria, ajuda amb la terminologia jurídica i el llenguatge burocràtic. S'adreça a l'administració pública alemanya i a sectors regulats per la normativa de protecció de dades del país, i l'executen els mateixos clients a la seva infraestructura, sense enviar dades a cap núvol extern.\n\nEl llançament arriba després de la fusió de 20.000 milions de dòlars entre Aleph Alpha i Cohere, tancada el setembre de 2026 i amb 600 milions de dòlars del grup Schwarz. L'empresa resultant opera des de Berlín i Toronto sota el nom de Cohere. L'argument comercial és la confiança institucional i el control de les dades més que la potència bruta del model.\n\nLes limitacions són clares: Aleph Alpha no ha revelat el nombre de paràmetres ni ha publicat proves comparatives de tercers. Tampoc no es pot saber encara si les administracions alemanyes el compraran ni si podrà competir amb Mistral o amb els models xinesos.",
-      "image": "./assets/aleph-alpha-kolibri-model-sobira-alemany-20261003.jpg",
-      "editionDate": "2026-10-03"
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "slug": "fideuram-estafa-veu-clonada-ia-95-milions",
-      "title": "Una estafa amb la veu clonada del conseller delegat d'Intesa Sanpaolo va fer perdre 95 milions d'euros a Fideuram",
-      "excerpt": "Els estafadors van combinar un missatge de WhatsApp i una trucada amb veu generada per IA; se n'han recuperat uns 53 milions, i uns 36 han desaparegut.",
-      "sourceName": "Trending Topics",
-      "sourceUrl": "https://www.trendingtopics.eu/intesa-sanpaolo-deepfake-95-million/",
-      "sourceDate": "26 de setembre de 2026",
-      "body": "Els fraus amb veus i rostres falsos han passat de l'anècdota als milions. Un cas italià, publicat a finals de setembre de 2026, es presenta com un dels més grans coneguts al món: l'estafa que va tocar Fideuram, la divisió de banca privada d'Intesa Sanpaolo.\n\nSegons la informació publicada, l'incident va tenir lloc el febrer de 2026. Els estafadors van enviar un missatge de WhatsApp que suplantava el conseller delegat, Carlo Messina, i després van fer una trucada amb una veu clonada amb IA, presentada com la d'un soci d'un bufet d'advocats. Les instruccions eren transferir fons a l'estranger, a Àsia. Van aconseguir sostreure 95 milions d'euros.\n\nLa cooperació entre les autoritats xineses, portugueses i italianes ha permès recuperar uns 53 milions. Els altres 36 milions es van convertir en criptomonedes i es van moure per comptes a l'estranger. La Fiscalia de Milà investiga per frau informàtic un ciutadà estranger que viu fora d'Europa. Paolo Molesini, aleshores president de Fideuram, va dimitir al març, però no consta que l'investiguin.\n\nEl cas recorda l'estafa a l'empresa d'enginyeria Arup del 2024 i el cas italià de l'empresari Massimo Moratti del 2025. Les fonts disponibles no detallen com els estafadors van obtenir la veu ni quines proteccions internes van fallar; són dades que hauran de sortir de la instrucció judicial.",
-      "image": "./assets/fideuram-estafa-veu-clonada-ia-95-milions-20261003.jpg",
-      "editionDate": "2026-10-03"
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "slug": "ia-ictus-oclusio-gran-vas-tc-estudi-multinacional",
-      "title": "Una IA ajuda els clínics a detectar l'ictus per oclusió de gran vas en tomografies sense contrast: la sensibilitat puja del 46,6% al 63,7%",
-      "excerpt": "L'estudi, publicat al Journal of NeuroInterventional Surgery amb 963 pacients de Corea i dels Estats Units, mostra que amb l'eina es detecta un cas més de cada 18 exploracions.",
-      "sourceName": "Medical Xpress (Journal of NeuroInterventional Surgery)",
-      "sourceUrl": "https://medicalxpress.com/news/2026-09-diagnosis-ai-multinational.html",
-      "sourceDate": "14 de setembre de 2026",
-      "body": "En un ictus per oclusió d'un gran vas, cada minut compta, però la tomografia computada sense contrast, la primera prova que es fa, no sempre deixa veure l'obstrucció. Un grup coreà ha provat si un programari d'IA pot ajudar els clínics a detectar-la.\n\nL'estudi multinacional, publicat al Journal of NeuroInterventional Surgery (DOI 10.1136/jnis-2026-025339) i liderat per Leonard Sunwoo, va validar l'eina amb 963 pacients: 723 de Corea i 240 dels Estats Units. Hi han participat l'Hospital Guro de la Universitat de Corea, l'Hospital Bundang de la Universitat Nacional de Seül i l'empresa JLK. Tot sol, el programari va assolir una àrea sota la corba (AUC) de 0,963 a la cohort coreana i de 0,899 a la nord-americana.\n\nLa part més rellevant és l'efecte sobre els clínics: la seva AUC va passar de 0,718 sense l'eina a 0,852 amb ella. La sensibilitat va augmentar del 46,6% al 63,7% i l'especificitat, del 91,9% al 94,9%. En pràctica, amb l'ajuda de la IA es va identificar un cas addicional de cada 18 exploracions.\n\nLes limitacions són que només vuit professionals van avaluar les imatges, de manera que els resultats poden no ser extrapolables a col·lectius més grans, i que un dels autors institucionals és l'empresa que fa el programari. Una sensibilitat del 63,7% també vol dir que encara se'n deixen escapar molts, i l'eina no substitueix les proves d'imatge més específiques.",
-      "image": "./assets/ia-ictus-oclusio-gran-vas-tc-estudi-multinacional-20261003.jpg",
-      "editionDate": "2026-10-03"
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "slug": "interpet4d-moviment-gossos-interaccio-humana-eccv",
-      "title": "Un conjunt de dades amb 13 gossos i 23 persones permet que una IA generi el moviment d'un gos a partir dels gestos i la veu del seu amo",
-      "excerpt": "El treball de l'Institut de Ciència de Tòquio i la Carnegie Mellon, presentat a l'ECCV 2026, redueix gairebé a la meitat l'error del sistema de referència.",
-      "sourceName": "Tech Xplore (Institute of Science Tokyo, ECCV 2026)",
-      "sourceUrl": "https://techxplore.com/news/2026-10-interpet4d-capturing-humandog-interactions-generate.html",
-      "sourceDate": "2 d'octubre de 2026",
-      "body": "Animar un gos que reaccioni de manera creïble a una persona és un problema difícil per als videojocs, el cinema i la robòtica, perquè gairebé no hi ha dades de com es mouen junts humans i animals. Un equip de l'Institut de Ciència de Tòquio, amb la Universitat Carnegie Mellon i altres centres, n'ha creat una.\n\nLa base de dades, InterPet4D, recull 161 sessions amb 23 persones i 13 gossos de 11 races, enregistrades amb dotze càmeres sincronitzades més vídeo en primera persona, fins a 6,83 milions de fotogrames. Amb ella, els investigadors han entrenat InterPetMoGen, un sistema basat en un transformador autoregressiu que genera el moviment del gos a partir dels gestos de la persona i de l'àudio. Segons la nota, el treball s'ha presentat a la 19a Conferència Europea de Visió per Computador (ECCV) 2026 i també és a arXiv.\n\nEls resultats, segons els autors, són que la mètrica d'error cinemàtic baixa a 11,21 (21,22 amb el sistema de referència), una millora del 47,2%. L'alineament entre els moviments de la mà i els del gos puja de 0,41 a 0,63 i el del cos, de 0,38 a 0,59. En una prova amb usuaris, el model complet va rebre 6,58 punts sobre 7 de naturalitat.\n\nTé límits: no modela les forces de contacte, genera només fragments fixos de deu segons i només cobreix gossos, no altres espècies. No hem pogut consultar la fitxa de l'article al web del congrés; les xifres són les que dona la nota de Tech Xplore.",
-      "image": "./assets/interpet4d-moviment-gossos-interaccio-humana-eccv-20261003.jpg",
       "editionDate": "2026-10-03"
     }
   ]
