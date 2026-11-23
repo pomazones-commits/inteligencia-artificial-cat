@@ -1,8 +1,41 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-23T05:16:00.212Z",
+ "actualitzat": "2026-11-23T09:15:26.806Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "3dcbd2295661",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La Guàrdia Urbana de Lleida estrenarà les càmeres de vigilància amb IA en la campanya de Nadal",
+   "url": "https://www.segre.com/ca/lleida/261123/la-gurdia-urbana-de-lleida-estrenar-les-cmeres-de-vigilncia-amb-ia-en-la-campanya-de-nadal_1407298.html",
+   "publicat": "2026-11-23T07:46:42.000Z"
+  },
+  {
+   "id": "e0402b729540",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Jordi Serrano: “La IA ajudarà a prevenir buscant riscos de salut adaptats a cada persona”",
+   "url": "https://www.diariandorra.ad/entrevista/261123/jordi-serrano-ia-ajudara-prevenir-buscant-riscos-salut-adaptats-persona_209420.html",
+   "publicat": "2026-11-23T05:59:22.000Z"
+  },
+  {
+   "id": "cdcaef7dcd6f",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Argila.ai: una IA jurídica creada al Principat per als advocats andorrans",
+   "url": "https://www.diariandorra.ad/nacional/261123/argila-ai-ia-juridica-creada-principat-per-als-advocats-andorrans_209419.html",
+   "publicat": "2026-11-23T05:56:11.000Z"
+  },
   {
    "id": "77cfe7ad8f99",
    "mitja": "La Vanguardia",
@@ -45,6 +78,17 @@
    "ambit": "catala",
    "titol": "Fue víctima de un fraude, pero la IA de Google lo presenta como culpable: así se combate la desinformación",
    "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261123/11688075/victima-fraude-ia-google-presenta-culpable-asi-combate-desinformacion.html",
+   "publicat": "2026-11-23T05:00:00.000Z"
+  },
+  {
+   "id": "d31b57b76ca0",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Qué dice la IA de corrupción? PP y PSOE empatan en respuestas negativas",
+   "url": "https://www.lavanguardia.com/politica/20261123/11689405/ia-ve-limpios-partidos-esloganes-anticorrupcion.html",
    "publicat": "2026-11-23T05:00:00.000Z"
   },
   {
@@ -100,7 +144,9 @@
    "ambit": "catala",
    "titol": "La Guàrdia Urbana estrenarà les càmeres de vigilància amb IA en la campanya de Nadal",
    "url": "https://www.segre.com/ca/lleida/261123/guardia-urbana-estrenara-les-cameres-vigilancia-amb-ia-campanya-nadal_1407298.html",
-   "publicat": "2026-11-23T04:22:34.000Z"
+   "publicat": "2026-11-23T04:22:34.000Z",
+   "noticia": "lleida-guardia-urbana-cameres-ia-nadal",
+   "noticiaTitol": "La Guàrdia Urbana de Lleida estrenarà aquest Nadal la IA en 70 càmeres de vigilància per triar les imatges que val la pena mirar"
   },
   {
    "id": "df5576012a18",
@@ -111,7 +157,9 @@
    "ambit": "catala",
    "titol": "Plaza Innovación | La valenciana Linkener compra Inergy para reforzar su negocio de gestión energética con inteligencia artificial",
    "url": "https://valenciaplaza.com/valenciaplaza/plaza-innovacion/la-valenciana-linkener-compra-inergy-para-reforzar-su-negocio-de-gestion-energetica-con-inteligencia-artificial",
-   "publicat": "2026-11-23T04:00:04.000Z"
+   "publicat": "2026-11-23T04:00:04.000Z",
+   "noticia": "linkener-compra-inergy-gestio-energetica-ia",
+   "noticiaTitol": "La valenciana Linkener compra la barcelonina Inergy per portar la IA a la gestió de l'energia de 600 ajuntaments i ens públics"
   },
   {
    "id": "d1b4ab8968a1",
@@ -857,6 +905,17 @@
    "titol": "Así ha sido la segunda jornada del V Fórum europeo de IA",
    "url": "https://www.informacion.es/videos/informaciontv/2026/11/20/sido-segunda-jornada-v-forum-136666737.html",
    "publicat": "2026-11-20T13:23:35.000Z"
+  },
+  {
+   "id": "feb0526e7e05",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Inteligencia artificial y longevidad: cómo puede ayudarnos a vivir más y mejor",
+   "url": "https://www.lavanguardia.com/vivo/longevity/20261120/11689244/inteligencia-artificial-longevidad-como-ayudarnos-vivir-mas-mejor.html",
+   "publicat": "2026-11-20T13:10:08.000Z"
   },
   {
    "id": "83f20e69dee5",
@@ -2713,61 +2772,6 @@
    "titol": "Nvidia bate las expectativas al duplicar ingresos y beneficios en plena crisis por la salida de Jensen Huang",
    "url": "https://www.eldiario.es/economia/nvidia-duplica-ingresos-tercer-trimestre-plena-crisis-salida-jensen-huang_1_13672608.html",
    "publicat": "2026-11-18T02:37:23.000Z"
-  },
-  {
-   "id": "8e017badf2fe",
-   "mitja": "El Punt Avui",
-   "font": "elpuntavui-societat",
-   "icona": "/assets/premsa/el-punt-avui.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Més infraestructura, més dades: el repte de connectar les ciutats en l’era de la intel·ligència artificial",
-   "url": "https://www.elpuntavui.cat/societat/article/5-societat/2689737-mes-infraestructura-mes-dades-el-repte-de-connectar-les-ciutats-en-l-era-de-la-intel-ligencia-artificial.html",
-   "publicat": "2026-11-18T01:00:00.000Z"
-  },
-  {
-   "id": "f11ac9a8d721",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA detecta un fallo crítico en Java, usado por el 90% de las grandes empresas de EE.UU.",
-   "url": "https://www.elperiodico.com/es/economia/20261118/ia-detecta-fallo-critico-java-136560999",
-   "publicat": "2026-11-17T23:41:21.000Z"
-  },
-  {
-   "id": "cee408ef2585",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La junta directiva de Nvidia confirma que no pretende restituir a Huang y busca sustituto",
-   "url": "https://www.elperiodico.com/es/economia/20261117/junta-directiva-nvidia-confirma-pretende-136560621",
-   "publicat": "2026-11-17T22:56:12.000Z"
-  },
-  {
-   "id": "0360998aa071",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nvidia bate todas las expectativas en el primer informe trimestral sin Jensen Huang",
-   "url": "https://www.lavanguardia.com/economia/20261117/11686877/nvidia-bate-todas-expectativas-primer-informe-trimestral-jensen-huang.html",
-   "publicat": "2026-11-17T22:27:18.000Z"
-  },
-  {
-   "id": "5bc9a052b996",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología",
-   "url": "https://elpais.com/economia/2026-11-17/nvidia-bate-previsiones-al-disparar-sus-ingresos-un-103-y-defiende-el-poder-de-su-tecnologia-y-su-remuneracion-a-los-accionistas.html",
-   "publicat": "2026-11-17T21:49:21.000Z"
   }
  ]
 }
