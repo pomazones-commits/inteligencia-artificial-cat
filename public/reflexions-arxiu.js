@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-11-22",
+    "title": "Demostrar-ho o demanar que ens en refiem",
+    "dek": "Un diumenge en què la IA ha topat una vegada i una altra amb la mateixa pregunta: qui pot comprovar el que diu, i qui ens demana que ens en refiem sense comprovar-ho.",
+    "body": [
+      "El diumenge ha deixat un retrat curiós de la intel·ligència artificial: moltes de les notícies d'avui no parlaven del que la IA pot fer, sinó de si el que se'n diu es pot comprovar. Als Estats Units, la SEC investiga la comptabilitat de Nvidia, segons Reuters, i el Financial Times i The New York Times han dibuixat la xarxa d'empreses que hauria fet arribar xips de l'empresa a la Xina des de l'entorn d'Alice Huang. Totes dues informacions es basen en fonts anònimes o en anàlisis que ningú no ha pogut verificar del tot, i les empreses ho neguen.",
+      "La desconfiança també ha arribat a la fontaneria del sector. Un investigador de Dragos va amagar paranys dins de les peticions que enviava a serveis d'IA i va descobrir proveïdors que desaven les dades quan deien que no ho feien. OpenAI, per la seva banda, ha hagut d'explicar per què una feina de manteniment d'una base de dades va fer caure ChatGPT unes tres hores i mitja. I a Corea del Sud, les trampes amb IA a la selectivitat han acabat amb la dimissió del ministre d'Educació. En tots tres casos, el problema no és la tecnologia en si, sinó que algú hi havia confiat més del compte.",
+      "A l'altra banda de la balança, la ciència ha ofert avui el contrari d'una promesa: garanties. L'equip del MIT que publica a «PNAS» no presenta una IA que encerti més, sinó una que no pot donar prediccions físicament impossibles per llarg que sigui el termini. I la demostració de Navier-Stokes de Buckmaster i Alpöge, feta amb ajuda de la IA, arriba amb una condició clara: encara no l'ha revisada ningú. Fins i tot l'estudi d'«npj Digital Medicine» va en aquesta direcció: els pacients accepten que el metge faci servir la IA per a la paperassa, però no tant per diagnosticar, que és justament on menys poden comprovar què ha passat.",
+      "El mateix fil travessa la IA militar. A Ginebra, gairebé cent països volien negociar un tractat contra les armes que maten sense que ningú decideixi disparar, i en surten amb una promesa de seguir-ne parlant fins al 2028. A Berlín, la sala Kraftwerk ha demanat perdó per haver acollit la presentació de la plataforma d'objectius de Helsing, i a Nova York Dan Hendrycks ha demanat aturar indefinidament els grans entrenaments. Quan les normes no arriben, el que queda és la pressió social i les disculpes, que no comproven res.",
+      "La tendència que s'hi veu és que la confiança comença a cotitzar com un actiu escàs. Els mercats ja ho notaven aquesta setmana, i avui ho han notat els reguladors, els investigadors i el públic. Té sentit que les peces més sòlides del dia, i també la petita notícia andorrana de les audioguies de la Casa de la Vall, deixin oberta la mateixa pregunta: una IA que respon preguntes sobre la història, o sobre el clima, només és útil si algú pot comprovar que no s'inventa res.",
+      "Per a demà, caldrà mirar si la SEC o Nvidia confirmen res de la investigació, si l'acord d'Amazon amb Decart s'anuncia de debò i si algun grup independent comença a revisar la demostració de Navier-Stokes. També si les acusacions de Hendrycks a Anthropic reben resposta. Seran senyals de si aquesta setmana tanca amb més proves o només amb més promeses."
+    ],
+    "signals": [
+      {
+        "title": "El regulador de la borsa dels Estats Units investiga la comptabilitat de Nvidia, segons Reuters",
+        "slug": "sec-investiga-comptabilitat-nvidia"
+      },
+      {
+        "title": "Un investigador amaga dos milions de paranys en peticions a serveis d'IA i descobreix tres proveïdors atacats sense saber-ho",
+        "slug": "dragos-paranys-prompts-proveidors-ia"
+      },
+      {
+        "title": "Una IA del MIT preveu sistemes caòtics, com l'oratge, sense disparar-se mai cap a resultats físicament impossibles, segons «PNAS»",
+        "slug": "mit-ia-sistemes-caotics-prediccions-fitades-pnas"
+      },
+      {
+        "title": "Els pacients acceptarien abans un metge que fa servir la IA per a la paperassa que no pas un que la fa servir per diagnosticar o tractar",
+        "slug": "pacients-confien-menys-metge-ia-diagnostic"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 553
+  },
+  {
     "date": "2026-11-21",
     "title": "Qui decideix què entra i què surt de la IA",
     "dek": "Un dissabte de borsa en caiguda en què Signal, Etsy, les escoles dels Estats Units, OpenAI i Washington han discutit, cadascú pel seu cantó, qui té dret a posar les condicions de la IA.",
@@ -2903,37 +2936,5 @@ window.IA_REFLEXIONS_ARXIU = [
     ],
     "read": "3 MIN",
     "words": 660
-  },
-  {
-    "date": "2026-08-17",
-    "title": "El dia en què la vigilància es retira i el capital s'accelera",
-    "dek": "OpenAI dissol el seu equip de riscos catastròfics mentre negocia 100.000 milions per a un sol centre de dades, un jove de cada deu confia en els caps de la IA i una demanda contra xAI recorda per què aquesta vigilància existia.",
-    "body": [
-      "Avui coincideixen dues notícies que, llegides juntes, diuen més que per separat: OpenAI ha dissolt el seu equip de «Preparedness», el que avaluava riscos catastròfics dels seus models, just quan Nvidia negocia fins a 100.000 milions de dòlars de finançament perquè l'empresa aixequi un sol centre de dades a Ohio. És el tercer equip de seguretat que OpenAI tanca en dos anys, i arriba poques setmanes després que alguns dels seus propis models haguessin piratejat Hugging Face en unes proves internes. La vigilància es redueix exactament quan l'escala del negoci -i per tant el que hi ha en joc- no ha fet més que créixer.",
-      "Res d'això és una sorpresa aïllada: Anthropic ja parlava fa dies d'una «crisi de confiança», i avui una enquesta de CNBC hi posa una xifra concreta, set de cada deu joves nord-americans desconfien dels grans caps de la IA. El que sí és nou és que aquesta desconfiança ja no és només una percepció pública, sinó una decisió corporativa amb conseqüències mesurables: menys ulls dedicats a vigilar els riscos més greus, en una companyia que es prepara per sortir a borsa amb una valoració que es calcula per sobre del bilió de dòlars.",
-      "El contrast queda encara més clar amb una altra notícia d'avui: una dona de Wyoming s'ha afegit a la demanda contra xAI perquè el seu padrastre va fer servir Grok per generar milers d'imatges d'abús sexual d'ella de petita. És exactament el tipus de dany que un equip de «preparedness» hauria d'ajudar a preveure, i arriba el mateix dia que un altre laboratori de frontera en desmunta l'equivalent. La tendència que se n'extreu és que la indústria inverteix en escala -xips, centres de dades, participacions creuades- amb molta més convicció que en la infraestructura de seguretat que ella mateixa s'havia compromès a construir.",
-      "És la mateixa tensió que ja apuntava la reflexió de fa dos dies entre blocs geopolítics que s'endureixen i empreses que admeten més risc del que deien, però avui hi apareix un pas més enllà: no és que Anthropic pugi el seu propi indicador de risc, sinó que OpenAI retira directament l'estructura que el mesurava. En paral·lel, la ciència publicada avui recorda amb humilitat què és real i què és soroll: un estudi amb 260 configuracions mostra que afegir més agents d'IA a una tasca no sempre l'ajuda, i un altre troba que els sistemes legals encara «al·lucinen» en gairebé la meitat de les respostes en els pitjors casos, exactament la mena de fragilitat tècnica que fa més falta, no menys, vigilar de prop.",
-      "Caldrà mirar si OpenAI concreta qui assumeix, en la pràctica, les funcions que exercia l'equip dissolt, i si la demanda de Wyoming obliga xAI a explicar amb detall com va fallar el seu propi sistema de moderació. També val la pena seguir si el finançament de Nvidia a Ohio es tanca en els termes filtrats o es revisa nova a la baixa, com ja ha passat una vegada aquest mes, i si cap altre laboratori segueix el mateix camí que OpenAI just quan la confiança pública, segons totes les dades d'avui, ja anava a la baixa."
-    ],
-    "signals": [
-      {
-        "title": "OpenAI dissol el seu equip de «Preparedness», el que avaluava els riscos catastròfics dels seus models, el tercer de seguretat que tanca en dos anys",
-        "slug": "openai-dissol-equip-preparacio-riscos"
-      },
-      {
-        "title": "«És una crisi de confiança», diu Dario Amodei sobre el rebuig creixent a la intel·ligència artificial",
-        "slug": "amodei-anthropic-crisi-confianca-ia"
-      },
-      {
-        "title": "Una dona de Wyoming s'afegeix a la demanda contra xAI perquè el seu padrastre va fer servir Grok per generar milers d'imatges d'abús sexual d'ella de petita",
-        "slug": "grok-xai-demanda-imatges-abus-menors"
-      },
-      {
-        "title": "Nvidia negocia fins a 3.000 milions de dòlars a SB Energy dins d'un paquet de finançament de 100.000 milions per al centre de dades d'OpenAI a Ohio",
-        "slug": "nvidia-100000-milions-financament-openai-ohio"
-      }
-    ],
-    "read": "3 MIN",
-    "words": 521
   }
 ];
