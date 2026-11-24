@@ -114,6 +114,19 @@
     if (link) link.href = adreca;
     var og = document.querySelector('meta[property="og:url"]');
     if (og) og.content = adreca;
+    // Barra d'adreces = adreça fixa (24.11.2026, observació d'en Rafael). Qui obre
+    // una peça per una adreça antiga (tribuna.html?arxiu=0, o tribuna.html amb la
+    // vigent) i la comparteix amb el menú del navegador o del mòbil enviava aquella
+    // adreça, que l'endemà ja mostra una altra peça: ?arxiu=N és una POSICIÓ de
+    // l'arxiu. Es canvia l'adreça visible per /tribuna/<id> sense recarregar
+    // (peca.php la serveix igual). Només al domini de producció.
+    try {
+      var desti = new URL(adreca);
+      if (desti.origin === location.origin && desti.pathname !== location.pathname &&
+          /\.html$/.test(location.pathname) && window.history && history.replaceState) {
+        history.replaceState(history.state, '', desti.pathname + location.hash);
+      }
+    } catch (e) { /* navegador antic: es queda l'adreça que hi havia */ }
   }
 
   // Càrrec de l'autor amb l'entitat enllaçada (01.10.2026). Camps opcionals de
