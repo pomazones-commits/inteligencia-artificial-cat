@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-24T05:14:12.207Z",
+ "actualitzat": "2026-11-24T09:15:40.618Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "33a86e580170",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "EE.UU. mete en su lista negra a comercial a Megaspeed, la firma de la espía china de Nvidia",
+   "url": "https://www.lavanguardia.com/economia/20261124/11691885/eeuu-megaspeed-nvidia-lista-negra.html",
+   "publicat": "2026-11-24T08:38:04.000Z"
+  },
+  {
+   "id": "053dc3bff8ba",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las Bolsas europeas caen pese a la renovada euforia por la IA",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-24/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-11-24T08:32:37.000Z"
+  },
+  {
+   "id": "4ae0a8059953",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Expertos alertan del riesgo de hacer dietas con IA sin contexto clínico ni filtro humano",
+   "url": "https://www.lavanguardia.com/comer/tendencias/20261124/11691848/expertos-alertan-riesgo-dietas-ia-contexto-clinico-filtro-humano.html",
+   "publicat": "2026-11-24T08:01:54.000Z"
+  },
+  {
+   "id": "450915a7428b",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Aquesta és la nova estafa amb intel·ligència artificial que posa en alerta els bars i restaurants",
+   "url": "https://www.diaridegirona.cat/vida-i-estil/2026/11/24/aquesta-nova-estafa-intelligencia-artificial-bar-restaurant-136675278.html",
+   "publicat": "2026-11-24T07:53:23.000Z"
+  },
+  {
+   "id": "6b739814e27d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La inteligencia artificial no nos convierte en expertos",
+   "url": "https://cincodias.elpais.com/legal/2026-11-24/la-inteligencia-artificial-no-nos-convierte-en-expertos.html",
+   "publicat": "2026-11-24T07:30:00.000Z"
+  },
+  {
+   "id": "754e96857ffb",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA vira cap a la dreta: tot i que no recomanen directament el vot, es solen decantar pel PP",
+   "url": "https://www.segre.com/ca/nacional-internacional/261124/ia-vira-cap-dreta-tot-i-recomanen-directament-vot-solen-decantar-pel-pp_1408634.html",
+   "publicat": "2026-11-24T07:24:11.000Z"
+  },
+  {
+   "id": "417efb325996",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Jensen Huang torna a Nvidia com un messies: \"Seré millor CEO la segona vegada\"",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/jensen-huang-torna-nvidia-com-messies-sere-millor-ceo-segona-vegada_1730195_102.html",
+   "publicat": "2026-11-24T07:00:37.000Z"
+  },
   {
    "id": "73a9b862b79b",
    "mitja": "Cinco Días",
@@ -476,7 +553,9 @@
    "ambit": "catala",
    "titol": "Comunitat Valenciana | El Consell incorpora a su estructura una nueva competencia sobre gobierno del dato y la IA",
    "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/el-consell-incorpora-a-su-estructura-una-nueva-competencia-sobre-gobierno-del-dato-y-la-ia",
-   "publicat": "2026-11-23T10:08:32.000Z"
+   "publicat": "2026-11-23T10:08:32.000Z",
+   "noticia": "consell-valencia-competencia-govern-dada-ia",
+   "noticiaTitol": "El Consell de la Generalitat Valenciana encarrega a una direcció general d'Economia que coordini el govern de les dades i la IA a l'administració"
   },
   {
    "id": "e6cc593fca3a",
@@ -2697,85 +2776,6 @@
    "titol": "La CEO interina de Nvidia transmite \"tranquilidad\" a los empleados tras la dimisión de Jensen Huang",
    "url": "https://www.elperiodico.com/es/economia/20261118/ceo-interina-nvidia-transmite-tranquilidad-136595274",
    "publicat": "2026-11-18T19:39:18.000Z"
-  },
-  {
-   "id": "05c55e0b3099",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Amazon i Google tindran entre les dues gairebé el 30% d'Anthropic quan surti a borsa",
-   "url": "https://www.elnacional.cat/ca/tecnologia/amazon-google-tindran-entre-dues-30-anthropic-quan-surti-borsa_1727759_102.html",
-   "publicat": "2026-11-18T19:30:00.000Z"
-  },
-  {
-   "id": "b5c0b700a0e9",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "INNOVACIÓN | El Focus Pyme Vega Baja 2026 profundiza en el uso de la IA y el marketing digital para impulsar la comarca",
-   "url": "https://alicanteplaza.es/alicanteplaza/innovacion-alicante/el-focus-pyme-vega-baja-2026-profundiza-en-el-uso-de-la-ia-y-el-marketing-digital-para-impulsar-la-comarca",
-   "publicat": "2026-11-18T19:03:47.000Z"
-  },
-  {
-   "id": "860f7647f1cf",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Qué prometen el PP, el PSOE, Vox y Frente Amplio sobre inteligencia artificial para el 29N",
-   "url": "https://www.informacion.es/politica/2026/11/18/pp-psoe-vox-frente-inteligencia-artificial-136592048.html",
-   "publicat": "2026-11-18T18:36:09.000Z"
-  },
-  {
-   "id": "9c246e575ce8",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "OpenAI llança GPT-6.2 Astra i Sol: més feina professional amb menys tokens",
-   "url": "https://www.elnacional.cat/ca/tecnologia/openai-llanca-gpt-62-astra-sol-mes-feina-professional-menys-tokens_1727696_102.html",
-   "publicat": "2026-11-18T18:00:00.000Z"
-  },
-  {
-   "id": "55596845ee8c",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Las claves de la salida a Bolsa de Anthropic: por qué los expertos la ven como el mejor termómetro del apetito por la IA",
-   "url": "https://www.elperiodico.com/es/economia/20261118/claves-salida-bolsa-anthropic-expertos-136591242",
-   "publicat": "2026-11-18T17:57:51.000Z"
-  },
-  {
-   "id": "5486297b5a9f",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Santalucía AM apuesta por aprovechar la caída de Nvidia y comprar deuda italiana",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-18/santalucia-am-apuesta-por-aprovechar-la-caida-de-nvidia-y-comprar-deuda-italiana.html",
-   "publicat": "2026-11-18T17:51:07.000Z"
-  },
-  {
-   "id": "02f4f8983651",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La Diada de les TIC a Catalunya 2026 posa en el centre del debat els límits de la IA i la seva regulació",
-   "url": "https://www.elnacional.cat/ca/societat/diada-tic-catalunya-2026-centre-debat-limits-ia-regulacio_1727558_102.html",
-   "publicat": "2026-11-18T16:37:00.000Z",
-   "noticia": "diada-tic-catalunya-2026-responsabilitat-digital-ia",
-   "noticiaTitol": "La Diada de les TIC a Catalunya demana una IA amb propòsit, i el Govern hi defensa que Europa controli els seus actius digitals"
   }
  ]
 }
