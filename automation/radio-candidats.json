@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-24T17:12:19.721Z",
+  "generat": "2026-11-24T17:13:25.790Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -48,7 +48,7 @@
       "programa": "La tàctica",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 3
+      "sobre_ia": 5
     },
     {
       "font": "rtve",
@@ -192,6 +192,40 @@
       "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/24-11-2026-inspiration-day-2026-estrategia-marqueting-l-intel-ligencia-artificial_135_1911279.html",
       "reproductor": {
         "tipus": "enllac"
+      }
+    },
+    {
+      "id": "rtve-17328658",
+      "emissora": "Ràdio 4",
+      "programa": "La tàctica",
+      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
+      "data": "2026-11-24",
+      "durada": "12 min",
+      "titol_original": "Mercè Gisbert, directora de l'AQU: “Hem de canviar la manera d'avaluar a les Universitats\"",
+      "descripcio_original": "Analitzem amb Mercè Gisbert, directora de l'AQU Catalunya, l’Agència per a la Qualitat del Sistema Universitari de Catalunya, l’arribada i l’impacte de la IA als sistema universitari català.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-merce-gisbert-directora-laqu-hem-canviar-manera-davaluar-les-universitats/17328658/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17328658"
+      }
+    },
+    {
+      "id": "rtve-17328671",
+      "emissora": "Ràdio 4",
+      "programa": "La tàctica",
+      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
+      "data": "2026-11-24",
+      "durada": "55 min",
+      "titol_original": "Tàctiques per organitzar l’economia familiar en parella",
+      "descripcio_original": "Compte conjunt o comptes separats? Com repartim les despeses de casa? Com podem evitar discussions pels diners? Consultori útil amb Marta Domingo, coach de finances i vida i col·laboradora del programa. Tot seguit, analitzem amb Mercè Gisbert, directora de l'AQU Catalunya, l’Agència per a la Qualitat del Sistema Universitari de Catalunya, l’arribada i l’impacte de la IA als sistema universitari català.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-tactiques-per-organitzar-economia-familiar-parella/17328671/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17328671"
       }
     }
   ]
