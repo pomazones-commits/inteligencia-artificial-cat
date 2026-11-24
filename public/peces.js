@@ -124,6 +124,13 @@
       var desti = new URL(adreca);
       if (desti.origin === location.origin && desti.pathname !== location.pathname &&
           /\.html$/.test(location.pathname) && window.history && history.replaceState) {
+        // Abans, <base href="/"> (com fa peca.php): sense, «./arxiu.html» i el retrat
+        // es resoldrien contra /tribuna/ i fallarien.
+        if (!document.querySelector('base')) {
+          var base = document.createElement('base');
+          base.href = '/';
+          document.head.insertBefore(base, document.head.firstChild);
+        }
         history.replaceState(history.state, '', desti.pathname + location.hash);
       }
     } catch (e) { /* navegador antic: es queda l'adreça que hi havia */ }
