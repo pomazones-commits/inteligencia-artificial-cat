@@ -1,6 +1,71 @@
 {
-  "updatedAt": "2026-11-24T13:14:01.678Z",
+  "updatedAt": "2026-11-24T17:12:26.953Z",
   "items": [
+    {
+      "category": "MERCATS",
+      "read": "4 MIN",
+      "slug": "anthropic-cau-sota-preu-sortida-borsa",
+      "title": "ACTUALITZACIÓ: Anthropic ja val menys que el preu de sortida a borsa, cinc dies després d'estrenar-s'hi amb el rècord d'aportació de capital",
+      "excerpt": "Les accions van caure dimarts al voltant d'un 12%, per sota dels 83 dòlars de l'oferta. Els analistes que n'han començat a seguir el valor continuen recomanant comprar.",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+      "sourceDate": "24 de novembre de 2026",
+      "body": "Anthropic, l'empresa que fa els models Claude, va sortir a borsa al Nasdaq el 19 de novembre amb l'operació més gran de la història: va fixar el preu en 83 dòlars per acció i va captar 81.300 milions de dòlars. El primer dia els títols van obrir a 111,50 dòlars, un 34% per sobre del preu de sortida, i van tancar a 97,17 dòlars.\n\nDimarts 24 de novembre, cinc dies després, les accions van baixar al voltant d'un 12% durant la sessió i van quedar per sota dels 83 dòlars, segons CNBC. Ja abans de l'obertura cotitzaven a uns 81,8 dòlars. La caiguda va coincidir amb un dia dolent per als fabricants de xips, com Nvidia, AMD i Intel, i per a les empreses que lloguen potència de càlcul, com CoreWeave i Nebius, enmig dels dubtes sobre si es podran pagar les inversions milionàries en centres de dades.\n\nÉs un senyal de com n'és, de fràgil, la confiança dels inversors en la IA. Segons CNBC, la meitat dels inversors institucionals que van demanar accions a l'oferta no en van rebre cap, i ara no tenen pressa per comprar-ne al preu actual. Tot i això, els tres bancs d'inversió que n'han començat a seguir el valor el recomanen: Canaccord Genuity el situa en 135 dòlars, Wedbush en 120 i Oppenheimer en 150, tot i que aquest últim admet que «la competència i els compromisos de potència de càlcul continuen sent riscos».\n\nUna caiguda de pocs dies no diu gaire del valor a llarg termini d'una empresa, i les xifres de la sessió van variar d'una font a l'altra segons l'hora de la consulta. Els bancs que recomanen el valor solen tenir relació amb les grans operacions del sector, i Anthropic no ha fet cap declaració sobre l'evolució de les accions. Caldrà veure si la baixada continua en les properes setmanes o si és només un ajust després de l'eufòria de l'estrena.",
+      "image": "./assets/anthropic-cau-sota-preu-sortida-borsa-20261124.jpg",
+      "editionDate": "2026-11-24"
+    },
+    {
+      "category": "CULTURA",
+      "read": "4 MIN",
+      "slug": "tidal-elimina-canons-fetes-del-tot-amb-ia",
+      "title": "Tidal esborrarà més de 29 milions de cançons fetes del tot amb IA i deixarà d'acceptar-ne de noves",
+      "excerpt": "El servei de música en línia diu que el 43% de les cançons que li han arribat els últims tres mesos les havia fet una IA. Les que només s'hi han ajudat es podran continuar publicant.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+      "sourceDate": "24 de novembre de 2026",
+      "body": "Els serveis de música en línia reben cada dia milers de cançons generades íntegrament amb IA, sovint publicades en massa per distribuïdores que busquen cobrar per reproduccions. Tidal, una de les plataformes de música en continu, ja havia deixat de pagar per aquestes cançons el juny del 2026, però el seu responsable musical, Robert Anderson, va escriure a X que no n'hi havia prou i que calia «fer alguna cosa més dràstica».\n\nDimarts 24 de novembre, Tidal va anunciar que prohibirà i esborrarà les cançons fetes del tot amb IA. Segons l'empresa, en els últims 90 dies més del 43% de les cançons que li van arribar eren d'aquest tipus, i ja en té 27 milions al catàleg, el 6,3% del total; el 96% no les ha escoltades ningú. Les retirades començaran el 9 de desembre i Tidal calcula que a final d'any n'haurà esborrat més de 29 milions i que en rebutjarà entre 80.000 i 85.000 cada dia. Tampoc no acceptarà les que les distribuïdores declarin fetes del tot amb IA. Les cançons que només s'han fet amb ajuda de la IA es podran continuar publicant.\n\nTidal és un dels primers grans serveis que fa aquest pas, després que Bandcamp prohibís la música feta amb IA el gener del 2026. Spotify i YouTube Music han triat de moment etiquetar-la, no pas treure-la, i Deezer ofereix eines per detectar-la. L'empresa ho justifica dient que, amb aquest volum, «la música i els artistes autèntics que els abonats volen escoltar i descobrir queden enterrats».\n\nTidal no ha explicat amb quin sistema decidirà quines cançons són fetes del tot amb IA, més enllà de les dades que declaren les distribuïdores, ni com es podrà reclamar si n'esborra una per error. La frontera entre una cançó feta amb IA i una de feta amb ajuda de la IA no sempre és clara, i les discogràfiques, alhora, cedeixen els seus catàlegs a empreses d'IA perquè entrenin models.",
+      "image": "./assets/tidal-elimina-canons-fetes-del-tot-amb-ia-20261124.jpg",
+      "editionDate": "2026-11-24"
+    },
+    {
+      "category": "CIBERSEGURETAT",
+      "read": "4 MIN",
+      "slug": "ciberatac-ia-quironsalud-correus-pacients",
+      "title": "Un atac informàtic fet amb IA roba a Quirónsalud les adreces de correu de pacients, també de la sanitat pública de Madrid",
+      "excerpt": "El grup hospitalari diu que no s'hi han vist afectades dades clíniques. La investigació apunta a ARTEX, la mateixa eina amb agents d'IA de l'atac a la Comissió Europea.",
+      "sourceName": "elDiario.es",
+      "sourceUrl": "https://www.eldiario.es/tecnologia/ciberataque-ia-quironsalud-roba-correos-pacientes-sanidad-publica_1_13689349.html",
+      "sourceDate": "24 de novembre de 2026",
+      "body": "Quirónsalud és el grup hospitalari privat més gran de l'Estat i també gestiona quatre hospitals públics de la Comunitat de Madrid: el General de Villalba, el Rey Juan Carlos de Móstoles, l'Infanta Elena de Valdemoro i la Fundació Jiménez Díaz. Les darreres setmanes, les autoritats han alertat d'ARTEX, una plataforma que permet als delinqüents automatitzar parts d'un atac informàtic amb agents d'IA i que ja es va fer servir contra l'acadèmia en línia de la Comissió Europea.\n\nSegons va publicar elDiario.es dimarts 24 de novembre, un atac contra Quirónsalud ha robat adreces de correu electrònic de les seves bases de dades, també de pacients de la sanitat pública madrilenya, que han rebut un avís de seguretat. L'empresa diu que l'atac va entrar per un portal web seu de Colòmbia, que està controlat i que no s'ha accedit a dades clíniques ni mèdiques. La seva investigació forense ha identificat ARTEX com a part de l'atac. Com a precaució, ha obligat els usuaris a canviar la contrasenya i ho ha comunicat a l'Agència Espanyola de Protecció de Dades i a les forces de seguretat.\n\nÉs un dels primers casos coneguts en què una eina d'atac amb IA arriba a dades de pacients d'un sistema sanitari a l'Estat. Les adreces robades se solen fer servir per enviar correus falsos que suplanten l'empresa o una institució, i per això Quirónsalud demana als usuaris que no donin mai contrasenyes ni codis de verificació i que entrin als serveis només per l'aplicació o el web oficials. Les forces de seguretat temen que aquest tipus d'eines facin més fàcils els atacs a qualsevol organització.\n\nDe moment no se sap quantes persones hi ha afectades ni per què hi ha adreces de pacients de Madrid en un portal colombià: l'empresa no ho ha explicat, i diu que n'anirà donant més informació a mesura que avanci la investigació. L'atribució a ARTEX la fa la mateixa empresa i no l'ha confirmada cap autoritat.",
+      "image": "./assets/ciberatac-ia-quironsalud-correus-pacients-20261124.jpg",
+      "editionDate": "2026-11-24"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "ia-preveu-materials-nous-universitat-toquio",
+      "title": "Un mètode de la Universitat de Tòquio fa que la IA encerti més les propietats de materials que encara no s'han descobert, segons «PRX Intelligence»",
+      "excerpt": "La clau és separar en dos passos el que el model aprèn de l'estructura dels àtoms i el càlcul de la propietat. En una prova amb materials descoberts després de l'entrenament, l'error baixa un 68%.",
+      "sourceName": "Universitat de Tòquio / PRX Intelligence",
+      "sourceUrl": "https://www.eurekalert.org/news-releases/1152730",
+      "sourceDate": "24 de novembre de 2026",
+      "body": "Els models d'aprenentatge automàtic que es fan servir per buscar materials nous, per a bateries, catalitzadors o aliatges, funcionen bé quan han de predir propietats de materials semblants als que han vist durant l'entrenament. El problema és que descobrir un material vol dir justament anar més enllà del conegut, i en aquest terreny, el de l'extrapolació, els models solen fallar.\n\nUn equip de l'Institut de Ciència Industrial de la Universitat de Tòquio, amb Tasuku Sugiura com a primer autor i Teruyasu Mizoguchi com a investigador principal, ho ha abordat separant la feina en dos passos. Primer, unes xarxes neuronals ja entrenades, de les que estan a l'abast de tothom, extreuen com estan disposats i enllaçats els àtoms del material; després, un model de regressió senzill relaciona aquesta informació amb la propietat que es vol saber. Per provar-ho, van entrenar els models només amb les dades del repositori Materials Project fins al 2018 i els van fer predir els materials que s'hi van afegir fins al 2021, com passa en la recerca real. Amb el seu mètode, l'error va ser un 68% més baix que amb un model de referència molt utilitzat, CGCNN. El treball s'ha publicat a la revista «PRX Intelligence» (DOI: 10.1103/pbrg-x848).\n\nEl resultat interessa perquè no demana un model més gran ni tornar a entrenar-lo a gran escala, i perquè els autors també han vist on deixa de funcionar: les prediccions són fiables quan el material nou amplia patrons químics o estructurals que ja es coneixien, i perden fiabilitat quan han de saltar a zones de la química poc representades a les dades. Saber-ho abans permet als investigadors decidir quan es poden refiar del model.\n\nLa millora del 68% es compara amb un sol model de referència, i la nota de premsa no detalla quines propietats es van predir ni quants materials es van provar. El mètode no fa descobriments per si sol: indica quins candidats val la pena estudiar, i qualsevol material prometedor s'ha de sintetitzar i mesurar al laboratori.",
+      "image": "./assets/ia-preveu-materials-nous-universitat-toquio-20261124.jpg",
+      "editionDate": "2026-11-24"
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "slug": "japo-pares-consells-salut-ia-vacunes-fills",
+      "title": "Al Japó, els fills dels pares que consulten la IA sobre salut estan més vacunats de la grip i de la covid, però l'estudi no demostra que en sigui la causa",
+      "excerpt": "Una enquesta a més de 5.000 famílies, publicada a «World Journal of Pediatrics», troba més vacunació de grip, covid i galteres entre els fills d'usuaris habituals de la IA. Els autors avisen que pot ser que aquests pares ja es cuidin més.",
+      "sourceName": "World Journal of Pediatrics / EurekAlert",
+      "sourceUrl": "https://www.eurekalert.org/news-releases/1153229",
+      "sourceDate": "24 de novembre de 2026",
+      "body": "Cada vegada més pares pregunten dubtes de salut dels fills als xats d'IA generativa, i entre els metges hi ha la por que aquests sistemes difonguin informació errònia sobre les vacunes. Fins ara, però, hi havia poques dades sobre si fer servir la IA s'associa a vacunar més o menys els infants.\n\nUn equip amb investigadors de la Facultat de Medicina de la UCLA, la Facultat de Medicina de Harvard i la Universitat de Tohoku ha analitzat una enquesta en línia feta el 2025 a tot el Japó, amb 5.170 pares i 8.282 infants d'entre 1 i 17 anys. Un 15% dels infants tenien un pare o una mare que feia servir habitualment la IA per demanar consells de salut. Un cop ajustats altres factors, aquests infants estaven més vacunats contra la grip (56,7% davant del 49%), la covid (40,6% davant del 30,9%) i les galteres (76,6% davant del 72,7%); en la vacuna del xarampió i la rubèola no hi havia una diferència clara. El resultat es mantenia en un grup de 2.521 infants dels quals es coneixien les actituds dels pares envers les vacunes del 2023. L'estudi es va publicar el 15 d'octubre a «World Journal of Pediatrics» (DOI: 10.1007/s12519-026-01107-5).\n\nLa troballa matisa la idea que la IA aparta per força les famílies de la medicina preventiva: en aquesta mostra, l'ús habitual de la IA per a la salut anava de la mà de més vacunació, no pas de menys. Per a la salut pública, indica que val la pena estudiar com responen aquests sistemes a les preguntes sobre vacunes, perquè una part creixent de les famílies hi acudeix.\n\nEls mateixos autors el presenten com un estudi exploratori que mostra una associació, no pas una relació de causa i efecte. És probable que els pares que consulten la IA sobre salut ja s'informin més i tinguin més bona disposició envers la prevenció. L'enquesta no preguntava si les consultes eren sobre vacunes ni si eren anteriors a la vacunació, i les dades de vacunació les donaven els mateixos pares. El resultat sobre la covid en els pares de menys de 30 anys es basa en un grup petit i s'ha de confirmar.",
+      "image": "./assets/japo-pares-consells-salut-ia-vacunes-fills-20261124.jpg",
+      "editionDate": "2026-11-24"
+    },
     {
       "category": "CIBERSEGURETAT",
       "read": "4 MIN",
@@ -13265,74 +13330,6 @@
       "body": "Un equip de l'Institut ITACA de la Universitat Politècnica de València (UPV) ha desenvolupat un model d'intel·ligència artificial que localitza i quantifica les anomalies del teixit de les aurícules associades a la miocardiopatia atrial, una de les causes d'arrítmies com la fibril·lació auricular. El treball, signat per María Macarulla-Rodríguez i set coautors més, ha sortit a la revista «Discover Computing» (DOI 10.1007/s10791-026-10439-9).\n\nEl mètode fa servir xarxes neuronals de grafs, un tipus de model que treballa amb dades connectades entre si, per analitzar els mapes de potencials elèctrics que es mesuren a la superfície del tors, com en un electrocardiograma amb molts elèctrodes. L'equip l'ha entrenat i provat amb 14.400 registres simulats, amb anatomies diferents d'aurícula i de tors.\n\nEls resultats són el 89% d'encert a l'hora d'identificar on és el teixit afectat i el 84% a l'hora de determinar-ne l'extensió. Amb la configuració de base, de 128 elèctrodes, el model va assolir un 89% de sensibilitat i un 90% d'especificitat, i va mantenir el rendiment amb anatomies que no havia vist durant l'entrenament i amb senyals degradats. Un diagnòstic així, sense haver d'introduir un catèter dins del cor, podria ajudar a planificar millor els tractaments.\n\nEl límit és important: tot són dades simulades i els autors reconeixen que cal una validació prospectiva amb registres clínics reals abans de pensar en un ús en pacients. Per això és una prova de concepte i no una eina llesta per a l'hospital.",
       "image": "./assets/upv-ia-localitza-teixit-malalt-auricula-arritmies-20261005.jpg",
       "editionDate": "2026-10-05"
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "slug": "gigafactoria-ia-mora-la-nova-54-mw-primera-fase",
-      "title": "La gigafactoria d'IA de Móra la Nova ja té els 54 MW per a la primera fase i assegura que gairebé no consumirà aigua",
-      "excerpt": "L'alcalde, Jesús Álvarez, explica que la segona fase encara necessita dues línies elèctriques des de la subestació d'Aubals i que el projecte s'ha de presentar a la Comissió Europea abans del 12 de novembre.",
-      "sourceName": "Canal TE",
-      "sourceUrl": "https://canalte.cat/actualitat/societat/el-projecte-de-la-gigafactoria-dia-de-mora-la-nova-ja-disposa-dels-54-mw-necessaris-per-comencar-la-primera-fase/",
-      "sourceDate": "2 d'octubre de 2026",
-      "body": "El projecte de gigafactoria d'intel·ligència artificial de Móra la Nova (Ribera d'Ebre) ja disposa dels 54 MW de potència elèctrica que calen per començar la primera fase, segons ha explicat l'alcalde del municipi, Jesús Álvarez, a Canal TE. El consorci que opta a acollir-la ha de presentar la candidatura a la Comissió Europea abans del 12 de novembre de 2026.\n\n«Tenim 54 per a la fase 1, que és el que cal per començar a funcionar», va dir l'alcalde, que va precisar que les garanties d'energia de la primera fase estan cobertes, però que la segona encara depèn de projectes. Aquesta fase requereix tirar dues línies, una principal i una de reserva, des de la subestació d'Aubals fins a Móra la Nova, per arribar a uns 75 MW addicionals. L'ampliació d'Aubals ja estava prevista per al 2030, abans de plantejar-se la gigafactoria.\n\nPel que fa a l'aigua, Álvarez assegura que el consum serà «pràcticament nul». La instal·lació s'ubicarà al polígon del Molló, una zona industrial ja urbanitzada fa uns 25 anys i amb la captació d'aigua existent, i farà servir un sistema de refrigeració líquida en circuit tancat que evita l'evaporació.\n\nSón dades que ofereix l'alcalde del municipi que acull el projecte i, per tant, cal llegir-les com a declaracions i no com a xifres verificades en un tràmit. El projecte encara no ha estat seleccionat per Brussel·les: l'avaluació de la candidatura i la decisió final són pendents.",
-      "image": "./assets/gigafactoria-ia-mora-la-nova-54-mw-primera-fase-20261005.jpg",
-      "etiquetes": [
-        "centres-de-dades"
-      ],
-      "editionDate": "2026-10-05"
-    },
-    {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "slug": "hong-kong-record-recaptacio-ia-tercer-trimestre",
-      "title": "Hong Kong aixeca 47.500 milions de dòlars en un trimestre, un rècord, empès per la febre de la IA",
-      "excerpt": "Les sortides a borsa, ampliacions i vendes de paquets d'accions de juliol a setembre superen qualsevol tercer trimestre anterior. Z.AI, Alibaba i el fabricant de components Zhongji Innolight en són els grans noms.",
-      "sourceName": "China Daily Hong Kong (a partir de Bloomberg)",
-      "sourceUrl": "https://www.chinadailyhk.com/hk/article/640506",
-      "sourceDate": "4 d'octubre de 2026",
-      "body": "Hong Kong ha tancat el tercer trimestre amb la recaptació de capital més alta que ha vist mai en aquest període: 47.500 milions de dòlars entre sortides a borsa, ampliacions de capital i vendes de paquets d'accions. Segons Bloomberg, els intermediaris amb prou feines van fer vacances a l'estiu. En el que va d'any, el mercat ja ha passat dels 92.000 milions, a prop del rècord de 112.500 milions del 2021.\n\nLa intel·ligència artificial és el motor de l'onada. Alibaba va liderar l'estiu amb una ampliació de 10.200 milions de dòlars, i la cotització de Zhongji Innolight, de gairebé 8.000 milions, ha estat la més gran a la ciutat en set anys. Z.AI acumula 9.600 milions aquest any entre sortida a borsa, noves vendes d'accions i bons convertibles. Al conjunt d'Àsia i el Pacífic, les vendes d'accions van superar els 120.000 milions, la xifra més alta en sis anys.\n\nEl canvi més notable és el ritme. James Wang, de Goldman Sachs, explica que abans les empreses de la Xina continental sortien al mercat una vegada i passaven un o dos anys sense tornar-hi; ara tornen a demanar diners tres mesos després. Per a les empreses de models i xips, Hong Kong s'ha convertit en una font de finançament recurrent, no en una porta d'entrada puntual, enmig d'una cursa pel càlcul que exigeix capital constant.\n\nHi ha límits. La mateixa informació adverteix que l'alça dels rendiments dels bons i el mal comportament de diverses cotitzacions recents fan que els inversors se sentin més selectius de cara a final d'any. Un trimestre rècord no garanteix que el següent ho sigui, i el volum recaptat no diu res sobre si aquestes empreses acabaran guanyant diners. Tot el que consta aquí són xifres de mercat publicades per Bloomberg i reproduïdes per la premsa.",
-      "image": "./assets/hong-kong-record-recaptacio-ia-tercer-trimestre-20261004.jpg",
-      "editionDate": "2026-10-04"
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "slug": "genfocal-ia-generativa-climes-regionals-nature-machine-intelligence",
-      "title": "Una IA generativa de Google tradueix les projeccions climàtiques a escala regional i reprodueix onades de calor i cicles tropicals",
-      "excerpt": "GenFocal, descrit a «Nature Machine Intelligence», converteix els models climàtics globals, de resolució grollera, en temps meteorològic de detall fi sense haver de parellar simulacions i observacions.",
-      "sourceName": "Nature Machine Intelligence (DOI)",
-      "sourceUrl": "https://doi.org/10.1038/s42256-026-01308-7",
-      "sourceDate": "28 de setembre de 2026",
-      "body": "Els models climàtics globals simulen el planeta amb quadrícules de desenes de quilòmetres per cantó, massa gruixudes per dir què passarà en una comarca o una ciutat. Qui ha de decidir on posar un dic o com protegir una xarxa elèctrica necessita un detall molt més fi, i els mètodes estadístics clàssics solen fallar justament amb els fenòmens més perillosos: els extrems rars i duradors.\n\nZhong Yi Wan, Ignacio Lopez-Gomez i Leonardo Zepeda-Núñez, de Google Research, amb Tapio Schneider, Fei Sha i altres coautors, presenten GenFocal, un marc d'IA generativa que combina dues tècniques, una per corregir el biaix del model i una altra per afinar-ne la resolució. Passa d'una quadrícula d'1,5 graus a una de 0,25 graus i modela seqüències de dies consecutius, no fotos aïllades. Segons l'article, no necessita parells d'esdeveniments simulats i observats per entrenar-se.\n\nEl resultat és que reprodueix amb més fidelitat esdeveniments com les onades de calor i els cicles tropicals, fins i tot quan el model groller els representa malament, i millora l'estimació del risc regional dels extrems compostos. És una peça de recerca revisada, publicada a «Nature Machine Intelligence» (DOI 10.1038/s42256-026-01308-7); el codi és obert i s'ha dipositat a Zenodo. El treball circulava des del 2024 com a preprint a arXiv.\n\nConvé no exagerar-ne l'abast. GenFocal depèn de la qualitat del model climàtic de partida: si aquest no genera un fenomen, la IA no el pot inventar amb garanties. Els autors el presenten com una eina per a l'avaluació de riscos, no com una previsió del temps. Que el resultat sigui estadísticament coherent no el converteix en una predicció exacta de cap esdeveniment concret.",
-      "image": "./assets/genfocal-ia-generativa-climes-regionals-nature-machine-intelligence-20261004.jpg",
-      "editionDate": "2026-10-04"
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "slug": "insilico-ia-protac-leucemia-bruton-journal-medicinal-chemistry",
-      "title": "Un equip d'Insilico Medicine dissenya amb IA molècules que destrueixen una proteïna clau en càncers de la sang",
-      "excerpt": "Els investigadors descriuen a «Journal of Medicinal Chemistry» compostos PROTAC contra la proteïna BTK, i asseguren que la IA va escurçar a 12-18 mesos la selecció dels candidats. Encara són compostos de laboratori.",
-      "sourceName": "The National",
-      "sourceUrl": "https://thenationalnews.com/news/uae/2026/10/04/uae-scientists-harness-ai-to-discover-potential-blood-cancer-drug",
-      "sourceDate": "4 d'octubre de 2026",
-      "body": "Alguns càncers de la sang, com certes leucèmies i limfomes, depenen de la proteïna BTK (tirosina cinasa de Bruton), que ajuda les cèl·lules malignes a créixer i estendre's. Els fàrmacs actuals la bloquegen, però poden deixar de funcionar quan el tumor muta. Una alternativa són els PROTAC, molècules de dos extrems que fan que la cèl·lula destrueixi la proteïna en lloc de limitar-se a bloquejar-la.\n\nEl químic orgànic Ahmad Alghaith, d'Insilico Medicine, companyia de biotecnologia amb seu a Abu Dhabi, explica al diari «The National» que el seu equip ha publicat a «Journal of Medicinal Chemistry» el disseny de PROTAC contra BTK. Van fer servir dues plataformes de la companyia: PandaOmics, que assenyala proteïnes rellevants per a una malaltia, i Chemistry42, que dissenya molècules que s'hi acoblin.\n\nLa companyia afirma que aquest flux de treball redueix la selecció de candidats a entre 12 i 18 mesos, davant dels 2,5 a 4 anys del mètode tradicional. Aquest guany de temps és una afirmació de l'empresa, no una mesura independent. «L'esperança de la IA és que augmenti l'índex d'èxit i en redueixi el temps i el cost», diu Alghaith.\n\nEl límit principal és que parlem de «compostos líder»: les proves per decidir si poden passar a assaigs clínics encara no han acabat, i arribar a pacients pot costar anys, amb la regulació pel mig. Aquest article s'ha elaborat a partir de la informació de The National; no hem pogut consultar el text complet de la revista.",
-      "image": "./assets/insilico-ia-protac-leucemia-bruton-journal-medicinal-chemistry-20261004.jpg",
-      "editionDate": "2026-10-04"
-    },
-    {
-      "category": "JUSTÍCIA",
-      "read": "4 MIN",
-      "slug": "arizona-anul-sentencia-video-victima-generat-ia",
-      "title": "Un tribunal d'Arizona anul·la una condemna perquè la família va mostrar un vídeo de la víctima recreat amb IA",
-      "excerpt": "El Tribunal d'Apel·lacions ordena una nova vista de pena en el cas «State v. Horcasitas»: les parts sintètiques del vídeo atribuïen a un mort paraules i gestos que mai no va fer.",
-      "sourceName": "Law Commentary",
-      "sourceUrl": "https://lawcommentary.com/articles/arizona-court-ai-generated-victim-impact-video-sentence",
-      "sourceDate": "30 de setembre de 2026",
-      "body": "El Tribunal d'Apel·lacions d'Arizona, Divisió Primera, ha anul·lat per unanimitat la condemna de 10 anys i mig imposada a Gabriel Paul Horcasitas per un homicidi involuntari, i ha ordenat una nova vista per fixar la pena. La sentència, del 30 de setembre, no toca la condemna en si mateixa: el fet de ser culpable continua vigent.\n\nEl cas ve d'un tiroteig de 2021 en una discussió de trànsit. Durant la vista de pena, la família de la víctima va presentar un vídeo que recreava amb IA el seu aspecte i la seva veu, combinant una fotografia i un perfil de veu amb imatges autèntiques. El jutge va imposar la pena màxima i va citar la presentació amb aprovació.\n\nSegons la sentència, les parts sintètiques no tenen prou fiabilitat per a decidir una pena: la parla i les expressions generades «creaven una conducta que mai no havia existit» i atribuïen declaracions a algú que no podia confirmar-les. Que el vídeo advertís que era fet amb IA no ho va arreglar. Els jutges ho distingeixen del dol documentat, que la jurisprudència anterior sí que admet.\n\nLa decisió és una sola sentència d'una sala d'apel·lació estatal, no una regla nacional, i només tracta de vistes de pena. Tot i això, és un indici de com els tribunals poden tractar les recreacions fetes amb IA quan hi ha una persona en joc. La nova vista tindrà lloc al Tribunal Superior del comtat de Maricopa.",
-      "image": "./assets/arizona-anul-sentencia-video-victima-generat-ia-20261004.jpg",
-      "editionDate": "2026-10-04"
     }
   ]
 }
