@@ -15,7 +15,7 @@
   // fitxer vell amb el segell de l'hora en curs (12.10.2026: la tribuna nova no
   // sortia a la portada fins a l'hora següent). Puja aquesta versió (i el ?v=
   // d'app.js a index.html) cada vegada que publiquis una tribuna o un estudi.
-  const VERSIO_MANUAL = '2026112401';
+  const VERSIO_MANUAL = '2026112402';
   const MANUALS = ['./tribuna.js', './tribuna-arxiu.js', './estudis.js', './estudis-arxiu.js', './series.js', './empresa.js'];
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -468,6 +468,17 @@
         document.querySelector('.tribuna-layout').classList.add('tribuna-layout--solo');
       }
       band.hidden = false;
+      // Adreça fixa (24.11.2026, decisió d'en Rafael: cada peça de col·laborador ha de
+      // tenir una adreça permanent per compartir-la). ./tribuna.html i ./estudi.html
+      // mostren la peça VIGENT, que d'aquí a dos dies és una altra; /tribuna/<id> no canvia.
+      // Els fitxers ja els baixen les bandes de Veus i Converses (mateixa memòria cau).
+      Promise.all([loadScript('./tribuna-arxiu.js'), loadScript('./estudis-arxiu.js'), loadScript('./peces.js')]).then(() => {
+        const llista = esEstudi
+          ? [window.IA_ESTUDI].concat(window.IA_ESTUDIS_ARXIU || [])
+          : [window.IA_TRIBUNA].concat(window.IA_TRIBUNA_ARXIU || []);
+        const cami = window.IAPeces && window.IAPeces.cami(esEstudi ? 'estudis' : 'tribuna', tribuna, llista);
+        if (cami && enllacTribuna) enllacTribuna.href = cami;
+      });
     }
 
     // ——— Veus de CIVICAi (12.10.2026): banda pròpia amb les peces de la sèrie ———

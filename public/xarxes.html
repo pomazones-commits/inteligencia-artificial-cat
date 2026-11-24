@@ -159,6 +159,12 @@
 <script src="./reflection.js"></script>
 <script src="./tribuna.js"></script>
 <script src="./estudis.js"></script>
+<script src="./tribuna-arxiu.js"></script>
+<script src="./estudis-arxiu.js"></script>
+<script src="./analysis-arxiu.js"></script>
+<script src="./quadern-arxiu.js"></script>
+<script src="./reflexions-arxiu.js"></script>
+<script src="./peces.js"></script>
 <script src="./daily-image.js"></script>
 <script>
 (() => {
@@ -334,6 +340,10 @@
   const quadern = window.IA_REFLECTION || null;
   const tribuna = window.IA_TRIBUNA || null;
   const estudi = window.IA_ESTUDI || null;
+  // Adreça fixa de cada peça (24.11.2026): un post a les xarxes viu per sempre, i
+  // /tribuna.html, /estudi.html… mostren la peça VIGENT, que demà ja és una altra.
+  const fixa = (tipus, item, arxiu, recurs) =>
+    (window.IAPeces && item && window.IAPeces.url(tipus, item, [item].concat(arxiu || []))) || BASE + recurs;
   const imatgeDia = window.IA_DAILY_IMAGE || null;
 
   const LOCALS = /catalunya|català|catalana|barcelona|girona|lleida|tarragona|generalitat|espanya|espanyol/i;
@@ -440,7 +450,7 @@
   if (reflexio && reflexio.title) {
     hiHaPeces = true;
     const idea = frase((reflexio.dek || (reflexio.body && reflexio.body[0]) || ''), 190);
-    const url = BASE + '/reflexio.html';
+    const url = fixa('reflexio', reflexio, window.IA_REFLEXIONS_ARXIU, '/reflexio.html');
     contPeces.appendChild(fitxaSimple(
       'La reflexió del dia — ' + reflexio.title,
       'Alterna-la amb el post de l\'edició per no repetir format.',
@@ -460,7 +470,7 @@
 
   if (analisi && analisi.title) {
     hiHaPeces = true;
-    const url = BASE + '/analisi.html';
+    const url = fixa('analisi', analisi, window.IA_ANALISIS_ARXIU, '/analisi.html');
     contPeces.appendChild(fitxaSimple(
       'Anàlisi setmanal — ' + analisi.title,
       'Publica-la el cap de setmana; és la peça que millor funciona a LinkedIn.',
@@ -479,7 +489,7 @@
 
   if (quadern && quadern.title) {
     hiHaPeces = true;
-    const url = BASE + '/quadern.html';
+    const url = fixa('quadern', quadern, window.IA_QUADERN_ARXIU, '/quadern.html');
     contPeces.appendChild(fitxaSimple(
       'Quadern IA — ' + quadern.title,
       'La peça de pensament de la setmana.',
@@ -497,7 +507,7 @@
 
   if (tribuna && tribuna.title) {
     hiHaPeces = true;
-    const url = BASE + '/tribuna.html';
+    const url = fixa('tribuna', tribuna, window.IA_TRIBUNA_ARXIU, '/tribuna.html');
     const cita = net(tribuna.quote || tribuna.excerpt || '');
     contPeces.appendChild(fitxaSimple(
       'La tribuna — ' + tribuna.author,
@@ -517,7 +527,7 @@
 
   if (estudi && estudi.title) {
     hiHaPeces = true;
-    const url = BASE + '/estudi.html';
+    const url = fixa('estudis', estudi, window.IA_ESTUDIS_ARXIU, '/estudi.html');
     const resum = net(Array.isArray(estudi.abstract) ? estudi.abstract[0] : estudi.excerpt || '');
     contPeces.appendChild(fitxaSimple(
       'Estudis — ' + estudi.author,
