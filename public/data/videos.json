@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-24T14:17:57.743Z",
+ "actualitzat": "2026-11-24T17:13:29.485Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "z7tcQiyLK8E",
+   "titol": "How Eli Lilly and Company Accelerates Drug Discovery with NVIDIA",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "salut",
+   "idioma": "en",
+   "publicat": "2026-11-24T16:37:11.000Z",
+   "descripcio": "Chris Lesniewski, Associate VP of Enterprise Infrastructure Services at Eli Lilly and Company, explains how AI and NVIDIA technology help turn decades of data into \"an incredible scientific instrument that we can use to discover new medicines.\" Learn more about how our customers across industries ha",
+   "miniatura": "/assets/videos/z7tcQiyLK8E.jpg"
+  },
   {
    "id": "5p8CdiQGqV4",
    "titol": "Conheça o novíssimo ChatGPT Modo Voz.",
@@ -1084,18 +1096,6 @@
    "publicat": "2026-11-03T18:04:51.000Z",
    "descripcio": "ChatGPT Voice 🤝 Finances. Securely connect your accounts through Finances, then talk through your finances on topics like what subscriptions you're paying for, discuss which you’d like to keep and what you could save by cancelling. Try it: chatgpt.com/finances",
    "miniatura": "/assets/videos/63pcV4z0DwI.jpg"
-  },
-  {
-   "id": "2h16j4K_NbA",
-   "titol": "Glean on privacy and OpenAI Private Intelligence",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "societat",
-   "idioma": "en",
-   "publicat": "2026-11-03T16:46:37.000Z",
-   "descripcio": "Using more capable AI starts with confidence that your data stays under your control. For Glean’s customers, privacy is a priority. Glean co-founder and CTO Vishwanath T R shares how Glean and OpenAI have worked together to help meet those needs, including through the Private Safety Processing previ",
-   "miniatura": "/assets/videos/2h16j4K_NbA.jpg"
   },
   {
    "id": "rqZpgKq2Ocw",
