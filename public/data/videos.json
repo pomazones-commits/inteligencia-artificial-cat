@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-24T13:14:56.095Z",
+ "actualitzat": "2026-11-24T14:17:57.743Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "5p8CdiQGqV4",
+   "titol": "Conheça o novíssimo ChatGPT Modo Voz.",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "ca",
+   "publicat": "2026-11-24T13:14:46.000Z",
+   "descripcio": "De uma simples pergunta a uma tarefa resolvida. É só falar com o ChatGPT Modo Voz. Ele te escuta e faz com você.",
+   "miniatura": "/assets/videos/5p8CdiQGqV4.jpg"
+  },
   {
    "id": "aAbtjH0-oQQ",
    "titol": "Why Transparency Matters for AI Security",
