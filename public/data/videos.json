@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-23T17:14:54.948Z",
+ "actualitzat": "2026-11-24T02:35:48.415Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "MpsO8Ds8uyo",
+   "titol": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-23T20:02:15.000Z",
+   "descripcio": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler, app",
+   "miniatura": "/assets/videos/MpsO8Ds8uyo.jpg"
+  },
+  {
+   "id": "fpQcDQJQLhg",
+   "titol": "Google Antigravity in action: Building an offline wildlife field guide",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "maquinari",
+   "idioma": "en",
+   "publicat": "2026-11-23T20:00:28.000Z",
+   "descripcio": "Creative technologist and hardware builder Arden Schager demonstrates how he built GemmaDex - a pocket-sized, 100% offline wildlife and plant field guide running on a Raspberry Pi 5, using the power of Antigravity and Gemma 4. Watch to learn more! Let us know what offline hardware you'd build using ",
+   "miniatura": "/assets/videos/fpQcDQJQLhg.jpg"
+  },
   {
    "id": "PXKvR8ta22Q",
    "titol": "How Franklin Templeton uses AI for investment research | OpenAI",
