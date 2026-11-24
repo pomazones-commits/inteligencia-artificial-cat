@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-24T15:20:31.554Z",
+ "actualitzat": "2026-11-24T17:13:17.941Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "ccd11bbf41e1",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic s’enfonsa i ja cotitza per sota del preu de la sortida a la borsa",
+   "url": "https://www.ara.cat/economia/tecnologia/anthropic-s-enfonsa-ja-cotitza-preu-sortida-borsa_25_5921654.html",
+   "publicat": "2026-11-24T16:57:49.000Z"
+  },
+  {
+   "id": "620665b7d62a",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA no pensa com el cervell, ho demostren posant el test al revés",
+   "url": "https://www.elnacional.cat/ca/tecnologia/ia-no-pensa-com-cervell-ho-demostren-posant-test-reves_1730672_102.html",
+   "publicat": "2026-11-24T16:30:00.000Z"
+  },
+  {
+   "id": "d4756372b76b",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alianza europea para fabricar satélites de observación de la Tierra con inteligencia artificial a bordo",
+   "url": "https://www.lasprovincias.es/ciencia/alianza-europea-para-fabricar-rlt_esp-20261124041133-nt.html",
+   "publicat": "2026-11-24T16:00:33.000Z"
+  },
+  {
+   "id": "8fa940b8f27c",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "24.11.2026 | Inspiration Day 2026: estratègia i màrqueting en l’era de la intel·ligència artificial",
+   "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/24-11-2026-inspiration-day-2026-estrategia-marqueting-l-intel-ligencia-artificial_135_1911279.html",
+   "publicat": "2026-11-24T15:55:00.000Z"
+  },
+  {
+   "id": "4ee9448c630c",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Horos apuesta por la Bolsa de Francia para esquivar la ‘IA-dependencia’",
+   "url": "https://cincodias.elpais.com/fondos-y-planes/2026-11-24/horos-apuesta-por-la-bolsa-de-francia-para-esquivar-la-ia-dependencia.html",
+   "publicat": "2026-11-24T15:47:11.000Z"
+  },
+  {
+   "id": "2213825214ea",
+   "mitja": "Nació Digital",
+   "font": "naciodigital-totes",
+   "icona": "/assets/premsa/nacio-digital.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Manresa ofereix un curs per aplicar la intel·ligència artificial a la logística i la producció industrial",
+   "url": "https://naciodigital.cat/manresa/economia-i-empresa/manresa-ofereix-un-curs-per-aplicar-la-intelligencia-artificial-a-la-logistica-i-la-produccio-industrial.html",
+   "publicat": "2026-11-24T15:38:14.000Z"
+  },
+  {
+   "id": "5dc9225a6c3d",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alicante | Alicante implanta el sistema de control de aforos con IA en Santa Bárbara para mejorar su gestión",
+   "url": "https://alicanteplaza.es/alicanteplaza/alicante/alicante-implanta-el-sistema-de-control-de-aforos-con-ia-en-santa-barbara-para-mejorar-su-gestion",
+   "publicat": "2026-11-24T15:24:32.000Z"
+  },
   {
    "id": "92962a183c43",
    "mitja": "La Vanguardia",
@@ -43,7 +120,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Anthropic se desploma un 9% y pierde el precio de la salida a Bolsa cuatro días después de debutar",
+   "titol": "Anthropic se desploma más del 13% y pierde el precio de la salida a Bolsa cuatro días después de debutar",
    "url": "https://cincodias.elpais.com/economia/2026-11-24/anthropic-pierde-el-precio-de-salida-a-bolsa-antes-de-su-cuarto-dia-de-cotizacion-en-wall-street.html",
    "publicat": "2026-11-24T14:30:56.000Z"
   },
@@ -56,7 +133,9 @@
    "ambit": "estatal",
    "titol": "Un ciberataque con IA a Quirónsalud roba correos de pacientes de la sanidad pública",
    "url": "https://www.eldiario.es/tecnologia/ciberataque-ia-quironsalud-roba-correos-pacientes-sanidad-publica_1_13689349.html",
-   "publicat": "2026-11-24T13:43:55.000Z"
+   "publicat": "2026-11-24T13:43:55.000Z",
+   "noticia": "ciberatac-ia-quironsalud-correus-pacients",
+   "noticiaTitol": "Un atac informàtic fet amb IA roba a Quirónsalud les adreces de correu de pacients, també de la sanitat pública de Madrid"
   },
   {
    "id": "00c08dcb0287",
@@ -2699,83 +2778,6 @@
    "titol": "El Clúster Vitivinícola Català activa un assistent d'intel·ligència artificial",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/cluster-vitivinicola-catala-activa-assistent-intelligencia-artificial_1727843_102.html",
    "publicat": "2026-11-19T07:50:03.000Z"
-  },
-  {
-   "id": "332718c3d29a",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un nuevo sistema de detección geométrica blinda los modelos de inteligencia artificial frente a manipulaciones maliciosas",
-   "url": "https://www.lasprovincias.es/tecnologia/nuevo-sistema-deteccion-geometrica-rlt_arx-20261119071105-nt.html",
-   "publicat": "2026-11-19T07:26:05.000Z"
-  },
-  {
-   "id": "a488f1a68a6a",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic sortirà a borsa a 83 dòlars l'acció en un debut històric",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/anthropic-sortira-borsa-83-dolars-accio-en-debut-historic_1727831_102.html",
-   "publicat": "2026-11-19T06:52:24.000Z"
-  },
-  {
-   "id": "3fea39a938d7",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Jensen Huang estaría montando una “sala de guerra” para volver a Nvidia",
-   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261119/11686159/jensen-huang-estaria-montando-sala-guerra-volver-nvidia.html",
-   "publicat": "2026-11-19T06:30:00.000Z"
-  },
-  {
-   "id": "d170a4548bb6",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Así está el mercado laboral de tecnología: una de cada seis ofertas pide IA, solo uno de cada 60 programadores la pone en su currículum",
-   "url": "https://elpais.com/tecnologia/2026-11-19/asi-esta-el-mercado-laboral-de-tecnologia-una-de-cada-seis-ofertas-pide-ia-solo-uno-de-cada-60-programadores-la-pone-en-su-curriculum.html",
-   "publicat": "2026-11-19T06:00:00.000Z"
-  },
-  {
-   "id": "2b26ecc6f016",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic sale hoy a bolsa: quién gana y quién pierde con el gigante de la IA",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261119/anthropic-sale-hoy-bolsa-gana-pierde-acciones-ia-claude-136594437",
-   "publicat": "2026-11-19T05:01:15.000Z"
-  },
-  {
-   "id": "e9b40b1d1e64",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Barcelona gana peso en el futuro de la IA",
-   "url": "https://www.elperiodico.com/es/opinion/20261119/barcelona-cnmc-oficina-regulacion-ia-136594083",
-   "publicat": "2026-11-19T05:01:14.000Z"
-  },
-  {
-   "id": "259ac7fa686f",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Dario Amodei, el cerebro de Anthropic que quiere salvar al mundo de los riesgos de la IA",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261119/dario-amodei-anthropic-salida-bolsa-ia-riesgos-claude-136510101",
-   "publicat": "2026-11-19T05:01:06.000Z"
   }
  ]
 }
