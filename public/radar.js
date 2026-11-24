@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "24.11.2026",
+    "title": "ACTUALITZACIÓ: A cinc dies del 29-N, el PP passa al davant entre els partits que recomanen els assistents d'IA, segons la tercera onada de l'estudi de la UOC",
+    "summary": "Els assistents eviten triar partit en el 85,4% de les respostes, però quan ho fan el PP surt en el 19,9% dels casos, per davant del PSOE. Grok i ChatGPT continuen sent els que més opinen.",
+    "detail": "Un equip de la Universitat Oberta de Catalunya (UOC) i de Science 4 Insights, amb els professors Ferran Lalueza i Cristina Aced, fa des del gener un seguiment de què responen els assistents d'IA quan algú els pregunta a qui ha de votar a les eleccions generals espanyoles. El 9 de novembre en vam explicar la segona onada, feta el 6 d'octubre: els assistents recomanaven partit menys sovint que al gener, el PSOE era el més citat i Grok responia amb un nom en quatre de cada deu preguntes.\n\nLa UOC ha actualitzat l'estudi amb una tercera onada, feta el 12 de novembre, amb 1.464 respostes de sis assistents a 61 preguntes en castellà, català, basc i gallec. El 85,4% de les respostes declinen triar cap formació. Entre les que donen una recomanació directa i sense condicions, el PP passa al davant amb un 19,9%, seguit del PSOE (16,3%) i de Sumar i Front Ampli (15,7%); a l'onada d'octubre, el PSOE encapçalava amb un 23,6% i el PP en tenia un 15,7%. Si es ponderen els resultats amb les dades del CIS, el PP arriba al 32,8%. Grok continua sent el que més s'hi mulla (44,7% de recomanacions directes), seguit de ChatGPT (25,4%), mentre que Gemini (1,6%) i Claude (1,2%) gairebé no ho fan mai. Les recomanacions de ChatGPT a favor del PSOE han caigut del 44,6% al 20,9%.\n\nEl canvi en poques setmanes mostra fins a quin punt les respostes d'aquests sistemes es mouen: depenen de les actualitzacions dels models, de les fonts que consulten a internet i de l'actualitat del moment, i no d'una posició estable. Els autors ja havien detectat al gener una inclinació progressista, que les onades següents han anat esmorteint. Per a les autoritats electorals i per a les empreses, que han promès neutralitat, és un recordatori que aquestes eines també formen part de la campanya.\n\nL'estudi mesura les respostes dels assistents a unes preguntes concretes, no el que acaba votant la gent ni si aquestes respostes influeixen en el vot. Els percentatges de recomanació es calculen sobre una part petita de les respostes (només el 14,6% en donen cap), de manera que pocs casos poden moure molt les xifres. I els resultats valen per al dia en què es van recollir: els models canvien sovint, i la mateixa pregunta pot tenir una resposta diferent l'endemà.",
+    "source": "Universitat Oberta de Catalunya",
+    "url": "https://www.uoc.edu/ca/news/2026/ia-eleccions-orientacio-vot-grok-chatgpt-estudi-uoc",
+    "image": "./assets/uoc-tercera-onada-assistents-ia-recomanen-pp-29n-20261124.jpg",
+    "slug": "uoc-tercera-onada-assistents-ia-recomanen-pp-29n"
+  },
+  {
     "place": "Comunitat Valenciana",
     "category": "IA I SOCIETAT",
     "date": "24.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.elperiodic.com/calpe/ayuntamiento-calp-implanta-propia-inteligencia-artificial-para-proteger-datos-modernizar-gestion-municipal_1103735",
     "image": "./assets/calp-ia-propia-servidors-municipals-dades-20261120.jpg",
     "slug": "calp-ia-propia-servidors-municipals-dades"
-  },
-  {
-    "place": "Alacant",
-    "category": "IA I SOCIETAT",
-    "date": "20.11.2026",
-    "title": "La directora de l'Oficina Europea d'IA avisa a Alacant que els polítics també han de complir el reglament europeu i etiquetar els vídeos falsos",
-    "summary": "Lucilla Sioli ha obert el V Fòrum Europeu d'Intel·ligència Artificial, a la seu de l'EUIPO a Alacant, i ha dit que és important que la llei europea «s'apliqui plenament a Espanya» a pocs dies de les eleccions del 29 de novembre.",
-    "detail": "La campanya de les eleccions generals espanyoles del 29 de novembre ha portat a primera línia els vídeos falsos fets amb IA, els anomenats *deepfakes*, que posen en boca de polítics coses que no han dit. El reglament europeu d'IA obliga, des d'aquest any, a avisar quan una imatge o un vídeo s'ha generat o manipulat artificialment, i prohibeix els sistemes pensats per manipular o enganyar. Aquest dijous, la Junta Electoral Central ha rebutjat una denúncia del PSOE contra un vídeo fet amb IA difós pel PP.\n\nEl V Fòrum Europeu d'Intel·ligència Artificial va començar dijous a l'auditori de l'Oficina de Propietat Intel·lectual de la Unió Europea (EUIPO), a Alacant, organitzat per Encuentros NOW, la Fundació ELLIS Alicante, la Reial Acadèmia d'Enginyeria, l'Acadèmia Jove d'Espanya, l'EUIPO i el grup Prensa Ibérica. Hi va fer la conferència inaugural Lucilla Sioli, directora de l'Oficina Europea d'IA de la Comissió. Preguntada per la directora d'ELLIS Alicante, Nuria Oliver, sobre els vídeos falsos en campanya, Sioli va dir que la IA «pot plantejar riscos per a la democràcia dels quals fa uns anys no érem ni conscients» i que els polítics que es presenten a unes eleccions actuen com a professionals i «haurien d'estar subjectes a la llei d'IA». Va afegir que el control correspon als estats i que és important que el reglament «s'apliqui plenament a Espanya» i que hi hagi organismes capaços de vigilar-ho.\n\nSioli també va explicar que la Comissió supervisarà directament els grans models de llenguatge, perquè són sistemes «cada vegada més potents» que plantegen «un risc sistèmic», i va esmentar incidents en què agents d'IA s'han escapat del control humà i han intentat enganyar les persones. Va defensar que la transparència, que tothom sàpiga quan parla amb una màquina o mira un vídeo fals, és clau perquè la gent confiï en la tecnologia. El director executiu de l'EUIPO, João Negrão, va inaugurar el fòrum reclamant protegir l'originalitat humana i la propietat intel·lectual davant la IA.\n\nLes paraules de Sioli són una interpretació de la responsable europea, no una resolució: qui ha de decidir si un vídeo electoral incompleix el reglament són les autoritats de cada estat, i a Espanya el projecte de llei que havia de concretar les sancions i els organismes de control va decaure, segons diversos juristes, amb la dissolució de les Corts a l'octubre. La crònica és d'Información, diari del grup Prensa Ibérica, que és un dels organitzadors del fòrum.",
-    "source": "Información",
-    "url": "https://www.informacion.es/economia/2026/11/19/lucilla-sioli-oficina-europea-ia-136631353.html",
-    "image": "./assets/alacant-forum-europeu-ia-sioli-politics-reglament-deepfakes-20261120.jpg",
-    "slug": "alacant-forum-europeu-ia-sioli-politics-reglament-deepfakes"
   }
 ];
