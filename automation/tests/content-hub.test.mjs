@@ -2008,9 +2008,9 @@ test('club de lectura: llibre_del_mes es posa sol al dia segons el calendari (03
   assert.equal(sincronitza(nou, segon.mes), null, 'ha de ser idempotent');
 });
 
-test('amb --max-feed 5, un lot amb 6 de feed + 1 de radar només en publica 5 al feed (24.11.2026)', async () => {
+test('amb --max-feed 5, la sisena de feed va a la reserva i surt primer al lot següent (24.11.2026)', async () => {
   const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
-  const input = join(root, 'batch.json');
+  const state = join(root, 'state');
   const radarOnly = {
     ...story(1),
     slug: 'empresa-gandia-ia-radar',
@@ -2020,17 +2020,59 @@ test('amb --max-feed 5, un lot amb 6 de feed + 1 de radar només en publica 5 al
     excerpt: 'Cas d’ús real d’una pime local.',
     seccio: 'radar'
   };
-  const feedItems = [2, 3, 5, 6, 7, 9].map(number => story(number));
-  await writeFile(input, JSON.stringify([...feedItems, radarOnly]), 'utf8');
-  const result = run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-11-24', '--max-feed', '5'], root);
+  const first = join(root, 'lot-1.json');
+  await writeFile(first, JSON.stringify([...[2, 3, 5, 6, 7, 9].map(number => story(number)), radarOnly]), 'utf8');
+  const result = run(['ingest-news', '--input', first, '--public-dir', root, '--state-dir', state, '--date', '2026-11-24', '--max-feed', '5'], root);
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /noticia-de-prova-9\) no es publica/);
-
-  const feed = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.match(result.stdout, /noticia-de-prova-9\) passa a la reserva/);
+  let feed = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
   assert.equal(feed.length, 5);
-  assert.ok(!feed.some(item => item.slug === 'noticia-de-prova-9'), 'la sisena de feed queda fora');
+  assert.ok(!feed.some(item => item.slug === 'noticia-de-prova-9'), 'la sisena encara no surt');
   const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
   assert.ok(radar.some(item => item.title === 'Una empresa de Gandia desplega IA a producció'), 'la de radar entra igualment al radar');
+  const reserva = JSON.parse(await readFile(join(state, 'reserva-feed.json'), 'utf8'));
+  assert.deepEqual(reserva.items.map(item => item.slug), ['noticia-de-prova-9']);
+
+  // Lot següent amb 5 de noves: la reservada surt primer i la cinquena nova passa a la reserva.
+  const second = join(root, 'lot-2.json');
+  await writeFile(second, JSON.stringify([10, 11, 13, 14, 15].map(number => story(number))), 'utf8');
+  const result2 = run(['ingest-news', '--input', second, '--public-dir', root, '--state-dir', state, '--date', '2026-11-24', '--max-feed', '5'], root);
+  assert.equal(result2.status, 0, result2.stderr);
+  feed = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.equal(feed.length, 10);
+  assert.equal(feed[0].slug, 'noticia-de-prova-9', 'la reservada encapçala el lot següent');
+  assert.ok(!feed.some(item => item.slug === 'noticia-de-prova-15'));
+  const reserva2 = JSON.parse(await readFile(join(state, 'reserva-feed.json'), 'utf8'));
+  assert.deepEqual(reserva2.items.map(item => item.slug), ['noticia-de-prova-15']);
+
+  // Lot següent de 4 (l'agent ja ha descomptat la reservada): no en sobra cap.
+  const third = join(root, 'lot-3.json');
+  await writeFile(third, JSON.stringify([17, 18, 19, 21].map(number => story(number))), 'utf8');
+  assert.equal(run(['ingest-news', '--input', third, '--public-dir', root, '--state-dir', state, '--date', '2026-11-24', '--max-feed', '5'], root).status, 0);
+  feed = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.equal(feed.length, 15);
+  assert.ok(feed.some(item => item.slug === 'noticia-de-prova-15'));
+  assert.deepEqual(JSON.parse(await readFile(join(state, 'reserva-feed.json'), 'utf8')).items, []);
+});
+
+test('la reserva passa a l’endemà, però no més enllà, i no duplica una notícia que el lot torna a portar', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const state = join(root, 'state');
+  await mkdir(state, { recursive: true });
+  await writeFile(join(state, 'reserva-feed.json'), JSON.stringify({ editionDate: '2026-11-24', items: [story(30), story(31)] }), 'utf8');
+  const lot = join(root, 'lot.json');
+  await writeFile(lot, JSON.stringify([story(31), story(32), story(33), story(34)]), 'utf8');
+  assert.equal(run(['ingest-news', '--input', lot, '--public-dir', root, '--state-dir', state, '--date', '2026-11-25', '--max-feed', '5'], root).status, 0);
+  const feed = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.deepEqual(feed.map(item => item.slug).sort(), ['noticia-de-prova-30', 'noticia-de-prova-31', 'noticia-de-prova-32', 'noticia-de-prova-33', 'noticia-de-prova-34']);
+
+  await writeFile(join(state, 'reserva-feed.json'), JSON.stringify({ editionDate: '2026-11-20', items: [story(40)] }), 'utf8');
+  const lot2 = join(root, 'lot-2.json');
+  await writeFile(lot2, JSON.stringify([story(41)]), 'utf8');
+  const result = run(['ingest-news', '--input', lot2, '--public-dir', root, '--state-dir', state, '--date', '2026-11-25', '--max-feed', '5'], root);
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stdout, /massa antiga/);
+  assert.ok(!parseAssignment(await readFile(join(root, 'news.js'), 'utf8')).some(item => item.slug === 'noticia-de-prova-40'));
 });
 
 test('sense --max-feed no es talla res', async () => {

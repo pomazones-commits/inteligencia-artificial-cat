@@ -800,22 +800,51 @@ async function ingestNews(options) {
     .filter(story => story.seccio === 'radar' && radarSlugs.has(story.slug))
     .map(({ seccio, ...story }) => ({ ...story, editionDate: date }));
   let feedIncoming = incoming.filter(story => story.seccio !== 'radar');
+  for (const story of feedIncoming) delete story.seccio;
   // 24.11.2026: el lot de les 06.05 en va portar 6 de feed (+1 de radar) i
-  // la portada en va publicar 6. Amb --max-feed (el workflow hi passa 5) el
-  // feed d'un lot queda tallat a les N primeres, en l'ordre del lot; les de
-  // sobre no es publiquen i queden anotades al registre. El radar ja s'ha
-  // derivat abans, així que una peça catalana tallada encara hi pot entrar.
+  // la portada en va publicar 6. Amb --max-feed (el workflow hi passa 5) cada
+  // lot publica com a màxim N notícies de feed. Les que sobren NO es perden:
+  // van a .content-state/reserva-feed.json i el lot següent les publica primer,
+  // dins de les seves N places (decisió d'en Rafael: «que es publiqui a l'hora
+  // de l'edició següent»). La reserva val per al lot següent, encara que sigui
+  // l'endemà (el de les 18.05 passa al de les 06.05), però no més enllà d'un dia.
+  // El radar ja s'ha derivat abans, així que una peça catalana reservada hi
+  // entra igualment ara.
+  const reservaPath = join(stateDir, 'reserva-feed.json');
+  let reservaAbans = [];
+  let overflow = [];
   if (options['max-feed'] !== undefined) {
     const maxFeed = Number(options['max-feed']);
     if (!Number.isInteger(maxFeed) || maxFeed < 1 || maxFeed > 20) throw new Error('--max-feed ha de ser entre 1 i 20.');
-    if (feedIncoming.length > maxFeed) {
-      for (const story of feedIncoming.slice(maxFeed)) {
-        process.stdout.write(`AVÍS: el lot porta ${feedIncoming.length} notícies de feed i el màxim és ${maxFeed}; «${story.title}» (${story.slug}) no es publica.\n`);
+    const reservaState = await readJson(reservaPath, { editionDate: date, items: [] });
+    const diesReserva = reservaState?.editionDate
+      ? (Date.parse(`${date}T00:00:00Z`) - Date.parse(`${reservaState.editionDate}T00:00:00Z`)) / 86400000
+      : NaN;
+    if (Array.isArray(reservaState?.items) && reservaState.items.length) {
+      if (diesReserva === 0 || diesReserva === 1) {
+        reservaAbans = validateNews(reservaState.items).filter(story => !esRetirada(story, retirades));
+      } else {
+        for (const story of reservaState.items) {
+          process.stdout.write(`AVÍS: «${story.title}» (${story.slug}) era a la reserva des del ${reservaState.editionDate}; massa antiga, no es publica.\n`);
+        }
       }
-      feedIncoming = feedIncoming.slice(0, maxFeed);
     }
+    // Les reservades que ja són a la portada d'avui o que el lot torna a portar
+    // (mateix slug o mateixa URL) no ocupen cap plaça més.
+    const jaHiSon = new Set([...previous, ...feedIncoming].flatMap(story => [story.slug, story.sourceUrl.toLocaleLowerCase('ca')]));
+    const reservaVigent = reservaAbans.filter(story => !jaHiSon.has(story.slug) && !jaHiSon.has(story.sourceUrl.toLocaleLowerCase('ca')));
+    const candidates = [...reservaVigent, ...feedIncoming];
+    for (const story of reservaVigent) {
+      process.stdout.write(`AVÍS: «${story.title}» (${story.slug}) surt ara de la reserva del lot anterior.\n`);
+    }
+    if (candidates.length > maxFeed) {
+      overflow = candidates.slice(maxFeed);
+      for (const story of overflow) {
+        process.stdout.write(`AVÍS: el lot porta més de ${maxFeed} notícies de feed; «${story.title}» (${story.slug}) passa a la reserva i sortirà al lot següent.\n`);
+      }
+    }
+    feedIncoming = candidates.slice(0, maxFeed);
   }
-  for (const story of feedIncoming) delete story.seccio;
   // Cap notícia sense imatge (decisió d'en Rafael del 23.10.2026). Les que
   // arriben sense `image` i sense fitxer a public/assets no es publiquen: es
   // retenen a .content-state/sense-imatge.json i es tornen a provar a cada lot
@@ -867,6 +896,21 @@ async function ingestNews(options) {
   }
   if (held.length || heldBefore.length) {
     await atomicWrite(heldPath, `${JSON.stringify({ editionDate: date, items: held }, null, 2)}\n`);
+  }
+  if (options['max-feed'] !== undefined && (overflow.length || await exists(reservaPath))) {
+    // Si la imatge no anava al camp `image`, l'enllacem ara: l'endemà la xarxa
+    // de seguretat buscaria el fitxer amb la data nova i no el trobaria.
+    for (const story of overflow) {
+      if (story.image) continue;
+      for (const ext of ['jpg', 'webp', 'png']) {
+        const candidate = join(publicDir, 'assets', `${story.slug}-${compactDate}.${ext}`);
+        if (await exists(candidate)) {
+          story.image = `./assets/${story.slug}-${compactDate}.${ext}`;
+          break;
+        }
+      }
+    }
+    await atomicWrite(reservaPath, `${JSON.stringify({ editionDate: date, items: overflow }, null, 2)}\n`);
   }
 
   const now = new Date().toISOString();
