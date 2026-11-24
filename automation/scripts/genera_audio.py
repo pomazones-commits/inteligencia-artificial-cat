@@ -542,12 +542,32 @@ def sintetitza_gemini_wav(text: str, desti: Path, veu: str = GEMINI_VEU,
             w.writeframes(f)
 
 
+# Pauses entre els intents de la Joana (24.11.2026). Des del 22.11.2026 Microsoft
+# falla a estones: «No audio was received» (talla la connexió en ~2 s) o la
+# connexió es penja. Amb 10 s entre intents moltes peces acabaven a la Kore; amb
+# 30 s i 60 s el servei té temps de refer-se. Perquè la passada no s'acosti al
+# límit de 45 min del workflow, el temps perdut amb intents fallits de la Joana
+# (inclosos penjaments i pauses) té un sostre: passat EDGE_SOSTRE_S, la resta de
+# la passada va directament a la Kore.
+EDGE_PAUSES = (30, 60)
+EDGE_SOSTRE_S = 20 * 60
+_edge_perdut = 0.0
+
+
 def _sintetitza_edge(fitxer_text: Path, mp3: Path, slug: str) -> bool:
     """Veu principal (la Joana, edge-tts). True si ha deixat un MP3 vàlid a `mp3`."""
-    global _EDGE_KO
-    for intent in range(3):
+    global _EDGE_KO, _edge_perdut
+    for intent in range(len(EDGE_PAUSES) + 1):
+        if _edge_perdut >= EDGE_SOSTRE_S:
+            print(f"AVÍS: la Joana ja ha fet perdre {int(_edge_perdut // 60)} min en aquesta passada; "
+                  "la resta es farà amb la Kore.")
+            _EDGE_KO = True
+            return False
         if intent:
-            time.sleep(10)  # pausa entre reintents: el throttling d'edge-tts es recupera sol
+            pausa = EDGE_PAUSES[intent - 1]
+            time.sleep(pausa)  # el servei de Microsoft es recupera sol
+            _edge_perdut += pausa
+        inici = time.monotonic()
         try:
             # timeout per intent: sense això, una síntesi penjada bloqueja la run
             # sencera fins al límit del workflow (va passar el 24.07.2026).
@@ -560,12 +580,14 @@ def _sintetitza_edge(fitxer_text: Path, mp3: Path, slug: str) -> bool:
             _EDGE_KO = True
             return False
         except subprocess.TimeoutExpired:
-            print(f"AVÍS: edge-tts penjat amb {slug} (intent {intent + 1}/3); es reintenta.")
+            _edge_perdut += time.monotonic() - inici
+            print(f"AVÍS: edge-tts penjat amb {slug} (intent {intent + 1}/{len(EDGE_PAUSES) + 1}); es reintenta.")
             continue
         if resultat.returncode == 0 and mp3.is_file() and mp3.stat().st_size > MIDA_MINIMA:
             return True
+        _edge_perdut += time.monotonic() - inici
         darrera = (resultat.stderr or "").strip().splitlines()[-1:] or ["sense missatge"]
-        print(f"AVÍS: edge-tts ha fallat amb {slug} (intent {intent + 1}/3): {darrera[0][:160]}")
+        print(f"AVÍS: edge-tts ha fallat amb {slug} (intent {intent + 1}/{len(EDGE_PAUSES) + 1}): {darrera[0][:160]}")
         # 403 = Microsoft rebutja la connexió (com del 12 al 23.10.2026). Reintentar
         # no serveix: la resta de la passada va directament a la Kore.
         if "403" in (resultat.stderr or ""):
