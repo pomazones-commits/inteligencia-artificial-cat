@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-24T05:13:17.888Z",
+  "generat": "2026-11-24T13:14:57.836Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 33,
+      "audios": 35,
       "sobre_ia": 2
     },
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 15,
+      "audios": 17,
       "sobre_ia": 0
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 8,
+      "audios": 9,
       "sobre_ia": 0
     },
     {
@@ -177,5 +177,23 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "3cat-1298638",
+      "emissora": "Catalunya Ràdio",
+      "programa": "El matí de Catalunya Ràdio",
+      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
+      "data": "2026-11-24",
+      "durada": "1 h 0 min",
+      "titol_original": "El matí, de 10 a 11 h (Magazín) - 24/11/2026",
+      "descripcio_original": "Tanquem \"L'àgora\" parlant de l'impacte evangelista a les eleccions amb Alejandro Pérez, politòleg i filòsof. Amb Pere Estupinyà repassem les propostes dels partits en ciència, IA o transició energètica.",
+      "descripcio_curta": false,
+      "ia_al_titol": false,
+      "url": "https://www.3cat.cat/3cat/el-mati-de-10-a-11-h-magazin-24112026/audio/1298638/",
+      "reproductor": {
+        "tipus": "3cat",
+        "id": "1298638"
+      }
+    }
+  ]
 }
