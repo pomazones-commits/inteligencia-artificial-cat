@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-24T13:14:57.836Z",
+  "generat": "2026-11-24T17:12:19.721Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -126,10 +126,10 @@
       "font": "apunt",
       "emissora": "À Punt Ràdio",
       "programa": "",
-      "resultats": 4,
+      "resultats": 5,
       "estat": "ok",
-      "audios": 1,
-      "sobre_ia": 0
+      "audios": 2,
+      "sobre_ia": 1
     },
     {
       "font": "wordpress",
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 17,
+      "audios": 16,
       "sobre_ia": 0
     },
     {
@@ -179,20 +179,19 @@
   ],
   "candidats": [
     {
-      "id": "3cat-1298638",
-      "emissora": "Catalunya Ràdio",
-      "programa": "El matí de Catalunya Ràdio",
-      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
+      "id": "apunt-1911279",
+      "emissora": "À Punt Ràdio",
+      "programa": "Cadena de valor",
+      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
       "data": "2026-11-24",
-      "durada": "1 h 0 min",
-      "titol_original": "El matí, de 10 a 11 h (Magazín) - 24/11/2026",
-      "descripcio_original": "Tanquem \"L'àgora\" parlant de l'impacte evangelista a les eleccions amb Alejandro Pérez, politòleg i filòsof. Amb Pere Estupinyà repassem les propostes dels partits en ciència, IA o transició energètica.",
+      "durada": "",
+      "titol_original": "Inspiration Day 2026: estratègia i màrqueting en l’era de la intel·ligència artificial",
+      "descripcio_original": "Amanda Simón, gerent del Club de Màrqueting del Mediterrani, presenta una nova edició d’Inspiration Day, una trobada que reunirà grans marques i empreses emergents valencianes per analitzar com prendre decisions, guanyar visibilitat i competir en un entorn condicionat pels algoritmes i l’excés d’informació.",
       "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/el-mati-de-10-a-11-h-magazin-24112026/audio/1298638/",
+      "ia_al_titol": true,
+      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/24-11-2026-inspiration-day-2026-estrategia-marqueting-l-intel-ligencia-artificial_135_1911279.html",
       "reproductor": {
-        "tipus": "3cat",
-        "id": "1298638"
+        "tipus": "enllac"
       }
     }
   ]
