@@ -1,8 +1,107 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-23T17:15:07.952Z",
+ "actualitzat": "2026-11-24T03:04:06.658Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "fd793592fc09",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Marcin Kazmierczak: «La inteligencia artificial nos obligará a recuperar la oralidad en la universidad»",
+   "url": "https://www.diariodemallorca.es/sociedad/2026/11/24/marcin-kazmierczak-inteligencia-artificial-obligara-bc-136776187.html",
+   "publicat": "2026-11-24T00:59:35.000Z"
+  },
+  {
+   "id": "faed1098b97c",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Marcin Kazmierczak: «La intel·ligència artificial ens obligarà a recuperar l'oralitat a la universitat»",
+   "url": "https://www.regio7.cat/societat/2026/11/24/marcin-kazmierczak-intelligencia-artificial-ens-136776177.html",
+   "publicat": "2026-11-24T00:59:33.000Z"
+  },
+  {
+   "id": "1a65c90b38e2",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nuria Lloret: «La IA es una oportunidad si sabemos para qué la queremos y quién responde de sus decisiones»",
+   "url": "https://www.lasprovincias.es/economia/nuria-lloret-ia-oportunidad-sabemos-queremos-responde-20261123003810-nt.html",
+   "publicat": "2026-11-23T23:38:23.000Z"
+  },
+  {
+   "id": "ca751f92a01d",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Els EUA inclouen Megaspeed a la llista negra de Comerç després que Nvidia hagi readmès Huang",
+   "url": "https://www.ara.cat/economia/eua-inclouen-megaspeed-llista-negra-comerc-despres-nvidia-hagi-readmes-huang_1_5920886.html",
+   "publicat": "2026-11-23T22:16:59.000Z"
+  },
+  {
+   "id": "1a17c7235855",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Jensen Huang y 'los intocables' de la IA: Trump y el miedo a la burbuja indultan al emperador de Nvidia",
+   "url": "https://www.eldiario.es/tecnologia/jensen-huang-intocables-ia-trump-miedo-burbuja-indultan-emperador-nvidia_1_13686563.html",
+   "publicat": "2026-11-23T21:55:22.000Z"
+  },
+  {
+   "id": "f8fa6106cffa",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Jensen Huang regresa a la sede Nvidia entre ovaciones tras su restitución al cargo",
+   "url": "https://www.diariodemallorca.es/videos/internacional/2026/11/23/jensen-huang-regresa-sede-nvidia-ovaciones-restitucion-136773970.html",
+   "publicat": "2026-11-23T21:29:02.000Z"
+  },
+  {
+   "id": "e8f912682fb9",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Jorge Calvo recibe el reconocimiento de Torrevieja tras ganar el Premio Nacional de Investigación por su trabajo sobre la IA aplicada a la música",
+   "url": "https://www.informacion.es/vega-baja/2026/11/23/jorge-calvo-recibe-reconocimiento-torrevieja-136770791.html",
+   "publicat": "2026-11-23T19:36:30.000Z"
+  },
+  {
+   "id": "8bfbdd295008",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tres alicantinos se formarán en ciberseguridad e inteligencia artificial con las becas de Fundación Telefónica",
+   "url": "https://www.informacion.es/alicante/2026/11/23/tres-alicantinos-formaran-ciberseguridad-inteligencia-136769875.html",
+   "publicat": "2026-11-23T19:02:27.000Z"
+  },
+  {
+   "id": "4fdc2225cb7c",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'Ibex-35 es dispara un 1,6% i frega els 19.200 punts després del rebot de Nvidia",
+   "url": "https://www.elnacional.cat/oneconomia/ca/mercats/ibex-35-es-dispara-16-frega-19200-punts-despres-rebot-nvidia_1730105_102.html",
+   "publicat": "2026-11-23T17:58:32.000Z"
+  },
   {
    "id": "da3423c8c9a4",
    "mitja": "À Punt",
@@ -56,7 +155,7 @@
    "ambit": "catala",
    "titol": "Jensen Huang torna a ser el CEO de NVIDIA després de dimitir fa uns dies",
    "url": "https://www.elnacional.cat/ca/tecnologia/jensen-huang-torna-ser-ceo-nvidia-despres-dimitir-fa-dies_1729949_102.html",
-   "publicat": "2026-11-23T15:20:12.000Z"
+   "publicat": "2026-11-23T15:20:00.000Z"
   },
   {
    "id": "32420cdf2b8e",
@@ -98,7 +197,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "El Nasdaq se dispara un 7% tras el regreso de Jensen Huang como primer ejecutivo de Nvidia",
+   "titol": "Nvidia se dispara un 31,4% tras el regreso de Jensen Huang y lleva al Nasdaq a ganar un 6,8%",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-23/la-bolsa-y-el-ibex-35.html",
    "publicat": "2026-11-23T14:35:49.000Z"
   },
@@ -2675,105 +2774,6 @@
    "titol": "Revolut, Trade Republic i Bankinter acosten la sortida a Borsa d'Anthropic als petits inversors",
    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/revolut-trade-republic-bankinter-sortida-borsa-anthropic-petits-inversors_1727615_102.html",
    "publicat": "2026-11-18T15:24:34.000Z"
-  },
-  {
-   "id": "fac9f7c47551",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "NR-Economía | La Universidad Alfonso X el Sabio anticipa el futuro del trabajo que están perfilando la tecnología y la IA junto a líderes de la industria",
-   "url": "https://valenciaplaza.com/nr-economia/la-universidad-alfonso-x-el-sabio-anticipa-el-futuro-del-trabajo-que-estan-perfilando-la-tecnologia-y-la-ia-junto-a-lideres-de-la-industria",
-   "publicat": "2026-11-18T15:23:37.000Z"
-  },
-  {
-   "id": "e4efb904fbdd",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Aprobado el planeamiento urbanístico para la gigafactoria de IA de Móra la Nova",
-   "url": "https://www.diaridetarragona.com/economia/276035/aprobado-planeamiento-urbanistico-gigafactoria-ia-mora-nova.html",
-   "publicat": "2026-11-18T14:41:46.000Z"
-  },
-  {
-   "id": "001b28536c95",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los alumnos de FP del Lluís Simarro de Xàtiva trabajarán en retos reales de inteligencia artificial para empresas",
-   "url": "https://www.levante-emv.com/costera/2026/11/18/alumnos-fp-lluis-simarro-xativa-136581820.html",
-   "publicat": "2026-11-18T14:32:32.000Z"
-  },
-  {
-   "id": "0d7d4f293233",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El ex-CEO de Nvidia Jensen Huang comparecerá ante el Senado",
-   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/18/2752637/ceo-nvidia-jensen-huang-comparecera-ante-senado.html",
-   "publicat": "2026-11-18T14:22:27.000Z"
-  },
-  {
-   "id": "b9b30d1346f4",
-   "mitja": "El 9 Nou",
-   "font": "el9nou",
-   "icona": "/assets/premsa/el-9-nou.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Quan la IA aixeca la persiana",
-   "url": "https://el9nou.cat/osona-ripolles/opinio/quan-la-ia-aixeca-la-persiana",
-   "publicat": "2026-11-18T14:17:00.000Z"
-  },
-  {
-   "id": "f8a5f3984af5",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Condenado a más de siete años por tomar 1.700 fotos de niños desnudos durante 12 años y poseer porno infantil hecho con IA",
-   "url": "https://www.lavanguardia.com/vida/20261118/11687314/condenado-mas-siete-anos-tomar-1-700-fotos-ninos-desnudos-12-anos-poseer-porno-infantil-hecho-ia.html",
-   "publicat": "2026-11-18T14:02:42.000Z"
-  },
-  {
-   "id": "6063ed1e17f2",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Expertas alertan en Alicante del impacto de la IA en la difusión de imágenes sexuales falsas",
-   "url": "https://www.informacion.es/alicante/2026/11/18/expertas-alertan-alicante-impacto-inteligencia-artificial-imagenes-sexuales-falsas-136578318.html",
-   "publicat": "2026-11-18T13:47:13.000Z"
-  },
-  {
-   "id": "734db5dde64a",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Generalitat aprueba el planeamiento urbanístico para construir la gigafactoría de IA en Móra la Nova",
-   "url": "https://www.elperiodico.com/es/tarragona/20261118/generalitat-aprueba-planeamiento-urbanistico-construir-gigafactoria-ia-mora-nova-136589161",
-   "publicat": "2026-11-18T13:40:00.000Z"
-  },
-  {
-   "id": "e0fd8499f592",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El BCE advierte de que el auge de la IA tiene “paralelismos históricos” con las ‘subprime’",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-18/el-bce-advierte-de-que-el-auge-de-la-ia-tiene-paralelismos-historicos-con-las-subprime.html",
-   "publicat": "2026-11-18T13:30:23.000Z"
   }
  ]
 }
