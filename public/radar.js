@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Comunitat Valenciana",
+    "category": "IA I SOCIETAT",
+    "date": "24.11.2026",
+    "title": "El Consell de la Generalitat Valenciana encarrega a una direcció general d'Economia que coordini el govern de les dades i la IA a l'administració",
+    "summary": "Un decret publicat al DOGV dona la nova competència a la Direcció General de Simplificació Administrativa, que podrà crear unitats especialitzades per planificar l'estratègia d'IA de la Generalitat.",
+    "detail": "Les administracions públiques fan servir cada vegada més eines d'intel·ligència artificial, i una de les preguntes que han de resoldre és qui decideix com s'utilitzen les dades i amb quines regles. La Generalitat Valenciana ha volgut posar-hi un responsable dins de l'organigrama del Consell, aprofitant una modificació del decret que fixa l'estructura bàsica de les conselleries.\n\nEl decret, publicat al Diari Oficial de la Generalitat Valenciana i en vigor des d'aquest dilluns, atribueix a la Conselleria d'Economia una competència nova sobre el govern de les dades, la intel·ligència artificial i la informació. N'assumeix la responsabilitat la Direcció General de Simplificació Administrativa, que depèn de la Secretaria Autonòmica d'Economia i que s'encarregarà de planificar, impulsar i coordinar l'estratègia corporativa en aquesta matèria i els models de govern que se'n derivin. La norma permet crear unitats administratives especialitzades per exercir-la.\n\nEl canvi dona a la IA un lloc propi dins de l'estructura del govern valencià i la vincula a la simplificació de tràmits, un dels camps on més es fa servir a les administracions. Segons el decret, la nova competència s'ha d'exercir coordinada amb el govern de les dades, i el Consell justifica la modificació per la necessitat d'adaptar l'estructura a les noves necessitats de l'administració. De passada, el decret treu de les funcions d'aquesta secretaria autonòmica la referència a la qualitat dels serveis, per evitar duplicitats amb la Inspecció General de Serveis.\n\nL'abast és limitat i el mateix text ho remarca: la competència es planteja només des del punt de vista organitzatiu. No dona a la direcció general atribucions de desenvolupament tecnològic ni toca les dels òrgans que s'ocupen de les tecnologies de la informació. La notícia, d'EFE, no detalla el número del decret ni quines unitats es crearan ni amb quins recursos, i de moment no s'ha fet públic qui en serà el responsable concret.",
+    "source": "Valencia Plaza / EFE",
+    "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/el-consell-incorpora-a-su-estructura-una-nueva-competencia-sobre-gobierno-del-dato-y-la-ia",
+    "image": "./assets/consell-valencia-competencia-govern-dada-ia-20261124.jpg",
+    "slug": "consell-valencia-competencia-govern-dada-ia"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "24.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.informacion.es/economia/2026/11/19/lucilla-sioli-oficina-europea-ia-136631353.html",
     "image": "./assets/alacant-forum-europeu-ia-sioli-politics-reglament-deepfakes-20261120.jpg",
     "slug": "alacant-forum-europeu-ia-sioli-politics-reglament-deepfakes"
-  },
-  {
-    "place": "Terrassa",
-    "category": "IA I SOCIETAT",
-    "date": "20.11.2026",
-    "title": "La terrassenca Flexxible llança un agent d'IA que resol sol les incidències informàtiques més habituals, en set minuts de mitjana",
-    "summary": "FlexxSolve s'ocupa de problemes com el correu, les impressores o el disc ple, i passa a un tècnic els casos que no pot resoldre. L'empresa de Terrassa cobra per incidència resolta i no per aparell.",
-    "detail": "El suport informàtic de primer nivell, el que atén les peticions més repetides dels treballadors d'una empresa, és un dels primers camps on les companyies proven agents d'intel·ligència artificial capaços d'actuar sense intervenció humana. Flexxible, una empresa tecnològica de Terrassa, ja tenia una plataforma, FlexxClient, que automatitzava part d'aquesta feina amb regles i fluxos predefinits.\n\nSegons el Diari de Terrassa, l'empresa ha presentat FlexxSolve, una eina basada en IA que resol de manera autònoma incidències habituals com problemes amb el correu electrònic o les impressores, o la manca d'espai al disc. Rep les peticions per xat o a través de les plataformes de gestió de serveis informàtics, n'identifica la causa, comprova les polítiques de l'empresa i, segons el cas, actua o passa la incidència a un tècnic amb el diagnòstic fet. Flexxible calcula que pot resoldre sola fins al 50% de les incidències de programari, configuració i suport, i fins al 60% en entorns financers, i els primers clients parlen d'un temps mitjà de resolució de set minuts. «FlexxSolve pot resoldre incidències habituals de forma autònoma», va dir el conseller delegat, Sebastian Prat.\n\nL'interès del cas és el model de negoci i el control que es deixa a l'empresa client. Cada companyia decideix quines accions pot fer la IA pel seu compte, quines necessiten una validació prèvia i quin límit de despesa té, i totes les intervencions queden registrades. Flexxible cobra per resultat, és a dir, per incidència resolta, en lloc d'una quota fixa per aparell, i ofereix una prova amb cent intervencions gratuïtes en deu categories. L'eina ja la fan servir clients i socis tecnològics a Europa i l'Amèrica del Nord, i pot funcionar fora de l'horari habitual de suport.\n\nLes xifres de rendiment les dona la mateixa empresa i no s'han contrastat de manera independent, i la informació no diu quants clients la fan servir ni amb quin volum d'incidències. Tampoc no s'explica què passa quan l'agent s'equivoca en una acció que ha fet sol, una qüestió clau quan una IA té permís per tocar els ordinadors d'una empresa.",
-    "source": "Diari de Terrassa",
-    "url": "https://www.diarideterrassa.com/economia/agents-dia-que-resolen-incidencies-informatiques-en-set-minuts.html",
-    "image": "./assets/flexxible-terrassa-flexxsolve-agent-ia-incidencies-20261120.jpg",
-    "slug": "flexxible-terrassa-flexxsolve-agent-ia-incidencies"
   }
 ];
