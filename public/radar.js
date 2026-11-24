@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "24.11.2026",
+    "title": "Capitole Lab, una unitat de recerca d'IA per a la indústria, s'instal·la a la DFactory del Consorci de la Zona Franca de Barcelona",
+    "summary": "Treballa amb agents autònoms, bessons digitals i robòtica, i ja participa en projectes europeus per a la siderúrgia.",
+    "detail": "La DFactory Barcelona és l'espai d'innovació industrial que el Consorci de la Zona Franca de Barcelona (CZFB) ha obert per reunir empreses de tecnologies com la impressió 3D, la robòtica o la intel·ligència artificial al costat del polígon de la Zona Franca.\n\nDilluns s'hi va incorporar Capitole Lab, la unitat de recerca i desenvolupament de l'empresa d'enginyeria Capitole, especialitzada en enginyeria industrial i de programari, IA i disseny de productes digitals. La unitat desenvolupa, amb els clients, solucions per a la indústria basades en agents d'IA autònoms, bessons digitals, plataformes de dades en temps real i IA aplicada a la robòtica, amb aplicacions a la indústria, la salut, l'energia i la defensa. Ho combina amb l'enginyeria de Capitole i del grup Smart4Engineering (disseny electrònic, elèctric i mecànic, automatització i simulació). Ja participa en projectes europeus de manteniment predictiu i de gestió de la cadena de subministrament per a la siderúrgia.\n\nL'arribada reforça la DFactory com a pol d'empreses que apliquen la IA a la indústria a Barcelona, i l'empresa preveu col·laborar amb altres empreses de l'espai i presentar-se a convocatòries de projectes estatals i europeus.\n\nLa informació publicada no diu quantes persones treballaran a la unitat ni quina inversió suposa, i els projectes que s'hi esmenten són de moment capacitats i plans, no resultats.",
+    "source": "La Vanguardia",
+    "url": "https://www.lavanguardia.com/elllobregat/sociedad/20261123/11691028/capitole-lab-incorpora-dfactory-barcelona-desarrollar-ia-aplicada-industria.html",
+    "image": "./assets/capitole-lab-dfactory-barcelona-ia-industria-20261124.jpg",
+    "slug": "capitole-lab-dfactory-barcelona-ia-industria"
+  },
+  {
     "place": "Andorra",
     "category": "IA I SOCIETAT",
     "date": "23.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.diarideterrassa.com/economia/agents-dia-que-resolen-incidencies-informatiques-en-set-minuts.html",
     "image": "./assets/flexxible-terrassa-flexxsolve-agent-ia-incidencies-20261120.jpg",
     "slug": "flexxible-terrassa-flexxsolve-agent-ia-incidencies"
-  },
-  {
-    "place": "Alacant",
-    "category": "IA I SOCIETAT",
-    "date": "20.11.2026",
-    "title": "Quatre associacions empresarials d'Alacant s'alien per portar la IA a les empreses de la província",
-    "summary": "Aefa, Terciario Avanzado, Aepa i Uepal faran cursos, sessions i campanyes perquè les empreses alacantines sàpiguen quines eines d'IA els convenen, amb un ús ètic i les persones al comandament.",
-    "detail": "Moltes empreses petites i familiars volen fer servir la intel·ligència artificial però no saben per on començar ni quines eines els serveixen. A la província d'Alacant, quatre organitzacions empresarials han decidit sumar esforços per ajudar-les-hi.\n\nSegons Alicante Plaza, els presidents de l'Associació de l'Empresa Familiar de la Província d'Alacant (Aefa), Maite Antón; de Terciario Avanzado, Mariano Torres; de l'Associació d'Empresàries, Professionals i Directives (Aepa), Marcela Fernández, i de la Unió Empresarial de la Província d'Alacant (Uepal), César Quintanilla, han signat un conveni per fer iniciatives conjuntes de digitalització, innovació i formació tecnològica. Preveuen cursos, sessions informatives i campanyes adreçades a empresaris, directius i treballadors, amb l'objectiu que les empreses incorporin la IA als seus processos i identifiquin quines aplicacions els convenen, i també col·laborar amb les administracions en projectes publicoprivats i atreure inversions i ajuts.\n\nEl conveni insisteix en un ús ètic i responsable de la IA en què les persones conservin les decisions. «No totes tenen els mateixos recursos ni necessiten les mateixes eines», va dir Fernández, que va afegir que la tecnologia ha d'estar al servei de les persones i no al revés. Torres va defensar que la formació sigui pràctica i fàcil d'aplicar al dia a dia de les empreses.\n\nL'acord no inclou, almenys segons la informació publicada, cap pressupost, calendari ni nombre d'empreses participants, de manera que encara és una declaració d'intencions. Caldrà veure quantes empreses arriba a formar i si es tradueix en projectes concrets.",
-    "source": "Alicante Plaza",
-    "url": "https://alicanteplaza.es/alicanteplaza/empresas/aefa-terciario-avanzado-aepa-y-uepal-se-alian-para-impulsar-el-uso-de-la-ia-en-las-empresas-de-alicante",
-    "image": "./assets/alacant-patronals-aefa-uepal-aepa-terciario-avanzado-ia-20261120.jpg",
-    "slug": "alacant-patronals-aefa-uepal-aepa-terciario-avanzado-ia"
   }
 ];
