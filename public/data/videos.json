@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-24T02:35:48.415Z",
+ "actualitzat": "2026-11-24T13:14:56.095Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "aAbtjH0-oQQ",
+   "titol": "Why Transparency Matters for AI Security",
+   "canal": "NVIDIA",
+   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-24T11:00:17.000Z",
+   "descripcio": "Red Hat CTO Chris Wright joins the NVIDIA AI Podcast at GTC Berlin to explain why open source is the foundation for secure AI agents. From Linux in the 1990s to agent security today, he shares what has changed, what hasn’t, and why “governance is what made us go faster.” Guest: Chris Wright, CTO, Re",
+   "miniatura": "/assets/videos/aAbtjH0-oQQ.jpg"
+  },
   {
    "id": "MpsO8Ds8uyo",
    "titol": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
@@ -173,7 +185,7 @@
   },
   {
    "id": "FORdPIWOH5k",
-   "titol": "Gemini and the path to AGI with Koray Kavukcuoglu",
+   "titol": "Is Gemini our path to AGI?",
    "canal": "Google DeepMind",
    "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
    "grup": "empreses",
@@ -1072,18 +1084,6 @@
    "publicat": "2026-11-03T16:46:37.000Z",
    "descripcio": "Using more capable AI starts with confidence that your data stays under your control. For Glean’s customers, privacy is a priority. Glean co-founder and CTO Vishwanath T R shares how Glean and OpenAI have worked together to help meet those needs, including through the Private Safety Processing previ",
    "miniatura": "/assets/videos/2h16j4K_NbA.jpg"
-  },
-  {
-   "id": "yLMjEpMio2w",
-   "titol": "From AI Infrastructure to the 6G Future",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "maquinari",
-   "idioma": "en",
-   "publicat": "2026-11-03T13:00:13.000Z",
-   "descripcio": "In this Telecom Special Address from NVIDIA GTC Berlin, Ronnie Vasishta, SVP of Telecom at NVIDIA, explores how AI-RAN, accelerated computing, and AI inference at the edge are shaping the path to 6G. Key Highlights: - Understand how AI factories, distributed inference, AI-RAN, and 6G fit into one st",
-   "miniatura": "/assets/videos/yLMjEpMio2w.jpg"
   },
   {
    "id": "rqZpgKq2Ocw",
