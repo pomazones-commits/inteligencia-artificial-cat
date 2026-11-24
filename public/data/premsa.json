@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-24T03:04:06.658Z",
+ "actualitzat": "2026-11-24T05:14:12.207Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "73a9b862b79b",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia gana 952.000 millones de dólares en valor en Bolsa, nuevo récord histórico en un día",
+   "url": "https://elpais.com/economia/2026-11-24/nvidia-gana-952000-millones-de-dolares-en-valor-en-bolsa-nuevo-record-historico-en-un-dia.html",
+   "publicat": "2026-11-24T05:08:02.000Z"
+  },
+  {
+   "id": "7d2fbea1e281",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El don Huang de Nvidia, la chupa de cuero y el armario de los magnates tecnológicos",
+   "url": "https://www.elperiodico.com/es/gente/20261124/don-huang-nvidia-chupa-cuero-136610793",
+   "publicat": "2026-11-24T05:00:41.000Z"
+  },
+  {
+   "id": "6569a0c8e6c1",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De la automatización de pedidos a la anticipación de fallos industriales: así se aplica la inteligencia artificial para resolver problemas reales en las empresas",
+   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261124/11686264/automatizacion-pedidos-anticipacion-fallos-industriales-asi-aplica-inteligencia-artificial-resolver-problemas-reales-empresas.html",
+   "publicat": "2026-11-24T05:00:00.000Z"
+  },
+  {
+   "id": "af3c5d6879c8",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las claves: la IA y los centros de datos están en revisión desde septiembre",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-24/las-claves-la-ia-y-los-centros-de-datos-estan-en-revision-desde-septiembre.html",
+   "publicat": "2026-11-24T04:40:00.000Z"
+  },
+  {
+   "id": "4570a5a293eb",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El mercado levanta parcialmente el castigo a Nvidia: “La reincorporación de Huang elimina el principal lastre”",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-24/el-mercado-levanta-parcialmente-el-castigo-a-nvidia-la-reincorporacion-de-huang-elimina-el-principal-lastre.html",
+   "publicat": "2026-11-24T04:30:01.000Z"
+  },
+  {
+   "id": "c915459e571c",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las 250.000 páginas de una IA con la presunta solución a un enigma irresoluble conmocionan al mundo de las matemáticas",
+   "url": "https://elpais.com/ciencia/2026-11-24/las-250000-paginas-de-una-ia-con-la-presunta-solucion-a-un-enigma-irresoluble-conmocionan-al-mundo-de-las-matematicas.html",
+   "publicat": "2026-11-24T04:30:01.000Z"
+  },
+  {
+   "id": "e34ec167348b",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Anthropic va arribar a la borsa amb la cuina llogada",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/anthropic-va-arribar-borsa-cuina-llogada_1729790_102.html",
+   "publicat": "2026-11-24T04:30:00.000Z"
+  },
   {
    "id": "fd793592fc09",
    "mitja": "Diario de Mallorca",
@@ -45,7 +122,9 @@
    "ambit": "catala",
    "titol": "Els EUA inclouen Megaspeed a la llista negra de Comerç després que Nvidia hagi readmès Huang",
    "url": "https://www.ara.cat/economia/eua-inclouen-megaspeed-llista-negra-comerc-despres-nvidia-hagi-readmes-huang_1_5920886.html",
-   "publicat": "2026-11-23T22:16:59.000Z"
+   "publicat": "2026-11-23T22:16:59.000Z",
+   "noticia": "megaspeed-llista-negra-comerc-xips-nvidia",
+   "noticiaTitol": "ACTUALITZACIÓ: Els Estats Units posaran a la llista negra Megaspeed, l'empresa de Singapur sospitosa de fer arribar xips de Nvidia a la Xina"
   },
   {
    "id": "1a17c7235855",
@@ -2697,83 +2776,6 @@
    "publicat": "2026-11-18T16:37:00.000Z",
    "noticia": "diada-tic-catalunya-2026-responsabilitat-digital-ia",
    "noticiaTitol": "La Diada de les TIC a Catalunya demana una IA amb propòsit, i el Govern hi defensa que Europa controli els seus actius digitals"
-  },
-  {
-   "id": "2634401a8f23",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Aturats i empreses sense candidats, IA i salaris: els reptes de l'ocupació a Espanya i com afrontar-los",
-   "url": "https://www.diaridegirona.cat/economia/2026/11/18/reptes-del-nou-govern-eleccions-generals-29-de-novembre-ocupacio-136566047.html",
-   "publicat": "2026-11-18T16:26:37.000Z"
-  },
-  {
-   "id": "c9fbf8b3d365",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "NVIDIA duplica els seus ingressos i la seva junta directiva afirma que no vol que Jensen Huang torni",
-   "url": "https://www.elnacional.cat/ca/tecnologia/nvidia-duplica-seus-ingressos-seva-junta-directiva-afirma-no-vol-jensen-huang-torni_1727636_102.html",
-   "publicat": "2026-11-18T16:00:00.000Z"
-  },
-  {
-   "id": "c6d31bc5c249",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Mercados | La valenciana Substrate AI compra un solar en Talavera de la Reina (Toledo) para un centro de datos",
-   "url": "https://valenciaplaza.com/valenciaplaza/bolsas/la-valenciana-substrate-ai-compra-un-solar-en-talavera-de-la-reina-toledo-para-un-centro-de-datos",
-   "publicat": "2026-11-18T15:55:05.000Z"
-  },
-  {
-   "id": "a3beca02911b",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Dalmau reivindica la gigafactoría de Móra la Nova para situar a Catalunya a la vanguardia europea de la IA",
-   "url": "https://www.diaridetarragona.com/economia/276044/dalmau-reivindica-gigafactoria-mora-nova-situar-catalunya-vanguardia-europea-ia.html",
-   "publicat": "2026-11-18T15:45:11.000Z"
-  },
-  {
-   "id": "bffab16e4a08",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L'ex CEO de Nvidia Jensen Huang compareixerà davant el Senat dels EUA",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/ex-ceo-nvidia-jensen-huang-compareixera-davant-senat-eua_1727663_102.html",
-   "publicat": "2026-11-18T15:44:43.000Z"
-  },
-  {
-   "id": "ed3f48482b6a",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Microsoft aposta pels agents d'IA per detectar amenaces",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/microsoft-aposta-agents-ia-detectar-amenaces_1727618_102.html",
-   "publicat": "2026-11-18T15:32:13.000Z"
-  },
-  {
-   "id": "e062330b590d",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Revolut, Trade Republic i Bankinter acosten la sortida a Borsa d'Anthropic als petits inversors",
-   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/revolut-trade-republic-bankinter-sortida-borsa-anthropic-petits-inversors_1727615_102.html",
-   "publicat": "2026-11-18T15:24:34.000Z"
   }
  ]
 }
