@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-24T13:15:02.219Z",
+ "actualitzat": "2026-11-24T15:20:31.554Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "92962a183c43",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic vuelve a caer con fuerza en bolsa y ya vale menos que en su debut",
+   "url": "https://www.lavanguardia.com/economia/20261124/11692345/anthropic-acciones-bolsa-valor-caida-debut-opv.html",
+   "publicat": "2026-11-24T15:17:40.000Z"
+  },
+  {
+   "id": "aa2adb9b3de6",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Trump ganó hasta 15 millones de dólares en Bolsa tras la vuelta de Huang a Nvidia",
+   "url": "https://www.elperiodico.com/es/economia/20261124/trump-gano-15-millones-dolares-136801063",
+   "publicat": "2026-11-24T15:09:39.000Z"
+  },
+  {
+   "id": "c1728518c096",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Así maniobraron Trump y Vance para restituir a Huang en Nvidia: presión a los consejeros y garantías de que no ha sido imputado",
+   "url": "https://www.informacion.es/internacional/2026/11/24/restitucion-huang-nvidia-trump-acciones-eeuu-china-corrupcion-bolsa-136800673.html",
+   "publicat": "2026-11-24T15:01:38.000Z"
+  },
+  {
+   "id": "178c4b610ef4",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic se desploma un 9% y pierde el precio de la salida a Bolsa cuatro días después de debutar",
+   "url": "https://cincodias.elpais.com/economia/2026-11-24/anthropic-pierde-el-precio-de-salida-a-bolsa-antes-de-su-cuarto-dia-de-cotizacion-en-wall-street.html",
+   "publicat": "2026-11-24T14:30:56.000Z"
+  },
+  {
+   "id": "493ea5ae456d",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Un ciberataque con IA a Quirónsalud roba correos de pacientes de la sanidad pública",
+   "url": "https://www.eldiario.es/tecnologia/ciberataque-ia-quironsalud-roba-correos-pacientes-sanidad-publica_1_13689349.html",
+   "publicat": "2026-11-24T13:43:55.000Z"
+  },
+  {
+   "id": "00c08dcb0287",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Trump gana unos 15 millones de dólares con sus acciones de Nvidia tras el regreso de Huang",
+   "url": "https://www.lavanguardia.com/economia/20261124/11692253/trump-gana-15-millones-dolares-acciones-nvidia-regreso-huang.html",
+   "publicat": "2026-11-24T13:17:06.000Z"
+  },
   {
    "id": "660a4cc7eedd",
    "mitja": "El Nacional",
@@ -13,6 +79,17 @@
    "titol": "El mode d'IA del cercador de Google ara pot accedir a Drive i Wallet per a respostes més personalitzades",
    "url": "https://www.elnacional.cat/ca/tecnologia/mode-ia-cercador-google-ara-pot-accedir-drive-wallet-respostes-mes-personalitzades_1730516_102.html",
    "publicat": "2026-11-24T13:00:00.000Z"
+  },
+  {
+   "id": "0c0bb8df4aac",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Microsoft Teams detectará las llamadas fraudulendas con una nueva herramienta de inteligencia artificial",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/24/2756677/microsoft-teams-detectara-llamadas-fraudulendas-una-nueva-herramienta-inteligencia-artificial.html",
+   "publicat": "2026-11-24T12:55:00.000Z"
   },
   {
    "id": "a6d62996d037",
@@ -37,17 +114,6 @@
    "publicat": "2026-11-24T12:32:45.000Z"
   },
   {
-   "id": "bdd0724de9a4",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Google propone un sistema de permisos en Chrome para restringir las acciones de los agentes de IA en la web",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/24/2756659/google-propone-sistema-permisos-chrome-para-restringir-acciones-agentes-web.html",
-   "publicat": "2026-11-24T11:59:28.000Z"
-  },
-  {
    "id": "321f7ed0b103",
    "mitja": "Levante-EMV",
    "font": "levante-totes",
@@ -57,6 +123,17 @@
    "titol": "El gigante de la FP privada Davante MasterD despedirá a 231 trabajadores y planea sustituir docentes por IA",
    "url": "https://www.levante-emv.com/comunitat-valenciana/2026/11/24/gigante-fp-privada-davante-masterd-136790737.html",
    "publicat": "2026-11-24T11:59:24.000Z"
+  },
+  {
+   "id": "bdd0724de9a4",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Google propone un sistema de permisos en Chrome para restringir las acciones de los agentes de IA en la web",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/24/2756659/google-propone-sistema-permisos-chrome-para-restringir-acciones-agentes-web.html",
+   "publicat": "2026-11-24T11:59:00.000Z"
   },
   {
    "id": "7b0f8f15221a",
@@ -2699,83 +2776,6 @@
    "titol": "Dario Amodei, el cerebro de Anthropic que quiere salvar al mundo de los riesgos de la IA",
    "url": "https://www.elperiodico.com/es/tecnologia/20261119/dario-amodei-anthropic-salida-bolsa-ia-riesgos-claude-136510101",
    "publicat": "2026-11-19T05:01:06.000Z"
-  },
-  {
-   "id": "a8ba59a09ce3",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Del acné al melanoma: una IA española recibe el aval europeo para ayudar al médico a diagnosticar más de 300 enfermedades de la piel",
-   "url": "https://www.elperiodico.com/es/sanidad/20261119/acne-melanoma-ia-espanola-recibe-aval-europeo-ayudar-medico-enfermedades-piel-136527741",
-   "publicat": "2026-11-19T05:00:53.000Z"
-  },
-  {
-   "id": "10217df621a2",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial cambia las reglas del posicionamiento web: “Google está perdiendo protagonismo a pasos agigantados”",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261119/11685767/inteligencia-artificial-cambia-reglas-posicionamiento-web-google-esta-perdiendo-protagonismo-pasos-agigantados.html",
-   "publicat": "2026-11-19T05:00:00.000Z"
-  },
-  {
-   "id": "1c382aa82a78",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "‘La darrera invenció’, d’Aleix Valls, un manual sobre la IA",
-   "url": "https://www.lavanguardia.com/vida/20261119/11687564/darrera-invencio-d-aleix-valls-manual-sobre-ia.html",
-   "publicat": "2026-11-19T05:00:00.000Z"
-  },
-  {
-   "id": "3e57a21a25f1",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El peligro de crecer con una IA que lo responde todo: ¿están los jóvenes dejando de aprender?",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/formacion/20261119/11686581/peligro-crecer-ia-responde-jovenes-dejando-aprender.html",
-   "publicat": "2026-11-19T05:00:00.000Z"
-  },
-  {
-   "id": "7ba54b1a27b6",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA puede mejorar la rentabilidad de los depósitos bancarios, según el BCE",
-   "url": "https://www.lavanguardia.com/economia/20261119/11687805/ia-mejorar-rentabilidad-depositos-bancarios-bce.html",
-   "publicat": "2026-11-19T05:00:00.000Z"
-  },
-  {
-   "id": "80ce882fcec8",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Cómo y dónde están viendo oportunidades en la IA los fundadores de unicornios",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-19/como-y-donde-estan-viendo-oportunidades-en-la-ia-los-fundadores-de-unicornios.html",
-   "publicat": "2026-11-19T04:40:00.000Z"
-  },
-  {
-   "id": "bb2bc19cae1d",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Las claves: Nvidia se atreve a pensar en un futuro sin su gran líder",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-19/las-claves-nvidia-se-atreve-a-pensar-en-un-futuro-sin-su-gran-lider.html",
-   "publicat": "2026-11-19T04:40:00.000Z"
   }
  ]
 }
