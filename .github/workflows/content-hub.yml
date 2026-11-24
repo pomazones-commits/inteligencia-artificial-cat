@@ -120,6 +120,7 @@ jobs:
           --public-dir public
           --state-dir .content-state
           --target 20
+          --max-feed 5
 
       # 03.11.2026 — CLUB DE LECTURA: posa «llibre_del_mes» segons
       # «calendari_llibre_del_mes» (canvia sol el dia 1 de cada mes). La pàgina

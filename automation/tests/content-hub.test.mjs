@@ -2007,3 +2007,36 @@ test('club de lectura: llibre_del_mes es posa sol al dia segons el calendari (03
   assert.deepEqual({ ...d, llibre_del_mes: null }, { ...club, llibre_del_mes: null }, 'no ha de tocar res més');
   assert.equal(sincronitza(nou, segon.mes), null, 'ha de ser idempotent');
 });
+
+test('amb --max-feed 5, un lot amb 6 de feed + 1 de radar només en publica 5 al feed (24.11.2026)', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  const radarOnly = {
+    ...story(1),
+    slug: 'empresa-gandia-ia-radar',
+    sourceUrl: 'https://example.com/gandia-radar',
+    category: 'EMPRESA',
+    title: 'Una empresa de Gandia desplega IA a producció',
+    excerpt: 'Cas d’ús real d’una pime local.',
+    seccio: 'radar'
+  };
+  const feedItems = [2, 3, 5, 6, 7, 9].map(number => story(number));
+  await writeFile(input, JSON.stringify([...feedItems, radarOnly]), 'utf8');
+  const result = run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-11-24', '--max-feed', '5'], root);
+  assert.equal(result.status, 0, result.stderr);
+  assert.match(result.stdout, /noticia-de-prova-9\) no es publica/);
+
+  const feed = parseAssignment(await readFile(join(root, 'news.js'), 'utf8'));
+  assert.equal(feed.length, 5);
+  assert.ok(!feed.some(item => item.slug === 'noticia-de-prova-9'), 'la sisena de feed queda fora');
+  const radar = parseAssignment(await readFile(join(root, 'radar.js'), 'utf8'));
+  assert.ok(radar.some(item => item.title === 'Una empresa de Gandia desplega IA a producció'), 'la de radar entra igualment al radar');
+});
+
+test('sense --max-feed no es talla res', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'ia-content-hub-'));
+  const input = join(root, 'batch.json');
+  await writeFile(input, JSON.stringify([2, 3, 5, 6, 7, 9].map(number => story(number))), 'utf8');
+  assert.equal(run(['ingest-news', '--input', input, '--public-dir', root, '--state-dir', join(root, 'state'), '--date', '2026-11-24'], root).status, 0);
+  assert.equal(parseAssignment(await readFile(join(root, 'news.js'), 'utf8')).length, 6);
+});

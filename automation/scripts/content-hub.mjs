@@ -799,7 +799,22 @@ async function ingestNews(options) {
   const radarOnlyStories = incoming
     .filter(story => story.seccio === 'radar' && radarSlugs.has(story.slug))
     .map(({ seccio, ...story }) => ({ ...story, editionDate: date }));
-  const feedIncoming = incoming.filter(story => story.seccio !== 'radar');
+  let feedIncoming = incoming.filter(story => story.seccio !== 'radar');
+  // 24.11.2026: el lot de les 06.05 en va portar 6 de feed (+1 de radar) i
+  // la portada en va publicar 6. Amb --max-feed (el workflow hi passa 5) el
+  // feed d'un lot queda tallat a les N primeres, en l'ordre del lot; les de
+  // sobre no es publiquen i queden anotades al registre. El radar ja s'ha
+  // derivat abans, així que una peça catalana tallada encara hi pot entrar.
+  if (options['max-feed'] !== undefined) {
+    const maxFeed = Number(options['max-feed']);
+    if (!Number.isInteger(maxFeed) || maxFeed < 1 || maxFeed > 20) throw new Error('--max-feed ha de ser entre 1 i 20.');
+    if (feedIncoming.length > maxFeed) {
+      for (const story of feedIncoming.slice(maxFeed)) {
+        process.stdout.write(`AVÍS: el lot porta ${feedIncoming.length} notícies de feed i el màxim és ${maxFeed}; «${story.title}» (${story.slug}) no es publica.\n`);
+      }
+      feedIncoming = feedIncoming.slice(0, maxFeed);
+    }
+  }
   for (const story of feedIncoming) delete story.seccio;
   // Cap notícia sense imatge (decisió d'en Rafael del 23.10.2026). Les que
   // arriben sense `image` i sense fitxer a public/assets no es publiquen: es
