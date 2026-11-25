@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-25T13:15:42.953Z",
+ "actualitzat": "2026-11-25T15:02:05.165Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "ab94ec2b050b",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia y Anthropic vuelven a hundirse hasta un 8% y arrastran al Nasdaq",
+   "url": "https://www.elperiodico.com/es/economia/20261125/nvidia-anthropic-vuelven-hundirse-8-136843668",
+   "publicat": "2026-11-25T15:01:44.000Z"
+  },
+  {
+   "id": "155ccb2f0fee",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El New York Times demana als seus fotògrafs que no actualitzin Photoshop i la culpa és de la IA",
+   "url": "https://www.elnacional.cat/ca/tecnologia/new-york-times-demana-seus-fotografs-no-actualitzin-photoshop-culpa-es-ia_1731248_102.html",
+   "publicat": "2026-11-25T15:00:00.000Z"
+  },
+  {
+   "id": "c9b84cca0e86",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La directora del CNI advierte del peligro de la IA: “Una herramienta muy poderosa para quienes quieren atacarnos”",
+   "url": "https://www.elperiodico.com/es/politica/20261125/directora-cni-advierte-peligro-ia-inteligencia-artificial-ataques-136841170",
+   "publicat": "2026-11-25T14:11:36.000Z"
+  },
+  {
+   "id": "852f4b632afe",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La empresa de FP privada con un centro en Alicante que planea un ERE y sustituir a tutores por IA: \"Los alumnos demandan mayor rapidez, disponibilidad y capacidad de respuesta\"",
+   "url": "https://www.informacion.es/comunidad-valenciana/2026/11/25/empresa-fp-privada-centro-alicante-136830133.html",
+   "publicat": "2026-11-25T14:02:20.000Z"
+  },
+  {
+   "id": "c184c951289f",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "EA SPORTS FC 27 usa IA generativa para recuperar la voz de uno de sus comentaristas estrella",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/25/2757507/sports-usa-generativa-para-recuperar-voz-uno-comentaristas-estrella.html",
+   "publicat": "2026-11-25T13:57:00.000Z"
+  },
+  {
+   "id": "c54c53d817f2",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Ni els millors agents d'IA són fiables per a la vida quotidiana, fallen en més d'un terç de les tasques",
+   "url": "https://www.elnacional.cat/ca/tecnologia/ni-millors-agents-ia-son-fiables-vida-quotidiana-fallen-en-mes-terc-tasques_1731191_102.html",
+   "publicat": "2026-11-25T13:30:00.000Z"
+  },
   {
    "id": "a96278d17e02",
    "mitja": "Cinco Días",
@@ -10,7 +76,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Las dudas sobre la IA y la nueva amenaza arancelaria lastran los futuros de Wall Street",
+   "titol": "La tecnología se hunde de nuevo: el Nasdaq se deja un 4% con fuertes descensos de Nvidia y Anthropic",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-25/la-bolsa-y-el-ibex-35.html",
    "publicat": "2026-11-25T12:16:30.000Z"
   },
@@ -56,7 +122,7 @@
    "ambit": "catala",
    "titol": "Tidal eliminará \"completamente\" las canciones generadas por IA",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/25/2757261/tidal-eliminara-completamente-canciones-generadas-por-ia.html",
-   "publicat": "2026-11-25T10:31:43.000Z"
+   "publicat": "2026-11-25T10:31:00.000Z"
   },
   {
    "id": "e50d73281da1",
@@ -155,7 +221,7 @@
    "ambit": "catala",
    "titol": "Meta comienza a integrar su agente de IA Muse en los mensajes directos de Instagram",
    "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/25/2757155/meta-comienza-integrar-agente-muse-mensajes-directos-instagram.html",
-   "publicat": "2026-11-25T09:11:49.000Z"
+   "publicat": "2026-11-25T09:11:00.000Z"
   },
   {
    "id": "f7ca6455f763",
@@ -2716,72 +2782,6 @@
    "titol": "¿Quién pone los límites a la nueva IA agéntica capaz de actuar de forma autónoma?",
    "url": "https://www.informacion.es/economia/2026/11/19/pone-limites-nueva-ia-agentica-136636448.html",
    "publicat": "2026-11-19T19:19:39.000Z"
-  },
-  {
-   "id": "145099eacb2a",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial pone en jaque los derechos de autor y obliga a redefinir qué significa crear",
-   "url": "https://www.informacion.es/alicante/2026/11/19/inteligencia-artificial-pone-jaque-derechos-autor-propiedad-intelectual-forum-europeo-ia-alicante-136632967.html",
-   "publicat": "2026-11-19T18:52:09.000Z"
-  },
-  {
-   "id": "9256cc7da57e",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La innovación responsable es el elemento de equilibrio entre los avances tecnológicos y la aplicación de la inteligencia artificial",
-   "url": "https://www.informacion.es/economia/2026/11/19/innovacion-responsable-fija-elemento-equilibrio-uso-ia-aplicacion-136634392.html",
-   "publicat": "2026-11-19T18:46:45.000Z"
-  },
-  {
-   "id": "e114525627a7",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Securitize lanza acciones tokenizadas de Anthropic el día de su debut",
-   "url": "https://cincodias.elpais.com/criptoactivos/2026-11-19/securitize-lanza-acciones-tokenizadas-de-anthropic-el-dia-de-su-debut.html",
-   "publicat": "2026-11-19T18:42:08.000Z"
-  },
-  {
-   "id": "04e5bda0c3f9",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Ashton Kutcher, els 7 fundadors i milers d'empleats fan l'agost amb Anthropic",
-   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/ashton-kutcher-7-fundadors-milers-empleats-fan-cop-anthropic_1728332_102.html",
-   "publicat": "2026-11-19T18:38:00.000Z"
-  },
-  {
-   "id": "780293e89e83",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una IA aprende a reconocer palabras escuchando lo mismo que un bebé durante sus primeros 1.000 días",
-   "url": "https://www.levante-emv.com/tendencias21/2026/11/19/ia-aprende-reconocer-palabras-escuchando-136634112.html",
-   "publicat": "2026-11-19T18:22:12.000Z"
-  },
-  {
-   "id": "767438d46d77",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Junta Electoral avala el vídeo del PP generado por IA que suplantaba a Begoña Gómez y a José Luís Ábalos",
-   "url": "https://www.diariodemallorca.es/nacional/2026/11/19/junta-electoral-avala-video-pp-ia-begona-gome-136632139.html",
-   "publicat": "2026-11-19T17:47:10.000Z"
   }
  ]
 }
