@@ -1,8 +1,162 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-25T09:12:55.937Z",
+ "actualitzat": "2026-11-25T13:15:42.953Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "a96278d17e02",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las dudas sobre la IA y la nueva amenaza arancelaria lastran los futuros de Wall Street",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-25/la-bolsa-y-el-ibex-35.html",
+   "publicat": "2026-11-25T12:16:30.000Z"
+  },
+  {
+   "id": "81fa07aae7b7",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Confiaries en la IA perquè comprés per tu? La gran majoria d'usuaris no se sent còmode",
+   "url": "https://www.elnacional.cat/ca/tecnologia/confiauries-en-ia-perque-compres-tu-gran-majoria-usuaris-no-se-sent-comode_1731074_102.html",
+   "publicat": "2026-11-25T12:00:00.000Z"
+  },
+  {
+   "id": "3006db91dcc2",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La Cambra de Barcelona crea una eina d'IA per potenciar el comerç de proximitat",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/cambra-barcelona-crea-eina-ia-potenciar-comerc-proximitat_1731080_102.html",
+   "publicat": "2026-11-25T11:23:16.000Z"
+  },
+  {
+   "id": "62e92d476182",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La empresa de FP privada que planea un ERE y sustituir a tutores por IA: \"Los alumnos demandan mayor rapidez, disponibilidad y capacidad de respuesta\"",
+   "url": "https://www.levante-emv.com/comunitat-valenciana/2026/11/25/empresa-fp-privada-planea-ere-136830135.html",
+   "publicat": "2026-11-25T10:56:16.000Z"
+  },
+  {
+   "id": "bb280d5f6cc5",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tidal eliminará \"completamente\" las canciones generadas por IA",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/25/2757261/tidal-eliminara-completamente-canciones-generadas-por-ia.html",
+   "publicat": "2026-11-25T10:31:43.000Z"
+  },
+  {
+   "id": "e50d73281da1",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La plataforma Tidal veta la música hecha con IA ante el 'tsunami' de canciones generadas íntegramente por algoritmos",
+   "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261125/plataforma-tidal-veta-musica-hecha-136826054",
+   "publicat": "2026-11-25T10:21:04.000Z"
+  },
+  {
+   "id": "5cfb0a061de8",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La inteligencia artificial desata la alarma en las matemáticas: 700 demostraciones en un día dejan a la academia al borde del colapso",
+   "url": "https://www.levante-emv.com/tendencias21/2026/11/25/inteligencia-artificial-desata-alarma-matematicas-136828275.html",
+   "publicat": "2026-11-25T10:17:43.000Z"
+  },
+  {
+   "id": "856b551cdfde",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La demanda de servidores de IA aúpa a Dell a resultados récord",
+   "url": "https://www.lavanguardia.com/dinero/20261125/11692947/resultados-dell-tercer-trimestre-2026.html",
+   "publicat": "2026-11-25T10:11:40.000Z"
+  },
+  {
+   "id": "c54693e786b0",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La Cámara de Barcelona lanza una herramienta de IA conversacional para el comercio de proximidad",
+   "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/25/2757227/camara-barcelona-lanza-herramienta-conversacional-para-comercio-proximidad.html",
+   "publicat": "2026-11-25T10:05:53.000Z"
+  },
+  {
+   "id": "6f0c15904fbb",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Els bancs que financen SpaceX per comprar xips de NVIDIA temen que acabin a l'espai",
+   "url": "https://www.elnacional.cat/ca/tecnologia/bancs-financen-spacex-comprar-xips-nvidia-temen-acabin-espai_1730975_102.html",
+   "publicat": "2026-11-25T10:04:21.000Z"
+  },
+  {
+   "id": "15f2de4d5082",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El cardenal Czerny en el CEU: cómo preservar la dignidad humana en la era de la inteligencia artificial",
+   "url": "https://www.informacion.es/elche/2026/11/25/cardenal-czerny-ceu-preservar-dignidad-bc-136826360.html",
+   "publicat": "2026-11-25T09:58:59.000Z"
+  },
+  {
+   "id": "e24ed7ae01a0",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cuando el líder es imprescindible: el regreso de Jensen Huang a Nvidia y los límites de la ética empresarial",
+   "url": "https://www.diariodemallorca.es/economia/2026/11/25/lider-imprescindible-regreso-jensen-huang-nvidia-limites-etica-liderazgo-empresarial-136826768.html",
+   "publicat": "2026-11-25T09:51:01.000Z"
+  },
+  {
+   "id": "0893e1fa97d8",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Andorra Digital licita la incorporació de la intel·ligència artificial a la contractació pública",
+   "url": "https://www.diariandorra.ad/nacional/261125/andorra-digital-licita-incorporacio-intel-ligencia-artificial-contractacio-publica_209594.html",
+   "publicat": "2026-11-25T09:18:16.000Z"
+  },
+  {
+   "id": "991d26f2383f",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Meta comienza a integrar su agente de IA Muse en los mensajes directos de Instagram",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/25/2757155/meta-comienza-integrar-agente-muse-mensajes-directos-instagram.html",
+   "publicat": "2026-11-25T09:11:49.000Z"
+  },
   {
    "id": "f7ca6455f763",
    "mitja": "Levante-EMV",
@@ -35,6 +189,17 @@
    "titol": "Indra integra la IA en todos sus negocios y se centra en defensa y espacio para ingresar 12.000 millones en 2030",
    "url": "https://www.lavanguardia.com/dinero/20261125/11692833/indra-integra-ia-todos-negocios-centra-defensa-espacio-ingresar-12-000-millones-2030.html",
    "publicat": "2026-11-25T07:39:24.000Z"
+  },
+  {
+   "id": "5414da6270a5",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Desarrollan un «cerebro» de IA universal capaz de controlar un millón de robots diferentes",
+   "url": "https://www.lasprovincias.es/tecnologia/desarrollan-cerebro-universal-capaz-rlt_arx-20261125071132-nt.html",
+   "publicat": "2026-11-25T07:25:32.000Z"
   },
   {
    "id": "d27cfff4c95d",
@@ -2617,173 +2782,6 @@
    "titol": "La Junta Electoral avala el vídeo del PP generado por IA que suplantaba a Begoña Gómez y a José Luís Ábalos",
    "url": "https://www.diariodemallorca.es/nacional/2026/11/19/junta-electoral-avala-video-pp-ia-begona-gome-136632139.html",
    "publicat": "2026-11-19T17:47:10.000Z"
-  },
-  {
-   "id": "6e60d0242f19",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Lucilla Sioli (Oficina Europea de IA), sobre los deepfakes y otras prácticas en campaña: \"Los políticos también están sujetos al reglamento europeo de IA\"",
-   "url": "https://www.informacion.es/economia/2026/11/19/lucilla-sioli-oficina-europea-ia-136631353.html",
-   "publicat": "2026-11-19T17:34:48.000Z",
-   "noticia": "alacant-forum-europeu-ia-sioli-politics-reglament-deepfakes",
-   "noticiaTitol": "La directora de l'Oficina Europea d'IA avisa a Alacant que els polítics també han de complir el reglament europeu i etiquetar els vídeos falsos"
-  },
-  {
-   "id": "f07590f4c754",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La sortida a borsa d’Anthropic es converteix en la més gran de la història, amb una valoració inicial d’1,5 bilions de dòlars",
-   "url": "https://www.vilaweb.cat/noticies/anthropic-sortida-borsa-nasdaq-pujada-34-per-cent",
-   "publicat": "2026-11-19T17:34:33.000Z"
-  },
-  {
-   "id": "8abceb06ccc1",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic se dispara en una salida a bolsa récord tras las dudas en el sector",
-   "url": "https://www.lavanguardia.com/economia/20261119/11688284/acciones-anthropic-suben-111-50-dolares-34-mas-precio-entrar-bolsa.html",
-   "publicat": "2026-11-19T16:57:08.000Z"
-  },
-  {
-   "id": "5aa71e850124",
-   "mitja": "Ara",
-   "font": "ara",
-   "icona": "/assets/premsa/ara.svg",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic debuta amb èxit a la borsa, però no dissipa els dubtes dels mercats sobre la IA",
-   "url": "https://www.ara.cat/economia/tecnologia/anthropic-revifa-frenesi-ia-dispara-30-debut_1_5916066.html",
-   "publicat": "2026-11-19T16:53:52.000Z"
-  },
-  {
-   "id": "cc3a6a9bfeef",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic puja un 17% en la seva estrena a Wall Street",
-   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/anthropic-es-dispara-mes-30-en-seu-debut-nasdaq_1728290_102.html",
-   "publicat": "2026-11-19T16:52:00.000Z"
-  },
-  {
-   "id": "11fe820310e0",
-   "mitja": "À Punt",
-   "font": "apunt",
-   "icona": "/assets/premsa/a-punt.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic s’estrena en borsa amb una pujada del 34% i una valoració de fins a 2 bilions de dòlars",
-   "url": "https://www.apuntmedia.es/noticies/mon/anthropic-ix-borsa-83-dolars-accio-espera-col-locar-980-milions-titols_1_1910209.html",
-   "publicat": "2026-11-19T16:47:09.000Z"
-  },
-  {
-   "id": "434abf1abecf",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "V Forum Europeo de Inteligencia Artificial en Alicante, en imágenes",
-   "url": "https://www.informacion.es/fotos/alicante/2026/11/19/v-forum-europeo-inteligencia-artificial-136628356.html",
-   "publicat": "2026-11-19T16:33:47.000Z"
-  },
-  {
-   "id": "bea3a242861e",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Google presenta Gemini 4 Neon, la seva nova IA per programar i resoldre problemes científics",
-   "url": "https://www.elnacional.cat/ca/tecnologia/google-presenta-gemini-4-neon-seva-nova-ia-programar-resoldre-problemes-cientifics_1728230_102.html",
-   "publicat": "2026-11-19T16:30:00.000Z"
-  },
-  {
-   "id": "34a53b790703",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Ashton Kutcher, a un paso de convertirse en milmillonario tras la salida a bolsa de Anthropic",
-   "url": "https://www.lavanguardia.com/gente/20261119/11688380/ashton-kutcher-paso-milmillonario-salida-bolsa-anthropic.html",
-   "publicat": "2026-11-19T16:20:23.000Z"
-  },
-  {
-   "id": "58f4f0c617e5",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La cumbre de Trump, Xi y Putin en China, el debut en bolsa de Anthropic, y más imágenes del día",
-   "url": "https://www.lavanguardia.com/fotos/20261119/11688355/cumbre-trump-xi-putin-china-debut-bolsa-anthropic-mas-imagenes-dia.html",
-   "publicat": "2026-11-19T16:14:21.000Z"
-  },
-  {
-   "id": "efcd83dde93b",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial entra en los planes de los hospitales de Xàtiva y Ontinyent para mejorar la atención sanitaria",
-   "url": "https://www.levante-emv.com/costera/2026/11/19/inteligencia-artificial-entra-planes-hospitales-136627152.html",
-   "publicat": "2026-11-19T16:08:09.000Z"
-  },
-  {
-   "id": "9fd36f99f3d7",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El fenómeno de las granjas vietnamitas de páginas de Facebook con desinformación sobre las elecciones",
-   "url": "https://www.eldiario.es/tecnologia/fenomeno-granjas-vietnamitas-paginas-facebook-desinformacion-elecciones_1_13676964.html",
-   "publicat": "2026-11-19T15:24:16.000Z"
-  },
-  {
-   "id": "136e62bed453",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La Comisión Europea sufre un ciberataque con inteligencia artificial",
-   "url": "https://www.eldiario.es/tecnologia/comision-europea-sufre-ciberataque-inteligencia-artificial_1_13677689.html",
-   "publicat": "2026-11-19T15:23:02.000Z"
-  },
-  {
-   "id": "a04a2ac57fea",
-   "mitja": "Diario de Mallorca",
-   "font": "diariodemallorca-totes",
-   "icona": "/assets/premsa/diario-de-mallorca.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic debuta en bolsa con una subida del 17%, tras haber llegado a dispararse más de un 38%",
-   "url": "https://www.diariodemallorca.es/economia/2026/11/19/anthropic-debuta-subidas-20-protagoniza-136625322.html",
-   "publicat": "2026-11-19T15:21:53.000Z"
-  },
-  {
-   "id": "1ed0567205d8",
-   "mitja": "Diari de Terrassa",
-   "font": "diarideterrassa",
-   "icona": "/assets/premsa/diari-de-terrassa.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Quan Google ja no és l’únic aparador: la cursa empresarial per aparèixer a les recomanacions de la IA",
-   "url": "https://www.diarideterrassa.com/economia/quan-google-ja-no-es-lunic-aparador-la-cursa-empresarial-per-apareixer-a-les-recomanacions-de-la-ia.html",
-   "publicat": "2026-11-19T15:21:20.000Z"
   }
  ]
 }
