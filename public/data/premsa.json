@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-24T17:13:17.941Z",
+ "actualitzat": "2026-11-25T01:08:03.856Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "b0d8e64b5eed",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La ingerència de Trump en Nvidia alarma el Congrés",
+   "url": "https://www.regio7.cat/arreu-catalunya-espanya-mon/2026/11/25/ingerencia-trump-nvidia-alarma-congres-136817715.html",
+   "publicat": "2026-11-24T23:10:37.000Z"
+  },
+  {
+   "id": "305c1a300daa",
+   "mitja": "El Mundo",
+   "font": "elmundo-tec",
+   "icona": "/assets/premsa/el-mundo.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Tidal prohíbe la música hecha solo con IA y eliminará 29 millones de canciones",
+   "url": "https://www.elmundo.es/tecnologia/2026/11/24/6b060866fc6c83f85f8b4596.html",
+   "publicat": "2026-11-24T21:59:02.000Z"
+  },
+  {
+   "id": "7b112dd1aff4",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alicante se apoya en la IA para medir el aforo en el castillo de Santa Bárbara",
+   "url": "https://www.informacion.es/alicante/2026/11/24/alicante-apoya-ia-medir-aforo-castillo-santa-barbara-136811697.html",
+   "publicat": "2026-11-24T20:03:28.000Z"
+  },
+  {
+   "id": "2981ed9b12f5",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Trump guanya 15 milions de dòlars amb la restitució de Huang a Nvidia",
+   "url": "https://www.ara.cat/economia/trump-guanya-15-milions-dolars-restitucio-huang-nvidia_1_5921639.html",
+   "publicat": "2026-11-24T19:56:16.000Z"
+  },
+  {
+   "id": "63ee764c1dc6",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic ya cotiza por debajo del precio de su debut bursátil",
+   "url": "https://www.lavanguardia.com/economia/20261124/11692526/anthropic-cotiza-debajo-precio-debut-bursatil.html",
+   "publicat": "2026-11-24T19:00:12.000Z"
+  },
+  {
+   "id": "76eacd3b1bf5",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una interfaz cerebro-ordenador con IA permite comunicarse casi tres veces más rápido",
+   "url": "https://www.levante-emv.com/tendencias21/2026/11/24/interfaz-cerebro-ordenador-ia-permite-136808768.html",
+   "publicat": "2026-11-24T18:06:20.000Z"
+  },
+  {
+   "id": "b01c8fbd78e8",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "China teme una \"caza de brujas\" y que EEUU imponga nuevas restricciones a la exportación de chips tras el regreso de Huang a Nvidia",
+   "url": "https://www.informacion.es/internacional/2026/11/24/china-teme-caza-brujas-eeuu-imponga-nuevas-restricciones-exportacion-chips-regreso-huang-nvidia-136806590.html",
+   "publicat": "2026-11-24T17:14:09.000Z"
+  },
   {
    "id": "ccd11bbf41e1",
    "mitja": "Ara",
@@ -103,6 +180,17 @@
    "publicat": "2026-11-24T15:09:39.000Z"
   },
   {
+   "id": "bd080c01e4bf",
+   "mitja": "3CatInfo",
+   "font": "3catinfo",
+   "icona": "/assets/premsa/3catinfo.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Trump és 15 milions més ric amb el retorn de Huang a Nvidia: aire a la bombolla de la IA",
+   "url": "https://www.3cat.cat/3catinfo/trump-es-15-milions-mes-ric-amb-el-retorn-de-huang-a-nvidia-aire-a-la-bombolla-de-la-ia/noticia/3441650",
+   "publicat": "2026-11-24T15:01:50.000Z"
+  },
+  {
    "id": "c1728518c096",
    "mitja": "Información",
    "font": "informacion-totes",
@@ -120,7 +208,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "Anthropic se desploma más del 13% y pierde el precio de la salida a Bolsa cuatro días después de debutar",
+   "titol": "Anthropic pierde el precio de la salida a Bolsa cuatro días después de debutar",
    "url": "https://cincodias.elpais.com/economia/2026-11-24/anthropic-pierde-el-precio-de-salida-a-bolsa-antes-de-su-cuarto-dia-de-cotizacion-en-wall-street.html",
    "publicat": "2026-11-24T14:30:56.000Z"
   },
@@ -2690,94 +2778,6 @@
    "titol": "OPV de Anthropic: los analistas se preguntan si los inversores ya se han perdido lo mejor de la fiesta",
    "url": "https://www.lavanguardia.com/dinero/20261119/11688064/opv-anthropic-analistas-preguntan-inversores-han-perdido-mejor-fiesta.html",
    "publicat": "2026-11-19T10:55:32.000Z"
-  },
-  {
-   "id": "f004fa35b34a",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Una recompensa de 75.000 dólares por denunciar a quién copie con IA en el examen más importante del año",
-   "url": "https://www.lasprovincias.es/sociedad/corea-sur-recompensa-20261119105627-nt.html",
-   "publicat": "2026-11-19T09:58:42.000Z"
-  },
-  {
-   "id": "1dd0eb07edd4",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Google AI Ultra incorpora YouTube Premium Family sin coste adicional",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/19/2753133/google-ultra-incorpora-youtube-premium-family-coste-adicional.html",
-   "publicat": "2026-11-19T09:58:00.000Z"
-  },
-  {
-   "id": "ea434bc4bc70",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Aquest adorable peluix amb IA semblava el futur, però l'han retirat per les seves pertorbadores respostes",
-   "url": "https://www.elnacional.cat/ca/tecnologia/aquest-adorable-peluix-ia-semblava-futur-pero-retirat-seves-pertorbadores-respostes_1727981_102.html",
-   "publicat": "2026-11-19T09:57:00.000Z"
-  },
-  {
-   "id": "18e4c15e3fd0",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Anthropic fija el precio de su salida a Bolsa en la mayor OPI de la historia",
-   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/19/2753107/anthropic-fija-precio-salida-bolsa-mayor-opi-historia.html",
-   "publicat": "2026-11-19T09:30:00.000Z"
-  },
-  {
-   "id": "939bc31e7a69",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "L'Ibex-35 arrenca la jornada amb un 0,3% a l'alça amb la mirada posada en Anthropic",
-   "url": "https://www.elnacional.cat/oneconomia/ca/economia/ibex-35-arrenca-jornada-03-alca-mirada-anthropic_1727903_102.html",
-   "publicat": "2026-11-19T09:01:01.000Z"
-  },
-  {
-   "id": "d1d69096c7f7",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Las Bolsas europeas aceleran las caídas pese al debut de Anthropic",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-19/la-bolsa-y-el-ibex-35.html",
-   "publicat": "2026-11-19T08:33:54.000Z"
-  },
-  {
-   "id": "b202ff898eb7",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Ibex 35 se deja un 0,97% en el día del estreno de Anthropic",
-   "url": "https://www.informacion.es/economia/2026/11/19/ibex-35-busca-romper-racha-136603944.html",
-   "publicat": "2026-11-19T07:51:10.000Z"
-  },
-  {
-   "id": "e14a465894da",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El Clúster Vitivinícola Català activa un assistent d'intel·ligència artificial",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/cluster-vitivinicola-catala-activa-assistent-intelligencia-artificial_1727843_102.html",
-   "publicat": "2026-11-19T07:50:03.000Z"
   }
  ]
 }
