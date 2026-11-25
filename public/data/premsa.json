@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-25T05:15:56.213Z",
+ "actualitzat": "2026-11-25T09:12:55.937Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "f7ca6455f763",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Las personas apenas distinguen los mensajes políticos creados por IA de los escritos por humanos",
+   "url": "https://www.levante-emv.com/tendencias21/2026/11/25/personas-apenas-distinguen-mensajes-politicos-136823786.html",
+   "publicat": "2026-11-25T08:40:44.000Z"
+  },
+  {
+   "id": "0ad431b6d19e",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Indra lanza su gran plan: 20.000 millones de ingresos en 2035 y la IA como motor de crecimiento de todas las divisiones",
+   "url": "https://cincodias.elpais.com/companias/2026-11-25/indra-se-fija-unos-ingresos-de-12000-millones-para-2030-casi-el-doble-que-en-2025.html",
+   "publicat": "2026-11-25T08:21:24.000Z"
+  },
+  {
+   "id": "eb8543b4f700",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Indra integra la IA en todos sus negocios y se centra en defensa y espacio para ingresar 12.000 millones en 2030",
+   "url": "https://www.lavanguardia.com/dinero/20261125/11692833/indra-integra-ia-todos-negocios-centra-defensa-espacio-ingresar-12-000-millones-2030.html",
+   "publicat": "2026-11-25T07:39:24.000Z"
+  },
+  {
+   "id": "d27cfff4c95d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Apple quiere saber si confiamos en una IA para hablar de nuestra salud: busca 200.000 voluntarios para ponerla a prueba",
+   "url": "https://www.lavanguardia.com/neo/ia/20261125/11691272/apple-quiere-confiamos-ia-hablar-nuestra-salud-busca-200-000-voluntarios-ponerla-prueba.html",
+   "publicat": "2026-11-25T06:30:00.000Z"
+  },
   {
    "id": "7f3aa01c6d70",
    "mitja": "El Periódico",
@@ -21,9 +65,11 @@
    "icona": "/assets/premsa/ara.svg",
    "llengua": "ca",
    "ambit": "catala",
-   "titol": "Permut, la plataforma catalana d’IA que “va més enllà de l’atenció al client”, tanca una ronda de 3 milions d’euros",
+   "titol": "Permut, la plataforma catalana d’agents d’IA que “va més enllà de l’atenció al client”, tanca una ronda de 3 milions d’euros",
    "url": "https://www.ara.cat/economia/tecnologia/permut-ia-catalana-mes-enlla-l-atencio-euros-client-tanca-d-ronda-3-milions_1_5920635.html",
-   "publicat": "2026-11-25T05:02:05.000Z"
+   "publicat": "2026-11-25T05:02:05.000Z",
+   "noticia": "permut-agents-ia-ronda-tres-milions",
+   "noticiaTitol": "La barcelonina Permut, que fa agents d'IA per atendre els clients d'empreses com CaixaBank i Esade, capta 3 milions d'euros per sortir a l'estranger"
   },
   {
    "id": "1bfd74eec974",
@@ -133,7 +179,9 @@
    "ambit": "catala",
    "titol": "Tarragona tendrá un mapa con los pisos vacíos de cada barrio gracias a la inteligencia artificial",
    "url": "https://www.diaridetarragona.com/tarragona/276527/tarragona-tendra-mapa-pisos-vacios-barrio-gracias-inteligencia-artificial.html",
-   "publicat": "2026-11-25T04:00:00.000Z"
+   "publicat": "2026-11-25T04:00:00.000Z",
+   "noticia": "generalitat-cimne-ia-estimar-pisos-buits",
+   "noticiaTitol": "La Generalitat encarrega al CIMNE de la UPC una IA que estimi quants pisos buits hi ha a cada barri a partir del consum d'aigua i del cadastre"
   },
   {
    "id": "ebe569958eba",
@@ -156,6 +204,17 @@
    "titol": "Tidal prohíbe la música hecha solo con IA y eliminará 29 millones de canciones",
    "url": "https://www.elmundo.es/tecnologia/2026/11/24/6b060866fc6c83f85f8b4596.html",
    "publicat": "2026-11-24T21:59:02.000Z"
+  },
+  {
+   "id": "ae771b992bac",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Furia y consternación en el Congreso de EE UU por el regreso de Huang a Nvidia y el papel de Trump en él",
+   "url": "https://elpais.com/us/2026-11-24/furia-y-consternacion-en-el-congreso-de-ee-uu-por-el-regreso-de-huang-a-nvidia-y-el-papel-de-trump-en-el.html",
+   "publicat": "2026-11-24T20:42:13.000Z"
   },
   {
    "id": "7b112dd1aff4",
@@ -824,6 +883,17 @@
    "titol": "El retorn de Huang dispara Nvidia i el Nasdaq",
    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/retorn-huang-dispara-nvidia-nasdaq_1729961_102.html",
    "publicat": "2026-11-23T15:25:46.000Z"
+  },
+  {
+   "id": "5ca393485eb2",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "CapitoleLab impulsará la innovación en IA y soluciones digitales para la industria desde DFactory Barcelona",
+   "url": "https://www.elperiodico.com/es/consorci-zona-franca/20261123/capitolelab-impulsara-innovacion-ia-soluciones-digitales-industria-dfactory-barcelona-bc-136759140",
+   "publicat": "2026-11-23T15:23:12.000Z"
   },
   {
    "id": "b69595607510",
@@ -2714,72 +2784,6 @@
    "titol": "Quan Google ja no és l’únic aparador: la cursa empresarial per aparèixer a les recomanacions de la IA",
    "url": "https://www.diarideterrassa.com/economia/quan-google-ja-no-es-lunic-aparador-la-cursa-empresarial-per-apareixer-a-les-recomanacions-de-la-ia.html",
    "publicat": "2026-11-19T15:21:20.000Z"
-  },
-  {
-   "id": "c8ff190949e3",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic se dispara en su histórico estreno en Bolsa con una subida del 17% y un valor de casi 1,8 billones de dólares",
-   "url": "https://elpais.com/economia/2026-11-19/anthropic-se-estrena-con-fuertes-subidas-en-la-mayor-salida-a-bolsa-de-la-historia.html",
-   "publicat": "2026-11-19T15:12:36.000Z"
-  },
-  {
-   "id": "03ed04d4b742",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA podría acabar con la civilización humana: un estudio del MIT identifica ocho escenarios de riesgo",
-   "url": "https://www.levante-emv.com/tendencias21/2026/11/19/ia-acabar-civilizacion-humana-estudio-136623330.html",
-   "publicat": "2026-11-19T14:18:44.000Z"
-  },
-  {
-   "id": "f29b205efc07",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic modera la seva escalada fins al 21%, després d'haver arribat a disparar-se més d'un 38%",
-   "url": "https://www.elperiodico.cat/economia/20261119/anthropic-modera-la-seva-escalada-136625205",
-   "publicat": "2026-11-19T14:18:28.000Z"
-  },
-  {
-   "id": "28a360235a63",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Railway Innovation Hub analiza en Granada la inteligencia artificial aplicada a metros y tranvías",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/19/2753501/railway-innovation-hub-analiza-granada-inteligencia-artificial-aplicada-metros-tranvias.html",
-   "publicat": "2026-11-19T13:54:17.000Z"
-  },
-  {
-   "id": "0e3636ce25e5",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nieto advierte de que las \"imposiciones\" de Sánchez amenazan inversiones clave para que Andalucía lidere la IA",
-   "url": "https://www.ultimahora.es/noticias/comunidades/2026/11/19/2753505/nieto-advierte-las-imposiciones-sanchez-amenazan-inversiones-clave-para-andalucia-lidere-ia.html",
-   "publicat": "2026-11-19T13:32:55.000Z"
-  },
-  {
-   "id": "2580761181a0",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic fixa la seva sortida a borsa en 83 dòlars per acció i debuta avui al Nasdaq",
-   "url": "https://www.elnacional.cat/ca/tecnologia/anthropic-fixa-seva-sortida-borsa-en-83-dolars-accio-debuta-avui-nasdaq_1728167_102.html",
-   "publicat": "2026-11-19T13:30:00.000Z"
   }
  ]
 }
