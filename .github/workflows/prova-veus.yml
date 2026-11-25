@@ -12,7 +12,7 @@ on:
       motor:
         description: "Motor de veu"
         type: choice
-        options: [matxa, gemini, edge]
+        options: [matxa, gemini, edge, joana-trossos]
         default: matxa
       slug:
         description: "Slug de la notícia a llegir (buit = la primera de l'edició d'avui)"
@@ -61,10 +61,17 @@ jobs:
         run: pip install lameenc
 
       - name: Instal·la edge-tts (darrera versió)
-        if: github.event.inputs.motor == 'edge'
+        if: github.event.inputs.motor == 'edge' || github.event.inputs.motor == 'joana-trossos'
         run: pip install --upgrade edge-tts && pip show edge-tts | head -2
 
+      # 25.11.2026: prova la Joana a trossos amb totes les notícies de l'edició,
+      # sense pujar res (genera_audio.py, _sintetitza_edge).
+      - name: Prova la Joana a trossos (no puja res)
+        if: github.event.inputs.motor == 'joana-trossos'
+        run: python automation/scripts/prova_joana_trossos.py
+
       - name: Llegeix la notícia amb cada veu i puja els MP3
+        if: github.event.inputs.motor != 'joana-trossos'
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           SSH_HOST: ${{ secrets.SSH_HOST }}
