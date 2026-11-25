@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-24T17:12:26.953Z",
+  "updatedAt": "2026-11-25T05:15:09.852Z",
   "items": [
     {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Anthropic ja val menys que el preu de sortida a borsa, cinc dies després d'estrenar-s'hi amb el rècord d'aportació de capital",
-      "excerpt": "Les accions van caure dimarts al voltant d'un 12%, per sota dels 83 dòlars de l'oferta. Els analistes que n'han començat a seguir el valor continuen recomanant comprar."
-    },
-    {
-      "category": "CULTURA",
-      "read": "4 MIN",
-      "title": "Tidal esborrarà més de 29 milions de cançons fetes del tot amb IA i deixarà d'acceptar-ne de noves",
-      "excerpt": "El servei de música en línia diu que el 43% de les cançons que li han arribat els últims tres mesos les havia fet una IA. Les que només s'hi han ajudat es podran continuar publicant."
-    },
-    {
       "category": "CIBERSEGURETAT",
       "read": "4 MIN",
-      "title": "Un atac informàtic fet amb IA roba a Quirónsalud les adreces de correu de pacients, també de la sanitat pública de Madrid",
-      "excerpt": "El grup hospitalari diu que no s'hi han vist afectades dades clíniques. La investigació apunta a ARTEX, la mateixa eina amb agents d'IA de l'atac a la Comissió Europea."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un mètode de la Universitat de Tòquio fa que la IA encerti més les propietats de materials que encara no s'han descobert, segons «PRX Intelligence»",
-      "excerpt": "La clau és separar en dos passos el que el model aprèn de l'estructura dels àtoms i el càlcul de la propietat. En una prova amb materials descoberts després de l'entrenament, l'error baixa un 68%."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Al Japó, els fills dels pares que consulten la IA sobre salut estan més vacunats de la grip i de la covid, però l'estudi no demostra que en sigui la causa",
-      "excerpt": "Una enquesta a més de 5.000 famílies, publicada a «World Journal of Pediatrics», troba més vacunació de grip, covid i galteres entre els fills d'usuaris habituals de la IA. Els autors avisen que pot ser que aquests pares ja es cuidin més."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "CrowdStrike comprarà Zscaler per 43.900 milions de dòlars per protegir les empreses dels agents d'IA",
-      "excerpt": "Seria la compra més gran del sector de la ciberseguretat. Les dues empreses diuen que, amb els agents d'IA connectats a tot arreu, cal vigilar alhora els ordinadors i el trànsit de la xarxa."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Uns equips d'agents de Google DeepMind fan més barats alguns algorismes quàntics per a la fusió i els fàrmacs, i en demostren cada pas amb un verificador matemàtic",
-      "excerpt": "Els agents, basats en Gemini 4, han reduït fins a dotze vegades el cost d'alguns càlculs i en uns quants passos concrets molt més. Cada millora s'ha comprovat amb Lean. El treball és una prepublicació encara no revisada per parells."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "A Sierra Leone, un xatbot per WhatsApp va arribar a més mestres que internet, perquè respondre gasta molt menys dades que obrir una pàgina web",
-      "excerpt": "Un estudi a «PNAS Nexus» calcula que una resposta d'IA necessita 718 vegades menys dades que una pàgina web mitjana. Però l'ús del xatbot va caure del 62% al 19% dels mestres en 17 mesos."
-    },
-    {
-      "category": "MODELS",
-      "read": "3 MIN",
-      "title": "ChatGPT passa a fer servir a les converses de cada dia una versió de GPT-6.2 Sol, que entén millor les imatges i segueix millor les instruccions",
-      "excerpt": "OpenAI l'estrena per als abonats de pagament de tot el món. Només canvia la pestanya de xat: els models dels modes Work i Codex continuen sent els mateixos."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: A cinc dies del 29-N, el PP passa al davant entre els partits que recomanen els assistents d'IA, segons la tercera onada de l'estudi de la UOC",
-      "excerpt": "Els assistents eviten triar partit en el 85,4% de les respostes, però quan ho fan el PP surt en el 19,9% dels casos, per davant del PSOE. Grok i ChatGPT continuen sent els que més opinen."
-    },
-    {
-      "category": "MODELS",
-      "read": "5 MIN",
-      "title": "Anthropic publica una demostració feta per Claude d'una gran conjectura matemàtica de 1979, la versió algebraica del problema P contra NP",
-      "excerpt": "Un model intern d'Anthropic diu haver demostrat la conjectura de Leslie Valiant que separa les classes VP i VNP. L'empresa en publica l'article i la prova formal en Lean, però avisa que cap matemàtic humà no l'ha revisat encara."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "El cervell representa el significat de manera semblant en 21 llengües, i uns models d'IA multilingües ho han permès veure, segons un estudi del MIT a «Nature Neuroscience»",
-      "excerpt": "Un model entrenat amb l'activitat cerebral de francòfons prediu com respon el cervell de qui escolta en vietnamita. Els investigadors hi veuen un component compartit lligat al significat."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "4 MIN",
-      "title": "Virgínia i Oregon demanden SpaceX perquè Grok i X van servir per fer i difondre imatges sexuals falses, també de menors",
-      "excerpt": "Són els primers estats que porten als tribunals la propietària de xAI per Grok. L'acusen de no posar prou barreres i de vendre l'eina com a segura."
+      "title": "El Regne Unit alerta que els atacs informàtics fets amb agents d'IA es multipliquen i aprofiten forats que les empreses arrosseguen fa anys",
+      "excerpt": "El Centre Nacional de Ciberseguretat britànic ha vist créixer des del setembre els atacs automatitzats amb eines d'IA. No fan servir cap forat nou: troben en minuts contrasenyes febles, claus oblidades al codi i serveis mal protegits."
     },
     {
       "category": "POLÍTICA",
-      "read": "3 MIN",
-      "title": "Guterres demana als països que acordin en un any un marc mundial per gestionar els riscos de la IA, amb proves i supervisió independent",
-      "excerpt": "El secretari general de l'ONU ho va proposar a la cimera especial sobre seguretat de la IA de Bridgetown, a Barbados, a poques setmanes de deixar el càrrec."
+      "read": "4 MIN",
+      "title": "ACTUALITZACIÓ: Trump podria haver guanyat fins a 15 milions de dòlars amb les accions de Nvidia després de pressionar per tornar-hi Jensen Huang",
+      "excerpt": "Segons les seves declaracions de béns, el president tenia fins a 370.000 accions de Nvidia, que van pujar un 31,5% el dia que Huang va tornar a ser conseller delegat. Els demòcrates del Congrés anuncien investigacions."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Un xatbot fa canviar d'opinió una part de la gent que creu en una conspiració just després d'un atemptat, segons un estudi a «PNAS»",
+      "excerpt": "Investigadors de Cornell, el MIT i Carnegie Mellon van posar a prova el DebunkBot els dies que van seguir l'atemptat contra Trump del 2024 i l'assassinat de Charlie Kirk del 2025. Va ser entre cinc i set vegades més eficaç que un full informatiu."
+    },
+    {
+      "category": "PRODUCTES",
+      "read": "4 MIN",
+      "title": "Meta posa el seu agent d'IA Muse dins dels missatges d'Instagram, i Walmart li obre les ofertes del Black Friday",
+      "excerpt": "Els usuaris d'Instagram dels Estats Units, el Canadà, Mèxic, el Japó i Singapur ja poden xatejar amb Muse en una conversa privada i demanar-li que actuï a partir d'una publicació. Walmart, per la seva banda, deixa que l'agent li compri productes."
     },
     {
       "category": "COMUNITAT VALENCIANA",
       "read": "3 MIN",
-      "title": "El Consell de la Generalitat Valenciana encarrega a una direcció general d'Economia que coordini el govern de les dades i la IA a l'administració",
-      "excerpt": "Un decret publicat al DOGV dona la nova competència a la Direcció General de Simplificació Administrativa, que podrà crear unitats especialitzades per planificar l'estratègia d'IA de la Generalitat."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "4 MIN",
-      "title": "Anthropic estrena Claude Ship, uns agents d'IA que revisen, arreglen i fins i tot aproven els canvis de codi dels programadors",
-      "excerpt": "El paquet, per a empreses que treballen amb GitHub, pot donar per bons sols els canvis rutinaris si l'equip ho permet. Anthropic recomana començar en mode d'observació."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un robot de la Universitat Tècnica de Munic s'atura i demana ajuda quan no està segur de saber fer una feina, i n'aprèn",
-      "excerpt": "El sistema, publicat a «IEEE Robotics and Automation Letters», guarda cada habilitat nova en un mòdul a part perquè el robot no oblidi el que ja sabia."
-    },
-    {
-      "category": "XIPS",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Els Estats Units posaran a la llista negra Megaspeed, l'empresa de Singapur sospitosa de fer arribar xips de Nvidia a la Xina",
-      "excerpt": "Segons «The New York Times», el Departament de Comerç ho publicarà dimecres. Les empreses nord-americanes necessitaran una llicència per vendre-li tecnologia."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "3 MIN",
-      "title": "El mode IA del cercador de Google ja pot llegir els documents de Drive i els comptes de Wallet de l'usuari per respondre-li",
-      "excerpt": "La connexió és voluntària i el cercador podrà consultar dades financeres, però no moure diners. Aviat una icona dirà quina informació personal ha fet servir cada resposta."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "3 MIN",
-      "title": "Sierra, l'empresa d'agents d'atenció al client de Bret Taylor, dobla el seu valor fins als 30.000 milions de dòlars en sis mesos",
-      "excerpt": "Ha captat 1.750 milions i diu que els seus ingressos anuals s'han doblat fins als 400 milions en cinc mesos. Treballa amb gairebé la meitat de les 50 empreses més grans dels Estats Units."
+      "title": "Alacant compta amb IA i càmeres els visitants del castell de Santa Bàrbara per controlar-ne l'aforament en temps real",
+      "excerpt": "L'Ajuntament d'Alacant ha acabat d'instal·lar al castell un sistema de visió artificial que mostra quanta gent hi ha a cada espai, quines zones s'acosten al límit i a quines hores hi ha més afluència."
     }
   ]
 }

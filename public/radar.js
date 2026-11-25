@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Alacant",
+    "category": "IA I SOCIETAT",
+    "date": "25.11.2026",
+    "title": "Alacant compta amb IA i càmeres els visitants del castell de Santa Bàrbara per controlar-ne l'aforament en temps real",
+    "summary": "L'Ajuntament d'Alacant ha acabat d'instal·lar al castell un sistema de visió artificial que mostra quanta gent hi ha a cada espai, quines zones s'acosten al límit i a quines hores hi ha més afluència.",
+    "detail": "El castell de Santa Bàrbara, dalt del mont Benacantil, és un dels monuments més visitats d'Alacant i un dels punts on es concentra el turisme de la ciutat. L'Ajuntament hi ha posat en marxa un sistema d'intel·ligència artificial per saber en cada moment quantes persones hi ha i com es mouen pel recinte. El projecte forma part del Pla de Sostenibilitat Turística de la ciutat, en l'apartat de transició digital, i el cofinancen l'Ajuntament, la Secretaria d'Estat de Turisme i la Generalitat Valenciana.\n\nEl sistema, anomenat SVA Aforos i desenvolupat per l'empresa Evestel, fa servir càmeres instal·lades al castell i visió artificial per comptar les entrades i les sortides. Una plataforma web mostra en temps real quants visitants hi ha, l'ocupació i la capacitat que queda a cada espai, quines zones s'acosten al límit i com evoluciona l'afluència al llarg del dia; també analitza el pas per cada accés, les hores punta i les cues. La instal·lació l'ha feta Elecnor Seguridad, que va guanyar el contracte l'agost del 2025, i les obres s'han acabat ara després de diversos mesos de treball.\n\nSegons la regidora de Turisme, Ana Poquet, les dades permetran «millorar l'experiència dels visitants», planificar millor el monument i reforçar-ne la seguretat. És un ús de la IA cada cop més habitual en espais turístics saturats: no decideix res per si sola, però dona als gestors informació per obrir o tancar accessos, reforçar el personal o repartir els visitants. L'Ajuntament prepara també un sistema de realitat augmentada per al castell, que encara no funciona, i ja hi ofereix wifi gratuït.\n\nLa informació publicada no diu quant ha costat el sistema ni com es tracten les imatges de les càmeres: si es desen, durant quant de temps o si s'eliminen un cop comptades les persones. Tampoc no explica si les dades d'afluència es faran públiques perquè els visitants puguin triar l'hora menys concorreguda.",
+    "source": "Alicante Plaza",
+    "url": "https://alicanteplaza.es/alicanteplaza/alicante/alicante-implanta-el-sistema-de-control-de-aforos-con-ia-en-santa-barbara-para-mejorar-su-gestion",
+    "image": "./assets/alacant-castell-santa-barbara-aforament-ia-20261125.jpg",
+    "slug": "alacant-castell-santa-barbara-aforament-ia"
+  },
+  {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "24.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.diariandorra.ad/nacional/261122/casa-vall-incorporara-visites-immersives-i-audioguies-amb-ia_209357.html",
     "image": "./assets/andorra-casa-de-la-vall-audioguies-ia-20261122.jpg",
     "slug": "andorra-casa-de-la-vall-audioguies-ia"
-  },
-  {
-    "place": "Catalunya",
-    "category": "IA I SOCIETAT",
-    "date": "20.11.2026",
-    "title": "Calp munta la seva pròpia IA en servidors municipals perquè les dades de l'Ajuntament no en surtin",
-    "summary": "L'Ajuntament hi ha invertit 12.396 euros en equips i fa servir només programari lliure. El sistema, en proves amb diversos models, és per al personal municipal, i en paral·lel prova un assistent virtual per a la centraleta que encara no és obert al públic.",
-    "detail": "Els ajuntaments que volen fer servir la intel·ligència artificial per redactar, resumir o analitzar documents topen amb un problema: quan ho fan amb els serveis de les grans empreses, la informació municipal surt cap a servidors de fora. L'Ajuntament de Calp, a la Marina Alta, va crear a principis del 2026 una delegació específica per a l'ús de la IA i ja havia contractat llicències d'eines professionals per a la redacció, l'anàlisi de documents i la consulta de normativa.\n\nAra hi suma una infraestructura pròpia, pensada només per al personal municipal. Segons la informació publicada aquest divendres, l'Ajuntament hi ha destinat 12.396 euros, només en equips: els models funcionen en servidors que són propietat del consistori i tot el programari és lliure, sense cost de llicències. El sistema pot treballar sense connexió i consultar fonts externes quan una feina ho demana, i ja incorpora eines per treballar amb fulls de càlcul i documents. Està en fase de proves amb diversos models. En paral·lel, el consistori prova un assistent virtual per a la centraleta que respon en llenguatge corrent preguntes bàsiques sobre tràmits, convocatòries i serveis a partir de la seu electrònica; de moment és experimental i no és obert al públic.\n\nLa idea és reservar la infraestructura pròpia per a les feines més delicades, on la informació no pot sortir de l'entorn municipal, i convertir una part de la despesa en un actiu que es queda a l'Ajuntament. L'Ajuntament insisteix que les eines són un suport i que no substitueixen el personal ni el seu criteri professional. És un model que pot interessar altres municipis mitjans dels territoris de parla catalana, que sovint no tenen prou volum per negociar condicions amb els grans proveïdors.\n\nLa informació no diu quins models es fan servir, quina capacitat tenen els servidors ni quantes persones de la plantilla hi tindran accés. Tampoc no explica qui manté el sistema ni quin cost tindrà a mitjà termini en electricitat, actualitzacions i personal tècnic, que és on sovint es complica la IA feta a casa. Els models oberts que poden funcionar en uns equips d'aquest preu són més modestos que els grans serveis comercials, i per això l'Ajuntament manté també les llicències contractades.",
-    "source": "El Periòdic",
-    "url": "https://www.elperiodic.com/calpe/ayuntamiento-calp-implanta-propia-inteligencia-artificial-para-proteger-datos-modernizar-gestion-municipal_1103735",
-    "image": "./assets/calp-ia-propia-servidors-municipals-dades-20261120.jpg",
-    "slug": "calp-ia-propia-servidors-municipals-dades"
   }
 ];
