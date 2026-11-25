@@ -1,8 +1,104 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-24T17:13:29.485Z",
+ "actualitzat": "2026-11-25T00:07:25.364Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "1u0hTd86_HU",
+   "titol": "Experiment with SVG & 3D Design with the Codex Plugin",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-24T21:32:42.000Z",
+   "descripcio": "Craig Dennis had never drawn an SVG by hand or used Blender. With the SVG & 3D Design plugin for Codex, he shows how to turn a reference image into an editable graphic or 3D model, then ask for changes in plain language. See how a small change in SVG code can make a character’s eyes follow your curs",
+   "miniatura": "/assets/videos/1u0hTd86_HU.jpg"
+  },
+  {
+   "id": "p8lvQQebvpg",
+   "titol": "How to Search for Exoplanets",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-24T20:00:45.000Z",
+   "descripcio": "Two amateur astronomers, Kevin Bond and Ethan Byrd, independently found signals that could point to planets around distant stars. They knew you didn't need your own telescope for this kind of hunt. Kevin used Codex and Ethan used Astra to search public telescope data for tiny, recurring dips in star",
+   "miniatura": "/assets/videos/p8lvQQebvpg.jpg"
+  },
+  {
+   "id": "K8rdrWQRd20",
+   "titol": "The brain helped us build AI. Now AI is explaining the brain.",
+   "canal": "Google DeepMind",
+   "canalId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "grup": "empreses",
+   "categoria": "ciencia",
+   "idioma": "en",
+   "publicat": "2026-11-24T17:51:08.000Z",
+   "descripcio": "The human brain remains one of the greatest unsolved mysteries in science. We have roughly 86 billion neurons firing in a way that somehow produces intelligence, and yet the brain is still largely a black box. In the early days of AI, researchers looked to the brain for clues about how to build smar",
+   "miniatura": "/assets/videos/K8rdrWQRd20.jpg"
+  },
+  {
+   "id": "2DUJ2whBJRM",
+   "titol": "Make sense of your day | with ChatGPT",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-24T17:14:03.000Z",
+   "descripcio": "Snap a photo and ask ChatGPT to help you figure out what you’re looking at, and highlight anything you should double-check.",
+   "miniatura": "/assets/videos/2DUJ2whBJRM.jpg"
+  },
+  {
+   "id": "4MFBNFyBmQg",
+   "titol": "Make a day of it | with ChatGPT",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-24T17:14:01.000Z",
+   "descripcio": "ChatGPT can turn a rough idea into the perfect-sized plan for your family. Tell ChatGPT what you’re looking for and it’ll browse sites on your behalf to find local information, and even help you book things.",
+   "miniatura": "/assets/videos/4MFBNFyBmQg.jpg"
+  },
+  {
+   "id": "Faoam45LT-Q",
+   "titol": "Make room in your day | with ChatGPT",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-24T17:13:58.000Z",
+   "descripcio": "A little more time at the park? Connect your calendar and ask ChatGPT to find a later time for your meeting.",
+   "miniatura": "/assets/videos/Faoam45LT-Q.jpg"
+  },
+  {
+   "id": "DLV3XRdJAog",
+   "titol": "Make your day move | with ChatGPT",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-24T17:13:55.000Z",
+   "descripcio": "Plans changed? With your calendar connected, ChatGPT can check your schedule, find another time, and draft a note to let people know.",
+   "miniatura": "/assets/videos/DLV3XRdJAog.jpg"
+  },
+  {
+   "id": "bGiFYYrmnAg",
+   "titol": "School Day | Make A Day Do Anything with ChatGPT",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-24T17:09:11.000Z",
+   "descripcio": "When an unexpected change of plans throws Marla and Ava’s day off course, the pair embark on a spontaneous adventure with a little help from ChatGPT. ChatGPT can move things around, plan trips and create room in your day to spend doing things you love, with people you love. With ChatGPT, you can Mak",
+   "miniatura": "/assets/videos/bGiFYYrmnAg.jpg"
+  },
   {
    "id": "z7tcQiyLK8E",
    "titol": "How Eli Lilly and Company Accelerates Drug Discovery with NVIDIA",
@@ -1072,30 +1168,6 @@
    "noticia": "openai-gpt-6-astra-dissenya-aparell-codex",
    "noticiaTitol": "OpenAI diu que GPT-6 Astra va dissenyar en menys d'una setmana un aparell per parlar amb Codex, de la carcassa al programari",
    "resum": "Vídeo promocional d'OpenAI que presenta GPT-6 Astra com una eina per ajudar a dissenyar maquinari, també per a qui no és enginyer. És la presentació de l'empresa, no una demostració independent del projecte de l'aparell per parlar amb Codex."
-  },
-  {
-   "id": "yC72iQx6rM0",
-   "titol": "Qodo brings company context into Codex code review",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-11-03T18:11:23.000Z",
-   "descripcio": "Qodo’s Codex plugin brings company context, codebase standards, and independent review into the development workflow. It helps developers catch bugs across repositories, where a change can look right in one codebase and break a service in another. In Behind the Build, co-founder Itamar Friedman and ",
-   "miniatura": "/assets/videos/yC72iQx6rM0.jpg"
-  },
-  {
-   "id": "63pcV4z0DwI",
-   "titol": "ChatGPT Voice is now in Finances",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-11-03T18:04:51.000Z",
-   "descripcio": "ChatGPT Voice 🤝 Finances. Securely connect your accounts through Finances, then talk through your finances on topics like what subscriptions you're paying for, discuss which you’d like to keep and what you could save by cancelling. Try it: chatgpt.com/finances",
-   "miniatura": "/assets/videos/63pcV4z0DwI.jpg"
   },
   {
    "id": "rqZpgKq2Ocw",
