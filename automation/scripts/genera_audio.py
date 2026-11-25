@@ -563,6 +563,12 @@ EDGE_MAX_CARACTERS = int(os.environ.get("EDGE_MAX_CARACTERS", "700"))
 EDGE_TIMEOUT_TROS_S = 45          # un tros de 700 caràcters triga ~5-10 s
 EDGE_PAUSES = (5, 15, 30, 60)     # pauses entre intents d'un mateix tros
 EDGE_SOSTRE_S = 25 * 60           # temps màxim perdut amb intents fallits per passada
+# Temps total de la passada (25.11.2026). A la prova real del 25.11 cada tros va
+# trigar ~30 s i cada notícia de 2 a 8 min: 20 notícies no caben en una passada.
+# Passat aquest temps no es comença cap peça nova amb la Joana (s'ajornen i les
+# fa la passada següent); la que està en curs s'acaba. El job té 55 min.
+EDGE_TEMPS_PASSADA_S = int(os.environ.get("EDGE_TEMPS_PASSADA_S", str(30 * 60)))
+_INICI_PASSADA = time.monotonic()
 KORE_SI_FALLA = os.environ.get("KORE_SI_FALLA", "") == "1"
 _edge_perdut = 0.0
 
@@ -655,6 +661,8 @@ def _sintetitza_edge(fitxer_text: Path, mp3: Path, slug: str) -> bool:
     trossos = trossos_edge(fitxer_text.read_text(encoding="utf-8"))
     if not trossos:
         return False
+    if time.monotonic() - _INICI_PASSADA >= EDGE_TEMPS_PASSADA_S:
+        raise Ajornada(f"la passada ja dura {int((time.monotonic() - _INICI_PASSADA) // 60)} min")
     parts = []
     for n, tros in enumerate(trossos, 1):
         desti = mp3.with_name(f"tros-{n:03d}.mp3")

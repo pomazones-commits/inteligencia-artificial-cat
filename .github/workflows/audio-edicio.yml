@@ -44,7 +44,9 @@ jobs:
   audio:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # 55 min (25.11.2026): la Joana a trossos és més lenta; genera_audio.py deixa
+    # de començar peces noves als 30 min i les ajorna a la passada següent.
+    timeout-minutes: 55
     steps:
       # Afegit el 30.07.2026. Aquest workflow i «Desplega la web a Hostinger»
       # compartien el limit de connexions FTP del compte. Des del canvi de
