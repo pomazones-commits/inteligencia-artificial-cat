@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-25T17:15:15.839Z",
+ "actualitzat": "2026-11-25T23:47:38.204Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "WN5O4vWCa54",
+   "titol": "5 developer tips for working with Gemini 4",
+   "canal": "Google for Developers",
+   "canalId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "grup": "empreses",
+   "categoria": "programacio",
+   "idioma": "en",
+   "publicat": "2026-11-25T20:00:15.000Z",
+   "descripcio": "Google DeepMind's Patrick Löber and Geneviève Huskens share five practical tips for handing off long, complex engineering tasks to Gemini 4. Try Gemini 4 today in Google AI Studio through the Gemini API and in Google Antigravity. What the video covers: *Aligning on intent before a long run, using pl",
+   "miniatura": "/assets/videos/WN5O4vWCa54.jpg"
+  },
+  {
+   "id": "A4UNP-axGHU",
+   "titol": "How your dot can keep work moving while you’re away",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-11-25T18:21:11.000Z",
+   "descripcio": "Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal Raymond’s workflow. Try thes",
+   "miniatura": "/assets/videos/A4UNP-axGHU.jpg"
+  },
   {
    "id": "kfGYU_-SuaE",
    "titol": "School Day | Make a day do anything with ChatGPT (Official)",
@@ -17,7 +41,7 @@
   },
   {
    "id": "hwKct_1ilEQ",
-   "titol": "How to Set Up Finances in ChatGPT",
+   "titol": "Finances in ChatGPT: A Beginner’s Guide",
    "canal": "OpenAI",
    "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
    "grup": "empreses",
@@ -1141,42 +1165,6 @@
    "noticia": "chatgpt-gif-animats-images-2-6",
    "noticiaTitol": "ChatGPT ja fa GIF animats a partir d'una frase o d'una foto, amb el nou model Images 2.6 d'OpenAI",
    "resum": "Vídeo de presentació oficial d'OpenAI de ChatGPT Images 2.6. Segons la descripció del canal, el nou model permet crear GIF animats i fer servir imatges de referència, i l'empresa anuncia dos models nous per a la seva API que generen imatges un 50% més de pressa."
-  },
-  {
-   "id": "9ZxCOHkfn_8",
-   "titol": "GPT-Image-2.6: Faster image generation with Flare and Sunburst",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-11-04T23:42:40.000Z",
-   "descripcio": "We’re bringing GPT-Image-2.6 to Codex and the API. In the API, the 2.6 versions of Flare and Sunburst generate images 50% faster than before. Use Flare for a quick first pass on a poster or product shot. At low image quality, it can generate an image in as little as six seconds. When you need detail",
-   "miniatura": "/assets/videos/9ZxCOHkfn_8.jpg"
-  },
-  {
-   "id": "kXjCicvY_ik",
-   "titol": "Els mercats financers aplaudeixen la victòria demòcrata",
-   "canal": "3CatInfo",
-   "canalId": "UCKseJ43xWvnywQzl6kYbf0g",
-   "grup": "catala",
-   "categoria": "altres",
-   "idioma": "ca",
-   "publicat": "2026-11-04T21:50:00.000Z",
-   "descripcio": "Pujades per a les renovables i caigudes per a les tecnològiques i la IA. Subscriu-te al canal oficial de 3CatInfo a YouTube i no et perdis l'actualitat de Catalunya i el món: 👉https://www.youtube.com/@3catinfo?sub_confirmation=1 Vols rebre cada setmana el butlletí gratuït \"Mirada global\"? Descobrei",
-   "miniatura": "/assets/videos/kXjCicvY_ik.jpg"
-  },
-  {
-   "id": "44GBqQGc-v0",
-   "titol": "How Figma Is Building Self-Serve Analytics with OpenAI",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "altres",
-   "idioma": "en",
-   "publicat": "2026-11-04T17:27:07.000Z",
-   "descripcio": "Marketers shouldn’t have to wait for a new dashboard to understand how a campaign is performing. In an early pilot with OpenAI, Figma is building shared context that helps marketers ask how campaigns are landing and whether they’re converting customers. Teams can get useful insights sooner, without ",
-   "miniatura": "/assets/videos/44GBqQGc-v0.jpg"
   },
   {
    "id": "NCxD-qsQcN0",
