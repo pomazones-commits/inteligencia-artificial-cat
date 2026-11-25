@@ -1,5 +1,29 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "25.11.2026",
+    "title": "La barcelonina Permut, que fa agents d'IA per atendre els clients d'empreses com CaixaBank i Esade, capta 3 milions d'euros per sortir a l'estranger",
+    "summary": "L'empresa, que fins ara s'havia finançat sola i ja és rendible, té una vuitantena de clients i nou treballadors, i vol arribar a vint amb la ronda encapçalada per Next Tier Ventures.",
+    "detail": "Els agents d'IA que atenen clients són un dels usos que més s'estenen a les empreses, i també un dels més disputats: hi competeixen les grans tecnològiques i desenes d'empreses joves. Permut, una empresa de Barcelona fundada per Alex Lopera, conseller delegat, i Oriol Blanc, director de tecnologia, ha fet un pas endavant en aquest mercat amb la seva primera ronda de finançament.\n\nL'empresa ha captat 3 milions d'euros en una ronda encapçalada pel fons Next Tier Ventures, amb la participació de Masia, Decelera, Secways, Cleo Capital i inversors particulars, segons explica l'Ara. Fins ara Permut s'havia finançat amb recursos propis i diu que va arribar a la rendibilitat en dotze mesos. La seva plataforma permet a les empreses crear, posar en marxa i gestionar agents al web, a les xarxes socials o al correu, que responen consultes i també fan accions connectades als sistemes interns de l'empresa, amb el to de cada marca. Té una vuitantena de clients, entre els quals Esade i CaixaBank, i nou treballadors.\n\nLa ronda servirà per entrar en nous mercats internacionals i reforçar l'equip tècnic i operatiu, que vol fer créixer fins a vint persones. L'objectiu és tancar el 2026 amb un centenar de clients i superar el milió d'euros d'ingressos recurrents anuals. «Estic molt orgullós d'haver arribat fins aquí sense finançament extern», diu Lopera. Per a Patricia Pastor, sòcia de Next Tier Ventures, Permut té «el producte i el lideratge necessaris per esdevenir un referent europeu en agents d'IA».\n\nLes xifres de rendiment són de l'empresa i no s'han pogut contrastar de manera independent: Permut afirma que els seus agents resolen entre el 80% i el 85% de les consultes sense intervenció humana i que les compres en què intervenen tenen un 60% més de conversió. Tres milions és una ronda modesta en un sector on els competidors nord-americans en capten centenars, i la prova serà si una empresa de nou persones pot créixer fora de casa davant d'aquests rivals.",
+    "source": "Ara",
+    "url": "https://www.ara.cat/economia/tecnologia/permut-ia-catalana-mes-enlla-l-atencio-euros-client-tanca-d-ronda-3-milions_1_5920635.html",
+    "image": "./assets/permut-agents-ia-ronda-tres-milions-20261125.jpg",
+    "slug": "permut-agents-ia-ronda-tres-milions"
+  },
+  {
+    "place": "Tarragona",
+    "category": "IA I SOCIETAT",
+    "date": "25.11.2026",
+    "title": "La Generalitat encarrega al CIMNE de la UPC una IA que estimi quants pisos buits hi ha a cada barri a partir del consum d'aigua i del cadastre",
+    "summary": "El model calcularà la probabilitat que els habitatges d'una zona estiguin desocupats, sense assenyalar cap pis concret, i n'han de sortir els primers resultats a principi del 2027.",
+    "detail": "Saber quants habitatges buits hi ha i on són és una de les dades que més es discuteixen en la crisi de l'habitatge, i també una de les més difícils d'obtenir. L'últim cens de l'INE, del 2021, comptava a Catalunya 417.652 habitatges buits sobre 3.915.127, un 10,6%, però aquestes xifres no baixen gaire al detall i els municipis petits sovint no en tenen cap estudi propi.\n\nLa Generalitat ha encarregat al Centre Internacional de Mètodes Numèrics a l'Enginyeria (CIMNE), vinculat a la Universitat Politècnica de Catalunya, un model d'IA que estimi la probabilitat que els habitatges d'una zona estiguin desocupats, per secció censal, districte o municipi, segons explica el Diari de Tarragona. El model ha de distingir entre habitatges principals, secundaris i buits, i té en compte els pisos turístics. Combina la informació del cadastre sobre els edificis, una vintena d'estudis d'habitatge buit fets per ajuntaments i diputacions, el consum d'aigua agregat de l'Agència Catalana de l'Aigua, dades del mercat immobiliari, els registres turístics i altres dades obertes. El contracte, de 39.000 euros, va de maig a desembre del 2026, el dirigeix Gerard Mor i els primers resultats s'esperen a principi del 2027.\n\nLa Generalitat farà servir els resultats internament per decidir mesures d'habitatge, i el projecte vol donar dades més fines sobretot als municipis petits, que tenen menys informació. Per validar-lo, l'equip compararà les prediccions amb estudis anteriors en què alguns ajuntaments van comprovar sobre el terreny si els pisos eren ocupats. Només a la demarcació de Tarragona, el cens del 2021 hi comptava 87.906 habitatges sense residents o fets servir com a molt dues setmanes l'any, un 15,85% del parc.\n\nEl model no detecta si un pis concret és buit: dona una probabilitat per a una zona, i per tant no serveix per actuar contra cap propietari. La fiabilitat dependrà de la qualitat de les dades de partida, i el consum d'aigua agregat pot confondre un pis buit amb un d'ocupat poques setmanes l'any. L'equip no ha volgut avançar cap estimació preliminar: «No podem avançar cap informació», va dir Mor. A més, l'article no aclareix quin departament del Govern ha fet l'encàrrec ni si els resultats es faran públics.",
+    "source": "Diari de Tarragona",
+    "url": "https://www.diaridetarragona.com/tarragona/276527/tarragona-tendra-mapa-pisos-vacios-barrio-gracias-inteligencia-artificial.html",
+    "image": "./assets/generalitat-cimne-ia-estimar-pisos-buits-20261125.jpg",
+    "slug": "generalitat-cimne-ia-estimar-pisos-buits"
+  },
+  {
     "place": "Alacant",
     "category": "IA I SOCIETAT",
     "date": "25.11.2026",
@@ -70,29 +94,5 @@ window.IA_RADAR = [
     "url": "https://valenciaplaza.com/valenciaplaza/plaza-innovacion/la-valenciana-linkener-compra-inergy-para-reforzar-su-negocio-de-gestion-energetica-con-inteligencia-artificial",
     "image": "./assets/linkener-compra-inergy-gestio-energetica-ia-20261123.jpg",
     "slug": "linkener-compra-inergy-gestio-energetica-ia"
-  },
-  {
-    "place": "Lleida",
-    "category": "IA I SOCIETAT",
-    "date": "23.11.2026",
-    "title": "La Guàrdia Urbana de Lleida estrenarà aquest Nadal la IA en 70 càmeres de vigilància per triar les imatges que val la pena mirar",
-    "summary": "L'Ajuntament vol connectar-hi fins a 120 dels 270 aparells de la ciutat, sobretot al Centre Històric. L'alcalde, Fèlix Larrosa, diu que la tecnologia no ha de substituir l'experiència dels agents.",
-    "detail": "Les càmeres de videovigilància dels carrers graven les 24 hores del dia i ningú no pot revisar tot el que enregistren. Cada vegada més ajuntaments busquen en la intel·ligència artificial una manera de filtrar aquestes hores d'imatges, una aplicació que desperta interès policial però també preguntes sobre la privacitat dels vianants.\n\nSegons publica el diari Segre, la Guàrdia Urbana de Lleida prepara un sistema per aplicar la IA a 70 càmeres de videovigilància de la ciutat i el vol estrenar durant la campanya de Nadal, que comença oficialment el cap de setmana vinent. El pla és connectar-hi fins a 120 dels 270 aparells que té la ciutat, la majoria al Centre Històric. La funció del sistema és seleccionar les imatges més útils entre totes les gravacions. L'alcalde, Fèlix Larrosa, ho va explicar a la celebració de Santa Cecília: l'objectiu és «disposar de més informació, anticipar possibles incidències» i respondre-hi més de pressa. L'Ajuntament calcula que el temps de resposta immediata als incidents al carrer podria baixar fins a un 25% i el d'investigació, un 40%. Larrosa va insistir que «la tecnologia no ha de substituir» l'experiència i la proximitat dels agents, i va proposar passar de 259 a 265 efectius, amb sis agents nous i un intendent.\n\nLleida s'afegeix així a les ciutats catalanes que incorporen la IA a la seguretat pública en un moment en què el reglament europeu d'intel·ligència artificial posa límits estrictes als sistemes de vigilància, sobretot a la identificació biomètrica de persones en espais públics, que en general queda prohibida fora de casos molt concrets. Que el sistema serveixi per triar imatges i no per reconèixer cares és, per tant, una distinció clau.\n\nLes reduccions del 25% i del 40% són previsions, no resultats mesurats. La informació publicada no detalla quant costa el sistema, quina empresa el proporciona, en quins punts exactes hi haurà les càmeres, quins tipus d'incidents detectarà la IA ni quines garanties de protecció de dades s'hi aplicaran. Són preguntes que l'Ajuntament haurà de respondre abans que el sistema es posi en marxa.",
-    "source": "Segre",
-    "url": "https://www.segre.com/ca/lleida/261123/guardia-urbana-estrenara-les-cameres-vigilancia-amb-ia-campanya-nadal_1407298.html",
-    "image": "./assets/lleida-guardia-urbana-cameres-ia-nadal-20261123.jpg",
-    "slug": "lleida-guardia-urbana-cameres-ia-nadal"
-  },
-  {
-    "place": "Andorra",
-    "category": "IA I SOCIETAT",
-    "date": "22.11.2026",
-    "title": "La Casa de la Vall d'Andorra tindrà audioguies amb IA a les quals els visitants podran fer preguntes durant la visita",
-    "summary": "El Consell General ha adjudicat per 218.570 euros a l'empresa Semic una experiència immersiva que explicarà la història política de l'edifici i que s'estrenarà la primavera vinent, després de les obres.",
-    "detail": "La Casa de la Vall, a Andorra la Vella, és l'antiga seu del Consell General, el Parlament andorrà, i un dels edificis més simbòlics del país. Ara és en obres de rehabilitació, i el Consell General aprofita la reforma per canviar la manera de visitar-la: hi vol afegir una experiència immersiva i renovar les audioguies, que fins ara eren les clàssiques de recorregut tancat.\n\nSegons el Diari d'Andorra, el Consell General ha adjudicat el contracte a l'empresa Semic per 218.570 euros. El projecte explicarà la història política de l'edifici amb projeccions i recursos sonors, i obrirà al públic la torre del colomer, que fins ara no es podia visitar i que també acollirà projeccions. Les noves audioguies funcionaran sobretot amb el mòbil del visitant, a través de codis QR o de sistemes de localització, i incorporaran intel·ligència artificial perquè els visitants puguin fer preguntes durant el recorregut. Qui no tingui mòbil podrà fer servir aparells del mateix espai.\n\nÉs una de les aplicacions de la IA que s'estenen més de pressa als museus i als espais patrimonials: en lloc d'escoltar un text gravat, el visitant pot preguntar el que li interessa i rebre'n la resposta al moment. Per a un edifici com la Casa de la Vall, on es concentren segles d'història institucional andorrana, pot servir per adaptar la visita a públics molt diferents, des dels escolars fins als turistes estrangers.\n\nDe moment, però, el projecte és sobre el paper. El contingut final de l'experiència es definirà les pròximes setmanes, i el Consell General preveu estrenar el nou sistema de visites la primavera vinent, quan s'acabin les obres. L'article no detalla quin model d'IA s'hi farà servir, en quines llengües respondrà ni com es garantirà que les respostes sobre la història de l'edifici siguin rigoroses, una qüestió clau quan un sistema d'IA ha de parlar de fets històrics sense inventar-se'n cap.",
-    "source": "Diari d'Andorra",
-    "url": "https://www.diariandorra.ad/nacional/261122/casa-vall-incorporara-visites-immersives-i-audioguies-amb-ia_209357.html",
-    "image": "./assets/andorra-casa-de-la-vall-audioguies-ia-20261122.jpg",
-    "slug": "andorra-casa-de-la-vall-audioguies-ia"
   }
 ];
