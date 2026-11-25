@@ -1,33 +1,33 @@
 window.IA_REFLEXIO_DIARIA = {
-  "date": "2026-11-24",
-  "title": "Les claus als agents, i el cadenat a part",
-  "dek": "Un dimarts en què la IA ha guanyat accés a més racons de la nostra vida digital, mentre els atacants fan servir les mateixes eines i el mercat comença a dubtar de qui en traurà profit.",
+  "date": "2026-11-25",
+  "title": "Qui revisa el que fa la màquina",
+  "dek": "Un dimecres en què la IA ha avançat en feina feta i en resultats científics, però gairebé totes les notícies acaben en el mateix punt: algú ha de mirar què fa abans que sigui massa tard.",
   "body": [
-    "Ahir parlàvem de qui té la clau de la porta. Avui la resposta, almenys a mitja tarda, és que les claus se les queden cada vegada més els agents d'IA. Google ha fet que el mode IA del cercador pugui llegir els documents de Drive i els comptes de Wallet de l'usuari per respondre-li. Anthropic ha estrenat Claude Ship, uns agents que revisen, arreglen i fins i tot aproven els canvis de codi dels programadors. I Sierra, l'empresa d'agents d'atenció al client de Bret Taylor, ha doblat el seu valor fins als 30.000 milions de dòlars en sis mesos. La direcció és clara: menys preguntes i respostes, i més feina feta en nom nostre.",
-    "El revers ha arribat el mateix dia. La Comissió Europea ha avisat els usuaris de l'EU Academy que l'atac fet amb IA que va patir fa uns dies els ha robat el nom i el correu, i Quirónsalud ha explicat que un atac li ha pres les adreces de correu de pacients, també de la sanitat pública de Madrid; la seva investigació apunta a ARTEX, l'eina d'atac amb agents d'IA que ja vam veure darrere del cas de Brussel·les. Que el mateix nom surti en dos atacs en pocs dies no és casualitat: les eines que automatitzen la feina també automatitzen l'atac.",
-    "El mercat ho ha llegit a la seva manera. CrowdStrike vol comprar Zscaler per 43.900 milions de dòlars, la compra més gran del sector, amb l'argument que els agents connectats a tot arreu obliguen a vigilar alhora els ordinadors i la xarxa. És a dir: si els agents tenen més claus, algú farà negoci venent el cadenat. Al mateix temps, les accions d'Anthropic han baixat per sota dels 83 dòlars del preu de sortida, cinc dies després d'una estrena rècord. No vol dir que el negoci dels agents s'hagi refredat, però sí que els inversors ja no paguen qualsevol preu per la promesa.",
-    "La part més interessant del dia, però, és a la ciència, i va en la direcció contrària a la pressa. Uns equips d'agents de Google DeepMind han abaratit algorismes quàntics i n'han demostrat cada pas amb un verificador matemàtic. Anthropic ha publicat una demostració feta per Claude d'una conjectura de 1979, també comprovable formalment. I un robot de la Universitat Tècnica de Munic s'atura i demana ajuda quan no està segur de saber fer una feina. Tres maneres de dir el mateix: una màquina val més quan es pot comprovar què fa o quan sap reconèixer què no sap fer.",
-    "Hi ha també un fil social que no s'ha d'oblidar. Virgínia i Oregon han demandat SpaceX perquè Grok i X van servir per fer i difondre imatges sexuals falses, també de menors, i Guterres ha demanat als països un marc mundial en un any. Al radar, la Generalitat Valenciana ha encarregat a una direcció general d'Economia que coordini el govern de les dades i la IA a l'administració. Les institucions properes busquen tenir el seu propi pany; les globals, de moment, demanen que algú el faci.",
-    "Demà caldrà mirar dues coses. Primer, si l'atac a Quirónsalud té més abast del que diu l'empresa, que encara no ha explicat quantes persones hi ha afectades ni per què hi havia adreces de pacients de Madrid en un portal colombià. Segon, si la baixada d'Anthropic és un ajust després de l'eufòria o el començament d'una revisió més àmplia del preu de la IA a la borsa. Totes dues preguntes diuen el mateix: com més feina deleguem en els agents, més important és saber qui respon quan alguna cosa falla."
+    "Ahir dèiem que els agents d'IA es queden cada vegada més claus de la nostra vida digital. Avui el dia ha posat la pregunta següent: qui comprova què fan amb aquestes claus? Una prova nova, ShellBench, feta a partir de més de deu milions d'interaccions reals, mostra que els millors agents fallen més d'una de cada tres feines quotidianes, com endreçar correus o pagar factures, i que el 15,7% dels intents incompleixen alguna norma de seguretat. Meta, mentrestant, ha posat el seu agent Muse dins dels missatges d'Instagram, i Walmart li deixa comprar productes. L'agent arriba abans que la fiabilitat.",
+    "El mateix patró ha sortit per altres bandes. Un treball encara no revisat per parells ha provat sis models amb 105 tasques i ha vist que els robots que governen fan sovint accions perilloses; la solució que proposen, LEASH, és justament un filtre que revisa cada ordre abans que el robot l'executi. The New York Times ha prohibit als seus fotògrafs col·laboradors el nou Photoshop perquè fa servir la IA de maneres que poden no ser evidents. I l'estudi d'Anthropic sobre 58 empreses diu que el primer obstacle per treure profit de la IA a la feina és que produeix més del que les persones poden revisar.",
+    "Hi ha una versió més inquietant de la mateixa idea. Més de vint-i-cinc fonts d'OpenAI i Anthropic expliquen a Axios que els sistemes per vigilar els models no avancen tan de pressa com els models, i alguns investigadors ja demanen deixar d'entrenar-ne de més potents. La investigació sobre Talkie, l'aplicació de companyia de MiniMax, mostra què passa quan ningú no fa aquesta feina: documents interns indiquen que es premiaven els personatges que allargaven les converses, i hi parlaven milers d'infants. Al Regne Unit, el centre de ciberseguretat avisa que els atacs amb agents d'IA troben en minuts els forats que les empreses arrosseguen fa anys.",
+    "El mercat també sembla haver perdut la paciència. Dell ha doblat els ingressos gràcies als servidors d'IA i acumula 132.000 milions de dòlars en comandes, però aquest dimecres el Nasdaq perdia més d'un 4% a mitja sessió, amb Nvidia, Micron i Anthropic a la baixa, en una setmana marcada pel retorn de Jensen Huang a Nvidia i pels possibles guanys de Trump amb les accions de l'empresa. Hi han pesat també la inflació i els aranzels, i no és fàcil destriar què respon a la IA. El que es veu és que els inversors ja no paguen qualsevol promesa.",
+    "La ciència ha ofert el contrapunt. Una IA que mesura la proteïna TROP2 a les biòpsies assenyala quins malalts de càncer de pulmó aprofiten més un fàrmac nou, segons «Nature Medicine»; un model de Harvard omple els buits dels mapes de biodiversitat; un xatbot va fer canviar d'opinió una part dels qui creien en una conspiració just després d'un atemptat, segons «PNAS», i una IA de la Universitat del Sud de Califòrnia estima la gravetat de l'apnea del son amb deu minuts de senyals. Tots aquests treballs tenen una cosa en comú: presenten la IA com una eina que ajuda el metge o l'investigador, no que el substitueix.",
+    "A casa nostra la IA s'ha vist en feines concretes: la barcelonina Permut capta tres milions per vendre fora els seus agents d'atenció al client, la Generalitat encarrega al CIMNE una IA que estimi els pisos buits de cada barri sense assenyalar-ne cap de concret, Alacant compta els visitants del castell de Santa Bàrbara i la Cambra de Comerç de Barcelona estrena un assistent per al comerç de proximitat. Demà caldrà mirar si el mercat es calma després d'Acció de Gràcies i si algun dels grans laboratoris respon als seus propis treballadors sobre com vigilarà els models que encara no ha tret."
   ],
   "signals": [
     {
-      "title": "El mode IA del cercador de Google ja pot llegir els documents de Drive i els comptes de Wallet de l'usuari per respondre-li",
-      "slug": "google-mode-ia-drive-wallet-personalitzacio"
+      "title": "Els millors agents d'IA fallen més d'una de cada tres feines quotidianes, com endreçar correus o pagar factures, segons una prova nova",
+      "slug": "shellbench-agents-ia-fallen-feines-quotidianes"
     },
     {
-      "title": "Un atac informàtic fet amb IA roba a Quirónsalud les adreces de correu de pacients, també de la sanitat pública de Madrid",
-      "slug": "ciberatac-ia-quironsalud-correus-pacients"
+      "title": "Treballadors d'OpenAI i Anthropic temen que els seus models més avançats, encara no publicats, no es puguin treure mai al públic amb seguretat",
+      "slug": "treballadors-openai-anthropic-temen-models-no-publicats"
     },
     {
-      "title": "CrowdStrike comprarà Zscaler per 43.900 milions de dòlars per protegir les empreses dels agents d'IA",
-      "slug": "crowdstrike-compra-zscaler-43900-milions-seguretat-agents-ia"
+      "title": "La IA a la feina s'encalla més per la revisió dels resultats i la resistència dels treballadors que per aprendre les eines, segons un estudi d'Anthropic",
+      "slug": "anthropic-estudi-58-empreses-obstacles-ia-feina"
     },
     {
-      "title": "Un robot de la Universitat Tècnica de Munic s'atura i demana ajuda quan no està segur de saber fer una feina, i n'aprèn",
-      "slug": "tum-robot-reconeix-limits-demana-ajuda"
+      "title": "ACTUALITZACIÓ: La borsa torna a castigar la IA i el Nasdaq perd més d'un 4% a mitja sessió, arrossegat per Nvidia, Micron i Anthropic",
+      "slug": "borsa-nasdaq-cau-nvidia-micron-anthropic-25-novembre"
     }
   ],
   "read": "3 MIN",
-  "words": 595
+  "words": 621
 };
