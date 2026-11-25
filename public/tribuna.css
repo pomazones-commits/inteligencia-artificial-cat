@@ -94,3 +94,15 @@
   .tribuna-photo { max-width: 200px; }
   .tribuna-copy h2 { font-size: 33px; }
 }
+
+/* 25.11.2026 (en Rafael): retrats de dos autors (o de grup) més grans i un al costat de
+   l'altre. La foto ho diu al nom del fitxer: «…-doble.jpg» (dos retrats muntats l'un al
+   costat de l'altre) o «…-grup.jpg» (foto de grup). Es mostra sencera, sense retallar. */
+.tribuna-layout:has(.tribuna-photo img[src*="-doble."]),
+.tribuna-layout:has(.tribuna-photo img[src*="-grup."]) { grid-template-columns: minmax(0, 460px) minmax(0, 1fr); gap: 44px; }
+.tribuna-photo img[src*="-doble."], .tribuna-photo img[src*="-grup."] { aspect-ratio: auto; height: auto; object-fit: contain; }
+@media (max-width: 880px) {
+  .tribuna-layout:has(.tribuna-photo img[src*="-doble."]),
+  .tribuna-layout:has(.tribuna-photo img[src*="-grup."]) { grid-template-columns: 1fr; gap: 24px; }
+  .tribuna-photo:has(img[src*="-doble."]), .tribuna-photo:has(img[src*="-grup."]) { max-width: 440px; }
+}

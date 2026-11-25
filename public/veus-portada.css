@@ -157,3 +157,18 @@
     #fff;
 }
 .veus-marca--text span { padding-left: 0; border-left: 0; }
+
+/* 25.11.2026: retrats de dos persones (…-doble.jpg) o de grup (…-grup.jpg), sencers i més grans. */
+.veus-photo img[src*="-doble."], .veus-photo img[src*="-grup."] { aspect-ratio: auto; height: auto; object-fit: contain; }
+.veus-peca:has(.veus-photo img[src*="-doble."]),
+.veus-peca:has(.veus-photo img[src*="-grup."]) { grid-template-columns: 1fr; }
+.veus-peca:has(.veus-photo img[src*="-doble."]) .veus-photo,
+.veus-peca:has(.veus-photo img[src*="-grup."]) .veus-photo { max-width: 360px; }
+.veus-peces--una .veus-peca:has(.veus-photo img[src*="-doble."]),
+.veus-peces--una .veus-peca:has(.veus-photo img[src*="-grup."]) { grid-template-columns: minmax(0, 460px) minmax(0, 1fr); }
+.veus-peces--una .veus-peca:has(.veus-photo img[src*="-doble."]) .veus-photo,
+.veus-peces--una .veus-peca:has(.veus-photo img[src*="-grup."]) .veus-photo { max-width: none; }
+@media (max-width: 880px) {
+  .veus-peces--una .veus-peca:has(.veus-photo img[src*="-doble."]),
+  .veus-peces--una .veus-peca:has(.veus-photo img[src*="-grup."]) { grid-template-columns: 1fr; }
+}

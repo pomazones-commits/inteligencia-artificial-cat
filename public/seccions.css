@@ -186,3 +186,5 @@
 .cd-canvis li{padding:12px 0;border-bottom:1px solid var(--ed-line);font-size:15px;line-height:1.5}
 .cd-canvis a{color:var(--ed-blue);font-weight:600}
 .cd-filtres button.cd-b-funcionament i{background:#1f7a4d}.cd-filtres button.cd-b-construccio i{background:#d98a00}.cd-filtres button.cd-b-tramitacio i{background:#6d5bd0}.cd-filtres button.cd-b-aturat i{background:#8a919e}.cd-filtres button.cd-b-descartat i{background:#c4c8d0}
+/* 25.11.2026: retrats de dos persones (…-doble.jpg) o de grup (…-grup.jpg) a la fitxa de l'autor. */
+.autor-cap img[src*="-doble."],.autor-cap img[src*="-grup."]{width:300px;flex-basis:300px;height:auto;border-radius:18px;object-fit:contain}

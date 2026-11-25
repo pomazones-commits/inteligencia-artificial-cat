@@ -109,3 +109,13 @@
   .conv-copy h2 { font-size: 28px; }
   .conv-q { font-size: 17px; }
 }
+
+/* 25.11.2026: retrats de dos persones (…-doble.jpg) o de grup (…-grup.jpg), sencers i més grans. */
+.conv-layout:has(.conv-photo img[src*="-doble."]),
+.conv-layout:has(.conv-photo img[src*="-grup."]) { grid-template-columns: minmax(0, 460px) minmax(0, 1fr); }
+.conv-photo img[src*="-doble."], .conv-photo img[src*="-grup."] { aspect-ratio: auto; height: auto; object-fit: contain; }
+@media (max-width: 880px) {
+  .conv-layout:has(.conv-photo img[src*="-doble."]),
+  .conv-layout:has(.conv-photo img[src*="-grup."]) { grid-template-columns: 1fr; gap: 24px; }
+  .conv-photo:has(img[src*="-doble."]), .conv-photo:has(img[src*="-grup."]) { max-width: 440px; }
+}

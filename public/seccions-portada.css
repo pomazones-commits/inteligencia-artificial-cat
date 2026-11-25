@@ -110,3 +110,11 @@
 .seccio-targeta__crida { display: inline-block; color: var(--lime) !important; text-decoration: none; }
 .seccio-targeta__crida:hover { text-decoration: underline; }
 .seccio-targeta--buida h3 a { color: #dfe3f5; }
+
+/* 25.11.2026: retrats de dos persones (…-doble.jpg) o de grup (…-grup.jpg): la foto va a
+   sobre del text, sencera i més gran, en lloc del quadrat petit del costat. */
+.seccio-targeta__cos:has(.seccio-targeta__foto[src*="-doble."]),
+.seccio-targeta__cos:has(.seccio-targeta__foto[src*="-grup."]) { flex-direction: column; }
+.seccio-targeta__foto[src*="-doble."], .seccio-targeta__foto[src*="-grup."] {
+  flex: none; width: 100%; max-width: 340px; height: auto; object-fit: contain;
+}
