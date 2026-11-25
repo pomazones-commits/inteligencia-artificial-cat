@@ -3,7 +3,9 @@
 
 S'executa dins de GitHub Actions. Veus, per ordre (decisió d'en Rafael del
 23.10.2026): 1) la Joana de Microsoft (edge-tts, ca-ES-JoanaNeural), gratuïta;
-2) si Microsoft falla, Gemini «Kore» (gemini-3.8-flash-lite-tts), de pagament;
+2) només si Microsoft tanca la porta (403), Gemini «Kore» (gemini-3.8-flash-lite-tts),
+de pagament; un tall temporal de la Joana AJORNA la peça a la passada següent
+(25.11.2026);
 3) si també falla Gemini, la veu catalana local de Piper (ca_ES-upc_ona-medium).
 Història: Joana fins al 12.10.2026 (Microsoft la va tallar amb un 403), Kore
 del 12 al 23.10.2026, i Joana un altre cop quan es va comprovar que tornava.
@@ -406,9 +408,10 @@ def regenera_forcats(transport, fets: int, errors: int):
             if part
         )
         print(f"Regeneració forçada de {slug}.mp3")
-        if sintetitza_i_puja(slug, text, transport):
+        resultat = sintetitza_i_puja(slug, text, transport)
+        if resultat:
             fets += 1
-        else:
+        elif resultat is False:
             errors += 1
     return fets, errors
 
@@ -542,38 +545,85 @@ def sintetitza_gemini_wav(text: str, desti: Path, veu: str = GEMINI_VEU,
             w.writeframes(f)
 
 
-# Pauses entre els intents de la Joana (24.11.2026). Des del 22.11.2026 Microsoft
-# falla a estones: «No audio was received» (talla la connexió en ~2 s) o la
-# connexió es penja. Amb 10 s entre intents moltes peces acabaven a la Kore; amb
-# 30 s i 60 s el servei té temps de refer-se. Perquè la passada no s'acosti al
-# límit de 45 min del workflow, el temps perdut amb intents fallits de la Joana
-# (inclosos penjaments i pauses) té un sostre: passat EDGE_SOSTRE_S, la resta de
-# la passada va directament a la Kore.
-EDGE_PAUSES = (30, 60)
-EDGE_SOSTRE_S = 20 * 60
+# La Joana a trossos (25.11.2026, decisió d'en Rafael). Des del 22.11.2026
+# Microsoft falla a estones: «No audio was received» o la connexió es penja, i
+# falla molt més amb els textos llargs. El 24.11.2026, amb la peça sencera en
+# una sola petició (3 intents, pauses de 30 i 60 s), 15 de les 20 notícies van
+# acabar a la Kore, que es paga. Ara:
+#  1) el text es parteix en trossos curts (paràgrafs, i frases si cal) i cada
+#     tros es demana a part, amb reintents propis; un tall només fa repetir
+#     aquell tros, no tota la peça. Els MP3 dels trossos s'enganxen (edge-tts
+#     ja ho fa així per dins: MP3 de 24 kHz mono, trames independents);
+#  2) si la Joana no surt ni així, la peça s'AJORNA: no se'n fa cap MP3 i la
+#     passada següent (després de cada lot i la passada horària) la torna a
+#     provar amb la Joana. La Kore NOMÉS es fa servir si Microsoft tanca la
+#     porta del tot (403, com del 12 al 23.10.2026) o si edge-tts no hi és.
+#     KORE_SI_FALLA=1 torna al comportament antic (Kore a la primera fallada).
+EDGE_MAX_CARACTERS = int(os.environ.get("EDGE_MAX_CARACTERS", "700"))
+EDGE_TIMEOUT_TROS_S = 45          # un tros de 700 caràcters triga ~5-10 s
+EDGE_PAUSES = (5, 15, 30, 60)     # pauses entre intents d'un mateix tros
+EDGE_SOSTRE_S = 25 * 60           # temps màxim perdut amb intents fallits per passada
+KORE_SI_FALLA = os.environ.get("KORE_SI_FALLA", "") == "1"
 _edge_perdut = 0.0
 
 
-def _sintetitza_edge(fitxer_text: Path, mp3: Path, slug: str) -> bool:
-    """Veu principal (la Joana, edge-tts). True si ha deixat un MP3 vàlid a `mp3`."""
+class Ajornada(Exception):
+    """La Joana no ha respost: la peça es torna a provar a la passada següent."""
+
+
+def trossos_edge(text: str, maxim: int = EDGE_MAX_CARACTERS) -> list:
+    """Parteix el text en trossos de com a molt `maxim` caràcters, per paràgrafs
+    i, si un paràgraf és massa llarg, per frases (i, en últim cas, per espais)."""
+    unitats = []
+    for paragraf in re.split(r"\n\s*\n", text):
+        paragraf = " ".join(paragraf.split())
+        if not paragraf:
+            continue
+        if len(paragraf) <= maxim:
+            unitats.append(paragraf)
+            continue
+        for frase in re.split(r"(?<=[.!?…;:»”])\s+", paragraf):
+            while len(frase) > maxim:
+                tall = frase.rfind(" ", 0, maxim)
+                if tall <= 0:
+                    tall = maxim
+                unitats.append(frase[:tall].strip())
+                frase = frase[tall:].strip()
+            if frase:
+                unitats.append(frase)
+    trossos, actual = [], ""
+    for u in unitats:
+        if actual and len(actual) + 1 + len(u) > maxim:
+            trossos.append(actual)
+            actual = u
+        else:
+            actual = f"{actual}\n{u}" if actual else u
+    if actual:
+        trossos.append(actual)
+    return trossos
+
+
+def _edge_tros(text: str, desti: Path, slug: str, n: int, total: int) -> bool:
+    """Un tros amb la Joana, amb reintents. True si ha deixat àudio a `desti`.
+    Llança Ajornada si s'ha esgotat el temps de la passada."""
     global _EDGE_KO, _edge_perdut
+    entrada = desti.with_suffix(".txt")
+    entrada.write_text(text, encoding="utf-8")
     for intent in range(len(EDGE_PAUSES) + 1):
         if _edge_perdut >= EDGE_SOSTRE_S:
-            print(f"AVÍS: la Joana ja ha fet perdre {int(_edge_perdut // 60)} min en aquesta passada; "
-                  "la resta es farà amb la Kore.")
-            _EDGE_KO = True
-            return False
+            raise Ajornada(f"la Joana ja ha fet perdre {int(_edge_perdut // 60)} min en aquesta passada")
         if intent:
             pausa = EDGE_PAUSES[intent - 1]
             time.sleep(pausa)  # el servei de Microsoft es recupera sol
             _edge_perdut += pausa
+        desti.unlink(missing_ok=True)
         inici = time.monotonic()
         try:
             # timeout per intent: sense això, una síntesi penjada bloqueja la run
             # sencera fins al límit del workflow (va passar el 24.07.2026).
             resultat = subprocess.run(
-                ["edge-tts", "--voice", EDGE_VEU, "-f", str(fitxer_text), "--write-media", str(mp3)],
-                timeout=120, capture_output=True, text=True,
+                ["edge-tts", "--voice", EDGE_VEU, "-f", str(entrada), "--write-media", str(desti)],
+                timeout=EDGE_TIMEOUT_TROS_S, capture_output=True, text=True,
             )
         except FileNotFoundError:
             print("AVÍS: edge-tts no està instal·lat; la passada es fa amb la Kore.")
@@ -581,20 +631,40 @@ def _sintetitza_edge(fitxer_text: Path, mp3: Path, slug: str) -> bool:
             return False
         except subprocess.TimeoutExpired:
             _edge_perdut += time.monotonic() - inici
-            print(f"AVÍS: edge-tts penjat amb {slug} (intent {intent + 1}/{len(EDGE_PAUSES) + 1}); es reintenta.")
+            print(f"AVÍS: edge-tts penjat amb {slug}, tros {n}/{total} (intent {intent + 1}/{len(EDGE_PAUSES) + 1}).")
             continue
-        if resultat.returncode == 0 and mp3.is_file() and mp3.stat().st_size > MIDA_MINIMA:
+        if resultat.returncode == 0 and desti.is_file() and desti.stat().st_size > 1000:
             return True
         _edge_perdut += time.monotonic() - inici
         darrera = (resultat.stderr or "").strip().splitlines()[-1:] or ["sense missatge"]
-        print(f"AVÍS: edge-tts ha fallat amb {slug} (intent {intent + 1}/{len(EDGE_PAUSES) + 1}): {darrera[0][:160]}")
+        print(f"AVÍS: edge-tts ha fallat amb {slug}, tros {n}/{total} "
+              f"(intent {intent + 1}/{len(EDGE_PAUSES) + 1}): {darrera[0][:160]}")
         # 403 = Microsoft rebutja la connexió (com del 12 al 23.10.2026). Reintentar
-        # no serveix: la resta de la passada va directament a la Kore.
+        # no serveix: la resta de la passada va a la Kore.
         if "403" in (resultat.stderr or ""):
             print("AVÍS: Microsoft rebutja la Joana (403); la resta d'aquesta passada es farà amb la Kore.")
             _EDGE_KO = True
             return False
     return False
+
+
+def _sintetitza_edge(fitxer_text: Path, mp3: Path, slug: str) -> bool:
+    """Veu principal (la Joana, edge-tts), a trossos. True si ha deixat un MP3
+    vàlid a `mp3`; False si cal passar al recanvi (403 o edge-tts absent).
+    Llança Ajornada si la Joana no ha respost però s'ha de tornar a provar."""
+    trossos = trossos_edge(fitxer_text.read_text(encoding="utf-8"))
+    if not trossos:
+        return False
+    parts = []
+    for n, tros in enumerate(trossos, 1):
+        desti = mp3.with_name(f"tros-{n:03d}.mp3")
+        if not _edge_tros(tros, desti, slug, n, len(trossos)):
+            if _EDGE_KO:
+                return False
+            raise Ajornada(f"el tros {n}/{len(trossos)} no ha sortit després de {len(EDGE_PAUSES) + 1} intents")
+        parts.append(desti.read_bytes())
+    mp3.write_bytes(b"".join(parts))
+    return mp3.stat().st_size > MIDA_MINIMA
 
 
 def _sintetitza_gemini(fitxer_text: Path, mp3: Path, slug: str) -> bool:
@@ -672,13 +742,14 @@ def wav_a_mp3(wav: Path, mp3: Path, kbps: int = 64) -> None:
     mp3.write_bytes(enc.encode(dades) + enc.flush())
 
 
-def sintetitza_i_puja(slug: str, text: str, transport) -> bool:
-    """Sintetitza `text` i el puja a assets/audio/<slug>.mp3. True si tot ha anat bé.
+def sintetitza_i_puja(slug: str, text: str, transport):
+    """Sintetitza `text` i el puja a assets/audio/<slug>.mp3.
 
-    Primer la veu principal (la Joana, edge-tts). Si Microsoft falla, Gemini
-    Kore. Si també falla — sense clau, sense quota o amb el servei caigut —, la
-    veu catalana local de Piper, que corre dins del mateix runner i no depèn de
-    cap servei extern ni de cap clau.
+    Torna True si tot ha anat bé, False si hi ha hagut un error i None si la
+    peça s'ha AJORNAT (la Joana no ha respost: es torna a provar a la passada
+    següent, sense gastar Kore). Primer la Joana (edge-tts, a trossos). Només
+    si Microsoft tanca la porta (403) o edge-tts no hi és, Gemini Kore; i si
+    també falla, la veu catalana local de Piper.
     """
     with tempfile.TemporaryDirectory() as td:
         fitxer_text = Path(td) / "text.txt"
@@ -687,7 +758,13 @@ def sintetitza_i_puja(slug: str, text: str, transport) -> bool:
         correcte = False
         veu = "Joana"
         if not _EDGE_KO:
-            correcte = _sintetitza_edge(fitxer_text, mp3, slug)
+            try:
+                correcte = _sintetitza_edge(fitxer_text, mp3, slug)
+            except Ajornada as motiu:
+                if not KORE_SI_FALLA:
+                    print(f"AJORNAT {slug}: {motiu}; es tornarà a provar amb la Joana a la passada següent (sense Kore).")
+                    return None
+                correcte = False
         if not correcte and not _GEMINI_KO:
             mp3.unlink(missing_ok=True)
             veu = "Gemini Kore"
@@ -714,7 +791,7 @@ def main() -> int:
     transport = tria_transport()
     if transport is None:
         return 1
-    fets = saltats = errors = 0
+    fets = saltats = errors = ajornats = 0
     # REFES_EDICIO=1 (entrada «refes_edicio» del workflow, 12.10.2026): torna a
     # sintetitzar TOTES les peces de l'edició actual encara que ja tinguin MP3,
     # p. ex. després de canviar de veu. Només a mà: la passada horària no ho fa.
@@ -748,8 +825,11 @@ def main() -> int:
             )
             if not text.strip():
                 continue
-            if sintetitza_i_puja(slug, text, transport):
+            resultat = sintetitza_i_puja(slug, text, transport)
+            if resultat:
                 fets += 1
+            elif resultat is None:
+                ajornats += 1
             else:
                 errors += 1
     else:
@@ -802,14 +882,20 @@ def main() -> int:
             )
             if not text:
                 continue
-            if sintetitza_i_puja(slug, text, transport):
+            resultat = sintetitza_i_puja(slug, text, transport)
+            if resultat:
                 fets += 1
+            elif resultat is None:
+                ajornats += 1
             else:
                 print(f"AVÍS: no s'ha pogut generar l'àudio de {fitxer.name} (no bloqueja res).")
         except Exception as exc:  # les peces extres mai no trenquen la resta
             print(f"AVÍS: error inesperat amb {fitxer}: {exc}")
 
-    print(f"---\nGenerats: {fets} · Ja existien: {saltats} · Errors: {errors}")
+    print(f"---\nGenerats: {fets} · Ja existien: {saltats} · Ajornats (la Joana no ha respost): {ajornats} · Errors: {errors}")
+    # Els ajornats no fan fallar el workflow: si fallés, GitHub deixa de llançar
+    # la passada horària (vegeu PUBLICACIO_I_XARXES_DE_SEGURETAT) i no es
+    # repescarien.
     # Si alguna pujada de NOTÍCIA ha fallat, marquem el workflow com a fallit
     # perquè es vegi i es pugui reexecutar.
     return 1 if errors else 0
