@@ -62,7 +62,11 @@ const respostaRtve = { page: { items: [
   { id: 17270002, title: 'La tàctica - Política municipal', description: 'Res a veure', publicationDate: '15-10-2026 19:00:00', duration: 3300000, htmlUrl: 'https://www.rtve.es/play/audios/la-tactica/politica/17270002/' }
 ] } };
 
-const respostaOmnyProgrames = { Programs: [{ Id: 'p1', Slug: 'via-lliure-entrevista' }, { Id: 'p2', Slug: 'versio-rac1' }] };
+const respostaOmnyProgrames = { Programs: [
+  { Id: 'p0', Slug: 'via-lliure-arxivat', Archived: true },
+  ...Array.from({ length: 12 }, (_, i) => ({ Id: `px${i}`, Slug: `via-lliure-seccio-${i}` })),
+  { Id: 'p1', Slug: 'via-lliure-entrevista' }, { Id: 'p2', Slug: 'versio-rac1' }
+] };
 const respostaOmnyClips = { Clips: [
   { Id: 'c1', Title: 'Pep Martorell sobre la IA', Description: 'Entrevista sobre intel·ligència artificial', PublishedUtc: '2026-10-14T09:00:00Z', DurationSeconds: 1500, EmbedUrl: 'https://omny.fm/shows/via-lliure-entrevista/pep-martorell-sobre-la-ia/embed' }
 ] };
@@ -73,6 +77,8 @@ async function ambFixtures() {
   await writeFile(join(dir, 'rtve-1030997.json'), JSON.stringify(respostaRtve));
   await writeFile(join(dir, 'omny-programes.json'), JSON.stringify(respostaOmnyProgrames));
   await writeFile(join(dir, 'omny-via-lliure-entrevista.json'), JSON.stringify(respostaOmnyClips));
+  // 12 seccions vives sense cap clip, abans de l'entrevista: abans del 25.11.2026 l'entrevista quedava fora.
+  for (let i = 0; i < 12; i++) await writeFile(join(dir, `omny-via-lliure-seccio-${i}.json`), JSON.stringify({ Clips: [] }));
   return dir;
 }
 
