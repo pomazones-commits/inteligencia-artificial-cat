@@ -1,8 +1,52 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-25T15:02:05.165Z",
+ "actualitzat": "2026-11-25T17:15:17.482Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "ea44c4a46932",
+   "mitja": "El Nacional",
+   "font": "elnacional-totes",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El cervell humà amaga una cosa que la intel·ligència artificial mai podrà imitar, segons aquesta teoria",
+   "url": "https://www.elnacional.cat/ca/tecnologia/cervell-huma-amaga-cosa-intelligencia-artificial-mai-podra-imitar-segons-aquesta-teoria_1731299_102.html",
+   "publicat": "2026-11-25T16:00:00.000Z"
+  },
+  {
+   "id": "9d080993d9da",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Nvidia lidera la caiguda dels valors tecnològics que arrosseguen el Nasdaq a zona negativa",
+   "url": "https://www.elnacional.cat/oneconomia/ca/mercats/nvidia-lidera-caiguda-tecnologics-arrosseguen-nasdaq-negativa_1731341_102.html",
+   "publicat": "2026-11-25T15:36:23.000Z"
+  },
+  {
+   "id": "2aca1f534e7a",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nothing ofrece un adelanto de sus nuevos auriculares Ear (note): podrán grabar a través de su funda y transcribir con IA",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/25/2757559/nothing-ofrece-adelanto-nuevos-auriculares-ear-note-podran-grabar-traves-funda-transcribir-ia.html",
+   "publicat": "2026-11-25T15:23:00.000Z"
+  },
+  {
+   "id": "59fd036ae4aa",
+   "mitja": "Diario de Mallorca",
+   "font": "diariodemallorca-totes",
+   "icona": "/assets/premsa/diario-de-mallorca.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los expertos alertan del peligro de depender demasiado de la inteligencia artificial: “Cuanto más la utilizamos, más habilidades perdemos”",
+   "url": "https://www.diariodemallorca.es/mallorca/2026/11/25/expertos-alertan-peligro-depender-inteligencia-136843371.html",
+   "publicat": "2026-11-25T15:22:34.000Z"
+  },
   {
    "id": "ab94ec2b050b",
    "mitja": "El Periódico",
@@ -10,7 +54,7 @@
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
-   "titol": "Nvidia y Anthropic vuelven a hundirse hasta un 8% y arrastran al Nasdaq",
+   "titol": "Nvidia y Anthropic caen un 8% y arrastran al Nasdaq 100, que ya pierde un 20% desde octubre",
    "url": "https://www.elperiodico.com/es/economia/20261125/nvidia-anthropic-vuelven-hundirse-8-136843668",
    "publicat": "2026-11-25T15:01:44.000Z"
   },
@@ -24,6 +68,17 @@
    "titol": "El New York Times demana als seus fotògrafs que no actualitzin Photoshop i la culpa és de la IA",
    "url": "https://www.elnacional.cat/ca/tecnologia/new-york-times-demana-seus-fotografs-no-actualitzin-photoshop-culpa-es-ia_1731248_102.html",
    "publicat": "2026-11-25T15:00:00.000Z"
+  },
+  {
+   "id": "f3740e40deae",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cisco y OpenAI lanzan una iniciativa de código abierto para blindar infraestructuras ante ciberataques con IA.",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/25/2757543/cisco-openai-lanzan-iniciativa-codigo-abierto-para-blindar-infraestructuras-ante-ciberataques.html",
+   "publicat": "2026-11-25T14:58:10.000Z"
   },
   {
    "id": "c9b84cca0e86",
@@ -76,7 +131,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "La tecnología se hunde de nuevo: el Nasdaq se deja un 4% con fuertes descensos de Nvidia y Anthropic",
+   "titol": "La tecnología se hunde de nuevo: el Nasdaq se deja hasta un 4% con fuertes descensos de Nvidia y Anthropic",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-25/la-bolsa-y-el-ibex-35.html",
    "publicat": "2026-11-25T12:16:30.000Z"
   },
@@ -100,7 +155,9 @@
    "ambit": "catala",
    "titol": "La Cambra de Barcelona crea una eina d'IA per potenciar el comerç de proximitat",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/cambra-barcelona-crea-eina-ia-potenciar-comerc-proximitat_1731080_102.html",
-   "publicat": "2026-11-25T11:23:16.000Z"
+   "publicat": "2026-11-25T11:23:16.000Z",
+   "noticia": "cambra-barcelona-laia-c-assistent-whatsapp-comerc-proximitat",
+   "noticiaTitol": "La Cambra de Comerç de Barcelona estrena LaIA C, un assistent d'IA al WhatsApp que recomana botigues i ofertes del comerç de proximitat"
   },
   {
    "id": "62e92d476182",
@@ -2727,61 +2784,6 @@
    "titol": "California investiga a Nvidia por posibles transferencias de chips avanzados a China",
    "url": "https://elpais.com/us/2026-11-19/california-investiga-a-nvidia-por-posibles-transferencias-de-chips-avanzados-a-china.html",
    "publicat": "2026-11-19T23:36:56.000Z"
-  },
-  {
-   "id": "9913477f617b",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Cristian Canton: \"La IA está hackeando el sistema de comunicación humano\"",
-   "url": "https://www.elperiodico.com/es/economia/20261119/cristian-canton-ia-hackeando-sistema-136626925",
-   "publicat": "2026-11-19T20:00:54.000Z"
-  },
-  {
-   "id": "0532023e2294",
-   "mitja": "Diari de Tarragona",
-   "font": "diaridetarragona",
-   "icona": "/assets/premsa/diari-de-tarragona.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La JEC desestima la denuncia del PSOE contra el vídeo del PP de Begoña Gómez hecho con IA",
-   "url": "https://www.diaridetarragona.com/espana/276184/jec-desestima-denuncia-psoe-video-pp-begona-gomez-hecho-ia.html",
-   "publicat": "2026-11-19T19:55:39.000Z"
-  },
-  {
-   "id": "08df6e90ebeb",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Murtra defensa la sobirania tecnològica europea en IA i en satèl·lits",
-   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/murtra-defensa-sobirania-tecnologica-europea-ia-en-satellits_1728353_102.html",
-   "publicat": "2026-11-19T19:26:53.000Z"
-  },
-  {
-   "id": "6c10ba448070",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Javier Morales (Ayuntamiento de Alicante): \"Apostamos por la IA para mejorar los servicios, pero siempre de manera inclusiva\"",
-   "url": "https://www.informacion.es/alicante/2026/11/19/javier-morales-ayuntamiento-alicante-apostamos-136636297.html",
-   "publicat": "2026-11-19T19:22:12.000Z"
-  },
-  {
-   "id": "0d135bc245d5",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Quién pone los límites a la nueva IA agéntica capaz de actuar de forma autónoma?",
-   "url": "https://www.informacion.es/economia/2026/11/19/pone-limites-nueva-ia-agentica-136636448.html",
-   "publicat": "2026-11-19T19:19:39.000Z"
   }
  ]
 }
