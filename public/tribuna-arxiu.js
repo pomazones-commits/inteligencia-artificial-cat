@@ -64,7 +64,7 @@ window.IA_TRIBUNA_ARXIU = [
     "orgUrl": "https://cidai.eu/",
     "eix": "economia-i-treball",
     "title": "Joan Mas i Albaigès (CIDAI): per què a les pimes els costa tant passar de la prova pilot a l’ús real de la IA",
-    "excerpt": "El director del Centre d’Innovació per a les Dades i la Intel·ligència Artificial (CIDAI) i de l’Àrea Digital d’Eurecat explica què ha canviat a les empreses catalanes en cinc anys, què separa un agent d’IA útil d’una demostració vistosa, per què la sobirania tecnològica és alhora una qüestió tècnica, econòmica i política, i quin lloc pot ocupar Catalunya en la IA europea.",
+    "excerpt": "El director del Centre d’Innovació per a les Dades i la Intel·ligència Artificial (CIDAI) i director científic de l’Àrea Digital d’Eurecat explica què ha canviat a les empreses catalanes en cinc anys, què separa un agent d’IA útil d’una demostració vistosa, per què la sobirania tecnològica és alhora una qüestió tècnica, econòmica i política, i quin lloc pot ocupar Catalunya en la IA europea.",
     "quote": "Incorporar la IA no consisteix simplement a adquirir una nova eina informàtica, per sofisticada que sigui; cal que respongui a un propòsit estratègic clar.",
     "photo": "./assets/tribuna-joan-mas-20261125.jpg",
     "photoAlt": "Joan Mas i Albaigès, director del CIDAI, a l’AI Congress Barcelona",
