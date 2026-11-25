@@ -1,8 +1,32 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-25T00:07:25.364Z",
+ "actualitzat": "2026-11-25T17:15:15.839Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "kfGYU_-SuaE",
+   "titol": "School Day | Make a day do anything with ChatGPT (Official)",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "societat",
+   "idioma": "en",
+   "publicat": "2026-11-25T16:45:33.000Z",
+   "descripcio": "When an unexpected change of plans throws Marla and Ava’s day off course, the pair embark on a spontaneous adventure with a little help from ChatGPT. ChatGPT can move things around, plan trips and create room in your day to spend doing things you love, with people you love. With ChatGPT, you can Mak",
+   "miniatura": "/assets/videos/kfGYU_-SuaE.jpg"
+  },
+  {
+   "id": "hwKct_1ilEQ",
+   "titol": "How to Set Up Finances in ChatGPT",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "models",
+   "idioma": "en",
+   "publicat": "2026-11-25T14:00:28.000Z",
+   "descripcio": "Finances in ChatGPT can help you get a clearer picture of your spending and find ways to make progress toward your financial goals. In this video, we'll get you up to speed with the basics of Finances in ChatGPT: connect your bank account, review your recurring subscriptions, and build a budget arou",
+   "miniatura": "/assets/videos/hwKct_1ilEQ.jpg"
+  },
   {
    "id": "1u0hTd86_HU",
    "titol": "Experiment with SVG & 3D Design with the Codex Plugin",
