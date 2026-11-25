@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-25T05:39:23.250Z",
+  "generat": "2026-11-25T09:12:05.211Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -135,9 +135,8 @@
       "font": "wordpress",
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
-      "estat": "ok",
-      "audios": 32,
-      "sobre_ia": 2
+      "estat": "error",
+      "error": "fetch failed"
     },
     {
       "font": "wordpress",
@@ -165,7 +164,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 9,
+      "audios": 12,
       "sobre_ia": 0
     },
     {
@@ -177,40 +176,5 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": [
-    {
-      "id": "rtve-17329383",
-      "emissora": "Ràdio 4",
-      "programa": "La tarda de Ràdio 4",
-      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
-      "data": "2026-11-24",
-      "durada": "31 min",
-      "titol_original": "Què hem de fer si ens roben el mòbil? Safareigos tecnològics amb Arnau Font",
-      "descripcio_original": "Amb Arnau Font, el nostre col·laborador expert en tecnologia, parlem del retorn inesperat de Jensen Huang al capdavant de NVIDIA, després d'haver abandonat el càrrec onze dies abans, torna a situar el gegant dels xips d'intel·ligència artificial al centre de l'actualitat. Però la tecnologia també té una cara molt més quotidiana: què hem de fer si ens roben el mòbil i com protegir les nostres dades, comptes bancaris i contrasenyes per evitar que el robatori vagi més enllà. També viatgem fins a Corea del Sud, on la por que els estudiants utilitzin la intel·ligència artificial per copiar als exàmens ha provocat mesures tan insòlites com tapar els botons de la roba amb adhesius o enviar alertes d'emergència als telèfons mòbils per detectar aparells amagats. La polèmica ha acabat amb la dimissió del ministre d'Educació. I tanquem amb una mirada nostàlgica: el Tamagotchi celebra 30 anys. Aquella petita mascota digital que ens obligava a alimentar-la, jugar-hi i netejar-la continua viva tres dècades després i ha aconseguit conquerir també les noves generacions.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-hem-fer-si-ens-roben-mobil-safareigos-tecnologics-amb-arnau-font/17329383/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17329383"
-      }
-    },
-    {
-      "id": "rac1-20261121-empresa-amb-oriol-l-pez-villena-lia-com",
-      "emissora": "RAC1",
-      "programa": "La primera pedra",
-      "programa_url": "https://www.rac1.cat/a-la-carta/programes/la-primera-pedra",
-      "data": "2026-11-21",
-      "durada": "5 min",
-      "titol_original": "Empresa amb Oriol López Villena - L'IA com a dopamina o com a vitamina",
-      "descripcio_original": "",
-      "descripcio_curta": true,
-      "ia_al_titol": true,
-      "url": "https://omny.fm/shows/la-primera-pedra-l-hora-de-creixer/empresa-amb-oriol-l-pez-villena-lia-com-a-dopamina-o-com-a-vitamina",
-      "reproductor": {
-        "tipus": "omny",
-        "id": "la-primera-pedra-l-hora-de-creixer/empresa-amb-oriol-l-pez-villena-lia-com-a-dopamina-o-com-a-vitamina"
-      }
-    }
-  ]
+  "candidats": []
 }
