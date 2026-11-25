@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-25T05:15:12.042Z",
+  "generat": "2026-11-25T05:39:23.250Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -103,7 +103,7 @@
       "emissora": "RAC1",
       "programa": "Via lliure",
       "estat": "ok",
-      "audios": 473,
+      "audios": 680,
       "sobre_ia": 0
     },
     {
@@ -111,15 +111,15 @@
       "emissora": "RAC1",
       "programa": "La primera pedra",
       "estat": "ok",
-      "audios": 480,
-      "sobre_ia": 0
+      "audios": 800,
+      "sobre_ia": 1
     },
     {
       "font": "omny",
       "emissora": "RAC1",
       "programa": "El món a RAC1",
       "estat": "ok",
-      "audios": 420,
+      "audios": 928,
       "sobre_ia": 0
     },
     {
@@ -193,6 +193,23 @@
       "reproductor": {
         "tipus": "rtve",
         "id": "17329383"
+      }
+    },
+    {
+      "id": "rac1-20261121-empresa-amb-oriol-l-pez-villena-lia-com",
+      "emissora": "RAC1",
+      "programa": "La primera pedra",
+      "programa_url": "https://www.rac1.cat/a-la-carta/programes/la-primera-pedra",
+      "data": "2026-11-21",
+      "durada": "5 min",
+      "titol_original": "Empresa amb Oriol López Villena - L'IA com a dopamina o com a vitamina",
+      "descripcio_original": "",
+      "descripcio_curta": true,
+      "ia_al_titol": true,
+      "url": "https://omny.fm/shows/la-primera-pedra-l-hora-de-creixer/empresa-amb-oriol-l-pez-villena-lia-com-a-dopamina-o-com-a-vitamina",
+      "reproductor": {
+        "tipus": "omny",
+        "id": "la-primera-pedra-l-hora-de-creixer/empresa-amb-oriol-l-pez-villena-lia-com-a-dopamina-o-com-a-vitamina"
       }
     }
   ]
