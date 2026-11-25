@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-24T17:13:25.790Z",
+  "generat": "2026-11-25T05:15:12.042Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -16,7 +16,7 @@
       "programa": "Catalunya nit",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 1
+      "sobre_ia": 0
     },
     {
       "font": "3cat",
@@ -48,7 +48,7 @@
       "programa": "La tàctica",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 5
+      "sobre_ia": 4
     },
     {
       "font": "rtve",
@@ -128,15 +128,15 @@
       "programa": "",
       "resultats": 5,
       "estat": "ok",
-      "audios": 2,
-      "sobre_ia": 1
+      "audios": 0,
+      "sobre_ia": 0
     },
     {
       "font": "wordpress",
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 35,
+      "audios": 32,
       "sobre_ia": 2
     },
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 16,
+      "audios": 17,
       "sobre_ia": 0
     },
     {
@@ -179,53 +179,20 @@
   ],
   "candidats": [
     {
-      "id": "apunt-1911279",
-      "emissora": "À Punt Ràdio",
-      "programa": "Cadena de valor",
-      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
-      "data": "2026-11-24",
-      "durada": "",
-      "titol_original": "Inspiration Day 2026: estratègia i màrqueting en l’era de la intel·ligència artificial",
-      "descripcio_original": "Amanda Simón, gerent del Club de Màrqueting del Mediterrani, presenta una nova edició d’Inspiration Day, una trobada que reunirà grans marques i empreses emergents valencianes per analitzar com prendre decisions, guanyar visibilitat i competir en un entorn condicionat pels algoritmes i l’excés d’informació.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/24-11-2026-inspiration-day-2026-estrategia-marqueting-l-intel-ligencia-artificial_135_1911279.html",
-      "reproductor": {
-        "tipus": "enllac"
-      }
-    },
-    {
-      "id": "rtve-17328658",
+      "id": "rtve-17329383",
       "emissora": "Ràdio 4",
-      "programa": "La tàctica",
-      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
       "data": "2026-11-24",
-      "durada": "12 min",
-      "titol_original": "Mercè Gisbert, directora de l'AQU: “Hem de canviar la manera d'avaluar a les Universitats\"",
-      "descripcio_original": "Analitzem amb Mercè Gisbert, directora de l'AQU Catalunya, l’Agència per a la Qualitat del Sistema Universitari de Catalunya, l’arribada i l’impacte de la IA als sistema universitari català.",
+      "durada": "31 min",
+      "titol_original": "Què hem de fer si ens roben el mòbil? Safareigos tecnològics amb Arnau Font",
+      "descripcio_original": "Amb Arnau Font, el nostre col·laborador expert en tecnologia, parlem del retorn inesperat de Jensen Huang al capdavant de NVIDIA, després d'haver abandonat el càrrec onze dies abans, torna a situar el gegant dels xips d'intel·ligència artificial al centre de l'actualitat. Però la tecnologia també té una cara molt més quotidiana: què hem de fer si ens roben el mòbil i com protegir les nostres dades, comptes bancaris i contrasenyes per evitar que el robatori vagi més enllà. També viatgem fins a Corea del Sud, on la por que els estudiants utilitzin la intel·ligència artificial per copiar als exàmens ha provocat mesures tan insòlites com tapar els botons de la roba amb adhesius o enviar alertes d'emergència als telèfons mòbils per detectar aparells amagats. La polèmica ha acabat amb la dimissió del ministre d'Educació. I tanquem amb una mirada nostàlgica: el Tamagotchi celebra 30 anys. Aquella petita mascota digital que ens obligava a alimentar-la, jugar-hi i netejar-la continua viva tres dècades després i ha aconseguit conquerir també les noves generacions.",
       "descripcio_curta": false,
       "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-merce-gisbert-directora-laqu-hem-canviar-manera-davaluar-les-universitats/17328658/",
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-hem-fer-si-ens-roben-mobil-safareigos-tecnologics-amb-arnau-font/17329383/",
       "reproductor": {
         "tipus": "rtve",
-        "id": "17328658"
-      }
-    },
-    {
-      "id": "rtve-17328671",
-      "emissora": "Ràdio 4",
-      "programa": "La tàctica",
-      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
-      "data": "2026-11-24",
-      "durada": "55 min",
-      "titol_original": "Tàctiques per organitzar l’economia familiar en parella",
-      "descripcio_original": "Compte conjunt o comptes separats? Com repartim les despeses de casa? Com podem evitar discussions pels diners? Consultori útil amb Marta Domingo, coach de finances i vida i col·laboradora del programa. Tot seguit, analitzem amb Mercè Gisbert, directora de l'AQU Catalunya, l’Agència per a la Qualitat del Sistema Universitari de Catalunya, l’arribada i l’impacte de la IA als sistema universitari català.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-tactiques-per-organitzar-economia-familiar-parella/17328671/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17328671"
+        "id": "17329383"
       }
     }
   ]

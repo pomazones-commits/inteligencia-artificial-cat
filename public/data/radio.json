@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-11-20",
+  "actualitzat": "2026-11-25",
   "nota": "La IA a la ràdio (11.10.2026). Des del 17.10.2026 les fitxes noves les escriu la sessió editorial a incoming/radio-fitxes.json a partir dels candidats d'automation/radio-candidats.json, i el workflow radio.yml (automation/scripts/recull-radio.mjs) les valida i les afegeix aquí; també s'hi poden afegir a mà. Quines emissores i programes entren a la recollida (APIs de 3Cat, RTVE i Omny, el cercador d'À Punt i les webs WordPress de RAB i de les ràdios locals) ho diu automation/radio-sources.json. Cap automatització no canvia ni esborra les fitxes que ja hi són. Cada intervenció és una fitxa amb: id (únic, minúscules i guions; per a 3Cat, «3cat-<id de l'àudio>»), emissora (el nom ha de ser una clau d'«emissores»), programa, programa_url (web oficial del programa), data (AAAA-MM-DD, la de l'àudio a la web de l'emissora), durada («53 min», «1 h 2 min»; buida si l'emissora no la diu), titol (TÍTOL PROPI, no el de l'emissora), convidats (llista de {nom, rol}; el rol tal com el presenta el programa, en català), resum (RESUM PROPI de 30-80 paraules a partir de la descripció oficial: no copiïs la de l'emissora i no t'inventis què s'hi diu), tema (un dels de «temes»), url (la pàgina oficial de l'àudio) i reproductor ({tipus, id}). Tipus de reproductor (els mateixos a radio.php, radio.js i scripts/valida-radio.mjs): «3cat» (id numèric; https://www.3cat.cat/3cat/audio/<id>/embed/), «rtve» (id numèric; https://www.rtve.es/drmn/embed/audio/<id>), «omny» (RAC1 i altres que publiquen a Omny; id «<programa>/<clip>», el que dona l'EmbedUrl de l'API d'Omny), «soundcloud» (id numèric de la pista), «youtube» (id de 11 caràcters; es carrega des de youtube-nocookie.com) i «enllac» (l'emissora no ofereix reproductor incrustable: la fitxa només enllaça la seva web). Per afegir-ne un, comprova abans que l'emissora el dona com a codi d'inserció oficial. «emissores»: nom → {web, icona}. «icona» és l'adreça de la icona oficial; el workflow radio-icones.yml (automation/scripts/icones-radio.mjs) la baixa UNA vegada a public/assets/radio/ i actualitza public/data/radio-icones.json: el lector mai no fa cap petició a l'emissora. Per renovar-la, esborra el fitxer. 🛑 Mai no es baixa ni s'allotja l'àudio ni la foto de l'emissora: només el seu reproductor, i només quan el lector hi fa clic. Valida amb: node scripts/valida-radio.mjs",
   "temes": {
     "societat": "Societat, ètica i desinformació",
@@ -51,6 +51,49 @@
     }
   },
   "intervencions": [
+    {
+      "id": "apunt-1911279",
+      "emissora": "À Punt Ràdio",
+      "programa": "Cadena de valor",
+      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
+      "data": "2026-11-24",
+      "durada": "",
+      "titol": "Amanda Simón presenta a Cadena de valor l'Inspiration Day, una trobada sobre com competir en màrqueting en temps d'IA",
+      "convidats": [
+        {
+          "nom": "Amanda Simón",
+          "rol": "gerent del Club de Màrqueting del Mediterrani"
+        }
+      ],
+      "resum": "L'entrevista del dia de Cadena de valor, a À Punt Ràdio, presenta la nova edició de l'Inspiration Day, que aplegarà grans marques i empreses emergents valencianes. Amanda Simón n'explica l'objectiu: debatre com es prenen decisions, com es guanya visibilitat i com es competeix en un entorn marcat pels algorismes, la intel·ligència artificial i l'excés d'informació.",
+      "tema": "feina",
+      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/24-11-2026-inspiration-day-2026-estrategia-marqueting-l-intel-ligencia-artificial_135_1911279.html",
+      "reproductor": {
+        "tipus": "enllac"
+      }
+    },
+    {
+      "id": "rtve-17328658",
+      "emissora": "Ràdio 4",
+      "programa": "La tàctica",
+      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
+      "data": "2026-11-24",
+      "durada": "12 min",
+      "titol": "Mercè Gisbert, directora de l'AQU Catalunya, defensa a La tàctica que la IA obliga les universitats a canviar la manera d'avaluar",
+      "convidats": [
+        {
+          "nom": "Mercè Gisbert",
+          "rol": "directora de l'AQU Catalunya, l'Agència per a la Qualitat del Sistema Universitari de Catalunya"
+        }
+      ],
+      "resum": "La tàctica de Ràdio 4 dedica una entrevista a l'arribada de la intel·ligència artificial a les universitats catalanes. Mercè Gisbert, que dirigeix l'agència que vetlla per la qualitat del sistema universitari, n'analitza l'impacte i sosté que els campus han de canviar la manera com avaluen els estudiants.",
+      "tema": "educacio",
+      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-merce-gisbert-directora-laqu-hem-canviar-manera-davaluar-les-universitats/17328658/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17328658"
+      }
+    },
     {
       "id": "rtve-17323044",
       "emissora": "Ràdio 4",
