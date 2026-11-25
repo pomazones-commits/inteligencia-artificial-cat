@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-25T13:20:51.283Z",
+  "generat": "2026-11-25T17:14:34.827Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 16,
+      "audios": 18,
       "sobre_ia": 0
     },
     {
@@ -177,23 +177,5 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": [
-    {
-      "id": "3cat-1298757",
-      "emissora": "Catalunya Ràdio",
-      "programa": "El matí de Catalunya Ràdio",
-      "programa_url": "https://www.3cat.cat/3cat/el-mati-de-catalunya-radio/",
-      "data": "2026-11-25",
-      "durada": "1 h 0 min",
-      "titol_original": "El matí, de 9 a 10 h (L'àgora) - 25/11/2026",
-      "descripcio_original": "Parlem de la utilització d'IA en campanya i repassem la resta de components de cara al 29N amb Montserrat Nebrera, David Madi, Nacho Corredor i Eva Pomares.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.3cat.cat/3cat/el-mati-de-9-a-10-h-lagora-25112026/audio/1298757/",
-      "reproductor": {
-        "tipus": "3cat",
-        "id": "1298757"
-      }
-    }
-  ]
+  "candidats": []
 }
