@@ -236,6 +236,8 @@ export function llegeixOmny(json) {
   }).filter(a => a.reproductor.id && OMNY_ID.test(a.reproductor.id));
 }
 const OMNY_ID = /^[a-z0-9-]+\/[a-z0-9-]+$/;
+// Sostre de seguretat de shows d'Omny per programa (RAC1 en té 20-35 de vius).
+const OMNY_MAX_SHOWS = 60;
 
 // --- WordPress (RAB Ràdio i ràdios locals) --------------------------------------
 // Moltes ràdios locals publiquen cada tall com una entrada de WordPress amb el
@@ -493,14 +495,19 @@ export async function recull({ fonts, dades, descartats = [], anterior = null, a
         audios = llegeixRtve(j);
       } else if (p.font === 'omny') {
         if (!Array.isArray(programesOmny)) throw new Error(`llista de programes d'Omny: ${programesOmny?.error || 'no disponible'}`);
-        const shows = programesOmny.filter(s => String(s.Slug || '').startsWith(p.slug));
+        // RAC1 publica cada secció del programa com un show a part (via-lliure-entrevista,
+        // el-mon-entrevista, la-primera-pedra-l-hora-de-creixer…): n'hi ha 20-35 per programa.
+        // Abans (17.10-25.11.2026) se'n llegien només els 12 primers de la llista d'Omny,
+        // arxivats inclosos, i quedaven fora seccions vives com «El món · Entrevista».
+        // Ara: tots els shows que no són arxivats (Omny els marca amb «Archived»).
+        const shows = programesOmny.filter(s => String(s.Slug || '').startsWith(p.slug) && !s.Archived);
         if (!shows.length) {
           // Perquè el log digui quin és el nom bo: els shows que s'hi assemblen.
           const mots = p.slug.split('-').filter(m => m.length > 2);
           const semblants = programesOmny.map(s => String(s.Slug || '')).filter(sl => mots.some(m => sl.includes(m))).slice(0, 8);
           throw new Error(`cap show d'Omny comença per «${p.slug}»${semblants.length ? ` (semblants: ${semblants.join(', ')})` : ''}`);
         }
-        for (const s of shows.slice(0, 12)) {
+        for (const s of shows.slice(0, OMNY_MAX_SHOWS)) {
           const j = await obtenir(`omny-${s.Slug}`, `https://api.omny.fm/orgs/${fonts.omny_org}/programs/${s.Id}/clips?pageSize=40`);
           audios.push(...llegeixOmny(j));
         }
