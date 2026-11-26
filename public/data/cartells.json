@@ -1,10 +1,23 @@
 {
-  "actualitzat": "2026-11-25",
+  "actualitzat": "2026-11-26",
   "nota": "Imatges oficials dels actes, desades al nostre servidor. Les genera automation/scripts/recull-cartells.mjs: no s'edita a mà.",
   "cartells": {
+    "2026-11-19-ix-jornades-de-qualitat-linguistica-als-mitjans-de-comunicac": {
+      "error": "la web no declara cap imatge per compartir (og:image)",
+      "provat": "2026-11-26"
+    },
     "2026-11-26-ii-congres-internacional-sobre-comunicacio-tecnologia-i-llen": {
       "error": "proporció estranya (1077×308)",
       "provat": "2026-11-25"
+    },
+    "2026-11-26-jornada-biblioteca-tech-la-ia-al-despatx-del-criteri-juridic": {
+      "imatge": "/assets/cartells/2026-11-26-jornada-biblioteca-tech-la-ia-al-despatx-del-criteri-juridic.jpg",
+      "amplada": 1200,
+      "alcada": 675,
+      "font": "https://www.cicac.cat/wp-content/uploads/2026/11/jornada-TECH-BIBLIOTEQUES_2026_page-0001.jpg",
+      "pagina": "https://www.cicac.cat/2026/11/jornada-gratuita-biblioteca-tech-la-ia-al-despatx-del-criteri-juridic-a-la-practica/",
+      "organitza": "Consell de l'Advocacia Catalana (CICAC), amb el Col·legi de l'Advocacia de Granollers-Vallès Oriental",
+      "recollit": "2026-11-26"
     },
     "2026-12-02-tech-spirit-barcelona-2026": {
       "imatge": "/assets/cartells/2026-12-02-tech-spirit-barcelona-2026.jpg",
@@ -14,6 +27,23 @@
       "pagina": "https://techspirit.barcelona/",
       "organitza": "Tech Barcelona",
       "recollit": "2026-11-03"
+    },
+    "2026-12-03-ai-accelerator-demo-day-2026": {
+      "error": "no és una imatge JPEG, PNG ni WebP",
+      "provat": "2026-11-26"
+    },
+    "2026-12-04-ai-builders-hacksprint-barcelona": {
+      "error": "no és una imatge JPEG, PNG ni WebP",
+      "provat": "2026-11-26"
+    },
+    "2026-12-11-aina-hack-2026-2a-edicio": {
+      "imatge": "/assets/cartells/2026-12-11-aina-hack-2026-2a-edicio.jpg",
+      "amplada": 1200,
+      "alcada": 770,
+      "font": "https://eurecat-web.b-cdn.net/wp-content/uploads/2026/10/Plantilla-imatge-webinar-CAT-SIN-AI-FAC-.png",
+      "pagina": "https://eurecat.org/calendari/aina-hack-2026/",
+      "organitza": "Secretaria de Polítiques Digitals de la Generalitat de Catalunya i Eurecat, amb el BSC-CNS, Accent Obert i el CIDAI",
+      "recollit": "2026-11-26"
     },
     "2026-12-21-deep-learning-barcelona-symposium-2026-dlbcn-2026": {
       "imatge": "/assets/cartells/2026-12-21-deep-learning-barcelona-symposium-2026-dlbcn-2026.jpg",
