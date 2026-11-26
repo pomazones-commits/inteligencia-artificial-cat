@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-11-25",
+    "title": "Qui revisa el que fa la màquina",
+    "dek": "Un dimecres en què la IA ha avançat en feina feta i en resultats científics, però gairebé totes les notícies acaben en el mateix punt: algú ha de mirar què fa abans que sigui massa tard.",
+    "body": [
+      "Ahir dèiem que els agents d'IA es queden cada vegada més claus de la nostra vida digital. Avui el dia ha posat la pregunta següent: qui comprova què fan amb aquestes claus? Una prova nova, ShellBench, feta a partir de més de deu milions d'interaccions reals, mostra que els millors agents fallen més d'una de cada tres feines quotidianes, com endreçar correus o pagar factures, i que el 15,7% dels intents incompleixen alguna norma de seguretat. Meta, mentrestant, ha posat el seu agent Muse dins dels missatges d'Instagram, i Walmart li deixa comprar productes. L'agent arriba abans que la fiabilitat.",
+      "El mateix patró ha sortit per altres bandes. Un treball encara no revisat per parells ha provat sis models amb 105 tasques i ha vist que els robots que governen fan sovint accions perilloses; la solució que proposen, LEASH, és justament un filtre que revisa cada ordre abans que el robot l'executi. The New York Times ha prohibit als seus fotògrafs col·laboradors el nou Photoshop perquè fa servir la IA de maneres que poden no ser evidents. I l'estudi d'Anthropic sobre 58 empreses diu que el primer obstacle per treure profit de la IA a la feina és que produeix més del que les persones poden revisar.",
+      "Hi ha una versió més inquietant de la mateixa idea. Més de vint-i-cinc fonts d'OpenAI i Anthropic expliquen a Axios que els sistemes per vigilar els models no avancen tan de pressa com els models, i alguns investigadors ja demanen deixar d'entrenar-ne de més potents. La investigació sobre Talkie, l'aplicació de companyia de MiniMax, mostra què passa quan ningú no fa aquesta feina: documents interns indiquen que es premiaven els personatges que allargaven les converses, i hi parlaven milers d'infants. Al Regne Unit, el centre de ciberseguretat avisa que els atacs amb agents d'IA troben en minuts els forats que les empreses arrosseguen fa anys.",
+      "El mercat també sembla haver perdut la paciència. Dell ha doblat els ingressos gràcies als servidors d'IA i acumula 132.000 milions de dòlars en comandes, però aquest dimecres el Nasdaq perdia més d'un 4% a mitja sessió, amb Nvidia, Micron i Anthropic a la baixa, en una setmana marcada pel retorn de Jensen Huang a Nvidia i pels possibles guanys de Trump amb les accions de l'empresa. Hi han pesat també la inflació i els aranzels, i no és fàcil destriar què respon a la IA. El que es veu és que els inversors ja no paguen qualsevol promesa.",
+      "La ciència ha ofert el contrapunt. Una IA que mesura la proteïna TROP2 a les biòpsies assenyala quins malalts de càncer de pulmó aprofiten més un fàrmac nou, segons «Nature Medicine»; un model de Harvard omple els buits dels mapes de biodiversitat; un xatbot va fer canviar d'opinió una part dels qui creien en una conspiració just després d'un atemptat, segons «PNAS», i una IA de la Universitat del Sud de Califòrnia estima la gravetat de l'apnea del son amb deu minuts de senyals. Tots aquests treballs tenen una cosa en comú: presenten la IA com una eina que ajuda el metge o l'investigador, no que el substitueix.",
+      "A casa nostra la IA s'ha vist en feines concretes: la barcelonina Permut capta tres milions per vendre fora els seus agents d'atenció al client, la Generalitat encarrega al CIMNE una IA que estimi els pisos buits de cada barri sense assenyalar-ne cap de concret, Alacant compta els visitants del castell de Santa Bàrbara i la Cambra de Comerç de Barcelona estrena un assistent per al comerç de proximitat. Demà caldrà mirar si el mercat es calma després d'Acció de Gràcies i si algun dels grans laboratoris respon als seus propis treballadors sobre com vigilarà els models que encara no ha tret."
+    ],
+    "signals": [
+      {
+        "title": "Els millors agents d'IA fallen més d'una de cada tres feines quotidianes, com endreçar correus o pagar factures, segons una prova nova",
+        "slug": "shellbench-agents-ia-fallen-feines-quotidianes"
+      },
+      {
+        "title": "Treballadors d'OpenAI i Anthropic temen que els seus models més avançats, encara no publicats, no es puguin treure mai al públic amb seguretat",
+        "slug": "treballadors-openai-anthropic-temen-models-no-publicats"
+      },
+      {
+        "title": "La IA a la feina s'encalla més per la revisió dels resultats i la resistència dels treballadors que per aprendre les eines, segons un estudi d'Anthropic",
+        "slug": "anthropic-estudi-58-empreses-obstacles-ia-feina"
+      },
+      {
+        "title": "ACTUALITZACIÓ: La borsa torna a castigar la IA i el Nasdaq perd més d'un 4% a mitja sessió, arrossegat per Nvidia, Micron i Anthropic",
+        "slug": "borsa-nasdaq-cau-nvidia-micron-anthropic-25-novembre"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 621
+  },
+  {
     "date": "2026-11-24",
     "title": "Les claus als agents, i el cadenat a part",
     "dek": "Un dimarts en què la IA ha guanyat accés a més racons de la nostra vida digital, mentre els atacants fan servir les mateixes eines i el mercat comença a dubtar de qui en traurà profit.",
@@ -2904,37 +2937,5 @@ window.IA_REFLEXIONS_ARXIU = [
     ],
     "read": "3 MIN",
     "words": 665
-  },
-  {
-    "date": "2026-08-21",
-    "title": "Deute que no es diu deute, compres que no es diuen compres",
-    "dek": "Broadcom, Nvidia i SK Hynix construeixen avui la mateixa arquitectura: operacions dissenyades perquè un deute, una compra o una recompra no s'assemblin del tot a un deute, una compra o una recompra.",
-    "body": [
-      "Avui l'edició s'ha omplert de xifres rodones -6.000 milions, 60.000 milions, 28.600 milions-, però el que tenen en comú no és la mida sinó la forma. Broadcom negocia amb Blackstone i Apollo fins a 100.000 milions de dòlars en deute, canalitzats a través d'un vehicle de propòsit especial, perquè Anthropic tingui xips sense que ningú hagi de posar el nom d'Anthropic al balanç de ningú. Nvidia paga 6.000 milions de dòlars per la tecnologia i gairebé tot l'equip de la start-up Poolside, però els seus fundadors insisteixen dues vegades que «no és una adquisició». Són operacions dissenyades, literalment, perquè no s'assemblin al que són.",
-      "El que hi ha de nou no és que la IA costi diners -això ja ho sabíem- sinó que el sector ha après a estructurar aquest cost perquè eviti les revisions que rebria una operació convencional: una fusió compra escrutini regulador; un préstec bancari clàssic compra condicions dures; una emissió d'accions compra transparència pública obligatòria. Els vehicles de propòsit especial, les llicències no exclusives i els «no és una adquisició» compren, sobretot, temps i discreció. No hi ha res d'il·legal ni de nou com a tècnica financera -els bancs d'inversió en viuen des de fa dècades-, però la freqüència amb què hi apareix avui, en dues operacions de mides molt diferents el mateix dia, sí que ho és.",
-      "El SK Hynix d'avui hi encaixa des de l'extrem contrari: una empresa amb la demanda garantida dels seus xips de memòria HBM ha vist com el mercat li castigava igualment el valor en borsa, i respon amb la recompra d'accions més gran de la seva història per separar, diu la mateixa companyia, «el valor intrínsec» del «sentiment inversor». Les dades de Ramp sobre la despesa real d'empreses en OpenAI i Anthropic expliquen per què els inversors dubten: la quota de mercat entre totes dues gira en només dos mesos, sense que cap tingui un avantatge que sembli permanent. La conclusió és incòmoda per a qui finança tot això: el capital compromès a llarg termini creix més de pressa que la fidelitat real dels clients que l'haurien de pagar.",
-      "La tendència que apunta, doncs, no és que la bombolla existeixi o no -és un debat que porta mesos obert i que aquesta pàgina no pot resoldre-, sinó que els actors que hi participen es comporten com si donessin per fet un risc real de correcció, i es protegeixen amb enginyeria financera i contractual abans que amb resultats de negoci demostrats. Deute avalat en lloc de deute directe. Llicència en lloc de compra formal. Recompra pròpia en lloc d'esperar que el mercat reconegui sol el valor. Totes són maneres d'absorbir un cop sense haver de dir en veu alta que se n'espera un.",
-      "Caldrà mirar si aquesta arquitectura financera aguanta quan arribi la primera prova de tensió real: un impagament, una empresa client que es passa de banda com detecta Ramp, o simplement un trimestre en què la despesa en IA es frenï de sobte. També valdrà la pena veure si Anthropic, que prepara alhora la sortida a borsa més ambiciosa des de la de SpaceX, arriba al mercat públic abans que cap d'aquests mecanismes de deute privat es posi a prova de debò: sortir a borsa és, precisament, l'operació que menys es pot dissenyar perquè no sembli el que és."
-    ],
-    "signals": [
-      {
-        "title": "Broadcom negocia més de 60.000 milions de dòlars en deute per finançar xips d'IA per a Anthropic",
-        "slug": "broadcom-deute-60000-milions-ia-anthropic"
-      },
-      {
-        "title": "Nvidia paga 6.000 milions de dòlars per llicenciar la tecnologia de la start-up d'IA Poolside i hi fitxa 109 persones",
-        "slug": "nvidia-poolside-model-factory-milions"
-      },
-      {
-        "title": "SK Hynix llança una recompra d'accions de 28.600 milions de dòlars per aturar la caiguda del seu valor, malgrat la fam de xips de memòria per a IA",
-        "slug": "sk-hynix-recompra-accions-memoria-ia"
-      },
-      {
-        "title": "OpenAI avança per davant d'Anthropic entre els usuaris empresarials, segons les dades de Ramp",
-        "slug": "openai-avanca-anthropic-usuaris-empresarials-ramp"
-      }
-    ],
-    "read": "3 MIN",
-    "words": 551
   }
 ];
