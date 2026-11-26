@@ -1,6 +1,6 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-26T09:24:09.733Z",
+ "actualitzat": "2026-11-26T17:17:03.859Z",
  "canals": 19,
  "videos": [
   {
@@ -1138,30 +1138,6 @@
    "noticia": "openai-gpt-6-cyber-firefox-linux",
    "noticiaTitol": "OpenAI presenta GPT-6 Cyber, un model per a experts en seguretat que ha trobat 81 errors greus a Firefox",
    "resum": "Vídeo d'OpenAI en què Mozilla explica com ha fet servir GPT-6 Cyber per descobrir vulnerabilitats greus de Firefox que no es coneixien i com n'ha distribuït les correccions als usuaris. Hi parla Brian Grinstead, enginyer de Mozilla."
-  },
-  {
-   "id": "C-APNKnK48c",
-   "titol": "SORS: REDEFINE: Software-Defined Dynamic Dataflow at the Convergence of HPC and Agentic AI",
-   "canal": "BSC-CNS",
-   "canalId": "UC-jQw5yIjnUTRAg4DwOY4aA",
-   "grup": "ciencia",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-11-05T13:36:44.000Z",
-   "descripcio": "Speakers: Dr. S. K. Nandy, Deepak Shapeti, Dr. Ranjani Narayan & Dr. Nils Voss. ---------- Abstract: GPUs were built for dense-tensor throughput, but the fastest-growing work in both HPC and AI — sparse solvers, mixture-of-experts inference, long-context and agentic workloads — is irregular and boun",
-   "miniatura": "/assets/videos/C-APNKnK48c.jpg"
-  },
-  {
-   "id": "SuOD7X4KqaI",
-   "titol": "SORS: Integration of Multi-Agent Reinforcement Learning with the HP2C-DT & COLMENA frameworks",
-   "canal": "BSC-CNS",
-   "canalId": "UC-jQw5yIjnUTRAg4DwOY4aA",
-   "grup": "ciencia",
-   "categoria": "programacio",
-   "idioma": "en",
-   "publicat": "2026-11-05T13:34:21.000Z",
-   "descripcio": "Speaker: Isabela Fons, PhD researcher in Process Systems Engineering at the University of Alicante ---------- Abstract: This research project aims to explore the application of the HP2C-DT and COLMENA frameworks to distributed artificial intelligence solutions for decentralized energy management in ",
-   "miniatura": "/assets/videos/SuOD7X4KqaI.jpg"
   },
   {
    "id": "bJldMYfRvMQ",
