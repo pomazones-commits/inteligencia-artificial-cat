@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-26T09:23:01.824Z",
+  "generat": "2026-11-26T13:14:46.497Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -48,7 +48,7 @@
       "programa": "La tàctica",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 4
+      "sobre_ia": 5
     },
     {
       "font": "rtve",
@@ -136,7 +136,7 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 31,
+      "audios": 33,
       "sobre_ia": 2
     },
     {
@@ -165,17 +165,34 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 11,
+      "audios": 12,
       "sobre_ia": 0
     },
     {
       "font": "rtva",
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
-      "estat": "ok",
-      "audios": 400,
-      "sobre_ia": 4
+      "estat": "error",
+      "error": "HTTP 403"
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "rtve-17332167",
+      "emissora": "Ràdio 4",
+      "programa": "La tàctica",
+      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
+      "data": "2026-11-26",
+      "durada": "55 min",
+      "titol_original": "Com impacte la IA en el benestar dels joves?",
+      "descripcio_original": "Parlem amb Liliana Arroyo Moliner, doctora en sociologia i experta en innovació social digital, de la càtedra sobre l’impacte de la IA en relació al benestar als joves, que ha realitzat juntament amb Mireia Yter Gimeno i Clàudia Larumbe Serra. Chair for Socially Responsible Digital Innovation ( SoReDI ) és una càtedra vinculada a l'Institut d'Innovació Social d'Esade que investiga l'impacte social i ètic de la innovació digital i la intel·ligència artificial, especialment en relació amb el benestar i les generacions joves",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-com-impacte-ia-benestar-dels-joves/17332167/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17332167"
+      }
+    }
+  ]
 }
