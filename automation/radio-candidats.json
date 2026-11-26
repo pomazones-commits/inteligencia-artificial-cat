@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-26T13:16:06.873Z",
+  "generat": "2026-11-26T17:15:57.571Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 12,
+      "audios": 11,
       "sobre_ia": 0
     },
     {
@@ -177,23 +177,5 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": [
-    {
-      "id": "rtve-17332167",
-      "emissora": "Ràdio 4",
-      "programa": "La tàctica",
-      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
-      "data": "2026-11-26",
-      "durada": "55 min",
-      "titol_original": "Com impacte la IA en el benestar dels joves?",
-      "descripcio_original": "Parlem amb Liliana Arroyo Moliner, doctora en sociologia i experta en innovació social digital, de la càtedra sobre l’impacte de la IA en relació al benestar als joves, que ha realitzat juntament amb Mireia Yter Gimeno i Clàudia Larumbe Serra. Chair for Socially Responsible Digital Innovation ( SoReDI ) és una càtedra vinculada a l'Institut d'Innovació Social d'Esade que investiga l'impacte social i ètic de la innovació digital i la intel·ligència artificial, especialment en relació amb el benestar i les generacions joves",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-com-impacte-ia-benestar-dels-joves/17332167/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17332167"
-      }
-    }
-  ]
+  "candidats": []
 }
