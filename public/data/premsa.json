@@ -1,8 +1,74 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-25T17:15:17.482Z",
+ "actualitzat": "2026-11-26T00:43:03.024Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "17e847935c6e",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Savia Innova premia la prevención de la deshidratación con IA y un estudio sobre el propósito vital en mayores",
+   "url": "https://www.lasprovincias.es/sociedad/savia-innova-premia-prevencion-deshidratacion-ia-estudio-20261125003158-nt.html",
+   "publicat": "2026-11-25T23:31:58.000Z"
+  },
+  {
+   "id": "fab276665ed3",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Elena Furiase alaba los poderes de predicción de su madre, Lolita Flores: “Ella fue la ChatGPT de hoy en día”",
+   "url": "https://www.lavanguardia.com/television/20261125/11693511/elena-furiase-alaba-poderes-prediccion-madre-lolita-flores-chatgpt-hoy-dia.html",
+   "publicat": "2026-11-25T22:55:03.000Z"
+  },
+  {
+   "id": "8178fce9e841",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Brussel·les destinarà 50.000 milions a fomentar inversions en IA i computació quàntica",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/brusselles-destinara-50000-milions-fomentar-inversions-en-ia-computacio-quantica_1731518_102.html",
+   "publicat": "2026-11-25T19:54:32.000Z"
+  },
+  {
+   "id": "ac2ada49416f",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Brussel·les impulsa un fons de 50.000 milions per finançar la intel·ligència artificial i la computació quàntica",
+   "url": "https://www.vilaweb.cat/noticies/brusselles-50000-milions-financar-intelligencia-artificial-computacio-quantica",
+   "publicat": "2026-11-25T18:02:28.000Z"
+  },
+  {
+   "id": "b95eaf4e2a61",
+   "mitja": "El Nacional",
+   "font": "elnacional",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Tidal pren una decisió dràstica contra la IA: eliminarà 29 milions de cançons del seu catàleg",
+   "url": "https://www.elnacional.cat/ca/tecnologia/tidal-pren-decisio-drastica-contra-ia-eliminara-29-milions-cancons-seu-cataleg_1731449_102.html",
+   "publicat": "2026-11-25T18:00:00.000Z"
+  },
+  {
+   "id": "9ba75acc28c6",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Anthropic enamora a los analistas, que disparan sus valoraciones, mientras la acción prolonga el castigo",
+   "url": "https://cincodias.elpais.com/companias/2026-11-25/anthropic-enamora-a-los-analistas-que-disparan-sus-valoraciones-mientras-la-accion-prolonga-el-castigo.html",
+   "publicat": "2026-11-25T16:14:16.000Z"
+  },
   {
    "id": "ea44c4a46932",
    "mitja": "El Nacional",
@@ -131,7 +197,7 @@
    "icona": "/assets/premsa/cinco-dias.png",
    "llengua": "es",
    "ambit": "estatal",
-   "titol": "La tecnología se hunde de nuevo: el Nasdaq se deja hasta un 4% con fuertes descensos de Nvidia y Anthropic",
+   "titol": "El Nasdaq contiene las caídas y se deja menos del 1% pese a los fuertes descensos de Nvidia",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-25/la-bolsa-y-el-ibex-35.html",
    "publicat": "2026-11-25T12:16:30.000Z"
   },
@@ -2718,72 +2784,6 @@
    "titol": "La histórica OPV de Anthropic deja de lado a los inversores españoles: “Nunca nos llega nada de papel”",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-20/la-historica-opv-de-anthropic-deja-de-lado-a-los-inversores-espanoles-nunca-nos-llega-nada-de-papel.html",
    "publicat": "2026-11-20T04:30:01.000Z"
-  },
-  {
-   "id": "d0b7a257753d",
-   "mitja": "El País",
-   "font": "elpais-tec",
-   "icona": "/assets/premsa/el-pais.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Llamadas para comprar una bici, mangos o un tratamiento para la vagina: qué pasa si la IA distribuye tu número de teléfono",
-   "url": "https://elpais.com/tecnologia/2026-11-20/llamadas-para-comprar-una-bici-mangos-o-un-tratamiento-para-la-vagina-que-pasa-si-la-ia-distribuye-tu-numero-de-telefono.html",
-   "publicat": "2026-11-20T04:30:01.000Z"
-  },
-  {
-   "id": "13ab5bbe8d1f",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "No escribas por mí, ‘chatbot’: ¿la resistencia a la IA es un privilegio?",
-   "url": "https://elpais.com/smoda/placeres/2026-11-20/no-escribas-por-mi-chatbot-la-resistencia-a-la-ia-es-un-privilegio.html",
-   "publicat": "2026-11-20T04:30:00.000Z"
-  },
-  {
-   "id": "ea59a4a30705",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El Gobierno libra a las administraciones públicas de las multas millonarias por incumplir la ley europea de IA",
-   "url": "https://cincodias.elpais.com/companias/2026-11-20/el-gobierno-libra-a-las-administraciones-publicas-de-las-multas-millonarias-por-incumplir-la-ley-europea-de-ia.html",
-   "publicat": "2026-11-20T04:15:00.000Z"
-  },
-  {
-   "id": "a0deb45fab54",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic debuta amb una pujada del 17% en la sortida a borsa més gran de la història",
-   "url": "https://www.elperiodico.cat/economia/20261120/anthropic-debuta-amb-pujada-17-136646371",
-   "publicat": "2026-11-20T00:46:00.000Z"
-  },
-  {
-   "id": "2442b1f5a5b5",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El científic que vol salvar el món dels riscos de la intel·ligència artificial",
-   "url": "https://www.elperiodico.cat/economia/20261120/cientific-vol-salvar-mon-dels-136646396",
-   "publicat": "2026-11-20T00:45:58.000Z"
-  },
-  {
-   "id": "ad893d6e7f99",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "California investiga a Nvidia por posibles transferencias de chips avanzados a China",
-   "url": "https://elpais.com/us/2026-11-19/california-investiga-a-nvidia-por-posibles-transferencias-de-chips-avanzados-a-china.html",
-   "publicat": "2026-11-19T23:36:56.000Z"
   }
  ]
 }
