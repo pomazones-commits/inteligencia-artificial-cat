@@ -1,4 +1,7 @@
-/* apostrofs.js — apòstrof tipogràfic (’) en lloc del recte (') — 26.11.2026
+/* tipografia.js — retocs tipogràfics en mostrar la pàgina (26.11.2026)
+ * (Fins al 26.11.2026 a les 6 h es deia apostrofs.js i només feia el punt 1.)
+ *
+ * 1. APÒSTROF TIPOGRÀFIC (’) en lloc del recte (').
  *
  * Per què: el contingut automàtic (notícies, radar, anàlisis…) arriba amb
  * l'apòstrof recte de la màquina d'escriure, i els textos fets a mà fan servir
@@ -12,6 +15,13 @@
  *
  * No toca: camps de formulari, codi, scripts, estils ni res que porti
  * l'atribut data-sense-tipografia (o que en sigui dins).
+ *
+ * 2. «ACTUALITZACIÓ:» FORA DEL TITULAR. Quan un titular (h1-h4, també dins d'un
+ * enllaç) comença per «ACTUALITZACIÓ:», el prefix es treu del text i es posa al
+ * davant una etiqueta petita «Actualització» (span.etiq-actualitzacio, estils
+ * aquí mateix). Les dades, el <title> i els enllaços no canvien: les sessions
+ * editorials continuen escrivint «ACTUALITZACIÓ: …» com fins ara. article.php ja
+ * pinta l'etiqueta des del servidor al titular de la notícia.
  *
  * Per desactivar-lo: treure el <script> de la pàgina. No té cap dependència.
  */
@@ -43,9 +53,39 @@
     return null;
   }
 
+  // ── 2. Etiqueta d'actualització ─────────────────────────────────────────
+  var PREFIX = /^\s*ACTUALITZACI[ÓO]\s*:\s*/;
+  var estilPosat = false;
+  function posaEstil() {
+    if (estilPosat) return;
+    estilPosat = true;
+    var st = document.createElement('style');
+    st.textContent = '.etiq-actualitzacio{display:inline-block;margin:0 .5em .12em 0;padding:.42em .62em .38em;border-radius:999px;' +
+      'background:#ffe4e0;color:#a3271d;font:600 clamp(9px,.26em,12px)/1 "IBM Plex Mono",monospace;letter-spacing:.08em;' +
+      'text-transform:uppercase;vertical-align:middle;white-space:nowrap}' +
+      '.etiq-actualitzacio--sola{display:block;width:fit-content;margin:0 0 .5em}';
+    document.head.appendChild(st);
+  }
+  function etiqueta(text) {
+    if (!PREFIX.test(text.nodeValue)) return;
+    var cap = text.parentNode && text.parentNode.closest ? text.parentNode.closest('h1,h2,h3,h4') : null;
+    if (!cap || cap.querySelector('.etiq-actualitzacio')) return;
+    // Només si és el primer tros de text del titular.
+    var w = document.createTreeWalker(cap, NodeFilter.SHOW_TEXT, null), primer;
+    while ((primer = w.nextNode()) && !primer.nodeValue.trim()) { /* salta blancs */ }
+    if (primer !== text) return;
+    posaEstil();
+    text.nodeValue = text.nodeValue.replace(PREFIX, '');
+    var et = document.createElement('span');
+    et.className = 'etiq-actualitzacio' + (cap.tagName === 'H1' ? ' etiq-actualitzacio--sola' : '');
+    et.textContent = 'Actualització';
+    text.parentNode.insertBefore(et, text);
+  }
+
   function arregla(arrel) {
     if (!arrel) return;
     if (arrel.nodeType === 3) {
+      if (arrel.nodeValue.indexOf('ACTUALITZACI') > -1 && apte(arrel)) etiqueta(arrel);
       if (arrel.nodeValue.indexOf("'") > -1 && apte(arrel)) {
         var u = arrel.nodeValue.replace(RE, '$1’');
         if (FINAL.test(u)) { var seg = vei(arrel, true); if (seg && INICI.test(seg.nodeValue)) u = u.replace(FINAL, '$1’'); }
@@ -57,7 +97,7 @@
     if (arrel.nodeType !== 1 && arrel.nodeType !== 9) return;
     var w = document.createTreeWalker(arrel, NodeFilter.SHOW_TEXT, null);
     var n, pendents = [];
-    while ((n = w.nextNode())) if (n.nodeValue.indexOf("'") > -1) pendents.push(n);
+    while ((n = w.nextNode())) if (n.nodeValue.indexOf("'") > -1 || n.nodeValue.indexOf('ACTUALITZACI') > -1) pendents.push(n);
     for (var i = 0; i < pendents.length; i++) arregla(pendents[i]);
   }
 

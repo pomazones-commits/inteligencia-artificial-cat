@@ -189,7 +189,7 @@ body.editorial-body{margin:0;background:var(--ed-bg);color:var(--ed-ink);font-fa
   .topic-feature{margin-inline:-15px}.topic-feature__image{min-height:240px}.topic-feature h2{font-size:34px}
   .topic-card{display:grid;grid-template-columns:105px 1fr;gap:15px}.topic-card img{margin:0;aspect-ratio:4/5}.topic-card h2{font-size:22px}.topic-card>p:last-child{display:none}
   .article-header h1{font-size:clamp(34px,10.6vw,48px);overflow-wrap:break-word}.article-hero-image{width:calc(100% + 30px);margin-left:-15px}
-  .article-body-clean{font-size:19px}.article-related h2{font-size:38px}
+  .article-body-clean{font-size:18px}.article-related h2{font-size:38px}
   .guide-section{grid-template-columns:1fr;padding:56px 0}.guide-section__number{font-size:42px}.prompt-box pre{padding:40px 0 0}
   .privacy-table{display:block;overflow-x:auto}
   .about-disclosure{margin-inline:-15px;padding:34px 24px}.about-disclosure h2{font-size:36px}
@@ -206,3 +206,7 @@ article .subscribe-panel h2{font-size:30px}
    paraules soles a l'última línia. Els navegadors que no ho entenen ho ignoren. */
 h1,h2,h3{text-wrap:balance}
 p,li,blockquote{text-wrap:pretty}
+
+/* 26.11.2026: «ACTUALITZACIÓ:» fora del titular, com a etiqueta (article.php; a la resta de pàgines la posa tipografia.js amb els mateixos estils). */
+.etiq-actualitzacio{display:inline-block;margin:0 .5em .12em 0;padding:.42em .62em .38em;border-radius:999px;background:#ffe4e0;color:#a3271d;font:600 clamp(9px,.26em,12px)/1 var(--ed-mono);letter-spacing:.08em;text-transform:uppercase;vertical-align:middle;white-space:nowrap}
+.etiq-actualitzacio--sola{display:block;width:fit-content;margin:0 0 .5em}

@@ -126,10 +126,10 @@ $rest = array_slice($items, 1);
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="preload" href="/assets/fonts/onest-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/fonts.css?v=2026112601">
-  <link rel="stylesheet" href="/editorial.css?v=2026112601">
+  <link rel="stylesheet" href="/editorial.css?v=2026112602">
   <link rel="stylesheet" href="/eixos.css?v=2026110301">
   <script defer src="/shared.js?v=2026110401"></script>
-  <script defer src="/comptador.js?v=2026110501"></script><script defer src="/apostrofs.js?v=2026112601"></script>
+  <script defer src="/comptador.js?v=2026110501"></script><script defer src="/tipografia.js?v=2026112602"></script>
 </head>
 <body class="editorial-body">
   <header class="editorial-topbar">
