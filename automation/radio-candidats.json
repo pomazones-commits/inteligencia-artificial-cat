@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-26T05:12:21.154Z",
+  "generat": "2026-11-26T09:23:01.824Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -155,7 +155,7 @@
       "nom_web": "Ràdio Capital. La ràdio de l'Empordà",
       "icona_web": "https://i0.wp.com/www.radiocapital.cat/wp-content/uploads/2014/09/cropped-logo_tune_in.png?fit=512%2C512&ssl=1",
       "estat": "ok",
-      "audios": 18,
+      "audios": 19,
       "sobre_ia": 0
     },
     {
@@ -165,7 +165,7 @@
       "nom_web": "Tarragona Ràdio - Notícies, programes i podcasts de Tarragona",
       "icona_web": "https://www.tarragonaradio.cat/wp-content/uploads/2021/02/cropped-cropped-logo-tarragona-radio-1.png",
       "estat": "ok",
-      "audios": 12,
+      "audios": 11,
       "sobre_ia": 0
     },
     {
@@ -177,23 +177,5 @@
       "sobre_ia": 4
     }
   ],
-  "candidats": [
-    {
-      "id": "rtve-17331359",
-      "emissora": "Ràdio 4",
-      "programa": "El pla B",
-      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
-      "data": "2026-11-25",
-      "durada": "1 h 29 min",
-      "titol_original": "El 25N - Tertúlia sobre el retorn de Puigdemont - El colofó de Toni Mata",
-      "descripcio_original": "Comencem el programa amb Lucía Avilés, magistrada i vocal del CGPJ, arran del manifest dels vocals progressistes pel 25-N. Després, Maria Rodó de Zárate ens presenta un estudi sobre la violència que pateixen les defensores del feminisme. I acabem amb Lourdes Muñoz parlant de com la tecnologia i la intel·ligència artificial poden reproduir desigualtats, però també contribuir a combatre-les. Després arriba la tertúlia amb Assumpta Escarp, Quim Jubert, Álvaro Benejam i David Langa. I abans d’arribar a les nou del vespre posem el colofó a la tertúlia amb Toni Mata.",
-      "descripcio_curta": false,
-      "ia_al_titol": false,
-      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-25n-tertulia-sobre-retorn-puigdemont-colofo-toni-mata/17331359/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17331359"
-      }
-    }
-  ]
+  "candidats": []
 }

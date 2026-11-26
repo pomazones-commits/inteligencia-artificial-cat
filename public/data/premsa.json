@@ -1,8 +1,85 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-26T05:13:16.862Z",
+ "actualitzat": "2026-11-26T09:24:05.342Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "7358f37fa170",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Desmitificar el aula con IA: cuando la tecnología deja de ser un obstáculo y empieza a devolver tiempo",
+   "url": "https://www.lavanguardia.com/vida/junior-report/20261126/11693768/desmitificar-aula-ia-tecnologia-deja-obstaculo-empieza-devolver.html",
+   "publicat": "2026-11-26T08:34:10.000Z"
+  },
+  {
+   "id": "f427977f7a54",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Inteligencia artificial y nuevo paradigma educativo: por qué el profesor es ahora la bisagra del aprendizaje",
+   "url": "https://www.levante-emv.com/tendencias21/2026/11/26/inteligencia-artificial-nuevo-paradigma-educativo-136867031.html",
+   "publicat": "2026-11-26T08:23:50.000Z"
+  },
+  {
+   "id": "ebd21f0987fd",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Las agencias de calificación amenazan a Nvidia: S&P pone en revisión su análisis para una posible rebaja",
+   "url": "https://elpais.com/economia/2026-11-26/las-agencias-de-calificacion-amenazan-a-nvidia-sp-pone-en-revision-su-analisis-para-una-posible-rebaja.html",
+   "publicat": "2026-11-26T08:12:30.000Z"
+  },
+  {
+   "id": "067c45ea6c56",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "S&P alerta Nvidia: rebaixarà la seva qualificació si hi ha dubtes sobre la seva gestió",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/s-p-alerta-nvidia-rebaixara-qualificacio-dubtes-gestio_1731587_102.html",
+   "publicat": "2026-11-26T08:03:08.000Z"
+  },
+  {
+   "id": "0b170b7d9584",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Diseñan un método para adaptar antenas móviles con inteligencia artificial sin disparar el consumo de energía",
+   "url": "https://www.lasprovincias.es/tecnologia/disenan-metodo-para-adaptar-rlt_arx-20261126071127-nt.html",
+   "publicat": "2026-11-26T07:25:27.000Z"
+  },
+  {
+   "id": "5747465296c0",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Qué es Muse: el agente de IA de Meta aterriza en Europa y genera dudas por sus fallos de ciberseguridad",
+   "url": "https://www.lavanguardia.com/neo/ia/20261126/11693022/que-es-muse-agente-de-ia-meta-europa-fallos-ciberseguridad.html",
+   "publicat": "2026-11-26T06:20:00.000Z"
+  },
+  {
+   "id": "ce7eb74e4c87",
+   "mitja": "Diari d'Andorra",
+   "font": "diariandorra",
+   "icona": "/assets/premsa/diari-d-andorra.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Andorra Digital ja impulsa l’ús d’IA en concursos públics",
+   "url": "https://www.diariandorra.ad/nacional/261126/andorra-digital-ja-impulsa-l-us-d-ia-concursos-publics_209673.html",
+   "publicat": "2026-11-26T05:24:54.000Z"
+  },
   {
    "id": "eb94d8965e74",
    "mitja": "Levante-EMV",
@@ -34,6 +111,17 @@
    "ambit": "catala",
    "titol": "Tom Cochrane, filósofo: “Tenemos más razones para pensar que una hormiga es consciente que para creer que lo es una IA”",
    "url": "https://www.lavanguardia.com/neo/ia/20261126/11688968/tom-cochrane-filosofo-mas-razones-pensar-hormiga-consciente-creer-ia.html",
+   "publicat": "2026-11-26T05:00:00.000Z"
+  },
+  {
+   "id": "a40abb69348a",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Un referéndum? Qué dice la IA cuando el votante le pregunta por el conflicto Catalunya-España",
+   "url": "https://www.lavanguardia.com/politica/20261126/11693340/referendum-que-dice-ia-votante-le-pregunta-conflicto-catalunya-espana.html",
    "publicat": "2026-11-26T05:00:00.000Z"
   },
   {
@@ -90,6 +178,17 @@
    "titol": "La tecnología impulsa a los planes de pensiones: Microsoft, Apple o Nvidia se repiten en las carteras más rentables",
    "url": "https://cincodias.elpais.com/extras/inversion-fondos-planes/2026-11-26/la-tecnologia-impulsa-a-los-planes-de-pensiones-microsoft-apple-o-nvidia-se-repiten-en-las-carteras-mas-rentables.html",
    "publicat": "2026-11-26T04:30:00.000Z"
+  },
+  {
+   "id": "2397e5498eb8",
+   "mitja": "Segre",
+   "font": "segre",
+   "icona": "/assets/premsa/segre.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Premiats dos estudis sobre la diabetis i la IA als CAP",
+   "url": "https://www.segre.com/ca/lleida/261126/premiats-dos-estudis-sobre-diabetis-i-ia-als-cap_1411562.html",
+   "publicat": "2026-11-26T04:20:47.000Z"
   },
   {
    "id": "e35acd96dd0b",
@@ -300,7 +399,9 @@
    "ambit": "catala",
    "titol": "La empresa de FP privada con un centro en Alicante que planea un ERE y sustituir a tutores por IA: \"Los alumnos demandan mayor rapidez, disponibilidad y capacidad de respuesta\"",
    "url": "https://www.informacion.es/comunidad-valenciana/2026/11/25/empresa-fp-privada-centro-alicante-136830133.html",
-   "publicat": "2026-11-25T14:02:20.000Z"
+   "publicat": "2026-11-25T14:02:20.000Z",
+   "noticia": "masterd-ere-231-treballadors-tutors-substituits-ia",
+   "noticiaTitol": "Una cadena de formació privada amb centres a Alacant i València acomiadarà 231 treballadors i vol que una IA faci part de les tutories"
   },
   {
    "id": "c184c951289f",
@@ -2685,107 +2786,6 @@
    "titol": "Google construeix un internet aïllat per entrenar els seus agents d'IA",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/google-construeix-internet-aillat-entrenar-seus-agents-ia_1728599_102.html",
    "publicat": "2026-11-20T10:43:15.000Z"
-  },
-  {
-   "id": "83386573d84a",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Ignacio Medrano, fundador de Savana: \"Tener una IA médica va a ser algo completamente normal en nuestras vidas\"",
-   "url": "https://www.informacion.es/economia/2026/11/20/ignacio-medrano-savana-136651544.html",
-   "publicat": "2026-11-20T10:27:01.000Z"
-  },
-  {
-   "id": "bf04c97e3756",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Michael Jordan, el gurú que advierte sobre el peligro de la superinteligencia: \"Los riesgos reales son el empleo y la desigualdad\"",
-   "url": "https://www.informacion.es/alicante/2026/11/20/michael-jordan-rompe-relato-dominante-inteligencia-artificial-forum-europeo-ia-136653966.html",
-   "publicat": "2026-11-20T10:24:21.000Z"
-  },
-  {
-   "id": "f3496e54cb80",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Detenidos en Barcelona, Guipúzcoa, Málaga y Melilla cuatro yihadistas que usaban la IA para la radicalización",
-   "url": "https://www.levante-emv.com/espana/2026/11/20/detenidos-barcelona-guipuzcoa-malaga-melilla-136655673.html",
-   "publicat": "2026-11-20T10:22:54.000Z"
-  },
-  {
-   "id": "9ac3e72238aa",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Google crea un Internet aislado para evaluar y entrenar a sus agentes de IA sin riesgos",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/20/2753907/google-crea-internet-aislado-para-evaluar-entrenar-agentes-riesgos.html",
-   "publicat": "2026-11-20T10:18:00.000Z"
-  },
-  {
-   "id": "2146310197d4",
-   "mitja": "El 9 Nou",
-   "font": "el9nou",
-   "icona": "/assets/premsa/el-9-nou.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El CAP del Remei és pioner a aplicar la IA per detectar complicacions de la diabetis",
-   "url": "https://el9nou.cat/osona-ripolles/actualitat/el-cap-del-remei-es-pioner-a-aplicar-la-ia-per-detectar-complicacions-de-la-diabetis",
-   "publicat": "2026-11-20T10:05:00.000Z"
-  },
-  {
-   "id": "8b434f7d839d",
-   "mitja": "El Mundo",
-   "font": "elmundo-tec",
-   "icona": "/assets/premsa/el-mundo.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "TikTok presenta una herramienta para verificar si un contenido está hecho con IA",
-   "url": "https://www.elmundo.es/tecnologia/2026/11/20/6b0017cce4d4d891798b45a7.html",
-   "publicat": "2026-11-20T10:03:09.000Z"
-  },
-  {
-   "id": "67651d0dfb3c",
-   "mitja": "À Punt",
-   "font": "apunt",
-   "icona": "/assets/premsa/a-punt.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "TikTok estrena una ferramenta per a detectar continguts fets amb IA i reforça el control parental",
-   "url": "https://www.apuntmedia.es/noticies/mon/tiktok-estrena-una-ferramenta-detectar-continguts-fets-ia-reforca-control-parental_1_1910349.html",
-   "publicat": "2026-11-20T09:55:36.000Z",
-   "noticia": "tiktok-eina-verificar-videos-fets-amb-ia-control-parental",
-   "noticiaTitol": "TikTok obre una eina perquè qualsevol persona comprovi si un vídeo s'ha fet amb IA i amplia el que poden veure els pares"
-  },
-  {
-   "id": "9ad574a8d058",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Apple prepara su propio agente de IA para competir contra OpenAI y Anthropic: podrá controlar tus dispositivos y aplicaciones",
-   "url": "https://www.lavanguardia.com/neo/ia/20261120/11688953/apple-agente-ia-competir-openai-anthropic-controlar-dispositivos-aplicaciones.html",
-   "publicat": "2026-11-20T09:44:28.000Z"
-  },
-  {
-   "id": "9401d9682f56",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "TikTok estrena una eina per detectar contingut generat per IA",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/tiktok-estrena-eina-detectar-contingut-generat-ia_1728512_102.html",
-   "publicat": "2026-11-20T09:07:27.000Z"
   }
  ]
 }
