@@ -112,9 +112,17 @@
 .seccio-targeta--buida h3 a { color: #dfe3f5; }
 
 /* 25.11.2026: retrats de dos persones (…-doble.jpg) o de grup (…-grup.jpg): la foto va a
-   sobre del text, sencera i més gran, en lloc del quadrat petit del costat. */
+   sobre del text, sencera (sense retallar), en lloc del quadrat del costat.
+   26.11.2026: a la mateixa alçada que els retrats de les altres targetes (128/112/104 px),
+   no a 340 px d'amplada, perquè no destaqui (Defour-Taldir sortia massa gran). */
 .seccio-targeta__cos:has(.seccio-targeta__foto[src*="-doble."]),
 .seccio-targeta__cos:has(.seccio-targeta__foto[src*="-grup."]) { flex-direction: column; }
 .seccio-targeta__foto[src*="-doble."], .seccio-targeta__foto[src*="-grup."] {
-  flex: none; width: 100%; max-width: 340px; height: auto; object-fit: contain;
+  flex: none; width: auto; max-width: 100%; height: 128px; object-fit: contain;
+}
+@media (max-width: 1024px) {
+  .seccio-targeta__foto[src*="-doble."], .seccio-targeta__foto[src*="-grup."] { width: auto; height: 112px; }
+}
+@media (max-width: 640px) {
+  .seccio-targeta__foto[src*="-doble."], .seccio-targeta__foto[src*="-grup."] { width: auto; height: 104px; }
 }
