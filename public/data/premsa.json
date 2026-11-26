@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-26T13:15:42.297Z",
+ "actualitzat": "2026-11-26T14:32:09.427Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "ecc53bce9bb3",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia paraliza la exportación de chips al sureste asiático",
+   "url": "https://www.ultimahora.es/noticias/internacional/2026/11/26/2758271/nvidia-paraliza-exportacion-chips-sureste-asiatico.html",
+   "publicat": "2026-11-26T14:09:00.000Z"
+  },
   {
    "id": "90aaa04af062",
    "mitja": "El Nacional",
@@ -2775,17 +2786,6 @@
    "titol": "David Alonso, vicepresidente en Samsung Electronics España: \"La IA puede ayudar a detectar señales de deterioro cognitivo\"",
    "url": "https://www.informacion.es/economia/2026/11/20/david-alonso-vicepresidente-samsung-electronics-inteligencia-artificial-detectar-senales-alzheimer-deterioro-cognitivo-forum-ia-136667579.html",
    "publicat": "2026-11-20T13:57:18.000Z"
-  },
-  {
-   "id": "1803cee5f5a8",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Así ha sido la segunda jornada del V Fórum europeo de IA",
-   "url": "https://www.informacion.es/videos/informaciontv/2026/11/20/sido-segunda-jornada-v-forum-136666737.html",
-   "publicat": "2026-11-20T13:23:35.000Z"
   }
  ]
 }
