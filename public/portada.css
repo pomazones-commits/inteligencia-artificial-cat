@@ -345,3 +345,14 @@ button { color: inherit; }
 /* 26.11.2026: titulars equilibrats i paràgrafs sense paraules soles a l'última línia. */
 h1,h2,h3{text-wrap:balance}
 p,li{text-wrap:pretty}
+
+/* 26.11.2026 (decisió d'en Rafael): titulars de notícia de la portada en Newsreader,
+   la mateixa lletra que el titular de l'article i que la resta de titulars de la portada.
+   Abans: Onest 700 (carrusel i graella) i Onest 600 (radar). Per desfer-ho, n'hi ha prou
+   d'esborrar aquest bloc (o git revert del commit). */
+.hero-story h2 { font-family: var(--serif); font-weight: 600; line-height: 1; letter-spacing: -.035em; }
+.news-card h3 { font-family: var(--serif); font-weight: 600; line-height: 1.06; letter-spacing: -.025em; }
+.radar-card h3 { font-family: var(--serif); font-size: 19px; line-height: 1.15; letter-spacing: -.015em; }
+@media (max-width: 600px) {
+  body .news-card h3, body .radar-card h3 { font-size: 19px; line-height: 1.12; letter-spacing: -.015em; }
+}
