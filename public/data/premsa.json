@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-26T17:17:03.589Z",
+ "actualitzat": "2026-11-26T23:22:11.925Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "5145113eb230",
+   "mitja": "El Nacional",
+   "font": "elnacional",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Character.AI, en plena fallida, planeja subhastar els xats privats dels usuaris",
+   "url": "https://www.elnacional.cat/ca/tecnologia/characterai-en-plena-fallida-planeja-subhastar-xats-privats-usuaris_1732040_102.html",
+   "publicat": "2026-11-26T19:00:00.000Z"
+  },
+  {
+   "id": "7391b4e6f719",
+   "mitja": "Información",
+   "font": "informacion-totes",
+   "icona": "/assets/premsa/informacion.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un estudiante de la UMH gana un premio nacional por medir con IA el uso de los datos públicos",
+   "url": "https://www.informacion.es/elche/2026/11/26/estudiante-umh-gana-premio-nacional-136894974.html",
+   "publicat": "2026-11-26T18:47:35.000Z"
+  },
+  {
+   "id": "dc0387eaa3f6",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Premien la Corporació de Salut del Maresme i la Selva per un projecte d'intel·ligència artificial",
+   "url": "https://www.diaridegirona.cat/selva/2026/11/26/premien-corporacio-salut-maresme-selva-136894352.html",
+   "publicat": "2026-11-26T18:27:50.000Z"
+  },
+  {
+   "id": "9b7d760a77eb",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Europa torna a allargar els terminis de les gigafactories d’IA",
+   "url": "https://www.ara.cat/economia/tecnologia/brussel-torna-allargar-terminis-gigafactories-d-ia_1_5923786.html",
+   "publicat": "2026-11-26T17:59:02.000Z"
+  },
+  {
+   "id": "d84d1a0d348a",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Mataró incorpora un asistente de inteligencia artificial para impulsar el comercio de proximidad",
+   "url": "https://www.lavanguardia.com/local/maresme/20261126/11694342/mataro-incorpora-asistente-inteligencia-artificial-impulsar-comercio-proximidad.html",
+   "publicat": "2026-11-26T17:40:02.000Z"
+  },
   {
    "id": "9a4c248f11aa",
    "mitja": "Segre",
@@ -2729,61 +2784,6 @@
    "titol": "Cómo hacer que Gemini trabaje por ti en tu Mac mientras tú te dedicas a otras cosas",
    "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-20/como-hacer-que-gemini-trabaje-por-ti-en-tu-mac-mientras-tu-te-dedicas-a-otras-cosas.html",
    "publicat": "2026-11-20T16:00:00.000Z"
-  },
-  {
-   "id": "7c3675fbbd44",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "De Cenicienta a la inteligencia artificial: L’ETNO descubre cómo ha cambiado la fantasía",
-   "url": "https://www.levante-emv.com/cultura/2026/11/20/cenicienta-inteligencia-artificial-l-etno-136672215.html",
-   "publicat": "2026-11-20T15:34:47.000Z"
-  },
-  {
-   "id": "c612955a439b",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Signal bloqueará los intentos de capturar la pantalla que hagan Gemini y Siri en el teléfono móvil",
-   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/20/2754243/signal-bloqueara-intentos-capturar-pantalla-hagan-gemini-siri-telefono-movil.html",
-   "publicat": "2026-11-20T15:21:48.000Z"
-  },
-  {
-   "id": "a357ae87d97c",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La robótica blanda y la aeronáutica marcan el futuro de la investigación con inteligencia artificial",
-   "url": "https://www.informacion.es/alicante/2026/11/20/ia-combina-conocimientos-cientificos-136671644.html",
-   "publicat": "2026-11-20T15:20:02.000Z"
-  },
-  {
-   "id": "a0504dd7886a",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Diego Quintanilla, responsable de proyectos IA de BBVA: \"La inteligencia artificial ha democratizado las capacidades\" para las pymes",
-   "url": "https://www.informacion.es/economia/2026/11/20/diego-quintanilla-bbva-inteligencia-artifificial-democratiza-capacidades-pymes-136665856.html",
-   "publicat": "2026-11-20T15:14:37.000Z"
-  },
-  {
-   "id": "ad732a7a6276",
-   "mitja": "El Nacional",
-   "font": "elnacional-totes",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Gemini, la IA de Google, ja pot controlar aplicacions del teu Mac",
-   "url": "https://www.elnacional.cat/ca/tecnologia/gemini-ia-google-ja-pot-controlar-aplicacions-teu-mac_1728815_102.html",
-   "publicat": "2026-11-20T15:05:00.000Z"
   }
  ]
 }
