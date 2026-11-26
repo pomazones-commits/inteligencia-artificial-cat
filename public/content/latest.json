@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-25T17:14:28.381Z",
+  "updatedAt": "2026-11-26T05:12:26.512Z",
   "items": [
     {
-      "category": "MERCATS",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: La borsa torna a castigar la IA i el Nasdaq perd més d'un 4% a mitja sessió, arrossegat per Nvidia, Micron i Anthropic",
-      "excerpt": "Les accions lligades a la intel·ligència artificial tornen a caure el dia abans de Thanksgiving, ara amb l'empenta d'una inflació més alta del previst i de nous aranzels proposats per la Casa Blanca."
-    },
-    {
-      "category": "TREBALL",
+      "category": "PRIVACITAT",
       "read": "5 MIN",
-      "title": "La IA a la feina s'encalla més per la revisió dels resultats i la resistència dels treballadors que per aprendre les eines, segons un estudi d'Anthropic",
-      "excerpt": "L'equip d'economia de l'empresa ha entrevistat 66 persones de 58 companyies dels Estats Units. Dues terceres parts diuen que contracten menys gent, però només dues han eliminat llocs de feina directament per la IA."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Una IA calcula la gravetat de l'apnea del son amb només deu minuts de senyals del cos, segons un estudi de la Universitat del Sud de Califòrnia a «Nature Communications»",
-      "excerpt": "El sistema, provat amb registres de més de 35.000 persones de cinc grups diferents, classifica l'apnea en quatre graus a partir de la respiració, l'oxigen a la sang i el ritme cardíac."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una xarxa neuronal guiada per la física reconstrueix com es mou un fluid a partir de mesures escasses i plenes de soroll, segons un estudi de la Universitat de Califòrnia a Irvine",
-      "excerpt": "El mètode, publicat a «Physics of Fluids», vol servir algun dia per veure millor com circula la sang pel cor a partir d'ecografies i ressonàncies, tot i que encara no s'ha provat amb imatges mèdiques."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "La Cambra de Comerç de Barcelona estrena LaIA C, un assistent d'IA al WhatsApp que recomana botigues i ofertes del comerç de proximitat",
-      "excerpt": "La prova comença a la Diagonal, a la Rambla de Catalunya i al centre de Mataró. L'assistent respon a qualsevol hora a partir de la informació de les botigues i els restaurants que hi participen."
-    },
-    {
-      "category": "SOCIETAT",
-      "read": "5 MIN",
-      "title": "Una investigació revela que l'app de companyia amb IA Talkie, de la xinesa MiniMax, estava pensada per enganxar els usuaris, i que hi parlaven milers d'infants",
-      "excerpt": "La televisió pública australiana ABC i The Bureau of Investigative Journalism han trobat documents que mostren com els enginyers premiaven els personatges que allargaven les converses. Apple ha retirat l'aplicació de la seva botiga."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "Una IA que mesura en les biòpsies on és la proteïna TROP2 assenyala quins malalts de càncer de pulmó aprofiten més un fàrmac nou, segons «Nature Medicine»",
-      "excerpt": "Els pacients que el marcador calculat per la IA donava com a positius van viure de mitjana 17 mesos amb el fàrmac datopotamab deruxtecan, davant de 10,8 mesos els que donava com a negatius."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Dell dobla els ingressos gràcies als servidors d'IA i acumula comandes pendents per valor de 132.000 milions de dòlars",
-      "excerpt": "El fabricant nord-americà va facturar 54.940 milions en el trimestre, molt per sobre del que esperaven els analistes, i apuja la previsió de vendes de servidors d'IA de l'any fins als 78.000 milions."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una prova nova mostra que els robots governats pels grans models d'IA fan sovint accions perilloses, i un filtre previ en redueix els danys, en un treball no revisat",
-      "excerpt": "Investigadors de la Universitat Xi'an Jiaotong-Liverpool i de Duke Kunshan han provat sis models amb 105 tasques, simulades i amb robots reals. El seu sistema, LEASH, revisa cada ordre abans que el robot l'executi."
-    },
-    {
-      "category": "MITJANS",
-      "read": "4 MIN",
-      "title": "The New York Times prohibeix als seus fotògrafs col·laboradors fer servir el nou Photoshop, perquè hi fa servir la IA sense que se n'adonin",
-      "excerpt": "El diari diu que algunes funcions de Photoshop 2027 apliquen IA generativa «de maneres que poden no ser evidents» i podrien deixar marcades com a editades amb IA fotos que no ho són."
-    },
-    {
-      "category": "SEGURETAT",
-      "read": "5 MIN",
-      "title": "Treballadors d'OpenAI i Anthropic temen que els seus models més avançats, encara no publicats, no es puguin treure mai al públic amb seguretat",
-      "excerpt": "Més de vint-i-cinc fonts de dins de les dues empreses expliquen a Axios que els sistemes de vigilància dels models no avancen tan de pressa com els models, i que alguns investigadors ja demanen deixar d'entrenar-ne de més potents."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una IA de Harvard preveu on viuen milers d'espècies de plantes, papallones i mamífers arreu del món i assenyala on falten dades, segons «Nature Communications»",
-      "excerpt": "El model, anomenat EcoVAE, aprèn dels registres d'observacions i del clima, supera els mètodes tradicionals en les proves i omple els buits de les regions on gairebé ningú no ha fet inventaris."
-    },
-    {
-      "category": "AGENTS",
-      "read": "4 MIN",
-      "title": "Els millors agents d'IA fallen més d'una de cada tres feines quotidianes, com endreçar correus o pagar factures, segons una prova nova",
-      "excerpt": "ShellBench, feta a partir de més de deu milions d'interaccions reals, també troba que el 15,7% dels intents incompleixen alguna norma de seguretat, com no repetir un pagament o no compartir una credencial."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "La barcelonina Permut, que fa agents d'IA per atendre els clients d'empreses com CaixaBank i Esade, capta 3 milions d'euros per sortir a l'estranger",
-      "excerpt": "L'empresa, que fins ara s'havia finançat sola i ja és rendible, té una vuitantena de clients i nou treballadors, i vol arribar a vint amb la ronda encapçalada per Next Tier Ventures."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "La Generalitat encarrega al CIMNE de la UPC una IA que estimi quants pisos buits hi ha a cada barri a partir del consum d'aigua i del cadastre",
-      "excerpt": "El model calcularà la probabilitat que els habitatges d'una zona estiguin desocupats, sense assenyalar cap pis concret, i n'han de sortir els primers resultats a principi del 2027."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "El Regne Unit alerta que els atacs informàtics fets amb agents d'IA es multipliquen i aprofiten forats que les empreses arrosseguen fa anys",
-      "excerpt": "El Centre Nacional de Ciberseguretat britànic ha vist créixer des del setembre els atacs automatitzats amb eines d'IA. No fan servir cap forat nou: troben en minuts contrasenyes febles, claus oblidades al codi i serveis mal protegits."
+      "title": "Els fiscals generals de 42 estats volen impedir que Character.AI subhasti els xats privats de 21 milions d'usuaris per sortir de la fallida",
+      "excerpt": "L'empresa de xatbots de companyia, en fallida des d'octubre, té una subhasta prevista per a l'1 de desembre amb un sol comprador conegut, una societat anònima creada fa dues setmanes. Més de dos milions dels comptes són de menors."
     },
     {
       "category": "POLÍTICA",
       "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Trump podria haver guanyat fins a 15 milions de dòlars amb les accions de Nvidia després de pressionar per tornar-hi Jensen Huang",
-      "excerpt": "Segons les seves declaracions de béns, el president tenia fins a 370.000 accions de Nvidia, que van pujar un 31,5% el dia que Huang va tornar a ser conseller delegat. Els demòcrates del Congrés anuncien investigacions."
+      "title": "Brussel·les proposa un fons de 50.000 milions d'euros per finançar la IA i la computació quàntica a Europa",
+      "excerpt": "La Comissió Europea vol crear un fons de capital risc per a les tecnologies estratègiques i ha presentat a Estrasburg la llei europea de tecnologies quàntiques, que ara s'ha de negociar amb el Parlament i els estats."
     },
     {
       "category": "CIÈNCIA",
       "read": "5 MIN",
-      "title": "Un xatbot fa canviar d'opinió una part de la gent que creu en una conspiració just després d'un atemptat, segons un estudi a «PNAS»",
-      "excerpt": "Investigadors de Cornell, el MIT i Carnegie Mellon van posar a prova el DebunkBot els dies que van seguir l'atemptat contra Trump del 2024 i l'assassinat de Charlie Kirk del 2025. Va ser entre cinc i set vegades més eficaç que un full informatiu."
+      "title": "Uns agents d'IA amb accés al cercador descobreixen qui hi ha darrere de gairebé la meitat d'unes entrevistes anònimes, segons un treball de la Universitat Northeastern",
+      "excerpt": "Els investigadors van esborrar els noms de 822 entrevistes basades en persones reals. Detalls que semblaven innocents, com una feina o un projecte, van bastar perquè els models trobessin la persona. El treball encara no està revisat per parells."
+    },
+    {
+      "category": "REGULACIÓ",
+      "read": "4 MIN",
+      "title": "Nova York prohibeix durant cinc anys les joguines amb xatbots d'IA, just abans de les compres de Nadal",
+      "excerpt": "La governadora Kathy Hochul ha signat la llei, que impedeix fabricar, distribuir i vendre peluixos, nines i robots connectats que parlen amb els infants. És el segon estat que les veta, després de Califòrnia."
     },
     {
       "category": "PRODUCTES",
-      "read": "4 MIN",
-      "title": "Meta posa el seu agent d'IA Muse dins dels missatges d'Instagram, i Walmart li obre les ofertes del Black Friday",
-      "excerpt": "Els usuaris d'Instagram dels Estats Units, el Canadà, Mèxic, el Japó i Singapur ja poden xatejar amb Muse en una conversa privada i demanar-li que actuï a partir d'una publicació. Walmart, per la seva banda, deixa que l'agent li compri productes."
-    },
-    {
-      "category": "COMUNITAT VALENCIANA",
       "read": "3 MIN",
-      "title": "Alacant compta amb IA i càmeres els visitants del castell de Santa Bàrbara per controlar-ne l'aforament en temps real",
-      "excerpt": "L'Ajuntament d'Alacant ha acabat d'instal·lar al castell un sistema de visió artificial que mostra quanta gent hi ha a cada espai, quines zones s'acosten al límit i a quines hores hi ha més afluència."
+      "title": "OpenAI uneix el xat i els agents de feina de ChatGPT en un sol comptador d'ús, i avisa que els usuaris més intensius toparan abans amb el límit",
+      "excerpt": "El canvi comença amb un grup petit de subscriptors Pro i s'estendrà al desembre. Les converses amb el model ràpid Instant continuaran sense límit."
     }
   ]
 }
