@@ -129,3 +129,31 @@
 .editorial-body a.serie-etiqueta { color: var(--ed-ink, #10131a); }
 .editorial-body a.serie-etiqueta:hover,
 .editorial-body a.serie-etiqueta:focus-visible { color: var(--ed-blue, #233a82); }
+
+/* Retrat de qui signa a les fitxes de la pàgina de la secció (26.11.2026,
+   petició d'en Rafael; ara a /veus-de-l-administracio). Foto vertical a
+   l'esquerra, mateix enquadrament que la banda de la portada (veus-portada.css). */
+.fitxa.fitxa--retrat { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 20px; align-items: start; }
+.fitxa__retrat { display: block; }
+.fitxa__retrat img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 14px;
+  border: 1px solid var(--ed-line, #e3e7ef);
+  background: var(--ed-blue-soft, #eef1fa);
+}
+.fitxa__cos { display: flex; flex-direction: column; gap: 10px; min-width: 0; height: 100%; }
+/* Dues persones (-doble.jpg) o grup (-grup.jpg): senceres, a sobre del text,
+   a la mateixa alçada que la resta de retrats (com a seccions-portada.css). */
+.fitxa--retrat:has(.fitxa__retrat img[src*="-doble."]),
+.fitxa--retrat:has(.fitxa__retrat img[src*="-grup."]) { grid-template-columns: 1fr; }
+.fitxa__retrat img[src*="-doble."],
+.fitxa__retrat img[src*="-grup."] { width: auto; max-width: 100%; height: 140px; aspect-ratio: auto; object-fit: contain; }
+@media (max-width: 560px) {
+  .fitxa.fitxa--retrat { grid-template-columns: 68px minmax(0, 1fr); gap: 14px; }
+  .fitxa__retrat img[src*="-doble."],
+  .fitxa__retrat img[src*="-grup."] { height: 112px; }
+}
