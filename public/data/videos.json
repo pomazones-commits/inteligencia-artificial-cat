@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-25T23:47:38.204Z",
+ "actualitzat": "2026-11-26T05:13:19.376Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "C6DENY3rgqg",
+   "titol": "You had us at Deployed",
+   "canal": "OpenAI",
+   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "grup": "empreses",
+   "categoria": "altres",
+   "idioma": "en",
+   "publicat": "2026-11-25T23:50:43.000Z",
+   "descripcio": "You had us at deployed. ❤️ We’re thankful for our customers and everything we’re building together. Thank you for trusting us and sharing what you’re learning along the way.",
+   "miniatura": "/assets/videos/C6DENY3rgqg.jpg"
+  },
   {
    "id": "WN5O4vWCa54",
    "titol": "5 developer tips for working with Gemini 4",
