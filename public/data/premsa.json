@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-26T09:24:05.342Z",
+ "actualitzat": "2026-11-26T13:15:42.297Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "90aaa04af062",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Deloitte situa l'adopció de la IA i la gestió del talent com a grans reptes",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/deloitte-situa-adopcio-ia-gestio-talent-com-grans-reptes_1731872_102.html",
+   "publicat": "2026-11-26T13:13:10.000Z"
+  },
+  {
+   "id": "96bb0108f5ce",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De prohibir las redes sociales a menores a la IA: las propuestas digitales de los partidos para las elecciones del 29N",
+   "url": "https://www.elperiodico.com/es/politica/20261126/prohibir-redes-sociales-menores-centros-datos-ia-elecciones-29n-programa-psoe-pp-vox-frente-amplio-136748259",
+   "publicat": "2026-11-26T13:01:01.000Z"
+  },
+  {
+   "id": "c3bd1d045cc4",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Sacrificios automatizados o robots humanoides en la cadena de producción: la industria cárnica se prepara ante los desafíos de la IA",
+   "url": "https://www.lavanguardia.com/local/girona/20261126/11693989/sacrificios-automatizados-robots-humanoides-cadena-produccion-industria-carnica-prepara-desafios-ia.html",
+   "publicat": "2026-11-26T12:52:21.000Z"
+  },
+  {
+   "id": "806f8146c552",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "El vídeo de Marc Giró a l’ARA: una conversa delirant amb la IA",
+   "url": "https://www.ara.cat/media/video-marc-giro-l-ara-conversa-delirant-ia_1_5923644.html",
+   "publicat": "2026-11-26T11:50:37.000Z"
+  },
+  {
+   "id": "cfa9a0449941",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La indústria càrnia catalana debat a Girona les potencialitats de la IA per ser més competitiva i guanyar eficiència",
+   "url": "https://www.diaridegirona.cat/economia/2026/11/26/industria-carnia-catalana-debat-girona-136875997.html",
+   "publicat": "2026-11-26T11:44:41.000Z"
+  },
+  {
+   "id": "31fac3fe00c9",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cómo verificar los datos del debate a cuatro: esta herramienta de IA permite comprobar las mentiras e inexactitudes de los candidatos a las elecciones del 29N",
+   "url": "https://www.lavanguardia.com/neo/ia/20261126/11693970/verificar-datos-debate-cuatro-herramienta-ia-comprobar-mentiras-inexactitudes-candidatos-elecciones-29n.html",
+   "publicat": "2026-11-26T11:41:52.000Z"
+  },
+  {
+   "id": "9b58112ef3e7",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Una inteligencia artificial “sueña” cuatro materiales inéditos para capturar CO₂ y el equipo del Nobel Omar Yaghi los fabrica en semanas",
+   "url": "https://www.levante-emv.com/tendencias21/2026/11/26/inteligencia-artificial-suena-cuatro-materiales-136871720.html",
+   "publicat": "2026-11-26T10:17:22.000Z"
+  },
+  {
+   "id": "dad955b81363",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El Estado de Nueva York prohíbe los juguetes conectados con chatbots de IA para proteger a los menores",
+   "url": "https://www.ultimahora.es/noticias/tecnologia-videojuegos/2026/11/26/2757999/estado-nueva-york-prohibe-juguetes-conectados-chatbots-para-proteger-menores.html",
+   "publicat": "2026-11-26T10:00:00.000Z"
+  },
   {
    "id": "7358f37fa170",
    "mitja": "La Vanguardia",
@@ -2698,94 +2786,6 @@
    "titol": "Así ha sido la segunda jornada del V Fórum europeo de IA",
    "url": "https://www.informacion.es/videos/informaciontv/2026/11/20/sido-segunda-jornada-v-forum-136666737.html",
    "publicat": "2026-11-20T13:23:35.000Z"
-  },
-  {
-   "id": "feb0526e7e05",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Inteligencia artificial y longevidad: cómo puede ayudarnos a vivir más y mejor",
-   "url": "https://www.lavanguardia.com/vivo/longevity/20261120/11689244/inteligencia-artificial-longevidad-como-ayudarnos-vivir-mas-mejor.html",
-   "publicat": "2026-11-20T13:10:08.000Z"
-  },
-  {
-   "id": "83f20e69dee5",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El desplome de la IA lleva al Nasdaq a su peor semana en año y medio con Anthropic hundiéndose un 8,5%",
-   "url": "https://elpais.com/economia/2026-11-20/la-segunda-jornada-en-bolsa-de-anthropic.html",
-   "publicat": "2026-11-20T13:01:44.000Z"
-  },
-  {
-   "id": "37cc66110691",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El nuevo Meta Muse Charm apunta a diciembre: una IA de bolsillo con pantalla y conexión 5G",
-   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-11-20/el-nuevo-meta-muse-charm-apunta-a-diciembre-una-ia-de-bolsillo-con-pantalla-y-conexion-5g.html",
-   "publicat": "2026-11-20T13:00:00.000Z"
-  },
-  {
-   "id": "bf6d7b851782",
-   "mitja": "Alicante Plaza",
-   "font": "alicanteplaza",
-   "icona": "/assets/premsa/alicante-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | La AESIA insta a las empresas a identificar sus sistemas de IA para anticiparse a las nuevas exigencias regulatorias",
-   "url": "https://alicanteplaza.es/alicanteplaza/tierra-de-empresas-alicante/la-aesia-insta-a-las-empresas-a-identificar-sus-sistemas-de-ia-para-anticiparse-a-las-nuevas-exigencias-regulatorias",
-   "publicat": "2026-11-20T12:23:16.000Z"
-  },
-  {
-   "id": "d5159240de75",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Meta quiere que te olvides del móvil: su pequeño dispositivo de IA costará 300 dólares y llegará a tiempo para Navidad",
-   "url": "https://www.lavanguardia.com/neo/gadgets/20261120/11689126/meta-olvides-movil-pequeno-dispositivo-ia-300-dolares-navidad.html",
-   "publicat": "2026-11-20T12:06:54.000Z"
-  },
-  {
-   "id": "3b70fcee420b",
-   "mitja": "Levante-EMV",
-   "font": "levante-totes",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "L'Ibex 35 es deixa quasi un 0,9 % en l'obertura pels dubtes sobre l'auge de la IA",
-   "url": "https://www.levante-emv.com/en-valencia/2026/11/20/libex-35-deixa-quasi-0-136658870.html",
-   "publicat": "2026-11-20T11:48:42.000Z"
-  },
-  {
-   "id": "7dfcaff2d6d3",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El Ibex pierde los 19.000 puntos en plena huida de la inteligencia artificial",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-20/la-bolsa-y-el-ibex-35.html",
-   "publicat": "2026-11-20T11:47:34.000Z"
-  },
-  {
-   "id": "1b938d20bba7",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Google construeix un internet aïllat per entrenar els seus agents d'IA",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/google-construeix-internet-aillat-entrenar-seus-agents-ia_1728599_102.html",
-   "publicat": "2026-11-20T10:43:15.000Z"
   }
  ]
 }
