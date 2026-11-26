@@ -1,8 +1,140 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-26T00:43:03.024Z",
+ "actualitzat": "2026-11-26T05:13:16.862Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "eb94d8965e74",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Savia Innova premia la prevención de la deshidratación con IA y una investigación sobre el propósito vital en las personas mayores",
+   "url": "https://www.levante-emv.com/salud/2026/11/26/savia-innova-premia-prevencion-deshidratacion-bc-136786375.html",
+   "publicat": "2026-11-26T05:00:51.000Z"
+  },
+  {
+   "id": "4d79b8f1cb2e",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Se acabaron las trampas en los precios? La IA cambia las reglas en el ‘black friday’",
+   "url": "https://www.lavanguardia.com/dinero/bolsillo/20261126/11690085/black-friday-comprar-precios-trampas-ia-inteligencia-artificial-pca.html",
+   "publicat": "2026-11-26T05:00:00.000Z"
+  },
+  {
+   "id": "72050b9eeafe",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tom Cochrane, filósofo: “Tenemos más razones para pensar que una hormiga es consciente que para creer que lo es una IA”",
+   "url": "https://www.lavanguardia.com/neo/ia/20261126/11688968/tom-cochrane-filosofo-mas-razones-pensar-hormiga-consciente-creer-ia.html",
+   "publicat": "2026-11-26T05:00:00.000Z"
+  },
+  {
+   "id": "bf713300b4e7",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia y la mala decisión de Trump sobre el regreso de su jefe",
+   "url": "https://www.lavanguardia.com/economia/20261126/11693096/nvidia-trump-pablo-foncillas-pf-video-seo-lv.html",
+   "publicat": "2026-11-26T05:00:00.000Z"
+  },
+  {
+   "id": "e13219dcccda",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "29-N: El elefante en la habitación se llama IA",
+   "url": "https://www.lavanguardia.com/politica/20261126/11693247/29-n-elefante-habitacion-llama-ia.html",
+   "publicat": "2026-11-26T05:00:00.000Z"
+  },
+  {
+   "id": "09a51808eec2",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La IA, entre el vértigo y la realidad",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-26/la-ia-entre-el-vertigo-y-la-realidad.html",
+   "publicat": "2026-11-26T04:40:00.000Z"
+  },
+  {
+   "id": "11fa3af4842e",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "De la inteligencia artificial al coche eléctrico: la revolución tecnológica de la FP dispara las matriculaciones en Xàtiva, Ontinyent y sus comarcas",
+   "url": "https://www.levante-emv.com/costera/2026/11/26/inteligencia-artificial-coche-electrico-revolucion-136804353.html",
+   "publicat": "2026-11-26T04:30:43.000Z"
+  },
+  {
+   "id": "ecf405d8cfae",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La tecnología impulsa a los planes de pensiones: Microsoft, Apple o Nvidia se repiten en las carteras más rentables",
+   "url": "https://cincodias.elpais.com/extras/inversion-fondos-planes/2026-11-26/la-tecnologia-impulsa-a-los-planes-de-pensiones-microsoft-apple-o-nvidia-se-repiten-en-las-carteras-mas-rentables.html",
+   "publicat": "2026-11-26T04:30:00.000Z"
+  },
+  {
+   "id": "e35acd96dd0b",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA agiliza en la primaria el cribado de una patología ocular entre diabéticos",
+   "url": "https://www.diaridetarragona.com/tarragona/276589/ia-agiliza-primaria-cribado-patologia-ocular-diabeticos.html",
+   "publicat": "2026-11-26T04:00:00.000Z"
+  },
+  {
+   "id": "399b1e8176e6",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Humberto Bustice, experto en IA: «Si se desarrolla un trabajo sólo con IA se retiene mucho menos que si la usan como una ayuda»",
+   "url": "https://www.ultimahora.es/noticias/local/2026/11/26/2757567/humberto-bustice-experto-desarrolla-trabajo-solo-retiene-mucho-menos-usan-como-ayuda.html",
+   "publicat": "2026-11-26T03:48:01.000Z"
+  },
+  {
+   "id": "aa7a342e34d3",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Carissa Véliz imparte una conferencia sobre la IA con el Cercle d’Economia",
+   "url": "https://www.ultimahora.es/noticias/cultura/2026/11/26/2757693/carissa-veliz-imparte-conferencia-sobre-cercle-economia.html",
+   "publicat": "2026-11-26T03:48:01.000Z"
+  },
+  {
+   "id": "249f8ed28dbf",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Hola, IA: tengo que votar en las elecciones del 29N, ¿qué partido me recomiendas?",
+   "url": "https://www.ultimahora.es/noticias/elecciones-29n/2026/11/26/2750877/hola-tengo-votar-elecciones-del-29n-partido-recomiendas.html",
+   "publicat": "2026-11-26T02:59:01.000Z"
+  },
   {
    "id": "17e847935c6e",
    "mitja": "Las Provincias",
@@ -45,7 +177,9 @@
    "ambit": "catala",
    "titol": "Brussel·les impulsa un fons de 50.000 milions per finançar la intel·ligència artificial i la computació quàntica",
    "url": "https://www.vilaweb.cat/noticies/brusselles-50000-milions-financar-intelligencia-artificial-computacio-quantica",
-   "publicat": "2026-11-25T18:02:28.000Z"
+   "publicat": "2026-11-25T18:02:28.000Z",
+   "noticia": "brusselles-fons-50000-milions-ia-computacio-quantica",
+   "noticiaTitol": "Brussel·les proposa un fons de 50.000 milions d'euros per finançar la IA i la computació quàntica a Europa"
   },
   {
    "id": "b95eaf4e2a61",
@@ -2652,138 +2786,6 @@
    "titol": "TikTok estrena una eina per detectar contingut generat per IA",
    "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/tiktok-estrena-eina-detectar-contingut-generat-ia_1728512_102.html",
    "publicat": "2026-11-20T09:07:27.000Z"
-  },
-  {
-   "id": "002ef95d943b",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Luis Barcala, alcalde de Alicante: \"El ser humano debe tener el control sobre la inteligencia artificial\"",
-   "url": "https://www.informacion.es/economia/2026/11/20/luis-barcala-alicante-ser-humano-debe-control-inteligencia-artificial-136651486.html",
-   "publicat": "2026-11-20T09:06:06.000Z"
-  },
-  {
-   "id": "f7d6639dcebd",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Diecinueve agentes de inteligencia artificial de RepIndex.ai analizan frase a frase el cara a cara y dan la victoria a Feijóo por 62 a 55",
-   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/11/20/2754223/diecinueve-agentes-inteligencia-artificial-repindex-analizan-frase-frase-cara-cara-dan-victoria-feijoo-por-55.html",
-   "publicat": "2026-11-20T08:44:00.000Z"
-  },
-  {
-   "id": "629b0f1de9f6",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El éxito bursátil de Anthropic se esfuma un día después de su estreno",
-   "url": "https://www.lavanguardia.com/economia/20261120/11688899/mercados-bolsa-anthropic-ia.html",
-   "publicat": "2026-11-20T08:43:24.000Z"
-  },
-  {
-   "id": "173e4db0c4a6",
-   "mitja": "Levante-EMV",
-   "font": "levante",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "EN DIRECTO | El ADDA acoge el V Forum Europeo de Inteligencia Artificial bajo el lema \"La nueva realidad para la humanidad\"",
-   "url": "https://www.levante-emv.com/videos/2026/11/20/directo-adda-acoge-v-forum-europeo-inteligencia-artificial-nueva-realidad-humanidad-136651949.html",
-   "publicat": "2026-11-20T08:41:22.000Z"
-  },
-  {
-   "id": "9942827b927e",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El Ibex 35 se deja casi un 0,9% en la apertura ante las dudas sobre el auge de la IA",
-   "url": "https://www.informacion.es/economia/2026/11/20/ibex-35-deja-0-9-136651637.html",
-   "publicat": "2026-11-20T08:35:01.000Z"
-  },
-  {
-   "id": "4eb8c2aeabd5",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El ADDA acoge la segunda jornada del V Forum Europeo de Inteligencia Artificial",
-   "url": "https://www.informacion.es/fotos/alicante/2026/11/20/adda-acoge-segunda-jornada-v-forum-europeo-inteligencia-artificial-136651552.html",
-   "publicat": "2026-11-20T08:33:51.000Z"
-  },
-  {
-   "id": "6eae9af93a23",
-   "mitja": "Última Hora",
-   "font": "ultimahora-totes",
-   "icona": "/assets/premsa/ultima-hora.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Bolsa española abre con caídas del 0,87% arrastrada por Wall Street, Asia y la IA",
-   "url": "https://www.ultimahora.es/noticias/nacional/2026/11/20/2753781/bolsa-espanola-abre-caidas-del-arrastrada-por-wall-street-asia-ia.html",
-   "publicat": "2026-11-20T08:17:00.000Z"
-  },
-  {
-   "id": "f940a20d1b9d",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Ashton Kutcher da el pelotazo con Anthropic: su inversión de 395 millones ya vale más de 6.400 millones de euros",
-   "url": "https://www.elperiodico.com/es/gente/20261120/ashton-kutcher-anthropic-inversion-millonaria-inteligencia-artificial-136649906",
-   "publicat": "2026-11-20T08:08:15.000Z"
-  },
-  {
-   "id": "19402c279e2d",
-   "mitja": "Las Provincias",
-   "font": "lasprovincias",
-   "icona": "/assets/premsa/las-provincias.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Descubren cómo mejorar los generadores de imagen por inteligencia artificial con 65 veces menos memoria",
-   "url": "https://www.lasprovincias.es/tecnologia/descubren-como-mejorar-generadores-rlt_arx-20261120071130-nt.html",
-   "publicat": "2026-11-20T07:25:30.000Z"
-  },
-  {
-   "id": "4b9ad34f6c42",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Los límites de la IA",
-   "url": "https://www.lavanguardia.com/participacion/red-lectores/20261120/11687059/limites-ia.html",
-   "publicat": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "55f1d583258f",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La euforia por la OPV de Anthropic tiene su lógica",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-20/la-euforia-por-la-opv-de-anthropic-tiene-su-logica.html",
-   "publicat": "2026-11-20T04:40:00.000Z"
-  },
-  {
-   "id": "641a4eae4c96",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La histórica OPV de Anthropic deja de lado a los inversores españoles: “Nunca nos llega nada de papel”",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-20/la-historica-opv-de-anthropic-deja-de-lado-a-los-inversores-espanoles-nunca-nos-llega-nada-de-papel.html",
-   "publicat": "2026-11-20T04:30:01.000Z"
   }
  ]
 }
