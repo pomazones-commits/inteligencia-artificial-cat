@@ -1,6 +1,74 @@
 {
-  "updatedAt": "2026-11-26T09:37:38.398Z",
+  "updatedAt": "2026-11-26T13:14:54.079Z",
   "items": [
+    {
+      "category": "GEOPOLÍTICA",
+      "read": "5 MIN",
+      "slug": "nvidia-b300-revenda-norma-lloguer-xina-sud-est-asiatic",
+      "title": "ACTUALITZACIÓ: Milers de xips B300 de Nvidia busquen comprador nou després que els Estats Units prohibeixin llogar-los a empreses xineses des de l'estranger",
+      "excerpt": "La norma que va entrar en vigor el 19 de novembre deixa sense clients els centres de dades del sud-est asiàtic que pensaven llogar potència de càlcul a empreses de la Xina. Segons el Financial Times, Nvidia ha demanat a Dell i Supermicro que aturin els enviaments de servidors a quatre països de la zona.",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
+      "sourceDate": "25 de novembre de 2026",
+      "body": "Els Estats Units fa temps que prohibeixen vendre a la Xina els xips d'IA més avançats de Nvidia, però hi havia una drecera: les empreses xineses no compraven els xips, sinó que llogaven la potència de càlcul a centres de dades de tercers països, sobretot del sud-est asiàtic. El 16 de novembre l'Oficina d'Indústria i Seguretat del Departament de Comerç (BIS) va anunciar una norma provisional per tancar aquesta via, que va entrar en vigor el dia 19 i que obliga els centres de dades a demanar llicència si lloguen grans quantitats de càlcul avançat a clients vinculats a la Xina. Aquest web ja en va informar el 16 de novembre; la novetat són els primers efectes.\n\nSegons CNBC, des de l'anunci de la norma ha aparegut a la venda un volum inusual de processadors gràfics de Nvidia. Tres persones del sector expliquen a la cadena que els venedors busquen compradors nous, i dues d'aquestes fonts diuen que es tracta de xips que havien d'anar a centres de dades on llogaven potència empreses xineses. Des de l'anunci s'han ofert operacions per a milers de B300, un dels xips més avançats de la companyia. Jack Duhamel, president del mercat de maquinari d'IA GPU Mart, atribueix directament l'allau a la norma, i explica que un dels venedors li ho va dir així. El representant de Comerç dels Estats Units, Jamieson Greer, va dir a CNBC que l'objectiu és tancar «escletxes». A més, el Financial Times publica, a partir de tres fonts, que Nvidia ha demanat a fabricants de servidors com Dell i Supermicro que deixin d'enviar-ne a Malàisia, Singapur, Tailàndia i Indonèsia.\n\nÉs la prova que la nova restricció ja mossega. Els centres de dades del sud-est asiàtic s'havien convertit en la sortida de les empreses xineses per entrenar i fer funcionar els seus models amb xips que no poden comprar, i ara aquests clients desapareixen de cop. També arriba en una setmana difícil per a Nvidia, després de l'escàndol de Megaspeed, l'empresa de Singapur sospitosa de fer arribar xips a la Xina, i del retorn de Jensen Huang al capdavant de la companyia.\n\nHi ha molts serrells per lligar. Nvidia no ha volgut fer declaracions a CNBC i el BIS no hi havia respost. La informació sobre l'aturada dels enviaments ve de fonts anònimes i no aclareix si és temporal, i les dades sobre la revenda de xips surten de persones del sector, no de xifres de vendes verificades. Tampoc no se sap quantes empreses demanaran la llicència que ara exigeix Washington ni quantes l'obtindran.",
+      "image": "./assets/nvidia-b300-revenda-norma-lloguer-xina-sud-est-asiatic-20261126.jpg",
+      "etiquetes": [
+        "centres-de-dades"
+      ],
+      "editionDate": "2026-11-26"
+    },
+    {
+      "category": "SALUT",
+      "read": "4 MIN",
+      "slug": "models-ia-generalistes-psoriasi-fotos-semmelweis",
+      "title": "ChatGPT reconeix la psoriasi en més de nou de cada deu fotos clíniques, però encerta menys el tractament, segons un estudi a «Frontiers in Medicine»",
+      "excerpt": "Uns dermatòlegs de la Universitat Semmelweis de Budapest han posat a prova quatre models d'IA d'ús general amb 303 fotografies de 160 pacients. Els dos d'OpenAI són els que encerten més, i Gemini 2.5 Flash, el que menys.",
+      "sourceName": "Frontiers in Medicine",
+      "sourceUrl": "https://www.frontiersin.org/articles/10.3389/fmed.2026.1791488/full",
+      "sourceDate": "25 de novembre de 2026",
+      "body": "La psoriasi és una malaltia inflamatòria crònica de la pell que es pot confondre amb altres afeccions, com l'èczema o algunes infeccions per fongs, i la gravetat de cada cas decideix quin tractament convé. Molts pacients ja pugen fotos de la pell a un xat d'IA per demanar-li què tenen, i els metges de família també s'ho plantegen com a ajuda. La pregunta és fins a quin punt s'hi pot confiar quan es tracta de models generalistes, que no s'han fet per a la dermatologia.\n\nUn equip de la Universitat Semmelweis de Budapest, amb Mehdi Boostani com a primer autor i Norbert Kiss com a director, ha analitzat de manera retrospectiva 303 fotografies estandarditzades de 160 pacients del seu servei, fetes entre el maig del 2022 i el gener del 2025: 163 de lesions de psoriasi i 140 d'altres malalties que s'hi assemblen. Hi van provar quatre models: ChatGPT-5, ChatGPT-4o, Claude Sonnet 4.5 i Gemini 2.5 Flash. ChatGPT-5 va identificar la psoriasi en el 93,1% dels casos, ChatGPT-4o en el 90,1%, Claude en el 83,6% i Gemini en el 61,5%. Entre els casos ben identificats, ChatGPT-5 va classificar bé la gravetat en el 93,3% i va proposar un tractament adequat, segons el criteri dels dermatòlegs, en el 83,7%. Els models d'OpenAI també van ser els més constants quan se'ls repetia la mateixa pregunta. L'article es va publicar al maig a «Frontiers in Medicine», revista amb revisió per parells, i la universitat l'ha divulgat aquesta setmana.\n\nEl resultat indica que, amb fotos bones, un model d'ús general pot reconèixer força bé una malaltia de la pell comuna, i que les diferències entre models són grans: el pitjor falla gairebé quatre de cada deu casos. Els autors creuen que aquestes eines podrien ajudar l'atenció primària, sempre amb un metge al darrere, i no recomanen que els pacients les facin servir pel seu compte.\n\nLes limitacions són importants. És un estudi d'un sol hospital, amb poca diversitat de tons de pell, i les fotos es van fer amb una càmera professional i en condicions controlades, molt lluny de la foto de mòbil que pot fer un pacient a casa. El tractament és el punt més feble, perquè depèn de l'historial i d'altres malalties que una imatge no mostra. Els investigadors adverteixen, a més, que els models poden respondre amb seguretat i equivocar-se, i que no substitueixen el dermatòleg. Les versions avaluades ja no són les més recents de cada empresa.",
+      "image": "./assets/models-ia-generalistes-psoriasi-fotos-semmelweis-20261126.jpg",
+      "editionDate": "2026-11-26"
+    },
+    {
+      "category": "EMPRESES",
+      "read": "4 MIN",
+      "slug": "amazon-meta-negocien-muse-botiga",
+      "title": "Amazon i Meta negocien deixar que l'agent d'IA Muse compri a la botiga d'Amazon, que el té bloquejat des del setembre",
+      "excerpt": "Segons la revista Fortune, les dues empreses han fet diverses rondes de converses, però encara han de pactar com es mostrarien els resultats de cerca i què passaria amb la publicitat. Qualsevol acord l'haurien d'aprovar els dos consellers delegats.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "sourceDate": "25 de novembre de 2026",
+      "body": "Els agents d'IA que compren en nom de l'usuari són una de les grans apostes de les tecnològiques per a aquest Nadal, però xoquen amb les grans botigues en línia, que no volen perdre el contacte directe amb el client. Muse, l'agent de Meta, n'és l'exemple més clar: aquesta setmana ha entrat als missatges d'Instagram i Walmart li ha obert les ofertes del Black Friday, però des del setembre no pot comprar res a Amazon. Els usuaris que ho intentaven hi topaven amb un missatge d'error en el moment de pagar.\n\nSegons ha publicat la revista Fortune, a partir de persones que coneixen les converses, i ha recollit TechCrunch, Amazon i Meta han fet diverses rondes de negociació per permetre que Muse es connecti directament a la botiga d'Amazon. Hi ha dos punts encara oberts: com es presentarien els resultats de cerca dins de l'agent i què passaria amb la publicitat. Un possible acord hauria de tenir el vistiplau dels consellers delegats de totes dues empreses. Ni Amazon ni Meta han respost a les preguntes de TechCrunch.\n\nLa publicitat és el nus de tot plegat. Una bona part del negoci d'Amazon ve dels anuncis que veu qui busca un producte a la seva botiga, i un agent que compra pel seu compte se'ls salta. A l'octubre, el conseller delegat d'Amazon, Andy Jassy, va dir que pocs clients compraven a través d'agents externs, i a l'empresa preocupa que una comanda equivocada li deixi a les mans clients i venedors enfadats. Si les dues companyies arriben a un acord, marcaria com es reparteixen els ingressos entre les botigues i els agents.\n\nDe moment, però, només hi ha converses. La informació ve de fonts anònimes, no hi ha cap calendari ni cap condició pactada, i les dues empreses no ho han confirmat. A més, Muse continua sota sospita després que alguns empleats de Meta denunciessin la setmana passada que l'agent els barrejava converses i dades d'altres comptes.",
+      "image": "./assets/amazon-meta-negocien-muse-botiga-20261126.jpg",
+      "editionDate": "2026-11-26"
+    },
+    {
+      "category": "CONSUM",
+      "read": "4 MIN",
+      "slug": "anuncis-fets-amb-ia-regals-falsos-black-friday",
+      "title": "Els anuncis fets amb IA omplen les xarxes de regals de Nadal que no existeixen o que no s'assemblen gens al que arriba a casa",
+      "excerpt": "Calendaris d'Advent, batins amb calefacció i accessoris per a mascotes amb vídeos generats per IA han acumulat milions de visualitzacions abans del Black Friday. Alguns compradors no han rebut mai res i d'altres diuen que els han fet servir la targeta per a compres que no havien fet.",
+      "sourceName": "AFP (via Tech Xplore)",
+      "sourceUrl": "https://techxplore.com/news/2026-11-fake-gifts-real-losses-ai.html",
+      "sourceDate": "25 de novembre de 2026",
+      "body": "Fer un vídeo publicitari convincent abans costava diners, temps i un producte real per gravar. Ara n'hi ha prou amb un generador de vídeo amb IA, i això ha obert la porta a botigues en línia que anuncien objectes que no existeixen o que s'assemblen poc al que acaben enviant. Les setmanes abans del Black Friday i de Nadal, quan es compra més per impuls, són el moment preferit d'aquests venedors.\n\nUna investigació de l'agència AFP ha seguit els anuncis verticals fets amb IA que han circulat a Facebook, Instagram i TikTok: calendaris d'Advent temàtics, batins amb calefacció d'estil Disney que solen costar més de 100 dòlars, accessoris per a mascotes i fins i tot un arbre de Nadal «intel·ligent» de 280 dòlars. Tia Evans, una compradora, va pagar més de 200 dòlars per quatre batins en un web que després va desaparèixer, sense número de seguiment. Maggie McGaugh, una creadora de continguts de Dallas que compra aquests productes per ensenyar-los a Instagram, diu que la majoria són «de molt mala qualitat». L'empresa H&M ha explicat a l'AFP que s'ha fet servir el seu nom i la seva imatge per anunciar batins que no ven. Alguns compradors també expliquen que les dades de la targeta els van servir per fer pagaments en webs d'apostes.\n\nEl fenomen mostra un costat poc visible de la IA generativa: abarateix tant la publicitat enganyosa que es poden provar centenars de versions d'un anunci fins a trobar el públic que hi pica, segons l'experta en mitjans digitals Christina Inge. Una enquesta d'octubre citada per l'AFP diu que el 43% dels nord-americans creuen que algun anunci fet amb IA els ha enganyat, i les plataformes on circulen aquests vídeos no han aconseguit aturar-los.\n\nEl reportatge parla sobretot dels Estats Units i no diu qui va fer l'enquesta ni quina mostra tenia, de manera que la xifra del 43% s'ha de llegir amb prudència. Tampoc no quantifica quants diners s'hi han perdut. El consell dels experts és el de sempre, però amb més motiu: desconfiar dels preus massa bons, buscar opinions del venedor fora de l'anunci i pagar amb mitjans que permetin reclamar.",
+      "image": "./assets/anuncis-fets-amb-ia-regals-falsos-black-friday-20261126.jpg",
+      "editionDate": "2026-11-26"
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "slug": "neurona-silici-neuromodulacio-uliege",
+      "title": "Una neurona artificial de silici de la Universitat de Lieja canvia de comportament amb un sol control, com fan la dopamina i la serotonina al cervell",
+      "excerpt": "El xip passa de fer impulsos aïllats a fer-los en ràfegues sense tocar-ne les connexions, i gasta entre 40 i 200 picojoules per impuls. És un pas cap a un maquinari inspirat en el cervell que consumeixi molt menys que els xips d'IA actuals.",
+      "sourceName": "Neuromorphic Computing and Engineering (via Tech Xplore)",
+      "sourceUrl": "https://iopscience.iop.org/article/10.1088/2634-4386/aeaf14",
+      "sourceDate": "25 de novembre de 2026",
+      "body": "Els xips que fan funcionar la IA actual gasten molta energia, i una de les vies per reduir-la és el maquinari neuromòrfic: circuits que imiten com treballen les neurones del cervell, que només s'activen quan cal i comuniquen la informació amb impulsos elèctrics. Al cervell, però, una mateixa neurona no respon sempre igual. Substàncies com la dopamina, la serotonina o l'adrenalina en modifiquen el comportament sense canviar-ne les connexions amb les veïnes, un mecanisme que es diu neuromodulació. Les neurones artificials fetes fins ara amb prou feines el reproduïen.\n\nUn equip del Laboratori de Neuroenginyeria de la Universitat de Lieja (Bèlgica), amb col·laboradors de Zuric, Groningen, Lovaina i Cambridge, ha construït en un xip de tecnologia CMOS convencional una neurona analògica que incorpora aquest mecanisme. Amb un sol paràmetre de control, el circuit passa de manera gradual d'emetre impulsos aïllats i regulars a emetre'ls en ràfegues, i les mesures fetes sobre el xip fabricat mostren que el comportament es manté estable encara que variïn el corrent i la temperatura. Segons l'investigador Alessio Franci, la neurona consumeix entre 40 i 200 picojoules per impuls, segons les condicions de funcionament. El treball, amb Loris Mendolia com a primer autor, es publica a la revista amb revisió per parells «Neuromorphic Computing and Engineering».\n\nLa capacitat de canviar de mode sense redissenyar el circuit és el que fa interessant aquesta neurona: una xarxa feta amb peces així podria adaptar-se a cada situació, com fa el sistema nerviós, i gastar molt poca energia. «En el futur, xarxes d'aquests circuits podrien processar la informació de manera adaptativa i eficient en sistemes encastats», explica Mendolia. Els autors en veuen aplicacions possibles en robòtica, interfícies cervell-ordinador i pròtesis.\n\nDe moment, però, és una sola neurona. El mateix Mendolia admet que el circuit només resol «en part» les limitacions dels dissenys anteriors, i l'equip tot just ha fabricat un xip nou per provar-ne xarxes, del qual encara no hi ha resultats. La nota no compara el consum amb el d'altres neurones artificials ni amb el dels xips d'IA convencionals, i les aplicacions que s'hi esmenten són, ara per ara, possibilitats.",
+      "image": "./assets/neurona-silici-neuromodulacio-uliege-20261126.jpg",
+      "editionDate": "2026-11-26"
+    },
     {
       "category": "ESPAI",
       "read": "5 MIN",
@@ -13264,74 +13332,6 @@
       "sourceDate": "13 de setembre de 2026",
       "body": "Un equip de l'Escola d'Enginyeria i Ciències Aplicades de la Universitat de Pennsilvània, amb Neil Sehgal, Jena Shaw Tronieri, Lyle Ungar i Sharath Chandra Guntuku, ha publicat a la revista Nature Health un estudi sobre els efectes secundaris dels fàrmacs GLP-1 que s'usen contra la diabetis i l'obesitat, com la semaglutida (Ozempic, Wegovy) i la tirzepatida (Mounjaro, Zepbound). En lloc de partir d'un assaig clínic, els autors han analitzat què en diuen els pacients a Reddit.\n\nHan recollit més de 400.000 missatges de cinc anys de converses, de gairebé 70.000 usuaris, i han fet servir models de llenguatge per traduir el llenguatge informal dels pacients a la terminologia mèdica estàndard (MedDRA). Aproximadament el 44% dels usuaris explicaven algun efecte secundari. Els digestius van ser els més freqüents, com s'esperava. Però gairebé un 4% esmentava símptomes reproductius, com alteracions del cicle menstrual, i en destacaven també els relacionats amb la temperatura (calfreds, onades de calor) i el cansament, el segon motiu de queixa.\n\nEls autors vinculen aquests resultats amb l'hipotàlem, la zona del cervell que regula alhora la gana, les hormones, la reproducció i la temperatura corporal, i que podria explicar per què apareixen aquests símptomes. És una hipòtesi per investigar, no una conclusió. El mètode permet detectar senyals que els assaigs clínics, amb mostres més petites i protocols tancats, poden passar per alt.\n\nEl mateix equip subratlla el límit principal: només estableix associacions. «No podem dir que els GLP-1 causin realment aquests símptomes», adverteixen. Els usuaris de Reddit no són una mostra representativa de tots els pacients i la traducció automàtica pot cometre errors, de manera que els resultats serveixen per orientar futures investigacions i la vigilància farmacològica, no per canviar tractaments. L'article és a Nature Health, amb DOI 10.1038/s44360-026-00108-y.",
       "image": "./assets/nature-health-ia-reddit-glp1-efectes-secundaris-no-declarats-20261006.jpg",
-      "editionDate": "2026-10-06"
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "slug": "ia-electrocardiograma-sang-rebuig-trasplantament-cor-biopsia",
-      "title": "Una IA combina electrocardiogrames i anàlisis de sang per descartar el rebuig d'un cor trasplantat i estalviar biòpsies",
-      "excerpt": "Un equip de NYU Langone ha entrenat el model amb dades de 2.357 receptors, però l'ha provat només amb 38 pacients.",
-      "sourceName": "EurekAlert (NYU Langone Health)",
-      "sourceUrl": "https://www.eurekalert.org/news-releases/1145793",
-      "sourceDate": "6 d'octubre de 2026",
-      "body": "Després d'un trasplantament de cor, els metges han de comprovar regularment que l'organisme no ataqui l'òrgan nou, i la prova de referència és una biòpsia, un procediment invasiu que es fa repetidament. Investigadors de NYU Langone Health, a Nova York, han provat si la intel·ligència artificial pot descartar el rebuig sense biòpsia, i han publicat el resultat a la revista Journal of Heart and Lung Transplantation, el 25 de setembre. Avui n'han fet la difusió oficial.\n\nL'equip ha entrenat dos models amb dades de 2.357 receptors adults, amb 5.300 electrocardiogrames recollits entre el 2018 i el 2024. Un model només analitza el traçat del ritme cardíac; l'altre hi suma dos biomarcadors en sang, que mesuren l'activitat de gens i els fragments d'ADN del donant. Els resultats s'han comparat amb els registres de biòpsies dels mateixos pacients. El model combinat va identificar amb un 94% d'encert els pacients sense rebuig, i el de sang sola, en un grup de prova de 38 pacients, hauria evitat 19 biòpsies innecessàries.\n\nLa importància pràctica és clara: si una eina així funciona, permetria reservar la biòpsia per als casos en què cal de debò. Però el treball té límits evidents que els autors reconeixen: el grup de prova és molt petit, només 38 persones, i els resultats vénen d'un sol centre. El finançament és del mateix NYU Langone.\n\nPer això encara no es pot parlar d'una eina clínica. Els investigadors preveuen una validació multicèntrica en altres centres de trasplantament, que és el pas que dirà si l'encert es manté amb pacients i protocols diferents, i si la seva fiabilitat és suficient perquè un cardiòleg se'n refiï per prescindir de la biòpsia.",
-      "image": "./assets/ia-electrocardiograma-sang-rebuig-trasplantament-cor-biopsia-20261006.jpg",
-      "editionDate": "2026-10-06"
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "slug": "nyc-council-agents-salvaguardes",
-      "title": "OpenAI, Anthropic, Meta i Google no garanteixen davant del consell municipal de Nova York que els seus agents d'IA compliran sempre les salvaguardes",
-      "excerpt": "En una audiència al consell municipal de Nova York, la presidenta li va demanar a cada empresa que ho jurés. Cap no ho va fer.",
-      "sourceName": "Fox News",
-      "sourceUrl": "https://www.foxnews.com/live-news/ai-super-intelligence-safety-10-06",
-      "sourceDate": "5 d'octubre de 2026",
-      "body": "El consell municipal de Nova York estudia una regulació de la intel·ligència artificial i dilluns va citar a l'audiència quatre de les grans empreses del sector: OpenAI, Anthropic, Meta i Google. La presidenta del consell, Julie Menin, els va fer una pregunta directa: si poden garantir, sota jurament, que els seus agents d'IA respectaran sempre les salvaguardes que tenen incorporades.\n\nCap de les quatre va donar la garantia. Morgan Dwyer, d'OpenAI, va dir que «no és possible» que ella es comprometi a garantir que cap tecnologia no tingui risc. Logan Graham, d'Anthropic, va admetre que «la ciència per fer-ho és fonamentalment difícil i encara no està resolta». Alice Friend, de Google, va afirmar que prometre la perfecció «no seria possible amb cap producte del mercat». Shane Cahill, de Meta, va assegurar que l'empresa es compromet a desenvolupar la tecnologia amb seguretat, però va insistir que la gent ha de poder confiar-hi per adoptar-la.\n\nMenin va aclarir que el consell no exigeix perfecció, sinó «responsabilitat, transparència i seguretat». L'escena és rellevant perquè els agents d'IA, que actuen per compte de l'usuari i executen tasques sols, han passat de ser una promesa a un risc concret: aquestes mateixes setmanes s'han conegut incidents d'agents que van saltar-se límits en sistemes aliens. Que les empreses ho reconeguin en una audiència pública és una dada que els legisladors faran servir.\n\nCal no sobreinterpretar-ho. Que una empresa no pugui jurar que res no fallarà no vol dir que no tingui mesures de seguretat, i la font no detalla quines propostes concretes té sobre la taula el consell. Tampoc no es tracta d'una llei aprovada, sinó d'una audiència en què els legisladors recullen arguments abans de decidir.",
-      "image": "./assets/nyc-council-agents-salvaguardes-20261006.jpg",
-      "editionDate": "2026-10-06"
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "slug": "onu-turk-regulacio-ia",
-      "title": "El cap dels drets humans de l'ONU demana salvaguardes obligatòries per a la IA: «Ja no ens podem permetre esperar ni confiar en la bona voluntat»",
-      "excerpt": "Volker Türk diu que l'autoregulació de les empreses no basta i reclama prohibir que les màquines decideixin sobre la vida i la mort.",
-      "sourceName": "Notícies de l'ONU",
-      "sourceUrl": "https://news.un.org/en/story/2026/10/1168529",
-      "sourceDate": "5 d'octubre de 2026",
-      "body": "L'alt comissionat de les Nacions Unides per als Drets Humans, Volker Türk, va demanar dilluns que els governs imposin salvaguardes obligatòries a la intel·ligència artificial. Ho va fer en una cimera sobre IA i drets humans a Oxford, on va advertir que «el rellotge de la regulació de la IA corre» i que els estats «ja no es poden permetre esperar ni confiar en la bona voluntat» de les empreses.\n\nTürk va reclamar que els països on hi ha empreses d'IA, o que en controlen la cadena de subministrament, les obliguin a actuar amb responsabilitat i les facin respondre quan no ho fan. Entre les mesures concretes, va citar la prohibició que les màquines decideixin sobre la vida i la mort, deures obligatoris de diligència en drets humans, més normes de responsabilitat civil, de ciberseguretat i de protecció de dades, supervisió independent del sector i més participació de la societat civil.\n\nEl comissionat va avisar que unes eines tan potents estan en mans d'uns pocs, sense control públic, i que ja fan funcions imprevisibles. També va esmentar el risc que la IA deixi grups de població sense accés a serveis essencials i que els estudiants que la fan servir mostrin menys pensament propi. Va considerar que l'autoregulació de les empreses capdavanteres és «lluny de ser suficient».\n\nEn el balanç positiu, va destacar el Diàleg Mundial sobre Governança de la IA, el panell científic internacional independent i els 29 estats i la Unió Europea que reclamen controls sobre els models més avançats. És un discurs, no una norma: l'ONU no pot imposar res, i el pes de les paraules dependrà de si els governs les converteixen en lleis.",
-      "image": "./assets/onu-turk-regulacio-ia-20261006.jpg",
-      "editionDate": "2026-10-06"
-    },
-    {
-      "category": "ENERGIA",
-      "read": "4 MIN",
-      "slug": "google-constellation-nuclear-centres-dades",
-      "title": "Google contracta 3,6 gigawatts a Constellation Energy, una quarta part de nova energia nuclear, per alimentar els centres de dades",
-      "excerpt": "L'acord combina 890 megawatts de reactors ampliats a 20 anys i 2.700 megawatts més a la xarxa PJM, als Estats Units.",
-      "sourceName": "WBOW",
-      "sourceUrl": "https://1027wbow.com/2026/10/06/google-enters-massive-3-6-gw-power-deal-with-constellation-energy/",
-      "sourceDate": "6 d'octubre de 2026",
-      "body": "Google ha tancat un acord d'electricitat amb Constellation Energy per uns 3,6 gigawatts a la xarxa PJM, la més gran dels Estats Units, que dona servei a l'est del país. L'operació és una nova mostra de la cursa de les tecnològiques per assegurar-se corrent per als centres de dades d'IA.\n\nL'acord té dues parts. La primera és un contracte de compra d'energia a 20 anys per 890 megawatts procedents de centrals nuclears de Constellation, que s'ampliaran per produir més amb els mateixos reactors. La segona és un subministrament a llarg termini per 2.700 megawatts addicionals, que no va lligat a una central concreta. La nova energia nuclear suposa al voltant del 25% del total.\n\nConstellation preveu invertir més de 4.300 milions de dòlars per millorar onze unitats nuclears a Illinois, Pennsylvania i Nova Jersey. L'electricitat de la primera central ampliada hauria d'arribar el 2028. Google va dir que vol créixer «de manera responsable, invertint activament en energia neta i fiable que aporti nova capacitat a les xarxes del país».\n\nEl context ajuda a entendre'l: PJM proposa que els clients de centres de dades es busquin la seva pròpia electricitat o s'arrisquin a quedar desconnectats en hores de màxima demanda. Constellation ja va reactivar el reactor de Three Mile Island per a Microsoft. La font consultada no detalla el preu del contracte; hi ha informacions que parlen d'uns 1.000 milions de dòlars o més al llarg de diversos anys, però no s'han confirmat.",
-      "image": "./assets/google-constellation-nuclear-centres-dades-20261006.jpg",
-      "etiquetes": [
-        "centres-de-dades"
-      ],
-      "editionDate": "2026-10-06"
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "slug": "jepa-anything-model-mon-hepatocarcinoma",
-      "title": "Un nou model de món, derivat de l'arquitectura JEPA de LeCun, funciona en set àmbits i proposa un tractament contra el càncer de fetge que ha superat proves de laboratori",
-      "excerpt": "Una prepublicació d'arXiv, encara no revisada per parells, redueix un 34,8% l'error en prediccions d'intervencions i suggereix una combinació de fàrmacs que s'ha provat en cèl·lules, organoides i ratolins.",
-      "sourceName": "arXiv",
-      "sourceUrl": "https://arxiv.org/abs/2609.20800",
-      "sourceDate": "17 de setembre de 2026",
-      "body": "Els «models de món» són sistemes d'IA que aprenen com evoluciona un entorn per poder predir què passarà si s'hi intervé. L'arquitectura JEPA, impulsada per Yann LeCun, en fa una versió que prediu en un espai de representació abstracte i no pas píxel a píxel. Ara un grup d'investigadors liderat per Ling Yang n'ha fet una variant que vol servir per a qualsevol àmbit, i l'ha anomenat JEPA-Anything.\n\nAquest treball és una prepublicació d'arXiv, del 17 de setembre, encara no revisada per parells ni acceptada en cap revista o congrés que s'hagi pogut comprovar. Els autors descomponen allò que el model ha de predir en factors complementaris, que aprèn per camins separats. L'han provat en set àmbits: visió, biologia, dades clíniques, sistemes de control, dinàmica molecular, camps físics i predicció del temps. Segons l'article, l'error baixa un 34,8% en la predicció del resultat d'una intervenció.\n\nLa part més cridanera és biològica. El model va assenyalar una combinació d'una molècula, la interleucina 18, amb el bloqueig d'una proteïna anomenada CD73 com a candidata contra el càncer de fetge. Segons els autors, experiments posteriors al laboratori van confirmar-ne una activitat antitumoral més gran en cultius de cèl·lules, en organoides derivats de pacients, en fragments de tumor i en ratolins amb sistema immunitari.\n\nConvé mesurar l'abast. Són resultats preclínics d'un sol grup, que cap altre equip no ha reproduït, i no hi ha cap prova en persones: el treball no diu si la combinació podrà ser un tractament. Els resultats en set àmbits també són els que els mateixos autors escullen, i caldrà veure què en diuen els revisors.",
-      "image": "./assets/jepa-anything-model-mon-hepatocarcinoma-20261006.jpg",
       "editionDate": "2026-10-06"
     }
   ]
