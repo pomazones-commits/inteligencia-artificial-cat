@@ -254,11 +254,12 @@ $shareText = rawurlencode((string) $article['title']);
   <meta name="robots" content="max-image-preview:large">
   <script type="application/ld+json"><?= json_encode($jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
-  <link rel="stylesheet" href="/fonts.css?v=2026080701">
+  <link rel="preload" href="/assets/fonts/onest-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/fonts.css?v=2026112601">
   <link rel="stylesheet" href="./editorial.css?v=2026112601"><link rel="stylesheet" href="./eixos.css?v=2026110301"><script defer src="./shared.js?v=2026110401"></script>
   <?php if ($videoId !== ''): ?><link rel="stylesheet" href="./video.css?v=2026100601a"><script defer src="./video.js?v=2026100601a"></script><?php endif; ?>
   <style>.tts-player{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.tts-player button,.tts-speed select{font-family:inherit}.tts-player button{padding:9px 13px;border:1px solid #dfe3eb;background:#fff;color:#233a82;cursor:pointer}.tts-player [hidden]{display:none}.tts-player audio{width:100%;max-width:430px}.tts-note,.tts-speed{font-size:11px;color:#5d6472}.article-hero-figure{margin:0}.article-hero-caption{margin:8px 0 0;font-size:12px;line-height:1.4;color:#5d6472;text-align:right}.article-hero-caption a{color:inherit;text-decoration:underline;text-underline-offset:2px}</style>
-  <script defer src="/comptador.js?v=2026110501"></script>
+  <script defer src="/comptador.js?v=2026110501"></script><script defer src="/apostrofs.js?v=2026112601"></script>
 </head>
 <body class="editorial-body">
   <header class="editorial-topbar"><div class="editorial-shell editorial-topbar__inner"><a class="editorial-brand" href="./" aria-label="intel·ligènciaartificial.cat, inici"><span class="editorial-brand__mark">ia</span><span class="editorial-brand__name"><strong>intel·ligència</strong><span>artificial.cat</span></span></a><nav class="editorial-nav" aria-label="Navegació principal"><a href="./#ultima-hora">Última hora</a><a href="./#catalunya">Radar català</a><a href="./tribuna.html">Tribuna</a><a href="./seccions">Seccions</a><a href="./analisi.html">Anàlisi</a><a href="./dossiers.html">Dossiers</a><a href="./arxiu.html">Arxiu</a></nav><a class="editorial-back" href="./">← Portada</a></div></header>

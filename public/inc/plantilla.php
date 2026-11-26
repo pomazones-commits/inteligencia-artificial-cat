@@ -39,11 +39,12 @@ function iacat_capcalera(array $meta): void
   <meta property="og:image:alt" content="intel·ligènciaartificial.cat — el briefing diari de la intel·ligència artificial en català">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="alternate" type="application/rss+xml" title="intel·ligènciaartificial.cat — notícies" href="/feed.xml">
-  <link rel="stylesheet" href="/fonts.css?v=2026080701">
+  <link rel="preload" href="/assets/fonts/onest-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/fonts.css?v=2026112601">
   <link rel="stylesheet" href="/editorial.css?v=2026112601">
   <link rel="stylesheet" href="/seccions.css?v=2026112501">
   <script defer src="/shared.js?v=2026110401"></script>
-  <script defer src="/comptador.js?v=2026110501"></script>
+  <script defer src="/comptador.js?v=2026110501"></script><script defer src="/apostrofs.js?v=2026112601"></script>
   <?php foreach ((array) ($meta['css'] ?? []) as $full): ?><link rel="stylesheet" href="<?= iacat_e((string) $full) ?>">
   <?php endforeach; ?>
   <?php if (!empty($meta['jsonld'])): ?><script type="application/ld+json"><?= json_encode($meta['jsonld'], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) ?></script>
