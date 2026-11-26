@@ -125,7 +125,7 @@ $rest = array_slice($items, 1);
   <script type="application/ld+json"><?= json_encode($jsonld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
   <?php else: ?><meta name="robots" content="noindex"><?php endif; ?>
   <link rel="stylesheet" href="/fonts.css?v=2026080701">
-  <link rel="stylesheet" href="/editorial.css?v=2026112501">
+  <link rel="stylesheet" href="/editorial.css?v=2026112601">
   <link rel="stylesheet" href="/eixos.css?v=2026110301">
   <script defer src="/shared.js?v=2026110401"></script>
   <script defer src="/comptador.js?v=2026110501"></script>

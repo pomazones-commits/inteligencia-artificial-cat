@@ -157,7 +157,8 @@
 .cartell-propers li + li { border-top: 1px solid var(--line); }
 .cartell-propers li a { display: grid; gap: 3px; padding: 12px 0; color: var(--ink); text-decoration: none; }
 .cartell-propers li a[href]:hover strong { color: var(--blue); }
-.cartell-propers time { color: var(--coral); font: 600 10px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+/* 26.11.2026: coral més fosc; el #ff6d62 sobre blanc feia 2,8:1. */
+.cartell-propers time { color: #c9362c; font: 600 10px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
 .cartell-propers strong { font-size: 15px; line-height: 1.3; }
 .cartell-propers li span { color: var(--muted); font-size: 12.5px; line-height: 1.4; }
 .cartell-propers > .cartell-enllac { align-self: flex-start; color: var(--ink); }
