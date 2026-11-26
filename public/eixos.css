@@ -23,3 +23,12 @@
 .eix-veus__nota{margin:4px 0 8px;color:var(--ed-muted,#5d6472);font-size:13px;line-height:1.55}
 .eix-veus--empresa .eix-veu:last-child{border-bottom:0}
 @media (max-width:640px){.eix-veus--empresa{padding:18px 16px 2px}}
+/* 26.11.2026 (petició d'en Rafael): retrat de qui signa a les targetes «Veus signades»
+   i «Veus d'empresa» de /tema/<clau>. Vertical 4:5, com la banda de la portada;
+   els muntatges -doble.jpg i -grup.jpg, sencers a sobre del text. */
+.eix-veu--retrat{display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;align-items:start}
+.eix-veu__retrat{display:block;margin-top:2px}
+.eix-veu__retrat img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 20%;border-radius:12px;border:1px solid var(--ed-line,#dfe3eb);background:var(--ed-blue-soft,#eef1fa)}
+.eix-veu__cos{min-width:0}
+.eix-veu--retrat:has(.eix-veu__retrat img[src*="-doble."]),.eix-veu--retrat:has(.eix-veu__retrat img[src*="-grup."]){grid-template-columns:1fr;gap:12px}
+.eix-veu__retrat img[src*="-doble."],.eix-veu__retrat img[src*="-grup."]{width:auto;max-width:100%;height:96px;aspect-ratio:auto;object-fit:contain}

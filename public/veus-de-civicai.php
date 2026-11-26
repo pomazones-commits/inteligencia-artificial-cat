@@ -63,12 +63,12 @@ iacat_capcalera([
     'jsonld' => $jsonld,
     'mollaPare' => ['La tribuna', '/arxiu-tribuna.html'],
     'molla' => (string) $serie['nom'],
-    'css' => ['/series.css?v=2026101201'],
+    'css' => ['/series.css?v=2026112601a'],
 ]);
 
 $fitxa = static function (array $p, bool $ambAutor): string {
     $item = $p['item'];
-    $html = '<li class="fitxa">';
+    $html = iacat_fitxa_obre($p); // retrat de qui signa (26.11.2026)
     $meta = [$p['tipus'] === 'estudis' ? 'Estudi a fons' : 'La tribuna'];
     if ($p['dataIso'] !== '') { $meta[] = iacat_data_llarga($p['dataIso']); }
     $html .= '<span class="fitxa__meta">' . iacat_e(implode(' · ', $meta)) . '</span>';
@@ -79,7 +79,7 @@ $fitxa = static function (array $p, bool $ambAutor): string {
     }
     if ($p['resum'] !== '') { $html .= '<p>' . iacat_e($p['resum']) . '</p>'; }
     $html .= '<span class="fitxa__peu"><a href="' . iacat_e($p['url']) . '">Llegeix-la →</a></span>';
-    return $html . '</li>';
+    return $html . iacat_fitxa_tanca($p);
 };
 ?>
     <section class="seccio-hero">

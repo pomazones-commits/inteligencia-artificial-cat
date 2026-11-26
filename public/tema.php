@@ -127,7 +127,7 @@ $rest = array_slice($items, 1);
   <link rel="preload" href="/assets/fonts/onest-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/fonts.css?v=2026112601">
   <link rel="stylesheet" href="/editorial.css?v=2026112602">
-  <link rel="stylesheet" href="/eixos.css?v=2026110301">
+  <link rel="stylesheet" href="/eixos.css?v=2026112601a">
   <script defer src="/shared.js?v=2026110401"></script>
   <script defer src="/comptador.js?v=2026110501"></script><script defer src="/tipografia.js?v=2026112602"></script>
 </head>
@@ -155,11 +155,14 @@ $rest = array_slice($items, 1);
       <?php if ($peces): ?>
       <div class="eix-veus__graella">
         <?php foreach ($peces as $peca): $serie = (string) ($peca['item']['serie'] ?? ''); $sec = ['nom' => $serie === 'veus-de-civicai' ? 'Veus de CIVICAi' : ($serie === 'veus-de-l-administracio' ? 'Veus de l’administració' : ($serie === 'converses' ? 'La tribuna · Converses' : (['tribuna' => 'La tribuna', 'estudis' => 'Estudi', 'empresa' => 'Veus d’empresa', 'analisi' => 'Anàlisi de la setmana', 'quadern' => 'Quadern IA'][$peca['tipus']] ?? '')))]; $autor = trim((string) ($peca['item']['author'] ?? '')); ?>
-        <article class="eix-veu">
+        <?php $retrat = iacat_retrat_peca($peca); ?>
+        <article class="eix-veu<?= $retrat ? ' eix-veu--retrat' : '' ?>">
+          <?php if ($retrat): ?><a class="eix-veu__retrat" href="<?= topic_e((string) $peca['url']) ?>" tabindex="-1" aria-hidden="true"><img src="<?= topic_e($retrat['src']) ?>" alt="<?= topic_e($retrat['alt']) ?>" loading="lazy" decoding="async"></a><div class="eix-veu__cos"><?php endif; ?>
           <p class="topic-meta"><?= topic_e((string) $sec['nom']) ?><?php if ($peca['dataIso'] !== ''): ?> · <?= topic_e(date('d.m.Y', strtotime($peca['dataIso']))) ?><?php endif; ?></p>
           <h3><a href="<?= topic_e((string) $peca['url']) ?>"><?= topic_e((string) $peca['titol']) ?></a></h3>
           <?php if (trim((string) $peca['resum']) !== ''): ?><p><?= topic_e(function_exists('mb_strimwidth') ? mb_strimwidth(trim((string) $peca['resum']), 0, 220, '…', 'UTF-8') : (string) $peca['resum']) ?></p><?php endif; ?>
           <p class="eix-veu__autor"><?= topic_e($autor !== '' ? $autor : 'Redacció IA.cat') ?></p>
+          <?php if ($retrat): ?></div><?php endif; ?>
         </article>
         <?php endforeach; ?>
       </div>
@@ -173,11 +176,14 @@ $rest = array_slice($items, 1);
       <p class="eix-veus__nota">Persones que treballen en empreses expliquen projectes i experiències de la seva pròpia empresa.</p>
       <div class="eix-veus__graella">
         <?php foreach ($pecesEmpresa as $peca): $autor = trim((string) ($peca['item']['author'] ?? '')); $empresaNom = trim((string) ($peca['item']['org'] ?? '')); ?>
-        <article class="eix-veu">
+        <?php $retrat = iacat_retrat_peca($peca); ?>
+        <article class="eix-veu<?= $retrat ? ' eix-veu--retrat' : '' ?>">
+          <?php if ($retrat): ?><a class="eix-veu__retrat" href="<?= topic_e((string) $peca['url']) ?>" tabindex="-1" aria-hidden="true"><img src="<?= topic_e($retrat['src']) ?>" alt="<?= topic_e($retrat['alt']) ?>" loading="lazy" decoding="async"></a><div class="eix-veu__cos"><?php endif; ?>
           <p class="topic-meta">Veus d’empresa<?php if ($peca['dataIso'] !== ''): ?> · <?= topic_e(date('d.m.Y', strtotime($peca['dataIso']))) ?><?php endif; ?></p>
           <h3><a href="<?= topic_e((string) $peca['url']) ?>"><?= topic_e((string) $peca['titol']) ?></a></h3>
           <?php if (trim((string) $peca['resum']) !== ''): ?><p><?= topic_e(function_exists('mb_strimwidth') ? mb_strimwidth(trim((string) $peca['resum']), 0, 220, '…', 'UTF-8') : (string) $peca['resum']) ?></p><?php endif; ?>
           <p class="eix-veu__autor"><?= topic_e($autor !== '' ? $autor : 'Redacció IA.cat') ?><?= $empresaNom !== '' ? ' · ' . topic_e($empresaNom) : '' ?></p>
+          <?php if ($retrat): ?></div><?php endif; ?>
         </article>
         <?php endforeach; ?>
       </div>

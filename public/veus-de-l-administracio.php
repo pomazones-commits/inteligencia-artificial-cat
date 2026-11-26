@@ -56,19 +56,11 @@ iacat_capcalera([
     'css' => ['/series.css?v=2026112601a'],
 ]);
 
-// 26.11.2026 (petició d'en Rafael): cada fitxa porta el retrat de qui signa la
-// peça (camp "photo"), enllaçat a la peça. Un muntatge -doble.jpg o -grup.jpg
-// surt sencer a sobre del text (estils a series.css, «.fitxa--retrat»).
+// 26.11.2026 (petició d'en Rafael): cada fitxa porta el retrat de qui signa
+// (iacat_fitxa_obre/tanca a inc/peces.php; estils a series.css).
 $fitxa = static function (array $p): string {
     $item = $p['item'];
-    $foto = trim((string) ($item['photo'] ?? ''));
-    $html = '<li class="fitxa' . ($foto !== '' ? ' fitxa--retrat' : '') . '">';
-    if ($foto !== '') {
-        $src = '/' . ltrim((string) preg_replace('#^\./#', '', $foto), '/');
-        $alt = (string) ($item['photoAlt'] ?? ('Retrat de ' . $p['autor']));
-        $html .= '<a class="fitxa__retrat" href="' . iacat_e($p['url']) . '" tabindex="-1" aria-hidden="true"><img src="' . iacat_e($src) . '" alt="' . iacat_e($alt) . '" loading="lazy" decoding="async"></a>';
-        $html .= '<div class="fitxa__cos">';
-    }
+    $html = iacat_fitxa_obre($p);
     $meta = [$p['tipus'] === 'estudis' ? 'Estudi a fons' : 'La tribuna'];
     if ($p['dataIso'] !== '') { $meta[] = iacat_data_llarga($p['dataIso']); }
     $html .= '<span class="fitxa__meta">' . iacat_e(implode(' · ', $meta)) . '</span>';
@@ -79,8 +71,7 @@ $fitxa = static function (array $p): string {
     }
     if ($p['resum'] !== '') { $html .= '<p>' . iacat_e($p['resum']) . '</p>'; }
     $html .= '<span class="fitxa__peu"><a href="' . iacat_e($p['url']) . '">Llegeix-la →</a></span>';
-    if ($foto !== '') { $html .= '</div>'; }
-    return $html . '</li>';
+    return $html . iacat_fitxa_tanca($p);
 };
 ?>
     <section class="seccio-hero">

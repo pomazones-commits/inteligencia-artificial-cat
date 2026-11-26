@@ -284,3 +284,37 @@ function iacat_peces_serie(string $clau): array
     usort($peces, static fn(array $a, array $b): int => strcmp($b['dataIso'], $a['dataIso']));
     return $peces;
 }
+
+// ---------------------------------------------------------------------------
+// Retrat de qui signa a les fitxes de les pàgines de secció (26.11.2026,
+// petició d'en Rafael): /veus-de-l-administracio, /veus-de-civicai,
+// /veus-d-empresa i /converses (estils a series.css, «.fitxa--retrat»), i a
+// les targetes «Veus signades» de /tema/<clau> (eixos.css, «.eix-veu__retrat»).
+// ---------------------------------------------------------------------------
+
+/** Ruta pública i text alternatiu del retrat d'una peça, o null si no en té. */
+function iacat_retrat_peca(array $peca): ?array
+{
+    $foto = trim((string) ($peca['item']['photo'] ?? ''));
+    if ($foto === '') { return null; }
+    $src = '/' . ltrim((string) preg_replace('#^\./#', '', $foto), '/');
+    $autor = trim((string) ($peca['autor'] ?? ($peca['item']['author'] ?? '')));
+    $alt = trim((string) ($peca['item']['photoAlt'] ?? ''));
+    if ($alt === '') { $alt = $autor !== '' ? 'Retrat de ' . $autor : ''; }
+    return ['src' => $src, 'alt' => $alt];
+}
+
+/** Obertura d'una fitxa de secció: <li> i, si hi ha retrat, la foto i el cos. */
+function iacat_fitxa_obre(array $peca): string
+{
+    $r = iacat_retrat_peca($peca);
+    if ($r === null) { return '<li class="fitxa">'; }
+    return '<li class="fitxa fitxa--retrat"><a class="fitxa__retrat" href="' . iacat_e((string) $peca['url']) . '" tabindex="-1" aria-hidden="true">'
+        . '<img src="' . iacat_e($r['src']) . '" alt="' . iacat_e($r['alt']) . '" loading="lazy" decoding="async"></a><div class="fitxa__cos">';
+}
+
+/** Tancament que correspon a iacat_fitxa_obre(). */
+function iacat_fitxa_tanca(array $peca): string
+{
+    return iacat_retrat_peca($peca) === null ? '</li>' : '</div></li>';
+}
