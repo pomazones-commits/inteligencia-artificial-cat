@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-26T13:14:46.497Z",
+  "generat": "2026-11-26T13:16:06.873Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -172,8 +172,9 @@
       "font": "rtva",
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
-      "estat": "error",
-      "error": "HTTP 403"
+      "estat": "ok",
+      "audios": 400,
+      "sobre_ia": 4
     }
   ],
   "candidats": [
