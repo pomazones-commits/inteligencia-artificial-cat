@@ -1,1 +1,21 @@
-{"fitxes": [], "descartats": []}
+{
+  "fitxes": [
+    {
+      "id": "rtve-17332167",
+      "emissora": "Ràdio 4",
+      "programa": "La tàctica",
+      "programa_url": "https://www.rtve.es/play/audios/la-tactica/",
+      "data": "2026-11-26",
+      "durada": "55 min",
+      "titol": "Liliana Arroyo explica a Ràdio 4 què ha estudiat la càtedra d'Esade sobre la IA i el benestar dels joves",
+      "convidats": [
+        {"nom": "Liliana Arroyo Moliner", "rol": "doctora en sociologia i experta en innovació social digital"}
+      ],
+      "resum": "La sociòloga Liliana Arroyo parla a «La tàctica» del treball que ha fet amb Mireia Yter i Clàudia Larumbe sobre com afecta la intel·ligència artificial el benestar dels joves. És una recerca de la càtedra SoReDI, vinculada a l'Institut d'Innovació Social d'Esade, que estudia l'impacte social i ètic de la innovació digital, sobretot en les generacions joves.",
+      "tema": "societat",
+      "url": "https://www.rtve.es/play/audios/la-tactica/tactica-com-impacte-ia-benestar-dels-joves/17332167/",
+      "reproductor": {"tipus": "rtve", "id": "17332167"}
+    }
+  ],
+  "descartats": []
+}
