@@ -1,31 +1,31 @@
 {
-  "date": "2026-11-26",
-  "title": "Quan el fre el posen els altres",
-  "dek": "Un dijous en què lleis, fiscals, agències de qualificació i revistes científiques han marcat límits a la IA mentre les empreses continuaven ampliant el negoci.",
+  "date": "2026-11-27",
+  "title": "Qui fa la feina",
+  "dek": "Un divendres en què SAP, Volvo i Anthropic han mostrat cap on va el treball amb IA, mentre els agents atacaven a Suïssa i els governs es disputaven el càlcul.",
   "body": [
-    "Ahir ens preguntàvem qui revisa el que fan les màquines. Avui una bona part de la resposta ha arribat de fora de les empreses que les fan. La governadora de Nova York ha signat una llei que prohibeix durant cinc anys les joguines amb xatbots d'IA. Els fiscals generals de 42 estats volen aturar la subhasta dels xats privats de Character.AI, prevista per a l'1 de desembre, amb més de dos milions de comptes de menors. I una agència de qualificació, S&P, ha posat en revisió la nota de Nvidia. Cap d'aquests frens no l'ha posat la indústria.",
-    "El cas de Nvidia és el que dona més pistes. La norma nord-americana que obliga a demanar llicència per llogar càlcul avançat a empreses vinculades a la Xina ja té efectes visibles: milers de xips B300 busquen comprador nou i, segons el Financial Times, l'empresa ha demanat a Dell i Supermicro que deixin d'enviar servidors a quatre països del sud-est asiàtic. S&P parla d'una supervisió feble de la direcció i de la manca d'un pla de successió. I una investigació de CBS assenyala dues empreses de Califòrnia controlades per grups xinesos entre els clients dels seus xips més avançats, tot i que cap no està acusada de res.",
-    "L'altre front és el dels consumidors i les dades. Abans del Black Friday, uns anuncis fets amb IA venen regals que no existeixen o que no s'assemblen gens al que arriba a casa. Un treball de la Universitat Northeastern, encara no revisat per parells, mostra que uns agents d'IA amb accés al cercador van identificar les persones de gairebé la meitat de 822 entrevistes anonimitzades. Davant d'aquest neguit, Anthropic ha començat a oferir als clients d'empresa que guardin les converses amb els seus models més potents als seus propis servidors. La privacitat ja no és només una obligació: s'ha convertit en un argument de venda.",
-    "Tot això conviu amb una expansió que no s'atura. La FCC ha autoritzat SpaceX a llançar fins a un milió de satèl·lits amb xips d'IA, Brussel·les proposa un fons de 50.000 milions d'euros per a la IA i la computació quàntica, i Amazon i Meta negocien que l'agent Muse pugui comprar a la botiga d'Amazon. Però els límits també apareixen dins de casa: OpenAI avisa que els usuaris més intensius de ChatGPT toparan abans amb el sostre d'ús. I a la Comunitat Valenciana, una cadena de formació privada vol acomiadar 231 treballadors i fer que una IA assumeixi part de les tutories, un recordatori que l'expansió també es nota a la feina.",
-    "La ciència del dia té una lectura semblant. Hi ha resultats potents: una IA que dissenya pèptids que actuen sobre dues dianes alhora, segons «Nature»; una grua autònoma que ha mogut més de dos milions de contenidors en ports de la Xina, segons «Science Robotics», i una neurona de silici que imita la neuromodulació del cervell. Però una revisió a «Nature Medicine» recorda la part menys vistosa: només un de cada vuit estudis sobre models de predicció clínica comparteix el codi. Sense codi, ningú de fora no pot comprovar res. El control extern també és la base de la ciència.",
-    "La tendència que apunta el dia és que les regles de la IA s'estan escrivint per moltes bandes alhora: lleis estatals, fiscalies, agències de qualificació, periodistes i revistes científiques. Demà caldrà mirar si la subhasta de Character.AI es fa o s'atura, com acaba la revisió de S&P, que pot durar fins a 90 dies, i si altres estats segueixen Nova York amb les joguines. També si els fabricants de servidors confirmen que han aturat els enviaments al sud-est asiàtic. És l'última setmana de novembre i, de moment, els frens arriben més de pressa que les promeses."
+    "Si ahir el fil era qui posa el fre a la IA, avui la pregunta ha canviat de lloc: qui fa la feina. SAP, l'empresa de programari més valuosa d'Europa, es prepara per suprimir uns 10.000 llocs de treball, el 9% de la plantilla, per reorganitzar-se al voltant de la IA. Volvo ha començat a entrenar robots humanoides a la fàbrica de Gant i vol que treballin a la cadena a mitjan 2027. I Anthropic ha explicat que uns agents de Claude han escrit més del 80% del codi del programari que atén totes les peticions a la seva IA. Tres sectors molt diferents, una mateixa direcció.",
+    "Convé, però, separar el que és un fet del que és un pla. El cas d'Anthropic és el més sòlid: el trasllat ja s'ha fet, el nou sistema gasta un 70% menys de processador i els enginyers van revisar cada canvi, fins i tot en van rebutjar algun que només feia veure que funcionava. El de SAP és una xifra que encara s'ha de negociar amb els treballadors. I el de Volvo és un calendari d'empresa, sense dades de quantes unitats hi ha ni de què fan. La substitució de feina humana avança, però avui més en els anuncis que en els resultats mesurats.",
+    "La mateixa autonomia que les empreses venen com a eficiència apareix, a l'altra banda, com a amenaça. Suïssa ha confirmat els primers atacs informàtics fets amb agents d'IA al país: cinc, i quatre van aconseguir entrar als sistemes. Els Mossos avisen, en ple Black Friday, que la IA poleix les estafes de sempre fins a fer-les gairebé impossibles de distingir. No és res que no s'hagués anunciat aquestes setmanes, però ara hi ha casos comptats i amb nom. I fins i tot el preu d'aquesta autonomia trontolla: OpenAI ha corregit un error de càlcul i els usuaris de GPT-6.2 esgotaran el límit fins a un 40% abans.",
+    "El que confirma el que dèiem ahir és que la capacitat de càlcul s'ha convertit en una qüestió d'estat. Reuters explica que les restriccions dels Estats Units endarrereixen els grans models xinesos, i Nvidia ha aturat els enviaments de servidors a quatre països del sud-est asiàtic. El Canadà, en canvi, pagarà fins al 80% de la computació de les seves empreses si la contracten a proveïdors canadencs, i l'organisme europeu de supercomputació dona fins al 30 de desembre al projecte de gigafactoria de Móra la Nova. Cada govern intenta tenir les màquines a casa, perquè qui no les té depèn del calendari dels altres.",
+    "Entre tant soroll industrial, la ciència ha tingut un dia notable, amb sis peces. Un model entrenat amb 114 milions de seqüències dissenya ARN que supera les molècules de referència al laboratori; un robot de quatre potes canvia de marxa sense cap controlador específic; un sensor dins la boca llegeix paraules que no es pronuncien. I una revisió a «Nature Human Behaviour» recorda que hi ha poques proves de les pors més grans sobre com afecta la IA les persones. Des d'Elx, Paul Verschure proposa una prova per saber si una màquina té voluntat pròpia, i conclou que cap no en té encara.",
+    "Demà caldrà mirar si la xifra de SAP es concreta i si altres grans empreses europees segueixen el mateix camí, si apareixen més atacs amb agents documentats fora de Suïssa i el Regne Unit, i com responen els usuaris i la competència al nou preu dels models de raonament. També valdrà la pena seguir si la jugada del Canadà troba imitadors a Europa. La pregunta de fons és senzilla: si les màquines fan cada vegada més feina, qui en controla el càlcul, qui en paga el cost i qui en respon quan s'equivoquen."
   ],
   "signals": [
     {
-      "title": "Els fiscals generals de 42 estats volen impedir que Character.AI subhasti els xats privats de 21 milions d'usuaris per sortir de la fallida",
-      "slug": "fiscals-42-estats-character-ai-subhasta-xats-privats"
+      "title": "SAP es prepara per suprimir uns 10.000 llocs de treball, el 9% de la plantilla, per reorganitzar-se al voltant de la IA",
+      "slug": "sap-suprimira-10000-llocs-de-treball-ia"
     },
     {
-      "title": "S&P estudia abaixar la qualificació creditícia de Nvidia perquè l'empresa depèn massa de Jensen Huang",
-      "slug": "sp-revisa-qualificacio-credit-nvidia-huang"
+      "title": "Volvo comença a entrenar robots humanoides a la fàbrica de Gant i vol que treballin a la cadena de producció a mitjan 2027",
+      "slug": "volvo-robots-humanoides-aeon-gant"
     },
     {
-      "title": "Nova York prohibeix durant cinc anys les joguines amb xatbots d'IA, just abans de les compres de Nadal",
-      "slug": "nova-york-prohibeix-cinc-anys-joguines-xatbot-ia"
+      "title": "Anthropic explica com uns agents de Claude han reescrit en Rust el programari que atén totes les peticions a la seva IA, i que ara gasta un 70% menys de processador",
+      "slug": "anthropic-claude-trasllada-api-python-rust"
     },
     {
-      "title": "Només un de cada vuit estudis sobre models que preveuen la salut dels pacients comparteix el codi, segons una revisió feta amb IA a «Nature Medicine»",
-      "slug": "models-prediccio-clinica-codi-compartit-nature-medicine"
+      "title": "Suïssa confirma els primers atacs informàtics fets amb agents d'IA al país, i en quatre dels cinc casos van aconseguir entrar als sistemes",
+      "slug": "suissa-primers-atacs-informatics-agents-ia"
     }
   ]
 }
