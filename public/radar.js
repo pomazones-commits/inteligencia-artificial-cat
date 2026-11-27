@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Elx",
+    "category": "RECERCA",
+    "date": "27.11.2026",
+    "title": "Un neurocientífic de la Universitat Miguel Hernández d'Elx defensa que el lliure albir és real i proposa una prova per saber si una IA en té",
+    "summary": "Paul Verschure publica a «Philosophical Transactions of the Royal Society B» dos articles que descomponen la voluntat en sis capacitats i proposen avaluar les IA pel que passa a dins, no per si semblen humanes.",
+    "detail": "Amb els agents d'IA que ja prenen decisions pel seu compte, la vella pregunta filosòfica sobre el lliure albir ha tornat amb un vessant pràctic: si una màquina actua sola, en té, de voluntat, i qui en respon? Paul Verschure, neurocientífic del Departament de Psicologia de la Salut de la Universitat Miguel Hernández d'Elx i de l'Institut de Neurociències (CSIC-UMH) de Sant Joan d'Alacant, hi respon amb dos articles publicats el 10 de novembre a la revista «Philosophical Transactions of the Royal Society B», dins d'un número temàtic dedicat a l'anàlisi i la síntesi del jo.\n\nEl primer article, «The six capacities of responsible autonomy», defensa que el lliure albir no és una il·lusió ni un ornament metafísic, sinó una capacitat de control que els éssers vius han desenvolupat per moure's en un món social ple d'intencions amagades. Verschure la descompon en sis capacitats, que anomena autonomia responsable: poder deslligar-se de l'estímul immediat, tenir un impuls propi, disposar de marge per triar, regir-se per normes, mantenir una coherència al llarg del temps i sentir l'acció com a pròpia. El segon article situa aquestes capacitats dins de la seva teoria del control adaptatiu distribuït (DAC), amb un formalisme de dotze equacions, i en deriva una bateria de proves, l'ESRA, que proposa com a alternativa al test de Turing: en lloc de mirar si la màquina sembla humana, pertorbar-ne els mecanismes interns i comprovar si les capacitats hi són de debò.\n\nEl treball és rellevant perquè trasllada el debat sobre l'autonomia de la IA a un terreny que es pot comprovar. Segons l'autor, cap sistema d'IA actual no té autonomia responsable, i en la nota de difusió afirma que dos incidents de seguretat amb IA d'aquest any mostren mancances en almenys tres de les sis capacitats. Si la proposta arrela, podria servir per definir quines garanties cal exigir a qui posa agents a treballar sols, una qüestió que els reguladors encara no saben com plantejar.\n\nCal llegir-lo, però, pel que és: una proposta teòrica, revisada per la revista però no validada amb experiments. La prova ESRA encara no s'ha aplicat de manera sistemàtica, la correspondència entre les sis capacitats i mecanismes concrets del cervell és una hipòtesi, i l'anàlisi dels incidents de seguretat no es detalla. La tesi que el lliure albir existeix continua sent discutida entre filòsofs i neurocientífics: Verschure reformula el debat, no el tanca.",
+    "source": "Philosophical Transactions of the Royal Society B",
+    "url": "https://doi.org/10.1098/rstb.2026.0001",
+    "image": "./assets/verschure-umh-lliure-albir-ia-royal-society-20261127.jpg",
+    "slug": "verschure-umh-lliure-albir-ia-royal-society"
+  },
+  {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "27.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.diaridetarragona.com/tarragona/276527/tarragona-tendra-mapa-pisos-vacios-barrio-gracias-inteligencia-artificial.html",
     "image": "./assets/generalitat-cimne-ia-estimar-pisos-buits-20261125.jpg",
     "slug": "generalitat-cimne-ia-estimar-pisos-buits"
-  },
-  {
-    "place": "Alacant",
-    "category": "IA I SOCIETAT",
-    "date": "25.11.2026",
-    "title": "Alacant compta amb IA i càmeres els visitants del castell de Santa Bàrbara per controlar-ne l'aforament en temps real",
-    "summary": "L'Ajuntament d'Alacant ha acabat d'instal·lar al castell un sistema de visió artificial que mostra quanta gent hi ha a cada espai, quines zones s'acosten al límit i a quines hores hi ha més afluència.",
-    "detail": "El castell de Santa Bàrbara, dalt del mont Benacantil, és un dels monuments més visitats d'Alacant i un dels punts on es concentra el turisme de la ciutat. L'Ajuntament hi ha posat en marxa un sistema d'intel·ligència artificial per saber en cada moment quantes persones hi ha i com es mouen pel recinte. El projecte forma part del Pla de Sostenibilitat Turística de la ciutat, en l'apartat de transició digital, i el cofinancen l'Ajuntament, la Secretaria d'Estat de Turisme i la Generalitat Valenciana.\n\nEl sistema, anomenat SVA Aforos i desenvolupat per l'empresa Evestel, fa servir càmeres instal·lades al castell i visió artificial per comptar les entrades i les sortides. Una plataforma web mostra en temps real quants visitants hi ha, l'ocupació i la capacitat que queda a cada espai, quines zones s'acosten al límit i com evoluciona l'afluència al llarg del dia; també analitza el pas per cada accés, les hores punta i les cues. La instal·lació l'ha feta Elecnor Seguridad, que va guanyar el contracte l'agost del 2025, i les obres s'han acabat ara després de diversos mesos de treball.\n\nSegons la regidora de Turisme, Ana Poquet, les dades permetran «millorar l'experiència dels visitants», planificar millor el monument i reforçar-ne la seguretat. És un ús de la IA cada cop més habitual en espais turístics saturats: no decideix res per si sola, però dona als gestors informació per obrir o tancar accessos, reforçar el personal o repartir els visitants. L'Ajuntament prepara també un sistema de realitat augmentada per al castell, que encara no funciona, i ja hi ofereix wifi gratuït.\n\nLa informació publicada no diu quant ha costat el sistema ni com es tracten les imatges de les càmeres: si es desen, durant quant de temps o si s'eliminen un cop comptades les persones. Tampoc no explica si les dades d'afluència es faran públiques perquè els visitants puguin triar l'hora menys concorreguda.",
-    "source": "Alicante Plaza",
-    "url": "https://alicanteplaza.es/alicanteplaza/alicante/alicante-implanta-el-sistema-de-control-de-aforos-con-ia-en-santa-barbara-para-mejorar-su-gestion",
-    "image": "./assets/alacant-castell-santa-barbara-aforament-ia-20261125.jpg",
-    "slug": "alacant-castell-santa-barbara-aforament-ia"
   }
 ];
