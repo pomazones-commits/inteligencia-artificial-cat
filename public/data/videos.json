@@ -1,8 +1,20 @@
 {
  "nota": "GENERAT per automation/scripts/recull-videos.mjs (workflow videos.yml). No l'editis a mà: per treure un vídeo, posa'n l'identificador a \"exclou\" d'automation/video-channels.json.",
- "actualitzat": "2026-11-27T00:00:21.632Z",
+ "actualitzat": "2026-11-27T23:44:46.860Z",
  "canals": 19,
  "videos": [
+  {
+   "id": "uslsViutq24",
+   "titol": "Qüestionaris ràpids als candidats del 29N",
+   "canal": "3CatInfo",
+   "canalId": "UCKseJ43xWvnywQzl6kYbf0g",
+   "grup": "catala",
+   "categoria": "societat",
+   "idioma": "ca",
+   "publicat": "2026-11-27T17:30:30.000Z",
+   "descripcio": "Els caps de llista per Barcelona a les eleccions generals del 29N responen si viuen de lloguer o de propietat i quin percentatge del sou hi destinen, si han tingut alguna actitud masclista o racista, com defineixen les protestes per l'habitatge i la política de Trump o què és l'últim que han pregunt",
+   "miniatura": "/assets/videos/uslsViutq24.jpg"
+  },
   {
    "id": "39liOr_LgF8",
    "titol": "Com està revolucionant la intel·ligència artificial el món del cinema i l'audiovisual?",
@@ -1111,30 +1123,6 @@
    "idioma": "ca",
    "publicat": "2026-11-07T15:20:24.000Z",
    "miniatura": "/assets/videos/F2iZ1xKmCTQ.jpg"
-  },
-  {
-   "id": "784YQBiZArk",
-   "titol": "How Siemens Plans Production in Minutes With NVIDIA AI",
-   "canal": "NVIDIA",
-   "canalId": "UCHuiy8bXnmK5nisYHUd1J5g",
-   "grup": "empreses",
-   "categoria": "societat",
-   "idioma": "en",
-   "publicat": "2026-11-06T23:10:49.000Z",
-   "descripcio": "See how Siemens uses the NVIDIA Factory Operations Blueprint to plan production in minutes and NVIDIA Cosmos to generate a virtual prototype and synthetic data for training optical inspection models before production starts. Discover how Siemens is integrating AI agents and digital twins to accelera",
-   "miniatura": "/assets/videos/784YQBiZArk.jpg"
-  },
-  {
-   "id": "hJOwOkLHRN0",
-   "titol": "LifeVal: Measuring AI progress on the tasks that matter in everyday life.",
-   "canal": "OpenAI",
-   "canalId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-   "grup": "empreses",
-   "categoria": "models",
-   "idioma": "en",
-   "publicat": "2026-11-06T21:11:34.000Z",
-   "descripcio": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government se",
-   "miniatura": "/assets/videos/hJOwOkLHRN0.jpg"
   },
   {
    "id": "pXRZyOxbDL4",
