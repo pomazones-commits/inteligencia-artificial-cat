@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-27T05:13:56.959Z",
+  "generat": "2026-11-27T09:15:01.409Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -24,7 +24,7 @@
       "programa": "El matí de Catalunya Ràdio",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 1
     },
     {
       "font": "3cat",
@@ -177,23 +177,5 @@
       "sobre_ia": 3
     }
   ],
-  "candidats": [
-    {
-      "id": "rtve-17333036",
-      "emissora": "Ràdio 4",
-      "programa": "El pla B",
-      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
-      "data": "2026-11-26",
-      "durada": "26 min",
-      "titol_original": "La IA i la campanya electoral",
-      "descripcio_original": "Acabem el programa amb la secció de Josep Maria Ribes, que ens ve a fer un repàs de com ha influït la intel·ligència artificial a la campanya electoral.",
-      "descripcio_curta": false,
-      "ia_al_titol": true,
-      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-ia-campanya-electoral/17333036/",
-      "reproductor": {
-        "tipus": "rtve",
-        "id": "17333036"
-      }
-    }
-  ]
+  "candidats": []
 }
