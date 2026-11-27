@@ -1,1 +1,27 @@
-{"fitxes": [], "descartats": []}
+{
+  "fitxes": [
+    {
+      "id": "rtve-17333036",
+      "emissora": "Ràdio 4",
+      "programa": "El pla B",
+      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
+      "data": "2026-11-26",
+      "durada": "26 min",
+      "titol": "Josep Maria Ribes repassa a «El pla B» de Ràdio 4 com ha influït la IA en la campanya electoral",
+      "convidats": [
+        {
+          "nom": "Josep Maria Ribes",
+          "rol": "col·laborador amb secció pròpia al programa"
+        }
+      ],
+      "resum": "El programa «El pla B», de Ràdio 4, tanca l'emissió del 26 de novembre amb la secció de Josep Maria Ribes, dedicada aquest cop a fer un repàs de com ha influït la intel·ligència artificial en la campanya electoral, a pocs dies de la votació.",
+      "tema": "poder",
+      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-ia-campanya-electoral/17333036/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17333036"
+      }
+    }
+  ],
+  "descartats": []
+}
