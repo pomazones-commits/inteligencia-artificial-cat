@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-26T17:15:57.571Z",
+  "generat": "2026-11-27T05:13:56.959Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -48,7 +48,7 @@
       "programa": "La tàctica",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 5
+      "sobre_ia": 3
     },
     {
       "font": "rtve",
@@ -96,7 +96,7 @@
       "programa": "El pla B",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 2
+      "sobre_ia": 3
     },
     {
       "font": "omny",
@@ -136,8 +136,8 @@
       "emissora": "RAB Ràdio",
       "programa": "Món Digital",
       "estat": "ok",
-      "audios": 33,
-      "sobre_ia": 2
+      "audios": 30,
+      "sobre_ia": 1
     },
     {
       "font": "wordpress",
@@ -145,7 +145,7 @@
       "programa": "Actualitat",
       "nom_web": "Ràdio Sant Andreu",
       "estat": "ok",
-      "audios": 0,
+      "audios": 1,
       "sobre_ia": 0
     },
     {
@@ -173,9 +173,27 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 400,
-      "sobre_ia": 4
+      "audios": 300,
+      "sobre_ia": 3
     }
   ],
-  "candidats": []
+  "candidats": [
+    {
+      "id": "rtve-17333036",
+      "emissora": "Ràdio 4",
+      "programa": "El pla B",
+      "programa_url": "https://www.rtve.es/play/audios/el-pla-b/",
+      "data": "2026-11-26",
+      "durada": "26 min",
+      "titol_original": "La IA i la campanya electoral",
+      "descripcio_original": "Acabem el programa amb la secció de Josep Maria Ribes, que ens ve a fer un repàs de com ha influït la intel·ligència artificial a la campanya electoral.",
+      "descripcio_curta": false,
+      "ia_al_titol": true,
+      "url": "https://www.rtve.es/play/audios/el-pla-b/pla-ia-campanya-electoral/17333036/",
+      "reproductor": {
+        "tipus": "rtve",
+        "id": "17333036"
+      }
+    }
+  ]
 }
