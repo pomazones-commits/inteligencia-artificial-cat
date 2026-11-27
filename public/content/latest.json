@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-26T17:16:13.106Z",
+  "updatedAt": "2026-11-27T05:14:08.062Z",
   "items": [
     {
       "category": "GEOPOLÍTICA",
-      "read": "5 MIN",
-      "title": "Nvidia ven els seus xips més avançats a dues empreses de Califòrnia controlades per grups xinesos, segons una investigació de CBS",
-      "excerpt": "Una de les dues, RiCloud AI, té accés preferent als xips de Nvidia i pertany a un grup de Shenzhen; l'altra, Aivres, és l'antiga filial nord-americana d'Inspur, que és a la llista negra dels Estats Units des del 2023. Cap de les dues no està acusada de res."
+      "read": "4 MIN",
+      "title": "ACTUALITZACIÓ: Nvidia atura els enviaments de servidors d'IA a Malàisia, Singapur, Tailàndia i Indonèsia mentre revisa si els socis compleixen les normes dels Estats Units",
+      "excerpt": "Segons The Wall Street Journal, l'empresa ha demanat a fabricants com Dell i Super Micro que deixin d'enviar-hi servidors sense data de represa. Alhora, uns bancs han congelat milers de milions en préstecs lligats als gegants del núvol xinesos."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "4 MIN",
+      "title": "El soroll de les mesures limita els models d'IA de biologia tant com la quantitat de dades, i ho fa seguint una llei senzilla, segons «Nature Machine Intelligence»",
+      "excerpt": "Un equip de Harvard i el MIT ha entrenat més de 2.000 models amb dades de gens, de seqüències i d'imatges de cèl·lules. Els de proteïnes ja toleren els errors dels seqüenciadors actuals; els de cèl·lules individuals encara topen amb el soroll."
     },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Anthropic deixa que les empreses guardin a casa seva les converses amb Mythos i Fable, en lloc d'enviar-les als seus servidors",
-      "excerpt": "Els clients d'empresa hauran de conservar igualment durant 30 dies les preguntes i les respostes, però en els seus propis servidors. Anthropic hi passarà una revisió automàtica cada quinze minuts per detectar possibles atacs informàtics, sense poder llegir les dades."
+      "title": "Anthropic explica com uns agents de Claude han reescrit en Rust el programari que atén totes les peticions a la seva IA, i que ara gasta un 70% menys de processador",
+      "excerpt": "Claude va escriure més del 80% del codi del nou sistema, però els enginyers van revisar cada canvi i en van rebutjar algun que només feia veure que funcionava. El trasllat es va fer sense aturar el servei."
     },
     {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una grua autònoma ha mogut més de dos milions de contenidors en quatre ports de la Xina sense ningú a la cabina, segons «Science Robotics»",
-      "excerpt": "El sistema, anomenat Autane, s'instal·la a les grues que ja funcionen als ports i combina càmeres, làser i posicionament per satèl·lit. En més de 60.000 operacions va completar el 91% de les feines i va resoldre sol nou de cada deu avaries passatgeres."
-    },
-    {
-      "category": "SALUT",
-      "read": "5 MIN",
-      "title": "Només un de cada vuit estudis sobre models que preveuen la salut dels pacients comparteix el codi, segons una revisió feta amb IA a «Nature Medicine»",
-      "excerpt": "Un equip del MIT i del Dana-Farber ha fet servir models de llenguatge per repassar gairebé 4.000 articles mèdics i els repositoris de codi que citaven, amb una revisió humana de 500 articles. Fins i tot quan el codi és públic, sovint no porta prou instruccions per tornar-lo a fer servir."
-    },
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Singapur converteix un barri nou en un banc de proves on robots de neteja i de repartiment treballen guiats per milers de sensors",
-      "excerpt": "Al districte digital de Punggol, càmeres i sensors connectats a una plataforma comuna avisen un robot quan algú vessa un cafè i regulen l'aire condicionat i els ascensors. El govern el vol inaugurar el mes que ve i prepara normes de seguretat per als robots."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "5 MIN",
-      "title": "ACTUALITZACIÓ: Milers de xips B300 de Nvidia busquen comprador nou després que els Estats Units prohibeixin llogar-los a empreses xineses des de l'estranger",
-      "excerpt": "La norma que va entrar en vigor el 19 de novembre deixa sense clients els centres de dades del sud-est asiàtic que pensaven llogar potència de càlcul a empreses de la Xina. Segons el Financial Times, Nvidia ha demanat a Dell i Supermicro que aturin els enviaments de servidors a quatre països de la zona."
-    },
-    {
-      "category": "SALUT",
-      "read": "4 MIN",
-      "title": "ChatGPT reconeix la psoriasi en més de nou de cada deu fotos clíniques, però encerta menys el tractament, segons un estudi a «Frontiers in Medicine»",
-      "excerpt": "Uns dermatòlegs de la Universitat Semmelweis de Budapest han posat a prova quatre models d'IA d'ús general amb 303 fotografies de 160 pacients. Els dos d'OpenAI són els que encerten més, i Gemini 2.5 Flash, el que menys."
-    },
-    {
-      "category": "EMPRESES",
-      "read": "4 MIN",
-      "title": "Amazon i Meta negocien deixar que l'agent d'IA Muse compri a la botiga d'Amazon, que el té bloquejat des del setembre",
-      "excerpt": "Segons la revista Fortune, les dues empreses han fet diverses rondes de converses, però encara han de pactar com es mostrarien els resultats de cerca i què passaria amb la publicitat. Qualsevol acord l'haurien d'aprovar els dos consellers delegats."
-    },
-    {
-      "category": "CONSUM",
-      "read": "4 MIN",
-      "title": "Els anuncis fets amb IA omplen les xarxes de regals de Nadal que no existeixen o que no s'assemblen gens al que arriba a casa",
-      "excerpt": "Calendaris d'Advent, batins amb calefacció i accessoris per a mascotes amb vídeos generats per IA han acumulat milions de visualitzacions abans del Black Friday. Alguns compradors no han rebut mai res i d'altres diuen que els han fet servir la targeta per a compres que no havien fet."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una neurona artificial de silici de la Universitat de Lieja canvia de comportament amb un sol control, com fan la dopamina i la serotonina al cervell",
-      "excerpt": "El xip passa de fer impulsos aïllats a fer-los en ràfegues sense tocar-ne les connexions, i gasta entre 40 i 200 picojoules per impuls. És un pas cap a un maquinari inspirat en el cervell que consumeixi molt menys que els xips d'IA actuals."
-    },
-    {
-      "category": "ESPAI",
-      "read": "5 MIN",
-      "title": "La FCC autoritza SpaceX a posar en òrbita fins a un milió de satèl·lits amb xips d'IA per fer càlcul des de l'espai",
-      "excerpt": "És el primer permís que el regulador nord-americà dona a una constel·lació sencera de satèl·lits de càlcul. SpaceX té fins al 2033 per llançar-ne el primer i fins al 2040 per arribar al milió, i encara no ha convençut la FCC de com se'n desfarà quan deixin de funcionar."
-    },
-    {
-      "category": "ECONOMIA",
-      "read": "4 MIN",
-      "title": "S&P estudia abaixar la qualificació creditícia de Nvidia perquè l'empresa depèn massa de Jensen Huang",
-      "excerpt": "L'agència diu que el comiat i el retorn del fundador mostren «una supervisió feble de la direcció i una manca de pla de successió». La revisió durarà fins a 90 dies i pot deixar la nota en AA-, cosa que encariria el deute de mig sector."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Una IA dissenya de zero pèptids que actuen sobre dues dianes alhora: fan aprimar ratolins obesos i encongeixen un 94% uns tumors, segons «Nature»",
-      "excerpt": "La plataforma ORIDTP, descrita per equips de la Xina i d'Austràlia, va crear coagonistes dels receptors GLP-1 i de glucagó més potents que els lligands naturals, i va repetir-ho sense entrenament específic amb inhibidors dobles de PD-1 i CTLA-4."
-    },
-    {
-      "category": "GOVERNANÇA",
-      "read": "4 MIN",
-      "title": "Dario Amodei replica que és «absurd» acusar Anthropic de voler deixar les decisions humanes en mans de la IA",
-      "excerpt": "El cap d'Anthropic contesta Sam Altman i Alexandr Wang i diu que no se sacrifica mai «la legitimitat ni l'autodeterminació a l'altar de l'eficiència». Admet, això sí, que no espera que sigui segur deixar Claude construint models nous tot sol."
-    },
-    {
-      "category": "FORMACIÓ",
-      "read": "4 MIN",
-      "title": "Una cadena de formació privada amb centres a Alacant i València acomiadarà 231 treballadors i vol que una IA faci part de les tutories",
-      "excerpt": "Davante MasterD planteja un acomiadament col·lectiu que afecta gairebé el 20% de la plantilla. El comitè d'empresa diu que alguns tutors dels cursos en línia seran substituïts per una IA anomenada Davinia; l'empresa parla d'«evolució» del model i de la demanda de més rapidesa dels alumnes."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "5 MIN",
-      "title": "Els fiscals generals de 42 estats volen impedir que Character.AI subhasti els xats privats de 21 milions d'usuaris per sortir de la fallida",
-      "excerpt": "L'empresa de xatbots de companyia, en fallida des d'octubre, té una subhasta prevista per a l'1 de desembre amb un sol comprador conegut, una societat anònima creada fa dues setmanes. Més de dos milions dels comptes són de menors."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "Brussel·les proposa un fons de 50.000 milions d'euros per finançar la IA i la computació quàntica a Europa",
-      "excerpt": "La Comissió Europea vol crear un fons de capital risc per a les tecnologies estratègiques i ha presentat a Estrasburg la llei europea de tecnologies quàntiques, que ara s'ha de negociar amb el Parlament i els estats."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Uns agents d'IA amb accés al cercador descobreixen qui hi ha darrere de gairebé la meitat d'unes entrevistes anònimes, segons un treball de la Universitat Northeastern",
-      "excerpt": "Els investigadors van esborrar els noms de 822 entrevistes basades en persones reals. Detalls que semblaven innocents, com una feina o un projecte, van bastar perquè els models trobessin la persona. El treball encara no està revisat per parells."
-    },
-    {
-      "category": "REGULACIÓ",
-      "read": "4 MIN",
-      "title": "Nova York prohibeix durant cinc anys les joguines amb xatbots d'IA, just abans de les compres de Nadal",
-      "excerpt": "La governadora Kathy Hochul ha signat la llei, que impedeix fabricar, distribuir i vendre peluixos, nines i robots connectats que parlen amb els infants. És el segon estat que les veta, després de Califòrnia."
-    },
-    {
-      "category": "PRODUCTES",
+      "category": "MODELS",
       "read": "3 MIN",
-      "title": "OpenAI uneix el xat i els agents de feina de ChatGPT en un sol comptador d'ús, i avisa que els usuaris més intensius toparan abans amb el límit",
-      "excerpt": "El canvi comença amb un grup petit de subscriptors Pro i s'estendrà al desembre. Les converses amb el model ràpid Instant continuaran sense límit."
+      "title": "Ant Group publica Ling-3.2-air, un model obert que entén text, imatges i vídeo i que qualsevol empresa pot adaptar i vendre",
+      "excerpt": "La filial financera d'Alibaba l'ha penjat a Hugging Face amb la llicència MIT, la més permissiva. Diu que en una prova de feines d'oficina completa el 61% de les tasques, quatre vegades més que el seu model anterior."
+    },
+    {
+      "category": "CATALUNYA",
+      "read": "3 MIN",
+      "title": "ACTUALITZACIÓ: Brussel·les torna a allargar el termini de les grans gigafactories d'IA, i el projecte de Móra la Nova té fins al 30 de desembre per presentar-se",
+      "excerpt": "L'organisme europeu que gestiona la convocatòria ha ajornat quatre setmanes la data límit, que era el 3 de desembre. És el segon ajornament. El consorci, amb l'Estat, la Generalitat, Telefónica, Santander, ACS i Multiverse, es diu optimista."
     }
   ]
 }

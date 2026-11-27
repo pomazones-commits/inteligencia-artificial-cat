@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "27.11.2026",
+    "title": "ACTUALITZACIÓ: Brussel·les torna a allargar el termini de les grans gigafactories d'IA, i el projecte de Móra la Nova té fins al 30 de desembre per presentar-se",
+    "summary": "L'organisme europeu que gestiona la convocatòria ha ajornat quatre setmanes la data límit, que era el 3 de desembre. És el segon ajornament. El consorci, amb l'Estat, la Generalitat, Telefónica, Santander, ACS i Multiverse, es diu optimista.",
+    "detail": "La Unió Europea vol finançar fins a set gigafactories d'IA, grans centres de càlcul per entrenar models, i un dels candidats és el projecte espanyol que té la seu principal al polígon del Molló, a Móra la Nova (Ribera d'Ebre), i un segon emplaçament a San Fernando de Henares. El 19 de novembre vam explicar que la Comissió Territorial d'Urbanisme de les Terres de l'Ebre havia aprovat el planejament que el fa possible, i el Govern ha ordenat a l'Institut Català del Sòl que vengui directament al consorci els més de 132.000 metres quadrats del polígon.\n\nLa novetat és el calendari. L'EuroHPC, l'organisme europeu que gestiona la convocatòria, va publicar el 25 de novembre que amplia el termini per presentar ofertes al segon lot, el de les gigafactories de gran escala, fins al 30 de desembre a les 17.00, i que el termini per fer-hi preguntes acaba el 9 de desembre. Segons el diari Ara, la data prevista era el 3 de desembre, i ja s'havia endarrerit una vegada: l'original era el 12 de novembre. Un portaveu de la Comissió Europea va atribuir l'ajornament a les peticions de diversos consorcis i dels estats que hi inverteixen, i a les condicions del mercat.\n\nPer al projecte de les Terres de l'Ebre vol dir unes setmanes més per acabar l'oferta. Fonts del consorci van dir a l'Ara que és una simple pròrroga i que se senten optimistes, i fonts de la Generalitat asseguren que estaven a punt per presentar-la completa el 3 de desembre. El consorci és en un 47,99% de l'Estat, a través de la Societat Espanyola per a la Transformació Tecnològica; Telefónica, el Banco Santander i ACS en tenen un 15,67% cadascun; Multiverse, un 4%, i la Generalitat, un 1%.\n\nL'ajornament no diu res sobre les possibilitats de cap candidatura, i la decisió final de Brussel·les no arribarà fins després del nou termini. EuroHPC no explica a la seva pàgina quants consorcis s'hi presenten ni per què les condicions del mercat obliguen a esperar. El primer lot, el de les gigafactories mitjanes, ja s'havia allargat fins al 4 de febrer del 2027.",
+    "source": "EuroHPC Joint Undertaking",
+    "url": "https://eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en",
+    "image": "./assets/gigafactoria-ia-mora-la-nova-termini-30-desembre-20261127.jpg",
+    "slug": "gigafactoria-ia-mora-la-nova-termini-30-desembre"
+  },
+  {
     "place": "Barcelona",
     "category": "IA I SOCIETAT",
     "date": "25.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/el-consell-incorpora-a-su-estructura-una-nueva-competencia-sobre-gobierno-del-dato-y-la-ia",
     "image": "./assets/consell-valencia-competencia-govern-dada-ia-20261124.jpg",
     "slug": "consell-valencia-competencia-govern-dada-ia"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "24.11.2026",
-    "title": "Capitole Lab, una unitat de recerca d'IA per a la indústria, s'instal·la a la DFactory del Consorci de la Zona Franca de Barcelona",
-    "summary": "Treballa amb agents autònoms, bessons digitals i robòtica, i ja participa en projectes europeus per a la siderúrgia.",
-    "detail": "La DFactory Barcelona és l'espai d'innovació industrial que el Consorci de la Zona Franca de Barcelona (CZFB) ha obert per reunir empreses de tecnologies com la impressió 3D, la robòtica o la intel·ligència artificial al costat del polígon de la Zona Franca.\n\nDilluns s'hi va incorporar Capitole Lab, la unitat de recerca i desenvolupament de l'empresa d'enginyeria Capitole, especialitzada en enginyeria industrial i de programari, IA i disseny de productes digitals. La unitat desenvolupa, amb els clients, solucions per a la indústria basades en agents d'IA autònoms, bessons digitals, plataformes de dades en temps real i IA aplicada a la robòtica, amb aplicacions a la indústria, la salut, l'energia i la defensa. Ho combina amb l'enginyeria de Capitole i del grup Smart4Engineering (disseny electrònic, elèctric i mecànic, automatització i simulació). Ja participa en projectes europeus de manteniment predictiu i de gestió de la cadena de subministrament per a la siderúrgia.\n\nL'arribada reforça la DFactory com a pol d'empreses que apliquen la IA a la indústria a Barcelona, i l'empresa preveu col·laborar amb altres empreses de l'espai i presentar-se a convocatòries de projectes estatals i europeus.\n\nLa informació publicada no diu quantes persones treballaran a la unitat ni quina inversió suposa, i els projectes que s'hi esmenten són de moment capacitats i plans, no resultats.",
-    "source": "La Vanguardia",
-    "url": "https://www.lavanguardia.com/elllobregat/sociedad/20261123/11691028/capitole-lab-incorpora-dfactory-barcelona-desarrollar-ia-aplicada-industria.html",
-    "image": "./assets/capitole-lab-dfactory-barcelona-ia-industria-20261124.jpg",
-    "slug": "capitole-lab-dfactory-barcelona-ia-industria"
   }
 ];
