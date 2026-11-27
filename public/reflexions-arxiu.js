@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-11-26",
+    "title": "Quan el fre el posen els altres",
+    "dek": "Un dijous en què lleis, fiscals, agències de qualificació i revistes científiques han marcat límits a la IA mentre les empreses continuaven ampliant el negoci.",
+    "body": [
+      "Ahir ens preguntàvem qui revisa el que fan les màquines. Avui una bona part de la resposta ha arribat de fora de les empreses que les fan. La governadora de Nova York ha signat una llei que prohibeix durant cinc anys les joguines amb xatbots d'IA. Els fiscals generals de 42 estats volen aturar la subhasta dels xats privats de Character.AI, prevista per a l'1 de desembre, amb més de dos milions de comptes de menors. I una agència de qualificació, S&P, ha posat en revisió la nota de Nvidia. Cap d'aquests frens no l'ha posat la indústria.",
+      "El cas de Nvidia és el que dona més pistes. La norma nord-americana que obliga a demanar llicència per llogar càlcul avançat a empreses vinculades a la Xina ja té efectes visibles: milers de xips B300 busquen comprador nou i, segons el Financial Times, l'empresa ha demanat a Dell i Supermicro que deixin d'enviar servidors a quatre països del sud-est asiàtic. S&P parla d'una supervisió feble de la direcció i de la manca d'un pla de successió. I una investigació de CBS assenyala dues empreses de Califòrnia controlades per grups xinesos entre els clients dels seus xips més avançats, tot i que cap no està acusada de res.",
+      "L'altre front és el dels consumidors i les dades. Abans del Black Friday, uns anuncis fets amb IA venen regals que no existeixen o que no s'assemblen gens al que arriba a casa. Un treball de la Universitat Northeastern, encara no revisat per parells, mostra que uns agents d'IA amb accés al cercador van identificar les persones de gairebé la meitat de 822 entrevistes anonimitzades. Davant d'aquest neguit, Anthropic ha començat a oferir als clients d'empresa que guardin les converses amb els seus models més potents als seus propis servidors. La privacitat ja no és només una obligació: s'ha convertit en un argument de venda.",
+      "Tot això conviu amb una expansió que no s'atura. La FCC ha autoritzat SpaceX a llançar fins a un milió de satèl·lits amb xips d'IA, Brussel·les proposa un fons de 50.000 milions d'euros per a la IA i la computació quàntica, i Amazon i Meta negocien que l'agent Muse pugui comprar a la botiga d'Amazon. Però els límits també apareixen dins de casa: OpenAI avisa que els usuaris més intensius de ChatGPT toparan abans amb el sostre d'ús. I a la Comunitat Valenciana, una cadena de formació privada vol acomiadar 231 treballadors i fer que una IA assumeixi part de les tutories, un recordatori que l'expansió també es nota a la feina.",
+      "La ciència del dia té una lectura semblant. Hi ha resultats potents: una IA que dissenya pèptids que actuen sobre dues dianes alhora, segons «Nature»; una grua autònoma que ha mogut més de dos milions de contenidors en ports de la Xina, segons «Science Robotics», i una neurona de silici que imita la neuromodulació del cervell. Però una revisió a «Nature Medicine» recorda la part menys vistosa: només un de cada vuit estudis sobre models de predicció clínica comparteix el codi. Sense codi, ningú de fora no pot comprovar res. El control extern també és la base de la ciència.",
+      "La tendència que apunta el dia és que les regles de la IA s'estan escrivint per moltes bandes alhora: lleis estatals, fiscalies, agències de qualificació, periodistes i revistes científiques. Demà caldrà mirar si la subhasta de Character.AI es fa o s'atura, com acaba la revisió de S&P, que pot durar fins a 90 dies, i si altres estats segueixen Nova York amb les joguines. També si els fabricants de servidors confirmen que han aturat els enviaments al sud-est asiàtic. És l'última setmana de novembre i, de moment, els frens arriben més de pressa que les promeses."
+    ],
+    "signals": [
+      {
+        "title": "Els fiscals generals de 42 estats volen impedir que Character.AI subhasti els xats privats de 21 milions d'usuaris per sortir de la fallida",
+        "slug": "fiscals-42-estats-character-ai-subhasta-xats-privats"
+      },
+      {
+        "title": "S&P estudia abaixar la qualificació creditícia de Nvidia perquè l'empresa depèn massa de Jensen Huang",
+        "slug": "sp-revisa-qualificacio-credit-nvidia-huang"
+      },
+      {
+        "title": "Nova York prohibeix durant cinc anys les joguines amb xatbots d'IA, just abans de les compres de Nadal",
+        "slug": "nova-york-prohibeix-cinc-anys-joguines-xatbot-ia"
+      },
+      {
+        "title": "Només un de cada vuit estudis sobre models que preveuen la salut dels pacients comparteix el codi, segons una revisió feta amb IA a «Nature Medicine»",
+        "slug": "models-prediccio-clinica-codi-compartit-nature-medicine"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 619
+  },
+  {
     "date": "2026-11-25",
     "title": "Qui revisa el que fa la màquina",
     "dek": "Un dimecres en què la IA ha avançat en feina feta i en resultats científics, però gairebé totes les notícies acaben en el mateix punt: algú ha de mirar què fa abans que sigui massa tard.",
@@ -2904,38 +2937,5 @@ window.IA_REFLEXIONS_ARXIU = [
     ],
     "read": "3 MIN",
     "words": 668
-  },
-  {
-    "date": "2026-08-22",
-    "title": "El dia en què la IA es va posar a prova a si mateixa i va suspendre",
-    "dek": "Entre un informe de seguretat que cap laboratori aprova i un estudi que destapa com s'inflen les millores d'un model, avui el fil és la distància entre el que la indústria de la IA diu que fa i el que es pot verificar de debò.",
-    "body": [
-      "Avui diverses notícies aparentment separades han convergit en una mateixa pregunta: es pot confiar en el que els laboratoris d'IA i les empreses que en depenen diuen sobre els seus propis sistemes? Guidelight AI Standards ha publicat la primera avaluació independent de com Anthropic, OpenAI, Google, xAI i Meta controlen realment els seus models per dins, i cap de les cinc supera una «implementació parcial substancial» en cap de les sis pràctiques bàsiques que hauria de garantir-ho. El mateix dia, un altre estudi ha mostrat que els mètodes habituals per mesurar si un model «s'ha après a millorar sol» poden inventar-se progressos allà on no n'hi ha cap.",
-      "Aquest segon treball, «Phantom Gains», ha auditat tres rondes d'autoentrenament sobre un model xinès i hi ha trobat set errors de mesura diferents: amb el mètode habitual, fins i tot un model que no s'ha entrenat gens sembla haver millorat. En paral·lel, investigadors del MIT han publicat a Nature Communications una manera de simular què passaria si es retirés una imatge concreta de les dades d'entrenament d'un generador d'imatges, i troben que l'efecte d'una sola obra sol ser pràcticament nul quan el conjunt de dades és gran, cosa que posa a prova un dels arguments centrals de moltes demandes per drets d'autor. Tots dos estudis comparteixen un mateix gest: construir una prova rigorosa allà on abans només hi havia l'afirmació d'una empresa o d'un demandant.",
-      "No tot el que s'ha publicat avui és igual d'incert. Nvidia ha detallat com AVO, una arquitectura d'agents pensada originalment per optimitzar codi de GPU, ha arribat al 100% del benchmark ARC-AGI-3 mentre el mateix model que la fa funcionar per sota, sol, només hi arriba a un 30%: una millora atribuïble a com s'organitza l'agent, no a un model més gran, i documentada amb xifres concretes de nivells i accions. El contrast és útil: mentre AVO mostra un guany real i mesurable, la start-up britànica de xips Fractile ha multiplicat per sis la seva valoració, fins als 6.500 milions de dòlars, basant-se en un contracte amb Anthropic per a un xip que encara no s'ha fabricat ni té cap prova independent de rendiment.",
-      "La mateixa desconfiança que alimenta els auditors de seguretat i els revisors de mètodes també ha arribat avui al llenguatge dels directius. Axios documenta com caps com Marc Benioff, que fa un any presumien obertament d'acomiadaments atribuïts a la IA, ara en reneguen en públic —«és massa fàcil convertir la IA en cap de turc», diu ell mateix—, just quan un 61% dels nord-americans creu que la intel·ligència artificial es traduirà en menys oportunitats econòmiques. La reorganització, però, és real i mesurable: dades de CBRE mostren Nova York superant per primer cop la badia de San Francisco en llocs de treball tecnològics, empesa per la contractació d'IA al sector financer, mentre Apple retalla plantilla a Vision Pro i Siri per redirigir-la cap a les seves apostes d'IA.",
-      "El fil que travessa el dia, doncs, no és que la IA avanci o no —els agents que resolen tasques noves, els mètodes que estalvien còmput i els sistemes que descobreixen biomarcadors de salut a partir de dades de rellotges intel·ligents demostren que sí, i amb metodologia i xifres verificables al darrere—, sinó que el marge entre aquest progrés real i les afirmacions que l'acompanyen (de seguretat, d'autosuperació, d'atribució, de xips encara inexistents, d'acomiadaments) s'ha tornat prou ampli perquè auditors independents, investigadors i fins i tot els mateixos directius se sentin obligats a posar-lo en dubte en públic.",
-      "Demà caldrà mirar si algun dels cinc laboratoris avaluats per Guidelight respon amb canvis concrets o simplement deixa passar l'informe, i si Fractile comença a mostrar cap prova tangible del seu xip abans que la pròxima ronda de finançament es tanqui del tot. També valdrà la pena seguir si el gir discursiu dels directius sobre IA i acomiadaments es generalitza a mesura que arribin més retallades associades a la tardor, o si es queda en un gest puntual de gestió de la reputació."
-    ],
-    "signals": [
-      {
-        "title": "Una avaluació independent troba que cap gran laboratori d'IA aplica de debò els seus propis controls de seguretat interns",
-        "slug": "guidelight-avaluacio-seguretat-laboratoris-ia"
-      },
-      {
-        "title": "Un estudi destapa que els mètodes actuals per mesurar l'«autosuperació» d'un model d'IA poden inventar-se millores que no existeixen",
-        "slug": "arxiv-phantom-gains-autoavaluacio-ia"
-      },
-      {
-        "title": "Investigadors del MIT demostren que, en imatges generades per IA, treure una sola obra del conjunt d'entrenament sol no canvia gairebé res",
-        "slug": "mit-atribucio-decreixent-imatges-ia"
-      },
-      {
-        "title": "Els directors generals de tecnologia comencen a evitar culpar la IA dels acomiadaments, després que el mateix Marc Benioff ho titllés de «sortida fàcil»",
-        "slug": "directius-tecnologia-canvien-discurs-ia-acomiadaments"
-      }
-    ],
-    "read": "3 MIN",
-    "words": 665
   }
 ];
