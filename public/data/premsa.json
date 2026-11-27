@@ -1,8 +1,30 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-27T13:13:57.175Z",
+ "actualitzat": "2026-11-27T14:26:47.151Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "2e4e96791741",
+   "mitja": "El Nacional",
+   "font": "elnacional",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Aquesta gravadora de veu amb IA, transcripció i traducció en temps real està d'oferta a Amazon",
+   "url": "https://www.elnacional.cat/ca/tecnologia/aquesta-gravadora-veu-ia-transcripcio-traduccio-en-temps-real-esta-oferta-amazon_1732388_102.html",
+   "publicat": "2026-11-27T14:00:00.000Z"
+  },
+  {
+   "id": "d6c049330b77",
+   "mitja": "El País",
+   "font": "elpais-tec",
+   "icona": "/assets/premsa/el-pais.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Rebelión científica tras el anuncio de un colaborador de OpenAI que asegura haber resuelto el gran problema de la física",
+   "url": "https://elpais.com/ciencia/2026-11-27/rebelion-cientifica-tras-el-anuncio-de-un-colaborador-de-openai-que-asegura-haber-resuelto-el-gran-problema-de-la-fisica.html",
+   "publicat": "2026-11-27T13:26:32.000Z"
+  },
   {
    "id": "563fbf1a337c",
    "mitja": "El Nacional",
@@ -2764,28 +2786,6 @@
    "titol": "Comu Action Pro: el aliado de bolsillo que transcribe tus reuniones utilizando IA",
    "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-11-21/comu-action-pro-caracteristicas-precio.html",
    "publicat": "2026-11-21T14:00:00.000Z"
-  },
-  {
-   "id": "1fb8582c5538",
-   "mitja": "Diari de Girona",
-   "font": "diaridegirona",
-   "icona": "/assets/premsa/diari-de-girona.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Un de cada tres productors ja fa servir la IA: qui té els drets de la música que en surt?",
-   "url": "https://www.diaridegirona.cat/cultura/2026/11/21/tres-productors-ja-fa-servir-136696309.html",
-   "publicat": "2026-11-21T13:06:20.000Z"
-  },
-  {
-   "id": "e70774eb10ba",
-   "mitja": "À Punt",
-   "font": "apunt",
-   "icona": "/assets/premsa/a-punt.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La intel·ligència artificial podria destruir 400.000 llocs de treball nets en deu anys i posar en risc les cotitzacions",
-   "url": "https://www.apuntmedia.es/noticies/economia/video-intel-ligencia-artificial-destruir-400-000-llocs-treball-nets-deu-anys-posar-risc-cotitzacions_1_1910603.html",
-   "publicat": "2026-11-21T12:14:19.000Z"
   }
  ]
 }
