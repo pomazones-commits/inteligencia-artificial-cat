@@ -1,8 +1,63 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-27T17:14:51.331Z",
+ "actualitzat": "2026-11-27T22:59:59.811Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "769155a122b3",
+   "mitja": "elDiario.es",
+   "font": "eldiario-tec",
+   "icona": "/assets/premsa/eldiario-es.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Todo con la IA pero sin la IA: la campaña desata una avalancha de memes y silencia su impacto real",
+   "url": "https://www.eldiario.es/tecnologia/ia-ia-campana-desata-avalancha-memes-silencia-impacto-real_1_13695902.html",
+   "publicat": "2026-11-27T22:26:51.000Z"
+  },
+  {
+   "id": "3386a177c181",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La intel·ligència artificial facilita les ciberestafes del Black Friday: com detectar-les i evitar caure en el parany",
+   "url": "https://www.apuntmedia.es/noticies/societat/video-intel-ligencia-artificial-facilita-ciberestafes-black-friday-detectar-evitar-caure-parany_1_1912085.html",
+   "publicat": "2026-11-27T19:06:56.000Z"
+  },
+  {
+   "id": "2f4220741edc",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Un chatbot de IA logra frenar las teorías conspirativas y reducir la desinformación",
+   "url": "https://www.levante-emv.com/tendencias21/2026/11/27/chatbot-ia-logra-frenar-teorias-136939492.html",
+   "publicat": "2026-11-27T17:49:13.000Z"
+  },
+  {
+   "id": "6e9e173b12d9",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'Ibex puja un 2,7% en la setmana del renaixement de Nvidia i abans del 29N",
+   "url": "https://www.elnacional.cat/oneconomia/ca/mercats/ibex-puja-27-en-setmana-renaixement-nvidia-abans-29n_1732568_102.html",
+   "publicat": "2026-11-27T17:43:23.000Z"
+  },
+  {
+   "id": "25dd69687bb8",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "«La IA redefine las profesiones y la actitud sigue diferenciando al mejor talento»",
+   "url": "https://www.levante-emv.com/economia/2026/11/27/la-ia-redefine-las-profesiones-y-la-actitud-sigue-diferenciando-al-mejor-talento-bc-136845825.html",
+   "publicat": "2026-11-27T17:25:05.000Z"
+  },
   {
    "id": "6332edd4975f",
    "mitja": "La Vanguardia",
@@ -2731,61 +2786,6 @@
    "titol": "Huang recurría a las humillaciones para motivar a los empleados de Nvidia",
    "url": "https://www.lavanguardia.com/economia/20261122/11689992/huang-recurria-humillaciones-motivar-empleados-nvidia.html",
    "publicat": "2026-11-22T05:00:00.000Z"
-  },
-  {
-   "id": "d3f7789cc949",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "La OPV de 2 billones de Anthropic puede ser el último gran festejo",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-22/la-opv-de-2-billones-de-anthropic-puede-ser-el-ultimo-gran-festejo.html",
-   "publicat": "2026-11-22T04:40:00.000Z"
-  },
-  {
-   "id": "2b928b3b9c41",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "ASML, con armas para defender su dominio tecnológico en la vorágine de la IA",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-22/asml-con-armas-para-defender-su-dominio-tecnologico-en-la-voragine-de-la-ia.html",
-   "publicat": "2026-11-22T04:30:00.000Z"
-  },
-  {
-   "id": "8a639f65a3a1",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "El gran dia d'Anthropic: OpenAI i Google contraataquen",
-   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/gran-dia-anthropic-openai-google-contraataquen_1728821_102.html",
-   "publicat": "2026-11-22T04:30:00.000Z"
-  },
-  {
-   "id": "a8b32e0fd316",
-   "mitja": "Segre",
-   "font": "segre",
-   "icona": "/assets/premsa/segre.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "IA d’amagat",
-   "url": "https://www.segre.com/ca/opinio/lideratge/261122/ia-damagat_1406667.html",
-   "publicat": "2026-11-22T04:24:10.000Z"
-  },
-  {
-   "id": "53f0e269382e",
-   "mitja": "El Punt Avui",
-   "font": "elpuntavui-societat",
-   "icona": "/assets/premsa/el-punt-avui.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "“La IA pot pensar per nosaltres; aquest és el perill”",
-   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2690965-la-ia-pot-pensar-per-nosaltres-aquest-es-el-perill.html",
-   "publicat": "2026-11-22T01:00:00.000Z"
   }
  ]
 }
