@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-27T09:16:08.058Z",
+ "actualitzat": "2026-11-27T13:13:57.175Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "563fbf1a337c",
+   "mitja": "El Nacional",
+   "font": "elnacional",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Microsoft declara el codi vermell després de la pitjor apagada i aposta per la IA per evitar-ne una altra",
+   "url": "https://www.elnacional.cat/ca/tecnologia/microsoft-declara-codi-vermell-despres-seva-pitjor-apagada-ara-vol-ia-eviti-altre-desastre_1732415_102.html",
+   "publicat": "2026-11-27T13:03:58.000Z"
+  },
+  {
+   "id": "77d35ce6f92f",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA no olvida: Anthropic descubre que 14 de 23 modelos conservan conocimientos para lanzar ciberataques aunque los borren",
+   "url": "https://www.lavanguardia.com/neo/ia/20261127/11695030/ia-olvida-anthropic-descubre-14-23-modelos-conservan-conocimientos-lanzar-ciberataques-borren.html",
+   "publicat": "2026-11-27T12:50:06.000Z"
+  },
+  {
+   "id": "54cda603271c",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Cómo la IA retrasa el papeleo judicial: al menos 25 procesos se han visto afectados por un uso incorrecto",
+   "url": "https://www.lavanguardia.com/neo/ia/20261127/11694918/como-ia-retrasa-papeleo-judicial-procesos-afectados-uso-incorrecto.html",
+   "publicat": "2026-11-27T12:23:54.000Z"
+  },
+  {
+   "id": "dc58e4132b79",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Per què Nvidia depèn tant de Jensen Huang",
+   "url": "https://www.ara.cat/media/nvidia-depen-tant-jensen-huang_1_5924833.html",
+   "publicat": "2026-11-27T11:25:54.000Z"
+  },
+  {
+   "id": "dfc491febe75",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Juguetes con inteligencia artificial: ¿son seguros?",
+   "url": "https://www.elperiodico.com/es/sociedad/20261127/juguetes-inteligencia-artificial-son-seguros-136917418",
+   "publicat": "2026-11-27T10:30:31.000Z"
+  },
+  {
+   "id": "189d54dcffc5",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El presidente de Microsoft alerta sobre las caídas de sistemas ante el rápido desarrollo de la IA: “Tenemos que estar preparados para los próximos meses”",
+   "url": "https://www.lavanguardia.com/neo/sociedad-neo/20261127/11694804/presidente-microsoft-alerta-caidas-sistemas-rapido-desarrollo-ia-preparados.html",
+   "publicat": "2026-11-27T10:21:49.000Z"
+  },
+  {
+   "id": "d9e3eafeb9ab",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Feijóo y Colau empatan en el debate a cuatro, según el análisis con IA de RepIndex",
+   "url": "https://www.ultimahora.es/noticias/comunicados-empresariales/2026/11/27/2759069/feijoo-colau-empatan-debate-cuatro-segun-analisis-repindex.html",
+   "publicat": "2026-11-27T09:48:00.000Z"
+  },
+  {
+   "id": "05d8253dacbc",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Nvidia y la tentación de moralizar el compliance",
+   "url": "https://cincodias.elpais.com/legal/2026-11-27/nvidia-y-la-tentacion-de-moralizar-el-compliance.html",
+   "publicat": "2026-11-27T09:16:54.000Z"
+  },
   {
    "id": "24856cc24037",
    "mitja": "Cinco Días",
@@ -23,7 +111,9 @@
    "ambit": "catala",
    "titol": "SAP baraja la supresión de 10.000 puestos de trabajo ante la incidencia de la IA",
    "url": "https://www.lavanguardia.com/economia/20261127/11694732/reduccion-plantilla-sap.html",
-   "publicat": "2026-11-27T08:21:31.000Z"
+   "publicat": "2026-11-27T08:21:31.000Z",
+   "noticia": "sap-suprimira-10000-llocs-de-treball-ia",
+   "noticiaTitol": "SAP es prepara per suprimir uns 10.000 llocs de treball, el 9% de la plantilla, per reorganitzar-se al voltant de la IA"
   },
   {
    "id": "d7e66eafa34c",
@@ -278,7 +368,9 @@
    "ambit": "catala",
    "titol": "Situen la IA i la tecnologia com a \"aliades\" per a la supervivència de l'aranès",
    "url": "https://www.segre.com/ca/comarques/261126/situen-ia-i-tecnologia-com-aliades-per-supervivencia-l-aranes_1412612.html",
-   "publicat": "2026-11-26T16:47:57.000Z"
+   "publicat": "2026-11-26T16:47:57.000Z",
+   "noticia": "congres-vielha-ia-aranes-llengues-minoritaries",
+   "noticiaTitol": "El congrés de Vielha estrena un sistema de traducció i subtítols automàtics en aranès, i la síndica d'Aran vol una factoria audiovisual en aquesta llengua"
   },
   {
    "id": "0f44e850b6a1",
@@ -2694,96 +2786,6 @@
    "titol": "La intel·ligència artificial podria destruir 400.000 llocs de treball nets en deu anys i posar en risc les cotitzacions",
    "url": "https://www.apuntmedia.es/noticies/economia/video-intel-ligencia-artificial-destruir-400-000-llocs-treball-nets-deu-anys-posar-risc-cotitzacions_1_1910603.html",
    "publicat": "2026-11-21T12:14:19.000Z"
-  },
-  {
-   "id": "f8c2eb10c2d0",
-   "mitja": "VilaWeb",
-   "font": "vilaweb",
-   "icona": "/assets/premsa/vilaweb.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "The New York Times destapa dècades d’humiliacions i amenaces de Jensen Huang als treballadors de Nvidia",
-   "url": "https://www.vilaweb.cat/noticies/new-york-times-destapa-decades-maltractament-jensen-huang-nvidia",
-   "publicat": "2026-11-21T08:41:42.000Z",
-   "noticia": "nyt-jensen-huang-cultura-por-nvidia",
-   "noticiaTitol": "ACTUALITZACIÓ: The New York Times descriu dues dècades d'humiliacions i amenaces de Jensen Huang als treballadors de Nvidia"
-  },
-  {
-   "id": "f6bdf99e0024",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La inteligencia artificial cambia el Black Friday: el 55% de los españoles la utilizará para encontrar descuentos",
-   "url": "https://www.elperiodico.com/es/economia/20261121/black-friday-espanoles-utilizaran-inteligencia-encontrar-artificial-descuentos-136623319",
-   "publicat": "2026-11-21T08:00:50.000Z"
-  },
-  {
-   "id": "f4097e87ab2f",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La Comisión Europea investiga cómo defender los procesos electorales de la manipulación con IA",
-   "url": "https://www.informacion.es/internacional/2026/11/21/comision-europea-investiga-defender-procesos-electorales-manipulacion-ia-136688024.html",
-   "publicat": "2026-11-21T07:27:52.000Z"
-  },
-  {
-   "id": "ecf678640d28",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un matemático de Anthropic asegura haber resuelto con IA el problema más famoso de cálculo, la hipótesis de Riemann",
-   "url": "https://www.elperiodico.com/es/tecnologia/20261121/matematico-anthropic-asegura-haber-resuelto-problema-matematicas-hipotesis-riemann-136687524",
-   "publicat": "2026-11-21T07:10:50.000Z"
-  },
-  {
-   "id": "d7954ab05f27",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La agencia de selección que creó su propia IA para democratizar la contratación de personal: “Contratar al candidato perfecto no debería ser un privilegio de las grandes empresas”",
-   "url": "https://www.lavanguardia.com/empresas-de-vanguardia/historias-de-exito/20261121/11688213/agencia-seleccion-creo-propia-ia-democratizar-contratacion-personal-contratar-candidato-perfecto-deberia-privilegio-grandes-empresas.html",
-   "publicat": "2026-11-21T05:09:19.000Z"
-  },
-  {
-   "id": "6fa8c48f43e5",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Más cultura | La història de Fantasia, des del caliu de l’oralitat fins l'amenaça de la IA",
-   "url": "https://valenciaplaza.com/noticas-cultura-valencia-comunitat-valenciana/la-historia-de-fantasia-des-del-caliu-de-loralitat-fins-lamenaca-de-la-ia",
-   "publicat": "2026-11-21T05:00:04.000Z"
-  },
-  {
-   "id": "4cf23d460553",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Ahorra tiempo la IA a los trabajadores? Los estudios dicen que no es tan sencillo",
-   "url": "https://www.lavanguardia.com/neo/ia/20261121/11687990/ahorra-ia-trabajadores-estudios-dicen-sencillo.html",
-   "publicat": "2026-11-21T05:00:00.000Z"
-  },
-  {
-   "id": "8a3828e113e9",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "¿Qué aconseja la IA en vivienda? Vota al PSOE si alquilas y al PP si eres propietario",
-   "url": "https://www.lavanguardia.com/politica/20261121/11689391/que-aconseja-ia-vivienda-vota-psoe-alquilas-pp-propietario.html",
-   "publicat": "2026-11-21T05:00:00.000Z"
   }
  ]
 }
