@@ -1,12 +1,56 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-27T14:26:47.151Z",
+ "actualitzat": "2026-11-27T17:14:51.331Z",
  "fonts": 44,
  "articles": [
   {
+   "id": "6332edd4975f",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "El PP sitúa a Santos Cerdán en la cárcel y pidiendo el indulto en un nuevo vídeo con IA",
+   "url": "https://www.lavanguardia.com/politica/20261127/11695245/pp-situa-santos-cerdan-carcel-pidiendo-indulto-nuevo-video-ia.html",
+   "publicat": "2026-11-27T16:14:03.000Z"
+  },
+  {
+   "id": "9a3dc4e5581d",
+   "mitja": "À Punt",
+   "font": "apunt",
+   "icona": "/assets/premsa/a-punt.ico",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "27.11.2026 | Black Friday: entre els descomptes, la desconfiança i la intel·ligència artificial",
+   "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/27-11-2026-black-friday-descomptes-desconfianca-intel-ligencia-artificial_135_1912073.html",
+   "publicat": "2026-11-27T15:55:00.000Z"
+  },
+  {
+   "id": "b369a77d151b",
+   "mitja": "Diari de Girona",
+   "font": "diaridegirona",
+   "icona": "/assets/premsa/diari-de-girona.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Vídeo: Els Mossos alerten que la IA permet \"perfeccionar\" les ciberestafes i les fa més difícils de detectar",
+   "url": "https://www.diaridegirona.cat/videos/societat-i-oci/2026/11/27/video-els-mossos-alerten-ia-136933873.html",
+   "publicat": "2026-11-27T15:52:46.000Z"
+  },
+  {
+   "id": "486a0d80b24c",
+   "mitja": "Levante-EMV",
+   "font": "levante-totes",
+   "icona": "/assets/premsa/levante-emv.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Adela Cortina llevará a Ontinyent el debate sobre los desafíos de la inteligencia artificial",
+   "url": "https://www.levante-emv.com/costera/2026/11/27/adela-cortina-llevara-ontinyent-debate-136930811.html",
+   "publicat": "2026-11-27T14:29:58.000Z"
+  },
+  {
    "id": "2e4e96791741",
    "mitja": "El Nacional",
-   "font": "elnacional",
+   "font": "elnacional-totes",
    "icona": "/assets/premsa/el-nacional.webp",
    "llengua": "ca",
    "ambit": "catala",
@@ -28,13 +72,13 @@
   {
    "id": "563fbf1a337c",
    "mitja": "El Nacional",
-   "font": "elnacional",
+   "font": "elnacional-totes",
    "icona": "/assets/premsa/el-nacional.webp",
    "llengua": "ca",
    "ambit": "catala",
    "titol": "Microsoft declara el codi vermell després de la pitjor apagada i aposta per la IA per evitar-ne una altra",
    "url": "https://www.elnacional.cat/ca/tecnologia/microsoft-declara-codi-vermell-despres-seva-pitjor-apagada-ara-vol-ia-eviti-altre-desastre_1732415_102.html",
-   "publicat": "2026-11-27T13:03:58.000Z"
+   "publicat": "2026-11-27T13:03:00.000Z"
   },
   {
    "id": "77d35ce6f92f",
@@ -329,7 +373,7 @@
   {
    "id": "5145113eb230",
    "mitja": "El Nacional",
-   "font": "elnacional",
+   "font": "elnacional-totes",
    "icona": "/assets/premsa/el-nacional.webp",
    "llengua": "ca",
    "ambit": "catala",
@@ -806,7 +850,7 @@
   {
    "id": "b95eaf4e2a61",
    "mitja": "El Nacional",
-   "font": "elnacional",
+   "font": "elnacional-totes",
    "icona": "/assets/premsa/el-nacional.webp",
    "llengua": "ca",
    "ambit": "catala",
@@ -2742,50 +2786,6 @@
    "titol": "“La IA pot pensar per nosaltres; aquest és el perill”",
    "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2690965-la-ia-pot-pensar-per-nosaltres-aquest-es-el-perill.html",
    "publicat": "2026-11-22T01:00:00.000Z"
-  },
-  {
-   "id": "ff5e9abe7be0",
-   "mitja": "El Punt Avui",
-   "font": "elpuntavui-societat",
-   "icona": "/assets/premsa/el-punt-avui.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La IA ja fa feina: multes, advocats i cerques",
-   "url": "https://www.elpuntavui.cat/societat/article/15-ciencia/2690972-la-ia-ja-fa-feina-multes-advocats-i-cerques.html",
-   "publicat": "2026-11-22T01:00:00.000Z"
-  },
-  {
-   "id": "ed2ca9576eb3",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Alicante reúne a expertos del turismo para analizar el impacto de la IA",
-   "url": "https://www.informacion.es/economia/2026/11/21/alicante-reune-expertos-turismo-analizar-136669720.html",
-   "publicat": "2026-11-21T21:30:39.000Z"
-  },
-  {
-   "id": "d0fe79fadb11",
-   "mitja": "Levante-EMV",
-   "font": "levante",
-   "icona": "/assets/premsa/levante-emv.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Francesc Nogales, mejor docente de Primaria de España de 2021: \"Lo que necesita un niño no es aprender a usar la IA, sino tener una conciencia crítica\"",
-   "url": "https://www.levante-emv.com/videos/comunitat-valenciana/2026/11/21/francesc-nogales-mejor-docente-primaria-136666594.html",
-   "publicat": "2026-11-21T17:00:24.000Z"
-  },
-  {
-   "id": "d2baf4b3e414",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Comu Action Pro: el aliado de bolsillo que transcribe tus reuniones utilizando IA",
-   "url": "https://cincodias.elpais.com/smartlife/gadgets/2026-11-21/comu-action-pro-caracteristicas-precio.html",
-   "publicat": "2026-11-21T14:00:00.000Z"
   }
  ]
 }
