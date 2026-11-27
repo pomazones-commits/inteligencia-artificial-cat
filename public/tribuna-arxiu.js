@@ -13,7 +13,7 @@ window.IA_TRIBUNA_ARXIU = [
     "org": "Institut de Recerca Sant Pau",
     "orgUrl": "https://www.recercasantpau.cat/",
     "eix": "ciencia-salut-i-robotica",
-    "title": "Israel Fernández-Cadenas (IR Sant Pau): com la IA pot preveure quins pacients d'ictus sagnaran després del tractament",
+    "title": "Israel Fernández-Cadenas (IR Sant Pau): com la IA pot preveure quins pacients d'ictus patiran una hemorràgia després del tractament",
     "id": "israel-fernandez-cadenas-ir-sant-pau-com-vol-la-ia-preveure-quins-pacients-d",
     "excerpt": "Entre un 5% i un 9% dels pacients d'ictus tractats amb el fàrmac que desfà el trombe pateixen una hemorràgia cerebral, i avui no hi ha manera de saber qui. El projecte BIOMERGE combinarà amb IA dades clíniques, genètiques, epigenètiques i proteòmiques de 450 pacients per detectar-los a temps. El seu coordinador explica com, amb quines garanties i en quin termini.",
     "quote": "Si ajuntem les tres llesques en una de sola, ja no tindrem forats i podrem veure el formatge completament.",
