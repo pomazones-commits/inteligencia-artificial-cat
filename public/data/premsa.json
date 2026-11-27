@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-26T23:22:11.925Z",
+ "actualitzat": "2026-11-27T05:14:57.533Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "788f134f84f9",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La hora de los bajistas: ETF inversos y ‘hedge funds’ con posiciones cortas se forran con la caída de la IA",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-27/la-hora-de-los-bajistas-etf-inversos-y-hedge-funds-con-posiciones-cortas-se-forran-con-la-caida-de-la-ia.html",
+   "publicat": "2026-11-27T05:04:49.000Z"
+  },
+  {
+   "id": "c434920389c2",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La izquierda española elude sus críticas a las redes sociales y la IA en plena campaña electoral",
+   "url": "https://www.elperiodico.com/es/tecnologia/20261127/criticas-ia-democratas-eeuu-izquierda-espana-psoe-sumar-elecciones-29n-centros-datos-frente-amplio-136659017",
+   "publicat": "2026-11-27T05:00:46.000Z"
+  },
+  {
+   "id": "3c7e8c4ddf77",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La revolución de la IA se atasca en la construcción: solo dos de cada diez profesionales automatizan tareas",
+   "url": "https://www.elperiodico.com/es/economia/20261127/revolucion-ia-atasca-construccion-diez-136770399",
+   "publicat": "2026-11-27T05:00:40.000Z"
+  },
+  {
+   "id": "f6b34bad91a5",
+   "mitja": "El Periódico",
+   "font": "elperiodico-totes",
+   "icona": "/assets/premsa/el-periodico.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Los jóvenes buscan consuelo y afecto en la IA: \"La gente se cansa de escuchar y no quiero ser una carga\"",
+   "url": "https://www.elperiodico.com/es/sociedad/20261127/jovenes-usan-ia-confidencias-apoyo-emocional-estudio-esade-136792552",
+   "publicat": "2026-11-27T05:00:39.000Z"
+  },
+  {
+   "id": "2aeacf66598d",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "El gran búnker de las redes del PSOE: “No usamos la IA; para eso están los cortes reales de Feijóo y Abascal”",
+   "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/el-gran-bunker-de-las-redes-del-psoe-no-usamos-la-ia-para-eso-estan-los-cortes-reales-de-feijoo-y-abascal.html",
+   "publicat": "2026-11-27T04:30:01.000Z"
+  },
+  {
+   "id": "b9861fba4fd1",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "De Francia a la inflación y de la IA a la integración europea: la larga lista de deberes de Hernández de Cos",
+   "url": "https://elpais.com/economia/2026-11-27/de-francia-a-la-inflacion-y-de-la-ia-a-la-integracion-europea-la-larga-lista-de-deberes-de-hernandez-de-cos.html",
+   "publicat": "2026-11-27T04:30:01.000Z"
+  },
+  {
+   "id": "3a851e04d76b",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "DPAM señala a Anthropic y OpenAI entre las grandes perjudicadas por el regreso de Jensen Huang",
+   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-27/dpam-senala-a-anthropic-y-openai-entre-las-grandes-perjudicadas-por-el-regreso-de-jensen-huang.html",
+   "publicat": "2026-11-27T04:25:00.000Z"
+  },
+  {
+   "id": "f5013bb0dc56",
+   "mitja": "Las Provincias",
+   "font": "lasprovincias",
+   "icona": "/assets/premsa/las-provincias.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "La IA entra en la cesta del Black Friday",
+   "url": "https://www.lasprovincias.es/economia/startups/ia-entra-cesta-black-friday-20261127090103-nt.html",
+   "publicat": "2026-11-26T23:32:51.000Z"
+  },
   {
    "id": "5145113eb230",
    "mitja": "El Nacional",
@@ -2696,94 +2784,6 @@
    "titol": "Así convive con la IA una agencia de publicidad",
    "url": "https://www.informacion.es/elche/2026/11/20/ia-agencia-publicidad-grupo-anton-bc-136654007.html",
    "publicat": "2026-11-20T21:30:56.000Z"
-  },
-  {
-   "id": "8af21903f148",
-   "mitja": "elDiario.es",
-   "font": "eldiario-tec",
-   "icona": "/assets/premsa/eldiario-es.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los \"millonarios de papel\" de la IA: Anthropic crea miles de ricos mientras blinda el poder de su cúpula",
-   "url": "https://www.eldiario.es/tecnologia/millonarios-papel-ia-anthropic-crea-miles-ricos-blinda-cupula_1_13677805.html",
-   "publicat": "2026-11-20T21:08:30.000Z"
-  },
-  {
-   "id": "4eecda09f78b",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "OpenAI lleva su asistente más avanzado a ChatGPT Plus: así funcionan los nuevos Dots",
-   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-20/openai-lleva-su-asistente-mas-avanzado-a-chatgpt-plus-asi-funcionan-los-nuevos-dots.html",
-   "publicat": "2026-11-20T20:36:12.000Z"
-  },
-  {
-   "id": "9b7e786c2b89",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Un matemático afirma haber resuelto uno de los problemas más importantes del mundo con ayuda de la IA",
-   "url": "https://www.lavanguardia.com/vida/20261120/11689484/matematico-afirma-haber-resuelto-problemas-mas-importantes-mundo-ayuda-ia.html",
-   "publicat": "2026-11-20T19:04:51.000Z"
-  },
-  {
-   "id": "336e8ed67fb8",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Qüestionari ràpid a Jordi Hereu (PSC): \"No li pregunto res a la intel·ligència artificial\"",
-   "url": "https://www.3cat.cat/3catinfo/questionari-rapid-a-jordi-hereu-psc-no-li-pregunto-res-a-la-intelligencia-artificial/noticia/3441123",
-   "publicat": "2026-11-20T19:00:52.000Z"
-  },
-  {
-   "id": "63ecc502f2cd",
-   "mitja": "3CatInfo",
-   "font": "3catinfo",
-   "icona": "/assets/premsa/3catinfo.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La por de la bombolla de la IA fa enfonsar el Nasdaq, amb la caiguda de Nvidia i Anthropic",
-   "url": "https://www.3cat.cat/3catinfo/anthropic-baixa-un-10-a-la-borsa-lendema-de-la-seva-estrena-historica/noticia/3441122",
-   "publicat": "2026-11-20T18:08:54.000Z"
-  },
-  {
-   "id": "cf087fe84cba",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Amenazas de muerte, insultos y humillaciones: el lado oscuro del liderazgo de Jensen Huang en Nvidia",
-   "url": "https://elpais.com/us/2026-11-20/amenazas-de-muerte-insultos-y-humillaciones-el-lado-oscuro-del-liderazgo-de-jensen-huang-en-nvidia.html",
-   "publicat": "2026-11-20T17:21:03.000Z"
-  },
-  {
-   "id": "e9ec8efe43b6",
-   "mitja": "El Nacional",
-   "font": "elnacional-oneconomia",
-   "icona": "/assets/premsa/el-nacional.webp",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Anthropic baixa un 8,5% en la seva segona jornada com a empresa cotitzada",
-   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/anthropic-baixa-10-segona-jornada-empresa-cotitzada_1728860_102.html",
-   "publicat": "2026-11-20T16:09:00.000Z"
-  },
-  {
-   "id": "10adc094f59d",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Cómo hacer que Gemini trabaje por ti en tu Mac mientras tú te dedicas a otras cosas",
-   "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-11-20/como-hacer-que-gemini-trabaje-por-ti-en-tu-mac-mientras-tu-te-dedicas-a-otras-cosas.html",
-   "publicat": "2026-11-20T16:00:00.000Z"
   }
  ]
 }
