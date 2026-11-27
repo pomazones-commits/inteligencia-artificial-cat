@@ -1,8 +1,109 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-27T05:14:57.533Z",
+ "actualitzat": "2026-11-27T09:16:08.058Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "24856cc24037",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La alemana SAP planea 10.000 despidos, el 9% de su plantilla, para adaptar sus operaciones a la IA",
+   "url": "https://cincodias.elpais.com/companias/2026-11-27/la-alemana-sap-planea-10000-despidos-el-9-de-su-plantilla-para-adaptar-sus-operaciones-a-la-ia.html",
+   "publicat": "2026-11-27T08:54:04.000Z"
+  },
+  {
+   "id": "23e36b67af33",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "SAP baraja la supresión de 10.000 puestos de trabajo ante la incidencia de la IA",
+   "url": "https://www.lavanguardia.com/economia/20261127/11694732/reduccion-plantilla-sap.html",
+   "publicat": "2026-11-27T08:21:31.000Z"
+  },
+  {
+   "id": "d7e66eafa34c",
+   "mitja": "Nació Digital",
+   "font": "naciodigital-totes",
+   "icona": "/assets/premsa/nacio-digital.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Els Mossos alerten que la IA permet «perfeccionar» ciberestafes en ple Black Friday",
+   "url": "https://naciodigital.cat/economia/els-mossos-alerten-que-la-ia-permet-perfeccionar-ciberestafes-en-ple-black-friday.html",
+   "publicat": "2026-11-27T08:20:23.000Z",
+   "noticia": "mossos-ia-perfecciona-ciberestafes-black-friday",
+   "noticiaTitol": "Els Mossos alerten que la IA fa més difícils de detectar les ciberestafes, en ple Black Friday"
+  },
+  {
+   "id": "2614d28873d0",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Europa aplaza hasta el 30 de diciembre el plazo para presentar los proyectos de las gigafactorías de IA",
+   "url": "https://www.diaridetarragona.com/economia/276723/europa-aplaza-30-diciembre-plazo-presentar-proyectos-gigafactorias-ia.html",
+   "publicat": "2026-11-27T08:03:56.000Z"
+  },
+  {
+   "id": "60f05511bf93",
+   "mitja": "Regió7",
+   "font": "regio7",
+   "icona": "/assets/premsa/regio7.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "L'avís dels Mossos per aquest Black Friday: \"Les estafes amb la IA cada cop són millors\"",
+   "url": "https://www.regio7.cat/catalunya/2026/11/27/lavis-dels-mossos-per-aquest-136910854.html",
+   "publicat": "2026-11-27T07:27:19.000Z"
+  },
+  {
+   "id": "bbaaef3a30a5",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Anthropic bate récords, pese al pánico inversor con la IA",
+   "url": "https://www.ultimahora.es/noticias/economico/2026/11/27/2757855/anthropic-bate-records-pese-panico-inversor-ia.html",
+   "publicat": "2026-11-27T06:22:56.000Z"
+  },
+  {
+   "id": "3efb49a639c4",
+   "mitja": "Última Hora",
+   "font": "ultimahora-totes",
+   "icona": "/assets/premsa/ultima-hora.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Tu próximo narrador puede ser una IA",
+   "url": "https://www.ultimahora.es/noticias/economico/2026/11/27/2757857/proximo-narrador-puede-ser-ia.html",
+   "publicat": "2026-11-27T06:22:45.000Z"
+  },
+  {
+   "id": "adfa96cd322b",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "De Newton a ChatGPT: com la IA ha revolucionat les matemàtiques",
+   "url": "https://www.ara.cat/ciencia-medi-ambient/newton-chatgpt-ia-revolucionat-matematiques_129_5923883.html",
+   "publicat": "2026-11-27T06:14:45.000Z"
+  },
+  {
+   "id": "1adf37577ea7",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA es menjarà l’economia?",
+   "url": "https://empreses.ara.cat/empreses/ia-menjara-l-economia_1_5923791.html",
+   "publicat": "2026-11-27T06:00:15.000Z"
+  },
   {
    "id": "788f134f84f9",
    "mitja": "Cinco Días",
@@ -26,14 +127,14 @@
    "publicat": "2026-11-27T05:00:46.000Z"
   },
   {
-   "id": "3c7e8c4ddf77",
+   "id": "42a8f90c0337",
    "mitja": "El Periódico",
    "font": "elperiodico-totes",
    "icona": "/assets/premsa/el-periodico.png",
    "llengua": "es",
    "ambit": "catala",
    "titol": "La revolución de la IA se atasca en la construcción: solo dos de cada diez profesionales automatizan tareas",
-   "url": "https://www.elperiodico.com/es/economia/20261127/revolucion-ia-atasca-construccion-diez-136770399",
+   "url": "https://www.elperiodico.com/es/economia/20261127/programada-revolucion-ia-atasca-construccion-136770399",
    "publicat": "2026-11-27T05:00:40.000Z"
   },
   {
@@ -46,6 +147,17 @@
    "titol": "Los jóvenes buscan consuelo y afecto en la IA: \"La gente se cansa de escuchar y no quiero ser una carga\"",
    "url": "https://www.elperiodico.com/es/sociedad/20261127/jovenes-usan-ia-confidencias-apoyo-emocional-estudio-esade-136792552",
    "publicat": "2026-11-27T05:00:39.000Z"
+  },
+  {
+   "id": "56c8ef08a9ef",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Si te preocupa la inmigración, la IA no te dirá a quién votar",
+   "url": "https://www.lavanguardia.com/politica/20261127/11694281/te-preocupa-inmigracion-ia-te-dira-votar.html",
+   "publicat": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2aeacf66598d",
@@ -79,6 +191,17 @@
    "titol": "DPAM señala a Anthropic y OpenAI entre las grandes perjudicadas por el regreso de Jensen Huang",
    "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-27/dpam-senala-a-anthropic-y-openai-entre-las-grandes-perjudicadas-por-el-regreso-de-jensen-huang.html",
    "publicat": "2026-11-27T04:25:00.000Z"
+  },
+  {
+   "id": "5c4ea51f119d",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Inteligencia artificial e interculturalidad",
+   "url": "https://www.lavanguardia.com/participacion/lectores-corresponsales/20261127/11693727/inteligencia-artificial-e-interculturalidad.html",
+   "publicat": "2026-11-27T04:15:00.000Z"
   },
   {
    "id": "f5013bb0dc56",
@@ -2661,129 +2784,6 @@
    "titol": "¿Qué aconseja la IA en vivienda? Vota al PSOE si alquilas y al PP si eres propietario",
    "url": "https://www.lavanguardia.com/politica/20261121/11689391/que-aconseja-ia-vivienda-vota-psoe-alquilas-pp-propietario.html",
    "publicat": "2026-11-21T05:00:00.000Z"
-  },
-  {
-   "id": "7129f3347267",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Anthropic y las tecnológicas como signo de los tiempos",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-21/anthropic-y-las-tecnologicas-como-signo-de-los-tiempos.html",
-   "publicat": "2026-11-21T04:40:00.000Z"
-  },
-  {
-   "id": "9c67a9cf5ab5",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El escándalo sexual en Nvidia desnuda los puntos flacos de toda la industria de la IA",
-   "url": "https://cincodias.elpais.com/opinion/2026-11-21/vale-todo-en-la-industria-de-la-ia-los-amorios-de-huang-no-son-el-unico-problema-de-nvidia.html",
-   "publicat": "2026-11-21T04:40:00.000Z"
-  },
-  {
-   "id": "4e92847c6267",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "El dilema que agrava la IA: aprovechar una Bolsa más barata o proteger la cartera antes de fin de año",
-   "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-21/el-dilema-que-agrava-la-ia-aprovechar-una-bolsa-mas-barata-o-proteger-la-cartera-antes-de-fin-de-ano.html",
-   "publicat": "2026-11-21T04:30:01.000Z"
-  },
-  {
-   "id": "e69719e072b5",
-   "mitja": "El Periódico",
-   "font": "elperiodico",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La Comissió Europea investiga com defensar els processos electorals de la manipulació amb IA",
-   "url": "https://www.elperiodico.cat/internacional/20261121/comissio-europea-investiga-defensar-processos-electorals-manipulacio-ia-136682750",
-   "publicat": "2026-11-21T04:01:52.000Z",
-   "noticia": "comissio-europea-directrius-electorals-ultrafalsificacions",
-   "noticiaTitol": "Brussel·les tanca dilluns la consulta sobre les noves normes per protegir les eleccions dels vídeos falsos fets amb IA"
-  },
-  {
-   "id": "1dcc4ad36a4c",
-   "mitja": "Regió7",
-   "font": "regio7",
-   "icona": "/assets/premsa/regio7.png",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "La CE vol blindar les eleccions contra la manipulació feta amb IA",
-   "url": "https://www.regio7.cat/arreu-catalunya-espanya-mon/2026/11/21/ce-vol-blindar-les-eleccions-136686544.html",
-   "publicat": "2026-11-21T01:27:37.000Z"
-  },
-  {
-   "id": "4f9f483019aa",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El vértigo de la IA en Estados Unidos: dos lecciones para Catalunya",
-   "url": "https://www.lavanguardia.com/vida/20261121/11689445/vertigo-ia-estados-unidos-dos-lecciones-catalunya.html",
-   "publicat": "2026-11-20T23:30:00.000Z"
-  },
-  {
-   "id": "c75bac46f1b8",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nvidia se desploma un 14% y pierde un 32,6% en las últimas dos semanas",
-   "url": "https://www.informacion.es/economia/2026/11/20/nvidia-desploma-14-pierde-32-136685325.html",
-   "publicat": "2026-11-20T22:17:14.000Z"
-  },
-  {
-   "id": "f9093f422633",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "MindDen defiende una IA europea más competitiva",
-   "url": "https://www.informacion.es/empresas-en-alicante/2026/11/20/mindden-defiende-ia-europea-competitiva-136666428.html",
-   "publicat": "2026-11-20T21:30:57.000Z"
-  },
-  {
-   "id": "7a5f34d7a916",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Alicante agiliza con IA los procedimientos urbanísticos para acelerar su tramitación",
-   "url": "https://www.informacion.es/alicante/2026/11/20/alicante-agiliza-ia-procedimientos-urbanisticos-bc-136653047.html",
-   "publicat": "2026-11-20T21:30:56.000Z"
-  },
-  {
-   "id": "a519ca6cb604",
-   "mitja": "Información",
-   "font": "informacion",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "«La diferencia no la marca la IA, sino un buen profesional que sepa utilizarla»",
-   "url": "https://www.informacion.es/economia/2026/11/20/diferencia-ia-buen-profesional-136654532.html",
-   "publicat": "2026-11-20T21:30:56.000Z"
-  },
-  {
-   "id": "ac2cdb50d70c",
-   "mitja": "Información",
-   "font": "informacion-totes",
-   "icona": "/assets/premsa/informacion.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Así convive con la IA una agencia de publicidad",
-   "url": "https://www.informacion.es/elche/2026/11/20/ia-agencia-publicidad-grupo-anton-bc-136654007.html",
-   "publicat": "2026-11-20T21:30:56.000Z"
   }
  ]
 }
