@@ -1,0 +1,45 @@
+window.IA_ANALYSIS = {
+  "title": "Anthropic surt a borsa: ara se sabrà si una empresa pot vendre seguretat i rendir comptes als accionistes alhora",
+  "excerpt": "La sortida a borsa més gran de la història posa a prova la idea fundacional d'Anthropic: que un laboratori d'IA pot créixer sense deixar-se arrossegar pel mercat. Els mecanismes de control existeixen, però mai no s'han provat amb tants diners en joc.",
+  "body": [
+    "Aquesta setmana Anthropic, l'empresa que fa els models Claude, ha deixat de ser una companyia privada. Dimecres va fixar el preu de les seves accions a 83 dòlars, per sobre de la forquilla de 70 a 78 que havia proposat als inversors, i va col·locar 980 milions de títols, més dels previstos. Va captar 81.300 milions de dòlars, la xifra més alta mai aconseguida en una sortida a borsa, per davant dels 75.000 milions de SpaceX. Dijous, el primer dia al Nasdaq, les accions es van pagar a 111,50 dòlars en els primers minuts, un 33% més que el preu de sortida. Amb aquestes xifres, Anthropic ja val més que Meta o Tesla.",
+    "La notícia, però, no és només el rècord. Anthropic va néixer el 2021 d'un grup d'investigadors que van deixar OpenAI convençuts que la carrera per la IA més potent necessitava algú que posés la seguretat per davant. La pregunta que obre aquesta setmana és si aquesta prioritat resisteix l'arribada de milers d'accionistes que esperen, legítimament, que el seu diner es multipliqui. Dario Amodei, el conseller delegat, ho va voler respondre abans del toc de campana: va dir que la solidesa financera només reforça la voluntat de fer les coses bé, i que demostrar que seguretat i èxit poden anar junts empenyerà la resta del sector a fer el mateix.",
+    "Per protegir aquesta promesa, l'empresa ha muntat una arquitectura de control poc habitual. És una societat de benefici públic de Delaware, una forma jurídica que obliga el consell d'administració a pesar els interessos econòmics dels accionistes amb els de les persones afectades per la seva activitat i amb la seva missió declarada. A sobre hi ha el Long-Term Benefit Trust, un fideïcomís de persones sense interessos econòmics a l'empresa, entre elles l'expresident de la Reserva Federal Ben Bernanke, que tria part del consell a través d'una acció especial sense drets econòmics. I els set fundadors conserven, a través d'una societat pròpia, el 50,1% dels vots.",
+    "Els grans inversors, en canvi, no voten. Amazon tindrà prop d'un 15% de l'empresa i Google prop d'un 14%, tots dos amb accions sense dret a vot; Amazon, a més, es reserva l'opció d'arribar gairebé al 24%. Sobre el paper, és una manera de tenir el capital dels gegants sense donar-los el volant. A la pràctica, la dependència és d'una altra mena: Anthropic s'ha compromès a gastar més de 100.000 milions de dòlars en el núvol d'Amazon durant la pròxima dècada, i Google i Nvidia hi posen 10.000 milions cadascun en una col·locació privada. Qui no vota també pesa quan és proveïdor, client i soci alhora.",
+    "Els experts en governança no dubten de les intencions, sinó de la prova. Sarah Kreps, directora de l'Institut de Política Tecnològica de la Universitat Cornell, ho va resumir a Bloomberg: el test de debò arribarà quan el benefici públic surti car. Stavros Gadinis, professor de dret a Berkeley, recorda que el fideïcomís no pot dirigir les decisions del dia a dia ni de la direcció. I el repartiment del consell, segons el mateix diari, deixa l'últim vot en mans d'un conseller que no es pot nomenar ni fer fora sense l'acord d'un comitè que previsiblement controlaran els fundadors. El mecanisme protegeix la missió dels inversors, però en bona part la deixa en mans de les mateixes persones que l'han de complir.",
+    "Hi ha una paradoxa que cal reconèixer: cotitzar també pot fer Anthropic més transparent. Una empresa a borsa ha de publicar comptes cada trimestre, explicar els riscos i respondre preguntes en públic. Fins ara, bona part del que sabíem de les decisions dels grans laboratoris arribava per filtracions o per la voluntat de les mateixes empreses. Gadinis ho veu com una eina de control potent. El risc és el contrari: que cada trimestre la pressió per créixer faci més difícil frenar el llançament d'un model o renunciar a un contracte, que és exactament el tipus de decisió per la qual Anthropic diu que existeix.",
+    "Des de Catalunya aquesta història no és tan llunyana com sembla. El mateix dia que Anthropic fixava el preu, el Banc Central Europeu, que també és el nostre, advertia en el seu informe d'estabilitat financera que les valoracions de borsa depenen d'unes expectatives de benefici de la IA «ambicioses» i que cada cop més inversió en infraestructura es paga amb deute. Una sortida a borsa d'aquesta mida fa que l'estalvi de moltes famílies, a través de fons i plans que inverteixen en les grans tecnològiques, quedi més lligat al futur d'unes poques empreses d'IA. I fa que el que decideixin els seus consells d'administració ens afecti com a usuaris i també com a estalviadors.",
+    "La conclusió provisional és prudent. Anthropic arriba a borsa amb més salvaguardes que cap altra gran tecnològica, i amb el compromís de destinar com a mínim un 5% de les accions a un fons de benefici públic. Però una salvaguarda només es coneix quan s'ha de fer servir. El dia que un model nou estigui a punt i les proves de seguretat no siguin concloents, o que un client poderós demani alguna cosa que xoca amb la missió, sabrem si aquesta estructura és un fre o un decorat. Fins aleshores, el millor que poden fer els reguladors, i també els lectors, és mirar aquests trimestres amb atenció."
+  ],
+  "sources": [
+    {
+      "name": "TechCrunch — Anthropic fixa el preu de la sortida a borsa a 83 dòlars",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+    },
+    {
+      "name": "TechCrunch — Les accions d'Anthropic s'estrenen al Nasdaq",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/"
+    },
+    {
+      "name": "TechCrunch — Amazon i Google tindran prop del 30% d'Anthropic",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+    },
+    {
+      "name": "CNBC — Els set fundadors d'Anthropic conserven el 50,1% dels vots",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-founder-voting-control.html"
+    },
+    {
+      "name": "Bloomberg (BNN Bloomberg) — La promesa de benefici públic d'Anthropic i el seu marge de maniobra",
+      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/11/17/anthropic-promises-to-pursue-humanitys-benefit-its-ipo-filing-gives-it-wiggle-room/"
+    },
+    {
+      "name": "Anthropic — Llançament de la ronda amb inversors",
+      "url": "https://www.anthropic.com/news/roadshow-launch"
+    },
+    {
+      "name": "Banc Central Europeu — Informe d'estabilitat financera de novembre de 2026",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
+    }
+  ],
+  "date": "20.11.2026"
+};
