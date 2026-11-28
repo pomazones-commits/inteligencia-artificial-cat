@@ -1,5 +1,5 @@
 {
-  "generat": "2026-11-27T17:14:57.353Z",
+  "generat": "2026-11-28T05:24:51.291Z",
   "finestra_dies": 21,
   "fonts": [
     {
@@ -72,7 +72,7 @@
       "programa": "La tarda de Ràdio 4",
       "estat": "ok",
       "audios": 60,
-      "sobre_ia": 3
+      "sobre_ia": 4
     },
     {
       "font": "rtve",
@@ -128,8 +128,8 @@
       "programa": "",
       "resultats": 6,
       "estat": "ok",
-      "audios": 1,
-      "sobre_ia": 1
+      "audios": 0,
+      "sobre_ia": 0
     },
     {
       "font": "wordpress",
@@ -173,41 +173,26 @@
       "emissora": "Ràdio Nacional d'Andorra",
       "programa": "",
       "estat": "ok",
-      "audios": 400,
-      "sobre_ia": 4
+      "audios": 300,
+      "sobre_ia": 3
     }
   ],
   "candidats": [
     {
-      "id": "apunt-1912073",
-      "emissora": "À Punt Ràdio",
-      "programa": "Cadena de valor",
-      "programa_url": "https://www.apuntmedia.es/programes/cadena-de-valor/",
+      "id": "rtve-17334894",
+      "emissora": "Ràdio 4",
+      "programa": "La tarda de Ràdio 4",
+      "programa_url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/",
       "data": "2026-11-27",
-      "durada": "",
-      "titol_original": "Black Friday: entre els descomptes, la desconfiança i la intel·ligència artificial",
-      "descripcio_original": "Gino Russo, CEO de l’agència VOGA, analitza com les marques afronten una campanya cada vegada més llarga, la pèrdua de credibilitat de les ofertes i l’ús de la intel·ligència artificial per optimitzar les estratègies comercials.",
+      "durada": "54 min",
+      "titol_original": "Tercera hora: Daniel Brand al piano, la música i la IA, i novetats musicals de divendres",
+      "descripcio_original": "“Bonito, Bonito” és la petició musical de la nostra audiència pel programa d’aquest mes de novembre. Tot començant amb la cançó viral de Thiago Navarro Music, Daniel Brand crea un mashup amb “Ai si eu te pego” de Michel Teló, “No woman, no cry” de Bob Marley & The Wailers, “Someone like you” d’Adele, “Let it be” dels The Beatles i “Forever young” dels Alphaville. Després del show de piano en directe, comentem amb el nostre pianista algunes curiositats sobre els artistes i els temes d’aquest eclèctic popurri de melodies a la ràdio, així com les implicacions ètiques, creatives i legals de la música produïda amb IA. Vols demanar la teva cançó? Segueix-nos a Instagram i envia’ns la teva petició musical mitjançant DM escrit o missatge d’àudio. Daniel Brand farà màgia i la transformarà en directe per a tu! Com cada divendres, repassem les novetats musicals! Comencem amb Feid i Snoop Dogg uneixen forces a Gracias x Todo, una cançó sobre la gratitud i el camí recorregut, en què Feid també ret homenatge als seus avis. Samuraï presenta Tal Vez, un tema dedicat a totes les persones que han patit per amor, mentre que Anuel AA recupera l'univers que el va fer famós amb Real Hasta La Muerte 2, un disc de trap i reggaeton que arriba coincidint amb el seu 34è aniversari. També tenim música nova d'Olivia Bay, que publica per primera vegada a les plataformes digitals la balada Y Si Soy Yo El Problema, i d'Ansu Fati, que s'estrena amb Imagínate. I atenció a Naiara, que amb El amor de tu vida co",
       "descripcio_curta": false,
       "ia_al_titol": true,
-      "url": "https://www.apuntmedia.es/programes/cadena-de-valor/l-entrevista-del-dia/27-11-2026-black-friday-descomptes-desconfianca-intel-ligencia-artificial_135_1912073.html",
+      "url": "https://www.rtve.es/play/audios/la-tarda-de-radio-4/tarda-radio-4-tercera-hora-daniel-brand-piano-musica-ia-novetats-musicals-divendres/17334894/",
       "reproductor": {
-        "tipus": "enllac"
-      }
-    },
-    {
-      "id": "rna-1946129",
-      "emissora": "Ràdio Nacional d'Andorra",
-      "programa": "Les coses grans",
-      "programa_url": "https://www.rtva.ad/programes/les-coses-grans",
-      "data": "2026-11-27",
-      "durada": "",
-      "titol_original": "Qui fa els deures a casa? Els pares o la IA? - Les coses grans - 27/11/2026",
-      "descripcio_original": "Aquest dimecres El Rusc va rebre Lorenzo Marini, cofundador i codirector de Verificat, entitat especialitzada en verificació de continguts i alfabetització mediàtica.",
-      "descripcio_curta": true,
-      "ia_al_titol": true,
-      "url": "https://www.rtva.ad/programes/qui-fa-els-deures-a-casa-els-pares-o-la-ia-les-coses-grans-27-11-2026",
-      "reproductor": {
-        "tipus": "enllac"
+        "tipus": "rtve",
+        "id": "17334894"
       }
     }
   ]
