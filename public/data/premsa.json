@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-28T13:15:52.034Z",
+ "actualitzat": "2026-11-28T17:16:45.801Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "80a1dc220e5f",
+   "mitja": "El 9 Nou",
+   "font": "el9nou",
+   "icona": "/assets/premsa/el-9-nou.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Experiències amb la IA d’empreses d’Osona",
+   "url": "https://el9nou.cat/osona-ripolles/actualitat/experiencies-amb-la-ia-dempreses-dosona",
+   "publicat": "2026-11-28T14:56:00.000Z"
+  },
   {
    "id": "b2bd40ad5ec8",
    "mitja": "La Vanguardia",
@@ -70,6 +81,17 @@
    "titol": "La crisis de Nvidia deja en ‘shock’ a la industria tecnológica global bajo la sombra de una grave crisis financiera",
    "url": "https://elpais.com/economia/2026-11-28/la-crisis-de-nvidia-deja-en-shock-a-la-industria-tecnologica-global-bajo-la-sombra-de-una-grave-crisis-financiera.html",
    "publicat": "2026-11-28T04:45:00.000Z"
+  },
+  {
+   "id": "cd0f206878ae",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La contención tecnológica en la IA pasa por la nube",
+   "url": "https://cincodias.elpais.com/opinion/2026-11-28/la-contencion-tecnologica-en-la-ia-pasa-por-la-nube.html",
+   "publicat": "2026-11-28T04:40:00.000Z"
   },
   {
    "id": "e0c69bdf1a09",
@@ -2766,28 +2788,6 @@
    "titol": "La banca de Wall Street fa l’agost amb les sortides a la borsa de SpaceX i Anthropic",
    "url": "https://www.ara.cat/economia/mercats/banca-wall-street-l-agost-sortides-borsa-spacex-anthropic_25_5919275.html",
    "publicat": "2026-11-22T12:30:06.000Z"
-  },
-  {
-   "id": "e75bbfc9eeff",
-   "mitja": "Cinco Días",
-   "font": "cincodias",
-   "icona": "/assets/premsa/cinco-dias.png",
-   "llengua": "es",
-   "ambit": "estatal",
-   "titol": "Los directivos españoles moderan su optimismo a medio plazo, pero mantienen la apuesta por el empleo y la IA",
-   "url": "https://elpais.com/economia/2026-11-22/los-directivos-espanoles-moderan-su-optimismo-a-medio-plazo-pero-mantienen-la-apuesta-por-el-empleo-y-la-ia.html",
-   "publicat": "2026-11-22T11:00:00.000Z"
-  },
-  {
-   "id": "05c31f5f0b5f",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Dimite el ministro de Educación de Corea del Sur tras un escándalo de malas prácticas con IA",
-   "url": "https://www.elperiodico.com/es/internacional/20261122/corea-del-sur-dimite-ministro-educacion-trampas-ia-136713394",
-   "publicat": "2026-11-22T08:28:16.000Z"
   }
  ]
 }
