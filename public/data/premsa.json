@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-28T09:13:56.946Z",
+ "actualitzat": "2026-11-28T13:15:52.034Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "b2bd40ad5ec8",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Neus Candela, veterinaria: “Las dietas formuladas por ChatGPT para tu mascota pueden parecer adecuadas, pero presentan carencias nutricionales como falta de hierro y de yodo”",
+   "url": "https://www.lavanguardia.com/mascotas/20261128/11695672/neus-candela-veterinaria-dietas-formuladas-chatgpt-adecuadas-presentan-bastantes-carencias-nutricionales-falta-hierro-yodo-epm.html",
+   "publicat": "2026-11-28T11:51:52.000Z"
+  },
   {
    "id": "bfc53ce5495e",
    "mitja": "Ara",
@@ -12,7 +23,9 @@
    "ambit": "catala",
    "titol": "La IA catalana darrere l’aplicació de Bon Preu que vol ser el teu assistent i el teu nutricionista",
    "url": "https://empreses.ara.cat/empreses/ia-catalana-darrere-l-aplicacio-bon-preu-vol-assistent-nutricionista_1_5924358.html",
-   "publicat": "2026-11-28T07:01:02.000Z"
+   "publicat": "2026-11-28T07:01:02.000Z",
+   "noticia": "shoptimus-ai-app-bon-preu-assistent-compra",
+   "noticiaTitol": "La barcelonina Shoptimus AI, que fa funcionar l'aplicació de Bon Preu, diu que els clients que la fan servir compren un 12% més i vol arribar a 15 supermercats l'any vinent"
   },
   {
    "id": "aee7cf3e9842",
@@ -2775,17 +2788,6 @@
    "titol": "Dimite el ministro de Educación de Corea del Sur tras un escándalo de malas prácticas con IA",
    "url": "https://www.elperiodico.com/es/internacional/20261122/corea-del-sur-dimite-ministro-educacion-trampas-ia-136713394",
    "publicat": "2026-11-22T08:28:16.000Z"
-  },
-  {
-   "id": "0a43d2b1e3d1",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La fábrica asturiana de Bayer que hace posible la Aspirina mundial apuesta por la inteligencia artificial",
-   "url": "https://www.elperiodico.com/es/economia/20261122/iberdrola-bayer-fabrica-asturiana-aspirina-inteligencia-artificial-136672042",
-   "publicat": "2026-11-22T07:00:45.000Z"
   }
  ]
 }
