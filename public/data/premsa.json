@@ -1,8 +1,96 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-27T22:59:59.811Z",
+ "actualitzat": "2026-11-28T05:25:49.613Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "aee7cf3e9842",
+   "mitja": "Alicante Plaza",
+   "font": "alicanteplaza",
+   "icona": "/assets/premsa/alicante-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Alcoy - El Comtat | La patronal de la Foia de Castalla busca nuevas oportunidades productivas en la IA y la industria de defensa",
+   "url": "https://alicanteplaza.es/alicanteplaza/alcoy-el-comtat/la-patronal-de-la-foia-de-castalla-busca-nuevas-oportunidades-productivas-en-la-ia-y-la-industria-de-defensa",
+   "publicat": "2026-11-28T05:00:06.000Z"
+  },
+  {
+   "id": "e077fd91215d",
+   "mitja": "Valencia Plaza",
+   "font": "valenciaplaza",
+   "icona": "/assets/premsa/valencia-plaza.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Mercados | Ureta (Renta4): \"La restitución de Huang es un gran acierto; es el arquitecto de la financiación de la IA\"",
+   "url": "https://valenciaplaza.com/valenciaplaza/bolsas/ureta-renta4-la-restitucion-de-huang-es-un-gran-acierto-es-el-arquitecto-de-la-financiacion-de-la-ia",
+   "publicat": "2026-11-28T05:00:06.000Z"
+  },
+  {
+   "id": "7e97afe0a23e",
+   "mitja": "La Vanguardia",
+   "font": "lavanguardia-totes",
+   "icona": "/assets/premsa/la-vanguardia.webp",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "¿Puede tener una IA derecho a votar en unas elecciones? La investigación que hay detrás de una idea inquietante",
+   "url": "https://www.lavanguardia.com/neo/ia/20261128/11693762/ia-derecho-votar-investigacion-idea-inquietante.html",
+   "publicat": "2026-11-28T05:00:00.000Z"
+  },
+  {
+   "id": "8bd4699a6a1a",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "La crisis de Nvidia deja en ‘shock’ a la industria tecnológica global bajo la sombra de una grave crisis financiera",
+   "url": "https://elpais.com/economia/2026-11-28/la-crisis-de-nvidia-deja-en-shock-a-la-industria-tecnologica-global-bajo-la-sombra-de-una-grave-crisis-financiera.html",
+   "publicat": "2026-11-28T04:45:00.000Z"
+  },
+  {
+   "id": "e0c69bdf1a09",
+   "mitja": "Cinco Días",
+   "font": "cincodias",
+   "icona": "/assets/premsa/cinco-dias.png",
+   "llengua": "es",
+   "ambit": "estatal",
+   "titol": "Economía prepara una herramienta para que empresas y autónomos se relacionen con la Administración a través de la IA",
+   "url": "https://elpais.com/economia/2026-11-28/economia-prepara-una-herramienta-para-que-empresas-y-autonomos-se-relacionen-con-la-administracion-a-traves-de-la-ia.html",
+   "publicat": "2026-11-28T04:30:01.000Z"
+  },
+  {
+   "id": "2e73f1ca116a",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Wabilon: la IA per a arquitectura que estalvia costos a tota la cadena de valor",
+   "url": "https://www.elnacional.cat/oneconomia/ca/empreses/wabilon-ia-arquitectura-estalvia-costos-cadena-valor_1729760_102.html",
+   "publicat": "2026-11-28T04:30:00.000Z"
+  },
+  {
+   "id": "e513c31182e4",
+   "mitja": "El Nacional",
+   "font": "elnacional-oneconomia",
+   "icona": "/assets/premsa/el-nacional.webp",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Silvia Perea: \"Amb la IA també hem de prioritzar el valor afegit dels humans\"",
+   "url": "https://www.elnacional.cat/oneconomia/ca/on-ia/silvia-perea-ia-tambe-hem-prioritzar-valor-afegit-humans_1721054_102.html",
+   "publicat": "2026-11-28T04:30:00.000Z"
+  },
+  {
+   "id": "f1d657bb497d",
+   "mitja": "Diari de Tarragona",
+   "font": "diaridetarragona",
+   "icona": "/assets/premsa/diari-de-tarragona.png",
+   "llengua": "es",
+   "ambit": "catala",
+   "titol": "Nvidia o per què ens hauria de preocupar la mentida",
+   "url": "https://www.diaridetarragona.com/opinion/tribuna/276783/nvidia-per-ens-hauria-preocupar-mentida.html",
+   "publicat": "2026-11-28T04:00:00.000Z"
+  },
   {
    "id": "769155a122b3",
    "mitja": "elDiario.es",
@@ -13,6 +101,17 @@
    "titol": "Todo con la IA pero sin la IA: la campaña desata una avalancha de memes y silencia su impacto real",
    "url": "https://www.eldiario.es/tecnologia/ia-ia-campana-desata-avalancha-memes-silencia-impacto-real_1_13695902.html",
    "publicat": "2026-11-27T22:26:51.000Z"
+  },
+  {
+   "id": "284e5fce9291",
+   "mitja": "VilaWeb",
+   "font": "vilaweb",
+   "icona": "/assets/premsa/vilaweb.png",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "Així esquiva la Xina el vet dels EUA als xips més avançats de Nvidia",
+   "url": "https://www.vilaweb.cat/noticies/aixi-esquiva-la-xina-el-vet-dels-eua-als-xips-mes-avancats-de-nvidia",
+   "publicat": "2026-11-27T20:40:50.000Z"
   },
   {
    "id": "3386a177c181",
@@ -2685,107 +2784,6 @@
    "titol": "El ministro de Educación de Corea del Sur dimite tras el escándalo por la copia con IA en exámenes",
    "url": "https://www.lavanguardia.com/vida/20261122/11690322/ministro-educacion-corea-sur-dimite-escandalo-copia-ia-examenes.html",
    "publicat": "2026-11-22T06:35:24.000Z"
-  },
-  {
-   "id": "9fe23e0d6a6c",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Spotify borra millones de canciones ‘AI slop’, pero planea crear una herramienta para que los usuarios hagan remixes generados con IA",
-   "url": "https://www.lavanguardia.com/neo/ia/20261122/11689220/spotify-borra-millones-canciones-ai-slop-crear-herramienta-usuarios-remixes-generados-ia.html",
-   "publicat": "2026-11-22T06:15:00.000Z"
-  },
-  {
-   "id": "f8723819a0d0",
-   "mitja": "Diari d'Andorra",
-   "font": "diariandorra",
-   "icona": "/assets/premsa/diari-d-andorra.ico",
-   "llengua": "ca",
-   "ambit": "catala",
-   "titol": "Casa de la Vall incorporarà visites immersives i audioguies amb IA",
-   "url": "https://www.diariandorra.ad/nacional/261122/casa-vall-incorporara-visites-immersives-i-audioguies-amb-ia_209357.html",
-   "publicat": "2026-11-22T06:13:29.000Z",
-   "noticia": "andorra-casa-de-la-vall-audioguies-ia",
-   "noticiaTitol": "La Casa de la Vall d'Andorra tindrà audioguies amb IA a les quals els visitants podran fer preguntes durant la visita"
-  },
-  {
-   "id": "227b32eeb97a",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "\"En contra dels 'deepfakes' de violència sexual\"",
-   "url": "https://www.elperiodico.com/es/entre-todos/participacion/deepfakes-violencia-sexual-25n-campanya-carta-lector-sergi-cervera-violencia-masclista-136609884",
-   "publicat": "2026-11-22T05:45:40.000Z"
-  },
-  {
-   "id": "0db3116d9ae6",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La gigafactoría de IA de los 100.000 chips capaz de duplicar los trabajadores de Ribera d’Ebre",
-   "url": "https://www.elperiodico.com/es/economia/20261122/gigafactoria-ia-100-000-chips-136630716",
-   "publicat": "2026-11-22T05:01:26.000Z"
-  },
-  {
-   "id": "e5d0e9bce273",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "La IA revoluciona las aplicaciones de citas: ¿nos volveremos más torpes a la hora de ligar?",
-   "url": "https://www.elperiodico.com/es/sociedad/20261122/ia-inteligencia-artificial-revoluciona-apps-citas-volvernos-torpes-ligar-136604337",
-   "publicat": "2026-11-22T05:01:26.000Z"
-  },
-  {
-   "id": "48e6c03c70d5",
-   "mitja": "El Periódico",
-   "font": "elperiodico-totes",
-   "icona": "/assets/premsa/el-periodico.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Mi IA está ligando con la tuya: los 'bots' toman el relevo en las aplicaciones de citas",
-   "url": "https://www.elperiodico.com/es/sociedad/20261122/ia-inteligencia-artificial-ligando-bots-toman-relevo-aplicaciones-citas-apps-136515034",
-   "publicat": "2026-11-22T05:01:25.000Z"
-  },
-  {
-   "id": "ed709ee38166",
-   "mitja": "Valencia Plaza",
-   "font": "valenciaplaza",
-   "icona": "/assets/premsa/valencia-plaza.png",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Tierra de empresas | Cae el gasto en Black Friday, pero sube la apuesta tecnológica: las empresas recurren a la IA para salvar su rentabilidad",
-   "url": "https://valenciaplaza.com/valenciaplaza/tierra-de-empresas/cae-el-gasto-en-black-friday-pero-sube-la-apuesta-tecnologica-las-empresas-recurren-a-la-ia-para-salvar-su-rentabilidad",
-   "publicat": "2026-11-22T05:00:04.000Z"
-  },
-  {
-   "id": "1c131e7eceec",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Nvidia y la ‘honeytrap’",
-   "url": "https://www.lavanguardia.com/cultura/culturas/20261122/11685378/nvidia-honeytrap.html",
-   "publicat": "2026-11-22T05:00:00.000Z"
-  },
-  {
-   "id": "baad6ce239a4",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "Huang recurría a las humillaciones para motivar a los empleados de Nvidia",
-   "url": "https://www.lavanguardia.com/economia/20261122/11689992/huang-recurria-humillaciones-motivar-empleados-nvidia.html",
-   "publicat": "2026-11-22T05:00:00.000Z"
   }
  ]
 }
