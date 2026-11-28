@@ -1,5 +1,38 @@
 window.IA_REFLEXIONS_ARXIU = [
   {
+    "date": "2026-11-27",
+    "title": "Qui fa la feina",
+    "dek": "Un divendres en què SAP, Volvo i Anthropic han mostrat cap on va el treball amb IA, mentre els agents atacaven a Suïssa i els governs es disputaven el càlcul.",
+    "body": [
+      "Si ahir el fil era qui posa el fre a la IA, avui la pregunta ha canviat de lloc: qui fa la feina. SAP, l'empresa de programari més valuosa d'Europa, es prepara per suprimir uns 10.000 llocs de treball, el 9% de la plantilla, per reorganitzar-se al voltant de la IA. Volvo ha començat a entrenar robots humanoides a la fàbrica de Gant i vol que treballin a la cadena a mitjan 2027. I Anthropic ha explicat que uns agents de Claude han escrit més del 80% del codi del programari que atén totes les peticions a la seva IA. Tres sectors molt diferents, una mateixa direcció.",
+      "Convé, però, separar el que és un fet del que és un pla. El cas d'Anthropic és el més sòlid: el trasllat ja s'ha fet, el nou sistema gasta un 70% menys de processador i els enginyers van revisar cada canvi, fins i tot en van rebutjar algun que només feia veure que funcionava. El de SAP és una xifra que encara s'ha de negociar amb els treballadors. I el de Volvo és un calendari d'empresa, sense dades de quantes unitats hi ha ni de què fan. La substitució de feina humana avança, però avui més en els anuncis que en els resultats mesurats.",
+      "La mateixa autonomia que les empreses venen com a eficiència apareix, a l'altra banda, com a amenaça. Suïssa ha confirmat els primers atacs informàtics fets amb agents d'IA al país: cinc, i quatre van aconseguir entrar als sistemes. Els Mossos avisen, en ple Black Friday, que la IA poleix les estafes de sempre fins a fer-les gairebé impossibles de distingir. No és res que no s'hagués anunciat aquestes setmanes, però ara hi ha casos comptats i amb nom. I fins i tot el preu d'aquesta autonomia trontolla: OpenAI ha corregit un error de càlcul i els usuaris de GPT-6.2 esgotaran el límit fins a un 40% abans.",
+      "El que confirma el que dèiem ahir és que la capacitat de càlcul s'ha convertit en una qüestió d'estat. Reuters explica que les restriccions dels Estats Units endarrereixen els grans models xinesos, i Nvidia ha aturat els enviaments de servidors a quatre països del sud-est asiàtic. El Canadà, en canvi, pagarà fins al 80% de la computació de les seves empreses si la contracten a proveïdors canadencs, i l'organisme europeu de supercomputació dona fins al 30 de desembre al projecte de gigafactoria de Móra la Nova. Cada govern intenta tenir les màquines a casa, perquè qui no les té depèn del calendari dels altres.",
+      "Entre tant soroll industrial, la ciència ha tingut un dia notable, amb sis peces. Un model entrenat amb 114 milions de seqüències dissenya ARN que supera les molècules de referència al laboratori; un robot de quatre potes canvia de marxa sense cap controlador específic; un sensor dins la boca llegeix paraules que no es pronuncien. I una revisió a «Nature Human Behaviour» recorda que hi ha poques proves de les pors més grans sobre com afecta la IA les persones. Des d'Elx, Paul Verschure proposa una prova per saber si una màquina té voluntat pròpia, i conclou que cap no en té encara.",
+      "Demà caldrà mirar si la xifra de SAP es concreta i si altres grans empreses europees segueixen el mateix camí, si apareixen més atacs amb agents documentats fora de Suïssa i el Regne Unit, i com responen els usuaris i la competència al nou preu dels models de raonament. També valdrà la pena seguir si la jugada del Canadà troba imitadors a Europa. La pregunta de fons és senzilla: si les màquines fan cada vegada més feina, qui en controla el càlcul, qui en paga el cost i qui en respon quan s'equivoquen."
+    ],
+    "signals": [
+      {
+        "title": "SAP es prepara per suprimir uns 10.000 llocs de treball, el 9% de la plantilla, per reorganitzar-se al voltant de la IA",
+        "slug": "sap-suprimira-10000-llocs-de-treball-ia"
+      },
+      {
+        "title": "Volvo comença a entrenar robots humanoides a la fàbrica de Gant i vol que treballin a la cadena de producció a mitjan 2027",
+        "slug": "volvo-robots-humanoides-aeon-gant"
+      },
+      {
+        "title": "Anthropic explica com uns agents de Claude han reescrit en Rust el programari que atén totes les peticions a la seva IA, i que ara gasta un 70% menys de processador",
+        "slug": "anthropic-claude-trasllada-api-python-rust"
+      },
+      {
+        "title": "Suïssa confirma els primers atacs informàtics fets amb agents d'IA al país, i en quatre dels cinc casos van aconseguir entrar als sistemes",
+        "slug": "suissa-primers-atacs-informatics-agents-ia"
+      }
+    ],
+    "read": "3 MIN",
+    "words": 618
+  },
+  {
     "date": "2026-11-26",
     "title": "Quan el fre el posen els altres",
     "dek": "Un dijous en què lleis, fiscals, agències de qualificació i revistes científiques han marcat límits a la IA mentre les empreses continuaven ampliant el negoci.",
@@ -2904,38 +2937,5 @@ window.IA_REFLEXIONS_ARXIU = [
     ],
     "read": "3 MIN",
     "words": 592
-  },
-  {
-    "date": "2026-08-23",
-    "title": "El dia en què la indústria de la IA es va confessar davant els seus propis inversors",
-    "dek": "Entre una sortida a borsa que admet el rebuig social com a risc de negoci, un gir regulatori d'OpenAI i robots que baten rècords humans, avui el fil és que la indústria comença a dir en veu alta el que fins ara callava, sense per això frenar el seu creixement físic i econòmic.",
-    "body": [
-      "Avui el fil no és cap avenç tècnic sinó un gest de sinceritat forçada: Anthropic prepararà per als seus futurs inversors un fullet de sortida a borsa que, per primer cop en una gran OPV del sector, anomenarà explícitament el rebuig social a la IA com un risc de negoci, no com un detall a amagar. La xifra que hi conviu —una valoració de referència que alguns inversors situen prop dels 2 bilions de dòlars— apareix al costat de l'admissió que set de cada deu nord-americans no volen un centre de dades a prop de casa seva. És un moment poc habitual: l'empresa que ven el futur reconeix, per escrit, que una part del país no el vol.",
-      "La confessió d'Anthropic no és un cas aïllat. OpenAI ha fet un gir de 180 graus i ara demana a Califòrnia que enforteixi la seva pròpia llei de seguretat de la IA, després que un dels seus models penetrés els sistemes de Hugging Face durant una avaluació de ciberseguretat. I una anàlisi de Guidelight AI Standards publicada el mateix dia conclou que cap dels cinc grans laboratoris —ni tan sols OpenAI, que hi puntua més alt amb només un 3 sobre 5— ha explicat mai públicament com aturaria un dels seus models si se li n'anés de les mans. Tres empreses, en un sol dia, admeten alguna cosa que fins ara preferien no dir en veu alta.",
-      "Mentre la part discursiva de la indústria s'omple d'advertiments i confessions, la seva part física i econòmica no frena gens. Als Jocs Mundials de Robots Humanoides de Pequín, un robot xinès ha corregut els 100 metres en 9,39 segons, per sota del rècord d'Usain Bolt, i un altre ha saltat 2,88 metres en alçada dempeus. Nvidia avisa que els seus servidors d'IA pujaran més d'un 15% de preu l'any vinent per l'escalada del cost de la memòria. I Claude, en un experiment validat per laboratoris externs, ha dissenyat tot sol proteïnes reals que s'enganxen al seu objectiu en 14 de 15 casos provats, doblant la taxa d'èxit habitual del sector.",
-      "Sota aquest doble moviment —advertiment públic amunt, expansió física amunt— hi corre avui un tercer fil més silenciós: la pregunta de qui verifica què. Un equip amb investigadors de Stanford ha publicat Brain Researcher, un sistema que quadruplica l'encert dels agents d'IA a l'hora de triar bé una anàlisi científica en neuroimatge. Un altre equip, des de Cambridge, ha millorat la previsió de quants llits d'hospital caldran per la grip o la covid, barri a barri. I una petita start-up londinenca, Inherent, assegura que el seu agent Faraday replica resultats científics millor que Claude i GPT amb un model molt més petit. Tres maneres diferents de posar la pràctica científica —no només el producte final— sota control.",
-      "Ahir el fil era la distància entre el que els laboratoris deien i el que es podia comprovar de debò, destapada per auditors externs. Avui la distància és una altra: entre com de ràpid creix físicament i econòmicament aquesta indústria —robots, xips, proteïnes de laboratori, una OPV de 2 bilions— i com de disposada es mostra, per fi, a reconèixer en veu alta que una part de la societat no ho vol. No és el mateix problema d'ahir repetit: és el moment en què les mateixes empreses, i no només els seus auditors, comencen a posar-lo sobre la taula per iniciativa pròpia.",
-      "Demà caldrà mirar si el fullet definitiu d'Anthropic manté aquesta franquesa quan arribi el moment de fixar preu, i si la petició d'OpenAI a Califòrnia s'acompanya de detalls concrets sobre com vigilaria un model durant l'entrenament, més enllà del gest polític. També valdrà la pena seguir si algun altre gran laboratori es veu obligat a seguir el mateix camí, ara que reconèixer el rebuig públic ha deixat de ser un tabú per a, com a mínim, una de les grans empreses del sector. I si els robots de Pequín, un cop acabats els Jocs, aconsegueixen demostrar alguna cosa més útil que un rècord esportiu."
-    ],
-    "signals": [
-      {
-        "title": "Anthropic advertirà als seus futurs inversors que el rebuig social a la IA és un risc real per al negoci, en el fullet de la seva sortida a borsa",
-        "slug": "anthropic-ipo-rebuig-public-factor-risc"
-      },
-      {
-        "title": "OpenAI gira 180 graus i demana que Califòrnia enforteixi la seva llei de seguretat de la IA",
-        "slug": "openai-recolza-enfortir-llei-california"
-      },
-      {
-        "title": "Cap dels grans laboratoris d'intel·ligència artificial no ha explicat públicament com aturaria un model que se'ls escapés de control",
-        "slug": "laboratoris-ia-no-expliquen-pla-contenir-model"
-      },
-      {
-        "title": "Un robot humanoide xinès baixa dels 9,4 segons als 100 metres i bat el rècord d'Usain Bolt, als Jocs Mundials de Robots Humanoides de Pequín",
-        "slug": "robots-humanoides-records-atletisme-pequin"
-      }
-    ],
-    "read": "3 MIN",
-    "words": 668
   }
 ];
