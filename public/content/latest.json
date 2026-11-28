@@ -1,125 +1,35 @@
 {
-  "updatedAt": "2026-11-27T17:14:04.262Z",
+  "updatedAt": "2026-11-28T05:24:56.250Z",
   "items": [
-    {
-      "category": "ROBÒTICA",
-      "read": "4 MIN",
-      "title": "Volvo comença a entrenar robots humanoides a la fàbrica de Gant i vol que treballin a la cadena de producció a mitjan 2027",
-      "excerpt": "La marca sueca i Hexagon Robotics ensenyen als robots AEON feines reals de la planta belga, sobretot les més repetitives i pesades per a l'esquena dels operaris. La prova pilot a la fàbrica serà el primer semestre del 2027."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un sensor diminut entre els queixals i la galta llegeix les paraules que es formen amb la llengua sense dir-les, segons un treball de l'ETH de Zuric",
-      "excerpt": "El dispositiu capta les vibracions que fa la llengua quan es vocalitza en silenci i un model d'IA al mòbil les converteix en ordres. Amb 15 persones i 50 ordres en anglès, encerta prop d'un 90% de les vegades."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "5 MIN",
-      "title": "Un neurocientífic de la Universitat Miguel Hernández d'Elx defensa que el lliure albir és real i proposa una prova per saber si una IA en té",
-      "excerpt": "Paul Verschure publica a «Philosophical Transactions of the Royal Society B» dos articles que descomponen la voluntat en sis capacitats i proposen avaluar les IA pel que passa a dins, no per si semblen humanes."
-    },
-    {
-      "category": "POLÍTICA",
-      "read": "4 MIN",
-      "title": "El Canadà pagarà fins al 80% de la computació d'IA de les seves empreses si la contracten a proveïdors canadencs",
-      "excerpt": "El fons públic per a l'accés a la computació arriba als 1.000 milions de dòlars canadencs i premia els centres de dades de propietat canadenca. Ha rebut unes 1.500 sol·licituds, quan el govern n'esperava un parell de centenars."
-    },
-    {
-      "category": "PRODUCTES",
-      "read": "3 MIN",
-      "title": "ACTUALITZACIÓ: OpenAI corregeix un error de càlcul i els usuaris de GPT-6.2 esgotaran el límit d'ús fins a un 40% abans",
-      "excerpt": "Durant l'estrena de GPT-6.2 Astra i Sol, la majoria d'usuaris tenien un descompte que no tocava. L'empresa no cobrarà la diferència i compensa els subscriptors amb un reinici extra del comptador."
-    },
-    {
-      "category": "TREBALL",
-      "read": "4 MIN",
-      "title": "SAP es prepara per suprimir uns 10.000 llocs de treball, el 9% de la plantilla, per reorganitzar-se al voltant de la IA",
-      "excerpt": "L'empresa de programari més valuosa d'Europa ha demanat a tots els departaments que busquin on retallar, sobretot a producte, enginyeria i vendes, segons Bloomberg. La xifra final dependrà de les negociacions amb els treballadors."
-    },
-    {
-      "category": "CULTURA",
-      "read": "4 MIN",
-      "title": "Una patent de Google descriu un canal de vídeos i pel·lícules fets amb IA a mida de cada usuari, que fins i tot el faria sortir de protagonista",
-      "excerpt": "El sistema, anomenat My Channel, faria servir l'historial, l'edat i la ubicació de cada persona per generar vídeos i anuncis personalitzats. L'oficina de patents dels Estats Units n'ha rebutjat la sol·licitud, però Google la pot recórrer."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un model d'IA entrenat amb 114 milions de seqüències dissenya ARN de molts tipus, i al laboratori supera les molècules de referència, segons «Nature Machine Intelligence»",
-      "excerpt": "EVA, fet per equips de la Universitat Jiao Tong de Xangai i de Tsinghua, llegeix transcrits sencers i proposa des d'ARN de transferència fins a guies de CRISPR i vacunes d'ARN missatger. Els seus aptàmers brillen i s'enganxen a la diana el doble que el control."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Un robot de quatre potes amb molles canvia de manera de caminar sense cap controlador per a cada marxa: les marxes li surten de com vibra el cos",
-      "excerpt": "Enginyers del Centre Aeroespacial Alemany i de la Universitat Tècnica de Munic calculen sis maneres de vibrar del robot eBert i en fan sortir trot, pas i galop amb un control mínim, segons «Nature Machine Intelligence»."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "El congrés de Vielha estrena un sistema de traducció i subtítols automàtics en aranès, i la síndica d'Aran vol una factoria audiovisual en aquesta llengua",
-      "excerpt": "La segona edició del Congrés Internacional sobre Comunicació, Tecnologia i Llengües Minoritàries ha fet servir l'eina en directe. «Quedar enrere en IA és la mort» per a aquestes llengües, ha dit la síndica, Maria Vergés."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "5 MIN",
-      "title": "Les noves restriccions dels Estats Units i la lluita contra les còpies endarrereixen els grans models d'IA xinesos, segons Reuters",
-      "excerpt": "Zhipu AI no llançarà al novembre el seu model més gran, de 3 bilions de paràmetres, i Moonshot AI calcula que podria passar de treure un model nou cada sis mesos a treure'n un cada any si perd l'accés als centres de dades de fora de la Xina."
-    },
-    {
-      "category": "CIBERSEGURETAT",
-      "read": "4 MIN",
-      "title": "Suïssa confirma els primers atacs informàtics fets amb agents d'IA al país, i en quatre dels cinc casos van aconseguir entrar als sistemes",
-      "excerpt": "L'Oficina Federal de Ciberseguretat explica que els agents busquen sols els punts febles, trien les eines i canvien de tàctica quan la víctima reacciona, i demana instal·lar els pegats crítics en menys de 24 hores."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "Una revisió a «Nature Human Behaviour» troba poques proves de les pors més grans sobre com afecta la IA les persones, però avisa que la recerca tot just comença",
-      "excerpt": "Dinou investigadors de l'Institut de Seguretat de la IA del Regne Unit repassen què se sap de vuit preocupacions, de la pèrdua de capacitats mentals a la dependència emocional, i conclouen que l'evidència per a les versions més alarmants és modesta."
-    },
-    {
-      "category": "PRIVACITAT",
-      "read": "4 MIN",
-      "title": "Associacions de consumidors demanen a un jutjat d'Amsterdam que suspengui la venda de les ulleres amb càmera de Meta als Països Baixos",
-      "excerpt": "La Consumentenbond i Offlimits diuen que permeten filmar la gent sense que se n'adoni i que les gravacions poden servir per entrenar la IA de Meta, que ho nega. La resolució s'espera cap a mitjan desembre."
-    },
-    {
-      "category": "CATALUNYA",
-      "read": "4 MIN",
-      "title": "Els Mossos alerten que la IA fa més difícils de detectar les ciberestafes, en ple Black Friday",
-      "excerpt": "El sergent Albert Parramon explica que els estafadors fan servir la IA per polir els enganys de sempre: correus sense faltes, webs calcades a les originals i, almenys en un cas, la veu d'una altra persona."
-    },
-    {
-      "category": "GEOPOLÍTICA",
-      "read": "4 MIN",
-      "title": "ACTUALITZACIÓ: Nvidia atura els enviaments de servidors d'IA a Malàisia, Singapur, Tailàndia i Indonèsia mentre revisa si els socis compleixen les normes dels Estats Units",
-      "excerpt": "Segons The Wall Street Journal, l'empresa ha demanat a fabricants com Dell i Super Micro que deixin d'enviar-hi servidors sense data de represa. Alhora, uns bancs han congelat milers de milions en préstecs lligats als gegants del núvol xinesos."
-    },
-    {
-      "category": "CIÈNCIA",
-      "read": "4 MIN",
-      "title": "El soroll de les mesures limita els models d'IA de biologia tant com la quantitat de dades, i ho fa seguint una llei senzilla, segons «Nature Machine Intelligence»",
-      "excerpt": "Un equip de Harvard i el MIT ha entrenat més de 2.000 models amb dades de gens, de seqüències i d'imatges de cèl·lules. Els de proteïnes ja toleren els errors dels seqüenciadors actuals; els de cèl·lules individuals encara topen amb el soroll."
-    },
     {
       "category": "EMPRESES",
       "read": "4 MIN",
-      "title": "Anthropic explica com uns agents de Claude han reescrit en Rust el programari que atén totes les peticions a la seva IA, i que ara gasta un 70% menys de processador",
-      "excerpt": "Claude va escriure més del 80% del codi del nou sistema, però els enginyers van revisar cada canvi i en van rebutjar algun que només feia veure que funcionava. El trasllat es va fer sense aturar el servei."
+      "title": "OpenAI contrademanda Apple i l'acusa de robar-li informació dels seus futurs aparells i de pressionar-ne els proveïdors",
+      "excerpt": "OpenAI diu al tribunal de Califòrnia que un treballador que va tornar a Apple s'hi va endur dades d'un aparell nou i del calendari de maquinari de l'empresa. Apple ho nega i parla d'una maniobra per distreure l'atenció de la seva demanda del juliol."
     },
     {
-      "category": "MODELS",
-      "read": "3 MIN",
-      "title": "Ant Group publica Ling-3.2-air, un model obert que entén text, imatges i vídeo i que qualsevol empresa pot adaptar i vendre",
-      "excerpt": "La filial financera d'Alibaba l'ha penjat a Hugging Face amb la llicència MIT, la més permissiva. Diu que en una prova de feines d'oficina completa el 61% de les tasques, quatre vegades més que el seu model anterior."
+      "category": "REGULACIÓ",
+      "read": "4 MIN",
+      "title": "El Japó prepara sancions per a les empreses d'IA que no impedeixin que els seus models ajudin a fer ciberatacs",
+      "excerpt": "El govern japonès vol reformar la llei d'IA del 2025, que no té cap multa, perquè els grans proveïdors —també els nord-americans i els xinesos— hagin de bloquejar aquests usos i informar de les falles. El projecte de llei arribaria al Parlament el 2027."
     },
     {
-      "category": "CATALUNYA",
+      "category": "XIPS",
+      "read": "4 MIN",
+      "title": "Bloomberg troba xips Blackwell d'Nvidia, prohibits a la Xina, en un centre de dades de Xangai vinculat a Megaspeed",
+      "excerpt": "Dues empreses xineses van posar com a garantia d'un préstec un armari GB300 i un servidor GB200 instal·lats al mateix recinte. L'agència va resseguir el número de sèrie fins al fabricant taiwanès Gigabyte, que no diu qui el va comprar."
+    },
+    {
+      "category": "CIÈNCIA",
+      "read": "5 MIN",
+      "title": "Un model del MIT dissenya proteïnes a mida de 463 funcions diferents i, per primera vegada, proteïnes que canvien de forma quan hi arriba el calci",
+      "excerpt": "ProDiT s'ha entrenat amb seqüències, estructures i anotacions de 128 milions de proteïnes i genera molècules noves que mantenen els punts clau de l'original. Les funcions, de moment, només estan predites per ordinador: cap no s'ha fet al laboratori."
+    },
+    {
+      "category": "CULTURA",
       "read": "3 MIN",
-      "title": "ACTUALITZACIÓ: Brussel·les torna a allargar el termini de les grans gigafactories d'IA, i el projecte de Móra la Nova té fins al 30 de desembre per presentar-se",
-      "excerpt": "L'organisme europeu que gestiona la convocatòria ha ajornat quatre setmanes la data límit, que era el 3 de desembre. És el segon ajornament. El consorci, amb l'Estat, la Generalitat, Telefónica, Santander, ACS i Multiverse, es diu optimista."
+      "title": "The Chicks i les famílies de Willie Colón i Sam Moore s'afegeixen a la demanda contra Suno per fer cançons amb la seva identitat",
+      "excerpt": "Tretze noms més entren a la demanda col·lectiva que va iniciar Jason Isbell contra el generador de cançons amb IA: diuen que n'hi havia prou amb escriure el nom d'un artista a la instrucció. Suno ho nega i diu que ara els models ja no accepten noms."
     }
   ]
 }
