@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Barcelona",
+    "category": "IA I SOCIETAT",
+    "date": "28.11.2026",
+    "title": "La barcelonina Shoptimus AI, que fa funcionar l'aplicació de Bon Preu, diu que els clients que la fan servir compren un 12% més i vol arribar a 15 supermercats l'any vinent",
+    "summary": "La startup, fundada el 2023 per antics consultors de Kernel Analytics, prepara les llistes de la compra a mida de cada client i ara prova un assistent que respon a notes de veu, fotos o text i proposa receptes.",
+    "detail": "A l'octubre es va saber que Bon Preu preparava un assistent d'IA a la seva aplicació per planificar la compra. Ara el diari Ara explica qui hi ha al darrere: Shoptimus AI, una empresa emergent de Barcelona fundada el 2023 per uns socis que venien de Kernel Analytics, la consultora d'anàlisi de dades que va comprar Boston Consulting Group. L'empresa ven la seva tecnologia a les cadenes de supermercats com un servei de programari.\n\nEl sistema fa llistes de la compra adaptades a cada client, a partir de les seves preferències i objectius, i li proposa productes més sans, de proximitat o més barats. Per construir-lo, l'empresa hi ha treballat uns tres anys amb les dades de Bon Preu sobre la freqüència de compra, el pressupost de cada cistella i els hàbits setmanals i mensuals. Va començar a vendre's a principis del 2026 i, a més de Bon Preu, ja el fa servir la cadena AhorraMás. Segons les xifres de l'empresa, almenys un 7% dels usuaris de l'aplicació de Bon Preu fan servir aquestes eines, i els que ho fan compren un 12% més. La plantilla de Bon Preu prova ara un assistent de xat que accepta notes de veu, fotos o text i torna una llista de la compra amb una recepta, amb la possibilitat d'ajustar-la a les necessitats de proteïnes, vitamines o minerals de cadascú. El conseller delegat i cofundador, Pau Agulló, el descriu com una barreja d'«assistent de compra, nutricionista, economista, ecologista i xef».\n\nÉs un exemple d'adopció de la IA en un sector molt tradicional, el de la distribució alimentària, on la competència es fa amb marges petits i on conèixer bé el client és un avantatge. Shoptimus vol tenir 15 clients l'any vinent, sobretot a Europa i alguns a l'Amèrica Llatina, arribar a centenars de milers d'usuaris i facturar 500.000 euros a finals del 2027. A més llarg termini, es planteja entrar en la restauració i la distribució.\n\nTotes les xifres d'ús i de vendes les dona l'empresa, i no s'han pogut contrastar de manera independent: que els usuaris de l'eina comprin un 12% més no vol dir necessàriament que sigui gràcies a ella, perquè pot ser que els clients que ja compren més siguin els que l'activen. L'assistent de xat encara és en proves internes i no té data de llançament per al públic. La mateixa empresa reconeix que nou de cada deu usuaris continuen comprant a les botigues físiques.",
+    "source": "Ara (Empreses)",
+    "url": "https://empreses.ara.cat/empreses/ia-catalana-darrere-l-aplicacio-bon-preu-vol-assistent-nutricionista_1_5924358.html",
+    "image": "./assets/shoptimus-ai-app-bon-preu-assistent-compra-20261128.jpg",
+    "slug": "shoptimus-ai-app-bon-preu-assistent-compra"
+  },
+  {
     "place": "Catalunya",
     "category": "IA I SOCIETAT",
     "date": "28.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.diariandorra.ad/nacional/261125/andorra-digital-licita-incorporacio-intel-ligencia-artificial-contractacio-publica_209594.html",
     "image": "./assets/andorra-digital-licita-ia-contractacio-publica-20261125.jpg",
     "slug": "andorra-digital-licita-ia-contractacio-publica"
-  },
-  {
-    "place": "Barcelona",
-    "category": "IA I SOCIETAT",
-    "date": "25.11.2026",
-    "title": "La barcelonina Permut, que fa agents d'IA per atendre els clients d'empreses com CaixaBank i Esade, capta 3 milions d'euros per sortir a l'estranger",
-    "summary": "L'empresa, que fins ara s'havia finançat sola i ja és rendible, té una vuitantena de clients i nou treballadors, i vol arribar a vint amb la ronda encapçalada per Next Tier Ventures.",
-    "detail": "Els agents d'IA que atenen clients són un dels usos que més s'estenen a les empreses, i també un dels més disputats: hi competeixen les grans tecnològiques i desenes d'empreses joves. Permut, una empresa de Barcelona fundada per Alex Lopera, conseller delegat, i Oriol Blanc, director de tecnologia, ha fet un pas endavant en aquest mercat amb la seva primera ronda de finançament.\n\nL'empresa ha captat 3 milions d'euros en una ronda encapçalada pel fons Next Tier Ventures, amb la participació de Masia, Decelera, Secways, Cleo Capital i inversors particulars, segons explica l'Ara. Fins ara Permut s'havia finançat amb recursos propis i diu que va arribar a la rendibilitat en dotze mesos. La seva plataforma permet a les empreses crear, posar en marxa i gestionar agents al web, a les xarxes socials o al correu, que responen consultes i també fan accions connectades als sistemes interns de l'empresa, amb el to de cada marca. Té una vuitantena de clients, entre els quals Esade i CaixaBank, i nou treballadors.\n\nLa ronda servirà per entrar en nous mercats internacionals i reforçar l'equip tècnic i operatiu, que vol fer créixer fins a vint persones. L'objectiu és tancar el 2026 amb un centenar de clients i superar el milió d'euros d'ingressos recurrents anuals. «Estic molt orgullós d'haver arribat fins aquí sense finançament extern», diu Lopera. Per a Patricia Pastor, sòcia de Next Tier Ventures, Permut té «el producte i el lideratge necessaris per esdevenir un referent europeu en agents d'IA».\n\nLes xifres de rendiment són de l'empresa i no s'han pogut contrastar de manera independent: Permut afirma que els seus agents resolen entre el 80% i el 85% de les consultes sense intervenció humana i que les compres en què intervenen tenen un 60% més de conversió. Tres milions és una ronda modesta en un sector on els competidors nord-americans en capten centenars, i la prova serà si una empresa de nou persones pot créixer fora de casa davant d'aquests rivals.",
-    "source": "Ara",
-    "url": "https://www.ara.cat/economia/tecnologia/permut-ia-catalana-mes-enlla-l-atencio-euros-client-tanca-d-ronda-3-milions_1_5920635.html",
-    "image": "./assets/permut-agents-ia-ronda-tres-milions-20261125.jpg",
-    "slug": "permut-agents-ia-ronda-tres-milions"
   }
 ];
