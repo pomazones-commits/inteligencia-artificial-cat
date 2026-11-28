@@ -1,8 +1,19 @@
 {
  "nota": "GENERAT per automation/scripts/recull-premsa.mjs (workflow premsa.yml). No l'editis a mà: per treure una peça, posa'n l'adreça a \"exclou\" d'automation/press-sources.json; per destacar-ne una, incoming/premsa-destacats.json.",
- "actualitzat": "2026-11-28T05:25:49.613Z",
+ "actualitzat": "2026-11-28T09:13:56.946Z",
  "fonts": 44,
  "articles": [
+  {
+   "id": "bfc53ce5495e",
+   "mitja": "Ara",
+   "font": "ara",
+   "icona": "/assets/premsa/ara.svg",
+   "llengua": "ca",
+   "ambit": "catala",
+   "titol": "La IA catalana darrere l’aplicació de Bon Preu que vol ser el teu assistent i el teu nutricionista",
+   "url": "https://empreses.ara.cat/empreses/ia-catalana-darrere-l-aplicacio-bon-preu-vol-assistent-nutricionista_1_5924358.html",
+   "publicat": "2026-11-28T07:01:02.000Z"
+  },
   {
    "id": "aee7cf3e9842",
    "mitja": "Alicante Plaza",
@@ -67,7 +78,9 @@
    "ambit": "catala",
    "titol": "Wabilon: la IA per a arquitectura que estalvia costos a tota la cadena de valor",
    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/wabilon-ia-arquitectura-estalvia-costos-cadena-valor_1729760_102.html",
-   "publicat": "2026-11-28T04:30:00.000Z"
+   "publicat": "2026-11-28T04:30:00.000Z",
+   "noticia": "wabilon-vic-ia-revisa-projectes-arquitectura-llicencies",
+   "noticiaTitol": "La startup de Vic Wabilon fa servir la IA per revisar projectes d'arquitectura abans de demanar la llicència d'obres, i ja la fan servir alguns ajuntaments"
   },
   {
    "id": "e513c31182e4",
@@ -2773,17 +2786,6 @@
    "titol": "La fábrica asturiana de Bayer que hace posible la Aspirina mundial apuesta por la inteligencia artificial",
    "url": "https://www.elperiodico.com/es/economia/20261122/iberdrola-bayer-fabrica-asturiana-aspirina-inteligencia-artificial-136672042",
    "publicat": "2026-11-22T07:00:45.000Z"
-  },
-  {
-   "id": "3f0506c48167",
-   "mitja": "La Vanguardia",
-   "font": "lavanguardia-totes",
-   "icona": "/assets/premsa/la-vanguardia.webp",
-   "llengua": "es",
-   "ambit": "catala",
-   "titol": "El ministro de Educación de Corea del Sur dimite tras el escándalo por la copia con IA en exámenes",
-   "url": "https://www.lavanguardia.com/vida/20261122/11690322/ministro-educacion-corea-sur-dimite-escandalo-copia-ia-examenes.html",
-   "publicat": "2026-11-22T06:35:24.000Z"
   }
  ]
 }
