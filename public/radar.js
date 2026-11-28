@@ -1,5 +1,17 @@
 window.IA_RADAR = [
   {
+    "place": "Catalunya",
+    "category": "IA I SOCIETAT",
+    "date": "28.11.2026",
+    "title": "La startup de Vic Wabilon fa servir la IA per revisar projectes d'arquitectura abans de demanar la llicència d'obres, i ja la fan servir alguns ajuntaments",
+    "summary": "Fundada a l'abril per Arnau Sadurní i Roger Bayés, la plataforma comprova si un projecte compleix el Codi Tècnic de l'Edificació i la normativa urbanística, i diu què hi falta perquè l'expedient no torni enrere.",
+    "detail": "Obtenir una llicència d'obres pot trigar mesos, i una part del retard ve dels expedients que l'ajuntament retorna perquè hi falta un document o perquè el projecte no compleix alguna norma. Al juliol, el Govern va anunciar una estratègia tecnològica per accelerar aquests permisos, amb l'ús de models digitals d'edificis (BIM) per a les llicències d'obra i ambientals.\n\nEn aquest context ha nascut a Vic Wabilon, una empresa emergent fundada a l'abril del 2026 per Arnau Sadurní i Roger Bayés després de més d'un any de proves pilot. La seva plataforma fa servir la IA per revisar els projectes d'edificació i urbanisme contra el Codi Tècnic de l'Edificació, els decrets autonòmics, el planejament urbanístic i la normativa sectorial. Detecta què falta a l'expedient i proposa què s'ha de canviar i com, i també redacta informes i documents urbanístics per presentar-los. Segons la informació publicada per ON Economia, sis mesos després d'arrencar ja treballa amb diversos ajuntaments catalans que s'hi han subscrit, tot i que no se n'ha dit el nombre, i té un programa que ofereix dos mesos d'accés gratuït i il·limitat a 50 despatxos d'arquitectura seleccionats.\n\nL'interès és que la IA s'aplica a una feina molt concreta i feixuga, la de creuar un projecte amb desenes de normes, que afecta alhora arquitectes, promotors i administracions. Bayés defensa que l'eina treballa «sense renunciar al criteri humà», és a dir, que proposa però no decideix, i considera que el pla del Govern és complementari amb el que ells ja fan.\n\nL'empresa no ha donat xifres d'ingressos ni de clients, ni dades sobre quant escurça els terminis o quants errors detecta. Té previst tancar el 2026 amb tres contractacions noves i fer una ronda de finançament que concretarà el 2027. Com en qualsevol eina que interpreta normativa, la responsabilitat final del projecte continua sent dels tècnics que el signen i de l'ajuntament que el tramita.",
+    "source": "El Nacional (ON Economia)",
+    "url": "https://www.elnacional.cat/oneconomia/ca/empreses/wabilon-ia-arquitectura-estalvia-costos-cadena-valor_1729760_102.html",
+    "image": "./assets/wabilon-vic-ia-revisa-projectes-arquitectura-llicencies-20261128.jpg",
+    "slug": "wabilon-vic-ia-revisa-projectes-arquitectura-llicencies"
+  },
+  {
     "place": "Elx",
     "category": "RECERCA",
     "date": "27.11.2026",
@@ -82,17 +94,5 @@ window.IA_RADAR = [
     "url": "https://www.ara.cat/economia/tecnologia/permut-ia-catalana-mes-enlla-l-atencio-euros-client-tanca-d-ronda-3-milions_1_5920635.html",
     "image": "./assets/permut-agents-ia-ronda-tres-milions-20261125.jpg",
     "slug": "permut-agents-ia-ronda-tres-milions"
-  },
-  {
-    "place": "Tarragona",
-    "category": "IA I SOCIETAT",
-    "date": "25.11.2026",
-    "title": "La Generalitat encarrega al CIMNE de la UPC una IA que estimi quants pisos buits hi ha a cada barri a partir del consum d'aigua i del cadastre",
-    "summary": "El model calcularà la probabilitat que els habitatges d'una zona estiguin desocupats, sense assenyalar cap pis concret, i n'han de sortir els primers resultats a principi del 2027.",
-    "detail": "Saber quants habitatges buits hi ha i on són és una de les dades que més es discuteixen en la crisi de l'habitatge, i també una de les més difícils d'obtenir. L'últim cens de l'INE, del 2021, comptava a Catalunya 417.652 habitatges buits sobre 3.915.127, un 10,6%, però aquestes xifres no baixen gaire al detall i els municipis petits sovint no en tenen cap estudi propi.\n\nLa Generalitat ha encarregat al Centre Internacional de Mètodes Numèrics a l'Enginyeria (CIMNE), vinculat a la Universitat Politècnica de Catalunya, un model d'IA que estimi la probabilitat que els habitatges d'una zona estiguin desocupats, per secció censal, districte o municipi, segons explica el Diari de Tarragona. El model ha de distingir entre habitatges principals, secundaris i buits, i té en compte els pisos turístics. Combina la informació del cadastre sobre els edificis, una vintena d'estudis d'habitatge buit fets per ajuntaments i diputacions, el consum d'aigua agregat de l'Agència Catalana de l'Aigua, dades del mercat immobiliari, els registres turístics i altres dades obertes. El contracte, de 39.000 euros, va de maig a desembre del 2026, el dirigeix Gerard Mor i els primers resultats s'esperen a principi del 2027.\n\nLa Generalitat farà servir els resultats internament per decidir mesures d'habitatge, i el projecte vol donar dades més fines sobretot als municipis petits, que tenen menys informació. Per validar-lo, l'equip compararà les prediccions amb estudis anteriors en què alguns ajuntaments van comprovar sobre el terreny si els pisos eren ocupats. Només a la demarcació de Tarragona, el cens del 2021 hi comptava 87.906 habitatges sense residents o fets servir com a molt dues setmanes l'any, un 15,85% del parc.\n\nEl model no detecta si un pis concret és buit: dona una probabilitat per a una zona, i per tant no serveix per actuar contra cap propietari. La fiabilitat dependrà de la qualitat de les dades de partida, i el consum d'aigua agregat pot confondre un pis buit amb un d'ocupat poques setmanes l'any. L'equip no ha volgut avançar cap estimació preliminar: «No podem avançar cap informació», va dir Mor. A més, l'article no aclareix quin departament del Govern ha fet l'encàrrec ni si els resultats es faran públics.",
-    "source": "Diari de Tarragona",
-    "url": "https://www.diaridetarragona.com/tarragona/276527/tarragona-tendra-mapa-pisos-vacios-barrio-gracias-inteligencia-artificial.html",
-    "image": "./assets/generalitat-cimne-ia-estimar-pisos-buits-20261125.jpg",
-    "slug": "generalitat-cimne-ia-estimar-pisos-buits"
   }
 ];
